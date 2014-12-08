@@ -4,7 +4,7 @@
 
 // *======= Importing Stuff =======*
 
-
+import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 
@@ -448,12 +448,6 @@ recipes.addShaped(WirelessTerminal, [
 [WirelessReceiver, Terminal, WirelessReceiver],
 [NQuartzPlate, DiamondCircuit, NQuartzPlate],
 [NQuartzPlate, DEnergyCell, NQuartzPlate]]);
-
-// --- Quartz Glass
-recipes.addShaped(QuartzGlass, [
-[CertusRod, FluixDust, CertusRod],
-[FluixDust, ClearGlass, FluixDust],
-[CertusRod, FluixDust, CertusRod]]);
 
 // --- Vibrant Quartz Glass
 recipes.addShaped(VibrantQGlass, [
@@ -957,3 +951,6 @@ recipes.addShaped(<appliedenergistics2:item.ToolColorApplicator>, [
 recipes.addShaped(<appliedenergistics2:item.ToolBiometricCard>, [
 [<appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateAluminium>, <ore:plateAluminium>],
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],[null, null, null]]);
+
+//Quartz Glass
+AlloySmelter.addRecipe(<appliedenergistics2:tile.BlockQuartzGlass> * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
