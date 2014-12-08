@@ -1,0 +1,3803 @@
+<!--********************** CustomOreGen Geologica Module ******************
+
+    This file contains Presets, Options, and
+    Distributions for the rocks and minerals defined by Geologica.
+
+    We leave the COG-generated (standard) ores alone and simply
+    replace the stone with our rock, and then our rock with our
+    minerals. Since we generate coal and many different types of iron
+    ore, the user should probably disable vanilla ore generation, as
+    well as the COG generated coal and iron.
+    
+***************************************************************************-->
+
+<!-- ATG Adaptations
+  - Rework stone heights
+    Mudstone: 47-74 => 47-89 (current: 47-74)
+    Limestone: 77-89 => 92-130 (current: 77-110)
+    Sandstone: 133-170 (current: 113-150)
+    Quartzite/Gneiss: 173-255 (current: 153-255)
+-->
+
+<IfModInstalled name='PFAAGeologica'>
+  
+  <ConfigSection>
+
+    <OptionChoice name='GeologicaActive'
+                  default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                  displayGroup='groupInternal'>
+      <Choice value='true' displayValue='On'/>
+      <Choice value='false' displayValue='Off'/>
+      <Comment>
+        Controls whether Geologica is active in the current
+        dimension. By default, it is active in the overworld and
+        Mystcraft ages. To disable for a specific dimension, set this
+        to false in the CustomOreGen_Options.txt found in the
+        dimension directory (preferably before visiting it).
+      </Comment>
+    </OptionChoice>
+    
+    <OptionDisplayGroup name='groupGeologicaOres' displayName='Geologica Ores'
+                        displayState='shown'> 
+      <Description> 
+        Enable/disable ores for certain metals and other substances.
+      </Description>
+    </OptionDisplayGroup>
+
+    <OptionDisplayGroup name='groupGeologica' displayName='Geologica Forms'
+                        displayState='shown'> 
+      <Description> 
+        Enable/disable Geologica rock and ore formations.
+      </Description>
+    </OptionDisplayGroup>
+
+    <OptionChoice name='GeologicaGenRocks' default='true'
+                  displayState='shown' displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica rock distributions in the default pattern.
+        </Description>
+        <DisplayName>Geologica rocks</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+    </OptionChoice>
+
+    <OptionChoice name='GeologicaGenOres' default='true'
+                 displayState='shown_dynamic'
+                 displayGroup='groupGeologicaOres'>
+      <Description>
+        Generate Geologica ore formations
+      </Description>
+      <DisplayName>Geologica ores</DisplayName>
+      <Choice value='true' displayValue='On'/>
+      <Choice value='false' displayValue='Off'/>
+    </OptionChoice>
+    
+    <OptionChoice name='GeologicaGenPetroleum' default='true'
+                  displayState='shown' displayGroup='groupGeologica'>
+      <Description>
+        Generate petroleum resources, including crude oil (four
+        types), oil sand, oil shale and natural gas.
+      </Description>
+      <DisplayName>Geologica petroleum</DisplayName>
+      <Choice value='true' displayValue='On'/>
+      <Choice value='false' displayValue='Off'/>
+    </OptionChoice>
+
+    <ConfigSection>
+      <IfCondition condition=":=?GeologicaGenRocks &amp; ?GeologicaActive">
+        <Substitute name='DirtSubstitute' block='minecraft:stone'
+                    minHeight = '0' maxHeight=':= 40/64 * dimension.groundLevel'>
+          <Replaces block='minecraft:dirt'/>
+        </Substitute>
+      </IfCondition>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Biome Sets -->
+      <BiomeSet name='shieldVolcano'>
+        <Biome name='Volcano'/> <!-- BOP -->
+        <Biome name='Deadlands'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='stratovolcano'>
+        <Biome name='Extreme\s*Hills'/>
+        <Biome name='Extreme\s*Hills\s*Edge'/>
+      </BiomeSet>
+
+      <BiomeSet name='caldera'>
+        <Biome name='Hot Springs'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='felsic'>
+        <BiomeSet inherits='stratovolcano'/>
+        <BiomeSet inherits='caldera'/>
+      </BiomeSet>
+      
+      <BiomeSet name='volcanic'>
+        <BiomeSet inherits='felsic'/>
+        <BiomeSet inherits='shieldVolcano'/>
+      </BiomeSet>
+
+      <BiomeSet name='dome'>
+        <Biome name='glacier'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='folded'>
+        <Biome name='alps'/> <!-- BOP -->
+        <Biome name='highlands'/> <!-- BOP -->
+        <Biome name='crag'/> <!-- BOP -->
+        <Biome name='ice mountains'/>
+      </BiomeSet>
+
+      <BiomeSet name='island'>
+        <BiomeType name='mushroom'/>
+      </BiomeSet>
+      
+      <BiomeSet name='oceanic'>
+        <BiomeType name='ocean'/>
+        <BiomeSet inherits='island'/>
+      </BiomeSet>
+
+      <BiomeSet name='sedocean'>
+        <BiomeType name='ocean'/>
+        <Biome name='deep ocean' weight='-1'/>
+      </BiomeSet>
+      
+      <BiomeSet name='continental'>
+        <Biome name='.*'/>
+        <BiomeSet inherits='oceanic' weight='-1'/>
+        <BiomeSet inherits='volcanic' weight='-1'/>
+      </BiomeSet>
+
+      <BiomeSet name='inland' inherits='continental'>
+        <BiomeType name='beach' weight='-1'/>
+      </BiomeSet>
+
+      <BiomeSet name='frozen-continental'>
+        <BiomeType name='cold'/>
+        <BiomeType name='ocean' weight='-1'/>
+      </BiomeSet>
+      
+    </ConfigSection>
+    
+    <ConfigSection>
+
+      <OptionChoice name='GeologicaOverride' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          If Geologica generates a type of ore, override the
+          corresponding generation from vanilla or other mods. It is
+          most efficient, but not necessary, to also (or
+          alternatively) disable the COG generation of these ores, as
+          well as generation options in mod configurations.
+        </Description>
+        <DisplayName>Override vanilla/mod ores</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GeologicaGenCoal' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of coal
+        </Description>
+        <DisplayName>Coal</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenIron' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of iron (hematite, magnetite)
+        </Description>
+        <DisplayName>Iron</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenGold' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of gold
+        </Description>
+        <DisplayName>Gold</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenLapis' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of lapis lazuli
+        </Description>
+        <DisplayName>Lapis Lazuli</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenDiamond' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of diamonds
+        </Description>
+        <DisplayName>Diamonds</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenRedstone' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of redstone
+        </Description>
+        <DisplayName>Redstone</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenCopper' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of copper ore
+          (chalcopyrite, malachite)
+        </Description>
+        <DisplayName>Copper (Chalcopyrite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenTin' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of tin ore (cassiterite)
+        </Description>
+        <DisplayName>Tin (Cassiterite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenAluminum' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of aluminium ore (bauxite).
+        </Description>
+        <DisplayName>Aluminium (Bauxite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenMercury' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of mercury ore (cinnabar).
+        </Description>
+        <DisplayName>Mercury (Cinnabar)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenLeadZinc' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of zinc and lead ore
+          (sphalerite, galena).
+        </Description>
+        <DisplayName>Lead/Zinc</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenTungsten' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of tungsten ore
+          (scheelite, wolframite).
+        </Description>
+        <DisplayName>Tungsten</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GeologicaGenNickel' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of nickel ore (pentlandite,
+          garnierite).
+        </Description>
+        <DisplayName>Nickel (Pentlandite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenChromium' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of chromium ore (chromite).
+        </Description>
+        <DisplayName>Chromium (Chromite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenTitanium' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of titanium ore (ilmenite).
+        </Description>
+        <DisplayName>Titanium (ilmenite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenMolybdenum' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of molybdenum ore (molybdenite).
+        </Description>
+        <DisplayName>Molybdenum (Molybdenite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenManganese' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of manganese ore (pyrolusite).
+        </Description>
+        <DisplayName>Manganese (Pyrolusite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GeologicaGenUranium' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of uranium ore (uraninite).
+        </Description>
+        <DisplayName>Uranium (Uraninite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenApatite' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of apatite (phosphate ore).
+        </Description>
+        <DisplayName>Phosphate (Apatite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GeologicaGenSalt' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of salt ore (halite).
+        </Description>
+        <DisplayName>Salt (Halite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenQuartz' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologicaOres'>
+        <Description>
+          Generate Geologica distributions of quartz and associated minerals.
+        </Description>
+        <DisplayName>Quartz</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+    </ConfigSection>
+
+    <ConfigSection>
+      
+      <OptionChoice name='GeologicaGenBIF'
+                    default=':=?GeologicaGenOres &amp; ?GeologicaGenIron'
+                    displayState=':=if(?GeologicaGenOres &amp; ?GeologicaGenIron, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate sedimentary banded iron formations, primarily of
+          hematite, with some recoverable magnetite.
+        </Description>
+        <DisplayName>Banded Iron Formations</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenSandOres' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica placer deposits (iron, tin,
+          garnet). This is recommended if you disable vanilla iron.
+        </Description>
+        <DisplayName>Placer deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenVolcanic' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica volcanic ore deposits including alunite,
+          ash, perlite, pumice and zeolite, as well as fumaroles
+          (volcanic pipes) with gypsum, halite and realgar.
+        </Description>
+        <DisplayName>Volcanic deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenSerpVeins' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica serpentinite veins that are rich in
+          soapstone, magnesite, chromite and chrysotile.
+        </Description>
+        <DisplayName>Serpentinite veins</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenLaterites' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica ore deposits in bogs and tropical
+          lateritic soils (bauxite, limonite, garnierite).
+        </Description>
+        <DisplayName>Bog/lateritic ores</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenIgVeins' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica ore veins in igneous rock (ilmenite,
+          chromite, vermiculite, magnetite, chalcopyrite, ...) 
+        </Description>
+        <DisplayName>Ore veins in igneous rock</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenIgIntrusion' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica igneous intrusions where mafic rock has
+          penetrated the upper reaches of the crust. Contain large
+          deposits of magnetite, magnesite, pentlandite, ilmenite,
+          chromite and vermiculite.
+        </Description>
+        <DisplayName>Igneous intrusions</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenEvaporite' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica marine evaporite deposits rich in
+          gypsum and rock salt.
+        </Description>
+        <DisplayName>Evaporite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenVMS' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica Volcagenic Massive Sulfide deposits,
+          rich in sulfide ores like sphalerite, galena, and
+          chalcopyrite.
+        </Description>
+        <DisplayName>VMS deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenSEDEX' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate SEDimentary EXhalative deposits rich in
+          sphalerite, galena, scheelite, and chalcopyrite.
+        </Description>
+        <DisplayName>SEDEX deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenPegmatite' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica pegmatite veins with a rich assortment
+          of minerals.
+        </Description>
+        <DisplayName>Pegmatite veins</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenCarbonate' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica carbonate deposits with minerals like
+          magnesite, soapstone, wollastonite, sphalerite and galena.
+        </Description>
+        <DisplayName>Carbonate ore deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenBarite' default=':=?GeologicaGenOres'
+                      displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                      displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica barite deposits.
+        </Description>
+        <DisplayName>Barite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenMarine' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica marine-related deposits.
+        </Description>
+        <DisplayName>Marine-related deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenGraphite' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica graphite deposits in various patterns.
+        </Description>
+        <DisplayName>Graphite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GeologicaGenClay' default=':=?GeologicaGenOres'
+                    displayState=':=if(?GeologicaGenOres, "shown", "hidden")'
+                    displayGroup='groupGeologica'>
+        <Description>
+          Generate Geologica mineral clay deposits, including
+          bentonite, Fuller's earth and kaolinite.
+        </Description>
+        <DisplayName>Mineral clay deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+    
+    </ConfigSection>
+    
+    <ConfigSection>
+      <!--
+      <Substitute name='CountOceanChunks' block='PFAAGeologica:strongStone:1'
+                  minHeight='63' maxHeight='63'>
+        <Replaces block='.*'/>
+        <Biome name='Ocean'/>
+        <Biome name='FrozenOcean'/>
+      </Substitute>
+      -->
+
+      <SubstitutePreset name='PresetPrimaryStratum'>
+        <Replaces block='minecraft:stone'/>
+        <IfCondition condition=":=?GeologicaOverride &amp; ?GeologicaActive">
+          <IfCondition condition=":=?GeologicaGenCoal">
+            <ReplacesOre block='oreCoal'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenGold">
+            <ReplacesOre block='oreGold'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenLapis">
+            <ReplacesOre block='oreLapis'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenDiamond">
+            <ReplacesOre block='oreDiamond'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenRedstone">
+            <ReplacesOre block='oreRedstone'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenIron">
+            <ReplacesOre block='oreIron'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenCopper">
+            <ReplacesOre block='oreCopper'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenTin">
+            <ReplacesOre block='oreTin'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenAluminum">
+            <ReplacesOre block='oreBauxite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenMercury">
+            <ReplacesOre block='oreCinnabar'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenLeadZinc">
+            <ReplacesOre block='oreLead'/>
+            <ReplacesOre block='oreZinc'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenNickel">
+            <ReplacesOre block='oreNickel'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenChromium">
+            <ReplacesOre block='oreChromium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenTitanium">
+            <ReplacesOre block='oreTitanium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenMolybdenum">
+            <ReplacesOre block='oreMolydenum'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenManganese">
+            <ReplacesOre block='oreManganese'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenSalt">
+            <ReplacesOre block='oreSalt'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenUranium">
+            <ReplacesOre block='oreUranium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenApatite">
+            <ReplacesOre block='oreApatite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenRocks">
+            <ReplacesOre block='blockMarble'/>
+            <ReplacesOre block='blockLimestone'/>
+          </IfCondition>
+        </IfCondition>
+      </SubstitutePreset>
+
+      <CloudPreset name='PresetStratum'>
+        <Description>
+          Solid clouds that form layers of rock and minerals. Individual
+          layer generators are expected to modify the CloudHeight,
+          CouldThickness and DistributionFrequency settings.
+        </Description>
+        <Setting name='DistributionFrequency' avg='1.0'/>
+        <Setting name='CloudRadius' avg='16' range='0' type='normal'/>
+        <Setting name='CloudThickness' range='3' type='normal'/>
+        <Setting name='CloudHeight' range='2' type='uniform'/>
+        <Setting name='OreDensity' avg='1.0'/>
+        <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+        <Replaces block='minecraft:stone'/>
+      </CloudPreset>
+
+      <SubstitutePreset name='PresetPrimaryStratumContinental'
+                        inherits='PresetPrimaryStratum'>
+        <Description>
+          The continental crust is fundamentally different from the
+          oceanic crust, and from volcanic regions. It is formed via
+          plate subduction, where water from the ocean is intermixed,
+          causing partial melting and the formation of felsic igneous
+          rock (granite). Also, there is more substantial accumulation
+          of sediment, relative to the ocean.
+        </Description>
+        <BiomeSet inherits='continental'/>
+        <BiomeSet inherits='folded' weight='-1'/>
+      </SubstitutePreset>
+      
+      <CloudPreset name='PresetStratumContinental'
+                   inherits='PresetStratum'>
+        <BiomeSet inherits='continental'/>
+      </CloudPreset>
+      
+      <SubstitutePreset name='PresetPrimaryStratumOceanic'
+                        inherits='PresetPrimaryStratum'>
+        <Description>
+          The ocean crust is formed from partial melting of peridotite
+          from the mantel. This results in gabbro intrusions and
+          extrusions in the form of basalt. Islands are formed from
+          accumulation of basalt.
+        </Description>
+        <BiomeSet inherits='oceanic'/>
+        <BiomeSet inherits='folded'/>
+      </SubstitutePreset>
+      
+      <CloudPreset name='PresetStratumOceanic' inherits='PresetStratum'>
+        <BiomeSet inherits='oceanic'/>
+        <BiomeSet inherits='folded'/>
+      </CloudPreset>
+      
+      <SubstitutePreset name='PresetPrimaryStratumVolcanic'
+                        inherits='PresetPrimaryStratum'>
+        <Description>
+          Numerous igneous intrusions will be found beneath
+          volcanoes. These volcanoes are assumed to be formed in
+          subduction zones, so they will be layered with felsic
+          extrusions, like rhyolite and andesite.
+        </Description>
+        <BiomeSet inherits='felsic'/>
+      </SubstitutePreset>
+      
+      <CloudPreset name='PresetStratumVolcanic' inherits='PresetStratum'>
+        <BiomeSet inherits='felsic'/>
+      </CloudPreset>
+     
+      <VeinsPreset name='PresetRockVeins'>
+        <Description>
+          Thick veins of rock, usually formed through hydrothermal processes.
+        </Description>
+        <Setting name='MotherlodeRangeLimit' avg='8' range='5'/>
+        <Setting name='MotherlodeSize' avg='4'/>
+        <Setting name='SegmentRadius' avg='3' range='2' type='normal'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetIntrusiveVeins'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <Setting name='MotherlodeFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight' avg='30' range='30'/>
+          <BiomeSet inherits='continental' weight='0.5'/>
+          <BiomeSet inherits='oceanic'/>
+          <BiomeSet inherits='volcanic'/>
+          <ReplacesOre block='stone'/>
+        </VeinsPreset>
+        
+    </ConfigSection>
+    
+    <ConfigSection> <!-- Rocks -->
+      
+      <ConfigSection> <!-- Igneous -->
+        
+        <Description>
+          Igneous rocks are either intrusive (from magma) or extrusive
+          (from lava). There is a range of silicate content, denoted by
+          the terms mafic, intermediate and felsic in increasing
+          order. Extrusive rocks will be limited to volcanic regions,
+          i.e, islands and the extreme hills. Islands consist of mafic
+          basalt, and one will find only the more felsic andesite and
+          rhyolite in the mountains. Igneous intrusions lay deep under
+          the surface of every biome.
+        </Description>
+      
+        <ConfigSection> <!-- Diorite -->
+          <SubstitutePreset name='PresetDioriteContinental'
+                            block='PFAAGeologica:veryStrongStone:0'
+                            inherits='PresetPrimaryStratumContinental'
+                            minHeight='0' maxHeight='18'/>
+          <SubstitutePreset name='PresetDioriteVolcanic'
+                            block='PFAAGeologica:veryStrongStone:0'
+                            inherits='PresetPrimaryStratumVolcanic'
+                            minHeight='15' maxHeight='38'/>
+          <VeinsPreset name='PresetDioriteVeins'
+                     inherits='PresetIntrusiveVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFF222222'
+                     block='PFAAGeologica:veryStrongStone:0'/>
+        </ConfigSection>
+
+        <ConfigSection> <!-- Gabbro -->
+          <SubstitutePreset name='PresetGabbroVolcanic'
+                            block='PFAAGeologica:veryStrongStone:1'
+                            inherits='PresetPrimaryStratumVolcanic'
+                            minHeight='0' maxHeight='12'/>
+          <SubstitutePreset name='PresetGabbroShieldVolcano'
+                            block='PFAAGeologica:veryStrongStone:1'
+                            inherits='PresetPrimaryStratumContinental'
+                            minHeight='0' maxHeight='37'>
+            <BiomeSet inherits='shieldVolcano'/>
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetGabbroOceanic'
+                            block='PFAAGeologica:veryStrongStone:1'
+                            inherits='PresetPrimaryStratumOceanic'
+                            minHeight='0' maxHeight='12'/>
+          <VeinsPreset name='PresetGabbroVeins'
+                     inherits='PresetIntrusiveVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFAA5555'
+                     block='PFAAGeologica:veryStrongStone:1'/>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Granite -->
+          <SubstitutePreset name='PresetGraniteContinental'
+                            block='PFAAGeologica:strongStone:3'
+                            inherits='PresetPrimaryStratumContinental'
+                            minHeight='21' maxHeight='44'/>
+          <SubstitutePreset name='PresetGraniteVolcanic'
+                            block='PFAAGeologica:strongStone:3'
+                            inherits='PresetPrimaryStratumVolcanic'
+                            minHeight='41' maxHeight='73'/>
+          <SubstitutePreset name='PresetGraniteShield'
+                            block='PFAAGeologica:strongStone:3'
+                            inherits='PresetPrimaryStratum'
+                            minHeight='41' maxHeight='80'>
+            <Biome name='shield'/> <!-- BOP -->
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetGraniteDome'
+                            block='PFAAGeologica:strongStone:3'
+                            inherits='PresetPrimaryStratum'
+                            minHeight='77' maxHeight='130'>
+            <BiomeSet inherits='dome'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:grass'/>
+          </SubstitutePreset>
+        </ConfigSection>
+
+        <ConfigSection> <!-- Andesite -->
+          <SubstitutePreset name='PresetAndesite'
+                            block='PFAAGeologica:strongStone:0'
+                            inherits='PresetPrimaryStratumVolcanic'
+                            minHeight='76' maxHeight='89'/>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Basalt -->
+          <SubstitutePreset name='PresetBasalt'
+                            block='PFAAGeologica:strongStone:1'
+                            inherits='PresetPrimaryStratumOceanic'
+                            minHeight='15' maxHeight='34'/>
+          <SubstitutePreset name='PresetBasaltShieldVolcano'
+                            block='PFAAGeologica:strongStone:1'
+                            inherits='PresetPrimaryStratumContinental'
+                            minHeight='40' maxHeight='100'>
+            <BiomeSet inherits='shieldVolcano'/>
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetBasaltIsland'
+                            block='PFAAGeologica:strongStone:1'
+                            inherits='PresetPrimaryStratumOceanic'
+                            minHeight='52' maxHeight='80'>
+            <BiomeSet inherits='oceanic'/>
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetBasaltMesa'
+                            block='PFAAGeologica:strongStone:1'
+                            inherits='PresetPrimaryStratumContinental'
+                            minHeight='86' maxHeight='110'>
+            <BiomeType name='mesa'/>
+          </SubstitutePreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Rhyolite -->
+          <SubstitutePreset name='PresetRhyolite'
+                            block='PFAAGeologica:strongStone:7'
+                            inherits='PresetPrimaryStratumVolcanic'
+                            minHeight='92'/>
+          <SubstitutePreset name='PresetRhyoliteCaldera'
+                            block='PFAAGeologica:strongStone:7'
+                            inherits='PresetPrimaryStratum'
+                            minHeight='47' maxHeight='90'>
+            <BiomeSet inherits='caldera'/>
+          </SubstitutePreset>
+        </ConfigSection>
+        
+      </ConfigSection>
+      
+      <ConfigSection> <!-- Sedimentary -->
+        
+        <Description>
+          Sedimentary rocks include mudstone, claystone, limestone,
+          conglomerate/breccia and sandstone, among others that we
+          exclude for simplicity. These will be deposited everywhere
+          except the volcanic zones.
+        </Description>
+        
+        <CloudPreset name='PresetSedimentaryContinental'
+                     inherits='PresetStratumContinental'>
+          <BiomeSet inherits='continental'/>
+        </CloudPreset>
+
+        <SubstitutePreset name='PresetPrimarySedimentaryContinental'
+                          inherits='PresetPrimaryStratumContinental'>
+          <BiomeSet inherits='continental'/>
+        </SubstitutePreset>
+        
+        <CloudPreset name='PresetSedimentaryContinentalMinor'
+                     inherits='PresetSedimentaryContinental'>
+          <Setting name='CloudThickness' avg='4' range='2'/>
+          <Setting name='CloudHeight' avg=':= 75/64 * dimension.groundLevel'
+                   range='30'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+        </CloudPreset>
+
+        <SubstitutePreset name='PresetPrimarySedimentaryMesa'
+                          inherits='PresetPrimarySedimentaryContinental'>
+          <BiomeType name='mesa'/>
+        </SubstitutePreset>
+        
+        <SubstitutePreset name='PresetPrimarySedimentaryOceanic'
+                     inherits='PresetPrimaryStratum'
+                     minHeight='37' maxHeight='49'>
+          <BiomeType name='ocean'/>
+          <BiomeSet inherits='folded'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='minecraft:dirt'/>
+        </SubstitutePreset>
+        
+        <CloudPreset name='PresetSedimentaryOceanic'
+                     inherits='PresetStratumOceanic'>
+          <Setting name='CloudThickness' avg='5'/>
+          <Setting name='CloudHeight' avg='45'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+        </CloudPreset>
+        
+        <ConfigSection> <!-- Breccia -->
+          <CloudPreset name='PresetBreccia' block='PFAAGeologica:weakStone:0'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <Setting name='DistributionFrequency' avg='0.20'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Claystone -->
+          <CloudPreset name='PresetClaystone' block='PFAAGeologica:weakStone:2'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <Setting name='DistributionFrequency' avg='0.20'/>
+          </CloudPreset>
+          <CloudPreset name='PresetClaystoneOceanic'
+                       block='PFAAGeologica:weakStone:2'
+                       inherits='PresetSedimentaryOceanic'>
+            <Setting name='DistributionFrequency' avg='0.02'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Conglomerate -->
+          <CloudPreset name='PresetConglomerate'
+                       block='PFAAGeologica:weakStone:3'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <Setting name='DistributionFrequency' avg='0.20'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Mudstone -->
+          <SubstitutePreset name='PresetMudstone'
+                            block='PFAAGeologica:weakStone:4'
+             inherits='PresetPrimarySedimentaryContinental'
+             minHeight='47' maxHeight='74'/>
+          <!--
+              maxHeight=":= if(dimension.generator='ATGLevelSource', 89, 74)"
+          -->
+          <CloudPreset name='PresetMudstoneOceanic'
+                       block='PFAAGeologica:weakStone:4'
+                       inherits='PresetSedimentaryOceanic'>
+            <Setting name='DistributionFrequency' avg='0.10'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Limestone -->
+          
+          <CloudPreset name='PresetLimestoneLower'
+                       block='PFAAGeologica:mediumStone:0'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <Setting name='DistributionFrequency' avg='0.20'/>
+          </CloudPreset>
+          
+          <SubstitutePreset name='PresetLimestoneOceanic'
+                            block='PFAAGeologica:mediumStone:0'
+                            inherits='PresetPrimarySedimentaryOceanic'>
+          </SubstitutePreset>
+
+          <SubstitutePreset name='PresetLimestoneHills'
+                            block='PFAAGeologica:mediumStone:0'
+                            inherits='PresetPrimarySedimentaryContinental'
+                            minHeight='77' maxHeight='110'>
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetLimestoneMesa'
+                            block='PFAAGeologica:mediumStone:0'
+                            inherits='PresetPrimarySedimentaryMesa'
+                            minHeight='60' maxHeight='70'/>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Sandstone -->
+          <CloudPreset name='PresetSandstone'
+                       block='PFAAGeologica:strongStone:8'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <Setting name='DistributionFrequency' avg='0.40'/>
+          </CloudPreset>
+          <CloudPreset name='PresetSandstoneOceanic'
+                       block='PFAAGeologica:strongStone:8'
+                       inherits='PresetSedimentaryOceanic'>
+            <Setting name='DistributionFrequency' avg='0.04'/>
+          </CloudPreset>
+          <SubstitutePreset name='PresetSandstoneHills'
+                            block='PFAAGeologica:strongStone:8'
+                            inherits='PresetPrimarySedimentaryContinental'
+                            minHeight='113' maxHeight='150'>
+          </SubstitutePreset>
+          <SubstitutePreset name='PresetSandstoneMesa'
+                            block='PFAAGeologica:strongStone:8'
+                            inherits='PresetPrimarySedimentaryMesa'
+                            minHeight='71' maxHeight='80'/>
+        </ConfigSection>
+        
+      </ConfigSection>  
+      
+      <ConfigSection> <!-- Metamorphic -->
+        
+        <Description>
+          Metamorphic rock has been formed from other rock. The changes
+          are usually brought about through high temperature and
+          pressure. A combination of these converts sedimentary rocks to
+          slate, then schist, and finally gneiss. Increased temperature
+          due to magma contact forms marble, hornfel and
+          quartzite. Pegmatite and serpentinite are created through
+          hydrothermal activity.
+        </Description>
+        
+        <CloudPreset name='PresetMetamorphicContinental'
+                     inherits='PresetStratumContinental'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <Setting name='CloudHeight' avg='40' range='5'/>
+          <Setting name='CloudThickness' avg='3' range='1'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetMetamorphicVolcanic'
+                     inherits='PresetStratumVolcanic'>
+          <Setting name='DistributionFrequency' avg='0.2'/>
+          <Setting name='CloudThickness' avg='4' range='2'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetMetamorphicOceanic'
+                     inherits='PresetStratumOceanic'>
+          <Setting name='DistributionFrequency' avg='0.1'/>
+          <Setting name='CloudThickness' avg='3' range='2'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+        </CloudPreset>
+        
+        <ConfigSection> <!-- Slate -->
+          <CloudPreset name='PresetSlate' block='PFAAGeologica:mediumStone:3'
+                       inherits='PresetMetamorphicContinental'>
+            <Setting name='DistributionFrequency' avg='0.2'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Schist -->
+          <CloudPreset name='PresetSchist' block='PFAAGeologica:mediumStone:1'
+                       inherits='PresetMetamorphicContinental'>
+            <Setting name='CloudHeight' avg='30' range='10'/>
+            <Setting name='DistributionFrequency' avg='0.1'/>
+          </CloudPreset>
+          <CloudPreset name='PresetSchistVolcanic'
+                       block='PFAAGeologica:mediumStone:1'
+                       inherits='PresetMetamorphicVolcanic'>
+            <Setting name='CloudHeight' avg='60' range='20'/>
+          </CloudPreset>
+          <CloudPreset name='PresetSchistOceanic'
+                       block='PFAAGeologica:mediumStone:1'
+                       inherits='PresetMetamorphicOceanic'>
+            <Setting name='CloudHeight' avg='15' range='10'/>
+          </CloudPreset>
+        </ConfigSection>
+
+        <ConfigSection> <!-- Skarn -->
+          <CloudPreset name='PresetSkarn'
+                       inherits='PresetMetamorphicContinental'>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:weakStone:4'/>
+            <Replaces block='PFAAGeologica:strongStone:3'/>
+            <Replaces block='PFAAGeologica:mediumStone:0'/>
+            <Replaces block='PFAAGeologica:strongStone:1'/>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+            <OreBlock block='PFAAGeologica:mediumStone:4' weight='0.9'/>
+            <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.05'/>
+            <OreBlock block='PFAAGeologica:strongStone:5' weight='0.045'/>
+          </CloudPreset>
+          <CloudPreset name='PresetSkarnOceanic'
+                       inherits='PresetSkarn'>
+            <Setting name='CloudHeight' avg=':= 35/64 * dimension.groundLevel'
+                         range=':= 3/64 * dimension.groundLevel'/>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+          </CloudPreset>
+        </ConfigSection>
+
+        <ConfigSection> <!-- Gneiss -->
+          <CloudPreset name='PresetGneiss' block='PFAAGeologica:strongStone:2'
+                       inherits='PresetMetamorphicContinental'>
+            <Setting name='CloudHeight' avg='20' range='10'/>
+            <Setting name='DistributionFrequency' avg='0.05'/>
+          </CloudPreset>
+          <CloudPreset name='PresetGneissVolcanic'
+                       block='PFAAGeologica:strongStone:2'
+                       inherits='PresetMetamorphicVolcanic'>
+            <Setting name='CloudHeight' avg='25' range='20'/>
+          </CloudPreset>
+          <CloudPreset name='PresetGneissShield'
+                       block='PFAAGeologica:strongStone:2'
+                       inherits='PresetMetamorphicContinental'>
+            <Setting name='CloudHeight' avg='55' range='10'/>
+            <Biome name='shield'/>
+          </CloudPreset>
+          <SubstitutePreset name='PresetGneissTops'
+                            block='PFAAGeologica:strongStone:2'
+                            inherits='PresetPrimarySedimentaryContinental'
+                            minHeight='153' maxHeight='255'>
+            <Biome name='alps'/>
+          </SubstitutePreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Greenschist -->
+          
+          <CloudPreset name='PresetGreenschistContinental'
+                       block='PFAAGeologica:strongStone:4'
+                       inherits='PresetSchist'>
+            <Setting name='DistributionFrequency' avg='0.001'/>
+          </CloudPreset>
+
+          <CloudPreset name='PresetGreenschistVolcanic'
+                       block='PFAAGeologica:strongStone:4'
+                     inherits='PresetStratumVolcanic'>
+            <Setting name='DistributionFrequency' avg='0.02'/>
+            <Setting name='CloudHeight' avg='10' range='5'/>
+            <Setting name='CloudThickness' avg='3' range='1'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+          </CloudPreset>
+
+          <CloudPreset name='PresetGreenschistOceanic'
+                       block='PFAAGeologica:strongStone:4'
+                       inherits='PresetStratumOceanic'>
+            <Setting name='DistributionFrequency' avg='0.05'/>
+            <Setting name='CloudHeight' avg='15' range='10'/>
+            <Setting name='CloudThickness' avg='3' range='1'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+            <Replaces block='PFAAGeologica:strongStone:1'/>
+          </CloudPreset>
+          
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Marble -->
+          <CloudPreset name='PresetMarble'
+                       inherits='PresetMetamorphicContinental'>
+            <OreBlock block='PFAAGeologica:mediumStone:4' weight='0.05'/>
+            <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.05'/>
+            <OreBlock block='PFAAGeologica:strongStone:5' weight='0.9'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Hornfels -->
+          <CloudPreset name='PresetHornfels'
+                       inherits='PresetMetamorphicContinental'>
+            <OreBlock block='PFAAGeologica:weakStone:2' weight='0.10'/>
+            <OreBlock block='PFAAGeologica:veryStrongStone:2' weight='0.9'/>
+          </CloudPreset>
+        </ConfigSection>
+        
+        <ConfigSection> <!-- Quartzite -->
+          <CloudPreset name='PresetQuartzite'
+                       block='PFAAGeologica:veryStrongStone:4'
+                       inherits='PresetMetamorphicContinental'/>
+          <SubstitutePreset name='PresetQuartziteTops'
+                            block='PFAAGeologica:veryStrongStone:4'
+                            inherits='PresetPrimarySedimentaryContinental'
+                            minHeight='153' maxHeight='255'/>
+          <SubstitutePreset name='PresetQuartziteMesa'
+                            block='PFAAGeologica:veryStrongStone:4'
+                            inherits='PresetPrimarySedimentaryMesa'
+                            minHeight='81' maxHeight='85'/>
+        </ConfigSection>
+        
+      </ConfigSection>
+
+      <ConfigSection> <!-- Transitions -->
+        
+        <SubstitutePreset name='PresetGabbroDiorite'
+                          inherits='PresetPrimaryStratumVolcanic'
+                          minHeight='13' maxHeight='14'>
+          <OreBlock block='PFAAGeologica:veryStrongStone:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:1' weight='0.5'/>
+        </SubstitutePreset>
+        
+        <SubstitutePreset name='PresetDioriteGraniteContinental'
+                          inherits='PresetPrimaryStratumContinental'
+                          minHeight='19' maxHeight='20'>
+          <OreBlock block='PFAAGeologica:veryStrongStone:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+        </SubstitutePreset>
+        
+        <SubstitutePreset name='PresetDioriteGraniteVolcanic'
+                          inherits='PresetPrimaryStratumVolcanic'
+                          minHeight='39' maxHeight='40'>
+          <OreBlock block='PFAAGeologica:veryStrongStone:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetGraniteAndesite'
+                          inherits='PresetPrimaryStratumVolcanic'
+                          minHeight='74' maxHeight='75'>
+          <OreBlock block='PFAAGeologica:strongStone:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetAndesiteRhyolite'
+                          inherits='PresetPrimaryStratumVolcanic'
+                          minHeight='90' maxHeight='91'>
+          <OreBlock block='PFAAGeologica:strongStone:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:7' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetGabbroBasalt'
+                          inherits='PresetPrimaryStratumOceanic'
+                          minHeight='13' maxHeight='14'>
+          <OreBlock block='PFAAGeologica:strongStone:1' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:1' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetGabbroBasaltShieldVolcano'
+                          inherits='PresetPrimaryStratumContinental'
+                          minHeight='38' maxHeight='39'>
+          <OreBlock block='PFAAGeologica:strongStone:1' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:1' weight='0.5'/>
+          <BiomeSet inherits='shieldVolcano'/>
+        </SubstitutePreset>
+        
+        <SubstitutePreset name='PresetBasaltLimestone'
+                          inherits='PresetPrimaryStratumOceanic'
+                          minHeight='35' maxHeight='36'>
+          <OreBlock block='PFAAGeologica:strongStone:1' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetLimestoneBasaltIsland'
+                          inherits='PresetPrimaryStratumOceanic'
+                          minHeight='50' maxHeight='51'>
+          <OreBlock block='PFAAGeologica:strongStone:1' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.5'/>
+          <BiomeSet inherits='oceanic'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetGraniteMudstone'
+                          inherits='PresetPrimaryStratumContinental'
+                          minHeight='45' maxHeight='46'>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:weakStone:4' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetGraniteRhyolite'
+                          inherits='PresetPrimaryStratum'
+                          minHeight='45' maxHeight='46'>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:7' weight='0.5'/>
+          <BiomeSet inherits='caldera'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetLimestoneMudstone'
+                          inherits='PresetPrimaryStratum'
+                          minHeight='45' maxHeight='46'>
+          <OreBlock block='PFAAGeologica:weakStone:4' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.5'/>
+          <BiomeSet inherits='folded'/>
+        </SubstitutePreset>
+        
+        <SubstitutePreset name='PresetMudstoneLimestone'
+                          inherits='PresetPrimarySedimentaryContinental'
+                          minHeight='75' maxHeight='76'>
+          <OreBlock block='PFAAGeologica:weakStone:4' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetMudstoneGranite'
+                          inherits='PresetPrimaryStratum'
+                          minHeight='75' maxHeight='76'>
+          <OreBlock block='PFAAGeologica:weakStone:4' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:3' weight='0.5'/>
+          <BiomeSet inherits='dome'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetLimestoneSandstone'
+                          inherits='PresetPrimarySedimentaryContinental'
+                          minHeight='111' maxHeight='112'>
+          <OreBlock block='PFAAGeologica:strongStone:8' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.5'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetSandstoneGneiss'
+                          inherits='PresetPrimarySedimentaryContinental'
+                          minHeight='151' maxHeight='152'>
+          <OreBlock block='PFAAGeologica:strongStone:8' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:strongStone:2' weight='0.5'/>
+          <Biome name='alps'/>
+        </SubstitutePreset>
+
+        <SubstitutePreset name='PresetSandstoneQuartzite'
+                          inherits='PresetPrimarySedimentaryContinental'
+                          minHeight='151' maxHeight='152'>
+          <OreBlock block='PFAAGeologica:strongStone:8' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:4' weight='0.5'/>
+        </SubstitutePreset>
+
+      </ConfigSection>
+
+      <ConfigSection> <!-- Distributions -->
+        
+        <IfCondition condition=":=?GeologicaGenRocks &amp; ?GeologicaActive">
+          <Substitute name='DioriteContinental'
+                      inherits='PresetDioriteContinental'/>
+          <Substitute name='GraniteContinental'
+                      inherits='PresetGraniteContinental'/>
+          <Substitute name='DioriteGraniteContinental'
+                      inherits='PresetDioriteGraniteContinental'/>
+          <Substitute name='GabbroShieldVolcano'
+                      inherits='PresetGabbroShieldVolcano'/>
+          <Substitute name='GabbroBasaltShieldVolcano'
+                      inherits='PresetGabbroBasaltShieldVolcano'/>
+          <Substitute name='BasaltShieldVolcano'
+                      inherits='PresetBasaltShieldVolcano'/>
+          <Substitute name='GraniteMudstone'
+                      inherits='PresetGraniteMudstone'/>
+          <Substitute name='Mudstone' inherits='PresetMudstone'/>
+          <Substitute name='GraniteDome' inherits='PresetGraniteDome'/>
+          <Substitute name='GraniteShield' inherits='PresetGraniteShield'/>
+          <Substitute name='MudstoneGranite' inherits='PresetMudstoneGranite'/>
+          <Substitute name='MudstoneLimestone'
+                      inherits='PresetMudstoneLimestone'/>
+          <Substitute name='LimestoneHills' inherits='PresetLimestoneHills'/>
+          <Substitute name='LimestoneSandstone'
+                      inherits='PresetLimestoneSandstone'/>
+          <Substitute name='SandstoneHills' inherits='PresetSandstoneHills'/>
+          <Substitute name='SandstoneGneiss' inherits='PresetSandstoneGneiss'/>
+          <Substitute name='GneissTops' inherits='PresetGneissTops'/>
+          <Substitute name='SandstoneQuartzite'
+                      inherits='PresetSandstoneQuartzite'/>
+          <Substitute name='QuartziteTops' inherits='PresetQuartziteTops'/>
+          <Cloud name='Breccia' inherits='PresetBreccia'/>
+          <Cloud name='Claystone' inherits='PresetClaystone'/>
+          <Cloud name='Conglomerate' inherits='PresetConglomerate'/>
+          <Cloud name='Limestone' inherits='PresetLimestoneLower'/>
+          <Cloud name='Sandstone' inherits='PresetSandstone'/>
+          
+          <Cloud name='Slate' inherits='PresetSlate'/>
+          <Cloud name='Schist' inherits='PresetSchist'/>
+          <Cloud name='Skarn' inherits='PresetSkarn'/>
+          <Cloud name='Gneiss' inherits='PresetGneiss'/>
+          <Cloud name='GreenschistContinental'
+                 inherits='PresetGreenschistContinental'/>
+          <Cloud name='Marble' inherits='PresetMarble'/>
+          <Cloud name='Hornfels' inherits='PresetHornfels'/>
+          <Cloud name='Quartzite' inherits='PresetQuartzite'/>
+          
+          <Substitute name='GabbroVolcanic' inherits='PresetGabbroVolcanic'/>
+          <Substitute name='DioriteVolcanic' inherits='PresetDioriteVolcanic'/>
+          <Substitute name='GraniteRhyolite' inherits='PresetGraniteRhyolite'/>
+          <Substitute name='RhyoliteCaldera' inherits='PresetRhyoliteCaldera'/>
+          <Substitute name='GraniteVolcanic' inherits='PresetGraniteVolcanic'/>
+          <Substitute name='Andesite' inherits='PresetAndesite'/>
+          <Substitute name='Rhyolite' inherits='PresetRhyolite'/>
+          <Substitute name='GabbroDiorite' inherits='PresetGabbroDiorite'/>
+          <Substitute name='DioriteGraniteVolcanic'
+                      inherits='PresetDioriteGraniteVolcanic'/>
+          <Substitute name='GraniteAndesite' inherits='PresetGraniteAndesite'/>
+          <Substitute name='AndesiteRhyolite'
+                      inherits='PresetAndesiteRhyolite'/>
+          <Cloud name='GreenschistVolcanic'
+                 inherits='PresetGreenschistVolcanic'/>
+          <Cloud name='SchistVolcanic' inherits='PresetSchistVolcanic'/>
+          <Cloud name='GneissVolcanic' inherits='PresetGneissVolcanic'/>
+          <Cloud name='GneissShield' inherits='PresetGneissShield'/>
+
+          <Substitute name='LimestoneMesa' inherits='PresetLimestoneMesa'/>
+          <Substitute name='SandstoneMesa' inherits='PresetSandstoneMesa'/>
+          <Substitute name='QuartziteMesa' inherits='PresetQuartziteMesa'/>
+          <Substitute name='BasaltMesa' inherits='PresetBasaltMesa'/>
+          
+          <Substitute name='GabbroOceanic' inherits='PresetGabbroOceanic'/>
+          <Substitute name='GabbroBasalt' inherits='PresetGabbroBasalt'/>
+          <Substitute name='Basalt' inherits='PresetBasalt'/>
+          <Substitute name='BasaltLimestone' inherits='PresetBasaltLimestone'/>
+          <Substitute name='LimestoneMudstone'
+                      inherits='PresetLimestoneMudstone'/>
+          <Substitute name='LimestoneOceanic'
+                      inherits='PresetLimestoneOceanic'/>
+          <Substitute name='LimestoneBasaltIsland'
+                      inherits='PresetLimestoneBasaltIsland'/>
+          <Substitute name='BasaltIsland' inherits='PresetBasaltIsland'/>
+          <Cloud name='MudstoneOceanic' inherits='PresetMudstoneOceanic'/>
+          <Cloud name='ClaystoneOceanic' inherits='PresetClaystoneOceanic'/>
+          <Cloud name='SandstoneOceanic' inherits='PresetSandstoneOceanic'/>
+          <Cloud name='GreenschistOceanic' inherits='PresetGreenschistOceanic'/>
+          <Cloud name='SchistOceanic' inherits='PresetSchistOceanic'/>
+          <Cloud name='SkarnOceanic' inherits='PresetSkarnOceanic'/>
+
+          <Veins name='DioriteVeins' inherits='PresetDioriteVeins'/>
+          <Veins name='GabbroVeins' inherits='PresetGabbroVeins'/>
+        </IfCondition>
+        
+      </ConfigSection>
+      
+    </ConfigSection> <!-- /Rocks -->
+
+    <ConfigSection> <!-- Common ore presets -->
+
+      <VeinsPreset name='PresetLayeredVeinsLite'
+                   inherits='PresetLayeredVeins'>
+        <Setting name='OreDensity' avg=':= 0.4 * _default_' range='0.2'/>
+        <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                 range=':= 0.5 * _default_'/>
+        <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsContinental'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='continental'/>
+        <BiomeSet inherits='folded' weight='-1'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsVolcanic'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='felsic'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsOceanic'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='oceanic'/>
+        <BiomeSet inherits='folded'/>
+      </VeinsPreset>
+      
+      <VeinsPreset name='PresetSphaleriteGalena'
+                   inherits='PresetLayeredVeinsLite'>
+        <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.62'/>
+        <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.33'/>
+        <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.05'/>
+      </VeinsPreset>
+      
+    </ConfigSection>
+    
+    <ConfigSection> <!-- Standard ores/minerals -->
+
+      <CloudPreset name='PresetSedStrategicCloud'
+                   inherits='PresetStrategicCloud'>
+        <Setting name='CloudThickness' avg=':=0.5 * _default_'
+                 range=':=0.5 * _default_'/>
+        <Setting name='CloudHeight' avg=':=55/64 * dimension.groundLevel'
+                 range=':=10/64 * dimension.groundLevel' type='normal'/>
+        <Setting name='OreVolumeNoiseCutoff' avg=':=0.6 * _default_'/>
+        <Replaces block='minecraft:stone'/>
+        <Replaces block='PFAAGeologica:weakStone:0'/>
+        <Replaces block='PFAAGeologica:weakStone:2'/>
+        <Replaces block='PFAAGeologica:weakStone:3'/>
+        <Replaces block='PFAAGeologica:weakStone:4'/>
+        <Replaces block='PFAAGeologica:strongStone:8'/>
+        <Replaces block='PFAAGeologica:mediumStone:0'/>
+        <BiomeSet inherits='continental'/>
+        <BiomeSet inherits='folded'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetSedStrategicCloudOceanic'
+                   inherits='PresetSedStrategicCloud'>
+        <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+        <BiomeSet inherits='sedocean'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetMetaStrategicCloud'
+                   inherits='PresetStrategicCloud'>
+        <Setting name='CloudThickness' avg=':=0.5 * _default_'
+                 range=':=0.5 * _default_'/>
+        <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+        <Setting name='OreVolumeNoiseCutoff' avg=':=0.6 * _default_'/>
+        <ReplacesOre block='stone'/>
+      </CloudPreset>
+
+      <VeinsPreset name='PresetHintVeinsSed'
+                   inherits='PresetHintVeins'>
+        <Setting name='MotherlodeHeight'
+                 avg=':=55/64 * dimension.groundLevel'/>
+        <Replaces block='minecraft:stone'/>
+        <Replaces block='PFAAGeologica:weakStone:0'/>
+        <Replaces block='PFAAGeologica:weakStone:2'/>
+        <Replaces block='PFAAGeologica:weakStone:3'/>
+        <Replaces block='PFAAGeologica:weakStone:4'/>
+        <Replaces block='PFAAGeologica:mediumStone:0'/>
+        <Replaces block='PFAAGeologica:strongStone:8'/>
+      </VeinsPreset>
+
+      <ConfigSection> <!-- Coal -->
+        <CloudPreset name='PresetCoalBeds'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency'
+                 avg=':=20 * _default_'/>
+          <Setting name='CloudRadius' avg=':=1.4 * _default_'
+                   range=':=1.4 * _default_'/>
+          <OreBlock block='PFAAGeologica:crudeRock:1' weight='0.98'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.02'/>
+          <BiomeSet inherits='inland' weight='0.5'/>
+          <BiomeType name='swamp' weight='0.5'/>
+          <IfModInstalled name='gregtech'>
+            <IfChoice name='GregtechGenCoal' value='true'>
+              <BiomeType name='swamp' weight='-0.5'/> <!-- lignite instead -->
+            </IfChoice>
+          </IfModInstalled>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetCoalBedHintVeins'
+                     block='PFAAGeologica:crudeRock:1'
+                     inherits='PresetHintVeinsSed'>
+          <Setting name='MotherlodeFrequency' avg=':=1.2 * _default_'
+                   range=':=_default_'/> 
+        </VeinsPreset>
+
+        <CloudPreset name='PresetCoalBedsOceanic' inherits='PresetCoalBeds'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean' weight='0.5'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetCoalBedHintVeinsOceanic'
+                     inherits='PresetCoalBedHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean' weight='0.5'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection> <!-- Banded Iron Formations -->
+        <CloudPreset name='PresetBandedIron'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <WireframeColor>0xFF221100</WireframeColor> 
+          <Setting name='DistributionFrequency' avg=':= 20 * _default_'/>
+          <Setting name='OreDensity' avg=':=_default_'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:0' weight='1.0'/>
+          <BiomeSet inherits='inland' weight='0.5'/>
+          <BiomeSet inherits='folded' weight='0.5'/>
+          <BiomeSet inherits='frozen-continental' weight='0.5'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetBandedIronOceanic'
+                     inherits='PresetBandedIron'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetBandedIronHintVeins'
+                     block='PFAAGeologica:strongOreRock:0'
+                     inherits='PresetHintVeinsSed'>
+          <Setting name='MotherlodeFrequency' avg=':=_default_'
+                   range=':=_default_'/> 
+        </VeinsPreset>
+        <VeinsPreset name='PresetBandedIronHintVeinsOceanic'
+                     inherits='PresetBandedIronHintVeins'>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetSubBIFBreccia'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='MotherlodeFrequency' avg='0.2'/>
+          <Setting name='MotherlodeHeight' avg='35' range='2'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:8'/>
+          <OreBlock block='PFAAGeologica:weakStone:0' weight='0.88'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='0.10'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0' weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSubBIFBrecciaOceanic'
+                     inherits='PresetSubBIFBreccia'>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Setting name='MotherlodeHeight' avg=':=30/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+            
+      <ConfigSection> <!-- Distributions -->
+                
+        <IfCondition condition=":=?GeologicaGenCoal &amp; ?GeologicaActive">
+          <Cloud name='CoalBeds' inherits='PresetCoalBeds'>
+            <Veins name='CoalBedHintVeins' inherits='PresetCoalBedHintVeins'/>
+          </Cloud>
+          <Cloud name='CoalBedsOceanic' inherits='PresetCoalBedsOceanic'>
+            <Veins name='CoalBedHintVeinsOceanic'
+                   inherits='PresetCoalBedHintVeinsOceanic'/>
+          </Cloud>
+        </IfCondition>
+
+        <IfCondition condition=":=?GeologicaGenBIF &amp; ?GeologicaActive">
+          <Cloud name='BandedIron' inherits='PresetBandedIron'>
+            <Veins name='BandedIronHintVeins'
+                   inherits='PresetBandedIronHintVeins'/>
+            <IfCondition condition=":=?GeologicaGenCopper">
+              <Veins name='SubBIFBreccia'
+                     inherits='PresetSubBIFBreccia'/>
+            </IfCondition>
+          </Cloud>
+          <Cloud name='BandedIronOceanic' inherits='PresetBandedIronOceanic'>
+            <Veins name='BandedIronHintVeinsOceanic'
+                   inherits='PresetBandedIronHintVeinsOceanic'/>
+            <IfCondition condition=":=?GeologicaGenCopper">
+              <Veins name='SubBIFBrecciaOceanic'
+                     inherits='PresetSubBIFBrecciaOceanic'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+
+      </ConfigSection>
+      
+    </ConfigSection> <!-- standard ores/minerals -->
+
+
+    <ConfigSection> <!-- Mineral sand -->
+
+      <ConfigSection>
+        <CloudPreset name='PresetPlacer' inherits='PresetStratum'>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+          <Setting name='DistributionFrequency' avg='0.04' range='0'/>
+          <Setting name='CloudHeight' avg='62' range='1'
+                   type='uniform' scaleTo='sealevel'/>
+          <Replaces block='minecraft:grass'/>
+          <ReplacesRegexp block='.*sand'/>
+          <!-- <Replaces block='.*dirt'/> -->
+          <Replaces block='minecraft:gravel'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBeachPlacer' inherits='PresetPlacer'>
+          <BiomeType name='beach' weight='0.5'/>
+          <Setting name='CloudRadius' avg='5' range='2' type='normal'/>
+        </CloudPreset>
+        <CloudPreset name='PresetAlluvialPlacer' inherits='PresetPlacer'>
+          <BiomeType name='river'/>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'
+                   range='0'/>
+          <Setting name='CloudRadius' avg='8' range='2' type='normal'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBasalticSandBeach'
+                           inherits='PresetBeachPlacer'
+                           block='PFAAGeologica:weakOreSand:0'>
+        </CloudPreset>
+        <CloudPreset name='PresetCassiteriteSandBeach'
+                           inherits='PresetBeachPlacer'
+                           block='PFAAGeologica:weakOreSand:1'>
+        </CloudPreset>
+        <CloudPreset name='PresetGarnetSandBeach'
+                           inherits='PresetBeachPlacer'
+                           block='PFAAGeologica:weakOreSand:2'>
+        </CloudPreset>
+        <CloudPreset name='PresetGraniticSandBeach'
+                           inherits='PresetBeachPlacer'
+                           block='PFAAGeologica:weakOreSand:3'>
+        </CloudPreset>
+        <CloudPreset name='PresetCassiteriteSandAlluvial'
+                           inherits='PresetAlluvialPlacer'
+                           block='PFAAGeologica:weakOreSand:1'>
+        </CloudPreset>
+        <CloudPreset name='PresetGarnetSandAlluvial'
+                           inherits='PresetAlluvialPlacer'
+                           block='PFAAGeologica:weakOreSand:2'>
+        </CloudPreset>
+        <CloudPreset name='PresetGraniticSandAlluvial'
+                           inherits='PresetAlluvialPlacer'
+                           block='PFAAGeologica:weakOreSand:3'>
+        </CloudPreset>
+        <CloudPreset name='PresetQuartzSand'
+                           inherits='PresetPlacer'
+                           block='PFAAGeologica:weakOreSand:4'
+                           drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=_default_'/>
+          <Setting name='CloudRadius' avg='5' range='2' type='normal'/>
+          <BiomeType name='sandy'/>
+          <Setting name='CloudHeight' avg='62' range='2'
+                   type='uniform' scaleTo='position'/>
+        </CloudPreset>
+        <StandardGenPreset name='PresetVolcanicAsh'
+                           block='PFAAGeologica:weakOreSand:5'
+                           maxHeight='75'>
+          <Setting name='Size' avg='16' range='8'/>
+          <Setting name='Frequency' avg='0.2' range='0'/>
+          <Setting name='Height' avg=':=70/64 * dimension.groundLevel'
+                   range='20'/>
+          <BiomeSet inherits='volcanic'/>
+          <Biome name='badlands' weight='0.5'/> <!-- BOP -->
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:7'/>
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='minecraft:sand'/>
+        </StandardGenPreset>
+        <CloudPreset name='PresetGlauconite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':= 6 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 48/64 * dimension.groundLevel'
+                   range=':= 0.25 * _default_'/>
+          <BiomeType name='sedocean'/>
+          <Replaces block='minecraft:sand'/>
+          <Replaces block='minecraft:dirt'/>
+          <ReplacesOre block='stone'/>
+          <OreBlock block='PFAAGeologica:weakOreSand:5' weight='0.8'/>
+          <OreBlock block='minecraft:sand' weight='0.2'/>
+        </CloudPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GeologicaGenSandOres &amp; ?GeologicaActive">
+          <IfCondition condition=":=?GeologicaGenIron">
+            <Cloud name='BasalticSandBeach' inherits='PresetBasalticSandBeach'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+            <Cloud name='GraniticSandBeach' inherits='PresetGraniticSandBeach'
+                 drawWireframe='false' wireframeColor='0xFFFFFF22'/>
+            <Cloud name='GraniticSandAlluvial'
+                   inherits='PresetGraniticSandAlluvial'
+                   drawWireframe='false' wireframeColor='0xFFFFFF22'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenTin">
+            <Cloud name='CassiteriteSandBeach'
+                   inherits='PresetCassiteriteSandBeach'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+            <Cloud name='CassiteriteSandAlluvial'
+                   inherits='PresetCassiteriteSandAlluvial'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+          </IfCondition>
+          <Cloud name='GarnetSandBeach' inherits='PresetGarnetSandBeach'
+                 drawWireframe='false' wireframeColor='0xFF222222'/>
+          <Cloud name='GarnetSandAlluvial' inherits='PresetGarnetSandAlluvial'
+                 drawWireframe='false' wireframeColor='0xFF222222'/>
+          <IfCondition condition=":=?GeologicaGenQuartz">
+            <Cloud name='QuartzSand' inherits='PresetQuartzSand'
+                   drawWireframe='false' wireframeColor='0xFFFF9922'/>
+          </IfCondition>
+          <Cloud name='Glauconite' inherits='PresetGlauconite'/>
+        </IfCondition>
+        
+        <IfCondition condition=":=?GeologicaGenVolcanic &amp; ?GeologicaActive">
+          <StandardGen name='VolcanicAsh' inherits='PresetVolcanicAsh'
+                       drawWireframe='false'
+                       wireframeColor='0xFF999922'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Serpentine and other intrusive veins -->
+
+      <ConfigSection>
+        
+        <VeinsPreset name='PresetSerpentinite'
+                     inherits='PresetIntrusiveVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <OreBlock block='PFAAGeologica:mediumStone:2' weight='0.816'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:5' weight='0.01'/>
+          <OreBlock weight='0.01'>
+            <IfChoice name='GeologicaGenChromium' value='true'>
+              <Then block='PFAAGeologica:strongOreRock:3'/>
+              <Else block='PFAAGeologica:mediumStone:2'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='PFAAGeologica:veryStrongStone:3' weight='0.05'/>
+          <OreBlock weight='0.005'>
+            <IfChoice name='GeologicaGenNickel' value='true'>
+              <Then block='PFAAGeologica:mediumOreRock:6'/>
+              <Else block='PFAAGeologica:mediumStone:2'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='PFAAGeologica:weakOreRock:14' weight='0.10'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:7' weight='0.009'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenSerpVeins &amp;
+                                ?GeologicaActive">
+          <Veins name='Serpentinite' inherits='PresetSerpentinite'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Laterite, limonite -->
+
+      <ConfigSection>
+
+        <CloudPreset name='PresetRichSoil' inherits='PresetStratum'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='CloudThickness' avg='4' range='1'/>
+          <Setting name='CloudHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range='5'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:weakStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:8'/>
+          <Replaces block='minecraft:dirt'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetLaterite' block='PFAAGeologica:weakClay:0'
+                     inherits='PresetRichSoil'
+                     drawWireframe='false'>
+          <WireframeColor>0xFFFF1100</WireframeColor>
+          <Biome name='.*' weight='-1'/>
+          <BiomeType name='hot'/>
+          <BiomeType name='wet'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetLateriteBauxite'
+                     inherits='PresetLaterite'>
+          <WireframeColor>0xFFFF11FF</WireframeColor>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='PFAAGeologica:weakClay:0' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:0' weight='0.5'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetLateriteLimonite'
+                     inherits='PresetLaterite'>
+          <WireframeColor>0xFF1111FF</WireframeColor>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <OreBlock block='PFAAGeologica:weakClay:0' weight='0.70'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:4' weight='0.15'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:5' weight='0.15'/>
+        </CloudPreset>
+
+        <!-- FIXME: do we want to add peat? (instead of dirt)
+             Peat would be generated in:
+             - any swamp
+             - fen and moor from BOP, which *should* be swamps => FIXME!
+        -->
+        <!-- NOTE: we are not actually generating this 'peat'
+             distribution, just the bog limonite derivative! -->
+        <CloudPreset name='PresetPeat' block='minecraft:dirt'
+                     inherits='PresetRichSoil'
+                     drawWireframe='false'>
+          <WireframeColor>0xFFFF1100</WireframeColor>
+          <Setting name='DistributionFrequency' avg=':= 0.5 * _default_'/>
+          <BiomeType name='swamp'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetBogLimonite' inherits='PresetPeat'>
+          <WireframeColor>0xFF1111FF</WireframeColor>
+          <OreBlock block='minecraft:dirt' weight='0.70'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:4' weight='0.15'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:5' weight='0.15'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetSerpentiniteUnderLimonite'
+                     inherits='PresetStratum'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <Setting name='DistributionFrequency' avg='2.5'/>
+          <Setting name='CloudHeight' avg='53' range='2'/>
+          <Setting name='CloudThickness' avg='3' range='1'/>
+          <Setting name='ParentRangeLimit' avg='5' range='2'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:weakStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <OreBlock block='PFAAGeologica:mediumStone:2' weight='0.5'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:3' weight='0.5'/>
+        </CloudPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenLaterites &amp;
+                                ?GeologicaActive">
+          <Cloud name='Laterite' inherits='PresetLaterite'/>
+          <IfCondition condition=":=?GeologicaGenAluminum">
+            <Cloud name='LateriteBauxite' inherits='PresetLateriteBauxite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenIron">
+            <Cloud name='LateriteLimonite' inherits='PresetLateriteLimonite'>
+              <Cloud name='SerpentiniteUnderLimonite'
+                     inherits='PresetSerpentiniteUnderLimonite'/>
+            </Cloud>
+            <Cloud name='BogLimonite' inherits='PresetBogLimonite'/>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in diorite/gabbro -->
+      <ConfigSection>
+        
+        <VeinsPreset name='PresetDioriteVeinsContinental'
+                     inherits='PresetLayeredVeinsContinental'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 3/64 * dimension.groundLevel'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetIlmeniteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     block='PFAAGeologica:strongOreRock:4'
+                     drawWireframe='false' wireframeColor='0xFF1111FF'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetChromiteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     block='PFAAGeologica:strongOreRock:3'
+                     drawWireframe='false' wireframeColor='0xFFFFFF11'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetVermiculiteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     block='PFAAGeologica:weakOreClay:6'
+                     drawWireframe='false' wireframeColor='0xFFFF1111'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetFluoriteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     block='PFAAGeologica:mediumOreRock:13'
+                     drawWireframe='false' wireframeColor='0xFF11FF11'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetDioriteVeinsOther'
+                     inherits='PresetLayeredVeins'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='normal'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <BiomeSet inherits='oceanic'/>
+          <BiomeSet inherits='volcanic'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetIlmeniteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     block='PFAAGeologica:strongOreRock:4'
+                     drawWireframe='false' wireframeColor='0xFF11FFFF'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetChromiteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     block='PFAAGeologica:strongOreRock:3'
+                     drawWireframe='false' wireframeColor='0xFFFFFF11'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetVermiculiteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     block='PFAAGeologica:weakOreClay:6'
+                     drawWireframe='false' wireframeColor='0xFFFFFF11'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetFluoriteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     block='PFAAGeologica:mediumOreRock:13'
+                     drawWireframe='false' wireframeColor='0xFF88FF88'>
+        </VeinsPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenIgVeins &amp; ?GeologicaActive">
+          <IfCondition condition=":=?GeologicaGenTitanium">
+            <Veins name='IlmeniteDioriteContinental'
+                   inherits='PresetIlmeniteDioriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenChromium">
+            <Veins name='ChromiteDioriteContinental'
+                   inherits='PresetChromiteDioriteContinental'/>
+          </IfCondition>
+          <Veins name='VermiculiteDioriteContinental'
+                 inherits='PresetVermiculiteDioriteContinental'/>
+          <Veins name='FluoriteDioriteContinental'
+                 inherits='PresetFluoriteDioriteContinental'/>
+          <IfCondition condition=":=?GeologicaGenTitanium">
+            <Veins name='IlmeniteDioriteOther'
+                   inherits='PresetIlmeniteDioriteOther'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenChromium">
+            <Veins name='ChromiteDioriteOther'
+                   inherits='PresetChromiteDioriteOther'/>
+          </IfCondition>
+          <Veins name='VermiculiteDioriteOther'
+                 inherits='PresetVermiculiteDioriteOther'/>
+          <Veins name='FluoriteDioriteOther'
+                 inherits='PresetFluoriteDioriteOther'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Layered Intrusions -->
+
+      <ConfigSection> <!-- Strata -->
+        
+        <CloudPreset name='PresetLayeredIntrusion'
+                     inherits='PresetStratum'>
+          <Setting name='CloudThickness' avg='5' range='0'/>
+          <Setting name='CloudRadius' avg='32' range='5'/>
+          <Setting name='CloudHeight' range='0'/>
+          <Setting name='ParentRangeLimit' avg='3' range='2'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <WireframeColor>0xFFFFFF00</WireframeColor>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetPeridotiteIntrusion'
+                     block='PFAAGeologica:veryStrongStone:3'
+                     inherits='PresetLayeredIntrusion'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg='10' range='0'/>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Biome name='.*' weight='0.5'/>
+          <BiomeSet inherits='volcanic' weight='0.5'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetGabbroIntrusion'
+                     block='PFAAGeologica:veryStrongStone:1'
+                     inherits='PresetLayeredIntrusion'>
+          <Setting name='CloudHeight' avg='20' range='0'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetDioriteIntrusion'
+                     block='PFAAGeologica:veryStrongStone:0'
+                     inherits='PresetLayeredIntrusion'>
+          <Setting name='CloudHeight' avg='30' range='0'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+        </CloudPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection> <!-- Ores -->
+
+        <CloudPreset name='PresetLayeredIntrusionOre'
+                     inherits='PresetStrategicCloud'>
+          <Setting name='ParentRangeLimit' avg='16' range='2'/>
+          <Setting name='DistributionFrequency' avg=':= 0.25'/>
+          <Setting name='CloudThickness' avg=':= 0.25 * _default_'
+                   range=':= 0.25 * _default_'/>
+          <Setting name='CloudRadius' avg='16' range='3'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetPeridotiteLayer'
+                     inherits='PresetLayeredIntrusionOre'>
+          <Setting name='CloudHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'
+                   type='uniform'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:3'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetPeridotiteSerpentinite'
+                     inherits='PresetSerpentinite'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00FF00'>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+          <Setting name='ParentRangeLimit' avg='16' range='8'/>
+          <Setting name='DistributionFrequency' avg=':= 20.0 * _default_'/>
+        </VeinsPreset>
+        
+        <CloudPreset name='PresetMagnetitePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     block='PFAAGeologica:strongOreRock:10'
+                     drawWireframe='false' wireframeColor='0xFFAAFFFF'/>
+        
+        <CloudPreset name='PresetMagnesitePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFF11FFFF'
+                     block='PFAAGeologica:mediumOreRock:5'>
+        </CloudPreset>
+
+        <CloudPreset name='PresetPentlanditePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     block='PFAAGeologica:mediumOreRock:6'
+                     drawWireframe='false'
+                     wireframeColor='0xFF11FFFF'>
+          <Setting name='OreDensity' avg=':=0.75 * _default_'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetDioriteLayer'
+                     inherits='PresetLayeredIntrusionOre'>
+          <Setting name='CloudHeight'
+                   avg=':= 30/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetIlmeniteDioriteLayer'
+                     inherits='PresetDioriteLayer'
+                     block='PFAAGeologica:strongOreRock:4'
+                     drawWireframe='false' wireframeColor='0xFF1111FF'>
+        </CloudPreset>
+
+        <CloudPreset name='PresetChromiteDioriteLayer'
+                     inherits='PresetDioriteLayer'
+                     block='PFAAGeologica:strongOreRock:3'
+                     drawWireframe='false' wireframeColor='0xFFFF1111'>
+        </CloudPreset>
+
+        <CloudPreset name='PresetVermiculiteDiorite'
+                     inherits='PresetDioriteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFFFF'
+                     block='PFAAGeologica:weakOreClay:6'>
+        </CloudPreset>
+
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenIgIntrusion &amp;
+                                ?GeologicaActive">
+          <Cloud name='PeridotiteIntrusion' inherits='PresetPeridotiteIntrusion'>
+            <Cloud name='GabbroIntrusion'
+                   inherits='PresetGabbroIntrusion'/>
+            <Cloud name='DioriteIntrusion'
+                   inherits='PresetDioriteIntrusion'/>
+            <Cloud name='MagnetitePeridotite'
+                   inherits='PresetMagnetitePeridotite'/>
+            <Cloud name='MagnesitePeridotite'
+                   inherits='PresetMagnesitePeridotite'/>
+            <IfCondition condition=":=?GeologicaGenNickel">
+              <Cloud name='PentlanditePeridotite'
+                     inherits='PresetPentlanditePeridotite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenSerpVeins">
+              <Veins name='PeridotiteSerpentinite'
+                     inherits='PresetPeridotiteSerpentinite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenTitanium">
+              <Cloud name='IlmeniteDioriteLayer'
+                     inherits='PresetIlmeniteDioriteLayer'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenChromium">
+              <Cloud name='ChromiteDioriteLayer'
+                     inherits='PresetChromiteDioriteLayer'/>
+            </IfCondition>
+            <Cloud name='VermiculiteDiorite'
+                   inherits='PresetVermiculiteDiorite'/>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Marine Evaporites -->
+      <ConfigSection>
+        <CloudPreset name='PresetEvaporiteStratum'
+                     inherits='PresetStratum'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' range='0'/>
+          <Setting name='CloudThickness' range='0'/>
+          <Setting name='ParentRangeLimit' avg='3' range='2'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+          <BiomeType name='sandy'/>
+          <BiomeType name='plains'/>
+          <BiomeType name='wasteland'/>
+          <BiomeType name='wet' weight='-1'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:weakStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:8'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='minecraft:dirt'/>
+          <WireframeColor>0xFF11FF00</WireframeColor>
+        </CloudPreset>
+        <CloudPreset name='PresetEvaporiteLimestone'
+                     block='PFAAGeologica:mediumStone:0'
+                     inherits='PresetEvaporiteStratum'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='CloudHeight' avg='55' range='0'/>
+          <Setting name='CloudThickness' avg='3'/>
+        </CloudPreset>
+        <CloudPreset name='PresetEvaporiteGypsum'
+                     inherits='PresetEvaporiteStratum'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:0' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:11' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:11' weight='0.90'/>
+          <Setting name='CloudHeight' avg='58' range='0'/>
+          <Setting name='CloudThickness' avg='2' range='0'/>
+        </CloudPreset>
+        <CloudPreset name='PresetEvaporiteRockSalt'
+                     block='PFAAGeologica:weakOreRock:5'
+                     inherits='PresetEvaporiteStratum'>
+          <Setting name='CloudHeight' avg='60' range='0'/>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetEvaporiteGypsumHintVeins'
+                     block='PFAAGeologica:weakOreRock:11'
+                     inherits='PresetHintVeinsSed'
+                     drawWireframe='false'>
+          <Setting name='MotherlodeHeight' avg='58' range='2'/>
+          <Setting name='MotherlodeFrequency' avg=':= 0.05 * _default_'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetLakeEvaporite'
+                     inherits='PresetEvaporiteStratum'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg='0.013'/>
+          <Setting name='CloudHeight' avg='60' range='0'/>
+          <Setting name='CloudThickness' avg='3' range='0'/>
+          <BiomeType name='sandy'/>
+          <BiomeType name='wasteland'/>
+          <BiomeType name='wet' weight='-1'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:15' weight='0.70'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:12' weight='0.15'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:0' weight='0.15'/>
+        </CloudPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenEvaporite &amp;
+                                ?GeologicaActive">
+          <Cloud name='EvaporiteLimestone' inherits='PresetEvaporiteLimestone'>
+            <Cloud name='EvaporiteGypsum'
+                   inherits='PresetEvaporiteGypsum'>
+              <Veins name='EvaporiteGypsumHintVeins'
+                     inherits='PresetEvaporiteGypsumHintVeins'/>
+            </Cloud>
+            <IfCondition condition=":=?GeologicaGenSalt">
+              <Cloud name='EvaporiteRockSalt'
+                     inherits='PresetEvaporiteRockSalt'/>
+            </IfCondition>
+          </Cloud>
+          <Cloud name='LakeEvaporite' inherits='PresetLakeEvaporite'>
+            <Cloud name='LakeEvaporiteGypsum' inherits='PresetEvaporiteGypsum'/>
+            <Cloud name='LakeEvaporiteRockSalt'
+                   inherits='PresetEvaporiteRockSalt'/>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+
+    </ConfigSection>
+
+    <ConfigSection> <!-- Volcagenic Massive Sulfide -->
+
+      <ConfigSection>
+        
+        <CloudPreset name='PresetVMSRhyolite'
+                     inherits='PresetStratum'
+                     drawWireframe='false'
+                     block='PFAAGeologica:strongStone:7'>
+          <Setting name='CloudThickness' avg='10' range='2'/>
+          <Setting name='CloudRadius' avg='32' range='5'/>
+          <Setting name='CloudHeight' avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <Setting name='DistributionFrequency' avg='0.004'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:8'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='minecraft:sand'/>
+          <WireframeColor>0xFFFFFF00</WireframeColor>
+          <BiomeSet inherits='folded' weight='0.5'/>
+          <BiomeType name='ocean'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetVMSRhyoliteHintVeins'
+                     inherits='PresetHintVeins'
+                     block='PFAAGeologica:strongStone:7'>
+          <Setting name='MotherlodeHeight'
+                   avg=':=25/64 * dimension.groundLevel'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:2'/>
+          <Replaces block='PFAAGeologica:weakStone:3'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:8'/>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='minecraft:stone'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSChalcopyrite'
+                     inherits='PresetLayeredVeinsLite'
+                     block='PFAAGeologica:mediumOreRock:2'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='DistributionFrequency' avg='1.0'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 15/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+          <Replaces block='PFAAGeologica:strongStone:7'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSSphaleriteGalena'
+                     inherits='PresetSphaleriteGalena'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0000'>
+          <Setting name='DistributionFrequency' avg='1.0'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+          <Replaces block='PFAAGeologica:strongStone:7'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSGold'
+                     inherits='PresetLayeredVeinsLite'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0000'
+                     block='PFAAGeologica:vanillaOreRock:0'>
+          <!-- Adapted from COG GoldVeins -->
+          <Setting name='MotherlodeFrequency' avg=':= 0.15'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 27/64 * dimension.groundLevel'
+                   range=':= 1/64 * dimension.groundLevel'/>
+          <Replaces block='PFAAGeologica:strongStone:7'/>
+          <Setting name='MotherlodeSize' avg=':= 0.8 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <Setting name='BranchHeightLimit' avg='10'/>  
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+          <Setting name='BranchLength' avg=':= 0.75 * _default_'
+                   range=':= 0.66 * _default_'/>
+          <Setting name='SegmentRadius'
+                   avg=':= 0.7 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <Setting name='SegmentAngle' avg='0.6' range='0.40' /> 
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenVMS &amp; ?GeologicaActive">
+          <Cloud name='VMSRhyolite'
+                 inherits='PresetVMSRhyolite'>
+            <IfCondition condition=":=?GeologicaGenLeadZinc">
+              <Veins name='VMSSphaleriteGalena'
+                     inherits='PresetVMSSphaleriteGalena'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenCopper">
+              <Veins name='VMSChalcopyrite' inherits='PresetVMSChalcopyrite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenGold">
+              <Veins name='VMSGold' inherits='PresetVMSGold'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- SEDEX deposits -->
+      
+      <ConfigSection>
+        <CloudPreset name='PresetSEDEX'
+                     inherits='PresetSedStrategicCloud'>
+          <BiomeSet inherits='continental'/>
+          <BiomeSet inherits='island'/>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetSEDEXSphaleriteGalena'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFF3300FF'>
+          <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.33'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.62'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.05'/>
+          <Setting name='DistributionFrequency' avg=':= 3 * _default_'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXSphaleriteGalenaOceanic'
+                     inherits='PresetSEDEXSphaleriteGalena'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXSphaleriteGalenaHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.35'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.65'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSEDEXSphaleriteGalenaHintVeinsOceanic'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+
+        <CloudPreset name='PresetSEDEXScheelite'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFF33FF55'>
+          <Setting name='OreDensity' avg=':=0.5 * _default_'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:7' weight='0.98'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:3' weight='0.02'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXScheeliteOceanic'
+                     inherits='PresetSEDEXScheelite'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel'
+                   type='uniform'/>
+          <Setting name='OreDensity' avg=':=0.5 * _default_'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXScheeliteHintVeins'
+                     inherits='PresetHintVeinsSed'
+                     block='PFAAGeologica:mediumOreRock:7'/>
+        <VeinsPreset name='PresetSEDEXScheeliteHintVeinsOceanic'
+                     inherits='PresetSEDEXScheeliteHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        
+        <CloudPreset name='PresetSEDEXChalcopyrite'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='0.95'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.05'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXChalcopyriteOceanic'
+                     inherits='PresetSEDEXChalcopyrite'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXChalcopyriteHintVeins'
+                     inherits='PresetHintVeinsSed'
+                     block='PFAAGeologica:mediumOreRock:2'/>
+        <VeinsPreset name='PresetSEDEXChalcopyriteHintVeinsOceanic'
+                     inherits='PresetSEDEXChalcopyriteHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenSEDEX &amp; ?GeologicaActive">
+          <IfCondition condition=":=?GeologicaGenLeadZinc">
+            <Cloud name='SEDEXSphaleriteGalena'
+                   inherits='PresetSEDEXSphaleriteGalena'>
+              <Veins name='SEDEXSphaleriteGalenaHintVeins'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenTungsten">
+            <Cloud name='SEDEXScheelite' inherits='PresetSEDEXScheelite'>
+              <Veins name='SEDEXScheeliteHintVeins'
+                     inherits='PresetSEDEXScheeliteHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenCopper">
+            <Cloud name='SEDEXChalcopyrite'
+                   inherits='PresetSEDEXChalcopyrite'>
+              <Veins name='SEDEXChalcopyriteHintVeins'
+                     inherits='PresetSEDEXChalcopyriteHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenLeadZinc">
+            <Cloud name='SEDEXSphaleriteGalenaOceanic'
+                   inherits='PresetSEDEXSphaleriteGalenaOceanic'>
+              <Veins name='SEDEXSphaleriteGalenaHintVeinsOceanic'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenTungsten">
+            <Cloud name='SEDEXScheeliteOceanic'
+                   inherits='PresetSEDEXScheeliteOceanic'>
+              <Veins name='SEDEXScheeliteHintVeinsOceanic'
+                     inherits='PresetSEDEXScheeliteHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenCopper">
+            <Cloud name='SEDEXChalcopyriteOceanic'
+                   inherits='PresetSEDEXChalcopyriteOceanic'>
+              <Veins name='SEDEXChalcopyriteHintVeinsOceanic'
+                     inherits='PresetSEDEXChalcopyriteHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Porphyry deposits -->
+      <ConfigSection>
+        <VeinsPreset name='PresetPorphyry'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='MotherlodeFrequency' avg='0.004'/>
+          <Setting name='MotherlodeHeight' avg='10' range='10'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+          <Replaces block='minecraft:stone'/>
+          <OreBlock block='PFAAGeologica:weakStone:0' weight='0.7'/>
+          <OreBlock weight='0.20'>
+            <IfChoice name='GeologicaGenCopper' value='true'>
+              <Then block='PFAAGeologica:mediumOreRock:2'/>
+              <Else block='PFAAGeologica:weakStone:0'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock weight='0.10'>
+            <IfChoice name='GeologicaGenMolybdenum' value='true'>
+              <Then block='PFAAGeologica:weakOreRock:3'/>
+              <Else block='PFAAGeologica:weakStone:0'/>
+            </IfChoice>
+          </OreBlock>
+        </VeinsPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenIgVeins &amp;
+                                ?GeologicaGenCopper &amp;
+                                ?GeologicaActive">
+          <Veins name='Porphyry' inherits='PresetPorphyry'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in Granite -->
+      <ConfigSection>
+        <VeinsPreset name='PresetGraniteVeinsContinental'
+                     inherits='PresetLayeredVeinsContinental'>
+          <Setting name='DistributionFrequency' avg='0.008'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 30/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <Setting name='MotherlodeSize' avg=':= 2 * _default_'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:2'/>
+          <Replaces block='PFAAGeologica:mediumStone:1'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteChalcopyriteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='0.88'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0' weight='0.10'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:9' weight='0.01'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.01'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteMagnetiteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'
+                     block='PFAAGeologica:strongOreRock:5'/>
+        <VeinsPreset name='PresetGraniteStibniteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='PFAAGeologica:weakOreRock:6' weight='0.8'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:9' weight='0.2'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteRealgarContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='PFAAGeologica:weakOreRock:9' weight='0.8'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:6' weight='0.2'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteCassiteriteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <Setting name='DistributionFrequency' avg='0.015'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:2' weight='0.9'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:7' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0' weight='0.05'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteFluoriteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF22AA22'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:13' weight='0.92'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.06'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteQuartzContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.015'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:1' weight='0.93'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:12' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:verystrongStone:4' weight='0.02'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetGraniteVeinsVolcanic'
+                     inherits='PresetLayeredVeinsVolcanic'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range=':= 15/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <Setting name='MotherlodeSize' avg=':= 2 * _default_'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:2'/>
+          <Replaces block='PFAAGeologica:mediumStone:1'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteChalcopyriteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='0.88'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0' weight='0.10'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:9' weight='0.01'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:15' weight='0.01'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteMagnetiteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'
+                     block='PFAAGeologica:strongOreRock:5'/>
+        <VeinsPreset name='PresetGraniteStibniteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'
+                     block='PFAAGeologica:weakOreRock:6'>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteCassiteriteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:2' weight='0.88'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:7' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:3' weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteQuartzVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:1' weight='0.93'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:12' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:verystrongStone:4' weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteFluoriteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF22AA22'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:13' weight='0.92'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.06'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteGoldVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <OreBlock block='PFAAGeologica:vanillaOreRock:0'/>
+        </VeinsPreset>
+        
+        <ConfigSection> <!-- Pegmatite -->
+          <VeinsPreset name='PresetPegmatite'
+                       inherits='PresetRockVeins'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeFrequency' avg='0.006'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:strongStone:2'/>
+            <Replaces block='PFAAGeologica:strongStone:3'/>
+            <Replaces block='PFAAGeologica:strongStone:4'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+            <OreBlock block='PFAAGeologica:strongStone:6' weight='0.769'/>
+            <OreBlock block='PFAAGeologica:weakOreRock:13' weight='0.05'/> 
+            <OreBlock block='PFAAGeologica:strongOreRock:12' weight='0.01'/> 
+            <OreBlock block='PFAAGeologica:mediumOreRock:9' weight='0.01'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:4' weight='0.025'/>
+            <OreBlock block='PFAAGeologica:strongOreRock:8' weight='0.02'/>
+            <OreBlock block='PFAAGeologica:strongOreRock:6' weight='0.001'/>
+            <OreBlock block='PFAAGeologica:strongOreRock:11' weight='0.02'/>
+            <OreBlock block='PFAAGeologica:strongOreRock:7' weight='0.07'/>
+            <OreBlock block='PFAAGeologica:strongOreRock:2' weight='0.015'/>
+            <OreBlock block='PFAAGeologica:vanillaOreRock:3' weight='0.01'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetPegmatiteVolcanic'
+                       inherits='PresetPegmatite'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 50/64 * dimension.groundLevel'
+                     range=':= 20/64 * dimension.groundLevel'
+                     type='normal'/>
+            <BiomeSet inherits='felsic'/>
+            <BiomeSet inherits='dome'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetPegmatiteContinental'
+                       inherits='PresetPegmatite'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeHeight' avg='20' range='10'/>
+            <BiomeSet inherits='inland'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetCarbonatite'
+                       inherits='PresetRockVeins'
+                       drawWireframe='false'
+                       wireframeColor='0xFF0000FF'>
+            <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                     range=':= 0.5 * _default_'/>
+            <Setting name='BranchFrequency' avg='1' range='0'/>
+            <Setting name='BranchInclination' avg='-1' range='0.2'/>
+            <Setting name='SegmentForkFrequency' avg='0.10'/>  
+            <Setting name='SegmentAngle' avg='0' range='0.3'/>
+            <Setting name='ParentRangeLimit' avg='10' range='2'/>
+            <Setting name='MotherlodeFrequency' avg='0.01'/>
+            <Setting name='MotherlodeHeight' avg='30' range='10'/>
+            <Setting name='SegmentRadius' avg='1.5' range='0.5' type='normal'/>
+            <OreBlock block='PFAAGeologica:weakStone:1'
+                      weight='0.810'/>
+            <!-- RE -->
+            <OreBlock block='PFAAGeologica:mediumOreRock:1'
+                      weight='0.05'/>
+            <!-- apatite -->
+            <OreBlock block='PFAAGeologica:strongOreRock:11'
+                      weight='0.05'/>
+            <!-- verm -->
+            <OreBlock block='PFAAGeologica:weakOreClay:6'
+                      weight='0.04'/>
+            <!-- barite -->
+            <OreBlock block='PFAAGeologica:mediumOreRock:0'
+                      weight='0.025'/>
+            <!-- chalco -->
+            <OreBlock block='PFAAGeologica:mediumOreRock:2'
+                      weight='0.025'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:mediumStone:1'/>
+            <Replaces block='PFAAGeologica:mediumStone:3'/>
+            <Replaces block='PFAAGeologica:strongStone:1'/>
+            <Replaces block='PFAAGeologica:strongStone:2'/>
+            <Replaces block='PFAAGeologica:strongStone:3'/>
+            <Replaces block='PFAAGeologica:strongStone:4'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+            <Replaces block='PFAAGeologica:veryStrongStone:4'/>
+            <BiomeSet inherits='shieldVolcano'/>
+            <BiomeType name='mesa'/>
+          </VeinsPreset>
+        </ConfigSection>
+        
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenIgVeins &amp; ?GeologicaActive">
+          <IfCondition condition=":=?GeologicaGenCopper">
+            <Veins name='GraniteChalcopyriteContinental'
+                   inherits='PresetGraniteChalcopyriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenIron">
+            <Veins name='GraniteMagnetiteContinental'
+                   inherits='PresetGraniteMagnetiteContinental'/>
+          </IfCondition>
+          <Veins name='GraniteStibniteContinental'
+                 inherits='PresetGraniteStibniteContinental'/>
+          <Veins name='GraniteRealgarContinental'
+                 inherits='PresetGraniteRealgarContinental'/>
+          <IfCondition condition=":=?GeologicaGenTin">
+            <Veins name='GraniteCassiteriteContinental'
+                   inherits='PresetGraniteCassiteriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenCopper">
+            <Veins name='GraniteChalcopyriteVolcanic'
+                   inherits='PresetGraniteChalcopyriteVolcanic'/>
+          </IfCondition>
+          <Veins name='GraniteFluoriteContinental'
+                 inherits='PresetGraniteFluoriteContinental'/>
+          <IfCondition condition=":=?GeologicaGenQuartz">
+            <Veins name='GraniteQuartzContinental'
+                   inherits='PresetGraniteQuartzContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenIron">
+            <Veins name='GraniteMagnetiteVolcanic'
+                   inherits='PresetGraniteMagnetiteVolcanic'/>
+          </IfCondition>
+          <Veins name='GraniteStibniteVolcanic'
+                 inherits='PresetGraniteStibniteVolcanic'/>
+          <IfCondition condition=":=?GeologicaGenTin">
+            <Veins name='GraniteCassiteriteVolcanic'
+                   inherits='PresetGraniteCassiteriteVolcanic'/>
+          </IfCondition>
+          <Veins name='GraniteFluoriteVolcanic'
+                 inherits='PresetGraniteFluoriteVolcanic'/>
+          <IfCondition condition=":=?GeologicaGenQuartz">
+            <Veins name='GraniteQuartzVolcanic'
+                   inherits='PresetGraniteQuartzVolcanic'/>
+          </IfCondition>
+          <IfCondition condition=":=?GeologicaGenGold">
+            <Veins name='GraniteGoldVolcanic'
+                   inherits='PresetGraniteGoldVolcanic'/>
+          </IfCondition>
+        </IfCondition>
+        <IfCondition condition=":=?GeologicaGenPegmatite &amp;
+                                ?GeologicaActive">
+          <Veins name='PegmatiteContinental'
+                 inherits='PresetPegmatiteContinental'/>
+          <Veins name='PegmatiteVolcanic'
+                 inherits='PresetPegmatiteVolcanic'/>
+          <Veins name='Carbonatite' inherits='PresetCarbonatite'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in Basalt -->
+      <ConfigSection>
+        <VeinsPreset name='PresetBasaltVeins'
+                     inherits='PresetLayeredVeins'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <BiomeSet inherits='oceanic'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetCinnabar'
+                     inherits='PresetBasaltVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'
+                     block='PFAAGeologica:weakOreRock:1'/>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenIgVeins &amp;
+                                ?GeologicaGenMercury &amp;
+                                ?GeologicaActive">
+          <Veins name='Cinnabar' inherits='PresetCinnabar'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+      
+    <ConfigSection> <!-- carbonates  -->
+
+      <ConfigSection>
+        <ConfigSection> <!-- dolomite -->
+          <CloudPreset name='PresetDolomite'
+                       inherits='PresetSedimentaryContinentalMinor'
+                       drawWireframe='false'
+                       wireframeColor='0xFF00FF55'>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+            <Setting name='CloudHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+            <Replaces block='minecraft:stone'/>
+            <Replaces block='PFAAGeologica:weakStone:0'/>
+            <Replaces block='PFAAGeologica:weakStone:2'/>
+            <Replaces block='PFAAGeologica:weakStone:3'/>
+            <Replaces block='PFAAGeologica:weakStone:4'/>
+            <Replaces block='PFAAGeologica:strongStone:8'/>
+            <Replaces block='PFAAGeologica:mediumStone:0'/>
+            <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.3'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:12' weight='0.7'/>
+          </CloudPreset>
+          <CloudPreset name='PresetDolomiteOceanic'
+                       inherits='PresetSedimentaryOceanic'
+                       drawWireframe='false'
+                       wireframeColor='0xFF00FF55'>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+            <OreBlock block='PFAAGeologica:mediumStone:0' weight='0.3'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:12' weight='0.7'/>
+            <BiomeSet inherits='sedocean'/>
+          </CloudPreset>
+          <VeinsPreset name='PresetLayeredVeinsDolomite'
+                       inherits='PresetLayeredVeinsLite'>
+            <Replaces block='PFAAGeologica:weakStone:0'/>
+            <Replaces block='PFAAGeologica:weakStone:2'/>
+            <Replaces block='PFAAGeologica:weakStone:3'/>
+            <Replaces block='PFAAGeologica:weakStone:4'/>
+            <Replaces block='PFAAGeologica:strongStone:8'/>
+            <Replaces block='PFAAGeologica:mediumStone:0'/>
+            <Replaces block='PFAAGeologica:mediumOreRock:12'/>
+            <Setting name='MotherlodeRangeLimit' avg='4' range='2'/>
+            <Setting name='MotherlodeHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+            <Setting name='MotherlodeFrequency'
+                     avg=':= 15.0 * oreFreq' range='0'/>
+            <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetMagnesiteDolomite'
+                       inherits='PresetLayeredVeinsDolomite'
+                       drawWireframe='false'
+                       wireframeColor='0xFFAA6666'
+                       block='PFAAGeologica:mediumOreRock:5'/>
+          <VeinsPreset name='PresetSoapstoneDolomite'
+                       inherits='PresetLayeredVeinsDolomite'
+                       drawWireframe='false'
+                       wireframeColor='0xFF002200'
+                       block='PFAAGeologica:weakOreRock:14'>
+          </VeinsPreset>
+          <VeinsPreset name='PresetWollastoniteDolomite'
+                       inherits='PresetLayeredVeinsDolomite'
+                       drawWireframe='false'
+                       wireframeColor='0xFFAAAAAA'
+                       block='PFAAGeologica:mediumOreRock:14'>
+            <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
+          </VeinsPreset>
+        </ConfigSection>
+
+        <ConfigSection>
+          <CloudPreset name='PresetCarbonateDeposit'
+                       inherits='PresetLimestoneLower'>
+            <Setting name='DistributionFrequency' avg='0.003'/>
+            <Setting name='CloudThickness' avg='6'/>
+            <Setting name='CloudHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+          </CloudPreset>
+          <VeinsPreset name='PresetCarbonateSphaleriteGalena'
+                       inherits='PresetSphaleriteGalena'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF00FF'>
+            <Setting name='DistributionFrequency' avg=':= 1.2 * oreFreq'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+            <Setting name='ParentRangeLimit' avg='4' range='2'/>
+            <Replaces block='PFAAGeologica:mediumStone:0'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.60'/>
+            <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.20'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:0' weight='0.20'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetCarbonateSphaleriteGalenaOceanic'
+                       inherits='PresetCarbonateSphaleriteGalena'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF00FF'>
+            <Setting name='DistributionFrequency' avg=':= 0.005'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 40/64 * dimension.groundLevel'/>
+            <BiomeSet inherits='sedocean'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.60'/>
+            <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.20'/>
+            <OreBlock block='PFAAGeologica:mediumOreRock:0' weight='0.20'/>
+          </VeinsPreset>
+        </ConfigSection>
+      </ConfigSection>
+      
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GeologicaGenCarbonate &amp;
+                                ?GeologicaActive">
+          <Cloud name='Dolomite' inherits='PresetDolomite'>
+            <Veins name='MagnesiteDolomite' inherits='PresetMagnesiteDolomite'/>
+            <Veins name='SoapstoneDolomite'
+                   inherits='PresetSoapstoneDolomite'/>
+            <Veins name='WollastoniteDolomite'
+                   inherits='PresetWollastoniteDolomite'/>
+          </Cloud>
+          <Cloud name='DolomiteOceanic'
+                 inherits='PresetDolomiteOceanic'>
+            <Veins name='MagnesiteDolomiteOceanic'
+                   inherits='PresetMagnesiteDolomite'/>
+          </Cloud>
+          <Cloud name='CarbonateDeposit'
+                 inherits='PresetCarbonateDeposit'>
+            <IfCondition condition=":=?GeologicaGenLeadZinc">
+              <Veins name='CarbonateSphaleriteGalena'
+                     inherits='PresetCarbonateSphaleriteGalena'/>
+            </IfCondition>
+          </Cloud>
+          <IfCondition condition=":=?GeologicaGenLeadZinc">
+            <Veins name='CarbonateSphaleriteGalenaOceanic'
+                   inherits='PresetCarbonateSphaleriteGalenaOceanic'/>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Skarns -->
+      <ConfigSection>
+        <CloudPreset name='PresetSkarnDeposit' inherits='PresetSkarn'
+                     drawWireframe='false'
+                     wireframeColor='0xFF88FF55'>
+          <Biome name='.*' weight='1'/>
+          <BiomeSet inherits='volcanic' weight='-1'/>
+          <Setting name='DistributionFrequency' avg=':= 0.5 * _default_'/>
+          <Setting name='CloudThickness' avg=':= 2 * _default_'/>
+          <Setting name='CloudHeight' range=':= 2/64 * dimension.groundLevel'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSkarnVeins'
+                     inherits='PresetLayeredVeinsLite'
+                     drawWireframe='false'>
+          <Replaces block='PFAAGeologica:mediumStone:0'/>
+          <Replaces block='PFAAGeologica:weakStone:4'/>
+          <Replaces block='PFAAGeologica:mediumStone:4'/>
+          <Replaces block='PFAAGeologica:strongStone:1'/>
+          <Replaces block='PFAAGeologica:strongStone:3'/>
+          <Replaces block='PFAAGeologica:strongStone:5'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 3/64 * dimension.groundLevel'/>
+          <Setting name='MotherlodeRangeLimit' avg='4' range='2'/>
+          <Setting name='MotherlodeFrequency' avg=':= 5.0 * oreFreq'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnMagnesite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFF11FF00'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:5' weight='0.50'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:6' weight='0.50'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnSphaleriteGalena'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:8' weight='0.65'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:2' weight='0.35'/>
+          <Setting name='MotherlodeFrequency' avg=':= 3 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnChalcopyrite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFFFF00'
+                     drawWireframe='false'>
+          <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='1.0'/>
+          <Setting name='MotherlodeFrequency' avg=':= 3 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnMagnetite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFF0055'
+                     block='PFAAGeologica:strongOreRock:5'/>
+        <VeinsPreset name='PresetSkarnLapis'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFF0055'
+                     block='PFAAGeologica:vanillaOreRock:1'/>
+        <VeinsPreset name='PresetSkarnWollastonite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFFFFFF'
+                     drawWireframe='false'>
+          <OreBlock block='PFAAGeologica:strongStone:8' weight='0.25'/>
+          <OreBlock block='PFAAGeologica:mediumOreRock:14' weight='0.75'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnScheelite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFF11FF00'
+                     block='PFAAGeologica:mediumOreRock:7'
+                     drawWireframe='false'/>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenCarbonate &amp;
+                                ?GeologicaActive">
+          <Cloud name='SkarnDeposit' inherits='PresetSkarnDeposit'>
+            <Veins name='SkarnMagnesite'
+                   inherits='PresetSkarnMagnesite'/>
+            <IfModInstalled name="gregtech">
+              <IfCondition condition=":=?GregtechGenLapis">
+                <Veins name='SkarnLazurite' inherits='PresetSkarnLazurite'/>
+              </IfCondition>
+            </IfModInstalled>
+            <IfNotModInstalled name="gregtech">
+              <IfCondition condition=":=?GeologicaGenLapis">
+                <Veins name='SkarnLapis' inherits='PresetSkarnLapis'/>
+              </IfCondition>
+            </IfNotModInstalled>
+            <IfCondition condition=":=?GeologicaGenLeadZinc">
+              <Veins name='SkarnSphaleriteGalena'
+                     inherits='PresetSkarnSphaleriteGalena'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenCopper">
+              <Veins name='SkarnChalcopyrite'
+                     inherits='PresetSkarnChalcopyrite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenIron">
+              <Veins name='SkarnMagnetite'
+                     inherits='PresetSkarnMagnetite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GeologicaGenTungsten">
+              <Veins name='SkarnScheelite'
+                     inherits='PresetSkarnScheelite'/>
+            </IfCondition>
+            <Veins name='SkarnWollastonite'
+                   inherits='PresetSkarnWollastonite'/>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Uranium -->
+      <ConfigSection>
+        <CloudPreset name='PresetUraniumUnconformitySandstone'
+                     inherits='PresetSandstone'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <ReplacesRegexp block='.*Stone.*'/>
+          <Setting name='CloudHeight'
+                   avg=':= 45/64 * dimension.groundLevel'
+                   range=':= 0/64 * dimension.groundLevel'/>
+        </CloudPreset>
+        <CloudPreset name='PresetUraniumUnconformitySlate'
+                     inherits='PresetSlate'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00FF00'>
+          <Setting name='DistributionFrequency' avg='1'/>
+          <ReplacesOre block='stone'/>
+          <Setting name='ParentRangeLimit' avg='8' range='2'/>
+          <Setting name='CloudHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 0/64 * dimension.groundLevel'/>
+        </CloudPreset>
+        <CloudPreset name='PresetUraniumUnconformity'
+                     inherits='PresetStrategicCloud'
+                     block='PFAAGeologica:strongOreRock:9'
+                     drawWireframe='false'
+                     wireframeColor='0xFF0000FF'>
+          <ReplacesOre block='stone'/>
+          <Setting name='ParentRangeLimit' avg='8' range='2'/>
+          <Setting name='DistributionFrequency' avg=':= 1'/>
+          <Setting name='CloudThickness' avg=':= 0.25 * _default_'
+                   range=':= 0.25 * _default_'/>
+          <Setting name='CloudRadius' avg='8' range='3'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 42/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetUraniumSandstone'
+                     inherits='PresetSandstone'
+                     drawWireframe='false'
+                     wireframeColor='0xFF555500'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudHeight'
+                   avg=':= 50/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <OreBlock block='PFAAGeologica:strongStone:8' weight='0.95'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:9' weight='0.05'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetUraniumConglomerate'
+                     inherits='PresetConglomerate'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFFFF'>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudRadius' avg=':= 1.3 * _default_'
+                   range=':= 1.3 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 50/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <OreBlock block='PFAAGeologica:weakStone:3' weight='0.98'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:9' weight='0.02'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetUraniumVeins'
+                     inherits='PresetLayeredVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFF00FFF'
+                     block='PFAAGeologica:strongOreRock:9'>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <ReplacesOre block='stone'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenUranium &amp; ?GeologicaActive">
+          <Cloud name='UraniumUnconformitySandstone'
+                 inherits='PresetUraniumUnconformitySandstone'>
+            <Cloud name='UraniumUnconformitySlate'
+                   inherits='PresetUraniumUnconformitySlate'/>
+            <Cloud name='UraniumUnconformity'
+                   inherits='PresetUraniumUnconformity'/>
+          </Cloud>
+          <Cloud name='UraniumSandstone'
+                 inherits='PresetUraniumSandstone'/>
+          <Cloud name='UraniumConglomerate'
+                 inherits='PresetUraniumConglomerate'/>
+          <Veins name='UraniumVeins' inherits='PresetUraniumVeins'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- pyrolusite -->
+      <ConfigSection>
+        <CloudPreset name='PresetPyrolusite' block='PFAAGeologica:weakOreRock:4'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=10 * _default_'/>
+          <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+          <BiomeType name='swamp'/>
+        </CloudPreset>
+        <CloudPreset name='PresetPyrolusiteOceanic'
+                     block='PFAAGeologica:weakOreRock:4'
+                     inherits='PresetSedStrategicCloudOceanic'
+                     drawWireframe='false'>
+        </CloudPreset>
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenLaterites &amp;
+                                ?GeologicaGenManganese &amp;
+                                ?GeologicaActive">
+          <Cloud name='Pyrolusite' inherits='PresetPyrolusite'/>
+          <Cloud name='PyrolusiteOceanic'
+               inherits='PresetPyrolusiteOceanic'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection>
+      <ConfigSection>
+        <CloudPreset name='PresetBarite'
+                     inherits='PresetSedStrategicCloud'
+                     block='PFAAGeologica:mediumOreRock:0'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':= 5 * _default_'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBariteOceanic'
+                     inherits='PresetBarite'>
+          <Setting name='CloudHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <BiomeSet inherits='sedocean'/>
+        </CloudPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenBarite &amp; ?GeologicaActive">
+          <Cloud name='Barite' inherits='PresetBarite'/>
+          <Cloud name='BariteOceanic' inherits='PresetBariteOceanic'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+    
+    <ConfigSection> <!-- Various Industrial Minerals -->
+      <ConfigSection>
+        <VeinsPreset name='PresetAlunite'
+                     inherits='PresetLayeredVeinsVolcanic'
+                     block='PFAAGeologica:mediumOreRock:10'
+                     drawWireframe='false'>
+          <Setting name='MotherlodeFrequency' avg='0.1'/>
+          <Setting name='MotherlodeHeight' avg='90' range='10'
+                   type='uniform'/>
+          <Replaces block='minecraft:stone'/>
+          <Replaces block='PFAAGeologica:strongStone:7'/>
+          <Replaces block='PFAAGeologica:strongStone:0'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetDiatomite' block='PFAAGeologica:weakOreRock:8'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFFFF'>
+          <Setting name='DistributionFrequency'
+                   avg=':= 5 * _default_'/>
+          <BiomeSet inherits='volcanic'/>
+          <BiomeType name='sandy'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetPerliteVeins'
+                     inherits='PresetLayeredVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <ReplacesOre block='stone'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:13' weight='0.75'/>
+          <OreBlock block='minecraft:obsidian' weight='0.25'/> <!-- obsidian -->
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight' avg='15' range='10'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetApatiteBeds'
+                     inherits='PresetMetaStrategicCloud'
+                     drawWireframe='false'
+                     block='PFAAGeologica:strongOreRock:11'>
+          <Setting name='DistributionFrequency' avg=':=5 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Biome name='.*' weight='1'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetApatiteHintVeins'
+               inherits='PresetHintVeins'
+               block='PFAAGeologica:strongOreRock:11'
+               drawWireframe='false'>
+          <Setting name='MotherlodeFrequency' avg=':= 0.25 * _default_'/>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=10/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetKyanite'
+                     inherits='PresetMetamorphicContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudHeight' avg='45' range='5'/>
+          <Setting name='DistributionFrequency' avg='0.0025'/>
+          <OreBlock block='PFAAGeologica:strongOreRock:12' weight='0.10'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:4' weight='0.90'/>
+        </CloudPreset>
+        <StandardGenPreset name='PresetPumice'
+                           inherits='PresetVolcanicAsh'
+                           block='PFAAGeologica:strongOreRock:14'>
+          <Setting name='Frequency' avg=':=3 * _default_' range='0'/>
+        </StandardGenPreset>
+        <CloudPreset name='PresetZeolite'
+                     inherits='PresetMetaStrategicCloud'
+                     drawWireframe='false'
+                     block='PFAAGeologica:mediumOreRock:15'>
+          <Setting name='DistributionFrequency' avg=':=5 * _default_'/>
+          <Setting name='CloudHeight' avg=':=65/64 * dimension.groundLevel'
+                   range=':=10/64 * dimension.groundLevel'/>
+          <BiomeSet inherits='volcanic'/>
+        </CloudPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenVolcanic &amp; ?GeologicaActive">
+          <Veins name='Alunite' inherits='PresetAlunite'/>
+          <Veins name='PerliteVeins' inherits='PresetPerliteVeins'/>
+          <StandardGen name='Pumice' inherits='PresetPumice'/>
+          <Cloud name='Zeolite' inherits='PresetZeolite'/>
+        </IfCondition>
+        <IfCondition condition=":=?GeologicaGenMarine &amp; ?GeologicaActive">
+          <Cloud name='Diatomite' inherits='PresetDiatomite'/>
+        </IfCondition>
+        <IfCondition condition=":=?GeologicaGenApatite &amp; ?GeologicaActive">
+          <Cloud name='ApatiteBeds' inherits='PresetApatiteBeds'>
+            <Veins name='ApatiteHintVeins' inherits='PresetApatiteHintVeins'/>
+          </Cloud>
+        </IfCondition>
+        <IfCondition condition=":=?GeologicaGenQuartz &amp; ?GeologicaActive">
+          <Cloud name='Kyanite' inherits='PresetKyanite'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+   
+    <ConfigSection> <!-- Graphite -->
+      <ConfigSection>
+        <CloudPreset name='PresetGraphiteCloud'
+                     inherits='PresetMetamorphicContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudHeight' avg='45' range='5'/>
+          <Setting name='DistributionFrequency' avg='0.002'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetSchistGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFFFF5555'>
+          <OreBlock weight='0.005'>
+            <IfChoice name='GeologicaGenDiamond' value='true'>
+              <Then block='PFAAGeologica:vanillaOreRock:2'/>
+              <Else block='PFAAGeologica:mediumStone:1'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='PFAAGeologica:weakOreRock:10' weight='0.195'/>
+          <OreBlock block='PFAAGeologica:mediumStone:1' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetGneissGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFF222222'>
+          <OreBlock weight='0.01'>
+            <IfChoice name='GeologicaGenDiamond' value='true'>
+              <Then block='PFAAGeologica:vanillaOreRock:2'/>
+              <Else block='PFAAGeologica:mediumStone:1'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='PFAAGeologica:weakOreRock:10' weight='0.19'/>
+          <OreBlock block='PFAAGeologica:strongStone:2' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetQuartziteGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFFAAAA00'>
+          <OreBlock weight='0.02'>
+            <IfChoice name='GeologicaGenDiamond' value='true'>
+              <Then block='PFAAGeologica:vanillaOreRock:2'/>
+              <Else block='PFAAGeologica:mediumStone:1'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='PFAAGeologica:weakOreRock:10' weight='0.18'/>
+          <OreBlock block='PFAAGeologica:veryStrongStone:4' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetGraphiteBeds'
+                     inherits='PresetCoalBeds'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=0.1 * _default_'/>
+          <Setting name='CloudHeight' avg='50' range='5'/>
+          <OreBlock block='PFAAGeologica:weakOreRock:10' weight='0.70'/>
+          <OreBlock block='PFAAGeologica:crudeRock:1' weight='0.30'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetGraphiteVeins'
+                     inherits='PresetLayeredVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'
+                     block='PFAAGeologica:weakOreRock:10'>
+          <ReplacesOre block='stone'/>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <Setting name='MotherlodeHeight' avg='45' range='5'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GeologicaGenGraphite &amp; ?GeologicaActive">
+          <Cloud name='SchistGraphiteCloud'
+                 inherits='PresetSchistGraphiteCloud'/>
+          <Cloud name='GneissGraphiteCloud'
+                 inherits='PresetGneissGraphiteCloud'/>
+          <Cloud name='QuartziteGraphiteCloud'
+                 inherits='PresetQuartziteGraphiteCloud'/>
+          <Cloud name='GraphiteBeds'
+                 inherits='PresetGraphiteBeds'/>
+          <Veins name='GraphiteVeins' inherits='PresetGraphiteVeins'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Various Mineral Clays -->
+      <ConfigSection>
+        <StandardGenPreset name='PresetBentonite'
+                           inherits='PresetVolcanicAsh'>
+          <OreBlock block='PFAAGeologica:weakOreSand:5' weight='0.05'/>
+          <OreBlock block='PFAAGeologica:weakOreClay:1' weight='0.95'/>
+          <Setting name='Frequency' avg=':=4 * _default_' range='0'/>
+        </StandardGenPreset>
+        <CloudPreset name='PresetFullersEarth'
+                     inherits='PresetSedStrategicCloud'
+                     block='PFAAGeologica:weakOreClay:2'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF00FF'>
+          <Setting name='DistributionFrequency' avg=':= 6 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <BiomeType name='sandy'/>
+        </CloudPreset>
+        <CloudPreset name='PresetKaolinite'
+                     inherits='PresetSedStrategicCloud'
+                     block='PFAAGeologica:weakOreClay:3'
+                     drawWireframe='false'
+                     wireframeColor='0xFF0000FF'>
+          <Setting name='DistributionFrequency' avg=':= 12 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Biome name='.*' weight='-1'/>
+          <BiomeType name='hot'/>
+          <BiomeType name='wet'/>
+        </CloudPreset>
+      </ConfigSection>
+      
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GeologicaGenClay &amp;
+                                ?GeologicaActive">
+          <StandardGen name='Bentonite' inherits='PresetBentonite'/>
+          <Cloud name='FullersEarth' inherits='PresetFullersEarth'/>
+          <Cloud name='Kaolinite' inherits='PresetKaolinite'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection>
+      <VeinsPreset name="PresetFumarole"
+                   inherits='PresetPipeVeins' seed='0xE222'
+                   drawWireframe='false'>
+        <WireframeColor>0x40336699</WireframeColor> 
+        <Setting name='MotherlodeFrequency'
+                 avg=':= 0.5 * _default_'/> 
+        <Setting name='MotherlodeHeight'
+                 avg=':= 20/64 * dimension.groundLevel' range='5'/>
+        <OreBlock block='PFAAGeologica:weakOreRock:9' weight='0.1'/>
+        <OreBlock block='PFAAGeologica:weakOreRock:11' weight='0.6'/>
+        <OreBlock block='PFAAGeologica:weakOreRock:5' weight='0.3'/>
+        <BiomeSet inherits='felsic'/>
+      </VeinsPreset>
+      <VeinsPreset name="PresetFumaroleLava" block='minecraft:lava'
+                   inherits='PresetFumarole' seed='0xE222'
+                   drawWireframe='false'>
+        <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+        <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+        <ReplacesOre block='stone'/>
+        <Replaces block='minecraft:dirt'/>
+        <Replaces block='minecraft:gravel'/>
+      </VeinsPreset>
+    </ConfigSection>
+    <ConfigSection>
+      <IfCondition condition=":=?GeologicaGenVolcanic &amp; ?GeologicaActive">
+        <Veins name="Fumarole" inherits='PresetFumarole'>
+          <Veins name="FumaroleLava" inherits='PresetFumaroleLava'/>
+        </Veins>
+      </IfCondition>
+    </ConfigSection>
+    
+  </ConfigSection>
+
+  <ConfigSection> <!-- Petroleum -->
+    
+    <CloudPreset name='PresetCrudeOil'
+                 inherits='PresetStratum'>
+      <Setting name='CloudHeight' avg='40' range='10'/>
+      <Setting name='CloudThickness' avg='3' range='1'/>
+      <Setting name='DistributionFrequency' avg='0.001'/>
+      <Setting name='CloudRadius' avg='8' range='2' type='normal'/>
+      <ReplacesOre block='stone'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilContinental'
+                 inherits='PresetCrudeOil'>
+      <BiomeSet inherits='inland'/>
+    </CloudPreset>
+      
+    <CloudPreset name='PresetCrudeOilLightContinental'
+                 inherits='PresetCrudeOilContinental'
+                 wireframeColor='0xFFAAAAAA'>
+      <OreBlock block='PFAAGeologica:lightOil' weight='0.5'/>
+      <OreBlock block='PFAAGeologica:naturalGas' weight='0.5'/>
+      <Setting name='DistributionFrequency' avg=':=2*_default_'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilMediumContinental'
+                 inherits='PresetCrudeOilContinental'
+                 wireframeColor='0xFF888888'>
+      <OreBlock block='PFAAGeologica:mediumOil' weight='0.7'/>
+      <OreBlock block='PFAAGeologica:naturalGas' weight='0.3'/>
+      <Setting name='DistributionFrequency' avg=':=3.5*_default_'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilHeavyContinental'
+                 inherits='PresetCrudeOilContinental'
+                 wireframeColor='0xFF444444'>
+      <OreBlock block='PFAAGeologica:mediumOil' weight='0.9'/>
+      <OreBlock block='PFAAGeologica:naturalGas' weight='0.1'/>
+      <Setting name='DistributionFrequency' avg=':=2*_default_'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilExtraHeavyContinental'
+                 inherits='PresetCrudeOilContinental'
+                 block='PFAAGeologica:extraHeavyOil'
+                 wireframeColor='0xFF000000'>
+      <Setting name='DistributionFrequency' avg=':=3*_default_'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilOceanic'
+                 inherits='PresetCrudeOil'>
+      <BiomeSet inherits='oceanic'/>
+      <Setting name='CloudHeight' avg='25' range='5'/>
+      <Setting name='CloudRadius' avg='16' range='4' type='normal'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetCrudeOilLightOceanic'
+                 inherits='PresetCrudeOilOceanic'
+                 block='PFAAGeologica:lightOil'/>
+
+    <CloudPreset name='PresetCrudeOilMediumOceanic'
+                 inherits='PresetCrudeOilOceanic'
+                 block='PFAAGeologica:mediumOil'/>
+
+    <CloudPreset name='PresetCrudeOilHeavyOceanic'
+                 inherits='PresetCrudeOilOceanic'
+                 block='PFAAGeologica:heavyOil'/>
+
+    <CloudPreset name='PresetCrudeOilExtraHeavyOceanic'
+                 inherits='PresetCrudeOilOceanic'
+                 block='PFAAGeologica:extraHeavyOil'/>
+
+    <CloudPreset name='PresetOilShale'
+                 inherits='PresetStratum'
+                 wireframeColor='0xFF8E6500'>
+      <Setting name='CloudHeight' avg='50' range='5'/>
+      <Setting name='DistributionFrequency' avg='0.005'/>
+      <Setting name='CloudThickness' avg='3' range='1'/>
+      <OreBlock block='PFAAGeologica:crudeRock' weight='0.3'/>
+      <OreBlock block='PFAAGeologica:weakStone:4' weight='0.7'/>
+      <ReplacesOre block='stone'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetOilShaleOceanic'
+                 inherits='PresetOilShale'>
+      <BiomeSet inherits='oceanic'/>
+      <Setting name='CloudHeight' avg='40' range='5'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetOilShaleContinental'
+                 inherits='PresetOilShale'>
+      <BiomeSet inherits='inland'/>
+    </CloudPreset>
+
+    <VeinsPreset name='PresetTightVeins'
+                 inherits='PresetLayeredVeinsLite'>
+      <Setting name='MotherlodeHeight' avg='50' range='2'/>
+      <Setting name='ParentRangeLimit' avg='4' range='2'/>
+      <ReplacesOre block='stone'/>
+      <Replaces block='PFAAGeologica:crudeRock'/>
+    </VeinsPreset>
+                 
+    <VeinsPreset name='PresetTightOil'
+                 wireframeColor='0xFF00FFFF'
+                 inherits='PresetTightVeins'
+                 block='PFAAGeologica:lightOil'>
+      <Setting name='MotherlodeFrequency' avg='2'/>
+    </VeinsPreset>
+
+    <VeinsPreset name='PresetTightGas'
+                 wireframeColor='0xFF00FFFF'
+                 inherits='PresetTightVeins'
+                 block='PFAAGeologica:naturalGas'>
+      <Setting name='MotherlodeFrequency' avg='3'/>
+    </VeinsPreset>
+    
+    <CloudPreset name='PresetNaturalGas'
+                 inherits='PresetStratum'
+                 wireframeColor='0xFF0000AA'
+                 block='PFAAGeologica:naturalGas'
+                 drawWireframe='false'>
+      <Setting name='CloudHeight' avg='40' range='10'/>
+      <Setting name='DistributionFrequency' avg='0.004'/>
+      <Setting name='CloudRadius' avg='8' range='2' type='normal'/>
+      <Setting name='CloudThickness' avg='3' range='1'/>
+      <ReplacesOre block='stone'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetNaturalGasContinental'
+                 inherits='PresetNaturalGas'>
+      <BiomeSet inherits='continental'/>
+    </CloudPreset>
+    
+    <CloudPreset name='PresetNaturalGasOceanic'
+                 inherits='PresetNaturalGas'>
+      <BiomeSet inherits='oceanic'/>
+      <Setting name='CloudHeight' avg='25' range='5'/>
+      <Setting name='CloudRadius' avg='16' range='4' type='normal'/>
+    </CloudPreset>
+
+    <CloudPreset name='PresetOilSand' inherits='PresetStratum'
+                 block='PFAAGeologica:crudeSand'>
+      <Setting name='DistributionFrequency' avg='0.001' range='0'/>
+      <Setting name='CloudHeight' avg='62' range='1'/>
+      <Replaces block='minecraft:dirt'/>
+      <BiomeType name='plains'/>
+    </CloudPreset>
+    
+    <IfCondition condition=":=?GeologicaGenPetroleum &amp; ?GeologicaActive">
+      <Cloud name='CrudeOilLightContinental'
+             inherits='PresetCrudeOilLightContinental'/>
+      <Cloud name='CrudeOilMediumContinental'
+             inherits='PresetCrudeOilMediumContinental'/>
+      <Cloud name='CrudeOilHeavyContinental'
+             inherits='PresetCrudeOilHeavyContinental'/>
+      <Cloud name='CrudeOilExtraHeavyContinental'
+             inherits='PresetCrudeOilExtraHeavyContinental'/>
+      <Cloud name='OilShaleContinental'
+             inherits='PresetOilShaleContinental'>
+        <Veins name='TightOil' inherits='PresetTightOil'/>
+        <Veins name='TightGas' inherits='PresetTightGas'/>
+      </Cloud>
+      <Cloud name='NaturalGasContinental'
+             inherits='PresetNaturalGasContinental'/>
+      <Cloud name='CrudeOilLightOceanic'
+             inherits='PresetCrudeOilLightOceanic'/>
+      <Cloud name='CrudeOilMediumOceanic'
+             inherits='PresetCrudeOilMediumOceanic'/>
+      <Cloud name='CrudeOilHeavyOceanic'
+             inherits='PresetCrudeOilHeavyOceanic'/>
+      <Cloud name='CrudeOilExtraHeavyOceanic'
+             inherits='PresetCrudeOilExtraHeavyOceanic'/>
+      <Cloud name='OilShaleOceanic'
+             inherits='PresetOilShaleOceanic'/>
+      <Cloud name='NaturalGasOceanic'
+             inherits='PresetNaturalGasOceanic'/>
+      <Cloud name='OilSand' inherits='PresetOilSand'/>
+    </IfCondition>
+  </ConfigSection>
+  
+  <ConfigSection>
+    <ConfigSection>
+      <VeinsPreset name="PresetKimberlitePipes"
+                   inherits='PresetPipeVeins' seed='0xF186'>
+        <WireframeColor>0x40336699</WireframeColor> 
+        <Setting name='MotherlodeFrequency'
+                 avg=':= 0.5 * _default_'/> 
+        <Setting name='MotherlodeHeight'
+                 avg=':= 3/64 * dimension.groundLevel' range='0'/>
+        <OreBlock block='PFAAGeologica:vanillaOreRock:2' weight='0.6'/>
+        <OreBlock block='PFAAGeologica:veryStrongStone:3' weight='0.4'/>
+      </VeinsPreset>
+      <VeinsPreset name="PresetKimberlitePipesLava" block='minecraft:lava'
+                   inherits='PresetKimberlitePipes' seed='0xF186'
+                   drawWireframe='false'>
+        <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+        <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+        <ReplacesOre block='stone'/>
+        <Replaces block='minecraft:dirt'/>
+        <Replaces block='minecraft:gravel'/>
+      </VeinsPreset>
+    </ConfigSection>
+    <ConfigSection>
+      <IfCondition condition=":=?GeologicaGenDiamond &amp; ?GeologicaActive">
+        <Veins name="KimberlitePipes" inherits='PresetKimberlitePipes'>
+          <Veins name="KimberlitePipesLava"
+                 inherits='PresetKimberlitePipesLava'/>
+        </Veins>
+      </IfCondition>
+    </ConfigSection>
+  </ConfigSection>
+    
+  <ConfigSection>
+    <ConfigSection>
+      <VeinsPreset name='PresetRedstoneVeins' inherits='PresetVerticalVeins'> 
+        <WireframeColor>0x40550000</WireframeColor> 
+        <Setting name='MotherlodeFrequency' avg=':= 1.8 * _default_'/>
+        <OreBlock block='PFAAGeologica:vanillaOreRock:4' weight='0.8'/>
+        <OreBlock block='PFAAGeologica:mediumOreRock:2' weight='0.2'/>
+      </VeinsPreset>
+    </ConfigSection>
+    
+    <ConfigSection>
+      <IfCondition condition=":=?GeologicaGenRedstone &amp; ?GeologicaActive">
+        <Veins name='RedstoneVeins' inherits='PresetRedstoneVeins'/>
+      </IfCondition>
+    </ConfigSection>
+  </ConfigSection>  
+
+</IfModInstalled>

@@ -1,0 +1,476 @@
+<!--*********************  CustomOreGen IndustrialCraft Ores Module ******************************
+*
+*   This file contains Presets, Options, and Distributions for the 4 IndustrialCraft^2 ores:
+*       Copper, Tin, Lead and Uranium.
+*
+***********************************************************************************************-->
+<IfModInstalled name="IC2">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>                
+    
+        <OptionDisplayGroup name='groupIC2' displayName='IndustrialCraft' displayState='shown'>
+            <Description> 
+                Distribution options for the IndustrialCraft^2 ores.
+            </Description>
+        </OptionDisplayGroup>
+        
+        <!--*******************   Copper   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='ic2CopperDist' displayState=':= if(blockExists("IC2:blockOreCopper"),"shown","hidden")' displayGroup='groupIC2'>
+                <Description> Controls how IndustrialCraft^2 Copper is generated </Description>
+                <DisplayName>IC2 Copper Type</DisplayName>
+                <Default>:= if(blockExists("IC2:blockOreCopper"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered about one third of the way down to bedrock.  This is the default IC2 copper generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No copper is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='ic2CopperFreq' default='1'  min='0' max='5'
+                           displayState=':= if(?advOptions &amp; ic2CopperDist != "disabled","shown","hidden")'
+                           displayGroup='groupIC2'>
+                <Description> Frequency multiplier for IndustrialCraft^2 Copper distributions </Description>
+                <DisplayName>IC2 Copper Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='ic2CopperSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2CopperDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Size multiplier for IndustrialCraft^2 Copper distributions </Description>
+                <DisplayName>IC2 Copper Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= ic2CopperDist != "disabled"'>
+                <MystcraftSymbol name='ic2CopperClusters' displayName='Copper Clusters'/>
+                <MystcraftSymbol name='ic2CopperVeins' displayName='Copper Veins'/>
+                <MystcraftSymbol name='ic2CopperClouds' displayName='Copper Clouds'>
+                    <Instability>:= 50 * (age.ic2CopperClusters + age.ic2CopperVeins + age.ic2CopperClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+        
+        <!--********************   Tin   ***********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='ic2TinDist' displayState=':= if(blockExists("IC2:blockOreTin"),"shown","hidden")' displayGroup='groupIC2'>
+                <Description> Controls how IndustrialCraft^2 Tin is generated </Description>
+                <DisplayName>IC2 Tin Type</DisplayName>
+                <Default>:= if(blockExists("IC2:blockOreTin"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in flat grassy plains.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered from bedrock about two thirds of the way to the surface.  This is the default IC2 tin generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No tin is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no tin symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='ic2TinFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2TinDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Frequency multiplier for IndustrialCraft^2 Tin distributions </Description>
+                <DisplayName>IC2 Tin Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='ic2TinSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2TinDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Size multiplier for IndustrialCraft^2 Tin distributions </Description>
+                <DisplayName>IC2 Tin Size</DisplayName>
+            </OptionNumeric>  
+            
+            <IfCondition condition=':= ic2TinDist != "disabled"'>
+                <MystcraftSymbol name='ic2TinClusters' displayName='Tin Clusters'/>
+                <MystcraftSymbol name='ic2TinVeins' displayName='Tin Veins'/>
+                <MystcraftSymbol name='ic2TinClouds' displayName='Tin Clouds'>
+                    <Instability>:= 50 * (age.ic2TinClusters + age.ic2TinVeins + age.ic2TinClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+
+        </ConfigSection>           
+        
+        <!--******************   Uranium   *********************-->
+        <ConfigSection>
+        
+            <OptionChoice name='ic2UraniumDist' displayState=':= if(blockExists("IC2:blockOreUran"),"shown","hidden")' displayGroup='groupIC2'>
+                <Description> Controls how IndustrialCraft^2 Uranium is generated </Description>
+                <DisplayName>IC2 Uranium Type</DisplayName>
+                <Default>:= if(blockExists("IC2:blockOreUran"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devestated wastelands.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over one or two chunks.  Can be found anywhere, but most common in devestated wastelands.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small evenly scattered clusters of ore.  This is the default IC2 uranium generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No uranium is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No uranium is generated, and no uranium symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='ic2UraniumFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2UraniumDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Frequency multiplier for IndustrialCraft^2 Uranium distributions </Description>
+                <DisplayName>IC2 Uranium Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='ic2UraniumSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2UraniumDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Size multiplier for IndustrialCraft^2 Uranium distributions </Description>
+                <DisplayName>IC2 Uranium Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= ic2UraniumDist != "disabled"'>
+                <MystcraftSymbol name='ic2UraniumClusters' displayName='Uranium Clusters'/>
+                <MystcraftSymbol name='ic2UraniumVeins' displayName='Uranium Veins'/>
+                <MystcraftSymbol name='ic2UraniumClouds' displayName='Uranium Clouds'>
+                    <Instability>:= 50 * (age.ic2UraniumClusters + age.ic2UraniumVeins + age.ic2UraniumClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+            
+        </ConfigSection>           
+
+        <!--*******************   Lead   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='ic2LeadDist' displayState=':= if(blockExists("IC2:blockOreLead"),"shown","hidden")' displayGroup='groupIC2'>
+                <Description> Controls how IndustrialCraft^2 Lead is generated </Description>
+                <DisplayName>IC2 Lead Type</DisplayName>
+                <Default>:= if(blockExists("IC2:blockOreLead"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered about one third of the way down to bedrock.  This is the default IC2 lead generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No lead is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No lead is generated, and no lead symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='ic2LeadFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2LeadDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Frequency multiplier for IndustrialCraft^2 Lead distributions </Description>
+                <DisplayName>IC2 Lead Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='ic2LeadSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; ic2LeadDist != "disabled","shown","hidden")' displayGroup='groupIC2'>
+                <Description> Size multiplier for IndustrialCraft^2 Lead distributions </Description>
+                <DisplayName>IC2 Lead Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= ic2LeadDist != "disabled"'>
+                <MystcraftSymbol name='ic2LeadClusters' displayName='Lead Clusters'/>
+                <MystcraftSymbol name='ic2LeadVeins' displayName='Lead Veins'/>
+                <MystcraftSymbol name='ic2LeadClouds' displayName='Lead Clouds'>
+                    <Instability>:= 50 * (age.ic2LeadClusters + age.ic2LeadVeins + age.ic2LeadClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='IC2Substitute' block='minecraft:stone'>
+            <Description> 
+                Replace IC2-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='IC2:blockOreCopper'/> 
+            <Replaces block='IC2:blockOreTin'/> 
+            <Replaces block='IC2:blockOreUran'/>
+            <Replaces block='IC2:blockOreLead'/>
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.ic2CopperClusters > 0, ic2CopperDist = "vanillaStdGen")'>
+                <StandardGen name='IC2CopperStandard' block='IC2:blockOreCopper' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular IC2 copper distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='Size' avg=':= 1.25 * ic2CopperSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.75 * ic2CopperFreq * if(age,age.ic2CopperClusters,1) * _default_' 
+                                                range=':= 4 * ic2CopperFreq * if(age,age.ic2CopperClusters,1)'/>
+                    <Setting name='Height' avg=':= 40/64 * dimension.groundLevel' range=':= 30/64 * dimension.groundLevel' type='normal'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.ic2CopperVeins > 0, ic2CopperDist = "layeredVeins")'>             
+                <Veins name='IC2CopperVeins' block='IC2:blockOreCopper' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 30-50 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.15 * ic2CopperFreq * if(age,age.ic2CopperVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= ic2CopperSize * _default_' range=':= ic2CopperSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 40/64 * dimension.groundLevel' range=':= 12/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.6 * _default_' range=':= 0.6 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 1.2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius' avg=':= ic2CopperSize * _default_' range=':= ic2CopperSize * _default_'/>
+                </Veins>                
+                <Veins name='IC2CopperVeinsJungle' inherits='IC2CopperVeins'>
+                    <Description> This roughly triples the chance of finding Copper in jungle biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.ic2CopperClouds > 0, ic2CopperDist = "strategicClouds")'>
+                <Cloud name='IC2CopperCloud' block='IC2:blockOreCopper' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse copper cloud surrounded by single-block "hint" veins, found in jungle biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 3.5 * ic2CopperFreq * if(age,age.ic2CopperClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 1.1 * ic2CopperSize * _default_' range=':= ic2CopperSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 1.1 * ic2CopperSize * _default_' range=':= ic2CopperSize * _default_'/> 
+                    <BiomeType name='Jungle'/>
+                    <Veins name='IC2CopperHintVeins' block='IC2:blockOreCopper' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= ic2CopperSize * _default_' range=':= ic2CopperSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--********************   Tin   ***********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.ic2TinClusters > 0, ic2TinDist = "vanillaStdGen")'>            
+                <StandardGen name='IC2TinStandard' block='IC2:blockOreTin' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular IC2 tin distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='Size' avg=':= 0.75 * ic2TinSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 1.25 * ic2TinFreq * if(age,age.ic2TinClusters,1) * _default_' 
+                                                range=':= 5 * ic2TinFreq * if(age,age.ic2TinClusters,1)'/>
+                    <Setting name='Height' avg=':= 20/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.ic2TinVeins > 0, ic2TinDist = "layeredVeins")'>    
+                <Veins name='IC2TinVeins' block='IC2:blockOreTin' inherits='PresetLayeredVeins'>
+                    <Description> 
+                        Average veins in the 20-40 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.10 * ic2TinFreq * if(age,age.ic2TinVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= ic2TinSize * _default_' range=':= ic2TinSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 30/64 * dimension.groundLevel' range=':= 11/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchHeightLimit' avg='11'/>
+                    <Setting name='BranchLength' avg=':= 0.8 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= ic2TinSize * _default_' range=':= ic2TinSize * _default_'/>
+                </Veins>
+                <Veins name='IC2TinVeinsPlains' inherits='IC2TinVeins'>
+                    <Description> This roughly triples the chance of finding tin in plains biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Plains'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.ic2TinClouds > 0, ic2TinDist = "strategicClouds")'>
+                <Cloud name='IC2TinCloud' block='IC2:blockOreTin' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse tin cloud surrounded by single-block "hint" veins, found in plains biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4 * ic2TinFreq * if(age,age.ic2TinClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.9 * ic2TinSize * _default_' range=':= ic2TinSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.9 * ic2TinSize * _default_' range=':= ic2TinSize * _default_'/> 
+                    <BiomeType name='Plains'/>
+                    <Veins name='IC2TinHintVeins' block='IC2:blockOreTin' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40FFFFFF</WireframeColor> 
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= ic2TinSize * _default_' range=':= ic2TinSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--******************   Uranium   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.ic2UraniumClusters > 0, ic2UraniumDist = "vanillaStdGen")'>
+                <StandardGen name='IC2UraniumStandard' block='IC2:blockOreUran' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular IC2 uranium distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4080FF00</WireframeColor> 
+                    <Setting name='Size' avg=':= 0.375 * ic2UraniumSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 1.0 * ic2UraniumFreq * if(age,age.ic2UraniumClusters,1) * _default_' 
+                                               range=':= 4.5 * ic2UraniumFreq * if(age,age.ic2UraniumClusters,1)'/>
+                    <Setting name='Height' avg=':= 32/64 * dimension.groundLevel' range=':= 32/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.ic2UraniumVeins > 0, ic2UraniumDist = "layeredVeins")'>    
+                <Veins name='IC2UraniumVeins' block='IC2:blockOreUran' inherits='PresetSparseVeins'>    
+                    <Description>
+                        Sparse veins in the 10-30 range.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4080FF00</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 3.0 * ic2UraniumFreq * if(age,age.ic2UraniumVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.6 * ic2UraniumSize * _default_' range=':= 0.6 * ic2UraniumSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                    <Setting name='BranchInclination' avg='0' range='0.35'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius' avg=':= 0.6 * ic2UraniumSize * _default_' range=':= 0.6 * ic2UraniumSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='IC2UraniumVeinsWasteland' inherits='IC2UraniumVeins'>
+                    <Description>  This roughly triples the chance of finding uranium in an wasteland. </Description>      
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+                    <BiomeType name='Wasteland'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.ic2UraniumClouds > 0, ic2UraniumDist = "strategicClouds")'>
+                <Cloud name='IC2UraniumCloud' block='IC2:blockOreUran' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse uranium cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4044FF00</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4 * ic2UraniumFreq * if(age,age.ic2UraniumClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.5 * ic2UraniumSize * _default_' range=':= 0.5 * ic2UraniumSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.5 * ic2UraniumSize * _default_' range=':= 0.5 * ic2UraniumSize * _default_'/>                
+                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                    <Setting name='OreDensity' avg=':= 1.1 * _default_'/>
+                    <Biome name='.*' weight='0.2'/>
+                    <BiomeType name='Wasteland'/>
+                    <Veins name='IC2UraniumHintVeins' block='IC2:blockOreUran' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x4080FF00</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.5 * ic2UraniumSize * _default_' range=':= 0.5 * ic2UraniumSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+        <!--*******************   Lead   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.ic2LeadClusters > 0, ic2LeadDist = "vanillaStdGen")'>
+                <StandardGen name='IC2LeadStandard' block='IC2:blockOreLead' inherits='PresetStandardGen'> 
+                    <Description> Equivalent? to regular IC2 lead distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40222222</WireframeColor> 
+                    <Setting name='Size' avg=':= 1.25 * ic2LeadSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.75 * ic2LeadFreq * if(age,age.ic2LeadClusters,1) * _default_' 
+                                                range=':= 4 * ic2LeadFreq * if(age,age.ic2LeadClusters,1)'/>
+                    <Setting name='Height' avg=':= 40/64 * dimension.groundLevel' range=':= 30/64 * dimension.groundLevel' type='normal'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.ic2LeadVeins > 0, ic2LeadDist = "layeredVeins")'>             
+                <Veins name='IC2LeadVeins' block='IC2:blockOreLead' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 30-50 range;
+                    more common in deserts. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40222222</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.15 * ic2LeadFreq * if(age,age.ic2LeadVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= ic2LeadSize * _default_' range=':= ic2LeadSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 40/64 * dimension.groundLevel' range=':= 12/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.6 * _default_' range=':= 0.6 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 1.2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius' avg=':= ic2LeadSize * _default_' range=':= ic2LeadSize * _default_'/>
+                </Veins>                
+                <Veins name='IC2LeadVeinsDesert' inherits='IC2LeadVeins'>
+                    <Description> This roughly triples the chance of finding Lead in desert biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Sandy'/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.ic2LeadClouds > 0, ic2LeadDist = "strategicClouds")'>
+                <Cloud name='IC2LeadCloud' block='IC2:blockOreLead' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse copper cloud surrounded by single-block "hint" veins, found in desert biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 3.5 * ic2LeadFreq * if(age,age.ic2LeadClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 1.1 * ic2LeadSize * _default_' range=':= ic2LeadSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 1.1 * ic2LeadSize * _default_' range=':= ic2LeadSize * _default_'/> 
+                    <BiomeType name='Sandy'/>
+                    <Veins name='IC2LeadHintVeins' block='IC2:blockOreLead' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40222222</WireframeColor> 
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= ic2LeadSize * _default_' range=':= ic2LeadSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+    </IfCondition>
+    
+</IfModInstalled>

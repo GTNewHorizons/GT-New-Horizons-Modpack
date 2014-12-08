@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--************************ CustomOreGen Minecraft Ores Module *********************************
+*
+* This file contains Presets, Options, and Distributions for the
+* limestone and marble from the Chisel mod.
+*
+***********************************************************************************************-->
+<IfModInstalled name="chisel">
+
+  <!--*************************** Options + Symbols ***********************************
+      *
+      * Below are options and symbols for each ore, similar to those for the standard ores.
+      *
+      *************************************************************************************-->
+  <ConfigSection>
+    
+    <OptionDisplayGroup name='groupChisel' displayName='Chisel' displayState='shown'>
+      <Description>
+	Distribution options for the Chisel stones, Marble and Limestone.
+      </Description>
+    </OptionDisplayGroup>
+    
+    <!--******************* Limestone ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='ChiselLimestone' default='layers' displayState='shown' displayGroup='groupChisel'>
+	<Description> Controls how Limestone is generated </Description>
+	<DisplayName>Chisel Limestone Type</DisplayName>
+	<Choice value='layers' displayValue='Layers'>
+	  <Description>
+	    Limestone in relatively large layers. Most prevalent in Swamps. 
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of limestone. This is an approximation to the Chisel mod limestone generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No limestone is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No limestone is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='ChiselLimestoneFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupChisel'>
+	<Description>Frequency multiplier for limestone distributions </Description>
+	<DisplayName>Chisel Limestone Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='ChiselLimestoneSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupChisel'>
+	<Description>Size multiplier for limestone distributions </Description>
+	<DisplayName>Chisel Limestone Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= ChiselLimestone != "disabled"'>
+	<MystcraftSymbol name='chiselLimestoneStd' displayName='Chisel Limestone Clusters'/>
+	<MystcraftSymbol name='chiselLimestoneLayers' displayName='Chisel Limestone Layers'>
+	  <Instability>:= 50 * (age.chiselLimestoneStd + age.chiselLimestoneLayers - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Marble ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='ChiselMarble' default='layers' displayState='shown' displayGroup='groupChisel'>
+	<Description> Controls how Marble is generated </Description>
+	<DisplayName>Chisel Marble Type</DisplayName>
+	<Choice value='layers' displayValue='Layers'>
+	  <Description>
+	    Marble in relatively large layers. Most prevalent in Mountains. 
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of marble. This is an approximation to the Chisel mod marble generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No marble is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No marble is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='ChiselMarbleFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupChisel'>
+	<Description>Frequency multiplier for marble distributions</Description>
+	<DisplayName>Chisel Marble Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='ChiselMarbleSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupChisel'>
+	<Description>Size multiplier for marble distributions</Description>
+	<DisplayName>Chisel Marble Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= ChiselMarble != "disabled"'>
+	<MystcraftSymbol name='chiselMarbleStd' displayName='Chisel Marble Clusters'/>
+	<MystcraftSymbol name='chiselMarbleLayers' displayName='Chisel Marble Layers'>
+	  <Instability>:= 50 * (age.chiselMarbleStd + age.chiselMarbleLayers - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>    
+
+  </ConfigSection>
+    
+  <!--***************************** Distributions *************************************
+      *
+      *   Below are the actual distributions for the overworld and mystcraft ages.
+      *
+      *************************************************************************************-->
+  <IfCondition condition=':= ?COGActive'>
+    
+    <!--********** Vanilla Deposit Removal *************-->
+    <Substitute name='ChiselOreSubstitute' block='minecraft:stone'>
+      <Description>
+	Replace mod-generated clusters with stone.
+      </Description>
+      <Comment>
+	The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+      </Comment>
+      <Replaces block='chisel:limestone'/>
+      <Replaces block='chisel:marble'/>
+      <Comment>
+	TODO: find right block names for Chisel stones.
+      </Comment>
+    </Substitute>
+    
+        <CloudPreset name='PresetChiselLayer'>
+            <Description>
+                Fairly common layers, borrowed from PFAA.
+            </Description>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='DistributionFrequency' avg='0.02'/>
+            <Setting name='CloudRadius' avg='16' range='0' type='normal'/>
+            <Setting name='CloudThickness' avg='3' range='3' type='normal'/>
+            <Setting name='CloudHeight'  range='5'
+                     type='uniform' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0.35'/>
+            <Setting name='CloudSizeNoise' avg='0.2'/>
+            <Setting name='OreRadiusMult' avg='1' range='0.1'/>
+            <Setting name='OreDensity' avg='1.0'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0.1'/>
+            <ReplacesOre block='minecraft:stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
+
+    <!--******************* Limestone ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.chiselLimestoneStd > 0, ChiselLimestone = "vanillaStdGen")'>
+	<StandardGen name='ChiselLimestoneClusters' block='chisel:limestone' inherits='PresetStandardGen'>
+	  <Description>
+            Equivalent to mod standard limestone distribution
+          </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <Setting name='Size'
+                   avg=':= ChiselLimestoneSize * _default_ * 2'/>
+	  <Setting name='Frequency'
+                   avg=':= ChiselLimestoneFreq * if(age,age.chiselLimestoneStd,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 54/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.chiselLimestoneLayers > 0, ChiselLimestone = "layers")'>
+	<Cloud name='ChiselLimestoneLayers' block='chisel:limestone' inherits='PresetChiselLayer'>
+	  <Description>
+	    Limestone layers spawn in the height 44-64 range.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <Setting name='CloudRadius'
+                   avg=':= ChiselLimestoneSize * _default_'/>
+	  <Setting name='DistributionFrequency'
+                   avg=':= ChiselLimestoneFreq * if(age,age.chiselLimestoneLayers,1) * _default_'/>
+          <Setting name='CloudHeight' avg='54' range='10'/>
+	</Cloud>
+	<Cloud name='ChiselLimestoneLayerSwamp' inherits='ChiselLimestoneLayers'>
+	  <Description> This makes Limestone very common in swamp biomes.</Description>
+	  <Setting name='DistributionFrequency'
+                   avg=':= 9 * ChiselLimestoneFreq * if(age,age.chiselLimestoneLayers,1) * _default_'/>
+	  <BiomeType name='Swamp'/>
+	</Cloud>
+      </IfCondition>
+            
+    </ConfigSection>
+
+    <!--******************* Marble ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.chiselMarbleStd > 0, ChiselMarble = "vanillaStdGen")'>
+	<StandardGen name='ChiselMarbleClusters' block='chisel:marble' inherits='PresetStandardGen'>
+	  <Description>Roughly equivalent to standard marble distribution</Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <Setting name='Size' avg=':= ChiselMarbleSize * _default_ * 2'/>
+	  <Setting name='Frequency' avg=':= ChiselMarbleFreq * if(age,age.chiselMarbleStd,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 35/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.chiselMarbleLayers > 0, ChiselMarble = "layers")'>
+
+	<Cloud name='ChiselMarbleLayers' block='chisel:marble' inherits='PresetChiselLayer'>
+	  <Description>
+	    Marble spawns in the height 50-100 range. The layers occur mostly in mountains.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+     	  <Setting name='CloudRadius'
+                   avg=':= ChiselMarbleSize * _default_'/>
+	  <Setting name='DistributionFrequency'
+                   avg=':= 3 * ChiselMarbleFreq * if(age,age.chiselMarbleLayers,1) * _default_'/>
+          <Setting name='CloudHeight' avg='75' range='25'/>
+	</Cloud>
+	<Cloud name='ChiselMarbleLayerMountain' inherits='ChiselMarbleLayers'>
+	  <Description>
+            This roughly triples the chance of finding marble in
+            mountain biomes.
+          </Description>
+	  <Setting name='DistributionFrequency'
+                   avg=':= 25 * ChiselMarbleFreq * if(age,age.chiselMarbleLayers,1) * _default_'/>
+	  <BiomeType name='Mountain'/>
+	</Cloud>
+      </IfCondition>
+      
+      
+    </ConfigSection>
+    
+  </IfCondition>
+
+</IfModInstalled>

@@ -1,0 +1,2913 @@
+<!--********************** CustomOreGen Geologica Module ******************
+
+    This file contains Presets, Options, and
+    Distributions for Gregtech ores, with patterns
+    inspired by Geologica.
+
+    WORK IN PROGRESS.
+
+    EXCLUDED:
+    * No sulfur ore; available as by-product from sulfide ores
+    * No plutonium ore; process uranium
+    * No cobaltite ore; process chalcopyrite, pentlandite, limonite
+    * We place pitchblende, but not uraninite (synonyms)
+    * All native metals not included in list above
+    
+***************************************************************************-->
+
+<IfModInstalled name='gregtech'>
+  
+  <ConfigSection>
+
+    <OptionChoice name='GregtechActive'
+                  default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                  displayGroup='groupInternal'>
+      <Choice value='true' displayValue='On'/>
+      <Choice value='false' displayValue='Off'/>
+      <Comment>
+        Controls whether Gregtech is active in the current dimension. By default, it is active in the overworld and Mystcraft ages. To disable for a specific dimension, set this to false in the CustomOreGen_Options.txt found in the dimension directory (preferably before visiting it).
+      </Comment>
+    </OptionChoice>
+
+    <OptionDisplayGroup name='groupGregtechOres' displayName='Gregtech Ores'
+                        displayState='shown'> 
+      <Description> 
+        Enable/disable ores for certain metals and other substances.
+      </Description>
+    </OptionDisplayGroup>
+
+    <OptionDisplayGroup name='groupGregtech' displayName='Gregtech Forms'
+                        displayState='shown'> 
+      <Description> 
+        Enable/disable Gregtech ore formations.
+      </Description>
+    </OptionDisplayGroup>
+
+    <OptionChoice name='GregtechGenOres' default='true'
+                 displayState='shown_dynamic'
+                 displayGroup='groupGregtechOres'>
+      <Description>
+        Generate Gregtech ore formations
+      </Description>
+      <DisplayName>Gregtech ores</DisplayName>
+      <Choice value='true' displayValue='On'/>
+      <Choice value='false' displayValue='Off'/>
+    </OptionChoice>
+
+    <ConfigSection> <!-- Biome Sets -->
+      <BiomeSet name='shieldVolcano'>
+        <Biome name='Volcano'/> <!-- BOP -->
+        <Biome name='Deadlands'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='stratovolcano'>
+        <Biome name='Extreme\s*Hills'/>
+        <Biome name='Extreme\s*Hills\s*Edge'/>
+      </BiomeSet>
+
+      <BiomeSet name='caldera'>
+        <Biome name='Hot Springs'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='felsic'>
+        <BiomeSet inherits='stratovolcano'/>
+        <BiomeSet inherits='caldera'/>
+      </BiomeSet>
+      
+      <BiomeSet name='volcanic'>
+        <BiomeSet inherits='felsic'/>
+        <BiomeSet inherits='shieldVolcano'/>
+      </BiomeSet>
+
+      <BiomeSet name='dome'>
+        <Biome name='glacier'/> <!-- BOP -->
+      </BiomeSet>
+
+      <BiomeSet name='folded'>
+        <Biome name='alps'/> <!-- BOP -->
+        <Biome name='highlands'/> <!-- BOP -->
+        <Biome name='crag'/> <!-- BOP -->
+        <Biome name='ice mountains'/>
+      </BiomeSet>
+
+      <BiomeSet name='island'>
+        <BiomeType name='mushroom'/>
+      </BiomeSet>
+      
+      <BiomeSet name='oceanic'>
+        <BiomeType name='ocean'/>
+        <BiomeSet inherits='island'/>
+      </BiomeSet>
+
+      <BiomeSet name='sedocean'>
+        <BiomeType name='ocean'/>
+        <Biome name='deep ocean' weight='-1'/>
+      </BiomeSet>
+      
+      <BiomeSet name='continental'>
+        <Biome name='.*'/>
+        <BiomeSet inherits='oceanic' weight='-1'/>
+        <BiomeSet inherits='volcanic' weight='-1'/>
+      </BiomeSet>
+
+      <BiomeSet name='inland' inherits='continental'>
+        <BiomeType name='beach' weight='-1'/>
+      </BiomeSet>
+
+      <BiomeSet name='frozen-continental'>
+        <BiomeType name='cold'/>
+        <BiomeType name='ocean' weight='-1'/>
+      </BiomeSet>
+      
+    </ConfigSection>
+    
+    <ConfigSection>
+
+      <OptionChoice name='GregtechOverride' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Override the corresponding generation from vanilla or other mods when we generate an equivalent GT ore. It is most efficient, but not necessary, to also (or alternatively) disable the COG generation of these ores, as well as generation options in mod configurations.
+        </Description>
+        <DisplayName>Override vanilla/mod ores</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GregtechGenCoal' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of coal
+        </Description>
+        <DisplayName>Coal</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenIron' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of iron (hematite, magnetite)
+        </Description>
+        <DisplayName>Iron</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenGold' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of gold. Note that even if this is disabled, some gold will still be present in association with certain ores.
+        </Description>
+        <DisplayName>Gold</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenDiamond' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of diamonds, as kimberlite pipes, and embedded within certain graphite deposits.
+        </Description>
+        <DisplayName>Diamond</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenLapis' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate lapis gems and related minerals (lazurite, sodalite).
+        </Description>
+        <DisplayName>Lapis Lazuli</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GregtechGenCopper' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of copper ore (chalcopyrite)
+        </Description>
+        <DisplayName>Copper (Chalcopyrite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenTin' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of tin ore (cassiterite)
+        </Description>
+        <DisplayName>Tin (Cassiterite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenAluminum' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of aluminium ore (bauxite).
+        </Description>
+        <DisplayName>Aluminium (Bauxite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenMercury' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of mercury ore (cinnabar).
+        </Description>
+        <DisplayName>Mercury (Cinnabar)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenLeadZinc' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of zinc and lead ore (sphalerite, galena).
+        </Description>
+        <DisplayName>Lead/Zinc</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenTungsten' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of tungsten ore (scheelite, wolframite).
+        </Description>
+        <DisplayName>Tungsten</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GregtechGenNickel' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of nickel ore (pentlandite, garnierite).
+        </Description>
+        <DisplayName>Nickel (Pentlandite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenChromium' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of chromium ore (chromite).
+        </Description>
+        <DisplayName>Chromium (Chromite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenTitanium' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of titanium ore (ilmenite).
+        </Description>
+        <DisplayName>Titanium (ilmenite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenMolybdenum' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of molybdenum ore (molybdenite).
+        </Description>
+        <DisplayName>Molybdenum (Molybdenite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenManganese' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of manganese ore (pyrolusite).
+        </Description>
+        <DisplayName>Manganese (Pyrolusite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GregtechGenUranium' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of uranium ore (uraninite).
+        </Description>
+        <DisplayName>Uranium (Uraninite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenApatite' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of apatite (phosphate ore).
+        </Description>
+        <DisplayName>Phosphate (Apatite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+      
+      <OptionChoice name='GregtechGenSalt' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of salt ore (halite).
+        </Description>
+        <DisplayName>Salt (Halite)</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenQuartz' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>
+          Generate distributions of quartz.
+        </Description>
+        <DisplayName>Quartz</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+    </ConfigSection>
+
+    <ConfigSection>
+      
+      <OptionChoice name='GregtechGenBIF'
+                    default=':=?GregtechGenOres &amp; ?GregtechGenIron'
+                    displayState=':=if(?GregtechGenOres &amp; ?GregtechGenIron, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate sedimentary banded iron formations, primarily of hematite, with some recoverable magnetite.</Description>
+        <DisplayName>Banded Iron Formations</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenSandOres' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate placer deposits (iron, tin, garnet). This is recommended if you disable vanilla iron.</Description>
+        <DisplayName>Placer deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenVolcanic' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate volcanic ore deposits including alunite, ash, perlite, pumice and zeolite.</Description>
+        <DisplayName>Volcanic deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenSerpVeins' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate serpentinite veins that are rich in soapstone, magnesite, chromite and chrysotile.</Description>
+        <DisplayName>Serpentinite veins</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenLaterites' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate ore deposits in bogs and tropical lateritic soils (bauxite, limonite, garnierite).</Description>
+        <DisplayName>Bog/lateritic ores</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenIgVeins' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate ore veins in igneous rock (ilmenite, chromite, magnetite, chalcopyrite, ...)</Description>
+        <DisplayName>Ore veins in igneous rock</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenIgIntrusion' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate igneous intrusions where mafic rock has penetrated the upper reaches of the crust. Contain large deposits of magnetite, magnesite, pentlandite, ilmenite, and chromite.</Description>
+        <DisplayName>Igneous intrusions</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenEvaporite' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate marine evaporite deposits rich in gypsum and rock salt.</Description>
+        <DisplayName>Evaporite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenVMS' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate Volcagenic Massive Sulfide deposits, rich in sulfide ores like sphalerite, galena, and chalcopyrite.</Description>
+        <DisplayName>VMS deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenSEDEX' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate SEDimentary EXhalative deposits rich in sphalerite, galena, scheelite, and chalcopyrite.</Description>
+        <DisplayName>SEDEX deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenPegmatite' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate pegmatite veins with a rich assortment of minerals.</Description>
+        <DisplayName>Pegmatite veins</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenCarbonate' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate carbonate deposits with minerals like magnesite, soapstone, sphalerite and galena.</Description>
+        <DisplayName>Carbonate ore deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenBarite' default=':=?GregtechGenOres'
+                      displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                      displayGroup='groupGregtech'>
+        <Description>Generate barite deposits.</Description>
+        <DisplayName>Barite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenMarine' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate marine-related deposits.</Description>
+        <DisplayName>Marine-related deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenGraphite' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate graphite deposits in various patterns.</Description>
+        <DisplayName>Graphite deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenClay' default='false'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtech'>
+        <Description>Generate mineral clay deposits, including bentonite, Fuller's earth and kaolinite.</Description>
+        <DisplayName>Mineral clay deposits</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+
+      <OptionChoice name='GregtechGenNativeOres' default=':=?GregtechGenOres'
+                    displayState=':=if(?GregtechGenOres, "shown", "hidden")'
+                    displayGroup='groupGregtechOres'>
+        <Description>Generate deposits of native gold, silver, electrum and copper.</Description>
+        <DisplayName>Native metals</DisplayName>
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+      </OptionChoice>
+    </ConfigSection>
+    
+    <ConfigSection>
+
+      <IfCondition condition=":=?GregtechGenOres &amp; ?GregtechActive">
+        <Substitute name='GTOreRemoval' block='minecraft:stone'>
+          <Replaces block='gregtech:gt.blockores'/>
+        </Substitute>
+      </IfCondition>
+      
+      <IfCondition condition=":=?GregtechOverride &amp; ?GregtechActive">
+        <Substitute name='GTOverrideSubstitute' block='minecraft:stone'>
+          <IfCondition condition=":=?GregtechGenCoal">
+            <ReplacesOre block='oreCoal'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenIron">
+            <ReplacesOre block='oreIron'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenCopper">
+            <ReplacesOre block='oreCopper'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTin">
+            <ReplacesOre block='oreTin'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenAluminum">
+            <ReplacesOre block='oreBauxite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenMercury">
+            <ReplacesOre block='oreCinnabar'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenLeadZinc">
+            <ReplacesOre block='oreLead'/>
+            <ReplacesOre block='oreZinc'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenNickel">
+            <ReplacesOre block='oreNickel'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenChromium">
+            <ReplacesOre block='oreChromium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTitanium">
+            <ReplacesOre block='oreTitanium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenMolybdenum">
+            <ReplacesOre block='oreMolydenum'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenManganese">
+            <ReplacesOre block='oreManganese'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenSalt">
+            <ReplacesOre block='oreSalt'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenUranium">
+            <ReplacesOre block='oreUranium'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenApatite">
+            <ReplacesOre block='oreApatite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenGold">
+            <ReplacesOre block='oreGold'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenDiamond">
+            <ReplacesOre block='oreDiamond'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenLapis">
+            <ReplacesOre block='oreLapis'/>
+          </IfCondition>
+        </Substitute>
+      </IfCondition>
+
+      <CloudPreset name='PresetStratum'>
+        <Description>
+          Solid clouds that form layers of rock and minerals. Individual
+          layer generators are expected to modify the CloudHeight,
+          CouldThickness and DistributionFrequency settings.
+        </Description>
+        <Setting name='DistributionFrequency' avg='1.0'/>
+        <Setting name='CloudRadius' avg='16' range='0' type='normal'/>
+        <Setting name='CloudThickness' range='3' type='normal'/>
+        <Setting name='CloudHeight' range='2' type='uniform'/>
+        <Setting name='OreDensity' avg='1.0'/>
+        <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+        <ReplacesOre block='minecraft:stone'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetStratumContinental'
+                   inherits='PresetStratum'>
+        <BiomeSet inherits='continental'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetStratumOceanic' inherits='PresetStratum'>
+        <BiomeSet inherits='oceanic'/>
+        <BiomeSet inherits='folded'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetStratumVolcanic' inherits='PresetStratum'>
+        <BiomeSet inherits='felsic'/>
+      </CloudPreset>
+     
+      <VeinsPreset name='PresetRockVeins'>
+        <Description>
+          Thick veins of rock, usually formed through hydrothermal processes.
+        </Description>
+        <Setting name='MotherlodeRangeLimit' avg='8' range='5'/>
+        <Setting name='MotherlodeSize' avg='4'/>
+        <Setting name='SegmentRadius' avg='3' range='2' type='normal'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetIntrusiveVeins'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <Setting name='MotherlodeFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight' avg='30' range='30'/>
+          <BiomeSet inherits='continental' weight='0.5'/>
+          <BiomeSet inherits='oceanic'/>
+          <BiomeSet inherits='volcanic'/>
+          <ReplacesOre block='stone'/>
+      </VeinsPreset>
+
+      <CloudPreset name='PresetSedimentaryContinental'
+                   inherits='PresetStratumContinental'>
+        <BiomeSet inherits='continental'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetSedimentaryContinentalMinor'
+                     inherits='PresetSedimentaryContinental'>
+        <Setting name='CloudThickness' avg='4' range='2'/>
+        <Setting name='CloudHeight' avg=':= 75/64 * dimension.groundLevel'
+                 range='30'/>
+        <Replaces block='PFAAGeologica:weakStone:4'/>
+        <Replaces block='PFAAGeologica:mediumStone:0'/>
+        <Replaces block='PFAAGeologica:strongStone:3'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetSedimentaryOceanic'
+                   inherits='PresetStratumOceanic'>
+        <Setting name='CloudThickness' avg='5'/>
+        <Setting name='CloudHeight' avg='45'/>
+        <Replaces block='minecraft:stone'/>
+        <Replaces block='minecraft:dirt'/>
+        <Replaces block='PFAAGeologica:mediumStone:0'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetMetamorphicContinental'
+                     inherits='PresetStratumContinental'>
+        <Setting name='DistributionFrequency' avg='0.02'/>
+        <Setting name='CloudHeight' avg='40' range='5'/>
+        <Setting name='CloudThickness' avg='3' range='1'/>
+        <Replaces block='PFAAGeologica:weakStone:4'/>
+        <Replaces block='PFAAGeologica:strongStone:3'/>
+        <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetMetamorphicVolcanic'
+                   inherits='PresetStratumVolcanic'>
+        <Setting name='DistributionFrequency' avg='0.2'/>
+        <Setting name='CloudThickness' avg='4' range='2'/>
+        <Replaces block='PFAAGeologica:veryStrongStone:0'/>
+        <Replaces block='PFAAGeologica:strongStone:0'/>
+        <Replaces block='PFAAGeologica:strongStone:3'/>
+      </CloudPreset>
+      
+      <CloudPreset name='PresetMetamorphicOceanic'
+                   inherits='PresetStratumOceanic'>
+        <Setting name='DistributionFrequency' avg='0.1'/>
+        <Setting name='CloudThickness' avg='3' range='2'/>
+        <Replaces block='PFAAGeologica:veryStrongStone:1'/>
+        <Replaces block='PFAAGeologica:strongStone:1'/>
+      </CloudPreset>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Common ore presets -->
+
+      <VeinsPreset name='PresetLayeredVeinsLite'
+                   inherits='PresetLayeredVeins'>
+        <Setting name='OreDensity' avg=':= 0.4 * _default_' range='0.2'/>
+        <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                 range=':= 0.5 * _default_'/>
+        <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsContinental'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='continental'/>
+        <BiomeSet inherits='folded' weight='-1'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsVolcanic'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='felsic'/>
+      </VeinsPreset>
+
+      <VeinsPreset name='PresetLayeredVeinsOceanic'
+                   inherits='PresetLayeredVeinsLite'>
+        <BiomeSet inherits='oceanic'/>
+        <BiomeSet inherits='folded'/>
+      </VeinsPreset>
+      
+      <VeinsPreset name='PresetSphaleriteGalena'
+                   inherits='PresetLayeredVeinsLite'>
+        <OreBlock block='gregtech:gt.blockores' weight='0.65'
+                  nbt='{m:839, n:1, id:"GT_TileEntity_Ores"}'/>
+        <OreBlock block='gregtech:gt.blockores' weight='0.35'
+                  nbt='{m:830, n:1, id:"GT_TileEntity_Ores"}'/>
+      </VeinsPreset>
+      
+    </ConfigSection>
+    
+    <ConfigSection> <!-- Standard ores/minerals -->
+
+      <CloudPreset name='PresetSedStrategicCloud'
+                   inherits='PresetStrategicCloud'>
+        <Setting name='CloudThickness' avg=':=0.5 * _default_'
+                 range=':=0.5 * _default_'/>
+        <Setting name='CloudHeight' avg=':=55/64 * dimension.groundLevel'
+                 range=':=10/64 * dimension.groundLevel' type='normal'/>
+        <Setting name='OreVolumeNoiseCutoff' avg=':=0.6 * _default_'/>
+        <BiomeSet inherits='continental'/>
+        <BiomeSet inherits='folded'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetSedStrategicCloudOceanic'
+                   inherits='PresetSedStrategicCloud'>
+        <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+        <BiomeSet inherits='sedocean'/>
+      </CloudPreset>
+
+      <CloudPreset name='PresetMetaStrategicCloud'
+                   inherits='PresetStrategicCloud'>
+        <Setting name='CloudThickness' avg=':=0.5 * _default_'
+                 range=':=0.5 * _default_'/>
+        <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+        <Setting name='OreVolumeNoiseCutoff' avg=':=0.6 * _default_'/>
+      </CloudPreset>
+
+      <VeinsPreset name='PresetHintVeinsSed'
+                   inherits='PresetHintVeins'>
+        <Setting name='MotherlodeHeight'
+                 avg=':=55/64 * dimension.groundLevel'/>
+      </VeinsPreset>
+
+      <ConfigSection> <!-- Coal -->
+        <CloudPreset name='PresetCoalBeds' block='minecraft:coal_ore'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency'
+                 avg=':=20 * _default_'/>
+          <Setting name='CloudRadius' avg=':=1.4 * _default_'
+                   range=':=1.4 * _default_'/>
+          <BiomeSet inherits='inland' weight='0.5'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetCoalBedHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <Setting name='MotherlodeFrequency' avg=':=1.2 * _default_'
+                   range=':=_default_'/> 
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16535, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+
+        <CloudPreset name='PresetLigniteBeds'
+                     inherits='PresetCoalBeds'
+                     drawWireframe='false'>
+          <BiomeType name='swamp'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:538, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetLigniteBedHintVeins'
+                     inherits='PresetCoalBedHintVeins'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16538, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+
+        <CloudPreset name='PresetCoalBedsOceanic' inherits='PresetCoalBeds'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean' weight='0.5'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetCoalBedHintVeinsOceanic'
+                     inherits='PresetCoalBedHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                 range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean' weight='0.5'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection> <!-- Banded Iron Formations -->
+        <CloudPreset name='PresetBandedIron'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <WireframeColor>0xFF221100</WireframeColor> 
+          <Setting name='DistributionFrequency'
+                 avg=':= 20 * _default_'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:917, n:1, id:"GT_TileEntity_Ores"}'/>
+          <BiomeSet inherits='inland' weight='0.5'/>
+          <BiomeSet inherits='folded' weight='0.5'/>
+          <BiomeSet inherits='frozen-continental' weight='0.5'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetBandedIronOceanic'
+                     inherits='PresetBandedIron'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='normal'/>
+          <BiomeSet inherits='sedocean'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetBandedIronHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <Setting name='MotherlodeFrequency' avg=':=_default_'
+                   range=':=_default_'/> 
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16917, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetBandedIronHintVeinsOceanic'
+                     inherits='PresetBandedIronHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetSubBIFBreccia'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='MotherlodeFrequency' avg='0.2'/>
+          <Setting name='MotherlodeHeight' avg='35' range='2'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <OreBlock block='minecraft:gravel' weight='0.88'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.10'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSubBIFBrecciaOceanic'
+                     inherits='PresetSubBIFBreccia'>
+          <Setting name='MotherlodeHeight' avg=':=30/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+            
+      <ConfigSection> <!-- Distributions -->
+                
+        <IfCondition condition=":=?GregtechGenCoal &amp; ?GregtechActive">
+          <Cloud name='CoalBeds' inherits='PresetCoalBeds'>
+            <Veins name='CoalBedHintVeins' inherits='PresetCoalBedHintVeins'/>
+          </Cloud>
+          <Cloud name='CoalBedsOceanic' inherits='PresetCoalBedsOceanic'>
+            <Veins name='CoalBedHintVeinsOceanic'
+                   inherits='PresetCoalBedHintVeinsOceanic'/>
+          </Cloud>
+          <Cloud name='LigniteBeds' inherits='PresetLigniteBeds'>
+            <Veins name='LigniteBedHintVeins'
+                   inherits='PresetLigniteBedHintVeins'/>
+          </Cloud>
+        </IfCondition>
+
+        <IfCondition condition=":=?GregtechGenBIF &amp; ?GregtechActive">
+          <Cloud name='BandedIron' inherits='PresetBandedIron'>
+            <Veins name='BandedIronHintVeins'
+                   inherits='PresetBandedIronHintVeins'/>
+            <IfCondition condition=":=?GregtechGenCopper">
+              <Veins name='SubBIFBreccia'
+                     inherits='PresetSubBIFBreccia'/>
+            </IfCondition>
+          </Cloud>
+          <Cloud name='BandedIronOceanic' inherits='PresetBandedIronOceanic'>
+            <Veins name='BandedIronHintVeinsOceanic'
+                   inherits='PresetBandedIronHintVeinsOceanic'/>
+            <IfCondition condition=":=?GregtechGenCopper">
+              <Veins name='SubBIFBrecciaOceanic'
+                     inherits='PresetSubBIFBrecciaOceanic'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+
+      </ConfigSection>
+      
+    </ConfigSection> <!-- standard ores/minerals -->
+
+
+    <ConfigSection> <!-- Mineral sand -->
+
+      <ConfigSection>
+        <CloudPreset name='PresetPlacer' inherits='PresetStratum'>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+          <Setting name='DistributionFrequency' avg='0.04' range='0'/>
+          <Setting name='CloudHeight' avg='62' range='1'
+                   type='uniform' scaleTo='sealevel'/>
+          <Replaces block='minecraft:grass'/>
+          <ReplacesRegexp block='.*sand'/>
+          <!-- <Replaces block='.*dirt'/> -->
+          <Replaces block='minecraft:gravel'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBeachPlacer' inherits='PresetPlacer'>
+          <BiomeType name='beach' weight='0.5'/>
+          <Setting name='CloudRadius' avg='5' range='2' type='normal'/>
+        </CloudPreset>
+        <CloudPreset name='PresetAlluvialPlacer' inherits='PresetPlacer'>
+          <BiomeType name='river'/>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'
+                   range='0'/>
+          <Setting name='CloudRadius' avg='8' range='2' type='normal'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBasalticSandBeach'
+                           inherits='PresetBeachPlacer'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.80'
+                    nbt='{m:16870, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16825, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16918, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16527, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16528, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetCassiteriteSandBeach'
+                           inherits='PresetBeachPlacer'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16824, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetGarnetSandBeach'
+                           inherits='PresetBeachPlacer'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:16527, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:16528, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetGraniticSandBeach'
+                           inherits='PresetBeachPlacer'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.80'
+                    nbt='{m:16870, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16520, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16918, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.10'
+                    nbt='{m:16516, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetCassiteriteSandAlluvial'
+                           inherits='PresetAlluvialPlacer'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16824, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetGarnetSandAlluvial'
+                           inherits='PresetAlluvialPlacer'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:16527, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:16528, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetGraniticSandAlluvial'
+                           inherits='PresetAlluvialPlacer'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.80'
+                    nbt='{m:16870, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16520, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16918, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.10'
+                    nbt='{m:16516, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <StandardGenPreset name='PresetVolcanicAsh'
+                           maxHeight='75'>
+          <Setting name='Size' avg='16' range='8'/>
+          <Setting name='Frequency' avg='0.2' range='0'/>
+          <Setting name='Height' avg=':=70/64 * dimension.groundLevel'
+                   range='20'/>
+          <BiomeSet inherits='volcanic'/>
+          <Biome name='badlands' weight='0.5'/> <!-- BOP -->
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='minecraft:sand'/>
+          <ReplacesOre block='stone'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:940, n:1, id:"GT_TileEntity_Ores"}'/>
+        </StandardGenPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GregtechGenSandOres &amp; ?GregtechActive">
+          <IfCondition condition=":=?GregtechGenIron">
+            <Cloud name='BasalticSandBeach' inherits='PresetBasalticSandBeach'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+            <Cloud name='GraniticSandBeach' inherits='PresetGraniticSandBeach'
+                 drawWireframe='false' wireframeColor='0xFFFFFF22'/>
+            <Cloud name='GraniticSandAlluvial'
+                   inherits='PresetGraniticSandAlluvial'
+                   drawWireframe='false' wireframeColor='0xFFFFFF22'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTin">
+            <Cloud name='CassiteriteSandBeach'
+                   inherits='PresetCassiteriteSandBeach'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+            <Cloud name='CassiteriteSandAlluvial'
+                   inherits='PresetCassiteriteSandAlluvial'
+                   drawWireframe='false' wireframeColor='0xFFFF2222'/>
+          </IfCondition>
+          <Cloud name='GarnetSandBeach' inherits='PresetGarnetSandBeach'
+                 drawWireframe='false' wireframeColor='0xFF222222'/>
+          <Cloud name='GarnetSandAlluvial' inherits='PresetGarnetSandAlluvial'
+                 drawWireframe='false' wireframeColor='0xFF222222'/>
+        </IfCondition>
+        
+        <IfCondition condition=":=?GregtechGenVolcanic &amp; ?GregtechActive">
+          <StandardGen name='VolcanicAsh' inherits='PresetVolcanicAsh'
+                       drawWireframe='false'
+                       wireframeColor='0xFF999922'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Serpentine and other intrusive veins -->
+
+      <ConfigSection>
+        
+        <VeinsPreset name='PresetSerpentinite'
+                     inherits='PresetIntrusiveVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <OreBlock block='minecraft:stone' weight='0.816'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:908, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.01'/>
+          <OreBlock weight='0.01'>
+            <IfChoice name='GregtechGenChromium' value='true'>
+              <Then block='gregtech:gt.blockores'
+                    nbt='{m:825, n:1, id:"GT_TileEntity_Ores"}'/>
+              <Else block='minecraft:stone'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:505, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.05'/>
+          <OreBlock weight='0.005'>
+            <IfChoice name='GregtechGenNickel' value='true'>
+              <Then block='gregtech:gt.blockores'
+                    nbt='{m:16909, n:1, id:"GT_TileEntity_Ores"}'/>
+              <Else block='minecraft:stone'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:902, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.10'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:912, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.009'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenSerpVeins &amp;
+                                ?GregtechActive">
+          <Veins name='Serpentinite' inherits='PresetSerpentinite'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Laterite, limonite -->
+
+      <ConfigSection>
+
+        <CloudPreset name='PresetRichSoil' inherits='PresetStratum'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='CloudThickness' avg='4' range='1'/>
+          <Setting name='CloudHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range='5'/>
+          <Replaces block='minecraft:dirt'/>
+          <ReplacesOre block='stone'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetLaterite' block='minecraft:hardened_clay'
+                     inherits='PresetRichSoil'
+                     drawWireframe='false'>
+          <WireframeColor>0xFFFF1100</WireframeColor>
+          <Biome name='.*' weight='-1'/>
+          <BiomeType name='hot'/>
+          <BiomeType name='wet'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetLateriteBauxite'
+                     inherits='PresetLaterite'>
+          <WireframeColor>0xFFFF11FF</WireframeColor>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='minecraft:hardened_clay' weight='0.5'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:822, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.5'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetLateriteLimonite'
+                     inherits='PresetLaterite'>
+          <WireframeColor>0xFF1111FF</WireframeColor>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <OreBlock block='minecraft:hardened_clay' weight='0.70'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16931, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16930, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+        </CloudPreset>
+
+        <!-- NOTE: we are not actually generating this 'peat'
+             distribution, just the bog limonite derivative! -->
+        <CloudPreset name='PresetPeat' block='minecraft:dirt'
+                     inherits='PresetRichSoil'
+                     drawWireframe='false'>
+          <WireframeColor>0xFFFF1100</WireframeColor>
+          <Setting name='DistributionFrequency' avg=':= 0.5 * _default_'/>
+          <BiomeType name='swamp'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetBogLimonite' inherits='PresetPeat'>
+          <WireframeColor>0xFF1111FF</WireframeColor>
+          <OreBlock block='minecraft:dirt' weight='0.70'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:931, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:930, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetSerpentiniteUnderLimonite'
+                     inherits='PresetStratum'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00AA00'>
+          <Setting name='DistributionFrequency' avg='2.5'/>
+          <Setting name='CloudHeight' avg='53' range='2'/>
+          <Setting name='CloudThickness' avg='3' range='1'/>
+          <Setting name='ParentRangeLimit' avg='5' range='2'/>
+          <OreBlock block='minecraft:stone' weight='0.5'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:906, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.5'/>
+        </CloudPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenLaterites &amp;
+                                ?GregtechActive">
+          <Cloud name='Laterite' inherits='PresetLaterite'/>
+          <IfCondition condition=":=?GregtechGenAluminum">
+            <Cloud name='LateriteBauxite' inherits='PresetLateriteBauxite'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenIron">
+            <Cloud name='LateriteLimonite' inherits='PresetLateriteLimonite'>
+              <Cloud name='SerpentiniteUnderLimonite'
+                     inherits='PresetSerpentiniteUnderLimonite'/>
+            </Cloud>
+            <Cloud name='BogLimonite' inherits='PresetBogLimonite'/>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in diorite/gabbro -->
+      <ConfigSection>
+        
+        <VeinsPreset name='PresetDioriteVeinsContinental'
+                     inherits='PresetLayeredVeinsContinental'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 3/64 * dimension.groundLevel'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetIlmeniteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF1111FF'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.97'
+                    nbt='{m:918, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:503, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16503, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetChromiteDioriteContinental'
+                     inherits='PresetDioriteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF11'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.97'
+                    nbt='{m:825, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:502, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16502, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetDioriteVeinsOther'
+                     inherits='PresetLayeredVeins'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='normal'/>
+          <BiomeSet inherits='oceanic'/>
+          <BiomeSet inherits='volcanic'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetIlmeniteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     drawWireframe='false'
+                     wireframeColor='0xFF11FFFF'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.97'
+                    nbt='{m:918, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:503, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16503, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetChromiteDioriteOther'
+                     inherits='PresetDioriteVeinsOther'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF11'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.97'
+                    nbt='{m:825, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:502, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16502, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenIgVeins &amp; ?GregtechActive">
+          <IfCondition condition=":=?GregtechGenTitanium">
+            <Veins name='IlmeniteDioriteContinental'
+                   inherits='PresetIlmeniteDioriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenChromium">
+            <Veins name='ChromiteDioriteContinental'
+                   inherits='PresetChromiteDioriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTitanium">
+            <Veins name='IlmeniteDioriteOther'
+                   inherits='PresetIlmeniteDioriteOther'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenChromium">
+            <Veins name='ChromiteDioriteOther'
+                   inherits='PresetChromiteDioriteOther'/>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Layered Intrusions -->
+
+      <ConfigSection> <!-- Strata -->
+        
+        <CloudPreset name='PresetLayeredIntrusion'
+                     inherits='PresetStratum'>
+          <Setting name='CloudThickness' avg='5' range='0'/>
+          <Setting name='CloudRadius' avg='32' range='5'/>
+          <Setting name='CloudHeight' range='0'/>
+          <Setting name='ParentRangeLimit' avg='3' range='2'/>
+          <WireframeColor>0xFFFFFF00</WireframeColor>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetPeridotiteIntrusion'
+                     block='minecraft:stone'
+                     inherits='PresetLayeredIntrusion'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' avg='10' range='0'/>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Biome name='.*' weight='0.5'/>
+          <BiomeSet inherits='volcanic' weight='0.5'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetGabbroIntrusion'
+                     block='minecraft:stone'
+                     inherits='PresetLayeredIntrusion'>
+          <Setting name='CloudHeight' avg='20' range='0'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetDioriteIntrusion'
+                     block='minecraft:stone'
+                     inherits='PresetLayeredIntrusion'>
+          <Setting name='CloudHeight' avg='30' range='0'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+        </CloudPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection> <!-- Ores -->
+
+        <CloudPreset name='PresetLayeredIntrusionOre'
+                     inherits='PresetStrategicCloud'>
+          <Setting name='ParentRangeLimit' avg='16' range='2'/>
+          <Setting name='DistributionFrequency' avg=':= 0.25'/>
+          <Setting name='CloudThickness' avg=':= 0.25 * _default_'
+                   range=':= 0.25 * _default_'/>
+          <Setting name='CloudRadius' avg='16' range='3'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetPeridotiteLayer'
+                     inherits='PresetLayeredIntrusionOre'>
+          <Setting name='CloudHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'
+                   type='uniform'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetPeridotiteSerpentinite'
+                     inherits='PresetSerpentinite'
+                     drawWireframe='false'
+                     wireframeColor='0xFF00FF00'>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 10/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+          <Setting name='ParentRangeLimit' avg='16' range='8'/>
+          <Setting name='DistributionFrequency' avg=':= 20.0 * _default_'/>
+        </VeinsPreset>
+        
+        <CloudPreset name='PresetMagnetitePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     drawWireframe='false' wireframeColor='0xFFAAFFFF'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:923, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetMagnesitePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFF11FFFF'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:908, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetPentlanditePeridotite'
+                     inherits='PresetPeridotiteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFF11FFFF'>
+          <Setting name='OreDensity' avg=':= 0.75 * _default_'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.92'
+                    nbt='{m:909, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16052, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16084, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.03'
+                    nbt='{m:16085, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.03'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetDioriteLayer'
+                     inherits='PresetLayeredIntrusionOre'>
+          <Setting name='CloudHeight'
+                   avg=':= 30/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetIlmeniteDioriteLayer'
+                     inherits='PresetDioriteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFF1111FF'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:918, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetChromiteDioriteLayer'
+                     inherits='PresetDioriteLayer'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF1111'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.99'
+                    nbt='{m:825, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:502, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenIgIntrusion &amp;
+                                ?GregtechActive">
+          <Cloud name='PeridoditeIntrusion' inherits='PresetPeridotiteIntrusion'>
+            <Cloud name='GabbroIntrusion'
+                   inherits='PresetGabbroIntrusion'/>
+            <Cloud name='DioriteIntrusion'
+                   inherits='PresetDioriteIntrusion'/>
+            <Cloud name='MagnetitePeridotite'
+                   inherits='PresetMagnetitePeridotite'/>
+            <Cloud name='MagnesitePeridotite'
+                   inherits='PresetMagnesitePeridotite'/>
+            <IfCondition condition=":=?GregtechGenNickel">
+              <Cloud name='PentlanditePeridotite'
+                     inherits='PresetPentlanditePeridotite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenSerpVeins">
+              <Veins name='PeridotiteSerpentinite'
+                     inherits='PresetPeridotiteSerpentinite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenTitanium">
+              <Cloud name='IlmeniteDioriteLayer'
+                     inherits='PresetIlmeniteDioriteLayer'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenChromium">
+              <Cloud name='ChromiteDioriteLayer'
+                     inherits='PresetChromiteDioriteLayer'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Marine Evaporites -->
+      <ConfigSection>
+        <CloudPreset name='PresetEvaporiteStratum'
+                     inherits='PresetStratum'
+                     drawWireframe='false'>
+          <Setting name='CloudHeight' range='0'/>
+          <Setting name='CloudThickness' range='0'/>
+          <Setting name='ParentRangeLimit' avg='3' range='2'/>
+          <Setting name='DistributionFrequency' avg='20' range='0'/>
+          <BiomeType name='sandy'/>
+          <BiomeType name='plains'/>
+          <BiomeType name='wasteland'/>
+          <BiomeType name='wet' weight='-1'/>
+          <Replaces block='minecraft:sandstone'/>
+          <Replaces block='minecraft:dirt'/>
+          <ReplacesOre block='stone'/>
+          <WireframeColor>0xFF11FF00</WireframeColor>
+        </CloudPreset>
+        <CloudPreset name='PresetEvaporiteLimestone'
+                     block='minecraft:stone'
+                     inherits='PresetEvaporiteStratum'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='CloudHeight' avg='55' range='0'/>
+          <Setting name='CloudThickness' avg='3'/>
+        </CloudPreset>
+        <CloudPreset name='PresetEvaporiteGypsum'
+                     inherits='PresetEvaporiteStratum'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16904, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.05'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:913, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.05'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:934, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.90'/>
+          <Setting name='CloudHeight' avg='58' range='0'/>
+          <Setting name='CloudThickness' avg='2' range='0'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetEvaporiteGypsumHintVeins'
+                     inherits='PresetHintVeinsSed'
+                     drawWireframe='false'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16934, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.90'/>
+          <Setting name='MotherlodeHeight' avg='58' range='2'/>
+          <Setting name='MotherlodeFrequency' avg=':= 0.05 * _default_'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetEvaporiteRockSalt'
+                     inherits='PresetEvaporiteStratum'>
+          <Setting name='CloudHeight' avg='60' range='0'/>
+          <Setting name='CloudThickness' avg='1' range='0'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:944, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetLakeEvaporite'
+                     inherits='PresetEvaporiteStratum'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg='0.013'/>
+          <Setting name='CloudHeight' avg='60' range='0'/>
+          <Setting name='CloudThickness' avg='3' range='0'/>
+          <BiomeType name='sandy'/>
+          <BiomeType name='wasteland'/>
+          <BiomeType name='wet' weight='-1'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:903, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.70'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:900, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:941, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.15'/>
+        </CloudPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenEvaporite &amp;
+                                ?GregtechActive">
+          <Cloud name='EvaporiteLimestone' inherits='PresetEvaporiteLimestone'>
+            <Cloud name='EvaporiteGypsum'
+                   inherits='PresetEvaporiteGypsum'>
+              <Veins name='EvaporiteGypsumHintVeins'
+                     inherits='PresetEvaporiteGypsumHintVeins'/>
+            </Cloud>
+            <IfCondition condition=":=?GregtechGenSalt">
+              <Cloud name='EvaporiteRockSalt'
+                     inherits='PresetEvaporiteRockSalt'/>
+            </IfCondition>
+          </Cloud>
+          <Cloud name='LakeEvaporite' inherits='PresetLakeEvaporite'>
+            <Cloud name='LakeEvaporiteGypsum' inherits='PresetEvaporiteGypsum'/>
+            <Cloud name='LakeEvaporiteRockSalt'
+                   inherits='PresetEvaporiteRockSalt'/>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+
+    </ConfigSection>
+
+    <ConfigSection> <!-- Volcagenic Massive Sulfide -->
+
+      <ConfigSection>
+        
+        <CloudPreset name='PresetVMSRhyolite'
+                     inherits='PresetStratum'
+                     drawWireframe='false'
+                     block='minecraft:stone'>
+          <Setting name='CloudThickness' avg='10' range='2'/>
+          <Setting name='CloudRadius' avg='32' range='5'/>
+          <Setting name='CloudHeight' avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <Setting name='DistributionFrequency' avg='0.004'/>
+          <ReplacesOre block='minecraft:stone'/>
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='minecraft:sand'/>
+          <WireframeColor>0xFFFFFF00</WireframeColor>
+          <BiomeSet inherits='folded' weight='0.5'/>
+          <BiomeType name='ocean'/>
+        </CloudPreset>
+
+        <VeinsPreset name='PresetVMSRhyoliteHintVeins'
+                     inherits='PresetHintVeins'
+                     block='minecraft:stone'>
+          <Setting name='MotherlodeHeight'
+                   avg=':=25/64 * dimension.groundLevel'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSChalcopyrite'
+                     inherits='PresetLayeredVeinsLite'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='DistributionFrequency' avg='1.0'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 15/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.95'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSSphaleriteGalena'
+                     inherits='PresetSphaleriteGalena'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0000'>
+          <Setting name='DistributionFrequency' avg='1.0'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetVMSGold'
+                     inherits='PresetLayeredVeinsLite'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0000'>
+          <!-- Adapted from COG GoldVeins -->
+          <Setting name='MotherlodeFrequency' avg=':= 0.15'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 27/64 * dimension.groundLevel'
+                   range=':= 1/64 * dimension.groundLevel'/>
+          <Setting name='MotherlodeSize' avg=':= 0.8 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <Setting name='BranchHeightLimit' avg='10'/>  
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+          <Setting name='BranchLength' avg=':= 0.75 * _default_'
+                   range=':= 0.66 * _default_'/>
+          <Setting name='SegmentRadius'
+                   avg=':= 0.7 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <Setting name='SegmentAngle' avg='0.6' range='0.40' />
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:86, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenVMS &amp; ?GregtechActive">
+          <Cloud name='VMSRhyolite'
+                 inherits='PresetVMSRhyolite'>
+            <IfCondition condition=":=?GregtechGenLeadZinc">
+              <Veins name='VMSSphaleriteGalena'
+                     inherits='PresetVMSSphaleriteGalena'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenCopper">
+              <Veins name='VMSChalcopyrite' inherits='PresetVMSChalcopyrite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenGold">
+              <Veins name='VMSGold' inherits='PresetVMSGold'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- SEDEX deposits -->
+      
+      <ConfigSection>
+        <CloudPreset name='PresetSEDEX'
+                     inherits='PresetSedStrategicCloud'>
+          <BiomeSet inherits='continental'/>
+          <BiomeSet inherits='island'/>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetSEDEXSphaleriteGalena'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFF3300FF'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.60'
+                    nbt='{m:839, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:830, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.1'
+                    nbt='{m:16090, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='DistributionFrequency' avg=':= 3 * _default_'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXSphaleriteGalenaOceanic'
+                     inherits='PresetSEDEXSphaleriteGalena'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXSphaleriteGalenaHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.65'
+                    nbt='{m:16839, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.35'
+                    nbt='{m:16830, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSEDEXSphaleriteGalenaHintVeinsOceanic'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+
+        <CloudPreset name='PresetSEDEXScheelite'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFF33FF55'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.98'
+                    nbt='{m:910, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16501, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='OreDensity' avg=':=0.5 * _default_'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXScheeliteOceanic'
+                     inherits='PresetSEDEXScheelite'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel'
+                   type='uniform'/>
+          <Setting name='OreDensity' avg=':=0.5 * _default_'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXScheeliteHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16910, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSEDEXScheeliteHintVeinsOceanic'
+                     inherits='PresetSEDEXScheeliteHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        
+        <CloudPreset name='PresetSEDEXChalcopyrite'
+                     inherits='PresetSEDEX'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.95'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetSEDEXChalcopyriteOceanic'
+                     inherits='PresetSEDEXChalcopyrite'>
+          <Setting name='DistributionFrequency' avg=':= 2 * _default_'/>
+          <BiomeSet inherits='sedocean'/>
+          <Setting name='CloudHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSEDEXChalcopyriteHintVeins'
+                     inherits='PresetHintVeinsSed'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16035, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSEDEXChalcopyriteHintVeinsOceanic'
+                     inherits='PresetSEDEXChalcopyriteHintVeins'>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=5/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenVMS &amp; ?GregtechActive">
+          <IfCondition condition=":=?GregtechGenLeadZinc">
+            <Cloud name='SEDEXSphaleriteGalena'
+                   inherits='PresetSEDEXSphaleriteGalena'>
+              <Veins name='SEDEXSphaleriteGalenaHintVeins'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTungsten">
+            <Cloud name='SEDEXScheelite' inherits='PresetSEDEXScheelite'>
+              <Veins name='SEDEXScheeliteHintVeins'
+                     inherits='PresetSEDEXScheeliteHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenCopper">
+            <Cloud name='SEDEXChalcopyrite'
+                   inherits='PresetSEDEXChalcopyrite'>
+              <Veins name='SEDEXChalcopyriteHintVeins'
+                     inherits='PresetSEDEXChalcopyriteHintVeins'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenLeadZinc">
+            <Cloud name='SEDEXSphaleriteGalenaOceanic'
+                   inherits='PresetSEDEXSphaleriteGalenaOceanic'>
+              <Veins name='SEDEXSphaleriteGalenaHintVeinsOceanic'
+                     inherits='PresetSEDEXSphaleriteGalenaHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenTungsten">
+            <Cloud name='SEDEXScheeliteOceanic'
+                   inherits='PresetSEDEXScheeliteOceanic'>
+              <Veins name='SEDEXScheeliteHintVeinsOceanic'
+                     inherits='PresetSEDEXScheeliteHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenCopper">
+            <Cloud name='SEDEXChalcopyriteOceanic'
+                   inherits='PresetSEDEXChalcopyriteOceanic'>
+              <Veins name='SEDEXChalcopyriteHintVeinsOceanic'
+                     inherits='PresetSEDEXChalcopyriteHintVeinsOceanic'/>
+            </Cloud>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Porphyry deposits -->
+      <ConfigSection>
+        <VeinsPreset name='PresetPorphyry'
+                     inherits='PresetRockVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='MotherlodeFrequency' avg='0.004'/>
+          <Setting name='MotherlodeHeight' avg='10' range='10'/>
+          <OreBlock block='minecraft:gravel' weight='0.7'/>
+          <OreBlock weight='0.20'>
+            <IfChoice name='GregtechGenCopper' value='true'>
+              <Then block='gregtech:gt.blockores' weight='0.2'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+              <Else block='minecraft:gravel'/>
+            </IfChoice>
+          </OreBlock>
+          <OreBlock weight='0.10'>
+            <IfChoice name='GregtechGenMolybdenum' value='true'>
+              <Then block='gregtech:gt.blockores'
+                    nbt='{m:942, n:1, id:"GT_TileEntity_Ores"}'/>
+              <Else block='minecraft:gravel'/>
+            </IfChoice>
+          </OreBlock>
+        </VeinsPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenIgVeins &amp;
+                                ?GregtechGenCopper &amp;
+                                ?GregtechActive">
+          <Veins name='Porphyry' inherits='PresetPorphyry'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in Granite -->
+      <ConfigSection>
+        <VeinsPreset name='PresetGraniteVeinsContinental'
+                     inherits='PresetLayeredVeinsContinental'>
+          <Setting name='DistributionFrequency' avg='0.008'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 30/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <Setting name='MotherlodeSize' avg=':= 2 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteChalcopyriteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.80'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.08'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16303, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.02'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16873, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16085, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:840, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.03'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteMagnetiteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:870, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteStibniteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:945, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteCassiteriteContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <Setting name='DistributionFrequency' avg='0.015'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.9'
+                    nbt='{m:824, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:910, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.04'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16303, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.01'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteQuartzContinental'
+                     inherits='PresetGraniteVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.015'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:516, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetGraniteVeinsVolcanic'
+                     inherits='PresetLayeredVeinsVolcanic'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range=':= 15/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <Setting name='MotherlodeSize' avg=':= 2 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteChalcopyriteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.80'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.08'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16303, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.02'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16873, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:16085, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:840, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.03'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteMagnetiteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                    nbt='{m:504, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16504, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.97'
+                    nbt='{m:870, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteStibniteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:945, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteCassiteriteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF221100'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.88'
+                    nbt='{m:824, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:910, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.04'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16303, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.01'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16501, n:1, id:"GT_TileEntity_Ores"}'
+                    weight='0.02'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteQuartzVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:516, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteSodaliteVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.90'
+                    nbt='{m:525, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:526, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16526, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetGraniteGoldVolcanic'
+                     inherits='PresetGraniteVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <Setting name='DistributionFrequency' avg='0.01'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.90'
+                    nbt='{m:86, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:54, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:303, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        
+        <ConfigSection> <!-- Pegmatite -->
+          <VeinsPreset name='PresetPegmatite'
+                       inherits='PresetRockVeins'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeFrequency' avg='0.006'/>
+            <OreBlock block='minecraft:stone' weight='0.779'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                      nbt='{m:841, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.025'
+                      nbt='{m:907, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                      nbt='{m:921, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.001'
+                      nbt='{m:919, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                      nbt='{m:16530, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.07'
+                      nbt='{m:920, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.015'
+                      nbt='{m:16824, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                      nbt='{m:520, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.01'
+                      nbt='{m:501, n:1, id:"GT_TileEntity_Ores"}'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetPegmatiteVolcanic'
+                       inherits='PresetPegmatite'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 50/64 * dimension.groundLevel'
+                     range=':= 20/64 * dimension.groundLevel'
+                     type='normal'/>
+            <BiomeSet inherits='felsic'/>
+            <BiomeSet inherits='dome'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetPegmatiteContinental'
+                       inherits='PresetPegmatite'
+                       wireframeColor='0xFFFF0055'>
+            <Setting name='MotherlodeHeight' avg='20' range='10'/>
+            <BiomeSet inherits='inland'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetCarbonatite'
+                       inherits='PresetRockVeins'
+                       drawWireframe='false'
+                       wireframeColor='0xFF0000FF'>
+            <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                     range=':= 0.5 * _default_'/>
+            <Setting name='BranchFrequency' avg='1' range='0'/>
+            <Setting name='BranchInclination' avg='-1' range='0.2'/>
+            <Setting name='SegmentForkFrequency' avg='0.10'/>  
+            <Setting name='SegmentAngle' avg='0' range='0.3'/>
+            <Setting name='ParentRangeLimit' avg='10' range='2'/>
+            <Setting name='MotherlodeFrequency' avg='0.01'/>
+            <Setting name='MotherlodeHeight' avg='30' range='10'/>
+            <Setting name='SegmentRadius' avg='1.5' range='0.5' type='normal'/>
+            <OreBlock block='minecraft:stone' weight='0.810'/>
+            <!-- bastnasite -->
+            <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                      nbt='{m:905, n:1, id:"GT_TileEntity_Ores"}'/>
+            <!-- apatite -->
+            <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                      nbt='{m:16503, n:1, id:"GT_TileEntity_Ores"}'/>
+            <!-- barite -->
+            <OreBlock block='gregtech:gt.blockores' weight='0.025'
+                      nbt='{m:16904, n:1, id:"GT_TileEntity_Ores"}'/>
+            <!-- chalco -->
+            <OreBlock block='gregtech:gt.blockores' weight='0.025'
+                      nbt='{m:16855, n:1, id:"GT_TileEntity_Ores"}'/>
+            <BiomeSet inherits='shieldVolcano'/>
+            <BiomeType name='mesa'/>
+          </VeinsPreset>
+        </ConfigSection>
+        
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenIgVeins &amp; ?GregtechActive">
+          <IfCondition condition=":=?GregtechGenCopper">
+            <Veins name='GraniteChalcopyriteContinental'
+                   inherits='PresetGraniteChalcopyriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenIron">
+            <Veins name='GraniteMagnetiteContinental'
+                   inherits='PresetGraniteMagnetiteContinental'/>
+          </IfCondition>
+          <Veins name='GraniteStibniteContinental'
+                 inherits='PresetGraniteStibniteContinental'/>
+          <IfCondition condition=":=?GregtechGenTin">
+            <Veins name='GraniteCassiteriteContinental'
+                   inherits='PresetGraniteCassiteriteContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenCopper">
+            <Veins name='GraniteChalcopyriteVolcanic'
+                   inherits='PresetGraniteChalcopyriteVolcanic'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenQuartz">
+            <Veins name='GraniteQuartzContinental'
+                   inherits='PresetGraniteQuartzContinental'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenIron">
+            <Veins name='GraniteMagnetiteVolcanic'
+                   inherits='PresetGraniteMagnetiteVolcanic'/>
+          </IfCondition>
+          <Veins name='GraniteStibniteVolcanic'
+                 inherits='PresetGraniteStibniteVolcanic'/>
+          <IfCondition condition=":=?GregtechGenTin">
+            <Veins name='GraniteCassiteriteVolcanic'
+                   inherits='PresetGraniteCassiteriteVolcanic'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenQuartz">
+            <Veins name='GraniteQuartzVolcanic'
+                   inherits='PresetGraniteQuartzVolcanic'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenLapis">
+            <Veins name='GraniteSodaliteVolcanic'
+                   inherits='PresetGraniteSodaliteVolcanic'/>
+          </IfCondition>
+          <IfCondition condition=":=?GregtechGenGold">
+            <Veins name='GraniteGoldVolcanic'
+                   inherits='PresetGraniteGoldVolcanic'/>
+          </IfCondition>
+        </IfCondition>
+        <IfCondition condition=":=?GregtechGenPegmatite &amp; ?GregtechActive">
+          <Veins name='PegmatiteContinental'
+                 inherits='PresetPegmatiteContinental'/>
+          <Veins name='PegmatiteVolcanic'
+                 inherits='PresetPegmatiteVolcanic'/>
+          <Veins name='Carbonatite' inherits='PresetCarbonatite'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Veins in Basalt -->
+      <ConfigSection>
+        <VeinsPreset name='PresetBasaltVeins'
+                     inherits='PresetLayeredVeins'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 25/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 2 * _default_'
+                   range=':= 2 * _default_'/>
+          <BiomeSet inherits='oceanic'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetCinnabar'
+                     inherits='PresetBasaltVeins'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:826, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenIgVeins &amp;
+                                ?GregtechGenMercury &amp;
+                                ?GregtechActive">
+          <Veins name='Cinnabar' inherits='PresetCinnabar'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+      
+    <ConfigSection> <!-- carbonates  -->
+
+      <ConfigSection>
+        <ConfigSection> <!-- dolomite -->
+          <CloudPreset name='PresetDolomite'
+                       inherits='PresetSedimentaryContinentalMinor'
+                       drawWireframe='false'
+                       wireframeColor='0xFF00FF55'>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+            <Setting name='CloudHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+            <OreBlock block='minecraft:stone' weight='0.3'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.7'
+                      nbt='{m:914, n:1, id:"GT_TileEntity_Ores"}'/>
+          </CloudPreset>
+          <CloudPreset name='PresetDolomiteOceanic'
+                       inherits='PresetSedimentaryOceanic'
+                       drawWireframe='false'
+                       wireframeColor='0xFF00FF55'>
+            <Setting name='DistributionFrequency' avg='0.01'/>
+            <OreBlock block='minecraft:stone' weight='0.3'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.7'
+                      nbt='{m:914, n:1, id:"GT_TileEntity_Ores"}'/>
+            <BiomeSet inherits='sedocean'/>
+          </CloudPreset>
+          <VeinsPreset name='PresetLayeredVeinsDolomite'
+                       inherits='PresetLayeredVeinsLite'>
+            <Replaces block='gregtech:gt.blockores'/>
+            <ReplacesOre block='stone'/>
+            <Replaces block='gregtech:gt.blockores'/>
+            <Setting name='MotherlodeRangeLimit' avg='4' range='2'/>
+            <Setting name='MotherlodeHeight'
+                   avg=':= 55/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+            <Setting name='MotherlodeFrequency'
+                     avg=':= 15.0 * oreFreq' range='0'/>
+            <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetMagnesiteDolomite'
+                       inherits='PresetLayeredVeinsDolomite'
+                       drawWireframe='false'
+                       wireframeColor='0xFFAA6666'>
+            <OreBlock block='gregtech:gt.blockores'
+                      nbt='{m:908, n:1, id:"GT_TileEntity_Ores"}'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetSoapstoneDolomite'
+                       inherits='PresetLayeredVeinsDolomite'
+                       drawWireframe='false'
+                       wireframeColor='0xFF002200'>
+            <OreBlock block='gregtech:gt.blockores'
+                      nbt='{m:902, n:1, id:"GT_TileEntity_Ores"}'/>
+          </VeinsPreset>
+        </ConfigSection>
+
+        <ConfigSection>
+          <CloudPreset name='PresetLimestoneLower'
+                       inherits='PresetSedimentaryContinentalMinor'>
+            <OreBlock block='minecraft:stone' weight='0.30'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.70'
+                      nbt='{m:823, n:1, id:"GT_TileEntity_Ores"}'/>
+          </CloudPreset>
+          <CloudPreset name='PresetCarbonateDeposit'
+                       inherits='PresetLimestoneLower'>
+            <Setting name='DistributionFrequency' avg='0.003'/>
+            <Setting name='CloudThickness' avg='6'/>
+            <Setting name='CloudHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+          </CloudPreset>
+          <VeinsPreset name='PresetCarbonateSphaleriteGalena'
+                       inherits='PresetSphaleriteGalena'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF00FF'>
+            <ReplacesOre block='stone'/>
+            <Replaces block='gregtech:gt.blockores'/>
+            <Setting name='DistributionFrequency' avg=':= 1.2 * oreFreq'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 55/64 * dimension.groundLevel'
+                     range=':= 2/64 * dimension.groundLevel'/>
+            <Setting name='ParentRangeLimit' avg='4' range='2'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.60'
+                      nbt='{m:839, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.20'
+                      nbt='{m:830, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.10'
+                      nbt='{m:16904, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.10'
+                      nbt='{m:882, n:1, id:"GT_TileEntity_Ores"}'/>
+          </VeinsPreset>
+          <VeinsPreset name='PresetCarbonateSphaleriteGalenaOceanic'
+                       inherits='PresetCarbonateSphaleriteGalena'
+                       drawWireframe='false'
+                       wireframeColor='0xFFFF00FF'>
+            <Setting name='DistributionFrequency' avg=':= 0.005'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':= 40/64 * dimension.groundLevel'/>
+            <BiomeSet inherits='sedocean'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.60'
+                      nbt='{m:839, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.20'
+                      nbt='{m:830, n:1, id:"GT_TileEntity_Ores"}'/>
+            <OreBlock block='gregtech:gt.blockores' weight='0.20'
+                      nbt='{m:16904, n:1, id:"GT_TileEntity_Ores"}'/>
+          </VeinsPreset>
+        </ConfigSection>
+      </ConfigSection>
+      
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GregtechGenCarbonate &amp;
+                                ?GregtechActive">
+          <Cloud name='Dolomite' inherits='PresetDolomite'>
+            <Veins name='MagnesiteDolomite' inherits='PresetMagnesiteDolomite'/>
+            <Veins name='SoapstoneDolomite'
+                   inherits='PresetSoapstoneDolomite'/>
+          </Cloud>
+          <Cloud name='DolomiteOceanic'
+                 inherits='PresetDolomiteOceanic'>
+            <Veins name='MagnesiteDolomiteOceanic'
+                   inherits='PresetMagnesiteDolomite'/>
+          </Cloud>
+          <Cloud name='CarbonateDeposit'
+                 inherits='PresetCarbonateDeposit'>
+            <IfCondition condition=":=?GregtechGenLeadZinc">
+              <Veins name='CarbonateSphaleriteGalena'
+                     inherits='PresetCarbonateSphaleriteGalena'/>
+            </IfCondition>
+          </Cloud>
+          <IfCondition condition=":=?GregtechGenLeadZinc">
+            <Veins name='CarbonateSphaleriteGalenaOceanic'
+                   inherits='PresetCarbonateSphaleriteGalenaOceanic'/>
+          </IfCondition>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Skarns -->
+      <ConfigSection>
+        <CloudPreset name='PresetSkarnDeposit'
+                     inherits='PresetMetamorphicContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF88FF55'>
+          <OreBlock block='minecraft:stone' weight='0.80'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.20'
+                    nbt='{m:823, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Biome name='.*' weight='1'/>
+          <BiomeSet inherits='volcanic' weight='-1'/>
+          <Setting name='DistributionFrequency' avg=':= 0.5 * _default_'/>
+          <Setting name='CloudThickness' avg=':= 2 * _default_'/>
+          <Setting name='CloudHeight' range=':= 2/64 * dimension.groundLevel'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetSkarnVeins'
+                     inherits='PresetLayeredVeinsLite'
+                     drawWireframe='false'>
+          <ReplacesOre block='stone'/>
+          <Replaces block='gregtech:gt.blockores'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 3/64 * dimension.groundLevel'/>
+          <Setting name='MotherlodeRangeLimit' avg='4' range='2'/>
+          <Setting name='MotherlodeFrequency' avg=':= 5.0 * oreFreq'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnMagnesite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFF11FF00'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:908, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnLazurite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFF1100FF'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.85'
+                    nbt='{m:524, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:526, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16526, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnSphaleriteGalena'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFFFF00'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.63'
+                    nbt='{m:839, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.33'
+                    nbt='{m:830, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16840, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='MotherlodeFrequency' avg=':= 3 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnChalcopyrite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFFFF00'
+                     drawWireframe='false'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.92'
+                    nbt='{m:855, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:16840, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.03'
+                    nbt='{m:16834, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='MotherlodeFrequency' avg=':= 3 * _default_'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnMagnetite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFFFF0055'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:870, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetSkarnScheelite'
+                     inherits='PresetSkarnVeins'
+                     wireframeColor='0xFF11FF00'
+                     drawWireframe='false'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:910, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+      </ConfigSection>
+
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenCarbonate &amp;
+                                ?GregtechActive">
+          <Cloud name='SkarnDeposit' inherits='PresetSkarnDeposit'>
+            <Veins name='SkarnMagnesite' inherits='PresetSkarnMagnesite'/>
+            <IfCondition condition=":=?GregtechGenLapis">
+              <Veins name='SkarnLazurite' inherits='PresetSkarnLazurite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenLeadZinc">
+              <Veins name='SkarnSphaleriteGalena'
+                     inherits='PresetSkarnSphaleriteGalena'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenCopper">
+              <Veins name='SkarnChalcopyrite'
+                     inherits='PresetSkarnChalcopyrite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenIron">
+              <Veins name='SkarnMagnetite'
+                     inherits='PresetSkarnMagnetite'/>
+            </IfCondition>
+            <IfCondition condition=":=?GregtechGenTungsten">
+              <Veins name='SkarnScheelite'
+                     inherits='PresetSkarnScheelite'/>
+            </IfCondition>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- Uranium -->
+      <ConfigSection>
+        <CloudPreset name='PresetUraniumUnconformitySandstone'
+                     block='minecraft:sandstone'
+                     inherits='PresetSedimentaryContinentalMinor'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFF00'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <ReplacesRegexp block='.*Stone.*'/>
+          <Setting name='CloudHeight'
+                   avg=':= 45/64 * dimension.groundLevel'
+                   range=':= 0/64 * dimension.groundLevel'/>
+        </CloudPreset>
+        
+        <CloudPreset name='PresetUraniumUnconformity'
+                     inherits='PresetStrategicCloud'
+                     drawWireframe='false'
+                     wireframeColor='0xFF0000FF'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:873, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='ParentRangeLimit' avg='8' range='2'/>
+          <Setting name='DistributionFrequency' avg=':= 1'/>
+          <Setting name='CloudThickness' avg=':= 0.25 * _default_'
+                   range=':= 0.25 * _default_'/>
+          <Setting name='CloudRadius' avg='8' range='3'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 42/64 * dimension.groundLevel'
+                   range=':= 2/64 * dimension.groundLevel'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetUraniumSandstone'
+                     inherits='PresetSedimentaryContinentalMinor'
+                     drawWireframe='false'
+                     wireframeColor='0xFF555500'>
+          <Setting name='DistributionFrequency' avg='0.005'/>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudHeight'
+                   avg=':= 50/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <OreBlock block='minecraft:sandstone' weight='0.95'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:873, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetUraniumConglomerate'
+                     inherits='PresetSedimentaryContinentalMinor'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFFFF'>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudRadius' avg=':= 1.3 * _default_'
+                   range=':= 1.3 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 50/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <OreBlock block='minecraft:gravel' weight='0.98'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.02'
+                    nbt='{m:873, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetUraniumVeins'
+                     inherits='PresetLayeredVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFFF00FFF'>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'/>
+          <Setting name='BranchLength' avg=':= 0.5 * _default_'
+                   range=':= 0.5 * _default_'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:873, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenUranium &amp; ?GregtechActive">
+          <Cloud name='UraniumUnconformitySandstone'
+                 inherits='PresetUraniumUnconformitySandstone'>
+            <Cloud name='UraniumUnconformity'
+                   inherits='PresetUraniumUnconformity'/>
+          </Cloud>
+          <Cloud name='UraniumSandstone'
+                 inherits='PresetUraniumSandstone'/>
+          <Cloud name='UraniumConglomerate'
+                 inherits='PresetUraniumConglomerate'/>
+          <Veins name='UraniumVeins' inherits='PresetUraniumVeins'/>
+        </IfCondition>
+      </ConfigSection>
+      
+    </ConfigSection>
+
+    <ConfigSection> <!-- pyrolusite -->
+      <ConfigSection>
+        <CloudPreset name='PresetPyrolusite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=10 * _default_'/>
+          <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+          <BiomeType name='swamp'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:943, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetPyrolusiteOceanic'
+                     inherits='PresetSedStrategicCloudOceanic'
+                     drawWireframe='false'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:943, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+      </ConfigSection>
+      
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenLaterites &amp;
+                                ?GregtechGenManganese &amp;
+                                ?GregtechActive">
+          <Cloud name='Pyrolusite' inherits='PresetPyrolusite'/>
+          <Cloud name='PyrolusiteOceanic'
+               inherits='PresetPyrolusiteOceanic'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection>
+      <ConfigSection>
+        <CloudPreset name='PresetBarite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':= 5 * _default_'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:904, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetBariteOceanic'
+                     inherits='PresetBarite'>
+          <Setting name='CloudHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 5/64 * dimension.groundLevel'/>
+          <BiomeSet inherits='sedocean'/>
+        </CloudPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenBarite &amp; ?GregtechActive">
+          <Cloud name='Barite' inherits='PresetBarite'/>
+          <Cloud name='BariteOceanic' inherits='PresetBariteOceanic'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+    
+    <ConfigSection> <!-- Various Industrial Minerals -->
+      <ConfigSection>
+        <VeinsPreset name='PresetAlunite'
+                     inherits='PresetLayeredVeinsVolcanic'
+                     drawWireframe='false'>
+          <Setting name='MotherlodeFrequency' avg='0.1'/>
+          <Setting name='MotherlodeHeight' avg='90' range='10'
+                   type='uniform'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:911, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetDiatomite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFFFFFF'>
+          <Setting name='DistributionFrequency'
+                   avg=':= 5 * _default_'/>
+          <BiomeSet inherits='volcanic'/>
+          <BiomeType name='sandy'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:948, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetPerliteVeins'
+                     inherits='PresetLayeredVeinsVolcanic'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <ReplacesOre block='stone'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.75'
+                    nbt='{m:925, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='minecraft:obsidian' weight='0.25'/>
+          <Setting name='DistributionFrequency' avg='0.02'/>
+          <Setting name='MotherlodeHeight' avg='15' range='10'/>
+        </VeinsPreset>
+        <CloudPreset name='PresetApatiteBeds'
+                     inherits='PresetMetaStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=5 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Biome name='.*' weight='1'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:530, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <VeinsPreset name='PresetApatiteHintVeins'
+               inherits='PresetHintVeins'
+               drawWireframe='false'>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16530, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='MotherlodeFrequency' avg=':= 0.25 * _default_'/>
+          <Setting name='MotherlodeHeight' avg=':=40/64 * dimension.groundLevel'
+                   range=':=10/64 * dimension.groundLevel' type='uniform'/>
+        </VeinsPreset>
+        <StandardGenPreset name='PresetPumice'
+                           inherits='PresetVolcanicAsh'>
+          <Setting name='Frequency' avg=':=3 * _default_' range='0'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:926, n:1, id:"GT_TileEntity_Ores"}'/>
+        </StandardGenPreset>
+        <CloudPreset name='PresetZeolite'
+                     inherits='PresetMetaStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=5 * _default_'/>
+          <Setting name='CloudHeight' avg=':=65/64 * dimension.groundLevel'
+                   range=':=10/64 * dimension.groundLevel'/>
+          <BiomeSet inherits='volcanic'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:916, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetGlauconite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':= 6 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Setting name='CloudHeight'
+                   avg=':= 48/64 * dimension.groundLevel'
+                   range=':= 0.25 * _default_'/>
+          <BiomeType name='ocean'/>
+          <Replaces block='minecraft:sand'/>
+          <Replaces block='minecraft:dirt'/>
+          <ReplacesOre block='stone'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.8'
+                    nbt='{m:933, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='minecraft:sandstone' weight='0.2'/>
+        </CloudPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenVolcanic &amp; ?GregtechActive">
+          <Veins name='Alunite' inherits='PresetAlunite'/>
+          <Veins name='PerliteVeins' inherits='PresetPerliteVeins'/>
+          <StandardGen name='Pumice' inherits='PresetPumice'/>
+          <Cloud name='Zeolite' inherits='PresetZeolite'/>
+        </IfCondition>
+        <IfCondition condition=":=?GregtechGenMarine &amp; ?GregtechActive">
+          <Cloud name='Glauconite' inherits='PresetGlauconite'/>
+          <Cloud name='Diatomite' inherits='PresetDiatomite'/>
+        </IfCondition>
+        <IfCondition condition=":=?GregtechGenApatite &amp; ?GregtechActive">
+          <Cloud name='ApatiteBeds' inherits='PresetApatiteBeds'>
+            <Veins name='ApatiteHintVeins'
+                   inherits='PresetApatiteHintVeins'/>
+          </Cloud>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+   
+    <ConfigSection> <!-- Graphite -->
+      <ConfigSection>
+        <CloudPreset name='PresetGraphiteCloud'
+                     inherits='PresetMetamorphicContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <ReplacesOre block='stone'/>
+          <Setting name='CloudHeight' avg='45' range='5'/>
+          <Setting name='DistributionFrequency' avg='0.002'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetSchistGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFFFF5555'>
+          <IfChoice name='GregtechGenDiamond' value='true'>
+            <Then>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.005'/>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:16500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.005'/>
+            </Then>
+            <Else>
+              <OreBlock block='minecraft:stone' weight='0.01'/>
+            </Else>
+          </IfChoice>
+          <OreBlock block='gregtech:gt.blockores' weight='0.19'
+                    nbt='{m:865, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='minecraft:stone' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetGneissGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFF222222'>
+          <IfChoice name='GregtechGenDiamond' value='true'>
+            <Then>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.01'/>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:16500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.01'/>
+            </Then>
+            <Else>
+              <OreBlock block='minecraft:stone' weight='0.02'/>
+            </Else>
+          </IfChoice>
+          <OreBlock block='gregtech:gt.blockores' weight='0.18'
+                    nbt='{m:865, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='minecraft:stone' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetQuartziteGraphiteCloud'
+                     inherits='PresetGraphiteCloud'
+                     wireframeColor='0xFFAAAA00'>
+          <IfChoice name='GregtechGenDiamond' value='true'>
+            <Then>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.02'/>
+              <OreBlock block='gregtech:gt.blockores'
+                        nbt='{m:16500, n:1, id:"GT_TileEntity_Ores"}'
+                        weight='0.02'/>
+            </Then>
+            <Else>
+              <OreBlock block='minecraft:stone' weight='0.04'/>
+            </Else>
+          </IfChoice>
+          <OreBlock block='gregtech:gt.blockores' weight='0.16'
+                    nbt='{m:865, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='minecraft:stone' weight='0.80'/>
+        </CloudPreset>
+
+        <CloudPreset name='PresetGraphiteBeds'
+                     inherits='PresetCoalBeds'
+                     drawWireframe='false'>
+          <Setting name='DistributionFrequency' avg=':=0.1 * _default_'/>
+          <Setting name='CloudHeight' avg='50' range='5'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.70'
+                    nbt='{m:865, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.30'
+                    nbt='{m:535, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        
+        <VeinsPreset name='PresetGraphiteVeins'
+                     inherits='PresetLayeredVeinsContinental'
+                     drawWireframe='false'
+                     wireframeColor='0xFF000000'>
+          <Setting name='DistributionFrequency' avg='0.003'/>
+          <Setting name='MotherlodeHeight' avg='45' range='5'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:865, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenGraphite &amp; ?GregtechActive">
+          <Cloud name='SchistGraphiteCloud'
+                 inherits='PresetSchistGraphiteCloud'/>
+          <Cloud name='GneissGraphiteCloud'
+                 inherits='PresetGneissGraphiteCloud'/>
+          <Cloud name='QuartziteGraphiteCloud'
+                 inherits='PresetQuartziteGraphiteCloud'/>
+          <Cloud name='GraphiteBeds'
+                 inherits='PresetGraphiteBeds'/>
+          <Veins name='GraphiteVeins' inherits='PresetGraphiteVeins'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection> <!-- Various Mineral Clays -->
+      <ConfigSection>
+        <StandardGenPreset name='PresetBentonite'
+                           inherits='PresetVolcanicAsh'>
+          <OreBlock block='gregtech:gt.blockores' weight='0.05'
+                    nbt='{m:940, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.95'
+                    nbt='{m:927, n:1, id:"GT_TileEntity_Ores"}'/>
+          <Setting name='Frequency' avg=':=4 * _default_' range='0'/>
+        </StandardGenPreset>
+        <CloudPreset name='PresetFullersEarth'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'
+                     wireframeColor='0xFFFF00FF'>
+          <Setting name='DistributionFrequency' avg=':= 6 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <BiomeType name='sandy'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:928, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+        <CloudPreset name='PresetKaolinite'
+                     inherits='PresetSedStrategicCloud'
+                     drawWireframe='false'
+                     wireframeColor='0xFF0000FF'>
+          <Setting name='DistributionFrequency' avg=':= 12 * _default_'/>
+          <Setting name='OreDensity' avg=':=1.5 * _default_'/>
+          <Biome name='.*' weight='-1'/>
+          <BiomeType name='hot'/>
+          <BiomeType name='wet'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:929, n:1, id:"GT_TileEntity_Ores"}'/>
+        </CloudPreset>
+      </ConfigSection>
+      
+      <ConfigSection>
+        
+        <IfCondition condition=":=?GregtechGenClay &amp;
+                                ?GregtechActive">
+          <StandardGen name='Bentonite' inherits='PresetBentonite'/>
+          <Cloud name='FullersEarth' inherits='PresetFullersEarth'/>
+          <Cloud name='Kaolinite' inherits='PresetKaolinite'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection>
+      <ConfigSection>
+        <VeinsPreset name='PresetNativeVeins'
+                     inherits='PresetHintVeins'/>
+        <VeinsPreset name='PresetNativeCopper'
+                     inherits='PresetNativeVeins'>
+          <Setting name='MotherlodeFrequency' avg='32' range='8'/>
+          <Setting name='MotherlodeHeight' avg='90' range='30' type='uniform'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16035, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetNativeGold'
+                     inherits='PresetNativeVeins'>
+          <Setting name='MotherlodeFrequency' avg='8' range='2'/>
+          <Setting name='MotherlodeHeight' avg='30' range='10' type='uniform'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16086, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetNativeSilver'
+                     inherits='PresetNativeVeins'>
+          <Setting name='MotherlodeFrequency' avg='8' range='2'/>
+          <Setting name='MotherlodeHeight' avg='30' range='10' type='uniform'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16054, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name='PresetNativeElectrum'
+                     inherits='PresetNativeVeins'>
+          <Setting name='MotherlodeFrequency' avg='8' range='2'/>
+          <Setting name='MotherlodeHeight' avg='30' range='10' type='uniform'/>
+          <OreBlock block='gregtech:gt.blockores'
+                    nbt='{m:16303, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenNativeOres &amp; ?GregtechActive">
+          <Veins name='NativeGold' inherits='PresetNativeGold'/>
+          <Veins name='NativeCopper' inherits='PresetNativeCopper'/>
+          <Veins name='NativeSilver' inherits='PresetNativeSilver'/>
+          <Veins name='NativeElectrum' inherits='PresetNativeElectrum'/>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+
+    <ConfigSection>
+      <ConfigSection>
+        <VeinsPreset name="PresetKimberlitePipes"
+                     inherits='PresetPipeVeins' seed='0xF186'>
+          <Description>
+            Short sparsely filled tubes starting at bedrock.
+          </Description>
+          <DrawWireframe>:=drawWireframes</DrawWireframe>
+          <WireframeColor>0x40336699</WireframeColor> 
+          <Setting name='MotherlodeFrequency'
+                   avg=':= 0.5 * _default_'/> 
+          <Setting name='MotherlodeHeight'
+                   avg=':= 3/64 * dimension.groundLevel' range='0'/>
+          <Setting name='OreDensity' avg=':= 1.0 * _default_'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.25'
+                    nbt='{m:16500, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.50'
+                    nbt='{m:500, n:1, id:"GT_TileEntity_Ores"}'/>
+          <OreBlock block='gregtech:gt.blockores' weight='0.25'
+                    nbt='{m:16505, n:1, id:"GT_TileEntity_Ores"}'/>
+        </VeinsPreset>
+        <VeinsPreset name="PresetKimberlitePipesLava" block='minecraft:lava'
+                     inherits='PresetKimberlitePipes' seed='0xF186'>
+          <Description>
+            Fills center of each tube with lava, forming "kimberlite
+            pipes"
+          </Description>
+          <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+          <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+          <Setting name='OreDensity' avg='1' range='0'/>
+          <ReplacesOre block='stone'/>
+          <Replaces block='minecraft:dirt'/>
+          <Replaces block='minecraft:gravel'/>
+          <Replaces block='gregtech:gt.blockores'/>
+        </VeinsPreset>
+      </ConfigSection>
+      <ConfigSection>
+        <IfCondition condition=":=?GregtechGenDiamond &amp; ?GregtechActive">
+          <Veins name="KimberlitePipes" inherits='PresetKimberlitePipes'>
+            <Veins name="KimberlitePipesLava"
+                   inherits='PresetKimberlitePipesLava'/>
+          </Veins>
+        </IfCondition>
+      </ConfigSection>
+    </ConfigSection>
+    
+  </ConfigSection>
+
+</IfModInstalled>

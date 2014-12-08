@@ -1,0 +1,718 @@
+
+<!--**************  CustomOreGen Biomes O Plenty Ores Module ***********************
+* 
+*   This file contains Presets, Options, and Distributions for Biomes O Plenty ores.
+*
+******************************************************************************--> 
+
+<!-- 
+Ores included in this configuration: 
+
+Ruby, Peridot, Topaz, Tanzanite, Malachite, Sapphire
+-->
+
+<IfModInstalled name='BiomesOPlenty'>
+  <ConfigSection>
+
+    <!-- Options and Symbols -->
+    
+    <ConfigSection>
+      <OptionDisplayGroup name='groupbiomesOPlenty' displayName='Biomes O Plenty' displayState='shown'> 
+        <Description> 
+          Distribution options for Biomes O Plenty Ores.
+        </Description>
+      </OptionDisplayGroup>
+
+      <OptionNumeric name='bopGemSize' default='1' min='0' max='5'
+                     displayState='shown' displayGroup='groupbiomesOPlenty'>
+        <Description> 
+          A global multiplier for the size of all BOP gem distributions. 
+        </Description>
+        <DisplayName>Gem Deposit Size</DisplayName>
+      </OptionNumeric>
+
+      <OptionNumeric name='bopGemFreq' default='1' min='0' max='5'
+                     displayState='shown' displayGroup='groupbiomesOPlenty'>
+        <Description> 
+          A global multiplier for the frequency of all BOP gem distributions. 
+        </Description>
+        <DisplayName>Gem Frequency</DisplayName>
+      </OptionNumeric>
+
+      <ConfigSection>
+        
+        <!-- Ruby Configuration UI -->
+        
+        <OptionChoice name='bopRubyDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Ruby is generated </Description> 
+          <DisplayName>Biomes O Plenty Ruby Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Ruby is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopRubyFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Ruby distributions </Description>
+          <DisplayName>Biomes O Plenty Ruby Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopRubySize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Ruby distributions </Description>
+          <DisplayName>Biomes O Plenty Ruby Size</DisplayName>
+        </OptionNumeric>
+        <!-- Ruby Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopRubyClusters' displayName='Ruby Clusters'/>
+        <MystcraftSymbol name='bopRubyVeins' displayName='Ruby Veins'/>
+        <MystcraftSymbol name='bopRubyClouds' displayName='Ruby Clouds'>
+          <Instability>:= 50 * (age.bopRubyClusters + age.bopRubyVeins + age.bopRubyClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+      <ConfigSection>
+        
+        <!-- Peridot Configuration UI -->
+        
+        <OptionChoice name='bopPeridotDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Peridot is generated </Description> 
+          <DisplayName>Biomes O Plenty Peridot Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.  This is the vanilla Peridot generation.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Peridot is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopPeridotFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Peridot distributions </Description>
+          <DisplayName>Biomes O Plenty Peridot Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopPeridotSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Peridot distributions </Description>
+          <DisplayName>Biomes O Plenty Peridot Size</DisplayName>
+        </OptionNumeric>
+        <!-- Peridot Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopPeridotClusters' displayName='Peridot Clusters'/>
+        <MystcraftSymbol name='bopPeridotVeins' displayName='Peridot Veins'/>
+        <MystcraftSymbol name='bopPeridotClouds' displayName='Peridot Clouds'>
+          <Instability>:= 50 * (age.bopPeridotClusters + age.bopPeridotVeins + age.bopPeridotClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+      <ConfigSection>
+        
+        <!-- Topaz Configuration UI -->
+        
+        <OptionChoice name='bopTopazDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Topaz is generated </Description> 
+          <DisplayName>Biomes O Plenty Topaz Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.  This is the vanilla Topaz generation.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Topaz is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopTopazFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Topaz distributions </Description>
+          <DisplayName>Biomes O Plenty Topaz Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopTopazSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Topaz distributions </Description>
+          <DisplayName>Biomes O Plenty Topaz Size</DisplayName>
+        </OptionNumeric>
+        <!-- Topaz Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopTopazClusters' displayName='Topaz Clusters'/>
+        <MystcraftSymbol name='bopTopazVeins' displayName='Topaz Veins'/>
+        <MystcraftSymbol name='bopTopazClouds' displayName='Topaz Clouds'>
+          <Instability>:= 50 * (age.bopTopazClusters + age.bopTopazVeins + age.bopTopazClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+      <ConfigSection>
+        
+        <!-- Tanzanite Configuration UI -->
+        
+        <OptionChoice name='bopTanzaniteDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Tanzanite is generated </Description> 
+          <DisplayName>Biomes O Plenty Tanzanite Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.  This is the vanilla Tanzanite generation.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Tanzanite is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopTanzaniteFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Tanzanite distributions </Description>
+          <DisplayName>Biomes O Plenty Tanzanite Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopTanzaniteSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Tanzanite distributions </Description>
+          <DisplayName>Biomes O Plenty Tanzanite Size</DisplayName>
+        </OptionNumeric>
+        <!-- Tanzanite Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopTanzaniteClusters' displayName='Tanzanite Clusters'/>
+        <MystcraftSymbol name='bopTanzaniteVeins' displayName='Tanzanite Veins'/>
+        <MystcraftSymbol name='bopTanzaniteClouds' displayName='Tanzanite Clouds'>
+          <Instability>:= 50 * (age.bopTanzaniteClusters + age.bopTanzaniteVeins + age.bopTanzaniteClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+      <ConfigSection>
+        
+        <!-- Malachite Configuration UI -->
+        
+        <OptionChoice name='bopMalachiteDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Malachite is generated </Description> 
+          <DisplayName>Biomes O Plenty Malachite Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.  This is the vanilla Malachite generation.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Malachite is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopMalachiteFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Malachite distributions </Description>
+          <DisplayName>Biomes O Plenty Malachite Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopMalachiteSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Malachite distributions </Description>
+          <DisplayName>Biomes O Plenty Malachite Size</DisplayName>
+        </OptionNumeric>
+        <!-- Malachite Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopMalachiteClusters' displayName='Malachite Clusters'/>
+        <MystcraftSymbol name='bopMalachiteVeins' displayName='Malachite Veins'/>
+        <MystcraftSymbol name='bopMalachiteClouds' displayName='Malachite Clouds'>
+          <Instability>:= 50 * (age.bopMalachiteClusters + age.bopMalachiteVeins + age.bopMalachiteClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+      <ConfigSection>
+        
+        <!-- Sapphire Configuration UI -->
+        
+        <OptionChoice name='bopSapphireDist' default='layeredVeins' displayState='shown' displayGroup='groupbiomesOPlenty'> 
+          <Description> Controls how Sapphire is generated </Description> 
+          <DisplayName>Biomes O Plenty Sapphire Type</DisplayName>
+          <Choice value='layeredVeins' displayValue='Veins'>
+            <Description>
+              Veins of Ore leading to a Motherlode.  Most realistic placement. 
+            </Description>
+          </Choice>
+          <Choice value='strategicClouds' displayValue='Clouds'>
+            <Description>
+              Rare, sparsely populated clouds of ore extending over several chunks.
+            </Description>
+          </Choice>
+          <Choice value='vanillaStdGen' displayValue='Clusters'>
+            <Description>
+              Small evenly scattered clusters of ore.  This is the vanilla Sapphire generation.
+            </Description>
+          </Choice>
+          <Choice value='none' displayValue='None' description='No Sapphire is generated at all.'/>
+        </OptionChoice>
+        
+        <OptionNumeric name='bopSapphireFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Frequency multiplier for Biomes O Plenty Sapphire distributions </Description>
+          <DisplayName>Biomes O Plenty Sapphire Freq.</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='bopSapphireSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupbiomesOPlenty'>
+          <Description> Size multiplier for Biomes O Plenty Sapphire distributions </Description>
+          <DisplayName>Biomes O Plenty Sapphire Size</DisplayName>
+        </OptionNumeric>
+        <!-- Sapphire Mystcraft Symbols -->
+        
+        <MystcraftSymbol name='bopSapphireClusters' displayName='Sapphire Clusters'/>
+        <MystcraftSymbol name='bopSapphireVeins' displayName='Sapphire Veins'/>
+        <MystcraftSymbol name='bopSapphireClouds' displayName='Sapphire Clouds'>
+          <Instability>:= 50 * (age.bopSapphireClusters + age.bopSapphireVeins + age.bopSapphireClouds - 1)^3</Instability>
+        </MystcraftSymbol>
+        
+      </ConfigSection>
+    </ConfigSection> 
+
+    <StandardGenPreset name='PresetStandardGenGem' inherits='PresetStandardGen'>
+      <Setting name='Size' avg=':= bopGemSize'/> 
+      <Setting name='Frequency' avg=':= 2 * bopGemFreq * _default_'/>
+      <Setting name='Height' avg=':= 16/64 * dimension.groundLevel'
+               range=':= 12/64 * dimension.groundLevel'/>
+    </StandardGenPreset>
+
+    <VeinsPreset name='PresetLayeredGemVeins' inherits='PresetLayeredVeins'>
+      <Setting name='MotherlodeFrequency' avg=':= 1.5 * bopGemFreq * _default_'/>
+      <Setting name='OreDensity' avg=':= 0.4 * _default_' range='0.2'/>
+      <Setting name='BranchLength' avg=':= 0.25 * bopGemSize * _default_'
+               range=':= 0.25 * bopGemSize * _default_'/>
+      <Setting name='MotherlodeSize' avg=':= 0.5 * bopGemSize * _default_'/>
+      <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel'
+               range=':= 12/64' type='normal'/>
+      <Setting name='BranchHeightLimit' avg='10'/>  
+      <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+      <Setting name='SegmentRadius'
+               avg=':= 0.7 * bopGemSize * _default_'
+               range=':= 0.5 * bopGemSize * _default_'/>
+      <Setting name='SegmentAngle' avg='0.6' range='0.40' />
+    </VeinsPreset>
+
+    <CloudPreset name='PresetStrategicGemCloud' inherits='PresetStrategicCloud'>
+      <Description>  
+        Diffuse gem cloud surrounded by single-block "hint" veins.
+      </Description> 
+      <Setting name='DistributionFrequency'
+               avg=':= 4.5 * bopGemFreq * _default_'/>
+      <Setting name='CloudRadius' avg=':= 0.5 * bopGemSize * _default_'
+               range=':= 0.5 * bopGemSize * _default_'/>
+      <Setting name='CloudThickness' avg=':= 0.5 * bopGemSize * _default_'
+               range=':= bopGemSize * _default_'/>
+      <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+      <Setting name='CloudHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 12/64'/>
+    </CloudPreset>
+
+    <VeinsPreset name='PresetGemHintVeins' inherits='PresetHintVeins'>
+      <Setting name='MotherlodeFrequency' avg=':= 0.3 * _default_'/>
+      <Setting name='MotherlodeRangeLimit'
+               avg=':= 0.75 * bopGemSize * _default_'
+               range=':= 0.65 * bopGemSize * _default_'/>
+    </VeinsPreset>
+    
+    <IfCondition condition=':= ?COGActive'>
+      
+      <!-- Normal World Deposit Removal -->
+      <Substitute name='biomesOPlentyOreSubstitute' block='minecraft:stone'>
+        <Description> 
+          Replace default-generated Biomes O Plenty ore clusters with stone.
+        </Description>
+        <Comment>
+          The global option deferredPopulationRange must be large
+          enough to catch all ore clusters (>= 32)
+        </Comment>
+        <Replaces block='BiomesOPlenty:gemOre'/>
+      </Substitute>
+
+      <ConfigSection>
+
+        <BiomeSet name='ruby'>
+          <BiomeType name='sandy'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopRubyClusters > 0, bopRubyDist = "vanillaStdGen")'>
+          <StandardGen name='bopRubyStandard' block='BiomesOPlenty:gemOre:2' inherits='PresetStandardGenGem'> 
+            <Description> Equivalent to default Ruby distribution
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='Size' avg=':= bopRubySize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopRubyFreq * if(age,age.bopRubyClusters,1) * _default_'/>
+            <BiomeSet inherits='ruby'/>
+          </StandardGen> 
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopRubyVeins > 0, bopRubyDist = "layeredVeins")'>
+          <Veins name='bopRubyVeins' block='BiomesOPlenty:gemOre:2' inherits='PresetLayeredGemVeins'> 
+            <Description> 
+              Ruby spawns in the height 20-44 range.  The veins are
+              shorter than average, and much rarer overall.  Ruby is
+              not easy to find.
+            </Description>  
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='MotherlodeFrequency' avg=':= bopRubyFreq * if(age,age.bopRubyVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= bopRubySize * _default_'
+                     range=':= bopRubySize * _default_'/>
+            <Setting name='SegmentRadius'
+                     avg=':= bopRubySize * _default_'
+                     range=':= bopRubySize * _default_'/>
+            <BiomeSet inherits='ruby'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopRubyClouds > 0, bopRubyDist = "strategicClouds")'>
+          <Cloud name='bopRubyCloud' block='BiomesOPlenty:gemOre:2'
+                 inherits='PresetStrategicGemCloud'>
+            <Description>  
+              Diffuse Ruby cloud surrounded by single-block "hint" veins.
+            </Description> 
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= bopRubyFreq * if(age,age.bopRubyClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= bopRubySize * _default_'
+                     range=':= bopRubySize * _default_'/>
+            <Setting name='CloudThickness'
+                     avg=':= bopRubySize * _default_'
+                     range=':= bopRubySize * _default_'/>
+            <Veins name='bopRubyHintVeins' block='BiomesOPlenty:gemOre:2'
+                   inherits='PresetGemHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeRangeLimit'
+                       avg=':= bopRubySize * _default_'
+                       range=':= bopRubySize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='ruby'/>
+          </Cloud>
+        </IfCondition> 
+      </ConfigSection>
+      <ConfigSection>
+
+        <BiomeSet name='peridot'> <!-- temperate plains -->
+          <BiomeType name='plains'/>
+          <BiomeType name='cold' weight='-1'/>
+          <BiomeType name='dry' weight='-1'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopPeridotClusters > 0, bopPeridotDist = "vanillaStdGen")'>
+          <StandardGen name='bopPeridotStandard' block='BiomesOPlenty:gemOre:4' inherits='PresetStandardGenGem'> 
+            <Description> Equivalent to default Peridot distribution
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='Size' avg=':= bopPeridotSize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopPeridotFreq * if(age,age.bopPeridotClusters,1) * _default_'/>
+            <BiomeSet inherits='peridot'/>
+          </StandardGen> 
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopPeridotVeins > 0, bopPeridotDist = "layeredVeins")'>
+          <Veins name='bopPeridotVeins' block='BiomesOPlenty:gemOre:4' inherits='PresetLayeredGemVeins'> 
+            <Description> 
+              Peridot spawns in the height 4-30 range.  The veins are
+              shorter than average, and much rarer overall.  Peridot
+              is not easy to find. We model it being formed in
+              ultramafic rocks in the mantle.
+            </Description>  
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='MotherlodeFrequency' avg=':= bopPeridotFreq * if(age,age.bopPeridotVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize'
+                     avg=':= bopPeridotSize * _default_'
+                     range=':= bopPeridotSize * _default_'/>
+            <Setting name='SegmentRadius'
+                     avg=':= bopPeridotSize * _default_'
+                     range=':= bopPeridotSize * _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 0.5 * _default_'/>
+            <BiomeSet inherits='peridot'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopPeridotClouds > 0, bopPeridotDist = "strategicClouds")'>
+          <Cloud name='bopPeridotCloud' block='BiomesOPlenty:gemOre:4' inherits='PresetStrategicGemCloud'>
+            <Description>  
+              Diffuse Peridot cloud surrounded by single-block "hint" veins.
+            </Description> 
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= bopPeridotFreq * if(age,age.bopPeridotClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= bopPeridotSize * _default_' range=':= bopPeridotSize * _default_'/>
+            <Setting name='CloudThickness'
+                     avg=':= bopPeridotSize * _default_'
+                     range=':= bopPeridotSize * _default_'/>
+            <Setting name='CloudHeight' avg=':= 0.5 * _default_'/>
+            <Veins name='bopPeridotHintVeins'
+                   block='BiomesOPlenty:gemOre:4'
+                   inherits='PresetGemHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeRangeLimit'
+                       avg=':= bopPeridotSize * _default_'
+                       range=':= bopPeridotSize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='peridot'/>
+          </Cloud>
+        </IfCondition> 
+      </ConfigSection>
+      <ConfigSection>
+
+        <BiomeSet name='topaz'>
+          <BiomeType name='jungle'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopTopazClusters > 0, bopTopazDist = "vanillaStdGen")'>
+          <StandardGen name='bopTopazStandard' block='BiomesOPlenty:gemOre:6' inherits='PresetStandardGenGem'> 
+            <Description> Equivalent to default Topaz distribution </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='Size' avg=':= bopTopazSize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopTopazFreq * if(age,age.bopTopazClusters,1) * _default_'/>
+            <BiomeSet inherits='topaz'/>
+          </StandardGen> 
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopTopazVeins > 0, bopTopazDist = "layeredVeins")'>
+          <Veins name='bopTopazVeins' block='BiomesOPlenty:gemOre:6' inherits='PresetLayeredGemVeins'> 
+            <Description> 
+              Topaz spawns in the height 20-44 range.  The veins are
+              shorter than average, and much rarer overall.  Topaz is
+              not easy to find.
+            </Description>  
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='MotherlodeFrequency' avg=':= bopTopazFreq * if(age,age.bopTopazVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= bopTopazSize * _default_' range=':= bopTopazSize * _default_'/>
+            <Setting name='SegmentRadius' avg=':= bopTopazSize * _default_' range=':= bopTopazSize * _default_'/>
+            <BiomeSet inherits='topaz'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopTopazClouds > 0, bopTopazDist = "strategicClouds")'>
+          <Cloud name='bopTopazCloud' block='BiomesOPlenty:gemOre:6' inherits='PresetStrategicGemCloud'>
+            <Description>  
+              Diffuse Topaz cloud surrounded by single-block "hint" veins.
+            </Description> 
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= bopTopazFreq * if(age,age.bopTopazClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= bopTopazSize * _default_' range=':= bopTopazSize * _default_'/>
+            <Setting name='CloudThickness' avg=':= 0.8 * bopTopazSize * _default_' range=':= bopTopazSize * _default_'/>
+            <Veins name='bopTopazHintVeins' block='BiomesOPlenty:gemOre:6' inherits='PresetGemHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeRangeLimit' avg=':= bopTopazSize * _default_' range=':= bopTopazSize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='topaz'/>
+          </Cloud>
+        </IfCondition> 
+      </ConfigSection>
+      <ConfigSection>
+
+        <BiomeSet name='tanzanite'>
+          <BiomeType name='cold'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopTanzaniteClusters > 0, bopTanzaniteDist = "vanillaStdGen")'>
+          <StandardGen name='bopTanzaniteStandard' block='BiomesOPlenty:gemOre:8' inherits='PresetStandardGenGem'> 
+            <Description> Equivalent to default Tanzanite distribution
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='Size' avg=':= bopTanzaniteSize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopTanzaniteFreq * if(age,age.bopTanzaniteClusters,1) * _default_'/>
+            <BiomeSet inherits='tanzanite'/>
+          </StandardGen> 
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopTanzaniteVeins > 0, bopTanzaniteDist = "layeredVeins")'>
+          <Veins name='bopTanzaniteVeins' block='BiomesOPlenty:gemOre:8' inherits='PresetLayeredGemVeins'> 
+            <Description> 
+              Tanzanite spawns in the height 20-44 range.  The veins
+              are shorter than average, and much rarer overall.
+              Tanzanite is not easy to find.
+            </Description>  
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='MotherlodeFrequency' avg=':= bopTanzaniteFreq * if(age,age.bopTanzaniteVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= bopTanzaniteSize * _default_' range=':= bopTanzaniteSize * _default_'/>
+            <Setting name='SegmentRadius' avg=':= bopTanzaniteSize * _default_' range=':= bopTanzaniteSize * _default_'/>
+            <BiomeSet inherits='tanzanite'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopTanzaniteClouds > 0, bopTanzaniteDist = "strategicClouds")'>
+          <Cloud name='bopTanzaniteCloud' block='BiomesOPlenty:gemOre:8' inherits='PresetStrategicGemCloud'>
+            <Description>  
+              Diffuse Tanzanite cloud surrounded by single-block "hint" veins.
+            </Description> 
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= bopTanzaniteFreq * if(age,age.bopTanzaniteClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= bopTanzaniteSize * _default_' range=':= bopTanzaniteSize * _default_'/>
+            <Setting name='CloudThickness' avg=':= bopTanzaniteSize * _default_' range=':= bopTanzaniteSize * _default_'/>
+            <Veins name='bopTanzaniteHintVeins' block='BiomesOPlenty:gemOre:8' inherits='PresetGemHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeRangeLimit' avg=':= bopTanzaniteSize * _default_' range=':= bopTanzaniteSize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='tanzanite'/>
+          </Cloud>
+        </IfCondition> 
+      </ConfigSection>
+      <ConfigSection>
+
+        <BiomeSet name='apatite'>
+          <BiomeType name='swamp'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopMalachiteClusters > 0, bopMalachiteDist = "vanillaStdGen")'>
+          <StandardGen name='bopMalachiteStandard' block='BiomesOPlenty:gemOre:10' inherits='PresetStandardGenGem'>
+            <Description> Equivalent to default Malachite distribution
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor>
+            <Setting name='Size' avg=':= bopMalachiteSize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopMalachiteFreq * if(age,age.bopMalachiteClusters,1) * _default_'/>
+            <BiomeSet inherits='apatite'/>
+          </StandardGen>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopMalachiteVeins > 0, bopMalachiteDist = "layeredVeins")'>
+          <Veins name='bopMalachiteVeins' block='BiomesOPlenty:gemOre:10' inherits='PresetSparseVeins'>
+            <Description>
+              Malachite spawns just near the surface.  The veins are
+              long and thick, but sparsely filled with ore and often
+              broken up by caves or depressions in the terrain.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor>
+            <Setting name='MotherlodeFrequency'
+                     avg=':= 5 * bopGemFreq * bopMalachiteFreq * if(age,age.bopMalachiteVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= bopGemSize * bopMalachiteSize * _default_' range=':= bopGemSize * bopMalachiteSize * _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 55/64 * dimension.groundLevel' range=':= 8/64'/>
+            <Setting name='BranchLength' avg=':= 0.35 * _default_'
+                     range=':= 0.35 * _default_'/>
+            <Setting name='BranchInclination' avg='0' range='0.35'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='SegmentRadius' avg=':= bopGemSize * bopMalachiteSize * _default_' range=':= bopGemSize * bopMalachiteSize * _default_'/>
+            <Setting name='OreDensity' avg=':= _default_'/>
+            <BiomeSet inherits='apatite'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopMalachiteClouds > 0, bopMalachiteDist = "strategicClouds")'>
+          <Cloud name='bopMalachiteCloud' block='BiomesOPlenty:gemOre:10' inherits='PresetStrategicCloud'>
+            <Description>  
+              Diffuse Malachite cloud surrounded by single-block "hint" veins.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= 5 * bopMalachiteFreq * if(age,age.bopMalachiteClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= 1.2 * bopMalachiteSize * _default_' range=':= 1.2 * bopMalachiteSize * _default_'/>
+            <Setting name='CloudThickness' avg=':= bopMalachiteSize * _default_' range=':= bopMalachiteSize * _default_'/>
+            <Setting name='OreDensity' avg=':= 0.75 * _default_'/>
+            <Veins name='bopMalachiteHintVeins' block='BiomesOPlenty:gemOre:10' inherits='PresetHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeFrequency' avg=':= 1.2 * _default_' range=':= _default_'/> 
+              <Setting name='MotherlodeRangeLimit' avg=':= bopMalachiteSize * _default_' range=':= bopMalachiteSize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='apatite'/>
+          </Cloud>
+        </IfCondition>
+        
+      </ConfigSection>
+      <ConfigSection>
+
+        <BiomeSet name='sapphire'>
+          <BiomeType name='ocean'/>
+        </BiomeSet>
+        
+        <IfCondition condition=':= if(age, age.bopSapphireClusters > 0, bopSapphireDist = "vanillaStdGen")'>
+          <StandardGen name='bopSapphireStandard' block='BiomesOPlenty:gemOre:12' inherits='PresetStandardGenGem'> 
+            <Description> Equivalent to default Sapphire distribution
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='Size' avg=':= bopSapphireSize * _default_'/> 
+            <Setting name='Frequency' avg=':= bopSapphireFreq * if(age,age.bopSapphireClusters,1) * _default_'/>
+            <BiomeSet inherits='sapphire'/>
+          </StandardGen> 
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopSapphireVeins > 0, bopSapphireDist = "layeredVeins")'>
+          <Veins name='bopSapphireVeins' block='BiomesOPlenty:gemOre:12' inherits='PresetLayeredGemVeins'> 
+            <Description> 
+              Sapphire spawns in the height 20-44 range.  The veins
+              are shorter than average, and much rarer overall.
+              Sapphire is not easy to find.
+            </Description>  
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='MotherlodeFrequency' avg=':= bopSapphireFreq * if(age,age.bopSapphireVeins,1) * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= bopSapphireSize * _default_' range=':= bopSapphireSize * _default_'/>
+            <Setting name='SegmentRadius' avg=':= bopSapphireSize * _default_' range=':= bopSapphireSize * _default_'/>
+            <BiomeSet inherits='sapphire'/>
+          </Veins>
+        </IfCondition>
+        
+        <IfCondition condition=':= if(age, age.bopSapphireClouds > 0, bopSapphireDist = "strategicClouds")'>
+          <Cloud name='bopSapphireCloud' block='BiomesOPlenty:gemOre:12' inherits='PresetStrategicGemCloud'>
+            <Description>  
+              Diffuse Sapphire cloud surrounded by
+              single-block "hint" veins.
+            </Description> 
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x60e25d21</WireframeColor> 
+            <Setting name='DistributionFrequency' avg=':= bopSapphireFreq * if(age,age.bopSapphireClouds,1) * _default_'/>
+            <Setting name='CloudRadius' avg=':= bopSapphireSize * _default_' range=':= bopSapphireSize * _default_'/>
+            <Setting name='CloudThickness' avg=':= bopSapphireSize * _default_' range=':= bopSapphireSize * _default_'/>
+            <Veins name='bopSapphireHintVeins' block='BiomesOPlenty:gemOre:12' inherits='PresetGemHintVeins'>
+              <DrawWireframe>:=drawWireframes</DrawWireframe>
+              <WireframeColor>0x60e25d21</WireframeColor>
+              <Setting name='MotherlodeRangeLimit' avg=':= bopSapphireSize * _default_' range=':= bopSapphireSize * _default_'/>
+            </Veins>
+            <BiomeSet inherits='sapphire'/>
+          </Cloud>
+        </IfCondition> 
+      </ConfigSection>
+      
+    </IfCondition>
+    
+  </ConfigSection>
+</IfModInstalled>
+

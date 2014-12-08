@@ -1,0 +1,389 @@
+<!--*********************  CustomOreGen Module *********************************
+*
+*   This file contains settings for the Flaxbeard's Steam Power (FSP) ore:
+*       Copper, Zinc
+*	NOTE: the common name for this mod is Flaxbeard's Steam Power,
+*             but the ModID is "Steamcraft"
+*
+******************************************************************************-->
+<IfModInstalled name="Steamcraft">
+
+    <!--***************************   Options  ******************************
+    *
+    *   Below are options for each ore, similar to those for the standard ores.
+    *
+    **************************************************************************-->
+    <ConfigSection>                
+    
+        <OptionDisplayGroup name='groupFSP' displayName='Steamcraft'
+                            displayState='shown'>
+            <Description> 
+                Distribution options for the FSP ores.
+            </Description>
+        </OptionDisplayGroup>
+       	   
+        <!--*******************   Copper   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='fspCopperDist' displayState='shown'
+                          displayGroup='groupFSP'>
+                <Description>
+                  Controls how FSP Copper is generated
+                </Description>
+                <DisplayName>FSP Copper Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one
+                        third of the way down to bedrock. Often in
+                        deserts, common in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore
+                        extending over several chunks.  Often in
+                        deserts, common in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered below sea
+                        level.  This is the default FSP copper
+                        generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' 
+			displayValue='None' 
+			description='No copper is generated at all.'/>
+                <Choice value='disabled' 
+			displayValue='Disabled' 
+			description='No copper is generated'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='fspCopperFreq' 
+			   default='1'  
+			   min='0' 
+			   max='5' 
+			   displayState=':= if(?advOptions,"shown","hidden")' 
+			   displayGroup='groupFSP'>
+                <Description>
+                  Frequency multiplier for FSP Copper distributions
+                </Description>
+                <DisplayName>FSP Copper Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='fspCopperSize' 
+			   default='1'  
+			   min='0' 
+			   max='5' 
+			   displayState=':= if(?advOptions,"shown","hidden")' 
+			   displayGroup='groupFSP'>
+                <Description>
+                  Size multiplier for FSP Copper distributions
+                </Description>
+                <DisplayName>FSP Copper Size</DisplayName>
+            </OptionNumeric>
+            
+        </ConfigSection>           
+        
+        <!--********************   Zinc   ***********************-->
+        <ConfigSection>
+            <OptionChoice name='fspZincDist' displayState='shown'
+                          displayGroup='groupFSP'>
+                <Description> Controls how FSP Zinc is generated </Description>
+                <DisplayName>FSP Zinc Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one
+                        third of the way down to bedrock. Common in
+                        deserts, often in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore
+                        extending over several chunks.  Common in
+                        deserts, often in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered below sea
+                        level.  This is the default FSP Zinc
+                        generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' 
+			displayValue='None' 
+			description='No Zinc is generated at all.'/>
+                <Choice value='disabled' 
+			displayValue='Disabled' 
+			description='No Zinc is generated'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='fspZincFreq' 
+			   default='1'  
+			   min='0' 
+			   max='5' 
+			   displayState=':= if(?advOptions,"shown","hidden")' 
+			   displayGroup='groupFSP'>
+                <Description>
+                  Frequency multiplier for FSP Zinc distributions
+                </Description>
+                <DisplayName>FSP Zinc Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='fspZincSize' 
+			   default='1'  
+			   min='0' 
+			   max='5' 
+			   displayState=':= if(?advOptions,"shown","hidden")' 
+			   displayGroup='groupFSP'>
+                <Description>
+                  Size multiplier for FSP Zinc distributions
+                </Description>
+                <DisplayName>FSP Zinc Size</DisplayName>
+            </OptionNumeric>
+            
+        </ConfigSection>           
+		
+    <!--*****************************   Distributions   ************************
+    *   
+    *   Below are the actual distributions for the overworld
+    *
+    **************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <Substitute name='fspSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Steamcraft-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be
+                large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='Steamcraft:steamcraftOre:0'/> <!-- Copper -->
+	    <Replaces block='Steamcraft:steamcraftOre:1'/> <!-- Zinc -->
+            <!-- Does NOT remove Poor Zinc -->
+        </Substitute>
+
+        <!--*******************   Copper Distribution   *********************-->
+        <ConfigSection>
+        
+            <IfCondition condition=':= fspCopperDist = "vanillaStdGen"'>
+                <StandardGen name='fspCopperStandard' 
+			     block='Steamcraft:steamcraftOre:0' 
+			     inherits='PresetStandardGen'> 
+                  <Description>
+                    Equivalent to regular FSP copper distribution
+                  </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='Size' 
+			     avg=':= fspCopperSize * _default_'/> 
+                    <Setting name='Frequency'
+			     avg=':= 2/5 * fspCopperFreq * _default_' 
+                             range=':= 3 * fspCopperFreq'/>
+                    <Setting name='Height'
+			     avg=':= 45/64 * dimension.groundLevel' 
+			     range=':= 35/64 * dimension.groundLevel'
+			     type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= fspCopperDist = "layeredVeins"'>    
+                <Veins name='fspCopperVeins'
+                       block='Steamcraft:steamcraftOre:0'
+                       inherits='PresetLayeredVeins'>
+                    <Description>
+                      Average veins in the 5-85 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency'
+                             avg=':= 0.9 * fspCopperFreq * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.9 * fspCopperSize * _default_'
+                             range=':= 0.9 * fspCopperSize * _default_'/>
+                    <Setting name='MotherlodeHeight' 
+			     avg=':= 45/64 * dimension.groundLevel' 
+			     range=':= 40/64 * dimension.groundLevel' 
+			     type='normal'/>
+                    <Setting name='BranchFrequency'
+                             avg=':= 0.95 * _default_'
+                             range=':= 0.95 * _default_'/>
+                    <Setting name='BranchLength'
+                             avg=':= 0.95 * fspCopperSize * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.95 * fspCopperSize * _default_'
+                             range=':= 0.95 * fspCopperSize * _default_'/>
+                </Veins>     
+
+                <Veins name='fspCopperVeinsBiome' 
+		       inherits='fspCopperVeins'>
+                    <Description>
+                      This increases the chance of finding Copper in
+                      desert and jungle biomes.
+                    </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_'
+                             range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'/>
+		    <BiomeType name='Desert' weight='0.75'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= fspCopperDist = "strategicClouds"'>
+                <Cloud name='fspCopperCloud' 
+		       block='Steamcraft:steamcraftOre:0' 
+		       inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse copper cloud surrounded by
+                        single-block "hint" veins, found in desert and
+                        jungle biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' 
+			     avg=':= 2.5 * fspCopperFreq * _default_'/>
+                    <Setting name='CloudRadius'
+			     avg=':= 0.95 * fspCopperSize * _default_'
+			     range=':= 0.95 * fspCopperSize * _default_'/>
+                    <Setting name='CloudThickness'
+			     avg=':= 0.95 * fspCopperSize * _default_'
+			     range=':= fspCopperSize * _default_'/> 
+                    <BiomeType name='Jungle'/>
+		    <BiomeType name='Desert' weight='0.75'/>
+                    <Veins name='fspCopperHintVeins' 
+			   block='Steamcraft:steamcraftOre:0' 
+			   inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+				 avg=':= _default_' 
+				 range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit'
+				 avg=':= fspCopperSize * _default_'
+				 range=':= fspCopperSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--********************   Zinc Distribution   ***********************-->
+        <ConfigSection>
+        
+            <IfCondition condition=':= fspZincDist = "vanillaStdGen"'>
+                <StandardGen name='fspZincStandard' 
+			     block='Steamcraft:steamcraftOre:1' 
+			     inherits='PresetStandardGen'> 
+                    <Description>
+                    Equivalent to regular FSP Zinc distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='Size' 
+			     avg=':= fspZincSize * _default_'/> 
+                    <Setting name='Frequency'
+			     avg=':= 2/5 * fspZincFreq * _default_' 
+			     range=':= 3 * fspZincFreq'/>
+		    <!-- FSP default range is level 1-75 -->
+                    <Setting name='Height'
+			     avg=':= 38/64 * dimension.groundLevel' 
+			     range=':= 36/64 * dimension.groundLevel'
+			     type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= fspZincDist = "layeredVeins"'>
+                <Veins name='fspZincVeins' 
+		       block='Steamcraft:steamcraftOre:1' 
+		       inherits='PresetLayeredVeins'>
+                    <Description>
+                      Average veins in the 15-75 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF00FF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' 
+			     avg=':= 0.9 * fspZincFreq * _default_'/>
+                    <Setting name='MotherlodeSize'
+			     avg=':= 0.9 * fspZincSize * _default_'
+			     range=':= 0.9 * fspZincSize * _default_'/>
+                    <Setting name='MotherlodeHeight' 
+			     avg=':= 45/64 * dimension.groundLevel' 
+			     range=':= 10/64 * dimension.groundLevel' 
+			     type='normal'/>
+                    <Setting name='BranchFrequency'
+			     avg=':= 0.95 * _default_'
+			     range=':= 0.95 * _default_'/>
+                    <Setting name='BranchLength'
+			     avg=':= 0.95 * fspZincSize * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+			     avg=':= 0.95 * fspZincSize * _default_'
+			     range=':= 0.95 * fspZincSize * _default_'/>
+                </Veins>                
+                <Veins name='fspZincVeinsJungle' 
+		       inherits='fspZincVeins'>
+                    <Description>
+                      This increases the chance of finding Zinc in
+                      desert and jungle biomes.
+                    </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_'
+                             range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'
+			       weight='0.75'/>
+		    <BiomeType name='Desert'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= fspZincDist = "strategicClouds"'>
+                <Cloud name='fspZincCloud' 
+		       block='Steamcraft:steamcraftOre:1' 
+		       inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse Zinc cloud surrounded by single-block
+                        "hint" veins, found in desert and jungle
+                        biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' 
+			     avg=':= 2.5 * fspZincFreq * _default_'/>
+                    <Setting name='CloudRadius'
+			     avg=':= 0.95 * fspZincSize * _default_'
+			     range=':= 0.95 * fspZincSize * _default_'/>
+                    <Setting name='CloudThickness'
+			     avg=':= 0.95 * fspZincSize * _default_'
+			     range=':= fspZincSize * _default_'/> 
+                    <BiomeType name='Jungle'
+			       weight='0.75'/>
+		    <BiomeType name='Desert'/>
+                    <Veins name='fspZincHintVeins' 
+			   block='Steamcraft:steamcraftOre:1' 
+			   inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+				 avg=':= _default_' 
+				 range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit'
+				 avg=':= fspZincSize * _default_'
+				 range=':= fspZincSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+    </IfCondition>
+	
+  </ConfigSection> 
+    
+</IfModInstalled>

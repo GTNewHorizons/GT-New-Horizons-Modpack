@@ -1,0 +1,435 @@
+<!--*************************  CustomOreGen Configuration **********************>
+*
+*   IMPORTANT: TO CUSTOMIZE THIS CONFIGURATION, COPY THIS FILE TO
+*              "CustomOreGen_Config.xml".
+*              THIS FILE WILL BE OVERWRITTEN EVERY TIME THE MOD LOADS.
+*
+*              To override the configuration for specific worlds,
+*              or specific dimensions, copy this file to the
+*              corresponding save directory.
+*
+*   CustomOreGen allows you to customize the generation of Ore within
+*   your worlds. This file contains a list of "distributions", which
+*   place a specific block according to a specific
+*   algorithm.  You can have as many distributions as you want, including
+*   multiple distributions for the same block type.
+*   
+*   There are four basic algorithms available:
+*   "StandardGen", "Susbstitute", "Veins", and "Cloud".
+*
+*   This file is written in XML.
+*   Many names and values are ***CASE SENSISTIVE***.  
+*
+*   For details on how to edit this file, please see the online documentation:
+*
+*   Documentation for original features by JRoush:
+*       http://customoregen.shoutwiki.com/wiki/Main_Page
+*
+*   Documentation for features added by current maintainer:
+*       https://github.com/lawremi/CustomOreGen/wiki/Documentation
+*
+******************************************************************************-->
+
+<Config>
+  
+    <!--************************   Global Config Options   *********************************
+    *   Below are options to control the general behavior of all distributions.
+    *************************************************************************************-->
+    <ConfigSection>
+      
+        <OptionDisplayGroup name='groupInternal' displayName=''
+                            displayState='hidden'>
+            <Description> 
+                Hidden, mostly internal options.
+            </Description>
+        </OptionDisplayGroup>
+
+        <OptionChoice name='COGActive'
+                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                      displayGroup='groupInternal'>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+            <Comment>
+              Controls whether COG is active in the current
+              dimension. Copy this file to CustomOreGen_Config.xml and
+              modify the expression for the default value to control
+              where COG is active by default.
+            </Comment>
+        </OptionChoice>
+
+        <OptionDisplayGroup name='groupGeneral' displayName='General' displayState='shown'>
+            <Description> 
+                Options affecting all ore distributions.
+            </Description>
+        </OptionDisplayGroup>
+        
+        <OptionNumeric name='oreFreq' default='1' min='0' max='5' displayState='shown' displayGroup='groupGeneral'>
+            <Description> 
+                A global multiplier for the frequency of all ore distributions. 
+            </Description>
+            <DisplayName>Ore Frequency</DisplayName>
+        </OptionNumeric>
+        
+        <OptionNumeric name='oreSize' default='1' min='0' max='5' displayState='shown' displayGroup='groupGeneral'>
+            <Description> 
+                A global multiplier for the size of all ore distributions. 
+            </Description>
+            <DisplayName>Ore Deposit Size</DisplayName>
+        </OptionNumeric> 
+       
+        <OptionChoice name='debugMode' default='false' displayState='shown_dynamic' displayGroup='groupGeneral'>
+            <Description> 
+                Enable/disable debugging mode, which allows the use of in-game wireframe models and console commands.  Also controls the visibility of some advanced options.
+            </Description>
+            <Comment>           
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf.  You can change the value, obviously, but do not remove the option itself or change the possible values.
+            </Comment>
+            <DisplayName>Debugging Mode</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice> 
+        
+        <OptionNumeric name='deferredPopulationRange' default='16' displayGroup='groupGeneral'>
+            <Description> 
+                Radius (in blocks) around a chunk must be generated before COG will add ores to it. 
+            </Description>
+            <Comment>
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf.  You can change the value, but do not remove the option itself or change the allowed range.  Changing this value is really not recommended unless you know what you are doing.
+            </Comment>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Deferred Chunk Gen. Range</DisplayName>
+            <Min>0</Min>
+            <Max>128</Max>
+            <DisplayIncrement>16</DisplayIncrement>
+        </OptionNumeric> 
+
+        <OptionChoice name='vanillaOreGen' default=':=!?COGActive' displayGroup='groupGeneral'>
+            <Description> 
+                Enable/disable the vanilla ore generators for coal, iron, gold, redstone, lapis lazuli, and diamond.  
+            </Description>
+            <Comment>     
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf. You can change the value, but do not remove the option itself.  Recommended values are True/On for new worlds and False/Off for pre-1.4.2 worlds (for compatibility).
+            </Comment>
+            <Comment>
+                This option completely prevents these ores from being spawned by the vanilla terrain generator. It is more efficient than a Substitute distribution, which lets the generator place an ore and then removes it.  However, for technical reasons this option cannot disable vanilla emerald generation. It also has mixed results with mod generation - mods that recycle the vanilla generator get disabled, while those that use their own do not.  Finally, it is an "all-or-nothing" approach that doesn't distinguish between ore types or world properties.  For these reasons this option defaults to "true", and a Substitute distribution is used below to selectively remove the vanilla ore deposits as needed.
+            </Comment>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Vanilla Ore Gen.</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice> 
+        
+        <OptionChoice name='drawWireframes' default='true' displayGroup='groupGeneral'>
+            <Description> 
+                Default wireframe state for distributions.  
+            </Description>
+            <Comment>    
+                Enabling this is only one of the requirements to actually use wireframes - debugging mode must be on and the client must have Forge and COG installed, cheats enabled, and the wireframe rendering mode set up.       
+            </Comment>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Distribution Wireframes</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice>     
+        
+        <OptionChoice name='debugDist' default='false' displayGroup='groupGeneral'>
+            <Description> Enable/disable testing distributions. </Description>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Test Distributions</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice>   
+
+        <OptionChoice name='advOptions' default='false'
+                      displayState='shown_dynamic'
+                      displayGroup='groupGeneral'>
+          <Description> 
+            Enable/disable advanced frequency and size settings for
+            individual distributions. 
+          </Description>
+          <DisplayName>Advanced Options</DisplayName>
+          <Choice value='true' displayValue='On'/>
+          <Choice value='false' displayValue='Off'/>
+        </OptionChoice>
+
+    </ConfigSection>
+    
+    <!--*******************************   Presets   ****************************************
+    *   Below are useful "preset" distributions.  These don't generate any ore by themselves, 
+    *   but they can be used as a base for other distributions.
+    *************************************************************************************-->
+    <ConfigSection>
+    
+        <StandardGenPreset name='PresetStandardGen'>   
+            <Description>
+                A master preset for standardgen ore distributions.
+            </Description>
+            <Setting name='Size' avg=':= 8 * oreSize' range='0'/> 
+            <Setting name='Frequency' avg=':= 20 * oreFreq' range='0'/> 
+            <Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 64/64 * dimension.groundLevel'/> 
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </StandardGenPreset>
+        
+        <VeinsPreset name='PresetLayeredVeins' branchType='Bezier'>  
+            <Description>
+                Small, fairly rare motherlodes with 2-4 horizontal veins each.
+            </Description>
+            <Setting name='MotherlodeFrequency' avg=':= 0.025 * oreFreq'/>
+            <Setting name='MotherlodeSize' avg=':= 2.5 * oreSize' range=':= 1 * oreSize'/>
+            <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 16/64 * dimension.groundLevel' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='3' range='2'/> 
+            <Setting name='BranchInclination' avg='0' range='0.55'/> 
+            <Setting name='BranchLength' avg='120' range='60'/> 
+            <Setting name='BranchHeightLimit' avg='16'/> 
+            <Setting name='SegmentForkFrequency' avg='0.20'/>  
+            <Setting name='SegmentForkLengthMult' avg='0.75' range='0.25' /> 
+            <Setting name='SegmentLength' avg='15' range='6'/> 
+            <Setting name='SegmentAngle' avg='0.50' range='0.50'/> 
+            <Setting name='SegmentRadius' avg=':= 0.5 * oreSize' range=':= 0.3 * oreSize'/>
+            <Setting name='OreDensity' avg='1' range='0'/> 
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetVerticalVeins' branchType='Bezier'>     
+            <Description> 
+                Single vertical veins that occur with no motherlodes.
+            </Description>  
+            <Setting name='MotherlodeFrequency' avg=':= 0.080 * oreFreq'/>
+            <Setting name='MotherlodeSize' avg='0' range='0'/>
+            <Setting name='MotherlodeHeight' avg=':= 76/64 * dimension.groundLevel' range='4'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='1' range='0'/>
+            <Setting name='BranchInclination' avg='-1.31' range='0.22'/>
+            <Setting name='BranchLength' avg=':= 48/64 * dimension.groundLevel' range='16' type='normal'/> 
+            <Setting name='BranchHeightLimit' avg='1000'/> 
+            <Setting name='SegmentForkFrequency' avg='0.10'/>  
+            <Setting name='SegmentAngle' avg='0' range='0.3'/>
+            <Setting name='SegmentLength' avg='8' range='4' type='normal'/> 
+            <Setting name='SegmentRadius' avg=':= 0.30 * oreSize' range=':= 0.1 * oreSize'/> 
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetSmallDeposits'>
+            <Description> 
+                Small motherlodes without any branches.
+                Similar to the deposits produced by StandardGen distributions.
+            </Description>        
+            <Setting name='MotherlodeFrequency' avg=':= 1.0 * oreFreq' range=':= 0.3 * oreFreq'/>
+            <Setting name='MotherlodeSize' avg=':= 0.9 * oreSize' range=':= 0.3 * oreSize'/>
+            <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 16/64 * dimension.groundLevel' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='0' range='0'/>
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetLavaDeposits'>
+            <Description> 
+                Small motherlodes without any branches.  Instead of spawning in stone,
+                these will only spawn in lava pools near the bottom of the map.
+                Note that these lava pools are produced by the vanilla cave generator - any mod
+                that changes or removes cave generation will indirectly affect these deposits.
+            </Description>          
+            <Setting name='MotherlodeFrequency' avg=':= 6.0 * oreFreq' range=':= 2.0 * oreFreq'/>
+            <Setting name='MotherlodeSize' avg=':= 1.5 * oreSize' range=':= 0.8 * oreSize'/>
+            <Setting name='MotherlodeHeight' avg='8' range='8' type='uniform'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='0' range='0'/> 
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <Replaces block='minecraft:lava'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetHugeVeins' branchType='Bezier'>
+            <Description>
+                Very large, extremely rare motherlodes.  Each motherlode has many long slender branches - so thin that
+                parts of the branch won't contain any ore at all.  This, combined with the incredible length of the
+                branches, makes them more challenging to follow underground.  Once found, however, a motherlode contains
+                enough ore to keep a player supplied for a very long time.
+                The rarity of these veins might be too frustrating in a single-player setting.  In SMP, though, teamwork 
+                could make finding them much easier and the motherlodes are big enough to supply several people without
+                shortage.  This might be a good way to add challenge to multiplayer worlds.
+                Credit: based on feedback by dyrewulf from the MC forums.
+            </Description>  
+            <Setting name='MotherlodeFrequency' avg=':= 0.00025 * oreFreq'/>
+            <Setting name='MotherlodeSize' avg=':= 10 * oreSize' range=':= 6 * oreSize' type='normal'/>
+            <Setting name='MotherlodeHeight' avg=':= 45/64 * dimension.groundLevel' range=':= 9/64 * dimension.groundLevel' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='8' range='4'/>
+            <Setting name='BranchInclination' avg='0.7' range='0.85'/>
+            <Setting name='BranchLength' avg=':= 500 * oreSize' range=':= 400 * oreSize' type='normal'/>
+            <Setting name='BranchHeightLimit' avg='1000'/>
+            <Setting name='SegmentForkFrequency' avg='0.02'/>
+            <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
+            <Setting name='SegmentLength' avg=':= 30 * oreSize' range=':= 6 * oreSize' />
+            <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
+            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.2 * oreSize'/>
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1' range='0.25'/>
+            <ReplacesOre block='stone'/>
+            <Replaces block='minecraft:grass'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:sand'/>
+            <Replaces block='minecraft:gravel'/>
+            <Replaces block='minecraft:sandstone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetHintVeins'>
+            <Description>
+                Single blocks, generously scattered through all heights (density is about that of vanilla iron ore). 
+                They will replace dirt and sandstone (but not grass or sand), so they can be found nearer 
+                to the surface than most ores.  Intened to be used as a child distribution for large, rare strategic 
+                deposits that would otherwise be very difficult to find.
+                Note that the frequency is multiplied by ground level to maintain a constant density, but not by
+                ore frequency because it is assumed that the frequency of the parent distribution will already
+                be scaled by that.
+            </Description>  
+            <Setting name='MotherlodeFrequency' avg=':= 80 * dimension.groundLevel/64' range=':= 30 * dimension.groundLevel/64'/>
+            <Setting name='MotherlodeSize' avg='0.6' range='0'/>
+            <Setting name='MotherlodeHeight' avg=':= 50/64 * dimension.groundLevel' range=':= 46/64 * dimension.groundLevel'/>
+            <Setting name='MotherlodeRangeLimit' avg=':= 45 * oreSize' range=':= 30 * oreSize' type='uniform'/>
+            <Setting name='BranchFrequency' avg='0' range='0'/> 
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0'/> 
+            <ReplacesOre block='stone'/>
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:gravel'/>
+            <Replaces block='minecraft:sandstone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+        
+        <VeinsPreset name='PresetSparseVeins' branchType='Bezier'>     
+            <Description>
+                Large veins filled very lightly with ore.  Because they contain less ore per volume, 
+                these veins are relatively wide and long.  Mining the ore from them is time consuming 
+                compared to solid ore veins.  They are also more difficult to follow, since it is 
+                harder to get an idea of their direction while mining.
+            </Description>
+            <Setting name='MotherlodeFrequency' avg=':= 0.0065 * oreFreq'/>            
+            <Setting name='MotherlodeSize' avg=':= 2.3 * oreSize' range=':= 0.5 * oreSize'/>
+            <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 32/64 * dimension.groundLevel' type='uniform'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='1' range='0'/> 
+            <Setting name='BranchInclination' avg='0' range='0.75'/> 
+            <Setting name='BranchLength' avg='180' range='90'/> 
+            <Setting name='BranchHeightLimit' avg='1000'/>
+            <Setting name='SegmentForkFrequency' avg='0' range='0'/> 
+            <Setting name='SegmentForkLengthMult' avg='0' range='0'/> 
+            <Setting name='SegmentLength' avg='20' range='8'/>
+            <Setting name='SegmentAngle' avg='0.35' range='0.35'/> 
+            <Setting name='SegmentRadius' avg=':= 2.0 * oreSize' range=':= 1.0 * oreSize'/> 
+            <Setting name='OreDensity' avg='0.04' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>
+
+        <VeinsPreset name='PresetPipeVeins' branchType='Bezier'>     
+            <Description>
+                Short sparsely filled veins sloping up from near the bottom of the map.
+            </Description>
+            <Setting name='MotherlodeFrequency' avg=':= 0.06 * oreFreq'/>            
+            <Setting name='MotherlodeSize' avg=':= 2.3 * oreSize' range=':= 0.5 * oreSize'/>
+            <Setting name='MotherlodeHeight' avg=':= 8/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel' type='uniform'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='1' range='0'/> 
+            <Setting name='BranchInclination' avg='0.75' range='0.7' type='normal'/>
+            <Setting name='BranchLength' avg='40' range='10'/>
+            <Setting name='BranchHeightLimit' avg='1000'/>
+            <Setting name='SegmentForkFrequency' avg='0' range='0'/> 
+            <Setting name='SegmentForkLengthMult' avg='0' range='0'/> 
+            <Setting name='SegmentLength' avg='8' range='3'/>
+            <Setting name='SegmentAngle' avg='0' range='0.25'/> 
+            <Setting name='SegmentRadius' avg=':= 2.0 * oreSize' range=':= 0.5 * oreSize'/> 
+            <Setting name='OreDensity' avg='0.04' range='0'/>
+            <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </VeinsPreset>         
+
+        <CloudPreset name='PresetStrategicCloud'>
+            <Description>
+                Large irregular clouds filled lightly with ore.  These are huge, spanning several 
+                adjacent chunks, and consequently rather rare.  They contain a sizeable amount of
+                ore, but it takes some time and effort to mine due to low density.
+                The intent for strategic clouds is that the player will need to actively search for
+                one and then set up a semi-permanent mining base and spend some time actually mining
+                the ore.
+            </Description>
+            <Setting name='DistributionFrequency' avg=':= 0.001 * oreFreq'/>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='CloudRadius' avg=':= 25 * oreSize' range=':= 10 * oreSize'/>
+            <Setting name='CloudThickness' avg=':= 14 * oreSize' range=':= 6 * oreSize'/>
+            <Setting name='CloudSizeNoise' avg='0.2'/>
+            <Setting name='CloudHeight' avg='32' range='16'
+                     type='normal' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0.35'/>
+            <Setting name='OreRadiusMult' avg='1' range='0.1'/>
+            <Setting name='OreDensity' avg='0.1'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0.5'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
+        
+    </ConfigSection>
+
+    <!-- ******************** Import Standard Configs ********************** -->
+    <!--
+         NOTE: to override a default config, remove the corresponding
+         directive (and optionally add something to 'modules/custom')
+    -->
+
+    <Import file='modules/default/ExtraCaves.xml'/>
+    <Import file='modules/default/MinecraftOres.xml'/>
+    <Import file='modules/default/IndustrialCraft2.xml'/>
+    <Import file='modules/default/Forestry.xml'/>
+    <Import file='modules/default/ProjectRed.xml'/>
+    <Import file='modules/default/Dartcraft.xml'/>
+    <Import file='modules/default/TinkersConstruct.xml'/>
+    <Import file='modules/default/Metallurgy.xml'/>
+    <Import file='modules/default/Railcraft.xml'/>
+    <Import file='modules/default/Thaumcraft4.xml'/>
+    <Import file='modules/default/BiomesOPlenty.xml'/>
+    <Import file='modules/default/Factorization.xml'/>
+    <Import file='modules/default/ThermalExpansion.xml'/>
+    <Import file='modules/default/SimpleOres2.xml'/>
+    <Import file='modules/default/Galacticraft.xml'/>
+    <Import file='modules/default/Chisel.xml'/>
+    <Import file='modules/default/Mekanism.xml'/>
+    <Import file='modules/default/Steamcraft.xml'/>
+    <Import file='modules/default/Gregtech.xml'/>
+
+    <!-- Possible mods to support as standard configs:
+         * Pam's Harvest Craft (salt)
+         * Mariculture
+    -->
+
+    <!-- ***************** Import Mod-provided configs ********************* -->
+    <!-- NOTE: mods will overwrite these configs upon each load -->
+    <OptionalImport file='modules/mods/*.xml'/>
+    
+    <!-- ******************** Import Custom Configs ************************ -->
+    <OptionalImport file='modules/custom/*.xml'/>
+    
+    <!--*************************   Testing & Debugging   *********************
+    *   I use this section for quick-and-dirty experiments
+    **************************************************************************-->
+    <IfChoice name='debugDist' value='true'>
+       
+        <!-- Experimental distributions should go here -->
+        
+    </IfChoice>
+    
+</Config>

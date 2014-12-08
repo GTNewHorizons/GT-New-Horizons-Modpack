@@ -1,0 +1,46 @@
+<!--************************  CustomOreGen Standard Ores Module *********************************
+*
+*   This file contains a simple air distribution that will produce large caves.
+*   This is a little "bonus" feature; most people can safely ignore it.
+*
+***********************************************************************************************-->
+<ConfigSection>
+
+    <OptionChoice name='COGCaveGen' default='false' displayState='hidden'>
+        <Description> Enables/disables COG cave generation generate.  This does not affect vanilla cave generator. </Description>
+        <DisplayName>COG Caves</DisplayName>        
+        <Choice value='true' displayValue='On'/>
+        <Choice value='false' displayValue='Off'/>
+    </OptionChoice> 
+    
+    <IfCondition condition=':= ?COGActive &amp; ?COGCaveGen'>
+        <Veins name='SupplementalCaves' block='minecraft:air' branchType='Bezier'>   
+            <Description>
+                Very large veins intended for generating caves, supplementary to the vanilla cave generator.
+                Note that these caves won't have lava or water springs, vines, or any of the other special 
+                features that the vanilla cave generator adds.  Also note that hese caves won't replace water,
+                to avoid carving huge holes in the ocean.
+                Credit: based on feedback by dyrewulf from the MC forums.
+            </Description>  
+            <Setting name='MotherlodeFrequency' avg='0.002'/>
+            <Setting name='MotherlodeSize' avg='10' range='8' type='uniform'/>
+            <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 10.5/64 * dimension.groundLevel' type='uniform'/>
+            <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='BranchFrequency' avg='3' range='2'/> 
+            <Setting name='BranchInclination' avg='0' range='0.55'/>
+            <Setting name='BranchLength' avg='500' range='280' type='normal'/> 
+            <Setting name='BranchHeightLimit' avg='1000'/> 
+            <Setting name='SegmentForkFrequency' avg='0.08'/>  
+            <Setting name='SegmentForkLengthMult' avg='0.75' range='0.25' /> 
+            <Setting name='SegmentLength' avg='30' range='6'/> 
+            <Setting name='SegmentAngle' avg='0.70' range='0.70'/> 
+            <Setting name='SegmentRadius' avg='6' range='3.8' type='normal'/>
+            <Setting name='OreDensity' avg='1' range='0'/>
+            <Setting name='OreRadiusMult' avg='1' range='0.1'/> 
+            <ReplacesRegexp block='.*'/>
+            <ReplacesRegexp block='minecraft:.*water' weight='-1'/>  <Comment> Don't match water </Comment>
+            <Biome name='.*'/>
+        </Veins>    
+    </IfCondition>
+    
+</ConfigSection>

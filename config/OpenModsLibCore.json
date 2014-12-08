@@ -1,0 +1,52 @@
+{
+  "activate_map_gen_fix": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: fix bug in vanilla code used to find nearby structures",
+      "Modified class: net.minecraft.world.gen.structure.MapGenStructure",
+      "Known users: OpenBlocks golden eye",
+      "When disabled: features may not work (either silently fail or cause crash)"
+    ]
+  },
+  "activate_movement_callback": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: this transformer add hook to player movement controls",
+      "Modified class: net.minecraft.client.entity.EntityPlayerSP",
+      "Known users: OpenBlocks elevator",
+      "When disabled: users usually have fallbacks (elevator will use less accurate algorithm)"
+    ]
+  },
+  "activate_player_render_hook": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: add hook to player rendering code",
+      "Modified class: net.minecraft.client.renderer.entity.RenderPlayer",
+      "Known users: OpenBlocks hangglider",
+      "When disabled: code may fallback to less compatible mechanism (like replacing renderer)"
+    ]
+  },
+  "activate_gl_capabilities_hook": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: hook to get check additional OpenGL capabilities (mostly stencil buffer related)",
+      "Modified class: net.minecraft.client.renderer.OpenGlHelper",
+      "Known users: OpenBlocks skyblocks",
+      "When disabled: no stencil buffer available unless unlocked with Forge flag. Mods may not use some graphic features"
+    ]
+  },
+  "activate_stencil_patches": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: to re-enable stencil buffer on FBO objects. This is was disabled due to problems on some configurations",
+      "Modified class: net.minecraft.client.shader.Framebuffer",
+      "Known users: OpenBlocks skyblocks",
+      "When disabled: no stencil buffer available unless unlocked with Forge flag. Mods may not use some graphic features"
+    ]
+  }
+}

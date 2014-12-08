@@ -1,0 +1,358 @@
+<!--************************  CustomOreGen Project Red Ores Module **********************************
+*
+*   This file contains Presets, Options, and Distributions for the 8 Project Red 2 ores: Ruby, Sapphire, 
+*   and Peridot.
+*
+***********************************************************************************************-->
+<IfModInstalled name="ProjRed|Exploration">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>            
+    
+        <OptionDisplayGroup name='groupProjectRed' displayName='Project Red' displayState='shown'>
+            <Description> 
+                Distribution options for the Project Red 2 ores.
+            </Description>
+        </OptionDisplayGroup>  
+        
+        <!--********************   Ruby   **********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='PRRubyDist' displayState='shown' displayGroup='groupProjectRed'>
+                <Description> Controls how Project Red 2 Rubies are generated </Description>
+                <DisplayName>PR Ruby Type</DisplayName>
+                <Default>:= if(blockExists("ProjRed|Exploration:projectred.exploration.ore"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Short lava-filled tubes extending upward from bedrock with ore around the edges.  More common under open grassy hills.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description>   
+                        Uncommon, sparsely populated clouds of ore covering roughly one chunk.  Found only under open grassy hills.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered evenly from bedrock about three quarters of the way to the surface.  This is the default Project Red ruby generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No rubies are generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No rubies are generated, and no ruby symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='PRRubyFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Frequency multiplier for Project Red 2 Ruby distributions </Description>
+                <DisplayName>PR Ruby Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='PRRubySize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Size multiplier for Project Red 2 Ruby distributions </Description>
+                <DisplayName>PR Ruby Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= PRRubyDist != "disabled"'>
+                <MystcraftSymbol name='PRRubyClusters' displayName='Ruby Clusters'/>
+                <MystcraftSymbol name='PRRubyVeins' displayName='Ruby Veins'/>
+                <MystcraftSymbol name='PRRubyClouds' displayName='Ruby Clouds'>
+                    <Instability>:= 50 * (age.PRRubyClusters + age.PRRubyVeins + age.PRRubyClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>
+        
+        <!--******************   Sapphire   ********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='PRSapphireDist' displayState='shown' displayGroup='groupProjectRed'>
+                <Description> Controls how Project Red 2 Sapphires are generated </Description>
+                <DisplayName>PR Sapphire Type</DisplayName>
+                <Default>:= if(blockExists("ProjRed|Exploration:projectred.exploration.ore"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Short lava-filled tubes extending upward from bedrock with ore around the edges.  More common under open grassy hills. 
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description>
+                        Uncommon, sparsely populated clouds of ore covering roughly one chunk.  Found only under open grassy hills.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered evenly from bedrock about three quarters of the way to the surface.  This is the default Project Red sapphire generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No sapphires are generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No sapphires are generated, and no sapphire symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='PRSapphireFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Frequency multiplier for Project Red 2 Sapphire distributions </Description>
+                <DisplayName>PR Sapphire Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='PRSapphireSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Size multiplier for Project Red 2 Sapphire distributions </Description>
+                <DisplayName>PR Sapphire Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= PRSapphireDist != "disabled"'>
+                <MystcraftSymbol name='PRSapphireClusters' displayName='Sapphire Clusters'/>
+                <MystcraftSymbol name='PRSapphireVeins' displayName='Sapphire Veins'/>
+                <MystcraftSymbol name='PRSapphireClouds' displayName='Sapphire Clouds'>
+                    <Instability>:= 50 * (age.PRSapphireClusters + age.PRSapphireVeins + age.PRSapphireClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>
+        
+        <!--***************   Peridot   *****************-->
+        <ConfigSection>
+            
+            <OptionChoice name='PRPeridotDist' displayState='shown' displayGroup='groupProjectRed'>
+                <Description> Controls how Project Red 2 Peridots are generated </Description>
+                <DisplayName>PR Peridot Type</DisplayName>
+                <Default>:= if(blockExists("ProjRed|Exploration:projectred.exploration.ore"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Short lava-filled tubes extending upward from bedrock with ore around the edges.  More common under open grassy hills.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description>
+                        Uncommon, sparsely populated clouds of ore covering roughly one chunk.  Found only under open grassy hills.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered evenly from bedrock about three quarters of the way to the surface.  This is the default Project Red peridot generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No peridots are generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No peridots are generated, and no peridots symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='PRPeridotFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Frequency multiplier for Project Red 2 Peridot distributions </Description>
+                <DisplayName>PR Peridot Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='PRPeridotSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupProjectRed'>
+                <Description> Size multiplier for Project Red 2 Peridot distributions </Description>
+                <DisplayName>PR Peridot Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= PRPeridotDist != "disabled"'>
+                <MystcraftSymbol name='PRPeridotClusters' displayName='Peridot Clusters'/>
+                <MystcraftSymbol name='PRPeridotVeins' displayName='Peridot Veins'/>
+                <MystcraftSymbol name='PRPeridotClouds' displayName='Peridot Clouds'>
+                    <Instability>:= 50 * (age.PRPeridotClusters + age.PRPeridotVeins + age.PRPeridotClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>
+        
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='PRSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Project Red-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='ProjRed|Exploration:projectred.exploration.ore'/>
+        </Substitute>
+        
+        <!--********************   Ruby   **********************-->          
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.PRRubyClusters > 0, PRRubyDist = "vanillaStdGen")'>
+                <StandardGen name='PRRubyStandard' block='ProjRed|Exploration:projectred.exploration.ore:0' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular PR ruby distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor> 
+                    <Setting name='Size' avg=':= 7/8 * PRRubySize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * PRRubyFreq * if(age,age.PRRubyClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 24/64 * dimension.groundLevel' range=':= 24/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.PRRubyVeins > 0, PRRubyDist = "layeredVeins")'>  
+                <Veins name='PRRubyVeins' block='ProjRed|Exploration:projectred.exploration.ore:0' inherits='PresetPipeVeins' seed='0xFF0300'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * PRRubyFreq * if(age,age.PRRubyVeins,1) * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= PRRubySize * _default_' range=':= PRRubySize * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= PRRubySize * _default_' range=':= PRRubySize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Veins>
+                <Veins name='PRRubyVeinsLava' block='minecraft:lava' inherits='PRRubyVeins' seed='0xFF0300'>
+                    <Description> Fills center of each tube with lava </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.4 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.4 * _default_'/>
+                    <Setting name='OreDensity' avg='0.5' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='ProjRed|Exploration:projectred.exploration.ore:0'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.PRRubyClouds > 0, PRRubyDist = "strategicClouds")'>
+                <Cloud name='PRRubyCloud' block='ProjRed|Exploration:projectred.exploration.ore:0' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse cloud with no internal density noise, found in extreme hills.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor>                
+                    <Setting name='DistributionFrequency' avg=':= 35 * PRRubyFreq * if(age,age.PRRubyClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.4 * PRRubySize * _default_' range=':= 0.4 * PRRubySize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.2 * PRRubySize * _default_' range=':= 0.17 * PRRubySize * _default_'/>
+                    <Setting name='CloudHeight' avg=':= 15/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel'/>
+                    <Setting name='OreRadiusMult' avg='1' range='0.2'/> 
+                    <Setting name='OreDensity' avg=':= 0.8 * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>   
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--******************   Sapphire   ********************-->           
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.PRSapphireClusters > 0, PRSapphireDist = "vanillaStdGen")'>
+                <StandardGen name='PRSapphireStandard' block='ProjRed|Exploration:projectred.exploration.ore:1' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular PR sapphire distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x402020FF</WireframeColor> 
+                    <Setting name='Size' avg=':= 7/8 * PRSapphireSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * PRSapphireFreq * if(age,age.PRSapphireClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 24/64 * dimension.groundLevel' range=':= 24/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.PRSapphireVeins > 0, PRSapphireDist = "layeredVeins")'>  
+                <Veins name='PRSapphireVeins' block='ProjRed|Exploration:projectred.exploration.ore:1' inherits='PresetPipeVeins' seed='0xFF0302'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x402020FF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * PRSapphireFreq * if(age,age.PRSapphireVeins,1) * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= PRSapphireSize * _default_' range=':= PRSapphireSize * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= PRSapphireSize * _default_' range=':= PRSapphireSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Veins>
+                <Veins name='PRSapphireVeinsLava' block='minecraft:lava' inherits='PRSapphireVeins' seed='0xFF0302'>
+                    <Description> Fills center of each tube with lava </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.4 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.4 * _default_'/>
+                    <Setting name='OreDensity' avg='0.5' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='ProjRed|Exploration:projectred.exploration.ore:1'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.PRSapphireClouds > 0, PRSapphireDist = "strategicClouds")'>
+                <Cloud name='PRSapphireCloud' block='ProjRed|Exploration:projectred.exploration.ore:1' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse cloud with no internal density noise, found in extreme hills.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x402020FF</WireframeColor>                
+                    <Setting name='DistributionFrequency' avg=':= 35 * PRSapphireFreq * if(age,age.PRSapphireClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.4 * PRSapphireSize * _default_' range=':= 0.4 * PRSapphireSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.2 * PRSapphireSize * _default_' range=':= 0.17 * PRSapphireSize * _default_'/>
+                    <Setting name='CloudHeight' avg=':= 15/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel'/>
+                    <Setting name='OreRadiusMult' avg='1' range='0.2'/> 
+                    <Setting name='OreDensity' avg=':= 0.8 * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>   
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--***************   Peridot   *****************-->         
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.PRPeridotClusters > 0, PRPeridotDist = "vanillaStdGen")'>
+                <StandardGen name='PRPeridotStandard' block='ProjRed|Exploration:projectred.exploration.ore:2' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular PR peridot distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4020FF20</WireframeColor> 
+                    <Setting name='Size' avg=':= 7/8 * PRPeridotSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * PRPeridotFreq * if(age,age.PRPeridotClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 24/64 * dimension.groundLevel' range=':= 24/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.PRPeridotVeins > 0, PRPeridotDist = "layeredVeins")'>  
+                <Veins name='PRPeridotVeins' block='ProjRed|Exploration:projectred.exploration.ore:2' inherits='PresetPipeVeins' seed='0xFF0301'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4020FF20</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * PRPeridotFreq * if(age,age.PRPeridotVeins,1) * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= PRPeridotSize * _default_' range=':= PRPeridotSize * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= PRPeridotSize * _default_' range=':= PRPeridotSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Veins>
+                <Veins name='PRPeridotVeinsLava' block='minecraft:lava' inherits='PRPeridotVeins' seed='0xFF0301'>
+                    <Description> Fills center of each tube with lava </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.4 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.4 * _default_'/>
+                    <Setting name='OreDensity' avg='0.5' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='ProjRed|Exploration:projectred.exploration.ore:2'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.PRPeridotClouds > 0, PRPeridotDist = "strategicClouds")'>
+                <Cloud name='PRPeridotCloud' block='ProjRed|Exploration:projectred.exploration.ore:2' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse cloud with no internal density noise, found in extreme hills.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4020FF20</WireframeColor>                
+                    <Setting name='DistributionFrequency' avg=':= 35 * PRPeridotFreq * if(age,age.PRPeridotClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.4 * PRPeridotSize * _default_' range=':= 0.4 * PRPeridotSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.2 * PRPeridotSize * _default_' range=':= 0.17 * PRPeridotSize * _default_'/>
+                    <Setting name='CloudHeight' avg=':= 15/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel'/>
+                    <Setting name='OreRadiusMult' avg='1' range='0.2'/> 
+                    <Setting name='OreDensity' avg=':= 0.8 * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>   
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

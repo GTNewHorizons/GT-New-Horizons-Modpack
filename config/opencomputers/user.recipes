@@ -1,0 +1,24 @@
+# To use different sets of recipes, include other recipe files in the order of
+
+# priority to use the recipes defined in them. The last include has the highest
+
+# priority (i.e. included recipes simply replace the current definition for all
+
+# already known recipes).
+
+
+include file("default.recipes")
+
+include file("hardmode.recipes")
+
+include file("gregtech.recipes")
+
+#include file("your_custom.recipes")
+
+
+# You can also specify custom recipes in this file directly. Have a look at the
+
+# default.recipes file to get an idea how recipes have to be structured. You'll
+
+# want to define your recipes after all includes, to avoid those overwriting
+# your recipes.

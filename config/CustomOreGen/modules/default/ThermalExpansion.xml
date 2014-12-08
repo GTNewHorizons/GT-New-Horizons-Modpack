@@ -1,0 +1,642 @@
+<!--*********************  CustomOreGen ThermalExpansion Ores Module ******************************
+*
+*   This file contains Presets, Options, and Distributions for the 5 TE ores:
+*       Copper, Tin, Silver, Lead and Nickel.
+*
+***********************************************************************************************-->
+<IfModInstalled name="ThermalFoundation">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>                
+    
+        <OptionDisplayGroup name='groupTE' displayName='Thermal Expansion' displayState='shown'>
+            <Description> 
+                Distribution options for the TE ores.
+            </Description>
+        </OptionDisplayGroup>
+        
+        <!--*******************   Copper   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='teCopperDist' displayState='shown' displayGroup='groupTE'>
+                <Description> Controls how TE Copper is generated </Description>
+                <DisplayName>TE Copper Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered about one third of the way down to bedrock.  This is the default TE copper generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No copper is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='teCopperFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Frequency multiplier for TE Copper distributions </Description>
+                <DisplayName>TE Copper Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='teCopperSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Size multiplier for TE Copper distributions </Description>
+                <DisplayName>TE Copper Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= teCopperDist != "disabled"'>
+                <MystcraftSymbol name='teCopperClusters' displayName='Copper Clusters'/>
+                <MystcraftSymbol name='teCopperVeins' displayName='Copper Veins'/>
+                <MystcraftSymbol name='teCopperClouds' displayName='Copper Clouds'>
+                    <Instability>:= 50 * (age.teCopperClusters + age.teCopperVeins + age.teCopperClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+        
+        <!--********************   Tin   ***********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='teTinDist' displayState='shown' displayGroup='groupTE'>
+                <Description> Controls how TE Tin is generated </Description>
+                <DisplayName>TE Tin Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in flat grassy plains.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered from bedrock about two thirds of the way to the surface.  This is the default TE tin generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No tin is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no tin symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='teTinFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Frequency multiplier for TE Tin distributions </Description>
+                <DisplayName>TE Tin Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='teTinSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Size multiplier for TE Tin distributions </Description>
+                <DisplayName>TE Tin Size</DisplayName>
+            </OptionNumeric>  
+            
+            <IfCondition condition=':= teTinDist != "disabled"'>
+                <MystcraftSymbol name='teTinClusters' displayName='Tin Clusters'/>
+                <MystcraftSymbol name='teTinVeins' displayName='Tin Veins'/>
+                <MystcraftSymbol name='teTinClouds' displayName='Tin Clouds'>
+                    <Instability>:= 50 * (age.teTinClusters + age.teTinVeins + age.teTinClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+
+        </ConfigSection>           
+        
+        <!--******************   Silver   *********************-->
+        <ConfigSection>
+        
+            <OptionChoice name='teSilverDist' displayState='shown' displayGroup='groupTE'>
+                <Description> Controls how TE Silver is generated </Description>
+                <DisplayName>TE Silver Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Isolated veins found about two thirds of the way down to bedrock.  Unusually common in mountains.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore
+                        extending over one or two chunks.  Found only
+                        in mountains.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small evenly scattered clusters of ore.
+                        This is the default TE silver generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No silver is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No silver is generated, and no silver symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='teSilverFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Frequency multiplier for TE Silver distributions </Description>
+                <DisplayName>TE Silver Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='teSilverSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Size multiplier for TE Silver distributions </Description>
+                <DisplayName>TE Silver Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= teSilverDist != "disabled"'>
+                <MystcraftSymbol name='teSilverClusters' displayName='Silver Clusters'/>
+                <MystcraftSymbol name='teSilverVeins' displayName='Silver Veins'/>
+                <MystcraftSymbol name='teSilverClouds' displayName='Silver Clouds'>
+                    <Instability>:= 50 * (age.teSilverClusters + age.teSilverVeins + age.teSilverClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+            
+        </ConfigSection>           
+
+        <!--*******************   Lead   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='teLeadDist' displayState='shown' displayGroup='groupTE'>
+                <Description> Controls how TE Lead is generated </Description>
+                <DisplayName>TE Lead Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about two thirds of the way down to bedrock.  Especially common in deserts.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in deserts.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered about two thirds of the way down to bedrock.  This is the default TE lead generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No lead is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No lead is generated, and no lead symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='teLeadFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Frequency multiplier for TE Lead distributions </Description>
+                <DisplayName>TE Lead Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='teLeadSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Size multiplier for TE Lead distributions </Description>
+                <DisplayName>TE Lead Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= teLeadDist != "disabled"'>
+                <MystcraftSymbol name='teLeadClusters' displayName='Lead Clusters'/>
+                <MystcraftSymbol name='teLeadVeins' displayName='Lead Veins'/>
+                <MystcraftSymbol name='teLeadClouds' displayName='Lead Clouds'>
+                    <Instability>:= 50 * (age.teLeadClusters + age.teLeadVeins + age.teLeadClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+
+        <!--*******************   Ferrous Ore   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='teFerrousDist' displayState='shown' displayGroup='groupTE'>
+                <Description> Controls how TE Ferrous Ore is generated </Description>
+                <DisplayName>TE Ferrous Ore Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found near bedrock.  Especially common in swamps.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in swamps.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered near bedrock.  This is the default TE ferrous ore generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No ferrous ore is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No ferrous ore is generated, and no ferrous ore symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='teFerrousFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Frequency multiplier for TE Ferrous Ore distributions </Description>
+                <DisplayName>TE Ferrous Ore Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='teFerrousSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTE'>
+                <Description> Size multiplier for TE Ferrous Ore distributions </Description>
+                <DisplayName>TE Ferrous Ore Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= teFerrousDist != "disabled"'>
+                <MystcraftSymbol name='teFerrousClusters' displayName='Ferrous Ore Clusters'/>
+                <MystcraftSymbol name='teFerrousVeins' displayName='Ferrous Ore Veins'/>
+                <MystcraftSymbol name='teFerrousClouds' displayName='Ferrous Ore Clouds'>
+                    <Instability>:= 50 * (age.teFerrousClusters + age.teFerrousVeins + age.teFerrousClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='TESubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace TE-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='ThermalFoundation:Ore:0'/>
+            <Replaces block='ThermalFoundation:Ore:1'/>
+            <Replaces block='ThermalFoundation:Ore:2'/>
+            <Replaces block='ThermalFoundation:Ore:3'/>
+            <Replaces block='ThermalFoundation:Ore:4'/>
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.teCopperClusters > 0, teCopperDist = "vanillaStdGen")'>
+                <StandardGen name='TECopperStandard' block='ThermalFoundation:Ore:0' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular TE copper distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='Size' avg=':= teCopperSize * _default_'/> 
+                    <Setting name='Frequency'
+                             avg=':= 2/5 * teCopperFreq * if(age,age.teCopperClusters,1) * _default_' 
+                             range=':= 3 * teCopperFreq * if(age,age.teCopperClusters,1)'/>
+                    <Setting name='Height' avg=':= 57/64 * dimension.groundLevel' range=':= 17/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.teCopperVeins > 0, teCopperDist = "layeredVeins")'>             
+                <Veins name='TECopperVeins' block='ThermalFoundation:Ore:0' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 35-55 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * teCopperFreq * if(age,age.teCopperVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.9 * teCopperSize * _default_'
+                             range=':= 0.9 * teCopperSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 45/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency'
+                             avg=':= 0.95 * _default_'
+                             range=':= 0.95 * _default_'/>
+                    <Setting name='BranchLength'
+                             avg=':= 0.95 * teCopperSize * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.95 * teCopperSize * _default_'
+                             range=':= 0.95 * teCopperSize * _default_'/>
+                </Veins>                
+                <Veins name='TECopperVeinsJungle' inherits='TECopperVeins'>
+                    <Description> This roughly triples the chance of finding Copper in jungle biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.teCopperClouds > 0, teCopperDist = "strategicClouds")'>
+                <Cloud name='TECopperCloud' block='ThermalFoundation:Ore:0' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse copper cloud surrounded by single-block "hint" veins, found in jungle biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 2.5 * teCopperFreq * if(age,age.teCopperClouds,1) * _default_'/>
+                    <Setting name='CloudRadius'
+                             avg=':= 0.95 * teCopperSize * _default_'
+                             range=':= 0.95 * teCopperSize * _default_'/>
+                    <Setting name='CloudThickness'
+                             avg=':= 0.95 * teCopperSize * _default_'
+                             range=':= teCopperSize * _default_'/> 
+                    <BiomeType name='Jungle'/>
+                    <Veins name='TECopperHintVeins' block='ThermalFoundation:Ore:0' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+                                 avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit'
+                                 avg=':= teCopperSize * _default_'
+                                 range=':= teCopperSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--********************   Tin   ***********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.teTinClusters > 0, teTinDist = "vanillaStdGen")'>            
+                <StandardGen name='TETinStandard' block='ThermalFoundation:Ore:1' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular TE tin distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='Size' avg=':= teTinSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.3 * teTinFreq * if(age,age.teTinClusters,1) * _default_' 
+                                                range=':= 2.5 * teTinFreq * if(age,age.teTinClusters,1)'/>
+                    <Setting name='Height' avg=':= 37/64 * dimension.groundLevel' range=':= 17/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.teTinVeins > 0, teTinDist = "layeredVeins")'>    
+                <Veins name='TETinVeins' block='ThermalFoundation:Ore:1' inherits='PresetLayeredVeins'>
+                    <Description> 
+                        Average veins in the 20-40 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * teTinFreq * if(age,age.teTinVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.85 * teTinSize * _default_'
+                             range=':= 0.85 * teTinSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 30/64 * dimension.groundLevel' range=':= 11/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchHeightLimit' avg='11'/>
+                    <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 0.9 * _default_'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.9 * teTinSize * _default_'
+                             range=':= 0.9 * teTinSize * _default_'/>
+                </Veins>
+                <Veins name='TETinVeinsPlains' inherits='TETinVeins'>
+                    <Description> This roughly triples the chance of finding tin in plains biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Plains'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.teTinClouds > 0, teTinDist = "strategicClouds")'>
+                <Cloud name='TETinCloud' block='ThermalFoundation:Ore:1' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse tin cloud surrounded by single-block "hint" veins, found in plains biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 2.5 * teTinFreq * if(age,age.teTinClouds,1) * _default_'/>
+                    <Setting name='CloudRadius'
+                             avg=':= 0.9 * teTinSize * _default_'
+                             range=':= 0.9 * teTinSize * _default_'/>
+                    <Setting name='CloudThickness'
+                             avg=':= 0.9 * teTinSize * _default_'
+                             range=':= teTinSize * _default_'/> 
+                    <BiomeType name='Plains'/>
+                    <Veins name='TETinHintVeins' block='ThermalFoundation:Ore:1' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40FFFFFF</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+                                 avg=':= 0.8 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit'
+                                 avg=':= 0.95 * teTinSize * _default_'
+                                 range=':= 0.9 * teTinSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--******************   Silver   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.teSilverClusters > 0, teSilverDist = "vanillaStdGen")'>
+                <StandardGen name='TESilverStandard' block='ThermalFoundation:Ore:2' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular TE silver distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40AAAAAA</WireframeColor> 
+                    <Setting name='Size' avg=':= teSilverSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.15 * teSilverFreq * if(age,age.teSilverClusters,1) * _default_' 
+                                               range=':= 1.5 * teSilverFreq * if(age,age.teSilverClusters,1)'/>
+                    <Setting name='Height' avg=':= 18/64 * dimension.groundLevel' range=':= 12/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.teSilverVeins > 0, teSilverDist = "layeredVeins")'>    
+                <Veins name='TESilverVeins' block='ThermalFoundation:Ore:2' inherits='PresetLayeredVeins'>    
+                    <Description>
+                        Sparse veins in the 10-30 range.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40AAAAAA</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * teSilverFreq * if(age,age.teSilverVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.85 * teSilverSize * _default_' range=':= 0.85 * teSilverSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength'
+                             avg=':= 0.8 * _default_'
+                             range=':= 0.75 * _default_'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.75 * teSilverSize * _default_'
+                             range=':= 0.5 * teSilverSize * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= teSilverSize * _default_' range=':= teSilverSize * _default_'/>
+                </Veins>
+                <Veins name='TESilverVeinsMountain' inherits='TESilverVeins'>
+                    <Description>  This roughly triples the chance of
+                    finding silver in mountainous terrain. </Description>      
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.teSilverClouds > 0, teSilverDist = "strategicClouds")'>
+                <Cloud name='TESilverCloud' block='ThermalFoundation:Ore:2' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse silver cloud surrounded by single-block "hint" veins, found mostly in mountain biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40AAAAAA</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4.5 * teSilverFreq * if(age,age.teSilverClouds,1) * _default_'/>
+                    <Setting name='CloudRadius'
+                             avg=':= 0.8 * teSilverSize * _default_'
+                             range=':= 0.8 * teSilverSize * _default_'/>
+                    <Setting name='CloudThickness'
+                             avg=':= 0.8 * teSilverSize * _default_'
+                             range=':= teSilverSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 0.5 * _default_'/>
+                    <BiomeType name='Mountain'/>
+                    <Veins name='TESilverHintVeins' block='ThermalFoundation:Ore:2' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40AAAAAA</WireframeColor>
+                        <Setting name='MotherlodeFrequency'
+                                 avg=':= 0.5 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit'
+                                 avg=':= 0.85 * teSilverSize * _default_'
+                                 range=':= 0.8 * teSilverSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+        <!--*******************   Lead   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.teLeadClusters > 0, teLeadDist = "vanillaStdGen")'>
+                <StandardGen name='TELeadStandard' block='ThermalFoundation:Ore:3' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular TE lead distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40222222</WireframeColor> 
+                    <Setting name='Size' avg=':= teLeadSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 1/5 * teLeadFreq * if(age,age.teLeadClusters,1) * _default_' 
+                                                range=':= 1.5 * teLeadFreq * if(age,age.teLeadClusters,1)'/>
+                    <Setting name='Height' avg=':= 22/64 * dimension.groundLevel' range=':= 12/64 * dimension.groundLevel' type='normal'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.teLeadVeins > 0, teLeadDist = "layeredVeins")'>             
+                <Veins name='TELeadVeins' block='ThermalFoundation:Ore:3' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 10-30 range;
+                    more common in deserts. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40222222</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * teLeadFreq * if(age,age.teLeadVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= teLeadSize * _default_' range=':= teLeadSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
+                    <Setting name='BranchLength' avg=':= _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.85 * teLeadSize * _default_'
+                             range=':= 0.85 * teLeadSize * _default_'/>
+                </Veins>                
+                <Veins name='TELeadVeinsDesert' inherits='TELeadVeins'>
+                    <Description> This roughly triples the chance of finding Lead in desert biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Sandy'/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.teLeadClouds > 0, teLeadDist = "strategicClouds")'>
+                <Cloud name='TELeadCloud' block='ThermalFoundation:Ore:3' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse lead cloud surrounded by single-block "hint" veins, found in desert biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency'
+                             avg=':= 2.5 * teLeadFreq * if(age,age.teLeadClouds,1) * _default_'/>
+                    <Setting name='CloudRadius'
+                             avg=':= 0.85 * teLeadSize * _default_'
+                             range=':= 0.85 * teLeadSize * _default_'/>
+                    <Setting name='CloudThickness'
+                             avg=':= 0.85 * teLeadSize * _default_'
+                             range=':= teLeadSize * _default_'/> 
+                    <BiomeType name='Sandy'/>
+                    <Veins name='TELeadHintVeins' block='ThermalFoundation:Ore:3' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40222222</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+                                 avg=':= 0.6 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit'
+                                 avg=':= 0.9 * teLeadSize * _default_'
+                                 range=':= 0.85 * teLeadSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+        <!--*******************   Ferrous Ore   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.teFerrousClusters > 0, teFerrousDist = "vanillaStdGen")'>
+                <StandardGen name='TEFerrousStandard' block='ThermalFoundation:Ore:4' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular TE lead distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40005500</WireframeColor> 
+                    <Setting name='Size' avg=':= 0.5 * teFerrousSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * teFerrousFreq * if(age,age.teFerrousClusters,1) * _default_' 
+                                                range=':= 0.75 * teFerrousFreq * if(age,age.teFerrousClusters,1)'/>
+                    <Setting name='Height' avg=':= 12/64 * dimension.groundLevel' range=':= 7/64 * dimension.groundLevel' type='uniform'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.teFerrousVeins > 0, teFerrousDist = "layeredVeins")'>             
+                <Veins name='TEFerrousVeins' block='ThermalFoundation:Ore:4' inherits='Presetlayeredveins'>
+                    <Description>  Average veins in the 10-30 range;
+                    more common in deserts. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40005500</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * teFerrousFreq * if(age,age.teFerrousVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.8 * teFerrousSize * _default_'
+                             range=':= 0.5 * teFerrousSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.7 * teFerrousSize * _default_'
+                             range=':= 0.5 * teFerrousSize * _default_'/>
+                </Veins>
+                <Veins name='TEFerrousVeinsSwamp' inherits='TEFerrousVeins'>
+                    <Description> This roughly triples the chance of finding Ferrous Ore in swamp biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Swamp'/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.teFerrousClouds > 0, teFerrousDist = "strategicClouds")'>
+                <Cloud name='TEFerrousCloud' block='ThermalFoundation:Ore:4' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse ferrous ore cloud surrounded by single-block "hint" veins, found in swamp biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40005500</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4.5 * teFerrousFreq * if(age,age.teFerrousClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.8 * teFerrousSize * _default_' range=':= teFerrousSize * _default_'/>
+                    <Setting name='CloudThickness'
+                             avg=':= 0.8 * teFerrousSize * _default_'
+                             range=':= teFerrousSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+                    <BiomeType name='Swamp'/>
+                    <Veins name='TEFerrousHintVeins' block='ThermalFoundation:Ore:4' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40005500</WireframeColor> 
+                        <Setting name='MotherlodeFrequency'
+                                 avg=':= 0.3 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit'
+                                 avg=':= 0.75 * teFerrousSize * _default_'
+                                 range=':= 0.65 * teFerrousSize * _default_'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+    </IfCondition>
+    
+</IfModInstalled>

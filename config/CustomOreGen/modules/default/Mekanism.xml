@@ -1,0 +1,360 @@
+<!--*********************  CustomOreGen ThermalExpansion Ores Module ******************************
+*
+*   This file contains settings for the Mekanism (Mek) ores:
+*       Copper, Osmium, Tin
+*
+***********************************************************************************************-->
+<IfModInstalled name="Mekanism">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>                
+    
+        <OptionDisplayGroup name="groupMek" displayName="Mekanism" displayState="shown">
+            <Description> 
+                Distribution options for the Mek ores.
+            </Description>
+        </OptionDisplayGroup>
+       
+        <!--*******************   Osmium   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name="mekOsmiumDist" displayState="shown" displayGroup="groupMek">
+                <Description> Controls how Mek Osmium is generated </Description>
+                <DisplayName>Mek Osmium Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value="layeredVeins" displayValue="Veins">
+                    <Description> 
+                        Long, narrow groups of veins found about one third of the way down to bedrock.  More common in jungles and mountains.  
+                    </Description>
+                </Choice>
+                <Choice value="strategicClouds" displayValue="Clouds">
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles and mountains.
+                    </Description>
+                </Choice>
+                <Choice value="vanillaStdGen" displayValue="Clusters">
+                    <Description> 
+                        Small clusters of ore scattered below sea level.  This is the default Mek Osmium generation.
+                    </Description>
+                </Choice>
+                <Choice value="none" displayValue="None" description="No Osmium is generated at all."/>
+                <Choice value="disabled" displayValue="Disabled" description="No Osmium is generated, and no Osmium symbols are available in Mystcraft ages."/>
+            </OptionChoice>
+            
+            <OptionNumeric name="mekOsmiumFreq" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Frequency multiplier for Mek Osmium distributions </Description>
+                <DisplayName>Mek Osmium Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name="mekOsmiumSize" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Size multiplier for Mek Osmium distributions </Description>
+                <DisplayName>Mek Osmium Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=":= mekOsmiumDist != &quot;disabled&quot;">
+                <MystcraftSymbol name="mekOsmiumClusters" displayName="Osmium Clusters"/>
+                <MystcraftSymbol name="mekOsmiumVeins" displayName="Osmium Veins"/>
+                <MystcraftSymbol name="mekOsmiumClouds" displayName="Osmium Clouds">
+                    <Instability>:= 50 * (age.mekOsmiumClusters + age.mekOsmiumVeins + age.mekOsmiumClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+	   
+        <!--*******************   Copper   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name="mekCopperDist" displayState="shown" displayGroup="groupMek">
+                <Description> Controls how Mek Copper is generated </Description>
+                <DisplayName>Mek Copper Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value="layeredVeins" displayValue="Veins">
+                    <Description> 
+                        Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.  
+                    </Description>
+                </Choice>
+                <Choice value="strategicClouds" displayValue="Clouds">
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles.
+                    </Description>
+                </Choice>
+                <Choice value="vanillaStdGen" displayValue="Clusters">
+                    <Description> 
+                        Small clusters of ore scattered below sea level.  This is the default Mek copper generation.
+                    </Description>
+                </Choice>
+                <Choice value="none" displayValue="None" description="No copper is generated at all."/>
+                <Choice value="disabled" displayValue="Disabled" description="No copper is generated, and no copper symbols are available in Mystcraft ages."/>
+            </OptionChoice>
+            
+            <OptionNumeric name="mekCopperFreq" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Frequency multiplier for Mek Copper distributions </Description>
+                <DisplayName>Mek Copper Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name="mekCopperSize" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Size multiplier for Mek Copper distributions </Description>
+                <DisplayName>Mek Copper Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=":= mekCopperDist != &quot;disabled&quot;">
+                <MystcraftSymbol name="mekCopperClusters" displayName="Copper Clusters"/>
+                <MystcraftSymbol name="mekCopperVeins" displayName="Copper Veins"/>
+                <MystcraftSymbol name="mekCopperClouds" displayName="Copper Clouds">
+                    <Instability>:= 50 * (age.mekCopperClusters + age.mekCopperVeins + age.mekCopperClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+        
+        <!--********************   Tin   ***********************-->
+        <ConfigSection>
+            
+            <OptionChoice name="mekTinDist" displayState="shown" displayGroup="groupMek">
+                <Description> Controls how Mek Tin is generated </Description>
+                <DisplayName>Mek Tin Type</DisplayName>
+                <Default>layeredVeins</Default>
+                <Choice value="layeredVeins" displayValue="Veins">
+                    <Description> 
+                        Groups of long narrow veins found about halfway down to bedrock.  More frequent in grassy plains.  
+                    </Description>
+                </Choice>
+                <Choice value="strategicClouds" displayValue="Clouds">
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in grassy plains.
+                    </Description>
+                </Choice>
+                <Choice value="vanillaStdGen" displayValue="Clusters">
+                    <Description> 
+                        Small clusters of ore scattered below sea level.  This is the default Mek tin generation.
+                    </Description>
+                </Choice>
+                <Choice value="none" displayValue="None" description="No tin is generated at all."/>
+                <Choice value="disabled" displayValue="Disabled" description="No tin is generated, and no tin symbols are available in Mystcraft ages."/>
+            </OptionChoice>
+            
+            <OptionNumeric name="mekTinFreq" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Frequency multiplier for Mek Tin distributions </Description>
+                <DisplayName>Mek Tin Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name="mekTinSize" default="1" min="0" max="5" displayState=":= if(?advOptions,&quot;shown&quot;,&quot;hidden&quot;)" displayGroup="groupMek">
+                <Description> Size multiplier for Mek Tin distributions </Description>
+                <DisplayName>Mek Tin Size</DisplayName>
+            </OptionNumeric>  
+            
+            <IfCondition condition=":= mekTinDist != &quot;disabled&quot;">
+                <MystcraftSymbol name="mekTinClusters" displayName="Tin Clusters"/>
+                <MystcraftSymbol name="mekTinVeins" displayName="Tin Veins"/>
+                <MystcraftSymbol name="mekTinClouds" displayName="Tin Clouds">
+                    <Instability>:= 50 * (age.mekTinClusters + age.mekTinVeins + age.mekTinClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+
+        </ConfigSection>           
+        
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=":= ?COGActive">
+        
+        <Substitute name="MekSubstitute" block="minecraft:stone">
+            <Description> 
+                Replace Mekanism-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (&gt;= 32).
+            </Comment>
+            <Replaces block="Mekanism:OreBlock"/> 
+        </Substitute>
+
+        
+        <!--*******************   Osmium Distribution   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=":= if(age, age.mekOsmiumClusters &gt; 0, mekOsmiumDist = &quot;vanillaStdGen&quot;)">
+                <StandardGen name="MekOsmiumStandard" block="Mekanism:OreBlock:0" inherits="PresetStandardGen"> 
+                    <Description> Equivalent to regular Mekanism Osmium distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x400099FF</WireframeColor> 
+                    <Setting name="Size" avg=":= mekOsmiumSize * _default_"/> 
+                    <Setting name="Frequency" avg=":= 2/5 * mekOsmiumFreq * if(age,age.mekOsmiumClusters,1) * _default_" range=":= 3 * mekOsmiumFreq * if(age,age.mekOsmiumClusters,1)"/>
+                    <Setting name="Height" avg=":= 57/64 * dimension.groundLevel" range=":= 17/64 * dimension.groundLevel" type="uniform"/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=":= if(age, age.mekOsmiumVeins &gt; 0, mekOsmiumDist = &quot;layeredVeins&quot;)">             
+                <Veins name="MekOsmiumVeins" block="Mekanism:OreBlock:0" inherits="PresetLayeredVeins">
+                    <Description>  Average veins in the 25-85 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x400099FF</WireframeColor> 
+                    <Setting name="MotherlodeFrequency" avg=":= 0.9 * mekOsmiumFreq * if(age,age.mekOsmiumVeins,1) * _default_"/>
+                    <Setting name="MotherlodeSize" avg=":= 0.9 * mekOsmiumSize * _default_" range=":= 0.9 * mekOsmiumSize * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":= 45/64 * dimension.groundLevel" range=":= 50/64 * dimension.groundLevel" type="normal"/>
+                    <Setting name="BranchFrequency" avg=":= 0.95 * _default_" range=":= 0.95 * _default_"/>
+                    <Setting name="BranchLength" avg=":= 0.95 * mekOsmiumSize * _default_"/>
+                    <Setting name="BranchHeightLimit" avg="12"/>
+                    <Setting name="SegmentRadius" avg=":= 0.95 * mekOsmiumSize * _default_" range=":= 0.95 * mekOsmiumSize * _default_"/>
+                </Veins>                
+                <Veins name="MekOsmiumBiomeVeins" inherits="MekOsmiumVeins">
+                    <Description> This roughly triples the chance of finding Osmium in jungle and mountain biomes. </Description> 
+                    <Setting name="MotherlodeFrequency" avg=":= 2 * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":=_default_" range=":= 2 * _default_"/>
+                    <Setting name="BranchHeightLimit" avg=":= 2 * _default_"/>  
+                    <BiomeType name="Jungle"/>
+					<BiomeType name="Mountain"/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=":= if(age, age.mekOsmiumClouds &gt; 0, mekOsmiumDist = &quot;strategicClouds&quot;)">
+                <Cloud name="MekOsmiumBiomeCloud" block="Mekanism:OreBlock:0" inherits="PresetStrategicCloud">
+                    <Description>  
+                        Diffuse Osmium cloud surrounded by single-block "hint" veins, found in jungle and mountain biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x400099FF</WireframeColor> 
+                    <Setting name="DistributionFrequency" avg=":= 2.5 * mekOsmiumFreq * if(age,age.mekOsmiumClouds,1) * _default_"/>
+                    <Setting name="CloudRadius" avg=":= 0.95 * mekOsmiumSize * _default_" range=":= 0.95 * mekOsmiumSize * _default_"/>
+                    <Setting name="CloudThickness" avg=":= 0.95 * mekOsmiumSize * _default_" range=":= mekOsmiumSize * _default_"/> 
+                    <BiomeType name="Jungle"/>
+					<BiomeType name="Mountain"/>
+                    <Veins name="MekOsmiumHintVeins" block="Mekanism:OreBlock:0" inherits="PresetHintVeins">
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x400099FF</WireframeColor> 
+                        <Setting name="MotherlodeFrequency" avg=":= _default_" range=":= _default_"/>   
+                        <Setting name="MotherlodeRangeLimit" avg=":= mekOsmiumSize * _default_" range=":= mekOsmiumSize * _default_"/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+
+        <!--*******************   Copper Distribution   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=":= if(age, age.mekCopperClusters &gt; 0, mekCopperDist = &quot;vanillaStdGen&quot;)">
+                <StandardGen name="MekCopperStandard" block="Mekanism:OreBlock:1" inherits="PresetStandardGen"> 
+                    <Description> Equivalent to regular Mekanism copper distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name="Size" avg=":= mekCopperSize * _default_"/> 
+                    <Setting name="Frequency" avg=":= 2/5 * mekCopperFreq * if(age,age.mekCopperClusters,1) * _default_" range=":= 3 * mekCopperFreq * if(age,age.mekCopperClusters,1)"/>
+                    <Setting name="Height" avg=":= 57/64 * dimension.groundLevel" range=":= 17/64 * dimension.groundLevel" type="uniform"/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=":= if(age, age.mekCopperVeins &gt; 0, mekCopperDist = &quot;layeredVeins&quot;)">             
+                <Veins name="MekCopperVeins" block="Mekanism:OreBlock:1" inherits="PresetLayeredVeins">
+                    <Description>  Average veins in the 25-85 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name="MotherlodeFrequency" avg=":= 0.9 * mekCopperFreq * if(age,age.mekCopperVeins,1) * _default_"/>
+                    <Setting name="MotherlodeSize" avg=":= 0.9 * mekCopperSize * _default_" range=":= 0.9 * mekCopperSize * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":= 45/64 * dimension.groundLevel" range=":= 10/64 * dimension.groundLevel" type="normal"/>
+                    <Setting name="BranchFrequency" avg=":= 0.95 * _default_" range=":= 0.95 * _default_"/>
+                    <Setting name="BranchLength" avg=":= 0.95 * mekCopperSize * _default_"/>
+                    <Setting name="BranchHeightLimit" avg="12"/>
+                    <Setting name="SegmentRadius" avg=":= 0.95 * mekCopperSize * _default_" range=":= 0.95 * mekCopperSize * _default_"/>
+                </Veins>                
+                <Veins name="MekCopperVeinsJungle" inherits="MekCopperVeins">
+                    <Description> This roughly triples the chance of finding Copper in jungle biomes. </Description> 
+                    <Setting name="MotherlodeFrequency" avg=":= 2 * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":=_default_" range=":= 2 * _default_"/>
+                    <Setting name="BranchHeightLimit" avg=":= 2 * _default_"/>  
+                    <BiomeType name="Jungle"/>
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=":= if(age, age.mekCopperClouds &gt; 0, mekCopperDist = &quot;strategicClouds&quot;)">
+                <Cloud name="MekCopperCloud" block="Mekanism:OreBlock:1" inherits="PresetStrategicCloud">
+                    <Description>  
+                        Diffuse copper cloud surrounded by single-block "hint" veins, found in jungle biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name="DistributionFrequency" avg=":= 2.5 * mekCopperFreq * if(age,age.mekCopperClouds,1) * _default_"/>
+                    <Setting name="CloudRadius" avg=":= 0.95 * mekCopperSize * _default_" range=":= 0.95 * mekCopperSize * _default_"/>
+                    <Setting name="CloudThickness" avg=":= 0.95 * mekCopperSize * _default_" range=":= mekCopperSize * _default_"/> 
+                    <BiomeType name="Jungle"/>
+                    <Veins name="MekCopperHintVeins" block="Mekanism:OreBlock:1" inherits="PresetHintVeins">
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name="MotherlodeFrequency" avg=":= _default_" range=":= _default_"/>   
+                        <Setting name="MotherlodeRangeLimit" avg=":= mekCopperSize * _default_" range=":= mekCopperSize * _default_"/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--********************   Tin Distribution   ***********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=":= if(age, age.mekTinClusters &gt; 0, mekTinDist = &quot;vanillaStdGen&quot;)">            
+                <StandardGen name="MekTinStandard" block="Mekanism:OreBlock:2" inherits="PresetStandardGen"> 
+                    <Description> Equivalent to regular Mekanism tin distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name="Size" avg=":= mekTinSize * _default_"/> 
+                    <Setting name="Frequency" avg=":= 0.3 * mekTinFreq * if(age,age.mekTinClusters,1) * _default_" range=":= 2.5 * mekTinFreq * if(age,age.mekTinClusters,1)"/>
+                    <Setting name="Height" avg=":= 37/64 * dimension.groundLevel" range=":= 17/64 * dimension.groundLevel" type="uniform"/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=":= if(age, age.mekTinVeins &gt; 0, mekTinDist = &quot;layeredVeins&quot;)">    
+                <Veins name="MekTinVeins" block="Mekanism:OreBlock:2" inherits="PresetLayeredVeins">
+                    <Description> 
+                        Average veins in the 20-60 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name="MotherlodeFrequency" avg=":= 0.85 * mekTinFreq * if(age,age.mekTinVeins,1) * _default_"/>
+                    <Setting name="MotherlodeSize" avg=":= 0.85 * mekTinSize * _default_" range=":= 0.85 * mekTinSize * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":= 30/64 * dimension.groundLevel" range=":= 11/64 * dimension.groundLevel" type="normal"/>
+                    <Setting name="BranchHeightLimit" avg="11"/>
+                    <Setting name="BranchFrequency" avg=":= 0.9 * _default_"/>
+                    <Setting name="BranchLength" avg=":= 0.9 * _default_"/>
+                    <Setting name="SegmentRadius" avg=":= 0.9 * mekTinSize * _default_" range=":= 0.9 * mekTinSize * _default_"/>
+                </Veins>
+                <Veins name="MekTinVeinsPlains" inherits="MekTinVeins">
+                    <Description> This roughly triples the chance of finding tin in grassy plains. </Description> 
+                    <Setting name="MotherlodeFrequency" avg=":= 2 * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":=_default_" range=":= 2 * _default_"/>
+                    <Setting name="BranchHeightLimit" avg=":= 2 * _default_"/>  
+                    <BiomeType name="Plains"/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=":= if(age, age.mekTinClouds &gt; 0, mekTinDist = &quot;strategicClouds&quot;)">
+                <Cloud name="MekTinCloud" block="Mekanism:OreBlock:2" inherits="PresetStrategicCloud">
+                    <Description>  
+                        Diffuse tin cloud surrounded by single-block "hint" veins, found in grassy plains.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name="DistributionFrequency" avg=":= 2.5 * mekTinFreq * if(age,age.mekTinClouds,1) * _default_"/>
+                    <Setting name="CloudRadius" avg=":= 0.9 * mekTinSize * _default_" range=":= 0.9 * mekTinSize * _default_"/>
+                    <Setting name="CloudThickness" avg=":= 0.9 * mekTinSize * _default_" range=":= mekTinSize * _default_"/> 
+                    <BiomeType name="Plains"/>
+                    <Veins name="MekTinHintVeins" block="Mekanism:OreBlock:2" inherits="PresetHintVeins">
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40FFFFFF</WireframeColor> 
+                        <Setting name="MotherlodeFrequency" avg=":= 0.8 * _default_" range=":= _default_"/>
+                        <Setting name="MotherlodeRangeLimit" avg=":= 0.95 * mekTinSize * _default_" range=":= 0.9 * mekTinSize * _default_"/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

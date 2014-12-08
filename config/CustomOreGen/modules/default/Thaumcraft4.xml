@@ -1,0 +1,741 @@
+<!--************************ BlockCustomOreGen Minecraft Ores Module *********************************
+*
+* This file contains Presets, Options, and Distributions for the 2 Thaumcraft overworld mining ores:
+* Amber and Cinnabar, as well as the 6 Varities of Infused Stone.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Thaumcraft">
+
+	<!--*************************** Options + Symbols ***********************************
+	*
+	* Below are options and symbols for each ore, similar to those for the standard ores.
+	*
+	*************************************************************************************-->
+	<ConfigSection>
+
+		<OptionDisplayGroup name='groupThaumcraft' displayName='Thaumcraft' displayState='shown'>
+			<Description>
+				Distribution options for the Thaumcraft ores (overworld only).
+			</Description>
+		</OptionDisplayGroup>
+
+		<!--******************* Amber ***********************-->
+		<ConfigSection>
+
+			<OptionChoice name='AmberStoneDist' default='layeredVeins' displayState='shown' displayGroup='groupThaumcraft'>
+				<Description> Controls how Amber is generated </Description>
+				<DisplayName>Amber Type</DisplayName>
+				<Choice value='layeredVeins' displayValue='Veins'>
+					<Description>
+						Concentrated veins of Amber ore.
+					</Description>
+				</Choice>
+				<Choice value='strategicClouds' displayValue='Clouds'>
+					<Description>
+						Rare, sparsely populated clouds of ore extending over several chunks.
+					</Description>
+				</Choice>
+				<Choice value='none' displayValue='None' description='No Amber is generated at all.'/>
+			</OptionChoice>
+
+			<OptionNumeric name='AmberStoneFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Frequency multiplier for Amber distributions </Description>
+				<DisplayName>Amber Freq.</DisplayName>
+			</OptionNumeric>
+
+			<OptionNumeric name='AmberStoneSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Size multiplier for Amber distributions </Description>
+				<DisplayName>Amber Size</DisplayName>
+			</OptionNumeric>
+
+			<IfCondition condition=':= AmberStoneDist != "disabled"'>
+				<MystcraftSymbol name='AmberClusters' displayName='Amber Clusters'/>
+				<MystcraftSymbol name='AmberVeins' displayName='Amber Veins'/>
+				<MystcraftSymbol name='AmberClouds' displayName='Amber Clouds'>
+					<Instability>:= 50 * (age.AmberClusters + age.AmberVeins + age.AmberClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Cinnabar ***********************-->
+		<ConfigSection>
+
+			<OptionChoice name='CinnabarDist' default='layeredVeins' displayState='shown' displayGroup='groupThaumcraft'>
+			<Description> Controls how Cinnabar is generated </Description>
+			<DisplayName>Cinnabar Type</DisplayName>
+			<Choice value='layeredVeins' displayValue='Veins'>
+				<Description>
+					Concentrated veins of Cinnabar ore.
+				</Description>
+			</Choice>
+			<Choice value='strategicClouds' displayValue='Clouds'>
+				<Description>
+					Rare, sparsely populated clouds of ore extending over several chunks.
+				</Description>
+			</Choice>
+			<Choice value='vanillaStdGen' displayValue='Clusters'>
+				<Description>
+					Small evenly scattered
+                                        clusters of ore. This is the
+                                        standard Cinnabar generation.
+				</Description>
+			</Choice>
+			<Choice value='none' displayValue='None' description='No Cinnabar is generated at all.'/>
+			</OptionChoice>
+
+			<OptionNumeric name='CinnabarFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Frequency multiplier for Cinnabar distributions </Description>
+				<DisplayName>Cinnabar Freq.</DisplayName>
+			</OptionNumeric>
+
+			<OptionNumeric name='CinnabarSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Size multiplier for Cinnabar distributions </Description>
+				<DisplayName>Cinnabar Size</DisplayName>
+			</OptionNumeric>
+
+			<IfCondition condition=':= CinnabarDist != "disabled"'>
+				<MystcraftSymbol name='CinnabarClusters' displayName='Cinnabar Clusters'/>
+				<MystcraftSymbol name='CinnabarVeins' displayName='Cinnabar Veins'/>
+				<MystcraftSymbol name='CinnabarClouds' displayName='Cinnabar Clouds'>
+					<Instability>:= 50 * (age.CinnabarClusters + age.CinnabarVeins + age.CinnabarClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Infused Stone ***********************-->
+		<ConfigSection>
+
+			<OptionChoice name='InfusedStoneDist' default='layeredVeins' displayState='shown' displayGroup='groupThaumcraft'>
+			<Description> Controls how Infused Stone is generated </Description>
+			<DisplayName>Infused Stone Type</DisplayName>
+			<Choice value='layeredVeins' displayValue='Veins'>
+				<Description>
+					Concentrated veins of Infused Stone.
+				</Description>
+			</Choice>
+			<Choice value='strategicClouds' displayValue='Clouds'>
+				<Description>
+					Rare, sparsely populated clouds of ore extending over several chunks.
+				</Description>
+			</Choice>
+			<Choice value='vanillaStdGen' displayValue='Clusters'>
+				<Description>
+					Small evenly scattered clusters of ore. This is the standard Infused Stone generation.
+				</Description>
+			</Choice>
+			<Choice value='none' displayValue='None' description='No Infused Stone is generated at all.'/>
+			</OptionChoice>
+
+			<OptionNumeric name='InfusedStoneFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Frequency multiplier for Infused Stone distributions </Description>
+				<DisplayName>Infused Stone Freq.</DisplayName>
+			</OptionNumeric>
+
+			<OptionNumeric name='InfusedStoneSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupThaumcraft'>
+				<Description> Size multiplier for Infused Stone distributions </Description>
+				<DisplayName>Infused Stone Size</DisplayName>
+			</OptionNumeric>
+
+			<!-- Air Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='AirInfusedStoneClusters' displayName='Air Infused Stone Clusters'/>
+				<MystcraftSymbol name='AirInfusedStoneVeins' displayName='Air Infused Stone Veins'/>
+				<MystcraftSymbol name='AirInfusedStoneClouds' displayName='Air Infused Stone Clouds'>
+					<Instability>:= 50 * (age.AirInfusedStoneClusters + age.AirInfusedStoneVeins + age.AirInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+			
+			<!-- Fire Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='FireInfusedStoneClusters' displayName='Fire Infused Stone Clusters'/>
+				<MystcraftSymbol name='FireInfusedStoneVeins' displayName='Fire Infused Stone Veins'/>
+				<MystcraftSymbol name='FireInfusedStoneClouds' displayName='Fire Infused Stone Clouds'>
+					<Instability>:= 50 * (age.FireInfusedStoneClusters + age.FireInfusedStoneVeins + age.FireInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+			
+			<!-- Water Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='WaterInfusedStoneClusters' displayName='Water Infused Stone Clusters'/>
+				<MystcraftSymbol name='WaterInfusedStoneVeins' displayName='Water Infused Stone Veins'/>
+				<MystcraftSymbol name='WaterInfusedStoneClouds' displayName='Water Infused Stone Clouds'>
+					<Instability>:= 50 * (age.WaterInfusedStoneClusters + age.WaterInfusedStoneVeins + age.WaterInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+			
+			<!-- Earth Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='EarthInfusedStoneClusters' displayName='Earth Infused Stone Clusters'/>
+				<MystcraftSymbol name='EarthInfusedStoneVeins' displayName='Earth Infused Stone Veins'/>
+				<MystcraftSymbol name='EarthInfusedStoneClouds' displayName='Earth Infused Stone Clouds'>
+					<Instability>:= 50 * (age.EarthInfusedStoneClusters + age.EarthInfusedStoneVeins + age.EarthInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+			
+			<!-- Order Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='OrderInfusedStoneClusters' displayName='Order Infused Stone Clusters'/>
+				<MystcraftSymbol name='OrderInfusedStoneVeins' displayName='Order Infused Stone Veins'/>
+				<MystcraftSymbol name='OrderInfusedStoneClouds' displayName='Order Infused Stone Clouds'>
+					<Instability>:= 50 * (age.OrderInfusedStoneClusters + age.OrderInfusedStoneVeins + age.OrderInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+			
+			<!-- Entropy Infused Stone -->
+			<IfCondition condition=':= InfusedStoneDist != "disabled"'>
+				<MystcraftSymbol name='EntropyInfusedStoneClusters' displayName='Entropy Infused Stone Clusters'/>
+				<MystcraftSymbol name='EntropyInfusedStoneVeins' displayName='Entropy Infused Stone Veins'/>
+				<MystcraftSymbol name='EntropyInfusedStoneClouds' displayName='Entropy Infused Stone Clouds'>
+					<Instability>:= 50 * (age.EntropyInfusedStoneClusters + age.EntropyInfusedStoneVeins + age.EntropyInfusedStoneClouds - 1)^3</Instability>
+				</MystcraftSymbol>
+			</IfCondition>
+
+		</ConfigSection>
+
+	</ConfigSection>
+
+	<!--***************************** Distributions *************************************
+	*
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+	*
+	*************************************************************************************-->
+	<IfCondition condition=':= ?COGActive'>
+
+		<!--********** Vanilla Deposit Removal *************-->
+		<Substitute name='ThaumOreSubstitute' block='minecraft:stone'>
+			<Description>
+				Replace vanilla-generated ore clusters with stone.
+			</Description>
+			<Comment>
+				The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+			</Comment>
+			<Replaces block='Thaumcraft:blockCustomOre'/>
+			<Comment>
+				The above is the block that contains all the ores used in Thamucraft.
+			</Comment>
+		</Substitute>
+
+		<!--******************* Amber ***********************-->
+		<ConfigSection>
+			
+			<IfCondition condition=':= if(age, age.AmberVeins > 0, AmberStoneDist = "layeredVeins")'>
+				<Veins name='AmberVeins' block='Thaumcraft:blockCustomOre:7' inherits='PresetSmallDeposits'>
+					<Description>
+						Small deposits of amber that spawn in most Biomes.  Appears more commonly in Mountain Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FF7E00</WireframeColor>
+					<Setting
+                                            name='MotherlodeFrequency'
+                                            avg=':= 3 * AmberStoneFreq * if(age,age.AmberVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize' avg=':= AmberStoneSize * _default_' range=':= AmberStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 56/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+				</Veins>
+				<Veins name='AmberVeinsMountain' inherits='AmberVeins'>
+					<Description> This roughly triples the chance of finding Amber in Mountain biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 80/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<BiomeType name='Mountain'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.AmberClouds > 0, AmberStoneDist = "strategicClouds")'>
+				<Cloud name='AmberCloud' block='Thaumcraft:blockCustomOre:7' inherits='PresetStrategicCloud'>
+					<Description>
+						Diffuse Amber cloud surrounded by single-block "hint" veins, found in Mountain biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FF7E00</WireframeColor>
+					<Setting name='DistributionFrequency' avg=':= 2.5 * AmberStoneFreq * if(age,age.AmberClouds,1) * _default_'/>
+					<Setting name='CloudRadius' avg=':= AmberStoneSize * _default_' range=':= AmberStoneSize * _default_'/>
+					<Setting name='CloudThickness' avg=':= AmberStoneSize * _default_' range=':= AmberStoneSize * _default_'/>
+					<BiomeType name='Mountain'/>
+					<Veins name='AmberHintVeins' block='Thaumcraft:blockCustomOre:7' inherits='PresetHintVeins'>
+						<DrawWireframe>:=drawWireframes</DrawWireframe>
+						<WireframeColor>0x40FF7E00</WireframeColor>
+						<Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+						<Setting name='MotherlodeRangeLimit' avg=':= AmberStoneSize * _default_' range=':= AmberStoneSize * _default_'/>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Cinnabar ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.CinnabarClusters > 0, CinnabarDist = "vanillaStdGen")'>
+				<StandardGen name='CinnabarStandard' block='Thaumcraft:blockCustomOre:0' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Cinnabar distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40E44D2E</WireframeColor>
+					<Setting name='Size'
+                                                 avg=':= 1/6 * CinnabarSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * CinnabarFreq * if(age,age.CinnabarClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 52/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.CinnabarVeins > 0, CinnabarDist = "layeredVeins")'>
+				<Veins name='CinnabarVeins' block='Thaumcraft:blockCustomOre:0' inherits='PresetSparseVeins'>
+				  <Description>
+				    Cinnabar in rare veins just under the surface.  It is more common in Ocean Biomes.
+				  </Description>
+				  <DrawWireframe>:=drawWireframes</DrawWireframe>
+				  <WireframeColor>0x40E44D2E</WireframeColor>
+				  <Setting name='MotherlodeFrequency' avg=':= 3.0 * CinnabarFreq * if(age,age.CinnabarVeins,1) * _default_'/>
+                                  <Setting name='MotherlodeSize' avg=':= 0.8 * CinnabarSize * _default_' range=':= 0.8 * CinnabarSize * _default_'/>
+                                  <Setting name='MotherlodeHeight' avg=':= 50/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                                  <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                  <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                  <Setting name='BranchHeightLimit' avg='12'/>
+                                  <Setting name='SegmentRadius' avg=':= 0.6 * CinnabarSize * _default_' range=':= 0.6 * CinnabarSize * _default_'/>
+                                  <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='CinnabarVeinsOcean' inherits='CinnabarVeins'>
+				  <Description> This roughly triples the chance of finding Cinnabar in ocean biomes. </Description>
+				  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+				  <Setting
+                                      name='MotherlodeHeight'
+                                      avg=':= 0.5 * _default_'
+                                      range=':= 0.5 * _default_'/>
+				  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+				  <BiomeType name='ocean'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.CinnabarClouds > 0, CinnabarDist = "strategicClouds")'>
+				<Cloud name='CinnabarCloud' block='Thaumcraft:blockCustomOre:0' inherits='PresetStrategicCloud'>
+					<Description>
+						Diffuse Cinnabar cloud surrounded by single-block "hint" veins, found in ocean biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40E44D2E</WireframeColor>
+					<Setting name='DistributionFrequency' avg=':= 4.5 * CinnabarFreq * if(age,age.CinnabarClouds,1) * _default_'/>
+                                        <Setting name='CloudRadius' avg=':= 0.5 * CinnabarSize * _default_' range=':= 0.5 * CinnabarSize * _default_'/>
+                                        <Setting name='CloudThickness' avg=':= 0.5 * CinnabarSize * _default_' range=':= 0.5 * CinnabarSize * _default_'/>                
+                                        <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<BiomeType name='ocean'/>
+                                        <Setting name='CloudHeight' avg=':= 24/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel' type='normal'/>
+					<Veins name='CinnabarHintVeins' block='Thaumcraft:blockCustomOre:0' inherits='PresetHintVeins'>
+						<DrawWireframe>:=drawWireframes</DrawWireframe>
+						<WireframeColor>0x40E44D2E</WireframeColor>
+						<Setting name='MotherlodeRangeLimit' avg=':= 0.5 * CinnabarSize * _default_' range=':= 0.5 * CinnabarSize * _default_'/>
+                                                <Setting name='MotherlodeHeight' avg=':= 24/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel' type='normal'/>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+
+                <CloudPreset name='InfusedStoneCloud' block='Thaumcraft:blockCustomOre:1' inherits='PresetStrategicCloud'>
+		  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <Setting name='DistributionFrequency' avg=':= 4.5 * InfusedStoneFreq * _default_'/>
+                  <Setting name='CloudRadius' avg=':= 0.5 * InfusedStoneSize * _default_' range=':= 0.5 * InfusedStoneSize * _default_'/>
+                  <Setting name='CloudThickness' avg=':= 0.5 * InfusedStoneSize * _default_' range=':= 0.5 * InfusedStoneSize * _default_'/>
+                  <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+		</CloudPreset>
+
+                <VeinsPreset name='InfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:0' inherits='PresetHintVeins'>
+		  <DrawWireframe>:=drawWireframes</DrawWireframe>
+		  <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+		  <Setting name='MotherlodeRangeLimit' avg=':= 0.5 * InfusedStoneSize * _default_' range=':= 0.5 * InfusedStoneSize * _default_'/>
+		</VeinsPreset>
+                
+		<!--******************* Air Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.AirInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='AirInfusedStoneStandard' block='Thaumcraft:blockCustomOre:1' inherits='PresetStandardGen'>
+					<Description>
+                                          Equivalent to default
+                                          Infused Stone distribution
+                                        </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FFCC00</WireframeColor>
+					<Setting name='Size' avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.AirInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.AirInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='AirInfusedStoneVeins' block='Thaumcraft:blockCustomOre:1' inherits='PresetSparseVeins'>
+					<Description>
+					  Air infused stone is
+					  concentrated in the plains.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FFCC00</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.AirInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='AirInfusedStoneVeinsPlains' inherits='AirInfusedStoneVeins'>
+					<Description> This roughly triples the chance of finding Infused Stone in Plains biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Plains'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.AirInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='AirInfusedStoneCloud' block='Thaumcraft:blockCustomOre:1' inherits='InfusedStoneCloud'>
+					<Description>
+					  Diffuse Air Infused Stone
+                                          cloud surrounded by
+                                          single-block "hint" veins,
+                                          found mainly in Plains Biomes.
+					</Description>
+					<WireframeColor>0x40FFCC00</WireframeColor>
+                                        <Setting name='DistributionFrequency' avg=':= if(age,age.InfusedStoneClouds,1) * _default_'/>
+                                        <BiomeType name='Plains'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='AirInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:0' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x40FFCC00</WireframeColor>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+		
+		<!--******************* Fire Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.FireInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='FireInfusedStoneStandard' block='Thaumcraft:blockCustomOre:2' inherits='PresetStandardGen'>
+					<Description> Equivalent to default Fire Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CC0000</WireframeColor>
+					<Setting name='Size'
+                                                 avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.FireInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.FireInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='FireInfusedStoneVeins' block='Thaumcraft:blockCustomOre:2' inherits='PresetSparseVeins'>
+					<Description>
+						Infused Stone spawns in the height 0-64 range. The veins are average in length and size.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CC0000</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.FireInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='FireInfusedStoneVeinsDesert' inherits='FireInfusedStoneVeins'>
+					<Description> This roughly
+					triples the chance of finding
+					Fire Infused Stone in Desert
+					biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Sandy'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.FireInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='FireInfusedStoneCloud' block='Thaumcraft:blockCustomOre:2' inherits='InfusedStoneCloud'>
+					<Description>
+						Diffuse Fire Infused
+						Stone cloud surrounded
+						by single-block "hint"
+						veins, found mainly in
+						Desert Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CC0000</WireframeColor>
+                                        <Setting name='DistributionFrequency' avg=':= if(age,age.FireInfusedStoneClouds,1) * _default_'/>
+					<BiomeType name='Sandy'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='FireInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:2' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x40CC0000</WireframeColor>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Water Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.WaterInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='WaterInfusedStoneStandard' block='Thaumcraft:blockCustomOre:3' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Water Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40129793</WireframeColor>
+					<Setting name='Size'
+                                                 avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.WaterInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.WaterInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='WaterInfusedStoneVeins' block='Thaumcraft:blockCustomOre:3' inherits='PresetSparseVeins'>
+					<Description>
+						Veins of Water Infused Stone.  Found more commonly under Ocean Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40129793</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.WaterInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='WaterInfusedStoneVeinsWater' inherits='WaterInfusedStoneVeins'>
+					<Description> This roughly triples the chance of finding Infused Stone in Water biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Water'/>
+                                        <Setting name='MotherlodeHeight' avg=':= 25/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.WaterInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='WaterInfusedStoneCloud' block='Thaumcraft:blockCustomOre:3' inherits='InfusedStoneCloud'>
+					<Description>
+						Diffuse Water Infused
+						Stone cloud surrounded
+						by single-block "hint"
+						veins, found mainly in
+						Water Biomes.
+					</Description>
+					<WireframeColor>0x40129793</WireframeColor>
+                                        <Setting name='CloudHeight' avg=':= 25/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='DistributionFrequency' avg=':= if(age,age.WaterInfusedStoneClouds,1) * _default_'/>
+					<BiomeType name='Water'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='WaterInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:3' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x40129793</WireframeColor>
+                                                <Setting name='MotherlodeHeight' avg=':= 25/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Earth Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.EarthInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='EarthInfusedStoneStandard' block='Thaumcraft:blockCustomOre:4' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Earth Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x407ABA7A</WireframeColor>
+					<Setting name='Size' avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.EarthInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.EarthInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='EarthInfusedStoneVeins' block='Thaumcraft:blockCustomOre:4' inherits='PresetSparseVeins'>
+					<Description>
+						Veins of Earth Infused Stone.  Found more commonly under Mountain Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x407ABA7A</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.EarthInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='EarthInfusedStoneVeinsMountain' inherits='EarthInfusedStoneVeins'>
+					<Description> This roughly triples the chance of finding Infused Stone in Mountain biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 80/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Mountain'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.EarthInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='EarthInfusedStoneCloud' block='Thaumcraft:blockCustomOre:4' inherits='InfusedStoneCloud'>
+					<Description>
+						Diffuse Earth Infused
+						Stone cloud surrounded
+						by single-block "hint"
+						veins, found mainly in
+						Mountain Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x407ABA7A</WireframeColor>
+                                        <Setting name='CloudHeight' avg=':= 80/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='DistributionFrequency' avg=':= if(age,age.EarthInfusedStoneClouds,1) * _default_'/>
+					<BiomeType name='Mountain'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='EarthInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:4' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x407ABA7A</WireframeColor>
+                                                <Setting name='MotherlodeHeight' avg=':= 80/64 * dimension.groundLevel' range=':= 40/64 * dimension.groundLevel' type='normal'/>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+
+		<!--******************* Order Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.OrderInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='OrderInfusedStoneStandard' block='Thaumcraft:blockCustomOre:5' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Order Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CCCCCC</WireframeColor>
+					<Setting name='Size' avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.OrderInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 54/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.OrderInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='OrderInfusedStoneVeins' block='Thaumcraft:blockCustomOre:5' inherits='PresetSparseVeins'>
+					<Description>
+						Veins of Order Infused Stone.  Found more commonly under Magic Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CCCCCC</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.OrderInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='OrderInfusedStoneVeinsMagic' inherits='OrderInfusedStoneVeins'>
+					<Description> This roughly triples the chance of finding Infused Stone in Magic biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Magic'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.OrderInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='OrderInfusedStoneCloud' block='Thaumcraft:blockCustomOre:5' inherits='InfusedStoneCloud'>
+					<Description>
+						Diffuse Order Infused
+						Stone cloud surrounded
+						by single-block "hint"
+						veins, found mainly in
+						Magic Biomes.
+					</Description>
+					<WireframeColor>0x40CCCCCC</WireframeColor>
+					<Setting name='DistributionFrequency' avg=':= if(age,age.OrderInfusedStoneClouds,1) * _default_'/>
+					<BiomeType name='Magic'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='OrderInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:5' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x40CCCCCC</WireframeColor>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+		
+		<!--******************* Entropy Infused Stone ***********************-->
+		<ConfigSection>
+
+			<IfCondition condition=':= if(age, age.EntropyInfusedStoneClusters > 0, InfusedStoneDist = "vanillaStdGen")'>
+				<StandardGen name='EntropyInfusedStoneStandard' block='Thaumcraft:blockCustomOre:6' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Entropy Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40666666</WireframeColor>
+					<Setting name='Size' avg=':= 1/6 * InfusedStoneSize'/>
+					<Setting name='Frequency'
+                                                 avg=':= 1/10 * InfusedStoneFreq * if(age,age.EntropyInfusedStoneClusters,1) * _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.EntropyInfusedStoneVeins > 0, InfusedStoneDist = "layeredVeins")'>
+				<Veins name='EntropyInfusedStoneVeins' block='Thaumcraft:blockCustomOre:6' inherits='PresetSparseVeins'>
+					<Description>
+						Veins of Entropy Infused Stone.  Found more commonly under Magic Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40666666</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= InfusedStoneFreq * if(age,age.EntropyInfusedStoneVeins,1) * _default_'/>
+					<Setting name='MotherlodeSize'
+                                                 avg=':= 0.75 * InfusedStoneSize * _default_'
+                                                 range=':= 0.75 * InfusedStoneSize * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                                        <Setting name='BranchInclination' avg='0' range='0.35'/>
+                                        <Setting name='BranchHeightLimit' avg='12'/>
+                                        <Setting name='SegmentRadius' avg=':= 0.6 * InfusedStoneSize * _default_' range=':= 0.6 * InfusedStoneSize * _default_'/>
+                                        <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='EntropyInfusedStoneVeinsMagic' inherits='EntropyInfusedStoneVeins'>
+					<Description> This roughly triples the chance of finding Infused Stone in Magic biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Magic'/>
+				</Veins>
+			</IfCondition>
+
+			<IfCondition condition=':= if(age, age.EntropyInfusedStoneClouds > 0, InfusedStoneDist = "strategicClouds")'>
+				<Cloud name='EntropyInfusedStoneCloud' block='Thaumcraft:blockCustomOre:6' inherits='InfusedStoneCloud'>
+					<Description>
+						Diffuse Entropy
+                                                Infused Stone cloud
+                                                surrounded by
+                                                single-block "hint"
+                                                veins, found in mainly
+                                                Magic Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40666666</WireframeColor>
+					<Setting name='DistributionFrequency' avg=':= if(age,age.EntropyInfusedStoneClouds,1) * _default_'/>
+					<BiomeType name='Magic'/>
+                                        <Biome name='.*' weight='0.2'/>
+					<Veins name='EntropyInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:6' inherits='InfusedStoneHintVeins'>
+						<WireframeColor>0x40666666</WireframeColor>
+					</Veins>
+				</Cloud>
+			</IfCondition>
+
+		</ConfigSection>
+		
+		</IfCondition>
+
+</IfModInstalled>

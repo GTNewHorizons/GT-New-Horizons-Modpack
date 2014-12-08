@@ -1,0 +1,210 @@
+
+<!--**************  CustomOreGen Factorization Ores Module ***********************
+* 
+*   This file contains Presets, Options, and Distributions for Factorization ores.
+*
+******************************************************************************--> 
+
+<!-- 
+Ores included in this configuration: 
+
+Silver, Dark Iron
+-->
+<IfModInstalled name='factorization'>
+<ConfigSection>
+
+    <!-- Options and Symbols -->
+
+    <ConfigSection> 
+        <OptionDisplayGroup name='groupfactorization' displayName='Factorization Ores' displayState='shown'> 
+            <Description> 
+                Distribution options for Factorization Ores.
+            </Description>
+        </OptionDisplayGroup>
+    
+         <ConfigSection>
+          
+          <!-- Silver Configuration UI -->
+          
+          <OptionChoice name='factSilverDist' default='layeredVeins' displayState='shown' displayGroup='groupfactorization'> 
+              <Description> Controls how Silver is generated </Description> 
+              <DisplayName>Factorization Silver Type</DisplayName>
+              <Choice value='layeredVeins' displayValue='Veins'>
+                  <Description>
+                      Veins of Ore leading to a Motherlode.  Most realistic placement. 
+                  </Description>
+              </Choice>
+              <Choice value='strategicClouds' displayValue='Clouds'>
+                  <Description>
+                      Rare, sparsely populated clouds of ore extending over several chunks.
+                  </Description>
+              </Choice>
+              <Choice value='vanillaStdGen' displayValue='Clusters'>
+                  <Description>
+                      Small evenly scattered clusters of ore.  This is the vanilla Silver generation.
+                  </Description>
+              </Choice>
+              <Choice value='none' displayValue='None' description='No Silver is generated at all.'/>
+          </OptionChoice>
+            
+          <OptionNumeric name='factSilverFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupfactorization'>
+              <Description> Frequency multiplier for Factorization Silver distributions </Description>
+              <DisplayName>Factorization Silver Freq.</DisplayName>
+          </OptionNumeric>
+            
+          <OptionNumeric name='factSilverSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupfactorization'>
+              <Description> Size multiplier for Factorization Silver distributions </Description>
+              <DisplayName>Factorization Silver Size</DisplayName>
+          </OptionNumeric>
+           <!-- Silver Mystcraft Symbols -->
+      
+          <MystcraftSymbol name='factSilverClusters' displayName='Silver Clusters'/>
+          <MystcraftSymbol name='factSilverVeins' displayName='Silver Veins'/>
+          <MystcraftSymbol name='factSilverClouds' displayName='Silver Clouds'>
+              <Instability>:= 50 * (age.factSilverClusters + age.factSilverVeins + age.factSilverClouds - 1)^3</Instability>
+          </MystcraftSymbol>
+          
+         </ConfigSection>
+
+         <ConfigSection>
+           <OptionChoice name='factDarkIronDist' default='layeredVeins' displayState='shown' displayGroup='groupfactorization'> 
+             <Description> Controls how Dark Iron is generated </Description> 
+             <DisplayName>Factorization Dark Iron</DisplayName>
+             <Choice value='layeredVeins' displayValue='Veins'>
+               <Description>
+                 Veins of Ore leading to a Motherlode.  Most realistic placement. 
+               </Description>
+             </Choice>
+             <Choice value='none' displayValue='None'
+                     description='No Dark Iron is generated at all.'/>
+           </OptionChoice>
+           
+           <OptionNumeric name='factDarkIronFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupfactorization'>
+             <Description> Frequency multiplier for Factorization Dark
+             Iron distributions </Description>
+             <DisplayName>Factorization Dark Iron Freq.</DisplayName>
+           </OptionNumeric>
+           
+           <OptionNumeric name='factDarkIronSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupfactorization'>
+             <Description> Size multiplier for Factorization Dark Iron distributions </Description>
+             <DisplayName>Factorization Dark Iron Size</DisplayName>
+           </OptionNumeric>
+
+         </ConfigSection>
+    </ConfigSection> 
+    
+    <IfCondition condition=':= ?COGActive'>
+    
+        <!-- Normal World Deposit Removal -->
+        <Substitute name='factorizationOreSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace default-generated Factorization ore clusters with stone.
+            </Description>
+            <Comment>
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32)
+            </Comment>
+            <Replaces block='factorization:ResourceBlock'/>
+            <Replaces block='factorization:DarkIronOre'/>
+        </Substitute>
+                <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.factSilverClusters > 0, factSilverDist = "vanillaStdGen")'>
+                <StandardGen name='factSilverStandard' block='factorization:ResourceBlock' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to vanilla minecraft Silver distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> 
+                    <Setting name='Size' avg=':= factSilverSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * factSilverFreq * if(age,age.factSilverClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 16/64 * dimension.groundLevel' range=':= 16/64 * dimension.groundLevel'/>
+                </StandardGen> 
+            </IfCondition>
+                
+            <IfCondition condition=':= if(age, age.factSilverVeins > 0, factSilverDist = "layeredVeins")'>
+                <Veins name='factSilverVeins' block='factorization:ResourceBlock' inherits='PresetLayeredVeins'> 
+                    <Description> 
+                        Silver spawns in the height 10-30 range.  The veins are shorter than average,
+                        and much rarer overall.  Silver is not easy to find.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * factSilverFreq * if(age,age.factSilverVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.8 * factSilverSize * _default_' range=':= 0.5 * factSilverSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>  
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.7 * factSilverSize * _default_' range=':= 0.5 * factSilverSize * _default_'/>
+                    <Setting name='SegmentAngle' avg='0.6' range='0.40' /> 
+                </Veins>
+            </IfCondition>
+                
+            <IfCondition condition=':= if(age, age.factSilverClouds > 0, factSilverDist = "strategicClouds")'>
+                <Cloud name='factSilverCloud' block='factorization:ResourceBlock' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse Silver cloud surrounded by single-block "hint" veins.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4.5 * factSilverFreq * if(age,age.factSilverClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.8 * factSilverSize * _default_' range=':= 0.8 * factSilverSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.8 * factSilverSize * _default_' range=':= factSilverSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 0.3 * _default_'/> 
+                    <Veins name='factSilverHintVeins' block='factorization:ResourceBlock' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x609447a8</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg=':= 0.3 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.75 * factSilverSize * _default_' range=':= 0.65 * factSilverSize * _default_'/>
+                    </Veins>             
+                </Cloud>
+            </IfCondition> 
+        </ConfigSection>
+
+        <ConfigSection>
+
+          <IfCondition condition=':= factDarkIronDist = "layeredVeins"'>
+            
+          <Veins name='DarkIronVeins' block='factorization:DarkIronOre' inherits='PresetVerticalVeins'>
+            <Description>
+              Isolated veins (no motherlodes) that run
+              vertically. These veins are fairly common, but a
+              challenge to mine because you have to tunnel straight
+              down.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40550000</WireframeColor>
+            <Setting name='MotherlodeFrequency'
+                     avg=':= 1.3 * factDarkIronFreq * _default_'/>
+            <Setting name='MotherlodeHeight' avg='8' range='2'/>
+            <Setting name='MotherlodeRangeLimit' avg='8' range='2'
+                     type='normal'/>
+            <Setting name='MotherlodeSize'
+                     avg=':= factDarkIronSize * _default_' range=':= _default_'/>
+            <Setting name='SegmentRadius'
+                     avg=':= factDarkIronSize * _default_' range=':= _default_'/>
+            <Setting name='BranchLength' avg='8' range='2' type='normal'/>
+            <ReplacesOre block='stone'/>
+            <Replaces block='minecraft:bedrock' />
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:gravel'/>
+          </Veins>
+          <Veins name='DarkIronVeinsDesert' inherits='DarkIronVeins'>
+            <Description>
+              This roughly triples the chance of finding redstone in
+              deserts.
+            </Description>
+            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+            <ReplacesOre block='stone'/>
+            <Replaces block='minecraft:bedrock' />
+            <Replaces block='minecraft:dirt'/>
+            <Replaces block='minecraft:gravel'/>
+            <BiomeType name='Sandy'/>
+          </Veins>
+
+          </IfCondition>
+          
+        </ConfigSection>
+
+    </IfCondition>
+    
+</ConfigSection>
+</IfModInstalled>

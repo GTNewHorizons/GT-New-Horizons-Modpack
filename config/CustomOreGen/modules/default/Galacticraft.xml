@@ -1,0 +1,538 @@
+
+<!--**************  CustomOreGen Factorization Ores Module ***********************
+* 
+*   This file contains Presets, Options, and Distributions for GalacticCraft ores.
+*
+******************************************************************************--> 
+
+<!-- 
+Ores included in this configuration: 
+
+Aluminum
+Copper
+Tin
+Silicon
+-->
+<IfModInstalled name='GalacticraftCore'>
+<ConfigSection>
+
+    <!-- Options and Symbols -->
+
+    <ConfigSection> 
+        <OptionDisplayGroup name='groupgalacticraft' displayName='Galacticraft Ores' displayState='shown'> 
+            <Description> 
+                Distribution options for Galacticraft Ores.
+            </Description>
+        </OptionDisplayGroup>
+    
+    <!--******************* Aluminum ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='galactAluminumDist' default='layeredVeins' displayState='shown' displayGroup='groupgalacticraft'>
+	<Description> Controls how Aluminum is generated </Description>
+	<DisplayName>GC Aluminum Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of aluminum ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla aluminum generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No aluminum is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No aluminum is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='galactAluminumFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Frequency multiplier for aluminum distributions </Description>
+	<DisplayName>GC Aluminum Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='galactAluminumSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Size multiplier for aluminum distributions </Description>
+	<DisplayName>GC Aluminum Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= galactAluminumDist != "disabled"'>
+	<MystcraftSymbol name='galactAluminumClusters' displayName='GC Aluminum Clusters'/>
+	<MystcraftSymbol name='galactAluminumVeins' displayName='GC Aluminum Veins'/>
+	<MystcraftSymbol name='galactAluminumClouds' displayName='GC Aluminum Clouds'>
+	  <Instability>:= 50 * (age.galactAluminumClusters + age.galactAluminumVeins + age.galactAluminumClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Copper ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='galactCopperDist' default='layeredVeins' displayState='shown' displayGroup='groupgalacticraft'>
+	<Description> Controls how copper is generated </Description>
+	<DisplayName>GC Copper Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of copper ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla copper generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No copper is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='galactCopperFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Frequency multiplier for copper distributions </Description>
+	<DisplayName>GC Copper Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='galactCopperSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Size multiplier for copper distributions </Description>
+	<DisplayName>GC Copper Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= galactCopperDist != "disabled"'>
+	<MystcraftSymbol name='galactCopperClusters' displayName='GC Copper Clusters'/>
+	<MystcraftSymbol name='galactCopperVeins' displayName='GC Copper Veins'/>
+	<MystcraftSymbol name='galactCopperClouds' displayName='GC Copper Clouds'>
+	  <Instability>:= 50 * (age.galactCopperClusters + age.galactCopperVeins + age.galactCopperClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Tin ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='galactTinDist' default='layeredVeins' displayState='shown' displayGroup='groupgalacticraft'>
+	<Description> Controls how tin is generated </Description>
+	<DisplayName>GC Tin Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of tin ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla tin generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No tin is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='galactTinFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Frequency multiplier for tin distributions </Description>
+	<DisplayName>GC Tin Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='galactTinSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+	<Description> Size multiplier for tin distributions </Description>
+	<DisplayName>GC Tin Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= galactTinDist != "disabled"'>
+	<MystcraftSymbol name='galactTinClusters' displayName='GC Tin Clusters'/>
+	<MystcraftSymbol name='galactTinVeins' displayName='GC Tin Veins'/>
+	<MystcraftSymbol name='galactTinClouds' displayName='GC Tin Clouds'>
+	  <Instability>:= 50 * (age.galactTinClusters + age.galactTinVeins + age.galactTinClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+
+         <ConfigSection>
+          
+    <!--***************** Silicon *********************-->
+          
+          <OptionChoice name='galactSiliconDist' default='layeredVeins' displayState='shown' displayGroup='groupgalacticraft'> 
+              <Description> Controls how Silicon is generated </Description> 
+              <DisplayName>GC Silicon Type</DisplayName>
+              <Choice value='layeredVeins' displayValue='Veins'>
+                  <Description>
+                      Short sand-filled tubes extending upward from bedrock with ore around the edges.  More common under the desert. 
+                  </Description>
+              </Choice>
+              <Choice value='strategicClouds' displayValue='Clouds'>
+                  <Description>
+                      Rare, sparsely populated clouds of ore extending over several chunks.
+                  </Description>
+              </Choice>
+              <Choice value='vanillaStdGen' displayValue='Clusters'>
+                  <Description>
+                      Rare, small evenly scattered clusters of ore near bedrock.  This is the vanilla Silicon generation.
+                  </Description>
+              </Choice>
+              <Choice value='none' displayValue='None' description='No silicon is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No silicon is generated, and no Mystcraft symbols are available.'/>
+          </OptionChoice>
+            
+          <OptionNumeric name='galactSiliconFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+              <Description> Frequency multiplier for Galacticraft Silicon distributions </Description>
+              <DisplayName>GC Silicon Freq.</DisplayName>
+          </OptionNumeric>
+            
+          <OptionNumeric name='galactSiliconSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupgalacticraft'>
+              <Description> Size multiplier for Galacticraft Silicon distributions </Description>
+              <DisplayName>GC Silicon Size</DisplayName>
+          </OptionNumeric>
+           <!-- Silicon Mystcraft Symbols -->
+      
+          <MystcraftSymbol name='galactSiliconClusters' displayName='GC Silicon Clusters'/>
+          <MystcraftSymbol name='galactSiliconVeins' displayName='GC Silicon Veins'/>
+          <MystcraftSymbol name='galactSiliconClouds' displayName='GC Silicon Clouds'>
+              <Instability>:= 50 * (age.galactSiliconClusters + age.galactSiliconVeins + age.galactSiliconClouds - 1)^3</Instability>
+          </MystcraftSymbol>
+          
+         </ConfigSection>
+      </ConfigSection> 
+
+
+  <!--***************************** Distributions *************************************
+      *
+      *   Below are the actual distributions for the overworld and mystcraft ages.
+      *
+      *************************************************************************************-->
+    
+    <IfCondition condition=':= ?COGActive'>
+    
+        <!-- Normal World Deposit Removal -->
+        <Substitute name='galacticraftOreSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace default-generated Galacticraft ore clusters with stone.
+            </Description>
+            <Comment>
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32)
+		Copper (gcBlockCore:5), Tin (gcBlockCore:6), Aluminum (gcBlockCore:7), Silicon (gcBlockCore:8) respectively.
+            </Comment>
+            <Replaces block='GalacticraftCore:tile.gcBlockCore:5'/>
+            <Replaces block='GalacticraftCore:tile.gcBlockCore:6'/>
+            <Replaces block='GalacticraftCore:tile.gcBlockCore:7'/>
+            <Replaces block='GalacticraftCore:tile.gcBlockCore:8'/>
+        </Substitute>
+
+            <!--******************* Aluminum ***********************-->
+    <ConfigSection>
+      
+C      <IfCondition condition=':= if(age, age.galactAluminumClusters > 0, galactAluminumDist = "vanillaStdGen")'>
+	<StandardGen name='galactAluminumStandard' block='GalacticraftCore:tile.gcBlockCore:7' inherits='PresetStandardGen'>
+	  <Description>
+            Equivalent to standard aluminum distribution
+          </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='Size'
+                   avg=':= 3/4 * galactAluminumSize * _default_'/>
+	  <Setting name='Frequency'
+                   avg=':= 3/20 * galactAluminumFreq * if(age,age.galactAluminumClusters,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 35/64 * dimension.groundLevel'
+                   range=':= 30/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactAluminumVeins > 0, galactAluminumDist = "layeredVeins")'>
+	<Veins name='galactAluminumVeins' block='GalacticraftCore:tile.gcBlockCore:7' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Aluminum spawns in the height 0-64 range. The veins
+	    are a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * galactAluminumFreq * if(age,age.galactAluminumVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.6 * galactAluminumSize * _default_'
+                   range=':= 0.4 * galactAluminumSize * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.8 * _default_' range=':= 0.7 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.6 * galactAluminumSize * _default_'
+                   range=':= 0.5 * galactAluminumSize * _default_'/>
+	</Veins>
+	<Veins name='galactAluminumVeinsForest' inherits='galactAluminumVeins'>
+	  <Description> This roughly triples the chance of finding aluminum in forest biomes. </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Forest'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactAluminumClouds > 0, galactAluminumDist = "strategicClouds")'>
+	<Cloud name='galactAluminumCloud' block='GalacticraftCore:tile.gcBlockCore:7' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse aluminum cloud surrounded by single-block
+	    "hint" veins, found in forest biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 7 * galactAluminumFreq * if(age,age.aluminumClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.7 * galactAluminumSize * _default_'
+                   range=':= 0.7 * galactAluminumSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * galactAluminumSize * _default_'
+                   range=':= galactAluminumSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Forest'/>
+	  <Veins name='galactAluminumHintVeins' block='GalacticraftCore:tile.gcBlockCore:7' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x405555AA</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= galactAluminumSize * _default_' range=':= galactAluminumSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+
+    <!--******************* Copper ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.galactCopperClusters > 0, galactCopperDist = "vanillaStdGen")'>
+	<StandardGen name='galactCopperStandard' block='GalacticraftCore:tile.gcBlockCore:5' inherits='PresetStandardGen'>
+	  <Description> Equivalent to standard copper distribution </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='Size' avg=':= galactCopperSize * _default_'/>
+	  <Setting name='Frequency' avg=':= 1/10 * galactCopperFreq * if(age,age.galactCopperClusters,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactCopperVeins > 0, galactCopperDist = "layeredVeins")'>
+	<Veins name='galactCopperVeins' block='GalacticraftCore:tile.gcBlockCore:5' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Copper spawns in the height 20-60 range. The veins
+	    are a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * galactCopperFreq * if(age,age.galactCopperVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.8 * galactCopperSize * _default_'
+                   range=':= 0.5 * galactCopperSize * _default_'/>
+	  <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.7 * galactCopperSize * _default_'
+                   range=':= 0.5 * galactCopperSize * _default_'/>
+	</Veins>
+	<Veins name='galactCopperVeinsJungle' inherits='galactCopperVeins'>
+	  <Description>
+            This roughly triples the chance of finding copper in
+            jungle biomes.
+          </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Jungle'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactCopperClouds > 0, galactCopperDist = "strategicClouds")'>
+	<Cloud name='galactCopperCloud' block='GalacticraftCore:tile.gcBlockCore:5' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse copper cloud surrounded by single-block
+	    "hint" veins, found in jungle biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 4.5 * galactCopperFreq * if(age,age.galactCopperClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.8 * galactCopperSize * _default_'
+                   range=':= 0.8 * galactCopperSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * galactCopperSize * _default_'
+                   range=':= galactCopperSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Jungle'/>
+	  <Veins name='galactCopperHintVeins' block='GalacticraftCore:tile.gcBlockCore:5' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x40221100</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= galactCopperSize * _default_' range=':= galactCopperSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Tin ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.tinClusters > 0, galactTinDist = "vanillaStdGen")'>
+	<StandardGen name='galactTinStandard' block='GalacticraftCore:tile.gcBlockCore:6' inherits='PresetStandardGen'>
+	  <Description> Equivalent to vanilla minecraft tin distribution </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='Size' avg=':= galactTinSize * _default_'/>
+	  <Setting name='Frequency' avg=':= 1/10 * galactTinFreq * if(age,age.galactTinClusters,1) * _default_'/>
+	  <Setting name='Height' avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactTinVeins > 0, galactTinDist = "layeredVeins")'>
+	<Veins name='galactTinVeins' block='GalacticraftCore:tile.gcBlockCore:6' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Tin spawns in the height 0-40 range. The veins are
+	    a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * galactTinFreq * if(age,age.galactCopperVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.8 * galactTinSize * _default_'
+                   range=':= 0.5 * galactTinSize * _default_'/>
+	  <Setting name='MotherlodeHeight'
+                   avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'
+                   type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.7 * galactTinSize * _default_'
+                   range=':= 0.5 * galactTinSize * _default_'/>
+	</Veins>
+	<Veins name='galactTinVeinsPlains' inherits='galactTinVeins'>
+	  <Description> This roughly triples the chance of finding tin in plains biomes. </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Plains'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.galactTinClouds > 0, galactTinDist = "strategicClouds")'>
+	<Cloud name='galactTinCloud' block='GalacticraftCore:tile.gcBlockCore:6' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse tin cloud surrounded by single-block "hint"
+	    veins, found in plains biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 4.5 * galactTinFreq * if(age,age.galactTinClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.8 * galactTinSize * _default_'
+                   range=':= 0.8 * galactTinSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * galactTinSize * _default_'
+                   range=':= galactTinSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Plains'/>
+	  <Veins name='galactTinHintVeins' block='GalacticraftCore:tile.gcBlockCore:6' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x40AAAAAA</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= galactTinSize * _default_' range=':= galactTinSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+
+    <!--***************** Silicon *********************-->
+
+        <ConfigSection>
+            <IfCondition condition=':= if(age, age.galactSiliconClusters > 0, galactSiliconDist = "vanillaStdGen")'>
+                <StandardGen name='galactSiliconStandard' block='GalacticraftCore:tile.gcBlockCore:8' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to vanilla Galacticraft Silicon distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> 
+                    <Setting name='Size' avg=':= galactSiliconSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * galactSiliconFreq * if(age,age.galactSiliconClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 8/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel'/>
+                </StandardGen> 
+            </IfCondition>
+                
+            <IfCondition condition=':= if(age, age.galactSiliconVeins > 0, galactSiliconDist = "layeredVeins")'>
+                <Veins name='galactSiliconVeins' block='GalacticraftCore:tile.gcBlockCore:8' inherits='PresetPipeVeins' seed='0xdeadbeef'> 
+                    <Description> 
+                        Silicon is often processed from silicon dioxide AKA sand. Usable deposits of silicon are found close to bedrock surrounding pipes of sand. Silicon ore is more common in desert areas.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * galactSiliconFreq * if(age,age.galactSiliconVeins,1) * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= galactSiliconSize * _default_' range=':= galactSiliconSize * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= galactSiliconSize * _default_' range=':= galactSiliconSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.5 * _default_'/>
+                    <Biome name='.*' weight='.35'/>
+                    <BiomeType name='Sandy'/>
+                </Veins>
+                <Veins name='galactSiliconVeinsSand' block='12' inherits='galactSiliconVeins' seed='0xdeadbeef'>
+                    <Description> Fills center of each tube with sand </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.4 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.4 * _default_'/>
+                    <Setting name='OreDensity' avg='0.5' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='gravel'/>
+                    <Replaces block='GalacticraftCore:tile.gcBlockCore:8'/>
+                </Veins>
+            </IfCondition>
+                
+            <IfCondition condition=':= if(age, age.galactSiliconClouds > 0, galactSiliconDist = "strategicClouds")'>
+                <Cloud name='galactSiliconCloud' block='GalacticraftCore:tile.gcBlockCore:8' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse Silicon cloud surrounded by single-block "hint" veins, found only in deserts.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x609447a8</WireframeColor> >                
+                    <Setting name='DistributionFrequency' avg=':= 10 * galactSiliconFreq * if(age,age.galactSiliconClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.5 * galactSiliconSize * _default_' range=':= 0.5 * galactSiliconSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.2 * galactSiliconSize * _default_' range=':= 0.17 * galactSiliconSize * _default_'/>
+                    <Setting name='CloudHeight' avg=':= 14/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel'/>
+                    <Setting name='OreRadiusMult' avg=':= 1 * _default_' range = ':= 0.2 * _default_'/>
+                    <Setting name='OreDensity' avg=':= 0.4 * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                    <BiomeType name='Sandy'/>
+                    <Veins name='galactSiliconHintVeins' block='GalacticraftCore:tile.gcBlockCore:8' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x609447a8</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg=':= 0.3 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.75 * galactSiliconSize * _default_' range=':= 0.65 * galactSiliconSize * _default_'/>
+                    </Veins>             
+                </Cloud>
+            </IfCondition> 
+        </ConfigSection>
+
+    </IfCondition>
+    
+</ConfigSection>
+</IfModInstalled>

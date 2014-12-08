@@ -1,0 +1,377 @@
+<!--*************************  CustomOreGen Forestry Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 3 Forestry ores:
+*       Copper, Tin, and Apatite.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Forestry">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>         
+    
+        <OptionDisplayGroup name='groupForestry' displayName='Forestry' displayState='shown'>
+            <Description> 
+                Distribution options for the Forestry ores.
+            </Description>
+        </OptionDisplayGroup>
+        
+        <!--*******************   Copper   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='forestryCopperDist' displayState='shown' displayGroup='groupForestry'>
+                <Description> Controls how Forestry Copper is generated </Description>
+                <DisplayName>Forestry Copper Type</DisplayName>
+                <Default>:= if(blockExists("Forestry:resources:1"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small evenly scattered clusters of ore.  This is the default Forestry copper generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No copper is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='forestryCopperFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Frequency multiplier for Forestry Copper distributions </Description>
+                <DisplayName>Forestry Copper Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='forestryCopperSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Size multiplier for Forestry Copper distributions </Description>
+                <DisplayName>Forestry Copper Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= forestryCopperDist != "disabled"'>
+                <MystcraftSymbol name='forestryCopperClusters' displayName='Copper Clusters'/>
+                <MystcraftSymbol name='forestryCopperVeins' displayName='Copper Veins'/>
+                <MystcraftSymbol name='forestryCopperClouds' displayName='Copper Clouds'>
+                    <Instability>:= 50 * (age.forestryCopperClusters + age.forestryCopperVeins + age.forestryCopperClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>           
+        
+        <!--********************   Tin   ***********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='forestryTinDist' displayState='shown' displayGroup='groupForestry'>
+                <Description> Controls how Forestry Tin is generated </Description>
+                <DisplayName>Forestry Tin Type</DisplayName>
+                <Default>:= if(blockExists("Forestry:resources:2"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in flat grassy plains.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small evenly scattered clusters of ore.  This is the default Forestry tin generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No tin is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no tin symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='forestryTinFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Frequency multiplier for Forestry Tin distributions </Description>
+                <DisplayName>Forestry Tin Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='forestryTinSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Size multiplier for Forestry Tin distributions </Description>
+                <DisplayName>Forestry Tin Size</DisplayName>
+            </OptionNumeric>  
+            
+            <IfCondition condition=':= forestryTinDist != "disabled"'>
+                <MystcraftSymbol name='forestryTinClusters' displayName='Tin Clusters'/>
+                <MystcraftSymbol name='forestryTinVeins' displayName='Tin Veins'/>
+                <MystcraftSymbol name='forestryTinClouds' displayName='Tin Clouds'>
+                    <Instability>:= 50 * (age.forestryTinClusters + age.forestryTinVeins + age.forestryTinClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+
+        </ConfigSection>           
+        
+        <!--******************   Apatite   *********************-->
+        <ConfigSection>
+        
+            <OptionChoice name='forestryApatiteDist' displayState='shown' displayGroup='groupForestry'>
+                <Description> Controls how Forestry Apatite is generated </Description>
+                <DisplayName>Forestry Apatite Type</DisplayName>
+                <Default>:= if(blockExists("Forestry:resources:0"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Short hollow tubes extending downward from just below the surface with ore around the edges.  More common in temperate forests.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description>
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in temperate forests.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered in hills and about three quarters of the way down to bedrock.  This is the default Forestry resources generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No resources is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No resources is generated, and no resources symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='forestryApatiteFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Frequency multiplier for Forestry Apatite distributions </Description>
+                <DisplayName>Forestry Apatite Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='forestryApatiteSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupForestry'>
+                <Description> Size multiplier for Forestry Apatite distributions </Description>
+                <DisplayName>Forestry Apatite Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= forestryApatiteDist != "disabled"'>
+                <MystcraftSymbol name='forestryApatiteClusters' displayName='Apatite Clusters'/>
+                <MystcraftSymbol name='forestryApatiteVeins' displayName='Apatite Veins'/>
+                <MystcraftSymbol name='forestryApatiteClouds' displayName='Apatite Clouds'>
+                    <Instability>:= 50 * (age.forestryApatiteClusters + age.forestryApatiteVeins + age.forestryApatiteClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+            
+        </ConfigSection>           
+        
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='ForestrySubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='Forestry:resources:1'/> 
+            <Replaces block='Forestry:resources:2'/> 
+            <Replaces block='Forestry:resources:0'/>
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.forestryCopperClusters > 0, forestryCopperDist = "vanillaStdGen")'>
+                <StandardGen name='ForestryCopperStandard' block='Forestry:resources:1' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular Forestry copper distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='Size' avg=':= 0.75 * forestryCopperSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 1.0 * forestryCopperFreq * if(age,age.forestryCopperClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 38/64 * dimension.groundLevel' range=':= 38/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.forestryCopperVeins > 0, forestryCopperDist = "layeredVeins")'>             
+                <Veins name='ForestryCopperVeins' block='Forestry:resources:1' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 30-50 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.75 * forestryCopperFreq * if(age,age.forestryCopperVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= forestryCopperSize * _default_' range=':= forestryCopperSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 40/64 * dimension.groundLevel' range=':= 12/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.7 * _default_' range=':= 0.7 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>
+                    <Setting name='SegmentRadius' avg=':= forestryCopperSize * _default_' range=':= forestryCopperSize * _default_'/>
+                </Veins>                
+                <Veins name='ForestryCopperVeinsJungle' inherits='ForestryCopperVeins'>
+                    <Description> This roughly triples the chance of finding Copper in jungle biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'/>
+                    <Biome name='Extreme\s*Jungle'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Mini\s*Jungle'/> <Comment> ExtraBiomesXL </Comment>  
+                </Veins>   
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.forestryCopperClouds > 0, forestryCopperDist = "strategicClouds")'>
+                <Cloud name='ForestryCopperCloud' block='Forestry:resources:1' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse copper cloud surrounded by single-block "hint" veins, found in jungle biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 2.5 * forestryCopperFreq * if(age,age.forestryCopperClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.85 * forestryCopperSize * _default_' range=':= forestryCopperSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.9 * forestryCopperSize * _default_' range=':= forestryCopperSize * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 1.1 * _default_'/> 
+                    <BiomeType name='Jungle'/>
+                    <Biome name='Extreme\s*Jungle'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Mini\s*Jungle'/> <Comment> ExtraBiomesXL </Comment>  
+                    <Veins name='ForestryCopperHintVeins' block='Forestry:resources:1' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40773300</WireframeColor> 
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= forestryCopperSize * _default_' range=':= forestryCopperSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--********************   Tin   ***********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.forestryTinClusters > 0, forestryTinDist = "vanillaStdGen")'>            
+                <StandardGen name='ForestryTinStandard' block='Forestry:resources:2' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular Forestry tin distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='Size' avg=':= 0.75 * forestryTinSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.9 * forestryTinFreq * if(age,age.forestryTinClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 38/64 * dimension.groundLevel' range=':= 38/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.forestryTinVeins > 0, forestryTinDist = "layeredVeins")'>    
+                <Veins name='ForestryTinVeins' block='Forestry:resources:2' inherits='PresetLayeredVeins'>
+                    <Description> 
+                        Average veins in the 20-40 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.70 * forestryTinFreq * if(age,age.forestryTinVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= forestryTinSize * _default_' range=':= forestryTinSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 30/64 * dimension.groundLevel' range=':= 11/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.7 * _default_' range=':= 0.7 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= forestryTinSize * _default_' range=':= forestryTinSize * _default_'/>
+                </Veins>
+                <Veins name='ForestryTinVeinsPlains' inherits='ForestryTinVeins'>
+                    <Description> This roughly triples the chance of finding tin in plains biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Plains'/>
+                    <Biome name='Meadow'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Savanna'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Shrubland'/> <Comment> ExtraBiomesXL </Comment>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.forestryTinClouds > 0, forestryTinDist = "strategicClouds")'>
+                <Cloud name='ForestryTinCloud' block='Forestry:resources:2' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse tin cloud surrounded by single-block "hint" veins, found in plains biomes.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 2.5 * forestryTinFreq * if(age,age.forestryTinClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.85 * forestryTinSize * _default_' range=':= forestryTinSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.9 * forestryTinSize * _default_' range=':= forestryTinSize * _default_'/> 
+                    <Setting name='OreVolumeNoiseCutoff' avg=':= 1.1 * _default_'/> 
+                    <BiomeType name='Plains'/>
+                    <Biome name='Meadow'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Savanna'/> <Comment> ExtraBiomesXL </Comment>
+                    <Biome name='Shrubland'/> <Comment> ExtraBiomesXL </Comment>
+                    <Veins name='ForestryTinHintVeins' block='Forestry:resources:2' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40FFFFFF</WireframeColor> 
+                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.9 * forestryTinSize * _default_' range=':= 0.9 * forestryTinSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+        <!--******************   Apatite   *********************-->            
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.forestryApatiteClusters > 0, forestryApatiteDist = "vanillaStdGen")'>
+                <StandardGen name='ForestryApatiteStandard' block='Forestry:resources:0' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to regular Forestry resources distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40300060</WireframeColor> 
+                    <Setting name='Size' avg=':= 1.0 * forestryApatiteSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.3 * forestryApatiteFreq * if(age,age.forestryApatiteClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 54/64 * dimension.groundLevel' range=':= 38/64 * dimension.groundLevel'/> 
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.forestryApatiteVeins > 0, forestryApatiteDist = "layeredVeins")'>    
+                <Veins name='ForestryApatiteVeins' block='Forestry:resources:0' inherits='PresetPipeVeins' seed='0x4A18'>    
+                    <Description>
+                        Short sparsely filled tubes starting at the surface and extending downwards.
+                        Roughly 3x more common in forests.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40300060</WireframeColor>                    
+                    <Setting name='MotherlodeFrequency' avg=':= 0.8 * forestryApatiteFreq * if(age,age.forestryApatiteVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 60/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength' avg=':= 1.2 * _default_'/>
+                    <Setting name='BranchInclination' avg=':= -_default_'/>
+                    <Setting name='SegmentRadius' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 3 * _default_'/>                    
+                    <Biome name='.*' weight='.3'/>   
+                    <BiomeType name='Forest'/>
+                </Veins>
+                <Veins name='ForestryApatiteVeinsAir' block='minecraft:air' inherits='ForestryApatiteVeins' seed='0x4A18'>
+                    <Description> Fills center of each tube with air </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.35 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.35 * _default_'/>
+                    <Setting name='OreDensity' avg='1' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='Forestry:resources:0'/>
+                </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.forestryApatiteClouds > 0, forestryApatiteDist = "strategicClouds")'>
+                <Cloud name='ForestryApatiteCloud' block='Forestry:resources:0' inherits='PresetStrategicCloud'>
+                    <Description>  
+                        Diffuse resources cloud surrounded by single-block "hint" veins, found in forests.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40300060</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4 * forestryApatiteFreq * if(age,age.forestryApatiteClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.7 * forestryApatiteSize * _default_' range=':= 0.5 * forestryApatiteSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.7 * forestryApatiteSize * _default_' range=':= 0.7 * forestryApatiteSize * _default_'/>   
+                    <Setting name='OreDensity' avg=':= 0.8 * _default_'/>
+                    <BiomeType name='Forest'/>    
+                    <Veins name='ForestryApatiteHintVeins' block='Forestry:resources:0' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x40300060</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg=':= 0.7 * _default_' range=':= _default_'/>   
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.6 * forestryApatiteSize * _default_' range=':= 0.6 * forestryApatiteSize * _default_'/>              
+                    </Veins>
+                </Cloud>
+            </IfCondition>  
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

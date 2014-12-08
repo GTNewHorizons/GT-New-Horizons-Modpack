@@ -1,0 +1,20 @@
+{
+  "CONFIG_VERSION": 1,
+  "modules": {
+    "Natura Forestry Compatibility": {
+      "enabled": true
+    },
+    "Natura Thaumcraft Compatibility": {
+      "enabled": true
+    },
+    "Natura FMP Compatibility": {
+      "enabled": true
+    },
+    "Natura NEI Compatibility": {
+      "enabled": true
+    },
+    "Natura Waila Compatibility": {
+      "enabled": true
+    }
+  }
+}

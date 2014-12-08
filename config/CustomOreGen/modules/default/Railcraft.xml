@@ -1,0 +1,381 @@
+<!--************************  CustomOreGen Railcraft Ores Module **********************************
+*
+*   This file contains Presets, Options, and Distributions for the normal Railcraft ores,  
+*   and Saltpeter; as well as Abyssal Stone Geodes and the Diamond, Lapis and Emerald that spawns 
+*   within them.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Railcraft">
+
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for each ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>            
+    
+        <OptionDisplayGroup name='groupRailcraft' displayName='Railcraft' displayState='shown'>
+            <Description> 
+                Distribution options for the Railcraft ores.
+            </Description>
+        </OptionDisplayGroup>  
+        
+        <!--*******************   Abyssal Geodes   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='AbyssalGeodesDist' displayState='shown' displayGroup='groupRailcraft'>
+                <Description> Controls how Railcraft Abyssal Geodes is generated </Description>
+                <DisplayName>Abyssal Geodes Type</DisplayName>
+                <Default>:=
+                if(blockExists("Railcraft:tile.railcraft.ore") &amp; blockExists("Railcraft:tile.railcraft.cube"),"strategicClouds","disabled")</Default>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Large Geodes of Abyssal Stone containing
+                        Diamonds, Emeralds, and Lapis Lazuli.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No Abyssal Geodes is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No Abyssal Geodes is generated, and no Abyssal Geodes symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='AbyssalGeodesFreq' default='2'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Frequency multiplier for Railcraft Abyssal Geodes distributions </Description>
+                <DisplayName>Abyssal Geodes Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='AbyssalGeodesSize' default='2'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Size multiplier for Railcraft Abyssal Geodes distributions </Description>
+                <DisplayName>Abyssal Geodes Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= AbyssalGeodesDist != "disabled"'>
+                <MystcraftSymbol name='AbyssalGeodesGeode' displayName='Abyssal Geodes'>
+                    <Instability>:= 50 * (age.AbyssalGeodesGeode - 1)^1</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>
+		
+		<!--********************   Sulfur   **********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='RCSulfurDist' displayState='shown' displayGroup='groupRailcraft'>
+                <Description> Controls how Railcraft Sulfur are generated </Description>
+                <DisplayName>RC Sulfur Type</DisplayName>
+                <Default>:= if(blockExists("Railcraft:tile.railcraft.ore:0"),"layeredVeins","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Short lava-filled tubes extending upward from bedrock with ore around the edges.  Found everywhere.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered around Lava Pools.  This is an approximation of Vanilla Sulfur ore gen.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No Sulfur are generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No Sulfur are generated, and no Sulfur symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='RCSulfurFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Frequency multiplier for Railcraft Sulfur distributions </Description>
+                <DisplayName>RC Sulfur Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='RCSulfurSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Size multiplier for Railcraft Sulfur distributions </Description>
+                <DisplayName>RC Sulfur Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= RCSulfurDist != "disabled"'>
+                <MystcraftSymbol name='RCSulfurClusters' displayName='RC Sulfur Clusters'/>			
+                <MystcraftSymbol name='RCSulfurVeins' displayName='RC Sulfur Veins'>
+                    <Instability>:= 50 * (age.RCSulfurClusters + age.RCSulfurVeins - 1)^2</Instability>
+                </MystcraftSymbol>
+			</IfCondition>
+       
+        </ConfigSection>
+        
+        <!--******************   Saltpeter   ********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='RCSaltpeterDist' displayState='shown' displayGroup='groupRailcraft'>
+                <Description> Controls how Railcraft Saltpeter is generated </Description>
+                <DisplayName>RC Saltpeter Type</DisplayName>
+<!--                <Default>:= if(blockExists("Railcraft:tile.railcraft.ore:1"),"strategicClouds","disabled")</Default>
+-->
+                <Default>:= if(blockExists("Railcraft:tile.railcraft.ore:1"),"default","disabled")</Default>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Sparsely filled veins near the surface of deserts. Only replaces sand and sandstone. Will not respawn like vanilla RC.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description>
+                        Uncommon, sparsely populated clouds of ore covering roughly one chunk. Found only in sandy areas, will not respawn like vanilla RC.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered on the surface in sand. Found only in sandy areas. Will not respawn like vanilla RC.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No Saltpeter is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No Saltpeter is generated, and no Saltpeter symbols are available in Mystcraft ages.'/>
+                <Choice value='default' displayValue='Default' description='Custom Ore Gen does not replace RC generated saltpeter, and saltpeter respawns as normal. Not available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='RCSaltpeterFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Frequency multiplier for Railcraft Saltpeter distributions </Description>
+                <DisplayName>RC Saltpeter Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='RCSaltpeterSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupRailcraft'>
+                <Description> Size multiplier for Railcraft Saltpeter distributions </Description>
+                <DisplayName>RC Saltpeter Size</DisplayName>
+            </OptionNumeric>
+            
+            <IfCondition condition=':= RCSaltpeterDist != "disabled"'>
+                <MystcraftSymbol name='RCSaltpeterClusters' displayName='RC Saltpeter Clusters'/>
+                <MystcraftSymbol name='RCSaltpeterVeins' displayName='RC Saltpeter Veins'/>
+                <MystcraftSymbol name='RCSaltpeterClouds' displayName='RC Saltpeter Clouds'>
+                    <Instability>:= 50 * (age.RCSaltpeterClusters + age.RCSaltpeterVeins + age.RCSaltpeterClouds - 1)^3</Instability>
+                </MystcraftSymbol>
+            </IfCondition>
+       
+        </ConfigSection>
+        
+     </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='RailcraftSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Railcraft-generated Sulfur, Saltpeter,
+                Dark Ores, and Abyssal Stone with vanilla stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+	    <Replaces block='Railcraft:tile.railcraft.cube:6'/>
+            <Replaces block='Railcraft:tile.railcraft.ore:0'/>
+            <IfCondition condition=':= RCSaltpeterDist != "default"'>
+              <Replaces block='Railcraft:tile.railcraft.ore:1'/>
+            </IfCondition>
+            <Replaces block='Railcraft:tile.railcraft.ore:2'/>
+	    <Replaces block='Railcraft:tile.railcraft.ore:3'/>
+	    <Replaces block='Railcraft:tile.railcraft.ore:4'/>
+        </Substitute>
+	
+        <!--*******************   Abyssal Geodes   *********************-->            
+        <ConfigSection>
+
+          <VeinsPreset name='PresetAbyssalVeins' inherits = 'PresetLayeredVeins'>
+            <Setting name='ParentRangeLimit' avg='10' range='4'
+                     type='normal'/>
+            <Setting name='MotherlodeFrequency' avg=':= 80 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_'
+                     range=':= _default_'/>
+            <Setting name='MotherlodeHeight'
+                     avg=':=20/64 * dimension.groundLevel'
+                     range=':= 6/64 * dimension.groundLevel'
+                     type='normal'/>
+            <Setting name='BranchHeightLimit' avg='10.5'/>
+            <Setting name='SegmentRadius' avg=':= _default_'
+                     range=':= _default_'/>
+            <Replaces block='Railcraft:tile.railcraft.cube:6'/>
+          </VeinsPreset>
+          
+            <IfCondition condition=':= if(age, age.AbyssalGeodesGeode > 0, AbyssalGeodesDist = "strategicClouds")'>
+              <Cloud name='AbyssalGeode' block='Railcraft:tile.railcraft.cube:6' 
+                     inherits='PresetStrategicCloud'>
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x401fffe1</WireframeColor> 
+		<Setting name='DistributionFrequency'
+                         avg=':= 2 * AbyssalGeodesFreq * _default_'/>
+		<Setting name='CloudRadius'
+                         avg=':= 20 * AbyssalGeodesSize * oreSize'
+                         range=':= 5 * AbyssalGeodesSize * oreSize'/>
+		<Setting name='CloudThickness'
+                         avg=':= 7 * AbyssalGeodesSize * oreSize'
+                         range=':= 2 * AbyssalGeodesSize * oreSize'/>
+		<Setting name='CloudSizeNoise' avg='0.2'/>
+		<Setting name='CloudHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel' type='normal'/>
+		<Setting name='CloudInclination' avg='0' range='0.35'/>
+		<Setting name='OreRadiusMult' avg='1' range='0.1'/>
+		<Setting name='OreDensity' avg='1.0'/>
+                <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+		<BiomeType name='ocean'/>
+                
+                <Veins name='DarkDiamondVeins' block='Railcraft:tile.railcraft.ore:2'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark diamond veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x400f000f</WireframeColor>
+                </Veins>
+
+                <Veins name='DarkLapisVeins' block='Railcraft:tile.railcraft.ore:4'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark lapis veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x400f000f</WireframeColor>
+                </Veins>
+
+                <Veins name='DarkEmeraldVeins' block='Railcraft:tile.railcraft.ore:3'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark emerald veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x400f000f</WireframeColor>
+                </Veins>
+              </Cloud>              
+            </IfCondition>  
+			
+        <!--********************   Sulfur   **********************-->          
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.RCSulfurClusters > 0, RCSulfurDist = "vanillaStdGen")'>
+                <StandardGen name='RCSulfurStandard' block='Railcraft:tile.railcraft.ore:0' inherits='PresetStandardGen'> 
+                    <Description> Rare clusters of sulfur near lava </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40edff21</WireframeColor> 
+                    <Setting name='Frequency' avg=':= 0.025 * RCSulfurFreq * if(age,age.RCSulfurClusters,1) * _default_'/> 
+                    <Setting name='Height' avg=':= 8/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='Size' avg=':= RCSulfurSize * _default_' range=':= RCSulfurSize * _default_'/>
+                    <Biome name='.*'/>
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.RCSulfurVeins > 0, RCSulfurDist = "layeredVeins")'>  
+                <Veins name='RCSulfurVeins' block='Railcraft:tile.railcraft.ore:0'
+                       inherits='PresetPipeVeins' seed='0xFF0300'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= RCSulfurFreq * if(age,age.RCSulfurVeins,1) * _default_'/> 
+                    <Setting name='MotherlodeSize' avg=':= RCSulfurSize * _default_' range=':= RCSulfurSize * _default_'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= RCSulfurSize * _default_'
+                             range=':= RCSulfurSize * _default_'/>
+                    <Setting name='MotherlodeHeight'
+                             avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+                <Veins name='RCSulfurVeinsLava' block='minecraft:lava'
+                       inherits='RCSulfurVeins' seed='0xFF0300'>
+                  <Description> Fills center of each tube with lava
+                  </Description>
+                  <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+                  <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+                  <Setting name='OreDensity' avg='1' range='0'/>
+                  <ReplacesOre block='stone'/>
+                  <Replaces block='minecraft:dirt'/>
+                  <Replaces block='minecraft:gravel'/>
+                  <Replaces block='Railcraft:tile.railcraft.ore:0'/>
+                </Veins>
+            </IfCondition>     
+            
+        </ConfigSection>
+        
+        <!--******************   Saltpeter   ********************-->           
+        <ConfigSection>
+        
+            <IfCondition condition=':= if(age, age.RCSaltpeterClusters > 0, RCSaltpeterDist = "vanillaStdGen")'>
+                <StandardGen name='RCSaltpeterStandard' block='Railcraft:tile.railcraft.ore:1' inherits='PresetStandardGen'> 
+                    <Description> Small clusters of saltpeter </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFCC</WireframeColor> 
+                    <Setting name='Size' avg=':= 7/8 * RCSaltpeterSize * _default_'/> 
+                    <Setting name='Frequency' avg=':= 0.1 * RCSaltpeterFreq * if(age,age.RCSaltpeterClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':=64/64 * dimension.groundLevel' range=':=5/64 * dimension.groundLevel'/> 
+		    <Replaces block='minecraft:sand'/>
+                    <Replaces block='minecraft:sandstone'/>
+		    <BiomeType name='Sandy'/>
+                </StandardGen>
+            </IfCondition>   
+            
+            <IfCondition condition=':= if(age, age.RCSaltpeterVeins > 0, RCSaltpeterDist = "layeredVeins")'>  
+              <Veins name='RCSaltpeterVeins' block='Railcraft:tile.railcraft.ore:1' inherits='PresetPipeVeins'>
+                <Description>
+                  Swathes of Saltpeter.  Found only in deserts.
+                </Description>
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x40FFFFCC</WireframeColor> 
+		<Setting name='MotherlodeFrequency' avg=':= 0.03 * oreFreq'/>            
+		<Setting name='MotherlodeSize' avg=':= 2.3 * oreSize' range=':= 0.5 * oreSize'/>
+		<Setting name='MotherlodeHeight' avg=':= 64/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel' type='uniform'/>
+		<Setting name='BranchFrequency' avg='1' range='0'/> 
+		<Setting name='BranchInclination' avg='0' range='0.75'/> 
+		<Setting name='BranchLength' avg='180' range='90'/> 
+		<Setting name='BranchHeightLimit' avg='1000'/>
+		<Setting name='SegmentForkFrequency' avg='0' range='0'/> 
+		<Setting name='SegmentForkLengthMult' avg='0' range='0'/> 
+		<Setting name='SegmentLength' avg='20' range='8'/>
+		<Setting name='SegmentAngle' avg='0.35' range='0.35'/> 
+		<Setting name='SegmentRadius' avg=':= 2.0 * oreSize' range=':= 1.0 * oreSize'/> 
+		<Setting name='OreDensity' avg='0.04' range='0'/>
+		<Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+		<Replaces block='minecraft:sand'/>
+                <Replaces block='minecraft:sandstone'/>
+		<BiomeType name='Sandy'/>
+              </Veins>
+            </IfCondition>     
+            
+            <IfCondition condition=':= if(age, age.RCSaltpeterClouds > 0, RCSaltpeterDist = "strategicClouds")'>
+                <Cloud name='RCSaltpeterCloud' block='Railcraft:tile.railcraft.ore:1' inherits='PresetStrategicCloud'  seed='0xFEEDDEAD'>
+                <Description>  
+                  Diffuse cloud with no internal density noise, found in deserts, will respawn as normal.
+                </Description> 
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x40FFFFCC</WireframeColor>                
+                <Setting name='DistributionFrequency' avg=':= 35 * RCSaltpeterFreq * if(age,age.RCSaltpeterClouds,1) * _default_'/>
+                <Setting name='CloudRadius' avg=':= 0.4 * RCSaltpeterSize * _default_' range=':= 0.4 * RCSaltpeterSize * _default_'/>
+                <Setting name='CloudThickness' avg=':= 0.2 * RCSaltpeterSize * _default_' range=':= 0.17 * RCSaltpeterSize * _default_'/>
+                <Setting name='CloudHeight' avg=':= 64/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel'/>
+                <Setting name='OreRadiusMult' avg='1' range='0.2'/> 
+                <Setting name='OreDensity' avg=':= 0.8 * _default_'/> 
+                <Setting name='OreVolumeNoiseCutoff' avg='0'/>   
+		<Replaces block='minecraft:sand'/>
+                <Replaces block='minecraft:sandstone'/>
+		<BiomeType name='Sandy'/>
+                </Cloud>
+<!-- Spawns in at level 1, in bedrock, causes stack overflow in worldgen -->
+<!--
+     <Cloud name='RCSaltpeterSpawner' block='railcraft.worldlogic' inherits='PresetStrategicCloud' seed='0xFEEDDEAD'>
+                  <Description>
+                    Spawn some Saltpeter Ore Spawner Blocks per cloud, found in below deserts, in bedrock. Currently crashes Minecraft with StackOverflow.
+                  </Description>
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x40FFFFCC</WireframeColor>
+                  <Setting name='DistributionFrequency' avg=':= 35 * RCSaltpeterFreq * if(age,age.RCSaltpeterClouds,1) * _default_'/>
+                  <Setting name='CloudRadius' avg='1' range='0'/>
+                  <Setting name='CloudThickness' avg='1' range='0'/>
+                  <Setting name='CloudHeight' avg='1' range='0'/>
+                  <Setting name='OreRadiusMult' avg='1' range='0'/>
+                  <Setting name='OreDensity' avg='1'/>
+                  <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                  <Replaces block='minecraft:bedrock'/>
+                  <BiomeType name='Sandy'/>
+                </Cloud>
+-->
+            </IfCondition>  
+            
+        </ConfigSection>
+
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

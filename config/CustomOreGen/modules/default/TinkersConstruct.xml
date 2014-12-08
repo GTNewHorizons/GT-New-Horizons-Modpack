@@ -1,0 +1,421 @@
+<!--************************ CustomOreGen Minecraft Ores Module *********************************
+*
+* This file contains Presets, Options, and Distributions for the 3 Tinkers' Construct overworld mining ores:
+* Aluminum, Copper, and Tin.
+*
+***********************************************************************************************-->
+<IfModInstalled name="TConstruct">
+
+  <!--*************************** Options + Symbols ***********************************
+      *
+      * Below are options and symbols for each ore, similar to those for the standard ores.
+      *
+      *************************************************************************************-->
+  <ConfigSection>
+    
+    <OptionDisplayGroup name='groupTinkerC' displayName="Tinker's Construct" displayState='shown'>
+      <Description>
+	Distribution options for the Tinker's Construct ores (overworld only).
+      </Description>
+    </OptionDisplayGroup>
+    
+    <!--******************* Aluminum ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='TCAluminumDist' default='layeredVeins' displayState='shown' displayGroup='groupTinkerC'>
+	<Description> Controls how Aluminum is generated </Description>
+	<DisplayName>TC Aluminum Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of aluminum ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla aluminum generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No aluminum is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No aluminum is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='TCAluminumFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Frequency multiplier for aluminum distributions </Description>
+	<DisplayName>TC Aluminum Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='TCAluminumSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Size multiplier for aluminum distributions </Description>
+	<DisplayName>TC Aluminum Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= TCAluminumDist != "disabled"'>
+	<MystcraftSymbol name='tcAluminumClusters' displayName='TC Aluminum Clusters'/>
+	<MystcraftSymbol name='tcAluminumVeins' displayName='TC Aluminum Veins'/>
+	<MystcraftSymbol name='tcAluminumClouds' displayName='TC Aluminum Clouds'>
+	  <Instability>:= 50 * (age.tcAluminumClusters + age.tcAluminumVeins + age.tcAluminumClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Copper ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='TCCopperDist' default='layeredVeins' displayState='shown' displayGroup='groupTinkerC'>
+	<Description> Controls how copper is generated </Description>
+	<DisplayName>TC Copper Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of copper ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla copper generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No copper is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='TCCopperFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Frequency multiplier for copper distributions </Description>
+	<DisplayName>TC Copper Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='TCCopperSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Size multiplier for copper distributions </Description>
+	<DisplayName>TC Copper Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= TCCopperDist != "disabled"'>
+	<MystcraftSymbol name='tcCopperClusters' displayName='TC Copper Clusters'/>
+	<MystcraftSymbol name='tcCopperVeins' displayName='TC Copper Veins'/>
+	<MystcraftSymbol name='tcCopperClouds' displayName='TC Copper Clouds'>
+	  <Instability>:= 50 * (age.tcCopperClusters + age.tcCopperVeins + age.tcCopperClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Tin ***********************-->
+    <ConfigSection>
+      
+      <OptionChoice name='TCTinDist' default='layeredVeins' displayState='shown' displayGroup='groupTinkerC'>
+	<Description> Controls how tin is generated </Description>
+	<DisplayName>TC Tin Type</DisplayName>
+	<Choice value='layeredVeins' displayValue='Veins'>
+	  <Description>
+	    Concentrated veins of tin ore.
+	  </Description>
+	</Choice>
+	<Choice value='strategicClouds' displayValue='Clouds'>
+	  <Description>
+	    Rare, sparsely populated clouds of ore extending over several chunks.
+	  </Description>
+	</Choice>
+	<Choice value='vanillaStdGen' displayValue='Clusters'>
+	  <Description>
+	    Small evenly scattered clusters of ore. This is the vanilla tin generation.
+	  </Description>
+	</Choice>
+	<Choice value='none' displayValue='None' description='No tin is generated at all.'/>
+	<Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no Mystcraft symbols are available.'/>
+      </OptionChoice>
+      
+      <OptionNumeric name='TCTinFreq' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Frequency multiplier for tin distributions </Description>
+	<DisplayName>TC Tin Freq.</DisplayName>
+      </OptionNumeric>
+      
+      <OptionNumeric name='TCTinSize' default='1' min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupTinkerC'>
+	<Description> Size multiplier for tin distributions </Description>
+	<DisplayName>TC Tin Size</DisplayName>
+      </OptionNumeric>
+      
+      <IfCondition condition=':= TCTinDist != "disabled"'>
+	<MystcraftSymbol name='tcTinClusters' displayName='TC Tin Clusters'/>
+	<MystcraftSymbol name='tcTinVeins' displayName='TC Tin Veins'/>
+	<MystcraftSymbol name='tcTinClouds' displayName='TC Tin Clouds'>
+	  <Instability>:= 50 * (age.tcTinClusters + age.tcTinVeins + age.tcTinClouds - 1)^3</Instability>
+	</MystcraftSymbol>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+  </ConfigSection>
+
+  <!--***************************** Distributions *************************************
+      *
+      *   Below are the actual distributions for the overworld and mystcraft ages.
+      *
+      *************************************************************************************-->
+  <IfCondition condition=':= ?COGActive'>
+    
+    <!--********** Vanilla Deposit Removal *************-->
+    <Substitute name='TCOreSubstitute' block='minecraft:stone'>
+      <Description>
+	Replace vanilla-generated ore clusters with stone.
+      </Description>
+      <Comment>
+	The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+      </Comment>
+      <Replaces block='TConstruct:SearedBrick:5'/>
+      <Replaces block='TConstruct:SearedBrick:3'/>
+      <Replaces block='TConstruct:SearedBrick:4'/>
+      <Comment>
+	The above; Aluminum (TConstruct:SearedBrick:5), Copper (TConstruct:SearedBrick:3), Tin (TConstruct:SearedBrick:4), respectively.
+      </Comment>
+    </Substitute>
+    
+    <!--******************* Aluminum ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.tcAluminumClusters > 0, TCAluminumDist = "vanillaStdGen")'>
+	<StandardGen name='TCAluminumStandard' block='TConstruct:SearedBrick:5' inherits='PresetStandardGen'>
+	  <Description>
+            Equivalent to standard aluminum distribution
+          </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='Size'
+                   avg=':= 3/4 * TCAluminumSize * _default_'/>
+	  <Setting name='Frequency'
+                   avg=':= 3/20 * TCAluminumFreq * if(age,age.tcAluminumClusters,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 35/64 * dimension.groundLevel'
+                   range=':= 30/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcAluminumVeins > 0, TCAluminumDist = "layeredVeins")'>
+	<Veins name='TCAluminumVeins' block='TConstruct:SearedBrick:5' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Aluminum spawns in the height 0-64 range. The veins
+	    are a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * TCAluminumFreq * if(age,age.tcAluminumVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.6 * TCAluminumSize * _default_'
+                   range=':= 0.4 * TCAluminumSize * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.8 * _default_' range=':= 0.7 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.6 * TCAluminumSize * _default_'
+                   range=':= 0.5 * TCAluminumSize * _default_'/>
+	</Veins>
+	<Veins name='TCAluminumVeinsForest' inherits='TCAluminumVeins'>
+	  <Description> This roughly triples the chance of finding aluminum in forest biomes. </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Forest'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcAluminumClouds > 0, TCAluminumDist = "strategicClouds")'>
+	<Cloud name='TCAluminumCloud' block='TConstruct:SearedBrick:5' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse aluminum cloud surrounded by single-block
+	    "hint" veins, found in forest biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 7 * TCAluminumFreq * if(age,age.tcAluminumClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.7 * TCAluminumSize * _default_'
+                   range=':= 0.7 * TCAluminumSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * TCAluminumSize * _default_'
+                   range=':= TCAluminumSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Forest'/>
+	  <Veins name='TCAluminumHintVeins' block='TConstruct:SearedBrick:5' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x405555AA</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= TCAluminumSize * _default_' range=':= TCAluminumSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+
+    <!--******************* Copper ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.tcCopperClusters > 0, TCCopperDist = "vanillaStdGen")'>
+	<StandardGen name='TCCopperStandard' block='TConstruct:SearedBrick:3' inherits='PresetStandardGen'>
+	  <Description> Equivalent to standard copper distribution </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='Size' avg=':= TCCopperSize * _default_'/>
+	  <Setting name='Frequency' avg=':= 1/10 * TCCopperFreq * if(age,age.tcCopperClusters,1) * _default_'/>
+	  <Setting name='Height'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcCopperVeins > 0, TCCopperDist = "layeredVeins")'>
+	<Veins name='TCCopperVeins' block='TConstruct:SearedBrick:3' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Copper spawns in the height 20-60 range. The veins
+	    are a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * TCCopperFreq * if(age,age.tcCopperVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.8 * TCCopperSize * _default_'
+                   range=':= 0.5 * TCCopperSize * _default_'/>
+	  <Setting name='MotherlodeHeight'
+                   avg=':= 40/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.7 * TCCopperSize * _default_'
+                   range=':= 0.5 * TCCopperSize * _default_'/>
+	</Veins>
+	<Veins name='TCCopperVeinsJungle' inherits='TCCopperVeins'>
+	  <Description>
+            This roughly triples the chance of finding copper in
+            jungle biomes.
+          </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Jungle'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcCopperClouds > 0, TCCopperDist = "strategicClouds")'>
+	<Cloud name='TCCopperCloud' block='TConstruct:SearedBrick:3' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse copper cloud surrounded by single-block
+	    "hint" veins, found in jungle biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40221100</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 4.5 * TCCopperFreq * if(age,age.tcCopperClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.8 * TCCopperSize * _default_'
+                   range=':= 0.8 * TCCopperSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * TCCopperSize * _default_'
+                   range=':= TCCopperSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Jungle'/>
+	  <Veins name='TCCopperHintVeins' block='TConstruct:SearedBrick:3' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x40221100</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= TCCopperSize * _default_' range=':= TCCopperSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+    <!--******************* Tin ***********************-->
+    <ConfigSection>
+      
+      <IfCondition condition=':= if(age, age.tcTinClusters > 0, TCTinDist = "vanillaStdGen")'>
+	<StandardGen name='TCTinStandard' block='TConstruct:SearedBrick:4' inherits='PresetStandardGen'>
+	  <Description> Equivalent to vanilla minecraft tin distribution </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='Size' avg=':= TCTinSize * _default_'/>
+	  <Setting name='Frequency' avg=':= 1/10 * TCTinFreq * if(age,age.tcTinClusters,1) * _default_'/>
+	  <Setting name='Height' avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 20/64 * dimension.groundLevel'
+                   type='uniform'/>
+	</StandardGen>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcTinVeins > 0, TCTinDist = "layeredVeins")'>
+	<Veins name='TCTinVeins' block='TConstruct:SearedBrick:4' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Tin spawns in the height 0-40 range. The veins are
+	    a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * TCTinFreq * if(age,age.tcTinVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.8 * TCTinSize * _default_'
+                   range=':= 0.5 * TCTinSize * _default_'/>
+	  <Setting name='MotherlodeHeight'
+                   avg=':= 20/64 * dimension.groundLevel'
+                   range=':= 10/64 * dimension.groundLevel'
+                   type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.7 * TCTinSize * _default_'
+                   range=':= 0.5 * TCTinSize * _default_'/>
+	</Veins>
+	<Veins name='TCTinVeinsPlains' inherits='TCTinVeins'>
+	  <Description> This roughly triples the chance of finding tin in plains biomes. </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Plains'/>
+	</Veins>
+      </IfCondition>
+      
+      <IfCondition condition=':= if(age, age.tcTinClouds > 0, TCTinDist = "strategicClouds")'>
+	<Cloud name='TCTinCloud' block='TConstruct:SearedBrick:4' inherits='PresetStrategicCloud'>
+	  <Description>
+	    Diffuse tin cloud surrounded by single-block "hint"
+	    veins, found in plains biomes.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x40AAAAAA</WireframeColor>
+	  <Setting name='DistributionFrequency' avg=':= 4.5 * TCTinFreq * if(age,age.tcTinClouds,1) * _default_'/>
+	  <Setting name='CloudRadius'
+                   avg=':= 0.8 * TCTinSize * _default_'
+                   range=':= 0.8 * TCTinSize * _default_'/>
+	  <Setting name='CloudThickness'
+                   avg=':= 0.8 * TCTinSize * _default_'
+                   range=':= TCTinSize * _default_'/>
+          <Setting name='OreDensity' avg=':= 0.3 * _default_'/>
+	  <BiomeType name='Plains'/>
+	  <Veins name='TCTinHintVeins' block='TConstruct:SearedBrick:4' inherits='PresetHintVeins'>
+	    <DrawWireframe>:=drawWireframes</DrawWireframe>
+	    <WireframeColor>0x40AAAAAA</WireframeColor>
+	    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>
+	    <Setting name='MotherlodeRangeLimit' avg=':= TCTinSize * _default_' range=':= TCTinSize * _default_'/>
+	  </Veins>
+	</Cloud>
+      </IfCondition>
+      
+    </ConfigSection>
+    
+  </IfCondition>
+
+</IfModInstalled>

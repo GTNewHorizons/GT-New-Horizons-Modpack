@@ -1,0 +1,141 @@
+<!--************************  CustomOreGen Dartcraft Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 1 Dartcraft ore:  Power Ore. 
+*
+***********************************************************************************************-->
+<IfModInstalled name='Dartcraft'>
+  <ConfigSection>
+
+  
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for Power Ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>
+    
+        <OptionDisplayGroup name='groupDartcraft' displayName='Dartcraft' displayState='shown'>
+            <Description> 
+                Distribution options for the Dartcraft ore.
+            </Description>
+        </OptionDisplayGroup>
+       
+        <!--*****************   Power Ore   *********************-->
+        <ConfigSection>        
+        
+            <OptionChoice name='PowerOreDist' default='layeredVeins' displayState='shown' displayGroup='groupDartcraft'>
+                <Description> Controls how Power Ore is generated </Description>
+                <DisplayName>Power Ore Type</DisplayName>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Single vertical veins starting near the surface and extending down about halfway to bedrock.  Most common in Mountainous Areas.
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in Mountainous Areas.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered evenly from bedrock about one quarter of the way to the surface.  This is the vanilla Power Ore generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No Power Ore is generated at all.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='PowerOreFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupDartcraft'>
+                <Description> Frequency multiplier for Power Ore distributions </Description>
+                <DisplayName>Power Ore Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='PowerOreSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupDartcraft'>
+                <Description> Size multiplier for Power Ore distributions </Description>
+                <DisplayName>Power Ore Size</DisplayName>
+            </OptionNumeric>    
+                
+            <MystcraftSymbol name='PowerOreClusters' displayName='Power Ore Clusters'/>
+            <MystcraftSymbol name='PowerOreVeins' displayName='Power Ore Veins'/>
+            <MystcraftSymbol name='PowerOreClouds' displayName='Power Ore Clouds'>
+                <Instability>:= 50 * (age.PowerOreClusters + age.PowerOreVeins + age.PowerOreClouds - 1)^3</Instability>
+            </MystcraftSymbol>
+            
+        </ConfigSection>           
+         
+    </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <!--**********   Vanilla Deposit Removal   *************-->
+        <Substitute name='DartcraftSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Dartcraft-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='powerOre'/> 
+        </Substitute>
+        
+        <!--*****************   Power Ore   *********************-->
+        <ConfigSection>
+       
+            <IfCondition condition=':= if(age, age.PowerOreClusters > 0, PowerOreDist = "vanillaStdGen")'>
+                <StandardGen name='PowerOreStandard' block='powerOre' inherits='PresetStandardGen'> 
+                    <Description> Equivalent to vanilla minecraft Power Ore distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x30550000</WireframeColor> 
+                    <Setting name='Size' avg=':= 7/8 * PowerOreSize * _default_'/>
+                    <Setting name='Frequency' avg=':= 0.4 * PowerOreFreq * if(age,age.PowerOreClusters,1) * _default_'/>
+                    <Setting name='Height' avg=':= 8/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel'/>
+                </StandardGen>
+            </IfCondition>
+			
+                
+            <IfCondition condition=':= if(age, age.PowerOreVeins > 0, PowerOreDist = "layeredVeins")'>
+                <Veins name='PowerOreVeins' block='powerOre' inherits='PresetVerticalVeins'> 
+                    <Description> 
+                        Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x30550000</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.1 * PowerOreFreq * if(age,age.PowerOreVeins,1) * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= PowerOreSize * _default_' range=':= PowerOreSize * _default_'/>
+                </Veins>
+                <Veins name='PowerOreVeinsMountain' inherits='PowerOreVeins'> 
+                    <Description> This roughly triples the chance of finding Power Ore in Mountains. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/> 
+                    <BiomeType name='Mountain'/>    
+                </Veins>
+            </IfCondition>
+                
+            <IfCondition condition=':= if(age, age.PowerOreClouds > 0, PowerOreDist = "strategicClouds")'>
+                <Cloud name='PowerOreCloud' block='powerOre' inherits='PresetStrategicCloud'>
+                    <Description> 
+                        Diffuse Power Ore cloud surrounded by single-block "hint" veins, found in Mountains.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x30550000</WireframeColor> 
+                    <Setting name='DistributionFrequency' avg=':= 4.0 * PowerOreFreq * if(age,age.PowerOreClouds,1) * _default_'/>
+                    <Setting name='CloudRadius' avg=':= 0.65 * PowerOreSize * _default_' range=':= 0.5 * PowerOreSize * _default_'/>
+                    <Setting name='CloudThickness' avg=':= 0.7 * PowerOreSize * _default_' range=':= 0.7 * PowerOreSize * _default_'/>
+                    <BiomeType name='Mountain'/>    
+                    <Veins name='PowerOreHintVeins' block='powerOre' inherits='PresetHintVeins'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>groupDartcraft</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg=':= 0.6 * _default_' range=':= _default_'/>
+                        <Setting name='MotherlodeRangeLimit' avg=':= 0.65 * PowerOreSize * _default_' range=':= 0.65 * PowerOreSize * _default_'/>                    
+                    </Veins>         
+                </Cloud>
+            </IfCondition>  
+        
+        </ConfigSection>           
+    </IfCondition>
+    
+  </ConfigSection>
+</IfModInstalled>

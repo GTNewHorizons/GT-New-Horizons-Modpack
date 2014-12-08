@@ -1,0 +1,317 @@
+# Do not change this file, it is rewritten each time you start the game.
+# Instead, use the user.recipes file to edit recipes by redefining them there.
+
+include file("hardmode.recipes")
+
+analyzer {
+  # 32762 = Portable Scanner
+  input: [["oc:materialTransistor", torchRedstoneActive, "oc:materialTransistor"]
+          ["oc:circuitChip2", {item="gt.metaitem.01", subID=32762}, "oc:circuitChip2"]
+          [screwAluminium, craftingToolScrewdriver, screwAluminium]]
+}
+
+server1 {
+  input: [["oc:circuitChip1", "oc:ram4", "oc:circuitChip1"]
+          ["oc:circuitChip2", "oc:case1", "oc:circuitChip2"]
+          [craftingToolScrewdriver, "oc:materialCircuitBoardPrinted", craftingToolWrench]]
+}
+server2 {
+  input: [["oc:circuitChip2", "oc:ram5", "oc:circuitChip2"]
+          ["oc:circuitChip3", "oc:case2", "oc:circuitChip3"]
+          [craftingToolScrewdriver, "oc:materialCircuitBoardPrinted", craftingToolWrench]]
+}
+server3 {
+  input: [["oc:circuitChip3", "oc:ram6", "oc:circuitChip3"]
+          ["oc:circuitChip3", "oc:case3", "oc:circuitChip3"]
+          [craftingToolScrewdriver, "oc:materialCircuitBoardPrinted", craftingToolWrench]]
+}
+
+ram1 {
+  type: gt_assembler
+  input: ["oc:circuitChip1", "oc:materialCircuitBoardPrinted"]
+  count: [3, 3]
+  eu: 32
+  time: 250
+}
+ram2 {
+  input: [["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
+          ["oc:ram1", "oc:materialCircuitBoardPrinted", "oc:ram1"]
+          ["", craftingToolWrench, ""]]
+}
+ram3 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
+          ["oc:ram2", "oc:materialCircuitBoardPrinted", "oc:ram2"]
+          [circuitElite, craftingToolWrench, circuitElite]]
+}
+ram4 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
+          ["oc:ram3", "oc:materialCircuitBoardPrinted", "oc:ram3"]
+          [circuitElite, craftingToolWrench, circuitElite]]
+}
+ram5 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          ["oc:ram4", "oc:materialCircuitBoardPrinted", "oc:ram4"]
+          [circuitUltimate, craftingToolWrench, circuitUltimate]]
+}
+ram6 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          ["oc:ram5", "oc:materialCircuitBoardPrinted", "oc:ram5"]
+          [circuitUltimate, craftingToolWrench, circuitUltimate]]
+}
+
+floppy {
+  input: [[screwAluminium, lever, screwAluminium]
+          [plateAluminium, "oc:materialDisk", plateAluminium]
+          [screwAluminium, craftingToolScrewdriver, screwAluminium]]
+}
+hdd1 {
+  input: [["oc:ram1", "oc:materialDisk", "oc:ram1"]
+          ["oc:ram1", "oc:materialDisk", "oc:ram1"]
+          [screwAluminium, craftingToolScrewdriver, "oc:circuitChip2"]]
+}
+hdd2 {
+  input: [["oc:hdd1", "oc:materialCircuitBoardPrinted" , "oc:hdd1"]
+          ["oc:circuitChip2", screwTitanium, "oc:circuitChip2"]
+          [screwTitanium, craftingToolScrewdriver, screwTitanium]]
+}
+hdd3 {
+  input: [["oc:hdd2", "oc:materialCircuitBoardPrinted", "oc:hdd2"]
+          ["oc:circuitChip3", screwTungstenSteel, "oc:circuitChip3"]
+          [screwTungstenSteel , craftingToolScrewdriver, screwTungstenSteel]]
+}
+
+# graphicsCard1 { fallback to default }
+# graphicsCard2 { fallback to default }
+# graphicsCard3 { fallback to default }
+redstoneCard {
+  input: [[screwStainlessSteel , "oc:circuitChip2" , screwStainlessSteel]
+          ["comparator", "oc:materialCard", diode]
+          [screwStainlessSteel , craftingToolScrewdriver, screwStainlessSteel]]
+}
+lanCard {
+  input: [[screwStainlessSteel , "oc:circuitChip2" , screwStainlessSteel]
+          ["oc:cable", "oc:materialCard", "oc:cable"]
+          [screwStainlessSteel , craftingToolScrewdriver, screwStainlessSteel]]
+}
+wlanCard {
+  input: [[screwTitanium , "oc:circuitChip3" , screwTitanium]
+          [enderPearl, "oc:lanCard", enderPearl]
+          [screwTitanium , craftingToolScrewdriver, screwTitanium]]
+}
+
+craftingUpgrade {
+  # 1 = LV Casing
+  input: [[screwStainlessSteel, "oc:materialCircuitBoardPrinted" , screwStainlessSteel]
+          ["oc:circuitChip2", {block="gt.blockcasings", subID=1}, "oc:circuitChip2"]
+          [screwStainlessSteel, craftingToolScrewdriver, screwStainlessSteel]]
+}
+generatorUpgrade {
+  input: [[screwStainlessSteel, "oc:materialCircuitBoardPrinted" , screwStainlessSteel]
+          ["oc:circuitChip2", craftingGenerator, "oc:circuitChip2"]
+          [screwStainlessSteel, craftingToolScrewdriver, screwStainlessSteel]]
+}
+navigationUpgrade {
+  # 2 = MV Casing
+  input: [[{block="gt.blockcasings", subID=2}, compass, screwStainlessSteel]
+          ["oc:circuitChip3", {item=map, subID=any}, "oc:circuitChip3"]
+          [screwStainlessSteel, potion, craftingToolScrewdriver]]
+}
+signUpgrade {
+  input: [[screwAluminium, dyeBlack, screwAluminium]
+          ["oc:circuitChip1", stickWood, "oc:circuitChip1"]
+          [screwAluminium, craftingToolScrewdriver, screwAluminium]]
+}
+solarGeneratorUpgrade {
+  # 32750 = Solar Panel
+  input: [[screwTitanium, "", screwTitanium]
+          ["oc:circuitChip3", {item="gt.metaitem.01", subID=32750} , "oc:circuitChip3"]
+          [screwTitanium, craftingToolScrewdriver, screwTitanium]]
+}
+
+cuttingWire {
+  input: [[stickWood, ingotTin, stickWood]
+          ["", craftingToolWireCutter, ""]]
+}
+acid {
+  type: shapeless
+  output: 0
+}
+disk {
+  input: [["", plateAluminium, ""]
+          [plateAluminium, "", plateAluminium]
+          ["", plateAluminium, ""]]
+}
+
+# buttonGroup { fallback to default }
+# arrowKeys { fallback to default }
+# numPad { fallback to default }
+
+transistor {
+  type: gt_assembler
+  input: [redstone, stickIron]
+  count: [1, 3]
+  eu: 16
+  time: 500
+  output: 6
+}
+chip1 {
+  type: gt_assembler
+  input: ["ic2.itemPartCircuit", "oc:materialTransistor"]
+  count: [1, 4]
+  eu: 25
+  time: 480
+  output: 4
+}
+chip2 {
+  type: gt_assembler
+  input: ["ic2.itemPartCircuitAdv", "oc:materialTransistor"]
+  count: [1, 8]
+  eu: 25
+  time: 640
+  output: 4
+}
+chip3 {
+  type: gt_assembler
+  input: [circuitData, "oc:materialTransistor"]
+  count: [1, 16]
+  eu: 25
+  time: 800
+  output: 4
+}
+alu {
+  type: gt_assembler
+  input: [comparator, "oc:circuitChip1"]
+  count: [3, 1]
+  eu: 24
+  time: 500
+  output: 1
+}
+cpu1 {
+  input: [["oc:circuitChip2", "oc:materialALU", "oc:circuitChip2"]
+          [plateAluminium, "oc:materialCU", plateAluminium]
+          [screwAluminium, craftingToolScrewdriver, screwAluminium]]
+}
+cpu2 {
+  input: [["oc:circuitChip2", plateStainlessSteel, "oc:circuitChip2"]
+          ["oc:ram3", "oc:cpu1", "oc:ram3"]
+          ["oc:circuitChip2", craftingToolScrewdriver, "oc:circuitChip2"]]
+}
+cpu3 {
+  input: [["oc:circuitChip3", plateTitanium, "oc:circuitChip3"]
+          ["oc:ram5", "oc:cpu2", "oc:ram5"]
+          ["oc:circuitChip3", craftingToolScrewdriver, "oc:circuitChip3"]]
+}
+cu {
+  type: gt_assembler
+  input: [circuitElite, "oc:materialTransistor"]
+  count: [1, 6]
+  eu: 32
+  time: 750
+  output: 3
+}
+
+# rawCircuitBoard { fallback to default }
+circuitBoard {
+  type: furnace
+  input: "oc:materialCircuitBoardRaw"
+}
+printedCircuitBoard {
+  type:shaped
+  input: [[dustTinyGold,  cellSulfuricAcid]
+          ["oc:materialCircuitBoard", dustTinyGold]]
+}
+card {
+  input: [[stickIron, "oc:circuitChip2", "oc:materialTransistor"]
+          [stickIron, "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]
+          [craftingToolScrewdriver, nuggetGold, nuggetGold]]
+}
+
+adapter {
+  input: [["oc:cable", "oc:circuitChip1", "oc:cable"]
+          ["", {block="gt.blockcasings", subID=1}, ""]
+          ["oc:materialCircuitBoardPrinted", "oc:cable", craftingToolWrench]]
+}
+cable {
+  type: gt_assembler
+  input: [craftingWireCopper, dustEmerald]
+  count: [8, 1]
+  eu: 32
+  time: 64
+  output: 8
+}
+capacitor {
+  # 7 = CESU
+  input: [["", {item="ic2.blockElectric", subID=7}, ""]
+          [{block="gt.blockcasings", subID=1}, "oc:materialTransistor", {block="gt.blockcasings", subID=1}]
+          ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
+}
+charger {
+  # 2 = Chargepad (MFE)
+  input: [["", plateStainlessSteel, ""]
+          [{item="ic2.blockChargepad", subID=2}, {block="gt.blockcasings", subID=3}, {item="ic2.blockChargepad", subID=2}]
+          ["oc:circuitChip3", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
+}
+case1 {
+  input: [[screwAluminium, "oc:materialCircuitBoardPrinted", craftingToolWrench]
+          ["ic2.reactorVentSpread", {block="gt.blockcasings", subID=1}, "ic2.reactorVentSpread"]
+          [screwAluminium, "oc:circuitChip1", craftingToolScrewdriver]]
+}
+case2 {
+  input: [[screwStainlessSteel , "oc:materialCircuitBoardPrinted", craftingToolWrench]
+          ["ic2.reactorVentGold", "oc:case1", "ic2.reactorVentGold"]
+          [screwStainlessSteel, "oc:circuitChip2", craftingToolScrewdriver]]
+}
+case3 {
+  input: [[screwTitanium , "oc:materialCircuitBoardPrinted", craftingToolWrench]
+          ["ic2.reactorVentDiamond", "oc:case2", "ic2.reactorVentDiamond"]
+          [screwTitanium, "oc:circuitChip3", craftingToolScrewdriver]]
+}
+diskDrive {
+  input: [["", "oc:circuitChip2", ""]
+          [craftingPiston, {block="gt.blockcasings", subID=1}, craftingLensWhite]
+          ["oc:circuitChip2", craftingToolWrench, "oc:circuitChip2"]]
+}
+# keyboard { fallback to default }
+powerConverter {
+  # 4 = MV Transformer
+  input: [["", "oc:circuitChip2", ""]
+          [plateAluminium, {item="ic2.blockElectric", subID=4}, plateAluminium]
+          ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
+}
+powerDistributor {
+  # 7 = CESU
+  input: [["", plateAluminium, ""]
+          [{item="ic2.blockElectric", subID=7}, {block="gt.blockcasings", subID=2}, circuitMaster]
+          ["oc:materialCircuitBoardPrinted", plateAluminium, craftingToolWrench]]
+}
+serverRack {
+  input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
+          ["ic2.reactorVentDiamond", chest, "ic2.reactorVentDiamond"]
+          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+}
+redstone {
+  # 32731 = Activity Detector
+  input: [[plateRedstone, "oc:materialCircuitBoardPrinted", plateRedstone]
+          [{item="gt.metaitem.01", subID=32731}, {block="gt.blockcasings", subID=2}, "oc:redstoneCard1"]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
+}
+switch {
+  input: [["", "oc:lanCard", ""]
+          ["oc:cable", {block="gt.blockcasings", subID=2}, "oc:cable"]
+          ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]
+}
+screen1 {
+  input: [[plateAluminium, plateAluminium, craftingToolWrench]
+          [redstone, "oc:materialTransistor", thinGlass]
+          [plateAluminium, plateAluminium, craftingToolScrewdriver]]
+}
+screen2 {
+  input: [[plateStainlessSteel, screwStainlessSteel, craftingToolWrench]
+          ["oc:circuitChip2", "oc:screen1", {item="gt.metaitem.01", subID=32740}]
+          [plateStainlessSteel, screwStainlessSteel, craftingToolScrewdriver]]
+}
+screen3 {
+  input: [[plateTitanium, "oc:materialCircuitBoardPrinted", craftingToolWrench]
+          ["oc:circuitChip3", "oc:screen2", "oc:circuitChip3"]
+          [plateTitanium, "oc:materialCircuitBoardPrinted", craftingToolScrewdriver]]
+}
