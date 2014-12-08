@@ -2,7 +2,8 @@
 
 import mods.gregtech.Centrifuge;
 
-//Forbidden Magic
+//remove Recipes
+remove.recipes(<ForbiddenMagic:FMResource>);
 
 //Emerald Nugget
 Centrifuge.addRecipe([<ForbiddenMagic:FMResource> * 9], <minecraft:emerald>, 0, 1200);
