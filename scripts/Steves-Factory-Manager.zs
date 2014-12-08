@@ -15,7 +15,7 @@ val InventoryCable = <StevesFactoryManager:BlockCableName>;
 val Screen = <OpenComputers:screen1>;
 val Computer = <ore:oc:server1>;
 val LVPiston = <gregtech:gt.metaitem.01:32640>;
-val RedAlloyWire = <RedLogic:redlogic.wire:16384>;
+val RedAlloyWire = <ProjRed|Transmission:projectred.transmission.framewire>;
 val GTSaw = <gregtech:gt.metatool.01:10>;
 val GTHammer = <gregtech:gt.metatool.01:12>;
 
