@@ -1,12 +1,11 @@
 // ******** Created by Arch-Nihil ********
 
-
-
 // *======= Importing Stuff =======*
 
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
+import mods.ic2.Macerator;
 
 
 import mods.nei.NEI;
@@ -289,6 +288,9 @@ recipes.remove(StorageComponent64K);
 Compressor.addRecipe(FluixBlock, PureFluixCrystal * 9);
 Compressor.addRecipe(FluixBlock, FluixCrystal * 4);
 Compressor.addRecipe(CertusQBlock, PureCertusQCrystal * 9);
+
+//Fluix Dust
+Macerator.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:8> * 4, <appliedenergistics2:tile.BlockFluix>);
 
 // --- ME Controller
 recipes.addShaped(MEController, [

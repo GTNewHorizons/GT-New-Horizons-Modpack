@@ -4,6 +4,7 @@
 
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
+import mods.ic2.Macerator;
 
 //remove Recipes
 
@@ -29,6 +30,9 @@ recipes.remove(<AdvancedSolarPanel:hybrid_solar_helmet>);
 recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
 
 //add Recipes Shaped
+
+//Sunnarium Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2318>, <AdvancedSolarPanel:asp_crafting_items>);
 
 //Machines and Parts
 
