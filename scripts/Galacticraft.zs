@@ -3,6 +3,7 @@
 
 //Mod Import
 
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
 import mods.ic2.Macerator;
@@ -30,6 +31,10 @@ recipes.remove(<GalacticraftCore:tile.sealer>);
 recipes.remove(<GalacticraftCore:tile.oxygenDetector>);
 //Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.oxygenPipe>);
+//Refinery
+recipes.remove(<GalacticraftCore:tile.refinery>);
+//Fuel Loader
+recipes.remove(<GalacticraftCore:tile.fuelLoader>);
 //Sealable Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:1>);
 //Fuel Loader
@@ -77,6 +82,24 @@ recipes.remove(<GalacticraftCore:item.basicItem:12>);
 recipes.remove(<GalacticraftCore:item.basicItem>);
 //Full Solar Panel
 recipes.remove(<GalacticraftCore:item.basicItem:1>);
+//Coal Generator
+recipes.remove(<GalacticraftCore:tile.machine>);
+//Compressor
+recipes.remove(<GalacticraftCore:tile.machine:12>);
+//Electric Compressor
+recipes.remove(<GalacticraftCore:tile.machine2>);
+//Circuit Fabricator
+recipes.remove(<GalacticraftCore:tile.machine2:4>);
+//Energy Storage Module
+recipes.remove(<GalacticraftCore:tile.machineTiered>);
+//Electric Furnace
+recipes.remove(<GalacticraftCore:tile.machineTiered:4>);
+//Energy Storage Cluster
+recipes.remove(<GalacticraftCore:tile.machineTiered:8>);
+//Electric Arc Furnace
+recipes.remove(<GalacticraftCore:tile.machineTiered:12>);
+//Glowstone Torch
+recipes.remove(<GalacticraftCore:tile.glowstoneTorch>);
 
 //add Recipes
 
@@ -225,6 +248,24 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:1>, [
 [<gregtech:gt.metaitem.01:32750>, <gregtech:gt.metaitem.01:32750>, <gregtech:gt.metaitem.01:32750>],
 [<GalacticraftCore:tile.aluminumWire>, <ore:waferBasic>, <GalacticraftCore:tile.aluminumWire>],
 [<gregtech:gt.metaitem.01:32750>, <gregtech:gt.metaitem.01:32750>, <gregtech:gt.metaitem.01:32750>]]);
+
+//Energy Storage Module
+recipes.addShaped(<GalacticraftCore:tile.machineTiered>, [
+[<ore:compressedSteel>, <GalacticraftCore:item.battery:100>, <ore:compressedSteel>],
+[<GalacticraftCore:item.battery:100>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32518>],
+[<ore:compressedSteel>, <gregtech:gt.metaitem.01:32518>, <ore:compressedSteel>]]);
+
+//Energy Storage Cluster
+recipes.addShaped(<GalacticraftCore:tile.machineTiered:8>, [
+[<GalacticraftCore:tile.machineTiered>, <ore:compressedTitanium>, <GalacticraftCore:tile.machineTiered>],
+[<ore:waferAdvanced>, <gregtech:gt.metaitem.01:32538>, <ore:waferAdvanced>],
+[<GalacticraftCore:tile.machineTiered>, <ore:compressedTitanium>, <GalacticraftCore:tile.machineTiered>]]);
+
+
+//Assembler Recipes
+
+//Glowstone Torch
+Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_torch>, <minecraft:glowstone_dust>, 200, 16);
 
 //Compressor Recipes
 
