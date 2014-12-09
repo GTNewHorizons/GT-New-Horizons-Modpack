@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL---for DreamCraft2.00
+//Created by DreamMasterXXL
 //Thanks to Invultri and Kirara Server
 
 //Mod Import
