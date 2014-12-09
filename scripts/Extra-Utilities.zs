@@ -21,11 +21,37 @@ val TSteelRod = <ore:stickTungstenSteel>;
 val UpgradeBase = <ExtraUtilities:enderQuarryUpgrade>;
 val SeptupleCobble = <ExtraUtilities:cobblestone_compressed:6>;
 val QuadDirt = <ExtraUtilities:cobblestone_compressed:11>;
-val SilkyJewel = <TConstruct:materials:26>;
+val Plank = <ore:plankWood>;
 val HardDiamondGear = <RotaryCraft:rotarycraft_item_enginecraft:11>;
 val StainlessPipe = <ore:pipeSmallStainlessSteel>;
 val Paintbrush = <ExtraUtilities:paintbrush>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
+val SilkyJewel = <TConstruct:materials:26>;
+
+val RedAlloyRod = <ore:stickRedAlloy>;
+val SteelPlate = <ore:plateSteel>;
+val SSteelPlate = <ore:plateStainlessSteel>;
+val SteelFoil = <ore:foilSteel>;
+val SteelScrew = <ore:screwSteel>;
+val RedAlloyPlate = <ore:plateRedAlloy>;
+val RedAlloyFoil = <ore:foilRedAlloy>;
+val ElectrumPlate = <ore:plateElectrum>;
+val ElectrumFoil = <ore:foilElectrum>;
+val NANDChip = <ore:circuitPrimitive>;
+val BasicCircuit = <ore:circuitBasic>;
+
+val TransferPipe = <ExtraUtilities:pipes>;
+val SortingPipe = <ExtraUtilities:pipes:8>;
+val FilterPipe = <ExtraUtilities:pipes:9>;
+val RationingPipe = <ExtraUtilities:pipes:10>;
+val EnergyPipe = <ExtraUtilities:pipes:11>;
+val CrossoverPipe = <ExtraUtilities:pipes:12>;
+val ModSortingPipe = <ExtraUtilities:pipes:13>;
+val EExtractionPipe = <ExtraUtilities:pipes:14>;
+
+val HHammer = <ore:craftingToolHardHammer>;
+val Wrench = <ore:craftingToolWrench>;
+val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 
@@ -90,6 +116,34 @@ recipes.remove(<ExtraUtilities:enderQuarryUpgrade:9>);
 recipes.remove(Paintbrush);
 
 
+// ||||| Pipes |||||
+
+
+// --- Transfer Pipe
+recipes.remove(TransferPipe);
+
+// --- Sorting Pipe
+recipes.remove(SortingPipe);
+
+// --- Filter Pipe
+recipes.remove(FilterPipe);
+
+// --- Rationing Pipe
+recipes.remove(RationingPipe);
+
+// --- Energy Pipe
+recipes.remove(EnergyPipe);
+
+// --- Crossover Pipe
+recipes.remove(CrossoverPipe);
+
+// --- Mod Sorting Pipe
+recipes.remove(ModSortingPipe);
+
+// --- Energy Extraction Pipe
+recipes.remove(EExtractionPipe);
+
+
 // ||||| Compressed Blocks |||||
 
 
@@ -145,17 +199,18 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 
 // #======= Add Recipes =======#
 
+
 // --- Ender Quarry
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [
-[EnderCore, <BuildCraft|Factory:machineBlock>, EnderCore],
+[EnderCore, Plank, EnderCore],
 [EnderPump, DiamondMatrix, EnderPump],
-[EnderCore, <BuildCraft|Factory:machineBlock>, EnderCore]]);
+[EnderCore, Plank, EnderCore]]);
 
 // --- Ender-Thermic Pump
 recipes.addShaped(EnderPump, [
-[EnderObsidian, <BuildCraft|Factory:pumpBlock>, EnderObsidian],
+[EnderObsidian, Plank, EnderObsidian],
 [<OpenBlocks:tank>, EnderCore, <OpenBlocks:tank>],
-[EnderObsidian, <BuildCraft|Factory:pumpBlock>, EnderObsidian]]);
+[EnderObsidian, Plank, EnderObsidian]]);
 
 // --- Burnt Quartz
 AlloySmelter.addRecipe(BurntQuartz, <minecraft:quartz_block>, <gregtech:gt.metaitem.01:2816>, 80, 64);
@@ -187,7 +242,7 @@ recipes.addShaped(<ExtraUtilities:curtains> * 2, [
 // --- Glowstone Glass
 recipes.addShaped(<ExtraUtilities:decorativeBlock2:7>, [
 [<ore:dustGlowstone>, <ore:plateGlowstone>, <ore:dustGlowstone>],
-[<ore:plateGlowstone>, <TConstruct:GlassBlock>, <ore:plateGlowstone>],
+[<ore:plateGlowstone>, Plank, <ore:plateGlowstone>],
 [<ore:dustGlowstone>, <ore:plateGlowstone>, <ore:dustGlowstone>]]);
 
 // --- Quarry Upgrade Base
@@ -255,3 +310,65 @@ recipes.addShaped(Paintbrush, [
 [null, WovenCloth, WovenCloth],
 [null, <ore:stickWood>, WovenCloth],
 [<ore:stickWood>, null, null]]);
+
+
+// ||||| Pipes |||||
+
+
+// --- Transfer Pipe
+recipes.addShaped(TransferPipe, [
+[SteelFoil, SteelPlate, SteelFoil],
+[Wrench, RedAlloyRod, HHammer],
+[SteelFoil, SteelPlate, SteelFoil]]);
+
+// --- Sorting Pipe
+recipes.addShaped(SortingPipe, [
+[SteelFoil, NANDChip, SteelFoil],
+[Wrench, TransferPipe, HHammer],
+[SteelFoil, NANDChip, SteelFoil]]);
+
+// --- Filter Pipe
+recipes.addShaped(FilterPipe, [
+[SteelFoil, BasicCircuit, SteelFoil],
+[Wrench, SortingPipe, HHammer],
+[SteelFoil, BasicCircuit, SteelFoil]]);
+
+// --- Rationing Pipe
+recipes.addShaped(RationingPipe, [
+[SteelFoil, NANDChip, SteelFoil],
+[Wrench, SortingPipe, HHammer],
+[SteelFoil, NANDChip, SteelFoil]]);
+
+// --- Energy Pipe
+recipes.addShaped(EnergyPipe, [
+[RedAlloyFoil, RedAlloyPlate, RedAlloyFoil],
+[Wrench, TransferPipe, HHammer],
+[RedAlloyFoil, RedAlloyPlate, RedAlloyFoil]]);
+
+// --- Crossover Pipe
+recipes.addShaped(CrossoverPipe * 4, [
+[HHammer, TransferPipe, SteelScrew],
+[TransferPipe, TransferPipe, TransferPipe],
+[SteelScrew, TransferPipe, Screwdriver]]);
+// - Alternate Recipe
+recipes.addShaped(CrossoverPipe * 4, [
+[Screwdriver, TransferPipe, SteelScrew],
+[TransferPipe, TransferPipe, TransferPipe],
+[SteelScrew, TransferPipe, HHammer]]);
+
+// --- Mod Sorting Pipe
+recipes.addShaped(ModSortingPipe, [
+[SteelFoil, BasicCircuit, SteelFoil],
+[Wrench, TransferPipe, HHammer],
+[SteelFoil, BasicCircuit, SteelFoil]]);
+
+// --- Energy Extraction Pipe
+recipes.addShaped(EExtractionPipe, [
+[ElectrumPlate, HHammer, ElectrumPlate],
+[ElectrumPlate, EnergyPipe, ElectrumPlate],
+[Wrench, EnergyPipe, null]]);
+// - Alternate Recipe
+recipes.addShaped(EExtractionPipe, [
+[ElectrumPlate, HHammer, ElectrumPlate],
+[ElectrumFoil, EnergyPipe, ElectrumFoil],
+[null, EnergyPipe, Wrench]]);
