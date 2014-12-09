@@ -1,4 +1,4 @@
 ArchDreamCraft
 ==============
 
-New Modpack with Gregtech and Thaumcraft
+New Modpack with Gregtech and Thaumcraft and much more
