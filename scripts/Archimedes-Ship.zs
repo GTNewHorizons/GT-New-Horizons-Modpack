@@ -11,13 +11,33 @@
 
 val ShipsHelm = <ArchimedesShips:marker>;
 val Floater = <ArchimedesShips:floater>;
+val Gauge = <ArchimedesShips:gauge>;
+val SecondGauge = <ArchimedesShips:gauge:1>;
+val Seat = <ArchimedesShips:seat>;
+val SBuffer = <ArchimedesShips:buffer>;
+val SteamEngine = <ArchimedesShips:engine>;
+val WoodCrate = <ArchimedesShips:crate_wood>;
 
 val Plank = <ore:plankWood>;
 val AlPlate = <ore:plateAluminium>;
 val AlGear = <ore:gearAluminium>;
+val AlRing = <ore:ringAluminium>;
+val Leather = <minecraft:leather>;
+val MagnesiumPlate = <ore:plateMagnesium>;
 val MagnesiumFoil = <ore:foilMagnesium>;
+val GoldRing = <ore:ringGold>;
+val SteelRing = <ore:ringSteel>;
+val SteelPlate = <ore:plateSteel>;
+val SteelScrew = <ore:screwSteel>;
+val RedAlloyRod = <ore:stickRedAlloy>;
 val CompressedAirCell = <IC2:itemCellEmpty:5>;
 val HeliumCell = <ore:cellHelium_3>;
+val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
+val Boiler = <gregtech:gt.blockmachines:101>;
+val SteelRotor = <gregtech:gt.metaitem.01:32622>;
+val IronBars = <minecraft:iron_bars>;
+
+val Screwdriver = <ore:craftingToolScrewdriver>;
 
 val Balloon = <ArchimedesShips:balloon>;
 val OrangeBalloon = <ArchimedesShips:balloon:1>;
@@ -82,23 +102,69 @@ recipes.remove(ShipsHelm);
 // --- Floater
 recipes.remove(Floater);
 
-// --- Air Balloons
+// --- Passenger Seat
+recipes.remove(Seat);
+
+// --- Shore Buffer
+recipes.remove(SBuffer);
+
+// --- Steam Engine
+recipes.remove(SteamEngine);
+
+// --- Measurement Gauges
+recipes.remove(Gauge);
+recipes.remove(SecondGauge);
+
+// --- Air Balloon
 recipes.remove(Balloon);
+
+// --- Orange Air Balloon
 recipes.remove(OrangeBalloon);
+
+// --- Magenta Air Balloon
 recipes.remove(MagentaBalloon);
+
+// --- Light Blue Air Balloon
 recipes.remove(LightBlueBalloon);
+
+// --- Yellow Air Balloon
 recipes.remove(YellowBalloon);
+
+// --- Lime Air Balloon
 recipes.remove(LimeBalloon);
+
+// --- Pink Air Balloon
 recipes.remove(PinkBalloon);
+
+// --- Gray Air Balloon
 recipes.remove(GrayBalloon);
+
+// --- Light Gray Air Balloon
 recipes.remove(LightGrayBalloon);
+
+// --- Cyan Air Balloon
 recipes.remove(CyanBalloon);
+
+// --- Purple Air Balloon
 recipes.remove(PurpleBalloon);
+
+// --- Blue Air Balloon
 recipes.remove(BlueBalloon);
+
+// --- Brown Air Balloon
 recipes.remove(BrownBalloon);
+
+// --- Green Air Balloon
 recipes.remove(GreenBalloon);
+
+// --- Red Air Balloon
 recipes.remove(RedBalloon);
+
+// --- Black Air Balloon
 recipes.remove(BlackBalloon);
+
+// --- Wooden Crate
+recipes.remove(WoodCrate);
 
 
 // *======= Adding Back Recipes =======*
@@ -115,6 +181,36 @@ recipes.addShaped(Floater, [
 [AnyWool, CompressedAirCell, AnyWool],
 [CompressedAirCell, MagnesiumFoil, CompressedAirCell],
 [AnyWool, CompressedAirCell, AnyWool]]);
+
+// --- Passenger Seat
+recipes.addShapedMirrored(Seat, [
+[null, AnyWool, CarpentersBlock],
+[AnyWool, AnyWool, CarpentersBlock],
+[AlPlate, CarpentersBlock, AlPlate]]);
+
+// --- Shore Buffer
+recipes.addShaped(SBuffer * 3, [
+[SteelScrew, Screwdriver, SteelScrew],
+[SteelPlate, SteelPlate, SteelPlate],
+[Floater, Floater, Floater]]);
+
+// --- Steam Engine
+recipes.addShaped(SteamEngine, [
+[AlPlate, IronBars, AlPlate],
+[MagnesiumPlate, Boiler, SteelRotor],
+[AlPlate, MagnesiumPlate, AlPlate]]);
+
+// --- Measurement Gauges
+recipes.addShaped(Gauge, [
+[AlPlate, GoldRing, AlPlate],
+[GoldRing, RedAlloyRod, SteelRing],
+[AlPlate, SteelRing, AlPlate]]);
+
+// --- Second Measurement Gauges
+recipes.addShaped(SecondGauge, [
+[AlPlate, SteelRing, AlPlate],
+[SteelRing, RedAlloyRod, GoldRing],
+[AlPlate, GoldRing, AlPlate]]);
 
 // --- Air Balloon
 recipes.addShaped(Balloon, [
@@ -256,6 +352,12 @@ recipes.addShaped(BlackBalloon, [
 // - Alternate Recipe
 recipes.addShapeless(BlackBalloon,
 [Balloon, BlackDye]);
+
+// --- Wooden Crate
+recipes.addShaped(WoodCrate, [
+[Leather, AlRing, Leather],
+[Leather, null, Leather],
+[CarpentersBlock, CarpentersBlock, CarpentersBlock]]);
 
 
 // #======= Hiding Stuff =======#
