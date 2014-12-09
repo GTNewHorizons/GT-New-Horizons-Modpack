@@ -37,8 +37,21 @@ val RedAlloyPlate = <ore:plateRedAlloy>;
 val RedAlloyFoil = <ore:foilRedAlloy>;
 val ElectrumPlate = <ore:plateElectrum>;
 val ElectrumFoil = <ore:foilElectrum>;
+val EnderPearlPlate = <ore:plateEnderPearl>;
+val EnderEyePlate = <ore:plateEnderEye>;
+val SteelGear = <ore:gearSteel>;
+val TitaniumGear = <ore:gearTitanium>;
+val TitaniumPlate = <ore:plateTitanium>;
 val NANDChip = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
+val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
+val LVPump = <gregtech:gt.metaitem.01:32610>;
+val LVEnergyBuffer = <gregtech:gt.blockmachines:171>;
+val HVEnergyBuffer = <gregtech:gt.blockmachines:173>;
+val CopperCable12x = <ore:cableGt12Copper>;
+val ElectrumCable12x = <ore:cableGt12Electrum>;
+val BrassItemPipe = <ore:pipeMediumBrass>;
+val OBTank = <OpenBlocks:tank>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -48,6 +61,12 @@ val EnergyPipe = <ExtraUtilities:pipes:11>;
 val CrossoverPipe = <ExtraUtilities:pipes:12>;
 val ModSortingPipe = <ExtraUtilities:pipes:13>;
 val EExtractionPipe = <ExtraUtilities:pipes:14>;
+val ItemRetrievalN = <ExtraUtilities:extractor_base_remote>;
+val FluidRetrievalN = <ExtraUtilities:extractor_base_remote:6>;
+val ItemTransferN = <ExtraUtilities:extractor_base>;
+val FluidTransferN = <ExtraUtilities:extractor_base:6>;
+val EnergyTransferN = <ExtraUtilities:extractor_base:12>;
+val HyperETransferN = <ExtraUtilities:extractor_base:13>;
 
 val HHammer = <ore:craftingToolHardHammer>;
 val Wrench = <ore:craftingToolWrench>;
@@ -142,6 +161,24 @@ recipes.remove(ModSortingPipe);
 
 // --- Energy Extraction Pipe
 recipes.remove(EExtractionPipe);
+
+// --- Item Retrieval Node
+recipes.remove(ItemRetrievalN);
+
+// --- Fluid Retrieval Node
+recipes.remove(FluidRetrievalN);
+
+// --- Item Tranfer Node
+recipes.remove(ItemTransferN);
+
+// --- Fluid Transfer Node
+recipes.remove(FluidTransferN);
+
+// --- Energy Transfer Node
+recipes.remove(EnergyTransferN);
+
+// --- Hyper Energy Transfer Node
+recipes.remove(HyperETransferN);
 
 
 // ||||| Compressed Blocks |||||
@@ -372,3 +409,69 @@ recipes.addShaped(EExtractionPipe, [
 [ElectrumPlate, HHammer, ElectrumPlate],
 [ElectrumFoil, EnergyPipe, ElectrumFoil],
 [null, EnergyPipe, Wrench]]);
+
+// --- Item Retrieval Node
+recipes.addShaped(ItemRetrievalN, [
+[Wrench, TransferPipe, HHammer],
+[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[ItemTransferN, ItemTransferN, ItemTransferN]]);
+// - Alternate Recipe
+recipes.addShaped(ItemRetrievalN, [
+[HHammer, TransferPipe, Wrench],
+[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[ItemTransferN, ItemTransferN, ItemTransferN]]);
+
+// --- Fluid Retrieval Node
+recipes.addShaped(FluidRetrievalN, [
+[Wrench, TransferPipe, HHammer],
+[EnderPearlPlate, OBTank, EnderPearlPlate],
+[FluidTransferN, FluidTransferN, FluidTransferN]]);
+// - Alternate Recipe
+recipes.addShaped(FluidRetrievalN, [
+[HHammer, TransferPipe, Wrench],
+[EnderPearlPlate, OBTank, EnderPearlPlate],
+[FluidTransferN, FluidTransferN, FluidTransferN]]);
+
+// --- Item Tranfer Node
+recipes.addShaped(ItemTransferN, [
+[HHammer, TransferPipe, Wrench],
+[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[SteelGear, BrassItemPipe, SteelGear]]);
+// - Alternate Recipe
+recipes.addShaped(ItemTransferN, [
+[Wrench, TransferPipe, HHammer],
+[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[SteelGear, BrassItemPipe, SteelGear]]);
+
+// --- Fluid Transfer Node
+recipes.addShaped(FluidTransferN, [
+[HHammer, TransferPipe, Wrench],
+[EnderPearlPlate, OBTank, EnderPearlPlate],
+[SSteelPlate, LVPump, SSteelPlate]]);
+// - Alternate Recipe
+recipes.addShaped(FluidTransferN, [
+[Wrench, TransferPipe, HHammer],
+[EnderPearlPlate, OBTank, EnderPearlPlate],
+[SSteelPlate, LVPump, SSteelPlate]]);
+
+// --- Energy Transfer Node
+recipes.addShaped(EnergyTransferN, [
+[HHammer, TransferPipe, Wrench],
+[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
+[SteelPlate, CopperCable12x, SteelPlate]]);
+// - Alternate Recipe
+recipes.addShaped(EnergyTransferN, [
+[Wrench, TransferPipe, HHammer],
+[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
+[SteelPlate, CopperCable12x, SteelPlate]]);
+
+// --- Hyper Energy Transfer Node
+recipes.addShaped(HyperETransferN, [
+[HHammer, TransferPipe, Wrench],
+[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
+[TitaniumPlate, ElectrumCable12x, TitaniumPlate]]);
+// - Alternate Recipe
+recipes.addShaped(HyperETransferN, [
+[Wrench, TransferPipe, HHammer],
+[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
+[TitaniumPlate, ElectrumCable12x, TitaniumPlate]]);
