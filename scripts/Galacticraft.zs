@@ -4,6 +4,7 @@
 //Mod Import
 
 import mods.gregtech.Assembler;
+import mods.gregtech.Canner;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
 import mods.gregtech.ImplosionCompressor;
@@ -172,6 +173,16 @@ recipes.remove(<GalacticraftCore:item.buggymat:1>);
 recipes.remove(<GalacticraftCore:item.buggymat:2>);
 //Standard Wrenche
 recipes.remove(<GalacticraftCore:item.standardWrench>);
+//Can of Food
+recipes.remove(<GalacticraftCore:item.basicItem:15>);
+recipes.remove(<GalacticraftCore:item.basicItem:16>);
+recipes.remove(<GalacticraftCore:item.basicItem:17>);
+recipes.remove(<GalacticraftCore:item.basicItem:18>);
+//Frequencey Module
+recipes.remove(<GalacticraftCore:item.basicItem:19>);
+//Battery
+recipes.remove(<GalacticraftCore:item.battery:*>);
+
 
 //add Recipes
 
@@ -354,7 +365,7 @@ recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 //Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [<ore:plateDesh>,<ore:plateDesh>,<ore:plateDesh>],
-[<ore:plateDesh>, <GalacticraftCore:item.battery>.withTag({electricity: 15000.0 as float}), <RedLogic:redlogic.lampNonCube:128>],
+[<ore:plateDesh>, <GalacticraftCore:item.battery:*>, <RedLogic:redlogic.lampNonCube:128>],
 [<ore:plateDesh>, <ore:plateDesh>, <ore:plateDesh>]]);
 
 //Oxygen Mask
@@ -547,6 +558,16 @@ recipes.addShaped(<gregtech:gt.blockcasings4:15>, [
 [<ore:craftingToolHardHammer>, <GalacticraftMars:item.null:3>, <ore:plateDesh>],
 [<ore:craftingToolWrench>, <ore:boltTungstenSteel>, <ore:boltTungstenSteel>]]);
 
+//Frequencey Module
+recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
+[<ore:compressedAluminium>, <gregtech:gt.metaitem.01:32690>, <ore:compressedAluminium>],
+[<ore:waferBasic>, <gregtech:gt.metaitem.01:32740>, <ore:waferBasic>],
+[<ore:compressedTin>, <GalacticraftCore:item.battery:3>, <ore:compressedTin>]]);
+
+//Battery
+recipes.addShapeless(<GalacticraftCore:item.battery:*>, [<gregtech:gt.metaitem.01:32500>]);
+
+
 //Standard Wrenche
 recipes.addShapeless(<GalacticraftCore:item.standardWrench>, [<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "Steel", MaxDamage: 51200 as long, SecondaryMaterial: "Steel"}})]);
 
@@ -558,6 +579,22 @@ Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_
 
 //Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
+
+//Basic Wafer
+Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, 1600, 2);
+
+//Advanced Wafer
+Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32711> * 4, 3200, 4);
+
+
+//Canner Recipes
+
+//Food Cans
+Canner.addRecipe(<GalacticraftCore:item.basicItem:15>, <minecraft:apple> * 6, <GalacticraftCore:item.canister>, 800, 1);
+Canner.addRecipe(<GalacticraftCore:item.basicItem:16>, <minecraft:carrot> * 8, <GalacticraftCore:item.canister>, 800, 1);
+Canner.addRecipe(<GalacticraftCore:item.basicItem:17>,<minecraft:melon> * 8, <GalacticraftCore:item.canister>, 800, 1);
+Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, <GalacticraftCore:item.canister>, 800, 1);
+
 
 //Compressor Recipes
 
@@ -578,7 +615,18 @@ Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <gregtech:gt.metaitem.01:
 //Steel Pole
 Extruder.addRecipe(<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
 
-//Implusion Compressor
+//Furnace Recipes
+
+//Ilmenite Ore
+furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
+//Titan Shards
+furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
+//Desh Ore
+furnace.remove(<*>, <GalacticraftMars:tile.mars:2>);
+//Desh Shards
+furnace.remove(<*>, <GalacticraftMars:item.null>);
+
+//Implusion Compressor Recipes
 
 //Compressed Copper Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:17035> * 2, 4);
@@ -620,7 +668,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2340> * 9, <GalacticraftCore:tile.g
 
 Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
 
-//Plate Bender
+//Plate Bender Recipes
 
 //Tin Canister
 PlateBender.addRecipe(<GalacticraftCore:item.canister> , <GalacticraftCore:item.basicItem:7> * 2, 200, 8);
