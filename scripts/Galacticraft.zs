@@ -6,6 +6,7 @@
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
+import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 import mods.gregtech.VacuumFreezer;
@@ -145,6 +146,30 @@ recipes.remove(<GalacticraftCore:item.steel_boots>);
 recipes.remove(<GalacticraftCore:item.canister>);
 //Copper Canister
 recipes.remove(<GalacticraftCore:item.canister:1>);
+//Oxygen Vent
+recipes.remove(<GalacticraftCore:item.airVent>);
+//Oxygen Fan
+recipes.remove(<GalacticraftCore:item.airFan>);
+//Oxygen Concentrator
+recipes.remove(<GalacticraftCore:item.oxygenConcentrator>);
+//Tier 1 Rocket Engine
+recipes.remove(<GalacticraftCore:item.engine>);
+//Tier 1 Booster
+recipes.remove(<GalacticraftCore:item.engine:1>);
+//Nose Cone
+recipes.remove(<GalacticraftCore:item.noseCone>);
+//Steel Pole
+recipes.remove(<GalacticraftCore:item.steelPole>);
+//Canister
+recipes.remove(<GalacticraftCore:item.oilCanisterPartial:1001>);
+//Oil Extractor
+recipes.remove(<GalacticraftCore:item.oilExtractor>);
+//Buggy Wheel
+recipes.remove(<GalacticraftCore:item.buggymat>);
+//Buggy Seat
+recipes.remove(<GalacticraftCore:item.buggymat:1>);
+//Buggy Storage Box
+recipes.remove(<GalacticraftCore:item.buggymat:2>);
 
 //add Recipes
 
@@ -442,6 +467,65 @@ recipes.addShaped(<GalacticraftCore:item.steel_boots>, [
 [<ore:compressedSteel>, <ore:craftingToolHardHammer>, <ore:compressedSteel>],
 [null, null, null]]);
 
+//Oxygen Vent
+recipes.addShaped(<GalacticraftCore:item.airVent>, [
+[<minecraft:iron_bars>, <ore:compressedTin>, <minecraft:iron_bars>],
+[<ore:compressedTin>, <ore:compressedSteel>, <ore:compressedTin>],
+[<minecraft:iron_bars>, <ore:compressedTin>, <minecraft:iron_bars>]]);
+
+//Oxygen Fan
+recipes.addShaped(<GalacticraftCore:item.airFan>, [
+[<ore:screwSteel>, null, <ore:screwSteel>],
+[<gregtech:gt.metaitem.01:32622>, <ore:waferBasic>, <gregtech:gt.metaitem.01:32622>],
+[<ore:screwSteel>, null, <ore:screwSteel>]]);
+
+//Oxygen Concentrator
+recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
+[<ore:compressedSteel>, <GalacticraftCore:item.airVent>, <ore:compressedSteel>],
+[<ore:compressedSteel>, <GalacticraftCore:item.airFan>, <ore:compressedSteel>],
+[<GalacticraftCore:item.canister>, <gregtech:gt.metaitem.01:32610>, <GalacticraftCore:item.canister>]]);
+
+//Tier 1 Rocket Engine
+recipes.addShaped(<GalacticraftCore:item.engine>, [
+[<gregtech:gt.metaitem.01:32731>, <gregtech:gt.metaitem.01:32476>, <minecraft:stone_button>],
+[<GalacticraftCore:item.heavyPlating>, <gregtech:gt.blockcasings4:3>, <GalacticraftCore:item.heavyPlating>],
+[<GalacticraftCore:item.heavyPlating>, null, <GalacticraftCore:item.heavyPlating>]]);
+
+//Tier 1 Booster
+recipes.addShaped(<GalacticraftCore:item.engine:1>, [
+[<ore:plateMeteoricIron>, <ore:plateMeteoricIron>, <ore:plateMeteoricIron>],
+[<GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.fuelCanisterPartial:1>, <GalacticraftCore:item.heavyPlating>],
+[<GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.airVent>, <GalacticraftCore:item.heavyPlating>]]);
+
+//Nose Cone
+recipes.addShaped(<GalacticraftCore:item.noseCone>, [
+[null, <RedLogic:redlogic.lampNonCube:142>, null],
+[null, <GalacticraftCore:item.heavyPlating>, null],
+[<GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.heavyPlating>]]);
+
+//Oil Extractor
+recipes.addShaped(<GalacticraftCore:item.oilExtractor>, [
+[<ore:pipeTinySteel>, null, null],
+[null, <GalacticraftCore:item.oilCanisterPartial:1001>, <ore:compressedBronze>],
+[<minecraft:stone_button>, <ore:compressedBronze>, <ore:compressedBronze>]]);
+
+//Buggy Wheel
+recipes.addShaped(<GalacticraftCore:item.buggymat>, [
+[<ore:compressedSteel>, <ore:plateRubber>, <ore:compressedSteel>],
+[<ore:plateRubber>, <ore:compressedTitanium>, <ore:plateRubber>],
+[<ore:compressedSteel>, <ore:plateRubber>, <ore:compressedSteel>]]);
+
+//Buggy Seat
+recipes.addShaped(<GalacticraftCore:item.buggymat:1>, [
+[null, <IC2:blockRubber>, <ore:compressedSteel>],
+[<IC2:blockRubber>, <IC2:blockRubber>, <ore:compressedSteel>],
+[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]]);
+
+//Buggy Storage Box
+recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
+[<ore:compressedSteel>, <IC2:blockRubber>, <ore:compressedSteel>],
+[<ore:compressedSteel>, <IronChest:BlockIronChest>, <ore:compressedSteel>],
+[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]]);
 
 
 
@@ -449,6 +533,9 @@ recipes.addShaped(<GalacticraftCore:item.steel_boots>, [
 
 //Glowstone Torch
 Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_torch>, <minecraft:glowstone_dust>, 200, 16);
+
+//Canister
+Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
 //Compressor Recipes
 
@@ -464,7 +551,35 @@ Extruder.addRecipe(<GalacticraftCore:tile.oxygenPipe> *2 , <IC2:blockAlloyGlass>
 Extruder.addRecipe(<GalacticraftCore:item.canister>, <gregtech:gt.metaitem.01:17057> * 2, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
 
 //Copper Canister
-Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <gregtech:gt.metaitem.01:17035> * 2, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
+Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <gregtech:gt.metaitem.01:17057> * 2, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
+
+//Steel Pole
+Extruder.addRecipe(<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
+
+//Implusion Compressor
+
+//Compressed Copper Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:17035> * 2, 4);
+
+//Compressed Tin Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:17057> * 2, 4);
+
+//Compressed Aluminium Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:17019> * 2, 4);
+
+//Compressed Steel Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:9>, <Railcraft:part.plate:1> * 2, 4);
+
+//Compressed Bronze Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:17300> * 2, 4);
+
+//Compressed Titanium Plates
+ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:17028> * 2, 4);
+
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:7>, tinyPileDarkAshes], GCingotDesh * 2, 2);
+ImplosionCompressor.addRecipe([plateHeavyDuty, tinyPileStainlessSteel * 2], plateNailed, 2);
+ImplosionCompressor.addRecipe([plateHeavyDutyT2, tinyPileTungsten * 2], plateNailedT2, 2);
+ImplosionCompressor.addRecipe([plateHeavyDutyT3, tinyPileTungstenSteel * 2], plateNailedT3, 2);
 
 //Macerator Recipes
 
