@@ -112,7 +112,6 @@ Found creative tab: twilightForest
 Found creative tab: undergroundBiomesBlocks
 Found creative tab: undergroundBiomesItems
 Found creative tab: warptheory.tab
-Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: tabChiselBlocks
@@ -135,39 +134,39 @@ Bootstrap setting found. Loading: Bootstrap.js
 Loading: vanilla.js
 override called. Params: minecraft, portal
 hide called. Params: minecraft, portal
-Found ItemStack minecraft:portal. 32xtile.portal@0
+Found ItemStack minecraft:portal. 64xtile.portal@0
 override called. Params: minecraft, end_portal
 hide called. Params: minecraft, end_portal
-Found ItemStack minecraft:end_portal. 32xtile.null@0
+Found ItemStack minecraft:end_portal. 64xtile.null@0
 override called. Params: minecraft, fire
 hide called. Params: minecraft, fire
-Found ItemStack minecraft:fire. 32xtile.fire@0
+Found ItemStack minecraft:fire. 64xtile.fire@0
 override called. Params: minecraft, water
 hide called. Params: minecraft, water
-Found ItemStack minecraft:water. 32xtile.water@0
+Found ItemStack minecraft:water. 64xtile.water@0
 override called. Params: minecraft, lava
 hide called. Params: minecraft, lava
-Found ItemStack minecraft:lava. 32xtile.lava@0
+Found ItemStack minecraft:lava. 64xtile.lava@0
 override called. Params: minecraft, mob_spawner
 hide called. Params: minecraft, mob_spawner
-Found ItemStack minecraft:mob_spawner. 16xtile.mobSpawner@0
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
 override called. Params: potion, 0
 override called. Params: minecraft, potion
 Found ItemStack minecraft:potion. 1xitem.potion@0
 override called. Params: spawn_egg, 0
 override called. Params: minecraft, spawn_egg
-Found ItemStack minecraft:spawn_egg. 32xitem.monsterPlacer@0
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_14
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_14
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_11
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_11
 Loading: ExtraUtilities.js
 override called. Params: drum, 0,1
 override called. Params: ExtraUtilities, drum
-Found ItemStack ExtraUtilities:drum. 16xtile.extrautils:drum@0
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_6
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_6
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_12
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_12
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 override called. Params: *, 0
@@ -176,59 +175,59 @@ Wildcard found in parameters. Running through RegxEngine...
 Regx match found! BiblioCraft:* matches BiblioCraft:Armor.
 Cannot find ItemStack BiblioCraft:Armor
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBell.
-Found ItemStack BiblioCraft:BiblioBell. 11xtile.BiblioBell@0
+Found ItemStack BiblioCraft:BiblioBell. 64xtile.BiblioBell@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBorderlessPainting.
-Found ItemStack BiblioCraft:BiblioBorderlessPainting. 32xtile.BiblioBorderlessPainting@0
+Found ItemStack BiblioCraft:BiblioBorderlessPainting. 64xtile.BiblioBorderlessPainting@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioCase.
-Found ItemStack BiblioCraft:BiblioCase. 32xtile.BiblioCase@0
+Found ItemStack BiblioCraft:BiblioCase. 64xtile.BiblioCase@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioClock.
-Found ItemStack BiblioCraft:BiblioClock. 32xtile.BiblioClock@0
+Found ItemStack BiblioCraft:BiblioClock. 64xtile.BiblioClock@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioDesk.
-Found ItemStack BiblioCraft:BiblioDesk. 32xtile.BiblioDesk@0
+Found ItemStack BiblioCraft:BiblioDesk. 64xtile.BiblioDesk@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancyPainting.
-Found ItemStack BiblioCraft:BiblioFancyPainting. 32xtile.BiblioFancyPainting@0
+Found ItemStack BiblioCraft:BiblioFancyPainting. 64xtile.BiblioFancyPainting@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancySign.
-Found ItemStack BiblioCraft:BiblioFancySign. 32xtile.BiblioFancySign@0
+Found ItemStack BiblioCraft:BiblioFancySign. 64xtile.BiblioFancySign@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFlatPainting.
-Found ItemStack BiblioCraft:BiblioFlatPainting. 32xtile.BiblioFlatPainting@0
+Found ItemStack BiblioCraft:BiblioFlatPainting. 64xtile.BiblioFlatPainting@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLamp.
-Found ItemStack BiblioCraft:BiblioIronLamp. 11xtile.BiblioIronLamp@0
+Found ItemStack BiblioCraft:BiblioIronLamp. 64xtile.BiblioIronLamp@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLantern.
-Found ItemStack BiblioCraft:BiblioIronLantern. 11xtile.BiblioIronLantern@0
+Found ItemStack BiblioCraft:BiblioIronLantern. 64xtile.BiblioIronLantern@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLabel.
-Found ItemStack BiblioCraft:BiblioLabel. 32xtile.BiblioLabel@0
+Found ItemStack BiblioCraft:BiblioLabel. 64xtile.BiblioLabel@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLamp.
-Found ItemStack BiblioCraft:BiblioLamp. 11xtile.BiblioLamp@0
+Found ItemStack BiblioCraft:BiblioLamp. 64xtile.BiblioLamp@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLantern.
-Found ItemStack BiblioCraft:BiblioLantern. 11xtile.BiblioLantern@0
+Found ItemStack BiblioCraft:BiblioLantern. 64xtile.BiblioLantern@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMapFrames.
-Found ItemStack BiblioCraft:BiblioMapFrames. 32xtile.BiblioMapFrames@0
+Found ItemStack BiblioCraft:BiblioMapFrames. 64xtile.BiblioMapFrames@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMiddlePainting.
-Found ItemStack BiblioCraft:BiblioMiddlePainting. 32xtile.BiblioMiddlePainting@0
+Found ItemStack BiblioCraft:BiblioMiddlePainting. 64xtile.BiblioMiddlePainting@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPaintPress.
-Found ItemStack BiblioCraft:BiblioPaintPress. 11xtile.BiblioPaintPress@0
+Found ItemStack BiblioCraft:BiblioPaintPress. 64xtile.BiblioPaintPress@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPotionShelf.
-Found ItemStack BiblioCraft:BiblioPotionShelf. 32xtile.BiblioPotionShelf@0
+Found ItemStack BiblioCraft:BiblioPotionShelf. 64xtile.BiblioPotionShelf@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioRack.
-Found ItemStack BiblioCraft:BiblioRack. 32xtile.BiblioRack@0
+Found ItemStack BiblioCraft:BiblioRack. 64xtile.BiblioRack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSeats.
-Found ItemStack BiblioCraft:BiblioSeats. 32xtile.BiblioSeats@0
+Found ItemStack BiblioCraft:BiblioSeats. 64xtile.BiblioSeats@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioShelf.
-Found ItemStack BiblioCraft:BiblioShelf. 32xtile.BiblioShelf@0
+Found ItemStack BiblioCraft:BiblioShelf. 64xtile.BiblioShelf@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSimplePainting.
-Found ItemStack BiblioCraft:BiblioSimplePainting. 32xtile.BiblioSimplePainting@0
+Found ItemStack BiblioCraft:BiblioSimplePainting. 64xtile.BiblioSimplePainting@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioStuffs.
-Found ItemStack BiblioCraft:BiblioStuffs. 16xtile.BiblioStuffs@0
+Found ItemStack BiblioCraft:BiblioStuffs. 64xtile.BiblioStuffs@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSwordPedestal.
-Found ItemStack BiblioCraft:BiblioSwordPedestal. 16xtile.BiblioSwordPedestal@0
+Found ItemStack BiblioCraft:BiblioSwordPedestal. 64xtile.BiblioSwordPedestal@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTable.
-Found ItemStack BiblioCraft:BiblioTable. 32xtile.BiblioTable@0
+Found ItemStack BiblioCraft:BiblioTable. 64xtile.BiblioTable@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTypewriter.
-Found ItemStack BiblioCraft:BiblioTypewriter. 11xtile.BiblioTypewriter@0
+Found ItemStack BiblioCraft:BiblioTypewriter. 64xtile.BiblioTypewriter@0
 Regx match found! BiblioCraft:* matches BiblioCraft:BiblioWorkbench.
-Found ItemStack BiblioCraft:BiblioWorkbench. 32xtile.BiblioWorkbench@0
+Found ItemStack BiblioCraft:BiblioWorkbench. 64xtile.BiblioWorkbench@0
 Regx match found! BiblioCraft:* matches BiblioCraft:Bibliotheca.
-Found ItemStack BiblioCraft:Bibliotheca. 32xtile.BiblioBookcase@0
+Found ItemStack BiblioCraft:Bibliotheca. 64xtile.BiblioBookcase@0
 Regx match found! BiblioCraft:* matches BiblioCraft:Printing.
 Cannot find ItemStack BiblioCraft:Printing
 Regx match found! BiblioCraft:* matches BiblioCraft:Typesetting.
@@ -238,7 +237,7 @@ Found ItemStack BiblioCraft:item.AtlasBook. 1xitem.AtlasBook@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.AtlasPlate.
 Found ItemStack BiblioCraft:item.AtlasPlate. 1xitem.AtlasPlate@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioChase.
-Found ItemStack BiblioCraft:item.BiblioChase. 32xitem.BiblioChase@0
+Found ItemStack BiblioCraft:item.BiblioChase. 64xitem.BiblioChase@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioClipboard.
 Found ItemStack BiblioCraft:item.BiblioClipboard. 1xitem.BiblioClipboard@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioCreativeLock.
@@ -250,19 +249,19 @@ Found ItemStack BiblioCraft:item.BiblioGlasses. 1xitem.BiblioGlasses@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioMapTool.
 Found ItemStack BiblioCraft:item.BiblioMapTool. 1xitem.BiblioMapTool@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioRedBook.
-Found ItemStack BiblioCraft:item.BiblioRedBook. 32xitem.BiblioRedBook@0
+Found ItemStack BiblioCraft:item.BiblioRedBook. 64xitem.BiblioRedBook@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioWayPointCompass.
 Found ItemStack BiblioCraft:item.BiblioWayPointCompass. 1xitem.BiblioWayPointCompass@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.BigBook.
 Found ItemStack BiblioCraft:item.BigBook. 1xitem.BigBook@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.DeathCompass.
-Found ItemStack BiblioCraft:item.DeathCompass. 32xitem.DeathCompass@0
+Found ItemStack BiblioCraft:item.DeathCompass. 64xitem.DeathCompass@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.EnchantedPlate.
 Found ItemStack BiblioCraft:item.EnchantedPlate. 1xitem.EnchantedPlate@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.HandDrill.
 Found ItemStack BiblioCraft:item.HandDrill. 1xitem.HandDrill@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.PaintingCanvas.
-Found ItemStack BiblioCraft:item.PaintingCanvas. 32xitem.PaintingCanvas@0
+Found ItemStack BiblioCraft:item.PaintingCanvas. 64xitem.PaintingCanvas@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.PrintPlate.
 Found ItemStack BiblioCraft:item.PrintPlate. 1xitem.PrintPlate@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.RecipeBook.
@@ -272,17 +271,17 @@ Found ItemStack BiblioCraft:item.SlottedBook. 1xitem.SlottedBook@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.TesterItem.
 Found ItemStack BiblioCraft:item.TesterItem. 1xitem.TesterItem@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack.
-Found ItemStack BiblioCraft:item.seatBack. 32xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack. 64xitem.seatBack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack2.
-Found ItemStack BiblioCraft:item.seatBack2. 32xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack2. 64xitem.seatBack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack3.
-Found ItemStack BiblioCraft:item.seatBack3. 32xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack3. 64xitem.seatBack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack4.
-Found ItemStack BiblioCraft:item.seatBack4. 32xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack4. 64xitem.seatBack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack5.
-Found ItemStack BiblioCraft:item.seatBack5. 32xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack5. 64xitem.seatBack@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.tape.
-Found ItemStack BiblioCraft:item.tape. 32xitem.tape@0
+Found ItemStack BiblioCraft:item.tape. 64xitem.tape@0
 Regx match found! BiblioCraft:* matches BiblioCraft:item.tapeMeasure.
 Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Cannot find ItemStack BiblioCraft:*
@@ -291,22 +290,22 @@ getFacadeItem called.
 getSubTypes called.
 getNumberOfTypes called. Returned: 1967
 The function override_item is deprecated. Please use override instead! This function will be removed in a future version!
-override called. Params: item.ItemFacade, 1451
+override called. Params: item.ItemFacade, 38
 override called. Params: appliedenergistics2, item.ItemFacade
-Found ItemStack appliedenergistics2:item.ItemFacade. 32xitem.appliedenergistics2.ItemFacade@0
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
 override called. Params: tool*, 0
 override called. Params: TConstruct, tool*
 Wildcard found in parameters. Running through RegxEngine...
 Regx match found! TConstruct:tool* matches TConstruct:toolRod.
-Found ItemStack TConstruct:toolRod. 32xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
 Regx match found! TConstruct:tool* matches TConstruct:toolShard.
-Found ItemStack TConstruct:toolShard. 32xitem.tconstruct.ToolShard@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
 Cannot find ItemStack TConstruct:tool*
 override called. Params: binding, 0
 override called. Params: TConstruct, binding
-Found ItemStack TConstruct:binding. 32xitem.tconstruct.Binding@0
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
 override called. Params: scytheBlade, 0
 override called. Params: TConstruct, scytheBlade
-Found ItemStack TConstruct:scytheBlade. 32xitem.tconstruct.ScytheHead@0
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
 Loading: MFR.js
