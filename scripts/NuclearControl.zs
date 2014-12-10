@@ -1,5 +1,8 @@
 //Created by DreamMaster
 
+//Imports
+import mods.gregtech.Assembler;
+
 //remove Recipes
 
 //Thermal Monitor
@@ -140,3 +143,22 @@ recipes.addShaped(<IC2NuclearControl:ItemUpgrade:1>, [
 [<ore:dyeRed>, <ore:dyeYellow>, <ore:dyeGreen>],
 [<ore:dyeWhite>, <ore:circuitAdvanced>, <ore:dyeMagenta>],
 [<ore:dyeBlack>, <ore:dyeCyan>, <ore:dyeBlue>]]);
+
+//Assembler Recripes
+
+//Remote Sensor Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemRemoteSensorKit>, <IC2NuclearControl:ItemToolDigitalThermometer:*>, <IC2:itemFreq>, 1600, 2);
+//Energy Sensor Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemEnergySensorKit>, <gregtech:gt.metaitem.01:32734>, <IC2:itemFreq>, 1600, 2);
+//Counter Sensor Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemMultipleSensorKit>, <gregtech:gt.metaitem.01:32731>, <IC2:itemFreq>, 1600, 2);
+//Liquid Sensor Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemMultipleSensorKit:1>, <gregtech:gt.metaitem.01:32732>, <IC2:itemFreq>, 1600, 2);
+//Generator Sensor Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemMultipleSensorKit:2>, <IC2:upgradeModule:2>, <IC2:itemFreq>, 1600, 2);
+//Time Card
+Assembler.addRecipe(<IC2NuclearControl:ItemTimeCard>, <minecraft:clock>, <IC2:itemFreq>, 1600, 2);
+//Range Upgrade
+Assembler.addRecipe(<IC2NuclearControl:ItemUpgrade>, <gregtech:gt.metaitem.01:32690>, <IC2:itemFreq>, 1600, 2);
+//Text Card
+Assembler.addRecipe(<IC2NuclearControl:ItemTextCard>, <gregtech:gt.metaitem.01:32740>, <IC2:itemFreq>, 1600, 2);

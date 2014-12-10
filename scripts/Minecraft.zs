@@ -2089,5 +2089,9 @@ recipes.addShapeless(<minecraft:melon_seeds>, [<ore:craftingToolHardHammer>, <mi
 //Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
+
+//remove Charcoal
+furnace.remove(<minecraft:coal:1>);
+
 // #======= Hiding Stuff =======#
 

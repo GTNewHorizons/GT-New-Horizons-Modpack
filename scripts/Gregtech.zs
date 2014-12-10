@@ -1,5 +1,9 @@
 //Created by DreamMasterXXL
 
+//Imports
+import mods.gregtech.Assembler;
+import mods.gregtech.Wiremill;
+
 //remove Recipes
 
 //Diamond Sword Blade
@@ -67,6 +71,7 @@ recipes.addShaped(<gregtech:gt.blockcasings:8>, [
 [<ore:plateAlloyIridium>, <ore:craftingToolWrench>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
 
+
 //Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
@@ -120,3 +125,25 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2317> *3,
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 [<gregtech:gt.metatool.01:34>, null, null],
 [<gregtech:gt.metaitem.01:17809>, null, null]]);
+
+//Assembler Recipes
+
+//Low Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:21>, <IC2:blockElectric:3>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
+//Medium Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:22>, <IC2:blockElectric:4>, <gregtech:gt.blockmachines:1366> * 2, 250, 128);
+//High Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <gregtech:gt.blockmachines:1426> * 2, 200, 512);
+//Extreme Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
+
+//Wiremill Recipes
+
+//Copper Wire
+Wiremill.addRecipe(<IC2:itemCable:1>, <gregtech:gt.blockmachines:1360>, 400, 4);
+//Gold Wire
+Wiremill.addRecipe(<IC2:itemCable:2>, <gregtech:gt.blockmachines:1420>, 600, 4);
+//Iron Wire
+Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
+//Tin Wire
+Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);

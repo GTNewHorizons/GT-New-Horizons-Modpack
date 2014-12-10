@@ -1,6 +1,9 @@
 //Created by SteamT
 //Many Changes and Addons by DreamMasterXXL
 
+//Imports
+import mods.gregtech.Assembler;
+
 //remove Recipes
 
 //Rolling Machine
@@ -187,6 +190,12 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:2>, [
 [<ore:plateGold>, <ore:gemEnderEye>, <ore:plateGold>],
 [<ore:plateEmerald>, <ore:plateDenseObsidian>, <ore:plateEmerald>]]);
 
+//World Anchor
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha>, [
+[<ore:plateDiamond>, <ore:plateDenseObsidian>, <ore:plateDiamond>],
+[<ore:plateGold>, <ore:gemEnderEye>, <ore:plateGold>],
+[<ore:plateDiamond>, <ore:plateDenseObsidian>, <ore:plateDiamond>]]);
+
 //Steel Tank Wall
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:13> *4, [
 [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>],
@@ -243,3 +252,47 @@ recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
 [<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickSteel>],
 [<ore:dyeRed>, <ore:stickSteel>, <ore:dyeRed>],
 [<ore:stickSteel>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+
+//Assembler Recipes
+
+//Work Cart
+Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
+//Personal Anchor Cart
+Assembler.addRecipe(<Railcraft:cart.anchor.personal>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.alpha:2>, 400, 4); 
+//World Anchor Cart
+Assembler.addRecipe(<Railcraft:cart.anchor>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.alpha>, 400, 4);
+//Tank Cart
+Assembler.addRecipe(<Railcraft:cart.tank>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.beta:1>, 400, 4);
+//Batbox Cart
+Assembler.addRecipe(<Railcraft:cart.energy.batbox>, <minecraft:minecart>, <IC2:blockElectric>, 400, 4);
+//CESU Cart
+Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blockElectric:7>, 400, 4);
+//MFE Cart
+Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 400, 4);
+
+//Rolling Machine
+
+//Iron Plates
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
+//Steel Plates
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
+//Tin Plates
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
+//Copper Plates
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
+
+//Iron Plates
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], 
+[<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+
+//Steel Plates
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
+[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>]]);
+
+//Tin Plates
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<gregtech:gt.metaitem.01:11057>, <gregtech:gt.metaitem.01:11057>], 
+[<gregtech:gt.metaitem.01:11057>, <gregtech:gt.metaitem.01:11057>]]);
+
+//Copper Plates
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>], 
+[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
