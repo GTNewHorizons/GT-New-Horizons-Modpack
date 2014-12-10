@@ -26,7 +26,7 @@ val AlRod = <ore:stickAluminium>;
 val ClearPane = <TConstruct:GlassPane>;
 val Moss = <BiomesOPlenty:moss>;
 val MossyCobble = <minecraft:mossy_cobblestone>;
-val MossyStoneBricks = <minecraft:stonebrick>;
+val MossyStoneBricks = <minecraft:mossy_stonebrick>;
 
 
 
