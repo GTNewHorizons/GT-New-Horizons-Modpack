@@ -17,12 +17,16 @@ val CastingBasin = <TConstruct:SearedBlock:2>;
 val String = <minecraft:string>;
 val SilkyCloth = <TConstruct:materials:25>;
 val SilkyJewel = <TConstruct:materials:26>;
+val BallOfMoss = <TConstruct:materials:6>;
 val EnderBlock = <TConstruct:MetalBlock:10>;
 val StoneTorch = <ore:torchStone>;
 val EmptyCanister = <TConstruct:heartCanister>;
 val AlPlate = <ore:plateAluminium>;
 val AlRod = <ore:stickAluminium>;
 val ClearPane = <TConstruct:GlassPane>;
+val Moss = <BiomesOPlenty:moss>;
+val MossyCobble = <minecraft:mossy_cobblestone>;
+val MossyStoneBricks = <minecraft:stonebrick>;
 
 
 
@@ -135,6 +139,9 @@ recipes.remove(SilkyCloth);
 // --- Silky Jewel
 recipes.remove(SilkyJewel);
 
+// --- Ball Of Moss
+recipes.remove(BallOfMoss);
+
 
 
 // #======= Adding Back Recipes =======#
@@ -174,6 +181,11 @@ recipes.addShaped(SilkyJewel, [
 [SilkyCloth, <ore:BlockDiamond>, SilkyCloth],
 [SilkyCloth, SilkyCloth, SilkyCloth]]);
 
+// --- Ball Of Moss
+recipes.addShaped(BallOfMoss, [
+[Moss, MossyCobble, Moss],
+[MossyCobble, MossyStoneBricks, MossyCobble],
+[Moss, MossyCobble, Moss]]);
 
 
 // #======= Hiding Stuff =======#
