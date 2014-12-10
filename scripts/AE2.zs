@@ -392,6 +392,11 @@ recipes.addShaped(FluixPearl, [
 [PureFluixCrystal, EnderEyePlate, PureFluixCrystal],
 [EnderEyePlate, EnderPearl, EnderEyePlate],
 [PureFluixCrystal, EnderEyePlate, PureFluixCrystal]]);
+// - Alternate Recipe
+recipes.addShaped(FluixPearl, [
+[FluixCrystal, EnderEyePlate, FluixCrystal],
+[EnderEyePlate, EnderPearl, EnderEyePlate],
+[FluixCrystal, EnderEyePlate, FluixCrystal]]);
 
 // --- Wireless Receiver
 recipes.addShaped(WirelessReceiver, [
@@ -661,6 +666,10 @@ recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
 //128³ Spatial Storage Cell
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
+//Nether Quartz Knife
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>);
+//Nether Quartz Wrench
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzWrench>);
 
 //ME Quantum Ring
 recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [
@@ -888,27 +897,42 @@ recipes.addShapeless(<appliedenergistics2:item.ItemBasicStorageCell.64k>,
 
 //2³ Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
-[<ore:plateGlass>, <ore:plateRedAlloy>, <ore:plateGlass>],
-[<ore:plateRedAlloy>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateRedAlloy>],
-[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+[HHammer, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:32>, SteelPlate],
+[QuartziteScrew, AlPlate, Screwdriver]]);
+// - Alternative Recipe
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
+[Screwdriver, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:32>, SteelPlate],
+[QuartziteScrew, AlPlate, HHammer]]);
 
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:32>]);
 
 //16³ Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
-[<ore:plateGlass>, <ore:plateRedAlloy>, <ore:plateGlass>],
-[<ore:plateRedAlloy>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateRedAlloy>],
-[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+[HHammer, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:33>, SteelPlate],
+[QuartziteScrew, AlPlate, Screwdriver]]);
+// - Alternative Recipe
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
+[Screwdriver, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:33>, SteelPlate],
+[QuartziteScrew, AlPlate, HHammer]]);
 
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:33>]);
 
 //128³ Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [
-[<ore:plateGlass>, <ore:plateRedAlloy>, <ore:plateGlass>],
-[<ore:plateRedAlloy>, <appliedenergistics2:item.ItemMultiMaterial:34>, <ore:plateRedAlloy>],
-[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+[HHammer, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:34>, SteelPlate],
+[QuartziteScrew, AlPlate, Screwdriver]]);
+// - Alternative Recipe
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [
+[Screwdriver, CertusPlate, QuartziteScrew],
+[SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:34>, SteelPlate],
+[QuartziteScrew, AlPlate, HHammer]]);
 
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:34>]);
@@ -918,6 +942,12 @@ recipes.addShaped(<appliedenergistics2:item.ToolCertusQuartzWrench>, [
 [<appliedenergistics2:item.ItemMultiMaterial:1>, <ore:craftingToolWrench>, <appliedenergistics2:item.ItemMultiMaterial:1>],
 [<appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial:1>],
 [null, <appliedenergistics2:item.ItemMultiMaterial:1>, null]]);
+
+//Nether Quartz Wrench
+recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzWrench>, [
+[<ore:gemQuartz>, <ore:craftingToolWrench>, <ore:gemQuartz>],
+[<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
+[null, <ore:gemQuartz>, null]]);
 
 //Matter Cannon
 recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>, [
