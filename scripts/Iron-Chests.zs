@@ -31,12 +31,12 @@ val Steel2GoldUp = <IronChest:silverGoldUpgrade>;
 val Wood2CopperUp = <IronChest:woodCopperUpgrade>;
 val Wood2IronUp = <IronChest:woodIronUpgrade>;
 
-val DenseCopperPlate = <ore:plateDenseCopper>;
-val DenseIronPlate = <ore:plateDenseIron>;
-val DenseSteelPlate = <ore:plateDenseSteel>;
-val DenseGoldPlate = <ore:plateDenseGold>;
+val CopperPlate = <ore:plateCopper>;
+val IronPlate = <ore:plateAnyIron>;
+val SteelPlate = <ore:plateSteel>;
+val GoldPlate = <ore:plateGold>;
 val DiamondPlate = <ore:plateDiamond>;
-val DenseObsidianPlate = <ore:plateDenseObsidian>;
+val ObsidianPlate = <ore:plateObsidian>;
 
 val CopperRod = <ore:stickCopper>;
 val IronRod = <ore:stickIron>;
@@ -78,27 +78,27 @@ recipes.remove(Wood2IronUp);
 
 // --- Copper Chest
 recipes.addShaped(CopperChest, [
-[CopperRod, DenseCopperPlate, CopperRod],
-[DenseCopperPlate, Chest, DenseCopperPlate],
-[CopperRod, DenseCopperPlate, CopperRod]]);
+[CopperRod, CopperPlate, CopperRod],
+[CopperPlate, Chest, CopperPlate],
+[CopperRod, CopperPlate, CopperRod]]);
 
 // --- Iron Chest
 recipes.addShaped(IronChest, [
-[IronRod, DenseIronPlate, IronRod],
-[DenseIronPlate, CopperChest, DenseIronPlate],
-[IronRod, DenseIronPlate, IronRod]]);
+[IronRod, IronPlate, IronRod],
+[IronPlate, CopperChest, IronPlate],
+[IronRod, IronPlate, IronRod]]);
 
 // --- Steel Chest
 recipes.addShaped(SteelChest, [
-[SteelRod, DenseSteelPlate, SteelRod],
-[DenseSteelPlate, IronChest, DenseSteelPlate],
-[SteelRod, DenseSteelPlate, SteelRod]]);
+[SteelRod, SteelPlate, SteelRod],
+[SteelPlate, IronChest, SteelPlate],
+[SteelRod, SteelPlate, SteelRod]]);
 
 // --- Gold Chest
 recipes.addShaped(GoldChest, [
-[GoldRod, DenseGoldPlate, GoldRod],
-[DenseGoldPlate, SteelChest, DenseGoldPlate],
-[GoldRod, DenseGoldPlate, GoldRod]]);
+[GoldRod, GoldPlate, GoldRod],
+[GoldPlate, SteelChest, GoldPlate],
+[GoldRod, GoldPlate, GoldRod]]);
 
 // --- Diamond Chest
 recipes.addShaped(DiamondChest, [
@@ -114,9 +114,9 @@ recipes.addShaped(CrystalChest, [
 
 // --- Obsidian Chest
 recipes.addShaped(ObsidianChest, [
-[ObsidianRod, DenseObsidianPlate, ObsidianRod],
-[DenseObsidianPlate, DiamondChest, DenseObsidianPlate],
-[ObsidianRod, DenseObsidianPlate, ObsidianRod]]);
+[ObsidianRod, ObsidianPlate, ObsidianRod],
+[ObsidianPlate, DiamondChest, ObsidianPlate],
+[ObsidianRod, ObsidianPlate, ObsidianRod]]);
 
 
 // ||||| Upgrades |||||
@@ -124,15 +124,15 @@ recipes.addShaped(ObsidianChest, [
 
 // --- Copper To Iron Upgrade
 recipes.addShaped(Copper2IronUp, [
-[IronRod, DenseIronPlate, IronRod],
-[DenseIronPlate, CarpentersBlock, DenseIronPlate],
-[IronRod, DenseIronPlate, IronRod]]);
+[IronRod, IronPlate, IronRod],
+[IronPlate, CarpentersBlock, IronPlate],
+[IronRod, IronPlate, IronRod]]);
 
 // --- Copper To Steel Upgrade
 recipes.addShaped(Copper2SteelUp, [
-[SteelRod, DenseSteelPlate, SteelRod],
-[DenseSteelPlate, IronChest, DenseSteelPlate],
-[SteelRod, DenseSteelPlate, SteelRod]]);
+[SteelRod, SteelPlate, SteelRod],
+[SteelPlate, IronChest, SteelPlate],
+[SteelRod, SteelPlate, SteelRod]]);
 
 // --- Diamond To Crystal Upgrade
 recipes.addShaped(Diamond2CrystalUp, [
@@ -142,9 +142,9 @@ recipes.addShaped(Diamond2CrystalUp, [
 
 // --- Diamond To Obsidian Upgrade
 recipes.addShaped(Diamond2ObsidianUp, [
-[ObsidianRod, DenseObsidianPlate, ObsidianRod],
-[DenseObsidianPlate, CarpentersBlock, DenseObsidianPlate],
-[ObsidianRod, DenseObsidianPlate, ObsidianRod]]);
+[ObsidianRod, ObsidianPlate, ObsidianRod],
+[ObsidianPlate, CarpentersBlock, ObsidianPlate],
+[ObsidianRod, ObsidianPlate, ObsidianRod]]);
 
 // --- Gold To Diamond Upgrade
 recipes.addShaped(Gold2DiamondUp, [
@@ -154,27 +154,27 @@ recipes.addShaped(Gold2DiamondUp, [
 
 // --- Iron To Gold Upgrade
 recipes.addShaped(Iron2GoldUp, [
-[GoldRod, DenseGoldPlate, GoldRod],
-[DenseGoldPlate, SteelChest, DenseGoldPlate],
-[GoldRod, DenseGoldPlate, GoldRod]]);
+[GoldRod, GoldPlate, GoldRod],
+[GoldPlate, SteelChest, GoldPlate],
+[GoldRod, GoldPlate, GoldRod]]);
 
 // --- Steel To Gold Upgrade
 recipes.addShaped(Steel2GoldUp, [
-[SteelRod, DenseSteelPlate, SteelRod],
-[DenseSteelPlate, CarpentersBlock, DenseSteelPlate],
-[SteelRod, DenseSteelPlate, SteelRod]]);
+[SteelRod, SteelPlate, SteelRod],
+[SteelPlate, CarpentersBlock, SteelPlate],
+[SteelRod, SteelPlate, SteelRod]]);
 
 // --- Wood To Copper Upgrade
 recipes.addShaped(Wood2CopperUp, [
-[CopperRod, DenseCopperPlate, CopperRod],
-[DenseCopperPlate, CarpentersBlock, DenseCopperPlate],
-[CopperRod, DenseCopperPlate, CopperRod]]);
+[CopperRod, CopperPlate, CopperRod],
+[CopperPlate, CarpentersBlock, CopperPlate],
+[CopperRod, CopperPlate, CopperRod]]);
 
 // --- Wood To Iron Upgrade
 recipes.addShaped(Wood2IronUp, [
-[IronRod, DenseIronPlate, IronRod],
-[DenseIronPlate, CopperChest, DenseIronPlate],
-[IronRod, DenseIronPlate, IronRod]]);
+[IronRod, IronPlate, IronRod],
+[IronPlate, CopperChest, IronPlate],
+[IronRod, IronPlate, IronRod]]);
 
 
 

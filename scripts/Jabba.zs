@@ -13,7 +13,7 @@ import mods.nei.NEI;
 // *======= Variables =======*
 
 
-val IronChest = <IronChest:BlockIronChest>;
+val Chest = <minecraft:chest>;
 val Barrel = <JABBA:barrel>;
 val Log = <ore:logWood>;
 
@@ -142,7 +142,7 @@ recipes.remove(VoidUp);
 // --- Better Barrel
 recipes.addShaped(Barrel, [
 [Log, <ore:slabWood>, Log],
-[Log, IronChest, Log],
+[Log, Chest, Log],
 [Log,Log,Log]]);
 
 // --- Dolly
