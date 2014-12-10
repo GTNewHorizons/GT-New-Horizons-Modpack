@@ -50,8 +50,12 @@ recipes.remove(<Forestry:ffarm:4>);
 recipes.remove(<Forestry:ffarm:5>);
 //Survivalist´s Pickaxe
 recipes.remove(<Forestry:bronzePickaxe>);
+//Pickaxe Kit
+recipes.remove(<Forestry:kitPickaxe>);
 //Survivalist´s Shovel
 recipes.remove(<Forestry:bronzeShovel>);
+//Shovel Kit
+recipes.remove(<Forestry:kitShovel>);
 //Infuser
 recipes.remove(<Forestry:infuser>);
 //Can

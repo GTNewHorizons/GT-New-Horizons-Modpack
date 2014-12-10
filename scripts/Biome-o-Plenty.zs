@@ -14,6 +14,8 @@ recipes.remove(<BiomesOPlenty:dart>);
 recipes.remove(<BiomesOPlenty:scytheDiamond>);
 //Ash Block
 recipes.remove(<BiomesOPlenty:ash>);
+//Coal
+recipes.remove(<minecraft:coal>);
 
 //add Recipes
 

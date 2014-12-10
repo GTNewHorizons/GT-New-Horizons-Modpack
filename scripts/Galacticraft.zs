@@ -811,10 +811,10 @@ Compressor.addRecipe(<GalacticraftMars:tile.mars:8>, <gregtech:gt.metaitem.01:11
 Extruder.addRecipe(<GalacticraftCore:tile.oxygenPipe> *2 , <IC2:blockAlloyGlass>, <gregtech:gt.metaitem.01:32359> * 0, 120, 128);
 
 //Tin Canister
-Extruder.addRecipe(<GalacticraftCore:item.canister>, <gregtech:gt.metaitem.01:17057> * 2, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
+Extruder.addRecipe(<GalacticraftCore:item.canister>, <GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
 
 //Copper Canister
-Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <gregtech:gt.metaitem.01:17057> * 2, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
+Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
 
 //Steel Pole
 Extruder.addRecipe(<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
@@ -878,6 +878,9 @@ Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCo
 
 //Desh Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GalacticraftMars:tile.mars:8>);
+
+//Titanium Shards
+Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
 
 //Plate Bender Recipes
 
