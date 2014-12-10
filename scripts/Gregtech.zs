@@ -109,9 +109,7 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2335> *3,
 recipes.addShapeless(<gregtech:gt.metaitem.01:2335> *3,
 [<ore:dustSteel>, <ore:dustCoal>, <ore:dustManganese>, <ore:dustManganese>, <ore:dustSilicon>, <ore:dustChrome>, <ore:dustChrome>, <ore:dustVanadium>]);
 
-//HSLA Steel Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2322> *3,
-[<ore:dustSteel>, <ore:dustCoal>, <ore:dustManganese>, <ore:dustPhosphorite>, <ore:dustSulfur>, <ore:dustSilicon>]);
+//HSLA Steel Dust removed because it breaks RotaryCraft.
 
 //Shadow Iron Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2336> *3, 
@@ -147,3 +145,7 @@ Wiremill.addRecipe(<IC2:itemCable:2>, <gregtech:gt.blockmachines:1420>, 600, 4);
 Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
 //Tin Wire
 Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);
+
+// - GT Shaped and Shapeless picks removal
+
+recipes.remove(<gregtech:gt.metatool.01:2>);
