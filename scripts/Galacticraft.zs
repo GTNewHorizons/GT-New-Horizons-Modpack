@@ -230,6 +230,24 @@ recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:1>);
 recipes.remove(<GalacticraftMars:item.heavyNoseCone>);
 //Fluid Manipulator
 recipes.remove(<GalacticraftMars:item.null:6>);
+//Red Core
+recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
+//Energy Beam Reflector
+recipes.remove(<GalacticraftMars:tile.beamReflector>);
+//Energy Beam Receiver
+recipes.remove(<GalacticraftMars:tile.beamReceiver>);
+//Short range Teleporter
+recipes.remove(<GalacticraftMars:tile.telepadShort>);
+//Cryogenic Chamber
+recipes.remove(<GalacticraftMars:tile.marsMachine:4>);
+//Terraformer
+recipes.remove(<GalacticraftMars:tile.marsMachine>);
+//Launch Controller
+recipes.remove(<GalacticraftMars:tile.marsMachine:8>);
+//Grappler
+recipes.remove(<GalacticraftMars:item.grapple>);
+//Hydrogen Pipe
+recipes.remove(<GalacticraftMars:tile.hydrogenPipe>);
 
 //add Recipes
 
@@ -677,7 +695,6 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:7> , [
 [<ore:blockWool>, <Thaumcraft:ItemResource:7>, <ore:blockWool>],
 [<ore:foilAluminium>, <ore:blockWool>, <ore:foilAluminium>]]);
 
-
 //Desh Sticks
 recipes.addShapeless(<GalacticraftMars:item.null:1>, [<gregtech:gt.metaitem.01:23884>]);
 
@@ -702,6 +719,53 @@ recipes.addShaped(<GalacticraftMars:item.heavyNoseCone>, [
 [null, <GalacticraftMars:item.itemBasicAsteroids>, null],
 [<GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids>]]);
 
+//Red Core
+recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
+[<ore:ringRedAlloy>, <ore:compressedIron>, <ore:ringRedAlloy>],
+[<ore:compressedIron>, <ore:lensDiamond>, <ore:compressedIron>],
+[<ore:ringRedAlloy>, <ore:compressedIron>, <ore:ringRedAlloy>]]);
+
+//Energy Beam Reflector
+recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
+[<ore:ringDesh>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:ringDesh>],
+[null, <ore:stickDesh>, null],
+[<ore:plateDesh>, <GalacticraftMars:tile.mars:8>, <ore:plateDesh>]]);
+
+//Energy Beam Receiver
+recipes.addShaped(<GalacticraftMars:tile.beamReceiver>, [
+[<ore:compressedTin>, <ore:ringDesh>, <ore:compressedTin>],
+[<ore:ringDesh>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:ringDesh>],
+[<ore:compressedTin>, <ore:ringDesh>, <ore:compressedTin>]]);
+
+//Short range Teleporter
+recipes.addShaped(<GalacticraftMars:tile.telepadShort>, [
+[<ore:compressedTitanium>, <ore:plateDesh>, <ore:compressedTitanium>],
+[<GalacticraftMars:item.itemBasicAsteroids:8>, <IC2:blockMachine2>, <GalacticraftMars:item.itemBasicAsteroids:8>],
+[<ore:compressedTitanium>, <ore:plateDesh>, <ore:compressedTitanium>]]);
+
+//Cryogenic Chamber
+recipes.addShaped(<GalacticraftMars:tile.marsMachine:4>, [
+[<GalacticraftMars:item.itemBasicAsteroids>, <GraviSuite:itemSimpleItem:2>, <GalacticraftMars:item.itemBasicAsteroids>],
+[<GalacticraftMars:item.null:3>, <CarpentersBlocks:itemCarpentersBed>, <GalacticraftMars:item.null:3>],
+[<GalacticraftMars:item.itemBasicAsteroids>, <minecraft:clock>, <GalacticraftMars:item.itemBasicAsteroids>]]);
+
+//Terraformer
+recipes.addShaped(<GalacticraftMars:tile.marsMachine>, [
+[<ore:compressedTitanium>, <GalacticraftCore:item.oxygenConcentrator>, <ore:compressedTitanium>],
+[<ore:plateDesh>, <IC2:blockMachine:15>, <ore:plateDesh>],
+[<gregtech:gt.metaitem.01:32602>, <extracells:certustank>, <gregtech:gt.metaitem.01:32612>]]);
+
+//Launch Controller
+recipes.addShaped(<GalacticraftMars:tile.marsMachine:8>, [
+[<ore:waferAdvanced>, <GalacticraftCore:item.basicItem:19>, <ore:waferAdvanced>],
+[<ore:plateDesh>, <gregtech:gt.blockmachines:11>, <ore:plateDesh>],
+[<ore:cableGt02Aluminium>, <ore:plateDesh>, <ore:cableGt02Aluminium>]]);
+
+//Grappler
+recipes.addShaped(<GalacticraftMars:item.grapple>, [
+[null, null, <ore:toolHeadArrowMeteoricSteel>],
+[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+[<ore:ringMeteoricSteel>, null, null]]);
 
 //Assembler Recipes
 
@@ -717,12 +781,13 @@ Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.
 //Advanced Wafer
 Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32711> * 4, 3200, 4);
 
+//Hydrogen Pipe
+Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, <GalacticraftCore:tile.oxygenPipe>, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
 
 //Blast Furnace Recipes
 
 //Titan Ingot
 BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:11028>, <GalacticraftMars:item.itemBasicAsteroids:4> * 2, null, 1500, 120, 1500);
-
 
 //Canner Recipes
 
@@ -731,7 +796,6 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:15>, <minecraft:apple> * 6, <G
 Canner.addRecipe(<GalacticraftCore:item.basicItem:16>, <minecraft:carrot> * 8, <GalacticraftCore:item.canister>, 800, 1);
 Canner.addRecipe(<GalacticraftCore:item.basicItem:17>,<minecraft:melon> * 8, <GalacticraftCore:item.canister>, 800, 1);
 Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, <GalacticraftCore:item.canister>, 800, 1);
-
 
 //Compressor Recipes
 
@@ -754,7 +818,6 @@ Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <gregtech:gt.metaitem.01:
 
 //Steel Pole
 Extruder.addRecipe(<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
-
 
 //Furnace Recipes
 
@@ -799,7 +862,6 @@ ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.meta
 //Heavy Duty Plats Tier 3
 ImplosionCompressor.addRecipe([<GalacticraftMars:item.itemBasicAsteroids>, <gregtech:gt.metaitem.01:316> * 2],<gregtech:gt.blockcasings4:15>, 32);
 
-
 //Macerator Recipes
 
 //Meteoric Iron Dust
@@ -816,8 +878,6 @@ Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCo
 
 //Desh Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GalacticraftMars:tile.mars:8>);
-
-
 
 //Plate Bender Recipes
 
