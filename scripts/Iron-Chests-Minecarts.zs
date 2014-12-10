@@ -102,9 +102,19 @@ recipes.addShaped(GoldChestCart, [
 
 // --- Minecart With Diamond Chest
 Assembler.addRecipe(DiamondChestCart, DiamondChest, Minecart, 100, 32);
+// --- Alternative recipe
+recipes.addShaped(DiamondChestCart, [
+[null, GTScrewdriver, null],
+[<gregtech:gt.metaitem.01:27500>, DiamondChest, <gregtech:gt.metaitem.01:27500>],
+[<gregtech:gt.metaitem.01:27500>, Minecart, <gregtech:gt.metaitem.01:27500>]]);
 
 // --- Minecart With Crystal Chest
 Assembler.addRecipe(CrystalChestCart, CrystalChest, Minecart, 100, 64);
+// --- Alternative recipe
+recipes.addShaped(CrystalChestCart, [
+[null, GTScrewdriver, null],
+[<gregtech:gt.metaitem.01:27890>, CrystalChest, <gregtech:gt.metaitem.01:27890>],
+[<gregtech:gt.metaitem.01:27890>, Minecart, <gregtech:gt.metaitem.01:27890>]]);
 
 // --- Minecart With  Obsidian Chest
 Assembler.addRecipe(ObsidianChestCart, ObsidianChest, Minecart, 100, 64);

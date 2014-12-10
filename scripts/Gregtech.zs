@@ -67,7 +67,6 @@ recipes.addShaped(<gregtech:gt.blockcasings:8>, [
 [<ore:plateAlloyIridium>, <ore:craftingToolWrench>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
 
-
 //Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
