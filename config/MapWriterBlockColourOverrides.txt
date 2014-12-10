@@ -1,0 +1,27 @@
+block 37 * 60ffff00      # make dandelions more yellow
+block 38 * 60ff0000      # make roses more red
+blocktype 2 * grass      # grass block
+blocktype 8 * water      # still water block
+blocktype 9 * water      # flowing water block
+blocktype 18 * leaves    # leaves block
+blocktype 18 1 opaque    # pine leaves (not biome colorized)
+blocktype 18 2 opaque    # birch leaves (not biome colorized)
+blocktype 31 * grass     # tall grass block
+blocktype 106 * foliage  # vines block
+blocktype 169 * grass    # biomes o plenty holy grass
+blocktype 1920 * grass   # biomes o plenty plant
+blocktype 1923 * opaque  # biomes o plenty leaves 1
+blocktype 1924 * opaque  # biomes o plenty leaves 2
+blocktype 1925 * foliage # biomes o plenty foliage
+blocktype 1926 * opaque  # biomes o plenty fruit leaf block
+blocktype 1932 * foliage # biomes o plenty tree moss
+blocktype 1962 * leaves  # biomes o plenty colorized leaves
+blocktype 2164 * leaves  # twilight forest leaves
+blocktype 2177 * leaves  # twilight forest magic leaves
+blocktype 2204 * leaves  # extrabiomesXL green leaves
+blocktype 2200 * opaque  # extrabiomesXL autumn leaves
+blocktype 3257 * opaque  # natura berry bush
+blocktype 3272 * opaque  # natura darkwood leaves
+blocktype 3259 * leaves  # natura flora leaves
+blocktype 3278 * opaque  # natura rare leaves
+blocktype 3258 * opaque  # natura sakura leaves

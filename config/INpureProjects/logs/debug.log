@@ -159,14 +159,14 @@ Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_8
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_8
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_7
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_7
 Loading: ExtraUtilities.js
 override called. Params: drum, 0,1
 override called. Params: ExtraUtilities, drum
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_8
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_8
+getRandomMaterial called. Returned: tile.Darkleaves3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Darkleaves3
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 override called. Params: *, 0
@@ -290,7 +290,7 @@ getFacadeItem called.
 getSubTypes called.
 getNumberOfTypes called. Returned: 1967
 The function override_item is deprecated. Please use override instead! This function will be removed in a future version!
-override called. Params: item.ItemFacade, 745
+override called. Params: item.ItemFacade, 255
 override called. Params: appliedenergistics2, item.ItemFacade
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
