@@ -148,4 +148,9 @@ Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4)
 
 // - GT Shaped and Shapeless picks removal
 
+recipes.remove(<gregtech:gt.metatool.01);
 recipes.remove(<gregtech:gt.metatool.01:2>);
+recipes.remove(<gregtech:gt.metatool.01:4>);
+recipes.remove(<gregtech:gt.metatool.01:6>);
+recipes.remove(<gregtech:gt.metatool.01:8>);
+recipes.remove(<gregtech:gt.metatool.01:40>);
