@@ -48,6 +48,11 @@ val IronBars = <minecraft:iron_bars>;
 val Cabinet = <ExtraUtilities:filing>;
 val AdvCabinet = <ExtraUtilities:filing:1>;
 val WateringCan = <ExtraUtilities:watering_can:1>;
+val AdvMiner = <IC2:blockMachine2:11>;
+val Miner = <IC2:blockMachine:7>;
+val SSteelGear = <ore:gearStainlessSteel>;
+val CarminiteReactor = <TwilightForest:tile.TFTowerDevice:12>;
+val EssenceBush = <TConstruct:ore.berries.two:9>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -334,15 +339,15 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 
 // --- Ender Quarry
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [
-[EnderCore, Plank, EnderCore],
+[EnderCore, SSteelGear, EnderCore],
 [EnderPump, DiamondMatrix, EnderPump],
-[EnderCore, Plank, EnderCore]]);
+[EnderCore, AdvMiner, EnderCore]]);
 
 // --- Ender-Thermic Pump
 recipes.addShaped(EnderPump, [
-[EnderObsidian, Plank, EnderObsidian],
+[EnderObsidian, BasicCircuit, EnderObsidian],
 [<OpenBlocks:tank>, EnderCore, <OpenBlocks:tank>],
-[EnderObsidian, Plank, EnderObsidian]]);
+[EnderObsidian, Miner, EnderObsidian]]);
 
 // --- Burnt Quartz
 AlloySmelter.addRecipe(BurntQuartz, <minecraft:quartz_block>, <gregtech:gt.metaitem.01:2816>, 80, 64);
@@ -364,6 +369,12 @@ recipes.addShaped(DiamondMatrix, [
 [EnderCore, <ore:plateDiamond>, EnderCore],
 [<ore:plateDiamond>, <ore:circuitMaster>, <ore:plateDiamond>],
 [EnderCore, <ore:plateDiamond>, EnderCore]]);
+
+// --- Magical Wood
+recipes.addShaped(MagicalWood, [
+[EnderEyePlate, EssenceBush, EnderEyePlate],
+[EssenceBush, CarminiteReactor, EssenceBush],
+[EnderEyePlate, EssenceBush, EnderEyePlate]]);
 
 // --- Blackout Curtains
 recipes.addShaped(<ExtraUtilities:curtains> * 2, [
