@@ -18,6 +18,8 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:5>);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
 //Thaumium Ingot
 recipes.remove(<ore:ingotThaumium>);
+//Wooden Wand
+recipes.remove(<Thaumcraft:WandCasting>);
 
 //add Recipes
 
@@ -62,6 +64,12 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "
 [<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickThaumium>],
 [<ore:dyeRed>, <ore:stickThaumium>, <ore:dyeRed>],
 [<ore:stickThaumium>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+
+//Wooden Wand
+recipes.addShaped(<Thaumcraft:WandCasting>, [
+[<TwilightForest:item.fieryBlood>, <TwilightForest:item.carminite>, <Thaumcraft:WandCap>],
+[<TwilightForest:item.carminite>, <ore:stickWood>, <TwilightForest:item.carminite>],
+[<Thaumcraft:WandCap>, <TwilightForest:item.carminite>, <TwilightForest:item.fieryBlood>]]);
 
 //refresh Recipes
 
