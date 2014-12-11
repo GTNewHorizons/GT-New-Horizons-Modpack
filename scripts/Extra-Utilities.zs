@@ -39,11 +39,18 @@ val Cauldron = <minecraft:cauldron>;
 val BedrockiumIngot = <ExtraUtilities:bedrockiumIngot>;
 val BedrockiumBlock = <ExtraUtilities:block_bedrockium>;
 val DarkAshes = <gregtech:gt.metaitem.01:2816>;
+val AngelBlock = <ExtraUtilities:angelBlock>;
+val Conveyor = <ExtraUtilities:conveyor>;
+val MVConveyor = <gregtech:gt.metaitem.01:32631>;
+val MVMotor = <gregtech:gt.metaitem.01:32601>;
+
+val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
+val DiamondGear = <ore:gearDiamond>;
 val HeavyPPlate = <minecraft:heavy_weighted_pressure_plate>;
 val SSteelPlate = <ore:plateStainlessSteel>;
 val SteelFoil = <ore:foilSteel>;
@@ -67,6 +74,9 @@ val CopperCable12x = <ore:cableGt12Copper>;
 val ElectrumCable12x = <ore:cableGt12Electrum>;
 val BrassItemPipe = <ore:pipeMediumBrass>;
 val OBTank = <OpenBlocks:tank>;
+val GoldFoil = <ore:foilRoseGold>;
+val DenseObsidianPlate = <ore:plateDenseObsidian>;
+val HeliumCell = <ore:cellHelium_3>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -149,6 +159,9 @@ recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
 // --- Quarry Pump Upgrade
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:9>);
 
+// --- Speed Upgrade
+recipes.remove(SpeedUp);
+
 // --- Paintbrush
 recipes.remove(Paintbrush);
 
@@ -164,6 +177,12 @@ recipes.remove(BedrockiumIngot);
 // --- Block Of Bedrockium
 recipes.remove(BedrockiumBlock);
 furnace.remove(BedrockiumBlock);
+
+// --- Angel Block
+recipes.remove(AngelBlock);
+
+// --- Conveyor Best
+recipes.remove(Conveyor);
 
 
 // ||||| Pipes |||||
@@ -379,6 +398,12 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 [EnderPump, StainlessPipe, EnderPump],
 [UpgradeBase, EnderPump, UpgradeBase]]);
 
+// --- Speed Upgrade
+recipes.addShaped(SpeedUp, [
+[RedAlloyPlate, SSteelPlate, RedAlloyPlate],
+[SSteelPlate, DiamondGear, SSteelPlate],
+[RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
+
 // --- Paintbrush
 recipes.addShaped(Paintbrush, [
 [null, WovenCloth, WovenCloth],
@@ -402,6 +427,18 @@ BlastFurnace.addRecipe([BedrockiumIngot, DarkAshes * 4], BedrockIngot, <IC2:item
 
 // --- Bedrockium Block
 ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
+
+// --- Angel Block
+recipes.addShaped(AngelBlock, [
+[DenseObsidianPlate, GoldFoil, DenseObsidianPlate],
+[GoldFoil, HeliumCell, GoldFoil],
+[DenseObsidianPlate, GoldFoil, DenseObsidianPlate]]);
+
+// --- Conveyor Belt
+recipes.addShaped(Conveyor, [
+[SSteelPlate, MVConveyor, SSteelPlate],
+[MVConveyor, SteelGear, MVConveyor],
+[SSteelPlate, MVMotor, SSteelPlate]]);
 
 
 // ||||| Pipes |||||
