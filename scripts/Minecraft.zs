@@ -780,47 +780,47 @@ recipes.addShaped(Trapdoor * 2, [
 [WoodSlab, WoodSlab, WoodSlab]]);
 
 // --- Torch
-recipes.addShaped(Torch * 3, [
+recipes.addShapedMirrored(Torch * 3, [
 [Coal, null],
 [Stick, null]]);
 // - Alternate Recipe
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [Charcoal, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch, [
+recipes.addShapedMirrored(Torch, [
 [Beeswax, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 5, [
+recipes.addShapedMirrored(Torch * 5, [
 [CoalCoke, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 3, [
+recipes.addShapedMirrored(Torch * 3, [
 [Rubber, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [Sulfur, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 4, [
+recipes.addShapedMirrored(Torch * 4, [
 [Phosphorous, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [AnyWool, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 3, [
+recipes.addShapedMirrored(Torch * 3, [
 [WovenCloth, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [SugarCoke, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 5, [
+recipes.addShapedMirrored(Torch * 5, [
 [Torchberries, null],
 [Stick, null]]);
 // - More Alternate Recipes
