@@ -660,11 +660,11 @@ recipes.remove(<appliedenergistics2:item.ItemCrystalSeed>);
 recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:600>);
 //Fluix Seed
 recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:1200>);
-//2³ Spatial Storage Cell
+//2 Spatial Storage Cell
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
-//16³ Spatial Storage Cell
+//16 Spatial Storage Cell
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
-//128³ Spatial Storage Cell
+//128 Spatial Storage Cell
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
 //Nether Quartz Knife
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>);
@@ -895,7 +895,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemBasicStorageCell.16k>,
 recipes.addShapeless(<appliedenergistics2:item.ItemBasicStorageCell.64k>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:38>]);
 
-//2³ Spatial Storage Cell
+//2 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
 [HHammer, CertusPlate, QuartziteScrew],
 [SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:32>, SteelPlate],
@@ -909,7 +909,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:32>]);
 
-//16³ Spatial Storage Cell
+//16 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
 [HHammer, CertusPlate, QuartziteScrew],
 [SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:33>, SteelPlate],
@@ -923,7 +923,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:33>]);
 
-//128³ Spatial Storage Cell
+//128 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [
 [HHammer, CertusPlate, QuartziteScrew],
 [SteelPlate, <appliedenergistics2:item.ItemMultiMaterial:34>, SteelPlate],
