@@ -634,7 +634,8 @@ recipes.remove(<minecraft:diamond_leggings>);
 //Diamond Boots
 recipes.remove(<minecraft:diamond_boots>);
 //Ender Eye
-recipes.remove(<minecraft:ender_eye>);//Minecart with Chest
+recipes.remove(<minecraft:ender_eye>);
+//Minecart with Chest
 recipes.removeShaped(<minecraft:chest_minecart>);
 //Minecart with Furnace
 recipes.removeShaped(<minecraft:furnace_minecart>);
@@ -668,7 +669,8 @@ recipes.remove(<minecraft:melon_seeds>);
 recipes.remove(<minecraft:fermented_spider_eye>);
 //Magma Creme
 recipes.remove(<minecraft:magma_cream>);
-
+//remove Oak Slaps
+recipes.removeShaped(<minecraft:wooden_slab> * 6 [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
 // *======= Adding Back Recipes =======*
 
@@ -2090,8 +2092,19 @@ recipes.addShapeless(<minecraft:melon_seeds>, [<ore:craftingToolHardHammer>, <mi
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
 
-//remove Charcoal
+//remove Charcoal in Furnace
 furnace.remove(<minecraft:coal:1>);
+
+//remove Iron Berrys in Furnace
+furnace.remove(<TConstruct:oreBerries>);
+//remove Gold Berrys in Furnace
+furnace.remove(<TConstruct:oreBerries:1>);
+//remove Copper Berrys in Furnace
+furnace.remove(<TConstruct:oreBerries:2>);
+//remove Tin Berrys in Furnace
+furnace.remove(<TConstruct:oreBerries:3>);
+//remove Aluminium Berrys in Furnace
+furnace.remove(<TConstruct:oreBerries:4>);
 
 // #======= Hiding Stuff =======#
 
