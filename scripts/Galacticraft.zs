@@ -248,6 +248,8 @@ recipes.remove(<GalacticraftMars:tile.marsMachine:8>);
 recipes.remove(<GalacticraftMars:item.grapple>);
 //Hydrogen Pipe
 recipes.remove(<GalacticraftMars:tile.hydrogenPipe>);
+//Carbon Fragments
+recipes.remove(<GalacticraftMars:item.carbonFragments>);
 
 //add Recipes
 
