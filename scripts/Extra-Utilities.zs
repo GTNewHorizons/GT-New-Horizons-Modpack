@@ -43,11 +43,25 @@ val AngelBlock = <ExtraUtilities:angelBlock>;
 val Conveyor = <ExtraUtilities:conveyor>;
 val MVConveyor = <gregtech:gt.metaitem.01:32631>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
+val MVPiston = <gregtech:gt.metaitem.01:32641>;
+val IronBars = <minecraft:iron_bars>;
+val Cabinet = <ExtraUtilities:filing>;
+val AdvCabinet = <ExtraUtilities:filing:1>;
+val WateringCan = <ExtraUtilities:watering_can:1>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
+val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
+val WorldInterUp = <ExtraUtilities:nodeUpgrade:2>;
+val StackUp = <ExtraUtilities:nodeUpgrade:3>;
+val DepthFirstUp = <ExtraUtilities:nodeUpgrade:7>;
+val BreadthFirstUp = <ExtraUtilities:nodeUpgrade:8>;
+val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
 
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
+val IronPlate = <ore:plateAnyIron>;
+val SteelRing = <ore:ringSteel>;
+val IronRod = <ore:stickAnyIron>;
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
 val DiamondGear = <ore:gearDiamond>;
@@ -75,8 +89,12 @@ val ElectrumCable12x = <ore:cableGt12Electrum>;
 val BrassItemPipe = <ore:pipeMediumBrass>;
 val OBTank = <OpenBlocks:tank>;
 val GoldFoil = <ore:foilRoseGold>;
+val DiamondPick = <minecraft:diamond_pickaxe>;
+val IronPick = <minecraft:iron_pickaxe>;
+val DenseLapisPlate = <ore:plateDenseLapis>;
 val DenseObsidianPlate = <ore:plateDenseObsidian>;
 val HeliumCell = <ore:cellHelium_3>;
+val IronChest = <IronChest:BlockIronChest>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -162,6 +180,24 @@ recipes.remove(<ExtraUtilities:enderQuarryUpgrade:9>);
 // --- Speed Upgrade
 recipes.remove(SpeedUp);
 
+// --- Item Filter Upgrade
+recipes.remove(ItemFilterUp);
+
+// --- World Interaction Upgrade
+recipes.remove(WorldInterUp);
+
+// --- Stack Upgrade
+recipes.remove(StackUp);
+
+// --- Depth-First Upgrade
+recipes.remove(DepthFirstUp);
+
+// --- Breadth-First Upgrade
+recipes.remove(BreadthFirstUp);
+
+// --- Pseudo Round-Robin Upgrade
+recipes.remove(RoundRobinUp);
+
 // --- Paintbrush
 recipes.remove(Paintbrush);
 
@@ -181,8 +217,17 @@ furnace.remove(BedrockiumBlock);
 // --- Angel Block
 recipes.remove(AngelBlock);
 
-// --- Conveyor Best
+// --- Conveyor Belt
 recipes.remove(Conveyor);
+
+// --- Filing Cabinet
+recipes.remove(Cabinet);
+
+// --- Advanced Filling Cabinet
+recipes.remove(AdvCabinet);
+
+// --- Watering Can
+recipes.remove(WateringCan);
 
 
 // ||||| Pipes |||||
@@ -404,6 +449,47 @@ recipes.addShaped(SpeedUp, [
 [SSteelPlate, DiamondGear, SSteelPlate],
 [RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
 
+// --- Item Filter Upgrade
+recipes.addShaped(ItemFilterUp, [
+[RedAlloyPlate, IronBars, RedAlloyPlate],
+[IronBars, DiamondGear, IronBars],
+[RedAlloyPlate, IronBars, RedAlloyPlate]]);
+
+// --- World Interaction Upgrade
+recipes.addShaped(WorldInterUp, [
+[DenseLapisPlate, IronPick, DenseLapisPlate],
+[IronPick, DiamondPick, IronPick],
+[DenseLapisPlate, IronPick, DenseLapisPlate]]);
+
+// --- Depth-First Upgrade
+recipes.addShaped(DepthFirstUp, [
+[RedAlloyPlate, SpeedUp, RedAlloyPlate],
+[Wrench, SpeedUp, SpeedUp],
+[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
+
+// --- Breadth-First Upgrade
+recipes.addShaped(BreadthFirstUp, [
+[RedAlloyPlate, Wrench, RedAlloyPlate],
+[SpeedUp, SpeedUp, SpeedUp],
+[RedAlloyPlate, null, RedAlloyPlate]]);
+// - Alternate Recipe
+recipes.addShaped(BreadthFirstUp, [
+[RedAlloyPlate, null, RedAlloyPlate],
+[SpeedUp, SpeedUp, SpeedUp],
+[RedAlloyPlate, Wrench, RedAlloyPlate]]);
+
+// --- Pseudo Round-Robin Upgrade
+recipes.addShaped(RoundRobinUp, [
+[RedAlloyPlate, SpeedUp, RedAlloyPlate],
+[null, Wrench, SpeedUp],
+[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
+
+// --- Stack Upgrade
+recipes.addShaped(StackUp, [
+[RedAlloyPlate, SpeedUp, RedAlloyPlate],
+[SpeedUp, MVPiston, SpeedUp],
+[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
+
 // --- Paintbrush
 recipes.addShaped(Paintbrush, [
 [null, WovenCloth, WovenCloth],
@@ -439,6 +525,29 @@ recipes.addShaped(Conveyor, [
 [SSteelPlate, MVConveyor, SSteelPlate],
 [MVConveyor, SteelGear, MVConveyor],
 [SSteelPlate, MVMotor, SSteelPlate]]);
+
+// --- Filing Cabinet
+recipes.addShaped(Cabinet, [
+[SteelPlate, IronChest, SteelPlate],
+[IronChest, SteelScrew, IronChest],
+[SteelPlate, IronChest, SteelPlate]]);
+
+// --- Advanced Filing Cabinet
+recipes.addShaped(AdvCabinet, [
+[MagicalWood, Cabinet, MagicalWood],
+[Cabinet, SteelScrew, Cabinet],
+[MagicalWood, Cabinet, MagicalWood]]);
+
+// --- Watering Can
+recipes.addShaped(WateringCan, [
+[HHammer, SteelRing, Screwdriver],
+[IronPlate, IronPlate, IronRod],
+[IronPlate, IronPlate, SteelScrew]]);
+// - Alternate Recipe
+recipes.addShaped(WateringCan, [
+[Screwdriver, SteelRing, HHammer],
+[IronPlate, IronPlate, IronRod],
+[IronPlate, IronPlate, SteelScrew]]);
 
 
 // ||||| Pipes |||||
