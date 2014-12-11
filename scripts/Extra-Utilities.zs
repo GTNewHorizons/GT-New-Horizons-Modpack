@@ -4,6 +4,9 @@
 
 // #======= Importing Stuff =======#
 
+
+import mods.gregtech.BlastFurnace;
+import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 
@@ -27,9 +30,21 @@ val StainlessPipe = <ore:pipeSmallStainlessSteel>;
 val Paintbrush = <ExtraUtilities:paintbrush>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
 val SilkyJewel = <TConstruct:materials:26>;
+val RSClock = <ExtraUtilities:timer>;
+val Clock = <minecraft:clock>;
+val Drum = <ExtraUtilities:drum>;
+val BedDrum = <ExtraUtilities:drum:1>;
+val BedrockIngot = <RotaryCraft:rotarycraft_item_compacts:3>;
+val Cauldron = <minecraft:cauldron>;
+val BedrockiumIngot = <ExtraUtilities:bedrockiumIngot>;
+val BedrockiumBlock = <ExtraUtilities:block_bedrockium>;
+val DarkAshes = <gregtech:gt.metaitem.01:2816>;
 
 val RedAlloyRod = <ore:stickRedAlloy>;
+val BronzeGear = <ore:gearBronze>;
 val SteelPlate = <ore:plateSteel>;
+val AlPlate = <ore:plateAluminium>;
+val HeavyPPlate = <minecraft:heavy_weighted_pressure_plate>;
 val SSteelPlate = <ore:plateStainlessSteel>;
 val SteelFoil = <ore:foilSteel>;
 val SteelScrew = <ore:screwSteel>;
@@ -101,6 +116,9 @@ recipes.remove(DiamondMatrix);
 // --- Blackout Curtains
 recipes.remove(<ExtraUtilities:curtains>);
 
+// --- Redstone Clock
+recipes.remove(<ExtraUtilities:timer>);
+
 // --- Glowstone Glass
 recipes.remove(<ExtraUtilities:decorativeBlock2:7>);
 
@@ -133,6 +151,19 @@ recipes.remove(<ExtraUtilities:enderQuarryUpgrade:9>);
 
 // --- Paintbrush
 recipes.remove(Paintbrush);
+
+// --- Drum
+recipes.remove(Drum);
+
+// --- Bedrock Drum
+recipes.remove(BedDrum);
+
+// --- Bedrockium Ingot
+recipes.remove(BedrockiumIngot);
+
+// --- Block Of Bedrockium
+recipes.remove(BedrockiumBlock);
+furnace.remove(BedrockiumBlock);
 
 
 // ||||| Pipes |||||
@@ -276,6 +307,12 @@ recipes.addShaped(<ExtraUtilities:curtains> * 2, [
 [<ore:blockWool>, <ore:blockWool>, null],
 [<ore:blockWool>, <ore:blockWool>, null]]);
 
+// --- Redstone Clock
+recipes.addShaped(RSClock, [
+[RedAlloyPlate, Clock, RedAlloyPlate],
+[Clock, BronzeGear, Clock],
+[RedAlloyPlate, Clock, RedAlloyPlate]]);
+
 // --- Glowstone Glass
 recipes.addShaped(<ExtraUtilities:decorativeBlock2:7>, [
 [<ore:dustGlowstone>, <ore:plateGlowstone>, <ore:dustGlowstone>],
@@ -347,6 +384,24 @@ recipes.addShaped(Paintbrush, [
 [null, WovenCloth, WovenCloth],
 [null, <ore:stickWood>, WovenCloth],
 [<ore:stickWood>, null, null]]);
+
+// --- Drum
+recipes.addShaped(Drum, [
+[AlPlate, HeavyPPlate, AlPlate],
+[SteelPlate, Cauldron, SteelPlate],
+[AlPlate, SteelPlate, AlPlate]]);
+
+// --- Bedrock Drum
+recipes.addShaped(BedDrum, [
+[BedrockIngot, BedrockiumIngot, BedrockIngot],
+[BedrockiumIngot, Cauldron, BedrockiumIngot],
+[BedrockIngot, BedrockiumIngot, BedrockIngot]]);
+
+// --- Bedrockium Ingot
+BlastFurnace.addRecipe([BedrockiumIngot, DarkAshes * 4], BedrockIngot, <IC2:itemPartIndustrialDiamond>, 1800, 256, 3500);
+
+// --- Bedrockium Block
+ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
 
 
 // ||||| Pipes |||||
