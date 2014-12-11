@@ -450,7 +450,7 @@ recipes.addShaped(PatternTerminal, [
 [CertusScrew, Pattern, CertusScrew],
 [NQuartzPlate, DiamondCircuit, NQuartzPlate]]);
 
-// --- Pattern Terminal
+// --- Wireless Terminal
 recipes.addShaped(WirelessTerminal, [
 [WirelessReceiver, Terminal, WirelessReceiver],
 [NQuartzPlate, DiamondCircuit, NQuartzPlate],
