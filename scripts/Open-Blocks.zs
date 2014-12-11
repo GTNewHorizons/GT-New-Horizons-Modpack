@@ -1,10 +1,13 @@
-// ******* Created by Arch-Nihil *******
+// ************** Created by Arch-Nihil *************
 
 
 
 // *======= Variables =======*
 
 
+val Glider = <OpenBlocks:hangglider>;
+val GliderWing = <OpenBlocks:generic>;
+val Luggage = <OpenBlocks:luggage>;
 val ClearGlass = <TConstruct:GlassBlock>;
 val EnchantTable = <minecraft:enchanting_table>;
 val Anvil = <minecraft:anvil>;
@@ -14,11 +17,27 @@ val TinRotor = <gregtech:gt.metaitem.01:32620>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
 val Hopper = <minecraft:hopper>;
 val StainlessPipe = <ore:pipeSmallStainlessSteel>;
+val IronRod = <ore:stickAnyIron>;
+val SteelRod = <ore:stickSteel>;
+val DiamondRod = <ore:stickDiamond>;
+val EnderEyePlate = <ore:plateEnderEye>;
+val NStarRod = <ore:stickNetherStar>;
+val ObsidianChest = <IronChest:BlockIronChest:6>;
+val Leather = <minecraft:leather>;
 
 
 
 // *======= Removing Recipes =======*
 
+
+// --- Glider
+recipes.remove(Glider);
+
+// --- Glider Wing
+recipes.remove(GliderWing);
+
+// --- Luggage
+recipes.remove(Luggage);
 
 // --- Tank
 recipes.remove(<OpenBlocks:tank>);
@@ -51,6 +70,24 @@ recipes.remove(<OpenBlocks:sprinkler>);
 
 // *======= Adding Back Recipes =======*
 
+
+// --- Glider
+recipes.addShaped(Glider, [
+[null, null, null],
+[GliderWing, SteelRod, GliderWing],
+[null, null, null]]);
+
+// --- Glider Wing
+recipes.addShaped(GliderWing, [
+[null, IronRod, Leather],
+[IronRod, Leather, Leather],
+[Leather, Leather, Leather]]);
+
+// --- Luggage
+recipes.addShaped(Luggage, [
+[NStarRod, EnderEyePlate, NStarRod],
+[EnderEyePlate, ObsidianChest, EnderEyePlate],
+[DiamondRod, DiamondRod, DiamondRod]]);
 
 // --- Tank
 recipes.addShaped(<OpenBlocks:tank>, [
