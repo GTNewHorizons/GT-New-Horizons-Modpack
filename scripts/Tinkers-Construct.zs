@@ -120,6 +120,23 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:2>);
 // --- Solid Ender Block Casting
 mods.tconstruct.Casting.removeBasinRecipe(EnderBlock);
 
+// --- Iron Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetIron>);
+
+// --- Gold Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetGold>);
+
+// --- Tin Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetTin>);
+
+// --- Copper Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetCopper>);
+
+// --- Aluminium Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetAluminium>);
+
+// --- Bronze Nuggets
+mods.tconstruct.Smeltery.removeMelting(<ore:nuggetBronze>);
 
 // ||||| Blocks & Items |||||
 
