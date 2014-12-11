@@ -670,7 +670,8 @@ recipes.remove(<minecraft:fermented_spider_eye>);
 //Magma Creme
 recipes.remove(<minecraft:magma_cream>);
 //remove Oak Slaps
-recipes.removeShaped(<minecraft:wooden_slab> * 6 [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+recipes.removeShaped(<minecraft:wooden_slab> * 6, [
+[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
 // *======= Adding Back Recipes =======*
 
@@ -2096,15 +2097,15 @@ recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dust
 furnace.remove(<minecraft:coal:1>);
 
 //remove Iron Berrys in Furnace
-furnace.remove(<TConstruct:oreBerries>);
+furnace.remove(<TConstruct:materials:19>, <TConstruct:oreBerries>);
 //remove Gold Berrys in Furnace
-furnace.remove(<TConstruct:oreBerries:1>);
+furnace.remove(<minecraft:gold_nugget>, <TConstruct:oreBerries:1>);
 //remove Copper Berrys in Furnace
-furnace.remove(<TConstruct:oreBerries:2>);
+furnace.remove(<TConstruct:materials:20>, <TConstruct:oreBerries:2>);
 //remove Tin Berrys in Furnace
-furnace.remove(<TConstruct:oreBerries:3>);
+furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
 //remove Aluminium Berrys in Furnace
-furnace.remove(<TConstruct:oreBerries:4>);
+furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
 // #======= Hiding Stuff =======#
 

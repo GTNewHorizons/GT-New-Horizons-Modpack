@@ -47,4 +47,4 @@ recipes.addShaped(<BiomesOPlenty:scytheDiamond>, [
 recipes.addShapeless(<gregtech:gt.metaitem.01:2816>, [<BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>]);
 
 //Mahogony Wood Oredict
-logWood.add(<BiomesOPlenty:logs4>);
+logWood.add(<BiomesOPlenty:logs4:3>);
