@@ -85,6 +85,7 @@ val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
 val NANDChip = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
+val AdvCircuit = <ore:circuitAdvanced>;
 val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
 val LVEnergyBuffer = <gregtech:gt.blockmachines:171>;
@@ -100,6 +101,7 @@ val DenseLapisPlate = <ore:plateDenseLapis>;
 val DenseObsidianPlate = <ore:plateDenseObsidian>;
 val HeliumCell = <ore:cellHelium_3>;
 val IronChest = <IronChest:BlockIronChest>;
+val TitaniumGear = <ore:gearTitanium>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -115,6 +117,13 @@ val ItemTransferN = <ExtraUtilities:extractor_base>;
 val FluidTransferN = <ExtraUtilities:extractor_base:6>;
 val EnergyTransferN = <ExtraUtilities:extractor_base:12>;
 val HyperETransferN = <ExtraUtilities:extractor_base:13>;
+val MagnumTorch = <ExtraUtilities:magnumTorch>;
+val Chandelier = <ExtraUtilities:chandelier>;
+val Alumentum = <Thaumcraft:ItemResource>;
+val SSteelRod = <ore:stickStainlessSteel>;
+val ThaumiumPlate = <ore:plateThaumium>;
+val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
+val GreatwoodLog = <Thaumcraft:blockMagicalLog>;
 
 val HHammer = <ore:craftingToolHardHammer>;
 val Wrench = <ore:craftingToolWrench>;
@@ -234,6 +243,9 @@ recipes.remove(AdvCabinet);
 // --- Watering Can
 recipes.remove(WateringCan);
 
+// --- Magnum Torch
+recipes.remove(MagnumTorch);
+
 
 // ||||| Pipes |||||
 
@@ -339,13 +351,13 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 
 // --- Ender Quarry
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [
-[EnderCore, SSteelGear, EnderCore],
+[EnderCore, TitaniumGear, EnderCore],
 [EnderPump, DiamondMatrix, EnderPump],
 [EnderCore, AdvMiner, EnderCore]]);
 
 // --- Ender-Thermic Pump
 recipes.addShaped(EnderPump, [
-[EnderObsidian, BasicCircuit, EnderObsidian],
+[EnderObsidian, AdvCircuit, EnderObsidian],
 [<OpenBlocks:tank>, EnderCore, <OpenBlocks:tank>],
 [EnderObsidian, Miner, EnderObsidian]]);
 
@@ -371,10 +383,15 @@ recipes.addShaped(DiamondMatrix, [
 [EnderCore, <ore:plateDiamond>, EnderCore]]);
 
 // --- Magical Wood
-recipes.addShaped(MagicalWood, [
-[EnderEyePlate, EssenceBush, EnderEyePlate],
-[EssenceBush, CarminiteReactor, EssenceBush],
-[EnderEyePlate, EssenceBush, EnderEyePlate]]);
+recipes.addShaped(MagicalWood * 4, [
+[ThaumiumPlate, SilverwoodLog, ThaumiumPlate],
+[SilverwoodLog, CarminiteReactor, SilverwoodLog],
+[ThaumiumPlate, SilverwoodLog, ThaumiumPlate]]);
+// - Alternate Recipe
+recipes.addShaped(MagicalWood * 4, [
+[ThaumiumPlate, GreatwoodLog, ThaumiumPlate],
+[GreatwoodLog, CarminiteReactor, GreatwoodLog],
+[ThaumiumPlate, GreatwoodLog, ThaumiumPlate]]);
 
 // --- Blackout Curtains
 recipes.addShaped(<ExtraUtilities:curtains> * 2, [
@@ -559,6 +576,12 @@ recipes.addShaped(WateringCan, [
 [Screwdriver, SteelRing, HHammer],
 [IronPlate, IronPlate, IronRod],
 [IronPlate, IronPlate, SteelScrew]]);
+
+// --- Magnum Torch
+recipes.addShaped(MagnumTorch, [
+[null, Alumentum, null],
+[Chandelier, SSteelRod, Chandelier],
+[Chandelier, SSteelRod, Chandelier]]);
 
 
 // ||||| Pipes |||||
