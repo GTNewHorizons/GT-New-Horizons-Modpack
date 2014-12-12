@@ -75,6 +75,9 @@ recipes.remove(<TConstruct:MetalBlock:9>);
 // --- Aluminium Ingot Casting
 mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
 
+// --- Steel Ingot Casting
+mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:5>);
+
 // --- Iron Block Casting
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:iron_block>);
 
