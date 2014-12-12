@@ -91,9 +91,15 @@ recipes.addShaped(Luggage, [
 
 // --- Tank
 recipes.addShaped(<OpenBlocks:tank>, [
-[<ore:obsidian>, ClearGlass, <ore:obsidian>],
-[ClearGlass, null, ClearGlass],
-[<ore:obsidian>, ClearGlass, <ore:obsidian>]]);
+[<ore:stoneObsidian>, <ore:plateCertusQuartz>, <ore:stoneObsidian>],
+[<ore:plateCertusQuartz>, ClearGlass, <ore:plateCertusQuartz>],
+[<ore:stoneObsidian>, <ore:plateCertusQuartz>, <ore:stoneObsidian>]]);
+// ---- Alternative Recipes
+recipes.addShaped(<OpenBlocks:tank>, [
+[<ore:stoneObsidian>, <ore:plateNetherQuartz>, <ore:stoneObsidian>],
+[<ore:plateNetherQuartz>, ClearGlass, <ore:plateNetherQuartz>],
+[<ore:stoneObsidian>, <ore:plateNetherQuartz>, <ore:stoneObsidian>]]);
+
 
 // --- Auto-Enchantment Table
 recipes.addShaped(<OpenBlocks:autoenchantmenttable>, [
