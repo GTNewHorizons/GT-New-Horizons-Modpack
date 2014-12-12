@@ -139,9 +139,6 @@ mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
 // ||||| Blocks & Items |||||
 
 
-// --- Casting Basin (Now Useless.)
-recipes.remove(CastingBasin);
-
 // --- Empty Canister
 recipes.remove(EmptyCanister);
 
@@ -205,9 +202,6 @@ recipes.addShaped(BallOfMoss, [
 
 // #======= Hiding Stuff =======#
 
-
-// --- Casting Basin
-NEI.hide(CastingBasin);
 
 // --- Block Of Solid Ender
 NEI.hide(EnderBlock);
