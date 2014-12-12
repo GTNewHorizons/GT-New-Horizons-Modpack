@@ -172,6 +172,23 @@ recipes.addShaped(<Natura:natura.stick:9> * 4, [
 	[<Natura:planks:9>, null, null],
 	[<Natura:planks:9>, null, null]]);
 
+//Removing berry conversion into Harvestcraft berries
+recipes.remove(<harvestcraft:blackberryItem>);
+recipes.remove(<harvestcraft:blueberryItem>);
+recipes.remove(<harvestcraft:raspberryItem>);
+
+//Removing Natura juice recipes
+recipes.remove(<harvestcraft:raspberryjuiceItem>);
+recipes.addShapeless(<harvestcraft:raspberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:raspberryItem>]);
+
+recipes.remove(<harvestcraft:blueberryjuiceItem>);
+recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blueberryItem>]);	
+
+recipes.remove(<harvestcraft:blackberryjuiceItem>);
+recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blackberryItem>]);	
+
+
+
 // #======= Hiding Stuff =======#
 
 
