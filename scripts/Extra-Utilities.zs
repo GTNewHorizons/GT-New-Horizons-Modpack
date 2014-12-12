@@ -101,7 +101,6 @@ val DenseLapisPlate = <ore:plateDenseLapis>;
 val DenseObsidianPlate = <ore:plateDenseObsidian>;
 val HeliumCell = <ore:cellHelium_3>;
 val IronChest = <IronChest:BlockIronChest>;
-val TitaniumGear = <ore:gearTitanium>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
