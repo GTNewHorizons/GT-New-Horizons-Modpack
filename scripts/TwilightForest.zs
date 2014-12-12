@@ -12,6 +12,7 @@
 val RSBlock = <ore:blockRedstone>;
 val Carminite = <TwilightForest:item.carminite>;
 val ETowerWood = <TwilightForest:tile.TFTowerStone>;
+val CarminiteReactor = <TwilightForest:tile.TFTowerDevice>;
 
 
 
