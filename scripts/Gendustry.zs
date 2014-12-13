@@ -1,4 +1,4 @@
-//Thanks to BeyondRealityModPack
+//Creted by BeyondRealityModPack
 import mods.nei.NEI;
 
 // Alum plate <gregtech:gt.metaitem.01:17019>
