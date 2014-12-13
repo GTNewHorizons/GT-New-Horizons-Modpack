@@ -102,6 +102,9 @@ val DenseLapisPlate = <ore:plateDenseLapis>;
 val DenseObsidianPlate = <ore:plateDenseObsidian>;
 val HeliumCell = <ore:cellHelium_3>;
 val IronChest = <IronChest:BlockIronChest>;
+val WoodGear = <ore:gearWood>;
+val Stone = <ore:stone>;
+val RedAlloyGear = <ore:ringRedAlloy>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -404,9 +407,9 @@ recipes.addShaped(<ExtraUtilities:curtains> * 2, [
 
 // --- Redstone Clock
 recipes.addShaped(RSClock, [
-[RedAlloyPlate, Clock, RedAlloyPlate],
-[Clock, BronzeGear, Clock],
-[RedAlloyPlate, Clock, RedAlloyPlate]]);
+[RedAlloyPlate, WoodGear, RedAlloyPlate],
+[WoodGear, Clock, WoodGear],
+[RedAlloyPlate, RedAlloyRod, RedAlloyPlate]]);
 
 // --- Glowstone Glass
 recipes.addShaped(<ExtraUtilities:decorativeBlock2:7>, [
