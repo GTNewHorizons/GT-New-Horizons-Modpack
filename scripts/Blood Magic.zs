@@ -1,12 +1,9 @@
 //remove Recipes
 
-//Blood Altar
+//Blood Altar removal
 recipes.remove(<AWWayofTime:Altar>);
 
-//Infusion recipe
-//ResearchKey, MainInputStack, ArrayOfInputStacks, AspectsList, ResultStack, Instability
-mods.thaumcraft.Infusion.addRecipe("B", <minecraft:water_bucket>, [<minecraft:dirt>, <minecraft:wheat_seeds>], "terra 1, victus 1, arbor 25", <minecraft:sapling>, 15);
-
+//Blood Altar in infusion
 mods.thaumcraft.Research.addResearch("BLOODALTAR", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 4, 10, 12, <AWWayofTime:Altar>);
 game.setLocalization("en_US", "tc.research_name.BLOODALTAR", "Blood Altar");
 game.setLocalization("en_US", "tc.research_text.BLOODALTAR", "Paying the highest price.");
