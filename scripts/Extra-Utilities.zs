@@ -246,6 +246,9 @@ recipes.remove(WateringCan);
 // --- Magnum Torch
 recipes.remove(MagnumTorch);
 
+// --- Golden Bag of Holding
+recipes.remove(<ExtraUtilities:golden_bag>);
+
 
 // ||||| Pipes |||||
 
@@ -582,6 +585,12 @@ recipes.addShaped(MagnumTorch, [
 [null, Nitor, null],
 [Chandelier, SSteelRod, Chandelier],
 [Chandelier, SSteelRod, Chandelier]]);
+
+// --- Golden Bag of Holding
+recipes.addShaped(<ExtraUtilities:golden_bag>, [
+[<Thaumcraft:ItemResource:7>, <ore:plateNetherStar>, <Thaumcraft:ItemResource:7>],
+[<ore:foilGold>, <Thaumcraft:FocusPouch>, <ore:foilGold>],
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
 
 
 // ||||| Pipes |||||
