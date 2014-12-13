@@ -188,12 +188,12 @@ recipes.addShaped(SilkyCloth, [
 // --- Silky Jewel
 recipes.addShaped(SilkyJewel, [
 [SilkyCloth, SilkyCloth, SilkyCloth],
-[SilkyCloth, <ore:BlockEmerald>, SilkyCloth],
+[SilkyCloth, <ore:blockEmerald>, SilkyCloth],
 [SilkyCloth, SilkyCloth, SilkyCloth]]);
 // - Alternate Recipe
 recipes.addShaped(SilkyJewel, [
 [SilkyCloth, SilkyCloth, SilkyCloth],
-[SilkyCloth, <ore:BlockDiamond>, SilkyCloth],
+[SilkyCloth, <ore:blockDiamond>, SilkyCloth],
 [SilkyCloth, SilkyCloth, SilkyCloth]]);
 
 // --- Ball Of Moss

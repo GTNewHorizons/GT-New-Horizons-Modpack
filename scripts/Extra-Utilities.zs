@@ -83,6 +83,7 @@ val EnderEyePlate = <ore:plateEnderEye>;
 val SteelGear = <ore:gearSteel>;
 val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
+val ChromePlate = <ore:plateChrome>;
 val NANDChip = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
 val AdvCircuit = <ore:circuitAdvanced>;
@@ -118,7 +119,7 @@ val EnergyTransferN = <ExtraUtilities:extractor_base:12>;
 val HyperETransferN = <ExtraUtilities:extractor_base:13>;
 val MagnumTorch = <ExtraUtilities:magnumTorch>;
 val Chandelier = <ExtraUtilities:chandelier>;
-val Alumentum = <Thaumcraft:ItemResource>;
+val Nitor = <Thaumcraft:ItemResource:1>;
 val SSteelRod = <ore:stickStainlessSteel>;
 val ThaumiumPlate = <ore:plateThaumium>;
 val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
@@ -578,7 +579,7 @@ recipes.addShaped(WateringCan, [
 
 // --- Magnum Torch
 recipes.addShaped(MagnumTorch, [
-[null, Alumentum, null],
+[null, Nitor, null],
 [Chandelier, SSteelRod, Chandelier],
 [Chandelier, SSteelRod, Chandelier]]);
 
@@ -692,20 +693,20 @@ recipes.addShaped(FluidTransferN, [
 recipes.addShaped(EnergyTransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SteelPlate, CopperCable12x, SteelPlate]]);
+[SSteelPlate, CopperCable12x, SSteelPlate]]);
 // - Alternate Recipe
 recipes.addShaped(EnergyTransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SteelPlate, CopperCable12x, SteelPlate]]);
+[SSteelPlate, CopperCable12x, SSteelPlate]]);
 
 // --- Hyper Energy Transfer Node
 recipes.addShaped(HyperETransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[TitaniumPlate, ElectrumCable12x, TitaniumPlate]]);
+[ChromePlate, ElectrumCable12x, ChromePlate]]);
 // - Alternate Recipe
 recipes.addShaped(HyperETransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[TitaniumPlate, ElectrumCable12x, TitaniumPlate]]);
+[ChromePlate, ElectrumCable12x, ChromePlate]]);
