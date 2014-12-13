@@ -1,0 +1,49 @@
+// Mod Version: 1.2.2
+{
+	// Food included in the food group
+	"food": {
+		// A list of Ore Dictionary entries
+		// This example adds two oredictionary entries created by Pam's HarvestCraft, 
+		// including all fruit and all berries
+		"oredict": [
+			"listAllfruit",
+			"listAllberry"
+		],
+		// A list of items in "mod:name:meta" format
+		// This example adds red apples and golden apples (golden_apple with metadata 0), 
+		// thereby excluding enchanted golden apples (golden_apple with metadata 1)
+		"items": [
+			"minecraft:apple",
+			"minecraft:golden_apple:0"
+		]
+	},
+
+	// The name that will be shown in the tooltip.
+	// Can be localized. Unused for hidden food groups.
+	// Optional; default if not defined: "spiceoflife.foodgroup.<filename>"
+	"name": "Example",
+
+	// Optional; default if not defined: true
+	"enabled": false,
+
+	// Food can only belong to one food group.
+	// In the case of conflicting food groups, the food group with the highest priority will be selected
+	// Example: A food group with priority 3 will take precedence over a food group with priority 1
+	// Optional; default if not defined: 0
+	"priority": 0,
+
+	// If true, the foods in this food group will be excluded from diminishing returns
+	// Optional; default if not defined: false
+	"blacklist": false,
+
+	// If true, this food group will not be shown in the tooltip
+	// Note: blacklist food groups are always hidden
+	// Optional; default if not defined: false
+	"hidden": false,
+
+	// If defined, this formula will be used for this food group
+	// instead of the main diminishing returns formula 
+	// See the food.modifier.formula config option in the main SpiceOfLife.cfg for documentation
+	// Optional; default if not defined: food.modifier.formula from SpiceOfLife.cfg
+	"formula": "MAX(0, 1 - count/2)"
+}
