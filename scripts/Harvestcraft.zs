@@ -20,7 +20,7 @@ val Cotton = <Natura:barleyFood:3>;
 
 // --- Woven Cotton
 recipes.remove(WovenCloth);
-
+recipes.remove(<harvestcraft:sink:*>);
 
 
 // *======= Adding Back Recipes =======*
