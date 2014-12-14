@@ -85,11 +85,11 @@ recipes.addShaped(CarpentersBlock, [
 [Plank, Flint, Plank],
 [Plank, Plank, Plank]]);
 // -
-Assembler.addRecipe(CarpentersBlock * 2, Stick * 4, OsmiumScrew, 60, 2048);
+Assembler.addRecipe(CarpentersBlock * 2, Stick * 4, OsmiumScrew, 6, 2048);
 // -
-Assembler.addRecipe(CarpentersBlock * 4, Stick * 9, HSLAScrew * 2, 100, 512);
+Assembler.addRecipe(CarpentersBlock * 4, Stick * 9, HSLAScrew * 2, 25, 512);
 // -
-Assembler.addRecipe(CarpentersBlock * 8, Stick * 20, SteelScrew * 4, 200, 128);
+Assembler.addRecipe(CarpentersBlock * 8, Stick * 20, SteelScrew * 4, 100, 128);
 // -
 Assembler.addRecipe(CarpentersBlock * 16, Stick * 44, IronScrew * 8, 400, 32);
 
