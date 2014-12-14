@@ -53,3 +53,7 @@ oreDict.logWood.add(<BiomesOPlenty:logs4:3>);
 recipes.remove(<BiomesOPlenty:planks:14>);
 
 recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]); 
+
+//Barley Ordict
+recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
+oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);

@@ -3,6 +3,7 @@
 //Imports
 import mods.gregtech.Assembler;
 import mods.gregtech.Wiremill;
+import mods.ic2.Macerator;
 
 //remove Recipes
 
@@ -154,3 +155,10 @@ recipes.remove(<gregtech:gt.metatool.01:4>);
 recipes.remove(<gregtech:gt.metatool.01:6>);
 recipes.remove(<gregtech:gt.metatool.01:8>);
 recipes.remove(<gregtech:gt.metatool.01:40>);
+
+//Flour
+
+recipes.addShapeless(<gregtech:gt.metaitem.01:2881>, [<ore:craftingToolMortar>, <ore:cropBarley>]);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);

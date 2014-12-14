@@ -185,7 +185,10 @@ recipes.remove(<harvestcraft:blueberryjuiceItem>);
 recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blueberryItem>]);	
 
 recipes.remove(<harvestcraft:blackberryjuiceItem>);
-recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blackberryItem>]);	
+recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blackberryItem>]);
+
+//Barley to Oredict
+oreDict.cropBarley.add(<Natura:barleyFood>);
 
 
 
