@@ -190,6 +190,10 @@ recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerIt
 //Barley to Oredict
 oreDict.cropBarley.add(<Natura:barleyFood>);
 
+//Barley Seeds
+recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
+
+
 
 
 // #======= Hiding Stuff =======#
