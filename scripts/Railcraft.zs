@@ -296,3 +296,11 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<gregtech:gt.me
 //Copper Plates
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>], 
 [<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
+
+// *** From NEI file ***
+
+import mods.nei.NEI;
+
+//Railcraft
+
+NEI.hide(<Railcraft:tile.railcraft.machine.alpha:15>);

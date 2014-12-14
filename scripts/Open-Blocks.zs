@@ -23,7 +23,21 @@ val DiamondRod = <ore:stickDiamond>;
 val EnderEyePlate = <ore:plateEnderEye>;
 val NStarRod = <ore:stickNetherStar>;
 val ObsidianChest = <IronChest:BlockIronChest:6>;
+val Illuminator = <IC2:blockLuminator>;
+val IronPlate = <ore:plateAnyIron>;
+val RedAlloyRod = <ore:stickRedAlloy>;
+val SteelGear = <ore:gearSteel>;
+val SSteelGear = <ore:gearStainlessSteel>;
+val DiamondLens = <ore:lensDiamond>;
+val Piston = <minecraft:piston>;
+val DiamondDHead = <gregtech:gt.metaitem.02:8500>;
+val Obsidian = <ore:stoneObsidian>;
+val Stone = <ore:stone>;
 val Leather = <minecraft:leather>;
+val BGuide = <OpenBlocks:guide>;
+val BlockPlacer = <OpenBlocks:blockPlacer>;
+val BlockBreaker = <OpenBlocks:blockbreaker>;
+val ItemDropper = <OpenBlocks:itemDropper>;
 
 
 
@@ -65,6 +79,18 @@ recipes.remove(<OpenBlocks:vacuumhopper>);
 
 // --- Sprinkler
 recipes.remove(<OpenBlocks:sprinkler>);
+
+// --- Building Guide
+recipes.remove(BGuide);
+
+// --- Block Placer
+recipes.remove(BlockPlacer);
+
+// --- Block Breaker
+recipes.remove(BlockBreaker);
+
+// --- Item Dropper
+recipes.remove(ItemDropper);
 
 
 
@@ -148,3 +174,27 @@ recipes.addShaped(<OpenBlocks:sprinkler>, [
 [<ore:foilGold>, IronBars, <ore:foilGold>],
 [<ore:stickSteel>, StainlessPipe, <ore:stickSteel>],
 [<ore:plateAnyIron>, <ore:gearSteel>, <ore:plateAnyIron>]]);
+
+// --- Building Guide
+recipes.addShaped(BGuide, [
+[Obsidian, Illuminator, Obsidian],
+[Illuminator, DiamondLens, Illuminator],
+[Obsidian, Illuminator, Obsidian]]);
+
+// --- Block Placer
+recipes.addShaped(BlockPlacer, [
+[Stone, IronPlate, Stone],
+[Piston, SteelGear, IronPlate],
+[Stone, RedAlloyRod, Stone]]);
+
+// --- Block Breaker
+recipes.addShaped(BlockBreaker, [
+[Stone, IronPlate, Stone],
+[DiamondDHead, SSteelGear, IronPlate],
+[Stone, RedAlloyRod, Stone]]);
+
+// --- Item Dropper
+recipes.addShaped(ItemDropper, [
+[Stone, IronPlate, Stone],
+[IronBars, SteelGear, IronPlate],
+[Stone, RedAlloyRod, Stone]]);
