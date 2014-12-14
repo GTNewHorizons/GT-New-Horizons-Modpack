@@ -105,22 +105,22 @@ val FluoriteGem = <RotaryCraft:rotarycraft_item_modingots:52>;
 val FluorineCell = <gregtech:gt.metaitem.01:30014>;
 val Calcium = <gregtech:gt.metaitem.01:2026>;
 
-val WhiteDye = <ore:dyeWhite>;
-val OrangeDye = <ore:dyeOrange>;
-val MagentaDye = <ore:dyeMagenta>;
-val LightBlueDye = <ore:dyeLightBlue>;
-val YellowDye = <ore:dyeYellow>;
-val LimeDye = <ore:dyeLime>;
-val PinkDye = <ore:dyePink>;
-val GrayDye = <ore:dyeGray>;
-val LightGrayDye = <ore:dyeLightGray>;
-val CyanDye = <ore:dyeCyan>;
-val PurpleDye = <ore:dyePurple>;
-val BlueDye = <ore:dyeBlue>;
-val BrownDye = <ore:dyeBrown>;
-val GreenDye = <ore:dyeGreen>;
-val RedDye = <ore:dyeRed>;
-val BlackDye = <ore:dyeBlack>;
+val WhiteDye = <minecraft:dye>;
+val OrangeDye = <minecraft:dye:1>;
+val MagentaDye = <minecraft:dye:2>;
+val LightBlueDye = <minecraft:dye:3>;
+val YellowDye = <minecraft:dye:4>;
+val LimeDye = <minecraft:dye:5>;
+val PinkDye = <minecraft:dye:6>;
+val GrayDye = <minecraft:dye:7>;
+val LightGrayDye = <minecraft:dye:8>;
+val CyanDye = <minecraft:dye:9>;
+val PurpleDye = <minecraft:dye:10>;
+val BlueDye = <minecraft:dye:11>;
+val BrownDye = <minecraft:dye:12>;
+val GreenDye = <minecraft:dye:13>;
+val RedDye = <minecraft:dye:14>;
+val BlackDye = <minecraft:dye:15>;
 
 val BlueFluorite = <ReactorCraft:reactorcraft_item_fluorite>;
 val PinkFluorite = <ReactorCraft:reactorcraft_item_fluorite:1>;
@@ -2015,7 +2015,7 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_handcraft>, [
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], BlueFluorite * 4, 2, 400);
 
 // --- Pink Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, PinkDye, null], BlueFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, PinkDye, null], PinkFluorite * 4, 2, 400);
 
 // --- Orange Fluorite
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], OrangeFluorite * 4, 2, 400);
@@ -2024,16 +2024,16 @@ Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], OrangeFluorite 
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], MagentaFluorite * 4, 2, 400);
 
 // --- Green Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, GreenDye, null], BlueFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, GreenDye, null], GreenFluorite * 4, 2, 400);
 
 // --- Red Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, RedDye, null], BlueFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, RedDye, null], RedFluorite * 4, 2, 400);
 
 // --- White Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, WhiteDye, null], BlueFluorite * 4, 2, 800);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, WhiteDye, null], WhiteFluorite * 4, 2, 800);
 
 // --- Yellow Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, YellowDye, null], BlueFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, YellowDye, null], YellowFluorite * 4, 2, 400);
 
 
 // #======= Renaming Stuff =======#
