@@ -2107,5 +2107,8 @@ furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
 //remove Aluminium Berrys in Furnace
 furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
+//Dough and Clay water Bucket
+recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
+
 // #======= Hiding Stuff =======#
 
