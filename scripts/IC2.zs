@@ -376,9 +376,12 @@ Assembler.addRecipe(<IC2:blockElectric:6>, <gregtech:gt.blockmachines:24>, <IC2:
 //Coil
 Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, 200, 32);
 
+//Coal Chunk
+Assembler.addRecipe(<IC2:itemPartCoalBlock>, <IC2:blockMetal:5>, <IC2:itemPartCoalBlock> * 8 * 16, 1200, 64);
+
 //Compressor Recipes//
 
-//Coal Chunk
+//Coal Coal Ball 
 Compressor.addRecipe(<IC2:itemPartCoalBlock>, <IC2:itemPartCarbonPlate> * 2);
 
 //Uranium Block
@@ -405,3 +408,5 @@ Wiremill.addRecipe(<gregtech:gt.blockmachines:1300>, <IC2:itemCable:5>, 600, 4);
 
 //Tin Cable
 Wiremill.addRecipe(<gregtech:gt.blockmachines:1240>, <IC2:itemCable:10>, 400, 4);
+
+
