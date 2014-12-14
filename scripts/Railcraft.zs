@@ -12,16 +12,16 @@ import mods.gregtech.Assembler;
 
 
 val IronPlate = <ore:plateAnyIron>;
-val GlassPane = GlassPane;
+val GlassPane = <ore:paneGlass>;
 val IronBars = <minecraft:iron_bars>;
-val SteelPlate = SteelPlate;
+val SteelPlate = <ore:plateSteel>;
 val Plank = <ore:plankWood>;
 val IronScrew = <ore:screwAnyIron>;
 val SteelScrew = <ore:screwSteel>;
 val IronGear = <ore:gearAnyIron>;
 val DenseOPlate = <ore:plateDenseObsidian>;
 val Glass = <ore:glass>;
-val TSteelGear = <ore:gearGtTungstenSteel>;
+val TSteelGear = <ore:gearTungstenSteel>;
 val IronRod = <ore:stickAnyIron>;
 val GoldPlate = <ore:plateGold>;
 val DiamondPlate = <ore:plateDiamond>;
@@ -305,20 +305,20 @@ Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:bloc
 //Rolling Machine
 
 //Iron Plates
-mods.railcraft.Rolling.removeRecipe(IronPlate * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
 //Steel Plates
-mods.railcraft.Rolling.removeRecipe(SteelPlate * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
 //Tin Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 //Copper Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
 //Iron Plates
-mods.railcraft.Rolling.addShaped(IronPlate * 2, [[IronIngot, IronIngot], 
-[IronIngot, IronIngot]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], 
+[<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 //Steel Plates
-mods.railcraft.Rolling.addShaped(SteelPlate * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
 [<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>]]);
 
 //Tin Plates

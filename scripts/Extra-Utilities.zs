@@ -25,6 +25,7 @@ val UpgradeBase = <ExtraUtilities:enderQuarryUpgrade>;
 val SeptupleCobble = <ExtraUtilities:cobblestone_compressed:6>;
 val QuadDirt = <ExtraUtilities:cobblestone_compressed:11>;
 val Plank = <ore:plankWood>;
+val BedrockGear = <RotaryCraft:rotarycraft_item_enginecraft:12>;
 val HardDiamondGear = <RotaryCraft:rotarycraft_item_enginecraft:11>;
 val StainlessPipe = <ore:pipeSmallStainlessSteel>;
 val Paintbrush = <ExtraUtilities:paintbrush>;
@@ -53,6 +54,11 @@ val Miner = <IC2:blockMachine:7>;
 val SSteelGear = <ore:gearStainlessSteel>;
 val CarminiteReactor = <TwilightForest:tile.TFTowerDevice:12>;
 val EssenceBush = <TConstruct:ore.berries.two:9>;
+val Muffler = <ExtraUtilities:sound_muffler>;
+val RainMuffler = <ExtraUtilities:sound_muffler:1>;
+val AnyWool = <ore:blockWool>;
+val Noteblock = <minecraft:noteblock>;
+val BUD = <ExtraUtilities:budoff>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -83,7 +89,6 @@ val ElectrumFoil = <ore:foilElectrum>;
 val EnderPearlPlate = <ore:plateEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
 val NStarPlate = <ore:plateNetherStar>;
-val BedrockGear = <RotaryCraft:rotarycraft_item_enginecraft:12>;
 val SteelGear = <ore:gearSteel>;
 val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
@@ -262,6 +267,12 @@ recipes.remove(MagnumTorch);
 // --- Golden Bag of Holding
 recipes.remove(<ExtraUtilities:golden_bag>);
 
+// --- Muffler
+recipes.remove(Muffler);
+
+// --- Rain Muffler
+recipes.remove(RainMuffler);
+
 
 // ||||| Pipes |||||
 
@@ -411,9 +422,9 @@ recipes.addShaped(MagicalWood * 4, [
 
 // --- Blackout Curtains
 recipes.addShaped(<ExtraUtilities:curtains> * 2, [
-[<ore:blockWool>, <ore:blockWool>, null],
-[<ore:blockWool>, <ore:blockWool>, null],
-[<ore:blockWool>, <ore:blockWool>, null]]);
+[AnyWool, AnyWool, null],
+[AnyWool, AnyWool, null],
+[AnyWool, AnyWool, null]]);
 
 // --- Redstone Clock
 recipes.addShaped(RSClock, [
@@ -616,6 +627,18 @@ recipes.addShaped(<ExtraUtilities:golden_bag>, [
 [<Thaumcraft:ItemResource:7>, <ore:plateNetherStar>, <Thaumcraft:ItemResource:7>],
 [<ore:foilGold>, <Thaumcraft:FocusPouch>, <ore:foilGold>],
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
+
+// --- Muffler
+recipes.addShaped(Muffler, [
+[AnyWool, AnyWool, AnyWool],
+[AnyWool, Noteblock, AnyWool],
+[AnyWool, BUD, AnyWool]]);
+
+// --- Rain Muffler
+recipes.addShaped(RainMuffler, [
+[AnyWool, Noteblock, AnyWool],
+[Noteblock, Muffler, Noteblock],
+[AnyWool, Noteblock, AnyWool]]);
 
 
 // ||||| Pipes |||||

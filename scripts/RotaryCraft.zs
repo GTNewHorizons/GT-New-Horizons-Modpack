@@ -20,6 +20,7 @@ import mods.nei.NEI;
 val HSHAScrap = <RotaryCraft:rotarycraft_item_shaftcraft:9>;
 val LSHAScrap = <RotaryCraft:rotarycraft_item_shaftcraft:10>;
 val HSHAIngot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
+val NoteBlock = <minecraft:noteblock>;
 
 val HSLAIngot = <gregtech:gt.metaitem.01:11322>;
 val HSLAPlate = <gregtech:gt.metaitem.01:17322>;
@@ -100,7 +101,6 @@ val DenseLapis = <IC2:itemDensePlates:8>;
 val DenseObsidian = <IC2:itemDensePlates:7>;
 val IronBars = <minecraft:iron_bars>;
 val StoneSlab = <minecraft:stone_slab>;
-val IronNoteBlock = <computronics:computronics.ironNoteBlock>;
 val FluoriteGem = <RotaryCraft:rotarycraft_item_modingots:52>;
 val FluorineCell = <gregtech:gt.metaitem.01:30014>;
 val Calcium = <gregtech:gt.metaitem.01:2026>;
@@ -1347,13 +1347,13 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:50>, [
 // --- Smoke Detector
 recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:39>, [
 [null, null, null],
-[HSLAPlate, IronNoteBlock, HSLAPlate],
+[HSLAPlate, NoteBlock, HSLAPlate],
 [HSLAPlate, BasePanel, HSLAPlate]]);
 
 // --- Music Box
 recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:47>, [
 [HSLAPlate, IronBars, HSLAPlate],
-[IronBars, IronNoteBlock, IronBars],
+[IronBars, NoteBlock, IronBars],
 [BasePanel, CircuitBoard, BasePanel]]);
 
 // --- Magnetizing Unit
@@ -1873,7 +1873,7 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_ultrasound>, [
 // --- Sonar Unit
 recipes.addShaped(Sonar, [
 [null, HSLAPlate, null],
-[HSLAPlate, IronNoteBlock, HSLAPlate],
+[HSLAPlate, NoteBlock, HSLAPlate],
 [<RotaryCraft:rotarycraft_item_borecraft:4>, HSLAPlate, <RotaryCraft:rotarycraft_item_borecraft:4>]]);
 
 // --- Motion Tracking Unit
