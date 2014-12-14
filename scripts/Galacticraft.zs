@@ -899,3 +899,9 @@ VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, Fluid
 
 //Fluid Nitrogen
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidnitrogen"}}), <gregtech:gt.metaitem.01:30012> * 12, 2400);
+
+//Ilmenite to Ore Dict
+oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
+
+//Desh to Ore Dict
+oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
