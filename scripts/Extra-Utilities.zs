@@ -58,6 +58,8 @@ val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
 val WorldInterUp = <ExtraUtilities:nodeUpgrade:2>;
 val StackUp = <ExtraUtilities:nodeUpgrade:3>;
+val TransmitterUp = <ExtraUtilities:nodeUpgrade:5>;
+val ReceiverUp = <ExtraUtilities:nodeUpgrade:6>;
 val DepthFirstUp = <ExtraUtilities:nodeUpgrade:7>;
 val BreadthFirstUp = <ExtraUtilities:nodeUpgrade:8>;
 val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
@@ -80,6 +82,8 @@ val ElectrumPlate = <ore:plateElectrum>;
 val ElectrumFoil = <ore:foilElectrum>;
 val EnderPearlPlate = <ore:plateEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
+val NStarPlate = <ore:plateNetherStar>;
+val BedrockGear = <RotaryCraft:rotarycraft_item_enginecraft:12>;
 val SteelGear = <ore:gearSteel>;
 val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
@@ -205,6 +209,12 @@ recipes.remove(WorldInterUp);
 
 // --- Stack Upgrade
 recipes.remove(StackUp);
+
+// --- Transmitter Upgrade
+recipes.remove(TransmitterUp);
+
+// --- Receiver Upgrade
+recipes.remove(ReceiverUp);
 
 // --- Depth-First Upgrade
 recipes.remove(DepthFirstUp);
@@ -494,6 +504,18 @@ recipes.addShaped(WorldInterUp, [
 [DenseLapisPlate, IronPick, DenseLapisPlate],
 [IronPick, DiamondPick, IronPick],
 [DenseLapisPlate, IronPick, DenseLapisPlate]]);
+
+// --- Transmitter Upgrade
+recipes.addShaped(TransmitterUp, [
+[EnderEyePlate, WorldInterUp, EnderEyePlate],
+[BedrockGear, NStarPlate, BedrockGear],
+[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
+
+// --- Receiver Upgrade
+recipes.addShaped(ReceiverUp, [
+[EnderEyePlate, WorldInterUp, EnderEyePlate],
+[BedrockGear, NStarPlate, BedrockGear],
+[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
 
 // --- Depth-First Upgrade
 recipes.addShaped(DepthFirstUp, [

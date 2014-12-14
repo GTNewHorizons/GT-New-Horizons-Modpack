@@ -2,6 +2,8 @@
 //Many Changes and Addons by DreamMasterXXL
 
 //Imports
+
+import mods.nei.NEI;
 import mods.gregtech.Assembler;
 
 //remove Recipes
@@ -298,8 +300,6 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.me
 [<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
 
 // *** From NEI file ***
-
-import mods.nei.NEI;
 
 //Railcraft
 
