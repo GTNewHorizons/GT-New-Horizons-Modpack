@@ -1,10 +1,40 @@
 //Created by SteamT
 //Many Changes and Addons by DreamMasterXXL
+//Formatted And Fixed By Arch-Nihil.
 
 //Imports
 
 import mods.nei.NEI;
 import mods.gregtech.Assembler;
+
+
+// ***** Variables *****
+
+
+val IronPlate = <ore:plateAnyIron>;
+val GlassPane = GlassPane;
+val IronBars = <minecraft:iron_bars>;
+val SteelPlate = SteelPlate;
+val Plank = <ore:plankWood>;
+val IronScrew = <ore:screwAnyIron>;
+val SteelScrew = <ore:screwSteel>;
+val IronGear = <ore:gearAnyIron>;
+val DenseOPlate = <ore:plateDenseObsidian>;
+val Glass = <ore:glass>;
+val TSteelGear = <ore:gearGtTungstenSteel>;
+val IronRod = <ore:stickAnyIron>;
+val GoldPlate = <ore:plateGold>;
+val DiamondPlate = <ore:plateDiamond>;
+val EmeraldPlate = <ore:plateEmerald>;
+val IronIngot = <ore:ingotIron>;
+val RedDye = <ore:dyeRed>;
+val HPBoiler = <gregtech:gt.blockmachines:101>;
+val HPBoilerTank = <Railcraft:tile.railcraft.machine.beta:4>;
+
+val Screwdriver = <ore:craftingToolScrewdriver>;
+val HHammer = <ore:craftingToolHardHammer>;
+val Piston = <minecraft:piston>;
+
 
 //remove Recipes
 
@@ -18,25 +48,25 @@ recipes.remove(<Railcraft:tile.railcraft.machine.alpha:14>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:15>);
 //Iron Tank Wall
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta>, [
-[<Railcraft:part.plate>, <Railcraft:part.plate>],
-[<Railcraft:part.plate>, <Railcraft:part.plate>]]);
+[IronPlate, IronPlate],
+[IronPlate, IronPlate]]);
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta>, [
-[<ore:craftingToolWrench>, <Railcraft:part.plate>, <Railcraft:part.plate>],
-[<ore:craftingToolHardHammer>, <Railcraft:part.plate>, <Railcraft:part.plate>]]);
+[<ore:craftingToolWrench>, IronPlate, IronPlate],
+[HHammer, IronPlate, IronPlate]]);
 //Iron Tank Gauge
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:1>, [
-[<minecraft:glass_pane>, <Railcraft:part.plate>,<minecraft:glass_pane>],
-[<Railcraft:part.plate>, <minecraft:glass_pane>, <Railcraft:part.plate>],
-[<minecraft:glass_pane>, <Railcraft:part.plate>,<minecraft:glass_pane>]]);
+[GlassPane, IronPlate,GlassPane],
+[IronPlate, GlassPane, IronPlate],
+[GlassPane, IronPlate,GlassPane]]);
 //Iron Tank Valve
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
-[<minecraft:iron_bars>, <Railcraft:part.plate>,<minecraft:iron_bars>],
-[<Railcraft:part.plate>, <minecraft:lever>, <Railcraft:part.plate>],
-[<minecraft:iron_bars>, <Railcraft:part.plate>,<minecraft:iron_bars>]]);
+[IronBars, IronPlate,IronBars],
+[IronPlate, <minecraft:lever>, IronPlate],
+[IronBars, IronPlate,IronBars]]);
 //Low Pressure Boiler Tank
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:3>);
 //High Pressure Boiler Tank
-recipes.remove(<Railcraft:tile.railcraft.machine.beta:4>);
+recipes.remove(HPBoilerTank);
 //Solid Fueled Boiler Firebox
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:5>);
 //Liquid Fueled Boiler Firebox
@@ -53,21 +83,21 @@ recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:2>);
 //Steel Tank Wall
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:13>, [
-[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>],
-[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>]]);
+[SteelPlate, SteelPlate],
+[SteelPlate, SteelPlate]]);
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:13>, [
-[<ore:craftingToolWrench>, <Railcraft:part.plate:1>, <Railcraft:part.plate:1>],
-[<ore:craftingToolHardHammer>, <Railcraft:part.plate:1>, <Railcraft:part.plate:1>]]);
+[<ore:craftingToolWrench>, SteelPlate, SteelPlate],
+[HHammer, SteelPlate, SteelPlate]]);
 //Steel Tank Gauge
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:14>, [
-[<minecraft:glass_pane>, <Railcraft:part.plate:1>,<minecraft:glass_pane>],
-[<Railcraft:part.plate:1>, <minecraft:glass_pane>, <Railcraft:part.plate:1>],
-[<minecraft:glass_pane>, <Railcraft:part.plate:1>,<minecraft:glass_pane>]]);
+[GlassPane, SteelPlate,GlassPane],
+[SteelPlate, GlassPane, SteelPlate],
+[GlassPane, SteelPlate,GlassPane]]);
 //Steel Tank Valve
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
-[<minecraft:iron_bars>, <Railcraft:part.plate:1>,<minecraft:iron_bars>],
-[<Railcraft:part.plate:1>, <minecraft:lever>, <Railcraft:part.plate:1>],
-[<minecraft:iron_bars>, <Railcraft:part.plate:1>,<minecraft:iron_bars>]]);
+[IronBars, SteelPlate,IronBars],
+[SteelPlate, <minecraft:lever>, SteelPlate],
+[IronBars, SteelPlate,IronBars]]);
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
 //Steam Locomotive
@@ -111,149 +141,149 @@ recipes.removeShaped(<Railcraft:cart.work>);
 
 //Rolling Machine
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:8>, [
-[<gregtech:gt.metaitem.02:31032>, <minecraft:piston>, <gregtech:gt.metaitem.02:31032>],
-[<minecraft:piston>, <Forestry:sturdyMachine>, <minecraft:piston>],
+[<gregtech:gt.metaitem.02:31032>, Piston, <gregtech:gt.metaitem.02:31032>],
+[Piston, <Forestry:sturdyMachine>, Piston],
 [<gregtech:gt.metatool.01:12>, <Forestry:factory2:2>, <gregtech:gt.metatool.01:18>]]);
 
 //Water Tank
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *2, [
-[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
-[<ore:stickIron>, <ore:craftingToolScrewdriver>, <ore:stickIron>],
-[<gregtech:gt.metaitem.01:17809>, <IC2:itemHarz>, <gregtech:gt.metaitem.01:17809>]]);
+[Plank, Plank, Plank],
+[IronRod, Screwdriver, IronRod],
+[Plank, <IC2:itemHarz>, Plank]]);
 
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
-[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
-[<ore:stickIron>, <ore:craftingToolScrewdriver>, <ore:stickIron>],
-[<gregtech:gt.metaitem.01:17809>, <minecraft:slime_ball>, <gregtech:gt.metaitem.01:17809>]]);
+[Plank, Plank, Plank],
+[IronRod, Screwdriver, IronRod],
+[Plank, <minecraft:slime_ball>, Plank]]);
 
 //Iron Tank Wall
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta> *4, [
-[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>],
-[<ore:plateIron>, <ore:craftingToolScrewdriver>, <ore:plateIron>],
-[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>]]);
+[IronScrew, IronPlate, IronScrew],
+[IronPlate, Screwdriver, IronPlate],
+[IronScrew, IronPlate, IronScrew]]);
 
 //Iron Tank Gauge
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:1> *2, [
-[<ore:screwIron>, <Railcraft:tile.railcraft.machine.beta>, <ore:screwIron>],
-[<ore:paneGlass>, <ore:craftingToolScrewdriver>, <ore:paneGlass>],
-[<ore:screwIron>, <ore:plateIron>, <ore:screwIron>]]);
+[IronScrew, <Railcraft:tile.railcraft.machine.beta>, IronScrew],
+[GlassPane, Screwdriver, GlassPane],
+[IronScrew, IronPlate, IronScrew]]);
 
 //Iron Tank Valve
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
-[<ore:screwIron>, <Railcraft:tile.railcraft.machine.beta>, <ore:screwIron>],
-[<minecraft:iron_bars>, <ore:craftingToolScrewdriver>, <minecraft:iron_bars>],
-[<ore:screwIron>, <ore:pipeSmallWood>, <ore:screwIron>]]);
+[IronScrew, <Railcraft:tile.railcraft.machine.beta>, IronScrew],
+[IronBars, Screwdriver, IronBars],
+[IronScrew, <ore:pipeSmallWood>, IronScrew]]);
 
 //Low Pressure Boiler Tank
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:3>, [
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[null, <ore:craftingToolHardHammer>, null],
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+[IronPlate, IronPlate, IronPlate],
+[null, HHammer, null],
+[IronPlate, IronPlate, IronPlate]]);
 
 //High Pressure Boiler Tank
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:4>, [
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-[null, <ore:craftingToolHardHammer>, null],
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(HPBoilerTank, [
+[SteelPlate, SteelPlate, SteelPlate],
+[null, HHammer, null],
+[SteelPlate, SteelPlate, SteelPlate]]);
 
 //Solid Fueled Boiler Firebox
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:5>, [
-[<ore:plateIron>, <minecraft:cauldron>, <ore:plateIron>],
+[IronPlate, <minecraft:cauldron>, IronPlate],
 [<minecraft:brick_block>, <minecraft:fire_charge>, <minecraft:brick_block>],
-[<ore:plateIron>, <IC2:blockMachine:1>, <ore:plateIron>]]);
+[IronPlate, <IC2:blockMachine:1>, IronPlate]]);
 
 //Liquid Fueled Boiler Firebox
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:6>, [
-[<ore:plateSteel>, <minecraft:cauldron>, <ore:plateSteel>],
-[<minecraft:iron_bars>, <minecraft:fire_charge>, <minecraft:iron_bars>],
-[<ore:plateSteel>, <IC2:blockMachine:1>, <ore:plateSteel>]]);
+[SteelPlate, <minecraft:cauldron>, SteelPlate],
+[IronBars, <minecraft:fire_charge>, IronBars],
+[SteelPlate, <IC2:blockMachine:1>, SteelPlate]]);
 
 //Hobbyist´s Steam Engine
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:7>, [
 [<ore:plateTin>, <ore:plateLapis>, <ore:plateTin>],
-[<minecraft:glass>, <IC2:blockMachine>, <minecraft:glass>],
-[<ore:gearBronze>, <minecraft:piston>, <ore:gearBronze>]]);
+[Glass, <IC2:blockMachine>, Glass],
+[<ore:gearBronze>, Piston, <ore:gearBronze>]]);
 
 //Commercial Steam Engine
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:8>, [
-[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
-[<minecraft:glass>, <IC2:blockMachine:12>, <minecraft:glass>],
-[<ore:gearSteel>, <minecraft:piston>, <ore:gearSteel>]]);
+[IronPlate, <ore:plateLapis>, IronPlate],
+[Glass, <IC2:blockMachine:12>, Glass],
+[<ore:gearSteel>, Piston, <ore:gearSteel>]]);
 
 //Industrial Steam Engine
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:9>, [
-[<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
-[<minecraft:glass>, <gregtech:gt.blockcasings:3>, <minecraft:glass>],
-[<ore:gearGtTungstenSteel>, <minecraft:piston>, <ore:gearGtTungstenSteel>]]);
+[SteelPlate, <ore:plateLapis>, SteelPlate],
+[Glass, <gregtech:gt.blockcasings:3>, Glass],
+[TSteelGear, Piston, TSteelGear]]);
 
 //Personal Anchor
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:2>, [
-[<ore:plateEmerald>, <ore:plateDenseObsidian>, <ore:plateEmerald>],
-[<ore:plateGold>, <ore:gemEnderEye>, <ore:plateGold>],
-[<ore:plateEmerald>, <ore:plateDenseObsidian>, <ore:plateEmerald>]]);
+[EmeraldPlate, DenseOPlate, EmeraldPlate],
+[GoldPlate, <ore:gemEnderEye>, GoldPlate],
+[EmeraldPlate, DenseOPlate, EmeraldPlate]]);
 
 //World Anchor
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha>, [
-[<ore:plateDiamond>, <ore:plateDenseObsidian>, <ore:plateDiamond>],
-[<ore:plateGold>, <ore:gemEnderEye>, <ore:plateGold>],
-[<ore:plateDiamond>, <ore:plateDenseObsidian>, <ore:plateDiamond>]]);
+[DiamondPlate, DenseOPlate, DiamondPlate],
+[GoldPlate, <ore:gemEnderEye>, GoldPlate],
+[DiamondPlate, DenseOPlate, DiamondPlate]]);
 
 //Steel Tank Wall
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:13> *4, [
-[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>],
-[<ore:plateSteel>, <ore:craftingToolScrewdriver>, <ore:plateSteel>],
-[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]]);
+[SteelScrew, SteelPlate, SteelScrew],
+[SteelPlate, Screwdriver, SteelPlate],
+[SteelScrew, SteelPlate, SteelScrew]]);
 
 //Steel Tank Gauge
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:14> *2, [
-[<ore:screwSteel>, <Railcraft:tile.railcraft.machine.beta:13>, <ore:screwSteel>],
-[<Railcraft:tile.railcraft.glass:*>, <ore:craftingToolScrewdriver>, <Railcraft:tile.railcraft.glass:*>],
-[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]]);
+[SteelScrew, <Railcraft:tile.railcraft.machine.beta:13>, SteelScrew],
+[<Railcraft:tile.railcraft.glass:*>, Screwdriver, <Railcraft:tile.railcraft.glass:*>],
+[SteelScrew, SteelPlate, SteelScrew]]);
 
 //Steel Tank Valve
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
-[<ore:screwSteel>, <Railcraft:tile.railcraft.machine.beta:13>, <ore:screwSteel>],
-[<minecraft:iron_bars>, <ore:craftingToolScrewdriver>, <minecraft:iron_bars>],
-[<ore:screwSteel>, <ore:pipeSmallBronze>, <ore:screwSteel>]]);
+[SteelScrew, <Railcraft:tile.railcraft.machine.beta:13>, SteelScrew],
+[IronBars, Screwdriver, IronBars],
+[SteelScrew, <ore:pipeSmallBronze>, SteelScrew]]);
 
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
 [<gregtech:gt.blockmachines:3>, <minecraft:minecart>, <gregtech:gt.blockmachines:3>],
-[<gregtech:gt.blockmachines:101>, <minecraft:minecart>, <gregtech:gt.blockmachines:101>],
+[HPBoiler, <minecraft:minecart>, HPBoiler],
 [null, <minecraft:chest_minecart>, null]]);
 
 //Steam Locomotive
 recipes.addShaped(<Railcraft:cart.loco.steam.solid>, [
-[<Railcraft:tile.railcraft.machine.beta:4>, <Railcraft:tile.railcraft.machine.beta:4>, null],
-[<Railcraft:tile.railcraft.machine.beta:4>, <Railcraft:tile.railcraft.machine.beta:4>, <gregtech:gt.blockmachines:101>],
-[<minecraft:iron_bars>, <minecraft:chest_minecart>, <minecraft:minecart>]]);
+[HPBoilerTank, HPBoilerTank, null],
+[HPBoilerTank, HPBoilerTank, HPBoiler],
+[IronBars, <minecraft:chest_minecart>, <minecraft:minecart>]]);
 
 //Iron Borehead
 recipes.addShaped(<Railcraft:borehead.iron>, [
-[<ore:plateSteel>, <ore:gearIron>, <ore:plateSteel>],
-[<ore:gearIron>, <ore:blockIron>, <ore:gearIron>],
-[<ore:plateSteel>, <ore:gearIron>, <ore:plateSteel>]]);
+[SteelPlate, IronGear, SteelPlate],
+[IronGear, <ore:blockIron>, IronGear],
+[SteelPlate, IronGear, SteelPlate]]);
 
 //Steel Borehead
 recipes.addShaped(<Railcraft:borehead.steel>, [
-[<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>],
+[SteelPlate, <ore:gearSteel>, SteelPlate],
 [<ore:gearSteel>, <ore:blockIron>, <ore:gearSteel>],
-[<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>]]);
+[SteelPlate, <ore:gearSteel>, SteelPlate]]);
 
 //Diamond Borehead
 recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>]);
 
 //RC Crowbar
 recipes.addShaped(<Railcraft:tool.crowbar>, [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickIron>],
-[<ore:dyeRed>, <ore:stickIron>, <ore:dyeRed>],
-[<ore:stickIron>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+[HHammer, RedDye, IronRod],
+[RedDye, IronRod, RedDye],
+[IronRod, RedDye, <ore:craftingToolFile>]]);
 
 //Reinforced Crowbar
 recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickSteel>],
-[<ore:dyeRed>, <ore:stickSteel>, <ore:dyeRed>],
-[<ore:stickSteel>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+[HHammer, RedDye, <ore:stickSteel>],
+[RedDye, <ore:stickSteel>, RedDye],
+[<ore:stickSteel>, RedDye, <ore:craftingToolFile>]]);
 
 //Assembler Recipes
 
@@ -275,20 +305,20 @@ Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:bloc
 //Rolling Machine
 
 //Iron Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
+mods.railcraft.Rolling.removeRecipe(IronPlate * 4);
 //Steel Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
+mods.railcraft.Rolling.removeRecipe(SteelPlate * 4);
 //Tin Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 //Copper Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
 //Iron Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], 
-[<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+mods.railcraft.Rolling.addShaped(IronPlate * 2, [[IronIngot, IronIngot], 
+[IronIngot, IronIngot]]);
 
 //Steel Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
+mods.railcraft.Rolling.addShaped(SteelPlate * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
 [<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>]]);
 
 //Tin Plates
