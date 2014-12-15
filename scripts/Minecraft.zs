@@ -65,6 +65,7 @@ val Dropper = <minecraft:dropper>;
 val Cobble = <ore:cobblestone>;
 val Mortar = <ore:craftingToolMortar>;
 val Sugar = <minecraft:sugar>;
+val SugarCane = <minecraft:reeds>;
 
 val AnyWool = <ore:blockWool>;
 val Wool = <minecraft:wool>;
@@ -1990,8 +1991,8 @@ recipes.addShapeless(BlackHardClay,
 [ClayBlock, BlackDye]);
 
 // --- Sugar
-recipes.addShapeless, 
-[Mortar, Sugar]);
+recipes.addShapeless(Sugar,
+[Mortar, SugarCane]);
 
 //Brewing Stand
 recipes.addShaped(<minecraft:brewing_stand>, [
