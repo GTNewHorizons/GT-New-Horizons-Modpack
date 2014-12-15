@@ -35,8 +35,127 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 val HHammer = <ore:craftingToolHardHammer>;
 val Piston = <minecraft:piston>;
 
+val IronStairs = <Railcraft:tile.railcraft.stair:5>;
+val SteelStairs = <Railcraft:tile.railcraft.stair:42>;
+val CopperStairs = <Railcraft:tile.railcraft.stair:39>;
+val TinStairs = <Railcraft:tile.railcraft.stair:40>;
+val LeadStairs = <Railcraft:tile.railcraft.stair:41>;
+val GoldStairs = <Railcraft:tile.railcraft.stair:6>;
+val DiamondStairs = <Railcraft:tile.railcraft.stair:7>;
 
-//remove Recipes
+val AbyssalLantern = <Railcraft:tile.railcraft.lantern.stone>;
+val BleachedLantern = <Railcraft:tile.railcraft.lantern.stone:1>;
+val BloodLantern = <Railcraft:tile.railcraft.lantern.stone:2>;
+val FrostLantern = <Railcraft:tile.railcraft.lantern.stone:3>;
+val InfernalLantern = <Railcraft:tile.railcraft.lantern.stone:4>;
+val NetherLantern = <Railcraft:tile.railcraft.lantern.stone:5>;
+val QuarriedLantern = <Railcraft:tile.railcraft.lantern.stone:6>;
+val SandyLantern = <Railcraft:tile.railcraft.lantern.stone:7>;
+val SandstoneLantern = <Railcraft:tile.railcraft.lantern.stone:8>;
+val StoneLantern = <Railcraft:tile.railcraft.lantern.stone:9>;
+
+val IronLantern = <Railcraft:tile.railcraft.lantern.metal>;
+val GoldLantern = <Railcraft:tile.railcraft.lantern.metal:1>;
+val CopperLantern = <Railcraft:tile.railcraft.lantern.metal:2>;
+val TinLantern = <Railcraft:tile.railcraft.lantern.metal:3>;
+val LeadLantern = <Railcraft:tile.railcraft.lantern.metal:4>;
+val SteelLantern = <Railcraft:tile.railcraft.lantern.metal:5>;
+
+val AbyssalBSlab = <Railcraft:tile.railcraft.slab:27>;
+val BleachedBSlab = <Railcraft:tile.railcraft.slab:25>;
+val BloodBSlab = <Railcraft:tile.railcraft.slab:26>;
+val FrostBSlab = <Railcraft:tile.railcraft.slab:23>;
+val InfernalBSlab = <Railcraft:tile.railcraft.slab:22>;
+val NetherBSlab = <Railcraft:tile.railcraft.slab:28>;
+val QuarriedBSlab = <Railcraft:tile.railcraft.slab:24>;
+val SandyBSlab = <Railcraft:tile.railcraft.slab:21>;
+val SandstoneBSlab = <minecraft:stone_slab:1>;
+val StoneBSlab = <minecraft:stone_slab>;
+
+val IronBlock = <ore:blockIron>;
+val SteelBlock = <ore:blockSteel>;
+val CopperBlock = <ore:blockCopper>;
+val TinBlock = <ore:blockTin>;
+val LeadBlock = <ore:blockLead>;
+val GoldBlock = <ore:blockGold>;
+val DiamondBlock = <ore:blockDiamond>;
+
+val Torch = <minecraft:torch>;
+
+val CopperPlate = <ore:plateCopper>;
+val TinPlate = <ore:plateTin>;
+val LeadPlate = <ore:plateLead>;
+
+val GoldScrew = <ore:screwGold>;
+val CopperScrew = <ore:screwCopper>;
+val TinScrew = <ore:screwTin>;
+val LeadScrew = <ore:screwLead>;
+
+
+// #******** Removing Recipes *******#
+
+// --- Iron Stairs
+recipes.remove(IronStairs);
+
+// --- Steel Stairs
+recipes.remove(SteelStairs);
+
+// --- Copper Stairs
+recipes.remove(CopperStairs);
+
+// --- Tin Stairs
+recipes.remove(TinStairs);
+
+// --- Lead Stairs
+recipes.remove(LeadStairs);
+
+// --- Gold Stairs
+recipes.remove(GoldStairs);
+
+// --- Diamond Stairs
+recipes.remove(DiamondStairs);
+
+// --- Abyssal Block Lantern
+recipes.remove(AbyssalLantern);
+
+// --- Bleached Bone Block Lantern
+recipes.remove(BleachedLantern);
+
+// --- Bloodstained Block Lantern
+recipes.remove(BloodLantern);
+
+// --- Frostbound Block Lantern
+recipes.remove(FrostLantern);
+
+// --- Infernal Block Lantern
+recipes.remove(InfernalLantern);
+
+// --- Nether Block Lantern
+recipes.remove(NetherLantern);
+
+// --- Quarried Block Lantern
+recipes.remove(QuarriedLantern);
+
+// --- Sandy Block Lantern
+recipes.remove(SandyLantern);
+
+// --- Iron Lantern
+recipes.remove(IronLantern);
+
+// --- Gold Lantern
+recipes.remove(GoldLantern);
+
+// --- Copper Lantern
+recipes.remove(CopperLantern);
+
+// --- Tin Lantern
+recipes.remove(TinLantern);
+
+// --- Lead Lantern
+recipes.remove(LeadLantern);
+
+// --- Steel Lantern
+recipes.remove(SteelLantern);
 
 //Rolling Machine
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
@@ -329,4 +448,200 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<gregtech:gt.me
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>], 
 [<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
 
-// *** From NEI file ***
+// --- Iron Stairs
+recipes.addShapedMirrored(IronStairs, [
+[IronBlock, null, null],
+[IronBlock, IronBlock, null],
+[IronBlock, IronBlock, IronBlock]]);
+
+// --- Steel Stairs
+recipes.addShapedMirrored(SteelStairs, [
+[SteelBlock, null, null],
+[SteelBlock, SteelBlock, null],
+[SteelBlock, SteelBlock, SteelBlock]]);
+
+// --- Copper Stairs
+recipes.addShapedMirrored(CopperStairs, [
+[CopperBlock, null, null],
+[CopperBlock, CopperBlock, null],
+[CopperBlock, CopperBlock, CopperBlock]]);
+
+// --- Tin Stairs
+recipes.addShapedMirrored(TinStairs, [
+[TinBlock, null, null],
+[TinBlock, TinBlock, null],
+[TinBlock, TinBlock, TinBlock]]);
+
+// --- Lead Stairs
+recipes.addShapedMirrored(LeadStairs, [
+[LeadBlock, null, null],
+[LeadBlock, LeadBlock, null],
+[LeadBlock, LeadBlock, LeadBlock]]);
+
+// --- Gold Stairs
+recipes.addShapedMirrored(GoldStairs, [
+[GoldBlock, null, null],
+[GoldBlock, GoldBlock, null],
+[GoldBlock, GoldBlock, GoldBlock]]);
+
+// --- Diamond Stairs
+recipes.addShapedMirrored(DiamondStairs, [
+[DiamondBlock, null, null],
+[DiamondBlock, DiamondBlock, null],
+[DiamondBlock, DiamondBlock, DiamondBlock]]);
+
+// --- Abyssal Block Lantern
+recipes.addShaped(AbyssalLantern, [
+[null, AbyssalBSlab, null],
+[null, Torch, null],
+[null, AbyssalBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(AbyssalLantern * 2, [
+[AbyssalBSlab, null, AbyssalBSlab],
+[Torch, null, Torch],
+[AbyssalBSlab, null, AbyssalBSlab]]);
+// -
+Assembler.addRecipe(AbyssalLantern, Torch, AbyssalBSlab * 2, 200, 2);
+
+// --- Bleached Bone Block Lantern
+recipes.addShaped(BleachedLantern, [
+[null, BleachedBSlab, null],
+[null, Torch, null],
+[null, AbyssalBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(BleachedLantern * 2, [
+[BleachedBSlab, null, BleachedBSlab],
+[Torch, null, Torch],
+[BleachedBSlab, null, BleachedBSlab]]);
+// -
+Assembler.addRecipe(BleachedLantern, Torch, BleachedBSlab * 2, 200, 2);
+
+// --- Bloodstained Block Lantern
+recipes.addShaped(BloodLantern, [
+[null, BloodBSlab, null],
+[null, Torch, null],
+[null, BloodBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(BloodLantern * 2, [
+[BloodBSlab, null, BloodBSlab],
+[Torch, null, Torch],
+[BloodBSlab, null, BloodBSlab]]);
+// -
+Assembler.addRecipe(BloodLantern, Torch, BloodBSlab * 2, 200, 2);
+
+// --- Frostbound Block Lantern
+recipes.addShaped(FrostLantern, [
+[null, FrostBSlab, null],
+[null, Torch, null],
+[null, FrostBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(FrostLantern * 2, [
+[FrostBSlab, null, FrostBSlab],
+[Torch, null, Torch],
+[FrostBSlab, null, FrostBSlab]]);
+// -
+Assembler.addRecipe(FrostLantern, Torch, FrostBSlab * 2, 200, 2);
+
+// --- Infernal Block Lantern
+recipes.addShaped(InfernalLantern, [
+[null, InfernalBSlab, null],
+[null, Torch, null],
+[null, InfernalBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(InfernalLantern * 2, [
+[InfernalBSlab, null, InfernalBSlab],
+[Torch, null, Torch],
+[InfernalBSlab, null, InfernalBSlab]]);
+// -
+Assembler.addRecipe(InfernalLantern, Torch, InfernalBSlab * 2, 200, 2);
+
+// --- Nether Block Lantern
+recipes.addShaped(NetherLantern, [
+[null, NetherBSlab, null],
+[null, Torch, null],
+[null, NetherBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(NetherLantern * 2, [
+[NetherBSlab, null, NetherBSlab],
+[Torch, null, Torch],
+[NetherBSlab, null, NetherBSlab]]);
+// -
+Assembler.addRecipe(NetherLantern, Torch, NetherBSlab * 2, 200, 2);
+
+// --- Quarried Block Lantern
+recipes.addShaped(QuarriedLantern, [
+[null, QuarriedBSlab, null],
+[null, Torch, null],
+[null, QuarriedBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(QuarriedLantern * 2, [
+[QuarriedBSlab, null, QuarriedBSlab],
+[Torch, null, Torch],
+[QuarriedBSlab, null, QuarriedBSlab]]);
+// -
+Assembler.addRecipe(QuarriedLantern, Torch, QuarriedBSlab * 2, 200, 2);
+
+// --- Sandy Block Lantern
+recipes.addShaped(SandyLantern, [
+[null, SandyBSlab, null],
+[null, Torch, null],
+[null, SandyBSlab, null]]);
+// - Alternate Recipe
+recipes.addShaped(SandyLantern * 2, [
+[SandyBSlab, null, SandyBSlab],
+[Torch, null, Torch],
+[SandyBSlab, null, SandyBSlab]]);
+// -
+Assembler.addRecipe(SandyLantern, Torch, SandyBSlab * 2, 200, 2);
+
+// --- Sandstone Lantern
+recipes.addShaped(SandstoneLantern * 2, [
+[SandstoneBSlab, null, SandstoneBSlab],
+[Torch, null, Torch],
+[SandstoneBSlab, null, SandstoneBSlab]]);
+// -
+Assembler.addRecipe(SandstoneLantern, Torch, SandstoneBSlab * 2, 200, 2);
+
+// --- Stone Lantern
+recipes.addShaped(StoneLantern * 2, [
+[StoneBSlab, null, StoneBSlab],
+[Torch, null, Torch],
+[StoneBSlab, null, StoneBSlab]]);
+// -
+Assembler.addRecipe(StoneLantern, Torch, StoneBSlab * 2, 200, 2);
+
+// --- Iron Lantern
+recipes.addShaped(IronLantern, [
+[IronScrew, IronPlate, IronScrew],
+[Screwdriver, Torch, HHammer],
+[IronScrew, IronPlate, IronScrew]]);
+
+// --- Gold Lantern
+recipes.addShaped(GoldLantern, [
+[GoldScrew, GoldPlate, GoldScrew],
+[Screwdriver, Torch, HHammer],
+[GoldScrew, GoldPlate, GoldScrew]]);
+
+// --- Copper Lantern
+recipes.addShaped(CopperLantern, [
+[CopperScrew, CopperPlate, CopperScrew],
+[Screwdriver, Torch, HHammer],
+[CopperScrew, CopperPlate, CopperScrew]]);
+
+// --- Tin Lantern
+recipes.addShaped(TinLantern, [
+[TinScrew, TinPlate, TinScrew],
+[Screwdriver, Torch, HHammer],
+[TinScrew, TinPlate, TinScrew]]);
+
+// --- Lead Lantern
+recipes.addShaped(LeadLantern, [
+[LeadScrew, LeadPlate, LeadScrew],
+[Screwdriver, Torch, HHammer],
+[LeadScrew, LeadPlate, LeadScrew]]);
+
+// --- Steel Lantern
+recipes.addShaped(SteelLantern, [
+[SteelScrew, SteelPlate, SteelScrew],
+[Screwdriver, Torch, HHammer],
+[SteelScrew, SteelPlate, SteelScrew]]);
