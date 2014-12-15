@@ -36,4 +36,4 @@ recipes.addShaped(WovenCloth, [
 
 // #======= Hiding Stuff =======#
 
-
+NEI.hide(<harvestcraft:sink:*>);
