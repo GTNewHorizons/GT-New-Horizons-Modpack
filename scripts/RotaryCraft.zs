@@ -108,7 +108,7 @@ val Calcium = <gregtech:gt.metaitem.01:2026>;
 val WhiteDye = <BiomesOPlenty:misc:8>;
 val OrangeDye = <minecraft:dye:14>;
 val MagentaDey = <minecraft:dye:13>;
-val LightBlueDye = <minecraft:dye:12;
+val LightBlueDye = <minecraft:dye:12>;
 val YellowDye = <minecraft:dye:11>;
 val LimeDye = <minecraft:dye:10>;
 val PinkDye = <minecraft:dye:9>;
@@ -2011,30 +2011,8 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_handcraft>, [
 
 // ||||| Fluorite |||||
 
-
-// --- Blue Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], BlueFluorite * 4, 2, 400);
-
-// --- Pink Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, PinkDye, null], PinkFluorite * 4, 2, 400);
-
-// --- Orange Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, OrangeDye, null], OrangeFluorite * 4, 2, 400);
-
-// --- Magenta Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, MagentaDey, null], MagentaFluorite * 4, 2, 400);
-
-// --- Green Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, GreenDye, null], GreenFluorite * 4, 2, 400);
-
-// --- Red Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, RedDye, null], RedFluorite * 4, 2, 400);
-
 // --- White Fluorite
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, WhiteDye, null], WhiteFluorite * 4, 2, 800);
-
-// --- Yellow Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, YellowDye, null], YellowFluorite * 4, 2, 400);
 
 
 // #======= Renaming Stuff =======#
