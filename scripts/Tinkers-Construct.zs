@@ -176,8 +176,12 @@ Compressor.addRecipe(<TConstruct:MetalBlock:2>, <ore:ingotManyullyn> * 9);
 Compressor.addRecipe(<TConstruct:MetalBlock:8>, <ore:ingotAlumite> * 9);
 
 // --- Aluminium Smelting
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2019>, <liquid:aluminum.molten> * 144, 200, <minecraft:dirt>);
-
+// --- Dust
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2019>, <liquid:aluminum.molten> * 144, 500, <minecraft:stone>);
+// --- Tiny Pile
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:19>, <liquid:aluminum.molten> * 16, 500, <minecraft:stone>);
+// --- Small Pile
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:1019>, <liquid:aluminum.molten> * 36, 500, <minecraft:stone>);
 
 
 // ||||| Items |||||
