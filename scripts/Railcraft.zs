@@ -330,7 +330,3 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.me
 [<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
 
 // *** From NEI file ***
-
-//Railcraft
-
-NEI.hide(<Railcraft:tile.railcraft.machine.alpha:15>);
