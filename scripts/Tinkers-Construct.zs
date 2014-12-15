@@ -27,6 +27,10 @@ val ClearPane = <TConstruct:GlassPane>;
 val Moss = <BiomesOPlenty:moss>;
 val MossyCobble = <minecraft:mossy_cobblestone>;
 val MossyStoneBricks = <minecraft:stonebrick:1>;
+val Grout = <TConstruct:CraftedSoil:1>;
+val Gravel = <minecraft:gravel>;
+val Sand = <minecraft:sand>;
+val Clay = <minecraft:clay_ball>;
 
 
 
@@ -157,6 +161,9 @@ recipes.remove(SilkyJewel);
 // --- Ball Of Moss
 recipes.remove(BallOfMoss);
 
+// --- Grout
+recipes.remove(Grout);
+
 
 
 // #======= Adding Back Recipes =======#
@@ -167,6 +174,9 @@ Compressor.addRecipe(<TConstruct:MetalBlock:2>, <ore:ingotManyullyn> * 9);
 
 // --- Block Of Alumite
 Compressor.addRecipe(<TConstruct:MetalBlock:8>, <ore:ingotAlumite> * 9);
+
+// --- Aluminium Smelting
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2019>, <liquid:aluminum.molten> * 144, 200, <minecraft:dirt>);
 
 
 
@@ -201,6 +211,10 @@ recipes.addShaped(BallOfMoss, [
 [Moss, MossyCobble, Moss],
 [MossyCobble, MossyStoneBricks, MossyCobble],
 [Moss, MossyCobble, Moss]]);
+
+// --- Grout
+recipes.addShapeless(Grout,
+[Sand, Gravel, Clay]);
 
 
 // #======= Hiding Stuff =======#
