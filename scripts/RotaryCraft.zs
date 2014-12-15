@@ -105,22 +105,23 @@ val FluoriteGem = <RotaryCraft:rotarycraft_item_modingots:52>;
 val FluorineCell = <gregtech:gt.metaitem.01:30014>;
 val Calcium = <gregtech:gt.metaitem.01:2026>;
 
-val WhiteDye = <minecraft:dye>;
-val OrangeDye = <minecraft:dye:1>;
-val MagentaDye = <minecraft:dye:2>;
-val LightBlueDye = <minecraft:dye:3>;
-val YellowDye = <minecraft:dye:4>;
-val LimeDye = <minecraft:dye:5>;
-val PinkDye = <minecraft:dye:6>;
-val GrayDye = <minecraft:dye:7>;
-val LightGrayDye = <minecraft:dye:8>;
-val CyanDye = <minecraft:dye:9>;
-val PurpleDye = <minecraft:dye:10>;
-val BlueDye = <minecraft:dye:11>;
-val BrownDye = <minecraft:dye:12>;
-val GreenDye = <minecraft:dye:13>;
-val RedDye = <minecraft:dye:14>;
-val BlackDye = <minecraft:dye:15>;
+val WhiteDye = <BiomesOPlenty:misc:8>;
+val OrangeDye = <minecraft:dye:14>;
+val MagentaDey = <minecraft:dye:13>;
+val LightBlueDye = <minecraft:dye:12;
+val YellowDye = <minecraft:dye:11>;
+val LimeDye = <minecraft:dye:10>;
+val PinkDye = <minecraft:dye:9>;
+val GrayDye = <minecraft:dye:8>;
+val LightGrayDye = <minecraft:dye:7>;
+val CyanDye = <minecraft:dye:6>;
+val PurpleDye = <minecraft:dye:5>;
+val BlueDye = <BiomesOPlenty:misc:5>;
+val BrownDye = <BiomesOPlenty:misc:6>;
+val GreenDye = <minecraft:dye:2>;
+val RedDye = <minecraft:dye:1>;
+val BlackDye = <BiomesOPlenty:misc:9>;
+
 
 val BlueFluorite = <ReactorCraft:reactorcraft_item_fluorite>;
 val PinkFluorite = <ReactorCraft:reactorcraft_item_fluorite:1>;
@@ -2018,10 +2019,10 @@ Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], BlueFluorite * 
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, PinkDye, null], PinkFluorite * 4, 2, 400);
 
 // --- Orange Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], OrangeFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, OrangeDye, null], OrangeFluorite * 4, 2, 400);
 
 // --- Magenta Fluorite
-Centrifuge.addRecipe([FluorineCell * 2, Calcium, BlueDye, null], MagentaFluorite * 4, 2, 400);
+Centrifuge.addRecipe([FluorineCell * 2, Calcium, MagentaDey, null], MagentaFluorite * 4, 2, 400);
 
 // --- Green Fluorite
 Centrifuge.addRecipe([FluorineCell * 2, Calcium, GreenDye, null], GreenFluorite * 4, 2, 400);
