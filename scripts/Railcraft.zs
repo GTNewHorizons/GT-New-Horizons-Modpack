@@ -127,7 +127,9 @@ val ClearGlassP = <TConstruct:GlassPane>;
 
 val IronFurnace = <IC2:blockMachine:1>;
 
+
 // #******** Removing Recipes *******#
+
 
 // --- Iron Stairs ---
 recipes.remove(IronStairs);
@@ -213,6 +215,12 @@ recipes.remove(ConcreteSlab);
 // --- Steel Anvil ---
 recipes.remove(SteelAnvil);
 
+// --- Blast Furnace ---
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha:12>);
+
+// --- Rolling Machine ---
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
+
 // --- Iron Tank Wall ---
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta>, [
 [IronPlate, IronPlate],
@@ -257,21 +265,11 @@ recipes.remove(<Railcraft:tile.railcraft.machine.beta:8>);
 // --- Industrial Steam Engine ---
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:9>);
 
-// --- Rolling Machine ---
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
-
-// --- Blast Furnace ---
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:12>);
-
 // --- Rock Crusher ---
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:15>);
 
 //Water Tank
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:14>);
-
-
-
-
 
 //Anchor
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
@@ -335,6 +333,7 @@ recipes.removeShaped(<Railcraft:cart.work>);
 
 
 // #******** add Recipes *******#
+
 
 // --- Block of Coal Coke
 Compressor.addRecipe(CoalCokeBlock, CoalCoke * 9);
@@ -452,14 +451,6 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
 [IronRod, Screwdriver, IronRod],
 [Plank, <minecraft:slime_ball>, Plank]]);
 
-
-
-
-
-
-
-
-
 //Personal Anchor
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:2>, [
 [EmeraldPlate, DenseOPlate, EmeraldPlate],
@@ -471,8 +462,6 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha>, [
 [DiamondPlate, DenseOPlate, DiamondPlate],
 [GoldPlate, <ore:gemEnderEye>, GoldPlate],
 [DiamondPlate, DenseOPlate, DiamondPlate]]);
-
-
 
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
