@@ -4,7 +4,7 @@
 
 // *======= Importing Stuff =======*
 
-
+import mods.nei.NEI;
 
 // *======= Variables =======*
 
