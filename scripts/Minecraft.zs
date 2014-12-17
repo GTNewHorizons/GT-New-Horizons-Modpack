@@ -226,6 +226,8 @@ val SHammer = <ore:craftingToolSoftHammer>;
 val Knife = <ore:craftingToolKnife>;
 val Saw = <ore:craftingToolSaw>;
 
+val Detector = <Railcraft:tile.railcraft.detector:1>;
+
 
 
 // *======= Removing Recipes =======*
@@ -738,15 +740,9 @@ recipes.addShaped(Rail * 8, [
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, null , HHammer]]);
 
-// --- Booster Rail
-recipes.addShaped(BoosterRail * 4, [
-[IronScrew, null, IronScrew],
-[AdvancedRail, WoodRailbed, AdvancedRail],
-[Screwdriver, RedAlloyWire, HHammer]]);
-
 // --- Detector Rail
 recipes.addShaped(DetectorRail * 2, [
-[IronScrew, PressurePlate, IronScrew],
+[IronScrew, Detector, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, RedAlloyWire, HHammer]]);
 
