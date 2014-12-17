@@ -2,6 +2,7 @@
 
 import mods.thaumcraft.Arcane;
 import mods.ic2.Compressor;
+import mods.ic2.Macerator;
 
 //remove Recipes
 
@@ -75,7 +76,10 @@ recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<Thaumcraft:WandCap>, <TwilightForest:item.carminite>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Block
-Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <ore:ingotThaumium> * 9);
+Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
+
+//Thaumium Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2330> * 9, <Thaumcraft:blockCosmeticSolid:4>);
 
 //refresh Recipes
 

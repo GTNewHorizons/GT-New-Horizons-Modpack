@@ -547,43 +547,43 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.me
 [<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
 
 // --- Iron Stairs
-recipes.addShapedMirrored(IronStairs, [
+recipes.addShapedMirrored(IronStairs * 4, [
 [IronBlock, null, null],
 [IronBlock, IronBlock, null],
 [IronBlock, IronBlock, IronBlock]]);
 
 // --- Steel Stairs
-recipes.addShapedMirrored(SteelStairs, [
+recipes.addShapedMirrored(SteelStairs * 4, [
 [SteelBlock, null, null],
 [SteelBlock, SteelBlock, null],
 [SteelBlock, SteelBlock, SteelBlock]]);
 
 // --- Copper Stairs
-recipes.addShapedMirrored(CopperStairs, [
+recipes.addShapedMirrored(CopperStairs * 4, [
 [CopperBlock, null, null],
 [CopperBlock, CopperBlock, null],
 [CopperBlock, CopperBlock, CopperBlock]]);
 
 // --- Tin Stairs
-recipes.addShapedMirrored(TinStairs, [
+recipes.addShapedMirrored(TinStairs * 4, [
 [TinBlock, null, null],
 [TinBlock, TinBlock, null],
 [TinBlock, TinBlock, TinBlock]]);
 
 // --- Lead Stairs
-recipes.addShapedMirrored(LeadStairs, [
+recipes.addShapedMirrored(LeadStairs * 4, [
 [LeadBlock, null, null],
 [LeadBlock, LeadBlock, null],
 [LeadBlock, LeadBlock, LeadBlock]]);
 
 // --- Gold Stairs
-recipes.addShapedMirrored(GoldStairs, [
+recipes.addShapedMirrored(GoldStairs * 4, [
 [GoldBlock, null, null],
 [GoldBlock, GoldBlock, null],
 [GoldBlock, GoldBlock, GoldBlock]]);
 
 // --- Diamond Stairs
-recipes.addShapedMirrored(DiamondStairs, [
+recipes.addShapedMirrored(DiamondStairs * 4, [
 [DiamondBlock, null, null],
 [DiamondBlock, DiamondBlock, null],
 [DiamondBlock, DiamondBlock, DiamondBlock]]);
