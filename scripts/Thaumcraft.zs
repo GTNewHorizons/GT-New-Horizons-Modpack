@@ -74,7 +74,7 @@ recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<TwilightForest:item.carminite>, <ore:stickWood>, <TwilightForest:item.carminite>],
 [<Thaumcraft:WandCap>, <TwilightForest:item.carminite>, <TwilightForest:item.fieryBlood>]]);
 
-/Thaumium Block
+//Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <ore:ingotThaumium> * 9);
 
 //refresh Recipes
