@@ -1,104 +1,130 @@
-//Creted by BeyondRealityModPack
-import mods.nei.NEI;
+// ******** Created by Arch-Nihil ********     * WIP * - Uncomplete
 
-// Alum plate <gregtech:gt.metaitem.01:17019>
-// bronze pipe <gregtech:gt.blockmachines:5121>
-// MV hull <gregtech:gt.blockmachines:12>
-// alum gear <gregtech:gt.metaitem.02:31019>
 
-var dust = <ore:dustDiamond>;
 
-// <~~~~~~~~~~~~~~~~~~~ Items ~~~~~~~~~~~~~~~~~~~~~~>
+// *======= Importing Stuff =======*
 
-// Muta Gem Catalyst
-recipes.addShaped(<gendustry:HoneyDrop:11>, [[<Forestry:royalJelly>,<Forestry:royalJelly>,<Forestry:royalJelly>],
-                                                    [<Forestry:royalJelly>,<IC2:itemUran238>,<Forestry:royalJelly>],
-                                                    [<Forestry:royalJelly>,<Forestry:royalJelly>,<Forestry:royalJelly>]]);
-													
-// Muta Gem
-recipes.addShaped(<gendustry:HoneyComb:141>, [[<gendustry:HoneyDrop:11>,<gendustry:HoneyDrop:11>,<gendustry:HoneyDrop:11>],
-                                                    [<gendustry:HoneyDrop:11>,<Forestry:waxCapsuleBiomass>,<gendustry:HoneyDrop:11>],
-                                                    [<gendustry:HoneyDrop:11>,<gendustry:HoneyDrop:11>,<gendustry:HoneyDrop:11>]]);							
-						
-val tin = <ore:ingotTin>;						
-						
-// Upgrade Frame
-recipes.remove(<gendustry:UpgradeFrame>);
-recipes.addShaped(<gendustry:UpgradeFrame>, [[<gregtech:gt.metaitem.01:11019>,<minecraft:gold_ingot>,<gregtech:gt.metaitem.01:11019>],
-                                                    [<minecraft:redstone_block>,<gregtech:gt.blockmachines:4129>,<minecraft:redstone_block>],
-                                                    [<gregtech:gt.metaitem.01:11019>,<minecraft:gold_ingot>,<gregtech:gt.metaitem.01:11019>]]);
-													
-													
-// Power Module
-recipes.remove(<gendustry:PowerModule>);
-recipes.addShaped(<gendustry:PowerModule>, [[<gregtech:gt.metaitem.02:31019>,<minecraft:gold_ingot>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gregtech:gt.metaitem.01:32700>,<minecraft:redstone_block>,<gregtech:gt.metaitem.01:32700>],
-                                                    [<gregtech:gt.metaitem.02:31019>,<minecraft:gold_ingot>,<gregtech:gt.metaitem.02:31019>]]);
-													
-//	MutagenTank												
-recipes.remove(<gendustry:MutagenTank>);
-recipes.addShaped(<gendustry:MutagenTank>, [[<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>],
-                                                    [<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>],
-                                                    [<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>]]);
-			
-//	Bee Receptacle												
-recipes.remove(<gendustry:BeeReceptacle>);	
-recipes.addShaped(<gendustry:BeeReceptacle>, [[<gregtech:gt.metaitem.01:11019>,<gregtech:gt.metaitem.01:11019>,<gregtech:gt.metaitem.01:11019>],
-                                                    [<gregtech:gt.metaitem.01:11019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:11019>],
-                                                    [<minecraft:redstone_block>,<minecraft:light_weighted_pressure_plate>,<minecraft:redstone_block>]]);
-													
-//	MutagenTank												
-recipes.remove(<gendustry:MutagenTank>);
-recipes.addShaped(<gendustry:MutagenTank>, [[<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>],
-                                                    [<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>],
-                                                    [<gregtech:gt.metaitem.01:17019>,<minecraft:glass_pane>,<gregtech:gt.metaitem.01:17019>]]);													
-			
-// <~~~~~~~~~~~~~~~~~~~ Blocks ~~~~~~~~~~~~~~~~~~~~~~>			
-			
-// Mutagen Producer
-recipes.remove(<gendustry:MutagenProducer>);
-recipes.addShaped(<gendustry:MutagenProducer>, [[<gregtech:gt.metaitem.01:17019>,<gregtech:gt.blockmachines:5121>,<gregtech:gt.metaitem.01:17019>],
-                                                    [<gendustry:PowerModule>,<gregtech:gt.blockmachines:13>,<gendustry:PowerModule>],
-                                                    [<gregtech:gt.metaitem.02:31019>,<gendustry:MutagenTank>,<gregtech:gt.metaitem.02:31019>]]);
-													
-// Industrial Apiary
-recipes.remove(<gendustry:IndustrialApiary>);	
-recipes.addShaped(<gendustry:IndustrialApiary>, [[<Forestry:alveary:2>,<gendustry:GeneticsProcessor>,<Forestry:alveary:2>],
-                                                    [<gendustry:PowerModule>,<gregtech:gt.blockmachines:13>,<gendustry:PowerModule>],
-                                                    [<gregtech:gt.metaitem.02:31019>,<gendustry:BeeReceptacle>,<gregtech:gt.metaitem.02:31019>]]);		
 
-// Imprinter
-recipes.remove(<gendustry:Imprinter>);
-recipes.addShaped(<gendustry:Imprinter>, [[<gregtech:gt.metaitem.02:31019>,<gendustry:GeneticsProcessor>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gendustry:BeeReceptacle>,<gregtech:gt.blockmachines:13>,<gendustry:BeeReceptacle>],
-                                                 [<gregtech:gt.metaitem.02:31019>,<gendustry:PowerModule>,<gregtech:gt.metaitem.02:31019>]]);	
 
-// Protein Liquifier
-recipes.remove(<gendustry:Liquifier>);
-recipes.addShaped(<gendustry:Liquifier>, [[<gregtech:gt.metaitem.02:31019>,<gendustry:MutagenTank>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gregtech:gt.metaitem.01:11019>,<gregtech:gt.blockmachines:13>,<gregtech:gt.metaitem.02:31019>],
-                                                 [<gregtech:gt.metaitem.02:31019>,<gendustry:PowerModule>,<gregtech:gt.metaitem.02:31019>]]);	
+// *======= Variables =======*
 
-// DNA Extractor
-recipes.remove(<gendustry:Extractor>);
-recipes.addShaped(<gendustry:Extractor>, [[<gregtech:gt.metaitem.02:31019>,<gendustry:MutagenTank>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gendustry:GeneticsProcessor>,<gregtech:gt.blockmachines:13>,<gendustry:GeneticsProcessor>],
-                                                 [<gregtech:gt.metaitem.02:31019>,<gendustry:PowerModule>,<gregtech:gt.metaitem.02:31019>]]);	
 
-// Genetic Transposer
-recipes.remove(<gendustry:Transposer>);
-recipes.addShaped(<gendustry:Transposer>, [[<gregtech:gt.blockmachines:5121>,<gendustry:MutagenTank>,<gregtech:gt.blockmachines:5121>],
-                                                    [<gendustry:GeneticsProcessor>,<gregtech:gt.blockmachines:13>,<gendustry:GeneticsProcessor>],
-                                                 [<gregtech:gt.metaitem.02:31019>,<gendustry:PowerModule>,<gregtech:gt.metaitem.02:31019>]]);
+val IndustrialApiary = <gendustry:IndustrialApiary>;
+val MutagenProducer = <gendustry:MutagenProducer>;
+val Mutatron = <gendustry:Mutatron>;
+val GeneticImprinter = <gendustry:Imprinter>;
+val GeneticSampler = <gendustry:Sampler>;
+val AdvMutatron = <gendustry:MutatronAdv>;
+val Liquifier = <gendustry:Liquifier>;
+val DNAExtractor = <gendustry:Extractor>;
+val Transposer = <gendustry:Transposer>;
 
-// Genetic Replicator
-recipes.remove(<gendustry:Replicator>);
-recipes.addShaped(<gendustry:Replicator>, [[<gregtech:gt.metaitem.02:31019>,<gendustry:GeneticsProcessor>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gendustry:PowerModule>,<gregtech:gt.blockmachines:13>,<gendustry:PowerModule>],
-									   [<gregtech:gt.metaitem.02:31019>,<gendustry:GeneticsProcessor>,<gregtech:gt.metaitem.02:31019>]]);			
+val BeeReceptacle = <gendustry:BeeReceptacle>;
+val PowerModule = <gendustry:PowerModule>;
+val MutagenTank = <gendustry:MutagenTank>;
+val GeneticsProcessor = <gendustry:GeneticsProcessor>;
 
-// Genetic Mutatron
-recipes.remove(<gendustry:Mutatron>);
-recipes.addShaped(<gendustry:Mutatron>, [[<gendustry:BeeReceptacle>,<gendustry:GeneticsProcessor>,<gregtech:gt.metaitem.02:31019>],
-                                                    [<gendustry:PowerModule>,<gregtech:gt.blockmachines:13>,<gendustry:BeeReceptacle>],
-									   [<gendustry:BeeReceptacle>,<gendustry:MutagenTank>,<gregtech:gt.metaitem.02:31019>]]);
+val Alveary = <Forestry:alveary>;
+val AlvearyFan = <Forestry:alveary:3>;
+val AlvearyHeater = <Forestry:alveary:4>;
+val SturdyCasing = <Forestry:sturdyMachine>;
+val HardCasing = <Forestry:hardenedMachine>;
+
+val ClearPane = <TConstruct:GlassPane>;
+
+val AlGear = <ore:gearAluminium>;
+val SSteelGear = <ore:gearStainlessSteel>;
+val TitaniumGear = <ore:gearTitanium>;
+
+val TitaniumPlate = <ore:plateTitanium>;
+val DiamondPlate = <ore:plateDiamond>;
+
+val EVPiston = <gregtech:gt.metaitem.01:32643>;
+
+
+// *======= Removing Recipes =======*
+
+
+// --- Industrial Apiary
+recipes.remove(IndustrialApiary);
+
+// --- Mutagen Producer
+recipes.remove(MutagenProducer);
+
+// --- Mutatron
+recipes.remove(Mutatron);
+
+// --- Genetic Imprinter
+recipes.remove(GeneticImprinter);
+
+// --- Genetic Sampler
+recipes.remove(GeneticSampler);
+
+// --- Advanced Mutatron
+recipes.remove(AdvMutatron);
+
+// --- Protein Liquifier
+recipes.remove(Liquifier);
+
+// --- DNA Extractor
+recipes.remove(DNAExtractor);
+
+// --- Genetic Transposer
+recipes.remove(Transposer);
+
+
+// *======= Adding Back Recipes =======*
+
+
+// --- Industrial Apiary
+recipes.addShaped(IndustrialApiary, [
+[AlvearyFan, BeeReceptacle, AlvearyHeater],
+[Alveary, SturdyCasing, Alveary],
+[AlGear, PowerModule, AlGear]]);
+
+// --- Mutagen Producer
+recipes.addShaped(MutagenProducer, [
+[TitaniumPlate, SSteelGear, TitaniumPlate],
+[PowerModule, HardCasing, PowerModule],
+[SSteelGear, MutagenTank, SSteelGear]]);
+
+// --- Mutatron
+recipes.addShaped(Mutatron, [
+[MutagenTank, GeneticsProcessor, MutagenTank],
+[BeeReceptacle, HardCasing, BeeReceptacle],
+[SSteelGear, PowerModule, SSteelGear]]);
+
+// --- Genetic Imprinter
+recipes.addShaped(GeneticImprinter, [
+[GeneticsProcessor, TitaniumGear, GeneticsProcessor],
+[BeeReceptacle, HardCasing, BeeReceptacle],
+[SSteelGear, PowerModule, SSteelGear]]);
+
+// --- Genetic Sampler
+recipes.addShaped(GeneticSampler, [
+[GeneticsProcessor, BeeReceptacle, GeneticsProcessor],
+[DiamondPlate, HardCasing, DiamondPlate],
+[SSteelGear, PowerModule, SSteelGear]]);
+
+// --- Advanced Mutatron
+recipes.addShaped(AdvMutatron, [
+[TitaniumGear, GeneticsProcessor, TitaniumGear],
+[GeneticsProcessor, Mutatron, GeneticsProcessor],
+[TitaniumGear, PowerModule, TitaniumGear]]);
+
+// --- Protein Liquifier
+recipes.addShaped(Liquifier, [
+[SSteelGear, EVPiston, SSteelGear],
+[EVPiston, HardCasing, EVPiston],
+[SSteelGear, PowerModule, SSteelGear]]);
+
+// --- DNA Extractor
+recipes.addShaped(DNAExtractor, [
+[SSteelGear, BeeReceptacle, SSteelGear],
+[GeneticsProcessor, HardCasing, GeneticsProcessor],
+[TitaniumGear, PowerModule, TitaniumGear]]);
+
+
+// #======= Hiding Stuff =======#
+
+
