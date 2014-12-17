@@ -66,6 +66,7 @@ val Cobble = <ore:cobblestone>;
 val Mortar = <ore:craftingToolMortar>;
 val Sugar = <minecraft:sugar>;
 val SugarCane = <minecraft:reeds>;
+val RSDust = <ore:dustRedstone>;
 
 val AnyWool = <ore:blockWool>;
 val Wool = <minecraft:wool>;
@@ -289,6 +290,9 @@ recipes.remove(Trapdoor);
 
 // --- Torch
 recipes.remove(Torch);
+
+// --- Redstone Torch
+recipes.remove(RSTorch);
 
 // --- Ladder
 recipes.remove(Ladder);
@@ -961,6 +965,11 @@ recipes.addShaped(Torch * 4, [
 recipes.addShaped(Torch * 7, [
 [Torchberries, String],
 [ImpregnatedStick, null]]);
+
+// --- Redstone Torch
+recipes.addShapedMirrored(RSTorch , [
+[RSDust, null],
+[Torch, null]]);
 
 // --- Ladder
 recipes.addShaped(Ladder, [
