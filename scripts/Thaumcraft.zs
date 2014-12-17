@@ -1,6 +1,7 @@
 //import Mods
 
 import mods.thaumcraft.Arcane;
+import mods.ic2.Compressor;
 
 //remove Recipes
 
@@ -20,6 +21,8 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
 recipes.remove(<ore:ingotThaumium>);
 //Wooden Wand
 recipes.remove(<Thaumcraft:WandCasting>);
+//Thauimum Block
+recipes.remove(<Thaumcraft:blockCosmeticSolid:4>);
 
 //add Recipes
 
@@ -70,6 +73,9 @@ recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<TwilightForest:item.fieryBlood>, <TwilightForest:item.carminite>, <Thaumcraft:WandCap>],
 [<TwilightForest:item.carminite>, <ore:stickWood>, <TwilightForest:item.carminite>],
 [<Thaumcraft:WandCap>, <TwilightForest:item.carminite>, <TwilightForest:item.fieryBlood>]]);
+
+/Thaumium Block
+Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <ore:ingotThaumium> * 9);
 
 //refresh Recipes
 
