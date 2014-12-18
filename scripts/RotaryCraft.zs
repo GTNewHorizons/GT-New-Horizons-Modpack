@@ -15,6 +15,8 @@ import mods.nei.NEI;
 val Worktable = <RotaryCraft:rotarycraft_item_machine:75>;
 val BFurnace = <RotaryCraft:rotarycraft_item_machine:45>;
 
+val HSLAIngot = <ore:ingotHSLA>;
+
 
 
 // *======= Removing Recipes =======*
