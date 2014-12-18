@@ -8,6 +8,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
+import mods.gregtech.PlateBender;
 
 
 // ***** Variables *****
@@ -96,6 +97,7 @@ val Stone = <minecraft:stone>;
 val Lever = <minecraft:lever>;
 val Cauldron = <minecraft:cauldron>;
 val BrickBlock = <minecraft:brick_block>;
+val WoodStick = <ore:stickWood>;
 
 val CopperPlate = <ore:plateCopper>;
 val TinPlate = <ore:plateTin>;
@@ -354,6 +356,15 @@ recipes.remove(<Railcraft:tile.railcraft.track:*>);
 
 // --- Elevator Track ---
 recipes.remove(<Railcraft:tile.railcraft.track.elevator>);
+
+// --- Stone Railbed ---
+recipes.remove(StoneRailbed);
+
+// --- Wood Rail ---
+recipes.remove(WoodenRail);
+
+// --- Stone Tie ---
+recipes.remove(<Railcraft:part.tie:1>);
 
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
@@ -793,6 +804,16 @@ recipes.addShaped(<Railcraft:tile.railcraft.track.elevator> * 2, [
 [SteelScrew, Detector, SteelScrew],
 [AdvancedRail, Track, AdvancedRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
+
+// --- Wood Rail ---
+recipes.addShaped(WoodenRail * 3, [
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, <Railcraft:part.tie>, WoodStick]]);
+
+// --- Standart Rail ---
+PlateBender.addRecipe(<Railcraft:part.rail> * 8, <gregtech:gt.metaitem.01:23081> * 3, 800, 15);
+PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316> * 3, 1000, 15);
 
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
