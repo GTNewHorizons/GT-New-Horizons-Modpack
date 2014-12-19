@@ -94,6 +94,8 @@ val TNT = <minecraft:tnt>;
 val Leather =  <minecraft:leather>;
 val Brick = <minecraft:brick>;
 val Tank = <Railcraft:tile.railcraft.machine.beta>;
+val Crowbar = <Railcraft:tool.crowbar>;
+val RedstoneBlock = <ore:blockRedstone>;
 
 val IronBlock = <ore:blockIron>;
 val SteelBlock = <ore:blockSteel>;
@@ -120,6 +122,8 @@ val Hopper = <minecraft:hopper>;
 val CopperPlate = <ore:plateCopper>;
 val TinPlate = <ore:plateTin>;
 val LeadPlate = <ore:plateLead>;
+val IridiumPlate = <ore:plateIridium>;
+val DiamondLens = <ore:lensDiamond>;
 
 val GoldScrew = <ore:screwGold>;
 val CopperScrew = <ore:screwCopper>;
@@ -162,10 +166,15 @@ val ElectricTrack = <Railcraft:tile.railcraft.track:10192>.withTag({track: "rail
 
 val BronzePipe = <gregtech:gt.blockmachines:5123>;
 val SteelPipe = <gregtech:gt.blockmachines:5133>;
+val Pump = <gregtech:gt.metaitem.01:32610>;
+val Motor = <gregtech:gt.metaitem.01:32600>;
+val CopperWire = <gregtech:gt.blockmachines:1362>;
+val GoldWire = <gregtech:gt.blockmachines:1422>;
 
 val ClearGlassP = <TConstruct:GlassPane>;
 
 val IronFurnace = <IC2:blockMachine:1>;
+val TinCable = <ore:cableGt01Tin>;
 
 val StandardRail = <Railcraft:part.rail>;
 val AdvancedRail = <Railcraft:part.rail:1>;
@@ -450,6 +459,33 @@ recipes.remove(<Railcraft:tile.railcraft.machine.gamma:2>);
   
 //Adv Item Unloader
 recipes.remove(<Railcraft:tile.railcraft.machine.gamma:3>);
+
+// --- Fluid Loader ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:4>);
+
+// --- Fluid Unloder ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:5>);
+
+// --- Energy Loader ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:6>);
+
+// --- Energy Unloder ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:7>);
+
+// --- Cart Dispenser ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:8>);
+
+// --- Train Dispenser ---
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:9>);
+
+// --- Electric Feeder Unit --- 
+recipes.remove(<Railcraft:tile.railcraft.machine.epsilon>);
+
+// --- Flux Transformer --- 
+recipes.remove(<Railcraft:tile.railcraft.machine.epsilon:4>);
+
+// --- Force Track Emitter ---
+recipes.remove(<Railcraft:tile.railcraft.machine.epsilon:3>);
 
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
@@ -968,7 +1004,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.detector:9>, [
 
 // --- Energy Detector ---
 recipes.addShaped(<Railcraft:tile.railcraft.detector:10>, [
-[TinPlate, <ore:cableGt01Tin>, TinPlate],
+[TinPlate, TinCable, TinPlate],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [TinPlate, RedAlloyPlate, TinPlate]]);
 
@@ -1004,7 +1040,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.detector:15>, [
 
 // --- Routing Detector ---
 recipes.addShaped(<Railcraft:tile.railcraft.detector:16>, [
-[<minecraft:quartz_block:1>, <Railcraft:tile.railcraft.signal:5>, <minecraft:quartz_block:1>],
+[<minecraft:quartz_block:1>, <Railcraft:tile.railcraft.signal:4>, <minecraft:quartz_block:1>],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [<minecraft:quartz_block:1>, RedAlloyPlate, <minecraft:quartz_block:1>]]);
 
@@ -1031,6 +1067,58 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:3>, [
 [SteelPlate, Chest, SteelPlate],
 [RedAlloyPlate, <Railcraft:tile.railcraft.detector:1>, RedAlloyPlate],
 [SteelPlate, Hopper, SteelPlate]]);
+
+// --- Fluid Loader ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:4>, [
+[GlassPane, SteelPipe, GlassPane],
+[Pump, <Railcraft:tile.railcraft.detector:8>, Motor],
+[GlassPane, Tank, GlassPane]]);
+
+// --- Fluid Unloder ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:5>, [
+[GlassPane, Tank, GlassPane],
+[Motor, <Railcraft:tile.railcraft.detector:8>, Motor],
+[GlassPane, SteelPipe, GlassPane]]);
+
+// --- Energy Loader ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:6>, [
+[SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate],
+[RedAlloyPlate, <Railcraft:tile.railcraft.detector:10>, RedAlloyPlate],
+[SteelPlate, <IC2:itemBatLamaCrystal:*>, SteelPlate]]);
+
+// --- Energy Unloder ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:7>, [
+[SteelPlate, <IC2:itemBatLamaCrystal:*>, SteelPlate],
+[RedAlloyPlate, <Railcraft:tile.railcraft.detector:10>, RedAlloyPlate],
+[SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate]]);
+
+// --- Cart Dispenser ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:8>, [
+[Dispenser, Minecart, Track]]);
+
+// --- Train Dispenser ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.gamma:9>, [
+[Crowbar, RedAlloyPlate, Crowbar],
+[RedAlloyPlate, <Railcraft:tile.railcraft.machine.gamma:8>, RedAlloyPlate],
+[Crowbar, RedAlloyPlate, Crowbar]]);
+
+// --- Electric Feeder Unit --- 
+recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon>, [
+[SteelPlate, CopperWire, SteelPlate],
+[RedAlloyPlate, <Railcraft:tile.railcraft.detector:10>, RedAlloyPlate],
+[SteelPlate, CopperWire, SteelPlate]]);
+
+// --- Flux Transformer ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:4>, [
+[BronzePlate, GoldWire, BronzePlate],
+[RedAlloyPlate, <Railcraft:tile.railcraft.detector:10>, RedAlloyPlate],
+[BronzePlate, GoldWire, BronzePlate]]);
+
+// --- Force Track Emitter ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:3>, [
+[IridiumPlate, DiamondLens, IridiumPlate],
+[DiamondLens, <ore:batteryUltimate:*>, DiamondLens],
+[IridiumPlate, DiamondLens, IridiumPlate]]);
 
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
