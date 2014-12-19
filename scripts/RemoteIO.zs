@@ -48,6 +48,9 @@ val EVPump = <gregtech:gt.metaitem.01:32613>;
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val HHammer = <ore:craftingToolHardHammer>;
+val BlankPlate = <RIO:item.blank_plate>;
+
+val IronPlate = <ore:plateIron>;
 
 
 
@@ -80,6 +83,12 @@ recipes.remove(Remote);
 
 // --- Location Chip
 recipes.remove(Location);
+
+// --- IO Tool
+recipes.remove(IOTool);
+
+// --- blank Plate
+recipes.remove(BlankPlate);
 
 
 
@@ -150,6 +159,12 @@ recipes.addShaped(Location, [
 [DataOrb, EFlow, DataOrb],
 [EFlow, NeutroniumPlate, EFlow],
 [DataOrb, EFlow, DataOrb]]);
+
+// --- blank Plate
+recipes.addShaped(BlankPlate, [
+[IronPlate, IronPlate, IronPlate],
+[IronPlate, <TConstruct:blankPattern:1>, IronPlate],
+[IronPlate, IronPlate, IronPlate]]);
 
 
 
