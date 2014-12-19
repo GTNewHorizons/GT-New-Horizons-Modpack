@@ -83,6 +83,12 @@ val QuarriedBSlab = <Railcraft:tile.railcraft.slab:24>;
 val SandyBSlab = <Railcraft:tile.railcraft.slab:21>;
 val SandstoneBSlab = <minecraft:stone_slab:1>;
 val StoneBSlab = <minecraft:stone_slab>;
+val PressurePlate = <minecraft:stone_pressure_plate>;
+val WoodLogs = <ore:logWood>;
+val StoneBrick = <ore:stoneBricks>;
+val MossyStoneBricks = <ore:stoneMossy>;
+val Minecart = <minecraft:minecrat>;
+val CobbleStone = <ore:stoneCobble>;
 
 val IronBlock = <ore:blockIron>;
 val SteelBlock = <ore:blockSteel>;
@@ -98,6 +104,7 @@ val Lever = <minecraft:lever>;
 val Cauldron = <minecraft:cauldron>;
 val BrickBlock = <minecraft:brick_block>;
 val WoodStick = <ore:stickWood>;
+val Dispenser = <minecraft:dispenser>;
 
 val CopperPlate = <ore:plateCopper>;
 val TinPlate = <ore:plateTin>;
@@ -260,6 +267,9 @@ recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
 // --- Rock Crusher ---
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:15>);
 
+// --- Trade Station ---
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha:6>);
+
 // --- Anchor ---
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
 
@@ -366,6 +376,30 @@ recipes.remove(WoodenRail);
 // --- Stone Tie ---
 recipes.remove(<Railcraft:part.tie:1>);
 
+// --- Item Dtector ---
+recipes.remove(<Railcraft:tile.railcraft.detector>);
+
+// --- Any Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:1>);
+
+// --- Empty Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:2>);
+
+// --- Mob Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:3>);
+
+// --- Powered Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:4>);
+
+//Energy Detector
+recipes.remove(<Railcraft:tile.railcraft.detector:10>);
+  
+//Adv Item Loader
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:2>);
+  
+//Adv Item Unloader
+recipes.remove(<Railcraft:tile.railcraft.machine.gamma:3>);
+
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
 //Steam Locomotive
@@ -465,6 +499,12 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
 [Plank, Plank, Plank],
 [StainlessSteelRod, Screwdriver, StainlessSteelRod],
 [Plank, <TConstruct:slime.gel:1>, Plank]]);
+
+// --- Trade Station --- 
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:6>, [
+[SteelPlate, GlassPane, SteelPlate],
+[EmeraldPlate, Dispenser, EmeraldPlate],
+[SteelPlate, GlassPane, SteelPlate]]);
 
 // --- Personal Anchor ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:2>, [
@@ -815,6 +855,36 @@ recipes.addShaped(WoodenRail * 3, [
 PlateBender.addRecipe(<Railcraft:part.rail> * 8, <gregtech:gt.metaitem.01:23081> * 3, 800, 15);
 PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316> * 3, 1000, 15);
 
+// --- Item Dtector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector>, [
+[WoodLogs, Track, WoodLogs],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[WoodLogs, RedAlloyPlate, WoodLogs]]);
+
+// --- Any Detector --- 
+recipes.addShaped(<Railcraft:tile.railcraft.detector:1>, [
+[Stone, <minecraft:minecart>, Stone],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[Stone, RedAlloyPlate, Stone]]);
+
+// --- Empty Detector --- 
+recipes.addShaped(<Railcraft:tile.railcraft.detector:2>, [
+[StoneBrick, null, StoneBrick],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[StoneBrick, RedAlloyPlate, StoneBrick]]);
+
+// --- Mob Detector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector:3>, [
+[MossyStoneBricks, <minecraft:skull:2>, MossyStoneBricks],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[MossyStoneBricks, RedAlloyPlate, MossyStoneBricks]]);
+
+// --- Powered Detector --- 
+recipes.addShaped(<Railcraft:tile.railcraft.detector:4>, [
+[CobbleStone, <RedLogic:redlogic.gates:29>, CobbleStone],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[CobbleStone, RedAlloyPlate, CobbleStone]]);
+
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
 [<gregtech:gt.blockmachines:3>, <minecraft:minecart>, <gregtech:gt.blockmachines:3>],
@@ -825,7 +895,7 @@ recipes.addShaped(<Railcraft:cart.bore>, [
 recipes.addShaped(<Railcraft:cart.loco.steam.solid>, [
 [HPBoilerTank, HPBoilerTank, null],
 [HPBoilerTank, HPBoilerTank, HPBoiler],
-[IronBars, <minecraft:chest_minecart>, <minecraft:minecart>]]);
+[IronBars, <minecraft:chest_minecart>, <minecraft:chest_minecart>]]);
 
 //Iron Borehead
 recipes.addShaped(<Railcraft:borehead.iron>, [
