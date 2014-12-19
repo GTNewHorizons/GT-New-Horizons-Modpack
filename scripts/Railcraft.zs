@@ -111,6 +111,8 @@ val BrickBlock = <minecraft:brick_block>;
 val WoodStick = <ore:stickWood>;
 val Dispenser = <minecraft:dispenser>;
 val NetherBricks = <ore:stoneNetherBrick>;
+val Wool = <ore:blockWool>;
+val Shears = <minecraft:shears>;
 
 val CopperPlate = <ore:plateCopper>;
 val TinPlate = <ore:plateTin>;
@@ -147,6 +149,7 @@ val SwitchLever = <Railcraft:tile.railcraft.signal:4>;
 val SwitchMotor = <Railcraft:tile.railcraft.signal:2>;
 val Detector = <Railcraft:tile.railcraft.detector:1>;
 val AdvancedDetector = <Railcraft:tile.railcraft.detector:9>;
+val InfernalBricks = <Railcraft:tile.railcraft.brick.infernal>;
 
 val WoodenTrack = <Railcraft:tile.railcraft.track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
@@ -420,6 +423,18 @@ recipes.remove(<Railcraft:tile.railcraft.detector:11>);
 
 // --- Train Detector ---
 recipes.remove(<Railcraft:tile.railcraft.detector:12>);
+
+// --- Sheep Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:13>);
+
+// --- Villager Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:14>);
+
+// --- Locomotiv Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:15>);
+
+// --- Routing Detector ---
+recipes.remove(<Railcraft:tile.railcraft.detector:16>);
   
 //Adv Item Loader
 recipes.remove(<Railcraft:tile.railcraft.machine.gamma:2>);
@@ -959,6 +974,30 @@ recipes.addShaped(<Railcraft:tile.railcraft.detector:12>, [
 [NetherBricks, <Railcraft:tile.railcraft.track:30516>.withTag({track: "railcraft:track.locomotive"}), NetherBricks],
 [RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
 [NetherBricks, RedAlloyPlate, NetherBricks]]);
+
+// --- Sheep Detector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector:13>, [
+[Wool, Shears, Wool],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[Wool, RedAlloyPlate, Wool]]);
+
+// --- Villager Detector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector:14>, [
+[Leather, EmeraldPlate, Leather],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[Leather, RedAlloyPlate, Leather]]);
+
+// --- Locomotiv Detector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector:15>, [
+[InfernalBricks, <Railcraft:tile.railcraft.track:30516>.withTag({track: "railcraft:track.locomotive"}), InfernalBricks],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[InfernalBricks, RedAlloyPlate, InfernalBricks]]);
+
+// --- Routing Detector ---
+recipes.addShaped(<Railcraft:tile.railcraft.detector:16>, [
+[<minecraft:quartz_block:1>, <Railcraft:tile.railcraft.signal:5>, <minecraft:quartz_block:1>],
+[RedAlloyPlate, <minecraft:heavy_weighted_pressure_plate>, RedAlloyPlate],
+[<minecraft:quartz_block:1>, RedAlloyPlate, <minecraft:quartz_block:1>]]);
 
 //Tunnel Bore
 recipes.addShaped(<Railcraft:cart.bore>, [
