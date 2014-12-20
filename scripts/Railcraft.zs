@@ -1309,7 +1309,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon>, [
 recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:4>, [
 [BronzePlate, GoldWire, BronzePlate],
 [RedAlloyPlate, <Railcraft:tile.railcraft.detector:10>, RedAlloyPlate],
-[BronzePlate, GoldWire, BronzePlate]]);
+[BronzePlate, <Railcraft:tile.railcraft.machine.delta>, BronzePlate]]);
 
 // --- Force Track Emitter ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:3>, [

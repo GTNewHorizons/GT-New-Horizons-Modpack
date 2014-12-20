@@ -139,7 +139,7 @@ recipes.remove(<IC2:itemFluidCell>);
 furnace.remove(<minecraft:log:3>);
 
 // --- Steam Turbine Blade ---
-furnace.remove(<IC2:itemSteamTurbineBlade>);
+recipes.remove(<IC2:itemSteamTurbineBlade>);
 
 //add Recipes
 
