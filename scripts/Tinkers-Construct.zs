@@ -25,6 +25,7 @@ val AlPlate = <ore:plateAluminium>;
 val AlRod = <ore:stickAluminium>;
 val ClearPane = <TConstruct:GlassPane>;
 val Moss = <TwilightForest:tile.TFPlant:3>;
+val BOPMoss = <BiomesOPlenty:moss>;
 val MossyStoneBricks = <minecraft:stonebrick:1>;
 val Grout = <TConstruct:CraftedSoil:1>;
 val Gravel = <minecraft:gravel>;
@@ -218,9 +219,9 @@ recipes.addShaped(SilkyJewel, [
 
 // --- Ball Of Moss
 recipes.addShaped(BallOfMoss, [
-[Moss, Moss, Moss],
+[BOPMoss, Moss, BOPMoss],
 [Moss, MossyStoneBricks, Moss],
-[Moss, Moss, Moss]]);
+[BOPMoss, Moss, BOPMoss]]);
 
 // --- Grout
 recipes.addShapeless(Grout,
