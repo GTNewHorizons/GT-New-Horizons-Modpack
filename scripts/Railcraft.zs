@@ -679,23 +679,17 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:3> * 4, [
 // --- Water Tank ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14>, [
 [Plank, Plank, Plank],
-[SteelRod, Screwdriver, SteelRod],
+[IronRod, Screwdriver, IronRod],
 [Plank, <IC2:itemHarz>, Plank]]);
 
 //-
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *2, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 2, [
 [Plank, Plank, Plank],
 [SteelRod, Screwdriver, SteelRod],
-[Plank, <minecraft:slime_ball>, Plank]]);
-
-//-
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
-[Plank, Plank, Plank],
-[StainlessSteelRod, Screwdriver, StainlessSteelRod],
 [Plank, <TConstruct:slime.gel>, Plank]]);
 
 //-
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 4, [
 [Plank, Plank, Plank],
 [StainlessSteelRod, Screwdriver, StainlessSteelRod],
 [Plank, <TConstruct:slime.gel:1>, Plank]]);
