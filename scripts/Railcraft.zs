@@ -29,6 +29,7 @@ val IronRod = <ore:stickAnyIron>;
 val SteelRod = <ore:stickSteel>;
 val RedAlloyRod = <ore:stickRedAlloy>;
 val StainlessSteelRod = <ore:stickStainlessSteel>;
+val TinRod = <ore:stickTin>;
 val GoldPlate = <ore:plateGold>;
 val DiamondPlate = <ore:plateDiamond>;
 val EmeraldPlate = <ore:plateEmerald>;
@@ -118,6 +119,8 @@ val Shears = <minecraft:shears>;
 val IronPressurePlate = <minecraft:heavy_weighted_pressure_plate>;
 val Chest = <minecraft:chest>;
 val Hopper = <minecraft:hopper>;
+val StickyPiston = <minecraft:sticky_piston>;
+val ElectricPiston = <gregtech:gt.metaitem.01:32640>;
 
 val CopperPlate = <ore:plateCopper>;
 val TinPlate = <ore:plateTin>;
@@ -387,6 +390,12 @@ recipes.remove(<Railcraft:tile.railcraft.track:*>);
 
 // --- Elevator Track ---
 recipes.remove(<Railcraft:tile.railcraft.track.elevator>);
+
+//--- Switch Lever ---
+recipes.remove(SwitchLever);
+
+// --- Switch Motor ---
+recipes.remove(SwitchMotor);
 
 // --- Stone Railbed ---
 recipes.remove(StoneRailbed);
@@ -931,6 +940,18 @@ recipes.addShaped(<Railcraft:tile.railcraft.track.elevator> * 2, [
 [SteelScrew, Detector, SteelScrew],
 [AdvancedRail, Track, AdvancedRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
+
+//--- Switch Lever ---
+recipes.addShaped(SwitchLever, [
+[SteelScrew, RedAlloyRod, TinRod],
+[Lever, StickyPiston, SteelScrew],
+[SteelPlate, SteelPlate, SteelPlate]]);
+
+// --- Switch Motor ---
+recipes.addShaped(SwitchMotor, [
+[SteelScrew, RedAlloyRod, TinRod],
+[Motor, ElectricPiston, SteelScrew],
+[SteelPlate, SteelPlate, SteelPlate]]);
 
 // --- Wood Rail ---
 recipes.addShaped(WoodenRail * 3, [
