@@ -552,6 +552,15 @@ recipes.remove(<Railcraft:tile.railcraft.post:6>);
 // --- Signal Lamp
 recipes.remove(SignalLamp);
 
+// --- ControllerCircuit ---
+recipes.remove(ControllerCircuit);
+
+// --- ReceiverCircuit ---
+recipes.remove(ReceiverCircuit);
+
+// --- SignalCircuit ---
+recipes.remove(SignalCircuit);
+
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
 //Steam Locomotive
@@ -1305,20 +1314,35 @@ recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
 
 //Assembler Recipes
 
-//Work Cart
+// --- Work Cart ---
 Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
-//Personal Anchor Cart
+
+// --- Personal Anchor Cart ---
 Assembler.addRecipe(<Railcraft:cart.anchor.personal>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.alpha:2>, 400, 4); 
-//World Anchor Cart
+
+// --- World Anchor Cart ---
 Assembler.addRecipe(<Railcraft:cart.anchor>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.alpha>, 400, 4);
-//Tank Cart
+
+// --- Tank Cart ---
 Assembler.addRecipe(<Railcraft:cart.tank>, <minecraft:minecart>, <Railcraft:tile.railcraft.machine.beta:1>, 400, 4);
-//Batbox Cart
+
+// --- Batbox Cart ---
 Assembler.addRecipe(<Railcraft:cart.energy.batbox>, <minecraft:minecart>, <IC2:blockElectric>, 400, 4);
-//CESU Cart
+
+// --- CESU Cart ---
 Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blockElectric:7>, 400, 4);
-//MFE Cart
+
+// --- MFE Cart ---
 Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 400, 4);
+
+// --- ControllerCircuit ---
+Assembler.addRecipe(ControllerCircuit, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.metaitem.01:32730>, 1200, 32);
+
+// --- ReceiverCircuit ---
+Assembler.addRecipe(ReceiverCircuit, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.metaitem.01:32690>, 1200, 32);
+
+// --- SignalCircuit ---
+Assembler.addRecipe(SignalCircuit, <gregtech:gt.metaitem.01:32710>, <Railcraft:part.signal.lamp>, 1200, 32);
 
 //Rolling Machine
 
