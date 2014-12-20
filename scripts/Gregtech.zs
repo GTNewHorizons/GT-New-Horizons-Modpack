@@ -5,7 +5,44 @@ import mods.gregtech.Assembler;
 import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
 
+
+// #******* Variables *******#
+
+
+val HPFurnace = <gregtech:gt.blockmachines:104>;
+val HPAlloySmelter = <gregtech:gt.blockmachines:119>;
+val HPBoiler = <gregtech:gt.blockmachines:101>;
+val MultiSmelter = <gregtech:gt.blockmachines:1003>;
+
+val Bricks = <minecraft:brick_block>;
+val SteelPipe = <gregtech:gt.blockmachines:5131>;
+val SteelPlate = <ore:plateSteel>;
+val BrickSteelHull = <gregtech:gt.blockmachines:4>;
+val IronFurnace = <IC2:blockMachine:1>;
+val ElectricBFurnace = <gregtech:gt.blockmachines:1000>;
+val BasicCircuit = <ore:circuitBasic>;
+val AdvCircuit = <ore:circuitAdvanced>;
+val TinCable = <gregtech:gt.blockmachines:1246>;
+val AnnealedCable = <gregtech:gt.blockmachines:1386>;
+val HeatProofCase = <gregtech:gt.blockcasings:11>;
+
+
 //remove Recipes
+
+// --- High Pressure Steam Furnace
+recipes.remove(HPFurnace);
+
+// --- High Pressure Alloy Smelter
+recipes.remove(HPAlloySmelter);
+
+// --- High Pressure Coal Boiler
+recipes.remove(HPBoiler);
+
+// --- Multi-Smelter
+recipes.remove(MultiSmelter);
+
+// --- Electric Blast Furnace
+recipes.remove(ElectricBFurnace);
 
 //Diamond Sword Blade
 recipes.remove(<gregtech:gt.metaitem.02:500>);
@@ -65,6 +102,36 @@ recipes.remove(<ore:ingotTitanium>);
 recipes.remove(<ore:ingotZinc>);
 
 //add Recipes
+
+// --- High Pressure Steam Furnace
+recipes.addShaped(HPFurnace, [
+[SteelPipe, SteelPipe, SteelPipe],
+[SteelPipe, BrickSteelHull, SteelPipe],
+[SteelPipe, IronFurnace, SteelPipe]]);
+
+// --- High Pressure Alloy Smelter
+recipes.addShaped(HPAlloySmelter, [
+[SteelPipe, SteelPipe, SteelPipe],
+[IronFurnace, BrickSteelHull, IronFurnace],
+[SteelPipe, SteelPipe, SteelPipe]]);
+
+// --- High Pressure Coal Boiler
+recipes.addShaped(HPBoiler, [
+[SteelPlate, SteelPlate, SteelPlate],
+[SteelPlate, null, SteelPlate],
+[Bricks, IronFurnace, Bricks]]);
+
+// --- Electric Blast Furnace
+recipes.addShaped(ElectricBFurnace, [
+[IronFurnace, IronFurnace, IronFurnace],
+[BasicCircuit, HeatProofCase, BasicCircuit],
+[TinCable, BasicCircuit, TinCable]]);
+
+// --- Multi-Smelter
+recipes.addShaped(MultiSmelter, [
+[IronFurnace, IronFurnace, IronFurnace],
+[AdvCircuit, HeatProofCase, AdvCircuit],
+[AnnealedCable, AdvCircuit, AnnealedCable]]);
 
 //UV Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings:8>, [

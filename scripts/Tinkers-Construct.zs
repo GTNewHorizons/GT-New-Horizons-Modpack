@@ -24,13 +24,14 @@ val EmptyCanister = <TConstruct:heartCanister>;
 val AlPlate = <ore:plateAluminium>;
 val AlRod = <ore:stickAluminium>;
 val ClearPane = <TConstruct:GlassPane>;
-val Moss = <BiomesOPlenty:moss>;
-val MossyCobble = <minecraft:mossy_cobblestone>;
+val Moss = <TwilightForest:tile.TFPlant>;
 val MossyStoneBricks = <minecraft:stonebrick:1>;
 val Grout = <TConstruct:CraftedSoil:1>;
 val Gravel = <minecraft:gravel>;
 val Sand = <minecraft:sand>;
 val Clay = <minecraft:clay_ball>;
+val Slimeball = <minecraft:slime_ball>;
+val Gelatinous = <TConstruct:strangeFood>;
 
 
 
@@ -212,13 +213,16 @@ recipes.addShaped(SilkyJewel, [
 
 // --- Ball Of Moss
 recipes.addShaped(BallOfMoss, [
-[Moss, MossyCobble, Moss],
-[MossyCobble, MossyStoneBricks, MossyCobble],
-[Moss, MossyCobble, Moss]]);
+[Moss, Moss, Moss],
+[Moss, MossyStoneBricks, Moss],
+[Moss, Moss, Moss]]);
 
 // --- Grout
 recipes.addShapeless(Grout,
 [Sand, Gravel, Clay]);
+
+// --- Gelatinous Slimes
+Compressor.addRecipe(Slimeball, Gelatinous * 4);
 
 
 // #======= Hiding Stuff =======#

@@ -332,6 +332,9 @@ recipes.remove(DaylightSensor);
 // --- Hopper
 recipes.remove(Hopper);
 
+// --- Book
+recipes.remove(Book);
+
 
 // ||||| Wool |||||
 

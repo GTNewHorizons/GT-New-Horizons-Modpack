@@ -10,10 +10,19 @@
 
 
 val Cotton = <Natura:barleyFood:3>;
+val ImpLeather = <Natura:barleyFood:6>;
+val Leather = <minecraft:leather>;
+val String = <minecraft:string>;
 
 
 
 // *======= Removing Recipes =======*
+
+
+// --- Imp Leather
+recipes.removeShaped(Leather, [
+[ImpLeather, ImpLeather],
+[ImpLeather, ImpLeather]]);
 
 
 
@@ -23,6 +32,12 @@ val Cotton = <Natura:barleyFood:3>;
 // --- Cotton
 recipes.addShapeless(Cotton,
 [<harvestcraft:cottonItem>, <harvestcraft:cottonItem>]);
+
+// --- Imp Leather
+recipes.addShaped(Leather, [
+[String, String, String],
+[ImpLeather, ImpLeather, ImpLeather],
+[String, String, String]]);
 
 recipes.removeShaped(<Natura:planks>);
 recipes.removeShaped(<Natura:planks:1>);
