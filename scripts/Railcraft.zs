@@ -568,7 +568,10 @@ recipes.remove(<Railcraft:part.turbine.blade>);
 recipes.remove(<Railcraft:cart.bore>);
 
 // --- Steam Locomotive ---
-recipes.remove(<Railcraft:cart.loco.steam.solid>);
+recipes.remove(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}));
+
+// --- Electric Locomotive ---
+recipes.remove(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}));
 
 // --- Iron Borehead ---
 recipes.remove(<Railcraft:borehead.iron>);
@@ -620,6 +623,21 @@ recipes.removeShaped(<Railcraft:cart.anchor>);
 
 // --- Work Cart ---
 recipes.removeShaped(<Railcraft:cart.work>);
+
+// --- Electric Meter ---
+recipes.removeShaped(<Railcraft:tool.electric.meter>);
+
+// --- Trackmans Goggle ---
+recipes.removeShaped(<Railcraft:armor.goggles>);
+
+// --- Magnifying Glass ---
+recipes.removeShaped(<Railcraft:tool.magnifying.glass>);
+
+// --- Signal Tuner ---
+recipes.removeShaped(<Railcraft:tool.signal.tuner>);
+
+// --- Signal Block Surveyor ---
+recipes.removeShaped(<Railcraft:tool.surveyor>);
 
 
 // #******** add Recipes *******#
@@ -864,6 +882,12 @@ Assembler.addRecipe(<Railcraft:tile.railcraft.track:21975>.withTag({track: "rail
 
 // --- Electric Junction Tack ---
 Assembler.addRecipe(<Railcraft:tile.railcraft.track:28410>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
+
+// --- Controll Track ---
+recipes.addShaped(<Railcraft:tile.railcraft.track:30872>.withTag({track: "railcraft:track.control"}), [
+[SteelScrew, RedAlloyRod, SteelScrew],
+[AdvancedRail, Track, AdvancedRail],
+[Screwdriver, RedAlloyRod, HHammer]]);
 
 // --- Looking Track ---
 recipes.addShaped(<Railcraft:tile.railcraft.track:20176>.withTag({track: "railcraft:track.locking"}), [
@@ -1290,20 +1314,27 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:4>, [
 // --- Force Track Emitter ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:3>, [
 [IridiumPlate, DiamondLens, IridiumPlate],
-[DiamondLens, <ore:batteryUltimate:*>, DiamondLens],
+[DiamondLens, <ore:batteryUltimate>, DiamondLens],
 [IridiumPlate, DiamondLens, IridiumPlate]]);
 
 // --- Tunnel Bore ---
 recipes.addShaped(<Railcraft:cart.bore>, [
-[<gregtech:gt.blockmachines:3>, <minecraft:minecart>, <gregtech:gt.blockmachines:3>],
-[HPBoiler, <minecraft:minecart>, HPBoiler],
+[<gregtech:gt.blockmachines:3>, Minecart, <gregtech:gt.blockmachines:3>],
+[HPBoiler, Minecart, HPBoiler],
 [null, <minecraft:chest_minecart>, null]]);
 
 // --- Steam Locomotive ---
 recipes.addShaped(<Railcraft:cart.loco.steam.solid>, [
 [HPBoilerTank, HPBoilerTank, null],
 [HPBoilerTank, HPBoilerTank, HPBoiler],
-[IronBars, <minecraft:chest_minecart>, <minecraft:minecart>]]);
+[IronBars, <minecraft:chest_minecart>, Minecart]]);
+
+// --- Electric Locomotive ---
+recipes.addShaped(<Railcraft:cart.loco.electric>, [
+[<computronics:computronics.colorfulLamp>, <Railcraft:tile.railcraft.machine.epsilon>, SteelMCasing],
+[<gregtech:gt.metaitem.01:32601>, <IC2:itemRecipePart>, <gregtech:gt.metaitem.01:32601>],
+[<gregtech:gt.metaitem.01:32101>, Minecart, <gregtech:gt.metaitem.01:32101>]]);
+
 
 // --- Iron Borehead ---
 recipes.addShaped(<Railcraft:borehead.iron>, [
@@ -1364,7 +1395,18 @@ Assembler.addRecipe(ReceiverCircuit, <gregtech:gt.metaitem.01:32710>, <gregtech:
 // --- SignalCircuit ---
 Assembler.addRecipe(SignalCircuit, <gregtech:gt.metaitem.01:32710>, <Railcraft:part.signal.lamp>, 1200, 32);
 
-//Rolling Machine
+// --- Electric Meter ---
+Assembler.addRecipe(<Railcraft:tool.electric.meter>, <IC2:itemToolMEter>, ReceiverCircuit, 600, 16);
+
+// --- Signal Tuner ---
+Assembler.addRecipe(<Railcraft:tool.signal.tuner>, <IC2:itemFreq>, ReceiverCircuit, 600, 16);
+
+// --- Signal Block Surveyor ---
+Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <minecraft:compass>, 600, 16);
+
+
+// --- Rolling Machine ---
+
 
 // --- Iron Plates ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate>);
@@ -1640,3 +1682,15 @@ recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:10>]);
 
 // --- Steam Turbine Disk ---
 recipes.addShapeless(<Railcraft:part.turbine.disk>, [<IC2:itemSteamTurbineBlade>]);
+
+// --- Trackmans Goggle ---
+recipes.addShaped(<Railcraft:armor.goggles>, [
+[<ore:lensGlass>, <ore:boltSteel>, <ore:lensGlass>],
+[<ore:ringSteel>, SteelScrew, <ore:ringSteel>],
+[Leather, ReceiverCircuit, Leather]]);
+
+// --- Magnifying Glass ---
+recipes.addShaped(<Railcraft:tool.magnifying.glass>, [
+[null, null, <ore:lensGlass>],
+[null, <ore:ringSteel>, null],
+[SteelRod, null, null]]);
