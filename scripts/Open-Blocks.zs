@@ -26,6 +26,7 @@ val ObsidianChest = <IronChest:BlockIronChest:6>;
 val Illuminator = <IC2:blockLuminator>;
 val IronPlate = <ore:plateAnyIron>;
 val RedAlloyRod = <ore:stickRedAlloy>;
+val AlRod = <ore:stickAluminium>;
 val SteelGear = <ore:gearSteel>;
 val SSteelGear = <ore:gearStainlessSteel>;
 val DiamondLens = <ore:lensDiamond>;
@@ -100,13 +101,13 @@ recipes.remove(ItemDropper);
 // --- Glider
 recipes.addShaped(Glider, [
 [null, null, null],
-[GliderWing, SteelRod, GliderWing],
+[GliderWing, AlRod, GliderWing],
 [null, null, null]]);
 
 // --- Glider Wing
 recipes.addShaped(GliderWing, [
-[null, IronRod, Leather],
-[IronRod, Leather, Leather],
+[null, SteelRod, Leather],
+[SteelRod, Leather, Leather],
 [Leather, Leather, Leather]]);
 
 // --- Luggage
