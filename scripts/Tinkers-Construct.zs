@@ -24,7 +24,7 @@ val EmptyCanister = <TConstruct:heartCanister>;
 val AlPlate = <ore:plateAluminium>;
 val AlRod = <ore:stickAluminium>;
 val ClearPane = <TConstruct:GlassPane>;
-val Moss = <TwilightForest:tile.TFPlant>;
+val Moss = <TwilightForest:tile.TFPlant:3>;
 val MossyStoneBricks = <minecraft:stonebrick:1>;
 val Grout = <TConstruct:CraftedSoil:1>;
 val Gravel = <minecraft:gravel>;
@@ -71,6 +71,11 @@ recipes.remove(<TConstruct:MetalBlock:8>);
 // --- Block of Steel
 recipes.remove(<TConstruct:MetalBlock:9>);
 
+// --- Congealed Slime
+recipes.remove(<TConstruct:slime.gel>);
+
+// --- Congealed Green Slime
+recipes.remove(<TConstruct:slime.gel:1>);
 
 
 
@@ -222,7 +227,13 @@ recipes.addShapeless(Grout,
 [Sand, Gravel, Clay]);
 
 // --- Gelatinous Slimes
-Compressor.addRecipe(Slimeball, Gelatinous * 4);
+Compressor.addRecipe(Slimeball, <TConstruct:slime.gel>);
+
+// --- Congealed Slime
+Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
+
+// --- Congealed Green Slime
+Compressor.addRecipe(<TConstruct:slime.gel:1>, Slimeball * 4);
 
 
 // #======= Hiding Stuff =======#
