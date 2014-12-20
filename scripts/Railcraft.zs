@@ -496,6 +496,24 @@ recipes.remove(<Railcraft:tile.railcraft.machine.epsilon:4>);
 // --- Force Track Emitter ---
 recipes.remove(<Railcraft:tile.railcraft.machine.epsilon:3>);
 
+// --- Wood Post ---
+recipes.remove(<Railcraft:tile.railcraft.post>);
+
+// --- Stone Post ---
+recipes.remove(<Railcraft:tile.railcraft.post:1>);
+
+// --- Wood Plattform ---
+recipes.remove(<Railcraft:tile.railcraft.post:4>);
+
+// --- Stone Platform ---
+recipes.remove(<Railcraft:tile.railcraft.post:5>);
+
+// --- Metal Platform ---
+recipes.remove(<Railcraft:tile.railcraft.post:6>);
+
+// --- Signal Lamp
+recipes.remove(<Railcraft:part.signal.lamp>);
+
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
 //Steam Locomotive
@@ -534,6 +552,7 @@ recipes.removeShaped(<Railcraft:cart.anchor.personal>);
 recipes.removeShaped(<Railcraft:cart.anchor>);
 //Work Cart
 recipes.removeShaped(<Railcraft:cart.work>);
+
 
 
 // #******** add Recipes *******#
@@ -595,6 +614,12 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> *4, [
 [Plank, Plank, Plank],
 [StainlessSteelRod, Screwdriver, StainlessSteelRod],
 [Plank, <TConstruct:slime.gel:1>, Plank]]);
+
+//Rolling Machine
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:8>, [
+[<gregtech:gt.metaitem.02:31032>, <minecraft:piston>, <gregtech:gt.metaitem.02:31032>],
+[<minecraft:piston>, <Forestry:sturdyMachine>, <minecraft:piston>],
+[<gregtech:gt.metatool.01:12>, <Forestry:factory2:2>, <gregtech:gt.metatool.01:18>]]);
 
 // --- Trade Station --- 
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:6>, [
@@ -950,7 +975,7 @@ recipes.addShaped(SwitchLever, [
 // --- Switch Motor ---
 recipes.addShaped(SwitchMotor, [
 [SteelScrew, RedAlloyRod, TinRod],
-[Motor, ElectricPiston, SteelScrew],
+[Motor, ElectricPiston, <Railcraft:part.circuit:1>],
 [SteelPlate, SteelPlate, SteelPlate]]);
 
 // --- Wood Rail ---
@@ -1199,74 +1224,114 @@ Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:bloc
 
 //Rolling Machine
 
-//Iron Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
-//Steel Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
-//Tin Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
-//Copper Plates
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
+// --- Iron Plates ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate>);
 
-//Iron Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], 
-[<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+// --- Steel Plates ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1>);
 
-//Steel Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>], 
-[<gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.01:11305>]]);
+// --- Tin Plates ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2>);
 
-//Tin Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<gregtech:gt.metaitem.01:11057>, <gregtech:gt.metaitem.01:11057>], 
-[<gregtech:gt.metaitem.01:11057>, <gregtech:gt.metaitem.01:11057>]]);
+// --- Copper Plates ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3>);
 
-//Copper Plates
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>], 
-[<gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11035>]]);
+// --- Rebar ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 2);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 8);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 8);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 48);
 
-// --- Iron Stairs
+// ---Standart Rail ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 8);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 16);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 32);
+
+// --- Advanced Rail ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:1> * 8);
+
+// --- H.S Rail ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:3> * 8);
+
+// --- Reinforced Rail ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 8);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 32);
+
+// --- Electric Rail ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:5> * 6);
+
+// --- Electric Shunting Wire ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:tile.railcraft.machine.delta> * 8);
+
+// --- Wood Post ---
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post> * 4, [[<Railcraft:part.tie>, null, <Railcraft:part.tie>], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [<Railcraft:part.tie>, null, <Railcraft:part.tie>]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post> * 4, [[<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [null, <Railcraft:part.tie>, null], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>]]);
+
+// --- Stone Post ---
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post:1> * 4, [[<minecraft:stone>, null, <minecraft:stone>], [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>], [<minecraft:stone>, null, <minecraft:stone>]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post:1> * 4, [[<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>], [null, <Railcraft:part.rebar>, null], [<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>]]);
+
+
+// --- Wood Plattform ---
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post:4>, [[null, <Railcraft:tile.railcraft.slab:37>, null], [null, <Railcraft:tile.railcraft.post>, null]]);
+
+// --- Stone Platform ---
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post:5>, [[null, <Railcraft:tile.railcraft.slab:2>, null], [null, <Railcraft:tile.railcraft.post:1>, null]]);
+
+
+// --- Metal Platform ---
+mods.railcraft.Rolling.addShaped(<Railcraft:tile.railcraft.post:6>, [[null, <Railcraft:tile.railcraft.slab:5>, null], [null, <Railcraft:tile.railcraft.post:2>, null]]);
+
+// --- Iron Stairs ---
 recipes.addShapedMirrored(IronStairs * 4, [
 [IronBlock, null, null],
 [IronBlock, IronBlock, null],
 [IronBlock, IronBlock, IronBlock]]);
 
-// --- Steel Stairs
+// --- Steel Stairs ---
 recipes.addShapedMirrored(SteelStairs * 4, [
 [SteelBlock, null, null],
 [SteelBlock, SteelBlock, null],
 [SteelBlock, SteelBlock, SteelBlock]]);
 
-// --- Copper Stairs
+// --- Copper Stairs ---
 recipes.addShapedMirrored(CopperStairs * 4, [
 [CopperBlock, null, null],
 [CopperBlock, CopperBlock, null],
 [CopperBlock, CopperBlock, CopperBlock]]);
 
-// --- Tin Stairs
+// --- Tin Stairs ---
 recipes.addShapedMirrored(TinStairs * 4, [
 [TinBlock, null, null],
 [TinBlock, TinBlock, null],
 [TinBlock, TinBlock, TinBlock]]);
 
-// --- Lead Stairs
+// --- Lead Stairs ---
 recipes.addShapedMirrored(LeadStairs * 4, [
 [LeadBlock, null, null],
 [LeadBlock, LeadBlock, null],
 [LeadBlock, LeadBlock, LeadBlock]]);
 
-// --- Gold Stairs
+// --- Gold Stairs ---
 recipes.addShapedMirrored(GoldStairs * 4, [
 [GoldBlock, null, null],
 [GoldBlock, GoldBlock, null],
 [GoldBlock, GoldBlock, GoldBlock]]);
 
-// --- Diamond Stairs
+// --- Diamond Stairs ---
 recipes.addShapedMirrored(DiamondStairs * 4, [
 [DiamondBlock, null, null],
 [DiamondBlock, DiamondBlock, null],
 [DiamondBlock, DiamondBlock, DiamondBlock]]);
 
-// --- Abyssal Block Lantern
+// --- Abyssal Block Lantern ---
 recipes.addShaped(AbyssalLantern, [
 [null, AbyssalBSlab, null],
 [null, Torch, null],
@@ -1279,7 +1344,7 @@ recipes.addShaped(AbyssalLantern * 2, [
 // -
 Assembler.addRecipe(AbyssalLantern, Torch, AbyssalBSlab * 2, 200, 2);
 
-// --- Bleached Bone Block Lantern
+// --- Bleached Bone Block Lantern ---
 recipes.addShaped(BleachedLantern, [
 [null, BleachedBSlab, null],
 [null, Torch, null],
@@ -1292,7 +1357,7 @@ recipes.addShaped(BleachedLantern * 2, [
 // -
 Assembler.addRecipe(BleachedLantern, Torch, BleachedBSlab * 2, 200, 2);
 
-// --- Bloodstained Block Lantern
+// --- Bloodstained Block Lantern ---
 recipes.addShaped(BloodLantern, [
 [null, BloodBSlab, null],
 [null, Torch, null],
@@ -1305,7 +1370,7 @@ recipes.addShaped(BloodLantern * 2, [
 // -
 Assembler.addRecipe(BloodLantern, Torch, BloodBSlab * 2, 200, 2);
 
-// --- Frostbound Block Lantern
+// --- Frostbound Block Lantern ---
 recipes.addShaped(FrostLantern, [
 [null, FrostBSlab, null],
 [null, Torch, null],
@@ -1318,7 +1383,7 @@ recipes.addShaped(FrostLantern * 2, [
 // -
 Assembler.addRecipe(FrostLantern, Torch, FrostBSlab * 2, 200, 2);
 
-// --- Infernal Block Lantern
+// --- Infernal Block Lantern ---
 recipes.addShaped(InfernalLantern, [
 [null, InfernalBSlab, null],
 [null, Torch, null],
@@ -1331,7 +1396,7 @@ recipes.addShaped(InfernalLantern * 2, [
 // -
 Assembler.addRecipe(InfernalLantern, Torch, InfernalBSlab * 2, 200, 2);
 
-// --- Nether Block Lantern
+// --- Nether Block Lantern ---
 recipes.addShaped(NetherLantern, [
 [null, NetherBSlab, null],
 [null, Torch, null],
@@ -1344,7 +1409,7 @@ recipes.addShaped(NetherLantern * 2, [
 // -
 Assembler.addRecipe(NetherLantern, Torch, NetherBSlab * 2, 200, 2);
 
-// --- Quarried Block Lantern
+// --- Quarried Block Lantern ---
 recipes.addShaped(QuarriedLantern, [
 [null, QuarriedBSlab, null],
 [null, Torch, null],
@@ -1357,7 +1422,7 @@ recipes.addShaped(QuarriedLantern * 2, [
 // -
 Assembler.addRecipe(QuarriedLantern, Torch, QuarriedBSlab * 2, 200, 2);
 
-// --- Sandy Block Lantern
+// --- Sandy Block Lantern ---
 recipes.addShaped(SandyLantern, [
 [null, SandyBSlab, null],
 [null, Torch, null],
@@ -1370,7 +1435,7 @@ recipes.addShaped(SandyLantern * 2, [
 // -
 Assembler.addRecipe(SandyLantern, Torch, SandyBSlab * 2, 200, 2);
 
-// --- Sandstone Lantern
+// --- Sandstone Lantern ---
 recipes.addShaped(SandstoneLantern * 2, [
 [SandstoneBSlab, null, SandstoneBSlab],
 [Torch, null, Torch],
@@ -1378,7 +1443,7 @@ recipes.addShaped(SandstoneLantern * 2, [
 // -
 Assembler.addRecipe(SandstoneLantern, Torch, SandstoneBSlab * 2, 200, 2);
 
-// --- Stone Lantern
+// --- Stone Lantern ---
 recipes.addShaped(StoneLantern * 2, [
 [StoneBSlab, null, StoneBSlab],
 [Torch, null, Torch],
@@ -1386,38 +1451,44 @@ recipes.addShaped(StoneLantern * 2, [
 // -
 Assembler.addRecipe(StoneLantern, Torch, StoneBSlab * 2, 200, 2);
 
-// --- Iron Lantern
+// --- Iron Lantern ---
 recipes.addShaped(IronLantern, [
 [IronScrew, IronPlate, IronScrew],
 [Screwdriver, Torch, HHammer],
 [IronScrew, IronPlate, IronScrew]]);
 
-// --- Gold Lantern
+// --- Gold Lantern ---
 recipes.addShaped(GoldLantern, [
 [GoldScrew, GoldPlate, GoldScrew],
 [Screwdriver, Torch, HHammer],
 [GoldScrew, GoldPlate, GoldScrew]]);
 
-// --- Copper Lantern
+// --- Copper Lantern ---
 recipes.addShaped(CopperLantern, [
 [CopperScrew, CopperPlate, CopperScrew],
 [Screwdriver, Torch, HHammer],
 [CopperScrew, CopperPlate, CopperScrew]]);
 
-// --- Tin Lantern
+// --- Tin Lantern ---
 recipes.addShaped(TinLantern, [
 [TinScrew, TinPlate, TinScrew],
 [Screwdriver, Torch, HHammer],
 [TinScrew, TinPlate, TinScrew]]);
 
-// --- Lead Lantern
+// --- Lead Lantern ---
 recipes.addShaped(LeadLantern, [
 [LeadScrew, LeadPlate, LeadScrew],
 [Screwdriver, Torch, HHammer],
 [LeadScrew, LeadPlate, LeadScrew]]);
 
-// --- Steel Lantern
+// --- Steel Lantern ---
 recipes.addShaped(SteelLantern, [
 [SteelScrew, SteelPlate, SteelScrew],
 [Screwdriver, Torch, HHammer],
 [SteelScrew, SteelPlate, SteelScrew]]);
+
+// --- Signal Lamp ---
+recipes.addShaped(<Railcraft:part.signal.lamp>, [
+[GlassPane, <RedLogic:redlogic.lampNonCube:173>, IronPlate],
+[GlassPane, <RedLogic:redlogic.lampNonCube:164>, IronPlate],
+[GlassPane, <RedLogic:redlogic.lampNonCube:158>, IronPlate]]);
