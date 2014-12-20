@@ -35,6 +35,8 @@ val LSysDestinationPipe = <LogisticsPipes:item.PipeItemsSystemDestinationLogisti
 val LSysConnector = <LogisticsPipes:item.PipeItemsInvSysConnector>;
 
 val BasicLFPipe = <LogisticsPipes:item.PipeFluidBasic>;
+val LFContainerSupplierPipe = <LogisticsPipes:item.PipeItemsFluidSupplier>;
+val LFSupplierPipe = <LogisticsPipes:item.PipeFluidSupplierMk2>;
 
 val LChassiMK1 = <LogisticsPipes:item.PipeLogisticsChassiMk1>;
 val LChassiMK2 = <LogisticsPipes:item.PipeLogisticsChassiMk2>;
@@ -174,6 +176,12 @@ recipes.remove(LSysConnector);
 
 // --- Logistics Basic Fluid Pipe
 recipes.remove(BasicLFPipe);
+
+// --- Logistics Fluid Container Supplier
+recipes.remove(LFContainerSupplierPipe);
+
+// --- Logistics Fluid Supplier
+recipes.remove(LFSupplierPipe);
 
 
 // ||||| Chassis |||||
@@ -524,6 +532,49 @@ recipes.addShaped(BasicLFPipe, [
 [RubberRod, null, RubberRod],
 [Wrench, BasicLPipe, null],
 [RubberRod, null, RubberRod]]);
+
+// --- Logistics Fluid Container Supplier
+recipes.addShaped(LFContainerSupplierPipe, [
+[Wrench, GoldChip, null],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[null, AlGear, null]]);
+// - Alternate Recipe
+recipes.addShaped(LFContainerSupplierPipe, [
+[null, GoldChip, Wrench],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[null, AlGear, null]]);
+// -
+recipes.addShaped(LFContainerSupplierPipe, [
+[null, GoldChip, null],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[Wrench, AlGear, null]]);
+// -
+recipes.addShaped(LFContainerSupplierPipe, [
+[null, GoldChip, null],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[null, AlGear, Wrench]]);
+
+// --- Logistics Fluid Supplier
+recipes.addShaped(LFSupplierPipe, [
+[Wrench, GoldChip, null],
+[LapisPlate, LFContainerSupplierPipe, LapisPlate],
+[null, AlGear, null]]);
+// - Alternate Recipe
+recipes.addShaped(SupplierLPipe, [
+[null, GoldChip, Wrench],
+[LapisPlate, LFContainerSupplierPipe, LapisPlate],
+[null, AlGear, null]]);
+// -
+recipes.addShaped(SupplierLPipe, [
+[null, GoldChip, null],
+[LapisPlate, LFContainerSupplierPipe, LapisPlate],
+[Wrench, AlGear, null]]);
+// -
+recipes.addShaped(SupplierLPipe, [
+[null, GoldChip, null],
+[LapisPlate, LFContainerSupplierPipe, LapisPlate],
+[null, AlGear, Wrench]]);
+
 
 
 // ||||| Chassis |||||
