@@ -138,6 +138,9 @@ recipes.remove(<IC2:itemFluidCell>);
 //remove Rubber Wood
 furnace.remove(<minecraft:log:3>);
 
+// --- Steam Turbine Blade ---
+furnace.remove(<IC2:itemSteamTurbineBlade>);
+
 //add Recipes
 
 //Generator
@@ -326,6 +329,9 @@ recipes.addShaped(<IC2:itemRecipePart:10>, [
 [<ore:plateSteel>, <ore:ringTungstenSteel>, <ore:plateSteel>],
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
+//Steel Rotor Blade
+recipes.addShapeless(<IC2:itemRecipePart:10>, [<Railcraft:part.turbine.blade>]);
+
 //Kinetic Wind Generator Rotor Blade (Steel)
 recipes.addShaped(<IC2:itemsteelrotor>, [
 [<IC2:itemRecipePart:12>, <IC2:itemRecipePart:10>, <ore:craftingToolHardHammer>],
@@ -343,6 +349,9 @@ recipes.addShaped(<IC2:itemwcarbonrotor>, [
 [<ore:screwIridium>, <IC2:itemRecipePart:9>, <ore:craftingToolHardHammer>],
 [<IC2:itemRecipePart:9>, <IC2:itemsteelrotor>, <IC2:itemRecipePart:9>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:9>, <ore:screwIridium>]]);
+
+// --- Steam Turbine Blade ---
+recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
 
 //Assembler Recipes
 

@@ -561,45 +561,65 @@ recipes.remove(ReceiverCircuit);
 // --- SignalCircuit ---
 recipes.remove(SignalCircuit);
 
-//Tunnel Bore
-recipes.remove(<Railcraft:cart.bore>);
-//Steam Locomotive
-recipes.remove(<Railcraft:cart.loco.steam.solid>);
-//Iron Borehead
-recipes.remove(<Railcraft:borehead.iron>);
-//Steel Borehead
-recipes.remove(<Railcraft:borehead.steel>);
-//Diamond Borehead
-recipes.remove(<Railcraft:borehead.diamond>);
-//Strengthened Glass
-recipes.remove(<Railcraft:tile.railcraft.glass>);
-//Gold Platet Gear
-recipes.remove(<Railcraft:part.gear>);
-//Iron Gear
-recipes.remove(<Railcraft:part.gear:1>);
-//Steel Gear
-recipes.remove(<Railcraft:part.gear:2>);
-//Tin Gear Brushing
-recipes.remove(<Railcraft:part.gear:3>);
-//RC Crowbar
-recipes.remove(<Railcraft:tool.crowbar>);
-//Reinforced Crowbar
-recipes.remove(<Railcraft:tool.crowbar.reinforced>);
-//Batbox Cart
-recipes.removeShaped(<Railcraft:cart.energy.batbox>);
-//CESU Cart
-recipes.removeShaped(<Railcraft:cart.energy.cesu>);
-//MFE Cart
-recipes.removeShaped(<Railcraft:cart.energy.mfe>);
-//Tank Cart
-recipes.removeShaped(<Railcraft:cart.tank>);
-//Personal Anchor Cart
-recipes.removeShaped(<Railcraft:cart.anchor.personal>);
-//World Anchor Cart
-recipes.removeShaped(<Railcraft:cart.anchor>);
-//Work Cart
-recipes.removeShaped(<Railcraft:cart.work>);
+// --- Turbine Blade ---
+recipes.remove(<Railcraft:part.turbine.blade>);
 
+// --- Tunnel Bore ---
+recipes.remove(<Railcraft:cart.bore>);
+
+// --- Steam Locomotive ---
+recipes.remove(<Railcraft:cart.loco.steam.solid>);
+
+// --- Iron Borehead ---
+recipes.remove(<Railcraft:borehead.iron>);
+
+// --- Steel Borehead ---
+recipes.remove(<Railcraft:borehead.steel>);
+
+// --- Diamond Borehead ---
+recipes.remove(<Railcraft:borehead.diamond>);
+
+// --- Strengthened Glass ---
+recipes.remove(<Railcraft:tile.railcraft.glass>);
+
+// --- Gold Platet Gear ---
+recipes.remove(<Railcraft:part.gear>);
+
+// --- Iron Gear ---
+recipes.remove(<Railcraft:part.gear:1>);
+
+// --- Steel Gear ---
+recipes.remove(<Railcraft:part.gear:2>);
+
+// --- Tin Gear Brushing ---
+recipes.remove(<Railcraft:part.gear:3>);
+
+// --- RC Crowbar ---
+recipes.remove(<Railcraft:tool.crowbar>);
+
+// --- Reinforced Crowbar ---
+recipes.remove(<Railcraft:tool.crowbar.reinforced>);
+
+// --- Batbox Cart ---
+recipes.removeShaped(<Railcraft:cart.energy.batbox>);
+
+// --- CESU Cart ---
+recipes.removeShaped(<Railcraft:cart.energy.cesu>);
+
+// --- MFE Cart ---
+recipes.removeShaped(<Railcraft:cart.energy.mfe>);
+
+// --- Tank Cart ---
+recipes.removeShaped(<Railcraft:cart.tank>);
+
+// --- Personal Anchor Cart ---
+recipes.removeShaped(<Railcraft:cart.anchor.personal>);
+
+// --- World Anchor Cart ---
+recipes.removeShaped(<Railcraft:cart.anchor>);
+
+// --- Work Cart ---
+recipes.removeShaped(<Railcraft:cart.work>);
 
 
 // #******** add Recipes *******#
@@ -1022,7 +1042,7 @@ recipes.addShaped(SwitchLever, [
 // --- Switch Motor ---
 recipes.addShaped(SwitchMotor, [
 [SteelScrew, RedAlloyRod, TinRod],
-[Motor, ElectricPiston, ReciverCircuit],
+[Motor, ElectricPiston, ReceiverCircuit],
 [SteelPlate, SteelPlate, SteelPlate]]);
 
 // --- Signal Block ---
@@ -1273,40 +1293,40 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.epsilon:3>, [
 [DiamondLens, <ore:batteryUltimate:*>, DiamondLens],
 [IridiumPlate, DiamondLens, IridiumPlate]]);
 
-//Tunnel Bore
+// --- Tunnel Bore ---
 recipes.addShaped(<Railcraft:cart.bore>, [
 [<gregtech:gt.blockmachines:3>, <minecraft:minecart>, <gregtech:gt.blockmachines:3>],
 [HPBoiler, <minecraft:minecart>, HPBoiler],
 [null, <minecraft:chest_minecart>, null]]);
 
-//Steam Locomotive
+// --- Steam Locomotive ---
 recipes.addShaped(<Railcraft:cart.loco.steam.solid>, [
 [HPBoilerTank, HPBoilerTank, null],
 [HPBoilerTank, HPBoilerTank, HPBoiler],
 [IronBars, <minecraft:chest_minecart>, <minecraft:minecart>]]);
 
-//Iron Borehead
+// --- Iron Borehead ---
 recipes.addShaped(<Railcraft:borehead.iron>, [
 [SteelPlate, IronGear, SteelPlate],
 [IronGear, <ore:blockIron>, IronGear],
 [SteelPlate, IronGear, SteelPlate]]);
 
-//Steel Borehead
+// --- Steel Borehead ---
 recipes.addShaped(<Railcraft:borehead.steel>, [
 [SteelPlate, <ore:gearSteel>, SteelPlate],
 [<ore:gearSteel>, <ore:blockIron>, <ore:gearSteel>],
 [SteelPlate, <ore:gearSteel>, SteelPlate]]);
 
-//Diamond Borehead
+// --- Diamond Borehead ---
 recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>]);
 
-//RC Crowbar
+// --- RC Crowbar ---
 recipes.addShaped(<Railcraft:tool.crowbar>, [
 [HHammer, RedDye, IronRod],
 [RedDye, IronRod, RedDye],
 [IronRod, RedDye, <ore:craftingToolFile>]]);
 
-//Reinforced Crowbar
+// --- Reinforced Crowbar ---
 recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
 [HHammer, RedDye, <ore:stickSteel>],
 [RedDye, <ore:stickSteel>, RedDye],
@@ -1614,3 +1634,9 @@ recipes.addShaped(<Railcraft:part.signal.lamp>, [
 [GlassPane, <RedLogic:redlogic.lampNonCube:173>, IronPlate],
 [GlassPane, <RedLogic:redlogic.lampNonCube:164>, IronPlate],
 [GlassPane, <RedLogic:redlogic.lampNonCube:158>, IronPlate]]);
+
+// --- Turbine Blade ---
+recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:10>]);
+
+// --- Steam Turbine Disk ---
+recipes.addShapeless(<Railcraft:part.turbine.disk>, [<IC2:itemSteamTurbineBlade>]);
