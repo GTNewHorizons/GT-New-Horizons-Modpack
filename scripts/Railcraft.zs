@@ -160,6 +160,10 @@ val SwitchMotor = <Railcraft:tile.railcraft.signal:2>;
 val Detector = <Railcraft:tile.railcraft.detector:1>;
 val AdvancedDetector = <Railcraft:tile.railcraft.detector:9>;
 val InfernalBricks = <Railcraft:tile.railcraft.brick.infernal>;
+val SignalLamp = <Railcraft:part.signal.lamp>;
+val ReceiverCircuit = <Railcraft:part.circuit:1>;
+val SignalCircuit = <Railcraft:part.circuit:2>;
+val ControllerCircuit = <Railcraft:part.circuit>;
 
 val WoodenTrack = <Railcraft:tile.railcraft.track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
@@ -173,6 +177,7 @@ val Pump = <gregtech:gt.metaitem.01:32610>;
 val Motor = <gregtech:gt.metaitem.01:32600>;
 val CopperWire = <gregtech:gt.blockmachines:1362>;
 val GoldWire = <gregtech:gt.blockmachines:1422>;
+val RedAlloyWire = <ore:wireGt01RedAlloy>;
 
 val ClearGlassP = <TConstruct:GlassPane>;
 
@@ -397,6 +402,39 @@ recipes.remove(SwitchLever);
 // --- Switch Motor ---
 recipes.remove(SwitchMotor);
 
+// --- Signal Block ---
+recipes.remove(<Railcraft:tile.railcraft.signal:3>);
+
+// --- Distant Signal ---
+recipes.remove(<Railcraft:tile.railcraft.signal:11>);
+
+// --- Dual Head Block Signal ---
+recipes.remove(<Railcraft:tile.railcraft.signal:1>);
+
+// --- Dual Head Distant Signal ---
+recipes.remove(<Railcraft:tile.railcraft.signal:12>);
+
+// --- Signal Block Relay ---
+recipes.remove(<Railcraft:tile.railcraft.signal:13>);
+
+// --- Signal Controll Box ---
+recipes.remove(<Railcraft:tile.railcraft.signal:9>);
+
+// --- Analog Signal Controll Box ---
+recipes.remove(<Railcraft:tile.railcraft.signal:10>);
+
+// --- Signal Receiver Box
+recipes.remove(<Railcraft:tile.railcraft.signal:8>);
+
+// --- Signal Capacitor Box ---
+recipes.remove(<Railcraft:tile.railcraft.signal:7>);
+
+// --- Signal Sequencer Box
+recipes.remove(<Railcraft:tile.railcraft.signal:6>);
+
+// --- Signal Interloack Box
+recipes.remove(<Railcraft:tile.railcraft.signal>);
+
 // --- Stone Railbed ---
 recipes.remove(StoneRailbed);
 
@@ -512,7 +550,7 @@ recipes.remove(<Railcraft:tile.railcraft.post:5>);
 recipes.remove(<Railcraft:tile.railcraft.post:6>);
 
 // --- Signal Lamp
-recipes.remove(<Railcraft:part.signal.lamp>);
+recipes.remove(SignalLamp);
 
 //Tunnel Bore
 recipes.remove(<Railcraft:cart.bore>);
@@ -852,9 +890,9 @@ recipes.addShaped(<Railcraft:tile.railcraft.track:5551>.withTag({track: "railcra
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <Railcraft:routing.ticket.gold>, HHammer]]);
 
-// --- Buffer Track ---
+// --- Buffer Stop ---
 recipes.addShaped(<Railcraft:tile.railcraft.track:32363>.withTag({track: "railcraft:track.buffer.stop"}), [
-[IronScrew, <Railcraft:part.signal.lamp>, IronScrew],
+[IronScrew, SignalLamp, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, SteelBlock, HHammer]]);
 
@@ -975,8 +1013,68 @@ recipes.addShaped(SwitchLever, [
 // --- Switch Motor ---
 recipes.addShaped(SwitchMotor, [
 [SteelScrew, RedAlloyRod, TinRod],
-[Motor, ElectricPiston, <Railcraft:part.circuit:1>],
+[Motor, ElectricPiston, ReciverCircuit],
 [SteelPlate, SteelPlate, SteelPlate]]);
+
+// --- Signal Block ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:3>, [
+[SignalLamp, SignalCircuit, SteelPlate],
+[null, null, SteelPlate],
+[null, null, SteelPlate]]);
+
+// --- Distant Signal ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:11>, [
+[SignalLamp, ReceiverCircuit, SteelPlate],
+[null, null, SteelPlate],
+[null, null, SteelPlate]]);
+
+// --- Dual head Block Signal ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:1> , [
+[SignalLamp, SignalCircuit, SteelPlate],
+[SteelPlate, SteelPlate, SteelPlate],
+[SignalLamp, ReceiverCircuit, SteelPlate]]);
+
+// --- Dual Head Distant Signal ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:12>, [
+[SignalLamp, ReceiverCircuit, SteelPlate],
+[SteelPlate, SteelPlate, SteelPlate],
+[SignalLamp, ReceiverCircuit, SteelPlate]]);
+
+// --- Signal Block Relay ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:13>, [
+[SteelPlate, SignalCircuit, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+
+// --- Signal Controll Box ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:9>, [
+[SteelPlate, ControllerCircuit, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+
+// --- Analog Signal Controll Box ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:10>, [
+[SteelPlate, ControllerCircuit, SteelPlate],
+[SteelPlate, <RedLogic:redlogic.gates:29>, SteelPlate]]);
+
+// --- Signal Receiver Box
+recipes.addShaped(<Railcraft:tile.railcraft.signal:8>, [
+[SteelPlate, ReceiverCircuit, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+
+// --- Signal Capacitor Box ---
+recipes.addShaped(<Railcraft:tile.railcraft.signal:7>, [
+[SteelPlate, <RedLogic:redlogic.gates:11>, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+
+// --- Signal Sequencer Box
+recipes.addShaped(<Railcraft:tile.railcraft.signal:6>, [
+[SteelPlate, <RedLogic:redlogic.gates:29>, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+
+// --- Signal Interloack Box
+recipes.addShaped(<Railcraft:tile.railcraft.signal>, [
+[SteelPlate, ReceiverCircuit, SteelPlate],
+[SteelPlate, ControllerCircuit, SteelPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Wood Rail ---
 recipes.addShaped(WoodenRail * 3, [
