@@ -176,6 +176,9 @@ recipes.remove(<ExtraUtilities:timer>);
 // --- Glowstone Glass
 recipes.remove(<ExtraUtilities:decorativeBlock2:7>);
 
+// --- Quarry Upgrade Base
+recipes.remove(UpgradeBase);
+
 // --- Quarry World Hole Upgrade
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:1>);
 
