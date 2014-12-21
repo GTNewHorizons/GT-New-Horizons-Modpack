@@ -386,7 +386,7 @@ Assembler.addRecipe(<IC2:blockElectric:6>, <gregtech:gt.blockmachines:24>, <IC2:
 Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, 200, 32);
 
 //Coal Chunk
-Assembler.addRecipe(<IC2:itemPartCoalBlock>, <IC2:blockMetal:5>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
+Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
 
 //Compressor Recipes//
 
