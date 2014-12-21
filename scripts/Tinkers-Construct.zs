@@ -34,6 +34,14 @@ val Clay = <minecraft:clay_ball>;
 val Slimeball = <minecraft:slime_ball>;
 val Gelatinous = <TConstruct:strangeFood>;
 
+val Knapsack = <TConstruct:knapsack>;
+val TBelt = <TConstruct:travelBelt>;
+val TBoots = <TConstruct:travelBoots>;
+val TGlove = <TConstruct:travelGlove>;
+val TGoggles = <TConstruct:travelGoggles>;
+val TVest = <TConstruct:travelVest>;
+val TWings = <TConstruct:travelWings>;
+
 
 
 // #======= Removing Recipes =======#
@@ -172,6 +180,31 @@ recipes.remove(BallOfMoss);
 recipes.remove(Grout);
 
 
+// ||||| Gear |||||
+
+
+// --- Knapsack
+recipes.remove(Knapsack);
+
+// --- Traveller's Goggles
+recipes.remove(TGoggles);
+
+// --- Traveller's Vest
+recipes.remove(TVest);
+
+// --- Traveller's Glove
+recipes.remove(TGlove);
+
+// --- Traveller's Wings
+recipes.remove(TWings);
+
+// --- Traveller's Belt
+recipes.remove(TBelt);
+
+// --- Traveller's Boots
+recipes.remove(TBoots);
+
+
 
 // #======= Adding Back Recipes =======#
 
@@ -235,6 +268,9 @@ Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
 
 // --- Congealed Green Slime
 Compressor.addRecipe(<TConstruct:slime.gel:1>, Slimeball * 4);
+
+
+// ||||| Gear |||||
 
 
 // #======= Hiding Stuff =======#
