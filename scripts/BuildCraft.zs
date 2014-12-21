@@ -5,7 +5,6 @@
 // *======= Importing Stuff =======*
 
 
-import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
@@ -13,18 +12,13 @@ import mods.nei.NEI;
 // *======= Variables =======*
 
 
-val AdvCircuit = <gregtech:gt.metaitem.01:32703>;
 val DiamondGear = <BuildCraft|Core:diamondGearItem>;
 val GoldGear = <BuildCraft|Core:goldGearItem>;
 val IronGear = <BuildCraft|Core:ironGearItem>;
 val StoneGear = <BuildCraft|Core:stoneGearItem>;
 val WoodGear = <BuildCraft|Core:woodenGearItem>;
-val HardDiamondGear = <RotaryCraft:rotarycraft_item_enginecraft:11>;
 
-val OBTank = <OpenBlocks:tank>;
 val MiningWell = <BuildCraft|Factory:miningWellBlock>;
-val SawTool = <gregtech:gt.metatool.01:10>;
-val SandstoneSlab = <minecraft:stone_slab:1>;
 val Sealant = <BuildCraft|Transport:pipeWaterproof>;
 val PipeWood = <BuildCraft|Transport:item.buildcraftPipe.pipeitemswood>;
 val PipeCobble = <BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone>;
@@ -41,11 +35,21 @@ val PipeDaizuli = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdaizuli>;
 val PipeEmzuli = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsemzuli>;
 val PipeStripes = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes>;
 val PipeVoid = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>;
-val SmallRSPile = <ore:dustSmallRedstone>;
 val Laser = <BuildCraft|Silicon:laserBlock>;
 val BCTank = <BuildCraft|Factory:tankBlock>;
-val MVPiston = <gregtech:gt.metaitem.01:32641>;
-val CopperChest = <IronChest:BlockIronChest:3>;
+
+val PathMark = <BuildCraft|Builders:pathMarkerBlock>;
+val LandMark = <BuildCraft|Builders:markerBlock>;
+val ConstructionMark = <BuildCraft|Builders:constructionMarkerBlock>;
+
+val Filler = <BuildCraft|Builders:fillerBlock>;
+val Builder = <BuildCraft|Builders:builderBlock>;
+val ArchitectT = <BuildCraft|Builders:architectBlock>;
+val BlueprintLib = <BuildCraft|Builders:libraryBlock>;
+val AutoWorkB = <BuildCraft|Factory:autoWorkbenchBlock>;
+val FloodGate = <BuildCraft|Factory:floodGateBlock>;
+val ZonePlanner = <BuildCraft|Silicon:zonePlan>;
+val Requester = <BuildCraft|Silicon:requester>;
 
 
 
@@ -78,6 +82,30 @@ recipes.remove(<BuildCraft|Factory:blockHopper>);
 
 // --- Tank
 recipes.remove(BCTank);
+
+// --- Filler
+recipes.remove(Filler);
+
+// --- Builder
+recipes.remove(Builder);
+
+// --- Architect Table
+recipes.remove(ArchitectT);
+
+// --- Blueprint Library
+recipes.remove(BlueprintLib);
+
+// --- Auto Workbench
+recipes.remove(AutoWorkB);
+
+// --- Flood Gate
+recipes.remove(FloodGate);
+
+// --- Zone Planner
+recipes.remove(ZonePlanner);
+
+// --- Requester
+recipes.remove(Requester);
 
 
 // ||||| Engines |||||
@@ -197,7 +225,10 @@ recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>);
 // ||||| Items |||||
 
 // --- Land Mark
-recipes.remove(<BuildCraft|Builders:markerBlock>);
+recipes.remove(LandMark);
+
+// --- Path Mark
+recipes.remove(PathMark);
 
 // --- Wrench
 recipes.remove(<BuildCraft|Core:wrenchItem>);
@@ -229,11 +260,101 @@ recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 // #======= Hiding Stuff =======#
 
 
+// ||||| Machines |||||
+
+
+// --- Filler
+NEI.hide(Filler);
+
+// --- Builder
+NEI.hide(Builder);
+
+// --- Architect Table
+NEI.hide(ArchitectT);
+
+// --- Blueprint Library
+NEI.hide(BlueprintLib);
+
+// --- Mining Well
+NEI.hide(MiningWell);
+
+// --- Quarry
+NEI.hide(<BuildCraft|Factory:machineBlock>);
+
+// --- Pump
+NEI.hide(<BuildCraft|Factory:pumpBlock>);
+
+// --- Laser
+NEI.hide(Laser);
+
+// --- Assembly Table
+NEI.hide(<BuildCraft|Silicon:laserTableBlock>);
+
+// --- Refinery
+NEI.hide(<BuildCraft|Factory:refineryBlock>);
+
+// --- Chute
+NEI.hide(<BuildCraft|Factory:blockHopper>);
+
+// --- Tank
+NEI.hide(BCTank);
+
+// --- Auto Workbench
+NEI.hide(AutoWorkB);
+
+// --- Flood Gate
+NEI.hide(FloodGate);
+
+// --- Zone Planner
+NEI.hide(ZonePlanner);
+
+// --- Requester
+NEI.hide(Requester);
+
+
+// ||||| Engines |||||
+
+
 // --- Redstone Engine
 NEI.hide(<BuildCraft|Energy:engineBlock>);
 
-// --- Stirling Engine
-NEI.hide(<BuildCraft|Energy:engineBlock:1>);
 
-// --- Combustion Engine
-NEI.hide(<BuildCraft|Energy:engineBlock:2>);
+// ||||| Pipes |||||
+
+
+// - Wooden Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidswood>);
+
+// - Cobblestone Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone>);
+
+// - Stone Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>);
+
+// - Sandstone Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidssandstone>);
+
+// - Iron Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron>);
+
+// - Quartz Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsquartz>);
+
+// - Golden Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold>);
+
+// - Emerald Fluid Pipe
+NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald>);
+
+
+// ||||| Items |||||
+
+
+// --- Land Mark
+NEI.hide(LandMark);
+
+// --- Path Mark
+NEI.hide(PathMark);
+
+// --- Construction Mark
+NEI.hide(ConstructionMark);
