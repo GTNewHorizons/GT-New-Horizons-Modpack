@@ -35,12 +35,20 @@ val PipeDaizuli = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdaizuli>;
 val PipeEmzuli = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsemzuli>;
 val PipeStripes = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes>;
 val PipeVoid = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>;
+val PipeClay = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay>;
+val CobbleStructure = <BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>;
 val Laser = <BuildCraft|Silicon:laserBlock>;
 val BCTank = <BuildCraft|Factory:tankBlock>;
 
+val RSCrystal = <BuildCraft|Silicon:redstoneCrystal>;
 val PathMark = <BuildCraft|Builders:pathMarkerBlock>;
 val LandMark = <BuildCraft|Builders:markerBlock>;
 val ConstructionMark = <BuildCraft|Builders:constructionMarkerBlock>;
+val Gate = <BuildCraft|Transport:pipeGate:*>;
+val PipeWire = <BuildCraft|Transport:pipeWire:*>;
+val PipePlug = <BuildCraft|Transport:pipePlug>;
+val GateCopier = <BuildCraft|Transport:gateCopier>;
+val DockingStation = <BuildCraft|Transport:robotStation>;
 
 val Filler = <BuildCraft|Builders:fillerBlock>;
 val Builder = <BuildCraft|Builders:builderBlock>;
@@ -50,7 +58,8 @@ val AutoWorkB = <BuildCraft|Factory:autoWorkbenchBlock>;
 val FloodGate = <BuildCraft|Factory:floodGateBlock>;
 val ZonePlanner = <BuildCraft|Silicon:zonePlan>;
 val Requester = <BuildCraft|Silicon:requester>;
-
+val Robot = <BuildCraft|Silicon:robot:*>;
+val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 
 
 // *======= Removing Recipes =======*
@@ -106,6 +115,12 @@ recipes.remove(ZonePlanner);
 
 // --- Requester
 recipes.remove(Requester);
+
+// --- Filtered Buffer
+recipes.remove(FilterBuffer);
+
+// --- Docking Station
+recipes.remove(DockingStation);
 
 
 // ||||| Engines |||||
@@ -222,6 +237,19 @@ recipes.remove(PipeVoid);
 // - Void Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>);
 
+// --- Clay Transport Pipe
+recipes.remove(PipeClay);
+
+// --- Cobblestone Structure Pipe
+recipes.remove(CobbleStructure);
+
+// --- Robot
+recipes.remove(Robot);
+
+// --- Gates
+recipes.remove(Gate);
+
+
 // ||||| Items |||||
 
 // --- Land Mark
@@ -232,6 +260,18 @@ recipes.remove(PathMark);
 
 // --- Wrench
 recipes.remove(<BuildCraft|Core:wrenchItem>);
+
+// --- Redstone Crystal
+recipes.remove(RSCrystal);
+
+// --- Pipe Sealant
+recipes.remove(Sealant);
+
+// --- Pipe Plug
+recipes.remove(PipePlug);
+
+// --- Gate Copier
+recipes.remove(GateCopier);
 
 
 // *======= Adding Back Recipes =======*
@@ -311,6 +351,12 @@ NEI.hide(ZonePlanner);
 // --- Requester
 NEI.hide(Requester);
 
+// --- Filtered Buffer
+NEI.hide(FilterBuffer);
+
+// --- Docking Station
+NEI.hide(DockingStation);
+
 
 // ||||| Engines |||||
 
@@ -346,6 +392,15 @@ NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold>);
 // - Emerald Fluid Pipe
 NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald>);
 
+// --- Cobblestone Structure Pipe
+NEI.hide(CobbleStructure);
+
+// --- Robot
+NEI.hide(Robot);
+
+// --- Gates
+NEI.hide(Gate);
+
 
 // ||||| Items |||||
 
@@ -358,3 +413,18 @@ NEI.hide(PathMark);
 
 // --- Construction Mark
 NEI.hide(ConstructionMark);
+
+// --- Redstone Crystal
+NEI.hide(RSCrystal);
+
+// --- Pipe Sealant
+NEI.hide(Sealant);
+
+// --- Pipe Wire
+NEI.hide(PipeWire);
+
+// --- Pipe Plug
+NEI.hide(PipePlug);
+
+// --- Gate Copier
+NEI.hide(GateCopier);
