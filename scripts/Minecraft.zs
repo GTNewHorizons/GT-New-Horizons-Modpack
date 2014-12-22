@@ -41,6 +41,7 @@ val CraftingTable = <minecraft:crafting_table>;
 val JackOLantern = <minecraft:lit_pumpkin>;
 val Pumpkin = <minecraft:pumpkin>;
 val Torch = <minecraft:torch>;
+val Lever = <minecraft:lever>;
 val RSTorch = <minecraft:redstone_torch>;
 val Glass = <ore:glass>;
 val Trapdoor = <minecraft:trapdoor>;
@@ -193,6 +194,7 @@ val AdvancedRail = <Railcraft:part.rail:1>;
 val WoodRailbed = <Railcraft:part.railbed>;
 val Plank = <ore:plankWood>;
 val WoodSlab = <ore:slabWood>;
+val StoneSlab = <ore:slabStone>;
 val GlassPane = <ore:paneGlass>;
 val ClearPane = <TConstruct:GlassPane>;
 val Coal = <ore:gemCoal>;
@@ -290,8 +292,14 @@ recipes.remove(JackOLantern);
 // --- Trapdoor
 recipes.remove(Trapdoor);
 
+// --- Pressure Plate
+recipes.remove(PressurePlate);
+
 // --- Torch
 recipes.remove(Torch);
+
+// --- Lever
+recipes.remove(Lever);
 
 // --- Redstone Torch
 recipes.remove(RSTorch);
@@ -788,6 +796,11 @@ recipes.addShaped(Trapdoor * 2, [
 [null, null, null],
 [WoodSlab, WoodSlab, WoodSlab]]);
 
+// --- Pressure Plate
+recipes.addShaped(PressurePlate, [
+[StoneSlab, StoneSlab],
+[RSDust, RSDust]]);
+
 // --- Torch
 recipes.addShapedMirrored(Torch * 3, [
 [Coal, null],
@@ -964,6 +977,12 @@ recipes.addShaped(Torch * 4, [
 recipes.addShaped(Torch * 7, [
 [Torchberries, String],
 [ImpregnatedStick, null]]);
+
+// --- Lever
+recipes.addShapedMirrored(Lever, [
+[null, Stick, null],
+[RSDust, StoneSlab, RSDust],
+[null, null, null]]);
 
 // --- Redstone Torch
 recipes.addShapedMirrored(RSTorch , [
