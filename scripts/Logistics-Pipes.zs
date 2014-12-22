@@ -51,6 +51,14 @@ val LChassiMK5 = <LogisticsPipes:item.PipeLogisticsChassiMk5>;
 
 val BlankModule = <LogisticsPipes:item.itemModule>;
 
+val SneakyUp = <LogisticsPipes:item.itemUpgrade>;
+val SneakyDown = <LogisticsPipes:item.itemUpgrade:1>;
+val SneakyNorth = <LogisticsPipes:item.itemUpgrade:2>;
+val SneakySouth = <LogisticsPipes:item.itemUpgrade:3>;
+val SneakyEast = <LogisticsPipes:item.itemUpgrade:4>;
+val SneakyWest = <LogisticsPipes:item.itemUpgrade:5>;
+val AllUpgrades = <LogisticsPipes:item.itemUpgrade:*>;
+
 val GoldCircuit = <appliedenergistics2:item.ItemMultiMaterial:22>;
 val CertusCircuit = <appliedenergistics2:item.ItemMultiMaterial:23>;
 
@@ -73,6 +81,7 @@ val DiamondRod = <ore:stickDiamond>;
 val RubberRod = <ore:stickRubber>;
 val SteelScrew = <ore:screwSteel>;
 val RedAlloyRod = <ore:stickRedAlloy>;
+val RedAlloyDust = <ore:dustRedAlloy>;
 
 val AdvCircuit = <ore:circuitAdvanced>;
 val GoodCircuit = <ore:circuitGood>;
@@ -93,6 +102,7 @@ val StorageUp = <IC2:upgradeModule:2>;
 
 val PaperStack = <TConstruct:materials>;
 val CraftingT = <minecraft:crafting_table>;
+val EnderPearl = <ore:gemEnderPearl>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Wrench = <ore:craftingToolWrench>;
@@ -128,6 +138,13 @@ recipes.remove(EUProvider);
 
 // --- Blank Module
 recipes.remove(BlankModule);
+
+
+// ||||| Upgrades |||||
+
+
+// --- All Upgrades
+recipes.remove(AllUpgrades);
 
 
 // ||||| Pipes |||||
@@ -287,6 +304,196 @@ recipes.addShaped(BlankModule, [
 [PaperStack, SteelPlate, PaperStack],
 [SteelPlate, RedAlloyPlate, SteelPlate],
 [PaperStack, SteelPlate, PaperStack]]);
+
+
+// ||||| Upgrades |||||
+
+
+// --- Sneaky Upgrade (UP)
+recipes.addShaped(SneakyUp, [
+[EnderPearl, RedAlloyPlate, EnderPearl],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(SneakyUp, [
+[null, null, null],
+[null, SneakyDown, null],
+[RedAlloyDust, null, RedAlloyDust]]);
+// -
+recipes.addShaped(SneakyUp, [
+[null, RedAlloyDust, null],
+[null, SneakyNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyUp, [
+[null, null, null],
+[null, SneakySouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(SneakyUp, [
+[null, null, null],
+[null, SneakyEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyUp, [
+[null, null, null],
+[RedAlloyDust, SneakyWest, null],
+[null, null, null]]);
+
+// --- Sneaky Upgrade (DOWN)
+recipes.addShaped(SneakyDown, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[EnderPearl, RedAlloyPlate, EnderPearl]]);
+// - Alternative Recipe
+recipes.addShaped(SneakyDown, [
+[RedAlloyDust, null, RedAlloyDust],
+[null, SneakyUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyDown, [
+[null, RedAlloyDust, null],
+[null, SneakyNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyDown, [
+[null, null, null],
+[null, SneakySouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(SneakyDown, [
+[null, null, null],
+[null, SneakyEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyDown, [
+[null, null, null],
+[RedAlloyDust, SneakyWest, null],
+[null, null, null]]);
+
+// --- Sneaky Upgrade (NORTH)
+recipes.addShaped(SneakyNorth, [
+[PaperStack, EnderPearl, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(SneakyNorth, [
+[null, null, null],
+[null, SneakyDown, null],
+[RedAlloyDust, EnderPearl, RedAlloyDust]]);
+// -
+recipes.addShaped(SneakyNorth, [
+[RedAlloyDust, EnderPearl, RedAlloyDust],
+[null, SneakyUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyNorth, [
+[null, null, null],
+[null, SneakySouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(SneakyNorth, [
+[null, null, null],
+[null, SneakyEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyNorth, [
+[null, null, null],
+[RedAlloyDust, SneakyWest, null],
+[null, null, null]]);
+
+// --- Sneaky Upgrade (SOUTH)
+recipes.addShaped(SneakySouth, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, EnderPearl, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(SneakySouth, [
+[null, null, null],
+[null, SneakyDown, null],
+[RedAlloyDust, EnderPearl, RedAlloyDust]]);
+// -
+recipes.addShaped(SneakySouth, [
+[null, RedAlloyDust, null],
+[null, SneakyNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakySouth, [
+[RedAlloyDust, EnderPearl, RedAlloyDust],
+[null, SneakyUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakySouth, [
+[null, null, null],
+[null, SneakyEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakySouth, [
+[null, null, null],
+[RedAlloyDust, SneakyWest, null],
+[null, null, null]]);
+
+// --- Sneaky Upgrade (EAST)
+recipes.addShaped(SneakyEast, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, EnderPearl],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(SneakyEast, [
+[null, null, null],
+[null, SneakyDown, null],
+[RedAlloyDust, EnderPearl, RedAlloyDust]]);
+// -
+recipes.addShaped(SneakyEast, [
+[null, RedAlloyDust, null],
+[null, SneakyNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyEast, [
+[null, null, null],
+[null, SneakySouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(SneakyEast, [
+[RedAlloyDust, EnderPearl, RedAlloyDust],
+[null, SneakyUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyEast, [
+[null, null, null],
+[RedAlloyDust, SneakyWest, null],
+[null, null, null]]);
+
+// --- Sneaky Upgrade (WEST)
+recipes.addShaped(SneakyWest, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[EnderPearl, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(SneakyWest, [
+[null, null, null],
+[null, SneakyDown, null],
+[RedAlloyDust, EnderPearl, RedAlloyDust]]);
+// -
+recipes.addShaped(SneakyWest, [
+[null, RedAlloyDust, null],
+[null, SneakyNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyWest, [
+[null, null, null],
+[null, SneakySouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(SneakyWest, [
+[null, null, null],
+[null, SneakyEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(SneakyWest, [
+[RedAlloyDust, EnderPearl, RedAlloyDust],
+[null, SneakyUp, null],
+[null, null, null]]);
 
 
 // ||||| Pipes |||||
