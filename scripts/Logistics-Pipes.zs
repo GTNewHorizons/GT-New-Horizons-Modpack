@@ -37,6 +37,11 @@ val LSysConnector = <LogisticsPipes:item.PipeItemsInvSysConnector>;
 val BasicLFPipe = <LogisticsPipes:item.PipeFluidBasic>;
 val LFContainerSupplierPipe = <LogisticsPipes:item.PipeItemsFluidSupplier>;
 val LFSupplierPipe = <LogisticsPipes:item.PipeFluidSupplierMk2>;
+val LFProviderPipe = <LogisticsPipes:item.PipeFluidProvider>;
+val LFRequestPipe = <LogisticsPipes:item.PipeFluidRequestLogistics>;
+val LFSatellitePipe = <LogisticsPipes:item.PipeFluidSatellite>;
+val LFInsertionPipe = <LogisticsPipes:item.PipeFluidInsertion>;
+val LFExtractorPipe = <LogisticsPipes:item.PipeFluidExtractor>;
 
 val LChassiMK1 = <LogisticsPipes:item.PipeLogisticsChassiMk1>;
 val LChassiMK2 = <LogisticsPipes:item.PipeLogisticsChassiMk2>;
@@ -182,6 +187,21 @@ recipes.remove(LFContainerSupplierPipe);
 
 // --- Logistics Fluid Supplier
 recipes.remove(LFSupplierPipe);
+
+// --- Logistics Fluid Provider Pipe
+recipes.remove(LFProviderPipe);
+
+// --- Logistics Fluid Request Pipe
+recipes.remove(LFRequestPipe);
+
+// --- Logistics Fluid Satellite Pipe
+recipes.remove(LFSatellitePipe);
+
+// --- Logistics Fluid Insertion Pipe
+recipes.remove(LFInsertionPipe);
+
+// --- Logistics Fluid Extractor Pipe
+recipes.remove(LFExtractorPipe);
 
 
 // ||||| Chassis |||||
@@ -575,6 +595,101 @@ recipes.addShaped(SupplierLPipe, [
 [LapisPlate, LFContainerSupplierPipe, LapisPlate],
 [null, AlGear, Wrench]]);
 
+// --- Logistics Fluid Provider Pipe
+recipes.addShaped(LFProviderPipe, [
+[Wrench, SteelGear, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, SteelGear, null]]);
+// - Alternate Recipe
+recipes.addShaped(LFProviderPipe, [
+[null, SteelGear, Wrench],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, SteelGear, null]]);
+// -
+recipes.addShaped(LFProviderPipe, [
+[null, SteelGear, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[Wrench, SteelGear, null]]);
+// -
+recipes.addShaped(LFProviderPipe, [
+[null, SteelGear, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, SteelGear, Wrench]]);
+
+// --- Logistics Fluid Request Pipe
+recipes.addShaped(LFRequestPipe, [
+[Wrench, GoldChip, null],
+[SteelGear, BasicLFPipe, SteelGear],
+[null, GoldChip, null]]);
+// - Alternate Recipe
+recipes.addShaped(LFRequestPipe, [
+[null, GoldChip, Wrench],
+[SteelGear, BasicLFPipe, SteelGear],
+[null, GoldChip, null]]);
+// -
+recipes.addShaped(LFRequestPipe, [
+[null, GoldChip, null],
+[SteelGear, BasicLFPipe, SteelGear],
+[Wrench, GoldChip, null]]);
+// -
+recipes.addShaped(LFRequestPipe, [
+[null, GoldChip, null],
+[SteelGear, BasicLFPipe, SteelGear],
+[null, GoldChip, Wrench]]);
+
+// --- Logisics Fluid Satellite Pipe
+recipes.addShaped(LFSatellitePipe, [
+[Wrench, EnderPearlPlate, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, EnderPearlPlate, null]]);
+// - Alternate Recipe
+recipes.addShaped(LFSatellitePipe, [
+[null, EnderPearlPlate, Wrench],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, EnderPearlPlate, null]]);
+// -
+recipes.addShaped(LFSatellitePipe, [
+[null, EnderPearlPlate, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[Wrench, EnderPearlPlate, null]]);
+// -
+recipes.addShaped(LFSatellitePipe, [
+[null, EnderPearlPlate, null],
+[GoldChip, BasicLFPipe, GoldChip],
+[null, EnderPearlPlate, Wrench]]);
+
+// --- Logistics Fluid Insertion Pipe
+recipes.addShaped(LFInsertionPipe, [
+[RedAlloyPlate, Wrench, RedAlloyPlate],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[RedAlloyPlate, null, RedAlloyPlate]]);
+// - Alternate Recipe
+recipes.addShaped(LFInsertionPipe, [
+[RedAlloyPlate, null, RedAlloyPlate],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[RedAlloyPlate, Wrench, RedAlloyPlate]]);
+
+// --- Logistics Fluid Insertion Pipe
+recipes.addShaped(LFInsertionPipe, [
+[RedAlloyPlate, Wrench, RedAlloyPlate],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[RedAlloyPlate, null, RedAlloyPlate]]);
+// - Alternate Recipe
+recipes.addShaped(LFInsertionPipe, [
+[RedAlloyPlate, null, RedAlloyPlate],
+[LapisPlate, BasicLFPipe, LapisPlate],
+[RedAlloyPlate, Wrench, RedAlloyPlate]]);
+
+// --- Logistics Fluid Extractor Pipe
+recipes.addShaped(LFExtractorPipe, [
+[LapisPlate, Wrench, LapisPlate],
+[RedAlloyPlate, BasicLFPipe, RedAlloyPlate],
+[LapisPlate, null, LapisPlate]]);
+// - Alternate Recipe
+recipes.addShaped(LFExtractorPipe, [
+[LapisPlate, null, LapisPlate],
+[RedAlloyPlate, BasicLFPipe, RedAlloyPlate],
+[LapisPlate, Wrench, LapisPlate]]);
 
 
 // ||||| Chassis |||||
