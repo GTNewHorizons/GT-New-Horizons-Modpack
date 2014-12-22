@@ -508,6 +508,7 @@ recipes.addShaped(BundledCable, [
 [Wrench, String, WireCutter],
 [RedAlloyWire, RedAlloyWire, RedAlloyWire]]);
 // - Alternate Recipe
+recipes.addShaped(BundledCable, [
 [RedAlloyWire, RedAlloyWire, RedAlloyWire],
 [WireCutter, String, Wrench],
 [RedAlloyWire, RedAlloyWire, RedAlloyWire]]);
