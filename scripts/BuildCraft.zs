@@ -52,7 +52,7 @@ val BCTank = <BuildCraft|Factory:tankBlock>;
 
 val StoneRod = <ForgeMicroblock:stoneRod>;
 val Stick = <ore:stickWood>;
-val QuartzRod = <ore:stickQuartz>;
+val QuartzRod = <ore:stickNetherQuartz>;
 val IronRod = <ore:stickIron>;
 val GoldRod = <ore:stickGold>;
 val EmeraldRod = <ore:stickEmerald>;
