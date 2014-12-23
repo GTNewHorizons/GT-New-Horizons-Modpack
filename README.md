@@ -1,6 +1,9 @@
-ArchDreamCraft
-==============
+===== ADCraft =====
 
-Version 1.3.3.0 is out (21.12.2014)
+Version 1.4.0.1 is out (23.12.2014)
 
-New Modpack with Gregtech and Thaumcraft and much more
+A GregTech-based modpack with a dash of magic provided by Thaumcraft and its addons.
+
+The pack recipes are hard. And I mean it. Are you up for the challenge ?
+
+Maintained by Arch-Nihil and Dream-Master.
