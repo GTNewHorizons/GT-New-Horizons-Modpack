@@ -68,6 +68,7 @@ val Mortar = <ore:craftingToolMortar>;
 val Sugar = <minecraft:sugar>;
 val SugarCane = <minecraft:reeds>;
 val RSDust = <ore:dustRedstone>;
+val Bow = <minecraft:bow>;
 
 val AnyWool = <ore:blockWool>;
 val Wool = <minecraft:wool>;
@@ -342,6 +343,9 @@ recipes.remove(Hopper);
 
 // --- Book
 recipes.remove(Book);
+
+// --- Bow
+recipes.remove(Bow);
 
 
 // ||||| Wool |||||
@@ -1130,6 +1134,9 @@ recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
 [null, IronPlate, null]]);
+
+// --- Bow
+Assembler.addRecipe(Bow, <Forestry:oakStick> * 3, <TConstruct:bowstring:2>, 400, 128);
 
 
 // ||||| Wool |||||
