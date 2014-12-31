@@ -8,6 +8,12 @@ import mods.ic2.Compressor;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Wiremill;
 
+//variables
+
+val IronFurnace = <IC2:blockMachine:1>;
+val IronPlate = <ore:plateAnyIron>;
+val Furnace = <minecraft:furnace>;
+
 //remove Recipes
 
 //Generator
@@ -128,12 +134,15 @@ recipes.remove(<IC2:itemsteelrotor>);
 recipes.remove(<IC2:itemRecipePart:9>);
 //Kinetic Wind Generator Rotor Blade (Carbon)
 recipes.remove(<IC2:itemwcarbonrotor>);
-//Wrenche
+//Wrench
 recipes.remove(<IC2:itemToolWrench>);
 //MFSU upgrade Kit
 recipes.remove(<IC2:itemupgradekit>);
 //Empty Fluid Cell
 recipes.remove(<IC2:itemFluidCell>);
+//Iron Furnace
+recipes.remove(IronFurnace);
+
 
 //remove Rubber Wood
 furnace.remove(<minecraft:log:3>);
@@ -352,6 +361,12 @@ recipes.addShaped(<IC2:itemwcarbonrotor>, [
 
 // --- Steam Turbine Blade ---
 recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
+
+// --- Iron Furnace
+recipes.addShaped(IronFurnace, [
+[IronPlate, IronPlate, IronPlate],
+[IronPlate, null, IronPlate],
+[IronPlate, Furnace, IronPlate]]);
 
 //Assembler Recipes
 

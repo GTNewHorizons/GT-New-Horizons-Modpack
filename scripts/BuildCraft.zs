@@ -72,6 +72,8 @@ val AlWire4x = <ore:wireGt04Aluminium>;
 val NiobiumTiWire = <ore:wireGt01NiobiumTitanium>;
 val NiobiumTiWire2x = <ore:wireGt02NiobiumTitanium>;
 val NiobiumTiWire4x = <ore:wireGt04NiobiumTitanium>;
+val BrassPipe = <ore:pipeMediumBrass>;
+val RBrassPipe = <ore:pipeRestrictiveMediumBrass>;
 
 val RSCrystal = <BuildCraft|Silicon:redstoneCrystal>;
 val PathMark = <BuildCraft|Builders:pathMarkerBlock>;
@@ -334,11 +336,23 @@ recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 // ||||| Pipes |||||
 
 
+// --- Cobblestone-Covered Pipe
+recipes.addShaped(PipeCobble, [
+[CobbleRod, ClearPane, CobbleRod],
+[ClearPane, BrassPipe, ClearPane],
+[CobbleRod, ClearPane, CobbleRod]]);
+
 // --- Cobblestone-Covered Kinesis Pipe
 recipes.addShaped(PipeCobbleKinesis, [
 [CobbleRod, ClearPane, CobbleRod],
 [ClearPane, SteelWire, ClearPane],
 [CobbleRod, ClearPane, CobbleRod]]);
+
+// --- Stone-Covered Pipe
+recipes.addShaped(PipeStone, [
+[StoneRod, ClearPane, StoneRod],
+[ClearPane, BrassPipe, ClearPane],
+[StoneRod, ClearPane, StoneRod]]);
 
 // --- Stone-Covered Kinesis Pipe
 recipes.addShaped(PipeStoneKinesis, [
@@ -352,17 +366,35 @@ recipes.addShaped(PipeWoodKinesis, [
 [ClearPane, SteelWire4x, ClearPane],
 [Stick, ClearPane, Stick]]);
 
+// --- Sandstone-Covered Pipe
+recipes.addShaped(PipeSandstone, [
+[SStoneRod, ClearPane, SStoneRod],
+[ClearPane, BrassPipe, ClearPane],
+[SStoneRod, ClearPane, SStoneRod]]);
+
 // --- Sandstone-Covered Kinesis Pipe
 recipes.addShaped(PipeSandstoneKinesis, [
 [SStoneRod, ClearPane, SStoneRod],
 [ClearPane, AlWire, ClearPane],
 [SStoneRod, ClearPane, SStoneRod]]);
 
+// --- Quartz-Covered Pipe
+recipes.addShaped(PipeQuartz, [
+[QuartzRod, ClearPane, QuartzRod],
+[ClearPane, BrassPipe, ClearPane],
+[QuartzRod, ClearPane, QuartzRod]]);
+
 // --- Quartz-Covered Kinesis Pipe
 recipes.addShaped(PipeQuartzKinesis, [
 [QuartzRod, ClearPane, QuartzRod],
 [ClearPane, AlWire2x, ClearPane],
 [QuartzRod, ClearPane, QuartzRod]]);
+
+// --- Iron-Covered Pipe
+recipes.addShaped(PipeIron, [
+[IronRod, ClearPane, IronRod],
+[ClearPane, RBrassPipe, ClearPane],
+[IronRod, ClearPane, IronRod]]);
 
 // --- Iron-Covered Kinesis Pipe
 recipes.addShaped(PipeIronKinesis, [
@@ -387,6 +419,9 @@ recipes.addShaped(PipeDiamondKinesis, [
 [DiamondRod, ClearPane, DiamondRod],
 [ClearPane, NiobiumTiWire4x, ClearPane],
 [DiamondRod, ClearPane, DiamondRod]]);
+
+// --- Obsidian-Covered Transport Pipe
+
 
 
 // #======= Hiding & Renaming Stuff =======#
@@ -496,17 +531,32 @@ NEI.hide(Gate);
 // - Wood-Covered Kinesis Pipe
 NEI.overrideName(PipeWoodKinesis, "Wood-Covered Kinesis Pipe");
 
+// - Cobblestone-Covered Pipe
+NEI.overrideName(PipeCobble, "Cobblestone-Covered Pipe");
+
 // - Cobblestone-Covered Kinesis Pipe
 NEI.overrideName(PipeCobbleKinesis, "Cobblestone-Covered Kinesis Pipe");
+
+// - Stone-Covered Pipe
+NEI.overrideName(PipeStone, "Stone-Covered Pipe");
 
 // - Stone-Covered Kinesis Pipe
 NEI.overrideName(PipeStoneKinesis, "Stone-Covered Kinesis Pipe");
 
+// - Sandstone-Covered Pipe
+NEI.overrideName(PipeSandstone, "Sandstone-Covered Pipe");
+
 // - Sandstone-Covered Kinesis Pipe
 NEI.overrideName(PipeSandstoneKinesis, "Sandstone-Covered Kinesis Pipe");
 
+// - Iron-Covered Pipe
+NEI.overrideName(PipeIron, "Iron-Covered Pipe");
+
 // - Iron-Covered Kinesis Pipe
 NEI.overrideName(PipeIronKinesis, "Iron-Covered Kinesis Pipe");
+
+// - Quartz-Covered Pipe
+NEI.overrideName(PipeQuartz, "Quartz-Covered Pipe");
 
 // - Quartz-Covered Kinesis Pipe
 NEI.overrideName(PipeQuartzKinesis, "Quartz-Covered Kinesis Pipe");

@@ -57,6 +57,12 @@ val SneakyNorth = <LogisticsPipes:item.itemUpgrade:2>;
 val SneakySouth = <LogisticsPipes:item.itemUpgrade:3>;
 val SneakyEast = <LogisticsPipes:item.itemUpgrade:4>;
 val SneakyWest = <LogisticsPipes:item.itemUpgrade:5>;
+val DisconnectUp = <LogisticsPipes:item.itemUpgrade:10>;
+val DisconnectDown = <LogisticsPipes:item.itemUpgrade:11>;
+val DisconnectNorth = <LogisticsPipes:item.itemUpgrade:12>;
+val DisconnectSouth = <LogisticsPipes:item.itemUpgrade:13>;
+val DisconnectEast = <LogisticsPipes:item.itemUpgrade:14>;
+val DisconnectWest = <LogisticsPipes:item.itemUpgrade:15>;
 val AllUpgrades = <LogisticsPipes:item.itemUpgrade:*>;
 
 val GoldCircuit = <appliedenergistics2:item.ItemMultiMaterial:22>;
@@ -493,6 +499,192 @@ recipes.addShaped(SneakyWest, [
 recipes.addShaped(SneakyWest, [
 [RedAlloyDust, EnderPearl, RedAlloyDust],
 [null, SneakyUp, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (UP)
+recipes.addShaped(DisconnectUp, [
+[SteelPlate, RedAlloyPlate, SteelPlate],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectUp, [
+[null, null, null],
+[null, DisconnectDown, null],
+[RedAlloyDust, null, RedAlloyDust]]);
+// -
+recipes.addShaped(DisconnectUp, [
+[null, RedAlloyDust, null],
+[null, DisconnectNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectUp, [
+[null, null, null],
+[null, DisconnectSouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(DisconnectUp, [
+[null, null, null],
+[null, DisconnectEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectUp, [
+[null, null, null],
+[RedAlloyDust, DisconnectWest, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (DOWN)
+recipes.addShaped(DisconnectDown, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[SteelPlate, RedAlloyPlate, SteelPlate]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectDown, [
+[RedAlloyDust, null, RedAlloyDust],
+[null, DisconnectUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectDown, [
+[null, RedAlloyDust, null],
+[null, DisconnectNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectDown, [
+[null, null, null],
+[null, DisconnectSouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(DisconnectDown, [
+[null, null, null],
+[null, DisconnectEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectDown, [
+[null, null, null],
+[RedAlloyDust, DisconnectWest, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (NORTH)
+recipes.addShaped(DisconnectNorth, [
+[PaperStack, SteelPlate, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectNorth, [
+[null, null, null],
+[null, DisconnectDown, null],
+[RedAlloyDust, SteelPlate, RedAlloyDust]]);
+// -
+recipes.addShaped(DisconnectNorth, [
+[RedAlloyDust, SteelPlate, RedAlloyDust],
+[null, DisconnectUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectNorth, [
+[null, null, null],
+[null, DisconnectSouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(DisconnectNorth, [
+[null, null, null],
+[null, DisconnectEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectNorth, [
+[null, null, null],
+[RedAlloyDust, DisconnectWest, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (SOUTH)
+recipes.addShaped(DisconnectSouth, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, RedAlloyPlate],
+[PaperStack, SteelPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectSouth, [
+[null, null, null],
+[null, DisconnectDown, null],
+[RedAlloyDust, SteelPlate, RedAlloyDust]]);
+// -
+recipes.addShaped(DisconnectSouth, [
+[null, RedAlloyDust, null],
+[null, DisconnectNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectSouth, [
+[RedAlloyDust, SteelPlate, RedAlloyDust],
+[null, DisconnectUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectSouth, [
+[null, null, null],
+[null, DisconnectEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectSouth, [
+[null, null, null],
+[RedAlloyDust, DisconnectWest, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (EAST)
+recipes.addShaped(DisconnectEast, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[RedAlloyPlate, IronChip, SteelPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectEast, [
+[null, null, null],
+[null, DisconnectDown, null],
+[RedAlloyDust, SteelPlate, RedAlloyDust]]);
+// -
+recipes.addShaped(DisconnectEast, [
+[null, RedAlloyDust, null],
+[null, DisconnectNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectEast, [
+[null, null, null],
+[null, DisconnectSouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(DisconnectEast, [
+[RedAlloyDust, SteelPlate, RedAlloyDust],
+[null, DisconnectUp, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectEast, [
+[null, null, null],
+[RedAlloyDust, DisconnectWest, null],
+[null, null, null]]);
+
+// --- Disconnection Upgrade (WEST)
+recipes.addShaped(DisconnectWest, [
+[PaperStack, RedAlloyPlate, PaperStack],
+[SteelPlate, IronChip, RedAlloyPlate],
+[PaperStack, RedAlloyPlate, PaperStack]]);
+// - Alternative Recipe
+recipes.addShaped(DisconnectWest, [
+[null, null, null],
+[null, DisconnectDown, null],
+[RedAlloyDust, SteelPlate, RedAlloyDust]]);
+// -
+recipes.addShaped(DisconnectWest, [
+[null, RedAlloyDust, null],
+[null, DisconnectNorth, null],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectWest, [
+[null, null, null],
+[null, DisconnectSouth, null],
+[null, RedAlloyDust, null]]);
+// -
+recipes.addShaped(DisconnectWest, [
+[null, null, null],
+[null, DisconnectEast, RedAlloyDust],
+[null, null, null]]);
+// -
+recipes.addShaped(DisconnectWest, [
+[RedAlloyDust, SteelPlate, RedAlloyDust],
+[null, DisconnectUp, null],
 [null, null, null]]);
 
 

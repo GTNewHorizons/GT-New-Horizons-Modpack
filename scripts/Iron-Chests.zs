@@ -189,7 +189,7 @@ recipes.addShaped(Wood2IronUp, [
 NEI.overrideName(SteelChest, "Steel Chest");
 
 // --- Copper-Silver Upgrade to Copper-Steel Upgrade
-NEI.overrideName(Copper2SteelUp, "Copper To Silver Chest Upgrade");
+NEI.overrideName(Copper2SteelUp, "Copper To Steel Chest Upgrade");
 
 // --- Silver-Gold Upgrade to Steel-Gold Upgrade
 NEI.overrideName(Steel2GoldUp, "Steel To Gold Chest Upgrade");
