@@ -261,8 +261,12 @@ recipes.remove(<GalacticraftMars:tile.marsMachineT2>);
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:4>);
 //Water Electrolyzer
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:8>);
-//Walk away
+//Walk Away
 recipes.remove(<GalacticraftMars:tile.walkway>);
+//Walk Away Aluminium
+recipes.removeShaped(<GalacticraftMars:tile.walkwayWire>);
+//Walk Away Pipes
+recipes.removeShaped(<GalacticraftMars:tile.walkwayOxygenPipe>);
 //Thermal Cloth
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:7>);
 //Atmospheric Valve
