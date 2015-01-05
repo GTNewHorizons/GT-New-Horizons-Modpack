@@ -349,6 +349,55 @@ recipes.addShaped(Charger, [
 [CopperCable, AdvElectrolyzer, CopperCable],
 [AlPlate, FluixCrystal, AlPlate]]);
 
+// --- Sky Stone Stairs
+recipes.addShaped(<appliedenergistics2:tile.SkyStoneStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockSkyStone>],
+[null, <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>],
+[<appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>]]);
+
+// --- Skytone Block Stairs
+recipes.addShaped(<appliedenergistics2:tile.SkyStoneBlockStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockSkyStone:1>],
+[null, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>],
+[<appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
+
+// --- Skystone Brick Stairs
+recipes.addShaped(<appliedenergistics2:tile.SkyStoneBrickStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockSkyStone:2>],
+[null, <appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>],
+[<appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>]]);
+
+// --- Skystone small Brick Stairs
+recipes.addShaped(<appliedenergistics2:tile.SkyStoneSmallBrickStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockSkyStone:3>],
+[null, <appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>],
+[<appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>]]);
+
+// --- Fluix Staris
+recipes.addShaped(<appliedenergistics2:tile.FluixStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockFluix>],
+[null, <appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>],
+[<appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>]]);
+
+// --- Certus Quartz Stairs
+recipes.addShaped(<appliedenergistics2:tile.QuartzStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockQuartz>],
+[null, <appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>],
+[<appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>]]);
+
+// --- Chiseled Certus Quartz Stairs
+recipes.addShaped(<appliedenergistics2:tile.ChiseledQuartzStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockQuartzChiseled>],
+[null, <appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>],
+[<appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>]]);
+
+// --- Certus Quartz Pillar Stairs
+recipes.addShaped(<appliedenergistics2:tile.QuartzPillarStairBlock> * 4, [
+[null, null, <appliedenergistics2:tile.BlockQuartzPillar>],
+[null, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>],
+[<appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>]]);
+
+
 // ||||| Items |||||
 
 
