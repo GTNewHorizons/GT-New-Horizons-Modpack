@@ -34,7 +34,7 @@ val CompressedAirCell = <IC2:itemCellEmpty:5>;
 val HeliumCell = <ore:cellHelium_3>;
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
 val Boiler = <gregtech:gt.blockmachines:101>;
-val SteelRotor = <gregtech:gt.metaitem.01:32622>;
+val SteelRotor = <gregtech:gt.metaitem.02:21305>;
 val IronBars = <minecraft:iron_bars>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
