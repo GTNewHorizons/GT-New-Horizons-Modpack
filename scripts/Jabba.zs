@@ -210,9 +210,9 @@ recipes.addShaped(MKVI, [
 [TitaniumRod, TitaniumPlate, TitaniumRod]]);
 
 // --- Structural Upgrade MK VII
-recipes.addShaped(MKVI, [
+recipes.addShaped(MKVII, [
 [HSLARod, HSLAPlate, HSLARod],
-[HSLAPlate, MKVII, HSLAPlate],
+[HSLAPlate, MKVI, HSLAPlate],
 [HSLARod, HSLAPlate, HSLARod]]);
 
 // --- Storage Upgrade
