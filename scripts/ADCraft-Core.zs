@@ -14,6 +14,7 @@ val CobblestoneRod = <adc:ItemCobblestoneRod>;
 
 val Sandstone = <ore:sandstone>;
 val Cobblestone = <ore:cobblestone>;
+val Charcoal = <ore:gemCharcoal>;
 
 
 
@@ -21,7 +22,7 @@ val Cobblestone = <ore:cobblestone>;
 
 
 
-// *======= Adding Back Recipes =======*
+// *======= Adding Recipes =======*
 
 
 // --- Sandstone Rod
@@ -35,6 +36,10 @@ recipes.addShaped(CobblestoneRod, [
 [null, null, Cobblestone],
 [null, Cobblestone, null],
 [Cobblestone, null, null]]);
+
+// --- Charcoal Coke
+// - mods.railcraft.CokeOven.addRecipe(Charcoal, false, false, CharcoalCoke, <liquid:creosote> * 50, 2400);
+// - furnace.setFuel(CharcoalCoke, 240);
 
 
 
