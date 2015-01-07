@@ -25,15 +25,3 @@ recipes.remove(<GregsLighting:ic2FilamentAssembly>);
 recipes.remove(<GregsLighting:ic2ElectricFloodlight>);
 
 // #======= Hiding Stuff =======#
-
-//Carbine Floodlight
-NEI.hide(<GregsLighting:carbideFloodlight>);
-
-//Calcium Carbide
-NEI.hide(<GregsLighting:calciumCarbide>);
-
-//Bonemeal-Charcole Mixture
-NEI.hide(<GregsLighting:bonemealAndCharcoal>);
-
-//Gas Nozzle
-NEI.hide(<GregsLighting:gasNozzle>);
