@@ -4,7 +4,7 @@
 recipes.remove(<GregsLighting:carbideFloodlight>);
 
 //Calcium Carbide
-recipes.remove(<GregsLighting:calciumCarbide>);
+furnace.remove(<GregsLighting:calciumCarbide>);
 
 //Bonemeal-Charcole Mixture
 recipes.remove(<GregsLighting:bonemealAndCharcoal>);
