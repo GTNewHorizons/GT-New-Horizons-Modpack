@@ -265,12 +265,12 @@ worldgen {
                 B:Mars_true=true
                 I:MaxHeight_40=40
                 I:MinHeight_20=20
-                B:Moon_true=true
+                B:Moon_true=false
                 B:Nether_true=true
                 I:Ore_34=34
                 B:Overworld_false=false
                 B:Overworld_true=false
-                B:TheEnd_true=true
+                B:TheEnd_true=false
             }
 
             lapis {
@@ -308,7 +308,7 @@ worldgen {
                 B:Nether_true=true
                 I:Ore_810=810
                 B:Overworld_false=false
-                B:Overworld_true=true
+                B:Overworld_true=false
                 B:TheEnd_false=false
             }
 
@@ -350,19 +350,19 @@ worldgen {
 
             saltpeter {
                 I:Amount_8=8
-                B:Mars_false=true
+                B:Mars_false=false
                 I:MaxHeight_60=60
                 I:MinHeight_10=10
                 B:Moon_false=false
                 B:Nether_true=true
                 I:Ore_836=836
-                B:Overworld_false=true
+                B:Overworld_false=false
                 B:TheEnd_false=false
             }
 
             sulfur_n {
                 I:Amount_32=32
-                B:Mars_false=true
+                B:Mars_false=false
                 I:MaxHeight_60=60
                 I:MinHeight_10=10
                 B:Moon_false=false
