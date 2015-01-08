@@ -6,4 +6,4 @@ A GregTech-based modpack with a dash of magic provided by Thaumcraft and its add
 
 The pack recipes are hard. And I mean it. Are you up for the challenge ?
 
-Maintained by Arch-Nihil and Dream-Master.
+Maintained by Dream-Master.
