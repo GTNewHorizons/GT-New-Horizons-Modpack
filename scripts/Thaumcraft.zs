@@ -25,6 +25,10 @@ recipes.remove(<Thaumcraft:WandCasting>);
 //Thauimum Block
 recipes.remove(<Thaumcraft:blockCosmeticSolid:4>);
 
+//Remove Furnace Recipes Shrads
+
+furnace.remove(<Thaumcraft:ItemShard:*>);
+
 //add Recipes
 
 //Thaumometer

@@ -1,4 +1,4 @@
-// ******** Created by Arch-Nihil ********
+// Created by DreamMasterXXL
 
 
 
@@ -332,6 +332,12 @@ recipes.addShapeless(StoneGear, [<ore:gearGtStone>]);
 // --- Wooden Gear
 recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 
+
+// ||||| Engines |||||
+
+// --- Stirling Engine
+
+// --- Combustion Engine
 
 // ||||| Pipes |||||
 

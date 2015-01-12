@@ -349,55 +349,6 @@ recipes.addShaped(Charger, [
 [CopperCable, AdvElectrolyzer, CopperCable],
 [AlPlate, FluixCrystal, AlPlate]]);
 
-// --- Sky Stone Stairs
-recipes.addShaped(<appliedenergistics2:tile.SkyStoneStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockSkyStone>],
-[null, <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>],
-[<appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone>]]);
-
-// --- Skytone Block Stairs
-recipes.addShaped(<appliedenergistics2:tile.SkyStoneBlockStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockSkyStone:1>],
-[null, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>],
-[<appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
-
-// --- Skystone Brick Stairs
-recipes.addShaped(<appliedenergistics2:tile.SkyStoneBrickStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockSkyStone:2>],
-[null, <appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>],
-[<appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:2>]]);
-
-// --- Skystone small Brick Stairs
-recipes.addShaped(<appliedenergistics2:tile.SkyStoneSmallBrickStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockSkyStone:3>],
-[null, <appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>],
-[<appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>, <appliedenergistics2:tile.BlockSkyStone:3>]]);
-
-// --- Fluix Staris
-recipes.addShaped(<appliedenergistics2:tile.FluixStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockFluix>],
-[null, <appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>],
-[<appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>]]);
-
-// --- Certus Quartz Stairs
-recipes.addShaped(<appliedenergistics2:tile.QuartzStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockQuartz>],
-[null, <appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>],
-[<appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartz>]]);
-
-// --- Chiseled Certus Quartz Stairs
-recipes.addShaped(<appliedenergistics2:tile.ChiseledQuartzStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockQuartzChiseled>],
-[null, <appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>],
-[<appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>, <appliedenergistics2:tile.BlockQuartzChiseled>]]);
-
-// --- Certus Quartz Pillar Stairs
-recipes.addShaped(<appliedenergistics2:tile.QuartzPillarStairBlock> * 4, [
-[null, null, <appliedenergistics2:tile.BlockQuartzPillar>],
-[null, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>],
-[<appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>]]);
-
-
 // ||||| Items |||||
 
 
@@ -661,11 +612,11 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:29>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:31>);
 //Acceleration Card
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:30>);
-//128³ Spatial Component
+//128 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
-//16³ Spatial Component
+//16 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:33>);
-//2³ Spatial Component
+//2 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
 //Wireless Booster
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:42>);
@@ -822,19 +773,19 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:31>, [<appliede
 //Acceleration Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:30>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiMaterial:7>]);
 
-//128³ Spatial Component
+//128 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:34>, [
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>],
 [<appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:33>],
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>]]);
  
-//16³ Spatial Component
+//16 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:33>, [
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>],
 [<appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:32>],
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>]]);
 
-//2³ Spatial Component
+//2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
 [<ore:plateGlowstone>, <appliedenergistics2:item.ItemMultiMaterial:9>, <ore:plateGlowstone>],
 [<appliedenergistics2:item.ItemMultiMaterial:9>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:9>],

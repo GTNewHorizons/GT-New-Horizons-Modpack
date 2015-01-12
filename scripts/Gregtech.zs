@@ -2,6 +2,7 @@
 
 //Imports
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
 
@@ -139,7 +140,6 @@ recipes.addShaped(<gregtech:gt.blockcasings:8>, [
 [<ore:plateAlloyIridium>, <ore:craftingToolWrench>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
 
-
 //Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
@@ -216,12 +216,7 @@ Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4)
 
 // - GT Shaped and Shapeless picks removal
 
-recipes.remove(<gregtech:gt.metatool.01>);
 recipes.remove(<gregtech:gt.metatool.01:2>);
-recipes.remove(<gregtech:gt.metatool.01:4>);
-recipes.remove(<gregtech:gt.metatool.01:6>);
-recipes.remove(<gregtech:gt.metatool.01:8>);
-recipes.remove(<gregtech:gt.metatool.01:40>);
 
 //Flour
 
@@ -229,3 +224,11 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2881>, [<ore:craftingToolMortar>, 
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
+
+//Shards Dust Blast Furnace
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <gregtech:gt.metaitem.01:2540>, 320, 100, 1200);
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <gregtech:gt.metaitem.01:2541>, 320, 100, 1200);
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <gregtech:gt.metaitem.01:2543>, 320, 100, 1200);
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>, 320, 100, 1200);
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <gregtech:gt.metaitem.01:2545>, 320, 100, 1200);
+BlastFurnace.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <gregtech:gt.metaitem.01:2544>, 320, 100, 1200);

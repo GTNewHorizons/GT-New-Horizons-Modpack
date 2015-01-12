@@ -1,4 +1,5 @@
 // ************** Created by Arch-Nihil *************
+// Changes by DreamMasterXXL
 
 
 
@@ -39,6 +40,9 @@ val BGuide = <OpenBlocks:guide>;
 val BlockPlacer = <OpenBlocks:blockPlacer>;
 val BlockBreaker = <OpenBlocks:blockbreaker>;
 val ItemDropper = <OpenBlocks:itemDropper>;
+val Wool = <ore:blockWool>;
+val TannedLeather = <Backpack:tannedLeather>;
+val Carpet = <minecraft:carpet:*>;
 
 
 
@@ -93,6 +97,9 @@ recipes.remove(BlockBreaker);
 // --- Item Dropper
 recipes.remove(ItemDropper);
 
+// --- Sleeping Back
+recipes.remove(<OpenBlocks:sleepingBag>);
+
 
 
 // *======= Adding Back Recipes =======*
@@ -100,14 +107,14 @@ recipes.remove(ItemDropper);
 
 // --- Glider
 recipes.addShaped(Glider, [
-[null, null, null],
-[GliderWing, AlRod, GliderWing],
-[null, null, null]]);
+[null, <ore:screwAluminium>, null],
+[GliderWing, <ore:craftingToolScrewdriver>, GliderWing],
+[null, <ore:screwAluminium>, null]]);
 
 // --- Glider Wing
 recipes.addShaped(GliderWing, [
-[null, SteelRod, Leather],
-[SteelRod, Leather, Leather],
+[null, AlRod, Leather],
+[AlRod, TannedLeather, Leather],
 [Leather, Leather, Leather]]);
 
 // --- Luggage
@@ -199,3 +206,9 @@ recipes.addShaped(ItemDropper, [
 [Stone, IronPlate, Stone],
 [IronBars, SteelGear, IronPlate],
 [Stone, RedAlloyRod, Stone]]);
+
+// --- Sleeping Back
+recipes.addShaped(<OpenBlocks:sleepingBag>, [
+[Carpet, Carpet, Carpet],
+[Wool, Wool, Wool],
+[TannedLeather, TannedLeather, TannedLeather]]);
