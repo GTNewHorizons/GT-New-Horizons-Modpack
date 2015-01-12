@@ -661,11 +661,11 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:29>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:31>);
 //Acceleration Card
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:30>);
-//128³ Spatial Component
+//128 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
-//16³ Spatial Component
+//16 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:33>);
-//2³ Spatial Component
+//2 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
 //Wireless Booster
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:42>);
@@ -822,19 +822,19 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:31>, [<appliede
 //Acceleration Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:30>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiMaterial:7>]);
 
-//128³ Spatial Component
+//128 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:34>, [
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>],
 [<appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:33>],
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>]]);
  
-//16³ Spatial Component
+//16 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:33>, [
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>],
 [<appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:32>],
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>]]);
 
-//2³ Spatial Component
+//2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
 [<ore:plateGlowstone>, <appliedenergistics2:item.ItemMultiMaterial:9>, <ore:plateGlowstone>],
 [<appliedenergistics2:item.ItemMultiMaterial:9>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:9>],
