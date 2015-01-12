@@ -1,6 +1,6 @@
-===== ADCraft =====
+===== DCraft =====
 
-Version 1.4.0.1 is out (23.12.2014)
+Version 1.6.2.1 is out (12.01.2015)
 
 A GregTech-based modpack with a dash of magic provided by Thaumcraft and its addons.
 
