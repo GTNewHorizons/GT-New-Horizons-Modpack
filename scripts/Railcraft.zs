@@ -694,10 +694,16 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 2, [
 [Plank, <TConstruct:slime.gel>, Plank]]);
 
 //-
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 2, [
+[Plank, Plank, Plank],
+[SteelRod, Screwdriver, SteelRod],
+[Plank, <TConstruct:slime.gel:1>, Plank]]);
+
+//-
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 4, [
 [Plank, Plank, Plank],
 [StainlessSteelRod, Screwdriver, StainlessSteelRod],
-[Plank, <TConstruct:slime.gel:1>, Plank]]);
+[Plank, <TConstruct:slime.gel:2>, Plank]]);
 
 //Rolling Machine
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:8>, [

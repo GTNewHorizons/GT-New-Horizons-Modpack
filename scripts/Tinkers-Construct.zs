@@ -182,6 +182,9 @@ recipes.remove(Grout);
 // --- Stone Tool Roods
 recipes.remove(<TConstruct:toolRod:1>);
 
+// --- Blank Pattern
+recipes.remove(<TConstruct:blankPattern>);
+
 
 // ||||| Gear |||||
 
@@ -263,14 +266,17 @@ recipes.addShaped(BallOfMoss, [
 recipes.addShapeless(Grout,
 [Sand, Gravel, Clay]);
 
-// --- Gelatinous Slimes
-Compressor.addRecipe(Slimeball, <TConstruct:slime.gel>);
-
 // --- Congealed Slime
 Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
 
 // --- Congealed Green Slime
 Compressor.addRecipe(<TConstruct:slime.gel:1>, Slimeball * 4);
+
+// --- Blank Pattern
+recipes.addShaped(<TConstruct:blankPattern>, [
+[<ore:plankWood>, <ore:stickWood>, null],
+[<ore:stickWood>, <ore:plankWood>, null],
+[null, null, null]]);
 
 
 // ||||| Gear |||||
