@@ -232,3 +232,10 @@ BlastFurnace.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>,
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>, 320, 100, 1200);
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <gregtech:gt.metaitem.01:2545>, 320, 100, 1200);
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <gregtech:gt.metaitem.01:2544>, 320, 100, 1200);
+
+//Furnace
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:870>);
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:1870>);
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:2870>);
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:3870>);
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:4870>);

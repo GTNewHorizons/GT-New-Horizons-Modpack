@@ -40,7 +40,13 @@ recipes.addShaped(Worktable, [
 [Worktable, Worktable, Worktable],
 [Worktable, Worktable, Worktable]]);
 
+// --- Magnetite Ore
+oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);
 
+// --- Gem Magnetite
+oreDict.oregemMagnetite.remove(<RotaryCraft:rotarycraft_item_modingots:65>);
+
+furnace.remove(<ReactorCraft:reactorcraft_item_raw:6>);
 
 // #======= Hiding Stuff =======#
 
