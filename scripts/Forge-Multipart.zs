@@ -8,6 +8,8 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 recipes.remove(<ForgeMicroblock:sawIron>);
 //Diamond Saw
 recipes.remove(<ForgeMicroblock:sawDiamond>);
+//Stone Rod
+recipes.remove(<ForgeMicroblock:stoneRod>);
 
 //add recipes
 
@@ -28,3 +30,14 @@ recipes.addShaped(<ForgeMicroblock:sawDiamond>, [
 [<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
 [<ore:stickWood>, <ore:toolHeadSawDiamond>, <ore:rodStone>],
 [null, null, null]]);
+
+//Stone Rod
+recipes.addShaped(<ForgeMicroblock:stoneRod> * 2, [
+[<ore:stone>, null, null],
+[<ore:stone>, null, null],
+[null, null, null]]);
+
+recipes.addShaped(<ForgeMicroblock:stoneRod> * 4, [
+[<ore:craftingToolSaw>, null, null],
+[<ore:stone>, null, null],
+[<ore:stone>, null, null]]);

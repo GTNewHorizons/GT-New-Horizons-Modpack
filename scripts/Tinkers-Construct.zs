@@ -179,6 +179,9 @@ recipes.remove(BallOfMoss);
 // --- Grout
 recipes.remove(Grout);
 
+// --- Stone Tool Roods
+recipes.remove(<TConstruct:toolRod:1>);
+
 
 // ||||| Gear |||||
 

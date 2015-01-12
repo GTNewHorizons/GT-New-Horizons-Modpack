@@ -347,6 +347,8 @@ recipes.remove(Book);
 // --- Bow
 recipes.remove(Bow);
 
+recipes.removeShaped(<minecraft:stone_button>);
+
 
 // ||||| Wool |||||
 

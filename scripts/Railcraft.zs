@@ -1,5 +1,4 @@
 // --- Created DreamMasterXXL
-// --- Formatted And Fixed By Arch-Nihil.
 
 // ***** Imports *****
 
@@ -180,6 +179,7 @@ val GoldWire = <gregtech:gt.blockmachines:1422>;
 val RedAlloyWire = <ore:wireGt01RedAlloy>;
 
 val ClearGlassP = <TConstruct:GlassPane>;
+val StoneRod = <ForgeMicroblock:stoneRod>;
 
 val IronFurnace = <IC2:blockMachine:1>;
 val TinCable = <ore:cableGt01Tin>;
@@ -639,6 +639,11 @@ recipes.removeShaped(<Railcraft:tool.signal.tuner>);
 // --- Signal Block Surveyor ---
 recipes.removeShaped(<Railcraft:tool.surveyor>);
 
+// --- Coke Oven ---
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha:7>);
+
+// --- Sandy Block ---
+recipes.remove(<Railcraft:tile.railcraft.brick.sandy:2>);
 
 // #******** add Recipes *******#
 
@@ -1511,121 +1516,81 @@ recipes.addShapedMirrored(DiamondStairs * 4, [
 
 // --- Abyssal Block Lantern ---
 recipes.addShaped(AbyssalLantern, [
-[null, AbyssalBSlab, null],
-[null, Torch, null],
-[null, AbyssalBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(AbyssalLantern * 2, [
-[AbyssalBSlab, null, AbyssalBSlab],
-[Torch, null, Torch],
-[AbyssalBSlab, null, AbyssalBSlab]]);
-// -
+[StoneRod, AbyssalBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, AbyssalBSlab, StoneRod]]);
+
 Assembler.addRecipe(AbyssalLantern, Torch, AbyssalBSlab * 2, 200, 2);
 
 // --- Bleached Bone Block Lantern ---
 recipes.addShaped(BleachedLantern, [
-[null, BleachedBSlab, null],
-[null, Torch, null],
-[null, AbyssalBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(BleachedLantern * 2, [
-[BleachedBSlab, null, BleachedBSlab],
-[Torch, null, Torch],
-[BleachedBSlab, null, BleachedBSlab]]);
-// -
+[StoneRod, BleachedBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, BleachedBSlab, StoneRod]]);
+
 Assembler.addRecipe(BleachedLantern, Torch, BleachedBSlab * 2, 200, 2);
 
 // --- Bloodstained Block Lantern ---
 recipes.addShaped(BloodLantern, [
-[null, BloodBSlab, null],
-[null, Torch, null],
-[null, BloodBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(BloodLantern * 2, [
-[BloodBSlab, null, BloodBSlab],
-[Torch, null, Torch],
-[BloodBSlab, null, BloodBSlab]]);
-// -
+[StoneRod, BloodBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, BloodBSlab, StoneRod]]);
+
 Assembler.addRecipe(BloodLantern, Torch, BloodBSlab * 2, 200, 2);
 
 // --- Frostbound Block Lantern ---
 recipes.addShaped(FrostLantern, [
-[null, FrostBSlab, null],
-[null, Torch, null],
-[null, FrostBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(FrostLantern * 2, [
-[FrostBSlab, null, FrostBSlab],
-[Torch, null, Torch],
-[FrostBSlab, null, FrostBSlab]]);
-// -
+[StoneRod, FrostBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, FrostBSlab, StoneRod]]);
+
 Assembler.addRecipe(FrostLantern, Torch, FrostBSlab * 2, 200, 2);
 
 // --- Infernal Block Lantern ---
 recipes.addShaped(InfernalLantern, [
-[null, InfernalBSlab, null],
-[null, Torch, null],
-[null, InfernalBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(InfernalLantern * 2, [
-[InfernalBSlab, null, InfernalBSlab],
-[Torch, null, Torch],
-[InfernalBSlab, null, InfernalBSlab]]);
-// -
+[StoneRod, InfernalBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, InfernalBSlab, StoneRod]]);
+
 Assembler.addRecipe(InfernalLantern, Torch, InfernalBSlab * 2, 200, 2);
 
 // --- Nether Block Lantern ---
 recipes.addShaped(NetherLantern, [
-[null, NetherBSlab, null],
-[null, Torch, null],
-[null, NetherBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(NetherLantern * 2, [
-[NetherBSlab, null, NetherBSlab],
-[Torch, null, Torch],
-[NetherBSlab, null, NetherBSlab]]);
-// -
+[StoneRod, NetherBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, NetherBSlab, StoneRod]]);
+
 Assembler.addRecipe(NetherLantern, Torch, NetherBSlab * 2, 200, 2);
 
 // --- Quarried Block Lantern ---
 recipes.addShaped(QuarriedLantern, [
-[null, QuarriedBSlab, null],
-[null, Torch, null],
-[null, QuarriedBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(QuarriedLantern * 2, [
-[QuarriedBSlab, null, QuarriedBSlab],
-[Torch, null, Torch],
-[QuarriedBSlab, null, QuarriedBSlab]]);
-// -
+[StoneRod, QuarriedBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, QuarriedBSlab, StoneRod]]);
+
 Assembler.addRecipe(QuarriedLantern, Torch, QuarriedBSlab * 2, 200, 2);
 
 // --- Sandy Block Lantern ---
 recipes.addShaped(SandyLantern, [
-[null, SandyBSlab, null],
-[null, Torch, null],
-[null, SandyBSlab, null]]);
-// - Alternate Recipe
-recipes.addShaped(SandyLantern * 2, [
-[SandyBSlab, null, SandyBSlab],
-[Torch, null, Torch],
-[SandyBSlab, null, SandyBSlab]]);
-// -
+[StoneRod, SandyBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, SandyBSlab, StoneRod]]);
+
 Assembler.addRecipe(SandyLantern, Torch, SandyBSlab * 2, 200, 2);
 
 // --- Sandstone Lantern ---
-recipes.addShaped(SandstoneLantern * 2, [
-[SandstoneBSlab, null, SandstoneBSlab],
-[Torch, null, Torch],
-[SandstoneBSlab, null, SandstoneBSlab]]);
+recipes.addShaped(SandstoneLantern, [
+[StoneRod, SandstoneBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, SandstoneBSlab, StoneRod]]);
 // -
 Assembler.addRecipe(SandstoneLantern, Torch, SandstoneBSlab * 2, 200, 2);
 
 // --- Stone Lantern ---
-recipes.addShaped(StoneLantern * 2, [
-[StoneBSlab, null, StoneBSlab],
-[Torch, null, Torch],
-[StoneBSlab, null, StoneBSlab]]);
+recipes.addShaped(StoneLantern, [
+[StoneRod, StoneBSlab, StoneRod],
+[<ore:craftingToolFile>, Torch, HHammer],
+[StoneRod, StoneBSlab, StoneRod]]);
 // -
 Assembler.addRecipe(StoneLantern, Torch, StoneBSlab * 2, 200, 2);
 
@@ -1688,3 +1653,25 @@ recipes.addShaped(<Railcraft:tool.magnifying.glass>, [
 [null, null, <ore:lensGlass>],
 [null, <ore:ringSteel>, null],
 [SteelRod, null, null]]);
+
+// --- Coke Oven ---
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:7>, [
+[<ore:sand>, <ore:ingotBrick>, <ore:sand>],
+[<ore:ingotBrick>, <ore:sand>, <ore:ingotBrick>],
+[<ore:sand>, <ore:ingotBrick>, <ore:sand>]]);
+
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:7>, [
+[null, <Railcraft:tile.railcraft.brick.sandy>, null],
+[null, <ore:sand>, null],
+[null, <Railcraft:tile.railcraft.brick.sandy>, null]]);
+
+// --- Sandy Block ---
+recipes.addShaped(<Railcraft:tile.railcraft.brick.sandy:2>, [
+[<ore:ingotBrick>, <ore:sand>, null],
+[<ore:sand>, <ore:ingotBrick>, null],
+[null, null, null]]);
+
+recipes.addShaped(<Railcraft:tile.railcraft.brick.sandy:2>, [
+[<Railcraft:tile.railcraft.slab:21>, null, null],
+[<Railcraft:tile.railcraft.slab:21>, null, null],
+[null, null, null]]);
