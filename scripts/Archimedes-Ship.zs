@@ -197,7 +197,7 @@ recipes.addShaped(SBuffer * 3, [
 // --- Steam Engine
 recipes.addShaped(SteamEngine, [
 [AlPlate, IronBars, AlPlate],
-[MagnesiumPlate, Boiler, SteelRotor],
+[MagnesiumPlate, Boiler, <gregtech:gt.metaitem.02:21305>],
 [AlPlate, MagnesiumPlate, AlPlate]]);
 
 // --- Measurement Gauges

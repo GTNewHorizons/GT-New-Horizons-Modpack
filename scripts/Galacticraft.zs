@@ -662,7 +662,7 @@ recipes.addShaped(AirVent, [
 //Oxygen Fan
 recipes.addShaped(<GalacticraftCore:item.airFan>, [
 [SteelScrew, null, SteelScrew],
-[SteelRotor, BWafer, SteelRotor],
+[SteelRotor, BWafer, <gregtech:gt.metaitem.02:21305>],
 [SteelScrew, null, SteelScrew]]);
 
 //Oxygen Concentrator

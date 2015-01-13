@@ -576,7 +576,7 @@ recipes.addShaped(cleanRoomWall, [
 recipes.addShaped(cleanRoomFilter, [
 [barsIron, cleanRoomWall, barsIron],
 [barsIron, motorMV, barsIron],
-[barsIron, rotorSmallSteel, barsIron]]);
+[barsIron, <gregtech:gt.metaitem.02:21305>, barsIron]]);
 
 // --- Clean Room Digitizer
 recipes.addShaped(cleanRoomDigitizer, [
