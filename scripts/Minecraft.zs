@@ -1138,7 +1138,7 @@ recipes.addShaped(Hopper, [
 [null, IronPlate, null]]);
 
 // --- Bow
-// --- Assembler.addRecipe(Bow, <Forestry:oakStick> * 3, <TConstruct:bowstring:2>, 400, 128);
+Assembler.addRecipe(Bow, <Forestry:oakStick> * 3, <TConstruct:bowstring:2>, 400, 128);
 
 
 // ||||| Wool |||||
