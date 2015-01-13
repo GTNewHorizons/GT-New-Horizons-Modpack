@@ -4,7 +4,6 @@
 
 // *======= Importing Stuff =======*
 
-
 import mods.gregtech.ImplosionCompressor;
 
 
@@ -1137,8 +1136,6 @@ recipes.addShaped(Hopper, [
 [IronPlate, IronGear, IronPlate],
 [null, IronPlate, null]]);
 
-// --- Bow
-Assembler.addRecipe(Bow, <Forestry:oakStick> * 3, <TConstruct:bowstring:2>, 400, 128);
 
 
 // ||||| Wool |||||
