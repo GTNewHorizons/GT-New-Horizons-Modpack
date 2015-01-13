@@ -44,10 +44,10 @@ recipes.addShaped(Worktable, [
 oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);
 
 // --- Gem Magnetite
-oreDict.oreGemMagnetite.remove(<RotaryCraft:rotarycraft_item_modingots:65>);
+oreDict.gemMagnetite.remove(<RotaryCraft:rotarycraft_item_modingots:65>);
 
 // --- Lodestone
-oreDict.oreGemMagnetite.remove(<ReactorCraft:reactorcraft_item_raw:6>);
+oreDict.gemMagnetite.remove(<ReactorCraft:reactorcraft_item_raw:6>);
 // -
 furnace.remove(<ReactorCraft:reactorcraft_item_raw:6>);
 

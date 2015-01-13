@@ -1,4 +1,6 @@
 //Created by DreamMasterXXL
 
 // De Ordicted Obsidian Sticks
-oreDict.oreStickObsidian.remove(<RandomThings:ingredient:1>);
+oreDict.stickObsidian.remove(<RandomThings:ingredient:1>);
+oreDict.obsidianStick.remove(<RandomThings:ingredient:1>);
+oreDict.obsidianRod.remove(<RandomThings:ingredient:1>);
