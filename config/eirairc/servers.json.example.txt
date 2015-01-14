@@ -20,6 +20,7 @@
       }
     ],
     "bot": {
+      "botProfile": "Server",
       "relayDeathMessages": false,
       "(more)": "(see shared.cfg for more options)"
     },

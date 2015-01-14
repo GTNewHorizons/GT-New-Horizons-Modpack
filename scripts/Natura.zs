@@ -209,8 +209,4 @@ oreDict.cropBarley.add(<Natura:barleyFood>);
 recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
 
 
-
-
 // #======= Hiding Stuff =======#
-
-
