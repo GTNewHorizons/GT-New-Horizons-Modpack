@@ -157,6 +157,22 @@ mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:3>);
 // --- Aluminium Nuggets
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
 
+// --- Steel Dust
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2305>);
+
+// --- Chain Helmet
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
+
+// --- Chain Chestplate
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_chestplate>);
+
+// --- Chain Leggins
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_leggings>);
+
+// --- Chain Boots
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
+
+
 
 // ||||| Blocks & Items |||||
 
@@ -277,7 +293,6 @@ recipes.addShaped(<TConstruct:blankPattern>, [
 [<ore:plankWood>, <ore:stickWood>, null],
 [<ore:stickWood>, <ore:plankWood>, null],
 [null, null, null]]);
-
 
 // ||||| Gear |||||
 

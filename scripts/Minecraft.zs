@@ -348,6 +348,12 @@ recipes.remove(Bow);
 
 recipes.removeShaped(<minecraft:stone_button>);
 
+// --- String
+recipes.removeShapeless(<minecraft:string>);
+
+// --- Glistering Melon
+recipes.removeShaped(<minecraft:speckled_melon>);
+
 
 // ||||| Wool |||||
 
