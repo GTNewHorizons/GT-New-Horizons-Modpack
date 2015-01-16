@@ -47,7 +47,7 @@ val AlFoil = <ore:foilAluminium>;
 val MVConveyor = <gregtech:gt.metaitem.01:32631>;
 val SolarPanel = <gregtech:gt.metaitem.01:32750>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
-val SteelRotor = <gregtech:gt.metaitem.01:32622>;
+val SteelRotor = <gregtech:gt.metaitem.02:21305>;
 val RubberBlock = <IC2:blockRubber>;
 
 val ReinforcedGlass = <ore:glassReinforced>;
@@ -662,7 +662,7 @@ recipes.addShaped(AirVent, [
 //Oxygen Fan
 recipes.addShaped(<GalacticraftCore:item.airFan>, [
 [SteelScrew, null, SteelScrew],
-[SteelRotor, BWafer, <gregtech:gt.metaitem.02:21305>],
+[SteelRotor, BWafer, SteelRotor],
 [SteelScrew, null, SteelScrew]]);
 
 //Oxygen Concentrator

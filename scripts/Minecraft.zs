@@ -825,6 +825,22 @@ recipes.addShapedMirrored(Torch, [
 [Beeswax, null],
 [Stick, null]]);
 // -
+recipes.addShapedMirrored(Torch, [
+[<UndergroundBiomes:ligniteCoal>, null],
+[Stick, null]]);
+//-
+recipes.addShapedMirrored(Torch * 2, [
+[<UndergroundBiomes:ligniteCoal>, String],
+[Stick, null]]);
+// -
+recipes.addShapedMirrored(Torch * 2, [
+[<UndergroundBiomes:ligniteCoal>, null],
+[ImpregnatedStick, null]]);
+// -
+recipes.addShapedMirrored(Torch * 3, [
+[<UndergroundBiomes:ligniteCoal>, String],
+[ImpregnatedStick, null]]);
+// -
 recipes.addShapedMirrored(Torch * 5, [
 [CoalCoke, null],
 [Stick, null]]);
@@ -1002,19 +1018,19 @@ recipes.addShapedMirrored(RSTorch , [
 
 // --- Ladder
 recipes.addShaped(Ladder, [
-[Stick, Flint.transformReplace(Flint), Stick],
+[Stick, HHammer, Stick],
 [Stick, Stick, Stick],
-[Stick, Flint, Stick]]);
+[Stick, Saw, Stick]]);
 // - Alternate Recipe
 recipes.addShaped(Ladder * 2, [
 [Stick, Screwdriver, Stick],
-[Stick, Stick, Stick],
-[Stick, IronScrew, Stick]]);
+[Stick, IronScrew, Stick],
+[Stick, Saw, Stick]]);
 // - Alternate Recipe
 recipes.addShaped(Ladder * 4, [
 [Stick, Screwdriver, Stick],
-[Stick, Stick, Stick],
-[Stick, SteelScrew, Stick]]);
+[Stick, SteelScrew, Stick],
+[Stick, Saw, Stick]]);
 
 // --- Fence
 recipes.addShaped(Fence, [

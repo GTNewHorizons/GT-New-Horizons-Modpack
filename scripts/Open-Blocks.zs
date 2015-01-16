@@ -1,6 +1,10 @@
 // ************** Created by Arch-Nihil *************
 // Changes by DreamMasterXXL
 
+// --- Imports
+
+import mods.gregtech.Assembler;
+
 
 
 // *======= Variables =======*
@@ -14,7 +18,7 @@ val EnchantTable = <minecraft:enchanting_table>;
 val Anvil = <minecraft:anvil>;
 val IronBars = <minecraft:iron_bars>;
 val CobbleSlab = <minecraft:stone_slab:3>;
-val TinRotor = <gregtech:gt.metaitem.01:32620>;
+val TinRotor = <gregtech:gt.metaitem.02:21057>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
 val Hopper = <minecraft:hopper>;
 val StainlessPipe = <ore:pipeSmallStainlessSteel>;
@@ -99,6 +103,9 @@ recipes.remove(ItemDropper);
 
 // --- Sleeping Back
 recipes.remove(<OpenBlocks:sleepingBag>);
+
+// --- Rope Ladder
+recipes.remove(<OpenBlocks:ropeladder>);
 
 
 
@@ -212,3 +219,7 @@ recipes.addShaped(<OpenBlocks:sleepingBag>, [
 [Carpet, Carpet, Carpet],
 [Wool, Wool, Wool],
 [TannedLeather, TannedLeather, TannedLeather]]);
+
+// --- Assembler Recipes
+
+Assembler.addRecipe(<OpenBlocks:ropeladder>, <minecraft:string> * 64, <gregtech:gt.metaitem.02:22809> * 16, 400, 8);

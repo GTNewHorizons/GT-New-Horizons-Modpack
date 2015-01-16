@@ -29,7 +29,7 @@ val BOPMoss = <BiomesOPlenty:moss>;
 val MossyStoneBricks = <minecraft:stonebrick:1>;
 val Grout = <TConstruct:CraftedSoil:1>;
 val Gravel = <minecraft:gravel>;
-val Sand = <minecraft:sand>;
+val Sand = <ore:sand>;
 val Clay = <minecraft:clay_ball>;
 val Slimeball = <minecraft:slime_ball>;
 val Gelatinous = <TConstruct:strangeFood>;
@@ -41,6 +41,9 @@ val TGlove = <TConstruct:travelGlove>;
 val TGoggles = <TConstruct:travelGoggles>;
 val TVest = <TConstruct:travelVest>;
 val TWings = <TConstruct:travelWings>;
+
+val HHammer = <ore:craftingToolHardHammer>;
+val File = <ore:craftingToolFile>;
 
 
 
@@ -172,6 +175,11 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_leggings>);
 // --- Chain Boots
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 
+// --- Oredict Obsidian Tool Rod
+oreDict.stickObsidian.remove(<TConstruct:toolRod:6>);
+oreDict.obsidianRod.remove(<TConstruct:toolRod:6>);
+oreDict.rodObsidian.remove(<TConstruct:toolRod:6>);
+oreDict.toolRodObsidian.add(<TConstruct:toolRod:6>);
 
 
 // ||||| Blocks & Items |||||
@@ -200,6 +208,9 @@ recipes.remove(<TConstruct:toolRod:1>);
 
 // --- Blank Pattern
 recipes.remove(<TConstruct:blankPattern>);
+
+// --- Stone Ladder
+recipes.remove(<TConstruct:decoration.stoneladder>);
 
 
 // ||||| Gear |||||
@@ -293,6 +304,12 @@ recipes.addShaped(<TConstruct:blankPattern>, [
 [<ore:plankWood>, <ore:stickWood>, null],
 [<ore:stickWood>, <ore:plankWood>, null],
 [null, null, null]]);
+
+// --- Stone Ladder
+recipes.addShaped(<TConstruct:decoration.stoneladder>, [
+[<ForgeMicroblock:stoneRod>, HHammer, <ForgeMicroblock:stoneRod>],
+[<ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>],
+[<ForgeMicroblock:stoneRod>, File, <ForgeMicroblock:stoneRod>]]);
 
 // ||||| Gear |||||
 

@@ -93,12 +93,6 @@ recipes.addShaped(<Forestry:core>, [
 [<minecraft:glass>, <Forestry:sturdyMachine>, <minecraft:glass>],
 [<ore:plateBronze>, <minecraft:piston>, <ore:plateBronze>]]);
 
-//Analyzer
-recipes.addShaped(<Forestry:core>, [
-[<ore:plateBronze>, <Forestry:treealyzer>, <ore:plateBronze>],
-[<minecraft:glass>, <Forestry:sturdyMachine>, <minecraft:glass>],
-[<ore:plateBronze>, <minecraft:piston>, <ore:plateBronze>]]);
-
 //Sturdy Casing
 recipes.addShaped(<Forestry:sturdyMachine>, [
 [<ore:plateBronze>, <ore:plateIron>, <ore:plateBronze>],
@@ -113,19 +107,19 @@ recipes.addShaped(<Forestry:factory>, [
 
 //Carpenter
 recipes.addShaped(<Forestry:factory:1>, [
-[<ore:plateBronze>, <gregtech:gt.metaitem.01:32620>, <ore:plateBronze>],
+[<ore:plateBronze>, <gregtech:gt.metaitem.02:21057>, <ore:plateBronze>],
 [<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
 [<ore:plateBronze>, <ore:screwBronze>, <ore:plateBronze>]]);
 
 //Centrifuge
 recipes.addShaped(<Forestry:factory:2>, [
-[<ore:plateCopper>, <gregtech:gt.metaitem.01:32620>, <ore:plateCopper>],
+[<ore:plateCopper>, <gregtech:gt.metaitem.02:21057>, <ore:plateCopper>],
 [<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
-[<ore:plateCopper>, <gregtech:gt.metaitem.01:32620>, <ore:plateCopper>]]);
+[<ore:plateCopper>, <gregtech:gt.metaitem.02:21057>, <ore:plateCopper>]]);
 
 //Fermenter
 recipes.addShaped(<Forestry:factory:3>, [
-[<ore:plateGold>, <gregtech:gt.metaitem.01:32620>, <ore:plateGold>],
+[<ore:plateGold>, <gregtech:gt.metaitem.02:21057>, <ore:plateGold>],
 [<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
 [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 
@@ -137,14 +131,14 @@ recipes.addShaped(<Forestry:factory:4>, [
 
 //Squeezer
 recipes.addShaped(<Forestry:factory:5>, [
-[<ore:plateTin>, <gregtech:gt.metaitem.01:32620>, <ore:plateTin>],
+[<ore:plateTin>, <gregtech:gt.metaitem.02:21057>, <ore:plateTin>],
 [<ore:gearGold>, <Forestry:sturdyMachine>, <ore:gearGold>],
 [<ore:plateTin>, <ore:screwTin>, <ore:plateTin>]]);
 
 //Still
 recipes.addShaped(<Forestry:factory:6>, [
 [<minecraft:redstone_block>, <ore:plateGlass>, <minecraft:redstone_block>],
-[<gregtech:gt.metaitem.01:32621>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32621>],
+[<gregtech:gt.metaitem.02:21300>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.02:21300>],
 [<extracells:certustank>, <ore:plateGlass>, <extracells:certustank>]]);
 
 //Rain Maker

@@ -1,4 +1,11 @@
+//Created by DreamMasterXXL
+
 // --- Remove Recipes
+
+// De Ordicted Obsidian Sticks
+oreDict.stickObsidian.remove(<RandomThings:ingredient:1>);
+oreDict.obsidianStick.remove(<RandomThings:ingredient:1>);
+oreDict.obsidianRod.remove(<RandomThings:ingredient:1>);
 
 //Everything
 recipes.remove(<RandomThings:onlineDetector>);
