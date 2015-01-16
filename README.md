@@ -1,6 +1,6 @@
 ===== DCraft =====
 
-Version 1.7.0.0 is out (14.01.2015)
+Version 1.7.1.0 is out (15.01.2015)
 
 A GregTech-based modpack with a dash of magic provided by Thaumcraft and its addons.
 
