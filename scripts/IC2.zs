@@ -142,10 +142,11 @@ recipes.remove(<IC2:itemupgradekit>);
 recipes.remove(<IC2:itemFluidCell>);
 //Iron Furnace
 recipes.remove(IronFurnace);
-
-
 //remove Rubber Wood
 furnace.remove(<minecraft:log:3>);
+
+// De Ordicted Refined Iron
+oreDict.plateSteel.remove(<IC2:itemPlates:5>);
 
 // --- Steam Turbine Blade ---
 recipes.remove(<IC2:itemSteamTurbineBlade>);
