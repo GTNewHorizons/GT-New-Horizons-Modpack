@@ -44,11 +44,33 @@ recipes.remove(<Thaumcraft:blockTable>);
 recipes.remove(<Thaumcraft:ItemEssence>);
 //Enchanted Fabric
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
-
+//Greatwood Rood
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod>);
+//Magic Crowbar
+mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
+//Amber
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:6>);
+//Order Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:4>);
+//Entropy Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:5>);
+//Air Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard>);
+//Earth Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:3>);
+//Water Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
+//Fire Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
 
 //Remove Furnace Recipes Shrads
 
+//Shrads
 furnace.remove(<Thaumcraft:ItemShard:*>);
+
+//Amber
+furnace.remove(<Thaumcraft:ItemResource:6>);
+
 
 //add Recipes
 
@@ -58,12 +80,6 @@ recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
 [<IC2:itemCasing:3>, <ore:lensDiamond>, <IC2:itemCasing:3>],
 [<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>]]);
 
-//Iron Wand Cap
-recipes.addShaped(<Thaumcraft:WandCap>, [
-[<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
-[null, null, null],
-[null, null, null]]);
-  
 //Gold Wand Cap
 mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 8, ignis 8, aer 8", [
 [null, <ore:foilGold>, null],
@@ -78,7 +94,7 @@ mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCap:3>, "ordo 12,
 
 //Silver Wand Cap
 mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 16, ignis 16, aer 16", [
-[null, <ore:foilSilver, null>],
+[null, <ore:foilSilver>, null],
 [<ore:foilSilver>, <ore:ringSilver>, <ore:foilSilver>],
 [null, <ore:foilSilver>, null]]);
 
@@ -96,9 +112,9 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "
 
 //Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>, [
-[null, <TwilightForest:item.nagaScale>, <ore:ringIron>],
+[<TwilightForest:item.trophy:1>.reuse(), <TwilightForest:item.nagaScale>, <ore:ringIron>],
 [<TwilightForest:item.nagaScale>, <Forestry:oakStick>, <TwilightForest:item.nagaScale>],
-[<ore:ringIron>, <TwilightForest:item.nagaScale>, null]]);
+[<ore:ringIron>, <TwilightForest:item.nagaScale>, <ore:craftingToolHardHammer>]]);
 
 //Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
@@ -145,12 +161,38 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<minecraft:string>, <harvestcraft:wovencottonItem>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
+//Greatwood Rood
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 10, aqua 10, perditio 10" , [
+[null, null, <Thaumcraft:blockMagicalLog>],
+[null, <Thaumcraft:blockMagicalLog>, null],
+[<Thaumcraft:blockMagicalLog>, null, null]]);
+
+//Amber
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, "perditio 3, vinculum 6, vitreus 13");
+
+//Order Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, "ordo 6, perditio 3, praecantatio 3, vitreus 10");
+
+//Entropy Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, "perditio 9, praecantatio 3, vitreus 10");
+
+//Air Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, "aer 6, perditio 3, praecantatio 3, vitreus 10");
+
+//Earth Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, "perditio 3, praecantatio 3, terra 6, vitreus 10");
+
+//Water Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, "aqua 6, perditio 3, praecantatio 3, vitreus 10");
+
+//Fire Shards
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, "ignis 6, perditio 3, praecantatio 3, vitreus 10");
+
 
 //Assembler Recipes
 
 //Arcan Stone Bricks
 Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
-
 
 //refresh Recipes
 
@@ -178,3 +220,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("GOGGLES");
 mods.thaumcraft.Research.refreshResearchRecipe("ARTIFICE");
 //Enchanted Fabric
 mods.thaumcraft.Research.refreshResearchRecipe("ENCHFABRIC");
+//Greatwood Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
+//Amber and Shards
+mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
