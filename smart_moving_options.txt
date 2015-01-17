@@ -1,0 +1,1201 @@
+#######################################################################
+#
+# Smart Moving mod configuration file
+# -----------------------------------
+#
+# Modify the values behind the keys in this file to configure the
+# Smart Moving behavior as you like it.
+#
+# * All options you leave at their default value will be automatically
+#   updated when the default value is updated with a new version of
+#   Smart Moving options.
+#
+# * All options you modify will stay the same over the upgrade cycles
+#   as long as they still fall in the allowed range.
+#
+# * The character '!' will be used after the value's text's end to
+#   mark a value that has originally been modified but became the
+#   default value at some point in the update process to avoid it being
+#   updated too with the next default value change.
+#
+# * The '!' mark can also be used to create a 'modified' and so not
+#   automatically updated value identical to the current default value
+#
+# Additionally you can create multiple option configurations and define
+# separate option values for each configuration.
+#
+# * key-value separator is ':'
+# * key-value-pair separator is ';'
+# * a value without key will become the default value
+#
+#######################################################################
+
+# The current version of this Smart Moving options file
+move.options.version:3.2
+
+
+
+
+# =====================================================================
+# Global Speed
+# ------------
+# Below you find the options to manipulate the global speed applied
+# to all speeds.
+# =====================================================================
+
+# Global player speed factor (>= 0)
+move.speed.factor:1
+
+# To switch on/off in-game speed manipulation
+move.speed.user:false;c:true
+
+# The factor for in-game speed manipulation (>= 0.0001)
+move.speed.user.factor:0.2
+
+# The exponent for in-game speed manipulation
+move.speed.user.exponent:4
+
+
+
+
+# =====================================================================
+# Climbing
+# --------
+# Below you find all free and ladder climbing options except those
+# for ceiling climbing.
+# =====================================================================
+
+# To manipulate the ladder and vine climbing mode (possible values are "free", "smart", "simple" and "standard")
+move.climb.base:free
+
+# To switch on/off free climbing
+move.climb.free:true
+
+# To switch on/off remaining base climbing behavior on ladders while free climbing is enabled for ladders (also see "move.climb.base")
+move.climb.free.base.ladder:false
+
+# To switch on/off remaining base climbing behavior on vines while free climbing is enabled for vines (also see "move.climb.base")
+move.climb.free.base.vine:false
+
+
+
+# Climbing up speed factor relative to default climbing up speed (>= 0)
+move.climb.free.up.speed.factor:1
+
+# Climbing down speed factor relative to default climbing down speed (>= 0)
+move.climb.free.down.speed.factor:1
+
+# Climbing horizontal speed factor relative to default climbing horizontal speed (>= 0)
+move.climb.free.horizontal.speed.factor:1
+
+# Climbing N,S,E,W grabbing angle in degrees
+move.climb.free.direction.orthogonal.angle:90
+
+# Climbing NW,SW,SE,NE grabbing angle in degrees
+move.climb.free.direction.diagonal.angle:80
+
+
+# Whether the "grab" button will automatically be triggered while being on ladders and looking in the right direction
+move.climb.free.ladder.auto:true
+
+# Whether the "grab" button will automatically be triggered while being on standard climbable vines and looking in the right direction
+move.climb.free.vine.auto:true
+
+# Additional speed factor when climbing straight up on one ladder block (>= 0)
+move.climb.free.ladder.one.up.speed.factor:1.0153
+
+# Additional speed factor when climbing straight up on two ladder blocks (>= 1)
+move.climb.free.ladder.two.up.speed.factor:1.43
+
+# Climbing over fences
+move.climb.free.fence:true
+
+
+# Distance in blocks to fall before suffering fall damage when starting to climb (>= 1, <= 3)
+move.climb.fall.damage.start.distance:2
+
+# Damage factor applied to the remaining distance (>= 1)
+move.climb.fall.damage.factor:2
+
+# Distance in blocks to fall to block all climbing attempts (>= "move.climb.fall.damage.start.distance")
+move.climb.fall.maximum.distance:3
+
+
+# To switch on/off exhaustion while climbing
+move.climb.exhaustion:false;h:true
+
+# Maximum exhaustion to start climbing along ceilings (>= 0)
+move.climb.exhaustion.start:60
+
+# Maximum exhaustion to climb (>= 0)
+move.climb.exhaustion.stop:80
+
+# Exhaustion added every tick while climbing horizontally (>= 0)
+move.climb.strafe.exhaustion.gain:1.1
+
+# Exhaustion added every tick while climbing up (>= 0)
+move.climb.up.exhaustion.gain:1.2
+
+# Exhaustion added every tick while climbing down (>= 0)
+move.climb.down.exhaustion.gain:1.05
+
+# Exhaustion added every tick while climbing diagonally up (>= 0)
+move.climb.strafe.up.exhaustion.gain:1.3
+
+# Exhaustion added every tick while climbing diagonally down (>= 0)
+move.climb.strafe.down.exhaustion.gain:1.25
+
+
+
+
+# =====================================================================
+# Ceiling climbing
+# ----------------
+# Below you find all ceiling climbing options
+# =====================================================================
+
+# To switch on/off climbing along ceilings
+move.climb.ceiling:true
+
+# Speed factor while climbing along ceilings (>= 0, relative to default movement speed)
+move.climb.ceiling.speed.factor:0.2
+
+# To define which blocks are ceiling climbable (syntax: '<blockId/blockName>(/<metadata>)*' seperator: ',')
+move.climb.ceiling.configuration:tile.fenceIron,tile.trapdoor/0/1/2/3,tile.trapdoor_iron/0/1/2/3
+
+
+# To switch on/off exhaustion while climbing along ceilings
+move.climb.ceiling.exhaustion:false;h:true
+
+# Maximum exhaustion to start climbing along ceilings (>= 0)
+move.climb.ceiling.exhaustion.start:40
+
+# Maximum exhaustion to climbing along ceilings (>= "move.climb.ceiling.exhaustion.start")
+move.climb.ceiling.exhaustion.stop:60
+
+# Exhaustion added every tick while climbing along ceilings (>= 0)
+move.climb.ceiling.exhaustion.gain:1.3
+
+
+
+
+# =====================================================================
+# Swimming
+# --------
+# Below you find all swimming options
+# =====================================================================
+
+# To switch on/off swimming
+move.swim:true
+
+# Speed factor while swimming (>= 0, relative to default movement speed)
+move.swim.speed.factor:1
+
+# To switch on/off diving down instead of swimming slow on sneaking while swimming
+move.swim.down.sneak:true
+
+# Swim particle spawning period factor (>= 0)
+move.swim.particle.period.factor:1
+
+
+
+
+# =====================================================================
+# Diving
+# ------
+# Below you find all diving options
+# =====================================================================
+
+# To switch on/off diving
+move.dive:true
+
+# Speed factor while diving (>= 0, relative to default movement speed)
+move.dive.speed.factor:1
+
+# To switch on/off diving down instead of diving slow on sneaking while diving
+move.dive.down.sneak:true
+
+
+
+
+# =====================================================================
+# Lava
+# ----
+# Below you find all lava movement options
+# =====================================================================
+
+# To switch on/off swimming and diving in lava
+move.lava.water:false;c:true
+
+# Lava swim particle spawning period factor (>= 0)
+move.lava.swim.particle.period.factor:4
+
+
+
+
+# =====================================================================
+# Standard sprinting
+# ------------------
+# Below you find the options for standard vanilla Minecraft sprinting
+# (sometimes referred as "running" here)
+# =====================================================================
+
+# To switch on/off standard sprinting
+move.run:true
+
+# Standard sprinting factor (>= 1.1)
+move.run.factor:1.3
+
+# To switch on/off standard sprinting exhaustion
+move.run.exhaustion:false;h:true
+
+
+# Maximum exhaustion to start a standard sprint (>= 0)
+move.exhaustion.run.start:75
+
+# Maximum exhaustion to continue a standard sprint (>= "move.exhaustion.run.start")
+move.exhaustion.run.stop:100
+
+# Exhaustion gain factor while standard sprinting (>= 0)
+move.exhaustion.run.gain.factor:1.5
+
+
+
+
+# =====================================================================
+# Generic sprinting
+# -----------------
+# Below you find the options for Smart Moving's generic sprinting
+# available for many different smart movings plus standard walking
+# =====================================================================
+
+# To switch on/off generic sprinting
+move.sprint:true
+
+# Generic sprinting factor (>= 1.1 AND >= 'move.run.factor' + 0.1 if relevant)
+move.sprint.factor:1.5
+
+# To switch on/off sprinting exhaustion
+move.sprint.exhaustion:true;e:false
+
+
+# Maximum exhaustion to start a sprint (>= 0)
+move.exhaustion.sprint.start:50
+
+# Maximum exhaustion to continue a sprint (>= "move.exhaustion.sprint.start")
+move.exhaustion.sprint.stop:100
+
+# Exhaustion gain factor while sprinting (>= 0)
+move.exhaustion.sprint.gain.factor:2
+
+
+
+
+# =====================================================================
+# Generic sneaking
+# ----------------
+# Below you find the options for Smart Moving's generic sneaking
+# available for many different smart movings. These options also
+# apply to standard sneaking!
+# =====================================================================
+
+# To switch on/off standard sneaking
+move.sneak:true
+
+# Speed factor while sneaking (>= 0, <= 1, relative to default movement speed)
+move.sneak.factor:0.3
+
+# Whether to display a name tag above other standard sneaking players
+move.sneak.name:false
+
+
+
+
+# =====================================================================
+# Crawling
+# --------
+# Below you find all crawling options.
+# =====================================================================
+
+# To switch on/off crawling
+move.crawl:true
+
+# Speed factor while crawling (>= 0, <= 1, relative to default movement speed)
+move.crawl.factor:0.15
+
+# Whether to display a name tag above other crawling players
+move.crawl.name:false
+
+# Whether to allow crawling over edges
+move.crawl.edge:true
+
+
+
+
+# =====================================================================
+# Sliding
+# -------
+# Below you find all sliding options.
+# =====================================================================
+
+# To switch on/off sliding
+move.slide:true
+
+# Sliding control movement factor (>= 0, in degrees per tick)
+move.slide.control.angle:1
+
+# Slipperiness factor while sliding (>= 0)
+move.slide.glide.factor:1
+
+# Sliding to crawling transition speed factor (>= 0)
+move.slide.speed.stop.factor:1
+
+# Sliding particle spawning period factor (>= 0)
+move.slide.particle.period.factor:0.5
+
+
+
+
+# =====================================================================
+# Smart flying
+# ------------
+# Below you find all options for Smart Moving's own flying mode.
+# =====================================================================
+
+# To switch on/off smart flying
+move.fly:true
+
+# To manipulate smart flying speed (>= 0)
+move.fly.speed.factor:1
+
+
+
+
+# =====================================================================
+# Standard flying
+# ---------------
+# Below you find the options for standard vanilla Minecraft flying
+# (sometimes referred as "levitating" here)
+# =====================================================================
+
+# To switch on/off standard flying small size
+move.levitate.small:true
+
+# To switch on/off standard flying animation
+move.fly.animation:true
+
+
+
+
+# =====================================================================
+# Falling
+# -------
+# Below you find the options for Smart Moving's falling
+# =====================================================================
+
+# Minimum fall distance for stopping ground based moves like crawling or sliding (>= 0)
+move.fall.distance.minimum:3
+
+# To switch on/off smart falling animation
+move.fall.animation:true
+
+# Minimum fall distance for the smart falling animation (>= 0, >= "move.fall.animation.distance.minimum"
+move.fall.animation.distance.minimum:3
+
+
+
+
+# =====================================================================
+# Jumping
+# -------
+# Below you find the options for all Smart Moving's different jump
+# types. These options also apply to standard jumping!
+# =====================================================================
+
+# To switch on/off jumping
+move.jump:true
+
+# Jumping control movement factor (>= 0, <= 1, relative to default air movement speed)
+move.jump.control.factor:1
+
+
+# Horizontal jumping factor relative to actual horizontal movement (>= 1)
+move.jump.horizontal.factor:1
+
+# Vertical jumping factor relative to default jump height (>= 0)
+move.jump.vertical.factor:1
+
+
+
+# To switch on/off jumping while standing (Relevant only if "move.jump" is true)
+move.jump.stand:true
+
+# Vertical stand jumping factor relative to default jump height (>= 0)
+move.jump.stand.vertical.factor:1
+
+
+
+# To switch on/off jumping while sneaking (Relevant only if nether "move.sneak" nor "move.jump" are false)
+move.jump.sneak:true
+
+# Horizontal sneak jumping factor relative to actual horizontal movement (>= 1)
+move.jump.sneak.horizontal.factor:1
+
+# Vertical sneak jumping factor relative to default jump height (>= 0)
+move.jump.sneak.vertical.factor:1
+
+
+
+# To switch on/off jumping while walking (Relevant only if "move.jump" is true)
+move.jump.walk:true
+
+# Horizontal walk jumping factor relative to actual horizontal movement (>= 1)
+move.jump.walk.horizontal.factor:1
+
+# Vertical walk jumping factor relative to default jump height (>= 0)
+move.jump.walk.vertical.factor:1
+
+
+
+# To switch on/off jumping while running (Relevant only if nether "move.run" nor "move.jump" are false)
+move.jump.run:true
+
+# Horizontal run jumping factor relative to actual horizontal movement (>= 1)
+move.jump.run.horizontal.factor:2
+
+# Vertical run jumping factor relative to default jump height (>= 0)
+move.jump.run.vertical.factor:1
+
+
+
+# To switch on/off jumping while sprinting (Relevant only if nether "move.sprint" nor "move.jump" are false)
+move.jump.sprint:true
+
+# Horizontal sprint jumping factor relative to actual horizontal movement (>= 1)
+move.jump.sprint.horizontal.factor:2
+
+# Vertical sprint jumping factor relative to default jump height (>= 0)
+move.jump.sprint.vertical.factor:1
+
+
+
+# ---------------------------------------------------------------------
+# Charged jumping
+# ---------------
+# Below you find all charged jump specific options except those for
+# exhaustion.
+# ---------------------------------------------------------------------
+
+# Relevant only if "move.jump" is not false
+move.jump.charge:true
+
+# Maximum jump charge (counts up one per tick) (>= 0)
+move.jump.charge.maximum:20
+
+# Jump speed factor when completely charged (>= 1)
+move.jump.charge.factor:1.3
+
+# To switch between charged jump and charge cancel on sneak button release while jump charging
+move.jump.charge.sneak.release.cancel:false
+
+
+
+# ---------------------------------------------------------------------
+# Head jumping
+# ------------
+# Below you find all head jump and fall specific options except those
+# for exhaustion.
+# ---------------------------------------------------------------------
+
+# Relevant only if "move.jump" is not false
+move.jump.head.charge:true
+
+# Head jump control movement factor (>= 0, <= 1, relative to default air movement speed)
+move.jump.head.control.factor:0.2
+
+# Maximum head jump charge (counts up one per tick) (>= 0)
+move.jump.head.charge.maximum:10
+
+
+# Distance in blocks to fall head ahead before suffering fall damage (>= 1, <= 3)
+move.fall.head.damage.start.distance:2
+
+# Damage factor applied to the remaining distance when impacting head ahead (>= 1)
+move.fall.head.damage.factor:2
+
+
+
+# ---------------------------------------------------------------------
+# Side and Back jumping
+# ---------------------
+# Below you find all side and back jump specific options except those
+# for exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off side jumping
+move.jump.angle.side:true
+
+# To switch on/off back jumping
+move.jump.angle.back:true
+
+# Horizontal jump speed factor for side and back jumps (>= 0)
+move.jump.angle.horizontal.factor:0.3
+
+# Vertical jump speed factor for side and back jumps (>= 0)
+move.jump.angle.vertical.factor:0.2
+
+
+
+# ---------------------------------------------------------------------
+# Climb jumping
+# -------------
+# Below you find all climb up jump specific options except those for
+# exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off jumping up while climbing
+move.jump.climb.up:true
+
+# Vertical jump speed factor for jumping while climbing (>= 0, <= 1)
+move.jump.climb.up.vertical.factor:1
+
+# Additional vertical jump speed factor for jumping while climbing with hands only (>= 0, <= 1)
+move.jump.climb.up.hands.only.vertical.factor:0.8
+
+
+
+# ---------------------------------------------------------------------
+# Climb back jumping
+# ------------------
+# Below you find all climb back jump specific options except those
+# for exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off jumping back while climbing
+move.jump.climb.back.up:true
+
+# Vertical jump speed factor for jumping back while climbing (>= 0, <= 1)
+move.jump.climb.back.up.vertical.factor:0.2
+
+# Horizontal jump speed factor for jumping back while climbing (>= 0, <= 1)
+move.jump.climb.back.up.horizontal.factor:0.3
+
+# Additional vertical jump speed factor for jumping back while climbing with hands only (>= 0, <= 1)
+move.jump.climb.back.up.hands.only.vertical.factor:0.8
+
+# Additional horizontal jump speed factor for jumping back while climbing with hands only (>= 0, <= 1)
+move.jump.climb.back.up.hands.only.horizontal.factor:1
+
+
+
+# ---------------------------------------------------------------------
+# Climb back head jumping
+# -----------------------
+# Below you find all climb back head jump specific options except
+# those for exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off head jumping back while climbing
+move.jump.climb.back.head:true
+
+# Additional vertical jump speed factor for head jumping back while climbing(>= 0, <= 1)
+move.jump.climb.back.head.vertical.factor:0.2
+
+# Additional horizontal jump speed factor for head jumping back while climbing(>= 0, <= 1)
+move.jump.climb.back.head.horizontal.factor:0.3
+
+# Additional vertical jump speed factor for head jumping while climbing with hands only (>= 0, <= 1)
+move.jump.climb.back.head.hands.only.vertical.factor:0.8
+
+# Additional horizontal jump speed factor for head jumping while climbing with hands only (>= 0, <= 1)
+move.jump.climb.back.head.hands.only.horizontal.factor:1
+
+
+
+# ---------------------------------------------------------------------
+# Wall jumping
+# ------------
+# Below you find all wall jump specific options except those for
+# exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off wall jumping
+move.jump.wall:true
+
+# Vertical jump speed factor for wall jumping (>= 0, <= 1)
+move.jump.wall.vertical.factor:0.4
+
+# Horizontal jump speed factor for wall jumping (>= 0, <= 1)
+move.jump.wall.horizontal.factor:0.15
+
+# Distance in blocks to fall to block all wall jumping attempts
+move.jump.wall.fall.maximum.distance:2
+
+# Tolerance angle in degree for wall jumping orthogonally (>= 0, <= 45)
+move.jump.wall.orthogonal.tolerance:5
+
+
+
+# ---------------------------------------------------------------------
+# Wall head jumping
+# -----------------
+# Below you find all wall head jump specific options except those for
+# exhaustion.
+# ---------------------------------------------------------------------
+
+# To switch on/off wall head jumping
+move.jump.wall.head:true
+
+# Vertical jump speed factor for wall head jumping (>= 0, <= 1)
+move.jump.wall.head.vertical.factor:0.3
+
+# Horizontal jump speed factor for wall head jumping (>= 0, <= 1)
+move.jump.wall.head.horizontal.factor:0.15
+
+# Distance in blocks to fall to block all wall head jumping attempts (>= "move.jump.wall.fall.maximum.distance")
+move.jump.wall.head.fall.maximum.distance:3
+
+
+
+# ---------------------------------------------------------------------
+# Jump exhaustion
+# ---------------
+# Below you find the exhaustion options for the different jump types.
+# At runtime all relevant options are combined together to form the
+# specific exhaustion value
+# ---------------------------------------------------------------------
+
+# To switch on/off jump exhaustion
+move.jump.exhaustion:true
+
+# To manipulate the exhaustion increase by a jump (>= 0)
+move.jump.exhaustion.gain.factor:1
+
+# To manipulate maximum exhaustion to jump (>= 0)
+move.jump.exhaustion.stop.factor:1
+
+
+
+# To switch on/off up jump exhaustion
+move.jump.up.exhaustion:true
+
+# To manipulate the exhaustion increase by a jump up (>= 0)
+move.jump.up.exhaustion.gain.factor:1
+
+# To manipulate maximum exhaustion to jump up (>= 0)
+move.jump.up.exhaustion.stop.factor:1
+
+
+
+# To switch on/off climb jump exhaustion
+move.jump.climb.exhaustion:false;h:true
+
+# To manipulate the exhaustion increase by jumping while climbing (>= 0)
+move.climb.jump.exhaustion.gain.factor:1
+
+# To manipulate maximum exhaustion to jumping while climbing (>= 0)
+move.climb.jump.exhaustion.stop.factor:1
+
+
+# To switch on/off climb up jump exhaustion
+move.jump.climb.up.exhaustion:false
+
+# To manipulate the exhaustion increase by a jump up while climbing (>= 0)
+move.jump.climb.up.exhaustion.gain.factor:40
+
+# To manipulate maximum exhaustion to jump up while climbing (>= 0)
+move.jump.climb.up.exhaustion.stop.factor:60
+
+
+# To switch on/off climb back jump exhaustion
+move.jump.climb.back.up.exhaustion:false
+
+# To manipulate the exhaustion increase by a jump back while climbing (>= 0)
+move.jump.climb.back.up.exhaustion.gain.factor:40
+
+# To manipulate maximum exhaustion to jump back while climbing (>= 0)
+move.jump.climb.back.up.exhaustion.stop.factor:60
+
+
+# To switch on/off back climb head jump exhaustion
+move.jump.climb.back.head.exhaustion:false
+
+# To manipulate the exhaustion increase by a head jump back while climbing (>= 0)
+move.jump.climb.back.head.exhaustion.gain.factor:20
+
+# To manipulate maximum exhaustion to head jump back while climbing (>= 0)
+move.jump.climb.back.head.exhaustion.stop.factor:80
+
+
+
+# To switch on/off angle jump exhaustion
+move.jump.angle.exhaustion:true
+
+# To manipulate the exhaustion increase by a jump to the side or back (>= 0)
+move.jump.angle.exhaustion.gain.factor:1
+
+# To manipulate maximum exhaustion to jump to the side or back (>= 0)
+move.jump.angle.exhaustion.stop.factor:1
+
+
+
+# To switch on/off wall jump exhaustion
+move.jump.wall.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a wall jump (>= 0)
+move.jump.wall.exhaustion.gain.factor:1
+
+# To manipulate maximum exhaustion to wall jump (>= 0)
+move.jump.wall.exhaustion.stop.factor:1
+
+
+# To switch on/off wall up jump exhaustion
+move.jump.wall.up.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a wall up jump (>= 0)
+move.jump.wall.up.exhaustion.gain.factor:40
+
+# To manipulate maximum exhaustion to wall up jump (>= 0)
+move.jump.wall.up.exhaustion.stop.factor:60
+
+
+# To switch on/off wall head jump exhaustion
+move.jump.wall.head.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a wall head jump (>= 0)
+move.jump.wall.head.exhaustion.gain.factor:20
+
+# To manipulate maximum exhaustion to wall head jump (>= 0)
+move.jump.wall.head.exhaustion.stop.factor:80
+
+
+
+# To switch on/off stand jump exhaustion
+move.jump.stand.exhaustion:false;h:true
+
+# To manipulate the exhaustion increase by a jump while standing (>= 0)
+move.jump.stand.exhaustion.gain.factor:40
+
+# To manipulate maximum exhaustion to jump while standing (>= 0)
+move.jump.stand.exhaustion.stop.factor:60
+
+
+# To switch on/off sneak jump exhaustion
+move.jump.sneak.exhaustion:false;h:true
+
+# To manipulate the exhaustion increase by a jump while sneaking (>= "move.jump.stand.exhaustion.gain.factor")
+move.jump.sneak.exhaustion.gain.factor:40
+
+# To manipulate maximum exhaustion to jump while sneaking (>= 0, <= "move.jump.stand.exhaustion.stop.factor")
+move.jump.sneak.exhaustion.stop.factor:60
+
+
+# To switch on/off walk jump exhaustion
+move.jump.walkexhaustion:false;h:true
+
+# To manipulate the exhaustion increase by a jump while walking (>= "move.jump.sneak.exhaustion.gain.factor")
+move.jump.walk.exhaustion.gain.factor:45
+
+# To manipulate maximum exhaustion to jump while walking (>= 0, <= "move.jump.sneak.exhaustion.stop.factor")
+move.jump.walk.exhaustion.stop.factor:55
+
+
+# To switch on/off run jump exhaustion
+move.jump.run.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a jump while running (>= "move.jump.walk.exhaustion.gain.factor")
+move.jump.run.exhaustion.gain.factor:60
+
+# To manipulate maximum exhaustion to jump while running (>= 0, <= "move.jump.walk.exhaustion.stop.factor")
+move.jump.run.exhaustion.stop.factor:40
+
+
+# To switch on/off sprint jump exhaustion
+move.jump.sprint.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a jump while sprinting (>= "move.jump.run.exhaustion.gain.factor")
+move.jump.sprint.exhaustion.gain.factor:65
+
+# To manipulate maximum exhaustion to jump while sprinting (>= 0, <= "move.jump.run.exhaustion.stop.factor")
+move.jump.sprint.exhaustion.stop.factor:35
+
+
+# To switch on/off up additional jump charge exhaustion
+move.jump.charge.exhaustion:true;e:false
+
+# To manipulate the additional exhaustion for the higher jump (>= 0, is multiplied with the actual charge factor)
+move.jump.charge.exhaustion.gain.factor:30
+
+# To manipulate the subtractional maximum exhaustion to jump higher (>= 0, is multiplied with the actual charge factor)
+move.jump.charge.exhaustion.stop.factor:30
+
+
+# To switch on/off slide jump exhaustion
+move.jump.slide.exhaustion:true;e:false
+
+# To manipulate the exhaustion increase by a slide jump (>= 0)
+move.jump.slide.exhaustion.gain.factor:10
+
+# To manipulate maximum exhaustion to slide jump (>= 0)
+move.jump.slide.exhaustion.stop.factor:90
+
+
+
+
+# =====================================================================
+# Exhaustion
+# ----------
+# Below you find the options for the continuous exhaustion gain/loss
+# factors.
+# =====================================================================
+
+# Exhaustion gain base factor, set to '0' to disable exhaustion (>= 0)
+move.exhaustion.gain.factor:1
+
+# Exhaustion loss base factor (>= 0)
+move.exhaustion.loss.factor:1;e:1.2;h:0.8
+
+
+# Smart sprinting exhaustion loss factor (>= 0)
+move.exhaustion.sprint.loss.factor:0
+
+# Standard sprinting exhaustion loss factor while  (>= 0, >= "move.exhaustion.sprint.loss.factor")
+move.exhaustion.run.loss.factor:0.5
+
+# Walking exhaustion loss factor (>= 0, >= "move.exhaustion.run.loss.factor")
+move.exhaustion.walk.loss.factor:1
+
+# Sneaking exhaustion loss factor (>= 0, >= "move.exhaustion.walk.loss.factor")
+move.exhaustion.sneak.loss.factor:1.5
+
+# Standing exhaustion loss factor (>= 1, >= "move.exhaustion.sneak.loss.factor")
+move.exhaustion.stand.loss.factor:2
+
+# Falling exhaustion loss factor (>= "move.exhaustion.stand.loss.factor")
+move.exhaustion.fall.loss.factor:2.5
+
+
+# Ceiling climbing exhaustion loss factor (>= 0)
+move.exhaustion.climb.ceiling.loss.factor:1
+
+# Climbing exhaustion loss factor (>= 0)
+move.exhaustion.climb.loss.factor:1
+
+# Crawling exhaustion loss factor (>= 0)
+move.exhaustion.crawl.loss.factor:1
+
+# Water walking exhaustion loss factor (>= 0)
+move.exhaustion.dip.loss.factor:1
+
+# Swimming exhaustion loss factor (>= 0)
+move.exhaustion.swim.loss.factor:1
+
+# Diving exhaustion loss factor (>= 0)
+move.exhaustion.dive.loss.factor:1
+
+# Normal movement exhaustion loss factor (>= 0)
+move.exhaustion.normal.loss.factor:1
+
+
+# Whether exhaustion loss increases hunger
+move.exhaustion.hunger:true
+
+# How much hunger is generated for exhaustion loss (>= 0)
+move.exhaustion.hunger.factor:0.05;e:0.02;h:0.08
+
+# Until which food level exhaustion is continuously reduced
+move.exhaustion.food.minimum:4
+
+
+
+
+# =====================================================================
+# Hunger
+# ------
+# Below you find all hunger gain options.
+# =====================================================================
+
+# To switch on/off hunger generation
+move.hunger.gain:true;e:false
+
+# Hunger generation base factor (>= 0)
+move.hunger.gain.factor:1.2;e:1.2;h:1.2
+
+
+# Smart sprinting hunger generation factor (>= 0)
+move.hunger.sprint.gain.factor:1
+
+# Standard sprinting hunger generation factor (>= 0)
+move.hunger.run.gain.factor:10
+
+# Standard speed movement hunger generation factor (>= 0)
+move.hunger.walk.gain.factor:1
+
+# Sneaking hunger generation factor (>= 0)
+move.hunger.sneak.gain.factor:1
+
+# Sneaking hunger generation factor (>= 0)
+move.hunger.stand.gain.factor:0
+
+
+# Climbing hunger generation factor (>= 0)
+move.hunger.climb.gain.factor:1
+
+# Crawling hunger generation factor (>= 0)
+move.hunger.crawl.gain.factor:1
+
+# Ceiling climbing hunger generation factor (>= 0)
+move.hunger.climb.gain.ceiling.factor:1
+
+# Swimming hunger generation factor (>= 0)
+move.hunger.swim.gain.factor:1.5
+
+# Diving hunger generation factor (>= 0)
+move.hunger.dive.gain.factor:1.5
+
+# Water walking hunger generation factor (>= 0)
+move.hunger.dip.gain.factor:1.5
+
+# Normal movement hunger generation factor (>= 0)
+move.hunger.normal.gain.factor:1
+
+
+# Basic hunger per tick (>= 0)
+move.hunger.always.gain:0;h:0.005
+
+
+
+
+# =====================================================================
+# Item Usage
+# ----------
+# Below you find the options to manipulate the speed factors
+# additionally applied while using an item.
+# =====================================================================
+
+# Speed factor while using an item, if not defined otherwise (>= 0 AND <= 1)
+move.usage.speed.factor:0.2
+
+# Speed factor while blocking with a sword (>= 0 AND <= 1, defaults to "move.usage.speed.factor" when not present)
+move.usage.sword.speed.factor:0.2
+
+# Speed factor while pulling back a bow (>= 0 AND <= 1, defaults to "move.usage.speed.factor" when not present)
+move.usage.bow.speed.factor:0.2
+
+# Speed factor while eating food (>= 0 AND <= 1, defaults to "move.usage.speed.factor" when not present)
+move.usage.food.speed.factor:0.2
+
+
+# To switch on/off generic sprinting while using an item
+move.usage.sprint:false
+
+
+
+
+# =====================================================================
+# Mod compatibility
+# -----------------
+# Below you find the options to manipulate how Smart Moving should
+# interact with other mods
+# =====================================================================
+
+# Whether to replace the rope climbing of mod pack 'Ropes+'
+move.mod.rope.replace.climb.rope:true
+
+
+
+
+# =====================================================================
+# Configuration Management
+# ------------------------
+# Below you find the options to define multiple configuration option
+# sets
+# =====================================================================
+
+# A list of survival option configuration keys, entries seperated by ','
+move.config.survival.keys:e,m,h
+
+# The option configuration to start the next minecraft survival game with (can also be modified via in-game option configuration toggling)
+move.config.survival.keys.default:m
+
+
+# A list of creative option configuration keys, entries seperated by ','
+move.config.creative.keys:c
+
+# The option configuration to start the next minecraft creative game with (can also be modified via in-game option configuration toggling)
+move.config.creative.keys.default:disabled
+
+
+# A list of adventure option configuration keys, entries seperated by ','
+move.config.adventure.keys:e,m,h
+
+# The option configuration to start the next minecraft adventure game with (can also be modified via in-game option configuration toggling)
+move.config.adventure.keys.default:m
+
+
+# The display names of the option configuration keys
+move.config.key.name:e:Easy;h:Hard;m:Medium
+
+
+
+
+# =====================================================================
+# Server Management
+# -----------------
+# Below you find the options to manage your server
+# =====================================================================
+
+# Whether the players on this server should be forced to use the configurations on this server
+move.server.config:true
+
+
+# The option configuration to start the player's next minecraft survival game with (can also be modified via in-game option configuration toggling)
+move.server.config.survival.user.keys:
+
+# The option configuration to start the player's next minecraft creative game with (can also be modified via in-game option configuration toggling)
+move.server.config.creative.user.keys:
+
+# The option configuration to start the player's next minecraft adventure game with (can also be modified via in-game option configuration toggling)
+move.server.config.adventure.user.keys:
+
+# The user specific exponents for in-game speed manipulation
+move.server.speed.user.exponents:
+
+
+# Whether all players on this server should be forced to use the same global configuration (Relevant only if "move.server.config" is true)
+move.global.config:true
+
+
+# The names of the users that have the right to change the global configuraton in-game, entries seperated by ','
+move.global.config.right.user.names:
+
+# The names of the users that have the right to change the global speed in-game, entries seperated by ','
+move.global.speed.right.user.names:
+
+
+# Whether the current local user has the right to change the global configuration in-game (despite of the names listed in "move.global.config.right.user.names"
+move.global.config.right.local.user:true
+
+# Whether the current local user has the right to change the global speed in-game (despite of the names listed in "move.global.config.right.user.names"
+move.global.speed.right.local.user:true
+
+
+
+
+# =====================================================================
+# Viewpoint perspective
+# ---------------------
+# Below you find the options to manipulate the viewpoint perspective
+# =====================================================================
+
+# Fading speed factor between the different perspectives (>= 0.1, <= 1, set to '1' to switch off)
+move.perspective.fade.factor:0.5
+
+# Standard sprinting perspective (set to '0' to switch off)
+move.perspective.run.factor:1
+
+# Smart on ground sprinting perspective (set to '0' to switch off)
+move.perspective.sprint.factor:1.5
+
+
+
+
+# =====================================================================
+# User interface
+# --------------
+# Below you find the options to manipulate Smart Moving's user
+# interface
+# =====================================================================
+
+# The maximum number of ticks between two clicks to trigger a side or back jump (>= 2)
+move.jump.angle.double.click.ticks:3
+
+
+# Whether wall jumping should be triggered by single or double clicking (and then press and holding) the jump button
+move.jump.wall.double.click:true
+
+# The maximum number of ticks between two clicks to trigger a wall jump (>= 2, depends on "move.jump.wall.double.click")
+move.jump.wall.double.click.ticks:3
+
+
+# Whether pressing or not pressing the grab button while climb jumping back results in a head jump
+move.jump.climb.back.head.on.grab:true
+
+
+# Whether to display the exhaustion bar in the game overlay
+move.gui.exhaustion.bar:true
+
+# Whether to display the jump charge bar in the game overlay
+move.gui.jump.charge.bar:true
+
+
+# To switch on/off sneak toggling
+move.sneak.toggle:false
+
+# To switch on/off crawl toggling
+move.crawl.toggle:false
+
+
+# To switch on/off flying close to the ground
+move.fly.ground.close:false
+
+# To switch on/off flying while colliding with the grond (Relevant only if "move.fly.ground.close" is true)
+move.fly.ground.collide:false
+
+
+# Whether flying control also depends on where the player looks vertically.
+move.fly.control.vertical:true
+
+# Whether diving control also depends on where the player looks vertically.
+move.dive.control.vertical:true
+
+
+# Key name to toggle Smart Moving features in-game (default: "F9")
+move.config.toggle.default.key.name:F9
+
+# Default key name to "grab" (default: "LCONTROL")
+move.grab.default.key.name:LCONTROL
+
+# Default key name to "sprint" (default: "TAB")
+move.sprint.default.key.name:TAB
+
+# Key name to increase the moving speed ingame (default: "O")
+move.speed.increase.default.key.name:O
+
+# Key name to decrease the moving speed ingame (default: "I")
+move.speed.decrease.default.key.name:I
+
+
+
+
+# =====================================================================
+# Message Management
+# ------------------
+# Below you find the options to define in which case Smart Moving
+# should write messages about its current behavior to the ingame chat
+# =====================================================================
+
+# To switch on/off option status messages via chat system
+move.config.chat:true
+
+# To switch on/off the initial option status message when starting a game (Relevant only if "move.config.chat" is not false)
+move.config.chat.init:true
+
+# To switch on/off the initial option help message (Relevant only if "move.config.chat.init" is not false and no improved keybinding GUI (Minecraft Forge or the Macros/Keybind mod) is installed)
+move.config.chat.init.help:true
+
+# To switch on/off the server config overridden status message when joining a multiplayer game (Relevant only if "move.config.chat" is not false)
+move.config.chat.server:true
+
+
+# To switch on/off speed messages via chat system
+move.speed.chat:true
+
+# To switch on/off the intial speed message when starting a game (Relevant only if "move.speed.chat" is not false)
+move.speed.chat.init:true
+
+# To switch on/off the initial speed help message (Relevant only if "move.speed.chat.init" is not false and no improved keybinding GUI (Minecraft Forge or the Macros/Keybind mod) is installed))
+move.speed.chat.init.help:true
+
+# To switch on/off the server speed change message when joining a multiplayer game (Relevant only if "move.speed.chat" is not false)
+move.config.chat.server:true
