@@ -53,7 +53,7 @@ move.speed.user:false;c:true
 move.speed.user.factor:0.2
 
 # The exponent for in-game speed manipulation
-move.speed.user.exponent:4
+move.speed.user.exponent:0
 
 
 
@@ -919,7 +919,7 @@ move.exhaustion.food.minimum:4
 move.hunger.gain:true;e:true
 
 # Hunger generation base factor (>= 0)
-move.hunger.gain.factor:1.2;e:1.2;h:1.2
+move.hunger.gain.factor:1;e:1;h:1
 
 
 # Smart sprinting hunger generation factor (>= 0)
