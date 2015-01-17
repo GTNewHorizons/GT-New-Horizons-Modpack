@@ -1,4 +1,5 @@
 // ******** Created By Arch-Nihil *******
+//Changes DreamMasterXXL
 
 
 
@@ -283,12 +284,6 @@ recipes.addShaped(SilkyJewel, [
 [SilkyCloth, <ore:blockDiamond>, SilkyCloth],
 [SilkyCloth, SilkyCloth, SilkyCloth]]);
 
-// --- Ball Of Moss
-recipes.addShaped(BallOfMoss, [
-[BOPMoss, Moss, BOPMoss],
-[Moss, MossyStoneBricks, Moss],
-[BOPMoss, Moss, BOPMoss]]);
-
 // --- Grout
 recipes.addShapeless(Grout,
 [Sand, Gravel, Clay]);
@@ -310,6 +305,7 @@ recipes.addShaped(<TConstruct:decoration.stoneladder>, [
 [<ForgeMicroblock:stoneRod>, HHammer, <ForgeMicroblock:stoneRod>],
 [<ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>],
 [<ForgeMicroblock:stoneRod>, File, <ForgeMicroblock:stoneRod>]]);
+
 
 // ||||| Gear |||||
 
