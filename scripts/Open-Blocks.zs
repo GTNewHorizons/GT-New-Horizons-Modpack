@@ -36,7 +36,7 @@ val SteelGear = <ore:gearSteel>;
 val SSteelGear = <ore:gearStainlessSteel>;
 val DiamondLens = <ore:lensDiamond>;
 val Piston = <minecraft:piston>;
-val DiamondDHead = <gregtech:gt.metaitem.02:8500>;
+val DiamondGrindingHead = <gregtech:gt.metaitem.01:32722>;
 val Obsidian = <ore:stoneObsidian>;
 val Stone = <ore:stone>;
 val Leather = <minecraft:leather>;
@@ -205,7 +205,7 @@ recipes.addShaped(BlockPlacer, [
 // --- Block Breaker
 recipes.addShaped(BlockBreaker, [
 [Stone, IronPlate, Stone],
-[DiamondDHead, SSteelGear, IronPlate],
+[DiamondGrindingHead, SSteelGear, IronPlate],
 [Stone, RedAlloyRod, Stone]]);
 
 // --- Item Dropper
