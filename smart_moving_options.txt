@@ -122,7 +122,7 @@ move.climb.fall.maximum.distance:3
 
 
 # To switch on/off exhaustion while climbing
-move.climb.exhaustion:false;h:true
+move.climb.exhaustion:true;h:true
 
 # Maximum exhaustion to start climbing along ceilings (>= 0)
 move.climb.exhaustion.start:60
@@ -165,7 +165,7 @@ move.climb.ceiling.configuration:tile.fenceIron,tile.trapdoor/0/1/2/3,tile.trapd
 
 
 # To switch on/off exhaustion while climbing along ceilings
-move.climb.ceiling.exhaustion:false;h:true
+move.climb.ceiling.exhaustion:true;h:true
 
 # Maximum exhaustion to start climbing along ceilings (>= 0)
 move.climb.ceiling.exhaustion.start:40
@@ -247,7 +247,7 @@ move.run:true
 move.run.factor:1.3
 
 # To switch on/off standard sprinting exhaustion
-move.run.exhaustion:false;h:true
+move.run.exhaustion:true;h:true
 
 
 # Maximum exhaustion to start a standard sprint (>= 0)
@@ -276,7 +276,7 @@ move.sprint:true
 move.sprint.factor:1.5
 
 # To switch on/off sprinting exhaustion
-move.sprint.exhaustion:true;e:false
+move.sprint.exhaustion:true;e:true
 
 
 # Maximum exhaustion to start a sprint (>= 0)
@@ -688,7 +688,7 @@ move.jump.up.exhaustion.stop.factor:1
 
 
 # To switch on/off climb jump exhaustion
-move.jump.climb.exhaustion:false;h:true
+move.jump.climb.exhaustion:true;h:true
 
 # To manipulate the exhaustion increase by jumping while climbing (>= 0)
 move.climb.jump.exhaustion.gain.factor:1
@@ -740,7 +740,7 @@ move.jump.angle.exhaustion.stop.factor:1
 
 
 # To switch on/off wall jump exhaustion
-move.jump.wall.exhaustion:true;e:false
+move.jump.wall.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a wall jump (>= 0)
 move.jump.wall.exhaustion.gain.factor:1
@@ -750,7 +750,7 @@ move.jump.wall.exhaustion.stop.factor:1
 
 
 # To switch on/off wall up jump exhaustion
-move.jump.wall.up.exhaustion:true;e:false
+move.jump.wall.up.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a wall up jump (>= 0)
 move.jump.wall.up.exhaustion.gain.factor:40
@@ -760,7 +760,7 @@ move.jump.wall.up.exhaustion.stop.factor:60
 
 
 # To switch on/off wall head jump exhaustion
-move.jump.wall.head.exhaustion:true;e:false
+move.jump.wall.head.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a wall head jump (>= 0)
 move.jump.wall.head.exhaustion.gain.factor:20
@@ -771,7 +771,7 @@ move.jump.wall.head.exhaustion.stop.factor:80
 
 
 # To switch on/off stand jump exhaustion
-move.jump.stand.exhaustion:false;h:true
+move.jump.stand.exhaustion:true;h:true
 
 # To manipulate the exhaustion increase by a jump while standing (>= 0)
 move.jump.stand.exhaustion.gain.factor:40
@@ -781,7 +781,7 @@ move.jump.stand.exhaustion.stop.factor:60
 
 
 # To switch on/off sneak jump exhaustion
-move.jump.sneak.exhaustion:false;h:true
+move.jump.sneak.exhaustion:true;h:true
 
 # To manipulate the exhaustion increase by a jump while sneaking (>= "move.jump.stand.exhaustion.gain.factor")
 move.jump.sneak.exhaustion.gain.factor:40
@@ -791,7 +791,7 @@ move.jump.sneak.exhaustion.stop.factor:60
 
 
 # To switch on/off walk jump exhaustion
-move.jump.walkexhaustion:false;h:true
+move.jump.walkexhaustion:false;h:false
 
 # To manipulate the exhaustion increase by a jump while walking (>= "move.jump.sneak.exhaustion.gain.factor")
 move.jump.walk.exhaustion.gain.factor:45
@@ -801,7 +801,7 @@ move.jump.walk.exhaustion.stop.factor:55
 
 
 # To switch on/off run jump exhaustion
-move.jump.run.exhaustion:true;e:false
+move.jump.run.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a jump while running (>= "move.jump.walk.exhaustion.gain.factor")
 move.jump.run.exhaustion.gain.factor:60
@@ -811,7 +811,7 @@ move.jump.run.exhaustion.stop.factor:40
 
 
 # To switch on/off sprint jump exhaustion
-move.jump.sprint.exhaustion:true;e:false
+move.jump.sprint.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a jump while sprinting (>= "move.jump.run.exhaustion.gain.factor")
 move.jump.sprint.exhaustion.gain.factor:65
@@ -821,7 +821,7 @@ move.jump.sprint.exhaustion.stop.factor:35
 
 
 # To switch on/off up additional jump charge exhaustion
-move.jump.charge.exhaustion:true;e:false
+move.jump.charge.exhaustion:true;e:true
 
 # To manipulate the additional exhaustion for the higher jump (>= 0, is multiplied with the actual charge factor)
 move.jump.charge.exhaustion.gain.factor:30
@@ -831,7 +831,7 @@ move.jump.charge.exhaustion.stop.factor:30
 
 
 # To switch on/off slide jump exhaustion
-move.jump.slide.exhaustion:true;e:false
+move.jump.slide.exhaustion:true;e:true
 
 # To manipulate the exhaustion increase by a slide jump (>= 0)
 move.jump.slide.exhaustion.gain.factor:10
@@ -853,7 +853,7 @@ move.jump.slide.exhaustion.stop.factor:90
 move.exhaustion.gain.factor:1
 
 # Exhaustion loss base factor (>= 0)
-move.exhaustion.loss.factor:1;e:1.2;h:0.8
+move.exhaustion.loss.factor:1;e:1;h:1
 
 
 # Smart sprinting exhaustion loss factor (>= 0)
@@ -901,7 +901,7 @@ move.exhaustion.normal.loss.factor:1
 move.exhaustion.hunger:true
 
 # How much hunger is generated for exhaustion loss (>= 0)
-move.exhaustion.hunger.factor:0.05;e:0.02;h:0.08
+move.exhaustion.hunger.factor:0.05;e:0.05;h:0.05
 
 # Until which food level exhaustion is continuously reduced
 move.exhaustion.food.minimum:4
@@ -916,7 +916,7 @@ move.exhaustion.food.minimum:4
 # =====================================================================
 
 # To switch on/off hunger generation
-move.hunger.gain:true;e:false
+move.hunger.gain:true;e:true
 
 # Hunger generation base factor (>= 0)
 move.hunger.gain.factor:1.2;e:1.2;h:1.2
