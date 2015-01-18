@@ -32,10 +32,20 @@ recipes.remove(<AdvancedSolarPanel:hybrid_solar_helmet>);
 recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
 //Advanced Solar Panel
 recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel>);
+//Hybrid Solar Panel
+recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:1>);
+//Ultimate Hybrid Solar Panel
+recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:2>);
+//Quantum Solar Panel
+recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:3>);
 //Irradiant Glass Panel
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:5>);
 //Irradiant Reinforced Plate
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
+//Sunnarium Ingot
+furnace.remove(<gregtech:gt.metaitem.01:11318>);
+//Quantum Core
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
 
 //add Recipes Shaped
 
@@ -68,25 +78,43 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [
 recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [
 [<ore:craftingToolWrench>, <AdvancedSolarPanel:BlockAdvSolarPanel>, <ore:craftingToolScrewdriver>],
 [<ore:circuitAdvanced>, <IC2:itemArmorNanoHelmet:*>, <ore:circuitAdvanced>],
-[<ore:cableGt04Gold>, <gregtech:gt.blockmachines:21>, <ore:cableGt04Gold>]]);
+[<ore:cableGt04Aluminium>, <gregtech:gt.blockmachines:22>, <ore:cableGt04Aluminium>]]);
 
 //Hybrid Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:hybrid_solar_helmet>, [
 [<ore:craftingToolWrench>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:craftingToolScrewdriver>],
-[<ore:circuitAdvanced>, <IC2:itemArmorQuantumHelmet:*>, <ore:circuitMaster>],
+[<ore:circuitMaster>, <IC2:itemArmorQuantumHelmet:*>, <ore:circuitMaster>],
 [<ore:cableGt04Platinum>, <gregtech:gt.blockmachines:23>, <ore:cableGt04Platinum>]]);
 
 //Ultimate Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>, [
-[<ore:craftingToolWrench>, <ore:craftingSolarPanelHV>, <ore:craftingToolScrewdriver>],
-[<ore:circuitElite>, <AdvancedSolarPanel:hybrid_solar_helmet:*>, <ore:circuitMaster>],
-[<ore:cableGt04Platinum>, <gregtech:gt.blockmachines:24>, <ore:cableGt04Platinum>]]);
+[<ore:craftingToolWrench>, <adc:ItemGrandmasterCircuit>, <ore:craftingToolScrewdriver>],
+[<ore:craftingSolarPanelHV>, <AdvancedSolarPanel:hybrid_solar_helmet:*>, <ore:craftingSolarPanelHV>],
+[<ore:cableGt04VanadiumGallium>, <gregtech:gt.blockmachines:24>, <ore:cableGt04VanadiumGallium>]]);
 
 //Advanced Solar Panel
 recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel>, [
 [<AdvancedSolarPanel:asp_crafting_items:5>, <AdvancedSolarPanel:asp_crafting_items:5>, <AdvancedSolarPanel:asp_crafting_items:5>],
 [<ore:plateAluminium>, <IC2:blockGenerator:3>, <ore:plateAluminium>],
 [<ore:circuitAdvanced>, <AdvancedSolarPanel:asp_crafting_items:8>, <ore:circuitAdvanced>]]);
+
+//Hybrid Solar Panel
+recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:1>, [
+[<ore:plateAlloyIridium>, <AdvancedSolarPanel:asp_crafting_items:5>, <ore:plateAlloyIridium>],
+[<ore:circuitMaster>, <AdvancedSolarPanel:BlockAdvSolarPanel>, <ore:circuitMaster>],
+[<ore:plateStainlessSteel>, <AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateStainlessSteel>]]);
+
+//Ultimate Hybrid Solar Panel
+recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:2>, [
+[<ore:plateDenseTitanium>, <AdvancedSolarPanel:asp_crafting_items:5>, <ore:plateDenseTitanium>],
+[<ore:frameGtSunnarium>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:frameGtSunnarium>],
+[<AdvancedSolarPanel:asp_crafting_items:4>, <adc:ItemGrandmasterCircuit>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
+
+//Quantum Solar Panel
+recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, [
+[<ore:plateDenseOsmiridium>, <AdvancedSolarPanel:asp_crafting_items:5>, <ore:plateDenseOsmiridium>],
+[<adc:ItemGrandmasterCircuit>, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, <adc:ItemGrandmasterCircuit>],
+[<ore:plateDenseOsmiridium>, <AdvancedSolarPanel:asp_crafting_items:13>, <ore:plateDenseOsmiridium>]]);
 
 //Irradiant Glass Panel
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:5> * 4, [
@@ -100,19 +128,33 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
 [<ore:plateLapis>, <AdvancedSolarPanel:asp_crafting_items:7>, <ore:plateLapis>],
 [<ore:screwRedAlloy>, <IC2:itemPartIndustrialDiamond>, <ore:screwRedAlloy>]]);
 
+//Quantum Core
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
+[<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>],
+[<ore:plateNetherStar>, <adc:ItemPrototypeXK>, <ore:plateNetherStar>],
+[<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
+
+
 //Assembler Recipes
 
 //Irradiant Uranium
 Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:2>, <gregtech:gt.metaitem.01:11098>, <minecraft:glowstone> *4,  600, 64);
 
 //Enriched Sunnarium
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:3>, <AdvancedSolarPanel:asp_crafting_items>, <AdvancedSolarPanel:asp_crafting_items:2> *8, 1200, 128);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:3>, <AdvancedSolarPanel:asp_crafting_items>, <AdvancedSolarPanel:asp_crafting_items:2> *8, 1200, 256);
 
 //Sunnarium Alloy
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items>, <IC2:itemPartIridium> *8,  800, 256);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.metaitem.01:17318> * 4, <IC2:itemPartIridium> *8,  800, 512);
 
 //Enriched Sunnarium Alloy
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *4,  1600, 256);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *8,  1600, 1024);
+
+//Grandmaster Circuit
+Assembler.addRecipe(<adc:ItemGrandmasterCircuit>, <gregtech:gt.metaitem.01:32706> * 2, <gregtech:gt.metaitem.01:32705> * 2, 600, 1024);
+
+//PrototypeXK
+Assembler.addRecipe(<adc:ItemPrototypeXK>, <adc:ItemGrandmasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
+
 
 //Compressor Recipes
 

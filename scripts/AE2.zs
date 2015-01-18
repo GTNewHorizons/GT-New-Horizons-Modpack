@@ -1,18 +1,17 @@
-// ******** Created by Arch-Nihil ********
+//Created by DreamMasterXXL
 
-// *======= Importing Stuff =======*
+
+// --- Importing
 
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Macerator;
-
-
 import mods.nei.NEI;
+import mods.gregtech.Wiremill;
 
 
-
-// *======= Variables =======*
+// --- Variables
 
 
 val FluixBlock = <appliedenergistics2:tile.BlockFluix>;
@@ -130,10 +129,10 @@ val IronRod = <ore:stickIron>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes
 
 
-// ||||| Blocks |||||
+// --- Blocks ---
 
 
 // --- Fluix Block
@@ -294,9 +293,9 @@ Macerator.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:8> * 4, <applied
 
 // --- ME Controller
 recipes.addShaped(MEController, [
-[SiliconRod, AdvCircuit, SiliconRod],
+[<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>],
 [DiamondCircuit, FluixBlock, DiamondCircuit],
-[SiliconRod, AdvCircuit, SiliconRod]]);
+[<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>]]);
 
 // --- Energy Cell
 recipes.addShaped(EnergyCell, [
@@ -312,15 +311,16 @@ recipes.addShaped(DEnergyCell, [
 
 // --- ME Chest
 recipes.addShaped(MEChest, [
-[CertusRod, Terminal, CertusRod],
-[FluixGlassCable, ObsidianChest, FluixGlassCable],
-[CertusRod, GoodCircuit, CertusRod]]);
+[StainlessPlate, GoodCircuit, StainlessPlate],
+[FluixGlassCable, <IronChest:BlockIronChest:4>, FluixGlassCable],
+[StainlessPlate, GoodCircuit, StainlessPlate]]);
 
 // --- ME Drive
-recipes.addShaped(MEDrive, [
-[SiliconRod, DiamondCircuit, SiliconRod],
-[FluixGlassCable, MEChest, FluixGlassCable],
-[SiliconRod, AdvCircuit, SiliconRod]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [
+[<gregtech:gt.metaitem.01:17028>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTitanium>], 
+[<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:item.ItemMultiPart:16>], 
+[<ore:plateTitanium>, <IC2:itemPartCircuitAdv>, <ore:plateTitanium>]]);
+
 
 // --- Crystal Growth Accelerator ---- Gregtech do that in the Autoclave
 //recipes.addShaped(CrystalAccelerator, [
@@ -403,7 +403,7 @@ recipes.addShaped(<appliedenergistics2:tile.QuartzPillarStairBlock> * 4, [
 
 // --- Fluix Glass Cable
 recipes.addShaped(FluixGlassCable * 2, [
-[CertusRod, Saw, CertusRod],
+[CertusRod, FluixDust, CertusRod],
 [QuartzFiber, QuartzFiber, QuartzFiber],
 [CertusRod, FluixDust, CertusRod]]);
 
@@ -417,12 +417,6 @@ recipes.addShaped(FluixCoveredC * 2, [
 [RubberPlate, null, RubberPlate],
 [QuartzFiber, QuartzFiber, QuartzFiber],
 [RubberPlate, Saw, RubberPlate]]);
-
-// --- Quartz Fiber
-recipes.addShaped(QuartzFiber * 2, [
-[CertusRod, NQuartzPlate, CertusRod],
-[NQuartzPlate, Saw, NQuartzPlate],
-[CertusRod, NQuartzPlate, CertusRod]]);
 
 // --- Annihilation Core
 recipes.addShaped(AnnihilationCore, [
@@ -575,13 +569,13 @@ recipes.addShaped(Storage64K, [
 // --- Universal Storage Housing
 recipes.addShaped(UStorageHousing, [
 [HHammer, CertusPlate, QuartziteScrew],
-[SteelPlate, ClearPane, SteelPlate],
+[StainlessPlate, ClearPane, StainlessPlate],
 [QuartziteScrew, AlPlate, Screwdriver]]);
 // - Alternative Recipe
 recipes.addShaped(UStorageHousing, [
-[Screwdriver, CertusPlate, QuartziteScrew],
-[SteelPlate, ClearPane, SteelPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[HHammer, CertusPlate, QuartziteScrew],
+[StainlessPlate, ClearPane, StainlessPlate],
+[QuartziteScrew, AlPlate, Screwdriver]]);
 
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
@@ -1035,3 +1029,13 @@ recipes.addShaped(<appliedenergistics2:item.ToolBiometricCard>, [
 
 //Quartz Glass
 AlloySmelter.addRecipe(<appliedenergistics2:tile.BlockQuartzGlass> * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
+
+//Quartz Fiber
+
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23516> * 2, 200, 128);
+
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23517> * 1, 200, 128);
+
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 200, 128);
+
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);

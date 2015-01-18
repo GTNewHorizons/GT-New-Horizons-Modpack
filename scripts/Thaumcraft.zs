@@ -5,6 +5,7 @@
 import mods.thaumcraft.Arcane;
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
+import mods.ic2.Extractor;
 import mods.ic2.Macerator;
 
 //remove Recipes
@@ -62,6 +63,8 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:3>);
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
 //Fire Shards
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
+//Quicksilver
+recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
 
 //Remove Furnace Recipes Shrads
 
@@ -194,7 +197,12 @@ mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:1
 //Arcan Stone Bricks
 Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
 
-//refresh Recipes
+//Extractor Recipes
+
+//Quicksilver
+Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
+
+//refresh Recipese
 
 //Thaumometer
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMOMETER");

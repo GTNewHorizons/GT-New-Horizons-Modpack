@@ -43,7 +43,7 @@ val IronRod = <ore:stickIron>;
 val SteelRod = <ore:stickSteel>;
 val GoldRod = <ore:stickGold>;
 val DiamondRod = <ore:stickDiamond>;
-val ObsidianRod = <ore:rodObsidian>;
+val ObsidianRod = <TConstruct:toolRod:6>;
 
 val Chest = <minecraft:chest>;
 val ClearPane = <TConstruct:GlassPane>;

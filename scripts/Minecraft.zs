@@ -4,6 +4,7 @@
 
 // *======= Importing Stuff =======*
 
+import mods.ic2.Extractor;
 import mods.gregtech.ImplosionCompressor;
 
 
@@ -703,6 +704,9 @@ recipes.remove(<minecraft:magma_cream>);
 //remove Oak Slaps
 recipes.removeShaped(<minecraft:wooden_slab> * 6, [
 [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+//Blazepowder
+recipes.removeShaped(<minecraft:blaze_powder>, [
+[<Thaumcraft:blockCustomPlant:3>]]);
 
 // *======= Adding Back Recipes =======*
 
@@ -2172,5 +2176,10 @@ furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 //Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
 
+
+//Extractor Recipes
+
+//Blazepowder
+Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
 // #======= Hiding Stuff =======#
 
