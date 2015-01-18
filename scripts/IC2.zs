@@ -144,6 +144,11 @@ recipes.remove(<IC2:itemFluidCell>);
 recipes.remove(IronFurnace);
 //remove Rubber Wood
 furnace.remove(<minecraft:log:3>);
+//Neutron Reflector
+recipes.remove(<IC2:reactorReflector>);
+//Thick Neutron Reflector
+recipes.remove(<IC2:reactorReflectorThick>);
+
 
 // De Ordicted Refined Iron
 oreDict.plateSteel.remove(<IC2:itemPlates:5>);
@@ -369,10 +374,17 @@ recipes.addShaped(IronFurnace, [
 [IronPlate, null, IronPlate],
 [IronPlate, Furnace, IronPlate]]);
 
+//Neutron Reflector
+recipes.addShaped(<IC2:reactorReflector>, [
+[<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>],
+[<ore:plateAlloyCarbon>, <ore:plateDenseCopper>, <ore:plateAlloyCarbon>],
+[<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>]]);
+
+
 //Assembler Recipes
 
 //Solar Panels
-Assembler.addRecipe(<IC2:blockGenerator:3>, <IC2:blockMachine>, <gregtech:gt.metaitem.01:32750>,  600, 64);
+Assembler.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  600, 64);
 
 //Fluid/Solid Canning Machine
 Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 600, 64);
@@ -404,6 +416,9 @@ Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <greg
 //Coal Chunk
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
 
+//Thick Neutron Reflector
+Assembler.addRecipe(<IC2:reactorReflectorThick>, <IC2:reactorReflector>, <gregtech:gt.metaitem.01:17008> * 4, 600 ,64);
+
 //Compressor Recipes//
 
 //Coal Coal Ball 
@@ -411,6 +426,7 @@ Compressor.addRecipe(<IC2:itemPartCoalBlock>, <IC2:itemPartCarbonPlate> * 2);
 
 //Uranium Block
 Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
+
 
 //Plate Bender Recipes
 

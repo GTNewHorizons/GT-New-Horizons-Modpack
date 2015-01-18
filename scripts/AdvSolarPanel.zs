@@ -8,6 +8,8 @@ import mods.ic2.Macerator;
 
 //remove Recipes
 
+//Molecular Transformer
+recipes.remove(<AdvancedSolarPanel:BlockMolecularTransformer>);
 //Sunnarium
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items>);
 //Sunnarium Alloy
@@ -28,6 +30,12 @@ recipes.remove(<AdvancedSolarPanel:advanced_solar_helmet>);
 recipes.remove(<AdvancedSolarPanel:hybrid_solar_helmet>);
 //Ultimate Solar Helm
 recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
+//Advanced Solar Panel
+recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel>);
+//Irradiant Glass Panel
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:5>);
+//Irradiant Reinforced Plate
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
 
 //add Recipes Shaped
 
@@ -35,6 +43,12 @@ recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2318>, <AdvancedSolarPanel:asp_crafting_items>);
 
 //Machines and Parts
+
+//Molecular Transformer
+recipes.addShaped(<AdvancedSolarPanel:BlockMolecularTransformer>, [
+[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>],
+[<ore:circuitAdvanced>, <ore:craftingMTCore>, <ore:circuitAdvanced>],
+[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>]]);
 
 //MT Core fore Molecular Transformer
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
@@ -44,9 +58,9 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
 
 //Iridium Iron Plate
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
 [<ore:plateIron>, <ore:plateIridium>, <ore:plateIron>],
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
 
 //Power Armor
 
@@ -67,6 +81,24 @@ recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>, [
 [<ore:craftingToolWrench>, <ore:craftingSolarPanelHV>, <ore:craftingToolScrewdriver>],
 [<ore:circuitElite>, <AdvancedSolarPanel:hybrid_solar_helmet:*>, <ore:circuitMaster>],
 [<ore:cableGt04Platinum>, <gregtech:gt.blockmachines:24>, <ore:cableGt04Platinum>]]);
+
+//Advanced Solar Panel
+recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel>, [
+[<AdvancedSolarPanel:asp_crafting_items:5>, <AdvancedSolarPanel:asp_crafting_items:5>, <AdvancedSolarPanel:asp_crafting_items:5>],
+[<ore:plateAluminium>, <IC2:blockGenerator:3>, <ore:plateAluminium>],
+[<ore:circuitAdvanced>, <AdvancedSolarPanel:asp_crafting_items:8>, <ore:circuitAdvanced>]]);
+
+//Irradiant Glass Panel
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:5> * 4, [
+[<ore:glassReinforced>, <AdvancedSolarPanel:asp_crafting_items:2>, <ore:glassReinforced>],
+[<AdvancedSolarPanel:asp_crafting_items:2>, <ore:plateGlowstone>, <AdvancedSolarPanel:asp_crafting_items:2>],
+[<ore:glassReinforced>, <AdvancedSolarPanel:asp_crafting_items:2>, <ore:glassReinforced>]]);
+
+//Irradiant Reinforced Plate
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
+[<ore:screwRedAlloy>, <ore:craftingSunnariumPart>, <ore:screwRedAlloy>],
+[<ore:plateLapis>, <AdvancedSolarPanel:asp_crafting_items:7>, <ore:plateLapis>],
+[<ore:screwRedAlloy>, <IC2:itemPartIndustrialDiamond>, <ore:screwRedAlloy>]]);
 
 //Assembler Recipes
 

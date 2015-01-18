@@ -3,6 +3,7 @@
 //Imports
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.ic2.Compressor;
 import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
 
@@ -101,6 +102,11 @@ recipes.remove(<ore:ingotTin>);
 recipes.remove(<ore:ingotTitanium>);
 //Zinc Ingot
 recipes.remove(<ore:ingotZinc>);
+//Wrought Iron Ingot
+recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
+[<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
+[<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
+[<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>]]); 
 
 //add Recipes
 
@@ -202,6 +208,13 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:22>, <IC2:blockElectric:4>, <greg
 Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <gregtech:gt.blockmachines:1426> * 2, 200, 512);
 //Extreme Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
+
+
+//Compressor Recipes
+
+//Wrought Iron Ingot
+Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
+
 
 //Wiremill Recipes
 
