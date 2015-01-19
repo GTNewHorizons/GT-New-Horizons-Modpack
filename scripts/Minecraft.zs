@@ -231,7 +231,8 @@ val Saw = <ore:craftingToolSaw>;
 val Wrench = <ore:craftingToolWrench>;
 
 val Detector = <Railcraft:tile.railcraft.detector:1>;
-
+val Map = <minecraft:map>;
+val Paper = <ore:paperEmpty>;
 
 
 // *======= Removing Recipes =======*
@@ -708,6 +709,9 @@ recipes.removeShaped(<minecraft:wooden_slab> * 6, [
 //Blazepowder
 recipes.removeShaped(<minecraft:blaze_powder>, [
 [<Thaumcraft:blockCustomPlant:3>]]);
+
+// --- Empty Map
+recipes.remove(Map);
 
 // *======= Adding Back Recipes =======*
 
@@ -2146,9 +2150,9 @@ recipes.addShaped(<minecraft:clock>, [
 
 //Compass
 recipes.addShaped(<minecraft:compass>, [
-[<ore:screwIron>, <ore:paneGlass>, <ore:screwIron>],
-[<ore:ringZinc>, <ore:plateAluminium>, <ore:ringZinc>],
-[<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:boltIronMagnetic>]]);
+[<ore:screwIron>, <ore:paneGlass>, <ore:boltIron>],
+[<ore:ringZinc>, <ore:plateIron>, <ore:ringZinc>],
+[<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 //Pumpkin Seeds
 recipes.addShapeless(<minecraft:pumpkin_seeds> * 4, [<ore:craftingToolHardHammer>, <minecraft:pumpkin>]);
@@ -2195,6 +2199,11 @@ recipes.addShaped(<minecraft:hopper_minecart>, [
 [null, <minecraft:minecart>, null],
 [null, Screwdriver, null]]);
 
+//Empty Map
+recipes.addShaped(Map, [
+[Paper, Paper, Paper],
+[Paper, <minecraft:compass>.reuse(), Paper],
+[Paper, Paper, Paper]]);
 
 //Extractor Recipes
 
