@@ -295,10 +295,9 @@ Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
 Compressor.addRecipe(<TConstruct:slime.gel:1>, Slimeball * 4);
 
 // --- Blank Pattern
-recipes.addShaped(<TConstruct:blankPattern>, [
-[<ore:plankWood>, <ore:stickWood>, null],
-[<ore:stickWood>, <ore:plankWood>, null],
-[null, null, null]]);
+recipes.addShapedMirrored(<TConstruct:blankPattern>, [
+[<ore:plankWood>, <ore:stickWood>],
+[<ore:stickWood>, <ore:plankWood>]]);
 
 // --- Stone Ladder
 recipes.addShaped(<TConstruct:decoration.stoneladder>, [
