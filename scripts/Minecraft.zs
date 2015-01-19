@@ -228,6 +228,7 @@ val HHammer = <ore:craftingToolHardHammer>;
 val SHammer = <ore:craftingToolSoftHammer>;
 val Knife = <ore:craftingToolKnife>;
 val Saw = <ore:craftingToolSaw>;
+val Wrench = <ore:craftingToolWrench>;
 
 val Detector = <Railcraft:tile.railcraft.detector:1>;
 
@@ -2175,6 +2176,24 @@ furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
 //Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
+
+//Minecart with Chest
+recipes.addShaped(<minecraft:chest_minecart>, [
+[HHammer, <minecraft:chest>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
+
+//Minecart with Furnace
+recipes.addShaped(<minecraft:furnace_minecart>, [
+[HHammer, <minecraft:furnace>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
+
+//Minecart with Hopper
+recipes.addShaped(<minecraft:hopper_minecart>, [
+[HHammer, <minecraft:hopper>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
 
 
 //Extractor Recipes

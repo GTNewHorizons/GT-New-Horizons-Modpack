@@ -991,7 +991,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.track:2264>.withTag({track: "railcra
 [Screwdriver, <Railcraft:part.tie>, HHammer]]);
 
 // --- Wooden Rail ---
-recipes.addShaped(<Railcraft:tile.railcraft.track:736>.withTag({track: "railcraft:track.slow"}) * 8, [
+recipes.addShaped(<Railcraft:tile.railcraft.track:736>.withTag({track: "railcraft:track.slow"}) * 16, [
 [IronScrew, null, IronScrew],
 [WoodenRail, WoodRailbed, WoodenRail],
 [Screwdriver, null, HHammer]]);
@@ -1135,7 +1135,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.signal>, [
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Wood Rail ---
-recipes.addShaped(WoodenRail * 3, [
+recipes.addShaped(WoodenRail * 6, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick]]);
@@ -1367,6 +1367,18 @@ recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
 [HHammer, RedDye, <ore:stickSteel>],
 [RedDye, <ore:stickSteel>, RedDye],
 [<ore:stickSteel>, RedDye, <ore:craftingToolFile>]]);
+
+// --- Work Cart ---
+recipes.addShaped(<Railcraft:cart.work>, [
+[HHammer, <minecraft:crafting_table>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
+
+// --- Tank Cart ---
+recipes.addShaped(<Railcraft:cart.tank>, [
+[HHammer, <Railcraft:tile.railcraft.machine.beta:1>, Wrench],
+[null, <minecraft:minecart>, null],
+[null, Screwdriver, null]]);
 
 //Assembler Recipes
 
