@@ -1013,7 +1013,7 @@ move.mod.rope.replace.climb.rope:true
 # =====================================================================
 
 # A list of survival option configuration keys, entries seperated by ','
-move.config.survival.keys:e,m,h
+move.config.survival.keys:m
 
 # The option configuration to start the next minecraft survival game with (can also be modified via in-game option configuration toggling)
 move.config.survival.keys.default:m
@@ -1027,7 +1027,7 @@ move.config.creative.keys.default:disabled
 
 
 # A list of adventure option configuration keys, entries seperated by ','
-move.config.adventure.keys:e,m,h
+move.config.adventure.keys:m
 
 # The option configuration to start the next minecraft adventure game with (can also be modified via in-game option configuration toggling)
 move.config.adventure.keys.default:m
@@ -1063,7 +1063,7 @@ move.server.speed.user.exponents:
 
 
 # Whether all players on this server should be forced to use the same global configuration (Relevant only if "move.server.config" is true)
-move.global.config:true
+move.global.config:false
 
 
 # The names of the users that have the right to change the global configuraton in-game, entries seperated by ','
