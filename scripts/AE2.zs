@@ -573,9 +573,9 @@ recipes.addShaped(UStorageHousing, [
 [QuartziteScrew, AlPlate, Screwdriver]]);
 // - Alternative Recipe
 recipes.addShaped(UStorageHousing, [
-[HHammer, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, QuartziteScrew],
 [StainlessPlate, ClearPane, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[QuartziteScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [

@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL ---
+//Created by DreamMasterXXL
 
 //Mod Import
 
@@ -88,7 +88,7 @@ recipes.addShaped(<AdvancedSolarPanel:hybrid_solar_helmet>, [
 
 //Ultimate Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>, [
-[<ore:craftingToolWrench>, <adc:ItemGrandmasterCircuit>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <dreamcraft:item.MasterCircuit>, <ore:craftingToolScrewdriver>],
 [<ore:craftingSolarPanelHV>, <AdvancedSolarPanel:hybrid_solar_helmet:*>, <ore:craftingSolarPanelHV>],
 [<ore:cableGt04VanadiumGallium>, <gregtech:gt.blockmachines:24>, <ore:cableGt04VanadiumGallium>]]);
 
@@ -108,12 +108,12 @@ recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:1>, [
 recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:2>, [
 [<ore:plateDenseTitanium>, <AdvancedSolarPanel:asp_crafting_items:5>, <ore:plateDenseTitanium>],
 [<ore:frameGtSunnarium>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:frameGtSunnarium>],
-[<AdvancedSolarPanel:asp_crafting_items:4>, <adc:ItemGrandmasterCircuit>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
+[<AdvancedSolarPanel:asp_crafting_items:4>, <dreamcraft:item.MasterCircuit>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 //Quantum Solar Panel
 recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, [
 [<ore:plateDenseOsmiridium>, <AdvancedSolarPanel:asp_crafting_items:5>, <ore:plateDenseOsmiridium>],
-[<adc:ItemGrandmasterCircuit>, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, <adc:ItemGrandmasterCircuit>],
+[<dreamcraft:item.MasterCircuit>, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, <dreamcraft:item.MasterCircuit>],
 [<ore:plateDenseOsmiridium>, <AdvancedSolarPanel:asp_crafting_items:13>, <ore:plateDenseOsmiridium>]]);
 
 //Irradiant Glass Panel
@@ -131,7 +131,7 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
 //Quantum Core
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>],
-[<ore:plateNetherStar>, <adc:ItemPrototypeXK>, <ore:plateNetherStar>],
+[<ore:plateNetherStar>, <dreamcraft:item.SuperCircuit>, <ore:plateNetherStar>],
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 
@@ -149,11 +149,11 @@ Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.meta
 //Enriched Sunnarium Alloy
 Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *8,  1600, 1024);
 
-//Grandmaster Circuit
-Assembler.addRecipe(<adc:ItemGrandmasterCircuit>, <gregtech:gt.metaitem.01:32706> * 2, <gregtech:gt.metaitem.01:32705> * 2, 600, 1024);
+//Master Circuit
+Assembler.addRecipe(<dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:32706> * 2, <gregtech:gt.metaitem.01:32705> * 2, 600, 1024);
 
-//PrototypeXK
-Assembler.addRecipe(<adc:ItemPrototypeXK>, <adc:ItemGrandmasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
+//Super Circuit
+Assembler.addRecipe(<dreamcraft:item.SuperCircuit>, <dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
 
 
 //Compressor Recipes

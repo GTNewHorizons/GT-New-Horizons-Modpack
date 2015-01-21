@@ -26,7 +26,7 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
 //Thaumium Ingot
 recipes.remove(<ore:ingotThaumium>);
 //Wooden Wand
-recipes.remove(<Thaumcraft:WandCasting>);
+recipes.remove(<Thaumcraft:WandCasting:*>);
 //Thauimum Block
 recipes.remove(<Thaumcraft:blockCosmeticSolid:4>);
 //Arcane Stone
@@ -65,6 +65,12 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
 //Quicksilver
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
+//All Wands
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:*>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:2>);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}));
+
 
 //Remove Furnace Recipes Shrads
 
@@ -83,14 +89,20 @@ recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
 [<IC2:itemCasing:3>, <ore:lensDiamond>, <IC2:itemCasing:3>],
 [<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>]]);
 
+//Iron Wand Cap
+recipes.addShaped(<Thaumcraft:WandCap>, [
+[null, <ore:foilIron>, null],
+[<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
+[null, <ore:foilIron>, null]]);
+
 //Gold Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 8, ignis 8, aer 8", [
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 20, ignis 20, aer 20", [
 [null, <ore:foilGold>, null],
 [<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
 [null, <ore:foilGold>, null]]);
 
 //Copper Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCap:3>, "ordo 12, ignis 12, aer 12", [
+mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCap:3>, "ordo 15, ignis 15, aer 15", [
 [null, <ore:foilCopper>, null],
 [<ore:foilCopper>, <ore:ringCopper>, <ore:foilCopper>],
 [null, <ore:foilCopper>, null]]);
@@ -113,11 +125,17 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "
 [<ore:dyeRed>, <ore:stickThaumium>, <ore:dyeRed>],
 [<ore:stickThaumium>, <ore:dyeRed>, <ore:craftingToolFile>]]);
 
-//Wooden Wand
+//Iron Capped Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>, [
-[<TwilightForest:item.trophy:1>.reuse(), <TwilightForest:item.nagaScale>, <ore:ringIron>],
-[<TwilightForest:item.nagaScale>, <Forestry:oakStick>, <TwilightForest:item.nagaScale>],
-[<ore:ringIron>, <TwilightForest:item.nagaScale>, <ore:craftingToolHardHammer>]]);
+[<TwilightForest:item.trophy:1>, <ore:screwAluminium>, <Thaumcraft:WandCap>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
+[<Thaumcraft:WandCap>, <ore:screwAluminium>, <ore:craftingToolScrewdriver>]]);
+
+//Copper Capped Wooden Wand
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[<TwilightForest:item.trophy:1>, <ore:screwAluminium>, <Thaumcraft:WandCap:3>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
+[<Thaumcraft:WandCap:3>, <ore:screwAluminium>, <ore:craftingToolScrewdriver>]]);
 
 //Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
@@ -165,7 +183,7 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
 //Greatwood Rood
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 10, aqua 10, perditio 10" , [
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 20, aqua 20, perditio 20" , [
 [null, null, <Thaumcraft:blockMagicalLog>],
 [null, <Thaumcraft:blockMagicalLog>, null],
 [<Thaumcraft:blockMagicalLog>, null, null]]);
@@ -231,4 +249,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("ENCHFABRIC");
 //Greatwood Rod
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
 //Amber and Shards
+mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
+//Crystals
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");

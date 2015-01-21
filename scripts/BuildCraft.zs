@@ -58,8 +58,8 @@ val GoldRod = <ore:stickGold>;
 val EmeraldRod = <ore:stickEmerald>;
 val DiamondRod = <ore:stickDiamond>;
 
-val SStoneRod = <adc:ItemSandstoneRod>;
-val CobbleRod = <adc:ItemCobblestoneRod>;
+val SStoneRod = <dreamcraft:item.SandStoneRod>;
+val CobbleRod = <dreamcraft:item.CobbleStoneRod>;
 
 val ClearPane = <TConstruct:GlassPane>;
 
