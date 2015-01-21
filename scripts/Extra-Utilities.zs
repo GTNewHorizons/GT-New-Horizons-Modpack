@@ -1,8 +1,8 @@
-// ******* Created by Arch-Nihil *******
+// --- Created by DreamMasterXXL ---
 
 
 
-// #======= Importing Stuff =======#
+// --- Importing Stuff ---
 
 
 import mods.gregtech.BlastFurnace;
@@ -12,7 +12,7 @@ import mods.ic2.Compressor;
 
 
 
-// #======= Variables =======#
+// --- Variables ---
 
 val EnderPump = <ExtraUtilities:enderThermicPump>;
 val EnderObsidian = <ExtraUtilities:decorativeBlock1:1>;
@@ -143,7 +143,7 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 
-// #======= Removing Recipes =======#
+// --- Removing Recipes ---
 
 
 // --- Ender Quarry
@@ -277,7 +277,7 @@ recipes.remove(Muffler);
 recipes.remove(RainMuffler);
 
 
-// ||||| Pipes |||||
+// --- Pipes ---
 
 
 // --- Transfer Pipe
@@ -323,7 +323,7 @@ recipes.remove(EnergyTransferN);
 recipes.remove(HyperETransferN);
 
 
-// ||||| Compressed Blocks |||||
+// --- Compressed Blocks ---
 
 
 // --- Compressed Cobblestone
@@ -376,7 +376,7 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 
 
 
-// #======= Add Recipes =======#
+// --- Add Recipes ---
 
 
 // --- Ender Quarry
@@ -644,7 +644,7 @@ recipes.addShaped(RainMuffler, [
 [AnyWool, Noteblock, AnyWool]]);
 
 
-// ||||| Pipes |||||
+// --- Pipes ---
 
 
 // --- Transfer Pipe

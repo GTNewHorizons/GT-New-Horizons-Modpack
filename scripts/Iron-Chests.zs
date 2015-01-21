@@ -1,15 +1,15 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val CopperChest = <IronChest:BlockIronChest:3>;
@@ -51,7 +51,7 @@ val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- All Chests
@@ -70,10 +70,10 @@ recipes.remove(Wood2IronUp);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
-// ||||| Chests |||||
+// --- Chests ---
 
 
 // --- Copper Chest
@@ -119,7 +119,7 @@ recipes.addShaped(ObsidianChest, [
 [ObsidianRod, ObsidianPlate, ObsidianRod]]);
 
 
-// ||||| Upgrades |||||
+// --- Upgrades ---
 
 
 // --- Copper To Iron Upgrade
@@ -178,11 +178,11 @@ recipes.addShaped(Wood2IronUp, [
 
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 
 
 
-// #======= Renaming Stuff =======#
+// --- Renaming Stuff ---
 
 
 // --- Silver Chest to Steel Chest

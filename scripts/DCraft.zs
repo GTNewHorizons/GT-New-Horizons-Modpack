@@ -1,16 +1,14 @@
 // --- Created by DreamMasterXXL ---
 
 
-
-
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val Worktable = <RotaryCraft:rotarycraft_item_machine:75>;
@@ -23,7 +21,6 @@ val CobblestoneRod = <dreamcraft:item.CobbleStoneRod>;
 val Sandstone = <ore:sandstone>;
 val Cobblestone = <ore:cobblestone>;
 val Charcoal = <ore:gemCharcoal>;
-
 
 
 // --- Removing Recipes ---
@@ -87,7 +84,7 @@ oreDict.oregemMagnetite.remove(<RotaryCraft:rotarycraft_item_modingots:65>);
 furnace.remove(<ReactorCraft:reactorcraft_item_raw:6>);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ----
 
 
 // --- Blast Furnace

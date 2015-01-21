@@ -1,15 +1,15 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 import mods.ic2.Extractor;
 import mods.gregtech.ImplosionCompressor;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val Chest = <minecraft:chest>;
@@ -235,7 +235,7 @@ val Map = <minecraft:map>;
 val Paper = <ore:paperEmpty>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Chest
@@ -358,7 +358,7 @@ recipes.removeShapeless(<minecraft:string>);
 recipes.removeShaped(<minecraft:speckled_melon>);
 
 
-// ||||| Wool |||||
+// --- Wool ---
 
 
 // --- White Wool
@@ -410,7 +410,7 @@ recipes.remove(RedWool);
 recipes.remove(BlackWool);
 
 
-// ||||| Glass |||||
+// --- Glass ---
 
 
 // --- White Glass
@@ -462,7 +462,7 @@ recipes.remove(RedGlass);
 recipes.remove(BlackGlass);
 
 
-// ||||| Glass Pane |||||
+// --- Glass Pane ---
 
 
 // --- White Glass Pane
@@ -514,7 +514,7 @@ recipes.remove(RedGlassPane);
 recipes.remove(BlackGlassPane);
 
 
-// ||||| Carpet |||||
+// --- Carpet ---
 
 
 // --- White Carpet
@@ -566,7 +566,7 @@ recipes.remove(RedCarpet);
 recipes.remove(BlackCarpet);
 
 
-// ||||| Stained Clay Block |||||
+// --- Stained Clay Block ---
 
 
 // --- White Stained Clay Block
@@ -713,7 +713,7 @@ recipes.removeShaped(<minecraft:blaze_powder>, [
 // --- Empty Map
 recipes.remove(Map);
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Crafting Table
@@ -1164,7 +1164,7 @@ recipes.addShaped(Hopper, [
 
 
 
-// ||||| Wool |||||
+// --- Wool ---
 
 
 // --- White Wool
@@ -1322,7 +1322,7 @@ recipes.addShapeless(BlackWool,
 [AnyWool, BlackDye]);
 
 
-// ||||| Glass |||||
+// --- Glass ---
 
 
 // --- White Glass
@@ -1470,7 +1470,7 @@ recipes.addShapeless(BlackGlass,
 [Glass, BlackDye]);
 
 
-// ||||| Glass Pane |||||
+// --- Glass Pane ---
 
 
 // --- White Glass Pane
@@ -1618,7 +1618,7 @@ recipes.addShapeless(BlackGlassPane,
 [GlassPane, BlackDye]);
 
 
-// ||||| Carpet |||||
+// --- Carpet ---
 
 
 // --- White Carpet
@@ -1902,7 +1902,7 @@ recipes.addShaped(BlackCarpet * 3, [
 [null, null, null]]);
 
 
-// ||||| Stained Clay Block |||||
+// --- Stained Clay Block ---
 
 
 // --- White Stained Clay Block
@@ -2204,5 +2204,6 @@ recipes.addShaped(Map, [
 
 //Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
-// #======= Hiding Stuff =======#
 
+
+// --- Hiding Stuff ---

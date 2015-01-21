@@ -1,5 +1,4 @@
-// ************** Created by Arch-Nihil *************
-// Changes by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 // --- Imports
 
@@ -7,7 +6,7 @@ import mods.gregtech.Assembler;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val Glider = <OpenBlocks:hangglider>;
@@ -50,7 +49,7 @@ val Carpet = <minecraft:carpet:*>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Glider
@@ -109,7 +108,7 @@ recipes.remove(<OpenBlocks:ropeladder>);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Glider

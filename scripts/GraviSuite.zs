@@ -1,6 +1,4 @@
-//Created by SteamT
-//Some Changes and Addons from DreamMasterXXL
-//Some Tweaks from DarkForce
+//Created by DreamMasterXXL
 
 //import mods
 

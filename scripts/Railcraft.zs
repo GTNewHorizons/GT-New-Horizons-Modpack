@@ -1,6 +1,6 @@
 // --- Created DreamMasterXXL
 
-// ***** Imports *****
+// --- Imports ---
 
 import mods.nei.NEI;
 import mods.gregtech.AlloySmelter;
@@ -10,7 +10,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.PlateBender;
 
 
-// ***** Variables *****
+// --- Variables ---
 
 
 val IronPlate = <ore:plateAnyIron>;
@@ -194,7 +194,7 @@ val WoodRailbed = <Railcraft:part.railbed>;
 val StoneRailbed = <Railcraft:part.railbed:1>;
 
 
-// #******** Removing Recipes *******#
+// --- Removing Recipes ---
 
 
 // --- Iron Stairs ---
@@ -645,7 +645,7 @@ recipes.remove(<Railcraft:tile.railcraft.machine.alpha:7>);
 // --- Sandy Block ---
 recipes.remove(<Railcraft:tile.railcraft.brick.sandy:2>);
 
-// #******** add Recipes *******#
+// --- add Recipes ---
 
 
 // --- Block of Coal Coke

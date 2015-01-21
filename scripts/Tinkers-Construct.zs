@@ -1,9 +1,7 @@
-// ******** Created By Arch-Nihil *******
-//Changes DreamMasterXXL
+// --- Created By DreamMasterXXL --- 
 
 
-
-// #======= Importing Stuff =======#
+// --- Importing Stuff ---
 
 
 import mods.ic2.Compressor;
@@ -11,7 +9,7 @@ import mods.nei.NEI;
 
 
 
-// #======= Variables =======#
+// --- Variables ---
 
 
 val CastingBasin = <TConstruct:SearedBlock:2>;
@@ -48,10 +46,10 @@ val File = <ore:craftingToolFile>;
 
 
 
-// #======= Removing Recipes =======#
+// --- Removing Recipes ---
 
 
-// ||||| Blocks |||||
+// --- Blocks ---
 
 
 // --- Block of Cobalt
@@ -92,7 +90,7 @@ recipes.remove(<TConstruct:slime.gel:1>);
 
 
 
-// ||||| Casting Recipes |||||
+// --- Casting Recipes ---
 
 
 // --- Aluminium Ingot Casting
@@ -183,7 +181,7 @@ oreDict.rodObsidian.remove(<TConstruct:toolRod:6>);
 oreDict.toolRodObsidian.add(<TConstruct:toolRod:6>);
 
 
-// ||||| Blocks & Items |||||
+// --- Blocks & Items ---
 
 
 // --- Empty Canister
@@ -214,7 +212,7 @@ recipes.remove(<TConstruct:blankPattern>);
 recipes.remove(<TConstruct:decoration.stoneladder>);
 
 
-// ||||| Gear |||||
+// --- Gear ---
 
 
 // --- Knapsack
@@ -240,7 +238,7 @@ recipes.remove(TBoots);
 
 
 
-// #======= Adding Back Recipes =======#
+// --- Adding Back Recipes ---
 
 
 // --- Block Of Manyullyn
@@ -258,7 +256,7 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:19>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:1019>, <liquid:aluminum.molten> * 36, 500, <gregtech:gt.blockmachines:1585>);
 
 
-// ||||| Items |||||
+// --- Items ---
 
 
 // --- Empty Canister
@@ -306,10 +304,10 @@ recipes.addShaped(<TConstruct:decoration.stoneladder>, [
 [<ForgeMicroblock:stoneRod>, File, <ForgeMicroblock:stoneRod>]]);
 
 
-// ||||| Gear |||||
+// --- Gear ---
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 
 
 // --- Block Of Solid Ender

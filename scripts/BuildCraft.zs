@@ -2,14 +2,14 @@
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val DiamondGear = <BuildCraft|Core:diamondGearItem>;
@@ -97,10 +97,10 @@ val Robot = <BuildCraft|Silicon:robot:*>;
 val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
-// ||||| Machines |||||
+// --- Machines ---
 
 
 // --- Mining Well
@@ -158,7 +158,7 @@ recipes.remove(FilterBuffer);
 recipes.remove(DockingStation);
 
 
-// ||||| Engines |||||
+// --- Engines ---
 
 
 // --- Redstone Engine
@@ -171,7 +171,7 @@ recipes.remove(<BuildCraft|Energy:engineBlock:1>);
 recipes.remove(<BuildCraft|Energy:engineBlock:2>);
 
 
-// ||||| Gears |||||
+// --- Gears ---
 
 
 // --- Diamond Gear
@@ -190,7 +190,7 @@ recipes.remove(StoneGear);
 recipes.remove(WoodGear);
 
 
-// ||||| Pipes |||||
+// --- Pipes ---
 
 
 // --- Wooden Transport Pipe
@@ -287,7 +287,7 @@ recipes.remove(Robot);
 recipes.remove(Gate);
 
 
-// ||||| Items |||||
+// --- Items ---
 
 // --- Land Mark
 recipes.remove(LandMark);
@@ -311,10 +311,10 @@ recipes.remove(PipePlug);
 recipes.remove(GateCopier);
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
-// ||||| Gears |||||
+// --- Gears ---
 
 
 // --- Diamond Gear
@@ -333,13 +333,13 @@ recipes.addShapeless(StoneGear, [<ore:gearGtStone>]);
 recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 
 
-// ||||| Engines |||||
+// --- Engines ---
 
 // --- Stirling Engine
 
 // --- Combustion Engine
 
-// ||||| Pipes |||||
+// --- Pipes ---
 
 
 // --- Cobblestone-Covered Pipe
@@ -430,10 +430,10 @@ recipes.addShaped(PipeDiamondKinesis, [
 
 
 
-// #======= Hiding & Renaming Stuff =======#
+// --- Hiding & Renaming Stuff ---
 
 
-// ||||| Machines |||||
+// --- Machines ---
 
 
 // --- Filler
@@ -491,14 +491,14 @@ NEI.hide(FilterBuffer);
 NEI.hide(DockingStation);
 
 
-// ||||| Engines |||||
+// --- Engines ---
 
 
 // --- Redstone Engine
 NEI.hide(<BuildCraft|Energy:engineBlock>);
 
 
-// ||||| Pipes |||||
+// --- Pipes ---
 
 
 // - Wooden Fluid Pipe
@@ -577,7 +577,7 @@ NEI.overrideName(PipeDiamondKinesis, "Diamond-Covered Kinesis Pipe");
 NEI.overrideName(PipeEmeraldKinesis, "Emerald-Covered Kinesis Pipe");
 
 
-// ||||| Items |||||
+// --- Items ---
 
 
 // --- Land Mark

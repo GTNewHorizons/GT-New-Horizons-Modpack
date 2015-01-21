@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL
+//Created by Methes
 
 import mods.nei.NEI;
 
@@ -46,7 +46,7 @@ recipes.addShaped(<GregsLighting:ic2FilamentAssembly>, [
 [<TConstruct:GlassPane>, <ore:circuitBasic>, <TConstruct:GlassPane>]]);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 NEI.hide(<GregsLighting:floodlight>);
 NEI.hide(<GregsLighting:carbideFloodlight>);
 NEI.hide(<GregsLighting:floodlightBeam>);

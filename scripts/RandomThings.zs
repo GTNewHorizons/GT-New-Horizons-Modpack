@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL ans Methes
+//Created by DreamMasterXXL and Methes
 
 
 //Iports
