@@ -149,12 +149,6 @@ Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.meta
 //Enriched Sunnarium Alloy
 Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *8,  1600, 1024);
 
-//Master Circuit
-Assembler.addRecipe(<dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:32706> * 2, <gregtech:gt.metaitem.01:32705> * 2, 600, 1024);
-
-//Super Circuit
-Assembler.addRecipe(<dreamcraft:item.SuperCircuit>, <dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
-
 
 //Compressor Recipes
 

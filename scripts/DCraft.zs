@@ -1,11 +1,11 @@
-// ******** Created by Arch-Nihil ********
-//Canges by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
+
 
 
 
 // *======= Importing Stuff =======*
 
-
+import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
@@ -26,14 +26,14 @@ val Charcoal = <ore:gemCharcoal>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Blast Furnace
 recipes.remove(BFurnace);
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Blast Furnace
@@ -59,6 +59,23 @@ recipes.addShaped(CobblestoneRod, [
 [null, null, Cobblestone],
 [null, Cobblestone, null],
 [Cobblestone, null, null]]);
+
+//Steel Bars
+recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
+[null, <ore:craftingToolHardHammer>, null],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
+
+//Assembler Recipes
+
+//Master Circuit
+Assembler.addRecipe(<dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:32706> * 2, <gregtech:gt.metaitem.01:32705> * 2, 600, 1024);
+
+//Super Circuit
+Assembler.addRecipe(<dreamcraft:item.SuperCircuit>, <dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
+
+//Steel Bars
+Assembler.addRecipe(<dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.01:23305> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 48);
 
 // --- Magnetite Ore
 oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);

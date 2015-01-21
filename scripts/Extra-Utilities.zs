@@ -568,9 +568,9 @@ recipes.addShaped(Paintbrush, [
 
 // --- Drum
 recipes.addShaped(Drum, [
-[AlPlate, HeavyPPlate, AlPlate],
-[SteelPlate, Cauldron, SteelPlate],
-[AlPlate, SteelPlate, AlPlate]]);
+[AlPlate, <ore:ringSteel>, AlPlate],
+[<ore:plateDenseSteel>, Cauldron, <ore:plateDenseSteel>],
+[AlPlate, <ore:ringSteel>, AlPlate]]);
 
 // --- Bedrock Drum
 recipes.addShaped(BedDrum, [

@@ -1104,13 +1104,8 @@ recipes.addShaped(FenceGate * 6, [
 [CarpentersBlock, Stick, CarpentersBlock]]);
 
 // --- Iron Bars
-recipes.addShaped(IronBars * 6, [
+recipes.addShaped(IronBars * 3, [
 [null, HHammer, null],
-[IronRod, IronRod, IronRod],
-[IronRod, IronRod, IronRod]]);
-// - Alternate Recipe
-recipes.addShaped(IronBars * 8, [
-[Screwdriver, IronScrew, HHammer],
 [IronRod, IronRod, IronRod],
 [IronRod, IronRod, IronRod]]);
 

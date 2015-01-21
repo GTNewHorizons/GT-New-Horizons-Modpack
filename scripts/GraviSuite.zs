@@ -61,9 +61,9 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:3>,[
  
 //Magnetron
 recipes.addShaped(<GraviSuite:itemSimpleItem:4>,[
-[<ore:plateSteelMagnetic>, <IC2:itemRecipePart>, <ore:plateSteelMagnetic>],
+[<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
 [<ore:plateDenseCopper>, <GraviSuite:itemSimpleItem:1>, <ore:plateDenseCopper>],
-[<ore:plateSteelMagnetic>, <IC2:itemRecipePart>, <ore:plateSteelMagnetic>]]);
+[<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>]]);
  
 //VajraCore
 recipes.addShaped(<GraviSuite:itemSimpleItem:5>,[
@@ -73,9 +73,9 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:5>,[
  
 //EngineBoost
 recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
-[<ore:plateGlowstone>, <IC2:itemPartAlloy>, <ore:plateGlowstone>],
+[<ore:plateAluminium>, <IC2:itemPartAlloy>, <ore:plateAluminium>],
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
-[<IC2:itemPartAlloy>, <IC2:reactorVentDiamond>, <IC2:itemPartAlloy>]]);
+[<IC2:reactorPlating>, <IC2:reactorVentDiamond>, <IC2:reactorPlating>]]);
 
 //GraviChest
 recipes.addShaped(<GraviSuite:graviChestPlate>, [
@@ -91,7 +91,7 @@ recipes.addShaped(<GraviSuite:advNanoChestPlate>, [
  
 //Advanced Jetpack
 recipes.addShaped(<GraviSuite:advJetpack>,[
-[<ore:plateSilicon>, <IC2:itemArmorJetpackElectric:*>, <ore:plateSilicon>],
+[<ore:plateTungstenSteel>, <IC2:itemArmorJetpackElectric:*>, <ore:plateTungstenSteel>],
 [<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:*>, <GraviSuite:itemSimpleItem:6>],
 [<gregtech:gt.blockmachines:1643>, <ore:circuitMaster>, <gregtech:gt.blockmachines:1643>]]);
 

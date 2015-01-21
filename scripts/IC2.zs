@@ -13,6 +13,7 @@ import mods.gregtech.Wiremill;
 val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
+val Wrench = <ore:craftingToolWrench>;
 
 //remove Recipes
 
@@ -148,6 +149,29 @@ furnace.remove(<minecraft:log:3>);
 recipes.remove(<IC2:reactorReflector>);
 //Thick Neutron Reflector
 recipes.remove(<IC2:reactorReflectorThick>);
+//Heat Vent
+recipes.remove(<IC2:reactorVent>);
+//Reactor Heat Vent
+recipes.remove(<IC2:reactorVentCore>);
+//Overclocked Heat Vent
+recipes.remove(<IC2:reactorVentGold>);
+//Advanced Heat Vent
+recipes.remove(<IC2:reactorVentDiamond>);
+//Component Heat Vent
+recipes.remove(<IC2:reactorVentSpread>);
+//Heat Exchanger
+recipes.remove(<IC2:reactorHeatSwitch>);
+//Reactor Heat Exchanger
+recipes.remove(<IC2:reactorHeatSwitchCore>);
+//Component Heat Exchanger
+recipes.remove(<IC2:reactorHeatSwitchSpread>);
+//Advanced Heat Exchanger
+recipes.remove(<IC2:reactorHeatSwitchDiamond>);
+//RSH Condensator
+recipes.remove(<IC2:reactorCondensator>);
+//LZH Condensator
+recipes.remove(<IC2:reactorCondensatorLap>);
+
 
 
 // De Ordicted Refined Iron
@@ -371,7 +395,7 @@ recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>
 // --- Iron Furnace
 recipes.addShaped(IronFurnace, [
 [IronPlate, IronPlate, IronPlate],
-[IronPlate, null, IronPlate],
+[IronPlate, Wrench, IronPlate],
 [IronPlate, Furnace, IronPlate]]);
 
 //Neutron Reflector
@@ -380,6 +404,75 @@ recipes.addShaped(<IC2:reactorReflector>, [
 [<ore:plateAlloyCarbon>, <ore:plateDenseCopper>, <ore:plateAlloyCarbon>],
 [<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>]]);
 
+//Heat Vent
+recipes.addShaped(<IC2:reactorVent>, [
+[<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>],
+[<minecraft:iron_bars>, <ore:craftingToolWrench>, <minecraft:iron_bars>],
+[<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>]]);
+
+//Reactor Heat Vent
+recipes.addShaped(<IC2:reactorVentCore>, [
+[<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>],
+[<ore:plateSilver>, <IC2:reactorVent>, <ore:plateSilver>],
+[<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
+
+//Overclocked Heat Vent
+recipes.addShaped(<IC2:reactorVentGold>, [
+[<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
+[<ore:plateGold>, <IC2:reactorVentCore>, <ore:plateGold>],
+[<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
+
+//Advanced Heat Vent
+recipes.addShaped(<IC2:reactorVentDiamond>, [
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold>, <dreamcraft:item.SteelBars>],
+[<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold>, <dreamcraft:item.SteelBars>]]);
+
+//Component Heat Vent
+recipes.addShaped(<IC2:reactorVentSpread>, [
+[<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>],
+[<ore:plateDenseTin>, <IC2:reactorVent>, <ore:plateDenseTin>],
+[<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>]]);
+
+//Heat Exchanger
+recipes.addShaped(<IC2:reactorHeatSwitch>, [
+[<ore:plateSilver>, <ore:circuitBasic>, <ore:plateSilver>],
+[<ore:plateAluminium>, <ore:plateCopper>, <ore:plateAluminium>],
+[<ore:plateSilver>, <ore:plateAluminium>, <ore:plateSilver>]]);
+
+//Reactor Heat Exchanger
+recipes.addShaped(<IC2:reactorHeatSwitchCore>, [
+[<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>],
+[<ore:plateSilver>, <IC2:reactorVent>, <ore:plateSilver>],
+[<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
+
+//Component Heat Exchanger
+recipes.addShaped(<IC2:reactorHeatSwitchSpread>, [
+[<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
+[<ore:plateGold>, <IC2:reactorHeatSwitchCore>, <ore:plateGold>],
+[<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
+
+//Advanced Heat Exchanger
+recipes.addShaped(<IC2:reactorHeatSwitchDiamond>, [
+[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>],
+[<IC2:reactorHeatSwitchSpread>, <ore:plateDiamond>, <IC2:reactorHeatSwitchSpread>],
+[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>]]);
+
+//RSH Condensator
+recipes.addShaped(<IC2:reactorCondensator>, [
+[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>],
+[<ore:plateRedAlloy>, <IC2:reactorVentCore>, <ore:plateRedAlloy>],
+[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>]]);
+
+recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:9999>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <minecraft:redstone_block>]);
+
+//LZH Condensator
+recipes.addShaped(<IC2:reactorCondensatorLap>, [
+[<ore:plateDoubleRedAlloy>, <IC2:reactorVentGold>, <ore:plateDoubleRedAlloy>],
+[<IC2:reactorCondensator>, <ore:plateDenseLapis>, <IC2:reactorCondensator>],
+[<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread>, <ore:plateDoubleRedAlloy>]]);
+
+recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:9999>, <ore:plateLapis>, <ore:plateLapis>, <minecraft:lapis_block>]);
 
 //Assembler Recipes
 
