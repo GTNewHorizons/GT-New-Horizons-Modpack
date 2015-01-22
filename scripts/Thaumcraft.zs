@@ -65,11 +65,9 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
 //Quicksilver
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
-//All Wands
+//Iron Capped Wand
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:*>);
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:2>);
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}));
+
 
 
 //Remove Furnace Recipes Shrads
@@ -96,16 +94,22 @@ recipes.addShaped(<Thaumcraft:WandCap>, [
 [null, <ore:foilIron>, null]]);
 
 //Gold Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 20, ignis 20, aer 20", [
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ordo 20, ignis 20, aer 20", [
 [null, <ore:foilGold>, null],
 [<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
 [null, <ore:foilGold>, null]]);
 
+mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 2, metallum 2, lucrum 2");
+mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
+
 //Copper Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCap:3>, "ordo 15, ignis 15, aer 15", [
+mods.thaumcraft.Arcane.addShaped("CAP_copper", <dreamcraft:item.CopperWandCap>, "ordo 15, ignis 15, aer 15", [
 [null, <ore:foilCopper>, null],
 [<ore:foilCopper>, <ore:ringCopper>, <ore:foilCopper>],
 [null, <ore:foilCopper>, null]]);
+
+mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 2, metallum 2, permutatio 2");
+mods.thaumcraft.Research.setComplexity("CAP_copper", 2);
 
 //Silver Wand Cap
 mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 16, ignis 16, aer 16", [
@@ -131,11 +135,17 @@ recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
 [<Thaumcraft:WandCap>, <ore:screwAluminium>, <ore:craftingToolScrewdriver>]]);
 
-//Copper Capped Wooden Wand
-mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
-[<TwilightForest:item.trophy:1>, <ore:screwAluminium>, <Thaumcraft:WandCap:3>],
+//Copper Caped Wand
+mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<Thaumcraft:WandCap:3>, <ore:screwAluminium>, <ore:craftingToolScrewdriver>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+
+//Golden Caped Wand
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCasting:3>.withTag({cap: "gold", rod: "wood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.GoldWandCap>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
 //Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
@@ -187,6 +197,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 
 [null, null, <Thaumcraft:blockMagicalLog>],
 [null, <Thaumcraft:blockMagicalLog>, null],
 [<Thaumcraft:blockMagicalLog>, null, null]]);
+
 
 //Amber
 mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, "perditio 3, vinculum 6, vitreus 13");

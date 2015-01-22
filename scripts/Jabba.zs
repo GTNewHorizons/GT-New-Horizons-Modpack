@@ -147,15 +147,15 @@ recipes.addShaped(Barrel, [
 
 // --- Dolly
 recipes.addShaped(Dolly, [
-[null, null, <ore:plateAnyIron>],
-[null, <ore:stickAnyIron>, <ore:plateAnyIron>],
-[<ore:plateAnyIron>, <ore:plateAnyIron>, IronWheels]]);
+[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>],
+[<ore:stickAnyIron>, <ore:craftingToolWrench>, <ore:stickAnyIron>],
+[IronWheels, <ore:plateSteel>, IronWheels]]);
 
 // --- Diamond Dolly
 recipes.addShaped(DiamondDolly, [
-[null, null, <ore:plateDiamond>],
-[null, <ore:stickDiamond>, <ore:plateDiamond>],
-[<ore:plateDiamond>, <ore:plateDiamond>, SteelWheels]]);
+[<ore:stickDiamond>, <ore:stickDiamond>, <ore:stickDiamond>],
+[<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:stickDiamond>],
+[SteelWheels, <ore:plateNetherStar>, SteelWheels]]);
 
 // --- Barrel Hammer
 recipes.addShaped(<JABBA:hammer>, [
