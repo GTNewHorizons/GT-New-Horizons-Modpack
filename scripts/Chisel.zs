@@ -1,12 +1,12 @@
-// ******** Created by Arch-Nihil ********
+// --- DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val Chisel = <chisel:chisel>;
@@ -23,18 +23,39 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Chisel
 recipes.remove(Chisel);
 
+// --- Diamond Chisel
+recipes.remove(<chisel:diamondChisel>);
+
 // --- Cloud In A Bottle
 recipes.remove(BottledCloud);
 
+// --- Ball of Moss
+recipes.remove(<chisel:ballomoss>);
+
+// --- Smashing Rock
+recipes.remove(<chisel:smashingrock>);
+
+// --- Auto Chisel
+recipes.remove(<chisel:autoChisel>);
+
+// --- Speed Upgrade
+recipes.remove(<chisel:upgrade>);
+
+// --- Automation Upgrade
+recipes.remove(<chisel:upgrade:1>);
+
+// --- Stack Upgrade
+recipes.remove(<chisel:upgrade:2>);
 
 
-// *======= Adding Back Recipes =======*
+
+// --- Adding Back Recipes ---
 
 
 // --- Chisel
@@ -48,12 +69,16 @@ recipes.addShaped(Chisel, [
 [IronScrew, IronRod, IronPlate],
 [IronRod, IronScrew, HHammer]]);
 
-// --- Cloud In A Bottle
-recipes.addShaped(BottledCloud, [
-[TinyQuartzPile, TinyQuartzPile, TinyQuartzPile],
-[TinyQuartzPile, EmptyBottle, TinyQuartzPile],
-[TinyQuartzPile, TinyQuartzPile, TinyQuartzPile]]);
+// --- Diamond Chisel
+recipes.addShaped(<chisel:diamondChisel>, [
+[HHammer, <ore:plateDiamond>, <ore:plateDiamond>],
+[<ore:screwDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
+[<ore:stickDiamond>, <ore:screwDiamond>, Screwdriver]]);
+// - Alternate Recipe
+recipes.addShaped(<chisel:diamondChisel>, [
+[Screwdriver, <ore:plateDiamond>, <ore:plateDiamond>],
+[<ore:screwDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
+[<ore:stickDiamond>, <ore:screwDiamond>, HHammer]]);
 
 
-
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
