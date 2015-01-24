@@ -106,6 +106,8 @@ recipes.remove(<OpenBlocks:sleepingBag>);
 // --- Rope Ladder
 recipes.remove(<OpenBlocks:ropeladder>);
 
+// --- Jaded Ladder
+recipes.remove(<OpenBlocks:ladder>);
 
 
 // --- Adding Back Recipes ---

@@ -791,14 +791,14 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
 
 // --- Solid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:5>, [
-[IronPlate, Cauldron, IronPlate],
+[SteelPlate, Cauldron, SteelPlate],
 [BrickBlock, <minecraft:fire_charge>, BrickBlock],
-[IronPlate, IronFurnace, IronPlate]]);
+[SteelPlate, IronFurnace, SteelPlate]]);
 
 // --- Liquid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:6>, [
 [SteelPlate, Cauldron, SteelPlate],
-[IronBars, <minecraft:fire_charge>, IronBars],
+[<dreamcraft:item.SteelBars>, <minecraft:fire_charge>, <dreamcraft:item.SteelBars>],
 [SteelPlate, IronFurnace, SteelPlate]]);
 
 // --- Low Pressure Boiler Tank ---

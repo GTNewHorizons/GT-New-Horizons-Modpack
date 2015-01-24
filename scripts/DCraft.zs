@@ -51,11 +51,15 @@ recipes.addShaped(SandstoneRod, [
 [null, Sandstone, null],
 [Sandstone, null, null]]);
 
+oreDict.stickSandstone.add(<dreamcraft:item.SandStoneRod>);
+
 // --- Cobblestone Rod
 recipes.addShaped(CobblestoneRod, [
 [null, null, Cobblestone],
 [null, Cobblestone, null],
 [Cobblestone, null, null]]);
+
+oreDict.stickCobblestone.add(<dreamcraft:item.CobbleStoneRod>);
 
 //Steel Bars
 recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [

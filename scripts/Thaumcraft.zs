@@ -21,8 +21,10 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:3>);
 //Silver Wand Cap
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:5>);
-//Thaumium Wand Cap
+//Thaumium Inert Cap
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
+//Void Inert Cap
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:8>);
 //Thaumium Ingot
 recipes.remove(<ore:ingotThaumium>);
 //Wooden Wand
@@ -67,9 +69,13 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
 //Iron Capped Wand
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
+//Void Metal Ingot
+recipes.remove(<Thaumcraft:ItemResource:16>);
+//Void Metal Nugget
+recipes.remove(<Thaumcraft:ItemNugget:7>);
 
 
-//Remove Furnace Recipes Shrads
+//Remove Furnace Recipes
 
 //Shrads
 furnace.remove(<Thaumcraft:ItemShard:*>);
@@ -80,8 +86,12 @@ furnace.remove(<Thaumcraft:ItemResource:6>);
 //Salis Mundus
 furnace.remove(<Thaumcraft:ItemResource:14>);
 
+//Void Metal Nugget
+furnace.remove(<Thaumcraft:ItemNugget:7>);
+
 
 //add Recipes
+
 
 //Thaumometer
 recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
@@ -96,34 +106,47 @@ recipes.addShaped(<Thaumcraft:WandCap>, [
 [null, <ore:foilIron>, null]]);
 
 //Gold Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_gold");
+mods.thaumcraft.Research.addPage("CAP_gold", "tc.research_page.CAP_gold.1");
 mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ordo 20, ignis 20, aer 20", [
 [null, <ore:foilGold>, null],
 [<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
 [null, <ore:foilGold>, null]]);
+mods.thaumcraft.Research.addArcanePage("CAP_gold", <dreamcraft:item.GoldWandCap>);
+
 
 mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 2, metallum 2, lucrum 2");
 mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
 
 //Copper Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_copper");
+mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.1");
 mods.thaumcraft.Arcane.addShaped("CAP_copper", <dreamcraft:item.CopperWandCap>, "ordo 15, ignis 15, aer 15", [
 [null, <ore:foilCopper>, null],
 [<ore:foilCopper>, <ore:ringCopper>, <ore:foilCopper>],
 [null, <ore:foilCopper>, null]]);
+mods.thaumcraft.Research.addArcanePage("CAP_copper", <dreamcraft:item.CopperWandCap>);
 
 mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 2, metallum 2, permutatio 2");
 mods.thaumcraft.Research.setComplexity("CAP_copper", 2);
 
 //Silver Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 16, ignis 16, aer 16", [
+mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 25, ignis 25, aer 25", [
 [null, <ore:foilSilver>, null],
 [<ore:foilSilver>, <ore:ringSilver>, <ore:foilSilver>],
 [null, <ore:foilSilver>, null]]);
 
-//Thaumium Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_thaumium", <Thaumcraft:WandCap:6>, "ordo 24, ignis 24, aer 24", [
+//Thaumium Inert Cap
+mods.thaumcraft.Arcane.addShaped("CAP_thaumium", <Thaumcraft:WandCap:6>, "ordo 30, ignis 30, aer 30", [
 [null, <ore:foilThaumium>, null],
 [<ore:foilThaumium>, <ore:ringThaumium>, <ore:foilThaumium>],
 [null, <ore:foilThaumium>, null]]);
+
+//Void Inert Cap
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCap:8>, "perditio 60, ordo 60, ignis 40, aer 40", [
+[<Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>],
+[<Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemNugget:7>],
+[<Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>]]);
 
 //Thaumic Crowbar
 mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "ordo 24, ignis 24, aer 24", [
@@ -162,7 +185,7 @@ mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
 //Arcane Pedstal
-mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "aer 8" ,[
+mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "aer 20" ,[
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
 [null, <Thaumcraft:blockCosmeticSolid:6>, null],
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
@@ -174,7 +197,7 @@ mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:2> , "
 [<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCosmeticSolid:7>]]);
 
 //Gogle of Revealing
-mods.thaumcraft.Arcane.addShaped("GOGGLES", <Thaumcraft:ItemGoggles> , "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10" ,[
+mods.thaumcraft.Arcane.addShaped("GOGGLES", <Thaumcraft:ItemGoggles> , "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30" ,[
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>],
 [<ore:ringGold>, null, <ore:ringGold>],
 [<Thaumcraft:ItemThaumometer>, <ore:stickGold>, <Thaumcraft:ItemThaumometer>]]);
@@ -189,7 +212,7 @@ recipes.addShaped(<Thaumcraft:blockTable>, [
 recipes.addShapeless(<Thaumcraft:ItemEssence>, [<minecraft:glass_bottle>, <ore:roundRubber>]);
 
 //Enchanted Fabric
-mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5" ,[
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15" ,[
 [<minecraft:string>, <minecraft:string>, <minecraft:string>],
 [<minecraft:string>, <harvestcraft:wovencottonItem>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
@@ -289,3 +312,4 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
 //Crystals
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
+mods.thaumcraft.Research.refreshResearchRecipe("CAP_void");
