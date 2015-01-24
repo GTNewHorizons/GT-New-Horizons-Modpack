@@ -1,3 +1,9 @@
+//Created by DreamMasterXXL
+
+//Imports
+
+import mods.ic2.Macerator;
+
 //remove Recipes
 
 //Block of Malachit
@@ -16,6 +22,12 @@ recipes.remove(<BiomesOPlenty:scytheDiamond>);
 recipes.remove(<BiomesOPlenty:ash>);
 //Coal
 recipes.remove(<minecraft:coal>);
+//small Bone Segment
+recipes.removeShapeless(<minecraft:dye:15> * 3, [<BiomesOPlenty:bones>]);
+//medium Bone Segment
+recipes.removeShapeless(<minecraft:dye:15> * 6, [<BiomesOPlenty:bones:1>]);
+//large Bone Segment
+recipes.removeShapeless(<minecraft:dye:15> * 12, [<BiomesOPlenty:bones:2>]);
 
 //add Recipes
 
@@ -57,3 +69,12 @@ recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]);
 //Barley Ordict
 recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
 oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
+
+//small Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 5, <BiomesOPlenty:bones>);
+
+//medium Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
+
+//large Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);

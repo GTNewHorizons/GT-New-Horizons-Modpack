@@ -72,7 +72,7 @@ Assembler.addRecipe(<dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:32
 Assembler.addRecipe(<dreamcraft:item.SuperCircuit>, <dreamcraft:item.MasterCircuit>, <gregtech:gt.metaitem.01:22327>, 1200, 4096);
 
 //Steel Bars
-Assembler.addRecipe(<dreamcraft:item.SteelBars> * 3, <gregtech:gt.metaitem.01:23305> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 48);
+Assembler.addRecipe(<dreamcraft:item.SteelBars> * 4, <gregtech:gt.metaitem.01:23305> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 48);
 
 //Lich Bone
 Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 64);

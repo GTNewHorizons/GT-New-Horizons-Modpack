@@ -709,6 +709,8 @@ recipes.removeShaped(<minecraft:wooden_slab> * 6, [
 //Blazepowder
 recipes.removeShaped(<minecraft:blaze_powder>, [
 [<Thaumcraft:blockCustomPlant:3>]]);
+//Bone Meal
+recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
 
 // --- Empty Map
 recipes.remove(Map);
@@ -2199,6 +2201,9 @@ recipes.addShaped(Map, [
 [Paper, Paper, Paper],
 [Paper, <minecraft:compass>.reuse(), Paper],
 [Paper, Paper, Paper]]);
+
+//Bone Meal
+recipes.addShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>, <ore:craftingToolMortar>]);
 
 //Extractor Recipes
 
