@@ -74,6 +74,9 @@ Assembler.addRecipe(<dreamcraft:item.SuperCircuit>, <dreamcraft:item.MasterCircu
 //Steel Bars
 Assembler.addRecipe(<dreamcraft:item.SteelBars> * 3, <gregtech:gt.metaitem.01:23305> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 48);
 
+//Lich Bone
+Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 64);
+
 // --- Magnetite Ore
 oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);
 

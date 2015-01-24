@@ -69,7 +69,6 @@ recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
 
 
-
 //Remove Furnace Recipes Shrads
 
 //Shrads
@@ -77,6 +76,9 @@ furnace.remove(<Thaumcraft:ItemShard:*>);
 
 //Amber
 furnace.remove(<Thaumcraft:ItemResource:6>);
+
+//Salis Mundus
+furnace.remove(<Thaumcraft:ItemResource:14>);
 
 
 //add Recipes
@@ -131,9 +133,9 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "
 
 //Iron Capped Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>, [
-[<TwilightForest:item.trophy:1>, <ore:screwAluminium>, <Thaumcraft:WandCap>],
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <Thaumcraft:WandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<Thaumcraft:WandCap>, <ore:screwAluminium>, <ore:craftingToolScrewdriver>]]);
+[<Thaumcraft:WandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
 //Copper Caped Wand
 mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
@@ -193,10 +195,28 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
 //Greatwood Rood
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 20, aqua 20, perditio 20" , [
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 20, aqua 20, perditio 20", [
 [null, null, <Thaumcraft:blockMagicalLog>],
 [null, <Thaumcraft:blockMagicalLog>, null],
 [<Thaumcraft:blockMagicalLog>, null, null]]);
+
+//Iron Capped Greatwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:3>.withTag({cap: "iron", rod: "greatwood"}), "aer 22, terra 22, ignis 22, aqua 22, ordo 22, perditio 22",  [
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <Thaumcraft:WandCap>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
+[<Thaumcraft:WandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+//Copper Capped Greatwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:6>.withTag({cap: "copper", rod: "greatwood"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.CopperWandCap>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+//Gold Capped Greatwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:9>.withTag({cap: "gold", rod: "greatwood"}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.GoldWandCap>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 
 //Amber
@@ -230,6 +250,12 @@ Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmetic
 
 //Quicksilver
 Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
+
+//Macerator Recipes
+
+//Salis Mundus
+Macerator.addRecipe(<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>);
+
 
 //refresh Recipese
 

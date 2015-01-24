@@ -1,4 +1,5 @@
 // --- Created by DreamMasterXXL ---
+// --- Created by DreamMasterXXL ---
 
 
 
@@ -569,7 +570,7 @@ recipes.addShaped(Paintbrush, [
 // --- Drum
 recipes.addShaped(Drum, [
 [AlPlate, <ore:ringSteel>, AlPlate],
-[<ore:plateDenseSteel>, Cauldron, <ore:plateDenseSteel>],
+[<ore:plateDenseSteel>, <ore:pipeHugeSteel>, <ore:plateDenseSteel>],
 [AlPlate, <ore:ringSteel>, AlPlate]]);
 
 // --- Bedrock Drum
