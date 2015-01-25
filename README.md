@@ -6,6 +6,6 @@ A GregTech-based modpack with a dash of magic provided by Thaumcraft and its add
 
 The pack recipes are hard. And I mean it. Are you up for the challenge ?
 
-Please download DreamCraftCore.0.0.7.jar from TS Folder
+Please download DreamCraftCore.0.1.0.jar from TS Folder
 
 Maintained by Dream-Master.
