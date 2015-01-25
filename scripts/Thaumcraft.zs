@@ -105,6 +105,9 @@ recipes.remove(<Thaumcraft:blockCrystal:4>);
 recipes.remove(<Thaumcraft:blockCrystal:5>);
 //Mixed Crystal Cluster
 recipes.remove(<Thaumcraft:blockCrystal:6>);
+//Primal Charm
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:15>);
+
 
 
 //Remove Furnace Recipes
@@ -373,189 +376,227 @@ mods.thaumcraft.Infusion.addRecipe("ROD_silverwood", <Thaumcraft:blockMagicalLog
 
 //Iron Capped Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "reed"}), "aer 25, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "reed"}), "aer 27, terra 55, ignis 55, aqua 55, ordo 55, perditio 55", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
 [<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
 
 //Gold Banded Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "reed"}), "aer 30, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "reed"}), "aer 32, terra 65, ignis 65, aqua 65, ordo 65, perditio 65", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 35, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Blazing Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "blaze"}), "aer 50, terra 50, ignis 25, aqua 50, ordo 50, perditio 50", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Blazing Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "blaze"}), "aer 55, terra 55, ignis 27, aqua 55, ordo 55, perditio 55", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Blazing Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "blaze"}), "aer 60, terra 60, ignis 30, aqua 60, ordo 60, perditio 60", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Blazing Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "blaze"}), "aer 65, terra 65, ignis 32, aqua 65, ordo 65, perditio 65", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Blazing Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "blaze"}), "aer 70, terra 70, ignis 35, aqua 70, ordo 70, perditio 70", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Obsidian Wand
 mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "obsidian"}), "aer 50, terra 25, ignis 50, aqua 50, ordo 50, perditio 50", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Obsidian Wand
 mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "obsidian"}), "aer 55, terra 27, ignis 55, aqua 55, ordo 55, perditio 55", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Obsidian Wand
 mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "obsidian"}), "aer 60, terra 30, ignis 60, aqua 60, ordo 60, perditio 60", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Obsidian Wand
 mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "obsidian"}), "aer 65, terra 32, ignis 65, aqua 65, ordo 65, perditio 65", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Obsidian Wand
 mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "obsidian"}), "aer 70, terra 35, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "ice"}), "aer 50, terra 50, ignis 50, aqua 25, ordo 50, perditio 50", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "ice"}), "aer 50, terra 50, ignis 50, aqua 25, ordo 50, perditio 50", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "ice"}), "aer 55, terra 55, ignis 55, aqua 27, ordo 55, perditio 55", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "ice"}), "aer 55, terra 55, ignis 55, aqua 27, ordo 55, perditio 55", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "ice"}), "aer 60, terra 60, ignis 60, aqua 30, ordo 60, perditio 60", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "ice"}), "aer 60, terra 60, ignis 60, aqua 30, ordo 60, perditio 60", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "ice"}), "aer 65, terra 65, ignis 65, aqua 32, ordo 65, perditio 65", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "ice"}), "aer 65, terra 65, ignis 65, aqua 32, ordo 65, perditio 65", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "ice"}), "aer 70, terra 70, ignis 70, aqua 35, ordo 70, perditio 70", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "ice"}), "aer 70, terra 70, ignis 70, aqua 35, ordo 70, perditio 70", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "quartz"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 25, perditio 50", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "quartz"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 25, perditio 50", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "quartz"}), "aer 55, terra 55, ignis 55, aqua 55, ordo 27, perditio 55", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "quartz"}), "aer 55, terra 55, ignis 55, aqua 55, ordo 27, perditio 55", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "quartz"}), "aer 60, terra 60, ignis 60, aqua 60, ordo 30, perditio 60", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "quartz"}), "aer 60, terra 60, ignis 60, aqua 60, ordo 30, perditio 60", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "quartz"}), "aer 65, terra 65, ignis 65, aqua 65, ordo 32, perditio 65", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "quartz"}), "aer 65, terra 65, ignis 65, aqua 65, ordo 32, perditio 65", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "quartz"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 35, perditio 70", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "quartz"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 35, perditio 70", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "bone"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 25", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "bone"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 25", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Copper Capped Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "bone"}), "aer 55, terra 55, ignis 55, aqua 55, ordo 55, perditio 27", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "bone"}), "aer 55, terra 55, ignis 55, aqua 55, ordo 55, perditio 27", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "bone"}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 30", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "bone"}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 30", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Silver Bossed Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "bone"}), "aer 65, terra 65, ignis 65, aqua 65, ordo 65, perditio 32", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "bone"}), "aer 65, terra 65, ignis 65, aqua 65, ordo 65, perditio 32", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Thaumium Bossed Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "bone"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 35", [
-[<dreamcraft:item.HydraBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "bone"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 35", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Iron Capped Silverwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.IronWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+
 //Copper Capped Silverwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.CopperWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+
 //Gold Banded Silverwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), "aer 85, terra 85, ignis 85, aqua 85, ordo 85, perditio 85", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.GoldWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+
 //Silver Bossed Silverwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSilverWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+
 //Thaumium Bossed Silverwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+
+//Primal Charm
+mods.thaumcraft.Research.clearPages("BASICARTIFACE");
+mods.thaumcraft.Research.addPage("BASICARTIFACE", "tc.research_page.BASICARTIFACE.1");
+mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:15>, "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>],
+[<gregtech:gt.metaitem.01:28351>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.01:28351>],
+[<Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:15>);
+mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks>);
+mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>);
+mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:2>);
+mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:10>);
+
 
 //Amber
 mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, "perditio 3, vinculum 6, vitreus 13");
@@ -686,3 +727,5 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz");
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
 //Silverwood Wand Core
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
+//Primal Charm
+mods.thaumcraft.Research.refreshResearchRecipe("BASICARTIFACE");
