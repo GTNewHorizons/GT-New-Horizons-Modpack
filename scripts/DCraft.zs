@@ -3,8 +3,13 @@
 
 // --- Importing Stuff ---
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.Extruder;
+import mods.gregtech.ForgeHammer;
+import mods.gregtech.Lathe;
 import mods.nei.NEI;
+import mods.gregtech.PlateBender;
 
 
 
@@ -51,7 +56,6 @@ recipes.addShaped(SandstoneRod, [
 [null, Sandstone, null],
 [Sandstone, null, null]]);
 
-oreDict.stickSandstone.add(<dreamcraft:item.SandStoneRod>);
 
 // --- Cobblestone Rod
 recipes.addShaped(CobblestoneRod, [
@@ -59,13 +63,36 @@ recipes.addShaped(CobblestoneRod, [
 [null, Cobblestone, null],
 [Cobblestone, null, null]]);
 
-oreDict.stickCobblestone.add(<dreamcraft:item.CobbleStoneRod>);
 
 //Steel Bars
 recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
 [null, <ore:craftingToolHardHammer>, null],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
+
+//Void Plates
+recipes.addShaped(<dreamcraft:item.VoidPlate>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:ingotVoid>, null, null],
+[<ore:ingotVoid>, null, null]]);
+
+//Void Rod
+recipes.addShaped(<dreamcraft:item.VoidRod>, [
+[<ore:craftingToolFile>, null, null],
+[null, <ore:ingotVoid>, null],
+[null, null, null]]);
+
+//Void Metal Ring
+recipes.addShaped(<dreamcraft:item.VoidRing>, [
+[<ore:craftingToolHardHammer>, null, null],
+[null, <ore:stickVoid>, null],
+[null, null, null]]);
+
+
+//Alloy Smelter
+
+//Void Metal Plate
+AlloySmelter.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, <gregtech:gt.metaitem.01:32301> * 0, 2400, 32);
 
 //Assembler Recipes
 
@@ -80,6 +107,62 @@ Assembler.addRecipe(<dreamcraft:item.SteelBars> * 4, <gregtech:gt.metaitem.01:23
 
 //Lich Bone
 Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 64);
+
+//Hydra Blood
+Assembler.addRecipe(<dreamcraft:item.HydraBlood>, <Thaumcraft:ItemResource:14> * 16, <TwilightForest:item.trophy> * 0, 1200, 128);
+
+//Extruder Recipes
+
+//Void Metal Plate
+Extruder.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32350> * 0, 800, 128);
+
+
+//Void Metal Rod
+Extruder.addRecipe(<dreamcraft:item.VoidRod>, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32351> * 0, 400, 96);
+
+//Void Metal Ring
+Extruder.addRecipe(<dreamcraft:item.VoidRing> * 4, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32353> * 0, 800, 96);
+
+
+//Forge Hammer Recipes
+
+//Void Metal Plate
+ForgeHammer.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, 800, 16);
+
+
+//Lathe Recipes
+
+//Void Sticks
+Lathe.addRecipe([<dreamcraft:item.VoidRod>, <dreamcraft:item.VoidRod>], <Thaumcraft:ItemResource:16>, 1000, 16);
+
+//Plate Bender Recipes
+
+//Void Metal Plate
+PlateBender.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, 1200, 24);
+
+//Void Metal Foil
+PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate>, 600, 24);
+
+//Ore Dicted
+
+//Cobble Stone Rod
+oreDict.stickCobblestone.add(<dreamcraft:item.CobbleStoneRod>);
+
+//Sandstone Rod
+oreDict.stickSandstone.add(<dreamcraft:item.SandStoneRod>);
+
+//Void Metal Plate
+oreDict.plateVoid.add(<dreamcraft:item.VoidPlate>);
+
+//Void Metal Rod
+oreDict.stickVoid.add(<dreamcraft:item.VoidRod>);
+
+//Void Metal Ring
+oreDict.ringVoid.add(<dreamcraft:item.VoidRing>);
+
+//Void Metal Foil
+oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
+
 
 // --- Magnetite Ore
 oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);

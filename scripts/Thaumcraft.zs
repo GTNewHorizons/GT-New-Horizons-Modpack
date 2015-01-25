@@ -90,6 +90,18 @@ furnace.remove(<Thaumcraft:ItemResource:14>);
 furnace.remove(<Thaumcraft:ItemNugget:7>);
 
 
+//Furnace Add
+
+//Void Ingots
+furnace.addRecipe(<Thaumcraft:ItemResource:16>, <dreamcraft:item.VoidPlate>);
+
+//Void Nugget
+furnace.addRecipe(<Thaumcraft:ItemNugget:7> * 4, <dreamcraft:item.VoidRod>);
+
+furnace.addRecipe(<Thaumcraft:ItemNugget:7> * 2, <dreamcraft:item.VoidRing>);
+
+furnace.addRecipe(<Thaumcraft:ItemNugget:7> * 2, <dreamcraft:item.VoidFoil>);
+
 //add Recipes
 
 
@@ -312,4 +324,5 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
 //Crystals
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
+//Void Wand Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_void");
