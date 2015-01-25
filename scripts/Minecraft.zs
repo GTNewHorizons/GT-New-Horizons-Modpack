@@ -711,6 +711,8 @@ recipes.removeShaped(<minecraft:blaze_powder>, [
 [<Thaumcraft:blockCustomPlant:3>]]);
 //Bone Meal
 recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
+//Fire Charge
+recipes.remove(<minecraft:fire_charge>);
 
 // --- Empty Map
 recipes.remove(Map);
@@ -2204,6 +2206,12 @@ recipes.addShaped(Map, [
 
 //Bone Meal
 recipes.addShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>, <ore:craftingToolMortar>]);
+
+//Fire Charge
+recipes.addShaped(<minecraft:fire_charge>, [
+[<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>],
+[<minecraft:blaze_powder>, Coal, <minecraft:blaze_powder>],
+[<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>]]);
 
 //Extractor Recipes
 
