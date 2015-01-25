@@ -73,6 +73,34 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
 recipes.remove(<Thaumcraft:ItemResource:16>);
 //Void Metal Nugget
 recipes.remove(<Thaumcraft:ItemNugget:7>);
+//Charged Thaumium Wand Cap
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:2>);
+//Charged Silver Wand Cap
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:4>);
+//Reed Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:5>);
+//Blaze Rod Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:6>);
+//Obsidian Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:1>);
+//Icy Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:3>);
+//Quartz Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:4>);
+//Bone Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:7>);
+//Air Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal>);
+//Fire Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:1>);
+//Water Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:2>);
+//Earth Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:3>);
+//Order Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:4>);
+//Entropy Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:5>);
 
 
 //Remove Furnace Recipes
@@ -117,19 +145,6 @@ recipes.addShaped(<Thaumcraft:WandCap>, [
 [<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
 [null, <ore:foilIron>, null]]);
 
-//Gold Wand Cap
-mods.thaumcraft.Research.clearPages("CAP_gold");
-mods.thaumcraft.Research.addPage("CAP_gold", "tc.research_page.CAP_gold.1");
-mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ordo 20, ignis 20, aer 20", [
-[null, <ore:foilGold>, null],
-[<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
-[null, <ore:foilGold>, null]]);
-mods.thaumcraft.Research.addArcanePage("CAP_gold", <dreamcraft:item.GoldWandCap>);
-
-
-mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 2, metallum 2, lucrum 2");
-mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
-
 //Copper Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_copper");
 mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.1");
@@ -141,6 +156,18 @@ mods.thaumcraft.Research.addArcanePage("CAP_copper", <dreamcraft:item.CopperWand
 
 mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 2, metallum 2, permutatio 2");
 mods.thaumcraft.Research.setComplexity("CAP_copper", 2);
+
+//Gold Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_gold");
+mods.thaumcraft.Research.addPage("CAP_gold", "tc.research_page.CAP_gold.1");
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ordo 20, ignis 20, aer 20", [
+[null, <ore:foilGold>, null],
+[<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
+[null, <ore:foilGold>, null]]);
+mods.thaumcraft.Research.addArcanePage("CAP_gold", <dreamcraft:item.GoldWandCap>);
+
+mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 2, metallum 2, lucrum 2");
+mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
 
 //Silver Wand Cap
 mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 25, ignis 25, aer 25", [
@@ -172,17 +199,29 @@ recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
 [<Thaumcraft:WandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
-//Copper Caped Wand
+//Copper Caped Wooden Wand
 mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
 [<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
 [<dreamcraft:item.CopperWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
-//Golden Caped Wand
+//Golden Caped Wooden Wand
 mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCasting:3>.withTag({cap: "gold", rod: "wood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
 [<dreamcraft:item.GoldWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+
+//Silver Bossed Wooden Wand
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCasting:4>.withTag({cap: "silver", rod: "wood"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.ChargedSilverWandCap>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+
+//Thaumium Caped Wooden Wand
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCasting:6>.withTag({cap: "thaumium", rod: "wood"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
 //Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
@@ -247,11 +286,46 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:6>.wit
 [<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
 [<dreamcraft:item.CopperWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
-//Gold Capped Greatwood Wand
+//Gold Banded Greatwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:9>.withTag({cap: "gold", rod: "greatwood"}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
 [<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
 [<dreamcraft:item.GoldWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+//Charged Silver Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_silver");
+mods.thaumcraft.Research.addPage("CAP_silver", "tc.research_page.CAP_silver.1");
+mods.thaumcraft.Infusion.addRecipe("CAP_silver", <Thaumcraft:WandCap:5>, [<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>],  "auram 18, potentia 30, praecantatio 18", <dreamcraft:item.ChargedSilverWandCap>, 5);
+mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCap:5>);
+mods.thaumcraft.Research.addInfusionPage("CAP_silver", <dreamcraft:item.ChargedSilverWandCap>);
+
+//Charged Thaumium Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_thaumium");
+mods.thaumcraft.Research.addPage("CAP_thaumium", "tc.research_page.CAP_thaumium.1");
+mods.thaumcraft.Infusion.addRecipe("CAP_thaumium", <Thaumcraft:WandCap:6>, [<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>],  "auram 25, potentia 40, praecantatio 25", <dreamcraft:item.ChargedThaumiumWandCap>, 5);
+mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCap:6>);
+mods.thaumcraft.Research.addInfusionPage("CAP_thaumium", <dreamcraft:item.ChargedThaumiumWandCap>);
+
+//Silver Bossed Greatwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:12>.withTag({cap: "silver", rod: "greatwood"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedSilverWandCap>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+//Thaumium Bossed Greatwood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:18>.withTag({cap: "thaumium", rod: "greatwood"}), "aer 45, terra 45, ignis 45, aqua 45, ordo 45, perditio 45", [
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+//Reed Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_reed", <TConstruct:trap.punji>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>],  "aer 48, motus 24, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:5>, 3);
+
+//Blaze Rod Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>],  "bestia 24, ignis 48, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:6>, 3);
+
+//Obsidian Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>],  " praecantatio 24, tenebrae 24, terra 48, vitreus 12", <Thaumcraft:WandRod:1>, 3);
 
 
 //Amber
@@ -274,6 +348,43 @@ mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:2
 
 //Fire Shards
 mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, "ignis 6, perditio 3, praecantatio 3, vitreus 10");
+
+
+//Air Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal>, "aer 20, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[<Thaumcraft:ItemShard>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard>],
+[null, <Thaumcraft:ItemShard>, null],
+[<Thaumcraft:ItemShard>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard>]]);
+
+//Fire Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:1>, "aer 10, terra 10, ignis 20, aqua 10, ordo 10, perditio 10", [
+[<Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:1>],
+[null, <Thaumcraft:ItemShard:1>, null],
+[<Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:1>]]);
+
+//Water Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:2>, "aer 10, terra 10, ignis 10, aqua 20, ordo 10, perditio 10", [
+[<Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:2>],
+[null, <Thaumcraft:ItemShard:2>, null],
+[<Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:2>]]);
+
+//Earth Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:3>, "aer 10, terra 20, ignis 10, aqua 10, ordo 10, perditio 10", [
+[<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:3>],
+[null, <Thaumcraft:ItemShard:3>, null],
+[<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:3>]]);
+
+//Order Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:4>, "aer 10, terra 10, ignis 10, aqua 10, ordo 20, perditio 10", [
+[<Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:4>],
+[null, <Thaumcraft:ItemShard:4>, null],
+[<Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:4>]]);
+
+//Entropy Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:5>, "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 20", [
+[<Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>],
+[null, <Thaumcraft:ItemShard:5>, null],
+[<Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>]]);
 
 
 //Assembler Recipes
@@ -326,3 +437,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
 mods.thaumcraft.Research.refreshResearchRecipe("GT_CRYSTALLISATION");
 //Void Wand Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_void");
+//Reed Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed");
+//Blaze Rod Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze");
+//Obsidian Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian");

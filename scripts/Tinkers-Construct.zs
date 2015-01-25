@@ -211,6 +211,9 @@ recipes.remove(<TConstruct:blankPattern>);
 // --- Stone Ladder
 recipes.remove(<TConstruct:decoration.stoneladder>);
 
+// --- Punji Sticks ---
+recipes.remove(<TConstruct:trap.punji>);
+
 
 // --- Gear ---
 
@@ -302,6 +305,12 @@ recipes.addShaped(<TConstruct:decoration.stoneladder>, [
 [<ForgeMicroblock:stoneRod>, HHammer, <ForgeMicroblock:stoneRod>],
 [<ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>],
 [<ForgeMicroblock:stoneRod>, File, <ForgeMicroblock:stoneRod>]]);
+
+// --- Punji Sticks ---
+recipes.addShaped(<TConstruct:trap.punji> * 2, [
+[<minecraft:reeds>, <ore:stickWood>, <minecraft:reeds>],
+[String, <minecraft:reeds>, String],
+[<minecraft:reeds>, <ore:stickWood>, <minecraft:reeds>]]);
 
 
 // --- Gear ---
