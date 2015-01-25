@@ -2,6 +2,7 @@
 
 //Imports
 
+import mods.ic2.Compressor;
 import mods.ic2.Macerator;
 
 //remove Recipes
@@ -78,3 +79,10 @@ Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
 
 //large Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
+
+
+//Compressor Recipes
+
+//Hardened Ice
+
+Compressor.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice> * 16);

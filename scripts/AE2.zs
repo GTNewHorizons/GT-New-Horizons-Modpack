@@ -6,6 +6,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
+import mods.gregtech.Electrolyzer;
 import mods.ic2.Macerator;
 import mods.nei.NEI;
 import mods.gregtech.Wiremill;
@@ -1039,3 +1040,10 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 200, 128);
 
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
+
+
+//Electrolyzer Recipes
+
+//Charged Certus Quartz
+
+Electrolyzer.addRecipe([<gregtech:gt.metaitem.01:8517>, null, null, null], <gregtech:gt.metaitem.01:8516>, 0, 2000, 30);

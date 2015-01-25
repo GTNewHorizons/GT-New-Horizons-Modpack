@@ -89,6 +89,8 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:3>);
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:4>);
 //Bone Wand Core
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:7>);
+//Silverwood Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:2>);
 //Air Crystal Cluster
 recipes.remove(<Thaumcraft:blockCrystal>);
 //Fire Crystal Cluster
@@ -101,6 +103,8 @@ recipes.remove(<Thaumcraft:blockCrystal:3>);
 recipes.remove(<Thaumcraft:blockCrystal:4>);
 //Entropy Crystal Cluster
 recipes.remove(<Thaumcraft:blockCrystal:5>);
+//Mixed Crystal Cluster
+recipes.remove(<Thaumcraft:blockCrystal:6>);
 
 
 //Remove Furnace Recipes
@@ -140,7 +144,7 @@ recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
 [<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>]]);
 
 //Iron Wand Cap
-recipes.addShaped(<Thaumcraft:WandCap>, [
+recipes.addShaped(<dreamcraft:item.IronWandCap>, [
 [null, <ore:foilIron>, null],
 [<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
 [null, <ore:foilIron>, null]]);
@@ -195,9 +199,9 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "
 
 //Iron Capped Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>, [
-[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <Thaumcraft:WandCap>],
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.IronWandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<Thaumcraft:WandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 
 //Copper Caped Wooden Wand
 mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
@@ -269,16 +273,16 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
 //Greatwood Rood
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "terra 20, aqua 20, perditio 20", [
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <Thaumcraft:blockMagicalLog>],
 [null, <Thaumcraft:blockMagicalLog>, null],
 [<Thaumcraft:blockMagicalLog>, null, null]]);
 
 //Iron Capped Greatwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:3>.withTag({cap: "iron", rod: "greatwood"}), "aer 22, terra 22, ignis 22, aqua 22, ordo 22, perditio 22",  [
-[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <Thaumcraft:WandCap>],
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.IronWandCap>],
 [<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
-[<Thaumcraft:WandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 //Copper Capped Greatwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:6>.withTag({cap: "copper", rod: "greatwood"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
@@ -326,6 +330,18 @@ mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>, [<Thaumcr
 
 //Obsidian Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>],  " praecantatio 24, tenebrae 24, terra 48, vitreus 12", <Thaumcraft:WandRod:1>, 3);
+
+//Icy Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>],  " aqua 48, gelum 24, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:3>, 3);
+
+//Quartz Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_quartz", <gregtech:gt.metaitem.01:23517>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>],  " ordo 48, praecantatio 24, potentia 24, vitreus 12", <Thaumcraft:WandRod:4>, 3);
+
+//Bone Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_bone", <TConstruct:toolRod:5>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>],  " exanimis 24, perditio 48, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:7>, 3);
+
+//Silverwood Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_silverwood", <Thaumcraft:blockMagicalLog:1>, [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>],  " aer 64, aqua 64, ignis 64, ordo 64, perditio 64, praecantatio 64, terra 64", <Thaumcraft:WandRod:2>, 5);
 
 
 //Amber
@@ -386,6 +402,12 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:5>, "aer 10
 [null, <Thaumcraft:ItemShard:5>, null],
 [<Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:5>]]);
 
+//Mixed Crystal Cluster
+mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:6>, "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[<Thaumcraft:ItemShard>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>],
+[<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>],
+[<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>]]);
+
 
 //Assembler Recipes
 
@@ -441,5 +463,13 @@ mods.thaumcraft.Research.refreshResearchRecipe("CAP_void");
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed");
 //Blaze Rod Wand Core
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze");
-//Obsidian Rod
+//Obsidian Wand Core
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian");
+//Icy Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice");
+//Quartz Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz");
+//Bone Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
+//Silverwood Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
