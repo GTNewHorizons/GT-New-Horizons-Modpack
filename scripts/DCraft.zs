@@ -108,8 +108,6 @@ Assembler.addRecipe(<dreamcraft:item.SteelBars> * 4, <gregtech:gt.metaitem.01:23
 //Lich Bone
 Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 64);
 
-//Hydra Blood
-Assembler.addRecipe(<dreamcraft:item.HydraBlood>, <Thaumcraft:ItemResource:14> * 16, <TwilightForest:item.trophy> * 0, 1200, 128);
 
 //Extruder Recipes
 
