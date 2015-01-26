@@ -65,6 +65,8 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:3>);
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
 //Fire Shards
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
+//Balanced Shards
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:6>);
 //Quicksilver
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
 //Iron Capped Wand
@@ -107,8 +109,22 @@ recipes.remove(<Thaumcraft:blockCrystal:5>);
 recipes.remove(<Thaumcraft:blockCrystal:6>);
 //Primal Charm
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:15>);
-
-
+//Greatwood Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:50>);
+//Reed Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:55>);
+//Blaze Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:56>);
+//Obsidian Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:51>);
+//Icy Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:53>);
+//Quartz Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:54>);
+//Bone Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:57>);
+//Silverwood Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:52>);
 
 //Remove Furnace Recipes
 
@@ -162,8 +178,6 @@ mods.thaumcraft.Research.addPage("RESEARCH", "tc.research_page.RESEARCH.10");
 mods.thaumcraft.Research.addPage("RESEARCH", "tc.research_page.RESEARCH.11");
 mods.thaumcraft.Research.addPage("RESEARCH", "tc.research_page.RESEARCH.12");
 
-
-
 //Iron Wand Cap
 mods.thaumcraft.Research.clearPages("BASICTHAUMATURGY");
 mods.thaumcraft.Research.addPage("BASICTHAUMATURGY", "tc.research_page.BASICTHAUMATURGY.1");
@@ -173,7 +187,6 @@ recipes.addShaped(<dreamcraft:item.IronWandCap>, [
 [<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
 [null, <ore:foilIron>, null]]);
 mods.thaumcraft.Research.addCraftingPage("BASICTHAUMATURGY", <dreamcraft:item.IronWandCap>);
-
 
 //Copper Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_copper");
@@ -382,9 +395,9 @@ mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:6>.withTag(
 
 //Copper Capped Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "reed"}), "aer 27, terra 55, ignis 55, aqua 55, ordo 55, perditio 55", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>],
+[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <dreamcraft:item.HydraBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 //Gold Banded Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "reed"}), "aer 30, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
@@ -556,33 +569,33 @@ mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:36>.withTag
 
 //Iron Capped Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.IronWandCap>],
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.IronWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.IronWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 //Copper Capped Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.CopperWandCap>],
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CopperWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.CopperWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 //Gold Banded Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), "aer 85, terra 85, ignis 85, aqua 85, ordo 85, perditio 85", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.GoldWandCap>],
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.GoldWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.GoldWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 //Silver Bossed Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSilverWandCap>],
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 //Thaumium Bossed Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 //Primal Charm
 mods.thaumcraft.Research.clearPages("BASICARTIFACE");
@@ -596,6 +609,114 @@ mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBauble
 mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>);
 mods.thaumcraft.Research.addCraftingPage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:2>);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:10>);
+
+//Greatwood Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandRod:50>, "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Reed Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandRod:55>, "aer 125, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:5>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:5>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Blaze Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandRod:56>, "aer 100, terra 100, ignis 125, aqua 100, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:6>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Obsidian Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_obsidian_staff", <Thaumcraft:WandRod:51>, "aer 100, terra 125, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:1>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:1>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Icy Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandRod:53>, "aer 100, terra 100, ignis 100, aqua 125, ordo 100, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:3>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Quartz Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_quartz_staff", <Thaumcraft:WandRod:54>, "aer 100, terra 100, ignis 100, aqua 100, ordo 125, perditio 100", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:4>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:4>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Bone Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandRod:57>, "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 125", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:7>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:7>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Silverwood Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandRod:52>, "aer 175, terra 175, ignis 175, aqua 175, ordo 175, perditio 175", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:2>, <Thaumcraft:blockCrystal:3>],
+[<Thaumcraft:WandRod:2>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+
+//Iron Capped Greatwood Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:8>.withTag({cap: "iron", rod: "greatwood_staff"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100",  [
+[<TwilightForest:item.carminite>, <ore:screwTungstenSteel>, <dreamcraft:item.IronWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:50>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.carminite>]]);
+
+//Copper Capped Greatwood Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:16>.withTag({cap: "copper", rod: "greatwood_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
+[<TwilightForest:item.carminite>, <ore:screwTungstenSteel>, <dreamcraft:item.CopperWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:50>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.carminite>]]);
+
+//Gold Banded Greatwood Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:24>.withTag({cap: "gold", rod: "greatwood_staff"}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
+[<TwilightForest:item.carminite>, <ore:screwTungstenSteel>, <dreamcraft:item.GoldWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:50>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.carminite>]]);
+
+//Silver Bossed Greatwood Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:32>.withTag({cap: "silver", rod: "greatwood_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
+[<TwilightForest:item.carminite>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSilverWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:50>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.carminite>]]);
+
+//Thaumium Bossed Greatwood Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:48>.withTag({cap: "thaumium", rod: "greatwood_staff"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.carminite>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:50>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.carminite>]]);
+
+//Iron Capped Reed Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:14>.withTag({cap: "iron", rod: "reed_staff"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100",  [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.IronWandCap>],
+[<ore:screwChrome>, <Thaumcraft:WandRod:55>, <ore:screwChrome>],
+[<dreamcraft:item.IronWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+//Copper Capped Reed Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:28>.withTag({cap: "copper", rod: "reed_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.CopperWandCap>],
+[<ore:screwChrome>, <Thaumcraft:WandRod:55>, <ore:screwChrome>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+//Gold Banded Reed Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "gold", rod: "reed_staff"}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.GoldWandCap>],
+[<ore:screwChrome>, <Thaumcraft:WandRod:55>, <ore:screwChrome>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+//Silver Bossed Reed Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "reed_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.ChargedSilverWandCap>],
+[<ore:screwChrome>, <Thaumcraft:WandRod:55>, <ore:screwChrome>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+//Thaumium Bossed Reed Staff Wand
+mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "reed_staff"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<ore:screwChrome>, <Thaumcraft:WandRod:55>, <ore:screwChrome>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
 
 
 //Amber
@@ -618,7 +739,6 @@ mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:2
 
 //Fire Shards
 mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, "ignis 6, perditio 3, praecantatio 3, vitreus 10");
-
 
 //Air Crystal Cluster
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal>, "aer 20, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
@@ -729,3 +849,21 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
 //Primal Charm
 mods.thaumcraft.Research.refreshResearchRecipe("BASICARTIFACE");
+//Crucible and Shards and Salis Mundus
+mods.thaumcraft.Research.refreshResearchRecipe("CRUCIBLE");
+//Greatwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood_staff");
+//Reed Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed_staff");
+//Blaze Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze_staff");
+//Obsidian Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian_staff");
+//Icy Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice_staff");
+//Quartz Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz_staff");
+//Bone Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone_staff");
+//Silverwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood_staff");
