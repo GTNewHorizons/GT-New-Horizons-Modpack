@@ -94,6 +94,7 @@ recipes.addShaped(<dreamcraft:item.VoidRing>, [
 //Void Metal Plate
 AlloySmelter.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, <gregtech:gt.metaitem.01:32301> * 0, 2400, 32);
 
+
 //Assembler Recipes
 
 //Master Circuit
@@ -107,6 +108,9 @@ Assembler.addRecipe(<dreamcraft:item.SteelBars> * 4, <gregtech:gt.metaitem.01:23
 
 //Lich Bone
 Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 64);
+
+//Snow Queen Blood
+Assembler.addRecipe(<dreamcraft:item.SnowQueenBlood>, <Thaumcraft:ItemResource:14> * 64, <TwilightForest:item.trophy:4> * 0, 1800, 512);
 
 
 //Extruder Recipes
@@ -140,6 +144,7 @@ PlateBender.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>,
 
 //Void Metal Foil
 PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate>, 600, 24);
+
 
 //Ore Dicted
 
