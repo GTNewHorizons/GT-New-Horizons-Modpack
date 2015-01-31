@@ -240,6 +240,9 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
 
+//Minced Meat
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2>);
+
 //Shards Dust Blast Furnace
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <gregtech:gt.metaitem.01:2540>, 320, 100, 1200);
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <gregtech:gt.metaitem.01:2541>, 320, 100, 1200);

@@ -125,6 +125,22 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:54>);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:57>);
 //Silverwood Staff Core
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:52>);
+//Fire Wand Focus
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFire>);
+//Nitor
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
+//Alumentum
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource>);
+//Magic Tallow
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:4>);
+//Withe Tallow Candle
+recipes.remove(<Thaumcraft:blockCandle>);
+//Block of Tallow
+recipes.remove(<Thaumcraft:blockCosmeticSolid:5>);
+//Magic tallow
+recipes.remove(<Thaumcraft:ItemResource:4>);
+//Block of Flesh
+recipes.remove(<Thaumcraft:blockTaint:2>);
 
 //Remove Furnace Recipes
 
@@ -155,6 +171,62 @@ furnace.addRecipe(<Thaumcraft:ItemNugget:7> * 2, <dreamcraft:item.VoidFoil>);
 
 //add Recipes
 
+//Research Expertise
+mods.thaumcraft.Research.setAspects("RESEARCHER1", "cognitio 2, sensus 2, ordo 2, lux 2");
+mods.thaumcraft.Research.setComplexity("RESEARCHER1", 2);
+
+//advanced Node Tapping
+mods.thaumcraft.Research.setAspects("NODETAPPER1", "permutatio 2, auram 2, praecantatio 2, motus 2");
+mods.thaumcraft.Research.setComplexity("NODETAPPER1", 3);
+
+//Fire Wand Focus
+mods.thaumcraft.Arcane.addShaped("FOCUSFIRE", <Thaumcraft:FocusFire>, "ignis 22, perditio 22, aer 22", [
+[<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>],
+[<ore:gemQuartz>, <TConstruct:materials:7>, <ore:gemQuartz>],
+[<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSFIRE", "ignis 2, praecantatio 2, lux 2, motus 2");
+mods.thaumcraft.Research.setComplexity("FOCUSFIRE", 3);
+
+//Nitor
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <minecraft:glowstone>, "ignis 15, lux 15, potentia 15");
+
+mods.thaumcraft.Research.setAspects("NITOR", "lux 2, ignis 2, praecantatio 2, ordo 2");
+mods.thaumcraft.Research.setComplexity("NITOR", 2);
+
+//Allumentum
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <minecraft:coal_block>, "ignis 15, perditio 15, potentia 15");
+
+mods.thaumcraft.Research.setAspects("ALUMENTUM", "potentia 2, ignis 2, praecantatio 2, perditio 2");
+mods.thaumcraft.Research.setComplexity("ALUMENTUM", 2);
+
+//Magic Tallow
+mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <Thaumcraft:blockTaint:2>, "praecantatio 10, corpus 10, mortuus 10");
+
+mods.thaumcraft.Research.setAspects("TALLOW", "corpus 2, praecantatio 2, machina 2, motus 2");
+mods.thaumcraft.Research.setComplexity("TALLOW", 2);
+
+//Withe Tallow Candle
+mods.thaumcraft.Research.clearPages("TALLOW");
+mods.thaumcraft.Research.addPage("TALLOW", "tc.research_page.TALLOW.1");
+mods.thaumcraft.Arcane.addShaped("TALLOW", <Thaumcraft:blockCandle>, "ignis 10, ordo 10", [
+[null, <minecraft:string>, null],
+[null, <Thaumcraft:ItemResource:4>, null],
+[null, <Thaumcraft:ItemResource:4>, null]]);
+mods.thaumcraft.Research.addCruciblePage("TALLOW", <Thaumcraft:ItemResource:4>);
+mods.thaumcraft.Research.addArcanePage("TALLOW", <Thaumcraft:blockCandle>);
+
+//Paving Stone of Travel
+mods.thaumcraft.Research.setAspects("PAVETRAVEL", "iter 2, volatus 2, terra 2, motus 2");
+mods.thaumcraft.Research.setComplexity("PAVETRAVEL", 2);
+
+//Paving Stone of Warding
+mods.thaumcraft.Research.setAspects("PAVEWARD", "motus 2, bestia 2, vinculum 2, telum 2");
+mods.thaumcraft.Research.setComplexity("PAVEWARD", 2);
+
+//Hungry Chest
+mods.thaumcraft.Research.setAspects("HUNGRYCHEST", "fames 2, vacuos 2, arbor 2");
+mods.thaumcraft.Research.setComplexity("HUNGRYCHEST", 2);
 
 //Thaumometer
 recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
@@ -305,8 +377,17 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({
 //Thaumium Block
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:2> * 9);
 
+//Block of Tallow
+Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:5>, <Thaumcraft:ItemResource:4> * 9);
+
+//Block of Flesh
+Compressor.addRecipe(<Thaumcraft:blockTaint:2>, <minecraft:rotten_flesh> * 9);
+
 //Thaumium Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2330> * 9, <Thaumcraft:blockCosmeticSolid:4>);
+
+//Magic Tallow
+Macerator.addRecipe(<Thaumcraft:ItemResource:4> * 9, <Thaumcraft:blockCosmeticSolid:5>);
 
 //Arcane Stone
 mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6> * 9, "aer 9, terra 9, ignis 9, aqua 9, ordo 9, perditio 9",[
@@ -332,6 +413,9 @@ mods.thaumcraft.Arcane.addShaped("GOGGLES", <Thaumcraft:ItemGoggles> , "aer 30, 
 [<ore:ringGold>, null, <ore:ringGold>],
 [<Thaumcraft:ItemThaumometer>, <ore:stickGold>, <Thaumcraft:ItemThaumometer>]]);
 
+mods.thaumcraft.Research.setAspects("GOGGLES", "auram 2, praecantatio 2, sensus 2");
+mods.thaumcraft.Research.setComplexity("GOGGLES", 2);
+
 //Table
 recipes.addShaped(<Thaumcraft:blockTable>, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
@@ -350,11 +434,17 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<minecraft:string>, <harvestcraft:wovencottonItem>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
+mods.thaumcraft.Research.setAspects("ENCHFABRIC", "pannus 2, praecantatio 2");
+mods.thaumcraft.Research.setComplexity("ENCHFABRIC", 3);
+
 //Greatwood Rood
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <Thaumcraft:blockMagicalLog>],
 [null, <Thaumcraft:blockMagicalLog>, null],
 [<Thaumcraft:blockMagicalLog>, null, null]]);
+
+mods.thaumcraft.Research.setAspects("ROD_greatwood", "instrumentum 2, praecantatio 2, arbor 2");
+mods.thaumcraft.Research.setComplexity("ROD_greatwood", 2);
 
 //Iron Capped Greatwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:3>.withTag({cap: "iron", rod: "greatwood"}), "aer 22, terra 22, ignis 22, aqua 22, ordo 22, perditio 22",  [
@@ -1569,3 +1659,11 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone_staff");
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood_staff");
 //Scepters
 mods.thaumcraft.Research.refreshResearchRecipe("SCEPTRE");
+//Fire Wand Focus
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSFIRE");
+//Nitor
+mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
+//Alumentum
+mods.thaumcraft.Research.refreshResearchRecipe("ALUMENTUM");
+//Magic Tallow
+mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");

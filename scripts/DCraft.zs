@@ -16,8 +16,6 @@ import mods.gregtech.PlateBender;
 // --- Variables ---
 
 
-val Worktable = <RotaryCraft:rotarycraft_item_machine:75>;
-val BFurnace = <RotaryCraft:rotarycraft_item_machine:45>;
 val HSLAIngot = <ore:ingotHSLA>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
@@ -31,24 +29,9 @@ val Charcoal = <ore:gemCharcoal>;
 // --- Removing Recipes ---
 
 
-// --- Blast Furnace
-recipes.remove(BFurnace);
-
 
 // --- Adding Back Recipes ---
 
-
-// --- Blast Furnace
-recipes.addShaped(BFurnace, [
-[BFurnace, BFurnace, BFurnace],
-[BFurnace, BFurnace, BFurnace],
-[BFurnace, BFurnace, BFurnace]]);
-
-// --- Worktable
-recipes.addShaped(Worktable, [
-[Worktable, Worktable, Worktable],
-[Worktable, Worktable, Worktable],
-[Worktable, Worktable, Worktable]]);
 
 // --- Sandstone Rod
 recipes.addShaped(SandstoneRod, [
@@ -167,21 +150,4 @@ oreDict.ringVoid.add(<dreamcraft:item.VoidRing>);
 oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
 
 
-// --- Magnetite Ore
-oreDict.oreMagnetite.remove(<ReactorCraft:reactorcraft_block_ore:8>);
-
-// --- Gem Magnetite
-
-oreDict.oregemMagnetite.remove(<RotaryCraft:rotarycraft_item_modingots:65>);
-
-furnace.remove(<ReactorCraft:reactorcraft_item_raw:6>);
-
-
 // --- Hiding Stuff ----
-
-
-// --- Blast Furnace
-NEI.hide(BFurnace);
-
-// --- Worktable
-NEI.hide(Worktable);
