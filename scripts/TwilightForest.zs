@@ -23,6 +23,9 @@ recipes.remove(<TwilightForest:item.carminite>);
 // --- Carminite Reactor
 recipes.remove(CarminiteReactor);
 
+//Fiery Ingot
+recipes.removeShapeless(<TwilightForest:item.fieryIngot>);
+
 
 
 // --- Adding Recipes ---

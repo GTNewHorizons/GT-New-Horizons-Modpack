@@ -312,6 +312,15 @@ recipes.addShaped(<TConstruct:trap.punji> * 2, [
 [String, <minecraft:reeds>, String],
 [<minecraft:reeds>, <ore:stickWood>, <minecraft:reeds>]]);
 
+//Ball of Moss
+mods.thaumcraft.Research.addResearch("BALLOFMOSS", "BASICARTIFACE", "sano 200, terra 200, instrumentum 100", 4, 10, 12, <TConstruct:materials:6>);
+game.setLocalization("en_US", "tc.research_name.BALLOFMOSS", "Ball of Moss");
+game.setLocalization("en_US", "tc.research_text.BALLOFMOSS", "Your Tools repair itselfs.");
+mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "BASICARTIFACE", false);
+mods.thaumcraft.Research.addPage("BALLOFMOSS", "tinkerconstruct.research_page.BALLOFMOSS");
+game.setLocalization("en_US", "tinkerconstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools. Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear. Effects: The tool slowly repair itself, Sunlight speeds up the process.");
+mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <TConstruct:materials:6>, [<gregtech:gt.metaitem.01:17542>, <TwilightForest:tile.TFPlant:3>, <gregtech:gt.metaitem.01:17542>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:17542>, <TwilightForest:tile.TFPlant:3>, <gregtech:gt.metaitem.01:17542>], "sano 30, terra 25, instrumentum 35", <Thaumcraft:ItemResource:15>, 5);
+mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
 
 // --- Gear ---
 

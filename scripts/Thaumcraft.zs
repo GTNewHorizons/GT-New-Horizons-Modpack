@@ -141,6 +141,10 @@ recipes.remove(<Thaumcraft:blockCosmeticSolid:5>);
 recipes.remove(<Thaumcraft:ItemResource:4>);
 //Block of Flesh
 recipes.remove(<Thaumcraft:blockTaint:2>);
+//Paving Stone of Travel
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:2>);
+//Paving Stone of Warding
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:3>);
 
 //Remove Furnace Recipes
 
@@ -217,10 +221,21 @@ mods.thaumcraft.Research.addCruciblePage("TALLOW", <Thaumcraft:ItemResource:4>);
 mods.thaumcraft.Research.addArcanePage("TALLOW", <Thaumcraft:blockCandle>);
 
 //Paving Stone of Travel
+mods.thaumcraft.Research.clearPages("PAVETRAVEL");
+mods.thaumcraft.Research.addPage("PAVETRAVEL", "tc.research_page.PAVETRAVEL.1");
+mods.thaumcraft.Infusion.addRecipe("PAVETRAVEL", <Thaumcraft:blockCosmeticSolid:7>, [<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:17542>, <gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:17542>, <gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:17542>], "motus 15, potentia 10, terra 10", <Thaumcraft:blockCosmeticSolid:2>, 2);
+mods.thaumcraft.Research.addInfusionPage("PAVETRAVEL", <Thaumcraft:blockCosmeticSolid:2>);
+
 mods.thaumcraft.Research.setAspects("PAVETRAVEL", "iter 2, volatus 2, terra 2, motus 2");
 mods.thaumcraft.Research.setComplexity("PAVETRAVEL", 2);
 
 //Paving Stone of Warding
+mods.thaumcraft.Research.clearPages("PAVEWARD");
+mods.thaumcraft.Research.addPage("PAVEWARD", "tc.research_page.PAVEWARD.1");
+mods.thaumcraft.Infusion.addRecipe("PAVEWARD", <Thaumcraft:blockCosmeticSolid:7>, [<gregtech:gt.metaitem.01:17545>, <gregtech:gt.metaitem.01:17541>, <gregtech:gt.metaitem.01:17545>, <gregtech:gt.metaitem.01:17541>, <gregtech:gt.metaitem.01:17545>, <gregtech:gt.metaitem.01:17541>], "ordo 15, sensus 10, telum 10", <Thaumcraft:blockCosmeticSolid:3>, 2);
+mods.thaumcraft.Research.addInfusionPage("PAVEWARD", <Thaumcraft:blockCosmeticSolid:3>);
+mods.thaumcraft.Research.addPage("PAVEWARD", "tc.research_page.PAVEWARD.2");
+
 mods.thaumcraft.Research.setAspects("PAVEWARD", "motus 2, bestia 2, vinculum 2, telum 2");
 mods.thaumcraft.Research.setComplexity("PAVEWARD", 2);
 
@@ -392,7 +407,7 @@ Macerator.addRecipe(<Thaumcraft:ItemResource:4> * 9, <Thaumcraft:blockCosmeticSo
 //Arcane Stone
 mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6> * 9, "aer 9, terra 9, ignis 9, aqua 9, ordo 9, perditio 9",[
 [<ore:stone>, <ore:stone>, <ore:stone>],
-[<ore:stone>, <Thaumcraft:ItemShard:*>, <ore:stone>],
+[<ore:stone>, <Thaumcraft:blockCrystal:*>, <ore:stone>],
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
 //Arcane Pedstal
@@ -1667,3 +1682,5 @@ mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
 mods.thaumcraft.Research.refreshResearchRecipe("ALUMENTUM");
 //Magic Tallow
 mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
+//Paving Stone of Travel
+mods.thaumcraft.Research.refreshResearchRecipe("PAVETRAVEL");

@@ -171,6 +171,8 @@ recipes.remove(<IC2:reactorHeatSwitchDiamond>);
 recipes.remove(<IC2:reactorCondensator>);
 //LZH Condensator
 recipes.remove(<IC2:reactorCondensatorLap>);
+//Treetap
+recipes.remove(<IC2:itemTreetap>);
 
 
 
@@ -473,6 +475,13 @@ recipes.addShaped(<IC2:reactorCondensatorLap>, [
 [<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread>, <ore:plateDoubleRedAlloy>]]);
 
 recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:9999>, <ore:plateLapis>, <ore:plateLapis>, <minecraft:lapis_block>]);
+
+//Treetap
+recipes.addShaped(<IC2:itemTreetap>, [
+[<ore:craftingToolHardHammer>, <ore:screwWood>, <ore:craftingToolScrewdriver>],
+[<ore:pipeMediumWood>, <ore:pipeMediumWood>, <ore:pipeSmallWood>],
+[<ore:pipeLargeWood>, <ore:craftingToolSaw>, <ore:craftingToolFile>]]);
+
 
 //Assembler Recipes
 
