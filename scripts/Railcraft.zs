@@ -1029,7 +1029,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.track:10192>.withTag({track: "railcr
 // --- H.S Track ---
 recipes.addShaped(<Railcraft:tile.railcraft.track:816>.withTag({track: "railcraft:track.speed"}) * 8, [
 [TitaniumScrew, null, TitaniumScrew],
-[HsTrack, StoneRailbed, HsTrack],
+[HsRail, StoneRailbed, HsRail],
 [Screwdriver, null, HHammer]]);
 
 // --- H.S Booster Track ---
