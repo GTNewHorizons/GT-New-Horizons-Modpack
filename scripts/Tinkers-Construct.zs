@@ -214,6 +214,14 @@ recipes.remove(<TConstruct:decoration.stoneladder>);
 // --- Punji Sticks ---
 recipes.remove(<TConstruct:trap.punji>);
 
+//Aluminium Ingot
+furnace.remove(<TConstruct:materials:11>);
+
+//Alluminium Nuggets
+recipes.remove(<TConstruct:materials:22>);
+
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:22>);
+
 
 // --- Gear ---
 
