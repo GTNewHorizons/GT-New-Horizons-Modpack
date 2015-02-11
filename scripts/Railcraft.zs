@@ -16,6 +16,7 @@ import mods.gregtech.PlateBender;
 val IronPlate = <ore:plateAnyIron>;
 val GlassPane = <ore:paneGlass>;
 val IronBars = <minecraft:iron_bars>;
+val SteelBars = <dreamcraft:item.SteelBars>;
 val SteelPlate = <ore:plateSteel>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
 val Plank = <ore:plankWood>;
@@ -328,15 +329,15 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta>, [
 
 // --- Iron Tank Gauge ---
 recipes.removeShaped(IronTankGauge, [
-[GlassPane, IronPlate,GlassPane],
+[GlassPane, IronPlate, GlassPane],
 [IronPlate, GlassPane, IronPlate],
-[GlassPane, IronPlate,GlassPane]]);
+[GlassPane, IronPlate, GlassPane]]);
 
 // --- Iron Tank Valve ---
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
-[IronBars, IronPlate,IronBars],
+[IronBars, IronPlate, IronBars],
 [IronPlate, Lever, IronPlate],
-[IronBars, IronPlate,IronBars]]);
+[IronBars, IronPlate, IronBars]]);
 
 // --- Solid Fueled Boiler Firebox ---
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:5>);
@@ -371,15 +372,15 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:13>, [
 
 // --- Steel Tank Gauge ---
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:14>, [
-[GlassPane, SteelPlate,GlassPane],
+[GlassPane, SteelPlate, GlassPane],
 [SteelPlate, GlassPane, SteelPlate],
-[GlassPane, SteelPlate,GlassPane]]);
+[GlassPane, SteelPlate, GlassPane]]);
 
 // --- Steel Tank Valve ---
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
-[IronBars, SteelPlate,IronBars],
+[IronBars, SteelPlate, IronBars],
 [SteelPlate, <minecraft:lever>, SteelPlate],
-[IronBars, SteelPlate,IronBars]]);
+[IronBars, SteelPlate, IronBars]]);
 
 // --- Anchor Sentinel ---
 recipes.remove(<Railcraft:tile.railcraft.machine.beta:10>);
@@ -760,14 +761,14 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta> *4, [
 [IronScrew, IronPlate, IronScrew]]);
 
 // --- Iron Tank Gauge ---
-recipes.addShaped(IronTankGauge * 2, [
-[IronScrew, <Railcraft:tile.railcraft.machine.beta>, IronScrew],
+recipes.addShaped(IronTankGauge, [
+[IronScrew, IronPlate, IronScrew],
 [ClearGlassP, Screwdriver, ClearGlassP],
 [IronScrew, IronPlate, IronScrew]]);
 
 // --- Iron Tank Valve ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
-[IronScrew, <Railcraft:tile.railcraft.machine.beta>, IronScrew],
+[IronScrew, BronzePipe, IronScrew],
 [IronBars, Screwdriver, IronBars],
 [IronScrew, BronzePipe, IronScrew]]);
 
@@ -778,15 +779,15 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:13> *4, [
 [SteelScrew, SteelPlate, SteelScrew]]);
 
 // --- Steel Tank Gauge ---
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:14> *2, [
-[SteelScrew, <Railcraft:tile.railcraft.machine.beta:13>, SteelScrew],
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:14>, [
+[SteelScrew, SteelPlate, SteelScrew],
 [IronTankGauge, Screwdriver, IronTankGauge],
 [SteelScrew, SteelPlate, SteelScrew]]);
 
 // --- Steel Tank Valve ---
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
-[SteelScrew, <Railcraft:tile.railcraft.machine.beta:13>, SteelScrew],
-[IronBars, Screwdriver, IronBars],
+[SteelScrew, SteelPipe, SteelScrew],
+[SteelBars, Screwdriver, SteelBars],
 [SteelScrew, SteelPipe, SteelScrew]]);
 
 // --- Solid Fueled Boiler Firebox ---
