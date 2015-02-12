@@ -1017,57 +1017,6 @@
       ]
     },
     {
-      "blockid": "minecraft:ladder",
-      "metadata": [
-        4,
-        5,
-        3,
-        2
-      ],
-      "positions": [
-        {
-          "xCoord": 1,
-          "yCoord": 1,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 2,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 3,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 4,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 5,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 6,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 7,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 8,
-          "zCoord": 0
-        }
-      ]
-    },
-    {
       "blockid": "minecraft:stone_brick_stairs",
       "metadata": [
         1,
@@ -1126,6 +1075,57 @@
           "xCoord": 2,
           "yCoord": 5,
           "zCoord": 1
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:ladder",
+      "metadata": [
+        4,
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        {
+          "xCoord": 1,
+          "yCoord": 1,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 2,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 3,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 4,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 5,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 6,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 7,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 8,
+          "zCoord": 0
         }
       ]
     }

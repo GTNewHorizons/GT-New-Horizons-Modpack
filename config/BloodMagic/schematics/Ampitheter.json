@@ -4341,38 +4341,6 @@
       ]
     },
     {
-      "blockid": "minecraft:planks",
-      "metadata": [
-        5,
-        5,
-        5,
-        5
-      ],
-      "positions": [
-        {
-          "xCoord": 0,
-          "yCoord": -1,
-          "zCoord": 0
-        }
-      ]
-    },
-    {
-      "blockid": "AWWayofTime:blockSchemSaver",
-      "metadata": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "positions": [
-        {
-          "xCoord": 0,
-          "yCoord": 0,
-          "zCoord": 0
-        }
-      ]
-    },
-    {
       "blockid": "minecraft:lava",
       "metadata": [
         8,

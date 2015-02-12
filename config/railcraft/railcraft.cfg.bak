@@ -16,7 +16,7 @@ anchors {
     # 
     # change to interact.with.pipes=false to prevent pipes, tubes, or various other things from interacting with Anchors
     # 
-    B:interact.with.pipes=false
+    B:interact.with.pipes=true
 
     # 
     # change to personal.craftable=false to disable Personal Anchor crafting, they will still be available via Creative
@@ -210,7 +210,7 @@ recipes {
             # set the output of the creosote and woool recipe for torches, setting to 0 will disable'
             # min=0, default=6, max=16
             # 
-            I:creosote.torches=2
+            I:creosote.torches=6
 
             # 
             # change to 'gunpowder=false' to disable the sulfur, saltpeter, charcoal dust recipe for gunpowder
@@ -402,7 +402,7 @@ tweaks {
             # 
             # change the value to your desired max launch rail force, min=5, default=30, max=50
             # 
-            I:force.max=50
+            I:force.max=30
         }
 
     }
@@ -547,15 +547,15 @@ worldgen {
 
     generate {
         B:abyssal=true
-        B:copper=false
+        B:copper=true
         B:firestone=true
-        B:gold=false
-        B:iron=false
-        B:lead=false
+        B:gold=true
+        B:iron=true
+        B:lead=true
         B:quarried=true
-        B:saltpeter=false
-        B:sulfur=false
-        B:tin=false
+        B:saltpeter=true
+        B:sulfur=true
+        B:tin=true
         B:workshop=true
     }
 

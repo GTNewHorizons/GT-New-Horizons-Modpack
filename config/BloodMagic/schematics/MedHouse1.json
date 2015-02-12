@@ -7,6 +7,22 @@
   "buildingType": 0,
   "blockList": [
     {
+      "blockid": "AWWayofTime:blockDemonChest",
+      "metadata": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "positions": [
+        {
+          "xCoord": 3,
+          "yCoord": 1,
+          "zCoord": 0
+        }
+      ]
+    },
+    {
       "blockid": "minecraft:grass",
       "metadata": [
         0,
@@ -805,7 +821,7 @@
       ]
     },
     {
-      "blockid": "AWWayofTime:blockSchemSaver",
+      "blockid": "minecraft:stonebrick",
       "metadata": [
         0,
         0,

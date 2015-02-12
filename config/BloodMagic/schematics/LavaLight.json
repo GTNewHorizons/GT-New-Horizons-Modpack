@@ -7,7 +7,7 @@
   "buildingType": 0,
   "blockList": [
     {
-      "blockid": "minecraft:grass",
+      "blockid": "minecraft:stonebrick",
       "metadata": [
         0,
         0,
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "blockid": "AWWayofTime:blockSchemSaver",
+      "blockid": "minecraft:stonebrick",
       "metadata": [
         0,
         0,
