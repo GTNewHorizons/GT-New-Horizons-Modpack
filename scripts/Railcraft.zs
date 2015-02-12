@@ -851,10 +851,10 @@ Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, Obsi
 Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, SwitchLever, 800, 4);
 
 // --- Wooden Wye Track ---
-Assembler.addRecipe(<Railcraft:track:9007>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, SwitchMotor, 800, 4);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, SwitchMotor, 800, 4);
 
 // --- Wooden Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:15092>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
 
 // --- Switch Track ---
 Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, SwitchLever * 2, 800, 16);
@@ -863,13 +863,13 @@ Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.swit
 Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, SwitchMotor * 2, 800, 16);
 
 // --- Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:27187>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
 
 // --- Reinforced Switch Track ---
-Assembler.addRecipe(<Railcraft:track:8548>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, SwitchLever * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, SwitchLever * 4, 800, 64);
 
 // --- Reinforced Wye Track ---
-Assembler.addRecipe(<Railcraft:track:17067>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, SwitchMotor * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, SwitchMotor * 4, 800, 64);
 
 // --- Reinforced Junction Tack ---
 Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27316> * 4, 800, 64);
@@ -878,19 +878,19 @@ Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinf
 Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, SwitchLever * 4, 800, 64);
 
 // --- H.S. Wye Track ---
-Assembler.addRecipe(<Railcraft:track:3693>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, SwitchMotor * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, SwitchMotor * 4, 800, 64);
 
 // --- Electric Switch Track ---
 Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, SwitchLever * 2, 800, 32);
 
 // --- Electric Wye Track ---
-Assembler.addRecipe(<Railcraft:track:21975>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, SwitchMotor * 2, 800, 32);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, SwitchMotor * 2, 800, 32);
 
 // --- Electric Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:28410>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
 
 // --- Controll Track ---
-recipes.addShaped(<Railcraft:track:30872>.withTag({track: "railcraft:track.control"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.control"}), [
 [SteelScrew, RedAlloyRod, SteelScrew],
 [AdvancedRail, Track, AdvancedRail],
 [Screwdriver, RedAlloyRod, HHammer]]);
@@ -908,19 +908,19 @@ recipes.addShaped(<Railcraft:track:23575>.withTag({track: "railcraft:track.disem
 [Screwdriver, RedAlloyRod, HHammer]]);
 
 // --- Embarking Track ---
-recipes.addShaped(<Railcraft:track:19873>.withTag({track: "railcraft:track.embarking"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.embarking"}), [
 [SteelScrew, <ore:gemEnderEye>, SteelScrew],
 [AdvancedRail, WoodRailbed, AdvancedRail],
 [Screwdriver, <ore:gemEnderEye>, HHammer]]);
 
 // --- Coupler Track ---
-recipes.addShaped(<Railcraft:track:15297>.withTag({track: "railcraft:track.coupler"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.coupler"}), [
 [SteelScrew, <Railcraft:tool.crowbar.reinforced>, SteelScrew],
 [AdvancedRail, WoodRailbed, AdvancedRail],
 [Screwdriver, <Railcraft:tool.crowbar.reinforced>, HHammer]]);
 
 // --- Whistle Track ---
-recipes.addShaped(<Railcraft:track:20371>.withTag({track: "railcraft:track.whistle"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.whistle"}), [
 [IronScrew, <Railcraft:tool.whistle.tuner>, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <gregtech:gt.blockcasings3>, HHammer]]);
@@ -938,13 +938,13 @@ recipes.addShaped(<Railcraft:track:16093>.withTag({track: "railcraft:track.limit
 [Screwdriver, Detector, HHammer]]);
 
 // --- Routing Track ---
-recipes.addShaped(<Railcraft:track:5551>.withTag({track: "railcraft:track.routing"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.routing"}), [
 [IronScrew, RedAlloyPlate, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <Railcraft:routing.ticket>, HHammer]]);
 
 //-
-recipes.addShaped(<Railcraft:track:5551>.withTag({track: "railcraft:track.routing"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.routing"}), [
 [IronScrew, RedAlloyPlate, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <Railcraft:routing.ticket.gold>, HHammer]]);
@@ -962,13 +962,13 @@ recipes.addShaped(<Railcraft:track:30946>.withTag({track: "railcraft:track.onewa
 [Screwdriver, Piston, HHammer]]);
 
 // --- Directional Detector Track ---
-recipes.addShaped(<Railcraft:track:29918>.withTag({track: "railcraft:track.detector.direction"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.detector.direction"}), [
 [IronScrew, RedAlloyPlate, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, AdvancedDetector, HHammer]]);
 
 // --- Gated One Way Track
-recipes.addShaped(<Railcraft:track:10623>.withTag({track: "railcraft:track.gated.oneway"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.gated.oneway"}), [
 [SteelScrew, RedAlloyPlate, SteelScrew],
 [AdvancedRail, <Railcraft:track:19746>.withTag({track: "railcraft:track.gated"}), AdvancedRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
@@ -980,7 +980,7 @@ recipes.addShaped(<Railcraft:track:19746>.withTag({track: "railcraft:track.gated
 [Screwdriver, <minecraft:fence_gate>, HHammer]]);
 
 // --- Suspended Rail ---
-recipes.addShaped(<Railcraft:track:16504>.withTag({track: "railcraft:track.suspended"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.suspended"}), [
 [IronScrew, <Railcraft:post:2>, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <Railcraft:post:2>, HHammer]]);
@@ -998,7 +998,7 @@ recipes.addShaped(<Railcraft:track:736>.withTag({track: "railcraft:track.slow"})
 [Screwdriver, null, HHammer]]);
 
 // --- Wooden Booster Track ---
-recipes.addShaped(<Railcraft:track:20207>.withTag({track: "railcraft:track.slow.boost"}) * 4, [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.slow.boost"}) * 4, [
 [IronScrew, RedAlloyPlate, IronScrew],
 [AdvancedRail, WoodRailbed, AdvancedRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
@@ -1016,7 +1016,7 @@ recipes.addShaped(<Railcraft:track:24050>.withTag({track: "railcraft:track.reinf
 [Screwdriver, null, HHammer]]);
 
 // --- Reinfored Booster Track ---
-recipes.addShaped(<Railcraft:track:2101>.withTag({track: "railcraft:track.reinforced.boost"}) * 4, [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.boost"}) * 4, [
 [TungstensteelScrew, RedAlloyPlate, TungstensteelScrew],
 [ReinforedRail, StoneRailbed, ReinforedRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
@@ -1034,7 +1034,7 @@ recipes.addShaped(<Railcraft:track:816>.withTag({track: "railcraft:track.speed"}
 [Screwdriver, null, HHammer]]);
 
 // --- H.S Booster Track ---
-recipes.addShaped(<Railcraft:track:26933>.withTag({track: "railcraft:track.speed.boost"}) * 4, [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost"}) * 4, [
 [TitaniumScrew, RedAlloyPlate, TitaniumScrew],
 [HsRail, StoneRailbed, HsRail],
 [Screwdriver, RedAlloyPlate, HHammer]]);
@@ -1052,7 +1052,7 @@ recipes.addShaped(<Railcraft:track:8103>.withTag({track: "railcraft:track.primin
 [Screwdriver, <gregtech:gt.metaitem.01:32476>, HHammer]]);
 
 // --- Launcher Track ---
-recipes.addShaped(<Railcraft:track:6337>.withTag({track: "railcraft:track.launcher"}), [
+recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.launcher"}), [
 [TitaniumScrew, ReinforcedTrack, TitaniumScrew],
 [SteelBlock, Piston, SteelBlock],
 [Screwdriver, RedAlloyPlate, HHammer]]);
@@ -1489,7 +1489,7 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post:5>, [[null, <Railcraft:slab:2>,
 
 
 // --- Metal Platform ---
-mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:5>, null], [null, <Railcraft:post:2>, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>, null], [null, <Railcraft:post:2>, null]]);
 
 // --- Iron Stairs ---
 recipes.addShapedMirrored(IronStairs * 4, [
