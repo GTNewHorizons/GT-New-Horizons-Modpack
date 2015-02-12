@@ -101,9 +101,9 @@ recipes.addShaped(<Forestry:sturdyMachine>, [
 
 //Bottler
 recipes.addShaped(<Forestry:factory>, [
-[<Forestry:canEmpty>, <Railcraft:tile.railcraft.machine.beta:14>, <Forestry:canEmpty>],
+[<Forestry:canEmpty>, <Railcraft:machine.beta:14>, <Forestry:canEmpty>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[<Forestry:canEmpty>, <Railcraft:tile.railcraft.machine.beta:14>, <Forestry:canEmpty>]]);
+[<Forestry:canEmpty>, <Railcraft:machine.beta:14>, <Forestry:canEmpty>]]);
 
 //Carpenter
 recipes.addShaped(<Forestry:factory:1>, [
@@ -155,9 +155,9 @@ recipes.addShaped(<Forestry:factory2>, [
 
 //Rain Tank
 recipes.addShaped(<Forestry:factory2:1>, [
-[<ore:plateIron>, <Railcraft:tile.railcraft.machine.beta:1>, <ore:plateIron>],
+[<ore:plateIron>, <Railcraft:machine.beta:1>, <ore:plateIron>],
 [<ore:plateIron>, <Forestry:sturdyMachine>, <ore:plateIron>],
-[<ore:plateIron>, <Railcraft:tile.railcraft.machine.beta:1>, <ore:plateIron>]]);
+[<ore:plateIron>, <Railcraft:machine.beta:1>, <ore:plateIron>]]);
 
 //Work Table
 recipes.addShaped(<Forestry:factory2:2>, [

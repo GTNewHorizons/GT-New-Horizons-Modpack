@@ -274,7 +274,7 @@ recipes.addShaped(HopperUp, [
 // --- Void Upgrade
 recipes.addShaped(VoidUp, [
 [IronPlate, Piston, IronPlate],
-[Piston, <Railcraft:tile.railcraft.machine.beta:11>, Piston],
+[Piston, <Railcraft:machine.beta:11>, Piston],
 [IronPlate, Piston, IronPlate]]);
 
 

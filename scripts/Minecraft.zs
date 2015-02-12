@@ -227,7 +227,7 @@ val Knife = <ore:craftingToolKnife>;
 val Saw = <ore:craftingToolSaw>;
 val Wrench = <ore:craftingToolWrench>;
 
-val Detector = <Railcraft:tile.railcraft.detector:1>;
+val Detector = <Railcraft:detector:1>;
 val Map = <minecraft:map>;
 val Paper = <ore:paperEmpty>;
 
