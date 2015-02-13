@@ -109,6 +109,8 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>]]); 
 //Steel Ingot
 furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
+//Flour
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 
 //add Recipes
 
@@ -200,6 +202,10 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 [<gregtech:gt.metatool.01:34>, null, null],
 [<gregtech:gt.metaitem.01:17809>, null, null]]);
 
+//Glass Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassBlock>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassPane>]);
+
 //Assembler Recipes
 
 //Low Voltage Transformer
@@ -235,13 +241,27 @@ recipes.remove(<gregtech:gt.metatool.01:2>);
 
 //Flour
 
-recipes.addShapeless(<gregtech:gt.metaitem.01:2881>, [<ore:craftingToolMortar>, <ore:cropBarley>]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
+[<ore:cropBarley>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
+[<ore:cropWheat>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+//Macerator Recipes
+
+//Flour
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
 
 //Minced Meat
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2>);
+
+//Glass Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
 //Shards Dust Blast Furnace
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <gregtech:gt.metaitem.01:2540>, 320, 100, 1200);

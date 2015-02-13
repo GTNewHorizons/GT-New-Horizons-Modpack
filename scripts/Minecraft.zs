@@ -64,6 +64,12 @@ val Log = <ore:logWood>;
 val Hopper = <minecraft:hopper>;
 val Dropper = <minecraft:dropper>;
 val Cobble = <ore:cobblestone>;
+val Stone = <ore:stone>;
+val Sandstone = <ore:sandstone>;
+val Bricks = <minecraft:brick_block>;
+val StoneBricks = <ore:stoneBricks>;
+val NetherBricks = <ore:stoneNetherBrick>;
+val QuartzBlock = <ore:blockQuartz>;
 val Mortar = <ore:craftingToolMortar>;
 val Sugar = <minecraft:sugar>;
 val SugarCane = <minecraft:reeds>;
@@ -241,6 +247,12 @@ recipes.remove(Chest);
 // --- Trapped Chest
 recipes.remove(TrappedChest);
 
+// --- Crafting Table
+recipes.remove(CraftingTable);
+
+// --- Furnace
+recipes.remove(<minecraft:furnace>);
+
 // --- Bedrock
 recipes.remove(Bedrock);
 
@@ -301,6 +313,12 @@ recipes.remove(Torch);
 // --- Lever
 recipes.remove(Lever);
 
+// --- Button
+recipes.remove(<minecraft:stone_button>);
+
+//Glass Pane
+recipes.remove(<minecraft:glass_pane>);
+
 // --- Redstone Torch
 recipes.remove(RSTorch);
 
@@ -353,6 +371,36 @@ recipes.removeShapeless(<minecraft:string>);
 
 // --- Glistering Melon
 recipes.removeShaped(<minecraft:speckled_melon>);
+
+// --- Stone Slab
+recipes.removeShaped(<minecraft:stone_slab>);
+
+// --- Sandstone Slab
+recipes.removeShaped(<minecraft:stone_slab:1>);
+
+// --- Cobblestone Slab
+recipes.removeShaped(<minecraft:stone_slab:3>);
+
+// --- Bricks Slab
+recipes.removeShaped(<minecraft:stone_slab:4>);
+
+// --- Stone Brick Slabs
+recipes.removeShaped(<minecraft:stone_slab:5>);
+
+// --- Nether Bricks Slabs
+recipes.removeShaped(<minecraft:stone_slab:6>);
+
+// --- Quartz  Slabs
+recipes.removeShaped(<minecraft:stone_slab:7>);
+
+// --- Bricks
+recipes.remove(<minecraft:brick_block>);
+
+// --- Book Shelf
+recipes.removeShaped(<minecraft:bookshelf>);
+
+//Wooden PressurePlate
+recipes.remove(<minecraft:wooden_pressure_plate>);
 
 
 // --- Wool ---
@@ -724,11 +772,6 @@ recipes.addShaped(CraftingTable, [
 
 // --- Chest
 recipes.addShaped(Chest, [
-[Slope, CarpentersBlock, CarpentersBlock],
-[CarpentersBlock, IronScrew, CarpentersBlock],
-[CarpentersBlock, CarpentersBlock, CarpentersBlock]]);
-// - Alternate Recipe
-recipes.addShaped(Chest, [
 [Log, Plank, Log],
 [Plank, Flint, Plank],
 [Log, Plank, Log]]);
@@ -739,12 +782,17 @@ recipes.addShaped(TrappedChest, [
 [IronScrew, Chest, IronScrew],
 [null, Screwdriver, null]]);
 
+// --- Furnace
+recipes.addShaped(<minecraft:furnace>, [
+[Cobble, Cobble, Cobble],
+[Flint, Coal, Flint],
+[Cobble, Cobble, Cobble]]);
 
 // --- Dispenser
 recipes.addShaped(Dispenser, [
-[StoneRod, IronPlate, StoneRod],
-[IronBars, Bowstring, IronPlate],
-[Cobble, Piston, Cobble]]);
+[Cobble, IronRing, Cobble],
+[<ore:springIron>, Bowstring, <ore:springIron>],
+[IronGear, RedAlloyWire, IronGear]]);
 
 // --- Dropper
 recipes.addShaped(Dropper, [
@@ -754,9 +802,9 @@ recipes.addShaped(Dropper, [
 
 // --- Piston
 recipes.addShaped(Piston, [
-[CarpentersBlock, CarpentersBlock, CarpentersBlock],
-[IronScrew, IronPlate, IronScrew],
-[WoodGear, RedAlloyWire, WoodGear]]);
+[IronScrew, CarpentersBlock, IronScrew],
+[<ore:springSmallRedAlloy>, <ore:pipeMediumWood>, <ore:springSmallRedAlloy>],
+[<ore:gearGtSmallAnyIron>, Cobble, <ore:gearGtSmallAnyIron>]]);
 
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
@@ -771,7 +819,7 @@ recipes.addShaped(Rail * 8, [
 [Screwdriver, null , HHammer]]);
 
 // --- Detector Rail
-recipes.addShaped(DetectorRail * 2, [
+recipes.addShaped(DetectorRail, [
 [IronScrew, Detector, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, RedAlloyWire, HHammer]]);
@@ -794,31 +842,34 @@ recipes.addShaped(Jukebox, [
 [Noteblock, WoodGear, Noteblock],
 [Plank, Diamond, Plank]]);
 
-// --- Bookshelf
-recipes.addShaped(Bookshelf, [
-[WoodSlab, WoodSlab, WoodSlab],
-[Book, Book, Book],
-[WoodSlab, WoodSlab, WoodSlab]]);
-
 // --- Jack O' Lantern
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
 // --- Trapdoor
 recipes.addShaped(Trapdoor, [
-[null, null, null],
-[null, null, null],
-[WoodSlab, WoodSlab, WoodSlab]]);
-// - Alternate Recipe
+[WoodSlab, Stick, WoodSlab],
+[Stick, Flint, Stick],
+[WoodSlab, Stick, WoodSlab]]);
+// --- 
 recipes.addShaped(Trapdoor * 2, [
-[WoodSlab, WoodSlab, WoodSlab],
-[null, null, null],
-[WoodSlab, WoodSlab, WoodSlab]]);
+[WoodSlab, Stick, WoodSlab],
+[Stick, IronScrew, Stick],
+[WoodSlab, Stick, WoodSlab]]);
+// ---
+recipes.addShaped(Trapdoor * 3, [
+[WoodSlab, Stick, WoodSlab],
+[Stick, SteelScrew, Stick],
+[WoodSlab, Stick, WoodSlab]]);
 
 // --- Pressure Plate
-recipes.addShaped(PressurePlate, [
-[StoneSlab, StoneSlab],
-[RSDust, RSDust]]);
+recipes.addShapeless(<minecraft:stone_pressure_plate> * 2, [Saw, <minecraft:stone_slab>]);
+
+// --- Wooden Pressure Plate
+recipes.addShapeless(<minecraft:wooden_pressure_plate> * 2, [Saw, <ore:slabWood>]);
+
+//Glass Pane
+recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
 
 // --- Torch
 recipes.addShapedMirrored(Torch * 3, [
@@ -1014,10 +1065,10 @@ recipes.addShaped(Torch * 7, [
 [ImpregnatedStick, null]]);
 
 // --- Lever
-recipes.addShapedMirrored(Lever, [
-[null, Stick, null],
-[RSDust, StoneSlab, RSDust],
-[null, null, null]]);
+recipes.addShapeless(Lever, [Stick, <minecraft:stone_button>]);
+
+// --- Button
+recipes.addShapeless(<minecraft:stone_button> * 4, [Saw, <minecraft:stone_pressure_plate>]);
 
 // --- Redstone Torch
 recipes.addShapedMirrored(RSTorch , [
@@ -2161,6 +2212,11 @@ recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dust
 //remove Charcoal in Furnace
 furnace.remove(<minecraft:coal:1>);
 
+//remove Sand in Furnance
+furnace.remove(<minecraft:glass>);
+//Add back glass Dust to Glass
+furnace.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>);
+
 //remove Iron Berrys in Furnace
 furnace.remove(<TConstruct:materials:19>, <TConstruct:oreBerries>);
 //remove Gold Berrys in Furnace
@@ -2207,6 +2263,33 @@ recipes.addShaped(<minecraft:fire_charge>, [
 [<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>],
 [<minecraft:blaze_powder>, Coal, <minecraft:blaze_powder>],
 [<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>]]);
+
+// --- Stone Slab
+recipes.addShapeless(<minecraft:stone_slab> * 2, [Saw, Stone]);
+
+// --- Sandstone Slab
+recipes.addShapeless(<minecraft:stone_slab:1> * 2, [Saw, Sandstone]);
+
+// --- Cobblestone Slab
+recipes.addShapeless(<minecraft:stone_slab:3> * 2, [Saw, Cobble]);
+
+// --- Bricks Slab
+recipes.addShapeless(<minecraft:stone_slab:4> * 2, [Saw, Bricks]);
+
+// --- Stone Brick Slabs
+recipes.addShapeless(<minecraft:stone_slab:5> * 2, [Saw, StoneBricks]);
+
+// --- Nether Bricks Slabs
+recipes.addShapeless(<minecraft:stone_slab:6> * 2, [Saw, NetherBricks]);
+
+// --- Quartz  Slabs
+recipes.addShapeless(<minecraft:stone_slab:7> * 2, [Saw, QuartzBlock]);
+
+// --- Bricks
+recipes.remove(<minecraft:brick_block>);
+
+// --- Book Shelf
+recipes.removeShaped(<minecraft:bookshelf>);
 
 //Extractor Recipes
 

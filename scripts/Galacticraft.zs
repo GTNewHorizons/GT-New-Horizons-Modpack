@@ -379,7 +379,7 @@ recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 
 //Nasa Workbench
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
-[CompressedTi, <gregtech:gt.metaitem.01:32491>, CompressedTi],
+[CompressedTi, <gregtech:gt.metaitem.01:32497>, CompressedTi],
 [<gregtech:gt.metaitem.01:32652>, AdvWafer, <gregtech:gt.metaitem.01:32652>],
 [<ore:circuitMaster>, <ore:cableGt04Aluminium>, <ore:circuitElite>]]);
 
