@@ -88,7 +88,14 @@ recipes.remove(<TConstruct:slime.gel>);
 // --- Congealed Green Slime
 recipes.remove(<TConstruct:slime.gel:1>);
 
+// --- Seared Tank
+recipes.remove(<TConstruct:LavaTank>);
 
+// --- Smeltery Control 
+recipes.remove(<TConstruct:Smeltery>);
+
+// --- Clear Glass Pane
+recipes.remove(<TConstruct:GlassPane>);
 
 // --- Casting Recipes ---
 
@@ -268,6 +275,18 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:1019>, <liquid:alum
 // --- Red Sand
 mods.tconstruct.Smeltery.addMelting(<minecraft:sand:1>, <liquid:glass.molten> * 1000, 800, <minecraft:sand:1>);
 
+
+// --- Seared Tank
+recipes.addShaped(<TConstruct:LavaTank>, [
+[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>],
+[<TConstruct:materials:2>, null, <TConstruct:materials:2>],
+[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>]]);
+
+// --- Smeltery Control
+recipes.addShaped(<TConstruct:Smeltery>, [
+[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>],
+[<TConstruct:materials:2>, <minecraft:furnace>, <TConstruct:materials:2>],
+[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>]]);
 
 // --- Items ---
 

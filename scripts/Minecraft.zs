@@ -759,6 +759,27 @@ recipes.remove(<minecraft:fire_charge>);
 recipes.remove(<minecraft:melon_block>);
 //Nether fences
 recipes.remove(<minecraft:nether_brick_fence>);
+//Leather Cap
+recipes.removeShaped(<minecraft:leather_helmet>, [
+[<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
+//Leather Tunic
+recipes.removeShaped(<minecraft:leather_chestplate>, [
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>]]);
+
+//Leather Pants
+recipes.removeShaped(<minecraft:leather_leggings>, [
+[<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
+
+//Leather Boots
+recipes.removeShaped(<minecraft:leather_boots>, [
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
+
 
 // --- Empty Map
 recipes.remove(Map);

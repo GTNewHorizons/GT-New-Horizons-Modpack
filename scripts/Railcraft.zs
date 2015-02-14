@@ -7,6 +7,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
+import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 
 
@@ -755,7 +756,7 @@ recipes.addShaped(<Railcraft:machine.alpha:10>, [
 [SteelPlate, Detector, SteelPlate]]);
 
 // --- Iron Tank Wall ---
-recipes.addShaped(<Railcraft:machine.beta> *4, [
+recipes.addShaped(<Railcraft:machine.beta> * 2, [
 [IronScrew, IronPlate, IronScrew],
 [IronPlate, Screwdriver, IronPlate],
 [IronScrew, IronPlate, IronScrew]]);
@@ -773,7 +774,7 @@ recipes.addShaped(<Railcraft:machine.beta:2>, [
 [IronScrew, BronzePipe, IronScrew]]);
 
 // --- Steel Tank Wall ---
-recipes.addShaped(<Railcraft:machine.beta:13> *4, [
+recipes.addShaped(<Railcraft:machine.beta:13> * 2, [
 [SteelScrew, SteelPlate, SteelScrew],
 [SteelPlate, Screwdriver, SteelPlate],
 [SteelScrew, SteelPlate, SteelScrew]]);
@@ -1694,3 +1695,20 @@ recipes.addShaped(<Railcraft:brick.sandy:2>, [
 [<Railcraft:slab:21>, null, null],
 [<Railcraft:slab:21>, null, null],
 [null, null, null]]);
+
+//Macerator Recipes
+
+//Iron Dust
+
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta:1>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 6, <Railcraft:machine.beta:3>);
+
+//Bronze Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2300> * 10, <Railcraft:machine.beta:2>);
+
+//Steel Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:13>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:14>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 10, <Railcraft:machine.beta:15>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 6, <Railcraft:machine.beta:4>);
