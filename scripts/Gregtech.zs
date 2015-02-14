@@ -181,21 +181,25 @@ recipes.addShaped(<gregtech:gt.metaitem.02:4500>, [
 [null, null, null]]);
 
 //Damascus Steel Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2335> *3,
+recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
 [<ore:dustSteel>, <ore:dustCoal>, <ore:dustSilicon>, <ore:dustManganese>, <ore:dustChrome>, <ore:dustMolybdenum>, <ore:dustNickel>, <ore:dustNickel>, <ore:dustNickel>]);
 
-recipes.addShapeless(<gregtech:gt.metaitem.01:2335> *3,
+recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
 [<ore:dustSteel>, <ore:dustCoal>, <ore:dustManganese>, <ore:dustManganese>, <ore:dustSilicon>, <ore:dustChrome>, <ore:dustChrome>, <ore:dustVanadium>]);
 
 //HSLA Steel Dust removed because it breaks RotaryCraft.
 
 //Shadow Iron Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2336> *3, 
+recipes.addShapeless(<gregtech:gt.metaitem.01:2336> * 3, 
 [<ore:dustIron>, <ore:dustThaumium>, <ore:dustThaumium>, <ore:dustThaumium>]);
 
 //Osmiridium Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2317> *3, 
+recipes.addShapeless(<gregtech:gt.metaitem.01:2317> * 3, 
 [<ore:dustOsmium>, <ore:dustIridium>, <ore:dustIridium>, <ore:dustIridium>]);
+
+//Enderium Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9, 
+[<ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustThaumium>]);
 
 //Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [

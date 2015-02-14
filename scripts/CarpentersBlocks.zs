@@ -1,15 +1,15 @@
-// ******** Created By Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.gregtech.Assembler;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
@@ -21,10 +21,10 @@ val Safe = <CarpentersBlocks:blockCarpentersSafe>;
 val IC2Safe = <IC2:blockPersonal>;
 val Flint = <minecraft:flint>;
 val Hammer = <ore:craftingToolHardHammer>;
+val WoodScrew = <gregtech:gt.metaitem.01:27809>;
 val IronScrew = <gregtech:gt.metaitem.01:27032>;
 val SteelScrew = <gregtech:gt.metaitem.01:27305>;
-val HSLAScrew = <gregtech:gt.metaitem.01:27322>;
-val OsmiumScrew = <gregtech:gt.metaitem.01:27083>;
+val AluminiumScrew = <gregtech:gt.metaitem.01:27019>;
 val Frame = <ore:frameGtWood>;
 val Plank = <ore:plankWood>;
 val Log = <ore:logWood>;
@@ -37,7 +37,8 @@ val Redstone = <ore:dustRedstone>;
 
 
 
-// *======= Removing Recipes =======*
+
+// --- Removing Recipes ---
 
 
 // --- Carpenters Block
@@ -60,38 +61,26 @@ recipes.remove(DaylightSensor);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 
 // --- Carpenters Block
-recipes.addShaped(CarpentersBlock * 2, [
-[Frame,Frame, Frame],
-[Saw, Stick, Screwdriver],
-[Frame,Frame, Frame]]);
+recipes.addShaped(CarpentersBlock * 1, [
+[Frame,WoodScrew, Frame],
+[WoodScrew, Screwdriver, WoodScrew],
+[Frame, WoodScrew, Frame]]);
 // - Alternate Recipes
-recipes.addShaped(CarpentersBlock * 4, [
-[Frame,Frame, Frame],
-[Saw, IronScrew, Screwdriver],
-[Frame,Frame, Frame]]);
+recipes.addShaped(CarpentersBlock * 2, [
+[Frame, IronScrew, Frame],
+[IronScrew, Screwdriver, IronScrew],
+[Frame, IronScrew, Frame]]);
 // -
-recipes.addShaped(CarpentersBlock * 8, [
-[Frame,Frame, Frame],
-[Saw, SteelScrew, Screwdriver],
-[Frame,Frame, Frame]]);
+Assembler.addRecipe(CarpentersBlock * 3, <gregtech:gt.blockmachines:4905> * 3, AluminiumScrew, 800, 32);
 // -
-recipes.addShaped(CarpentersBlock, [
-[Plank, Plank, Plank],
-[Plank, Flint, Plank],
-[Plank, Plank, Plank]]);
+Assembler.addRecipe(CarpentersBlock * 2, <gregtech:gt.blockmachines:4905> * 2, SteelScrew, 600, 32);
 // -
-Assembler.addRecipe(CarpentersBlock * 2, Stick * 4, OsmiumScrew, 6, 2048);
-// -
-Assembler.addRecipe(CarpentersBlock * 4, Stick * 9, HSLAScrew * 2, 25, 512);
-// -
-Assembler.addRecipe(CarpentersBlock * 8, Stick * 20, SteelScrew * 4, 100, 128);
-// -
-Assembler.addRecipe(CarpentersBlock * 16, Stick * 44, IronScrew * 8, 400, 32);
+Assembler.addRecipe(CarpentersBlock, <gregtech:gt.blockmachines:4905>, IronScrew, 400, 32);
 
 // --- Collapsible Block
 recipes.addShaped(CollapsibleBlock * 2, [
@@ -108,12 +97,6 @@ recipes.addShaped(CollapsibleBlock * 8, [
 [CarpentersBlock,CarpentersBlock, CarpentersBlock],
 [Saw, SteelScrew, Screwdriver],
 [CarpentersBlock,CarpentersBlock, CarpentersBlock]]);
-// -
-recipes.addShaped(CollapsibleBlock * 12, [
-[CarpentersBlock, CarpentersBlock, CarpentersBlock],
-[Saw, HSLAScrew, Screwdriver],
-[CarpentersBlock, CarpentersBlock, CarpentersBlock]]);
-
 // --- Carpenter's Chisel
 recipes.addShaped(Chisel, [
 [<ore:plateAnyIron>, Hammer, null],
@@ -140,11 +123,11 @@ recipes.addShaped(DaylightSensor, [
 
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 
 
 
-// #======= Renaming Stuff =======#
+// --- Renaming Stuff ---
 
 //Torch
 recipes.remove(<CarpentersBlocks:blockCarpentersTorch>);

@@ -393,9 +393,6 @@ recipes.removeShaped(<minecraft:stone_slab:6>);
 // --- Quartz  Slabs
 recipes.removeShaped(<minecraft:stone_slab:7>);
 
-// --- Bricks
-recipes.remove(<minecraft:brick_block>);
-
 // --- Book Shelf
 recipes.removeShaped(<minecraft:bookshelf>);
 
@@ -758,6 +755,10 @@ recipes.removeShaped(<minecraft:blaze_powder>, [
 recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
 //Fire Charge
 recipes.remove(<minecraft:fire_charge>);
+//Melon
+recipes.remove(<minecraft:melon_block>);
+//Nether fences
+recipes.remove(<minecraft:nether_brick_fence>);
 
 // --- Empty Map
 recipes.remove(Map);
@@ -766,9 +767,8 @@ recipes.remove(Map);
 
 
 // --- Crafting Table
-recipes.addShaped(CraftingTable, [
-[CarpentersBlock, CarpentersBlock],
-[CarpentersBlock, CarpentersBlock]]);
+recipes.addShapeless(CraftingTable,
+[Flint, Flint, <ore:logWood>, <ore:logWood>]);
 
 // --- Chest
 recipes.addShaped(Chest, [
@@ -785,14 +785,14 @@ recipes.addShaped(TrappedChest, [
 // --- Furnace
 recipes.addShaped(<minecraft:furnace>, [
 [Cobble, Cobble, Cobble],
-[Flint, Coal, Flint],
+[Flint, Flint, Flint],
 [Cobble, Cobble, Cobble]]);
 
 // --- Dispenser
 recipes.addShaped(Dispenser, [
 [Cobble, IronRing, Cobble],
 [<ore:springIron>, Bowstring, <ore:springIron>],
-[IronGear, RedAlloyWire, IronGear]]);
+[ <ore:gearGtSmallAnyIron>, RedAlloyWire,  <ore:gearGtSmallAnyIron>]]);
 
 // --- Dropper
 recipes.addShaped(Dropper, [
@@ -802,9 +802,9 @@ recipes.addShaped(Dropper, [
 
 // --- Piston
 recipes.addShaped(Piston, [
-[IronScrew, CarpentersBlock, IronScrew],
-[<ore:springSmallRedAlloy>, <ore:pipeMediumWood>, <ore:springSmallRedAlloy>],
-[<ore:gearGtSmallAnyIron>, Cobble, <ore:gearGtSmallAnyIron>]]);
+[CarpentersBlock, CarpentersBlock, CarpentersBlock],
+[<ore:gearGtSmallAnyIron>, Fence, <ore:gearGtSmallAnyIron>],
+[Cobble, <ore:plateRedAlloy>, Cobble]]);
 
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
@@ -838,9 +838,9 @@ recipes.addShaped(Noteblock, [
 
 // --- Jukebox
 recipes.addShaped(Jukebox, [
-[Plank, AnyRecord, Plank],
-[Noteblock, WoodGear, Noteblock],
-[Plank, Diamond, Plank]]);
+[Log, <gregtech:gt.metaitem.01:26500>, Log],
+[Noteblock, AnyRecord, Noteblock],
+[Log, IronGear, Log]]);
 
 // --- Jack O' Lantern
 recipes.addShapeless(JackOLantern,
@@ -1167,15 +1167,15 @@ recipes.addShaped(EnchantingTable, [
 
 // --- Redstone Lamp
 recipes.addShaped(RSLamp, [
-[RedAlloyRod, GlowstonePlate, RedAlloyRod],
-[GlowstonePlate, GSBlock, GlowstonePlate],
-[RedAlloyRod, RedAlloyWire, RedAlloyRod]]);
+[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
+[<minecraft:glass_pane>, GSBlock, <minecraft:glass_pane>],
+[<minecraft:glass_pane>, RedAlloyWire, <minecraft:glass_pane>]]);
 
 // --- Ender Chest
 recipes.addShaped(EnderChest, [
-[EnderEyeRod, TinyNStarDust, EnderEyeRod],
-[TinyNStarDust, ObsidianChest, TinyNStarDust],
-[EnderEyeRod, DenseObsidianPlate, EnderEyeRod]]);
+[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>],
+[<gregtech:gt.metaitem.01:22321>, ObsidianChest, <gregtech:gt.metaitem.01:22321>],
+[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>]]);
 
 // --- Tripwire Hook
 recipes.addShaped(Tripwire, [
@@ -1382,7 +1382,7 @@ recipes.addShaped(WhiteGlass * 7, [
 [Glass, Paintbrush, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(WhiteGlass,
-[Glass, OrangeDye]);
+[Glass, WhiteDye]);
 
 // --- Orange Glass
 recipes.addShaped(OrangeGlass * 7, [
@@ -1530,7 +1530,7 @@ recipes.addShaped(WhiteGlassPane * 7, [
 [GlassPane, Paintbrush, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(WhiteGlassPane,
-[GlassPane, OrangeDye]);
+[GlassPane, WhiteDye]);
 
 // --- Orange Glass Pane
 recipes.addShaped(OrangeGlassPane * 7, [
@@ -2284,9 +2284,6 @@ recipes.addShapeless(<minecraft:stone_slab:6> * 2, [Saw, NetherBricks]);
 
 // --- Quartz  Slabs
 recipes.addShapeless(<minecraft:stone_slab:7> * 2, [Saw, QuartzBlock]);
-
-// --- Bricks
-recipes.remove(<minecraft:brick_block>);
 
 // --- Book Shelf
 recipes.removeShaped(<minecraft:bookshelf>);
