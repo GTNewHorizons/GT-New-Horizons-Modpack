@@ -11,6 +11,7 @@ import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 import mods.gregtech.VacuumFreezer;
+import mods.gregtech.Wiremill;
 
 // #******* Variables ******* #
 
@@ -302,6 +303,14 @@ recipes.remove(<GalacticraftMars:item.grapple>);
 recipes.remove(<GalacticraftMars:tile.hydrogenPipe>);
 //Carbon Fragments
 recipes.remove(<GalacticraftMars:item.carbonFragments>);
+//Thermal Padding Helm
+recipes.remove(<GalacticraftMars:item.thermalPadding>);
+//Thermal Padding Chestpiece
+recipes.remove(<GalacticraftMars:item.thermalPadding:1>);
+//Thermal Padding Leggings
+recipes.remove(<GalacticraftMars:item.thermalPadding:2>);
+//Thermal Padding Boots
+recipes.remove(<GalacticraftMars:item.thermalPadding:3>);
 
 //add Recipes
 
@@ -745,9 +754,9 @@ recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 
 //Thermal Cloth
 recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:7> , [
-[AlFoil, Wool, AlFoil],
-[Wool, <Thaumcraft:ItemResource:7>, Wool],
-[AlFoil, Wool, AlFoil]]);
+[AlFoil, <dreamcraft:item.MeteoricSteelString>, AlFoil],
+[<dreamcraft:item.MeteoricSteelString>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.MeteoricSteelString>],
+[AlFoil, <dreamcraft:item.MeteoricSteelString>, AlFoil]]);
 
 //Desh Sticks
 recipes.addShapeless(<GalacticraftMars:item.null:1>, [<gregtech:gt.metaitem.01:23884>]);
@@ -830,13 +839,25 @@ Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
 //Basic Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, 1600, 2);
+Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, 1600, 64);
 
 //Advanced Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32711> * 4, 3200, 4);
+Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32711> * 4, 3200, 256);
 
 //Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
+
+//Thermal Padding Helm
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding>, <GalacticraftMars:item.itemBasicAsteroids:7> * 5, <gregtech:gt.integrated_circuit:5> * 0, 750, 1024);
+
+//Thermal Padding Chestpiece
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:1>, <GalacticraftMars:item.itemBasicAsteroids:7> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 1024);
+
+//Thermal Padding Leggings
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:item.itemBasicAsteroids:7> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1050, 1024);
+
+//Thermal Padding Boots
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
 
 //Blast Furnace Recipes
 
@@ -957,3 +978,8 @@ oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 
 //Desh to Ore Dict
 oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
+
+//Wiremill Recipes
+
+//Meteoric Steel String
+Wiremill.addRecipe(<dreamcraft:item.MeteoricSteelString>, <gregtech:gt.metaitem.02:22341> * 16, 600, 1024);
