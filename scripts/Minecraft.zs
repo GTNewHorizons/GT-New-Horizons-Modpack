@@ -780,6 +780,31 @@ recipes.removeShaped(<minecraft:leather_boots>, [
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
 
+//Name Tag
+recipes.remove(<minecraft:name_tag>);
+//Lead
+recipes.remove(<minecraft:lead>);
+//Pumpkin Pie
+recipes.remove(<minecraft:pumpkin_pie>);
+//Comparator
+recipes.remove(<minecraft:comparator>);
+//NetherStar
+recipes.removeShapeless(<minecraft:nether_star>);
+//Skeleton Head
+recipes.remove(<minecraft:skull>);
+//Zombi Head
+recipes.remove(<minecraft:skull:2>);
+//Creeper Head
+recipes.remove(<minecraft:skull:4>);
+//Flower Pot
+recipes.remove(<minecraft:flower_pot>);
+//Emerald
+recipes.removeShaped(<minecraft:emerald>, [
+[<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
+[<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
+[<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>]]);
+
+
 
 // --- Empty Map
 recipes.remove(Map);
@@ -2126,9 +2151,9 @@ recipes.addShapeless(Sugar,
 
 //Brewing Stand
 recipes.addShaped(<minecraft:brewing_stand>, [
-[<gregtech:gt.metaitem.01:28032>, <gregtech:gt.metaitem.01:23032>, <gregtech:gt.metaitem.01:28032>],
-[null, <minecraft:blaze_rod>, null],
-[<minecraft:glass_bottle>, <minecraft:cauldron>, <minecraft:glass_bottle>]]);
+[<minecraft:glass_bottle>, <ore:ringStainlessSteel>, <minecraft:glass_bottle>],
+[<ore:stickNichrome>, <minecraft:blaze_rod>, <ore:stickNichrome>],
+[<ore:plateNiobiumTitanium>, <minecraft:cauldron>, <ore:plateNiobiumTitanium>]]);
 
 //Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
@@ -2186,21 +2211,21 @@ recipes.addShaped(<minecraft:diamond_boots>, [
 
 //Iron Horse Armor
 recipes.addShaped(<minecraft:iron_horse_armor>, [
-[null, null, <minecraft:iron_helmet>],
+[HHammer, Screwdriver, <minecraft:iron_helmet>],
 [<ore:plateIron>, <minecraft:iron_chestplate>, <ore:plateIron>],
-[<minecraft:iron_leggings>, <ore:plateIron>, <minecraft:iron_leggings>]]);
+[<minecraft:iron_leggings>, <ore:screwIron>, <minecraft:iron_leggings>]]);
 
 //Gold Horse Armor
 recipes.addShaped(<minecraft:golden_horse_armor>, [
-[null, null, <minecraft:golden_helmet>],
+[HHammer, Screwdriver, <minecraft:golden_helmet>],
 [<ore:plateGold>, <minecraft:golden_chestplate>, <ore:plateGold>],
-[<minecraft:golden_leggings>, <ore:plateGold>, <minecraft:golden_leggings>]]);
+[<minecraft:golden_leggings>, <ore:screwGold>, <minecraft:golden_leggings>]]);
 
 //Diamond horse Armor
 recipes.addShaped(<minecraft:diamond_horse_armor>, [
-[null, null, <minecraft:diamond_helmet>],
+[HHammer, Screwdriver, <minecraft:diamond_helmet>],
 [<ore:plateDiamond>, <minecraft:diamond_chestplate>, <ore:plateDiamond>],
-[<minecraft:diamond_leggings>, <ore:plateDiamond>, <minecraft:diamond_leggings>]]);
+[<minecraft:diamond_leggings>, <ore:screwDiamond>, <minecraft:diamond_leggings>]]);
 
 //Saddle
 recipes.addShaped(<minecraft:saddle>, [
@@ -2284,6 +2309,44 @@ recipes.addShaped(<minecraft:fire_charge>, [
 [<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>],
 [<minecraft:blaze_powder>, Coal, <minecraft:blaze_powder>],
 [<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>]]);
+
+//Lead
+recipes.addShaped(<minecraft:lead>, [
+[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+[<minecraft:string>, <ore:slimeball>, <minecraft:string>],
+[<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
+
+//Pumpkin Pie
+recipes.addShaped(<minecraft:pumpkin_pie>, [
+[<ore:craftingToolRollingPin>, <minecraft:pumpkin>, <ore:dustSugar>],
+[<minecraft:pumpkin>, <ore:dustSugar>, null],
+[<ore:dustSugar>, null, null]]);
+
+//Comparator
+recipes.addShaped(<minecraft:comparator>, [
+[<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
+[<ore:craftingRedstoneTorch>, <ore:plateNetherQuartz>, <ore:craftingRedstoneTorch>],
+[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+// -
+recipes.addShaped(<minecraft:comparator>, [
+[<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
+[<ore:craftingRedstoneTorch>, <ore:plateCertusQuartz>, <ore:craftingRedstoneTorch>],
+[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+// -
+recipes.addShaped(<minecraft:comparator>, [
+[<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
+[<ore:craftingRedstoneTorch>, <ore:plateChargedCertusQuartz>, <ore:craftingRedstoneTorch>],
+[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+// -
+recipes.addShaped(<minecraft:comparator>, [
+[<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
+[<ore:craftingRedstoneTorch>, <ore:plateQuartzite>, <ore:craftingRedstoneTorch>],
+[<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
+
+//Flower Pot
+furnace.addRecipe(<minecraft:flower_pot>, <IguanaTweaksTConstruct:clayBucketFired>);
+
+
 
 // --- Stone Slab
 recipes.addShapeless(<minecraft:stone_slab> * 2, [Saw, Stone]);

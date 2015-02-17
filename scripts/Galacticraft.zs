@@ -982,4 +982,4 @@ oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
 //Wiremill Recipes
 
 //Meteoric Steel String
-Wiremill.addRecipe(<dreamcraft:item.MeteoricSteelString>, <gregtech:gt.metaitem.02:22341> * 16, 600, 1024);
+Wiremill.addRecipe(<dreamcraft:item.MeteoricSteelString>, <gregtech:gt.metaitem.02:22341> * 8, 600, 1024);

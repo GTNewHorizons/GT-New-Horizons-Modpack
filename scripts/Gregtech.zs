@@ -111,6 +111,8 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
 furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
 //Flour
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
+//Netherstar Dust
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
 //add Recipes
 
@@ -227,6 +229,16 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <greg
 //Wrought Iron Ingot
 Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
 
+//Certus Quartz Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17517>, <gregtech:gt.metaitem.01:2517>);
+
+//Nether Quartz Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
+
+//Quartzite Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
+
+
 
 //Wiremill Recipes
 
@@ -252,6 +264,10 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:cropWheat>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
+
+//Small Clay Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:1805>, [<ore:craftingToolMortar>, <minecraft:clay_ball>]);
+
 
 //Macerator Recipes
 
