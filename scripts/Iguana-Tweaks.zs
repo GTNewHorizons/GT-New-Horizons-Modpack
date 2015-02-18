@@ -10,5 +10,5 @@ recipes.remove(<IguanaTweaksTConstruct:clayBucketUnfired>);
 //Unfired Clay Bucket
 recipes.addShaped(<IguanaTweaksTConstruct:clayBucketUnfired>, [
 [<ore:dustClay>, null, <ore:dustClay>],
-[<ore:dustClay>, <ore:bucketWater>.transformReplace(<minecraft:bucket>), <ore:dustClay>],
+[<ore:dustClay>, null, <ore:dustClay>],
 [<ore:dustClay>, <ore:dustClay>, <ore:dustClay>]]);

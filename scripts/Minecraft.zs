@@ -4,7 +4,10 @@
 
 // --- Importing Stuff ---
 
+
+import mods.gregtech.Assembler;
 import mods.ic2.Extractor;
+import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
 
 
@@ -803,7 +806,17 @@ recipes.removeShaped(<minecraft:emerald>, [
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>]]);
-
+//Hay Block
+recipes.remove(<minecraft:hay_block>);
+//Wheat
+recipes.remove(<minecraft:wheat>);
+//Diamond
+recipes.removeShaped(<minecraft:diamond>, [
+[<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>],
+[<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>],
+[<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>]]);
+//Slime Ball
+recipes.remove(<minecraft:slime_ball>);
 
 
 // --- Empty Map
@@ -1256,7 +1269,7 @@ recipes.addShaped(DaylightSensor, [
 recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
-[null, IronPlate, null]]);
+[HHammer, IronPlate, <ore:craftingToolFile>]]);
 
 
 
@@ -2151,7 +2164,7 @@ recipes.addShapeless(Sugar,
 
 //Brewing Stand
 recipes.addShaped(<minecraft:brewing_stand>, [
-[<minecraft:glass_bottle>, <ore:ringStainlessSteel>, <minecraft:glass_bottle>],
+[<minecraft:glass_bottle>, <ore:ringNichrome>, <minecraft:glass_bottle>],
 [<ore:stickNichrome>, <minecraft:blaze_rod>, <ore:stickNichrome>],
 [<ore:plateNiobiumTitanium>, <minecraft:cauldron>, <ore:plateNiobiumTitanium>]]);
 
@@ -2344,9 +2357,7 @@ recipes.addShaped(<minecraft:comparator>, [
 [<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
 
 //Flower Pot
-furnace.addRecipe(<minecraft:flower_pot>, <IguanaTweaksTConstruct:clayBucketFired>);
-
-
+recipes.addShapeless(<minecraft:flower_pot>, [<ore:craftingToolFile>, <IguanaTweaksTConstruct:clayBucketFired>]);
 
 // --- Stone Slab
 recipes.addShapeless(<minecraft:stone_slab> * 2, [Saw, Stone]);
@@ -2376,6 +2387,14 @@ recipes.removeShaped(<minecraft:bookshelf>);
 
 //Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
+
+//Wheat
+Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
+
+//Compressor Recipes
+
+//Hay Block
+Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
 
 
 // --- Hiding Stuff ---
