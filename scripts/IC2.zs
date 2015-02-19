@@ -445,7 +445,7 @@ recipes.addShaped(<IC2:reactorHeatSwitch>, [
 //Reactor Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitchCore>, [
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>],
-[<ore:plateSilver>, <IC2:reactorVent>, <ore:plateSilver>],
+[<ore:plateSilver>, <IC2:reactorHeatSwitch>, <ore:plateSilver>],
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
 
 //Component Heat Exchanger

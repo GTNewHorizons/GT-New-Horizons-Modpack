@@ -791,6 +791,8 @@ recipes.remove(<minecraft:lead>);
 recipes.remove(<minecraft:pumpkin_pie>);
 //Comparator
 recipes.remove(<minecraft:comparator>);
+//Redstone Repeater
+recipes.remove(<minecraft:repeater>);
 //NetherStar
 recipes.removeShapeless(<minecraft:nether_star>);
 //Skeleton Head
@@ -817,6 +819,14 @@ recipes.removeShaped(<minecraft:diamond>, [
 [<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>]]);
 //Slime Ball
 recipes.remove(<minecraft:slime_ball>);
+//Item Frame
+recipes.remove(<minecraft:item_frame>);
+//Bed
+recipes.remove(<minecraft:bed>);
+//Fishing Rod
+recipes.remove(<minecraft:fishing_rod>);
+//Paper
+recipes.removeShaped(<minecraft:paper> * 2, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
 
 
 // --- Empty Map
@@ -2164,9 +2174,9 @@ recipes.addShapeless(Sugar,
 
 //Brewing Stand
 recipes.addShaped(<minecraft:brewing_stand>, [
-[<minecraft:glass_bottle>, <ore:ringNichrome>, <minecraft:glass_bottle>],
-[<ore:stickNichrome>, <minecraft:blaze_rod>, <ore:stickNichrome>],
-[<ore:plateNiobiumTitanium>, <minecraft:cauldron>, <ore:plateNiobiumTitanium>]]);
+[<ore:ringNichrome>, <ore:stickNichrome>, <ore:ringNichrome>],
+[<ore:screwNiobiumTitanium>, <minecraft:blaze_rod>, <ore:screwNiobiumTitanium>],
+[<minecraft:glass_bottle>, <minecraft:cauldron>, <minecraft:glass_bottle>]]);
 
 //Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
@@ -2267,7 +2277,6 @@ recipes.addShapeless(<minecraft:melon_seeds>, [<ore:craftingToolHardHammer>, <mi
 //Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
-
 //remove Charcoal in Furnace
 furnace.remove(<minecraft:coal:1>);
 
@@ -2356,6 +2365,37 @@ recipes.addShaped(<minecraft:comparator>, [
 [<ore:craftingRedstoneTorch>, <ore:plateQuartzite>, <ore:craftingRedstoneTorch>],
 [<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
 
+//Redstone Repeater
+recipes.addShaped(<minecraft:repeater>, [
+[<ore:screwIron>, null, <ore:screwIron>],
+[<ore:craftingRedstoneTorch>, <ore:craftingToolScrewdriver>, <ore:craftingRedstoneTorch>],
+[<minecraft:stone_pressure_plate>, <ore:stickRedAlloy>, <minecraft:stone_pressure_plate>]]);
+
+//Item Frame
+recipes.addShaped(<minecraft:item_frame>, [
+[String, IronRing, String],
+[<ore:stickWood>, <minecraft:leather>, <ore:stickWood>],
+[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+
+//Bed
+recipes.addShaped(<minecraft:bed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+[Fence, null, Fence]]);
+
+//Fishing Rod
+recipes.addShaped(<minecraft:fishing_rod>, [
+[null, null, <ore:stickLongWood>],
+[null, <ore:stickLongWood>, <minecraft:string>],
+[<ore:stickLongWood>, <ore:craftingToolWireCutter>, <ore:ringAnyIron>]]);
+
+//Paper
+recipes.addShaped(<minecraft:paper> * 2, [
+[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
+[<ore:dustWood>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustWood>],
+[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
+
+
 //Flower Pot
 recipes.addShapeless(<minecraft:flower_pot>, [<ore:craftingToolFile>, <IguanaTweaksTConstruct:clayBucketFired>]);
 
@@ -2379,9 +2419,6 @@ recipes.addShapeless(<minecraft:stone_slab:6> * 2, [Saw, NetherBricks]);
 
 // --- Quartz  Slabs
 recipes.addShapeless(<minecraft:stone_slab:7> * 2, [Saw, QuartzBlock]);
-
-// --- Book Shelf
-recipes.removeShaped(<minecraft:bookshelf>);
 
 //Extractor Recipes
 
