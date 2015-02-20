@@ -1254,35 +1254,17 @@ recipes.addShaped(IronBars * 3, [
 [IronRod, IronRod, IronRod],
 [IronRod, IronRod, IronRod]]);
 
-// --- Enchantment Table
-recipes.addShaped(EnchantingTable, [
-[Nitor, Diamond, Alumentum],
-[DiamondRod, DenseObsidianPlate, DiamondRod],
-[ObsidianPlate, Bookshelf, ObsidianPlate]]);
-
 // --- Redstone Lamp
 recipes.addShaped(RSLamp, [
 [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
 [<minecraft:glass_pane>, GSBlock, <minecraft:glass_pane>],
 [<minecraft:glass_pane>, RedAlloyWire, <minecraft:glass_pane>]]);
 
-// --- Ender Chest
-recipes.addShaped(EnderChest, [
-[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>],
-[<gregtech:gt.metaitem.01:22321>, ObsidianChest, <gregtech:gt.metaitem.01:22321>],
-[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>]]);
-
 // --- Tripwire Hook
 recipes.addShaped(Tripwire, [
 [IronRing, Stick, IronRing],
 [<minecraft:string>, Stick, <minecraft:string>],
 [null, <minecraft:string>, null]]);
-
-// --- Beacon
-recipes.addShaped(Beacon, [
-[GlowstoneGlass, <ore:lensDiamond>, GlowstoneGlass],
-[GlowstoneGlass, NetherStar, GlowstoneGlass],
-[DenseObsidianPlate, DenseObsidianPlate, DenseObsidianPlate]]);
 
 // --- Anvil
 recipes.addShaped(Anvil, [
@@ -2193,12 +2175,6 @@ recipes.addShapeless(BlackHardClay,
 recipes.addShapeless(Sugar,
 [Mortar, SugarCane]);
 
-//Brewing Stand
-recipes.addShaped(<minecraft:brewing_stand>, [
-[<ore:ringNichrome>, <ore:stickNichrome>, <ore:ringNichrome>],
-[<ore:screwNiobiumTitanium>, <minecraft:blaze_rod>, <ore:screwNiobiumTitanium>],
-[<minecraft:glass_bottle>, <minecraft:cauldron>, <minecraft:glass_bottle>]]);
-
 //Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
@@ -2529,6 +2505,21 @@ Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
 //Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
+
+//remove Recipes
+
+//Blood Altar removal
+recipes.remove(<AWWayofTime:Altar>);
+
+//Blood Altar in infusion
+mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 10, 10, 12, <minecraft:enchanting_table>);
+game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table>");
+game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "Now your Tools and Armors get magic Power.");
+mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "INFUSION", false);
+mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "bloodmagic.research_page.ENCHANTINGTABLE");
+game.setLocalization("en_US", "bloodmagic.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting table's main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
+mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>], "praecantatio 120, fabrico 100, cognitio 120, potentia 80", <minecraft:enchanting_table>, 15);
+mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
 
 
 // --- Hiding Stuff ---
