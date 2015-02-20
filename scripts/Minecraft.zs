@@ -2511,15 +2511,27 @@ Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:str
 //Blood Altar removal
 recipes.remove(<AWWayofTime:Altar>);
 
-//Blood Altar in infusion
+//Enchanting Table Infusion
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 10, 10, 12, <minecraft:enchanting_table>);
-game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table>");
-game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "Now your Tools and Armors get magic Power.");
+game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
+game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "Oh, it's more magical than that!");
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "INFUSION", false);
-mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "bloodmagic.research_page.ENCHANTINGTABLE");
-game.setLocalization("en_US", "bloodmagic.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting table's main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
+mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "enchantingtable.research_page.ENCHANTINGTABLE");
+game.setLocalization("en_US", "enchantingtable.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting table's main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
 mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>], "praecantatio 120, fabrico 100, cognitio 120, potentia 80", <minecraft:enchanting_table>, 15);
 mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
 
+//EnderChest
+mods.thaumcraft.Research.addResearch("ENDERCHEST", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 11, 10, 12, <minecraft:ender_chest>);
+game.setLocalization("en_US", "tc.research_name.ENDERCHEST", "Ender Chest");
+game.setLocalization("en_US", "tc.research_text.ENDERCHEST", "Oh, it's more magical than that!");
+mods.thaumcraft.Research.addPrereq("ENDERCHEST", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPage("ENDERCHEST", "enderchest.research_page.ENDERCHEST");
+game.setLocalization("en_US", "enderchest.research_page.ENDERCHEST", "The Ender Chest is a block that allows the player to store 27 items much like a wooden chest however, if two Ender Chests are placed down in different places, the items inside chest A will be in chest B. If the items are taken from either chest, both of the chest will not have that item. While on SMP, players will not share the same storage. This can be used to prevent players form stealing more valuable items, as they cannot access the same a items. This also means two players can store items in the same ender chest.");
+mods.thaumcraft.Arcane.addShaped("ENDERCHEST", <minecraft:ender_chest>, "praecantatio 150, iter 100, vacuos 75, tenebrae 75, terra 50, ignis 50", [
+[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>],
+[<gregtech:gt.metaitem.01:22321>, ObsidianChest, <gregtech:gt.metaitem.01:22321>],
+[<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>]]);
+mods.thaumcraft.Research.addArcanePage("ENDERCHEST", <minecraft:ender_chest>);
 
 // --- Hiding Stuff ---
