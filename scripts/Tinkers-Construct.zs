@@ -229,6 +229,9 @@ recipes.remove(<TConstruct:materials:22>);
 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:22>);
 
+//Hambone
+recipes.remove(<TConstruct:MeatBlock>);
+
 
 // --- Gear ---
 
@@ -342,14 +345,18 @@ recipes.addShaped(<TConstruct:trap.punji> * 2, [
 [<minecraft:reeds>, <ore:stickWood>, <minecraft:reeds>]]);
 
 //Ball of Moss
-mods.thaumcraft.Research.addResearch("BALLOFMOSS", "ARTIFICE", "sano 100, terra 100, instrumentum 100", 3, 3, 3, <TConstruct:materials:6>);
+mods.thaumcraft.Research.addResearch("BALLOFMOSS", "ARTIFICE", "sano 100, terra 100, instrumentum 100", 10, 8, 12, <TConstruct:materials:6>);
 game.setLocalization("en_US", "tc.research_name.BALLOFMOSS", "Ball of Moss");
 game.setLocalization("en_US", "tc.research_text.BALLOFMOSS", "[TC] Your Tools repair itselfs.");
-mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "BASICARTIFACE", true);
+mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
+mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
 game.setLocalization("en_US", "TConstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.");
 mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>], "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
 mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
+mods.thaumcraft.Warp.addToResearch("BALLOFMOSS", 1);
+
 
 // --- Gear ---
 
