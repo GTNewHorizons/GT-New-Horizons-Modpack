@@ -33,6 +33,25 @@ val Clay = <minecraft:clay_ball>;
 val Slimeball = <minecraft:slime_ball>;
 val Gelatinous = <TConstruct:strangeFood>;
 val Chest = <minecraft:chest>;
+val Glass = <TConstruct:GlassBlock>;
+val GlassPane = <TConstruct:GlassPane>;
+
+val WhiteDye = <ore:dyeWhite>;
+val OrangeDye = <ore:dyeOrange>;
+val MagentaDye = <ore:dyeMagenta>;
+val LightBlueDye = <ore:dyeLightBlue>;
+val YellowDye = <ore:dyeYellow>;
+val LimeDye = <ore:dyeLime>;
+val PinkDye = <ore:dyePink>;
+val GrayDye = <ore:dyeGray>;
+val LightGrayDye = <ore:dyeLightGray>;
+val CyanDye = <ore:dyeCyan>;
+val PurpleDye = <ore:dyePurple>;
+val BlueDye = <ore:dyeBlue>;
+val BrownDye = <ore:dyeBrown>;
+val GreenDye = <ore:dyeGreen>;
+val RedDye = <ore:dyeRed>;
+val BlackDye = <ore:dyeBlack>;
 
 val Knapsack = <TConstruct:knapsack>;
 val TBelt = <TConstruct:travelBelt>;
@@ -45,7 +64,7 @@ val TWings = <TConstruct:travelWings>;
 val HHammer = <ore:craftingToolHardHammer>;
 val File = <ore:craftingToolFile>;
 val Shears = <ore:craftingToolShears>;
-
+val Paintbrush = <ExtraUtilities:paintbrush>;
 
 
 // --- Removing Recipes ---
@@ -309,6 +328,108 @@ recipes.remove(<TConstruct:LavaTank:2>);
 // -
 recipes.remove(<TConstruct:LavaTankNether:2>);
 
+// --- Stained Glass ---
+
+// --- White Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear>);
+
+// --- Orange Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:1>);
+
+// --- Magenta Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:2>);
+
+// --- Light Blue Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:3>);
+
+// --- Yellow Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:4>);
+
+// --- Lime Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:5>);
+
+// --- Pink Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:6>);
+
+// --- Gray Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:7>);
+
+// --- Light Stained Gray Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:8>);
+
+// --- Cyan Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:9>);
+
+// --- Purple Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:10>);
+
+// --- Blue Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:11>);
+
+// --- Brown Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:12>);
+
+// --- Green Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:13>);
+
+// --- Red Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:14>);
+
+// --- Black Stained Glass
+recipes.remove(<TConstruct:GlassBlock.StainedClear:15>);
+
+
+// --- Stained Glass Pane ---
+
+
+// --- White Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained>);
+
+// --- Orange Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:1>);
+
+// --- Magenta Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:2>);
+
+// --- Light Blue Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:3>);
+
+// --- Yellow Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:4>);
+
+// --- Lime Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:5>);
+
+// --- Pink Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:6>);
+
+// --- Gray Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:7>);
+
+// --- Light Stained Gray Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:8>);
+
+// --- Cyan Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:9>);
+
+// --- Purple Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:10>);
+
+// --- Blue Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:11>);
+
+// --- Brown Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:12>);
+
+// --- Green Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:13>);
+
+// --- Red Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:14>);
+
+// --- Black Stained Glass Pane
+recipes.remove(<TConstruct:GlassPaneClearStained:15>);
+
 
 // --- Gear ---
 
@@ -551,7 +672,6 @@ recipes.addShaped(<TConstruct:LavaTankNether:2>, [
 [<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>],
 [<TConstruct:SmelteryNether:2>, <ore:blockGlass>, <TConstruct:SmelteryNether:2>],
 [<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>]]);
-
 
 
 // --- Items ---
@@ -969,6 +1089,300 @@ recipes.addShaped(<TConstruct:CraftedSoil:3>, [
 [<minecraft:rotten_flesh>, <minecraft:dirt>, <minecraft:rotten_flesh>],
 [<ore:dustBone>, <minecraft:rotten_flesh>, <ore:dustBone>]]);
 
+// --- Stained Glass ---
+
+// --- White Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear> * 7, [
+[Glass, Glass, Glass],
+[Glass, WhiteDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear>,
+[Glass, WhiteDye]);
+
+// --- Orange Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:1> * 7, [
+[Glass, Glass, Glass],
+[Glass, OrangeDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:1>,
+[Glass, OrangeDye]);
+
+// --- Magenta Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:2> * 7, [
+[Glass, Glass, Glass],
+[Glass, MagentaDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:2>,
+[Glass, MagentaDye]);
+
+// --- Light Blue Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:3> * 7, [
+[Glass, Glass, Glass],
+[Glass, LightBlueDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:3>,
+[Glass, LightBlueDye]);
+
+// --- Yellow Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:4> * 7, [
+[Glass, Glass, Glass],
+[Glass, YellowDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:4>,
+[Glass, YellowDye]);
+
+// --- Lime Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:5> * 7, [
+[Glass, Glass, Glass],
+[Glass, LimeDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:5>,
+[Glass, LimeDye]);
+
+// --- Pink Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:6> * 7, [
+[Glass, Glass, Glass],
+[Glass, PinkDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:6>,
+[Glass, PinkDye]);
+
+// --- Gray Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:7> * 7, [
+[Glass, Glass, Glass],
+[Glass, GrayDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:7>,
+[Glass, GrayDye]);
+
+// --- Light Stained Gray Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:8> * 7, [
+[Glass, Glass, Glass],
+[Glass, LightGrayDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:8>,
+[Glass, LightGrayDye]);
+
+// --- Cyan Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:9> * 7, [
+[Glass, Glass, Glass],
+[Glass, CyanDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:9>,
+[Glass, CyanDye]);
+
+// --- Purple Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:10> * 7, [
+[Glass, Glass, Glass],
+[Glass, PurpleDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:10>,
+[Glass, PurpleDye]);
+
+// --- Blue Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:11> * 7, [
+[Glass, Glass, Glass],
+[Glass, BlueDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:11>,
+[Glass, BlueDye]);
+
+// --- Brown Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:12> * 7, [
+[Glass, Glass, Glass],
+[Glass, BrownDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:12>,
+[Glass, BrownDye]);
+
+// --- Green Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:13> * 7, [
+[Glass, Glass, Glass],
+[Glass, GreenDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:13>,
+[Glass, GreenDye]);
+
+// --- Red Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:14> * 7, [
+[Glass, Glass, Glass],
+[Glass, RedDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:14>,
+[Glass, RedDye]);
+
+// --- Black Stained Glass
+recipes.addShaped(<TConstruct:GlassBlock.StainedClear:15> * 7, [
+[Glass, Glass, Glass],
+[Glass, BlackDye, Glass],
+[Glass, Paintbrush, Glass]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:15>,
+[Glass, BlackDye]);
+
+
+// --- Stained Glass Pane ---
+
+
+// --- White Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, WhiteDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained>,
+[GlassPane, WhiteDye]);
+
+// --- Orange Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:1> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, OrangeDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:1>,
+[GlassPane, OrangeDye]);
+
+// --- Magenta Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:2> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, MagentaDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:2>,
+[GlassPane, MagentaDye]);
+
+// --- Light Blue Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:3> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, LightBlueDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:3>,
+[GlassPane, LightBlueDye]);
+
+// --- Yellow Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:4> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, YellowDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:4>,
+[GlassPane, YellowDye]);
+
+// --- Lime Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:5> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, LimeDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:5>,
+[GlassPane, LimeDye]);
+
+// --- Pink Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:6> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, PinkDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:6>,
+[GlassPane, PinkDye]);
+
+// --- Gray Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:7> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, GrayDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:7>,
+[GlassPane, GrayDye]);
+
+// --- Light Stained Gray Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:8> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, LightGrayDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:8>,
+[GlassPane, LightGrayDye]);
+
+// --- Cyan Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:9> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, CyanDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:9>,
+[GlassPane, CyanDye]);
+
+// --- Purple Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:10> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, PurpleDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:10>,
+[GlassPane, PurpleDye]);
+
+// --- Blue Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:11> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, BlueDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:11>,
+[GlassPane, BlueDye]);
+
+// --- Brown Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:12> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, BrownDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:12>,
+[GlassPane, BrownDye]);
+
+// --- Green Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:13> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, GreenDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:13>,
+[GlassPane, GreenDye]);
+
+// --- Red Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:14> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, RedDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:14>,
+[GlassPane, RedDye]);
+
+// --- Black Stained Glass Pane
+recipes.addShaped(<TConstruct:GlassPaneClearStained:15> * 7, [
+[GlassPane, GlassPane, GlassPane],
+[GlassPane, BlackDye, GlassPane],
+[GlassPane, Paintbrush, GlassPane]]);
+// - Alternate Recipe
+recipes.addShapeless(<TConstruct:GlassPaneClearStained:15>,
+[GlassPane, BlackDye]);
+
 
 //Assembler Recipes
 
@@ -995,8 +1409,18 @@ Compressor.addRecipe(<TConstruct:MetalBlock:1>, <TConstruct:materials:4> * 9);
 // --- Block Of Aluminium Brass
 Compressor.addRecipe(<TConstruct:MetalBlock:7>, <TConstruct:materials:14> * 9);
 
-//Seared Bricks
+// --- Seared Bricks
 Compressor.addRecipe(<TConstruct:Smeltery:2>, <TConstruct:materials:2> * 4);
+
+// --- Drying Reck Recipes
+
+//Coagulated Blood Drop
+mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood:1>, <TConstruct:jerky:7>, 6000);
+
+//Gelatinous Slime Ball
+mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>, 6000);
+
+
 
 
 // --- Gear ---
