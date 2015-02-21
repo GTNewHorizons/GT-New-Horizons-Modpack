@@ -101,6 +101,8 @@ recipes.remove(<TConstruct:SmelteryNether>);
 // --- Clear Glass Pane
 recipes.remove(<TConstruct:GlassPane>);
 
+
+
 // --- Casting Recipes ---
 
 
@@ -246,6 +248,67 @@ recipes.remove(<TConstruct:WoolSlab2:*>);
 // --- Graveyard Soil
 recipes.remove(<TConstruct:CraftedSoil:3>);
 
+// --- Seared Bricks Slab
+recipes.remove(<TConstruct:SearedSlab>);
+
+// --- Seared Stone Slab
+recipes.remove(<TConstruct:SearedSlab:1>);
+
+// --- Seared Bricks Slab
+recipes.remove(<TConstruct:SearedSlab:2>);
+
+// --- Seared Cobblestone Slab
+recipes.remove(<TConstruct:SearedSlab:3>);
+
+// --- Seared Paver Slab
+recipes.remove(<TConstruct:SearedSlab:4>);
+
+// --- Feancy Seared Slab
+recipes.remove(<TConstruct:SearedSlab:5>);
+
+// --- Chiseld Seared Bricks Slab
+recipes.remove(<TConstruct:SearedSlab:6>);
+
+// --- Chiseld Seared Stone Slab
+recipes.remove(<TConstruct:SearedSlab:7>);
+
+// --- Seared Bricks
+recipes.remove(<TConstruct:Smeltery:2>);
+recipes.remove(<TConstruct:SmelteryNether:2>);
+
+// --- Smeltery Drain
+recipes.remove(<TConstruct:Smeltery:1>);
+// -
+recipes.remove(<TConstruct:SmelteryNether:1>);
+
+// --- Casting Table
+recipes.remove(<TConstruct:SearedBlock>);
+// -
+recipes.remove(<TConstruct:SearedBlockNether>);
+
+// --- Casting Basin
+recipes.remove(<TConstruct:SearedBlock:2>);
+// -
+recipes.remove(<TConstruct:SearedBlockNether:2>);
+
+// --- Casting Channel
+recipes.remove(<TConstruct:CastingChannel>);
+
+// --- Casting Faucet
+recipes.remove(<TConstruct:SearedBlock:1>);
+// -
+recipes.remove(<TConstruct:SearedBlockNether:1>);
+
+// --- Seared Glass
+recipes.remove(<TConstruct:LavaTank:1>);
+// -
+recipes.remove(<TConstruct:LavaTankNether:1>);
+
+// --- Seared Window
+recipes.remove(<TConstruct:LavaTank:2>);
+// -
+recipes.remove(<TConstruct:LavaTankNether:2>);
+
 
 // --- Gear ---
 
@@ -337,6 +400,30 @@ recipes.remove(<TConstruct:CraftedSoil>);
 // --- Blue Slimy Mud
 recipes.remove(<TConstruct:CraftedSoil:2>);
 
+// --- Rough Brown Stone Slab
+recipes.remove(<TConstruct:SpeedSlab>);
+
+// --- Seared Bricks Slab
+recipes.remove(<TConstruct:SpeedSlab:1>);
+
+// --- Brownstone Road Slab
+recipes.remove(<TConstruct:SpeedSlab:2>);
+
+// --- Brwonstone Slab
+recipes.remove(<TConstruct:SpeedSlab:3>);
+
+// --- Brwonstone Brick Slab
+recipes.remove(<TConstruct:SpeedSlab:4>);
+
+// --- Brownstone Road Slab
+recipes.remove(<TConstruct:SpeedSlab:5>);
+
+// --- Fency Brwonstone Slab
+recipes.remove(<TConstruct:SpeedSlab:6>);
+
+// --- Chiseld Brwonstone Slab
+recipes.remove(<TConstruct:SpeedSlab:7>);
+
 
 
 // --- Adding Back Recipes ---
@@ -376,8 +463,96 @@ recipes.addShaped(<TConstruct:Smeltery>, [
 // -
 recipes.addShaped(<TConstruct:SmelteryNether>, [
 [<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>],
-[<TConstruct:materials:37>, <minecraft:furnace>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <Natura:NetherFurnace>, <TConstruct:materials:37>],
 [<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>]]);
+
+// --- Seared Bricks
+recipes.addShaped(<TConstruct:Smeltery:2> * 2, [
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+// -
+recipes.addShaped(<TConstruct:Smeltery:2> * 2, [
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+// -
+recipes.addShaped(<TConstruct:SmelteryNether:2> * 2, [
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
+// -
+recipes.addShaped(<TConstruct:SmelteryNether:2> * 2, [
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <IguanaTweaksTConstruct:clayBucketLava>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
+
+// --- Smeltery Drain
+recipes.addShaped(<TConstruct:Smeltery:1>, [
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <TConstruct:CastingChannel>, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+// -
+recipes.addShaped(<TConstruct:SmelteryNether:1>, [
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <TConstruct:CastingChannel>, <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
+
+// --- Casting Table
+recipes.addShaped(<TConstruct:SearedBlock>, [
+[<TConstruct:SearedSlab>, null, <TConstruct:SearedSlab>],
+[<TConstruct:Smeltery:2>, <TConstruct:SearedSlab:1>, <TConstruct:Smeltery:2>],
+[<TConstruct:Smeltery:2>, null, <TConstruct:Smeltery:2>]]);
+// -
+recipes.addShaped(<TConstruct:SearedBlockNether>, [
+[<TConstruct:SmelteryNether:2>, null, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, <TConstruct:SmelteryNether:2>, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, null, <TConstruct:SmelteryNether:2>]]);
+
+// --- Casting Basin
+recipes.addShaped(<TConstruct:SearedBlock:2>, [
+[<TConstruct:Smeltery:2>, null, <TConstruct:Smeltery:2>],
+[<TConstruct:Smeltery:2>, null, <TConstruct:Smeltery:2>],
+[<TConstruct:Smeltery:2>, <TConstruct:SearedSlab>, <TConstruct:Smeltery:2>]]);
+// -
+recipes.addShaped(<TConstruct:SearedBlockNether:2>, [
+[<TConstruct:SmelteryNether:2>, null, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, null, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, <TConstruct:SmelteryNether:2>, <TConstruct:SmelteryNether:2>]]);
+
+// --- Casting Channel
+recipes.addShaped(<TConstruct:CastingChannel>, [
+[<TConstruct:materials:2>, null, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, null, <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+
+// --- Casting Faucet
+recipes.addShapeless(<TConstruct:SearedBlock:1> * 2, [<ore:craftingToolSaw>, <TConstruct:CastingChannel>]);
+// -
+recipes.addShapeless(<TConstruct:SearedBlockNether:1> * 2, [<TConstruct:CastingChannel>, <ore:craftingToolSaw>]);
+
+// --- Seared Glass
+recipes.addShaped(<TConstruct:LavaTank:1>, [
+[<TConstruct:Smeltery:2>, <ore:glassReinforced>, <TConstruct:Smeltery:2>],
+[<ore:glassReinforced>, <ore:blockGlass>, <ore:glassReinforced>],
+[<TConstruct:Smeltery:2>, <ore:glassReinforced>, <TConstruct:Smeltery:2>]]);
+// -
+recipes.addShaped(<TConstruct:LavaTankNether:1>, [
+[<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>],
+[<ore:glassReinforced>, <ore:blockGlass>, <ore:glassReinforced>],
+[<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>]]);
+// --- Seared Window
+recipes.addShaped(<TConstruct:LavaTank:2>, [
+[<TConstruct:Smeltery:2>, <ore:glassReinforced>, <TConstruct:Smeltery:2>],
+[<TConstruct:Smeltery:2>, <ore:blockGlass>, <TConstruct:Smeltery:2>],
+[<TConstruct:Smeltery:2>, <ore:glassReinforced>, <TConstruct:Smeltery:2>]]);
+// -
+recipes.addShaped(<TConstruct:LavaTankNether:2>, [
+[<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, <ore:blockGlass>, <TConstruct:SmelteryNether:2>],
+[<TConstruct:SmelteryNether:2>, <ore:glassReinforced>, <TConstruct:SmelteryNether:2>]]);
+
+
 
 // --- Items ---
 
@@ -595,10 +770,60 @@ recipes.addShaped(<TConstruct:ToolForgeBlock:13>, [
 //Slab Furnace
 recipes.addShapeless(<TConstruct:FurnaceSlab>, [<ore:craftingToolSaw>, <minecraft:furnace>]);
 
-
-
 // --- Tool Forge Slab
 recipes.addShapeless(<TConstruct:CraftingSlab:5>, [<ore:craftingToolSaw>, <TConstruct:ToolForgeBlock:*>]);
+
+// --- Seared Bricks Slab
+recipes.addShapeless(<TConstruct:SearedSlab> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:2>]);
+
+// --- Seared Stone Slab
+recipes.addShapeless(<TConstruct:SearedSlab:1> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:4>]);
+
+// --- Seared Bricks Slab
+recipes.addShapeless(<TConstruct:SearedSlab:2> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:5>]);
+
+// --- Seared Cobblestone Slab
+recipes.addShapeless(<TConstruct:SearedSlab:3> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:6>]);
+
+// --- Seared Paver Slab
+recipes.addShapeless(<TConstruct:SearedSlab:4> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:8>]);
+
+// --- Feancy Seared Slab
+recipes.addShapeless(<TConstruct:SearedSlab:5> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:9>]);
+
+// --- Chiseld Seared Bricks Slab
+recipes.addShapeless(<TConstruct:SearedSlab:6> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:10>]);
+
+// --- Chiseld Seared Stone Slab
+recipes.addShapeless(<TConstruct:SearedSlab:7> * 2, [<ore:craftingToolSaw>, <TConstruct:Smeltery:11>]);
+
+// --- Cracked Seared Bricks 
+recipes.addShapeless(<TConstruct:Smeltery:7>, [<ore:craftingToolHardHammer>, <TConstruct:Smeltery:2>]);
+
+// --- Rough Brown Stone Slab
+recipes.addShapeless(<TConstruct:SpeedSlab> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock>]);
+
+// --- Seared Bricks Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:1> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:1>]);
+
+// --- Brownstone Road Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:2> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:2>]);
+
+// --- Brwonstone Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:3> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:3>]);
+
+// --- Brwonstone Brick Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:4> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:4>]);
+
+// --- Brownstone Road Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:5> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:5>]);
+
+// --- Fency Brwonstone Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:6> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:6>]);
+
+// --- Chiseld Brwonstone Slab
+recipes.addShapeless(<TConstruct:SpeedSlab:7> * 2, [<ore:craftingToolSaw>, <TConstruct:SpeedBlock:7>]);
+
 
 // --- Punji Sticks ---
 recipes.addShaped(<TConstruct:trap.punji> * 2, [
@@ -769,6 +994,9 @@ Compressor.addRecipe(<TConstruct:MetalBlock:1>, <TConstruct:materials:4> * 9);
 
 // --- Block Of Aluminium Brass
 Compressor.addRecipe(<TConstruct:MetalBlock:7>, <TConstruct:materials:14> * 9);
+
+//Seared Bricks
+Compressor.addRecipe(<TConstruct:Smeltery:2>, <TConstruct:materials:2> * 4);
 
 
 // --- Gear ---
