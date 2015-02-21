@@ -765,3 +765,7 @@ recipes.addShaped(HyperETransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
 [ChromePlate, ElectrumCable12x, ChromePlate]]);
+
+
+//Precision Shears
+oreDict.craftingToolShears.add(<ExtraUtilities:shears:16>);

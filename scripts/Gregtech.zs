@@ -27,6 +27,8 @@ val AdvCircuit = <ore:circuitAdvanced>;
 val TinCable = <gregtech:gt.blockmachines:1246>;
 val AnnealedCable = <gregtech:gt.blockmachines:1386>;
 val HeatProofCase = <gregtech:gt.blockcasings:11>;
+val Stick = <ore:stickWood>;
+val Flint = <minecraft:flint>;
 
 
 //remove Recipes
@@ -113,6 +115,14 @@ furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 //Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
+
+// - GT Shaped and Shapeless picks removal
+
+recipes.remove(<gregtech:gt.metatool.01>);
+recipes.remove(<gregtech:gt.metatool.01:2>);
+recipes.remove(<gregtech:gt.metatool.01:4>);
+recipes.remove(<gregtech:gt.metatool.01:6>);
+recipes.remove(<gregtech:gt.metatool.01:8>);
 
 //add Recipes
 
@@ -212,7 +222,39 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassBlock>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassPane>]);
 
+//Flient Sword
+recipes.addShaped(<gregtech:gt.metatool.01>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
+[null, Flint, null],
+[null, Flint, null],
+[null, Stick, null]]);
+
+
+//Flint Pickaxe
+recipes.addShaped(<gregtech:gt.metatool.01:2>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
+[Flint, Flint, Flint],
+[null, Stick, null],
+[null, Stick, null]]);
+
+//Flint Shovel
+recipes.addShaped(<gregtech:gt.metatool.01:4>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
+[null, Flint, null],
+[null, Stick, null],
+[null, Stick, null]]);
+
+//Flint Axe
+recipes.addShaped(<gregtech:gt.metatool.01:6>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
+[Flint, Flint, null],
+[Flint, Stick, null],
+[null, Stick, null]]);
+
+//Flint Hoe
+recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
+[Flint, Flint, null],
+[null, Stick, null],
+[null, Stick, null]]);
+
 //Assembler Recipes
+
 
 //Low Voltage Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:21>, <IC2:blockElectric:3>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
@@ -251,9 +293,6 @@ Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
 //Tin Wire
 Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);
 
-// - GT Shaped and Shapeless picks removal
-
-recipes.remove(<gregtech:gt.metatool.01:2>);
 
 //Flour
 
