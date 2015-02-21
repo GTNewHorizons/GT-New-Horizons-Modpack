@@ -2506,6 +2506,9 @@ Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 //Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
 
+//Shears
+oreDict.craftingToolShears.add(<minecraft:shears>);
+
 
 //Enchanting Table Infusion
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "ARTIFICE", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", 10, 10, 12, <minecraft:enchanting_table>);
