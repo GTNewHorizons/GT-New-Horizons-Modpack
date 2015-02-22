@@ -1104,6 +1104,50 @@ mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, [
 mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
 mods.thaumcraft.Warp.addToResearch("BALLOFMOSS", 1);
 
+// --- Necrotic Bone
+mods.thaumcraft.Research.addResearch("NECROTICBONE", "ARTIFICE", "exanimis 100, mortuus 100, spiritus 100, venenum 100", 9, 8, 12, <TConstruct:materials:8>);
+game.setLocalization("en_US", "tc.research_name.NECROTICBONE", "Necrotic Bone");
+game.setLocalization("en_US", "tc.research_text.NECROTICBONE", "[TC] Evil way to make Wither Skeleton Bones.");
+mods.thaumcraft.Research.addPrereq("NECROTICBONE", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.setConcealed("NECROTICBONE", true);
+mods.thaumcraft.Research.setRound("NECROTICBONE", true);
+mods.thaumcraft.Research.addPage("NECROTICBONE", "TConstruct.research_page.NECROTICBONE");
+game.setLocalization("en_US", "TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons.");
+mods.thaumcraft.Crucible.addRecipe("NECROTICBONE", <TConstruct:materials:8>, <minecraft:bone>, "exanimis 20, mortuus 30, infernus 20, spiritus 20, venenum 20, corpus 5");
+mods.thaumcraft.Research.addCruciblePage("NECROTICBONE", <TConstruct:materials:8>);
+mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 1);
+
+// --- Silky Cloth and Jewel
+mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "ARTIFICE", "pannus 100, lucrum 100, instrumentum 100, aer 100, praecantatio 100", 11, 7, 12, <TConstruct:materials:26>);
+game.setLocalization("en_US", "tc.research_name.SILKYCRYSTAL", "Silky Jevel");
+game.setLocalization("en_US", "tc.research_text.SILKYCRYSTAL", "[TC] Silky magical.");
+mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "LAVACRYSTAL", false);
+mods.thaumcraft.Research.setConcealed("SILKYCRYSTAL", true);
+mods.thaumcraft.Research.setRound("SILKYCRYSTAL", true);
+mods.thaumcraft.Research.addPage("SILKYCRYSTAL", "TConstruct.research_page.SILKYCRYSTAL");
+game.setLocalization("en_US", "TConstruct.research_page.SILKYCRYSTAL", "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.");
+mods.thaumcraft.Arcane.addShaped("SILKYCRYSTAL", <TConstruct:materials:25>, "aer 30, aqua 25, ignis 15, terra 15, ordo 10, perditio 10", [
+[String, <ore:foilGold>, String],
+[<ore:foilGold>, String, <ore:foilGold>],
+[String, <ore:foilGold>, String]]);
+mods.thaumcraft.Research.addArcanePage("SILKYCRYSTAL", <TConstruct:materials:25>);
+mods.thaumcraft.Infusion.addRecipe("SILKYCRYSTAL", <minecraft:diamond_block>, [<TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard>, <TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:3>, <TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:4>], "ignis 20, terra 20, ordo 35, praecantatio 35, vitreus 20", <TConstruct:materials:26>, 4);
+mods.thaumcraft.Research.addInfusionPage("SILKYCRYSTAL", <TConstruct:materials:26>);
+mods.thaumcraft.Warp.addToResearch("SILKYCRYSTAL", 1);
+
+// --- Lava Crystal
+mods.thaumcraft.Research.addResearch("LAVACRYSTAL", "ARTIFICE", "ignis 100, praecantatio 100, vacuos 100, perditio 100", 11, 8, 12, <TConstruct:materials:7>);
+game.setLocalization("en_US", "tc.research_name.LAVACRYSTAL", "Lava Crystal");
+game.setLocalization("en_US", "tc.research_text.LAVACRYSTAL", "[TC] Fiery magical.");
+mods.thaumcraft.Research.addPrereq("LAVACRYSTAL", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.setConcealed("LAVACRYSTAL", true);
+mods.thaumcraft.Research.setRound("LAVACRYSTAL", true);
+mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACRYSTAL");
+game.setLocalization("en_US", "TConstruct.research_page.LAVACRYSTAL", "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).");
+mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, [<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
+mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>);
+mods.thaumcraft.Warp.addToResearch("LAVACRYSTAL", 1);
+
 
 // --- White Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1> * 2,
