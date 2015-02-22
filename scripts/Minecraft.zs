@@ -2518,12 +2518,12 @@ mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "Minecraft.research_page.ENCHANTINGTABLE");
 game.setLocalization("en_US", "Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting table's main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
-mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>], "praecantatio 120, fabrico 100, cognitio 120, potentia 80", <minecraft:enchanting_table>, 15);
+mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>], "praecantatio 120, fabrico 100, cognitio 120, potentia 80", <minecraft:enchanting_table>, 5);
 mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
 mods.thaumcraft.Warp.addToResearch("ENCHANTINGTABLE", 2);
 
 //Ender Chest Arcane
-mods.thaumcraft.Research.addResearch("ENDERCHEST", "ARTIFICE", "praecantatio 200, iter 200, vacuos 100, tenebrae 100, terra 80, ignis 80, ", 11, 10, 12, <minecraft:ender_chest>);
+mods.thaumcraft.Research.addResearch("ENDERCHEST", "ARTIFICE", "praecantatio 200, iter 200, vacuos 100, tenebrae 100, terra 80, ignis 80, ", 12, 12, 12, <minecraft:ender_chest>);
 game.setLocalization("en_US", "tc.research_name.ENDERCHEST", "Ender Chest");
 game.setLocalization("en_US", "tc.research_text.ENDERCHEST", "[MC] Oh, it's more magical than a Chest!");
 mods.thaumcraft.Research.addPrereq("ENDERCHEST", "ENCHANTINGTABLE", false);
@@ -2538,7 +2538,7 @@ mods.thaumcraft.Research.addArcanePage("ENDERCHEST", <minecraft:ender_chest>);
 mods.thaumcraft.Warp.addToResearch("ENDERCHEST", 2);
 
 //Brewing Stand Infusion
-mods.thaumcraft.Research.addResearch("BREWINGSTAND", "ARTIFICE", "praecantatio 200, fabrico 100, cognitio 100, perditio 100, ignis 100, terra 100, aqua 100", 10, 11, 12, <minecraft:brewing_stand>);
+mods.thaumcraft.Research.addResearch("BREWINGSTAND", "ARTIFICE", "praecantatio 200, fabrico 100, cognitio 100, perditio 100, ignis 100, terra 100, aqua 100", 8, 12, 12, <minecraft:brewing_stand>);
 game.setLocalization("en_US", "tc.research_name.BREWINGSTAND", "Brewing Stand");
 game.setLocalization("en_US", "tc.research_text.BREWINGSTAND", "[MC] Oh, it's more magical than a Cauldron!");
 mods.thaumcraft.Research.addPrereq("BREWINGSTAND", "ENCHANTINGTABLE", false);
@@ -2549,19 +2549,19 @@ mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BRE
 game.setLocalization("en_US", "brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the player's life if used quickly, like Fire Resistance or Healing.");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "Minecraft.research_page.BREWINGSTAND.3");
 game.setLocalization("en_US", "Minecraft.research_page.BREWINGSTAND.3", "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.");
-mods.thaumcraft.Infusion.addRecipe("BREWINGSTAND", <minecraft:cauldron>, [<gregtech:gt.metaitem.02:22801>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>], "praecantatio 120, fabrico 80, cognitio 80, perditio 80, ignis 80, terra 80, aqua 80", <minecraft:brewing_stand>, 15);
+mods.thaumcraft.Infusion.addRecipe("BREWINGSTAND", <minecraft:cauldron>, [<gregtech:gt.metaitem.02:22801>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>], "praecantatio 120, fabrico 80, cognitio 80, perditio 80, ignis 80, terra 80, aqua 80", <minecraft:brewing_stand>, 5);
 mods.thaumcraft.Research.addInfusionPage("BREWINGSTAND", <minecraft:brewing_stand>);
 mods.thaumcraft.Warp.addToResearch("BREWINGSTAND", 2);
 
 //Beacon Infusion
-mods.thaumcraft.Research.addResearch("BEACON", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 11, 11, 12, <minecraft:beacon>);
+mods.thaumcraft.Research.addResearch("BEACON", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 10, 12, 12, <minecraft:beacon>);
 game.setLocalization("en_US", "tc.research_name.BEACON", "Beacon");
 game.setLocalization("en_US", "tc.research_text.BEACON", "[MC] Oh, it's more magical than a Diamond Block!");
 mods.thaumcraft.Research.addPrereq("BEACON", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("BEACON", true);
 mods.thaumcraft.Research.addPage("BEACON", "Minecraft.research_page.BEACON");
 game.setLocalization("en_US", "Minecraft.research_page.BEACON", "A beacon is a unique block that projects a light beam skyward and can provide status effects to players in the vicinity. Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they will melt snow and ice. When activated, beacon blocks provide two unique functions: An aesthetic landmark beam reaching into the sky, which can be visible from far away. Powers, which give players status effects within a certain range.");
-mods.thaumcraft.Infusion.addRecipe("BEACON", <ForbiddenMagic:StarBlock>, [<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>], "praecantatio 120, alienis 100, lux 120, ordo 80, ignis 80, terra 80", <minecraft:beacon>, 15);
+mods.thaumcraft.Infusion.addRecipe("BEACON", <ForbiddenMagic:StarBlock>, [<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24500>], "praecantatio 120, alienis 100, lux 120, ordo 80, ignis 80, terra 80", <minecraft:beacon>, 6);
 mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
 
