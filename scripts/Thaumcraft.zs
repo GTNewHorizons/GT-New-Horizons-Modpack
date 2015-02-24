@@ -2,7 +2,6 @@
 
 //import Mods
 
-import mods.thaumcraft.Arcane;
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
@@ -15,16 +14,6 @@ import mods.ic2.Macerator;
 recipes.remove(<Thaumcraft:ItemThaumometer>);
 //Iron Wand Cap
 recipes.remove(<Thaumcraft:WandCap>);
-//Gold Wand Cap
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
-//Copper Wand Cap
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:3>);
-//Silver Wand Cap
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:5>);
-//Thaumium Inert Cap
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:6>);
-//Void Inert Cap
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:8>);
 //Thaumium Ingot
 recipes.remove(<ore:ingotThaumium>);
 //Wooden Wand
@@ -32,25 +21,12 @@ recipes.remove(<Thaumcraft:WandCasting:*>);
 //Thauimum Block
 recipes.remove(<Thaumcraft:blockCosmeticSolid:4>);
 //Arcane Stone
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
-//Arcane Pedstal
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:1>);
 //Arcan Stone Bricks
 recipes.remove(<Thaumcraft:blockCosmeticSolid:7>);
-//Runic Matrix
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:2>);
-//Goggles of Revealing
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGoggles>);
 //Table
 recipes.remove(<Thaumcraft:blockTable>);
 //Phials
 recipes.remove(<Thaumcraft:ItemEssence>);
-//Enchanted Fabric
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
-//Greatwood Rood
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod>);
-//Magic Crowbar
-mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
 //Amber
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:6>);
 //Order Shards
@@ -107,26 +83,6 @@ recipes.remove(<Thaumcraft:blockCrystal:4>);
 recipes.remove(<Thaumcraft:blockCrystal:5>);
 //Mixed Crystal Cluster
 recipes.remove(<Thaumcraft:blockCrystal:6>);
-//Primal Charm
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:15>);
-//Greatwood Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:50>);
-//Reed Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:55>);
-//Blaze Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:56>);
-//Obsidian Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:51>);
-//Icy Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:53>);
-//Quartz Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:54>);
-//Bone Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:57>);
-//Silverwood Staff Core
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:52>);
-//Fire Wand Focus
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFire>);
 //Nitor
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
 //Alumentum
@@ -141,10 +97,7 @@ recipes.remove(<Thaumcraft:blockCosmeticSolid:5>);
 recipes.remove(<Thaumcraft:ItemResource:4>);
 //Block of Flesh
 recipes.remove(<Thaumcraft:blockTaint:2>);
-//Paving Stone of Travel
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:2>);
-//Paving Stone of Warding
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:3>);
+
 
 //Remove Furnace Recipes
 
