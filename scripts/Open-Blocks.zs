@@ -131,18 +131,6 @@ recipes.addShaped(Luggage, [
 [EnderEyePlate, ObsidianChest, EnderEyePlate],
 [DiamondRod, DiamondRod, DiamondRod]]);
 
-// --- Tank
-recipes.addShaped(<OpenBlocks:tank>, [
-[<ore:stoneObsidian>, <ore:plateCertusQuartz>, <ore:stoneObsidian>],
-[<ore:plateCertusQuartz>, ClearGlass, <ore:plateCertusQuartz>],
-[<ore:stoneObsidian>, <ore:plateCertusQuartz>, <ore:stoneObsidian>]]);
-// ---- Alternative Recipes
-recipes.addShaped(<OpenBlocks:tank>, [
-[<ore:stoneObsidian>, <ore:plateNetherQuartz>, <ore:stoneObsidian>],
-[<ore:plateNetherQuartz>, ClearGlass, <ore:plateNetherQuartz>],
-[<ore:stoneObsidian>, <ore:plateNetherQuartz>, <ore:stoneObsidian>]]);
-
-
 // --- Auto-Enchantment Table
 recipes.addShaped(<OpenBlocks:autoenchantmenttable>, [
 [<ore:plateAnyIron>, <ore:plateDenseLapis>, <ore:plateAnyIron>],

@@ -57,9 +57,10 @@ val IronRod = <ore:stickIron>;
 val GoldRod = <ore:stickGold>;
 val EmeraldRod = <ore:stickEmerald>;
 val DiamondRod = <ore:stickDiamond>;
-
+val RedAlloyRod = <ore:stickRedAlloy>;
 val SStoneRod = <dreamcraft:item.SandStoneRod>;
 val CobbleRod = <dreamcraft:item.CobbleStoneRod>;
+val RedAlloySrew = <ore:screwRedAlloy>;
 
 val ClearPane = <TConstruct:GlassPane>;
 
@@ -95,6 +96,9 @@ val ZonePlanner = <BuildCraft|Silicon:zonePlan>;
 val Requester = <BuildCraft|Silicon:requester>;
 val Robot = <BuildCraft|Silicon:robot:*>;
 val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
+val StrongGlass = <Railcraft:glass>;
+
+val Wrench = <ore:craftingToolWrench>;
 
 
 // --- Removing Recipes ---
@@ -426,7 +430,13 @@ recipes.addShaped(PipeDiamondKinesis, [
 [ClearPane, NiobiumTiWire4x, ClearPane],
 [DiamondRod, ClearPane, DiamondRod]]);
 
-// --- Obsidian-Covered Transport Pipe
+// ---Items
+
+// --- Tank
+recipes.addShaped(BCTank, [
+[RedAlloyRod, StrongGlass, RedAlloyRod],
+[RedAlloySrew, Wrench, RedAlloySrew],
+[RedAlloyRod, StrongGlass, RedAlloyRod]]);
 
 
 

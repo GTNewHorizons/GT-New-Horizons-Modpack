@@ -90,7 +90,7 @@ recipes.remove(<Forestry:naturalistHelmet>);
 //Analyzer
 recipes.addShaped(<Forestry:core>, [
 [<ore:plateBronze>, <Forestry:beealyzer>, <ore:plateBronze>],
-[<minecraft:glass>, <Forestry:sturdyMachine>, <minecraft:glass>],
+[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
 [<ore:plateBronze>, <minecraft:piston>, <ore:plateBronze>]]);
 
 //Sturdy Casing
