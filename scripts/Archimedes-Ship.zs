@@ -1,12 +1,12 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val ShipsHelm = <ArchimedesShips:marker>;
@@ -93,7 +93,7 @@ val BlackDye = <ore:dyeBlack>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Ships Helm
@@ -167,7 +167,7 @@ recipes.remove(BlackBalloon);
 recipes.remove(WoodCrate);
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Ships Helm
@@ -360,6 +360,4 @@ recipes.addShaped(WoodCrate, [
 [CarpentersBlock, CarpentersBlock, CarpentersBlock]]);
 
 
-// #======= Hiding Stuff =======#
-
-
+// --- Hiding Stuff ---

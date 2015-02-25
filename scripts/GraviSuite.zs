@@ -1,10 +1,10 @@
-//Created by DreamMasterXXL
+// ---Created by DreamMasterXXL ---
 
-//import mods
+// --- import mods ---
 
 import mods.nei.NEI;
 
-//remove Recipes
+// --- remove Recipes ---
 
 //SuperConductorCover
 recipes.remove(<GraviSuite:itemSimpleItem>);
@@ -37,7 +37,7 @@ recipes.remove(<GraviSuite:ultimateLappack>);
 //Relocator
 recipes.remove(<GraviSuite:relocator:*>);
  
-//add Recipes
+// --- add Recipes ---
 
 //SuperConductorCover
 recipes.addShaped(<GraviSuite:itemSimpleItem>, [
@@ -111,8 +111,8 @@ recipes.addShaped(<GraviSuite:relocator>,[
 [<ore:gemEnderEye>, <ore:craftingTeleporter>, <minecraft:dragon_egg>.reuse()],
 [<ore:plateNaquadah>, <Thaumcraft:FocusPortableHole>, <ore:plateOsmium>]]);
 
-//Nei change Names
-
+// --- Nei change Names ---
+ 
 //SuperConductorCover
 <GraviSuite:itemSimpleItem>.displayName = "Superconductor Cover";
 //SuperConductor

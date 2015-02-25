@@ -1,8 +1,8 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.gregtech.Assembler;
@@ -10,7 +10,7 @@ import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val CopperChestCart = <ironchestminecarts:minecart_chest_copper>;
@@ -39,7 +39,7 @@ val Minecart = <minecraft:minecart>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Minecart With Copper Chest
@@ -65,7 +65,7 @@ recipes.remove(ObsidianChestCart);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Minecart With Copper Chest
@@ -120,8 +120,7 @@ recipes.addShaped(CrystalChestCart, [
 Assembler.addRecipe(ObsidianChestCart, ObsidianChest, Minecart, 100, 64);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Overriding Stuff ---
 
 
-NEI.hide(<ironchestminecarts:minecart_chest_dirtchest9000>);
 NEI.overrideName(<ironchestminecarts:minecart_chest_silver>, "Minecart With Steel Chest");

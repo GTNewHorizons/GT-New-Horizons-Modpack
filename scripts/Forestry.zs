@@ -1,6 +1,6 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-//remove Recipes
+// --- remove Recipes ---
 
 //Analyzer
 recipes.remove(<Forestry:core>);
@@ -85,7 +85,7 @@ recipes.remove(<Forestry:pipette>);
 //Spectacles
 recipes.remove(<Forestry:naturalistHelmet>);
 
-//add Recipes
+// --- add Recipes ---
 
 //Analyzer
 recipes.addShaped(<Forestry:core>, [

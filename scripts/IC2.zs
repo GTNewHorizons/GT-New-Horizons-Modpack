@@ -1,21 +1,21 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 
-//Import
+// --- Import ---
 
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Wiremill;
 
-//variables
+// --- variables ---
 
 val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
 
-//remove Recipes
+// --- remove Recipes ---
 
 //Generator
 recipes.remove(<IC2:blockGenerator>);
@@ -182,7 +182,7 @@ oreDict.plateSteel.remove(<IC2:itemPlates:5>);
 // --- Steam Turbine Blade ---
 recipes.remove(<IC2:itemSteamTurbineBlade>);
 
-//add Recipes
+// --- add Recipes ---
 
 //Generator
 recipes.addShaped(<IC2:blockGenerator>, [
@@ -483,7 +483,7 @@ recipes.addShaped(<IC2:itemTreetap>, [
 [<ore:pipeLargeWood>, <ore:craftingToolSaw>, <ore:craftingToolFile>]]);
 
 
-//Assembler Recipes
+// --- Assembler Recipes ---
 
 //Solar Panels
 Assembler.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  600, 64);
@@ -524,7 +524,7 @@ Assembler.addRecipe(<IC2:reactorReflectorThick>, <IC2:reactorReflector>, <gregte
 //Treetap
 Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gregtech:gt.metaitem.01:27809>, 200, 8);
 
-//Compressor Recipes//
+// --- Compressor Recipes ---
 
 //Coal Coal Ball 
 Compressor.addRecipe(<IC2:itemPartCoalBlock>, <IC2:itemPartCarbonPlate> * 2);
@@ -533,7 +533,7 @@ Compressor.addRecipe(<IC2:itemPartCoalBlock>, <IC2:itemPartCarbonPlate> * 2);
 Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
 
 
-//Plate Bender Recipes
+// --- Plate Bender Recipes ---
 
 //Dense Obsidian Plate
 PlateBender.addRecipe(<IC2:itemDensePlates:7>, <gregtech:gt.metaitem.01:17804> * 9, 3600, 96);
@@ -541,7 +541,7 @@ PlateBender.addRecipe(<IC2:itemDensePlates:7>, <gregtech:gt.metaitem.01:17804> *
 //Dense Lapis Lazuli Plate
 PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> * 9, 3600, 96);
 
-//Wiremill Recipes
+// --- Wiremill Recipes ---
 
 //Copper Cable
 Wiremill.addRecipe(<gregtech:gt.blockmachines:1360>, <IC2:itemCable:1>, 400, 4);

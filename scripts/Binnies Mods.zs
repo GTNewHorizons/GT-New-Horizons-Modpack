@@ -1,8 +1,8 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 import mods.ic2.Macerator;
 
-//remove Recipes
+// --- remove Recipes ---
 
 //Ruby
 recipes.removeShapeless(<gregtech:gt.metaitem.01:8502>);
@@ -12,7 +12,7 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:8503>);
 recipes.removeShapeless(<minecraft:dye:4>);
 
 
-//Add Recipes
+// --- add Recipes ---
 
 
 //Macerator Recipes

@@ -1699,7 +1699,7 @@ recipes.addShaped(<Railcraft:brick.sandy:2>, [
 //Steel Shears
 oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
-//Macerator Recipes
+// --- Macerator Recipes ---
 
 //Iron Dust
 

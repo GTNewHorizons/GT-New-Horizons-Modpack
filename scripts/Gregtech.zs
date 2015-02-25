@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 //Imports
 import mods.gregtech.Assembler;
@@ -8,7 +8,7 @@ import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
 
 
-// #******* Variables *******#
+// --- Variables ---
 
 
 val HPFurnace = <gregtech:gt.blockmachines:104>;
@@ -31,7 +31,7 @@ val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
 
-//remove Recipes
+// ---remove Recipes ---
 
 // --- High Pressure Steam Furnace
 recipes.remove(HPFurnace);
@@ -124,7 +124,7 @@ recipes.remove(<gregtech:gt.metatool.01:4>);
 recipes.remove(<gregtech:gt.metatool.01:6>);
 recipes.remove(<gregtech:gt.metatool.01:8>);
 
-//add Recipes
+// --- add Recipes ---
 
 // --- High Pressure Steam Furnace
 recipes.addShaped(HPFurnace, [

@@ -1,11 +1,11 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-//Imports
+// --- Imports ---
 
 import mods.ic2.Compressor;
 import mods.ic2.Macerator;
 
-//remove Recipes
+// --- remove Recipes ---
 
 //Block of Malachit
 recipes.remove(<BiomesOPlenty:gemOre:11>);
@@ -30,7 +30,7 @@ recipes.removeShapeless(<minecraft:dye:15> * 6, [<BiomesOPlenty:bones:1>]);
 //large Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 12, [<BiomesOPlenty:bones:2>]);
 
-//add Recipes
+// --- add Recipes ---
 
 //Emty Jar
 recipes.addShapeless(<BiomesOPlenty:jarEmpty>, [<ore:bottleEmpty>]);
@@ -81,7 +81,7 @@ Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
 Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
 
 
-//Compressor Recipes
+// --- Compressor Recipes ---
 
 //Hardened Ice
 

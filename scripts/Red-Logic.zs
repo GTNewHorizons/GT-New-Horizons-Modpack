@@ -1,15 +1,15 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.nei.NEI;
 import mods.gregtech.Wiremill;
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val ANDGate = <RedLogic:redlogic.gates>;
@@ -124,7 +124,7 @@ val chipSchematicCompiler = <RedLogic:redlogic.machineBlock:2>;
 val chipFabricator = <RedLogic:redlogic.machineBlock:3>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // ||||| Gates |||||
@@ -266,7 +266,7 @@ recipes.remove(chipFabricator);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // ||||| Gates |||||
@@ -591,4 +591,4 @@ recipes.addShapeless(chipSchematicCompiler, [lampPurple, printerAdvanced]);
 recipes.addShapeless(chipFabricator, [assemblingMachineAdvanced]);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---

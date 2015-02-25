@@ -1,8 +1,8 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.nei.NEI;
@@ -10,7 +10,7 @@ import mods.gregtech.AlloySmelter;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val StorageComponent1K = <appliedenergistics2:item.ItemMultiMaterial:35>;
@@ -78,7 +78,7 @@ val HHammer = <ore:craftingToolHardHammer>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // ||||| Cells |||||
@@ -191,7 +191,7 @@ recipes.remove(UFluidStorageHousing);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // ||||| Cells |||||
@@ -497,4 +497,4 @@ recipes.addShapeless(<extracells:part.base:6>, [<appliedenergistics2:item.ItemMu
 //ME Drive Fixture
 recipes.addShapeless(<extracells:part.base:7>, [<appliedenergistics2:tile.BlockDrive>, <ore:plateIron>, <ore:plateIron>, <ore:plateLapis>]);
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---

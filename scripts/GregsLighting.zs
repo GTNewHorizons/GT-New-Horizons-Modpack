@@ -1,4 +1,4 @@
-//Created by Methes
+// --- Created by Methes ---
 
 import mods.nei.NEI;
 
@@ -47,12 +47,3 @@ recipes.addShaped(<GregsLighting:ic2FilamentAssembly>, [
 
 
 // --- Hiding Stuff ---
-NEI.hide(<GregsLighting:floodlight>);
-NEI.hide(<GregsLighting:carbideFloodlight>);
-NEI.hide(<GregsLighting:floodlightBeam>);
-NEI.hide(<GregsLighting:calciumCarbide>);
-NEI.hide(<GregsLighting:bonemealAndCharcoal>);
-NEI.hide(<GregsLighting:gasNozzle>);
-NEI.hide(<GregsLighting:glowingIngot>);
-NEI.hide(<GregsLighting:glowstoneBulb>);
-NEI.hide(<GregsLighting:ic2ElectricFloodlightOn>);

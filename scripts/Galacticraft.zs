@@ -1,6 +1,6 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-//Mod Import
+// --- Mod Import ---
 
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
@@ -13,7 +13,7 @@ import mods.gregtech.PlateBender;
 import mods.gregtech.VacuumFreezer;
 import mods.gregtech.Wiremill;
 
-// #******* Variables ******* #
+// --- Variables --- #
 
 val CompressedAl = <ore:compressedAluminium>;
 val CompressedIron = <ore:compressedIron>;
@@ -62,7 +62,7 @@ val Stick = <ore:stickWood>;
 val Wool = <ore:blockWool>;
 val String = <minecraft:string>;
 
-//remove Recipes
+// --- remove Recipes ---
 
 //Rocket Launch Pad
 recipes.remove(<GalacticraftCore:tile.landingPad>);
@@ -312,7 +312,7 @@ recipes.remove(<GalacticraftMars:item.thermalPadding:2>);
 //Thermal Padding Boots
 recipes.remove(<GalacticraftMars:item.thermalPadding:3>);
 
-//add Recipes
+// --- add Recipes ---
 
 //Rocket Launch Pad
 recipes.addShaped(<GalacticraftCore:tile.landingPad> * 3, [
@@ -830,7 +830,7 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [String, String, String],
 [<ore:ringMeteoricSteel>, null, null]]);
 
-//Assembler Recipes
+// --- Assembler Recipes ---
 
 //Glowstone Torch
 Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_torch>, <minecraft:glowstone_dust>, 200, 16);
@@ -864,7 +864,7 @@ Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:
 //Titan Ingot
 BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:11028>, <GalacticraftMars:item.itemBasicAsteroids:4> * 2, null, 1500, 120, 1500);
 
-//Canner Recipes
+// --- Canner Recipes ---
 
 //Food Cans
 Canner.addRecipe(<GalacticraftCore:item.basicItem:15>, <minecraft:apple> * 6, <GalacticraftCore:item.canister>, 800, 1);
@@ -872,7 +872,7 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:16>, <minecraft:carrot> * 8, <
 Canner.addRecipe(<GalacticraftCore:item.basicItem:17>,<minecraft:melon> * 8, <GalacticraftCore:item.canister>, 800, 1);
 Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, <GalacticraftCore:item.canister>, 800, 1);
 
-//Compressor Recipes
+// --- Compressor Recipes ---
 
 //Solid Meteoric Iron
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
@@ -894,7 +894,7 @@ Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <GalacticraftCore:item.ba
 //Steel Pole
 Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
 
-//Furnace Recipes
+// --- Furnace Recipes ---
 
 //Ilmenite Ore
 furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
@@ -905,7 +905,7 @@ furnace.remove(<*>, <GalacticraftMars:tile.mars:2>);
 //Desh Shards
 furnace.remove(<*>, <GalacticraftMars:item.null>);
 
-//Implusion Compressor Recipes
+// --- Implusion Compressor Recipes ---
 
 //Compressed Copper Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:17035> * 2, 4);
@@ -937,7 +937,7 @@ ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.meta
 //Heavy Duty Plats Tier 3
 ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:316> * 2],<gregtech:gt.blockcasings4:15>, 32);
 
-//Macerator Recipes
+// --- Macerator Recipes ---
 
 //Meteoric Iron Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2340> * 9, <GalacticraftCore:tile.gcBlockCore:12>);
@@ -957,7 +957,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GalacticraftMars:tile.m
 //Titanium Shards
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
 
-//Plate Bender Recipes
+// --- Plate Bender Recipes ---
 
 //Tin Canister
 PlateBender.addRecipe(<GalacticraftCore:item.canister> , <GalacticraftCore:item.basicItem:7> * 2, 200, 8);
@@ -965,7 +965,7 @@ PlateBender.addRecipe(<GalacticraftCore:item.canister> , <GalacticraftCore:item.
 //Copper Canister
 PlateBender.addRecipe(<GalacticraftCore:item.canister:1> , <GalacticraftCore:item.basicItem:6> * 2, 200, 8);
 
-//Vacuum Freezer Recipes
+// --- Vacuum Freezer Recipes ---
 
 //Fluid Oxygen
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidoxygen"}}), <gregtech:gt.metaitem.01:30013> * 12, 2400);
@@ -979,7 +979,7 @@ oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 //Desh to Ore Dict
 oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
 
-//Wiremill Recipes
+// --- Wiremill Recipes ---
 
 //Meteoric Steel String
 Wiremill.addRecipe(<dreamcraft:item.MeteoricSteelString>, <gregtech:gt.metaitem.02:22341> * 8, 600, 1024);

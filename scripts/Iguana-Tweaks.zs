@@ -1,11 +1,11 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-//Remove Recipes
+// --- Remove Recipes ---
 
 //Unfired Clay Bucket
 recipes.remove(<IguanaTweaksTConstruct:clayBucketUnfired>);
 
-//Add Recipes
+// --- Add Recipes ---
 
 //Unfired Clay Bucket
 recipes.addShaped(<IguanaTweaksTConstruct:clayBucketUnfired>, [

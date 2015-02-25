@@ -1,12 +1,12 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val IndustrialApiary = <gendustry:IndustrialApiary>;
@@ -71,7 +71,7 @@ val HVBuffer = <gregtech:gt.blockmachines:9233>;
 val HHammer = <ore:craftingToolHardHammer>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // ||||| Blocks |||||
@@ -136,7 +136,7 @@ recipes.remove(GeneticsProcessor);
 recipes.remove(EnviroProcessor);
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // ||||| Blocks |||||
@@ -270,6 +270,6 @@ recipes.addShaped(UpFrame, [
 [TitaniumRod, SSteelPlate, TitaniumRod]]);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 
 

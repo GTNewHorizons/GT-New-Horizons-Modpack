@@ -1,15 +1,15 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val SolderingS = <LogisticsPipes:logisticsSolidBlock>;
@@ -114,7 +114,7 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 val Wrench = <ore:craftingToolWrench>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // ||||| Blocks |||||
@@ -247,7 +247,7 @@ recipes.remove(LChassiMK5);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Soldering Station
@@ -1150,4 +1150,4 @@ recipes.addShaped(LChassiMK5, [
 [RedAlloyRod, Wrench, RedAlloyRod]]);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---

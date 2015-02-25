@@ -1,8 +1,8 @@
-// ******** Created by Arch-Nihil ********
+// --- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 import mods.gregtech.Assembler;
@@ -10,7 +10,7 @@ import mods.nei.NEI;
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val Chest = <minecraft:chest>;
@@ -65,7 +65,7 @@ val Storage243Up = <JABBA:upgradeCore:9>;
 
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Better Barrel
@@ -136,7 +136,7 @@ recipes.remove(VoidUp);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Better Barrel
@@ -279,7 +279,7 @@ recipes.addShaped(VoidUp, [
 
 
 
-// #======= Renaming Stuff =======#
+// --- Renaming Stuff ---
 
 
 // --- Structural Upgrade MK I

@@ -1,4 +1,4 @@
-// Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 
 
@@ -433,106 +433,6 @@ recipes.addShaped(PipeDiamondKinesis, [
 // --- Hiding & Renaming Stuff ---
 
 
-// --- Machines ---
-
-
-// --- Filler
-NEI.hide(Filler);
-
-// --- Builder
-NEI.hide(Builder);
-
-// --- Architect Table
-NEI.hide(ArchitectT);
-
-// --- Blueprint Library
-NEI.hide(BlueprintLib);
-
-// --- Mining Well
-NEI.hide(MiningWell);
-
-// --- Quarry
-NEI.hide(<BuildCraft|Factory:machineBlock>);
-
-// --- Pump
-NEI.hide(<BuildCraft|Factory:pumpBlock>);
-
-// --- Laser
-NEI.hide(Laser);
-
-// --- Assembly Table
-NEI.hide(<BuildCraft|Silicon:laserTableBlock>);
-
-// --- Refinery
-NEI.hide(<BuildCraft|Factory:refineryBlock>);
-
-// --- Chute
-NEI.hide(<BuildCraft|Factory:blockHopper>);
-
-// --- Tank
-NEI.hide(BCTank);
-
-// --- Auto Workbench
-NEI.hide(AutoWorkB);
-
-// --- Flood Gate
-NEI.hide(FloodGate);
-
-// --- Zone Planner
-NEI.hide(ZonePlanner);
-
-// --- Requester
-NEI.hide(Requester);
-
-// --- Filtered Buffer
-NEI.hide(FilterBuffer);
-
-// --- Docking Station
-NEI.hide(DockingStation);
-
-
-// --- Engines ---
-
-
-// --- Redstone Engine
-NEI.hide(<BuildCraft|Energy:engineBlock>);
-
-
-// --- Pipes ---
-
-
-// - Wooden Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidswood>);
-
-// - Cobblestone Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone>);
-
-// - Stone Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>);
-
-// - Sandstone Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidssandstone>);
-
-// - Iron Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron>);
-
-// - Quartz Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsquartz>);
-
-// - Golden Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold>);
-
-// - Emerald Fluid Pipe
-NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald>);
-
-// --- Cobblestone Structure Pipe
-NEI.hide(CobbleStructure);
-
-// --- Robot
-NEI.hide(Robot);
-
-// --- Gates
-NEI.hide(Gate);
 
 // - Wood-Covered Kinesis Pipe
 NEI.overrideName(PipeWoodKinesis, "Wood-Covered Kinesis Pipe");
@@ -575,31 +475,3 @@ NEI.overrideName(PipeDiamondKinesis, "Diamond-Covered Kinesis Pipe");
 
 // - Emerald-Covered Kinesis Pipe
 NEI.overrideName(PipeEmeraldKinesis, "Emerald-Covered Kinesis Pipe");
-
-
-// --- Items ---
-
-
-// --- Land Mark
-NEI.hide(LandMark);
-
-// --- Path Mark
-NEI.hide(PathMark);
-
-// --- Construction Mark
-NEI.hide(ConstructionMark);
-
-// --- Redstone Crystal
-NEI.hide(RSCrystal);
-
-// --- Pipe Sealant
-NEI.hide(Sealant);
-
-// --- Pipe Wire
-NEI.hide(PipeWire);
-
-// --- Pipe Plug
-NEI.hide(PipePlug);
-
-// --- Gate Copier
-NEI.hide(GateCopier);

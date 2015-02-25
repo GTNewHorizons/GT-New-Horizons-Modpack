@@ -1,13 +1,13 @@
-//Created by DreamMasterXXL
+//--- Created by DreamMasterXXL ---
 
 
 
-// *======= Importing Stuff =======*
+// --- Importing Stuff ---
 
 
 
 
-// *======= Variables =======*
+// --- Variables ---
 
 
 val SmallB = <Backpack:backpack>;
@@ -63,7 +63,7 @@ val CraftingSlab = <TConstruct:CraftingSlab>;
 val All = <Backpack:backpack:*>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- All Backpacks
@@ -76,7 +76,7 @@ recipes.remove(<Backpack:workbenchbackpack:*>);
 recipes.remove(<Backpack:boundLeather>);
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Bound Leather
@@ -317,6 +317,4 @@ recipes.addShaped(BigWorkB, [
 [<ore:screwAluminium>, CraftingSlab, <ore:screwAluminium>],
 [null, <ore:plateStainlessSteel>, null]]);
 
-// #======= Hiding Stuff =======#
-
-
+// --- Hiding Stuff ---

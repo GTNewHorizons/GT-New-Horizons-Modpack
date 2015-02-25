@@ -1,6 +1,6 @@
-//Copied from Amalgamate Technomancy with no knowledge about the mod. Should prevent us from using it for now probably.
+// --- Created by DreamMasterXXL ---
 
-//remove Recipes
+// --- remove Recipes ---
 
 recipes.remove(<witchery:witchesovenidle>);
 recipes.remove(<witchery:distilleryidle>);

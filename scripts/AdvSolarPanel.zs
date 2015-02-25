@@ -1,12 +1,12 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-//Mod Import
+// --- Mod Import ---
 
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.ic2.Macerator;
 
-//remove Recipes
+// --- remove Recipes --- 
 
 //Molecular Transformer
 recipes.remove(<AdvancedSolarPanel:BlockMolecularTransformer>);
@@ -47,7 +47,7 @@ furnace.remove(<gregtech:gt.metaitem.01:11318>);
 //Quantum Core
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
 
-//add Recipes Shaped
+// --- add Recipes Shaped ---
 
 //Sunnarium Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2318>, <AdvancedSolarPanel:asp_crafting_items>);
@@ -135,7 +135,7 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 
-//Assembler Recipes
+// --- Assembler Recipes ---
 
 //Irradiant Uranium
 Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:2>, <gregtech:gt.metaitem.01:11098>, <minecraft:glowstone> *4,  600, 64);
@@ -150,7 +150,7 @@ Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.meta
 Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *8,  1600, 1024);
 
 
-//Compressor Recipes
+// --- Compressor Recipes ---
 
 //Sunnarium Dust
 Compressor.addRecipe(<AdvancedSolarPanel:asp_crafting_items>, <gregtech:gt.metaitem.01:2318>);

@@ -1,6 +1,6 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
-// *======= Variables =======*
+// --- Variables ---
 
 val SteveManager = <StevesFactoryManager:BlockMachineManagerName>;
 val InventoryCable = <StevesFactoryManager:BlockCableName>;
@@ -37,7 +37,7 @@ val FieldGeneratorLV = <gregtech:gt.metaitem.01:32670>;
 val Pencil = <OpenBlocks:generic:11>;
 
 
-// *======= Removing Recipes =======*
+// --- Removing Recipes ---
 
 
 // --- Steves Machine Inventory Manager
@@ -90,7 +90,7 @@ recipes.remove(SignUpdater);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
 // --- Steves Machine Inventory Manager

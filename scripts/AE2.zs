@@ -1,4 +1,4 @@
-//Created by DreamMasterXXL
+// --- Created by DreamMasterXXL ---
 
 
 // --- Importing
@@ -1042,7 +1042,7 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
 
 
-//Electrolyzer Recipes
+// --- Electrolyzer Recipes ---
 
 //Charged Certus Quartz
 
