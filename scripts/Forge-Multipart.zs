@@ -16,19 +16,19 @@ recipes.remove(<ForgeMicroblock:stoneRod>);
 //Stone Saw
 recipes.addShaped(<ForgeMicroblock:sawStone>, [
 [<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <TConstruct:swordBlade:1>, <ore:rodStone>],
+[<ore:stickWood>, <ore:stickCobblestone>, <ore:rodStone>],
 [null, null, null]]);
 
 //Iron Saw
 recipes.addShaped(<ForgeMicroblock:sawIron>, [
 [<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:toolHeadSawAnyIron>, <ore:rodStone>],
+[<ore:stickWood>, <ore:stickLongIron>, <ore:rodStone>],
 [null, null, null]]);
 
 //Diamond Saw
 recipes.addShaped(<ForgeMicroblock:sawDiamond>, [
 [<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:toolHeadSawDiamond>, <ore:rodStone>],
+[<ore:stickWood>, <ore:stickLongDiamond>, <ore:rodStone>],
 [null, null, null]]);
 
 //Stone Rod

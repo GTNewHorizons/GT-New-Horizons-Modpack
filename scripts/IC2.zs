@@ -182,6 +182,9 @@ oreDict.plateSteel.remove(<IC2:itemPlates:5>);
 // --- Steam Turbine Blade ---
 recipes.remove(<IC2:itemSteamTurbineBlade>);
 
+// Sticky Resin
+furnace.remove(<IC2:itemHarz>);
+
 // --- add Recipes ---
 
 //Generator

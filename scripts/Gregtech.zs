@@ -3,9 +3,12 @@
 //Imports
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ForgeHammer;
 import mods.ic2.Compressor;
+import mods.ic2.Extractor;
 import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
+import mods.gregtech.PlateBender;
 
 
 // --- Variables ---
@@ -253,46 +256,11 @@ recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryM
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Assembler Recipes
+//Wood Pulp
+recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMortar>, <ore:logWood>]);
 
-
-//Low Voltage Transformer
-Assembler.addRecipe(<gregtech:gt.blockmachines:21>, <IC2:blockElectric:3>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
-//Medium Voltage Transformer
-Assembler.addRecipe(<gregtech:gt.blockmachines:22>, <IC2:blockElectric:4>, <gregtech:gt.blockmachines:1366> * 2, 250, 128);
-//High Voltage Transformer
-Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <gregtech:gt.blockmachines:1426> * 2, 200, 512);
-//Extreme Transformer
-Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
-
-
-//Compressor Recipes
-
-//Wrought Iron Ingot
-Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
-
-//Certus Quartz Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17517>, <gregtech:gt.metaitem.01:2517>);
-
-//Nether Quartz Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
-
-//Quartzite Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
-
-
-
-//Wiremill Recipes
-
-//Copper Wire
-Wiremill.addRecipe(<IC2:itemCable:1>, <gregtech:gt.blockmachines:1360>, 400, 4);
-//Gold Wire
-Wiremill.addRecipe(<IC2:itemCable:2>, <gregtech:gt.blockmachines:1420>, 600, 4);
-//Iron Wire
-Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
-//Tin Wire
-Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);
-
+//Long Plastic Rood
+recipes.addShaped(<gregtech:gt.metaitem.02:22874>, [[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:stickPlastic>]]);
 
 //Flour
 
@@ -306,6 +274,49 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 
 //Small Clay Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1805>, [<ore:craftingToolMortar>, <minecraft:clay_ball>]);
+
+
+
+// --- Assembler Recipes ---
+
+
+//Low Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:21>, <IC2:blockElectric:3>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
+//Medium Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:22>, <IC2:blockElectric:4>, <gregtech:gt.blockmachines:1366> * 2, 250, 128);
+//High Voltage Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <gregtech:gt.blockmachines:1426> * 2, 200, 512);
+//Extreme Transformer
+Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
+
+
+// --- Compressor Recipes ---
+
+//Wrought Iron Ingot
+Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
+
+//Certus Quartz Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17517>, <gregtech:gt.metaitem.01:2517>);
+
+//Nether Quartz Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
+
+//Quartzite Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
+
+// --- Extractor Recipes ---
+
+// --- Rubber Pulp
+Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>);
+
+
+// --- Forge Hammer Recipes ---
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22874>, <gregtech:gt.metaitem.01:23874> * 2, 20, 16);
+
+
+
+
+
 
 
 //Macerator Recipes
@@ -336,3 +347,26 @@ furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:1870>);
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:2870>);
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:3870>);
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:4870>);
+
+
+// --- Plate Bender Recipes ---
+
+
+// --- Plastic Spring
+PlateBender.addRecipe(<gregtech:gt.metaitem.02:24874>, <gregtech:gt.metaitem.02:22874>, 200, 16);
+
+
+
+// --- Wiremill Recipes ---
+
+// --- Copper Wire
+Wiremill.addRecipe(<IC2:itemCable:1>, <gregtech:gt.blockmachines:1360>, 400, 4);
+
+// --- Gold Wire
+Wiremill.addRecipe(<IC2:itemCable:2>, <gregtech:gt.blockmachines:1420>, 600, 4);
+
+// --- Iron Wire
+Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
+
+// --- Tin Wire
+Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);

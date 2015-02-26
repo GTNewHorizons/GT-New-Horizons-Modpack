@@ -818,20 +818,20 @@ recipes.addShaped(HPBoilerTank, [
 // --- Hobbyist´s Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:7>, [
 [BronzePlate, LapisPlate, BronzePlate],
-[BronzeScrew, <gregtech:gt.blockcasings2:12>, BronzeScrew],
-[BronzeGear, Piston, BronzeGear]]);
+[<ore:springBronze>, Piston, <ore:springBronze>],
+[BronzeGear, <gregtech:gt.blockcasings2:12>, BronzeGear]]);
 
 // --- Commercial Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:8>, [
 [StainlessSteelPlate, LapisPlate, StainlessSteelPlate],
-[StainlessSteelScrew, <gregtech:gt.blockcasings2:13>, StainlessSteelScrew],
-[StainlessSteelGear, Piston, StainlessSteelGear]]);
+[<ore:springStainlessSteel>, Piston, <ore:springStainlessSteel>],
+[StainlessSteelGear, <gregtech:gt.blockcasings2:13>, StainlessSteelGear]]);
 
 // --- Industrial Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:9>, [
 [TitaniumPlate, LapisPlate, TitaniumPlate],
-[TitaniumScrew, <gregtech:gt.blockcasings2:14>, TitaniumScrew],
-[TitaniumGear, Piston, TitaniumGear]]);
+[<ore:springTitanium>, Piston, <ore:springTitanium>],
+[TitaniumGear, <gregtech:gt.blockcasings2:14>, TitaniumGear]]);
 
 // --- Anchor Sentinel ---
 recipes.addShaped(<Railcraft:machine.beta:10>, [

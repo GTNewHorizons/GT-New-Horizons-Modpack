@@ -901,7 +901,7 @@ recipes.addShaped(Piston, [
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
 [null, SHammer, null],
-[null, Slimeball, null],
+[null, <ore:slimeball>, null],
 [null, Piston, null]]);
 
 // --- Rail

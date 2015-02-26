@@ -341,9 +341,19 @@ recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 
 // --- Engines ---
 
+
 // --- Stirling Engine
+recipes.addShaped(<BuildCraft|Energy:engineBlock:1>, [
+[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
+[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
+[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
 
 // --- Combustion Engine
+recipes.addShaped(<BuildCraft|Energy:engineBlock:2>, [
+[<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
+[<ore:springSteel>, <minecraft:piston>, <ore:springSteel>],
+[<ore:gearSteel>, <Forestry:sturdyMachine>, <ore:gearSteel>]]);
+
 
 // --- Pipes ---
 
