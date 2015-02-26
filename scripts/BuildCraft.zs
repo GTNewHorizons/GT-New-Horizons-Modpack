@@ -54,6 +54,7 @@ val StoneRod = <ForgeMicroblock:stoneRod>;
 val Stick = <ore:stickWood>;
 val QuartzRod = <ore:stickNetherQuartz>;
 val IronRod = <ore:stickIron>;
+val IronScrew = <ore:screwIron>;
 val GoldRod = <ore:stickGold>;
 val EmeraldRod = <ore:stickEmerald>;
 val DiamondRod = <ore:stickDiamond>;
@@ -97,6 +98,7 @@ val Requester = <BuildCraft|Silicon:requester>;
 val Robot = <BuildCraft|Silicon:robot:*>;
 val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 val StrongGlass = <Railcraft:glass>;
+val ObsidianGlass = <ExtraUtilities:decorativeBlock2:5>;
 
 val Wrench = <ore:craftingToolWrench>;
 
@@ -434,9 +436,14 @@ recipes.addShaped(PipeDiamondKinesis, [
 
 // --- Tank
 recipes.addShaped(BCTank, [
-[RedAlloyRod, StrongGlass, RedAlloyRod],
-[RedAlloySrew, Wrench, RedAlloySrew],
-[RedAlloyRod, StrongGlass, RedAlloyRod]]);
+[IronRod, StrongGlass, IronRod],
+[IronScrew, Wrench, IronScrew],
+[IronRod, StrongGlass, IronRod]]);
+// -
+recipes.addShaped(BCTank, [
+[IronRod, ObsidianGlass, IronRod],
+[IronScrew, Wrench, IronScrew],
+[IronRod, ObsidianGlass, IronRod]]);
 
 
 

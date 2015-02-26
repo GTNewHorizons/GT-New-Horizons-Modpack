@@ -173,6 +173,9 @@ recipes.remove(<ExtraUtilities:timer>);
 // --- Glowstone Glass
 recipes.remove(<ExtraUtilities:decorativeBlock2:7>);
 
+// --- Obsidain Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:5>);
+
 // --- Quarry Upgrade Base
 recipes.remove(UpgradeBase);
 
@@ -390,6 +393,12 @@ recipes.addShaped(EnderPump, [
 
 // --- Burnt Quartz
 AlloySmelter.addRecipe(BurntQuartz, <minecraft:quartz_block>, <gregtech:gt.metaitem.01:2816>, 80, 64);
+
+// --- Obsidain Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <gregtech:gt.metaitem.01:2890> * 4, <gregtech:gt.metaitem.01:2804> * 4, 200, 8);
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <gregtech:gt.metaitem.01:2890> * 4, <minecraft:obsidian> * 4, 400, 16);
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2804> * 4, 400, 16);
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <minecraft:glass> * 4, <minecraft:obsidian> * 4, 600, 16);
 
 // --- Ender-Infused Obsidian
 recipes.addShaped(EnderObsidian, [

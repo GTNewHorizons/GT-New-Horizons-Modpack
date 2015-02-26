@@ -1,5 +1,8 @@
 // --- Created by DreamMasterXXL ---
 
+// --- Imports ---
+import mods.gregtech.Assembler;
+
 // --- remove Recipes ---
 
 //Analyzer
@@ -84,6 +87,35 @@ recipes.remove(<Forestry:wrench>);
 recipes.remove(<Forestry:pipette>);
 //Spectacles
 recipes.remove(<Forestry:naturalistHelmet>);
+//Escritoire
+mods.forestry.Carpenter.removeRecipe(<Forestry:core:1>);
+//Humus
+recipes.remove(<Forestry:soil>);
+//Bog
+recipes.remove(<Forestry:soil:1>);
+//Bee House
+recipes.remove(<Forestry:apiculture:2>);
+//Apiary
+recipes.remove(<Forestry:apiculture>);
+//Apiarys Chest
+recipes.remove(<Forestry:apiculture:1>);
+//Alveary
+recipes.remove(<Forestry:alveary>);
+//Swarmer
+recipes.remove(<Forestry:alveary:2>);
+//Alveary Fan
+recipes.remove(<Forestry:alveary:3>);
+//Alveary Heater
+recipes.remove(<Forestry:alveary:4>);
+//Alveary Hygroregulator
+recipes.remove(<Forestry:alveary:5>);
+//Alveary Stabiliser
+recipes.remove(<Forestry:alveary:6>);
+//Alveary Sieve
+recipes.remove(<Forestry:alveary:7>);
+//Fence
+recipes.remove(<Forestry:fences:*>);
+recipes.remove(<Forestry:fences2:*>);
 
 // --- add Recipes ---
 
@@ -95,9 +127,9 @@ recipes.addShaped(<Forestry:core>, [
 
 //Sturdy Casing
 recipes.addShaped(<Forestry:sturdyMachine>, [
-[<ore:plateBronze>, <ore:plateIron>, <ore:plateBronze>],
-[<ore:plateIron>, <IC2:blockMachine>, <ore:plateIron>],
-[<ore:plateBronze>, <ore:plateIron>, <ore:plateBronze>]]);
+[<ore:plateBronze>, <ore:screwIron>, <ore:plateBronze>],
+[<ore:screwIron>, <IC2:blockMachine>, <ore:screwIron>],
+[<ore:plateBronze>, <ore:screwIron>, <ore:plateBronze>]]);
 
 //Bottler
 recipes.addShaped(<Forestry:factory>, [
@@ -165,6 +197,75 @@ recipes.addShaped(<Forestry:factory2:2>, [
 [<minecraft:crafting_table>, null, null],
 [<minecraft:chest>, null, null]]);
 
+//Escritoire
+mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+[<minecraft:planks:*>, <gregtech:gt.metaitem.01:27809>, <gregtech:gt.metaitem.01:27809>,
+<minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>,
+<minecraft:fence>, null, <minecraft:fence>], 
+null, <Forestry:core:1>);
+
+//Bee House
+recipes.addShaped(<Forestry:apiculture:2>, [
+[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+[<Forestry:frameUntreated>, <Forestry:sturdyMachine>, <Forestry:frameUntreated>],
+[<ore:beeComb>, <ore:slabWood>, <ore:beeComb>]]);
+
+//Apiary
+mods.forestry.Carpenter.addRecipe(800, <liquid:seedoil> * 1000, 
+[<gregtech:gt.metaitem.01:27809>, <minecraft:wooden_slab:*>, <gregtech:gt.metaitem.01:27809>, 
+<Forestry:frameImpregnated>, <Forestry:beeCombs:*>, <Forestry:frameImpregnated>, 
+<minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
+<Forestry:apiculture:2>, <Forestry:apiculture>);
+
+//Apiarys Chest
+mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 500, 
+[<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
+<Forestry:frameImpregnated>, <Forestry:frameImpregnated>, <Forestry:frameImpregnated>, 
+<Forestry:frameImpregnated>, <gregtech:gt.metaitem.01:27809>, <Forestry:frameImpregnated>], 
+<minecraft:chest>, <Forestry:apiculture:1>);
+
+//Swarmer
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
+<Forestry:royalJelly>, <Forestry:frameImpregnated>, <Forestry:royalJelly>, 
+<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
+<Forestry:alveary:*>, <Forestry:alveary:2>);
+
+//Alveary Fan
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:11>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:11>, 
+<dreamcraft:item.SteelBars>, <GalacticraftCore:item.airFan>, <dreamcraft:item.SteelBars>, 
+<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:32600>, <Forestry:thermionicTubes:11>], 
+<Forestry:alveary:*>, <Forestry:alveary:3>);
+
+//Alveary Heater
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:7>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:7>, 
+<IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>, 
+<Forestry:thermionicTubes:7>, <gregtech:gt.metaitem.01:32600>, <Forestry:thermionicTubes:7>], 
+<Forestry:alveary:*>, <Forestry:alveary:4>);
+
+//Alveary Hygroregulator
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:6>, <OpenBlocks:bigbutton>, <Forestry:thermionicTubes:6>, 
+<BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>, 
+<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>], 
+<Forestry:alveary:*>, <Forestry:alveary:5>);
+
+//Alveary Stabiliser
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:8>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:8>, 
+<gregtech:gt.metaitem.01:32729>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:32729>, 
+<Forestry:thermionicTubes:8>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:8>], 
+<Forestry:alveary:*>, <Forestry:alveary:6>);
+
+//Alveary Sieve
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+[<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>, 
+<Forestry:craftingMaterial:3>, <Forestry:pollenFertile>, <Forestry:craftingMaterial:3>, 
+<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>], 
+<Forestry:alveary:*>, <Forestry:alveary:7>);
+
 //Electrical Engine
 recipes.addShaped(<Forestry:engine>, [
 [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
@@ -194,6 +295,12 @@ recipes.addShaped(<Forestry:ffarm>.withTag({FarmBlock:0}), [
 [<Forestry:thermionicTubes:10>, <ore:plateCopper>, <Forestry:thermionicTubes:10>],
 [<ore:plateCopper>, <minecraft:stonebrick>, <ore:plateCopper>],
 [<ore:craftingToolHardHammer>, <ore:plateCopper>, <ore:craftingToolFile>]]);
+
+mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 1000, 
+[<Forestry:thermionicTubes:10>, <gregtech:gt.metaitem.01:17345>, <Forestry:thermionicTubes:10>, 
+<gregtech:gt.metaitem.01:17345>, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:17345>, 
+<Forestry:thermionicTubes:10>, <gregtech:gt.metaitem.01:17345>, <Forestry:thermionicTubes:10>], 
+<minecraft:stonebrick>, <Forestry:ffarm>.withTag({FarmBlock:0}));
 
 recipes.addShaped(<Forestry:ffarm>.withTag({FarmBlock:1}), [
 [<Forestry:thermionicTubes:10>, <ore:plateCopper>, <Forestry:thermionicTubes:10>],
@@ -492,3 +599,506 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [
 [<ore:screwIron>, <ore:ringIron>, <ore:screwIron>],
 [<ore:lensGlass>, null, <ore:lensGlass>],
 [null, null, null]]);
+
+// --- Fence
+
+//Larch Fence
+
+recipes.addShaped(<Forestry:fences>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>]]);
+
+//Teak Fence
+
+recipes.addShaped(<Forestry:fences:1>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:1> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:1> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>]]);
+
+//Acacia Fence
+
+recipes.addShaped(<Forestry:fences:2>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:2> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:2> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>]]);
+
+//Lime Fence
+
+recipes.addShaped(<Forestry:fences:3>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:3> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:3> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>]]);
+
+//Chestnut Fence
+
+recipes.addShaped(<Forestry:fences:4>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:4> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:4> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>]]);
+
+//Wenge Fence
+
+recipes.addShaped(<Forestry:fences:5>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:5> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:5> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>]]);
+
+//Baobab Fence
+
+recipes.addShaped(<Forestry:fences:6>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:6> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:6> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>]]);
+
+//Sequoia Fence
+
+recipes.addShaped(<Forestry:fences:7>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:7> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:7> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>]]);
+
+//Kapok Fence
+
+recipes.addShaped(<Forestry:fences:8>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:8> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:8> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>]]);
+
+//Ebony Fence
+
+recipes.addShaped(<Forestry:fences:9>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:9> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:9> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>]]);
+
+//Mahagany Fence
+
+recipes.addShaped(<Forestry:fences:10>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:10> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:10> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>]]);
+
+//Balsa Fence
+
+recipes.addShaped(<Forestry:fences:11>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:11> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:11> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>]]);
+
+//Willow Fence
+
+recipes.addShaped(<Forestry:fences:12>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:12> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:12> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>]]);
+
+//Walnut Fence
+
+recipes.addShaped(<Forestry:fences:13>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:13> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:13> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>]]);
+
+//Greenheart Fence
+
+recipes.addShaped(<Forestry:fences:14>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:14> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:14> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>]]);
+
+//Cherry Fence
+
+recipes.addShaped(<Forestry:fences:15>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:15> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences:15> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>]]);
+
+//Mahoe Fence
+
+recipes.addShaped(<Forestry:fences2>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>]]);
+
+
+//Poplar Fence
+
+recipes.addShaped(<Forestry:fences2:1>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:1> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:1> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>]]);
+
+//Palm Fence
+
+recipes.addShaped(<Forestry:fences2:2>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:2> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:2> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>]]);
+
+//Papaya Fence
+
+recipes.addShaped(<Forestry:fences2:3>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:3> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:3> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>]]);
+
+//Pine Fence
+
+recipes.addShaped(<Forestry:fences2:4>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:4> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:4> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>]]);
+
+//Plum Fence
+
+recipes.addShaped(<Forestry:fences2:5>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:5> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:5> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>]]);
+
+//Maple Fence
+
+recipes.addShaped(<Forestry:fences2:6>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:6> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:6> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>]]);
+
+//Citrus Fence
+
+recipes.addShaped(<Forestry:fences2:7>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:7> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:7> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>]]);
+
+//Giant Sequoia Fence
+
+recipes.addShaped(<Forestry:fences2:8>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:8> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:8> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>]]);
+
+//Ipe Fence
+
+recipes.addShaped(<Forestry:fences2:9>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:9> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:9> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>]]);
+
+//Padauk Fence
+
+recipes.addShaped(<Forestry:fences2:10>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:10> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:10> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>]]);
+
+//Cocobola Fence
+
+recipes.addShaped(<Forestry:fences2:11>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:11> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:11> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>]]);
+
+//Zebra Wood Fence
+
+recipes.addShaped(<Forestry:fences2:12>, [
+[null, null, null],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:12> * 2, [
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<Forestry:fences2:12> * 4, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>],
+[<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
+
+// --- Assembler Recipes ---
+
+
+//Alveary
+Assembler.addRecipe(<Forestry:alveary>, <Forestry:impregnatedCasing>, <Forestry:craftingMaterial:6> * 8, 1200, 64);
+
