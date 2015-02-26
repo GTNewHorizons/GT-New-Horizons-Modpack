@@ -1,7 +1,7 @@
 // --- Created by DreamMasterXXL ---
 
 
-// --- Importing
+// --- Importing ---
 
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
@@ -12,7 +12,7 @@ import mods.nei.NEI;
 import mods.gregtech.Wiremill;
 
 
-// --- Variables
+// --- Variables ---
 
 
 val FluixBlock = <appliedenergistics2:tile.BlockFluix>;
@@ -130,10 +130,10 @@ val IronRod = <ore:stickIron>;
 
 
 
-// --- Removing Recipes
+// --- Removing Recipes ---
 
 
-// --- Blocks ---
+// **** Blocks ****
 
 
 // --- Fluix Block
@@ -179,7 +179,7 @@ recipes.remove(Charger);
 recipes.remove(Inscriber);
 
 
-// ||||| Items |||||
+// **** Items ****
 
 
 // --- Quartz Fiber
@@ -246,7 +246,7 @@ recipes.remove(LightDetector);
 recipes.remove(TinyTNT);
 
 
-// ||||| Cells |||||
+// **** Cells ****
 
 
 // --- Storage Cell - 1K
@@ -278,13 +278,13 @@ recipes.remove(StorageComponent64K);
 
 
 
-// *======= Adding Back Recipes =======*
+// --- Adding Back Recipes ---
 
 
-// ||||| Blocks |||||
+// **** Blocks ****
 
 
-// --- Fluix Block --- This one conflicts with itself for some reason.
+// --- Fluix Block ---
 Compressor.addRecipe(FluixBlock, PureFluixCrystal * 9);
 Compressor.addRecipe(FluixBlock, FluixCrystal * 4);
 Compressor.addRecipe(CertusQBlock, PureCertusQCrystal * 9);
@@ -399,7 +399,7 @@ recipes.addShaped(<appliedenergistics2:tile.QuartzPillarStairBlock> * 4, [
 [<appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzPillar>]]);
 
 
-// ||||| Items |||||
+// **** Items ****
 
 
 // --- Fluix Glass Cable
@@ -521,7 +521,7 @@ recipes.addShapeless(LightDetector, [CCertusQuartz, IronRod]);
 Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 
 
-// ||||| Cells |||||
+// **** Cells ****
 
 // --- Storage Cell - 1K
 recipes.addShaped(Storage1K, [
@@ -603,16 +603,14 @@ recipes.addShaped(StorageComponent64K, [
 [AdvCircuit, StorageComponent16K, AdvCircuit]]);
 
 
-// #======= Hiding Stuff =======#
+// --- Hiding Stuff ---
 
 
-
-// #======= Renaming Stuff =======#
+// --- Renaming Stuff ---
 
 
 NEI.overrideName(UStorageHousing, "Universal Storage Housing");
 
-//Arch can you add that please in your Script
 
 //ME Quantum Ring
 recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
