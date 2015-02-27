@@ -817,21 +817,21 @@ recipes.addShaped(HPBoilerTank, [
 
 // --- Hobbyist´s Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:7>, [
-[BronzePlate, LapisPlate, BronzePlate],
-[<ore:springBronze>, Piston, <ore:springBronze>],
-[BronzeGear, <gregtech:gt.blockcasings2:12>, BronzeGear]]);
+[<ore:plateCopper>, LapisPlate, <ore:plateCopper>,],
+[<ore:springCopper>, Piston, <ore:springCopper>],
+[<ore:gearCopper>, <Forestry:sturdyMachine>, <ore:gearCopper>]]);
 
 // --- Commercial Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:8>, [
-[StainlessSteelPlate, LapisPlate, StainlessSteelPlate],
-[<ore:springStainlessSteel>, Piston, <ore:springStainlessSteel>],
-[StainlessSteelGear, <gregtech:gt.blockcasings2:13>, StainlessSteelGear]]);
+[<ore:plateSteel>, LapisPlate, <ore:plateSteel>],
+[<ore:springSteel>, Piston, <ore:springSteel>],
+[<ore:gearSteel>, <Forestry:sturdyMachine>, <ore:gearSteel>]]);
 
 // --- Industrial Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:9>, [
-[TitaniumPlate, LapisPlate, TitaniumPlate],
-[<ore:springTitanium>, Piston, <ore:springTitanium>],
-[TitaniumGear, <gregtech:gt.blockcasings2:14>, TitaniumGear]]);
+[<ore:plateAluminium>, LapisPlate, <ore:plateAluminium>],
+[<ore:springAluminium>, Piston, <ore:springAluminium>],
+[<ore:gearAluminium>, <Forestry:sturdyMachine>, <ore:gearAluminium>]]);
 
 // --- Anchor Sentinel ---
 recipes.addShaped(<Railcraft:machine.beta:10>, [
@@ -1696,10 +1696,27 @@ recipes.addShaped(<Railcraft:brick.sandy:2>, [
 [<Railcraft:slab:21>, null, null],
 [null, null, null]]);
 
-//Steel Shears
+// --- Steel Shears
 oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
-//Strengthened Glass
+
+
+// --- Assembler Recipes
+
+//Hobbyist´s Steam Engine
+Assembler.addRecipe(<Railcraft:machine.beta:7>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:3> * 10, 800, 256);
+
+//Commercial Steam Engine
+Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:1> * 10, 800, 256);
+
+//Industrial Steam Engine
+Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
+
+
+
+// --- Thermionic Fabricator Recipes
+
+// --- Strengthened Glass
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 6000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2522>, <gregtech:gt.metaitem.01:2032>], 

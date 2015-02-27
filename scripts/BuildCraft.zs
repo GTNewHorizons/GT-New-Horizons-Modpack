@@ -5,6 +5,7 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
@@ -342,17 +343,11 @@ recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 // --- Engines ---
 
 
-// --- Stirling Engine
-recipes.addShaped(<BuildCraft|Energy:engineBlock:1>, [
-[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
-[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
-[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
-
 // --- Combustion Engine
 recipes.addShaped(<BuildCraft|Energy:engineBlock:2>, [
-[<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
-[<ore:springSteel>, <minecraft:piston>, <ore:springSteel>],
-[<ore:gearSteel>, <Forestry:sturdyMachine>, <ore:gearSteel>]]);
+[<ore:plateInvar>, <ore:plateLapis>, <ore:plateInvar>],
+[<ore:springInvar>, <minecraft:piston>, <ore:springInvar>],
+[<ore:gearInvar>, <Forestry:sturdyMachine>, <ore:gearInvar>]]);
 
 
 // --- Pipes ---
@@ -454,6 +449,12 @@ recipes.addShaped(BCTank, [
 [IronRod, ObsidianGlass, IronRod],
 [IronScrew, Wrench, IronScrew],
 [IronRod, ObsidianGlass, IronRod]]);
+
+
+//Assembler Recipes
+
+//Combustion Engine
+Assembler.addRecipe(<BuildCraft|Energy:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
 
 
 

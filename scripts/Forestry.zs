@@ -7,8 +7,10 @@ import mods.gregtech.Assembler;
 
 //Analyzer
 recipes.remove(<Forestry:core>);
-//Sturdy Machine Casing
+//Sturdy Casing
 recipes.remove(<Forestry:sturdyMachine>);
+//Hardened Casing
+mods.forestry.Carpenter.removeRecipe(<Forestry:hardenedMachine>);
 //Bottler
 recipes.remove(<Forestry:factory>);
 //Carpenter
@@ -123,81 +125,93 @@ recipes.remove(<Forestry:arboriculture>);
 
 //Analyzer
 recipes.addShaped(<Forestry:core>, [
-[<ore:plateBronze>, <Forestry:beealyzer>, <ore:plateBronze>],
+[<ore:plateCupronickel>, <Forestry:beealyzer>, <ore:plateCupronickel>],
 [<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
-[<ore:plateBronze>, <minecraft:piston>, <ore:plateBronze>]]);
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Sturdy Casing
 recipes.addShaped(<Forestry:sturdyMachine>, [
-[<ore:plateBronze>, <ore:screwIron>, <ore:plateBronze>],
-[<ore:screwIron>, <IC2:blockMachine>, <ore:screwIron>],
-[<ore:plateBronze>, <ore:screwIron>, <ore:plateBronze>]]);
+[<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>],
+[<ore:screwSteel>, <gregtech:gt.blockcasings:1>, <ore:screwSteel>],
+[<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>]]);
+
+//Bio Generator
+recipes.addShaped(<Forestry:engine:3>, [
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Bottler
 recipes.addShaped(<Forestry:factory>, [
-[<Forestry:canEmpty>, <Railcraft:machine.beta:14>, <Forestry:canEmpty>],
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[<Forestry:canEmpty>, <Railcraft:machine.beta:14>, <Forestry:canEmpty>]]);
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<ore:ringRubber>, <Forestry:sturdyMachine>, <ore:ringRubber>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Carpenter
 recipes.addShaped(<Forestry:factory:1>, [
-[<ore:plateBronze>, <gregtech:gt.metaitem.02:21057>, <ore:plateBronze>],
-[<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
-[<ore:plateBronze>, <ore:screwBronze>, <ore:plateBronze>]]);
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<gregtech:gt.metaitem.01:32650>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32650>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Centrifuge
 recipes.addShaped(<Forestry:factory:2>, [
-[<ore:plateCopper>, <gregtech:gt.metaitem.02:21057>, <ore:plateCopper>],
-[<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
-[<ore:plateCopper>, <gregtech:gt.metaitem.02:21057>, <ore:plateCopper>]]);
+[<ore:plateCupronickel>, <gregtech:gt.metaitem.01:32600>, <ore:plateCupronickel>],
+[<dreamcraft:item.SteelBars>, <Forestry:sturdyMachine>, <dreamcraft:item.SteelBars>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Fermenter
 recipes.addShaped(<Forestry:factory:3>, [
-[<ore:plateGold>, <gregtech:gt.metaitem.02:21057>, <ore:plateGold>],
-[<ore:gearTin>, <Forestry:sturdyMachine>, <ore:gearTin>],
-[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+[<ore:plateCupronickel>, <gregtech:gt.metaitem.02:21057>, <ore:plateCupronickel>],
+[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Moistener
 recipes.addShaped(<Forestry:factory:4>, [
-[<gregtech:gt.metaitem.02:31035>, <ore:plateGlass>, <gregtech:gt.metaitem.02:31035>],
-[<gregtech:gt.blockmachines:5122>, <Forestry:sturdyMachine>, <gregtech:gt.blockmachines:5122>],
-[<gregtech:gt.metaitem.02:31035>, <ore:plateGlass>, <gregtech:gt.metaitem.02:31035>]]);
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<gregtech:gt.metaitem.02:21057>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.02:21057>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Squeezer
 recipes.addShaped(<Forestry:factory:5>, [
-[<ore:plateTin>, <gregtech:gt.metaitem.02:21057>, <ore:plateTin>],
-[<ore:gearGold>, <Forestry:sturdyMachine>, <ore:gearGold>],
-[<ore:plateTin>, <ore:screwTin>, <ore:plateTin>]]);
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<gregtech:gt.metaitem.01:32640>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32640>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Still
 recipes.addShaped(<Forestry:factory:6>, [
-[<minecraft:redstone_block>, <ore:plateGlass>, <minecraft:redstone_block>],
-[<gregtech:gt.metaitem.02:21300>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.02:21300>],
-[<extracells:certustank>, <ore:plateGlass>, <extracells:certustank>]]);
+[<ore:plateCupronickel>, <IC2:itemRecipePart>, <ore:plateCupronickel>],
+[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 //Rain Maker
 recipes.addShaped(<Forestry:factory:7>, [
-[<ore:gearTin>, <gregtech:gt.metaitem.01:32690>, <ore:gearTin>],
-[<gregtech:gt.metaitem.01:32640>, <Forestry:hardenedMachine>, <gregtech:gt.metaitem.01:32640>],
-[<ore:gearTin>, <gregtech:gt.metaitem.01:32680>, <ore:gearTin>]]);
+[<ore:plateCupronickel>, <gregtech:gt.metaitem.01:32691>, <ore:plateCupronickel>],
+[<gregtech:gt.metaitem.01:32641>, <Forestry:hardenedMachine>, <gregtech:gt.metaitem.01:32641>],
+[<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32681>, <ore:gearGtSmallAluminium>]]);
 
 //Thermionic Fabricator
-recipes.addShaped(<Forestry:factory2>, [
-[<ore:gearGold>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:gearGold>],
-[<appliedenergistics2:tile.BlockQuartzGlass>, <Forestry:sturdyMachine>, <appliedenergistics2:tile.BlockQuartzGlass>],
-[<ore:gearGold>, <Forestry:factory2:2>, <ore:gearGold>]]);
+mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 1000, [
+<gregtech:gt.metaitem.01:27305>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:27305>, 
+<IC2:itemRecipePart>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>, 
+<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:27305>], 
+<Forestry:factory2:2>, <Forestry:factory2>);
 
 //Rain Tank
 recipes.addShaped(<Forestry:factory2:1>, [
-[<ore:plateIron>, <Railcraft:machine.beta:1>, <ore:plateIron>],
-[<ore:plateIron>, <Forestry:sturdyMachine>, <ore:plateIron>],
-[<ore:plateIron>, <Railcraft:machine.beta:1>, <ore:plateIron>]]);
+[<ore:plateIron>, <ore:ringIron>, <ore:plateIron>],
+[<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
+[<ore:plateIron>, <minecraft:cauldron>, <ore:plateIron>]]);
 
 //Work Table
 recipes.addShaped(<Forestry:factory2:2>, [
-[<minecraft:bookshelf>, null, null],
-[<minecraft:crafting_table>, null, null],
-[<minecraft:chest>, null, null]]);
+[<ore:screwIron>, <minecraft:bookshelf>, <ore:screwIron>],
+[<ore:craftingToolSaw>, <minecraft:crafting_table>, <ore:craftingToolScrewdriver>],
+[<ore:screwIron>, <minecraft:chest>, <ore:screwIron>]]);
+// -
+recipes.addShaped(<Forestry:factory2:2>, [
+[<ore:screwIron>, <minecraft:bookshelf>, <ore:screwIron>],
+[<ore:craftingToolSaw>, <TConstruct:CraftingStation>, <ore:craftingToolScrewdriver>],
+[<ore:screwIron>, <minecraft:chest>, <ore:screwIron>]]);
 
 //Escritoire
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
@@ -295,27 +309,21 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000,
 
 //Electrical Engine
 recipes.addShaped(<Forestry:engine>, [
-[<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
-[<ore:springSteel>, <minecraft:piston>, <ore:springSteel>],
+[<ore:plateStainlessSteel>, <ore:plateLapis>, <ore:plateStainlessSteel>],
+[<ore:springStainlessSteel>, <minecraft:piston>, <ore:springStainlessSteel>],
 [<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>]]);
 
 //Peat fired Engine
 recipes.addShaped(<Forestry:engine:1>, [
-[<ore:plateCopper>, <ore:plateLapis>, <ore:plateCopper>],
-[<ore:springCopper>, <minecraft:piston>, <ore:springCopper>],
-[<ore:gearCopper>, <Forestry:sturdyMachine>, <ore:gearCopper>]]);
+[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
+[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
+[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
 
 //Biogas Engine
 recipes.addShaped(<Forestry:engine:2>, [
-[<ore:plateInvar>, <ore:plateLapis>, <ore:plateInvar>],
-[<ore:springInvar>, <minecraft:piston>, <ore:springInvar>],
-[<ore:gearInvar>, <Forestry:sturdyMachine>, <ore:gearInvar>]]);
-
-//Clockwork Engine
-recipes.addShaped(<Forestry:engine:4>, [
-[<gregtech:gt.metaitem.01:17809>, <ore:plateLapis>, <gregtech:gt.metaitem.01:17809>],
-[<ore:springPlastic>, <minecraft:piston>, <ore:springPlastic>],
-[<ore:gearWood>, <Forestry:impregnatedCasing>, <ore:gearWood>]]);
+[<ore:plateBronze>, <ore:plateLapis>, <ore:plateBronze>],
+[<ore:springBronze>, <minecraft:piston>, <ore:springBronze>],
+[<ore:gearBronze>, <Forestry:sturdyMachine>, <ore:gearBronze>]]);
 
 //Farm Block
 recipes.addShaped(<Forestry:ffarm>.withTag({FarmBlock:0}), [
@@ -1129,3 +1137,14 @@ recipes.addShaped(<Forestry:fences2:12> * 4, [
 //Alveary
 Assembler.addRecipe(<Forestry:alveary>, <Forestry:impregnatedCasing>, <Forestry:craftingMaterial:6> * 8, 1200, 64);
 
+//Sturdy Casing
+Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <gregtech:gt.metaitem.01:17300> * 4, 800, 32);
+
+//Hardened  Casing
+Assembler.addRecipe(<Forestry:hardenedMachine>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:17500> * 8, 1200, 128);
+
+//Peat Fireed Engine
+Assembler.addRecipe(<Forestry:engine:1>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate> * 10, 800, 256);
+
+//Biogas Engine
+Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17300> * 10, 800, 256);

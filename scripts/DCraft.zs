@@ -96,6 +96,15 @@ Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8
 Assembler.addRecipe(<dreamcraft:item.SnowQueenBlood>, <Thaumcraft:ItemResource:14> * 64, <TwilightForest:item.trophy:4> * 0, 1800, 512);
 
 
+//Carpenters Recipes
+
+//Engine Core
+mods.forestry.Carpenter.addRecipe(400, <liquid:water> * 1000, [
+null, <gregtech:gt.metaitem.01:17526>, null, 
+null, <minecraft:piston>, null, 
+null, null, null], 
+<Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
+
 //Extruder Recipes
 
 //Void Metal Plate
