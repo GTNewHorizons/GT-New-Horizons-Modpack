@@ -1,0 +1,7 @@
+[
+  {
+    "name": "players",
+    "override": "who",
+    "description": "Default alias players for the who command."
+  }
+]

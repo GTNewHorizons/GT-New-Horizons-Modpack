@@ -1,0 +1,22 @@
+[
+  {
+    "name": "tps",
+    "command": "cofh tps",
+    "broadcastResult": true,
+    "runAsOp": true,
+    "requireAuth": false,
+    "allowArgs": false,
+    "description": "Broadcasts the current TPS to the channel."
+  },
+  {
+    "name": "players",
+    "override": "who",
+    "description": "An alias for the who command called players."
+  },
+  {
+    "name": "help",
+    "override": "help",
+    "broadcastResult": true,
+    "description": "Changes EiraIRCs help command to broadcast into the channel instead."
+  }
+]
