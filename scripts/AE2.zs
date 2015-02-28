@@ -545,7 +545,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [
 recipes.addShaped(<appliedenergistics2:tile.BlockVibrationChamber>, [
 [AlPlate, AlPlate, AlPlate],
 [AlPlate, <gregtech:gt.blockmachines:262>, AlPlate],
-[AlPlate>, <appliedenergistics2:tile.BlockEnergyAcceptor>, AlPlate]]);
+[AlPlate, <appliedenergistics2:tile.BlockEnergyAcceptor>, AlPlate]]);
 
 // --- ME Security Terminal
 recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [
@@ -736,7 +736,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [
 recipes.addShaped(Pattern, [
 [<appliedenergistics2:tile.BlockQuartzGlass>, <ore:plateGlowstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
 [<ore:plateGlowstone>, <ore:itemCertusQuartz>, <ore:plateGlowstone>],
-[AlPlate>, AlPlate, AlPlate]]);
+[AlPlate, AlPlate, AlPlate]]);
   
 // --- Capacity Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:27>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:1>]);
@@ -934,7 +934,7 @@ recipes.addShaped(Storage64K, [
 recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [
 [GlassPlate, <ore:plateRedAlloy>, GlassPlate],
 [<ore:plateRedAlloy>, <ore:gemCertusQuartz>, <ore:plateRedAlloy>],
-[AlPlate, AlPlate, AlPlate>]]);
+[AlPlate, AlPlate, AlPlate]]);
 // -
 recipes.addShapeless(<appliedenergistics2:item.ItemViewCell>, [<appliedenergistics2:item.ItemMultiMaterial:39>, <ore:gemCertusQuartz>]);
 
