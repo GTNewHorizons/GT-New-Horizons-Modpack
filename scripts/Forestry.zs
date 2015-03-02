@@ -10,14 +10,17 @@ import mods.gregtech.Assembler;
 // --- remove Recipes ---
 
 
-// --- Analyzer
-recipes.remove(<Forestry:core>);
+// --- Machines ---
+
 
 // --- Sturdy Casing
 recipes.remove(<Forestry:sturdyMachine>);
 
 // --- Hardened Casing
 mods.forestry.Carpenter.removeRecipe(<Forestry:hardenedMachine>);
+
+// --- Analyzer
+recipes.remove(<Forestry:core>);
 
 // --- Bottler
 recipes.remove(<Forestry:factory>);
@@ -52,6 +55,19 @@ recipes.remove(<Forestry:factory2:1>);
 // --- Work Table
 recipes.remove(<Forestry:factory2:2>);
 
+// --- Escritoire
+mods.forestry.Carpenter.removeRecipe(<Forestry:core:1>);
+
+// --- Mailbox
+recipes.remove(<Forestry:mail>);
+
+// --- Trade Station
+recipes.remove(<Forestry:mail:1>);
+
+
+// --- Engines ---
+
+
 // --- Electrical Engine
 recipes.remove(<Forestry:engine>);
 
@@ -67,6 +83,10 @@ recipes.remove(<Forestry:engine:3>);
 // --- Clockwork Engine
 recipes.remove(<Forestry:engine:4>);
 
+
+// --- Farms ---
+
+
 // --- Farm Block
 recipes.remove(<Forestry:ffarm>);
 
@@ -81,6 +101,10 @@ recipes.remove(<Forestry:ffarm:4>);
 
 // --- Farm Control
 recipes.remove(<Forestry:ffarm:5>);
+
+
+// --- Tools and Items ---
+
 
 // --- Survivalist´s Pickaxe
 recipes.remove(<Forestry:bronzePickaxe>);
@@ -136,14 +160,36 @@ recipes.remove(<Forestry:pipette>);
 // --- Spectacles
 recipes.remove(<Forestry:naturalistHelmet>);
 
-// --- Escritoire
-mods.forestry.Carpenter.removeRecipe(<Forestry:core:1>);
-
 // --- Humus
 recipes.remove(<Forestry:soil>);
 
 // --- Bog
 recipes.remove(<Forestry:soil:1>);
+
+// --- Pulsating Mesh
+recipes.remove(<Forestry:craftingMaterial:1>);
+
+// --- Compost
+recipes.remove(<Forestry:fertilizerBio>);
+
+// --- Fertilizer
+recipes.remove(<Forestry:fertilizerCompound>);
+
+// --- Iodine Capsule
+mods.forestry.Carpenter.removeRecipe(<Forestry:iodineCapsule>);
+
+// --- Dissipation Charge
+mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:4>);
+
+// --- Scented Paneling
+mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
+
+// --- Bituminous Peat
+recipes.remove(<Forestry:bituminousPeat>);
+
+
+// --- Bees Trees and Butterflies ---
+
 
 // --- Bee House
 recipes.remove(<Forestry:apiculture:2>);
@@ -175,128 +221,104 @@ recipes.remove(<Forestry:alveary:6>);
 // --- Alveary Sieve
 recipes.remove(<Forestry:alveary:7>);
 
-// --- Fence
-recipes.remove(<Forestry:fences:*>);
-// -
-recipes.remove(<Forestry:fences2:*>);
-
 // --- Arborits Chest
 recipes.remove(<Forestry:arboriculture>);
 
 // --- Lepidopterists Chest
 recipes.remove(<Forestry:lepidopterology>);
 
-// --- Mailbox
-recipes.remove(<Forestry:mail>);
 
-// --- Trade Station
-recipes.remove(<Forestry:mail:1>);
+// --- Fences ---
 
-// --- Pulsating Mesh
-recipes.remove(<Forestry:craftingMaterial:1>);
 
-// --- Compost
-recipes.remove(<Forestry:fertilizerBio>);
+// --- Fence
+recipes.remove(<Forestry:fences:*>);
+// -
+recipes.remove(<Forestry:fences2:*>);
 
-// --- Fertilizer
-recipes.remove(<Forestry:fertilizerCompound>);
-
-// --- Iodine Capsule
-mods.forestry.Carpenter.removeRecipe(<Forestry:iodineCapsule>);
-
-// --- Dissipation Charge
-mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:4>);
-
-// --- Scented Paneling
-mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
-
-// --- Bituminous Peat
-recipes.remove(<Forestry:bituminousPeat>);
 
 
 
 // --- add Recipes ---
 
-//Analyzer
-recipes.addShaped(<Forestry:core>, [
-[<ore:plateCupronickel>, <Forestry:beealyzer>, <ore:plateCupronickel>],
-[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
-[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Sturdy Casing
+// --- Machines ---
+
+
+// --- Sturdy Casing
 recipes.addShaped(<Forestry:sturdyMachine>, [
 [<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>],
 [<ore:screwSteel>, <gregtech:gt.blockcasings:1>, <ore:screwSteel>],
 [<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>]]);
 
-//Bio Generator
-recipes.addShaped(<Forestry:engine:3>, [
-[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
-[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>],
+// --- Analyzer
+recipes.addShaped(<Forestry:core>, [
+[<ore:plateCupronickel>, <Forestry:beealyzer>, <ore:plateCupronickel>],
+[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Bottler
+// --- Bottler
 recipes.addShaped(<Forestry:factory>, [
 [<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
 [<ore:ringRubber>, <Forestry:sturdyMachine>, <ore:ringRubber>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Carpenter
+// --- Carpenter
 recipes.addShaped(<Forestry:factory:1>, [
 [<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
 [<gregtech:gt.metaitem.01:32650>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32650>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Centrifuge
+// --- Centrifuge
 recipes.addShaped(<Forestry:factory:2>, [
 [<ore:plateCupronickel>, <gregtech:gt.metaitem.01:32600>, <ore:plateCupronickel>],
 [<dreamcraft:item.SteelBars>, <Forestry:sturdyMachine>, <dreamcraft:item.SteelBars>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Fermenter
+// --- Fermenter
 recipes.addShaped(<Forestry:factory:3>, [
 [<ore:plateCupronickel>, <gregtech:gt.metaitem.02:21057>, <ore:plateCupronickel>],
 [<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Moistener
+// --- Moistener
 recipes.addShaped(<Forestry:factory:4>, [
 [<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
 [<gregtech:gt.metaitem.02:21057>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.02:21057>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Squeezer
+// --- Squeezer
 recipes.addShaped(<Forestry:factory:5>, [
 [<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
 [<gregtech:gt.metaitem.01:32640>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:32640>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Still
+// --- Still
 recipes.addShaped(<Forestry:factory:6>, [
 [<ore:plateCupronickel>, <IC2:itemRecipePart>, <ore:plateCupronickel>],
 [<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-//Rain Maker
+// --- Rain Maker
 recipes.addShaped(<Forestry:factory:7>, [
 [<ore:plateCupronickel>, <gregtech:gt.metaitem.01:32691>, <ore:plateCupronickel>],
 [<gregtech:gt.metaitem.01:32641>, <Forestry:hardenedMachine>, <gregtech:gt.metaitem.01:32641>],
 [<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32681>, <ore:gearGtSmallAluminium>]]);
 
-//Thermionic Fabricator
+// --- Thermionic Fabricator
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 1000, [
 <gregtech:gt.metaitem.01:27305>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemRecipePart>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:27305>], 
 <Forestry:factory2:2>, <Forestry:factory2>);
 
-//Rain Tank
+// --- Rain Tank
 recipes.addShaped(<Forestry:factory2:1>, [
 [<ore:plateIron>, <ore:ringIron>, <ore:plateIron>],
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
 [<ore:plateIron>, <minecraft:cauldron>, <ore:plateIron>]]);
 
-//Work Table
+// --- Work Table
 recipes.addShaped(<Forestry:factory2:2>, [
 [<ore:screwIron>, <minecraft:bookshelf>, <ore:screwIron>],
 [<ore:craftingToolSaw>, <minecraft:crafting_table>, <ore:craftingToolScrewdriver>],
@@ -307,41 +329,86 @@ recipes.addShaped(<Forestry:factory2:2>, [
 [<ore:craftingToolSaw>, <TConstruct:CraftingStation>, <ore:craftingToolScrewdriver>],
 [<ore:screwIron>, <minecraft:chest>, <ore:screwIron>]]);
 
-//Escritoire
+// --- Escritoire
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
 [<minecraft:planks:*>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:27305>,
 <minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>,
 <minecraft:fence>, null, <minecraft:fence>], 
 null, <Forestry:core:1>);
 
-//Bee House
+// --- Mailbox
+recipes.addShaped(<Forestry:mail>, [
+[<ore:plateCupronickel>, <minecraft:iron_bars>, <ore:plateCupronickel>],
+[<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+
+// --- Trade Station
+recipes.addShaped(<Forestry:mail:1>, [
+[<Forestry:thermionicTubes:2>, <Forestry:thermionicTubes:3>, <Forestry:thermionicTubes:2>],
+[<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
+[<ore:gearGtSmallSteel>, <Forestry:chipsets:2>.withTag({T: 2 as short}), <ore:gearGtSmallSteel>]]);
+
+
+// --- Engines ---
+
+
+// --- Bio Generator
+recipes.addShaped(<Forestry:engine:3>, [
+[<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
+[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
+
+// --- Electrical Engine
+recipes.addShaped(<Forestry:engine>, [
+[<ore:plateStainlessSteel>, <ore:plateLapis>, <ore:plateStainlessSteel>],
+[<ore:springStainlessSteel>, <minecraft:piston>, <ore:springStainlessSteel>],
+[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>]]);
+
+// --- Peat fired Engine
+recipes.addShaped(<Forestry:engine:1>, [
+[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
+[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
+[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
+
+// --- Biogas Engine
+recipes.addShaped(<Forestry:engine:2>, [
+[<ore:plateBronze>, <ore:plateLapis>, <ore:plateBronze>],
+[<ore:springBronze>, <minecraft:piston>, <ore:springBronze>],
+[<ore:gearBronze>, <Forestry:sturdyMachine>, <ore:gearBronze>]]);
+
+
+
+// --- Bees Trees and Butterflies ---
+
+
+// --- Bee House
 recipes.addShaped(<Forestry:apiculture:2>, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 [<Forestry:frameUntreated>, <Forestry:sturdyMachine>, <Forestry:frameUntreated>],
 [<ore:beeComb>, <ore:slabWood>, <ore:beeComb>]]);
 
-//Apiary
+// --- Apiary
 mods.forestry.Carpenter.addRecipe(800, <liquid:seedoil> * 1000, 
 [<gregtech:gt.metaitem.01:27305>, <minecraft:wooden_slab:*>, <gregtech:gt.metaitem.01:27305>, 
 <Forestry:frameImpregnated>, <Forestry:beeCombs:*>, <Forestry:frameImpregnated>, 
 <minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
 <Forestry:apiculture:2>, <Forestry:apiculture>);
 
-//Apiarys Chest
+// --- Apiarys Chest
 mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <Forestry:frameImpregnated>, <Forestry:frameImpregnated>, <Forestry:frameImpregnated>, 
 <Forestry:frameImpregnated>, <gregtech:gt.metaitem.01:27305>, <Forestry:frameImpregnated>], 
 <minecraft:chest>, <Forestry:apiculture:1>);
 
-//Arborits Chest
+// --- Arborits Chest
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
 [<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 
-//Lepidopterists Chest
+// --- Lepidopterists Chest
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
 [<Forestry:butterflyGE:*>, <Forestry:butterflyGE:*>, <Forestry:butterflyGE:*>, 
 <Genetics:misc:6>, <Genetics:misc:6>, <Genetics:misc:6>, 
@@ -366,67 +433,53 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000,
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 
-//Swarmer
+// --- Swarmer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
 <Forestry:royalJelly>, <Forestry:frameImpregnated>, <Forestry:royalJelly>, 
 <Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
 <Forestry:alveary:*>, <Forestry:alveary:2>);
 
-//Alveary Fan
+// --- Alveary Fan
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:11>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:11>, 
 <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.02:21300>, <dreamcraft:item.SteelBars>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:11>], 
 <Forestry:alveary:*>, <Forestry:alveary:3>);
 
-//Alveary Heater
+// --- Alveary Heater
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:7>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:7>, 
 <IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>, 
 <Forestry:thermionicTubes:7>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:7>], 
 <Forestry:alveary:*>, <Forestry:alveary:4>);
 
-//Alveary Hygroregulator
+// --- Alveary Hygroregulator
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:32702>, <Forestry:thermionicTubes:6>, 
 <BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>, 
 <Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>], 
 <Forestry:alveary:*>, <Forestry:alveary:5>);
 
-//Alveary Stabiliser
+// --- Alveary Stabiliser
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:8>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:8>, 
 <gregtech:gt.metaitem.01:32729>, <Forestry:beealyzer>, <gregtech:gt.metaitem.01:32729>, 
 <Forestry:thermionicTubes:8>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:8>], 
 <Forestry:alveary:*>, <Forestry:alveary:6>);
 
-//Alveary Sieve
+// --- Alveary Sieve
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>, 
 <Forestry:craftingMaterial:3>, <Forestry:pollenFertile:*>, <Forestry:craftingMaterial:3>, 
 <Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>], 
 <Forestry:alveary:*>, <Forestry:alveary:7>);
 
-//Electrical Engine
-recipes.addShaped(<Forestry:engine>, [
-[<ore:plateStainlessSteel>, <ore:plateLapis>, <ore:plateStainlessSteel>],
-[<ore:springStainlessSteel>, <minecraft:piston>, <ore:springStainlessSteel>],
-[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>]]);
 
-//Peat fired Engine
-recipes.addShaped(<Forestry:engine:1>, [
-[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
-[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
-[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
+// --- Farms ---
 
-//Biogas Engine
-recipes.addShaped(<Forestry:engine:2>, [
-[<ore:plateBronze>, <ore:plateLapis>, <ore:plateBronze>],
-[<ore:springBronze>, <minecraft:piston>, <ore:springBronze>],
-[<ore:gearBronze>, <Forestry:sturdyMachine>, <ore:gearBronze>]]);
 
-//Farm Block
+// --- Farm Block
 mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
@@ -493,7 +546,7 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144,
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:quartz_block:2>, <Forestry:ffarm>.withTag({FarmBlock:10}));
 
-//Farm Gearbox
+// --- Farm Gearbox
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
@@ -560,7 +613,7 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144,
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:2>.withTag({FarmBlock:10}));
 
-//Farm Hatch
+// --- Farm Hatch
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
@@ -627,7 +680,7 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144,
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:3>.withTag({FarmBlock:10}));
 
-//Farm Valve
+// --- Farm Valve
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
@@ -694,7 +747,7 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144,
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:4>.withTag({FarmBlock:10}));
 
-//Farm Control
+// --- Farm Control
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
@@ -761,43 +814,34 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144,
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:5>.withTag({FarmBlock:10}));
 
-//Mailbox
-recipes.addShaped(<Forestry:mail>, [
-[<ore:plateCupronickel>, <minecraft:iron_bars>, <ore:plateCupronickel>],
-[<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-//Trade Station
-recipes.addShaped(<Forestry:mail:1>, [
-[<Forestry:thermionicTubes:2>, <Forestry:thermionicTubes:3>, <Forestry:thermionicTubes:2>],
-[<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
-[<ore:gearGtSmallSteel>, <Forestry:chipsets:2>.withTag({T: 2 as short}), <ore:gearGtSmallSteel>]]);
+// --- Tools and Items ---
 
-//Infuser
+// --- Infuser
 recipes.addShaped(<Forestry:infuser>, [
 [null, <ore:stickBronze>, null],
 [null, <ore:stickIron>, null],
 [<gregtech:gt.metatool.01:12>, <minecraft:iron_bars>, <gregtech:gt.metatool.01:18>]]);
 
-//Can
+// --- Can
 recipes.addShaped(<Forestry:canEmpty> * 3, [
 [null, <ore:plateTin>, null],
 [<ore:plateTin>, <gregtech:gt.metatool.01:12>, <ore:plateTin>],
 [null, null, null]]);
 
-//Pipette
+// --- Pipette
 recipes.addShaped(<Forestry:pipette>, [
 [null, <ore:plateRubber>, <ore:plateRubber>],
 [null, <ore:cellEmpty>, <ore:plateRubber>],
 [<ore:boltGlass>, null, null]]);
 
-//Spectacles
+// --- Spectacles
 recipes.addShaped(<Forestry:naturalistHelmet>, [
 [<ore:screwIron>, <ore:ringIron>, <ore:screwIron>],
 [<ore:lensGlass>, null, <ore:lensGlass>],
 [null, null, null]]);
 
-//Compost
+// --- Compost
 mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
 [null, <minecraft:wheat>, null, 
 <minecraft:wheat>, <minecraft:dirt:*>, <minecraft:wheat>, 
@@ -841,7 +885,7 @@ null, <harvestcraft:oatsItem>, null],
 null, <Forestry:fertilizerBio>);
 
 
-//Fertilizer
+// --- Fertilizer
 mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
 [null, <minecraft:sand:*>, null, 
 null, <gregtech:gt.metaitem.01:2530>, null, 
@@ -872,28 +916,28 @@ mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100,
 null, <minecraft:sand:*>, null],
 null, <Forestry:fertilizerCompound> * 2);
 
-//Iodine Capsule
+// --- Iodine Capsule
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <Forestry:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 
-// Dissipation Charge
+// --- Dissipation Charge
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <Forestry:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 
-// Scented Paneling
+// --- Scented Paneling
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
 [<gregtech:gt.metaitem.02:19086>, <Forestry:royalJelly>, <gregtech:gt.metaitem.02:19086>, 
 <Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>, 
 <Forestry:beeswax>, <Forestry:pollen:*>, <Forestry:beeswax>],
 null, <Forestry:craftingMaterial:6>);
 
-// - Bituminous Peat
+// --- Bituminous Peat
 mods.forestry.Carpenter.addRecipe(400, <liquid:creosote> * 200, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <Forestry:peat>, <Forestry:propolis:*>, <Forestry:peat>, 
@@ -907,10 +951,10 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 500,
 null, <Forestry:bituminousPeat> * 5);
 
 
-// --- Fence
+// --- Fence ---
 
 
-//Larch Fence
+// --- Larch Fence
 
 recipes.addShaped(<Forestry:fences>, [
 [null, null, null],
@@ -927,7 +971,7 @@ recipes.addShaped(<Forestry:fences> * 4, [
 [<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks>, <ore:stickWood>]]);
 
-//Teak Fence
+// --- Teak Fence
 
 recipes.addShaped(<Forestry:fences:1>, [
 [null, null, null],
@@ -944,7 +988,7 @@ recipes.addShaped(<Forestry:fences:1> * 4, [
 [<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>]]);
 
-//Acacia Fence
+// --- Acacia Fence
 
 recipes.addShaped(<Forestry:fences:2>, [
 [null, null, null],
@@ -961,7 +1005,7 @@ recipes.addShaped(<Forestry:fences:2> * 4, [
 [<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>]]);
 
-//Lime Fence
+// --- Lime Fence
 
 recipes.addShaped(<Forestry:fences:3>, [
 [null, null, null],
@@ -978,7 +1022,7 @@ recipes.addShaped(<Forestry:fences:3> * 4, [
 [<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>]]);
 
-//Chestnut Fence
+// --- Chestnut Fence
 
 recipes.addShaped(<Forestry:fences:4>, [
 [null, null, null],
@@ -995,7 +1039,7 @@ recipes.addShaped(<Forestry:fences:4> * 4, [
 [<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>]]);
 
-//Wenge Fence
+// --- Wenge Fence
 
 recipes.addShaped(<Forestry:fences:5>, [
 [null, null, null],
@@ -1012,7 +1056,7 @@ recipes.addShaped(<Forestry:fences:5> * 4, [
 [<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>]]);
 
-//Baobab Fence
+// --- Baobab Fence
 
 recipes.addShaped(<Forestry:fences:6>, [
 [null, null, null],
@@ -1029,7 +1073,7 @@ recipes.addShaped(<Forestry:fences:6> * 4, [
 [<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>]]);
 
-//Sequoia Fence
+// --- Sequoia Fence
 
 recipes.addShaped(<Forestry:fences:7>, [
 [null, null, null],
@@ -1046,7 +1090,7 @@ recipes.addShaped(<Forestry:fences:7> * 4, [
 [<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>]]);
 
-//Kapok Fence
+// --- Kapok Fence
 
 recipes.addShaped(<Forestry:fences:8>, [
 [null, null, null],
@@ -1063,7 +1107,7 @@ recipes.addShaped(<Forestry:fences:8> * 4, [
 [<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>]]);
 
-//Ebony Fence
+// --- Ebony Fence
 
 recipes.addShaped(<Forestry:fences:9>, [
 [null, null, null],
@@ -1080,7 +1124,7 @@ recipes.addShaped(<Forestry:fences:9> * 4, [
 [<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>]]);
 
-//Mahagany Fence
+// --- Mahagany Fence
 
 recipes.addShaped(<Forestry:fences:10>, [
 [null, null, null],
@@ -1097,7 +1141,7 @@ recipes.addShaped(<Forestry:fences:10> * 4, [
 [<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>]]);
 
-//Balsa Fence
+// --- Balsa Fence
 
 recipes.addShaped(<Forestry:fences:11>, [
 [null, null, null],
@@ -1114,7 +1158,7 @@ recipes.addShaped(<Forestry:fences:11> * 4, [
 [<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>]]);
 
-//Willow Fence
+// --- Willow Fence
 
 recipes.addShaped(<Forestry:fences:12>, [
 [null, null, null],
@@ -1131,7 +1175,7 @@ recipes.addShaped(<Forestry:fences:12> * 4, [
 [<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>]]);
 
-//Walnut Fence
+// --- Walnut Fence
 
 recipes.addShaped(<Forestry:fences:13>, [
 [null, null, null],
@@ -1148,7 +1192,7 @@ recipes.addShaped(<Forestry:fences:13> * 4, [
 [<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>]]);
 
-//Greenheart Fence
+// --- Greenheart Fence
 
 recipes.addShaped(<Forestry:fences:14>, [
 [null, null, null],
@@ -1165,7 +1209,7 @@ recipes.addShaped(<Forestry:fences:14> * 4, [
 [<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>]]);
 
-//Cherry Fence
+// --- Cherry Fence
 
 recipes.addShaped(<Forestry:fences:15>, [
 [null, null, null],
@@ -1182,7 +1226,7 @@ recipes.addShaped(<Forestry:fences:15> * 4, [
 [<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>]]);
 
-//Mahoe Fence
+// --- Mahoe Fence
 
 recipes.addShaped(<Forestry:fences2>, [
 [null, null, null],
@@ -1200,7 +1244,7 @@ recipes.addShaped(<Forestry:fences2> * 4, [
 [<ore:stickWood>, <Forestry:planks2>, <ore:stickWood>]]);
 
 
-//Poplar Fence
+// --- Poplar Fence
 
 recipes.addShaped(<Forestry:fences2:1>, [
 [null, null, null],
@@ -1217,7 +1261,7 @@ recipes.addShaped(<Forestry:fences2:1> * 4, [
 [<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:1>, <ore:stickWood>]]);
 
-//Palm Fence
+// --- Palm Fence
 
 recipes.addShaped(<Forestry:fences2:2>, [
 [null, null, null],
@@ -1234,7 +1278,7 @@ recipes.addShaped(<Forestry:fences2:2> * 4, [
 [<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:2>, <ore:stickWood>]]);
 
-//Papaya Fence
+// --- Papaya Fence
 
 recipes.addShaped(<Forestry:fences2:3>, [
 [null, null, null],
@@ -1251,7 +1295,7 @@ recipes.addShaped(<Forestry:fences2:3> * 4, [
 [<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:3>, <ore:stickWood>]]);
 
-//Pine Fence
+// --- Pine Fence
 
 recipes.addShaped(<Forestry:fences2:4>, [
 [null, null, null],
@@ -1268,7 +1312,7 @@ recipes.addShaped(<Forestry:fences2:4> * 4, [
 [<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:4>, <ore:stickWood>]]);
 
-//Plum Fence
+// --- Plum Fence
 
 recipes.addShaped(<Forestry:fences2:5>, [
 [null, null, null],
@@ -1285,7 +1329,7 @@ recipes.addShaped(<Forestry:fences2:5> * 4, [
 [<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:5>, <ore:stickWood>]]);
 
-//Maple Fence
+// --- Maple Fence
 
 recipes.addShaped(<Forestry:fences2:6>, [
 [null, null, null],
@@ -1302,7 +1346,7 @@ recipes.addShaped(<Forestry:fences2:6> * 4, [
 [<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:6>, <ore:stickWood>]]);
 
-//Citrus Fence
+// --- Citrus Fence
 
 recipes.addShaped(<Forestry:fences2:7>, [
 [null, null, null],
@@ -1319,7 +1363,7 @@ recipes.addShaped(<Forestry:fences2:7> * 4, [
 [<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:7>, <ore:stickWood>]]);
 
-//Giant Sequoia Fence
+// --- Giant Sequoia Fence
 
 recipes.addShaped(<Forestry:fences2:8>, [
 [null, null, null],
@@ -1336,7 +1380,7 @@ recipes.addShaped(<Forestry:fences2:8> * 4, [
 [<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:8>, <ore:stickWood>]]);
 
-//Ipe Fence
+// --- Ipe Fence
 
 recipes.addShaped(<Forestry:fences2:9>, [
 [null, null, null],
@@ -1353,7 +1397,7 @@ recipes.addShaped(<Forestry:fences2:9> * 4, [
 [<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:9>, <ore:stickWood>]]);
 
-//Padauk Fence
+// --- Padauk Fence
 
 recipes.addShaped(<Forestry:fences2:10>, [
 [null, null, null],
@@ -1370,7 +1414,7 @@ recipes.addShaped(<Forestry:fences2:10> * 4, [
 [<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:10>, <ore:stickWood>]]);
 
-//Cocobola Fence
+// --- Cocobola Fence
 
 recipes.addShaped(<Forestry:fences2:11>, [
 [null, null, null],
@@ -1387,7 +1431,7 @@ recipes.addShaped(<Forestry:fences2:11> * 4, [
 [<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:11>, <ore:stickWood>]]);
 
-//Zebra Wood Fence
+// --- Zebra Wood Fence
 
 recipes.addShaped(<Forestry:fences2:12>, [
 [null, null, null],
@@ -1404,20 +1448,22 @@ recipes.addShaped(<Forestry:fences2:12> * 4, [
 [<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
 
+
+
 // --- Assembler Recipes ---
 
 
-//Alveary
+// --- Alveary
 Assembler.addRecipe(<Forestry:alveary>, <Forestry:impregnatedCasing>, <Forestry:craftingMaterial:6> * 8, 1200, 64);
 
-//Sturdy Casing
+// --- Sturdy Casing
 Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <gregtech:gt.metaitem.01:17300> * 4, 800, 32);
 
-//Hardened  Casing
+// --- Hardened  Casing
 Assembler.addRecipe(<Forestry:hardenedMachine>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:17500> * 8, 1200, 128);
 
-//Peat Fireed Engine
+// --- Peat Fireed Engine
 Assembler.addRecipe(<Forestry:engine:1>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate> * 10, 800, 256);
 
-//Biogas Engine
+// --- Biogas Engine
 Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17300> * 10, 800, 256);
