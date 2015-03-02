@@ -13,4 +13,4 @@ Please download DreamCraftCore.0.1.5.jar from TS Folder
 WIKI:
 https://github.com/Dream-Master/DreamCraft/wiki
 
-Maintained by Dream-Master.
+Maintained by Dream-Master, Drobac, Methes and Warlord Wossman.
