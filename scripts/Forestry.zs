@@ -1,145 +1,219 @@
 // --- Created by DreamMasterXXL ---
 
+
 // --- Imports ---
+
 import mods.gregtech.Assembler;
+
+
 
 // --- remove Recipes ---
 
-//Analyzer
+
+// --- Analyzer
 recipes.remove(<Forestry:core>);
-//Sturdy Casing
+
+// --- Sturdy Casing
 recipes.remove(<Forestry:sturdyMachine>);
-//Hardened Casing
+
+// --- Hardened Casing
 mods.forestry.Carpenter.removeRecipe(<Forestry:hardenedMachine>);
-//Bottler
+
+// --- Bottler
 recipes.remove(<Forestry:factory>);
-//Carpenter
+
+// --- Carpenter
 recipes.remove(<Forestry:factory:1>);
-//Centrifuge
+
+// --- Centrifuge
 recipes.remove(<Forestry:factory:2>);
-//Fermenter
+
+// --- Fermenter
 recipes.remove(<Forestry:factory:3>);
-//Moistener
+
+// --- Moistener
 recipes.remove(<Forestry:factory:4>);
-//Squeezer
+
+// --- Squeezer
 recipes.remove(<Forestry:factory:5>);
-//Still
+
+// --- Still
 recipes.remove(<Forestry:factory:6>);
-//Rain Maker
+
+// --- Rain Maker
 recipes.remove(<Forestry:factory:7>);
-//Thermionic Fabricator
+
+// --- Thermionic Fabricator
 recipes.remove(<Forestry:factory2>);
-//Rain Tank
+
+// --- Rain Tank
 recipes.remove(<Forestry:factory2:1>);
-//Work Table
+
+// --- Work Table
 recipes.remove(<Forestry:factory2:2>);
-//Electrical Engine
+
+// --- Electrical Engine
 recipes.remove(<Forestry:engine>);
-//Peat fired Engine
+
+// --- Peat fired Engine
 recipes.remove(<Forestry:engine:1>);
-//Biogas Engine
+
+// --- Biogas Engine
 recipes.remove(<Forestry:engine:2>);
-//Bio Generator
+
+// --- Bio Generator
 recipes.remove(<Forestry:engine:3>);
-//Clockwork Engine
+
+// --- Clockwork Engine
 recipes.remove(<Forestry:engine:4>);
-//Farm Block
+
+// --- Farm Block
 recipes.remove(<Forestry:ffarm>);
-//Farm Gearbox
+
+// --- Farm Gearbox
 recipes.remove(<Forestry:ffarm:2>);
-//Farm Hatch
+
+// --- Farm Hatch
 recipes.remove(<Forestry:ffarm:3>);
-//Farm Valve
+
+// --- Farm Valve
 recipes.remove(<Forestry:ffarm:4>);
-//Farm Control
+
+// --- Farm Control
 recipes.remove(<Forestry:ffarm:5>);
-//Survivalist´s Pickaxe
+
+// --- Survivalist´s Pickaxe
 recipes.remove(<Forestry:bronzePickaxe>);
-//Pickaxe Kit
+
+// --- Pickaxe Kit
 recipes.remove(<Forestry:kitPickaxe>);
-//Survivalist´s Shovel
+
+// --- Survivalist´s Shovel
 recipes.remove(<Forestry:bronzeShovel>);
-//Shovel Kit
+
+// --- Shovel Kit
 recipes.remove(<Forestry:kitShovel>);
-//Infuser
+
+// --- Infuser
 recipes.remove(<Forestry:infuser>);
-//Can
+
+// --- Can
 recipes.remove(<Forestry:canEmpty>);
-//Wax Capsule
+
+// --- Wax Capsule
 recipes.remove(<Forestry:waxCapsule>);
-//Refractory Capsule
+
+// --- Refractory Capsule
 recipes.remove(<Forestry:refractoryEmpty>);
-//Bronze Gear
+
+// --- Bronze Gear
 recipes.remove(<Forestry:gearBronze>);
-//Copper Gear
+
+// --- Copper Gear
 recipes.remove(<Forestry:gearCopper>);
-//Tin Gear
+
+// --- Tin Gear
 recipes.remove(<Forestry:gearTin>);
-//Stamp 1n
+
+// --- Stamp 1n
 recipes.remove(<Forestry:stamps>);
-//Stamp 2n
+
+// --- Stamp 2n
 recipes.remove(<Forestry:stamps:1>);
-//Stamp 5n
+
+// --- Stamp 5n
 recipes.remove(<Forestry:stamps:2>);
-//Stamp 10n
+
+// --- Stamp 10n
 recipes.remove(<Forestry:stamps:3>);
-//Wrenche
+
+// --- Wrenche
 recipes.remove(<Forestry:wrench>);
-//Pipette
+
+// --- Pipette
 recipes.remove(<Forestry:pipette>);
-//Spectacles
+
+// --- Spectacles
 recipes.remove(<Forestry:naturalistHelmet>);
-//Escritoire
+
+// --- Escritoire
 mods.forestry.Carpenter.removeRecipe(<Forestry:core:1>);
-//Humus
+
+// --- Humus
 recipes.remove(<Forestry:soil>);
-//Bog
+
+// --- Bog
 recipes.remove(<Forestry:soil:1>);
-//Bee House
+
+// --- Bee House
 recipes.remove(<Forestry:apiculture:2>);
-//Apiary
+
+// --- Apiary
 recipes.remove(<Forestry:apiculture>);
-//Apiarys Chest
+
+// --- Apiarys Chest
 recipes.remove(<Forestry:apiculture:1>);
-//Alveary
+
+// --- Alveary
 recipes.remove(<Forestry:alveary>);
-//Swarmer
+
+// --- Swarmer
 recipes.remove(<Forestry:alveary:2>);
-//Alveary Fan
+
+// --- Alveary Fan
 recipes.remove(<Forestry:alveary:3>);
-//Alveary Heater
+
+// --- Alveary Heater
 recipes.remove(<Forestry:alveary:4>);
-//Alveary Hygroregulator
+
+// --- Alveary Hygroregulator
 recipes.remove(<Forestry:alveary:5>);
-//Alveary Stabiliser
+
+// --- Alveary Stabiliser
 recipes.remove(<Forestry:alveary:6>);
-//Alveary Sieve
+
+// --- Alveary Sieve
 recipes.remove(<Forestry:alveary:7>);
-//Fence
+
+// --- Fence
 recipes.remove(<Forestry:fences:*>);
+// -
 recipes.remove(<Forestry:fences2:*>);
-//Arborits Chest
+
+// --- Arborits Chest
 recipes.remove(<Forestry:arboriculture>);
-//Lepidopterists Chest
+
+// --- Lepidopterists Chest
 recipes.remove(<Forestry:lepidopterology>);
-//Mailbox
+
+// --- Mailbox
 recipes.remove(<Forestry:mail>);
-//Trade Station
+
+// --- Trade Station
 recipes.remove(<Forestry:mail:1>);
-//Pulsating Mesh
+
+// --- Pulsating Mesh
 recipes.remove(<Forestry:craftingMaterial:1>);
-//Compost
+
+// --- Compost
 recipes.remove(<Forestry:fertilizerBio>);
-//Fertilizer
+
+// --- Fertilizer
 recipes.remove(<Forestry:fertilizerCompound>);
-//Iodine Capsule
+
+// --- Iodine Capsule
 mods.forestry.Carpenter.removeRecipe(<Forestry:iodineCapsule>);
-// Dissipation Charge
+
+// --- Dissipation Charge
 mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:4>);
-// Scented Paneling
+
+// --- Scented Paneling
 mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
-//Bituminous Peat
+
+// --- Bituminous Peat
 recipes.remove(<Forestry:bituminousPeat>);
+
+
 
 // --- add Recipes ---
 
