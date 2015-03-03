@@ -1071,7 +1071,7 @@ Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:2517>, <gregtech:gt.metaitem.01:2516> , <minecraft:redstone>, 600);
 
 // --- Charged Certus Quartz Dust
-ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:8517> * 3, <gregtech:gt.metaitem.01:2517> * 3 , <gregtech:gt.metaitem.01:2017>, 900);
+ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <gregtech:gt.metaitem.01:2517> * 3 , <gregtech:gt.metaitem.01:2017>, 900);
 
 
 // --- Compressor Recipes ---
