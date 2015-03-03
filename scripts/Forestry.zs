@@ -187,6 +187,12 @@ mods.forestry.Carpenter.removeRecipe(<Forestry:craftingMaterial:6>);
 // --- Bituminous Peat
 recipes.remove(<Forestry:bituminousPeat>);
 
+// --- Apatite Dust ---
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2530>);
+
+// --- Apatite Gem ---
+recipes.removeShapeless(<gregtech:gt.metaitem.01:8530>);
+
 
 // --- Bees Trees and Butterflies ---
 
@@ -338,15 +344,15 @@ null, <Forestry:core:1>);
 
 // --- Mailbox
 recipes.addShaped(<Forestry:mail>, [
-[<ore:plateCupronickel>, <minecraft:iron_bars>, <ore:plateCupronickel>],
-[<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+[<Forestry:thermionicTubes:3>, <minecraft:iron_bars>, <Forestry:thermionicTubes:3>],
+[<Forestry:chipsets:2>, <Forestry:sturdyMachine>, <Forestry:chipsets:2>],
+[<ore:gearGtSmallSteel>, <ore:chestIron>, <ore:gearGtSmallSteel>]]);
 
 // --- Trade Station
 recipes.addShaped(<Forestry:mail:1>, [
-[<Forestry:thermionicTubes:2>, <Forestry:thermionicTubes:3>, <Forestry:thermionicTubes:2>],
+[<Forestry:thermionicTubes:9>, <minecraft:iron_bars>, <Forestry:thermionicTubes:9>],
 [<ore:chestIron>, <Forestry:sturdyMachine>, <ore:chestIron>],
-[<ore:gearGtSmallSteel>, <Forestry:chipsets:2>.withTag({T: 2 as short}), <ore:gearGtSmallSteel>]]);
+[<ore:gearGtSmallSteel>, <Forestry:chipsets:3>, <ore:gearGtSmallSteel>]]);
 
 
 // --- Engines ---

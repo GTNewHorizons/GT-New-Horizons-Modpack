@@ -6,7 +6,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
-import mods.gregtech.Electrolyzer;
+import mods.gregtech.ChemicalReactor;
 import mods.ic2.Macerator;
 import mods.nei.NEI;
 import mods.gregtech.Wiremill;
@@ -374,7 +374,6 @@ recipes.remove(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>);
 
 // --- Nether Quartz Wrench
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzWrench>);
-
 
 
 // --- Cells ---
@@ -1065,6 +1064,15 @@ AlloySmelter.addRecipe(<appliedenergistics2:tile.BlockQuartzGlass> * 4, <minecra
 Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 
 
+// --- Chemical Reactor Recipes ---
+
+
+// --- Charged Certus Quartz Dust
+ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:2517>, <gregtech:gt.metaitem.01:2516> , <minecraft:redstone>, 600);
+
+// --- Charged Certus Quartz Dust
+ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:8517> * 3, <gregtech:gt.metaitem.01:2517> * 3 , <gregtech:gt.metaitem.01:2017>, 900);
+
 
 // --- Compressor Recipes ---
 
@@ -1074,13 +1082,6 @@ Compressor.addRecipe(FluixBlock, PureFluixCrystal * 9);
 Compressor.addRecipe(FluixBlock, FluixCrystal * 4);
 // -
 Compressor.addRecipe(CertusQBlock, PureCertusQCrystal * 9);
-
-
-
-// --- Electrolyzer Recipes ---
-
-// --- Charged Certus Quartz
-Electrolyzer.addRecipe([<gregtech:gt.metaitem.01:8517>, null, null, null], <gregtech:gt.metaitem.01:8516>, 0, 2000, 30);
 
 
 

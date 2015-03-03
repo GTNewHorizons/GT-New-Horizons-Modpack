@@ -149,51 +149,6 @@ mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
 // --- Steel Ingot Casting
 mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:5>);
 
-// --- Iron Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<minecraft:iron_block>);
-
-// --- Gold Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<minecraft:gold_block>);
-
-// --- Emerald Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<minecraft:emerald_block>);
-
-// --- Copper Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal>);
-
-// --- Tin Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
-
-// --- Bronze Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:2>);
-
-// --- Lead Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:4>);
-
-// --- Steel Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
-
-// --- Aluminium Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:6>);
-
-// --- Aluminium Brass Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:7>);
-
-// --- Alumite Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
-
-// --- Cobalt Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock>);
-
-// --- Ardite Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:1>);
-
-// --- Manyullyn Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:2>);
-
-// --- Solid Ender Block Casting
-mods.tconstruct.Casting.removeBasinRecipe(EnderBlock);
-
 // --- Aluminium Nuggets
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
 
@@ -1758,7 +1713,7 @@ Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TCo
 Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27316> * 4, 2400, 512);
 
 
-// --- Chemical Reactor Recipes
+// --- Chemical Reactor Recipes ---
 
 
 // --- Jeweled Apple
@@ -1771,7 +1726,7 @@ ChemicalReactor.addRecipe(<TConstruct:diamondApple>, <minecraft:diamond_block> *
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>], <TConstruct:materials:41>, 0, 1200);
 
 
-// --- Compressor Recipes
+// --- Compressor Recipes ---
 
 
 // --- Block Of Manyullyn
@@ -1796,12 +1751,23 @@ Compressor.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 4);
 // --- Paper Stack
 Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
 
-// --- Extractor Recipes
+
+
+// --- Extractor Recipes ---
+
 
 // --- Blue Slime Ball
 Extractor.addRecipe(<TConstruct:strangeFood>, <TConstruct:slime.sapling>);
+// -
+Extractor.addRecipe(<TConstruct:strangeFood> * 4, <TConstruct:slime.gel>);
 
-// --- Drying Reck Recipes
+// --- Green Slime Ball
+Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
+
+
+
+// --- Drying Reck Recipes ---
+
 
 // --- Coagulated Blood Drop
 mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood:1>, <TConstruct:jerky:7>, 6000);

@@ -5,6 +5,7 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.ic2.Extractor;
 import mods.ic2.Compressor;
@@ -396,6 +397,9 @@ recipes.removeShaped(<minecraft:stone_slab:4>);
 // --- Stone Brick Slabs
 recipes.removeShaped(<minecraft:stone_slab:5>);
 
+// --- Nether Bricks
+furnace.remove(<minecraft:netherbrick>);
+
 // --- Nether Bricks Slabs
 recipes.removeShaped(<minecraft:stone_slab:6>);
 
@@ -766,6 +770,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
 recipes.remove(<minecraft:fire_charge>);
 //Melon
 recipes.remove(<minecraft:melon_block>);
+
+
 //Nether fences
 recipes.remove(<minecraft:nether_brick_fence>);
 //Leather Cap
@@ -2425,13 +2431,24 @@ recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 // --- Bricks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:37>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 // -
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
 [<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
+
+// --- Nether Bricks
+recipes.addShaped(<minecraft:nether_brick> * 2, [
+[NetherBricks, NetherBricks, NetherBricks],
+[NetherBricks, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), NetherBricks],
+[NetherBricks, NetherBricks, NetherBricks]]);
+// -
+recipes.addShaped(<minecraft:nether_brick> * 2, [
+[NetherBricks, NetherBricks, NetherBricks],
+[NetherBricks, <IguanaTweaksTConstruct:clayBucketLava>, NetherBricks],
+[NetherBricks, NetherBricks, NetherBricks]]);
 
 // --- Wooden Door
 recipes.addShapedMirrored(WoodDoor, [
@@ -2493,7 +2510,14 @@ recipes.addShaped(<minecraft:flint_and_steel>, [
 [null, <ore:springSmallSteel>, null]]);
 
 
-//Extractor Recipes
+// --- Alloy Smelter Recipes ---
+
+
+// --- Nether Brick
+AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
+
+
+// --- Extractor Recipes ---
 
 //Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
