@@ -61,9 +61,9 @@ val PlatinumCable = <ore:cableGt04Platinum>;
 val AdvAssembler = <gregtech:gt.blockmachines:212>;
 
 val NANDChip = <gregtech:gt.metaitem.01:32700>;
-val BasicCircuit = <gregtech:gt.metaitem.01:32701>;
-val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
-val AdvCircuit = <gregtech:gt.metaitem.01:32703>;
+val BasicCircuit = <ore:circuitBasic>;
+val GoodCircuit = <ore:circuitGood>;
+val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <gregtech:gt.metaitem.01:32704>;
 val EFlow = <gregtech:gt.metaitem.01:32706>;
 
