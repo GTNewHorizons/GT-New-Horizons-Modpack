@@ -1717,25 +1717,25 @@ Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <g
 // --- Thermionic Fabricator Recipes
 
 // --- Strengthened Glass
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 6000, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2522>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
 <Forestry:waxCast:*>, <Railcraft:glass> * 3);
 // -
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 6000, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2516>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
 <Forestry:waxCast:*>, <Railcraft:glass> * 3);
 // -
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 6000, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2517>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
 <Forestry:waxCast:*>, <Railcraft:glass> * 3);
 // -
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 6000, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2523>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 

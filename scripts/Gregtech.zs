@@ -304,6 +304,13 @@ Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2
 //Quartzite Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
 
+//Lazurite Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17524>, <gregtech:gt.metaitem.01:2524>);
+
+//Sodalite Plate
+Compressor.addRecipe(<gregtech:gt.metaitem.01:17525>, <gregtech:gt.metaitem.01:2525>);
+
+
 // --- Extractor Recipes ---
 
 // --- Rubber Pulp
@@ -312,9 +319,6 @@ Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>
 
 // --- Forge Hammer Recipes ---
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22874>, <gregtech:gt.metaitem.01:23874> * 2, 20, 16);
-
-
-
 
 
 

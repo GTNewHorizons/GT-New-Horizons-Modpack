@@ -49,9 +49,9 @@ val UFluidStorageHousing = <extracells:storage.casing:1>;
 
 val CertusCircuit = <appliedenergistics2:item.ItemMultiMaterial:23>;
 val DiamondCircuit = <appliedenergistics2:item.ItemMultiMaterial:24>;
-val BasicCircuit = <gregtech:gt.metaitem.01:32701>;
-val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
-val AdvCircuit = <gregtech:gt.metaitem.01:32703>;
+val BasicCircuit = <ore:circuitBasic>;
+val GoodCircuit = <ore:circuitGood>;
+val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <gregtech:gt.metaitem.01:32704>;
 val DataControlCircuit = <gregtech:gt.metaitem.01:32705>;
 val EFlow = <gregtech:gt.metaitem.01:32706>;
