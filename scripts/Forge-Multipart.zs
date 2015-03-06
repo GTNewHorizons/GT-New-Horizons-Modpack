@@ -16,7 +16,7 @@ recipes.remove(<ForgeMicroblock:stoneRod>);
 //Stone Saw
 recipes.addShaped(<ForgeMicroblock:sawStone>, [
 [<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:stickCobblestone>, <ore:rodStone>],
+[<ore:stickWood>, <dreamcraft:item.LongStoneRod>, <ore:rodStone>],
 [null, null, null]]);
 
 //Iron Saw

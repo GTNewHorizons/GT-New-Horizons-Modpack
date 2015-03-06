@@ -262,6 +262,9 @@ recipes.remove(<Forestry:habitatLocator>);
 // --- Scoop
 recipes.remove(<Forestry:scoop>);
 
+// --- Soldering Iron
+mods.forestry.Carpenter.removeRecipe(<Forestry:solderingIron>);
+
 
 // --- Bees Trees and Butterflies ---
 
@@ -338,9 +341,9 @@ recipes.addShaped(<Forestry:sturdyMachine>, [
 
 // --- Analyzer
 recipes.addShaped(<Forestry:core>, [
-[<ore:plateCupronickel>, <Forestry:beealyzer>, <ore:plateCupronickel>],
+[<Forestry:treealyzer>, <Forestry:beealyzer>, <Forestry:flutterlyzer>],
 [<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
-[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 // -
 recipes.addShaped(<Forestry:core>, [
 [<ore:plateCupronickel>, <Forestry:treealyzer>, <ore:plateCupronickel>],
@@ -572,23 +575,23 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000,
 
 // --- Beealyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.01:17057>, <Forestry:canEmpty>, <gregtech:gt.metaitem.01:17057>, 
-<gregtech:gt.metaitem.01:17057>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17057>, 
-<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>, 
+<IC2:itemCasing:1>, <IC2:itemPartCircuit>, <IC2:itemCasing:1>, 
+<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>], 
 <gregtech:gt.metaitem.01:32740>, <Forestry:beealyzer>);
 
 // --- Treealyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.01:17035>, <Forestry:canEmpty>, <gregtech:gt.metaitem.01:17035>, 
-<gregtech:gt.metaitem.01:17035>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17035>, 
-<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>, 
+<IC2:itemCasing>, <IC2:itemPartCircuit>, <IC2:itemCasing> , 
+<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>], 
 <gregtech:gt.metaitem.01:32740>, <Forestry:treealyzer>);
 
 // --- Flutterlyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.01:17300>, <Forestry:canEmpty>, <gregtech:gt.metaitem.01:17300>, 
-<gregtech:gt.metaitem.01:17300>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17300>, 
-<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>, 
+<IC2:itemCasing:2>, <IC2:itemPartCircuit>, <IC2:itemCasing:2>, 
+<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>], 
 <gregtech:gt.metaitem.01:32740>, <Forestry:flutterlyzer>);
 
 
@@ -1063,30 +1066,30 @@ null, <Forestry:bituminousPeat> * 5);
 
 // --- Basic Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
-[<gregtech:gt.metaitem.01:26019>, <gregtech:gt.metaitem.01:29019>, <gregtech:gt.metaitem.01:27019>, 
-<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19019>, <gregtech:gt.metaitem.01:32700>, 
-<gregtech:gt.metaitem.01:27019>, <gregtech:gt.metaitem.01:29019>, <gregtech:gt.metaitem.01:26019>],
+[<gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>, 
+<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19032>, <gregtech:gt.metaitem.01:32700>, 
+<gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>],
 <gregtech:gt.metaitem.01:32710>, <Forestry:chipsets>);
 
 // --- Enhanced Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
-[<gregtech:gt.metaitem.01:26028>, <gregtech:gt.metaitem.01:29028>, <gregtech:gt.metaitem.01:27028>, 
-<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19028>, <gregtech:gt.metaitem.01:32700>, 
-<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:29028>, <gregtech:gt.metaitem.01:26028>],
+[<gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>, 
+<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19300>, <gregtech:gt.metaitem.01:32700>, 
+<gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>],
 <gregtech:gt.metaitem.01:32710>, <Forestry:chipsets:1>);
 
 // --- Refined Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
-[<gregtech:gt.metaitem.01:26306>, <gregtech:gt.metaitem.01:29306>, <gregtech:gt.metaitem.01:27306>, 
-<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19306>, <gregtech:gt.metaitem.01:32715>, 
-<gregtech:gt.metaitem.01:27306>, <gregtech:gt.metaitem.01:29306>, <gregtech:gt.metaitem.01:26306>],
+[<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>, 
+<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.01:32715>, 
+<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>],
 <gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:2>);
 
 // --- Intricate Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
-[<gregtech:gt.metaitem.01:26316>, <gregtech:gt.metaitem.01:29316>, <gregtech:gt.metaitem.01:27316>, 
-<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19316>, <gregtech:gt.metaitem.01:32715>, 
-<gregtech:gt.metaitem.01:27316>, <gregtech:gt.metaitem.01:29316>, <gregtech:gt.metaitem.01:26316>],
+[<gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>, 
+<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19303>, <gregtech:gt.metaitem.01:32715>, 
+<gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>],
 <gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:3>);
 
 // --- Copper Electron Tubes
@@ -1099,86 +1102,100 @@ null, <Forestry:thermionicTubes>);
 // --- Tin Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22057>, null], 
-[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:22057>, <gregtech:gt.metaitem.02:19057>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22057>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:1>);
 
 // --- Bronze Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22300>, null], 
-[<gregtech:gt.metaitem.02:19300>, <gregtech:gt.metaitem.02:22300>, <gregtech:gt.metaitem.02:19300>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22300>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:2>);
 
 // --- Iron Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22032>, null], 
-[<gregtech:gt.metaitem.02:19032>, <gregtech:gt.metaitem.02:22032>, <gregtech:gt.metaitem.02:19032>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22032>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:3>);
 
 // --- Golden Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22086>, null], 
-[<gregtech:gt.metaitem.02:19086>, <gregtech:gt.metaitem.02:22086>, <gregtech:gt.metaitem.02:19086>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22086>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:4>);
 
 // --- Diamantine Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22500>, null], 
-[<gregtech:gt.metaitem.02:19308>, <gregtech:gt.metaitem.02:22500>, <gregtech:gt.metaitem.02:19308>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22500>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:5>);
 
 // --- Obsidian Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
-[null, <TConstruct:toolRod:6>, null], 
-[<gregtech:gt.metaitem.02:19028>, <TConstruct:toolRod:6>, <gregtech:gt.metaitem.02:19028>], 
+[null, <dreamcraft:item.LongObsidianRod>, null], 
+[<gregtech:gt.metaitem.02:19035>, <dreamcraft:item.LongObsidianRod>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:6>);
 
 // --- Blazing Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22801>, null], 
-[<gregtech:gt.metaitem.02:19301>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.02:19301>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:7>);
 
 // --- Rubberrised Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22880>, null], 
-[<gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.02:22880>, <gregtech:gt.metaitem.02:19305>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22880>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:8>);
 
 // --- Emerald Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22501>, null], 
-[<gregtech:gt.metaitem.02:19008>, <gregtech:gt.metaitem.02:22501>, <gregtech:gt.metaitem.02:19008>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22501>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:9>);
 
 // --- Apatine Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22530>, null], 
-[<gregtech:gt.metaitem.02:19034>, <gregtech:gt.metaitem.02:22530>, <gregtech:gt.metaitem.02:19034>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22530>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:10>);
 
 // --- Lapis Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22526>, null], 
-[<gregtech:gt.metaitem.02:19033>, <gregtech:gt.metaitem.02:22526>, <gregtech:gt.metaitem.02:19033>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22526>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:11>);
 
 // --- Ender Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
 [null, <gregtech:gt.metaitem.02:22533>, null], 
-[<gregtech:gt.metaitem.02:19321>, <gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.02:19321>], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:12>);
+
+// --- Habitat Locator
+mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 288, 
+[<gregtech:gt.metaitem.01:27300>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27300>, 
+<IC2:itemCasing:2>, <gregtech:gt.metaitem.01:28305>, <IC2:itemCasing:2>, 
+<gregtech:gt.metaitem.01:27300>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27300>],
+<minecraft:compass>, <Forestry:habitatLocator>);
+
+// --- Soldering Iron
+mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 576, 
+[null, null, <gregtech:gt.metaitem.01:23032>, 
+null, <gregtech:gt.metaitem.01:23032>, <gregtech:gt.metaitem.01:26032>, 
+<IC2:itemRecipePart:2>, null, null],
+null, <Forestry:solderingIron>);
 
 
 
