@@ -229,7 +229,8 @@ mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:6>);
 // --- Blazing Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:7>);
 
-// --- Rubberrised Electron Tubes
+// --- Rubberrised Electron Tubes //double remove ;-)
+mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:8>);
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:8>);
 
 // --- Emerald Electron Tubes
@@ -243,6 +244,7 @@ mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:11>);
 
 // --- Ender Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:12>);
+
 
 // --- Carton
 mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
@@ -264,6 +266,16 @@ recipes.remove(<Forestry:scoop>);
 
 // --- Soldering Iron
 mods.forestry.Carpenter.removeRecipe(<Forestry:solderingIron>);
+
+// --- Impregnated Stick
+mods.forestry.Carpenter.removeRecipe(<Forestry:oakStick>);
+
+// --- Untreated Frame
+recipes.remove(<Forestry:frameUntreated>);
+
+// --- Impregnated Frame
+recipes.remove(<Forestry:frameImpregnated>);
+
 
 
 // --- Bees Trees and Butterflies ---
@@ -344,16 +356,6 @@ recipes.addShaped(<Forestry:core>, [
 [<Forestry:treealyzer>, <Forestry:beealyzer>, <Forestry:flutterlyzer>],
 [<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
-// -
-recipes.addShaped(<Forestry:core>, [
-[<ore:plateCupronickel>, <Forestry:treealyzer>, <ore:plateCupronickel>],
-[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
-[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
-// -
-recipes.addShaped(<Forestry:core>, [
-[<ore:plateCupronickel>, <Forestry:flutterlyzer>, <ore:plateCupronickel>],
-[<BuildCraft|Factory:tankBlock>, <Forestry:sturdyMachine>, <BuildCraft|Factory:tankBlock>],
-[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 // --- Bottler
 recipes.addShaped(<Forestry:factory>, [
@@ -534,7 +536,7 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000,
 // --- Swarmer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
-<Forestry:royalJelly>, <Forestry:frameImpregnated>, <Forestry:royalJelly>, 
+<Forestry:royalJelly>, <Forestry:frameProven>, <Forestry:royalJelly>, 
 <Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
 <Forestry:alveary:*>, <Forestry:alveary:2>);
 
@@ -1197,7 +1199,53 @@ null, <gregtech:gt.metaitem.01:23032>, <gregtech:gt.metaitem.01:26032>,
 <IC2:itemRecipePart:2>, null, null],
 null, <Forestry:solderingIron>);
 
+// --- Impregnated Stick
+mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 100, 
+[<minecraft:stick>, null, null, 
+null, null, null, 
+null, null, null],
+null, <Forestry:oakStick>);
+// -
+mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 100, 
+[<Natura:natura.stick:*>, null, null, 
+null, null, null, 
+null, null, null],
+null, <Forestry:oakStick>);
 
+// --- Untreated Frame
+recipes.addShaped(<Forestry:frameUntreated>, [
+[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+[<ore:stickWood>, <minecraft:string>, <ore:stickWood>],
+[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+
+// --- Impregnated Frame
+mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 250, 
+[<Railcraft:slab:38>, <Railcraft:slab:38>, <Railcraft:slab:38>, 
+<Forestry:oakStick>, <harvestcraft:wovencottonItem>, <Forestry:oakStick>, 
+<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>],
+null, <Forestry:frameImpregnated>);
+
+// --- Proven Frame
+mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", -1, 6, 10, <Forestry:frameProven>);
+game.setLocalization("en_US", "tc.research_name.PROVENFRAME", "Proven Frame");
+game.setLocalization("en_US", "tc.research_text.PROVENFRAME", "[FR] Better than Impregnated Frames");
+mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
+mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
+game.setLocalization("en_US", "Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bee's productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
+mods.thaumcraft.Infusion.addRecipe("PROVENFRAME", <Forestry:frameImpregnated>, [<Forestry:honeyDrop>, <Forestry:honeydew>, <Forestry:craftingMaterial:3>, <Forestry:propolis>, <Forestry:royalJelly>, <Forestry:propolis:3>, <Forestry:craftingMaterial:3>, <Forestry:beeswax>], "victus 30, cognitio 60, potentia 40, praecantatio 40, fabrico 50", <Forestry:frameProven>, 4);
+mods.thaumcraft.Research.addInfusionPage("PROVENFRAME", <Forestry:frameProven>);
+
+// --- Proven Grafter
+mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 200, permutatio 200, metallum 200, arbor 200", -5, -3, 10, <Forestry:grafterProven>);
+game.setLocalization("en_US", "tc.research_name.PROVENGRAFTER", "Proven Grafter");
+game.setLocalization("en_US", "tc.research_text.PROVENGRAFTER", "[FR] Better than a Bronze Grafter");
+mods.thaumcraft.Research.addPrereq("PROVENGRAFTER", "MB_Scoop", false);
+mods.thaumcraft.Research.setConcealed("PROVENGRAFTER", true);
+mods.thaumcraft.Research.addPage("PROVENGRAFTER", "Forestry.research_page.PROVENGRAFTER");
+game.setLocalization("en_US", "Forestry.research_page.PROVENGRAFTER", "The Proven Grafter is significantly stronger than the Bronze Grafter and can be obtained by trading with villagers. Like its counterparts the Bronze Grafter and the Thaumium Grafter it makes it possible for one to achieve a 100% sapling drop rate from trees that have been bred with the Forestry mod.<BR> It does not work on ordinary trees, and when it breaks the last hit does not retrieve a sapling.<BR> Now you find a magical way to infuse a bronze Grafter with saplings and pollen to get a proven one.");
+mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, [<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], "instrumentum 50, permutatio 50, metallum 40, arbor 20", <Forestry:grafterProven>, 3);
+mods.thaumcraft.Research.addInfusionPage("PROVENGRAFTER", <Forestry:grafterProven>);
 
 // --- Fence ---
 

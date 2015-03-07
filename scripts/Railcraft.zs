@@ -152,7 +152,7 @@ val LapisPlate = <ore:plateLapis>;
 val CoalCoke = <Railcraft:fuel.coke>;
 val CoalCokeBlock = <Railcraft:cube>;
 val CreosoteWood = <Railcraft:cube:8>;
-val CreosoteWoodSlab = <Railcraft:slab:37>;
+val CreosoteWoodSlab = <Railcraft:slab:38>;
 val ConcreteBlock = <Railcraft:cube:1>;
 val ConcreteSlab = <Railcraft:slab:2>;
 val Rebar = <Railcraft:part.rebar>;
@@ -646,6 +646,8 @@ recipes.remove(<Railcraft:machine.alpha:7>);
 
 // --- Sandy Block ---
 recipes.remove(<Railcraft:brick.sandy:2>);
+
+
 
 // --- add Recipes ---
 
