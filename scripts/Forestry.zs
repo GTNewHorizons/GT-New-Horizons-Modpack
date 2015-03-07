@@ -3,6 +3,8 @@
 
 // --- Imports ---
 
+
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 
 
@@ -245,7 +247,6 @@ mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:11>);
 // --- Ender Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:12>);
 
-
 // --- Carton
 mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
 
@@ -275,6 +276,121 @@ recipes.remove(<Forestry:frameUntreated>);
 
 // --- Impregnated Frame
 recipes.remove(<Forestry:frameImpregnated>);
+
+// --- Wax Cast
+recipes.remove(<Forestry:waxCast>);
+
+// --- Apiarist's Hat
+recipes.remove(<Forestry:apiaristHelmet>);
+
+// --- Apiarist's Shirt:
+recipes.remove(<Forestry:apiaristChest>);
+
+// --- Apiarist's Pants
+recipes.remove(<Forestry:apiaristLegs>);
+
+// --- Apiarist's Shoes
+recipes.remove(<Forestry:apiaristBoots>);
+
+// --- Candle
+recipes.remove(<Forestry:candle>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
+
+// --- Honeyed Slice
+recipes.remove(<Forestry:honeyedSlice>);
+
+// --- Ambrosia
+recipes.remove(<Forestry:ambrosia>);
+
+// --- Honey Pot
+recipes.remove(<Forestry:honeyPot>);
+
+// --- Stamp 1n
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps>);
+
+// --- Stamp 2n
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:1>);
+
+// --- Stamp 5n
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:2>);
+
+// --- Stamp 10n
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
+
+// --- Stamp 20n
+recipes.remove(<Forestry:stamps:4>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
+
+// --- Stamp 50n
+recipes.remove(<Forestry:stamps:5>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:5>);
+
+// --- Stamp 100n
+recipes.remove(<Forestry:stamps:6>);
+mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:6>);
+
+// --- Letter
+recipes.remove(<Forestry:letters>);
+
+// --- Catalogue
+recipes.remove(<Forestry:catalogue>);
+
+
+// --- Crate
+mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
+
+// --- Apiarist Pipe
+recipes.remove(<Forestry:item.PipeItemsPropolis>);
+
+
+
+// --- Bags ---
+
+
+// --- Apiarist's Backpack
+recipes.remove(<Forestry:apiaristBag>);
+
+// --- Lepidopterist's Backpack
+recipes.remove(<Forestry:lepidopteristBag>);
+
+// --- Miner's Backpack
+recipes.remove(<Forestry:minerBag>);
+
+// --- Miner's Backpack Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:minerBagT2>);
+
+// --- Digger's Backpack
+recipes.remove(<Forestry:diggerBag>);
+
+// --- Digger's Backpack Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:diggerBagT2>);
+
+// --- Forester's Backpach
+recipes.remove(<Forestry:foresterBag>);
+
+// --- Forester's Backpach Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:foresterBagT2>);
+
+// --- Hunter's Backpack
+recipes.remove(<Forestry:hunterBag>);
+
+// --- Hunter's Backpack Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:hunterBagT2>);
+
+// --- Adventurer's Backpach
+recipes.remove(<Forestry:adventurerBag>);
+
+// --- Adventurer's Backpach Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:adventurerBagT2>);
+
+// --- Builder's Backpach
+recipes.remove(<Forestry:builderBag>);
+
+// --- Builder's Backpach Woven
+mods.forestry.Carpenter.removeRecipe(<Forestry:builderBagT2>);
 
 
 
@@ -500,6 +616,12 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000,
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:apiculture:1>);
+// -
+mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000, 
+[<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
+<Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
+<Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
+<minecraft:chest>, <Forestry:apiculture:1>);
 
 // --- Arborits Chest
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
@@ -510,8 +632,8 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000,
 // -
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
 [<minecraft:sapling:*>, <minecraft:sapling:*>, <minecraft:sapling:*>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
+<Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
+<Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 // -
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
@@ -522,8 +644,8 @@ mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000,
 // -
 mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
 [<minecraft:sapling:*>, <minecraft:sapling:*>, <minecraft:sapling:*>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
+<Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
+<Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 
 // --- Lepidopterists Chest
@@ -1000,7 +1122,6 @@ mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100,
 null, <harvestcraft:oatsItem>, null],
 null, <Forestry:fertilizerBio>);
 
-
 // --- Fertilizer
 mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
 [null, <minecraft:sand:*>, null, 
@@ -1038,11 +1159,35 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000,
 <Forestry:pollen:*>, <Forestry:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
+// -
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+[<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
+<Forestry:pollen:*>, <ExtraBees:propolis:*>, <Forestry:pollen:*>, 
+<minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
+<Forestry:canEmpty>, <Forestry:iodineCapsule>);
+//-
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+[<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
+<Forestry:pollen:*>, <MagicBees:propolis:*>, <Forestry:pollen:*>, 
+<minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
+<Forestry:canEmpty>, <Forestry:iodineCapsule>);
 
 // --- Dissipation Charge
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <Forestry:propolis:*>, <Forestry:royalJelly>, 
+<minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
+<Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
+// -
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+[<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
+<Forestry:royalJelly>, <ExtraBees:propolis:*>, <Forestry:royalJelly>, 
+<minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
+<Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
+// -
+mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+[<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
+<Forestry:royalJelly>, <MagicBees:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 
@@ -1060,7 +1205,25 @@ mods.forestry.Carpenter.addRecipe(400, <liquid:creosote> * 200,
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 500, 
+mods.forestry.Carpenter.addRecipe(450, null, 
+[null, <gregtech:gt.metaitem.01:2815>, null, 
+<Forestry:peat>, <ExtraBees:propolis:7>, <Forestry:peat>, 
+null, <gregtech:gt.metaitem.01:2815>, null],
+null, <Forestry:bituminousPeat> * 2);
+// -
+mods.forestry.Carpenter.addRecipe(500, null, 
+[null, <gregtech:gt.metaitem.01:2815>, null, 
+<Forestry:peat>, <ExtraBees:propolis:1>, <Forestry:peat>, 
+null, <gregtech:gt.metaitem.01:2815>, null],
+null, <Forestry:bituminousPeat> * 3);
+// -
+mods.forestry.Carpenter.addRecipe(550, null, 
+[null, <gregtech:gt.metaitem.01:2815>, null, 
+<Forestry:peat>, <ExtraBees:propolis:2>, <Forestry:peat>, 
+null, <gregtech:gt.metaitem.01:2815>, null],
+null, <Forestry:bituminousPeat> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 1000, 
 [<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, 
 <Forestry:peat>, <ihl:item.ihlSimpleItem:8>, <Forestry:peat>, 
 <Forestry:peat>, <Forestry:peat>, <Forestry:peat>],
@@ -1246,6 +1409,342 @@ mods.thaumcraft.Research.addPage("PROVENGRAFTER", "Forestry.research_page.PROVEN
 game.setLocalization("en_US", "Forestry.research_page.PROVENGRAFTER", "The Proven Grafter is significantly stronger than the Bronze Grafter and can be obtained by trading with villagers. Like its counterparts the Bronze Grafter and the Thaumium Grafter it makes it possible for one to achieve a 100% sapling drop rate from trees that have been bred with the Forestry mod.<BR> It does not work on ordinary trees, and when it breaks the last hit does not retrieve a sapling.<BR> Now you find a magical way to infuse a bronze Grafter with saplings and pollen to get a proven one.");
 mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, [<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], "instrumentum 50, permutatio 50, metallum 40, arbor 20", <Forestry:grafterProven>, 3);
 mods.thaumcraft.Research.addInfusionPage("PROVENGRAFTER", <Forestry:grafterProven>);
+
+// --- Candle
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <minecraft:string>, null, 
+null, <Forestry:beeswax>, null],
+null, <Forestry:candle> * 2);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <Forestry:craftingMaterial:2>, null, 
+null, <Forestry:beeswax>, null],
+null, <Forestry:candle> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <minecraft:string>, null, 
+null, <Forestry:refractoryWax>, null],
+null, <Forestry:candle> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <Forestry:craftingMaterial:2>, null, 
+null, <Forestry:refractoryWax>, null],
+null, <Forestry:candle> * 8);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <minecraft:string>, null, 
+null, <MagicBees:wax>, null],
+null, <Forestry:candle> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <Forestry:craftingMaterial:2>, null, 
+null, <MagicBees:wax>, null],
+null, <Forestry:candle> * 8);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <minecraft:string>, null, 
+null, <MagicBees:wax:1>, null],
+null, <Forestry:candle> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <Forestry:craftingMaterial:2>, null, 
+null, <MagicBees:wax:1>, null],
+null, <Forestry:candle> * 8);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <minecraft:string>, null, 
+null, <MagicBees:wax:2>, null],
+null, <Forestry:candle> * 4);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+[null,null, null, 
+null, <Forestry:craftingMaterial:2>, null, 
+null, <MagicBees:wax:2>, null],
+null, <Forestry:candle> * 8);
+
+// --- Honeyed Slice
+mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 800, 
+[null, null, null,
+null, null, null,
+null, null, null],
+<gregtech:gt.metaitem.02:32566>, <Forestry:honeyedSlice>);
+
+// --- Ambrosia
+mods.forestry.Carpenter.addRecipe(300, <liquid:honey> * 400, 
+[<Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>,
+<Forestry:royalJelly>, <Forestry:royalJelly>, <Forestry:royalJelly>,
+<Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>],
+<Forestry:waxCapsule>, <Forestry:ambrosia>);
+
+// --- Honey Pot
+mods.forestry.Carpenter.addRecipe(200, null, 
+[<Forestry:honeyDrop>, null, <Forestry:honeyDrop>,
+null, <Forestry:honeyDrop>, null,
+<Forestry:honeyDrop>, null, <Forestry:honeyDrop>],
+<Forestry:waxCapsule>, <Forestry:honeyPot>);
+
+// --- Stamp 1n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>,
+<gregtech:gt.metaitem.01:32000>, null, <gregtech:gt.metaitem.01:32000>,
+<gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>],
+<minecraft:paper>, <Forestry:stamps>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+null, <gregtech:gt.metaitem.01:32001>, null,
+null, null, null],
+<minecraft:paper>, <Forestry:stamps>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>,
+<gregtech:gt.metaitem.01:32011>, null, <gregtech:gt.metaitem.01:32011>,
+<gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>],
+<minecraft:paper>, <Forestry:stamps>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+null, <IC2:itemCoin>, null,
+null, null, null],
+<minecraft:paper>, <Forestry:stamps>);
+
+// --- Stamp 2n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+null, <gregtech:gt.metaitem.01:32001>, null,
+null, <gregtech:gt.metaitem.01:32001>, null],
+<minecraft:paper>, <Forestry:stamps:1>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+null, <IC2:itemCoin>, null,
+null, <IC2:itemCoin>, null],
+<minecraft:paper>, <Forestry:stamps:1>);
+
+// --- Stamp 5n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,
+null, <gregtech:gt.metaitem.01:32001>, null,
+<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],
+<minecraft:paper>, <Forestry:stamps:2>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<IC2:itemCoin>, null, <IC2:itemCoin>,
+null, <IC2:itemCoin>, null,
+<IC2:itemCoin>, null, <IC2:itemCoin>],
+<minecraft:paper>, <Forestry:stamps:2>);
+
+// --- Stamp 10n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+<gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>,
+null, null, null],
+<minecraft:paper>, <Forestry:stamps:3>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[null, null, null,
+<IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>,
+null, null, null],
+<minecraft:paper>, <Forestry:stamps:3>);
+
+// --- Stamp 20n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,
+<gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,
+<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],
+<minecraft:paper>, <Forestry:stamps:4>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<IC2:itemCoin>, null, <IC2:itemCoin>,
+<gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,
+<IC2:itemCoin>, null, <IC2:itemCoin>],
+<minecraft:paper>, <Forestry:stamps:4>);
+
+// --- Stamp 50n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,
+<gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,
+<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],
+<minecraft:paper>, <Forestry:stamps:5>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+[<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,
+<gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,
+<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],
+<minecraft:paper>, <Forestry:stamps:5>);
+
+// --- Stamp 100n
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100, 
+[<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,
+<gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32003>, <gregtech:gt.metaitem.01:32001>,
+<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],
+<minecraft:paper>, <Forestry:stamps:6>);
+// -
+mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100, 
+[<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,
+<IC2:itemCoin>, <gregtech:gt.metaitem.01:32014>, <IC2:itemCoin>,
+<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],
+<minecraft:paper>, <Forestry:stamps:6>);
+
+// --- Letter
+mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+[null, <minecraft:paper>, null,
+<minecraft:paper>, <Forestry:propolis:*>, <minecraft:paper>,
+null, <minecraft:paper>, null],
+<minecraft:paper>, <Forestry:letters>);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+[null, <minecraft:paper>, null,
+<minecraft:paper>, <ExtraBees:propolis:*>, <minecraft:paper>,
+null, <minecraft:paper>, null],
+<minecraft:paper>, <Forestry:letters>);
+// -
+mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+[null, <minecraft:paper>, null,
+<minecraft:paper>, <MagicBees:propolis:*>, <minecraft:paper>,
+null, <minecraft:paper>, null],
+<minecraft:paper>, <Forestry:letters>);
+
+// --- Catalogue
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:1>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:2>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:3>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:4>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:5>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+// -
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+[null, null, null,
+null, <Forestry:stamps:6>, null,
+null, null, null],
+<minecraft:book>, <Forestry:catalogue>);
+
+// --- Crate
+mods.forestry.Carpenter.addRecipe(100, <liquid:creosote> * 400, 
+[null, <gregtech:gt.metaitem.02:32470>, null,
+<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.02:32470>,
+null, <gregtech:gt.metaitem.02:32470>, null],
+null, <Forestry:crate> * 4);
+
+
+// --- Backs ---
+
+// --- Apiarist's Backpack
+recipes.addShaped(<Forestry:apiaristBag>, [
+[<harvestcraft:wovencottonItem>, <Forestry:apiculture:1>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Lepidopterist's Backpack
+recipes.addShaped(<Forestry:lepidopteristBag>, [
+[<harvestcraft:wovencottonItem>, <Forestry:lepidopterology>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Miner's Backpack
+recipes.addShaped(<Forestry:minerBag>, [
+[<harvestcraft:wovencottonItem>, <ore:ingotIron>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <ore:ingotIron>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Miner's Backpack Woven
+mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+[<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
+<Forestry:minerBag>, <Forestry:minerBagT2>);
+
+// --- Digger's Backpack
+recipes.addShaped(<Forestry:diggerBag>, [
+[<harvestcraft:wovencottonItem>, <ore:stone>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <ore:stone>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Digger's Backpack Woven
+mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+[<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
+<Forestry:diggerBag>, <Forestry:diggerBagT2>);
+
+// --- Forester's Backpach
+recipes.addShaped(<Forestry:foresterBag>, [
+[<harvestcraft:wovencottonItem>, <ore:logWood>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <ore:logWood>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Forester's Backpach Woven
+mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+[<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
+<Forestry:foresterBag>, <Forestry:foresterBagT2>);
+
+// --- Hunter's Backpack
+recipes.addShaped(<Forestry:hunterBag>, [
+[<harvestcraft:wovencottonItem>, <minecraft:feather>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <minecraft:feather>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Hunter's Backpack Woven
+mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+[<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
+<Forestry:hunterBag>, <Forestry:hunterBagT2>);
+
+// --- Builder's Backpach
+recipes.addShaped(<Forestry:builderBag>, [
+[<harvestcraft:wovencottonItem>, <minecraft:fence>, <harvestcraft:wovencottonItem>],
+[<Backpack:tannedLeather>, <minecraft:fence>, <Backpack:tannedLeather>],
+[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+
+// --- Builder's Backpach Woven
+mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+[<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
+<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
+<Forestry:builderBag>, <Forestry:builderBagT2>);
+
+
 
 // --- Fence ---
 
@@ -1746,6 +2245,22 @@ recipes.addShaped(<Forestry:fences2:12> * 4, [
 
 
 
+// --- Alloy Smelter Recipes
+
+
+// --- Wax Cast
+AlloySmelter.addRecipe(<Forestry:waxCast>, <Forestry:beeswax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
+// -
+AlloySmelter.addRecipe(<Forestry:waxCast>, <Forestry:refractoryWax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
+// -
+AlloySmelter.addRecipe(<Forestry:waxCast>, <MagicBees:wax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
+// -
+AlloySmelter.addRecipe(<Forestry:waxCast>, <MagicBees:wax:1> * 9, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
+// -
+AlloySmelter.addRecipe(<Forestry:waxCast>, <MagicBees:wax:2> * 9, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
+
+
+
 // --- Assembler Recipes ---
 
 
@@ -1766,3 +2281,15 @@ Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech
 
 // --- Can
 Assembler.addRecipe(<Forestry:canEmpty>, <gregtech:gt.metaitem.01:17057> * 2, <minecraft:glass_pane>, 120, 8);
+
+// --- Apiarist's Hat
+Assembler.addRecipe(<Forestry:apiaristHelmet>, <Forestry:craftingMaterial:3> * 5, <gregtech:gt.integrated_circuit:5> * 0, 1200, 64);
+
+// --- Apiarist's Shirt:
+Assembler.addRecipe(<Forestry:apiaristChest>, <Forestry:craftingMaterial:3> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 64);
+
+// --- Apiarist's Pants
+Assembler.addRecipe(<Forestry:apiaristLegs>, <Forestry:craftingMaterial:3> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1200, 64);
+
+// --- Apiarist's Shoes
+Assembler.addRecipe(<Forestry:apiaristBoots>, <Forestry:craftingMaterial:3> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 64);

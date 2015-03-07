@@ -109,7 +109,7 @@ Assembler.addRecipe(<dreamcraft:item.SnowQueenBlood>, <Thaumcraft:ItemResource:1
 
 
 // --- Engine Core
-mods.forestry.Carpenter.addRecipe(400, <liquid:water> * 1000, [
+mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 500, [
 null, <gregtech:gt.metaitem.01:17526>, null, 
 null, <minecraft:piston>, null, 
 null, null, null], 
@@ -121,7 +121,6 @@ null, null, null],
 
 // --- Void Metal Plate
 Extruder.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32350> * 0, 800, 128);
-
 
 // --- Void Metal Rod
 Extruder.addRecipe(<dreamcraft:item.VoidRod> * 2, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32351> * 0, 400, 96);
