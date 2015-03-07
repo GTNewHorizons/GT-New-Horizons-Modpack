@@ -6,15 +6,25 @@ import mods.gregtech.Assembler;
 
 
 // --- Remove Recipes ---
-recipes.remove(<Genetics:misc>);
+
 
 // --- Reinforced Casing
+recipes.remove(<Genetics:misc>);
+
+// --- Gene Database
+mods.forestry.Carpenter.removeRecipe(<Genetics:database>);
 
 
 
 // --- Add Recipes ---
 
 
+// --- Gene Database
+mods.forestry.Carpenter.addRecipe(3600, <liquid:molten.redstone> * 2880, 
+[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>, 
+<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
+<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17533>, <gregtech:gt.metaitem.01:27500>], 
+<gregtech:gt.metaitem.01:32740>, <Genetics:database>);
 
 
 // --- Assembler Recipes ---

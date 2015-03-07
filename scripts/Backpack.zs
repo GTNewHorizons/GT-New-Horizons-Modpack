@@ -75,6 +75,10 @@ recipes.remove(<Backpack:workbenchbackpack:*>);
 // --- Bound Leather
 recipes.remove(<Backpack:boundLeather>);
 
+// --- Tanned Leather
+furnace.remove(<Backpack:tannedLeather>);
+
+
 
 // --- Adding Back Recipes ---
 
@@ -316,5 +320,13 @@ recipes.addShaped(BigWorkB, [
 [null, BigB, null],
 [<ore:screwAluminium>, CraftingSlab, <ore:screwAluminium>],
 [null, <ore:plateStainlessSteel>, null]]);
+
+
+
+// --- Drying Reck Recipes ---
+
+
+// --- Tanned Leather
+mods.tconstruct.Drying.addRecipe(<Backpack:boundLeather>, <Backpack:tannedLeather>, 12000);
 
 // --- Hiding Stuff ---
