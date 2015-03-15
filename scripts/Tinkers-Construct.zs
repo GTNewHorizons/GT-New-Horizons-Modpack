@@ -79,35 +79,66 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 // --- Blocks ---
 
 
+// --- Block of Iron
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:iron_block>);
+
+// --- Block of  Gold 
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:gold_block>);
+
+// --- Block of Obsidian
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
+
+// --- Block of Emerald
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:emerald_block>);
+
 // --- Block of Cobalt
 recipes.remove(<TConstruct:MetalBlock>);
+mods.tconstruct.Casting.removeBasinRecipe(<GemBlocksForGreg:tile.metalBlock0:9>);
 
 // --- Block of Ardite
 recipes.remove(<TConstruct:MetalBlock:1>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:1>);
 
 // --- Block of Manyullyn
 recipes.remove(<TConstruct:MetalBlock:2>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:2>);
 
 // --- Block of Copper
 recipes.remove(<TConstruct:MetalBlock:3>);
+mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal>);
 
 // --- Block of Bronze
 recipes.remove(<TConstruct:MetalBlock:4>);
+mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:2>);
 
 // --- Block of Tin
 recipes.remove(<TConstruct:MetalBlock:5>);
+mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
 
 // --- Block of Aluminium
 recipes.remove(<TConstruct:MetalBlock:6>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:6>);
 
 // --- Block of Aluminium Brass
 recipes.remove(<TConstruct:MetalBlock:7>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:7>);
 
 // --- Block of Alumite
 recipes.remove(<TConstruct:MetalBlock:8>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
 
-// --- Block of Steel
+// --- Block of Steel --- Refined Iron
 recipes.remove(<TConstruct:MetalBlock:9>);
+mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
+
+// --- Block of Ender ---
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:10>);
+
+// --- Block of Glue
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:GlueBlock>);
+
+// --- Block of Pig Iron
+mods.tconstruct.Casting.removeBasinRecipe(<GemBlocksForGreg:tile.metalBlock3:13>);
 
 // --- Congealed Slime
 recipes.remove(<TConstruct:slime.gel>);
@@ -139,21 +170,55 @@ recipes.remove(<TConstruct:leggingsWood>);
 recipes.remove(<TConstruct:bootsWood>);
 
 
-
 // --- Casting Recipes ---
 
-
-// --- Aluminium Ingot Casting
-mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
-
-// --- Steel Ingot Casting
-mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:5>);
+// --- Alumium Ingot
+//mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
 
 // --- Aluminium Nuggets
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
 
+// --- Steel Ingot
+mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
+
 // --- Steel Dust
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2305>);
+
+// --- Iron Gear
+mods.tconstruct.Casting.removeTableRecipe(<BuildCraft|Core:ironGearItem>);
+
+// --- Gold Gear
+mods.tconstruct.Casting.removeTableRecipe(<BuildCraft|Core:goldGearItem>);
+
+// --- Bronze Gear
+mods.tconstruct.Casting.removeTableRecipe(<Forestry:gearBronze>);
+
+// --- Copper Gear
+mods.tconstruct.Casting.removeTableRecipe(<Forestry:gearCopper>);
+
+// --- Tin Gear
+mods.tconstruct.Casting.removeTableRecipe(<Forestry:gearTin>);
+
+// --- Platinum Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31085>);
+
+// --- Nickel Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31034>);
+
+// --- Silver Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31054>);
+
+// --- Electrum Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31303>);
+
+// --- Invar Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31302>);
+
+// --- Lead Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31089>);
+
+// --- Steel Gear
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31305>);
 
 // --- Chain Helmet
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
@@ -217,12 +282,10 @@ furnace.remove(<TConstruct:materials:11>);
 // --- Alluminium Nuggets
 recipes.remove(<TConstruct:materials:22>);
 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:22>);
-
 // --- Gold Blank Casting
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:blankPattern:2>);
 
-//Golden Apple
+// --- Golden Apple
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:golden_apple>);
 
 // --- Hambone
@@ -649,65 +712,97 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:31>, <liquid:bronze
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:28>, <liquid:cobalt.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
 
 // --- Ingot Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Tool Rod Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:1>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:1>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Pickaxe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:2>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:2>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Shovel Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:3>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Axe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:4>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:4>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Sword Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:5>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:5>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Wide Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:6>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:6>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Hand Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:7>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:7>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Crossbar Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:8>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:8>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Binding Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:9>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:9>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Pan Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:10>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:10>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Wide Board Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:11>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:11>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Knife Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:12>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:12>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Chisel Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:13>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:13>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Tough Rod Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:14>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:14>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Tough Binding Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:15>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:15>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Large Plate Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:16>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:16>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Braod Axe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:17>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:17>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Scythe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:18>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:18>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Excavator Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:19>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:19>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Large Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:20>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:20>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Hammer Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:21>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:21>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Full Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:22>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:22>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Arrow Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:25>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:25>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Gem Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:26>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:26>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Nugget Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:27>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:27>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Shuriken Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Crossbow Limb Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:1>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:1>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Crossbow Boddy Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
 // --- Bow Limb Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+
+// --- Gear Cast
+mods.tconstruct.Smeltery.addMelting(<TConstruct:gearCast>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Seared Tank
 recipes.addShaped(<TConstruct:LavaTank>, [
@@ -938,7 +1033,7 @@ recipes.addShaped(<TConstruct:ToolStationBlock:5>, [
 [<ore:stickWood>, Chest, <ore:stickWood>],
 [null, <ore:craftingToolSoftHammer>, null]]);
 
-// -- Pattern Slab
+// --- Pattern Slab
 recipes.addShapeless(<TConstruct:CraftingSlab:4>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:5>]);
 
 // --- Stencil Table Oak
@@ -1055,7 +1150,7 @@ recipes.addShaped(<TConstruct:ToolForgeBlock:13>, [
 [<ore:blockSteel>, <TConstruct:CraftingSlab:1>, <ore:blockSteel>],
 [<ore:blockSteel>, <ore:craftingToolScrewdriver>, <ore:blockSteel>]]);
 
-//Slab Furnace
+// --- Slab Furnace
 recipes.addShapeless(<TConstruct:FurnaceSlab>, [<ore:craftingToolSaw>, <minecraft:furnace>]);
 
 // --- Tool Forge Slab
@@ -1370,7 +1465,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear> * 7, [
 [Glass, Glass, Glass],
 [Glass, WhiteDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear>,
 [Glass, WhiteDye]);
 
@@ -1379,7 +1474,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:1> * 7, [
 [Glass, Glass, Glass],
 [Glass, OrangeDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:1>,
 [Glass, OrangeDye]);
 
@@ -1388,7 +1483,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:2> * 7, [
 [Glass, Glass, Glass],
 [Glass, MagentaDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:2>,
 [Glass, MagentaDye]);
 
@@ -1397,7 +1492,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:3> * 7, [
 [Glass, Glass, Glass],
 [Glass, LightBlueDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:3>,
 [Glass, LightBlueDye]);
 
@@ -1406,7 +1501,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:4> * 7, [
 [Glass, Glass, Glass],
 [Glass, YellowDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:4>,
 [Glass, YellowDye]);
 
@@ -1415,7 +1510,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:5> * 7, [
 [Glass, Glass, Glass],
 [Glass, LimeDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:5>,
 [Glass, LimeDye]);
 
@@ -1424,7 +1519,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:6> * 7, [
 [Glass, Glass, Glass],
 [Glass, PinkDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:6>,
 [Glass, PinkDye]);
 
@@ -1433,7 +1528,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:7> * 7, [
 [Glass, Glass, Glass],
 [Glass, GrayDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:7>,
 [Glass, GrayDye]);
 
@@ -1442,7 +1537,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:8> * 7, [
 [Glass, Glass, Glass],
 [Glass, LightGrayDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:8>,
 [Glass, LightGrayDye]);
 
@@ -1451,7 +1546,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:9> * 7, [
 [Glass, Glass, Glass],
 [Glass, CyanDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:9>,
 [Glass, CyanDye]);
 
@@ -1460,7 +1555,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:10> * 7, [
 [Glass, Glass, Glass],
 [Glass, PurpleDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:10>,
 [Glass, PurpleDye]);
 
@@ -1469,7 +1564,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:11> * 7, [
 [Glass, Glass, Glass],
 [Glass, BlueDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:11>,
 [Glass, BlueDye]);
 
@@ -1478,7 +1573,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:12> * 7, [
 [Glass, Glass, Glass],
 [Glass, BrownDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:12>,
 [Glass, BrownDye]);
 
@@ -1487,7 +1582,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:13> * 7, [
 [Glass, Glass, Glass],
 [Glass, GreenDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:13>,
 [Glass, GreenDye]);
 
@@ -1496,7 +1591,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:14> * 7, [
 [Glass, Glass, Glass],
 [Glass, RedDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:14>,
 [Glass, RedDye]);
 
@@ -1505,7 +1600,7 @@ recipes.addShaped(<TConstruct:GlassBlock.StainedClear:15> * 7, [
 [Glass, Glass, Glass],
 [Glass, BlackDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassBlock.StainedClear:15>,
 [Glass, BlackDye]);
 
@@ -1518,7 +1613,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, WhiteDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained>,
 [GlassPane, WhiteDye]);
 
@@ -1527,7 +1622,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:1> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, OrangeDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:1>,
 [GlassPane, OrangeDye]);
 
@@ -1536,7 +1631,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:2> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, MagentaDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:2>,
 [GlassPane, MagentaDye]);
 
@@ -1545,7 +1640,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:3> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, LightBlueDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:3>,
 [GlassPane, LightBlueDye]);
 
@@ -1554,7 +1649,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:4> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, YellowDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:4>,
 [GlassPane, YellowDye]);
 
@@ -1563,7 +1658,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:5> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, LimeDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:5>,
 [GlassPane, LimeDye]);
 
@@ -1572,7 +1667,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:6> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, PinkDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:6>,
 [GlassPane, PinkDye]);
 
@@ -1581,7 +1676,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:7> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, GrayDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:7>,
 [GlassPane, GrayDye]);
 
@@ -1590,7 +1685,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:8> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, LightGrayDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:8>,
 [GlassPane, LightGrayDye]);
 
@@ -1599,7 +1694,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:9> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, CyanDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:9>,
 [GlassPane, CyanDye]);
 
@@ -1608,7 +1703,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:10> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, PurpleDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:10>,
 [GlassPane, PurpleDye]);
 
@@ -1617,7 +1712,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:11> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, BlueDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:11>,
 [GlassPane, BlueDye]);
 
@@ -1626,7 +1721,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:12> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, BrownDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:12>,
 [GlassPane, BrownDye]);
 
@@ -1635,7 +1730,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:13> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, GreenDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:13>,
 [GlassPane, GreenDye]);
 
@@ -1644,7 +1739,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:14> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, RedDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:14>,
 [GlassPane, RedDye]);
 
@@ -1653,7 +1748,7 @@ recipes.addShaped(<TConstruct:GlassPaneClearStained:15> * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, BlackDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(<TConstruct:GlassPaneClearStained:15>,
 [GlassPane, BlackDye]);
 
@@ -1700,7 +1795,7 @@ AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>,
 AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
 
 
-//Assembler Recipes
+// --- Assembler Recipes ---
 
 
 // --- Green SDX TNT
@@ -1722,7 +1817,7 @@ ChemicalReactor.addRecipe(<TConstruct:diamondApple>, <minecraft:diamond_block> *
 
 // --- Centrifuge Recipes ---
 
-// Ardite and Cobalt Dust
+// --- Ardite and Cobalt Dust
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>], <TConstruct:materials:41>, 0, 1200);
 
 
@@ -1780,14 +1875,21 @@ mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>,
 
 // --- Ardite Dust
 Macerator.addRecipe(<TConstruct:materials:38>, <TConstruct:materials:4>);
+// -
 Macerator.addRecipe(<TConstruct:materials:38> * 9, <TConstruct:MetalBlock:1>);
 
 // --- Manyullyn Dust
 Macerator.addRecipe(<TConstruct:materials:41>, <TConstruct:materials:5>);
+// -
 Macerator.addRecipe(<TConstruct:materials:41> * 9, <TConstruct:MetalBlock:2>);
 
 // --- Cobalt Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2033> * 9, <TConstruct:MetalBlock>);
+
+// --- Aluminium Brass Dust
+Macerator.addRecipe(<TConstruct:materials:42> * 9, <TConstruct:MetalBlock:7>);
+// -
+Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 
 

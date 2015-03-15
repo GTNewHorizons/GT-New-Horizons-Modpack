@@ -1448,33 +1448,33 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <m
 
 
 // --- Iron Plates ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate>);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
 
 // --- Steel Plates ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1>);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
 
 // --- Tin Plates ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2>);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 
 // --- Copper Plates ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3>);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
 // --- Rebar ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 2);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 8);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 8);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 48);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 48);
 
 // ---Standart Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 8);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 16);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 32);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 32);
 
 // --- Advanced Rail ---

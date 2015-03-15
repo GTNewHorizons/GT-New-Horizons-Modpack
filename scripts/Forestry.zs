@@ -1258,91 +1258,91 @@ mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152,
 <gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:3>);
 
 // --- Copper Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22035>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22035>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes>);
 
 // --- Tin Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22057>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22057>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:1>);
 
 // --- Bronze Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22300>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22300>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:2>);
 
 // --- Iron Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22032>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22032>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:3>);
 
 // --- Golden Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22086>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22086>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:4>);
 
 // --- Diamantine Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22500>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22500>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:5>);
 
 // --- Obsidian Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <dreamcraft:item.LongObsidianRod>, null], 
 [<gregtech:gt.metaitem.02:19035>, <dreamcraft:item.LongObsidianRod>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:6>);
 
 // --- Blazing Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22801>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:7>);
 
 // --- Rubberrised Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22880>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22880>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:8>);
 
 // --- Emerald Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22501>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22501>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:9>);
 
 // --- Apatine Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22530>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22530>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:10>);
 
 // --- Lapis Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22526>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22526>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:11>);
 
 // --- Ender Electron Tubes
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1152, [
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:22533>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
