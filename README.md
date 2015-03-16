@@ -7,7 +7,7 @@ A GregTech-based modpack with a dash of magic provided by Thaumcraft and its add
 
 The pack recipes are hard. And I mean it. Are you up for the challenge ?
 
-Please download DreamCraftCore.0.2.0.jar from TS Folder
+DreamCraftCore.0.2.0.jar s in the TS Folder
 
 Minetweaker GT5 Addon 0.3.5:
 https://github.com/Dream-Master/Minetweaker-Gregtech-5-Addon
