@@ -5,6 +5,9 @@ import com.dreammaster.item.ChargedSilverWandCap;
 import com.dreammaster.item.ChargedThaumiumWandCap;
 import com.dreammaster.item.ChargedVoidWandCap;
 import com.dreammaster.item.EngineCore;
+import com.dreammaster.item.EngravedEnergyChip;
+import com.dreammaster.item.EtchedInsaneVoltageWiring;
+import com.dreammaster.item.EtchedLudicrousVoltageWiring;
 import com.dreammaster.item.IronWandCap;
 import com.dreammaster.item.MasterCircuit;
 import com.dreammaster.item.MeteoricSteelString;
@@ -27,6 +30,10 @@ import com.dreammaster.item.MeteoricSteelString;
 import com.dreammaster.item.EngineCore;
 import com.dreammaster.item.LongObsidianRod;
 import com.dreammaster.item.LongStoneRod;
+import com.dreammaster.item.EngravedEnergyChip;
+import com.dreammaster.item.EngravedQuantumChip;
+import com.dreammaster.item.NanoProcessorBoard;
+import com.dreammaster.item.QuantumProcessorBoard;
 import com.dreammaster.item.Nothing;
 import com.dreammaster.lib.Refstrings;
 
@@ -67,6 +74,12 @@ public class MainRegistry {
 		EngineCore.mainRegistry();
 		LongObsidianRod.mainRegistry();
 		LongStoneRod.mainRegistry();
+		EngravedEnergyChip.mainRegistry();
+		EngravedQuantumChip.mainRegistry();
+		NanoProcessorBoard.mainRegistry();
+		QuantumProcessorBoard.mainRegistry();
+		EtchedInsaneVoltageWiring.mainRegistry();
+		EtchedLudicrousVoltageWiring.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
 		
