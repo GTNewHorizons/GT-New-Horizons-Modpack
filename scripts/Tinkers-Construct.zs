@@ -173,7 +173,7 @@ recipes.remove(<TConstruct:bootsWood>);
 // --- Casting Recipes ---
 
 // --- Alumium Ingot
-//mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
+mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
 
 // --- Aluminium Nuggets
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
