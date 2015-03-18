@@ -6,11 +6,10 @@ import mods.gregtech.BlastFurnace;
 import mods.gregtech.ForgeHammer;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.gregtech.Wiremill;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
-
+import mods.gregtech.Wiremill;
 
 // --- Variables ---
 
