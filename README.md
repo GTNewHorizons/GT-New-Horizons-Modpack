@@ -1,7 +1,7 @@
 ===== DreamCraft =====
 =====================================================
 
-Version 2.0.3.0 BETA is out (17.03.2015)
+Version 2.0.3.0 BETA is out (21.03.2015)
 
 A GregTech-based modpack with a dash of magic provided by Thaumcraft and its addons.
 
