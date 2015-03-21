@@ -13,6 +13,7 @@ import com.dreammaster.item.MasterCircuit;
 import com.dreammaster.item.MeteoricSteelString;
 import com.dreammaster.item.Nothing;
 import com.dreammaster.item.SteelBars;
+import com.dreammaster.item.StonePlate;
 import com.dreammaster.item.SuperCircuit;
 import com.dreammaster.item.SandStoneRod;
 import com.dreammaster.item.CobbleStoneRod;
@@ -34,6 +35,7 @@ import com.dreammaster.item.EngravedEnergyChip;
 import com.dreammaster.item.EngravedQuantumChip;
 import com.dreammaster.item.NanoProcessorBoard;
 import com.dreammaster.item.QuantumProcessorBoard;
+import com.dreammaster.item.StonePlate;
 import com.dreammaster.item.Nothing;
 import com.dreammaster.lib.Refstrings;
 
@@ -80,6 +82,7 @@ public class MainRegistry {
 		QuantumProcessorBoard.mainRegistry();
 		EtchedInsaneVoltageWiring.mainRegistry();
 		EtchedLudicrousVoltageWiring.mainRegistry();
+		StonePlate.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
 		
