@@ -59,6 +59,21 @@ recipes.remove(Safe);
 // --- Carpenter's Daylight Sensor
 recipes.remove(DaylightSensor);
 
+// --- Carpenter's Bed
+recipes.remove(<CarpentersBlocks:itemCarpentersBed>);
+
+// --- Torch
+recipes.remove(<CarpentersBlocks:blockCarpentersTorch>);
+
+// --- Garage Door
+recipes.remove(<CarpentersBlocks:blockCarpentersGarageDoor>);
+
+// --- Ladder
+recipes.remove(<CarpentersBlocks:blockCarpentersLadder>);
+
+// --- Barrier
+recipes.remove(<CarpentersBlocks:blockCarpentersBarrier>);
+
 
 
 // --- Adding Back Recipes ---
@@ -70,7 +85,7 @@ recipes.addShaped(CarpentersBlock * 1, [
 [Frame,WoodScrew, Frame],
 [WoodScrew, Screwdriver, WoodScrew],
 [Frame, WoodScrew, Frame]]);
-// - Alternate Recipes
+// -
 recipes.addShaped(CarpentersBlock * 2, [
 [Frame, IronScrew, Frame],
 [IronScrew, Screwdriver, IronScrew],
@@ -87,7 +102,7 @@ recipes.addShaped(CollapsibleBlock * 2, [
 [CarpentersBlock,CarpentersBlock, CarpentersBlock],
 [Saw, Stick, Screwdriver],
 [CarpentersBlock,CarpentersBlock, CarpentersBlock]]);
-// - Alternate Recipes
+// - 
 recipes.addShaped(CollapsibleBlock * 4, [
 [CarpentersBlock,CarpentersBlock, CarpentersBlock],
 [Saw, IronScrew, Screwdriver],
@@ -121,42 +136,31 @@ recipes.addShaped(DaylightSensor, [
 [CarpentersBlock, MCDaylightSensor, CarpentersBlock],
 [CarpentersBlock, Redstone, CarpentersBlock]]);
 
+// --- Carpenter's Bed
+recipes.addShaped(<CarpentersBlocks:itemCarpentersBed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
+[<CarpentersBlocks:blockCarpentersBarrier>, <ore:craftingToolSoftHammer>, <CarpentersBlocks:blockCarpentersBarrier>]]);
 
-
-// --- Hiding Stuff ---
-
-
-
-// --- Renaming Stuff ---
-
-//Torch
-recipes.remove(<CarpentersBlocks:blockCarpentersTorch>);
-//Garage Door
-recipes.remove(<CarpentersBlocks:blockCarpentersGarageDoor>);
-//Ladder
-recipes.remove(<CarpentersBlocks:blockCarpentersLadder>);
-//Barrier
-recipes.remove(<CarpentersBlocks:blockCarpentersBarrier>);
-
-//Torch
+// --- Torch
 recipes.addShaped(<CarpentersBlocks:blockCarpentersTorch> *2, [
 [<minecraft:coal:*>, null, null],
 [<CarpentersBlocks:blockCarpentersBlock>, null, null],
 [<CarpentersBlocks:blockCarpentersBlock>, null, null]]);
 
-//Garage Door
+// --- Garage Door
 recipes.addShaped(<CarpentersBlocks:blockCarpentersGarageDoor> * 5, [
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:ringIron>, <CarpentersBlocks:blockCarpentersBlock>],
 [<ore:ringIron>, <CarpentersBlocks:blockCarpentersBlock>, <ore:ringIron>],
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:ringIron>, <CarpentersBlocks:blockCarpentersBlock>]]);
 
-//Ladder
+// --- Ladder
 recipes.addShaped(<CarpentersBlocks:blockCarpentersLadder> * 2, [
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:stickWood>, <CarpentersBlocks:blockCarpentersBlock>],
 [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:stickWood>, <CarpentersBlocks:blockCarpentersBlock>]]);
 
-//Barrier
+// --- Barrier
 recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier> * 4, [
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:stickWood>, <CarpentersBlocks:blockCarpentersBlock>],
 [<CarpentersBlocks:blockCarpentersBlock>, <ore:stickWood>, <CarpentersBlocks:blockCarpentersBlock>],

@@ -2383,8 +2383,8 @@ recipes.addShaped(<minecraft:item_frame>, [
 //Bed
 recipes.addShaped(<minecraft:bed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[Fence, null, Fence]]);
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[Fence, <ore:craftingToolSoftHammer>, Fence]]);
 
 //Fishing Rod
 recipes.addShaped(<minecraft:fishing_rod>, [
