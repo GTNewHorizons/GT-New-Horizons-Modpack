@@ -13,13 +13,12 @@ import mods.gregtech.Lathe;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
+import mods.gregtech.SawLiq;
 
 
 
 // --- Variables ---
 
-
-val HSLAIngot = <ore:ingotHSLA>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
 val CobblestoneRod = <dreamcraft:item.CobbleStoneRod>;
@@ -125,6 +124,18 @@ null, <gregtech:gt.metaitem.01:17526>, null,
 null, <minecraft:piston>, null, 
 null, null, null], 
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
+
+
+// --- Cutting Saw Recipes ---
+
+
+// --- Stone Plate
+SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:water> * 20, 400, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:ic2distilledwater> * 10, 400, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:lubricant> * 2, 200, 32);
+
 
 
 // --- Engraving laser Recipes ---
