@@ -87,4 +87,4 @@ AssemblerLiq.addRecipe(<TMechworks:SignalTerminal>, <TMechworks:SignalBus> * 2, 
 
 
 // --- Lengeth of Wire
-Wiremill.addRecipe(<TMechworks:LengthWire>, <TConstruct:materials:14>, 50, 16);
+Wiremill.addRecipe(<TMechworks:LengthWire> * 2, <TConstruct:materials:14>, 50, 16);

@@ -1223,11 +1223,11 @@ mods.forestry.Carpenter.addRecipe(550, null,
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 1000, 
-[<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, 
-<Forestry:peat>, <ihl:item.ihlSimpleItem:8>, <Forestry:peat>, 
-<Forestry:peat>, <Forestry:peat>, <Forestry:peat>],
-null, <Forestry:bituminousPeat> * 5);
+//mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 1000, 
+//[<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, 
+//<Forestry:peat>, <ihl:item.ihlSimpleItem:8>, <Forestry:peat>, 
+//<Forestry:peat>, <Forestry:peat>, <Forestry:peat>],
+//null, <Forestry:bituminousPeat> * 5);
 
 // --- Basic Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 

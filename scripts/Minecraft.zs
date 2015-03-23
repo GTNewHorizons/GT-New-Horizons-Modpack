@@ -983,19 +983,19 @@ recipes.addShapedMirrored(Torch, [
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch, [
-[<UndergroundBiomes:ligniteCoal>, null],
+[<ore:gemLignite>, null],
 [Stick, null]]);
 //-
 recipes.addShapedMirrored(Torch * 2, [
-[<UndergroundBiomes:ligniteCoal>, String],
+[<ore:gemLignite>, String],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 2, [
-[<UndergroundBiomes:ligniteCoal>, null],
+[<ore:gemLignite>, null],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 3, [
-[<UndergroundBiomes:ligniteCoal>, String],
+[<ore:gemLignite>, String],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 5, [

@@ -3,6 +3,7 @@
 // --- Mod Import ---
 
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Canner;
 import mods.ic2.Compressor;
@@ -36,12 +37,12 @@ val SensorLens = <GalacticraftCore:item.sensorLens>;
 val SteelPole = <GalacticraftCore:item.steelPole>;
 
 val AdvAlloy = <ore:plateAlloyAdvanced>;
-val MeteorPlate = <ore:plateMeteoricIron>;
+val MeteorPlate = <gregtech:gt.metaitem.01:17340>;
 val MeteorScrew = <ore:screwMeteoricSteel>;
 val SteelScrew = <ore:screwSteel>;
 val SSteelBolt = <ore:boltStainlessSteel>;
 val TSteelBolt = <ore:boltTungstenSteel>;
-val DeshPlate = <ore:plateDesh>;
+val DeshPlate = <gregtech:gt.metaitem.01:17884>;
 val DeshRing = <ore:ringDesh>;
 val AlFoil = <ore:foilAluminium>;
 
@@ -590,7 +591,7 @@ recipes.addShaped(<GalacticraftCore:item.steel_helmet>, [
 [CompressedSteel, HHammer, CompressedSteel],
 [null, null, null]]);
 
-//Heavy Duty Chest Plate#
+//Heavy Duty Chest Plate
 recipes.addShaped(<GalacticraftCore:item.steel_chestplate>, [
 [CompressedSteel, HHammer, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel],
@@ -680,6 +681,12 @@ recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 [CompressedSteel, <GalacticraftCore:item.airFan>, CompressedSteel],
 [<GalacticraftCore:item.canister>, LVPump, <GalacticraftCore:item.canister>]]);
 
+//Heavy Duty Plate Tier 0
+recipes.addShaped(<dreamcraft:item.HeavyDutyBoard>, [
+[SSteelBolt, HHammer, SSteelBolt],
+[CompressedBronze, CompressedAl, CompressedSteel],
+[SSteelBolt, Wrench, SSteelBolt]]);
+
 //Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
 [<gregtech:gt.metaitem.01:32731>, <gregtech:gt.metaitem.01:32476>, <minecraft:stone_button>],
@@ -721,24 +728,6 @@ recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
 [CompressedSteel, RubberBlock, CompressedSteel],
 [CompressedSteel, <IronChest:BlockIronChest>, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
-
-//Heavy Duty Plate Tier 1
-recipes.addShaped(<gregtech:gt.blockcasings4:13>, [
-[SSteelBolt, HHammer, SSteelBolt],
-[CompressedBronze, CompressedAl, CompressedSteel],
-[SSteelBolt, Wrench, SSteelBolt]]);
-	
-//Heavy Dust Plate Tier 2
-recipes.addShaped(<gregtech:gt.blockcasings4:14>, [
-[<ore:craftingToolScrewdriver>, <ore:boltTungsten>, <ore:boltTungsten>],
-[HHammer, HeavyPlating, MeteorPlate],
-[Wrench, <ore:boltTungsten>, <ore:boltTungsten>]]);
-	
-//Heavy Dust Plate Tier 3
-recipes.addShaped(<gregtech:gt.blockcasings4:15>, [
-[<ore:craftingToolScrewdriver>, TSteelBolt, TSteelBolt],
-[HHammer, <GalacticraftMars:item.null:3>, DeshPlate],
-[Wrench, TSteelBolt, TSteelBolt]]);
 
 //Frequencey Module
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
@@ -839,10 +828,18 @@ Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
 //Basic Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, 1600, 64);
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.tin> * 288, 1600, 64);
+// -
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.solderingalloy> * 144, 1600, 64);
+// -
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.lead> * 576, 1600, 64);
 
 //Advanced Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32711> * 4, 3200, 256);
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 576, 3200, 256);
+// -
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.solderingalloy> * 288, 3200, 256);
+// -
+AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 1440, 3200, 256);
 
 //Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
@@ -858,6 +855,14 @@ Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:
 
 //Thermal Padding Boots
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
+
+//Heavy Duty Plate Tier 1.5
+AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard2>, HeavyPlating, MeteorPlate * 2, <liquid:molten.tungsten> * 576, 1200, 256);
+	
+//Heavy Duty Plate Tier 2.5
+AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard3>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 576, 2400, 1024);
+
+
 
 //Blast Furnace Recipes
 
@@ -908,34 +913,34 @@ furnace.remove(<*>, <GalacticraftMars:item.null>);
 // --- Implusion Compressor Recipes ---
 
 //Compressed Copper Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:17035> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:19035>, 4);
 
 //Compressed Tin Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:17057> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:19057>, 4);
 
 //Compressed Aluminium Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:17019> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:19019>, 4);
 
 //Compressed Steel Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:9>, <Railcraft:part.plate:1> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:9>, <gregtech:gt.metaitem.01:19305>, 4);
 
 //Compressed Bronze Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:17300> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:19300>, 4);
 
 //Compressed Titanium Plates
-ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:17028> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:19028>, 4);
 
 //Compressed Iron Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:11>, <Railcraft:part.plate> * 2, 4);
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:19032>, 4);
 
 //Heavy Duty Plats Tier 1
-ImplosionCompressor.addRecipe([HeavyPlating, <gregtech:gt.metaitem.01:306> * 2], <gregtech:gt.blockcasings4:13>, 8);
+ImplosionCompressor.addRecipe([HeavyPlating, <gregtech:gt.metaitem.01:306> * 2], <dreamcraft:item.HeavyDutyBoard>, 8);
 
 //Heavy Duty Plats Tier 2
-ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.blockcasings4:14>, 16);
+ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <dreamcraft:item.HeavyDutyBoard2>, 16);
 
 //Heavy Duty Plats Tier 3
-ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:316> * 2],<gregtech:gt.blockcasings4:15>, 32);
+ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:316> * 2], <dreamcraft:item.HeavyDutyBoard3>, 32);
 
 // --- Macerator Recipes ---
 

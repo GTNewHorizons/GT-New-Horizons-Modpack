@@ -10,6 +10,7 @@ import mods.gregtech.Extruder;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
+import mods.ic2.Macerator;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
@@ -214,7 +215,6 @@ FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.met
 
 
 
-
 // --- Lathe Recipes
 
 
@@ -229,6 +229,24 @@ Lathe.addRecipe([<dreamcraft:item.LongObsidianRod> * 4, null], <minecraft:obsidi
 Lathe.addRecipe([<dreamcraft:item.LongStoneRod> * 4, null], <minecraft:stone>, 320, 16);
 
 
+
+// --- Macerator recipes ---
+
+
+// --- Moon Dust
+Macerator.addRecipe(<dreamcraft:item.MoonStoneDust>, <GalacticraftCore:tile.moonBlock:4>);
+
+// --- Mars Dust
+Macerator.addRecipe(<dreamcraft:item.MarsStoneDust>, <GalacticraftMars:tile.mars:9>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MarsStoneDust>, <GalacticraftMars:tile.mars:4>);
+
+// --- Asteroids Dust
+Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile.asteroidsBlock>);
+// -
+Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile.asteroidsBlock:1>);
+// -
+Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile.asteroidsBlock:2>);
 
 
 // --- Plate Bender Recipes
