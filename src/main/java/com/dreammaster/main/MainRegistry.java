@@ -1,42 +1,8 @@
 package com.dreammaster.main;
 
 import com.dreammaster.block.SandClayMix;
-import com.dreammaster.item.ChargedSilverWandCap;
-import com.dreammaster.item.ChargedThaumiumWandCap;
-import com.dreammaster.item.ChargedVoidWandCap;
-import com.dreammaster.item.EngineCore;
-import com.dreammaster.item.EngravedEnergyChip;
-import com.dreammaster.item.EtchedInsaneVoltageWiring;
-import com.dreammaster.item.EtchedLudicrousVoltageWiring;
-import com.dreammaster.item.IronWandCap;
-import com.dreammaster.item.MasterCircuit;
-import com.dreammaster.item.MeteoricSteelString;
-import com.dreammaster.item.Nothing;
-import com.dreammaster.item.SteelBars;
-import com.dreammaster.item.StonePlate;
-import com.dreammaster.item.SuperCircuit;
-import com.dreammaster.item.SandStoneRod;
-import com.dreammaster.item.CobbleStoneRod;
-import com.dreammaster.item.IronWandCap;
-import com.dreammaster.item.CopperWandCap;
-import com.dreammaster.item.GoldWandCap;
-import com.dreammaster.item.SteelBars;
-import com.dreammaster.item.LichBone;
-import com.dreammaster.item.SnowQueenBlood;
-import com.dreammaster.item.VoidFoil;
-import com.dreammaster.item.VoidPlate;
-import com.dreammaster.item.VoidRing;
-import com.dreammaster.item.VoidRod;
-import com.dreammaster.item.MeteoricSteelString;
-import com.dreammaster.item.EngineCore;
-import com.dreammaster.item.LongObsidianRod;
-import com.dreammaster.item.LongStoneRod;
-import com.dreammaster.item.EngravedEnergyChip;
-import com.dreammaster.item.EngravedQuantumChip;
-import com.dreammaster.item.NanoProcessorBoard;
-import com.dreammaster.item.QuantumProcessorBoard;
-import com.dreammaster.item.StonePlate;
-import com.dreammaster.item.Nothing;
+import com.dreammaster.item.*;
+
 import com.dreammaster.lib.Refstrings;
 
 import cpw.mods.fml.common.Mod;
@@ -83,6 +49,12 @@ public class MainRegistry {
 		EtchedInsaneVoltageWiring.mainRegistry();
 		EtchedLudicrousVoltageWiring.mainRegistry();
 		StonePlate.mainRegistry();
+		AsteroidsStoneDust.mainRegistry();
+		MoonStoneDust.mainRegistry();
+		MarsStoneDust.mainRegistry();
+		HeavyDutyBoard.mainRegistry();
+		HeavyDutyBoard2.mainRegistry();
+		HeavyDutyBoard3.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
 		
