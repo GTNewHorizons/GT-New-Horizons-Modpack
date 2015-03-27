@@ -469,7 +469,7 @@ recipes.addShaped(<IC2:reactorCondensator>, [
 [<ore:plateRedAlloy>, <IC2:reactorVentCore>, <ore:plateRedAlloy>],
 [<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:9999>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <minecraft:redstone_block>]);
+recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:*>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <minecraft:redstone_block>]);
 
 //LZH Condensator
 recipes.addShaped(<IC2:reactorCondensatorLap>, [
@@ -477,7 +477,7 @@ recipes.addShaped(<IC2:reactorCondensatorLap>, [
 [<IC2:reactorCondensator>, <ore:plateDenseLapis>, <IC2:reactorCondensator>],
 [<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread>, <ore:plateDoubleRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:9999>, <ore:plateLapis>, <ore:plateLapis>, <minecraft:lapis_block>]);
+recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:*>, <ore:plateLapis>, <ore:plateLapis>, <minecraft:lapis_block>]);
 
 //Treetap
 recipes.addShaped(<IC2:itemTreetap>, [
