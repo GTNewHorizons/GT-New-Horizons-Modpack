@@ -389,7 +389,7 @@ recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 
 //Nasa Workbench
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
-[CompressedTi, <gregtech:gt.metaitem.01:32497>, CompressedTi],
+[<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32497>, <ore:plateAlloyIridium>],
 [<gregtech:gt.metaitem.01:32652>, AdvWafer, <gregtech:gt.metaitem.01:32652>],
 [<ore:circuitMaster>, <ore:cableGt04Aluminium>, <ore:circuitElite>]]);
 
@@ -690,7 +690,7 @@ recipes.addShaped(<dreamcraft:item.HeavyDutyBoard>, [
 //Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
 [<gregtech:gt.metaitem.01:32731>, <gregtech:gt.metaitem.01:32476>, <minecraft:stone_button>],
-[HeavyPlating, <gregtech:gt.blockcasings4:3>, HeavyPlating],
+[HeavyPlating, <gregtech:gt.blockcasings3:14>, HeavyPlating],
 [HeavyPlating, null, HeavyPlating]]);
 
 //Tier 1 Booster

@@ -2059,7 +2059,7 @@ worldgen {
                     B:Nether_false=false
                     B:Overworld_false=false
                     B:Overworld_true=false
-                    B:"The End_true"=false
+                    B:"The End_true"=true
                     B:"Twilight Forest_false"=false
                     B:"Twilight Forest_true"=false
                 }
@@ -2534,6 +2534,7 @@ worldgen {
 
                     01 {
                         B:Overworld_false=false
+                        B:"The End_false"=true
                     }
 
                 }
