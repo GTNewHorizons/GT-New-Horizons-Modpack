@@ -173,6 +173,8 @@ recipes.remove(<IC2:reactorCondensator>);
 recipes.remove(<IC2:reactorCondensatorLap>);
 //Treetap
 recipes.remove(<IC2:itemTreetap>);
+// --- Rubber Sheet
+recipes.remove(<IC2:blockRubber>);
 
 
 
@@ -258,6 +260,13 @@ recipes.addShaped(<IC2:blockElectric:2>, [
 [<ore:cableGt01TungstenSteel>, <ore:batteryMaster>, <ore:cableGt01TungstenSteel>],
 [<ore:batteryMaster>, <gregtech:gt.blockmachines:14>, <ore:batteryMaster>],
 [<ore:circuitMaster>, <ore:batteryMaster>, <ore:circuitMaster>]]);
+
+// --- Rubber Sheet
+recipes.addShaped(<IC2:blockRubber>, [
+[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
+[null, null, null]]);
+
 
 //Wood Scaffold
 recipes.addShapeless(<IC2:blockScaffold>, [<ore:frameGtWood>, <gregtech:gt.metaitem.01:17809>]);
