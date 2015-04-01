@@ -10,7 +10,6 @@ import mods.gregtech.Assembler;
 import mods.ic2.Extractor;
 import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
-import mods.gregtech.Mixer;
 
 
 
