@@ -10,6 +10,7 @@ import mods.gregtech.Assembler;
 import mods.ic2.Extractor;
 import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
+import mods.gregtech.Mixer;
 
 
 
@@ -2272,10 +2273,14 @@ recipes.addShaped(<minecraft:compass>, [
 [<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 //Pumpkin Seeds
-recipes.addShapeless(<minecraft:pumpkin_seeds> * 4, [<ore:craftingToolHardHammer>, <minecraft:pumpkin>]);
+recipes.addShaped(<minecraft:pumpkin_seeds> * 4, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>, <minecraft:pumpkin>]]);
+// -
+recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolSoftHammer>, <minecraft:pumpkin>]]);
 
 //Melon Seeds
-recipes.addShapeless(<minecraft:melon_seeds>, [<ore:craftingToolHardHammer>, <minecraft:melon>]);
+recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:melon>, <ore:craftingToolHardHammer>, <minecraft:melon>]]);
+// -
+recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <ore:craftingToolSoftHammer>, <minecraft:melon>]]);
 
 //Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
@@ -2397,6 +2402,11 @@ recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
 [<ore:dustWood>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
+// -
+recipes.addShaped(<minecraft:paper> * 2, [
+[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
+[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
+[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 
 // --- Wooden Door
 recipes.remove(WoodDoor);
@@ -2431,7 +2441,7 @@ recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 // --- Bricks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:37>],
+[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 // -
 recipes.addShaped(<minecraft:brick_block> * 2, [

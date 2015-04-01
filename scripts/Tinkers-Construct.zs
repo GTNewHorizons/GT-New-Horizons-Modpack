@@ -10,6 +10,7 @@ import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
+import mods.gregtech.Mixer;
 import mods.nei.NEI;
 
 
@@ -956,11 +957,41 @@ recipes.addShaped(Grout * 4, [
 [Sand, Sand, Sand],
 [Claydust, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Claydust],
 [Gravel, Gravel, Gravel]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Gravel, Gravel, Gravel],
+[Claydust, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Claydust],
+[Sand, Sand, Sand]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Sand, Claydust, Gravel],
+[Sand, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Gravel],
+[Sand, Claydust, Gravel]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Gravel, Claydust, Sand],
+[Gravel, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Sand],
+[Gravel, Claydust, Sand]]);
 
 recipes.addShaped(Grout * 4, [
 [Sand, Sand, Sand],
 [Claydust, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Claydust],
 [Gravel, Gravel, Gravel]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Gravel, Gravel, Gravel],
+[Claydust, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Claydust],
+[Sand, Sand, Sand]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Sand, Claydust, Gravel],
+[Sand, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Gravel],
+[Sand, Claydust, Gravel]]);
+// -
+recipes.addShaped(Grout * 4, [
+[Gravel, Claydust, Sand],
+[Gravel, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Sand],
+[Gravel, Claydust, Sand]]);
 
 // --- Slime Soil
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
@@ -1890,6 +1921,15 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2033> * 9, <TConstruct:MetalBlock>)
 Macerator.addRecipe(<TConstruct:materials:42> * 9, <TConstruct:MetalBlock:7>);
 // -
 Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
+
+
+
+// --- Mixer Recipes
+
+// --- Grout
+Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, <minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2, null, <liquid:water> * 2000, 120, 16);
+
+
 
 
 
