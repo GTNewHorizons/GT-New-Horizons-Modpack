@@ -48,6 +48,9 @@ recipes.remove(<harvestcraft:bakewareItem>);
 // --- Juicer ---
 recipes.remove(<harvestcraft:juicerItem>);
 
+// --- Apiary
+recipes.remove(<harvestcraft:apiary> );
+
 
 // --- Woven Cotton
 recipes.remove(WovenCloth);
@@ -61,6 +64,12 @@ recipes.removeShapeless(<harvestcraft:cottonItem>);
 // --- Mortar and Pestle
 recipes.remove(<harvestcraft:mortarandpestleItem>);
 
+// --- Pot
+recipes.remove(<harvestcraft:potItem>);
+
+// --- Presser
+recipes.remove(<harvestcraft:presser>);
+
 
 // --- Adding Back Recipes ---
 
@@ -70,6 +79,19 @@ recipes.addShaped(WovenCloth, [
 [String, Cotton, String],
 [Cotton, String, Cotton],
 [String, Cotton, String]]);
+
+// --- Apiary
+recipes.addShapeless(<harvestcraft:apiary>, [<Forestry:apiculture:2>]);
+
+// --- Pot
+recipes.addShaped(<harvestcraft:potItem>, [
+[<ore:craftingToolHardHammer>, <ore:plateAnyIron>, <ore:craftingToolFile>],
+[null, <ore:bucketEmpty>, null]]);
+// -
+recipes.addShaped(<harvestcraft:potItem>, [
+[<ore:craftingToolFile>, <ore:plateAnyIron>, <ore:craftingToolHardHammer>],
+[null, <ore:bucketEmpty>, null]]);
+
 
 // --- Ordicted Things ---
 
@@ -87,6 +109,7 @@ bake.add(<gregtech:gt.metatool.01:46>);
 
 // --- Juicer ---
 juice.add(<gregtech:gt.metatool.01:14>);
+
 
 
 

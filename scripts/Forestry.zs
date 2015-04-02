@@ -609,6 +609,8 @@ mods.forestry.Carpenter.addRecipe(800, <liquid:seedoil> * 1000,
 <Forestry:frameImpregnated>, <Forestry:beeCombs:*>, <Forestry:frameImpregnated>, 
 <minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
 <Forestry:apiculture:2>, <Forestry:apiculture>);
+// -
+recipes.addShapeless(<Forestry:apiculture:2>, [<harvestcraft:apiary>]);
 
 // --- Apiarys Chest
 mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000, 

@@ -10,11 +10,18 @@
 
 
 val Chisel = <chisel:chisel>;
+val ObsidianChisel = <chisel:obsidianChisel>;
+val DiamondChisel = <chisel:diamondChisel>;
 val BottledCloud = <chisel:cloudinabottle>;
 
 val IronPlate = <ore:plateAnyIron>;
+val SteelPlate = <ore:plateSteel>;
+val ObsidainPlate = <ore:plateObsidian>;
 val IronScrew = <ore:screwAnyIron>;
+val SteelScrew = <ore:screwSteel>;
 val IronRod = <ore:stickAnyIron>;
+val SteelRod = <ore:stickSteel>;
+val ObsidianStick = <ore:stickObsidian>;
 val TinyQuartzPile = <ore:dustTinyQuartzite>;
 val EmptyBottle = <minecraft:glass_bottle>;
 
@@ -29,8 +36,11 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 // --- Chisel
 recipes.remove(Chisel);
 
+// --- Chisel
+recipes.remove(ObsidianChisel);
+
 // --- Diamond Chisel
-recipes.remove(<chisel:diamondChisel>);
+recipes.remove(DiamondChisel);
 
 // --- Cloud In A Bottle
 recipes.remove(BottledCloud);
@@ -63,19 +73,30 @@ recipes.addShaped(Chisel, [
 [HHammer, IronPlate, IronPlate],
 [IronScrew, IronRod, IronPlate],
 [IronRod, IronScrew, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Chisel, [
 [Screwdriver, IronPlate, IronPlate],
 [IronScrew, IronRod, IronPlate],
 [IronRod, IronScrew, HHammer]]);
 
+// --- Obsidian Chisel
+recipes.addShaped(ObsidianChisel, [
+[HHammer, SteelPlate, ObsidainPlate],
+[SteelScrew, <TConstruct:toolRod:6>, SteelPlate],
+[SteelRod, SteelScrew, Screwdriver]]);
+// -
+recipes.addShaped(ObsidianChisel, [
+[Screwdriver, SteelPlate, ObsidainPlate],
+[SteelScrew, <TConstruct:toolRod:6>, SteelPlate],
+[SteelRod, SteelScrew, HHammer]]);
+
 // --- Diamond Chisel
-recipes.addShaped(<chisel:diamondChisel>, [
+recipes.addShaped(DiamondChisel, [
 [HHammer, <ore:plateDiamond>, <ore:plateDiamond>],
 [<ore:screwDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
 [<ore:stickDiamond>, <ore:screwDiamond>, Screwdriver]]);
-// - Alternate Recipe
-recipes.addShaped(<chisel:diamondChisel>, [
+// -
+recipes.addShaped(DiamondChisel, [
 [Screwdriver, <ore:plateDiamond>, <ore:plateDiamond>],
 [<ore:screwDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
 [<ore:stickDiamond>, <ore:screwDiamond>, HHammer]]);

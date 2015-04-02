@@ -216,7 +216,7 @@ val Beeswax = <ore:itemBeeswax>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
 val Sulfur = <ore:dustSulfur>;
 val Torchberries = <TwilightForest:item.torchberries>;
-val Rubber = <ore:itemRawRubber>;
+val Rubber = <IC2:itemHarz>;
 val Stick = <ore:stickWood>;
 val ImpregnatedStick = <Forestry:oakStick>;
 val ObsidianPlate = <ore:plateObsidian>;
@@ -990,36 +990,44 @@ recipes.addShapedMirrored(Torch * 2, [
 [<ore:gemLignite>, String],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 2, [
+recipes.addShapedMirrored(Torch * 1, [
 [<ore:gemLignite>, null],
 [ImpregnatedStick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 3, [
+recipes.addShaped(Torch * 3, [
 [<ore:gemLignite>, String],
 [ImpregnatedStick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 5, [
+recipes.addShaped(Torch * 5, [
 [CoalCoke, null],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 3, [
+recipes.addShaped(Torch * 3, [
 [Rubber, null],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 2, [
+recipes.addShaped(Torch * 2, [
 [Sulfur, null],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 4, [
+recipes.addShaped(Torch * 4, [
 [Phosphorous, null],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 2, [
+recipes.addShaped(Torch * 2, [
 [AnyWool, null],
+[Stick, null]]);
+// -
+recipes.addShaped(Torch * 4, [
+[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 3, [
 [WovenCloth, null],
+[Stick, null]]);
+// -
+recipes.addShaped(Torch * 6, [
+[WovenCloth, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 2, [
@@ -1029,11 +1037,11 @@ recipes.addShapedMirrored(Torch * 2, [
 recipes.addShapedMirrored(Torch * 5, [
 [Torchberries, null],
 [Stick, null]]);
-// - More Alternate Recipes
+// -
 recipes.addShaped(Torch * 4, [
 [Coal, String],
 [Stick, null]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Torch * 3, [
 [Charcoal, String],
 [Stick, null]]);
@@ -1062,8 +1070,16 @@ recipes.addShaped(Torch * 3, [
 [AnyWool, String],
 [Stick, null]]);
 // -
+recipes.addShaped(Torch * 5, [
+[AnyWool, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[Stick, null]]);
+// -
 recipes.addShaped(Torch * 4, [
 [WovenCloth, String],
+[Stick, null]]);
+// -
+recipes.addShaped(Torch * 7, [
+[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 3, [
@@ -1073,11 +1089,11 @@ recipes.addShaped(Torch * 3, [
 recipes.addShaped(Torch * 6, [
 [Torchberries, String],
 [Stick, null]]);
-// - Even More Recipes
+// -
 recipes.addShaped(Torch * 4, [
 [Coal, null],
 [ImpregnatedStick, null]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Torch * 3, [
 [Charcoal, null],
 [ImpregnatedStick, null]]);
@@ -1106,8 +1122,16 @@ recipes.addShaped(Torch * 3, [
 [AnyWool, null],
 [ImpregnatedStick, null]]);
 // -
+recipes.addShaped(Torch * 6, [
+[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[ImpregnatedStick, null]]);
+// -
 recipes.addShaped(Torch * 4, [
 [WovenCloth, null],
+[ImpregnatedStick, null]]);
+// -
+recipes.addShaped(Torch * 8, [
+[WovenCloth, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 3, [
@@ -1117,11 +1141,11 @@ recipes.addShaped(Torch * 3, [
 recipes.addShaped(Torch * 6, [
 [Torchberries, null],
 [ImpregnatedStick, null]]);
-// - More, mooore !
+// -
 recipes.addShaped(Torch * 5, [
 [Coal, String],
 [ImpregnatedStick, null]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Torch * 4, [
 [Charcoal, String],
 [ImpregnatedStick, null]]);
@@ -1150,8 +1174,16 @@ recipes.addShaped(Torch * 4, [
 [AnyWool, String],
 [ImpregnatedStick, null]]);
 // -
+recipes.addShaped(Torch * 7, [
+[AnyWool, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[ImpregnatedStick, null]]);
+// -
 recipes.addShaped(Torch * 5, [
 [WovenCloth, String],
+[ImpregnatedStick, null]]);
+// -
+recipes.addShaped(Torch * 9, [
+[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 4, [
