@@ -120,6 +120,376 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 //Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
+// --- Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28032>);
+
+// --- Wrought Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28304>);
+
+// --- Magnetic Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28354>);
+
+// --- Pig Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28307>);
+
+// --- IronWood Ring
+recipes.remove(<gregtech:gt.metaitem.01:28338>);
+
+// --- Meteoric iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28340>);
+
+// --- Dark Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28342>);
+
+// --- Dark Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28829>);
+
+// --- Shadow Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28336>);
+
+// --- Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28305>);
+
+// --- Magnetic Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28355>);
+
+// --- Stainless Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28306>);
+
+// --- Tungsten Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28316>);
+
+// --- Black Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28334>);
+
+// --- Damascus Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28335>);
+
+// --- Steeleaf Ring
+recipes.remove(<gregtech:gt.metaitem.01:28339>);
+
+// --- Meteoric Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28341>);
+
+// --- Fiery Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28346>);
+
+// --- Red Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28348>);
+
+// --- Blue Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28349>);
+
+// --- Shadow Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28337>);
+
+// --- HSLA
+recipes.remove(<gregtech:gt.metaitem.01:28322>);
+
+// --- Beryllium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28008>);
+
+// --- Copper Ring
+recipes.remove(<gregtech:gt.metaitem.01:28035>);
+
+// --- Force Ring
+recipes.remove(<gregtech:gt.metaitem.01:28521>);
+
+// --- Rubidium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28043>);
+
+// --- Rubidium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28056>);
+
+// --- Annealed Copper Ring
+recipes.remove(<gregtech:gt.metaitem.01:28345>);
+
+// --- Tin Ring
+recipes.remove(<gregtech:gt.metaitem.01:28057>);
+
+// --- Tin Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28363>);
+
+// --- Desh Ring
+recipes.remove(<gregtech:gt.metaitem.01:28884>);
+
+// --- Gold Ring
+recipes.remove(<gregtech:gt.metaitem.01:28086>);
+
+// --- Infused Gold Ring
+recipes.remove(<gregtech:gt.metaitem.01:28323>);
+
+// --- Rose Gold Ring
+recipes.remove(<gregtech:gt.metaitem.01:28351>);
+
+// --- Duranium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28328>);
+
+// --- Bronze Ring
+recipes.remove(<gregtech:gt.metaitem.01:28300>);
+
+// --- Black Bronze Ring
+recipes.remove(<gregtech:gt.metaitem.01:28352>);
+
+// --- Bismuth Bronze Ring
+recipes.remove(<gregtech:gt.metaitem.01:28353>);
+
+// --- Tritanium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28329>);
+
+// --- Ceasium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28062>);
+
+// --- Aluminium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28019>);
+
+// --- Lanthanum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28064>);
+
+// --- Cerium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28065>);
+
+// --- Praseodymium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28066>);
+
+// --- Tellurium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28059>);
+
+// --- Promethium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28068>);
+
+// --- Samarium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28069>);
+
+// --- Europium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28070>);
+
+// --- Gadolinium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28071>);
+
+// --- Scandium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28027>);
+
+// --- Arsenic Ring
+recipes.remove(<gregtech:gt.metaitem.01:28039>);
+
+// --- Holmium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28074>);
+
+// --- Erbium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28075>);
+
+// --- Thulium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28076>);
+
+// --- Ytterbium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28077>);
+
+// --- Lutetium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28078>);
+
+// --- Tantalum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28080>);
+
+// --- Americium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28103>);
+
+// --- Terbium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28072>);
+
+// --- Dysprosium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28073>);
+
+// --- Silicon Ring
+recipes.remove(<gregtech:gt.metaitem.01:28020>);
+
+// --- Titanium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28028>);
+
+// --- Chromium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28030>);
+
+// --- Chrome Dioxide Ring
+recipes.remove(<gregtech:gt.metaitem.01:28361>);
+
+// --- Magnesium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28018>);
+
+// --- Vanadium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28029>);
+
+// --- Vanadium Gallium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28357>);
+
+// --- Yttrium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28045>);
+
+// --- Yttrium Barium Cuprate Ring
+recipes.remove(<gregtech:gt.metaitem.01:28358>);
+
+// --- Niobium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28047>);
+
+// --- Niobium Nitride Ring
+recipes.remove(<gregtech:gt.metaitem.01:28359>);
+
+// --- Niobium Titanium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28360>);
+
+// --- Palladium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28052>);
+
+// --- Blue Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28309>);
+
+// --- Manganese Ring
+recipes.remove(<gregtech:gt.metaitem.01:28031>);
+
+// --- Cobalt Ring
+recipes.remove(<gregtech:gt.metaitem.01:28033>);
+
+// --- Cobalt Brass Ring
+recipes.remove(<gregtech:gt.metaitem.01:28343>);
+
+// --- Nickel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28034>);
+
+// --- Zinc Ring
+recipes.remove(<gregtech:gt.metaitem.01:28036>);
+
+// --- Gallium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28037>);
+
+// --- Molybdenum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28048>);
+
+// --- Silver Ring
+recipes.remove(<gregtech:gt.metaitem.01:28054>);
+
+// --- Sterling Silver Ring
+recipes.remove(<gregtech:gt.metaitem.01:28350>);
+
+// --- Astral Silver Ring
+recipes.remove(<gregtech:gt.metaitem.01:28333>);
+
+// --- Red Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28308>);
+
+// --- Cupronickel  Ring
+recipes.remove(<gregtech:gt.metaitem.01:28310>);
+
+// --- Nichrome  Ring
+recipes.remove(<gregtech:gt.metaitem.01:28311>);
+
+// --- Kanthal  Ring
+recipes.remove(<gregtech:gt.metaitem.01:28312>);
+
+// --- Adamantium  Ring
+recipes.remove(<gregtech:gt.metaitem.01:28319>);
+
+// --- Magnalium  Ring
+recipes.remove(<gregtech:gt.metaitem.01:28313>);
+
+// --- Soldering Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28314>);
+
+// --- Battery Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28315>);
+
+// --- Osmiridium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28317>);
+
+// --- Antimony Ring
+recipes.remove(<gregtech:gt.metaitem.01:28058>);
+
+// --- Uranium235 Ring
+recipes.remove(<gregtech:gt.metaitem.01:28097>);
+
+// --- Uranium238 Ring
+recipes.remove(<gregtech:gt.metaitem.01:28098>);
+
+// --- Plutonium244 Ring
+recipes.remove(<gregtech:gt.metaitem.01:28100>);
+
+// --- Plutonium241 Ring
+recipes.remove(<gregtech:gt.metaitem.01:28101>);
+
+// --- Neutronium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28129>);
+
+// --- Brass Ring
+recipes.remove(<gregtech:gt.metaitem.01:28301>);
+
+// --- Invar Ring
+recipes.remove(<gregtech:gt.metaitem.01:28302>);
+
+// --- Electrum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28303>);
+
+// --- Fluxed Electrum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28320>);
+
+// --- Enderium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28321>);
+
+// --- Neodymium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28067>);
+
+// --- Magnetic Neodymium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28356>);
+
+// --- Tungsten Ring
+recipes.remove(<gregtech:gt.metaitem.01:28081>);
+
+// --- Osmium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28083>);
+
+// --- Iridium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28084>);
+
+// --- Platinum Ring
+recipes.remove(<gregtech:gt.metaitem.01:28085>);
+
+// --- Lead Ring
+recipes.remove(<gregtech:gt.metaitem.01:28089>);
+
+// --- Bismuth Ring
+recipes.remove(<gregtech:gt.metaitem.01:28090>);
+
+// --- Thorium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28096>);
+
+// --- Naquadah Ring
+recipes.remove(<gregtech:gt.metaitem.01:28324>);
+
+// --- Naquadah Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28325>);
+
+// --- Naquadria Ring
+recipes.remove(<gregtech:gt.metaitem.01:28327>);
+
+// --- Naquadah Enriched Ring
+recipes.remove(<gregtech:gt.metaitem.01:28326>);
+
+// ---  Sunnarium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28318>);
+
+// ---  Thaumium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28330>);
+
+// ---  Mithril Ring
+recipes.remove(<gregtech:gt.metaitem.01:28331>);
+
+// ---  Midasium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28332>);
+
+// ---  Ultimet Ring
+recipes.remove(<gregtech:gt.metaitem.01:28344>);
+
+// ---  Knight Metall Ring
+recipes.remove(<gregtech:gt.metaitem.01:28362>);
+
+
 // - GT Shaped and Shapeless picks removal
 
 recipes.remove(<gregtech:gt.metatool.01>);
@@ -277,6 +647,745 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 
 //Small Clay Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1805>, [<ore:craftingToolMortar>, <minecraft:clay_ball>]);
+
+// --- Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28032>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickIron>, null],
+[null, null, null]]);
+
+// --- Wrought Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28304>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickWroughtIron>, null],
+[null, null, null]]);
+
+// --- Magnetic Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28354>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickIronMagnetic>, null],
+[null, null, null]]);
+
+// --- Pig Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28307>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPigIron>, null],
+[null, null, null]]);
+
+// --- IronWood Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28338>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickIronWood>, null],
+[null, null, null]]);
+
+// --- Meteoric iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28340>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMeteoricIron>, null],
+[null, null, null]]);
+
+// --- Dark Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28342>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDarkIron>, null],
+[null, null, null]]);
+
+// --- Dark Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28829>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDeepIron>, null],
+[null, null, null]]);
+
+// --- Shadow Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28336>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickShadowIron>, null],
+[null, null, null]]);
+
+// --- Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28305>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSteel>, null],
+[null, null, null]]);
+
+// --- Magnetic Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28355>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSteelMagnetic>, null],
+[null, null, null]]);
+
+// --- Stainless Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28306>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickStainlessSteel>, null],
+[null, null, null]]);
+
+// --- Tungsten Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28316>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTungstenSteel>, null],
+[null, null, null]]);
+
+// --- Black Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28334>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBlackSteel>, null],
+[null, null, null]]);
+
+// --- Damascus Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28335>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDamascusSteel>, null],
+[null, null, null]]);
+
+// --- Steeleaf Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28339>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSteeleaf>, null],
+[null, null, null]]);
+
+// --- Meteoric Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28341>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMeteoricSteel>, null],
+[null, null, null]]);
+
+// --- Fiery Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28346>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickFierySteel>, null],
+[null, null, null]]);
+
+// --- Red Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28348>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickRedSteel>, null],
+[null, null, null]]);
+
+// --- Blue Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28349>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBlueSteel>, null],
+[null, null, null]]);
+
+// --- Shadow Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28337>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickShadowSteel>, null],
+[null, null, null]]);
+
+// --- HSLA
+recipes.addShaped(<gregtech:gt.metaitem.01:28322>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickHSLA>, null],
+[null, null, null]]);
+
+// --- Beryllium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28008>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBeryllium>, null],
+[null, null, null]]);
+
+// --- Copper Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28035>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCopper>, null],
+[null, null, null]]);
+
+// --- Force Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28521>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickForce>, null],
+[null, null, null]]);
+
+// --- Rubidium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28043>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickRubidium>, null],
+[null, null, null]]);
+
+// --- Rubidium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28056>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickIndium>, null],
+[null, null, null]]);
+
+// --- Annealed Copper Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28345>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAnnealedCopper>, null],
+[null, null, null]]);
+
+// --- Tin Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28057>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTin>, null],
+[null, null, null]]);
+
+// --- Tin Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28363>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTinAlloy>, null],
+[null, null, null]]);
+
+// --- Desh Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28884>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDesh>, null],
+[null, null, null]]);
+
+// --- Gold Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28086>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickGold>, null],
+[null, null, null]]);
+
+// --- Infused Gold Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28323>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickInfusedGold>, null],
+[null, null, null]]);
+
+// --- Rose Gold Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28351>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickRoseGold>, null],
+[null, null, null]]);
+
+// --- Duranium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28328>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDuranium>, null],
+[null, null, null]]);
+
+// --- Bronze Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28300>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBronze>, null],
+[null, null, null]]);
+
+// --- Black Bronze Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28352>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBlackBronze>, null],
+[null, null, null]]);
+
+// --- Bismuth Bronze Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28353>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBismuthBronze>, null],
+[null, null, null]]);
+
+// --- Tritanium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28329>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTritanium>, null],
+[null, null, null]]);
+
+// --- Ceasium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28062>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCaesium>, null],
+[null, null, null]]);
+
+// --- Aluminium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28019>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAluminium>, null],
+[null, null, null]]);
+
+// --- Lanthanum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28064>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickLanthanum>, null],
+[null, null, null]]);
+
+// --- Cerium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28065>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCerium>, null],
+[null, null, null]]);
+
+// --- Praseodymium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28066>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPraseodymium>, null],
+[null, null, null]]);
+
+// --- Tellurium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28059>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTellurium>, null],
+[null, null, null]]);
+
+// --- Promethium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28068>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPromethium>, null],
+[null, null, null]]);
+
+// --- Samarium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28069>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSamarium>, null],
+[null, null, null]]);
+
+// --- Europium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28070>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickEuropium>, null],
+[null, null, null]]);
+
+// --- Gadolinium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28071>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickGadolinium>, null],
+[null, null, null]]);
+
+// --- Scandium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28027>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickScandium>, null],
+[null, null, null]]);
+
+// --- Arsenic Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28039>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickArsenic>, null],
+[null, null, null]]);
+
+// --- Holmium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28074>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickHolmium>, null],
+[null, null, null]]);
+
+// --- Erbium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28075>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickErbium>, null],
+[null, null, null]]);
+
+// --- Thulium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28076>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickThulium>, null],
+[null, null, null]]);
+
+// --- Ytterbium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28077>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickYtterbium>, null],
+[null, null, null]]);
+
+// --- Lutetium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28078>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickLutetium>, null],
+[null, null, null]]);
+
+// --- Tantalum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28080>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTantalum>, null],
+[null, null, null]]);
+
+// --- Americium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28103>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAmericium>, null],
+[null, null, null]]);
+
+// --- Terbium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28072>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTerbium>, null],
+[null, null, null]]);
+
+// --- Dysprosium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28073>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDysprosium>, null],
+[null, null, null]]);
+
+// --- Silicon Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28020>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSilicon>, null],
+[null, null, null]]);
+
+// --- Titanium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28028>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTitanium>, null],
+[null, null, null]]);
+
+// --- Chromium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28030>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickChrome>, null],
+[null, null, null]]);
+
+// --- Chrome Dioxide Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28361>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickChromiumDioxide>, null],
+[null, null, null]]);
+
+// --- Magnesium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28018>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMagnesium>, null],
+[null, null, null]]);
+
+// --- Vanadium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28029>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickVanadium>, null],
+[null, null, null]]);
+
+// --- Vanadium Gallium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28357>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickVanadiumGallium>, null],
+[null, null, null]]);
+
+// --- Yttrium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28045>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickYttrium>, null],
+[null, null, null]]);
+
+// --- Yttrium Barium Cuprate Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28358>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickYttriumBariumCuprate>, null],
+[null, null, null]]);
+
+// --- Niobium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28047>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNiobium>, null],
+[null, null, null]]);
+
+// --- Niobium Nitride Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28359>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNiobiumNitride>, null],
+[null, null, null]]);
+
+// --- Niobium Titanium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28360>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNiobiumTitanium>, null],
+[null, null, null]]);
+
+// --- Palladium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28052>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPalladium>, null],
+[null, null, null]]);
+
+// --- Blue Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28309>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBlueAlloy>, null],
+[null, null, null]]);
+
+// --- Manganese Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28031>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickManganese>, null],
+[null, null, null]]);
+
+// --- Cobalt Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28033>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCobalt>, null],
+[null, null, null]]);
+
+// --- Cobalt Brass Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28343>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCobaltBrass>, null],
+[null, null, null]]);
+
+// --- Nickel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28034>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNickel>, null],
+[null, null, null]]);
+
+// --- Zinc Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28036>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickZinc>, null],
+[null, null, null]]);
+
+// --- Gallium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28037>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickGallium>, null],
+[null, null, null]]);
+
+// --- Molybdenum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28048>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMolybdenum>, null],
+[null, null, null]]);
+
+// --- Silver Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28054>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSilver>, null],
+[null, null, null]]);
+
+// --- Sterling Silver Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28350>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSterlingSilver>, null],
+[null, null, null]]);
+
+// --- Astral Silver Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28333>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAstralSilver>, null],
+[null, null, null]]);
+
+// --- Red Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28308>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickRedAlloy>, null],
+[null, null, null]]);
+
+// --- Cupronickel  Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28310>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCupronickel>, null],
+[null, null, null]]);
+
+// --- Nichrome  Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28311>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNichrome>, null],
+[null, null, null]]);
+
+// --- Kanthal  Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28312>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickKanthal>, null],
+[null, null, null]]);
+
+// --- Adamantium  Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28319>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAdamantium>, null],
+[null, null, null]]);
+
+// --- Magnalium  Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28313>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMagnalium>, null],
+[null, null, null]]);
+
+// --- Soldering Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28314>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSolderingAlloy>, null],
+[null, null, null]]);
+
+// --- Battery Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28315>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBatteryAlloy>, null],
+[null, null, null]]);
+
+// --- Osmiridium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28317>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickOsmiridium>, null],
+[null, null, null]]);
+
+// --- Antimony Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28058>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickAntimony>, null],
+[null, null, null]]);
+
+// --- Uranium235 Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28097>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickUranium235>, null],
+[null, null, null]]);
+
+// --- Uranium238 Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28098>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickUranium>, null],
+[null, null, null]]);
+
+// --- Plutonium244 Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28100>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPlutonium>, null],
+[null, null, null]]);
+
+// --- Plutonium241 Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28101>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPlutonium241>, null],
+[null, null, null]]);
+
+// --- Neutronium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28129>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNeutronium>, null],
+[null, null, null]]);
+
+// --- Brass Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28301>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBrass>, null],
+[null, null, null]]);
+
+// --- Invar Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28302>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickInvar>, null],
+[null, null, null]]);
+
+// --- Electrum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28303>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickElectrum>, null],
+[null, null, null]]);
+
+// --- Fluxed Electrum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28320>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickElectrumFlux>, null],
+[null, null, null]]);
+
+// --- enderium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28321>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickEnderium>, null],
+[null, null, null]]);
+
+// --- Neodymium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28067>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNeodymium>, null],
+[null, null, null]]);
+
+// --- Magnetic Neodymium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28356>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNeodymiumMagnetic>, null],
+[null, null, null]]);
+
+// --- Tungsten Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28081>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickTungsten>, null],
+[null, null, null]]);
+
+// --- Osmium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28083>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickOsmium>, null],
+[null, null, null]]);
+
+// --- Iridium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28084>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickIridium>, null],
+[null, null, null]]);
+
+// --- Platinum Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28085>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPlatinum>, null],
+[null, null, null]]);
+
+// --- Lead Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28089>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickLead>, null],
+[null, null, null]]);
+
+// --- Bismuth Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28090>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickBismuth>, null],
+[null, null, null]]);
+
+// --- Thorium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28096>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickThorium>, null],
+[null, null, null]]);
+
+// --- Naquadah Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28324>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNaquadah>, null],
+[null, null, null]]);
+
+// --- Naquadah Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28325>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNaquadahAlloy>, null],
+[null, null, null]]);
+
+// --- Naquadria Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28327>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNaquadria>, null],
+[null, null, null]]);
+
+// --- Naquadah Enriched Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28326>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickNaquadahEnriched>, null],
+[null, null, null]]);
+
+// ---  Sunnarium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28318>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSunnarium>, null],
+[null, null, null]]);
+
+// ---  Thaumium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28330>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickThaumium>, null],
+[null, null, null]]);
+
+// ---  Mithril Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28331>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMithril>, null],
+[null, null, null]]);
+
+// ---  Midasium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28332>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickMidasium>, null],
+[null, null, null]]);
+
+// ---  Ultimet Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28344>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickUltimet>, null],
+[null, null, null]]);
+
+// ---  Knight Metall Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28362>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickKnightmetal>, null],
+[null, null, null]]);
+
 
 
 

@@ -77,7 +77,7 @@ recipes.addShaped(<dreamcraft:item.VoidRod>, [
 // --- Void Metal Ring
 recipes.addShaped(<dreamcraft:item.VoidRing>, [
 [<ore:craftingToolHardHammer>, null, null],
-[null, <ore:stickVoid>, null],
+[<ore:craftingToolFile>, <ore:stickVoid>, null],
 [null, null, null]]);
 
 
