@@ -2212,6 +2212,10 @@ recipes.addShapeless(BlackHardClay,
 // --- Sugar
 recipes.addShapeless(Sugar,
 [Mortar, SugarCane]);
+// -
+recipes.addShapeless(Sugar,
+[Mortar, <harvestcraft:beetItem>]);
+
 
 //Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
