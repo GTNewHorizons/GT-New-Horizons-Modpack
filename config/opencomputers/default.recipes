@@ -313,6 +313,8 @@ nuggetIron {
   input: ingotIron
   output: 9
 }
+cuttingWire = false
+acid = false
 ingotIron {
   input: [[nuggetIron, nuggetIron, nuggetIron],
           [nuggetIron, nuggetIron, nuggetIron],
@@ -423,6 +425,7 @@ rawCircuitBoard {
   type: shapeless
   input: [nuggetGold, clay, dyeGreen]
 }
+circuitBoard = false
 printedCircuitBoard {
   type: furnace
   input: "oc:materialCircuitBoardRaw"

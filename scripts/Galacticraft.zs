@@ -109,7 +109,9 @@ recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>);
 //Aluminum Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:11>);
 //Meteoric Iron Ingot
-recipes.remove(<gregtech:gt.metaitem.01:11340>);
+recipes.remove(<gregtech:gt.metaitem.01:11340>); 
+// -
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
 //Solid Meteoric Iron
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
 //Air Lock Frame
@@ -932,6 +934,12 @@ ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gre
 
 //Compressed Iron Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:19032>, 4);
+
+//Compressed Meteoric Iron Plates
+ImplosionCompressor.addRecipe(<GalacticraftCore:item.meteoricIronIngot:1>, <gregtech:gt.metaitem.01:19340>, 4);
+
+//Compressed Desh Plates
+ImplosionCompressor.addRecipe(<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:19884>, 4);
 
 //Heavy Duty Plats Tier 1
 ImplosionCompressor.addRecipe([HeavyPlating, <gregtech:gt.metaitem.01:306> * 2], <dreamcraft:item.HeavyDutyBoard>, 8);
