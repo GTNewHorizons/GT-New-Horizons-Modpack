@@ -2310,7 +2310,7 @@ recipes.addShaped(<minecraft:compass>, [
 //Pumpkin Seeds
 recipes.addShaped(<minecraft:pumpkin_seeds> * 4, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>, <minecraft:pumpkin>]]);
 // -
-recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolSoftHammer>, <minecraft:pumpkin>]]);
+recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolSoftHammer>, <minecraft:pumpkin>]]);
 
 //Melon Seeds
 recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:melon>, <ore:craftingToolHardHammer>, <minecraft:melon>]]);
