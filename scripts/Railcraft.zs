@@ -7,6 +7,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
+import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 
@@ -690,12 +691,6 @@ Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 2);
 // --- Concrete Slab ---
 recipes.addShaped(ConcreteSlab * 2, [
 [Saw,ConcreteBlock]]);
-
-// --- Steel Anvil
-recipes.addShaped(SteelAnvil, [
-[SteelBlock, SteelBlock, SteelBlock],
-[SteelScrew, SteelBlock, SteelScrew],
-[SteelPlate, SteelBlock, SteelPlate]]);
 
 // --- Steam Oven ---
 recipes.addShaped(<Railcraft:machine.alpha:3> * 4, [
@@ -1771,6 +1766,13 @@ Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <R
 //Industrial Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
 
+
+
+// --- Fluid Solidifier Recipes
+
+
+// --- Steel Anvil
+FluidSolidifier.addRecipe(SteelAnvil, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.steel> * 4464, 480, 64);
 
 
 // --- Thermionic Fabricator Recipes

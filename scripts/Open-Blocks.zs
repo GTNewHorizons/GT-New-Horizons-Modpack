@@ -139,8 +139,8 @@ recipes.addShaped(<OpenBlocks:autoenchantmenttable>, [
 
 // --- Auto-Anvil
 recipes.addShaped(<OpenBlocks:autoanvil>, [
-[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
-[<ore:screwSteel>, Anvil, <ore:screwSteel>],
+[<ore:blockStainlessSteel>, <ore:blockStainlessSteel>, <ore:blockStainlessSteel>],
+[<ore:screwStainlessSteel>, <Railcraft:anvil>, <ore:screwStainlessSteel>],
 [<ore:plateRedAlloy>, <ore:blockRedstone>, <ore:plateRedAlloy>]]);
 
 // --- XP Drain

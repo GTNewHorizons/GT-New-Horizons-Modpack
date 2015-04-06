@@ -1,6 +1,9 @@
 // --- Created by DreamMasterXXL ---
 
-//Imports
+
+
+// --- Imports --- 
+
 import mods.gregtech.Assembler;
 import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
@@ -11,6 +14,8 @@ import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Wiremill;
+
+
 
 // --- Variables ---
 
@@ -35,6 +40,7 @@ val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
 
+
 // ---remove Recipes ---
 
 // --- High Pressure Steam Furnace
@@ -52,72 +58,103 @@ recipes.remove(MultiSmelter);
 // --- Electric Blast Furnace
 recipes.remove(ElectricBFurnace);
 
-//Diamond Sword Blade
+// --- Diamond Sword Blade
 recipes.remove(<gregtech:gt.metaitem.02:500>);
-//Diamond Pickaxe Head
+
+// --- Diamond Pickaxe Head
 recipes.remove(<gregtech:gt.metaitem.02:1500>);
-//Diamond Shovel Head
+
+// --- Diamond Shovel Head
 recipes.remove(<gregtech:gt.metaitem.02:2500>);
-//Diamond Axe Head
+
+// --- Diamond Axe Head
 recipes.remove(<gregtech:gt.metaitem.02:3500>);
-//Diamond Hoe Head
+
+// --- Diamond Hoe Head
 recipes.remove(<gregtech:gt.metaitem.02:4500>);
-//Aluminium Ingot
+
+// --- Aluminium Ingot
 recipes.remove(<ore:ingotAluminium>);
-//Antimony Ingot
+
+// --- Antimony Ingot
 recipes.remove(<ore:ingotAntimony>);
-//Bronze Ingot
+
+// --- Bronze Ingot
 recipes.remove(<ore:ingotBronze>);
-//Cobalt Ingot
+
+// --- Cobalt Ingot
 recipes.remove(<ore:ingotCobalt>);
-//Copper Ingot
+
+// --- Copper Ingot
 recipes.remove(<ore:ingotCopper>);
-//CuproNickel ingot
+
+// --- CuproNickel ingot
 recipes.remove(<ore:ingotCupronickel>);
-//Damascus Steel Ingot
+
+// --- Damascus Steel Ingot
 recipes.remove(<ore:ingotDamascusSteel>);
-//Electrum Ingot
+
+// --- Electrum Ingot
 recipes.remove(<ore:ingotElectrum>);
-//Invar Ingot
+
+// --- Invar Ingot
 recipes.remove(<ore:ingotInvar>);
-//Lead Ingot
+
+// --- Lead Ingot
 recipes.remove(<ore:ingotLead>);
-//Magnesium Ingot
+
+// --- Magnesium Ingot
 recipes.remove(<ore:ingotMagnesium>);
-//Manganese Ingot
+
+// --- Manganese Ingot
 recipes.remove(<ore:ingotManganese>);
-//Molybdenum Ingot
+
+// --- Molybdenum Ingot
 recipes.remove(<ore:ingotMolybdenum>);
-//Nickel Ingot
+
+// --- Nickel Ingot
 recipes.remove(<ore:ingotNickel>);
-//Silicon Ingot
+
+// --- Silicon Ingot
 recipes.remove(<ore:ingotSilicon>);
-//Silver Ingot
+
+// --- Silver Ingot
 recipes.remove(<ore:ingotSilver>);
-//Stainless Steel Ingot
+
+// --- Stainless Steel Ingot
 recipes.remove(<ore:ingotStainlessSteel>);
-//Steel Ingot
+
+// --- Steel Ingot
 recipes.remove(<ore:ingotSteel>);
-//Steel Nuggets
+
+// --- Steel Nuggets
 recipes.remove(<ore:nuggetSteel>);
-//Thorium Ingot
+
+// --- Thorium Ingot
 recipes.remove(<ore:ingotThorium>);
-//Tin Ingot
+
+// --- Tin Ingot
 recipes.remove(<ore:ingotTin>);
-//Titanium Ingot
+
+// --- Titanium Ingot
 recipes.remove(<ore:ingotTitanium>);
-//Zinc Ingot
+
+// --- Zinc Ingot
 recipes.remove(<ore:ingotZinc>);
-//Wrought Iron Ingot
+
+// ---Wrought Iron Ingot
 recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>]]); 
-//Steel Ingot
+
+// --- Steel Ingot
 furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
-//Flour
+
+// --- Flour
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
-//Netherstar Dust
+
+// --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
 // --- Iron Ring
@@ -490,7 +527,7 @@ recipes.remove(<gregtech:gt.metaitem.01:28344>);
 recipes.remove(<gregtech:gt.metaitem.01:28362>);
 
 
-// - GT Shaped and Shapeless picks removal
+// --- GT Shaped and Shapeless picks removal
 
 recipes.remove(<gregtech:gt.metatool.01>);
 recipes.remove(<gregtech:gt.metatool.01:2>);
@@ -498,8 +535,132 @@ recipes.remove(<gregtech:gt.metatool.01:4>);
 recipes.remove(<gregtech:gt.metatool.01:6>);
 recipes.remove(<gregtech:gt.metatool.01:8>);
 
+// --- Plate Mold
+recipes.remove(<gregtech:gt.metaitem.01:32301>);
 
-// --- add Recipes ---
+// --- Casing Mold
+recipes.remove(<gregtech:gt.metaitem.01:32302>);
+
+// --- Gear Mold
+recipes.remove(<gregtech:gt.metaitem.01:32303>);
+
+// --- Coinage Mold
+recipes.remove(<gregtech:gt.metaitem.01:32304>);
+
+// --- Bottle Mold
+recipes.remove(<gregtech:gt.metaitem.01:32305>);
+
+// --- Ingot Mold
+recipes.remove(<gregtech:gt.metaitem.01:32306>);
+
+// --- Ball Mold
+recipes.remove(<gregtech:gt.metaitem.01:32307>);
+
+// --- Block Mold
+recipes.remove(<gregtech:gt.metaitem.01:32308>);
+
+// --- Nuggets Mold
+recipes.remove(<gregtech:gt.metaitem.01:32309>);
+
+// --- Buns Mold
+recipes.remove(<gregtech:gt.metaitem.01:32310>);
+
+// --- Bread Mold
+recipes.remove(<gregtech:gt.metaitem.01:32311>);
+
+// --- Baguette Mold
+recipes.remove(<gregtech:gt.metaitem.01:32312>);
+
+// --- Cylinder Mold
+recipes.remove(<gregtech:gt.metaitem.01:32313>);
+
+// --- Anvil Mold
+recipes.remove(<gregtech:gt.metaitem.01:32314>);
+
+// --- Name Mold
+recipes.remove(<gregtech:gt.metaitem.01:32315>);
+
+// --- Head Mold
+recipes.remove(<gregtech:gt.metaitem.01:32316>);
+
+// --- Small Gear Mold
+recipes.remove(<gregtech:gt.metaitem.01:32317>);
+
+// --- Extruder Shape Plate
+recipes.remove(<gregtech:gt.metaitem.01:32350>);
+
+// --- Extruder Shape Rod
+recipes.remove(<gregtech:gt.metaitem.01:32351>);
+
+// --- Extruder Shape Bolt
+recipes.remove(<gregtech:gt.metaitem.01:32352>);
+
+// --- Extruder Shape Cell
+recipes.remove(<gregtech:gt.metaitem.01:32353>);
+
+// --- Extruder Shape Ring
+recipes.remove(<gregtech:gt.metaitem.01:32354>);
+
+// --- Extruder Shape Ingot
+recipes.remove(<gregtech:gt.metaitem.01:32355>);
+
+// --- Extruder Shape Wire
+recipes.remove(<gregtech:gt.metaitem.01:32356>);
+
+// --- Extruder Shape Casing
+recipes.remove(<gregtech:gt.metaitem.01:32357>);
+
+// --- Extruder Shape Tiny Pipe
+recipes.remove(<gregtech:gt.metaitem.01:32358>);
+
+// --- Extruder Shape Small Pipe
+recipes.remove(<gregtech:gt.metaitem.01:32359>);
+
+// --- Extruder Shape Normal Pipe
+recipes.remove(<gregtech:gt.metaitem.01:32360>);
+
+// --- Extruder Shape Lage Pipe
+recipes.remove(<gregtech:gt.metaitem.01:32361>);
+
+// --- Extruder Shape Huge Pipe
+recipes.remove(<gregtech:gt.metaitem.01:32362>);
+
+// --- Extruder Shape Block
+recipes.remove(<gregtech:gt.metaitem.01:32363>);
+
+// --- Extruder Shape Sword Blade
+recipes.remove(<gregtech:gt.metaitem.01:32364>);
+
+// --- Extruder Shape Pickaxe Head
+recipes.remove(<gregtech:gt.metaitem.01:32365>);
+
+// --- Extruder Shape Shove Head
+recipes.remove(<gregtech:gt.metaitem.01:32366>);
+
+// --- Extruder Shape Axe Head
+recipes.remove(<gregtech:gt.metaitem.01:32367>);
+
+// --- Extruder Shape Hoe Head
+recipes.remove(<gregtech:gt.metaitem.01:32368>);
+
+// --- Extruder Shape Hammer Head
+recipes.remove(<gregtech:gt.metaitem.01:32369>);
+
+// --- Extruder Shape File Head
+recipes.remove(<gregtech:gt.metaitem.01:32370>);
+
+// --- Extruder Shape Saw Blade
+recipes.remove(<gregtech:gt.metaitem.01:32371>);
+
+// --- Extruder Shape Gear
+recipes.remove(<gregtech:gt.metaitem.01:32372>);
+
+// --- Extruder Shape Bottle
+recipes.remove(<gregtech:gt.metaitem.01:32373>);
+
+
+
+// --- Add Recipes ---
 
 
 // --- High Pressure Steam Furnace
@@ -532,120 +693,118 @@ recipes.addShaped(MultiSmelter, [
 [AdvCircuit, HeatProofCase, AdvCircuit],
 [AnnealedCable, AdvCircuit, AnnealedCable]]);
 
-//UV Machine Casing
+// --- UV Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings:8>, [
 [<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:craftingToolWrench>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
 
-//Diamond Sword Blade
+// --- Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
 [<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
 [null, null, null]]);
 
-//Diamond Pickaxe Head
+// --- Diamond Pickaxe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:1500>, [
 [<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <ore:gemDiamond>],
 [<gregtech:gt.metatool.01:18>, null, <gregtech:gt.metatool.01:12>],
 [null, null, null]]);
 
-//Diamond Shovel Head
+// --- Diamond Shovel Head
 recipes.addShaped(<gregtech:gt.metaitem.02:2500>, [
 [<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
 [null, null, null],
 [null, null, null]]);
 
-//Diamond Axe Head
+// --- Diamond Axe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:3500>, [
 [<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <gregtech:gt.metatool.01:12>],
 [<gregtech:gt.metaitem.01:17500>, null, null],
 [<gregtech:gt.metatool.01:18>, null, null]]);
 
-//Diamond Hoe Head
+// --- Diamond Hoe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:4500>, [
 [<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <gregtech:gt.metatool.01:12>],
 [<gregtech:gt.metatool.01:18>, null, null],
 [null, null, null]]);
 
-//Damascus Steel Dust
+// --- Damascus Steel Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
 [<ore:dustSteel>, <ore:dustCoal>, <ore:dustSilicon>, <ore:dustManganese>, <ore:dustChrome>, <ore:dustMolybdenum>, <ore:dustNickel>, <ore:dustNickel>, <ore:dustNickel>]);
 
 recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
 [<ore:dustSteel>, <ore:dustCoal>, <ore:dustManganese>, <ore:dustManganese>, <ore:dustSilicon>, <ore:dustChrome>, <ore:dustChrome>, <ore:dustVanadium>]);
 
-//HSLA Steel Dust removed because it breaks RotaryCraft.
-
-//Shadow Iron Dust
+// --- Shadow Iron Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2336> * 3, 
 [<ore:dustIron>, <ore:dustThaumium>, <ore:dustThaumium>, <ore:dustThaumium>]);
 
-//Osmiridium Dust
+// --- Osmiridium Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2317> * 3, 
 [<ore:dustOsmium>, <ore:dustIridium>, <ore:dustIridium>, <ore:dustIridium>]);
 
-//Enderium Dust
+// --- Enderium Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9, 
 [<ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustThaumium>]);
 
-//Wood Ring
+// --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 [<gregtech:gt.metatool.01:34>, null, null],
 [<gregtech:gt.metaitem.01:17809>, null, null]]);
 
-//Glass Dust
+// --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassBlock>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassPane>]);
 
-//Flient Sword
+// --- Flient Sword
 recipes.addShaped(<gregtech:gt.metatool.01>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
 [null, Flint, null],
 [null, Flint, null],
 [null, Stick, null]]);
 
 
-//Flint Pickaxe
+// --- Flint Pickaxe
 recipes.addShaped(<gregtech:gt.metatool.01:2>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
 [Flint, Flint, Flint],
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Flint Shovel
+// --- Flint Shovel
 recipes.addShaped(<gregtech:gt.metatool.01:4>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
 [null, Flint, null],
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Flint Axe
+// --- Flint Axe
 recipes.addShaped(<gregtech:gt.metatool.01:6>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
 [Flint, Flint, null],
 [Flint, Stick, null],
 [null, Stick, null]]);
 
-//Flint Hoe
+// --- Flint Hoe
 recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
 [Flint, Flint, null],
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Wood Pulp
+// --- Wood Pulp
 recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMortar>, <ore:logWood>]);
 
-//Long Plastic Rood
+// --- Long Plastic Rood
 recipes.addShaped(<gregtech:gt.metaitem.02:22874>, [[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:stickPlastic>]]);
 
-//Flour
+// --- Flour
 
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:cropBarley>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
-
+// -
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:cropWheat>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 
-//Small Clay Dust
+// --- Small Clay Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1805>, [<ore:craftingToolMortar>, <minecraft:clay_ball>]);
 
 // --- Iron Ring
@@ -1266,7 +1425,7 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28320>, [
 [<ore:craftingToolFile>, <ore:stickElectrumFlux>, null],
 [null, null, null]]);
 
-// --- enderium Ring
+// --- Enderium Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28321>, [
 [<ore:craftingToolHardHammer>, null, null],
 [<ore:craftingToolFile>, <ore:stickEnderium>, null],
@@ -1386,63 +1545,325 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28362>, [
 [<ore:craftingToolFile>, <ore:stickKnightmetal>, null],
 [null, null, null]]);
 
+// --- Plate Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32301>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:plateSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Casing Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32302>, [
+[<gregtech:gt.metaitem.01:32300>, <IC2:itemCasing:5>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Gear Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32303>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:gearSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Coinage Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32304>, [
+[<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32010>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Bottle Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32305>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:glass_bottle>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Ingot Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32306>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:ingotSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Ball Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32307>, [
+[<gregtech:gt.metaitem.01:32300>, <Thaumcraft:ItemResource:3>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Block Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32308>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:blockSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Nuggets Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32309>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:nuggetSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Buns Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32310>, [
+[<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.02:32564>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Bread Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32311>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:bread> , <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Baguette Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32312>, [
+[<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.02:32565>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Cylinder Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32313>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:cake>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Anvil Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32314>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:anvil>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Name Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32315>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:name_tag>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Head Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32316>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadArrowSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Small Gear Mold
+recipes.addShaped(<gregtech:gt.metaitem.01:32317>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:gearGtSmallSteel>, <ore:craftingToolSaw>],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Plate
+recipes.addShaped(<gregtech:gt.metaitem.01:32350>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:plateSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Rod
+recipes.addShaped(<gregtech:gt.metaitem.01:32351>,  [
+[<gregtech:gt.metaitem.01:32300>, <ore:stickSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Bolt
+recipes.addShaped(<gregtech:gt.metaitem.01:32352>,  [
+[<gregtech:gt.metaitem.01:32300>, <ore:boltSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Cell
+recipes.addShaped(<gregtech:gt.metaitem.01:32353>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:cellEmpty>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:32354>,  [
+[<gregtech:gt.metaitem.01:32300>, <ore:ringSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Ingot
+recipes.addShaped(<gregtech:gt.metaitem.01:32355>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:ingotSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Wire
+recipes.addShaped(<gregtech:gt.metaitem.01:32356>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:wireGt01Steel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Casing
+recipes.addShaped(<gregtech:gt.metaitem.01:32357>, [
+[<gregtech:gt.metaitem.01:32300>, <IC2:itemCasing:5>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Tiny Pipe
+recipes.addShaped(<gregtech:gt.metaitem.01:32358>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:pipeTinySteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Small Pipe
+recipes.addShaped(<gregtech:gt.metaitem.01:32359>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:pipeSmallSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Normal Pipe
+recipes.addShaped(<gregtech:gt.metaitem.01:32360>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:pipeMediumSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Lage Pipe
+recipes.addShaped(<gregtech:gt.metaitem.01:32361>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:pipeLargeSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Huge Pipe
+recipes.addShaped(<gregtech:gt.metaitem.01:32362>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:pipeLargeStainlessSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Block
+recipes.addShaped(<gregtech:gt.metaitem.01:32363>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:blockSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Sword Blade
+recipes.addShaped(<gregtech:gt.metaitem.01:32364>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadSwordSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Pickaxe Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32365>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadPickaxeSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Shove Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32366>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadShovelSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Axe Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32367>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadAxeSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Hoe Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32368>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadHoeSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Hammer Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32369>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadHammerSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape File Head
+recipes.addShaped(<gregtech:gt.metaitem.01:32370>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadFileSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Saw Blade
+recipes.addShaped(<gregtech:gt.metaitem.01:32371>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:toolHeadSawSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Gear
+recipes.addShaped(<gregtech:gt.metaitem.01:32372>, [
+[<gregtech:gt.metaitem.01:32300>, <ore:gearSteel>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Bottle
+recipes.addShaped(<gregtech:gt.metaitem.01:32373>, [
+[<gregtech:gt.metaitem.01:32300>, <minecraft:glass_bottle>, <ore:craftingToolFile>],
+[<ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
 
 
 
 // --- Assembler Recipes ---
 
 
-//Low Voltage Transformer
+// --- Low Voltage Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:21>, <IC2:blockElectric:3>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
-//Medium Voltage Transformer
+
+// --- Medium Voltage Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:22>, <IC2:blockElectric:4>, <gregtech:gt.blockmachines:1366> * 2, 250, 128);
-//High Voltage Transformer
+
+// --- High Voltage Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <gregtech:gt.blockmachines:1426> * 2, 200, 512);
-//Extreme Transformer
+
+// --- Extreme Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
+
 
 
 // --- Autoclave Recipes
 
 
-//Shards Dust to Shards
+// --- Shards Dust to Shards
 Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:water> * 200, 8000, 2000, 32);
+// -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
 
 
 
 // --- Compressor Recipes ---
 
-//Wrought Iron Ingot
+// --- Wrought Iron Ingot
 Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
 
-//Certus Quartz Plate
+// --- Certus Quartz Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17517>, <gregtech:gt.metaitem.01:2517>);
 
-//Nether Quartz Plate
+// --- Nether Quartz Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
 
-//Quartzite Plate
+// --- Quartzite Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
 
-//Lazurite Plate
+// --- Lazurite Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17524>, <gregtech:gt.metaitem.01:2524>);
 
-//Sodalite Plate
+// --- Sodalite Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17525>, <gregtech:gt.metaitem.01:2525>);
 
 
 // --- Engraving laser Recipes ---
+
 
 // --- Flawless Diamond
 PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:24500> * 0, <minecraft:diamond> * 4, 1200, 512);
@@ -1562,33 +1983,46 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22874>, <gregtech:gt.metaitem.01:
 
 
 
-//Macerator Recipes
+// --- Macerator Recipes --- 
 
-//Flour
+
+// --- Flour
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
+
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
+
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
 
-//Minced Meat
+// --- Minced Meat
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2>);
 
-//Glass Dust
+// --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
-//Shards Dust Blast Furnace
+// --- Shards Dust Blast Furnace
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <gregtech:gt.metaitem.01:2540>, 320, 100, 1200);
+// -
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <gregtech:gt.metaitem.01:2541>, 320, 100, 1200);
+// -
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <gregtech:gt.metaitem.01:2543>, 320, 100, 1200);
+// -
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>, 320, 100, 1200);
+// -
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <gregtech:gt.metaitem.01:2545>, 320, 100, 1200);
+// -
 BlastFurnace.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <gregtech:gt.metaitem.01:2544>, 320, 100, 1200);
 
-//Furnace
+// --- Furnace
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:870>);
+// -
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:1870>);
+// -
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:2870>);
+// -
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:3870>);
+// -
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:4870>);
 
 
