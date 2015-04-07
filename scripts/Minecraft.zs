@@ -1228,6 +1228,7 @@ recipes.addShaped(Ladder * 4, [
 recipes.addShaped(Fence, [
 [null, null, null],
 [Stick, Plank, Stick],
+[Stick, Plank, Stick],
 [Stick, Plank, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
