@@ -55,6 +55,9 @@ recipes.remove(HPBoiler);
 // --- Multi-Smelter
 recipes.remove(MultiSmelter);
 
+// --- Bronze Blast Furnace
+recipes.remove(<gregtech:gt.blockmachines:108>);
+
 // --- Electric Blast Furnace
 recipes.remove(ElectricBFurnace);
 
@@ -683,6 +686,12 @@ recipes.addShaped(HPBoiler, [
 [SteelPlate, SteelPlate, SteelPlate],
 [SteelPlate, null, SteelPlate],
 [Bricks, IronFurnace, Bricks]]);
+
+// --- Bronze Blast Furnace
+recipes.addShaped(<gregtech:gt.blockmachines:108>, [
+[<ore:plateBronze>, IronFurnace, <ore:plateBronze>],
+[IronFurnace, <ore:craftingToolWrench>, IronFurnace],
+[<ore:plateBronze>, IronFurnace, <ore:plateBronze>]]);
 
 // --- Electric Blast Furnace
 recipes.addShaped(ElectricBFurnace, [

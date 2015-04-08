@@ -5,19 +5,22 @@
 
 
 // --- Ice Ore
-furnace.remove(<blesseaddon:item.IceIgnot>);
+furnace.remove(<GalaxySpace:item.IceIgnot>);
 
 // --- Desh Ore
-furnace.remove(<gregtech:gt.metaitem.01:11884>, <blesseaddon:phobosoredesh>);
-furnace.remove(<GalacticraftMars:item.null:2>, <blesseaddon:phobosoredesh>);
+furnace.remove(<gregtech:gt.metaitem.01:11884>, <GalaxySpace:phobosoredesh>);
+
 // --- Block of Lead
-recipes.remove(<blesseaddon:mercurylead>);
+recipes.remove(<GalaxySpace:mercurylead>);
+
+// --- Lead Ingot
+furnace.remove(<gregtech:gt.metaitem.01:11089>, <GalaxySpace:mercuryorelead>);
 
 // --- Meteoric Ore
-furnace.remove(<*>, <blesseaddon:ceresmeteoricore>);
+furnace.remove(<gregtech:gt.metaitem.01:11340>, <GalaxySpace:ceresmeteoricore>);
 
 // --- Frozen Glowstone
-recipes.remove(<blesseaddon:europaglowstone>);
+recipes.remove(<GalaxySpace:europaglowstone>);
 
 
 
@@ -25,10 +28,10 @@ recipes.remove(<blesseaddon:europaglowstone>);
 // --- Ordicts 
 
 // --- Lead
-oreDict.ingotLead.add(<blesseaddon:item.LeadIngot>);
+oreDict.ingotLead.add(<GalaxySpace:item.LeadIngot>);
 
 // --- Meteoric Iron
-oreDict.oreMeteoricIron.add(<blesseaddon:ceresmeteoricore>);
+oreDict.oreMeteoricIron.add(<GalaxySpace:ceresmeteoricore>);
 
 // --- Aluminium
-oreDict.oreAluminium.add(<blesseaddon:phobosorealum>);
+oreDict.oreAluminium.add(<GalaxySpace:phobosorealum>);

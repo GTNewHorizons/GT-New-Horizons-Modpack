@@ -221,6 +221,18 @@ mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31089>);
 // --- Steel Gear
 mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31305>);
 
+// --- Copper Ingot
+mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot>);
+
+// --- Tin Ingot
+mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:1>);
+
+// --- Bronze Ingot
+mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:2>);
+
+// --- Refined Iron Ingot
+mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:3>);
+
 // --- Chain Helmet
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
 
@@ -711,6 +723,15 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:31>, <liquid:bronze
 
 // --- Cobalt Nugget
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:28>, <liquid:cobalt.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
+
+// --- Copper Ingot
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11035>, <liquid:copper.molten> * 144, <TConstruct:metalPattern>, false, 100);
+
+// --- Tin Ingot
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11057>, <liquid:tin.molten> * 144, <TConstruct:metalPattern>, false, 100);
+
+// --- Bronze Ingot
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11300>, <liquid:bronze.molten> * 144, <TConstruct:metalPattern>, false, 100);
 
 // --- Ingot Cast
 mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
