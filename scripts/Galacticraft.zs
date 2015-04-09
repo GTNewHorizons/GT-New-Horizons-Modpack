@@ -14,7 +14,7 @@ import mods.gregtech.PlateBender;
 import mods.gregtech.VacuumFreezer;
 import mods.gregtech.Wiremill;
 
-// --- Variables --- #
+// --- Variables ---
 
 val CompressedAl = <ore:compressedAluminium>;
 val CompressedIron = <ore:compressedIron>;
@@ -37,12 +37,12 @@ val SensorLens = <GalacticraftCore:item.sensorLens>;
 val SteelPole = <GalacticraftCore:item.steelPole>;
 
 val AdvAlloy = <ore:plateAlloyAdvanced>;
-val MeteorPlate = <gregtech:gt.metaitem.01:17340>;
+val MeteorPlate = <GalacticraftCore:item.meteoricIronIngot:1>;
 val MeteorScrew = <ore:screwMeteoricSteel>;
 val SteelScrew = <ore:screwSteel>;
 val SSteelBolt = <ore:boltStainlessSteel>;
 val TSteelBolt = <ore:boltTungstenSteel>;
-val DeshPlate = <gregtech:gt.metaitem.01:17884>;
+val DeshPlate = <GalacticraftMars:item.null:5>;
 val DeshRing = <ore:ringDesh>;
 val AlFoil = <ore:foilAluminium>;
 
@@ -314,6 +314,25 @@ recipes.remove(<GalacticraftMars:item.thermalPadding:1>);
 recipes.remove(<GalacticraftMars:item.thermalPadding:2>);
 //Thermal Padding Boots
 recipes.remove(<GalacticraftMars:item.thermalPadding:3>);
+//Desh Helmet
+recipes.remove(<GalacticraftMars:item.deshHelmet>);
+//Desh Chest Plate
+recipes.remove(<GalacticraftMars:item.deshChestplate>);
+//Desh Leggings
+recipes.remove(<GalacticraftMars:item.deshLeggings>);
+//Desh Boots
+recipes.remove(<GalacticraftMars:item.deshBoots>);
+//Desh Pickaxe
+recipes.remove(<GalacticraftMars:item.deshPick>);
+//Desh Axe
+recipes.remove(<GalacticraftMars:item.deshAxe>);
+//Desh Hoe
+recipes.remove(<GalacticraftMars:item.deshHoe>);
+//Desh Shovel
+recipes.remove(<GalacticraftMars:item.deshSpade>);
+//Desh Sword
+recipes.remove(<GalacticraftMars:item.deshSword>);
+
 
 // --- add Recipes ---
 
@@ -407,16 +426,16 @@ recipes.addShaped(<GalacticraftCore:tile.gcBlockCore:3>, [
 [Wrench, CompressedTin, null]]);
 
 //Air Lock Frame
-recipes.addShaped(<GalacticraftCore:tile.airLockFrame>, [
-[MeteorPlate, MeteorPlate, MeteorPlate],
-[AirVent, <GalacticraftCore:item.oxygenConcentrator>, AirVent],
-[CompressedAl, CompressedAl, CompressedAl]]);
+recipes.addShaped(<GalacticraftCore:tile.airLockFrame> * 2, [
+[<ore:compressedMeteoricIron>, <ore:screwStainlessSteel>, <ore:compressedMeteoricIron>],
+[AirVent, <ore:craftingToolScrewdriver>, AirVent],
+[CompressedAl, <ore:screwStainlessSteel>, CompressedAl]]);
 
 //Air Lock Controller
 recipes.addShaped(<GalacticraftCore:tile.airLockFrame:1>, [
-[MeteorPlate, MeteorPlate, MeteorPlate],
-[AirVent, <GalacticraftCore:tile.airLockFrame>, AirVent],
-[BWafer, <ore:wireGt01RedAlloy>, BWafer]]);
+[<ore:compressedMeteoricIron>, <GalacticraftCore:item.oxygenConcentrator>, <ore:compressedMeteoricIron>],
+[AirVent, <gregtech:gt.metaitem.01:32740>, AirVent],
+[AdvWafer, <ore:wireGt01RedAlloy>, AdvWafer]]);
 
 //Sealable Oxygen Pipe
 recipes.addShaped(<GalacticraftCore:tile.enclosed:1>, [
@@ -611,6 +630,30 @@ recipes.addShaped(<GalacticraftCore:item.steel_boots>, [
 [CompressedSteel, HHammer, CompressedSteel],
 [null, null, null]]);
 
+//Desh Helmet
+recipes.addShaped(<GalacticraftMars:item.deshHelmet>, [
+[DeshPlate, DeshPlate, DeshPlate],
+[DeshPlate, HHammer, DeshPlate],
+[null, null, null]]);
+
+//Desh Chest Plate
+recipes.addShaped(<GalacticraftMars:item.deshChestplate>, [
+[DeshPlate, HHammer, DeshPlate],
+[DeshPlate, DeshPlate, DeshPlate],
+[DeshPlate, DeshPlate, DeshPlate]]);
+
+//Desh Leggings
+recipes.addShaped(<GalacticraftMars:item.deshLeggings>, [
+[DeshPlate, DeshPlate, DeshPlate],
+[DeshPlate, HHammer, DeshPlate],
+[DeshPlate, null, DeshPlate]]);
+
+//Desh Boots
+recipes.addShaped(<GalacticraftMars:item.deshBoots>, [
+[DeshPlate, null, DeshPlate],
+[DeshPlate, HHammer, DeshPlate],
+[null, null, null]]);
+
 //Titanium Pickaxe
 recipes.addShaped(<GalacticraftMars:item.titanium_pickaxe>, [
 [CompressedTi, CompressedTi,CompressedTi],
@@ -640,6 +683,36 @@ recipes.addShaped(<GalacticraftMars:item.titanium_sword>, [
 [null, CompressedTi, null],
 [File, CompressedTi, HHammer],
 [null, Stick, null]]);
+
+//Desh Pickaxe
+recipes.addShaped(<GalacticraftMars:item.deshPick>, [
+[<gregtech:gt.metaitem.02:30512>, DeshPlate,DeshPlate],
+[File, <ore:stickDesh>, DeshPlate],
+[null, <ore:stickDesh>, HHammer]]);
+
+//Desh Axe
+recipes.addShaped(<GalacticraftMars:item.deshAxe>, [
+[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[DeshPlate, <ore:stickDesh>, HHammer],
+[File, <ore:stickDesh>, null]]);
+
+//Desh Hoe
+recipes.addShaped(<GalacticraftMars:item.deshHoe>, [
+[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[File, <ore:stickDesh>, HHammer],
+[null, <ore:stickDesh>, null]]);
+
+//Desh Shovel
+recipes.addShaped(<GalacticraftMars:item.deshSpade>, [
+[File, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[null, <ore:stickDesh>, HHammer],
+[null, <ore:stickDesh>, null]]);
+
+//Desh Sword
+recipes.addShaped(<GalacticraftMars:item.deshSword>, [
+[null, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[File, DeshPlate, HHammer],
+[null, <ore:stickDesh>, null]]);
 
 //Titanium Helm
 recipes.addShaped(<GalacticraftMars:item.titanium_helmet>, [
@@ -697,7 +770,7 @@ recipes.addShaped(<GalacticraftCore:item.engine>, [
 
 //Tier 1 Booster
 recipes.addShaped(<GalacticraftCore:item.engine:1>, [
-[MeteorPlate, MeteorPlate, MeteorPlate],
+[<GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>],
 [HeavyPlating, <GalacticraftCore:item.fuelCanisterPartial:1>, HeavyPlating],
 [HeavyPlating, AirVent, HeavyPlating]]);
 
@@ -740,7 +813,7 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 //Walk away
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 [DeshPlate, DeshPlate, DeshPlate],
-[null, <GalacticraftMars:tile.mars:8>, null],
+[null, <GemBlocksForGreg:tile.metalBlock7:5>, null],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 //Thermal Cloth
@@ -783,7 +856,7 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
 [DeshRing, <GalacticraftMars:item.itemBasicAsteroids:8>, DeshRing],
 [null, <ore:stickDesh>, null],
-[DeshPlate, <GalacticraftMars:tile.mars:8>, DeshPlate]]);
+[DeshPlate, <GemBlocksForGreg:tile.metalBlock7:5>, DeshPlate]]);
 
 //Energy Beam Receiver
 recipes.addShaped(<GalacticraftMars:tile.beamReceiver>, [
@@ -859,7 +932,7 @@ Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
 
 //Heavy Duty Plate Tier 1.5
-AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard2>, HeavyPlating, MeteorPlate * 2, <liquid:molten.tungsten> * 576, 1200, 256);
+AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard2>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.tungsten> * 576, 1200, 256);
 	
 //Heavy Duty Plate Tier 2.5
 AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard3>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 576, 2400, 1024);
@@ -885,7 +958,7 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, 
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
 
 //Desh Block
-Compressor.addRecipe(<GalacticraftMars:tile.mars:8>, <gregtech:gt.metaitem.01:11884> * 9);
+Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
 
 //Extruder Recipes
 
@@ -964,9 +1037,6 @@ Macerator.addRecipe(<GalacticraftMars:item.null> * 2, <GalacticraftMars:tile.mar
 
 Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
 
-//Desh Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GalacticraftMars:tile.mars:8>);
-
 //Titanium Shards
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
 
@@ -991,6 +1061,9 @@ oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 
 //Desh to Ore Dict
 oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
+
+//Stick of Desh
+oreDict.stickDesh.add(<GalacticraftMars:item.null:1>);
 
 // --- Wiremill Recipes ---
 
