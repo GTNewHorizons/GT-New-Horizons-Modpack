@@ -2500,7 +2500,7 @@ recipes.addShapedMirrored(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Screwdriver],
 [Plank, <ore:ringAnyIron>, <ore:screwAnyIron>],
 [Plank, Plank, Saw]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Screwdriver],
 [Plank, <ore:ringCopper>, <ore:screwCopper>],
@@ -2535,8 +2535,8 @@ recipes.addShaped(<minecraft:sign>, [
 
 //Boat
 recipes.addShaped(<minecraft:boat>, [
-[<ore:screwAnyIron>, Screwdriver, <ore:screwAnyIron>],
-[Plank, Saw, Plank],
+[Plank, null, Plank],
+[Plank, <ore:craftingToolKnife>, Plank],
 [WoodSlab, WoodSlab, WoodSlab]]);
 
 //Painting
