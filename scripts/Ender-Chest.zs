@@ -26,7 +26,7 @@ recipes.remove(<EnderStorage:enderPouch>);
 // --- Ender Chest Arcane
 mods.thaumcraft.Research.addResearch("ENDERCHEST", "ARTIFICE", "metallum 200, electrum 200, machina 100, alienis 100, lucrum 80, fabrico 80, ", 12, 12, 12, <EnderStorage:enderChest>);
 game.setLocalization("en_US", "tc.research_name.ENDERCHEST", "Ender Chest");
-game.setLocalization("en_US", "tc.research_text.ENDERCHEST", "[MC] Oh, it's more magical than a Chest!");
+game.setLocalization("en_US", "tc.research_text.ENDERCHEST", "[EC] Oh, it's more magical than a Chest!");
 mods.thaumcraft.Research.addPrereq("ENDERCHEST", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("ENDERCHEST", true);
 mods.thaumcraft.Research.addPage("ENDERCHEST", "EnderStorage.research_page.ENDERCHEST");
@@ -41,7 +41,7 @@ mods.thaumcraft.Warp.addToResearch("ENDERCHEST", 2);
 // --- Ender Tank Arcane
 mods.thaumcraft.Research.addResearch("ENDERTANK", "ARTIFICE", "metallum 200, electrum 200, machina 100, ignis 100, lucrum 80, sensus 80, ", 12, 14, 12, <EnderStorage:enderChest:4096>);
 game.setLocalization("en_US", "tc.research_name.ENDERTANK", "Ender Tank");
-game.setLocalization("en_US", "tc.research_text.ENDERTANK", "[MC] Oh, it's more magical than a Tank!");
+game.setLocalization("en_US", "tc.research_text.ENDERTANK", "[EC] Oh, it's more magical than a Tank!");
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERCHEST", false);
 mods.thaumcraft.Research.setConcealed("ENDERTANK", true);
 mods.thaumcraft.Research.addPage("ENDERTANK", "EnderStorage.research_page.ENDERTANK");
@@ -56,7 +56,7 @@ mods.thaumcraft.Warp.addToResearch("ENDERTANK", 3);
 // --- Ender Pouche Arcane
 mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "ARTIFICE", "lucrum 200, vitreus 200, metallum 100, electrum 100, machina 80, alienis 80, ", 12, 16, 12, <EnderStorage:enderPouch>);
 game.setLocalization("en_US", "tc.research_name.ENDERPOUCHE", "Ender Pouch");
-game.setLocalization("en_US", "tc.research_text.ENDERPOUCHE", "[MC] Oh, it's more magical than a Backpack!");
+game.setLocalization("en_US", "tc.research_text.ENDERPOUCHE", "[EC] Oh, it's more magical than a Backpack!");
 mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "ENDERTANK", false);
 mods.thaumcraft.Research.setConcealed("ENDERPOUCHE", true);
 mods.thaumcraft.Research.addPage("ENDERPOUCHE", "EnderStorage.research_page.ENDERPOUCHE");
