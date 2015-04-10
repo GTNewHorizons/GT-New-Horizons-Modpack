@@ -7,8 +7,9 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
-import mods.ic2.Extractor;
 import mods.ic2.Compressor;
+import mods.ic2.Extractor;
+import mods.gregtech.FluidExtractor;
 import mods.gregtech.ImplosionCompressor;
 
 
@@ -2554,6 +2555,11 @@ recipes.addShaped(<minecraft:flint_and_steel>, [
 [null, <minecraft:flint>, null],
 [null, <ore:springSmallSteel>, null]]);
 
+// --- Assembler Recipes ---
+
+//Hay Block
+Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
+
 
 // --- Alloy Smelter Recipes ---
 
@@ -2570,10 +2576,12 @@ Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
 //Wheat
 Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
-//Compressor Recipes
 
-//Hay Block
-Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
+// --- Fluid Extractor Recipes ---
+
+FluidExtractor.addRecipe(null, <minecraft:sand:*>, <liquid:molten.glass> * 144, 10000, 200, 48);
+
+
 
 //Shears
 oreDict.craftingToolShears.add(<minecraft:shears>);
