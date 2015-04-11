@@ -1990,6 +1990,7 @@ oreDict.obsidianRod.remove(<TConstruct:toolRod:6>);
 oreDict.stickObsidian.remove(<TConstruct:toolRod:6>);
 oreDict.obsidianStick.remove(<TConstruct:toolRod:6>);
 oreDict.toolRodObsidian.remove(<TConstruct:toolRod:6>);
+recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 
 
 

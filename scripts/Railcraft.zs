@@ -820,15 +820,15 @@ recipes.addShaped(<Railcraft:machine.beta:6>, [
 
 // --- Low Pressure Boiler Tank ---
 recipes.addShaped(<Railcraft:machine.beta:3>, [
-[IronPlate, IronPlate, IronPlate],
+[<IC2:itemCasing:4>, <IC2:itemCasing:4>, <IC2:itemCasing:4>],
 [IronScrew, HHammer, IronScrew],
-[IronPlate, IronPlate, IronPlate]]);
+[<IC2:itemCasing:4>, <IC2:itemCasing:4>, <IC2:itemCasing:4>]]);
 
 // --- High Pressure Boiler Tank ---
 recipes.addShaped(HPBoilerTank, [
-[SteelPlate, SteelPlate, SteelPlate],
+[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>],
 [SteelScrew, HHammer, SteelScrew],
-[SteelPlate, SteelPlate, SteelPlate]]);
+[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 
 // --- Hobbyist´s Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:7>, [
@@ -1782,25 +1782,25 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2522>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
-<Forestry:waxCast:*>, <Railcraft:glass> * 3);
+<Forestry:waxCast:*>, <Railcraft:glass> * 4);
 // -
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2516>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
-<Forestry:waxCast:*>, <Railcraft:glass> * 3);
+<Forestry:waxCast:*>, <Railcraft:glass> * 4);
 // -
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2517>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
-<Forestry:waxCast:*>, <Railcraft:glass> * 3);
+<Forestry:waxCast:*>, <Railcraft:glass> * 4);
 // -
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2523>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
-<Forestry:waxCast:*>, <Railcraft:glass> * 3);
+<Forestry:waxCast:*>, <Railcraft:glass> * 4);
 
 // --- Macerator Recipes ---
 
