@@ -53,6 +53,7 @@ val BCTank = <BuildCraft|Factory:tankBlock>;
 
 val StoneRod = <ForgeMicroblock:stoneRod>;
 val Stick = <ore:stickWood>;
+val IronRing = <ore:ringIron>;
 val QuartzRod = <ore:stickNetherQuartz>;
 val IronRod = <ore:stickIron>;
 val IronScrew = <ore:screwIron>;
@@ -100,6 +101,7 @@ val Robot = <BuildCraft|Silicon:robot:*>;
 val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 val StrongGlass = <Railcraft:glass>;
 val ObsidianGlass = <ExtraUtilities:decorativeBlock2:5>;
+val ClearGlass = <TConstruct:GlassBlock>;
 
 val Wrench = <ore:craftingToolWrench>;
 
@@ -441,14 +443,19 @@ recipes.addShaped(PipeDiamondKinesis, [
 
 // --- Tank
 recipes.addShaped(BCTank, [
-[IronRod, StrongGlass, IronRod],
+[IronRing, ClearGlass, IronRing],
 [IronScrew, Wrench, IronScrew],
-[IronRod, StrongGlass, IronRod]]);
+[IronRing, ClearGlass, IronRing]]);
 // -
-recipes.addShaped(BCTank, [
-[IronRod, ObsidianGlass, IronRod],
+recipes.addShaped(BCTank * 2, [
+[IronRing, StrongGlass, IronRing],
 [IronScrew, Wrench, IronScrew],
-[IronRod, ObsidianGlass, IronRod]]);
+[IronRing, StrongGlass, IronRing]]);
+// -
+recipes.addShaped(BCTank * 2, [
+[IronRing, ObsidianGlass, IronRing],
+[IronScrew, Wrench, IronScrew],
+[IronRing, ObsidianGlass, IronRing]]);
 
 
 //Assembler Recipes
