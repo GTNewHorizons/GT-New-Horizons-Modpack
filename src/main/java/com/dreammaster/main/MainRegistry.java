@@ -1,6 +1,6 @@
 package com.dreammaster.main;
 
-import com.dreammaster.block.SandClayMix;
+import com.dreammaster.block.*;
 import com.dreammaster.item.*;
 
 import com.dreammaster.lib.Refstrings;
@@ -55,6 +55,7 @@ public class MainRegistry {
 		HeavyDutyBoard.mainRegistry();
 		HeavyDutyBoard2.mainRegistry();
 		HeavyDutyBoard3.mainRegistry();
+		MushroomPowder.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
 		
