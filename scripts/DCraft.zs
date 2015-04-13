@@ -80,6 +80,13 @@ recipes.addShaped(<dreamcraft:item.VoidRing>, [
 [<ore:craftingToolFile>, <ore:stickVoid>, null],
 [null, null, null]]);
 
+// --- Mushroom Powder
+recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
+[<ore:listAllmushroom>, null, null],
+[<ore:craftingToolMortar>, null, null],
+[null, null, null]]);
+
+
 
 // --- Alloy Smelter Recipes
 
@@ -139,7 +146,7 @@ SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressu
 
 
 
-// --- Engraving laser Recipes ---
+// --- Engraving Laser Recipes ---
 
 // --- Etched IV Wiring
 PrecisionLaser.addRecipe(<dreamcraft:item.EtchedInsaneVoltageWiring>, <gregtech:gt.metaitem.01:24502> * 0, <gregtech:gt.metaitem.01:29317>, 200, 1920);
@@ -230,7 +237,7 @@ Lathe.addRecipe([<dreamcraft:item.LongStoneRod> * 4, null], <minecraft:stone>, 3
 
 
 
-// --- Macerator recipes ---
+// --- Macerator Recipes ---
 
 
 // --- Moon Dust
@@ -247,6 +254,15 @@ Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile
 Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile.asteroidsBlock:1>);
 // -
 Macerator.addRecipe(<dreamcraft:item.AsteroidsStoneDust>, <GalacticraftMars:tile.asteroidsBlock:2>);
+
+// --- Mushroom Powder
+Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <Forestry:mushroom:*>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <minecraft:brown_mushroom>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <BiomesOPlenty:mushrooms:*>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <harvestcraft:whitemushroomItem>);
 
 
 // --- Plate Bender Recipes

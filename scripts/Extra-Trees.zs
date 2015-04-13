@@ -4,6 +4,7 @@
 
 // --- Importing Stuff ---
 
+import mods.gregtech.Mixer;
 
 
 // --- Remove Recipes ---
@@ -48,6 +49,29 @@ recipes.remove(<ExtraTrees:hammer>);
 // --- Master Capentry Hammer
 recipes.remove(<ExtraTrees:durableHammer>);
 
+// --- Yeast
+recipes.remove(<ExtraTrees:misc:6>);
+
+// --- Lager Yeast
+recipes.remove(<ExtraTrees:misc:7>);
+
+// --- Wheat Grain
+recipes.remove(<ExtraTrees:misc:8>);
+
+// --- Barley Grain
+recipes.remove(<ExtraTrees:misc:9>);
+
+// --- Rye Grain
+recipes.remove(<ExtraTrees:misc:10>);
+
+// --- Corn Grain
+recipes.remove(<ExtraTrees:misc:11>);
+
+// --- Hops
+recipes.remove(<ExtraTrees:misc:5>);
+
+// --- Glass Fittings
+recipes.remove(<ExtraTrees:misc:13>);
 
 
 // --- Add Recipes ---
@@ -132,3 +156,47 @@ recipes.addShaped(<ExtraTrees:durableHammer>, [
 [<ore:plateObsidian>, <ore:plateObsidian>, null],
 [<ore:ingotGold>, <TConstruct:toolRod:6>, <ore:stickWood>],
 [<ore:plateObsidian>, <ore:plateObsidian>, null]]);
+
+// --- Wheat Grain
+recipes.addShaped(<ExtraTrees:misc:8>, [
+[<minecraft:wheat_seeds>, null, null],
+[<ore:craftingToolMortar>, null, null],
+[null, null, null]]);
+
+// --- Barley Grain
+recipes.addShaped(<ExtraTrees:misc:9>, [
+[<Natura:barley.seed>, null, null],
+[<ore:craftingToolMortar>, null, null],
+[null, null, null]]);
+
+// --- Rye Grain
+recipes.addShaped(<ExtraTrees:misc:10>, [
+[<harvestcraft:ryeItem>, null, null],
+[<ore:craftingToolMortar>, null, null],
+[null, null, null]]);
+
+// --- Corn Grain
+recipes.addShaped(<ExtraTrees:misc:11>, [
+[<harvestcraft:cornItem>, null, null],
+[<ore:craftingToolMortar>, null, null],
+[null, null, null]]);
+
+// --- Hops
+recipes.addShapeless(<ExtraTrees:misc:5>, [<IC2:itemHops>]);
+
+// --- Glass Fittings
+recipes.addShaped(<ExtraTrees:misc:13> * 5, [
+[<ore:stickLongAnyIron>, <ore:craftingToolSaw>, <ore:stickLongAnyIron>],
+[null, <ore:stickLongAnyIron>, null],
+[<ore:stickLongAnyIron>, <ore:craftingToolFile>, <ore:stickLongAnyIron>]]);
+
+
+
+// --- Mixer Recipes
+
+
+// --- Yeast
+Mixer.addRecipe(<ExtraTrees:misc:6>, null, <dreamcraft:item.MushroomPowder> * 5, null, null, null, <liquid:potion.wheatyjuice> * 1000, 400, 16);
+
+// --- Lager Yeast
+Mixer.addRecipe(<ExtraTrees:misc:7>, null, <ExtraTrees:misc:6>, <ExtraTrees:misc:12> * 4, null, null, <liquid:water> * 1000, 600, 16);
