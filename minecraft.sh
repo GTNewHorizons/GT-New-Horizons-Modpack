@@ -82,7 +82,6 @@ mc_saveon() {
   if mc_status; then
     echo "$JARFILE is running... re-enabling saves"
     mcwrite "save-on"
-    mcwrite "tell DreamMasterXXL going read-write"
   else
     echo "$JARFILE was not running. Not resuming saves."
   fi
@@ -131,12 +130,10 @@ mc_disksaverun() {
         as_user "mv $MCSTORE/$WORLD $MCSTORE/$WORLD.bak"
       fi
 
-      mcwrite "tell DreamMasterXXL saving to disk, going read-only..."
       mcwrite "save-off"
       mcwrite "save-all"
       as_user "cp -R $MCPATH/* $MCSTORE/"
       mcwrite "save-on"
-      mcwrite "tell DreamMasterXXL saving finished, going read/write..."
 
       if [ -d $MCSTORE/$WORLD.bak ]; then
         as_user "rm -r "$MCSTORE/$WORLD.bak""
