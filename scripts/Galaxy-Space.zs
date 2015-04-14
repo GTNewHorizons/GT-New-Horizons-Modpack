@@ -16,9 +16,6 @@ recipes.remove(<GalaxySpace:mercurylead>);
 // --- Lead Ingot
 furnace.remove(<gregtech:gt.metaitem.01:11089>, <GalaxySpace:mercuryorelead>);
 
-// --- Meteoric Ore
-furnace.remove(<gregtech:gt.metaitem.01:11340>, <GalaxySpace:ceresmeteoricore>);
-
 // --- Frozen Glowstone
 recipes.remove(<GalaxySpace:europaglowstone>);
 

@@ -17,7 +17,7 @@ recipes.remove(<EnderStorage:enderChest>);
 recipes.remove(<EnderStorage:enderChest:*>);
 
 // --- Ender Pouch
-recipes.remove(<EnderStorage:enderPouch>);
+recipes.remove(<EnderStorage:enderPouch:*>);
 
 
 // --- Adding Recipes ---

@@ -2497,22 +2497,22 @@ recipes.addShaped(<minecraft:nether_brick> * 2, [
 [NetherBricks, NetherBricks, NetherBricks]]);
 
 // --- Wooden Door
-recipes.addShapedMirrored(WoodDoor, [
+recipes.addShaped(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Screwdriver],
 [Plank, <ore:ringAnyIron>, <ore:screwAnyIron>],
 [Plank, Plank, Saw]]);
 // -
-recipes.addShapedMirrored(WoodDoor, [
+recipes.addShaped(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Screwdriver],
 [Plank, <ore:ringCopper>, <ore:screwCopper>],
 [Plank, Plank, Saw]]);
 // -
-recipes.addShapedMirrored(WoodDoor, [
+recipes.addShaped(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Saw],
 [Plank, <ore:ringAnyIron>, <ore:screwAnyIron>],
 [Plank, Plank, Screwdriver]]);
 // -
-recipes.addShapedMirrored(WoodDoor, [
+recipes.addShaped(WoodDoor, [
 [Plank, <minecraft:trapdoor>, Saw],
 [Plank, <ore:ringCopper>, <ore:screwCopper>],
 [Plank, Plank, Screwdriver]]);
