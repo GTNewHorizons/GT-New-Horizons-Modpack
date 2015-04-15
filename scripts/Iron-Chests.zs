@@ -45,6 +45,13 @@ val GoldRod = <ore:stickGold>;
 val DiamondRod = <ore:stickDiamond>;
 val ObsidianRod = <TConstruct:toolRod:6>;
 
+val CopperScrew = <ore:screwCopper>;
+val IronScrew = <ore:screwIron>;
+val SteelScrew = <ore:screwSteel>;
+val GoldScrew = <ore:screwGold>;
+val DiamondScrew = <ore:screwDiamond>;
+val ObsidianScrew = <ore:screwObsidian>;
+
 val Chest = <minecraft:chest>;
 val ClearPane = <TConstruct:GlassPane>;
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
