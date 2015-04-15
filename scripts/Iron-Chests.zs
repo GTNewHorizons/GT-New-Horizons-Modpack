@@ -6,6 +6,7 @@
 
 
 import mods.nei.NEI;
+import mods.gregtech.Assembler;
 
 
 
@@ -31,12 +32,19 @@ val Steel2GoldUp = <IronChest:silverGoldUpgrade>;
 val Wood2CopperUp = <IronChest:woodCopperUpgrade>;
 val Wood2IronUp = <IronChest:woodIronUpgrade>;
 
-val CopperPlate = <ore:plateCopper>;
-val IronPlate = <ore:plateAnyIron>;
-val SteelPlate = <ore:plateSteel>;
-val GoldPlate = <ore:plateGold>;
-val DiamondPlate = <ore:plateDiamond>;
-val ObsidianPlate = <ore:plateObsidian>;
+val CopperPlate = <gregtech:gt.metaitem.01.17035>;
+val DoubleCopperPlate = <ore:plateDoubleIron>;
+val IronPlate = <gregtech:gt.metaitem.01.17032>;
+val DoubleIronPlate = <ore:plateDoubleIron>;
+val SteelPlate = <gregtech:gt.metaitem.01.17305>;
+val DoubleSteelPlate = <ore:plateDoubleSteel>;
+val GoldPlate = <gregtech:gt.metaitem.01.17086>;
+val DoubleGoldPlate = <ore:plateDoubleGold>;
+val DiamondPlate = <gregtech:gt.metaitem.01.17500>;
+val ClearPane = <gregtech:gt.metaitem.01.17890>;
+val DoubleClearPane = <ore:plateDoubleGlass>;
+val ObsidianPlate = <gregtech:gt.metaitem.01.17804>;
+val DoubleObsidianPlate = <ore:plateDoubleObsidian>;
 
 val CopperRod = <ore:stickCopper>;
 val IronRod = <ore:stickIron>;
@@ -87,47 +95,54 @@ recipes.remove(Wood2IronUp);
 // --- Chests ---
 
 
+// --- Dirt Chest
+recipes.addShaped(DirtChest, [
+[Dirt, Dirt, Dirt],
+[Dirt, Chest, Dirt],
+[Dirt, Dirt, Dirt]]);
+
 // --- Copper Chest
 recipes.addShaped(CopperChest, [
 [CopperScrew, CopperPlate, CopperScrew],
-[CopperPlate, Chest, CopperPlate],
-[Hammer, CopperPlate, CopperRod]]);
+[DoubleCopperPlate, Chest, DoubleCopperPlate],
+[Hammer, CopperPlate, Screwdriver]]);
 
 // --- Iron Chest
 recipes.addShaped(IronChest, [
 [IronScrew, IronPlate, IronScrew],
-[IronPlate, CopperChest, IronPlate],
-[Hammer, IronPlate, IronRod]]);
+[DoubleIronPlate, CopperChest, DoubleIronPlate],
+[Hammer, IronPlate, Screwdriver]]);
 
 // --- Steel Chest
 recipes.addShaped(SteelChest, [
 [SteelScrew, SteelPlate, SteelScrew],
-[SteelPlate, IronChest, SteelPlate],
-[Hammer, SteelPlate, SteelRod]]);
+[DoubleSteelPlate, IronChest, DoubleSteelPlate],
+[Hammer, SteelPlate, Screwdriver]]);
 
 // --- Gold Chest
 recipes.addShaped(GoldChest, [
 [GoldScrew, GoldPlate, GoldScrew],
-[GoldPlate, SteelChest, GoldPlate],
-[Hammer, GoldPlate, GoldRod]]);
+[DoubleGoldPlate, SteelChest, DoubleGoldPlate],
+[Hammer, GoldPlate, Screwdriver]]);
 
 // --- Diamond Chest
 recipes.addShaped(DiamondChest, [
 [DiamondScrew, DiamondPlate, DiamondScrew],
 [DiamondPlate, GoldChest, DiamondPlate],
-[Hammer, DiamondPlate, DiamondRod]]);
+[Hammer, DiamondPlate, Screwdriver]]);
 
 // --- Crystal Chest
 recipes.addShaped(CrystalChest, [
 [GlassScrew, ClearPane, GlassScrew],
-[ClearPane, DiamondChest, ClearPane],
-[Hammer, ClearPane, DiamondRod]]);
+[DoubleClearPane, DiamondChest, DoubleClearPane],
+[Hammer, ClearPane, Screwdriver]]);
 
 // --- Obsidian Chest
 recipes.addShaped(ObsidianChest, [
 [ObsidianScrew, ObsidianPlate, ObsidianScrew],
-[ObsidianPlate, DiamondChest, ObsidianPlate],
-[Hammer, ObsidianPlate, ObsidianRod]]);
+[DoubleObsidianPlate, DiamondChest, DoubleObsidianPlate],
+[Hammer, ObsidianPlate, Screwdriver]]);
+
 
 
 // --- Upgrades ---
@@ -136,56 +151,111 @@ recipes.addShaped(ObsidianChest, [
 // --- Wood To Copper Upgrade
 recipes.addShaped(Wood2CopperUp, [
 [CopperScrew, CopperPlate, CopperScrew],
-[CopperPlate, CarpentersBlock, CopperPlate],
-[Hammer, CopperPlate, CopperRod]]);
+[DoubleCopperPlate, CarpentersBlock, DoubleCopperPlate],
+[Hammer, CopperPlate, Screwdriver]]);
 
 // --- Wood To Iron Upgrade
 recipes.addShaped(Wood2IronUp, [
 [IronScrew, IronPlate, IronScrew],
-[IronPlate, CopperChest, IronPlate],
-[Hammer, IronPlate, IronRod]]);
+[DoubleIronPlate, CopperChest, DoubleIronPlate],
+[Hammer, IronPlate, Screwdriver]]);
 
 // --- Copper To Iron Upgrade
 recipes.addShaped(Copper2IronUp, [
 [IronScrew, IronPlate, IronScrew],
-[IronPlate, CarpentersBlock, IronPlate],
-[Hammer, IronPlate, IronRod]]);
+[DoubleIronPlate, CarpentersBlock, DoubleIronPlate],
+[Hammer, IronPlate, Screwdriver]]);
 
 // --- Copper To Steel Upgrade
 recipes.addShaped(Copper2SteelUp, [
 [SteelScrew, SteelPlate, SteelScrew],
-[SteelPlate, IronChest, SteelPlate],
-[Hammer, SteelPlate, SteelRod]]);
+[DoubleSteelPlate, IronChest, DoubleSteelPlate],
+[Hammer, SteelPlate, Screwdriver]]);
 
 // --- Iron To Gold Upgrade
 recipes.addShaped(Iron2GoldUp, [
 [GoldScrew, GoldPlate, GoldScrew],
-[GoldPlate, SteelChest, GoldPlate],
-[Hammer, GoldPlate, GoldRod]]);
+[DoubleGoldPlate, SteelChest, DoubleGoldPlate],
+[Hammer, GoldPlate, Screwdriver]]);
 
 // --- Steel To Gold Upgrade
 recipes.addShaped(Steel2GoldUp, [
 [SteelScrew, SteelPlate, SteelScrew],
-[SteelPlate, CarpentersBlock, SteelPlate],
-[Hammer, SteelPlate, SteelRod]]);
+[DoubleSteelPlate, CarpentersBlock, DoubleSteelPlate],
+[Hammer, SteelPlate, Screwdriver]]);
 
 // --- Gold To Diamond Upgrade
 recipes.addShaped(Gold2DiamondUp, [
 [DiamondScrew, DiamondPlate, DiamondScrew],
 [DiamondPlate, CarpentersBlock, DiamondPlate],
-[Hammer, DiamondPlate, DiamondRod]]);
+[Hammer, DiamondPlate, Screwdriver]]);
 
 // --- Diamond To Crystal Upgrade
 recipes.addShaped(Diamond2CrystalUp, [
 [GlassScrew, ClearPane, GlassScrew],
-[ClearPane, CarpentersBlock, ClearPane],
-[Hammer, ClearPane, DiamondRod]]);
+[DoubleClearPane, CarpentersBlock, DoubleClearPane],
+[Hammer, ClearPane, Screwdriver]]);
 
 // --- Diamond To Obsidian Upgrade
 recipes.addShaped(Diamond2ObsidianUp, [
 [ObsidianScrew, ObsidianPlate, ObsidianScrew],
-[ObsidianPlate, CarpentersBlock, ObsidianPlate],
-[Hammer, ObsidianPlate, ObsidianRod]]);
+[DoubleObsidianPlate, CarpentersBlock, DoubleObsidianPlate],
+[Hammer, ObsidianPlate, Screwdriver]]);
+
+
+// --- Assembler Recipes ---
+
+
+// --- Dirt Chest
+Assembler.addRecipe(DirtChest, Chest, Dirt * 8, 80, 1);
+
+// --- Copper Chest
+Assembler.addRecipe(CopperChest, Chest, CopperPlate * 4, 100, 8);
+
+// --- Iron Chest
+Assembler.addRecipe(IronChest, CopperChest, IronPlate * 4, 150, 16);
+
+// --- Steel Chest
+Assembler.addRecipe(SteelChest, IronChest, SteelPlate * 4, 200, 32);
+
+// --- Gold Chest
+Assembler.addRecipe(GoldChest, GoldChest, GoldPlate * 4, 250, 64);
+
+// --- Diamond Chest
+Assembler.addRecipe(DiamondChest, DiamondChest, DiamondPlate * 4, 300, 128);
+
+// --- Crystal Chest
+Assembler.addRecipe(CrystalChest, DiamondChest, CrystalPlate * 4, 350, 256);
+
+// --- Obsidian Chest
+Assembler.addRecipe(ObsidianChest, DiamondChest, ObsidianPlate * 4, 350, 256);
+
+// --- Wood To Copper Upgrade
+recipes.addShaped(Wood2CopperUp, CarpentersBlock, CopperPlate * 4, 100, 8);
+
+// --- Wood To Iron Upgrade
+recipes.addShaped(Wood2IronUp, CopperChest, IronPlate * 4, 150, 16);
+
+// --- Copper To Iron Upgrade
+Assembler.addRecipe(Copper2IronUp, CarpentersBlock, IronPlate * 4, 150, 16);
+
+// --- Copper To Steel Upgrade
+Assembler.addRecipe(Copper2SteelUp, IronChest, SteelPlate * 4, 200, 32);
+
+// --- Iron To Gold Upgrade
+Assembler.addRecipe(Iron2GoldUp, SteelChest, GoldPlate * 4, 250, 64);
+
+// --- Steel To Gold Upgrade
+Assembler.addRecipe(Steel2GoldUp, CarpentersBlock, GoldPlate * 4, 250, 64);
+
+// --- Gold To Diamond Upgrade
+Assembler.addRecipe(Gold2DiamondUp, CarpentersBlock, DiamondPlate * 4, 300, 128);
+
+// --- Diamond To Crystal Upgrade
+Assembler.addRecipe(Diamond2CrystalUp, CarpentersBlock, GlassPane * 4, 350, 256);
+
+// --- Diamond To Obsidian Upgrade
+Assembler.addRecipe(Diamond2ObsidianUp, CarpentersBlock, ObsidianPlate * 4, 350, 256);
 
 
 
