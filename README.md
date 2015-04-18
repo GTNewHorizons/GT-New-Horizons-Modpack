@@ -1,12 +1,16 @@
-===== [DreamCraft] =====
+========== [DreamCraft] ==========
 =
+
+---
 
 [Gregified modpack via Modtweaker. GT, Thaumcraft, Buildcraft, Witchery, Galacticraft, BloodMagic, Forestry...]
 -
 
+---
 
 Version 2.6.5.3 BETA is out (17.04.2015)(DC Coremod 0.3.2in the Pack) (GTTweaker 0.5.1 in the Pack)
 
+---
 
 Large Modpack with every recipe Gregified
 -
@@ -57,17 +61,22 @@ Server info
 Dedicated server located in Europe.
 Number of players: 4
 
+---
 
 Minetweaker GT5 Addon 0.5.1 in the pack and on:
 https://github.com/Dream-Master/Minetweaker-Gregtech-5-Addon
 
+---
+
 WIKI:
 https://github.com/Dream-Master/DreamCraft/wiki
 
-
+---
 
 Modlist - DC 2.6.5.3
 Spoiler Spoiler
+
+---
 
 Advanced Solar Panels 3.5.1<BR>
 AppleCore 1.1.0<BR>
