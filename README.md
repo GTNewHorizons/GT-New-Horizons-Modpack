@@ -63,12 +63,12 @@ Number of players: 4
 
 ---
 
-Minetweaker GT5 Addon 0.5.1 in the pack and on:
+Minetweaker GT5 Addon 0.5.1 in the pack and on:<BR>
 https://github.com/Dream-Master/Minetweaker-Gregtech-5-Addon
 
 ---
 
-WIKI:
+WIKI:<BR>
 https://github.com/Dream-Master/DreamCraft/wiki
 
 ---
