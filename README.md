@@ -74,7 +74,6 @@ https://github.com/Dream-Master/DreamCraft/wiki
 ---
 
 Modlist - DC 2.6.5.3
-Spoiler Spoiler
 
 ---
 
@@ -176,3 +175,4 @@ Zombie Awareness 1.9.6<BR>
 ---
 
 Maintained by Dream-Master, Drobac, Warlord Wossman and Methes.
+-
