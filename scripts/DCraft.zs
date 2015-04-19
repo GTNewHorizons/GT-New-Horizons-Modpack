@@ -86,6 +86,252 @@ recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
 [<ore:craftingToolMortar>, null, null],
 [null, null, null]]);
 
+// --- Plate Mold
+recipes.addShaped(<dreamcraft:item.MoldFormPlate>, [
+[null, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, null, null]]);
+
+// --- Casing Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCasing>, [
+[<ore:craftingToolWireCutter>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
+
+// --- Gear Mold
+recipes.addShaped(<dreamcraft:item.MoldFormGear>, [
+[null, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, null]]);
+
+// --- Coinage Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
+
+// --- Bottle Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBottle>, [
+[null, null, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Ingot Mold
+recipes.addShaped(<dreamcraft:item.MoldFormIngot>, [
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
+
+// --- Ball Mold
+recipes.addShaped( <dreamcraft:item.MoldFormBall>, [
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
+
+// --- Block Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBlock>, [
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
+
+// --- Nuggets Mold
+recipes.addShaped(<dreamcraft:item.MoldFormNuggets>, [
+[null, <ore:craftingToolFile>, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Buns Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBuns>, [
+[<ore:craftingToolWireCutter>, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Bread Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBread>, [
+[null, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, null, null]]);
+
+// --- Baguette Mold, 
+recipes.addShaped(<dreamcraft:item.MoldFormBaguette>, [
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
+
+// --- Cylinder Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCylinder>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, <ore:craftingToolFile>, null]]);
+
+// --- Anvil Mold
+recipes.addShaped(<dreamcraft:item.MoldFormAnvil>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, <ore:craftingToolWireCutter>]]);
+
+// --- Name Mold
+recipes.addShaped(<dreamcraft:item.MoldFormName>, [
+[null, null, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
+
+// --- Head Mold
+recipes.addShaped(<dreamcraft:item.MoldFormArrowHead>, [
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
+
+// --- Small Gear Mold
+recipes.addShaped(<dreamcraft:item.MoldFormSmallGear>, [
+[<ore:craftingToolFile>, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Plate
+recipes.addShaped(<dreamcraft:item.ShapePlate>, [
+[<ore:craftingToolWireCutter>, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Rod
+recipes.addShaped(<dreamcraft:item.ShapeRod>, [
+[null, <ore:craftingToolWireCutter>, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Bolt
+recipes.addShaped(<dreamcraft:item.ShapeBolt>, [
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, null, null]]);
+
+// --- Extruder Shape Cell
+recipes.addShaped(<dreamcraft:item.ShapeCell>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, <ore:craftingToolFile>]]);
+
+// --- Extruder Shape Ring
+recipes.addShaped(<dreamcraft:item.ShapeRing>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, <ore:craftingToolWireCutter>]]);
+
+// --- Extruder Shape Ingot
+recipes.addShaped(<dreamcraft:item.ShapeIngot>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, <ore:craftingToolWireCutter>, null]]);
+
+// --- Extruder Shape Wire
+recipes.addShaped(<dreamcraft:item.ShapeWire>, [
+[null, null, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
+
+// --- Extruder Shape Casing
+recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
+[<ore:craftingToolWireCutter>, null, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Tiny Pipe
+recipes.addShaped(<dreamcraft:item.ShapeTinyPipe>, [
+[<ore:craftingToolFile>, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Small Pipe
+recipes.addShaped(<dreamcraft:item.ShapeSmallPipe>, [
+[null, <ore:craftingToolFile>, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Normal Pipe
+recipes.addShaped(<dreamcraft:item.ShapeNormalPipe>, [
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Lage Pipe
+recipes.addShaped(<dreamcraft:item.ShapeLargePipe>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, null, <ore:craftingToolWireCutter>]]);
+
+// --- Extruder Shape Huge Pipe
+recipes.addShaped(<dreamcraft:item.ShapeHugePipe>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, <ore:craftingToolFile>]]);
+
+// --- Extruder Shape Block
+recipes.addShaped(<dreamcraft:item.ShapeBlock>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, <ore:craftingToolFile>, null]]);
+
+// --- Extruder Shape Sword Blade
+recipes.addShaped(<dreamcraft:item.ShapeSwordBlade>, [
+[null, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
+
+// --- Extruder Shape Pickaxe Head
+recipes.addShaped(<dreamcraft:item.ShapePickaxeHead>, [
+[null, <ore:craftingToolWireCutter>, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Shove Head
+recipes.addShaped(<dreamcraft:item.ShapeShovelHead>, [
+[<ore:craftingToolFile>, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
+// --- Extruder Shape Axe Head
+recipes.addShaped(<dreamcraft:item.ShapeAxeHead>, [
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
+// --- Extruder Shape Hoe Head
+recipes.addShaped(<dreamcraft:item.ShapeHoeHead>, [
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
+
+// --- Extruder Shape Hammer Head
+recipes.addShaped(<dreamcraft:item.ShapeHammerHead>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, <ore:craftingToolWireCutter>, null]]);
+
+// --- Extruder Shape File Head
+recipes.addShaped(<dreamcraft:item.ShapeFileHead>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, <ore:craftingToolFile>]]);
+
+// --- Extruder Shape Saw Blade
+recipes.addShaped(<dreamcraft:item.ShapeSawBlade>, [
+[null, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, null]]);
+
+// --- Extruder Shape Gear
+recipes.addShaped(<dreamcraft:item.ShapeGear>, [
+[<ore:craftingToolWireCutter>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
+
+// --- Extruder Shape Bottle
+recipes.addShaped(<dreamcraft:item.ShapeBottle>, [
+[null, null, <ore:craftingToolWireCutter>],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[null, null, null]]);
+
 
 
 // --- Alloy Smelter Recipes
@@ -281,6 +527,10 @@ PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate
 
 // --- Cobble Stone Rod
 oreDict.stickCobblestone.add(<dreamcraft:item.CobbleStoneRod>);
+
+// --- Stone Plate
+
+oreDict.plateStone.add(<dreamcraft:item.StonePlate>);
 
 // --- Sandstone Rod
 oreDict.stickSandstone.add(<dreamcraft:item.SandStoneRod>);

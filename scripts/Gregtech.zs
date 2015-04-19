@@ -41,7 +41,11 @@ val Flint = <minecraft:flint>;
 
 
 
-// ---remove Recipes ---
+// ---Remove Recipes ---
+
+
+// --- Small Coal Boiler
+recipes.remove(<gregtech:gt.blockmachines:100>);
 
 // --- High Pressure Steam Furnace
 recipes.remove(HPFurnace);
@@ -664,9 +668,210 @@ recipes.remove(<gregtech:gt.metaitem.01:32372>);
 // --- Extruder Shape Bottle
 recipes.remove(<gregtech:gt.metaitem.01:32373>);
 
+// --- Small Aluminium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20019>);
+
+// --- Small Titanium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20028>);
+
+// --- Small Chrome Gear
+recipes.remove(<gregtech:gt.metaitem.02:20030>);
+
+// --- Small Iron Gear
+recipes.remove(<gregtech:gt.metaitem.02:20032>);
+
+// --- Small Nickel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20034>);
+
+// --- Small Copper Gear
+recipes.remove(<gregtech:gt.metaitem.02:20035>);
+
+// --- Small Palladium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20052>);
+
+// --- Small Silver Gear
+recipes.remove(<gregtech:gt.metaitem.02:20054>);
+
+// --- Small Tin Gear
+recipes.remove(<gregtech:gt.metaitem.02:20057>);
+
+// --- Small Neodymium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20067>);
+
+// --- Small Tungsten Gear
+recipes.remove(<gregtech:gt.metaitem.02:20081>);
+
+// --- Small Osmium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20083>);
+
+// --- Small Iridium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20084>);
+
+// --- Small Platinum Gear
+recipes.remove(<gregtech:gt.metaitem.02:20085>);
+
+// --- Small Gold Gear
+recipes.remove(<gregtech:gt.metaitem.02:20086>);
+
+// --- Small Lead Gear
+recipes.remove(<gregtech:gt.metaitem.02:20089>);
+
+// --- Small Bismuth Gear
+recipes.remove(<gregtech:gt.metaitem.02:20090>);
+
+// --- Small Neutronium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20129>);
+
+// --- Small Stone Gear
+recipes.remove(<gregtech:gt.metaitem.02:20299>);
+
+// --- Small Bronze Gear
+recipes.remove(<gregtech:gt.metaitem.02:20300>);
+
+// --- Small Brass Gear
+recipes.remove(<gregtech:gt.metaitem.02:20301>);
+
+// --- Small Invar Gear
+recipes.remove(<gregtech:gt.metaitem.02:20302>);
+
+// --- Small Electrum Gear
+recipes.remove(<gregtech:gt.metaitem.02:20303>);
+
+// --- Small Wrought Gear
+recipes.remove(<gregtech:gt.metaitem.02:20304>);
+
+// --- Small Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20305>);
+
+// --- Small Stainless Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20306>);
+
+// --- Small  Magnalium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20313>);
+
+// --- Small Tungsten Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20316>);
+
+// --- Small Osmiridium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20317>);
+
+// --- Small Andamantium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20319>);
+
+// --- Small HSLA Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20322>);
+
+// --- Small Infused Gold Gear
+recipes.remove(<gregtech:gt.metaitem.02:20323>);
+
+// --- Small Naquadah Gear
+recipes.remove(<gregtech:gt.metaitem.02:20325>);
+
+// --- Small Thaumium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20330>);
+
+// --- Small Iron Wood Gear
+recipes.remove(<gregtech:gt.metaitem.02:20338>);
+
+// --- Small Iron Wood Gear
+recipes.remove(<gregtech:gt.metaitem.02:20339>);
+
+// --- Small Steel Leaf Gear
+recipes.remove(<gregtech:gt.metaitem.02:20338>);
+
+// --- Small Cobalt Brass Gear
+recipes.remove(<gregtech:gt.metaitem.02:20343>);
+
+// --- Small Ultimet Gear
+recipes.remove(<gregtech:gt.metaitem.02:20344>);
+
+// --- Small Annealed Copper Gear
+recipes.remove(<gregtech:gt.metaitem.02:20345>);
+
+// --- Small Fiery Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20346>);
+
+// --- Small Sterling Silver Gear
+recipes.remove(<gregtech:gt.metaitem.02:20350>);
+
+// --- Small Rose Gold Gear
+recipes.remove(<gregtech:gt.metaitem.02:20351>);
+
+// --- Small Black Bronze Gear
+recipes.remove(<gregtech:gt.metaitem.02:20352>);
+
+// --- Small Bismuth Bronze Gear
+recipes.remove(<gregtech:gt.metaitem.02:20353>);
+
+// --- Small Magnetic Iron Gear
+recipes.remove(<gregtech:gt.metaitem.02:20354>);
+
+// --- Small Magnetic Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20355>);
+
+// --- Small Magnetic Neodymium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20356>);
+
+// --- Small Knight Metal Gear
+recipes.remove(<gregtech:gt.metaitem.02:20362>);
+
+// --- Small Tin Alloy Gear
+recipes.remove(<gregtech:gt.metaitem.02:20363>);
+
+// --- Small Diamond Gear
+recipes.remove(<gregtech:gt.metaitem.02:20500>);
+
+// --- Small Force Gear
+recipes.remove(<gregtech:gt.metaitem.02:20521>);
+
+// --- Small Aer Gear
+recipes.remove(<gregtech:gt.metaitem.02:20540>);
+
+// --- Small Ignis Gear
+recipes.remove(<gregtech:gt.metaitem.02:20541>);
+
+// --- Small Terra Gear
+recipes.remove(<gregtech:gt.metaitem.02:20542>);
+
+// --- Small Aqua Gear
+recipes.remove(<gregtech:gt.metaitem.02:20543>);
+
+// --- Small Perditio Gear
+recipes.remove(<gregtech:gt.metaitem.02:20544>);
+
+// --- Small Ordo Gear
+recipes.remove(<gregtech:gt.metaitem.02:20545>);
+
+// --- Small Wood Gear
+recipes.remove(<gregtech:gt.metaitem.02:20809>);
+
+// --- Small Balck Granite Gear
+recipes.remove(<gregtech:gt.metaitem.02:20849>);
+
+// --- Small Red Granite Gear
+recipes.remove(<gregtech:gt.metaitem.02:20850>);
+
+// --- Small Plastic Gear
+recipes.remove(<gregtech:gt.metaitem.02:20874>);
+
+// --- Small Rubber Gear
+recipes.remove(<gregtech:gt.metaitem.02:20880>);
+
+// --- Small Desh Gear
+recipes.remove(<gregtech:gt.metaitem.02:20884>);
+
+// --- Small Sealed Wood Gear
+recipes.remove(<gregtech:gt.metaitem.02:20889>);
+
 
 
 // --- Add Recipes ---
+
+// --- Small Coal Boiler
+recipes.addShaped(<gregtech:gt.blockmachines:100>, [
+[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+[<ore:plateBronze>, <ore:craftingToolWrench>, <ore:plateBronze>],
+[<minecraft:brick_block>, <minecraft:furnace>, <minecraft:brick_block>]]);
 
 
 // --- High Pressure Steam Furnace
@@ -684,7 +889,7 @@ recipes.addShaped(HPAlloySmelter, [
 // --- High Pressure Coal Boiler
 recipes.addShaped(HPBoiler, [
 [SteelPlate, SteelPlate, SteelPlate],
-[SteelPlate, null, SteelPlate],
+[SteelPlate, <ore:craftingToolWrench>, SteelPlate],
 [Bricks, IronFurnace, Bricks]]);
 
 // --- Bronze Blast Furnace
@@ -1557,6 +1762,399 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28362>, [
 [<ore:craftingToolFile>, <ore:stickKnightmetal>, null],
 [null, null, null]]);
 
+// --- Small Carbon Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20010>, [
+[null, <ore:stickCoal>, null],
+[<ore:craftingToolSaw>, <ore:plateAlloyCarbon>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCoal>, null]]);
+
+// --- Small Aluminium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20019>, [
+[null, <ore:stickAluminium>, null],
+[<ore:craftingToolSaw>, <ore:plateAluminium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickAluminium>, null]]);
+
+// --- Small Titanium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20028>, [
+[null, <ore:stickTitanium>, null],
+[<ore:craftingToolSaw>, <ore:plateTitanium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickTitanium>, null]]);
+
+// --- Small Chrome Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20030>, [
+[null, <ore:stickChrome>, null],
+[<ore:craftingToolSaw>, <ore:plateChrome>, <ore:craftingToolWireCutter>],
+[null,  <ore:stickChrome>, null]]);
+
+// --- Small Iron Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20032>, [
+[null, <ore:stickIron>, null],
+[<ore:craftingToolSaw>, <ore:plateIron>, <ore:craftingToolWireCutter>],
+[null, <ore:stickIron>, null]]);
+
+// --- Small Nickel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20034>, [
+[null, <ore:stickNickel>, null],
+[<ore:craftingToolSaw>, <ore:plateNickel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickNickel>, null]]);
+
+// --- Small Copper Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20035>, [
+[null, <ore:stickCopper>, null],
+[<ore:craftingToolSaw>, <ore:plateCopper>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCopper>, null]]);
+
+// --- Small Palladium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20052>, [
+[null, <ore:stickPalladium>, null],
+[<ore:craftingToolSaw>, <ore:platePalladium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickPalladium>, null]]);
+
+// --- Small Silver Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20054>, [
+[null, <ore:stickSilver>, null],
+[<ore:craftingToolSaw>, <ore:plateSilver>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSilver>, null]]);
+
+// --- Small Tin Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20057>, [
+[null, <ore:stickTin>, null],
+[<ore:craftingToolSaw>, <ore:plateTin>, <ore:craftingToolWireCutter>],
+[null, <ore:stickTin>, null]]);
+
+// --- Small Neodymium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20067>, [
+[null, <ore:stickNeodymium>, null],
+[<ore:craftingToolSaw>, <ore:plateNeodymium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickNeodymium>, null]]);
+
+// --- Small Tungsten Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20081>, [
+[null, <ore:stickTungsten>, null],
+[<ore:craftingToolSaw>, <ore:plateTungsten>, <ore:craftingToolWireCutter>],
+[null, <ore:stickTungsten>, null]]);
+
+// --- Small Osmium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20083>, [
+[null, <ore:stickOsmium>, null],
+[<ore:craftingToolSaw>, <ore:plateOsmium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickOsmium>, null]]);
+
+// --- Small Iridium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20084>, [
+[null, <ore:stickIridium>, null],
+[<ore:craftingToolSaw>, <ore:plateIridium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickIridium>, null]]);
+
+// --- Small Platinum Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20085>, [
+[null, <ore:stickPlatinum>, null],
+[<ore:craftingToolSaw>, <ore:platePlatinum>, <ore:craftingToolWireCutter>],
+[null, <ore:stickPlatinum>, null]]);
+
+// --- Small Gold Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20086>, [
+[null, <ore:stickGold>, null],
+[<ore:craftingToolSaw>, <ore:plateGold>, <ore:craftingToolWireCutter>],
+[null, <ore:stickGold>, null]]);
+
+// --- Small Lead Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20089>, [
+[null, <ore:stickLead>, null],
+[<ore:craftingToolSaw>, <ore:plateLead>, <ore:craftingToolWireCutter>],
+[null, <ore:stickLead>, null]]);
+
+// --- Small Bismuth Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20090>, [
+[null, <ore:stickBismuth>, null],
+[<ore:craftingToolSaw>, <ore:plateBismuth>, <ore:craftingToolWireCutter>],
+[null, <ore:stickBismuth>, null]]);
+
+// --- Small Neutronium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20129>, [
+[null, <ore:stickNeutronium>, null],
+[<ore:craftingToolSaw>, <ore:plateNeutronium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickNeutronium>, null]]);
+
+// --- Small Stone Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20299>, [
+[null, <ore:stickCobblestone>, null],
+[<ore:craftingToolSaw>, <ore:plateStone>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCobblestone>, null]]);
+
+// --- Small Bronze Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20300>, [
+[null, <ore:stickBronze>, null],
+[<ore:craftingToolSaw>, <ore:plateBronze>, <ore:craftingToolWireCutter>],
+[null, <ore:stickBronze>, null]]);
+
+// --- Small Brass Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20301>, [
+[null, <ore:stickBrass>, null],
+[<ore:craftingToolSaw>, <ore:plateBrass>, <ore:craftingToolWireCutter>],
+[null, <ore:stickBrass>, null]]);
+
+// --- Small Invar Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20302>, [
+[null, <ore:stickInvar>, null],
+[<ore:craftingToolSaw>, <ore:plateInvar>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInvar>, null]]);
+
+// --- Small Electrum Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20303>, [
+[null, <ore:stickElectrum>, null],
+[<ore:craftingToolSaw>, <ore:plateElectrum>, <ore:craftingToolWireCutter>],
+[null, <ore:stickElectrum>, null]]);
+
+// --- Small Wrought Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20304>, [
+[null, <ore:stickWroughtIron>, null],
+[<ore:craftingToolSaw>, <ore:plateWroughtIron>, <ore:craftingToolWireCutter>],
+[null, <ore:stickWroughtIron>, null]]);
+
+// --- Small Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20305>, [
+[null, <ore:stickSteel>, null],
+[<ore:craftingToolSaw>, <ore:plateSteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSteel>, null]]);
+
+// --- Small Stainless Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20306>, [
+[null, <ore:stickStainlessSteel>, null],
+[<ore:craftingToolSaw>, <ore:plateStainlessSteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickStainlessSteel>, null]]);
+
+// --- Small  Magnalium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20313>, [
+[null, <ore:stickMagnalium>, null],
+[<ore:craftingToolSaw>, <ore:plateMagnalium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickMagnalium>, null]]);
+
+// --- Small Tungsten Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20316>, [
+[null, <ore:stickTungstenSteel>, null],
+[<ore:craftingToolSaw>, <ore:plateTungstenSteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickTungstenSteel>, null]]);
+
+// --- Small Osmiridium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20317>, [
+[null, <ore:stickOsmiridium>, null],
+[<ore:craftingToolSaw>, <ore:plateOsmiridium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickOsmiridium>, null]]);
+
+// --- Small Andamantium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20319>, [
+[null, <ore:stickAdamantium>, null],
+[<ore:craftingToolSaw>, <ore:plateAdamantium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickAdamantium>, null]]);
+
+// --- Small HSLA Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20322>, [
+[null, <ore:stickHSLA>, null],
+[<ore:craftingToolSaw>, <ore:plateHSLA>, <ore:craftingToolWireCutter>],
+[null, <ore:stickHSLA>, null]]);
+
+// --- Small Infused Gold Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20323>, [
+[null, <ore:stickInfusedGold>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedGold>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedGold>, null]]);
+
+// --- Small Naquadah Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20325>, [
+[null, <ore:stickNaquadah>, null],
+[<ore:craftingToolSaw>, <ore:plateNaquadah>, <ore:craftingToolWireCutter>],
+[null, <ore:stickNaquadah>, null]]);
+
+// --- Small Thaumium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20330>, [
+[null, <ore:stickThaumium>, null],
+[<ore:craftingToolSaw>, <ore:plateThaumium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickThaumium>, null]]);
+
+// --- Small Iron Wood Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20338>, [
+[null, <ore:stickIronWood>, null],
+[<ore:craftingToolSaw>, <ore:plateIronWood>, <ore:craftingToolWireCutter>],
+[null, <ore:stickIronWood>, null]]);
+
+// --- Small Iron Wood Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20339>, [
+[null, <ore:stickSteeleaf>, null],
+[<ore:craftingToolSaw>, <ore:plateSteeleaf>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSteeleaf>, null]]);
+
+// --- Small Cobalt Brass Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20343>, [
+[null, <ore:stickCobaltBrass>, null],
+[<ore:craftingToolSaw>, <ore:plateCobaltBrass>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCobaltBrass>, null]]);
+
+// --- Small Ultimet Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20344>, [
+[null, <ore:stickUltimet>, null],
+[<ore:craftingToolSaw>, <ore:plateUltimet>, <ore:craftingToolWireCutter>],
+[null, <ore:stickUltimet>, null]]);
+
+// --- Small Annealed Copper Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20345>, [
+[null, <ore:stickAnnealedCopper>, null],
+[<ore:craftingToolSaw>, <ore:plateAnnealedCopper>, <ore:craftingToolWireCutter>],
+[null, <ore:stickAnnealedCopper>, null]]);
+
+// --- Small Fiery Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20346>, [
+[null, <ore:stickFierySteel>, null],
+[<ore:craftingToolSaw>, <ore:plateFierySteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickFierySteel>, null]]);
+
+// --- Small Sterling Silver Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20350>, [
+[null, <ore:stickSterlingSilver>, null],
+[<ore:craftingToolSaw>, <ore:plateSterlingSilver>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSterlingSilver>, null]]);
+
+// --- Small Rose Gold Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20351>, [
+[null, <ore:stickRoseGold>, null],
+[<ore:craftingToolSaw>, <ore:plateRoseGold>, <ore:craftingToolWireCutter>],
+[null, <ore:stickRoseGold>, null]]);
+
+// --- Small Black Bronze Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20352>, [
+[null, <ore:stickBlackBronze>, null],
+[<ore:craftingToolSaw>, <ore:plateBlackBronze>, <ore:craftingToolWireCutter>],
+[null, <ore:stickBlackBronze>, null]]);
+
+// --- Small Bismuth Bronze Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20353>, [
+[null, <ore:stickBismuthBronze>, null],
+[<ore:craftingToolSaw>, <ore:plateBismuthBronze>, <ore:craftingToolWireCutter>],
+[null, <ore:stickBismuthBronze>, null]]);
+
+// --- Small Magnetic Iron Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20354>, [
+[null, <ore:stickIronMagnetic>, null],
+[<ore:craftingToolSaw>, <ore:plateIronMagnetic>, <ore:craftingToolWireCutter>],
+[null, <ore:stickIronMagnetic>, null]]);
+
+// --- Small Magnetic Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20355>, [
+[null, <ore:stickSteelMagnetic>, null],
+[<ore:craftingToolSaw>, <ore:plateSteelMagnetic>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSteelMagnetic>, null]]);
+
+// --- Small Magnetic Neodymium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20356>, [
+[null, <ore:stickNeodymiumMagnetic>, null],
+[<ore:craftingToolSaw>, <ore:plateNeodymiumMagnetic>, <ore:craftingToolWireCutter>],
+[null, <ore:stickNeodymiumMagnetic>, null]]);
+
+// --- Small Knight Metal Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20362>, [
+[null, <ore:stickKnightmetal>, null],
+[<ore:craftingToolSaw>, <ore:plateKnightmetal>, <ore:craftingToolWireCutter>],
+[null, <ore:stickKnightmetal>, null]]);
+
+// --- Small Tin Alloy Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20363>, [
+[null, <ore:stickTinAlloy>, null],
+[<ore:craftingToolSaw>, <ore:plateTinAlloy>, <ore:craftingToolWireCutter>],
+[null, <ore:stickTinAlloy>, null]]);
+
+// --- Small Diamond Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20500>, [
+[null, <ore:stickDiamond>, null],
+[<ore:craftingToolSaw>, <ore:plateDiamond>, <ore:craftingToolWireCutter>],
+[null, <ore:stickDiamond>, null]]);
+
+// --- Small Force Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20521>, [
+[null, <ore:stickForce>, null],
+[<ore:craftingToolSaw>, <ore:plateForce>, <ore:craftingToolWireCutter>],
+[null, <ore:stickForce>, null]]);
+
+// --- Small Aer Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20540>, [
+[null, <ore:stickInfusedAir>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedAir>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedAir>, null]]);
+
+// --- Small Ignis Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20541>, [
+[null, <ore:stickInfusedFire>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedFire>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedFire>, null]]);
+
+// --- Small Terra Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20542>, [
+[null, <ore:stickInfusedEarth>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedEarth>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedEarth>, null]]);
+
+// --- Small Aqua Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20543>, [
+[null, <ore:stickInfusedWater>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedWater>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedWater>, null]]);
+
+// --- Small Perditio Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20544>, [
+[null, <ore:stickInfusedEntropy>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedEntropy>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedEntropy>, null]]);
+
+// --- Small Ordo Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20545>, [
+[null, <ore:stickInfusedOrder>, null],
+[<ore:craftingToolSaw>, <ore:plateInfusedOrder>, <ore:craftingToolWireCutter>],
+[null, <ore:stickInfusedOrder>, null]]);
+
+// --- Small Wood Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20809>, [
+[null, <ore:stickWood>, null],
+[<ore:craftingToolSaw>, <gregtech:gt.metaitem.01:17809>, <ore:craftingToolWireCutter>],
+[null, <ore:stickWood>, null]]);
+
+// --- Small Balck Granite Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20849>, [
+[null, <ore:stickCobblestone>, null],
+[<ore:craftingToolSaw>, <ore:plateGraniteBlack>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCobblestone>, null]]);
+
+// --- Small Red Granite Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
+[null, <ore:stickCobblestone>, null],
+[<ore:craftingToolSaw>, <ore:plateGraniteRed>, <ore:craftingToolWireCutter>],
+[null, <ore:stickCobblestone>, null]]);
+
+// --- Small Plastic Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20874>, [
+[null, <ore:stickPlastic>, null],
+[<ore:craftingToolSaw>, <ore:platePlastic>, <ore:craftingToolWireCutter>],
+[null, <ore:stickPlastic>, null]]);
+
+// --- Small Rubber Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20880>, [
+[null, <ore:stickRubber>, null],
+[<ore:craftingToolSaw>, <ore:plateRubber>, <ore:craftingToolWireCutter>],
+[null, <ore:stickRubber>, null]]);
+
+// --- Small Desh Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20884>, [
+[null, <ore:stickDesh>, null],
+[<ore:craftingToolSaw>, <ore:plateDesh>, <ore:craftingToolWireCutter>],
+[null, <ore:stickDesh>, null]]);
+
+// --- Small Sealed Wood Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20889>, [
+[null, <ore:stickWoodSealed>, null],
+[<ore:craftingToolSaw>, <ore:plateWoodSealed>, <ore:craftingToolWireCutter>],
+[null, <ore:stickWoodSealed>, null]]);
+
+
+
+
 // --- Assembler Recipes ---
 
 
@@ -1821,124 +2419,124 @@ Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4)
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32300>, <liquid:steel.molten> * 576, null, false, 100);
 
 // --- Plate Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32301>, <liquid:steel.molten> * 576, <Railcraft:part.plate>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32301>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPlate>, true, 100);
 
 // --- Casing Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32302>, <liquid:steel.molten> * 576, <IC2:itemCasing:4>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32302>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormCasing>, true, 100);
 
 // --- Gear Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32303>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:31032>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32303>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormGear>, true, 100);
 
 // --- Coinage Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32304>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:32010>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32304>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormCoinage>, true, 100);
 
 // --- Bottle Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32305>, <liquid:steel.molten> * 576, <minecraft:glass_bottle>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32305>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBottle>, true, 100);
 
 // --- Ingot Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32306>, <liquid:steel.molten> * 576, <minecraft:iron_ingot>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32306>, <liquid:steel.molten> * 576,<dreamcraft:item.MoldFormIngot>, true, 100);
 
 // --- Ball Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32307>, <liquid:steel.molten> * 576, <Thaumcraft:ItemResource:3>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32307>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBall>, true, 100);
 
 // --- Block Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32308>, <liquid:steel.molten> * 576, <minecraft:iron_block>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32308>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBlock>, true, 100);
 
 // --- Nuggets Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32309>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:9305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32309>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormNuggets>, true, 100);
 
 // --- Buns Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32310>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:32564>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32310>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBuns>, true, 100);
 
 // --- Bread Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32311>, <liquid:steel.molten> * 576, <minecraft:bread>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32311>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBread>, true, 100);
 
 // --- Baguette Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32312>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:32565>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32312>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBaguette>, true, 100);
 
 // --- Cylinder Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32313>, <liquid:steel.molten> * 576, <minecraft:cake>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32313>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormCylinder>, true, 100);
 
 // --- Anvil Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32314>, <liquid:steel.molten> * 576, <minecraft:anvil>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32314>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormAnvil>, true, 100);
 
 // --- Name Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32315>, <liquid:steel.molten> * 576, <minecraft:name_tag>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32315>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormName>, true, 100);
 
 // --- Head Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32316>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:14305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32316>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormArrowHead>, true, 100);
 
 // --- Small Gear Mold
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32317>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:20305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32317>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormSmallGear>, true, 100);
 
 // --- Extruder Shape Plate
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, <Railcraft:part.plate:1>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapePlate>, true, 100);
 
 // --- Extruder Shape Rod
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32351>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:23305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32351>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeRod>, true, 100);
 
 // --- Extruder Shape Bolt
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32352>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:26305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32352>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBolt>, true, 100);
 
 // --- Extruder Shape Cell
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32353>, <liquid:steel.molten> * 576, <IC2:itemCellEmpty>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32353>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeCell>, true, 100);
 
 // --- Extruder Shape Ring
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32354>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:28305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32354>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeRing>, true, 100);
 
 // --- Extruder Shape Ingot
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32355>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.01:11305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32355>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeIngot>, true, 100);
 
 // --- Extruder Shape Wire
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32356>, <liquid:steel.molten> * 576, <gregtech:gt.blockmachines:1520>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32356>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeWire>, true, 100);
 
 // --- Extruder Shape Casing
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32357>, <liquid:steel.molten> * 576, <IC2:itemCasing:5>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32357>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeCasing>, true, 100);
 
 // --- Extruder Shape Tiny Pipe
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32358>, <liquid:steel.molten> * 576, <gregtech:gt.blockmachines:1521>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32358>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeTinyPipe>, true, 100);
 
 // --- Extruder Shape Small Pipe
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32359>, <liquid:steel.molten> * 576, <gregtech:gt.blockmachines:5131>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32359>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeSmallPipe>, true, 100);
 
 // --- Extruder Shape Normal Pipe
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32360>, <liquid:steel.molten> * 576, <gregtech:gt.blockmachines:5132>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32360>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeNormalPipe>, true, 100);
 
 // --- Extruder Shape Lage Pipe
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32361>, <liquid:steel.molten> * 576, <gregtech:gt.blockmachines:5133>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32361>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeLargePipe>, true, 100);
 
 // --- Extruder Shape Huge Pipe
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32362>, <liquid:steel.molten> * 576, <GemBlocksForGreg:tile.metalBlock3:12>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32362>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeHugePipe>, true, 100);
 
 // --- Extruder Shape Block
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32363>, <liquid:steel.molten> * 576, <IC2:blockMetal:5>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32363>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBlock>, true, 100);
 
 // --- Extruder Shape Sword Blade
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32364>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32364>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeSwordBlade>, true, 100);
 
 // --- Extruder Shape Pickaxe Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32365>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:1305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32365>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapePickaxeHead>, true, 100);
 
 // --- Extruder Shape Shove Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32366>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:2305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32366>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeShovelHead>, true, 100);
 
 // --- Extruder Shape Axe Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32367>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:3305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32367>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeAxeHead>, true, 100);
 
 // --- Extruder Shape Hoe Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32368>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:4305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32368>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeHoeHead>, true, 100);
 
 // --- Extruder Shape Hammer Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32369>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:5305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32369>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeHammerHead>, true, 100);
 
 // --- Extruder Shape File Head
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32370>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:6305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32370>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeFileHead>, true, 100);
 
 // --- Extruder Shape Saw Blade
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32371>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:7305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32371>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeSawBlade>, true, 100);
 
 // --- Extruder Shape Gear
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32372>, <liquid:steel.molten> * 576, <gregtech:gt.metaitem.02:31305>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32372>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeGear>, true, 100);
 
 // --- Extruder Shape Bottle
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32373>, <liquid:steel.molten> * 576, <BiomesOPlenty:jarEmpty>, true, 100);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32373>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBottle>, true, 100);
