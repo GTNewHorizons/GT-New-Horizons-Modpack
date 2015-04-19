@@ -95,6 +95,7 @@ public class MainRegistry {
 		ShapeShovelHead.mainRegistry();
 		ShapeSmallPipe.mainRegistry();
 		ShapeSwordBlade.mainRegistry();
+		ShapeWire.mainRegistry();
 		ShapeTinyPipe.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
