@@ -8,7 +8,7 @@
 
 ---
 
-Version 2.6.5.5 BETA is out (19.04.2015)(DC Coremod 0.3.2 in the Pack) (GTTweaker 0.5.1 in the Pack)
+Version 2.6.5.8 BETA is out (22.04.2015)(DC Coremod 0.3.2 in the Pack) (GTTweaker 0.5.1 in the Pack)
 
 ---
 
@@ -73,42 +73,42 @@ https://github.com/Dream-Master/DreamCraft/wiki
 
 ---
 
-Modlist - DC 2.6.5.3
+Modlist - DC 2.6.5.8
 
 ---
 
 Advanced Solar Panels 3.5.1<BR>
 AppleCore 1.1.0<BR>
-Applied Energistics rv2 beta18<BR>
-Automagy 0.21.2<BR>
+Applied Energistics rv2 beta28<BR>
+Automagy 0.22.2<BR>
 DreamCraftCoreMod 0.3.2<BR>
 ASFU 1.2.1.a<BR>
 AsieLib 0.3.13<BR>
 BackPack 2.0.1<BR>
-BdLib 1.7.0.70<BR>
+BdLib 1.7.2.76<BR>
 Bibliocraft 1.10.3<BR>
 Bibliowoods 1.9/1.7/1.5<BR>
 Binnie Mods 2.0-pre8<BR>
 Biomes o Plenty 2.1.0.1237<BR>
 BloodMagic 1.3.2.1<BR>
-Buildcraft 6.4.11<BR>
+Buildcraft 6.4.13<BR>
 Buildcraft Compat 6.4.2<BR>
 Carpenter's Blocks 3.3.6<BR>
-CodeChickenCore 1.04.37<BR>
+CodeChickenCore 1.04.35<BR>
 CofhLib 1.0.151<BR>
 Computronics 1.4.6<BR>
 CoroUtil 1.1.1<BR>
 Extra Cells 2.2.68b<BR>
-Extra Utilities 1.2.3<BR>
+Extra Utilities 1.2.4b<BR>
 FastCraft 1.21<BR>
 Forbidden Magic 0.562<BR>
-Forestry 3.5.0.528<BR>
+Forestry 3.6.0.535<BR>
 Forge Microblocks 1.1.1.331<BR>
-Galacticraft 3.0.10.319<BR>
+Galacticraft 3.0.10.320<BR>
 GalactiGreg 0.5<BR>
 Galaxy Space 1.7 Alpha<BR>
 GemBlocksForGreg 1.3<BR>
-Gendustry 1.4.9.22<BR>
+Gendustry 1.4.11.25<BR>
 Gravitation Suite 2.0.3<BR>
 GregsLighting 1.11.2<BR>
 Gregtech 5.07.07<BR>
@@ -119,27 +119,27 @@ Chisel 2.3.10<BR>
 IC2 Nuclear Control 2.2.1a<BR>
 IguanaTinkerTweaks 2.1.4<BR>
 Immibis Core 59.0.8<BR>
-Industrial Craft 2 2.2.2.712<BR>
+Industrial Craft 2 2.2.2.713<BR>
 Infernal Mobs 1.6<BR>
 Iron Chest Minecarts 1.0.2<BR>
 Iron Chests 6.0.62.742<BR>
 Jabba 1.2.1a<BR>
 JourneyMap 5.0.1<BR>
-Magic Bees 2.2.2<BR>
+Magic Bees 2.2.3<BR>
 Mantle 0.3.2<BR>
 Minecraft Forge 10.13.2.1291<BR>
 Mine Tweaker 3 3.0.9c<BR>
 Mobius Core 1.2.5<BR>
-Mod Tweaker 0.7.5b<BR>
+Mod Tweaker 0.8.0<BR>
 Natura 2.2.0.1<BR>
 NEI 1.0.4.95<BR>
 Nei Addons 1.12.5.17<BR>
-Nei Integration 1.0.8<BR>
+Nei Integration 1.0.9<BR>
 Not Enough Codecs 10.03.13<BR>
 Not Enouht Keys 1.0.0b29<BR>
-Open Blocks 10.1.4.601<BR>
-Open Mods Lib 10.0.6.335<BR>
-Open Computers 1.5.7.14<BR>
+Open Blocks 10.1.4.1.606<BR>
+Open Mods Lib 0.7.1.344<BR>
+Open Computers 1.5.8.17<BR>
 Open Eye 0.6.145<BR>
 Pam's Harvestcraft 1.7.10h<BR>
 Railcraft 9.5.0.0<BR>
@@ -153,7 +153,7 @@ Special Mobs 3.1.1<BR>
 Spice of Life 1.2.3<BR>
 Steve's Carts BETA 18<BR>
 Steve's Factory Manager ALPHA 93<BR>
-Steve's Factory M.Addon 0.10.4<BR>
+Steve's Factory M.Addon 0.10.5<BR>
 Thaumcraft 4.2.3.5<BR>
 Thaumcraft Mob Aspects 2B-snapsh17<BR>
 Thaumcraft NEIPlugins 1.7<BR>
