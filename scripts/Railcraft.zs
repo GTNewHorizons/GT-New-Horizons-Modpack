@@ -50,13 +50,13 @@ val Piston = <minecraft:piston>;
 val SteelAnvil = <Railcraft:anvil>;
 val Wrench = <ore:craftingToolWrench>;
 
-val IronStairs = <Railcraft:stair:5>;
-val SteelStairs = <Railcraft:stair:42>;
-val CopperStairs = <Railcraft:stair:39>;
-val TinStairs = <Railcraft:stair:40>;
-val LeadStairs = <Railcraft:stair:41>;
-val GoldStairs = <Railcraft:stair:6>;
-val DiamondStairs = <Railcraft:stair:7>;
+val IronStairs = <Railcraft:stair:6>;
+val SteelStairs = <Railcraft:stair:43>;
+val CopperStairs = <Railcraft:stair:40>;
+val TinStairs = <Railcraft:stair:41>;
+val LeadStairs = <Railcraft:stair:42>;
+val GoldStairs = <Railcraft:stair:7>;
+val DiamondStairs = <Railcraft:stair:8>;
 
 val AbyssalLantern = <Railcraft:lantern.stone>;
 val BleachedLantern = <Railcraft:lantern.stone:1>;
