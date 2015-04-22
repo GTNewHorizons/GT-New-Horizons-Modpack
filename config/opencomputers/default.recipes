@@ -11,6 +11,32 @@ texturePicker {
           [dyeBlue, "oc:analyzer", dyePurple]
           [dyeYellow, dyeMagenta, dyeWhite]]
 }
+manual {
+  type: shapeless
+  input: [book, "oc:circuitChip1"]
+}
+wrench {
+  input: [[ingotIron, "", ingotIron]
+          ["", "oc:circuitChip2", ""],
+          ["", ingotIron, ""]]
+}
+lootDisks: [
+  {
+    name: OpenOS
+    type: shapeless
+    input: ["oc:floppy", "oc:manual"]
+  },
+  {
+    name: OPPM
+    type: shapeless
+    input: ["oc:floppy", "oc:materialInterweb"]
+  }
+]
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+
 droneCase1 {
   input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
           ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
@@ -112,14 +138,6 @@ hdd3 {
   input: [["oc:circuitChip3", "oc:materialDisk", diamond]
           ["oc:materialCircuitBoardPrinted", "oc:materialDisk", craftingPiston]
           ["oc:circuitChip3", "oc:materialDisk", diamond]]
-}
-openOS {
-  type: shapeless
-  input: ["oc:floppy", book]
-}
-luaBios {
-  type: shapeless
-  input: ["oc:eeprom", book]
 }
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
@@ -226,12 +244,12 @@ generatorUpgrade {
 }
 inventoryUpgrade {
   input: [[plankWood, hopper, plankWood]
-          [dispenser, chest, craftingPiston]
+          [dropper, chest, craftingPiston]
           [plankWood, "oc:circuitChip1", plankWood]]
 }
 inventoryControllerUpgrade {
   input: [[ingotGold, "oc:analyzer", ingotGold]
-          [dispenser, "oc:circuitChip2", craftingPiston]
+          [dropper, "oc:circuitChip2", craftingPiston]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 leashUpgrade {
