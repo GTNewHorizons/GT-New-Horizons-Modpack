@@ -36,7 +36,7 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 // --- Chisel
 recipes.remove(Chisel);
 
-// --- Chisel
+// --- Obsidian Chisel
 recipes.remove(ObsidianChisel);
 
 // --- Diamond Chisel
@@ -100,6 +100,31 @@ recipes.addShaped(DiamondChisel, [
 [Screwdriver, <ore:plateDiamond>, <ore:plateDiamond>],
 [<ore:screwDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
 [<ore:stickDiamond>, <ore:screwDiamond>, HHammer]]);
+
+// --- Auto Chisel
+recipes.addShaped(<chisel:autoChisel>, [
+[SteelScrew, <ore:ringWoodSealed>, SteelScrew],
+[<gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32650>],
+[Screwdriver, <IronChest:BlockIronChest>, HHammer]]);
+
+// --- Speed Upgrade
+recipes.addShaped(<chisel:upgrade>, [
+[SteelScrew, <ore:plateEmerald>, SteelScrew],
+[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32630>, <ore:wireGt01RedAlloy>]]);
+
+// --- Automation Upgrade
+recipes.addShaped(<chisel:upgrade:1>, [
+[SteelScrew, <ore:plateEmerald>, SteelScrew],
+[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32650>, <ore:wireGt01RedAlloy>]]);
+
+// --- Stack Upgrade
+recipes.addShaped(<chisel:upgrade:2>, [
+[SteelScrew, <ore:plateEmerald>, SteelScrew],
+[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
+
 
 
 // --- Hiding Stuff ---

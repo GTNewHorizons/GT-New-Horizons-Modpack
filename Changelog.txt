@@ -1,3 +1,35 @@
+2.6.6.0 --- 24.04.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Applied Energystics 2 Build 29
+	*Gem Blocks 1.4a
+	*Gregtech 5.08.02
+	*Railcraft 9.6.0.0(maybe downgrade because a duplication bug)
+
+
+
+--- Configs ---
+
+
+	*Changing GT Recipes cfg from Alloy smelter because Endium Ingot messed up
+	
+
+--- Scripts ---
+
+	*Change Anchor Recipes and add Passive Anchor from railcraft
+	*Add Autochisel Block Recipe
+	*Adding Upgrades from Chisel
+	*Delete wrong Endium smleltery Recipes
+	*Adding Wire Frame and Shunting Wire Recipe
+
+
+
+************************************************
+
+
 2.6.5.9 --- 23.04.2015 ---
 
 

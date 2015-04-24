@@ -5,11 +5,13 @@
 import mods.nei.NEI;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
+import mods.gregtech.Wiremill;
 
 
 // --- Variables ---
@@ -307,6 +309,9 @@ recipes.remove(<Railcraft:machine.alpha>);
 
 // --- Personal Anchor ---
 recipes.remove(<Railcraft:machine.alpha:2>);
+
+// --- Passive Anchor ---
+recipes.remove(<Railcraft:machine.alpha:13>);
 
 // --- Steam Turbin Housing ---
 recipes.remove(<Railcraft:machine.alpha:1>);
@@ -666,27 +671,20 @@ recipes.remove(<Railcraft:backpack.apothecary.t1>);
 // --- Aphothecary's Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Railcraft:backpack.apothecary.t2>);
 
+// --- Wire Support Frame
+recipes.remove(<Railcraft:frame>);
 
 
-// --- add Recipes ---
+
+// --- Add Recipes ---
 
 
-// --- Block of Coal Coke
-Compressor.addRecipe(CoalCokeBlock, CoalCoke * 9);
+// --- Wire Support Frame
+recipes.addShaped(<Railcraft:frame>, [
+[<ore:plateRubber>, <ore:plateSteel>, <ore:plateRubber>],
+[<Railcraft:part.rebar>, <ore:craftingToolWrench>, <Railcraft:part.rebar>],
+[<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>]]);
 
-// --- Coke Coal ---
-Centrifuge.addRecipe([CoalCoke * 9], CoalCokeBlock, 0, 400);
-
-// --- Block of Concrete
-AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
-//-
-Compressor.addRecipe(ConcreteBlock, ConcreteSlab * 2);
-
-// --- Creosote Wood Slab ---
-recipes.addShaped(CreosoteWoodSlab * 2, [
-[Saw,CreosoteWood]]);
-//-
-Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 2);
 
 // --- Concrete Slab ---
 recipes.addShaped(ConcreteSlab * 2, [
@@ -737,13 +735,19 @@ recipes.addShaped(<Railcraft:machine.alpha:6>, [
 // --- Personal Anchor ---
 recipes.addShaped(<Railcraft:machine.alpha:2>, [
 [EmeraldPlate, DenseOPlate, EmeraldPlate],
-[GoldPlate, <ore:gemEnderEye>, GoldPlate],
+[<ore:plateDoubleGold>, <ore:gemEnderEye>, <ore:plateDoubleGold>],
 [EmeraldPlate, DenseOPlate, EmeraldPlate]]);
 
 // --- World Anchor ---
 recipes.addShaped(<Railcraft:machine.alpha>, [
 [DiamondPlate, DenseOPlate, DiamondPlate],
-[GoldPlate, <ore:gemEnderEye>, GoldPlate],
+[<ore:plateDoubleGold>, <ore:gemEnderEye>, <ore:plateDoubleGold>],
+[DiamondPlate, DenseOPlate, DiamondPlate]]);
+
+// --- Passive Anchor ---
+recipes.addShaped(<Railcraft:machine.alpha:13>, [
+[DiamondPlate, DenseOPlate, DiamondPlate],
+[<ore:plateDoubleSteel>, <ore:gemEnderEye>, <ore:plateDoubleSteel>],
 [DiamondPlate, DenseOPlate, DiamondPlate]]);
 
 // --- Steam Turbine Housing ---
@@ -860,51 +864,6 @@ recipes.addShaped(<Railcraft:machine.beta:11>, [
 [ObsidianPlate, <ExtraUtilities:trashcan>, ObsidianPlate],
 [SteelScrew, ObsidianPlate, SteelScrew]]);
 
-//-
-Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, ObsidianPlate * 4, 300, 16);
-
-// --- Wooden Switch Track ---
-Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, SwitchLever, 800, 4);
-
-// --- Wooden Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, SwitchMotor, 800, 4);
-
-// --- Wooden Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
-
-// --- Switch Track ---
-Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, SwitchLever * 2, 800, 16);
-
-// --- Wye Track ---
-Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, SwitchMotor * 2, 800, 16);
-
-// --- Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
-
-// --- Reinforced Switch Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, SwitchLever * 4, 800, 64);
-
-// --- Reinforced Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, SwitchMotor * 4, 800, 64);
-
-// --- Reinforced Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27316> * 4, 800, 64);
-
-// --- H.S. Switch Track ---
-Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, SwitchLever * 4, 800, 64);
-
-// --- H.S. Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, SwitchMotor * 4, 800, 64);
-
-// --- Electric Switch Track ---
-Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, SwitchLever * 2, 800, 32);
-
-// --- Electric Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, SwitchMotor * 2, 800, 32);
-
-// --- Electric Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
-
 // --- Controll Track ---
 recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.control"}), [
 [SteelScrew, RedAlloyRod, SteelScrew],
@@ -958,7 +917,6 @@ recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.routing"}),
 [IronScrew, RedAlloyPlate, IronScrew],
 [StandardRail, WoodRailbed, StandardRail],
 [Screwdriver, <Railcraft:routing.ticket>, HHammer]]);
-
 //-
 recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.routing"}), [
 [IronScrew, RedAlloyPlate, IronScrew],
@@ -1711,6 +1669,11 @@ recipes.addShaped(<Railcraft:brick.sandy:2>, [
 [<Railcraft:slab:21>, null, null],
 [null, null, null]]);
 
+// --- Creosote Wood Slab ---
+recipes.addShaped(CreosoteWoodSlab * 2, [
+[Saw,CreosoteWood]]);
+
+
 // --- Steel Shears
 oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
@@ -1755,7 +1718,16 @@ mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000,
 
 
 
-// --- Assembler Recipes
+// --- Alloy Smelter Recipes ---
+
+
+// --- Block of Concrete
+AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
+
+
+
+// --- Assembler Recipes ---
+
 
 //Hobbyist´s Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:7>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:3> * 10, 800, 256);
@@ -1766,6 +1738,79 @@ Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <R
 //Industrial Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
 
+// --- Electric Shunting Wire ---
+AssemblerLiq.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 2, <gregtech:gt.blockmachines:1220> * 2, <liquid:molten.tin>  * 16, 200, 128);
+//-
+AssemblerLiq.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.lead>  * 32, 200, 128);
+//-
+AssemblerLiq.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.solderingalloy>  * 8, 200, 128);
+
+// --- Void Chest ---
+Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, ObsidianPlate * 4, 300, 16);
+
+// --- Wooden Switch Track ---
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, SwitchLever, 800, 4);
+
+// --- Wooden Wye Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, SwitchMotor, 800, 4);
+
+// --- Wooden Junction Tack ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
+
+// --- Switch Track ---
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, SwitchLever * 2, 800, 16);
+
+// --- Wye Track ---
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, SwitchMotor * 2, 800, 16);
+
+// --- Junction Tack ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
+
+// --- Reinforced Switch Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, SwitchLever * 4, 800, 64);
+
+// --- Reinforced Wye Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, SwitchMotor * 4, 800, 64);
+
+// --- Reinforced Junction Tack ---
+Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27316> * 4, 800, 64);
+
+// --- H.S. Switch Track ---
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, SwitchLever * 4, 800, 64);
+
+// --- H.S. Wye Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, SwitchMotor * 4, 800, 64);
+
+// --- Electric Switch Track ---
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, SwitchLever * 2, 800, 32);
+
+// --- Electric Wye Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, SwitchMotor * 2, 800, 32);
+
+// --- Electric Junction Tack ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
+
+
+
+// --- Centrifuge Recipes ---
+
+
+// --- Coke Coal ---
+Centrifuge.addRecipe([CoalCoke * 9], CoalCokeBlock, 0, 400);
+
+
+
+// --- Compressor Recipes ---
+
+
+// --- Block of Coal Coke ---
+Compressor.addRecipe(CoalCokeBlock, CoalCoke * 9);
+
+// --- Block Of Concrete ---
+Compressor.addRecipe(ConcreteBlock, ConcreteSlab * 2);
+
+// --- Creosote Wood Slab ---
+Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 2);
 
 
 // --- Fluid Solidifier Recipes
@@ -1775,7 +1820,8 @@ Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <g
 FluidSolidifier.addRecipe(SteelAnvil, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.steel> * 4464, 480, 64);
 
 
-// --- Thermionic Fabricator Recipes
+
+// --- Thermionic Fabricator Recipes ---
 
 // --- Strengthened Glass
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
@@ -1801,6 +1847,8 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2523>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
 <Forestry:waxCast:*>, <Railcraft:glass> * 4);
+
+
 
 // --- Macerator Recipes ---
 
