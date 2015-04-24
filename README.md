@@ -8,7 +8,7 @@
 
 ---
 
-Version 2.6.5.8 BETA is out (22.04.2015)(DC Coremod 0.3.2 in the Pack) (GTTweaker 0.5.1 in the Pack)
+Version 2.6.5.8 BETA is out (22.04.2015)(DC Coremod 0.3.2 in the Pack) (GTTweaker 0.6.1 in the Pack)
 
 ---
 
