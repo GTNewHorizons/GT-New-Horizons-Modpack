@@ -1,16 +1,12 @@
-=========== [DreamCraft] ===========
+[DreamCraft]
 =
-
----
 
 [Gregified modpack via Modtweaker. GT, Thaumcraft, Buildcraft, Witchery, Galacticraft, BloodMagic, Forestry...]
 -
 
----
 
-Version 2.6.5.8 BETA is out (22.04.2015)(DC Coremod 0.3.2 in the Pack) (GTTweaker 0.6.1 in the Pack)
+Version 2.6.6.1 BETA is out (25.04.2015)(DC Coremod 0.3.4) (GTTweaker 0.6.2)
 
----
 
 Large Modpack with every recipe Gregified
 -
@@ -60,32 +56,21 @@ I'll send you TeamSpeak adress along with the whole pack.
 Server info
 Dedicated server located in Europe.
 Number of players: 4
+Github link
 
----
 
-Minetweaker GT5 Addon 0.5.1 in the pack and on:<BR>
-https://github.com/Dream-Master/Minetweaker-Gregtech-5-Addon
-
----
-
-WIKI:<BR>
-https://github.com/Dream-Master/DreamCraft/wiki
-
----
-
-Modlist - DC 2.6.5.8
-
----
+Modlist - DC 2.6.6.1
+Spoiler Spoiler
 
 Advanced Solar Panels 3.5.1<BR>
 AppleCore 1.1.0<BR>
-Applied Energistics rv2 beta28<BR>
+Applied Energistics rv2 beta29<BR>
 Automagy 0.22.2<BR>
-DreamCraftCoreMod 0.3.2<BR>
+DreamCraftCoreMod 0.3.4<BR>
 ASFU 1.2.1.a<BR>
 AsieLib 0.3.13<BR>
 BackPack 2.0.1<BR>
-BdLib 1.7.2.76<BR>
+BdLib 1.7.1.76<BR>
 Bibliocraft 1.10.3<BR>
 Bibliowoods 1.9/1.7/1.5<BR>
 Binnie Mods 2.0-pre8<BR>
@@ -102,33 +87,33 @@ Extra Cells 2.2.68b<BR>
 Extra Utilities 1.2.4b<BR>
 FastCraft 1.21<BR>
 Forbidden Magic 0.562<BR>
-Forestry 3.6.0.535<BR>
+Forestry 3.6.0.536<BR>
 Forge Microblocks 1.1.1.331<BR>
-Galacticraft 3.0.10.320<BR>
+Galacticraft 3.0.10.321<BR>
 GalactiGreg 0.5<BR>
 Galaxy Space 1.7 Alpha<BR>
-GemBlocksForGreg 1.3<BR>
+GemBlocksForGreg 1.4a<BR>
 Gendustry 1.4.11.25<BR>
 Gravitation Suite 2.0.3<BR>
 GregsLighting 1.11.2<BR>
-Gregtech 5.07.07<BR>
-GTTweaker 0.5.1<BR>
+Gregtech 5.08.02<BR>
+GTTweaker 0.6.2<BR>
 Hardcore Ender Expan. 1.8.0<BR>
-Hunger Overhaul beta 5<BR>
+Hunger Overhaul beta 6<BR>
 Chisel 2.3.10<BR>
 IC2 Nuclear Control 2.2.1a<BR>
 IguanaTinkerTweaks 2.1.4<BR>
 Immibis Core 59.0.8<BR>
-Industrial Craft 2 2.2.2.713<BR>
+Industrial Craft 2 2.2.2.717<BR>
 Infernal Mobs 1.6<BR>
 Iron Chest Minecarts 1.0.2<BR>
 Iron Chests 6.0.62.742<BR>
 Jabba 1.2.1a<BR>
 JourneyMap 5.0.1<BR>
-Magic Bees 2.2.3<BR>
+Magic Bees 2.3.0<BR>
 Mantle 0.3.2<BR>
 Minecraft Forge 10.13.2.1291<BR>
-Mine Tweaker 3 3.0.9c<BR>
+Mine Tweaker 3.0.9c<BR>
 Mobius Core 1.2.5<BR>
 Mod Tweaker 0.8.0<BR>
 Natura 2.2.0.1<BR>
@@ -137,12 +122,12 @@ Nei Addons 1.12.5.17<BR>
 Nei Integration 1.0.9<BR>
 Not Enough Codecs 10.03.13<BR>
 Not Enouht Keys 1.0.0b29<BR>
-Open Blocks 10.1.4.1.606<BR>
-Open Mods Lib 0.7.1.344<BR>
+Open Blocks 1.4.1.607<BR>
+Open Mods Lib 0.7.1.345<BR>
 Open Computers 1.5.8.17<BR>
 Open Eye 0.6.145<BR>
 Pam's Harvestcraft 1.7.10h<BR>
-Railcraft 9.5.0.0<BR>
+Railcraft 9.6.0.0<BR>
 Random Things 2.2.4<BR>
 Realistic World Gen 1.3.2<BR>
 RedLogic 59.1.9<BR>
@@ -175,4 +160,3 @@ Zombie Awareness 1.9.6<BR>
 ---
 
 Maintained by Dream-Master, Drobac, Warlord Wossman and Methes.
--
