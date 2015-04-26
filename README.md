@@ -49,18 +49,18 @@ You want to roam the land and kill everything in sight with ease, build a highly
 
 
 How do I join?
-Write a post here or send me a PM.
+PM me in the IC Forum or Minecraft Forum or open up a Issue.
+http://forum.industrial-craft.net/index.php?page=Thread&threadID=11403
+http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2391339-dreamcraft-gregified-modpack-via-modtweaker-gt
 I'll send you TeamSpeak adress along with the whole pack.
 
 
 Server info
 Dedicated server located in Europe.
-Number of players: 4
-Github link
+Number of players: 5
 
 
 Modlist - DC 2.6.6.1
-Spoiler Spoiler
 
 Advanced Solar Panels 3.5.1<BR>
 AppleCore 1.1.0<BR>
