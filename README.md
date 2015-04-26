@@ -5,7 +5,7 @@
 -
 
 
-Version 2.6.6.1 BETA is out (25.04.2015)(DC Coremod 0.3.4) (GTTweaker 0.6.2)
+Version 2.6.6.1 BETA is out (25.04.2015)(DC Coremod 0.3.4) (GTTweaker 0.6.9)
 
 
 Large Modpack with every recipe Gregified
