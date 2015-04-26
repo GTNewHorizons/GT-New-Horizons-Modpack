@@ -49,8 +49,8 @@ You want to roam the land and kill everything in sight with ease, build a highly
 
 
 How do I join?
-PM me in the IC Forum or Minecraft Forum or open up a Issue.
-http://forum.industrial-craft.net/index.php?page=Thread&threadID=11403
+PM me in the IC Forum or Minecraft Forum or open up a Issue.<BR>
+http://forum.industrial-craft.net/index.php?page=Thread&threadID=11403<BR>
 I'll send you TeamSpeak adress along with the whole pack.
 
 
