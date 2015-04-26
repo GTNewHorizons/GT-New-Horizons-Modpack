@@ -51,7 +51,6 @@ You want to roam the land and kill everything in sight with ease, build a highly
 How do I join?
 PM me in the IC Forum or Minecraft Forum or open up a Issue.
 http://forum.industrial-craft.net/index.php?page=Thread&threadID=11403
-http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2391339-dreamcraft-gregified-modpack-via-modtweaker-gt
 I'll send you TeamSpeak adress along with the whole pack.
 
 
