@@ -45,33 +45,71 @@ recipes.remove(<MagicBees:capsule.void>);
 
 // --- Dimensional Singularity
 recipes.remove(<MagicBees:miscResources:17>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<MagicBees:miscResources:17>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<MagicBees:miscResources:17>);
 
 // --- Bee Collector's Jar
 recipes.remove(<MagicBees:effectJar>);
 
 // --- Essence of False Life
 recipes.remove(<MagicBees:miscResources:7>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:7>);
 
 // --- Essence of a Shallow Grave
 recipes.remove(<MagicBees:miscResources:8>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:8>);
 
 // --- Essence of Lost of Time
 recipes.remove(<MagicBees:miscResources:9>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:9>);
 
-// --- Essence of everlasting Durability
+// --- Essence of Everlasting Durability
 recipes.remove(<MagicBees:miscResources:10>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:10>);
 
 // --- Essence of Scornful Oblivion
 recipes.remove(<MagicBees:miscResources:11>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:miscResources:11>);
 
 // --- Essence of Fickle Permanence
 recipes.remove(<MagicBees:miscResources:12>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:12>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:12>);
 
 // --- Magic Apiary
 recipes.remove(<MagicBees:magicApiary>);
 
 // --- Magic Frame
 recipes.remove(<MagicBees:frameMagic>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:frameMagic>);
+
+// --- Resilient Frame
+recipes.remove(<MagicBees:frameResilient>);
+
+// --- Gentle Frame
+recipes.remove(<MagicBees:frameGentle>);
+
+// --- Metabolic Frame
+recipes.remove(<MagicBees:frameMetabolic>);
+
+// --- Necrotic Frame
+recipes.remove(<MagicBees:frameNecrotic>);
+
+// --- Temporal Frame
+recipes.remove(<MagicBees:frameTemporal>);
+
+// --- Oblivion Frame
+recipes.remove(<MagicBees:frameOblivion>);
 
 // --- Concentrated Compound
 recipes.remove(<MagicBees:miscResources:2>);
@@ -82,6 +120,20 @@ recipes.remove(<MagicBees:miscResources:4>);
 // --- Draconis Chunk
 recipes.remove(<MagicBees:miscResources:6>);
 
+// --- Vis Apiary Booster
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
+
+// --- Thaumic Scoop
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumScoop>);
+
+// --- Thaumic Grafter
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumGrafter>);
+
+// --- Jade Mood Dail
+recipes.remove(<MagicBees:moonDial>);
+
+// --- Mysterious Magnets
+recipes.remove(<MagicBees:magnet:*>);
 
 
 // --- Add Recipes ---
@@ -131,9 +183,7 @@ mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>, [<Magic
 mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>);
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
-
 // --- Vis Apiary Booster
-mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
 mods.thaumcraft.Research.clearPages("MB_VisAuraProvider");
 mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
@@ -156,14 +206,143 @@ game.setLocalization("en_US", "tc.research_text.CONCENTRATEDCOMPOUND", "[MB] Con
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_Root", false);
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_EssenceLife", false);
 mods.thaumcraft.Research.setConcealed("CONCENTRATEDCOMPOUND", true);
-//mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
 mods.thaumcraft.Research.addPage("CONCENTRATEDCOMPOUND", "MagicBees.research_page.CONCENTRATEDCOMPOUND");
 game.setLocalization("en_US", "MagicBees.research_page.CONCENTRATEDCOMPOUND", "Concentrated Compound from Apatite");
 mods.thaumcraft.Crucible.addRecipe("CONCENTRATEDCOMPOUND", <MagicBees:miscResources:2>, <gregtech:gt.metaitem.01:8530>, "messis 6, vitreus 3");
 mods.thaumcraft.Research.addCruciblePage("CONCENTRATEDCOMPOUND", <MagicBees:miscResources:2>);
 
+// --- Essence of false Life
+mods.thaumcraft.Research.clearPages("MB_EssenceLife");
+mods.thaumcraft.Research.addPage("MB_EssenceLife", "tc.research_page.MB_EssenceLife.1");
+mods.thaumcraft.Crucible.addRecipe("MB_EssenceLife", <MagicBees:miscResources:7>, <minecraft:red_flower>, "metallum 16, permutatio 16, herba 16, terra 16");
+mods.thaumcraft.Research.addCruciblePage("MB_EssenceLife", <MagicBees:miscResources:7>);
+mods.thaumcraft.Research.setAspects("MB_EssenceLife", "metallum 2, permutatio 2, herba 2, terra 2");
+mods.thaumcraft.Research.setComplexity("MB_EssenceLife", 2);
 
+// --- Essence of a Shallow Grave
+mods.thaumcraft.Research.clearPages("MB_EssenceDeath");
+mods.thaumcraft.Research.addPage("MB_EssenceDeath", "tc.reseacrh_page.MB_EssenceDeath.1");
+mods.thaumcraft.Crucible.addRecipe("MB_EssenceDeath", <MagicBees:miscResources:8>, <minecraft:rotten_flesh>, "mortuus 16, perditio 16, spiritus 16, exanimis 16");
+mods.thaumcraft.Research.addCruciblePage("MB_EssenceDeath", <MagicBees:miscResources:8>);
+mods.thaumcraft.Research.setAspects("MB_EssenceDeath", "mortuus 2, perditio 2, spiritus 2, exanimis 2");
+mods.thaumcraft.Research.setComplexity("MB_EssenceDeath", 2);
 
+// --- Essence of Lost Time
+mods.thaumcraft.Research.clearPages("MB_EssenceTime");
+mods.thaumcraft.Research.addPage("MB_EssenceTime", "tc.research_page.MB_EssenceTime.1");
+mods.thaumcraft.Crucible.addRecipe("MB_EssenceTime", <MagicBees:miscResources:9>, <minecraft:clock>, "ordo 16, vacuos 16, vinculum 16, tempus 16");
+mods.thaumcraft.Research.addCruciblePage("MB_EssenceTime", <MagicBees:miscResources:9>);
+mods.thaumcraft.Research.setAspects("MB_EssenceTime", "ordo 2, vacuos 2, vinculum 2, tempus 2");
+mods.thaumcraft.Research.setComplexity("MB_EssenceTime", 2);
+
+// --- Essence of Everlasting  Durability
+mods.thaumcraft.Research.clearPages("MB_EssenceArmor");
+mods.thaumcraft.Research.addPage("MB_EssenceArmor", "tc.research_page.MB_EssenceArmor.1");
+mods.thaumcraft.Crucible.addRecipe("MB_EssenceArmor", <MagicBees:miscResources:10>, <minecraft:iron_chestplate>, "tutamen 16, praecantatio 16, metallum 16, fabrico 16");
+mods.thaumcraft.Research.addCruciblePage("MB_EssenceArmor", <MagicBees:miscResources:10>);
+mods.thaumcraft.Research.setAspects("MB_EssenceArmor", "tutamen 2, praecantatio 2, metallum 2, fabrico 2");
+mods.thaumcraft.Research.setComplexity("MB_EssenceArmor", 2);
+
+// --- Essence of Fickle Permanence
+mods.thaumcraft.Research.clearPages("MB_EssenceUnstable");
+mods.thaumcraft.Research.addPage("MB_EssenceUnstable", "tc.research_page.MB_EssenceUnstable.1");
+mods.thaumcraft.Crucible.addRecipe("MB_EssenceUnstable", <MagicBees:miscResources:12>, <MagicBees:propolis>, "perditio 16, permutatio 16, limus 16, potentia 16");
+mods.thaumcraft.Research.addCruciblePage("MB_EssenceUnstable", <MagicBees:miscResources:12>);
+mods.thaumcraft.Research.setAspects("MB_EssenceUnstable", "perditio 2, permutatio 2, limus 2, potentia 2");
+mods.thaumcraft.Research.setComplexity("MB_EssenceUnstable", 2);
+
+// --- Dimensional Singularity
+mods.thaumcraft.Research.clearPages("MB_DimensionalSingularity");
+mods.thaumcraft.Research.addPrereq("MB_DimensionalSingularity", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("MB_DimensionalSingularity", true);
+mods.thaumcraft.Research.addPage("MB_DimensionalSingularity", "tc.research_page.MB_DimensionalSingularity.1");
+mods.thaumcraft.Infusion.addRecipe("MB_DimensionalSingularity", <minecraft:gold_block>, [<MagicBees:propolis>, <minecraft:ender_eye>, <MagicBees:propolis>, <minecraft:ender_eye>, <MagicBees:propolis>,  <minecraft:ender_eye>],  " praecantatio 75, permutatio 75, alienis 50, tenebrae 50", <MagicBees:miscResources:17>, 6);
+mods.thaumcraft.Research.addInfusionPage("MB_DimensionalSingularity", <MagicBees:miscResources:17>);
+mods.thaumcraft.Research.setAspects("MB_DimensionalSingularity", "perditio 2, permutatio 2, limus 2, potentia 2");
+mods.thaumcraft.Research.setComplexity("MB_DimensionalSingularity", 5);
+
+// --- Essence of Scornful Oblivion
+mods.thaumcraft.Research.clearPages("MB_EssenceOblivion");
+mods.thaumcraft.Research.addPage("MB_EssenceOblivion", "tc.research_page.MB_EssenceOblivion.1");
+mods.thaumcraft.Infusion.addRecipe("MB_EssenceOblivion", <minecraft:dragon_egg>, [<MagicBees:miscResources:17>, <MagicBees:miscResources:17>, <MagicBees:miscResources:17>],  " alienis 100, praecantatio 100, lucrum 75, bestia 75", <MagicBees:miscResources:11>, 8);
+mods.thaumcraft.Research.addInfusionPage("MB_EssenceOblivion", <MagicBees:miscResources:11>);
+mods.thaumcraft.Research.setAspects("MB_EssenceOblivion", "alienis 5, praecantatio 5, lucrum 5, bestia 5");
+mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 7);
+
+// --- Magic Frame
+mods.thaumcraft.Research.clearPages("MB_FrameMagic");
+mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
+mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 75, terra 75, aer 75, perditio 75", [
+[<gregtech:gt.metaitem.01:27028>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27028>],
+[<Thaumcraft:ItemResource:7>, <Forestry:frameImpregnated>, <Thaumcraft:ItemResource:7>],
+[<gregtech:gt.metaitem.01:27028>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27028>]]);
+mods.thaumcraft.Research.addArcanePage("MB_FrameMagic", <MagicBees:frameMagic>);
+mods.thaumcraft.Research.setAspects("MB_FrameMagic", "ordo 5, terra 5, aer 5, perditio 5");
+mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 5);
+
+// --- Gentle Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceLife", <MagicBees:frameGentle>, "ordo 80, terra 80, aer 80, perditio 80", [
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:7>, <gregtech:gt.metaitem.01:27081>],
+[<MagicBees:miscResources:18>, <MagicBees:frameMagic>, <MagicBees:miscResources:18>],
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:18>, <gregtech:gt.metaitem.01:27081>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceLife", <MagicBees:frameGentle>);
+
+// --- Resilient Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceArmor", <MagicBees:frameResilient>, "ordo 80, terra 80, aer 80, perditio 80", [
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:10>, <gregtech:gt.metaitem.01:27081>],
+[<MagicBees:miscResources:22>, <MagicBees:frameMagic>, <MagicBees:miscResources:22>],
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27081>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceArmor", <MagicBees:frameResilient>);
+
+// --- Necrotic Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceDeath", <MagicBees:frameNecrotic>, "ordo 80, terra 80, aer 80, perditio 80", [
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:8>, <gregtech:gt.metaitem.01:27081>],
+[<MagicBees:miscResources:23>, <MagicBees:frameMagic>, <MagicBees:miscResources:23>],
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:23>, <gregtech:gt.metaitem.01:27081>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceDeath", <MagicBees:frameNecrotic>);
+
+// --- Metabolic Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceUnstable", <MagicBees:frameMetabolic>, "ordo 80, terra 80, aer 80, perditio 80", [
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:12>, <gregtech:gt.metaitem.01:27081>],
+[<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:20>, <gregtech:gt.metaitem.01:27081>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceUnstable", <MagicBees:frameMetabolic>);
+
+// --- Temporal Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceTime", <MagicBees:frameTemporal>, "ordo 80, terra 80, aer 80, perditio 80", [
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:9>, <gregtech:gt.metaitem.01:27081>],
+[<MagicBees:miscResources:21>, <MagicBees:frameMagic>, <MagicBees:miscResources:21>],
+[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27081>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceTime", <MagicBees:frameTemporal>);
+
+// --- Oblivion Frame
+mods.thaumcraft.Arcane.addShaped("MB_EssenceOblivion", <MagicBees:frameOblivion>, "ordo 100, terra 100, aer 100, ignis 100, aqua 100, perditio 100", [
+[<gregtech:gt.metaitem.01:27030>, <MagicBees:miscResources:11>, <gregtech:gt.metaitem.01:27030>],
+[<MagicBees:miscResources:19>, <MagicBees:frameMagic>, <MagicBees:miscResources:19>],
+[<gregtech:gt.metaitem.01:27030>, <MagicBees:miscResources:19>, <gregtech:gt.metaitem.01:27030>]]);
+mods.thaumcraft.Research.addArcanePage("MB_EssenceOblivion", <MagicBees:frameOblivion>);
+
+// --- Thaumic Scoop
+mods.thaumcraft.Research.clearPages("MB_Scoop");
+mods.thaumcraft.Research.addPage("MB_Scoop", "tc.research_page.MB_Scoop.1");
+mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "ordo 10, terra 10, aer 10", [
+[<gregtech:gt.metaitem.01:23330>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23330>],
+[<gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>],
+[<gregtech:gt.metatool.01:26>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metatool.01:12>]]);
+mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
+mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 10, terra 10, aer 10");
+mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
+
+// --- Thaumic Grafter
+mods.thaumcraft.Research.clearPages("MB_Grafter");
+mods.thaumcraft.Research.addPage("MB_Grafter", "tc.research_page.MB_Grafter.1");
+mods.thaumcraft.Arcane.addShaped("MB_Grafter", <MagicBees:item.thaumiumGrafter>, "ordo 15, terra 15, aer 15", [
+[null, <gregtech:gt.metaitem.01:23330>, null],
+[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:23330>, null],
+[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <gregtech:gt.metatool.01:12>]]);
+mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGrafter>);
+mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 15, terra 15, aer 15");
+mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
 
 // --- Assembler Recipes ---
@@ -207,3 +386,32 @@ Mixer.addRecipe(<Forestry:fertilizerCompound> * 12, null, <gregtech:gt.metaitem.
 Mixer.addRecipe(<Forestry:fertilizerCompound> * 5, null, <minecraft:sand:*> * 2, <gregtech:gt.metaitem.01:2530>, null, null, <liquid:water> * 100, 100, 16);
 // -
 Mixer.addRecipe(<Forestry:fertilizerCompound> * 10, null, <gregtech:gt.metaitem.01:2815> * 8, <gregtech:gt.metaitem.01:2530>, null, null, <liquid:water> * 100, 100, 16);
+
+
+
+// --- Refreshing research_name
+
+
+// --- Essence of false Life
+mods.thaumcraft.Research.refreshResearchRecipe("MB_EssenceLife");
+
+// --- Essence of a Shallow Grave
+mods.thaumcraft.Research.refreshResearchRecipe("MB_EssenceDeath");
+
+// --- Essence of Lost Time
+mods.thaumcraft.Research.refreshResearchRecipe("MB_EssenceTime");
+
+// --- Essence of Everlasting  Durability
+mods.thaumcraft.Research.refreshResearchRecipe("MB_EssenceArmor");
+
+// --- Essence of Fickle Permanence
+mods.thaumcraft.Research.refreshResearchRecipe("MB_EssenceUnstable");
+
+// --- Dimensional Singularity
+mods.thaumcraft.Research.refreshResearchRecipe("MB_DimensionalSingularity");
+
+// --- Thaumic Scoop
+mods.thaumcraft.Research.refreshResearchRecipe("MB_Scoop");
+
+// --- Thaumic Grafter
+mods.thaumcraft.Research.refreshResearchRecipe("MB_Grafte");

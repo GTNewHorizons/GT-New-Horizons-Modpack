@@ -2737,7 +2737,7 @@ mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
 
 // --- Dragon Egg
-mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 200, praecantatio 200, victus 100, bestia 200", 5, 10, 12, <minecraft:dragon_egg>);
+mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 200, praecantatio 200, victus 100, bestia 200", 4, 4, 12, <minecraft:dragon_egg>);
 game.setLocalization("en_US", "tc.research_name.DRAGONEGG", "Dragon Egg");
 game.setLocalization("en_US", "tc.research_text.DRAGONEGG", "[MC] Dragon Egg duplication");
 mods.thaumcraft.Research.addPrereq("DRAGONEGG", "MB_DimensionalSingularity", false);
@@ -2748,8 +2748,6 @@ game.setLocalization("en_US", "Minecraft.research_page.DRAGONEGG", "Dragon Eggs 
 mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, [<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], "alienis 150, bestia 120, praecantatio 100, victus 80",  <minecraft:dragon_egg>, 6);
 mods.thaumcraft.Research.addInfusionPage("DRAGONEGG", <minecraft:dragon_egg>);
 mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
-
-AssemblerLiq.addRecipe(<minecraft:dragon_egg>, <MagicBees:miscResources:6> * 9, <MagicBees:miscResources:7>, <liquid:molten.thaumium> * 1140, 400, 512);
 
 
 // --- Add Slicer Recipes ---
