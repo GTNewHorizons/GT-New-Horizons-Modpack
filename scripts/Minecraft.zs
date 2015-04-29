@@ -2651,8 +2651,6 @@ AssemblerLiq.addRecipe(<minecraft:soul_sand>, <Natura:heatsand>, <Natura:soil.ta
 // --- Wither Skull
 AssemblerLiq.addRecipe(<minecraft:skull:1>, <MagicBees:miscResources:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 216, 200, 96);
 
-// --- Dragon Egg
-AssemblerLiq.addRecipe(<minecraft:dragon_egg>, <MagicBees:miscResources:6> * 9, <MagicBees:miscResources:7>, <liquid:molten.thaumium> * 1140, 400, 512);
 
 
 // --- Alloy Smelter Recipes ---
@@ -2737,6 +2735,21 @@ game.setLocalization("en_US", "Minecraft.research_page.BEACON", "A beacon is a u
 mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>, [<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>], "praecantatio 120, alienis 100, lux 120, ordo 80, ignis 80, terra 80", <minecraft:beacon>, 6);
 mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
+
+// --- Dragon Egg
+mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 200, praecantatio 200, victus 100, bestia 200", 5, 10, 12, <minecraft:dragon_egg>);
+game.setLocalization("en_US", "tc.research_name.DRAGONEGG", "Dragon Egg");
+game.setLocalization("en_US", "tc.research_text.DRAGONEGG", "[MC] Dragon Egg duplication");
+mods.thaumcraft.Research.addPrereq("DRAGONEGG", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("DRAGONEGG", "INFUSION");
+mods.thaumcraft.Research.setConcealed("DRAGONEGG", true);
+mods.thaumcraft.Research.addPage("DRAGONEGG", "Minecraft.research_page.DRAGONEGG");
+game.setLocalization("en_US", "Minecraft.research_page.DRAGONEGG", "Dragon Eggs are dropped by Enderdragons when they are killed. When Right Clicked they teleport a short distance. Now you find a magical way to duplicate this Powerful Item using Draconis Bee Products and The Essence of false Life inside the Infusion Table");
+mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, [<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], "alienis 150, bestia 120, praecantatio 100, victus 80",  <minecraft:dragon_egg>, 6);
+mods.thaumcraft.Research.addInfusionPage("DRAGONEGG", <minecraft:dragon_egg>);
+mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
+
+AssemblerLiq.addRecipe(<minecraft:dragon_egg>, <MagicBees:miscResources:6> * 9, <MagicBees:miscResources:7>, <liquid:molten.thaumium> * 1140, 400, 512);
 
 
 // --- Add Slicer Recipes ---
