@@ -676,185 +676,260 @@ recipes.remove(RedHardClay);
 // --- Black Stained Clay Block
 recipes.remove(BlackHardClay);
 
-
-//Sandstone
+// --- Sandstone
 recipes.remove(<minecraft:sandstone>);
-//Chiseld Sandstone
+
+// --- Chiseld Sandstone
 recipes.remove(<minecraft:sandstone:1>);
-//Smooth Sandstone
+
+// --- Smooth Sandstone
 recipes.remove(<minecraft:sandstone:2>);
-//Gunpowder
+
+// --- Gunpowder
 recipes.removeShapeless(<minecraft:gunpowder>, [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>, <minecraft:glowstone_dust>]);
 recipes.removeShaped(<minecraft:gunpowder>, [
 [<Natura:barleyFood:4>, <Natura:barleyFood:4>, null],
 [<Natura:barleyFood:4>, <Natura:barleyFood:4>, null]]);
-//TNT
+
+// --- TNT
 recipes.remove(<minecraft:tnt>);
-//Snow
+
+// --- Snow
 recipes.remove(<minecraft:snow>);
-//Clay
+
+// --- Clay
 recipes.remove(<minecraft:clay>);
-//nether Brick
+
+// --- nether Brick
 recipes.remove(<minecraft:nether_brick>);
-//Quartz Block
+
+// --- Quartz Block
 recipes.remove(<minecraft:quartz_block>);
-//Chiseld Quartz
+
+// --- Chiseld Quartz
 recipes.remove(<minecraft:quartz_block:1>);
-//Bookshelf
+
+// --- Bookshelf
 recipes.remove(<minecraft:bookshelf>);
-//Brewing Stand
+
+// --- Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
-//Clock
+
+// --- Clock
 recipes.remove(<minecraft:clock>);
-//Compass
+
+// --- Compass
 recipes.remove(<minecraft:compass>);
-//Diamond Sword
+
+// --- Diamond Sword
 recipes.remove(<minecraft:diamond_sword>);
-//Diamond Shovel
+
+// --- Diamond Shovel
 recipes.remove(<minecraft:diamond_shovel>);
-//Diamond Pickaxe
+
+// --- Diamond Pickaxe
 recipes.remove(<minecraft:diamond_pickaxe>);
-//Diamond Axe
+
+// --- Diamond Axe
 recipes.remove(<minecraft:diamond_axe>);
-//Diamond Hoe
+
+// --- Diamond Hoe
 recipes.remove(<minecraft:diamond_hoe>);
-//Diamond Helm
+
+// --- Diamond Helm
 recipes.remove(<minecraft:diamond_helmet>);
-//Diamond Chestplate
+
+// --- Diamond Chestplate
 recipes.remove(<minecraft:diamond_chestplate>);
-//Diamond Leggins
+
+// --- Diamond Leggins
 recipes.remove(<minecraft:diamond_leggings>);
-//Diamond Boots
+
+// --- Diamond Boots
 recipes.remove(<minecraft:diamond_boots>);
-//Ender Eye
+
+// --- Ender Eye
 recipes.remove(<minecraft:ender_eye>);
-//Minecart with Chest
+
+// --- Minecart with Chest
 recipes.removeShaped(<minecraft:chest_minecart>);
-//Minecart with Furnace
+
+// --- Minecart with Furnace
 recipes.removeShaped(<minecraft:furnace_minecart>);
-//Minecart with Hopper
+
+// --- Minecart with Hopper
 recipes.removeShaped(<minecraft:hopper_minecart>);
-//Minecart with TNT
+
+// --- Minecart with TNT
 recipes.removeShaped(<minecraft:tnt_minecart>);
-//Iron Ingot
+
+// --- Iron Ingot
 recipes.remove(<minecraft:iron_ingot>);
-//Iron Nuggets
+
+// --- Iron Nuggets
 recipes.remove(<ore:nuggetIron>);
-//Gold Ingot
+
+// --- Gold Ingot
 recipes.remove(<minecraft:gold_ingot>);
-//Gold Nuggets
+
+// --- Gold Nuggets
 recipes.remove(<ore:nuggetGold>);
-//Golden Apple small
+
+// --- Golden Apple small
 recipes.remove(<minecraft:golden_apple>);
-//Golden Apple big
+
+// --- Golden Apple big
 recipes.remove(<minecraft:golden_apple:1>);
-//Golden Carrot
+
+// --- Golden Carrot
 recipes.remove(<minecraft:golden_carrot>);
-//Sugar
+
+// --- Sugar
 recipes.removeShaped(<minecraft:sugar>);
-//Cake
+
+// --- Cake
 recipes.remove(<minecraft:cake>);
-//Pumpkin Seeds
+
+// --- Pumpkin Seeds
 recipes.remove(<minecraft:pumpkin_seeds>);
-//Melon Seeds
+
+// --- Melon Seeds
 recipes.remove(<minecraft:melon_seeds>);
-//Fermented Spider Eye
+
+// --- Fermented Spider Eye
 recipes.remove(<minecraft:fermented_spider_eye>);
-//Magma Creme
+
+// --- Magma Creme
 recipes.remove(<minecraft:magma_cream>);
-//remove Oak Slaps
+
+// --- Oak Slaps
 recipes.removeShaped(<minecraft:wooden_slab> * 6, [
 [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-//Blazepowder
+
+// --- Blazepowder
 recipes.removeShaped(<minecraft:blaze_powder>, [
 [<Thaumcraft:blockCustomPlant:3>]]);
-//Bone Meal
+
+// --- Bone Meal
 recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
-//Fire Charge
+
+// --- Fire Charge
 recipes.remove(<minecraft:fire_charge>);
-//Melon
+
+// --- Melon
 recipes.remove(<minecraft:melon_block>);
-//Soul Sand
+
+// --- Soul Sand
 recipes.remove(<minecraft:soul_sand>);
-//Nether fences
+
+// --- Nether fences
 recipes.remove(<minecraft:nether_brick_fence>);
-//Leather Cap
+
+// --- Leather Cap
 recipes.removeShaped(<minecraft:leather_helmet>, [
 [<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
-//Leather Tunic
+
+// --- Leather Tunic
 recipes.removeShaped(<minecraft:leather_chestplate>, [
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>]]);
 
-//Leather Pants
+// --- Leather Pants
 recipes.removeShaped(<minecraft:leather_leggings>, [
 [<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
 
-//Leather Boots
+// --- Leather Boots
 recipes.removeShaped(<minecraft:leather_boots>, [
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>],
 [<harvestcraft:wovencottonItem>, null, <harvestcraft:wovencottonItem>]]);
 
-//Name Tag
+// --- Name Tag
 recipes.remove(<minecraft:name_tag>);
-//Lead
+
+// --- Lead
 recipes.remove(<minecraft:lead>);
-//Pumpkin Pie
+
+// --- Pumpkin Pie
 recipes.remove(<minecraft:pumpkin_pie>);
-//Comparator
+
+// --- Comparator
 recipes.remove(<minecraft:comparator>);
-//Redstone Repeater
+
+// --- Redstone Repeater
 recipes.remove(<minecraft:repeater>);
-//NetherStar
+
+// --- NetherStar
 recipes.removeShapeless(<minecraft:nether_star>);
-//Skeleton Head
+
+// --- Skeleton Head
 recipes.remove(<minecraft:skull>);
-//Zombi Head
+
+// --- Zombi Head
 recipes.remove(<minecraft:skull:2>);
-//Creeper Head
+
+// --- Creeper Head
 recipes.remove(<minecraft:skull:4>);
-//Flower Pot
+
+// --- Flower Pot
 recipes.remove(<minecraft:flower_pot>);
-//Emerald
+
+// --- Emerald
 recipes.removeShaped(<minecraft:emerald>, [
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>],
 [<ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource>]]);
-//Hay Block
+
+// --- Hay Block
 recipes.remove(<minecraft:hay_block>);
-//Wheat
+
+// --- Wheat
 recipes.remove(<minecraft:wheat>);
-//Diamond
+
+// --- Diamond
 recipes.removeShaped(<minecraft:diamond>, [
 [<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>],
 [<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>],
 [<MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>, <MagicBees:beeNugget:5>]]);
-//Slime Ball
+
+// --- Slime Ball
 recipes.remove(<minecraft:slime_ball>);
-//Item Frame
+
+// --- Item Frame
 recipes.remove(<minecraft:item_frame>);
-//Bed
+
+// --- Bed
 recipes.remove(<minecraft:bed>);
-//Fishing Rod
+
+// --- Fishing Rod
 recipes.remove(<minecraft:fishing_rod>);
-//Paper
+
+// --- Paper
 recipes.removeShaped(<minecraft:paper> * 2, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
-//Poisonous Potato
+
+// --- Poisonous Potato
 recipes.remove(<minecraft:poisonous_potato>);
-//Sign
+
+// --- Sign
 recipes.remove(<minecraft:sign>);
-//Boat
+
+// --- Boat
 recipes.remove(<minecraft:boat>);
-//Painting
+
+// --- Painting
 recipes.remove(<minecraft:painting>);
-//Bread
+
+// --- Bread
 furnace.remove(<minecraft:bread>);
-//Flient and SteelBars
+
+// --- Flient and SteelBars
 recipes.remove(<minecraft:flint_and_steel>);
+
+// --- Dragon Egg
+recipes.remove(<minecraft:dragon_egg>);
 
 // --- Empty Map
 recipes.remove(Map);
@@ -864,6 +939,10 @@ recipes.remove(WoodDoor);
 
 // --- Iron Door
 recipes.remove(IronDoor);
+
+// --- Wither Skull
+recipes.remove(<minecraft:skull:1>);
+
 
 // --- Adding Back Recipes ---
 
@@ -2568,6 +2647,12 @@ Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:str
 
 // --- Soul Sand
 AssemblerLiq.addRecipe(<minecraft:soul_sand>, <Natura:heatsand>, <Natura:soil.tainted> * 4, <liquid:water> * 1000, 100, 16);
+
+// --- Wither Skull
+AssemblerLiq.addRecipe(<minecraft:skull:1>, <MagicBees:miscResources:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 216, 200, 96);
+
+// --- Dragon Egg
+AssemblerLiq.addRecipe(<minecraft:dragon_egg>, <MagicBees:miscResources:6> * 9, <MagicBees:miscResources:7>, <liquid:molten.thaumium> * 1140, 400, 512);
 
 
 // --- Alloy Smelter Recipes ---
