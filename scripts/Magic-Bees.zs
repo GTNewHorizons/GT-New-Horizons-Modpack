@@ -72,6 +72,9 @@ recipes.remove(<MagicBees:magicApiary>);
 // --- Magic Frame
 recipes.remove(<MagicBees:frameMagic>);
 
+// --- Concentrated Compbound
+recipes.remove(<MagicBees:miscResources:2>);
+
 
 
 // --- Add Recipes ---
@@ -108,8 +111,54 @@ mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <MagicBees:backpack.thaumaturgeT1>, <MagicBees:backpack.thaumaturgeT2>);
 
+// --- Magic Apiary
+mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 75, sano 75, ignis 50, lucrum 50", 3, 5, 12, <MagicBees:magicApiary>);
+game.setLocalization("en_US", "tc.research_name.MAGICAPIARY", "Magic Apiary");
+game.setLocalization("en_US", "tc.research_text.MAGICAPIARY", "[MB] Magical Apiary.");
+mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.setConcealed("MAGICAPIARY", true);
+mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
+mods.thaumcraft.Research.addPage("MAGICAPIARY", "MagicBees.research_page.MAGICAPIARY");
+game.setLocalization("en_US", "MagicBees.research_page.MAGICAPIARY", "Magic Apiary");
+mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>, [<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>], "praecantatio 75, sano 75, ignis 50, lucrum 50, exanimis 25, herba 20", <MagicBees:magicApiary>, 3);
+mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>);
+mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
+
+
+// --- Vis Aura Provider
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
+mods.thaumcraft.Research.clearPages("MB_VisAuraProvider");
+mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
+mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
+mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 75, metalum 70, vitreus 50, ordo 30, motus 25, machina 20");
+mods.thaumcraft.Research.setComplexity("MB_VisAuraProvider", 12);
+mods.thaumcraft.Research.setConcealed("MB_VisAuraProvider", true);
+mods.thaumcraft.Warp.addToResearch("MB_VisAuraProvider", 2);
+mods.thaumcraft.Research.addPage("MB_VisAuraProvider", "tc.research_page.MB_VisAuraProvider.1");
+mods.thaumcraft.Arcane.addShaped("MB_VisAuraProvider", <MagicBees:visAuraProvider>, "ordo 100, aqua 100, aer 100, perditio 100", [
+[<MagicBees:pollen:1>, <Thaumcraft:blockWoodenDevice:5>, <MagicBees:pollen>],
+[<Thaumcraft:blockWoodenDevice:5>, <Thaumcraft:blockMetalDevice:2>, <Thaumcraft:blockWoodenDevice:5>],
+[<gregtech:gt.metaitem.02:23086>, <gregtech:gt.blockmachines:4182>, <gregtech:gt.metaitem.02:23086>]]);
+mods.thaumcraft.Research.addArcanePage("MB_VisAuraProvider", <MagicBees:visAuraProvider>);
+
+// --- Concentrated Compbound
+mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPBOUND", "MAGICBEES", "messis 75, sano 75, vitreus 50, perditio 50", 2, -3, 5, <MagicBees:miscResources:2>);
+game.setLocalization("en_US", "tc.research_name.CONCENTRATEDCOMPBOUND", "Concentrated Combpound");
+game.setLocalization("en_US", "tc.research_text.CONCENTRATEDCOMPBOUND", "[MB] Concentrated Combpound.");
+mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPBOUND", "MB_Root", false);
+mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPBOUND", "MB_EssenceLife", false);
+mods.thaumcraft.Research.setConcealed("CONCENTRATEDCOMPBOUND", true);
+//mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
+mods.thaumcraft.Research.addPage("CONCENTRATEDCOMPBOUND", "MagicBees.research_page.CONCENTRATEDCOMPBOUND");
+game.setLocalization("en_US", "MagicBees.research_page.CONCENTRATEDCOMPBOUND", "Concentrated Combpound from Apatite");
+mods.thaumcraft.Crucible.addRecipe("CONCENTRATEDCOMPBOUND", <MagicBees:miscResources:2>, <gregtech:gt.metaitem.01:8530>, "messis 6, vitreus 3");
+mods.thaumcraft.Research.addCruciblePage("CONCENTRATEDCOMPBOUND", <MagicBees:miscResources:2>);
+
+
 
 // --- Assembler Recipes ---
+
 
 // --- Void Capsular
 AssemblerLiq.addRecipe(<MagicBees:capsule.void> * 2, <Genetics:misc:8> * 2, <MagicBees:miscResources:17>, <liquid:molten.gold> * 288, 600, 64);
@@ -126,3 +175,6 @@ AssemblerLiq.addRecipe(<MagicBees:effectJar>, <appliedenergistics2:tile.BlockQua
 Extruder.addRecipe(<MagicBees:capsule.magic>, <MagicBees:wax> * 3, <gregtech:gt.metaitem.01:32354> * 0, 100, 32);
 // -
 Extruder.addRecipe(<MagicBees:capsule.magic>, <MagicBees:wax:2> * 3, <gregtech:gt.metaitem.01:32354> * 0, 100, 32);
+
+// --- Vis Aura Provider
+mods.thaumcraft.Research.refreshResearchRecipe("MB_VisAuraProvider");
