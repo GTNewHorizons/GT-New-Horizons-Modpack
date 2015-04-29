@@ -3,6 +3,7 @@
 //import Mods
 
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
@@ -144,6 +145,10 @@ recipes.remove(<Thaumcraft:blockTaint:2>);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:2>);
 //Paving Stone of Warding
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:3>);
+//Knowledge Fragment
+recipes.remove(<Thaumcraft:ItemResource:9>);
+//Research Note
+recipes.remove(<Thaumcraft:ItemResearchNotes:42>);
 
 
 //Remove Furnace Recipes
@@ -1593,12 +1598,24 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:6>, "aer 20
 //Arcan Stone Bricks
 Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
 
+//Knowledge Fragment
+AssemblerLiq.addRecipe(<Thaumcraft:ItemResource:9>, <MagicBees:miscResources> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.thaumium> * 144, 200, 96);
+
+//Research Note
+AssemblerLiq.addRecipe(<Thaumcraft:ItemResearchNotes:42>, <Thaumcraft:ItemResource:9> * 9, <gregtech:gt.integrated_circuit:9> * 0, <liquid:molten.thaumium> * 576, 200, 256);
+
+
+
 //Extractor Recipes
+
 
 //Quicksilver
 Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
 
+
+
 //Macerator Recipes
+
 
 //Salis Mundus
 Macerator.addRecipe(<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>);

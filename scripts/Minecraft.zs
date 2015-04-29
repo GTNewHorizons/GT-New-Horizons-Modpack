@@ -7,10 +7,12 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.ImplosionCompressor;
+import mods.gregtech.Mixer;
 import mods.gregtech.Slicer;
 
 
@@ -772,8 +774,8 @@ recipes.removeShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>]);
 recipes.remove(<minecraft:fire_charge>);
 //Melon
 recipes.remove(<minecraft:melon_block>);
-
-
+//Soul Sand
+recipes.remove(<minecraft:soul_sand>);
 //Nether fences
 recipes.remove(<minecraft:nether_brick_fence>);
 //Leather Cap
@@ -2564,6 +2566,9 @@ recipes.addShaped(<minecraft:flint_and_steel>, [
 //Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
 
+// --- Soul Sand
+AssemblerLiq.addRecipe(<minecraft:soul_sand>, <Natura:heatsand>, <Natura:soil.tainted> * 4, <liquid:water> * 1000, 100, 16);
+
 
 // --- Alloy Smelter Recipes ---
 
@@ -2596,6 +2601,16 @@ ImplosionCompressor.addRecipe([<minecraft:nether_star> * 3, <gregtech:gt.metaite
 
 //Shears
 oreDict.craftingToolShears.add(<minecraft:shears>);
+
+
+
+// --- Mixer Recipes ---
+
+
+// --- Soul Sand
+Mixer.addRecipe(<minecraft:soul_sand> * 4, null, <minecraft:sand:*> * 4, <minecraft:dirt:*>, <MagicBees:wax:1> * 4, null, <liquid:water> * 1000, 100, 16);
+
+
 
 
 //Enchanting Table Infusion
