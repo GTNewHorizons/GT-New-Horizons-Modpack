@@ -214,7 +214,6 @@ val ClearPane = <TConstruct:GlassPane>;
 val Coal = <ore:gemCoal>;
 val Charcoal = <ore:gemCharcoal>;
 val CoalCoke = <ore:fuelCoke>;
-val SugarCoke = <ore:itemCharcoalSugar>;
 val Phosphorous = <ore:dustPhosphorite>;
 val Beeswax = <ore:itemBeeswax>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
@@ -1061,6 +1060,10 @@ recipes.addShapedMirrored(Torch * 2, [
 [Charcoal, null],
 [Stick, null]]);
 // -
+recipes.addShapedMirrored(Torch * 3, [
+[Charcoal, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
+[Stick, null]]);
+// -
 recipes.addShapedMirrored(Torch, [
 [Beeswax, null],
 [Stick, null]]);
@@ -1102,7 +1105,7 @@ recipes.addShaped(Torch * 2, [
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 4, [
-[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 3, [
@@ -1110,11 +1113,7 @@ recipes.addShapedMirrored(Torch * 3, [
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 6, [
-[WovenCloth, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShapedMirrored(Torch * 2, [
-[SugarCoke, null],
+[WovenCloth, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 5, [
@@ -1127,6 +1126,10 @@ recipes.addShaped(Torch * 4, [
 // -
 recipes.addShaped(Torch * 3, [
 [Charcoal, String],
+[Stick, null]]);
+// -
+recipes.addShaped(Torch * 4, [
+[Charcoal, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 2, [
@@ -1154,7 +1157,7 @@ recipes.addShaped(Torch * 3, [
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 5, [
-[AnyWool, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[AnyWool, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 4, [
@@ -1162,11 +1165,7 @@ recipes.addShaped(Torch * 4, [
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 7, [
-[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[SugarCoke, String],
+[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 6, [
@@ -1179,6 +1178,10 @@ recipes.addShaped(Torch * 4, [
 // -
 recipes.addShaped(Torch * 3, [
 [Charcoal, null],
+[ImpregnatedStick, null]]);
+// -
+recipes.addShaped(Torch * 4, [
+[Charcoal, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 2, [
@@ -1206,7 +1209,7 @@ recipes.addShaped(Torch * 3, [
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 6, [
-[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 4, [
@@ -1214,11 +1217,7 @@ recipes.addShaped(Torch * 4, [
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 8, [
-[WovenCloth, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[SugarCoke, null],
+[WovenCloth, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 6, [
@@ -1231,6 +1230,10 @@ recipes.addShaped(Torch * 5, [
 // -
 recipes.addShaped(Torch * 4, [
 [Charcoal, String],
+[ImpregnatedStick, null]]);
+// -
+recipes.addShaped(Torch * 5, [
+[Charcoal, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 3, [
@@ -1258,7 +1261,7 @@ recipes.addShaped(Torch * 4, [
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 7, [
-[AnyWool, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[AnyWool, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 5, [
@@ -1266,11 +1269,7 @@ recipes.addShaped(Torch * 5, [
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 9, [
-[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[SugarCoke, String],
+[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [ImpregnatedStick, null]]);
 // -
 recipes.addShaped(Torch * 7, [
@@ -2526,7 +2525,7 @@ recipes.addShaped(<minecraft:paper> * 2, [
 // -
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
+[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 
 // --- Wooden Door
@@ -2562,18 +2561,18 @@ recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 // --- Bricks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 // -
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 
 // --- Nether Bricks
 recipes.addShaped(<minecraft:nether_brick> * 2, [
 [NetherBricks, NetherBricks, NetherBricks],
-[NetherBricks, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), NetherBricks],
+[NetherBricks, <minecraft:lava_bucket>.giveBack(<minecraft:bucket>), NetherBricks],
 [NetherBricks, NetherBricks, NetherBricks]]);
 // -
 recipes.addShaped(<minecraft:nether_brick> * 2, [

@@ -170,6 +170,12 @@ mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <MagicBees:backpack.thaumaturgeT1>, <MagicBees:backpack.thaumaturgeT2>);
 
+// --_ Mysterious Magnet Level 0
+recipes.addShaped(<MagicBees:magnet>, [
+[<ore:craftingToolWrench>, <ore:plateIron>, <ore:screwSteelMagnetic>],
+[<minecraft:compass>, <MagicBees:miscResources:17>, <minecraft:compass>],
+[<ore:screwSteelMagnetic>, <ore:gemExquisiteDiamond>, <ore:craftingToolScrewdriver>]]);
+
 // --- Magic Apiary
 mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 75, sano 75, ignis 50, lucrum 50", 3, 5, 12, <MagicBees:magicApiary>);
 game.setLocalization("en_US", "tc.research_name.MAGICAPIARY", "Magic Apiary");
@@ -359,6 +365,49 @@ AssemblerLiq.addRecipe(<MagicBees:miscResources:4>, <MagicBees:miscResources:3> 
 
 // --- Draconis Chunk
 AssemblerLiq.addRecipe(<MagicBees:miscResources:6>, <MagicBees:miscResources:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 288, 400, 256);
+
+// --- Jade Mood Dail
+AssemblerLiq.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <minecraft:quartz> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 32);
+
+// --- Mysterious Magnet Level 1
+AssemblerLiq.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet:1> * 2, <liquid:molten.redstone> * 1296, 200, 64);
+
+// --- Mysterious Magnet Level 2
+AssemblerLiq.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:2> * 2, <liquid:molten.redstone> * 1296, 400,128);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:3> * 2, <liquid:molten.redstone> * 1296, 400, 128);
+
+// --- Mysterious Magnet Level 3
+AssemblerLiq.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:4> * 2, <liquid:molten.redstone> * 1296, 600, 256);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:5> * 2, <liquid:molten.redstone> * 1296, 600, 256);
+
+// --- Mysterious Magnet Level 4
+AssemblerLiq.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:6> * 2, <liquid:molten.redstone> * 1296, 800, 512);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:7> * 2, <liquid:molten.redstone> * 1296, 800, 512);
+
+// --- Mysterious Magnet Level 5
+AssemblerLiq.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:8> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:9> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
+
+// --- Mysterious Magnet Level 6
+AssemblerLiq.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:10> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:11> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
+
+// --- Mysterious Magnet Level 7
+AssemblerLiq.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:12> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:13> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
+
+// --- Mysterious Magnet Level 8
+AssemblerLiq.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:14> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
+//- 
+AssemblerLiq.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:15> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
 
 
 

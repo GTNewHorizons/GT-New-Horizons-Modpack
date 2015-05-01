@@ -302,9 +302,9 @@ recipes.addShaped(<IC2:blockGenerator:8>, [
 
 // --- Kinetic Wind Generator
 recipes.addShaped(<IC2:blockKineticGenerator>, [
-[<ore:plateTungstenSteel>, <ore:circuitAdvanced>, <ore:plateTungstenSteel>],
-[<ore:cableGt02Gold>, <ore:craftingGenerator>, <ore:cableGt02Gold>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:itemRecipePart>, <gregtech:gt.metaitem.01:32602>]]);
+[<ore:plateDoubleStainlessSteel>, <ore:circuitAdvanced>, <ore:plateDoubleStainlessSteel>],
+[<ore:cableGt12Silver>, <ore:craftingGenerator>, <ore:cableGt12Silver>],
+[<ore:gearStainlessSteel>, <gregtech:gt.blockcasings:3>, <ore:gearStainlessSteel>]]);
 
 // --- Reactor Chamber
 recipes.addShaped(<IC2:blockReactorChamber>, [
@@ -355,10 +355,14 @@ recipes.addShaped(<IC2:blockRubber>, [
 [null, null, null]]);
 
 // --- Wood Scaffold
-recipes.addShapeless(<IC2:blockScaffold>, [<ore:frameGtWood>, <gregtech:gt.metaitem.01:17809>]);
+recipes.addShaped(<IC2:blockScaffold>, [
+[<ore:screwIron>, <gregtech:gt.metaitem.01:17809>, <ore:screwIron>],
+[<ore:craftingToolWrench>, <ore:frameGtWood>, <ore:craftingToolScrewdriver>]]);
 
 // --- Iron Scaffold
-recipes.addShapeless(<IC2:blockIronScaffold>, [<ore:frameGtIron>, <ore:plateIron>]);
+recipes.addShaped(<IC2:blockIronScaffold>, [
+[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
+[<ore:craftingToolWrench>, <ore:frameGtIron>, <ore:craftingToolScrewdriver>]]);
 
 // --- Mining laser
 recipes.addShaped(<IC2:itemToolMiningLaser>, [
@@ -441,32 +445,32 @@ recipes.addShaped(<IC2:itemCable:10>, [
 // --- Wood Rotor Blade
 recipes.addShaped(<IC2:itemRecipePart:7>, [
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
-[<gregtech:gt.metaitem.01:17809>, <ore:ringWood>, <gregtech:gt.metaitem.01:17809>],
+[<gregtech:gt.metaitem.01:17809>, <ore:ringIron>, <gregtech:gt.metaitem.01:17809>],
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>]]);
 
 // --- Kinetic Wind Generator Rotor Blade (Wood)
 recipes.addShaped(<IC2:itemwoodrotor>, [
-[<ore:stickIron>, <IC2:itemRecipePart:7>, <ore:craftingToolHardHammer>],
-[<IC2:itemRecipePart:7>, <ore:ringIron>, <IC2:itemRecipePart:7>],
-[<ore:craftingToolScrewdriver>, <IC2:itemRecipePart:7>, <ore:screwIron>]]);
+[<ore:screwSteel>, <IC2:itemRecipePart:7>, <ore:craftingToolWrench>],
+[<IC2:itemRecipePart:7>, <ore:ringSteel>, <IC2:itemRecipePart:7>],
+[<ore:craftingToolScrewdriver>, <IC2:itemRecipePart:7>, <ore:screwSteel>]]);
 
 // --- Iron Rotor Blade
 recipes.addShaped(<IC2:itemRecipePart:8>, [
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[<ore:plateIron>, <ore:ringSteel>, <ore:plateIron>],
+[<ore:plateIron>, <ore:ringStainlessSteel>, <ore:plateIron>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 // --- Kinetic Wind Generator Rotor Blade (Iron)
 recipes.addShaped(<IC2:itemironrotor>, [
 [<IC2:itemRecipePart:11>, <IC2:itemRecipePart:8>, <ore:craftingToolHardHammer>],
-[<IC2:itemRecipePart:8>, <ore:ringSteel>, <IC2:itemRecipePart:8>],
+[<IC2:itemRecipePart:8>, <ore:ringStainlessSteel>, <IC2:itemRecipePart:8>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:8>, <IC2:itemRecipePart:11>]]);
 
 // --- Steel Rotor Blade
 recipes.addShaped(<IC2:itemRecipePart:10>, [
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-[<ore:plateSteel>, <ore:ringTungstenSteel>, <ore:plateSteel>],
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
+[<ore:plateStainlessSteel>, <ore:ringTungstenSteel>, <ore:plateStainlessSteel>],
+[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
 // --- Steel Rotor Blade
 recipes.addShapeless(<IC2:itemRecipePart:10>, [<Railcraft:part.turbine.blade>]);
@@ -474,7 +478,7 @@ recipes.addShapeless(<IC2:itemRecipePart:10>, [<Railcraft:part.turbine.blade>]);
 // --- Kinetic Wind Generator Rotor Blade (Steel)
 recipes.addShaped(<IC2:itemsteelrotor>, [
 [<IC2:itemRecipePart:12>, <IC2:itemRecipePart:10>, <ore:craftingToolHardHammer>],
-[<IC2:itemRecipePart:10>, <ore:ringTungstenSteel>, <IC2:itemRecipePart:10>],
+[<IC2:itemRecipePart:10>, <ore:ringTitanium>, <IC2:itemRecipePart:10>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:12>]]);
 
 // --- Carbon Rotor Blade
@@ -485,9 +489,9 @@ recipes.addShaped(<IC2:itemRecipePart:9>, [
 
 // --- Kinetic Wind Generator Rotor Blade (Carbon)
 recipes.addShaped(<IC2:itemwcarbonrotor>, [
-[<ore:screwIridium>, <IC2:itemRecipePart:9>, <ore:craftingToolHardHammer>],
-[<IC2:itemRecipePart:9>, <IC2:itemsteelrotor>, <IC2:itemRecipePart:9>],
-[<ore:craftingToolWrench>, <IC2:itemRecipePart:9>, <ore:screwIridium>]]);
+[<ore:screwTungstenSteel>, <IC2:itemRecipePart:9>, <ore:craftingToolHardHammer>],
+[<IC2:itemRecipePart:9>, <ore:ringTungstenSteel>, <IC2:itemRecipePart:9>],
+[<ore:craftingToolWrench>, <IC2:itemRecipePart:9>, <ore:screwTungstenSteel>]]);
 
 // --- Steam Turbine Blade ---
 recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
@@ -632,6 +636,12 @@ Assembler.addRecipe(<IC2:reactorReflectorThick>, <IC2:reactorReflector>, <gregte
 
 // --- Treetap
 Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gregtech:gt.metaitem.01:27809>, 200, 8);
+
+// --- Wood Scaffold
+Assembler.addRecipe(<IC2:blockScaffold>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:17809>, 200, 16);
+
+// --- Iron Scaffold
+Assembler.addRecipe(<IC2:blockIronScaffold>, <gregtech:gt.blockmachines:4128>, <Railcraft:part.plate>, 300, 32);
 
 
 
