@@ -15,7 +15,6 @@ import mods.gregtech.Centrifuge;
 recipes.removeShaped(<ForbiddenMagic:FMResource> * 9, [[<minecraft:emerald>]]);
 
 
-
 // --- add Recipes ---
 
 

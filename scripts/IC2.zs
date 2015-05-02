@@ -268,9 +268,23 @@ oreDict.plateSteel.remove(<IC2:itemPlates:5>);
 // --- Steam Turbine Blade ---
 recipes.remove(<IC2:itemSteamTurbineBlade>);
 
+// --- Steam Turbine ---
+recipes.remove(<IC2:itemSteamTurbine>);
+
 // --- Sticky Resin
 furnace.remove(<IC2:itemHarz>);
 
+// --- Iron Blade
+recipes.remove(<IC2:itemIronBlockCuttingBlade>);
+
+// --- Refined Iron Blade
+recipes.remove(<IC2:itemAdvIronBlockCuttingBlade>);
+
+// --- Diamond Blade
+recipes.remove(<IC2:itemDiamondBlockCuttingBlade>);
+
+// --- Empty booze Barrel
+recipes.remove(<IC2:itemBarrel>);
 
 
 
@@ -496,6 +510,14 @@ recipes.addShaped(<IC2:itemwcarbonrotor>, [
 // --- Steam Turbine Blade ---
 recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
 
+// --- Steam Turbine ---
+recipes.addShapeless(<IC2:itemSteamTurbine>, [<Railcraft:part.turbine.rotor>]);
+// -
+recipes.addShaped(<IC2:itemSteamTurbine>, [
+[<IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>],
+[null, Wrench, null]]);
+
+
 // --- Iron Furnace
 recipes.addShaped(IronFurnace, [
 [IronPlate, IronPlate, IronPlate],
@@ -593,6 +615,11 @@ recipes.addShaped(<IC2:itemRecipePart:6>, [
 // --- Hops
 recipes.addShapeless(<IC2:itemHops>, [<ExtraTrees:misc:5>]);
 
+// --- Empty booze Barrel
+recipes.addShaped(<IC2:itemBarrel>, [
+[<gregtech:gt.metaitem.01:17809>, <ore:ringIron>, <gregtech:gt.metaitem.01:17809>],
+[<gregtech:gt.metaitem.01:17809>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17809>],
+[<gregtech:gt.metaitem.01:17809>, <ore:ringIron>, <gregtech:gt.metaitem.01:17809>]]);
 
 
 

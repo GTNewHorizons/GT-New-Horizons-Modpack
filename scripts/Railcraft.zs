@@ -1630,10 +1630,13 @@ recipes.addShaped(<Railcraft:part.signal.lamp>, [
 [GlassPane, <RedLogic:redlogic.lampNonCube:158>, IronPlate]]);
 
 // --- Turbine Blade ---
-recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:10>]);
+recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:12>]);
 
 // --- Steam Turbine Disk ---
 recipes.addShapeless(<Railcraft:part.turbine.disk>, [<IC2:itemSteamTurbineBlade>]);
+
+// --- Turbine Rotor---
+recipes.addShapeless(<Railcraft:part.turbine.rotor>, [<IC2:itemSteamTurbine>]);
 
 // --- Trackmans Goggle ---
 recipes.addShaped(<Railcraft:armor.goggles>, [

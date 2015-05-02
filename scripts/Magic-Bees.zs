@@ -278,54 +278,54 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 7);
 // --- Magic Frame
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
 mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
-mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 75, terra 75, aer 75, perditio 75", [
-[<gregtech:gt.metaitem.01:27028>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27028>],
+mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 25, terra 25, aer 25, perditio 25, ignis 25, aqua 25", [
+[<gregtech:gt.metaitem.01:27305>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27305>],
 [<Thaumcraft:ItemResource:7>, <Forestry:frameImpregnated>, <Thaumcraft:ItemResource:7>],
-[<gregtech:gt.metaitem.01:27028>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27028>]]);
+[<gregtech:gt.metaitem.01:27305>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27305>]]);
 mods.thaumcraft.Research.addArcanePage("MB_FrameMagic", <MagicBees:frameMagic>);
 mods.thaumcraft.Research.setAspects("MB_FrameMagic", "ordo 5, terra 5, aer 5, perditio 5");
 mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 5);
 
 // --- Gentle Frame
-mods.thaumcraft.Arcane.addShaped("MB_EssenceLife", <MagicBees:frameGentle>, "ordo 80, terra 80, aer 80, perditio 80", [
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:7>, <gregtech:gt.metaitem.01:27081>],
+mods.thaumcraft.Arcane.addShaped("MB_EssenceLife", <MagicBees:frameGentle>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:7>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:18>, <MagicBees:frameMagic>, <MagicBees:miscResources:18>],
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:18>, <gregtech:gt.metaitem.01:27081>]]);
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:18>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceLife", <MagicBees:frameGentle>);
 
 // --- Resilient Frame
-mods.thaumcraft.Arcane.addShaped("MB_EssenceArmor", <MagicBees:frameResilient>, "ordo 80, terra 80, aer 80, perditio 80", [
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:10>, <gregtech:gt.metaitem.01:27081>],
+mods.thaumcraft.Arcane.addShaped("MB_EssenceArmor", <MagicBees:frameResilient>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:10>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:22>, <MagicBees:frameMagic>, <MagicBees:miscResources:22>],
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27081>]]);
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceArmor", <MagicBees:frameResilient>);
 
 // --- Necrotic Frame
-mods.thaumcraft.Arcane.addShaped("MB_EssenceDeath", <MagicBees:frameNecrotic>, "ordo 80, terra 80, aer 80, perditio 80", [
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:8>, <gregtech:gt.metaitem.01:27081>],
+mods.thaumcraft.Arcane.addShaped("MB_EssenceDeath", <MagicBees:frameNecrotic>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:8>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:23>, <MagicBees:frameMagic>, <MagicBees:miscResources:23>],
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:23>, <gregtech:gt.metaitem.01:27081>]]);
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:23>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceDeath", <MagicBees:frameNecrotic>);
 
 // --- Metabolic Frame
-mods.thaumcraft.Arcane.addShaped("MB_EssenceUnstable", <MagicBees:frameMetabolic>, "ordo 80, terra 80, aer 80, perditio 80", [
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:12>, <gregtech:gt.metaitem.01:27081>],
+mods.thaumcraft.Arcane.addShaped("MB_EssenceUnstable", <MagicBees:frameMetabolic>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:12>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:20>, <gregtech:gt.metaitem.01:27081>]]);
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:20>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceUnstable", <MagicBees:frameMetabolic>);
 
 // --- Temporal Frame
-mods.thaumcraft.Arcane.addShaped("MB_EssenceTime", <MagicBees:frameTemporal>, "ordo 80, terra 80, aer 80, perditio 80", [
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:9>, <gregtech:gt.metaitem.01:27081>],
+mods.thaumcraft.Arcane.addShaped("MB_EssenceTime", <MagicBees:frameTemporal>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:9>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:21>, <MagicBees:frameMagic>, <MagicBees:miscResources:21>],
-[<gregtech:gt.metaitem.01:27081>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27081>]]);
+[<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:22>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceTime", <MagicBees:frameTemporal>);
 
 // --- Oblivion Frame
 mods.thaumcraft.Arcane.addShaped("MB_EssenceOblivion", <MagicBees:frameOblivion>, "ordo 100, terra 100, aer 100, ignis 100, aqua 100, perditio 100", [
-[<gregtech:gt.metaitem.01:27030>, <MagicBees:miscResources:11>, <gregtech:gt.metaitem.01:27030>],
+[<gregtech:gt.metaitem.01:27316>, <MagicBees:miscResources:11>, <gregtech:gt.metaitem.01:27316>],
 [<MagicBees:miscResources:19>, <MagicBees:frameMagic>, <MagicBees:miscResources:19>],
-[<gregtech:gt.metaitem.01:27030>, <MagicBees:miscResources:19>, <gregtech:gt.metaitem.01:27030>]]);
+[<gregtech:gt.metaitem.01:27316>, <MagicBees:miscResources:19>, <gregtech:gt.metaitem.01:27316>]]);
 mods.thaumcraft.Research.addArcanePage("MB_EssenceOblivion", <MagicBees:frameOblivion>);
 
 // --- Thaumic Scoop

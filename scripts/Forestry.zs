@@ -1398,8 +1398,11 @@ mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_DimensionalSingularity", f
 mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
 mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
 game.setLocalization("en_US", "Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bee's productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
-mods.thaumcraft.Infusion.addRecipe("PROVENFRAME", <Forestry:frameImpregnated>, [<Forestry:honeyDrop>, <Forestry:honeydew>, <Forestry:craftingMaterial:3>, <Forestry:propolis>, <Forestry:royalJelly>, <Forestry:propolis:3>, <Forestry:craftingMaterial:3>, <Forestry:beeswax>], "victus 30, cognitio 60, potentia 40, praecantatio 40, fabrico 50", <Forestry:frameProven>, 4);
-mods.thaumcraft.Research.addInfusionPage("PROVENFRAME", <Forestry:frameProven>);
+mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15, terra 15, aer 15, perditio 15, ignis 15, aqua 15", [
+[<gregtech:gt.metaitem.01:27305>, <Forestry:honeydew>, <gregtech:gt.metaitem.01:27305>],
+[<Forestry:propolis>, <Forestry:frameImpregnated>, <Forestry:propolis:3>],
+[<gregtech:gt.metaitem.01:27305>, <Forestry:royalJelly>, <gregtech:gt.metaitem.01:27305>]]);
+mods.thaumcraft.Research.addArcanePage("PROVENFRAME", <Forestry:frameProven>);
 
 // --- Proven Grafter
 mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 200, permutatio 200, metallum 200, arbor 200", -5, -3, 10, <Forestry:grafterProven>);
