@@ -81,21 +81,24 @@ recipes.remove(<CarpentersBlocks:blockCarpentersBarrier>);
 
 
 // --- Carpenters Block
-recipes.addShaped(CarpentersBlock * 1, [
+recipes.addShaped(CarpentersBlock * 2, [
 [Frame,WoodScrew, Frame],
 [WoodScrew, Screwdriver, WoodScrew],
 [Frame, WoodScrew, Frame]]);
 // -
-recipes.addShaped(CarpentersBlock * 2, [
+recipes.addShaped(CarpentersBlock * 4, [
 [Frame, IronScrew, Frame],
 [IronScrew, Screwdriver, IronScrew],
 [Frame, IronScrew, Frame]]);
 // -
-Assembler.addRecipe(CarpentersBlock * 3, <gregtech:gt.blockmachines:4905> * 3, AluminiumScrew, 800, 32);
+Assembler.addRecipe(CarpentersBlock, <gregtech:gt.blockmachines:4905>, WoodScrew, 100, 16);
 // -
-Assembler.addRecipe(CarpentersBlock * 2, <gregtech:gt.blockmachines:4905> * 2, SteelScrew, 600, 32);
+Assembler.addRecipe(CarpentersBlock * 2, <gregtech:gt.blockmachines:4905>, IronScrew, 200, 16);
 // -
-Assembler.addRecipe(CarpentersBlock, <gregtech:gt.blockmachines:4905>, IronScrew, 400, 32);
+Assembler.addRecipe(CarpentersBlock * 4, <gregtech:gt.blockmachines:4905> * 2, SteelScrew, 300, 32);
+// -
+Assembler.addRecipe(CarpentersBlock * 8, <gregtech:gt.blockmachines:4905> * 4, AluminiumScrew, 400, 32);
+
 
 // --- Collapsible Block
 recipes.addShaped(CollapsibleBlock * 2, [

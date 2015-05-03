@@ -170,6 +170,15 @@ recipes.remove(<TConstruct:leggingsWood>);
 // --- Wooden Boots
 recipes.remove(<TConstruct:bootsWood>);
 
+// --- Seared Brick
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
+
+// --- Seared Stone
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
+
+// --- Seared Cobblestone
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
+
 
 // --- Casting Recipes ---
 
@@ -273,6 +282,8 @@ recipes.remove(BallOfMoss);
 
 // --- Grout
 recipes.remove(Grout);
+// -
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:CraftedSoil:1>);
 
 // --- Slime Soil
 recipes.remove(<TConstruct:CraftedSoil:6>);
@@ -882,17 +893,25 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3057>, <liquid:tin.mo
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4057>, <liquid:tin.molten> * 144, 400, <TConstruct:SearedBrick:4>);
 
 // --- Gt Cassetrite
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:824>, <liquid:tin.molten> * 288, 400, <TConstruct:SearedBrick:4>);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:824>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
 // -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1824>, <liquid:tin.molten> * 288, 400, <TConstruct:SearedBrick:4>);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1824>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
 // -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2824>, <liquid:tin.molten> * 288, 400, <TConstruct:SearedBrick:4>);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2824>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
 // -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3824>, <liquid:tin.molten> * 288, 400, <TConstruct:SearedBrick:4>);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3824>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4824>, <liquid:tin.molten> * 144, 400, <TConstruct:SearedBrick:4>);
-
-
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:937>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1937>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2937>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3937>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4937>, <liquid:tin.molten> * 288, 600, <TConstruct:SearedBrick:4>);
 
 // --- Gt Gold
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:86>, <liquid:gold.molten> * 144, 600, <minecraft:gold_ore>);
@@ -981,6 +1000,12 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2501>, <liquid:emeral
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3501>, <liquid:emerald.liquid> * 640, 800, <minecraft:emerald_ore>);
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4501>, <liquid:emerald.liquid> * 640, 800, <minecraft:emerald_ore>);
+
+// --- Seared Stone
+mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
+
+// --- Seared Cobblestone
+mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:5>, <liquid:stone.seared> * 360, <minecraft:cobblestone>, false, 245);
 
 // --- Seared Tank
 recipes.addShaped(<TConstruct:LavaTank>, [

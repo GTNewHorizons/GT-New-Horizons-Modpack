@@ -278,9 +278,9 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 7);
 // --- Magic Frame
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
 mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
-mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 25, terra 25, aer 25, perditio 25, ignis 25, aqua 25", [
-[<gregtech:gt.metaitem.01:27305>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27305>],
-[<Thaumcraft:ItemResource:7>, <Forestry:frameImpregnated>, <Thaumcraft:ItemResource:7>],
+mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 20, terra 20, aer 20, perditio 20, ignis 20, aqua 20", [
+[<gregtech:gt.metaitem.01:27305>, <MagicBees:wax:1>, <gregtech:gt.metaitem.01:27305>],
+[<MagicBees:wax>, <Forestry:frameImpregnated>, <MagicBees:wax:2>],
 [<gregtech:gt.metaitem.01:27305>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:27305>]]);
 mods.thaumcraft.Research.addArcanePage("MB_FrameMagic", <MagicBees:frameMagic>);
 mods.thaumcraft.Research.setAspects("MB_FrameMagic", "ordo 5, terra 5, aer 5, perditio 5");
