@@ -36,6 +36,15 @@ luaBios {
   type: shapeless
   input: ["oc:eeprom", "oc:manual"]
 }
+generic: [
+  {
+    result: {block="minecraft:end_stone"}
+    input: [[enderPearl, sandstone, enderPearl]
+            [sandstone, blockCoal, sandstone]
+            [enderPearl, sandstone, enderPearl]]
+    output: 4
+  }
+]
 
 droneCase1 {
   input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
@@ -241,6 +250,16 @@ generatorUpgrade {
   input: [[ingotIron, "", ingotIron]
           ["oc:circuitChip1", craftingPiston, "oc:circuitChip1"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
+hoverUpgrade1 {
+  input: [[feather, "oc:circuitChip1", feather]
+          [nuggetIron, leather, nuggetIron]
+          [feather, "oc:materialCircuitBoardPrinted", feather]]
+}
+hoverUpgrade2 {
+  input: [[end_stone, "oc:circuitChip2", end_stone]
+          [nuggetGold, ingotIron, nuggetGold]
+          [end_stone, "oc:materialCircuitBoardPrinted", end_stone]]
 }
 inventoryUpgrade {
   input: [[plankWood, hopper, plankWood]
@@ -589,6 +608,11 @@ screen3 {
   input: [[obsidian, yellowDust, obsidian]
           [yellowDust, "oc:circuitChip3", glass]
           [obsidian, yellowDust, obsidian]]
+}
+waypoint {
+  input: [[ingotIron, "oc:circuitChip1", ingotIron]
+          ["oc:materialTransistor", "oc:materialInterweb", "oc:materialTransistor"],
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 
 appengTunnel {

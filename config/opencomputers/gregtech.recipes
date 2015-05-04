@@ -1,6 +1,34 @@
 # Do not change this file, it is rewritten each time you start the game.
 # Instead, use the user.recipes file to edit recipes by redefining them there.
 
+# Note that there is support for a number of GregTech machines, by using the
+# appropriate `type` specifier. Available types are:
+# - gt_alloySmelter : Alloy Smelter Recipe
+# - gt_assembler    : Circuit Assembler Machine
+# - gt_bender       : Plate Bending Machine Recipe
+# - gt_canner       : Canning Machine Recipe
+# - gt_chemical     : Chemical Recipe
+# - gt_cnc          : CNC-Machine Recipe
+# - gt_cutter       : Cutter Recipe
+# - gt_lathe        : Lathe Machine Recipe
+# - gt_wiremill     : Wiremill Recipe
+#
+# For these types, there a few more options for inputs and outputs. A full
+# recipe using all these options would look like this:
+# name {
+#   type: gt_???
+#   input: ["primaryInput", "possiblyOptionalSecondaryInput"]
+#   count: [1, 2] # would mean 1 of primary, 2 of secondary
+#   output: 2 # size of primary output stack
+#   eu: EU consumed for the operation
+#   time: time it takes to complete the operation, in ticks.
+#   # The following are usually optional.
+#   secondaryOutput: ["secondaryOutput1", "secondaryOutput2"] # Max number depends on machine.
+#   secondaryOutputCount: [2, 2] # Like `count` to `input`.
+#   inputFluid: {name="water", amount="500"}
+#   outputFluid: {name="lava"} # defaults to amount = 1000
+# }
+
 include file("hardmode.recipes")
 
 analyzer {
