@@ -162,7 +162,7 @@ AssemblerLiq.addRecipe(<Botany:insulatedTube:515>, <minecraft:stone> * 4, <Fores
 // --- Iron Insulated Tubes Sand Stone
 AssemblerLiq.addRecipe(<Botany:insulatedTube:643>, <minecraft:sandstone> * 4, <Forestry:thermionicTubes:3>, <liquid:molten.rubber> * 288, 800, 64);
 
-// --- Copper Insulated Tubes Clay
+// --- Soil Meter
 AssemblerLiq.addRecipe(<Botany:soilMeter>, <gregtech:gt.metaitem.01:23305>, <gregtech:gt.metaitem.01:17086> * 4, <liquid:molten.redstone> * 144, 1200, 64);
 
 // --- Florit's Encyclopedaedia

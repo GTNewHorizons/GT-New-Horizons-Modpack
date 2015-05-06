@@ -332,6 +332,12 @@ recipes.addShaped(<dreamcraft:item.ShapeBottle>, [
 [<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
+// --- Extruder Shape Boat
+recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, null]]);
+
 
 
 // --- Alloy Smelter Recipes
@@ -546,6 +552,14 @@ oreDict.ringVoid.add(<dreamcraft:item.VoidRing>);
 
 // --- Void Metal Foil
 oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
+
+
+
+// --- TC Smeltery Recipes
+
+
+// --- Extruder Steel Shape Boat
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.ExtruderShapeBoat>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBoat>, true, 100);
 
 
 // --- Hiding Stuff ----
