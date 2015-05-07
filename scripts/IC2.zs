@@ -346,6 +346,18 @@ recipes.remove(<IC2:itemPartCoalBall>);
 // --- CF Powder
 recipes.remove(<IC2:itemPartCFPowder>);
 
+// --- Double Uranium Fuel Rod
+recipes.remove(<IC2:reactorUraniumDual>);
+
+// --- Quad Uranium Fuel Rod
+recipes.remove(<IC2:reactorUraniumQuad>);
+
+// --- Double Mox Fuel Rod
+recipes.remove(<IC2:reactorMOXDual>);
+
+// --- Quad Mox Fuel Rod
+recipes.remove(<IC2:reactorMOXQuad>);
+
 
 
 // --- Add Recipes ---
@@ -717,13 +729,6 @@ recipes.addShaped(<IC2:windmeter:26>, [
 [<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:3>, <ore:gearGtSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
 
-// --- Weeding Trowel
-recipes.addShaped(<IC2:itemWeedingTrowel>, [
-[<ore:screwStainlessSteel>, <ore:rotorAluminium>, <ore:craftingToolScrewdriver>],
-[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:3>, <ore:gearGtSmallStainlessSteel>],
-[<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
-
-
 
 // --- Assembler Recipes ---
 
@@ -785,6 +790,18 @@ AssemblerLiq.addRecipe(<IC2:itemCropnalyzer>, <gregtech:gt.metaitem.01:32740>, <
 
 // --- EU Reader
 AssemblerLiq.addRecipe(<IC2:itemToolMEter>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuit> * 2, <liquid:molten.glowstone> * 288, 600, 16);
+
+// --- Double Uranium Fuel Rod
+Assembler.addRecipe(<IC2:reactorUraniumDual>, <IC2:reactorUraniumSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
+// --- Quad Uranium Fuel Rod
+Assembler.addRecipe(<IC2:reactorUraniumQuad>, <IC2:reactorUraniumDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
+// --- Double Mox Fuel Rod
+Assembler.addRecipe(<IC2:reactorMOXDual>, <IC2:reactorMOXSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
+// --- Quad Mox Fuel Rod
+Assembler.addRecipe(<IC2:reactorMOXQuad>, <IC2:reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 
 

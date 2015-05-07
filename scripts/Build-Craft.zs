@@ -104,6 +104,7 @@ val ObsidianGlass = <ExtraUtilities:decorativeBlock2:5>;
 val ClearGlass = <TConstruct:GlassBlock>;
 
 val Wrench = <ore:craftingToolWrench>;
+val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 // --- Removing Recipes ---
@@ -443,19 +444,14 @@ recipes.addShaped(PipeDiamondKinesis, [
 
 // --- Tank
 recipes.addShaped(BCTank, [
-[IronRing, ClearGlass, IronRing],
-[IronScrew, Wrench, IronScrew],
-[IronRing, ClearGlass, IronRing]]);
+[IronScrew, IronRing, IronScrew],
+[Wrench, StrongGlass, Screwdriver],
+[IronScrew, IronRing, IronScrew]]);
 // -
-recipes.addShaped(BCTank * 2, [
-[IronRing, StrongGlass, IronRing],
-[IronScrew, Wrench, IronScrew],
-[IronRing, StrongGlass, IronRing]]);
-// -
-recipes.addShaped(BCTank * 2, [
-[IronRing, ObsidianGlass, IronRing],
-[IronScrew, Wrench, IronScrew],
-[IronRing, ObsidianGlass, IronRing]]);
+recipes.addShaped(BCTank, [
+[IronScrew, IronRing, IronScrew],
+[Wrench, ObsidianGlass, Screwdriver],
+[IronScrew, IronRing, IronScrew]]);
 
 
 //Assembler Recipes

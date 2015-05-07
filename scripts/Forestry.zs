@@ -338,13 +338,14 @@ recipes.remove(<Forestry:letters>);
 // --- Catalogue
 recipes.remove(<Forestry:catalogue>);
 
-
 // --- Crate
 mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 
 // --- Apiarist Pipe
 recipes.remove(<Forestry:item.PipeItemsPropolis>);
 
+// --- Torch
+mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 
 
 // --- Bags ---
@@ -2247,6 +2248,14 @@ recipes.addShaped(<Forestry:fences2:12> * 4, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
 [<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
+
+// --- Torch
+mods.forestry.Carpenter.addRecipe(100, <liquid:creosote> * 500, 
+[null, null, null,
+null, <minecraft:wool:*>, null,
+null, <minecraft:stick>, null],
+null, <minecraft:torch> * 5);
+
 
 
 

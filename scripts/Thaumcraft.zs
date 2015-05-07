@@ -210,7 +210,7 @@ mods.thaumcraft.Research.setAspects("ALUMENTUM", "potentia 2, ignis 2, praecanta
 mods.thaumcraft.Research.setComplexity("ALUMENTUM", 2);
 
 //Magic Tallow
-mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <Thaumcraft:blockTaint:2>, "praecantatio 10, corpus 10, mortuus 10");
+mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <minecraft:rotten_flesh>, "humanus 3, corpus 7, mortuus 2");
 
 mods.thaumcraft.Research.setAspects("TALLOW", "corpus 2, praecantatio 2, machina 2, motus 2");
 mods.thaumcraft.Research.setComplexity("TALLOW", 2);
@@ -399,9 +399,13 @@ Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource
 
 //Block of Tallow
 Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:5>, <Thaumcraft:ItemResource:4> * 9);
+// -
+mods.thaumcraft.Aspects.add(<Thaumcraft:blockCosmeticSolid:5>, "praecantatio 20, corpus 18, mortuus 15");
 
 //Block of Flesh
 Compressor.addRecipe(<Thaumcraft:blockTaint:2>, <minecraft:rotten_flesh> * 9);
+// -
+mods.thaumcraft.Aspects.add(<Thaumcraft:blockTaint:2>, "corpus 12, humanus 9, mortuus 6");
 
 //Thaumium Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2330> * 9, <Thaumcraft:blockCosmeticSolid:4>);

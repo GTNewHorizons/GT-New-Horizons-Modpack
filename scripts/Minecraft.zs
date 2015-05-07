@@ -1052,229 +1052,37 @@ recipes.addShapeless(<minecraft:wooden_pressure_plate> * 2, [Saw, <ore:slabWood>
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
 
 // --- Torch
-recipes.addShapedMirrored(Torch * 3, [
+recipes.addShaped(Torch * 3, [
 [Coal, null],
 [Stick, null]]);
 // - Alternate Recipe
-recipes.addShapedMirrored(Torch * 2, [
+recipes.addShaped(Torch * 2, [
 [Charcoal, null],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 3, [
-[Charcoal, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShapedMirrored(Torch, [
-[Beeswax, null],
-[Stick, null]]);
-// -
-recipes.addShapedMirrored(Torch, [
+recipes.addShaped(Torch, [
 [<ore:gemLignite>, null],
 [Stick, null]]);
 //-
-recipes.addShapedMirrored(Torch * 2, [
-[<ore:gemLignite>, String],
-[Stick, null]]);
-// -
-recipes.addShapedMirrored(Torch * 1, [
-[<ore:gemLignite>, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[<ore:gemLignite>, String],
-[ImpregnatedStick, null]]);
-// -
 recipes.addShaped(Torch * 5, [
 [CoalCoke, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 3, [
-[Rubber, null],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 2, [
-[Sulfur, null],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Phosphorous, null],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 2, [
-[AnyWool, null],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
+recipes.addShaped(Torch * 5, [
 [AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
-recipes.addShapedMirrored(Torch * 3, [
-[WovenCloth, null],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[WovenCloth, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShapedMirrored(Torch * 5, [
+recipes.addShaped(Torch * 4, [
 [Torchberries, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 4, [
-[Coal, String],
-[Stick, null]]);
-// -
 recipes.addShaped(Torch * 3, [
-[Charcoal, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Charcoal, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
+[Beeswax, String],
 [Stick, null]]);
 // -
 recipes.addShaped(Torch * 2, [
-[Beeswax, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[CoalCoke, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
 [Rubber, String],
 [Stick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[Sulfur, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[Phosphorous, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[AnyWool, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[AnyWool, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[WovenCloth, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 7, [
-[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[Torchberries, String],
-[Stick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Coal, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[Charcoal, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Charcoal, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 2, [
-[Beeswax, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[CoalCoke, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Rubber, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[Sulfur, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[Phosphorous, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[AnyWool, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[WovenCloth, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 8, [
-[WovenCloth, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[Torchberries, null],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[Coal, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Charcoal, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[Charcoal, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 3, [
-[Beeswax, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 7, [
-[CoalCoke, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[Rubber, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[Sulfur, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 6, [
-[Phosphorous, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 4, [
-[AnyWool, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 7, [
-[AnyWool, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 5, [
-[WovenCloth, String],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 9, [
-[WovenCloth, String, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
-[ImpregnatedStick, null]]);
-// -
-recipes.addShaped(Torch * 7, [
-[Torchberries, String],
-[ImpregnatedStick, null]]);
 
 // --- Lever
 recipes.addShapeless(Lever, [Stick, <minecraft:stone_button>]);
@@ -2454,12 +2262,6 @@ recipes.addShaped(Map, [
 //Bone Meal
 recipes.addShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>, <ore:craftingToolMortar>]);
 
-//Fire Charge
-recipes.addShaped(<minecraft:fire_charge>, [
-[<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>],
-[<minecraft:blaze_powder>, Coal, <minecraft:blaze_powder>],
-[<minecraft:gunpowder>, <minecraft:blaze_powder>, <minecraft:gunpowder>]]);
-
 //Lead
 recipes.addShaped(<minecraft:lead>, [
 [<minecraft:string>, <minecraft:string>, <minecraft:string>],
@@ -2650,6 +2452,17 @@ AssemblerLiq.addRecipe(<minecraft:soul_sand>, <Natura:heatsand>, <Natura:soil.ta
 // --- Wither Skull
 AssemblerLiq.addRecipe(<minecraft:skull:1>, <MagicBees:miscResources:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 216, 200, 96);
 
+// --- Torch
+AssemblerLiq.addRecipe(<minecraft:torch> * 5, <minecraft:stick>, <minecraft:wool:*>, <liquid:creosote> * 500, 100, 4);
+// -
+Assembler.addRecipe(<minecraft:torch> * 4, <minecraft:stick>, <gregtech:gt.metaitem.01:2536>, 100, 4);
+// -
+Assembler.addRecipe(<minecraft:torch> * 6, <minecraft:stick>, <gregtech:gt.metaitem.01:2535>, 100, 4);
+// -
+Assembler.addRecipe(<minecraft:torch> * 4, <minecraft:stick>, <gregtech:gt.metaitem.01:2022>, 100, 4);
+// -
+Assembler.addRecipe(<minecraft:torch> * 6, <minecraft:stick>, <gregtech:gt.metaitem.01:2022>, 100, 4);
+
 
 
 // --- Alloy Smelter Recipes ---
@@ -2691,6 +2504,9 @@ oreDict.craftingToolShears.add(<minecraft:shears>);
 
 // --- Soul Sand
 Mixer.addRecipe(<minecraft:soul_sand> * 4, null, <minecraft:sand:*> * 4, <minecraft:dirt:*>, <MagicBees:wax:1> * 4, null, <liquid:water> * 1000, 100, 16);
+
+// --- Fire Charge
+Mixer.addRecipe(<minecraft:fire_charge>, null, <minecraft:blaze_powder> * 3, <minecraft:gunpowder> * 3, <gregtech:gt.metaitem.01:2535> * 3, null, null, 400, 32);
 
 
 

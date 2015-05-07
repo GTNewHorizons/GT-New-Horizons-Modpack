@@ -8,6 +8,7 @@ import mods.gregtech.Assembler;
 import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.ForgeHammer;
+import mods.ic2.Canner;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
@@ -862,6 +863,18 @@ recipes.remove(<gregtech:gt.metaitem.02:20884>);
 
 // --- Small Sealed Wood Gear
 recipes.remove(<gregtech:gt.metaitem.02:20889>);
+
+// --- Eridium Neutron Reflector
+recipes.remove(<gregtech:gt.neutronreflector>);
+
+// --- Thorium Fuel Rod
+recipes.remove(<gregtech:gt.Thoriumcell>);
+
+// --- Double Thorium Fuel Rod
+recipes.remove(<gregtech:gt.Double_Thoriumcell>);
+
+// --- Quad Thorium Fuel Rod
+recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
 
 
 
@@ -2171,6 +2184,15 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <greg
 // --- Extreme Transformer
 Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 2048);
 
+// --- Eridium Neutron Reflector
+Assembler.addRecipe(<gregtech:gt.neutronreflector>, <IC2:reactorReflectorThick> * 8, <IC2:itemPartIridium>, 1200, 256);
+
+// --- Double Thorium Fuel Rod
+Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
+// --- Quad Thorium Fuel Rod
+Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
 
 
 // --- Autoclave Recipes
@@ -2200,6 +2222,14 @@ Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <l
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:water> * 200, 8000, 2000, 32);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+
+
+
+// --- Canner Recipes ---
+
+
+// --- Thorium Fuel Rod
+Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096>);
 
 
 
