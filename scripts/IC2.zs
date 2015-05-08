@@ -6,6 +6,7 @@
 
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
+import mods.gregtech.ChemicalBathLiq;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
@@ -357,6 +358,87 @@ recipes.remove(<IC2:reactorMOXDual>);
 
 // --- Quad Mox Fuel Rod
 recipes.remove(<IC2:reactorMOXQuad>);
+
+// --- Reinforced Door
+recipes.remove(<IC2:itemDoorAlloy>);
+
+// --- Painter
+recipes.remove(<IC2:itemToolPainter>);
+
+// --- Black Painter
+recipes.remove(<IC2:itemToolPainterBlack>);
+
+// --- Red Painter
+recipes.remove(<IC2:itemToolPainterRed>);
+
+// --- Green Painter
+recipes.remove(<IC2:itemToolPainterGreen>);
+
+// --- Brown Painter
+recipes.remove(<IC2:itemToolPainterBrown>);
+
+// --- Blue Painter
+recipes.remove(<IC2:itemToolPainterBlue>);
+
+// --- Purple Painter
+recipes.remove(<IC2:itemToolPainterPurple>);
+
+// --- Cyan Painter
+recipes.remove(<IC2:itemToolPainterCyan>);
+
+// --- Light Grey Painter
+recipes.remove(<IC2:itemToolPainterLightGrey>);
+
+// --- Dark Grey Painter
+recipes.remove(<IC2:itemToolPainterDarkGrey>);
+
+// --- Pink Painter
+recipes.remove(<IC2:itemToolPainterPink>);
+
+// --- Lime Painter
+recipes.remove(<IC2:itemToolPainterLime>);
+
+// --- Yellow Painter
+recipes.remove(<IC2:itemToolPainterYellow>);
+
+// --- Light Blue Painter
+recipes.remove(<IC2:itemToolPainterCloud>);
+
+// --- Magenta Painter
+recipes.remove(<IC2:itemToolPainterMagenta>);
+
+// --- Orange Painter
+recipes.remove(<IC2:itemToolPainterOrange>);
+
+// --- White Painter
+recipes.remove(<IC2:itemToolPainterWhite>);
+
+// --- Single use Battery
+recipes.remove(<IC2:itemBatSU>);
+
+// --- Crystal Memory
+recipes.remove(<IC2:itemRecipePart:4>);
+// -
+furnace.remove(<IC2:itemcrystalmemory>);
+
+// --- Pattern Storage
+recipes.remove(<IC2:blockMachine2:6>);
+
+// --- Scanner
+recipes.remove(<IC2:blockMachine2:7>);
+
+// --- Replicator
+recipes.remove(<IC2:blockMachine2:8>);
+
+// --- Bottling Plant
+recipes.remove(<IC2:blockMachine2:10>);
+
+// --- Dynamit-o-mote
+recipes.remove(<IC2:itemRemote>);
+
+// --- Frequency Transmitter
+recipes.remove(<IC2:itemFreq>);
+
 
 
 
@@ -729,6 +811,20 @@ recipes.addShaped(<IC2:windmeter:26>, [
 [<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:3>, <ore:gearGtSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
 
+// --- Reinforced Door
+recipes.addShaped(<IC2:itemDoorAlloy>, [
+[<IC2:itemPartAlloy>, <IC2:blockAlloyGlass>, <ore:craftingToolHardHammer>],
+[<IC2:itemPartAlloy>, <ore:ringLead>, <ore:screwLead>],
+[<IC2:itemPartAlloy>, <ore:plateDenseLead>, <ore:craftingToolScrewdriver>]]);
+
+// --- Painter
+recipes.addShaped(<IC2:itemToolPainter>, [
+[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+[null, <ore:stickSteel>, null],
+[null, <ore:stickSteel>, null]]);
+
+
+
 
 // --- Assembler Recipes ---
 
@@ -803,6 +899,74 @@ Assembler.addRecipe(<IC2:reactorMOXDual>, <IC2:reactorMOXSimple> * 2, <gregtech:
 // --- Quad Mox Fuel Rod
 Assembler.addRecipe(<IC2:reactorMOXQuad>, <IC2:reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
+// --- Reinforced Door
+AssemblerLiq.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 32);
+
+// --- Dynamit-o-mote
+Assembler.addRecipe(<IC2:itemRemote>, <IC2:itemFreq>, <IC2:upgradeModule>, 1200, 4);
+
+// --- Frequency Transmitter
+AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1366> * 2, <liquid:molten.redstone> * 144, 800, 4);
+// -
+AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <IC2:itemCable> * 2, <liquid:molten.redstone> * 144, 800, 4);
+// -
+AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1246> * 2, <liquid:molten.redstone> * 144, 800, 4);
+// -
+AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <IC2:itemCable:13> * 2, <liquid:molten.redstone> * 144, 800, 4);
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+// --- Black Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterBlack>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 2);
+
+// --- Red Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterRed>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 2);
+
+// --- Green Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterGreen>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 2);
+
+// --- Brown Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterBrown>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 2);
+
+// --- Blue Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterBlue>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 2);
+
+// --- Purple Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterPurple>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 2);
+
+// --- Cyan Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterCyan>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 2);
+
+// --- Light Grey Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterLightGrey>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 2);
+
+// --- Dark Grey Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterDarkGrey>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 2);
+
+// --- Pink Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterPink>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 2);
+
+// --- Lime Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterLime>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 2);
+
+// --- Yellow Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterYellow>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 2);
+
+// --- Light Blue Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterCloud>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 2);
+
+// --- Magenta Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterMagenta>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 2);
+
+// --- Orange Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterOrange>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 2);
+
+// --- White Painter
+ChemicalBathLiq.addRecipe(<IC2:itemToolPainterWhite>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 2);
+
 
 
 // --- Compressor Recipes ---
@@ -818,7 +982,6 @@ Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
 // --- Extruder Recipes ---
 
 
-
 // --- Carbon Boat
 Extruder.addRecipe(<IC2:itemBoat>, <IC2:itemPartCarbonMesh> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 320, 128);
 
@@ -827,7 +990,6 @@ Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 8, <dream
 
 // --- Electric Boat Hull
 Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 640, 128);
-
 
 
 
@@ -845,7 +1007,6 @@ FluidCanner.addRecipe(<IC2:itemFoamSprayer>.withTag({Fluid: {FluidName: "ic2cons
 
 // --- CF Back Pack
 FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 80000}}), <IC2:itemArmorCFPack:27>, null, <liquid:ic2constructionfoam> * 80000);
-
 
 
 
