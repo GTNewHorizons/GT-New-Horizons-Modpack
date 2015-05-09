@@ -439,7 +439,14 @@ recipes.remove(<IC2:itemRemote>);
 // --- Frequency Transmitter
 recipes.remove(<IC2:itemFreq>);
 
+// --- Overclocker Upgrade
+recipes.remove(<IC2:upgradeModule>);
 
+// --- Transformer Upgrade
+recipes.remove(<IC2:upgradeModule:1>);
+
+// --- Energy Storage Upgrade
+recipes.remove(<IC2:upgradeModule:2>);
 
 
 // --- Add Recipes ---
@@ -906,13 +913,17 @@ AssemblerLiq.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockA
 Assembler.addRecipe(<IC2:itemRemote>, <IC2:itemFreq>, <IC2:upgradeModule>, 1200, 4);
 
 // --- Frequency Transmitter
-AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1366> * 2, <liquid:molten.redstone> * 144, 800, 4);
-// -
-AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <IC2:itemCable> * 2, <liquid:molten.redstone> * 144, 800, 4);
-// -
-AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1246> * 2, <liquid:molten.redstone> * 144, 800, 4);
-// -
-AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <IC2:itemCable:13> * 2, <liquid:molten.redstone> * 144, 800, 4);
+AssemblerLiq.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1466> * 2, <liquid:molten.redstone> * 144, 1200, 4);
+
+// --- Overclocker Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule>, <IC2:itemPartCircuit>, <IC2:reactorCoolantTriple>, <liquid:molten.copper> * 144, 1200, 16);
+
+// --- Transformer Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule:1>, <IC2:itemPartCircuit>, <IC2:itemRecipePart> * 2, <liquid:molten.gold> * 288, 1200, 32);
+
+// --- Energy Storage Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule:2>, <IC2:itemPartCircuit>, <IC2:itemBatREDischarged>, <liquid:molten.copper> * 144, 1200, 16);
+
 
 
 
