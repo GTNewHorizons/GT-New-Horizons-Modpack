@@ -29,9 +29,6 @@ public class MainRegistry {
 		QuantumProcessorBoard.mainRegistry();
 		MasterCircuit.mainRegistry();
 		SuperCircuit.mainRegistry();
-		HeavyDutyBoard.mainRegistry();
-		HeavyDutyBoard2.mainRegistry();
-		HeavyDutyBoard3.mainRegistry();
 		IronWandCap.mainRegistry();
 		CopperWandCap.mainRegistry();
 		GoldWandCap.mainRegistry();
@@ -75,6 +72,7 @@ public class MainRegistry {
 		MoldFormSmallGear.mainRegistry();
 		ShapeAxeHead.mainRegistry();
 		ShapeBlock.mainRegistry();
+		ShapeBoat.mainRegistry();
 		ShapeBolt.mainRegistry();
 		ShapeBottle.mainRegistry();
 		ShapeCasing.mainRegistry();
@@ -97,6 +95,8 @@ public class MainRegistry {
 		ShapeSwordBlade.mainRegistry();
 		ShapeWire.mainRegistry();
 		ShapeTinyPipe.mainRegistry();
+		ExtruderShapeBoat.mainRegistry();
+		ElectricBoatHull.mainRegistry();
 		Nothing.mainRegistry();
 		proxy.registerRenderInfo();
 		
