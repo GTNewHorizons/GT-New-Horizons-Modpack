@@ -745,97 +745,97 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11057>, <liquid:
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11300>, <liquid:bronze.molten> * 144, <TConstruct:metalPattern>, false, 100);
 
 // --- Ingot Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Tool Rod Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:1>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:1>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Pickaxe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:2>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:2>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Shovel Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:3>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Axe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:4>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:4>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Sword Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:5>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:5>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Wide Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:6>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:6>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Hand Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:7>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:7>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Crossbar Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:8>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:8>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Binding Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:9>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:9>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Pan Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:10>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:10>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Wide Board Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:11>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:11>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Knife Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:12>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:12>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Chisel Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:13>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:13>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Tough Rod Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:14>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:14>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Tough Binding Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:15>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:15>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Large Plate Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:16>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:16>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Braod Axe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:17>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:17>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Scythe Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:18>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:18>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Excavator Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:19>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:19>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Large Blade Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:20>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:20>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Hammer Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:21>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:21>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Full Guard Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:22>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:22>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Arrow Head Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:25>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:25>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Gem Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:26>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:26>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Nugget Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:27>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:metalPattern:27>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Shuriken Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Crossbow Limb Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:1>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:1>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Crossbow Boddy Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Bow Limb Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Gear Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:gearCast>, <liquid:aluminiumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:gearCast>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Gt Iron
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:32>, <liquid:iron.molten> * 144, 700, <minecraft:iron_ore>);
