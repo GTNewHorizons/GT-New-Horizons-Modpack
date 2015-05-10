@@ -63,278 +63,415 @@ val Stick = <ore:stickWood>;
 val Wool = <ore:blockWool>;
 val String = <minecraft:string>;
 
-// --- remove Recipes ---
 
-//Rocket Launch Pad
+
+// --- Remove Recipes ---
+
+// --- Rocket Launch Pad
 recipes.remove(<GalacticraftCore:tile.landingPad>);
-//Buggy Fueling Pad
+
+// --- Buggy Fueling Pad
 recipes.remove(<GalacticraftCore:tile.landingPad:1>);
-//Oxygen Collector
+
+// --- Oxygen Collector
 recipes.remove(<GalacticraftCore:tile.oxygenCollector>);
-//Oxygen Compressor
+
+// --- Oxygen Compressor
 recipes.remove(<GalacticraftCore:tile.oxygenCompressor>);
-//Oxygen Decompressor
+
+// --- Oxygen Decompressor
 recipes.remove(<GalacticraftCore:tile.oxygenCompressor:4>);
-//Oxygen Storage Module
+
+// --- Oxygen Storage Module
 recipes.remove(<GalacticraftCore:tile.machine2:8>);
-//Oxygen Bubble Distributor
+
+// --- Oxygen Bubble Distributor
 recipes.remove(<GalacticraftCore:tile.distributor>);
-//Oxygen Sealer
+
+// --- Oxygen Sealer
 recipes.remove(<GalacticraftCore:tile.sealer>);
-//Oxygen Detector
+
+// --- Oxygen Detector
 recipes.remove(<GalacticraftCore:tile.oxygenDetector>);
-//Oxygen Pipe
+
+// --- Oxygen Pipe
 recipes.remove(OxygenPipe);
-//Refinery
+
+// --- Refinery
 recipes.remove(<GalacticraftCore:tile.refinery>);
-//Fuel Loader
+
+// --- Fuel Loader
 recipes.remove(<GalacticraftCore:tile.fuelLoader>);
-//Sealable Oxygen Pipe
+
+// --- Sealable Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:1>);
-//Fuel Loader
+
+// --- Fuel Loader
 recipes.remove(<GalacticraftCore:tile.fuelLoader>);
-//Cargo Loader
+
+// --- Cargo Loader
 recipes.remove(<GalacticraftCore:tile.cargo>);
-//Cargo Unloader
+
+// --- Cargo Unloader
 recipes.remove(<GalacticraftCore:tile.cargo:4>);
-//Nasa Workbench
+
+// --- Nasa Workbench
 recipes.remove(<GalacticraftCore:tile.rocketWorkbench>);
-//Tin Decoration Block
+
+// --- Tin Decoration Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:3>);
+// -
 recipes.remove(TinDecoBlock);
-//Copper Block
+
+// --- Copper Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>);
-//Tin Block
+
+// --- Tin Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>);
-//Aluminum Block
+
+// --- Aluminum Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:11>);
-//Meteoric Iron Ingot
+
+// --- Meteoric Iron Ingot
 recipes.remove(<gregtech:gt.metaitem.01:11340>); 
+
 // -
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
-//Solid Meteoric Iron
+
+// --- Solid Meteoric Iron
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
-//Air Lock Frame
+
+// --- Air Lock Frame
 recipes.remove(<GalacticraftCore:tile.airLockFrame>);
-//Air Lock Controller
+
+// --- Air Lock Controller
 recipes.remove(<GalacticraftCore:tile.airLockFrame:1>);
-//Sealable Oxygen Pipe
+
+// --- Sealable Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:1>);
-//Sealable Aluminium Wire
+
+// --- Sealable Aluminium Wire
 recipes.remove(<GalacticraftCore:tile.enclosed:14>);
-//Sealable heavy Aluminium Wire
+
+// --- Sealable heavy Aluminium Wire
 recipes.remove(<GalacticraftCore:tile.enclosed:15>);
-//Aluminium Wire
+
+// --- Aluminium Wire
 recipes.remove(GCAlWire);
-//Heavy Aluminium Wire
+
+// --- Heavy Aluminium Wire
 recipes.remove(GCHeavyAlWire);
-//Basic Solar Panel
+
+// --- Basic Solar Panel
 recipes.remove(<GalacticraftCore:tile.solar>);
-//Advanced Solar Panel
+
+// --- Advanced Solar Panel
 recipes.remove(<GalacticraftCore:tile.solar:4>);
-//Wafer Solar
+
+// --- Wafer Solar
 recipes.remove(<GalacticraftCore:item.basicItem:12>);
-//Single Solar Modul
+
+// --- Single Solar Modul
 recipes.remove(<GalacticraftCore:item.basicItem>);
-//Full Solar Panel
+
+// --- Full Solar Panel
 recipes.remove(<GalacticraftCore:item.basicItem:1>);
-//Coal Generator
+
+// --- Coal Generator
 recipes.remove(<GalacticraftCore:tile.machine>);
-//Compressor
+
+// --- Compressor
 recipes.remove(<GalacticraftCore:tile.machine:12>);
-//Electric Compressor
+
+// --- Electric Compressor
 recipes.remove(<GalacticraftCore:tile.machine2>);
-//Circuit Fabricator
+
+// --- Circuit Fabricator
 recipes.remove(<GalacticraftCore:tile.machine2:4>);
-//Energy Storage Module
+
+// --- Energy Storage Module
 recipes.remove(<GalacticraftCore:tile.machineTiered>);
-//Electric Furnace
+
+// --- Electric Furnace
 recipes.remove(<GalacticraftCore:tile.machineTiered:4>);
-//Energy Storage Cluster
+
+// --- Energy Storage Cluster
 recipes.remove(<GalacticraftCore:tile.machineTiered:8>);
-//Electric Arc Furnace
+
+// --- Electric Arc Furnace
 recipes.remove(<GalacticraftCore:tile.machineTiered:12>);
-//Glowstone Torch
+
+// --- Glowstone Torch
 recipes.remove(<GalacticraftCore:tile.glowstoneTorch>);
-//Spin Truster
+
+// --- Spin Truster
 recipes.remove(<GalacticraftCore:tile.spinThruster>);
-//Display Screen
+
+// --- Display Screen
 recipes.remove(<GalacticraftCore:tile.viewScreen>);
-//Telemetry Unit
+
+// --- Telemetry Unit
 recipes.remove(<GalacticraftCore:tile.telemetry>);
-//Arc Lamp
+
+// --- Arc Lamp
 recipes.remove(<GalacticraftCore:tile.arclamp>);
-//Oxygen Mask
+
+// --- Oxygen Mask
 recipes.remove(<GalacticraftCore:item.oxygenMask>);
-//Oxygen Gear
+
+// --- Oxygen Gear
 recipes.remove(<GalacticraftCore:item.oxygenGear>);
-//Light Oxygen Tak
+
+// --- Light Oxygen Tak
 recipes.remove(<GalacticraftCore:item.oxygenTankLightFull:900>);
-//Medium Oxygen Tank
+
+// --- Medium Oxygen Tank
 recipes.remove(<GalacticraftCore:item.oxygenTankMedFull:1800>);
-//Heavy Oxygen Tank
+
+// --- Heavy Oxygen Tank
 recipes.remove(<GalacticraftCore:item.oxygenTankHeavyFull:2700>);
-//Sensor Lens
+
+// --- Sensor Lens
 recipes.remove(SensorLens);
-//Sensor Glasses
+
+// --- Sensor Glasses
 recipes.remove(<GalacticraftCore:item.sensorGlasses>);
-//Heavy Duty Pickaxe
+
+// --- Heavy Duty Pickaxe
 recipes.remove(<GalacticraftCore:item.steel_pickaxe>);
-//Heavy Duty Axe
+
+// --- Heavy Duty Axe
 recipes.remove(<GalacticraftCore:item.steel_axe>);
-//Heavy Duty Hoe
+
+// --- Heavy Duty Hoe
 recipes.remove(<GalacticraftCore:item.steel_hoe>);
-//Heavy Duty Shovel
+
+// --- Heavy Duty Shovel
 recipes.remove(<GalacticraftCore:item.steel_shovel>);
-//Heavy Duty Sword
+
+// --- Heavy Duty Sword
 recipes.remove(<GalacticraftCore:item.steel_sword>);
-//Heavy Duty Helm
+
+// --- Heavy Duty Helm
 recipes.remove(<GalacticraftCore:item.steel_helmet>);
-//Heavy Duty Chest Plate
+
+// --- Heavy Duty Chest Plate
 recipes.remove(<GalacticraftCore:item.steel_chestplate>);
-//Heavy Duty Leggings
+
+// --- Heavy Duty Leggings
 recipes.remove(<GalacticraftCore:item.steel_leggings>);
-//Heavy Duty Boots
+
+// --- Heavy Duty Boots
 recipes.remove(<GalacticraftCore:item.steel_boots>);
-//Tin Canister
+
+// --- Tin Canister
 recipes.remove(<GalacticraftCore:item.canister>);
-//Copper Canister
+
+// --- Copper Canister
 recipes.remove(<GalacticraftCore:item.canister:1>);
-//Oxygen Vent
+
+// --- Oxygen Vent
 recipes.remove(AirVent);
-//Oxygen Fan
+
+// --- Oxygen Fan
 recipes.remove(<GalacticraftCore:item.airFan>);
-//Oxygen Concentrator
+
+// --- Oxygen Concentrator
 recipes.remove(<GalacticraftCore:item.oxygenConcentrator>);
-//Tier 1 Rocket Engine
+
+// --- Tier 1 Rocket Engine
 recipes.remove(<GalacticraftCore:item.engine>);
-//Tier 1 Booster
+
+// --- Tier 1 Booster
 recipes.remove(<GalacticraftCore:item.engine:1>);
-//Nose Cone
+
+// --- Nose Cone
 recipes.remove(<GalacticraftCore:item.noseCone>);
-//Steel Pole
+
+// --- Steel Pole
 recipes.remove(SteelPole);
-//Canister
+
+// --- Canister
 recipes.remove(<GalacticraftCore:item.oilCanisterPartial:1001>);
-//Oil Extractor
+
+// --- Oil Extractor
 recipes.remove(<GalacticraftCore:item.oilExtractor>);
-//Buggy Wheel
+
+// --- Buggy Wheel
 recipes.remove(<GalacticraftCore:item.buggymat>);
-//Buggy Seat
+
+// --- Buggy Seat
 recipes.remove(<GalacticraftCore:item.buggymat:1>);
-//Buggy Storage Box
+
+// --- Buggy Storage Box
 recipes.remove(<GalacticraftCore:item.buggymat:2>);
-//Standard Wrenche
+
+// --- Standard Wrenche
 recipes.remove(<GalacticraftCore:item.standardWrench>);
-//Can of Food
+
+// --- Can of Food
 recipes.remove(<GalacticraftCore:item.basicItem:15>);
+// -
 recipes.remove(<GalacticraftCore:item.basicItem:16>);
+// -
 recipes.remove(<GalacticraftCore:item.basicItem:17>);
+// -
 recipes.remove(<GalacticraftCore:item.basicItem:18>);
-//Frequencey Module
+
+// --- Frequencey Module
 recipes.remove(<GalacticraftCore:item.basicItem:19>);
-//Battery
+
+// --- Battery
 recipes.remove(<GalacticraftCore:item.battery:*>);
-//Titanium Pickaxe
+
+// --- Titanium Pickaxe
 recipes.remove(<GalacticraftMars:item.titanium_pickaxe>);
-//Titanium Axe
+
+// --- Titanium Axe
 recipes.remove(<GalacticraftMars:item.titanium_axe>);
-//Titanium Hoe
+
+// --- Titanium Hoe
 recipes.remove(<GalacticraftMars:item.titanium_hoe>);
-//Titanium Shovel
+
+// --- Titanium Shovel
 recipes.remove(<GalacticraftMars:item.titanium_shovel>);
-//Titanium Sword
+
+// --- Titanium Sword
 recipes.remove(<GalacticraftMars:item.titanium_sword>);
-//Titanium Helm
+
+// --- Titanium Helm
 recipes.remove(<GalacticraftMars:item.titanium_helmet>);
-//Titanium Chest Plate
+
+// --- Titanium Chest Plate
 recipes.remove(<GalacticraftMars:item.titanium_chestplate>);
-//Titanium Leggings
+
+// --- Titanium Leggings
 recipes.remove(<GalacticraftMars:item.titanium_leggings>);
-//Titanium Boots
+
+// --- Titanium Boots
 recipes.remove(<GalacticraftMars:item.titanium_boots>);
-//Desh Block
+
+// --- Desh Block
 recipes.remove(<GalacticraftMars:tile.mars:8>);
-//Desh Ingot
+
+// --- Desh Ingot
 recipes.remove(<gregtech:gt.metaitem.01:11884>);
-//Desh Stick
+
+// --- Desh Stick
 recipes.remove(<GalacticraftMars:item.null:1>);
-//Gas Liquifier
+
+// --- Gas Liquifier
 recipes.remove(<GalacticraftMars:tile.marsMachineT2>);
-//Methan Synthezizerezizer
+
+// --- Methan Synthezizerezizer
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:4>);
-//Water Electrolyzer
+
+// --- Water Electrolyzer
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:8>);
-//Walk Away
+
+// --- Walk Away
 recipes.remove(<GalacticraftMars:tile.walkway>);
-//Walk Away Aluminium
+
+// --- Walk Away Aluminium
 recipes.removeShaped(<GalacticraftMars:tile.walkwayWire>);
-//Walk Away Pipes
+
+// --- Walk Away Pipes
 recipes.removeShaped(<GalacticraftMars:tile.walkwayOxygenPipe>);
-//Thermal Cloth
+
+// --- Thermal Cloth
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:7>);
-//Atmospheric Valve
+
+// --- Atmospheric Valve
 recipes.remove(<GalacticraftMars:item.atmosphericValve>);
-//Heavy Rocket Fines
+
+// --- Heavy Rocket Fines
 recipes.removeShaped(<GalacticraftMars:item.itemBasicAsteroids:2>, [
 [null, <GalacticraftMars:item.itemBasicAsteroids:6>, null],
 [HeavyDutyPlate, <GalacticraftMars:item.itemBasicAsteroids:6>, HeavyDutyPlate],
 [HeavyDutyPlate, null, HeavyDutyPlate]]);
-//Heavy Rocket Engine
+
+// --- Heavy Rocket Engine
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:1>);
-//Heavy Nose Cone
+
+// --- Heavy Nose Cone
 recipes.remove(<GalacticraftMars:item.heavyNoseCone>);
-//Fluid Manipulator
+
+// --- Fluid Manipulator
 recipes.remove(<GalacticraftMars:item.null:6>);
-//Red Core
+
+// --- Red Core
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
-//Energy Beam Reflector
+
+// --- Energy Beam Reflector
 recipes.remove(<GalacticraftMars:tile.beamReflector>);
-//Energy Beam Receiver
+
+// --- Energy Beam Receiver
 recipes.remove(<GalacticraftMars:tile.beamReceiver>);
-//Short range Teleporter
+
+// --- Short range Teleporter
 recipes.remove(<GalacticraftMars:tile.telepadShort>);
-//Cryogenic Chamber
+
+// --- Cryogenic Chamber
 recipes.remove(<GalacticraftMars:tile.marsMachine:4>);
-//Terraformer
+
+// --- Terraformer
 recipes.remove(<GalacticraftMars:tile.marsMachine>);
-//Launch Controller
+
+// --- Launch Controller
 recipes.remove(<GalacticraftMars:tile.marsMachine:8>);
-//Grappler
+
+// --- Grappler
 recipes.remove(<GalacticraftMars:item.grapple>);
-//Hydrogen Pipe
+
+// --- Hydrogen Pipe
 recipes.remove(<GalacticraftMars:tile.hydrogenPipe>);
-//Carbon Fragments
+
+// --- Carbon Fragments
 recipes.remove(<GalacticraftMars:item.carbonFragments>);
-//Thermal Padding Helm
+
+// --- Thermal Padding Helm
 recipes.remove(<GalacticraftMars:item.thermalPadding>);
-//Thermal Padding Chestpiece
+
+// --- Thermal Padding Chestpiece
 recipes.remove(<GalacticraftMars:item.thermalPadding:1>);
-//Thermal Padding Leggings
+
+// --- Thermal Padding Leggings
 recipes.remove(<GalacticraftMars:item.thermalPadding:2>);
-//Thermal Padding Boots
+
+// --- Thermal Padding Boots
 recipes.remove(<GalacticraftMars:item.thermalPadding:3>);
-//Desh Helmet
+
+// --- Desh Helmet
 recipes.remove(<GalacticraftMars:item.deshHelmet>);
-//Desh Chest Plate
+
+// --- Desh Chest Plate
 recipes.remove(<GalacticraftMars:item.deshChestplate>);
-//Desh Leggings
+
+// --- Desh Leggings
 recipes.remove(<GalacticraftMars:item.deshLeggings>);
-//Desh Boots
+
+// --- Desh Boots
 recipes.remove(<GalacticraftMars:item.deshBoots>);
-//Desh Pickaxe
+
+// --- Desh Pickaxe
 recipes.remove(<GalacticraftMars:item.deshPick>);
-//Desh Axe
+
+// --- Desh Axe
 recipes.remove(<GalacticraftMars:item.deshAxe>);
-//Desh Hoe
+
+// --- Desh Hoe
 recipes.remove(<GalacticraftMars:item.deshHoe>);
-//Desh Shovel
+
+// --- Desh Shovel
 recipes.remove(<GalacticraftMars:item.deshSpade>);
-//Desh Sword
+
+// --- Desh Sword
 recipes.remove(<GalacticraftMars:item.deshSword>);
 
 
-// --- add Recipes ---
+
+// --- Add Recipes ---
+
 
 //Rocket Launch Pad
 recipes.addShaped(<GalacticraftCore:tile.landingPad> * 3, [
@@ -756,12 +893,6 @@ recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 [CompressedSteel, <GalacticraftCore:item.airFan>, CompressedSteel],
 [<GalacticraftCore:item.canister>, LVPump, <GalacticraftCore:item.canister>]]);
 
-//Heavy Duty Plate Tier 0
-recipes.addShaped(<dreamcraft:item.HeavyDutyBoard>, [
-[SSteelBolt, HHammer, SSteelBolt],
-[CompressedBronze, CompressedAl, CompressedSteel],
-[SSteelBolt, Wrench, SSteelBolt]]);
-
 //Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
 [<gregtech:gt.metaitem.01:32731>, <gregtech:gt.metaitem.01:32476>, <minecraft:stone_button>],
@@ -894,178 +1025,221 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [String, String, String],
 [<ore:ringMeteoricSteel>, null, null]]);
 
+
+
+
 // --- Assembler Recipes ---
 
-//Glowstone Torch
+
+
+// --- Glowstone Torch
 Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_torch>, <minecraft:glowstone_dust>, 200, 16);
 
-//Canister
+// --- Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
-//Basic Wafer
+// --- Basic Wafer
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.tin> * 288, 1600, 64);
 // -
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.solderingalloy> * 144, 1600, 64);
 // -
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.lead> * 576, 1600, 64);
 
-//Advanced Wafer
+// --- Advanced Wafer
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 576, 3200, 256);
 // -
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.solderingalloy> * 288, 3200, 256);
 // -
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 1440, 3200, 256);
 
-//Hydrogen Pipe
+// --- Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
 
-//Thermal Padding Helm
+// --- Thermal Padding Helm
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding>, <GalacticraftMars:item.itemBasicAsteroids:7> * 5, <gregtech:gt.integrated_circuit:5> * 0, 750, 1024);
 
-//Thermal Padding Chestpiece
+// --- Thermal Padding Chestpiece
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:1>, <GalacticraftMars:item.itemBasicAsteroids:7> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 1024);
 
-//Thermal Padding Leggings
+// --- Thermal Padding Leggings
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:item.itemBasicAsteroids:7> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1050, 1024);
 
-//Thermal Padding Boots
+// --- Thermal Padding Boots
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
 
-//Heavy Duty Plate Tier 1.5
-AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard2>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.tungsten> * 576, 1200, 256);
+// --- Heavy Duty Plate Alloy T2
+AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.tungsten> * 576, 1200, 256);
 	
-//Heavy Duty Plate Tier 2.5
-AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyBoard3>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 576, 2400, 1024);
+// --- Heavy Duty Pakte Alloy T3
+AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 576, 2400, 1024);
 
 
 
-//Blast Furnace Recipes
 
-//Titan Ingot
+// --- Blast Furnace Recipes --- 
+
+
+
+// --- Titan Ingot
 BlastFurnace.addRecipe(<gregtech:gt.metaitem.01:11028>, <GalacticraftMars:item.itemBasicAsteroids:4> * 2, null, 1500, 120, 1500);
+
+
+
 
 // --- Canner Recipes ---
 
-//Food Cans
+
+
+// --- Food Cans
 Canner.addRecipe(<GalacticraftCore:item.basicItem:15>, <minecraft:apple> * 6, <GalacticraftCore:item.canister>, 800, 1);
+// -
 Canner.addRecipe(<GalacticraftCore:item.basicItem:16>, <minecraft:carrot> * 8, <GalacticraftCore:item.canister>, 800, 1);
+// -
 Canner.addRecipe(<GalacticraftCore:item.basicItem:17>,<minecraft:melon> * 8, <GalacticraftCore:item.canister>, 800, 1);
+// -
 Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, <GalacticraftCore:item.canister>, 800, 1);
+
+
+
 
 // --- Compressor Recipes ---
 
-//Solid Meteoric Iron
+
+
+// --- Solid Meteoric Iron
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
 
-//Desh Block
+// --- Desh Block
 Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
 
-//Extruder Recipes
 
-//Oxygen Pipe
+
+
+// --- Extruder Recipes ---
+
+
+
+// --- Oxygen Pipe
 Extruder.addRecipe(OxygenPipe *2 , <IC2:blockAlloyGlass>, <gregtech:gt.metaitem.01:32359> * 0, 120, 128);
 
-//Tin Canister
+// --- Tin Canister
 Extruder.addRecipe(<GalacticraftCore:item.canister>, <GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
 
-//Copper Canister
+// --- Copper Canister
 Extruder.addRecipe(<GalacticraftCore:item.canister:1>, <GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:32354> * 0, 120, 32);
 
-//Steel Pole
+// --- Steel Pole
 Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech:gt.metaitem.01:32352> * 0, 600, 32);
+
+
 
 // --- Furnace Recipes ---
 
-//Ilmenite Ore
+
+// --- Ilmenite Ore
 furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
-//Titan Shards
+// --- Titan Shards
 furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
-//Desh Ore
+// --- Desh Ore
 furnace.remove(<*>, <GalacticraftMars:tile.mars:2>);
-//Desh Shards
+// --- Desh Shards
 furnace.remove(<*>, <GalacticraftMars:item.null>);
+
+
+
 
 // --- Implusion Compressor Recipes ---
 
-//Compressed Copper Plates
+
+
+// --- Compressed Copper Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:19035>, 4);
 
-//Compressed Tin Plates
+// --- Compressed Tin Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:19057>, 4);
 
-//Compressed Aluminium Plates
+// --- Compressed Aluminium Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:19019>, 4);
 
-//Compressed Steel Plates
+// --- Compressed Steel Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:9>, <gregtech:gt.metaitem.01:19305>, 4);
 
-//Compressed Bronze Plates
+// --- Compressed Bronze Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:19300>, 4);
 
-//Compressed Titanium Plates
+// --- Compressed Titanium Plates
 ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:19028>, 4);
 
-//Compressed Iron Plates
+// --- Compressed Iron Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:19032>, 4);
 
-//Compressed Meteoric Iron Plates
+// --- Compressed Meteoric Iron Plates
 ImplosionCompressor.addRecipe(<GalacticraftCore:item.meteoricIronIngot:1>, <gregtech:gt.metaitem.01:19340>, 4);
 
-//Compressed Desh Plates
+// --- Compressed Desh Plates
 ImplosionCompressor.addRecipe(<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:19884>, 4);
 
-//Heavy Duty Plats Tier 1
-ImplosionCompressor.addRecipe([HeavyPlating, <gregtech:gt.metaitem.01:306> * 2], <dreamcraft:item.HeavyDutyBoard>, 8);
+// --- Heavy Duty Plats Tier 2
+ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.metaitem.01:32463>, 16);
 
-//Heavy Duty Plats Tier 2
-ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <dreamcraft:item.HeavyDutyBoard2>, 16);
+// --- Heavy Duty Plats Tier 3
+ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:316> * 2], <gregtech:gt.metaitem.01:32464>, 32);
 
-//Heavy Duty Plats Tier 3
-ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:316> * 2], <dreamcraft:item.HeavyDutyBoard3>, 32);
+
 
 // --- Macerator Recipes ---
 
-//Meteoric Iron Dust
+
+// --- Meteoric Iron Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2340> * 9, <GalacticraftCore:tile.gcBlockCore:12>);
 
-//Desh Shards
+// --- Desh Shards
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2884>, <GalacticraftMars:item.null>);
-
+// -
 Macerator.addRecipe(<GalacticraftMars:item.null> * 2, <GalacticraftMars:tile.mars:2>);
 
-//Raw Meteoric Iron
-
+// --- Raw Meteoric Iron
 Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
 
-//Titanium Shards
+// --- Titanium Shards
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
+
+
 
 // --- Plate Bender Recipes ---
 
-//Tin Canister
+
+// --- Tin Canister
 PlateBender.addRecipe(<GalacticraftCore:item.canister> , <GalacticraftCore:item.basicItem:7> * 2, 200, 8);
 
-//Copper Canister
+// --- Copper Canister
 PlateBender.addRecipe(<GalacticraftCore:item.canister:1> , <GalacticraftCore:item.basicItem:6> * 2, 200, 8);
+
+
 
 // --- Vacuum Freezer Recipes ---
 
-//Fluid Oxygen
+
+
+// --- Fluid Oxygen
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidoxygen"}}), <gregtech:gt.metaitem.01:30013> * 12, 2400);
 
-//Fluid Nitrogen
+// --- Fluid Nitrogen
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidnitrogen"}}), <gregtech:gt.metaitem.01:30012> * 12, 2400);
 
-//Ilmenite to Ore Dict
+// --- Ilmenite to Ore Dict
 oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 
-//Desh to Ore Dict
+// --- Desh to Ore Dict
 oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
 
-//Stick of Desh
+// --- Stick of Desh
 oreDict.stickDesh.add(<GalacticraftMars:item.null:1>);
+
+
 
 // --- Wiremill Recipes ---
 
-//Meteoric Steel String
+
+// --- Meteoric Steel String
 Wiremill.addRecipe(<dreamcraft:item.MeteoricSteelString>, <gregtech:gt.metaitem.02:22341>, 600, 512);

@@ -876,6 +876,14 @@ recipes.remove(<gregtech:gt.Double_Thoriumcell>);
 // --- Quad Thorium Fuel Rod
 recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
 
+// --- Heavy Duty Allow Ingots
+recipes.remove(<gregtech:gt.metaitem.01:32462>);
+
+// --- Heavy Duty Allow Ingots T2
+recipes.remove(<gregtech:gt.metaitem.01:32463>);
+
+// --- Heavy Duty Allow Ingots T3
+recipes.remove(<gregtech:gt.metaitem.01:32464>);
 
 
 
@@ -2165,6 +2173,12 @@ recipes.addShaped(<gregtech:gt.metaitem.02:20889>, [
 [null, <ore:stickWoodSealed>, null],
 [<ore:craftingToolSaw>, <ore:plateWoodSealed>, <ore:craftingToolWireCutter>],
 [null, <ore:stickWoodSealed>, null]]);
+
+// --- Heavy Duty Allow Ingots
+recipes.addShaped(<gregtech:gt.metaitem.01:32462>, [
+[<ore:boltStainlessSteel>, <ore:craftingToolHardHammer>, <ore:boltStainlessSteel>],
+[<ore:compressedBronze>, <ore:compressedAluminium>, <ore:compressedSteel>],
+[<ore:boltStainlessSteel>, <ore:craftingToolWrench>, <ore:boltStainlessSteel>]]);
 
 
 

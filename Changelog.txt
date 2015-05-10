@@ -1,3 +1,108 @@
+2.6.7.6 --- 10.05.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*Buildcraft 6.4.15
+	*Dream Craft Core Mod 0.3.6
+	*Gregtech 5.08.11
+	*Iguana Tinker Tweaks 2.1.5
+	*Open Blocks 1.4.3.625
+	*Open Mods Lib 0.7.3.356
+	*TConstruct 1.8.5
+	
+	
+--- Added Mods ---
+
+
+	*Blood Arsenal 1.1-5	
+
+
+--- Configs ---
+
+
+	*Change some Gt Recipes in Recipes.cfg
+
+
+--- Scripts ---
+
+
+	*Change Heavy Duty Plates from Galacticraft using Gt ones instead of DreamCraft Core Mods ones
+	
+		
+************************************************
+
+
+2.6.7.5 --- 09.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Extrautilities 1.2.4c
+	*Forge Multipart 1.2.0.341
+	*Gregtech 5.08.10
+	*Open Blocks 1.4.2.622
+	*Thaumic Tinkerer 2.5.493
+	
+	
+--- Added Mods ---
+
+
+	*HQM-The Journey (4.2.3)	
+
+
+--- Configs ---
+
+
+	*Change some Gt Recipes in Recipes.cfg
+
+
+--- Scripts ---
+
+
+	*Added IC2 Over clocker Upgrade, Transformer Upgrade and Energy Storage upgrade to the Assembler
+	*Change Frequency Transmitter Recipes
+	
+		
+************************************************
+
+
+2.6.7.4 --- 08.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Biomes O Plenty 2.1.0.1274
+	*Forge 10.13.3.1403
+	*Forge Multipart 1.2.0.340
+	*Gregtech 5.08.09
+	*Open Blocks 1.4.2.619
+	*Open Mods Lib 0.7.2.354
+
+
+--- Configs ---
+
+
+	*Change some Gt Recipes in Recipes.cfg
+
+
+--- Scripts ---
+
+
+	*Added IC Painters in the Chemical bath
+	*Adding Doors, iron Doors, Trap Doors and Reinforced Door to the Assembler
+	*Delete Crystal Memory
+	*Delete the whole IC2 UUM Production Machines
+	*Deleting Bottling Plant
+	*Add Dynamite o Mote and Frequency Transmitter to the Assembler
+	
+		
+************************************************
+
+
 2.6.7.3 --- 07.05.2015 ---
 
 
