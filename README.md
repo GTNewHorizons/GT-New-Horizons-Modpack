@@ -158,4 +158,4 @@ Zombie Awareness 1.9.6<BR>
 
 ---
 
-Maintained by Dream-Master, Drobac, Warlord Wossman and Methes.
+Maintained by Dream-Master, Drobac, Warlord Wossman, Methes and Namikon.
