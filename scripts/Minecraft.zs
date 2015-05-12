@@ -2322,7 +2322,7 @@ recipes.addShaped(<minecraft:fishing_rod>, [
 //Paper
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustWood>],
+[<ore:dustWood>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 // -
 recipes.addShaped(<minecraft:paper> * 2, [

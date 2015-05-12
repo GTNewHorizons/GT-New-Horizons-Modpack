@@ -448,6 +448,41 @@ recipes.remove(<IC2:upgradeModule:1>);
 // --- Energy Storage Upgrade
 recipes.remove(<IC2:upgradeModule:2>);
 
+// --- Ejector Upgrade
+recipes.remove(<IC2:upgradeModule:3>);
+
+// --- Fluid Ejector Upgrade
+recipes.remove(<IC2:upgradeModule:4>);
+
+// --- Redstone Signal Inverter Upgrade
+recipes.remove(<IC2:upgradeModule:5>);
+
+// --- Terra Former
+recipes.remove(<IC2:blockMachine:15>);
+
+// --- TFBP empty
+recipes.remove(<IC2:itemTFBP>);
+
+// --- TFBP Cultivation
+recipes.remove(<IC2:itemTFBPCultivation>);
+
+// --- TFBP Irrigation
+recipes.remove(<IC2:itemTFBPIrrigation>);
+
+// --- TFBP Chilling
+recipes.remove(<IC2:itemTFBPChilling>);
+
+// --- TFBP Desertification
+recipes.remove(<IC2:itemTFBPDesertification>);
+
+// --- TFBP Flatification
+recipes.remove(<IC2:itemTFBPFlatification>);
+
+// --- TFBP Mushroom
+recipes.remove(<IC2:itemTFBPMushroom>);
+
+
+
 
 // --- Add Recipes ---
 
@@ -752,7 +787,7 @@ recipes.addShaped(<IC2:reactorCondensator>, [
 [<ore:plateRedAlloy>, <IC2:reactorVentCore>, <ore:plateRedAlloy>],
 [<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:*>, <ore:plateRedAlloy>, <ore:plateRedAlloy>, <minecraft:redstone_block>]);
+recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:*>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>]);
 
 // --- LZH Condensator
 recipes.addShaped(<IC2:reactorCondensatorLap>, [
@@ -760,7 +795,7 @@ recipes.addShaped(<IC2:reactorCondensatorLap>, [
 [<IC2:reactorCondensator>, <ore:plateDenseLapis>, <IC2:reactorCondensator>],
 [<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread>, <ore:plateDoubleRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:*>, <ore:plateLapis>, <ore:plateLapis>, <minecraft:lapis_block>]);
+recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:*>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]);
 
 // --- Treetap
 recipes.addShaped(<IC2:itemTreetap>, [
@@ -924,6 +959,15 @@ AssemblerLiq.addRecipe(<IC2:upgradeModule:1>, <IC2:itemPartCircuit>, <IC2:itemRe
 // --- Energy Storage Upgrade
 AssemblerLiq.addRecipe(<IC2:upgradeModule:2>, <IC2:itemPartCircuit>, <IC2:itemBatREDischarged>, <liquid:molten.copper> * 144, 1200, 16);
 
+// --- Ejector Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule:3>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32630>, <liquid:molten.copper> * 144, 1200, 16);
+
+// --- Fluid Ejector Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule:4>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32610>, <liquid:molten.copper> * 144, 1200, 16);
+
+// --- Redstone Signal Inverter Upgrade
+AssemblerLiq.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <minecraft:stone_button>, <liquid:molten.copper> * 144, 1200, 16);
+
 
 
 
@@ -1047,6 +1091,7 @@ Mixer.addRecipe(<IC2:itemPartCFPowder>, null, <gregtech:gt.metaitem.01:2299> * 6
 
 // --- Construction Foam
 Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, <IC2:itemPartCFPowder>, null, null, null, <liquid:water> * 1000, 200, 16);
+
 
 
 
