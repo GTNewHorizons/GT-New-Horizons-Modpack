@@ -481,6 +481,21 @@ recipes.remove(<IC2:itemTFBPFlatification>);
 // --- TFBP Mushroom
 recipes.remove(<IC2:itemTFBPMushroom>);
 
+// --- Charging RE Battery
+recipes.remove(<IC2:itemBatChargeRE:*>);
+
+// --- Scuba Helmet
+recipes.remove(<IC2:itemArmorHazmatHelmet>);
+
+// --- Hazmat Suit
+recipes.remove(<IC2:itemArmorHazmatChestplate>);
+
+// --- Hazmat Suit Leggings
+recipes.remove(<IC2:itemArmorHazmatLeggings>);
+
+// --- Rubber Boots
+recipes.remove(<IC2:itemArmorHazmatLeggings>);
+
 
 
 
@@ -865,6 +880,12 @@ recipes.addShaped(<IC2:itemToolPainter>, [
 [null, <ore:stickSteel>, null],
 [null, <ore:stickSteel>, null]]);
 
+// --- Charging RE Battery
+recipes.addShaped(<IC2:itemBatChargeRE:26>, [
+[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>],
+[<ore:batteryBasic>, <gregtech:gt.metaitem.01:17315>, <ore:batteryBasic>],
+[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
+
 
 
 
@@ -966,7 +987,19 @@ AssemblerLiq.addRecipe(<IC2:upgradeModule:3>, <IC2:itemPartCircuit>, <gregtech:g
 AssemblerLiq.addRecipe(<IC2:upgradeModule:4>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32610>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Redstone Signal Inverter Upgrade
-AssemblerLiq.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <minecraft:stone_button>, <liquid:molten.copper> * 144, 1200, 16);
+AssemblerLiq.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17308>, <liquid:molten.copper> * 144, 1200, 16);
+
+// --- Scuba Helmet
+AssemblerLiq.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <IC2:blockAlloyGlass> * 2, <liquid:glue> * 144, 500, 32);
+
+// --- Hazmat Suit
+AssemblerLiq.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:glue> * 144, 500, 32);
+
+// --- Hazmat Suit Leggings
+AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 32);
+
+// --- Rubber Boots
+AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 4, <minecraft:carpet> * 2, <liquid:glue> * 144, 500, 32);
 
 
 
