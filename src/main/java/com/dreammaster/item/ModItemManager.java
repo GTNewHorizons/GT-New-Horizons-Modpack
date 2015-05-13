@@ -36,7 +36,7 @@ public class ModItemManager {
 	 * Init all Items found in ItemDescriptionEnum
 	 * @return
 	 */
-	public boolean InitModItems()
+	public boolean InitModItems(CreativeTabsManager pTabManager)
 	{
 		try
 		{
@@ -45,12 +45,15 @@ public class ModItemManager {
 				if(ItemCollection.containsKey(modItem)) // item already there, skip
 					continue;
 				
-				Item tItem = new Item();
-				tItem.setCreativeTab(modItem.getCreativeTab());
-				tItem.setUnlocalizedName(modItem.getUnlocalizedName());
-				tItem.setTextureName(modItem.getTextureName());
+				// This is hacky, but there's no other way...
+				modItem.setCreativeTab(pTabManager.GetCreativeTabInstance(modItem.getCreativeTabType()));
 				
-				ItemCollection.put(modItem, tItem); // Insert to our list
+				//Item tItem = new Item();
+				//tItem.setCreativeTab(CreativeTabsManager.GetCreativeTabInstance(modItem.getCreativeTab()));
+				//tItem.setUnlocalizedName(modItem.getUnlocalizedName());
+				//tItem.setTextureName(modItem.getTextureName());
+				
+				ItemCollection.put(modItem, modItem.getConstructedItem()); // Insert to our list
 			}
 		
 			return true;
