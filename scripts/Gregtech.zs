@@ -990,7 +990,7 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9,
 // --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 [<gregtech:gt.metatool.01:34>, null, null],
-[<gregtech:gt.metaitem.01:17809>, null, null]]);
+[null, <gregtech:gt.metaitem.01:17809>, null]]);
 
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassBlock>]);
