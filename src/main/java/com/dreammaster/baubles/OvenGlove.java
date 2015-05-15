@@ -1,0 +1,264 @@
+package com.dreammaster.baubles;
+
+import java.util.List;
+import java.util.Random;
+
+import org.apache.logging.log4j.Level;
+
+import com.dreammaster.creativetab.CreativeTabsManager;
+import com.dreammaster.creativetab.ModTabList;
+import com.dreammaster.interfaces.IExtendedModItem;
+import com.dreammaster.lib.Refstrings;
+
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.FMLLog;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import baubles.api.BaubleType;
+import baubles.common.container.InventoryBaubles;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
+
+public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedModItem {
+	private static final String NBTTAG_DURABILITY = "Durability";
+
+	Random _mRnd = new Random();
+	
+	private String _mItemName;
+	private  ModTabList _mCreativeTab;
+	private static int MaxDurability = 1000;
+
+	private static OvenGlove _mInstance = null;
+	public static OvenGlove Instance(String pItemName, ModTabList pCreativeTab)
+	{
+		// Not good, singleton with args... booh.. TODO: Find a better way
+		if (_mInstance == null)
+			_mInstance = new OvenGlove(pItemName, pCreativeTab);
+		
+		return _mInstance;
+	}
+	
+	public OvenGlove getFinalInstance()
+	{
+		return _mInstance;
+	}
+	
+	public ModTabList getDefinedCreativeTab()
+	{
+		return _mCreativeTab;
+	}
+	
+	public void setFinalCreativeTab(CreativeTabs pTab)
+	{
+		super.setCreativeTab(pTab);
+	}
+	
+	private OvenGlove(String pItemName, ModTabList pCreativeTab)
+	{
+		_mItemName = pItemName;
+		_mCreativeTab = pCreativeTab;
+		
+		super.setTextureName(String.format("%s:item%s", Refstrings.MODID, _mItemName));
+		super.setUnlocalizedName(_mItemName);
+		super.setMaxDamage(0);
+		super.setHasSubtypes(true);
+	}
+
+	private static long prevTime = Long.MIN_VALUE;
+	private static int curRand = -1;
+	
+	@Override
+	public String getUnlocalizedName(ItemStack stack) {
+		if (FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT)
+		{
+			long curTime = System.currentTimeMillis();
+			if ((curTime - prevTime > 1000L) || (curRand == -1))
+			{
+				curRand = _mRnd.nextInt(4);
+			}
+			prevTime = curTime;
+			return String.format("%s_%d_%d", this.getUnlocalizedName(), stack.getItemDamage(), curRand);
+		}
+		else
+			return this.getUnlocalizedName() + "_" + stack.getItemDamage();
+	}
+	
+	public IIcon[] icons = new IIcon[2];
+	@Override
+	public void registerIcons(IIconRegister reg) {
+	    for (int i = 0; i < 2; i ++) {
+	        this.icons[i] = reg.registerIcon(String.format("%s:item%s_%d", Refstrings.MODID, _mItemName, i));
+	    }
+	}
+	
+	@Override
+	public IIcon getIconFromDamage(int meta) {
+	    return this.icons[meta];
+	}
+	
+	@Override
+	public void getSubItems(Item item, CreativeTabs tab, List list) {
+	    for (int i = 0; i < 2; i ++) {
+	        list.add(new ItemStack(item, 1, i));
+	    }
+	}
+	
+	@Override
+	public boolean canEquip(ItemStack arg0, EntityLivingBase arg1) {
+		return true;
+	}
+
+	@Override
+	public boolean canUnequip(ItemStack arg0, EntityLivingBase arg1) {
+		return true;
+	}
+
+	@Override
+	public BaubleType getBaubleType(ItemStack arg0) {
+		return BaubleType.RING;
+	}
+
+	@Override
+	public void onEquipped(ItemStack arg0, EntityLivingBase arg1) {
+		
+	}
+
+	@Override
+	public void onUnequipped(ItemStack arg0, EntityLivingBase pEntityBase) {
+		RemoveFireProtection(pEntityBase);
+	}
+
+	private void RemoveFireProtection(EntityLivingBase pEntityBase)
+	{
+		if (!(pEntityBase instanceof EntityPlayer))
+			return;
+		
+		try
+		{ 	// As soon as one glove gets unequipped, remove the fire resistance. onWornTick takes care to not reapply the
+			// effect until the player has both gloves reattached 
+			EntityPlayer tPlayer = (EntityPlayer)pEntityBase;
+			tPlayer.removePotionEffect(Potion.fireResistance.id);
+		}
+		catch (Exception e)
+		{
+			// Silently...
+		}
+	}
+	
+	//private void Log(String pString)
+	//{
+//		FMLLog.log(Refstrings.MODID.toUpperCase(),Level.INFO, pString);
+//	}
+	
+	// ------------------ NBT Start
+	@Override
+	public void onCreated(ItemStack pItemStack, World pWorld, EntityPlayer pEntityPlayer) {
+		CreateOrInitNBTTag(pItemStack);    
+	}
+	
+	private int GetNBTDurability(ItemStack pItemStack)
+	{
+		int tDura = pItemStack.stackTagCompound.getInteger(NBTTAG_DURABILITY);
+		return tDura;
+	}
+	
+	private void DamageItem(ItemStack pItemStack)
+	{
+		int tCurrentDura = GetNBTDurability(pItemStack);
+		if (tCurrentDura > 0)
+		{
+			pItemStack.stackTagCompound.setInteger(NBTTAG_DURABILITY, --tCurrentDura);
+		}
+	}
+	
+	@Override
+	public void addInformation(ItemStack pItemStack, EntityPlayer pWorld, List list, boolean par4)
+	{
+		CreateOrInitNBTTag(pItemStack);	    
+		
+		list.add("Protecting your fingers since 1890");
+		list.add(String.format("Durability: %d/%d", GetNBTDurability(pItemStack), MaxDurability));
+		if (pItemStack.stackTagCompound.getInteger(NBTTAG_DURABILITY) <= 1)
+			list.add("This glove is too damaged to protect you. You need to repair it");
+	}
+	
+	private void CreateOrInitNBTTag(ItemStack pItemStack)
+	{
+	    if( pItemStack.stackTagCompound == null )
+	    {
+	    	pItemStack.setTagCompound( new NBTTagCompound( ) );
+	    	pItemStack.stackTagCompound.setInteger(NBTTAG_DURABILITY, MaxDurability);
+	    }
+	}
+	
+	// ------------------ NBT End
+	
+	@Override
+	public void onWornTick(ItemStack arg0, EntityLivingBase pEntity) {
+		if (!(pEntity instanceof EntityPlayer))
+			return;
+		
+		if (arg0.getItemDamage() == 1) // MetaItem 0 is running this loop only
+			return;
+		
+		EntityPlayer tPlayer = (EntityPlayer)pEntity;
+		InventoryBaubles tBaubles = baubles.common.lib.PlayerHandler.getPlayerBaubles(tPlayer);
+
+		if (tPlayer.isBurning()) // no fire/lava cheat!
+		{
+			RemoveFireProtection(pEntity);
+			return;
+		}
+		
+		if (_mRnd.nextInt(20) == 0)
+		{ 
+			// Player must wear OvenGloves in both slots 
+			ItemStack tBaubleRing1 = tBaubles.stackList[1];
+			ItemStack tBaubleRing2 = tBaubles.stackList[2];
+			
+			if(tBaubleRing1 == null || tBaubleRing2 == null)
+			{
+				//Log("Bauble 1 or 2 is null");
+				return;
+			}
+			
+			if(tBaubleRing1.getUnlocalizedName().contains(_mItemName) && tBaubleRing2.getUnlocalizedName().contains(_mItemName))
+			{
+				if (tBaubleRing1.getItemDamage() != 0 || tBaubleRing2.getItemDamage() != 1)
+				{
+					//Log("Gloves in wrong spots");
+					return;
+				}
+			
+				if (tBaubleRing1.stackTagCompound.getInteger(NBTTAG_DURABILITY) <= 1 || tBaubleRing2.stackTagCompound.getInteger(NBTTAG_DURABILITY) <= 1)
+					return;
+				
+				ItemStack tHeldItem = tPlayer.getCurrentEquippedItem();
+				if (tHeldItem != null)
+				{
+					// Player must hold any item with "lava" in his hand
+					if (tHeldItem.getUnlocalizedName().toLowerCase().contains("lava"))
+					{
+						tPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 100, 0, false));
+
+						int tRandomDamage = _mRnd.nextInt(10); // Randomly damage gloves while giving the protection effect
+						
+						if(tRandomDamage == 1)
+							DamageItem(tBaubleRing1);
+						else if(tRandomDamage == 2)
+							DamageItem(tBaubleRing2);
+					}
+				}
+			}
+		}
+	}
+}

@@ -6,13 +6,16 @@ import java.util.List;
 import java.util.Map;
 
 import com.dreammaster.creativetab.CreativeTabsManager;
+import com.dreammaster.interfaces.IExtendedModItem;
 import com.dreammaster.lib.Refstrings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ModItemManager {
 	public Map<ModItems, Item> ItemCollection = null;
+	private CreativeTabsManager _mTabManager = null;
 	
 	public ModItemManager()
 	{
@@ -38,6 +41,7 @@ public class ModItemManager {
 	 */
 	public boolean InitModItems(CreativeTabsManager pTabManager)
 	{
+		_mTabManager = pTabManager;
 		try
 		{
 			for (ModItems modItem : ModItems.values())
@@ -46,12 +50,7 @@ public class ModItemManager {
 					continue;
 				
 				// This is hacky, but there's no other way...
-				modItem.setCreativeTab(pTabManager.GetCreativeTabInstance(modItem.getCreativeTabType()));
-				
-				//Item tItem = new Item();
-				//tItem.setCreativeTab(CreativeTabsManager.GetCreativeTabInstance(modItem.getCreativeTab()));
-				//tItem.setUnlocalizedName(modItem.getUnlocalizedName());
-				//tItem.setTextureName(modItem.getTextureName());
+				modItem.setCreativeTab(_mTabManager.GetCreativeTabInstance(modItem.getCreativeTabType()));
 				
 				ItemCollection.put(modItem, modItem.getConstructedItem()); // Insert to our list
 			}
@@ -85,5 +84,31 @@ public class ModItemManager {
 			return false;
 		}
 	}
+
 	
+	/**
+	 * Register a "non-enum" item to the gameregistry
+	 * @param <T>
+	 * @return
+	 */
+	public <T> boolean RegisterNonEnumItem(IExtendedModItem<T> pModItem)
+	{ // Failed to define with "Class <? extends Item>", which would be a LOT easier to understand (and to code!) 
+		try
+		{
+			CreativeTabs tTargetTab = _mTabManager.GetCreativeTabInstance(pModItem.getDefinedCreativeTab());
+			if (tTargetTab == null)
+				return false;
+
+			pModItem.setFinalCreativeTab(tTargetTab);
+			GameRegistry.registerItem((Item) pModItem.getFinalInstance(), pModItem.getUnlocalizedName());
+			return true;
+		}
+		catch (Exception e)
+		{
+			// Todo: Logfile
+			return false;
+		}
+	}
 }
+
+
