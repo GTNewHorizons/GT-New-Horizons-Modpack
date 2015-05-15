@@ -100,7 +100,7 @@ public class ModItemManager {
 				return false;
 
 			pModItem.setFinalCreativeTab(tTargetTab);
-			GameRegistry.registerItem((Item) pModItem.getFinalInstance(), pModItem.getUnlocalizedName());
+			GameRegistry.registerItem((Item) pModItem.getFinalInstance(), pModItem.getUnlocalizedNameForRegistration());
 			return true;
 		}
 		catch (Exception e)

@@ -62,6 +62,12 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 		super.setCreativeTab(pTab);
 	}
 	
+	@Override
+	public String getUnlocalizedNameForRegistration()
+	{
+		return super.getUnlocalizedName();
+	}
+	
 	private OvenGlove(String pItemName, ModTabList pCreativeTab)
 	{
 		_mItemName = pItemName;
@@ -89,7 +95,8 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 			return String.format("%s_%d_%d", this.getUnlocalizedName(), stack.getItemDamage(), curRand);
 		}
 		else
-			return this.getUnlocalizedName() + "_" + stack.getItemDamage();
+			return super.getUnlocalizedName(stack);
+			//return this.getUnlocalizedName() + "_" + stack.getItemDamage();
 	}
 	
 	public IIcon[] icons = new IIcon[2];

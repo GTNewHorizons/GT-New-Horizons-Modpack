@@ -8,7 +8,7 @@ import net.minecraft.item.Item;
 public interface IExtendedModItem<T>
 {
 	T getFinalInstance();
-	String getUnlocalizedName();
+	String getUnlocalizedNameForRegistration();
 	void setFinalCreativeTab(CreativeTabs pTab);
 	ModTabList getDefinedCreativeTab();
 }
