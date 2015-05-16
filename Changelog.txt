@@ -1,3 +1,75 @@
+2.6.8.3 --- 16.05.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*Biomes O Plenty 2.1.0.1283
+	*Dream Craft Core Mod 0.4.1a
+	*Gregtech 5.08.13
+	*Iron Chest Minecarts 1.0.3
+	*Magicbees 2.3.1
+	*Open Blocks 1.4.3.628
+	*Open Mods Lib-1.7.10-0.7.3.359
+	*Twilightforest 2.3.6
+	
+	
+--- Configs ---
+
+
+	*Beginn to change The Archivement Textes from GT
+
+		
+************************************************
+
+
+2.6.8.2 --- 15.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Dream Craft Core Mod 0.4.1
+	
+	
+--- Configs ---
+
+
+	*Delete Ore Berry Generation from TC
+	*Set HQM Server Sync to true
+	*Add Tier 0.5 HQM Quests
+	*
+
+		
+************************************************
+
+
+2.6.8.1 --- 14.05.2015 --- (Server Update)
+
+
+--- Downgrade Mods ---
+
+
+	*Galacticraft 3.0.12.334 (because Oredict)
+
+		
+************************************************
+
+
+2.6.8.0 --- 14.05.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*BiomesOPlenty 2.1.0.1282
+	*Code Chicken Core 1.0.6.44
+	*Galacticraft 3.0.12.336
+
+		
+************************************************
+
+
 2.6.7.9 --- 13.05.2015 ---
 
 
@@ -77,13 +149,25 @@
 --- Configs ---
 
 
-	*Change some Gt Recipes in Recipes.cfg
+	*Hide Open Block Tanks and Healer
+	*Added Aluminium Ore Berry's to the Smelter
+	*Adding Archivements in GT
 
 
 --- Scripts ---
 
 
 	*Change Heavy Duty Plates from Galacticraft using Gt ones instead of DreamCraft Core Mods ones
+	*Change Forestry Rain tank recipe using a iron ring instead of a Cauldron
+	*Adding Mortar Recipes for Salt
+	*Change Ladder Recipes
+	
+	
+	
+--- Scripts ---
+
+
+	*Replace Open Blocks Tanks with BC Tank in all Recipes 
 	
 		
 ************************************************

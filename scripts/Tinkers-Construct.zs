@@ -185,9 +185,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 // --- Alumium Ingot
 mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
 
-// --- Aluminium Nuggets
-mods.tconstruct.Smeltery.removeMelting(<TConstruct:oreBerries:4>);
-
 // --- Steel Ingot
 mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
 
@@ -722,6 +719,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:1019>, <liquid:alum
 
 // --- Red Sand
 mods.tconstruct.Smeltery.addMelting(<minecraft:sand:1>, <liquid:glass.molten> * 1000, 800, <minecraft:sand:1>);
+
+// --- Aluminum Ore Berrys
+mods.tconstruct.Smeltery.addMelting(<TConstruct:oreBerries:4>, <liquid:aluminum.molten> * 16, 500, <gregtech:gt.blockmachines:1585>);
 
 // --- Copper Nugget
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:20>, <liquid:copper.molten> * 16, <TConstruct:metalPattern:27>, false, 20);

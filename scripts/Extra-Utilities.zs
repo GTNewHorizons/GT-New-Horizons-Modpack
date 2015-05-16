@@ -100,7 +100,7 @@ val HVEnergyBuffer = <gregtech:gt.blockmachines:173>;
 val CopperCable12x = <ore:cableGt12Copper>;
 val ElectrumCable12x = <ore:cableGt12Electrum>;
 val BrassItemPipe = <ore:pipeMediumBrass>;
-val OBTank = <OpenBlocks:tank>;
+val OBTank = <BuildCraft|Factory:tankBlock>;
 val GoldFoil = <ore:foilRoseGold>;
 val DiamondPick = <minecraft:diamond_pickaxe>;
 val IronPick = <minecraft:iron_pickaxe>;
@@ -388,7 +388,7 @@ recipes.addShaped(<ExtraUtilities:enderQuarry>, [
 // --- Ender-Thermic Pump
 recipes.addShaped(EnderPump, [
 [EnderObsidian, AdvCircuit, EnderObsidian],
-[<OpenBlocks:tank>, EnderCore, <OpenBlocks:tank>],
+[<BuildCraft|Factory:tankBlock>, EnderCore, <BuildCraft|Factory:tankBlock>],
 [EnderObsidian, Miner, EnderObsidian]]);
 
 // --- Burnt Quartz

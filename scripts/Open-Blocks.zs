@@ -61,9 +61,6 @@ recipes.remove(GliderWing);
 // --- Luggage
 recipes.remove(Luggage);
 
-// --- Tank
-recipes.remove(<OpenBlocks:tank>);
-
 // --- Auto-Enchantment Table
 recipes.remove(<OpenBlocks:autoenchantmenttable>);
 

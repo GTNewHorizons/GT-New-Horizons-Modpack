@@ -193,6 +193,7 @@ val IronPlate = <ore:plateAnyIron>;
 val IronRod = <ore:stickAnyIron>;
 val DiamondRod = <ore:stickDiamond>;
 val StoneRod = <ore:rodStone>;
+val WoodScrew = <ore:screwWood>;
 val IronScrew = <ore:screwAnyIron>;
 val SteelScrew = <ore:screwSteel>;
 val WoodGear = <ore:gearWood>;
@@ -1100,19 +1101,19 @@ recipes.addShapedMirrored(RSTorch , [
 
 // --- Ladder
 recipes.addShaped(Ladder, [
-[Stick, HHammer, Stick],
-[Stick, Stick, Stick],
-[Stick, Saw, Stick]]);
+[Stick, Screwdriver, Stick],
+[String, WoodScrew, String],
+[Stick, SHammer, Stick]]);
 // - Alternate Recipe
 recipes.addShaped(Ladder * 2, [
 [Stick, Screwdriver, Stick],
-[Stick, IronScrew, Stick],
-[Stick, Saw, Stick]]);
+[String, IronScrew, String],
+[Stick, SHammer, Stick]]);
 // - Alternate Recipe
 recipes.addShaped(Ladder * 4, [
 [Stick, Screwdriver, Stick],
-[Stick, SteelScrew, Stick],
-[Stick, Saw, Stick]]);
+[String, SteelScrew, String],
+[Stick, SHammer, Stick]]);
 
 // --- Fence
 recipes.addShaped(Fence, [
@@ -2506,7 +2507,7 @@ ImplosionCompressor.addRecipe([<minecraft:nether_star> * 3, <gregtech:gt.metaite
 
 
 
-//Shears
+// --- Shears
 oreDict.craftingToolShears.add(<minecraft:shears>);
 
 

@@ -533,7 +533,7 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 1000, [
 recipes.addShaped(<Forestry:factory2:1>, [
 [<ore:plateIron>, <ore:ringIron>, <ore:plateIron>],
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
-[<ore:plateIron>, <minecraft:cauldron>, <ore:plateIron>]]);
+[<ore:plateIron>, <ore:ringIron>, <ore:plateIron>]]);
 
 // --- Work Table
 recipes.addShaped(<Forestry:factory2:2>, [

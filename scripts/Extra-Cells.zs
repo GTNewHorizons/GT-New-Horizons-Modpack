@@ -69,7 +69,7 @@ val TSteelPlate = <ore:plateTungstenSteel>;
 val HSLAPlate = <ore:plateHSLA>;
 val ReinforcedIridiumPlate = <ore:plateAlloyIridium>;
 
-val OBTank = <OpenBlocks:tank>;
+val OBTank = <BuildCraft|Factory:tankBlock>;
 val ClearPane = <TConstruct:GlassPane>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
