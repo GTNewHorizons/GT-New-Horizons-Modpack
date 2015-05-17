@@ -1,9 +1,7 @@
 package com.dreammaster.item;
 
-import com.dreammaster.creativetab.CreativeTabsManager;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -23,6 +21,9 @@ public enum ModItems {
 	EtchedLudicrousVoltageWiring("EtchedLudicrousVoltageWiring", "", ModTabList.ModCircuitsTab),
 	ExtruderShapeBoat("ExtruderShapeBoat", "", ModTabList.ModShapesTab),
 	GoldWandCap("GoldWandCap", "", ModTabList.ModThaumcraftTab),
+	HeavyDutyAlloyIngotT4("HeavyDutyAlloyIngotT4", "", ModTabList.ModGenericTab),
+	HeavyDutyAlloyIngotT5("HeavyDutyAlloyIngotT5", "", ModTabList.ModGenericTab),
+	HeavyDutyAlloyIngotT6("HeavyDutyAlloyIngotT6", "", ModTabList.ModGenericTab),
 	IronWandCap("IronWandCap", "", ModTabList.ModThaumcraftTab),
 	LichBone("LichBone", "", ModTabList.ModThaumcraftTab),
 	LongObsidianRod("LongObsidianRod", "", ModTabList.ModGenericTab),
@@ -51,9 +52,9 @@ public enum ModItems {
 	
 	MoonStoneDust("MoonStoneDust", "", ModTabList.ModGenericTab),
 	MushroomPowder("MushroomPowder", "", ModTabList.ModGenericTab),
-	NanoProcessorBoard("NanoProcessorBoard", "", ModTabList.ModGenericTab),
+	NanoProcessorBoard("NanoProcessorBoard", "", ModTabList.ModCircuitsTab),
 	Nothing("Nothing", "", ModTabList.ModGenericTab),
-	QuantumProcessorBoard("QuantumProcessorBoard", "", ModTabList.ModGenericTab),
+	QuantumProcessorBoard("QuantumProcessorBoard", "", ModTabList.ModCircuitsTab),
 	SandClayMix("SandClayMix", "", ModTabList.ModGenericTab),
 	SandStoneRod("SandStoneRod", "", ModTabList.ModGenericTab),
 	
@@ -83,14 +84,14 @@ public enum ModItems {
 	ShapeTinyPipe("ShapeTinyPipe", "", ModTabList.ModShapesTab),
 	ShapeWire("ShapeWire", "", ModTabList.ModShapesTab),
 	
-	SnowQueenBlood("SnowQueenBlood", "", ModTabList.ModGenericTab),
+	SnowQueenBlood("SnowQueenBlood", "", ModTabList.ModThaumcraftTab),
 	SteelBars("SteelBars", "", ModTabList.ModGenericTab),
 	StonePlate("StonePlate", "", ModTabList.ModGenericTab),
-	SuperCircuit("SuperCircuit", "", ModTabList.ModGenericTab),
-	VoidFoil("VoidFoil", "", ModTabList.ModGenericTab),
-	VoidPlate("VoidPlate", "", ModTabList.ModGenericTab),
-	VoidRing("VoidRing", "", ModTabList.ModGenericTab),
-	VoidRod("VoidRod", "", ModTabList.ModGenericTab);
+	SuperCircuit("SuperCircuit", "", ModTabList.ModCircuitsTab),
+	VoidFoil("VoidFoil", "", ModTabList.ModThaumcraftTab),
+	VoidPlate("VoidPlate", "", ModTabList.ModThaumcraftTab),
+	VoidRing("VoidRing", "", ModTabList.ModThaumcraftTab),
+	VoidRod("VoidRod", "", ModTabList.ModThaumcraftTab);
 
 	
 	// ***** Don't do anything below here
