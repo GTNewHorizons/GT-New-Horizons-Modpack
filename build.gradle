@@ -17,12 +17,8 @@ buildscript {
 
 apply plugin: 'forge'
 
-<<<<<<< HEAD
-version = "1.7.10-0.4.3"
-=======
-version = "1.7.10-0.4.4"
->>>>>>> 309b06f52157775e9de208d04f0d01f43aa9801c
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "1.7.10-0.4.5"
+group= "com.dreammaster" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "DreamCraftCoreMod"
 
 minecraft {
