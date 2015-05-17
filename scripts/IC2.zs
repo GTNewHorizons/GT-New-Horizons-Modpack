@@ -4,6 +4,7 @@
 // --- Import ---
 
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.ChemicalBathLiq;
@@ -12,6 +13,7 @@ import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
+import mods.gregtech.Polarizer;
 import mods.gregtech.Wiremill;
 
 
@@ -496,6 +498,25 @@ recipes.remove(<IC2:itemArmorHazmatLeggings>);
 // --- Rubber Boots
 recipes.remove(<IC2:itemArmorHazmatLeggings>);
 
+// --- 10k Coolant Cell
+recipes.remove(<IC2:reactorCoolantSimple>);
+
+// --- 30k Coolant Cell
+recipes.remove(<IC2:reactorCoolantTriple>);
+
+// --- 60k Coolant Cell
+recipes.remove(<IC2:reactorCoolantSix>);
+
+// --- Night Vision Goggle
+recipes.remove(<IC2:itemNightvisionGoggles:*>);
+
+// --- Rubber Boots
+recipes.remove(<IC2:itemArmorRubBoots>);
+
+// --- Static Boots
+recipes.remove(<IC2:itemStaticBoots>);
+
+
 
 
 
@@ -546,7 +567,7 @@ recipes.addShaped(<IC2:itemRecipePart:5>, [
 
 // --- Advanced Battery
 recipes.addShaped(<IC2:itemAdvBat>, [
-[<ore:wireGt08Copper>, null, <ore:wireGt08Copper>],
+[<ore:wireGt08Copper>, <ore:craftingToolScrewdriver>, <ore:wireGt08Copper>],
 [<IC2:itemCasing>, <gregtech:gt.metaitem.01:32501>, <IC2:itemCasing>],
 [<IC2:itemCasing>, <IC2:itemCasing:6>, <IC2:itemCasing>]]);
 
@@ -814,7 +835,7 @@ recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:*>
 
 // --- Treetap
 recipes.addShaped(<IC2:itemTreetap>, [
-[<ore:craftingToolHardHammer>, <ore:screwWood>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolSoftHammer>, <ore:screwWood>, <ore:craftingToolScrewdriver>],
 [<ore:pipeMediumWood>, <ore:pipeMediumWood>, <ore:pipeSmallWood>],
 [<ore:pipeLargeWood>, <ore:craftingToolSaw>, <ore:craftingToolFile>]]);
 
@@ -886,6 +907,24 @@ recipes.addShaped(<IC2:itemBatChargeRE:26>, [
 [<ore:batteryBasic>, <gregtech:gt.metaitem.01:17315>, <ore:batteryBasic>],
 [<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
 
+// --- Night Vision Goggle
+recipes.addShaped(<IC2:itemNightvisionGoggles:27>, [
+[<IC2:reactorHeatSwitchDiamond>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond>],
+[<ore:ringStainlessSteel>, <ore:boltStainlessSteel>, <ore:ringStainlessSteel>],
+[<GalacticraftCore:item.sensorLens>,  <ore:craftingToolScrewdriver>, <GalacticraftCore:item.sensorLens>]]);
+
+
+
+// --- Alloy Smelter Recipes ---
+
+
+
+// --- Rubber Boots
+AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:2880> * 6, <dreamcraft:item.MoldBoots> * 0, 300, 32);
+// -
+AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:2880> * 6, <dreamcraft:item.MoldBoots> * 0, 300, 32);
+// -
+AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:17880> * 6, <dreamcraft:item.MoldBoots> * 0, 200, 32);
 
 
 
@@ -1001,7 +1040,21 @@ AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:1
 // --- Rubber Boots
 AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 4, <minecraft:carpet> * 2, <liquid:glue> * 144, 500, 32);
 
+// --- 10k Coolant Cell
+AssemblerLiq.addRecipe(<IC2:reactorCoolantSimple>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 32);
 
+// --- 30k Coolant Cell
+AssemblerLiq.addRecipe(<IC2:reactorCoolantTriple>, <IC2:reactorCoolantSimple> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:ic2coolant> * 1000, 300, 64);
+
+// --- 60k Coolant Cell
+AssemblerLiq.addRecipe(<IC2:reactorCoolantSix>, <IC2:reactorCoolantTriple> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:ic2coolant> * 1000, 400, 128);
+
+// --- Solar Helmet
+AssemblerLiq.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 32);
+// -
+AssemblerLiq.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.tin> * 144, 600, 32);
+// -
+AssemblerLiq.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.solderingalloy> * 72, 600, 32);
 
 
 // --- Chemical Bath Recipes ---
@@ -1125,6 +1178,15 @@ Mixer.addRecipe(<IC2:itemPartCFPowder>, null, <gregtech:gt.metaitem.01:2299> * 6
 // --- Construction Foam
 Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, <IC2:itemPartCFPowder>, null, null, null, <liquid:water> * 1000, 200, 16);
 
+
+
+
+// --- Polarizer Recipes ---
+
+
+
+// --- Static Boots
+Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 32);
 
 
 

@@ -704,14 +704,14 @@ recipes.addShaped(<GalacticraftCore:item.oxygenTankHeavyFull:2700>, [
 //Sensor Lens
 recipes.addShaped(SensorLens, [
 [<ore:ringRedAlloy>, <ore:lensDiamond>,<ore:ringRedAlloy>],
-[<ore:circuitData>, <ore:lensGlass>, <ore:circuitData>],
-[<ore:ringRedAlloy>, <ore:lensDiamond>, <ore:ringRedAlloy>]]);
+[<ore:circuitAdvanced>, <ore:lensReinforcedGlass>, <ore:circuitAdvanced>],
+[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>]]);
 
 //Sensor Glasses
 recipes.addShaped(<GalacticraftCore:item.sensorGlasses>, [
-[MeteorScrew, MeteorScrew,MeteorScrew],
+[<ore:circuitElite>, MeteorScrew,<ore:circuitElite>],
 [DeshRing, <ore:boltDesh>, DeshRing],
-[SensorLens, null, SensorLens]]);
+[SensorLens, <ore:craftingToolScrewdriver>, SensorLens]]);
 
 //Heavy Duty Pickaxe
 recipes.addShaped(<GalacticraftCore:item.steel_pickaxe>, [

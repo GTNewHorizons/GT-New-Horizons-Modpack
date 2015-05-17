@@ -5,6 +5,7 @@
 // --- Imports --- 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.BlastFurnace;
@@ -885,6 +886,28 @@ recipes.remove(<gregtech:gt.metaitem.01:32463>);
 
 // --- Heavy Duty Allow Ingots T3
 recipes.remove(<gregtech:gt.metaitem.01:32464>);
+
+// --- Certus Quartz Dust
+recipes.remove(<gregtech:gt.metaitem.01:2517>);
+
+// --- 60k Helium Cooling Cell
+recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
+
+// --- 180k Helium Cooling Cell
+recipes.remove(<gregtech:gt.180k_Helium_Coolantcell>); 
+
+// --- 360k Helium Cooling Cell
+recipes.remove(<gregtech:gt.360k_Helium_Coolantcell>);
+
+// --- 60k NaK Cooling Cell
+recipes.remove(<gregtech:gt.60k_NaK_Coolantcell>);
+
+// --- 180k NaK Cooling Cell
+recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>); 
+
+// --- 360k NaK Cooling Cell
+recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
+
 
 
 
@@ -2228,6 +2251,25 @@ Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> 
 
 // --- Quad Thorium Fuel Rod
 Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+
+// --- 60k Helium Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:helium> * 1000, 400, 128);
+
+// --- 180k Helium Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <gregtech:gt.60k_Helium_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
+
+// --- 360k Helium Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <gregtech:gt.180k_Helium_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
+
+// --- 60k NaK Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:natriumkalium> * 1000, 400, 128);
+
+// --- 180k NaK Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <gregtech:gt.60k_NaK_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
+
+// --- 360k NaK Cooling Cell
+AssemblerLiq.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
+
 
 
 // --- Alloy Smelter Recipes ---

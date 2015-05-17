@@ -11,6 +11,7 @@ import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
 import mods.ic2.Macerator;
+import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
@@ -338,6 +339,32 @@ recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
 [null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
 [null, null, null]]);
 
+// --- Mold Form Boots
+recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
+
+// --- Mold Form Chestplate
+recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
+
+// --- Mold Form Helmet
+recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[<ore:craftingToolWireCutter>, null, null]]);
+
+// --- Mold Form Leggings
+recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
+[null, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
+
+
+
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
 [<harvestcraft:wovencottonItem>, <minecraft:leather>, <harvestcraft:wovencottonItem>],
@@ -410,6 +437,13 @@ SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressu
 SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:ic2distilledwater> * 10, 400, 32);
 // -
 SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:lubricant> * 2, 200, 32);
+
+// --- Reinforced Glass Plate
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:water> * 360, 2400, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:ic2distilledwater> * 270, 2400, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:lubricant> * 90, 1200, 30);
 
 
 
@@ -502,6 +536,9 @@ Lathe.addRecipe([<dreamcraft:item.LongObsidianRod> * 4, null], <minecraft:obsidi
 // --- Long Stone Rod
 Lathe.addRecipe([<dreamcraft:item.LongStoneRod> * 4, null], <minecraft:stone>, 320, 16);
 
+// --- Reinforced Glass Lens
+Lathe.addRecipe([<dreamcraft:item.ReinforcedGlassLense>, <gregtech:gt.metaitem.01:1890>], <dreamcraft:item.ReinforcedGlassPlate>, 400, 16);
+
 
 
 // --- Macerator Recipes ---
@@ -532,7 +569,18 @@ Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <BiomesOPlenty:mushroo
 Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <harvestcraft:whitemushroomItem>);
 
 
+
+// --- Mixer Recipes
+
+
+
+Mixer.addRecipe(null, <liquid:natriumkalium> * 1000, <gregtech:gt.metaitem.01:2017> * 2, <gregtech:gt.metaitem.01:2025> * 3, null, null, null, 400, 32);
+
+
+
 // --- Plate Bender Recipes
+
+
 
 // --- Void Metal Plate
 PlateBender.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, 1200, 24);
@@ -568,6 +616,12 @@ oreDict.ringVoid.add(<dreamcraft:item.VoidRing>);
 // --- Void Metal Foil
 oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
 
+// --- Reinforced Glass Lens
+oreDict.lensReinforcedGlass.add(<dreamcraft:item.ReinforcedGlassLense>);
+
+// --- Reinforced Glass Plate
+oreDict.plateReinforcedGlass.add(<dreamcraft:item.ReinforcedGlassPlate>);
+
 
 
 // --- TC Smeltery Recipes
@@ -575,6 +629,18 @@ oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
 
 // --- Extruder Steel Shape Boat
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.ExtruderShapeBoat>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBoat>, true, 100);
+
+// --- Mold Boots
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldBoots>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormBoots>, true, 100);
+
+// --- Mold Chestplate
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldChestplate>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormChestplate>, true, 100);
+
+// --- Mold Helmet
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldHelmet>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormHelmet>, true, 100);
+
+// --- Mold Leggings
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormLeggings>, true, 100);
 
 
 // --- Hiding Stuff ----
