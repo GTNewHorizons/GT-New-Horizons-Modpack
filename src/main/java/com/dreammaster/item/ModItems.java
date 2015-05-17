@@ -55,6 +55,8 @@ public enum ModItems {
 	NanoProcessorBoard("NanoProcessorBoard", "", ModTabList.ModCircuitsTab),
 	Nothing("Nothing", "", ModTabList.ModGenericTab),
 	QuantumProcessorBoard("QuantumProcessorBoard", "", ModTabList.ModCircuitsTab),
+	ReinforcedGlassPlate("ReinforcedGlassPlate", "", ModTabList.ModGenericTab),
+	ReinforcedGlassLense("ReinforcedGlassLense", "", ModTabList.ModGenericTab),
 	SandClayMix("SandClayMix", "", ModTabList.ModGenericTab),
 	SandStoneRod("SandStoneRod", "", ModTabList.ModGenericTab),
 	
