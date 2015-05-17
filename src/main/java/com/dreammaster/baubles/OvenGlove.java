@@ -5,15 +5,14 @@ import java.util.Random;
 
 import org.apache.logging.log4j.Level;
 
-import com.dreammaster.creativetab.CreativeTabsManager;
 import com.dreammaster.creativetab.ModTabList;
-import com.dreammaster.interfaces.IExtendedModItem;
 import com.dreammaster.lib.Refstrings;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.iface.IExtendedModItem;
 import baubles.api.BaubleType;
 import baubles.common.container.InventoryBaubles;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -34,11 +33,11 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 	Random _mRnd = new Random();
 	
 	private String _mItemName;
-	private  ModTabList _mCreativeTab;
+	private String _mCreativeTab;
 	private static int MaxDurability = 1000;
 
 	private static OvenGlove _mInstance = null;
-	public static OvenGlove Instance(String pItemName, ModTabList pCreativeTab)
+	public static OvenGlove Instance(String pItemName, String pCreativeTab)
 	{
 		// Not good, singleton with args... booh.. TODO: Find a better way
 		if (_mInstance == null)
@@ -47,19 +46,14 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 		return _mInstance;
 	}
 	
-	public OvenGlove getFinalInstance()
+	public OvenGlove getConstructedItem()
 	{
 		return _mInstance;
 	}
 	
-	public ModTabList getDefinedCreativeTab()
+	public String getCreativeTabName()
 	{
 		return _mCreativeTab;
-	}
-	
-	public void setFinalCreativeTab(CreativeTabs pTab)
-	{
-		super.setCreativeTab(pTab);
 	}
 	
 	@Override
@@ -68,7 +62,7 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 		return super.getUnlocalizedName();
 	}
 	
-	private OvenGlove(String pItemName, ModTabList pCreativeTab)
+	private OvenGlove(String pItemName, String pCreativeTab)
 	{
 		_mItemName = pItemName;
 		_mCreativeTab = pCreativeTab;

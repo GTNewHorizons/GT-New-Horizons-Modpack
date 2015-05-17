@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>DreamCraft-CoreMod</name>
-	<comment/>
-	<projects/>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
+	<comment></comment>
+	<projects>
+	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments/>
+			<arguments>
+			</arguments>
 		</buildCommand>
 	</buildSpec>
-	<linkedResources/>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Users/Fussi/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/start</location>
+		</link>
+	</linkedResources>
 </projectDescription>
