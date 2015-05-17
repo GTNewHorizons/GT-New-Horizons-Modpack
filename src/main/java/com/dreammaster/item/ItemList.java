@@ -32,6 +32,15 @@ public enum ItemList {
 	MasterCircuit(new ModSimpleBaseItem("MasterCircuit",  ModTabList.ModCircuitsTab)),
 	MeteoricSteelString(new ModSimpleBaseItem("MeteoricSteelString",  ModTabList.ModGenericTab)),
 
+	MoldChestplate(new ModSimpleBaseItem("MoldChestplate", "", ModTabList.ModMoldsTab)),
+	MoldHelmet(new ModSimpleBaseItem("MoldHelmet", "", ModTabList.ModMoldsTab)),
+	MoldLeggings(new ModSimpleBaseItem("MoldLeggings", "", ModTabList.ModMoldsTab)),
+	MoldFromLeggings(new ModSimpleBaseItem("MoldFormLeggings", "", ModTabList.ModMoldsTab)),
+	MoldFromHelmet(new ModSimpleBaseItem("MoldFormHelmet", "", ModTabList.ModMoldsTab)),
+	MoldFromChestplate(new ModSimpleBaseItem("MoldFormChestplate", "", ModTabList.ModMoldsTab)),
+	MoldFromBoots(new ModSimpleBaseItem("MoldFormBoots", "", ModTabList.ModMoldsTab)),
+	MoldBoots(new ModSimpleBaseItem("MoldBoots", "", ModTabList.ModMoldsTab)),
+	
 	MoldFormAnvil(new ModSimpleBaseItem("MoldFormAnvil",  ModTabList.ModMoldsTab)),
 	MoldFormArrowHead(new ModSimpleBaseItem("MoldFormArrowHead",  ModTabList.ModMoldsTab)),
 	MoldFormBaguette(new ModSimpleBaseItem("MoldFormBaguette",  ModTabList.ModMoldsTab)),
@@ -55,6 +64,8 @@ public enum ItemList {
 	NanoProcessorBoard(new ModSimpleBaseItem("NanoProcessorBoard",  ModTabList.ModCircuitsTab)),
 	Nothing(new ModSimpleBaseItem("Nothing",  ModTabList.ModGenericTab)),
 	QuantumProcessorBoard(new ModSimpleBaseItem("QuantumProcessorBoard",  ModTabList.ModCircuitsTab)),
+	ReinforcedGlassPlate(new ModSimpleBaseItem("ReinforcedGlassPlate", ModTabList.ModGenericTab)),
+	ReinforcedGlassLense(new ModSimpleBaseItem("ReinforcedGlassLense", ModTabList.ModGenericTab)),
 	SandClayMix(new ModSimpleBaseItem("SandClayMix",  ModTabList.ModGenericTab)),
 	SandStoneRod(new ModSimpleBaseItem("SandStoneRod",  ModTabList.ModGenericTab)),
 
