@@ -3,6 +3,8 @@ package com.dreammaster.baubles;
 import java.util.List;
 import java.util.Random;
 
+import javax.management.Notification;
+
 import org.apache.logging.log4j.Level;
 
 import com.dreammaster.creativetab.ModTabList;
@@ -12,6 +14,7 @@ import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.client.NotificationTickHandler;
 import eu.usrv.yamcore.iface.IExtendedModItem;
 import baubles.api.BaubleType;
 import baubles.common.container.InventoryBaubles;
@@ -35,7 +38,8 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 	private String _mItemName;
 	private String _mCreativeTab;
 	private static int MaxDurability = 1000;
-
+	private boolean WrongSidePopupShown = false;
+	
 	private static OvenGlove _mInstance = null;
 	public static OvenGlove Instance(String pItemName, String pCreativeTab)
 	{
@@ -136,6 +140,7 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 	@Override
 	public void onUnequipped(ItemStack arg0, EntityLivingBase pEntityBase) {
 		RemoveFireProtection(pEntityBase);
+		WrongSidePopupShown = false;
 	}
 
 	private void RemoveFireProtection(EntityLivingBase pEntityBase)
@@ -203,6 +208,7 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 	
 	// ------------------ NBT End
 	
+	
 	@Override
 	public void onWornTick(ItemStack arg0, EntityLivingBase pEntity) {
 		if (!(pEntity instanceof EntityPlayer))
@@ -236,6 +242,15 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 			{
 				if (tBaubleRing1.getItemDamage() != 0 || tBaubleRing2.getItemDamage() != 1)
 				{
+					if (FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT)
+					{
+						if (!WrongSidePopupShown)
+						{
+							WrongSidePopupShown = true;
+							eu.usrv.yamcore.client.Notification noti = new eu.usrv.yamcore.client.Notification(tBaubleRing1, "Wrong place", "The gloves feel weird...");
+							NotificationTickHandler.guiNotification.queueNotification(noti);
+						}
+					}
 					//Log("Gloves in wrong spots");
 					return;
 				}

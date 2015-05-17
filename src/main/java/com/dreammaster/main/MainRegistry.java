@@ -1,5 +1,7 @@
 package com.dreammaster.main;
 
+import net.minecraftforge.common.MinecraftForge;
+
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.block.*;
 import com.dreammaster.creativetab.ModTabList;
@@ -7,6 +9,7 @@ import com.dreammaster.fluids.FluidList;
 import com.dreammaster.item.*;
 import com.dreammaster.lib.Refstrings;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -14,8 +17,10 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.blocks.ModBlockManager;
+import eu.usrv.yamcore.client.NotificationTickHandler;
 import eu.usrv.yamcore.creativetabs.CreativeTabsManager;
 import eu.usrv.yamcore.creativetabs.ModCreativeTab;
 import eu.usrv.yamcore.fluids.ModFluidManager;
@@ -79,6 +84,9 @@ public class MainRegistry {
 		// ------------------------------------------------------------
 			
 		proxy.registerRenderInfo();
+        if(PreEvent.getSide() == Side.CLIENT) {
+            FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
+        }
 	}
 	
 	private static boolean RegisterNonEnumItems()
