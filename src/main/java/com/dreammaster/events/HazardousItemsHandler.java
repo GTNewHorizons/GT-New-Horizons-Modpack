@@ -28,6 +28,8 @@ import net.minecraftforge.fluids.IFluidContainerItem;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
 import eu.usrv.yamcore.auxiliary.LogHelper;
+import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
+import eu.usrv.yamcore.gameregistry.PotionHelper;
 
 /**
  * Eventhandler to apply configured Damage Values to player, if they have certain items in their inventory
@@ -37,7 +39,7 @@ import eu.usrv.yamcore.auxiliary.LogHelper;
 public class HazardousItemsHandler {
 	private Random _mRnd = new Random();
 	private LogHelper _mLogger = MainRegistry.Logger;
-	private HazardousItems _mHazItemsObject = null;
+	private HazardousItems _mHazardItemsCollection = null;
 	private String _mConfigFileName;
 	
 	public HazardousItemsHandler()
@@ -80,14 +82,14 @@ public class HazardousItemsHandler {
 				 tHazItem.getPotionEffects().add(tPoisonPotion);
 			 
 				 
-				 _mHazItemsObject = new HazardousItems();
-				 _mHazItemsObject.getHazardousItems().add(tHazItem);
+				 _mHazardItemsCollection = new HazardousItems();
+				 _mHazardItemsCollection.getHazardousItems().add(tHazItem);
 			 
 				 try
 				 {
 					 Marshaller jaxMarsh = tJaxbCtx.createMarshaller();
 					 jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); // make it nice and readable
-					 jaxMarsh.marshal(_mHazItemsObject, new FileOutputStream(_mConfigFileName, false));
+					 jaxMarsh.marshal(_mHazardItemsCollection, new FileOutputStream(_mConfigFileName, false));
 
 					 _mLogger.debug("New default-config file written");
 				 } catch (Exception e) {
@@ -96,15 +98,61 @@ public class HazardousItemsHandler {
 				}
 			 }
 			 Unmarshaller jaxUnmarsh = tJaxbCtx.createUnmarshaller();
-			 _mHazItemsObject = (HazardousItems) jaxUnmarsh.unmarshal(tConfigFile);
-			 _mLogger.debug("Config file has been loaded");
+			 _mHazardItemsCollection = (HazardousItems) jaxUnmarsh.unmarshal(tConfigFile);
+			 _mLogger.debug("Config file has been loaded. Entering Verify state");
 			
+ 
 		} catch (JAXBException e) {
 			_mLogger.error("Unable to load HazardousItems.xml. Please make sure the syntax is correct! NO ITEMS WILL HAVE DAMAGE OR POTION EFFECTS!");
 			e.printStackTrace();
 		}
 	 }
 	 
+	 /**
+	  * Verify defined DamageEffects in configfile
+	 * @param pCollection
+	 * @return true if everything is ok
+	 */
+	public boolean VerifyConfiguredDamageEffects()
+	{
+		boolean tResult = true;
+		for (HazardousItem hi : _mHazardItemsCollection.getHazardousItems())
+		{
+			for(ItmDamageEffect ide : hi.getDamageEffects())
+			{
+				if (!DamageTypeHelper.IsValidDamageSource(ide.getDamageSource()))
+				{
+					_mLogger.warn(String.format("HazardousItem [%s] has invalid DamageSource entry: [%s]", hi.getUnlocName(), ide.getDamageSource()));
+					tResult = false;
+				}
+			}
+		}
+		
+		return tResult;
+	}
+ 
+	/**
+	 * Verify defined potioneffects in configfile
+	 * @param pCollection
+	 * @return true if everything is ok
+	 */
+	public boolean VerifyConfiguredPotionEffects()
+	{
+		boolean tResult = true;
+		for (HazardousItem hi : _mHazardItemsCollection.getHazardousItems())
+		{
+			for(ItmPotionEffect ipe : hi.getPotionEffects())
+			{
+				if(!PotionHelper.IsValidPotionID(ipe.getId()))
+				{
+					_mLogger.warn(String.format("HazardousItem [%s] has invalid PotionID: [%s] (There is no such potion)", hi.getUnlocName(), ipe.getId()));
+					tResult = false;
+				}
+			}
+		}
+		 
+		return tResult;
+	}
 	 
 	 private void CheckInventoryForItems(EntityPlayer pPlayer)
 	 {
