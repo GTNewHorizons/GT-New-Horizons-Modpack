@@ -18,6 +18,8 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
+
+import net.minecraft.item.ItemStack;
  
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "HazardousItemList")
@@ -32,7 +34,115 @@ public class HazardousItems {
  
         return hazardousItem;
     }
-   
+    
+    /** Find HazardousItem by exact Itemname (case sensitive)
+     * @param pItemName
+     * @return
+     */
+    public HazardousItem FindHazardousItemExact(String pItemName)
+    {
+    	for (HazardousItem hi : hazardousItem)
+    	{
+    		if (hi.unlocName.equals(pItemName))
+    			return hi;
+    	}
+    	
+    	return null;
+    }
+
+	/**
+	 * Remove item from list
+	 * @param pInHand
+	 * @return
+	 */
+	public boolean RemoveItemExact(ItemStack pInHand, boolean pIncludeNonExact)
+	{
+		try
+		{
+			List<HazardousItems.HazardousItem> tNewList = new ArrayList<HazardousItems.HazardousItem>();
+			
+			for (HazardousItem hi : hazardousItem)
+			{
+	    		if(hi.exactMatch)
+	    		{
+	    			// Exact match
+	        		if (hi.unlocName.equals(pInHand.getUnlocalizedName()))
+	        			continue; // Dont read to new list
+	    		}
+	    		else
+	    		{
+	    			if (pIncludeNonExact) // Only if we include nonExact entries
+	    			{
+		    			// "contains" match
+		        		String p1 = hi.unlocName.toLowerCase();
+		        		String p2 = pInHand.getUnlocalizedName().toLowerCase();
+	
+		        		if (p2.contains(p1))
+		        			continue;
+	    			}
+	    		}
+				
+				tNewList.add(hi); // ReAdd entry to new list, as it didn't match with above entries
+			}
+			
+			hazardousItem = tNewList;
+			return true;
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+			return false;
+		}
+	}
+    
+    /**
+     * Searches for HazardousItem by unlocalized name, where pSearchString is anywhere inside unlocalized name. Ex: lava would match bucketLava, tankLava, itemLavaGloves,... 
+     * @param pSearchString
+     * @return
+     */
+    public HazardousItem FindHazardousItemContains(String pSearchString, boolean pIgnoreCase)
+    {
+    	for (HazardousItem hi : hazardousItem)
+    	{
+    		String p1 = pIgnoreCase == true ? hi.unlocName.toLowerCase() : hi.unlocName;
+    		String p2 = pIgnoreCase == true ? pSearchString.toLowerCase() : pSearchString;
+
+    		if (p1.contains(p2))
+    			return hi;
+    	}
+    	
+    	return null;    	
+    }
+    
+    /**
+     * Find HazardousItem by using ItemStack reference
+     * @param pItemStack
+     * @return
+     */
+    public HazardousItem FindHazardousItem(ItemStack pItemStack)
+    {
+    	for (HazardousItem hi : hazardousItem)
+    	{
+    		if(hi.exactMatch)
+    		{
+    			// Exact match
+        		if (hi.unlocName.equals(pItemStack.getUnlocalizedName()))
+        			return hi;
+    		}
+    		else
+    		{
+    			// "contains" match
+        		String p1 = hi.unlocName.toLowerCase();
+        		String p2 = pItemStack.getUnlocalizedName().toLowerCase();
+
+        		if (p2.contains(p1))
+        			return hi;
+    		}
+    	}
+    	
+    	return null;
+    }
+    
     @XmlAccessorType(XmlAccessType.FIELD)  
     @XmlType
     public static class HazardousItem {
@@ -142,4 +252,6 @@ public class HazardousItems {
             }
         }
     }
+
+
 }

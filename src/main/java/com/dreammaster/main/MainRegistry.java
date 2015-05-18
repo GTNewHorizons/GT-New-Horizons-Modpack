@@ -4,6 +4,7 @@ import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.block.*;
+import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.events.HazardousItemsHandler;
@@ -18,6 +19,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.LogHelper;
@@ -30,7 +32,7 @@ import eu.usrv.yamcore.items.ModItemManager;
 
 @Mod(modid = Refstrings.MODID, name = Refstrings.NAME, version = Refstrings.VERSION, 
 	dependencies = 	"required-after:Forge@[10.13.2.1291,);" +
-        			"required-after:YAMCore@[0.1,);" + 
+        			"required-after:YAMCore@[0.2,);" + 
 					"required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry {
 	
@@ -92,7 +94,7 @@ public class MainRegistry {
 		{
 			Logger.debug("PRELOAD Init Modules");
 			Module_HazardousItems = new HazardousItemsHandler();
-			Module_HazardousItems.InitConfig();
+			Module_HazardousItems.LoadConfig();
 		}
 
 		// ------------------------------------------------------------
@@ -152,6 +154,18 @@ public class MainRegistry {
 	@EventHandler
 	public static void PostLoad(FMLPostInitializationEvent PostEvent) {
 		
+	}
+	
+	/** Do some stuff once the server starts
+	 * @param pEvent
+	 */
+	@EventHandler
+	public void serverLoad(FMLServerStartingEvent pEvent)
+	{
+		if (CoreConfig.ModHazardousItems_Enabled)
+		{
+			pEvent.registerServerCommand(new HazardousItemsCommand());
+		}
 	}
 	
 }
