@@ -38,9 +38,6 @@ recipes.remove(<IC2:blockGenerator:1>);
 // --- Electric Heat Generator
 recipes.remove(<IC2:blockHeatGenerator:3>);
 
-// --- Sterling Heat Generator
-recipes.remove(<IC2:blockGenerator:8>);
-
 // --- Solar Panel
 recipes.remove(<IC2:blockGenerator:3>);
 
@@ -516,24 +513,38 @@ recipes.remove(<IC2:itemArmorRubBoots>);
 // --- Static Boots
 recipes.remove(<IC2:itemStaticBoots>);
 
+// --- Semi Fluid Generator
+recipes.remove(<IC2:blockGenerator:7>);
+
+// --- Electric Kinetic Generator
+recipes.remove(<IC2:blockKineticGenerator:2>);
+
+// --- Kinetic Steam Generator
+recipes.remove(<IC2:blockKineticGenerator:1>);
+
+// --- Manual Kinetic Generator
+recipes.remove(<IC2:blockKineticGenerator:3>);
+
+// --- Stirling Heat Generator
+recipes.remove(<IC2:blockGenerator:8>);
+
+// --- Solid Heat Generator
+recipes.remove(<IC2:blockHeatGenerator>);
+
+// --- Fluid Heat Generator
+recipes.remove(<IC2:blockHeatGenerator:1>);
+
+// --- Kinetic Generator
+recipes.remove(<IC2:blockGenerator:9>);
+
+
+
 
 
 
 
 // --- Add Recipes ---
 
-
-// --- Generator
-recipes.addShaped(<IC2:blockGenerator>, [
-[<ore:cableGt01Tin>, <ore:batteryBasic>, <ore:cableGt01Tin>],
-[<ore:plateSteel>, <gregtech:gt.blockmachines:1120>, <ore:plateSteel>],
-[<gregtech:gt.metaitem.01:32600>, <gregtech:gt.blockmachines:100>, <IC2:itemRecipePart>]]);
-
-// --- Geothermal Generator
-recipes.addShaped(<IC2:blockGenerator:1>, [
-[<ore:cableGt01Tin>, <gregtech:gt.metaitem.01:32405>, <ore:cableGt01Tin>],
-[<ore:plateAluminium>, <gregtech:gt.blockcasings2>, <ore:plateAluminium>],
-[<gregtech:gt.metaitem.01:32600>, <IC2:blockGenerator>, <IC2:itemRecipePart>]]);
 
 // --- Electric Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:3>, [

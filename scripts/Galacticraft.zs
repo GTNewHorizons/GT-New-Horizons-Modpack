@@ -8,6 +8,7 @@ import mods.gregtech.BlastFurnace;
 import mods.gregtech.Canner;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
+import mods.gregtech.Fuels;
 import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
 import mods.gregtech.PlateBender;
@@ -1026,6 +1027,13 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [<ore:ringMeteoricSteel>, null, null]]);
 
 
+// --- Add Fuels ---
+
+// --- Oil
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oilgc", Amount: 1000}}), 16);
+// -
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), 16);
+Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
 
 
 // --- Assembler Recipes ---

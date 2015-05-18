@@ -1,15 +1,18 @@
 // --- Created DreamMasterXXL
 
+
 // --- Imports ---
 
-import mods.nei.NEI;
+
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.FluidSolidifier;
+import mods.gregtech.Fuels;
 import mods.ic2.Macerator;
+import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Wiremill;
 
@@ -813,13 +816,13 @@ recipes.addShaped(<Railcraft:machine.beta:15>, [
 // --- Solid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:5>, [
 [SteelPlate, Cauldron, SteelPlate],
-[BrickBlock, <minecraft:fire_charge>, BrickBlock],
+[BrickBlock, <gregtech:gt.blockcasings3:13>, BrickBlock],
 [SteelPlate, IronFurnace, SteelPlate]]);
 
 // --- Liquid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:6>, [
 [SteelPlate, Cauldron, SteelPlate],
-[<dreamcraft:item.SteelBars>, <minecraft:fire_charge>, <dreamcraft:item.SteelBars>],
+[<dreamcraft:item.SteelBars>, <gregtech:gt.blockcasings3:13>, <dreamcraft:item.SteelBars>],
 [SteelPlate, IronFurnace, SteelPlate]]);
 
 // --- Low Pressure Boiler Tank ---
@@ -1718,6 +1721,12 @@ mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Railcraft:backpack.apothecary.t1>, <Railcraft:backpack.apothecary.t2>);
+
+
+// --- Add Fuels ---
+
+// --- Creosote
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}), 8);
 
 
 

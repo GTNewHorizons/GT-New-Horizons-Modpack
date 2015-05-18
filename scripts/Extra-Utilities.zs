@@ -374,6 +374,9 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:14>);
 // --- Double Compressed Sand
 recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 
+// --- Trash Can
+recipes.remove(<ExtraUtilities:trashcan>);
+
 
 
 // --- Add Recipes ---
@@ -774,6 +777,13 @@ recipes.addShaped(HyperETransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
 [ChromePlate, ElectrumCable12x, ChromePlate]]);
+
+// --- Trash Can
+recipes.addShaped(<ExtraUtilities:trashcan>, [
+[<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
+[<ore:plateIron>, <ore:gemEnderPearl>, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
 
 
 //Precision Shears

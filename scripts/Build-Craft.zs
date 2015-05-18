@@ -205,51 +205,64 @@ recipes.remove(WoodGear);
 
 // --- Wooden Transport Pipe
 recipes.remove(PipeWood);
-// - Wooden Fluid Pipe
+
+// --- Wooden Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidswood>);
-// - Wooden Kinesis Pipe
+
+// --- Wooden Kinesis Pipe
 recipes.remove(PipeWoodKinesis);
 
 // --- Cobblestone Transport Pipe
 recipes.remove(PipeCobble);
-// - Cobblestone Fluid Pipe
+
+// --- Cobblestone Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone>);
-// - Cobblestone Kinesis Pipe
+
+// --- Cobblestone Kinesis Pipe
 recipes.remove(PipeCobbleKinesis);
 
 // --- Stone Transport Pipe
 recipes.remove(PipeStone);
-// - Stone Fluid Pipe
+
+// --- Stone Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>);
-// - Stone Kinesis Pipe
+// --- Stone Kinesis Pipe
 recipes.remove(PipeStoneKinesis);
 
 // --- Sandstone Transport Pipe
 recipes.remove(PipeSandstone);
-// - Sandstone Fluid Pipe
+
+// --- Sandstone Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidssandstone>);
-// - Sandstone Kinesis Pipe
+
+// --- Sandstone Kinesis Pipe
 recipes.remove(PipeSandstoneKinesis);
 
 // --- Iron Transport Pipe
 recipes.remove(PipeIron);
-// - Iron Fluid Pipe
+
+// --- Iron Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron>);
-// - Iron Kinesis Pipe
+
+// --- Iron Kinesis Pipe
 recipes.remove(PipeIronKinesis);
 
 // --- Quartz Transport Pipe
 recipes.remove(PipeQuartz);
-// - Quartz Fluid Pipe
+
+// --- Quartz Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsquartz>);
-// - Quartz Kinesis Pipe
+
+// --- Quartz Kinesis Pipe
 recipes.remove(PipeQuartzKinesis);
 
 // --- Golden Transport Pipe
 recipes.remove(PipeGold);
-// - Golden Fluid Pipe
+
+// --- Golden Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold>);
-// - Golden Kinesis Pipe
+
+// --- Golden Kinesis Pipe
 recipes.remove(PipeGoldKinesis);
 
 // --- Lapis Transport Pipe
@@ -265,9 +278,11 @@ recipes.remove(PipeDiamondKinesis);
 
 // --- Emerald Transport Pipe
 recipes.remove(PipeEmerald);
-// - Emerald Fluid Pipe
+
+// --- Emerald Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald>);
-// - Emerald Kinesis Pipe
+
+// --- Emerald Kinesis Pipe
 recipes.remove(PipeEmeraldKinesis);
 
 // --- Daizuli Transport Pipe
@@ -281,6 +296,7 @@ recipes.remove(PipeStripes);
 
 // --- Void Transport Pipe
 recipes.remove(PipeVoid);
+
 // - Void Fluid Pipe
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>);
 
@@ -453,10 +469,19 @@ recipes.addShaped(BCTank, [
 [Wrench, ObsidianGlass, Screwdriver],
 [IronScrew, IronRing, IronScrew]]);
 
+// --- Void Fluid Pipe
+recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
+[<ore:plateRubber>, <ore:craftingToolHardHammer>, <ore:plateRubber>],
+[<ore:plateObsidian>, <ore:gemEnderPearl>, <ore:plateObsidian>],
+[<ore:plateRubber>, <ore:craftingToolWrench>, <ore:plateRubber>]]);
 
-//Assembler Recipes
 
-//Combustion Engine
+
+// --- Assembler Recipes --- 
+
+
+
+// --- Combustion Engine
 Assembler.addRecipe(<BuildCraft|Energy:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
 
 
@@ -465,44 +490,44 @@ Assembler.addRecipe(<BuildCraft|Energy:engineBlock:2>, <dreamcraft:item.EngineCo
 
 
 
-// - Wood-Covered Kinesis Pipe
+// --- Wood-Covered Kinesis Pipe
 NEI.overrideName(PipeWoodKinesis, "Wood-Covered Kinesis Pipe");
 
-// - Cobblestone-Covered Pipe
+// --- Cobblestone-Covered Pipe
 NEI.overrideName(PipeCobble, "Cobblestone-Covered Pipe");
 
-// - Cobblestone-Covered Kinesis Pipe
+// --- Cobblestone-Covered Kinesis Pipe
 NEI.overrideName(PipeCobbleKinesis, "Cobblestone-Covered Kinesis Pipe");
 
-// - Stone-Covered Pipe
+// --- Stone-Covered Pipe
 NEI.overrideName(PipeStone, "Stone-Covered Pipe");
 
-// - Stone-Covered Kinesis Pipe
+// --- Stone-Covered Kinesis Pipe
 NEI.overrideName(PipeStoneKinesis, "Stone-Covered Kinesis Pipe");
 
-// - Sandstone-Covered Pipe
+// --- Sandstone-Covered Pipe
 NEI.overrideName(PipeSandstone, "Sandstone-Covered Pipe");
 
-// - Sandstone-Covered Kinesis Pipe
+// --- Sandstone-Covered Kinesis Pipe
 NEI.overrideName(PipeSandstoneKinesis, "Sandstone-Covered Kinesis Pipe");
 
-// - Iron-Covered Pipe
+// --- Iron-Covered Pipe
 NEI.overrideName(PipeIron, "Iron-Covered Pipe");
 
-// - Iron-Covered Kinesis Pipe
+// --- Iron-Covered Kinesis Pipe
 NEI.overrideName(PipeIronKinesis, "Iron-Covered Kinesis Pipe");
 
-// - Quartz-Covered Pipe
+// --- Quartz-Covered Pipe
 NEI.overrideName(PipeQuartz, "Quartz-Covered Pipe");
 
-// - Quartz-Covered Kinesis Pipe
+// --- Quartz-Covered Kinesis Pipe
 NEI.overrideName(PipeQuartzKinesis, "Quartz-Covered Kinesis Pipe");
 
-// - Gold-Covered Kinesis Pipe
+// --- Gold-Covered Kinesis Pipe
 NEI.overrideName(PipeGoldKinesis, "Gold-Covered Kinesis Pipe");
 
-// - Diamond-Covered Kinesis Pipe
+// --- Diamond-Covered Kinesis Pipe
 NEI.overrideName(PipeDiamondKinesis, "Diamond-Covered Kinesis Pipe");
 
-// - Emerald-Covered Kinesis Pipe
+// --- Emerald-Covered Kinesis Pipe
 NEI.overrideName(PipeEmeraldKinesis, "Emerald-Covered Kinesis Pipe");

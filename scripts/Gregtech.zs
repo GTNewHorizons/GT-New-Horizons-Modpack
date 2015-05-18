@@ -908,6 +908,8 @@ recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 // --- 360k NaK Cooling Cell
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
+// --- Large Bronze Boiler
+recipes.remove(<gregtech:gt.blockmachines:1020>);
 
 
 
@@ -2225,6 +2227,11 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32462>, [
 [<ore:compressedBronze>, <ore:compressedAluminium>, <ore:compressedSteel>],
 [<ore:boltStainlessSteel>, <ore:craftingToolWrench>, <ore:boltStainlessSteel>]]);
 
+// --- Large Bronze Boiler
+recipes.addShaped(<gregtech:gt.blockmachines:1020>, [
+[<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>],
+[<ore:circuitGood>, <gregtech:gt.blockcasings3:13>, <ore:circuitGood>],
+[<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>]]);
 
 
 
