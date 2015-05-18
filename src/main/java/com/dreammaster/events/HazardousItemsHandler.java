@@ -17,7 +17,6 @@ import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem;
 import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
 import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
 import com.dreammaster.xsd_hazardousitems.HazardousObjectFactory;
-import com.sun.xml.internal.bind.marshaller.XMLWriter;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
