@@ -1,11 +1,11 @@
-package com.dreammaster.xsd_hazardousitems;
+package com.dreammaster.modhazardousitems;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
-import com.dreammaster.xsd_hazardousitems.HazardousItems;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
+import com.dreammaster.modhazardousitems.HazardousItems;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
 
 import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
 import eu.usrv.yamcore.gameregistry.PotionHelper;

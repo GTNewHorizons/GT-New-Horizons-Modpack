@@ -6,7 +6,7 @@
 //
 
 
-package com.dreammaster.xsd_hazardousitems;
+package com.dreammaster.modhazardousitems;
 
 import java.util.ArrayList;
 import java.util.List;

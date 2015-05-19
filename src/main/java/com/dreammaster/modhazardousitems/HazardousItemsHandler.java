@@ -1,8 +1,10 @@
-package com.dreammaster.events;
+package com.dreammaster.modhazardousitems;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Random;
 
 import javax.xml.bind.JAXBContext;
@@ -12,22 +14,24 @@ import javax.xml.bind.Unmarshaller;
 
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
-import com.dreammaster.xsd_hazardousitems.HazardousItems;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
-import com.dreammaster.xsd_hazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
-import com.dreammaster.xsd_hazardousitems.HazardousObjectFactory;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
+import com.google.common.collect.EvictingQueue;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.profiler.Profiler;
 import net.minecraft.util.DamageSource;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.IFluidContainerItem;
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
 import eu.usrv.yamcore.gameregistry.PotionHelper;
@@ -44,9 +48,16 @@ public class HazardousItemsHandler {
 	private String _mConfigFileName;
 	private HazardousObjectFactory _mHazFactory = new HazardousObjectFactory();
 	private boolean IsConfigDirty = false; 
+	private int _mExecuteChance;
+	private boolean _mRunProfiler;
+	
+	private EvictingQueue<Long> _mTimingQueue = EvictingQueue.create(20);
+	private long _mLastAverage = 0;
 	
 	public HazardousItemsHandler()
 	{
+		_mRunProfiler = true;
+		_mExecuteChance = 20;
 		_mConfigFileName = String.format("config/%s/HazardousItems.xml", Refstrings.COLLECTIONID);
 	}
 	
@@ -55,11 +66,60 @@ public class HazardousItemsHandler {
 		return IsConfigDirty;
 	}
 	
-	 @SubscribeEvent
-	 public void onPlayerTick(TickEvent.PlayerTickEvent event)
-	 {
-		 CheckInventoryForItems(event.player);
-	 }
+	@SubscribeEvent
+	@SideOnly(Side.SERVER)
+	public void onPlayerTick(TickEvent.PlayerTickEvent event)
+	{
+		long tStart = System.currentTimeMillis();
+		CheckInventoryForItems(event.player);
+		long tEnd = System.currentTimeMillis();
+	 
+		_mTimingQueue.add((tEnd - tStart));
+		
+		// Should be called once a second...
+		if (tEnd + 1000 > _mLastAverage && _mRunProfiler)
+		{
+			// is 250 a good value? I mean, 250ms for ONE LOOP is still pretty insane...
+			if(getAverageTiming() > 250)
+			{
+				// lol wut...
+				if (_mExecuteChance > 500)
+				{
+					_mLogger.error("Execution chance is over 500. Not going to increase wait-timer anymore. if it still lags, contact me and we'll find another way");
+					_mRunProfiler = false;
+					_mLogger.error("HazardousItems-Profiler is now disabled");
+					return;
+				}
+					
+				_mLogger.warn("WARNING: The HazardousItems loop has an average timing of > 250ms, which may cause lag. Increasing wait-time between inventory-scan calls");
+				_mExecuteChance += 1;
+				_mTimingQueue.clear(); // Reset queue to prevent re-warn on next call
+			}
+			else
+			{
+				// All good, loop seems to be fast enough
+				_mLastAverage = System.currentTimeMillis();
+			}
+			
+		}
+	}
+	 
+	private long getAverageTiming()
+	{
+		if (_mTimingQueue == null || _mTimingQueue.isEmpty())
+			return 0;
+
+
+		// Only do average calc once we have 20 elements
+		if (_mTimingQueue.remainingCapacity() != 0)
+			return 0;
+		
+		long sum = 0;
+		for (long time : _mTimingQueue)
+			sum += time;
+
+	    return sum / _mTimingQueue.size();
+	}
 	 
 	 public void InitSampleConfig()
 	 {
@@ -196,7 +256,13 @@ public class HazardousItemsHandler {
 			 SaveHazardousItems();
 		 }
 		 
-		 ReloadHazardousItems();
+		 // Fix for broken XML file; If it can't be loaded on reboot, keep it there to be fixed, but load
+		 // default setting instead, so an Op/Admin can do reload ingame
+		 if (!ReloadHazardousItems())
+		 {
+			 _mLogger.warn("Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
+			 InitSampleConfig();
+		 }
 	 }
 	 
 	 /**
@@ -276,7 +342,7 @@ public class HazardousItemsHandler {
 	 
 	 private void CheckInventoryForItems(EntityPlayer pPlayer)
 	 {
-		 if (_mRnd.nextInt(40) != 0)
+		 if (_mRnd.nextInt(_mExecuteChance) != 0)
 			 return;
 		 
 		 try
