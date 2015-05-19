@@ -66,7 +66,7 @@ public enum ItemList {
 	QuantumProcessorBoard(new ModSimpleBaseItem("QuantumProcessorBoard",  ModTabList.ModCircuitsTab)),
 	ReinforcedGlassPlate(new ModSimpleBaseItem("ReinforcedGlassPlate", ModTabList.ModGenericTab)),
 	ReinforcedGlassLense(new ModSimpleBaseItem("ReinforcedGlassLense", ModTabList.ModGenericTab)),
-	SandClayMix(new ModSimpleBaseItem("SandClayMix",  ModTabList.ModGenericTab)),
+	//SandClayMix(new ModSimpleBaseItem("SandClayMix",  ModTabList.ModGenericTab)), // Not required, as the Block adds it's own item 
 	SandStoneRod(new ModSimpleBaseItem("SandStoneRod",  ModTabList.ModGenericTab)),
 
 	ShapeAxeHead(new ModSimpleBaseItem("ShapeAxeHead",  ModTabList.ModShapesTab)),
@@ -102,15 +102,18 @@ public enum ItemList {
 	VoidFoil(new ModSimpleBaseItem("VoidFoil",  ModTabList.ModThaumcraftTab)),
 	VoidPlate(new ModSimpleBaseItem("VoidPlate",  ModTabList.ModThaumcraftTab)),
 	VoidRing(new ModSimpleBaseItem("VoidRing",  ModTabList.ModThaumcraftTab)),
-	VoidRod(new ModSimpleBaseItem("VoidRod",  ModTabList.ModThaumcraftTab));
+	VoidRod(new ModSimpleBaseItem("VoidRod",  ModTabList.ModThaumcraftTab)),
 
+	// Do not delete this
+	EndOfList(null);
 	
 	// ################################################################################
 	public ModSimpleBaseItem Item;
 	private ItemList(ModSimpleBaseItem pItem)
 	{
 		Item = pItem;
-		Item.setModIDName(Refstrings.MODID);
+		if (Item != null)
+			Item.setModIDName(Refstrings.MODID);
 	}
 	
 	public static boolean AddToItemManager(ModItemManager pItemManager)
@@ -118,8 +121,9 @@ public enum ItemList {
 		boolean tResult = true;
 		for (ItemList il : ItemList.values())
 		{
-			if (!pItemManager.AddItemToManagedRegistry(il.Item))
-				tResult = false;
+			if (il.Item != null)
+				if (!pItemManager.AddItemToManagedRegistry(il.Item))
+					tResult = false;
 		}
 		
 		return tResult;
