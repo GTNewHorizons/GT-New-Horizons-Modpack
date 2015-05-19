@@ -15,6 +15,7 @@ import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
 import net.minecraft.server.MinecraftServer;
 
 public class HazardousItemsCommand implements ICommand
@@ -89,6 +90,10 @@ public class HazardousItemsCommand implements ICommand
 			PlayerChatHelper.SendInfo(pCmdSender, "inFire, onFire, lava, inWall, drown, starve, cactus, fall");
 			PlayerChatHelper.SendInfo(pCmdSender, "outOfWorld, generic, magic, wither, anvil, fallingBlock");
 		}
+		else if (pArgs[0].equalsIgnoreCase("listpotions"))
+		{
+			SendPotionsToPlayer(pCmdSender);
+		}
 
 		else if (pArgs[0].equalsIgnoreCase("reload"))
 		{
@@ -146,6 +151,29 @@ public class HazardousItemsCommand implements ICommand
 			SendHelpToPlayer(pCmdSender);
 	}
 
+	private void SendPotionsToPlayer(ICommandSender pCmdSender)
+	{
+		PlayerChatHelper.SendInfo(pCmdSender, "List of known Potions; Name(ID)");
+		String tMsg = "";
+		for (Potion p : Potion.potionTypes)
+		{
+			if (p == null)
+				continue;
+			
+			if (tMsg.length() > 0)
+				tMsg += ", ";
+			String t = String.format("%s(%d)", p.getName(), p.id);
+			if (tMsg.length() + t.length() > 50)
+			{
+				PlayerChatHelper.SendInfo(pCmdSender, tMsg);
+				tMsg = t;
+			}
+			else
+				tMsg += t;
+		}
+		PlayerChatHelper.SendInfo(pCmdSender, "End of list");
+	}
+	
 	private void SendHelpToPlayer(ICommandSender pCmdSender)
 	{
 		PlayerChatHelper.SendInfo(pCmdSender, "  /hazarditems addpotion <potionID> <tickDuration> <level>");
@@ -222,6 +250,10 @@ public class HazardousItemsCommand implements ICommand
 		}		
 	}
 	
+	
+	/* 
+	 * Make sure only an op/admin can execute this command
+	 */
 	@Override
 	public boolean canCommandSenderUseCommand(ICommandSender pCommandSender)
 	{
