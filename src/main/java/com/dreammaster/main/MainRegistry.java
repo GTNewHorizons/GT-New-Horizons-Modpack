@@ -7,10 +7,10 @@ import com.dreammaster.block.*;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
-import com.dreammaster.events.HazardousItemsHandler;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.item.*;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -32,7 +32,7 @@ import eu.usrv.yamcore.items.ModItemManager;
 
 @Mod(modid = Refstrings.MODID, name = Refstrings.NAME, version = Refstrings.VERSION, 
 	dependencies = 	"required-after:Forge@[10.13.2.1291,);" +
-        			"required-after:YAMCore@[0.2,);" + 
+        			"required-after:YAMCore@[0.3,);" + 
 					"required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry {
 	
@@ -85,7 +85,8 @@ public class MainRegistry {
 		
 		// ------------------------------------------------------------
 		Logger.info("PRELOAD Create Blocks");
-		
+		if (!BlockList.AddToItemManager(BlockManager))
+			Logger.warn("Some blocks failed to register. Check the logfile for details");
 		// ------------------------------------------------------------
 		
 		// ------------------------------------------------------------
@@ -103,7 +104,7 @@ public class MainRegistry {
 		// ------------------------------------------------------------
 		Logger.debug("PRELOAD Create Fluids");
 		FluidManager = new ModFluidManager(Refstrings.MODID);
-		if(!FluidList.AddToItemManager(FluidManager));
+		if(!FluidList.AddToItemManager(FluidManager))
 			Logger.warn("Some fluids failed to register. Check the logfile for details");
 		// ------------------------------------------------------------
 			
