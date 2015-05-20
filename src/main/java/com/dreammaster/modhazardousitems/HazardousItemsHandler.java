@@ -67,9 +67,11 @@ public class HazardousItemsHandler {
 	}
 	
 	@SubscribeEvent
-	@SideOnly(Side.SERVER)
 	public void onPlayerTick(TickEvent.PlayerTickEvent event)
 	{
+		if (event.player.worldObj.isRemote)
+			return;
+		
 		long tStart = System.currentTimeMillis();
 		CheckInventoryForItems(event.player);
 		long tEnd = System.currentTimeMillis();
