@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HazardousItemList>
+    <Item UnlocalizedName="sampleItemThatDoesNotExists" ExactNameMatch="true">
+        <DamageEffect Source="inFire" Amount="0.5"/>
+        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
+    </Item>
+    <Item UnlocalizedName="item.for.canLava" ExactNameMatch="true">
+        <DamageEffect Source="lava" Amount="0.5"/>
+    </Item>
+    <Item UnlocalizedName="item.for.refractoryLava" ExactNameMatch="true">
+        <DamageEffect Source="lava" Amount="0.5"/>
+    </Item>
+    <Item UnlocalizedName="item.iguana.tcon.clayBucket.Lava" ExactNameMatch="true">
+        <DamageEffect Source="lava" Amount="0.5"/>
+    </Item>
+    <Item UnlocalizedName="LavaTank.Tank" ExactNameMatch="true">
+        <DamageEffect Source="lava" Amount="0.5"/>
+    </Item>
+</HazardousItemList>

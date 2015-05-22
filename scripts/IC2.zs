@@ -537,9 +537,8 @@ recipes.remove(<IC2:blockHeatGenerator:1>);
 // --- Kinetic Generator
 recipes.remove(<IC2:blockGenerator:9>);
 
-
-
-
+// --- Crop Sticks
+recipes.remove(<IC2:blockCrop>);
 
 
 
@@ -923,6 +922,12 @@ recipes.addShaped(<IC2:itemNightvisionGoggles:27>, [
 [<IC2:reactorHeatSwitchDiamond>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond>],
 [<ore:ringStainlessSteel>, <ore:boltStainlessSteel>, <ore:ringStainlessSteel>],
 [<GalacticraftCore:item.sensorLens>,  <ore:craftingToolScrewdriver>, <GalacticraftCore:item.sensorLens>]]);
+
+// --- Crop Sticks
+recipes.addShaped(<IC2:blockCrop> * 2, [
+[null, null, null],
+[<ore:stickLongWood>, null, <ore:stickLongWood>],
+[<ore:stickLongWood>,  <minecraft:string>, <ore:stickLongWood>]]);
 
 
 

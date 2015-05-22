@@ -6,6 +6,7 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.Fuels;
 
 
 
@@ -2255,6 +2256,19 @@ mods.forestry.Carpenter.addRecipe(100, <liquid:creosote> * 500,
 null, <minecraft:wool:*>, null,
 null, <minecraft:stick>, null],
 null, <minecraft:torch> * 5);
+
+
+// --- Add Fuels ---
+
+
+// --- Biomass
+Fuels.addDieselFuel(<Forestry:canEmpty>, <Forestry:canBiomass>, 8);
+
+// --- Short Mead
+Fuels.addDieselFuel(<minecraft:bucket>, <Forestry:bucketShortMead>, 4);
+
+// --- Fisk Oil
+Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30711>, 2);
 
 
 

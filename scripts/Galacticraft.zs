@@ -469,6 +469,14 @@ recipes.remove(<GalacticraftMars:item.deshSpade>);
 // --- Desh Sword
 recipes.remove(<GalacticraftMars:item.deshSword>);
 
+// --- Desh Ingot
+furnace.remove(<GalacticraftMars:item.null:2>);
+// -
+recipes.remove(<GalacticraftMars:item.null:2>);
+
+// --- Desh Block
+recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
+
 
 
 // --- Add Recipes ---
@@ -964,7 +972,10 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:23884>, [<GalacticraftMars:item.nu
 recipes.addShapeless(<GalacticraftCore:item.battery:*>, [<gregtech:gt.metaitem.01:32500>]);
 
 //Standard Wrenche
-recipes.addShapeless(<GalacticraftCore:item.standardWrench>, [<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "Steel", MaxDamage: 51200 as long, SecondaryMaterial: "Steel"}})]);
+recipes.addShaped(<GalacticraftCore:item.standardWrench>, [
+[<ore:plateSteel>, <ore:craftingToolSaw>, <ore:plateSteel>],
+[<ore:screwSteel>, <ore:stickSteel>, <ore:screwSteel>],
+[<ore:craftingToolScrewdriver>, <ore:stickSteel>, <ore:craftingToolFile>]]);
 
 //Heavy Rocket Engine
 recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:1> , [
@@ -1026,6 +1037,9 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [String, String, String],
 [<ore:ringMeteoricSteel>, null, null]]);
 
+// --- Desh Ingot
+furnace.addRecipe(<gregtech:gt.metaitem.01:11884>, <gregtech:gt.metaitem.01:2884>);
+
 
 // --- Add Fuels ---
 
@@ -1033,7 +1047,10 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oilgc", Amount: 1000}}), 16);
 // -
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), 16);
+// -
 Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
+// -
+Fuels.addDieselFuel(null, <GalacticraftCore:tile.crudeOilStill>, 16);
 
 
 // --- Assembler Recipes ---
@@ -1144,14 +1161,14 @@ Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech
 // --- Furnace Recipes ---
 
 
-// --- Ilmenite Ore
-furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
+// --- Titanium Ingot
+furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
+
 // --- Titan Shards
-furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
-// --- Desh Ore
-furnace.remove(<*>, <GalacticraftMars:tile.mars:2>);
+furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:4>);
+
 // --- Desh Shards
-furnace.remove(<*>, <GalacticraftMars:item.null>);
+furnace.remove(<GalacticraftMars:item.null>);
 
 
 
@@ -1161,31 +1178,31 @@ furnace.remove(<*>, <GalacticraftMars:item.null>);
 
 
 // --- Compressed Copper Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:19035>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19035>, 4);
 
 // --- Compressed Tin Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:19057>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19057>, 4);
 
 // --- Compressed Aluminium Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:19019>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19019>, 4);
 
 // --- Compressed Steel Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:9>, <gregtech:gt.metaitem.01:19305>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:9>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19305>, 4);
 
 // --- Compressed Bronze Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:19300>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19300>, 4);
 
 // --- Compressed Titanium Plates
-ImplosionCompressor.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:19028>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19028>, 4);
 
 // --- Compressed Iron Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:19032>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19032>, 4);
 
 // --- Compressed Meteoric Iron Plates
-ImplosionCompressor.addRecipe(<GalacticraftCore:item.meteoricIronIngot:1>, <gregtech:gt.metaitem.01:19340>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftCore:item.meteoricIronIngot:1>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19340>, 4);
 
 // --- Compressed Desh Plates
-ImplosionCompressor.addRecipe(<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:19884>, 4);
+ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19884>, 4);
 
 // --- Heavy Duty Plats Tier 2
 ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.metaitem.01:32463>, 16);
@@ -1211,6 +1228,9 @@ Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCo
 
 // --- Titanium Shards
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
+
+// --- Desh Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GemBlocksForGreg:tile.metalBlock7:5>);
 
 
 

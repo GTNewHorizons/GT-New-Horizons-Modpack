@@ -1,3 +1,159 @@
+2.6.9.0 --- 22.05.2015 ---
+
+
+--- Added Mods ---
+
+	
+	*Wireless Redstone Cicken Bones Edition 1.4.1.9
+	
+	
+	--- Configs ---
+
+
+	*Change Unification for Ore Berries
+
+
+		
+************************************************
+
+
+2.6.8.9 --- 21.05.2015 ---
+
+
+--- Update Mods ---
+
+	
+	*Gem Blocks For Greg 1.4.1 (Thaumic Blocks now Ore dicted)
+	*Open Computers 1.5.10.22
+	*Thaumic Tinkerer 2.5.494
+	
+	
+	--- Configs ---
+
+
+	*Adde all Lava Items to get heat Damage without Glows
+	*Enable Anger Mod config options
+	*Disable Oreberries
+	*Set Blood Moon Spawn Multiplier from 3 to 2
+
+
+--- Scripts ---
+
+
+	*Remove Furnace Recipes Edndium Ingot
+	*Add IC 2 Cropp Stick Recipe
+	*Change Implosion  Compressor Recipe
+	*Add Lead smelting Recipe
+	*Remove 32 and 128 EU Brewery
+	*Add Creosote to the Disel Generator at 8000 EU per Bucket
+	*Make Dreamcraft molds and Extruder Shapes smelt back able in the TC Smeltery
+	*Can Macerating Steel Molds from Dreamcraft back to Dust
+	*Add New Fuels to the Diesel Generator (Biomass IC 2 for 8000 EU per Bucket, Short Mead for 4000 EU per Bucket and Fish oil for 2000 EU per Bucket)
+	*Change Galacticraft furnace recipes to disable titanium,
+	*Change standard GC Wrench recipe
+	*Add GC Oil to fuels in the Diesel Generator at 16000 EU per Bucket
+	*Change Compressed Plate Recipe get Ash Dust back
+	*Add Galaxy Space Lead Armor Recipes to be much harder (use Galaxy Space Crystals)
+	*Make Frozen Crystal and Frozen Glowstone craftable
+	
+	
+		
+************************************************
+
+
+2.6.8.8 --- 20.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Block Limiter 0.3
+	*Industrialcraft 2-2.2.722
+	
+	
+		
+************************************************
+
+
+2.6.8.7 --- 19.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Anger Mod 0.5
+	*Appliedenergistics2 rv2 stable 3
+	*DreamCraft Core Mod 0.4.6
+	*Gregtech 5.08.16
+	*Thaumicenergistics 0.8.10.2
+	*YAMCore 0.3
+	
+	
+	--- Added Mods
+
+
+	*Block Limiter 0.2
+
+		
+************************************************
+
+
+2.6.8.6 --- 18.05.2015 ---
+
+
+--- Update Mods ---
+
+
+	*IC2 Nuclear Control 2.2.5a
+	*InfernalMobs 1.6.1 (added Dim Blacklist)
+
+
+		
+************************************************
+
+2.6.8.5 --- 17.05.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*Dream Craft Core Mod 0.4.5 (added T4-T6 Alloy Ingots, Reinforce Glase Plate and Lens, Armor Molds, add Heat Glows)
+	
+	
+--- Added Mods
+
+
+	*YAMCore 0.1 (Core Mod Lib)
+
+		
+************************************************
+
+
+2.6.8.4 --- 17.05.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*Anger Mod 0.4
+	*Forge 10.13.3.1407
+	*Forge Multipart 1.2.0.344
+	*GTTweaker 0.7.0 (Change Amplifabricator to AmplifabricatorUU in Recipes because of Minetweaker)
+	*Open Mods Lib-1.7.10-0.7.3.362
+	*Steves Addons 0.10.9
+	*Thaumicenergistics 0.8.10.1
+	*Twilightforest 2.3.7
+	
+	
+--- Added Mods
+
+
+	*Inventory Tweaks 1.58-147
+
+		
+************************************************
+
+
 2.6.8.3 --- 16.05.2015 --- (Server Update)
 
 

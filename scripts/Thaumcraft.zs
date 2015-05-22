@@ -154,16 +154,13 @@ recipes.remove(<Thaumcraft:ItemResearchNotes:42>);
 //Remove Furnace Recipes
 
 //Shrads
-furnace.remove(<Thaumcraft:ItemShard:*>);
+//furnace.remove(<Thaumcraft:ItemShard:*>);
 
 //Amber
 furnace.remove(<Thaumcraft:ItemResource:6>);
 
 //Salis Mundus
 furnace.remove(<Thaumcraft:ItemResource:14>);
-
-//Void Metal Nugget
-furnace.remove(<Thaumcraft:ItemNugget:7>);
 
 
 //Furnace Add

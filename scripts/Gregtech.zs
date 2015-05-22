@@ -911,6 +911,15 @@ recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 // --- Large Bronze Boiler
 recipes.remove(<gregtech:gt.blockmachines:1020>);
 
+// --- Brewery 32 EU
+recipes.remove(<gregtech:gt.blockmachines:491>);
+
+// --- Brewery 128 EU
+recipes.remove(<gregtech:gt.blockmachines:492>);
+
+// --- Implosion Compressor
+recipes.remove(<gregtech:gt.blockmachines:1001>);
+
 
 
 // --- Add Recipes ---
@@ -2232,6 +2241,15 @@ recipes.addShaped(<gregtech:gt.blockmachines:1020>, [
 [<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>],
 [<ore:circuitGood>, <gregtech:gt.blockcasings3:13>, <ore:circuitGood>],
 [<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>]]);
+
+// --- Lead Ingot
+furnace.addRecipe(<gregtech:gt.metaitem.01:11089>, <gregtech:gt.metaitem.01:2089>);
+
+// --- Implosion Compressor
+recipes.addShaped(<gregtech:gt.blockmachines:1001>, [
+[<IC2:blockAlloy>, <IC2:blockAlloy>, <IC2:blockAlloy>],
+[<ore:circuitAdvanced>, <gregtech:gt.blockcasings2>, <ore:circuitAdvanced>],
+[<ore:cableGt01Aluminium>, <ore:circuitAdvanced>, <ore:cableGt01Aluminium>]]);
 
 
 
