@@ -15,9 +15,11 @@ import mods.ic2.Macerator;
 // --- Ice Ore
 furnace.remove(<GalaxySpace:item.IceIgnot>);
 
+// --- Quantium Ingot
+furnace.remove(<GalaxySpace:item.QuantiumIgnot>);
 
 // --- Block of Lead
-recipes.remove(<GalaxySpace:mercurylead>);
+furnace.remove(<GalaxySpace:mercurylead>);
 
 // --- Lead Ingot
 furnace.remove(<GalaxySpace:item.LeadIngot>);

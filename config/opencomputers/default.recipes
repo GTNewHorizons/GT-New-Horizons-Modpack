@@ -6,14 +6,19 @@ analyzer {
           ["oc:materialTransistor", nuggetGold, ""]
           ["oc:materialCircuitBoardPrinted", nuggetGold, ""]]
 }
-texturePicker {
-  input: [[dyeBlack, dyeRed, dyeGreen]
-          [dyeBlue, "oc:analyzer", dyePurple]
-          [dyeYellow, dyeMagenta, dyeWhite]]
+hoverBoots {
+  input: [[nuggetIron, "oc:hoverUpgrade2", nuggetIron]
+          [leather, "oc:droneCase1", leather]
+          [nuggetIron, "oc:capacitor", nuggetIron]]
 }
 manual {
   type: shapeless
   input: [book, "oc:circuitChip1"]
+}
+texturePicker {
+  input: [[dyeBlack, dyeRed, dyeGreen]
+          [dyeBlue, "oc:analyzer", dyePurple]
+          [dyeYellow, dyeMagenta, dyeWhite]]
 }
 wrench {
   input: [[ingotIron, "", ingotIron]
@@ -248,9 +253,9 @@ hoverUpgrade1 {
           [feather, "oc:materialCircuitBoardPrinted", feather]]
 }
 hoverUpgrade2 {
-  input: [[end_stone, "oc:circuitChip2", end_stone]
+  input: [["oc:stoneEndstone", "oc:circuitChip2", "oc:stoneEndstone"]
           [nuggetGold, ingotIron, nuggetGold]
-          [end_stone, "oc:materialCircuitBoardPrinted", end_stone]]
+          ["oc:stoneEndstone", "oc:materialCircuitBoardPrinted", "oc:stoneEndstone"]]
 }
 inventoryUpgrade {
   input: [[plankWood, hopper, plankWood]

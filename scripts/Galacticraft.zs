@@ -136,9 +136,6 @@ recipes.remove(<GalacticraftCore:tile.gcBlockCore:11>);
 // --- Meteoric Iron Ingot
 recipes.remove(<gregtech:gt.metaitem.01:11340>); 
 
-// -
-recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
-
 // --- Solid Meteoric Iron
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
 
@@ -556,9 +553,9 @@ recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 
 //Nasa Workbench
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
-[<ore:plateAlloyIridium>, <gregtech:gt.metaitem.01:32497>, <ore:plateAlloyIridium>],
-[<gregtech:gt.metaitem.01:32652>, AdvWafer, <gregtech:gt.metaitem.01:32652>],
-[<ore:circuitMaster>, <ore:cableGt04Aluminium>, <ore:circuitElite>]]);
+[<gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32652>],
+[<ore:waferAdvanced>, <ore:circuitElite>, <ore:waferAdvanced>],
+[<IC2:itemCasing:5>, <gregtech:gt.blockcasings:3>, <IC2:itemCasing:5>]]);
 
 //Tin Decoration Block
 recipes.addShaped(TinDecoBlock, [
@@ -661,7 +658,7 @@ recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 //Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
-[DeshPlate, <GalacticraftCore:item.battery:*>, <RedLogic:redlogic.lampNonCube:128>],
+[DeshPlate, <GalacticraftCore:item.battery:*>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 //Oxygen Mask
@@ -916,7 +913,7 @@ recipes.addShaped(<GalacticraftCore:item.engine:1>, [
 
 //Nose Cone
 recipes.addShaped(<GalacticraftCore:item.noseCone>, [
-[null, <RedLogic:redlogic.lampNonCube:142>, null],
+[null, <ProjRed|Illumination:projectred.illumination.cagelamp2.inv:14>, null],
 [null, HeavyPlating, null],
 [HeavyPlating, HeavyPlating, HeavyPlating]]);
 
@@ -1093,7 +1090,7 @@ Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
 
 // --- Heavy Duty Plate Alloy T2
-AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.tungsten> * 576, 1200, 256);
+AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.titanium> * 576, 1200, 256);
 	
 // --- Heavy Duty Pakte Alloy T3
 AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 576, 2400, 1024);

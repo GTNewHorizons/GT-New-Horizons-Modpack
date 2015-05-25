@@ -36,7 +36,7 @@ recipes.addShapedMirrored(<RandomThings:bloodMoonSensor>, [
 // --- LapisLamp
 recipes.addShaped(<RandomThings:lapisLamp>, [
 [<chisel:iron_bars:2>, <Thaumcraft:ItemResource>, <chisel:iron_bars:2>],
-[<chisel:iron_bars:2>, <RedLogic:redlogic.lampCubeDecorative:11>, <chisel:iron_bars:2>],
+[<chisel:iron_bars:2>, <ProjRed|Illumination:projectred.illumination.lamp:27>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, <minecraft:redstone_torch>, <chisel:iron_bars:2>]]);
 
 // --- MoonSensor
@@ -47,7 +47,7 @@ recipes.addShapedMirrored(<RandomThings:moonSensor>, [
 // --- OnlineDetector
 recipes.addShaped(<RandomThings:onlineDetector>, [
 [<chisel:iron_bars:2>, SensorMV, <chisel:iron_bars:2>],
-[<chisel:iron_bars:2>, <RedLogic:redlogic.lampCubeOff:14>, <chisel:iron_bars:2>],
+[<chisel:iron_bars:2>, <ProjRed|Illumination:projectred.illumination.lamp:30>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, CircuitGood, <chisel:iron_bars:2>]]);
 
 // --- Hiding Stuff ---

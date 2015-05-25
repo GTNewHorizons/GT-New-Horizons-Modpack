@@ -1089,7 +1089,7 @@ recipes.addShaped(<Railcraft:signal:9>, [
 // --- Analog Signal Controll Box ---
 recipes.addShaped(<Railcraft:signal:10>, [
 [SteelPlate, ControllerCircuit, SteelPlate],
-[SteelPlate, <RedLogic:redlogic.gates:29>, SteelPlate]]);
+[SteelPlate, <ProjRed|Integration:projectred.integration.gate:26>, SteelPlate]]);
 
 // --- Signal Receiver Box
 recipes.addShaped(<Railcraft:signal:8>, [
@@ -1098,12 +1098,12 @@ recipes.addShaped(<Railcraft:signal:8>, [
 
 // --- Signal Capacitor Box ---
 recipes.addShaped(<Railcraft:signal:7>, [
-[SteelPlate, <RedLogic:redlogic.gates:11>, SteelPlate],
+[SteelPlate, <ProjRed|Integration:projectred.integration.gate:10>, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Sequencer Box
 recipes.addShaped(<Railcraft:signal:6>, [
-[SteelPlate, <RedLogic:redlogic.gates:29>, SteelPlate],
+[SteelPlate, <ProjRed|Integration:projectred.integration.gate:26>, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Interloack Box
@@ -1148,7 +1148,7 @@ recipes.addShaped(<Railcraft:detector:3>, [
 
 // --- Powered Detector --- 
 recipes.addShaped(<Railcraft:detector:4>, [
-[CobbleStone, <RedLogic:redlogic.gates:29>, CobbleStone],
+[CobbleStone, <ProjRed|Integration:projectred.integration.gate:26>, CobbleStone],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [CobbleStone, RedAlloyPlate, CobbleStone]]);
 
@@ -1628,9 +1628,9 @@ recipes.addShaped(SteelLantern, [
 
 // --- Signal Lamp ---
 recipes.addShaped(<Railcraft:part.signal.lamp>, [
-[GlassPane, <RedLogic:redlogic.lampNonCube:173>, IronPlate],
-[GlassPane, <RedLogic:redlogic.lampNonCube:164>, IronPlate],
-[GlassPane, <RedLogic:redlogic.lampNonCube:158>, IronPlate]]);
+[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:29>, IronPlate],
+[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:20>, IronPlate],
+[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:30>, IronPlate]]);
 
 // --- Turbine Blade ---
 recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:12>]);
