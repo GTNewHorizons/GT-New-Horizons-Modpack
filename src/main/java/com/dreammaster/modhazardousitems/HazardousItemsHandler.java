@@ -350,49 +350,61 @@ public class HazardousItemsHandler {
 		 try
 		 {
 			 ItemStack[] tPlayerInventory = pPlayer.inventory.mainInventory;
+			 String tCurrIS = "";
 
 			 for (ItemStack is : tPlayerInventory)
 			 {
-				 if (is == null)
-					 continue;
-				 
-				 // Check if item is a fluid container
-				 if (IFluidContainerItem.class.isAssignableFrom(is.getClass()))
+				 try // Safe-loop to enforce dangerous items even if something bad happens here
 				 {
-					 // TODO: Handle Fluid containers
-					 /*
-					 IFluidContainerItem tFluidContainer = IFluidContainerItem.class.cast(is);
-					 FluidStack tContents = tFluidContainer.getFluid(is);
-
-					 if(tContents.getFluid().getUnlocalizedName().contains("lava"))
+					 if (is == null)
+						 continue;
+	
+					 tCurrIS = is.getUnlocalizedName();
+					 
+					 // Check if item is a fluid container
+					 if ((Object)is.getItem() instanceof IFluidContainerItem)
 					 {
-						 pPlayer.attackEntityFrom(DamageSource.inFire, 0.5F);
+						 IFluidContainerItem tFluidContainer = IFluidContainerItem.class.cast(is.getItem());
+						 FluidStack tContents = tFluidContainer.getFluid(is);
+						 if (tContents != null)
+						 {
+							 HazardousItem hi = _mHazardItemsCollection.FindHazardousItemExact(tContents.getUnlocalizedName());
+							 if (hi != null)
+								 DoHIEffects(hi, pPlayer);									 
+						 }
 					 }
-					 */
+					 else
+					 {
+						 HazardousItem hi = _mHazardItemsCollection.FindHazardousItem(is);
+						 if (hi != null)
+							 DoHIEffects(hi, pPlayer);
+					 }
 				 }
-				 else
+				 catch (Exception e)
 				 {
-					 HazardousItem hi = _mHazardItemsCollection.FindHazardousItem(is);
-					 if (hi != null)
-					 {
-						 // Attack player based on all defined items
-						 for (ItmDamageEffect iDE : hi.getDamageEffects())
-							 pPlayer.attackEntityFrom(DamageTypeHelper.ParseStringToDamageSource(iDE.getDamageSource()), iDE.getAmount());
-						 
-						 for (ItmPotionEffect iPE : hi.getPotionEffects())
-							 pPlayer.addPotionEffect(new PotionEffect(iPE.getId(), iPE.getDuration(), iPE.getLevel()));
-
-					 }
+					 _mLogger.debug(String.format("Something weird happend with item %s", tCurrIS));
+					 // Silently catching exception and continue
+					 continue;
 				 }
 			 }
 		 }
 		 catch (Exception e)
 		 {
 			 _mLogger.error("HazardousItemsHandler.CheckInventoryForItems.error", "Something bad happend while processing the onPlayerTick event");
-			 _mLogger.DumpStack("HazardousItemsHandler.CheckInventoryForItems.stack", e);
+			 e.printStackTrace();
 		 }
 	 }
 
+	 private void DoHIEffects(HazardousItem pHI, EntityPlayer pPlayer)
+	 {
+		 // Attack player based on all defined items
+		 for (ItmDamageEffect iDE : pHI.getDamageEffects())
+			 pPlayer.attackEntityFrom(DamageTypeHelper.ParseStringToDamageSource(iDE.getDamageSource()), iDE.getAmount());
+		 
+		 for (ItmPotionEffect iPE : pHI.getPotionEffects())
+			 pPlayer.addPotionEffect(new PotionEffect(iPE.getId(), iPE.getDuration(), iPE.getLevel()));
+	 }
+	 
 	public boolean RemoveItemFromList(ItemStack pInHand, boolean pIncludeNonExact) {
 		try
 		{
