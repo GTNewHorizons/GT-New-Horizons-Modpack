@@ -116,6 +116,7 @@ public enum ItemList {
 	QuantumPartBoots(new ModSimpleBaseItem("QuantumPartBoots",  ModTabList.ModGenericTab)),
 	QuantumPartChestplate(new ModSimpleBaseItem("QuantumPartChestplate",  ModTabList.ModGenericTab)),
 	QuantumPartHelmet(new ModSimpleBaseItem("QuantumPartHelmet",  ModTabList.ModGenericTab)),
+	QuantumPartHelmetEmpty(new ModSimpleBaseItem("QuantumPartHelmetEmpty",  ModTabList.ModGenericTab)),
 	QuantumPartLeggings(new ModSimpleBaseItem("QuantumPartLeggings",  ModTabList.ModGenericTab)),
 	QuantumProcessorBoard(new ModSimpleBaseItem("QuantumProcessorBoard",  ModTabList.ModCircuitsTab)),
 	ReinforcedGlassPlate(new ModSimpleBaseItem("ReinforcedGlassPlate", ModTabList.ModGenericTab)),
