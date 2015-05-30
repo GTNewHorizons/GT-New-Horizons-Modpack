@@ -19,6 +19,7 @@ public enum ItemList {
 	CarbonPartBoots(new ModSimpleBaseItem("CarbonPartBoots",  ModTabList.ModGenericTab)),
 	CarbonPartChestplate(new ModSimpleBaseItem("CarbonPartChestplate",  ModTabList.ModGenericTab)),
 	CarbonPartHelmet(new ModSimpleBaseItem("CarbonPartHelmet",  ModTabList.ModGenericTab)),
+	CarbonPartHelmetNightVision(new ModSimpleBaseItem("CarbonPartHelmetNightVision",  ModTabList.ModGenericTab)),
 	CarbonPartLeggings(new ModSimpleBaseItem("CarbonPartLeggings",  ModTabList.ModGenericTab)),
 	ChargedSilverWandCap(new ModSimpleBaseItem("ChargedSilverWandCap",  ModTabList.ModThaumcraftTab)),
 	ChargedThaumiumWandCap(new ModSimpleBaseItem("ChargedThaumiumWandCap",  ModTabList.ModThaumcraftTab)),
