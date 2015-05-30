@@ -8,6 +8,7 @@ import eu.usrv.yamcore.items.ModSimpleBaseItem;
 
 public enum ItemList {
 	AluminiumItemCasing(new ModSimpleBaseItem("AluminiumItemCasing", ModTabList.ModGenericTab)),
+	AdvancedProcessorBoard(new ModSimpleBaseItem("AdvancedProcessorBoard", ModTabList.ModCircuitsTab)),
 	AsteroidsStoneDust(new ModSimpleBaseItem("AsteroidsStoneDust",  ModTabList.ModGenericTab)),
 	CallistoIceDust(new ModSimpleBaseItem("CallistoIceDust",  ModTabList.ModGenericTab)),
 	CallistoIceIngot(new ModSimpleBaseItem("CallistoIceIngot",  ModTabList.ModGenericTab)),
@@ -36,6 +37,7 @@ public enum ItemList {
 	HeavyDutyAlloyIngotT4(new ModSimpleBaseItem("HeavyDutyAlloyIngotT4",  ModTabList.ModGenericTab)),
 	HeavyDutyAlloyIngotT5(new ModSimpleBaseItem("HeavyDutyAlloyIngotT5",  ModTabList.ModGenericTab)),
 	HeavyDutyAlloyIngotT6(new ModSimpleBaseItem("HeavyDutyAlloyIngotT6",  ModTabList.ModGenericTab)),
+	HighEnergyFlowCircuit(new ModSimpleBaseItem("HighEnergyFlowCircuit",  ModTabList.ModCircuitsTab)),
 	IridiumItemCasing(new ModSimpleBaseItem("IridiumItemCasing", ModTabList.ModGenericTab)),
 	IridiumAlloyItemCasing(new ModSimpleBaseItem("IridiumAlloyItemCasing", ModTabList.ModGenericTab)),
 	IronWandCap(new ModSimpleBaseItem("IronWandCap",  ModTabList.ModThaumcraftTab)),
