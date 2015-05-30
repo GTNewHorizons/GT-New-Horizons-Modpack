@@ -38,6 +38,7 @@ public enum ItemList {
 	HeavyDutyAlloyIngotT4(new ModSimpleBaseItem("HeavyDutyAlloyIngotT4",  ModTabList.ModGenericTab)),
 	HeavyDutyAlloyIngotT5(new ModSimpleBaseItem("HeavyDutyAlloyIngotT5",  ModTabList.ModGenericTab)),
 	HeavyDutyAlloyIngotT6(new ModSimpleBaseItem("HeavyDutyAlloyIngotT6",  ModTabList.ModGenericTab)),
+	HighEnergyCircuitParts(new ModSimpleBaseItem("HighEnergyCircuitParts",  ModTabList.ModCircuitsTab)),
 	HighEnergyFlowCircuit(new ModSimpleBaseItem("HighEnergyFlowCircuit",  ModTabList.ModCircuitsTab)),
 	IridiumItemCasing(new ModSimpleBaseItem("IridiumItemCasing", ModTabList.ModGenericTab)),
 	IridiumAlloyItemCasing(new ModSimpleBaseItem("IridiumAlloyItemCasing", ModTabList.ModGenericTab)),
