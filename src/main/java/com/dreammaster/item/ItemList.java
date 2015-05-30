@@ -29,6 +29,7 @@ public enum ItemList {
 	ElectricBoatHull(new ModSimpleBaseItem("ElectricBoatHull",  ModTabList.ModCircuitsTab)),
 	EngineCore(new ModSimpleBaseItem("EngineCore",  ModTabList.ModCircuitsTab)),
 	EngravedEnergyChip(new ModSimpleBaseItem("EngravedEnergyChip",  ModTabList.ModCircuitsTab)),
+	EngravedDiamondCrystalChip(new ModSimpleBaseItem("EngravedDiamondCrystalChip",  ModTabList.ModCircuitsTab)),
 	EngravedQuantumChip(new ModSimpleBaseItem("EngravedQuantumChip",  ModTabList.ModCircuitsTab)),
 	EtchedInsaneVoltageWiring(new ModSimpleBaseItem("EtchedInsaneVoltageWiring",  ModTabList.ModCircuitsTab)),
 	EtchedLudicrousVoltageWiring(new ModSimpleBaseItem("EtchedLudicrousVoltageWiring",  ModTabList.ModCircuitsTab)),
