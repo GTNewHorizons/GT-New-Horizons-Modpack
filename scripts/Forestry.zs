@@ -465,9 +465,9 @@ recipes.remove(<Forestry:fences2:*>);
 
 // --- Sturdy Casing
 recipes.addShaped(<Forestry:sturdyMachine>, [
-[<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>],
+[<IC2:itemCasing:2>, <ore:screwSteel>, <IC2:itemCasing:2>],
 [<ore:screwSteel>, <gregtech:gt.blockcasings:1>, <ore:screwSteel>],
-[<ore:plateBronze>, <ore:screwSteel>, <ore:plateBronze>]]);
+[<IC2:itemCasing:2>, <ore:screwSteel>, <IC2:itemCasing:2>]]);
 
 // --- Analyzer
 recipes.addShaped(<Forestry:core>, [
@@ -2296,7 +2296,7 @@ AlloySmelter.addRecipe(<Forestry:waxCast>, <MagicBees:wax:2> * 9, <gregtech:gt.m
 Assembler.addRecipe(<Forestry:alveary>, <Forestry:impregnatedCasing>, <Forestry:craftingMaterial:6> * 8, 1200, 64);
 
 // --- Sturdy Casing
-Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <gregtech:gt.metaitem.01:17300> * 4, 800, 32);
+Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <IC2:itemCasing:2> * 4, 800, 32);
 
 // --- Hardened  Casing
 Assembler.addRecipe(<Forestry:hardenedMachine>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:17500> * 8, 1200, 128);

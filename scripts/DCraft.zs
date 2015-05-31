@@ -7,6 +7,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Extruder;
+import mods.gregtech.FluidSolidifier;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Lathe;
@@ -363,6 +364,52 @@ recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
 [<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
 [null, null, <ore:craftingToolFile>]]);
 
+// --- Aluminium Item Casing
+recipes.addShaped(<dreamcraft:item.AluminiumItemCasing>, [
+[<ore:plateDoubleAluminium>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Stainless Steel Item Casing
+recipes.addShaped(<dreamcraft:item.StainlessSteelItemCasing>, [
+[<ore:plateDoubleStainlessSteel>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Titanium Item Casing
+recipes.addShaped(<dreamcraft:item.TitaniumItemCasing>, [
+[<ore:plateTripleTitanium>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Chrome Item Casing
+recipes.addShaped(<dreamcraft:item.ChromeItemCasing>, [
+[<ore:plateTripleChrome>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Tungsten Item Casing
+recipes.addShaped(<dreamcraft:item.TungstenItemCasing>, [
+[<ore:plateQuadrupleTungsten>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Tungsten Steel Item Casing
+recipes.addShaped(<dreamcraft:item.TungstenSteelItemCasing>, [
+[<ore:plateQuadrupleTungstenSteel>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Iridium Item Casing
+recipes.addShaped(<dreamcraft:item.IridiumItemCasing>, [
+[<ore:plateQuintupleIridium>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Iridium Alloy Item Casing
+recipes.addShaped(<dreamcraft:item.IridiumAlloyItemCasing>, [
+[<ore:plateAlloyIridium>, null, <ore:craftingToolHardHammer>],
+[<ore:plateAlloyIridium>, null, null]]);
+
+// --- Osmium Item Casing
+recipes.addShaped(<dreamcraft:item.OsmiumItemCasing>, [
+[<ore:plateQuintupleOsmium>, null, <ore:craftingToolHardHammer>]]);
+
+// --- Neutronium Item Casing
+recipes.addShaped(<dreamcraft:item.NeutroniumItemCasing>, [
+[<ore:plateDenseNeutronium>, null, <ore:craftingToolHardHammer>]]);
+
+
+
+// --- Smeltery Recipes
+
+
 // --- Molten Aluminium Brass
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeBolt>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
@@ -490,6 +537,36 @@ recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), 
 // --- Void Metal Plate
 AlloySmelter.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, <gregtech:gt.metaitem.01:32301> * 0, 2400, 32);
 
+// --- Aluminium Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, <gregtech:gt.metaitem.01:11019> * 3, <gregtech:gt.metaitem.01:32302> * 0, 240, 32);
+
+// --- Stainless Steel Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.StainlessSteelItemCasing> * 2, <gregtech:gt.metaitem.01:11306> * 3, <gregtech:gt.metaitem.01:32302> * 0, 240, 32);
+
+// --- Titanium Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.TitaniumItemCasing>, <gregtech:gt.metaitem.01:11028> * 2, <gregtech:gt.metaitem.01:32302> * 0, 480, 64);
+
+// --- Chrome Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.ChromeItemCasing>, <gregtech:gt.metaitem.01:11030> * 2, <gregtech:gt.metaitem.01:32302> * 0, 480, 64);
+
+// --- Tungsten Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.TungstenItemCasing>, <gregtech:gt.metaitem.01:11081> * 3, <gregtech:gt.metaitem.01:32302> * 0, 960, 128);
+
+// --- Tungsten Steel Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, <gregtech:gt.metaitem.01:11316> * 3, <gregtech:gt.metaitem.01:32302> * 0, 960, 128);
+
+// --- Iridium Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.IridiumItemCasing>, <gregtech:gt.metaitem.01:11084> * 4, <gregtech:gt.metaitem.01:32302> * 0, 1200, 256);
+
+// --- Iridium Alloy Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing>, <IC2:itemPartIridium> * 2, <gregtech:gt.metaitem.01:32302> * 0, 1200, 256);
+
+// --- Osmium Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.OsmiumItemCasing>, <gregtech:gt.metaitem.01:11083> * 4, <gregtech:gt.metaitem.01:32302> * 0, 1200, 256);
+
+// --- Neutronium Item Casing
+AlloySmelter.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:11129> * 6, <gregtech:gt.metaitem.01:32302> * 0, 1800, 512);
+
 
 // --- Assembler and AssemblerLiq Recipes
 
@@ -603,6 +680,76 @@ SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAll
 // -
 SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:lubricant> * 90, 1200, 30);
 
+// --- Aluminium Item Casing
+SawLiq.addRecipe(<dreamcraft:item.AluminiumItemCasing>, null, <gregtech:gt.metaitem.01:17019>, <liquid:water> * 16, 200, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.AluminiumItemCasing>, null, <gregtech:gt.metaitem.01:17019>, <liquid:ic2distilledwater> * 10, 200, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.AluminiumItemCasing>, null, <gregtech:gt.metaitem.01:17019>, <liquid:lubricant> * 4, 100, 32);
+
+// --- Stainless Steel Item Casing
+SawLiq.addRecipe(<dreamcraft:item.StainlessSteelItemCasing>, null, <gregtech:gt.metaitem.01:17306>, <liquid:water> * 16, 200, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StainlessSteelItemCasing>, null, <gregtech:gt.metaitem.01:17306>, <liquid:ic2distilledwater> * 10, 200, 32);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StainlessSteelItemCasing>, null, <gregtech:gt.metaitem.01:17306>, <liquid:lubricant> * 4, 100, 32);
+
+// --- Titanium Item Casing
+SawLiq.addRecipe(<dreamcraft:item.TitaniumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17028> * 3, <liquid:water> * 64, 400, 64);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StainlessSteelItemCasing> * 2, null, <gregtech:gt.metaitem.01:17028>, <liquid:ic2distilledwater> * 40, 400, 64);
+// -
+SawLiq.addRecipe(<dreamcraft:item.StainlessSteelItemCasing> * 2, null, <gregtech:gt.metaitem.01:17028>, <liquid:lubricant> * 16, 200, 64);
+
+// --- Chrome Item Casing
+SawLiq.addRecipe(<dreamcraft:item.ChromeItemCasing> * 2, null, <gregtech:gt.metaitem.01:17030> * 3, <liquid:water> * 64, 400, 64);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ChromeItemCasing> * 2, null, <gregtech:gt.metaitem.01:17030> * 3, <liquid:ic2distilledwater> * 40, 400, 64);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ChromeItemCasing> * 2, null, <gregtech:gt.metaitem.01:17030> * 3, <liquid:lubricant> * 16, 200, 64);
+
+// --- Tungsten Item Casing
+SawLiq.addRecipe(<dreamcraft:item.TungstenItemCasing>, null, <gregtech:gt.metaitem.01:17081> * 2, <liquid:water> * 144, 800, 128);
+// -
+SawLiq.addRecipe(<dreamcraft:item.TungstenItemCasing>, null, <gregtech:gt.metaitem.01:17081> * 2, <liquid:ic2distilledwater> * 80, 800, 128);
+// -
+SawLiq.addRecipe(<dreamcraft:item.TungstenItemCasing>, null, <gregtech:gt.metaitem.01:17081> * 2, <liquid:lubricant> * 32, 400, 128);
+
+// --- Tungsten Steel Item Casing
+SawLiq.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, null, <gregtech:gt.metaitem.01:17316> * 2, <liquid:water> * 144, 800, 128);
+// -
+SawLiq.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, null, <gregtech:gt.metaitem.01:17316> * 2, <liquid:ic2distilledwater> * 80, 800, 128);
+// -
+SawLiq.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, null, <gregtech:gt.metaitem.01:17316> * 2, <liquid:lubricant> * 32, 400, 128);
+
+// --- Iridium Item Casing
+SawLiq.addRecipe(<dreamcraft:item.IridiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17084> * 5, <liquid:water> * 288, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.IridiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17084> * 5, <liquid:ic2distilledwater> * 160, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.IridiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17084> * 5, <liquid:lubricant> * 64, 600, 256);
+
+// --- Iridium Alloy Item Casing
+SawLiq.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing> * 2, null, <IC2:itemPartIridium> * 3, <liquid:water> * 288, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing> * 2, null, <IC2:itemPartIridium> * 3, <liquid:ic2distilledwater> * 160, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing> * 2, null, <IC2:itemPartIridium> * 3, <liquid:lubricant> * 64, 600, 256);
+
+// --- Osmium Item Casing
+SawLiq.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17083> * 5, <liquid:water> * 288, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17083> * 5, <liquid:ic2distilledwater> * 160, 1200, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17083> * 5, <liquid:lubricant> * 64, 600, 256);
+
+// --- Neutronium Item Casing
+SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, null, <gregtech:gt.metaitem.01:17129> * 5, <liquid:water> * 576, 1800, 512);
+// -
+SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, null, <gregtech:gt.metaitem.01:17129> * 5, <liquid:ic2distilledwater> * 288, 1800, 256);
+// -
+SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, null, <gregtech:gt.metaitem.01:17129> * 5, <liquid:lubricant> * 144, 900, 256);
+
 
 
 // --- Engraving Laser Recipes ---
@@ -669,6 +816,68 @@ Extruder.addRecipe(<dreamcraft:item.VoidRod> * 2, <Thaumcraft:ItemResource:16>, 
 
 // --- Void Metal Ring
 Extruder.addRecipe(<dreamcraft:item.VoidRing> * 4, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32353> * 0, 800, 96);
+
+// --- Aluminium Item Casing
+Extruder.addRecipe(<dreamcraft:item.AluminiumItemCasing>, <gregtech:gt.metaitem.01:11019>, <gregtech:gt.metaitem.01:32357> * 0, 100, 64);
+
+// --- Stainless Steel Item Casing
+Extruder.addRecipe(<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.metaitem.01:11306>, <gregtech:gt.metaitem.01:32357> * 0, 100, 64);
+
+// --- Titanium Item Casing
+Extruder.addRecipe(<dreamcraft:item.TitaniumItemCasing> * 2, <gregtech:gt.metaitem.01:11028> * 3, <gregtech:gt.metaitem.01:32357> * 0, 200, 128);
+
+// --- Chrome Item Casing
+Extruder.addRecipe(<dreamcraft:item.ChromeItemCasing> * 2, <gregtech:gt.metaitem.01:11030> * 3, <gregtech:gt.metaitem.01:32357> * 0, 200, 128);
+
+// --- Tungsten Item Casing
+Extruder.addRecipe(<dreamcraft:item.TungstenItemCasing>, <gregtech:gt.metaitem.01:11081> * 2, <gregtech:gt.metaitem.01:32357> * 0, 300, 256);
+
+// --- Tungsten Steel Item Casing
+Extruder.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, <gregtech:gt.metaitem.01:11316> * 2, <gregtech:gt.metaitem.01:32357> * 0, 300, 256);
+
+// --- Iridium Item Casing
+Extruder.addRecipe(<dreamcraft:item.IridiumItemCasing> * 2, <gregtech:gt.metaitem.01:11084> * 5, <gregtech:gt.metaitem.01:32357> * 0, 400, 384);
+
+// --- Iridium Alloy Item Casing
+Extruder.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing> * 2, <IC2:itemPartIridium> * 3, <gregtech:gt.metaitem.01:32357> * 0, 400, 384);
+
+// --- Osmium Item Casing
+Extruder.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, <gregtech:gt.metaitem.01:11083> * 5, <gregtech:gt.metaitem.01:32357> * 0, 400, 384);
+
+// --- Neutronium Item Casing
+Extruder.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:11129> * 5, <gregtech:gt.metaitem.01:32357> * 0, 600, 512);
+
+
+// --- Fluid Solidifier Recipes
+
+
+
+// --- Aluminium Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.AluminiumItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.aluminium> * 144, 100, 16);
+
+// --- Stainless Steel Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.stainlesssteel> * 144, 100, 16);
+
+// --- Titanium Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.TitaniumItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.titanium> * 216, 200, 32);
+
+// --- Chrome Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.ChromeItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.chrome> * 216, 200, 32);
+
+// --- Tungsten Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.TungstenItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.tungsten> * 288, 300, 64);
+
+// --- Tungsten Steel Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.TungstenSteelItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.tungstensteel> * 288, 300, 64);
+
+// --- Iridium Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.IridiumItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.iridium> * 360, 400, 128);
+
+// --- Osmium Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.OsmiumItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.osmium> * 360, 400, 128);
+
+// --- Neutronium Item Casing
+FluidSolidifier.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32302> * 0, <liquid:molten.neutronium> * 576, 600, 256);
 
 
 
@@ -748,6 +957,36 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldLeg
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldBoots>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldChestplate>);
+
+// --- Aluminium Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2019>, <dreamcraft:item.AluminiumItemCasing>);
+
+// --- Stainless Steel Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2306>, <dreamcraft:item.StainlessSteelItemCasing>);
+
+// --- Titanium Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:1028> * 6, <dreamcraft:item.TitaniumItemCasing>);
+
+// --- Chrome Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:1030> * 6, <dreamcraft:item.ChromeItemCasing>);
+
+// --- Tungsten Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2081> * 2, <dreamcraft:item.TungstenItemCasing>);
+
+// --- Tungsten Steel Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2316> * 2, <dreamcraft:item.TungstenSteelItemCasing>);
+
+// --- Iridium Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:1084> * 10, <dreamcraft:item.IridiumItemCasing>);
+
+// --- Iridium Alloy Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2084> * 6, <dreamcraft:item.IridiumAlloyItemCasing>);
+
+// --- Osmium Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:1083> * 10, <dreamcraft:item.OsmiumItemCasing>);
+
+// --- Neutronium Item Casing
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2129> * 4, <dreamcraft:item.NeutroniumItemCasing>);
 
 
 

@@ -570,7 +570,7 @@ recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
 [<gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <ore:circuitElite>, <ore:waferAdvanced>],
-[<IC2:itemCasing:5>, <gregtech:gt.blockcasings:3>, <IC2:itemCasing:5>]]);
+[<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.blockcasings:3>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 //Tin Decoration Block
 recipes.addShaped(TinDecoBlock, [
