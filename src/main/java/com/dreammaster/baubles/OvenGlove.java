@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Level;
 
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.FMLLog;
@@ -264,7 +265,7 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 					// Player must hold any item with "lava" in his hand
 					if (tHeldItem.getUnlocalizedName().toLowerCase().contains("lava"))
 					{
-						tPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 100, 0, false));
+						tPlayer.addPotionEffect(new PotionEffect(Potion.fireResistance.id, MainRegistry.CoreConfig.PotionTimer, 0, false));
 
 						int tRandomDamage = _mRnd.nextInt(10); // Randomly damage gloves while giving the protection effect
 						
