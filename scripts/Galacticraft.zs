@@ -104,8 +104,23 @@ recipes.remove(<GalacticraftCore:tile.refinery>);
 // --- Fuel Loader
 recipes.remove(<GalacticraftCore:tile.fuelLoader>);
 
-// --- Sealable Oxygen Pipe
+// --- Saleable Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:1>);
+
+// --- Saleable Copper Cable
+recipes.remove(<GalacticraftCore:tile.enclosed:2>);
+
+// --- Saleable Gold Cable
+recipes.remove(<GalacticraftCore:tile.enclosed:3>);
+
+// --- Saleable HV Cable
+recipes.remove(<GalacticraftCore:tile.enclosed:4>);
+
+// --- Saleable Glass Fibre Cable
+recipes.remove(<GalacticraftCore:tile.enclosed:5>);
+
+// --- Saleable Tin Cable
+recipes.remove(<GalacticraftCore:tile.enclosed:6>);
 
 // --- Fuel Loader
 recipes.remove(<GalacticraftCore:tile.fuelLoader>);
@@ -1160,12 +1175,6 @@ Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech
 
 // --- Titanium Ingot
 furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
-
-// --- Titan Shards
-furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:4>);
-
-// --- Desh Shards
-furnace.remove(<GalacticraftMars:item.null>);
 
 
 

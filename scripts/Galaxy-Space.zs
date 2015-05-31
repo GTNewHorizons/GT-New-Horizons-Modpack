@@ -19,7 +19,7 @@ furnace.remove(<GalaxySpace:item.IceIgnot>);
 furnace.remove(<GalaxySpace:item.QuantiumIgnot>);
 
 // --- Block of Lead
-furnace.remove(<GalaxySpace:mercurylead>);
+recipes.remove(<GalaxySpace:mercurylead>);
 
 // --- Lead Ingot
 furnace.remove(<GalaxySpace:item.LeadIngot>);

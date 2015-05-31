@@ -90,7 +90,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:5>,[
  
 // --- EngineBoost
 recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
-[<ore:plateAluminium>, <IC2:itemPartAlloy>, <ore:plateAluminium>],
+[<dreamcraft:item.AluminiumItemCasing>, <IC2:itemPartAlloy>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
 [<IC2:reactorPlating>, <IC2:reactorVentDiamond>, <IC2:reactorPlating>]]);
 
@@ -108,21 +108,21 @@ recipes.addShaped(<GraviSuite:advNanoChestPlate>, [
  
 // --- Advanced Jetpack
 recipes.addShaped(<GraviSuite:advJetpack>,[
-[<ore:plateTungstenSteel>, <IC2:itemArmorJetpackElectric:*>, <ore:plateTungstenSteel>],
+[<dreamcraft:item.ChromeItemCasing>, <IC2:itemArmorJetpackElectric:*>, <dreamcraft:item.ChromeItemCasing>],
 [<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:*>, <GraviSuite:itemSimpleItem:6>],
-[<gregtech:gt.blockmachines:1643>, <ore:circuitMaster>, <gregtech:gt.blockmachines:1643>]]);
+[<gregtech:gt.blockmachines:1643>, <dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.blockmachines:1643>]]);
 
 // --- Advanced Lappack
 recipes.addShaped(<GraviSuite:advLappack>,[
-[<ore:plateStainlessSteel>, <ore:batteryElite>, <ore:plateStainlessSteel>],
+[<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:batteryElite>, <IC2:itemArmorEnergypack:*>, <ore:batteryElite>],
-[<ore:circuitAdvanced>, <ore:wireGt12TungstenSteel> , <ore:circuitAdvanced>]]);
+[<ore:circuitMaster>, <ore:wireGt12TungstenSteel> , <ore:circuitMaster>]]);
 
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack>,[
-[<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>],
+[<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
 [<ore:batteryMaster>, <GraviSuite:advLappack:*>, <ore:batteryMaster>],
-[<ore:wireGt16Platinum>, <ore:circuitMaster>, <ore:wireGt16Platinum>]]);
+[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:wireGt16NiobiumTitanium>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator>,[
