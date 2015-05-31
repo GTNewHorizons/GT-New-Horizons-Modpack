@@ -1,20 +1,18 @@
 package com.dreammaster.block;
 
-import net.minecraft.block.Block.SoundType;
-import net.minecraft.block.material.Material;
-
 import com.dreammaster.creativetab.ModTabList;
-import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
-
 import eu.usrv.yamcore.blocks.ModBlockManager;
 import eu.usrv.yamcore.blocks.ModSimpleBaseBlock;
-import eu.usrv.yamcore.iface.IExtendedBlockProperties;
-import eu.usrv.yamcore.items.ModSimpleBaseItem;
 
 public enum BlockList {
 	 // Your sandclay mix
 	SandClayMix(new ModSimpleBaseBlock(new SandClayProperties(), ModTabList.ModBlocksTab)),
+	CallistoColdIce(new ModSimpleBaseBlock(new CallistoColdIceProperties(), ModTabList.ModBlocksTab)),
+	Ledox(new ModSimpleBaseBlock(new LedoxProperties(), ModTabList.ModBlocksTab)),
+	MysteriousCrystal(new ModSimpleBaseBlock(new MysteriousCrystalProperties(), ModTabList.ModBlocksTab)),
+	Mytryl(new ModSimpleBaseBlock(new MytrylProperties(), ModTabList.ModBlocksTab)),
+	Quantinum(new ModSimpleBaseBlock(new QuantinumProperties(), ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
