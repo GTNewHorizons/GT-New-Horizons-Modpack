@@ -9,8 +9,9 @@ import net.minecraft.block.material.Material;
 import net.minecraftforge.fluids.Fluid;
 
 public enum FluidList {
-	NatriumKalium(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("NatriumKalium"), Material.water), ModTabList.ModFluidsTab),
+	SodiumPotassium(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("SodiumPotassium"), Material.water), ModTabList.ModFluidsTab),
 	EnrichedBacterialSludge(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("EnrichedBacterialSludge"), Material.water), ModTabList.ModFluidsTab),
+	FermentedBacterialSludge(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("FermentedBacterialSludge"), Material.water), ModTabList.ModFluidsTab),
 
 	// Do not delete this
 	EndOfList(null, null);
