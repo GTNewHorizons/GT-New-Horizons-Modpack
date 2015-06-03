@@ -27,6 +27,7 @@ public enum ItemList {
 	ChromeItemCasing(new ModSimpleBaseItem("ChromeItemCasing", ModTabList.ModGenericTab)),
 	CobbleStoneRod(new ModSimpleBaseItem("CobbleStoneRod",  ModTabList.ModGenericTab)),
 	CopperWandCap(new ModSimpleBaseItem("CopperWandCap",  ModTabList.ModThaumcraftTab)),
+	Display(new ModSimpleBaseItem("Display", ModTabList.ModCircuitsTab)),
 	ElectricBoatHull(new ModSimpleBaseItem("ElectricBoatHull",  ModTabList.ModCircuitsTab)),
 	EngineCore(new ModSimpleBaseItem("EngineCore",  ModTabList.ModCircuitsTab)),
 	EngravedEnergyChip(new ModSimpleBaseItem("EngravedEnergyChip",  ModTabList.ModCircuitsTab)),
