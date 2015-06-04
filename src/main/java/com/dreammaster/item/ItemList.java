@@ -45,6 +45,7 @@ public enum ItemList {
 	IridiumItemCasing(new ModSimpleBaseItem("IridiumItemCasing", ModTabList.ModGenericTab)),
 	IridiumAlloyItemCasing(new ModSimpleBaseItem("IridiumAlloyItemCasing", ModTabList.ModGenericTab)),
 	IronWandCap(new ModSimpleBaseItem("IronWandCap",  ModTabList.ModThaumcraftTab)),
+	LaserEmitter(new ModSimpleBaseItem("LaserEmitter", ModTabList.ModCircuitsTab)),
 	LedoxDust(new ModSimpleBaseItem("LedoxDust",  ModTabList.ModGenericTab)),
 	LedoxIngot(new ModSimpleBaseItem("LedoxIngot",  ModTabList.ModGenericTab)),
 	LedoxColdIngot(new ModSimpleBaseItem("LedoxColdIngot",  ModTabList.ModGenericTab)),
