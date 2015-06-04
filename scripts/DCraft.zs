@@ -367,6 +367,11 @@ recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
 [<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
 [null, null, <ore:craftingToolFile>]]);
 
+// --- Display
+recipes.addShaped(<dreamcraft:item.Display>, [
+[<ore:platePlastic>, <gregtech:gt.metaitem.01:32740>, <ore:platePlastic>],
+[<ore:circuitBasic>, <ore:cableGt01Tin>, <ore:circuitBasic>],
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 
 
@@ -981,7 +986,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.Neutron
 
 
 
-Mixer.addRecipe(null, <liquid:natriumkalium> * 1000, <gregtech:gt.metaitem.01:2017> * 2, <gregtech:gt.metaitem.01:2025> * 3, null, null, null, 400, 32);
+Mixer.addRecipe(null, <liquid:sodiumpotassium> * 1000, <gregtech:gt.metaitem.01:2017> * 2, <gregtech:gt.metaitem.01:2025> * 3, null, null, null, 400, 32);
 
 
 

@@ -706,21 +706,21 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576,
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:1>, <IC2:itemPartCircuit>, <IC2:itemCasing:1>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>], 
-<gregtech:gt.metaitem.01:32740>, <Forestry:beealyzer>);
+<dreamcraft:item.Display>, <Forestry:beealyzer>);
 
 // --- Treealyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing>, <IC2:itemPartCircuit>, <IC2:itemCasing> , 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>], 
-<gregtech:gt.metaitem.01:32740>, <Forestry:treealyzer>);
+<dreamcraft:item.Display>, <Forestry:treealyzer>);
 
 // --- Flutterlyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:2>, <IC2:itemPartCircuit>, <IC2:itemCasing:2>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>], 
-<gregtech:gt.metaitem.01:32740>, <Forestry:flutterlyzer>);
+<dreamcraft:item.Display>, <Forestry:flutterlyzer>);
 
 
 

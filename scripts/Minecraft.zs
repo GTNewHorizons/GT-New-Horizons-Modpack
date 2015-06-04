@@ -947,6 +947,11 @@ recipes.remove(IronDoor);
 // --- Wither Skull
 recipes.remove(<minecraft:skull:1>);
 
+// --- Shears
+recipes.remove(<minecraft:shears>);
+
+
+
 
 // --- Adding Back Recipes ---
 
@@ -1060,7 +1065,7 @@ recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
 recipes.addShaped(Torch * 3, [
 [Coal, null],
 [Stick, null]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Torch * 2, [
 [Charcoal, null],
 [Stick, null]]);
@@ -1108,12 +1113,12 @@ recipes.addShaped(Ladder, [
 [Stick, Screwdriver, Stick],
 [String, WoodScrew, String],
 [Stick, SHammer, Stick]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Ladder * 2, [
 [Stick, Screwdriver, Stick],
 [String, IronScrew, String],
 [Stick, SHammer, Stick]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(Ladder * 4, [
 [Stick, Screwdriver, Stick],
 [String, SteelScrew, String],
@@ -1227,7 +1232,7 @@ recipes.addShaped(Wool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, WhiteDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(Wool,
 [AnyWool, WhiteDye]);
 // -
@@ -1246,7 +1251,7 @@ recipes.addShaped(OrangeWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, OrangeDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(OrangeWool,
 [AnyWool, OrangeDye]);
 
@@ -1255,7 +1260,7 @@ recipes.addShaped(MagentaWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, MagentaDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(MagentaWool,
 [AnyWool, MagentaDye]);
 
@@ -1264,7 +1269,7 @@ recipes.addShaped(LightBlueWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, LightBlueDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightBlueWool,
 [AnyWool, LightBlueDye]);
 
@@ -1273,7 +1278,7 @@ recipes.addShaped(YellowWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, YellowDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(YellowWool,
 [AnyWool, YellowDye]);
 
@@ -1282,7 +1287,7 @@ recipes.addShaped(LimeWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, LimeDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LimeWool,
 [AnyWool, LimeDye]);
 
@@ -1291,7 +1296,7 @@ recipes.addShaped(PinkWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, PinkDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PinkWool,
 [AnyWool, PinkDye]);
 
@@ -1300,7 +1305,7 @@ recipes.addShaped(GrayWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, GrayDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GrayWool,
 [AnyWool, GrayDye]);
 
@@ -1309,7 +1314,7 @@ recipes.addShaped(LightGrayWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, LightGrayDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightGrayWool,
 [AnyWool, LightGrayDye]);
 
@@ -1318,7 +1323,7 @@ recipes.addShaped(CyanWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, CyanDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(CyanWool,
 [AnyWool, CyanDye]);
 
@@ -1327,7 +1332,7 @@ recipes.addShaped(PurpleWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, PurpleDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PurpleWool,
 [AnyWool, PurpleDye]);
 
@@ -1336,7 +1341,7 @@ recipes.addShaped(BlueWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, BlueDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlueWool,
 [AnyWool, BlueDye]);
 
@@ -1345,7 +1350,7 @@ recipes.addShaped(BrownWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, BrownDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BrownWool,
 [AnyWool, BrownDye]);
 
@@ -1354,7 +1359,7 @@ recipes.addShaped(GreenWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, GreenDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GreenWool,
 [AnyWool, GreenDye]);
 
@@ -1363,7 +1368,7 @@ recipes.addShaped(RedWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, RedDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(RedWool,
 [AnyWool, RedDye]);
 
@@ -1372,7 +1377,7 @@ recipes.addShaped(BlackWool * 7, [
 [AnyWool, AnyWool, AnyWool],
 [AnyWool, BlackDye, AnyWool],
 [AnyWool, Paintbrush, AnyWool]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlackWool,
 [AnyWool, BlackDye]);
 
@@ -1385,7 +1390,7 @@ recipes.addShaped(WhiteGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, WhiteDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(WhiteGlass,
 [Glass, WhiteDye]);
 
@@ -1394,7 +1399,7 @@ recipes.addShaped(OrangeGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, OrangeDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(OrangeGlass,
 [Glass, OrangeDye]);
 
@@ -1403,7 +1408,7 @@ recipes.addShaped(MagentaGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, MagentaDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(MagentaGlass,
 [Glass, MagentaDye]);
 
@@ -1412,7 +1417,7 @@ recipes.addShaped(LightBlueGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, LightBlueDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightBlueGlass,
 [Glass, LightBlueDye]);
 
@@ -1421,7 +1426,7 @@ recipes.addShaped(YellowGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, YellowDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(YellowGlass,
 [Glass, YellowDye]);
 
@@ -1430,7 +1435,7 @@ recipes.addShaped(LimeGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, LimeDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LimeGlass,
 [Glass, LimeDye]);
 
@@ -1439,7 +1444,7 @@ recipes.addShaped(PinkGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, PinkDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PinkGlass,
 [Glass, PinkDye]);
 
@@ -1448,7 +1453,7 @@ recipes.addShaped(GrayGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, GrayDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GrayGlass,
 [Glass, GrayDye]);
 
@@ -1457,7 +1462,7 @@ recipes.addShaped(LightGrayGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, LightGrayDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightGrayGlass,
 [Glass, LightGrayDye]);
 
@@ -1466,7 +1471,7 @@ recipes.addShaped(CyanGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, CyanDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(CyanGlass,
 [Glass, CyanDye]);
 
@@ -1475,7 +1480,7 @@ recipes.addShaped(PurpleGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, PurpleDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PurpleGlass,
 [Glass, PurpleDye]);
 
@@ -1484,7 +1489,7 @@ recipes.addShaped(BlueGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, BlueDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlueGlass,
 [Glass, BlueDye]);
 
@@ -1493,7 +1498,7 @@ recipes.addShaped(BrownGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, BrownDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BrownGlass,
 [Glass, BrownDye]);
 
@@ -1502,7 +1507,7 @@ recipes.addShaped(GreenGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, GreenDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GreenGlass,
 [Glass, GreenDye]);
 
@@ -1511,7 +1516,7 @@ recipes.addShaped(RedGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, RedDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(RedGlass,
 [Glass, RedDye]);
 
@@ -1520,7 +1525,7 @@ recipes.addShaped(BlackGlass * 7, [
 [Glass, Glass, Glass],
 [Glass, BlackDye, Glass],
 [Glass, Paintbrush, Glass]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlackGlass,
 [Glass, BlackDye]);
 
@@ -1533,7 +1538,7 @@ recipes.addShaped(WhiteGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, WhiteDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(WhiteGlassPane,
 [GlassPane, WhiteDye]);
 
@@ -1542,7 +1547,7 @@ recipes.addShaped(OrangeGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, OrangeDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(OrangeGlassPane,
 [GlassPane, OrangeDye]);
 
@@ -1551,7 +1556,7 @@ recipes.addShaped(MagentaGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, MagentaDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(MagentaGlassPane,
 [GlassPane, MagentaDye]);
 
@@ -1560,7 +1565,7 @@ recipes.addShaped(LightBlueGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, LightBlueDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightBlueGlassPane,
 [GlassPane, LightBlueDye]);
 
@@ -1569,7 +1574,7 @@ recipes.addShaped(YellowGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, YellowDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(YellowGlassPane,
 [GlassPane, YellowDye]);
 
@@ -1587,7 +1592,7 @@ recipes.addShaped(PinkGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, PinkDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PinkGlassPane,
 [GlassPane, PinkDye]);
 
@@ -1596,7 +1601,7 @@ recipes.addShaped(GrayGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, GrayDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GrayGlassPane,
 [GlassPane, GrayDye]);
 
@@ -1605,7 +1610,7 @@ recipes.addShaped(LightGrayGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, LightGrayDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightGrayGlassPane,
 [GlassPane, LightGrayDye]);
 
@@ -1614,7 +1619,7 @@ recipes.addShaped(CyanGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, CyanDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(CyanGlassPane,
 [GlassPane, CyanDye]);
 
@@ -1623,7 +1628,7 @@ recipes.addShaped(PurpleGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, PurpleDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PurpleGlassPane,
 [GlassPane, PurpleDye]);
 
@@ -1632,7 +1637,7 @@ recipes.addShaped(BlueGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, BlueDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlueGlassPane,
 [GlassPane, BlueDye]);
 
@@ -1650,7 +1655,7 @@ recipes.addShaped(GreenGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, GreenDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GreenGlassPane,
 [GlassPane, GreenDye]);
 
@@ -1659,7 +1664,7 @@ recipes.addShaped(RedGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, RedDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(RedGlassPane,
 [GlassPane, RedDye]);
 
@@ -1668,7 +1673,7 @@ recipes.addShaped(BlackGlassPane * 7, [
 [GlassPane, GlassPane, GlassPane],
 [GlassPane, BlackDye, GlassPane],
 [GlassPane, Paintbrush, GlassPane]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlackGlassPane,
 [GlassPane, BlackDye]);
 
@@ -1691,7 +1696,7 @@ recipes.addShaped(OrangeCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, OrangeDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(OrangeCarpet,
 [WhiteCarpet, OrangeDye]);
 // -
@@ -1709,7 +1714,7 @@ recipes.addShaped(MagentaCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, MagentaDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(MagentaCarpet,
 [WhiteCarpet, MagentaDye]);
 // -
@@ -1727,7 +1732,7 @@ recipes.addShaped(LightBlueCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, LightBlueDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightBlueCarpet,
 [WhiteCarpet, LightBlueDye]);
 // -
@@ -1745,7 +1750,7 @@ recipes.addShaped(YellowCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, YellowDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(YellowCarpet,
 [WhiteCarpet, YellowDye]);
 // -
@@ -1763,7 +1768,7 @@ recipes.addShaped(LimeCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, LimeDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LimeCarpet,
 [WhiteCarpet, LimeDye]);
 // -
@@ -1781,7 +1786,7 @@ recipes.addShaped(PinkCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, PinkDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PinkCarpet,
 [WhiteCarpet, PinkDye]);
 // -
@@ -1799,7 +1804,7 @@ recipes.addShaped(GrayCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, GrayDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GrayCarpet,
 [WhiteCarpet, GrayDye]);
 // -
@@ -1817,7 +1822,7 @@ recipes.addShaped(LightGrayCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, LightGrayDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightGrayCarpet,
 [WhiteCarpet, LightGrayDye]);
 // -
@@ -1835,7 +1840,7 @@ recipes.addShaped(CyanCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, CyanDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(CyanCarpet,
 [WhiteCarpet, CyanDye]);
 // -
@@ -1853,7 +1858,7 @@ recipes.addShaped(PurpleCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, PurpleDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PurpleCarpet,
 [WhiteCarpet, PurpleDye]);
 // -
@@ -1871,7 +1876,7 @@ recipes.addShaped(BlueCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, BlueDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlueCarpet,
 [WhiteCarpet, BlueDye]);
 // -
@@ -1889,7 +1894,7 @@ recipes.addShaped(BrownCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, BrownDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BrownCarpet,
 [WhiteCarpet, BrownDye]);
 // -
@@ -1907,7 +1912,7 @@ recipes.addShaped(GreenCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, GreenDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GreenCarpet,
 [WhiteCarpet, GreenDye]);
 // -
@@ -1925,7 +1930,7 @@ recipes.addShaped(RedCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, RedDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(RedCarpet,
 [WhiteCarpet, RedDye]);
 // -
@@ -1943,7 +1948,7 @@ recipes.addShaped(BlackCarpet * 7, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
 [WhiteCarpet, BlackDye, WhiteCarpet],
 [WhiteCarpet, Paintbrush, WhiteCarpet]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlackCarpet,
 [WhiteCarpet, BlackDye]);
 // -
@@ -1965,7 +1970,7 @@ recipes.addShaped(WhiteHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, WhiteDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(WhiteHardClay,
 [ClayBlock, WhiteDye]);
 
@@ -1974,7 +1979,7 @@ recipes.addShaped(OrangeHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, OrangeDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(OrangeHardClay,
 [ClayBlock, OrangeDye]);
 
@@ -1992,7 +1997,7 @@ recipes.addShaped(LightBlueHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, LightBlueDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightBlueHardClay,
 [ClayBlock, LightBlueDye]);
 
@@ -2001,7 +2006,7 @@ recipes.addShaped(YellowHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, YellowDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(YellowHardClay,
 [ClayBlock, YellowDye]);
 
@@ -2010,7 +2015,7 @@ recipes.addShaped(LimeHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, LimeDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LimeHardClay,
 [ClayBlock, LimeDye]);
 
@@ -2019,7 +2024,7 @@ recipes.addShaped(PinkHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, PinkDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PinkHardClay,
 [ClayBlock, PinkDye]);
 
@@ -2028,7 +2033,7 @@ recipes.addShaped(GrayHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, GrayDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GrayHardClay,
 [ClayBlock, GrayDye]);
 
@@ -2037,7 +2042,7 @@ recipes.addShaped(LightGrayHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, LightGrayDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(LightGrayHardClay,
 [ClayBlock, LightGrayDye]);
 
@@ -2046,7 +2051,7 @@ recipes.addShaped(CyanHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, CyanDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(CyanHardClay,
 [ClayBlock, CyanDye]);
 
@@ -2055,7 +2060,7 @@ recipes.addShaped(PurpleHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, PurpleDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(PurpleHardClay,
 [ClayBlock, PurpleDye]);
 
@@ -2064,7 +2069,7 @@ recipes.addShaped(BlueHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, BlueDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlueHardClay,
 [ClayBlock, BlueDye]);
 
@@ -2073,7 +2078,7 @@ recipes.addShaped(BrownHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, BrownDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BrownHardClay,
 [ClayBlock, BrownDye]);
 
@@ -2082,7 +2087,7 @@ recipes.addShaped(GreenHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, GreenDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(GreenHardClay,
 [ClayBlock, GreenDye]);
 
@@ -2100,7 +2105,7 @@ recipes.addShaped(BlackHardClay * 7, [
 [ClayBlock, ClayBlock, ClayBlock],
 [ClayBlock, BlackDye, ClayBlock],
 [ClayBlock, Paintbrush, ClayBlock]]);
-// - Alternate Recipe
+// -
 recipes.addShapeless(BlackHardClay,
 [ClayBlock, BlackDye]);
 
@@ -2112,174 +2117,179 @@ recipes.addShapeless(Sugar,
 [Mortar, <harvestcraft:beetItem>]);
 
 
-//Diamond Sword
+// --- Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
 [<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
 [null, <minecraft:stick>, null]]);
 
-//Diamond Shovel
+// --- Diamond Shovel
 recipes.addShaped(<minecraft:diamond_shovel>, [
 [<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
 [null, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
-//Diamond Pickaxe
+// --- Diamond Pickaxe
 recipes.addShaped(<minecraft:diamond_pickaxe>, [
 [<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <minecraft:diamond>],
 [<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>],
 [null, <minecraft:stick>, null]]);
 
-//Diamond Axe
+// --- Diamond Axe
 recipes.addShaped(<minecraft:diamond_axe>, [
 [<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
 [<gregtech:gt.metaitem.01:17500>, <minecraft:stick>, null],
 [<gregtech:gt.metatool.01:18>, <minecraft:stick>, null]]);
 
-//Diamond Hoe
+// --- Diamond Hoe
 recipes.addShaped(<minecraft:diamond_hoe>, [
 [<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
 [<gregtech:gt.metatool.01:18>, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
-//Diamond Helm
+// --- Diamond Helm
 recipes.addShaped(<minecraft:diamond_helmet>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
-//Diamond Chestplate
+// --- Diamond Chestplate
 recipes.addShaped(<minecraft:diamond_chestplate>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>]]);
 
-//Diamond Leggins
+// --- Diamond Leggins
 recipes.addShaped(<minecraft:diamond_leggings>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>]]);
 
-//Diamond Boots
+// --- Diamond Boots
 recipes.addShaped(<minecraft:diamond_boots>, [
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
-//Iron Horse Armor
+// --- Iron Horse Armor
 recipes.addShaped(<minecraft:iron_horse_armor>, [
 [HHammer, Screwdriver, <minecraft:iron_helmet>],
 [<ore:plateIron>, <minecraft:iron_chestplate>, <ore:plateIron>],
 [<minecraft:iron_leggings>, <ore:screwIron>, <minecraft:iron_leggings>]]);
 
-//Gold Horse Armor
+// --- Gold Horse Armor
 recipes.addShaped(<minecraft:golden_horse_armor>, [
 [HHammer, Screwdriver, <minecraft:golden_helmet>],
 [<ore:plateGold>, <minecraft:golden_chestplate>, <ore:plateGold>],
 [<minecraft:golden_leggings>, <ore:screwGold>, <minecraft:golden_leggings>]]);
 
-//Diamond horse Armor
+// --- Diamond horse Armor
 recipes.addShaped(<minecraft:diamond_horse_armor>, [
 [HHammer, Screwdriver, <minecraft:diamond_helmet>],
 [<ore:plateDiamond>, <minecraft:diamond_chestplate>, <ore:plateDiamond>],
 [<minecraft:diamond_leggings>, <ore:screwDiamond>, <minecraft:diamond_leggings>]]);
 
-//Saddle
+// --- Saddle
 recipes.addShaped(<minecraft:saddle>, [
 [<minecraft:leather>, <Backpack:tannedLeather>, <minecraft:leather>],
 [<minecraft:leather>, <minecraft:carpet:*>, <minecraft:leather>],
 [<ore:ringAnyIron>, <minecraft:string>, <ore:ringAnyIron>]]);
 
-//Clock
+// --- Clock
 recipes.addShaped(<minecraft:clock>, [
 [<gregtech:gt.metaitem.01:28086>, <ore:plateGold>, <gregtech:gt.metaitem.01:28086>],
 [<gregtech:gt.metaitem.01:26086>, <minecraft:comparator>, <gregtech:gt.metaitem.01:26086>],
 [<gregtech:gt.metatool.01:22>, <gregtech:gt.metaitem.01:27086>, <gregtech:gt.metatool.01:16>]]);
 
-//Compass
+// --- Compass
 recipes.addShaped(<minecraft:compass>, [
 [<ore:screwIron>, <ore:paneGlass>, <ore:boltIron>],
 [<ore:ringZinc>, <ore:plateIron>, <ore:ringZinc>],
 [<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
-//Pumpkin Seeds
+// --- Pumpkin Seeds
 recipes.addShaped(<minecraft:pumpkin_seeds> * 4, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>, <minecraft:pumpkin>]]);
 // -
 recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolSoftHammer>, <minecraft:pumpkin>]]);
 
-//Melon Seeds
+// --- Melon Seeds
 recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:melon>, <ore:craftingToolHardHammer>, <minecraft:melon>]]);
 // -
 recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <ore:craftingToolSoftHammer>, <minecraft:melon>]]);
 
-//Melon Slices
+// --- Melon Slices
 recipes.addShapeless(<minecraft:melon> * 6, [<ore:craftingToolKnife>, <minecraft:melon_block>]);
 
-//Gunpowder
+// --- Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
-//remove Charcoal in Furnace
+// --- remove Charcoal in Furnace
 furnace.remove(<minecraft:coal:1>);
 
-//remove Sand in Furnance
+// --- remove Sand in Furnance
 furnace.remove(<minecraft:glass>);
-//Add back glass Dust to Glass
+
+// --- Add back glass Dust to Glass
 furnace.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>);
 
-//remove Iron Berrys in Furnace
+// --- remove Iron Berrys in Furnace
 furnace.remove(<TConstruct:materials:19>, <TConstruct:oreBerries>);
-//remove Gold Berrys in Furnace
+
+// --- remove Gold Berrys in Furnace
 furnace.remove(<minecraft:gold_nugget>, <TConstruct:oreBerries:1>);
-//remove Copper Berrys in Furnace
+
+// --- remove Copper Berrys in Furnace
 furnace.remove(<TConstruct:materials:20>, <TConstruct:oreBerries:2>);
-//remove Tin Berrys in Furnace
+
+// --- remove Tin Berrys in Furnace
 furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
-//remove Aluminium Berrys in Furnace
+
+// --- remove Aluminium Berrys in Furnace
 furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
-//Dough and Clay water Bucket
+// --- Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
 
-//Minecart with Chest
+// --- Minecart with Chest
 recipes.addShaped(<minecraft:chest_minecart>, [
 [HHammer, <minecraft:chest>, Wrench],
 [null, <minecraft:minecart>, null],
 [null, Screwdriver, null]]);
 
-//Minecart with Furnace
+// --- Minecart with Furnace
 recipes.addShaped(<minecraft:furnace_minecart>, [
 [HHammer, <minecraft:furnace>, Wrench],
 [null, <minecraft:minecart>, null],
 [null, Screwdriver, null]]);
 
-//Minecart with Hopper
+// --- Minecart with Hopper
 recipes.addShaped(<minecraft:hopper_minecart>, [
 [HHammer, <minecraft:hopper>, Wrench],
 [null, <minecraft:minecart>, null],
 [null, Screwdriver, null]]);
 
-//Empty Map
+// --- Empty Map
 recipes.addShaped(Map, [
 [Paper, Paper, Paper],
 [Paper, <minecraft:compass>.reuse(), Paper],
 [Paper, Paper, Paper]]);
 
-//Bone Meal
+// --- Bone Meal
 recipes.addShapeless(<minecraft:dye:15> * 3, [<minecraft:bone>, <ore:craftingToolMortar>]);
 
-//Lead
+// --- Lead
 recipes.addShaped(<minecraft:lead>, [
 [<minecraft:string>, <minecraft:string>, <minecraft:string>],
 [<minecraft:string>, <ore:slimeball>, <minecraft:string>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
-//Pumpkin Pie
+// --- Pumpkin Pie
 recipes.addShaped(<minecraft:pumpkin_pie>, [
 [<ore:craftingToolRollingPin>, <minecraft:pumpkin>, <ore:dustSugar>],
 [<minecraft:pumpkin>, <ore:dustSugar>, null],
 [<ore:dustSugar>, null, null]]);
 
-//Comparator
+// --- Comparator
 recipes.addShaped(<minecraft:comparator>, [
 [<ore:screwIron>, <ore:craftingRedstoneTorch>, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:plateNetherQuartz>, <ore:craftingRedstoneTorch>],
@@ -2300,31 +2310,31 @@ recipes.addShaped(<minecraft:comparator>, [
 [<ore:craftingRedstoneTorch>, <ore:plateQuartzite>, <ore:craftingRedstoneTorch>],
 [<minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:stone_pressure_plate>]]);
 
-//Redstone Repeater
+// --- Redstone Repeater
 recipes.addShaped(<minecraft:repeater>, [
 [<ore:screwIron>, null, <ore:screwIron>],
 [<ore:craftingRedstoneTorch>, <ore:craftingToolScrewdriver>, <ore:craftingRedstoneTorch>],
 [<minecraft:stone_pressure_plate>, <ore:stickRedAlloy>, <minecraft:stone_pressure_plate>]]);
 
-//Item Frame
+// --- Item Frame
 recipes.addShaped(<minecraft:item_frame>, [
 [String, IronRing, String],
 [<ore:stickWood>, <minecraft:leather>, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-//Bed
+// --- Bed
 recipes.addShaped(<minecraft:bed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [Fence, <ore:craftingToolSoftHammer>, Fence]]);
 
-//Fishing Rod
+// --- Fishing Rod
 recipes.addShaped(<minecraft:fishing_rod>, [
 [null, null, <ore:stickLongWood>],
 [null, <ore:stickLongWood>, <minecraft:string>],
 [<ore:stickLongWood>, <ore:craftingToolWireCutter>, <ore:ringAnyIron>]]);
 
-//Paper
+// --- Paper
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
 [<ore:dustWood>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:dustWood>],
@@ -2341,7 +2351,7 @@ recipes.remove(WoodDoor);
 // --- Iron Door
 recipes.remove(IronDoor);
 
-//Flower Pot
+// --- Flower Pot
 recipes.addShapeless(<minecraft:flower_pot>, [<ore:craftingToolFile>, <IguanaTweaksTConstruct:clayBucketFired>]);
 
 // --- Stone Slab
@@ -2446,9 +2456,20 @@ recipes.addShaped(<minecraft:flint_and_steel>, [
 [null, <minecraft:flint>, null],
 [null, <ore:springSmallSteel>, null]]);
 
+// --- Shears
+recipes.addShaped(<minecraft:shears>, [
+[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
+[<ore:craftingToolHardHammer>, <ore:ringIron>, <ore:craftingToolFile>],
+[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+
+
+
+
 // --- Assembler Recipes ---
 
-//Hay Block
+
+
+// --- Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 32);
 
 // --- Soul Sand
@@ -2491,10 +2512,10 @@ AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, 
 
 // --- Extractor Recipes ---
 
-//Blazepowder
+// --- Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
 
-//Wheat
+// --- Wheat
 Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
 
@@ -2526,9 +2547,12 @@ Mixer.addRecipe(<minecraft:soul_sand> * 4, null, <minecraft:sand:*> * 4, <minecr
 Mixer.addRecipe(<minecraft:fire_charge>, null, <minecraft:blaze_powder> * 3, <minecraft:gunpowder> * 3, <gregtech:gt.metaitem.01:2535> * 3, null, null, 400, 32);
 
 
+// --- Thaumcraft recipes ---
 
 
-//Enchanting Table Infusion
+
+
+// --- Enchanting Table Infusion
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "ARTIFICE", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", 10, 10, 12, <minecraft:enchanting_table>);
 game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
 game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "[MC] Oh, it's more magical than a Table!");
@@ -2540,7 +2564,7 @@ mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<mi
 mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
 mods.thaumcraft.Warp.addToResearch("ENCHANTINGTABLE", 2);
 
-//Brewing Stand Infusion
+// --- Brewing Stand Infusion
 mods.thaumcraft.Research.addResearch("BREWINGSTAND", "ARTIFICE", "praecantatio 200, fabrico 100, cognitio 100, perditio 100, ignis 100, terra 100, aqua 100", 8, 12, 12, <minecraft:brewing_stand>);
 game.setLocalization("en_US", "tc.research_name.BREWINGSTAND", "Brewing Stand");
 game.setLocalization("en_US", "tc.research_text.BREWINGSTAND", "[MC] Oh, it's more magical than a Cauldron!");
@@ -2556,7 +2580,7 @@ mods.thaumcraft.Infusion.addRecipe("BREWINGSTAND", <minecraft:cauldron>, [<gregt
 mods.thaumcraft.Research.addInfusionPage("BREWINGSTAND", <minecraft:brewing_stand>);
 mods.thaumcraft.Warp.addToResearch("BREWINGSTAND", 2);
 
-//Beacon Infusion
+// --- Beacon Infusion
 mods.thaumcraft.Research.addResearch("BEACON", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 10, 12, 12, <minecraft:beacon>);
 game.setLocalization("en_US", "tc.research_name.BEACON", "Beacon");
 game.setLocalization("en_US", "tc.research_text.BEACON", "[MC] Oh, it's more magical than a Diamond Block!");
@@ -2584,6 +2608,9 @@ mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
 
 // --- Add Slicer Recipes ---
 
+
 Slicer.addRecipe(<minecraft:melon> * 8, <minecraft:melon_block>, <gregtech:gt.metaitem.01:32398> * 0, 100, 8);
+
+
 
 // --- Hiding Stuff ---

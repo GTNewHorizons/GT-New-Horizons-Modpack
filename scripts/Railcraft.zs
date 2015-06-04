@@ -677,6 +677,9 @@ mods.forestry.Carpenter.removeRecipe(<Railcraft:backpack.apothecary.t2>);
 // --- Wire Support Frame
 recipes.remove(<Railcraft:frame>);
 
+// --- Steel Shears
+recipes.remove(<Railcraft:tool.steel.shears>);
+
 
 
 // --- Add Recipes ---
@@ -1358,7 +1361,19 @@ recipes.addShaped(<Railcraft:cart.tank>, [
 [null, <minecraft:minecart>, null],
 [null, Screwdriver, null]]);
 
-//Assembler Recipes
+// --- Steel Shears
+recipes.addShaped(<Railcraft:tool.steel.shears>, [
+[<ore:plateSteel>, <ore:screwSteel>, <ore:plateSteel>],
+[<ore:craftingToolHardHammer>, <ore:ringSteel>, <ore:craftingToolFile>],
+[<ore:stickWood>, <ore:craftingToolScrewdriver>, <ore:stickWood>]]);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
 
 // --- Work Cart ---
 Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
@@ -1400,7 +1415,7 @@ Assembler.addRecipe(<Railcraft:tool.signal.tuner>, <IC2:itemFreq>, ReceiverCircu
 Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <minecraft:compass>, 600, 16);
 
 
-// --- Rolling Machine ---
+// --- Rolling Machine Recipes ---
 
 
 // --- Iron Plates ---
@@ -1457,13 +1472,11 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, <
 mods.railcraft.Rolling.addShaped(<Railcraft:post:1> * 4, [[<minecraft:stone>, null, <minecraft:stone>], [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>], [<minecraft:stone>, null, <minecraft:stone>]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:post:1> * 4, [[<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>], [null, <Railcraft:part.rebar>, null], [<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>]]);
 
-
 // --- Wood Plattform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:4>, [[null, <Railcraft:slab:37>, null], [null, <Railcraft:post>, null]]);
 
 // --- Stone Platform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:5>, [[null, <Railcraft:slab:2>, null], [null, <Railcraft:post:1>, null]]);
-
 
 // --- Metal Platform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>, null], [null, <Railcraft:post:2>, null]]);

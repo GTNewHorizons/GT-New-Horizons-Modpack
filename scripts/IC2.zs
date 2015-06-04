@@ -564,6 +564,17 @@ recipes.remove(<IC2:itemArmorQuantumHelmet:*>);
 // --- Quantum Suit Leggings
 recipes.remove(<IC2:itemArmorQuantumLegs:*>);
 
+// --- Crop Sticks
+recipes.remove(<IC2:blockCrop>);
+
+// --- CF Sprayer
+recipes.remove(<IC2:itemFoamSprayer>);
+
+// --- CF Backpack
+recipes.remove(<IC2:itemArmorCFPack:*>);
+// --- Composite Vest
+recipes.remove(<IC2:itemArmorAlloyChestplate>);
+
 
 
 // --- Add Recipes ---
@@ -951,7 +962,35 @@ recipes.addShaped(<IC2:itemNightvisionGoggles:27>, [
 recipes.addShaped(<IC2:blockPersonal>, [
 [<ore:screwIron>, <ore:circuitBasic>, <ore:screwIron>],
 [<ore:craftingToolScrewdriver>, <gregtech:gt.blockcasings:1>, <ore:craftingToolHardHammer>],
-[<ore:screwIron>,  <ore:chestIron>, <ore:screwIron>]]);
+[<ore:screwIron>, <ore:chestIron>, <ore:screwIron>]]);
+
+// --- Crop Sticks
+recipes.addShaped(<IC2:blockCrop>, [
+[<ore:stickLongWood>, null, <ore:stickLongWood>],
+[<ore:stickLongWood>, <minecraft:string>, <ore:stickLongWood>]]);
+
+// --- CF Sprayer
+recipes.addShaped(<IC2:itemFoamSprayer>, [
+[<ore:pipeSmallSteel>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
+[<ore:craftingToolSaw>, <ore:pipeSmallSteel>, <IC2:itemFluidCell>],
+[<ore:screwIron>, <minecraft:stone_button>, <ore:circuitBasic>]]);
+
+// --- Composite Vest
+recipes.addShaped(<IC2:itemArmorAlloyChestplate>, [
+[<ore:plateAlloyAdvanced>, <ore:craftingToolHardHammer>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyAdvanced>, <minecraft:iron_chestplate>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyAdvanced>, <minecraft:leather_chestplate>, <ore:plateAlloyAdvanced>]]);
+// -
+recipes.addShaped(<IC2:itemArmorAlloyChestplate>, [
+[<ore:plateAlloyAdvanced>, <ore:craftingToolHardHammer>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyAdvanced>, <minecraft:leather_chestplate>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyAdvanced>, <minecraft:iron_chestplate>, <ore:plateAlloyAdvanced>]]);
+
+// --- CF Backpack
+recipes.addShaped(<IC2:itemArmorCFPack>, [
+[<IC2:itemCasing:5>, <ore:craftingToolHardHammer>, <IC2:itemCasing:5>],
+[<ore:craftingTank>, <ore:screwSteel>, <ore:craftingTank>],
+[<IC2:itemCasing:5>, <ore:craftingToolScrewdriver>, <IC2:itemCasing:5>]]);
 
 
 

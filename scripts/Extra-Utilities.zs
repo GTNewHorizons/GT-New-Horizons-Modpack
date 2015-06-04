@@ -577,16 +577,15 @@ recipes.addShaped(Paintbrush, [
 
 // --- Drum
 recipes.addShaped(Drum, [
-[AlPlate, <ore:ringSteel>, AlPlate],
-[<ore:plateDenseSteel>, <ore:pipeHugeSteel>, <ore:plateDenseSteel>],
-[AlPlate, <ore:ringSteel>, AlPlate]]);
+[SteelPlate, <ore:ringMeteoricIron>, SteelPlate],
+[SteelPlate, <ore:pipeHugeSteel>, SteelPlate],
+[SteelPlate, <ore:ringMeteoricIron>, SteelPlate]]);
 
 // --- Bedrock Drum
 recipes.addShaped(BedDrum, [
 [BedrockiumIngot, BedrockiumIngot, BedrockiumIngot],
 [BedrockiumIngot, Cauldron, BedrockiumIngot],
 [BedrockiumIngot, BedrockiumIngot, BedrockiumIngot]]);
-
 
 // --- Bedrockium Block
 ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);

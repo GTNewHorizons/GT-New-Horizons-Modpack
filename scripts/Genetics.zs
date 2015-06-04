@@ -79,7 +79,7 @@ mods.forestry.Carpenter.addRecipe(3600, <liquid:molten.redstone> * 2880,
 [<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>, 
 <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
 <gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>], 
-<gregtech:gt.metaitem.01:32740>, <Genetics:database>);
+<dreamcraft:item.Display>, <Genetics:database>);
 
 // --- Intergrated Circuit
 recipes.addShaped(<Genetics:misc:9>, [

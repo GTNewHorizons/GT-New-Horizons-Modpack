@@ -74,7 +74,7 @@ val HHammer = <ore:craftingToolHardHammer>;
 // --- Removing Recipes ---
 
 
-// ||||| Blocks |||||
+// --- Blocks ---
 
 
 // --- Industrial Apiary
@@ -111,7 +111,7 @@ recipes.remove(Replicator);
 recipes.remove(UpFrame);
 
 
-// ||||| Items |||||
+// --- Items ---
 
 
 // --- Genetics Labware
@@ -139,7 +139,7 @@ recipes.remove(EnviroProcessor);
 // --- Adding Back Recipes ---
 
 
-// ||||| Blocks |||||
+// --- Blocks ---
 
 
 // --- Industrial Apiary
@@ -147,12 +147,6 @@ recipes.addShaped(IndustrialApiary, [
 [AlvearyFan, BeeReceptacle, AlvearyHeater],
 [Alveary, SturdyCasing, Alveary],
 [AlGear, PowerModule, AlGear]]);
-
-// --- Mutagen Producer
-recipes.addShaped(MutagenProducer, [
-[TitaniumPlate, SSteelGear, TitaniumPlate],
-[PowerModule, HardCasing, PowerModule],
-[SSteelGear, MutagenTank, SSteelGear]]);
 
 // --- Mutatron
 recipes.addShaped(Mutatron, [
@@ -203,7 +197,7 @@ recipes.addShaped(Replicator, [
 [TitaniumGear, GeneticsProcessor, TitaniumGear]]);
 
 
-// ||||| Items |||||
+// --- Items ---
 
 
 // --- Genetics Labware
