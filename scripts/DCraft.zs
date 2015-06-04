@@ -6,8 +6,11 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
+import mods.gregtech.Brewery;
 import mods.ic2.Compressor;
+import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
+import mods.gregtech.Fermenter;
 import mods.gregtech.FluidSolidifier;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
@@ -625,6 +628,17 @@ AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT4>, <GalacticraftMar
 
 
 
+// --- Brewing Recipes ---
+
+
+// --- Radioactive Bacterial Sludge
+Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
+// -
+Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
+
+
+
+
 // --- Compressor Recipes
 
 
@@ -732,6 +746,14 @@ SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, null, <gregtech:gt.
 
 
 
+// --- Fermenter Recipes ---
+
+
+// --- Fermented bacterial Sludge
+Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 500, <liquid:enrichedbacterialsludge> * 750, 2400, false); 
+
+
+
 // --- Engraving Laser Recipes ---
 
 // --- Etched IV Wiring
@@ -783,6 +805,13 @@ PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01
 // --- Quantum Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:*>, 800, 512);
 
+
+
+// --- Distillation Recipes ---
+
+
+// --- Mutagen
+Distillery.addRecipe(<liquid:mutagen> * 1000, <gregtech:gt.integrated_circuit:3>, <liquid:fermentedbacterialsludge> * 750, 1200, 256, false);
 
 
 // --- Extruder Recipes
