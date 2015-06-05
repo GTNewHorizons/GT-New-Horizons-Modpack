@@ -1,17 +1,15 @@
 package com.dreammaster.main;
 
-import net.minecraftforge.common.MinecraftForge;
-
 import com.dreammaster.baubles.OvenGlove;
-import com.dreammaster.block.*;
+import com.dreammaster.block.BlockList;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
-import com.dreammaster.item.*;
+import com.dreammaster.gthandler.ItemPipes;
+import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
-
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -20,13 +18,11 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.blocks.ModBlockManager;
 import eu.usrv.yamcore.client.NotificationTickHandler;
 import eu.usrv.yamcore.creativetabs.CreativeTabsManager;
-import eu.usrv.yamcore.creativetabs.ModCreativeTab;
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.items.ModItemManager;
 
@@ -154,7 +150,8 @@ public class MainRegistry {
 	
 	@EventHandler
 	public static void PostLoad(FMLPostInitializationEvent PostEvent) {
-		
+
+		ItemPipes.registerPipes();
 	}
 	
 	/** Do some stuff once the server starts
