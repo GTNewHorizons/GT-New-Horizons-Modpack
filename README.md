@@ -1,11 +1,11 @@
-[DreamCraft]
+[NewHorizons]
 =
 
 [Gregified modpack via Modtweaker. GT, Thaumcraft, Buildcraft, Witchery, Galacticraft, BloodMagic, Forestry...]
 -
 
 
-Version 2.6.8.4 BETA is out (16.05.2015)(DC Coremod 0.4.5) (GTTweaker 0.7.0)
+Version 2.7.0.4 BETA is out (04.06.2015)(DC Coremod 0.6.2) (GTTweaker 0.7.0)
 
 
 Large Modpack with every recipe Gregified
@@ -59,12 +59,12 @@ Dedicated server located in Europe.
 Number of players: 6
 
 
-Modlist - DC 2.6.8.4
+Modlist - NH 2.7.0.4
 
 Advanced Solar Panels 3.5.1<BR>
-Anger Mod 0.4<BR>
+Anger Mod 0.5<BR>
 AppleCore 1.1.0<BR>
-Applied Energistics rv2 stable1<BR>
+Applied Energistics rv2 stable4<BR>
 Automagy 0.23<BR>
 ASFU 1.2.1.a<BR>
 AsieLib 0.4.0<BR>
