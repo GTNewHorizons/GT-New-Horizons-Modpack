@@ -10,8 +10,8 @@ public class ItemPipes {
 
     public static void registerPipes(){
 
-        GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Brass), new GT_MetaPipeEntity_Item(5605, "GT_Pipe_Brass_Tiny", "Tiny Brass Item Pipe", 0.25F, Materials.Brass, 1, 131072, false).getStackForm(1L));
-        GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Brass),new GT_MetaPipeEntity_Item(5606,"GT_Pipe_Brass_Small","Small Brass Item Pipe",0.375F,Materials.Brass, 1,65536,false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Brass), new GT_MetaPipeEntity_Item(5600, "GT_Pipe_Brass_Tiny", "Tiny Brass Item Pipe", 0.25F, Materials.Brass, 1, 131072, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Brass),new GT_MetaPipeEntity_Item(5601,"GT_Pipe_Brass_Small","Small Brass Item Pipe",0.375F,Materials.Brass, 1,65536,false).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveTiny.get(Materials.Brass), new GT_MetaPipeEntity_Item(5640, "GT_Pipe_Restrictive_Brass_Tiny", "Tiny Restrictive Brass Item Pipe", 0.25F, Materials.Brass, 1, 13107200, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveSmall.get(Materials.Brass), new GT_MetaPipeEntity_Item(5641, "GT_Pipe_Restrictive_Brass_Small", "Small Restrictive Brass Item Pipe", 0.375F, Materials.Brass, 1, 6553600, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Electrum), new GT_MetaPipeEntity_Item(5610, "GT_Pipe_Electrum_Tiny", "Tiny Electrum Item Pipe", 0.25F, Materials.Electrum, 1, 65536, false).getStackForm(1L));
