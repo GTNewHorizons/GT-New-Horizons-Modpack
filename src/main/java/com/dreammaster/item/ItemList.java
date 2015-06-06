@@ -108,6 +108,7 @@ public enum ItemList {
 	NanoScubaHelmet(new ModSimpleBaseItem("NanoScubaHelmet", ModTabList.ModGenericTab)),
 	NeutroniumItemCasing(new ModSimpleBaseItem("NeutroniumItemCasing", ModTabList.ModGenericTab)),
 	Nothing(new ModSimpleBaseItem("Nothing",  ModTabList.ModGenericTab)),
+	PistonPlate(new ModSimpleBaseItem("PistonPlate", ModTabList.ModGenericTab)),
 	OsmiumItemCasing(new ModSimpleBaseItem("OsmiumItemCasing", ModTabList.ModGenericTab)),
 	QuantinumDust(new ModSimpleBaseItem("QuantinumDust",  ModTabList.ModGenericTab)),
 	QuantinumHotIngot(new ModSimpleBaseItem("QuantinumHotIngot",  ModTabList.ModGenericTab)),
