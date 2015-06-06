@@ -572,8 +572,22 @@ recipes.remove(<IC2:itemFoamSprayer>);
 
 // --- CF Backpack
 recipes.remove(<IC2:itemArmorCFPack:*>);
+
 // --- Composite Vest
 recipes.remove(<IC2:itemArmorAlloyChestplate>);
+
+// --- Nano Saber
+recipes.remove(<IC2:itemNanoSaber:*>);
+
+// --- Obscurator
+recipes.remove(<IC2:obscurator:*>);
+
+// --- OD Scanner
+recipes.remove(<IC2:itemScanner:*>);
+
+// --- OV Scanner
+recipes.remove(<IC2:itemScannerAdv:*>);
+
 
 
 
@@ -656,11 +670,11 @@ recipes.addShaped(<IC2:blockIronScaffold>, [
 [<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
 [<ore:craftingToolWrench>, <ore:frameGtIron>, <ore:craftingToolScrewdriver>]]);
 
-// --- Mining laser
-recipes.addShaped(<IC2:itemToolMiningLaser>, [
-[<ore:lensRuby>, <IC2:reactorCoolantSix>, <ore:batteryElite>],
-[<ore:plateTitanium>, <ore:plateTitanium>, <ore:circuitAdvanced>],
-[null, <ore:plateAlloyAdvanced>, <IC2:itemRecipePart:2>]]);
+// --- Mining Laser
+recipes.addShaped(<IC2:itemToolMiningLaser:26>, [
+[<ore:plateTitanium>, <dreamcraft:item.LaserEmitter>, <ore:plateTitanium>],
+[<ore:circuitMaster>, <gregtech:gt.metaitem.01:32527>, <ore:circuitMaster>],
+[<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
 
 // --- Bat Pack
 recipes.addShaped(<IC2:itemArmorBatpack>, [
@@ -992,6 +1006,30 @@ recipes.addShaped(<IC2:itemArmorCFPack>, [
 [<ore:craftingTank>, <ore:screwSteel>, <ore:craftingTank>],
 [<IC2:itemCasing:5>, <ore:craftingToolScrewdriver>, <IC2:itemCasing:5>]]);
 
+// --- Nano Saber
+recipes.addShaped(<IC2:itemNanoSaber:27>, [
+[<ore:plateAlloyIridium>, <ore:toolHeadSwordPlatinum>, <ore:plateAlloyIridium>],
+[<ore:circuitMaster>, <ore:batteryMaster>, <ore:circuitMaster>],
+[<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
+
+// --- Obscurator
+recipes.addShaped(<IC2:obscurator:27>, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:cableGt01Gold>, <dreamcraft:item.Display>, <ore:cableGt01Gold>],
+[<IC2:itemCasing:4>, <ore:batteryAdvanced>, <IC2:itemCasing:4>]]);
+
+// --- OD Scanner
+recipes.addShaped(<IC2:itemScanner:26>, [
+[<IC2:itemCasing:3>, <ore:plateMeteoricIron>, <IC2:itemCasing:3>],
+[<ore:circuitAdvanced>, <dreamcraft:item.Display>, <ore:circuitAdvanced>],
+[<ore:cableGt01AnyCopper>, <ore:batteryAdvanced>, <ore:cableGt01AnyCopper>]]);
+
+// --- OV Scanner
+recipes.addShaped(<IC2:itemScannerAdv:26>, [
+[<IC2:itemCasing:3>, <IC2:itemScanner:*>, <IC2:itemCasing:3>],
+[<ore:circuitElite>, <dreamcraft:item.Display>, <ore:circuitElite>],
+[<ore:cableGt01Gold>, <ore:batteryElite>, <ore:cableGt01Gold>]]);
+
 
 
 
@@ -1002,9 +1040,19 @@ recipes.addShaped(<IC2:itemArmorCFPack>, [
 // --- Rubber Boots
 AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:2880> * 6, <dreamcraft:item.MoldBoots> * 0, 300, 32);
 // -
-AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:2880> * 6, <dreamcraft:item.MoldBoots> * 0, 300, 32);
-// -
 AlloySmelter.addRecipe(<IC2:itemArmorRubBoots>, <gregtech:gt.metaitem.01:17880> * 6, <dreamcraft:item.MoldBoots> * 0, 200, 32);
+
+// --- Bronze Boots
+AlloySmelter.addRecipe(<IC2:itemArmorBronzeBoots>, <gregtech:gt.metaitem.01:2300> * 4, <dreamcraft:item.MoldBoots> * 0, 200, 32);
+
+// --- Bronze Chestplate
+AlloySmelter.addRecipe(<IC2:itemArmorBronzeChestplate>, <gregtech:gt.metaitem.01:2300> * 8, <dreamcraft:item.MoldChestplate> * 0, 200, 32);
+
+// --- Bronze Helmet
+AlloySmelter.addRecipe(<IC2:itemArmorBronzeHelmet>, <gregtech:gt.metaitem.01:2300> * 5, <dreamcraft:item.MoldHelmet> * 0, 200, 32);
+
+// --- Bronze Leggings
+AlloySmelter.addRecipe(<IC2:itemArmorBronzeLegs>, <gregtech:gt.metaitem.01:2300> * 7, <dreamcraft:item.MoldLeggings> * 0, 200, 32);
 
 
 
@@ -1109,16 +1157,13 @@ AssemblerLiq.addRecipe(<IC2:upgradeModule:4>, <IC2:itemPartCircuit>, <gregtech:g
 AssemblerLiq.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17308>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Scuba Helmet
-AssemblerLiq.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <IC2:blockAlloyGlass> * 2, <liquid:glue> * 144, 500, 32);
+AssemblerLiq.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <dreamcraft:item.ReinforcedGlassLense> * 2, <liquid:glue> * 144, 500, 32);
 
 // --- Hazmat Suit
 AssemblerLiq.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:glue> * 144, 500, 32);
 
 // --- Hazmat Suit Leggings
 AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 32);
-
-// --- Rubber Boots
-AssemblerLiq.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 4, <minecraft:carpet> * 2, <liquid:glue> * 144, 500, 32);
 
 // --- 10k Coolant Cell
 AssemblerLiq.addRecipe(<IC2:reactorCoolantSimple>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 32);

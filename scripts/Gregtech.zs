@@ -2556,19 +2556,6 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
-// --- Shards Dust Blast Furnace
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2540>, <gregtech:gt.metaitem.01:2540>, 320, 100, 1200);
-// -
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <gregtech:gt.metaitem.01:2541>, 320, 100, 1200);
-// -
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <gregtech:gt.metaitem.01:2543>, 320, 100, 1200);
-// -
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>, 320, 100, 1200);
-// -
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <gregtech:gt.metaitem.01:2545>, 320, 100, 1200);
-// -
-BlastFurnace.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <gregtech:gt.metaitem.01:2544>, 320, 100, 1200);
-
 // --- Furnace
 furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:870>);
 // -

@@ -376,6 +376,12 @@ recipes.addShaped(<dreamcraft:item.Display>, [
 [<ore:circuitBasic>, <ore:cableGt01Tin>, <ore:circuitBasic>],
 [<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
+// --- Laser Emitter
+recipes.addShaped(<dreamcraft:item.LaserEmitter>, [
+[<dreamcraft:item.TitaniumItemCasing>, <ore:lensRuby>, <dreamcraft:item.TitaniumItemCasing>],
+[<IC2:reactorCoolantSix>, <gregtech:gt.metaitem.01:32682>, <IC2:reactorCoolantSix>],
+[<ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>]]);
+
 
 
 
@@ -668,11 +674,11 @@ SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressu
 SawLiq.addRecipe(<dreamcraft:item.StonePlate> * 2, null, <minecraft:stone_pressure_plate>, <liquid:lubricant> * 2, 200, 32);
 
 // --- Reinforced Glass Plate
-SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate>, null, <IC2:blockAlloyGlass>, <liquid:water> * 360, 2400, 30);
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:water> * 360, 2400, 30);
 // -
-SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate>, null, <IC2:blockAlloyGlass>, <liquid:ic2distilledwater> * 270, 2400, 30);
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:ic2distilledwater> * 270, 2400, 30);
 // -
-SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate>, null, <IC2:blockAlloyGlass>, <liquid:lubricant> * 90, 1200, 30);
+SawLiq.addRecipe(<dreamcraft:item.ReinforcedGlassPlate> * 2, null, <IC2:blockAlloyGlass>, <liquid:lubricant> * 90, 1200, 30);
 
 // --- Aluminium Item Casing
 SawLiq.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17019>, <liquid:water> * 16, 200, 32);
