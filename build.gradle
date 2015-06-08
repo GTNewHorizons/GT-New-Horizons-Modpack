@@ -24,6 +24,9 @@ archivesBaseName = "DreamCraftCoreMod"
 minecraft {
     version = "1.7.10-10.13.2.1291"
     runDir = "eclipse"
+	
+	replaceIn "src/main/java/com/dreammaster/lib/Refstrings.java"
+	replace "GRADLETOKEN_VERSION", project.version.split('-')[1]
 }
 
 dependencies {
@@ -44,16 +47,19 @@ dependencies {
 
 processResources
 {
+	def cleanVersion = project.version.split('-')[1]
     // this will ensure that this task is redone when the versions change.
-    inputs.property "version", project.version
+    inputs.property "version", cleanVersion
     inputs.property "mcversion", project.minecraft.version
 
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
                 
+				
+		
         // replace version and mcversion
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand 'version':cleanVersion, 'mcversion':project.minecraft.version
     }
         
     // copy everything else, thats not the mcmod.info
