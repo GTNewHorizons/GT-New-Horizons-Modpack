@@ -1,5 +1,7 @@
 package com.dreammaster.main;
 
+import net.minecraftforge.common.MinecraftForge;
+
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.block.BlockList;
 import com.dreammaster.command.HazardousItemsCommand;
@@ -9,7 +11,9 @@ import com.dreammaster.fluids.FluidList;
 import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
+
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -40,6 +44,7 @@ public class MainRegistry {
 	public static ModFluidManager FluidManager = null;
 	public static ModBlockManager BlockManager = null;
 	public static HazardousItemsHandler Module_HazardousItems = null; 
+	public static CustomToolTipsHandler Module_CustomToolTips = null;
 	public static CoreModConfig CoreConfig;
 	
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
@@ -87,11 +92,19 @@ public class MainRegistry {
 		
 		// ------------------------------------------------------------
 		// Init Modules
+		Logger.debug("PRELOAD Init Modules");
 		if (CoreConfig.ModHazardousItems_Enabled)
 		{
-			Logger.debug("PRELOAD Init Modules");
+		    Logger.debug("Module_HazardousItems is enabled");
 			Module_HazardousItems = new HazardousItemsHandler();
 			Module_HazardousItems.LoadConfig();
+		}
+		
+		if (CoreConfig.ModCustomToolTips_Enabled)
+		{
+		    Logger.debug("Module_HazardousItems is enabled");
+		    Module_CustomToolTips = new CustomToolTipsHandler();
+		    Module_CustomToolTips.LoadConfig();
 		}
 
 		// ------------------------------------------------------------
@@ -143,9 +156,11 @@ public class MainRegistry {
 	
 	private static void RegisterModuleEvents()
 	{
-		// Only init module if activated
 		if (CoreConfig.ModHazardousItems_Enabled)
 			FMLCommonHandler.instance().bus().register(Module_HazardousItems);
+		
+		if (CoreConfig.ModCustomToolTips_Enabled)
+		    MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
 	}
 	
 	@EventHandler

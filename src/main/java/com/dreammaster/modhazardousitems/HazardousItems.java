@@ -13,7 +13,6 @@ import java.util.List;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -147,7 +146,7 @@ public class HazardousItems {
     @XmlType
     public static class HazardousItem {
  
-    	@XmlAttribute(name = "UnlocalizedName")
+        @XmlAttribute(name = "UnlocalizedName")
         public String unlocName;
         @XmlAttribute(name = "ExactNameMatch")
         protected boolean exactMatch;
