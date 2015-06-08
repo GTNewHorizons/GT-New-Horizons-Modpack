@@ -23,6 +23,7 @@ import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.SawLiq;
+import mods.gregtech.VacuumFreezer;
 
 
 
@@ -650,7 +651,18 @@ Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> ,
 
 
 // --- Ledox Ingot
-Compressor.addRecipe(<dreamcraft:item.LedoxIngot>, <dreamcraft:item.LedoxDust> * 4);
+Compressor.addRecipe(<dreamcraft:item.LedoxIngot>, <dreamcraft:item.LedoxDust>);
+
+// --- Callisto Ice Ingot
+Compressor.addRecipe(<dreamcraft:item.CallistoIceIngot>, <dreamcraft:item.CallistoIceDust>);
+
+// --- Block of Ledox
+Compressor.addRecipe(<dreamcraft:tile.Ledox>, <dreamcraft:item.LedoxIngot> * 9);
+
+// --- Block of Cold Callisto Ice
+Compressor.addRecipe(<dreamcraft:tile.CallistoColdIce>, <dreamcraft:item.CallistoIceColdIngot> * 9);
+
+
 
 // --- Carpenters Recipes
 
@@ -750,6 +762,11 @@ SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, null, <gregtech:gt.
 // -
 SawLiq.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, null, <gregtech:gt.metaitem.01:17129>, <liquid:lubricant> * 144, 900, 256);
 
+// --- Ledox Plate
+SawLiq.addRecipe(<dreamcraft:item.LedoxPlate> * 9, null, <dreamcraft:tile.Ledox>, <liquid:ic2coolant> * 1000, 3600, 30);
+
+// --- Callisto Cold Ice Plate
+SawLiq.addRecipe(<dreamcraft:item.CallistoIcePlate> * 9, null, <dreamcraft:tile.CallistoColdIce>, <liquid:ic2coolant> * 1000, 3600, 30);
 
 
 // --- Fermenter Recipes ---
@@ -925,6 +942,12 @@ FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.met
 // --- Heavy Duty Plats Tier 4
 ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);
 
+// --- Compressed Callisto Ice Plate
+ImplosionCompressor.addRecipe(<dreamcraft:item.CallistoIceCompressedPlate>, <dreamcraft:item.CallistoIcePlate> * 3, 4);
+
+// --- Compressed Ledox Plate
+ImplosionCompressor.addRecipe(<dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.LedoxPlate> * 3, 4);
+
 
 
 
@@ -1014,6 +1037,15 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1083> * 2, <dreamcraft:item.OsmiumI
 // --- Neutronium Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.NeutroniumItemCasing>);
 
+// --- Mysterious Crystal Dust
+Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <GalaxySpace:item.ElectCrystall>);
+
+// --- Quantinum Dust
+Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <GalaxySpace:item.ElectCrystall>);
+
+// --- Mytryl Dust
+Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <GalaxySpace:item.ElectCrystall>);
+
 
 
 
@@ -1041,7 +1073,16 @@ PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate
 
 
 // --- Ledox Dust
-Pulverizer.addRecipe([<dreamcraft:item.LedoxDust> * 2, <dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxDust>], <GalaxySpace:europaledox>, [10000, 5000, 3000, 1000], 200, 32);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust> * 2, <dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxDust>], <GalaxySpace:europaledox>, [10000, 2000, 1000, 500], 200, 32);
+
+// --- Mytryl Dust
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust> * 5, <dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylDust>], <GalaxySpace:iomytryl>, [10000, 2000, 1000, 500], 200, 32);
+
+// --- Quantinum Dust
+Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumDust>], <GalaxySpace:venusquantium>, [10000, 2000, 1000, 500], 200, 32);
+
+// --- Callisto Ice Dust
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust> * 2, <dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceDust>], <GalaxySpace:callistoice>, [10000, 2000, 1000, 500], 200, 32);
 
 
 // --- Ore Dicted
@@ -1095,6 +1136,13 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldHelmet>, <liquid:ste
 
 // --- Mold Leggings
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormLeggings>, true, 100);
+
+
+// --- Vacuum Freezer Recipes ---
+
+
+// --- Callisto Cold Ingot
+VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 200);
 
 
 // --- Hiding Stuff ----

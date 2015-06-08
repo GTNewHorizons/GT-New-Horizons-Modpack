@@ -397,11 +397,11 @@ recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:7>);
 // --- Atmospheric Valve
 recipes.remove(<GalacticraftMars:item.atmosphericValve>);
 
+// --- Rocket Fins
+recipes.remove(<GalacticraftCore:item.rocketFins>);
+
 // --- Heavy Rocket Fines
-recipes.removeShaped(<GalacticraftMars:item.itemBasicAsteroids:2>, [
-[null, <GalacticraftMars:item.itemBasicAsteroids:6>, null],
-[HeavyDutyPlate, <GalacticraftMars:item.itemBasicAsteroids:6>, HeavyDutyPlate],
-[HeavyDutyPlate, null, HeavyDutyPlate]]);
+recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:2>);
 
 // --- Heavy Rocket Engine
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:1>);
@@ -709,7 +709,6 @@ recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
 [CompressedAl, <GalacticraftCore:item.canister:1>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
 
-
 //Medium Oxygen Tank
 recipes.addShaped(<GalacticraftCore:item.oxygenTankMedFull:1800>, [
 [CompressedSteel, OxygenPipe,CompressedSteel],
@@ -928,15 +927,27 @@ recipes.addShaped(<GalacticraftCore:item.engine:1>, [
 
 //Nose Cone
 recipes.addShaped(<GalacticraftCore:item.noseCone>, [
-[null, <ProjRed|Illumination:projectred.illumination.cagelamp2.inv:14>, null],
-[null, HeavyPlating, null],
+[<ore:craftingToolScrewdriver>, <ProjRed|Illumination:projectred.illumination.cagelamp2.inv:14>, <ore:craftingToolHardHammer>],
+[<ore:screwStainlessSteel>, HeavyPlating, <ore:screwStainlessSteel>],
 [HeavyPlating, HeavyPlating, HeavyPlating]]);
+
+// --- Rocket Fins
+recipes.addShaped(<GalacticraftCore:item.rocketFins>, [
+[<ore:craftingToolHardHammer>, <GalacticraftCore:item.heavyPlating>, <ore:craftingToolFile>],
+[<GalacticraftMars:item.null:3>, <GalacticraftCore:item.heavyPlating>, <GalacticraftMars:item.null:3>],
+[<GalacticraftMars:item.null:3>, <ore:craftingToolSaw>, <GalacticraftMars:item.null:3>]]);
+
+// --- Heavy Rocket Fins
+recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:2>, [
+[<ore:craftingToolHardHammer>, <GalacticraftMars:item.null:3>, <ore:craftingToolFile>],
+[HeavyDutyPlate, <GalacticraftMars:item.null:3>, HeavyDutyPlate],
+[HeavyDutyPlate, <ore:craftingToolSaw>, HeavyDutyPlate]]);
 
 //Oil Extractor
 recipes.addShaped(<GalacticraftCore:item.oilExtractor>, [
-[<ore:pipeTinySteel>, null, null],
-[null, <GalacticraftCore:item.oilCanisterPartial:1001>, CompressedBronze],
-[<minecraft:stone_button>, CompressedBronze, CompressedBronze]]);
+[<ore:pipeTinySteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
+[<ore:screwStainlessSteel>, <GalacticraftCore:item.oilCanisterPartial:1001>, CompressedBronze],
+[<ProjRed|Illumination:projectred.illumination.lightbutton:14>, CompressedBronze, CompressedBronze]]);
 
 //Buggy Wheel
 recipes.addShaped(<GalacticraftCore:item.buggymat>, [
@@ -997,8 +1008,8 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:1> , [
 
 //Heavy Nose Cone
 recipes.addShaped(<GalacticraftMars:item.heavyNoseCone>, [
-[null, <GalacticraftCore:item.noseCone>, null],
-[null, HeavyDutyPlate, null],
+[<ore:craftingToolScrewdriver>, <GalacticraftCore:item.noseCone>, <ore:craftingToolHardHammer>],
+[<ore:screwTitanium>, HeavyDutyPlate, <ore:screwTitanium>],
 [HeavyDutyPlate, HeavyDutyPlate, HeavyDutyPlate]]);
 
 //Red Core
@@ -1073,7 +1084,7 @@ Fuels.addDieselFuel(null, <GalacticraftCore:tile.crudeOilStill>, 16);
 Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_torch>, <minecraft:glowstone_dust>, 200, 16);
 
 // --- Canister
-Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 8, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
+Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 4, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
 // --- Basic Wafer
 AssemblerLiq.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.tin> * 288, 1600, 64);
@@ -1263,6 +1274,11 @@ VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, Fluid
 
 // --- Ilmenite to Ore Dict
 oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
+
+
+
+// --- Oredicted Names ---
+
 
 // --- Desh to Ore Dict
 oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);

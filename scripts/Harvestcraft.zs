@@ -311,6 +311,9 @@ recipes.addShaped(<harvestcraft:pamcandleDeco16> * 4, [
 [null, <harvestcraft:waxItem>, null],
 [<ore:dyeBlack>, <harvestcraft:waxItem>, <ore:dyeBlack>]]);
 
+// --- Water Garden
+recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>, <harvestcraft:leafygarden>, <harvestcraft:groundgarden>, <harvestcraft:herbgarden>]);
+
 
 
 // --- Ordicted Things ---
