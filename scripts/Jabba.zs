@@ -172,7 +172,7 @@ recipes.remove(VoidUp);
 
 
 
-// --- Adding Back Recipes ---
+// --- Adding Recipes ---
 
 
 // --- Better Barrel
@@ -206,7 +206,7 @@ recipes.addShaped(TuningFork, [
 [<ore:stickAnyIron>, <ore:screwAnyIron>, GTHammer]]);
 
 
-// ||||| Upgrades |||||
+// --- Upgrades ---
 
 
 // --- Structural Upgrade MK I
