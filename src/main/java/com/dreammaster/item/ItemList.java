@@ -28,6 +28,7 @@ public enum ItemList {
 	CobbleStoneRod(new ModSimpleBaseItem("CobbleStoneRod",  ModTabList.ModGenericTab)),
 	CopperWandCap(new ModSimpleBaseItem("CopperWandCap",  ModTabList.ModThaumcraftTab)),
 	Display(new ModSimpleBaseItem("Display", ModTabList.ModCircuitsTab)),
+	DiamondDrillTip(new ModSimpleBaseItem("DiamondDrillTip", ModTabList.ModCircuitsTab)),
 	ElectricBoatHull(new ModSimpleBaseItem("ElectricBoatHull",  ModTabList.ModCircuitsTab)),
 	EngineCore(new ModSimpleBaseItem("EngineCore",  ModTabList.ModCircuitsTab)),
 	EngravedEnergyChip(new ModSimpleBaseItem("EngravedEnergyChip",  ModTabList.ModCircuitsTab)),
@@ -124,6 +125,7 @@ public enum ItemList {
 	QuantumProcessorBoard(new ModSimpleBaseItem("QuantumProcessorBoard",  ModTabList.ModCircuitsTab)),
 	ReinforcedGlassPlate(new ModSimpleBaseItem("ReinforcedGlassPlate", ModTabList.ModGenericTab)),
 	ReinforcedGlassLense(new ModSimpleBaseItem("ReinforcedGlassLense", ModTabList.ModGenericTab)),
+	ReinforcedIridiumDrillTip(new ModSimpleBaseItem("ReinforcedIridiumDrillTip", ModTabList.ModCircuitsTab)),
 	SandStoneRod(new ModSimpleBaseItem("SandStoneRod",  ModTabList.ModGenericTab)),
 
 	ShapeAxeHead(new ModSimpleBaseItem("ShapeAxeHead",  ModTabList.ModShapesTab)),
