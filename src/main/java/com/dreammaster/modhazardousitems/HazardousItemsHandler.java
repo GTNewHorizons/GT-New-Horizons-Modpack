@@ -157,6 +157,7 @@ public class HazardousItemsHandler {
 			 jaxMarsh.marshal(_mHazardItemsCollection, new FileOutputStream(_mConfigFileName, false));
 
 			 _mLogger.debug("Config file written");
+			 IsConfigDirty = false;
 			 return true;
 		 } catch (Exception e) {
 			 _mLogger.error("Unable to create new HazardousItems.xml. What did you do??");
@@ -286,6 +287,7 @@ public class HazardousItemsHandler {
 			if (VerifyConfiguredDamageEffects(tNewItemCollection) && VerifyConfiguredPotionEffects(tNewItemCollection))
 			{
 				_mHazardItemsCollection = tNewItemCollection; // Configuration verified, activate now
+				IsConfigDirty = false;
 				tResult = true;
 			}
 			
