@@ -290,7 +290,7 @@ recipes.addShaped(MKXIII, [
 // --- BSpace Barrel Upgrade
 recipes.addShaped(BSpace, [
 [EnderEyePlate, Piston, EnderEyePlate],
-[Piston, EnderChest, Piston],
+[Piston, <EnderStorage:enderChest>, Piston],
 [EnderEyePlate, Piston, EnderEyePlate]]);
 
 // --- Redstone Upgrade
