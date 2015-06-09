@@ -929,6 +929,15 @@ recipes.remove(<gregtech:gt.blockmachines:495>);
 // --- Implosion Compressor
 recipes.remove(<gregtech:gt.blockmachines:1001>);
 
+// --- Iridium Dust
+recipes.remove(<gregtech:gt.metaitem.01:2084>);
+
+// --- Iridium Ingot
+recipes.remove(<gregtech:gt.metaitem.01:11084>);
+
+// --- RTG Pellets
+recipes.remove(<IC2:itemRTGPellet>);
+
 
 
 
@@ -2338,6 +2347,9 @@ AssemblerLiq.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <gregtech:gt.60k_NaK_
 
 // --- 360k NaK Cooling Cell
 AssemblerLiq.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
+
+// --- RTG Pellets
+AssemblerLiq.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 128);
 
 
 

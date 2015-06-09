@@ -588,6 +588,51 @@ recipes.remove(<IC2:itemScanner:*>);
 // --- OV Scanner
 recipes.remove(<IC2:itemScannerAdv:*>);
 
+// --- Iridium
+recipes.remove(<IC2:itemOreIridium>);
+
+// --- Plutonium
+recipes.remove(<IC2:itemPlutonium>);
+
+// --- Uranium Nuggets
+recipes.remove(<IC2:itemUran235small>);
+
+// --- Uranium 235
+recipes.remove(<IC2:itemUran235>);
+
+// --- Lathing Tool
+recipes.remove(<IC2:itemLathingTool>);
+
+// --- Wooden Turning Blank
+recipes.remove(<IC2:itemTurningBlanksWood:209715>);
+
+// --- Iron Turning Blank
+recipes.remove(<IC2:itemTurningBlanks:349525>);
+
+// --- Containment Box
+recipes.remove(<IC2:itemContainmentbox>);
+
+// --- Tool Box
+recipes.remove(<IC2:itemToolbox>);
+
+// --- Tiny Pile of Plutonium
+recipes.remove(<IC2:itemPlutoniumSmall>);
+
+// --- Mox Nuclear Fuel
+recipes.remove(<IC2:itemMOX>);
+
+// --- Enriched Uranium Nuclear Fuel
+recipes.remove(<IC2:itemUran>);
+
+// --- Electro Motor
+recipes.remove(<IC2:itemRecipePart:1>);
+
+// --- Small Power Unit
+recipes.remove(<IC2:itemRecipePart:3>);
+
+// --- Power Unit
+recipes.remove(<IC2:itemRecipePart:2>);
+
 
 
 
@@ -1030,6 +1075,35 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 [<ore:circuitElite>, <dreamcraft:item.Display>, <ore:circuitElite>],
 [<ore:cableGt01Gold>, <ore:batteryElite>, <ore:cableGt01Gold>]]);
 
+// --- Mining Drill
+recipes.addShaped(<IC2:itemToolDrill:26>, [
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillMeteoricSteel>, <ore:screwStainlessSteel>],
+[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallStainlessSteel>],
+[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:*>, <ore:plateStainlessSteel>]]);
+
+// --- Diamond Drill
+recipes.addShaped(<IC2:itemToolDDrill:26>, [
+[<ore:screwTitanium>, <dreamcraft:item.DiamondDrillTip>, <ore:screwTitanium>],
+[<ore:gearGtSmallTitanium>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTitanium>],
+[<ore:plateTitanium>, <IC2:itemBatChargeRE:*>, <ore:plateTitanium>]]);
+
+// --- Iridium Drill
+recipes.addShaped(<IC2:itemToolIridiumDrill:26>, [
+[<ore:screwTungstenSteel>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:screwTungstenSteel>],
+[<ore:gearGtSmallTungstenSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTungstenSteel>],
+[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:*>, <ore:plateTungstenSteel>]]);
+
+// --- Small Power Unit
+recipes.addShaped(<IC2:itemRecipePart:3>, [
+[<ore:cableGt01AnyCopper>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01AnyCopper>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
+
+// --- Power Unit
+recipes.addShaped(<IC2:itemRecipePart:2>, [
+[<ore:cableGt01Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01Gold>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:*>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32601>, <ore:circuitAdvanced>]]);
 
 
 
@@ -1204,6 +1278,20 @@ AssemblerLiq.addRecipe(<IC2:itemArmorQuantumHelmet:27>, <dreamcraft:item.Quantum
 
 // --- Quantum Suit Leggings
 AssemblerLiq.addRecipe(<IC2:itemArmorQuantumLegs:27>, <dreamcraft:item.QuantumPartLeggings>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 512);
+
+// --- Containment Box
+Assembler.addRecipe(<IC2:itemContainmentbox>, <minecraft:chest>, <IC2:itemCasing:6> * 8, 300, 128);
+
+// --- Tool Box
+Assembler.addRecipe(<IC2:itemToolbox>, <minecraft:chest>, <IC2:itemCasing:2> * 5, 300, 32);
+
+// --- Mox Nuclear Fuel
+AssemblerLiq.addRecipe(<IC2:itemMOX>, <IC2:itemUran238> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 400, 256);
+
+// --- Enriched Uranium Nuclear Fuel
+AssemblerLiq.addRecipe(<IC2:itemUran>, <IC2:itemUran238> * 6, <IC2:itemUran235small> * 3, <liquid:ic2coolant> * 1000, 400, 128);
+
+
 
 // --- Chemical Bath Recipes ---
 

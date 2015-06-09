@@ -383,6 +383,19 @@ recipes.addShaped(<dreamcraft:item.LaserEmitter>, [
 [<IC2:reactorCoolantSix>, <gregtech:gt.metaitem.01:32682>, <IC2:reactorCoolantSix>],
 [<ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>]]);
 
+// --- Diamond Drill Tip
+recipes.addShaped(<dreamcraft:item.DiamondDrillTip>, [
+[<ore:plateDiamond>, <ore:plateSteel>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <ore:plateSteel>, <ore:plateDiamond>],
+[<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
+
+
+// --- Iridium Reinforced Drill Tip
+recipes.addShaped(<dreamcraft:item.ReinforcedIridiumDrillTip>, [
+[<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
+[<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
+[<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
+
 
 
 
