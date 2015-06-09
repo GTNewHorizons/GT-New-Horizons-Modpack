@@ -288,42 +288,22 @@ recipes.addShaped(MKXIII, [
 [NeutroniumStick, NeutroniumPlate, NeutroniumStick]]);
 
 // --- Storage Upgrade
-Assembler.addRecipe(StorageUp, Barrel, Piston * 3, 100, 2);
-// - Alternate Recipes
-recipes.addShaped(StorageUp, [
-[IronScrew, Piston, IronScrew],
-[Piston, Barrel, Piston],
-[IronScrew, Piston, IronScrew]]);
+Assembler.addRecipe(StorageUp, Barrel, Piston, 1200, 16);
 
 // --- Storage Upgrade 3x
-Assembler.addRecipe(Storage3Up, StorageUp * 3, IronScrew, 100, 4);
-// - Alternate Recipes
-recipes.addShaped(Storage3Up, [
-[null, Piston, null],
-[StorageUp, StorageUp, StorageUp],
-[null, Piston, null]]);
+Assembler.addRecipe(Storage3Up, StorageUp * 3, IronScrew, 900, 32);
 
 // --- Storage Upgrade 9x
-Assembler.addRecipe(Storage9Up, Storage3Up * 3, Piston * 2, 100, 8);
-// - Alternate Recipes
-recipes.addShaped(Storage9Up, [
-[Piston, null, Piston],
-[Storage3Up, Storage3Up, Storage3Up],
-[Piston, null, Piston]]);
+Assembler.addRecipe(Storage9Up, Storage3Up * 3, Piston * 2, 600, 64);
 
 // --- Storage Upgrade 27x
-Assembler.addRecipe(Storage27Up, Storage9Up * 3, Piston * 4, 100, 16);
-// - Alternate Recipes
-recipes.addShaped(Storage27Up, [
-[Piston, Piston, Piston],
-[Storage9Up, Storage9Up, Storage9Up],
-[Piston, Piston, Piston]]);
+Assembler.addRecipe(Storage27Up, Storage9Up * 3, Piston * 4, 300, 128);
 
 // --- Storage Upgrade 81x
-Assembler.addRecipe(Storage81Up, Storage27Up * 3, Piston * 6, 100, 32);
+Assembler.addRecipe(Storage81Up, Storage27Up * 3, Piston * 6, 150, 256);
 
 // --- Storage Upgrade 243x
-Assembler.addRecipe(Storage243Up, Storage81Up * 3, Piston * 8, 100, 64);
+Assembler.addRecipe(Storage243Up, Storage81Up * 3, Piston * 8, 100, 512);
 
 // --- BSpace Barrel Upgrade
 recipes.addShaped(BSpace, [
