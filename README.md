@@ -5,7 +5,7 @@
 -
 
 
-Version 1.0.0.6 is out (07.06.2015)(DC Coremod 0.6.6) (GTTweaker 0.7.0)
+Version 1.0.0.6 is out (12.06.2015)(DC Coremod 0.6.9) (GTTweaker 0.7.0)
 
 
 Large Modpack with every recipe Gregified
