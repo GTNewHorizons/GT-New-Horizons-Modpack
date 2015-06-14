@@ -42,6 +42,11 @@ val HeatProofCase = <gregtech:gt.blockcasings:11>;
 val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
+var plateIron = <Railcraft:part.plate>;
+var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
+var plateAluminium = <gregtech:gt.metaitem.01:17019>;
+var shutterModule = <gregtech:gt.metaitem.01:32749>;
+
 
 
 // ---Remove Recipes ---
@@ -2302,6 +2307,11 @@ recipes.addShaped(<gregtech:gt.blockmachines:495>, [
 [<ore:cableGt01Tungsten>, <gregtech:gt.blockmachines:15>, <ore:cableGt01Tungsten>],
 [<ore:circuitMaster>, <minecraft:brewing_stand>, <ore:circuitMaster>]]);
 
+// --- Motor Machine Casing
+recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32602>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 
 
@@ -2350,6 +2360,13 @@ AssemblerLiq.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK
 
 // --- RTG Pellets
 AssemblerLiq.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 128);
+
+// --- Shutter Module
+Assembler.addRecipe(shutterModule * 2, plateIron * 2, <minecraft:iron_door> * 1, 1000, 16);
+// -
+Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, <minecraft:iron_door> * 1, 1000, 16);
+// -
+Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_door> * 1, 1000, 16);
 
 
 
