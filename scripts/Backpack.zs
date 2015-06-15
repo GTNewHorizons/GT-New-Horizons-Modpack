@@ -310,16 +310,17 @@ recipes.addShaped(WhiteBigB, [
 [SSteelRing, TannedLeather, SSteelRing]]);
 
 // --- Workbench Backpack
-recipes.addShaped(WorkB, [
-[null, SmallB, null],
-[<ore:screwSteel>, CraftingSlab, <ore:screwSteel>],
-[null, <ore:plateAluminium>, null]]);
+recipes.addShaped(WorkB,  [
+[WovenCloth, SteelRing, WovenCloth],
+[TannedLeather, WovenCloth, TannedLeather],
+[TannedLeather, CraftingSlab, TannedLeather]]);
 
 // --- Workbench Big Backpack
 recipes.addShaped(BigWorkB, [
-[null, BigB, null],
-[<ore:screwAluminium>, CraftingSlab, <ore:screwAluminium>],
-[null, <ore:plateStainlessSteel>, null]]);
+[SSteelRing, TannedLeather, SSteelRing],
+[TannedLeather, SmallB, TannedLeather],
+[SSteelRing, CraftingSlab, SSteelRing]]);
+
 
 
 

@@ -1,0 +1,148 @@
+// --- Created by DreamMasterXXL ---
+
+
+
+// --- Importing Stuff ---
+
+
+import mods.gregtech.AssemblerLiq;
+import mods.gregtech.ChemicalReactorLiq;
+
+
+
+
+
+// --- Remove Recipes ---
+
+
+
+// --- Obsidian Stick
+recipes.remove(<WR-CBE|Core:obsidianStick>);
+
+// --- Stone Bowl
+recipes.remove(<WR-CBE|Core:stoneBowl>);
+
+// --- REther Pearl
+recipes.remove(<WR-CBE|Core:retherPearl>);
+
+// --- Wireless Transceiver
+recipes.remove(<WR-CBE|Core:wirelessTransceiver>);
+
+// --- Blaze Transceiver
+recipes.remove(<WR-CBE|Core:blazeTransceiver>);
+
+// --- Receiver Dish
+recipes.remove(<WR-CBE|Core:recieverDish>);
+
+// --- Blaze Receiver Dish
+recipes.remove(<WR-CBE|Core:blazeRecieverDish>);
+
+// --- Wireless Transmitter
+recipes.remove(<WR-CBE|Logic:wirelessLogic>);
+
+// --- Wireless Receiver
+recipes.remove(<WR-CBE|Logic:wirelessLogic:1>);
+
+// --- Wireless Jammer
+recipes.remove(<WR-CBE|Logic:wirelessLogic:2>);
+
+// --- Triangulatior
+recipes.remove(<WR-CBE|Addons:triangulator>);
+
+// --- Remote
+recipes.remove(<WR-CBE|Addons:remote>);
+
+// ---Wireless Sniffer
+recipes.remove(<WR-CBE|Addons:sniffer>);
+
+// --- Wireless Map
+recipes.remove(<WR-CBE|Addons:map>);
+
+// --- Tracker
+recipes.remove(<WR-CBE|Addons:tracker>);
+
+// ---REP
+recipes.remove(<WR-CBE|Addons:rep>);
+
+// ---Private Sniffer
+recipes.remove(<WR-CBE|Addons:psniffer>);
+
+
+
+
+// --- Adding Recipes ---
+
+
+
+// --- Stone Bowl
+recipes.addShaped(<WR-CBE|Core:stoneBowl>, [
+[<ore:plateStone>, null, <ore:plateStone>],
+[<ore:plateStone>, <ore:craftingToolHardHammer>, <ore:plateStone>],
+[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>]]);
+
+// --- Remote
+recipes.addShaped(<WR-CBE|Addons:remote>, [
+[<ore:craftingToolScrewdriver>, <WR-CBE|Core:wirelessTransceiver>, <ore:craftingToolFile>],
+[<ore:circuitAdvanced>, <dreamcraft:item.Display>, <ore:circuitAdvanced>],
+[<dreamcraft:item.TungstenSteelItemCasing>, <ore:screwTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>]]);
+
+// ---Wireless Sniffer
+recipes.addShaped(<WR-CBE|Addons:sniffer>, [
+[<WR-CBE|Core:recieverDish>, <WR-CBE|Core:wirelessTransceiver>, <WR-CBE|Core:recieverDish>],
+[<dreamcraft:item.TungstenSteelItemCasing>, <ore:stickTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
+
+// ---Private Sniffer
+recipes.addShaped(<WR-CBE|Addons:psniffer>, [
+[<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:blazeTransceiver>, <WR-CBE|Core:blazeRecieverDish>],
+[<dreamcraft:item.TungstenSteelItemCasing>, <ore:stickTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
+
+
+
+
+// --- Assembler Recipes
+
+
+// --- Wireless Transceiver
+AssemblerLiq.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:23316>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+
+// --- Blaze Transceiver
+AssemblerLiq.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+
+// --- Receiver Dish
+AssemblerLiq.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
+
+// --- Blaze Receiver Dish
+AssemblerLiq.addRecipe(<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:blazeTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
+
+// --- Wireless Transmitter
+AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 250, 600, 256);
+
+// --- Wireless Receiver
+AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:recieverDish>, <liquid:ender> * 250, 600, 256);
+
+// --- Wireless Jammer
+AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic:2>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
+
+// --- Triangulatior
+AssemblerLiq.addRecipe(<WR-CBE|Addons:triangulator>, <minecraft:compass>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+
+// --- Wireless Map
+AssemblerLiq.addRecipe(<WR-CBE|Addons:map>, <WR-CBE|Addons:triangulator>, <minecraft:paper> * 8, <liquid:molten.redstone> * 144, 300, 64);
+
+// --- Tracker
+AssemblerLiq.addRecipe(<WR-CBE|Addons:tracker>, <gregtech:gt.metaitem.01:17804> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+
+// ---REP
+AssemblerLiq.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR-CBE|Core:retherPearl> * 2, <liquid:obsidian.molten> * 1440, 600, 128);
+
+
+
+
+// --- Chemical Reactor Recipes
+
+
+
+// --- REther Pearl
+ChemicalReactorLiq.addRecipe(<WR-CBE|Core:retherPearl>, null, <minecraft:ender_pearl>, <minecraft:glowstone_dust>, <liquid:molten.redalloy> * 144, 1200);

@@ -2307,11 +2307,6 @@ recipes.addShaped(<gregtech:gt.blockmachines:495>, [
 [<ore:cableGt01Tungsten>, <gregtech:gt.blockmachines:15>, <ore:cableGt01Tungsten>],
 [<ore:circuitMaster>, <minecraft:brewing_stand>, <ore:circuitMaster>]]);
 
-// --- Motor Machine Casing
-recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32602>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 
 
