@@ -5,7 +5,7 @@
 -
 
 
-Version 1.0.0.6 is out (12.06.2015)(DC Coremod 0.6.9) (GTTweaker 0.7.0)
+Version 1.0.0.6 is out (12.06.2015)(DC Coremod 0.6.9) (GTTweaker 0.7.1)
 
 
 Large Modpack with every recipe Gregified
@@ -59,13 +59,13 @@ Dedicated server located in Europe.
 Number of players: 6
 
 
-Modlist - NH 1.0.0.1
+Modlist - NH 1.0.0.6
 
 Advanced Solar Panels 3.5.1<BR>
 ASFU 1.2.1.a<BR>
 Anger Mod 0.5<BR>
 AppleCore 1.1.0<BR>
-Applied Energistics rv2 stable5<BR>
+Applied Energistics rv2 stable6<BR>
 AsieLib 0.4.1<BR>
 Automagy 0.24.2<BR>
 BackPack 2.0.1<BR>
