@@ -9,6 +9,7 @@ import eu.usrv.yamcore.items.ModSimpleBaseItem;
 public enum ItemList {
 	AluminiumItemCasing(new ModSimpleBaseItem("AluminiumItemCasing", ModTabList.ModGenericTab)),
 	AdvancedProcessorBoard(new ModSimpleBaseItem("AdvancedProcessorBoard", ModTabList.ModCircuitsTab)),
+	ArditePlate(new ModSimpleBaseItem("ArditePlate", ModTabList.ModCircuitsTab)),
 	AsteroidsStoneDust(new ModSimpleBaseItem("AsteroidsStoneDust",  ModTabList.ModGenericTab)),
 	CallistoIceDust(new ModSimpleBaseItem("CallistoIceDust",  ModTabList.ModGenericTab)),
 	CallistoIceIngot(new ModSimpleBaseItem("CallistoIceIngot",  ModTabList.ModGenericTab)),
@@ -56,6 +57,7 @@ public enum ItemList {
 	LichBone(new ModSimpleBaseItem("LichBone",  ModTabList.ModThaumcraftTab)),
 	LongObsidianRod(new ModSimpleBaseItem("LongObsidianRod",  ModTabList.ModGenericTab)),
 	LongStoneRod(new ModSimpleBaseItem("LongStoneRod",  ModTabList.ModGenericTab)),
+	ManyullynPlate(new ModSimpleBaseItem("ManyullynPlate",  ModTabList.ModGenericTab)),
 	MarsStoneDust(new ModSimpleBaseItem("MarsStoneDust",  ModTabList.ModGenericTab)),
 	MasterCircuit(new ModSimpleBaseItem("MasterCircuit",  ModTabList.ModCircuitsTab)),
 	MeteoricSteelString(new ModSimpleBaseItem("MeteoricSteelString",  ModTabList.ModGenericTab)),
