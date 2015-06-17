@@ -127,6 +127,13 @@ public enum ItemList {
 	ReinforcedGlassLense(new ModSimpleBaseItem("ReinforcedGlassLense", ModTabList.ModGenericTab)),
 	ReinforcedIridiumDrillTip(new ModSimpleBaseItem("ReinforcedIridiumDrillTip", ModTabList.ModCircuitsTab)),
 	SandStoneRod(new ModSimpleBaseItem("SandStoneRod",  ModTabList.ModGenericTab)),
+	SawBladeStone (new ModSimpleBaseItem("SawBladeStone",  ModTabList.ModGenericTab)),
+	SawBladeDiamond(new ModSimpleBaseItem("SawBladeDiamond",  ModTabList.ModGenericTab)),
+	SawBladeArdite(new ModSimpleBaseItem("SawBladeArdite",  ModTabList.ModGenericTab)),
+	SawBladeManyullyn(new ModSimpleBaseItem("SawBladeManyullyn",  ModTabList.ModGenericTab)),
+	SawBladeRuby(new ModSimpleBaseItem("SawBladeRuby",  ModTabList.ModGenericTab)),
+	SawBladeSapphire(new ModSimpleBaseItem("SawBladeSapphire",  ModTabList.ModGenericTab)),
+	SawBladePeridot(new ModSimpleBaseItem("SawBladePeridot",  ModTabList.ModGenericTab)),
 
 	ShapeAxeHead(new ModSimpleBaseItem("ShapeAxeHead",  ModTabList.ModShapesTab)),
 	ShapeBlock(new ModSimpleBaseItem("ShapeBlock",  ModTabList.ModShapesTab)),
