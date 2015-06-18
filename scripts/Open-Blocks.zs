@@ -193,6 +193,8 @@ recipes.addShaped(BlockBreaker, [
 [Stone, IronPlate, Stone],
 [DiamondGrindingHead, SSteelGear, IronPlate],
 [Stone, RedAlloyRod, Stone]]);
+// -
+recipes.addShapeless(<OpenBlocks:blockbreaker>, [<ProjRed|Expansion:projectred.expansion.machine2>]);
 
 // --- Item Dropper
 recipes.addShaped(ItemDropper, [

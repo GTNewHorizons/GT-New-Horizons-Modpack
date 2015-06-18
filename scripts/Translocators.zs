@@ -47,7 +47,7 @@ recipes.addShaped(<Translocator:translocator:1> * 2, [
 
 
 // --- Diamond Nugget
-ImplosionCompressor.addRecipe(<Translocator:diamondNugget>, <gregtech:gt.metaitem.01:500>, 1);
+ImplosionCompressor.addRecipe([<Translocator:diamondNugget> * 2, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:1500>, 2);
 
 
 

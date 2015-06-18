@@ -396,6 +396,42 @@ recipes.addShaped(<dreamcraft:item.ReinforcedIridiumDrillTip>, [
 [<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
 [<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
 
+// --- Diamond Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeDiamond>, [
+[<ore:plateDiamond>, <ore:plateDiamond>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Stone Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeStone>, [
+[<dreamcraft:item.StonePlate>, <dreamcraft:item.StonePlate>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Ardite Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeArdite>, [
+[<dreamcraft:item.ArditePlate>, <dreamcraft:item.ArditePlate>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Manyullyn Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeManyullyn>, [
+[<dreamcraft:item.ManyullynPlate>, <dreamcraft:item.ManyullynPlate>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Ruby Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeRuby>, [
+[<ore:plateRuby>, <ore:plateRuby>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Sapphire Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladeSapphire>, [
+[<ore:plateSapphire>, <ore:plateSapphire>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+// --- Peridot Saw Blade
+recipes.addShaped(<dreamcraft:item.SawBladePeridot>, [
+[<ore:platePeridot>, <ore:platePeridot>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
+
+
 
 
 
@@ -792,6 +828,8 @@ Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 500, <liquid:enrichedbac
 
 // --- Engraving Laser Recipes ---
 
+
+
 // --- Etched IV Wiring
 PrecisionLaser.addRecipe(<dreamcraft:item.EtchedInsaneVoltageWiring>, <gregtech:gt.metaitem.01:24502> * 0, <gregtech:gt.metaitem.01:29317>, 200, 1920);
 // -
@@ -891,6 +929,13 @@ Extruder.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, <gregtech:gt.metaitem
 
 // --- Neutronium Item Casing
 Extruder.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, <gregtech:gt.metaitem.01:11129>, <gregtech:gt.metaitem.01:32357> * 0, 600, 512);
+
+// --- Ardite Saw Blade
+Extruder.addRecipe(<dreamcraft:item.SawBladeArdite>, <TConstruct:materials:4> * 2, <gregtech:gt.metaitem.01:32371> * 0, 400, 128);
+
+// --- Manyullyn Saw Blade
+Extruder.addRecipe(<dreamcraft:item.SawBladeManyullyn>, <TConstruct:materials:5> * 2, <gregtech:gt.metaitem.01:32371> * 0, 600, 128);
+
 
 
 

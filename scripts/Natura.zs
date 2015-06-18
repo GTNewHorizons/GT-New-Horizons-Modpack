@@ -5,6 +5,8 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.AssemblerLiq;
+
 
 // --- Variables ---
 
@@ -216,6 +218,15 @@ oreDict.cropBarley.add(<Natura:barleyFood>);
 
 //Barley Seeds
 recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
+
+
+// --- Assembler Recipes
+
+
+
+// --- Flint and Blaze
+AssemblerLiq.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3>, <liquid:molten.blaze> * 432, 200, 64);
+
 
 
 // --- Hiding Stuff ---

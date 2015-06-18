@@ -956,7 +956,6 @@ recipes.addShaped(<gregtech:gt.blockmachines:100>, [
 [<ore:plateBronze>, <ore:craftingToolWrench>, <ore:plateBronze>],
 [<minecraft:brick_block>, <minecraft:furnace>, <minecraft:brick_block>]]);
 
-
 // --- High Pressure Steam Furnace
 recipes.addShaped(HPFurnace, [
 [SteelPipe, SteelPipe, SteelPipe],
@@ -2306,6 +2305,12 @@ recipes.addShaped(<gregtech:gt.blockmachines:495>, [
 [<minecraft:glass>, <gregtech:gt.metaitem.01:32614>, <minecraft:glass>],
 [<ore:cableGt01Tungsten>, <gregtech:gt.blockmachines:15>, <ore:cableGt01Tungsten>],
 [<ore:circuitMaster>, <minecraft:brewing_stand>, <ore:circuitMaster>]]);
+
+// --- Solar Panel
+recipes.addShapeless(<gregtech:gt.metaitem.01:32750>, [<ProjRed|Expansion:projectred.expansion.solar_panel>]);
+
+// --- Red Alloy Wire
+recipes.addShapeless(<gregtech:gt.blockmachines:2000>, [<ProjRed|Transmission:projectred.transmission.wire>]);
 
 
 

@@ -12,6 +12,7 @@ import mods.ic2.Extractor;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
+import mods.gregtech.SawLiq;
 
 
 
@@ -2151,6 +2152,26 @@ Compressor.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 4);
 
 // --- Paper Stack
 Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
+
+
+
+// --- Cutting Saw Recipes ---
+
+
+
+// --- Ardite Plate
+SawLiq.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:water> * 1000, 4800, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:ic2distilledwater> * 750, 4800, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:lubricant> * 250, 2400, 30);
+
+// --- Manyullyn Plate
+SawLiq.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:water> * 1500, 9600, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:ic2distilledwater> * 825, 9600, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:lubricant> * 375, 4800, 30);
 
 
 

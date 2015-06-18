@@ -15,20 +15,20 @@ recipes.remove(<ForgeMicroblock:stoneRod>);
 
 //Stone Saw
 recipes.addShaped(<ForgeMicroblock:sawStone>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <dreamcraft:item.LongStoneRod>, <ore:rodStone>],
+[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeStone>, <ore:rodSteel>],
 [null, null, null]]);
 
 //Iron Saw
 recipes.addShaped(<ForgeMicroblock:sawIron>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:stickLongIron>, <ore:rodStone>],
+[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:toolHeadSawIron>, <ore:rodSteel>],
 [null, null, null]]);
 
 //Diamond Saw
 recipes.addShaped(<ForgeMicroblock:sawDiamond>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:stickLongDiamond>, <ore:rodStone>],
+[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeDiamond>, <ore:rodSteel>],
 [null, null, null]]);
 
 //Stone Rod
@@ -36,7 +36,7 @@ recipes.addShaped(<ForgeMicroblock:stoneRod> * 2, [
 [<ore:stone>, null, null],
 [<ore:stone>, null, null],
 [null, null, null]]);
-
+// -
 recipes.addShaped(<ForgeMicroblock:stoneRod> * 4, [
 [<ore:craftingToolSaw>, null, null],
 [<ore:stone>, null, null],
