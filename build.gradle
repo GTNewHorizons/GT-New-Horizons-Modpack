@@ -17,9 +17,9 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-0.7.2"
+version = "1.7.10-0.7.3"
 group= "com.dreammaster" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "DreamCraftCoreMod"
+archivesBaseName = "GTNewHorizonsCoreMod"
 
 minecraft {
     version = "1.7.10-10.13.2.1291"
