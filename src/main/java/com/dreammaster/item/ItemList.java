@@ -163,6 +163,7 @@ public enum ItemList {
 	ShapeSwordBlade(new ModSimpleBaseItem("ShapeSwordBlade",  ModTabList.ModShapesTab)),
 	ShapeTinyPipe(new ModSimpleBaseItem("ShapeTinyPipe",  ModTabList.ModShapesTab)),
 	ShapeWire(new ModSimpleBaseItem("ShapeWire",  ModTabList.ModShapesTab)),
+	SimpleCircuitBoard(new ModSimpleBaseItem("SimpleCircuitBoard", ModTabList.ModCircuitsTab)),
 
 	SnowQueenBlood(new ModSimpleBaseItem("SnowQueenBlood",  ModTabList.ModThaumcraftTab)),
 	StainlessSteelItemCasing(new ModSimpleBaseItem("StainlessSteelItemCasing", ModTabList.ModGenericTab)),
