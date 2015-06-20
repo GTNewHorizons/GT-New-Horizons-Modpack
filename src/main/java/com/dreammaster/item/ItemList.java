@@ -113,6 +113,7 @@ public enum ItemList {
 	NeutroniumItemCasing(new ModSimpleBaseItem("NeutroniumItemCasing", ModTabList.ModGenericTab)),
 	Nothing(new ModSimpleBaseItem("Nothing",  ModTabList.ModGenericTab)),
 	PistonPlate(new ModSimpleBaseItem("PistonPlate", ModTabList.ModGenericTab)),
+	PotassiumHydroxideDust(new ModSimpleBaseItem("PotassiumHydroxideDust", ModTabList.ModGenericTab)),
 	OsmiumItemCasing(new ModSimpleBaseItem("OsmiumItemCasing", ModTabList.ModGenericTab)),
 	QuantinumDust(new ModSimpleBaseItem("QuantinumDust",  ModTabList.ModGenericTab)),
 	QuantinumHotIngot(new ModSimpleBaseItem("QuantinumHotIngot",  ModTabList.ModGenericTab)),
