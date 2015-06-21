@@ -315,12 +315,12 @@ recipes.addShaped(WorkB,  [
 [TannedLeather, WovenCloth, TannedLeather],
 [TannedLeather, CraftingSlab, TannedLeather]]);
 
+
 // --- Workbench Big Backpack
 recipes.addShaped(BigWorkB, [
 [SSteelRing, TannedLeather, SSteelRing],
 [TannedLeather, SmallB, TannedLeather],
 [SSteelRing, CraftingSlab, SSteelRing]]);
-
 
 
 

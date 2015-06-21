@@ -343,7 +343,7 @@ recipes.remove(<Forestry:catalogue>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 
 // --- Apiarist Pipe
-recipes.remove(<Forestry:item.PipeItemsPropolis>);
+//recipes.remove(<Forestry:item.PipeItemsPropolis>);
 
 // --- Torch
 mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);

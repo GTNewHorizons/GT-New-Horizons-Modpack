@@ -1,3 +1,358 @@
+1.0.1.5 --- 21.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Anger Mod 0.5
+	*Asie Lib 0.4.2
+	*Block Limiter 0.3
+	*Buildcraft 7.0.11
+	*Buildcraft Compat 7.0.8
+	*Computronics 1.5.4
+	*GTNew Horizons Core Mod 0.7.6 (Adding Electrotine Wire)
+	*Open Mods Lib 0.7.3.374
+	
+	
+
+--- Configs ---
+
+
+	*Disable Generic Death Message 
+	*Disable Thief AI in Special AI
+	*Make a new Oremix 14 (Nikolite, Saltpeter)
+
+	
+	
+	
+--- Scripts ---
+
+
+	*Nerfed all Project Recipes
+	*Adding Buildcraft Automation Worktable
+	*Change Curtains Recipes
+	*Adding long Rod Recipes
+	*Added Chisel Recipes for the Project Red Gem Blocks
+	*Changed Buildcraft Recipes (from Version 6 to 7)
+	*Adding Saltpeter Recipes
+	*Disable Propolis Pipe
+	*Added Compressed Nickel Plates and Battery in Galaxy Space
+	*Added Minecraft Sigs make out of all Planks and give 3
+	*Disable all Draconic Evolution Cores for now
+
+	
+	
+		
+************************************************
+
+
+
+1.0.1.4 --- 20.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Automagy 0.25
+	*Dream Craft Core Mod 0.7.2 named to GT New Horizons Core Mod 0.7.5 (Adding Nitric Acid and Potassium Hydroxide for Saltpeter production)
+	*Steves Addons 0.10.13
+	
+	
+	
+************************************************
+
+
+1.0.1.3 --- 19.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Binnie Mods 2.0pre12
+	*Coro Util 1.1.2
+	*Inventory Tweaks 1.59.156
+	*Open Security 0.1.0-29
+	
+	
+	
+************************************************
+
+
+1.0.1.2 --- 18.06.2015 ---
+
+
+--- Update Mods ---
+
+
+
+	*Biomes O Plenty 2.1.0.1338(with configs for ores)
+	*Dream Craft Core Mod 0.7.1
+	*Galaxy Space 2.1 (Now the Schematics 4 working)
+	*Gendustry 1.4.13.97 
+	*GT Tweaker 0.7.2 (now with working Chemical Reactor Liq)
+	*Mr TJP Core 1.0.9.22
+	*Nei Addons 1.12.10.33
+	*Open Mods Lib 0.7.3.372
+	*Open Security 0.1.0-28
+	*Project Red 4.7.0pre2.87
+	*Thaumic Exploration 1.1-41
+	
+	
+	
+--- New Mods ---
+
+
+	*Better Fps 1.0.0
+	*Opti Fine 1.7.10_HD_U_B7
+	
+
+	
+************************************************
+
+
+1.0.1.1 --- 17.06.2015 ---
+
+
+--- Update Mods ---
+
+
+
+	*Dream Craft Core Mod 0.7.1 (Added Swa Blades)
+	*Gendustry 1.4.13.94 (With Ocean Override Chip yea)
+	
+	
+--- New Mods ---
+
+
+	*Open Security 0.1.0-27 (Open Computer Addon)
+	*Project Blue 1.1.4 (Project Red Addon)
+	
+	
+
+--- Scripts ---
+
+
+	*Change Saws Recipes (Project Red and Tinkers Saws not working :-())
+	*Change Red alloy Wire from Project Red
+	*Added Flint and Blaze Recipes
+	*Beginning to Nerf Project Red
+		
+	
+	
+************************************************
+
+
+1.0.1.0 --- 16.06.2015 ---
+
+
+--- Update Mods ---
+
+
+
+	*Appliedenergistics2 rv2 stable 9
+	*Buildcraft 6.4.18
+	
+	
+************************************************
+
+
+1.0.0.9 --- 15.06.2015 ---
+
+
+--- Update Mods ---
+
+
+
+	*Electro Magic Tools 2.0.0V4	
+	*Galacticraft 3.0.12.344
+	*Galactic Greg 0.9_PRERELEASE_4 (only for testings)
+	*Malisis Doors 1.8.2 (Fix render Bug)
+	*Open Mods Lib 0.7.3.371
+	
+	
+	
+--- Configs ---
+
+
+	*Set Project Red ores generation to false
+	*get a config option for the Tainted Magic Ores (Have to test it)
+	
+	
+		
+--- Scripts ---
+
+
+	*Change Backpack recipes (Crafting backpack)
+	*Finished Nefing Wireless Redstone and Translocators.
+
+
+	
+
+************************************************
+
+
+1.0.0.8 --- 14.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Appliedenergistics2 rv2 stable 8
+	*Blood Arsenal 1.1-12
+	*Extra Cells 2.2.73b129
+	*Galacticraft 3.0.12.343
+	*Mr TJP Core 1.0.9.18
+	*Not Enough Items 1.0.5.111
+	*Open Blocks 1.4.3.646
+	*Project Red 4.7.0pre1.84
+	*Tainted Magic 1.1.3.7
+	
+	
+	
+--- Configs ---
+
+
+	*Change Schematics IDs from Galaxy Space
+	*Changed Oil Generation. Turn GC Oil off and BC Oil on.
+	
+	
+		
+--- Scripts ---
+
+
+
+	*Added new Galactic Craft Recipes for The Astrominer and the Orion Drive.
+	*Repair Shutter Module Recipes from Gt because of Malis Doors.
+	*Adding a lot of IC2 recipes
+
+	
+
+************************************************
+
+
+1.0.0.7 --- 13.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Extra Cells 2.2.72
+	*Tainted Magic 1.1.3.6
+	
+	
+--- Added Mods ---
+
+
+	*Electro Magic Tools 2.0.0V3	
+	
+
+************************************************
+
+
+1.0.0.6 --- 12.06.2015 --- (Server Update)
+
+
+--- Update Mods ---
+
+
+	*Binnie Mods 2.0 pre11
+	*Malisis Core 0.12.3
+	
+	
+
+--- Added Mods ---
+
+
+	*TC Nodetracker 1.1.1
+	
+
+	
+************************************************
+
+
+1.0.0.5 --- 11.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Blood Arsenal 1.1-11
+	*Industrialcraft2 2.2.736
+	*Tainted Magic 1.1.3.1
+	
+
+	
+************************************************
+
+
+1.0.0.4 --- 10.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Bd Lib 1.8.2.92
+	*Galactic Greg 0.8.3
+	*Industrialcraft2 2.2.733
+	*Open Blocks 1.4.3.645
+	*Open Mods Lib 0.7.3.369
+	*Thaumcraft Nei Plugin 1.7a
+
+	
+	
+--- Scripts ---
+
+
+
+	*Change Explosion in RF Machines to flase
+	*Add Diamond Drill Tip and Reinforced Iridium Drill Tip for IC2 Drills
+	*Add RTG Pellets
+	*Change and Add IC2 Recipes
+	
+	
+************************************************
+
+
+1.0.0.3 --- 09.06.2015 ---
+
+
+--- Update Mods ---
+
+
+	*Appliedenergistics2 rv2 stable 6
+	*Bd Lib 1.8.2.91
+	*Dream Craft Core Mod 0.6.9 (Add Diamond Drill Tip and Reinforced iridium Drill Tip for IC2 Drills)
+	*Extrautilities 1.2.6
+	*YAMCore-1.7.10-0.4
+	
+	
+--- Configs ---
+
+
+	*Change GT Asteroids Size.
+	*Added new small Ores.
+	*Disabled BOPs Ores.
+	
+	
+--- Scripts ---
+
+
+	*Disabled Railcraft Ores	
+	*Added Recipes for all new Mateials from and for Galaxy Space
+	*Changed Rocket Fins in Galacticraft
+	*Change and Update Jabba Recipes
+	
+	
+--- Quests ---
+
+
+	*New Quests
+
+	
+	
+************************************************
+
+
 1.0.0.2 --- 08.06.2015 ---
 
 	

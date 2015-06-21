@@ -8,10 +8,17 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Canner;
+import mods.gregtech.ChemicalBathLiq;
 import mods.ic2.Compressor;
 import mods.gregtech.FormingPress;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
+import mods.gregtech.Packer;
+import mods.gregtech.Unpacker;
+
+mods.chisel.Groups.addGroup("ruby"); 
+mods.chisel.Groups.addGroup("sapphire"); 
+mods.chisel.Groups.addGroup("peridot"); 
 
 
 // --- Removing Recipes ---
@@ -60,8 +67,8 @@ recipes.remove(<ProjRed|Exploration:projectred.exploration.backpack:*>);
 // --- Item Barrel
 recipes.remove(<ProjRed|Exploration:projectred.exploration.barrel>);
 
-// --- Red Alloy Wire
-recipes.remove(<ProjRed|Transmission:projectred.transmission.wire>);
+// --- Wires
+recipes.remove(<ProjRed|Transmission:projectred.transmission.wire:*>);
 
 // --- Gold Saw
 //recipes.remove(<ProjRed|Exploration:projectred.exploration.sawgold>);
@@ -182,6 +189,148 @@ furnace.remove(<ProjRed|Core:projectred.core.part:59>);
 
 // --- Electrotine Dust
 furnace.remove(<ProjRed|Core:projectred.core.part:56>);
+
+// --- Jetpack
+recipes.remove(<ProjRed|Expansion:projectred.expansion.jetpack>);
+
+// --- White Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:19>);
+
+// --- Orange Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:20>);
+
+// --- Magenta Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:21>);
+
+// --- Light Blue Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:22>);
+
+// --- Yellow Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:23>);
+
+// --- Lime Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:24>);
+
+// --- Pink Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:25>);
+
+// --- Grey Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:26>);
+
+// --- Light Grey Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:27>);
+
+// --- Cyan Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:28>);
+
+// --- Purple Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:29>);
+
+// --- Blue Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:30>);
+
+// --- Brown Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:31>);
+
+// --- Green Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:32>);
+
+// --- Red Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:33>);
+
+// --- Black Iluminator
+recipes.remove(<ProjRed|Core:projectred.core.part:34>);
+
+// --- Null Logic Routing Chip
+recipes.remove(<ProjRed|Core:projectred.core.part:44>);
+
+// --- Null Logic Upgarde Chip
+recipes.remove(<ProjRed|Core:projectred.core.part:45>);
+
+// --- LX Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:46>);
+
+// --- LY Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:47>);
+
+// --- LZ Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:48>);
+
+// --- RX Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:49>);
+
+// --- RY Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:50>);
+
+// --- RZ Upgarde
+recipes.remove(<ProjRed|Core:projectred.core.part:51>);
+
+// --- Screwdriver
+recipes.remove(<ProjRed|Core:projectred.core.screwdriver>);
+
+// --- Multimeter
+recipes.remove(<ProjRed|Core:projectred.core.wiredebugger>);
+
+// --- Data Card
+recipes.remove(<ProjRed|Core:projectred.core.datacard>);
+
+// --- Electric Screwdriver
+recipes.remove(<ProjRed|Expansion:projectred.expansion.electric_screwdriver>);
+
+// --- Item Transport Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe>);
+
+// --- Routed Junction Pipes
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:1>);
+
+// --- Routed Interface Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:2>);
+
+// --- Routed Crafting Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:3>);
+
+// --- Routed Request Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:4>);
+
+// --- Routed Extension Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:5>);
+
+// --- Routed Firewall Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:6>);
+
+// --- Pressure Tube
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:7>);
+
+// --- Pressure Resistance Tube
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:8>);
+
+// --- Item Responder Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip>);
+
+// --- Dynamic Item Responder Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:1>);
+
+// --- Item Overflow Responder Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:2>);
+
+// --- Item Terminator Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:3>);
+
+// --- Item Extraction Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:4>);
+
+// --- Item Broadcast Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:5>);
+
+// --- Item Stock Keeper Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:6>);
+
+// --- Item Crafting Chip
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:7>);
+
+// --- Router Utility
+recipes.remove(<ProjRed|Transportation:projectred.transportation.routerutil>);
+
 
 
 
@@ -334,6 +483,271 @@ recipes.addShaped(<ProjRed|Exploration:projectred.exploration.peridotleggings>, 
 [<ore:platePeridot>, <ore:craftingToolHardHammer>, <ore:platePeridot>],
 [<ore:platePeridot>, null, <ore:platePeridot>]]);
 
+// --- Null Logic Routing Chip
+recipes.addShaped(<ProjRed|Core:projectred.core.part:44>, [
+[<ore:wireGt01Gold>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>],
+[<ore:wireGt01Gold>, <ore:circuitPrimitive>, <ore:circuitPrimitive>],
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
+
+// --- RX Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:49>, [<ProjRed|Core:projectred.core.part:46>]);
+
+// --- LX Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:46>, [<ProjRed|Core:projectred.core.part:49>]);
+
+// --- RY Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:50>, [<ProjRed|Core:projectred.core.part:47>]);
+
+// --- LY Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:47>, [<ProjRed|Core:projectred.core.part:50>]);
+
+// --- RZ Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:51>, [<ProjRed|Core:projectred.core.part:48>]);
+
+// --- RZ Upgarde
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:48>, [<ProjRed|Core:projectred.core.part:51>]);
+
+// --- Screwdriver
+recipes.addShaped(<ProjRed|Core:projectred.core.screwdriver>, [
+[null, <ore:craftingToolFile>, <ore:stickSteel>],
+[<ore:stickRubber>, <ore:stickSteel>, <ore:craftingToolHardHammer>],
+[<ore:stickRubber>, <ore:stickRubber>, null]]);
+
+// --- Multimeter
+recipes.addShaped(<ProjRed|Core:projectred.core.wiredebugger>, [
+[<ore:wireGt01RedAlloy>, <ore:stickSteelMagnetic>, <ore:wireGt01RedAlloy>],
+[<IC2:itemCasing:5>, <ore:plateGlowstone>, <IC2:itemCasing:5>],
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
+
+// --- Black Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire>, <ore:plateRubber>]);
+
+// --- White Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:1>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeWhite>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:1>]);
+
+// --- Orange Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:2>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeOrange>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:2>]);
+
+// --- Magenta Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:3>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeMagenta>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:3>]);
+
+// --- Light Blue Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:4>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeLightBlue>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:4>]);
+
+// --- Yellow Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:5>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeYellow>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:5>]);
+
+// --- Lime Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:6>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeLime>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:6>]);
+
+// --- Pink Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:7>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyePink>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:7>]);
+
+// --- Gray Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:8>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeGray>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:8>]);
+
+// --- Light Gray Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:9>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeLightGray>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:9>]);
+
+// --- Cyan Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:10>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeCyan>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:10>]);
+
+// --- Purple Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:11>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyePurple>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:11>]);
+
+// --- Blue Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:12>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeBlue>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:12>]);
+
+// --- Brown Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:13>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeBrown>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:13>]);
+
+// --- Green Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:14>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeGreen>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:14>]);
+
+// --- Red Insulated Wire
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:15>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeRed>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire:15>]);
+
+// --- White Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:18>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeWhite>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:18>]);
+
+// --- Orange Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:19>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeOrange>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:19>]);
+
+// --- Magenta Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:20>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeMagenta>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:20>]);
+
+// --- Light Blue Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:21>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeLightBlue>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:21>]);
+
+// --- Yellow Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:22>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeYellow>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:22>]);
+
+// --- Lime Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:23>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeLime>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:23>]);
+
+// --- Pink Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:24>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyePink>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:24>]);
+
+// --- Gray Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:25>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeGray>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:25>]);
+
+// --- Light Gray Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:26>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeLightGray>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:26>]);
+
+// --- Cyan Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:27>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeCyan>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:27>]);
+
+// --- Purple Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:28>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyePurple>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:28>]);
+
+// --- Blue Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:29>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeBlue>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:29>]);
+
+// --- Brown Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:30>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeBrown>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:30>]);
+
+// --- Green Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:31>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeGreen>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:31>]);
+
+// --- Red Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:32>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeRed>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:32>]);
+
+// --- Black Bundled Cable
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:33>, [<ProjRed|Transmission:projectred.transmission.wire:17>, <ore:dyeBlack>]);
+// -
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:17>, [<ProjRed|Transmission:projectred.transmission.wire:33>]);
+
+// --- Item Transport Pipe
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.pipe>, [
+[null, <ore:craftingToolFile>, null],
+[<ore:stickLongIron>, <TConstruct:GlassPane>, <ore:stickLongIron>],
+[null, <ore:craftingToolSaw>, null]]);
+// -
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.pipe>, [
+[null, <ore:craftingToolFile>, null],
+[<ore:stickLongIron>, <ore:paneGlass>, <ore:stickLongIron>],
+[null, <ore:craftingToolSaw>, null]]);
+
+// --- Routed Junction Pipes
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.pipe:1> * 4, [
+[<ProjRed|Transportation:projectred.transportation.pipe>, <ProjRed|Core:projectred.core.part:13>, <ProjRed|Transportation:projectred.transportation.pipe>],
+[<ProjRed|Core:projectred.core.part:33>, <ore:plateDiamond>, <ProjRed|Core:projectred.core.part:32>],
+[<ProjRed|Transportation:projectred.transportation.pipe>, <ProjRed|Core:projectred.core.part:13>, <ProjRed|Transportation:projectred.transportation.pipe>]]);
+
+// --- Item Responder Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip>, [
+[<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:20>],
+[<ore:plateCopper>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:20>]]);
+
+// --- Dynamic Item Responder Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:1>, [
+[<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>],
+[<ore:plateBronze>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:20>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>]]);
+
+// --- Item Overflow Responder Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:2>, [
+[<ProjRed|Core:projectred.core.part:32>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:32>],
+[<ore:plateIron>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:32>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:32>]]);
+
+// --- Item Terminator Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:3>, [
+[<ProjRed|Core:projectred.core.part:29>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:26>],
+[<ore:plateTin>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:29>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:26>]]);
+
+// --- Item Extraction Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:4>, [
+[<ProjRed|Core:projectred.core.part:28>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>],
+[<ore:plateSteel>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:28>, <ore:wireGt01RedAlloy>, <ProjRed|Core:projectred.core.part:28>]]);
+
+// --- Item Broadcast Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:5>, [
+[<ProjRed|Core:projectred.core.part:21>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:21>],
+[<ore:plateGold>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ProjRed|Core:projectred.core.part:21>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:21>]]);
+
+// --- Item Stock Keeper Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:6>, [
+[<ProjRed|Core:projectred.core.part:30>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:30>],
+[<ore:plateDiamond>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ProjRed|Core:projectred.core.part:30>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:30>]]);
+
+// --- Item Crafting Chip
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:7>, [
+[<ProjRed|Core:projectred.core.part:24>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:24>],
+[<ore:plateGlowstone>, <ProjRed|Core:projectred.core.part:44>, <ore:circuitGood>],
+[<ProjRed|Core:projectred.core.part:24>, <ore:wireGt02RedAlloy>, <ProjRed|Core:projectred.core.part:24>]]);
+
+// --- Router Utility
+recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>, [
+[<ore:wireGt01RedAlloy>, <IC2:itemCasing:5>, <ore:wireGt01RedAlloy>],
+[<ore:circuitGood>, <ore:plateEmerald>, <ore:circuitGood>],
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 12000 as long}), <IC2:itemCasing:5>]]);
+
 
 
 // --- Assembler Recipes ---
@@ -363,6 +777,53 @@ Assembler.addRecipe(<ProjRed|Core:projectred.core.part:6> ,<ProjRed|Core:project
 // --- Platformed Plate
 Assembler.addRecipe(<ProjRed|Core:projectred.core.part:9>, <ProjRed|Core:projectred.core.part:2> * 4, <gregtech:gt.metaitem.01:23874> * 4, 300, 64);
 
+// --- Null Logic Upgarde Chip
+AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:45>, <ProjRed|Core:projectred.core.part:1>, <gregtech:gt.metaitem.01:32700>, <liquid:molten.redalloy> * 144, 600, 8);
+
+// --- LX Upgarde
+AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:46>, <ProjRed|Core:projectred.core.part:45>, <gregtech:gt.blockmachines:1420> * 2, <liquid:molten.redalloy> * 144, 500, 16);
+
+// --- LY Upgarde
+AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redalloy> * 144, 400, 24);
+
+// --- LZ Upgarde
+AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redalloy> * 144, 300, 32);
+
+// --- Data Card
+AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.datacard>, <gregtech:gt.metaitem.01:20879>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.redalloy> * 144, 200, 16);
+
+// --- Electric Screwdriver
+Assembler.addRecipe(<ProjRed|Expansion:projectred.expansion.electric_screwdriver>, <ProjRed|Core:projectred.core.screwdriver>, <ProjRed|Expansion:projectred.expansion.battery>, 100, 16);
+
+// --- Bundled  Cable
+Assembler.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:17>, <ProjRed|Transmission:projectred.transmission.wire> * 5, <gregtech:gt.metaitem.01:17880> * 5, 300, 32);
+
+// --- Item Transport Pipe
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <TConstruct:GlassPane>, <gregtech:gt.metaitem.02:22032> * 2, 100, 32);
+// -
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <minecraft:glass_pane>, <gregtech:gt.metaitem.02:22032> * 2, 100, 32);
+
+// --- Routed Interface Pipe
+AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:2>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17086> * 4, <liquid:molten.redstone> * 576, 400, 32);
+
+// --- Routed Crafting Pipe
+AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:3>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17811> * 2, <liquid:molten.redstone> * 864, 400, 32);
+
+// --- Routed Request Pipe
+AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:4>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17500> * 2, <liquid:molten.redstone> * 864, 400, 32);
+
+// --- Routed Extension Pipe
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:5>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17810> * 4, 400, 32);
+
+// --- Routed Firewall Pipe
+AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <minecraft:magma_cream> * 4, <liquid:lava> * 4000, 400, 32);
+
+// --- Pressure Tube
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <ProjRed|Transportation:projectred.transportation.pipe>, <Railcraft:part.plate>, 200, 32);
+
+// --- Pressure Resistance Tube
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <Railcraft:part.plate:1>, 300, 32);
+
 
 
 
@@ -371,6 +832,105 @@ Assembler.addRecipe(<ProjRed|Core:projectred.core.part:9>, <ProjRed|Core:project
 
 // --- Battery 
 Canner.addRecipe(<ProjRed|Expansion:projectred.expansion.emptybattery>, <ProjRed|Core:projectred.core.part:56> * 6, <gregtech:gt.metaitem.01:32500>, 100, 2);
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+
+// --- Red Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:15> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 2);
+
+// --- Green Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:14> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 2);
+
+// --- Brown Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:13> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 2);
+
+// --- Blue Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:12> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 2);
+
+// --- Purple Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:11> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 2);
+
+// --- Cyan Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:10> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 2);
+
+// --- Light Grey Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:9> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 2);
+
+// --- Dark Grey Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:8> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 2);
+
+// --- Pink Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:7> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 2);
+
+// --- Lime Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:6> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 2);
+
+// --- Yellow Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:5> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 2);
+
+// --- Light Blue Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:4> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 2);
+
+// --- Magenta Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:3> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 2);
+
+// --- Orange Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:2> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 2);
+
+// --- White Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:1> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 2);
+
+// --- Black Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:33> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblack> * 288, 10000, 0, 0, 200, 2);
+
+// --- Red Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:32> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyered> * 288, 10000, 0, 0, 200, 2);
+
+// --- Green Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:31> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegreen> * 288, 10000, 0, 0, 200, 2);
+
+// --- Brown Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:30> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyebrown> * 288, 10000, 0, 0, 200, 2);
+
+// --- Blue Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:29> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblue> * 288, 10000, 0, 0, 200, 2);
+
+// --- Purple Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:28> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepurple> * 288, 10000, 0, 0, 200, 2);
+
+// --- Cyan Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:27> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyecyan> * 288, 10000, 0, 0, 200, 2);
+
+// --- Light Grey Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:26> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightgray> * 288, 10000, 0, 0, 200, 2);
+
+// --- Dark Grey Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:25> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegray> * 288, 10000, 0, 0, 200, 2);
+
+// --- Pink Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:24> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepink> * 288, 10000, 0, 0, 200, 2);
+
+// --- Lime Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:23> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelime> * 288, 10000, 0, 0, 200, 2);
+
+// --- Yellow Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:22> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeyellow> * 288, 10000, 0, 0, 200, 2);
+
+// --- Light Blue Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:21> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightblue> * 288, 10000, 0, 0, 200, 2);
+
+// --- Magenta Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:20> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyemagenta> * 288, 10000, 0, 0, 200, 2);
+
+// --- Orange Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:19> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeorange> * 288, 10000, 0, 0, 200, 2);
+
+// --- White Insulated Wire
+ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:18> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyewhite> * 288, 10000, 0, 0, 200, 2);
 
 
 
@@ -391,7 +951,7 @@ Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:proje
 
 
 // --- Circuit Plate
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part>, <OpenComputers:item:31>, <gregtech:gt.metaitem.01:32700>, 100, 16);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part>, <minecraft:stone_pressure_plate>, <dreamcraft:item.SimpleCircuitBoard>, 100, 16);
 
 // --- Silicon Ship
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 300, 64);
@@ -437,3 +997,124 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, null, <minecraft:iron_in
 
 // --- Electrotine Dust
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 2, null, <gregtech:gt.metaitem.01:2303>, <minecraft:redstone>, null, null, null, 300, 8);
+
+// --- White Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:8> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:23> * 2, null, null, null, 50, 8);
+
+// --- Orange Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:14> * 2, null, null, null, 50, 8);
+
+// --- Magenta Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:13> * 2, null, null, null, 50, 8);
+
+// --- Light Blue Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:12> * 2, null, null, null, 50, 8);
+
+// --- Yellow Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:11> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:20> * 2, null, null, null, 50, 8);
+
+// --- Lime Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:10> * 2, null, null, null, 50, 8);
+
+// --- Pink Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:9> * 2, null, null, null, 50, 8);
+
+// --- Grey Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:8> * 2, null, null, null, 50, 8);
+
+// --- Light Grey Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:7> * 2, null, null, null, 50, 8);
+
+// --- Cyan Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:6> * 2, null, null, null, 50, 8);
+
+// --- Purple Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:5> * 2, null, null, null, 50, 8);
+
+// --- Blue Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:4> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:5> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:21> * 2, null, null, null, 50, 8);
+
+// --- Brown Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:6> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:25> * 2, null, null, null, 50, 8);
+
+// --- Green Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:2> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:7> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:22> * 2, null, null, null, 50, 8);
+
+// --- Red Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:1> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:19> * 2, null, null, null, 50, 8);
+
+// --- Black Iluminator
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:9> * 2, null, null, null, 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:24> * 2, null, null, null, 50, 8);
+
+
+
+// --- Packer Recipes
+
+
+// --- Black Insulated Wire
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:16>, <ProjRed|Transmission:projectred.transmission.wire>, <gregtech:gt.metaitem.01:17880>, 100, 8);
+
+// --- Low Load Power Line
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:34>, <dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:17880>, 100, 8);
+
+
+
+// --- Unpacker Recipes
+
+
+
+// --- Alloy Wire
+Unpacker.addRecipe(<ProjRed|Transmission:projectred.transmission.wire>, <gregtech:gt.metaitem.01:17880>, <ProjRed|Transmission:projectred.transmission.wire:16>, 100, 8);
+
+// --- Electrotine Wire
+Unpacker.addRecipe(<dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:17880>, <ProjRed|Transmission:projectred.transmission.wire:34>, 100, 8);
+
+
+
+
+
+// --- Chisel Variations
+
+
+// --- Ruby
+mods.chisel.Groups.addVariation("ruby", <BiomesOPlenty:gemOre:3>);
+// -
+mods.chisel.Groups.addVariation("ruby", <GemBlocksForGreg:rubyBlock>);
+// -
+mods.chisel.Groups.addVariation("ruby", <ProjRed|Exploration:projectred.exploration.stone:5>);
+
+// --- Sapphire
+mods.chisel.Groups.addVariation("sapphire", <BiomesOPlenty:gemOre:13>);
+// -
+mods.chisel.Groups.addVariation("sapphire", <GemBlocksForGreg:sapphireBlock>);
+// -
+mods.chisel.Groups.addVariation("sapphire", <ProjRed|Exploration:projectred.exploration.stone:6>);
+
+// --- Peridot
+mods.chisel.Groups.addVariation("peridot", <BiomesOPlenty:gemOre:5>);
+// -
+mods.chisel.Groups.addVariation("peridot", <GemBlocksForGreg:olivineBlock>);
+// -
+mods.chisel.Groups.addVariation("peridot", <ProjRed|Exploration:projectred.exploration.stone:7>);

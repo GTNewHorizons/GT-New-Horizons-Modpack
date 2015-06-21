@@ -45,6 +45,9 @@ recipes.remove(<GalaxySpace:item.Lead_leg>);
 // --- Sulfur Battery
 recipes.remove(<GalaxySpace:item.SulfurBattery:*>);
 
+// --- Nickel Battery
+recipes.remove(<GalaxySpace:item.NickelBattery:*>);
+
 // --- Tier 2 Rocket Engine
 recipes.remove(<GalaxySpace:item.AcceleratorTier2>);
 
@@ -161,6 +164,9 @@ oreDict.oreAluminium.add(<GalaxySpace:phobosorealum>);
 // --- Sulfur Battery
 AssemblerLiq.addRecipe(<GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:item.battery:*>, <gregtech:gt.integrated_circuit:1>, <liquid:sulfuricacid> * 1000, 100, 128);
 
+// --- Nickel Battery
+AssemblerLiq.addRecipe(<GalaxySpace:item.NickelBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.NickelComIngot>, <liquid:molten.glowstone> * 288, 200, 128);
+
 // --- Compressed Icy Ingot (Plate T 4)
 AssemblerLiq.addRecipe(<GalaxySpace:item.ComIceIgnot> * 2, <dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.CallistoIceCompressedPlate>, <liquid:ic2coolant> * 1000, 600, 512);
 
@@ -183,6 +189,9 @@ Compressor.addRecipe(<GalaxySpace:europaglowstone>, <GalaxySpace:item.BlueCrysta
 
 // --- Compressed Lead Plates
 ImplosionCompressor.addRecipe([<GalaxySpace:item.LeadCom>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19089>, 4);
+
+// --- Compressed Nickel Plates
+ImplosionCompressor.addRecipe([<GalaxySpace:item.NickelComIngot>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19034>, 4);
 
 
 

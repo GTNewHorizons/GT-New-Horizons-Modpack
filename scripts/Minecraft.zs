@@ -2430,9 +2430,154 @@ recipes.addShaped(IronDoor, [
 [IronPlate, IronPlate, HHammer]]);
 
 //Sign
-recipes.addShaped(<minecraft:sign>, [
+recipes.addShaped(<minecraft:sign> * 3, [
 [<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
 [<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32471>, <gregtech:gt.metaitem.02:32471>, <gregtech:gt.metaitem.02:32471>],
+[<gregtech:gt.metaitem.02:32471>, <gregtech:gt.metaitem.02:32471>, <gregtech:gt.metaitem.02:32471>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32472>, <gregtech:gt.metaitem.02:32472>, <gregtech:gt.metaitem.02:32472>],
+[<gregtech:gt.metaitem.02:32472>, <gregtech:gt.metaitem.02:32472>, <gregtech:gt.metaitem.02:32472>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32473>, <gregtech:gt.metaitem.02:32473>, <gregtech:gt.metaitem.02:32473>],
+[<gregtech:gt.metaitem.02:32473>, <gregtech:gt.metaitem.02:32473>, <gregtech:gt.metaitem.02:32473>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32474>, <gregtech:gt.metaitem.02:32474>, <gregtech:gt.metaitem.02:32474>],
+[<gregtech:gt.metaitem.02:32474>, <gregtech:gt.metaitem.02:32474>, <gregtech:gt.metaitem.02:32474>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32475>, <gregtech:gt.metaitem.02:32475>, <gregtech:gt.metaitem.02:32475>],
+[<gregtech:gt.metaitem.02:32475>, <gregtech:gt.metaitem.02:32475>, <gregtech:gt.metaitem.02:32475>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32476>, <gregtech:gt.metaitem.02:32476>, <gregtech:gt.metaitem.02:32476>],
+[<gregtech:gt.metaitem.02:32476>, <gregtech:gt.metaitem.02:32476>, <gregtech:gt.metaitem.02:32476>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32477>, <gregtech:gt.metaitem.02:32477>, <gregtech:gt.metaitem.02:32477>],
+[<gregtech:gt.metaitem.02:32477>, <gregtech:gt.metaitem.02:32477>, <gregtech:gt.metaitem.02:32477>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32478>, <gregtech:gt.metaitem.02:32478>, <gregtech:gt.metaitem.02:32478>],
+[<gregtech:gt.metaitem.02:32478>, <gregtech:gt.metaitem.02:32478>, <gregtech:gt.metaitem.02:32478>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32479>, <gregtech:gt.metaitem.02:32479>, <gregtech:gt.metaitem.02:32479>],
+[<gregtech:gt.metaitem.02:32479>, <gregtech:gt.metaitem.02:32479>, <gregtech:gt.metaitem.02:32479>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32480>, <gregtech:gt.metaitem.02:32480>, <gregtech:gt.metaitem.02:32480>],
+[<gregtech:gt.metaitem.02:32480>, <gregtech:gt.metaitem.02:32480>, <gregtech:gt.metaitem.02:32480>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32481>, <gregtech:gt.metaitem.02:32481>, <gregtech:gt.metaitem.02:32481>],
+[<gregtech:gt.metaitem.02:32481>, <gregtech:gt.metaitem.02:32481>, <gregtech:gt.metaitem.02:32481>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32482>, <gregtech:gt.metaitem.02:32482>, <gregtech:gt.metaitem.02:32482>],
+[<gregtech:gt.metaitem.02:32482>, <gregtech:gt.metaitem.02:32482>, <gregtech:gt.metaitem.02:32482>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32483>, <gregtech:gt.metaitem.02:32483>, <gregtech:gt.metaitem.02:32483>],
+[<gregtech:gt.metaitem.02:32483>, <gregtech:gt.metaitem.02:32483>, <gregtech:gt.metaitem.02:32483>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32484>, <gregtech:gt.metaitem.02:32484>, <gregtech:gt.metaitem.02:32484>],
+[<gregtech:gt.metaitem.02:32484>, <gregtech:gt.metaitem.02:32484>, <gregtech:gt.metaitem.02:32484>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32485>, <gregtech:gt.metaitem.02:32485>, <gregtech:gt.metaitem.02:32485>],
+[<gregtech:gt.metaitem.02:32485>, <gregtech:gt.metaitem.02:32485>, <gregtech:gt.metaitem.02:32485>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32486>, <gregtech:gt.metaitem.02:32486>, <gregtech:gt.metaitem.02:32486>],
+[<gregtech:gt.metaitem.02:32486>, <gregtech:gt.metaitem.02:32486>, <gregtech:gt.metaitem.02:32486>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32487>, <gregtech:gt.metaitem.02:32487>, <gregtech:gt.metaitem.02:32487>],
+[<gregtech:gt.metaitem.02:32487>, <gregtech:gt.metaitem.02:32487>, <gregtech:gt.metaitem.02:32487>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32488>, <gregtech:gt.metaitem.02:32488>, <gregtech:gt.metaitem.02:32488>],
+[<gregtech:gt.metaitem.02:32488>, <gregtech:gt.metaitem.02:32488>, <gregtech:gt.metaitem.02:32488>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32489>, <gregtech:gt.metaitem.02:32489>, <gregtech:gt.metaitem.02:32489>],
+[<gregtech:gt.metaitem.02:32489>, <gregtech:gt.metaitem.02:32489>, <gregtech:gt.metaitem.02:32489>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32490>, <gregtech:gt.metaitem.02:32490>, <gregtech:gt.metaitem.02:32490>],
+[<gregtech:gt.metaitem.02:32490>, <gregtech:gt.metaitem.02:32490>, <gregtech:gt.metaitem.02:32490>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32491>, <gregtech:gt.metaitem.02:32491>, <gregtech:gt.metaitem.02:32491>],
+[<gregtech:gt.metaitem.02:32491>, <gregtech:gt.metaitem.02:32491>, <gregtech:gt.metaitem.02:32491>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32492>, <gregtech:gt.metaitem.02:32492>, <gregtech:gt.metaitem.02:32492>],
+[<gregtech:gt.metaitem.02:32492>, <gregtech:gt.metaitem.02:32492>, <gregtech:gt.metaitem.02:32492>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32493>, <gregtech:gt.metaitem.02:32493>, <gregtech:gt.metaitem.02:32493>],
+[<gregtech:gt.metaitem.02:32493>, <gregtech:gt.metaitem.02:32493>, <gregtech:gt.metaitem.02:32493>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32494>, <gregtech:gt.metaitem.02:32494>, <gregtech:gt.metaitem.02:32494>],
+[<gregtech:gt.metaitem.02:32494>, <gregtech:gt.metaitem.02:32494>, <gregtech:gt.metaitem.02:32494>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32495>, <gregtech:gt.metaitem.02:32495>, <gregtech:gt.metaitem.02:32495>],
+[<gregtech:gt.metaitem.02:32495>, <gregtech:gt.metaitem.02:32495>, <gregtech:gt.metaitem.02:32495>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32496>, <gregtech:gt.metaitem.02:32496>, <gregtech:gt.metaitem.02:32496>],
+[<gregtech:gt.metaitem.02:32496>, <gregtech:gt.metaitem.02:32496>, <gregtech:gt.metaitem.02:32496>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32497>, <gregtech:gt.metaitem.02:32497>, <gregtech:gt.metaitem.02:32497>],
+[<gregtech:gt.metaitem.02:32497>, <gregtech:gt.metaitem.02:32497>, <gregtech:gt.metaitem.02:32497>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32498>, <gregtech:gt.metaitem.02:32498>, <gregtech:gt.metaitem.02:32498>],
+[<gregtech:gt.metaitem.02:32498>, <gregtech:gt.metaitem.02:32498>, <gregtech:gt.metaitem.02:32498>],
+[null, Stick, null]]);
+// -
+recipes.addShaped(<minecraft:sign> * 3, [
+[<gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>],
+[<gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>],
 [null, Stick, null]]);
 
 //Boat

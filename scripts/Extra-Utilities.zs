@@ -434,9 +434,9 @@ recipes.addShaped(MagicalWood * 4, [
 
 // --- Blackout Curtains
 recipes.addShaped(<ExtraUtilities:curtains> * 2, [
-[AnyWool, AnyWool, null],
-[AnyWool, AnyWool, null],
-[AnyWool, AnyWool, null]]);
+[<minecraft:carpet:15>, <minecraft:carpet:15>, null],
+[<minecraft:carpet:15>, <minecraft:carpet:15>, null],
+[<minecraft:carpet:15>, <minecraft:carpet:15>, null]]);
 
 // --- Redstone Clock
 recipes.addShaped(RSClock, [

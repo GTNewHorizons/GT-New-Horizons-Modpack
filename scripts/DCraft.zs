@@ -7,6 +7,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Brewery;
+import mods.gregtech.ChemicalReactorLiq;
 import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
@@ -24,6 +25,7 @@ import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.SawLiq;
 import mods.gregtech.VacuumFreezer;
+import mods.gregtech.Wiremill;
 
 
 
@@ -684,6 +686,7 @@ AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT4>, <GalacticraftMar
 
 
 
+
 // --- Brewing Recipes ---
 
 
@@ -722,6 +725,18 @@ null, <gregtech:gt.metaitem.01:17526>, null,
 null, <minecraft:piston>, null, 
 null, null, null], 
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
+
+
+
+// --- Chemical Reactor Recipes ---
+
+
+
+// --- Potassium Hydroxide
+ChemicalReactorLiq.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, null, <liquid:water> * 3000, 1200);
+
+// --- Nitric Acid
+ChemicalReactorLiq.addRecipe(<IC2:itemCellEmpty> * 7, <liquid:nitricacid> * 10000, <gregtech:gt.metaitem.01:30717> * 6, <gregtech:gt.metaitem.01:30013>, <liquid:water> * 3000, 200);
 
 
 // --- Cutting Saw Recipes ---
@@ -829,6 +844,17 @@ Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 500, <liquid:enrichedbac
 // --- Engraving Laser Recipes ---
 
 
+
+// --- Etched LV Wiring
+PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLowVoltageWiring>, <gregtech:gt.metaitem.01:24502> * 0, <gregtech:gt.metaitem.01:29057>, 60, 8);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLowVoltageWiring>, <gregtech:gt.metaitem.01:24511> * 0, <gregtech:gt.metaitem.01:29057>, 60, 8);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLowVoltageWiring>, <gregtech:gt.metaitem.01:24512> * 0, <gregtech:gt.metaitem.01:29057>, 60, 8);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLowVoltageWiring>, <gregtech:gt.metaitem.01:24527> * 0, <gregtech:gt.metaitem.01:29057>, 60, 8);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLowVoltageWiring>, <gregtech:gt.metaitem.01:24541> * 0, <gregtech:gt.metaitem.01:29057>, 60, 8);
 
 // --- Etched IV Wiring
 PrecisionLaser.addRecipe(<dreamcraft:item.EtchedInsaneVoltageWiring>, <gregtech:gt.metaitem.01:24502> * 0, <gregtech:gt.metaitem.01:29317>, 200, 1920);
@@ -990,6 +1016,9 @@ FormingPress.addRecipe(<dreamcraft:item.NanoProcessorBoard>, <gregtech:gt.metait
 
 // --- Quantum Processor Board
 FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 8, <dreamcraft:item.EtchedLudicrousVoltageWiring> * 8, 400, 4096);
+
+// --- Simple Circuit Board
+FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);
 
 
 
@@ -1201,6 +1230,15 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 
 // --- Callisto Cold Ingot
 VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 200);
+
+
+
+// --- Wiremill Recipes
+
+
+
+// --- Electrotine Wire
+Wiremill.addRecipe(<dreamcraft:item.ElectrotineWire> * 2, <ProjRed|Core:projectred.core.part:55>, 100, 4);
 
 
 // --- Hiding Stuff ----

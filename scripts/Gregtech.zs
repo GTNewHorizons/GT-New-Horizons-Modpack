@@ -9,6 +9,7 @@ import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ChemicalReactorLiq;
 import mods.gregtech.ForgeHammer;
 import mods.ic2.Canner;
 import mods.ic2.Compressor;
@@ -942,6 +943,9 @@ recipes.remove(<gregtech:gt.metaitem.01:11084>);
 
 // --- RTG Pellets
 recipes.remove(<IC2:itemRTGPellet>);
+
+// --- Saltpeter
+recipes.remove(<gregtech:gt.metaitem.01:2836>);
 
 
 
@@ -2306,11 +2310,38 @@ recipes.addShaped(<gregtech:gt.blockmachines:495>, [
 [<ore:cableGt01Tungsten>, <gregtech:gt.blockmachines:15>, <ore:cableGt01Tungsten>],
 [<ore:circuitMaster>, <minecraft:brewing_stand>, <ore:circuitMaster>]]);
 
+// --- Motor Machine Casing
+recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32602>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
 // --- Solar Panel
 recipes.addShapeless(<gregtech:gt.metaitem.01:32750>, [<ProjRed|Expansion:projectred.expansion.solar_panel>]);
 
 // --- Red Alloy Wire
 recipes.addShapeless(<gregtech:gt.blockmachines:2000>, [<ProjRed|Transmission:projectred.transmission.wire>]);
+
+// --- Long Rubber Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22880>, [[<ore:stickRubber>, <ore:craftingToolHardHammer>, <ore:stickRubber>]]);
+
+// --- Long Apatite Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22530>, [[<ore:stickApatite>, <ore:craftingToolHardHammer>, <ore:stickApatite>]]);
+
+// --- Long Lapis Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22526>, [[<ore:stickLapis>, <ore:craftingToolHardHammer>, <ore:stickLapis>]]);
+
+// --- Long Lazurite Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22524>, [[<ore:stickLazurite>, <ore:craftingToolHardHammer>, <ore:stickLazurite>]]);
+
+// --- Long Sodalite Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22525>, [[<ore:stickSodalite>, <ore:craftingToolHardHammer>, <ore:stickSodalite>]]);
+
+// --- Long Enderpearl Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22532>, [[<ore:stickEnderPearl>, <ore:craftingToolHardHammer>, <ore:stickEnderPearl>]]);
+
+// --- Long Endereye Rod
+recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:craftingToolHardHammer>, <ore:stickEnderEye>]]);
 
 
 
@@ -2422,6 +2453,18 @@ Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <l
 
 // --- Thorium Fuel Rod
 Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096>);
+
+
+
+// --- Chemical Reactor Recipes ---
+
+
+
+// --- Nitrogen Dioxide
+ChemicalReactorLiq.addRecipe(<IC2:itemCellEmpty>, <liquid:nitrogendioxide> * 3000, <gregtech:gt.metaitem.01:30012>, null, <liquid:oxygen> * 2000, 1200);
+
+// --- Saltpeter
+ChemicalReactorLiq.addRecipe(<gregtech:gt.metaitem.01:2836> * 5, <liquid:steam> * 16000, <dreamcraft:item.PotassiumHydroxideDust> * 3, null, <liquid:nitricacid> * 5000, 10);
 
 
 
@@ -2562,7 +2605,32 @@ Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>
 
 
 // --- Forge Hammer Recipes ---
+
+
+
+// --- Long Plastic Rod
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22874>, <gregtech:gt.metaitem.01:23874> * 2, 20, 16);
+
+// --- Long Rubber Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22880>, <gregtech:gt.metaitem.01:23880> * 2, 20, 16);
+
+// --- Long Apatite Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22530>, <gregtech:gt.metaitem.01:23530> * 2, 20, 16);
+
+// --- Long Lapis Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22526>, <gregtech:gt.metaitem.01:23526> * 2, 20, 16);
+
+// --- Long Lazurite Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22524>, <gregtech:gt.metaitem.01:23524> * 2, 20, 16);
+
+// --- Long Sodalite Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22525>, <gregtech:gt.metaitem.01:23525> * 2, 20, 16);
+
+// --- Long Enderpearl Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22532>, <gregtech:gt.metaitem.01:23532> * 2, 20, 16);
+
+// --- Long Endereye Rod
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.01:23533> * 2, 20, 16);
 
 
 

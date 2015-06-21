@@ -87,7 +87,7 @@ val Gate = <BuildCraft|Transport:pipeGate:*>;
 val PipeWire = <BuildCraft|Transport:pipeWire:*>;
 val PipePlug = <BuildCraft|Transport:pipePlug>;
 val GateCopier = <BuildCraft|Transport:gateCopier>;
-val DockingStation = <BuildCraft|Transport:robotStation>;
+val DockingStation = <BuildCraft|Robotics:robotStation>;
 
 val Filler = <BuildCraft|Builders:fillerBlock>;
 val Builder = <BuildCraft|Builders:builderBlock>;
@@ -95,9 +95,9 @@ val ArchitectT = <BuildCraft|Builders:architectBlock>;
 val BlueprintLib = <BuildCraft|Builders:libraryBlock>;
 val AutoWorkB = <BuildCraft|Factory:autoWorkbenchBlock>;
 val FloodGate = <BuildCraft|Factory:floodGateBlock>;
-val ZonePlanner = <BuildCraft|Silicon:zonePlan>;
-val Requester = <BuildCraft|Silicon:requester>;
-val Robot = <BuildCraft|Silicon:robot:*>;
+val ZonePlanner = <BuildCraft|Robotics:zonePlan>;
+val Requester = <BuildCraft|Robotics:requester>;
+val Robot = <BuildCraft|Robotics:robot>;
 val FilterBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 val StrongGlass = <Railcraft:glass>;
 val ObsidianGlass = <ExtraUtilities:decorativeBlock2:5>;
@@ -117,7 +117,7 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 recipes.remove(MiningWell);
 
 // --- Quarry
-recipes.remove(<BuildCraft|Factory:machineBlock>);
+recipes.remove(<BuildCraft|Builders:machineBlock>);
 
 // --- Pump
 recipes.remove(<BuildCraft|Factory:pumpBlock>);
@@ -167,18 +167,33 @@ recipes.remove(FilterBuffer);
 // --- Docking Station
 recipes.remove(DockingStation);
 
+// --- Integration Table
+recipes.remove(<BuildCraft|Silicon:laserTableBlock:2>);
+
+// --- Charging Table
+recipes.remove(<BuildCraft|Silicon:laserTableBlock:3>);
+
+// --- Programming Table
+recipes.remove(<BuildCraft|Silicon:laserTableBlock:4>);
+
+// --- Stamping Table
+recipes.remove(<BuildCraft|Silicon:laserTableBlock:5>);
+
+// --- Recipes Packager
+recipes.remove(<BuildCraft|Silicon:packagerBlock>);
+
 
 // --- Engines ---
 
 
 // --- Redstone Engine
-recipes.remove(<BuildCraft|Energy:engineBlock>);
+recipes.remove(<BuildCraft|Core:engineBlock>);
 
 // --- Stirling Engine
-recipes.remove(<BuildCraft|Energy:engineBlock:1>);
+recipes.remove(<BuildCraft|Core:engineBlock:1>);
 
 // --- Combustion Engine
-recipes.remove(<BuildCraft|Energy:engineBlock:2>);
+recipes.remove(<BuildCraft|Core:engineBlock:2>);
 
 
 // --- Gears ---
@@ -363,7 +378,7 @@ recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 
 
 // --- Combustion Engine
-recipes.addShaped(<BuildCraft|Energy:engineBlock:2>, [
+recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [
 [<ore:plateInvar>, <ore:plateLapis>, <ore:plateInvar>],
 [<ore:springInvar>, <minecraft:piston>, <ore:springInvar>],
 [<ore:gearInvar>, <Forestry:sturdyMachine>, <ore:gearInvar>]]);
@@ -475,6 +490,12 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
 [<ore:plateObsidian>, <ore:gemEnderPearl>, <ore:plateObsidian>],
 [<ore:plateRubber>, <ore:craftingToolWrench>, <ore:plateRubber>]]);
 
+// --- Auto Workbench
+recipes.addShaped(AutoWorkB, [
+[<IC2:itemCasing:4>, <ore:gearGtSmallAnyIron>, <IC2:itemCasing:4>],
+[<ore:gearGtSmallAnyIron>, <Forestry:factory2:2>, <ore:gearGtSmallAnyIron>],
+[<IC2:itemCasing:4>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:4>]]);
+
 
 
 // --- Assembler Recipes --- 
@@ -482,7 +503,7 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
 
 
 // --- Combustion Engine
-Assembler.addRecipe(<BuildCraft|Energy:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
+Assembler.addRecipe(<BuildCraft|Core:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
 
 
 

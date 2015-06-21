@@ -1,6 +1,7 @@
 // --- Created by DreamMasterXXL ---
 
 
+
 // --- Imports ---
 
 import mods.ic2.Compressor;
@@ -8,37 +9,61 @@ import mods.gregtech.FluidExtractor;
 import mods.ic2.Macerator;
 
 
+
 // --- Remove Recipes ---
+
 
 
 // --- Block of Malachit
 recipes.remove(<BiomesOPlenty:gemOre:11>);
+
 // --- Gem Malachit
 recipes.remove(<BiomesOPlenty:gems:5>);
+
 // --- Emty Jar
 recipes.remove(<BiomesOPlenty:jar Empty>);
+
 // --- Dart Blower
 recipes.remove(<BiomesOPlenty:dartBlower>);
+
 // --- Dart
 recipes.remove(<BiomesOPlenty:dart>);
+
 // --- Diamond Scythe
 recipes.remove(<BiomesOPlenty:scytheDiamond>);
+
 // --- Ash Block
 recipes.remove(<BiomesOPlenty:ash>);
+
 // --- Coal
 recipes.remove(<minecraft:coal>);
+
 // --- small Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 3, [<BiomesOPlenty:bones>]);
+
 // --- medium Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 6, [<BiomesOPlenty:bones:1>]);
+
 // --- large Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 12, [<BiomesOPlenty:bones:2>]);
+
 // --- Ruby
 recipes.remove(<BiomesOPlenty:gems:1>);
+
+// --- Block of Ruby
+recipes.remove(<BiomesOPlenty:gemOre:3>);
+
+// --- Block of Sapphire
+recipes.remove(<BiomesOPlenty:gemOre:13>);
+
+// --- Block of Peridot
+recipes.remove(<BiomesOPlenty:gemOre:5>);
+
 
 
 
 // --- Add Recipes ---
+
 
 
 // --- Emty Jar
@@ -93,9 +118,11 @@ Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
 // --- Compressor Recipes ---
 
 
+
 // --- Hardened Ice
 
 Compressor.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice> * 16);
+
 
 
 
@@ -104,6 +131,7 @@ Compressor.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice> * 16);
 
 // --- Poison
 FluidExtractor.addRecipe(<BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1> , <liquid:poison> * 1000, 10000, 20, 2);
+
 
 
 
