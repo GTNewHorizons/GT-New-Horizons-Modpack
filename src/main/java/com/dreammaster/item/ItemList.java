@@ -31,6 +31,7 @@ public enum ItemList {
 	Display(new ModSimpleBaseItem("Display", ModTabList.ModCircuitsTab)),
 	DiamondDrillTip(new ModSimpleBaseItem("DiamondDrillTip", ModTabList.ModGenericTab)),
 	ElectricBoatHull(new ModSimpleBaseItem("ElectricBoatHull",  ModTabList.ModGenericTab)),
+	ElectrotineWire(new ModSimpleBaseItem("ElectrotineWire",  ModTabList.ModGenericTab)),
 	EngineCore(new ModSimpleBaseItem("EngineCore",  ModTabList.ModGenericTab)),
 	EngravedEnergyChip(new ModSimpleBaseItem("EngravedEnergyChip",  ModTabList.ModCircuitsTab)),
 	EngravedDiamondCrystalChip(new ModSimpleBaseItem("EngravedDiamondCrystalChip",  ModTabList.ModCircuitsTab)),
