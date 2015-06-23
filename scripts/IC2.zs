@@ -865,30 +865,6 @@ recipes.addShaped(<IC2:reactorPlatingExplosive>, [
 [<ore:plateAlloyAdvanced>, <IC2:reactorPlating>, <ore:plateAlloyAdvanced>],
 [<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>]]);
 
-// --- Copper Cable
-recipes.addShaped(<IC2:itemCable:1>, [
-[<ore:craftingToolWireCutter>, <ore:plateCopper>, null],
-[null, null, null],
-[null, null, null]]);
-
-// --- Gold Cable
-recipes.addShaped(<IC2:itemCable:2>, [
-[<ore:craftingToolWireCutter>, <ore:plateGold>, null],
-[null, null, null],
-[null, null, null]]);
-
-// --- HV Cable
-recipes.addShaped(<IC2:itemCable:5>, [
-[<ore:craftingToolWireCutter>, <ore:plateIron>, null],
-[null, null, null],
-[null, null, null]]);
-
-// --- Tin Cable
-recipes.addShaped(<IC2:itemCable:10>, [
-[<ore:craftingToolWireCutter>, <ore:plateTin>, null],
-[null, null, null],
-[null, null, null]]);
-
 // --- Wood Rotor Blade
 recipes.addShaped(<IC2:itemRecipePart:7>, [
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
@@ -1720,18 +1696,6 @@ Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 32);
 
 // --- Wiremill Recipes ---
 
-
-// --- Copper Cable
-Wiremill.addRecipe(<gregtech:gt.blockmachines:1360>, <IC2:itemCable:1>, 400, 4);
-
-// --- Gold Cable
-Wiremill.addRecipe(<gregtech:gt.blockmachines:1420>, <IC2:itemCable:2>, 600, 4);
-
-// --- HV Cable
-Wiremill.addRecipe(<gregtech:gt.blockmachines:1300>, <IC2:itemCable:5>, 600, 4);
-
-// --- Tin Cable
-Wiremill.addRecipe(<gregtech:gt.blockmachines:1240>, <IC2:itemCable:10>, 400, 4);
 
 // --- Mining Pipe
 Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 200, 16);

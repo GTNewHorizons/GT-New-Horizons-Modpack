@@ -10,6 +10,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalReactorLiq;
+import mods.gregtech.Fermenter;
 import mods.gregtech.ForgeHammer;
 import mods.ic2.Canner;
 import mods.ic2.Compressor;
@@ -2604,6 +2605,15 @@ PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30890>, <gregtech:gt.metaitem.
 Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>);
 
 
+// --- Honey Forestry and BOP
+Fermenter.addRecipe(<liquid:honey> * 1000, <liquid:for.honey> * 1000, 20, false);
+// -
+Fermenter.addRecipe(<liquid:for.honey> * 1000, <liquid:honey> * 1000, 20, false);
+
+
+
+
+
 // --- Forge Hammer Recipes ---
 
 
@@ -2674,19 +2684,6 @@ PlateBender.addRecipe(<gregtech:gt.metaitem.02:24874>, <gregtech:gt.metaitem.02:
 
 
 // --- Wiremill Recipes ---
-
-// --- Copper Wire
-Wiremill.addRecipe(<IC2:itemCable:1>, <gregtech:gt.blockmachines:1360>, 400, 4);
-
-// --- Gold Wire
-Wiremill.addRecipe(<IC2:itemCable:2>, <gregtech:gt.blockmachines:1420>, 600, 4);
-
-// --- Iron Wire
-Wiremill.addRecipe(<IC2:itemCable:5>, <gregtech:gt.blockmachines:1300>, 600, 4);
-
-// --- Tin Wire
-Wiremill.addRecipe(<IC2:itemCable:10>, <gregtech:gt.blockmachines:1240>, 400, 4);
-
 
 
 // --- Tinker Construct Smeltery Recipes
