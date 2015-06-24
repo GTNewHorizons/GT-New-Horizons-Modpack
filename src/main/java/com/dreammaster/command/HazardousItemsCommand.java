@@ -3,13 +3,6 @@ package com.dreammaster.command;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.dreammaster.main.MainRegistry;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.relauncher.Side;
-import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
-import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
-import eu.usrv.yamcore.gameregistry.PotionHelper;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
@@ -17,6 +10,14 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.server.MinecraftServer;
+
+import com.dreammaster.main.MainRegistry;
+
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
+import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
+import eu.usrv.yamcore.gameregistry.PotionHelper;
 
 public class HazardousItemsCommand implements ICommand
 {

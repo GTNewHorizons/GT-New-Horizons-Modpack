@@ -1,11 +1,8 @@
 package com.dreammaster.block;
 
-import com.dreammaster.lib.Refstrings;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.Block.SoundType;
 import net.minecraft.block.material.Material;
-import eu.usrv.yamcore.blocks.ModSimpleBaseBlock;
 import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 
 /**

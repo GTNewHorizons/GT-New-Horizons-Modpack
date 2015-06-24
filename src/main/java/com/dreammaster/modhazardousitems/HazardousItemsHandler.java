@@ -1,16 +1,19 @@
 package com.dreammaster.modhazardousitems;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Random;
 
 import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fluids.IFluidContainerItem;
 
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -19,19 +22,8 @@ import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmDamageE
 import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
 import com.google.common.collect.EvictingQueue;
 
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.profiler.Profiler;
-import net.minecraft.util.DamageSource;
-import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.IFluidContainerItem;
-import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
 import eu.usrv.yamcore.gameregistry.PotionHelper;

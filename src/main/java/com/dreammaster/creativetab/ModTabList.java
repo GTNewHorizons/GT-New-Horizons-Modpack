@@ -1,14 +1,14 @@
 package com.dreammaster.creativetab;
 
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+
 import com.dreammaster.item.ItemList;
 
 import eu.usrv.yamcore.creativetabs.CreativeTabsManager;
 import eu.usrv.yamcore.creativetabs.ModCreativeTab;
 import eu.usrv.yamcore.items.ModItemManager;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 
 public class ModTabList {
 	public static String ModGenericTab = "tabDreamCraftItems_Generic";

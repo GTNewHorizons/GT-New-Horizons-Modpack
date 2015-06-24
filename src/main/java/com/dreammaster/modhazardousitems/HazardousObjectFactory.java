@@ -1,14 +1,6 @@
 package com.dreammaster.modhazardousitems;
 
-import javax.xml.bind.annotation.XmlRegistry;
-
-import com.dreammaster.modhazardousitems.HazardousItems;
 import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
-import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmDamageEffect;
-import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem.ItmPotionEffect;
-
-import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
-import eu.usrv.yamcore.gameregistry.PotionHelper;
 
 public class HazardousObjectFactory
 {
