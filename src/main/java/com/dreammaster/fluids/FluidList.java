@@ -13,7 +13,7 @@ public enum FluidList {
 	EnrichedBacterialSludge(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("EnrichedBacterialSludge"), Material.water), ModTabList.ModFluidsTab),
 	FermentedBacterialSludge(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("FermentedBacterialSludge"), Material.water), ModTabList.ModFluidsTab),
 	NitricAcid(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("NitricAcid"), Material.water), ModTabList.ModFluidsTab),
-	//Ammonia(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("Ammonia"), Material.air), ModTabList.ModFluidsTab),
+	Ammonia(ExtendedFluidCollection.getAmmonia(), ModTabList.ModFluidsTab),
 
 	// Do not delete this
 	EndOfList(null, null);
