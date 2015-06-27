@@ -38,6 +38,8 @@ public enum ItemList {
 	EngravedEnergyChip(new ModSimpleBaseItem("EngravedEnergyChip",  ModTabList.ModCircuitsTab)),
 	EngravedDiamondCrystalChip(new ModSimpleBaseItem("EngravedDiamondCrystalChip",  ModTabList.ModCircuitsTab)),
 	EngravedQuantumChip(new ModSimpleBaseItem("EngravedQuantumChip",  ModTabList.ModCircuitsTab)),
+	EnrichedNaquadriaSunnariumAlloy(new ModSimpleBaseItem("EnrichedNaquadriaSunnariumAlloy", ModTabList.ModGenericTab)),
+	EnrichedNaquadriaNeutroniumSunnariumAlloy(new ModSimpleBaseItem("EnrichedNaquadriaNeutroniumSunnariumAlloy", ModTabList.ModGenericTab)),
 	EtchedLowVoltageWiring(new ModSimpleBaseItem("EtchedLowVoltageWiring", ModTabList.ModCircuitsTab)),
 	EtchedInsaneVoltageWiring(new ModSimpleBaseItem("EtchedInsaneVoltageWiring",  ModTabList.ModCircuitsTab)),
 	EtchedLudicrousVoltageWiring(new ModSimpleBaseItem("EtchedLudicrousVoltageWiring",  ModTabList.ModCircuitsTab)),
