@@ -148,7 +148,7 @@ public enum ItemList {
 	ReinforcedChromeIronPlate(new ModSimpleBaseItem("ReinforcedChromeIronPlate", ModTabList.ModGenericTab)),
 	ReinforcedNaquadriaIronPlate(new ModSimpleBaseItem("ReinforcedNaquadriaIronPlate", ModTabList.ModGenericTab)),
 	ReinforcedNeutroniumIronPlate(new ModSimpleBaseItem("ReinforcedNeutroniumIronPlate", ModTabList.ModGenericTab)),
-	ReinforcedTitaniumIronPlate(new ModSimpleBaseItem("ReinforcedIridiumDrillTip", ModTabList.ModGenericTab)),
+	ReinforcedTitaniumIronPlate(new ModSimpleBaseItem("ReinforcedTitaniumIronPlate", ModTabList.ModGenericTab)),
 	ReinforcedTungstenIronPlate(new ModSimpleBaseItem("ReinforcedTungstenIronPlate", ModTabList.ModGenericTab)),
 	ReinforcedTungstenSteelIronPlate(new ModSimpleBaseItem("ReinforcedTungstenSteelIronPlate", ModTabList.ModGenericTab)),
 	SandStoneRod(new ModSimpleBaseItem("SandStoneRod",  ModTabList.ModGenericTab)),
