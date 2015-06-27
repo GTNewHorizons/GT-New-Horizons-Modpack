@@ -25,7 +25,7 @@ public class ModTabList {
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModShapesTab, ItemList.ShapeBlock.Item.getConstructedItem()));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModMoldsTab, ItemList.MoldFormAnvil.Item.getConstructedItem()));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModThaumcraftTab, ItemList.ChargedVoidWandCap.Item.getConstructedItem()));
-		pTabManager.AddCreativeTab(new ModCreativeTab(ModCircuitsTab, ItemList.SuperCircuit.Item.getConstructedItem()));
+		pTabManager.AddCreativeTab(new ModCreativeTab(ModCircuitsTab, ItemList.QuantumCircuit.Item.getConstructedItem()));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModFluidsTab, Items.bucket));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModBlocksTab, Item.getItemFromBlock(Blocks.stone)));
 	}
