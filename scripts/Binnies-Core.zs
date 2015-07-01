@@ -26,9 +26,12 @@ recipes.remove(<BinnieCore:storage:4>);
 // --- Diamond Compartment
 recipes.remove(<BinnieCore:storage:5>);
 
+// --- Field Kit
+recipes.remove(<BinnieCore:fieldKit:*>);
 
 
-// --- add recipes ---
+
+// --- Add Recipes ---
 
 
 // --- Compartment
@@ -36,6 +39,12 @@ recipes.addShaped(<BinnieCore:storage>, [
 [<gregtech:gt.metaitem.01:27305>, <minecraft:chest>, <gregtech:gt.metaitem.01:27305>],
 [<minecraft:chest>, <gregtech:gt.blockmachines:4905>, <minecraft:chest>],
 [<gregtech:gt.metaitem.01:27305>, <minecraft:chest>, <gregtech:gt.metaitem.01:27305>]]);
+
+// --- Field Kit
+recipes.addShaped(<BinnieCore:fieldKit:63>, [
+[<ore:lensGlass>, <ore:ringSteel>, <ore:screwSteel>],
+[<ore:ringSteel>, <ore:stickSteel>, <ore:craftingToolSaw>],
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>]]);
 
 // --- Copper Compartment
 mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 1000, 

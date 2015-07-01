@@ -355,6 +355,9 @@ recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icblueprint>);
 // --- IC Chip
 recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icchip>);
 
+// --- Frames
+recipes.remove(<MCFrames:mcframes.frame>);
+
 
 
 
@@ -370,6 +373,11 @@ recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine1:1>, [
 [<ore:circuitBasic>, <ProjRed|Expansion:projectred.expansion.emptybattery>, <ore:circuitBasic>]]);
 
 // --- Block Breaker
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2>, [
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>],
+[<dreamcraft:item.DiamondDrillTip>, <IC2:blockMiningPipe>, <ore:circuitBasic>],
+[<IC2:itemCasing:5>, <ore:gearSteel>, <IC2:itemCasing:5>]]);
+// -
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2>, [<OpenBlocks:blockbreaker>]);
 
 // --- Item Importer
@@ -383,6 +391,8 @@ recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:2>, [
 [<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>],
 [<gregtech:gt.metaitem.01:32630>, <ore:pipeMediumTin>, <ore:circuitBasic>],
 [<IC2:itemCasing:5>, <ore:craftingPiston>, <IC2:itemCasing:5>]]);
+// -
+recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:2>, [<OpenBlocks:blockPlacer>]);
 
 // --- Filtered Importer
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:3>, [
@@ -807,6 +817,9 @@ recipes.addShaped(<ProjRed|Fabrication:projectred.integration.icblock:1>, [
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 [<ore:plateObsidian>, <ore:stickSteel>, <ore:plateObsidian>],
 [<ore:stickSteel>, <gregtech:gt.blockmachines:321>, <ore:stickSteel>]]);
+
+// --- Frames
+recipes.addShapeless(<MCFrames:mcframes.frame>, [<gregtech:gt.blockmachines:4905>]);
 
 
 

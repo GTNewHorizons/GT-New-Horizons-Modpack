@@ -1,8 +1,13 @@
 // --- Created by DreamMasterXXL ---
 
+
+
 // --- Imports
 
 import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
+import mods.gregtech.ChemicalBathLiq;
+import mods.gregtech.ChemicalReactorLiq;
 
 
 
@@ -106,6 +111,37 @@ recipes.remove(<OpenBlocks:ropeladder>);
 // --- Jaded Ladder
 recipes.remove(<OpenBlocks:ladder>);
 
+// --- Bear Trap
+recipes.remove(<OpenBlocks:beartrap>);
+
+// --- Item Canon
+recipes.remove(<OpenBlocks:cannon>);
+
+// --- Sponge
+recipes.remove(<OpenBlocks:sponge>);
+
+// --- Golden Egg
+recipes.remove(<OpenBlocks:goldenegg>);
+
+// --- Village Highlighter
+recipes.remove(<OpenBlocks:village_highlighter>);
+
+// --- Sky Block
+recipes.remove(<OpenBlocks:sky>);
+
+// --- Inverted Sky Block
+recipes.remove(<OpenBlocks:sky:1>);
+
+// --- Hight Map Projector
+recipes.remove(<OpenBlocks:projector>);
+
+// --- Paint Mixer
+recipes.remove(<OpenBlocks:paintmixer>);
+
+// --- Canvas
+recipes.remove(<OpenBlocks:canvas>);
+
+
 
 // --- Adding Back Recipes ---
 
@@ -147,7 +183,7 @@ recipes.addShaped(<OpenBlocks:xpdrain>, [
 [<ore:plateSteel>, <ore:stickAnyIron>, <ore:plateSteel>]]);
 
 // --- Path
-recipes.addShaped(<OpenBlocks:path>, [
+recipes.addShaped(<OpenBlocks:path> * 4, [
 [CobbleSlab, null, CobbleSlab],
 [null, CobbleSlab, null],
 [CobbleSlab, null, CobbleSlab]]);
@@ -160,21 +196,21 @@ recipes.addShaped(<OpenBlocks:fan>, [
 
 // --- Elevator
 recipes.addShaped(<OpenBlocks:elevator>, [
-[<ore:plateSteel>, <ore:plateAnyIron>, <ore:plateSteel>],
-[<ore:plateAnyIron>, <ore:gemEnderPearl>, <ore:plateAnyIron>],
-[<ore:plateSteel>, <ore:plateAnyIron>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:plateEnderPearl>, <ore:plateSteel>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.blockmachines:4115>, <ore:gearGtSmallSteel>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 // --- Vacuum Hopper
 recipes.addShaped(<OpenBlocks:vacuumhopper>, [
-[<ore:plateDenseObsidian>, Hopper, <ore:plateDenseObsidian>],
-[Hopper, <ore:gemEnderEye>, Hopper],
-[<ore:plateDenseObsidian>, Hopper, <ore:plateDenseObsidian>]]);
+[<ore:plateObsidian>, Hopper, <ore:plateObsidian>],
+[Hopper, <ore:plateEnderEye>, Hopper],
+[<ore:plateObsidian>, Hopper, <ore:plateObsidian>]]);
 
 // --- Sprinkler
 recipes.addShaped(<OpenBlocks:sprinkler>, [
-[<ore:foilGold>, IronBars, <ore:foilGold>],
-[<ore:stickSteel>, StainlessPipe, <ore:stickSteel>],
-[<ore:plateAnyIron>, <ore:gearSteel>, <ore:plateAnyIron>]]);
+[<dreamcraft:item.SteelBars>, <ore:stickGold>, <dreamcraft:item.SteelBars>],
+[<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>],
+[<dreamcraft:item.SteelBars>, <ore:stickGold>, <dreamcraft:item.SteelBars>]]);
 
 // --- Building Guide
 recipes.addShaped(BGuide, [
@@ -183,24 +219,16 @@ recipes.addShaped(BGuide, [
 [Obsidian, Illuminator, Obsidian]]);
 
 // --- Block Placer
-recipes.addShaped(BlockPlacer, [
-[Stone, IronPlate, Stone],
-[Piston, SteelGear, IronPlate],
-[Stone, RedAlloyRod, Stone]]);
+recipes.addShapeless(<OpenBlocks:blockPlacer>, [<ProjRed|Expansion:projectred.expansion.machine2:2>]);
 
 // --- Block Breaker
-recipes.addShaped(BlockBreaker, [
-[Stone, IronPlate, Stone],
-[DiamondGrindingHead, SSteelGear, IronPlate],
-[Stone, RedAlloyRod, Stone]]);
-// -
 recipes.addShapeless(<OpenBlocks:blockbreaker>, [<ProjRed|Expansion:projectred.expansion.machine2>]);
 
 // --- Item Dropper
 recipes.addShaped(ItemDropper, [
-[Stone, IronPlate, Stone],
-[IronBars, SteelGear, IronPlate],
-[Stone, RedAlloyRod, Stone]]);
+[<ore:plateStone>, <ore:wireGt01RedAlloy>, <ore:plateStone>],
+[<ore:gearGtSmallSteel>, <minecraft:dropper>, <ore:gearGtSmallSteel>],
+[<ore:plateStone>, <minecraft:hopper>, <ore:plateStone>]]);
 
 // --- Sleeping Back
 recipes.addShaped(<OpenBlocks:sleepingBag>, [
@@ -208,6 +236,139 @@ recipes.addShaped(<OpenBlocks:sleepingBag>, [
 [Wool, Wool, Wool],
 [TannedLeather, TannedLeather, TannedLeather]]);
 
+// --- Bear Trap
+recipes.addShaped(<OpenBlocks:beartrap>, [
+[<dreamcraft:item.SteelBars>, <ore:craftingToolHardHammer>, <dreamcraft:item.SteelBars>],
+[<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>],
+[<dreamcraft:item.SteelBars>, <ore:craftingToolScrewdriver>, <dreamcraft:item.SteelBars>]]);
+
+// --- Item Canon
+recipes.addShaped(<OpenBlocks:cannon>, [
+[<ore:craftingToolSaw>, <ore:pipeLargeSteel>, <ore:craftingToolHardHammer>],
+[<ore:gearGtSmallWood>, <ore:plateSteel>, <ore:gearGtSmallWood>],
+[<gregtech:gt.metaitem.01:17809>, <ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:17809>]]);
+
+// --- Village Highlighter
+recipes.addShaped(<OpenBlocks:village_highlighter>, [
+[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
+[<gregtech:gt.metaitem.01:17809>, <ore:plateEmerald>, <gregtech:gt.metaitem.01:17809>],
+[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>]]);
+
+// --- Sky Block
+recipes.addShaped(<OpenBlocks:sky> * 6, [
+[<TConstruct:GlassPane>, <ore:plateEnderEye>, <TConstruct:GlassPane>],
+[<TConstruct:GlassPane>, <ore:stoneEndstone>, <TConstruct:GlassPane>],
+[<TConstruct:GlassPane>, <ore:plateEnderEye>, <TConstruct:GlassPane>]]);
+// -
+recipes.addShapeless(<OpenBlocks:sky>, [<OpenBlocks:sky:1>]);
+
+// --- Hight Map Projector
+recipes.addShaped(<OpenBlocks:projector>, [
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
+[<ore:craftingRedstoneTorch>, <OpenComputers:hologram1>, <ore:craftingRedstoneTorch>],
+[<ore:craftingRedstoneTorch>, <minecraft:stone_slab>, <ore:craftingRedstoneTorch>]]);
+
+// --- Canvas
+recipes.addShapeless(<OpenBlocks:canvas>, [<BiblioCraft:item.PaintingCanvas>]);
+
+
+
+
+
 // --- Assembler Recipes
 
+
+// --- Rope Ladder
 Assembler.addRecipe(<OpenBlocks:ropeladder>, <minecraft:string> * 64, <gregtech:gt.metaitem.02:22809> * 16, 400, 8);
+
+// --- Jaded Ladder
+Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder>, 200, 32);
+
+// --- Inverted Sky Block
+AssemblerLiq.addRecipe(<OpenBlocks:sky:1>, <OpenBlocks:sky>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.redstone> * 144, 200, 16);
+
+// --- Paint Mixer
+Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 32);
+
+
+
+// --- Chemical Bath Recipes
+
+
+
+// --- Black Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:15>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 20);
+
+// --- Red Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:14>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 20);
+
+// --- Green Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:13>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 20);
+
+// --- Brown Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:12>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 20);
+
+// --- Blue Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:11>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 20);
+
+// --- Purple Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:10>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 20);
+
+// --- Cyan Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:9>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 20);
+
+// --- Light Grey Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:8>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 20);
+
+// --- Dark Grey Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:7>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 20);
+
+// --- Pink Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:6>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 20);
+
+// --- Lime Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:5>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 20);
+
+// --- Yellow Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:4>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 20);
+
+// --- Light Blue Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:3>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 20);
+
+// --- Magenta Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:2>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 20);
+
+// --- Orange Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator:1>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 20);
+
+// --- White Elevator
+ChemicalBathLiq.addRecipe(<OpenBlocks:elevator>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 20);
+
+
+
+// --- Chemical Reactor Recipes ---
+
+
+
+
+// --- Sponge
+ChemicalReactorLiq.addRecipe(<OpenBlocks:sponge>, null, <minecraft:wool>, <minecraft:slime_ball>, <liquid:water> * 1000, 200);
+
+
+
+// --- Thaumcraft Stuff ---
+
+
+
+// --- Golden Egg
+mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 200, bestia 200, victus 100, humanus 200", -6, 4, 12, <OpenBlocks:goldenegg>);
+game.setLocalization("en_US", "tc.research_name.GOLDENEGG", "Golden Egg");
+game.setLocalization("en_US", "tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
+mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);
+//mods.thaumcraft.Research.addSibling("GOLDENEGG", "INFUSION");
+mods.thaumcraft.Research.setConcealed("GOLDENEGG", true);
+mods.thaumcraft.Research.addPage("GOLDENEGG", "OpenBlocks.research_page.GOLDENEGG");
+game.setLocalization("en_US", "OpenBlocks.research_page.GOLDENEGG", "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.");
+mods.thaumcraft.Infusion.addRecipe("GOLDENEGG",<minecraft:egg>, [<gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>], "alienis 75, bestia 50, victus 50, humanus 25",  <OpenBlocks:goldenegg>, 2);
+mods.thaumcraft.Research.addInfusionPage("GOLDENEGG", <OpenBlocks:goldenegg>);
+mods.thaumcraft.Warp.addToResearch("GOLDENEGG", 1);

@@ -981,6 +981,11 @@ recipes.remove(<gregtech:gt.metaitem.01:32758>);
 // --- Solar Panel 524288 EU
 recipes.remove(<gregtech:gt.metaitem.01:32759>);
 
+// --- Apatite
+recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
+[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
+[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
+[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>]]);
 
 
 
@@ -2437,6 +2442,8 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32759>, [
 [<AdvancedSolarPanel:asp_crafting_items:13>, <IC2:itemPartCarbonPlate>, <AdvancedSolarPanel:asp_crafting_items:13>],
 [<ore:itemSuperconductor>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:itemSuperconductor>]]);
 
+// --- Frames
+recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<MCFrames:mcframes.frame>]);
 
 
 

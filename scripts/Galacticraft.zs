@@ -513,6 +513,9 @@ recipes.remove(<GalacticraftMars:tile.minerBase>);
 // --- Orion Drive
 recipes.remove(<GalacticraftMars:item.orionDrive>);
 
+// --- Canvas
+recipes.remove(<GalacticraftCore:item.canvas>);
+
 
 
 // --- Add Recipes ---
@@ -1104,6 +1107,12 @@ recipes.addShaped(<GalacticraftMars:item.orionDrive>, [
 [<ore:compressedTitanium>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedTitanium>],
 [<dreamcraft:item.HighEnergyFlowCircuit>, <ore:oc:hdd3>, <dreamcraft:item.HighEnergyFlowCircuit>],
 [<ore:compressedSteel>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedSteel>]]);
+
+// --- Canvas
+recipes.addShaped(<GalacticraftCore:item.canvas>,  [
+[null, <ore:platePaper>, <ore:stickWood>],
+[<ore:platePaper>, <minecraft:string>, <ore:platePaper>],
+[<ore:stickWood>, <ore:platePaper>, null]]);
 
 
 
