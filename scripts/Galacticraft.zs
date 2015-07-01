@@ -518,120 +518,120 @@ recipes.remove(<GalacticraftMars:item.orionDrive>);
 // --- Add Recipes ---
 
 
-//Rocket Launch Pad
+// --- Rocket Launch Pad
 recipes.addShaped(<GalacticraftCore:tile.landingPad> * 3, [
 [CompressedIron, CompressedIron, CompressedIron],
 [AdvAlloy, AdvAlloy, AdvAlloy],
 [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
 
-//Buggy Fueling Pad
+// --- Buggy Fueling Pad
 recipes.addShaped(<GalacticraftCore:tile.landingPad:1> * 3, [
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [AdvAlloy, AdvAlloy, AdvAlloy],
 [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
 
-//Oxygen Collector
+// --- Oxygen Collector
 recipes.addShaped(<GalacticraftCore:tile.oxygenCollector>, [
 [CompressedAl, <GalacticraftCore:item.oxygenConcentrator>, CompressedAl],
 [AirVent, <GalacticraftCore:item.airFan>, <gregtech:gt.metaitem.01:32600>],
 [CompressedSteel, <ore:cableGt02Aluminium>, CompressedSteel]]);
 
-//Oxygen Compressor
+// --- Oxygen Compressor
 recipes.addShaped(<GalacticraftCore:tile.oxygenCompressor>, [
 [CompressedAl, <GalacticraftCore:item.oxygenConcentrator>, CompressedAl],
 [<gregtech:gt.metaitem.01:32641>, <GalacticraftCore:item.oilCanisterPartial:1001>, <gregtech:gt.metaitem.01:32601>],
 [CompressedSteel, CompressedBronze, CompressedSteel]]);
 
-//Oxygen Decompressor
+// --- Oxygen Decompressor
 recipes.addShaped(<GalacticraftCore:tile.oxygenCompressor:4>, [
 [CompressedAl, <GalacticraftCore:item.oxygenConcentrator>, CompressedAl],
 [<gregtech:gt.metaitem.01:32600>, <GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.airFan>],
 [CompressedSteel, CompressedBronze, CompressedSteel]]);
 
-//Oxygen Storage Module
+// --- Oxygen Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machine2:8>, [
 [CompressedSteel, <GalacticraftCore:item.oxygenTankHeavyFull:2700>, CompressedSteel],
 [<GalacticraftCore:item.oxygenTankHeavyFull:2700>, <gregtech:gt.blockcasings2>, <GalacticraftCore:item.oxygenTankHeavyFull:2700>],
 [CompressedSteel, <GalacticraftCore:item.oxygenTankHeavyFull:2700>, CompressedSteel]]);
 
-//Oxygen Bubble Distributor
+// --- Oxygen Bubble Distributor
 recipes.addShaped(<GalacticraftCore:tile.distributor>, [
 [CompressedAl, <GalacticraftCore:item.airFan>, CompressedAl],
 [AirVent, <gregtech:gt.metaitem.01:32600>, AirVent],
 [CompressedSteel, <GalacticraftCore:item.airFan>, CompressedSteel]]);
 
-//Oxygen Sealer
+// --- Oxygen Sealer
 recipes.addShaped(<GalacticraftCore:tile.sealer>, [
 [CompressedAl, AirVent, CompressedAl],
 [AirVent, <GalacticraftCore:tile.distributor>, AirVent],
 [CompressedSteel, <GalacticraftCore:tile.oxygenDetector>, CompressedSteel]]);
 
-//Oxygen Detector
+// --- Oxygen Detector
 recipes.addShaped(<GalacticraftCore:tile.oxygenDetector>, [
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [AirVent, <gregtech:gt.metaitem.01:32690>, AirVent],
 [CompressedAl, <gregtech:gt.blockmachines:2000>, CompressedAl]]);
 
-//Fuel Loader
+// --- Fuel Loader
 recipes.addShaped(<GalacticraftCore:tile.fuelLoader>, [
 [CompressedSteel, BWafer, CompressedSteel],
 [<gregtech:gt.metaitem.01:32611>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32601>],
 [CompressedAl, <ore:pipeMediumSteel>, CompressedAl]]);
 
-//Cargo Loader
+// --- Cargo Loader
 recipes.addShaped(<GalacticraftCore:tile.cargo>, [
 [CompressedAl, <minecraft:hopper>, CompressedAl],
 [MVConveyor, <gregtech:gt.blockmachines:9232>, MVConveyor],
 [CompressedSteel, <ore:pipeMediumBrass>, CompressedSteel]]);
 
-//Cargo Unloader
+// --- Cargo Unloader
 recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 [CompressedSteel, <ore:pipeMediumBrass>, CompressedSteel],
 [MVConveyor, <gregtech:gt.blockmachines:9232>, MVConveyor],
 [CompressedAl, <minecraft:hopper>, CompressedAl]]);
 
-//Nasa Workbench
+// --- Nasa Workbench
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
 [<gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <ore:circuitElite>, <ore:waferAdvanced>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.blockcasings:3>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
-//Tin Decoration Block
+// --- Tin Decoration Block
 recipes.addShaped(TinDecoBlock, [
 [HHammer, CompressedTin, null],
 [CompressedTin, <ore:stone>, CompressedTin],
 [null, CompressedTin, Wrench]]);
-
+// -
 recipes.addShaped(<GalacticraftCore:tile.gcBlockCore:3>, [
 [null, CompressedTin, HHammer],
 [CompressedTin, <ore:stone>, CompressedTin],
 [Wrench, CompressedTin, null]]);
 
-//Air Lock Frame
+// --- Air Lock Frame
 recipes.addShaped(<GalacticraftCore:tile.airLockFrame> * 2, [
 [<ore:compressedMeteoricIron>, <ore:screwStainlessSteel>, <ore:compressedMeteoricIron>],
 [AirVent, <ore:craftingToolScrewdriver>, AirVent],
 [CompressedAl, <ore:screwStainlessSteel>, CompressedAl]]);
 
-//Air Lock Controller
+// --- Air Lock Controller
 recipes.addShaped(<GalacticraftCore:tile.airLockFrame:1>, [
 [<ore:compressedMeteoricIron>, <GalacticraftCore:item.oxygenConcentrator>, <ore:compressedMeteoricIron>],
 [AirVent, <gregtech:gt.metaitem.01:32740>, AirVent],
 [AdvWafer, <ore:wireGt01RedAlloy>, AdvWafer]]);
 
-//Sealable Oxygen Pipe
+// --- Sealable Oxygen Pipe
 recipes.addShaped(<GalacticraftCore:tile.enclosed:1>, [
 [HHammer, OxygenPipe, null],
 [OxygenPipe, TinDecoBlock, OxygenPipe],
 [null, OxygenPipe, File]]);
 
-//Sealable Aluminium Wire
+// --- Sealable Aluminium Wire
 recipes.addShaped(<GalacticraftCore:tile.enclosed:14>, [
 [HHammer, GCAlWire, null],
 [GCAlWire, TinDecoBlock, GCAlWire],
 [null, GCAlWire, File]]);
 
-//Sealable heavy Aluminium Wire
+// --- Sealable heavy Aluminium Wire
 recipes.addShaped(<GalacticraftCore:tile.enclosed:15>, [
 [HHammer, GCHeavyAlWire, null],
 [GCHeavyAlWire, TinDecoBlock, GCHeavyAlWire],
@@ -649,313 +649,313 @@ recipes.addShaped(<GalacticraftCore:tile.enclosed:12>, [
 [<BuildCraft|Transport:item.buildcraftPipe.pipepowergold>, TinDecoBlock, <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>],
 [null, <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>, File]]);
 
-//Aluminium Wire
+// --- Aluminium Wire
 recipes.addShapeless(GCAlWire, [<ore:cableGt01Aluminium>]);
 
-//Heavy Aluminium Wire
+// --- Heavy Aluminium Wire
 recipes.addShaped(GCHeavyAlWire * 3, [
 [CompressedAl, CompressedAl, CompressedAl],
 [GCAlWire, GCAlWire, GCAlWire],
 [CompressedAl, CompressedAl, CompressedAl]]);
 
-//Basic Solar Panel
+// --- Basic Solar Panel
 recipes.addShaped(<GalacticraftCore:tile.solar>, [
 [CompressedAl, <GalacticraftCore:item.basicItem:1>, CompressedAl],
 [GCAlWire, SteelPole, GCAlWire],
 [CompressedSteel, BWafer, CompressedSteel]]);
 
-//Advanced Solar Panel
+// --- Advanced Solar Panel
 recipes.addShaped(<GalacticraftCore:tile.solar:4>, [
 [CompressedAl, <GalacticraftCore:item.basicItem:1>, CompressedAl],
 [GCHeavyAlWire, SteelPole, GCHeavyAlWire],
 [<gregtech:gt.metaitem.01:32600>, AdvWafer, <gregtech:gt.metaitem.01:32690>]]);
 
-//Full Solar Panel
+// --- Full Solar Panel
 recipes.addShaped(<GalacticraftCore:item.basicItem:1>, [
 [SolarPanel, SolarPanel, SolarPanel],
 [GCAlWire, BWafer, GCAlWire],
 [SolarPanel, SolarPanel, SolarPanel]]);
 
-//Energy Storage Module
+// --- Energy Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machineTiered>, [
 [CompressedSteel, <IC2:itemBatChargeRE:*>, CompressedSteel],
 [<ore:cableGt01AnyCopper>, <gregtech:gt.blockmachines:11>, <ore:cableGt01AnyCopper>],
 [BWafer, <IC2:itemBatChargeRE:*>, BWafer]]);
 
-//Energy Storage Cluster
+// --- Energy Storage Cluster
 recipes.addShaped(<GalacticraftCore:tile.machineTiered:8>, [
 [CompressedTi, <IC2:itemBatChargeAdv:*>, CompressedTi],
 [<ore:cableGt02Gold>, <gregtech:gt.blockmachines:12>, <ore:cableGt02Gold>],
 [AdvWafer, <IC2:itemBatChargeAdv:*>, AdvWafer]]);
 
-//Spin Truster
+// --- Spin Truster
 recipes.addShaped(<GalacticraftCore:tile.spinThruster>, [
 [CompressedTi, CompressedTi, CompressedTi],
 [<GalacticraftCore:item.fuelCanisterPartial:1>, AdvWafer, <GalacticraftCore:item.fuelCanisterPartial:1>],
 [<GalacticraftCore:item.engine>, HeavyPlating, <GalacticraftCore:item.engine>]]);
 
-//Display Screen
+// --- Display Screen
 recipes.addShaped(<GalacticraftCore:tile.viewScreen>, [
 [CompressedSteel,SolarPanel,CompressedSteel],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-//Telemetry Unit
+// --- Telemetry Unit
 recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 [<GalacticraftCore:item.basicItem:19>,CompressedTin,<gregtech:gt.metaitem.01:32680>],
 [BWafer, CompressedTin, BWafer],
 [CompressedTin, CompressedCopper, CompressedTin]]);
 
-//Arc Lamp
+// --- Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
 [DeshPlate, <GalacticraftCore:item.battery:*>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
-//Oxygen Gear
+// --- Oxygen Gear
 recipes.addShaped(<GalacticraftCore:item.oxygenGear>, [
 [OxygenPipe,OxygenPipe,OxygenPipe],
 [LVPump, <GalacticraftCore:item.oxygenConcentrator>, LVPump],
 [OxygenPipe, <gregtech:gt.metaitem.01:32600>, OxygenPipe]]);
 
-//Light Oxygen Tak
+// --- Light Oxygen Tak
 recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <ore:cellEmpty>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
-
+// -
 recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <IC2:itemFluidCell>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
-
+// -
 recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <GalacticraftCore:item.canister>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
-
+// -
 recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <GalacticraftCore:item.canister:1>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
 
-//Medium Oxygen Tank
+// --- Medium Oxygen Tank
 recipes.addShaped(<GalacticraftCore:item.oxygenTankMedFull:1800>, [
 [CompressedSteel, OxygenPipe,CompressedSteel],
 [CompressedSteel, <gregtech:gt.metaitem.01:32405>, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-//Heavy Oxygen Tank
+// --- Heavy Oxygen Tank
 recipes.addShaped(<GalacticraftCore:item.oxygenTankHeavyFull:2700>, [
 [DeshPlate, OxygenPipe,DeshPlate],
 [DeshPlate, <gregtech:gt.metaitem.01:32406>, DeshPlate],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
-//Sensor Lens
+// --- Sensor Lens
 recipes.addShaped(SensorLens, [
 [<ore:ringRedAlloy>, <ore:lensDiamond>,<ore:ringRedAlloy>],
 [<ore:circuitAdvanced>, <ore:lensReinforcedGlass>, <ore:circuitAdvanced>],
 [<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>]]);
 
-//Sensor Glasses
+// --- Sensor Glasses
 recipes.addShaped(<GalacticraftCore:item.sensorGlasses>, [
 [<ore:circuitElite>, MeteorScrew,<ore:circuitElite>],
 [DeshRing, <ore:boltDesh>, DeshRing],
 [SensorLens, <ore:craftingToolScrewdriver>, SensorLens]]);
 
-//Heavy Duty Pickaxe
+// --- Heavy Duty Pickaxe
 recipes.addShaped(<GalacticraftCore:item.steel_pickaxe>, [
 [CompressedSteel, CompressedSteel,CompressedSteel],
 [File, Stick, HHammer],
 [null, Stick, null]]);
 
-//Heavy Duty Axe
+// --- Heavy Duty Axe
 recipes.addShaped(<GalacticraftCore:item.steel_axe>, [
 [CompressedSteel, CompressedSteel, HHammer],
 [CompressedSteel, Stick, null],
 [File, Stick, null]]);
 
-//Heavy Duty Hoe
+// --- Heavy Duty Hoe
 recipes.addShaped(<GalacticraftCore:item.steel_hoe>, [
 [CompressedSteel, CompressedSteel, HHammer],
 [File, Stick, null],
 [null, Stick, null]]);
 
-//Heavy Duty Shovel
+// --- Heavy Duty Shovel
 recipes.addShaped(<GalacticraftCore:item.steel_shovel>, [
 [File, CompressedSteel, HHammer],
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Heavy Duty Sword
+// --- Heavy Duty Sword
 recipes.addShaped(<GalacticraftCore:item.steel_sword>, [
 [null, CompressedSteel, null],
 [File, CompressedSteel, HHammer],
 [null, Stick, null]]);
 
-//Heavy Duty Helm
+// --- Heavy Duty Helm
 recipes.addShaped(<GalacticraftCore:item.steel_helmet>, [
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [CompressedSteel, HHammer, CompressedSteel],
 [null, null, null]]);
 
-//Heavy Duty Chest Plate
+// --- Heavy Duty Chest Plate
 recipes.addShaped(<GalacticraftCore:item.steel_chestplate>, [
 [CompressedSteel, HHammer, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-//Heavy Duty Leggings
+// --- Heavy Duty Leggings
 recipes.addShaped(<GalacticraftCore:item.steel_leggings>, [
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [CompressedSteel, HHammer, CompressedSteel],
 [CompressedSteel, null, CompressedSteel]]);
 
-//Heavy Duty Boots
+// --- Heavy Duty Boots
 recipes.addShaped(<GalacticraftCore:item.steel_boots>, [
 [CompressedSteel, null, CompressedSteel],
 [CompressedSteel, HHammer, CompressedSteel],
 [null, null, null]]);
 
-//Desh Helmet
+// --- Desh Helmet
 recipes.addShaped(<GalacticraftMars:item.deshHelmet>, [
 [DeshPlate, DeshPlate, DeshPlate],
 [DeshPlate, HHammer, DeshPlate],
 [null, null, null]]);
 
-//Desh Chest Plate
+// --- Desh Chest Plate
 recipes.addShaped(<GalacticraftMars:item.deshChestplate>, [
 [DeshPlate, HHammer, DeshPlate],
 [DeshPlate, DeshPlate, DeshPlate],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
-//Desh Leggings
+// --- Desh Leggings
 recipes.addShaped(<GalacticraftMars:item.deshLeggings>, [
 [DeshPlate, DeshPlate, DeshPlate],
 [DeshPlate, HHammer, DeshPlate],
 [DeshPlate, null, DeshPlate]]);
 
-//Desh Boots
+// --- Desh Boots
 recipes.addShaped(<GalacticraftMars:item.deshBoots>, [
 [DeshPlate, null, DeshPlate],
 [DeshPlate, HHammer, DeshPlate],
 [null, null, null]]);
 
-//Titanium Pickaxe
+// --- Titanium Pickaxe
 recipes.addShaped(<GalacticraftMars:item.titanium_pickaxe>, [
 [CompressedTi, CompressedTi,CompressedTi],
 [File, Stick, HHammer],
 [null, Stick, null]]);
 
-//Titanium Axe
+// --- Titanium Axe
 recipes.addShaped(<GalacticraftMars:item.titanium_axe>, [
 [CompressedTi, CompressedTi, HHammer],
 [CompressedTi, Stick, null],
 [File, Stick, null]]);
 
-//Titanium Hoe
+// --- Titanium Hoe
 recipes.addShaped(<GalacticraftMars:item.titanium_hoe>, [
 [CompressedTi, CompressedTi, HHammer],
 [File, Stick, null],
 [null, Stick, null]]);
 
-//Titanium Shovel
+// --- Titanium Shovel
 recipes.addShaped(<GalacticraftMars:item.titanium_shovel>, [
 [File, CompressedTi, HHammer],
 [null, Stick, null],
 [null, Stick, null]]);
 
-//Titanium Sword
+// --- Titanium Sword
 recipes.addShaped(<GalacticraftMars:item.titanium_sword>, [
 [null, CompressedTi, null],
 [File, CompressedTi, HHammer],
 [null, Stick, null]]);
 
-//Desh Pickaxe
+// --- Desh Pickaxe
 recipes.addShaped(<GalacticraftMars:item.deshPick>, [
 [<gregtech:gt.metaitem.02:30512>, DeshPlate,DeshPlate],
 [File, <ore:stickDesh>, DeshPlate],
 [null, <ore:stickDesh>, HHammer]]);
 
-//Desh Axe
+// --- Desh Axe
 recipes.addShaped(<GalacticraftMars:item.deshAxe>, [
 [DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
 [DeshPlate, <ore:stickDesh>, HHammer],
 [File, <ore:stickDesh>, null]]);
 
-//Desh Hoe
+// --- Desh Hoe
 recipes.addShaped(<GalacticraftMars:item.deshHoe>, [
 [DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
 [File, <ore:stickDesh>, HHammer],
 [null, <ore:stickDesh>, null]]);
 
-//Desh Shovel
+// --- Desh Shovel
 recipes.addShaped(<GalacticraftMars:item.deshSpade>, [
 [File, DeshPlate, <gregtech:gt.metaitem.02:30512>],
 [null, <ore:stickDesh>, HHammer],
 [null, <ore:stickDesh>, null]]);
 
-//Desh Sword
+// --- Desh Sword
 recipes.addShaped(<GalacticraftMars:item.deshSword>, [
 [null, DeshPlate, <gregtech:gt.metaitem.02:30512>],
 [File, DeshPlate, HHammer],
 [null, <ore:stickDesh>, null]]);
 
-//Titanium Helm
+// --- Titanium Helm
 recipes.addShaped(<GalacticraftMars:item.titanium_helmet>, [
 [CompressedTi, CompressedTi, CompressedTi],
 [CompressedTi, HHammer, CompressedTi],
 [null, null, null]]);
 
-//Titanium Chest Plate
+// --- Titanium Chest Plate
 recipes.addShaped(<GalacticraftMars:item.titanium_chestplate>, [
 [CompressedTi, HHammer, CompressedTi],
 [CompressedTi, CompressedTi, CompressedTi],
 [CompressedTi, CompressedTi, CompressedTi]]);
 
-//Titanium Leggings
+// --- Titanium Leggings
 recipes.addShaped(<GalacticraftMars:item.titanium_leggings>, [
 [CompressedTi, CompressedTi, CompressedTi],
 [CompressedTi, HHammer, CompressedTi],
 [CompressedTi, null, CompressedTi]]);
 
-//Titanium Boots
+// --- Titanium Boots
 recipes.addShaped(<GalacticraftMars:item.titanium_boots>, [
 [CompressedTi, null, CompressedTi],
 [CompressedTi, HHammer, CompressedTi],
 [null, null, null]]);
 
-//Oxygen Vent
+// --- Oxygen Vent
 recipes.addShaped(AirVent, [
 [IronBars, CompressedTin, IronBars],
 [CompressedTin, CompressedSteel, CompressedTin],
 [IronBars, CompressedTin, IronBars]]);
 
-//Oxygen Fan
+// --- Oxygen Fan
 recipes.addShaped(<GalacticraftCore:item.airFan>, [
 [SteelScrew, <ore:craftingToolScrewdriver>, SteelScrew],
 [SteelRotor, BWafer, SteelRotor],
 [SteelScrew, <ore:craftingToolScrewdriver>, SteelScrew]]);
 
-//Oxygen Concentrator
+// --- Oxygen Concentrator
 recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 [CompressedSteel, AirVent, CompressedSteel],
 [CompressedSteel, <GalacticraftCore:item.airFan>, CompressedSteel],
 [<GalacticraftCore:item.canister>, LVPump, <GalacticraftCore:item.canister>]]);
 
-//Tier 1 Rocket Engine
+// --- Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
 [<gregtech:gt.metaitem.01:32731>, <gregtech:gt.metaitem.01:32476>, <minecraft:stone_button>],
 [HeavyPlating, <gregtech:gt.blockcasings3:14>, HeavyPlating],
 [HeavyPlating, <ore:craftingToolHardHammer>, HeavyPlating]]);
 
-//Tier 1 Booster
+// --- Tier 1 Booster
 recipes.addShaped(<GalacticraftCore:item.engine:1>, [
 [<GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>],
 [HeavyPlating, <GalacticraftCore:item.fuelCanisterPartial:1>, HeavyPlating],
 [HeavyPlating, AirVent, HeavyPlating]]);
 
-//Nose Cone
+// --- Nose Cone
 recipes.addShaped(<GalacticraftCore:item.noseCone>, [
 [<ore:craftingToolScrewdriver>, <ProjRed|Illumination:projectred.illumination.cagelamp2.inv:14>, <ore:craftingToolHardHammer>],
 [<ore:screwStainlessSteel>, HeavyPlating, <ore:screwStainlessSteel>],
@@ -973,118 +973,118 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:2>, [
 [HeavyDutyPlate, <GalacticraftMars:item.null:3>, HeavyDutyPlate],
 [HeavyDutyPlate, <ore:craftingToolSaw>, HeavyDutyPlate]]);
 
-//Oil Extractor
+// --- Oil Extractor
 recipes.addShaped(<GalacticraftCore:item.oilExtractor>, [
 [<ore:pipeTinySteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
 [<ore:screwStainlessSteel>, <GalacticraftCore:item.oilCanisterPartial:1001>, CompressedBronze],
 [<ProjRed|Illumination:projectred.illumination.lightbutton:14>, CompressedBronze, CompressedBronze]]);
 
-//Buggy Wheel
+// --- Buggy Wheel
 recipes.addShaped(<GalacticraftCore:item.buggymat>, [
 [CompressedSteel, <ore:plateRubber>, CompressedSteel],
 [<ore:plateRubber>, CompressedTi, <ore:plateRubber>],
 [CompressedSteel, <ore:plateRubber>, CompressedSteel]]);
 
-//Buggy Seat
+// --- Buggy Seat
 recipes.addShaped(<GalacticraftCore:item.buggymat:1>, [
 [null, RubberBlock, CompressedSteel],
 [RubberBlock, RubberBlock, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-//Buggy Storage Box
+// --- Buggy Storage Box
 recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
 [CompressedSteel, RubberBlock, CompressedSteel],
 [CompressedSteel, <IronChest:BlockIronChest>, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-//Frequencey Module
+// --- Frequencey Module
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 [CompressedAl, <gregtech:gt.metaitem.01:32690>, CompressedAl],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
 [CompressedTin, <GalacticraftCore:item.battery:*>, CompressedTin]]);
 
-//Walk away
+// --- Walk away
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 [DeshPlate, DeshPlate, DeshPlate],
 [null, <GemBlocksForGreg:tile.metalBlock7:5>, null],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
-//Thermal Cloth
+// --- Thermal Cloth
 recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:7> , [
 [AlFoil, <dreamcraft:item.MeteoricSteelString>, AlFoil],
 [<dreamcraft:item.MeteoricSteelString>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.MeteoricSteelString>],
 [AlFoil, <dreamcraft:item.MeteoricSteelString>, AlFoil]]);
 
-//Desh Sticks
+// --- Desh Sticks
 recipes.addShapeless(<GalacticraftMars:item.null:1>, [<gregtech:gt.metaitem.01:23884>]);
 
-//Desh Rod
+// --- Desh Rod
 recipes.addShapeless(<gregtech:gt.metaitem.01:23884>, [<GalacticraftMars:item.null:1>]);
 
-//Battery
+// --- Battery
 recipes.addShapeless(<GalacticraftCore:item.battery:*>, [<gregtech:gt.metaitem.01:32500>]);
 
-//Standard Wrenche
+// --- Standard Wrenche
 recipes.addShaped(<GalacticraftCore:item.standardWrench>, [
 [<ore:plateSteel>, <ore:craftingToolSaw>, <ore:plateSteel>],
 [<ore:screwSteel>, <ore:stickSteel>, <ore:screwSteel>],
 [<ore:craftingToolScrewdriver>, <ore:stickSteel>, <ore:craftingToolFile>]]);
 
-//Heavy Rocket Engine
+// --- Heavy Rocket Engine
 recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:1> , [
 [<GalacticraftCore:item.engine:1>, HeavyDutyPlate, <GalacticraftCore:item.engine:1>],
 [HeavyDutyPlate, HeavyDutyPlate, HeavyDutyPlate],
 [<GalacticraftCore:item.engine>, HeavyDutyPlate, <GalacticraftCore:item.engine>]]);
 
-//Heavy Nose Cone
+// --- Heavy Nose Cone
 recipes.addShaped(<GalacticraftMars:item.heavyNoseCone>, [
 [<ore:craftingToolScrewdriver>, <GalacticraftCore:item.noseCone>, <ore:craftingToolHardHammer>],
 [<ore:screwTitanium>, HeavyDutyPlate, <ore:screwTitanium>],
 [HeavyDutyPlate, HeavyDutyPlate, HeavyDutyPlate]]);
 
-//Red Core
+// --- Red Core
 recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>],
 [CompressedIron, <ore:lensDiamond>, CompressedIron],
 [<ore:ringRedAlloy>, CompressedIron, <ore:ringRedAlloy>]]);
 
-//Energy Beam Reflector
+// --- Energy Beam Reflector
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
 [DeshRing, <GalacticraftMars:item.itemBasicAsteroids:8>, DeshRing],
 [<ore:screwDesh>, <ore:stickDesh>, <ore:screwDesh>],
 [DeshPlate, <GemBlocksForGreg:tile.metalBlock7:5>, DeshPlate]]);
 
-//Energy Beam Receiver
+// --- Energy Beam Receiver
 recipes.addShaped(<GalacticraftMars:tile.beamReceiver>, [
 [CompressedTin, DeshRing, CompressedTin],
 [DeshRing, <GalacticraftMars:item.itemBasicAsteroids:8>, DeshRing],
 [CompressedTin, DeshRing, CompressedTin]]);
 
-//Short range Teleporter
+// --- Short range Teleporter
 recipes.addShaped(<GalacticraftMars:tile.telepadShort>, [
 [CompressedTi, DeshPlate, CompressedTi],
 [<GalacticraftMars:item.itemBasicAsteroids:8>, <IC2:blockMachine2>, <GalacticraftMars:item.itemBasicAsteroids:8>],
 [CompressedTi, DeshPlate, CompressedTi]]);
 
-//Cryogenic Chamber
+// --- Cryogenic Chamber
 recipes.addShaped(<GalacticraftMars:tile.marsMachine:4>, [
 [HeavyDutyPlate, <GraviSuite:itemSimpleItem:2>, HeavyDutyPlate],
 [<GalacticraftMars:item.null:3>, <CarpentersBlocks:itemCarpentersBed>, <GalacticraftMars:item.null:3>],
 [HeavyDutyPlate, <minecraft:clock>, HeavyDutyPlate]]);
 
-//Terraformer
+// --- Terraformer
 recipes.addShaped(<GalacticraftMars:tile.marsMachine>, [
 [CompressedTi, <GalacticraftCore:item.oxygenConcentrator>, CompressedTi],
 [DeshPlate, <gregtech:gt.blockcasings2:4>, DeshPlate],
 [<gregtech:gt.metaitem.01:32602>, <extracells:certustank>, <gregtech:gt.metaitem.01:32612>]]);
 
-//Launch Controller
+// --- Launch Controller
 recipes.addShaped(<GalacticraftMars:tile.marsMachine:8>, [
 [AdvWafer, <GalacticraftCore:item.basicItem:19>, AdvWafer],
 [DeshPlate, <gregtech:gt.blockmachines:11>, DeshPlate],
 [<ore:cableGt02Aluminium>, DeshPlate, <ore:cableGt02Aluminium>]]);
 
-//Grappler
+// --- Grappler
 recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [null, null, <ore:toolHeadArrowMeteoricSteel>],
 [String, String, String],
@@ -1164,7 +1164,7 @@ AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <Galacticr
 // --- Heavy Duty Plate Alloy T3
 AssemblerLiq.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 144, 1200, 512);
 
-//Oxygen Mask
+// --- Oxygen Mask
 AssemblerLiq.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 128);
 
 

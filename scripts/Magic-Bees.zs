@@ -47,8 +47,6 @@ recipes.remove(<MagicBees:capsule.void>);
 recipes.remove(<MagicBees:miscResources:17>);
 // -
 mods.thaumcraft.Infusion.removeRecipe(<MagicBees:miscResources:17>);
-// -
-mods.thaumcraft.Infusion.removeRecipe(<MagicBees:miscResources:17>);
 
 // --- Bee Collector's Jar
 recipes.remove(<MagicBees:effectJar>);
@@ -80,8 +78,6 @@ mods.thaumcraft.Arcane.removeRecipe(<MagicBees:miscResources:11>);
 
 // --- Essence of Fickle Permanence
 recipes.remove(<MagicBees:miscResources:12>);
-// -
-mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:12>);
 // -
 mods.thaumcraft.Crucible.removeRecipe(<MagicBees:miscResources:12>);
 
@@ -438,7 +434,7 @@ Mixer.addRecipe(<Forestry:fertilizerCompound> * 10, null, <gregtech:gt.metaitem.
 
 
 
-// --- Refreshing research_name
+// --- Refreshing Research Names
 
 
 // --- Essence of false Life

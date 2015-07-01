@@ -331,6 +331,30 @@ recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip:7>)
 // --- Router Utility
 recipes.remove(<ProjRed|Transportation:projectred.transportation.routerutil>);
 
+// --- Charging Bench
+recipes.remove(<ProjRed|Expansion:projectred.expansion.machine2:6>);
+
+// --- Teleposer
+recipes.remove(<ProjRed|Expansion:projectred.expansion.machine2:7>);
+
+// --- Frame Motor
+recipes.remove(<ProjRed|Expansion:projectred.expansion.machine2:8>);
+
+// --- Frame Linear Actuator
+recipes.remove(<ProjRed|Expansion:projectred.expansion.machine2:9>);
+
+// --- IC Workbench
+recipes.remove(<ProjRed|Fabrication:projectred.integration.icblock>);
+
+// --- IC Printer
+recipes.remove(<ProjRed|Fabrication:projectred.integration.icblock:1>);
+
+// --- IC Blue Print
+recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icblueprint>); 
+
+// --- IC Chip
+recipes.remove(<ProjRed|Fabrication:projectred.fabrication.icchip>);
+
 
 
 
@@ -748,6 +772,44 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>,
 [<ore:circuitGood>, <ore:plateEmerald>, <ore:circuitGood>],
 [<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 12000 as long}), <IC2:itemCasing:5>]]);
 
+// --- Jetpack
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:3200>, [
+[<ore:circuitBasic>, <ore:wireGt04Gold>, <ore:circuitBasic>],
+[<ProjRed|Expansion:projectred.expansion.emptybattery>, <minecraft:diamond_chestplate>, <ProjRed|Expansion:projectred.expansion.emptybattery>],
+[<ProjRed|Expansion:projectred.expansion.emptybattery>, <ore:plateGlowstone>, <ProjRed|Expansion:projectred.expansion.emptybattery>]]);
+
+// --- Charging Bench
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:6>, [
+[<ore:wireGt04Copper>, <ore:plateSteel>, <ore:wireGt04Copper>],
+[<ProjRed|Expansion:projectred.expansion.emptybattery>, <gregtech:gt.blockmachines:11>, <ProjRed|Expansion:projectred.expansion.emptybattery>],
+[<ore:circuitBasic>, <ProjRed|Core:projectred.core.part:16>, <ore:circuitBasic>]]);
+
+// --- Frame Motor
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:8>, [
+[<ore:circuitBasic>, <ore:plateSteel>, <ore:circuitBasic>],
+[<ProjRed|Core:projectred.core.part:16>, <gregtech:gt.blockmachines:11>, <ProjRed|Core:projectred.core.part:16>],
+[<ore:wireGt04Copper>, <gregtech:gt.metaitem.01:32600>, <ore:wireGt04Copper>]]);
+
+// --- Frame Linear Actuator
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:9>, [
+[<ore:plateSteel>, <ProjRed|Core:projectred.core.part:59>, <ore:plateSteel>],
+[<ProjRed|Core:projectred.core.part:16>, <gregtech:gt.blockmachines:4401>, <ProjRed|Core:projectred.core.part:16>],
+[<ProjRed|Core:projectred.core.part:18>, <ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:projectred.core.part:18>]]);
+
+// --- IC Workbench
+recipes.addShaped(<ProjRed|Fabrication:projectred.integration.icblock>, [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[<gregtech:gt.metaitem.01:17809>, <BuildCraft|Factory:autoWorkbenchBlock>, <gregtech:gt.metaitem.01:17809>],
+[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>]]);
+
+// --- IC Printer
+recipes.addShaped(<ProjRed|Fabrication:projectred.integration.icblock:1>, [
+[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+[<ore:plateObsidian>, <ore:stickSteel>, <ore:plateObsidian>],
+[<ore:stickSteel>, <gregtech:gt.blockmachines:321>, <ore:stickSteel>]]);
+
+
+
 
 
 // --- Assembler Recipes ---
@@ -824,6 +886,11 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <
 // --- Pressure Resistance Tube
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <Railcraft:part.plate:1>, 300, 32);
 
+// --- IC Chip
+AssemblerLiq.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 32); 
+
+// --- IC Blue Print
+AssemblerLiq.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icblueprint>, <gregtech:gt.metaitem.01:32712>, <gregtech:gt.metaitem.01:17526> * 4, <liquid:molten.redstone> * 144, 600, 32);
 
 
 
@@ -954,19 +1021,19 @@ Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:proje
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part>, <minecraft:stone_pressure_plate>, <dreamcraft:item.SimpleCircuitBoard>, 100, 16);
 
 // --- Silicon Ship
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 300, 64);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 600, 32);
 
 // --- Energized Silicon Ship
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:8>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:14>, 300, 64);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:8>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:14>, 600, 32);
 
 // --- Red Silicon Compound
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:42>, <gregtech:gt.metaitem.01:32307> * 0, 300, 64);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:42>, <gregtech:gt.metaitem.01:32307> * 0, 600, 32);
 
 // --- Glowing Silicon Compound
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:14>, <ProjRed|Core:projectred.core.part:43>, <gregtech:gt.metaitem.01:32307> * 0, 300, 64);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:14>, <ProjRed|Core:projectred.core.part:43>, <gregtech:gt.metaitem.01:32307> * 0, 600, 32);
 
 // --- Electrotine Silicon Compound
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:projectred.core.part:58>, <gregtech:gt.metaitem.01:32307> * 0, 300, 64);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:projectred.core.part:58>, <gregtech:gt.metaitem.01:32307> * 0, 600, 32);
 
 
 
@@ -996,7 +1063,7 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:58>, null, <gregtech:gt.metai
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, null, <minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:56> * 8, null, null, null, 400, 32);
 
 // --- Electrotine Dust
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 2, null, <gregtech:gt.metaitem.01:2303>, <minecraft:redstone>, null, null, null, 300, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 4, null, <gregtech:gt.metaitem.01:2303>, <minecraft:redstone>, null, null, null, 300, 8);
 
 // --- White Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2, null, null, null, 50, 8);
@@ -1017,7 +1084,7 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, null, <minecraft:glowsto
 // --- Yellow Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:11> * 2, null, null, null, 50, 8);
 // -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:20> * 2, null, null, null, 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:20> * 2, null, null, null, 50, 8);
 
 // --- Lime Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:10> * 2, null, null, null, 50, 8);
@@ -1042,24 +1109,24 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, null, <minecraft:glowsto
 // -
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:5> * 2, null, null, null, 50, 8);
 // -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:21> * 2, null, null, null, 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:21> * 2, null, null, null, 50, 8);
 
 // --- Brown Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:6> * 2, null, null, null, 50, 8);
 // -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:25> * 2, null, null, null, 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:25> * 2, null, null, null, 50, 8);
 
 // --- Green Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:2> * 2, null, null, null, 50, 8);
 // -
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, null, <minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:7> * 2, null, null, null, 50, 8);
 // -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:22> * 2, null, null, null, 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:22> * 2, null, null, null, 50, 8);
 
 // --- Red Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye:1> * 2, null, null, null, 50, 8);
 // -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:19> * 2, null, null, null, 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, null, <minecraft:glowstone_dust> * 2, <ExtraBees:misc:19> * 2, null, null, null, 50, 8);
 
 // --- Black Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, null, <minecraft:glowstone_dust> * 2, <minecraft:dye> * 2, null, null, null, 50, 8);

@@ -107,9 +107,6 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:6>);
 // --- Quicksilver
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
 
-// --- Iron Capped Wand
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCasting>);
-
 // --- Void Metal Ingot
 recipes.remove(<Thaumcraft:ItemResource:16>);
 
@@ -1698,7 +1695,7 @@ AssemblerLiq.addRecipe(<Thaumcraft:ItemResearchNotes:42>, <Thaumcraft:ItemResour
 
 
 
-// --- Autoclave Recipes
+// --- Autoclave Recipes ---
 
 
 

@@ -232,8 +232,7 @@ mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:6>);
 // --- Blazing Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:7>);
 
-// --- Rubberrised Electron Tubes //double remove ;-)
-mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:8>);
+// --- Rubberrised Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:8>);
 
 // --- Emerald Electron Tubes
@@ -295,9 +294,7 @@ recipes.remove(<Forestry:apiaristBoots>);
 
 // --- Candle
 recipes.remove(<Forestry:candle>);
-mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
-mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
-mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
+// -
 mods.forestry.Carpenter.removeRecipe(<Forestry:candle>);
 
 // --- Honeyed Slice
@@ -341,9 +338,6 @@ recipes.remove(<Forestry:catalogue>);
 
 // --- Crate
 mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
-
-// --- Apiarist Pipe
-//recipes.remove(<Forestry:item.PipeItemsPropolis>);
 
 // --- Torch
 mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
@@ -664,42 +658,42 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000,
 [<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
 <Forestry:royalJelly>, <Forestry:frameProven>, <Forestry:royalJelly>, 
 <Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
-<Forestry:alveary:*>, <Forestry:alveary:2>);
+<Forestry:alveary>, <Forestry:alveary:2>);
 
 // --- Alveary Fan
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:11>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:11>, 
 <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.02:21300>, <dreamcraft:item.SteelBars>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:11>], 
-<Forestry:alveary:*>, <Forestry:alveary:3>);
+<Forestry:alveary>, <Forestry:alveary:3>);
 
 // --- Alveary Heater
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:7>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:7>, 
 <IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>, 
 <Forestry:thermionicTubes:7>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:7>], 
-<Forestry:alveary:*>, <Forestry:alveary:4>);
+<Forestry:alveary>, <Forestry:alveary:4>);
 
 // --- Alveary Hygroregulator
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:32702>, <Forestry:thermionicTubes:6>, 
 <BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>, 
 <Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>], 
-<Forestry:alveary:*>, <Forestry:alveary:5>);
+<Forestry:alveary>, <Forestry:alveary:5>);
 
 // --- Alveary Stabiliser
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:4>, 
 <gregtech:gt.metaitem.01:32729>, <Forestry:beealyzer>, <gregtech:gt.metaitem.01:32729>, 
 <Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.01:17517>, <Forestry:thermionicTubes:4>], 
-<Forestry:alveary:*>, <Forestry:alveary:6>);
+<Forestry:alveary>, <Forestry:alveary:6>);
 
 // --- Alveary Sieve
 mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>, 
 <Forestry:craftingMaterial:3>, <Forestry:pollenFertile:*>, <Forestry:craftingMaterial:3>, 
 <Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>], 
-<Forestry:alveary:*>, <Forestry:alveary:7>);
+<Forestry:alveary>, <Forestry:alveary:7>);
 
 // --- Beealyzer
 mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
@@ -1226,12 +1220,6 @@ mods.forestry.Carpenter.addRecipe(550, null,
 <Forestry:peat>, <ExtraBees:propolis:2>, <Forestry:peat>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat> * 4);
-// -
-//mods.forestry.Carpenter.addRecipe(600, <liquid:creosote> * 1000, 
-//[<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, 
-//<Forestry:peat>, <ihl:item.ihlSimpleItem:8>, <Forestry:peat>, 
-//<Forestry:peat>, <Forestry:peat>, <Forestry:peat>],
-//null, <Forestry:bituminousPeat> * 5);
 
 // --- Basic Circuit Board
 mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
@@ -2273,7 +2261,7 @@ Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30711>, 2);
 
 
 
-// --- Alloy Smelter Recipes
+// --- Alloy Smelter Recipes ---
 
 
 // --- Wax Cast

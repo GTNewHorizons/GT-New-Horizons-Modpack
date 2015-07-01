@@ -95,42 +95,52 @@ mods.tconstruct.Casting.removeBasinRecipe(<minecraft:emerald_block>);
 
 // --- Block of Cobalt
 recipes.remove(<TConstruct:MetalBlock>);
-mods.tconstruct.Casting.removeBasinRecipe(<GemBlocksForGreg:tile.metalBlock0:9>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock>);
 
 // --- Block of Ardite
 recipes.remove(<TConstruct:MetalBlock:1>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:1>);
 
 // --- Block of Manyullyn
 recipes.remove(<TConstruct:MetalBlock:2>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:2>);
 
 // --- Block of Copper
 recipes.remove(<TConstruct:MetalBlock:3>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal>);
 
 // --- Block of Bronze
 recipes.remove(<TConstruct:MetalBlock:4>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:2>);
 
 // --- Block of Tin
 recipes.remove(<TConstruct:MetalBlock:5>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
 
 // --- Block of Aluminium
 recipes.remove(<TConstruct:MetalBlock:6>);
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:6>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<GalacticraftCore:tile.gcBlockCore:11>);
 
 // --- Block of Aluminium Brass
 recipes.remove(<TConstruct:MetalBlock:7>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:7>);
 
 // --- Block of Alumite
 recipes.remove(<TConstruct:MetalBlock:8>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
 
 // --- Block of Steel --- Refined Iron
 recipes.remove(<TConstruct:MetalBlock:9>);
+// -
 mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
 
 // --- Block of Ender ---
@@ -150,10 +160,12 @@ recipes.remove(<TConstruct:slime.gel:1>);
 
 // --- Seared Tank
 recipes.remove(<TConstruct:LavaTank>);
+// -
 recipes.remove(<TConstruct:LavaTankNether>);
 
 // --- Smeltery Control 
 recipes.remove(<TConstruct:Smeltery>);
+// -
 recipes.remove(<TConstruct:SmelteryNether>);
 
 // --- Clear Glass Pane
@@ -255,8 +267,11 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 
 // --- Oredict Obsidian Tool Rod
 oreDict.stickObsidian.remove(<TConstruct:toolRod:6>);
+// -
 oreDict.obsidianRod.remove(<TConstruct:toolRod:6>);
+// -
 oreDict.rodObsidian.remove(<TConstruct:toolRod:6>);
+// -
 oreDict.toolRodObsidian.add(<TConstruct:toolRod:6>);
 
 
@@ -312,6 +327,7 @@ recipes.remove(<TConstruct:MeatBlock>);
 
 // --- Wool Slabs
 recipes.remove(<TConstruct:WoolSlab1:*>);
+// -
 recipes.remove(<TConstruct:WoolSlab2:*>);
 
 // --- Graveyard Soil
@@ -343,6 +359,7 @@ recipes.remove(<TConstruct:SearedSlab:7>);
 
 // --- Seared Bricks
 recipes.remove(<TConstruct:Smeltery:2>);
+// -
 recipes.remove(<TConstruct:SmelteryNether:2>);
 
 // --- Smeltery Drain
@@ -644,22 +661,27 @@ recipes.remove(<TConstruct:Armor.DryingRack>);
 
 // --- Slime Crystal
 furnace.remove(<TConstruct:materials:1>);
+// -
 furnace.remove(<TConstruct:materials:17>);
 
 // --- Cobalt Ingot
 recipes.remove(<TConstruct:materials:3>);
+// -
 furnace.remove(<TConstruct:materials:3>);
 
 // --- Ardite Ingot
 recipes.remove(<TConstruct:materials:4>);
+// -
 furnace.remove(<TConstruct:materials:4>);
 
 // --- Manyullyn Ingot
 recipes.remove(<TConstruct:materials:5>);
+// -
 furnace.remove(<TConstruct:materials:5>);
 
 // --- Alluminium Brass Ingot
 recipes.remove(<TConstruct:materials:14>);
+// -
 furnace.remove(<TConstruct:materials:14>);
 
 // --- Alumite Ingot
@@ -667,6 +689,7 @@ recipes.remove(<TConstruct:materials:15>);
 
 // --- Obsidian Ingot
 recipes.remove(<TConstruct:materials:18>);
+// -
 furnace.remove(<TConstruct:materials:18>);
 
 // --- Jeweled Apple
@@ -1262,8 +1285,11 @@ recipes.addShaped(Grout * 4, [
 
 // --- Slime Soil
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+// -
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+// -
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+// -
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
 
 // --- Congealed Slime
@@ -1321,8 +1347,11 @@ recipes.addShaped(<TConstruct:ToolStationBlock:4>, [
 
 // --- Part Builder Slab
 recipes.addShapeless(<TConstruct:CraftingSlab:2>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:1>]);
+// -
 recipes.addShapeless(<TConstruct:CraftingSlab:2>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:2>]);
+// -
 recipes.addShapeless(<TConstruct:CraftingSlab:2>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:3>]);
+// -
 recipes.addShapeless(<TConstruct:CraftingSlab:2>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:4>]);
 
 // --- Pattern Chestplate
@@ -1360,8 +1389,11 @@ recipes.addShaped(<TConstruct:ToolStationBlock:13>, [
 
 // --- Stencil Table Slab
 recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:10>]);
+// -
 recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:11>]);
+ // -
 recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:12>]);
+// -
 recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TConstruct:ToolStationBlock:13>]);
 
 // --- Tool Forge Iron
@@ -2086,6 +2118,8 @@ recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 
 // --- Alloy Smelter Recipes ---
 
+
+
 // --- Green Slime Crystal
 AlloySmelter.addRecipe(<TConstruct:materials:1>, <TConstruct:CraftedSoil> * 2, <gregtech:gt.metaitem.01:32307> * 0, 400, 16);
 
@@ -2102,7 +2136,11 @@ AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>,
 AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
 
 
+
+
 // --- Assembler Recipes ---
+
+
 
 
 // --- Green SDX TNT
@@ -2115,7 +2153,11 @@ Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TCo
 Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27316> * 4, 2400, 512);
 
 
+
+
 // --- Chemical Reactor Recipes ---
+
+
 
 
 // --- Jeweled Apple
@@ -2128,7 +2170,11 @@ ChemicalReactor.addRecipe(<TConstruct:diamondApple>, <minecraft:diamond_block> *
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>], <TConstruct:materials:41>, 0, 1200);
 
 
+
+
 // --- Compressor Recipes ---
+
+
 
 
 // --- Block Of Manyullyn
@@ -2148,6 +2194,7 @@ Compressor.addRecipe(<TConstruct:Smeltery:2>, <TConstruct:materials:2> * 4);
 
 // --- Slime Crystal
 Compressor.addRecipe(<TConstruct:materials:1>, <TConstruct:CraftedSoil> * 4);
+// -
 Compressor.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 4);
 
 // --- Paper Stack
@@ -2155,7 +2202,10 @@ Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
 
 
 
+
+
 // --- Cutting Saw Recipes ---
+
 
 
 
@@ -2175,7 +2225,11 @@ SawLiq.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBl
 
 
 
+
+
 // --- Extractor Recipes ---
+
+
 
 
 // --- Blue Slime Ball
@@ -2188,7 +2242,11 @@ Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
 
 
 
+
+
 // --- Drying Reck Recipes ---
+
+
 
 
 // --- Coagulated Blood Drop
@@ -2198,7 +2256,13 @@ mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood:1>, <TConstruct:jerky:7
 mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>, 6000);
 
 
+
+
+
 // --- Macerator Recipes ---
+
+
+
 
 // --- Ardite Dust
 Macerator.addRecipe(<TConstruct:materials:38>, <TConstruct:materials:4>);
@@ -2220,7 +2284,11 @@ Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 
 
+
 // --- Mixer Recipes
+
+
+
 
 // --- Grout
 Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, <minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2, null, <liquid:water> * 2000, 120, 16);

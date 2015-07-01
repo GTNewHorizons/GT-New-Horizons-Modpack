@@ -54,7 +54,7 @@ recipes.remove(<GalaxySpace:item.AcceleratorTier2>);
 // --- Advanced Canister
 recipes.remove(<GalaxySpace:item.MethaneCanister:*>);
 
-//Methan Extractor
+// --- Methan Extractor
 recipes.remove(<GalaxySpace:item.MethaneExtractor>);
 
 // --- Lead Pickaxe
@@ -71,6 +71,15 @@ recipes.remove(<GalaxySpace:item.Lead_hoe>);
 
 // --- Lead Sword
 recipes.remove(<GalaxySpace:item.Lead_sword>);
+
+// --- Heavy Nose Cone
+recipes.remove(<GalaxySpace:item.HeavyDutyNoseCone>);
+
+// --- Heavy Rocket Engine
+recipes.remove(<GalaxySpace:item.HeavyDutyRocketEngine>);
+
+// --- Heavy Rocket Fins
+recipes.remove(<GalaxySpace:item.HeavyDutyRocketFins>);
 
 
 // --- Add Recipes
@@ -142,10 +151,31 @@ recipes.addShaped(<GalaxySpace:item.Lead_sword>, [
 [<GalaxySpace:item.ElectCrystall>, <ore:plateLead>, <GalaxySpace:item.Quantium>],
 [null, <ore:stickDesh>, null]]);
 
+// --- Heavy Nose Cone
+recipes.addShaped(<GalaxySpace:item.HeavyDutyNoseCone>, [
+[<ore:craftingToolScrewdriver>, <GalacticraftMars:item.heavyNoseCone>, <ore:craftingToolHardHammer>],
+[<ore:screwTungstenSteel>, <GalaxySpace:item.HeavyDutyPlateTier5>, <ore:screwTungstenSteel>],
+[<GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier5>]]);
+
+// --- Heavy Rocket Engine
+recipes.addShaped(<GalaxySpace:item.HeavyDutyRocketEngine> , [
+[<GalaxySpace:item.AcceleratorTier2>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.AcceleratorTier2>],
+[<GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier5>],
+[<GalacticraftMars:item.itemBasicAsteroids:1>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalacticraftMars:item.itemBasicAsteroids:1>]]);
+
+// --- Heavy Rocket Fins
+recipes.addShaped(<GalaxySpace:item.HeavyDutyRocketFins>, [
+[<ore:craftingToolHardHammer>, <GalaxySpace:item.HeavyDutyPlateTier4>, <ore:craftingToolFile>],
+[<GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier4>, <GalaxySpace:item.HeavyDutyPlateTier5>],
+[<GalaxySpace:item.HeavyDutyPlateTier5>, <ore:craftingToolSaw>, <GalaxySpace:item.HeavyDutyPlateTier5>]]);
 
 
 
-// --- Ordicts 
+
+// --- Ordicts ---
+
+
+ 
 
 // --- Lead
 oreDict.ingotLead.add(<GalaxySpace:item.LeadIngot>);
@@ -156,9 +186,14 @@ oreDict.oreMeteoricIron.add(<GalaxySpace:ceresmeteoricore>);
 // --- Aluminium
 oreDict.oreAluminium.add(<GalaxySpace:phobosorealum>);
 
+// --- Redstone Ore
+oreDict.oreRedstone.add(<GalaxySpace:venusredstone>);
+
 
 
 // --- Assembler Recipes
+
+
 
 
 // --- Sulfur Battery
@@ -179,6 +214,8 @@ Assembler.addRecipe(<GalaxySpace:item.MethaneCanister:1001>, <GalacticraftMars:i
 // --- Compressor Recipes ---
 
 
+
+
 // --- Frozen Glowstone
 Compressor.addRecipe(<GalaxySpace:europaglowstone>, <GalaxySpace:item.BlueCrystall> * 6);
 
@@ -187,11 +224,25 @@ Compressor.addRecipe(<GalaxySpace:europaglowstone>, <GalaxySpace:item.BlueCrysta
 // --- Impulsion Compressor Recipes
 
 
+
+
 // --- Compressed Lead Plates
 ImplosionCompressor.addRecipe([<GalaxySpace:item.LeadCom>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19089>, 4);
 
 // --- Compressed Nickel Plates
 ImplosionCompressor.addRecipe([<GalaxySpace:item.NickelComIngot>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19034>, 4);
+
+// --- Heavy Duty Plats Tier 4
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);
+
+// --- Heavy Duty Plats Tier 5
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier5>, <gregtech:gt.metaitem.01:84> * 4], <dreamcraft:item.HeavyDutyAlloyIngotT5>, 40);
+
+// --- Heavy Duty Plats Tier 6
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier6>, <gregtech:gt.metaitem.01:89> * 6], <dreamcraft:item.HeavyDutyAlloyIngotT6>, 48);
+
+// --- Heavy Duty Plats Tier 7
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier7>, <gregtech:gt.metaitem.01:327> * 9], <dreamcraft:item.HeavyDutyAlloyIngotT7>, 56);
 
 
 

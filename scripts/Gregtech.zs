@@ -543,13 +543,16 @@ recipes.remove(<gregtech:gt.metaitem.01:28344>);
 // ---  Knight Metall Ring
 recipes.remove(<gregtech:gt.metaitem.01:28362>);
 
-
-// --- GT Shaped and Shapeless picks removal
+// --- GT Shaped and Shapeless Picks removal
 
 recipes.remove(<gregtech:gt.metatool.01>);
+// -
 recipes.remove(<gregtech:gt.metatool.01:2>);
+// -
 recipes.remove(<gregtech:gt.metatool.01:4>);
+// -
 recipes.remove(<gregtech:gt.metatool.01:6>);
+// -
 recipes.remove(<gregtech:gt.metatool.01:8>);
 
 // --- Empty Shape
@@ -947,6 +950,36 @@ recipes.remove(<IC2:itemRTGPellet>);
 
 // --- Saltpeter
 recipes.remove(<gregtech:gt.metaitem.01:2836>);
+
+// --- Solar Panel 1EU
+recipes.remove(<gregtech:gt.metaitem.01:32750>);
+
+// --- Solar Panel 8EU
+recipes.remove(<gregtech:gt.metaitem.01:32751>);
+
+// --- Solar Panel 32EU
+recipes.remove(<gregtech:gt.metaitem.01:32752>);
+
+// --- Solar Panel 128 EU
+recipes.remove(<gregtech:gt.metaitem.01:32753>);
+
+// --- Solar Panel 512 EU
+recipes.remove(<gregtech:gt.metaitem.01:32754>);
+
+// --- Solar Panel 2048 EU
+recipes.remove(<gregtech:gt.metaitem.01:32755>);
+
+// --- Solar Panel 8192 EU
+recipes.remove(<gregtech:gt.metaitem.01:32756>);
+
+// --- Solar Panel 32768 EU
+recipes.remove(<gregtech:gt.metaitem.01:32757>);
+
+// --- Solar Panel 131072 EU
+recipes.remove(<gregtech:gt.metaitem.01:32758>);
+
+// --- Solar Panel 524288 EU
+recipes.remove(<gregtech:gt.metaitem.01:32759>);
 
 
 
@@ -2344,6 +2377,65 @@ recipes.addShaped(<gregtech:gt.metaitem.02:22532>, [[<ore:stickEnderPearl>, <ore
 // --- Long Endereye Rod
 recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:craftingToolHardHammer>, <ore:stickEnderEye>]]);
 
+// --- Solar Panel 1EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [
+[<ore:plateSilicon>, <TConstruct:GlassPane>, <ore:plateSilicon>],
+[<ore:circuitBasic>, <IC2:itemPartCarbonPlate>, <ore:circuitBasic>],
+[<ore:wireGt01RedAlloy>, <dreamcraft:item.AluminiumIronPlate>, <ore:wireGt01RedAlloy>]]);
+
+// --- Solar Panel 8EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32751>, [
+[<ore:plateSilicon>, <gregtech:gt.metaitem.01:32750>, <ore:plateSilicon>],
+[<ore:circuitGood>, <IC2:itemPartCarbonPlate>, <ore:circuitGood>],
+[<ore:wireGt01Tin>, <dreamcraft:item.ReinforcedAluminiumIronPlate>, <ore:wireGt01Tin>]]);
+
+// --- Solar Panel 32EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32752>, [
+[<ore:plateSilicon>, <gregtech:gt.metaitem.01:32751>, <ore:plateSilicon>],
+[<ore:circuitAdvanced>, <IC2:itemPartCarbonPlate>, <ore:circuitAdvanced>],
+[<ore:wireGt01Cobalt>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01Cobalt>]]);
+
+// --- Solar Panel 128 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32753>, [
+[<ore:plateDoubleSilicon>, <gregtech:gt.metaitem.01:32752>, <ore:plateDoubleSilicon>],
+[<ore:circuitElite>, <IC2:itemPartCarbonPlate>, <ore:circuitElite>],
+[<ore:wireGt01AnnealedCopper>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01AnnealedCopper>]]);
+
+// --- Solar Panel 512 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32754>, [
+[<ore:plateDoubleSilicon>, <gregtech:gt.metaitem.01:32753>, <ore:plateDoubleSilicon>],
+[<ore:circuitMaster>, <IC2:itemPartCarbonPlate>, <ore:circuitMaster>],
+[<ore:wireGt01Kanthal>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01Kanthal>]]);
+
+// --- Solar Panel 2048 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32755>, [
+[<ore:plateTripleSilicon>, <gregtech:gt.metaitem.01:32754>, <ore:plateTripleSilicon>],
+[<dreamcraft:item.HighEnergyFlowCircuit>, <IC2:itemPartCarbonPlate>, <dreamcraft:item.HighEnergyFlowCircuit>],
+[<ore:wireGt01TungstenSteel>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:wireGt01TungstenSteel>]]);
+
+// --- Solar Panel 8192 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32756>, [
+[<ore:plateTripleSilicon>, <gregtech:gt.metaitem.01:32755>, <ore:plateTripleSilicon>],
+[<dreamcraft:item.NanoCircuit>, <IC2:itemPartCarbonPlate>, <dreamcraft:item.NanoCircuit>],
+[<ore:wireGt01Osmium>, <dreamcraft:item.IrradiantReinforcedChromePlate>, <ore:wireGt01Osmium>]]);
+
+// --- Solar Panel 32768 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32757>, [
+[<ore:plateQuadrupleSilicon>, <gregtech:gt.metaitem.01:32756>, <ore:plateQuadrupleSilicon>],
+[<dreamcraft:item.PikoCircuit>, <IC2:itemPartCarbonPlate>, <dreamcraft:item.PikoCircuit>],
+[<ore:wireGt01YttriumBariumCuprate>, <AdvancedSolarPanel:asp_crafting_items:8>, <ore:wireGt01YttriumBariumCuprate>]]);
+
+// --- Solar Panel 131072 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32758>, [
+[<ore:plateQuintupleSilicon>, <gregtech:gt.metaitem.01:32757>, <ore:plateQuintupleSilicon>],
+[<dreamcraft:item.QuantumCircuit>, <IC2:itemPartCarbonPlate>, <dreamcraft:item.QuantumCircuit>],
+[<ore:wireGt01Superconductor>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <ore:wireGt01Superconductor>]]);
+
+// --- Solar Panel 524288 EU
+recipes.addShaped(<gregtech:gt.metaitem.01:32759>, [
+[<ore:plateDenseSilicon>, <gregtech:gt.metaitem.01:32758>, <ore:plateDenseSilicon>],
+[<AdvancedSolarPanel:asp_crafting_items:13>, <IC2:itemPartCarbonPlate>, <AdvancedSolarPanel:asp_crafting_items:13>],
+[<ore:itemSuperconductor>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:itemSuperconductor>]]);
 
 
 

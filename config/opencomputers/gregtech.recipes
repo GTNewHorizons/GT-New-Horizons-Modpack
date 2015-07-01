@@ -10,7 +10,10 @@
 # - gt_chemical     : Chemical Recipe
 # - gt_cnc          : CNC-Machine Recipe
 # - gt_cutter       : Cutter Recipe
+# - gt_fluidCanner  : Fluid Canner Recipe
+# - gt_formingPress : Forming Press Recipe
 # - gt_lathe        : Lathe Machine Recipe
+# - gt_laserEngraver: Laser Engraver Recipe
 # - gt_wiremill     : Wiremill Recipe
 #
 # For these types, there a few more options for inputs and outputs. A full

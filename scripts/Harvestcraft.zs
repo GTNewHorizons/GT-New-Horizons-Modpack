@@ -152,6 +152,12 @@ recipes.remove(<harvestcraft:pamcandleDeco16>);
 // --- White Candle
 recipes.remove(<harvestcraft:pamcandleDeco16>);
 
+// --- Churn
+recipes.remove(<harvestcraft:churn>);
+
+// --- Quern
+recipes.remove(<harvestcraft:quern>);
+
 
 
 // --- Adding Back Recipes ---

@@ -2645,6 +2645,9 @@ AssemblerLiq.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab:*> * 4, 
 // -
 AssemblerLiq.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab:*> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
 
+// --- Piston
+Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 200, 32);
+
 
 
 

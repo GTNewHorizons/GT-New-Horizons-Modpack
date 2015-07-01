@@ -1387,7 +1387,11 @@ AlloySmelter.addRecipe(<IC2:itemArmorBronzeLegs>, <gregtech:gt.metaitem.01:2300>
 
 
 // --- Solar Panels
-Assembler.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  600, 64);
+AssemblerLiq.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  <liquid:molten.tin> * 72, 600, 64);
+// -
+AssemblerLiq.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  <liquid:molten.solderingalloy> * 36, 600, 64);
+// -
+AssemblerLiq.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  <liquid:molten.lead> * 144, 600, 64);
 
 // --- Fluid/Solid Canning Machine
 Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 600, 64);

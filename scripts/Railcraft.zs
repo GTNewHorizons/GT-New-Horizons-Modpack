@@ -512,10 +512,10 @@ recipes.remove(<Railcraft:machine.gamma>);
 // --- Item Unloader ---
 recipes.remove(<Railcraft:machine.gamma:1>);
   
-//Adv Item Loader
+// --- Adv Item Loader
 recipes.remove(<Railcraft:machine.gamma:2>);
   
-//Adv Item Unloader
+// --- Adv Item Unloader
 recipes.remove(<Railcraft:machine.gamma:3>);
 
 // --- Fluid Loader ---
@@ -1431,22 +1431,10 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
 // --- Rebar ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 2);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 4);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 8);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 16);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 48);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar> * 48);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 
 // ---Standart Rail ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 4);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 6);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 8);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 16);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 32);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail> * 32);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail>);
 
 // --- Advanced Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:1> * 8);
@@ -1455,8 +1443,8 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:1> * 8);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:3> * 8);
 
 // --- Reinforced Rail ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 8);
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 32);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4>);
+//mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 32);
 
 // --- Electric Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:5> * 6);
@@ -1757,13 +1745,13 @@ AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
 // --- Assembler Recipes ---
 
 
-//Hobbyist´s Steam Engine
+// --- Hobbyist´s Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:7>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:3> * 10, 800, 256);
 
-//Commercial Steam Engine
+// --- Commercial Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:1> * 10, 800, 256);
 
-//Industrial Steam Engine
+// --- Industrial Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
 
 // --- Electric Shunting Wire ---
@@ -1880,17 +1868,21 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 // --- Macerator Recipes ---
 
-//Iron Dust
-
+// --- Iron Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta:1>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 6, <Railcraft:machine.beta:3>);
 
-//Bronze Dust
+// --- Bronze Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2300> * 10, <Railcraft:machine.beta:2>);
 
-//Steel Dust
+// --- Steel Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:13>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:14>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 10, <Railcraft:machine.beta:15>);
+// -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 6, <Railcraft:machine.beta:4>);
