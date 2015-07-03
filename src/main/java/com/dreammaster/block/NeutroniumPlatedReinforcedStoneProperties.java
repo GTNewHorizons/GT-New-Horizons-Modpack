@@ -32,7 +32,7 @@ public class NeutroniumPlatedReinforcedStoneProperties implements IExtendedBlock
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 1000; }
+    public float getResistance() { return 100000; }
 
     @Override
     public String getBlockName() { return "NeutroniumPlatedReinforcedStone"; }
