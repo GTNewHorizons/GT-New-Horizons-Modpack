@@ -15,6 +15,12 @@ public enum BlockList {
 	Mytryl(new ModSimpleBaseBlock(new MytrylProperties(), ModTabList.ModBlocksTab)),
 	Quantinum(new ModSimpleBaseBlock(new QuantinumProperties(), ModTabList.ModBlocksTab)),
 	PistonBlock(new ModSimpleBaseBlock(new PistonBlockProperties(), ModTabList.ModBlocksTab)),
+	BronzePlatedReinforcedStone(new ModSimpleBaseBlock(new BronzePlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
+	SteelPlatedReinforcedStone(new ModSimpleBaseBlock(new SteelPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
+	TitaniumPlatedReinforcedStone(new ModSimpleBaseBlock(new TitaniumPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
+	TungstensteelPlatedReinforcedStone(new ModSimpleBaseBlock(new TungstensteelPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
+	NaquadahPlatedReinforcedStone(new ModSimpleBaseBlock(new NaquadahPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
+	NeutroniumPlatedReinforcedStone(new ModSimpleBaseBlock(new NeutroniumPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
