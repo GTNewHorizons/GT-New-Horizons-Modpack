@@ -23,7 +23,7 @@ public class QuantinumProperties implements IExtendedBlockProperties
     public int getHarvestLevel() { return 0; }
 
     @Override
-    public int getOpacity() { return 0; }
+    public int getOpacity() { return 15; }
 
     @Override
     public float getHardness() { return 50.0F; }

@@ -23,7 +23,7 @@ public class SandClayProperties implements IExtendedBlockProperties
 	public int getHarvestLevel() { return 0; }
 
 	@Override
-	public int getOpacity() { return 0; }
+	public int getOpacity() { return 15; }
 
 	@Override
 	public float getHardness() { return 0.5F; }
@@ -32,7 +32,7 @@ public class SandClayProperties implements IExtendedBlockProperties
 	public float getLightLevel() { return 0; }
 
 	@Override
-	public float getResistance() { return 0; }
+	public float getResistance() { return 0.5F; }
 
 	@Override
 	public String getBlockName() { return "SandClayMix"; }

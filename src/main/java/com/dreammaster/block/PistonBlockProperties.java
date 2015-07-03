@@ -23,7 +23,7 @@ public class PistonBlockProperties implements IExtendedBlockProperties
     public int getHarvestLevel() { return 1; }
 
     @Override
-    public int getOpacity() { return 0; }
+    public int getOpacity() { return 15; }
 
     @Override
     public float getHardness() { return 0.5F; }

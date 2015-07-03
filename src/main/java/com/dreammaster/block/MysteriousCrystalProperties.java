@@ -20,7 +20,7 @@ public class MysteriousCrystalProperties implements IExtendedBlockProperties
     public boolean getUnbreakable() { return false;	}
 
     @Override
-    public int getHarvestLevel() { return 0; }
+    public int getHarvestLevel() { return 3; }
 
     @Override
     public int getOpacity() { return 0; }

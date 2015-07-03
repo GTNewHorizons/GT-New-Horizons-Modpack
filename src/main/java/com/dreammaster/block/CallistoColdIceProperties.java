@@ -20,19 +20,19 @@ public class CallistoColdIceProperties implements IExtendedBlockProperties
     public boolean getUnbreakable() { return false;	}
 
     @Override
-    public int getHarvestLevel() { return 3; }
+    public int getHarvestLevel() { return 2; }
 
     @Override
-    public int getOpacity() { return 0; }
+    public int getOpacity() { return 15; }
 
     @Override
-    public float getHardness() { return 50.0F; }
+    public float getHardness() { return 25.0F; }
 
     @Override
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 30; }
+    public float getResistance() { return 10; }
 
     @Override
     public String getBlockName() { return "CallistoColdIce"; }
