@@ -141,6 +141,18 @@ recipes.remove(<OpenBlocks:paintmixer>);
 // --- Canvas
 recipes.remove(<OpenBlocks:canvas>);
 
+// --- Xp Bottler
+recipes.remove(<OpenBlocks:xpbottler>);
+
+// --- Unprepared Stencil
+recipes.remove(<OpenBlocks:generic:10>);
+
+// --- Pencil
+recipes.remove(<OpenBlocks:generic:11>);
+
+// --- Drawing Table
+recipes.remove(<OpenBlocks:drawingtable>);
+
 
 
 // --- Adding Back Recipes ---
@@ -271,6 +283,12 @@ recipes.addShaped(<OpenBlocks:projector>, [
 // --- Canvas
 recipes.addShapeless(<OpenBlocks:canvas>, [<BiblioCraft:item.PaintingCanvas>]);
 
+// --- Drawing Table
+recipes.addShaped(<OpenBlocks:drawingtable>, [
+[<OpenBlocks:generic:10>, <OpenBlocks:generic:11>, <OpenBlocks:generic:10>],
+[<gregtech:gt.metaitem.01:17809>, <minecraft:crafting_table>, <gregtech:gt.metaitem.01:17809>],
+[<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
+
 
 
 
@@ -289,6 +307,16 @@ AssemblerLiq.addRecipe(<OpenBlocks:sky:1>, <OpenBlocks:sky>, <gregtech:gt.integr
 
 // --- Paint Mixer
 Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 32);
+
+// --- Xp Bottler
+Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <IC2:itemCasing:4> * 4, 600, 32);
+
+// --- Unprepared Stencil
+Assembler.addRecipe(<OpenBlocks:generic:10>, <TConstruct:blankPattern>, <Railcraft:part.plate>, 200, 16);
+
+// --- Pencil
+AssemblerLiq.addRecipe(<OpenBlocks:generic:11>, <minecraft:stick>, <gregtech:gt.metaitem.01:1865>, <liquid:molten.rubber> * 144, 100, 8);
+
 
 
 
@@ -365,10 +393,26 @@ mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 200, bes
 game.setLocalization("en_US", "tc.research_name.GOLDENEGG", "Golden Egg");
 game.setLocalization("en_US", "tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
 mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);
-//mods.thaumcraft.Research.addSibling("GOLDENEGG", "INFUSION");
 mods.thaumcraft.Research.setConcealed("GOLDENEGG", true);
 mods.thaumcraft.Research.addPage("GOLDENEGG", "OpenBlocks.research_page.GOLDENEGG");
 game.setLocalization("en_US", "OpenBlocks.research_page.GOLDENEGG", "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.");
 mods.thaumcraft.Infusion.addRecipe("GOLDENEGG",<minecraft:egg>, [<gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>], "alienis 75, bestia 50, victus 50, humanus 25",  <OpenBlocks:goldenegg>, 2);
 mods.thaumcraft.Research.addInfusionPage("GOLDENEGG", <OpenBlocks:goldenegg>);
 mods.thaumcraft.Warp.addToResearch("GOLDENEGG", 1);
+
+// --- Auto Enchanting Table
+mods.thaumcraft.Research.addResearch("AUTOENCHANTINGTABLE", "ARTIFICE", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", 10, 8, 12, <OpenBlocks:autoenchantmenttable>);
+game.setLocalization("en_US", "tc.research_name.AUTOENCHANTINGTABLE", "Auto Enchanting Table");
+game.setLocalization("en_US", "tc.research_text.AUTOENCHANTINGTABLE", "[OB] Auto Enchanting nice");
+mods.thaumcraft.Research.addPrereq("AUTOENCHANTINGTABLE", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.setConcealed("AUTOENCHANTINGTABLE", true);
+mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.1");
+game.setLocalization("en_US", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", "An Auto Enchantment Table can draw the experience from a Tank using the auto drink setting, this is then stored in its internal liquid buffer before usage. There's also a setting to automatically pull items to work on from an inventory on some side of the enchantment table, as well as resources or books to combine them with. A final setting allows for ejecting the finished item into an inventory at some side of the enchantment table. All of the settings can be set to work with certain sides of the block, this is done by left-clicking the sides of the enchantment table model shown in the individual settings panels.");
+mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.2");
+game.setLocalization("en_US", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", " The enchantment table model in the panels can also be rotated by holding the right mouse button and dragging the cursor around.");
+mods.thaumcraft.Arcane.addShaped("AUTOENCHANTINGTABLE", <OpenBlocks:autoenchantmenttable>, "aer 50, aqua 50, ignis 50, terra 50", [
+[<gregtech:gt.metaitem.01:17526>, <minecraft:book>, <gregtech:gt.metaitem.01:17526>],
+[<gregtech:gt.metaitem.01:27019>, <minecraft:enchanting_table>, <gregtech:gt.metaitem.01:27019>],
+[<gregtech:gt.metaitem.01:17308>, <minecraft:redstone_block>, <gregtech:gt.metaitem.01:17308>]]);
+mods.thaumcraft.Research.addArcanePage("AUTOENCHANTINGTABLE", <OpenBlocks:autoenchantmenttable>);
+mods.thaumcraft.Warp.addToResearch("AUTOENCHANTINGTABLE", 2);
