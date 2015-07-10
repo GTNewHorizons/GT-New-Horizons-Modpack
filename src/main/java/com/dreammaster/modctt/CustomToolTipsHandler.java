@@ -31,11 +31,12 @@ public class CustomToolTipsHandler
 
     public void InitSampleConfig()
     {
-        ItemToolTip tItt = _mCttFactory.createCustomItemToolTip(
-                "minecraft:stone", "Wow, such stone, much rock");
-
         _mCustomToolTips = new CustomToolTips();
-        _mCustomToolTips.getToolTips().add(tItt);
+        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:diamond", "§8F§4a§6n§4c§2y §4D§6i§9a§4m§7o§5n§1d§8s§2!"));
+        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:stone", "Wow, such stone, much rock"));
+        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:dirt", "§k U CAN'T READ"));
+        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:coal", "This is coal..."));
+        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:coal:1", "...and this charcoal!"));
     }
 
     /**

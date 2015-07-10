@@ -4,7 +4,9 @@ import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.block.BlockList;
+import com.dreammaster.command.CustomToolTipsCommand;
 import com.dreammaster.command.HazardousItemsCommand;
+import com.dreammaster.command.ItemInHandInfoCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
@@ -176,9 +178,12 @@ public class MainRegistry {
 	public void serverLoad(FMLServerStartingEvent pEvent)
 	{
 		if (CoreConfig.ModHazardousItems_Enabled)
-		{
 			pEvent.registerServerCommand(new HazardousItemsCommand());
-		}
+        if (CoreConfig.ModCustomToolTips_Enabled)
+            pEvent.registerServerCommand(new CustomToolTipsCommand());
+        if (CoreConfig.ModItemInHandInfo_Enabled)
+            pEvent.registerServerCommand(new ItemInHandInfoCommand());
+		
 	}
 	
 }

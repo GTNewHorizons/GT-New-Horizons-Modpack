@@ -33,7 +33,6 @@ public class HazardousItemsCommand implements ICommand
     @Override
     public int compareTo(Object arg0)
     {
-        // TODO Auto-generated method stub
         return 0;
     }
 

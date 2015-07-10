@@ -10,6 +10,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -34,10 +37,16 @@ public class CustomToolTips
             Init();
             if (pItem == null) return null;
 
-            String tUnlocName = pItem.getUnlocalizedName();
+            //String tUnlocName = pItem.getUnlocalizedName();
+            UniqueIdentifier UID = GameRegistry.findUniqueIdentifierFor(pItem.getItem());
+            String tCompareName = UID.toString();
+            if (pItem.getItemDamage() > 0)
+                tCompareName = String.format("%s:%d", tCompareName, pItem.getItemDamage());
+            
             for (ItemToolTip itt : mToolTips)
             {
-                if (itt.getUnlocalizedName().equalsIgnoreCase(tUnlocName)) return itt;
+                //if (itt.getUnlocalizedName().equalsIgnoreCase(tUnlocName)) return itt;
+                if (itt.mUnlocalizedName.equalsIgnoreCase(tCompareName)) return itt;
             }
 
             return null;
@@ -56,7 +65,7 @@ public class CustomToolTips
     @XmlType
     public static class ItemToolTip
     {
-        @XmlAttribute(name = "UnlocalizedName")
+        @XmlAttribute(name = "ItemName")
         protected String mUnlocalizedName;
 
         @XmlAttribute(name = "ToolTip")
