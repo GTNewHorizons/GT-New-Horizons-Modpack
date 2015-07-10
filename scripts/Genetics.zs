@@ -68,6 +68,21 @@ recipes.remove(<Genetics:labMachine:4>);
 // --- Lab Stand
 recipes.remove(<Genetics:labMachine>);
 
+// --- Splicer
+recipes.remove(<Genetics:advMachine>);
+
+// --- Integrated Casing
+recipes.remove(<Genetics:misc:11>);
+
+// --- Integrated CPU
+recipes.remove(<Genetics:misc:10>);
+
+// --- Analyst
+recipes.remove(<Genetics:analyst>);
+
+// --- Registry
+recipes.remove(<Genetics:registry>);
+
 
 
 
@@ -80,6 +95,20 @@ mods.forestry.Carpenter.addRecipe(3600, <liquid:molten.redstone> * 2880,
 <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
 <gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>], 
 <dreamcraft:item.Display>, <Genetics:database>);
+
+// --- Analyst
+mods.forestry.Carpenter.addRecipe(4800, <liquid:molten.redstone> * 4320, 
+[<Genetics:misc:9>, <Forestry:treealyzer>, <Genetics:misc:9>, 
+<Forestry:beealyzer>, <Genetics:misc:10>, <Forestry:flutterlyzer>, 
+<Genetics:misc:9>, <gregtech:gt.metaitem.01:17500>, <Genetics:misc:9>], 
+<dreamcraft:item.Display>, <Genetics:analyst>);
+
+// --- Registry
+mods.forestry.Carpenter.addRecipe(4800, <liquid:molten.redstone> * 4320, 
+[<Genetics:misc:9>, <ExtraTrees:database>, <Genetics:misc:9>, 
+<Botany:database>, <Genetics:misc:10>, <ExtraBees:dictionary>, 
+<Genetics:misc:9>, <ExtraTrees:databaseMoth>, <Genetics:misc:9>], 
+<dreamcraft:item.Display>, <Genetics:registry>);
 
 // --- Intergrated Circuit
 recipes.addShaped(<Genetics:misc:9>, [
@@ -141,6 +170,12 @@ recipes.addShaped(<Genetics:labMachine>, [
 [<ore:paneGlass>, <Genetics:misc>, <ore:paneGlass>],
 [<ore:plateStainlessSteel>, <ore:paneGlass>, <ore:plateStainlessSteel>]]);
 
+// --- Splicer
+recipes.addShaped(<Genetics:advMachine>, [
+[<ore:plateKanthal>, <ore:chestDiamond>, <ore:plateKanthal>],
+[<Genetics:misc:10>, <Genetics:misc:11>, <Genetics:misc:10>],
+[<ore:gearGtSmallDiamond>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallDiamond>]]);
+
 
 
 // --- Assembler Recipes ---
@@ -164,6 +199,11 @@ AssemblerLiq.addRecipe(<Genetics:misc:7>, <Genetics:misc:6> * 10, <gregtech:gt.i
 // --- Intergrated Circuit
 AssemblerLiq.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32715> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
 
+// --- Integrated Casing
+AssemblerLiq.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);
+
+// --- Integrated CPU
+AssemblerLiq.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.01:32712>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 128);
 
 
 // --- Mixer Recipes ---

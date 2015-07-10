@@ -20,6 +20,12 @@ recipes.remove(<Botany:trowelWood>);
 // --- Stone Trowel
 recipes.remove(<Botany:trowelStone>);
 
+// --- Iron Trowel
+recipes.remove(<Botany:trowelIron>);
+
+// --- Gold Trowel
+recipes.remove(<Botany:trowelGold>);
+
 // --- Diamond Trowel
 recipes.remove(<Botany:trowelDiamond>);
 
@@ -58,6 +64,18 @@ recipes.addShaped(<Botany:trowelWood>, [
 // --- Stone Trowel
 recipes.addShaped(<Botany:trowelStone>, [
 [<dreamcraft:item.StonePlate>, <ore:craftingToolHardHammer>, null],
+[<ore:craftingToolFile>, <ore:stickWood>, null],
+[null, null, <ore:stickWood>]]);
+
+// --- Iron Trowel
+recipes.addShaped(<Botany:trowelIron>, [
+[<ore:plateIron>, <ore:craftingToolHardHammer>, null],
+[<ore:craftingToolFile>, <ore:stickWood>, null],
+[null, null, <ore:stickWood>]]);
+
+// --- Gold Trowel
+recipes.addShaped(<Botany:trowelGold>, [
+[<ore:plateGold>, <ore:craftingToolHardHammer>, null],
 [<ore:craftingToolFile>, <ore:stickWood>, null],
 [null, null, <ore:stickWood>]]);
 

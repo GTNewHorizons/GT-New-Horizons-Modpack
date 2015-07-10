@@ -819,7 +819,7 @@ recipes.addShaped(<ProjRed|Fabrication:projectred.integration.icblock:1>, [
 [<ore:stickSteel>, <gregtech:gt.blockmachines:321>, <ore:stickSteel>]]);
 
 // --- Frames
-recipes.addShapeless(<MCFrames:mcframes.frame>, [<gregtech:gt.blockmachines:4905>]);
+recipes.addShapeless(<MCFrames:mcframes.frame>, [<gregtech:gt.blockmachines:4905>, <gregtech:gt.blockmachines:4905>]);
 
 
 

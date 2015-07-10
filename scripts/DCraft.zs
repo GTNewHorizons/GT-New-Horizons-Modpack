@@ -842,6 +842,25 @@ Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <Advanced
 // --- Enriched Naquadria Neutronium Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaNeutroniumSunnariumAlloy>, <dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <gregtech:gt.metaitem.01:22129>, 2400, 4096);
 
+// --- Reinforced Bronze Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.BronzePlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17300> * 6, <liquid:molten.steel> * 144, 200, 32);
+
+// --- Reinforced Steel Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.SteelPlatedReinforcedStone>, <IC2:blockAlloy>, <Railcraft:part.plate:1> * 6, <liquid:molten.aluminium> * 144, 400, 128);
+
+// --- Reinforced Titanium Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.TitaniumPlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17028> * 6, <liquid:molten.platinum> * 144, 600, 512);
+
+// --- Reinforced Tungsten Steel Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.TungstensteelPlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17316> * 6, <liquid:molten.iridium> * 144, 800, 2048);
+
+// --- Reinforced Naquadah Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.NaquadahPlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17324> * 6, <liquid:molten.osmium> * 144, 1000, 4096);
+
+// --- Reinforced Neutronium Plated Stone
+AssemblerLiq.addRecipe(<dreamcraft:tile.NeutroniumPlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17129> * 6, <liquid:molten.naquadria> * 144, 1200, 8192);
+
+
 
 
 // --- Autoclave Recipes ---

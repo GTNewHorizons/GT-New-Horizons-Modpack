@@ -36,6 +36,7 @@ val SteelPlate = <ore:plateSteel>;
 val BrickSteelHull = <gregtech:gt.blockmachines:4>;
 val IronFurnace = <IC2:blockMachine:1>;
 val ElectricBFurnace = <gregtech:gt.blockmachines:1000>;
+val SmallCoalBoiler = <gregtech:gt.blockmachines:100>;
 val BasicCircuit = <ore:circuitBasic>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val TinCable = <gregtech:gt.blockmachines:1246>;
@@ -55,7 +56,7 @@ var shutterModule = <gregtech:gt.metaitem.01:32749>;
 
 
 // --- Small Coal Boiler
-recipes.remove(<gregtech:gt.blockmachines:100>);
+recipes.remove(SmallCoalBoiler);
 
 // --- High Pressure Steam Furnace
 recipes.remove(HPFurnace);
@@ -994,7 +995,7 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
 
 
 // --- Small Coal Boiler
-recipes.addShaped(<gregtech:gt.blockmachines:100>, [
+recipes.addShaped(SmallCoalBoiler, [
 [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
 [<ore:plateBronze>, <ore:craftingToolWrench>, <ore:plateBronze>],
 [<minecraft:brick_block>, <minecraft:furnace>, <minecraft:brick_block>]]);
@@ -2443,7 +2444,10 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32759>, [
 [<ore:itemSuperconductor>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:itemSuperconductor>]]);
 
 // --- Frames
-recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<MCFrames:mcframes.frame>]);
+recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.frame>]);
+
+// --- Scaffolding
+recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<OpenBlocks:scaffolding>]);
 
 
 

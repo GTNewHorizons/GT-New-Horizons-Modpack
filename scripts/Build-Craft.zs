@@ -512,6 +512,9 @@ recipes.addShaped(AutoWorkB, [
 [<ore:gearGtSmallAnyIron>, <Forestry:factory2:2>, <ore:gearGtSmallAnyIron>],
 [<IC2:itemCasing:4>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:4>]]);
 
+// --- Paint Brush
+recipes.addShapeless(<BuildCraft|Core:paintbrush>, [<OpenBlocks:paintBrush>]);
+
 
 
 // --- Assembler Recipes --- 

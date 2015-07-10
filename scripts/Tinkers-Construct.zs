@@ -144,7 +144,7 @@ recipes.remove(<TConstruct:MetalBlock:9>);
 mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
 
 // --- Block of Ender ---
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:10>);
+//mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:10>);
 
 // --- Block of Glue
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:GlueBlock>);
@@ -194,6 +194,7 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
 
 // --- Casting Recipes ---
+
 
 // --- Alumium Ingot
 mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
@@ -721,6 +722,9 @@ recipes.remove(<TConstruct:Redstone.Landmine:2>);
 
 // --- Landmine Redstone
 recipes.remove(<TConstruct:Redstone.Landmine:3>);
+
+// --- Aluminium Ingot
+furnace.remove(<TConstruct:materials:11>);
 
 
 
