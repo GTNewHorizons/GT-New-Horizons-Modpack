@@ -12,6 +12,7 @@ public enum ItemList {
 	AdvancedProcessorBoard(new ModSimpleBaseItem("AdvancedProcessorBoard", ModTabList.ModCircuitsTab)),
 	ArditePlate(new ModSimpleBaseItem("ArditePlate", ModTabList.ModGenericTab)),
 	AsteroidsStoneDust(new ModSimpleBaseItem("AsteroidsStoneDust",  ModTabList.ModGenericTab)),
+	BedrockiumPlate(new ModSimpleBaseItem("BedrockiumPlate",  ModTabList.ModGenericTab)),
 	CallistoIceDust(new ModSimpleBaseItem("CallistoIceDust",  ModTabList.ModGenericTab)),
 	CallistoIceIngot(new ModSimpleBaseItem("CallistoIceIngot",  ModTabList.ModGenericTab)),
 	CallistoIceColdIngot(new ModSimpleBaseItem("CallistoIceColdIngot",  ModTabList.ModGenericTab)),
