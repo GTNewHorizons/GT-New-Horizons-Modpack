@@ -1,0 +1,50 @@
+{
+
+  // This is the CORE FILE. Do not edit. The RF cost per tick for spawners of each entity type is multiplied by these values
+  "costMultiplier": {
+
+    "Zombie" : "1",
+    "Creeper" : "1.5",
+    "Skeleton" : "2",
+    "Spider" : "1",
+    "CaveSpider" : "1",
+    "Silverfish" : "1",
+    "Witch" : "5",
+    "Slime" : "5",
+    "Enderman" : "10",
+    "SpecialMobs.SpecialEnderman" : "10",
+
+    "LavaSlime" : "2",
+    "PigZombie" : "5",
+    "Ghast" : "10",
+    "Blaze" : "5",
+
+    "SnowMan" : "1",
+    "VillagerGolem" : "10",
+    "Villager" : "1",
+
+    "Wolf" : "1",
+    "Ozelot" : "1",
+    "EntityHorse" : "1",
+    "Bat" : "0.5",
+
+    "Squid" : "0.5",
+    "Chicken" : "0.5",
+    "Sheep" : "0.5",
+    "Cow" : "0.5",
+    "Pig" : "0.5",
+    "MushroomCow" : "1",
+
+    "enderzoo.Enderminy" : "10",
+    "enderzoo.ConcussionCreeper" : "1.5",
+    "enderzoo.enderzoo.FallenKnight" : "1",
+    "enderzoo.WitherWitch" : "3",
+
+    "enderio.witherSkeleton" : "20"
+  },
+
+  "blackList": [
+    "VillagerGolem",
+    "Villager"
+  ]
+}

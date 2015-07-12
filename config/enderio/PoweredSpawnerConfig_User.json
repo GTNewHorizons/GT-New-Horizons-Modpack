@@ -1,0 +1,9 @@
+{
+
+  "_comment": "New entities are added, one already in _Core will have their values replaced with those in this file",
+  "costMultiplier": {
+  },
+  
+  "_comment": "Adding a blackList section will complete replace the one in the core file. Make sure you add a comma at the end of this line if adding a blacklist"
+
+}

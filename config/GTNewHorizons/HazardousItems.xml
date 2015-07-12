@@ -16,4 +16,7 @@
     <Item UnlocalizedName="LavaTank.Tank" ExactNameMatch="true">
         <DamageEffect Source="lava" Amount="0.5"/>
     </Item>
+    <Item UnlocalizedName="item.BedrockiumPlate" ExactNameMatch="true">
+        <PotionEffect PotionID="2" TickDuration="200" Level="4"/>
+    </Item>
 </HazardousItemList>

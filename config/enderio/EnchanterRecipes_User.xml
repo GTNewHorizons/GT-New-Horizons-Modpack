@@ -1,0 +1,27 @@
+<enchaterRecipes>
+
+<!-- An example of how to add the enchantments from Thaumcraft.
+ 
+  <enchantment name="enchantment.potency" costPerLevel="5">
+    <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="1"/>
+  </enchantment>
+
+  <enchantment name="enchantment.frugal" costPerLevel="5">
+    <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="4" />
+  </enchantment>
+
+  <enchantment name="enchantment.wandfortune" costPerLevel="5">
+    <itemStack modID="Thaumcraft" itemName="blockCustomPlant" itemMeta="1"/>
+  </enchantment>
+
+  <enchantment name="enchantment.haste" costPerLevel="5">
+    <itemStack modID="Thaumcraft" itemName="blockMetalDevice" itemMeta="8"/>
+  </enchantment>
+
+  <enchantment name="enchantment.repair" costPerLevel="15">
+    <itemStack modID="Thaumcraft" itemName="BlockJarNodeItem"/>
+  </enchantment>
+  
+ -->
+
+</enchaterRecipes>

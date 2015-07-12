@@ -5,10 +5,12 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.Assembler;
+import mods.gregtech.AssemblerLiq;
 import mods.gregtech.BlastFurnace;
+import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.AlloySmelter;
-import mods.ic2.Compressor;
 
 
 
@@ -244,10 +246,15 @@ recipes.remove(BedDrum);
 
 // --- Bedrockium Ingot
 recipes.remove(BedrockiumIngot);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ExtraUtilities:bedrockiumIngot>);
 
 // --- Block Of Bedrockium
 recipes.remove(BedrockiumBlock);
+// -
 furnace.remove(BedrockiumBlock);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:block_bedrockium>);
 
 // --- Angel Block
 recipes.remove(AngelBlock);
@@ -267,18 +274,11 @@ recipes.remove(WateringCan);
 // --- Magnum Torch
 recipes.remove(MagnumTorch);
 
-// --- Golden Bag of Holding
-recipes.remove(<ExtraUtilities:golden_bag>);
-
 // --- Muffler
 recipes.remove(Muffler);
 
 // --- Rain Muffler
 recipes.remove(RainMuffler);
-
-
-// --- Pipes ---
-
 
 // --- Transfer Pipe
 recipes.remove(TransferPipe);
@@ -321,10 +321,6 @@ recipes.remove(EnergyTransferN);
 
 // --- Hyper Energy Transfer Node
 recipes.remove(HyperETransferN);
-
-
-// --- Compressed Blocks ---
-
 
 // --- Compressed Cobblestone
 recipes.remove(<ExtraUtilities:cobblestone_compressed>);
@@ -377,6 +373,48 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 // --- Trash Can
 recipes.remove(<ExtraUtilities:trashcan>);
 
+// --- Thickened Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2>);
+// -
+furnace.remove(<ExtraUtilities:decorativeBlock2>);
+
+// --- Sandy Glass
+recipes.remove(<ExtraUtilities:decorativeBlock1:9>);
+
+// --- Golden Edge Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:4>);
+
+// --- Etched Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:1>);
+
+// --- Glass Bricks
+recipes.remove(<ExtraUtilities:decorativeBlock2:2>);
+
+// --- Carved Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:3>);
+
+// --- Swirling Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:6>);
+
+// --- Heart Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:8>);
+
+// --- Squared Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:9>);
+
+// --- Dark Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:10>);
+
+// --- Reinforced Dark Glass
+recipes.remove(<ExtraUtilities:decorativeBlock2:11>);
+
+// --- Carved Imminence Stone
+recipes.remove(<ExtraUtilities:decorativeBlock1:14>);
+
+// --- Portal to the Last Millennium
+recipes.remove(<ExtraUtilities:dark_portal:2>);
+
+
 
 
 // --- Add Recipes ---
@@ -393,15 +431,6 @@ recipes.addShaped(EnderPump, [
 [EnderObsidian, AdvCircuit, EnderObsidian],
 [<BuildCraft|Factory:tankBlock>, EnderCore, <BuildCraft|Factory:tankBlock>],
 [EnderObsidian, Miner, EnderObsidian]]);
-
-// --- Burnt Quartz
-AlloySmelter.addRecipe(BurntQuartz, <minecraft:quartz_block>, <gregtech:gt.metaitem.01:2816>, 80, 64);
-
-// --- Obsidain Glass
-AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <gregtech:gt.metaitem.01:2890> * 4, <gregtech:gt.metaitem.01:2804> * 4, 200, 8);
-AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <gregtech:gt.metaitem.01:2890> * 4, <minecraft:obsidian> * 4, 400, 16);
-AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2804> * 4, 400, 16);
-AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <minecraft:glass> * 4, <minecraft:obsidian> * 4, 600, 16);
 
 // --- Ender-Infused Obsidian
 recipes.addShaped(EnderObsidian, [
@@ -421,17 +450,6 @@ recipes.addShaped(DiamondMatrix, [
 [<ore:plateDiamond>, <ore:circuitMaster>, <ore:plateDiamond>],
 [EnderCore, <ore:plateDiamond>, EnderCore]]);
 
-// --- Magical Wood
-recipes.addShaped(MagicalWood * 4, [
-[ThaumiumPlate, SilverwoodLog, ThaumiumPlate],
-[SilverwoodLog, CarminiteReactor, SilverwoodLog],
-[ThaumiumPlate, SilverwoodLog, ThaumiumPlate]]);
-// - Alternate Recipe
-recipes.addShaped(MagicalWood * 4, [
-[ThaumiumPlate, GreatwoodLog, ThaumiumPlate],
-[GreatwoodLog, CarminiteReactor, GreatwoodLog],
-[ThaumiumPlate, GreatwoodLog, ThaumiumPlate]]);
-
 // --- Blackout Curtains
 recipes.addShaped(<ExtraUtilities:curtains> * 2, [
 [<minecraft:carpet:15>, <minecraft:carpet:15>, null],
@@ -443,12 +461,6 @@ recipes.addShaped(RSClock, [
 [RedAlloyPlate, WoodGear, RedAlloyPlate],
 [WoodGear, Clock, WoodGear],
 [RedAlloyPlate, RedAlloyRod, RedAlloyPlate]]);
-
-// --- Glowstone Glass
-recipes.addShaped(<ExtraUtilities:decorativeBlock2:7>, [
-[<ore:dustGlowstone>, <ore:plateGlowstone>, <ore:dustGlowstone>],
-[<ore:plateGlowstone>, Plank, <ore:plateGlowstone>],
-[<ore:dustGlowstone>, <ore:plateGlowstone>, <ore:dustGlowstone>]]);
 
 // --- Quarry Upgrade Base
 recipes.addShaped(UpgradeBase, [
@@ -551,7 +563,7 @@ recipes.addShaped(BreadthFirstUp, [
 [RedAlloyPlate, Wrench, RedAlloyPlate],
 [SpeedUp, SpeedUp, SpeedUp],
 [RedAlloyPlate, null, RedAlloyPlate]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(BreadthFirstUp, [
 [RedAlloyPlate, null, RedAlloyPlate],
 [SpeedUp, SpeedUp, SpeedUp],
@@ -583,18 +595,9 @@ recipes.addShaped(Drum, [
 
 // --- Bedrock Drum
 recipes.addShaped(BedDrum, [
-[BedrockiumIngot, BedrockiumIngot, BedrockiumIngot],
-[BedrockiumIngot, Cauldron, BedrockiumIngot],
-[BedrockiumIngot, BedrockiumIngot, BedrockiumIngot]]);
-
-// --- Bedrockium Block
-ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
-
-// --- Angel Block
-recipes.addShaped(AngelBlock, [
-[DenseObsidianPlate, GoldFoil, DenseObsidianPlate],
-[GoldFoil, HeliumCell, GoldFoil],
-[DenseObsidianPlate, GoldFoil, DenseObsidianPlate]]);
+[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <ExtraUtilities:drum>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>]]);
 
 // --- Conveyor Belt
 recipes.addShaped(Conveyor, [
@@ -619,7 +622,7 @@ recipes.addShaped(WateringCan, [
 [HHammer, SteelRing, Screwdriver],
 [IronPlate, IronPlate, IronRod],
 [IronPlate, IronPlate, SteelScrew]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(WateringCan, [
 [Screwdriver, SteelRing, HHammer],
 [IronPlate, IronPlate, IronRod],
@@ -630,12 +633,6 @@ recipes.addShaped(MagnumTorch, [
 [null, Nitor, null],
 [Chandelier, SSteelRod, Chandelier],
 [Chandelier, SSteelRod, Chandelier]]);
-
-// --- Golden Bag of Holding
-recipes.addShaped(<ExtraUtilities:golden_bag>, [
-[<Thaumcraft:ItemResource:7>, <ore:plateNetherStar>, <Thaumcraft:ItemResource:7>],
-[<ore:foilGold>, <Thaumcraft:FocusPouch>, <ore:foilGold>],
-[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
 
 // --- Muffler
 recipes.addShaped(Muffler, [
@@ -648,10 +645,6 @@ recipes.addShaped(RainMuffler, [
 [AnyWool, Noteblock, AnyWool],
 [Noteblock, Muffler, Noteblock],
 [AnyWool, Noteblock, AnyWool]]);
-
-
-// --- Pipes ---
-
 
 // --- Transfer Pipe
 recipes.addShaped(TransferPipe, [
@@ -688,7 +681,7 @@ recipes.addShaped(CrossoverPipe * 4, [
 [HHammer, TransferPipe, SteelScrew],
 [TransferPipe, TransferPipe, TransferPipe],
 [SteelScrew, TransferPipe, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(CrossoverPipe * 4, [
 [Screwdriver, TransferPipe, SteelScrew],
 [TransferPipe, TransferPipe, TransferPipe],
@@ -705,7 +698,7 @@ recipes.addShaped(EExtractionPipe, [
 [ElectrumPlate, HHammer, ElectrumPlate],
 [ElectrumPlate, EnergyPipe, ElectrumPlate],
 [Wrench, EnergyPipe, null]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(EExtractionPipe, [
 [ElectrumPlate, HHammer, ElectrumPlate],
 [ElectrumFoil, EnergyPipe, ElectrumFoil],
@@ -716,7 +709,7 @@ recipes.addShaped(ItemRetrievalN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(ItemRetrievalN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
@@ -727,7 +720,7 @@ recipes.addShaped(FluidRetrievalN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(FluidRetrievalN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
@@ -738,7 +731,7 @@ recipes.addShaped(ItemTransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
 [SteelGear, BrassItemPipe, SteelGear]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(ItemTransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
@@ -749,7 +742,7 @@ recipes.addShaped(FluidTransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
 [SSteelPlate, LVPump, SSteelPlate]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(FluidTransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
@@ -760,7 +753,7 @@ recipes.addShaped(EnergyTransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
 [SSteelPlate, CopperCable12x, SSteelPlate]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(EnergyTransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
@@ -771,7 +764,7 @@ recipes.addShaped(HyperETransferN, [
 [HHammer, TransferPipe, Wrench],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
 [ChromePlate, ElectrumCable12x, ChromePlate]]);
-// - Alternate Recipe
+// -
 recipes.addShaped(HyperETransferN, [
 [Wrench, TransferPipe, HHammer],
 [EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
@@ -783,7 +776,161 @@ recipes.addShaped(<ExtraUtilities:trashcan>, [
 [<ore:plateIron>, <ore:gemEnderPearl>, <ore:plateIron>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
+// --- Thickened Glass
+recipes.addShapeless(<ExtraUtilities:decorativeBlock2>, [<TConstruct:GlassBlock>]);
+
+// --- Unstable Ingot
+recipes.addShapeless(<ExtraUtilities:unstableingot>, [<ExtraUtilities:unstableingot:2>]);
 
 
-//Precision Shears
+
+// --- Alloy Smelter Recipes ---
+
+
+
+// --- Burnt Quartz
+AlloySmelter.addRecipe(BurntQuartz, <minecraft:quartz_block>, <gregtech:gt.metaitem.01:2816>, 80, 64);
+
+// --- Obsidain Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:5>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.metaitem.01:2804> * 4, 200, 8);
+
+// --- Golden Edge Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:4>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.metaitem.01:2086>, 200, 8);
+
+// --- Carved Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:3>, <ExtraUtilities:decorativeBlock2>, <minecraft:gunpowder>, 200, 8);
+
+// --- Glowstone Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:7>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.metaitem.01:17811> * 4, 400, 16); 
+
+// --- Heart Glass
+AlloySmelter.addRecipe(<ExtraUtilities:decorativeBlock2:8>, <ExtraUtilities:decorativeBlock2>, <minecraft:dye:9>, 200, 8);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+// --- Bedrockium Ingot
+Assembler.addRecipe(BedrockiumIngot, <ExtraUtilities:cobblestone_compressed:3> * 4, <minecraft:diamond_block>, 600, 256);
+
+// --- Etched Glass
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:1>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.integrated_circuit:1> * 0, 100, 8);
+
+// --- Glass Bricks
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:2>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.integrated_circuit:4> * 0, 100, 8);
+
+// --- Swirling Glass
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:6>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.integrated_circuit:5> * 0, 100, 8);
+
+// --- Squared Glass
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:9>, <ExtraUtilities:decorativeBlock2>, <gregtech:gt.integrated_circuit:2> * 0, 100, 8);
+
+// --- Dark Glass
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:decorativeBlock2>, <ExtraUtilities:curtains>, 200, 16);
+
+// --- Reinforced Dark Glass
+Assembler.addRecipe(<ExtraUtilities:decorativeBlock2:11>, <ExtraUtilities:decorativeBlock2:10>, <gregtech:gt.metaitem.01:2804> * 4, 400, 32);
+
+
+
+
+// --- Implosion Compressor Recipes ---
+
+
+
+// --- Bedrockium Ingot
+ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
+
+// --- Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed>, <minecraft:cobblestone> * 9, 1);
+
+// --- Double Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed> * 9, 2);
+
+// --- Triple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:1> * 9, 4);
+
+// --- Quadruple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2> * 9, 6);
+
+// --- Quintuple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:cobblestone_compressed:3> * 9, 8);
+
+// --- Sextuple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:5>, <ExtraUtilities:cobblestone_compressed:4> * 9, 10);
+
+// --- Septuple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:6>, <ExtraUtilities:cobblestone_compressed:5> * 9, 16);
+
+// --- Octuple Compressed Cobblestone
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:cobblestone_compressed:6> * 9, 24);
+
+
+
+// --- Precision Shears
 oreDict.craftingToolShears.add(<ExtraUtilities:shears:16>);
+
+
+
+// --- Thaumcraft Stuff ---
+
+
+
+// --- Angel Block
+mods.thaumcraft.Research.addResearch("ANGELBLOCK", "ARTIFICE", "aer 200, lucrum 200, ignis 100, terra 200", -4, 17, 12, <ExtraUtilities:angelBlock>);
+game.setLocalization("en_US", "tc.research_name.ANGELBLOCK", "Angel Block");
+game.setLocalization("en_US", "tc.research_text.ANGELBLOCK", "[EU] A Block in the Air");
+mods.thaumcraft.Research.addPrereq("ANGELBLOCK", "MAGICALWOOD", false);
+mods.thaumcraft.Research.setConcealed("ANGELBLOCK", true);
+mods.thaumcraft.Research.addPage("ANGELBLOCK", "ExtraUtilities.research_page.ANGELBLOCK");
+game.setLocalization("en_US", "ExtraUtilities.research_page.ANGELBLOCK", "The Angel Block is a block added by the Extra Utilities mod. This block is unique in that it does not need another block for it to be built against, so it can be placed in mid-air. When right-clicking the block will be placed in the direction you're looking. The block can't be placed diagonally in mid-air. No tool is required to break the block and it is broken instantly, even without any tools. After breaking the block does not drop, but rather instantly returns to the player's inventory.");
+mods.thaumcraft.Arcane.addShaped("ANGELBLOCK", <ExtraUtilities:angelBlock>, "aer 50", [
+[<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:29351>, <gregtech:gt.metaitem.01:17540>],
+[<IC2:itemDensePlates:7>, <Automagy:blockRunedObsidian>, <IC2:itemDensePlates:7>],
+[<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:29351>, <gregtech:gt.metaitem.01:17540>]]);
+mods.thaumcraft.Research.addArcanePage("ANGELBLOCK", <ExtraUtilities:angelBlock>);
+mods.thaumcraft.Warp.addToResearch("ANGELBLOCK", 3);
+
+// --- Magical Wood
+mods.thaumcraft.Research.addResearch("MAGICALWOOD", "ARTIFICE", "praecantio 200, lucrum 200, arbor 100, cognitio 200, pannus 100", -4, 15, 12, MagicalWood);
+game.setLocalization("en_US", "tc.research_name.MAGICALWOOD", "Magical Wood");
+game.setLocalization("en_US", "tc.research_text.MAGICALWOOD", "[EU] Twilight Thaumcraft Magic");
+mods.thaumcraft.Research.addPrereq("MAGICALWOOD", "EMINENCESTONE", false);
+mods.thaumcraft.Research.setConcealed("MAGICALWOOD", true);
+mods.thaumcraft.Research.addPage("MAGICALWOOD", "ExtraUtilities.research_page.MAGICALWOOD");
+game.setLocalization("en_US", "ExtraUtilities.research_page.MAGICALWOOD", "Magical Wood is an ingredient in the crafting of the Ender Core. It can be placed near an Enchantment Table to boost the level the table can enchant at by five levels. The amount of magical wood made from the crafting recipe depends on the strength of the enchantments on the Enchanted Books. For example, 4x Protection I gives a single piece of Magical Wood, whereas 4x Protection IV gives 14 pieces of wood.");
+mods.thaumcraft.Arcane.addShaped("MAGICALWOOD", MagicalWood * 4, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
+[SilverwoodLog, <TwilightForest:item.carminite>, GreatwoodLog],
+[<gregtech:gt.metaitem.01:17330>, <Automagy:blockBookshelfEnchanted>, <gregtech:gt.metaitem.01:17330>],
+[GreatwoodLog, <TwilightForest:item.carminite>, SilverwoodLog]]);
+mods.thaumcraft.Research.addArcanePage("MAGICALWOOD", MagicalWood);
+mods.thaumcraft.Warp.addToResearch("MAGICALWOOD", 2);
+
+// --- Carved Imminence Stone
+mods.thaumcraft.Research.addResearch("EMINENCESTONE", "ARTIFICE", "alienis 200, sensus 200, terra 100, aer 200", -4, 13, 12, <ExtraUtilities:decorativeBlock1:14>);
+game.setLocalization("en_US", "tc.research_name.EMINENCESTONE", "Carved Imminence Stone");
+game.setLocalization("en_US", "tc.research_text.EMINENCESTONE", "[EU] Portal Stones");
+mods.thaumcraft.Research.addPrereq("EMINENCESTONE", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("EMINENCESTONE", true);
+mods.thaumcraft.Research.addPage("EMINENCESTONE", "ExtraUtilities.research_page.EMINENCESTONE");
+game.setLocalization("en_US", "ExtraUtilities.research_page.EMINENCESTONE", "The Portal Stone for the Last Millennium Portal or only for decoration.");
+mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14> * 2, "aer 50, ignis 50, terra 50, aqua 50, ordo 50, perditio 50", [
+[<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:18>, <gregtech:gt.metaitem.01:17330>],
+[<gregtech:gt.metaitem.01:17532>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:17532>],
+[<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:26>, <gregtech:gt.metaitem.01:17330>]]);
+mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14>);
+mods.thaumcraft.Warp.addToResearch("EMINENCESTONE", 1);
+
+// --- Portal to the Last Millennium
+mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "ARTIFICE", "alienis 200, sensus 200, terra 100, ignis 200 vacuos 200", -6, 13, 12, <ExtraUtilities:dark_portal:2>);
+game.setLocalization("en_US", "tc.research_name.PORTALMILLENIUM", "Portal to the last Millennium");
+game.setLocalization("en_US", "tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
+mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
+mods.thaumcraft.Research.setConcealed("PORTALMILLENIUM", true);
+mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_page.PORTALMILLENIUM");
+game.setLocalization("en_US", "ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as 'The Last Millenium'. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
+mods.thaumcraft.Infusion.addRecipe("PORTALMILLENIUM", <minecraft:clock>, [<ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>], "alienis 75, sensus 25, praecantatio 75, terra 25, vacuos 75",  <ExtraUtilities:dark_portal:2>, 4);
+mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark_portal:2>);
+mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 4);

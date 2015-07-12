@@ -1,0 +1,100 @@
+<!--
+ IMPORTANT:
+  This is the core recipe file. Modifying this file will have no effect. It will be rewritten by EnderIO and all
+  modifications made to it will be lost. To add or modify recipes please use 'OreDictionaryPreferences_User.xml'.
+
+  This file contains the preferred outputs from Ender IO machines for items registered in the OreDictionary. Details of
+  itemStack definition can be found in 'SAGMillRecipes_Core.xml'.
+
+ Item Information and data dumps:
+
+  To write all registered items to config/modObjectsRegistery.txt include:
+
+  <dumpRegistry modObjects="true" />
+
+  To write the contents of the ore dictionary to config/oreDictionaryRegistery.txt include:
+
+  <dumpRegistery oreDictionary="true" />
+
+  To show ore dictionary and/or registered names, in the EnderIO config set:
+
+  addRegisterdNameTooltip=true
+  addOreDictionaryTooltips=true
+
+-->
+
+<OreDictionaryPreferences>
+
+  <!-- Dusts -->
+  <preference oreDictionary="dustCoal" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="2" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="dustCharcoal" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="3" />
+  </preference>
+  <preference oreDictionary="dustObsidian" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="4" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="8" />
+  </preference>
+  <preference oreDictionary="dustIron" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="0" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="1" />
+  </preference>
+  <preference oreDictionary="dustGold" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="1" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="2" />
+  </preference>
+  <preference oreDictionary="dustCopper" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="32" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="3" />
+  </preference>
+  <preference oreDictionary="dustTin" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="33" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="4" />
+  </preference>
+  <preference oreDictionary="dustSilver" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="34" />
+  </preference>
+  <preference oreDictionary="dustLead" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="35" />
+  </preference>
+  <preference oreDictionary="dustNickel" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="36" />
+  </preference>
+  <preference oreDictionary="dustSulfur" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="16" />
+  </preference>
+  <preference oreDictionary="dustBronze" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="41" />
+  </preference>
+  <preference oreDictionary="dustNetherQuartz" >
+    <itemStack modID="appliedenergistics2" itemName="item.itemMultiMaterial" itemMeta="3" />
+  </preference>
+  <!-- Ingots -->
+  <preference oreDictionary="ingotCopper" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="64" />
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="9" />
+  </preference>
+  <preference oreDictionary="ingotTin" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="65" />
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="10" />
+  </preference>
+  <preference oreDictionary="ingotSilver" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="66" />
+  </preference>
+  <preference oreDictionary="ingotLead" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="67" />
+  </preference>
+  <preference oreDictionary="ingotBronze" >
+    <itemStack modID="ThermalFoundation" itemName="material" itemMeta="73" />
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="13" />
+  </preference>
+  <preference oreDictionary="ingotAluminum" >
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="11" />
+  </preference>
+  <preference oreDictionary="ingotAluminium" >
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="11" />
+  </preference>
+
+</OreDictionaryPreferences>

@@ -2118,6 +2118,9 @@ oreDict.obsidianStick.remove(<TConstruct:toolRod:6>);
 oreDict.toolRodObsidian.remove(<TConstruct:toolRod:6>);
 recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 
+// --- Clear Glass
+recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>]);
+
 
 
 // --- Alloy Smelter Recipes ---

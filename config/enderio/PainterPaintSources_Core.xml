@@ -1,0 +1,36 @@
+<!--
+ IMPORTANT:
+  This is the core recipe file. Modifying this file will have no effect. It will be rewritten by EnderIO and all
+  modifications made to it will be lost. To add or modify sources please use 'PainterPaintSources_User.xml'.
+
+  This file is used to create a white list and black list for items that can be used as paint sources in the painting
+  machine. Each entry in the lists describes an item stack. This stack must be for a block item (i.e. and item that can
+  be placed in the world as a block). If an item is is not in either list then the default checks are used. For details
+  on the format of item stack definitions see SAGMillRecipes_Core.xml.
+
+  The contents of this file will be merged with the contents of 'PainterPaintSources_User.xml'. To remove an entry
+  contained in this file simply include an identical entry in the user file with the added attribute 'remove=true'. For
+  example, to remove Silverwood planks from the whitelist, the user file would contain this:
+
+  <PainterPaintSources>
+    <whitelist>
+      <itemStack modID="Thaumcraft" itemName="blockWoodenDevice" itemMeta="6" remove="true" />
+    </whitelist>
+  </PainterPaintSources>
+
+-->
+
+<PainterPaintSources>
+
+  <whitelist>
+    <!-- Greatwood planks -->
+    <itemStack modID="Thaumcraft" itemName="blockWoodenDevice" itemMeta="6" />
+    <!-- Silverwood planks -->
+    <itemStack modID="Thaumcraft" itemName="blockWoodenDevice" itemMeta="7" />
+  </whitelist>
+
+  <blacklist>
+
+  </blacklist>
+
+</PainterPaintSources>

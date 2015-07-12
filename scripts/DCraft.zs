@@ -564,6 +564,7 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [
 
 
 
+
 // --- Smeltery Recipes ---
 
 
@@ -1046,6 +1047,16 @@ SawLiq.addRecipe(<dreamcraft:item.QuantinumPlate> * 9, null, <dreamcraft:tile.Qu
 
 // --- Quantinum Plate
 SawLiq.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamcraft:tile.MysteriousCrystal>, <liquid:ic2coolant> * 4000, 9600, 30);
+
+// --- Bedrockium Plate
+SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:water> * 1000, 18000, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2distilledwater> * 750, 18000, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:lubricant> * 250, 9000, 30);
+// -
+SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2coolant> * 3000, 6000, 30);
+
 
 
 // --- Fermenter Recipes ---
