@@ -144,6 +144,7 @@ public enum ItemList {
 	QuantinumPlate(new ModSimpleBaseItem("QuantinumPlate",  ModTabList.ModGenericTab)),
 	QuantinumDensePlate(new ModSimpleBaseItem("QuantinumDensePlate",  ModTabList.ModGenericTab)),
 	QuantinumCompressedPlate(new ModSimpleBaseItem("QuantinumCompressedPlate",  ModTabList.ModGenericTab)),
+	QuantinumRod(new ModSimpleBaseItem("QuantinumRod", ModTabList.ModGenericTab)),
 	QuantumCrystal(new ModSimpleBaseItem("QuantumCrystal",  ModTabList.ModCircuitsTab)),
 	QuantumPartBoots(new ModSimpleBaseItem("QuantumPartBoots",  ModTabList.ModGenericTab)),
 	QuantumPartChestplate(new ModSimpleBaseItem("QuantumPartChestplate",  ModTabList.ModGenericTab)),
