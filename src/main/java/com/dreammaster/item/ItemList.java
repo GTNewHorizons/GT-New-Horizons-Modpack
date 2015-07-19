@@ -75,6 +75,7 @@ public enum ItemList {
 	LedoxDensePlate(new ModSimpleBaseItem("LedoxDensePlate",  ModTabList.ModGenericTab)),
 	LedoxCompressedPlate(new ModSimpleBaseItem("LedoxCompressedPlate",  ModTabList.ModGenericTab)),
 	LichBone(new ModSimpleBaseItem("LichBone",  ModTabList.ModThaumcraftTab)),
+	LightShaft(new ModSimpleBaseItem("LightShaft",  ModTabList.ModGenericTab)),
 	LongObsidianRod(new ModSimpleBaseItem("LongObsidianRod",  ModTabList.ModGenericTab)),
 	LongStoneRod(new ModSimpleBaseItem("LongStoneRod",  ModTabList.ModGenericTab)),
 	ManyullynPlate(new ModSimpleBaseItem("ManyullynPlate",  ModTabList.ModGenericTab)),
