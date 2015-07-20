@@ -26,6 +26,12 @@ public enum BlockList {
 	CompressedCharcoal(new ModSimpleBaseBlock(new CompressedCharcoalProperties(), ModTabList.ModBlocksTab)),
 	CompressedCoal(new ModSimpleBaseBlock(new CompressedCoalProperties(), ModTabList.ModBlocksTab)),
 	CompressedCoalCoke(new ModSimpleBaseBlock(new CompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
+	DoubleCompressedCharcoal(new ModSimpleBaseBlock(new DoubleCompressedCharcoalProperties(), ModTabList.ModBlocksTab)),
+	DoubleCompressedCoal(new ModSimpleBaseBlock(new DoubleCompressedCoalProperties(), ModTabList.ModBlocksTab)),
+	DoubleCompressedCoalCoke(new ModSimpleBaseBlock(new DoubleCompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
+	TripleCompressedCharcoal(new ModSimpleBaseBlock(new TripleCompressedCharcoalProperties(), ModTabList.ModBlocksTab)),
+	TripleCompressedCoal(new ModSimpleBaseBlock(new TripleCompressedCoalProperties(), ModTabList.ModBlocksTab)),
+	TripleCompressedCoalCoke(new ModSimpleBaseBlock(new TripleCompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 

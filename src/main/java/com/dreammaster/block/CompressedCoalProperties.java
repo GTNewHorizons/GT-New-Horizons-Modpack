@@ -26,13 +26,13 @@ public class CompressedCoalProperties implements IExtendedBlockProperties
     public int getOpacity() { return 15; }
 
     @Override
-    public float getHardness() { return 15.0F; }
+    public float getHardness() { return 10.0F; }
 
     @Override
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 45; }
+    public float getResistance() { return 40; }
 
     @Override
     public String getBlockName() { return "CompressedCoal"; }

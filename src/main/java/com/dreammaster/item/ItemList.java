@@ -39,6 +39,7 @@ public enum ItemList {
 	CopperWandCap(new ModSimpleBaseItem("CopperWandCap",  ModTabList.ModThaumcraftTab)),
 	Display(new ModSimpleBaseItem("Display", ModTabList.ModCircuitsTab)),
 	DiamondDrillTip(new ModSimpleBaseItem("DiamondDrillTip", ModTabList.ModGenericTab)),
+
 	ElectricBoatHull(new ModSimpleBaseItem("ElectricBoatHull",  ModTabList.ModGenericTab)),
 	ElectrotineWire(new ModSimpleBaseItem("ElectrotineWire",  ModTabList.ModGenericTab)),
 	EngineCore(new ModSimpleBaseItem("EngineCore",  ModTabList.ModGenericTab)),
