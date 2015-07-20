@@ -22,6 +22,10 @@ public enum BlockList {
 	NaquadahPlatedReinforcedStone(new ModSimpleBaseBlock(new NaquadahPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
 	NeutroniumPlatedReinforcedStone(new ModSimpleBaseBlock(new NeutroniumPlatedReinforcedStoneProperties(), ModTabList.ModBlocksTab)),
 	BlackPlutonium(new ModSimpleBaseBlock(new BlackPlutoniumProperties(), ModTabList.ModBlocksTab)),
+	Charcoal(new ModSimpleBaseBlock(new CharcoalProperties(), ModTabList.ModBlocksTab)),
+	CompressedCharcoal(new ModSimpleBaseBlock(new CompressedCharcoalProperties(), ModTabList.ModBlocksTab)),
+	CompressedCoal(new ModSimpleBaseBlock(new CompressedCoalProperties(), ModTabList.ModBlocksTab)),
+	CompressedCokeCoal(new ModSimpleBaseBlock(new CompressedCokeCoalProperties(), ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
