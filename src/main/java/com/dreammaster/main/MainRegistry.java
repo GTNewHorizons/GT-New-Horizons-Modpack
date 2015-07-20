@@ -14,6 +14,7 @@ import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.modctt.CustomToolTipsHandler;
+import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -24,6 +25,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.blocks.ModBlockManager;
@@ -47,6 +49,7 @@ public class MainRegistry {
 	public static ModBlockManager BlockManager = null;
 	public static HazardousItemsHandler Module_HazardousItems = null; 
 	public static CustomToolTipsHandler Module_CustomToolTips = null;
+	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CoreModConfig CoreConfig;
 	
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
@@ -109,6 +112,13 @@ public class MainRegistry {
 		    Module_CustomToolTips.LoadConfig();
 		}
 
+		if (CoreConfig.ModCustomFuels_Enabled)
+		{
+            Logger.debug("Module_CustomFuels is enabled");
+            Module_CustomFuels = new CustomFuelsHandler();
+            Module_CustomFuels.LoadConfig();
+		}
+		
 		// ------------------------------------------------------------
 		
 		
@@ -163,6 +173,9 @@ public class MainRegistry {
 		
 		if (CoreConfig.ModCustomToolTips_Enabled)
 		    MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
+		
+		if (CoreConfig.ModCustomFuels_Enabled)
+		    GameRegistry.registerFuelHandler(Module_CustomFuels);
 	}
 	
 	@EventHandler
