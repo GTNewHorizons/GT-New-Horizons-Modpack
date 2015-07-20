@@ -11,7 +11,7 @@ import eu.usrv.yamcore.iface.IExtendedBlockProperties;
  * @author Namikon
  *
  */
-public class CompressedCokeCoalProperties implements IExtendedBlockProperties
+public class CompressedCoalCokeProperties implements IExtendedBlockProperties
 {
     @Override
     public Material getMaterial() { return Material.rock;}
@@ -35,7 +35,7 @@ public class CompressedCokeCoalProperties implements IExtendedBlockProperties
     public float getResistance() { return 45; }
 
     @Override
-    public String getBlockName() { return "CompressedCokeCoal"; }
+    public String getBlockName() { return "CompressedCoalCoke"; }
 
     @Override
     public String getTextureName() { return ""; }
