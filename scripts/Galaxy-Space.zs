@@ -81,6 +81,57 @@ recipes.remove(<GalaxySpace:item.HeavyDutyRocketEngine>);
 // --- Heavy Rocket Fins
 recipes.remove(<GalaxySpace:item.HeavyDutyRocketFins>);
 
+// --- Solar Flares
+recipes.remove(<GalaxySpace:item.SolarFlares>);
+
+// --- Part Solar Flares
+recipes.remove(<GalaxySpace:item.PartSolarFlares>);
+
+// --- Solar Wind Panel
+recipes.remove(<GalaxySpace:solarwindpanel>);
+
+// --- Quantum Boots
+recipes.remove(<GalaxySpace:item.Quant_boots>);
+
+// --- Quantum Chestplate
+recipes.remove(<GalaxySpace:item.Quant_plate>);
+
+// --- Quantum Helmet
+recipes.remove(<GalaxySpace:item.Quant_helmet>);
+
+// --- Quantum Leggings
+recipes.remove(<GalaxySpace:item.Quant_leg>);
+
+// --- Quantum Sword
+recipes.remove(<GalaxySpace:item.Quant_sword>);
+
+// --- Quantum Pickaxe
+recipes.remove(<GalaxySpace:item.Quant_pick>);
+
+// --- Quantum Axe
+recipes.remove(<GalaxySpace:item.Quant_axe>);
+
+// --- Quantum Hoe
+recipes.remove(<GalaxySpace:item.Quant_hoe>);
+
+// --- Quantum Shovel
+recipes.remove(<GalaxySpace:item.Quant_spade>);
+
+// --- Crystal Lead Bow
+recipes.remove(<GalaxySpace:item.TestBow>);
+
+// --- Light Saber
+recipes.remove(<GalaxySpace:item.Laser_sword>);
+
+// --- Light Pickaxe
+recipes.remove(<GalaxySpace:item.Laser_pick>);
+
+// --- Light Axe
+recipes.remove(<GalaxySpace:item.Laser_axe>);
+
+
+
+
 
 // --- Add Recipes
 
@@ -88,25 +139,25 @@ recipes.remove(<GalaxySpace:item.HeavyDutyRocketFins>);
 // --- Lead Boots
 recipes.addShaped(<GalaxySpace:item.Lead_boots>, [
 [null, <ore:craftingToolHardHammer>, null],
-[<ore:plateDoubleLead>, <GalaxySpace:item.ElectCrystall>, <ore:plateDoubleLead>],
-[<ore:plateDoubleLead>, <GalaxySpace:item.Quantium>, <ore:plateDoubleLead>]]);
+[<ore:plateDoubleLead>, <dreamcraft:item.MysteriousCrystalPlate>, <ore:plateDoubleLead>],
+[<ore:plateDoubleLead>, <dreamcraft:item.QuantinumPlate>, <ore:plateDoubleLead>]]);
 
 // --- Lead Chestplate
 recipes.addShaped(<GalaxySpace:item.Lead_plate>, [
 [<ore:plateDoubleLead>, <ore:craftingToolHardHammer>, <ore:plateDoubleLead>],
-[<ore:plateDoubleLead>, <GalaxySpace:item.ElectCrystall>, <ore:plateDoubleLead>],
-[<ore:plateDoubleLead>, <GalaxySpace:item.Quantium>, <ore:plateDoubleLead>]]);
+[<ore:plateDoubleLead>, <dreamcraft:item.MysteriousCrystalPlate>, <ore:plateDoubleLead>],
+[<ore:plateDoubleLead>, <dreamcraft:item.QuantinumPlate>, <ore:plateDoubleLead>]]);
 
 // --- Lead Helmet
 recipes.addShaped(<GalaxySpace:item.Lead_helmet>, [
 [<ore:plateDoubleLead>, <ore:plateDoubleLead>, <ore:plateDoubleLead>],
 [<ore:plateDoubleLead>, <ore:craftingToolHardHammer>, <ore:plateDoubleLead>],
-[<GalaxySpace:item.Quantium>, null, <GalaxySpace:item.ElectCrystall>]]);
+[<dreamcraft:item.QuantinumPlate>, null, <dreamcraft:item.MysteriousCrystalPlate>]]);
 
 // --- Lead Leggings
 recipes.addShaped(<GalaxySpace:item.Lead_leg>, [
-[<ore:plateDoubleLead>, <GalaxySpace:item.ElectCrystall>, <ore:plateDoubleLead>],
-[<ore:plateDoubleLead>, <GalaxySpace:item.Quantium>, <ore:plateDoubleLead>],
+[<ore:plateDoubleLead>, <dreamcraft:item.MysteriousCrystalPlate>, <ore:plateDoubleLead>],
+[<ore:plateDoubleLead>, <dreamcraft:item.QuantinumPlate>, <ore:plateDoubleLead>],
 [<ore:plateDoubleLead>, <ore:craftingToolHardHammer>, <ore:plateDoubleLead>]]);
 
 // --- Tier 2 Rocket Engine
@@ -115,7 +166,7 @@ recipes.addShaped(<GalaxySpace:item.AcceleratorTier2>, [
 [<GalacticraftMars:item.null:3>, <GalacticraftCore:item.engine:1>, <GalacticraftMars:item.null:3>],
 [<GalacticraftMars:item.null:3>, <GalacticraftCore:item.airVent>, <GalacticraftMars:item.null:3>]]);
 
-//Methan Extractor
+// --- Methan Extractor
 recipes.addShaped(<GalaxySpace:item.MethaneExtractor>, [
 [<ore:pipeTinyTitanium>, <ore:craftingToolScrewdriver>, <ore:screwTitanium>],
 [<ore:screwTitanium>, <GalaxySpace:item.MethaneCanister:1001>, <GalacticraftMars:item.null:5>],
@@ -125,30 +176,30 @@ recipes.addShaped(<GalaxySpace:item.MethaneExtractor>, [
 recipes.addShaped(<GalaxySpace:item.Lead_pick>, [
 [<ore:plateLead>, <ore:ingotLead>, <ore:ingotLead>],
 [<ore:craftingToolFile>, <ore:stickDesh>, <ore:craftingToolHardHammer>],
-[<GalaxySpace:item.ElectCrystall>, <ore:stickDesh>, <GalaxySpace:item.Quantium>]]);
+[<dreamcraft:item.MysteriousCrystalPlate>, <ore:stickDesh>, <dreamcraft:item.QuantinumPlate>]]);
 
 // --- Lead Shovel
 recipes.addShaped(<GalaxySpace:item.Lead_spade>, [
 [<ore:craftingToolFile>, <ore:plateLead>, <ore:craftingToolHardHammer>],
-[<GalaxySpace:item.ElectCrystall>, <ore:stickDesh>, <GalaxySpace:item.Quantium>],
+[<dreamcraft:item.MysteriousCrystalPlate>, <ore:stickDesh>, <dreamcraft:item.QuantinumPlate>],
 [null, <ore:stickDesh>, null]]);
 
 // --- Lead Axe
 recipes.addShaped(<GalaxySpace:item.Lead_axe>, [
 [<ore:plateLead>, <ore:ingotLead>, <ore:craftingToolHardHammer>],
-[<ore:plateLead>, <ore:stickDesh>, <GalaxySpace:item.ElectCrystall>],
-[<ore:craftingToolFile>, <ore:stickDesh>, <GalaxySpace:item.Quantium>]]);
+[<ore:plateLead>, <ore:stickDesh>, <dreamcraft:item.MysteriousCrystalPlate>],
+[<ore:craftingToolFile>, <ore:stickDesh>, <dreamcraft:item.QuantinumPlate>]]);
 
 // --- Lead Hoe
 recipes.addShaped(<GalaxySpace:item.Lead_hoe>, [
 [<ore:plateLead>, <ore:ingotLead>, <ore:craftingToolHardHammer>],
-[<ore:craftingToolFile>, <ore:stickDesh>, <GalaxySpace:item.Quantium>],
-[<GalaxySpace:item.ElectCrystall>, <ore:stickDesh>, null]]);
+[<ore:craftingToolFile>, <ore:stickDesh>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.MysteriousCrystalPlate>, <ore:stickDesh>, null]]);
 
 // --- Lead Sword
 recipes.addShaped(<GalaxySpace:item.Lead_sword>, [
 [<ore:craftingToolFile>, <ore:plateLead>, <ore:craftingToolHardHammer>],
-[<GalaxySpace:item.ElectCrystall>, <ore:plateLead>, <GalaxySpace:item.Quantium>],
+[<dreamcraft:item.MysteriousCrystalPlate>, <ore:plateLead>, <dreamcraft:item.QuantinumPlate>],
 [null, <ore:stickDesh>, null]]);
 
 // --- Heavy Nose Cone
@@ -168,6 +219,106 @@ recipes.addShaped(<GalaxySpace:item.HeavyDutyRocketFins>, [
 [<ore:craftingToolHardHammer>, <GalaxySpace:item.HeavyDutyPlateTier4>, <ore:craftingToolFile>],
 [<GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.HeavyDutyPlateTier4>, <GalaxySpace:item.HeavyDutyPlateTier5>],
 [<GalaxySpace:item.HeavyDutyPlateTier5>, <ore:craftingToolSaw>, <GalaxySpace:item.HeavyDutyPlateTier5>]]);
+
+// --- Solar Flares
+recipes.addShaped(<GalaxySpace:item.SolarFlares>, [
+[<ore:compressedDesh>, <GalaxySpace:item.PartSolarFlares>, <ore:compressedDesh>],
+[<GalaxySpace:item.PartSolarFlares>, <ore:compressedTitanium>, <GalaxySpace:item.PartSolarFlares>],
+[<ore:compressedDesh>, <GalaxySpace:item.PartSolarFlares>, <ore:compressedDesh>]]);
+
+// --- Part Solar Flares
+recipes.addShaped(<GalaxySpace:item.PartSolarFlares>, [
+[<ore:compressedIron>, <GalacticraftCore:item.steelPole>, <ore:compressedIron>],
+[<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:1>, <GalacticraftCore:item.steelPole>],
+[<GalacticraftCore:item.steelPole>, <ore:compressedSteel>, <GalacticraftCore:item.steelPole>]]);
+
+// --- Solar Wind Panel
+recipes.addShaped(<GalaxySpace:solarwindpanel>, [
+[<ore:compressedTitanium>, <GalaxySpace:item.SolarFlares>, <ore:compressedTitanium>],
+[<GalacticraftCore:tile.aluminumWire:1>, <GalacticraftCore:item.steelPole>, <GalacticraftCore:tile.aluminumWire:1>],
+[<gregtech:gt.metaitem.01:32600>, <ore:waferAdvanced>, <gregtech:gt.metaitem.01:32690>]]);
+
+// --- Black Plutonium Ingot
+furnace.remove(<GalaxySpace:item.BlackPlutonium>);
+
+// --- Quantinum Boots
+recipes.addShaped(<GalaxySpace:item.Quant_boots>, [
+[<ore:plateDiamond>, null, <ore:plateDiamond>],
+[<dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, null, <dreamcraft:item.QuantinumPlate>]]);
+
+// --- Quantinum Chestplate
+recipes.addShaped(<GalaxySpace:item.Quant_plate>, [
+[<dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, <ore:plateDiamond>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>]]);
+
+// --- Quantinum Helmet
+recipes.addShaped(<GalaxySpace:item.Quant_helmet>, [
+[<dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>, <dreamcraft:item.QuantinumPlate>],
+[<ore:plateDiamond>, null, <ore:plateDiamond>]]);
+
+// --- Quantinum Leggings
+recipes.addShaped(<GalaxySpace:item.Quant_leg>, [
+[<dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, <ore:plateDiamond>, <dreamcraft:item.QuantinumPlate>],
+[<dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>, <dreamcraft:item.QuantinumPlate>]]);
+
+// --- Quantinum Sword
+recipes.addShaped(<GalaxySpace:item.Quant_sword>, [
+[<ore:plateDiamond>, <dreamcraft:item.QuantinumPlate>, <ore:plateDiamond>],
+[<ore:craftingToolFile>, <dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>],
+[null, <dreamcraft:item.QuantinumRod>, null]]);
+
+// --- Quantinum Pickaxe
+recipes.addShaped(<GalaxySpace:item.Quant_pick>, [
+[<dreamcraft:item.QuantinumPlate>, <GalaxySpace:item.QuantiumIgnot>, <GalaxySpace:item.QuantiumIgnot>],
+[<ore:craftingToolFile>, <dreamcraft:item.QuantinumRod>, <ore:craftingToolHardHammer>],
+[<ore:plateDiamond>, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>]]);
+
+// --- Quantinum Axe
+recipes.addShaped(<GalaxySpace:item.Quant_axe>, [
+[<dreamcraft:item.QuantinumPlate>, <GalaxySpace:item.QuantiumIgnot>, <ore:craftingToolHardHammer>],
+[<dreamcraft:item.QuantinumPlate>, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>],
+[<ore:craftingToolFile>, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>]]);
+
+// --- Quantinum Hoe
+recipes.addShaped(<GalaxySpace:item.Quant_hoe>, [
+[<dreamcraft:item.QuantinumPlate>, <GalaxySpace:item.QuantiumIgnot>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>],
+[null, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>]]);
+
+// --- Quantinum Shovel
+recipes.addShaped(<GalaxySpace:item.Quant_spade>, [
+[<ore:craftingToolFile>, <dreamcraft:item.QuantinumPlate>, <ore:craftingToolHardHammer>],
+[<ore:plateDiamond>, <dreamcraft:item.QuantinumRod>, <ore:plateDiamond>],
+[null, <dreamcraft:item.QuantinumRod>, null]]);
+
+// --- Light Saber
+recipes.addShaped(<GalaxySpace:item.Laser_sword>, [
+[<ore:screwDesh>, <dreamcraft:item.LightSwordBlade>, <ore:screwDesh>],
+[<ore:craftingToolScrewdriver>, <ore:waferAdvanced>, <ore:craftingToolFile>],
+[<ore:screwDesh>, <dreamcraft:item.LightShaft>, <ore:screwDesh>]]);
+
+// --- Light Pickaxe
+recipes.addShaped(<GalaxySpace:item.Laser_pick>, [
+[<ore:screwDesh>, <dreamcraft:item.LightPickaxeHead>, <ore:screwDesh>],
+[<ore:craftingToolScrewdriver>, <dreamcraft:item.LightBinding>, <ore:craftingToolFile>],
+[<ore:screwDesh>, <dreamcraft:item.LightShaft>, <ore:screwDesh>]]);
+
+// --- Light Axe
+recipes.addShaped(<GalaxySpace:item.Laser_axe>, [
+[<ore:screwDesh>, <dreamcraft:item.LightAxeHead>, <ore:screwDesh>],
+[<ore:craftingToolScrewdriver>, <dreamcraft:item.LightBinding>, <ore:craftingToolFile>],
+[<ore:screwDesh>, <dreamcraft:item.LightShaft>, <ore:screwDesh>]]);
+
+// --- Crystal Lead Bow
+recipes.addShaped(<GalaxySpace:item.TestBow>, [
+[<ore:stickLongLead>, <dreamcraft:item.MytrylCrystal>, <TConstruct:bowstring:2>],
+[<dreamcraft:item.MysteriousCrystal>, null, <TConstruct:bowstring:2>],
+[<ore:stickLongLead>, <dreamcraft:item.MytrylCrystal>, <TConstruct:bowstring:2>]]);
+
 
 
 
@@ -219,6 +370,9 @@ Assembler.addRecipe(<GalaxySpace:item.MethaneCanister:1001>, <GalacticraftMars:i
 // --- Frozen Glowstone
 Compressor.addRecipe(<GalaxySpace:europaglowstone>, <GalaxySpace:item.BlueCrystall> * 6);
 
+// --- Black Plutonium Ingot
+Compressor.addRecipe(<GalaxySpace:item.BlackPlutonium>, <dreamcraft:item.BlackPlutoniumDust> * 2);
+
 
 
 // --- Impulsion Compressor Recipes
@@ -232,6 +386,9 @@ ImplosionCompressor.addRecipe([<GalaxySpace:item.LeadCom>, <gregtech:gt.metaitem
 // --- Compressed Nickel Plates
 ImplosionCompressor.addRecipe([<GalaxySpace:item.NickelComIngot>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19034>, 4);
 
+// --- Compressed Black Plutonium Plates
+ImplosionCompressor.addRecipe([<GalaxySpace:item.ComBlackPlutonium>, <gregtech:gt.metaitem.01:816>], <dreamcraft:item.BlackPlutoniumPlate> * 3, 4);
+
 // --- Heavy Duty Plats Tier 4
 ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);
 
@@ -243,6 +400,9 @@ ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier6>, <gregtech
 
 // --- Heavy Duty Plats Tier 7
 ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier7>, <gregtech:gt.metaitem.01:327> * 9], <dreamcraft:item.HeavyDutyAlloyIngotT7>, 56);
+
+// --- Heavy Duty Plats Tier 8
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.01:129> * 12], <dreamcraft:item.HeavyDutyAlloyIngotT8>, 64);
 
 
 

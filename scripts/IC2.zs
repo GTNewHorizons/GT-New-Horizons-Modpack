@@ -9,9 +9,12 @@ import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.ChemicalBathLiq;
 import mods.ic2.Compressor;
+import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
+import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
+import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Polarizer;
 import mods.gregtech.Wiremill;
@@ -29,6 +32,8 @@ val Wrench = <ore:craftingToolWrench>;
 
 
 // --- Remove Recipes ---
+
+
 
 // --- Generator
 recipes.remove(<IC2:blockGenerator>);
@@ -1209,15 +1214,15 @@ recipes.addShaped(<IC2:blockMachine3:6>, [
 
 // --- Eletric Sorting Machine
 recipes.addShaped(<IC2:blockMachine3:5>, [
-[<IC2:upgradeModule:3>, <ore:circuitBasic>, <IC2:upgradeModule:3>],
+[<IC2:itemCasing:4>, <ore:circuitBasic>, <IC2:itemCasing:4>],
 [<IC2:upgradeModule:3>, <gregtech:gt.blockcasings:1>, <IC2:upgradeModule:3>],
-[<IC2:upgradeModule:3>, <ore:craftingChest>, <IC2:upgradeModule:3>]]);
+[<IC2:itemCasing:4>, <ore:craftingChest>, <IC2:itemCasing:4>]]);
 
 // --- Fluid Distributer
 recipes.addShaped(<IC2:blockMachine3:4>, [
-[<IC2:itemCasing:4>, <ore:craftingTank>, <IC2:itemCasing:4>],
+[<IC2:itemCasing:4>, <ore:circuitBasic>, <IC2:itemCasing:4>],
 [<IC2:upgradeModule:4>, <gregtech:gt.blockcasings:1>, <IC2:upgradeModule:4>],
-[<IC2:upgradeModule:4>, <IC2:upgradeModule:4>, <IC2:upgradeModule:4>]]);
+[<ore:pipeLargeSteel>, <IC2:itemFluidCell>, <ore:pipeLargeSteel>]]);
 
 // --- Solar Distiller
 recipes.addShaped(<IC2:blockMachine3:3>, [
@@ -1394,7 +1399,7 @@ AssemblerLiq.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <
 AssemblerLiq.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gregtech:gt.metaitem.01:32750>,  <liquid:molten.lead> * 144, 600, 64);
 
 // --- Fluid/Solid Canning Machine
-Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 600, 64);
+Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 1200, 32);
 
 // --- Radioisotope Heat Generatpr
 AssemblerLiq.addRecipe(<IC2:blockHeatGenerator:2>, <IC2:blockGenerator:5>, <IC2:itemRecipePart:5> * 3, <liquid:molten.lead> * 576, 600, 128);
@@ -1626,6 +1631,18 @@ ChemicalBathLiq.addRecipe(<IC2:itemToolPainterWhite>, null, null, <IC2:itemToolP
 //Uranium Block
 Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
 
+// --- Plant Ball
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <minecraft:reeds> * 8);
+
+
+
+// --- Distillery Recipes ---
+
+
+
+// --- Biogas
+Distillery.addRecipe(<liquid:ic2biogas> * 250, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 8, 75, 32, false);
+
 
 
 // --- Extruder Recipes ---
@@ -1671,6 +1688,8 @@ PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> *
 
 
 
+
+
 // --- Mixer Recipes ---
 
 
@@ -1711,3 +1730,30 @@ Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 200,
 
 // --- Coolant
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2hotcoolant", Amount: 1000}}), 200);
+
+
+
+// --- Nei Change Names ---
+
+
+ 
+// --- Refined Block
+//<IC2:blockMetal:5>.displayName = "Block of Steel";
+
+// --- Steel Shaft
+//<IC2:itemRecipePart:12>.displayName = "Shaft (Steel)";
+
+// --- Steel Item Casing
+//<IC2:itemCasing:5>.displayName = "Steel Item Casing";
+
+// --- Steel Plate
+//<IC2:itemPlates:5>.displayName = "Steel Plate";
+
+// --- Dense Steel Plate
+//<IC2:itemDensePlates:5>.displayName = "Dense Steel Plate";
+
+// --- Steel Ingot
+//<IC2:itemIngot:3>.displayName = "Steel Ingot";
+
+// --- Block Cutting Blade
+//<IC2:itemAdvIronBlockCuttingBlade>.displayName = "Block Cutting Blade (Steel)";

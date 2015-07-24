@@ -38,13 +38,13 @@ recipes.remove(<BiomesOPlenty:ash>);
 // --- Coal
 recipes.remove(<minecraft:coal>);
 
-// --- small Bone Segment
+// --- Small Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 3, [<BiomesOPlenty:bones>]);
 
-// --- medium Bone Segment
+// --- Medium Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 6, [<BiomesOPlenty:bones:1>]);
 
-// --- large Bone Segment
+// --- Large Bone Segment
 recipes.removeShapeless(<minecraft:dye:15> * 12, [<BiomesOPlenty:bones:2>]);
 
 // --- Ruby

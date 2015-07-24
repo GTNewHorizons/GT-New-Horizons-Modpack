@@ -680,6 +680,36 @@ recipes.remove(<Railcraft:frame>);
 // --- Steel Shears
 recipes.remove(<Railcraft:tool.steel.shears>);
 
+// --- Steel Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
+
+// --- Steel Block
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
+
+// --- Steel Nuggets
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
+
+// --- Meteoric Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
+
+// --- GT Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
+
+// --- Fiery Steel
+mods.railcraft.BlastFurnace.removeRecipe(<TwilightForest:item.fieryIngot>);
+
+// --- HSLA Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
+
+// --- All Recipes
+mods.railcraft.RockCrusher.removeRecipe(<*>);
+
+// --- Thaumic Crowbar
+mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
+
+// --- Void Metal Crowbar
+mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
+
 
 
 // --- Add Recipes ---
@@ -1121,9 +1151,7 @@ recipes.addShaped(WoodenRail * 6, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick]]);
 
-// --- Standart Rail ---
-PlateBender.addRecipe(<Railcraft:part.rail> * 8, <gregtech:gt.metaitem.01:23081> * 3, 800, 15);
-PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316> * 3, 1000, 15);
+
 
 // --- Item Dtector ---
 recipes.addShaped(<Railcraft:detector>, [
@@ -1765,7 +1793,7 @@ AssemblerLiq.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:136
 Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, ObsidianPlate * 4, 300, 16);
 
 // --- Wooden Switch Track ---
-Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, SwitchLever, 800, 4);
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 800, 4);
 
 // --- Wooden Wye Track ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, SwitchMotor, 800, 4);
@@ -1774,34 +1802,34 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
 
 // --- Switch Track ---
-Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, SwitchLever * 2, 800, 16);
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, <gregtech:gt.metaitem.02:23305> * 4, 800, 16);
 
 // --- Wye Track ---
-Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, SwitchMotor * 2, 800, 16);
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, <gregtech:gt.metaitem.02:20305> * 2, 800, 16);
 
 // --- Junction Tack ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
 
 // --- Reinforced Switch Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, SwitchLever * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:23316> * 4, 800, 64);
 
 // --- Reinforced Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, SwitchMotor * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:20316> * 2, 800, 64);
 
 // --- Reinforced Junction Tack ---
 Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27316> * 4, 800, 64);
 
 // --- H.S. Switch Track ---
-Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, SwitchLever * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, <gregtech:gt.metaitem.02:23028> * 4, 800, 64);
 
 // --- H.S. Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, SwitchMotor * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, <gregtech:gt.metaitem.02:20028> * 2, 800, 64);
 
 // --- Electric Switch Track ---
-Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, SwitchLever * 2, 800, 32);
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:23035> * 4, 800, 32);
 
 // --- Electric Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, SwitchMotor * 2, 800, 32);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:20035> * 2, 800, 32);
 
 // --- Electric Junction Tack ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
@@ -1854,7 +1882,7 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 // -
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>], 
-[<gregtech:gt.metaitem.01:2057>, <gregtech:gt.metaitem.01:2517>, <gregtech:gt.metaitem.01:2032>], 
+[<gregtech:gt.metaitem.01:2057>, <dreamcraft:item.ChargedCertusQuartzDust>, <gregtech:gt.metaitem.01:2032>], 
 [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2836>, <gregtech:gt.metaitem.01:2804>]], 
 <Forestry:waxCast:*>, <Railcraft:glass> * 4);
 // -
@@ -1886,3 +1914,68 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 10, <Railcraft:machine.beta:15>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 6, <Railcraft:machine.beta:4>);
+
+
+
+
+// --- Plate Bender Recipes ---
+
+
+
+// --- Standart Rail ---
+PlateBender.addRecipe(<Railcraft:part.rail> * 8, <gregtech:gt.metaitem.01:23081> * 3, 800, 15);
+// -
+PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316> * 3, 1000, 15);
+
+
+
+
+// --- Nei Rename ---
+
+
+
+// --- Advanced Coke Oven Bricks
+<Railcraft:machine.alpha:12>.displayName = "Advanced Coke Oven Bricks";
+
+
+
+
+// --- Thaumcraft Stuff ---
+
+
+
+
+// --- Thaumium Crowbar
+mods.thaumcraft.Research.moveResearch("RC_Crowbar", "ARTIFICE", 0, -4);
+mods.thaumcraft.Research.clearPrereqs("RC_Crowbar");
+mods.thaumcraft.Research.addPrereq("RC_Crowbar", "THAUMIUM", false);
+mods.thaumcraft.Research.clearPages("RC_Crowbar");
+mods.thaumcraft.Research.addPage("RC_Crowbar", "thaumcraft.research.RC_Crowbar.page.1");
+mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "ordo 24, ignis 24, aer 24", [
+[<ore:craftingToolHardHammer>, <ore:dyeRed>, <gregtech:gt.metaitem.01:23330>],
+[<ore:dyeRed>, <gregtech:gt.metaitem.01:23330>, <ore:dyeRed>],
+[<gregtech:gt.metaitem.01:23330>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+mods.thaumcraft.Research.addArcanePage("RC_Crowbar", <Railcraft:tool.crowbar.magic>);
+
+// --- Thaumic Crowbar
+mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar");
+
+ 
+// --- Void metal Crowbar
+mods.thaumcraft.Research.moveResearch("RC_Crowbar_Void", "ELDRITCH", 2, -4);
+mods.thaumcraft.Research.clearPrereqs("RC_Crowbar_Void");
+mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "RC_Crowbar", false);
+mods.thaumcraft.Research.clearPages("RC_Crowbar_Void");
+mods.thaumcraft.Research.addPage("RC_Crowbar_Void", "thaumcraft.research.RC_Crowbar_Void.page.1");
+mods.thaumcraft.Arcane.addShaped("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>, "perditio 50, ignis 50, aer 50, terra 50", [
+[<ore:craftingToolHardHammer>, <ore:dyeRed>, <dreamcraft:item.VoidRod>],
+[<ore:dyeRed>, <dreamcraft:item.VoidRod>, <ore:dyeRed>],
+[<dreamcraft:item.VoidRod>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+mods.thaumcraft.Research.addArcanePage("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>);
+
+//--- Void Crowbar
+mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");
+
+// --- Tab Removal
+mods.thaumcraft.Research.removeTab("RAILCRAFT");

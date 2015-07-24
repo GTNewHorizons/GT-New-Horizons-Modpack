@@ -576,6 +576,11 @@ motionSensor {
           [daylightDetector, "oc:cpu2", daylightDetector]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
+netSplitter {
+  input: [[ingotIron, "oc:cable", ingotIron]
+          ["oc:cable", craftingPiston, "oc:cable"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
 printer {
   input: [[ingotIron, hopper, ingotIron]
           [craftingPiston, "oc:circuitChip3", craftingPiston]

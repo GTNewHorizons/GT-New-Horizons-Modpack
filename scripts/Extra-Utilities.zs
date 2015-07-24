@@ -414,6 +414,9 @@ recipes.remove(<ExtraUtilities:decorativeBlock1:14>);
 // --- Portal to the Last Millennium
 recipes.remove(<ExtraUtilities:dark_portal:2>);
 
+// --- Portal to the Deep Dark
+recipes.remove(<ExtraUtilities:dark_portal>);
+
 
 
 
@@ -933,4 +936,16 @@ mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_pag
 game.setLocalization("en_US", "ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as 'The Last Millenium'. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
 mods.thaumcraft.Infusion.addRecipe("PORTALMILLENIUM", <minecraft:clock>, [<ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>], "alienis 75, sensus 25, praecantatio 75, terra 25, vacuos 75",  <ExtraUtilities:dark_portal:2>, 4);
 mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark_portal:2>);
-mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 4);
+mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 3);
+
+// --- Portal to the Deep Dark
+mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "ARTIFICE", "alienis 200, spiritus 200, metallum 100, fabrico 200 lucrum 200, potentia 200", -8, 13, 12, <ExtraUtilities:dark_portal>);
+game.setLocalization("en_US", "tc.research_name.PORTALDEEPDARK", "Portal to the Deep Dark");
+game.setLocalization("en_US", "tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
+mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
+mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
+mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
+game.setLocalization("en_US", "ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:unstableingot:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:unstableingot:2>], "alienis 150, spiritus 75, metallum 100, fabrico 75 lucrum 50, potentia 100",  <ExtraUtilities:dark_portal>, 5);
+mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
+mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 4);

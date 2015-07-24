@@ -393,7 +393,6 @@ recipes.addShaped(<dreamcraft:item.DiamondDrillTip>, [
 [<ore:plateDiamond>, <ore:plateSteel>, <ore:plateDiamond>],
 [<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
 
-
 // --- Iridium Reinforced Drill Tip
 recipes.addShaped(<dreamcraft:item.ReinforcedIridiumDrillTip>, [
 [<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
@@ -561,6 +560,11 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [
 [<ore:plateNetherStar>, <dreamcraft:item.ReinforcedNeutroniumIronPlate>, <ore:plateNetherStar>],
 [<ore:screwRedAlloy>, <dreamcraft:item.MysteriousCrystalPlate>, <ore:screwRedAlloy>]]);
 
+// --- Quantinum Rod
+recipes.addShaped(<dreamcraft:item.QuantinumRod>, [
+[<ore:craftingToolFile>, null, null],
+[null, <GalaxySpace:item.QuantiumIgnot>, null]]);
+
 
 
 
@@ -686,6 +690,30 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>]);
+
+// --- Light Sword Blade
+recipes.addShaped(<dreamcraft:item.LightSwordBlade>, [
+[<ore:plateDiamond>, <dreamcraft:item.MysteriousCrystalCompressedPlate>, <ore:plateDiamond>],
+[<dreamcraft:item.QuantinumCompressedPlate>, <dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MytrylCompressedPlate>],
+[<ore:plateDiamond>, <dreamcraft:item.MysteriousCrystalCompressedPlate>, <ore:plateDiamond>]]);
+
+// --- Light Pickaxe Head
+recipes.addShaped(<dreamcraft:item.LightPickaxeHead>, [
+[<dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MysteriousCrystalCompressedPlate>],
+[<ore:plateDiamond>, <dreamcraft:item.QuantinumCompressedPlate>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <dreamcraft:item.MytrylCompressedPlate>, <ore:plateDiamond>]]);
+
+// --- Light Axe Head
+recipes.addShaped(<dreamcraft:item.LightAxeHead>, [
+[<dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MysteriousCrystalCompressedPlate>, <ore:plateDiamond>],
+[<dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.QuantinumCompressedPlate>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <dreamcraft:item.MytrylCompressedPlate>, <ore:plateDiamond>]]);
+
+// --- Light Shaft
+recipes.addShaped(<dreamcraft:item.LightShaft>, [
+[<ore:screwDesh>, <ore:stickTungsten>, <ore:screwDesh>],
+[<ore:craftingToolScrewdriver>, <ore:stickTungsten>, <ore:craftingToolFile>],
+[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.SulfurBattery:100>, <GalacticraftCore:tile.aluminumWire:1>]]);
 
 
 
@@ -822,6 +850,9 @@ AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT6>, <GalaxySpace:ite
 // --- Heavy Duty Plate Alloy T7
 AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT7>, <GalaxySpace:item.HeavyDutyPlateTier6>, <dreamcraft:item.MysteriousCrystalCompressedPlate> * 12, <liquid:molten.naquadria> * 1152, 3600, 6144);
 
+// --- Heavy Duty Plate Alloy T8
+AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT8>, <GalaxySpace:item.HeavyDutyPlateTier7>, <GalaxySpace:item.ComBlackPlutonium> * 14, <liquid:molten.neutronium> * 1440, 4200, 8192);
+
 // --- Piston Block
 AssemblerLiq.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redalloy> * 72, 100, 32);
 // -
@@ -861,6 +892,9 @@ AssemblerLiq.addRecipe(<dreamcraft:tile.NaquadahPlatedReinforcedStone>, <IC2:blo
 // --- Reinforced Neutronium Plated Stone
 AssemblerLiq.addRecipe(<dreamcraft:tile.NeutroniumPlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17129> * 6, <liquid:molten.naquadria> * 144, 1200, 8192);
 
+// --- Light Binding
+Assembler.addRecipe(<dreamcraft:item.LightBinding>, <GalacticraftMars:item.itemBasicAsteroids:6> * 2, <GalacticraftCore:item.basicItem:14> * 2, 600, 512);
+
 
 
 
@@ -886,6 +920,11 @@ Autoclave.addRecipe(<GalaxySpace:item.ElectCrystall>, <dreamcraft:item.Mysteriou
 // --- Hot Qantinum Ingot
 BlastFurnaceLiq.addRecipe(<dreamcraft:item.QuantinumHotIngot>, null, <liquid:oxygen> * 4000, null, <dreamcraft:item.QuantinumDust>, null, 2400, 1024, 3600); 
 
+// --- Hot Mytryl Ingot
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, null, <GalaxySpace:item.Mytryl>, null, 1200, 512, 3600); 
+// -
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, null, <dreamcraft:item.MytrylDust>, null, 1200, 512, 3600); 
+
 
 
 // --- Brewing Recipes ---
@@ -910,7 +949,7 @@ Compressor.addRecipe(<dreamcraft:item.LedoxIngot>, <dreamcraft:item.LedoxDust>);
 Compressor.addRecipe(<dreamcraft:item.CallistoIceIngot>, <dreamcraft:item.CallistoIceDust>);
 
 // --- Block of Ledox
-Compressor.addRecipe(<dreamcraft:tile.Ledox>, <dreamcraft:item.LedoxIngot> * 9);
+Compressor.addRecipe(<dreamcraft:tile.Ledox>, <dreamcraft:item.LedoxColdIngot> * 9);
 
 // --- Block of Cold Callisto Ice
 Compressor.addRecipe(<dreamcraft:tile.CallistoColdIce>, <dreamcraft:item.CallistoIceColdIngot> * 9);
@@ -924,6 +963,47 @@ Compressor.addRecipe(<dreamcraft:item.MysteriousCrystalIngot>, <dreamcraft:item.
 // --- Block of Mysterious Crystal
 Compressor.addRecipe(<dreamcraft:tile.MysteriousCrystal>, <dreamcraft:item.MysteriousCrystalColdIngot> * 9);
 
+// --- Block of Black Plutonium
+Compressor.addRecipe(<dreamcraft:tile.BlackPlutonium>, <GalaxySpace:item.BlackPlutonium> * 9);
+
+// --- Block of Mytryl
+Compressor.addRecipe(<dreamcraft:tile.Mytryl>, <dreamcraft:item.MytrylIngot> * 9);
+
+// --- Compressed Block of Charcoal
+Compressor.addRecipe(<dreamcraft:tile.Charcoal>, <minecraft:coal:1> * 9);
+
+// --- Compressed Charcoal Block
+Compressor.addRecipe(<dreamcraft:tile.CompressedCharcoal>, <dreamcraft:tile.Charcoal> * 9);
+
+// --- Compressed Coal Block
+Compressor.addRecipe(<dreamcraft:tile.CompressedCoal>, <minecraft:coal_block> * 9);
+
+// --- Compressed Coal Coke
+Compressor.addRecipe(<dreamcraft:tile.CompressedCoalCoke>, <Railcraft:cube> * 9);
+
+// --- Double Compressed Charcoal Block
+Compressor.addRecipe(<dreamcraft:tile.DoubleCompressedCharcoal>, <dreamcraft:tile.CompressedCharcoal> * 9);
+
+// --- Double Compressed Coal Block
+Compressor.addRecipe(<dreamcraft:tile.DoubleCompressedCoal>, <dreamcraft:tile.CompressedCoal> * 9);
+
+// --- Double Compressed Coal Coke
+Compressor.addRecipe(<dreamcraft:tile.DoubleCompressedCoalCoke>, <dreamcraft:tile.CompressedCoalCoke> * 9);
+
+// --- Triple Compressed Charcoal Block
+Compressor.addRecipe(<dreamcraft:tile.TripleCompressedCharcoal>, <dreamcraft:tile.DoubleCompressedCharcoal> * 9);
+
+// --- Triple Compressed Coal Block
+Compressor.addRecipe(<dreamcraft:tile.TripleCompressedCoal>, <dreamcraft:tile.DoubleCompressedCoal> * 9);
+
+// --- Triple Compressed Coal Coke
+Compressor.addRecipe(<dreamcraft:tile.TripleCompressedCoalCoke>, <dreamcraft:tile.DoubleCompressedCoalCoke> * 9);
+
+// --- Block of Charged Certus Quartz
+Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:7>, <appliedenergistics2:item.ItemMultiMaterial:1> * 9);
+
+// --- Charged Certus Quartz Plate
+Compressor.addRecipe(<dreamcraft:item.ChargedCertusQuartzPlate>, <dreamcraft:item.ChargedCertusQuartzDust>);
 
 
 // --- Carpenters Recipes
@@ -1043,10 +1123,10 @@ SawLiq.addRecipe(<dreamcraft:item.LedoxPlate> * 9, null, <dreamcraft:tile.Ledox>
 SawLiq.addRecipe(<dreamcraft:item.CallistoIcePlate> * 9, null, <dreamcraft:tile.CallistoColdIce>, <liquid:ic2coolant> * 1000, 3600, 30);
 
 // --- Quantinum Plate
-SawLiq.addRecipe(<dreamcraft:item.QuantinumPlate> * 9, null, <dreamcraft:tile.Quantinum>, <liquid:ic2coolant> * 3000, 7200, 30);
+SawLiq.addRecipe(<dreamcraft:item.QuantinumPlate> * 9, null, <dreamcraft:tile.Quantinum>, <liquid:ic2coolant> * 1000, 7200, 60);
 
-// --- Quantinum Plate
-SawLiq.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamcraft:tile.MysteriousCrystal>, <liquid:ic2coolant> * 4000, 9600, 30);
+// --- Mysterious Crystal Plate
+SawLiq.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamcraft:tile.MysteriousCrystal>, <liquid:ic2coolant> * 1000, 9600, 60);
 
 // --- Bedrockium Plate
 SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:water> * 1000, 18000, 30);
@@ -1055,7 +1135,13 @@ SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:bl
 // -
 SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:lubricant> * 250, 9000, 30);
 // -
-SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2coolant> * 3000, 6000, 30);
+SawLiq.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2coolant> * 1000, 6000, 60);
+
+// --- Black Plutonium Plate
+SawLiq.addRecipe(<dreamcraft:item.BlackPlutoniumPlate> * 9, null, <dreamcraft:tile.BlackPlutonium>, <liquid:ic2coolant> * 1000, 12000, 90);
+
+// --- Mytryl Plate
+SawLiq.addRecipe(<dreamcraft:item.MytrylPlate> * 9, null, <dreamcraft:tile.Mytryl>, <liquid:ic2coolant> * 1000, 2400, 60);
 
 
 
@@ -1127,9 +1213,13 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.met
 
 // --- Nano Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatCrystal:*>, 600, 256);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatCrystal:*>, 600, 256);
 
 // --- Quantum Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:*>, 800, 512);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:*>, 800, 512);
 
 // --- Manyullyn Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynPlate> * 9, 1200, 1024);
@@ -1141,8 +1231,22 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregte
 //-
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregtech:gt.metaitem.01:24509> * 0, <dreamcraft:item.ManyullynCrystal>, 900, 2048);
 
+// --- Mytryl Crystal
+PrecisionLaser.addRecipe(<dreamcraft:item.MytrylCrystal>, <gregtech:gt.metaitem.01:24507> * 0, <dreamcraft:item.MytrylPlate> * 9, 1200, 256);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.MytrylCrystal>, <gregtech:gt.metaitem.01:24514> * 0, <dreamcraft:item.MytrylPlate> * 9, 1200, 256);
+
+// --- Mysterious Crystal
+PrecisionLaser.addRecipe(<dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <dreamcraft:item.MysteriousCrystalPlate> * 9, 1200, 512);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <dreamcraft:item.MysteriousCrystalPlate> * 9, 1200, 512);
+
+
+
+
 
 // --- Distillation Recipes ---
+
 
 
 // --- Mutagen
@@ -1196,6 +1300,9 @@ Extruder.addRecipe(<dreamcraft:item.SawBladeArdite>, <TConstruct:materials:4> * 
 
 // --- Manyullyn Saw Blade
 Extruder.addRecipe(<dreamcraft:item.SawBladeManyullyn>, <TConstruct:materials:5> * 2, <gregtech:gt.metaitem.01:32371> * 0, 600, 128);
+
+// --- Quantinum Rod
+Extruder.addRecipe(<dreamcraft:item.QuantinumRod> * 2, <GalaxySpace:item.QuantiumIgnot>, <gregtech:gt.metaitem.01:32351> * 0, 300, 96);
 
 
 
@@ -1275,6 +1382,9 @@ ImplosionCompressor.addRecipe(<dreamcraft:item.QuantinumCompressedPlate>, <dream
 // --- Compressed Mysterious Crystal Plate
 ImplosionCompressor.addRecipe(<dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MysteriousCrystalPlate> * 3, 4);
 
+// --- Compressed Mytryl Plate
+ImplosionCompressor.addRecipe(<dreamcraft:item.MytrylCompressedPlate>, <dreamcraft:item.MytrylPlate> * 3, 4);
+
 
 
 
@@ -1293,6 +1403,12 @@ Lathe.addRecipe([<dreamcraft:item.LongStoneRod> * 4, null], <minecraft:stone>, 3
 
 // --- Reinforced Glass Lens
 Lathe.addRecipe([<dreamcraft:item.ReinforcedGlassLense>, <gregtech:gt.metaitem.01:1890>], <dreamcraft:item.ReinforcedGlassPlate>, 400, 16);
+
+// --- Quantinum Rod
+Lathe.addRecipe([<dreamcraft:item.QuantinumRod> * 2, <dreamcraft:item.QuantinumDust>], <GalaxySpace:item.QuantiumIgnot> * 2, 400, 32);
+
+// --- Charged Certus Quartz Rod
+Lathe.addRecipe([<dreamcraft:item.ChargedCertusQuartzRod> * 2, <dreamcraft:item.ChargedCertusQuartzDust>], <appliedenergistics2:item.ItemMultiMaterial:1> * 2, 200, 16);
 
 
 
@@ -1371,7 +1487,17 @@ Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <GalaxySpace:item.E
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <GalaxySpace:item.ElectCrystall>);
 
 // --- Mytryl Dust
-Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <GalaxySpace:item.ElectCrystall>);
+Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <GalaxySpace:item.Mytryl>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 9, <dreamcraft:tile.Mytryl>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 3, <dreamcraft:item.MytrylCompressedPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylIngot>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 9, <dreamcraft:item.MytrylDensePlate>);
 
 // --- Quantinum Dust
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 9, <dreamcraft:tile.Quantinum>);
@@ -1383,6 +1509,8 @@ Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumP
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <GalaxySpace:item.QuantiumIgnot>);
 // -
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.QuantinumCompressedPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumRod> * 2);
 
 // --- Mysterious Crystal Dust
 Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 9, <dreamcraft:tile.MysteriousCrystal>);
@@ -1392,6 +1520,45 @@ Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.My
 Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.MysteriousCrystalIngot>);
 // -
 Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 3, <dreamcraft:item.MysteriousCrystalCompressedPlate>);
+
+// --- Dust of Black Plutonium
+Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 18, <dreamcraft:item.BlackPlutoniumDensePlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 2, <dreamcraft:item.BlackPlutoniumPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 2, <GalaxySpace:item.BlackPlutonium>);
+
+// --- Callisto Dust
+Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 9, <dreamcraft:tile.CallistoColdIce>);
+// -
+Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 9, <dreamcraft:item.CallistoIceDensePlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIcePlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceColdIngot>);
+// -
+Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 3, <dreamcraft:item.CallistoIceCompressedPlate>);
+
+// --- Ledox Dust
+Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 9, <dreamcraft:tile.Ledox>);
+// -
+Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 9, <dreamcraft:item.LedoxDensePlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxColdIngot>);
+// -
+Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 3, <dreamcraft:item.LedoxCompressedPlate>);
+
+// --- Charged Certus Quartz Dust
+Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergistics2:item.ItemMultiMaterial:1>);
+// -
+Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzPlate>);
+// -
+Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzRod> * 2);
+// -
+Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust> * 9, <GemBlocksForGreg:tile.metalBlock7:7>);
+
 
 
 
@@ -1416,8 +1583,15 @@ PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate
 
 // --- Dense Quantinum Plate
 PlateBender.addRecipe(<dreamcraft:item.QuantinumDensePlate>, <dreamcraft:item.QuantinumPlate> * 9, 600, 128);
-// -
-PlateBender.addRecipe(<dreamcraft:item.QuantinumDensePlate>, <GalaxySpace:item.QuantiumIgnot> * 9, 600, 128);
+
+// --- Dense Mytryl Plate
+PlateBender.addRecipe(<dreamcraft:item.MytrylDensePlate>, <dreamcraft:item.MytrylPlate> * 9, 300, 128);
+
+// --- Dense Black Plutonium Plate
+PlateBender.addRecipe(<dreamcraft:item.BlackPlutoniumDensePlate>, <dreamcraft:item.MytrylPlate> * 9, 900, 256);
+
+// --- Dense Ledox Plate
+PlateBender.addRecipe(<dreamcraft:item.LedoxDensePlate>, <dreamcraft:item.LedoxPlate> * 9, 400, 128);
 
 
 
@@ -1436,6 +1610,10 @@ Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.Quan
 
 // --- Callisto Ice Dust
 Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust> * 2, <dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceDust>], <GalaxySpace:callistoice>, [10000, 2000, 1000, 500], 200, 32);
+
+// --- Black Plutonium Dust
+Pulverizer.addRecipe([<dreamcraft:item.BlackPlutoniumDust> * 2, <dreamcraft:item.BlackPlutoniumDust>, <dreamcraft:item.BlackPlutoniumDust>, <dreamcraft:item.BlackPlutoniumDust>], <GalaxySpace:plutoblackplutonium>, [10000, 2000, 1000, 500], 200, 32);
+
 
 
 // --- Ore Dicted
@@ -1495,13 +1673,19 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 
 
 // --- Callisto Cold Ingot
-VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 200);
+VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 1200);
+
+// --- Ledox Cold Ingot
+VacuumFreezer.addRecipe(<dreamcraft:item.LedoxColdIngot>, <dreamcraft:item.LedoxIngot>, 900);
 
 // --- Callisto Cold Ingot
 VacuumFreezer.addRecipe(<GalaxySpace:item.QuantiumIgnot>, <dreamcraft:item.QuantinumHotIngot>, 2400);
 
 // --- Mysterious Crystal Ingot
 VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraft:item.MysteriousCrystalIngot>, 4800);
+
+// --- Mytryl Ingot
+VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 3600);
 
 
 

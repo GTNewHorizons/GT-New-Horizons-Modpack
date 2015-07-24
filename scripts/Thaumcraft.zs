@@ -77,9 +77,6 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
 // --- Greatwood Rood
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod>);
 
-// --- Magic Crowbar
-mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
-
 // --- Amber
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:6>);
 
@@ -100,9 +97,6 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:2>);
 
 // --- Fire Shards
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:1>);
-
-// --- Balanced Shards
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemShard:6>);
 
 // --- Quicksilver
 recipes.removeShaped(<Thaumcraft:ItemResource:3>, [[<Thaumcraft:blockCustomPlant:2>]]);
@@ -403,12 +397,6 @@ mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCap:8>, "perditio 6
 [<Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemNugget:7>],
 [<Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemNugget:7>]]);
 
-// --- Thaumic Crowbar
-mods.thaumcraft.Arcane.addShaped("RC_Crowbar", <Railcraft:tool.crowbar.magic>, "ordo 24, ignis 24, aer 24", [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickThaumium>],
-[<ore:dyeRed>, <ore:stickThaumium>, <ore:dyeRed>],
-[<ore:stickThaumium>, <ore:dyeRed>, <ore:craftingToolFile>]]);
-
 // --- Iron Capped Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>, [
 [<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.IronWandCap>],
@@ -640,7 +628,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>, [<Tha
 mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>],  " aqua 48, gelum 24, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:3>, 3);
 
 // --- Quartz Wand Core
-mods.thaumcraft.Infusion.addRecipe("ROD_quartz", <gregtech:gt.metaitem.01:23517>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>],  " ordo 48, praecantatio 24, potentia 24, vitreus 12", <Thaumcraft:WandRod:4>, 3);
+mods.thaumcraft.Infusion.addRecipe("ROD_quartz", <dreamcraft:item.ChargedCertusQuartzRod>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>],  " ordo 48, praecantatio 24, potentia 24, vitreus 12", <Thaumcraft:WandRod:4>, 3);
 
 // --- Bone Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_bone", <TConstruct:toolRod:5>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>],  " exanimis 24, perditio 48, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:7>, 3);
@@ -1721,7 +1709,8 @@ Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>
 Macerator.addRecipe(<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>);
 // -
 mods.thaumcraft.Research.addPage("CRUCIBLE", "tc.research_page.CRUCIBLE.6");
-game.setLocalization("en_US", "tc.research_page.CRUCIBLE.6", "Salis Mundus Macerator Recipe <BR><IMG>dreamcraft:textures/items/itemSalisMundusMacerator.png:0:0:255:255:0.40</IMG>");
+game.setLocalization("en_US", "tc.research_page.CRUCIBLE.6", "§nSalis Mundus Macerator Recipe <BR><IMG>dreamcraft:textures/items/itemSalisMundusMacerator.png:0:0:255:255:0.40</IMG><BR><LINE>");
+
 
 
 
@@ -1744,9 +1733,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("CAP_silver");
 
 // --- Thaumium Wand Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_thaumium");
-
-// --- Thaumic Crowbar
-mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar");
 
 // --- Arcane Stone
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANESTONE");

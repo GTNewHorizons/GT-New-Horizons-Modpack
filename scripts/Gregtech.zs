@@ -898,9 +898,6 @@ recipes.remove(<gregtech:gt.metaitem.01:32463>);
 // --- Heavy Duty Allow Ingots T3
 recipes.remove(<gregtech:gt.metaitem.01:32464>);
 
-// --- Certus Quartz Dust
-recipes.remove(<gregtech:gt.metaitem.01:2517>);
-
 // --- 60k Helium Cooling Cell
 recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
 
@@ -2578,7 +2575,7 @@ ChemicalReactorLiq.addRecipe(<gregtech:gt.metaitem.01:2836> * 5, <liquid:steam> 
 Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
 
 // --- Certus Quartz Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17517>, <gregtech:gt.metaitem.01:2517>);
+Compressor.addRecipe(<dreamcraft:item.ChargedCertusQuartzPlate>, <dreamcraft:item.ChargedCertusQuartzDust>);
 
 // --- Nether Quartz Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
@@ -2783,6 +2780,9 @@ furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:4870>);
 
 // --- Plastic Spring
 PlateBender.addRecipe(<gregtech:gt.metaitem.02:24874>, <gregtech:gt.metaitem.02:22874>, 200, 16);
+
+// --- Small Titanium Spring
+PlateBender.addRecipe(<gregtech:gt.metaitem.02:23028>, <gregtech:gt.metaitem.01:23028>, 200, 8);
 
 
 
