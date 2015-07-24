@@ -23,7 +23,7 @@ public class BronzePlatedReinforcedStoneProperties implements IExtendedBlockProp
     public int getHarvestLevel() { return 3; }
 
     @Override
-    public int getOpacity() { return 15; }
+    public int getOpacity() { return 100; }
 
     @Override
     public float getHardness() { return 75.0F; }
@@ -32,7 +32,7 @@ public class BronzePlatedReinforcedStoneProperties implements IExtendedBlockProp
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 250; }
+    public float getResistance() { return 250.0F; }
 
     @Override
     public String getBlockName() { return "BronzePlatedReinforcedStone"; }

@@ -23,7 +23,7 @@ public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockPr
     public int getHarvestLevel() { return 4; }
 
     @Override
-    public int getOpacity() { return 15; }
+    public int getOpacity() { return 100; }
 
     @Override
     public float getHardness() { return 150.0F; }
@@ -32,7 +32,7 @@ public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockPr
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 400; }
+    public float getResistance() { return 400.0F; }
 
     @Override
     public String getBlockName() { return "TitaniumPlatedReinforcedStone"; }

@@ -26,7 +26,7 @@ public class AdminsBedrockLampProperties  implements IExtendedBlockProperties
 	public float getLightLevel() { return 1; }
 
 	@Override
-	public float getResistance() { return 0; }
+	public float getResistance() { return 0.0F; }
 
 	@Override
 	public String getBlockName() { return "AdminsBedrockLamp"; }

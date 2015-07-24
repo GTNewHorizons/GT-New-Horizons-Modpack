@@ -23,7 +23,7 @@ public class MytrylProperties implements IExtendedBlockProperties
     public int getHarvestLevel() { return 2; }
 
     @Override
-    public int getOpacity() { return 15; }
+    public int getOpacity() { return 100; }
 
     @Override
     public float getHardness() { return 30.0F; }
@@ -32,7 +32,7 @@ public class MytrylProperties implements IExtendedBlockProperties
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 20; }
+    public float getResistance() { return 20.0F; }
 
     @Override
     public String getBlockName() { return "Mytryl"; }

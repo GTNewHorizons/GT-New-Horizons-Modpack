@@ -23,7 +23,7 @@ public class TripleCompressedCoalCokeProperties implements IExtendedBlockPropert
     public int getHarvestLevel() { return 3; }
 
     @Override
-    public int getOpacity() { return 15; }
+    public int getOpacity() { return 100; }
 
     @Override
     public float getHardness() { return 20.0F; }
@@ -32,7 +32,7 @@ public class TripleCompressedCoalCokeProperties implements IExtendedBlockPropert
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 60; }
+    public float getResistance() { return 60.0F; }
 
     @Override
     public String getBlockName() { return "TripleCompressedCoalCoke"; }

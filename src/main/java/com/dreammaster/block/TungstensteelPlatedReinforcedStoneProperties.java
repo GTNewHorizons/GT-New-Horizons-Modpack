@@ -23,7 +23,7 @@ public class TungstensteelPlatedReinforcedStoneProperties implements IExtendedBl
     public int getHarvestLevel() { return 4; }
 
     @Override
-    public int getOpacity() { return 15; }
+    public int getOpacity() { return 100; }
 
     @Override
     public float getHardness() { return 200.0F; }
@@ -32,7 +32,7 @@ public class TungstensteelPlatedReinforcedStoneProperties implements IExtendedBl
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 500; }
+    public float getResistance() { return 500.0F; }
 
     @Override
     public String getBlockName() { return "TungstensteelPlatedReinforcedStone"; }
