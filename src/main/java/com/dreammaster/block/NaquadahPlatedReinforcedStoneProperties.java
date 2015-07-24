@@ -14,7 +14,7 @@ import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 public class NaquadahPlatedReinforcedStoneProperties implements IExtendedBlockProperties
 {
     @Override
-    public Material getMaterial() { return Material.rock;}
+    public Material getMaterial() { return Material.iron;}
 
     @Override
     public boolean getUnbreakable() { return false;	}
@@ -44,5 +44,5 @@ public class NaquadahPlatedReinforcedStoneProperties implements IExtendedBlockPr
     public String getHarvestToolClass() { return "pickaxe"; }
 
     @Override
-    public SoundType getStepSound() { return Block.soundTypeStone; }
+    public SoundType getStepSound() { return Block.soundTypeMetal;}
 }

@@ -14,7 +14,7 @@ import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 public class NeutroniumPlatedReinforcedStoneProperties implements IExtendedBlockProperties
 {
     @Override
-    public Material getMaterial() { return Material.rock;}
+    public Material getMaterial() { return Material.iron;}
 
     @Override
     public boolean getUnbreakable() { return false;	}
@@ -32,7 +32,7 @@ public class NeutroniumPlatedReinforcedStoneProperties implements IExtendedBlock
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 100000.0F; }
+    public float getResistance() { return 1000F; }
 
     @Override
     public String getBlockName() { return "NeutroniumPlatedReinforcedStone"; }
@@ -44,5 +44,5 @@ public class NeutroniumPlatedReinforcedStoneProperties implements IExtendedBlock
     public String getHarvestToolClass() { return "pickaxe"; }
 
     @Override
-    public SoundType getStepSound() { return Block.soundTypeStone; }
+    public SoundType getStepSound() { return Block.soundTypeMetal; }
 }

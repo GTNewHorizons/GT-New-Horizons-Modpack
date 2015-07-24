@@ -14,7 +14,7 @@ import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockProperties
 {
     @Override
-    public Material getMaterial() { return Material.rock;}
+    public Material getMaterial() { return Material.iron;}
 
     @Override
     public boolean getUnbreakable() { return false;	}
@@ -26,7 +26,7 @@ public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockPr
     public int getOpacity() { return 100; }
 
     @Override
-    public float getHardness() { return 150.0F; }
+    public float getHardness() { return 200.0F; }
 
     @Override
     public float getLightLevel() { return 0; }
@@ -44,5 +44,5 @@ public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockPr
     public String getHarvestToolClass() { return "pickaxe"; }
 
     @Override
-    public SoundType getStepSound() { return Block.soundTypeStone; }
+    public SoundType getStepSound() { return Block.soundTypeMetal; }
 }
