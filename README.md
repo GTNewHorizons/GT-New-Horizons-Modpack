@@ -5,7 +5,7 @@
 -
 
 
-Version 1.0.0.6 is out (12.06.2015)(DC Coremod 0.6.9) (GTTweaker 0.7.1)
+Version 1.0.3.0 is out (22.07.2015)(GT NewHorizonsCoremod 0.9.9) (GTTweaker 0.7.2)
 
 
 Large Modpack with every recipe Gregified
@@ -14,7 +14,7 @@ Large Modpack with every recipe Gregified
 Hey guys, I'd like to open up my project and get more players.
 I've been working on it for six months and still got a lot more work to do.
 
-The pack has around 130 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
+The pack has around 160 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
 An example of Tiering (work in progress) is here:
 
 Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools
@@ -59,95 +59,107 @@ Dedicated server located in Europe.
 Number of players: 6
 
 
-Modlist - NH 1.0.0.6
+Modlist - NH 1.0.3.0
 
 Advanced Solar Panels 3.5.1<BR>
 ASFU 1.2.1.a<BR>
 Anger Mod 0.5<BR>
 AppleCore 1.1.0<BR>
-Applied Energistics rv2 stable6<BR>
-AsieLib 0.4.1<BR>
-Automagy 0.24.2<BR>
+Applied Energistics rv2 stable10<BR>
+AsieLib 0.4.2<BR>
+Automagy 0.26.2<BR>
 BackPack 2.0.1<BR>
-BdLib 1.8.2.90<BR>
-Bibliocraft 1.10.4<BR>
+Baubles 1.0.1.10<BR>
+BdLib 1.9.1.97<BR>
+Better FPS<BR>
+Bibliocraft 1.10.5<BR>
 Bibliowoods 1.9/1.7/1.5<BR>
-Binnie Mods 2.0-pre9<BR>
-Biomes o Plenty 2.1.0.1283<BR>
-Block Limiter<BR>
-BloodMagic 1.3.3.4<BR>
-Buildcraft 6.4.17<BR>
-Buildcraft Compat 6.4.2<BR>
+Binnie Mods 2.0-pre14<BR>
+Biomes o Plenty 2.1.0.1364<BR>
+Block Limiter 0.3<BR>
+Blood Arsenal 1.1.14<BR>
+BloodMagic 1.3.3.11<BR>
+Buildcraft 7.0.17<BR>
+Buildcraft Compat 7.0.9<BR>
 Carpenter's Blocks 3.3.6<BR>
-Chisel 2.3.10.37<BR>
+Chisel 2.4.1.40<BR>
 CodeChickenCore 1.07.46<BR>
-CofhCore 3.0.2.283<BR>
-CofhLib 1.0.2.160<BR>
-Computronics 1.5.1<BR>
-Coro Util 1.1.1<BR>
-Draconic Evolution 1.0.1c
-Dream Craft Core Mod 0.6.6<BR>
+CofhCore 3.0.3.294<BR>
+CofhLib 1.0.3.169<BR>
+Computronics 1.5.6<BR>
+Coro Util 1.1.3<BR>
+Draconic Evolution 1.0.1c<BR>
+Electro Magic Tools 2.0.0V41.<BR>
 Ender Storage 1.4.7.36<BR>
-Extra Cells 2.2.71b<BR>
-Extra Utilities 1.2.5<BR>
+Extra Cells 2.2.73b<BR>
+Extra Utilities 1.2.9<BR>
 FastCraft 1.21<BR>
-Forbidden Magic 0.562<BR>
-Forestry 3.5.7.16<BR>
+Forbidden Magic 0.57<BR>
+Forestry 3.6.3.20<BR>
 Forge Microblocks 1.2.0.345<BR>
-Galactic Greg 0.8.2<BR>
-Galacticraft 3.0.12.241<BR>
-Galaxy Space 1.9 Alpha<BR>
+Galactic Greg 0.9.1RC2<BR>
+Galacticraft 3.0.12.350<BR>
+Galaxy Space 2.3Beta<BR>
 Gem Blocks For Greg 1.5<BR>
-Gendustry 1.4.13.93<BR>
+Gendustry 1.6.0.109<BR>
 Gravitation Suite 2.0.3<BR>
 GregsLighting 1.11.2<BR>
-Gregtech 5.08.19<BR>
-GTTweaker 0.7.0<BR>
-Hardcore Ender Expan. 1.8.1<BR>
+Gregtech 5.08.25<BR>
+GT New Horizons Core Mod	0.9.9<BR>
+GTTweaker 0.7.2<BR>
+Hardcore Ender Expan. 1.8.2<BR>
+Help Fixer 1.0.7<BR>
 HQM The Journey (4.2.4)
 Hunger Overhaul 1.0.0<BR>
 IC2 Nuclear Control 2.2.5a<BR>
 IguanaTinkerTweaks 2.1.5<BR>
-Industrial Craft 2 2.2.2.732<BR>
-Infernal Mobs 1.6.1<BR>
+Industrial Craft 2 2.2.2.756<BR>
+Infernal Mobs 1.6.1a<BR>
 Ingame Info 2.8.1.80<BR>
-Inventory Tweaks 1.58-147<BR>
+Inventory Tweaks 1.58-156<BR>
 Iron Chest Minecarts 1.0.3<BR>
 Iron Chests 6.0.62.742<BR>
 Jabba 1.2.1a<BR>
-JourneyMap 5.0.1<BR>
+JourneyMap 5.1.0<BR>
 Lava Monsters 2.2.1<BR>
-Magic Bees 2.3.1<BR>
-Malis Core 0.12.2<BR>
-Malis Doors 1.8.1<BR>
+Lunatius Core 1.1.2.21<BR>
+Magic Bees 2.3.3<BR>
+Malis Core 0.12.5<BR>
+Malis Doors 1.9.3<BR>
 Mantle 0.3.2<BR>
 Minecraft Forge 10.13.3.1420<BR>
 Mine Tweaker 3.0.9c<BR>
+MrTJPCore	1.1.0.30<BR>
 Mobius Core 1.2.5<BR>
-Mod Tweaker 0.8.0a<BR>
+Mod Tweaker 0.9.2.105<BR>
 Natura 2.2.0.1<BR>
-NEI 1.0.4.110<BR>
-Nei Addons 1.12.9.32<BR>
-Nei Integration 1.0.9<BR>
+NEI 1.0.4.111<BR>
+Nei Addons 1.12.11.36<BR>
+Nei Integration 1.0.11<BR>
 Not Enough Codecs 10.03.13<BR>
 Not Enouht Keys 1.0.0b29<BR>
-Open Blocks 1.4.3.641<BR>
-Open Mods Lib 0.7.3.368<BR>
-Open Computers 1.5.12.26<BR>
+Open Blocks 1.4.3.648<BR>
+Open Mods Lib 0.7.3.380<BR>
+Open Computers 1.5.14.30<BR>
 Open Eye 0.6.145<BR>
+Open Printers 0.1.0.120<BR>
+Open Security 1.0.58<BR>
+Optifone HD UC1<BR>
 Pam's Harvestcraft 1.7.10i<BR>
 Pam's Harvestcraft Nether 1.7.10a<BR>
-Project Red 4.6.2.82<BR>
-Railcraft 9.6.1.14<BR>
+Project Blue 1.1.4<BR>
+Project Red 4.7.0pre7.91<BR>
+Railcraft 9.6.1.15<BR>
 Random Things 2.2.4<BR>
-Realistic World Gen 1.3.2<BR>
+Realistic World Gen 1.3.2.5<BR>
 RemoteIO 2.2.3<BR>
 Rogue-like Dungeons 1.3.6.3<BR>
-Special AI 1.1.1<BR>
+Schematica 1.7.6.121<BR>
 Spice of Life 1.2.3<BR>
 Steve's Carts BETA 18<BR>
 Steve's Factory Manager ALPHA 93<BR>
-Steve's Factory M.Addon 0.10.12<BR>
+Steve's Factory M.Addon 0.10.15<BR>
+Starage Drawers 1.5.12<BR>
 Tainted Magic 1.1.2.6<BR>
 Thaumcraft 4.2.3.5<BR>
 Thaumcraft Mob Aspects 2B-snapsh17<BR>
@@ -173,4 +185,4 @@ Zombie Awareness 1.9.6<BR>
 
 ---
 
-Maintained by Dream-Master, Drobac, Warlord Wossman, Methes, Namikon and Teteros.
+Maintained by Dream-Master, Drobac, Namikon, Teteros, Warlord Wossman and Methes,
