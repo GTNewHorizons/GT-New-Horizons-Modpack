@@ -60,9 +60,6 @@ public class CustomDrops
         @XmlAttribute(name = "EntityClassName")
         protected String mEntityClassName;
 
-        @XmlAttribute(name = "UID")
-        protected int mDropUID;
-        
         @XmlElement(name = "Drops")
         protected List<CustomDrops.CustomDrop.Drop> mDrops;
         
@@ -82,15 +79,14 @@ public class CustomDrops
             return mEntityClassName;
         }
 
-        public int getDropUID()
-        {
-            return mDropUID;
-        }
         
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType
         public static class Drop
         {
+            @XmlAttribute(name = "Identifier")
+            protected String mDropID;
+        	
             @XmlAttribute(name = "ItemName")
             protected String mItemName;
             
@@ -103,10 +99,19 @@ public class CustomDrops
             @XmlAttribute(name = "LimitedDropCount")
             protected int mLimitedDropCount;
             
+            @XmlAttribute(name = "RandomAmount")
+            protected boolean mIsRandomAmount;
+            
+            public String getIdentifier()
+            {
+                return mDropID;
+            }
+            
             public String getItemName()
             {
                 return mItemName;
             }
+
 
             public int getAmount()
             {
@@ -120,6 +125,10 @@ public class CustomDrops
             {
                 return mLimitedDropCount;
             }
+
+			public boolean getIsRandomAmount() {
+				return mIsRandomAmount;
+			}
         }
     }
 }

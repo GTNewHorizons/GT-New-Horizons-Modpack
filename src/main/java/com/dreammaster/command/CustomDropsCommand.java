@@ -37,7 +37,7 @@ public class CustomDropsCommand implements ICommand
     @Override
     public String getCommandUsage(ICommandSender p_71518_1_)
     {
-        return "/customdrops reload";
+        return "/customdrops reload|toggleinfo";
     }
 
     @Override
@@ -62,6 +62,16 @@ public class CustomDropsCommand implements ICommand
         else if (pArgs[0].equalsIgnoreCase("help"))
         {
             SendHelpToPlayer(pCmdSender);
+        }
+        else if (pArgs[0].equalsIgnoreCase("toggleinfo"))
+        {
+        	if (!InGame(pCmdSender))
+        		PlayerChatHelper.SendPlain(pCmdSender, "[CDRP] This command can only be executed ingame");
+        	else
+        	{
+        		EntityPlayer tEP = (EntityPlayer)pCmdSender; 
+        		MainRegistry.Module_CustomDrops.toggleDeathInfoForPlayer(tEP);
+        	}
         }
         else if (pArgs[0].equalsIgnoreCase("reload"))
         {

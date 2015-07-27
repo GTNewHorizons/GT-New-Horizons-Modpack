@@ -1,5 +1,7 @@
 	package com.dreammaster.main;
 
+import java.util.Random;
+
 import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
@@ -55,13 +57,14 @@ public class MainRegistry {
 	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CustomDropsHandler Module_CustomDrops = null;
 	public static CoreModConfig CoreConfig;
-	
+	public static Random Rnd = null;
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
 	
 	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent) {
 		Logger.setDebugOutput(true);
 		
+		Rnd = new Random(System.currentTimeMillis());
 		// ------------------------------------------------------------
 		// Init coremod config file. Create it if it's not there
 		CoreConfig = new CoreModConfig(PreEvent.getModConfigurationDirectory(), Refstrings.COLLECTIONID, Refstrings.MODID);
@@ -126,7 +129,7 @@ public class MainRegistry {
 		if (CoreConfig.ModCustomDrops_Enabled)
 		{
             Logger.debug("Module_CustomDrops is enabled");
-            Module_CustomDrops = new CustomDropsHandler();
+            Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
             Module_CustomDrops.LoadConfig();
 		}
 		
