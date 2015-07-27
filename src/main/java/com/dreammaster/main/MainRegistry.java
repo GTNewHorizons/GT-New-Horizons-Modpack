@@ -1,9 +1,10 @@
-package com.dreammaster.main;
+	package com.dreammaster.main;
 
 import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.block.BlockList;
+import com.dreammaster.command.CustomDropsCommand;
 import com.dreammaster.command.CustomToolTipsCommand;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.command.ItemInHandInfoCommand;
@@ -15,6 +16,7 @@ import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.modctt.CustomToolTipsHandler;
+import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 
@@ -51,6 +53,7 @@ public class MainRegistry {
 	public static HazardousItemsHandler Module_HazardousItems = null; 
 	public static CustomToolTipsHandler Module_CustomToolTips = null;
 	public static CustomFuelsHandler Module_CustomFuels = null;
+	public static CustomDropsHandler Module_CustomDrops = null;
 	public static CoreModConfig CoreConfig;
 	
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
@@ -120,6 +123,13 @@ public class MainRegistry {
             Module_CustomFuels.LoadConfig();
 		}
 		
+		if (CoreConfig.ModCustomDrops_Enabled)
+		{
+            Logger.debug("Module_CustomDrops is enabled");
+            Module_CustomDrops = new CustomDropsHandler();
+            Module_CustomDrops.LoadConfig();
+		}
+		
 		// ------------------------------------------------------------
 		
 		
@@ -177,6 +187,9 @@ public class MainRegistry {
 		
 		if (CoreConfig.ModCustomFuels_Enabled)
 		    GameRegistry.registerFuelHandler(Module_CustomFuels);
+		
+		if (CoreConfig.ModCustomDrops_Enabled)
+		    MinecraftForge.EVENT_BUS.register(Module_CustomDrops);
 	}
 	
 	@EventHandler
@@ -198,7 +211,9 @@ public class MainRegistry {
         if (CoreConfig.ModItemInHandInfo_Enabled)
             pEvent.registerServerCommand(new ItemInHandInfoCommand());
         if (CoreConfig.ModCustomFuels_Enabled)
-            pEvent.registerServerCommand(new CustomFuelsCommand());	
+            pEvent.registerServerCommand(new CustomFuelsCommand());
+        if (CoreConfig.ModCustomDrops_Enabled)
+            pEvent.registerServerCommand(new CustomDropsCommand());
 	}
 	
 }

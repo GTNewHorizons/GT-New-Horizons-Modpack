@@ -26,7 +26,7 @@ public class CustomFuels
         Init();
 
         return mFuelItems;
-    }
+    }	
 
     public FuelItem FindFuelValue(ItemStack pItem)
     {
