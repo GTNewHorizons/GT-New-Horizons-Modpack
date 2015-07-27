@@ -81,6 +81,8 @@ public class CustomFuelsCommand implements ICommand
                     PlayerChatHelper.SendInfo(pCmdSender, "Reload done. New config is activated");
             }
         }
+        else
+            SendHelpToPlayer(pCmdSender);
     }
 
     private boolean InGame(ICommandSender pCmdSender)

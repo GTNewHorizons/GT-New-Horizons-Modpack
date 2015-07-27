@@ -108,6 +108,8 @@ public class CustomToolTipsCommand implements ICommand
                 }
            // }
         }
+        else
+            SendHelpToPlayer(pCmdSender);
     }
 
     private boolean InGame(ICommandSender pCmdSender)

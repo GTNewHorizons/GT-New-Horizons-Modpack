@@ -60,7 +60,7 @@ public class CustomDrops
         @XmlAttribute(name = "EntityClassName")
         protected String mEntityClassName;
 
-        @XmlElement(name = "Drops")
+        @XmlElement(name = "Drop")
         protected List<CustomDrops.CustomDrop.Drop> mDrops;
         
         public List<CustomDrops.CustomDrop.Drop> getDrops()

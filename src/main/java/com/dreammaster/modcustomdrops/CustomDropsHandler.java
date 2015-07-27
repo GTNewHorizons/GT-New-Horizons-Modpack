@@ -50,7 +50,17 @@ public class CustomDropsHandler
 	    
     public void InitSampleConfig()
     {
-    	// Todo
+    	Drop pigDiamondLimitedDrop = _mCfF.createDrop("minecraft:diamond", "sample_Pig_DiamondDrop", 1, false, 100, 5);
+    	Drop pigCakeUnlimitedDrop = _mCfF.createDrop("minecraft:cake", "sample_Pig_CakeDrop", 1, false, 100, 0);
+    	Drop pigRandomCharcoalDrop = _mCfF.createDrop("minecraft:coal:1", "sample_Pig_CharcoalDrop", 5, true, 100, 0);
+    	
+    	CustomDrop pigDrop = _mCfF.createCustomDropEntry("net.minecraft.entity.passive.EntityPig");
+    	pigDrop.getDrops().add(pigDiamondLimitedDrop);
+    	pigDrop.getDrops().add(pigCakeUnlimitedDrop);
+    	pigDrop.getDrops().add(pigRandomCharcoalDrop);
+    	
+    	_mCustomDrops = new CustomDrops();
+    	_mCustomDrops.getCustomDrops().add(pigDrop);
     }
 	    
     public boolean SaveCustomDrops()

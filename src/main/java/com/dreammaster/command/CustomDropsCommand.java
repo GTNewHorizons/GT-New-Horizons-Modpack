@@ -91,6 +91,8 @@ public class CustomDropsCommand implements ICommand
                     PlayerChatHelper.SendInfo(pCmdSender, "Reload done. New config is activated");
             }
         }
+        else
+            SendHelpToPlayer(pCmdSender);
     }
 
     private boolean InGame(ICommandSender pCmdSender)
@@ -109,7 +111,7 @@ public class CustomDropsCommand implements ICommand
         }
         else
         {
-            PlayerChatHelper.SendInfo(pCmdSender, "/customdrops reload");            
+            PlayerChatHelper.SendInfo(pCmdSender, "/customdrops reload|toggleinfo");            
         }
     }
 
