@@ -161,26 +161,26 @@ Steve's Factory Manager ALPHA 93<BR>
 Steve's Factory M.Addon 0.10.15<BR>
 Starage Drawers 1.5.12<BR>
 Tainted Magic 1.1.2.6<BR>
+TC Node Tracker 1.1.2<BR>
 Thaumcraft 4.2.3.5<BR>
 Thaumcraft Mob Aspects 2B-snapsh17<BR>
-Thaumcraft NEIPlugins 1.7<BR>
-Thaumic Energistics 0.8.10.5<BR>
-Thaumic Exploration 1.1.37<BR>
+Thaumcraft NEIPlugins 1.7a<BR>
+Thaumic Energistics 0.8.10.8<BR>
+Thaumic Exploration 1.1.53<BR>
 Thaumic Horizons 1.1.6<BR>
-Thaumic Tinkerer 2.5.494<BR>
-TiCTooltips 1.2.4<BR>
-Tinker's Construct 1.8.5<BR>
+Thaumic Tinkerer 2.5.507<BR>
+TiCTooltips 1.2.5<BR>
+Tinker's Construct 1.8.6a<BR>
 TMechworks 02.14.100<BR>
 Translocators 1.1.2.15<BR>
 Twillight Forest 2.3.7<BR>
 Ulity Mobs 3.1.1<BR>
-Vanilla minecraft 1.7.10<BR>
 Waila 1.5.10<BR>
 Waila Harvestability 1.1.2<BR>
 Warp Theory 1.0f dev<BR>
 Wireless Redstone 1.4.1.9<BR>
 Witchery 0.24.1<BR>
-YAMCore 0.3<BR>
+YAMCore 0.5.2<BR>
 Zombie Awareness 1.9.6<BR>
 
 ---
