@@ -15,7 +15,7 @@ public enum ItemList {
 	BedrockiumPlate(new ModSimpleBaseItem("BedrockiumPlate",  ModTabList.ModGenericTab)),
 	BlackPlutoniumDust(new ModSimpleBaseItem("BlackPlutoniumDust",  ModTabList.ModGenericTab)),
 	BlackPlutoniumPlate(new ModSimpleBaseItem("BlackPlutoniumPlate",  ModTabList.ModGenericTab)),
-        BlackPlutoniumDensePlate(new ModSimpleBaseItem("BlackPlutoniumDensePlate",  ModTabList.ModGenericTab)),
+	BlackPlutoniumDensePlate(new ModSimpleBaseItem("BlackPlutoniumDensePlate",  ModTabList.ModGenericTab)),
 	CallistoIceDust(new ModSimpleBaseItem("CallistoIceDust",  ModTabList.ModGenericTab)),
 	CallistoIceIngot(new ModSimpleBaseItem("CallistoIceIngot",  ModTabList.ModGenericTab)),
 	CallistoIceColdIngot(new ModSimpleBaseItem("CallistoIceColdIngot",  ModTabList.ModGenericTab)),
