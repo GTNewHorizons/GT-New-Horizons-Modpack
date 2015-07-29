@@ -5,16 +5,16 @@
         <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
     </Item>
     <Item UnlocalizedName="item.for.canLava" ExactNameMatch="true">
-        <DamageEffect Source="lava" Amount="0.5"/>
+        <DamageEffect Source="onFire" Amount="1.0"/>
     </Item>
     <Item UnlocalizedName="item.for.refractoryLava" ExactNameMatch="true">
-        <DamageEffect Source="lava" Amount="0.5"/>
+        <DamageEffect Source="onFire" Amount="1.0"/>
     </Item>
     <Item UnlocalizedName="item.iguana.tcon.clayBucket.Lava" ExactNameMatch="true">
-        <DamageEffect Source="lava" Amount="0.5"/>
+        <DamageEffect Source="onFire" Amount="1.0"/>
     </Item>
-    <Item UnlocalizedName="LavaTank.Tank" ExactNameMatch="true">
-        <DamageEffect Source="lava" Amount="0.5"/>
+    <Item UnlocalizedName="fluid.tile.lava" ExactNameMatch="true">
+        <DamageEffect Source="onFire" Amount="1.0"/>
     </Item>
     <Item UnlocalizedName="item.BedrockiumPlate" ExactNameMatch="true">
         <PotionEffect PotionID="2" TickDuration="200" Level="4"/>

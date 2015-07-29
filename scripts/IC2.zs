@@ -1633,6 +1633,29 @@ Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
 
 // --- Plant Ball
 Compressor.addRecipe(<IC2:itemFuelPlantBall>, <minecraft:reeds> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <minecraft:sapling:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <BiomesOPlenty:saplings:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <BiomesOPlenty:colorizedSaplings:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <IC2:blockRubSapling> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Forestry:sapling:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Natura:florasapling:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Natura:Rare Sapling:*> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Thaumcraft:blockCustomPlant> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Thaumcraft:blockCustomPlant:1> * 8);
+// -
+Compressor.addRecipe(<IC2:itemFuelPlantBall>, <TwilightForest:tile.TFSapling:*> * 8);
+
+
+
 
 
 
@@ -1641,7 +1664,7 @@ Compressor.addRecipe(<IC2:itemFuelPlantBall>, <minecraft:reeds> * 8);
 
 
 // --- Biogas
-Distillery.addRecipe(<liquid:ic2biogas> * 250, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 8, 75, 32, false);
+Distillery.addRecipe(<liquid:ic2biogas> * 250, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 8, 80, 30, false);
 
 
 

@@ -51,15 +51,11 @@ val Charcoal = <ore:gemCharcoal>;
 
 // --- Sandstone Rod
 recipes.addShaped(SandstoneRod, [
-[null, null, Sandstone],
-[null, Sandstone, null],
-[Sandstone, null, null]]);
+[<ore:craftingToolFile>, Sandstone, <ore:craftingToolSaw>]]);
 
 // --- Cobblestone Rod
 recipes.addShaped(CobblestoneRod, [
-[null, null, Cobblestone],
-[null, Cobblestone, null],
-[Cobblestone, null, null]]);
+[<ore:craftingToolFile>, Cobblestone, <ore:craftingToolSaw>]]);
 
 // --- Long Obsidian Rod
 recipes.addShaped(<dreamcraft:item.LongObsidianRod> * 2, [
@@ -715,6 +711,12 @@ recipes.addShaped(<dreamcraft:item.LightShaft>, [
 [<ore:craftingToolScrewdriver>, <ore:stickTungsten>, <ore:craftingToolFile>],
 [<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.SulfurBattery:100>, <GalacticraftCore:tile.aluminumWire:1>]]);
 
+// --- Neutron Reflector Parts
+recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
+[<IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>],
+[<IC2:reactorReflectorThick>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick>],
+[<IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>]]);
+
 
 
 
@@ -782,7 +784,7 @@ AssemblerLiq.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item
 // -
 AssemblerLiq.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.lead> * 1008, 400, 512);
 
-// --- Nanao Circuit
+// --- Nano Circuit
 AssemblerLiq.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.tin> * 576, 600, 1024);
 // -
 AssemblerLiq.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.solderingalloy> * 288, 600, 1024);
@@ -790,11 +792,11 @@ AssemblerLiq.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProce
 AssemblerLiq.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.lead> * 1440, 600, 1024);
 
 // --- Quantum Circuit
-AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 12, <liquid:molten.tin> * 1440, 1200, 2048);
+AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.tin> * 1440, 1200, 2048);
 // -
-AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 12, <liquid:molten.solderingalloy> * 576, 1200, 2048);
+AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.solderingalloy> * 576, 1200, 2048);
 // -
-AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 12, <liquid:molten.lead> * 2880, 1200, 2048);
+AssemblerLiq.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.lead> * 2880, 1200, 2048);
 
 // --- Carbon Parts Boots
 Assembler.addRecipe(<dreamcraft:item.CarbonPartBoots>, <IC2:itemPartCarbonPlate> * 4, <gregtech:gt.integrated_circuit:4> * 0, 400, 128);
@@ -854,19 +856,20 @@ AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT7>, <GalaxySpace:ite
 AssemblerLiq.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT8>, <GalaxySpace:item.HeavyDutyPlateTier7>, <GalaxySpace:item.ComBlackPlutonium> * 14, <liquid:molten.neutronium> * 1440, 4200, 8192);
 
 // --- Piston Block
-AssemblerLiq.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redalloy> * 72, 100, 32);
+AssemblerLiq.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redstone> * 72, 100, 32);
 // -
-AssemblerLiq.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redalloy> * 72, 100, 32);
+AssemblerLiq.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redstone> * 72, 100, 32);
+
 
 // --- Piston Plate
 Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <CarpentersBlocks:blockCarpentersBlock> * 2, <minecraft:fence>, 100, 32);
 
 // --- Piko Circuit
-AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 9, <liquid:molten.tin> * 864, 900, 1536);
+AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 900, 1536);
 // -
-AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 9, <liquid:molten.solderingalloy> * 432, 900, 1536);
+AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 900, 1536);
 // -
-AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 9, <liquid:molten.lead> * 1782, 900, 1536);
+AssemblerLiq.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 900, 1536);
 
 // --- Enriched Naquadria Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <gregtech:gt.metaitem.01:22327>, 2000, 2048);
@@ -1410,6 +1413,13 @@ Lathe.addRecipe([<dreamcraft:item.QuantinumRod> * 2, <dreamcraft:item.QuantinumD
 // --- Charged Certus Quartz Rod
 Lathe.addRecipe([<dreamcraft:item.ChargedCertusQuartzRod> * 2, <dreamcraft:item.ChargedCertusQuartzDust>], <appliedenergistics2:item.ItemMultiMaterial:1> * 2, 200, 16);
 
+// --- Sandstone Rod
+Lathe.addRecipe([SandstoneRod], <minecraft:sandstone:*>, 160, 16);
+
+// --- Cobblestone Rod
+Lathe.addRecipe([CobblestoneRod, <gregtech:gt.metaitem.01:1299> * 2], <minecraft:cobblestone>, 160, 16);
+
+
 
 
 // --- Macerator Recipes ---
@@ -1592,6 +1602,12 @@ PlateBender.addRecipe(<dreamcraft:item.BlackPlutoniumDensePlate>, <dreamcraft:it
 
 // --- Dense Ledox Plate
 PlateBender.addRecipe(<dreamcraft:item.LedoxDensePlate>, <dreamcraft:item.LedoxPlate> * 9, 400, 128);
+
+// --- Dense Cold Callisto Ice Plate
+PlateBender.addRecipe(<dreamcraft:item.CallistoIceDensePlate>, <dreamcraft:item.CallistoIcePlate> * 9, 400, 128);
+
+// --- Dense Black Plutonium Plate
+PlateBender.addRecipe(<dreamcraft:item.BlackPlutoniumDensePlate>, <dreamcraft:item.BlackPlutoniumPlate> * 9, 1200, 512);
 
 
 

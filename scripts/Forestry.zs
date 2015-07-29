@@ -2245,6 +2245,11 @@ null, <minecraft:wool:*>, null,
 null, <minecraft:stick>, null],
 null, <minecraft:torch> * 5);
 
+// --- Project Bench
+recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expansion.machine2:10>]);
+
+
+
 
 // --- Add Fuels ---
 

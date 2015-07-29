@@ -710,6 +710,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
 // --- Void Metal Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
 
+// --- Infernal Block
+recipes.remove(<Railcraft:brick.infernal:2>);
+
 
 
 // --- Add Recipes ---
@@ -1751,6 +1754,13 @@ mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Railcraft:backpack.apothecary.t1>, <Railcraft:backpack.apothecary.t2>);
 
+// --- Infernal Block
+recipes.addShaped(<Railcraft:brick.infernal:2>, [
+[<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>],
+[<minecraft:soul_sand>, <minecraft:magma_cream>, <minecraft:soul_sand>],
+[<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>]]);
+
+
 
 // --- Add Fuels ---
 
@@ -1833,6 +1843,9 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.
 
 // --- Electric Junction Tack ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
+
+// --- Advanced Coke Oven Bricks ---
+Assembler.addRecipe(<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:7>, <Railcraft:brick.infernal:2>, 200, 120);
 
 
 

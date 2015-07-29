@@ -624,7 +624,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>, [<Thaumcr
 // --- Obsidian Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>],  " praecantatio 24, tenebrae 24, terra 48, vitreus 12", <Thaumcraft:WandRod:1>, 3);
 
-//Icy Wand Core
+// --- Icy Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>],  " aqua 48, gelum 24, praecantatio 24, vitreus 12", <Thaumcraft:WandRod:3>, 3);
 
 // --- Quartz Wand Core
@@ -1699,6 +1699,7 @@ Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>,
 
 // --- Quicksilver
 Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
+
 
 
 

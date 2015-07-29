@@ -12,6 +12,7 @@ import mods.ic2.Extractor;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.SawLiq;
 
 
@@ -736,7 +737,10 @@ mods.tconstruct.Casting.removeTableRecipe(<Railcraft:nugget:1>);
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
 
 // --- Copper Nugget
-mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1> );
+mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
+
+// --- Snow
+mods.tconstruct.Smeltery.removeMelting(<minecraft:snowball>);
 
 
 
@@ -2141,6 +2145,9 @@ recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 // --- Clear Glass
 recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>]);
 
+// --- Snoball to water
+//mods.tconstruct.Smeltery.addMelting(<minecraft:snowball>, <liquid:water> * 125, 20, <minecraft:water>);
+
 
 
 // --- Alloy Smelter Recipes ---
@@ -2309,6 +2316,8 @@ mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>,
 Macerator.addRecipe(<TConstruct:materials:38>, <TConstruct:materials:4>);
 // -
 Macerator.addRecipe(<TConstruct:materials:38> * 9, <TConstruct:MetalBlock:1>);
+// -
+//Macerator.addRecipe(<TConstruct:materials:38> * 2, <TConstruct:SearedBrick:2>);
 
 // --- Manyullyn Dust
 Macerator.addRecipe(<TConstruct:materials:41>, <TConstruct:materials:5>);
@@ -2333,6 +2342,16 @@ Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 // --- Grout
 Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, <minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2, null, <liquid:water> * 2000, 120, 16);
+
+
+
+
+// --- Pulverizer Recipes ---
+
+
+
+// --- Ardite Dust
+Pulverizer.addRecipe([<TConstruct:materials:38> * 2, <TConstruct:materials:38>], <TConstruct:SearedBrick:2>, [10000, 1000], 400, 2);
 
 
 

@@ -950,6 +950,11 @@ recipes.remove(<minecraft:skull:1>);
 // --- Shears
 recipes.remove(<minecraft:shears>);
 
+// --- Sand
+recipes.removeShapeless(<minecraft:sand>);
+// -
+recipes.removeShaped(<minecraft:sand>);
+
 
 
 
@@ -2388,14 +2393,14 @@ recipes.addShaped(<minecraft:brick_block> * 2, [
 
 // --- Nether Bricks
 recipes.addShaped(<minecraft:nether_brick> * 2, [
-[NetherBricks, NetherBricks, NetherBricks],
-[NetherBricks, <minecraft:lava_bucket>.giveBack(<minecraft:bucket>), NetherBricks],
-[NetherBricks, NetherBricks, NetherBricks]]);
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <minecraft:lava_bucket>.giveBack(<minecraft:bucket>), <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 // -
 recipes.addShaped(<minecraft:nether_brick> * 2, [
-[NetherBricks, NetherBricks, NetherBricks],
-[NetherBricks, <IguanaTweaksTConstruct:clayBucketLava>, NetherBricks],
-[NetherBricks, NetherBricks, NetherBricks]]);
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <IguanaTweaksTConstruct:clayBucketLava>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 
 // --- Wooden Door
 recipes.addShaped(WoodDoor, [
