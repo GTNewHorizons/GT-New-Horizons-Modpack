@@ -1,8 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomDrops>
-    <CustomDrop EntityClassName="net.minecraft.entity.passive.EntityPig">
-        <Drop Identifier="sample_Pig_DiamondDrop" ItemName="minecraft:diamond" Amount="1" Chance="100" LimitedDropCount="5" RandomAmount="false"/>
-        <Drop Identifier="sample_Pig_CakeDrop" ItemName="minecraft:cake" Amount="1" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
-        <Drop Identifier="sample_Pig_CharcoalDrop" ItemName="minecraft:coal:1" Amount="5" Chance="100" LimitedDropCount="0" RandomAmount="true"/>
-    </CustomDrop>
 </CustomDrops>

@@ -41,16 +41,16 @@ recipes.addShaped(CarminiteReactor, [
 //--- Assembler Recipes ---
 
 // --- Naga Scale ---
-Assembler.addRecipe(<TwilightForest:item.nagaScale>, <Thaumcraft:ItemResource:14> * 4, <TwilightForest:item.trophy:1> * 0, 600, 32);
+Assembler.addRecipe(<TwilightForest:item.nagaScale>, <Thaumcraft:ItemResource:14> * 4, <TwilightForest:item.trophy:1> * 0, 600, 64);
 
 //Fierey Blood
-Assembler.addRecipe(<TwilightForest:item.fieryBlood>, <Thaumcraft:ItemResource:14> * 16, <TwilightForest:item.trophy> * 0, 1200, 128);
+Assembler.addRecipe(<TwilightForest:item.fieryBlood>, <Thaumcraft:ItemResource:14> * 16, <TwilightForest:item.trophy> * 0, 1200, 1024);
 
 //Fierey Tears
 Assembler.addRecipe(<TwilightForest:item.fieryTears>, <minecraft:ghast_tear>, <TwilightForest:item.trophy:3> * 0, 1500, 256);
 
 //Carminite
-Assembler.addRecipe(<TwilightForest:item.carminite>, <Thaumcraft:ItemResource:14> * 32, <TwilightForest:item.trophy:3> * 0, 1500, 256);
+Assembler.addRecipe(<TwilightForest:item.carminite>, <Thaumcraft:ItemResource:14> * 32, <TwilightForest:item.trophy:3> * 0, 1500, 4096);
 
 
 

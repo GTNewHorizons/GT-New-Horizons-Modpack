@@ -245,25 +245,25 @@ recipes.remove(<ProjRed|Core:projectred.core.part:34>);
 recipes.remove(<ProjRed|Core:projectred.core.part:44>);
 
 // --- Null Logic Upgarde Chip
-recipes.remove(<ProjRed|Core:projectred.core.part:45>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:45>);
 
 // --- LX Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:46>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:46>);
 
 // --- LY Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:47>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:47>);
 
 // --- LZ Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:48>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:48>);
 
 // --- RX Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:49>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:49>);
 
 // --- RY Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:50>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:50>);
 
 // --- RZ Upgarde
-recipes.remove(<ProjRed|Core:projectred.core.part:51>);
+//recipes.remove(<ProjRed|Core:projectred.core.part:51>);
 
 // --- Screwdriver
 recipes.remove(<ProjRed|Core:projectred.core.screwdriver>);
@@ -536,22 +536,22 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:44>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- RX Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:49>, [<ProjRed|Core:projectred.core.part:46>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:49>, [<ProjRed|Core:projectred.core.part:46>]);
 
 // --- LX Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:46>, [<ProjRed|Core:projectred.core.part:49>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:46>, [<ProjRed|Core:projectred.core.part:49>]);
 
 // --- RY Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:50>, [<ProjRed|Core:projectred.core.part:47>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:50>, [<ProjRed|Core:projectred.core.part:47>]);
 
 // --- LY Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:47>, [<ProjRed|Core:projectred.core.part:50>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:47>, [<ProjRed|Core:projectred.core.part:50>]);
 
 // --- RZ Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:51>, [<ProjRed|Core:projectred.core.part:48>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:51>, [<ProjRed|Core:projectred.core.part:48>]);
 
 // --- RZ Upgarde
-recipes.addShapeless(<ProjRed|Core:projectred.core.part:48>, [<ProjRed|Core:projectred.core.part:51>]);
+//recipes.addShapeless(<ProjRed|Core:projectred.core.part:48>, [<ProjRed|Core:projectred.core.part:51>]);
 
 // --- Screwdriver
 recipes.addShaped(<ProjRed|Core:projectred.core.screwdriver>, [
@@ -879,13 +879,13 @@ Assembler.addRecipe(<ProjRed|Core:projectred.core.part:6> ,<ProjRed|Core:project
 Assembler.addRecipe(<ProjRed|Core:projectred.core.part:9>, <ProjRed|Core:projectred.core.part:2> * 4, <gregtech:gt.metaitem.01:23874> * 4, 300, 64);
 
 // --- Null Logic Upgarde Chip
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:45>, <ProjRed|Core:projectred.core.part:1>, <gregtech:gt.metaitem.01:32700>, <liquid:molten.redalloy> * 144, 600, 8);
+//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:45>, <ProjRed|Core:projectred.core.part:1>, <gregtech:gt.metaitem.01:32700>, <liquid:molten.redalloy> * 144, 600, 8);
 
 // --- LX Upgarde
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:46>, <ProjRed|Core:projectred.core.part:45>, <gregtech:gt.blockmachines:1420> * 2, <liquid:molten.redalloy> * 144, 500, 16);
+//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:46>, <ProjRed|Core:projectred.core.part:45>, <gregtech:gt.blockmachines:1420> * 2, <liquid:molten.redalloy> * 144, 500, 16);
 
 // --- LY Upgarde
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redalloy> * 144, 400, 24);
+//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redalloy> * 144, 400, 24);
 
 // --- LZ Upgarde
 AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redalloy> * 144, 300, 32);
