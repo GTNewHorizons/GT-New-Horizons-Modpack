@@ -6,6 +6,7 @@
 
 
 import mods.gregtech.AlloySmelter;
+import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.ic2.Compressor;
@@ -2665,8 +2666,33 @@ mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, fal
 
 
 
+// --- Alloy Smelter Recipes ---
+
+
+// --- Nether Brick
+AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
+
+// --- Glass
+AlloySmelter.addRecipe(<minecraft:glass>, <BloodArsenal:glass_shard> * 2, <gregtech:gt.metaitem.01:32308> * 0, 5, 64);
+
+
+
+
+// --- Arc Furnace Recipes ---
+
+
+
+// --- Glass
+ArcFurnace.addRecipe([<minecraft:glass> * 2], <minecraft:sand:1>, <liquid:oxygen> * 2, [10000], 20, 256);
+// -
+ArcFurnace.addRecipe([<minecraft:glass> * 2], <minecraft:sand>, <liquid:oxygen> * 2, [10000], 20, 256);
+
+
+
 
 // --- Assembler Recipes ---
+
+
 
 
 
@@ -2707,14 +2733,10 @@ Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcra
 
 
 
-// --- Alloy Smelter Recipes ---
-
-
-// --- Nether Brick
-AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
-
-
 // --- Extractor Recipes ---
+
+
+
 
 // --- Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
@@ -2724,6 +2746,10 @@ Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
 
 // --- Fluid Extractor Recipes ---
+
+
+
+
 
 FluidExtractor.addRecipe(null, <minecraft:sand:*>, <liquid:molten.glass> * 144, 10000, 200, 48);
 

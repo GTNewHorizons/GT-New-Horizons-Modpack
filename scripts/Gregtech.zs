@@ -4,11 +4,11 @@
 
 // --- Imports --- 
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
-import mods.gregtech.AlloySmelter;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalReactorLiq;
 import mods.gregtech.Fermenter;
@@ -2586,6 +2586,21 @@ recipes.addShaped(<gregtech:gt.blockmachines:129>, [
 [<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
 [<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>]]);
 
+// --- Glass Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <BloodArsenal:glass_shard>]);
+
+// --- Saltpeter Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
+[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>],
+[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>],
+[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
+[<gregtech:gt.metaitem.01:1836>, <gregtech:gt.metaitem.01:1836>, null],
+[<gregtech:gt.metaitem.01:1836>, <gregtech:gt.metaitem.01:1836>, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:2836> * 16, [
+[<gregtech:gt.metaitem.03:836>, <ore:craftingToolCrowbar>, null]]);
 
 
 
@@ -2707,6 +2722,7 @@ AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaite
 AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaitem.01:9035> * 27, <gregtech:gt.metaitem.01:11057>, 200, 16);
 // -
 AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaitem.01:9035> * 27, <gregtech:gt.metaitem.01:9057> * 9, 200, 16);
+
 
 
 
@@ -3001,6 +3017,9 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
+
+// --- Glass Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
 
 
 
