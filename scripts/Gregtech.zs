@@ -10,6 +10,7 @@ import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.CentrifugeLiq;
 import mods.gregtech.ChemicalReactorLiq;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
@@ -2764,6 +2765,16 @@ Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:g
 
 
 
+
+// --- Centrifuge Recipes ---
+
+
+// --- Flint Dust
+CentrifugeLiq.addRecipe(<gregtech:gt.metaitem.01:2802> * 8, null, null, null, null, null, null,  <minecraft:gravel> * 16, null, null, 10000, 0, 0, 0, 0, 0, 50, 1920);
+
+
+
+
 // --- Chemical Reactor Recipes ---
 
 
@@ -2911,7 +2922,6 @@ PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30890>, <gregtech:gt.metaitem.
 // --- Rubber Pulp
 Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>);
 
-
 // --- Honey Forestry and BOP
 Fermenter.addRecipe(<liquid:honey> * 1000, <liquid:for.honey> * 1000, 20, false);
 // -
@@ -2996,6 +3006,9 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22532>, <gregtech:gt.metaitem.01:
 
 // --- Long Endereye Rod
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.01:23533> * 2, 20, 16);
+
+// --- Flint Dust
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:802> * 2, <minecraft:flint>, 32, 16);
 
 
 
