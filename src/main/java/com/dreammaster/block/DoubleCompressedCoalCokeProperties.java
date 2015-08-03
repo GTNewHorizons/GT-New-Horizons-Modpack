@@ -20,7 +20,7 @@ public class DoubleCompressedCoalCokeProperties implements IExtendedBlockPropert
     public boolean getUnbreakable() { return false;	}
 
     @Override
-    public int getHarvestLevel() { return 3; }
+    public int getHarvestLevel() { return 1; }
 
     @Override
     public int getOpacity() { return 100; }

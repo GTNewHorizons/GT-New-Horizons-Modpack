@@ -11,7 +11,7 @@ import eu.usrv.yamcore.iface.IExtendedBlockProperties;
  * @author Namikon
  *
  */
-public class DoubleCompressedCoalProperties implements IExtendedBlockProperties
+public class QuintupleCompressedCoalCokeProperties implements IExtendedBlockProperties
 {
     @Override
     public Material getMaterial() { return Material.rock;}
@@ -20,22 +20,22 @@ public class DoubleCompressedCoalProperties implements IExtendedBlockProperties
     public boolean getUnbreakable() { return false;	}
 
     @Override
-    public int getHarvestLevel() { return 1; }
+    public int getHarvestLevel() { return 2; }
 
     @Override
     public int getOpacity() { return 100; }
 
     @Override
-    public float getHardness() { return 15.0F; }
+    public float getHardness() { return 30.0F; }
 
     @Override
     public float getLightLevel() { return 0; }
 
     @Override
-    public float getResistance() { return 50.0F; }
+    public float getResistance() { return 80.0F; }
 
     @Override
-    public String getBlockName() { return "DoubleCompressedCoal"; }
+    public String getBlockName() { return "QuintupleCompressedCoalCoke"; }
 
     @Override
     public String getTextureName() { return ""; }
