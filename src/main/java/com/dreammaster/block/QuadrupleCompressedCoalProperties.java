@@ -20,7 +20,7 @@ public class QuadrupleCompressedCoalProperties implements IExtendedBlockProperti
     public boolean getUnbreakable() { return false;	}
 
     @Override
-    public int getHarvestLevel() { return 2; }
+    public int getHarvestLevel() { return 3; }
 
     @Override
     public int getOpacity() { return 100; }
