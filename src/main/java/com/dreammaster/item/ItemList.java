@@ -221,10 +221,12 @@ public enum ItemList {
 	TungstenIronPlate(new ModSimpleBaseItem("TungstenIronPlate", ModTabList.ModGenericTab)),
 	TungstenSteelItemCasing(new ModSimpleBaseItem("TungstenSteelItemCasing", ModTabList.ModGenericTab)),
 	TungstenSteeLIronPlate(new ModSimpleBaseItem("TungstenSteelIronPlate", ModTabList.ModGenericTab)),
+	UnfiredClayBrick(new ModSimpleBaseItem("UnfiredClayBrick", ModTabList.ModGenericTab)),
 	VoidFoil(new ModSimpleBaseItem("VoidFoil",  ModTabList.ModThaumcraftTab)),
 	VoidPlate(new ModSimpleBaseItem("VoidPlate",  ModTabList.ModThaumcraftTab)),
 	VoidRing(new ModSimpleBaseItem("VoidRing",  ModTabList.ModThaumcraftTab)),
 	VoidRod(new ModSimpleBaseItem("VoidRod",  ModTabList.ModThaumcraftTab)),
+	WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
 
 	// Do not delete this
 	EndOfList(null);
