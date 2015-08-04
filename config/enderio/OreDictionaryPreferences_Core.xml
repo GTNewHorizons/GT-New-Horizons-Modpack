@@ -35,7 +35,7 @@
   </preference>
   <preference oreDictionary="dustObsidian" >
     <itemStack modID="ThermalFoundation" itemName="material" itemMeta="4" />
-    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="8" />
+    <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="7" />
   </preference>
   <preference oreDictionary="dustIron" >
     <itemStack modID="ThermalFoundation" itemName="material" itemMeta="0" />

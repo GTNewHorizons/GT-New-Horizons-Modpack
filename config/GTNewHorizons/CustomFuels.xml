@@ -2,13 +2,19 @@
 <CustomFuels>
     <FuelItem ItemName="minecraft:diamond" BurnTime="102400"/>
 	<FuelItem ItemName="dreamcraft:tile.Charcoal" BurnTime="16000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCharcoal" BurnTime="160000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCoal" BurnTime="160000"/>
-	<FuelItem ItemName="dreamcraft:tile.CompressedCoalCoke" BurnTime="320000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCharcoal" BurnTime="1600000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoal" BurnTime="1600000"/>
-	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoalCoke" BurnTime="3200000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCharcoal" BurnTime="16000000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoal" BurnTime="16000000"/>
-	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoalCoke" BurnTime="32000000"/>
+	<FuelItem ItemName="dreamcraft:tile.CompressedCharcoal" BurnTime="144000"/>
+	<FuelItem ItemName="dreamcraft:tile.CompressedCoal" BurnTime="144000"/>
+	<FuelItem ItemName="dreamcraft:tile.CompressedCoalCoke" BurnTime="288000"/>
+	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCharcoal" BurnTime="1296000"/>
+	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoal" BurnTime="1296000"/>
+	<FuelItem ItemName="dreamcraft:tile.DoubleCompressedCoalCoke" BurnTime="2592000"/>
+	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCharcoal" BurnTime="11664000"/>
+	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoal" BurnTime="11664000"/>
+	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoalCoke" BurnTime="23328000"/>
+    <FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCharcoal" BurnTime="104976000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoal" BurnTime="104976000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoalCoke" BurnTime="209952000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCharcoal" BurnTime="944784000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCoal" BurnTime="944784000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCoalCoke" BurnTime="1889568000"/>
 </CustomFuels>

@@ -393,8 +393,11 @@ recipes.removeShaped(<minecraft:stone_slab:1>);
 // --- Cobblestone Slab
 recipes.removeShaped(<minecraft:stone_slab:3>);
 
-// --- Bricks
+// --- Brick Blocks
 recipes.remove(<minecraft:brick_block>);
+
+// --- Bricks
+furnace.remove(<minecraft:brick>);
 
 // --- Bricks Slab
 recipes.removeShaped(<minecraft:stone_slab:4>);
@@ -701,7 +704,7 @@ recipes.remove(<minecraft:snow>);
 // --- Clay
 recipes.remove(<minecraft:clay>);
 
-// --- nether Brick
+// --- Nether Brick
 recipes.remove(<minecraft:nether_brick>);
 
 // --- Quartz Block
@@ -2381,7 +2384,7 @@ recipes.addShapeless(<minecraft:stone_slab:6>, [Saw, NetherBricks]);
 // --- Quartz  Slabs
 recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 
-// --- Bricks
+// --- Brick Blocks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
 [<ore:ingotBrick>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:ingotBrick>],
@@ -2391,6 +2394,9 @@ recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
 [<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
+
+// --- Brick
+furnace.addRecipe(<minecraft:brick>, <dreamcraft:item.UnfiredClayBrick>);
 
 // --- Nether Bricks
 recipes.addShaped(<minecraft:nether_brick> * 2, [
@@ -2669,6 +2675,10 @@ mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, fal
 // --- Alloy Smelter Recipes ---
 
 
+
+// --- Bricks
+AlloySmelter.addRecipe(<minecraft:brick>, <minecraft:clay_ball>, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
+
 // --- Nether Brick
 AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
 
@@ -2834,6 +2844,7 @@ game.setLocalization("en_US", "Minecraft.research_page.DRAGONEGG", "Dragon Eggs 
 mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, [<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], "alienis 150, bestia 120, praecantatio 100, victus 80",  <minecraft:dragon_egg>, 6);
 mods.thaumcraft.Research.addInfusionPage("DRAGONEGG", <minecraft:dragon_egg>);
 mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
+
 
 
 // --- Add Slicer Recipes ---

@@ -717,6 +717,14 @@ recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
 [<IC2:reactorReflectorThick>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick>],
 [<IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>]]);
 
+// --- Wooden Brick Form
+recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
+[<ore:craftingToolKnife>, <TConstruct:blankPattern>, null]]);
+
+// --- Unfired Bricks
+recipes.addShaped(<dreamcraft:item.UnfiredClayBrick>, [
+[<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
+
 
 
 
@@ -921,12 +929,12 @@ Autoclave.addRecipe(<GalaxySpace:item.ElectCrystall>, <dreamcraft:item.Mysteriou
 
 
 // --- Hot Qantinum Ingot
-BlastFurnaceLiq.addRecipe(<dreamcraft:item.QuantinumHotIngot>, null, <liquid:oxygen> * 4000, null, <dreamcraft:item.QuantinumDust>, null, 2400, 1024, 3600); 
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.QuantinumHotIngot>, null, <liquid:oxygen> * 4000, <dreamcraft:item.QuantinumDust>, null, 2400, 1024, 3600); 
 
 // --- Hot Mytryl Ingot
-BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, null, <GalaxySpace:item.Mytryl>, null, 1200, 512, 3600); 
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, <GalaxySpace:item.Mytryl>, null, 1200, 512, 3600); 
 // -
-BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, null, <dreamcraft:item.MytrylDust>, null, 1200, 512, 3600); 
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, <dreamcraft:item.MytrylDust>, null, 1200, 512, 3600); 
 
 
 
@@ -1001,6 +1009,24 @@ Compressor.addRecipe(<dreamcraft:tile.TripleCompressedCoal>, <dreamcraft:tile.Do
 
 // --- Triple Compressed Coal Coke
 Compressor.addRecipe(<dreamcraft:tile.TripleCompressedCoalCoke>, <dreamcraft:tile.DoubleCompressedCoalCoke> * 9);
+
+// --- Quadruple Compressed Charcoal Block
+Compressor.addRecipe(<dreamcraft:tile.QuadrupleCompressedCharcoal>, <dreamcraft:tile.TripleCompressedCharcoal> * 9);
+
+// --- Quadruple Compressed Coal Block
+Compressor.addRecipe(<dreamcraft:tile.QuadrupleCompressedCoal>, <dreamcraft:tile.TripleCompressedCoal> * 9);
+
+// --- Quadruple Compressed Coal Coke
+Compressor.addRecipe(<dreamcraft:tile.QuadrupleCompressedCoalCoke>, <dreamcraft:tile.TripleCompressedCoalCoke> * 9);
+
+// --- Quintuple Compressed Charcoal Block
+Compressor.addRecipe(<dreamcraft:tile.QuintupleCompressedCharcoal>, <dreamcraft:tile.QuadrupleCompressedCharcoal> * 9);
+
+// --- Quintuple Compressed Coal Block
+Compressor.addRecipe(<dreamcraft:tile.QuintupleCompressedCoal>, <dreamcraft:tile.QuadrupleCompressedCoal> * 9);
+
+// --- Quintuple Compressed Coal Coke
+Compressor.addRecipe(<dreamcraft:tile.QuintupleCompressedCoalCoke>, <dreamcraft:tile.QuadrupleCompressedCoalCoke> * 9);
 
 // --- Block of Charged Certus Quartz
 Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:7>, <appliedenergistics2:item.ItemMultiMaterial:1> * 9);
