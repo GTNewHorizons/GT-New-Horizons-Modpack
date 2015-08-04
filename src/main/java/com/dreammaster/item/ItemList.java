@@ -74,6 +74,7 @@ public enum ItemList {
 	IrradiantReinforcedTungstenSteelPlate(new ModSimpleBaseItem("IrradiantReinforcedTungstenSteelPlate", ModTabList.ModGenericTab)),
 
 	IronWandCap(new ModSimpleBaseItem("IronWandCap",  ModTabList.ModThaumcraftTab)),
+	HotNetherrackBrick(new ModSimpleBaseItem("HotNetherrackBrick", ModTabList.ModGenericTab)),
 	LaserEmitter(new ModSimpleBaseItem("LaserEmitter", ModTabList.ModGenericTab)),
 	LedoxDust(new ModSimpleBaseItem("LedoxDust",  ModTabList.ModGenericTab)),
 	LedoxIngot(new ModSimpleBaseItem("LedoxIngot",  ModTabList.ModGenericTab)),
@@ -226,7 +227,6 @@ public enum ItemList {
 	TungstenSteeLIronPlate(new ModSimpleBaseItem("TungstenSteelIronPlate", ModTabList.ModGenericTab)),
 	UnfiredClayBrick(new ModSimpleBaseItem("UnfiredClayBrick", ModTabList.ModGenericTab)),
 	UnfiredCokeOvenBrick(new ModSimpleBaseItem("UnfiredCokeOvenBrick", ModTabList.ModGenericTab)),
-	UnfiredInfernalBrick(new ModSimpleBaseItem("UnfiredInfernalBrick", ModTabList.ModGenericTab)),
 	UnfiredSearedBrick(new ModSimpleBaseItem("UnfiredSearedBrick", ModTabList.ModGenericTab)),
 	UnfiredSlimeSoulBrick(new ModSimpleBaseItem("UnfiredSlimeSoulBrick", ModTabList.ModGenericTab)),
 	VoidFoil(new ModSimpleBaseItem("VoidFoil",  ModTabList.ModThaumcraftTab)),
