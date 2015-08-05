@@ -742,6 +742,12 @@ mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
 // --- Snow
 mods.tconstruct.Smeltery.removeMelting(<minecraft:snowball>);
 
+// --- Seared Bricks
+furnace.remove(<TConstruct:materials:2>);
+
+// --- Seared Bricks Nether
+furnace.remove(<TConstruct:materials:37>);
+
 
 
 
@@ -1319,6 +1325,9 @@ recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <mine
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
 // -
 recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+
+// --- Seared Bricks
+furnace.addRecipe(<TConstruct:materials:2>, <dreamcraft:item.UnfiredSearedBrick>);
 
 // --- Congealed Slime
 Compressor.addRecipe(<TConstruct:slime.gel>, Gelatinous * 4);
@@ -2145,6 +2154,10 @@ recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 // --- Clear Glass
 recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>]);
 
+// --- Seared Bricks Nether
+furnace.addRecipe(<TConstruct:materials:37>, <dreamcraft:item.UnfiredSlimeSoulBrick>);
+
+
 // --- Snoball to water
 //mods.tconstruct.Smeltery.addMelting(<minecraft:snowball>, <liquid:water> * 125, 20, <minecraft:water>);
 
@@ -2182,6 +2195,13 @@ AlloySmelter.addRecipe(<TConstruct:materials:18>, <TConstruct:materials:27> * 9,
 
 // --- Aluminium Brass
 AlloySmelter.addRecipe(<TConstruct:materials:14>, <TConstruct:materials:24> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 2);
+
+// --- Seared Bricks
+AlloySmelter.addRecipe(<TConstruct:materials:2>, <TConstruct:CraftedSoil:1>, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+
+// --- Seared Bricks Nether
+AlloySmelter.addRecipe(<TConstruct:materials:37>, <TConstruct:CraftedSoil:6>, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+
 
 
 
@@ -2342,6 +2362,11 @@ Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 // --- Grout
 Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, <minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2, null, <liquid:water> * 2000, 120, 16);
+
+// --- Slime Soil
+Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, <minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <Natura:soil.tainted>, <liquid:water> * 2000, 200, 16);
+// -
+Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, <minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <minecraft:sand:*>, <liquid:water> * 2000, 200, 16);
 
 
 

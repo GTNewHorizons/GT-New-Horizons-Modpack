@@ -1687,14 +1687,8 @@ recipes.addShaped(<Railcraft:tool.magnifying.glass>, [
 
 // --- Coke Oven ---
 recipes.addShaped(<Railcraft:machine.alpha:7>, [
-[<ore:sand>, <ore:ingotBrick>, <ore:sand>],
-[<ore:ingotBrick>, <ore:sand>, <ore:ingotBrick>],
-[<ore:sand>, <ore:ingotBrick>, <ore:sand>]]);
-
-recipes.addShaped(<Railcraft:machine.alpha:7>, [
-[null, <Railcraft:brick.sandy>, null],
-[null, <ore:sand>, null],
-[null, <Railcraft:brick.sandy>, null]]);
+[<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, null],
+[<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, null]]);
 
 // --- Sandy Block ---
 recipes.addShaped(<Railcraft:brick.sandy:2>, [
@@ -1844,8 +1838,6 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.
 // --- Electric Junction Tack ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
 
-// --- Advanced Coke Oven Bricks ---
-Assembler.addRecipe(<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:7>, <Railcraft:brick.infernal:2>, 200, 120);
 
 
 
@@ -1868,6 +1860,12 @@ Compressor.addRecipe(ConcreteBlock, ConcreteSlab * 2);
 
 // --- Creosote Wood Slab ---
 Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 2);
+
+// --- Advanced Coke Oven Bricks ---
+Compressor.addRecipe(<Railcraft:machine.alpha:12>, <dreamcraft:item.AdvancedCokeOvenBrick> * 4);
+
+// --- Coke Oven
+Compressor.addRecipe(<Railcraft:machine.alpha:7>, <dreamcraft:item.CokeOvenBrick> * 4);
 
 
 // --- Fluid Solidifier Recipes

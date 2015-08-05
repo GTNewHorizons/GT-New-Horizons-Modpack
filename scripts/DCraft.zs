@@ -725,6 +725,22 @@ recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
 recipes.addShaped(<dreamcraft:item.UnfiredClayBrick>, [
 [<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
 
+// --- Unfired Seared Bricks
+recipes.addShaped(<dreamcraft:item.UnfiredSearedBrick>, [
+[<TConstruct:CraftedSoil:1>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
+
+// --- Unfired Coke Oven Bricks
+recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick>, [
+[<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null],
+[<ore:sand>, null, null],
+[<ore:sand>, null, null]]);
+
+// --- Unfired Slime Soil Bricks
+recipes.addShaped(<dreamcraft:item.UnfiredSlimeSoulBrick>, [
+[<TConstruct:CraftedSoil:6>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
+
+// --- Coke Oven Bricks
+furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
 
 
 
@@ -765,8 +781,15 @@ AlloySmelter.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, <gregtech:gt.meta
 // --- Neutronium Item Casing
 AlloySmelter.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, <gregtech:gt.metaitem.01:11129> * 3, <gregtech:gt.metaitem.01:32302> * 0, 1800, 512);
 
+// --- Coke Oven Bricks
+AlloySmelter.addRecipe(<dreamcraft:item.CokeOvenBrick>, <minecraft:sand> * 2, <minecraft:clay_ball>, 200, 8);
+
+
+
 
 // --- Assembler and AssemblerLiq Recipes
+
+
 
 
 // --- Steel Bars
@@ -935,6 +958,21 @@ BlastFurnaceLiq.addRecipe(<dreamcraft:item.QuantinumHotIngot>, null, <liquid:oxy
 BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, <GalaxySpace:item.Mytryl>, null, 1200, 512, 3600); 
 // -
 BlastFurnaceLiq.addRecipe(<dreamcraft:item.MytrylHotIngot>, null, <liquid:oxygen> * 2000, <dreamcraft:item.MytrylDust>, null, 1200, 512, 3600); 
+
+// --- Infernal Bricks
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.InfernalBrick>, null, <liquid:oxygen> * 1000, <dreamcraft:item.HotNetherrackBrick>, null, 300, 120, 1000); 
+// -
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.InfernalBrick>, null, null, <dreamcraft:item.HotNetherrackBrick>, null, 600, 120, 1200); 
+
+// --- Advanced Coke Oven Bricks
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.AdvancedCokeOvenBrick>, null, <liquid:oxygen> * 1000, <dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>, 600, 120, 1500); 
+// -
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.AdvancedCokeOvenBrick>, null, null, <dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>, 1200, 120, 1800); 
+
+// --- Hot Netherrack Bricks
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.HotNetherrackBrick> * 4, null, <liquid:oxygen> * 1000, <minecraft:netherbrick> * 16, <minecraft:magma_cream>, 150, 120, 1000); 
+// -
+BlastFurnaceLiq.addRecipe(<dreamcraft:item.HotNetherrackBrick> * 4, null, null, <minecraft:netherbrick> * 16, <minecraft:magma_cream>, 300, 120, 1200); 
 
 
 
