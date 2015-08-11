@@ -960,6 +960,9 @@ recipes.removeShapeless(<minecraft:sand>);
 // -
 recipes.removeShaped(<minecraft:sand>);
 
+// --- Glowstone Dust
+recipes.removeShapeless(<minecraft:glowstone_dust>);
+
 
 
 
@@ -2802,9 +2805,12 @@ Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
 // --- Wheat
 Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
+// --- Glowstone Dust
+Extractor.addRecipe(<minecraft:glowstone_dust>, <harvestthenether:glowFlower> * 2);
+
+
 
 // --- Fluid Extractor Recipes ---
-
 
 
 

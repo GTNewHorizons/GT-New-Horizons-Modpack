@@ -82,8 +82,8 @@ val BrassPipe = <ore:pipeMediumBrass>;
 val RBrassPipe = <ore:pipeRestrictiveMediumBrass>;
 
 val RSCrystal = <BuildCraft|Silicon:redstoneCrystal>;
-val PathMark = <BuildCraft|Builders:pathMarkerBlock>;
-val LandMark = <BuildCraft|Builders:markerBlock>;
+val PathMark = <BuildCraft|Core:pathMarkerBlock>;
+val LandMark = <BuildCraft|Core:markerBlock>;
 val ConstructionMark = <BuildCraft|Builders:constructionMarkerBlock>;
 val Gate = <BuildCraft|Transport:pipeGate:*>;
 val PipeWire = <BuildCraft|Transport:pipeWire:*>;
@@ -215,6 +215,12 @@ recipes.remove(StoneGear);
 
 // --- Wooden Gear
 recipes.remove(WoodGear);
+
+// --- Fluid Clay pipe
+recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsclay>);
+
+// --- Power Adapter
+recipes.remove(<BuildCraft|Transport:pipePowerAdapter>);
 
 
 

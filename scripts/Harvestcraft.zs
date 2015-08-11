@@ -32,6 +32,9 @@ recipes.remove(<harvestcraft:market>);
 // --- Salt ---
 recipes.remove(<harvestcraft:saltItem>);
 
+// --- Salt Block
+recipes.remove(<harvestcraft:spamcompressedsaltBlockalt>);
+
 // --- Oven ---
 recipes.remove(<harvestcraft:oven>);
 
@@ -319,6 +322,33 @@ recipes.addShaped(<harvestcraft:pamcandleDeco16> * 4, [
 
 // --- Water Garden
 recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>, <harvestcraft:leafygarden>, <harvestcraft:groundgarden>, <harvestcraft:herbgarden>]);
+
+// --- Hardened Leather Helm
+recipes.addShaped(<harvestcraft:hardenedleatherhelmItem>, [
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[null, null, null]]);
+
+// --- Hardened Leather Chestplate
+recipes.addShaped(<harvestcraft:hardenedleatherchestItem>, [
+[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
+
+// --- Hardened Leather Leggins
+recipes.addShaped(<harvestcraft:hardenedleatherleggingsItem>, [
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
+
+// --- Hardened Leather Boots
+recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
+[<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[null, null, null]]);
+
+// --- Hardened Leather
+recipes.addShaped(<harvestcraft:hardenedleatherItem>, [[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
 
 
 

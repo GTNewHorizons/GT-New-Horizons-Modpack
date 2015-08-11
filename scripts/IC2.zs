@@ -8,6 +8,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
 import mods.gregtech.BlastFurnaceLiq;
+import mods.gregtech.Canner;
 import mods.gregtech.ChemicalBathLiq;
 import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
@@ -1582,6 +1583,21 @@ BlastFurnaceLiq.addRecipe(<IC2:itemPartCoalChunk>, null, null, <dreamcraft:item.
 
 // --- Carbon Plate
 BlastFurnaceLiq.addRecipe(<IC2:itemPartCarbonPlate>, null, null, <dreamcraft:item.BioCarbonPlate>, null, 600, 120, 1000); 
+
+
+
+
+// --- Canner Recipes
+
+
+// --- Uranium Fuel Rod
+Canner.addRecipe(<IC2:reactorUraniumSimple>, <IC2:itemFuelRod>, <IC2:itemUran>, 200, 40);
+
+// --- MOX Fuel Rod
+Canner.addRecipe(<IC2:reactorMOXSimple>, <IC2:itemFuelRod>, <IC2:itemMOX>, 200, 40);
+
+// --- Thorium Fuel Rod
+Canner.addRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096>, 200, 40);
 
 
 
