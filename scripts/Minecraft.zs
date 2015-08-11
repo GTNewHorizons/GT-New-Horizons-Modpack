@@ -15,6 +15,7 @@ import mods.gregtech.FluidExtractor;
 import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Mixer;
 import mods.gregtech.Slicer;
+import mods.gregtech.SawLiq;
 
 
 
@@ -208,7 +209,7 @@ val Cattail = <BiomesOPlenty:plants:7>;
 val StandardRail = <Railcraft:part.rail>;
 val AdvancedRail = <Railcraft:part.rail:1>;
 val WoodRailbed = <Railcraft:part.railbed>;
-val Plank = <ore:plankWood>;
+val Plank = <minecraft:planks:*>;
 val WoodSlab = <ore:slabWood>;
 val StoneSlab = <ore:slabStone>;
 val GlassPane = <ore:paneGlass>;
@@ -967,13 +968,13 @@ recipes.removeShaped(<minecraft:sand>);
 
 // --- Crafting Table
 recipes.addShapeless(CraftingTable,
-[Flint, Flint, <ore:logWood>, <ore:logWood>]);
+[Flint, Flint, <minecraft:log:*>, <minecraft:log:*>]);
 
 // --- Chest
 recipes.addShaped(Chest, [
-[Log, Plank, Log],
-[Plank, Flint, Plank],
-[Log, Plank, Log]]);
+[Log, <ore:plankWood>, Log],
+[<ore:plankWood>, Flint, <ore:plankWood>],
+[Log, <ore:plankWood>, Log]]);
 
 // --- Trapped Chest
 recipes.addShaped(TrappedChest, [
@@ -1001,7 +1002,7 @@ recipes.addShaped(Dropper, [
 
 // --- Piston
 recipes.addShaped(Piston, [
-[CarpentersBlock, CarpentersBlock, CarpentersBlock],
+[<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
 [<ore:gearGtSmallAnyIron>, Fence, <ore:gearGtSmallAnyIron>],
 [Cobble, <ore:plateRedAlloy>, Cobble]]);
 
@@ -1031,9 +1032,9 @@ recipes.addShaped(ActivatorRail * 2, [
 
 // --- Noteblock
 recipes.addShaped(Noteblock, [
-[Plank, Plank, Plank],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [IronBars, WoodGear, IronBars],
-[Plank, RedAlloyWire, Plank]]);
+[<ore:plankWood>, RedAlloyWire, <ore:plankWood>]]);
 
 // --- Jukebox
 recipes.addShaped(Jukebox, [
@@ -1107,10 +1108,10 @@ recipes.addShaped(Torch * 2, [
 recipes.addShapeless(Lever, [Stick, <minecraft:stone_button>]);
 
 // --- Button Stone
-recipes.addShapeless(<minecraft:stone_button>, [Saw, <minecraft:stone_pressure_plate>]);
+recipes.addShaped(<minecraft:stone_button> * 2, [[Saw, <minecraft:stone_pressure_plate>]]);
 
 // --- Button Wood
-recipes.addShapeless(<minecraft:wooden_button>, [Saw, <minecraft:wooden_pressure_plate>]);
+recipes.addShaped(<minecraft:wooden_button> * 2, [[Saw, <minecraft:wooden_pressure_plate>]]);
 
 // --- Redstone Torch
 recipes.addShapedMirrored(RSTorch , [
@@ -2411,24 +2412,24 @@ recipes.addShaped(<minecraft:nether_brick> * 2, [
 
 // --- Wooden Door
 recipes.addShaped(WoodDoor, [
-[Plank, <minecraft:trapdoor>, Screwdriver],
-[Plank, <ore:ringAnyIron>, <ore:screwAnyIron>],
-[Plank, Plank, Saw]]);
+[<minecraft:planks:*>, <minecraft:trapdoor>, Screwdriver],
+[<minecraft:planks:*>, <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<minecraft:planks:*>, <minecraft:planks:*>, Saw]]);
 // -
 recipes.addShaped(WoodDoor, [
-[Plank, <minecraft:trapdoor>, Screwdriver],
-[Plank, <ore:ringCopper>, <ore:screwCopper>],
-[Plank, Plank, Saw]]);
+[<minecraft:planks:*>, <minecraft:trapdoor>, Screwdriver],
+[<minecraft:planks:*>, <ore:ringCopper>, <ore:screwCopper>],
+[<minecraft:planks:*>, <minecraft:planks:*>, Saw]]);
 // -
 recipes.addShaped(WoodDoor, [
-[Plank, <minecraft:trapdoor>, Saw],
-[Plank, <ore:ringAnyIron>, <ore:screwAnyIron>],
-[Plank, Plank, Screwdriver]]);
+[<minecraft:planks:*>, <minecraft:trapdoor>, Saw],
+[<minecraft:planks:*>, <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<minecraft:planks:*>, <minecraft:planks:*>, Screwdriver]]);
 // -
 recipes.addShaped(WoodDoor, [
-[Plank, <minecraft:trapdoor>, Saw],
-[Plank, <ore:ringCopper>, <ore:screwCopper>],
-[Plank, Plank, Screwdriver]]);
+[<minecraft:planks:*>, <minecraft:trapdoor>, Saw],
+[<minecraft:planks:*>, <ore:ringCopper>, <ore:screwCopper>],
+[<minecraft:planks:*>, <minecraft:planks:*>, Screwdriver]]);
 
 // --- Iron Door
 recipes.addShaped(IronDoor, [
@@ -2441,7 +2442,7 @@ recipes.addShaped(IronDoor, [
 [IronPlate, <ore:ringSteel>, <ore:screwSteel>],
 [IronPlate, IronPlate, HHammer]]);
 
-//Sign
+// --- Sign
 recipes.addShaped(<minecraft:sign> * 3, [
 [<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
 [<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
@@ -2592,22 +2593,22 @@ recipes.addShaped(<minecraft:sign> * 3, [
 [<gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>, <gregtech:gt.metaitem.02:32499>],
 [null, Stick, null]]);
 
-//Boat
+// --- Boat
 recipes.addShaped(<minecraft:boat>, [
-[Plank, null, Plank],
-[Plank, <ore:craftingToolKnife>, Plank],
+[<ore:plankWood>, null, <ore:plankWood>],
+[<ore:plankWood>, <ore:craftingToolKnife>, <ore:plankWood>],
 [WoodSlab, WoodSlab, WoodSlab]]);
 
-//Painting
+// --- Painting
 recipes.addShaped(<minecraft:painting>, [
 [String, IronRing, String],
 [<ore:stickWood>, <minecraft:carpet:*>, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-//Bread
+// --- Bread
 furnace.addRecipe(<minecraft:bread>, <gregtech:gt.metaitem.02:32561>);
 
-//Flient and SteelBars
+// --- Flient and SteelBars
 recipes.addShaped(<minecraft:flint_and_steel>, [
 [null, <ore:gearGtSmallSteel>, null],
 [null, <minecraft:flint>, null],
@@ -2728,6 +2729,8 @@ Assembler.addRecipe(<minecraft:torch> * 6, <minecraft:stick>, <gregtech:gt.metai
 
 // --- Wooden Door
 AssemblerLiq.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+// -
+AssemblerLiq.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Iron Door
 AssemblerLiq.addRecipe(<minecraft:iron_door>, <Railcraft:part.plate> * 4, <dreamcraft:item.SteelBars>, <liquid:molten.steel> * 16, 400, 8);
@@ -2739,6 +2742,51 @@ AssemblerLiq.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab:*> * 4, 
 
 // --- Piston
 Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 200, 32);
+
+// --- Bookshelf
+Assembler.addRecipe(<minecraft:bookshelf>, <minecraft:planks:*> * 6, <minecraft:book> * 3, 300, 16);
+
+// --- Workbench
+Assembler.addRecipe(<minecraft:crafting_table>, <minecraft:log:*>, <minecraft:flint> * 2, 200, 4);
+
+// --- Fence Gate
+Assembler.addRecipe(FenceGate, <minecraft:stick> * 2, <minecraft:planks:*> * 2, 300, 8);
+
+
+
+
+// --- Cutting Saw Recipes ---
+
+
+
+// --- Wooden Pressure Plate
+SawLiq.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
+// -
+SawLiq.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+SawLiq.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Stone Pressure Plate
+SawLiq.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:water> * 4, 50, 8);
+// -
+SawLiq.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:ic2distilledwater> * 3, 50, 8);
+// -
+SawLiq.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:lubricant> * 1, 25, 8);
+
+// --- Button Wood
+SawLiq.addRecipe(<minecraft:wooden_button> * 2, null, <minecraft:wooden_pressure_plate>, <liquid:water> * 4, 50, 4);
+// -
+SawLiq.addRecipe(<minecraft:wooden_button> * 2, null, <minecraft:wooden_pressure_plate>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+SawLiq.addRecipe(<minecraft:wooden_button> * 2, null, <minecraft:wooden_pressure_plate>, <liquid:lubricant> * 1, 25, 4);
+
+
+// --- Button Stone
+SawLiq.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressure_plate>, <liquid:water> * 4, 50, 8);
+// -
+SawLiq.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressure_plate>, <liquid:ic2distilledwater> * 3, 50, 8);
+// -
+SawLiq.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressure_plate>, <liquid:lubricant> * 1, 25, 8);
 
 
 

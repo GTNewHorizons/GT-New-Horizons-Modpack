@@ -145,8 +145,16 @@ hdd3 {
           ["oc:circuitChip3", "oc:materialDisk", diamond]]
 }
 
-dataCard {
+dataCard1 {
   input: [[nuggetIron, "oc:materialALU", "oc:circuitChip2"]
+          ["", "oc:materialCard", ""]]
+}
+dataCard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:materialCard", ""]]
+}
+dataCard3 {
+  input: [[diamond, "oc:cpu2", "oc:ram5"]
           ["", "oc:materialCard", ""]]
 }
 graphicsCard1 {

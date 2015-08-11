@@ -1984,6 +1984,8 @@ mods.thaumcraft.Arcane.addShaped("RC_Crowbar_Void", <Railcraft:tool.crowbar.void
 [<ore:dyeRed>, <dreamcraft:item.VoidRod>, <ore:dyeRed>],
 [<dreamcraft:item.VoidRod>, <ore:dyeRed>, <ore:craftingToolFile>]]);
 mods.thaumcraft.Research.addArcanePage("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>);
+mods.thaumcraft.Warp.addToResearch("RC_Crowbar_Void", 2);
+
 
 //--- Void Crowbar
 mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");

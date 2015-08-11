@@ -7,6 +7,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.AssemblerLiq;
+import mods.gregtech.BlastFurnaceLiq;
 import mods.gregtech.ChemicalBathLiq;
 import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
@@ -739,6 +740,7 @@ recipes.remove(<IC2:blockMiningPipe>);
 
 // --- Nuclear Reactor
 recipes.remove(<IC2:blockGenerator:5>);
+
 
 
 
@@ -1571,6 +1573,19 @@ AssemblerLiq.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:3
 
 
 
+// --- Blast Furnace Recipes ---
+
+
+
+// --- Coal Chunk
+BlastFurnaceLiq.addRecipe(<IC2:itemPartCoalChunk>, null, null, <dreamcraft:item.BioChunk>, null, 1200, 120, 1000); 
+
+// --- Carbon Plate
+BlastFurnaceLiq.addRecipe(<IC2:itemPartCarbonPlate>, null, null, <dreamcraft:item.BioCarbonPlate>, null, 600, 120, 1000); 
+
+
+
+
 // --- Chemical Bath Recipes ---
 
 
@@ -1727,6 +1742,7 @@ Mixer.addRecipe(<IC2:itemPartCFPowder>, null, <gregtech:gt.metaitem.01:2299> * 6
 
 // --- Construction Foam
 Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, <IC2:itemPartCFPowder>, null, null, null, <liquid:water> * 1000, 200, 16);
+
 
 
 

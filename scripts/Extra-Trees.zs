@@ -73,6 +73,12 @@ recipes.remove(<ExtraTrees:misc:5>);
 // --- Glass Fittings
 recipes.remove(<ExtraTrees:misc:13>);
 
+// --- Doors
+recipes.remove(<ExtraTrees:door>);
+
+
+
+
 
 // --- Add Recipes ---
 
@@ -190,9 +196,157 @@ recipes.addShaped(<ExtraTrees:misc:13> * 5, [
 [null, <ore:stickLongAnyIron>, null],
 [<ore:stickLongAnyIron>, <ore:craftingToolFile>, <ore:stickLongAnyIron>]]);
 
+// --- Oak Wood Door
+recipes.addShaped(<ExtraTrees:door>.withTag({meta: 0}), [
+[<minecraft:wooden_door>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:256>.withTag({meta: 256}), [
+[null, <minecraft:wooden_door>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:512>.withTag({meta: 512}), [
+[null, null, <minecraft:wooden_door>],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:768>.withTag({meta: 768}), [
+[null, null, null],
+[<minecraft:wooden_door>, null, null],
+[null, null, null]]);
+
+// --- Spruce Wood Door
+recipes.addShaped(<ExtraTrees:door:1>.withTag({meta: 1}), [
+[<malisisdoors:item.door_spruce>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Spruce Wood Door
+recipes.addShaped(<ExtraTrees:door:257>.withTag({meta: 257}), [
+[null, <malisisdoors:item.door_spruce>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Spruce Wood Door
+recipes.addShaped(<ExtraTrees:door:513>.withTag({meta: 513}), [
+[null, null, <malisisdoors:item.door_spruce>],
+[null, null, null],
+[null, null, null]]);
+
+// ---  Split Spruce Wood Door
+recipes.addShaped(<ExtraTrees:door:769>.withTag({meta: 769}), [
+[null, null, null],
+[<malisisdoors:item.door_spruce>, null, null],
+[null, null, null]]);
+
+// --- Birch Wood Door
+recipes.addShaped(<ExtraTrees:door:2>.withTag({meta: 2}), [
+[<malisisdoors:item.door_birch>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Birch Wood Door
+recipes.addShaped(<ExtraTrees:door:258>.withTag({meta: 258}), [
+[null, <malisisdoors:item.door_birch>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Birch Wood Door
+recipes.addShaped(<ExtraTrees:door:514>.withTag({meta: 514}), [
+[null, null, <malisisdoors:item.door_birch>],
+[null, null, null],
+[null, null, null]]);
+
+// ---  Split Birch Wood Door
+recipes.addShaped(<ExtraTrees:door:770>.withTag({meta: 770}), [
+[null, null, null],
+[<malisisdoors:item.door_birch>, null, null],
+[null, null, null]]);
+
+// --- Jungle Wood Door
+recipes.addShaped(<ExtraTrees:door:3>.withTag({meta: 3}), [
+[<malisisdoors:item.door_jungle>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Jungle Wood Door
+recipes.addShaped(<ExtraTrees:door:259>.withTag({meta: 259}), [
+[null, <malisisdoors:item.door_jungle>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Jungle Wood Door
+recipes.addShaped(<ExtraTrees:door:515>.withTag({meta: 515}), [
+[null, null, <malisisdoors:item.door_jungle>],
+[null, null, null],
+[null, null, null]]);
+
+// ---  Split Jungle Wood Door
+recipes.addShaped(<ExtraTrees:door:771>.withTag({meta: 771}), [
+[null, null, null],
+[<malisisdoors:item.door_jungle>, null, null],
+[null, null, null]]);
+
+// --- Acacia Wood Door
+recipes.addShaped(<ExtraTrees:door:4>.withTag({meta: 4}), [
+[<malisisdoors:item.door_acacia>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Acacia Wood Door
+recipes.addShaped(<ExtraTrees:door:260>.withTag({meta: 260}), [
+[null, <malisisdoors:item.door_acacia>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Acacia Wood Door
+recipes.addShaped(<ExtraTrees:door:516>.withTag({meta: 516}), [
+[null, null, <malisisdoors:item.door_acacia>],
+[null, null, null],
+[null, null, null]]);
+
+// ---  Split Acacia Wood Door
+recipes.addShaped(<ExtraTrees:door:772>.withTag({meta: 772}), [
+[null, null, null],
+[<malisisdoors:item.door_acacia>, null, null],
+[null, null, null]]);
+
+// --- Dark Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:5>.withTag({meta: 5}), [
+[<malisisdoors:item.door_dark_oak>, null, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Solid Dark Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:261>.withTag({meta: 261}), [
+[null, <malisisdoors:item.door_dark_oak>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Dark Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:517>.withTag({meta: 517}), [
+[null, null, <malisisdoors:item.door_dark_oak>],
+[null, null, null],
+[null, null, null]]);
+
+// ---  Split Dark Oak Wood Door
+recipes.addShaped(<ExtraTrees:door:773>.withTag({meta: 773}), [
+[null, null, null],
+[<malisisdoors:item.door_dark_oak>, null, null],
+[null, null, null]]);
+
+
+
 
 
 // --- Mixer Recipes
+
+
 
 
 // --- Yeast

@@ -80,6 +80,14 @@ abstractBusCard {
   input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
           ["", "oc:materialCard", ""]]
 }
+dataCard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:dataCard1", ""]]
+}
+dataCard3 {
+  input: [[diamond, "oc:cpu2", "oc:ram5"]
+          ["", "oc:dataCard2", ""]]
+}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
