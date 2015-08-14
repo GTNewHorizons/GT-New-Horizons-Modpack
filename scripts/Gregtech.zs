@@ -2604,6 +2604,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2836> * 16, [
 [<gregtech:gt.metaitem.03:836>, <ore:craftingToolCrowbar>, null]]);
 
+// --- Hepatizon Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2957> * 3, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTinyGold>, <ore:dustTinyGold>, <ore:dustTinyGold>, <ore:dustTinySilver>, <ore:dustTinySilver>, <ore:dustTinySilver>]);
+
+// --- Angmallen Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2958> * 2, [<ore:dustIron>, <ore:dustGold>]);
+
 
 
 
