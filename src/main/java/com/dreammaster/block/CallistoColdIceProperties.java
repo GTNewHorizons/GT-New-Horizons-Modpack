@@ -45,4 +45,7 @@ public class CallistoColdIceProperties implements IExtendedBlockProperties
 
     @Override
     public SoundType getStepSound() { return Block.soundTypeStone; }
+    
+    @Override
+    public boolean getIsOpaqueCube() { return true; }
 }

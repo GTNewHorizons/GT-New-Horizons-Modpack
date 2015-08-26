@@ -45,4 +45,7 @@ public class SandClayProperties implements IExtendedBlockProperties
 
 	@Override
 	public SoundType getStepSound() { return Block.soundTypeGravel; }
+	
+	@Override
+    public boolean getIsOpaqueCube() { return true; }
 }

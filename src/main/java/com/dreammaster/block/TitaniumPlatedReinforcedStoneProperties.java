@@ -45,4 +45,7 @@ public class TitaniumPlatedReinforcedStoneProperties implements IExtendedBlockPr
 
     @Override
     public SoundType getStepSound() { return Block.soundTypeMetal; }
+    
+    @Override
+    public boolean getIsOpaqueCube() { return true; }
 }

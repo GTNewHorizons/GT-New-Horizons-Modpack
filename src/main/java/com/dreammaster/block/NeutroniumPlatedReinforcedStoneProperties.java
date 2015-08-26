@@ -45,4 +45,7 @@ public class NeutroniumPlatedReinforcedStoneProperties implements IExtendedBlock
 
     @Override
     public SoundType getStepSound() { return Block.soundTypeMetal; }
+    
+    @Override
+    public boolean getIsOpaqueCube() { return true; }
 }

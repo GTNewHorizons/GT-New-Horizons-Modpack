@@ -45,4 +45,7 @@ public class QuadrupleCompressedCoalCokeProperties implements IExtendedBlockProp
 
     @Override
     public SoundType getStepSound() { return Block.soundTypeStone; }
+    
+    @Override
+    public boolean getIsOpaqueCube() { return true; }
 }
