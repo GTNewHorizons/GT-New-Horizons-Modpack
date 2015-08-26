@@ -104,10 +104,11 @@ public class CustomDropsHandler
         }
     }
 
-    private boolean VerifyConfig()
+    private boolean VerifyConfig(CustomDrops pDropListToCheck)
     {
     	boolean tSuccess = true;
-    	for (CustomDrop X : _mCustomDrops.getCustomDrops())
+    	
+    	for (CustomDrop X : pDropListToCheck.getCustomDrops())
     	{
     		for (Drop Y : X.getDrops())
     		{
@@ -159,7 +160,7 @@ public class CustomDropsHandler
             CustomDrops tNewItemCollection = (CustomDrops) jaxUnmarsh.unmarshal(tConfigFile);
             _mLogger.debug("Config file has been loaded. Entering Verify state");
 
-            if (!VerifyConfig())
+            if (!VerifyConfig(tNewItemCollection))
             {
             	_mLogger.error("New config will NOT be activated. Please check your error-log and try again");
             	tResult = false;
