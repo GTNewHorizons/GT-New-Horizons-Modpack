@@ -21,6 +21,7 @@ import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
+import com.dreammaster.spacedim.SpaceDefinitions;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -101,6 +102,16 @@ public class MainRegistry {
 		if (!BlockList.AddToItemManager(BlockManager))
 			Logger.warn("Some blocks failed to register. Check the logfile for details");
 		// ------------------------------------------------------------
+		
+        // ------------------------------------------------------------
+        Logger.info("PRELOAD Init SpaceDimension-Definiton");
+        SpaceDefinitions sdef = new SpaceDefinitions();
+        if (!sdef.Init())
+            Logger.error("SpaceDimension init failed");
+        else
+            sdef.Register();
+        // ------------------------------------------------------------
+		
 		
 		// ------------------------------------------------------------
 		// Init Modules
