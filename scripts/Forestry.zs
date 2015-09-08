@@ -7,6 +7,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Fuels;
+import mods.ic2.SemiFluidGenerator;
 
 
 
@@ -2254,14 +2255,11 @@ recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expan
 // --- Add Fuels ---
 
 
-// --- Biomass
-Fuels.addDieselFuel(<Forestry:canEmpty>, <Forestry:canBiomass>, 8);
-
 // --- Short Mead
-Fuels.addDieselFuel(<minecraft:bucket>, <Forestry:bucketShortMead>, 4);
+SemiFluidGenerator.addFluid(<liquid:short.mead> * 20, 4);
 
-// --- Fisk Oil
-Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30711>, 2);
+// --- Fish Oil
+SemiFluidGenerator.addFluid(<liquid:fishoil> * 20, 2);
 
 
 

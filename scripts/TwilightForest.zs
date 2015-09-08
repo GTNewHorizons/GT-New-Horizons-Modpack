@@ -38,7 +38,7 @@ recipes.addShaped(CarminiteReactor, [
 [ETowerWood, Carminite, ETowerWood]]);
 
 
-//--- Assembler Recipes ---
+// --- Assembler Recipes ---
 
 // --- Naga Scale ---
 Assembler.addRecipe(<TwilightForest:item.nagaScale>, <Thaumcraft:ItemResource:14> * 4, <TwilightForest:item.trophy:1> * 0, 600, 64);

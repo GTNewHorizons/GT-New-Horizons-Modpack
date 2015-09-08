@@ -6,7 +6,7 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.SawLiq;
+import mods.gregtech.CuttingSaw;
 
 
 
@@ -231,11 +231,11 @@ recipes.addShaped(<CarpentersBlocks:itemCarpentersDoor>, [
 // --- Carpenters Block
 Assembler.addRecipe(CarpentersBlock * 4, <gregtech:gt.blockmachines:4905> * 2, WoodScrew, 100, 16);
 // -
-Assembler.addRecipe(CarpentersBlock * 6, <gregtech:gt.blockmachines:4905> * 3, IronScrew, 150, 16);
+Assembler.addRecipe(CarpentersBlock * 6, <gregtech:gt.blockmachines:4905> * 3, IronScrew, 100, 16);
 // -
-Assembler.addRecipe(CarpentersBlock * 8, <gregtech:gt.blockmachines:4905> * 4, SteelScrew, 200, 16);
+Assembler.addRecipe(CarpentersBlock * 8, <gregtech:gt.blockmachines:4905> * 4, SteelScrew, 100, 16);
 // -
-Assembler.addRecipe(CarpentersBlock * 16, <gregtech:gt.blockmachines:4905> * 8, AluminiumScrew, 300, 16);
+Assembler.addRecipe(CarpentersBlock * 16, <gregtech:gt.blockmachines:4905> * 8, AluminiumScrew, 100, 16);
 
 // --- Carpenters Barrier
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersBarrier> * 2, <minecraft:fence>, CarpentersBlock, 200, 16);
@@ -293,10 +293,10 @@ Assembler.addRecipe(<CarpentersBlocks:itemCarpentersDoor>, CarpentersBlock, <min
 
 
 // --- Carpenters Pressure Plate
-SawLiq.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 1000, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 1000, 100, 30);
 
 // --- Carpenters Button
-SawLiq.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:water> * 500, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:water> * 500, 100, 30);
 
 // --- Carpenters Stairs
-SawLiq.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 1000, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 1000, 100, 30);

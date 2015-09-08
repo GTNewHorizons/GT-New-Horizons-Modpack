@@ -1,13 +1,21 @@
 // --- Created by DreamMasterXXL ---
 
+
+
 // --- remove Recipes ---
 
-//Blood Altar 
+
+
+// --- Blood Altar 
 recipes.remove(<AWWayofTime:Altar>);
 
-// --- add recipes ---
 
-//Blood Altar
+
+// --- Add recipes ---
+
+
+
+// --- Blood Altar
 mods.thaumcraft.Research.addResearch("BLOODALTAR", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 4, 10, 12, <AWWayofTime:Altar>);
 game.setLocalization("en_US", "tc.research_name.BLOODALTAR", "Blood Altar");
 game.setLocalization("en_US", "tc.research_text.BLOODALTAR", "Paying the highest price.");

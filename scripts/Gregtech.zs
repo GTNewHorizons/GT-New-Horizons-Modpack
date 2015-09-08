@@ -7,11 +7,10 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
-import mods.gregtech.CentrifugeLiq;
-import mods.gregtech.ChemicalReactorLiq;
+import mods.gregtech.Centrifuge;
+import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.ForgeHammer;
@@ -2610,6 +2609,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2957> * 3, [<ore:dustCopper>, <ore
 // --- Angmallen Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2958> * 2, [<ore:dustIron>, <ore:dustGold>]);
 
+// --- Inolashite Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2954>, [<gregtech:gt.metaitem.01:2485>, <gregtech:gt.metaitem.01:2952>]);
+
 
 
 
@@ -2639,25 +2641,25 @@ Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> 
 Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- 60k Helium Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:helium> * 1000, 400, 128);
+Assembler.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:helium> * 1000, 400, 128);
 
 // --- 180k Helium Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <gregtech:gt.60k_Helium_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
+Assembler.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <gregtech:gt.60k_Helium_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
 
 // --- 360k Helium Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <gregtech:gt.180k_Helium_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
+Assembler.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <gregtech:gt.180k_Helium_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
 
 // --- 60k NaK Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:sodiumpotassium> * 1000, 400, 128);
+Assembler.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:sodiumpotassium> * 1000, 400, 128);
 
 // --- 180k NaK Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <gregtech:gt.60k_NaK_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
+Assembler.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <gregtech:gt.60k_NaK_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
 
 // --- 360k NaK Cooling Cell
-AssemblerLiq.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
+Assembler.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 512);
 
 // --- RTG Pellets
-AssemblerLiq.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 128);
+Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 128);
 
 // --- Shutter Module
 Assembler.addRecipe(shutterModule * 2, plateIron * 2, <minecraft:iron_door> * 1, 1000, 16);
@@ -2729,7 +2731,7 @@ Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:g
 
 
 // --- Flint Dust
-CentrifugeLiq.addRecipe(<gregtech:gt.metaitem.01:2802> * 8, null, null, null, null, null, null,  <minecraft:gravel> * 16, null, null, 10000, 0, 0, 0, 0, 0, 50, 1920);
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gravel> * 16, null, null, [10000], 50, 1920);
 
 
 
@@ -2739,10 +2741,10 @@ CentrifugeLiq.addRecipe(<gregtech:gt.metaitem.01:2802> * 8, null, null, null, nu
 
 
 // --- Nitrogen Dioxide
-ChemicalReactorLiq.addRecipe(<IC2:itemCellEmpty>, <liquid:nitrogendioxide> * 3000, <gregtech:gt.metaitem.01:30012>, null, <liquid:oxygen> * 2000, 1200);
+ChemicalReactor.addRecipe(<IC2:itemCellEmpty>, <liquid:nitrogendioxide> * 3000, <gregtech:gt.metaitem.01:30012>, null, <liquid:oxygen> * 2000, 1200);
 
 // --- Saltpeter
-ChemicalReactorLiq.addRecipe(<gregtech:gt.metaitem.01:2836> * 5, <liquid:steam> * 16000, <dreamcraft:item.PotassiumHydroxideDust> * 3, null, <liquid:nitricacid> * 5000, 10);
+ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:2836> * 5, <liquid:steam> * 16000, <dreamcraft:item.PotassiumHydroxideDust> * 3, null, <liquid:nitricacid> * 5000, 10);
 
 
 

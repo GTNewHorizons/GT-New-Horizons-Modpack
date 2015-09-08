@@ -4,7 +4,7 @@
 // --- Imports ---
 
 
-import mods.gregtech.AssemblerLiq;
+import mods.gregtech.Assembler;
 import mods.gregtech.Extruder;
 import mods.gregtech.Mixer;
 
@@ -131,6 +131,9 @@ recipes.remove(<MagicBees:moonDial>);
 // --- Mysterious Magnets
 recipes.remove(<MagicBees:magnet:*>);
 
+// --- Enchanted Earth
+recipes.remove(<MagicBees:magicbees.enchantedEarth>);
+
 
 // --- Add Recipes ---
 
@@ -180,7 +183,7 @@ mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", f
 mods.thaumcraft.Research.setConcealed("MAGICAPIARY", true);
 mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
 mods.thaumcraft.Research.addPage("MAGICAPIARY", "MagicBees.research_page.MAGICAPIARY");
-game.setLocalization("en_US", "MagicBees.research_page.MAGICAPIARY", "Magic Apiary");
+game.setLocalization("en_US", "MagicBees.research_page.MAGICAPIARY", "The Magic Apiary works similarly to the regular Apiary, with 1x base Territory, Mutation, Lifespan, and Flowering modifiers, 0.9x Production modifier, and 0.8 Genetic Decay modifier. When an Apiary Booster of any type is placed nearby, the Apiary will consume aspects to enable 2x (or 1/2) boosts for, in order from left to right: Mutation, Death Rate, Production. Enabling death rate will halve lifespan. It's useful when all you're interested in is breeding, and don't have access to Oblivion Frames.");
 mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>, [<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>], "praecantatio 75, sano 75, ignis 50, lucrum 50, exanimis 25, herba 20", <MagicBees:magicApiary>, 3);
 mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>);
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
@@ -273,6 +276,8 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 7);
 
 // --- Magic Frame
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
+mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_FrameMagic", "INFUSION");
 mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
 mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 20, terra 20, aer 20, perditio 20, ignis 20, aqua 20", [
 [<gregtech:gt.metaitem.01:27305>, <MagicBees:wax:1>, <gregtech:gt.metaitem.01:27305>],
@@ -283,6 +288,8 @@ mods.thaumcraft.Research.setAspects("MB_FrameMagic", "ordo 5, terra 5, aer 5, pe
 mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 5);
 
 // --- Gentle Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceLife", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceLife", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceLife", <MagicBees:frameGentle>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
 [<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:7>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:18>, <MagicBees:frameMagic>, <MagicBees:miscResources:18>],
@@ -290,6 +297,8 @@ mods.thaumcraft.Arcane.addShaped("MB_EssenceLife", <MagicBees:frameGentle>, "ord
 mods.thaumcraft.Research.addArcanePage("MB_EssenceLife", <MagicBees:frameGentle>);
 
 // --- Resilient Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceArmor", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceArmor", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceArmor", <MagicBees:frameResilient>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
 [<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:10>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:22>, <MagicBees:frameMagic>, <MagicBees:miscResources:22>],
@@ -297,6 +306,8 @@ mods.thaumcraft.Arcane.addShaped("MB_EssenceArmor", <MagicBees:frameResilient>, 
 mods.thaumcraft.Research.addArcanePage("MB_EssenceArmor", <MagicBees:frameResilient>);
 
 // --- Necrotic Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceDeath", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceDeath", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceDeath", <MagicBees:frameNecrotic>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
 [<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:8>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:23>, <MagicBees:frameMagic>, <MagicBees:miscResources:23>],
@@ -304,6 +315,8 @@ mods.thaumcraft.Arcane.addShaped("MB_EssenceDeath", <MagicBees:frameNecrotic>, "
 mods.thaumcraft.Research.addArcanePage("MB_EssenceDeath", <MagicBees:frameNecrotic>);
 
 // --- Metabolic Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceUnstable", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceUnstable", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceUnstable", <MagicBees:frameMetabolic>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
 [<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:12>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
@@ -311,6 +324,8 @@ mods.thaumcraft.Arcane.addShaped("MB_EssenceUnstable", <MagicBees:frameMetabolic
 mods.thaumcraft.Research.addArcanePage("MB_EssenceUnstable", <MagicBees:frameMetabolic>);
 
 // --- Temporal Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceTime", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceTime", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceTime", <MagicBees:frameTemporal>, "ordo 50, terra 50, aer 50, perditio 50, ignis 50, aqua 50", [
 [<gregtech:gt.metaitem.01:27019>, <MagicBees:miscResources:9>, <gregtech:gt.metaitem.01:27019>],
 [<MagicBees:miscResources:21>, <MagicBees:frameMagic>, <MagicBees:miscResources:21>],
@@ -318,6 +333,8 @@ mods.thaumcraft.Arcane.addShaped("MB_EssenceTime", <MagicBees:frameTemporal>, "o
 mods.thaumcraft.Research.addArcanePage("MB_EssenceTime", <MagicBees:frameTemporal>);
 
 // --- Oblivion Frame
+mods.thaumcraft.Research.addPrereq("MB_EssenceOblivion", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addSibling("MB_EssenceOblivion", "INFUSION");
 mods.thaumcraft.Arcane.addShaped("MB_EssenceOblivion", <MagicBees:frameOblivion>, "ordo 100, terra 100, aer 100, ignis 100, aqua 100, perditio 100", [
 [<gregtech:gt.metaitem.01:27316>, <MagicBees:miscResources:11>, <gregtech:gt.metaitem.01:27316>],
 [<MagicBees:miscResources:19>, <MagicBees:frameMagic>, <MagicBees:miscResources:19>],
@@ -346,64 +363,82 @@ mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGra
 mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 15, terra 15, aer 15");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
+// --- Enchanted Earth
+mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 200, victus 200, sano 100, ordo 200", 5, -2, 12, <MagicBees:magicbees.enchantedEarth>);
+game.setLocalization("en_US", "tc.research_name.ENCHANTEDEARTH", "Enchanted Earth");
+game.setLocalization("en_US", "tc.research_text.ENCHANTEDEARTH", "[MC] Magical Dirt");
+mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
+mods.thaumcraft.Research.addSibling("ENCHANTEDEARTH", "INFUSION");
+mods.thaumcraft.Research.setConcealed("ENCHANTEDEARTH", true);
+mods.thaumcraft.Research.addPage("ENCHANTEDEARTH", "Minecraft.research_page.ENCHANTEDEARTH");
+mods.thaumcraft.Arcane.addShaped("ENCHANTEDEARTH", <MagicBees:magicbees.enchantedEarth>, "ordo 10, aqua 10, terra 10", [
+[<minecraft:dirt>, null, <minecraft:dirt>],
+[null, <MagicBees:miscResources:7>, null],
+[<minecraft:dirt>, null, <minecraft:dirt>]]);
+mods.thaumcraft.Research.addArcanePage("ENCHANTEDEARTH", <MagicBees:magicbees.enchantedEarth>);
+
+
+
 
 // --- Assembler Recipes ---
 
 
+
+
 // --- Void Capsular
-AssemblerLiq.addRecipe(<MagicBees:capsule.void> * 2, <Genetics:misc:8> * 2, <MagicBees:miscResources:17>, <liquid:molten.gold> * 288, 600, 64);
+Assembler.addRecipe(<MagicBees:capsule.void> * 2, <Genetics:misc:8> * 2, <MagicBees:miscResources:17>, <liquid:molten.gold> * 288, 600, 64);
 
 // --- Bee Collector's Jar
-AssemblerLiq.addRecipe(<MagicBees:effectJar>, <appliedenergistics2:tile.BlockQuartzGlass> * 5, <MagicBees:pollen>, <liquid:molten.rubber> * 144, 600, 128);
+Assembler.addRecipe(<MagicBees:effectJar>, <appliedenergistics2:tile.BlockQuartzGlass> * 5, <MagicBees:pollen>, <liquid:molten.rubber> * 144, 600, 128);
 
 // --- Wither Skeleton Skull Fragment
-AssemblerLiq.addRecipe(<MagicBees:miscResources:4>, <MagicBees:miscResources:3> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.thaumium> * 72, 200, 48);
+Assembler.addRecipe(<MagicBees:miscResources:4>, <MagicBees:miscResources:3> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.thaumium> * 72, 200, 48);
 
 // --- Draconis Chunk
-AssemblerLiq.addRecipe(<MagicBees:miscResources:6>, <MagicBees:miscResources:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 288, 400, 256);
+Assembler.addRecipe(<MagicBees:miscResources:6>, <MagicBees:miscResources:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 288, 400, 256);
 
 // --- Jade Mood Dail
-AssemblerLiq.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <erebus:materials:1> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 32);
+Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <erebus:materials:1> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 32);
 
 // --- Mysterious Magnet Level 1
-AssemblerLiq.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);
+Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet:1> * 2, <liquid:molten.redstone> * 1296, 200, 64);
+Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet:1> * 2, <liquid:molten.redstone> * 1296, 200, 64);
 
 // --- Mysterious Magnet Level 2
-AssemblerLiq.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:2> * 2, <liquid:molten.redstone> * 1296, 400,128);
+Assembler.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:2> * 2, <liquid:molten.redstone> * 1296, 400,128);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:3> * 2, <liquid:molten.redstone> * 1296, 400, 128);
+Assembler.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:3> * 2, <liquid:molten.redstone> * 1296, 400, 128);
 
 // --- Mysterious Magnet Level 3
-AssemblerLiq.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:4> * 2, <liquid:molten.redstone> * 1296, 600, 256);
+Assembler.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:4> * 2, <liquid:molten.redstone> * 1296, 600, 256);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:5> * 2, <liquid:molten.redstone> * 1296, 600, 256);
+Assembler.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:5> * 2, <liquid:molten.redstone> * 1296, 600, 256);
 
 // --- Mysterious Magnet Level 4
-AssemblerLiq.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:6> * 2, <liquid:molten.redstone> * 1296, 800, 512);
+Assembler.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:6> * 2, <liquid:molten.redstone> * 1296, 800, 512);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:7> * 2, <liquid:molten.redstone> * 1296, 800, 512);
+Assembler.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:7> * 2, <liquid:molten.redstone> * 1296, 800, 512);
 
 // --- Mysterious Magnet Level 5
-AssemblerLiq.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:8> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
+Assembler.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:8> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:9> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
+Assembler.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:9> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
 
 // --- Mysterious Magnet Level 6
-AssemblerLiq.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:10> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
+Assembler.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:10> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:11> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
+Assembler.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:11> * 2, <liquid:molten.redstone> * 1296, 1200, 2048);
 
 // --- Mysterious Magnet Level 7
-AssemblerLiq.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:12> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
+Assembler.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:12> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:13> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
+Assembler.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:13> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
 
 // --- Mysterious Magnet Level 8
-AssemblerLiq.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:14> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
+Assembler.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:14> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
 //- 
-AssemblerLiq.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:15> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
+Assembler.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:15> * 2, <liquid:molten.redstone> * 1296, 1600, 8192);
 
 
 

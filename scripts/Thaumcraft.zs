@@ -7,7 +7,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Autoclave;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
@@ -998,10 +997,10 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:blockCrystal:6>, "aer 20
 Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
 
 // --- Knowledge Fragment
-AssemblerLiq.addRecipe(<Thaumcraft:ItemResource:9>, <MagicBees:miscResources> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.thaumium> * 144, 200, 96);
+Assembler.addRecipe(<Thaumcraft:ItemResource:9>, <MagicBees:miscResources> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.thaumium> * 144, 200, 96);
 
 // --- Research Note
-AssemblerLiq.addRecipe(<Thaumcraft:ItemResearchNotes:42>, <Thaumcraft:ItemResource:9> * 9, <gregtech:gt.integrated_circuit:9> * 0, <liquid:molten.thaumium> * 576, 200, 256);
+Assembler.addRecipe(<Thaumcraft:ItemResearchNotes:42>, <Thaumcraft:ItemResource:9> * 9, <gregtech:gt.integrated_circuit:9> * 0, <liquid:molten.thaumium> * 576, 200, 256);
 
 
 

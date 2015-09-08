@@ -462,39 +462,40 @@ recipes.addShapedMirrored(UFluidStorageHousing, [
 [AlPlate, ClearPane, AlPlate],
 [NQuartzScrew, StainlessPlate, HHammer]]);
 
-//Quartz Tank
+// --- Quartz Tank
 AlloySmelter.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.metaitem.01:32308> * 0, 800, 32);
 
-//ME Fluid Pattern
+// --- ME Fluid Pattern
 recipes.addShapeless(<extracells:pattern.fluid>, [<extracells:storage.casing:1>, <ore:bucketEmpty>]);
-//ME Fluid Export Bus
+
+// --- ME Fluid Export Bus
 recipes.addShapeless(<extracells:part.base>, [<appliedenergistics2:item.ItemMultiPart:260>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
 
-//ME Fluid Import Bus
+// --- ME Fluid Import Bus
 recipes.addShapeless(<extracells:part.base:1>, [<appliedenergistics2:item.ItemMultiPart:240>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
 
-//ME Fluid Storage Bus
+// --- ME Fluid Storage Bus
 recipes.addShaped(<extracells:part.base:2>, [
 [<appliedenergistics2:item.ItemMultiPart:440>, <minecraft:piston>, <minecraft:sticky_piston>],
 [<appliedenergistics2:item.ItemMultiMaterial:22>, <ore:plateLapis>, <ore:plateLapis>],
 [null, null, null]]);
 
-//ME Fluid Terminal
+// --- ME Fluid Terminal
 recipes.addShaped(<extracells:part.base:3>, [
 [<ore:itemIlluminatedPanel>, <appliedenergistics2:item.ItemMultiMaterial:43>, <appliedenergistics2:item.ItemMultiMaterial:44>],
 [<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>],
 [null, null, null]]);
 
-//ME Fluid Level Emitter
+// --- ME Fluid Level Emitter
 recipes.addShapeless(<extracells:part.base:4>, [<appliedenergistics2:item.ItemMultiPart:280>, <ore:plateLapis>]);
 
-//ME Fluid Annihilation Plane
+// --- ME Fluid Annihilation Plane
 recipes.addShapeless(<extracells:part.base:5>, [<appliedenergistics2:item.ItemMultiPart:300>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
 
-//ME Fluid Formating Plane
+// --- ME Fluid Formating Plane
 recipes.addShapeless(<extracells:part.base:6>, [<appliedenergistics2:item.ItemMultiPart:320>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
 
-//ME Drive Fixture
+// --- ME Drive Fixture
 recipes.addShapeless(<extracells:part.base:7>, [<appliedenergistics2:tile.BlockDrive>, <ore:plateIron>, <ore:plateIron>, <ore:plateLapis>]);
 
 // --- Hiding Stuff ---

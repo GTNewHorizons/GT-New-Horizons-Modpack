@@ -1,8 +1,14 @@
 // --- Created by DreamMasterXXL and Methes ---
 
 
-//Iports
+// --- Iports
+
+
 import mods.nei.NEI;
+
+
+// --- Variables ---
+
 
 val SensorMV = <gregtech:gt.metaitem.01:32691>;
 val CircuitGood = <gregtech:gt.metaitem.01:32702>;
@@ -10,25 +16,39 @@ val CircuitGood = <gregtech:gt.metaitem.01:32702>;
 
 // --- Remove Recipes
 
-// De Ordicted Obsidian Sticks
+// --- De Ordicted Obsidian Sticks
 oreDict.stickObsidian.remove(<RandomThings:ingredient:1>);
 oreDict.obsidianStick.remove(<RandomThings:ingredient:1>);
 oreDict.obsidianRod.remove(<RandomThings:ingredient:1>);
 
-//Everything
+// --- Remove Recipes
+
+// --- Online Detector
 recipes.remove(<RandomThings:onlineDetector>);
+
+// --- Moon Sensor
 recipes.remove(<RandomThings:moonSensor>);
+
+// --- Blood Moon Sensor
 recipes.remove(<RandomThings:bloodMoonSensor>);
+
+// --- Lapis Lamp
 recipes.remove(<RandomThings:lapisLamp>);
+
+// --- Imbuing Station
 recipes.remove(<RandomThings:imbuingStation>);
+
+// --- All Ingredients
 recipes.remove(<RandomThings:ingredient:*>);
+
+// --- All Filter
 recipes.remove(<RandomThings:filter:*>);
 
 
 // --- Adding recipes ---
 
 
-// --- BloodmoonSensor
+// --- Bloodmoon Sensor
 recipes.addShapedMirrored(<RandomThings:bloodMoonSensor>, [
 [<minecraft:stained_glass_pane:14>, null],
 [<minecraft:daylight_detector>, null]]);

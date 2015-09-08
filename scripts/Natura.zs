@@ -7,8 +7,7 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
-import mods.gregtech.SawLiq;
+import mods.gregtech.CuttingSaw;
 
 
 // --- Variables ---
@@ -1326,7 +1325,7 @@ AlloySmelter.addRecipe(<Natura:NetherGlass:1>, <minecraft:glass>, <Natura:heatsa
 
 
 // --- Flint and Blaze
-AssemblerLiq.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3>, <liquid:molten.blaze> * 432, 200, 64);
+Assembler.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3>, <liquid:molten.blaze> * 432, 200, 64);
 
 // --- Eucalyptus Bookshelf
 Assembler.addRecipe(<Natura:Natura.bookshelf>, <Natura:planks> * 6, <minecraft:book> * 3, 300, 16);
@@ -1487,104 +1486,104 @@ Assembler.addRecipe(<Natura:fenceGate.darkwood>, <Natura:natura.stick:11> * 2, <
 Assembler.addRecipe(<Natura:fenceGate.fusewood>, <Natura:natura.stick:12> * 2, <Natura:planks:12> * 2, 300, 8);
 
 // --- Eucalyptus Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.eucalyptus> * 4, <Natura:plankSlab1> * 4, <Natura:natura.stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.eucalyptus> * 4, <Natura:plankSlab1> * 4, <Natura:natura.stick> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.eucalyptus> * 6, <Natura:plankSlab1> * 4, <Natura:natura.stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.eucalyptus> * 6, <Natura:plankSlab1> * 4, <Natura:natura.stick> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Sakura Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.sakura> * 4, <Natura:plankSlab1:1> * 4, <Natura:natura.stick:1> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.sakura> * 4, <Natura:plankSlab1:1> * 4, <Natura:natura.stick:1> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.sakura> * 6, <Natura:plankSlab1:1> * 4, <Natura:natura.stick:1> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.sakura> * 6, <Natura:plankSlab1:1> * 4, <Natura:natura.stick:1> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Ghost Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.ghostwood> * 4, <Natura:plankSlab1:2> * 4, <Natura:natura.stick:2> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.ghostwood> * 4, <Natura:plankSlab1:2> * 4, <Natura:natura.stick:2> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.ghostwood> * 6, <Natura:plankSlab1:2> * 4, <Natura:natura.stick:2> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.ghostwood> * 6, <Natura:plankSlab1:2> * 4, <Natura:natura.stick:2> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Red Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.redwood> * 4, <Natura:plankSlab1:3> * 4, <Natura:natura.stick:3> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.redwood> * 4, <Natura:plankSlab1:3> * 4, <Natura:natura.stick:3> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.redwood> * 6, <Natura:plankSlab1:3> * 4, <Natura:natura.stick:3> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.redwood> * 6, <Natura:plankSlab1:3> * 4, <Natura:natura.stick:3> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Blood Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.bloodwood> * 4, <Natura:plankSlab1:4> * 4, <Natura:natura.stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.bloodwood> * 4, <Natura:plankSlab1:4> * 4, <Natura:natura.stick> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.bloodwood> * 6, <Natura:plankSlab1:4> * 4, <Natura:natura.stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.bloodwood> * 6, <Natura:plankSlab1:4> * 4, <Natura:natura.stick> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Hop Seed Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.hopseed> * 4, <Natura:plankSlab1:5> * 4, <Natura:natura.stick:5> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.hopseed> * 4, <Natura:plankSlab1:5> * 4, <Natura:natura.stick:5> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.hopseed> * 6, <Natura:plankSlab1:5> * 4, <Natura:natura.stick:5> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.hopseed> * 6, <Natura:plankSlab1:5> * 4, <Natura:natura.stick:5> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Maple Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.maple> * 4, <Natura:plankSlab1:6> * 4, <Natura:natura.stick:6> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.maple> * 4, <Natura:plankSlab1:6> * 4, <Natura:natura.stick:6> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.maple> * 6, <Natura:plankSlab1:6> * 4, <Natura:natura.stick:6> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.maple> * 6, <Natura:plankSlab1:6> * 4, <Natura:natura.stick:6> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Silverbell Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.silverbell> * 4, <Natura:plankSlab1:7> * 4, <Natura:natura.stick:7> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.silverbell> * 4, <Natura:plankSlab1:7> * 4, <Natura:natura.stick:7> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.silverbell> * 6, <Natura:plankSlab1:7> * 4, <Natura:natura.stick:7> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.silverbell> * 6, <Natura:plankSlab1:7> * 4, <Natura:natura.stick:7> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Amaranth Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.amaranth> * 4, <Natura:plankSlab2> * 4, <Natura:natura.stick:8> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.amaranth> * 4, <Natura:plankSlab2> * 4, <Natura:natura.stick:8> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.amaranth> * 6, <Natura:plankSlab2> * 4, <Natura:natura.stick:8> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.amaranth> * 6, <Natura:plankSlab2> * 4, <Natura:natura.stick:8> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Tiger Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.tiger> * 4, <Natura:plankSlab2:1> * 4, <Natura:natura.stick:9> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.tiger> * 4, <Natura:plankSlab2:1> * 4, <Natura:natura.stick:9> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.tiger> * 6, <Natura:plankSlab2:1> * 4, <Natura:natura.stick:9> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.tiger> * 6, <Natura:plankSlab2:1> * 4, <Natura:natura.stick:9> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Willow Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.willow> * 4, <Natura:plankSlab2:2> * 4, <Natura:natura.stick:10> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.willow> * 4, <Natura:plankSlab2:2> * 4, <Natura:natura.stick:10> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.willow> * 6, <Natura:plankSlab2:2> * 4, <Natura:natura.stick:10> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.willow> * 6, <Natura:plankSlab2:2> * 4, <Natura:natura.stick:10> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Dark Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.darkwood> * 4, <Natura:plankSlab2:3> * 4, <Natura:natura.stick:11> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.darkwood> * 4, <Natura:plankSlab2:3> * 4, <Natura:natura.stick:11> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.darkwood> * 6, <Natura:plankSlab2:3> * 4, <Natura:natura.stick:11> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.darkwood> * 6, <Natura:plankSlab2:3> * 4, <Natura:natura.stick:11> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Fuse Wood Trapped Door
-AssemblerLiq.addRecipe(<Natura:trapdoor.fusewood> * 4, <Natura:plankSlab2:4> * 4, <Natura:natura.stick:12> * 4, <liquid:molten.iron> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.fusewood> * 4, <Natura:plankSlab2:4> * 4, <Natura:natura.stick:12> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:trapdoor.fusewood> * 6, <Natura:plankSlab2:4> * 4, <Natura:natura.stick:12> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<Natura:trapdoor.fusewood> * 6, <Natura:plankSlab2:4> * 4, <Natura:natura.stick:12> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Red Wood Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem>, <Natura:redwood:1> * 4, <Natura:trapdoor.redwood>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem>, <Natura:redwood:1> * 4, <Natura:trapdoor.redwood>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem>, <Natura:redwood:1> * 4, <Natura:trapdoor.redwood>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem>, <Natura:redwood:1> * 4, <Natura:trapdoor.redwood>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Eucalyptus Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:1>, <Natura:planks> * 4, <Natura:trapdoor.eucalyptus>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:1>, <Natura:planks> * 4, <Natura:trapdoor.eucalyptus>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:1>, <Natura:planks> * 4, <Natura:trapdoor.eucalyptus>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:1>, <Natura:planks> * 4, <Natura:trapdoor.eucalyptus>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Hop Seed Wood Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:2>, <Natura:planks:5> * 4, <Natura:trapdoor.hopseed>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:2>, <Natura:planks:5> * 4, <Natura:trapdoor.hopseed>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:2>, <Natura:planks:5> * 4, <Natura:trapdoor.hopseed>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:2>, <Natura:planks:5> * 4, <Natura:trapdoor.hopseed>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Sakura Wood Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:3>, <Natura:planks:1> * 4, <Natura:trapdoor.sakura>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:3>, <Natura:planks:1> * 4, <Natura:trapdoor.sakura>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:3>, <Natura:planks:1> * 4, <Natura:trapdoor.sakura>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:3>, <Natura:planks:1> * 4, <Natura:trapdoor.sakura>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Ghost Wood Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:4>, <Natura:planks:2> * 4, <Natura:trapdoor.ghostwood>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:4>, <Natura:planks:2> * 4, <Natura:trapdoor.ghostwood>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:4>, <Natura:planks:2> * 4, <Natura:trapdoor.ghostwood>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:4>, <Natura:planks:2> * 4, <Natura:trapdoor.ghostwood>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Blood Wood Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:5>, <Natura:planks:4> * 4, <Natura:trapdoor.bloodwood>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:5>, <Natura:planks:4> * 4, <Natura:trapdoor.bloodwood>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:5>, <Natura:planks:4> * 4, <Natura:trapdoor.bloodwood>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:5>, <Natura:planks:4> * 4, <Natura:trapdoor.bloodwood>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Red Wood  Bark Door
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:6>, <Natura:redwood> * 4, <Natura:trapdoor.redwood>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:6>, <Natura:redwood> * 4, <Natura:trapdoor.redwood>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<Natura:redwoodDoorItem:6>, <Natura:redwood> * 4, <Natura:trapdoor.redwood>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<Natura:redwoodDoorItem:6>, <Natura:redwood> * 4, <Natura:trapdoor.redwood>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Ghost Wood Bow
 Assembler.addRecipe(<Natura:natura.bow.ghostwood>, <Natura:natura.stick:2> * 3, <Natura:barleyFood:7> * 3, 400, 16);
@@ -1605,277 +1604,277 @@ Assembler.addRecipe(<Natura:natura.bow.fusewood>, <Natura:natura.stick:12> * 3, 
 
 
 // --- Eucalyptus Slab
-SawLiq.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Sakura Slab
-SawLiq.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Ghost Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Red Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Blood Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:lubricant> * 1, 25, 4);
 
 // --- HopSeed Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Maple Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Silverbell Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Amaranth Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Tiger Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Willow Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Dark Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Fuse Wood Slab
-SawLiq.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Eucalyptus Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Sakura Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.sakura> * 2, null, <Natura:plankSlab1:1>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Ghost Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.ghostwood> * 2, null, <Natura:plankSlab1:2>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Red Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.redwood> * 2, null, <Natura:plankSlab1:3>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Blood Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.bloodwood> * 2, null, <Natura:plankSlab1:4>, <liquid:lubricant> * 1, 25, 4);
 
 // --- HopSeed Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.hopseed> * 2, null, <Natura:plankSlab1:5>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Maple Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.maple> * 2, null, <Natura:plankSlab1:6>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Silverbell Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.silverbell> * 2, null, <Natura:plankSlab1:7>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Amaranth Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.amaranth> * 2, null, <Natura:plankSlab2>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Tiger Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.tiger> * 2, null, <Natura:plankSlab2:1>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Willow Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.willow> * 2, null, <Natura:plankSlab2:2>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Dark Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.darkwood> * 2, null, <Natura:plankSlab2:3>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Fuse Wood Pressure Plate
-SawLiq.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:pressureplate.fusewood> * 2, null, <Natura:plankSlab2:4>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Eucalyptus Button
-SawLiq.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Sakura Wood Button
-SawLiq.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.sakura> * 2, null, <Natura:pressureplate.sakura>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Ghost Wood Button
-SawLiq.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.ghostwood> * 2, null, <Natura:pressureplate.ghostwood>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Red Wood Button
-SawLiq.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.redwood> * 2, null, <Natura:pressureplate.redwood>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Blood Wood Button
-SawLiq.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.bloodwood> * 2, null, <Natura:pressureplate.bloodwood>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Hop Seed Wood Button
-SawLiq.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.hopseed> * 2, null, <Natura:pressureplate.hopseed>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Maple Wood Button
-SawLiq.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.maple> * 2, null, <Natura:pressureplate.maple>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Silverbell Wood Button
-SawLiq.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.silverbell> * 2, null, <Natura:pressureplate.silverbell>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Amaranth Wood Button
-SawLiq.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.amaranth> * 2, null, <Natura:pressureplate.amaranth>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Tiger Wood Button
-SawLiq.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.tiger> * 2, null, <Natura:pressureplate.tiger>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Willow Wood Button
-SawLiq.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.willow> * 2, null, <Natura:pressureplate.willow>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Dark Wood Button
-SawLiq.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.darkwood> * 2, null, <Natura:pressureplate.darkwood>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Fuse Wood Button
-SawLiq.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:water> * 4, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:water> * 4, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:ic2distilledwater> * 3, 50, 4);
+CuttingSaw.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-SawLiq.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:lubricant> * 1, 25, 4);
+CuttingSaw.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:lubricant> * 1, 25, 4);
 
 
 

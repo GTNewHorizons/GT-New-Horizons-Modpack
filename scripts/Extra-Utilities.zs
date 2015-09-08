@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
 import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;

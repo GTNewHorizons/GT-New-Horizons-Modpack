@@ -5,8 +5,8 @@
 // --- Importing Stuff ---
 
 
-import mods.gregtech.AssemblerLiq;
-import mods.gregtech.ChemicalReactorLiq;
+import mods.gregtech.Assembler;
+import mods.gregtech.ChemicalReactor;
 
 
 
@@ -105,37 +105,37 @@ recipes.addShaped(<WR-CBE|Addons:psniffer>, [
 
 
 // --- Wireless Transceiver
-AssemblerLiq.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:23316>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:23316>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
 
 // --- Blaze Transceiver
-AssemblerLiq.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
 
 // --- Receiver Dish
-AssemblerLiq.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
+Assembler.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
 
 // --- Blaze Receiver Dish
-AssemblerLiq.addRecipe(<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:blazeTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
+Assembler.addRecipe(<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:blazeTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
 
 // --- Wireless Transmitter
-AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 250, 600, 256);
+Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 250, 600, 256);
 
 // --- Wireless Receiver
-AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:recieverDish>, <liquid:ender> * 250, 600, 256);
+Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:recieverDish>, <liquid:ender> * 250, 600, 256);
 
 // --- Wireless Jammer
-AssemblerLiq.addRecipe(<WR-CBE|Logic:wirelessLogic:2>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
+Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:2>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
 
 // --- Triangulatior
-AssemblerLiq.addRecipe(<WR-CBE|Addons:triangulator>, <minecraft:compass>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Addons:triangulator>, <minecraft:compass>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
 
 // --- Wireless Map
-AssemblerLiq.addRecipe(<WR-CBE|Addons:map>, <WR-CBE|Addons:triangulator>, <minecraft:paper> * 8, <liquid:molten.redstone> * 144, 300, 64);
+Assembler.addRecipe(<WR-CBE|Addons:map>, <WR-CBE|Addons:triangulator>, <minecraft:paper> * 8, <liquid:molten.redstone> * 144, 300, 64);
 
 // --- Tracker
-AssemblerLiq.addRecipe(<WR-CBE|Addons:tracker>, <gregtech:gt.metaitem.01:17804> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Addons:tracker>, <gregtech:gt.metaitem.01:17804> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
 
-// ---REP
-AssemblerLiq.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR-CBE|Core:retherPearl> * 2, <liquid:obsidian.molten> * 1440, 600, 128);
+// --- REP
+Assembler.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR-CBE|Core:retherPearl> * 2, <liquid:obsidian.molten> * 1440, 600, 128);
 
 
 
@@ -145,4 +145,4 @@ AssemblerLiq.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, 
 
 
 // --- REther Pearl
-ChemicalReactorLiq.addRecipe(<WR-CBE|Core:retherPearl>, null, <minecraft:ender_pearl>, <minecraft:glowstone_dust>, <liquid:molten.redalloy> * 144, 1200);
+ChemicalReactor.addRecipe(<WR-CBE|Core:retherPearl>, null, <minecraft:ender_pearl>, <minecraft:glowstone_dust>, <liquid:molten.redalloy> * 144, 1200);

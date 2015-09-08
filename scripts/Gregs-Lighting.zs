@@ -1,33 +1,43 @@
-// --- Created by Methes ---
+// --- Created by Methes modified by DreamMasterXXL ---
+
+
+// --- Imports ---
 
 import mods.nei.NEI;
 
+
+// --- Variables ---
+
+
 val CableTungsten1x = <ore:wireGt01Tungsten>;
+
+
 
 // --- Remove Recipes ---
 
-//Carbine Floodlight
+
+// --- Carbine Floodlight
 recipes.remove(<GregsLighting:carbideFloodlight>);
 
-//Calcium Carbide
+// --- Calcium Carbide
 furnace.remove(<GregsLighting:calciumCarbide>);
 
-//Bonemeal-Charcole Mixture
+// --- Bonemeal-Charcole Mixture
 recipes.remove(<GregsLighting:bonemealAndCharcoal>);
 
-//Gas Nozzle
+// --- Gas Nozzle
 recipes.remove(<GregsLighting:gasNozzle>);
 
-//Glowing Alloy Ingot
+// --- Glowing Alloy Ingot
 recipes.remove(<GregsLighting:glowingIngot>);
 
-//IC2 Floodlight Bulb
+// --- IC2 Floodlight Bulb
 recipes.remove(<GregsLighting:glowstoneBulb>);
 
-//Filament Assembly
+// --- Filament Assembly
 recipes.remove(<GregsLighting:ic2FilamentAssembly>);
 
-//Electric Floodlight
+// --- Electric Floodlight
 recipes.remove(<GregsLighting:ic2ElectricFloodlight>);
 
 

@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
 import mods.gregtech.FormingPress;
 import mods.nei.NEI;
 
@@ -496,10 +495,15 @@ recipes.addShaped(BCTank, [
 [Wrench, StrongGlass, Screwdriver],
 [IronScrew, IronRing, IronScrew]]);
 // -
-recipes.addShaped(BCTank, [
-[IronScrew, IronRing, IronScrew],
-[Wrench, ObsidianGlass, Screwdriver],
-[IronScrew, IronRing, IronScrew]]);
+//recipes.addShaped(BCTank, [
+//[IronScrew, IronRing, IronScrew],
+//[Wrench, ObsidianGlass, Screwdriver],
+//[IronScrew, IronRing, IronScrew]]);
+// -
+recipes.addShaped(<BuildCraft|Factory:tankBlock>, [
+[<ore:screwIron>, <ore:ringIron>, <ore:screwIron>],
+[<ore:craftingToolWrench>, <ExtraUtilities:decorativeBlock2:5>, <ore:craftingToolScrewdriver>],
+[<ore:screwIron>, <ore:ringIron>, <ore:screwIron>]]);
 
 // --- Void Pipe
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>, [
@@ -535,9 +539,9 @@ recipes.addShapeless(<BuildCraft|Factory:autoWorkbenchBlock>, [<ProjRed|Expansio
 Assembler.addRecipe(<BuildCraft|Core:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
 
 // --- Propolis Pipes
-AssemblerLiq.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:for.honey> * 400, 300, 48);
+Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:for.honey> * 400, 300, 48);
 // -
-AssemblerLiq.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:honey> * 400, 300, 48);
+Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:honey> * 400, 300, 48);
 
 
 

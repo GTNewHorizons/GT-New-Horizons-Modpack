@@ -6,9 +6,8 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
 import mods.gregtech.Canner;
-import mods.gregtech.ChemicalBathLiq;
+import mods.gregtech.ChemicalBath;
 import mods.ic2.Compressor;
 import mods.gregtech.FormingPress;
 import mods.ic2.Macerator;
@@ -856,7 +855,7 @@ recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:11>, [<Bui
 
 
 // --- Conductive Plate
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:1>, <ProjRed|Core:projectred.core.part>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 144, 200, 16);
+Assembler.addRecipe(<ProjRed|Core:projectred.core.part:1>, <ProjRed|Core:projectred.core.part>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 144, 200, 16);
 
 // --- Wired Plate
 Assembler.addRecipe(<ProjRed|Core:projectred.core.part:2>, <ProjRed|Core:projectred.core.part:1>, <ProjRed|Transmission:projectred.transmission.wire>, 300, 32);
@@ -879,19 +878,19 @@ Assembler.addRecipe(<ProjRed|Core:projectred.core.part:6> ,<ProjRed|Core:project
 Assembler.addRecipe(<ProjRed|Core:projectred.core.part:9>, <ProjRed|Core:projectred.core.part:2> * 4, <gregtech:gt.metaitem.01:23874> * 4, 300, 64);
 
 // --- Null Logic Upgarde Chip
-//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:45>, <ProjRed|Core:projectred.core.part:1>, <gregtech:gt.metaitem.01:32700>, <liquid:molten.redalloy> * 144, 600, 8);
+//Assembler.addRecipe(<ProjRed|Core:projectred.core.part:45>, <ProjRed|Core:projectred.core.part:1>, <gregtech:gt.metaitem.01:32700>, <liquid:molten.redalloy> * 144, 600, 8);
 
 // --- LX Upgarde
-//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:46>, <ProjRed|Core:projectred.core.part:45>, <gregtech:gt.blockmachines:1420> * 2, <liquid:molten.redalloy> * 144, 500, 16);
+//Assembler.addRecipe(<ProjRed|Core:projectred.core.part:46>, <ProjRed|Core:projectred.core.part:45>, <gregtech:gt.blockmachines:1420> * 2, <liquid:molten.redalloy> * 144, 500, 16);
 
 // --- LY Upgarde
-//AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redalloy> * 144, 400, 24);
+//Assembler.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redalloy> * 144, 400, 24);
 
 // --- LZ Upgarde
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redalloy> * 144, 300, 32);
+Assembler.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redalloy> * 144, 300, 32);
 
 // --- Data Card
-AssemblerLiq.addRecipe(<ProjRed|Core:projectred.core.datacard>, <gregtech:gt.metaitem.01:20879>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.redalloy> * 144, 200, 16);
+Assembler.addRecipe(<ProjRed|Core:projectred.core.datacard>, <gregtech:gt.metaitem.01:20879>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.redalloy> * 144, 200, 16);
 
 // --- Electric Screwdriver
 Assembler.addRecipe(<ProjRed|Expansion:projectred.expansion.electric_screwdriver>, <ProjRed|Core:projectred.core.screwdriver>, <ProjRed|Expansion:projectred.expansion.battery>, 100, 16);
@@ -905,19 +904,19 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <TC
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <minecraft:glass_pane>, <gregtech:gt.metaitem.02:22032> * 2, 100, 32);
 
 // --- Routed Interface Pipe
-AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:2>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17086> * 4, <liquid:molten.redstone> * 576, 400, 32);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:2>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17086> * 4, <liquid:molten.redstone> * 576, 400, 32);
 
 // --- Routed Crafting Pipe
-//AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:3>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17811> * 2, <liquid:molten.redstone> * 864, 400, 32);
+//Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:3>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17811> * 2, <liquid:molten.redstone> * 864, 400, 32);
 
 // --- Routed Request Pipe
-AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:4>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17500> * 2, <liquid:molten.redstone> * 864, 400, 32);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:4>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17500> * 2, <liquid:molten.redstone> * 864, 400, 32);
 
 // --- Routed Extension Pipe
 //Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:5>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <gregtech:gt.metaitem.01:17810> * 4, 400, 32);
 
 // --- Routed Firewall Pipe
-AssemblerLiq.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <minecraft:magma_cream> * 4, <liquid:lava> * 4000, 400, 32);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <minecraft:magma_cream> * 4, <liquid:lava> * 4000, 400, 32);
 
 // --- Pressure Tube
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <ProjRed|Transportation:projectred.transportation.pipe>, <Railcraft:part.plate>, 200, 32);
@@ -926,10 +925,10 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <Railcraft:part.plate:1>, 300, 32);
 
 // --- IC Chip
-AssemblerLiq.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 32); 
+Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 32); 
 
 // --- IC Blue Print
-AssemblerLiq.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icblueprint>, <gregtech:gt.metaitem.01:32712>, <gregtech:gt.metaitem.01:17526> * 4, <liquid:molten.redstone> * 144, 600, 32);
+Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icblueprint>, <gregtech:gt.metaitem.01:32712>, <gregtech:gt.metaitem.01:17526> * 4, <liquid:molten.redstone> * 144, 600, 32);
 
 // --- Recipe Plan
 Assembler.addRecipe(<ProjRed|Expansion:projectred.expansion.plan>, <gregtech:gt.metaitem.01:18879>, <gregtech:gt.integrated_circuit:1> * 0, 100, 8);
@@ -949,97 +948,97 @@ Canner.addRecipe(<ProjRed|Expansion:projectred.expansion.emptybattery>, <ProjRed
 
 
 // --- Red Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:15> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:15> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 2);
 
 // --- Green Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:14> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:14> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 2);
 
 // --- Brown Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:13> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:13> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 2);
 
 // --- Blue Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:12> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:12> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 2);
 
 // --- Purple Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:11> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:11> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 2);
 
 // --- Cyan Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:10> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:10> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 2);
 
 // --- Light Grey Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:9> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:9> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 2);
 
 // --- Dark Grey Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:8> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:8> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 2);
 
 // --- Pink Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:7> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:7> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 2);
 
 // --- Lime Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:6> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:6> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 2);
 
 // --- Yellow Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:5> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:5> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 2);
 
 // --- Light Blue Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:4> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:4> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 2);
 
 // --- Magenta Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:3> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:3> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 2);
 
 // --- Orange Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:2> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:2> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 2);
 
 // --- White Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:1> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:1> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:16> * 8, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 2);
 
 // --- Black Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:33> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblack> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:33> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblack> * 288, 10000, 0, 0, 200, 2);
 
 // --- Red Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:32> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyered> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:32> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyered> * 288, 10000, 0, 0, 200, 2);
 
 // --- Green Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:31> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegreen> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:31> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegreen> * 288, 10000, 0, 0, 200, 2);
 
 // --- Brown Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:30> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyebrown> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:30> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyebrown> * 288, 10000, 0, 0, 200, 2);
 
 // --- Blue Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:29> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblue> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:29> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeblue> * 288, 10000, 0, 0, 200, 2);
 
 // --- Purple Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:28> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepurple> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:28> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepurple> * 288, 10000, 0, 0, 200, 2);
 
 // --- Cyan Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:27> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyecyan> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:27> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyecyan> * 288, 10000, 0, 0, 200, 2);
 
 // --- Light Grey Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:26> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightgray> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:26> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightgray> * 288, 10000, 0, 0, 200, 2);
 
 // --- Dark Grey Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:25> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegray> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:25> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyegray> * 288, 10000, 0, 0, 200, 2);
 
 // --- Pink Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:24> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepink> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:24> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyepink> * 288, 10000, 0, 0, 200, 2);
 
 // --- Lime Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:23> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelime> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:23> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelime> * 288, 10000, 0, 0, 200, 2);
 
 // --- Yellow Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:22> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeyellow> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:22> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeyellow> * 288, 10000, 0, 0, 200, 2);
 
 // --- Light Blue Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:21> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightblue> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:21> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyelightblue> * 288, 10000, 0, 0, 200, 2);
 
 // --- Magenta Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:20> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyemagenta> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:20> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyemagenta> * 288, 10000, 0, 0, 200, 2);
 
 // --- Orange Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:19> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeorange> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:19> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyeorange> * 288, 10000, 0, 0, 200, 2);
 
 // --- White Insulated Wire
-ChemicalBathLiq.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:18> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyewhite> * 288, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:18> * 8, null, null, <ProjRed|Transmission:projectred.transmission.wire:17> * 8, <liquid:dye.watermixed.dyewhite> * 288, 10000, 0, 0, 200, 2);
 
 
 

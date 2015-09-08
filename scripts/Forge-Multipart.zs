@@ -1,37 +1,49 @@
 // --- Created by DreamMasterXXL ---
 
-//remove Recipes
 
-//Stone Saw
+
+
+// --- Remove Recipes --- 
+
+
+
+// --- Stone Saw
 recipes.remove(<ForgeMicroblock:sawStone>);
-//Iron Saw
+
+// --- Iron Saw
 recipes.remove(<ForgeMicroblock:sawIron>);
-//Diamond Saw
+
+// --- Diamond Saw
 recipes.remove(<ForgeMicroblock:sawDiamond>);
-//Stone Rod
+
+// --- Stone Rod
 recipes.remove(<ForgeMicroblock:stoneRod>);
 
-//add recipes
 
-//Stone Saw
+
+// --- Add Recipes --- 
+
+
+
+// --- Stone Saw
 recipes.addShaped(<ForgeMicroblock:sawStone>, [
 [<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
 [<ore:stickWood>, <dreamcraft:item.SawBladeStone>, <ore:rodSteel>],
 [null, null, null]]);
 
-//Iron Saw
+// --- Iron Saw
 recipes.addShaped(<ForgeMicroblock:sawIron>, [
 [<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
 [<ore:stickWood>, <ore:toolHeadSawIron>, <ore:rodSteel>],
 [null, null, null]]);
 
-//Diamond Saw
+// --- Diamond Saw
 recipes.addShaped(<ForgeMicroblock:sawDiamond>, [
 [<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
 [<ore:stickWood>, <dreamcraft:item.SawBladeDiamond>, <ore:rodSteel>],
 [null, null, null]]);
 
-//Stone Rod
+// --- Stone Rod
 recipes.addShaped(<ForgeMicroblock:stoneRod> * 2, [
 [<ore:stone>, null, null],
 [<ore:stone>, null, null],

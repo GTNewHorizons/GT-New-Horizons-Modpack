@@ -6,8 +6,7 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.AssemblerLiq;
-import mods.gregtech.SawLiq;
+import mods.gregtech.CuttingSaw;
 
 
 
@@ -437,16 +436,16 @@ Assembler.addRecipe(<malisisdoors:sliding_trapdoor>, <malisisdoors:iron_trapdoor
 Assembler.addRecipe(<malisisdoors:player_sensor> * 2, <minecraft:heavy_weighted_pressure_plate>, <minecraft:skull:3>, 100, 16);
 
 // --- Wooden Vanishing Frame
-AssemblerLiq.addRecipe(<malisisdoors:vanishing_block>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 300, 30);
+Assembler.addRecipe(<malisisdoors:vanishing_block>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 300, 30);
 
 // --- Iron Vanishing Frame
-AssemblerLiq.addRecipe(<malisisdoors:vanishing_block:1>, <gregtech:gt.blockmachines:4128>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 400, 30);
+Assembler.addRecipe(<malisisdoors:vanishing_block:1>, <gregtech:gt.blockmachines:4128>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 400, 30);
 
 // --- Gold Vanishing Frame
-AssemblerLiq.addRecipe(<malisisdoors:vanishing_block:2>, <gregtech:gt.blockmachines:4182>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 500, 30);
+Assembler.addRecipe(<malisisdoors:vanishing_block:2>, <gregtech:gt.blockmachines:4182>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 500, 30);
 
 // --- Diamond Vanishing Frame
-AssemblerLiq.addRecipe(<malisisdoors:vanishing_block:3>, <dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 600, 30);
+Assembler.addRecipe(<malisisdoors:vanishing_block:3>, <dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 600, 30);
 
 // --- Rusty Hatch
 Assembler.addRecipe(<malisisdoors:rustyHatch>, <Railcraft:part.plate> * 4, <malisisdoors:item.rustyHandle>, 200, 16);
@@ -461,29 +460,29 @@ Assembler.addRecipe(<malisisdoors:rustyLadder>, IronRod * 3, <gregtech:gt.integr
 Assembler.addRecipe(<malisisdoors:carriage_door>, QuatzBlock * 4, Door * 2, 200, 30);
 
 // --- Acacia Door
-AssemblerLiq.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Birch Door
-AssemblerLiq.addRecipe(<malisisdoors:item.door_birch>, <minecraft:planks:2> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_birch>, <minecraft:planks:2> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.door_birch>, <minecraft:planks:2> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_birch>, <minecraft:planks:2> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Dark Oak Door
-AssemblerLiq.addRecipe(<malisisdoors:item.door_dark_oak>, <minecraft:planks:5> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_dark_oak>, <minecraft:planks:5> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.door_dark_oak>, <minecraft:planks:5> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_dark_oak>, <minecraft:planks:5> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Jungle Door
-AssemblerLiq.addRecipe(<malisisdoors:item.door_jungle>, <minecraft:planks:3> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_jungle>, <minecraft:planks:3> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.door_jungle>, <minecraft:planks:3> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_jungle>, <minecraft:planks:3> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Spruce Door
-AssemblerLiq.addRecipe(<malisisdoors:item.door_spruce>, <minecraft:planks:1> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_spruce>, <minecraft:planks:1> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.door_spruce>, <minecraft:planks:1> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.door_spruce>, <minecraft:planks:1> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Wooden Glass Door
 Assembler.addRecipe(<malisisdoors:item.wood_sliding_door>, Door, <minecraft:glass_pane>,  400, 4);
@@ -505,9 +504,9 @@ Assembler.addRecipe(<malisisdoors:item.laboratory_door>, Door, <Railcraft:part.p
 Assembler.addRecipe(<malisisdoors:item.factory_door>, Door, <Railcraft:part.plate> * 2,  400, 4);
 
 // --- Shoji Door
-AssemblerLiq.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.iron> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.iron> * 16, 400, 4);
 // -
-AssemblerLiq.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.copper> * 16, 400, 4);
+Assembler.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.copper> * 16, 400, 4);
 
 // --- Curtain
 Assembler.addRecipe(<malisisdoors:item.curtain>, Carpet * 3, <minecraft:string>, 400, 4);

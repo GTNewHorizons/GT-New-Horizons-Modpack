@@ -6,7 +6,7 @@
 
 
 
-import mods.gregtech.SawLiq;
+import mods.gregtech.CuttingSaw;
 
 
 
@@ -134,20 +134,20 @@ recipes.addShaped(<harvestthenether:quartzbootsItem>, [
 
 
 
-// --- Saw Cutting Recipes ---
+// --- Cutting Saw Recipes ---
 
 
 
 // --- Nether Planks
-SawLiq.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:water> * 5, 200, 8);
+CuttingSaw.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:water> * 5, 200, 8);
 // -
-SawLiq.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:ic2distilledwater> * 3, 200, 8);
+CuttingSaw.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:ic2distilledwater> * 3, 200, 8);
 // -
-SawLiq.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:lubricant> * 1, 200, 8);
+CuttingSaw.addRecipe(<harvestthenether:netherPlanks> * 6, <gregtech:gt.metaitem.01:2809>, <harvestthenether:netherLog>, <liquid:lubricant> * 1, 200, 8);
 
 // --- Quartz Ingot
-SawLiq.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:water> * 5, 100, 16);
+CuttingSaw.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:water> * 5, 100, 16);
 // -
-SawLiq.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:ic2distilledwater> * 3, 100, 16);
+CuttingSaw.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:ic2distilledwater> * 3, 100, 16);
 // -
-SawLiq.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:lubricant> * 1, 100, 16);
+CuttingSaw.addRecipe(<harvestthenether:quartzingotItem> * 2, null, <minecraft:stone_slab:7>, <liquid:lubricant> * 1, 100, 16);
