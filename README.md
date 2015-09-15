@@ -6,7 +6,7 @@
 -
 
 
-Version 1.0.4.7 is out (14.08.2015)(GT New Horizons Coremod 0.9.19) (GTTweaker 0.7.6)
+Version 1.0.4.8 is out (15.09.2015)(GT New Horizons Coremod 0.9.21DEV) (GTTweaker 0.7.6)
 
 
 Large Modpack with every recipe Gregified
@@ -62,7 +62,7 @@ Number of players: 10
 Github link
 
 
-Modlist - NH 1.0.4.8 --- 14.08.2015
+Modlist - NH 1.0.4.8 --- 15.09.2015
 
 Advanced Solar Panels 3.5.1<BR>
 ASFU 1.2.2.a<BR>
