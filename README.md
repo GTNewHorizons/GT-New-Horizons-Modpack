@@ -64,7 +64,7 @@ Github link
 
 Modlist - NH 1.0.4.8 --- 14.08.2015
 
-Advanced Solar Panels 3.5.1
+Advanced Solar Panels 3.5.1<BR>
 ASFU 1.2.2.a
 Anger Mod 0.5
 AppleCore 1.1.0
