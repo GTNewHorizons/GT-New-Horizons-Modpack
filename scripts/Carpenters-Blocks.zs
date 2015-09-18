@@ -264,7 +264,7 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLadder>, CarpentersBlock, <
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLever>,  CarpentersBlock, <minecraft:lever>, 50, 16);
 
 // --- Carpenter's Safe
-Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 32);
+Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 30);
 
 // --- CarpentersBlock Wedge Slope
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 2, <CarpentersBlocks:blockCarpentersPressurePlate>, IronScrew, 100, 16);

@@ -97,7 +97,6 @@ recipes.remove(SignUpdater);
 // --- Adding Recipes ---
 
 
-
 // --- Steves Machine Inventory Manager
 recipes.addShaped(SteveManager, [
 [<ore:plateStainlessSteel>, Screen, <ore:plateStainlessSteel>],

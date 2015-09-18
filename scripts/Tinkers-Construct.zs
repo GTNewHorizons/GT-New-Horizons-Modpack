@@ -18,7 +18,6 @@ import mods.gregtech.Pulverizer;
 
 
 
-
 // --- Variables ---
 
 
@@ -2363,7 +2362,7 @@ Extruder.addRecipe(<TConstruct:toolRod:315>, <ExtraUtilities:bedrockiumIngot>, <
 Extruder.addRecipe(<TConstruct:toolRod:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:1> * 0, 97, 30);
 
 // --- Blood Infused Iron Tool Rod
-//Extruder.addRecipe(<TConstruct:toolRod:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:1> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:toolRod:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:1> * 0, 1800, 30);
 
 // --- Iron Pickaxe Head
 Extruder.addRecipe(<TConstruct:pickaxeHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:2> * 0, 501, 30);
@@ -2410,7 +2409,7 @@ Extruder.addRecipe(<TConstruct:pickaxeHead:315>, <ExtraUtilities:bedrockiumIngot
 Extruder.addRecipe(<TConstruct:pickaxeHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:2> * 0, 195, 30);
 
 // --- Blood Infused Iron Pickaxe Head
-//Extruder.addRecipe(<TConstruct:pickaxeHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:2> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:pickaxeHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:2> * 0, 3600, 30);
 
 // --- Iron Shovel Head
 Extruder.addRecipe(<TConstruct:shovelHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:3> * 0, 501, 30);
@@ -2457,7 +2456,7 @@ Extruder.addRecipe(<TConstruct:shovelHead:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:shovelHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:3> * 0, 195, 30);
 
 // --- Blood Infused Iron Shovel Head
-//Extruder.addRecipe(<TConstruct:shovelHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:3> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:shovelHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:3> * 0, 3600, 30);
 
 // --- Iron Axe Head
 Extruder.addRecipe(<TConstruct:hatchetHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:4> * 0, 501, 30);
@@ -2504,7 +2503,7 @@ Extruder.addRecipe(<TConstruct:hatchetHead:315>, <ExtraUtilities:bedrockiumIngot
 Extruder.addRecipe(<TConstruct:hatchetHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:4> * 0, 195, 30);
 
 // --- Blood Infused Iron Axe Head
-//Extruder.addRecipe(<TConstruct:hatchetHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:4> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:hatchetHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:4> * 0, 3600, 30);
 
 // --- Iron Sword Blade
 Extruder.addRecipe(<TConstruct:swordBlade:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:5> * 0, 501, 30);
@@ -2551,7 +2550,7 @@ Extruder.addRecipe(<TConstruct:swordBlade:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:swordBlade:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:5> * 0, 195, 30);
 
 // --- Blood Infused Iron Sword Blade
-//Extruder.addRecipe(<TConstruct:swordBlade:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:5> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:swordBlade:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:5> * 0, 3600, 30);
 
 // --- Iron Wide Guard
 Extruder.addRecipe(<TConstruct:wideGuard:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:6> * 0, 250, 30);
@@ -2598,7 +2597,7 @@ Extruder.addRecipe(<TConstruct:wideGuard:315>, <ExtraUtilities:bedrockiumIngot>,
 Extruder.addRecipe(<TConstruct:wideGuard:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:6> * 0, 97, 30);
 
 // --- Blood Infused Iron Wide Guard
-//Extruder.addRecipe(<TConstruct:wideGuard:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:6> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:wideGuard:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:6> * 0, 1800, 30);
 
 // --- Iron Hand Guard
 Extruder.addRecipe(<TConstruct:handGuard:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:7> * 0, 250, 30);
@@ -2645,7 +2644,7 @@ Extruder.addRecipe(<TConstruct:handGuard:315>, <ExtraUtilities:bedrockiumIngot>,
 Extruder.addRecipe(<TConstruct:handGuard:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:7> * 0, 97, 30);
 
 // --- Blood Infused Iron Hand Guard
-//Extruder.addRecipe(<TConstruct:handGuard:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:7> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:handGuard:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:7> * 0, 1800, 30);
 
 // --- Iron Crossbar
 Extruder.addRecipe(<TConstruct:crossbar:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:8> * 0, 250, 30);
@@ -2692,7 +2691,7 @@ Extruder.addRecipe(<TConstruct:crossbar:315>, <ExtraUtilities:bedrockiumIngot>, 
 Extruder.addRecipe(<TConstruct:crossbar:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:8> * 0, 97, 30);
 
 // --- Blood Infused Iron Crossbar
-//Extruder.addRecipe(<TConstruct:crossbar:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:8> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:crossbar:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:8> * 0, 1800, 30);
 
 // --- Iron Binding
 Extruder.addRecipe(<TConstruct:binding:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:9> * 0, 250, 30);
@@ -2739,7 +2738,7 @@ Extruder.addRecipe(<TConstruct:binding:315>, <ExtraUtilities:bedrockiumIngot>, <
 Extruder.addRecipe(<TConstruct:binding:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:9> * 0, 97, 30);
 
 // --- Blood Infused Iron Binding
-//Extruder.addRecipe(<TConstruct:binding:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:9> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:binding:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:9> * 0, 1800, 30);
 
 // --- Iron Pan
 Extruder.addRecipe(<TConstruct:frypanHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:10> * 0, 501, 30);
@@ -2786,7 +2785,7 @@ Extruder.addRecipe(<TConstruct:frypanHead:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:frypanHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:10> * 0, 195, 30);
 
 // --- Blood Infused Iron Pan
-//Extruder.addRecipe(<TConstruct:frypanHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:10> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:frypanHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:10> * 0, 3600, 30);
 
 // --- Iron Sign Head
 Extruder.addRecipe(<TConstruct:signHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:11> * 0, 501, 30);
@@ -2833,7 +2832,7 @@ Extruder.addRecipe(<TConstruct:signHead:315>, <ExtraUtilities:bedrockiumIngot>, 
 Extruder.addRecipe(<TConstruct:signHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:11> * 0, 195, 30);
 
 // --- Blood Infused Iron Sign Head
-//Extruder.addRecipe(<TConstruct:signHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:11> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:signHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:11> * 0, 3600, 30);
 
 // --- Iron Knife Blade
 Extruder.addRecipe(<TConstruct:knifeBlade:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:12> * 0, 250, 30);
@@ -2880,7 +2879,7 @@ Extruder.addRecipe(<TConstruct:knifeBlade:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:knifeBlade:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:12> * 0, 97, 30);
 
 // --- Blood Infused Iron Knife Blade
-//Extruder.addRecipe(<TConstruct:knifeBlade:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:12> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:knifeBlade:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:12> * 0, 1800, 30);
 
 // --- Iron Chisel Head
 Extruder.addRecipe(<TConstruct:chiselHead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:13> * 0, 250, 30);
@@ -2927,7 +2926,7 @@ Extruder.addRecipe(<TConstruct:chiselHead:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:chiselHead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:13> * 0, 97, 30);
 
 // --- Blood Infused Iron Chisel Head
-//Extruder.addRecipe(<TConstruct:chiselHead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:13> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:chiselHead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:13> * 0, 1800, 30);
 
 // --- Iron Tough Rod
 Extruder.addRecipe(<TConstruct:toughRod:2>, <minecraft:iron_ingot> * 3, <TConstruct:metalPattern:14> * 0, 1503, 30);
@@ -2974,7 +2973,7 @@ Extruder.addRecipe(<TConstruct:toughRod:315>, <ExtraUtilities:bedrockiumIngot> *
 Extruder.addRecipe(<TConstruct:toughRod:316>, <ExtraUtilities:decorativeBlock1:8> * 3, <TConstruct:metalPattern:14> * 0, 585, 30);
 
 // --- Blood Infused Iron Tough Rod
-//Extruder.addRecipe(<TConstruct:toughRod:250>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:14> * 0, 10800, 30);
+Extruder.addRecipe(<TConstruct:toughRod:251>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:14> * 0, 10800, 30);
 
 // --- Iron Tough Binding
 Extruder.addRecipe(<TConstruct:toughBinding:2>, <minecraft:iron_ingot> * 3, <TConstruct:metalPattern:15> * 0, 1503, 30);
@@ -3021,7 +3020,7 @@ Extruder.addRecipe(<TConstruct:toughBinding:315>, <ExtraUtilities:bedrockiumIngo
 Extruder.addRecipe(<TConstruct:toughBinding:316>, <ExtraUtilities:decorativeBlock1:8> * 3, <TConstruct:metalPattern:15> * 0, 585, 30);
 
 // --- Blood Infused Iron Tough Binding
-//Extruder.addRecipe(<TConstruct:toughBinding:250>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:15> * 0, 10800, 30);
+Extruder.addRecipe(<TConstruct:toughBinding:251>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:15> * 0, 10800, 30);
 
 // --- Iron Large Plate 
 Extruder.addRecipe(<TConstruct:heavyPlate:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:16> * 0, 4008, 30);
@@ -3068,7 +3067,7 @@ Extruder.addRecipe(<TConstruct:heavyPlate:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:heavyPlate:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:16> * 0, 1560, 30);
 
 // --- Blood Infused Iron Large Plate
-//Extruder.addRecipe(<TConstruct:heavyPlate:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:16> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:heavyPlate:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:16> * 0, 28800, 30);
 
 // --- Iron Broad Axe Head
 Extruder.addRecipe(<TConstruct:broadAxeHead:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:17> * 0, 4008, 30);
@@ -3115,7 +3114,7 @@ Extruder.addRecipe(<TConstruct:broadAxeHead:315>, <ExtraUtilities:bedrockiumIngo
 Extruder.addRecipe(<TConstruct:broadAxeHead:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:17> * 0, 1560, 30);
 
 // --- Blood Infused Iron Broad Axe Head 
-//Extruder.addRecipe(<TConstruct:broadAxeHead:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:17> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:broadAxeHead:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:17> * 0, 28800, 30);
 
 // --- Iron Scythe Head
 Extruder.addRecipe(<TConstruct:scytheBlade:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:18> * 0, 4008, 30);
@@ -3162,7 +3161,7 @@ Extruder.addRecipe(<TConstruct:scytheBlade:315>, <ExtraUtilities:bedrockiumIngot
 Extruder.addRecipe(<TConstruct:scytheBlade:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:18> * 0, 1560, 30);
 
 // --- Blood Infused Iron Scythe Head
-//Extruder.addRecipe(<TConstruct:scytheBlade:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:18> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:scytheBlade:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:18> * 0, 28800, 30);
 
 // --- Iron Excavator Head
 Extruder.addRecipe(<TConstruct:excavatorHead:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:19> * 0, 4008, 30);
@@ -3209,7 +3208,7 @@ Extruder.addRecipe(<TConstruct:excavatorHead:315>, <ExtraUtilities:bedrockiumIng
 Extruder.addRecipe(<TConstruct:excavatorHead:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:19> * 0, 1560, 30);
 
 // --- Blood Infused Iron Excavator Head
-//Extruder.addRecipe(<TConstruct:excavatorHead:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:19> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:excavatorHead:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:19> * 0, 28800, 30);
 
 // --- Iron Large Sword Blade
 Extruder.addRecipe(<TConstruct:largeSwordBlade:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:20> * 0, 4008, 30);
@@ -3256,7 +3255,7 @@ Extruder.addRecipe(<TConstruct:largeSwordBlade:315>, <ExtraUtilities:bedrockiumI
 Extruder.addRecipe(<TConstruct:largeSwordBlade:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:20> * 0, 1560, 30);
 
 // --- Blood Infused Iron Large Sword Blade
-//Extruder.addRecipe(<TConstruct:largeSwordBlade:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:20> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:largeSwordBlade:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:20> * 0, 28800, 30);
 
 // --- Iron Hammer Head
 Extruder.addRecipe(<TConstruct:hammerHead:2>, <minecraft:iron_ingot> * 8, <TConstruct:metalPattern:21> * 0, 4008, 30);
@@ -3303,7 +3302,7 @@ Extruder.addRecipe(<TConstruct:hammerHead:315>, <ExtraUtilities:bedrockiumIngot>
 Extruder.addRecipe(<TConstruct:hammerHead:316>, <ExtraUtilities:decorativeBlock1:8> * 8, <TConstruct:metalPattern:21> * 0, 1560, 30);
 
 // --- Blood Infused Iron Hammer Head
-//Extruder.addRecipe(<TConstruct:hammerHead:250>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:21> * 0, 28800, 30);
+Extruder.addRecipe(<TConstruct:hammerHead:251>, <BloodArsenal:blood_infused_iron> * 8, <TConstruct:metalPattern:21> * 0, 28800, 30);
 
 // --- Iron Full Guard
 Extruder.addRecipe(<TConstruct:fullGuard:2>, <minecraft:iron_ingot> * 3, <TConstruct:metalPattern:22> * 0, 1503, 30);
@@ -3350,7 +3349,7 @@ Extruder.addRecipe(<TConstruct:fullGuard:315>, <ExtraUtilities:bedrockiumIngot> 
 Extruder.addRecipe(<TConstruct:fullGuard:316>, <ExtraUtilities:decorativeBlock1:8> * 3, <TConstruct:metalPattern:22> * 0, 585, 30);
 
 // --- Blood Infused Iron Full Guard
-//Extruder.addRecipe(<TConstruct:fullGuard:250>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:22> * 0, 10800, 30);
+Extruder.addRecipe(<TConstruct:fullGuard:251>, <BloodArsenal:blood_infused_iron> * 3, <TConstruct:metalPattern:22> * 0, 10800, 30);
 
 // --- Iron Arrowhead
 Extruder.addRecipe(<TConstruct:arrowhead:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:25> * 0, 501, 30);
@@ -3397,7 +3396,7 @@ Extruder.addRecipe(<TConstruct:arrowhead:315>, <ExtraUtilities:bedrockiumIngot>,
 Extruder.addRecipe(<TConstruct:arrowhead:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:metalPattern:25> * 0, 195, 30);
 
 // --- Blood Infused Iron Arrowhead
-//Extruder.addRecipe(<TConstruct:arrowhead:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:25> * 0, 3600, 30);
+Extruder.addRecipe(<TConstruct:arrowhead:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:metalPattern:25> * 0, 3600, 30);
 
 // --- Iron Shuriken
 Extruder.addRecipe(<TConstruct:ShurikenPart:2>, <minecraft:iron_ingot>, <TConstruct:Cast> * 0, 250, 30);
@@ -3444,7 +3443,7 @@ Extruder.addRecipe(<TConstruct:ShurikenPart:315>, <ExtraUtilities:bedrockiumIngo
 Extruder.addRecipe(<TConstruct:ShurikenPart:316>, <ExtraUtilities:decorativeBlock1:8>, <TConstruct:Cast> * 0, 97, 30);
 
 // --- Blood Infused Iron Shuriken
-//Extruder.addRecipe(<TConstruct:ShurikenPart:250>, <BloodArsenal:blood_infused_iron>, <TConstruct:Cast> * 0, 1800, 30);
+Extruder.addRecipe(<TConstruct:ShurikenPart:251>, <BloodArsenal:blood_infused_iron>, <TConstruct:Cast> * 0, 1800, 30);
 
 // --- Iron Crossbow Limb
 Extruder.addRecipe(<TConstruct:CrossbowLimbPart:2>, <minecraft:iron_ingot> * 4, <TConstruct:Cast:1> * 0, 2004, 30);
@@ -3491,7 +3490,7 @@ Extruder.addRecipe(<TConstruct:CrossbowLimbPart:315>, <ExtraUtilities:bedrockium
 Extruder.addRecipe(<TConstruct:CrossbowLimbPart:316>, <ExtraUtilities:decorativeBlock1:8> * 4, <TConstruct:Cast:1> * 0, 780, 30);
 
 // --- Blood Infused Iron Crossbow Limb
-//Extruder.addRecipe(<TConstruct:CrossbowLimbPart:250>, <BloodArsenal:blood_infused_iron> * 4, <TConstruct:Cast:1> * 0, 14400, 30);
+Extruder.addRecipe(<TConstruct:CrossbowLimbPart:251>, <BloodArsenal:blood_infused_iron> * 4, <TConstruct:Cast:1> * 0, 14400, 30);
 
 // --- Iron Crossbow Body
 Extruder.addRecipe(<TConstruct:CrossbowBodyPart:2>, <minecraft:iron_ingot> * 5, <TConstruct:Cast:2> * 0, 2505, 30);
@@ -3538,7 +3537,7 @@ Extruder.addRecipe(<TConstruct:CrossbowBodyPart:315>, <ExtraUtilities:bedrockium
 Extruder.addRecipe(<TConstruct:CrossbowBodyPart:316>, <ExtraUtilities:decorativeBlock1:8> * 5, <TConstruct:Cast:2> * 0, 975, 30);
 
 // --- Blood Infused Iron Crossbow Body
-//Extruder.addRecipe(<TConstruct:CrossbowBodyPart:250>, <BloodArsenal:blood_infused_iron> * 5, <TConstruct:Cast:2> * 0, 18000, 30);
+Extruder.addRecipe(<TConstruct:CrossbowBodyPart:251>, <BloodArsenal:blood_infused_iron> * 5, <TConstruct:Cast:2> * 0, 18000, 30);
 
 // --- Iron Bow Limb
 Extruder.addRecipe(<TConstruct:BowLimbPart:2>, <minecraft:iron_ingot> * 2, <TConstruct:Cast:3> * 0, 752, 30);
@@ -3585,7 +3584,7 @@ Extruder.addRecipe(<TConstruct:BowLimbPart:315>, <ExtraUtilities:bedrockiumIngot
 Extruder.addRecipe(<TConstruct:BowLimbPart:316>, <ExtraUtilities:decorativeBlock1:8> * 2, <TConstruct:Cast:3> * 0, 293, 30);
 
 // --- Blood Infused Iron Bow Limb
-//Extruder.addRecipe(<TConstruct:BowLimbPart:250>, <BloodArsenal:blood_infused_iron> * 2, <TConstruct:Cast:3> * 0, 5400, 30);
+Extruder.addRecipe(<TConstruct:BowLimbPart:251>, <BloodArsenal:blood_infused_iron> * 2, <TConstruct:Cast:3> * 0, 5400, 30);
 
 
 
@@ -3643,12 +3642,12 @@ Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 
 // --- Grout
-Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, <minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2, null, <liquid:water> * 2000, 120, 16);
+Mixer.addRecipe(<TConstruct:CraftedSoil:1> * 8, null, [<minecraft:sand:*> * 3, <minecraft:gravel> * 3, <minecraft:clay> * 2], <liquid:water> * 2000, 120, 16);
 
 // --- Slime Soil
-Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, <minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <Natura:soil.tainted>, <liquid:water> * 2000, 200, 16);
+Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, [<minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <Natura:soil.tainted>], <liquid:water> * 2000, 200, 16);
 // -
-Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, <minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <minecraft:sand:*>, <liquid:water> * 2000, 200, 16);
+Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, [<minecraft:nether_wart>, <minecraft:soul_sand>, <minecraft:gravel>, <minecraft:sand:*>], <liquid:water> * 2000, 200, 16);
 
 
 

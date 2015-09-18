@@ -3,6 +3,7 @@
 
 // --- Imports ---
 import mods.gregtech.Assembler;
+
 import mods.gregtech.Mixer;
 
 
@@ -181,13 +182,13 @@ recipes.addShaped(<Genetics:advMachine>, [
 
 
 // --- Reinforced  Casing
-Assembler.addRecipe(<Genetics:misc>, <Forestry:sturdyMachine>, <dreamcraft:item.AluminiumItemCasing> * 8, 1200, 128);
+Assembler.addRecipe(<Genetics:misc>, <Forestry:sturdyMachine>, <dreamcraft:item.AluminiumItemCasing> * 8, 1200, 120);
 
 // --- Glass Cylinder
 Assembler.addRecipe(<Genetics:misc:8>, <minecraft:glass_pane> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 16);
 
 // --- Blank Sequence
-Assembler.addRecipe(<Genetics:misc:5>, <minecraft:glass_pane> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.gold> * 288, 200, 32);
+Assembler.addRecipe(<Genetics:misc:5>, <minecraft:glass_pane> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.gold> * 288, 200, 30);
 
 // --- Empty Serum Vial
 Assembler.addRecipe(<Genetics:misc:6>, <minecraft:glass_pane> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.gold> * 144, 200, 48);
@@ -202,17 +203,17 @@ Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.meta
 Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);
 
 // --- Integrated CPU
-Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.01:32712>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 128);
+Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.01:32712>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 120);
 
 
 // --- Mixer Recipes ---
 
 
 // --- DNA Dey
-Mixer.addRecipe(<Genetics:misc:1>, null, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:4>, <minecraft:dye:5>, <liquid:molten.blaze> * 144, 100, 32);
+Mixer.addRecipe(<Genetics:misc:1>, null, [<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:4>, <minecraft:dye:5>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Fluorescent Dey
-Mixer.addRecipe(<Genetics:misc:2>, null, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:14>, <minecraft:dye:11>, <liquid:molten.blaze> * 144, 100, 32);
+Mixer.addRecipe(<Genetics:misc:2>, null, [<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:14>, <minecraft:dye:11>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Growth Medium
-Mixer.addRecipe(<Genetics:misc:4>, null, <gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>, <liquid:water> * 1000, 100, 16);
+Mixer.addRecipe(<Genetics:misc:4>, null, [<gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>], <liquid:water> * 1000, 100, 16);

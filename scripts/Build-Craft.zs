@@ -495,12 +495,7 @@ recipes.addShaped(BCTank, [
 [Wrench, StrongGlass, Screwdriver],
 [IronScrew, IronRing, IronScrew]]);
 // -
-//recipes.addShaped(BCTank, [
-//[IronScrew, IronRing, IronScrew],
-//[Wrench, ObsidianGlass, Screwdriver],
-//[IronScrew, IronRing, IronScrew]]);
-// -
-recipes.addShaped(<BuildCraft|Factory:tankBlock>, [
+recipes.addShaped(BCTank, [
 [<ore:screwIron>, <ore:ringIron>, <ore:screwIron>],
 [<ore:craftingToolWrench>, <ExtraUtilities:decorativeBlock2:5>, <ore:craftingToolScrewdriver>],
 [<ore:screwIron>, <ore:ringIron>, <ore:screwIron>]]);

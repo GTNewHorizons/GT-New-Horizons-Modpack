@@ -350,7 +350,7 @@ recipes.addShaped(<ExtraTrees:door:773>.withTag({meta: 773}), [
 
 
 // --- Yeast
-Mixer.addRecipe(<ExtraTrees:misc:6>, null, <dreamcraft:item.MushroomPowder> * 5, null, null, null, <liquid:potion.wheatyjuice> * 1000, 400, 16);
+Mixer.addRecipe(<ExtraTrees:misc:6>, null, [<dreamcraft:item.MushroomPowder> * 5], <liquid:potion.wheatyjuice> * 1000, 400, 16);
 
 // --- Lager Yeast
-Mixer.addRecipe(<ExtraTrees:misc:7>, null, <ExtraTrees:misc:6>, <ExtraTrees:misc:12> * 4, null, null, <liquid:water> * 1000, 600, 16);
+Mixer.addRecipe(<ExtraTrees:misc:7>, null, [<ExtraTrees:misc:6>, <ExtraTrees:misc:12> * 4], <liquid:water> * 1000, 600, 16);

@@ -2835,10 +2835,10 @@ oreDict.craftingToolShears.add(<minecraft:shears>);
 
 
 // --- Soul Sand
-Mixer.addRecipe(<minecraft:soul_sand> * 4, null, <minecraft:sand:*> * 4, <minecraft:dirt:*>, <MagicBees:wax:1> * 4, null, <liquid:water> * 1000, 100, 16);
+Mixer.addRecipe(<minecraft:soul_sand> * 4, null, [<minecraft:sand:*> * 4, <minecraft:dirt:*>, <MagicBees:wax:1> * 4], <liquid:water> * 1000, 100, 16);
 
 // --- Fire Charge
-Mixer.addRecipe(<minecraft:fire_charge>, null, <minecraft:blaze_powder> * 3, <minecraft:gunpowder> * 3, <gregtech:gt.metaitem.01:2535> * 3, null, null, 400, 32);
+Mixer.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder> * 3, <minecraft:gunpowder> * 3, <gregtech:gt.metaitem.01:2535> * 3], 400, 30);
 
 
 // --- Thaumcraft recipes ---

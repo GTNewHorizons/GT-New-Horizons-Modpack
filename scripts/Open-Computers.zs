@@ -8,6 +8,7 @@ import mods.gregtech.Assembler;
 
 
 
+
 // --- Removing Recipes ---
 
 
@@ -28,4 +29,4 @@ recipes.remove(<OpenComputers:item:32>);
 
 
 // --- Printed Circuit Board
-Assembler.addRecipe(<OpenComputers:item:32>, <OpenComputers:item:31>, <gregtech:gt.blockmachines:1420> * 4, <liquid:sulfuricacid> * 144, 200, 32);
+Assembler.addRecipe(<OpenComputers:item:32>, <OpenComputers:item:31>, <gregtech:gt.blockmachines:1420> * 4, <liquid:sulfuricacid> * 144, 200, 30);

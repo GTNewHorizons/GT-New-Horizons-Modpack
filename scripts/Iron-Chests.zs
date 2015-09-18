@@ -157,13 +157,13 @@ Assembler.addRecipe(CopperChest, Chest, DoubleCopperPlate * 3, 100, 8);
 Assembler.addRecipe(IronChest, Chest, DoubleIronPlate * 3, 150, 16);
 
 // --- Steel Chest
-Assembler.addRecipe(SteelChest, Chest, DoubleSteelPlate * 3, 200, 32);
+Assembler.addRecipe(SteelChest, Chest, DoubleSteelPlate * 3, 200, 30);
 
 // --- Gold Chest
 Assembler.addRecipe(GoldChest, Chest, DoubleGoldPlate * 3, 250, 64);
 
 // --- Diamond Chest
-Assembler.addRecipe(DiamondChest, Chest, DiamondPlate * 4, 300, 128);
+Assembler.addRecipe(DiamondChest, Chest, DiamondPlate * 4, 300, 120);
 
 // --- Crystal Chest
 Assembler.addRecipe(CrystalChest, DiamondChest, GlassPlate * 4, 350, 256);

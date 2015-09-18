@@ -105,10 +105,10 @@ recipes.addShaped(<WR-CBE|Addons:psniffer>, [
 
 
 // --- Wireless Transceiver
-Assembler.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:23316>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:23316>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 120);
 
 // --- Blaze Transceiver
-Assembler.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redalloy> * 144, 600, 120);
 
 // --- Receiver Dish
 Assembler.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.tungstensteel> * 144, 600, 256);
@@ -126,16 +126,16 @@ Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.cor
 Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:2>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
 
 // --- Triangulatior
-Assembler.addRecipe(<WR-CBE|Addons:triangulator>, <minecraft:compass>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Addons:triangulator>, <minecraft:compass>, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 120);
 
 // --- Wireless Map
 Assembler.addRecipe(<WR-CBE|Addons:map>, <WR-CBE|Addons:triangulator>, <minecraft:paper> * 8, <liquid:molten.redstone> * 144, 300, 64);
 
 // --- Tracker
-Assembler.addRecipe(<WR-CBE|Addons:tracker>, <gregtech:gt.metaitem.01:17804> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 128);
+Assembler.addRecipe(<WR-CBE|Addons:tracker>, <gregtech:gt.metaitem.01:17804> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:molten.redalloy> * 144, 600, 120);
 
 // --- REP
-Assembler.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR-CBE|Core:retherPearl> * 2, <liquid:obsidian.molten> * 1440, 600, 128);
+Assembler.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR-CBE|Core:retherPearl> * 2, <liquid:obsidian.molten> * 1440, 600, 120);
 
 
 

@@ -354,16 +354,16 @@ recipes.remove(<IC2:itemPartCoalBall>);
 recipes.remove(<IC2:itemPartCFPowder>);
 
 // --- Double Uranium Fuel Rod
-recipes.remove(<IC2:reactorUraniumDual>);
+recipes.remove(<IC2:reactorUraniumDual:*>);
 
 // --- Quad Uranium Fuel Rod
-recipes.remove(<IC2:reactorUraniumQuad>);
+recipes.remove(<IC2:reactorUraniumQuad:*>);
 
 // --- Double Mox Fuel Rod
-recipes.remove(<IC2:reactorMOXDual>);
+recipes.remove(<IC2:reactorMOXDual:*>);
 
 // --- Quad Mox Fuel Rod
-recipes.remove(<IC2:reactorMOXQuad>);
+recipes.remove(<IC2:reactorMOXQuad:*>);
 
 // --- Reinforced Door
 recipes.remove(<IC2:itemDoorAlloy>);
@@ -629,10 +629,10 @@ recipes.remove(<IC2:itemToolbox>);
 recipes.remove(<IC2:itemPlutoniumSmall>);
 
 // --- Mox Nuclear Fuel
-recipes.remove(<IC2:itemMOX>);
+recipes.remove(<IC2:itemMOX:*>);
 
 // --- Enriched Uranium Nuclear Fuel
-recipes.remove(<IC2:itemUran>);
+recipes.remove(<IC2:itemUran:*>);
 
 // --- Electric Motor
 recipes.remove(<IC2:itemRecipePart:1>);
@@ -1365,9 +1365,9 @@ recipes.addShaped(<IC2:blockKineticGenerator>, [
 
 // --- Semi Fluid Generator
 recipes.addShaped(<IC2:blockGenerator:7>, [
-[<ore:gearGtSteel>, <ore:cableGt01Tin>, <ore:gearGtSteel>],
-[<gregtech:gt.metaitem.01:32600>, <gregtech:gt.blockmachines:11>, <gregtech:gt.metaitem.01:32600>],
-[<gregtech:gt.metaitem.01:32640>, <ore:circuitBasic>,<gregtech:gt.metaitem.01:32640>]]);
+[<IC2:itemCasing:5>, <ore:craftingTank>, <IC2:itemCasing:5>],
+[<gregtech:gt.blockmachines:2006>, <gregtech:gt.blockmachines:11>, <gregtech:gt.blockmachines:2006>],
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>]]);
 
 
 
@@ -1410,25 +1410,25 @@ Assembler.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gre
 Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 1200, 32);
 
 // --- Radioisotope Heat Generatpr
-Assembler.addRecipe(<IC2:blockHeatGenerator:2>, <IC2:blockGenerator:5>, <IC2:itemRecipePart:5> * 3, <liquid:molten.lead> * 576, 600, 128);
+Assembler.addRecipe(<IC2:blockHeatGenerator:2>, <IC2:blockGenerator:5>, <IC2:itemRecipePart:5> * 3, <liquid:molten.lead> * 576, 600, 120);
 
 // --- Radioisotope Thermoelectric Generator
-Assembler.addRecipe(<IC2:blockGenerator:6>, <IC2:blockGenerator:5>, <IC2:blockGenerator:8>, <liquid:molten.lead> * 576, 600, 128);
+Assembler.addRecipe(<IC2:blockGenerator:6>, <IC2:blockGenerator:5>, <IC2:blockGenerator:8>, <liquid:molten.lead> * 576, 600, 120);
 
 // --- LV Transformer
-Assembler.addRecipe(<IC2:blockElectric:3>, <gregtech:gt.blockmachines:21>, <gregtech:gt.blockmachines:1246> * 2, 300, 32);
+Assembler.addRecipe(<IC2:blockElectric:3>, <gregtech:gt.blockmachines:21>, <gregtech:gt.blockmachines:1246> * 2, 300, 30);
 
 // --- MV Transformer
-Assembler.addRecipe(<IC2:blockElectric:4>, <gregtech:gt.blockmachines:22>, <gregtech:gt.blockmachines:1367> * 2, 250, 128);
+Assembler.addRecipe(<IC2:blockElectric:4>, <gregtech:gt.blockmachines:22>, <gregtech:gt.blockmachines:1367> * 2, 250, 120);
 
 // --- HV Transformer
-Assembler.addRecipe(<IC2:blockElectric:5>, <gregtech:gt.blockmachines:23>, <gregtech:gt.blockmachines:1428> * 2, 200, 512);
+Assembler.addRecipe(<IC2:blockElectric:5>, <gregtech:gt.blockmachines:23>, <gregtech:gt.blockmachines:1428> * 2, 200, 480);
 
 // --- EV Transformer
 Assembler.addRecipe(<IC2:blockElectric:6>, <gregtech:gt.blockmachines:24>, <gregtech:gt.blockmachines:1529> * 2, 100, 2048);
 
 // --- Coil
-Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, 200, 32);
+Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, 200, 30);
 
 // --- Coal Chunk
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
@@ -1443,13 +1443,13 @@ Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gr
 Assembler.addRecipe(<IC2:blockScaffold>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:17809>, 200, 16);
 
 // --- Iron Scaffold
-Assembler.addRecipe(<IC2:blockIronScaffold>, <gregtech:gt.blockmachines:4128>, <Railcraft:part.plate>, 300, 32);
+Assembler.addRecipe(<IC2:blockIronScaffold>, <gregtech:gt.blockmachines:4128>, <Railcraft:part.plate>, 300, 30);
 
 // --- Rubber Boat
-Assembler.addRecipe(<IC2:itemBoat:1>, <IC2:itemBoat:2>, <gregtech:gt.metaitem.01:17880>, 20, 32);
+Assembler.addRecipe(<IC2:itemBoat:1>, <IC2:itemBoat:2>, <gregtech:gt.metaitem.01:17880>, 20, 30);
 
 // --- Weeding Trowel
-Assembler.addRecipe(<IC2:itemWeedingTrowel>, <gregtech:gt.metaitem.01:23305> * 5, <gregtech:gt.integrated_circuit:5> * 0, <liquid:molten.rubber> * 288, 400, 32);
+Assembler.addRecipe(<IC2:itemWeedingTrowel>, <gregtech:gt.metaitem.01:23305> * 5, <gregtech:gt.integrated_circuit:5> * 0, <liquid:molten.rubber> * 288, 400, 30);
 
 // --- Cropnalyzer
 Assembler.addRecipe(<IC2:itemCropnalyzer>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuitAdv>, <liquid:molten.redstone> * 576, 1200, 16);
@@ -1470,7 +1470,7 @@ Assembler.addRecipe(<IC2:reactorMOXDual>, <IC2:reactorMOXSimple> * 2, <gregtech:
 Assembler.addRecipe(<IC2:reactorMOXQuad>, <IC2:reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- Reinforced Door
-Assembler.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 32);
+Assembler.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 30);
 
 // --- Dynamit-o-mote
 Assembler.addRecipe(<IC2:itemRemote>, <IC2:itemFreq>, <IC2:upgradeModule>, 1200, 4);
@@ -1482,7 +1482,7 @@ Assembler.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmac
 Assembler.addRecipe(<IC2:upgradeModule>, <IC2:itemPartCircuit>, <IC2:reactorCoolantTriple>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Transformer Upgrade
-Assembler.addRecipe(<IC2:upgradeModule:1>, <IC2:itemPartCircuit>, <IC2:itemRecipePart> * 2, <liquid:molten.gold> * 288, 1200, 32);
+Assembler.addRecipe(<IC2:upgradeModule:1>, <IC2:itemPartCircuit>, <IC2:itemRecipePart> * 2, <liquid:molten.gold> * 288, 1200, 30);
 
 // --- Energy Storage Upgrade
 Assembler.addRecipe(<IC2:upgradeModule:2>, <IC2:itemPartCircuit>, <IC2:itemBatREDischarged>, <liquid:molten.copper> * 144, 1200, 16);
@@ -1500,29 +1500,29 @@ Assembler.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <gregtech:gt.m
 Assembler.addRecipe(<IC2:upgradeModule:6>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32630>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Scuba Helmet
-Assembler.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <dreamcraft:item.ReinforcedGlassLense> * 2, <liquid:glue> * 144, 500, 32);
+Assembler.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <dreamcraft:item.ReinforcedGlassLense> * 2, <liquid:glue> * 144, 500, 30);
 
 // --- Hazmat Suit
-Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:glue> * 144, 500, 32);
+Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:glue> * 144, 500, 30);
 
 // --- Hazmat Suit Leggings
-Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 32);
+Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 30);
 
 // --- 10k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSimple>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 32);
+Assembler.addRecipe(<IC2:reactorCoolantSimple>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 30);
 
 // --- 30k Coolant Cell
 Assembler.addRecipe(<IC2:reactorCoolantTriple>, <IC2:reactorCoolantSimple> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:ic2coolant> * 1000, 300, 64);
 
 // --- 60k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSix>, <IC2:reactorCoolantTriple> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:ic2coolant> * 1000, 400, 128);
+Assembler.addRecipe(<IC2:reactorCoolantSix>, <IC2:reactorCoolantTriple> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:ic2coolant> * 1000, 400, 120);
 
 // --- Solar Helmet
-Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 32);
+Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 30);
 // -
-Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.tin> * 144, 600, 32);
+Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.tin> * 144, 600, 30);
 // -
-Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.solderingalloy> * 72, 600, 32);
+Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.solderingalloy> * 72, 600, 30);
 
 // --- Nano Suit Boots
 Assembler.addRecipe(<IC2:itemArmorNanoBoots:27>, <dreamcraft:item.CarbonPartBoots>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 256);
@@ -1558,7 +1558,7 @@ Assembler.addRecipe(<IC2:itemToolbox>, <minecraft:chest>, <IC2:itemCasing:2> * 5
 Assembler.addRecipe(<IC2:itemMOX>, <IC2:itemUran238> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 400, 256);
 
 // --- Enriched Uranium Nuclear Fuel
-Assembler.addRecipe(<IC2:itemUran>, <IC2:itemUran238> * 6, <IC2:itemUran235small> * 3, <liquid:ic2coolant> * 1000, 400, 128);
+Assembler.addRecipe(<IC2:itemUran>, <IC2:itemUran238> * 6, <IC2:itemUran235small> * 3, <liquid:ic2coolant> * 1000, 400, 120);
 
 // --- Reactor Pressure Vessel
 Assembler.addRecipe(<IC2:blockreactorvessel>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17089> * 2, 200, 128);
@@ -1573,7 +1573,7 @@ Assembler.addRecipe(<IC2:blockReactorAccessHatch>, <IC2:blockreactorvessel>, <gr
 Assembler.addRecipe(<IC2:blockReactorRedstonePort>, <IC2:blockreactorvessel>, <gregtech:gt.metaitem.01:32731>, 400, 256);
 
 // --- Luminator
-Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087>, <gregtech:gt.blockmachines:1360> * 8, <liquid:molten.glass> * 8000, 600, 32);
+Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087>, <gregtech:gt.blockmachines:1360> * 8, <liquid:molten.glass> * 8000, 600, 30);
 // -
 Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:30004>, <gregtech:gt.blockmachines:1360> * 16, <liquid:molten.glass> * 8000, 400, 64);
 
@@ -1584,10 +1584,10 @@ Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:3000
 
 
 // --- Coal Chunk
-BlastFurnace.addRecipe(<IC2:itemPartCoalChunk>, null, null, <dreamcraft:item.BioChunk>, null, 1200, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000); 
 
 // --- Carbon Plate
-BlastFurnace.addRecipe(<IC2:itemPartCarbonPlate>, null, null, <dreamcraft:item.BioCarbonPlate>, null, 600, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000); 
 
 
 
@@ -1596,13 +1596,13 @@ BlastFurnace.addRecipe(<IC2:itemPartCarbonPlate>, null, null, <dreamcraft:item.B
 
 
 // --- Uranium Fuel Rod
-Canner.addRecipe(<IC2:reactorUraniumSimple>, <IC2:itemFuelRod>, <IC2:itemUran>, 200, 40);
+Canner.addRecipe(<IC2:reactorUraniumSimple>, <IC2:itemUran>, <IC2:itemFuelRod>, 200, 40);
 
 // --- MOX Fuel Rod
-Canner.addRecipe(<IC2:reactorMOXSimple>, <IC2:itemFuelRod>, <IC2:itemMOX>, 200, 40);
+Canner.addRecipe(<IC2:reactorMOXSimple>, <IC2:itemMOX>, <IC2:itemFuelRod>, 200, 40);
 
 // --- Thorium Fuel Rod
-Canner.addRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096>, 200, 40);
+Canner.addRecipe(<gregtech:gt.Thoriumcell>, <gregtech:gt.metaitem.01:2096>, <IC2:itemFuelRod>, 200, 40);
 
 
 
@@ -1611,52 +1611,52 @@ Canner.addRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.meta
 
 
 // --- Black Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterBlack>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterBlack>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblack> * 144, [10000], 200, 2);
 
 // --- Red Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterRed>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterRed>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyered> * 144, [10000], 200, 2);
 
 // --- Green Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterGreen>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterGreen>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegreen> * 144, [10000], 200, 2);
 
 // --- Brown Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterBrown>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterBrown>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyebrown> * 144, [10000], 200, 2);
 
 // --- Blue Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterBlue>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterBlue>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeblue> * 144, [10000], 200, 2);
 
 // --- Purple Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterPurple>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterPurple>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepurple> * 144, [10000], 200, 2);
 
 // --- Cyan Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterCyan>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterCyan>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyecyan> * 144, [10000], 200, 2);
 
 // --- Light Grey Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterLightGrey>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterLightGrey>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightgray> * 144, [10000], 200, 2);
 
 // --- Dark Grey Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterDarkGrey>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterDarkGrey>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyegray> * 144, [10000], 200, 2);
 
 // --- Pink Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterPink>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterPink>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyepink> * 144, [10000], 200, 2);
 
 // --- Lime Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterLime>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterLime>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelime> * 144, [10000], 200, 2);
 
 // --- Yellow Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterYellow>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterYellow>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeyellow> * 144, [10000], 200, 2);
 
 // --- Light Blue Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterCloud>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterCloud>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyelightblue> * 144, [10000], 200, 2);
 
 // --- Magenta Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterMagenta>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterMagenta>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyemagenta> * 144, [10000], 200, 2);
 
 // --- Orange Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterOrange>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterOrange>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyeorange> * 144, [10000], 200, 2);
 
 // --- White Painter
-ChemicalBath.addRecipe(<IC2:itemToolPainterWhite>, null, null, <IC2:itemToolPainter>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 2);
+ChemicalBath.addRecipe([<IC2:itemToolPainterWhite>], <IC2:itemToolPainter>, <liquid:dye.watermixed.dyewhite> * 144, [10000], 200, 2);
 
 
 
@@ -1708,13 +1708,13 @@ Distillery.addRecipe(<liquid:ic2biogas> * 250, <gregtech:gt.integrated_circuit:4
 
 
 // --- Carbon Boat
-Extruder.addRecipe(<IC2:itemBoat>, <IC2:itemPartCarbonMesh> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 320, 128);
+Extruder.addRecipe(<IC2:itemBoat>, <IC2:itemPartCarbonMesh> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 320, 120);
 
 // --- Rubber Boat
-Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 160, 32);
+Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 160, 30);
 
 // --- Electric Boat Hull
-Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 640, 128);
+Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 640, 120);
 
 
 
@@ -1753,16 +1753,16 @@ PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> *
 
 
 // --- Dynamite
-Mixer.addRecipe(<IC2:itemDynamite> * 2, null, <minecraft:sand>, <minecraft:gunpowder>, <gregtech:gt.metaitem.01:2802>, <minecraft:string>, null, 60, 8);
+Mixer.addRecipe(<IC2:itemDynamite> * 2, [<minecraft:sand>, <minecraft:gunpowder>, <gregtech:gt.metaitem.01:2802>, <minecraft:string>], 60, 8);
 
 // --- Coal Ball
-Mixer.addRecipe(<IC2:itemPartCoalBall>, null, <IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>, null, null, null, 100, 16);
+Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>], 100, 16);
 
 // --- CF Powder
-Mixer.addRecipe(<IC2:itemPartCFPowder>, null, <gregtech:gt.metaitem.01:2299> * 6, <gregtech:gt.metaitem.01:2805>, <minecraft:sand> * 2, null, null, 20, 4);
+Mixer.addRecipe(<IC2:itemPartCFPowder>, [<gregtech:gt.metaitem.01:2299> * 6, <gregtech:gt.metaitem.01:2805>, <minecraft:sand> * 2], 20, 4);
 
 // --- Construction Foam
-Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, <IC2:itemPartCFPowder>, null, null, null, <liquid:water> * 1000, 200, 16);
+Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, [<IC2:itemPartCFPowder>], <liquid:water> * 1000, 200, 16);
 
 
 
@@ -1773,7 +1773,7 @@ Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, <IC2:itemPartCFPowder
 
 
 // --- Static Boots
-Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 32);
+Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 30);
 
 
 

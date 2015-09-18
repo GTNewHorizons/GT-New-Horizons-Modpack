@@ -1785,11 +1785,11 @@ Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <R
 Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
 
 // --- Electric Shunting Wire ---
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 2, <gregtech:gt.blockmachines:1220> * 2, <liquid:molten.tin>  * 16, 200, 128);
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 2, <gregtech:gt.blockmachines:1220> * 2, <liquid:molten.tin>  * 16, 200, 120);
 //-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.lead>  * 32, 200, 128);
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.lead>  * 32, 200, 120);
 //-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.solderingalloy>  * 8, 200, 128);
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.solderingalloy>  * 8, 200, 120);
 
 // --- Void Chest ---
 Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, ObsidianPlate * 4, 300, 16);
@@ -1828,13 +1828,13 @@ Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.spee
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, <gregtech:gt.metaitem.02:20028> * 2, 800, 64);
 
 // --- Electric Switch Track ---
-Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:23035> * 4, 800, 32);
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:23035> * 4, 800, 30);
 
 // --- Electric Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:20035> * 2, 800, 32);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:20035> * 2, 800, 30);
 
 // --- Electric Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 32);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 30);
 
 
 

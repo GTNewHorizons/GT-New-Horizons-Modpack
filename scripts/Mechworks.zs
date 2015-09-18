@@ -58,7 +58,7 @@ recipes.addShaped(<TMechworks:RedstoneMachine:1>, [
 
 
 // --- Advances Drawbridge
-Assembler.addRecipe(<TMechworks:RedstoneMachine:2>, <TMechworks:RedstoneMachine>, <gregtech:gt.blockmachines:9241>, <liquid:molten.redstone> * 576, 600, 32);
+Assembler.addRecipe(<TMechworks:RedstoneMachine:2>, <TMechworks:RedstoneMachine>, <gregtech:gt.blockmachines:9241>, <liquid:molten.redstone> * 576, 600, 30);
 
 // --- Extended Drawbridge
 Assembler.addRecipe(<TMechworks:RedstoneMachine:3>, <TMechworks:RedstoneMachine:2>, <gregtech:gt.metaitem.01:17033> * 6, <liquid:molten.redstone> * 1152, 1200, 64);
@@ -75,10 +75,10 @@ Assembler.addRecipe(<TMechworks:SpoolWire:64>, <TMechworks:LengthWire> * 64,<TMe
 Assembler.addRecipe(<TMechworks:SpoolWire>, <TMechworks:LengthWire> * 64,<TMechworks:SpoolWire:64>, 1280, 16);
 
 // --- Signal Bus
-Assembler.addRecipe(<TMechworks:SignalBus>, <TMechworks:LengthWire> * 3, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 432, 200, 32);
+Assembler.addRecipe(<TMechworks:SignalBus>, <TMechworks:LengthWire> * 3, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 432, 200, 30);
 
 // --- Signal Terminal
-Assembler.addRecipe(<TMechworks:SignalTerminal>, <TMechworks:SignalBus> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.glass> * 288, 300, 32);
+Assembler.addRecipe(<TMechworks:SignalTerminal>, <TMechworks:SignalBus> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.glass> * 288, 300, 30);
 
 
 

@@ -5,6 +5,7 @@
 
 
 import mods.gregtech.Assembler;
+
 import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
@@ -347,16 +348,16 @@ oreDict.oreRedstone.add(<GalaxySpace:venusredstone>);
 
 
 // --- Sulfur Battery
-Assembler.addRecipe(<GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:item.battery:*>, <gregtech:gt.integrated_circuit:1>, <liquid:sulfuricacid> * 1000, 100, 128);
+Assembler.addRecipe(<GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:item.battery:*>, <gregtech:gt.integrated_circuit:1>, <liquid:sulfuricacid> * 1000, 100, 120);
 
 // --- Nickel Battery
-Assembler.addRecipe(<GalaxySpace:item.NickelBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.NickelComIngot>, <liquid:molten.glowstone> * 288, 200, 128);
+Assembler.addRecipe(<GalaxySpace:item.NickelBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.SulfurBattery:100>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.NickelComIngot>, <liquid:molten.glowstone> * 288, 200, 120);
 
 // --- Compressed Icy Ingot (Plate T 4)
-Assembler.addRecipe(<GalaxySpace:item.ComIceIgnot> * 2, <dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.CallistoIceCompressedPlate>, <liquid:ic2coolant> * 1000, 600, 512);
+Assembler.addRecipe(<GalaxySpace:item.ComIceIgnot> * 2, <dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.CallistoIceCompressedPlate>, <liquid:ic2coolant> * 1000, 600, 480);
 
 // --- Advanced Canister
-Assembler.addRecipe(<GalaxySpace:item.MethaneCanister:1001>, <GalacticraftMars:item.itemBasicAsteroids:6> * 4, <gregtech:gt.metaitem.01:28884> * 4, 200, 128);
+Assembler.addRecipe(<GalaxySpace:item.MethaneCanister:1001>, <GalacticraftMars:item.itemBasicAsteroids:6> * 4, <gregtech:gt.metaitem.01:28884> * 4, 200, 120);
 
 
 

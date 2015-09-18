@@ -82,12 +82,10 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
 
 
 
-
-
 // --- Molecular Transformer
-recipes.addShaped(<AdvancedSolarPanel:BlockMolecularTransformer>, [
+mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransformer>, [
 [<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>],
-[<ore:circuitAdvanced>, <ore:craftingMTCore>, <ore:circuitAdvanced>],
+[<IC2:itemPartCircuitAdv>, <AdvancedSolarPanel:asp_crafting_items:12>, <IC2:itemPartCircuitAdv>],
 [<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>]]);
 
 // --- MT Core fore Molecular Transformer

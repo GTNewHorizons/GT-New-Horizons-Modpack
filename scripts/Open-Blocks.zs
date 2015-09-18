@@ -7,6 +7,7 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.ChemicalBath;
 import mods.gregtech.ChemicalReactor;
+
 import mods.gregtech.Mixer;
 
 
@@ -225,7 +226,6 @@ recipes.removeShaped(<OpenBlocks:goldenEye:*>);
 
 
 
-
 // --- Adding Back Recipes ---
 
 
@@ -406,16 +406,16 @@ recipes.addShaped(<OpenBlocks:sonicglasses>, [
 Assembler.addRecipe(<OpenBlocks:ropeladder>, <minecraft:string> * 64, <gregtech:gt.metaitem.02:22809> * 16, 400, 8);
 
 // --- Jaded Ladder
-Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder>, 200, 32);
+Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder>, 200, 30);
 
 // --- Inverted Sky Block
 Assembler.addRecipe(<OpenBlocks:sky:1>, <OpenBlocks:sky>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.redstone> * 144, 200, 16);
 
 // --- Paint Mixer
-Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 32);
+Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 30);
 
 // --- Xp Bottler
-Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <IC2:itemCasing:4> * 4, 600, 32);
+Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <IC2:itemCasing:4> * 4, 600, 30);
 
 // --- Unprepared Stencil
 Assembler.addRecipe(<OpenBlocks:generic:10>, <TConstruct:blankPattern>, <Railcraft:part.plate>, 200, 16);
@@ -427,34 +427,34 @@ Assembler.addRecipe(<OpenBlocks:generic:11>, <minecraft:stick>, <gregtech:gt.met
 Assembler.addRecipe(<OpenBlocks:imaginary>, <OpenBlocks:generic:11>, <gregtech:gt.metaitem.01:17533>, 100, 16);
 
 // --- Map Controller Module
-Assembler.addRecipe(<OpenBlocks:generic:6>, <OpenComputers:item:32>, <dreamcraft:item.SimpleCircuitBoard>, <liquid:molten.redstone> * 144, 300, 32);
+Assembler.addRecipe(<OpenBlocks:generic:6>, <OpenComputers:item:32>, <dreamcraft:item.SimpleCircuitBoard>, <liquid:molten.redstone> * 144, 300, 30);
 
 // --- Map Memory Module
-Assembler.addRecipe(<OpenBlocks:generic:7>, <OpenBlocks:generic:6>, <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.redstone> * 144, 400, 32);
+Assembler.addRecipe(<OpenBlocks:generic:7>, <OpenBlocks:generic:6>, <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.redstone> * 144, 400, 30);
 
 // --- Empty Map 1:1
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <OpenBlocks:generic:6>, <OpenBlocks:generic:7> * 4, 600, 32);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <OpenBlocks:generic:6>, <OpenBlocks:generic:7> * 4, 600, 30);
 
 // --- Empty Map 1:2
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.tin> * 144, 600, 32);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.tin> * 144, 600, 30);
 
 // --- Empty Map 1:4
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <IC2:itemPartCircuit> * 3, <liquid:molten.redstone> * 144, 800, 32);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <IC2:itemPartCircuit> * 3, <liquid:molten.redstone> * 144, 800, 30);
 
 // --- Empty Map 1:8
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <gregtech:gt.metaitem.01:32702> * 3, <liquid:molten.redalloy> * 144, 1000, 32);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <gregtech:gt.metaitem.01:32702> * 3, <liquid:molten.redalloy> * 144, 1000, 30);
 
 // --- Empty Map 1:16
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 4 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <IC2:itemPartCircuitAdv> * 3, <liquid:molten.glowstone> * 144, 1200, 32);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 4 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <IC2:itemPartCircuitAdv> * 3, <liquid:molten.glowstone> * 144, 1200, 30);
 
 // --- Catographer
-Assembler.addRecipe(<OpenBlocks:cartographer>, <OpenBlocks:generic:9>, <minecraft:ender_eye>, <liquid:ender> * 1000, 600, 128);
+Assembler.addRecipe(<OpenBlocks:cartographer>, <OpenBlocks:generic:9>, <minecraft:ender_eye>, <liquid:ender> * 1000, 600, 120);
 
 // --- Dev/Null
-Assembler.addRecipe(<OpenBlocks:devnull>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 32);
+Assembler.addRecipe(<OpenBlocks:devnull>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
 
 // --- Pedometer
-Assembler.addRecipe(<OpenBlocks:pedometer>, <minecraft:clock>, <IC2:itemPartCircuit> * 2, <liquid:molten.redstone> * 144, 200, 32);
+Assembler.addRecipe(<OpenBlocks:pedometer>, <minecraft:clock>, <IC2:itemPartCircuit> * 2, <liquid:molten.redstone> * 144, 200, 30);
 
 
 
@@ -464,151 +464,151 @@ Assembler.addRecipe(<OpenBlocks:pedometer>, <minecraft:clock>, <IC2:itemPartCirc
 
 
 // --- Black Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:15>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:15>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblack> * 144, [10000], 200, 20);
 
 // --- Red Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:14>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:14>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyered> * 144, [10000], 200, 20);
 
 // --- Green Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:13>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:13>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegreen> * 144, [10000], 200, 20);
 
 // --- Brown Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:12>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:12>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyebrown> * 144, [10000], 200, 20);
 
 // --- Blue Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:11>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:11>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeblue> * 144, [10000], 200, 20);
 
 // --- Purple Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:10>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:10>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepurple> * 144, [10000], 200, 20);
 
 // --- Cyan Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:9>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:9>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyecyan> * 144, [10000], 200, 20);
 
 // --- Light Grey Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:8>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:8>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightgray> * 144, [10000], 200, 20);
 
 // --- Dark Grey Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:7>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:7>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyegray> * 144, [10000], 200, 20);
 
 // --- Pink Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:6>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:6>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyepink> * 144, [10000], 200, 20);
 
 // --- Lime Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:5>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:5>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelime> * 144, [10000], 200, 20);
 
 // --- Yellow Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:4>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:4>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeyellow> * 144, [10000], 200, 20);
 
 // --- Light Blue Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:3>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:3>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyelightblue> * 144, [10000], 200, 20);
 
 // --- Magenta Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:2>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:2>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyemagenta> * 144, [10000], 200, 20);
 
 // --- Orange Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator:1>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator:1>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyeorange> * 144, [10000], 200, 20);
 
 // --- White Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator>, null, null, <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator>], <OpenBlocks:elevator:*>, <liquid:dye.watermixed.dyewhite> * 144, [10000], 200, 20);
 
 // --- Black Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:15>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:15>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeblack> * 144, [10000], 200, 20);
 
 // --- Red Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:14>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:14>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyered> * 144, [10000], 200, 20);
 
 // --- Green Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:13>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:13>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyegreen> * 144, [10000], 200, 20);
 
 // --- Brown Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:12>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:12>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyebrown> * 144, [10000], 200, 20);
 
 // --- Blue Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:11>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:11>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeblue> * 144, [10000], 200, 20);
 
 // --- Purple Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:10>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:10>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyepurple> * 144, [10000], 200, 20);
 
 // --- Cyan Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:9>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:9>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyecyan> * 144, [10000], 200, 20);
 
 // --- Light Grey Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:8>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:8>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelightgray> * 144, [10000], 200, 20);
 
 // --- Dark Grey Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:7>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:7>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyegray> * 144, [10000], 200, 20);
 
 // --- Pink Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:6>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:6>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyepink> * 144, [10000], 200, 20);
 
 // --- Lime Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:5>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:5>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelime> * 144, [10000], 200, 20);
 
 // --- Yellow Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:4>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:4>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeyellow> * 144, [10000], 200, 20);
 
 // --- Light Blue Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:3>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:3>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyelightblue> * 144, [10000], 200, 20);
 
 // --- Magenta Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:2>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:2>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyemagenta> * 144, [10000], 200, 20);
 
 // --- Orange Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating:1>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating:1>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyeorange> * 144, [10000], 200, 20);
 
 // --- White Rotating Elevator
-ChemicalBath.addRecipe(<OpenBlocks:elevator_rotating>, null, null, <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:elevator_rotating>], <OpenBlocks:elevator_rotating:*>, <liquid:dye.watermixed.dyewhite> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Black
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 1973019}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeblack> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 1973019})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeblack> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Red
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 11743532}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyered> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 11743532})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyered> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Green
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 3887386}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyegreen> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 3887386})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyegreen> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Brown
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 5320730}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyebrown> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 5320730})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyebrown> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Blue
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 2437522}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 2437522})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeblue> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Purple
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 8073150}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyepurple> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 8073150})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyepurple> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Cyan
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 2651799}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyecyan> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 2651799})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyecyan> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Light Grey
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 11250603}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelightgray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 11250603})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelightgray> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Dark Grey
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 4408131}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyegray> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 4408131})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyegray> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Pink
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 14188952}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyepink> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 14188952})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyepink> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Lime
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 4312372}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelime> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 4312372})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelime> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Yellow
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 14602026}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeyellow> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 14602026})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeyellow> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Light Blue
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 6719955}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelightblue> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 6719955})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyelightblue> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Magenta
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 12801229}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyemagenta> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 12801229})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyemagenta> * 144, [10000], 200, 20);
 
 // --- Magical Crayon Orange
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 15435844}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeorange> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 15435844})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyeorange> * 144, [10000], 200, 20);
 
 // --- Magical Crayon White
-ChemicalBath.addRecipe(<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 15790320}), null, null, <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyewhite> * 144, 10000, 0, 0, 200, 20);
+ChemicalBath.addRecipe([<OpenBlocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 15790320})], <OpenBlocks:imaginary>, <liquid:dye.watermixed.dyewhite> * 144, [10000], 200, 20);
 
 // --- Golden Eye
-ChemicalBath.addRecipe(<OpenBlocks:goldenEye:100>, null, null, <minecraft:ender_eye>, <liquid:molten.gold> * 144, 10000, 0, 0, 600, 16);
+ChemicalBath.addRecipe([<OpenBlocks:goldenEye:100>], <minecraft:ender_eye>, <liquid:molten.gold> * 144, [10000], 200, 20);
 
 
 
@@ -628,7 +628,7 @@ ChemicalReactor.addRecipe(<OpenBlocks:sponge>, null, <minecraft:wool>, <minecraf
 
 
 // --- Tasty Clay
-Mixer.addRecipe(<OpenBlocks:tastyClay>, null, <minecraft:clay_ball>, <minecraft:dye:3>, null, null, <liquid:milk> * 500, 100, 8);
+Mixer.addRecipe(<OpenBlocks:tastyClay>, null, [<minecraft:clay_ball>, <minecraft:dye:3>], <liquid:milk> * 500, 100, 8);
 
 
 
