@@ -100,7 +100,7 @@ public enum ItemList {
 	NanoCircuit(new ModSimpleBaseItem("NanoCircuit",  ModTabList.ModCircuitsTab)),
 	ManyullynCrystal(new ModSimpleBaseItem("ManyullynCrystal", ModTabList.ModCircuitsTab)),
 	EngravedManyullynCrystalChip(new ModSimpleBaseItem("EngravedManyullynCrystalChip", ModTabList.ModCircuitsTab)),
-	MeteoricSteelString(new ModSimpleBaseItem("MeteoricSteelString",  ModTabList.ModGenericTab)),
+	MeteoricIronString(new ModSimpleBaseItem("MeteoricIronString",  ModTabList.ModGenericTab)),
 
 	MoldChestplate(new ModSimpleBaseItem("MoldChestplate", ModTabList.ModMoldsTab)),
 	MoldHelmet(new ModSimpleBaseItem("MoldHelmet",  ModTabList.ModMoldsTab)),
