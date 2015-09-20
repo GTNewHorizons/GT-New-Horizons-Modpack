@@ -19,4 +19,10 @@
     <Item UnlocalizedName="item.BedrockiumPlate" ExactNameMatch="true">
         <PotionEffect PotionID="2" TickDuration="200" Level="4"/>
     </Item>
-</HazardousItemList>
+    <Item UnlocalizedName="item.capsule.magic" ExactNameMatch="true">
+        <DamageEffect Source="onFire" Amount="1.0"/>
+    </Item>
+	<Item UnlocalizedName="tile.lava" ExactNameMatch="true">
+        <DamageEffect Source="onFire" Amount="1.0"/>
+    </Item>
+	</HazardousItemList>

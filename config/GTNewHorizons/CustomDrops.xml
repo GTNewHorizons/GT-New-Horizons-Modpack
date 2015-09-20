@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomDrops>
+	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFLich">
+        <Drop Identifier="sample_Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" Chance="100" LimitedDropCount="10" RandomAmount="true"/>
+    </CustomDrop>
+	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFSnowQueen">
+		<Drop Identifier="sample_Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" Chance="100" LimitedDropCount="10" RandomAmount="true"/>	
+    </CustomDrop>
+</CustomDrops>

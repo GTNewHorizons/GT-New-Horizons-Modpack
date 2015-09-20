@@ -318,7 +318,7 @@ powerDistributor {
 serverRack {
   input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
           ["ic2.reactorVentDiamond", chest, "ic2.reactorVentDiamond"]
-          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   # 32731 = Activity Detector
@@ -326,7 +326,7 @@ redstone {
           [{item="gt.metaitem.01", subID=32731}, {block="gt.blockcasings", subID=2}, "oc:redstoneCard1"]
           ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
 }
-switch {
+relay {
   input: [["", "oc:lanCard", ""]
           ["oc:cable", {block="gt.blockcasings", subID=2}, "oc:cable"]
           ["oc:materialCircuitBoardPrinted", craftingToolWrench, "oc:materialCircuitBoardPrinted"]]

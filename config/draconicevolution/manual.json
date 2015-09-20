@@ -226,6 +226,33 @@
     ]
   },
   {
+    "name":"tile.draconicevolution:infusedObsidian",
+    "images":[],
+    "content":
+    [
+      "You have discovered that by combining one of the strongest blocks in existence with the power of draconium, You can create a block that mo creature can destroy.",
+      "This block has twice the explosion and mining resistance of Obsidian. It also requires a stronger pickaxe.",
+      "",
+      "You wonder what other uses this block could have...",
+      "[c]tile.draconicevolution:infusedObsidian:0"
+    ]
+  },
+  {
+    "name":"tile.draconicevolution:dislocatorReceptacle",
+    "nameL":"Draconic Portal",
+    "images":["http://i.imgur.com/hTLS3UK.png"],
+    "content":
+    [
+      "Like Obsidian Infused Obsidian can be used to create a magical portal, but with some big differences. This portal can be any size between 1x1 and 150x150 blocks and using a dislocator to set the destination this portal can send you to any location.",
+      "To build a portal build a rectangular structure similar to a nether portal but any dimensions you like up to 150x150. Then replace any of the structural blocks (Excluding the corners) with a Dislocator Receptacle.",
+      "To activate the portal simply right click the receptacle with a basic or advanced Charm of Dislocation (must be bound to a location)",
+      "You can also pipe dislocators in and out of the receptacle with hoppers or other automation methods.",
+      "The portal cam be horizontal or vertical.",
+      "http://i.imgur.com/hTLS3UK.png",
+      "[c]tile.draconicevolution:dislocatorReceptacle:0"
+    ]
+  },
+  {
     "name":"tile.draconicevolution:draconium",
     "nameL":"Resurrection Stone",
     "meta":1,
@@ -243,7 +270,7 @@
     [
       "Perhaps not your brightest idea... You found a way to travel even longer distances using ender perls by strapping them to the end of a arrow.",
       "This of course makes the arrow a lot heavier. Too heavy for a regular for a regular bow. Leaving you no choice but to use ether a wyvern or draconic bow.",
-      "So what could go wrong you ask? Well as im sure you are aware ender perls on their own are a rather painful way to travel. Now add the power of a wayvern or worse a draconic bow to that and you have a recipe for extreme pain.",
+      "So what could go wrong you ask? Well as im sure you are aware ender perls on their own are a rather painful way to travel. Now add the power of a wyvern or worse a draconic bow to that and you have a recipe for extreme pain.",
       "Be sure to wear your best fall protection. And just hope its enough",
       "[c]item.draconicevolution:enderArrow.name:0"
     ]
@@ -509,6 +536,19 @@
     ]
   },
   {
+    "name":"tile.draconicevolution:flowGate",
+    "nameL":"Flow Gates",
+    "images":[],
+    "content":
+    [
+      "Gates come in two different flavours flux and fluid. And what they do is simply allow you to control the maximum amount of Redstone Flux or Fluid that can pass through them each tick",
+      "These devices are very simple to use. They have an input face (blue) and an output face (orange). When you place them the input face will always point towards you similar to the way you place a piston. You can also rotate them with a wrench",
+      "The GUI is very simple with just 2 values for you to adjust. \"Redstone Signal High\" is the flow when a redstone signal of 15 is applied. \"Redstone Signal Low\" is the flow when a no redstone signal is applied. You can apply a partial signal to vary the actual flow rate between these two numbers. The \"Flow\" indicator at the bottom shows how much energy/fluid is currently able to flow through the device as determined by the received redstone signal.",
+      "[c]tile.draconicevolution:flowGate:0",
+      "[c]tile.draconicevolution:flowGate:6"
+    ]
+  },
+  {
     "name":"tile.draconicevolution:dissEnchanter",
     "images":[],
     "content":
@@ -734,7 +774,7 @@
       "http://i.imgur.com/x4IxV9F.png",
       "http://i.imgur.com/4FxoUvf.png",
       "http://i.imgur.com/IagzpKW.png",
-      "http://i.imgur.com/TvL8TVG.png",
+      "http://i.imgur.com/1S6h9Po.png",
       "http://i.imgur.com/MTmGhLv.png",
       "http://i.imgur.com/crmnC6v.png",
       "http://i.imgur.com/eH3OvhW.png",
@@ -763,7 +803,7 @@
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/x4IxV9F.png[>]http://i.imgur.com/4FxoUvf.png",
       "Redstone x26\nDraconium x54\nCapacity = 9.88Billion RF",
       "§4Tier 5",
-      "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/TvL8TVG.png[>]http://i.imgur.com/MTmGhLv.png",
+      "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/1S6h9Po.png[>]http://i.imgur.com/MTmGhLv.png",
       "Redstone x80\nDraconium x98\nCapacity = 59.3Billion RF",
       "§4Tier 6",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/crmnC6v.png[>]http://i.imgur.com/eH3OvhW.png[>]http://i.imgur.com/oEBI4lj.png",

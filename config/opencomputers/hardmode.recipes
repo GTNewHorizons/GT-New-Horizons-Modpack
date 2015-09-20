@@ -190,10 +190,6 @@ nuggetIron {
 cuttingWire {
   input: [[stickWood, nuggetIron, stickWood]]
 }
-acid {
-  type: shapeless
-  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
-}
 disk {
   input: [["", nuggetIron, ""]
           [nuggetIron, "", nuggetIron]
@@ -363,14 +359,14 @@ powerDistributor {
 serverRack {
   input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
           [fenceIron, chest, fenceIron]
-          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   input: [[ingotIron, "oc:circuitChip3", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-switch {
+relay {
   input: [[ingotIron, "oc:cable", ingotIron]
           ["oc:cable", "oc:lanCard", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]

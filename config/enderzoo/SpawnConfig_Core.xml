@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+Specifies the spawning behavior of Ender Zoo mobs. 
+These settings can be modified, and changes can be made to non Ender Zoo mobs in the SpawnConfig_User.xml file.
+This file will be replaced each time Ender Zoo is loaded and is only placed in the config dir as a guide to creating
+entries in the user file.
+
+Note that all entries are applied in order. This allows, for example, for existing slime spawns in swamps to be removed in one
+entry, and then in the following (using a different ID) they can be added back with different rates / group sizes. 
+
+The basic format for the file is as follows:
+<SpawnConfig>
+
+  <entry ...> 1..x
+    <biomeFilter ...> 0..x
+      <biome/> 1..x
+    </biomeFilter>
+    <dimensionExclude .../> 0..x
+  </entry>
+
+</SpawnConfig>
+
+entry attributes:
+- entry.id:
+  Used to uniquely identify the entry. If an entry with this id exists in the user file that entry will replace the one in
+  the core file.
+  
+- entry.mobName: The name used to register the mob with Minecraft. 
+
+- entry.creatureType: (Optional, default monster) The type of mob. Values must match the names in EnumCreatureType. Valid entries:
+                     monster, creature, ambient, waterCreature
+
+- entry.rate: The rate at which the entities are spawned, for example 10=Enderman spawn rate, 100=Zombie spawn rate
+
+- entry.minGroupSize: (Optional, default 1) the minimum number of mobs to be spawned per group 
+
+- entry.maxGroupSize: (Optional, default 3) the maximum number of mobs to be spawned per group
+
+- entry.remove: (Optional, default false) if true all all existing spawn entries matching this entry will be removed rather than added
+                in this case the rate is ignored, but must still be included cause I am lazy
+
+Each entry can include 0 or more biome filters.  To remove an entry from the core file via the user file create an entry with the
+same id and no biome filters.
+
+
+biomeFilter attributes:
+- type: The type of filter
+  'any': if a biome matches any of biome entries, and does not match any of the excluded entries, the mob will be able to spawn in that biome 
+  'all': if a biome matches all of biome entries, and does not match any of the excluded entries, the mob will be able to spawn in that biome
+
+
+Each filter must contain one or more biome entries
+
+ biome attributes:
+ - type: The name of the biome type. There can be many biomes registered for a specific type based on the mods installed
+         Any number of biome types can be listed for a filter
+         All valid biome types that are listed in BiomeDictionary.Type. The base types are:
+         MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY, WASTELAND, BEACH, MUSHROOM, OCEAN, RIVER, NETHER, END 
+          
+         The special name BASE_LAND_TYPES includes:
+         MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY, WASTELAND, BEACH
+         
+- name: The name of the biome. Must be exactly as registered.
+         
+- exclude: (Optional, default false) when set to false any biomes matching this type will be excluded. For example, if
+            FOREST is specified as a biome type, and CONIFEROUS is specified with the exclude set to true, then the mob will not
+            spawn in a forest with coniferous trees (e.g. spruce) will be excluded       
+            
+
+Each entry can include 0 or more dimension excludes. This will stop the mob spawning in the specified dimension/s.
+Dimension excludes can be defined in three ways: by name, by ID and by ID range            
+
+dimensionExclude attributes:
+- name: The name of the dimension, for example: "The End", "Nether", or "Overworld"                       
+         <dimensionExclude name="The End"/>
+- id: The ID of the dimension to be excluded         
+         <dimensionExclude id="1"/>
+- idStart: The minimum ID to be excluded
+- idEnd: The maximum ID to be excluded.           
+         <dimensionExclude idStart="2" idEnd="10"/>
+         In this example the mob will not spawn in any dimension with an ID between 2 and 10 inclusive   
+              
+ -->
+<SpawnConfig>
+
+  <entry id="ConcussionCreeper" mobName="enderzoo.ConcussionCreeper" creatureType="monster" rate="40"
+    minGroupSize="1" maxGroupSize="3" remove="false">
+    <biomeFilter type="any">
+      <biome type="BASE_LAND_TYPES" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+      <biome type="MUSHROOM" exclude="true" />
+    </biomeFilter>   
+    <dimensionExclude name="Twilight Forest"/>           
+    <dimensionExclude name="Dungeon"/>
+  </entry>
+
+  <entry id="EnderMiny" mobName="enderzoo.Enderminy" rate="30">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="JUNGLE" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+
+  <entry id="FallenKnight" mobName="enderzoo.FallenKnight" rate="30" minGroupSize="1" maxGroupSize="4">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+
+  <entry id="WitherWitch" mobName="enderzoo.WitherWitch" rate="5" minGroupSize="1" maxGroupSize="1">
+    <biomeFilter type="any">
+      <biome type="FOREST" />
+      <biome type="SWAMP" />
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="MOUNTAIN" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+  
+  <entry id="DireWolf" mobName="enderzoo.DireWolf" rate="30" minGroupSize="2" maxGroupSize="6">
+    <biomeFilter type="all">
+      <biome type="SNOWY" />
+      <biome type="CONIFEROUS" />      
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+  </entry>
+
+
+</SpawnConfig>

@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
+	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4BE CAREFULL THIS ITEM WILL KILL YOU!!!"/>
+	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4NOT SLEEPING ON SEVERS OVER LEVEL Y 128 OR YOU DIE"/>
+	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3NOW Quiet Expensive Device"/>
+	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Mining you rich!!!"/>
 </CustomToolTips>

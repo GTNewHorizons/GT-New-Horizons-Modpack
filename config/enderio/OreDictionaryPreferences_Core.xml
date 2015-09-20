@@ -25,6 +25,11 @@
 
 <OreDictionaryPreferences>
 
+  <!-- Vanilla -->
+  <preference oreDictionary="sand" >
+    <itemStack modID="minecraft" itemName="sand" itemMeta="0" />
+  </preference>
+
   <!-- Dusts -->
   <preference oreDictionary="dustCoal" >
     <itemStack modID="ThermalFoundation" itemName="material" itemMeta="2" />
