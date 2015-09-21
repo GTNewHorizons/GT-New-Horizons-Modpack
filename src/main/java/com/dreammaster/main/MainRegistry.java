@@ -22,7 +22,6 @@ import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
-import com.dreammaster.spacedim.SpaceDefinitions;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -104,15 +103,7 @@ public class MainRegistry {
 			Logger.warn("Some blocks failed to register. Check the logfile for details");
 		// ------------------------------------------------------------
 		
-        // ------------------------------------------------------------
-        Logger.info("PRELOAD Init SpaceDimension-Definiton");
-        SpaceDefinitions sdef = new SpaceDefinitions();
-        if (!sdef.Init())
-            Logger.error("SpaceDimension init failed");
-        else
-            sdef.Register();
-        // ------------------------------------------------------------
-		
+	
 		
 		// ------------------------------------------------------------
 		// Init Modules
@@ -121,28 +112,27 @@ public class MainRegistry {
 		{
 		    Logger.debug("Module_HazardousItems is enabled");
 			Module_HazardousItems = new HazardousItemsHandler();
-			Module_HazardousItems.LoadConfig();
+			//Module_HazardousItems.LoadConfig();
 		}
 		
 		if (CoreConfig.ModCustomToolTips_Enabled)
 		{
 		    Logger.debug("Module_HazardousItems is enabled");
 		    Module_CustomToolTips = new CustomToolTipsHandler();
-		    Module_CustomToolTips.LoadConfig();
+		    //Module_CustomToolTips.LoadConfig();
 		}
 
 		if (CoreConfig.ModCustomFuels_Enabled)
 		{
             Logger.debug("Module_CustomFuels is enabled");
             Module_CustomFuels = new CustomFuelsHandler();
-            Module_CustomFuels.LoadConfig();
+            //Module_CustomFuels.LoadConfig();
 		}
 		
 		if (CoreConfig.ModCustomDrops_Enabled)
 		{
             Logger.debug("Module_CustomDrops is enabled");
             Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
-            Module_CustomDrops.LoadConfig();
 		}
 		
 		// ------------------------------------------------------------
@@ -212,6 +202,18 @@ public class MainRegistry {
 	@EventHandler
 	public static void PostLoad(FMLPostInitializationEvent PostEvent) {
 
+		if (CoreConfig.ModHazardousItems_Enabled)
+			Module_HazardousItems.LoadConfig();
+		
+		if (CoreConfig.ModCustomToolTips_Enabled)
+			Module_CustomToolTips.LoadConfig();
+
+		if (CoreConfig.ModCustomFuels_Enabled)
+			Module_CustomFuels.LoadConfig();
+
+		if (CoreConfig.ModCustomDrops_Enabled)
+            Module_CustomDrops.LoadConfig();
+		
 		ItemPipes.registerPipes();
 	}
 	
