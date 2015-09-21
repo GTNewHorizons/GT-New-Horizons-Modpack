@@ -5,6 +5,7 @@ import java.util.Random;
 import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
+import com.dreammaster.baubles.WitherProtectionRing;
 import com.dreammaster.block.BlockList;
 import com.dreammaster.command.CustomDropsCommand;
 import com.dreammaster.command.CustomToolTipsCommand;
@@ -163,8 +164,10 @@ public class MainRegistry {
 	private static boolean RegisterNonEnumItems()
 	{
 		boolean tResult = true;
-		if (!(ItemManager.RegisterNonEnumItem(TabManager, OvenGlove.Instance("OvenGlove", ModTabList.ModGenericTab))))
-			tResult = false;
+        if (!(ItemManager.RegisterNonEnumItem(TabManager, OvenGlove.Instance("OvenGlove", ModTabList.ModGenericTab))))
+            tResult = false;
+        if (!(ItemManager.RegisterNonEnumItem(TabManager, WitherProtectionRing.Instance("WitherProtectionRing", ModTabList.ModGenericTab))))
+            tResult = false;
 		
 		return tResult;
 	}
