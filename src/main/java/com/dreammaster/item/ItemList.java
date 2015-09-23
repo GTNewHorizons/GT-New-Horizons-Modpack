@@ -7,6 +7,9 @@ import eu.usrv.yamcore.items.ModItemManager;
 import eu.usrv.yamcore.items.ModSimpleBaseItem;
 
 public enum ItemList {
+	TenKCell(new ModSimpleBaseItem("TenKCell", ModTabList.ModGenericTab)),
+	ThirtyKCell(new ModSimpleBaseItem("ThirtyKCell", ModTabList.ModGenericTab)),
+	SixtyKCell(new ModSimpleBaseItem("SixtyKCell", ModTabList.ModGenericTab)),
 	AluminiumItemCasing(new ModSimpleBaseItem("AluminiumItemCasing", ModTabList.ModGenericTab)),
 	AluminiumIronPlate(new ModSimpleBaseItem("AluminiumIronPlate", ModTabList.ModGenericTab)),
 	AdvancedCokeOvenBrick(new ModSimpleBaseItem("AdvancedCokeOvenBrick", ModTabList.ModGenericTab)),
