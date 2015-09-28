@@ -519,7 +519,7 @@ recipes.addShaped(<Forestry:factory:7>, [
 [<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32681>, <ore:gearGtSmallAluminium>]]);
 
 // --- Thermionic Fabricator
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 1000, [
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1000, [
 <gregtech:gt.metaitem.01:27305>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemRecipePart>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:27305>], 
@@ -543,7 +543,7 @@ recipes.addShaped(<Forestry:factory2:2>, [
 [<ore:screwIron>, <minecraft:chest>, <ore:screwIron>]]);
 
 // --- Escritoire
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<minecraft:planks:*>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:27305>,
 <minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>, <minecraft:wooden_slab:*>,
 <minecraft:fence>, null, <minecraft:fence>], 
@@ -601,7 +601,7 @@ recipes.addShaped(<Forestry:apiculture:2>, [
 [<ore:beeComb>, <ore:slabWood>, <ore:beeComb>]]);
 
 // --- Apiary
-mods.forestry.Carpenter.addRecipe(800, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<gregtech:gt.metaitem.01:27305>, <minecraft:wooden_slab:*>, <gregtech:gt.metaitem.01:27305>, 
 <Forestry:frameImpregnated>, <Forestry:beeCombs:*>, <Forestry:frameImpregnated>, 
 <minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
@@ -610,108 +610,108 @@ mods.forestry.Carpenter.addRecipe(800, <liquid:seedoil> * 1000,
 recipes.addShapeless(<Forestry:apiculture:2>, [<harvestcraft:apiary>]);
 
 // --- Apiarys Chest
-mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:apiculture:1>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:apiculture:1>);
 
 // --- Arborits Chest
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<minecraft:sapling:*>, <minecraft:sapling:*>, <minecraft:sapling:*>, 
 <Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<minecraft:sapling:*>, <minecraft:sapling:*>, <minecraft:sapling:*>, 
 <Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:arboriculture>);
 
 // --- Lepidopterists Chest
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<Forestry:butterflyGE:*>, <Forestry:butterflyGE:*>, <Forestry:butterflyGE:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:lepidopterology>);
 
 // --- Swarmer
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
 <Forestry:royalJelly>, <Forestry:frameProven>, <Forestry:royalJelly>, 
 <Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
 <Forestry:alveary>, <Forestry:alveary:2>);
 
 // --- Alveary Fan
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:11>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:11>, 
 <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.02:21300>, <dreamcraft:item.SteelBars>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:11>], 
 <Forestry:alveary>, <Forestry:alveary:3>);
 
 // --- Alveary Heater
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:7>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:7>, 
 <IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>, 
 <Forestry:thermionicTubes:7>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:7>], 
 <Forestry:alveary>, <Forestry:alveary:4>);
 
 // --- Alveary Hygroregulator
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:32702>, <Forestry:thermionicTubes:6>, 
 <BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>, 
 <Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>], 
 <Forestry:alveary>, <Forestry:alveary:5>);
 
 // --- Alveary Stabiliser
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>, 
 <gregtech:gt.metaitem.01:32729>, <Forestry:beealyzer>, <gregtech:gt.metaitem.01:32729>, 
 <Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>], 
 <Forestry:alveary>, <Forestry:alveary:6>);
 
 // --- Alveary Sieve
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
 [<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>, 
 <Forestry:craftingMaterial:3>, <Forestry:pollenFertile:*>, <Forestry:craftingMaterial:3>, 
 <Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>], 
 <Forestry:alveary>, <Forestry:alveary:7>);
 
 // --- Beealyzer
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:1>, <IC2:itemPartCircuit>, <IC2:itemCasing:1>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:beealyzer>);
 
 // --- Treealyzer
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing>, <IC2:itemPartCircuit>, <IC2:itemCasing> , 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:treealyzer>);
 
 // --- Flutterlyzer
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:2>, <IC2:itemPartCircuit>, <IC2:itemCasing:2>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27500>], 
@@ -723,335 +723,335 @@ mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 576,
 
 
 // --- Farm Block
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:stonebrick>, <Forestry:ffarm>.withTag({FarmBlock:0}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:stonebrick:1>, <Forestry:ffarm>.withTag({FarmBlock:1}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:stonebrick:2>, <Forestry:ffarm>.withTag({FarmBlock:2}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:brick_block>, <Forestry:ffarm>.withTag({FarmBlock:3}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:sandstone:2>, <Forestry:ffarm>.withTag({FarmBlock:4}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:sandstone:1>, <Forestry:ffarm>.withTag({FarmBlock:5}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:nether_brick>, <Forestry:ffarm>.withTag({FarmBlock:6}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:stonebrick:3>, <Forestry:ffarm>.withTag({FarmBlock:7}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:quartz_block>, <Forestry:ffarm>.withTag({FarmBlock:8}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:quartz_block:1>, <Forestry:ffarm>.withTag({FarmBlock:9}));
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 144, 
 [<gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemCasing>, <Forestry:thermionicTubes:10>, <IC2:itemCasing>, 
 <gregtech:gt.metaitem.01:27305>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27305>], 
 <minecraft:quartz_block:2>, <Forestry:ffarm>.withTag({FarmBlock:10}));
 
 // --- Farm Gearbox
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:0}), <Forestry:ffarm:2>.withTag({FarmBlock:0}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:1}), <Forestry:ffarm:2>.withTag({FarmBlock:1}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>],  
 <Forestry:ffarm>.withTag({FarmBlock:2}), <Forestry:ffarm:2>.withTag({FarmBlock:2}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:3}), <Forestry:ffarm:2>.withTag({FarmBlock:3}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:4}), <Forestry:ffarm:2>.withTag({FarmBlock:4}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>],
 <Forestry:ffarm>.withTag({FarmBlock:5}), <Forestry:ffarm:2>.withTag({FarmBlock:5}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>],  
 <Forestry:ffarm>.withTag({FarmBlock:6}), <Forestry:ffarm:2>.withTag({FarmBlock:6}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>],  
 <Forestry:ffarm>.withTag({FarmBlock:7}), <Forestry:ffarm:2>.withTag({FarmBlock:7}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:8}), <Forestry:ffarm:2>.withTag({FarmBlock:8}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>],  
 <Forestry:ffarm>.withTag({FarmBlock:9}), <Forestry:ffarm:2>.withTag({FarmBlock:9}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>, 
 <gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:31305>, 
 <Forestry:thermionicTubes:2>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:2>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:2>.withTag({FarmBlock:10}));
 
 // --- Farm Hatch
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:0}), <Forestry:ffarm:3>.withTag({FarmBlock:0}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:1}), <Forestry:ffarm:3>.withTag({FarmBlock:1}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:2}), <Forestry:ffarm:3>.withTag({FarmBlock:2}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:3}), <Forestry:ffarm:3>.withTag({FarmBlock:3}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>],  
 <Forestry:ffarm>.withTag({FarmBlock:4}), <Forestry:ffarm:3>.withTag({FarmBlock:4}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:5}), <Forestry:ffarm:3>.withTag({FarmBlock:5}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>],   
 <Forestry:ffarm>.withTag({FarmBlock:6}), <Forestry:ffarm:3>.withTag({FarmBlock:6}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>],  
 <Forestry:ffarm>.withTag({FarmBlock:7}), <Forestry:ffarm:3>.withTag({FarmBlock:7}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>],  
 <Forestry:ffarm>.withTag({FarmBlock:8}), <Forestry:ffarm:3>.withTag({FarmBlock:8}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>],   
 <Forestry:ffarm>.withTag({FarmBlock:9}), <Forestry:ffarm:3>.withTag({FarmBlock:9}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:1>, 
 <gregtech:gt.metaitem.01:32630>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32630>, 
 <Forestry:thermionicTubes:1>, <minecraft:hopper>, <Forestry:thermionicTubes:1>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:3>.withTag({FarmBlock:10}));
 
 // --- Farm Valve
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:0}), <Forestry:ffarm:4>.withTag({FarmBlock:0}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:1}), <Forestry:ffarm:4>.withTag({FarmBlock:1}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:2}), <Forestry:ffarm:4>.withTag({FarmBlock:2}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:3}), <Forestry:ffarm:4>.withTag({FarmBlock:3}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>],  
 <Forestry:ffarm>.withTag({FarmBlock:4}), <Forestry:ffarm:4>.withTag({FarmBlock:4}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:5}), <Forestry:ffarm:4>.withTag({FarmBlock:5}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>],   
 <Forestry:ffarm>.withTag({FarmBlock:6}), <Forestry:ffarm:4>.withTag({FarmBlock:6}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:7}), <Forestry:ffarm:4>.withTag({FarmBlock:7}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>],   
 <Forestry:ffarm>.withTag({FarmBlock:8}), <Forestry:ffarm:4>.withTag({FarmBlock:8}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>],   
 <Forestry:ffarm>.withTag({FarmBlock:9}), <Forestry:ffarm:4>.withTag({FarmBlock:9}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:11>, 
 <gregtech:gt.metaitem.01:32610>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32610>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:28880>, <Forestry:thermionicTubes:11>], 
 <Forestry:ffarm>.withTag({FarmBlock:10}), <Forestry:ffarm:4>.withTag({FarmBlock:10}));
 
 // --- Farm Control
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>], 
 <Forestry:ffarm>.withTag({FarmBlock:0}), <Forestry:ffarm:5>.withTag({FarmBlock:0}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>], 
 <Forestry:ffarm>.withTag({FarmBlock:1}), <Forestry:ffarm:5>.withTag({FarmBlock:1}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],
 <Forestry:ffarm>.withTag({FarmBlock:2}), <Forestry:ffarm:5>.withTag({FarmBlock:2}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],
 <Forestry:ffarm>.withTag({FarmBlock:3}), <Forestry:ffarm:5>.withTag({FarmBlock:3}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],  
 <Forestry:ffarm>.withTag({FarmBlock:4}), <Forestry:ffarm:5>.withTag({FarmBlock:4}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>], 
 <Forestry:ffarm>.withTag({FarmBlock:5}), <Forestry:ffarm:5>.withTag({FarmBlock:5}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],   
 <Forestry:ffarm>.withTag({FarmBlock:6}), <Forestry:ffarm:5>.withTag({FarmBlock:6}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],
 <Forestry:ffarm>.withTag({FarmBlock:7}), <Forestry:ffarm:5>.withTag({FarmBlock:7}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],   
 <Forestry:ffarm>.withTag({FarmBlock:8}), <Forestry:ffarm:5>.withTag({FarmBlock:8}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],   
 <Forestry:ffarm>.withTag({FarmBlock:9}), <Forestry:ffarm:5>.withTag({FarmBlock:9}));
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:molten.redstone> * 144, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 144, 
 [<Forestry:thermionicTubes:9>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:9>, 
 <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32600>, <IC2:itemPartCircuit>, 
 <Forestry:thermionicTubes:9>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:9>],
@@ -1079,172 +1079,172 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [
 [null, null, null]]);
 
 // --- Compost
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <minecraft:wheat>, null, 
 <minecraft:wheat>, <minecraft:dirt:*>, <minecraft:wheat>, 
 null, <minecraft:wheat>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <gregtech:gt.metaitem.01:2815>, <minecraft:dirt:*>, <gregtech:gt.metaitem.01:2815>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <Natura:barleyFood>, null, 
 <Natura:barleyFood>, <minecraft:dirt:*>, <Natura:barleyFood>, 
 null, <Natura:barleyFood>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <harvestcraft:barleyItem>, null, 
 <harvestcraft:barleyItem>, <minecraft:dirt:*>, <harvestcraft:barleyItem>, 
 null, <harvestcraft:barleyItem>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <BiomesOPlenty:plants:6>, null, 
 <BiomesOPlenty:plants:6>, <minecraft:dirt:*>, <BiomesOPlenty:plants:6>, 
 null, <BiomesOPlenty:plants:6>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <harvestcraft:ryeItem>, null, 
 <harvestcraft:ryeItem>, <minecraft:dirt:*>, <harvestcraft:ryeItem>, 
 null, <harvestcraft:ryeItem>, null],
 null, <Forestry:fertilizerBio>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <harvestcraft:oatsItem>, null, 
 <harvestcraft:oatsItem>, <minecraft:dirt:*>, <harvestcraft:oatsItem>, 
 null, <harvestcraft:oatsItem>, null],
 null, <Forestry:fertilizerBio>);
 
 // --- Fertilizer
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <minecraft:sand:*>, null, 
 null, <gregtech:gt.metaitem.01:2530>, null, 
 null, <minecraft:sand:*>, null],
 null, <Forestry:fertilizerCompound> * 5);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <minecraft:sand:*>, null, 
 null, <MagicBees:miscResources:2>, null, 
 null, <minecraft:sand:*>, null],
 null, <Forestry:fertilizerCompound> * 6);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [<gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, 
 <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2530>, <gregtech:gt.metaitem.01:2815>, 
 <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>],
 null, <Forestry:fertilizerCompound> * 10);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [<gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, 
 <gregtech:gt.metaitem.01:2815>, <MagicBees:miscResources:2>, <gregtech:gt.metaitem.01:2815>, 
 <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>],
 null, <Forestry:fertilizerCompound> * 12);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:water> * 100, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:water> * 100, 
 [null, <minecraft:sand:*>, null, 
 <minecraft:dirt:*>, <gregtech:gt.metaitem.01:2836>, <minecraft:dirt:*>, 
 null, <minecraft:sand:*>, null],
 null, <Forestry:fertilizerCompound> * 2);
 
 // --- Iodine Capsule
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <Forestry:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <ExtraBees:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 //-
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <MagicBees:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 
 // --- Dissipation Charge
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <Forestry:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <ExtraBees:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 // -
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <MagicBees:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 
 // --- Scented Paneling
-mods.forestry.Carpenter.addRecipe(1200, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 1000, 
 [<gregtech:gt.metaitem.02:19086>, <Forestry:royalJelly>, <gregtech:gt.metaitem.02:19086>, 
 <Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>, 
 <Forestry:beeswax>, <Forestry:pollen:*>, <Forestry:beeswax>],
 null, <Forestry:craftingMaterial:6>);
 
 // --- Bituminous Peat
-mods.forestry.Carpenter.addRecipe(400, <liquid:creosote> * 200, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:creosote> * 200, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <Forestry:peat>, <Forestry:propolis:*>, <Forestry:peat>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat>);
 // -
-mods.forestry.Carpenter.addRecipe(450, null, 
+mods.forestry.Carpenter.addRecipe(12, null, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <Forestry:peat>, <ExtraBees:propolis:7>, <Forestry:peat>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat> * 2);
 // -
-mods.forestry.Carpenter.addRecipe(500, null, 
+mods.forestry.Carpenter.addRecipe(14, null, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <Forestry:peat>, <ExtraBees:propolis:1>, <Forestry:peat>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat> * 3);
 // -
-mods.forestry.Carpenter.addRecipe(550, null, 
+mods.forestry.Carpenter.addRecipe(16, null, 
 [null, <gregtech:gt.metaitem.01:2815>, null, 
 <Forestry:peat>, <ExtraBees:propolis:2>, <Forestry:peat>, 
 null, <gregtech:gt.metaitem.01:2815>, null],
 null, <Forestry:bituminousPeat> * 4);
 
 // --- Basic Circuit Board
-mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>, 
 <gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19032>, <gregtech:gt.metaitem.01:32700>, 
 <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>],
 <gregtech:gt.metaitem.01:32710>, <Forestry:chipsets>);
 
 // --- Enhanced Circuit Board
-mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>, 
 <gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19300>, <gregtech:gt.metaitem.01:32700>, 
 <gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>],
 <gregtech:gt.metaitem.01:32710>, <Forestry:chipsets:1>);
 
 // --- Refined Circuit Board
-mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
+mods.forestry.Carpenter.addRecipe(30, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>, 
 <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.01:32715>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>],
 <gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:2>);
 
 // --- Intricate Circuit Board
-mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>, 
 <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19303>, <gregtech:gt.metaitem.01:32715>, 
 <gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>],
@@ -1342,27 +1342,27 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 null, <Forestry:thermionicTubes:12>);
 
 // --- Habitat Locator
-mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 288, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 288, 
 [<gregtech:gt.metaitem.01:27300>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27300>, 
 <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:28305>, <IC2:itemCasing:2>, 
 <gregtech:gt.metaitem.01:27300>, <IC2:itemCasing:2>, <gregtech:gt.metaitem.01:27300>],
 <minecraft:compass>, <Forestry:habitatLocator>);
 
 // --- Soldering Iron
-mods.forestry.Carpenter.addRecipe(600, <liquid:molten.redstone> * 576, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
 [null, null, <gregtech:gt.metaitem.01:23032>, 
 null, <gregtech:gt.metaitem.01:23032>, <gregtech:gt.metaitem.01:26032>, 
 <IC2:itemRecipePart:2>, null, null],
 null, <Forestry:solderingIron>);
 
 // --- Impregnated Stick
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 
 [<minecraft:stick>, null, null, 
 null, null, null, 
 null, null, null],
 null, <Forestry:oakStick>);
 // -
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 
 [<Natura:natura.stick:*>, null, null, 
 null, null, null, 
 null, null, null],
@@ -1375,7 +1375,7 @@ recipes.addShaped(<Forestry:frameUntreated>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 // --- Impregnated Frame
-mods.forestry.Carpenter.addRecipe(600, <liquid:seedoil> * 250, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 250, 
 [<Railcraft:slab:38>, <Railcraft:slab:38>, <Railcraft:slab:38>, 
 <Forestry:oakStick>, <harvestcraft:wovencottonItem>, <Forestry:oakStick>, 
 <Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>],
@@ -1407,254 +1407,254 @@ mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, [<minecr
 mods.thaumcraft.Research.addInfusionPage("PROVENGRAFTER", <Forestry:grafterProven>);
 
 // --- Candle
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <Forestry:beeswax>, null],
 null, <Forestry:candle> * 2);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <Forestry:beeswax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <Forestry:refractoryWax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <Forestry:refractoryWax>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax:1>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax:1>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax:2>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax:2>, null],
 null, <Forestry:candle> * 8);
 
 // --- Honeyed Slice
-mods.forestry.Carpenter.addRecipe(200, <liquid:honey> * 800, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 800, 
 [null, null, null,
 null, null, null,
 null, null, null],
 <gregtech:gt.metaitem.02:32566>, <Forestry:honeyedSlice>);
 
 // --- Ambrosia
-mods.forestry.Carpenter.addRecipe(300, <liquid:honey> * 400, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:honey> * 400, 
 [<Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>,
 <Forestry:royalJelly>, <Forestry:royalJelly>, <Forestry:royalJelly>,
 <Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>],
 <Forestry:waxCapsule>, <Forestry:ambrosia>);
 
 // --- Honey Pot
-mods.forestry.Carpenter.addRecipe(200, null, 
+mods.forestry.Carpenter.addRecipe(20, null, 
 [<Forestry:honeyDrop>, null, <Forestry:honeyDrop>,
 null, <Forestry:honeyDrop>, null,
 <Forestry:honeyDrop>, null, <Forestry:honeyDrop>],
 <Forestry:waxCapsule>, <Forestry:honeyPot>);
 
 // --- Stamp 1n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>,
 <gregtech:gt.metaitem.01:32000>, null, <gregtech:gt.metaitem.01:32000>,
 <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>],
 <minecraft:paper>, <Forestry:stamps>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 null, <gregtech:gt.metaitem.01:32001>, null,
 null, null, null],
 <minecraft:paper>, <Forestry:stamps>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>,
 <gregtech:gt.metaitem.01:32011>, null, <gregtech:gt.metaitem.01:32011>,
 <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>],
 <minecraft:paper>, <Forestry:stamps>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 null, <IC2:itemCoin>, null,
 null, null, null],
 <minecraft:paper>, <Forestry:stamps>);
 
 // --- Stamp 2n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 null, <gregtech:gt.metaitem.01:32001>, null,
 null, <gregtech:gt.metaitem.01:32001>, null],
 <minecraft:paper>, <Forestry:stamps:1>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 null, <IC2:itemCoin>, null,
 null, <IC2:itemCoin>, null],
 <minecraft:paper>, <Forestry:stamps:1>);
 
 // --- Stamp 5n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,
 null, <gregtech:gt.metaitem.01:32001>, null,
 <gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],
 <minecraft:paper>, <Forestry:stamps:2>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<IC2:itemCoin>, null, <IC2:itemCoin>,
 null, <IC2:itemCoin>, null,
 <IC2:itemCoin>, null, <IC2:itemCoin>],
 <minecraft:paper>, <Forestry:stamps:2>);
 
 // --- Stamp 10n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>,
 null, null, null],
 <minecraft:paper>, <Forestry:stamps:3>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [null, null, null,
 <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>,
 null, null, null],
 <minecraft:paper>, <Forestry:stamps:3>);
 
 // --- Stamp 20n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,
 <gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,
 <gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],
 <minecraft:paper>, <Forestry:stamps:4>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<IC2:itemCoin>, null, <IC2:itemCoin>,
 <gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,
 <IC2:itemCoin>, null, <IC2:itemCoin>],
 <minecraft:paper>, <Forestry:stamps:4>);
 
 // --- Stamp 50n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,
 <gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,
 <gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],
 <minecraft:paper>, <Forestry:stamps:5>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100,
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,
 <gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,
 <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],
 <minecraft:paper>, <Forestry:stamps:5>);
 
 // --- Stamp 100n
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 
 [<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,
 <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32003>, <gregtech:gt.metaitem.01:32001>,
 <gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],
 <minecraft:paper>, <Forestry:stamps:6>);
 // -
-mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 
 [<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,
 <IC2:itemCoin>, <gregtech:gt.metaitem.01:32014>, <IC2:itemCoin>,
 <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],
 <minecraft:paper>, <Forestry:stamps:6>);
 
 // --- Letter
-mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
 [null, <minecraft:paper>, null,
 <minecraft:paper>, <Forestry:propolis:*>, <minecraft:paper>,
 null, <minecraft:paper>, null],
 <minecraft:paper>, <Forestry:letters>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
 [null, <minecraft:paper>, null,
 <minecraft:paper>, <ExtraBees:propolis:*>, <minecraft:paper>,
 null, <minecraft:paper>, null],
 <minecraft:paper>, <Forestry:letters>);
 // -
-mods.forestry.Carpenter.addRecipe(200, <liquid:seedoil> * 200, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
 [null, <minecraft:paper>, null,
 <minecraft:paper>, <MagicBees:propolis:*>, <minecraft:paper>,
 null, <minecraft:paper>, null],
 <minecraft:paper>, <Forestry:letters>);
 
 // --- Catalogue
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:1>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:2>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:3>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:4>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:5>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 // -
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 400, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:seedoil> * 400, 
 [null, null, null,
 null, <Forestry:stamps:6>, null,
 null, null, null],
 <minecraft:book>, <Forestry:catalogue>);
 
 // --- Crate
-mods.forestry.Carpenter.addRecipe(100, <liquid:creosote> * 400, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:creosote> * 400, 
 [null, <gregtech:gt.metaitem.02:32470>, null,
 <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.02:32470>,
 null, <gregtech:gt.metaitem.02:32470>, null],
@@ -1682,7 +1682,7 @@ recipes.addShaped(<Forestry:minerBag>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Miner's Backpack Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1695,7 +1695,7 @@ recipes.addShaped(<Forestry:diggerBag>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Digger's Backpack Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1708,7 +1708,7 @@ recipes.addShaped(<Forestry:foresterBag>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Forester's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1721,7 +1721,7 @@ recipes.addShaped(<Forestry:hunterBag>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Hunter's Backpack Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1734,7 +1734,7 @@ recipes.addShaped(<Forestry:builderBag>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Builder's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -2240,7 +2240,7 @@ recipes.addShaped(<Forestry:fences2:12> * 4, [
 [<ore:stickWood>, <Forestry:planks2:12>, <ore:stickWood>]]);
 
 // --- Torch
-mods.forestry.Carpenter.addRecipe(100, <liquid:creosote> * 500, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:creosote> * 500, 
 [null, null, null,
 null, <minecraft:wool:*>, null,
 null, <minecraft:stick>, null],

@@ -1127,7 +1127,7 @@ Compressor.addRecipe(<dreamcraft:item.StonePlate>, <gregtech:gt.metaitem.01:2299
 
 
 // --- Engine Core
-mods.forestry.Carpenter.addRecipe(400, <liquid:seedoil> * 500, [
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 500, [
 null, <gregtech:gt.metaitem.01:17526>, null, 
 null, <minecraft:piston>, null, 
 null, null, null], 

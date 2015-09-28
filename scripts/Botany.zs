@@ -51,7 +51,7 @@ recipes.remove(<Botany:encylopediaIron>);
 
 
 // --- Botanis Database
-mods.forestry.Carpenter.addRecipe(2400, <liquid:molten.redstone> * 1440, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
 [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:3>, <IC2:itemPartCircuitAdv>, <IC2:itemCasing:3>, 
 <gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>], 

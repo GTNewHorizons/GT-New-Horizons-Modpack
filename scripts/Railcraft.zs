@@ -1716,7 +1716,7 @@ recipes.addShaped(<Railcraft:backpack.trackman.t1>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Trackman's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1729,7 +1729,7 @@ recipes.addShaped(<Railcraft:backpack.iceman.t1>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Iceman's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -1742,7 +1742,7 @@ recipes.addShaped(<Railcraft:backpack.apothecary.t1>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Aphothecary's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],

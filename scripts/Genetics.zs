@@ -90,21 +90,21 @@ recipes.remove(<Genetics:registry>);
 
 
 // --- Gene Database
-mods.forestry.Carpenter.addRecipe(3600, <liquid:molten.redstone> * 2880, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 2880, 
 [<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>, 
 <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
 <gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>], 
 <dreamcraft:item.Display>, <Genetics:database>);
 
 // --- Analyst
-mods.forestry.Carpenter.addRecipe(4800, <liquid:molten.redstone> * 4320, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 4320, 
 [<Genetics:misc:9>, <Forestry:treealyzer>, <Genetics:misc:9>, 
 <Forestry:beealyzer>, <Genetics:misc:10>, <Forestry:flutterlyzer>, 
 <Genetics:misc:9>, <gregtech:gt.metaitem.01:17500>, <Genetics:misc:9>], 
 <dreamcraft:item.Display>, <Genetics:analyst>);
 
 // --- Registry
-mods.forestry.Carpenter.addRecipe(4800, <liquid:molten.redstone> * 4320, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 4320, 
 [<Genetics:misc:9>, <ExtraTrees:database>, <Genetics:misc:9>, 
 <Botany:database>, <Genetics:misc:10>, <ExtraBees:dictionary>, 
 <Genetics:misc:9>, <ExtraTrees:databaseMoth>, <Genetics:misc:9>], 

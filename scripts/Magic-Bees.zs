@@ -163,7 +163,7 @@ recipes.addShaped(<MagicBees:backpack.thaumaturgeT1>, [
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
 // --- Thaumaturge's Backpach Woven
-mods.forestry.Carpenter.addRecipe(2400, <liquid:seedoil> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],

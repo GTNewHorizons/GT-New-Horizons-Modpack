@@ -65,35 +65,35 @@ mods.forestry.Carpenter.removeRecipe(<ExtraBees:misc>);
 
 
 // --- Apiarist Database
-mods.forestry.Carpenter.addRecipe(2400, <liquid:molten.redstone> * 1440, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
 [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>, 
 <IC2:itemCasing:3>, <IC2:itemPartCircuitAdv>, <IC2:itemCasing:3>, 
 <gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>], 
 <Forestry:beealyzer>, <ExtraBees:dictionary>);
 
 // --- Mutator
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:12>, <gregtech:gt.metaitem.01:17533>, <Forestry:thermionicTubes:12>, 
 <gregtech:gt.metaitem.01:17532>, <ExtraBees:hiveFrame.soul>, <gregtech:gt.metaitem.01:17532>, 
 <Forestry:thermionicTubes:12>, <gregtech:gt.metaitem.01:17533>, <Forestry:thermionicTubes:12>], 
 <Forestry:alveary>, <ExtraBees:alveary>);
 
 // --- Frame Housing
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:10>, <Forestry:frameProven>, <Forestry:thermionicTubes:10>, 
 <Forestry:frameProven>, <gregtech:gt.blockmachines:4985>, <Forestry:frameProven>, 
 <Forestry:thermionicTubes:10>, <Forestry:frameProven>, <Forestry:thermionicTubes:10>], 
 <Forestry:alveary>, <ExtraBees:alveary:1>);
 
 // --- Rain Shield
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:8>, <IC2:blockRubber>, <Forestry:thermionicTubes:8>, 
 <IC2:blockRubber>, <minecraft:brick_block>, <IC2:blockRubber>, 
 <Forestry:thermionicTubes:8>, <IC2:blockRubber>, <Forestry:thermionicTubes:8>], 
 <Forestry:alveary>, <ExtraBees:alveary:2>);
 
 // --- Alveary Light
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:2>, <Forestry:stained:*>, <Forestry:thermionicTubes:2>, 
 <Forestry:stained:*>, <minecraft:redstone_lamp>, <Forestry:stained:*>, 
 <Forestry:thermionicTubes:2>, <Forestry:stained:*>, <Forestry:thermionicTubes:2>], 
@@ -101,28 +101,28 @@ mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500,
 
 
 // --- Electrical Stimulator
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.blockmachines:1460>, <Forestry:thermionicTubes:1>, 
 <Forestry:chipsets:2>, <gregtech:gt.metaitem.01:32602>, <Forestry:chipsets:2>, 
 <Forestry:thermionicTubes:1>, <gregtech:gt.blockmachines:1460>, <Forestry:thermionicTubes:1>], 
 <Forestry:alveary>, <ExtraBees:alveary:4>);
 
 // --- Hatchery
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes:3>, <gregtech:gt.metaitem.01:17810>, <Forestry:thermionicTubes:3>, 
 <gregtech:gt.metaitem.01:32631>, <Forestry:apiculture:1>, <gregtech:gt.metaitem.01:32631>, 
 <Forestry:thermionicTubes:3>, <gregtech:gt.metaitem.01:17810>, <Forestry:thermionicTubes:3>], 
 <Forestry:alveary>, <ExtraBees:alveary:5>);
 
 // --- Alveary Transmission
-mods.forestry.Carpenter.addRecipe(1800, <liquid:honey> * 7500, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
 [<Forestry:thermionicTubes>, <IC2:itemPartCircuitAdv>, <Forestry:thermionicTubes>, 
 <gregtech:gt.blockmachines:1587>, <gregtech:gt.blockmachines:13>, <gregtech:gt.blockmachines:1587>, 
 <Forestry:thermionicTubes>, <gregtech:gt.blockmachines:1587>, <Forestry:thermionicTubes>], 
 <Forestry:alveary>, <ExtraBees:alveary:6>);
 
 // --- Scented Gear
-mods.forestry.Carpenter.addRecipe(300, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:honey> * 1000, 
 [<Forestry:beeswax>, <Forestry:pollen>, <Forestry:beeswax:2>, 
 <Forestry:royalJelly>, <Forestry:beeswax>, <Forestry:royalJelly>, 
 <Forestry:beeswax:2>, <Forestry:pollen>, <Forestry:beeswax:2>], 
