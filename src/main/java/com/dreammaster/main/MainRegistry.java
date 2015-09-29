@@ -1,4 +1,4 @@
-	package com.dreammaster.main;
+package com.dreammaster.main;
 
 import java.util.Random;
 
@@ -22,6 +22,7 @@ import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
+import com.dreammaster.modingameerrorlog.IngameErrorLog;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -57,15 +58,23 @@ public class MainRegistry {
 	public static CustomToolTipsHandler Module_CustomToolTips = null;
 	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CustomDropsHandler Module_CustomDrops = null;
+	public static IngameErrorLog Module_AdminErrorLogs = null;
 	public static CoreModConfig CoreConfig;
 	public static Random Rnd = null;
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
+	
+	public static void AddLoginError(String pMessage)
+	{
+	    if (Module_AdminErrorLogs != null)
+	        Module_AdminErrorLogs.AddErrorLogOnAdminJoin(pMessage);
+	}
 	
 	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent) {
 		Logger.setDebugOutput(true);
 		
 		Rnd = new Random(System.currentTimeMillis());
+		
 		// ------------------------------------------------------------
 		// Init coremod config file. Create it if it's not there
 		CoreConfig = new CoreModConfig(PreEvent.getModConfigurationDirectory(), Refstrings.COLLECTIONID, Refstrings.MODID);
@@ -73,6 +82,12 @@ public class MainRegistry {
 			Logger.error(String.format("%s could not load its config file. Things are going to be weird!", Refstrings.MODID));
 		// ------------------------------------------------------------
 		
+        if (CoreConfig.ModAdminErrorLogs_Enabled)
+        {
+            Logger.debug("Module_AdminErrorLogs is enabled");
+            Module_AdminErrorLogs = new IngameErrorLog();
+        }
+
 		// ------------------------------------------------------------
 		Logger.debug("PRELOAD Init itemmanager");
 		ItemManager = new ModItemManager(Refstrings.MODID); 
@@ -88,19 +103,23 @@ public class MainRegistry {
 		// ------------------------------------------------------------
 		
 		
-		
 		// ------------------------------------------------------------
 		Logger.debug("PRELOAD Create Items");
 		if (!ItemList.AddToItemManager(ItemManager))
+		{
 			Logger.warn("Some items failed to register. Check the logfile for details");
+			AddLoginError("[CoreMod-Items] Some items failed to register. Check the logfile for details");
+		}
 		// ------------------------------------------------------------
-		
-		
+	
 		
 		// ------------------------------------------------------------
 		Logger.info("PRELOAD Create Blocks");
 		if (!BlockList.AddToItemManager(BlockManager))
+		{
 			Logger.warn("Some blocks failed to register. Check the logfile for details");
+			AddLoginError("[CoreMod-Blocks] Some blocks failed to register. Check the logfile for details");
+		}
 		// ------------------------------------------------------------
 		
 	
@@ -108,6 +127,7 @@ public class MainRegistry {
 		// ------------------------------------------------------------
 		// Init Modules
 		Logger.debug("PRELOAD Init Modules");
+	
 		if (CoreConfig.ModHazardousItems_Enabled)
 		{
 		    Logger.debug("Module_HazardousItems is enabled");
@@ -142,7 +162,10 @@ public class MainRegistry {
 		Logger.debug("PRELOAD Create Fluids");
 		FluidManager = new ModFluidManager(Refstrings.MODID);
 		if(!FluidList.AddToItemManager(FluidManager))
+		{
 			Logger.warn("Some fluids failed to register. Check the logfile for details");
+			AddLoginError("[CoreMod-Fluids] Some fluids failed to register. Check the logfile for details");
+		}
 		// ------------------------------------------------------------
 			
 		proxy.registerRenderInfo();
@@ -177,7 +200,10 @@ public class MainRegistry {
 		// register all non-enum items
 		Logger.debug("LOAD Register non enum Items");
 		if (!RegisterNonEnumItems())
+		{
 			Logger.error("Some extended items could not be registered to the game registry");
+			AddLoginError("[CoreMod-Items] Some extended items could not be registered to the game registry");
+		}
 		
 		// register events in modules
 		RegisterModuleEvents();
@@ -186,6 +212,9 @@ public class MainRegistry {
 	
 	private static void RegisterModuleEvents()
 	{
+        if (CoreConfig.ModAdminErrorLogs_Enabled)
+            FMLCommonHandler.instance().bus().register(Module_AdminErrorLogs);
+	    
 		if (CoreConfig.ModHazardousItems_Enabled)
 			FMLCommonHandler.instance().bus().register(Module_HazardousItems);
 		

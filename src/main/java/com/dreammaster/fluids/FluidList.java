@@ -6,6 +6,7 @@ import net.minecraftforge.fluids.Fluid;
 
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
 
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.fluids.ModSimpleBaseFluid;
@@ -40,7 +41,10 @@ public enum FluidList {
 		{
 			if (il.Fluid != null)
 				if (!pFluidManager.AddItemToManagedRegistry(il.Fluid))
+				{
+				    MainRegistry.Logger.error(String.format("Fluid [%s] failed to register", il.toString()));
 					tResult = false;
+				}
 		}
 		
 		return tResult;

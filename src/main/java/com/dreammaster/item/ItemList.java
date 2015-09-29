@@ -2,6 +2,7 @@ package com.dreammaster.item;
 
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
 
 import eu.usrv.yamcore.items.ModItemManager;
 import eu.usrv.yamcore.items.ModSimpleBaseItem;
@@ -139,7 +140,7 @@ public enum ItemList {
 	MysteriousCrystalIngot(new ModSimpleBaseItem("MysteriousCrystalIngot",  ModTabList.ModGenericTab)),
 	MysteriousCrystalColdIngot(new ModSimpleBaseItem("MysteriousCrystalColdIngot",  ModTabList.ModGenericTab)),
 	MysteriousCrystalPlate(new ModSimpleBaseItem("MysteriousCrystalPlate",  ModTabList.ModGenericTab)),
-	MysteriousCrystalDensePlate(new ModSimpleBaseItem("CallistoIceDensePlate",  ModTabList.ModGenericTab)),
+	MysteriousCrystalDensePlate(new ModSimpleBaseItem("MysteriousCrystalDensePlate",  ModTabList.ModGenericTab)),
 	MysteriousCrystalCompressedPlate(new ModSimpleBaseItem("MysteriousCrystalCompressedPlate",  ModTabList.ModGenericTab)),
 	MytrylCrystal(new ModSimpleBaseItem("MytrylCrystal",  ModTabList.ModGenericTab)),
 	MytrylDust(new ModSimpleBaseItem("MytrylDust",  ModTabList.ModGenericTab)),
@@ -263,7 +264,10 @@ public enum ItemList {
 		{
 			if (il.Item != null)
 				if (!pItemManager.AddItemToManagedRegistry(il.Item))
+				{
+				    MainRegistry.Logger.error(String.format("Item [%s] failed to register", il.toString()));
 					tResult = false;
+				}
 		}
 		
 		return tResult;

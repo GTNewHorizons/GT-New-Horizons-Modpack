@@ -14,6 +14,11 @@ public class CustomDropsFactory {
     
     public Drop createDrop(String pItemName, String pIdentifier, int pAmount, boolean pDropRnd, int pChance, int pLimitedDropCount)
     {
+        return createDrop(pItemName, pIdentifier, "", pAmount, pDropRnd, pChance, pLimitedDropCount);
+    }
+    
+    public Drop createDrop(String pItemName, String pIdentifier, String pNBTTag, int pAmount, boolean pDropRnd, int pChance, int pLimitedDropCount)
+    {
     	Drop drop = new Drop();
     	drop.mAmount = pAmount;
     	drop.mChance = pChance;
@@ -21,6 +26,7 @@ public class CustomDropsFactory {
     	drop.mIsRandomAmount = pDropRnd;
     	drop.mItemName = pItemName;
     	drop.mLimitedDropCount = pLimitedDropCount;
+    	drop.mTag = pNBTTag;
     	
     	return drop;
     }

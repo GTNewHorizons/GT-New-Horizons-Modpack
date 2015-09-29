@@ -73,6 +73,7 @@ public class CustomFuelsHandler implements IFuelHandler
         if (!ReloadCustomFuels())
         {
             _mLogger.warn("Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
+            MainRegistry.AddLoginError("[CustomFuels] Config file not loaded due errors");
             InitSampleConfig();
         }
     }

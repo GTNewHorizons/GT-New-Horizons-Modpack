@@ -2,6 +2,7 @@ package com.dreammaster.block;
 
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
 
 import eu.usrv.yamcore.blocks.ModBlockManager;
 import eu.usrv.yamcore.blocks.ModSimpleBaseBlock;
@@ -66,7 +67,10 @@ public enum BlockList {
 		{
 			if (bl.Block != null)
 				if (!pBlockManager.AddItemToManagedRegistry(bl.Block))
+				{
+				    MainRegistry.Logger.error(String.format("Block [%s] failed to register", bl.toString()));
 					tResult = false;
+				}
 		}
 		
 		return tResult;

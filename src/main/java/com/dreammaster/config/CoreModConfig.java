@@ -17,6 +17,7 @@ public class CoreModConfig extends ConfigManager
 	public boolean ModItemInHandInfo_Enabled;
 	public boolean ModCustomFuels_Enabled;
 	public boolean ModCustomDrops_Enabled;
+	public boolean ModAdminErrorLogs_Enabled;
 	public int PotionTimer;
 	
 	@Override
@@ -26,6 +27,7 @@ public class CoreModConfig extends ConfigManager
 		ModItemInHandInfo_Enabled = false;
 		ModCustomFuels_Enabled = false;
 		ModCustomDrops_Enabled = false;
+		ModAdminErrorLogs_Enabled = true;
 		PotionTimer = 100;
 	}
 
@@ -36,7 +38,7 @@ public class CoreModConfig extends ConfigManager
 		ModItemInHandInfo_Enabled = _mainConfig.getBoolean("ItemInHandInfo", "Modules", ModItemInHandInfo_Enabled, "Set to true to enable ItemInHandInfo module. If enabled, type /iih to display the item's name-info");
 		ModCustomDrops_Enabled = _mainConfig.getBoolean("CustomDrops", "Modules", ModCustomDrops_Enabled, "Set to true to enable CustomDrops module. This needs a separate config file which is created once you start with this setting enabled");
 		ModCustomFuels_Enabled = _mainConfig.getBoolean("CustomFuels", "Modules", ModCustomFuels_Enabled, "Set to true to enable CustomFuels module. Allows you to set burn-time values to almost any item");
-		
+		ModAdminErrorLogs_Enabled = _mainConfig.getBoolean("AdminErrorLog", "Modules", ModAdminErrorLogs_Enabled, "If set to true, every op/admin will receive all errors occoured during the startup phase as ingame message on join");
 		PotionTimer = _mainConfig.getInt("PotionTimer", "Limits", PotionTimer, 100, 2048, "The time (in ticks) the potion effect will remain on the player when he drops the bucket. 20 = 1 second");
 	}
 

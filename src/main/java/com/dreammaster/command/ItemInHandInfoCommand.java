@@ -6,9 +6,13 @@ import java.util.List;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fluids.IFluidContainerItem;
 
 import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
@@ -79,6 +83,9 @@ public class ItemInHandInfoCommand implements ICommand
             PlayerChatHelper.SendPlain(pCmdSender, String.format("Unloc.Name:  [%s]", inHand.getUnlocalizedName()));
             PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemName:  [%s]", UID.toString()));
             PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemMeta:  [%s]", inHand.getItemDamage()));
+            PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemNBT:  [%s]", inHand.stackTagCompound));
+            PlayerChatHelper.SendPlain(pCmdSender, String.format("FluidContainer:  [%s]", getFluidContainerContents(inHand)));
+            
         } catch (Exception e)
         {
             e.printStackTrace();
@@ -86,6 +93,23 @@ public class ItemInHandInfoCommand implements ICommand
         }
     }
 
+    private String getFluidContainerContents(ItemStack pItemInQuestion)
+    {
+        String tResult = "No fluid container";
+        
+        if (pItemInQuestion.getItem() instanceof IFluidContainerItem)
+        {
+            IFluidContainerItem tFluidContainer = IFluidContainerItem.class.cast(pItemInQuestion.getItem());
+            FluidStack tContents = tFluidContainer.getFluid(pItemInQuestion);
+            if (tContents != null)
+            {
+                tResult = String.format("FluidID: [%d], UnlocName: [%s], Name: [%s]", tContents.getFluid().getID(), tContents.getFluid().getUnlocalizedName(), tContents.getFluid().getName()); 
+            }
+        }
+        
+        return tResult;
+    }
+    
     private boolean InGame(ICommandSender pCmdSender)
     {
         if (!(pCmdSender instanceof EntityPlayer))

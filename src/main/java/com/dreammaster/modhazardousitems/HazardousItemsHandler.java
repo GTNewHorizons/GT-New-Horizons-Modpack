@@ -256,6 +256,7 @@ public class HazardousItemsHandler {
 		 if (!ReloadHazardousItems())
 		 {
 			 _mLogger.warn("Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
+			 MainRegistry.AddLoginError("[HazardousItems] Config file not loaded due errors");
 			 InitSampleConfig();
 		 }
 	 }

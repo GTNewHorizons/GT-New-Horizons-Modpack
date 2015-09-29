@@ -92,6 +92,9 @@ public class CustomDrops
             
             @XmlAttribute(name = "Amount")
             protected int mAmount;
+
+            @XmlAttribute(name = "NBTTag")
+            protected String mTag;
             
             @XmlAttribute(name = "Chance")
             protected int mChance;

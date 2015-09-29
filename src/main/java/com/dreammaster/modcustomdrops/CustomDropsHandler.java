@@ -11,11 +11,15 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.JsonToNBT;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
+import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -50,10 +54,10 @@ public class CustomDropsHandler
 	    
     public void InitSampleConfig()
     {
-    	Drop pigDiamondLimitedDrop = _mCfF.createDrop("minecraft:diamond", "sample_Pig_DiamondDrop", 1, false, 100, 5);
+    	Drop pigDiamondLimitedDrop = _mCfF.createDrop("minecraft:diamond", "sample_Pig_DiamondDrop", "{Lore: [\"Oh, shiny!\"]}", 1, false, 100, 5);
     	Drop pigCakeUnlimitedDrop = _mCfF.createDrop("minecraft:cake", "sample_Pig_CakeDrop", 1, false, 100, 0);
     	Drop pigRandomCharcoalDrop = _mCfF.createDrop("minecraft:coal:1", "sample_Pig_CharcoalDrop", 5, true, 100, 0);
-    	
+   	
     	CustomDrop pigDrop = _mCfF.createCustomDropEntry("eu.usrv.dummyEntity.ImbaSampleDragon");
     	pigDrop.getDrops().add(pigDiamondLimitedDrop);
     	pigDrop.getDrops().add(pigCakeUnlimitedDrop);
@@ -100,6 +104,7 @@ public class CustomDropsHandler
         if (!ReloadCustomDrops())
         {
             _mLogger.warn("Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
+            MainRegistry.AddLoginError("[CustomDrops] Config file not loaded due errors");
             InitSampleConfig();
         }
     }
@@ -116,6 +121,21 @@ public class CustomDropsHandler
     			{
     				_mLogger.error(String.format("In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
     				tSuccess = false;
+    			}
+    			
+    			if (Y.mTag != null && !Y.mTag.isEmpty())
+    			{
+        			try
+        			{
+        			    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(Y.mTag);
+        			    if (tNBT == null)
+        			        tSuccess = false;
+        			}
+        			catch (Exception e)
+        			{
+        			    _mLogger.error(String.format("In ItemDropID: [%s], NBTTag is invalid", Y.getIdentifier()));
+        			    tSuccess = false;
+        			}
     			}
     		}
     	}
@@ -180,6 +200,43 @@ public class CustomDropsHandler
     }
 
     @SubscribeEvent
+    public void onMobDrops(LivingDropsEvent pEvent)
+    {
+        try
+        {
+            EntityLivingBase tEntity = pEvent.entityLiving;
+            UUID tUUID = null;
+            EntityPlayer tEP = null;
+            
+            if (pEvent.source.getEntity() != null)
+            {
+                if (pEvent.source.getEntity() instanceof EntityPlayer)
+                {
+                    tEP = (EntityPlayer)pEvent.source.getEntity();
+                    tUUID = tEP.getUniqueID();
+                    if (_mDeathDebugPlayers.contains(tUUID))
+                        PlayerChatHelper.SendInfo(tEP, String.format("Killed entity: [%s]", tEntity.getClass().getName()));
+                }
+            }
+            
+            if (tEP == null) // Not doing anything, only players are valid 
+                return;
+            if (tEP instanceof net.minecraftforge.common.util.FakePlayer) // Nope, no fakeplayers
+                return;
+            
+            CustomDrop tCustomDrop = _mCustomDrops.FindDropEntry(tEntity);
+            if (tCustomDrop == null)
+                return; // no custom drop defined for this mob, skipping
+            
+            HandleCustomDrops(tCustomDrop, tEntity, tEP, pEvent.drops);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+    /*
+    @SubscribeEvent
     public void LivingDeathEvent(net.minecraftforge.event.entity.living.LivingDeathEvent pEvent)
     {
     	try
@@ -215,8 +272,8 @@ public class CustomDropsHandler
     		e.printStackTrace();
     	}
     }
-	
-	private void HandleCustomDrops(CustomDrop tCustomDrop, EntityLivingBase tEntity, EntityPlayer tEP)
+	*/
+	private void HandleCustomDrops(CustomDrop tCustomDrop, EntityLivingBase tEntity, EntityPlayer tEP, ArrayList<EntityItem> pDropList) 
 	{
 		try
 		{
@@ -247,7 +304,25 @@ public class CustomDropsHandler
 				if (dr.getIsRandomAmount())
 					tFinalAmount = 1 + MainRegistry.Rnd.nextInt(dr.getAmount() -1 );
 				
-				tEntity.dropItem(ConvertStringToItem(dr.getItemName()), tFinalAmount);
+				Item tITD = ConvertStringToItem(dr.getItemName());
+				ItemStack tDropStack = new ItemStack(tITD);
+
+				try
+				{
+    				if (dr.mTag != null && !dr.mTag.isEmpty())
+    				{
+    				    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(dr.mTag);
+    				    tDropStack.setTagCompound(tNBT);
+    				}
+				}
+				catch (Exception e)
+				{
+				    _mLogger.error(String.format("CustomDrop ID %s failed to drop, due an invalid NBT Tag. Please correct your configs!"));
+				}
+    				
+				EntityItem tDropEntity = new EntityItem(tEntity.worldObj, tEntity.posX, tEntity.posY, tEntity.posZ, tDropStack);
+				pDropList.add(tDropEntity);
+				//tEntity.dropItem(ConvertStringToItem(dr.getItemName()), tFinalAmount);
 			}
 		}
 		catch (Exception e)
