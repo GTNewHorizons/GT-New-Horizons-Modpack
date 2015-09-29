@@ -797,7 +797,7 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>,
 [<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 12000 as long}), <IC2:itemCasing:5>]]);
 
 // --- Jetpack
-recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:3200>, [
+recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:6400>, [
 [<ore:circuitBasic>, <ore:wireGt04Gold>, <ore:circuitBasic>],
 [<ProjRed|Expansion:projectred.expansion.emptybattery>, <minecraft:diamond_chestplate>, <ProjRed|Expansion:projectred.expansion.emptybattery>],
 [<ProjRed|Expansion:projectred.expansion.emptybattery>, <ore:plateGlowstone>, <ProjRed|Expansion:projectred.expansion.emptybattery>]]);

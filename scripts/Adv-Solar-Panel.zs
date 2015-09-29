@@ -90,9 +90,9 @@ mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransforme
 
 // --- MT Core fore Molecular Transformer
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick>, <AdvancedSolarPanel:asp_crafting_items:5>],
+[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>],
 [<AdvancedSolarPanel:asp_crafting_items:5>, <ore:craftingToolWrench>, <AdvancedSolarPanel:asp_crafting_items:5>],
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
+[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
 
 // --- Iridium Iron Plate
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [

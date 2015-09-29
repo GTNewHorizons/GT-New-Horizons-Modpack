@@ -641,20 +641,20 @@ recipes.addShaped(BedDrum, [
 
 // --- Conveyor Belt
 recipes.addShaped(Conveyor, [
-[SSteelPlate, MVConveyor, SSteelPlate],
-[MVConveyor, SteelGear, MVConveyor],
-[SSteelPlate, MVMotor, SSteelPlate]]);
+[HHammer, <minecraft:rail>, Wrench],
+[<gregtech:gt.metaitem.01:32630>, <gregtech:gt.blockcasings2:11>, <gregtech:gt.metaitem.01:32630>],
+[<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 // --- Filing Cabinet
 recipes.addShaped(Cabinet, [
-[SteelPlate, IronChest, SteelPlate],
-[IronChest, SteelScrew, IronChest],
-[SteelPlate, IronChest, SteelPlate]]);
+[SteelPlate, <ore:chestWood>, SteelPlate],
+[SteelScrew, IronChest, SteelScrew],
+[SteelPlate, <ore:chestWood>, SteelPlate]]);
 
 // --- Advanced Filing Cabinet
 recipes.addShaped(AdvCabinet, [
 [MagicalWood, Cabinet, MagicalWood],
-[Cabinet, SteelScrew, Cabinet],
+[SteelScrew, Cabinet, SteelScrew],
 [MagicalWood, Cabinet, MagicalWood]]);
 
 // --- Watering Can
@@ -985,6 +985,30 @@ ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:6>, <ExtraU
 
 // --- Octuple Compressed Cobblestone
 ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:cobblestone_compressed:6> * 9, 24);
+
+// --- Compressed Dirt
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:8>, <minecraft:dirt> * 9, 1);
+
+// --- Double Compressed Dirt
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:9>, <ExtraUtilities:cobblestone_compressed:8> * 9, 2);
+
+// --- Triple Compressed Dirt
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:10>, <ExtraUtilities:cobblestone_compressed:9> * 9, 4);
+
+// --- Quadruple Compressed Dirt
+ImplosionCompressor.addRecipe(QuadDirt, <ExtraUtilities:cobblestone_compressed:10> * 9, 6);
+
+// --- Compressed Gravel
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:12>, <minecraft:gravel> * 9, 1);
+
+// --- Double Compressed Gravel
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:13>, <ExtraUtilities:cobblestone_compressed:12> * 9, 2);
+
+// --- Compressed Sand
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand> * 9, 1);
+
+// --- Double Compressed Sand
+ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:15>, <ExtraUtilities:cobblestone_compressed:14> * 9, 2);
 
 
 

@@ -97,7 +97,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:5>,[
 recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<dreamcraft:item.AluminiumItemCasing>, <IC2:itemPartAlloy>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
-[<IC2:reactorPlating>, <IC2:reactorVentDiamond>, <IC2:reactorPlating>]]);
+[<IC2:reactorPlating>, <IC2:reactorVentDiamond:1>, <IC2:reactorPlating>]]);
 
 // --- GraviChest
 recipes.addShaped(<GraviSuite:graviChestPlate>, [

@@ -124,7 +124,7 @@ recipes.remove(<IC2:itemArmorAdvBatpack>);
 recipes.remove(<IC2:itemArmorEnergypack>);
 
 // --- Electric Jetpack
-recipes.remove(<IC2:itemArmorJetpackElectric>);
+recipes.remove(<IC2:itemArmorJetpackElectric:*>);
 
 // --- Biogas Jetpack
 recipes.remove(<IC2:itemArmorJetpack:*>);
@@ -193,25 +193,25 @@ recipes.remove(<IC2:windmeter:*>);
 recipes.remove(<IC2:itemRecipePart:7>);
 
 // --- Kinetic Wind Generator Rotor Blade (Wood)
-recipes.remove(<IC2:itemwoodrotor>);
+recipes.remove(<IC2:itemwoodrotor:*>);
 
 // --- Iron Rotor Blade
 recipes.remove(<IC2:itemRecipePart:8>);
 
 // --- Kinetic Wind Generator Rotor Blade (Iron)
-recipes.remove(<IC2:itemironrotor>);
+recipes.remove(<IC2:itemironrotor:*>);
 
 // --- Steel Rotor Blade
 recipes.remove(<IC2:itemRecipePart:10>);
 
 // --- Kinetic Wind Generator Rotor Blade (Steel)
-recipes.remove(<IC2:itemsteelrotor>);
+recipes.remove(<IC2:itemsteelrotor:*>);
 
 // --- Carbon Rotor Blade
 recipes.remove(<IC2:itemRecipePart:9>);
 
 // --- Kinetic Wind Generator Rotor Blade (Carbon)
-recipes.remove(<IC2:itemwcarbonrotor>);
+recipes.remove(<IC2:itemwcarbonrotor:*>);
 
 // --- Wrench
 recipes.remove(<IC2:itemToolWrench>);
@@ -229,43 +229,43 @@ recipes.remove(IronFurnace);
 furnace.remove(<minecraft:log:3>);
 
 // --- Neutron Reflector
-recipes.remove(<IC2:reactorReflector>);
+recipes.remove(<IC2:reactorReflector:*>);
 
 // --- Thick Neutron Reflector
-recipes.remove(<IC2:reactorReflectorThick>);
+recipes.remove(<IC2:reactorReflectorThick:*>);
 
 // --- Heat Vent
-recipes.remove(<IC2:reactorVent>);
+recipes.remove(<IC2:reactorVent:*>);
 
 // --- Reactor Heat Vent
-recipes.remove(<IC2:reactorVentCore>);
+recipes.remove(<IC2:reactorVentCore:*>);
 
 // --- Overclocked Heat Vent
-recipes.remove(<IC2:reactorVentGold>);
+recipes.remove(<IC2:reactorVentGold:*>);
 
 // --- Advanced Heat Vent
-recipes.remove(<IC2:reactorVentDiamond>);
+recipes.remove(<IC2:reactorVentDiamond:*>);
 
 // --- Component Heat Vent
-recipes.remove(<IC2:reactorVentSpread>);
+recipes.remove(<IC2:reactorVentSpread:*>);
 
 // --- Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitch>);
+recipes.remove(<IC2:reactorHeatSwitch:*>);
 
 // --- Reactor Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchCore>);
+recipes.remove(<IC2:reactorHeatSwitchCore:*>);
 
 // --- Component Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchSpread>);
+recipes.remove(<IC2:reactorHeatSwitchSpread:*>);
 
 // --- Advanced Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchDiamond>);
+recipes.remove(<IC2:reactorHeatSwitchDiamond:*>);
 
 // --- RSH Condensator
-recipes.remove(<IC2:reactorCondensator>);
+recipes.remove(<IC2:reactorCondensator:*>);
 
 // --- LZH Condensator
-recipes.remove(<IC2:reactorCondensatorLap>);
+recipes.remove(<IC2:reactorCondensatorLap:*>);
 
 // --- Treetap
 recipes.remove(<IC2:itemTreetap>);
@@ -506,13 +506,13 @@ recipes.remove(<IC2:itemArmorHazmatLeggings>);
 recipes.remove(<IC2:itemArmorHazmatLeggings>);
 
 // --- 10k Coolant Cell
-recipes.remove(<IC2:reactorCoolantSimple>);
+recipes.remove(<IC2:reactorCoolantSimple:*>);
 
 // --- 30k Coolant Cell
-recipes.remove(<IC2:reactorCoolantTriple>);
+recipes.remove(<IC2:reactorCoolantTriple:*>);
 
 // --- 60k Coolant Cell
-recipes.remove(<IC2:reactorCoolantSix>);
+recipes.remove(<IC2:reactorCoolantSix:*>);
 
 // --- Night Vision Goggle
 recipes.remove(<IC2:itemNightvisionGoggles:*>);
@@ -843,15 +843,15 @@ recipes.addShaped(<IC2:itemArmorEnergypack>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Electric Jetpack
-recipes.addShaped(<IC2:itemArmorJetpackElectric>, [
+recipes.addShaped(<IC2:itemArmorJetpackElectric:27>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:*>, <gregtech:gt.metaitem.01:32602>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Biogas Jetpack
-recipes.addShaped(<IC2:itemArmorJetpack>, [
+recipes.addShaped(<IC2:itemArmorJetpack:27>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<ore:craftingTank>, <IC2:reactorCoolantSix>, <ore:craftingTank>],
+[<ore:craftingTank>, <IC2:reactorCoolantSix:1>, <ore:craftingTank>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Reactor Plating
@@ -879,7 +879,7 @@ recipes.addShaped(<IC2:itemRecipePart:7>, [
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>]]);
 
 // --- Kinetic Wind Generator Rotor Blade (Wood)
-recipes.addShaped(<IC2:itemwoodrotor>, [
+recipes.addShaped(<IC2:itemwoodrotor:1>, [
 [<ore:screwSteel>, <IC2:itemRecipePart:7>, <ore:craftingToolWrench>],
 [<IC2:itemRecipePart:7>, <ore:ringSteel>, <IC2:itemRecipePart:7>],
 [<ore:craftingToolScrewdriver>, <IC2:itemRecipePart:7>, <ore:screwSteel>]]);
@@ -891,7 +891,7 @@ recipes.addShaped(<IC2:itemRecipePart:8>, [
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 // --- Kinetic Wind Generator Rotor Blade (Iron)
-recipes.addShaped(<IC2:itemironrotor>, [
+recipes.addShaped(<IC2:itemironrotor:1>, [
 [<IC2:itemRecipePart:11>, <IC2:itemRecipePart:8>, <ore:craftingToolHardHammer>],
 [<IC2:itemRecipePart:8>, <ore:ringStainlessSteel>, <IC2:itemRecipePart:8>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:8>, <IC2:itemRecipePart:11>]]);
@@ -906,7 +906,7 @@ recipes.addShaped(<IC2:itemRecipePart:10>, [
 recipes.addShapeless(<IC2:itemRecipePart:10>, [<Railcraft:part.turbine.blade>]);
 
 // --- Kinetic Wind Generator Rotor Blade (Steel)
-recipes.addShaped(<IC2:itemsteelrotor>, [
+recipes.addShaped(<IC2:itemsteelrotor:1>, [
 [<IC2:itemRecipePart:12>, <IC2:itemRecipePart:10>, <ore:craftingToolHardHammer>],
 [<IC2:itemRecipePart:10>, <ore:ringTitanium>, <IC2:itemRecipePart:10>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:10>, <IC2:itemRecipePart:12>]]);
@@ -918,7 +918,7 @@ recipes.addShaped(<IC2:itemRecipePart:9>, [
 [<IC2:itemPartCarbonPlate>, <IC2:itemPartCarbonPlate>, <IC2:itemPartCarbonPlate>]]);
 
 // --- Kinetic Wind Generator Rotor Blade (Carbon)
-recipes.addShaped(<IC2:itemwcarbonrotor>, [
+recipes.addShaped(<IC2:itemwcarbonrotor:1>, [
 [<ore:screwTungstenSteel>, <IC2:itemRecipePart:9>, <ore:craftingToolHardHammer>],
 [<IC2:itemRecipePart:9>, <ore:ringTungstenSteel>, <IC2:itemRecipePart:9>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:9>, <ore:screwTungstenSteel>]]);
@@ -941,80 +941,80 @@ recipes.addShaped(IronFurnace, [
 [IronPlate, Furnace, IronPlate]]);
 
 // --- Neutron Reflector
-recipes.addShaped(<IC2:reactorReflector>, [
+recipes.addShaped(<IC2:reactorReflector:1>, [
 [<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>],
 [<ore:plateAlloyCarbon>, <ore:plateDenseCopper>, <ore:plateAlloyCarbon>],
 [<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>]]);
 
 // --- Heat Vent
-recipes.addShaped(<IC2:reactorVent>, [
+recipes.addShaped(<IC2:reactorVent:1>, [
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>],
 [<minecraft:iron_bars>, <ore:craftingToolWrench>, <minecraft:iron_bars>],
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>]]);
 
 // --- Reactor Heat Vent
-recipes.addShaped(<IC2:reactorVentCore>, [
+recipes.addShaped(<IC2:reactorVentCore:1>, [
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>],
-[<ore:plateSilver>, <IC2:reactorVent>, <ore:plateSilver>],
+[<ore:plateSilver>, <IC2:reactorVent:1>, <ore:plateSilver>],
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
 
 // --- Overclocked Heat Vent
-recipes.addShaped(<IC2:reactorVentGold>, [
+recipes.addShaped(<IC2:reactorVentGold:1>, [
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
-[<ore:plateGold>, <IC2:reactorVentCore>, <ore:plateGold>],
+[<ore:plateGold>, <IC2:reactorVentCore:1>, <ore:plateGold>],
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
 
 // --- Advanced Heat Vent
-recipes.addShaped(<IC2:reactorVentDiamond>, [
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold>, <dreamcraft:item.SteelBars>],
+recipes.addShaped(<IC2:reactorVentDiamond:1>, [
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold:1>, <dreamcraft:item.SteelBars>],
 [<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold>, <dreamcraft:item.SteelBars>]]);
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold:1>, <dreamcraft:item.SteelBars>]]);
 
 // --- Component Heat Vent
-recipes.addShaped(<IC2:reactorVentSpread>, [
+recipes.addShaped(<IC2:reactorVentSpread:1>, [
 [<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>],
-[<ore:plateDenseTin>, <IC2:reactorVent>, <ore:plateDenseTin>],
+[<ore:plateDenseTin>, <IC2:reactorVent:1>, <ore:plateDenseTin>],
 [<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>]]);
 
 // --- Heat Exchanger
-recipes.addShaped(<IC2:reactorHeatSwitch>, [
+recipes.addShaped(<IC2:reactorHeatSwitch:1>, [
 [<ore:plateSilver>, <ore:circuitBasic>, <ore:plateSilver>],
 [<ore:plateAluminium>, <ore:plateCopper>, <ore:plateAluminium>],
 [<ore:plateSilver>, <ore:plateAluminium>, <ore:plateSilver>]]);
 
 // --- Reactor Heat Exchanger
-recipes.addShaped(<IC2:reactorHeatSwitchCore>, [
+recipes.addShaped(<IC2:reactorHeatSwitchCore:1>, [
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>],
-[<ore:plateSilver>, <IC2:reactorHeatSwitch>, <ore:plateSilver>],
+[<ore:plateSilver>, <IC2:reactorHeatSwitch:1>, <ore:plateSilver>],
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
 
 // --- Component Heat Exchanger
-recipes.addShaped(<IC2:reactorHeatSwitchSpread>, [
+recipes.addShaped(<IC2:reactorHeatSwitchSpread:1>, [
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
-[<ore:plateGold>, <IC2:reactorHeatSwitchCore>, <ore:plateGold>],
+[<ore:plateGold>, <IC2:reactorHeatSwitchCore:1>, <ore:plateGold>],
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
 
 // --- Advanced Heat Exchanger
-recipes.addShaped(<IC2:reactorHeatSwitchDiamond>, [
+recipes.addShaped(<IC2:reactorHeatSwitchDiamond:1>, [
 [<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>],
-[<IC2:reactorHeatSwitchSpread>, <ore:plateDiamond>, <IC2:reactorHeatSwitchSpread>],
+[<IC2:reactorHeatSwitchSpread:1>, <ore:plateDiamond>, <IC2:reactorHeatSwitchSpread:1>],
 [<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>]]);
 
 // --- RSH Condensator
-recipes.addShaped(<IC2:reactorCondensator>, [
-[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>],
-[<ore:plateRedAlloy>, <IC2:reactorVentCore>, <ore:plateRedAlloy>],
-[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore>, <ore:plateRedAlloy>]]);
+recipes.addShaped(<IC2:reactorCondensator:1>, [
+[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore:1>, <ore:plateRedAlloy>],
+[<ore:plateRedAlloy>, <IC2:reactorVentCore:1>, <ore:plateRedAlloy>],
+[<ore:plateRedAlloy>, <IC2:reactorHeatSwitchCore:1>, <ore:plateRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensator>, [<IC2:reactorCondensator:*>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>]);
+recipes.addShapeless(<IC2:reactorCondensator:1>, [<IC2:reactorCondensator:*>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>, <ore:dustRedAlloy>]);
 
 // --- LZH Condensator
-recipes.addShaped(<IC2:reactorCondensatorLap>, [
-[<ore:plateDoubleRedAlloy>, <IC2:reactorVentGold>, <ore:plateDoubleRedAlloy>],
-[<IC2:reactorCondensator>, <ore:plateDenseLapis>, <IC2:reactorCondensator>],
-[<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread>, <ore:plateDoubleRedAlloy>]]);
+recipes.addShaped(<IC2:reactorCondensatorLap:1>, [
+[<ore:plateDoubleRedAlloy>, <IC2:reactorVentGold:1>, <ore:plateDoubleRedAlloy>],
+[<IC2:reactorCondensator:1>, <ore:plateDenseLapis>, <IC2:reactorCondensator:1>],
+[<ore:plateDoubleRedAlloy>, <IC2:reactorHeatSwitchSpread:1>, <ore:plateDoubleRedAlloy>]]);
 
-recipes.addShapeless(<IC2:reactorCondensatorLap>, [<IC2:reactorCondensatorLap:*>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]);
+recipes.addShapeless(<IC2:reactorCondensatorLap:1>, [<IC2:reactorCondensatorLap:*>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>, <ore:dustLapis>]);
 
 // --- Treetap
 recipes.addShaped(<IC2:itemTreetap>, [
@@ -1092,7 +1092,7 @@ recipes.addShaped(<IC2:itemBatChargeRE:26>, [
 
 // --- Night Vision Goggle
 recipes.addShaped(<IC2:itemNightvisionGoggles:27>, [
-[<IC2:reactorHeatSwitchDiamond>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond>],
+[<IC2:reactorHeatSwitchDiamond:1>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond:1>],
 [<ore:ringStainlessSteel>, <ore:boltStainlessSteel>, <ore:ringStainlessSteel>],
 [<GalacticraftCore:item.sensorLens>,  <ore:craftingToolScrewdriver>, <GalacticraftCore:item.sensorLens>]]);
 
@@ -1240,7 +1240,7 @@ recipes.addShaped(<IC2:blockMachine3>, [
 
 // --- Condenser
 recipes.addShaped(<IC2:blockMachine2:15>, [
-[<IC2:reactorCoolantSimple>, <IC2:itemRecipePart>, <IC2:reactorCoolantSimple>],
+[<IC2:reactorCoolantSimple:1>, <IC2:itemRecipePart>, <IC2:reactorCoolantSimple:1>],
 [<ore:pipeMediumSteel>, <IC2:itemRecipePart:6>, <ore:pipeMediumSteel>],
 [<ore:craftingTank>, <ore:circuitBasic>, <ore:craftingTank>]]);
 
@@ -1434,7 +1434,7 @@ Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <greg
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
 
 // --- Thick Neutron Reflector
-Assembler.addRecipe(<IC2:reactorReflectorThick>, <IC2:reactorReflector>, <gregtech:gt.metaitem.01:17008> * 4, 600, 64);
+Assembler.addRecipe(<IC2:reactorReflectorThick:1>, <IC2:reactorReflector:1>, <gregtech:gt.metaitem.01:17008> * 4, 600, 64);
 
 // --- Treetap
 Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gregtech:gt.metaitem.01:27809>, 200, 8);
@@ -1458,16 +1458,16 @@ Assembler.addRecipe(<IC2:itemCropnalyzer>, <gregtech:gt.metaitem.01:32740>, <IC2
 Assembler.addRecipe(<IC2:itemToolMEter>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuit> * 2, <liquid:molten.glowstone> * 288, 600, 16);
 
 // --- Double Uranium Fuel Rod
-Assembler.addRecipe(<IC2:reactorUraniumDual>, <IC2:reactorUraniumSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+Assembler.addRecipe(<IC2:reactorUraniumDual:1>, <IC2:reactorUraniumSimple:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- Quad Uranium Fuel Rod
-Assembler.addRecipe(<IC2:reactorUraniumQuad>, <IC2:reactorUraniumDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+Assembler.addRecipe(<IC2:reactorUraniumQuad:1>, <IC2:reactorUraniumDual:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- Double Mox Fuel Rod
-Assembler.addRecipe(<IC2:reactorMOXDual>, <IC2:reactorMOXSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+Assembler.addRecipe(<IC2:reactorMOXDual:1>, <IC2:reactorMOXSimple:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- Quad Mox Fuel Rod
-Assembler.addRecipe(<IC2:reactorMOXQuad>, <IC2:reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
+Assembler.addRecipe(<IC2:reactorMOXQuad:1>, <IC2:reactorMOXDual:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
 // --- Reinforced Door
 Assembler.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 30);
@@ -1479,7 +1479,7 @@ Assembler.addRecipe(<IC2:itemRemote>, <IC2:itemFreq>, <IC2:upgradeModule>, 1200,
 Assembler.addRecipe(<IC2:itemFreq>, <IC2:itemPartCircuit>, <gregtech:gt.blockmachines:1466> * 2, <liquid:molten.redstone> * 144, 1200, 4);
 
 // --- Overclocker Upgrade
-Assembler.addRecipe(<IC2:upgradeModule>, <IC2:itemPartCircuit>, <IC2:reactorCoolantTriple>, <liquid:molten.copper> * 144, 1200, 16);
+Assembler.addRecipe(<IC2:upgradeModule>, <IC2:itemPartCircuit>, <IC2:reactorCoolantTriple:1>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Transformer Upgrade
 Assembler.addRecipe(<IC2:upgradeModule:1>, <IC2:itemPartCircuit>, <IC2:itemRecipePart> * 2, <liquid:molten.gold> * 288, 1200, 30);
@@ -1509,13 +1509,13 @@ Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17
 Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 30);
 
 // --- 10k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSimple>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 30);
+Assembler.addRecipe(<IC2:reactorCoolantSimple:1>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 30);
 
 // --- 30k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantTriple>, <IC2:reactorCoolantSimple> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:ic2coolant> * 1000, 300, 64);
+Assembler.addRecipe(<IC2:reactorCoolantTriple:1>, <IC2:itemCellEmpty> * 3, <gregtech:gt.metaitem.01:17057> * 12, <liquid:ic2coolant> * 3000, 300, 64);
 
 // --- 60k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSix>, <IC2:reactorCoolantTriple> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:ic2coolant> * 1000, 400, 120);
+Assembler.addRecipe(<IC2:reactorCoolantSix:1>, <IC2:itemCellEmpty> * 6, <gregtech:gt.metaitem.01:17057> * 24, <liquid:ic2coolant> * 6000, 400, 120);
 
 // --- Solar Helmet
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 30);
@@ -1596,10 +1596,10 @@ BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonP
 
 
 // --- Uranium Fuel Rod
-Canner.addRecipe(<IC2:reactorUraniumSimple>, <IC2:itemUran>, <IC2:itemFuelRod>, 200, 40);
+Canner.addRecipe(<IC2:reactorUraniumSimple:1>, <IC2:itemUran>, <IC2:itemFuelRod>, 200, 40);
 
 // --- MOX Fuel Rod
-Canner.addRecipe(<IC2:reactorMOXSimple>, <IC2:itemMOX>, <IC2:itemFuelRod>, 200, 40);
+Canner.addRecipe(<IC2:reactorMOXSimple:1>, <IC2:itemMOX>, <IC2:itemFuelRod>, 200, 40);
 
 // --- Thorium Fuel Rod
 Canner.addRecipe(<gregtech:gt.Thoriumcell>, <gregtech:gt.metaitem.01:2096>, <IC2:itemFuelRod>, 200, 40);
