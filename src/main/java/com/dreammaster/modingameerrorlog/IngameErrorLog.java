@@ -2,7 +2,8 @@ package com.dreammaster.modingameerrorlog;
 
 import java.util.ArrayList;
 
-import bloodasp.galacticgreg.auxiliary.PlayerChatHelper;
+// Damn you, eclipse
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
