@@ -1,6 +1,9 @@
 package com.dreammaster.modhazardousitems;
 
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousFluid;
 import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
+import com.dreammaster.modhazardousitems.HazardousItems.ItmDamageEffect;
+import com.dreammaster.modhazardousitems.HazardousItems.ItmPotionEffect;
 
 public class HazardousObjectFactory
 {
@@ -8,18 +11,29 @@ public class HazardousObjectFactory
 	{
 	}
 
-	public HazardousItem createHazardousItemsHazardousItem(String pUnlocName, boolean pExactMatch) 
+	public HazardousFluid createHazardousFluid(String pFluidName, boolean pExactMatch, boolean pOnContact, boolean pOnInventory)
+	{
+	    HazardousFluid hi = new HazardousFluid();
+        hi.setFluidName(pFluidName);
+        hi.setExactMatch(pExactMatch);
+        hi.setCheckInventory(pOnInventory);
+        hi.setCheckContact(pOnContact);
+        return hi;	    
+	}
+	
+	public HazardousItem createHazardousItemsHazardousItem(String pItemName, boolean pExactMatch, boolean pOnContact, boolean pOnInventory) 
 	{
 		HazardousItem hi = new HazardousItem();
-		hi.setUnlocName(pUnlocName);
+		hi.setItemName(pItemName);
 		hi.setExactMatch(pExactMatch);
-		 
+        hi.setCheckInventory(pOnInventory);
+        hi.setCheckContact(pOnContact);		 
 		return hi;
 	}
 
-	public HazardousItem.ItmDamageEffect createDamageEffect(Float pAmount, String pSource)
+	public ItmDamageEffect createDamageEffect(Float pAmount, String pSource)
 	{
-		HazardousItem.ItmDamageEffect dEf = new HazardousItem.ItmDamageEffect();
+		ItmDamageEffect dEf = new ItmDamageEffect();
 			 
 		dEf.setAmount(pAmount);
 		dEf.setDamageSource(pSource);
@@ -27,9 +41,9 @@ public class HazardousObjectFactory
 		return dEf;
 	}
 
-	public HazardousItem.ItmPotionEffect createPotionEffect(int pDuration, int pPotionID, int pLevel)
+	public ItmPotionEffect createPotionEffect(int pDuration, int pPotionID, int pLevel)
 	{
-		HazardousItem.ItmPotionEffect pEf = new HazardousItem.ItmPotionEffect();
+		ItmPotionEffect pEf = new ItmPotionEffect();
 			 
 		pEf.setDuration(pDuration);
 		pEf.setId(pPotionID);

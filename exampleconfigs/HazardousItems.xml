@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HazardousItemList>
+	<!-- for normal items (no fluid containers) use the default minecraft notation
+	For *Item* elements, the "OnContactCheck" will check the block that is directly UNDER the player (The block
+	 he currently stands on -->
+    <Item ItemName="minecraft:lava_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="0.5"/>
+        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
+    </Item>
+	
+	<!-- For fluid containers,  use the /iih command to get the fluid's name.
+	For *Fluid* elements, the "OnContactCheck" will check the block that is directly at the players coordinates.
+	This is used to check if the player is currently swimming in this fluid -->
+	 <Fluid FluidName="lava" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="0.5"/>
+        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
+    </Fluid>
+	
+	<!-- Regeneration effect on contact with water. Since the fluid is now a block, it requires a different Name
+	In most cases it is sufficient to just add the modID. Like water becomes minecraft:water, lava becomes minecraft:lava, and so on
+	Be careful with "ExactNameMatch". It will safe you some lines here if you set it to true, but then *any* item containing *water*
+	will match, obviously. So itemWaterTank, blockWaterSource, .. all those will match if ExactNameMatch is true -->
+    <Fluid FluidName="minecraft:water" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="false">
+        <PotionEffect PotionID="10" TickDuration="100" Level="1"/>
+    </Fluid>
+</HazardousItemList>

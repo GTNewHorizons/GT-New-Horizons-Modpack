@@ -158,7 +158,7 @@ public class HazardousItemsCommand implements ICommand
         // Commands for ingame only >>
         else
         {
-            String tCmd = pArgs[0];
+           /* String tCmd = pArgs[0];
             if (tCmd.equalsIgnoreCase("addpotion") || tCmd.equalsIgnoreCase("adddamage") || tCmd.equalsIgnoreCase("removeitem"))
             {
                 if (!InGame(pCmdSender))
@@ -215,7 +215,7 @@ public class HazardousItemsCommand implements ICommand
                     }
                 }
             }
-             else
+             else*/
                 SendHelpToPlayer(pCmdSender);
         }
     }
@@ -270,15 +270,15 @@ public class HazardousItemsCommand implements ICommand
         }
         else
         {
-            PlayerChatHelper.SendInfo(pCmdSender, "  /hazarditems addpotion <potionID> <tickDuration> <level>");
+/*            PlayerChatHelper.SendInfo(pCmdSender, "  /hazarditems addpotion <potionID> <tickDuration> <level>");
             PlayerChatHelper.SendInfo(pCmdSender, "  /hazarditems adddamage <damageSource> <damageAmount>");
             PlayerChatHelper.SendInfo(pCmdSender, "  /hazarditems removeitem [all]");
             PlayerChatHelper.SendInfo(pCmdSender, "* tickDuration is [seconds*20]");
-            PlayerChatHelper.SendInfo(pCmdSender, "* damageAmount is a float, where 1.0 equals 1 heart");
+            PlayerChatHelper.SendInfo(pCmdSender, "* damageAmount is a float, where 1.0 equals 1 heart");*/
             PlayerChatHelper.SendInfo(pCmdSender, "/hazarditems reload|save|listdamagesources|listpotions");            
         }
     }
-
+/*
     private void ProcessRemoveItemCommand(EntityPlayer pPlayer, ItemStack pInHand, String[] pArgs)
     {
         boolean bFlag = false;
@@ -341,7 +341,7 @@ public class HazardousItemsCommand implements ICommand
             PlayerChatHelper.SendError(pPlayer, "Error in your command. Check your syntax");
         }
     }
-
+*/
     /*
      * Make sure only an op/admin can execute this command
      */

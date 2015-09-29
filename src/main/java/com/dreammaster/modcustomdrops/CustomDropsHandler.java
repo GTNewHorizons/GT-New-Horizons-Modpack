@@ -21,6 +21,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
+import com.dreammaster.auxiliary.ItemHelper;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
@@ -117,7 +118,7 @@ public class CustomDropsHandler
     	{
     		for (Drop Y : X.getDrops())
     		{
-    			if (ConvertStringToItem(Y.getItemName()) == null)
+    			if (ItemHelper.ConvertStringToItem(Y.getItemName()) == null)
     			{
     				_mLogger.error(String.format("In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
     				tSuccess = false;
@@ -141,31 +142,7 @@ public class CustomDropsHandler
     	}
     	return tSuccess;
     }
-    
-    private Item ConvertStringToItem(String pItemIdentifier)
-    {
-		String[] args = pItemIdentifier.split(":");
-		String tMod;
-		String tName;
-		int tMeta;
-		
-		if (args.length >= 2)
-		{
-			tMod = args[0];
-			tName = args[1];
-			if (args.length == 3)
-				tMeta = Integer.parseInt(args[2]);
-			else
-				tMeta = 0;
-			
-			Item tItem = GameRegistry.findItem(tMod, tName);
-			if (tItem != null)
-				return tItem;
-			else
-				return null;
-		}
-		return null;
-    }
+
     
     public boolean ReloadCustomDrops()
     {
@@ -304,7 +281,7 @@ public class CustomDropsHandler
 				if (dr.getIsRandomAmount())
 					tFinalAmount = 1 + MainRegistry.Rnd.nextInt(dr.getAmount() -1 );
 				
-				Item tITD = ConvertStringToItem(dr.getItemName());
+				Item tITD = ItemHelper.ConvertStringToItem(dr.getItemName());
 				ItemStack tDropStack = new ItemStack(tITD);
 
 				try
