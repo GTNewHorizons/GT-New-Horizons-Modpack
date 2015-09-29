@@ -13,6 +13,7 @@ import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
 import mods.ic2.Canner;
 import mods.ic2.Compressor;
@@ -2642,24 +2643,6 @@ Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> 
 // --- Quad Thorium Fuel Rod
 Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 32);
 
-// --- 60k Helium Cooling Cell
-Assembler.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:helium> * 1000, 400, 120);
-
-// --- 180k Helium Cooling Cell
-Assembler.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <gregtech:gt.60k_Helium_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
-
-// --- 360k Helium Cooling Cell
-Assembler.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <gregtech:gt.180k_Helium_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 480);
-
-// --- 60k NaK Cooling Cell
-Assembler.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:sodiumpotassium> * 1000, 400, 120);
-
-// --- 180k NaK Cooling Cell
-Assembler.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <gregtech:gt.60k_NaK_Coolantcell> * 3, <gregtech:gt.metaitem.01:17057> * 6, <liquid:molten.copper> * 576, 500, 256);
-
-// --- 360k NaK Cooling Cell
-Assembler.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <gregtech:gt.180k_NaK_Coolantcell> * 2, <gregtech:gt.metaitem.01:17057> * 8, <liquid:molten.copper> * 1440, 600, 480);
-
 // --- RTG Pellets
 Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 120);
 
@@ -2898,6 +2881,31 @@ Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>
 Fermenter.addRecipe(<liquid:honey> * 1000, <liquid:for.honey> * 1000, 20, false);
 // -
 Fermenter.addRecipe(<liquid:for.honey> * 1000, <liquid:honey> * 1000, 20, false);
+
+
+
+
+// --- Fluid Canner Recipes
+
+
+
+// --- 60k Helium Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.60k_Helium_Coolantcell>, <dreamcraft:item.TenKCell>, null, <liquid:helium> * 1000);
+
+// --- 180k Helium Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.ThirtyKCell>, null, <liquid:helium> * 3000);
+
+// --- 360k Helium Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.360k_Helium_Coolantcell>, <dreamcraft:item.SixtyKCell>, null, <liquid:helium> * 6000);
+
+// --- 60k NaK Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.60k_NaK_Coolantcell>, <dreamcraft:item.TenKCell>, null, <liquid:sodiumpotassium> * 1000);
+
+// --- 180k NaK Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.180k_NaK_Coolantcell>, <dreamcraft:item.ThirtyKCell>, null, <liquid:sodiumpotassium> * 3000);
+
+// --- 360k NaK Cooling Cell
+FluidCanner.addRecipe(<gregtech:gt.360k_NaK_Coolantcell>, <dreamcraft:item.SixtyKCell>, null, <liquid:sodiumpotassium> * 6000);
 
 
 

@@ -1508,15 +1508,6 @@ Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17
 // --- Hazmat Suit Leggings
 Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 30);
 
-// --- 10k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSimple:1>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, <liquid:ic2coolant> * 1000, 200, 30);
-
-// --- 30k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantTriple:1>, <IC2:itemCellEmpty> * 3, <gregtech:gt.metaitem.01:17057> * 12, <liquid:ic2coolant> * 3000, 300, 64);
-
-// --- 60k Coolant Cell
-Assembler.addRecipe(<IC2:reactorCoolantSix:1>, <IC2:itemCellEmpty> * 6, <gregtech:gt.metaitem.01:17057> * 24, <liquid:ic2coolant> * 6000, 400, 120);
-
 // --- Solar Helmet
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 30);
 // -
@@ -1732,6 +1723,15 @@ FluidCanner.addRecipe(<IC2:itemFoamSprayer>.withTag({Fluid: {FluidName: "ic2cons
 
 // --- CF Back Pack
 FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 80000}}), <IC2:itemArmorCFPack:27>, null, <liquid:ic2constructionfoam> * 80000);
+
+// --- 10k Cooling Cell
+FluidCanner.addRecipe(<IC2:reactorCoolantSimple:1>, <dreamcraft:item.TenKCell>, null, <liquid:ic2coolant> * 1000);
+
+// --- 30k Cooling Cell
+FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell>, null, <liquid:ic2coolant> * 3000);
+
+// --- 60k Cooling Cell
+FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
 
 
 

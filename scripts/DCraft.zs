@@ -813,8 +813,7 @@ AlloySmelter.addRecipe(<dreamcraft:item.CokeOvenBrick>, <minecraft:sand> * 2, <m
 
 
 
-// --- Assembler and AssemblerLiq Recipes
-
+// --- Assembler Recipes
 
 
 
@@ -966,6 +965,15 @@ Assembler.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
+
+// --- 10k Cell
+Assembler.addRecipe(<dreamcraft:item.TenKCell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, 100, 30);
+
+// --- 30k Cell
+Assembler.addRecipe(<dreamcraft:item.ThirtyKCell>, <IC2:itemCellEmpty> * 3, <gregtech:gt.metaitem.01:17057> * 12, 300, 30);
+
+// --- 60k Cell
+Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <IC2:itemCellEmpty> * 6, <gregtech:gt.metaitem.01:17057> * 24, 600, 30);
 
 
 
