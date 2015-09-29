@@ -970,10 +970,10 @@ Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:
 Assembler.addRecipe(<dreamcraft:item.TenKCell>, <IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:17057> * 4, 100, 30);
 
 // --- 30k Cell
-Assembler.addRecipe(<dreamcraft:item.ThirtyKCell>, <IC2:itemCellEmpty> * 3, <gregtech:gt.metaitem.01:17057> * 12, 300, 30);
+Assembler.addRecipe(<dreamcraft:item.ThirtyKCell>, <dreamcraft:item.TenKCell> * 3, <gregtech:gt.metaitem.01:17057> * 12, 300, 60);
 
 // --- 60k Cell
-Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <IC2:itemCellEmpty> * 6, <gregtech:gt.metaitem.01:17057> * 24, 600, 30);
+Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <dreamcraft:item.ThirtyKCell> * 2, <gregtech:gt.metaitem.01:17057> * 24, 600, 90);
 
 
 
