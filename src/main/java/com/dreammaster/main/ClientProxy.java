@@ -1,8 +1,9 @@
 package com.dreammaster.main;
 
-import com.dreammaster.inventorytest.BlockTiny;
-import com.dreammaster.inventorytest.BlockTinyRender;
-import com.dreammaster.inventorytest.TileEntityTiny;
+import com.dreammaster.modbabychest.BlockBabyChest;
+import com.dreammaster.modbabychest.RenderBabyChest;
+import com.dreammaster.modbabychest.RenderItemBabyChest;
+import com.dreammaster.modbabychest.TileEntityBabyChest;
 
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,10 +17,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ClientProxy extends CommonProxy{
 	public void registerRenderInfo() {
+	    BlockBabyChest.pRenderID = RenderingRegistry.getNextAvailableRenderId();
+	    TileEntitySpecialRenderer render = new RenderBabyChest();
 	    
-	    TileEntitySpecialRenderer render = new BlockTinyRender();
-	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTiny.class, render);
-
+	    MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(MainRegistry._mBlockBabyChest), new RenderItemBabyChest());
+	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBabyChest.class, render);
 	}
     @Override
     public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)

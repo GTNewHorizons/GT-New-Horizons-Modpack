@@ -2,6 +2,11 @@ package com.dreammaster.main;
 
 import java.util.Random;
 
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import com.dreammaster.baubles.OvenGlove;
@@ -16,11 +21,12 @@ import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.gthandler.ItemPipes;
-import com.dreammaster.inventorytest.BlockTiny;
-import com.dreammaster.inventorytest.GuiHandler;
-import com.dreammaster.inventorytest.TileEntityTiny;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.modbabychest.BlockBabyChest;
+import com.dreammaster.modbabychest.GuiHandler;
+import com.dreammaster.modbabychest.ItemBlockBabyChest;
+import com.dreammaster.modbabychest.TileEntityBabyChest;
 import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
@@ -176,7 +182,6 @@ public class MainRegistry {
 		}
 		// ------------------------------------------------------------
 			
-		proxy.registerRenderInfo();
         if(PreEvent.getSide() == Side.CLIENT) {
             FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
         }
@@ -215,11 +220,22 @@ public class MainRegistry {
 		
 		// register events in modules
 		RegisterModuleEvents();
-		
-		GameRegistry.registerTileEntity(TileEntityTiny.class, String.format("%s_%s", Refstrings.MODID, "TETinyBlock"));
-		GameRegistry.registerBlock(new BlockTiny(), "TinyBlockSampleGui");
-		NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
 
+		if (CoreConfig.ModBabyChest_Enabled)
+		    InitAdditionalBlocks();
+	}
+	
+	public static Block _mBlockBabyChest = new BlockBabyChest();
+	
+	private void InitAdditionalBlocks()
+	{
+	    GameRegistry.registerBlock(_mBlockBabyChest, ItemBlockBabyChest.class, "BabyChest");
+	    GameRegistry.addShapelessRecipe(new ItemStack(_mBlockBabyChest, 9), new ItemStack(Blocks.chest, 1, 0));
+        GameRegistry.registerTileEntity(TileEntityBabyChest.class, "teBabyChest");
+
+        NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());	    
+        
+        proxy.registerRenderInfo();
 	}
 	
 	private void RegisterModuleEvents()
