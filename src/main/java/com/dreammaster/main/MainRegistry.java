@@ -16,6 +16,9 @@ import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.gthandler.ItemPipes;
+import com.dreammaster.inventorytest.BlockTiny;
+import com.dreammaster.inventorytest.GuiHandler;
+import com.dreammaster.inventorytest.TileEntityTiny;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.modctt.CustomToolTipsHandler;
@@ -27,11 +30,13 @@ import com.dreammaster.modingameerrorlog.IngameErrorLog;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.LogHelper;
@@ -48,7 +53,10 @@ import eu.usrv.yamcore.items.ModItemManager;
 public class MainRegistry {
 	
 	@SidedProxy(clientSide = Refstrings.CLIENTSIDE,  serverSide = Refstrings.SERVERSIDE)
-	public static ServerProxy proxy;
+	public static CommonProxy proxy;
+	
+	@Instance(Refstrings.MODID)
+    public static MainRegistry instance;
 	
 	public static ModItemManager ItemManager = null;
 	public static CreativeTabsManager TabManager = null;
@@ -70,7 +78,7 @@ public class MainRegistry {
 	}
 	
 	@EventHandler
-	public static void PreLoad(FMLPreInitializationEvent PreEvent) {
+	public void PreLoad(FMLPreInitializationEvent PreEvent) {
 		Logger.setDebugOutput(true);
 		
 		Rnd = new Random(System.currentTimeMillis());
@@ -186,7 +194,7 @@ public class MainRegistry {
 	}
 	
 	@EventHandler
-	public static void load(FMLInitializationEvent event) {
+	public void load(FMLInitializationEvent event) {
 		 // register final list with valid items to forge
 		Logger.debug("LOAD Register Items");
 		ItemManager.RegisterItems(TabManager);
@@ -208,9 +216,13 @@ public class MainRegistry {
 		// register events in modules
 		RegisterModuleEvents();
 		
+		GameRegistry.registerTileEntity(TileEntityTiny.class, String.format("%s_%s", Refstrings.MODID, "TETinyBlock"));
+		GameRegistry.registerBlock(new BlockTiny(), "TinyBlockSampleGui");
+		NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
+
 	}
 	
-	private static void RegisterModuleEvents()
+	private void RegisterModuleEvents()
 	{
         if (CoreConfig.ModAdminErrorLogs_Enabled)
             FMLCommonHandler.instance().bus().register(Module_AdminErrorLogs);
@@ -229,7 +241,7 @@ public class MainRegistry {
 	}
 	
 	@EventHandler
-	public static void PostLoad(FMLPostInitializationEvent PostEvent) {
+	public void PostLoad(FMLPostInitializationEvent PostEvent) {
 
 		if (CoreConfig.ModHazardousItems_Enabled)
 			Module_HazardousItems.LoadConfig();
