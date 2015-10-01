@@ -69,5 +69,10 @@ recipes.addShaped(<RandomThings:onlineDetector>, [
 [<chisel:iron_bars:2>, SensorMV, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, <ProjRed|Illumination:projectred.illumination.lamp:30>, <chisel:iron_bars:2>],
 [<chisel:iron_bars:2>, CircuitGood, <chisel:iron_bars:2>]]);
+// -
+recipes.addShaped(<RandomThings:onlineDetector>, [
+[<minecraft:iron_bars>, SensorMV, <minecraft:iron_bars>],
+[<minecraft:iron_bars>, <ProjRed|Illumination:projectred.illumination.lamp:30>, <minecraft:iron_bars>],
+[<minecraft:iron_bars>, CircuitGood, <minecraft:iron_bars>]]);
 
 // --- Hiding Stuff ---
