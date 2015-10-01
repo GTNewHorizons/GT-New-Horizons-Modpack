@@ -83,8 +83,9 @@ public class ItemInHandInfoCommand implements ICommand
             PlayerChatHelper.SendPlain(pCmdSender, String.format("Unloc.Name:  [%s]", inHand.getUnlocalizedName()));
             PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemName:  [%s]", UID.toString()));
             PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemMeta:  [%s]", inHand.getItemDamage()));
-            PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemNBT:  [%s]", inHand.stackTagCompound));
             PlayerChatHelper.SendPlain(pCmdSender, String.format("FluidContainer:  [%s]", getFluidContainerContents(inHand)));
+            PlayerChatHelper.SendPlain(pCmdSender, String.format("ClassName:  [%s]", inHand.getItem().getClass().toString()));
+            PlayerChatHelper.SendPlain(pCmdSender, String.format("ItemNBT:  [%s]", inHand.stackTagCompound));
             
         } catch (Exception e)
         {

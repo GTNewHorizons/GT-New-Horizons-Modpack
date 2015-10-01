@@ -11,6 +11,7 @@ import javax.xml.bind.Unmarshaller;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.MathHelper;
@@ -438,6 +439,25 @@ public class HazardousItemsHandler {
                         HazardousFluid hf = _mHazardItemsCollection.FindHazardousFluid(is);
                         if (hf != null && hf.getCheckInventory())
                             DoHIEffects(hf, pPlayer);
+                    }
+                    // Tinkers' construct smeltery tank
+                    else if (is.getItem().getClass().getName().equals("tconstruct.smeltery.itemblocks.LavaTankItemBlock"))
+                    {
+                    	NBTTagCompound tNBT = is.getTagCompound();
+                    	if (tNBT != null && tNBT.hasKey("Fluid"))
+                    	{
+                    		NBTTagCompound tFluidCompound = tNBT.getCompoundTag("Fluid");
+                    		if (tFluidCompound != null && tFluidCompound.hasKey("FluidName"))
+                    		{
+                    			String tFluidName = tFluidCompound.getString("FluidName");
+                    			if (tFluidName != null && tFluidName.length() > 0)
+                    			{
+                                    HazardousFluid hf = _mHazardItemsCollection.FindHazardousFluid(is);
+                                    if (hf != null && hf.getCheckInventory())
+                                        DoHIEffects(hf, pPlayer);
+                    			}
+                    		}
+                    	}
                     }
                     else
                     {
