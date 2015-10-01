@@ -13,11 +13,14 @@ import mods.nei.NEI;
 
 
 
-// --- SuperConductorCover
+// --- Super ConductorCover
 recipes.remove(<GraviSuite:itemSimpleItem>);
 
-// --- SuperConductor
+// --- Super Conductor
 recipes.remove(<GraviSuite:itemSimpleItem:1>);
+
+// --- Cooling Core
+recipes.remove(<GraviSuite:itemSimpleItem:2>);
 
 // --- Gravitation Engine
 recipes.remove(<GraviSuite:itemSimpleItem:3>);
@@ -25,10 +28,13 @@ recipes.remove(<GraviSuite:itemSimpleItem:3>);
 // --- Magnetron
 recipes.remove(<GraviSuite:itemSimpleItem:4>);
 
-// --- VajraCore
+// --- Vajra Core
 recipes.remove(<GraviSuite:itemSimpleItem:5>);
 
-// --- EngineBoost
+// --- Vajra
+recipes.remove(<GraviSuite:vajra:*>);
+
+// --- Engine Boost
 recipes.remove(<GraviSuite:itemSimpleItem:6>);
 
 // --- GraviChest
@@ -63,43 +69,60 @@ recipes.remove(<GraviSuite:relocator:*>);
 // --- Add Recipes ---
 
 
-// --- SuperConductorCover
+// --- Super Conductor Cover
 recipes.addShaped(<GraviSuite:itemSimpleItem>, [
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>],
 [<gregtech:gt.blockmachines:2020>, <gregtech:gt.blockmachines:2020>, <gregtech:gt.blockmachines:2020>],
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>]]);
 
-// --- SuperConductor
-recipes.addShaped(<GraviSuite:itemSimpleItem:1>,[
+// --- Super Conductor
+recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>],
 [<gregtech:gt.blockmachines:2024>, <ore:platePlatinum>, <gregtech:gt.blockmachines:2024>],
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>]]);
 
+// --- Cooling Core
+recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
+[<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
+[<gregtech:gt.180k_NaK_Coolantcell>, <ore:plateAlloyIridium>, <gregtech:gt.180k_NaK_Coolantcell>],
+[<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
+// -
+recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
+[<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
+[<gregtech:gt.180k_Helium_Coolantcell>, <ore:plateAlloyIridium>, <gregtech:gt.180k_Helium_Coolantcell>],
+[<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
+
 // --- Gravitation Engine
-recipes.addShaped(<GraviSuite:itemSimpleItem:3>,[
+recipes.addShaped(<GraviSuite:itemSimpleItem:3>, [
 [<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>],
 [<GraviSuite:itemSimpleItem:2>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:2>],
 [<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>]]);
  
 // --- Magnetron
-recipes.addShaped(<GraviSuite:itemSimpleItem:4>,[
+recipes.addShaped(<GraviSuite:itemSimpleItem:4>, [
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
 [<ore:plateDenseCopper>, <GraviSuite:itemSimpleItem:1>, <ore:plateDenseCopper>],
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>]]);
  
-// --- VajraCore
-recipes.addShaped(<GraviSuite:itemSimpleItem:5>,[
-[null, <ore:plateCopper>, null],
+// --- Vajra Core
+recipes.addShaped(<GraviSuite:itemSimpleItem:5>, [
+[<ore:craftingToolWrench>, <ore:plateCopper>, <ore:craftingToolHardHammer>],
 [<IC2:itemPartIridium>, <IC2:blockMachine2:1>, <IC2:itemPartIridium>],
 [<GraviSuite:itemSimpleItem:1>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:1>]]);
+
+// --- Vajra
+recipes.addShaped(<GraviSuite:vajra>, [
+[<dreamcraft:item.EngravedEnergyChip>, <GraviSuite:itemSimpleItem:4>, <ore:lensReinforcedGlass>],
+[<ore:plateAlloyCarbon>, <GraviSuite:itemSimpleItem:5>, <ore:plateAlloyCarbon>],
+[<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
  
-// --- EngineBoost
+// --- Engine Boost
 recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<dreamcraft:item.AluminiumItemCasing>, <IC2:itemPartAlloy>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
 [<IC2:reactorPlating>, <IC2:reactorVentDiamond:1>, <IC2:reactorPlating>]]);
 
-// --- GraviChest
+// --- Gravi Chest
 recipes.addShaped(<GraviSuite:graviChestPlate>, [
 [<GraviSuite:itemSimpleItem:1>, <IC2:itemArmorQuantumChestplate:*>, <GraviSuite:itemSimpleItem:1>],
 [<GraviSuite:itemSimpleItem:3>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:3>],

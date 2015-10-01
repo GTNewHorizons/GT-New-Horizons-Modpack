@@ -713,9 +713,9 @@ recipes.addShaped(<dreamcraft:item.LightShaft>, [
 
 // --- Neutron Reflector Parts
 recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
-[<IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>],
-[<IC2:reactorReflectorThick>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick>],
-[<IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>, <IC2:reactorReflectorThick>]]);
+[<IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>],
+[<IC2:reactorReflectorThick:1>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick:1>],
+[<IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>]]);
 
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
