@@ -1,5 +1,7 @@
 package com.dreammaster.block;
 
+import net.minecraft.block.material.Material;
+
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -40,6 +42,7 @@ public enum BlockList {
 	QuintupleCompressedCoal(new ModSimpleBaseBlock(new QuintupleCompressedCoalProperties(), ModTabList.ModBlocksTab)),
 	QuintupleCompressedCoalCoke(new ModSimpleBaseBlock(new QuintupleCompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
 	DiamondFrameBox(new ModSimpleBaseBlock(new DiamondFrameBoxProperties(), ModTabList.ModBlocksTab)),
+	CompressedGraphite(new ModSimpleBaseBlock(Material.iron, "CompressedGraphite", ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
