@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-0.9.28a"
+version = "1.7.10-0.9.28b"
 group= "com.dreammaster" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "GTNewHorizonsCoreMod"
 

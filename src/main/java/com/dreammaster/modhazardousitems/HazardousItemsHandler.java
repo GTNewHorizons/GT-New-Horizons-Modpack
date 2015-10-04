@@ -443,21 +443,34 @@ public class HazardousItemsHandler {
                     // Tinkers' construct smeltery tank
                     else if (is.getItem().getClass().getName().equals("tconstruct.smeltery.itemblocks.LavaTankItemBlock"))
                     {
+                    	//_mLogger.info("Found lavatank");
                     	NBTTagCompound tNBT = is.getTagCompound();
                     	if (tNBT != null && tNBT.hasKey("Fluid"))
                     	{
+                    		//_mLogger.info("...Has NBT 'Fluid'...");
                     		NBTTagCompound tFluidCompound = tNBT.getCompoundTag("Fluid");
                     		if (tFluidCompound != null && tFluidCompound.hasKey("FluidName"))
                     		{
+                    			//_mLogger.info("...Has NBT 'FluidName'...");
                     			String tFluidName = tFluidCompound.getString("FluidName");
                     			if (tFluidName != null && tFluidName.length() > 0)
                     			{
-                                    HazardousFluid hf = _mHazardItemsCollection.FindHazardousFluid(is);
+                    				//_mLogger.info("...Finding Hazardous Fluids...");
+                                    HazardousFluid hf = _mHazardItemsCollection.FindHazardousFluidExact(tFluidName);
                                     if (hf != null && hf.getCheckInventory())
+                                    {
+                                    	//_mLogger.info("...Found Hazardous Fluids");
                                         DoHIEffects(hf, pPlayer);
+                                    }
+                                    //else
+                                    	//_mLogger.info("...Not found Hazardous Fluids");
                     			}
                     		}
+                    		//else
+                    			//_mLogger.info("...Has no NBT 'FluidName'");
                     	}
+                    	//else
+                    		//_mLogger.info("...Has no NBT 'Fluid'");
                     }
                     else
                     {
