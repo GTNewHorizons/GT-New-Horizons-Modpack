@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <HazardousItemList>
-    <Item UnlocalizedName="sampleItemThatDoesNotExists" ExactNameMatch="true">
+    <Item ItemName="tfarcenim:stone" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <DamageEffect Source="inFire" Amount="0.5"/>
         <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
     </Item>
-    <Item UnlocalizedName="item.for.canLava" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
+    <Fluid FluidName="tfarcenim:water" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="0.5"/>
+        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
+    </Fluid>
+	    <Item ItemName="minecraft:lava_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
     </Item>
-    <Item UnlocalizedName="item.for.refractoryLava" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
+		<Fluid FluidName="lava" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
+    </Fluid>
+    <Item ItemName="Forestry:canLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
     </Item>
-    <Item UnlocalizedName="item.iguana.tcon.clayBucket.Lava" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
+    <Item ItemName="Forestry:refractoryLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
     </Item>
-    <Item UnlocalizedName="fluid.tile.lava" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
+    <Item ItemName="IguanaTweaksTConstruct:clayBucketLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
     </Item>
-    <Item UnlocalizedName="item.BedrockiumPlate" ExactNameMatch="true">
+    <Item ItemName="dreamcraft:item.BedrockiumPlate" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="2" TickDuration="200" Level="4"/>
     </Item>
-    <Item UnlocalizedName="item.capsule.magic" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
+    <Item ItemName="MagicBees:capsule.magic:2" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="inFire" Amount="1"/>
     </Item>
-	<Item UnlocalizedName="tile.lava" ExactNameMatch="true">
-        <DamageEffect Source="onFire" Amount="1.0"/>
-    </Item>
-	</HazardousItemList>
+</HazardousItemList>
