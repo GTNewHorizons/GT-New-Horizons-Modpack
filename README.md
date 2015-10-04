@@ -155,7 +155,7 @@ NEI	1.0.5.118<BR>
 Nei Addons	1.12.12.37<BR>
 Nei Integration	1.0.12<BR>
 Nodal Mechanics	1.0-10<BR>
-Not Enough Codecs	10.03.13
+Not Enough Codecs	10.03.13<BR>
 Not enouht Keys	1.0.0b41<BR>
 Open Blocks	10.1.4.4.674<BR>
 Open Computers	1.5.18.36<BR>
