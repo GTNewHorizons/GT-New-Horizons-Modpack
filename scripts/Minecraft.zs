@@ -3312,6 +3312,17 @@ Assembler.addRecipe(Chest, <Forestry:fireproofLog8:*> * 2, <harvestthenether:net
 // -
 Assembler.addRecipe(Chest, <Forestry:fireproofLog8:*> * 2, <witchery:witchwood:*> * 2, 100, 30);
 
+// --- Lever
+Assembler.addRecipe(Lever, <minecraft:stick>, <minecraft:stone_button>, 50, 16);
+// -
+Assembler.addRecipe(Lever, <Natura:natura.stick:*>, <minecraft:stone_button>, 50, 16);
+// -
+Assembler.addRecipe(Lever, <BiomesOPlenty:bamboo>, <minecraft:stone_button>, 50, 16);
+// -
+Assembler.addRecipe(Lever, <BiomesOPlenty:plants:8>, <minecraft:stone_button>, 50, 16);
+
+
+
 
 
 

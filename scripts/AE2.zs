@@ -524,6 +524,12 @@ recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [
 [FluixGlassCable, <appliedenergistics2:tile.BlockChest>, FluixGlassCable], 
 [TitaniumPlate, <IC2:itemPartCircuitAdv>, TitaniumPlate]]);
 
+// --- Crystal Growth Accelerator
+recipes.addShaped(CrystalAccelerator, [
+[TitaniumPlate, QuartzGlass, TitaniumPlate], 
+[FluixGlassCable, <gregtech:gt.blockmachines:572>, FluixGlassCable], 
+[TitaniumPlate, DiamondCircuit, TitaniumPlate]]);
+
 // --- CraftingUnit
 recipes.addShaped(CraftingUnit, [
 [TitaniumPlate, GoldCircuit, TitaniumPlate],
@@ -551,7 +557,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [
 // --- ME Quantum Link Chamber
 recipes.addShaped(<appliedenergistics2:tile.BlockQuantumLinkChamber>, [
 [TitaniumPlate, FluixPearl, TitaniumPlate],
-[FluixPearl, <appliedenergistics2:tile.BlockQuartzGlass>, FluixPearl],
+[FluixPearl, QuartzGlass, FluixPearl],
 [TitaniumPlate, FluixPearl, TitaniumPlate]]);
   
 // --- Spatial Pylon
@@ -681,13 +687,13 @@ recipes.addShaped(FluixCoveredC * 2, [
 [RubberPlate, Saw, RubberPlate]]);
 
 // --- Annihilation Core
-recipes.addShaped(AnnihilationCore, [
+recipes.addShaped(AnnihilationCore * 2, [
 [NQuartzRod, GoldCircuit, NQuartzRod],
 [GoldCircuit, PureFluixCrystal, GoldCircuit],
 [NQuartzRod, GoldCircuit, NQuartzRod]]);
 
 // --- Formation Core
-recipes.addShaped(FormationCore, [
+recipes.addShaped(FormationCore * 2, [
 [CertusRod, GoldCircuit, CertusRod],
 [GoldCircuit, PureFluixCrystal, GoldCircuit],
 [CertusRod, GoldCircuit, CertusRod]]);
@@ -781,7 +787,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [
 
 // --- Blank Pattern
 recipes.addShaped(Pattern, [
-[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:plateGlowstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
+[QuartzGlass, <ore:plateGlowstone>, QuartzGlass],
 [<ore:plateGlowstone>, <ore:itemCertusQuartz>, <ore:plateGlowstone>],
 [AlPlate, AlPlate, AlPlate]]);
   
@@ -1117,7 +1123,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:34>, [
 
 
 // --- Quartz Glass
-AlloySmelter.addRecipe(<appliedenergistics2:tile.BlockQuartzGlass> * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
+AlloySmelter.addRecipe(QuartzGlass * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
 
 
 
@@ -1126,7 +1132,7 @@ AlloySmelter.addRecipe(<appliedenergistics2:tile.BlockQuartzGlass> * 4, <minecra
 
 
 // --- Vibrant Quartz Glass
-Assembler.addRecipe(<appliedenergistics2:tile.BlockQuartzLamp>, <appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:glowstone_dust> * 8, 200, 30);
+Assembler.addRecipe(<appliedenergistics2:tile.BlockQuartzLamp>, QuartzGlass, <minecraft:glowstone_dust> * 8, 200, 30);
 // -
 Assembler.addRecipe(<appliedenergistics2:tile.BlockQuartzLamp>, <ExtraUtilities:decorativeBlock2:7>, <appliedenergistics2:item.ItemMultiMaterial:8> * 2, 200, 30);
 
