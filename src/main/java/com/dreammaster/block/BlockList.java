@@ -42,7 +42,7 @@ public enum BlockList {
 	QuintupleCompressedCoal(new ModSimpleBaseBlock(new QuintupleCompressedCoalProperties(), ModTabList.ModBlocksTab)),
 	QuintupleCompressedCoalCoke(new ModSimpleBaseBlock(new QuintupleCompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
 	DiamondFrameBox(new ModSimpleBaseBlock(new DiamondFrameBoxProperties(), ModTabList.ModBlocksTab)),
-	CompressedGraphite(new ModSimpleBaseBlock(Material.iron, "CompressedGraphite", ModTabList.ModBlocksTab)),
+	CompressedGraphite(new ModSimpleBaseBlock(new CompressedGraphiteProperties(), ModTabList.ModBlocksTab)),
 
 	// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
