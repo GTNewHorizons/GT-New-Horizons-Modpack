@@ -7,6 +7,7 @@
 
 import mods.nei.NEI;
 import mods.gregtech.AlloySmelter;
+import mods.gregtech.Assembler;
 
 
 
@@ -81,8 +82,6 @@ val HHammer = <ore:craftingToolHardHammer>;
 // --- Removing Recipes ---
 
 
-// ||||| Cells |||||
-
 
 // --- Storage Cell - 256K
 recipes.remove(Storage256K);
@@ -111,38 +110,38 @@ recipes.remove(StorageComponent16384K);
 // --- Universal Advanced Storage Housing
 recipes.remove(UAdvStorageHousing);
 
-//Certus Quartz Tank
+// --- Certus Quartz Tank
 recipes.remove(<extracells:certustank>);
 
-//ME Fluid Pattern
+// --- ME Fluid Assembler
+recipes.remove(<extracells:fluidcrafter>);
+
+// --- ME Fluid Pattern
 recipes.remove(<extracells:pattern.fluid>);
 
-//ME Fluid Export Bus
+// --- ME Fluid Export Bus
 recipes.remove(<extracells:part.base>);
 
-//ME Fluid Import Bus
+// --- ME Fluid Import Bus
 recipes.remove(<extracells:part.base:1>);
 
-//ME Fluid Storage Bus
+// --- ME Fluid Storage Bus
 recipes.remove(<extracells:part.base:2>);
 
-//ME Fluid Terminal
+// --- ME Fluid Terminal
 recipes.remove(<extracells:part.base:3>);
 
-//ME Fluid Level Emitter
+// --- ME Fluid Level Emitter
 recipes.remove(<extracells:part.base:4>);
 
-//ME Fluid Annihilation Plane
+// --- ME Fluid Annihilation Plane
 recipes.remove(<extracells:part.base:5>);
 
-//ME Fluid Formating Plane
+// --- ME Fluid Formating Plane
 recipes.remove(<extracells:part.base:6>);
 
-//ME Drive Fixture
+// --- ME Drive Fixture
 recipes.remove(<extracells:part.base:7>);
-
-// ||||| Fluid Cells |||||
-
 
 // --- Fluid Storage Cell - 1K
 recipes.remove(FluidStorage1K);
@@ -189,12 +188,22 @@ recipes.remove(FluidSComponent4096K);
 // --- Universal Advanced Storage Housing
 recipes.remove(UFluidStorageHousing);
 
+// --- ME Fluid Interface
+recipes.remove(<extracells:ecbaseblock>);
+
+// --- ME Fluid Auto Filler
+recipes.remove(<extracells:ecbaseblock:1>);
+
+// --- Blast Resistance ME Drive
+recipes.remove(<extracells:hardmedrive>);
+
+// --- Fluid Vibration Chamber
+recipes.remove(<extracells:vibrantchamberfluid>);
+
+
 
 
 // --- Adding Back Recipes ---
-
-
-// ||||| Cells |||||
 
 
 // --- Storage Cell - 256K
@@ -202,7 +211,7 @@ recipes.addShapedMirrored(Storage256K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [ChromePlate, StorageComponent256K, ChromePlate],
 [NQuartzScrew, ChromePlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(Storage256K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [ChromePlate, StorageComponent256K, ChromePlate],
@@ -215,7 +224,7 @@ recipes.addShapedMirrored(Storage1024K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [TSteelPlate, StorageComponent1024K, TSteelPlate],
 [NQuartzScrew, TSteelPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(Storage1024K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [TSteelPlate, StorageComponent1024K, TSteelPlate],
@@ -228,7 +237,7 @@ recipes.addShapedMirrored(Storage4096K, [
 [HHammer, CertusPlate, CertusScrew],
 [HSLAPlate, StorageComponent4096K, HSLAPlate],
 [CertusScrew, HSLAPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(Storage4096K, [
 [HHammer, CertusPlate, CertusScrew],
 [HSLAPlate, StorageComponent4096K, HSLAPlate],
@@ -241,7 +250,7 @@ recipes.addShapedMirrored(Storage16384K, [
 [HHammer, CertusPlate, CertusScrew],
 [ReinforcedIridiumPlate, StorageComponent16384K, ReinforcedIridiumPlate],
 [CertusScrew, ReinforcedIridiumPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(Storage16384K, [
 [HHammer, CertusPlate, CertusScrew],
 [ReinforcedIridiumPlate, StorageComponent16384K, ReinforcedIridiumPlate],
@@ -278,22 +287,18 @@ recipes.addShapedMirrored(UAdvStorageHousing, [
 [HHammer, ClearPane, CertusScrew],
 [ChromePlate, UStorageHousing, ChromePlate],
 [CertusScrew, TSteelPlate, Screwdriver]]);
-// - Alternative Recipe
+// -
 recipes.addShapedMirrored(UAdvStorageHousing, [
 [Screwdriver, ClearPane, CertusScrew],
 [ChromePlate, UStorageHousing, ChromePlate],
 [CertusScrew, TSteelPlate, HHammer]]);
-
-
-// ||||| Fluid Cells |||||
-
 
 // --- Fluid Storage Cell - 1K
 recipes.addShapedMirrored(FluidStorage1K, [
 [HHammer, CertusPlate, QuartziteScrew],
 [AlPlate, FluidSComponent1K, AlPlate],
 [QuartziteScrew, AlPlate, Screwdriver]]);
-// - Alternative Recipe
+// -
 recipes.addShapedMirrored(FluidStorage1K, [
 [Screwdriver, CertusPlate, QuartziteScrew],
 [AlPlate, FluidSComponent1K, AlPlate],
@@ -306,7 +311,7 @@ recipes.addShapedMirrored(FluidStorage4K, [
 [HHammer, CertusPlate, QuartziteScrew],
 [StainlessPlate, FluidSComponent4K, StainlessPlate],
 [QuartziteScrew, StainlessPlate, Screwdriver]]);
-// - Alternative Recipe
+// -
 recipes.addShapedMirrored(FluidStorage4K, [
 [Screwdriver, CertusPlate, QuartziteScrew],
 [StainlessPlate, FluidSComponent4K, StainlessPlate],
@@ -319,7 +324,7 @@ recipes.addShapedMirrored(FluidStorage16K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [TitaniumPlate, FluidSComponent16K, TitaniumPlate],
 [NQuartzScrew, TitaniumPlate, Screwdriver]]);
-// - Alternative Recipe
+// -
 recipes.addShapedMirrored(FluidStorage16K, [
 [Screwdriver, CertusPlate, NQuartzScrew],
 [TitaniumPlate, FluidSComponent16K, TitaniumPlate],
@@ -332,7 +337,7 @@ recipes.addShapedMirrored(FluidStorage64K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [ChromePlate, FluidSComponent64K, ChromePlate],
 [NQuartzScrew, ChromePlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidStorage64K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [ChromePlate, FluidSComponent64K, ChromePlate],
@@ -345,7 +350,7 @@ recipes.addShapedMirrored(FluidStorage256K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [TSteelPlate, FluidSComponent256K, TSteelPlate],
 [NQuartzScrew, TSteelPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidStorage256K, [
 [HHammer, CertusPlate, NQuartzScrew],
 [TSteelPlate, FluidSComponent256K, TSteelPlate],
@@ -358,7 +363,7 @@ recipes.addShapedMirrored(FluidStorage1024K, [
 [HHammer, CertusPlate, CertusScrew],
 [HSLAPlate, FluidSComponent1024K, HSLAPlate],
 [CertusScrew, HSLAPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidStorage1024K, [
 [HHammer, CertusPlate, CertusScrew],
 [HSLAPlate, FluidSComponent1024K, HSLAPlate],
@@ -371,7 +376,7 @@ recipes.addShapedMirrored(FluidStorage4096K, [
 [HHammer, CertusPlate, CertusScrew],
 [ReinforcedIridiumPlate, FluidSComponent4096K, ReinforcedIridiumPlate],
 [CertusScrew, ReinforcedIridiumPlate, Screwdriver]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidStorage4096K, [
 [HHammer, CertusPlate, CertusScrew],
 [ReinforcedIridiumPlate, FluidSComponent4096K, ReinforcedIridiumPlate],
@@ -390,7 +395,7 @@ recipes.addShapedMirrored(FluidSComponent4K, [
 [GoodCircuit, FluidSComponent1K, GoodCircuit],
 [FluidSComponent1K, <extracells:certustank>, FluidSComponent1K],
 [GoodCircuit, FluidSComponent1K, GoodCircuit]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent4K, [
 [GoodCircuit, StorageComponent4K, GoodCircuit],
 [StorageComponent4K, <extracells:certustank>, StorageComponent4K],
@@ -401,7 +406,7 @@ recipes.addShapedMirrored(FluidSComponent16K, [
 [AdvCircuit, FluidSComponent4K, AdvCircuit],
 [FluidSComponent4K, <extracells:certustank>, FluidSComponent4K],
 [AdvCircuit, FluidSComponent4K, AdvCircuit]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent16K, [
 [AdvCircuit, StorageComponent16K, AdvCircuit],
 [StorageComponent16K, <extracells:certustank>, StorageComponent16K],
@@ -412,7 +417,7 @@ recipes.addShapedMirrored(FluidSComponent64K, [
 [DataCircuit, FluidSComponent16K, DataCircuit],
 [FluidSComponent16K, <extracells:certustank>, FluidSComponent16K],
 [DataCircuit, FluidSComponent16K, DataCircuit]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent64K, [
 [DataCircuit, StorageComponent64K, DataCircuit],
 [StorageComponent64K, <extracells:certustank>, StorageComponent64K],
@@ -423,7 +428,7 @@ recipes.addShapedMirrored(FluidSComponent256K, [
 [DataControlCircuit, FluidSComponent64K, DataControlCircuit],
 [FluidSComponent64K, <extracells:certustank>, FluidSComponent64K],
 [DataControlCircuit, FluidSComponent64K, DataControlCircuit]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent256K, [
 [DataControlCircuit, StorageComponent256K, DataControlCircuit],
 [StorageComponent256K, <extracells:certustank>, StorageComponent256K],
@@ -434,7 +439,7 @@ recipes.addShapedMirrored(FluidSComponent1024K, [
 [EFlow, FluidSComponent256K, EFlow],
 [FluidSComponent256K, <extracells:certustank>, FluidSComponent256K],
 [EFlow, FluidSComponent256K, EFlow]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent1024K, [
 [EFlow, StorageComponent1024K, EFlow],
 [StorageComponent1024K, <extracells:certustank>, StorageComponent1024K],
@@ -445,7 +450,7 @@ recipes.addShapedMirrored(FluidSComponent4096K, [
 [DataOrb, FluidSComponent1024K, DataOrb],
 [FluidSComponent1024K, <extracells:certustank>, FluidSComponent1024K],
 [DataOrb, FluidSComponent1024K, DataOrb]]);
-// - Alternate Recipe
+// -
 recipes.addShapedMirrored(FluidSComponent4096K, [
 [DataOrb, StorageComponent4096K, DataOrb],
 [StorageComponent4096K, <extracells:certustank>, StorageComponent4096K],
@@ -456,23 +461,14 @@ recipes.addShapedMirrored(UFluidStorageHousing, [
 [HHammer, CertusPlate, NQuartzScrew],
 [AlPlate, ClearPane, AlPlate],
 [NQuartzScrew, StainlessPlate, Screwdriver]]);
-// - Alternative Recipe
+// -
 recipes.addShapedMirrored(UFluidStorageHousing, [
 [Screwdriver, CertusPlate, NQuartzScrew],
 [AlPlate, ClearPane, AlPlate],
 [NQuartzScrew, StainlessPlate, HHammer]]);
 
-// --- Quartz Tank
-AlloySmelter.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.metaitem.01:32308> * 0, 800, 32);
-
 // --- ME Fluid Pattern
 recipes.addShapeless(<extracells:pattern.fluid>, [<extracells:storage.casing:1>, <ore:bucketEmpty>]);
-
-// --- ME Fluid Export Bus
-recipes.addShapeless(<extracells:part.base>, [<appliedenergistics2:item.ItemMultiPart:260>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
-
-// --- ME Fluid Import Bus
-recipes.addShapeless(<extracells:part.base:1>, [<appliedenergistics2:item.ItemMultiPart:240>, <ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]);
 
 // --- ME Fluid Storage Bus
 recipes.addShaped(<extracells:part.base:2>, [
@@ -497,5 +493,61 @@ recipes.addShapeless(<extracells:part.base:6>, [<appliedenergistics2:item.ItemMu
 
 // --- ME Drive Fixture
 recipes.addShapeless(<extracells:part.base:7>, [<appliedenergistics2:tile.BlockDrive>, <ore:plateIron>, <ore:plateIron>, <ore:plateLapis>]);
+
+// --- ME Fluid Assembler
+recipes.addShaped(<extracells:fluidcrafter>, [
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
+[<extracells:storage.component:4>, <appliedenergistics2:tile.BlockMolecularAssembler>, <extracells:storage.component:4>],
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+
+// --- ME Fluid Interface
+recipes.addShaped(<extracells:ecbaseblock>, [
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
+[<extracells:storage.component:4>, <appliedenergistics2:tile.BlockInterface>, <extracells:storage.component:4>],
+[<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+
+// --- ME Fluid Auto Filler
+recipes.addShaped(<extracells:ecbaseblock:1>, [
+[<ore:plateLapis>, <extracells:part.base:3>, <ore:plateLapis>],
+[<appliedenergistics2:item.ItemMultiPart:16>, <extracells:fluidcrafter>, <appliedenergistics2:item.ItemMultiPart:16>],
+[<ore:plateLapis>, <extracells:part.base:4>, <ore:plateLapis>]]);
+
+// --- Blast Resistance ME Drive
+recipes.addShaped(<extracells:hardmedrive>, [
+[<ore:plateDenseObsidian>, <appliedenergistics2:item.ItemMultiPart:76>, <ore:plateDenseObsidian>],
+[<ore:plateDenseObsidian>, <appliedenergistics2:tile.BlockDrive>, <ore:plateDenseObsidian>],
+[<ore:plateDenseLead>, <ore:plateDenseLead>, <ore:plateDenseLead>]]);
+
+// --- Fluid Vibration Chamber
+recipes.addShaped(<extracells:vibrantchamberfluid>, [
+[<ore:plateLapis>, <extracells:part.base:3>, <ore:plateLapis>],
+[<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:tile.BlockVibrationChamber>, <appliedenergistics2:item.ItemMultiPart:16>],
+[<ore:plateLapis>, <extracells:certustank>, <ore:plateLapis>]]);
+
+
+
+
+// --- Alloy Smelter Recipes ---
+
+
+
+// --- Quartz Tank
+AlloySmelter.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.metaitem.01:32308> * 0, 800, 32);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+
+// --- ME Fluid Export Bus
+Assembler.addRecipe(<extracells:part.base>, <appliedenergistics2:item.ItemMultiPart:260>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+// --- ME Fluid Import Bus
+Assembler.addRecipe(<extracells:part.base:1>, <appliedenergistics2:item.ItemMultiPart:240>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);
+
+
 
 // --- Hiding Stuff ---
