@@ -951,58 +951,58 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:220>, [
 
 // --- Storage Cell - 1K
 recipes.addShaped(Storage1K, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent1K, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // - 
 recipes.addShaped(Storage1K, [
-[Screwdriver, CertusPlate, QuartziteScrew],
-[SteelPlate, StorageComponent1K, SteelPlate],
-[QuartziteScrew, SteelPlate, HHammer]]);
+[Screwdriver, CertusPlate, CertusScrew],
+[StainlessPlate, StorageComponent1K, StainlessPlate],
+[CertusScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell - 4K
 recipes.addShaped(Storage4K, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent4K, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // - 
 recipes.addShaped(Storage4K, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent4K, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell - 16K
 recipes.addShaped(Storage16K, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent16K, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // - 
 recipes.addShaped(Storage16K, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent16K, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell - 64K
 recipes.addShaped(Storage64K, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent64K, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // -
 recipes.addShaped(Storage64K, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, StorageComponent64K, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 
 // --- View Cell
 recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, <ore:gemCertusQuartz>, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 // -
 recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, <ore:gemCertusQuartz>, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // -
 recipes.addShapeless(<appliedenergistics2:item.ItemViewCell>, [<appliedenergistics2:item.ItemMultiMaterial:39>, <ore:gemCertusQuartz>]);
 
@@ -1024,62 +1024,62 @@ recipes.addShapeless(<appliedenergistics2:item.ItemBasicStorageCell.64k>,
 
 // --- 2 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:32>, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // -
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:32>, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 // -
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:32>]);
 
 // --- 16 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:33>, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // -
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:33>, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 // -
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:33>]);
 
 // --- 128 Spatial Storage Cell
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:34>, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // - 
 recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, <appliedenergistics2:item.ItemMultiMaterial:34>, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 // -
 recipes.addShapeless(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, 
 [<appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:34>]);
 
 // --- Universal Storage Housing
 recipes.addShaped(UStorageHousing, [
-[HHammer, CertusPlate, QuartziteScrew],
+[HHammer, CertusPlate, CertusScrew],
 [StainlessPlate, ClearPane, StainlessPlate],
-[QuartziteScrew, AlPlate, Screwdriver]]);
+[CertusScrew, AlPlate, Screwdriver]]);
 // -
 recipes.addShaped(UStorageHousing, [
-[Screwdriver, CertusPlate, QuartziteScrew],
+[Screwdriver, CertusPlate, CertusScrew],
 [StainlessPlate, ClearPane, StainlessPlate],
-[QuartziteScrew, AlPlate, HHammer]]);
+[CertusScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
-[NANDChip, FluixDust, NANDChip],
-[FluixDust, GoldCircuit, FluixDust],
-[NANDChip, FluixDust, NANDChip]]);
+[NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip],
+[<dreamcraft:item.ChargedCertusQuartzDust>, <ore:chestIron>, <dreamcraft:item.ChargedCertusQuartzDust>],
+[NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip]]);
 
 // --- Storage Cell Component - 4K
 recipes.addShaped(StorageComponent4K, [
@@ -1090,13 +1090,13 @@ recipes.addShaped(StorageComponent4K, [
 // --- Storage Cell Component - 16K
 recipes.addShaped(StorageComponent16K, [
 [GoodCircuit, StorageComponent4K, GoodCircuit],
-[StorageComponent4K, CertusCircuit, StorageComponent4K],
+[StorageComponent4K, GoldCircuit, StorageComponent4K],
 [GoodCircuit, StorageComponent4K, GoodCircuit]]);
 
 // --- Storage Cell Component - 64K
 recipes.addShaped(StorageComponent64K, [
 [AdvCircuit, StorageComponent16K, AdvCircuit],
-[StorageComponent16K, CertusCircuit, StorageComponent16K],
+[StorageComponent16K, GoldCircuit, StorageComponent16K],
 [AdvCircuit, StorageComponent16K, AdvCircuit]]);
 
 // --- 2 Spatial Component
