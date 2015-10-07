@@ -821,7 +821,7 @@ AlloySmelter.addRecipe(<dreamcraft:item.CokeOvenBrick>, <minecraft:sand> * 2, <m
 Assembler.addRecipe(<dreamcraft:item.SteelBars> * 4, <gregtech:gt.metaitem.01:23305> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 48);
 
 // --- Lich Bone
-Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 8, <TwilightForest:item.trophy:2> * 0, 900, 256);
+Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 4, <TwilightForest:item.trophy:2> * 0, 900, 256);
 
 // --- Snow Queen Blood
 Assembler.addRecipe(<dreamcraft:item.SnowQueenBlood>, <Thaumcraft:ItemResource:14> * 64, <TwilightForest:item.trophy:4> * 0, 1800, 8192);
