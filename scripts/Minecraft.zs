@@ -2763,7 +2763,7 @@ Assembler.addRecipe(<minecraft:crafting_table>, <minecraft:log:*>, <minecraft:fl
 Assembler.addRecipe(FenceGate, <minecraft:stick> * 2, <minecraft:planks:*> * 2, 300, 8);
 
 // --- Nether Star
-Assembler.addRecipe(<minecraft:nether_star>, <Thaumcraft:ItemResource:14> * 8, <minecraft:nether_star> * 0, 900, 256);
+Assembler.addRecipe(<minecraft:nether_star>, <Thaumcraft:ItemResource:14> * 12, <minecraft:nether_star> * 0, 900, 256);
 
 // --- Chest
 Assembler.addRecipe(Chest, <minecraft:log:*> * 2, <minecraft:planks:*> * 2, 100, 30);
