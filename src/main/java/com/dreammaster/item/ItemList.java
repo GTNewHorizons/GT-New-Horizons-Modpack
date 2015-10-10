@@ -26,6 +26,7 @@ public enum ItemList {
 	BlackPlutoniumDust(new ModSimpleBaseItem("BlackPlutoniumDust",  ModTabList.ModGenericTab)),
 	BlackPlutoniumPlate(new ModSimpleBaseItem("BlackPlutoniumPlate",  ModTabList.ModGenericTab)),
 	BlackPlutoniumDensePlate(new ModSimpleBaseItem("BlackPlutoniumDensePlate",  ModTabList.ModGenericTab)),
+	BlankPlatedChip(new ModSimpleBaseItem("BlankPlatedChip", ModTabList.ModCircuitsTab)),
 	CallistoIceDust(new ModSimpleBaseItem("CallistoIceDust",  ModTabList.ModGenericTab)),
 	CallistoIceIngot(new ModSimpleBaseItem("CallistoIceIngot",  ModTabList.ModGenericTab)),
 	CallistoIceColdIngot(new ModSimpleBaseItem("CallistoIceColdIngot",  ModTabList.ModGenericTab)),
@@ -243,6 +244,7 @@ public enum ItemList {
 	VoidPlate(new ModSimpleBaseItem("VoidPlate",  ModTabList.ModThaumcraftTab)),
 	VoidRing(new ModSimpleBaseItem("VoidRing",  ModTabList.ModThaumcraftTab)),
 	VoidRod(new ModSimpleBaseItem("VoidRod",  ModTabList.ModThaumcraftTab)),
+	WirelessTransmitter(new ModSimpleBaseItem("WirelessTransmitter", ModTabList.ModGenericTab)),
 	WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
 
 	// Do not delete this
