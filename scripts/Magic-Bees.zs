@@ -31,10 +31,10 @@ recipes.removeShapeless(<Thaumcraft:ItemShard:4>);
 // --- Perdito Infused Shards
 recipes.removeShapeless(<Thaumcraft:ItemShard:5>);
 
-// --- Thaumaturge's Backpach
+// --- Thaumaturges Backpach
 recipes.remove(<MagicBees:backpack.thaumaturgeT1>);
 
-// --- Thaumaturge's Backpach Woven
+// --- Thaumaturges Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<MagicBees:backpack.thaumaturgeT2>);
 
 // --- Magic Capsule
@@ -48,7 +48,7 @@ recipes.remove(<MagicBees:miscResources:17>);
 // -
 mods.thaumcraft.Infusion.removeRecipe(<MagicBees:miscResources:17>);
 
-// --- Bee Collector's Jar
+// --- Bee Collectors Jar
 recipes.remove(<MagicBees:effectJar>);
 
 // --- Essence of False Life
@@ -156,13 +156,13 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:1545>, [<MagicBees:miscResources:2
 // --- Small Pile of Perdito Crystal Powder
 recipes.addShapeless(<gregtech:gt.metaitem.01:1544>, [<MagicBees:miscResources:23>]);
 
-// --- Thaumaturge's Backpach
+// --- Thaumaturges Backpach
 recipes.addShaped(<MagicBees:backpack.thaumaturgeT1>, [
 [<harvestcraft:wovencottonItem>, <ore:gemAmber>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <ore:gemAmber>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Thaumaturge's Backpach Woven
+// --- Thaumaturges Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
@@ -183,7 +183,7 @@ mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", f
 mods.thaumcraft.Research.setConcealed("MAGICAPIARY", true);
 mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
 mods.thaumcraft.Research.addPage("MAGICAPIARY", "MagicBees.research_page.MAGICAPIARY");
-game.setLocalization("en_US", "MagicBees.research_page.MAGICAPIARY", "The Magic Apiary works similarly to the regular Apiary, with 1x base Territory, Mutation, Lifespan, and Flowering modifiers, 0.9x Production modifier, and 0.8 Genetic Decay modifier. When an Apiary Booster of any type is placed nearby, the Apiary will consume aspects to enable 2x (or 1/2) boosts for, in order from left to right: Mutation, Death Rate, Production. Enabling death rate will halve lifespan. It's useful when all you're interested in is breeding, and don't have access to Oblivion Frames.");
+game.setLocalization("en_US", "MagicBees.research_page.MAGICAPIARY", "The Magic Apiary works similarly to the regular Apiary, with 1x base Territory, Mutation, Lifespan, and Flowering modifiers, 0.9x Production modifier, and 0.8 Genetic Decay modifier. When an Apiary Booster of any type is placed nearby, the Apiary will consume aspects to enable 2x (or 1/2) boosts for, in order from left to right: Mutation, Death Rate, Production. Enabling death rate will halve lifespan. Its useful when all youre interested in is breeding, and dont have access to Oblivion Frames.");
 mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>, [<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>], "praecantatio 75, sano 75, ignis 50, lucrum 50, exanimis 25, herba 20", <MagicBees:magicApiary>, 3);
 mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>);
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
@@ -388,7 +388,7 @@ mods.thaumcraft.Research.addArcanePage("ENCHANTEDEARTH", <MagicBees:magicbees.en
 // --- Void Capsular
 Assembler.addRecipe(<MagicBees:capsule.void> * 2, <Genetics:misc:8> * 2, <MagicBees:miscResources:17>, <liquid:molten.gold> * 288, 600, 64);
 
-// --- Bee Collector's Jar
+// --- Bee Collectors Jar
 Assembler.addRecipe(<MagicBees:effectJar>, <appliedenergistics2:tile.BlockQuartzGlass> * 5, <MagicBees:pollen>, <liquid:molten.rubber> * 144, 600, 120);
 
 // --- Wither Skeleton Skull Fragment

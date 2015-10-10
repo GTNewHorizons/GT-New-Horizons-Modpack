@@ -281,16 +281,16 @@ recipes.remove(<Forestry:frameImpregnated>);
 // --- Wax Cast
 recipes.remove(<Forestry:waxCast>);
 
-// --- Apiarist's Hat
+// --- Apiarists Hat
 recipes.remove(<Forestry:apiaristHelmet>);
 
-// --- Apiarist's Shirt:
+// --- Apiarists Shirt:
 recipes.remove(<Forestry:apiaristChest>);
 
-// --- Apiarist's Pants
+// --- Apiarists Pants
 recipes.remove(<Forestry:apiaristLegs>);
 
-// --- Apiarist's Shoes
+// --- Apiarists Shoes
 recipes.remove(<Forestry:apiaristBoots>);
 
 // --- Candle
@@ -347,46 +347,46 @@ mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 // --- Bags ---
 
 
-// --- Apiarist's Backpack
+// --- Apiarists Backpack
 recipes.remove(<Forestry:apiaristBag>);
 
-// --- Lepidopterist's Backpack
+// --- Lepidopterists Backpack
 recipes.remove(<Forestry:lepidopteristBag>);
 
-// --- Miner's Backpack
+// --- Miners Backpack
 recipes.remove(<Forestry:minerBag>);
 
-// --- Miner's Backpack Woven
+// --- Miners Backpack Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:minerBagT2>);
 
-// --- Digger's Backpack
+// --- Diggers Backpack
 recipes.remove(<Forestry:diggerBag>);
 
-// --- Digger's Backpack Woven
+// --- Diggers Backpack Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:diggerBagT2>);
 
-// --- Forester's Backpach
+// --- Foresters Backpach
 recipes.remove(<Forestry:foresterBag>);
 
-// --- Forester's Backpach Woven
+// --- Foresters Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:foresterBagT2>);
 
-// --- Hunter's Backpack
+// --- Hunters Backpack
 recipes.remove(<Forestry:hunterBag>);
 
-// --- Hunter's Backpack Woven
+// --- Hunters Backpack Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:hunterBagT2>);
 
-// --- Adventurer's Backpach
+// --- Adventurers Backpach
 recipes.remove(<Forestry:adventurerBag>);
 
-// --- Adventurer's Backpach Woven
+// --- Adventurers Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:adventurerBagT2>);
 
-// --- Builder's Backpach
+// --- Builders Backpach
 recipes.remove(<Forestry:builderBag>);
 
-// --- Builder's Backpach Woven
+// --- Builders Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Forestry:builderBagT2>);
 
 
@@ -1388,7 +1388,7 @@ game.setLocalization("en_US", "tc.research_text.PROVENFRAME", "[FR] Better than 
 mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
 mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
-game.setLocalization("en_US", "Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bee's productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
+game.setLocalization("en_US", "Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bees productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
 mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15, terra 15, aer 15, perditio 15, ignis 15, aqua 15", [
 [<gregtech:gt.metaitem.01:27305>, <Forestry:honeydew>, <gregtech:gt.metaitem.01:27305>],
 [<Forestry:propolis>, <Forestry:frameImpregnated>, <Forestry:propolis:3>],
@@ -1663,77 +1663,77 @@ null, <Forestry:crate> * 4);
 
 // --- Backs ---
 
-// --- Apiarist's Backpack
+// --- Apiarists Backpack
 recipes.addShaped(<Forestry:apiaristBag>, [
 [<harvestcraft:wovencottonItem>, <Forestry:apiculture:1>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Lepidopterist's Backpack
+// --- Lepidopterists Backpack
 recipes.addShaped(<Forestry:lepidopteristBag>, [
 [<harvestcraft:wovencottonItem>, <Forestry:lepidopterology>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Miner's Backpack
+// --- Miners Backpack
 recipes.addShaped(<Forestry:minerBag>, [
 [<harvestcraft:wovencottonItem>, <ore:ingotIron>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <ore:ingotIron>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Miner's Backpack Woven
+// --- Miners Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Forestry:minerBag>, <Forestry:minerBagT2>);
 
-// --- Digger's Backpack
+// --- Diggers Backpack
 recipes.addShaped(<Forestry:diggerBag>, [
 [<harvestcraft:wovencottonItem>, <ore:stone>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <ore:stone>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Digger's Backpack Woven
+// --- Diggers Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Forestry:diggerBag>, <Forestry:diggerBagT2>);
 
-// --- Forester's Backpach
+// --- Foresters Backpach
 recipes.addShaped(<Forestry:foresterBag>, [
 [<harvestcraft:wovencottonItem>, <ore:logWood>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <ore:logWood>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Forester's Backpach Woven
+// --- Foresters Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Forestry:foresterBag>, <Forestry:foresterBagT2>);
 
-// --- Hunter's Backpack
+// --- Hunters Backpack
 recipes.addShaped(<Forestry:hunterBag>, [
 [<harvestcraft:wovencottonItem>, <minecraft:feather>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <minecraft:feather>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Hunter's Backpack Woven
+// --- Hunters Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Forestry:hunterBag>, <Forestry:hunterBagT2>);
 
-// --- Builder's Backpach
+// --- Builders Backpach
 recipes.addShaped(<Forestry:builderBag>, [
 [<harvestcraft:wovencottonItem>, <minecraft:fence>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <minecraft:fence>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Builder's Backpach Woven
+// --- Builders Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
@@ -2301,14 +2301,14 @@ Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech
 // --- Can
 Assembler.addRecipe(<Forestry:canEmpty>, <gregtech:gt.metaitem.01:17057> * 2, <minecraft:glass_pane>, 120, 8);
 
-// --- Apiarist's Hat
+// --- Apiarists Hat
 Assembler.addRecipe(<Forestry:apiaristHelmet>, <Forestry:craftingMaterial:3> * 5, <gregtech:gt.integrated_circuit:5> * 0, 1200, 64);
 
-// --- Apiarist's Shirt:
+// --- Apiarists Shirt:
 Assembler.addRecipe(<Forestry:apiaristChest>, <Forestry:craftingMaterial:3> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 64);
 
-// --- Apiarist's Pants
+// --- Apiarists Pants
 Assembler.addRecipe(<Forestry:apiaristLegs>, <Forestry:craftingMaterial:3> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1200, 64);
 
-// --- Apiarist's Shoes
+// --- Apiarists Shoes
 Assembler.addRecipe(<Forestry:apiaristBoots>, <Forestry:craftingMaterial:3> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 64);

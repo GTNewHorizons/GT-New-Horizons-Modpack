@@ -6,6 +6,10 @@
 
 
 
+import mods.gregtech.Assembler;
+
+
+
 // --- Variables ---
 
 
@@ -29,10 +33,13 @@ val MutagenTank = <gendustry:MutagenTank>;
 val GeneticsProcessor = <gendustry:GeneticsProcessor>;
 val EnviroProcessor = <gendustry:EnvProcessor>;
 val UpFrame = <gendustry:UpgradeFrame>;
+val ClimateCtrl = <gendustry:ClimateModule>;
 
 val Alveary = <Forestry:alveary>;
 val AlvearyFan = <Forestry:alveary:3>;
 val AlvearyHeater = <Forestry:alveary:4>;
+val AlvearyHygro = <Forestry:alveary:5>;
+val AlvearyStabiliser = <Forestry:alveary:6>;
 val SturdyCasing = <Forestry:sturdyMachine>;
 val HardCasing = <Forestry:hardenedMachine>;
 
@@ -41,6 +48,9 @@ val ClearPane = <TConstruct:GlassPane>;
 val AlGear = <ore:gearAluminium>;
 val SSteelGear = <ore:gearStainlessSteel>;
 val TitaniumGear = <ore:gearTitanium>;
+val PalladiumGear = <ore:gearPalladium>;
+val TitaniumSmallGear = <ore:gearGtSmallTitanium>;
+val PalladiumSmallGear = <ore:gearGtSmallPalladium>;
 
 val AlPlate = <ore:plateAluminium>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
@@ -51,6 +61,8 @@ val TinPlate = <ore:plateTin>;
 val DenseSteelPlate = <ore:plateDenseSteel>;
 val EnderEyePlate = <ore:plateEnderEye>;
 val EnderPearlPlate = <ore:plateEnderPearl>;
+val CrystalChip = <dreamcraft:item.EngravedDiamondCrystalChip>;
+val TungstenSteelPlate = <ore:plateTungstenSteel>;
 
 val DataCircuit = <ore:circuitData>;
 val AdvCircuit = <ore:circuitAdvanced>;
@@ -67,8 +79,17 @@ val RedAlloyDust = <ore:dustRedAlloy>;
 val EVPiston = <gregtech:gt.metaitem.01:32643>;
 val EVMotor = <gregtech:gt.metaitem.01:32603>;
 val HVBuffer = <gregtech:gt.blockmachines:9233>;
+val EVRobotorArm = <gregtech:gt.metaitem.01:32653>;
+val IVRobotorArm = <gregtech:gt.metaitem.01:32654>;
 
 val HHammer = <ore:craftingToolHardHammer>;
+
+val Hopper = <ore:blockHopper>;
+val Grass = <minecraft:grass>;
+val GlowStoneGlass = <ExtraUtilities:decorativeBlock2:7>;
+val HeatSand = <Natura:heatsand>;
+val Sand = <minecraft:sand:*>;
+
 
 
 // --- Removing Recipes ---
@@ -120,6 +141,9 @@ recipes.remove(Labware);
 // --- Blank Gene Sample
 recipes.remove(BlankGene);
 
+// --- Genetic Tamplate
+recipes.remove(<gendustry:GeneTemplate>);
+
 // --- Mutagen Tank
 recipes.remove(MutagenTank);
 
@@ -135,6 +159,9 @@ recipes.remove(GeneticsProcessor);
 // --- Environmental Processor
 recipes.remove(EnviroProcessor);
 
+// --- Upgrades
+//recipes.remove(<gendustry:ApiaryUpgrade:*>);
+
 
 // --- Adding Back Recipes ---
 
@@ -143,89 +170,63 @@ recipes.remove(EnviroProcessor);
 
 
 // --- Industrial Apiary
-recipes.addShaped(IndustrialApiary, [
+mods.forestry.Carpenter.addRecipe(IndustrialApiary, [
 [AlvearyFan, BeeReceptacle, AlvearyHeater],
-[Alveary, SturdyCasing, Alveary],
-[AlGear, PowerModule, AlGear]]);
+[AlvearyStabiliser, HardCasing, AlvearyHygro],
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 10000, 120);
 
 // --- Mutatron
-recipes.addShaped(Mutatron, [
+mods.forestry.Carpenter.addRecipe(Mutatron, [
 [MutagenTank, GeneticsProcessor, MutagenTank],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[SSteelGear, PowerModule, SSteelGear]]);
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- Genetic Imprinter
-recipes.addShaped(GeneticImprinter, [
+mods.forestry.Carpenter.addRecipe(GeneticImprinter, [
 [GeneticsProcessor, TitaniumGear, GeneticsProcessor],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[SSteelGear, PowerModule, SSteelGear]]);
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- Genetic Sampler
-recipes.addShaped(GeneticSampler, [
+mods.forestry.Carpenter.addRecipe(GeneticSampler, [
 [GeneticsProcessor, BeeReceptacle, GeneticsProcessor],
-[DiamondPlate, HardCasing, DiamondPlate],
-[SSteelGear, PowerModule, SSteelGear]]);
+[CrystalChip, HardCasing, CrystalChip],
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- Advanced Mutatron
-recipes.addShaped(AdvMutatron, [
-[TitaniumGear, GeneticsProcessor, TitaniumGear],
+mods.forestry.Carpenter.addRecipe(AdvMutatron, [
+[IVRobotorArm, GeneticsProcessor, IVRobotorArm],
 [GeneticsProcessor, Mutatron, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[PalladiumGear, PowerModule, PalladiumGear]], <liquid:honey> * 10000, 120);
 
 // --- Protein Liquifier
-recipes.addShaped(Liquifier, [
-[SSteelGear, EVPiston, SSteelGear],
+mods.forestry.Carpenter.addRecipe(Liquifier, [
+[TitaniumGear, Hopper, TitaniumGear],
 [EVPiston, HardCasing, EVPiston],
-[SSteelGear, PowerModule, SSteelGear]]);
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- DNA Extractor
-recipes.addShaped(DNAExtractor, [
-[SSteelGear, BeeReceptacle, SSteelGear],
+mods.forestry.Carpenter.addRecipe(DNAExtractor, [
+[EVPiston, BeeReceptacle, EVPiston],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- Genetic Transposer
-recipes.addShaped(Transposer, [
-[SSteelGear, TitaniumPlate, SSteelGear],
+mods.forestry.Carpenter.addRecipe(Transposer, [
+[EVRobotorArm, TitaniumGear, EVRobotorArm],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[SSteelGear, PowerModule, SSteelGear]]);
+[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 // --- Genetic Replicator
-recipes.addShaped(Replicator, [
-[SSteelGear, GeneticsProcessor, SSteelGear],
+mods.forestry.Carpenter.addRecipe(Replicator, [
+[EVRobotorArm, GeneticsProcessor, EVRobotorArm],
 [PowerModule, HardCasing, PowerModule],
-[TitaniumGear, GeneticsProcessor, TitaniumGear]]);
+[TitaniumGear, GeneticsProcessor, TitaniumGear]], <liquid:honey> * 5000, 60);
 
 
 // --- Items ---
 
 
-// --- Genetics Labware
-recipes.addShaped(Labware * 4, [
-[DiamondRod, ClearPane, DiamondRod],
-[ClearPane, DiamondPlate, ClearPane],
-[DiamondRod, ClearPane, DiamondRod]]);
-
-// --- Blank Gene Sample
-recipes.addShaped(BlankGene, [
-[HHammer, TinPlate, null],
-[TinPlate, RedAlloyDust, TinPlate],
-[null, TinPlate, null]]);
-// - Alternate Recipe
-recipes.addShaped(BlankGene, [
-[null, TinPlate, HHammer],
-[TinPlate, RedAlloyDust, TinPlate],
-[null, TinPlate, null]]);
-// -
-recipes.addShaped(BlankGene, [
-[null, TinPlate, null],
-[TinPlate, RedAlloyDust, TinPlate],
-[HHammer, TinPlate, null]]);
-// -
-recipes.addShaped(BlankGene, [
-[null, TinPlate, null],
-[TinPlate, RedAlloyDust, TinPlate],
-[null, TinPlate, HHammer]]);
 
 // --- Mutagen Tank
 recipes.addShaped(MutagenTank, [
@@ -262,6 +263,54 @@ recipes.addShaped(UpFrame, [
 [TitaniumRod, SSteelPlate, TitaniumRod],
 [SSteelPlate, ClearPane, SSteelPlate],
 [TitaniumRod, SSteelPlate, TitaniumRod]]);
+
+// --- Plains Emulation Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:17>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[Grass, UpFrame, Grass],
+[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Light Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:11>, [
+[TitaniumSmallGear, GlowStoneGlass, TitaniumSmallGear],
+[GlowStoneGlass, UpFrame, GlowStoneGlass],
+[TitaniumSmallGear, GlowStoneGlass, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Flowering Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:2>, [
+[TitaniumSmallGear, <minecraft:red_flower>, TitaniumSmallGear],
+[<Botany:pollen:*>, UpFrame, <Botany:pollen:*>],
+[TitaniumSmallGear, <minecraft:yellow_flower>, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Winter Emulation Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:20>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[<BiomesOPlenty:hardIce>, UpFrame, <BiomesOPlenty:hardIce>],
+[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Dryer Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:5>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[Sand, UpFrame, Sand],
+[TitaniumSmallGear, Sand, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+
+// --- Genetics Labware
+Assembler.addRecipe(Labware * 2, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:28305>, <liquid:molten.glass> * 576, 100, 480);
+
+// --- Blank Gene Sample
+Assembler.addRecipe(BlankGene, <gregtech:gt.metaitem.01:17057> * 4, <gregtech:gt.metaitem.01:2308>, <liquid:molten.glass> * 144, 50, 480);
+
+// --- Genetic Tamplate
+Assembler.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneSampleBlank> * 4, <gregtech:gt.metaitem.01:17500>, <liquid:molten.redstone> * 576, 200, 480);
+
 
 
 // --- Hiding Stuff ---

@@ -656,22 +656,22 @@ recipes.remove(<Railcraft:machine.alpha:7>);
 // --- Sandy Block ---
 recipes.remove(<Railcraft:brick.sandy:2>);
 
-// --- Trackman's Backpach
+// --- Trackmans Backpach
 recipes.remove(<Railcraft:backpack.trackman.t1>);
 
-// --- Trackman's Backpach Woven
+// --- Trackmans Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Railcraft:backpack.trackman.t2>);
 
-// --- Iceman's Backpach
+// --- Icemans Backpach
 recipes.remove(<Railcraft:backpack.iceman.t1>);
 
-// --- Iceman's Backpach Woven
+// --- Icemans Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Railcraft:backpack.iceman.t2>);
 
-// --- Aphothecary's Backpach
+// --- Aphothecarys Backpach
 recipes.remove(<Railcraft:backpack.apothecary.t1>);
 
-// --- Aphothecary's Backpach Woven
+// --- Aphothecarys Backpach Woven
 mods.forestry.Carpenter.removeRecipe(<Railcraft:backpack.apothecary.t2>);
 
 // --- Wire Support Frame
@@ -1709,39 +1709,39 @@ recipes.addShaped(CreosoteWoodSlab * 2, [
 // --- Steel Shears
 oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
-// --- Trackman's Backpach
+// --- Trackmans Backpach
 recipes.addShaped(<Railcraft:backpack.trackman.t1>, [
 [<harvestcraft:wovencottonItem>, <minecraft:rail>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <minecraft:rail>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Trackman's Backpach Woven
+// --- Trackmans Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Railcraft:backpack.trackman.t1>, <Railcraft:backpack.trackman.t2>);
 
-// --- Iceman's Backpach
+// --- Icemans Backpach
 recipes.addShaped(<Railcraft:backpack.iceman.t1>, [
 [<harvestcraft:wovencottonItem>, <BiomesOPlenty:hardIce>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <BiomesOPlenty:hardIce>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Iceman's Backpach Woven
+// --- Icemans Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
 <Railcraft:backpack.iceman.t1>, <Railcraft:backpack.iceman.t2>);
 
-// --- Aphothecary's Backpach
+// --- Aphothecarys Backpach
 recipes.addShaped(<Railcraft:backpack.apothecary.t1>, [
 [<harvestcraft:wovencottonItem>, <minecraft:potion:8229>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <minecraft:potion:8229>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
-// --- Aphothecary's Backpach Woven
+// --- Aphothecarys Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,

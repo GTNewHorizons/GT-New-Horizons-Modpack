@@ -38,10 +38,10 @@ recipes.remove(<Botany:soilMeter>);
 // --- Mortar
 //recipes.remove(<Botany:misc:6>);
 
-// --- Florit's Encyclopedaedia
+// --- Florits Encyclopedaedia
 recipes.remove(<Botany:encylopedia>);
 
-// --- Reinforeced Florit's Encyclopedaedia
+// --- Reinforeced Florits Encyclopedaedia
 recipes.remove(<Botany:encylopediaIron>);
 
 
@@ -185,12 +185,12 @@ Assembler.addRecipe(<Botany:insulatedTube:643>, <minecraft:sandstone> * 4, <Fore
 // --- Soil Meter
 Assembler.addRecipe(<Botany:soilMeter>, <gregtech:gt.metaitem.01:23305>, <gregtech:gt.metaitem.01:17086> * 4, <liquid:molten.redstone> * 144, 1200, 64);
 
-// --- Florit's Encyclopedaedia
+// --- Florits Encyclopedaedia
 Assembler.addRecipe(<Botany:encylopedia>, <minecraft:book>, <minecraft:yellow_flower:*> * 8, <liquid:water> * 100, 200, 64);
 //-
 Assembler.addRecipe(<Botany:encylopedia>, <minecraft:book>, <minecraft:red_flower:*> * 8, <liquid:water> * 100, 200, 64);
 //-
 Assembler.addRecipe(<Botany:encylopedia>, <minecraft:book>, <minecraft:double_plant:*> * 8, <liquid:water> * 100, 200, 64);
 
-// --- Reinforeced Florit's Encyclopedaedia
+// --- Reinforeced Florits Encyclopedaedia
 Assembler.addRecipe(<Botany:encylopediaIron>, <Botany:encylopedia>, <Railcraft:part.plate:1>, null, 400, 64);

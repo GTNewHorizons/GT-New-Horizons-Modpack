@@ -312,7 +312,7 @@ recipes.remove(MossyBricks);
 // --- Obsidian
 recipes.remove(Obsidian);
 
-// --- Jack O' Lantern
+// --- Jack O Lantern
 recipes.remove(JackOLantern);
 
 // --- Trapdoor
@@ -1048,7 +1048,7 @@ recipes.addShaped(Jukebox, [
 [Noteblock, AnyRecord, Noteblock],
 [Log, IronGear, Log]]);
 
-// --- Jack O' Lantern
+// --- Jack O Lantern
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
@@ -3417,11 +3417,11 @@ Mixer.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder> * 3, <minecra
 // --- Enchanting Table Infusion
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "ARTIFICE", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", 10, 10, 12, <minecraft:enchanting_table>);
 game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
-game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "[MC] Oh, it's more magical than a Table!");
+game.setLocalization("en_US", "tc.research_text.ENCHANTINGTABLE", "[MC] Oh, its more magical than a Table!");
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "Minecraft.research_page.ENCHANTINGTABLE");
-game.setLocalization("en_US", "Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting table's main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
+game.setLocalization("en_US", "Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting tables main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
 mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE", <minecraft:obsidian>, [<minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>, <minecraft:diamond_block>, <Thaumcraft:ItemResource>, <IC2:itemDensePlates:7>], "praecantatio 120, fabrico 100, cognitio 120, potentia 80", <minecraft:enchanting_table>, 5);
 mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
 mods.thaumcraft.Warp.addToResearch("ENCHANTINGTABLE", 2);
@@ -3429,13 +3429,13 @@ mods.thaumcraft.Warp.addToResearch("ENCHANTINGTABLE", 2);
 // --- Brewing Stand Infusion
 mods.thaumcraft.Research.addResearch("BREWINGSTAND", "ARTIFICE", "praecantatio 200, fabrico 100, cognitio 100, perditio 100, ignis 100, terra 100, aqua 100", 8, 12, 12, <minecraft:brewing_stand>);
 game.setLocalization("en_US", "tc.research_name.BREWINGSTAND", "Brewing Stand");
-game.setLocalization("en_US", "tc.research_text.BREWINGSTAND", "[MC] Oh, it's more magical than a Cauldron!");
+game.setLocalization("en_US", "tc.research_text.BREWINGSTAND", "[MC] Oh, its more magical than a Cauldron!");
 mods.thaumcraft.Research.addPrereq("BREWINGSTAND", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("BREWINGSTAND", true);
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.1");
 game.setLocalization("en_US", "brewingstand.research_page.BREWINGSTAND.1", "Brewing (or Alchemy) is the process of creating potions and splash potions by adding various ingredients to water bottles in a brewing stand. By placing bottles in the lower three slots of the brewing interface and an ingredient in the upper slot, you can distill the ingredient into the bottles and brew potions which may be consumed to grant an effect to the player. Every potion starts with a water bottle, made by filling a glass bottle at a water source or filled cauldron. The next step is to add a primary ingredient to create a base potion, which is usually Nether Wart, which creates an awkward potion and has no effects.");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.2");
-game.setLocalization("en_US", "brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the player's life if used quickly, like Fire Resistance or Healing.");
+game.setLocalization("en_US", "brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the players life if used quickly, like Fire Resistance or Healing.");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "Minecraft.research_page.BREWINGSTAND.3");
 game.setLocalization("en_US", "Minecraft.research_page.BREWINGSTAND.3", "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.");
 mods.thaumcraft.Infusion.addRecipe("BREWINGSTAND", <minecraft:cauldron>, [<gregtech:gt.metaitem.02:22801>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.01:23311>, <minecraft:glass_bottle>, <gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>, <gregtech:gt.metaitem.01:27047>, <gregtech:gt.metaitem.01:28311>], "praecantatio 120, fabrico 80, cognitio 80, perditio 80, ignis 80, terra 80, aqua 80", <minecraft:brewing_stand>, 5);
@@ -3445,7 +3445,7 @@ mods.thaumcraft.Warp.addToResearch("BREWINGSTAND", 2);
 // --- Beacon Infusion
 mods.thaumcraft.Research.addResearch("BEACON", "ARTIFICE", "alienis 200, praecantatio 200, auram 100, fames 400", 10, 12, 12, <minecraft:beacon>);
 game.setLocalization("en_US", "tc.research_name.BEACON", "Beacon");
-game.setLocalization("en_US", "tc.research_text.BEACON", "[MC] Oh, it's more magical than a Diamond Block!");
+game.setLocalization("en_US", "tc.research_text.BEACON", "[MC] Oh, its more magical than a Diamond Block!");
 mods.thaumcraft.Research.addPrereq("BEACON", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("BEACON", true);
 mods.thaumcraft.Research.addPage("BEACON", "Minecraft.research_page.BEACON");

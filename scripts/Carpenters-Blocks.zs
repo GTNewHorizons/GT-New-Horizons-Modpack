@@ -48,19 +48,19 @@ recipes.remove(CarpentersBlock);
 // --- Collapsible Block
 recipes.remove(CollapsibleBlock);
 
-// --- Carpenter's Chisel
+// --- Carpenters Chisel
 recipes.remove(Chisel);
 
-// --- Carpenter's Hammer
+// --- Carpenters Hammer
 recipes.remove(ChiselHammer);
 
-// --- Carpenter's Safe
+// --- Carpenters Safe
 recipes.remove(Safe);
 
-// --- Carpenter's Daylight Sensor
+// --- Carpenters Daylight Sensor
 recipes.remove(DaylightSensor);
 
-// --- Carpenter's Bed
+// --- Carpenters Bed
 recipes.remove(<CarpentersBlocks:itemCarpentersBed>);
 
 // --- Torch
@@ -128,31 +128,31 @@ recipes.addShaped(CollapsibleBlock, [
 [<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
 [WoodScrew,CarpentersBlock, WoodScrew]]);
 
-// --- Carpenter's Chisel
+// --- Carpenters Chisel
 recipes.addShaped(Chisel, [
 [Screwdriver, <TConstruct:chiselHead:2>, Saw],
 [IronScrew, <ore:stickAnyIron>, IronScrew],
 [CarpentersBlock, <ore:stickAnyIron>, CarpentersBlock]]);
 
-// --- Carpenter's Hammer
+// --- Carpenters Hammer
 recipes.addShaped(ChiselHammer, [
 [Screwdriver, <gregtech:gt.metaitem.02:5032>, Saw],
 [IronScrew, <ore:stickAnyIron>, IronScrew],
 [CarpentersBlock, <ore:stickAnyIron>, CarpentersBlock]]);
 
-// --- Carpenter's Safe
+// --- Carpenters Safe
 recipes.addShaped(Safe, [
 [IronScrew, CollapsibleBlock, IronScrew],
 [CollapsibleBlock, IC2Safe, CollapsibleBlock],
 [IronScrew, Screwdriver, IronScrew]]);
 
-// --- Carpenter's Daylight Sensor
+// --- Carpenters Daylight Sensor
 recipes.addShaped(DaylightSensor, [
 [IronScrew, Screwdriver, IronScrew],
 [CarpentersBlock, MCDaylightSensor, CarpentersBlock],
 [CarpentersBlock, Redstone, CarpentersBlock]]);
 
-// --- Carpenter's Bed
+// --- Carpenters Bed
 recipes.addShaped(<CarpentersBlocks:itemCarpentersBed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
 [CarpentersBlock, CarpentersBlock, CarpentersBlock],
@@ -263,7 +263,7 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLadder>, CarpentersBlock, <
 // ---  Carpenters Lever
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLever>,  CarpentersBlock, <minecraft:lever>, 50, 16);
 
-// --- Carpenter's Safe
+// --- Carpenters Safe
 Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 30);
 
 // --- CarpentersBlock Wedge Slope
@@ -272,10 +272,10 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 2, <CarpentersBloc
 // --- Carpenters Torch
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersTorch> * 10, CarpentersBlock, <minecraft:torch> * 10, 100, 16);
 
-// --- Carpenter's Chisel
+// --- Carpenters Chisel
 Assembler.addRecipe(Chisel, CarpentersBlock, <TConstruct:chiselHead:2>, 200, 30);
 
-// --- Carpenter's Hammer
+// --- Carpenters Hammer
 Assembler.addRecipe(ChiselHammer, CarpentersBlock, <gregtech:gt.metaitem.02:5032>, 200, 30);
 
 // ---  Carpenters Tile
