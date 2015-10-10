@@ -92,6 +92,9 @@ recipes.remove(<IC2NuclearControl:ItemTextCard>);
 // --- ME Network Monitor
 recipes.remove(<IC2NuclearControl:networkLink>);
 
+// --- Portable Information Panel
+recipes.remove(<IC2NuclearControl:remoteMonitor>);
+
 
 
 
@@ -201,6 +204,12 @@ recipes.addShaped(<IC2NuclearControl:networkLink>, [
 [<appliedenergistics2:item.ItemMultiMaterial:23>, <gregtech:gt.metaitem.01:32740>, <appliedenergistics2:item.ItemMultiMaterial:23>],
 [<appliedenergistics2:item.ItemMultiPart>, <gregtech:gt.blockcasings2>, <appliedenergistics2:item.ItemMultiPart>],
 [<ore:plateAluminium>, <minecraft:comparator>, <ore:plateAluminium>]]);
+
+// --- Portable Information Panel
+recipes.addShaped(<IC2NuclearControl:remoteMonitor>, [
+[<ore:cableGt01Tin>, <dreamcraft:item.Display>, <ore:cableGt01Tin>],
+[<IC2:itemFreq>, <IC2NuclearControl:blockNuclearControlMain:5>, <IC2:itemFreq>],
+[<ore:plateAlloyCarbon>, <IC2NuclearControl:ItemUpgrade>, <ore:plateAlloyCarbon>]]);
 
 
 

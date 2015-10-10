@@ -416,7 +416,7 @@ recipes.addShapeless(<extracells:storage.fluid:6>, [<extracells:storage.componen
 // --- Fluid Storage Cell Component - 1K
 recipes.addShaped(FluidSComponent1K, [
 [NANDChip, <appliedenergistics2:item.ItemMultiMaterial:8>, NANDChip],
-[<appliedenergistics2:item.ItemMultiMaterial:8>, <extracells:certustank>, <appliedenergistics2:item.ItemMultiMaterial:8>],
+[<appliedenergistics2:item.ItemMultiMaterial:8>, GoldCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>],
 [NANDChip, <appliedenergistics2:item.ItemMultiMaterial:8>, NANDChip]]);
 
 // --- Fluid Storage Cell Component - 4K

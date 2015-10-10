@@ -144,7 +144,7 @@ recipes.addShaped(<GraviSuite:advJetpack>,[
 recipes.addShaped(<GraviSuite:advLappack>,[
 [<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:batteryElite>, <IC2:itemArmorEnergypack:*>, <ore:batteryElite>],
-[<ore:circuitMaster>, <ore:wireGt12TungstenSteel> , <ore:circuitMaster>]]);
+[<ore:circuitMaster>, <ore:wireGt12Nichrome> , <ore:circuitMaster>]]);
 
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack>,[

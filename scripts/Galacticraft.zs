@@ -7,6 +7,7 @@
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.Brewery;
 import mods.gregtech.Canner;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
@@ -1125,7 +1126,7 @@ recipes.addShaped(<GalacticraftCore:item.canvas>,  [
 // --- Add Fuels ---
 
 // --- Oil
-SemiFluidGenerator.addFluid(<liquid:oilgc> * 20, 16);
+//SemiFluidGenerator.addFluid(<liquid:oilgc> * 20, 16);
 
 
 
@@ -1237,7 +1238,7 @@ Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.
 // -
 Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.solderingalloy> * 288, 3200, 256);
 // -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 1440, 3200, 256);
+Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.lead> * 1440, 3200, 256);
 
 // --- Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
@@ -1272,6 +1273,15 @@ Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelm
 
 // --- Titan Ingot
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11028>], [<GalacticraftMars:item.itemBasicAsteroids:4> * 2], 1500, 120, 1500);
+
+
+
+
+// --- Brewery Recipes ---
+
+
+// --- Bacterial Sludge dublication
+Brewery.addRecipe(<liquid:binnie.bacteria> * 750, <dreamcraft:item.MysteriousCrystalDust>, <liquid:bacterialsludge> * 500, false);
 
 
 
@@ -1327,7 +1337,7 @@ Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech
 
 
 // --- Titanium Ingot
-furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
+//furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
 
 
 

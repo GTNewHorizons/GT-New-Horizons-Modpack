@@ -5,6 +5,10 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.Assembler;
+
+
+
 
 // --- Variables ---
 
@@ -28,19 +32,23 @@ val GlowstoneGlass = <ExtraUtilities:decorativeBlock2:7>;
 val ObsidianPlate = <ore:plateObsidian>;
 val IVFieldGen = <gregtech:gt.metaitem.01:32674>;
 val NeutroniumScrew = <ore:screwNeutronium>;
-val EFlow = <ore:circuitMaster>;
+val EFlow = <gregtech:gt.metaitem.01:32706>;
 val DataOrb = <ore:circuitUltimate>;
 val NeutroniumGear = <ore:gearNeutronium>;
 val KanthalPlate = <ore:plateKanthal>;
 val Coil = <IC2:itemRecipePart>;
 val MAXRegulator = <gregtech:gt.blockmachines:9279>;
+val InsaneRegulator = <gregtech:gt.blockmachines:9275>;
 val IVSensor = <gregtech:gt.metaitem.01:32694>;
+val EVSensor = <gregtech:gt.metaitem.01:32693>;
 val IVEmitter = <gregtech:gt.metaitem.01:32684>;
+val EVEmitter = <gregtech:gt.metaitem.01:32683>;
 val QCore = <AdvancedSolarPanel:asp_crafting_items:13>;
 val NeutroniumPlate = <ore:plateNeutronium>;
 val TiFluidPipe = <ore:pipeMediumTitanium>;
 val HVCasing = <gregtech:gt.blockcasings:3>;
 val EVPump = <gregtech:gt.metaitem.01:32613>;
+val TitaniumPlate = <ore:plateTitanium>;
 
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
@@ -48,6 +56,15 @@ val HHammer = <ore:craftingToolHardHammer>;
 val BlankPlate = <RIO:item.blank_plate>;
 
 val IronPlate = <ore:plateIron>;
+val TitaniumScrew = <ore:screwTitanium>;
+val EnderEyePlate = <ore:plateEnderEye>;
+val PikoCi = <dreamcraft:item.PikoCircuit>;
+val HEFlow = <dreamcraft:item.HighEnergyFlowCircuit>;
+val DataCi = <gregtech:gt.metaitem.01:32705>;
+
+val EnderChest = <EnderStorage:enderChest>;
+val EnderTank = <EnderStorage:enderChest:4096>;
+val TungstenCable = <gregtech:gt.blockmachines:1541>;
 
 
 
@@ -60,9 +77,6 @@ val IronPlate = <ore:plateIron>;
 // --- Remote Interface
 recipes.remove(RemoteInterface);
 
-// --- Remote Inventory
-recipes.remove(RemoteInventory);
-
 // --- Water Reservoir
 recipes.remove(Reservoir);
 
@@ -71,6 +85,9 @@ recipes.remove(Heater);
 
 // --- Skylight
 recipes.remove(Skylight);
+
+// --- Intelligen Workbench
+recipes.remove(<RIO:intelligentWorkbench>);
 
 // --- Items ---
 
@@ -84,9 +101,20 @@ recipes.remove(Location);
 // --- IO Tool
 recipes.remove(IOTool);
 
-// --- blank Plate
+// --- Blank Plate
 recipes.remove(BlankPlate);
 
+// --- Transfer Chips
+recipes.remove(<RIO:item.chip.transfer:*>);
+
+// --- Upgrades
+recipes.remove(<RIO:item.chip.upgrade:*>);
+
+// --- PDA
+recipes.remove(<RIO:item.pda>);
+
+// --- Remote Accessor
+recipes.remove(<RIO:item.remoteAccessor>);
 
 
 // --- Adding Back Recipes ---
@@ -96,16 +124,10 @@ recipes.remove(BlankPlate);
 
 
 // --- Remote Interface
-recipes.addShaped(RemoteInterface, [
-[MAXRegulator, IVSensor, MAXRegulator],
-[IVEmitter, QCore, IVEmitter],
-[MAXRegulator, NeutroniumPlate, MAXRegulator]]);
-
-// --- Remote Inventory
-recipes.addShaped(RemoteInventory, [
-[NeutroniumPlate, Remote, NeutroniumPlate],
-[NeutroniumGear, RemoteInterface, NeutroniumGear],
-[NeutroniumPlate, Ichorium, NeutroniumPlate]]);
+recipes.addShaped(RemoteInterface * 2, [
+[InsaneRegulator, EVSensor, InsaneRegulator],
+[DataCi, TungstenCable, DataCi],
+[InsaneRegulator, EVEmitter, InsaneRegulator]]);
 
 // --- Water Reservoir
 recipes.addShaped(Reservoir, [
@@ -117,51 +139,76 @@ recipes.addShaped(Reservoir, [
 recipes.addShaped(Heater, [
 [Coil, Coil, Coil],
 [EVPump, HVCasing, EVPump],
-[KanthalPlate, KanthalPlate, KanthalPlate]]);
+[TitaniumPlate, TitaniumPlate, TitaniumPlate]]);
 
 // --- Skylight
 recipes.addShaped(Skylight, [
 [ObsidianPlate, ClearPane, ObsidianPlate],
-[ClearPane, GlowstoneGlass, ClearPane],
-[ObsidianPlate, RedAlloyRod, ObsidianPlate]]);
+[ClearPane, <ProjRed|Integration:projectred.integration.gate:21>, ClearPane],
+[ObsidianPlate, ClearPane, ObsidianPlate]]);
+
+// --- Intelligen Workbench
+recipes.addShaped(<RIO:intelligentWorkbench>, [
+[null, Location, null],
+[TitaniumScrew, <gregtech:gt.blockcasings4>, TitaniumScrew],
+[null, Screwdriver, null]]);
 
 
 // --- Items ---
 
 
-// --- Wireless Transmitter
-recipes.addShaped(Remote, [
-[Wrench, IVFieldGen, Screwdriver],
-[<ore:stickNeutronium>, NeutroniumScrew, HHammer],
-[NeutroniumPlate, DataOrb, NeutroniumPlate]]);
-// - Alternate Recipe
-recipes.addShaped(Remote, [
-[Wrench, IVFieldGen, HHammer],
-[<ore:stickNeutronium>, NeutroniumScrew, Screwdriver],
-[NeutroniumPlate, DataOrb, NeutroniumPlate]]);
 
 // --- IO Tool
-recipes.addShaped(IOTool, [
-[HHammer, HSLAPlate, NeutroniumScrew],
-[EFlow, <ore:stickNeutronium>, HSLAPlate],
-[NeutroniumGear, EFlow, Screwdriver]]);
-// - Alternate Recipe
-recipes.addShaped(IOTool, [
-[Screwdriver, HSLAPlate, NeutroniumScrew],
-[EFlow, <ore:stickNeutronium>, HSLAPlate],
-[NeutroniumGear, EFlow, HHammer]]);
+recipes.addShapeless(IOTool, [<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}})]);
+
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+
+// --- Wireless Transmitter
+Assembler.addRecipe(Remote, <WR-CBE|Logic:wirelessLogic>, <WR-CBE|Logic:wirelessLogic:1>, <liquid:molten.redstone> * 1000, 600, 480);
+
+// --- Blank Plate
+Assembler.addRecipe(BlankPlate, <TConstruct:blankPattern:1>, <gregtech:gt.metaitem.01:17316>, <liquid:molten.redstone> * 100, 200, 480);
 
 // --- Location Chip
-recipes.addShaped(Location, [
-[DataOrb, EFlow, DataOrb],
-[EFlow, NeutroniumPlate, EFlow],
-[DataOrb, EFlow, DataOrb]]);
+Assembler.addRecipe(Location, DataCi * 2, EFlow * 2, <liquid:ender> * 1000, 600, 480);
 
-// --- blank Plate
-recipes.addShaped(BlankPlate, [
-[IronPlate, IronPlate, IronPlate],
-[IronPlate, <TConstruct:blankPattern:1>, IronPlate],
-[IronPlate, IronPlate, IronPlate]]);
+// --- Item Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer>, <dreamcraft:item.BlankPlatedChip>, <EnderStorage:enderChest>, 200, 480);
+
+// --- Fluid Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:1>, <dreamcraft:item.BlankPlatedChip>, <EnderStorage:enderChest:4096>, 200, 480);
+
+// --- Essentia Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:2>, <dreamcraft:item.BlankPlatedChip>, <Thaumcraft:blockJar> * 2, 200, 480);
+
+// --- EU Energy Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:10>, <dreamcraft:item.BlankPlatedChip>, <gregtech:gt.blockmachines:1546> * 2, 200, 480);
+
+// --- RF Energy Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:12>, <dreamcraft:item.BlankPlatedChip>, <ExtraUtilities:extractor_base:12> * 2, 200, 480);
+
+// --- ME Network Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:20>, <dreamcraft:item.BlankPlatedChip>, <appliedenergistics2:tile.BlockController>, 200, 480);
+
+// --- Redstone Transfer Chip
+Assembler.addRecipe(<RIO:item.chip.transfer:21>, <dreamcraft:item.BlankPlatedChip>, <gregtech:gt.blockmachines:2001> * 2, 200, 480);
+
+// --- Remote Comouflage Upgrade
+Assembler.addRecipe(<RIO:item.chip.upgrade>, <dreamcraft:item.BlankPlatedChip>, <gregtech:gt.metaitem.01:17321> * 4, 200, 480);
+
+// --- Remote Access Upgrade
+Assembler.addRecipe(<RIO:item.chip.upgrade:1>, <dreamcraft:item.BlankPlatedChip>, <RIO:item.wireless_transmitter>, 200, 480);
+
+
+
+
 
 
 

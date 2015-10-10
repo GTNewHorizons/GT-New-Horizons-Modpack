@@ -2616,6 +2616,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2954>, [<gregtech:gt.metaitem.01:2
 // --- HSLA Steel Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:10>, <gregtech:gt.metaitem.01:1047>, <gregtech:gt.metaitem.01:1345>, <gregtech:gt.metaitem.01:1034>, <gregtech:gt.metaitem.01:1029>, <gregtech:gt.metaitem.01:1030>, <gregtech:gt.metaitem.01:1048>, <gregtech:gt.metaitem.01:1028>]);
 
+// --- TungstenSteel Wrench
+recipes.addShapeless(<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}}), [<RIO:item.io_tool>]);
+
 
 
 

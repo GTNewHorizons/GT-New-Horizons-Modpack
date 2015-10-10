@@ -1078,7 +1078,7 @@ recipes.addShaped(UStorageHousing, [
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
 [NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip],
-[<dreamcraft:item.ChargedCertusQuartzDust>, <ore:chestIron>, <dreamcraft:item.ChargedCertusQuartzDust>],
+[<dreamcraft:item.ChargedCertusQuartzDust>, GoldCircuit, <dreamcraft:item.ChargedCertusQuartzDust>],
 [NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip]]);
 
 // --- Storage Cell Component - 4K

@@ -13,6 +13,7 @@ import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Distillery;
+import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidSolidifier;
@@ -916,6 +917,7 @@ Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gre
 // -
 Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redstone> * 72, 100, 30);
 
+
 // --- Piston Plate
 Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 2, <minecraft:fence>, 100, 32);
 
@@ -977,6 +979,9 @@ Assembler.addRecipe(<dreamcraft:item.SixtyKCell>, <dreamcraft:item.ThirtyKCell> 
 // --- Compressed Graphite Block
 Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> * 2, <gregtech:gt.metaitem.01:2865>, 100, 8);
 
+// --- Blank Plated Chip
+Assembler.addRecipe(<dreamcraft:item.BlankPlatedChip>, <RIO:item.chip.location>, <RIO:item.blank_plate>, 100, 480);
+
 
 
 
@@ -1009,15 +1014,10 @@ BlastFurnace.addRecipe([<dreamcraft:item.MytrylHotIngot>], <liquid:oxygen> * 200
 // -
 BlastFurnace.addRecipe([<dreamcraft:item.MytrylHotIngot>], <liquid:oxygen> * 2000, [<dreamcraft:item.MytrylDust>], 1200, 480, 3600); 
 
-// --- Infernal Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.InfernalBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.HotNetherrackBrick>], 300, 120, 1000); 
-// -
-BlastFurnace.addRecipe([<dreamcraft:item.InfernalBrick>], [<dreamcraft:item.HotNetherrackBrick>], 600, 120, 1200); 
-
 // --- Advanced Coke Oven Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
+BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], <liquid:oxygen> * 2000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 1200, 120, 1500); 
 // -
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 1200, 120, 1800); 
+BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 2400, 120, 1800); 
 
 // --- Hot Netherrack Bricks
 BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:oxygen> * 1000, [<minecraft:netherbrick> * 16, <minecraft:magma_cream>], 150, 120, 1000); 
@@ -1389,6 +1389,21 @@ PrecisionLaser.addRecipe(<dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metai
 Distillery.addRecipe(<liquid:mutagen> * 1000, <gregtech:gt.integrated_circuit:3> * 0, <liquid:fermentedbacterialsludge> * 750, 1200, 256, false);
 
 
+
+
+// --- Extractor Recipes ---
+
+
+// --- Coke Oven Bricks
+Extractor.addRecipe(<dreamcraft:item.CokeOvenBrick> * 4, <Railcraft:machine.alpha:7>);
+
+// --- Advanced Coke Oven Bricks
+Extractor.addRecipe(<dreamcraft:item.AdvancedCokeOvenBrick> * 4, <Railcraft:machine.alpha:12>);
+
+
+
+
+
 // --- Extruder Recipes
 
 
@@ -1614,7 +1629,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.Neutron
 Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <GalaxySpace:item.ElectCrystall>);
 
 // --- Quantinum Dust
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <GalaxySpace:item.ElectCrystall>);
+Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <GalaxySpace:item.Quantium>);
 
 // --- Mytryl Dust
 Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <GalaxySpace:item.Mytryl>);
@@ -1848,6 +1863,9 @@ VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraf
 
 // --- Mytryl Ingot
 VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 3600);
+
+// --- Infernal Bricks
+VacuumFreezer.addRecipe(<dreamcraft:item.InfernalBrick>, <dreamcraft:item.HotNetherrackBrick>, 600); 
 
 
 
