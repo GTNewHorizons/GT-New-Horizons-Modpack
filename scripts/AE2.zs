@@ -486,6 +486,9 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:33>);
 // --- 128 Spatial Component
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
 
+// --- Portable Cell
+recipes.remove(<appliedenergistics2:item.ToolPortableCell>);
+
 
 
 // --- Adding Back Recipes ---
@@ -1078,44 +1081,50 @@ recipes.addShaped(UStorageHousing, [
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
 [NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip],
-[<dreamcraft:item.ChargedCertusQuartzDust>, GoldCircuit, <dreamcraft:item.ChargedCertusQuartzDust>],
+[<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.LogicProcessorItemGoldCore>, <dreamcraft:item.ChargedCertusQuartzDust>],
 [NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip]]);
 
 // --- Storage Cell Component - 4K
 recipes.addShaped(StorageComponent4K, [
 [BasicCircuit, StorageComponent1K, BasicCircuit],
-[StorageComponent1K, GoldCircuit, StorageComponent1K],
+[StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
 [BasicCircuit, StorageComponent1K, BasicCircuit]]);
 
 // --- Storage Cell Component - 16K
 recipes.addShaped(StorageComponent16K, [
 [GoodCircuit, StorageComponent4K, GoodCircuit],
-[StorageComponent4K, GoldCircuit, StorageComponent4K],
+[StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
 [GoodCircuit, StorageComponent4K, GoodCircuit]]);
 
 // --- Storage Cell Component - 64K
 recipes.addShaped(StorageComponent64K, [
 [AdvCircuit, StorageComponent16K, AdvCircuit],
-[StorageComponent16K, GoldCircuit, StorageComponent16K],
+[StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
 [AdvCircuit, StorageComponent16K, AdvCircuit]]);
 
 // --- 2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
 [<ore:plateGlowstone>, FluixPearl, <ore:plateGlowstone>],
-[FluixPearl, DiamondCircuit, FluixPearl],
+[FluixPearl, <dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, FluixPearl],
 [<ore:plateGlowstone>, FluixPearl, <ore:plateGlowstone>]]);
 
 // --- 16 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:33>, [
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>],
-[<appliedenergistics2:item.ItemMultiMaterial:32>, DiamondCircuit, <appliedenergistics2:item.ItemMultiMaterial:32>],
+[<appliedenergistics2:item.ItemMultiMaterial:32>, <dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:32>],
 [<ore:plateEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:plateEnderPearl>]]);
 
 // --- 128 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:34>, [
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>],
-[<appliedenergistics2:item.ItemMultiMaterial:33>, DiamondCircuit, <appliedenergistics2:item.ItemMultiMaterial:33>],
+[<appliedenergistics2:item.ItemMultiMaterial:33>, <dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:33>],
 [<ore:plateEnderEye>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:plateEnderEye>]]);
+
+// --- ME Portable Cell
+recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
+[null, <appliedenergistics2:item.ItemBasicStorageCell.1k>, null],
+[<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
+[<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
  
 
 

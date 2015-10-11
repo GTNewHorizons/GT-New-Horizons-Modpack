@@ -97,6 +97,9 @@ recipes.remove(<OpenBlocks:sprinkler>);
 // --- Building Guide
 recipes.remove(BGuide);
 
+// --- Enhanced Builder Guide
+recipes.remove(<OpenBlocks:builder_guide>);
+
 // --- Block Placer
 recipes.remove(BlockPlacer);
 
@@ -455,6 +458,9 @@ Assembler.addRecipe(<OpenBlocks:devnull>, <ExtraUtilities:trashcan>, <gregtech:g
 
 // --- Pedometer
 Assembler.addRecipe(<OpenBlocks:pedometer>, <minecraft:clock>, <IC2:itemPartCircuit> * 2, <liquid:molten.redstone> * 144, 200, 30);
+
+// --- Enhanced Builder Guide
+Assembler.addRecipe(<OpenBlocks:builder_guide>, <OpenBlocks:guide>, <gregtech:gt.metaitem.01:24533>, <liquid:molten.redstone> * 288, 300, 64);
 
 
 

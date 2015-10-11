@@ -42,6 +42,7 @@ val AlvearyHygro = <Forestry:alveary:5>;
 val AlvearyStabiliser = <Forestry:alveary:6>;
 val SturdyCasing = <Forestry:sturdyMachine>;
 val HardCasing = <Forestry:hardenedMachine>;
+val WovenSilk = <Forestry:craftingMaterial:3>;
 
 val ClearPane = <TConstruct:GlassPane>;
 
@@ -89,6 +90,13 @@ val Grass = <minecraft:grass>;
 val GlowStoneGlass = <ExtraUtilities:decorativeBlock2:7>;
 val HeatSand = <Natura:heatsand>;
 val Sand = <minecraft:sand:*>;
+val Cactus = <minecraft:cactus>;
+val WaterBucket = <minecraft:water_bucket>;
+val LavaBucket = <minecraft:lava_bucket>;
+val BlazeRod = <minecraft:blaze_rod>;
+val GhatsTear = <minecraft:ghast_tear>;
+val Snow = <minecraft:snow>;
+val Ice = <BiomesOPlenty:hardIce>;
 
 
 
@@ -285,14 +293,50 @@ mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:2>, [
 // --- Winter Emulation Upgrade
 mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:20>, [
 [TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
-[<BiomesOPlenty:hardIce>, UpFrame, <BiomesOPlenty:hardIce>],
+[Ice, UpFrame, Ice],
 [TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
 
 // --- Dryer Upgrade
 mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:5>, [
 [TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
 [Sand, UpFrame, Sand],
-[TitaniumSmallGear, Sand, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+[TitaniumSmallGear, LavaBucket, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Automation Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:14>, [
+[TitaniumSmallGear, TitaniumGear, TitaniumSmallGear],
+[<minecraft:redstone_torch>, UpFrame, <minecraft:redstone_torch>],
+[TitaniumSmallGear, EVPiston, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Humidifier Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:4>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[Cactus, UpFrame, Cactus],
+[TitaniumSmallGear, WaterBucket, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Hell Emulation Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:13>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[BlazeRod, UpFrame, GhatsTear],
+[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Pollen Scrubber Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:22>, [
+[TitaniumSmallGear, <dreamcraft:item.SteelBars>, TitaniumSmallGear],
+[WovenSilk, UpFrame, WovenSilk],
+[TitaniumSmallGear, <dreamcraft:item.SteelBars>, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Desert Emulation Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:16>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[Sand, UpFrame, Sand],
+[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
+
+// --- Cooler Upgrade
+mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade:7>, [
+[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[Snow, UpFrame, Snow],
+[TitaniumSmallGear, Ice, TitaniumSmallGear]], <liquid:seedoil> * 1000, 60);
 
 
 

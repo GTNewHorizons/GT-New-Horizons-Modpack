@@ -904,19 +904,21 @@ Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT4>, <GalacticraftMars:i
 Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT5>, <GalaxySpace:item.HeavyDutyPlateTier4>, <dreamcraft:item.QuantinumCompressedPlate> * 8, <liquid:molten.iridium> * 576, 2400, 1920);
 
 // --- Heavy Duty Plate Alloy T6
-Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT6>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.LeadCom> * 10, <liquid:molten.osmiridium> * 864, 3000, 4096);
+Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT6>, <GalaxySpace:item.HeavyDutyPlateTier5>, <GalaxySpace:item.LeadCom> * 10, <liquid:molten.osmium> * 864, 3000, 4096);
 
 // --- Heavy Duty Plate Alloy T7
-Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT7>, <GalaxySpace:item.HeavyDutyPlateTier6>, <dreamcraft:item.MysteriousCrystalCompressedPlate> * 12, <liquid:molten.naquadria> * 1152, 3600, 6144);
+Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT7>, <GalaxySpace:item.HeavyDutyPlateTier6>, <dreamcraft:item.MysteriousCrystalCompressedPlate> * 12, <liquid:molten.osmiridium> * 1152, 3600, 6144);
 
 // --- Heavy Duty Plate Alloy T8
-Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT8>, <GalaxySpace:item.HeavyDutyPlateTier7>, <GalaxySpace:item.ComBlackPlutonium> * 14, <liquid:molten.neutronium> * 1440, 4200, 7680);
+Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT8>, <GalaxySpace:item.HeavyDutyPlateTier7>, <GalaxySpace:item.ComBlackPlutonium> * 14, <liquid:molten.naquadria> * 1440, 4200, 7680);
+
+// --- Heavy Duty Plate Alloy T9
+Assembler.addRecipe(<dreamcraft:item.HeavyDutyAlloyIngotT9>, <GalaxySpace:item.HeavyDutyPlateTier8>, <dreamcraft:item.LeadNickelPlate> * 16, <liquid:molten.neutronium> * 1584, 4800, 7680);
 
 // --- Piston Block
 Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redstone> * 72, 100, 30);
 // -
 Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redstone> * 72, 100, 30);
-
 
 // --- Piston Plate
 Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 2, <minecraft:fence>, 100, 32);
@@ -981,6 +983,33 @@ Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> 
 
 // --- Blank Plated Chip
 Assembler.addRecipe(<dreamcraft:item.BlankPlatedChip>, <RIO:item.chip.location>, <RIO:item.blank_plate>, 100, 480);
+
+// --- Spatial Processor Tier I
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.PulsatingSpatialCoreChip>, 100, 480);
+
+// --- Fluid Processor Tier I
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.DiamondFluidCoreChip>, 100, 480);
+
+// --- Fluid Processor Tier II
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, 100, 1024);
+
+// --- Item Processor Tier I
+Assembler.addRecipe(<dreamcraft:item.LogicProcessorItemGoldCore>, <appliedenergistics2:item.ItemMultiMaterial:22>, <dreamcraft:item.GoldCoreChip>, 100, 120);
+
+// --- Item Processor Tier II
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.DiamondCoreChip>, 100, 480);
+
+// --- Item Processor Tier III
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemEmeraldCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.EmeraldAdvancedCoreChip>, 100, 1024);
+
+// --- Item Processor Tier IV
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.EmeraldHighAdvancedCoreChip>, 100, 4096);
+
+// --- Compressed Lead-Nickel Plate
+Assembler.addRecipe(<dreamcraft:item.LeadNickelPlate> * 2, <GalaxySpace:item.LeadCom>, <GalaxySpace:item.NickelComIngot>, <liquid:ic2coolant> * 2000, 600, 1024);
+
+
+
 
 
 
@@ -1353,9 +1382,9 @@ PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01
 PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatCrystal:*>, 600, 256);
 
 // --- Quantum Crystal
-PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:*>, 800, 512);
+PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:*>, 800, 480);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:*>, 800, 512);
+PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:*>, 800, 480);
 
 // --- Manyullyn Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynPlate> * 9, 1200, 1024);
@@ -1376,6 +1405,16 @@ PrecisionLaser.addRecipe(<dreamcraft:item.MytrylCrystal>, <gregtech:gt.metaitem.
 PrecisionLaser.addRecipe(<dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <dreamcraft:item.MysteriousCrystalPlate> * 9, 1200, 480);
 // -
 PrecisionLaser.addRecipe(<dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <dreamcraft:item.MysteriousCrystalPlate> * 9, 1200, 480);
+
+// --- Engraved Gold Chip
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24506> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24515> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24545> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24890> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
+
 
 
 
@@ -1512,6 +1551,28 @@ FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.met
 
 // --- Simple Circuit Board
 FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);
+
+// --- Spacial Circuit Tier I
+FormingPress.addRecipe(<dreamcraft:item.PulsatingSpatialCoreChip>, <dreamcraft:item.EngravedManyullynCrystalChip>, <BuildCraft|Silicon:redstoneChipset:4>, 300, 480);
+
+// --- Fluid Circuit Tier I
+FormingPress.addRecipe(<dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.metaitem.01:32714>, <BuildCraft|Silicon:redstoneChipset:3>, 300, 480);
+
+// --- Fluid Circuit Tier II
+FormingPress.addRecipe(<dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.metaitem.01:32714>, <BuildCraft|Silicon:redstoneChipset:7>, 300, 1024);
+
+// --- Item Circuit Tier I
+FormingPress.addRecipe(<dreamcraft:item.GoldCoreChip>, <dreamcraft:item.EngravedGoldChip>, <BuildCraft|Silicon:redstoneChipset:2>, 300, 120);
+
+// --- Item Circuit Tier II
+FormingPress.addRecipe(<dreamcraft:item.DiamondCoreChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <BuildCraft|Silicon:redstoneChipset:3>, 300, 480);
+
+// --- Item Circuit Tier III
+FormingPress.addRecipe(<dreamcraft:item.EmeraldAdvancedCoreChip>, <dreamcraft:item.EngravedEnergyChip>, <BuildCraft|Silicon:redstoneChipset:7>, 300, 1024);
+
+// --- Item Circuit Tier IV
+FormingPress.addRecipe(<dreamcraft:item.EmeraldHighAdvancedCoreChip>, <dreamcraft:item.EngravedQuantumChip>, <BuildCraft|Silicon:redstoneChipset:7>, 300, 4096);
+
 
 
 

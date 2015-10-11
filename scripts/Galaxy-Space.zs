@@ -130,6 +130,12 @@ recipes.remove(<GalaxySpace:item.Laser_pick>);
 // --- Light Axe
 recipes.remove(<GalaxySpace:item.Laser_axe>);
 
+// --- Electrical Jetpack
+recipes.remove(<GalaxySpace:item.JetPack:*>);
+
+// --- Tier 3 Rocket Engine
+recipes.remove(<GalaxySpace:item.AcceleratorTier3>);
+
 
 
 
@@ -320,6 +326,30 @@ recipes.addShaped(<GalaxySpace:item.TestBow>, [
 [<dreamcraft:item.MysteriousCrystal>, null, <TConstruct:bowstring:2>],
 [<ore:stickLongLead>, <dreamcraft:item.MytrylCrystal>, <TConstruct:bowstring:2>]]);
 
+// --- Tier 3 Rocket Engine
+recipes.addShaped(<GalaxySpace:item.AcceleratorTier3>, [
+[<dreamcraft:item.MytrylCompressedPlate>, <dreamcraft:item.MytrylCompressedPlate>, <dreamcraft:item.MytrylCompressedPlate>],
+[<GalaxySpace:item.HeavyDutyPlateTier8>, <GalaxySpace:item.AcceleratorTier2>, <GalaxySpace:item.HeavyDutyPlateTier8>],
+[<GalaxySpace:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.airVent>, <GalaxySpace:item.HeavyDutyPlateTier8>]]);
+
+// --- Heavy Duty Rocket Engine 2
+recipes.addShaped(<GalaxySpace:item.HeavyDutyRocketEngineT2>, [
+[<GalaxySpace:item.AcceleratorTier3>, <GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.AcceleratorTier3>],
+[<GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>],
+[<GalaxySpace:item.HeavyDutyRocketEngine>, <GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyRocketEngine>]]);
+
+// --- Heavy Duty Nose Cone Tier 2
+recipes.addShaped(<GalaxySpace:item.HeavyDutyNoseConeT2>, [
+[<ore:craftingToolScrewdriver>, <GalaxySpace:item.HeavyDutyNoseCone>, <ore:craftingToolHardHammer>],
+[<ore:screwNaquadria>, <GalaxySpace:item.HeavyDutyPlateTier9>, <ore:screwNaquadria>],
+[<GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>]]);
+
+// --- Heavy Wings Duty Space Ship
+recipes.addShaped(<GalaxySpace:item.WingT9>, [
+[<GalaxySpace:item.HeavyDutyPlateTier9>, <GalacticraftCore:item.steelPole>, <ore:craftingToolHardHammer>],
+[<GalaxySpace:item.HeavyDutyPlateTier9>, <GalacticraftCore:item.steelPole>, <GalacticraftCore:item.steelPole>],
+[<GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>, <GalaxySpace:item.HeavyDutyPlateTier9>]]);
+
 
 
 
@@ -394,16 +424,19 @@ ImplosionCompressor.addRecipe([<GalaxySpace:item.ComBlackPlutonium>, <gregtech:g
 ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);
 
 // --- Heavy Duty Plats Tier 5
-ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier5>, <gregtech:gt.metaitem.01:84> * 4], <dreamcraft:item.HeavyDutyAlloyIngotT5>, 40);
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier5>, <gregtech:gt.metaitem.01:84> * 4], <dreamcraft:item.HeavyDutyAlloyIngotT5>, 36);
 
 // --- Heavy Duty Plats Tier 6
-ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier6>, <gregtech:gt.metaitem.01:89> * 6], <dreamcraft:item.HeavyDutyAlloyIngotT6>, 48);
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier6>, <gregtech:gt.metaitem.01:83> * 6], <dreamcraft:item.HeavyDutyAlloyIngotT6>, 40);
 
 // --- Heavy Duty Plats Tier 7
-ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier7>, <gregtech:gt.metaitem.01:327> * 9], <dreamcraft:item.HeavyDutyAlloyIngotT7>, 56);
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier7>, <gregtech:gt.metaitem.01:317> * 9], <dreamcraft:item.HeavyDutyAlloyIngotT7>, 44);
 
 // --- Heavy Duty Plats Tier 8
-ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.01:129> * 12], <dreamcraft:item.HeavyDutyAlloyIngotT8>, 64);
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.01:327> * 12], <dreamcraft:item.HeavyDutyAlloyIngotT8>, 48);
+
+// --- Heavy Duty Plats Tier 9
+ImplosionCompressor.addRecipe([<GalaxySpace:item.HeavyDutyPlateTier9>, <gregtech:gt.metaitem.01:129> * 15], <dreamcraft:item.HeavyDutyAlloyIngotT9>, 52);
 
 
 
