@@ -189,7 +189,7 @@ oreDict.chestSteel.add(SteelChest);
 // --- Renaming Stuff ---
 
 
-// --- Silver Chest to Steel Chest
+// --- Steel Chest
 NEI.overrideName(SteelChest, "Steel Chest");
 
 // --- Copper-Silver Upgrade to Copper-Steel Upgrade
