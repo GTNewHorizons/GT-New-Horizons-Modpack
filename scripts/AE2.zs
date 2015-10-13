@@ -1253,13 +1253,13 @@ Macerator.addRecipe(FluixDust * 4, <appliedenergistics2:tile.BlockFluix>);
 // --- Wiremill Recipes ---
 
 //Quartz Fiber
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23516> * 2, 200, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23516> * 2, 80, 128);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <dreamcraft:item.ChargedCertusQuartzRod>, 200, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <dreamcraft:item.ChargedCertusQuartzRod>, 80, 128);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 200, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 80, 128);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 80, 128);
 
 
 
