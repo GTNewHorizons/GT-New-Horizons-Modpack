@@ -57,6 +57,8 @@ val RainMuffler = <ExtraUtilities:sound_muffler:1>;
 val AnyWool = <ore:blockWool>;
 val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
+val WaterBucket = <minecraft:water_bucket>;
+val LVRegulator = <gregtech:gt.blockmachines:9271>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -93,6 +95,7 @@ val TitaniumPlate = <ore:plateTitanium>;
 val ChromePlate = <ore:plateChrome>;
 val NANDChip = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
+val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
@@ -117,10 +120,12 @@ val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
 val FilterPipe = <ExtraUtilities:pipes:9>;
 val RationingPipe = <ExtraUtilities:pipes:10>;
+val HyperRationingPipe = <ExtraUtilities:pipes.1>;
 val EnergyPipe = <ExtraUtilities:pipes:11>;
 val CrossoverPipe = <ExtraUtilities:pipes:12>;
 val ModSortingPipe = <ExtraUtilities:pipes:13>;
 val EExtractionPipe = <ExtraUtilities:pipes:14>;
+val AnyPipe = <ExtraUtilities:pipes:*>;
 val ItemRetrievalN = <ExtraUtilities:extractor_base_remote>;
 val FluidRetrievalN = <ExtraUtilities:extractor_base_remote:6>;
 val ItemTransferN = <ExtraUtilities:extractor_base>;
@@ -134,15 +139,35 @@ val SSteelRod = <ore:stickStainlessSteel>;
 val ThaumiumPlate = <ore:plateThaumium>;
 val SilverwoodLog = <Thaumcraft:blockMagicalLog:1>;
 val GreatwoodLog = <Thaumcraft:blockMagicalLog>;
+val SteelFluidPipe = <gregtech:gt.blockmachines:5132>;
+val SmallStealGear = <gregtech:gt.metaitem.02:20305>;
+val DiamondPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
+val Log = <ore:logWood>;
+val Wood = <ore:plankWood>;
+val WoodScrew = <ore:screwWood>;
+val IronBlock = <ore:blockIron>;
+val IronIngot = <ore:ingotIron>;
+val IronScrew = <ore:screwIron>;
+val GoldBlock = <ore:blockGold>;
+val GoldIngot = <ore:ingotGold>;
+val GoldScrew = <ore:screwGold>;
+val DiamondBlock = <ore:blockDiamond>;
+val Diamond = <ore:gemDiamond>;
+val DiamondScrew = <ore:screwDiamond>;
 
 val HHammer = <ore:craftingToolHardHammer>;
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
+val Saw = <ore:craftingToolSaw>;
 
 
 
 // --- Removing Recipes ---
 
+
+
+// --- QED Recipes remove ALL
+//mods.extraUtils.QED.removeRecipe(<*>);
 
 // --- Ender Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
@@ -272,8 +297,6 @@ recipes.remove(WateringCan);
 
 // --- Magnum Torch
 recipes.remove(MagnumTorch);
-// -
-mods.extraUtils.QED.removeRecipe(MagnumTorch);
 
 // --- Muffler
 recipes.remove(Muffler);
@@ -292,6 +315,9 @@ recipes.remove(FilterPipe);
 
 // --- Rationing Pipe
 recipes.remove(RationingPipe);
+
+// Hyper Rationing Pipe
+recipes.remove(HyperRationingPipe);
 
 // --- Energy Pipe
 recipes.remove(EnergyPipe);
@@ -374,6 +400,12 @@ recipes.remove(<ExtraUtilities:cobblestone_compressed:15>);
 // --- Trash Can
 recipes.remove(<ExtraUtilities:trashcan>);
 
+// --- Fluid Trash Can
+recipes.remove(<ExtraUtilities:trashcan:1>);
+
+// --- Energy Trash Can
+recipes.remove(<ExtraUtilities:trashcan:2>);
+
 // --- Thickened Glass
 recipes.remove(<ExtraUtilities:decorativeBlock2>);
 // -
@@ -433,9 +465,6 @@ recipes.remove(<ExtraUtilities:endConstructor>);
 // --- Ender Flux Crystal
 recipes.remove(<ExtraUtilities:endConstructor:2>);
 
-// --- Ender Marker
-mods.extraUtils.QED.removeRecipe(<ExtraUtilities:endMarker>);
- 
 // --- Block Update Detector
 recipes.remove(<ExtraUtilities:budoff>);
  
@@ -465,6 +494,21 @@ recipes.remove(<ExtraUtilities:decorativeBlock1:13>);
 
 // --- Gravel Road
 recipes.remove(<ExtraUtilities:decorativeBlock1:10>);
+
+// --- Trading Post
+recipes.remove(<ExtraUtilities:trading_post>);
+
+// --- Wood Spike Post
+recipes.remove(<ExtraUtilities:spike_base_wood>);
+
+// --- Iron Spike Post
+recipes.remove(<ExtraUtilities:spike_base>);
+
+// --- Gold Spike Post
+recipes.remove(<ExtraUtilities:spike_base_gold>);
+
+// --- Diamond Spike Post
+recipes.remove(<ExtraUtilities:spike_base_diamond>);
 
 
 
@@ -682,9 +726,9 @@ recipes.addShaped(Muffler, [
 
 // --- Rain Muffler
 recipes.addShaped(RainMuffler, [
-[AnyWool, Noteblock, AnyWool],
-[Noteblock, Muffler, Noteblock],
-[AnyWool, Noteblock, AnyWool]]);
+[AnyWool, Muffler, AnyWool],
+[Muffler, WaterBucket, Muffler],
+[Muffler, BUD, Muffler]]);
 
 // --- Transfer Pipe
 recipes.addShaped(TransferPipe, [
@@ -701,14 +745,20 @@ recipes.addShaped(SortingPipe, [
 // --- Filter Pipe
 recipes.addShaped(FilterPipe, [
 [SteelFoil, BasicCircuit, SteelFoil],
-[Wrench, SortingPipe, HHammer],
+[Wrench, TransferPipe, HHammer],
 [SteelFoil, BasicCircuit, SteelFoil]]);
 
 // --- Rationing Pipe
 recipes.addShaped(RationingPipe, [
-[SteelFoil, NANDChip, SteelFoil],
+[SteelFoil, GoodCircuit, SteelFoil],
 [Wrench, SortingPipe, HHammer],
-[SteelFoil, NANDChip, SteelFoil]]);
+[SteelFoil, GoodCircuit, SteelFoil]]);
+
+// --- Hyper Rationing Pipe
+recipes.addShaped(HyperRationingPipe, [
+[SteelFoil, AdvCircuit, SteelFoil],
+[Wrench, RationingPipe, HHammer],
+[SteelFoil, AdvCircuit, SteelFoil]]);
 
 // --- Energy Pipe
 recipes.addShaped(EnergyPipe, [
@@ -717,12 +767,12 @@ recipes.addShaped(EnergyPipe, [
 [RedAlloyFoil, RedAlloyPlate, RedAlloyFoil]]);
 
 // --- Crossover Pipe
-recipes.addShaped(CrossoverPipe * 4, [
+recipes.addShaped(CrossoverPipe, [
 [HHammer, TransferPipe, SteelScrew],
 [TransferPipe, TransferPipe, TransferPipe],
 [SteelScrew, TransferPipe, Screwdriver]]);
 // -
-recipes.addShaped(CrossoverPipe * 4, [
+recipes.addShaped(CrossoverPipe, [
 [Screwdriver, TransferPipe, SteelScrew],
 [TransferPipe, TransferPipe, TransferPipe],
 [SteelScrew, TransferPipe, HHammer]]);
@@ -730,85 +780,80 @@ recipes.addShaped(CrossoverPipe * 4, [
 // --- Mod Sorting Pipe
 recipes.addShaped(ModSortingPipe, [
 [SteelFoil, BasicCircuit, SteelFoil],
-[Wrench, TransferPipe, HHammer],
+[Wrench, SortingPipe, HHammer],
 [SteelFoil, BasicCircuit, SteelFoil]]);
 
 // --- Energy Extraction Pipe
 recipes.addShaped(EExtractionPipe, [
-[ElectrumPlate, HHammer, ElectrumPlate],
-[ElectrumPlate, EnergyPipe, ElectrumPlate],
-[Wrench, EnergyPipe, null]]);
-// -
-recipes.addShaped(EExtractionPipe, [
-[ElectrumPlate, HHammer, ElectrumPlate],
-[ElectrumFoil, EnergyPipe, ElectrumFoil],
-[null, EnergyPipe, Wrench]]);
+[ElectrumFoil, ElectrumPlate, ElectrumFoil],
+[Wrench, EnergyPipe, HHammer],
+[ElectrumFoil, ElectrumPlate, ElectrumFoil]]);
 
 // --- Item Retrieval Node
 recipes.addShaped(ItemRetrievalN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[Wrench, AnyPipe, HHammer],
+[EnderPearlPlate, LVRegulator, EnderPearlPlate],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
 // -
 recipes.addShaped(ItemRetrievalN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[HHammer, AnyPipe, Wrench],
+[EnderPearlPlate, LVRegulator, EnderPearlPlate],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
 
 // --- Fluid Retrieval Node
 recipes.addShaped(FluidRetrievalN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
+[Wrench, AnyPipe, HHammer],
+[EnderPearlPlate, LVRegulator, EnderPearlPlate],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
 // -
 recipes.addShaped(FluidRetrievalN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
+[HHammer, AnyPipe, Wrench],
+[EnderPearlPlate, LVRegulator, EnderPearlPlate],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
 
 // --- Item Tranfer Node
 recipes.addShaped(ItemTransferN, [
-[HHammer, TransferPipe, Wrench],
+[HHammer, AnyPipe, Wrench],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SteelGear, BrassItemPipe, SteelGear]]);
+[SmallStealGear, BrassItemPipe, SmallStealGear]]);
 // -
 recipes.addShaped(ItemTransferN, [
-[Wrench, TransferPipe, HHammer],
+[Wrench, AnyPipe, HHammer],
 [EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SteelGear, BrassItemPipe, SteelGear]]);
+[SmallStealGear, BrassItemPipe, SmallStealGear]]);
 
 // --- Fluid Transfer Node
 recipes.addShaped(FluidTransferN, [
-[HHammer, TransferPipe, Wrench],
+[HHammer, AnyPipe, Wrench],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
-[SSteelPlate, LVPump, SSteelPlate]]);
+[SteelFluidPipe, LVPump, SteelFluidPipe]]);
 // -
 recipes.addShaped(FluidTransferN, [
-[Wrench, TransferPipe, HHammer],
+[Wrench, AnyPipe, HHammer],
 [EnderPearlPlate, OBTank, EnderPearlPlate],
-[SSteelPlate, LVPump, SSteelPlate]]);
+[SteelFluidPipe, LVPump, SteelFluidPipe]]);
 
 // --- Energy Transfer Node
-recipes.addShaped(EnergyTransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SSteelPlate, CopperCable12x, SSteelPlate]]);
+mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
+[<gregtech:gt.metatool.01:12>, ItemTransferN, <gregtech:gt.metatool.01:16>],
+[<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
+[ItemTransferN, DiamondPipe, ItemTransferN]]);
 // -
-recipes.addShaped(EnergyTransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SSteelPlate, CopperCable12x, SSteelPlate]]);
+mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
+[<gregtech:gt.metatool.01:16>, ItemTransferN, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
+[ItemTransferN, DiamondPipe, ItemTransferN]]);
 
 // --- Hyper Energy Transfer Node
-recipes.addShaped(HyperETransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[ChromePlate, ElectrumCable12x, ChromePlate]]);
+mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
+[<gregtech:gt.metatool.01:12>, EnergyTransferN, <gregtech:gt.metatool.01:16>],
+[<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
+[EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 // -
-recipes.addShaped(HyperETransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[ChromePlate, ElectrumCable12x, ChromePlate]]);
+mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
+[<gregtech:gt.metatool.01:16>, EnergyTransferN, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
+[EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
 // --- Trash Can
 recipes.addShaped(<ExtraUtilities:trashcan>, [
@@ -851,6 +896,32 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:endMarker>, [
 [null, <minecraft:ender_eye>, null],
 [null, <ExtraUtilities:decorativeBlock1:1>, null],
 [null, <ExtraUtilities:decorativeBlock1:1>, null]]);
+
+// --- Wood Spike Post
+recipes.addShaped(<ExtraUtilities:spike_base_wood> * 2, [
+[Saw, null, Screwdriver],
+[WoodScrew, Wood, WoodScrew],
+[Wood, Log, Wood]]);
+
+// --- Iron Spike Post
+recipes.addShaped(<ExtraUtilities:spike_base> * 2, [
+[Saw, null, Screwdriver],
+[IronScrew, IronIngot, IronScrew],
+[IronIngot, IronBlock, IronIngot]]);
+
+// --- Gold Spike Post
+recipes.addShaped(<ExtraUtilities:spike_base_gold> * 2, [
+[Saw, null, Screwdriver],
+[GoldScrew, GoldIngot, GoldScrew],
+[GoldIngot, GoldBlock, GoldIngot]]);
+
+// --- Diamond Spike Post
+recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
+[Saw, null, Screwdriver],
+[DiamondScrew, Diamond, DiamondScrew],
+[Diamond, DiamondBlock, Diamond]]);
+
+
 
 
 
@@ -951,6 +1022,44 @@ Assembler.addRecipe(<ExtraUtilities:decorativeBlock1:10> * 5, <ExtraUtilities:de
 // --- Ender Core
 Assembler.addRecipe(EnderCore, <ExtraUtilities:decorativeBlock1:1> * 4, MagicalWood * 4, <liquid:ender> * 1000, 1200, 120);
 
+// --- Trading Post
+Assembler.addRecipe(<ExtraUtilities:trading_post>, <Railcraft:machine.alpha:6>, <gregtech:gt.metaitem.02:32470> * 4, 300, 30);
+
+// --- Transfer Pipe
+Assembler.addRecipe(TransferPipe, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
+
+// --- Sorting Pipe
+Assembler.addRecipe(SortingPipe, TransferPipe, <gregtech:gt.metaitem.01:32700>, 200, 64);
+
+// --- Energy Pipe
+Assembler.addRecipe(EnergyPipe, TransferPipe, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redalloy> * 216, 200, 64);
+
+// --- Crossover Pipe
+Assembler.addRecipe(CrossoverPipe, TransferPipe * 4, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+
+// --- Mod Sorting Pipe
+Assembler.addRecipe(ModSortingPipe, SortingPipe, <IC2:itemPartCircuit>, 300, 64);
+
+// --- Filter Pipe
+Assembler.addRecipe(FilterPipe, TransferPipe, <IC2:itemPartCircuit>, 200, 64);
+
+// --- Rationing Pipe
+Assembler.addRecipe(RationingPipe, SortingPipe, <gregtech:gt.metaitem.01:32702>, 300, 64);
+
+// --- Energy Extraction Pipe
+Assembler.addRecipe(EExtractionPipe, <gregtech:gt.metaitem.01:17303> * 2, EnergyPipe, 300, 64);
+
+// --- Hyper Rationing Pipe
+Assembler.addRecipe(HyperRationingPipe, RationingPipe, <IC2:itemPartCircuitAdv>, 400, 64);
+
+// --- Trash Can
+Assembler.addRecipe(<ExtraUtilities:trashcan>, <Railcraft:part.plate> * 4, <minecraft:ender_pearl>, 200, 30);
+
+// --- Fluid Trash Can
+Assembler.addRecipe(<ExtraUtilities:trashcan:1>, <ExtraUtilities:trashcan>, <BuildCraft|Factory:tankBlock>, 200, 30);
+
+// --- Energy Trash Can
+Assembler.addRecipe(<ExtraUtilities:trashcan:2>, <ExtraUtilities:trashcan>, <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>, 200, 30);
 
 
 

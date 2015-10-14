@@ -70,7 +70,10 @@ val ClearPane = <TConstruct:GlassPane>;
 
 val SteelWire = <ore:wireGt01Steel>;
 val TinWire = <ore:wireGt01Tin>;
+val NickelWire = <ore:wireGt01Nickel>;
 val CopperWire = <ore:wireGt01Copper>;
+val CupronickelWire = <ore:wireGt01Cupronickel>;
+val SilverWire = <ore:wireGt01Silver>;
 val AlWire = <ore:wireGt01Aluminium>;
 val ElectrumWire = <ore:wireGt01Electrum>;
 val GoldWire = <ore:wireGt01Gold>;
@@ -438,49 +441,49 @@ recipes.addShaped(PipeCobbleKinesis, [
 // --- Stone-Covered Kinesis Pipe
 recipes.addShaped(PipeStoneKinesis, [
 [StoneRod, ClearPane, StoneRod],
-[ClearPane, CopperWire, ClearPane],
+[ClearPane, NickelWire, ClearPane],
 [StoneRod, ClearPane, StoneRod]]);
 
 // --- Wood-Covered Kinesis Pipe
 recipes.addShaped(PipeWoodKinesis, [
 [Stick, ClearPane, Stick],
-[ClearPane, ElectrumWire, ClearPane],
+[ClearPane, CopperWire, ClearPane],
 [Stick, ClearPane, Stick]]);
 
 // --- Sandstone-Covered Kinesis Pipe
 recipes.addShaped(PipeSandstoneKinesis, [
 [SStoneRod, ClearPane, SStoneRod],
-[ClearPane, GoldWire, ClearPane],
+[ClearPane, CupronickelWire, ClearPane],
 [SStoneRod, ClearPane, SStoneRod]]);
 
 // --- Quartz-Covered Kinesis Pipe
 recipes.addShaped(PipeQuartzKinesis, [
 [QuartzRod, ClearPane, QuartzRod],
-[ClearPane, SteelWire, ClearPane],
+[ClearPane, SilverWire, ClearPane],
 [QuartzRod, ClearPane, QuartzRod]]);
 
 // --- Iron-Covered Kinesis Pipe
 recipes.addShaped(PipeIronKinesis, [
 [IronRod, ClearPane, IronRod],
-[ClearPane, AlWire, ClearPane],
+[ClearPane, ElectrumWire, ClearPane],
 [IronRod, ClearPane, IronRod]]);
 
 // --- Gold-Covered Kinesis Pipe
 recipes.addShaped(PipeGoldKinesis, [
 [GoldRod, ClearPane, GoldRod],
-[ClearPane, NicromeWire, ClearPane],
+[ClearPane, AlWire, ClearPane],
 [GoldRod, ClearPane, GoldRod]]);
 
 // --- Emerald-Covered Kinesis Pipe
 recipes.addShaped(PipeEmeraldKinesis, [
 [EmeraldRod, ClearPane, EmeraldRod],
-[ClearPane, PlatinumWire, ClearPane],
+[ClearPane, NicromeWire, ClearPane],
 [EmeraldRod, ClearPane, EmeraldRod]]);
 
 // --- Diamond-Covered Kinesis Pipe
 recipes.addShaped(PipeDiamondKinesis, [
 [DiamondRod, ClearPane, DiamondRod],
-[ClearPane, NiobiumTiWire, ClearPane],
+[ClearPane, PlatinumWire, ClearPane],
 [DiamondRod, ClearPane, DiamondRod]]);
 
 
@@ -510,7 +513,7 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>, [
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
 [<ore:stickRubber>, ClearPane, <ore:stickRubber>],
 [ClearPane, <ore:gemEnderPearl>, ClearPane],
-[<RandomThings:ingredient:1>, ClearPane, <RandomThings:ingredient:1>]]);
+[<ore:stickRubber>, ClearPane, <ore:stickRubber>]]);
 
 // --- Auto Workbench
 recipes.addShaped(AutoWorkB, [
