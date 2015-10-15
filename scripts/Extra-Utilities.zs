@@ -167,7 +167,7 @@ val Saw = <ore:craftingToolSaw>;
 
 
 // --- QED Recipes remove ALL
-//mods.extraUtils.QED.removeRecipe(<*>);
+mods.extraUtils.QED.removeRecipe(<*>);
 
 // --- Ender Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
@@ -517,16 +517,16 @@ recipes.remove(<ExtraUtilities:spike_base_diamond>);
 
 
 // --- Ender Quarry
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [
-[EnderCore, TitaniumGear, EnderCore],
+mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
+[EnderCore, <ore:gearTungstenSteel>, EnderCore],
 [EnderPump, DiamondMatrix, EnderPump],
 [EnderCore, AdvMiner, EnderCore]]);
 
 // --- Ender-Thermic Pump
-recipes.addShaped(EnderPump, [
-[EnderObsidian, AdvCircuit, EnderObsidian],
+mods.extraUtils.QED.addShapedRecipe(EnderPump, [
+[EnderObsidian, <ore:circuitMaster>, EnderObsidian],
 [<BuildCraft|Factory:tankBlock>, EnderCore, <BuildCraft|Factory:tankBlock>],
-[EnderObsidian, Miner, EnderObsidian]]);
+[EnderObsidian, <gregtech:gt.blockmachines:1143>, EnderObsidian]]);
 
 // --- Diamond-Etched Computational Matrix
 recipes.addShaped(DiamondMatrix, [

@@ -1035,6 +1035,11 @@ recipes.remove(<gregtech:gt.blockmachines:128>);
 // --- Quantum Chest V
 recipes.remove(<gregtech:gt.blockmachines:129>);
 
+// --- Advanced Pump III
+recipes.remove(<gregtech:gt.blockmachines:1143>);
+
+// --- Advanced Pump III
+recipes.remove(<gregtech:gt.blockmachines:1144>);
 
 
 
@@ -2618,6 +2623,18 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.
 // --- TungstenSteel Wrench
 recipes.addShapeless(<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}}), [<RIO:item.io_tool>]);
 
+// --- Advanced Pump III
+recipes.addShaped(<gregtech:gt.blockmachines:1143>, [
+[<gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32613>, <gregtech:gt.metaitem.01:32705>],
+[<gregtech:gt.metaitem.01:32613>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32613>],
+[<gregtech:gt.blockmachines:5153>, <gregtech:gt.metaitem.01:32613>, <gregtech:gt.blockmachines:5153>]]);
+
+// --- Advanced Pump IV
+recipes.addShaped(<gregtech:gt.blockmachines:1144>, [
+[<gregtech:gt.metaitem.01:32707>, <gregtech:gt.metaitem.01:32614>, <gregtech:gt.metaitem.01:32707>],
+[<gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:15>, <gregtech:gt.metaitem.01:32614>],
+[<gregtech:gt.blockmachines:5163>, <gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:5163>]]);
+
 
 
 
@@ -2942,6 +2959,7 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.01:
 
 // --- Flint Dust
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:802> * 2, <minecraft:flint>, 32, 16);
+
 
 
 
