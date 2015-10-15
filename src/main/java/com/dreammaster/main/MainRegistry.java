@@ -9,6 +9,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
+import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
+
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.baubles.WitherProtectionRing;
 import com.dreammaster.block.BlockList;
@@ -20,6 +22,7 @@ import com.dreammaster.command.CustomFuelsCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
+import com.dreammaster.gthandler.CustomItemList;
 import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
@@ -272,6 +275,8 @@ public class MainRegistry {
             Module_CustomDrops.LoadConfig();
 		
 		ItemPipes.registerPipes();
+		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(130, "basicgenerator.plasmagenerator.tier.08", "Plasma Generator Mark IV",7).getStackForm(1L));
+		CustomItemList.Generator_Plasma_UV.set(new GT_MetaTileEntity_PlasmaGenerator(131, "basicgenerator.plasmagenerator.tier.09", "Plasma Generator Mark V",8).getStackForm(1L));
 	}
 	
 	/** Do some stuff once the server starts
