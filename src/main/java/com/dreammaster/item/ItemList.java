@@ -1,5 +1,7 @@
 package com.dreammaster.item;
 
+import net.minecraft.item.ItemStack;
+
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -292,5 +294,10 @@ public enum ItemList {
 		}
 		
 		return tResult;
+	}
+	
+	public ItemStack getIS()
+	{
+	    return new ItemStack(Item.getConstructedItem(), 1);
 	}
 }

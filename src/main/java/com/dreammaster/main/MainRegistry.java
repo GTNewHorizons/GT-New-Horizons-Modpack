@@ -2,14 +2,24 @@ package com.dreammaster.main;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-
+import gregtech.api.GregTech_API;
+import gregtech.api.enums.Materials;
+import gregtech.api.enums.OrePrefixes;
+import gregtech.api.enums.TC_Aspects;
+import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicMachine_GT_Recipe;
+import gregtech.api.util.GT_ModHandler;
+import gregtech.api.util.GT_Recipe;
+import gregtech.common.items.GT_MetaGenerated_Item_01;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
+import gregtech.common.tileentities.storage.GT_MetaTileEntity_QuantumTank;
 
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.baubles.WitherProtectionRing;
@@ -23,6 +33,7 @@ import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.gthandler.CustomItemList;
+import com.dreammaster.gthandler.GT_CustomLoader;
 import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
@@ -76,6 +87,7 @@ public class MainRegistry {
 	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CustomDropsHandler Module_CustomDrops = null;
 	public static IngameErrorLog Module_AdminErrorLogs = null;
+	public static GT_CustomLoader GTCustomLoader = null;
 	public static CoreModConfig CoreConfig;
 	public static Random Rnd = null;
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
@@ -185,6 +197,9 @@ public class MainRegistry {
 		}
 		// ------------------------------------------------------------
 			
+		
+
+		
         if(PreEvent.getSide() == Side.CLIENT) {
             FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
         }
@@ -273,10 +288,16 @@ public class MainRegistry {
 
 		if (CoreConfig.ModCustomDrops_Enabled)
             Module_CustomDrops.LoadConfig();
-		
+
 		ItemPipes.registerPipes();
-		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(130, "basicgenerator.plasmagenerator.tier.08", "Plasma Generator Mark IV",7).getStackForm(1L));
-		CustomItemList.Generator_Plasma_UV.set(new GT_MetaTileEntity_PlasmaGenerator(131, "basicgenerator.plasmagenerator.tier.09", "Plasma Generator Mark V",8).getStackForm(1L));
+        if (CoreConfig.RegisterEndGameGTMachines_Enabled)
+        {
+
+                Logger.debug("POSTLOAD Endgame Gregtech stuff is enabled. Get ready to rule the world!");
+                GTCustomLoader = new GT_CustomLoader();
+                GTCustomLoader.run();
+        }
+
 	}
 	
 	/** Do some stuff once the server starts

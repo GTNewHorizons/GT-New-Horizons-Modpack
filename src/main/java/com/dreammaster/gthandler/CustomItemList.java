@@ -13,7 +13,10 @@ import gregtech.api.util.GT_Utility;
 public enum CustomItemList implements IItemContainer
 {
 	Generator_Plasma_ZPMV,
-	Generator_Plasma_UV;
+	Generator_Plasma_UV,
+	AlloySmelterLuV,
+	AlloySmelterZPM,
+	AlloySmelterUV;
 	
 	
 	private ItemStack mStack = null;
