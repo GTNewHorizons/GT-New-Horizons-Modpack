@@ -2257,9 +2257,16 @@ recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expan
 
 // --- Short Mead
 SemiFluidGenerator.addFluid(<liquid:short.mead> * 20, 4);
+// -
+Fuels.addDieselFuel(<minecraft:bucket>, <Forestry:bucketShortMead>, 4);
 
 // --- Fish Oil
 SemiFluidGenerator.addFluid(<liquid:fishoil> * 20, 2);
+// -
+Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30711>, 2);
+
+// --- Biomass
+Fuels.addDieselFuel(<Forestry:canEmpty>, <Forestry:canBiomass>, 8);
 
 
 

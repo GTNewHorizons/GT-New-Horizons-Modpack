@@ -1760,7 +1760,10 @@ recipes.addShaped(<Railcraft:brick.infernal:2>, [
 
 // --- Creosote
 SemiFluidGenerator.addFluid(<liquid:creosote> * 25, 8);
-
+// -
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}), 8);
+// -
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <gregtech:gt.metaitem.01:30712>, 8);
 
 
 

@@ -1127,6 +1127,13 @@ recipes.addShaped(<GalacticraftCore:item.canvas>,  [
 
 // --- Oil
 //SemiFluidGenerator.addFluid(<liquid:oilgc> * 20, 16);
+//Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oilgc", Amount: 1000}}), 16);
+// -
+Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), 16);
+// -
+Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
+// -
+//Fuels.addDieselFuel(null, <GalacticraftCore:tile.crudeOilStill>, 16);
 
 
 

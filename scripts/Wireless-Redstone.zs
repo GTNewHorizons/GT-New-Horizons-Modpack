@@ -111,16 +111,16 @@ Assembler.addRecipe(<WR-CBE|Core:wirelessTransceiver>, <gregtech:gt.metaitem.01:
 Assembler.addRecipe(<WR-CBE|Core:blazeTransceiver>, <minecraft:blaze_rod>, <WR-CBE|Core:retherPearl>, <liquid:molten.redstone> * 144, 600, 120);
 
 // --- Receiver Dish
-Assembler.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 144, 600, 256);
+Assembler.addRecipe(<WR-CBE|Core:recieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 250, 600, 256);
 
 // --- Blaze Receiver Dish
-Assembler.addRecipe(<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 144, 600, 256);
+Assembler.addRecipe(<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:stoneBowl>, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
 
 // --- Wireless Transmitter
-Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 250, 600, 256);
+Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:wirelessTransceiver>, <liquid:ender> * 500, 600, 256);
 
 // --- Wireless Receiver
-Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:recieverDish>, <liquid:ender> * 250, 600, 256);
+Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:1>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:recieverDish>, <liquid:ender> * 500, 600, 256);
 
 // --- Wireless Jammer
 Assembler.addRecipe(<WR-CBE|Logic:wirelessLogic:2>, <ProjRed|Core:projectred.core.part> * 3, <WR-CBE|Core:blazeTransceiver>, <liquid:ender> * 250, 600, 256);
