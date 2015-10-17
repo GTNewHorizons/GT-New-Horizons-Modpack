@@ -161,6 +161,7 @@ val HHammer = <ore:craftingToolHardHammer>;
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Saw = <ore:craftingToolSaw>;
+val Shears = <minecraft:shears>;
 
 
 
@@ -535,6 +536,24 @@ recipes.remove(<ExtraUtilities:scanner>);
 
 // --- Builder Wand
 recipes.remove(<ExtraUtilities:builderswand>);
+
+// --- Precision Shears
+recipes.remove(<ExtraUtilities:shears>);
+
+// --- Etheric Sword
+recipes.remove(<ExtraUtilities:ethericsword>);
+
+// --- Erosion Shovel
+recipes.remove(<ExtraUtilities:erosionShovel>);
+
+// --- Destruction Pickaxe
+recipes.remove(<ExtraUtilities:destructionpickaxe>);
+
+// --- Healing Axe
+recipes.remove(<ExtraUtilities:defoliageAxe>);
+
+// --- Reversing Hoe
+recipes.remove(<ExtraUtilities:temporalHoe>);
 
 
 
@@ -955,6 +974,41 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 // --- Builder Wand
 recipes.addShaped(<ExtraUtilities:builderswand>, [
 [null, <ore:ingotUnstable>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Precision Shears
+recipes.addShaped(<ExtraUtilities:shears>, [
+[<ore:ingotUnstable>, null, <ore:ingotUnstable>],
+[AngelBlock, Shears, AngelBlock]]);
+
+// --- Etheric Sword
+recipes.addShaped(<ExtraUtilities:ethericsword>, [
+[null, <ore:ingotUnstable>, null],
+[null, <ore:ingotUnstable>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Erosion Shovel
+recipes.addShaped(<ExtraUtilities:erosionShovel>, [
+[null, <ore:ingotUnstable>, null],
+[null, <TConstruct:toolRod:6>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Destruction Pickaxe
+recipes.addShaped(<ExtraUtilities:destructionpickaxe>, [
+[<ore:ingotUnstable>, <ore:ingotUnstable>, <ore:ingotUnstable>],
+[null, <TConstruct:toolRod:6>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Healing Axe
+recipes.addShaped(<ExtraUtilities:defoliageAxe>, [
+[<ore:ingotUnstable>, <ore:ingotUnstable>, null],
+[<ore:ingotUnstable>, <TConstruct:toolRod:6>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Reversing Hoe
+recipes.addShaped(<ExtraUtilities:temporalHoe>, [
+[<ore:ingotUnstable>, <ore:ingotUnstable>, null],
+[null, <TConstruct:toolRod:6>, null],
 [null, <TConstruct:toolRod:6>, null]]);
 
 
