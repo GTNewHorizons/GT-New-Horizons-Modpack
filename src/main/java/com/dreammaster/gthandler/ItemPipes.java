@@ -37,7 +37,7 @@ public class ItemPipes {
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveTiny.get(Materials.Osmium), new GT_MetaPipeEntity_Item(5646, "GT_Pipe_Restrictive_Osmium_Tiny", "Tiny Restrictive Osmium Item Pipe", 0.25F, Materials.Osmium, 2, 1638400, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveSmall.get(Materials.Osmium), new GT_MetaPipeEntity_Item(5647, "GT_Pipe_Restrictive_Osmium_Small", "Small Restrictive Osmium Item Pipe", 0.375F, Materials.Osmium, 4, 819200, true).getStackForm(1L));
 
-        // Rubber
+        // Tin
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Tin), new GT_CustomMetaPipeEntity_Item(5589, "GT_Pipe_Tin_Tiny", "Tiny Tin Item Pipe", 0.25F, Materials.Tin, 1, 262144, false, 160).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Tin), new GT_CustomMetaPipeEntity_Item(5590, "GT_Pipe_Tin_Small", "Small Tin Item Pipe", 0.375F, Materials.Tin, 1,131072,false, 80).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.Tin), new GT_CustomMetaPipeEntity_Item(5591, "GT_Pipe_Tin", "Tin Item Pipe", 0.5F, Materials.Tin, 1,65536,false, 40).getStackForm(1L));

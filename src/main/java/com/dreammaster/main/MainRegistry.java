@@ -292,10 +292,9 @@ public class MainRegistry {
 		ItemPipes.registerPipes();
         if (CoreConfig.RegisterEndGameGTMachines_Enabled)
         {
-
-                Logger.debug("POSTLOAD Endgame Gregtech stuff is enabled. Get ready to rule the world!");
-                GTCustomLoader = new GT_CustomLoader();
-                GTCustomLoader.run();
+            Logger.debug("POSTLOAD Endgame Gregtech stuff is enabled. Get ready to rule the world!");
+            GTCustomLoader = new GT_CustomLoader();
+            GTCustomLoader.run();
         }
 
 	}
