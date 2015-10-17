@@ -741,6 +741,42 @@ recipes.remove(<IC2:blockMiningPipe>);
 // --- Nuclear Reactor
 recipes.remove(<IC2:blockGenerator:5>);
 
+// --- Iridium
+furnace.remove(<IC2:itemOreIridium>);
+// -
+furnace.remove(<gregtech:gt.metaitem.01:11084>, <IC2:itemOreIridium>);
+
+// --- Iridium Plates
+recipes.remove(<gregtech:gt.metaitem.01:17084>);
+
+// --- Iridium Axe
+recipes.remove(<gregtech:gt.metaitem.02:3084>);
+
+// --- Iridium Hoe Head
+recipes.remove(<gregtech:gt.metaitem.02:4084>);
+
+// --- Iridium Sense Blade
+recipes.remove(<gregtech:gt.metaitem.02:12084>);
+
+// --- Iridium Hammer
+recipes.remove(<gregtech:gt.metatool.01:12>.withTag({"GT.ToolStats": {PrimaryMaterial: "Iridium", MaxDamage: 512000 as long, SecondaryMaterial: "Steel"}}));
+
+// --- Iridium Pickaxe Head
+recipes.remove(<gregtech:gt.metaitem.02:1084>);
+
+// --- Iridium Plow Head
+recipes.remove(<gregtech:gt.metaitem.02:13084>);
+
+// --- Iridium Sword Blade
+recipes.remove(<gregtech:gt.metaitem.02:84>);
+
+// --- Iridium Saw Head
+recipes.remove(<gregtech:gt.metaitem.02:7084>);
+
+// --- Iridium Shovel Head
+recipes.remove(<gregtech:gt.metaitem.02:2084>);
+
+
 
 
 
@@ -1155,22 +1191,22 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 [<ore:cableGt01Gold>, <ore:batteryElite>, <ore:cableGt01Gold>]]);
 
 // --- Mining Drill
-recipes.addShaped(<IC2:itemToolDrill:26>, [
-[<ore:screwStainlessSteel>, <ore:toolHeadDrillMeteoricSteel>, <ore:screwStainlessSteel>],
-[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallStainlessSteel>],
-[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:*>, <ore:plateStainlessSteel>]]);
+//recipes.addShaped(<IC2:itemToolDrill:26>, [
+//[<ore:screwStainlessSteel>, <ore:toolHeadDrillMeteoricSteel>, <ore:screwStainlessSteel>],
+//[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallStainlessSteel>],
+//[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:*>, <ore:plateStainlessSteel>]]);
 
 // --- Diamond Drill
-recipes.addShaped(<IC2:itemToolDDrill:26>, [
-[<ore:screwTitanium>, <dreamcraft:item.DiamondDrillTip>, <ore:screwTitanium>],
-[<ore:gearGtSmallTitanium>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTitanium>],
-[<ore:plateTitanium>, <IC2:itemBatChargeRE:*>, <ore:plateTitanium>]]);
+//recipes.addShaped(<IC2:itemToolDDrill:26>, [
+//[<ore:screwTitanium>, <dreamcraft:item.DiamondDrillTip>, <ore:screwTitanium>],
+//[<ore:gearGtSmallTitanium>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTitanium>],
+//[<ore:plateTitanium>, <IC2:itemBatChargeRE:*>, <ore:plateTitanium>]]);
 
 // --- Iridium Drill
-recipes.addShaped(<IC2:itemToolIridiumDrill:26>, [
-[<ore:screwTungstenSteel>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:screwTungstenSteel>],
-[<ore:gearGtSmallTungstenSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTungstenSteel>],
-[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:*>, <ore:plateTungstenSteel>]]);
+//recipes.addShaped(<IC2:itemToolIridiumDrill:26>, [
+//[<ore:screwTungstenSteel>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:screwTungstenSteel>],
+//[<ore:gearGtSmallTungstenSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTungstenSteel>],
+//[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:*>, <ore:plateTungstenSteel>]]);
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
@@ -1266,7 +1302,7 @@ recipes.addShaped(<IC2:blockMachine2:12>, [
 recipes.addShaped(<IC2:blockMachine2:11>, [
 [<ore:circuitAdvanced>, <IC2:blockElectric:1>, <ore:circuitAdvanced>],
 [<gregtech:gt.metaitem.01:32602>, <IC2:blockMachine:12>, <gregtech:gt.metaitem.01:32602>],
-[<IC2:blockMachine:7>, <IC2:blockMachine2>, <IC2:blockMachine:7>]]);
+[<gregtech:gt.metaitem.01:32652>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32652>]]);
 
 // --- Tesla Coil
 recipes.addShaped(<IC2:blockMachine2:1>, [
@@ -1287,10 +1323,10 @@ recipes.addShaped(<IC2:blockMachine:9>, [
 [<gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>]]);
 
 // --- Miner
-recipes.addShaped(<IC2:blockMachine:7>, [
-[<IC2:itemCasing:5>, <ore:craftingChest>, <IC2:itemCasing:5>],
-[<ore:circuitBasic>, <gregtech:gt.blockcasings:1>, <ore:circuitBasic>],
-[<gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32640>, <gregtech:gt.metaitem.01:32600>]]);
+//recipes.addShaped(<IC2:blockMachine:7>, [
+//[<IC2:itemCasing:5>, <ore:craftingChest>, <IC2:itemCasing:5>],
+//[<ore:circuitBasic>, <gregtech:gt.blockcasings:1>, <ore:circuitBasic>],
+//[<gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:32640>, <gregtech:gt.metaitem.01:32600>]]);
 
 // --- Charge Pad MFSU
 recipes.addShaped(<IC2:blockChargepad:3>, [
@@ -1368,6 +1404,77 @@ recipes.addShaped(<IC2:blockGenerator:7>, [
 [<IC2:itemCasing:5>, <ore:craftingTank>, <IC2:itemCasing:5>],
 [<gregtech:gt.blockmachines:2006>, <gregtech:gt.blockmachines:11>, <gregtech:gt.blockmachines:2006>],
 [<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>]]);
+
+// --- Iridium Plates
+recipes.addShaped(<gregtech:gt.metaitem.01:17084>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:ingotIridium>, null, null],
+[<ore:ingotIridium>, null, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:17084>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<gregtech:gt.metaitem.01:13084>, null, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:17084> * 16, [
+[<gregtech:gt.metaitem.03:3084>, <ore:craftingToolCrowbar>,null]]);
+
+// --- Iridium Axe
+recipes.addShaped(<gregtech:gt.metaitem.02:3084>, [
+[<ore:plateIridium>, <ore:ingotIridium>, <ore:craftingToolHardHammer>],
+[<ore:plateIridium>, null, null],
+[<ore:craftingToolFile>, null, null]]);
+
+// --- Iridium Hoe Head
+recipes.addShaped(<gregtech:gt.metaitem.02:4084>, [
+[<ore:plateIridium>, <ore:ingotIridium>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, null, null]]);
+
+// --- Iridium Sense Blade
+recipes.addShaped(<gregtech:gt.metaitem.02:12084>, [
+[<ore:plateIridium>, <ore:plateIridium>, <ore:ingotIridium>],
+[<ore:craftingToolHardHammer>, <ore:craftingToolFile>, null]]);
+
+// --- Iridium Hammer
+recipes.addShaped(<gregtech:gt.metatool.01:12>.withTag({"GT.ToolStats": {PrimaryMaterial: "Iridium", MaxDamage: 512000 as long, SecondaryMaterial: "Steel"}}), [
+[<ore:ingotIridium>, <ore:ingotIridium>, null],
+[<ore:ingotIridium>, <ore:ingotIridium>, <ore:stickSteel>],
+[<ore:ingotIridium>, <ore:ingotIridium>, null]]);
+
+// --- Iridium Pickaxe Head
+recipes.addShaped(<gregtech:gt.metaitem.02:1084>, [
+[<ore:plateIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
+[<ore:craftingToolFile>, null, <ore:craftingToolHardHammer>],
+[null, null, null]]);
+
+// --- Iridium Plow Head
+recipes.addShaped(<gregtech:gt.metaitem.02:13084>, [
+[<ore:plateIridium>, <ore:plateIridium>, null],
+[<ore:plateIridium>, <ore:plateIridium>, null],
+[<ore:craftingToolHardHammer>, <ore:craftingToolFile>, null]]);
+
+// --- Iridium Sword Blade
+recipes.addShaped(<gregtech:gt.metaitem.02:84>, [
+[null, <ore:plateIridium>, null],
+[<ore:craftingToolFile>, <ore:plateIridium>, <ore:craftingToolHardHammer>],
+[null, null, null]]);
+
+// --- Iridium Saw Head
+recipes.addShaped(<gregtech:gt.metaitem.02:7084>, [
+[<ore:plateIridium>, <ore:plateIridium>, null],
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null],
+[null, null, null]]);
+
+// --- Iridium Shovel Head
+recipes.addShaped(<gregtech:gt.metaitem.02:2084>, [
+[<ore:craftingToolFile>, <ore:plateIridium>, <ore:craftingToolHardHammer>]]);
+
+// --- Iridium Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:2084> * 16, [
+[<gregtech:gt.metaitem.03:84>, <ore:craftingToolCrowbar>,null]]);
+
+// --- Iridium Ingot
+recipes.addShaped(<gregtech:gt.metaitem.01:11084> * 16, [
+[<gregtech:gt.metaitem.03:1084>, <ore:craftingToolCrowbar>,null]]);
 
 
 

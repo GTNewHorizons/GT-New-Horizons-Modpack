@@ -44,6 +44,7 @@ val MVConveyor = <gregtech:gt.metaitem.01:32631>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
 val MVPiston = <gregtech:gt.metaitem.01:32641>;
 val IronBars = <minecraft:iron_bars>;
+val SteelBars = <dreamcraft:item.SteelBars>;
 val Cabinet = <ExtraUtilities:filing>;
 val AdvCabinet = <ExtraUtilities:filing:1>;
 val WateringCan = <ExtraUtilities:watering_can:1>;
@@ -115,6 +116,7 @@ val IronChest = <IronChest:BlockIronChest>;
 val WoodGear = <ore:gearWood>;
 val Stone = <ore:stone>;
 val RedAlloyGear = <ore:ringRedAlloy>;
+val LapisPlate = <ore:plateLapis>;
 
 val TransferPipe = <ExtraUtilities:pipes>;
 val SortingPipe = <ExtraUtilities:pipes:8>;
@@ -510,6 +512,29 @@ recipes.remove(<ExtraUtilities:spike_base_gold>);
 // --- Diamond Spike Post
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
 
+// --- Generators Tier 1
+recipes.remove(<ExtraUtilities:generator:*>);
+
+// --- Generators Tier 2
+recipes.remove(<ExtraUtilities:generator.8:*>);
+
+// --- Generators Tier 3
+recipes.remove(<ExtraUtilities:generator.64:*>);
+
+// --- Heating Coil
+recipes.remove(<ExtraUtilities:heatingElement>);
+
+// --- Advanced Item Filter
+recipes.remove(<ExtraUtilities:nodeUpgrade:10>);
+
+// --- Golden Lasso
+recipes.remove(<ExtraUtilities:golden_lasso>);
+
+// --- Portable Scanner
+recipes.remove(<ExtraUtilities:scanner>);
+
+// --- Builder Wand
+recipes.remove(<ExtraUtilities:builderswand>);
 
 
 
@@ -548,20 +573,20 @@ recipes.addShaped(RSClock, [
 
 // --- Quarry Upgrade Base
 recipes.addShaped(UpgradeBase, [
-[EnderObsidian, <ore:plateChrome>, EnderObsidian],
-[<ore:plateChrome>, <ore:gemEnderEye>, <ore:plateChrome>],
-[EnderObsidian, <ore:plateChrome>, EnderObsidian]]);
+[EnderObsidian, <ore:plateStainlessSteel>, EnderObsidian],
+[<ore:plateStainlessSteel>, <ore:gemEnderEye>, <ore:plateStainlessSteel>],
+[EnderObsidian, <ore:plateStainlessSteel>, EnderObsidian]]);
 
 // --- Quarry World Hole Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:1>, [
-[UpgradeBase, QuadDirt, UpgradeBase],
-[QuadDirt, SeptupleCobble, QuadDirt],
-[UpgradeBase, QuadDirt, UpgradeBase]]);
+[UpgradeBase, <ExtraUtilities:cobblestone_compressed:4>, UpgradeBase],
+[QuadDirt, DiamondGear, QuadDirt],
+[UpgradeBase, <ExtraUtilities:cobblestone_compressed:4>, UpgradeBase]]);
 
 // --- Quarry Silk Touch Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:2>, [
 [UpgradeBase, SilkyJewel, UpgradeBase],
-[SilkyJewel, DiamondGear, SilkyJewel],
+[<ore:plateTitanium>, DiamondGear, <ore:plateTitanium>],
 [UpgradeBase, SilkyJewel, UpgradeBase]]);
 
 // --- Quarry Fortune I Upgrade
@@ -578,38 +603,38 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:4>, [
 
 // --- Quarry Fortune III Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:5>, [
-[UpgradeBase, <ore:plateAlloyIridium>, UpgradeBase],
-[<ore:plateAlloyIridium>, <ExtraUtilities:enderQuarryUpgrade:4>, <ore:plateAlloyIridium>],
-[UpgradeBase, <ore:plateAlloyIridium>, UpgradeBase]]);
+[UpgradeBase, <ore:plateChrome>, UpgradeBase],
+[<ore:plateChrome>, <ExtraUtilities:enderQuarryUpgrade:4>, <ore:plateChrome>],
+[UpgradeBase, <ore:plateChrome>, UpgradeBase]]);
 
 // --- Quarry Speed I Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [
-[UpgradeBase, <ore:gearStainlessSteel>, UpgradeBase],
-[<ore:gearStainlessSteel>, <ore:gearDiamond>, <ore:gearStainlessSteel>],
-[UpgradeBase, <ore:gearStainlessSteel>, UpgradeBase]]);
+[UpgradeBase, <ore:gearTitanium>, UpgradeBase],
+[SpeedUp, <ore:gearDiamond>, SpeedUp],
+[UpgradeBase, <ore:gearTitanium>, UpgradeBase]]);
 
 // --- Quarry Speed II Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase],
-[<ore:gearTitanium>, <ExtraUtilities:enderQuarryUpgrade:6>, <ore:gearTitanium>],
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase]]);
+[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase],
+[<ore:gearTungstenSteel>, <ExtraUtilities:enderQuarryUpgrade:6>, <ore:gearTungstenSteel>],
+[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase]]);
 
 // --- Quarry Speed III Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase],
-[<ore:gearTungstenSteel>, <ExtraUtilities:enderQuarryUpgrade:7>, <ore:gearTungstenSteel>],
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase]]);
+[UpgradeBase, <ore:gearChrome>, UpgradeBase],
+[<ore:gearChrome>, <ExtraUtilities:enderQuarryUpgrade:7>, <ore:gearChrome>],
+[UpgradeBase, <ore:gearChrome>, UpgradeBase]]);
 
 // --- Quarry Pump Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 [UpgradeBase, EnderPump, UpgradeBase],
-[EnderPump, StainlessPipe, EnderPump],
+[<ore:pipeLargeTungstenSteel>, StainlessPipe, <ore:pipeLargeTungstenSteel>],
 [UpgradeBase, EnderPump, UpgradeBase]]);
 
 // --- Speed Upgrade
 recipes.addShaped(SpeedUp, [
 [RedAlloyPlate, SSteelPlate, RedAlloyPlate],
-[SSteelPlate, DiamondGear, SSteelPlate],
+[SSteelGear, DiamondGear, SSteelGear],
 [RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
 
 // --- Item Filter Upgrade
@@ -618,51 +643,57 @@ recipes.addShaped(ItemFilterUp, [
 [IronBars, DiamondGear, IronBars],
 [RedAlloyPlate, IronBars, RedAlloyPlate]]);
 
+// --- Advanced Item Filter
+recipes.addShaped(<ExtraUtilities:nodeUpgrade:10>, [
+[LapisPlate, SteelBars, LapisPlate],
+[SteelBars, ItemFilterUp, SteelBars],
+[LapisPlate, SteelBars, LapisPlate]]);
+
 // --- World Interaction Upgrade
 recipes.addShaped(WorldInterUp, [
-[DenseLapisPlate, IronPick, DenseLapisPlate],
-[IronPick, DiamondPick, IronPick],
-[DenseLapisPlate, IronPick, DenseLapisPlate]]);
+[LapisPlate, DiamondPick, LapisPlate],
+[IronPick, DiamondGear, IronPick],
+[LapisPlate, DiamondPick, LapisPlate]]);
 
 // --- Transmitter Upgrade
 recipes.addShaped(TransmitterUp, [
 [EnderEyePlate, WorldInterUp, EnderEyePlate],
-[<ore:gearIridiumAlloy>, NStarPlate, <ore:gearIridiumAlloy>],
-[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
+[<ore:gearIridium>, <WR-CBE|Logic:wirelessLogic>, <ore:gearIridium>],
+[EnderEyePlate, NStarPlate, EnderEyePlate]]);
 
 // --- Receiver Upgrade
 recipes.addShaped(ReceiverUp, [
 [EnderEyePlate, WorldInterUp, EnderEyePlate],
-[<ore:gearIridiumAlloy>, NStarPlate, <ore:gearIridiumAlloy>],
-[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
+[<ore:gearIridium>, <WR-CBE|Core:recieverDish>, <ore:gearIridium>],
+[EnderEyePlate, NStarPlate, EnderEyePlate]]);
 
 // --- Depth-First Upgrade
 recipes.addShaped(DepthFirstUp, [
 [RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[Wrench, SpeedUp, SpeedUp],
+[Wrench, DiamondGear, SpeedUp],
 [RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
 
 // --- Breadth-First Upgrade
 recipes.addShaped(BreadthFirstUp, [
 [RedAlloyPlate, Wrench, RedAlloyPlate],
-[SpeedUp, SpeedUp, SpeedUp],
+[SpeedUp, DiamondGear, SpeedUp],
 [RedAlloyPlate, null, RedAlloyPlate]]);
 // -
 recipes.addShaped(BreadthFirstUp, [
 [RedAlloyPlate, null, RedAlloyPlate],
-[SpeedUp, SpeedUp, SpeedUp],
+[SpeedUp, DiamondGear, SpeedUp],
 [RedAlloyPlate, Wrench, RedAlloyPlate]]);
 
 // --- Pseudo Round-Robin Upgrade
 recipes.addShaped(RoundRobinUp, [
 [RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[null, Wrench, SpeedUp],
+[Wrench, DiamondGear, SpeedUp],
 [RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
 
 // --- Stack Upgrade
 recipes.addShaped(StackUp, [
 [RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[SpeedUp, MVPiston, SpeedUp],
+[Wrench, DiamondGear, MVPiston],
 [RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
 
 // --- Paintbrush
@@ -921,6 +952,11 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 [DiamondScrew, Diamond, DiamondScrew],
 [Diamond, DiamondBlock, Diamond]]);
 
+// --- Builder Wand
+recipes.addShaped(<ExtraUtilities:builderswand>, [
+[null, <ore:ingotUnstable>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
 
 
 
@@ -1060,6 +1096,19 @@ Assembler.addRecipe(<ExtraUtilities:trashcan:1>, <ExtraUtilities:trashcan>, <Bui
 
 // --- Energy Trash Can
 Assembler.addRecipe(<ExtraUtilities:trashcan:2>, <ExtraUtilities:trashcan>, <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>, 200, 30);
+
+// --- Heating Coil
+Assembler.addRecipe(<ExtraUtilities:heatingElement>, <IC2:itemRecipePart> * 2, <gregtech:gt.metaitem.02:19032> * 4, <liquid:molten.tin> * 144, 400, 30);
+// -
+Assembler.addRecipe(<ExtraUtilities:heatingElement>, <IC2:itemRecipePart> * 2, <gregtech:gt.metaitem.02:19032> * 4, <liquid:molten.lead> * 288, 400, 30);
+// -
+Assembler.addRecipe(<ExtraUtilities:heatingElement>, <IC2:itemRecipePart> * 2, <gregtech:gt.metaitem.02:19032> * 4, <liquid:molten.solderingalloy> * 72, 400, 30);
+
+// --- Golden Lasso
+Assembler.addRecipe(<ExtraUtilities:golden_lasso>, <minecraft:ender_eye>, <gregtech:gt.metaitem.02:19086> * 4, 200, 30);
+
+// --- Portable Scanner
+Assembler.addRecipe(<ExtraUtilities:scanner>, <gregtech:gt.metaitem.01:32762>, <minecraft:ender_eye>, 600, 120);
 
 
 

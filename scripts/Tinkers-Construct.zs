@@ -1620,10 +1620,10 @@ mods.thaumcraft.Research.addPage("SILKYCRYSTAL", "TConstruct.research_page.SILKY
 game.setLocalization("en_US", "TConstruct.research_page.SILKYCRYSTAL", "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.");
 mods.thaumcraft.Arcane.addShaped("SILKYCRYSTAL", <TConstruct:materials:25>, "aer 30, aqua 25, ignis 15, terra 15, ordo 10, perditio 10", [
 [String, <ore:foilGold>, String],
-[<ore:foilGold>, String, <ore:foilGold>],
+[<ore:foilGold>, <Forestry:craftingMaterial:3>, <ore:foilGold>],
 [String, <ore:foilGold>, String]]);
 mods.thaumcraft.Research.addArcanePage("SILKYCRYSTAL", <TConstruct:materials:25>);
-mods.thaumcraft.Infusion.addRecipe("SILKYCRYSTAL", <minecraft:diamond_block>, [<TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard>, <TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:3>, <TConstruct:materials:25>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:4>], "ignis 20, terra 20, ordo 35, praecantatio 35, vitreus 20", <TConstruct:materials:26>, 4);
+mods.thaumcraft.Infusion.addRecipe("SILKYCRYSTAL", <minecraft:diamond_block>, [<TConstruct:materials:25>, <Thaumcraft:ItemShard>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:3>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:4>], "ignis 20, terra 20, ordo 35, praecantatio 35, vitreus 20", <TConstruct:materials:26>, 4);
 mods.thaumcraft.Research.addInfusionPage("SILKYCRYSTAL", <TConstruct:materials:26>);
 mods.thaumcraft.Warp.addToResearch("SILKYCRYSTAL", 1);
 
