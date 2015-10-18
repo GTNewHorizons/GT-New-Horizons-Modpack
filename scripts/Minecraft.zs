@@ -974,7 +974,7 @@ recipes.remove(<minecraft:nether_star>);
 
 // --- Crafting Table
 recipes.addShapeless(CraftingTable,
-[Flint, Flint, <minecraft:log:*>, <minecraft:log:*>]);
+[Flint, Flint, <Log>, <Log>]);
 
 // --- Chest
 recipes.addShaped(Chest, [
