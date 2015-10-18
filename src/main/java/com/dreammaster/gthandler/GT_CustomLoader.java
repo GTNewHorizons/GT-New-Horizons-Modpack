@@ -25,7 +25,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.Diamond),
         		ItemList.MysteriousCrystal.getIS(),
         		Materials.Chrome,
-        		OrePrefixes.pipe.get(Materials.Enderium)),
+        		OrePrefixes.pipeMedium.get(Materials.Enderium)),
         
         ZPM(ItemList.PikoCircuit.getIS(),
         		OrePrefixes.wireGt04.get(Materials.YttriumBariumCuprate),
@@ -34,7 +34,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.GarnetYellow),
         		ItemList.MysteriousCrystal.getIS(),
         		Materials.Iridium,
-        		OrePrefixes.pipe.get(Materials.Naquadah)),
+        		OrePrefixes.pipeMedium.get(Materials.Naquadah)),
         
         UV(ItemList.QuantumCircuit.getIS(), 
         		OrePrefixes.wireGt08.get(Materials.YttriumBariumCuprate), 
@@ -43,7 +43,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.GarnetRed),
         		new ItemStack(Blocks.dragon_egg, 1),
         		Materials.Osmium,
-        		OrePrefixes.pipe.get(Materials.Neutronium));
+        		OrePrefixes.pipeMedium.get(Materials.Neutronium));
         
         private ItemStack _mCircuit = null;
         private Object _mHeatingCoil = null;

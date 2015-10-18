@@ -50,5 +50,19 @@ public class ItemPipes {
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.Tin), new GT_MetaPipeEntity_Item(5597, "GT_Pipe_Restrictive_Tin_Large", "Large Restrictive Tin Item Pipe", 0.75F, Materials.Tin, 1,3276800,true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.Tin), new GT_MetaPipeEntity_Item(5598, "GT_Pipe_Restrictive_Tin_Huge", "Huge Restrictive Tin Item Pipe", 1.0F, Materials.Tin, 2,1638400,true).getStackForm(1L));
 
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5650, "GT_Pipe_ElectrumFlux_Tiny", "Tiny Fluxed Electrum Item Pipe", 0.25F, Materials.ElectrumFlux, 4, 8192, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5651, "GT_Pipe_ElectrumFlux_Small", "Small Fluxed Electrum Item Pipe", 0.375F, Materials.ElectrumFlux, 8, 4096, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5652, "GT_Pipe_ElectrumFlux", "Fluxed Electrum Item Pipe", 0.5F, Materials.ElectrumFlux, 16, 2048, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5653, "GT_Pipe_ElectrumFlux_Large", "Large Fluxed Electrum Item Pipe", 0.75F, Materials.ElectrumFlux, 32, 1024, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5654, "GT_Pipe_ElectrumFlux_Huge", "Huge Fluxed Electrum Item Pipe", 1.0F, Materials.ElectrumFlux, 64, 512, false).getStackForm(1L));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveTiny.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5655, "GT_Pipe_Restrictive_ElectrumFlux_Tiny", "Tiny Restrictive Fluxed Electrum Item Pipe", 0.25F, Materials.ElectrumFlux, 4, 819200, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveSmall.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5656, "GT_Pipe_Restrictive_ElectrumFlux_Small", "Small Restrictive Fluxed Electrum Item Pipe", 0.375F, Materials.ElectrumFlux, 8, 409600, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveMedium.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5657, "GT_Pipe_Restrictive_ElectrumFlux", "Restrictive Fluxed Electrum Item Pipe", 0.5F, Materials.ElectrumFlux, 16, 204800, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5658, "GT_Pipe_Restrictive_ElectrumFlux_Large", "Large Restrictive Fluxed Electrum Item Pipe", 0.75F, Materials.ElectrumFlux, 32, 102400, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5659, "GT_Pipe_Restrictive_ElectrumFlux_Huge", "Huge Restrictive Fluxed Electrum Item Pipe", 1.0F, Materials.ElectrumFlux, 64, 51200, true).getStackForm(1L));
+        
+        // Last ID  here: 5659
+        
     }
 }

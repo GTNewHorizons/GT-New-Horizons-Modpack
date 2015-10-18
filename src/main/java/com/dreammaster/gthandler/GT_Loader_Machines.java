@@ -1,6 +1,7 @@
 package com.dreammaster.gthandler;
 
 import gregtech.api.GregTech_API;
+import gregtech.api.enums.ItemList;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OreDictNames;
 import gregtech.api.enums.OrePrefixes;
@@ -24,9 +25,31 @@ public class GT_Loader_Machines
 
 	private void registerMachines()
 	{
-		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(10000, "basicgenerator.plasmagenerator.tier.08", "Plasma Generator Mark IV",7).getStackForm(1L));
-		CustomItemList.Generator_Plasma_UV.set(new GT_MetaTileEntity_PlasmaGenerator(10001, "basicgenerator.plasmagenerator.tier.09", "Pocket Sun",8).getStackForm(1L));
+		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(
+				10000, "basicgenerator.plasmagenerator.tier.08", "Plasma Generator Mark IV",7).getStackForm(1L));
+		
+		CustomItemList.Generator_Plasma_UV.set(new GT_MetaTileEntity_PlasmaGenerator(
+				10001, "basicgenerator.plasmagenerator.tier.09", "Pocket Sun",8).getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Generator_Plasma_ZPMV.get(1L, new Object[0]), 
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "UCU", "FMF", "WCW", 
+			Character.valueOf('M'), ItemList.Hull_UV, 
+			Character.valueOf('F'), ItemList.Field_Generator_ZPM, 
+			Character.valueOf('C'), AdvancedGTMaterials.ZPM.getCircuit(), 
+			Character.valueOf('W'), OrePrefixes.wireGt08.get(Materials.Superconductor), 
+			Character.valueOf('U'), OrePrefixes.stick.get(Materials.Americium) });
+		
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Generator_Plasma_UV.get(1L, new Object[0]), 
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "UCU", "FMF", "WCW", 
+			Character.valueOf('M'), ItemList.Hull_UV, 
+			Character.valueOf('F'), ItemList.Field_Generator_UV, 
+			Character.valueOf('C'), AdvancedGTMaterials.UV.getCircuit(), 
+			Character.valueOf('W'), OrePrefixes.wireGt12.get(Materials.Superconductor), 
+			Character.valueOf('U'), OrePrefixes.stick.get(Materials.Americium) });
+	    
+		
 		// ===================================================================================================
 		// Alloy Smelter
 		// ===================================================================================================
@@ -113,7 +136,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
 		    
 		CustomItemList.AssemblingMachineZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10031, "basicmachine.assembler.tier.07", "Elite Assembling Machine I", 7, "Avengers, Assemble!",
+				10031, "basicmachine.assembler.tier.07", "Elite Assembling Machine II", 7, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png", 
 				"", false, false, 0, "ASSEMBLER", 
 				new Object[] { "ACA", "VMV", "WCW", 
@@ -124,7 +147,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
 		    
 		CustomItemList.AssemblingMachineUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10032, "basicmachine.assembler.tier.08", "Elite Assembling Machine I", 8, "Avengers, Assemble!",
+				10032, "basicmachine.assembler.tier.08", "Elite Assembling Machine III", 8, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png", 
 				"", false, false, 0, "ASSEMBLER", 
 				new Object[] { "ACA", "VMV", "WCW", 
@@ -276,7 +299,7 @@ public class GT_Loader_Machines
 						'C', AdvancedGTMaterials.LuV.getCircuit(), 
 						'W', AdvancedGTMaterials.LuV.getCable(),
 						'G', AdvancedGTMaterials.LuV.getGlass(),
-						'B', OreDictNames.craftingDiamondBlade }).getStackForm(1L));
+						'B', OreDictNames.craftingDiamondBlade  }).getStackForm(1L));
 		    
 		CustomItemList.CuttingMachineZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				10071, "basicmachine.cutter.tier.07", "Elite Cutting Machine II", 7, "Slice'N Dice", 
@@ -289,7 +312,7 @@ public class GT_Loader_Machines
 						'C', AdvancedGTMaterials.ZPM.getCircuit(), 
 						'W', AdvancedGTMaterials.ZPM.getCable(),
 						'G', AdvancedGTMaterials.ZPM.getGlass(),
-						'B', OreDictNames.craftingDiamondBlade }).getStackForm(1L));
+						'B', OreDictNames.craftingDiamondBlade  }).getStackForm(1L));
 		    
 		CustomItemList.CuttingMachineUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				10072, "basicmachine.cutter.tier.08", "Elite Cutting Machine III", 8, "Slice'N Dice", 
@@ -302,7 +325,7 @@ public class GT_Loader_Machines
 						'C', AdvancedGTMaterials.UV.getCircuit(), 
 						'W', AdvancedGTMaterials.UV.getCable(),
 						'G', AdvancedGTMaterials.UV.getGlass(), 
-						'B', OreDictNames.craftingDiamondBlade }).getStackForm(1L));
+						'B', OreDictNames.craftingDiamondBlade  }).getStackForm(1L));
 		    
 		//CuttingMachineLuV
 		//CuttingMachineZPM
@@ -694,16 +717,39 @@ public class GT_Loader_Machines
 		// LatheLuV
 		// ===================================================================================================
 		CustomItemList.LatheLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10170, "basicmachine.lathe.tier.05", "Advanced Lathe IV", 5, "Produces Rods more efficiently", 
+				10170, "basicmachine.lathe.tier.06", "Elite Lathe I", 6, "Produces Rods more efficiently", 
 				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE", 
 				new Object[] { "WCW", "EMD", "CWP", 
-						Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-						Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
-						Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-						Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-						Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
-						Character.valueOf('D'), OreDictNames.craftingIndustrialDiamond }).getStackForm(1L));
-		    
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						'C', AdvancedGTMaterials.LuV.getCircuit(),
+						'W', AdvancedGTMaterials.LuV.getCable(),
+						'D', OreDictNames.craftingIndustrialDiamond }).getStackForm(1L));
+	
+		CustomItemList.LatheZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10171, "basicmachine.lathe.tier.07", "Elite Lathe II", 7, "Produces Rods more efficiently", 
+				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE", 
+				new Object[] { "WCW", "EMD", "CWP", 
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						'C', AdvancedGTMaterials.ZPM.getCircuit(),
+						'W', AdvancedGTMaterials.ZPM.getCable(),
+						'D', OreDictNames.craftingIndustrialDiamond }).getStackForm(1L));
+	
+		CustomItemList.LatheUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10172, "basicmachine.lathe.tier.08", "Rod-O-Matic 9001", 8, "Produces Rods more efficiently", 
+				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE", 
+				new Object[] { "WCW", "EMD", "CWP", 
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						'C', AdvancedGTMaterials.UV.getCircuit(),
+						'W', AdvancedGTMaterials.UV.getCable(),
+						'D', OreDictNames.craftingIndustrialDiamond }).getStackForm(1L));
+	
+		
 		//LatheLuV
 		//LatheZPM
 		//LatheUV
@@ -713,15 +759,37 @@ public class GT_Loader_Machines
 		// PrecisionLaserEngraverLuV
 		// ===================================================================================================
 		CustomItemList.PrecisionLaserEngraverLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10180, "basicmachine.laserengraver.tier.05", "Advanced Precision Laser Engraver IV", 5, "Don't look directly at the Laser", 
+				10180, "basicmachine.laserengraver.tier.06", "Elite Precision Laser Engraver I", 6, "Don't look directly at the Laser", 
 				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png", 
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER", 
 				new Object[] { "PEP", "CMC", "WCW", 
-					Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.EMITTER, 
-					Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-					Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-					Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE }).getStackForm(1L));
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.EMITTER, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.LuV.getCircuit(),
+					'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
+		    
+		CustomItemList.PrecisionLaserEngraverZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10181, "basicmachine.laserengraver.tier.07", "Elite Precision Laser Engraver II", 7, "Don't look directly at the Laser", 
+				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER", 
+				new Object[] { "PEP", "CMC", "WCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.EMITTER, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
+		    
+		CustomItemList.PrecisionLaserEngraverUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10182, "basicmachine.laserengraver.tier.08", "Elite Precision Laser Engraver III", 8, "With the Power of 1.21 GW", 
+				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER", 
+				new Object[] { "PEP", "CMC", "WCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.EMITTER, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.UV.getCircuit(),
+					'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 		    
 		//PrecisionLaserEngraverLuV
 		//PrecisionLaserEngraverZPM
@@ -732,16 +800,40 @@ public class GT_Loader_Machines
 		// MaceratorLuV
 		// ===================================================================================================
 		CustomItemList.MaceratorLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10190, "basicmachine.macerator.tier.05", "Blend-O-Matic 9001", 5, "Schreddering your Ores with Byproducts", 
+				10190, "basicmachine.macerator.tier.06", "Elite Pulverizer I", 6, "Schreddering your Ores with Byproducts", 
 				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png", 
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER", 
 				new Object[] { "PEG", "WWM", "CCW", 
-					Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
-					Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-					Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-					Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
-					Character.valueOf('G'), OreDictNames.craftingGrinder }).getStackForm(1L));
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.LuV.getCircuit(),
+					'W', AdvancedGTMaterials.LuV.getCable(), 
+					'G', OreDictNames.craftingGrinder }).getStackForm(1L));
+		    
+		CustomItemList.MaceratorZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10191, "basicmachine.macerator.tier.07", "Elite Pulverizer II", 7, "Schreddering your Ores with Byproducts", 
+				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER", 
+				new Object[] { "PEG", "WWM", "CCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					'W', AdvancedGTMaterials.ZPM.getCable(), 
+					'G', OreDictNames.craftingGrinder }).getStackForm(1L));
+		    
+		CustomItemList.MaceratorUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10192, "basicmachine.macerator.tier.08", "Elite Pulverizer III", 8, "Schreddering your Ores with Byproducts", 
+				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER", 
+				new Object[] { "PEG", "WWM", "CCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.UV.getCircuit(),
+					'W', AdvancedGTMaterials.UV.getCable(), 
+					'G', OreDictNames.craftingGrinder }).getStackForm(1L));
 		    
 		//MaceratorLuV
 		//MaceratorZPM
@@ -763,6 +855,9 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// MicrowaveLuV
 		// ===================================================================================================
+		/*
+		 * Not really required...
+		 * 
 		CustomItemList.MicrowaveLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				10210, "basicmachine.microwave.tier.05", "Advanced Microwave IV", 5, "Did you really read the instruction Manual?", 
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png", 
@@ -774,7 +869,7 @@ public class GT_Loader_Machines
 					Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT,
 					Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
 					Character.valueOf('L'), OrePrefixes.plate.get(Materials.Lead) }).getStackForm(1L));
-		    
+		  */  
 		//MicrowaveLuV
 		//MicrowaveZPM
 		//MicrowaveUV
@@ -784,16 +879,40 @@ public class GT_Loader_Machines
 		// OreWashingPlantLuV
 		// ===================================================================================================
 		CustomItemList.OreWashingPlantLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10220, "basicmachine.orewasher.tier.05", "Repurposed Laundry-Washer I-360", 5, "Getting more Byproducts from your Ores", 
+				10220, "basicmachine.orewasher.tier.06", "Elite Ore Washing Plant I", 6, "Getting more Byproducts from your Ores", 
 				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png", 
 				"", false, false, 0, "ORE_WASHER", 
 				new Object[] { "RGR", "CEC", "WMW", 
-						Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-						Character.valueOf('R'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.ROTOR, 
-						Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
-						Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-						Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
-						Character.valueOf('G'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.GLASS }).getStackForm(1L));
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'R', OrePrefixes.rotor.get(Materials.Chrome),
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'C', AdvancedGTMaterials.LuV.getCircuit(),
+						'W', AdvancedGTMaterials.LuV.getCable(),
+						'G', AdvancedGTMaterials.LuV.getGlass() }).getStackForm(1L));
+		
+		CustomItemList.OreWashingPlantZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10221, "basicmachine.orewasher.tier.07", "Elite Ore Washing Plant II", 7, "Getting more Byproducts from your Ores", 
+				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png", 
+				"", false, false, 0, "ORE_WASHER", 
+				new Object[] { "RGR", "CEC", "WMW", 
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'R', OrePrefixes.rotor.get(Materials.Iridium),
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'C', AdvancedGTMaterials.ZPM.getCircuit(),
+						'W', AdvancedGTMaterials.ZPM.getCable(),
+						'G', AdvancedGTMaterials.ZPM.getGlass() }).getStackForm(1L));
+		
+		CustomItemList.OreWashingPlantUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10222, "basicmachine.orewasher.tier.08", "Elite Ore Washing Plant III", 8, "Getting more Byproducts from your Ores", 
+				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png", 
+				"", false, false, 0, "ORE_WASHER", 
+				new Object[] { "RGR", "CEC", "WMW", 
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						'R', OrePrefixes.rotor.get(Materials.Osmium),
+						'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						'C', AdvancedGTMaterials.UV.getCircuit(),
+						'W', AdvancedGTMaterials.UV.getCable(),
+						'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
 		    
 		//OreWashingPlantLuV
 		//OreWashingPlantZPM
@@ -804,14 +923,34 @@ public class GT_Loader_Machines
 		// PolarizerLuV
 		// ===================================================================================================
 		CustomItemList.PolarizerLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10230, "basicmachine.polarizer.tier.05", "Advanced Polarizer IV", 5, "Bipolarising your Magnets", 
+				10230, "basicmachine.polarizer.tier.06", "Elite Polarizer I", 6, "Bipolarising your Magnets", 
 				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png", 
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER", 
 				new Object[] { "ZSZ", "WMW", "ZSZ", 
-					Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					Character.valueOf('S'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.STICK_ELECTROMAGNETIC, 
-					Character.valueOf('Z'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.COIL_ELECTRIC, 
-					Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE }).getStackForm(1L));
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'S', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.STICK_ELECTROMAGNETIC, 
+					'Z', OrePrefixes.wireGt02.get(Materials.Osmium),
+					'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
+		    
+		CustomItemList.PolarizerZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10231, "basicmachine.polarizer.tier.07", "Elite Polarizer II", 7, "Bipolarising your Magnets", 
+				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER", 
+				new Object[] { "ZSZ", "WMW", "ZSZ", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'S', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.STICK_ELECTROMAGNETIC, 
+					'Z', OrePrefixes.wireGt04.get(Materials.Osmium),
+					'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
+		    
+		CustomItemList.PolarizerUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10232, "basicmachine.polarizer.tier.08", "Elite Polarizer III", 8, "Bipolarising your Magnets", 
+				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER", 
+				new Object[] { "ZSZ", "WMW", "ZSZ", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'S', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.STICK_ELECTROMAGNETIC, 
+					'Z', OrePrefixes.wireGt08.get(Materials.Osmium),
+					'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 		    
 		//PolarizerLuV
 		//PolarizerZPM
@@ -822,15 +961,37 @@ public class GT_Loader_Machines
 		// RecyclerLuV
 		// ===================================================================================================
 		CustomItemList.RecyclerLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10240, "basicmachine.recycler.tier.05", "The Oblitterator", 5, "Compress, burn, obliterate and filter EVERYTHING", 
+				10240, "basicmachine.recycler.tier.06", "Elite Recycler I", 6, "Compress, burn, obliterate and filter EVERYTHING", 
 				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png", 
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER", 
 				new Object[] { "GCG", "PMP", "WCW", 
-					Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-					Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-					Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
-					Character.valueOf('G'), OrePrefixes.dust.get(Materials.Glowstone) }).getStackForm(1L));
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.LuV.getCircuit(),
+					'W', AdvancedGTMaterials.LuV.getCable(), 
+					'G', OrePrefixes.dust.get(Materials.NetherStar) }).getStackForm(1L));
+		    
+		CustomItemList.RecyclerZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10241, "basicmachine.recycler.tier.07", "Elite Recycler II", 7, "Compress, burn, obliterate and filter EVERYTHING", 
+				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER", 
+				new Object[] { "GCG", "PMP", "WCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					'W', AdvancedGTMaterials.ZPM.getCable(), 
+					'G', OrePrefixes.dust.get(Materials.NetherStar) }).getStackForm(1L));
+		    
+		CustomItemList.RecyclerUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10242, "basicmachine.recycler.tier.08", "Scrap-O-Matic", 8, "Compress, burn, obliterate and filter EVERYTHING", 
+				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png", 
+				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER", 
+				new Object[] { "GCG", "PMP", "WCW", 
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+					'C', AdvancedGTMaterials.UV.getCircuit(),
+					'W', AdvancedGTMaterials.UV.getCable(), 
+					'G', OrePrefixes.dust.get(Materials.NetherStar) }).getStackForm(1L));
 		    
 		//RecyclerLuV
 		//RecyclerZPM
@@ -844,6 +1005,34 @@ public class GT_Loader_Machines
 		CustomItemList.ReplicatorZPM.set(new GT_MetaTileEntity_Replicator(10251, "basicmachine.replicator.tier.07", "Elite Replicator II", 7).getStackForm(1L));
 		CustomItemList.ReplicatorUV.set(new GT_MetaTileEntity_Replicator(10252, "basicmachine.replicator.tier.08", "Elite Replicator III", 8).getStackForm(1L));
 	    
+		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorLuV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "EFE", "CMC", "EWE", 
+			'M', ItemList.Hull_LuV, 
+			'F', ItemList.Field_Generator_LuV, 
+			'E', ItemList.Emitter_LuV, 
+			'C', AdvancedGTMaterials.LuV.getCircuit(),
+			'W', AdvancedGTMaterials.LuV.getCable4() });
+		    
+		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorZPM.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "EFE", "CMC", "EWE", 
+			'M', ItemList.Hull_ZPM, 
+			'F', ItemList.Field_Generator_ZPM, 
+			'E', ItemList.Emitter_ZPM, 
+			'C', AdvancedGTMaterials.ZPM.getCircuit(),
+			'W', AdvancedGTMaterials.ZPM.getCable4() });
+		    
+		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorUV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "EFE", "CMC", "EWE", 
+			'M', ItemList.Hull_UV, 
+			'F', ItemList.Field_Generator_UV, 
+			'E', ItemList.Emitter_UV, 
+			'C', AdvancedGTMaterials.UV.getCircuit(),
+			'W', AdvancedGTMaterials.UV.getCable4() });
+		    
+		
 		//ReplicatorLuV
 		//ReplicatorZPM
 		//ReplicatorUV
@@ -852,15 +1041,36 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// ScannerLuV
 		// ===================================================================================================
-		CustomItemList.ScannerLuV.set(new GT_MetaTileEntity_Scanner(10260, "basicmachine.scanner.tier.05", "Advanced Scanner IV", 5).getStackForm(1L));
+		CustomItemList.ScannerLuV.set(new GT_MetaTileEntity_Scanner(10260, "basicmachine.scanner.tier.06", "Elite Scanner I", 6).getStackForm(1L));
+		CustomItemList.ScannerZPM.set(new GT_MetaTileEntity_Scanner(10261, "basicmachine.scanner.tier.07", "Elite Scanner II", 7).getStackForm(1L));
+		CustomItemList.ScannerUV.set(new GT_MetaTileEntity_Scanner(10262, "basicmachine.scanner.tier.08", "Electron Raster Microscope", 8).getStackForm(1L));
+
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerLuV.get(1L, new Object[0]), 
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
 				new Object[] { "CTC", "WMW", "CRC", 
-			Character.valueOf('M'), ItemList.Hull_IV, 
-			Character.valueOf('T'), ItemList.Emitter_IV, 
-			Character.valueOf('R'), ItemList.Sensor_IV, 
-			Character.valueOf('C'), OrePrefixes.circuit.get(Materials.Ultimate), 
-			Character.valueOf('W'), OrePrefixes.cableGt01.get(Materials.Tungsten) });
+			'M', ItemList.Hull_LuV, 
+			'T', ItemList.Emitter_LuV, 
+			'R', ItemList.Sensor_LuV, 
+			'C', AdvancedGTMaterials.LuV.getCircuit(),
+			'W', AdvancedGTMaterials.LuV.getCable() });
+		    
+		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerZPM.get(1L, new Object[0]), 
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "CTC", "WMW", "CRC", 
+			'M', ItemList.Hull_ZPM, 
+			'T', ItemList.Emitter_ZPM, 
+			'R', ItemList.Sensor_ZPM, 
+			'C', AdvancedGTMaterials.ZPM.getCircuit(),
+			'W', AdvancedGTMaterials.ZPM.getCable() });
+		    
+		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerUV.get(1L, new Object[0]), 
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "CTC", "WMW", "CRC", 
+			'M', ItemList.Hull_UV, 
+			'T', ItemList.Emitter_UV, 
+			'R', ItemList.Sensor_UV, 
+			'C', AdvancedGTMaterials.UV.getCircuit(),
+			'W', AdvancedGTMaterials.UV.getCable() });
 		    
 		//ScannerLuV
 		//ScannerZPM
@@ -871,14 +1081,34 @@ public class GT_Loader_Machines
 		// SiftingMachineLuV
 		// ===================================================================================================
 		 CustomItemList.SiftingMachineLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				 10270, "basicmachine.sifter.tier.05", "Advanced Sifting Machine IV", 5, "Stay calm and keep sifting", 
+				 10270, "basicmachine.sifter.tier.06", "Elite Sifting Machine I", 6, "Stay calm and keep sifting", 
 				 GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER", 
 				 new Object[] { "WFW", "PMP", "CFC", 
-						 Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-						 Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-						 Character.valueOf('F'), OreDictNames.craftingFilter, 
-						 Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-						 Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE }).getStackForm(1L));
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						 'F', OreDictNames.craftingFilter, 
+						 'C', AdvancedGTMaterials.LuV.getCircuit(), 
+						 'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
+		    
+		 CustomItemList.SiftingMachineZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10271, "basicmachine.sifter.tier.07", "Elite Sifting Machine II", 7, "Stay calm and keep sifting", 
+				 GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER", 
+				 new Object[] { "WFW", "PMP", "CFC", 
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						 'F', OreDictNames.craftingFilter, 
+						 'C', AdvancedGTMaterials.ZPM.getCircuit(), 
+						 'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
+		    
+		 CustomItemList.SiftingMachineUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10272, "basicmachine.sifter.tier.08", "Elite Sifting Machine III", 8, "Stay calm and keep sifting", 
+				 GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER", 
+				 new Object[] { "WFW", "PMP", "CFC", 
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						 'F', OreDictNames.craftingFilter, 
+						 'C', AdvancedGTMaterials.UV.getCircuit(), 
+						 'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 		    
 		//SiftingMachineLuV
 		//SiftingMachineZPM
@@ -888,15 +1118,15 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// SlicingMachineLuV
 		// ===================================================================================================
-		 CustomItemList.SlicingMachineLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		 CustomItemList.SlicingMachineUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 10280, "basicmachine.slicer.tier.08", "Quantum Slicer", 8, "Be careful when slicing bread!", 
 				 GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER", 
 				 new Object[] { "WCW", "PMV", "WCW", 
-						 Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-						 Character.valueOf('P'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
-						 Character.valueOf('V'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CONVEYOR, 
-						 Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-						 Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE }).getStackForm(1L));
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON, 
+						 'V', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CONVEYOR, 
+						 'C', AdvancedGTMaterials.UV.getCircuit(), 
+						 'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 		   
 		//SlicingMachineLuV
 		//SlicingMachineZPM
@@ -907,15 +1137,37 @@ public class GT_Loader_Machines
 		// ThermalCentrifugeLuV
 		// ===================================================================================================
 		 CustomItemList.ThermalCentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				 10290, "basicmachine.thermalcentrifuge.tier.05", "Blaze Sweatshop T-6350", 5, "Separating Ores more precisely", 
+				 10290, "basicmachine.thermalcentrifuge.tier.06", "Elite Thermal Centrifuge I", 6, "Separating Ores more precisely", 
 				 GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png", 
 				 "", false, false, 0, "THERMAL_CENTRIFUGE", 
 				 new Object[] { "CEC", "OMO", "WEW", 
-						 Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-						 Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
-						 Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-						 Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 
-						 Character.valueOf('O'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.COIL_HEATING_DOUBLE }).getStackForm(1L));
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						 'C', AdvancedGTMaterials.LuV.getCircuit(), 
+						 'W', AdvancedGTMaterials.LuV.getCable(),
+						 'O', AdvancedGTMaterials.LuV.getHCoil() }).getStackForm(1L));
+		    
+		 CustomItemList.ThermalCentrifugeZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10291, "basicmachine.thermalcentrifuge.tier.07", "Elite Thermal Centrifuge II", 7, "Separating Ores more precisely", 
+				 GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png", 
+				 "", false, false, 0, "THERMAL_CENTRIFUGE", 
+				 new Object[] { "CEC", "OMO", "WEW", 
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						 'C', AdvancedGTMaterials.ZPM.getCircuit(), 
+						 'W', AdvancedGTMaterials.ZPM.getCable(),
+						 'O', AdvancedGTMaterials.ZPM.getHCoil() }).getStackForm(1L));
+		    
+		 CustomItemList.ThermalCentrifugeUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10292, "basicmachine.thermalcentrifuge.tier.08", "Elite Thermal Centrifuge III", 8, "Separating Ores more precisely", 
+				 GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png", 
+				 "", false, false, 0, "THERMAL_CENTRIFUGE", 
+				 new Object[] { "CEC", "OMO", "WEW", 
+						 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+						 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+						 'C', AdvancedGTMaterials.UV.getCircuit(), 
+						 'W', AdvancedGTMaterials.UV.getCable(),
+						 'O', AdvancedGTMaterials.UV.getHCoil() }).getStackForm(1L));
 		    
 		//ThermalCentrifugeLuV
 		//ThermalCentrifugeZPM
@@ -926,14 +1178,34 @@ public class GT_Loader_Machines
 		// WiremillLuV
 		// ===================================================================================================
 		 CustomItemList.WiremillLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				 10300, "basicmachine.wiremill.tier.05", "Advanced Wiremill IV", 5, "Produces Wires more efficiently", 
+				 10300, "basicmachine.wiremill.tier.06", "Elite Wiremill I", 6, "Produces Wires more efficiently", 
 				 GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png", 
 				 (String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL", 
 				 new Object[] { "EWE", "CMC", "EWE", 
-					 Character.valueOf('M'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					 Character.valueOf('E'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
-					 Character.valueOf('C'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 
-					 Character.valueOf('W'), GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE }).getStackForm(1L));
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					 'C', AdvancedGTMaterials.LuV.getCircuit(),
+					 'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
+		   
+		 CustomItemList.WiremillZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10301, "basicmachine.wiremill.tier.07", "Elite Wiremill II", 7, "Produces Wires more efficiently", 
+				 GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png", 
+				 (String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL", 
+				 new Object[] { "EWE", "CMC", "EWE", 
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					 'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
+		   
+		 CustomItemList.WiremillUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 10302, "basicmachine.wiremill.tier.08", "Elite Wiremill III", 8, "Produces Wires more efficiently", 
+				 GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png", 
+				 (String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL", 
+				 new Object[] { "EWE", "CMC", "EWE", 
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR, 
+					 'C', AdvancedGTMaterials.UV.getCircuit(),
+					 'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 		   
 		//WiremillLuV
 		//WiremillZPM

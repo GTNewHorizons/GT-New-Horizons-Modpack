@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler;
 
+import gregtech.api.enums.GT_Values;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_ModHandler;
@@ -32,5 +33,6 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.RedAlloy), 
 			OrePrefixes.dust.get(Materials.NaquadahAlloy), 
 			OrePrefixes.dust.get(Materials.NaquadahAlloy)});
+		
 	}
 }

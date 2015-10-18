@@ -59,7 +59,7 @@ public enum CustomItemList implements IItemContainer
 	ReplicatorLuV, ReplicatorZPM, ReplicatorUV,
 	ScannerLuV, ScannerZPM, ScannerUV,
 	SiftingMachineLuV, SiftingMachineZPM, SiftingMachineUV,
-	SlicingMachineLuV, SlicingMachineZPM, SlicingMachineUV,
+	SlicingMachineUV,
 	ThermalCentrifugeLuV, ThermalCentrifugeZPM, ThermalCentrifugeUV,
 	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
 	WiremillLuV, WiremillZPM, WiremillUV;
