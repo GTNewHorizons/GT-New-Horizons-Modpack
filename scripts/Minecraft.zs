@@ -1078,35 +1078,35 @@ recipes.addShapeless(<minecraft:wooden_pressure_plate> * 2, [Saw, <ore:slabWood>
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
 
 // --- Torch
-recipes.addShaped(Torch * 3, [
+recipes.addShapedMirrored(Torch * 3, [
 [Coal, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [Charcoal, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch, [
+recipes.addShapedMirrored(Torch, [
 [<ore:gemLignite>, null],
 [Stick, null]]);
 //-
-recipes.addShaped(Torch * 5, [
+recipes.addShapedMirrored(Torch * 5, [
 [CoalCoke, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 5, [
+recipes.addShapedMirrored(Torch * 5, [
 [AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 4, [
+recipes.addShapedMirrored(Torch * 4, [
 [Torchberries, null],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 3, [
+recipes.addShapedMirrored(Torch * 3, [
 [Beeswax, String],
 [Stick, null]]);
 // -
-recipes.addShaped(Torch * 2, [
+recipes.addShapedMirrored(Torch * 2, [
 [Rubber, String],
 [Stick, null]]);
 
