@@ -11,6 +11,7 @@ import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Recipe;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Massfabricator;
+import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Pump;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Replicator;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Scanner;
 
@@ -795,7 +796,7 @@ public class GT_Loader_Machines
 		//PrecisionLaserEngraverZPM
 		//PrecisionLaserEngraverUV
 		// ===================================================================================================
-
+		
 		// ===================================================================================================
 		// MaceratorLuV
 		// ===================================================================================================
@@ -1211,5 +1212,36 @@ public class GT_Loader_Machines
 		//WiremillZPM
 		//WiremillUV
 		// ===================================================================================================
+		 
+		// ===================================================================================================
+		// PumpLuV
+		// ===================================================================================================
+		 CustomItemList.PumpLuV.set(new GT_MetaTileEntity_Pump(10310, "basicmachine.pump.tier.06", "Elite Pump I", 6).getStackForm(1L));
+		 CustomItemList.PumpZPM.set(new GT_MetaTileEntity_Pump(10311, "basicmachine.pump.tier.07", "Elite Pump II", 7).getStackForm(1L));
+		 CustomItemList.PumpUV.set(new GT_MetaTileEntity_Pump(10312, "basicmachine.pump.tier.08", "Elite Pump III", 8).getStackForm(1L));
+		 GT_ModHandler.addCraftingRecipe(CustomItemList.PumpLuV.get(1L, new Object[0]), 
+				 GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				 new Object[] { "CPC", "PMP", "BPB",
+			 'M', ItemList.Hull_LuV, 
+			 'B', AdvancedGTMaterials.LuV.getPipeL(), 
+			 'C', AdvancedGTMaterials.LuV.getCircuit(), 
+			 'P', ItemList.Electric_Pump_LuV});
+		 
+		 GT_ModHandler.addCraftingRecipe(CustomItemList.PumpZPM.get(1L, new Object[0]), 
+				 GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				 new Object[] { "CPC", "PMP", "BPB",
+			 'M', ItemList.Hull_ZPM, 
+			 'B', AdvancedGTMaterials.ZPM.getPipeL(), 
+			 'C', AdvancedGTMaterials.ZPM.getCircuit(), 
+			 'P', ItemList.Electric_Pump_ZPM});
+		 
+		 GT_ModHandler.addCraftingRecipe(CustomItemList.PumpUV.get(1L, new Object[0]), 
+				 GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				 new Object[] { "CPC", "PMP", "BPB",
+			 'M', ItemList.Hull_UV, 
+			 'B', AdvancedGTMaterials.UV.getPipeL(), 
+			 'C', AdvancedGTMaterials.UV.getCircuit(), 
+			 'P', ItemList.Electric_Pump_UV});
+			
 	}
 }

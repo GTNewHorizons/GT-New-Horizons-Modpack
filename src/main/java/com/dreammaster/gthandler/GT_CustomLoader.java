@@ -25,7 +25,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.Diamond),
         		ItemList.MysteriousCrystal.getIS(),
         		Materials.Chrome,
-        		OrePrefixes.pipeMedium.get(Materials.Enderium)),
+        		Materials.Enderium),
         
         ZPM(ItemList.PikoCircuit.getIS(),
         		OrePrefixes.wireGt04.get(Materials.YttriumBariumCuprate),
@@ -34,7 +34,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.GarnetYellow),
         		ItemList.MysteriousCrystal.getIS(),
         		Materials.Iridium,
-        		OrePrefixes.pipeMedium.get(Materials.Naquadah)),
+        		Materials.Naquadah),
         
         UV(ItemList.QuantumCircuit.getIS(), 
         		OrePrefixes.wireGt08.get(Materials.YttriumBariumCuprate), 
@@ -43,7 +43,7 @@ public class GT_CustomLoader
         		OrePrefixes.gemExquisite.get(Materials.GarnetRed),
         		new ItemStack(Blocks.dragon_egg, 1),
         		Materials.Osmium,
-        		OrePrefixes.pipeMedium.get(Materials.Neutronium));
+        		Materials.Neutronium);
         
         private ItemStack _mCircuit = null;
         private Object _mHeatingCoil = null;
@@ -55,6 +55,7 @@ public class GT_CustomLoader
         private Object _mPlate = null;
         private Object _mReinfGlass = null;
         private Object _mPipe = null;
+        private Object _mPipeL = null;
         
         private AdvancedGTMaterials(ItemStack pCircuit,
         		Object pHeatingCoil,
@@ -63,7 +64,7 @@ public class GT_CustomLoader
         		Object pGem,
         		Object pPowerGem,
         		Materials pPlateMaterial,
-        		Object pPipe)
+        		Materials pPipe)
         {
             _mCircuit = pCircuit;
             _mHeatingCoil = pHeatingCoil;
@@ -74,7 +75,8 @@ public class GT_CustomLoader
             _mPowerGem = pPowerGem;
             _mPlate = OrePrefixes.plate.get(pPlateMaterial);
             _mReinfGlass = "glassReinforced";
-            _mPipe = pPipe;
+            _mPipe = OrePrefixes.pipeMedium.get(pPipe);
+            _mPipeL = OrePrefixes.pipeLarge.get(pPipe);
         }
         
         public Object getPipe()
@@ -125,6 +127,11 @@ public class GT_CustomLoader
         {
             return _mCoilWire;
         }
+
+		public Object getPipeL()
+		{
+			return _mPipeL;
+		}
     }
     
     public GT_CustomLoader()

@@ -62,7 +62,8 @@ public enum CustomItemList implements IItemContainer
 	SlicingMachineUV,
 	ThermalCentrifugeLuV, ThermalCentrifugeZPM, ThermalCentrifugeUV,
 	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
-	WiremillLuV, WiremillZPM, WiremillUV;
+	WiremillLuV, WiremillZPM, WiremillUV,
+	PumpLuV, PumpZPM, PumpUV;
 
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;
