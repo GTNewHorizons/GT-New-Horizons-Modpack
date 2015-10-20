@@ -135,28 +135,40 @@ recipes.addShaped(<GraviSuite:advNanoChestPlate>, [
 [<ore:wireGt12Platinum>, <ore:circuitAdvanced>, <ore:wireGt12Platinum>]]);
  
 // --- Advanced Jetpack
-recipes.addShaped(<GraviSuite:advJetpack>,[
+recipes.addShaped(<GraviSuite:advJetpack>, [
 [<dreamcraft:item.ChromeItemCasing>, <IC2:itemArmorJetpackElectric:*>, <dreamcraft:item.ChromeItemCasing>],
 [<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:*>, <GraviSuite:itemSimpleItem:6>],
 [<gregtech:gt.blockmachines:1643>, <dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.blockmachines:1643>]]);
 
 // --- Advanced Lappack
-recipes.addShaped(<GraviSuite:advLappack>,[
+recipes.addShaped(<GraviSuite:advLappack>, [
 [<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:batteryElite>, <IC2:itemArmorEnergypack:*>, <ore:batteryElite>],
 [<ore:circuitMaster>, <ore:wireGt12Nichrome> , <ore:circuitMaster>]]);
 
 // --- Ultimate Lappack
-recipes.addShaped(<GraviSuite:ultimateLappack>,[
+recipes.addShaped(<GraviSuite:ultimateLappack>, [
 [<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
 [<ore:batteryMaster>, <GraviSuite:advLappack:*>, <ore:batteryMaster>],
 [<dreamcraft:item.HighEnergyFlowCircuit>, <ore:wireGt16NiobiumTitanium>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
 
 // --- Relocator
-recipes.addShaped(<GraviSuite:relocator>,[
+recipes.addShaped(<GraviSuite:relocator>, [
 [<ore:plateAlloyIridium>, <ore:gemNetherStar>, <ore:plateNeutronium>],
 [<ore:gemEnderEye>, <ore:craftingTeleporter>, <minecraft:dragon_egg>.reuse()],
 [<ore:plateNaquadah>, <Thaumcraft:FocusPortableHole>, <ore:plateOsmium>]]);
+
+// --- Advanced Chainsaw
+recipes.addShaped(<GraviSuite:advChainsaw:27>, [
+[<ore:screwChrome>, <ore:toolHeadChainsawChrome>, <ore:craftingToolScrewdriver>],
+[<ore:gearGtSmallChrome>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallChrome>],
+[<ore:plateChrome>, <ore:batteryElite>, <ore:plateChrome>]]);
+
+// --- Advanced Drill
+recipes.addShaped(<GraviSuite:advDDrill:27>, [
+[<ore:screwIridium>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:craftingToolScrewdriver>],
+[<ore:gearGtSmallIridium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallIridium>],
+[<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
 
 
 

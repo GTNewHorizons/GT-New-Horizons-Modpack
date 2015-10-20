@@ -828,32 +828,32 @@ Assembler.addRecipe(<dreamcraft:item.LichBone>, <Thaumcraft:ItemResource:14> * 4
 Assembler.addRecipe(<dreamcraft:item.SnowQueenBlood>, <Thaumcraft:ItemResource:14> * 10, <TwilightForest:item.trophy:4> * 0, 1800, 8192);
 
 // --- Advanced Processor Borad
-Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.tin> * 288, 400, 256);
+Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.tin> * 288, 400, 480);
 // -
-Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.solderingalloy> * 144, 400, 256);
+Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.solderingalloy> * 144, 400, 480);
 // -
-Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.lead> * 576, 400, 256);
+Assembler.addRecipe(<dreamcraft:item.AdvancedProcessorBoard>, <gregtech:gt.metaitem.01:32712>, <dreamcraft:item.HighEnergyCircuitParts> * 4, <liquid:molten.lead> * 576, 400, 480);
 
 // --- High Energy Flow Circuit
-Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.tin> * 432, 400, 480);
+Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.tin> * 432, 400, 4096);
 // -
-Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.solderingalloy> * 216, 400, 480);
+Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.solderingalloy> * 216, 400, 4096);
 // -
-Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.lead> * 1008, 400, 480);
+Assembler.addRecipe(<dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.AdvancedProcessorBoard>, <dreamcraft:item.EngravedDiamondCrystalChip> * 4, <liquid:molten.lead> * 1008, 400, 4096);
 
 // --- Nano Circuit
-Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.tin> * 576, 600, 1024);
+Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 4, <liquid:molten.tin> * 576, 500, 7680);
 // -
-Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.solderingalloy> * 288, 600, 1024);
+Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 4, <liquid:molten.solderingalloy> * 288, 500, 7680);
 // -
-Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 6, <liquid:molten.lead> * 1440, 600, 1024);
+Assembler.addRecipe(<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedEnergyChip> * 4, <liquid:molten.lead> * 1440, 500, 7680);
 
 // --- Quantum Circuit
-Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.tin> * 1440, 1200, 1920);
+Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.tin> * 1440, 700, 122880);
 // -
-Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.solderingalloy> * 576, 1200, 1920);
+Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.solderingalloy> * 576, 700, 122880);
 // -
-Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.lead> * 2880, 1200, 1920);
+Assembler.addRecipe(<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.QuantumProcessorBoard>, <dreamcraft:item.EngravedQuantumChip> * 6, <liquid:molten.lead> * 2880, 700, 122880);
 
 // --- Carbon Parts Boots
 Assembler.addRecipe(<dreamcraft:item.CarbonPartBoots>, <IC2:itemPartCarbonPlate> * 4, <gregtech:gt.integrated_circuit:4> * 0, 400, 120);
@@ -924,11 +924,11 @@ Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gre
 Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 2, <minecraft:fence>, 100, 32);
 
 // --- Piko Circuit
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 900, 1536);
+Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 600, 30720);
 // -
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 900, 1536);
+Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 600, 30720);
 // -
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 900, 1536);
+Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 600, 30720);
 
 // --- Enriched Naquadria Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <gregtech:gt.metaitem.01:22327>, 2000, 1920);
@@ -1355,25 +1355,25 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLudicrousVoltageWiring>, <gregte
 PrecisionLaser.addRecipe(<dreamcraft:item.EtchedLudicrousVoltageWiring>, <gregtech:gt.metaitem.01:24541> * 0, <gregtech:gt.metaitem.01:29327>, 400, 7680);
 
 // --- Engraved Diamond Crystal Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:17500> * 4, 400, 480);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:17500> * 4, 400, 1920);
 
 // --- Engraved Energy Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:*>, 600, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:*>, 600, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:*>, 600, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:*>, 600, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:*>, 600, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
 
 // --- Engraved Quantum Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24540> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 4096);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24540> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24521> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 4096);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24521> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24528> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 4096);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24528> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
 
 // --- Nano Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatCrystal:*>, 600, 256);
@@ -1386,14 +1386,14 @@ PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem
 PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:*>, 800, 480);
 
 // --- Manyullyn Crystal
-PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynPlate> * 9, 1200, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynPlate> * 4, 1200, 4096);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24509> * 0, <dreamcraft:item.ManyullynPlate> * 9, 1200, 1024);
+PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24509> * 0, <dreamcraft:item.ManyullynPlate> * 4, 1200, 4096);
 
 // --- Engraved Manyullyn Crystal Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynCrystal>, 900, 1920);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynCrystal>, 900, 7680);
 //-
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregtech:gt.metaitem.01:24509> * 0, <dreamcraft:item.ManyullynCrystal>, 900, 1920);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedManyullynCrystalChip>, <gregtech:gt.metaitem.01:24509> * 0, <dreamcraft:item.ManyullynCrystal>, 900, 7680);
 
 // --- Mytryl Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.MytrylCrystal>, <gregtech:gt.metaitem.01:24507> * 0, <dreamcraft:item.MytrylPlate> * 9, 1200, 256);
@@ -1493,6 +1493,9 @@ Extruder.addRecipe(<dreamcraft:item.SawBladeManyullyn>, <TConstruct:materials:5>
 // --- Quantinum Rod
 Extruder.addRecipe(<dreamcraft:item.QuantinumRod> * 2, <GalaxySpace:item.QuantiumIgnot>, <gregtech:gt.metaitem.01:32351> * 0, 300, 96);
 
+// --- Manyullyn Plate
+Extruder.addRecipe(<dreamcraft:item.ManyullynPlate>, <TConstruct:materials:5>, <gregtech:gt.metaitem.01:32350> * 0, 100, 480);
+
 
 
 
@@ -1546,10 +1549,10 @@ ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergis
 FormingPress.addRecipe(<dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:2501> * 3, 200, 256);
 
 // --- Nano Processor Board
-FormingPress.addRecipe(<dreamcraft:item.NanoProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 4, <dreamcraft:item.EtchedInsaneVoltageWiring> * 4, 200, 1024);
+FormingPress.addRecipe(<dreamcraft:item.NanoProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 4, <dreamcraft:item.EtchedInsaneVoltageWiring> * 4, 200, 4096);
 
 // --- Quantum Processor Board
-FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 8, <dreamcraft:item.EtchedLudicrousVoltageWiring> * 8, 400, 4096);
+FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 8, <dreamcraft:item.EtchedLudicrousVoltageWiring> * 8, 400, 30720);
 
 // --- Simple Circuit Board
 FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);

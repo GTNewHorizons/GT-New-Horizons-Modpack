@@ -8,6 +8,7 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 import mods.nei.NEI;
+import mods.gregtech.PrecisionLaser;
 
 
 
@@ -96,7 +97,7 @@ val DockingStation = <BuildCraft|Robotics:robotStation>;
 val Filler = <BuildCraft|Builders:fillerBlock>;
 val Builder = <BuildCraft|Builders:builderBlock>;
 val ArchitectT = <BuildCraft|Builders:architectBlock>;
-val BlueprintLib = <BuildCraft|Builders:libraryBlock>;
+val ElecectronicLib = <BuildCraft|Builders:libraryBlock>;
 val AutoWorkB = <BuildCraft|Factory:autoWorkbenchBlock>;
 val FloodGate = <BuildCraft|Factory:floodGateBlock>;
 val ZonePlanner = <BuildCraft|Robotics:zonePlan>;
@@ -150,8 +151,8 @@ recipes.remove(Builder);
 // --- Architect Table
 recipes.remove(ArchitectT);
 
-// --- Blueprint Library
-recipes.remove(BlueprintLib);
+// --- Electronic Library
+recipes.remove(ElecectronicLib);
 
 // --- Auto Workbench
 recipes.remove(AutoWorkB);
@@ -527,6 +528,37 @@ recipes.addShapeless(<BuildCraft|Core:paintbrush>, [<OpenBlocks:paintBrush>]);
 // --- Auto Crafting Bench
 recipes.addShapeless(<BuildCraft|Factory:autoWorkbenchBlock>, [<ProjRed|Expansion:projectred.expansion.machine2:11>]);
 
+// --- Filler
+recipes.addShaped(Filler, [
+[<gregtech:gt.metaitem.01:32651>, <ore:crystalRedstone>, <gregtech:gt.metaitem.01:32651>],
+[<ore:circuitGood>, <gregtech:gt.blockmachines:12>, <ore:circuitGood>],
+[<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallAluminium>]]);
+
+// --- Builder
+recipes.addShaped(Builder, [
+[<gregtech:gt.metaitem.01:32652>, <ore:crystalRedstone>, <gregtech:gt.metaitem.01:32652>],
+[<ore:circuitAdvanced>, <gregtech:gt.blockmachines:13>, <ore:circuitAdvanced>],
+[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallStainlessSteel>]]);
+
+// --- Architect Table
+recipes.addShaped(ArchitectT, [
+[<gregtech:gt.metaitem.01:32652>, <ore:crystalRedstone>, <gregtech:gt.metaitem.01:32652>],
+[<ore:circuitElite>, <gregtech:gt.blockmachines:13>, <ore:circuitElite>],
+[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallStainlessSteel>]]);
+
+// --- Electronic Library
+recipes.addShaped(ElecectronicLib, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:crystalRedstone>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:circuitData>, <dreamcraft:item.Display>, <ore:circuitData>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:plateSteel>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
+// --- Flood Gate
+recipes.addShaped(FloodGate, [
+[<IC2:itemCasing:5>, <dreamcraft:item.SteelBars>, <IC2:itemCasing:5>],
+[<dreamcraft:item.SteelBars>, <BuildCraft|Factory:tankBlock>, <dreamcraft:item.SteelBars>],
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32610>, <IC2:itemCasing:5>]]);
+
+
 
 
 // --- Assembler Recipes --- 
@@ -541,6 +573,18 @@ Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <
 // -
 Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:honey> * 400, 300, 48);
 
+// --- Land Mark
+Assembler.addRecipe(LandMark, <minecraft:redstone_torch>, <ProjRed|Core:projectred.core.part:30>, 100, 120);
+
+// --- Path Mark
+Assembler.addRecipe(PathMark, <minecraft:redstone_torch>, <ProjRed|Core:projectred.core.part:24>, 100, 120);
+
+// --- Template
+Assembler.addRecipe(<BuildCraft|Builders:templateItem>, <minecraft:paper>, <minecraft:redstone>, <liquid:squidink> * 144, 100, 30);
+
+// --- Blueprint
+Assembler.addRecipe(<BuildCraft|Builders:blueprintItem>, <minecraft:paper>, <minecraft:redstone>, <liquid:dye.watermixed.dyeblue> * 144, 100, 30);
+
 
 
 // --- Forming Press Recipes ---
@@ -548,6 +592,15 @@ Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <
 
 // --- Emerald Chipset
 FormingPress.addRecipe(<BuildCraft|Silicon:redstoneChipset:7>, <gregtech:gt.metaitem.01:17501>, <BuildCraft|Silicon:redstoneChipset>, 200, 480);
+
+
+
+// --- Precision Laser Recipes ---
+
+
+
+// --- Redstone Crystal
+PrecisionLaser.addRecipe(<BuildCraft|Silicon:redstoneCrystal>, <gregtech:gt.metaitem.01:24347> * 0, <gregtech:gt.metaitem.01:17347> * 4, 600, 120);
 
 
 
