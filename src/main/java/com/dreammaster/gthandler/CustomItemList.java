@@ -12,10 +12,59 @@ import gregtech.api.util.GT_Utility;
 
 public enum CustomItemList implements IItemContainer
 {
-	Generator_Plasma_ZPMV,
-	Generator_Plasma_UV;
-	
-	
+	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV,
+	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full,
+	Generator_Plasma_ZPMV, Generator_Plasma_UV,
+	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV,
+	AmplifabricatorLuV, AmplifabricatorZPM, AmplifabricatorUV,
+	//ArcFurnaceLuV, ArcFurnaceZPM, ArcFurnaceUV,
+	AssemblingMachineLuV, AssemblingMachineZPM, AssemblingMachineUV,
+	AutoclaveLuV, AutoclaveZPM, AutoclaveUV,
+	BendingMachineLuV, BendingMachineZPM, BendingMachineUV,
+	//BreweryLuV, BreweryZPM, BreweryUV,
+	//CanningMachineLuV, CanningMachineZPM, CanningMachineUV,
+	//CentrifugeLuV, CentrifugeZPM, CentrifugeUV,
+	//ChemicalBathLuV, ChemicalBathZPM, ChemicalBathUV,
+	//ChemicalReactorLuV, ChemicalReactorZPM, ChemicalReactorUV,
+	CompressorLuV, CompressorZPM, CompressorUV,
+	CuttingMachineLuV, CuttingMachineZPM, CuttingMachineUV,
+	//DisassemblerLuV, DisassemblerZPM, DisassemblerUV,
+	DistilleryLuV, DistilleryZPM, DistilleryUV,
+	ElectricFurnaceLuV, ElectricFurnaceZPM, ElectricFurnaceUV,
+	ElectricOvenLuV, ElectricOvenZPM, ElectricOvenUV,
+	ElectrolyzerLuV, ElectrolyzerZPM, ElectrolyzerUV,
+	ElectromagneticSeparatorLuV, ElectromagneticSeparatorZPM, ElectromagneticSeparatorUV,
+	ExtractorLuV, ExtractorZPM, ExtractorUV,
+	ExtruderLuV, ExtruderZPM, ExtruderUV,
+	//FermenterLuV, FermenterZPM, FermenterUV,
+	//FluidCannerLuV, FluidCannerZPM, FluidCannerUV,
+	//FluidExtractorLuV, FluidExtractorZPM, FluidExtractorUV,
+	//FluidHeaterLuV, FluidHeaterZPM, FluidHeaterUV,
+	FluidSolidifierLuV, FluidSolidifierZPM, FluidSolidifierUV,
+	FormingPressLuV, FormingPressZPM, FormingPressUV,
+	ForgeHammerLuV, ForgeHammerZPM, ForgeHammerUV,
+	LatheLuV, LatheZPM, LatheUV,
+	PrecisionLaserEngraverLuV, PrecisionLaserEngraverZPM, PrecisionLaserEngraverUV,
+	MaceratorLuV, MaceratorZPM, MaceratorUV,
+	MassFabricatorLuV, MassFabricatorZPM, MassFabricatorUV,
+	MicrowaveLuV, MicrowaveZPM, MicrowaveUV,
+	//MixerLuV, MixerZPM, MixerUV,
+	OreWashingPlantLuV, OreWashingPlantZPM, OreWashingPlantUV,
+	//PackagerLuV, PackagerZPM, PackagerUV,
+	//PlasmaArcFurnaceLuV, PlasmaArcFurnaceZPM, PlasmaArcFurnaceUV,
+	PolarizerLuV, PolarizerZPM, PolarizerUV,
+	//PrinterLuV, PrinterZPM, PrinterUV,
+	//RockBreakerLuV, RockBreakerZPM, RockBreakerUV,
+	RecyclerLuV, RecyclerZPM, RecyclerUV,
+	ReplicatorLuV, ReplicatorZPM, ReplicatorUV,
+	ScannerLuV, ScannerZPM, ScannerUV,
+	SiftingMachineLuV, SiftingMachineZPM, SiftingMachineUV,
+	SlicingMachineUV,
+	ThermalCentrifugeLuV, ThermalCentrifugeZPM, ThermalCentrifugeUV,
+	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
+	WiremillLuV, WiremillZPM, WiremillUV,
+	PumpLuV, PumpZPM, PumpUV;
+
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;
 	
