@@ -30,6 +30,20 @@ public class GT_Loader_Items
 	
 	private void registerItems()
 	{
+		// ID Range: 600 - 699
+		// Ingame offset: 32000
+
+		// 600 - 609 Motors
+		// 610 - 619 Pumps
+		// 620 - 629 Rotors (Unused now, but don't re-use these IDs. Might cause world corruption)
+		// 630 - 639 Conveyors
+		// 640 - 649 Pistons
+		// 650 - 659 Robot Arms
+		// 660 - 669 Unused
+		// 670 - 679 Field Generators
+		// 680 - 689 Emitters
+		// 690 - 699 Sensors
+		
 		// Pistons
 		ItemList.Electric_Piston_LuV.set(GT.addItem(
 				645, // Item Meta-ID *Must be available*! Or it will overwrite existing items. Explosions and world corruption may occour if you fail here! 
@@ -62,11 +76,6 @@ public class GT_Loader_Items
 		ItemList.Field_Generator_ZPM.set(GT.addItem(676, "Field Generator (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.TUTAMEN, 64L) }));
 		ItemList.Field_Generator_UV.set(GT.addItem(677, "Field Generator (UV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.TUTAMEN, 128L) }));
 		
-		// Rotors
-		ItemList.Rotor_LuV.set(GT.addItem(625, "Chrome Rotor", "", new Object[] { OrePrefixes.rotor.get(Materials.Chrome), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L) }));
-		ItemList.Rotor_ZPM.set(GT.addItem(626, "Iridium Rotor", "", new Object[] { OrePrefixes.rotor.get(Materials.Iridium), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L) }));
-		ItemList.Rotor_UV.set(GT.addItem(627, "Osmium Rotor", "", new Object[] { OrePrefixes.rotor.get(Materials.Osmium), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 128L) }));
-		   
 		// Pumps
 		ItemList.Electric_Pump_LuV.set(GT.addItem(615, "Electric Pump (LuV)", "327680 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 32L) }));
 		ItemList.Electric_Pump_ZPM.set(GT.addItem(616, "Electric Pump (ZPM)", "655360 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 64L) }));
@@ -82,7 +91,6 @@ public class GT_Loader_Items
 		ItemList.Sensor_ZPM.set(GT.addItem(696, "Sensor (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 64L) }));
 		ItemList.Sensor_UV.set(GT.addItem(697, "Sensor (UV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 128L) }));
 		   
-		
 		// <><><><><><><><><><><><><><><><><>   Register Covers    <><><><><><><><><><><><><><><><><>
 		GregTech_API.registerCover(ItemList.Robot_Arm_LuV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[6][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_ARM) }), new GT_Cover_Arm(1));
 		GregTech_API.registerCover(ItemList.Robot_Arm_ZPM.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[7][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_ARM) }), new GT_Cover_Arm(1));

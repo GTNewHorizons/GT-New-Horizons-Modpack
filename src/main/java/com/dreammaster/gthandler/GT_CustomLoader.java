@@ -6,6 +6,8 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
 import com.dreammaster.item.ItemList;
+import com.dreammaster.item.food.QuantumBread;
+import com.dreammaster.lib.Refstrings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -17,7 +19,6 @@ public class GT_CustomLoader
 {
     public enum AdvancedGTMaterials
     {
-        // Change the circuits for the Levels here. AND JUST HERE! If you mess up here, things will break. Definitely.
         LuV(ItemList.NanoCircuit.getIS(),
         		OrePrefixes.wireGt02.get(Materials.YttriumBariumCuprate),
         		Materials.Naquadah,
@@ -153,6 +154,7 @@ public class GT_CustomLoader
     
     public void run()
     {
+    	GameRegistry.registerItem(QuantumBread.Instance(), String.format("%s:itemQuantumToast", Refstrings.MODID));
     	MaterialLoader.run();
     	FluidPipeLoader.run();
     	WireLoader.run();

@@ -10,6 +10,8 @@ public class ItemPipes {
 
     public static void registerPipes()
     {
+    	// These IDs are totally messed up. Watch out if you want to add or change something here!
+    	
     	// Brass
     	GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Brass), new GT_CustomMetaPipeEntity_Item(5600, "GT_Pipe_Brass_Tiny", "Tiny Brass Item Pipe", 0.25F, Materials.Brass, 1, 131072, false, 80).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Brass),new GT_CustomMetaPipeEntity_Item(5601,"GT_Pipe_Brass_Small","Small Brass Item Pipe",0.375F,Materials.Brass, 1,65536,false, 40).getStackForm(1L));
