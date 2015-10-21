@@ -1141,92 +1141,92 @@ Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
 
 
 // --- Tier 1 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:1>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:1>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:2>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:2>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:3>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:3>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 
 // --- Tier 2 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:1>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:1>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:3>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:3>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 
 // --- Tier 3 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12],  <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12],  <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 
 // --- Tier 4 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket:1>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket:1>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28],  <GalaxySpace:item.Tier4Rocket:2>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28],  <GalaxySpace:item.Tier4Rocket:2>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket:3>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket:3>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 30);
 
 // --- Tier 5 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket:1>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket:1>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16],  <GalaxySpace:item.Tier5Rocket:2>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16],  <GalaxySpace:item.Tier5Rocket:2>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket:3>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT5> * 35, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14, <gregtech:gt.metaitem.01:32463> * 16], <GalaxySpace:item.Tier5Rocket:3>, <liquid:oxygen> * 10000, [10000, 10000, 10000, 10000], 6000, 30);
 
 // --- Tier 6 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket:1>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket:1>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier6Rocket:2>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier6Rocket:2>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket:3>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT6> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier6Rocket:3>, <liquid:oxygen> * 12000, [10000, 10000, 10000, 10000], 7200, 30);
 
 // --- Tier 7 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket:1>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket:1>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier7Rocket:2>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier7Rocket:2>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket:3>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT7> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier7Rocket:3>, <liquid:oxygen> * 14000, [10000, 10000, 10000, 10000], 8400, 30);
 
 // --- Tier 8 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket:1>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket:1>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier8Rocket:2>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14],  <GalaxySpace:item.Tier8Rocket:2>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket:3>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket:3>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 30);
 
 // ---  Cargo Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:11>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:11>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:12>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:12>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4],  <GalacticraftMars:item.spaceshipTier2:13>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 32);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4],  <GalacticraftMars:item.spaceshipTier2:13>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 
 // --- Tier 9 Rocket Recycling
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket:1>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket:1>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24],  <GalaxySpace:item.Tier9Rocket:2>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24],  <GalaxySpace:item.Tier9Rocket:2>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 30);
 // -
-ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket:3>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 32);
+ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT9> * 29, <dreamcraft:item.HeavyDutyAlloyIngotT8> * 24, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 14, <gregtech:gt.metaitem.01:32464> * 24], <GalaxySpace:item.Tier9Rocket:3>, <liquid:oxygen> * 18000, [10000, 10000, 10000, 10000], 10800, 30);
 
 
 

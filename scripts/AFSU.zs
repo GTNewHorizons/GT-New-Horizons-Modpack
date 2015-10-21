@@ -36,4 +36,4 @@ recipes.addShaped(<AFSU:AFSU>, [
 
 
 // --- AFB
-Assembler.addRecipe(<AFSU:ALC>, <dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:32597>, 2400, 2048);
+Assembler.addRecipe(<AFSU:ALC>, <dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:32597>, 2400, 1920);

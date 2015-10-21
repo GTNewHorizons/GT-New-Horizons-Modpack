@@ -101,7 +101,7 @@ recipes.addShaped(GoldChestCart, [
 [GoldScrew, Minecart, GoldScrew]]);
 
 // --- Minecart With Diamond Chest
-Assembler.addRecipe(DiamondChestCart, DiamondChest, Minecart, 180, 32);
+Assembler.addRecipe(DiamondChestCart, DiamondChest, Minecart, 180, 30);
 // --- Alternative recipe
 recipes.addShaped(DiamondChestCart, [
 [null, GTScrewdriver, null],

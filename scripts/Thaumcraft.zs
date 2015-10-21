@@ -976,9 +976,9 @@ Assembler.addRecipe(<Thaumcraft:ItemResearchNotes:42>, <Thaumcraft:ItemResource:
 
 
 // --- Amber
-Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:water> * 200, 8000, 2000, 32);
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:water> * 200, 8000, 2000, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 200, 9000, 1500, 32);
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 200, 9000, 1500, 30);
 
 
 

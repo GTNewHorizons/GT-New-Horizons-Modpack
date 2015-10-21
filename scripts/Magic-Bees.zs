@@ -398,7 +398,7 @@ Assembler.addRecipe(<MagicBees:miscResources:4>, <MagicBees:miscResources:3> * 4
 Assembler.addRecipe(<MagicBees:miscResources:6>, <MagicBees:miscResources:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 288, 400, 256);
 
 // --- Jade Mood Dail
-Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <minecraft:emerald> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 32);
+Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <minecraft:emerald> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 30);
 
 // --- Mysterious Magnet Level 1
 Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);

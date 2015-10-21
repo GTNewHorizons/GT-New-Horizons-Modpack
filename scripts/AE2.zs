@@ -1155,16 +1155,16 @@ Assembler.addRecipe(<appliedenergistics2:tile.BlockSkyChest:1>, <appliedenergist
 Assembler.addRecipe(CoCraftingUnit, CraftingUnit, DiamondCircuit * 2, 400, 120);
 
 // --- 1 K Crafting  Storage
-Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:35>, 400, 120);
+Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:35>, 400, 480);
 
 // --- 4 K Crafting  Storage
-Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:1>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:36>, 400, 120);
+Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:1>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:36>, 400, 480);
 
 // --- 16 K Crafting  Storage
-Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:2>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:37>, 400, 120);
+Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:2>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:37>, 400, 480);
 
 // --- 64 K Crafting  Storage
-Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:38>, 400, 120);
+Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:38>, 400, 480);
 
 // --- Crafting Monitor
 Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingMonitor>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiPart:400>, 400, 120);
@@ -1253,13 +1253,13 @@ Macerator.addRecipe(FluixDust * 4, <appliedenergistics2:tile.BlockFluix>);
 // --- Wiremill Recipes ---
 
 //Quartz Fiber
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23516> * 2, 80, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23516> * 2, 80, 120);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <dreamcraft:item.ChargedCertusQuartzRod>, 80, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <dreamcraft:item.ChargedCertusQuartzRod>, 80, 120);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 80, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 80, 120);
 // -
-Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 80, 128);
+Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 80, 120);
 
 
 
