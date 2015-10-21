@@ -293,10 +293,17 @@ Assembler.addRecipe(<CarpentersBlocks:itemCarpentersDoor>, CarpentersBlock, <min
 
 
 // --- Carpenters Pressure Plate
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 1000, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 20, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:ic2distilledwater> * 10, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:lubricant> * 2, 50, 30);
+
 
 // --- Carpenters Button
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:water> * 500, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:water> * 20, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:ic2distilledwater> * 10, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <CarpentersBlocks:blockCarpentersPressurePlate>, <liquid:lubricant> * 2, 100, 30);
 
 // --- Carpenters Stairs
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 1000, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 20, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:ic2distilledwater> * 10, 100, 30);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:lubricant> * 2, 50, 30);
