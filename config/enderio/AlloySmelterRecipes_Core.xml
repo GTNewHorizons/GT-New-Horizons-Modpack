@@ -339,7 +339,7 @@
     </recipe>
     <recipe name="Hardened Glass" energyCost="4000" >
       <input>
-        <itemStack oreDictionary="dustObsidian" number="8" />
+        <itemStack oreDictionary="dustObsidian" number="4" />
         <itemStack oreDictionary="ingotLead" />
       </input>
       <output>

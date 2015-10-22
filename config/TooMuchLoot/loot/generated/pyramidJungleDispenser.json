@@ -1,0 +1,28 @@
+{
+  "category": "pyramidJungleDispenser",
+  "count_min": 2,
+  "count_max": 2,
+  "loot": [
+    {
+      "item": "minecraft:arrow",
+      "damage": 0,
+      "weight": 30,
+      "count_min": 2,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:fire_charge",
+      "damage": 0,
+      "weight": 30,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.02",
+      "damage": 25335,
+      "weight": 20,
+      "count_min": 8,
+      "count_max": 16
+    }
+  ]
+}

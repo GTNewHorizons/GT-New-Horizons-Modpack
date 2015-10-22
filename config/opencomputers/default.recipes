@@ -183,7 +183,7 @@ redstoneCard1 {
           ["", "oc:materialCard", ""]]
 }
 redstoneCard2 {
-  input: [[blockRedstone, "oc:circuitChip2", enderPearl]
+  input: [[blockRedstone, "oc:circuitChip2", materialEnderPearl]
           ["", "oc:materialCard", ""]]
 }
 lanCard {
@@ -191,7 +191,7 @@ lanCard {
           ["", "oc:materialCard", ""]]
 }
 wlanCard {
-  input: [[enderPearl, "oc:circuitChip2", ""]
+  input: [[materialEnderPearl, "oc:circuitChip2", ""]
           ["", "oc:materialCard", ""]]
 }
 linkedCard {
@@ -211,9 +211,9 @@ worldSensorCard {
 }
 
 angelUpgrade {
-  input: [[ingotIron, enderPearl, ingotIron]
+  input: [[ingotIron, materialEnderPearl, ingotIron]
           ["oc:circuitChip1", pistonStickyBase, "oc:circuitChip1"]
-          [ingotIron, enderPearl, ingotIron]]
+          [ingotIron, materialEnderPearl, ingotIron]]
 }
 batteryUpgrade1 {
   input: [[ingotIron, nuggetGold, ingotIron]
@@ -231,7 +231,7 @@ batteryUpgrade3 {
           [diamond, "oc:capacitor", diamond]]
 }
 chunkloaderUpgrade {
-  input: [[ingotGold, glass, ingotGold]
+  input: [[ingotGold, blockGlass, ingotGold]
           ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
           [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
 }
@@ -306,7 +306,7 @@ signUpgrade {
           [ingotIron, pistonStickyBase, ingotIron]]
 }
 solarGeneratorUpgrade {
-  input: [[glass, glass, glass]
+  input: [[blockGlass, blockGlass, blockGlass]
           ["oc:circuitChip3", blockLapis, "oc:circuitChip3"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
@@ -391,9 +391,9 @@ chameliumBlock {
           ["oc:chamelium", "oc:chamelium", "oc:chamelium"]]
 }
 endstone {
-  input: [[enderPearl, "oc:chameliumBlock", enderPearl]
-          ["oc:chameliumBlock", enderPearl, "oc:chameliumBlock"]
-          [enderPearl, "oc:chameliumBlock", enderPearl]]
+  input: [[materialEnderPearl, "oc:chameliumBlock", materialEnderPearl]
+          ["oc:chameliumBlock", materialEnderPearl, "oc:chameliumBlock"]
+          [materialEnderPearl, "oc:chameliumBlock", materialEnderPearl]]
   output: 4
 }
 inkCartridgeEmpty {
@@ -508,7 +508,7 @@ card {
 
 interweb {
   input: [[string, string, string]
-          [string, enderPearl, string]
+          [string, materialEnderPearl, string]
           [string, string, string]]
 }
 
@@ -554,7 +554,7 @@ case3 {
           [diamond, "oc:materialCircuitBoardPrinted", diamond]]
 }
 disassembler {
-  input: [["oc:materialCU", thinGlass, "oc:analyzer"]
+  input: [["oc:materialCU", paneGlass, "oc:analyzer"]
           [craftingPiston, "", obsidian]
           [ingotIron, bucketLava, ingotIron]]
 }
@@ -569,12 +569,12 @@ geolyzer {
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 hologram1 {
-  input: [["oc:circuitChip2", thinGlass, "oc:circuitChip2"]
+  input: [["oc:circuitChip2", paneGlass, "oc:circuitChip2"]
           ["oc:materialCircuitBoardPrinted", diamond, "oc:materialCircuitBoardPrinted"]
           [obsidian, yellowDust, obsidian]]
 }
 hologram2 {
-  input: [["oc:circuitChip3", glass, "oc:circuitChip3"]
+  input: [["oc:circuitChip3", blockGlass, "oc:circuitChip3"]
           ["oc:materialCircuitBoardPrinted", blockDiamond, "oc:materialCircuitBoardPrinted"]
           [obsidian, blazePowder, obsidian]]
 }
@@ -629,17 +629,17 @@ relay {
 }
 screen1 {
   input: [[ingotIron, redstone, ingotIron]
-          [redstone, "oc:circuitChip1", glass]
+          [redstone, "oc:circuitChip1", blockGlass]
           [ingotIron, redstone, ingotIron]]
 }
 screen2 {
   input: [[ingotGold, dyeRed, ingotGold]
-          [dyeGreen, "oc:circuitChip2", glass]
+          [dyeGreen, "oc:circuitChip2", blockGlass]
           [ingotGold, dyeBlue, ingotGold]]
 }
 screen3 {
   input: [[obsidian, yellowDust, obsidian]
-          [yellowDust, "oc:circuitChip3", glass]
+          [yellowDust, "oc:circuitChip3", blockGlass]
           [obsidian, yellowDust, obsidian]]
 }
 transposer {

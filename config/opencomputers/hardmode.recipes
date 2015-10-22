@@ -109,7 +109,7 @@ redstoneCard1 {
           ["", "oc:materialCard", ""]]
 }
 redstoneCard2 {
-  input: [[blockRedstone, "oc:circuitChip2", enderPearl]
+  input: [[blockRedstone, "oc:circuitChip2", materialEnderPearl]
           ["", "oc:redstoneCard1", ""]]
 }
 lanCard {
@@ -117,7 +117,7 @@ lanCard {
           ["", "oc:materialCard", ""]]
 }
 wlanCard {
-  input: [[enderPearl, "oc:circuitChip2", ""]
+  input: [[materialEnderPearl, "oc:circuitChip2", ""]
           ["", "oc:lanCard", ""]]
 }
 linkedCard {
@@ -178,7 +178,7 @@ signUpgrade {
           [ingotIron, pistonStickyBase, ingotIron]]
 }
 solarGeneratorUpgrade {
-  input: [[glass, glass, glass]
+  input: [[blockGlass, blockGlass, blockGlass]
           ["oc:circuitChip3", "oc:generatorUpgrade", "oc:circuitChip3"]]
 }
 
@@ -291,9 +291,9 @@ card {
 }
 
 interweb {
-  input: [[string, enderPearl, string]
-          [enderPearl, string, enderPearl]
-          [string, enderPearl, string]]
+  input: [[string, materialEnderPearl, string]
+          [materialEnderPearl, string, materialEnderPearl]
+          [string, materialEnderPearl, string]]
 }
 
 adapter {
@@ -372,9 +372,9 @@ relay {
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 screen1 {
-  input: [[ingotIron, ingotIron, glass]
-          [redstone, "oc:materialTransistor", glass]
-          [ingotIron, ingotIron, glass]]
+  input: [[ingotIron, ingotIron, blockGlass]
+          [redstone, "oc:materialTransistor", blockGlass]
+          [ingotIron, ingotIron, blockGlass]]
 }
 screen2 {
   input: [[ingotGold, dyeRed, ingotGold]

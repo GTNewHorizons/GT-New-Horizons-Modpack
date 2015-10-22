@@ -1,0 +1,152 @@
+{
+  "category": "bonusChest",
+  "count_min": 10,
+  "count_max": 10,
+  "loot": [
+    {
+      "item": "minecraft:stick",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:planks",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:log",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:apple",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 2,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 2,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:log2",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "IC2:itemTreetap",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "BiomesOPlenty:wadingBoots",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "BiomesOPlenty:flippers",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:broadsword",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 0,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:pickaxe",
+      "damage": 0,
+      "nbt": {
+        "InfiTool": {
+          "BaseDurability^i": 38,
+          "Head^i": 0,
+          "BaseAttack^i": 2,
+          "ToolEXP^l": 0,
+          "HarvestLevel^i": 0,
+          "Attack^i": 2,
+          "RenderHead^i": 0,
+          "ModDurability^f": 0.0,
+          "Handle^i": 0,
+          "Broken^b": 0,
+          "Shoddy^f": 0.0,
+          "RenderHandle^i": 0,
+          "Accessory^i": 0,
+          "MiningSpeed^i": 150,
+          "RenderAccessory^i": 0,
+          "ToolLevel^i": 1,
+          "Unbreaking^i": 0,
+          "Damage^i": 0,
+          "BonusDurability^i": 0,
+          "TotalDurability^i": 38,
+          "Modifiers^i": 0
+        },
+        "display": {
+          "Name": "§fStarter Pickaxe"
+        }
+      },
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:hatchet",
+      "damage": 0,
+      "nbt": {
+        "InfiTool": {
+          "BaseDurability^i": 38,
+          "Head^i": 0,
+          "BaseAttack^i": 4,
+          "ToolEXP^l": 0,
+          "HarvestLevel^i": 0,
+          "Attack^i": 4,
+          "RenderHead^i": 0,
+          "ModDurability^f": 0.0,
+          "Handle^i": 0,
+          "Broken^b": 0,
+          "Shoddy^f": 0.0,
+          "RenderHandle^i": 0,
+          "MiningSpeed^i": 150,
+          "ToolLevel^i": 1,
+          "Unbreaking^i": 0,
+          "Damage^i": 0,
+          "BonusDurability^i": 0,
+          "TotalDurability^i": 38,
+          "Modifiers^i": 0
+        },
+        "display": {
+          "Name": "§fStarter Hatchet"
+        }
+      },
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "gregtech:gt.metaitem.02",
+      "damage": 32100,
+      "weight": 2,
+      "count_min": 8,
+      "count_max": 16
+    }
+  ]
+}

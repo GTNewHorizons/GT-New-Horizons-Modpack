@@ -21,7 +21,7 @@ angelUpgrade {
           [ingotIron, diamond, ingotIron]]
 }
 chunkloaderUpgrade {
-  input: [[ingotGold, glass, ingotGold]
+  input: [[ingotGold, blockGlass, ingotGold]
           ["oc:circuitChip3", diamond, "oc:circuitChip3"]
           [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
 }
@@ -69,7 +69,7 @@ geolyzer {
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 hologram2 {
-  input: [["oc:circuitChip3", glass, "oc:circuitChip3"]
+  input: [["oc:circuitChip3", blockGlass, "oc:circuitChip3"]
           ["oc:materialCircuitBoardPrinted", blockDiamond, "oc:materialCircuitBoardPrinted"]
           [obsidian, yellowDust, obsidian]]
 }

@@ -105,5 +105,14 @@
   <enchantment name="enchantment.repair" costPerLevel="6" >
     <itemStack modID="minecraft" itemName="anvil" />
   </enchantment>
+  <enchantment name="enchantment.soul_stealer" costPerLevel="6" >
+    <itemStack modID="SSTOW" itemName="sstow_soul_shard" />
+  </enchantment>
+  <enchantment name="enchant.cofh.holding" costPerLevel="6" >
+    <itemStack modID="ThermalExpansion" itemName="Strongbox" itemMeta="3" />
+  </enchantment>
+  <enchantment name="enchant.cofh.multishot" costPerLevel="6" >
+    <itemStack modID="ThermalFoundation" oreDictionary="dustAerotheum" />
+  </enchantment>
 
 </enchaterRecipes>

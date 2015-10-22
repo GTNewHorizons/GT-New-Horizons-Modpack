@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
-	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4BE CAREFULL THIS ITEM WILL KILL YOU!!!"/>
+	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Profane Wands are not good for you Careface1g!!!"/>
 	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4NOT SLEEPING ON SEVERS OVER LEVEL Y 128 OR YOU DIE"/>
-	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3NOW Quiet Expensive Device"/>
+	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3NOW Quite Expensive Device"/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Mining you rich!!!"/>
+	<ToolTip ItemName="RIO:item.remoteAccessor" ToolTip="§4Disabled because Crash"/>
+	<ToolTip ItemName="RIO:item.linker" ToolTip="§4No recipes available"/>
+	<ToolTip ItemName="RIO:item.pda" ToolTip="§4Unfinished Item, disabled now"/>
+	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4No recipes available"/>
+    <ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Caution max 32 EU"/>
+	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4We have many Jetpacks allready"/>
+	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4We have many Jetpacks allready"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§1160 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t"/>
 </CustomToolTips>

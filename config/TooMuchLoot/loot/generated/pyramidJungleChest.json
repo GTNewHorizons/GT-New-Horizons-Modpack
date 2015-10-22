@@ -1,0 +1,571 @@
+{
+  "category": "pyramidJungleChest",
+  "count_min": 2,
+  "count_max": 7,
+  "loot": [
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 5
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 2,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:emerald",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:bone",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 4,
+      "count_max": 6
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "damage": 0,
+      "weight": 16,
+      "count_min": 3,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:saddle",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemToolBronzePickaxe",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemToolBronzeSword",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemArmorBronzeHelmet",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemArmorBronzeChestplate",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemArmorBronzeLegs",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemArmorBronzeBoots",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "IC2:itemIngot",
+      "damage": 0,
+      "weight": 9,
+      "count_min": 2,
+      "count_max": 6
+    },
+    {
+      "item": "IC2:itemIngot",
+      "damage": 1,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 5
+    },
+    {
+      "item": "Railcraft:tool.steel.sword",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.helmet",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.plate",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.legs",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.boots",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "HardcoreEnderExpansion:adventurers_diary",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "HardcoreEnderExpansion:temple_caller",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 0,
+      "count_max": 1
+    },
+    {
+      "item": "HardcoreEnderExpansion:knowledge_note",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:heartCanister",
+      "damage": 1,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "EnderIO:itemTravelStaff",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "EnderIO:item.darkSteel_sword",
+      "damage": 0,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "OpenComputers:item",
+      "damage": 4,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:broadsword",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 0,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemLootBag",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "Thaumcraft:ItemResource",
+      "damage": 2,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "Thaumcraft:ItemResource",
+      "damage": 6,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "Thaumcraft:ItemLootBag",
+      "damage": 1,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 0,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 1,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 2,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "Thaumcraft:ItemResource",
+      "damage": 9,
+      "weight": 4,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "Thaumcraft:ItemLootBag",
+      "damage": 2,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemThaumonomicon",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemSwordThaumium",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemPickThaumium",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemAxeThaumium",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemHoeThaumium",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemRingRunic",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 3,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 4,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 5,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 6,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 7,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 8,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Thaumcraft:ItemAmuletVis",
+      "damage": 0,
+      "nbt": {
+        "aqua^i": 200,
+        "terra^i": 0,
+        "ignis^i": 0,
+        "ordo^i": 100,
+        "perditio^i": 100,
+        "aer^i": 200
+      },
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Automagy:baubleEnderDisjunction",
+      "damage": 1,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Automagy:phialExtra",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "ExtraUtilities:divisionSigil",
+      "damage": 0,
+      "weight": 12,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "harvestcraft:spagettiandmeatballsItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:deluxecheeseburgerItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:delightedmealItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:heartybreakfastItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:curryItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:rainbowcurryItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:supremepizzaItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:baconmushroomburgerItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:sausageinbreadItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:beefwellingtonItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "harvestcraft:epicbaconItem",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "DraconicEvolution:dezilsMarshmallow",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "TaintedMagic:CreationCroissant",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 0,
+      "count_max": 32
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 32008,
+      "weight": 10,
+      "count_min": 16,
+      "count_max": 64
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 32598,
+      "nbt": {
+        "GT.ItemCharge^l": 2000000000000
+      },
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 11300,
+      "weight": 12,
+      "count_min": 4,
+      "count_max": 16
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8502,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8503,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8504,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8505,
+      "weight": 2,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8527,
+      "weight": 4,
+      "count_min": 2,
+      "count_max": 8
+    },
+    {
+      "item": "gregtech:gt.metaitem.01",
+      "damage": 8528,
+      "weight": 4,
+      "count_min": 2,
+      "count_max": 8
+    }
+  ]
+}
