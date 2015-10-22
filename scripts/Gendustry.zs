@@ -92,6 +92,7 @@ val HHammer = <ore:craftingToolHardHammer>;
 val Scoop = <ore:craftingToolScoop>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Pipette = <Forestry:pipette>;
+val Wrench = <ore:craftingToolWrench>;
 
 val Hopper = <ore:blockHopper>;
 val Grass = <minecraft:grass>;
@@ -243,58 +244,58 @@ recipes.remove(<gendustry:ErrorSensorCover>);
 
 
 // --- Industrial Apiary
-mods.forestry.Carpenter.addRecipe(IndustrialApiary, [
-[AlvearyFan, BeeReceptacle, AlvearyHeater],
-[AlvearyStabiliser, HardCasing, AlvearyHygro],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 10000, 120);
+recipes.addShaped(IndustrialApiary, [
+[TitaniumGear, BeeReceptacle, TitaniumGear],
+[AlvearyFan, HardCasing, AlvearyHeater],
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Mutatron
-mods.forestry.Carpenter.addRecipe(Mutatron, [
+recipes.addShaped(Mutatron, [
 [MutagenTank, GeneticsProcessor, MutagenTank],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Genetic Imprinter
-mods.forestry.Carpenter.addRecipe(GeneticImprinter, [
+recipes.addShaped(GeneticImprinter, [
 [GeneticsProcessor, TitaniumGear, GeneticsProcessor],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Genetic Sampler
-mods.forestry.Carpenter.addRecipe(GeneticSampler, [
+recipes.addShaped(GeneticSampler, [
 [GeneticsProcessor, BeeReceptacle, GeneticsProcessor],
 [CrystalChip, HardCasing, CrystalChip],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Advanced Mutatron
-mods.forestry.Carpenter.addRecipe(AdvMutatron, [
+recipes.addShaped(AdvMutatron, [
 [IVRobotorArm, GeneticsProcessor, IVRobotorArm],
 [GeneticsProcessor, Mutatron, GeneticsProcessor],
-[PalladiumGear, PowerModule, PalladiumGear]], <liquid:honey> * 10000, 120);
+[PalladiumGear, PowerModule, PalladiumGear]]);
 
 // --- Protein Liquifier
-mods.forestry.Carpenter.addRecipe(Liquifier, [
+recipes.addShaped(Liquifier, [
 [TitaniumGear, Hopper, TitaniumGear],
 [EVPiston, HardCasing, EVPiston],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- DNA Extractor
-mods.forestry.Carpenter.addRecipe(DNAExtractor, [
+recipes.addShaped(DNAExtractor, [
 [EVPiston, BeeReceptacle, EVPiston],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Genetic Transposer
-mods.forestry.Carpenter.addRecipe(Transposer, [
+recipes.addShaped(Transposer, [
 [EVRobotorArm, TitaniumGear, EVRobotorArm],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, PowerModule, TitaniumGear]]);
 
 // --- Genetic Replicator
-mods.forestry.Carpenter.addRecipe(Replicator, [
+recipes.addShaped(Replicator, [
 [EVRobotorArm, GeneticsProcessor, EVRobotorArm],
 [PowerModule, HardCasing, PowerModule],
-[TitaniumGear, GeneticsProcessor, TitaniumGear]], <liquid:honey> * 5000, 60);
+[TitaniumGear, GeneticsProcessor, TitaniumGear]]);
 
 
 // --- Items ---
@@ -304,14 +305,14 @@ mods.forestry.Carpenter.addRecipe(Replicator, [
 
 // --- Bee Receptacle
 recipes.addShaped(BeeReceptacle, [
-[TitaniumScrew, Pipette, TitaniumScrew],
-[CopperCasing, Template, CopperCasing],
+[TitaniumScrew, Wrench, TitaniumScrew],
+[CopperCasing, SteelBars, CopperCasing],
 [TitaniumScrew, Screwdriver, TitaniumScrew]]);
 
 // --- Power Module
 recipes.addShaped(PowerModule, [
 [NichromeCable, CopperCasing, NichromeCable],
-[CopperCasing, CrystalBattery, CopperCasing],
+[CopperCasing, AdvCircuit, CopperCasing],
 [TitaniumSmallGear, EVMotor, TitaniumSmallGear]]);
 
 // --- Plains Emulation Upgrade
@@ -444,13 +445,13 @@ mods.forestry.Carpenter.addRecipe(<gendustry:ApiaryUpgrade>, [
 recipes.addShaped(<gendustry:IndustrialGrafter:100>, [
 [TitaniumScrew, Grafter, TitaniumScrew],
 [TitaniumSmallGear, PowerModule, TitaniumSmallGear],
-[TitaniumPlate, AdvBattery, TitaniumPlate]]);
+[TitaniumPlate, <ore:batteryBasic, TitaniumPlate]]);
 
 // --- Industrial Scoop
 recipes.addShaped(<gendustry:IndustrialScoop:100>, [
 [TitaniumScrew, Scoop, TitaniumScrew],
 [TitaniumSmallGear, PowerModule, TitaniumSmallGear],
-[TitaniumPlate, Battery, TitaniumPlate]]);
+[TitaniumPlate, <ore:batteryBasic>, TitaniumPlate]]);
 
 // --- Climate Control Module
 recipes.addShaped(<gendustry:ClimateModule>, [
@@ -485,7 +486,7 @@ Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregte
 Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 480);
 
 // --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <Forestry:frameImpregnated>, <IC2:itemPartCircuitAdv> * 2, <liquid:molten.titanium> * 144, 100, 480);
+Assembler.addRecipe(UpFrame, <Forestry:frameUntreated>, <IC2:itemPartCircuitAdv>, 100, 480);
 
 // --- Item Ijector Cover
 Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17028>, <IC2:upgradeModule:3>, 100, 480);
