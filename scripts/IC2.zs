@@ -1007,7 +1007,7 @@ recipes.addShaped(<IC2:reactorVentDiamond:1>, [
 [<dreamcraft:item.SteelBars>, <IC2:reactorVentGold:1>, <dreamcraft:item.SteelBars>]]);
 
 // --- Component Heat Vent
-recipes.addShaped(<IC2:reactorVentSpread:1>, [
+recipes.addShaped(<IC2:reactorVentSpread>, [
 [<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>],
 [<ore:plateDenseTin>, <IC2:reactorVent:1>, <ore:plateDenseTin>],
 [<dreamcraft:item.SteelBars>, <ore:plateDenseTin>, <dreamcraft:item.SteelBars>]]);

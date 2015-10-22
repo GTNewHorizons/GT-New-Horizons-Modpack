@@ -160,9 +160,9 @@ recipes.addShaped(<GraviSuite:relocator>, [
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [
-[<ore:screwChrome>, <ore:toolHeadChainsawChrome>, <ore:craftingToolScrewdriver>],
-[<ore:gearGtSmallChrome>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallChrome>],
-[<ore:plateChrome>, <ore:batteryElite>, <ore:plateChrome>]]);
+[<ore:screwTungstenSteel>, <ore:toolHeadChainsawTungstenSteel>, <ore:craftingToolScrewdriver>],
+[<ore:gearGtSmallTungstenSteel>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallTungstenSteel>],
+[<ore:plateTungstenSteel>, <ore:batteryElite>, <ore:plateTungstenSteel>]]);
 
 // --- Advanced Drill
 recipes.addShaped(<GraviSuite:advDDrill:27>, [
