@@ -1922,19 +1922,19 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 
 
 // --- Callisto Cold Ingot
-VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 1200);
+VacuumFreezer.addRecipe(<dreamcraft:item.CallistoIceColdIngot>, <dreamcraft:item.CallistoIceIngot>, 500);
 
 // --- Ledox Cold Ingot
-VacuumFreezer.addRecipe(<dreamcraft:item.LedoxColdIngot>, <dreamcraft:item.LedoxIngot>, 900);
+VacuumFreezer.addRecipe(<dreamcraft:item.LedoxColdIngot>, <dreamcraft:item.LedoxIngot>, 500);
 
-// --- Callisto Cold Ingot
-VacuumFreezer.addRecipe(<GalaxySpace:item.QuantiumIgnot>, <dreamcraft:item.QuantinumHotIngot>, 2400);
+// --- Quantinum Cold Ingot
+VacuumFreezer.addRecipe(<GalaxySpace:item.QuantiumIgnot>, <dreamcraft:item.QuantinumHotIngot>, 600);
 
 // --- Mysterious Crystal Ingot
-VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraft:item.MysteriousCrystalIngot>, 4800);
+VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraft:item.MysteriousCrystalIngot>, 700);
 
 // --- Mytryl Ingot
-VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 3600);
+VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 400);
 
 // --- Infernal Bricks
 VacuumFreezer.addRecipe(<dreamcraft:item.InfernalBrick>, <dreamcraft:item.HotNetherrackBrick>, 600); 
