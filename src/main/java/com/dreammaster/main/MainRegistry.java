@@ -32,6 +32,7 @@ import com.dreammaster.command.CustomFuelsCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
+import com.dreammaster.galacticgreg.SpaceDimRegisterer;
 import com.dreammaster.gthandler.CustomItemList;
 import com.dreammaster.gthandler.GT_CustomLoader;
 import com.dreammaster.gthandler.ItemPipes;
@@ -48,6 +49,7 @@ import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.modingameerrorlog.IngameErrorLog;
 
 import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -91,6 +93,7 @@ public class MainRegistry {
 	public static CoreModConfig CoreConfig;
 	public static Random Rnd = null;
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
+	private static SpaceDimRegisterer SpaceDimReg = null;
 	
 	public static void AddLoginError(String pMessage)
 	{
@@ -241,6 +244,23 @@ public class MainRegistry {
 
 		if (CoreConfig.ModBabyChest_Enabled)
 		    InitAdditionalBlocks();
+		
+		// Register Dimensions in GalacticGregGT5
+		if (Loader.isModLoaded("galacticgreg"))
+		{
+    		SpaceDimReg = new SpaceDimRegisterer();
+    		if (!SpaceDimReg.Init())
+    		{
+    		    Logger.error("Unable to register SpaceDimensions; You are probably using the wrong Version of GalacticGreg");
+    		    AddLoginError("[SpaceDim] Unable to register SpaceDimensions. Wrong Version of GGreg found!");
+    		}
+    		else
+    		{
+    		    Logger.debug("Registering SpaceDimensions");
+    		    SpaceDimReg.Register();
+    		}
+    		
+		}
 	}
 	
 	public static Block _mBlockBabyChest = new BlockBabyChest();
