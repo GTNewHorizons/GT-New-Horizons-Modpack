@@ -15,7 +15,7 @@ Large Modpack with every recipe Gregified
 Hey guys, I'd like to open up my project and get more players.
 I've been working on it for six months and still got a lot more work to do.
 
-The pack has around 160 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
+The pack has around 180 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
 An example of Tiering (work in progress) is here:
 
 Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools
