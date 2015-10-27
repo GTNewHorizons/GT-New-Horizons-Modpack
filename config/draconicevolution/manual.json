@@ -4,9 +4,10 @@
     "images":[],
     "content":
     [
-      "The very basis of Draconic Research",
-      "This ore can be found in the overworld bellow y level 8 as well as in the nether at any y level but it is extremely rare in both. You can also find it in much larger quantities in the end in both the main island and in the comets that randomly spawn throughout the end.",
-      "Drops 1 - 3 draconium dist when mined. 4 - 12 with fortune 3"
+      "The very basis of Draconic Research.",
+      "This ore can be found in the overworld below y-level 8 as well as in The Nether at any y-level, although it is extremely rare in both. ",
+      "You can also find it in much larger quantities in The End, both in the main island and in the comets that randomly spawn throughout The End.",
+      "Drops 1 - 3 Draconium Dust when mined. This can be increased up to 4 - 12 with the Fortune III enchantment."
     ]
   },
   {
@@ -14,7 +15,7 @@
     "images":[],
     "content":
     [
-      "This is the dust dropped by draconium ore. Can be smelted into draconium ingots."
+      "This is the dust dropped when mining Draconium Ore. It can be smelted into Draconium Ingots."
     ]
   },
   {
@@ -22,7 +23,7 @@
     "images":[],
     "content":
     [
-      "This item is now depreciated and will be removed in 1.0.2. If you still have some you should smelt it into draconium ingots before you update to 1.0.2"
+      "This item is now deprecated and will be removed in 1.0.2. If you still have some you should smelt it into Draconium Ingots before you update to 1.0.2."
     ]
   },
   {
@@ -30,7 +31,7 @@
     "images":[],
     "content":
     [
-      "The results of smelting draconium dust in a furnace. Used in most Draconic Evolution recipes.",
+      "The product of smelting Draconium Dust in a furnace. Used in most Draconic Evolution recipes.",
       "[c]item.draconicevolution:draconiumIngot:0"
     ]
   },
@@ -41,9 +42,9 @@
     "images":[],
     "content":
     [
-      "A storage block for draconium",
+      "A storage block for draconium.",
       "[c]tile.draconicevolution:draconium:0",
-      "This block is resistant to the wither"
+      "This block is resistant to the wither."
     ]
   },
   {
@@ -53,7 +54,7 @@
     "images":[],
     "content":
     [
-      "Used in the Ritual of Draconic Resurrection and the Ritual of Awakening. Place a draconium block in a charging device and 100 million RF later you have a charged draconium block!",
+      "Used in the Ritual of Draconic Resurrection and the Ritual of Awakening. Place a Draconium Block in a charging device and 100 million RF later you have a Charged Draconium Block!",
       "[c]tile.draconicevolution:draconium:2"
     ]
   },
@@ -62,7 +63,7 @@
     "images":[],
     "content":
     [
-      "Used in most Draconic Evolution recipes",
+      "This is the first tier component used in many Draconic Evolution recipes.",
       "[c]item.draconicevolution:draconicCore:0"
     ]
   },
@@ -71,7 +72,7 @@
     "images":[],
     "content":
     [
-      "This is a higher tier core used in higher tier crafting recipes.",
+      "This is a higher tier version of the Draconic Core that can be used to craft more advanced recipes.",
       "[c]item.draconicevolution:wyvernCore:0"
     ]
   },
@@ -80,9 +81,11 @@
     "images":[],
     "content":
     [
-      "This gui is used to configure most Draconic Evolution tools and armor. The default key to open this gui is 'c'",
-      "When you open the gui you will see all the items in your inventory. Items that can be configured will be highlighted. When you click on one of the highlighted items you will see a list of settings specific to that item that you can adjust.",
-      "You can also use this gui to apply and remove enchantments. In the list of options for the item there is an inventory button. This will open a new gui in which you will have access to your inventory, Enchantment slots on the right and if the item has additional inventory slots such as the obliteration filter for the draconic tools. Those slots will show at the top of the gui."
+      "This GUI is used to configure most Draconic Evolution tools and armor.",
+      "The default key to open this gui is 'C'",
+      "When you open the GUI you will see all the items in your inventory. Items that can be configured will be highlighted. When you click on one of the highlighted items you will see a list of adjustable settings specific to that item.",
+      "You can also use this GUI to apply and remove enchantments. In the list of options for the item there is an inventory button. This will open a new GUI in which you will have access to your inventory.",
+      "Enchantment slots can be found the right. If the item has any additional inventory slots such as the obliteration filter for the Draconic tools those slots will show at the top of the GUI."
     ]
   },
   {
@@ -90,10 +93,10 @@
     "images":[],
     "content":
     [
-      "Tiered of your slow old diamond pick? Maby its time to upgrade! Wyvern tools run on RF and never break",
-      "All mining tools have an option to adjust mining speed, Dig AOE and AOE safe mode",
-      "Dig AOE: Allows you to adjust the mining AOE of the tool. Wyvern AOE: 1x1 and 3x3",
-      "AOE Safe mode: If enabled the tool will check for any tile entities in the AOE and if it finds any the tool will not mine",
+      "Tired of your slow, old diamond pick? Maybe it's time to upgrade! Wyvern tools run on RF and never break.",
+      "All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mode.",
+      "Dig AoE: Allows you to adjust the mining AoE of the tool. Wyvern AoE: 1x1 and 3x3.",
+      "AoE Safe mode: If enabled the tool will check for any tile entities in the AoE and if it finds any the tool will not mine.",
       "[c]item.draconicevolution:wyvernPickaxe:0"
     ]
   },
@@ -102,10 +105,10 @@
     "images":[],
     "content":
     [
-      "Tiered of your slow old diamond shovel? Maby its time to upgrade! Wyvern tools run on RF and never break",
-      "All mining tools have an option to adjust mining speed, Dig AOE and AOE safe mode",
-      "Dig AOE: Allows you to adjust the mining AOE of the tool. Wyvern AOE: 1x1 and 3x3",
-      "AOE Safe mode: If enabled the tool will check for any tile entities in the AOE and if it finds any the tool will not mine",
+      "Tired of your slow, old diamond shovel? Maybe it's time to upgrade! Wyvern tools run on RF and never break.",
+      "All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mode.",
+      "Dig AoE: Allows you to adjust the digging area of the tool. Wyvern AoE: 1x1 and 3x3.",
+      "AoE Safe mode: If enabled the shovel will check for any tile entities in the AoE and if it finds any it will not dig.",
       "[c]item.draconicevolution:wyvernShovel:0"
     ]
   },
@@ -114,10 +117,10 @@
     "images":[],
     "content":
     [
-      "Ordinary weaponry not good enough anymore? Using draconic knowledge you have found a way to imbue an ordinary diamond sword with the power of Draconium",
+      "Ordinary weaponry not good enough anymore? Using draconic knowledge you have found a way to imbue an ordinary diamond sword with the power of Draconium.",
       "+20 Attack damage",
-      "+10% Mob Health (Adds 10% of the mobs own health to the attack damage)",
-      "3x3 AOE Attack",
+      "+10% Mob Health (Adds 10% of the mob's own health to the attack damage)",
+      "3x3 AoE Attack",
       "[c]item.draconicevolution:wyvernSword:0"
     ]
   },
@@ -126,10 +129,10 @@
     "images":[],
     "content":
     [
-      "Looking for a more powerful bow with some fancy features? This is the one for you. The Wyvern bow has 2 operating modes. Selectable with shift + right click",
-      "Rapid Fire: As the name suggests fires arrows at a rather high rate and dose moderate damage.",
+      "Looking for a more powerful bow with some fancy features? This is the one for you. The Wyvern bow has 2 operating modes. Selectable with shift + right click.",
+      "Rapid Fire: As the name suggests, it fires arrows at a rather high rate and does moderate damage.",
       "Sharp Shooter: Allows you to zoom in on your target and deal extremely high damage with pin point accuracy.",
-      "Enchantments are twice as effective on this bow.",
+      "Enchantments are also twice as effective on this bow.",
       "[c]item.draconicevolution:wyvernBow:0"
     ]
   },
@@ -151,7 +154,7 @@
     "images":[],
     "content":
     [
-      "This component is used in devices that need to be able to store energy",
+      "This component is used in devices that need to be able to store energy.",
       "[c]item.draconicevolution:draconiumFluxCapacitor:0"
     ]
   },
@@ -160,8 +163,8 @@
     "images":[],
     "content":
     [
-      "Stronger than diamond you can now withstand even greater blows.",
-      "Full set gives total fire immunity",
+      "Stronger than diamond - you can now withstand even greater blows.",
+      "A full set gives total fire immunity.",
       "[c]item.draconicevolution:wyvernHelm:0"
     ]
   },
@@ -170,8 +173,8 @@
     "images":[],
     "content":
     [
-      "Infusing the armor with Dracomiun you vastly improve its resistance.",
-      "Full set gives total fire immunity",
+      "Infusing the armor with Draconium, you vastly improve its resistance.",
+      "A full set gives total fire immunity.",
       "[c]item.draconicevolution:wyvernChest:0"
     ]
   },
@@ -180,9 +183,9 @@
     "images":[],
     "content":
     [
-      "You feel even stronger and faster now that you have infused diamond legs with Draconium.",
-      "Full set gives total fire immunity",
-      "+Speed boost",
+      "You feel even stronger and faster now that you have infused diamond leggings with Draconium.",
+      "A full set gives total fire immunity.",
+      "+ Speed boost",
       "[c]item.draconicevolution:wyvernLeggs:0"
     ]
   },
@@ -191,10 +194,10 @@
     "images":[],
     "content":
     [
-      "You learn to improve the boots Draconium seems to have given you greater agility.",
-      "Full set gives total fire immunity",
-      "+Reduced fall damage",
-      "+Jump boost",
+      "You learn to improve diamond boots. Draconium seems to have given you greater agility.",
+      "A full set gives total fire immunity.",
+      "+ Reduced fall damage",
+      "+ Jump boost",
       "[c]item.draconicevolution:wyvernBoots:0"
     ]
   },
@@ -203,7 +206,9 @@
     "images":[],
     "content":
     [
-      "You have managed to infuse the powers of The End with your knowledge of the Draconic to create a basic teleporter, but at a cost. The energies binding them are unstable and only last for 10 uses and will take some of your life energy with each use and can only be linked to a single location but works across dimensions. Once used up, you must create a new one.",
+      "You have managed to infuse the powers of The End with your knowledge of the Draconic to create a basic teleporter, but at a cost.",
+      "The energies binding them are unstable and only last for 10 uses and will take some of your life energy with each use ",
+      "It can only be linked to a single location, but works across dimensions. Once used up, you must create a new one.",
       "[c]item.draconicevolution:teleporterMKI:0"
     ]
   },
@@ -212,7 +217,15 @@
     "images":[],
     "content":
     [
-      "Learning how draconic powers interact with the powers of the endermen, you have created the ultimate teleporter. You can now store up to 100 locations and using the endermen’s own pearls as fuel, created something that can teleport you extreme distances even across dimensions at will. Shift right click to open the GUI. Most functionality should be self explanatory. On the left is the destination list. Each destination has a lock button that prevents you from accidentally overwriting or deleting it. On the right starting from the top you have information about the selected destination, An option to rename the selected destination, An option to change the selected destination to your current coordinates and an option to delete the selected destination. Under that is the fuel, An option to teleport to the selected destination, an option to add a new destination (your current location), And an option to add fuel (Ender pearls from your inventory) Shift click to add a stack. You can also shift+Scroll with the item in your hand to cycle through the destinations without opening the gui and right click to teleport. You can also teleport players and mobs by left clicking them however players must be holding shift and mobs can not be teleported across dimensions.",
+      "Learning how draconic powers interact with the powers of the endermen, you have created the ultimate teleporter.",
+      "You can now store up to 100 locations and use the endermen’s own pearls as fuel.",
+      "This device can teleport you extreme distances - even across dimensions - at will.",
+      "Shift + right click to open the GUI. Most functionality should be self explanatory.",
+      "On the left is the destination list. Each destination has a lock button that prevents you from accidentally overwriting or deleting it.",
+      "On the right, starting from the top, you have information about the selected destination, an option to rename the selected destination, an option to change the selected destination to your current coordinates and an option to delete the selected destination.",
+      "Under that is the fuel, an option to teleport to the selected destination, an option to add your current location as a new destination and an option to add Ender Pearls from your inventory to be used as fuel (shift + click to add a stack).",
+      "You can also shift + scroll with the item in your hand to cycle through the destinations without opening the GUI or right-click to teleport to the current destination.",
+      "You can also teleport players and mobs by left-clicking them - however players must be holding shift and mobs can not be teleported across dimensions.",
       "[c]item.draconicevolution:teleporterMKII:0"
     ]
   },
@@ -221,7 +234,12 @@
     "images":[],
     "content":
     [
-      "You have figured out how to create a simple pedestal on which you can place you basic or advanced charms of dislocation. Simply right click with a charm in your hand to place it on the pedestal then right click the pedestal to teleport. The advantage of this is the charms wont take damage or use fuel. The disadvantage is you can bring them with you to your destination. To remove the charm from the pedestal simply shift right click with an empty hand\n\nWhen holding basic dislocator that has been renamed in an anvil or an enhanced dislocator with a destination set the name or destination will be displayed above the pedestal. If you hold shift all names will be hidden except the one you are looking at. (Shift behavior can be reversed in the config)",
+      "You have figured out how to create a simple pedestal on which you can place your Basic or Advanced Charms of Dislocation.",
+      "Simply right-click with a Charm in your hand to place it on the pedestal, then right-click the pedestal to teleport.",
+      "The advantage of this is that the Charms won't take damage or use fuel. The disadvantage is you cannot bring them with you to your destination.",
+      "To remove the charm from the pedestal simply shift + right-click with an empty hand.",
+      "When it is holding a Basic Charm of Dislocation that has been renamed in an anvil or an Advanced Charm of Dislocation with a destination set either the name or destination will be displayed above the pedestal respectively.",
+      "If you hold shift all names will be hidden except the one you are looking at. (Shift behavior can be reversed in the config)",
       "[c]tile.draconicevolution:teleporterStand:0"
     ]
   },
@@ -230,7 +248,7 @@
     "images":[],
     "content":
     [
-      "You have discovered that by combining one of the strongest blocks in existence with the power of draconium, You can create a block that mo creature can destroy.",
+      "You have discovered that by combining one of the strongest blocks in existence with the power of Draconium you can create a block that no creature can destroy.",
       "This block has twice the explosion and mining resistance of Obsidian. It also requires a stronger pickaxe.",
       "",
       "You wonder what other uses this block could have...",
@@ -243,11 +261,11 @@
     "images":["http://i.imgur.com/hTLS3UK.png"],
     "content":
     [
-      "Like Obsidian Infused Obsidian can be used to create a magical portal, but with some big differences. This portal can be any size between 1x1 and 150x150 blocks and using a dislocator to set the destination this portal can send you to any location.",
-      "To build a portal build a rectangular structure similar to a nether portal but any dimensions you like up to 150x150. Then replace any of the structural blocks (Excluding the corners) with a Dislocator Receptacle.",
-      "To activate the portal simply right click the receptacle with a basic or advanced Charm of Dislocation (must be bound to a location)",
-      "You can also pipe dislocators in and out of the receptacle with hoppers or other automation methods.",
-      "The portal cam be horizontal or vertical.",
+      "Like Obsidian, Infused Obsidian can be used to create a magical portal, but with some big differences. This portal can be any size between 1x1 and 150x150 blocks and using a dislocator to set the destination this portal can send you to any location.",
+      "To build a portal build a rectangular structure similar to a Nether portal, but any dimensions you like up to 150x150. Then replace any of the structural blocks (excluding the corners) with a Dislocator Receptacle.",
+      "To activate the portal simply right-click the Receptacle with a Basic or Advanced Charm of Dislocation that is bound to a location.",
+      "You can also pipe Dislocators in and out of the Receptacle with hoppers or other methods of automation.",
+      "The portal can be either horizontal or vertical.",
       "http://i.imgur.com/hTLS3UK.png",
       "[c]tile.draconicevolution:dislocatorReceptacle:0"
     ]
@@ -268,10 +286,10 @@
     "images":[],
     "content":
     [
-      "Perhaps not your brightest idea... You found a way to travel even longer distances using ender perls by strapping them to the end of a arrow.",
-      "This of course makes the arrow a lot heavier. Too heavy for a regular for a regular bow. Leaving you no choice but to use ether a wyvern or draconic bow.",
-      "So what could go wrong you ask? Well as im sure you are aware ender perls on their own are a rather painful way to travel. Now add the power of a wyvern or worse a draconic bow to that and you have a recipe for extreme pain.",
-      "Be sure to wear your best fall protection. And just hope its enough",
+      "Perhaps not your brightest idea... You found a way to travel even longer distances using ender pearls by strapping them to the end of an arrow.",
+      "This, of course, makes the arrow a lot heavier. Too heavy for a regular bow. Leaving you no choice but to use either a Wyvern or Draconic Bow.",
+      "So, what could go wrong, you ask? Well, as I'm sure you are aware, ender pearls on their own are a rather painful way to travel. Now add the power of a Wyvern - or worse - a Draconic Bow to that and you have a recipe for extreme pain.",
+      "Be sure to wear your best fall protection. And just hope it's enough.",
       "[c]item.draconicevolution:enderArrow.name:0"
     ]
   },
@@ -280,7 +298,7 @@
     "images":[],
     "content":
     [
-      "You notice that with Draconic Weapons you can now occasionally steal the souls of those things you kill."
+      "You notice that with Draconic Weapons you can now occasionally steal the souls of the things you kill."
     ]
   },
   {
@@ -288,12 +306,12 @@
     "images":[],
     "content":
     [
-      "Dropped by the Ender Dragon and Draconic Dragon. It is your belief that this immensely powerful item may hold the key to unlocking the true power of draconium using an ancient ritual known as the ritual of awakening.",
+      "Dropped by the Ender Dragon and Draconic Dragon. It is your belief that this immensely powerful item may hold the key to unlocking the true power of Draconium using an ancient ritual known as the Ritual of Awakening.",
       "The Ritual:",
-      "1.Drop a dragon heart on the ground and activate it with an explosion.",
-      "2.Drop 4 to 16 draconic cores on the ground near the activated heart (4 per block of draconium). A few seconds after its initial activation it will draw all nearby items towards it anything that is not a core will be destroyed.",
-      "3.Now quickly place 1 to 4 (depending on how many cores you dropped) Charged draconium blocks near the heart.",
-      "4.You will know its working when you see the hearts energy targeting the charged draconium blocks. Now stand back and watch the magic happen.",
+      "1. Drop a Dragon Heart on the ground and activate it with an explosion.",
+      "2. Drop 4 to 16 Draconic Cores on the ground near the activated heart (4 per Charged Draconium Block). A few seconds after its initial activation it will draw all nearby items toward it. Anything that is not a Draconic Core will be destroyed.",
+      "3. Now quickly place 1 to 4 (depending on how many Cores you dropped) Charged Draconium Blocks near the heart.",
+      "4. You will know it's working when you see the heart's energy targeting the Charged Draconium Blocks. Now stand back and watch the magic happen.",
       "You can only do this ritual once per heart so you best make the most of it."
     ]
   },
@@ -302,7 +320,9 @@
     "images":[],
     "content":
     [
-      "You have been studying the interactions of Draconium with various materials and have come to realize that this is only an inert state.  You have discovered a method to bring out the true power of Draconium using a complex ritual involving a dragon heart. (See the dragon heart page for details)",
+      "You have been studying the interactions of Draconium with various materials and have come to realize that this is only an inert state.",
+      "You have discovered a method to bring out the true power of Draconium using a complex ritual involving a Dragon Heart.",
+      "(See the Dragon Heart page for details)",
       "[c]item.draconicevolution:draconicIngot:0"
     ]
   },
@@ -311,9 +331,11 @@
     "images":[],
     "content":
     [
-      "You have been studying the interactions of Draconium with various materials and have come to realize that this is only an inert state.  You have discovered a method to bring out the true power of Draconium using a complex ritual involving a dragon heart. (See the dragon heart page for details)",
+      "You have been studying the interactions of Draconium with various materials and have come to realize that this is only an inert state.",
+      "You have discovered a method to bring out the true power of Draconium using a complex ritual involving a dragon heart.",
+      "(See the Dragon Heart page for details)",
       "[c]tile.draconicevolution:draconicBlock:0",
-      "This block is resistant to the wither"
+      "This block is resistant to the wither."
     ]
   },
   {
@@ -321,7 +343,7 @@
     "images":[],
     "content":
     [
-      "This component is used to craft the most advanced draconic items",
+      "This component is used to craft the most advanced draconic items.",
       "[c]item.draconicevolution:awakenedCore:0"
     ]
   },
@@ -332,7 +354,7 @@
     "images":[],
     "content":
     [
-      "This is a more powerful version of the wyvern energy core",
+      "This is a more powerful version of the Wyvern Energy Core used in the most advanced recipes.",
       "[c]item.draconicevolution:draconiumEnergyCore:1"
     ]
   },
@@ -341,7 +363,9 @@
     "images":[],
     "content":
     [
-      "Further Draconic research has shown you ways to even greater power.. Modes: Shift-Right Click to switch modes: 1×1, 3×3, 5×5 and 7×7 Right Click to activate: Obliteration Mode – Destroys blocks that you specify.",
+      "Further Draconic research has shown you ways to even greater power...",
+      "Modes: Shift + right-click to switch modes: 1×1, 3×3, 5×5 and 7×7",
+      "Right-click to activate: Obliteration Mode – Destroys blocks that you specify.",
       "[c]item.draconicevolution:draconicPickaxe:0"
     ]
   },
@@ -350,7 +374,9 @@
     "images":[],
     "content":
     [
-      "Further Draconic research has shown you ways to even greater power.. Modes: Shift-Right Click to switch modes: 1×1, 3×3, 5×5 and 7×7 Right Click to activate: Obliteration Mode – Destroys blocks that you specify.",
+      "Further Draconic research has shown you ways to even greater power...",
+      "Modes: Shift + right-click to switch modes: 1×1, 3×3, 5×5 and 7×7",
+      "Right-click to activate: Obliteration Mode – Destroys blocks that you specify.",
       "[c]item.draconicevolution:draconicShovel:0"
     ]
   },
@@ -359,7 +385,8 @@
     "images":[],
     "content":
     [
-      "Further Draconic research has shown you ways to even greater power.. Will harvest the entire tree and leaves above.",
+      "Further Draconic research has shown you ways to even greater power...",
+      "This tool will harvest the entire tree and its leaves above.",
       "[c]item.draconicevolution:draconicAxe:0"
     ]
   },
@@ -368,7 +395,9 @@
     "images":[],
     "content":
     [
-      "Further Draconic research has shown you ways to even greater power.. Will till an entire 9×9 area, just perfect for a full-size farm with water source. Also will dig or replace dirt (if dirt in inventory) to make the full 9×9.",
+      "Further Draconic research has shown you ways to even greater power...",
+      "This tool will till an entire 9×9 area - perfect for a full-size farm with water source.",
+      "It will also will dig or replace dirt (if you have dirt in your inventory) to make the full 9×9.",
       "[c]item.draconicevolution:draconicHoe:0"
     ]
   },
@@ -377,10 +406,10 @@
     "images":[],
     "content":
     [
-      "Seeking an even more powerful weapon you combine your Wyvern sword with Awakened Draconium to make the ultimate sword",
+      "Seeking an even more powerful weapon you combine your Wyvern sword with Awakened Draconium to make the ultimate sword.",
       "+40 Attack damage",
-      "+20% Mob Health (Adds 20% of the mobs own health to the attack damage)",
-      "7x7 AOE Attack",
+      "+20% Mob Health (Adds 20% of the mob's own health to the attack damage)",
+      "7x7 AoE Attack",
       "[c]item.draconicevolution:draconicSword:0"
     ]
   },
@@ -389,7 +418,11 @@
     "images":[],
     "content":
     [
-      "Further Draconic research has shown you ways to even greater power.. Sharpshooter – Zoom in on your target and deal extreme damage with pin point accuracy. Rapid Fire – Barrage your enemies in a rain of arrows. Explosive – With gunpowder in your inventory destroy an area slightly larger than TNT with your arrows. Devastation (Creative Mode only) – Explosive + Double rapid fire",
+      "Further Draconic research has shown you ways to even greater power...",
+      "Sharpshooter – Zoom in on your target and deal extreme damage with pin point accuracy.",
+      "Rapid Fire – Barrage your enemies in a rain of arrows.",
+      "Explosive – With gunpowder in your inventory destroy an area slightly larger than TNT with your arrows.",
+      "Devastation (Creative Mode only) – Explosive + Double rapid fire",
       "[c]item.draconicevolution:draconicBow:0"
     ]
   },
@@ -401,12 +434,12 @@
       "After great pains you have mastered the powers of the Draconic and created the ultimate weapon and destructive tool!",
       "Mining:",
       "  Extreme mining speed",
-      "  1x1x1 to 9x9x9 AOE with depth independently adjustable",
+      "  1x1x1 to 9x9x9 AoE with depth independently adjustable",
       "  Junk filter",
-      "  AOE safe mode. To ensure you don't accidental mine your entire base",
+      "  AoE safe mode to ensure you don't accidentally mine your entire base",
       "Attack:",
       "  +60 Attack damage",
-      "  +30% Mob Health (Adds 30% of the mobs own health to the attack damage)",
+      "  +30% Mob Health (Adds 30% of the mob's own health to the attack damage)",
       "  1x1 to 25x25 AOE Attack",
       "[c]item.draconicevolution:draconicDistructionStaff:0"
     ]
@@ -427,11 +460,11 @@
     "images":[],
     "content":
     [
-      "No longer do you fear the night you now can see all the time regardless of what is out there.",
-      " -Night Vision",
-      " -Cures negative potion effects",
-      " -Bypass suffocation and drowning damage",
-      " -Removes mining slowdown under water (Aqua affinity)",
+      "No longer do you fear the night. You now can now see all the time, regardless of what is out there.",
+      "- Night Vision",
+      "- Cures negative potion effects",
+      "- Bypass suffocation and drowning damage",
+      "- Removes mining slowdown under water (Aqua Affinity)",
       "[c]item.draconicevolution:draconicHelm:0"
     ]
   },
@@ -441,9 +474,9 @@
     "content":
     [
       "Using the heart of a dragon you are stronger and have the gift of flight.",
-      " -Flight",
-      " -Removes mining slowdown when in the air",
-      " -Fire immunity",
+      "- Flight",
+      "- Removes mining slowdown while in the air",
+      "- Fire immunity",
       "[c]item.draconicevolution:draconicChest:0"
     ]
   },
@@ -452,8 +485,8 @@
     "images":[],
     "content":
     [
-      "Even stronger armor the soul of a dragon protects you and moves you even faster Improved speed boost.",
-      " -Speed boost",
+      "The soul of a dragon protects you and moves you even faster. Improved speed boost.",
+      "- Speed boost",
       "[c]item.draconicevolution:draconicLeggs:0"
     ]
   },
@@ -462,10 +495,10 @@
     "images":[],
     "content":
     [
-      "Stronger, faster, better than before the heart of a dragon grants you higher jumping.",
-      " -Fall protection",
-      " -Jump boost",
-      " -Up Hill Step",
+      "Stronger, faster, better than before. The heart of a dragon grants you higher jumping.",
+      "- Fall protection",
+      "- Jump boost",
+      "- Up Hill Step",
       "[c]item.draconicevolution:draconicBoots:0"
     ]
   },
@@ -474,7 +507,8 @@
     "images":[],
     "content":
     [
-      "This is a block that allows you to control the weather. To use it place some emeralds in its inventory and select a mode. There are 3 available modes Rain off, Rain on and Thunder storm. To activate apply a redstone signal.",
+      "This is a block that allows you to control the weather. To use it place some Emeralds in its inventory and select a mode. There are 3 available modes: 'Rain off', 'Rain on' and 'Thunder storm'.",
+      "To activate it, you need to apply a redstone signal.",
       "[c]tile.draconicevolution:weatherController:0"
     ]
   },
@@ -484,7 +518,7 @@
     "images":[],
     "content":
     [
-      "This is a basic low power (around 80RF/t) generator that may come in handy if you have no other mods capable of generating RF power.",
+      "This is a basic low power (around 80 RF/t) generator that may come in handy if you have no other mods capable of generating RF power.",
       "[c]tile.draconicevolution:generator:3"
     ]
   },
@@ -494,8 +528,9 @@
     "images":[],
     "content":
     [
-      "Everyone needs effective mob farms. For the cost of a bit of solid fuel (coal, charcoal, etc.) or RF power, you can kill to your hearts content knowing the forces of the Draconic have your back! The grinder will kill all mobs in a 7x7 area in front of it. It is much more efficient and can kill mobs faster if powered by RF.",
-      "To reduce lag xp orbs dropped by the grinder will despawn after 30 seconds if not collected. It is recommended that you use something like the extra utilities vacuum hopper to collect the xp (if available)",
+      "Everyone needs effective mob farms. For the cost of a bit of solid fuel (coal, charcoal, etc.) or RF power, you can kill to your heart's content knowing the forces of the Draconic have your back!",
+      "The grinder will kill all mobs in a 7x7 area in front of it. It is much more efficient and faster when powered by RF.",
+      "In order to reduce lag, experience orbs dropped by the grinder will despawn after 30 seconds if not collected. It is recommended that you use something like the Extra Utilities Vacuum Hopper to collect the experience orbs (if available).",
       "[c]tile.draconicevolution:grinder:3"
     ]
   },
@@ -504,7 +539,8 @@
     "images":[],
     "content":
     [
-      "Seeing the need for faster energy transfer you have found a way to bring the infuser to being. Has a faster transfer rate than most other mod’s RF recharge stations (and cool particle effects to boot!)",
+      "Seeing the need for faster energy transfer you have found a way to bring the Infuser to being.",
+      "It has a faster transfer rate than most other mods' RF recharge stations (and cool particle effects to boot!)",
       "[c]tile.draconicevolution:energyInfuser:0"
     ]
   },
@@ -513,7 +549,9 @@
     "images":[],
     "content":
     [
-      "This is an extremely powerful block that allows you to change the time. Simply place it in the world and and apply a constant redstone signal. Once the device charges it will fire a particle beam at the sun accelerating it to 30X its normal speed. Simply shut off the redstone signal when you have the sun where you want it.",
+      "This is an extremely powerful block that allows you to change the time. Simply place it in the world and apply a constant redstone signal.",
+      "Once the device charges it will fire a particle beam at the sun accelerating it to 30 times its normal speed.",
+      "Remember to shut off the redstone signal when you have the sun where you want it.",
       "[c]tile.draconicevolution:sunDial:0"
     ]
   },
@@ -522,7 +560,7 @@
     "images":[],
     "content":
     [
-      "Simple player detection, can be adjusted up to 10 blocks range to detect any players nearby.",
+      "Simple player detection. It can be adjusted to detect players in a range of up to 10 blocks.",
       "[c]tile.draconicevolution:playerDetector:0"
     ]
   },
@@ -531,7 +569,8 @@
     "images":[],
     "content":
     [
-      "This is an advanced version of the player detector it has the following features. Max range of 20 blocks. Whitelist/Blacklist for fine tuning who you do or don’t want. Camouflage – Hide your detector so no one sees it. Inverted out put (less redstone needed!).",
+      "This is an advanced version of the Player Detector.",
+      "It has a maximum range of 20 blocks, a whitelist or blacklist for fine-tuning who to detect, camouflage (allowing you to hide your detector so no one sees it) and inverted output to simplify redstone configuration.",
       "[c]tile.draconicevolution:playerDetectorAdvanced:0"
     ]
   },
@@ -541,9 +580,9 @@
     "images":[],
     "content":
     [
-      "Gates come in two different flavours flux and fluid. And what they do is simply allow you to control the maximum amount of Redstone Flux or Fluid that can pass through them each tick",
-      "These devices are very simple to use. They have an input face (blue) and an output face (orange). When you place them the input face will always point towards you similar to the way you place a piston. You can also rotate them with a wrench",
-      "The GUI is very simple with just 2 values for you to adjust. \"Redstone Signal High\" is the flow when a redstone signal of 15 is applied. \"Redstone Signal Low\" is the flow when a no redstone signal is applied. You can apply a partial signal to vary the actual flow rate between these two numbers. The \"Flow\" indicator at the bottom shows how much energy/fluid is currently able to flow through the device as determined by the received redstone signal.",
+      "Gates come in two different flavours: flux and fluid. What they do is simply to allow you to control the maximum amount of Redstone Flux or Fluid that may pass through them each tick.",
+      "These devices are very simple to use. They have an input face (blue) and an output face (orange). When you place them the input face will always point towards you, similar to the way you place a piston. You can also rotate them with a wrench.",
+      "The GUI is very simple with only 2 values for you to adjust. \"Redstone Signal High\" is the flow when a redstone signal of 15 is applied. \"Redstone Signal Low\" is the flow when no redstone signal is applied. You can apply a partial signal to vary the actual flow rate between these two numbers. The \"Flow\" indicator at the bottom shows how much energy or fluid is currently able to flow through the device as determined by the received redstone signal.",
       "[c]tile.draconicevolution:flowGate:0",
       "[c]tile.draconicevolution:flowGate:6"
     ]
@@ -553,7 +592,11 @@
     "images":[],
     "content":
     [
-      "With this device you are now able to transfer enchantments from your items to books at the cost of experience. The cost is determined by the repair cost of the item and the repair cost of the item is decreased slightly each time. To use it simply place the enchanted item in the first slot a regular book in the center slot and press the transfer button. One enchantment (the first one) will be stripped from the item and applied to the book. When you strip an enchant the item will loos a percentage of its total durability this percentage is shown in the gui. You can decrease the damage bu placing book shelves around it or other enchanting boosters (It takes a total of 20 book shelves to prevent all damage). WARNING Items that use energy instead of durability will also be damaged and destroyed but will not show their damage value.",
+      "With this device you are able to transfer enchantments from your items to books at the cost of experience.",
+      "The cost is determined by the repair cost of the item which is decreased slightly each time an enchantment is removed.",
+      "To use it simply place the enchanted item in the first slot, place a regular book in the center slot and press the transfer button. The first enchantment will be stripped from the item and applied to the book.",
+      "When you strip an enchantment from an item it will lose a percentage of its total durability. This percentage is shown in the GUI. You can decrease the damage by placing bookshelves or other enchanting boosters around the Disenchanter. It takes a total of 20 bookshelves to prevent all damage.",
+      "WARNING: Items that use energy instead of durability will also be damaged and destroyed, but will not show their damage value.",
       "[c]tile.draconicevolution:dissEnchanter:0"
     ]
   },
@@ -562,7 +605,9 @@
     "images":[],
     "content":
     [
-      "Using your draconic knowledge you have learned how to create the ultimate chest. With a massive 234 slot storage capacity a built in crafting table and 5 slot RF furnace capable of doubling ore as well as the ability to keep its contents when harvested this chest is the most powerful most versatile storage device in existence! It also comes in a variety of every colour you can imagine gust shift right click it with empty hand for details.",
+      "Using your draconic knowledge you have learned how to create the ultimate chest.",
+      "With a massive 234-slot storage capacity, a built-in Crafting Table, a 5-slot RF furnace capable of doubling ore and the ability to keep its contents when harvested, this chest is the most powerful, most versatile storage device in existence!",
+      "It also comes in every colour you can imagine. Just shift right-click it with an empty hand for details.",
       "[c]tile.draconicevolution:draconiumChest:0"
     ]
   },
@@ -571,13 +616,14 @@
     "images":[],
     "content":
     [
-      "To get started, right click any vanilla spawner with a draconic core to stabilize it. You now have a empty transportable spawner (pick up with draconic tools) Use any mob soul on the spawner to change it to that type.",
+      "To get started, right-click any vanilla spawner with a Draconic Core to stabilize it. You now have an empty transportable spawner that you can pick up with Draconic tools.",
+      "Use any Mob Soul on the spawner to change its type to that mob.",
       "There are several items you can use to upgrade the spawner:",
-      "  -Wyvern Core: Upgrades to tier 2 (increases spawn count and speed)",
-      "  -Awakened Core: Upgrades to tier 3 (further increases spawn count and speed)",
-      "  -Nether Star: Removes the requirement for a player to be within 16 blocks for the spawner to function.",
-      "  -Notch Apple: Makes the spawner ignore spawn requirements for the mob it is spawning e.g. Will make monsters spawn even if the light level is to high.",
-      "When broken you get back everything except the mob soul (it is to fragile and is destroyed when the spawner is broken)",
+      "- Wyvern Core: Upgrades to tier 2 which increases spawn count and speed.",
+      "- Awakened Core: Upgrades to tier 3 further increases spawn count and speed.",
+      "- Nether Star: Removes the requirement for a player to be within 16 blocks of the spawner to function.",
+      "- Notch Apple: Makes the spawner ignore spawn requirements for the mob it is spawning e.g. it will make monsters spawn even when the light level is to0 high.",
+      "When breaking it you will get back everything except the Mob Soul since it is too fragile and is destroyed in the process.",
       "[c]tile.draconicevolution:customSpawner:0"
     ]
   },
@@ -586,7 +632,8 @@
     "images":[],
     "content":
     [
-      "Using Draconic knowledge you have discovered how to build a multi-block structure capable of storing more power then any other device ever invented with the highest tier able to store up to 2.14 trillion RF (you can find more info in the Energy core multiblock tutorial)",
+      "Using Draconic knowledge you have discovered how to build a multi-block structure capable of storing more power than any other device ever invented, with the highest tier able to store up to 2.14 trillion RF.",
+      "More information is available in the Energy Core multi-block tutorial.",
       "[c]tile.draconicevolution:energyStorageCore:0"
     ]
   },
@@ -595,8 +642,69 @@
     "images":[],
     "content":
     [
-      "This device is used to extract or insert energy into the energy storage multiblock. Its maximum transfer rate is 2,147,483,647 RF/t",
+      "This device is used to extract or insert energy into the Energy Storage multiblock. Its maximum transfer rate is 2,147,483,647 RF/t.",
       "[c]tile.draconicevolution:energyPylon:0"
+    ]
+  },
+  {
+    "name":"tile.draconicevolution:reactorStabilizer",
+    "nameL":"Draconic Reactor",
+    "images":[],
+    "content":
+    [
+      "Unimpressed by the limited energy generated through manipulation of the mundane reagents of your world, and knowing the potential within the realm of Chaos, you exercise your extensive knowledge of the Power Draconic to create what is possibly the most dangerously concentrated energy source in the history of the Redstone Flux.",
+      "Power does not come without sacrifice, and great power does not come without great sacrifice.  This level of power will test your metal as you begin to conceptualize the means by which to make your vision of such power into a reality. You see the potential for untold destruction should you fail, but at this point, the life of mere mortal beings and the single world they populate is far beneath your immediate concern.  Be sure to consider well the blueprints you have devised as even a simple oversight could cost you more than you bargain for.  But such is the risk taken by those who seek to become like the gods.",
+
+      "Basic Explanation of Reactor Mechanic:",
+      "When Draconium Fuel is combined with Chaos Element, the catalytic reaction generates vast amounts of heat and RF energy.  The Draconium Fuel then converts into Chaos Element by this process.  This in turn causes heat to increase.  A Containment Field is necessary of course to prevent the dissipation of this energy, and a system must be put into place to prevent the heat from the Core Reaction from overwhelming the Containment Field.  A secondary system is then applied for the purpose of maintaining the Reaction as well as the Containment Field in a self-sustaining relationship.  A tertiary system is then recommended for the regulation of energy input and output to stabilize Reactor usage.",
+      "To expand upon  this, what ultimately forms is a super-dense and super-heated sphere of molten plasma.  That’s right, a sphere in a cuboid dimension!  Or at least such a densely compacted and vast number of cuboid molecules around a core of Chaos Fusion that appears to converse into a spherical shaping of otherwise-amorphous plasma.  And while generating millions of RF energy, the Reactor self-contains that energy with little to no RF escape once balance has been reached between the heat of the Reactor Core and energy consumption required by the Containment Field.  This balance is best achieved at operation temperature of 8,000 degrees and can be sustained by using Flux Gates and by occasional removal of converted fuel.",
+      "Stabilizers are required for you to extract the energy stored within the Reactor Core. As the energy drains from the core, the reaction will again accelerate, creating an unusual self-sustaining system that doesn’t lose energy even as it loses energy.",
+      "It should be noted that you cannot merely pull as much energy as you like from the Core. The more energy you drain, the more intense the reaction will become.  This increases the load on the containment field. Escape will then increase, reducing Reactor efficiency.  At a certain point, the containment field will weaken to a point of destabilization of the co-constitutive balance between it and the reaction within the core.  This will rapidly overwhelm the containment field and result in a catastrophic explosion of immeasurable impact.",
+
+      "Structural Setup:",
+      "The Reactor consists of 6 main components. Four Reactor Stabilizers, the Reactor Core and an Energy Injector.  You will also need at least two Flux Gates to regulate the reactor.",
+      "Place the Reactor Core at the intended center of the structure.",
+      "Place the four Stabilizers in a ring around the Core, each facing inwards. The Stabilizers do not need to be in a horizontal ring. You may place one Stabilizer above and one below the Core, all set they can be up to 8 blocks away. They must also be far enough away that they will not be consumed by the expansion of the Core as you continue to energize it.  The Core will expand to twice its original size when at full temperature. So, if you intend for the Core to reach maximum capacity, the Stabilizers will need to be placed a minimum of 4 blocks away. To test for adequate Stabilizer linkage to the Core, simply right click the Core and the Reactor GUI will open. If all 4 stabilizers are setup correctly the Reactor status should show as \"OFFLINE\".  Otherwise, status will read \"INVALID SETUP\" and require you to make changes in Stabilizer placement before continuing.",
+      "Once you have Stabilizers and the Core positioned accurately, place the Energy Injector on one of the remaining two sides of the Reactor Core.",
+
+      "Component Functions:",
+      "[c]tile.draconicevolution:reactorCore:0",
+      "The Core itself is a seed from which the Reaction can grow. It contains a Chaos Shard/Element and a small amount of Awakened Draconium to catalyze the Reaction.",
+      "[c]tile.draconicevolution:reactorEnergyInjector:0",
+      "The Energy Injector conducts a portion of that energy to the Stabilizers in order to create and maintain the Containment Field. The Containment Field will grow as the Reactor Core increases in heat and power output.  All four Stabilizers are required to maintain the field, so if one is destroyed while the reactor is active the field will fail and you will deal with the ramifications of negligence. The Stabilizers are also used to extract energy from the Core, but since there is no limit on how much you can extract at any given time through the Stabilizers, you should connect them via a Flux Gate to regulate energy Input/Output.  Without such a precaution, the danger of Reactor explosion increases dramatically.",
+      "The Energy Injector itself also serves a dual purpose.  First, it is used to supply the power required to spark the initial Chaos Element catalytic reaction that starts the Reactor.  The Containment Field will accept an unlimited amount of energy - far more than it will need under normal operational conditions - so applying another Flux Gate to the Energy Injector will regulate the energy required to maintain the Containment Field and the Core as they both escalate to a point of equilibrium.  Although this system is designed to be self-sustaining, without backup or alternative power to maintain the Containment Field, you put yourself and your world at risk.",
+      "[c]tile.draconicevolution:reactorStabilizer:0",
+      "[c]item.draconicevolution:reactorCraftingPart:0",
+      "[c]item.draconicevolution:reactorCraftingPart:1",
+      "[c]item.draconicevolution:reactorCraftingPart:2",
+      "[c]item.draconicevolution:reactorCraftingPart:3",
+      "[c]item.draconicevolution:reactorCraftingPart:4",
+
+      "Reactor Operational Guide:",
+      "The first thing you will need to do is open the Reactor GUI and insert up to 8 Blocks worth of Awakened Draconium into the Fuel Slot.  This can be injected in the form of Blocks, Ingots or Nuggets.  The Extraction will remove as much material as is feasible, though some will always remain within the reactor due to constant consumption.",
+      "Once the Reaction is begun, all matter within the Fuel Slot must be consumed before the Reactor can be reloaded, so make certain you add only as much Fuel as you are willing to commit.  The Reactor must be shut down in order to refuel and/or remove excess converted Chaos Element.",
+      "Once the Fuel Slot is adequately loaded with the required material, press the \"Charge Reactor\" button.  As long as you are feeding energy into the Reactor via an Energy Injector, the reactor will begin and then continue to charge.  The Containment Field and Core energy saturation need to be charged to 50% for the Reactor to safely start up and go “ONLINE” for serving out RF.  Temperature of the Core will then rise until it reaches a maximum of 2,000 degrees. ",
+      "After the Reactor has sufficient charge and temperature, press the \"Activate\" button to activate the reactor. The Reactor status should change to “ONLINE” and the Reactor should be producing energy.",
+      "The temperature gauge shows the Reactor Core’s temperature. The hotter it gets, the more energy will be drained for use by the Containment Field.  For maximum efficiency it is best to try to  maintain a Reactor temperature of approximately 8,000 degrees.  If Core temperature passes 8,000 degrees, the Containment Field will begin suffering increased power drainage, which reduces overall RF output efficiency. For instance, at 10,000 degrees the field will be suffering 10 times the load it was under at 8,000 degrees. At 11,000 degrees, the field will be under about 20 times the load it was under at 8,000 degrees. Eventually it will become impossible for the Containment Field to receive enough power quickly enough and explosion becomes imminent.",
+      "The gauge measuring the Containment Field shows the strength of the Field.  Remember, the Containment Field will accept an unlimited amount of energy so you will never be able to get its strength to 100%.  How much power you feed the containment field is up to you.  As long as you keep the gauge out of the red, you are safely operating the Reactor.  Feeding it more power than it needs gives you more room for making errors that would otherwise result in Reactor failure.  Consider a Containment Field receiving more than necessary amounts of power as running in Safe Mode.",
+      "It is also important to remember that as you drain more power from the Reactor, the Core gets hotter and will subsequently require more energy to power the Containment Field.  So if you keep the field at its lowest “safe” power level, you will need to make adjustments whenever your power demands change.",
+      "If the Field strength drops to 0% the Reactor will blow up and vaporize everything within a 10 - 200 block radius (depending on how much Draconium Fuel was in the Reactor).",
+      "The Energy Saturation gauge shows how much RF charge is in the Core.  As this fills up, energy production and fuel consumption go down.  This also increases the temperature of the Reactor and therefore increases the load on the Containment Field. You get a much higher total energy output at a lower saturation level.  If you run at a higher saturation level you will get less RF/t but the efficiency of the Reactor will increase. For example, running at 80% saturation you can get up to twice the total RF output you would get by running at 20% saturation.  In short, Saturation levels drop, the Reaction in the Core intensifies, Core temperature rises, the Containment Field reaches a point where not enough energy is available to contain the expanding Core as the Core approaches critical mass.  Kaboom!  ",
+      "The Fuel Conversion gauge shows how much of the fuel has been converted to Chaos Element. As the amount of Chaos within the Reactor increases, the catalytic reaction accelerates. This increases the energy output of the Reactor and increases its efficiency. This also increases the temperature of the Reactor which in turn increases the load on the Containment Field.  You may need to make adjustments to Containment Field power as the Reactor burns through its fuel.",
+      "BE WARNED!!!",
+      "It is not known why, but if 100% of the draconium is converted into the Chaos Element, the reaction does not simply stop. Instead, Core temperature begins to rise uncontrollably.  If this happens, there is no way to shutdown the Reactor.  The temperature will just continue to rise until the Containment Field collapses and the Reactor explodes.  It is thus highly recommended that you shut the Reactor down to refuel with Awoken Draconium once the Chaos Conversion gauge reaches 80 to 90%. ",
+      "Within the Reactor GUI, when you press the Shutdown button, the Reactor will enter Shutdown mode.  In this mode the Reactor will stop outputting energy (FIRST MAKE CERTAIN you have a large backlog of energy stored, or an alternate power source at hand to maintain the Containment Field during this process), saturation will start to increase allowing the reaction to slow.  Temperature will drop.  Once the temperature drops below 2,000, the Reactor will shut down completely.  At this point you are able to safely remove the converted matter and add fresh Awoken Draconium fuel.  There will always be some fuel in the Reactor as the partial Ingot being consumed at the time of Shutdown cannot be extracted.",
+
+      "System Failure:",
+      "So, you might be thinking it would be wise to surround your Reactor with obsidian or some other extremely strong material in case of explosion. Well, don't bother!  If this thing blows it will have about the same result as a tiny star going nova in your Minecraft base. The shock wave will cut through almost everything.  This wave will pass through what it cannot destroy, and continue to demolish whatever lies within its event horizon. There is absolutely nothing that can stop it.  This is why it is integral to setup the Reactor in a separate outpost far away from your main base of operations. The blast radius is directly proportional to the amount of fuel in the reactor. It scales from 20 blocks with just one ingot of fuel to 200 blocks when the reactor is fully loaded with 8 blocks of fuel.",
+      "Redstone Integration:",
+      "By attaching a Redstone Comparator to one of the Stabilizers or to the Energy Injector(s), you can maintain a visual external readout of the four Stabilizer gauges shown in the Core GUI.  The strength of each Comparator will change from 0 to 15 depending on the measurement of its attached gauge. You can Shift-Right-Click the Stabilizer/Energy Injector to change which gauge is being read to the connected Comparator and also invert the Redstone signal.",
+
+      "Instability:",
+      "[Not-Yet Implemented] (This may or may not be implemented in the future. Keep an eye out for this as it may or may not affect your reactors if/when it is implemented)",
+      "Computercraft and Open Computers Integration:",
+      "Simply attach a Computer to one of the Stabilizers or Energy Injectors and you will have access to all of the reactor information as well as the ability to turn the Reactor on and off remotely.  The methods for implementing this are pretty self-explanatory.",
+      "You can also use one of these Computers to control the Flux Gates."
     ]
   },
   {
@@ -605,7 +713,7 @@
     "content":
     [
       "Purely decorative, this blocks allows for fully customizable particle effects to be created. For more information check out the instruction manual built into its GUI.",
-      "This block is also used as a part of the Energy Core multiblock structure",
+      "This block is also used as a part of the Energy Storage multi-block structure.",
       "[c]tile.draconicevolution:particleGenerator:0"
     ]
   },
@@ -616,9 +724,10 @@
     "images":[],
     "content":
     [
-      "This is a the base component of the DE energy net. This device on its own can not send or receive energy from a block. Its purpose is to act as a hub to link devices that can.",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:25",
+      "This is the base component of the Draconic Evolution energy network.",
+      "This device on its own cannot send or receive energy from a block. Its purpose is to act as a hub to link devices that can.",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 25",
       "Max Connections: 10",
       "[c]tile.draconicevolution:energyCrystal:0"
     ]
@@ -630,9 +739,9 @@
     "images":[],
     "content":
     [
-      "This is a more powerful version of the Energy Relay. It is capable of transferring energy much faster and it has the ability to link to a larger number of devices",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:50",
+      "This is a more powerful version of the Energy Relay. It is capable of much faster energy transfer and has the ability to link to a larger number of devices.",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 50",
       "Max Connections: 20",
       "[c]tile.draconicevolution:energyCrystal:1"
     ]
@@ -644,9 +753,10 @@
     "images":[],
     "content":
     [
-      "This is the block used to actually import and export energy from the energy net. Simply place it on the side of an energy acceptor or producer and link it to the network. You can change between input and output mode by right clicking it with a crystal binder in \"Mode Change\" mode",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:25",
+      "This is the block used to actually import and export energy from the energy network.",
+      "Simply place it next to an energy acceptor or producer and link it to the network. You can switch between input and output mode by right-clicking it with a Crystal Binder in \"Mode Change\" mode.",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 25",
       "Max Connections: 2",
       "[c]tile.draconicevolution:energyCrystal:2"
     ]
@@ -658,9 +768,10 @@
     "images":[],
     "content":
     [
-      "This is a more powerful version of the Energy Transceiver. Along with having a much higher energy transfer rate it also has the ability to extract or insert energy into a device 5 times faster then would normally be possible.",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:50",
+      "This is a more powerful version of the Energy Transceiver.",
+      "Along with having a much higher energy transfer rate it also has the ability to extract or insert energy into a device 5 times faster than would normally be possible.",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 50",
       "Max Connections: 4",
       "[c]tile.draconicevolution:energyCrystal:3"
     ]
@@ -672,9 +783,9 @@
     "images":[],
     "content":
     [
-      "This device works similar to the Energy Relay except it is also able to wirelessly connect to RF accepting devices",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:25",
+      "This device works similar to the Energy Relay except that it is also able to wirelessly connect to RF accepting devices.",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 25",
       "Max Connections: 3",
       "Wireless Range: 15",
       "Max Wireless Connections: 8",
@@ -689,8 +800,8 @@
     "content":
     [
       "This is an advanced version of the Wireless Energy Transceiver that is able to connect to a larger number of devices as well as transfer energy at a much higher rate.",
-      "See Crystal Binder info for more information on linking and energy distribution",
-      "Range:50",
+      "See the Crystal Binder for more information on how to link them and about energy distribution.",
+      "Range: 50",
       "Max Connections: 6",
       "Wireless Range: 30",
       "Max Wireless Connections: 16",
@@ -702,12 +813,12 @@
     "images":[],
     "content":
     [
-      "This is the tool used to link energy devices",
-      "Binding: To link two devices switch the tool to bind mode with shift+right click. Then just right click both devices (any order) to link them. Any energy net devices (Relay, Transceiver or Wireless Transceiver) and be linked to one another. The Wireless Transceiver can also be linked to any other RF accepting block by first clicking the transceiver then clicking the block.",
-      "Un-Binding: To un bind two linked devices switch the tool to un-bind mode then simply right click the two devices you with to un link. You can also clear all of a devices connections using \"un-bind all\" mode",
-      "Visual Indicator: While holding the Crystal Binder you are able to see the connections between all linked devices (Except the link between wireless transceivers and RF devices)",
-      "Connection Limits: All devices support a limited number of connections. This is the number of devices the block can be linked to. Relays have the highest number of available connections and therefor are useful for linking a network of Transceivers which have a very limited number of available connections.",
-      "Energy Transfer Mechanic: Each Energy device has its own internal energy buffer. If the buffer of a device it is linked to is lower then its own it will send some energy to that device to try to balance the two buffers. The energy difference between the two buffers is what determines the rate at which energy is sent.",
+      "This is the tool used to link energy devices.",
+      "Binding: To link two devices switch the tool to bind mode with shift + right-click. Then just right-click both devices in any order to link them. Any energy network devices (Relay, Transceiver or Wireless Transceiver) can be linked to one another. The Wireless Transceiver can also be linked to any other RF accepting block by first clicking the transceiver then clicking the block.",
+      "Unbinding: To unbind two linked devices switch the tool to unbind mode, then simply right-click the two devices you wish to unlink. You can also clear all of a device's connections using \"Unbind All\" mode.",
+      "Visual Indicator: While holding the Crystal Binder you are able to see the connections between all linked devices (except the link between wireless transceivers and RF devices).",
+      "Connection Limits: All devices support a limited number of connections. This is the number of devices the block can be linked to. Relays have the highest number of available connections and are therefore useful for linking a network of Transceivers, which have a very limited number of available connections.",
+      "Energy Transfer Mechanic: Each energy device has its own internal energy buffer. If the buffer of a device it is linked to is lower than its own it will send energy to that device i order to balance the two buffers. The energy difference between the two buffers determines the rate at which energy is sent.",
       "[c]item.draconicevolution:wrench:0"
     ]
   },
@@ -716,7 +827,7 @@
     "images":[],
     "content":
     [
-      "A device that emits a redstine signal when it rains. This is perfect for controlling the weather controller.",
+      "A device that emits a redstone signal when it rains. This is perfect for signaling the weather controller.",
       "[c]ile.draconicevolution:rainSensor:0"
     ]
   },
@@ -734,7 +845,9 @@
     "images":[],
     "content":
     [
-      "Many of you have probably seen a graphical glitch that sometimes occurs when chunks load that allows you to see through the world and see all of the cave caves and tunnels bellow. This block replicates that effect. When you place it next to another block the face of the block it is touching becomes transparent allowing you to see through the world. This can be very useful for finding cave systems and dungeons maby even things other players don’t want you to find. Such a block dose not come cheap. It will cost you several Nether Stars and it is so fragile that once placed it can not be collected without destroying it. (not even with silk touch)",
+      "Many of you have probably seen a graphical glitch that sometimes occurs when chunks load that allows you to see through the world and see all of the caves and tunnels below.",
+      "This block replicates that effect. When you place it next to another block the face of the block it is touching becomes transparent, allowing you to see through the world.",
+      "This can be very useful for finding cave systems and dungeons – maybe even things other players don’t want you to find. Such a block does not come cheap. It will cost you several Nether Stars and it is so fragile that once placed it cannot be collected without destroying it. Not even with silk touch.",
       "[c]tile.draconicevolution:xRayBlock:0",
       "TODO"
     ]
@@ -746,19 +859,19 @@
     "images":[],
     "content":
     [
-      "Tired of everything burning to the ground when making a fireplace? Use this match to light a fire that will never go out, Will never burn you and will never burn down your house",
+      "Tired of everything burning to the ground when making a fireplace? Use this match to light a fire that will never go out, burn you or burn down your house.",
       "[c]item.draconicevolution:safetyMatch:1000",
-      "Sic of having so many loos matches in your pocket?",
+      "Sick of having so many loose matches in your pocket?",
       "[c]item.draconicevolution:safetyMatch:0"
     ]
   },
   {
     "name":"item.enchanted_book",
-    "nameL":"Reaper Enchant",
+    "nameL":"Reaper Enchantment",
     "images":[],
     "content":
     [
-      "The Reaper enchant increases the drop chance of souls from mobs. It has a max level of 5 and it also makes it possible for regular weapons to drop souls from mobs."
+      "The Reaper enchantment increases the drop chance of souls from mobs. It has a maximum level of 5 and makes it possible for regular weapons to drop souls from mobs."
     ]
   },
   {
@@ -786,37 +899,38 @@
     ],
     "content":
     [
-      "The Energy Core is a multiblock structure that is capable of storing immense amounts of RF power using the energy storage capabilities of Draconium and Redstone.",
-      "The Energy Core has 7 Tiers each capable of storing considerably more then the last to build it you will need 5 different components.\n ♦ Energy Core x1\n ♦ Particle Generator x4\n ♦ Redstone Block (number depends on tier)\n ♦ Draconium Block (number depends on tier)\n ♦  Energy Pylon x2+",
-      "The Energy core consists of the Energy Core(Block) at the centre surrounded by 4 Particle Generators. The generators must be directly in line with the core as shown in the following images. \nThe generators must be placed within 10 blocks of the core.",
-      "The Core is then surrounded by a combination of Redstone Blocks and Draconium Blocks the following images show the construction of each tier as well as the material cost and storage capacity. Once the structure is built simply shift right click one of the particle generators (with an empty hand) to activate the core.",
-      "§4Tier 1",
+      "The Energy Core is a multi-block structure that is capable of storing immense amounts of RF power using the energy storage capabilities of Draconium and Redstone.",
+      "The Energy Core has 7 Tiers, each capable of storing considerably more than the last.",
+      "To build it you will need 5 different components:\n ♦ Energy Core (x1)\n ♦ Particle Generator (x4)\n ♦ Redstone Block (number depends on tier)\n ♦ Draconium Block (number depends on tier)\n ♦  Energy Pylon (x2+)",
+      "The Energy core consists of the Energy Core (Block) at the centre surrounded by 4 Particle Generators. The generators must be directly in line with the core as shown in the following images. \nThe generators must be placed within 10 blocks of the core.",
+      "The Core is then surrounded by a combination of Redstone Blocks and Draconium Blocks. The following images show the configuration of each tier as well as the material cost and storage capacity. Once the structure is built, simply shift right-click one of the particle generators with a empty hand to activate the core.",
+      "Tier 1",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/gmgDwH8.png",
       "Redstone x0\nDraconium x0\nCapacity = 45.5Million RF",
-      "§4Tier 2",
+      "Tier 2",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/DyYw9Tr.png[>]http://i.imgur.com/46X3Kqd.png",
       "Redstone x0\nDraconium x6\nCapacity = 273Million RF",
-      "§4Tier 3",
+      "Tier 3",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/SoAY47W.png[>]http://i.imgur.com/tmL6ot4.png",
       "Redstone x0\nDraconium x26\nCapacity = 1.64Billion RF",
-      "§4Tier 4",
+      "Tier 4",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/x4IxV9F.png[>]http://i.imgur.com/4FxoUvf.png",
       "Redstone x26\nDraconium x54\nCapacity = 9.88Billion RF",
-      "§4Tier 5",
+      "Tier 5",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/1S6h9Po.png[>]http://i.imgur.com/MTmGhLv.png",
       "Redstone x80\nDraconium x98\nCapacity = 59.3Billion RF",
-      "§4Tier 6",
+      "Tier 6",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/crmnC6v.png[>]http://i.imgur.com/eH3OvhW.png[>]http://i.imgur.com/oEBI4lj.png",
       "Redstone 133\nDraconium 150\nCapacity = 356Billion RF",
-      "§4Tier 7",
+      "Tier 7",
       "http://i.imgur.com/BXl1x7e.png[>]http://i.imgur.com/7rtdJV2.png[>]http://i.imgur.com/IagzpKW.png[>]http://i.imgur.com/crmnC6v.png[>]http://i.imgur.com/KSpFook.png[>]http://i.imgur.com/C7WwlAu.png[>]http://i.imgur.com/uC4b8AC.png",
       "Redstone x328\nDraconium x218\nCapacity = 2.14Trillion RF",
-      "To add and remove energy from the core you need to place energy pylons within 15 blocks of the of the core. To activate a pylon place a glass block ether above or below it depending on whether the pylon is placed below or above the core e.g. if you place the pylon on the roof you would place the glass block under it.",
+      "To add and remove energy from the core you need to place energy pylons within 15 blocks of the core. To activate a pylon place a glass block either above or below it – depending on whether the pylon is placed below or above the core e.g. if you place the pylon on your roof you would place the glass block under it.",
       "http://i.imgur.com/rS9rOoF.png",
-      "When the glass block is placed the pylon should immediately activate and link with a nearby Energy Core the link is indicated by white energy particles and the glass should change to the renderer shown in the image above. You can shift right click the pylon to change which core it is linked to (if there is more then one in range)",
-      "Energy is added and removed from the core using the Energy Pylons. To toggle a Pylon between input and output mode simply right click the sphere. The mode is identified by the colour of the Pylon (Blue = input, Orange = output) and the behaviour of the energy particles and the Pylon sphere.",
-      "Energy Transfer between the pylon and the core is indicated by a stream of blue energy particles flowing between the Pylon sphere and the core. The amount of energy flowing is roughly shown by the density of the particle stream.",
-      "The energy stored in the core is displayed by the HUD when you look at it. And in chat when you right click it. The core will also change to a dark red colour as it fills and its energy level can be read by placing a comparator on one of the attached pylons."
+      "When the glass block is placed the pylon should immediately activate and link with a nearby Energy Core. The link is indicated by white energy particles and the glass should change to the renderer shown in the image above. You can shift right-click the pylon to change which core it is linked to if there is more than one within range.",
+      "Energy is added and removed from the core using Energy Pylons. To toggle a Pylon between input and output mode simply right-click the sphere. The mode is identified by the colour of the Pylon (blue for input and orange for output).",
+      "Energy Transfer between the pylon and the core is indicated by a stream of blue energy particles flowing between the Pylon sphere and the core. The amount of energy flowing is roughly indicated by the density of the particle stream.",
+      "The energy stored in the core is displayed on the HUD when you look at it and in chat when you right-click it. The core will also change to a dark red colour as it fills. Its energy level can be read by placing a comparator on one of the attached pylons."
     ]
   },
   {
@@ -824,13 +938,13 @@
     "images":["http://i.imgur.com/j2Hm0Am.png"],
     "content":
     [
-      "The Ritual of Draconic Resurrection allows you to summon the Ender Dragon. To set it up you will need the following items.\n\n(1) Resurrection Stone\n(4) Glowstone Blocks\n(4) Obsidian\n(4) Diamond Blocks\n(4) Charged Draconium Blocks\n(12) Quartz Pillars\nSetup in the following configuration.",
+      "The Ritual of Draconic Resurrection allows you to summon the Ender Dragon. To set it up you will need the following items.\n\n(1) Resurrection Stone\n(4) Glowstone Blocks\n(4) Obsidian\n(4) Diamond Blocks\n(4) Charged Draconium Blocks\n(12) Quartz Pillars\nset up in the following configuration.",
       "http://i.imgur.com/j2Hm0Am.png",
-      "The pillars dont have to be in that exact configuration as long as they are within 5 blocks of the Resurrection Stone. It also looks better if they are symmetrical. The ritual must be setup within 150 blocks of 0,0",
-      "Once you have that setup simply right click the Ritual stone and stand back. The ritual should start immediately if it doesn't you have done something wrong.",
-      "Right clicking the ritual stone again will stop the ritual and drain the charge from the draconium blocks.",
-      "During the ritual all of the Ender Crystals will be re-activated. At the end of the ritual there will be a massive explosion at the centre of the structure that wont do too much damage to the terrain but will kill anything that is standing too close.",
-      "The dragon that is spawned by the ritual is almost identical to the original dragon except it has a different texture (By GreatOrator) and it gets harder to kill and deals more damage each time it is summoned (this increase is per player and stops when it reaches a certain difficulty) It also has regeneration for 25 seconds."
+      "The pillars dont have to be in that exact configuration as long as they are within 5 blocks of the Resurrection Stone. It also looks better if they are symmetrical. The ritual must be set up within 150 blocks of 0,0.",
+      "Once you have that set up, simply right-click the Ritual stone and stand back. The ritual should start immediately. If it doesn't you have done something wrong.",
+      "Right-clicking the Ritual Stone again will stop the ritual and drain the charge from the draconium blocks.",
+      "During the ritual all of the Ender Crystals will be reactivated. At the end of the ritual there will be a massive explosion at the centre of the structure that won't do too much damage to the terrain but will kill anything that is standing too close.",
+      "The dragon that is spawned by the ritual is almost identical to the original dragon except that it has a different texture (by GreatOrator) and it gets harder to kill and deals more damage each time it is summoned. This increase is per player and stops when it reaches a certain difficulty. It also has regeneration for 25 seconds."
     ]
   },
   {
@@ -838,7 +952,7 @@
     "images":[],
     "content":
     [
-      "Don't let the pigmen see you eating pork. You wont like what happens..."
+      "Don't let the pigmen see you eating pork. You won't like what happens..."
     ]
   },
   {
@@ -846,7 +960,7 @@
     "images":["http://i.imgur.com/894RVmP.png"],
     "content":
     [
-      "Mined out all of the Draconium ore in the end? Get yourself some form of flight and go search the end. If your lucky you may come across an Ender Comet. These comets are comprised of end stone, obsidian and a significant amount of Draconium ore. By default they have a 1 in 10000 chance to spawn in each chunk so you may need to search for a while and they come in various sizes.",
+      "Mined out all of the Draconium Ore in The End? Get yourself some form of flight and go search the end. If you're lucky, you may come across an Ender Comet. These comets are comprised of End Stone, Obsidian and a significant amount of Draconium Ore. By default they have a 1 in 10000 chance to spawn in each chunk so you may need to search for a while. They come in various sizes.",
       "http://i.imgur.com/894RVmP.png"
     ]
   },
@@ -855,7 +969,9 @@
     "images":["http://i.imgur.com/gL4T6dG.png"],
     "content":
     [
-      "Looking for a challenge? the Ender Dragon wasnt hard enough? This is for you! If you travel to any multiple of 10,000 in the end (e.g. {x=0, z=10000}, {x=0, z=20000}, {x=10000, z=0} etc) you will find a Chaos Island. Each of these islands is guarded by a Chaos Guardian which is basically an extremely powerful Ender Dragon that drops 2 dragon hearts and some draconium dust as well as the standard end portal in the middle of the island with a dragon egg on top. Note: The Chaos Island is a work in progress and there will be changes in the future.",
+      "Looking for a challenge? The Ender Dragon wasn't hard enough? This is for you! If you travel to any multiple of 10,000 in The End (e.g. {x=0, z=10000}, {x=0, z=20000}, {x=10000, z=0} etc.) you will find a Chaos Island.",
+      "Each of these islands is guarded by a Chaos Guardian which is basically an extremely powerful Ender Dragon that drops 2 dragon hearts and some Draconium Dust, as well as the standard end portal in the middle of the island with a Dragon Egg on top.",
+      "Note: The Chaos Island is a work in progress and there will be changes in the future.",
       "http://i.imgur.com/gL4T6dG.png"
     ]
   },
@@ -864,7 +980,22 @@
     "images":[],
     "content":
     [
-      "Draconic Evolution adds the ability to place any item in the world as a block allowing you to do things like hang tools or other items on walls for display etc. To pla an item in the world simply look at a block with the item selected (as if you were about to place a block) and press the \"Place Item\" key (p by default) you can place items on the top bottom or sides of a block. You can left click to rotate the item clockwise and shift+left click to rotate the item counter-clockwise you can also shift+right click to rotate the item in very small increments counter-clockwise. Right click to pick the item up."
+      "Draconic Evolution adds the ability to place any item in the world as a block allowing you to do things like hang tools or other items on walls for display.",
+      "To place an item in the world simply look at a block with the item selected (as if you were about to place a block) and press the \"Place Item\" key (p by default).",
+      "You can place items on the top bottom or sides of a block. You can left-click to rotate the item clockwise and shift left-click to rotate the item counter-clockwise.",
+      "You can also shift right-click to rotate the item counter-clockwise in very small increments. Right-click to pick the item up."
+    ]
+  },
+  {
+    "name":"info.Computercraft and Open Computers",
+    "images":[],
+    "content":
+    [
+      "Several blocks can now be connected to computers.",
+      "Currently the blocks that can be connected to computers are",
+      "-Energy Storage Core (Via Energy Pylons)",
+      "-Draconic Reactor (Via Stabilizers or Injectors)",
+      "-Flux and Fluid Gates"
     ]
   }
 ]
