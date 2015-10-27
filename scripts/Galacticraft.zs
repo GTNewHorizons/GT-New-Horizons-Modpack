@@ -492,7 +492,7 @@ furnace.remove(<GalacticraftMars:item.null:2>);
 recipes.remove(<GalacticraftMars:item.null:2>);
 
 // --- Desh Block
-recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
+//recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
 
 // --- Sealable Cobblestone Transport Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:8>);
@@ -1016,7 +1016,7 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 // --- Walk away
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 [DeshPlate, DeshPlate, DeshPlate],
-[null, <GemBlocksForGreg:tile.metalBlock7:5>, null],
+[null, <ore:blockDesh>, null],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 // --- Thermal Cloth
@@ -1062,7 +1062,7 @@ recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:8>, [
 recipes.addShaped(<GalacticraftMars:tile.beamReflector>, [
 [DeshRing, <GalacticraftMars:item.itemBasicAsteroids:8>, DeshRing],
 [<ore:screwDesh>, <ore:stickDesh>, <ore:screwDesh>],
-[DeshPlate, <GemBlocksForGreg:tile.metalBlock7:5>, DeshPlate]]);
+[DeshPlate, <ore:blockDesh>, DeshPlate]]);
 
 // --- Energy Beam Receiver
 recipes.addShaped(<GalacticraftMars:tile.beamReceiver>, [
@@ -1326,7 +1326,7 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, 
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
 
 // --- Desh Block
-Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
+//Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
 
 
 
@@ -1415,7 +1415,7 @@ Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCo
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
 
 // --- Desh Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GemBlocksForGreg:tile.metalBlock7:5>);
+//Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GemBlocksForGreg:tile.metalBlock7:5>);
 
 
 

@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.CuttingSaw;
 
 
 
@@ -78,7 +77,7 @@ recipes.addShaped(<FloodLights:electricFloodlight>, [
 [SteelPlate, CopperWire, SteelPlate]]);
 
 // --- Non-Electric Floodlight
-recipes.addShaped(<GregsLighting:ic2FilamentAssembly>, [
+recipes.addShaped(<FloodLights:carbonFloodlight>, [
 [SteelPlate, GlassLens, SteelPlate],
 [Circuit, <FloodLights:carbonLantern>, Circuit],
 [SteelPlate, CopperWire, SteelPlate]]);

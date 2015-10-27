@@ -555,6 +555,9 @@ recipes.remove(<ExtraUtilities:defoliageAxe>);
 // --- Reversing Hoe
 recipes.remove(<ExtraUtilities:temporalHoe>);
 
+// --- Unstable Ingot Block
+mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
+
 
 
 // --- Add Recipes ---
