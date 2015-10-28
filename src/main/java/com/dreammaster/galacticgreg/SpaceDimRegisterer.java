@@ -156,7 +156,7 @@ public class SpaceDimRegisterer
         ModDBMDef DBMPhobos = new ModDBMDef("phobosstone");       
         ModDBMDef DBMDeimos = new ModDBMDef("deimossubgrunt");    
         ModDBMDef DBMCeres = new ModDBMDef("ceressubgrunt");     
-        ModDBMDef DBMIO = new ModDBMDef("iorock", 4); // This meta-4 is a copy&paste bug in GSpace and might not work in further versions            
+        ModDBMDef DBMIO = new ModDBMDef("iorock");
         ModDBMDef DBMGanymede = new ModDBMDef("ganymedesubgrunt");
         ModDBMDef DBMCallisto = new ModDBMDef("callistosubice");    
         ModDBMDef DBMVenus = new ModDBMDef("venussubgrunt");     
