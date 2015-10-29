@@ -779,9 +779,9 @@ recipes.remove(<gregtech:gt.metaitem.02:2084>);
 
 
 
-
-
 // --- Add Recipes ---
+
+
 
 
 // --- Electric Heat Generator
@@ -861,19 +861,19 @@ recipes.addShaped(<IC2:itemToolMiningLaser:26>, [
 [<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
 
 // --- Bat Pack
-recipes.addShaped(<IC2:itemArmorBatpack>, [
+recipes.addShaped(<IC2:itemArmorBatpack:27>, [
 [<IC2:itemBatREDischarged>, <ore:circuitBasic>, <IC2:itemBatREDischarged>],
 [<IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>],
 [<IC2:itemBatREDischarged>, <ore:wireGt02Tin>, <IC2:itemBatREDischarged>]]);
 
 // --- Advanced Batpack
-recipes.addShaped(<IC2:itemArmorAdvBatpack>, [
+recipes.addShaped(<IC2:itemArmorAdvBatpack:27>, [
 [<IC2:itemAdvBat:*>, <ore:circuitGood>, <IC2:itemAdvBat:*>],
 [<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:*>, <IC2:itemAdvBat:*>],
 [<IC2:itemAdvBat:*>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:*>]]);
 
 // --- Energy Pack
-recipes.addShaped(<IC2:itemArmorEnergypack>, [
+recipes.addShaped(<IC2:itemArmorEnergypack:27>, [
 [<ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>],
 [<ore:batteryElite>, <IC2:itemArmorAdvBatpack:*>, <ore:batteryElite>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
@@ -1144,7 +1144,7 @@ recipes.addShaped(<IC2:blockCrop>, [
 [<ore:stickLongWood>, <minecraft:string>, <ore:stickLongWood>]]);
 
 // --- CF Sprayer
-recipes.addShaped(<IC2:itemFoamSprayer>, [
+recipes.addShaped(<IC2:itemFoamSprayer:27>, [
 [<ore:pipeSmallSteel>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
 [<ore:craftingToolSaw>, <ore:pipeSmallSteel>, <IC2:itemFluidCell>],
 [<ore:screwIron>, <minecraft:stone_button>, <ore:circuitBasic>]]);
