@@ -1,3 +1,101 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here.
+
+  To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as found in
+  the core file.
+
+  Adding new Recipes:
+  For more details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+  Adding a new recipe to a new group:
+
+  <recipeGroup name="CrazyPantsGroup" >
+    <recipe name="SolarToGlass" energyCost="120" >
+        <input>
+          <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="glass" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Removing Recipes:
+  To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+  <recipeGroup name="Forestry" enabled="false" />
+
+  Disable all recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" enabled="false" />
+
+  To disable individual recipes, simply provide an invalid recipe for them:
+
+  <recipeGroup name="Applied Energistics" >
+    <recipe name="CertusQuartzOre" />
+  </recipeGroup>
+
+  Disable the glass recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" />
+  </recipeGroup>
+
+  Modifying Recipes:
+  Modify a core recipe definition, in this case, make glass give diamonds:
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" energyCost="120" >
+        <input>
+          <itemStack modID="minecraft" itemName="glass" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="diamond" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Add this block to change the default TE obsidian -> dust recipe to the railcraft recipe.
+
+  <recipeGroup name="Thermal Expansion" >
+    <recipe name="Obsidian" energyCost="400" >
+      <input>
+        <itemStack modID="minecraft" itemName="obsidian" />
+      </input>
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
+  Grinding Balls:
+  Adding a new grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Diamond" grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.5" durationRF="50000" >
+      <itemStack modID="minecraft" itemName="diamond" />
+    </grindingBall>
+  </grindingBalls>
+
+  Removing an existing grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Flint" remove="true" />
+  </grindingBalls>
+
+  Modifying the excludes list: (removing glowstone, adding sand)
+
+  <grindingBalls>
+    <excludes>
+      <itemStack modID="minecraft" itemName="glowstone" remove="true" />
+      <itemStack modID="minecraft" itemName="sand" />
+    </excludes>
+  </grindingBalls>
+
+-->
+
 <SAGMillRecipes>
 
 

@@ -27,5 +27,5 @@
 -->
 
 <AlloySmelterRecipes>
-
+  <vanillaFurnaceRecipes enabled="false" />
 </AlloySmelterRecipes>
