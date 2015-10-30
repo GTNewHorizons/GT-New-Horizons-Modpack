@@ -2635,6 +2635,12 @@ recipes.addShaped(<gregtech:gt.blockmachines:1144>, [
 [<gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:15>, <gregtech:gt.metaitem.01:32614>],
 [<gregtech:gt.blockmachines:5163>, <gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:5163>]]);
 
+// --- Pump Machinen Casing
+recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32612>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
 
 
 

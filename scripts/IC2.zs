@@ -51,6 +51,9 @@ recipes.remove(<IC2:blockGenerator:3>);
 // --- Kinetic Wind Generator
 recipes.remove(<IC2:blockKineticGenerator>);
 
+// --- Kinetic Water Generator
+recipes.remove(<IC2:blockKineticGenerator:4>);
+
 // --- Reactor Chamber
 recipes.remove(<IC2:blockReactorChamber>);
 
@@ -958,6 +961,12 @@ recipes.addShaped(<IC2:itemwcarbonrotor:1>, [
 [<ore:screwTungstenSteel>, <IC2:itemRecipePart:9>, <ore:craftingToolHardHammer>],
 [<IC2:itemRecipePart:9>, <ore:ringTungstenSteel>, <IC2:itemRecipePart:9>],
 [<ore:craftingToolWrench>, <IC2:itemRecipePart:9>, <ore:screwTungstenSteel>]]);
+
+// --- Kinetic Water Generator
+recipes.addShaped(<IC2:blockKineticGenerator:4>, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<IC2:itemRecipePart:11>, <gregtech:gt.blockcasings2:10>, <IC2:itemRecipePart:11>],
+[<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>]]);
 
 // --- Steam Turbine Blade ---
 recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
