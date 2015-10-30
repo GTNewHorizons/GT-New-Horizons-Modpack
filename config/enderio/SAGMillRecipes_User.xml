@@ -98,6 +98,49 @@
 
 <SAGMillRecipes>
 
+  <recipeGroup name="EnderIO" >
+    <recipe name="Silicon" energyCost="720" >
+      <input>
+        <itemStack oreDictionary="sand" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="sand" number="1" itemMeta="0" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="SiliconRedSand" energyCost="720" >
+      <input>
+        <itemStack oreDictionary="sand" itemMeta="1" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="sand" number="1" itemMeta="1" chance="0.5" />
+      </output>
+    </recipe>
+</recipeGroup>
+
+<recipeGroup name="Vanilla" >
+   <recipe name="ClayBlock" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="clay" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="clay_ball" number="2" />
+        <itemStack modID="minecraft" itemName="clay_ball" number="1" chance="0.2" />
+        <itemStack modID="minecraft" itemName="clay_ball" number="1" itemMeta="0" chance="0.1" />
+      </output>
+    </recipe>
+	<recipe name="RedstoneOre" energyCost="3000" >
+      <input>
+        <itemStack oreDictionary="oreRedstone" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="redstone" number="8" />
+        <itemStack modID="minecraft" itemName="redstone" number="1" chance="0.2" />
+        <itemStack modID="minecraft" itemName="redstone" itemMeta="1" chance="0.1" />
+        <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
+      </output>
+    </recipe>
+</recipeGroup>
+
 
   <!-- Some recipes to balance vanilla stuff of SAGMill -->
  <recipeGroup name="GTAntiOP_Vanilla">
