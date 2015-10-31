@@ -1140,9 +1140,13 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2336> * 3,
 recipes.addShapeless(<gregtech:gt.metaitem.01:2317> * 3, 
 [<ore:dustOsmium>, <ore:dustIridium>, <ore:dustIridium>, <ore:dustIridium>]);
 
+// --- Enderium Base
+recipes.addShapeless(<gregtech:gt.metaitem.01:2380> * 4, 
+[<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>]);
+
 // --- Enderium Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9, 
-[<ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustThaumium>]);
+[<ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustThaumium>]);
 
 // --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
@@ -2640,6 +2644,9 @@ recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32612>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
+// --- Electrical Steel Dust
+recipes.addShapeless(<gregtech:gt.metaitem.01:2365>, [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2535>]);
 
 
 

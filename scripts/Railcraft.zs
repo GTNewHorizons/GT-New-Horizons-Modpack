@@ -713,6 +713,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
 // --- Infernal Block
 recipes.remove(<Railcraft:brick.infernal:2>);
 
+// --- Electrical Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
+
 
 
 // --- Add Recipes ---
