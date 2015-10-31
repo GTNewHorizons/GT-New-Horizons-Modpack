@@ -28,4 +28,21 @@
 
 <AlloySmelterRecipes>
   <vanillaFurnaceRecipes enabled="false" />
+  <recipeGroup name="EnderIO" enabled="false" />
 </AlloySmelterRecipes>
+
+
+<AlloySmelterRecipes>
+  <recipeGroup name="EnderIO" >
+    <recipe name="Fused Quartz 3 Slots" energyCost="30000" >
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" number="3" />
+      </output>
+    </recipe>
+</AlloySmelterRecipes>
+
