@@ -5,10 +5,9 @@
 // --- Imports --- 
 
 
-import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
-import mods.gregtech.ChemicalBath;
+import mods.gregtech.FluidSolidifier;
 
 
 
@@ -69,6 +68,26 @@ val RAUpgrade = <EnderIO:itemFunctionUpgrade>;
 val DarkSteelRing = <ore:ringDarkSteel>;
 val DarkSteelScrew = <ore:screwDarkSteel>;
 val WCrystal = <EnderIO:itemMaterial:10>;
+val EnderEyeLens = <ore:lensEnderEye>;
+val MvFieldGen = <gregtech:gt.metaitem.01:32671>;
+val SPlate = <ore:plateSoularium>;
+val Shears = <minecraft:shears>;
+val IronAxe = <minecraft:iron_axe>;
+val Skull = <ore:itemSkull>;
+val EntCrystal = <EnderIO:itemMaterial:9>;
+val TEnderman = <EnderIO:blockEndermanSkull:2>;
+val EXPRod = <EnderIO:itemXpTransfer>;
+val Lava = <ore:bucketLava>;
+val Water = <ore:bucketWater>;
+val CapacitorB2 = <EnderIO:blockCapBank:2>;
+val ETable = <minecraft:enchanting_table>;
+val Book = <ore:crafting Book>;
+val DarkIronBars = <EnderIO:blockDarkIronBars>;
+val Hammer = <ore:craftingToolHardHammer>;
+val Wrench = <ore:craftingToolWrench>;
+val Screwdriver = <ore:craftingToolScrewdriver>;
+val SteelScrew = <ore:screwSteel>;
+val SteelWire = <ore:wireFineSteel>;
 
 
 
@@ -179,6 +198,57 @@ recipes.remove(<EnderIO:itemMaterial:7>);
 
 // --- Weather Crystal
 recipes.remove(WCrystal);
+
+// --- Ender IO
+recipes.remove(<EnderIO:blockEnderIo>);
+
+// --- Travel Anchor
+recipes.remove(<EnderIO:blockTravelAnchor>);
+
+// --- Telepad Block
+recipes.remove(<EnderIO:blockTelePad>);
+
+// --- Slice and Splice
+recipes.remove(<EnderIO:blockSliceAndSplice>);
+
+// --- Soul Binder
+recipes.remove(<EnderIO:blockSoulBinder>);
+
+// --- Powered Spawner
+recipes.remove(<EnderIO:blockPoweredSpawner>);
+
+// --- Killer Joe
+recipes.remove(<EnderIO:blockKillerJoe>);
+
+// --- Attractor Obelisk
+recipes.remove(<EnderIO:blockAttractor>);
+
+// --- Aversion Obelisk
+recipes.remove(<EnderIO:blockSpawnGuard>);
+
+// --- Experience Obelisk
+recipes.remove(<EnderIO:blockExperienceObelisk>);
+
+// --- Weather Obelisk
+recipes.remove(<EnderIO:blockWeatherObelisk>);
+
+// --- Enchanter
+recipes.remove(<EnderIO:blockEnchanter>);
+
+// --- Dark Pressure Plate
+recipes.remove(<EnderIO:blockDarkSteelPressurePlate>);
+
+// --- Dark Pressure Plate Silent
+recipes.remove(<EnderIO:blockDarkSteelPressurePlate:1>);
+
+// --- Dark Steel Anvil
+recipes.remove(<EnderIO:blockDarkSteelAnvil>);
+
+// --- Dark Iron Bars
+recipes.remove(<EnderIO:blockDarkIronBars>);
+
+// --- Dark Steel Ladder
+recipes.remove(<EnderIO:blockDarkSteelLadder>);
 
 
 
@@ -335,6 +405,90 @@ recipes.addShaped(<EnderIO:itemMaterial:7> * 4, [
 [DarkSteelPlate, DarkSteelRing, DarkSteelPlate],
 [DarkSteelScrew, DarkSteelPlate, DarkSteelScrew]]);
 
+// --- Ender IO
+recipes.addShaped(<EnderIO:blockEnderIo>, [
+[ESteelPlate, FQuartz, ESteelPlate],
+[FQuartz, EnderEyeLens, FQuartz],
+[ESteelPlate, FQuartz, ESteelPlate]]);
+
+// --- Travel Anchor
+recipes.addShaped(<EnderIO:blockTravelAnchor>, [
+[ESteelPlate, PIPlate, ESteelPlate],
+[PCrystal, MCasing, PCrystal],
+[ESteelPlate, PIPlate, ESteelPlate]]);
+
+// --- Telepad Block
+recipes.addShaped(<EnderIO:blockTelePad>, [
+[DarkSteelPlate, FQuartz, DarkSteelPlate],
+[Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
+[HvMotor, MvFieldGen, HvMotor]]);
+
+// --- Slice and Splice
+recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
+[SPlate, Shears, SPlate],
+[GCircuit, MCasing, GCircuit],
+[MvMotor, IronAxe, MvMotor]]);
+
+// --- Soul Binder
+recipes.addShaped(<EnderIO:blockSoulBinder>, [
+[SPlate, EResonator, SPlate],
+[AdvCircuit, MCasing, AdvCircuit],
+[HvMotor, ZLogic, HvMotor]]);
+
+// --- Powered Spawner
+recipes.addShaped(<EnderIO:blockPoweredSpawner>, [
+[DarkSteelPlate, Skull, DarkSteelPlate],
+[SPlate, MCasing, SPlate],
+[ECrystal, FZombi, ECrystal]]);
+
+// --- Killer Joe
+recipes.addShaped(<EnderIO:blockKillerJoe>, [
+[AluCasing, GCircuit, AluCasing],
+[FQuartz, MCasing, FQuartz],
+[MvMotor, FZombi, MvMotor]]);
+
+// --- Attractor Obelisk
+recipes.addShaped(<EnderIO:blockAttractor>, [
+[null, EntCrystal, null],
+[EAPlate, SPlate, EAPlate],
+[SPlate, MCasing, SPlate]]);
+
+// --- Aversion Obelisk
+recipes.addShaped(<EnderIO:blockSpawnGuard>, [
+[null, TEnderman, null],
+[EAPlate, SPlate, EAPlate],
+[SPlate, MCasing, SPlate]]);
+
+// --- Experience Obelisk
+recipes.addShaped(<EnderIO:blockExperienceObelisk>, [
+[null, EXPRod, null],
+[EAPlate, SPlate, EAPlate],
+[SPlate, MCasing, SPlate]]);
+
+// --- Weather Obelisk
+recipes.addShaped(<EnderIO:blockWeatherObelisk>, [
+[null, WCrystal, null],
+[Lava, SPlate, Water],
+[SPlate, CapacitorB2, SPlate]]);
+
+// --- Enchanter
+recipes.addShaped(<EnderIO:blockEnchanter>, [
+[PCrystal, Book, VCrystal],
+[null, DarkSteelPlate, null],
+[DarkSteelPlate, ETable, DarkSteelPlate]]);
+
+// --- Dark Iron Bars
+recipes.addShaped(<EnderIO:blockDarkIronBars> * 3, [
+[null, Hammer, null],
+[<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>],
+[<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>]]);
+
+// --- Dark Steel Ladder
+recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
+[DarkIronBars, Screwdriver, DarkIronBars],
+[SteelWire, SteelScrew, SteelWire],
+[DarkIronBars, Wrench, DarkIronBars]]);
+
 
 
 
@@ -370,6 +524,17 @@ Assembler.addRecipe(<EnderIO:itemMaterial:7> * 4, <gregtech:gt.metaitem.01:17364
 // --- Weather Crystal
 Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
 
+// --- Dark Pressure Plate
+Assembler.addRecipe(<EnderIO:blockDarkSteelPressurePlate>, <minecraft:heavy_weighted_pressure_plate>, <gregtech:gt.metaitem.01:17364> * 2, 200, 64);
+
+// --- Dark Pressure Plate Silent
+Assembler.addRecipe(<EnderIO:blockDarkSteelPressurePlate:1>, <EnderIO:blockDarkSteelPressurePlate>, <IC2:blockRubber>, 200, 64);
+
+// --- Dark Steel Ladder
+Assembler.addRecipe(<EnderIO:blockDarkSteelLadder> * 2, <EnderIO:blockDarkIronBars>, <gregtech:gt.integrated_circuit:2> * 0, 100, 96);
+
+// --- Dark Iron Bars
+Assembler.addRecipe(<EnderIO:blockDarkIronBars> * 4, <gregtech:gt.metaitem.01:23364> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
 
 
 
@@ -378,6 +543,15 @@ Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.m
 
 
 
-
 // --- Electrical Steel
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11365>], [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:2020>], 600, 120, 1000);
+
+
+
+
+// --- Fluid Solidifier Recipes ---
+
+
+
+// --- Dark Steel Anvil
+FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.darksteel> * 4464, 900, 120);

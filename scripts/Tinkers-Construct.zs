@@ -5,6 +5,7 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
 import mods.gregtech.CuttingSaw;
@@ -2221,6 +2222,20 @@ Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TCo
 
 // --- Empty Canister
 Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27316> * 4, 2400, 480);
+
+
+
+// --- Blast Furnace Recipes ---
+
+
+
+
+// --- Clear Glass
+BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>], 100, 120, 1000);
+
+// --- Clear Glass Pane
+BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>], 100, 120, 1000);
+
 
 
 

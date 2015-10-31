@@ -15,6 +15,7 @@ import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
+import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
@@ -2976,6 +2977,150 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:802> * 2, <minecraft:flint>, 32, 
 
 
 
+// --- Forming Press Recipes
+
+
+// --- Mold Plate
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32301>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32301> * 0, 200, 256);
+
+// --- Mold Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32302>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32302> * 0, 200, 256);
+
+// --- Gear Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32303>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32303> * 0, 200, 256);
+
+// --- Coinage Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32304>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32304> * 0, 200, 256);
+
+// --- Bottle Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32305>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32305> * 0, 200, 256);
+
+// --- Ingot Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32306>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32306> * 0, 200, 256);
+
+// --- Ball Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32307>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32307> * 0, 200, 256);
+
+// --- Block Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32308>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32308> * 0, 200, 256);
+
+// --- Nuggets Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32309>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32309> * 0, 200, 256);
+
+// --- Buns Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32310>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32310> * 0, 200, 256);
+
+// --- Bread Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32311>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32311> * 0, 200, 256);
+
+// --- Baguette Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32312>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32312> * 0, 200, 256);
+
+// --- Cylinder Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32313>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32313> * 0, 200, 256);
+
+// --- Anvil Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32314>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32314> * 0, 200, 256);
+
+// --- Name Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32315>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32315> * 0, 200, 256);
+
+// --- Arrow Head Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32316>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32316> * 0, 200, 256);
+
+// --- Small Gear Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32317>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32317> * 0, 200, 256);
+
+// --- Helm Mold
+FormingPress.addRecipe(<dreamcraft:item.MoldHelmet>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldHelmet> * 0, 200, 256);
+
+// --- Chestplate Mold
+FormingPress.addRecipe(<dreamcraft:item.MoldChestplate>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldChestplate> * 0, 200, 256);
+
+// --- Leggings Mold
+FormingPress.addRecipe(<dreamcraft:item.MoldLeggings>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldLeggings> * 0, 200, 256);
+
+// --- Boots Mold
+FormingPress.addRecipe(<dreamcraft:item.MoldBoots>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldBoots> * 0, 200, 256);
+
+// --- Extruder Shape Plate
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32350>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32350> * 0, 200, 256);
+
+// --- Extruder Shape Rod
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32351>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32351> * 0, 200, 256);
+
+// --- Extruder Shape Bolt
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32352>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32352> * 0, 200, 256);
+
+// --- Extruder Shape Ring
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32353>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32353> * 0, 200, 256);
+
+// --- Extruder Shape Cell
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32354>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32354> * 0, 200, 256);
+
+// --- Extruder Shape Ingot
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32355>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32355> * 0, 200, 256);
+
+// --- Extruder Shape Wire
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32356>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32356> * 0, 200, 256);
+
+// --- Extruder Shape Casing
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32357>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32357> * 0, 200, 256);
+
+// --- Extruder Shape Tiny Pipe
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32358>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32358> * 0, 200, 256);
+
+// --- Extruder Shape Small Pipe
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32359>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32359> * 0, 200, 256);
+
+// --- Extruder Shape Normal Pipe
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32360>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32360> * 0, 200, 256);
+
+// --- Extruder Shape Lage Pipe
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32361>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32361> * 0, 200, 256);
+
+// --- Extruder Shape Huge Pipe
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32362>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32362> * 0, 200, 256);
+
+// --- Extruder Shape Block
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32363>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32363> * 0, 200, 256);
+
+// --- Extruder Shape Sword Blade
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32364>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32364> * 0, 200, 256);
+
+// --- Extruder Shape Pickaxe Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32365>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32365> * 0, 200, 256);
+
+// --- Extruder Shape Shovel Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32366>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32366> * 0, 200, 256);
+
+// --- Extruder Shape Axe Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32367>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32367> * 0, 200, 256);
+
+// --- Extruder Shape Hoe Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32368>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32368> * 0, 200, 256);
+
+// --- Extruder Shape Hammer Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32369>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32369> * 0, 200, 256);
+
+// --- Extruder Shape File Head
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32370>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32370> * 0, 200, 256);
+
+// --- Extruder Shape Saw Blade
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32371>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32371> * 0, 200, 256);
+
+// --- Extruder Shape Gear
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32372>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32372> * 0, 200, 256);
+
+// --- Extruder Shape Bottle
+FormingPress.addRecipe(<gregtech:gt.metaitem.01:32373>, <gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:32373> * 0, 200, 256);
+
+// --- Extruder Shape Boat
+FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.ExtruderShapeBoat> * 0, 200, 256);
+
+
+
+
 
 // --- Macerator Recipes --- 
 
@@ -2997,7 +3142,6 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
 // --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
-
 
 
 
@@ -3028,6 +3172,9 @@ PlateBender.addRecipe(<gregtech:gt.metaitem.02:24874>, <gregtech:gt.metaitem.02:
 
 // --- Small Titanium Spring
 PlateBender.addRecipe(<gregtech:gt.metaitem.02:23028>, <gregtech:gt.metaitem.01:23028>, 200, 8);
+
+// --- Empty Shape Plate
+PlateBender.addRecipe(<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:20305>, 200, 120);
 
 
 

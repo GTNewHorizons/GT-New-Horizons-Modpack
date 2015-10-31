@@ -8,6 +8,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
@@ -3322,6 +3323,17 @@ Assembler.addRecipe(Lever, <BiomesOPlenty:bamboo>, <minecraft:stone_button>, 50,
 Assembler.addRecipe(Lever, <BiomesOPlenty:plants:8>, <minecraft:stone_button>, 50, 16);
 
 
+
+// --- Blast Furnace Recipes ---
+
+
+
+
+// --- Glass Block
+BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>], 100, 120, 1000);
+
+// --- Clear Pane
+BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 120, 1000);
 
 
 
