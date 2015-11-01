@@ -291,7 +291,7 @@ recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 recipes.addShaped(<EnderIO:blockSagMill>, [
 [SteelCasing, LvPiston, SteelCasing],
 [Circuit, MCasing, Circuit],
-[LvMotor, DiamondGear, LvMotor]]);
+[LvMotor, <gregtech:gt.metaitem.01:32721>, LvMotor]]);
 
 // --- Alloy Smelter
 recipes.addShaped(<EnderIO:blockAlloySmelter>, [

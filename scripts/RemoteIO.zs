@@ -116,6 +116,9 @@ recipes.remove(<RIO:item.pda>);
 // --- Remote Accessor
 recipes.remove(<RIO:item.remoteAccessor>);
 
+// --- Linker 
+recipes.remove(<RIO:item.linker>);
+
 
 // --- Adding Back Recipes ---
 
@@ -161,7 +164,23 @@ recipes.addShaped(<RIO:intelligentWorkbench>, [
 // --- IO Tool
 recipes.addShapeless(IOTool, [<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}})]);
 
+// --- Linker 
+recipes.addShaped(<RIO:item.linker>, [
+[<ore:craftingToolScrewdriver>, <ore:boltElectrum>, <ore:screwIron>],
+[<ore:boltElectrum>, <ore:lensEnderEye>, <ore:ringSteel>],
+[<ore:screwIron>, <ore:ringSteel>, IOTool]]);
 
+// --- Remote Accessor
+recipes.addShaped(<RIO:item.remoteAccessor>, [
+[<dreamcraft:item.TungstenSteelItemCasing>, <RIO:tile.remote_interface>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<RIO:item.linker>, <RIO:item.chip.location>, <RIO:item.linker>],
+[<ore:screwTungstenSteel>, <RIO:item.wireless_transmitter>, <ore:screwTungstenSteel>]]);
+
+// --- PDA
+recipes.addShaped(<RIO:item.pda>, [
+[<ore:screwIron>, <dreamcraft:item.AluminiumItemCasing>, <ore:screwIron>],
+[<ore:circuitBasic>, <dreamcraft:item.Display>, <ore:circuitBasic>],
+[<dreamcraft:item.AluminiumItemCasing>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <dreamcraft:item.AluminiumItemCasing>]]);
 
 
 
