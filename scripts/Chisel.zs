@@ -6,7 +6,14 @@
 
 
 
+
+mods.chisel.Groups.addGroup("glasswork"); 
+
+
+
+
 // --- Variables ---
+
 
 
 val Chisel = <chisel:chisel>;
@@ -124,6 +131,50 @@ recipes.addShaped(<chisel:upgrade:2>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
 [<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
+
+
+// --- Chisel Group Glass ---
+
+
+
+
+// --- Glass
+mods.chisel.Groups.addVariation("glasswork", <minecraft:glass>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:1>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:2>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:3>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:4>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:5>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:6>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:7>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:8>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:9>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:10>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:11>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:12>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:13>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:14>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass:15>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <chisel:glass2>);
+
+
+
 
 
 

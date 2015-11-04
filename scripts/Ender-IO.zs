@@ -88,6 +88,12 @@ val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val SteelScrew = <ore:screwSteel>;
 val SteelWire = <ore:wireFineSteel>;
+val SiliconPlate = <ore:plateSilicon>;
+val LightBulp = <FloodLights:electricIncandescentLightBulb>;
+val IronPlate = <ore:plateIron>;
+val RedAlloyWire = <ore:wireGt01RedAlloy>;
+val Obsidian = <ore:blockObsidian>;
+
 
 
 
@@ -249,6 +255,30 @@ recipes.remove(<EnderIO:blockDarkIronBars>);
 
 // --- Dark Steel Ladder
 recipes.remove(<EnderIO:blockDarkSteelLadder>);
+
+// --- Powered Light
+recipes.remove(<EnderIO:blockElectricLight>);
+
+// --- Powered Light Inverted
+recipes.remove(<EnderIO:blockElectricLight:1>);
+
+// --- Light
+recipes.remove(<EnderIO:blockElectricLight:2>);
+
+// --- Light Inverted
+recipes.remove(<EnderIO:blockElectricLight:3>);
+
+// --- Wireless Powered Light
+recipes.remove(<EnderIO:blockElectricLight:4>);
+
+// --- Wireless Powered Light Inverted
+recipes.remove(<EnderIO:blockElectricLight:5>);
+
+// --- Reinforced Obsidian
+recipes.remove(<EnderIO:blockReinforcedObsidian>);
+
+// --- Quiete Clear Glass
+mods.chisel.Groups.removeGroup("glass");
 
 
 
@@ -489,6 +519,25 @@ recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
 [SteelWire, SteelScrew, SteelWire],
 [DarkIronBars, Wrench, DarkIronBars]]);
 
+// --- Powered Light
+recipes.addShaped(<EnderIO:blockElectricLight>, [
+[FQuartz, FQuartz, FQuartz],
+[SiliconPlate, LightBulp, SiliconPlate],
+[Circuit, Capacitor, Circuit]]);
+
+// --- Light
+recipes.addShaped(<EnderIO:blockElectricLight:2>, [
+[FQuartz, FQuartz, FQuartz],
+[SiliconPlate, <ProjRed|Illumination:projectred.illumination.lamp>, SiliconPlate],
+[IronPlate, RedAlloyWire, IronPlate]]);
+
+// --- Reinforced Obsidian
+recipes.addShaped(<EnderIO:blockReinforcedObsidian>, [
+[DarkSteelPlate, DarkSteelBars, DarkSteelPlate],
+[DarkSteelBars, Obsidian, DarkSteelBars],
+[DarkSteelPlate, DarkSteelBars, DarkSteelPlate]]);
+
+
 
 
 
@@ -535,6 +584,18 @@ Assembler.addRecipe(<EnderIO:blockDarkSteelLadder> * 2, <EnderIO:blockDarkIronBa
 
 // --- Dark Iron Bars
 Assembler.addRecipe(<EnderIO:blockDarkIronBars> * 4, <gregtech:gt.metaitem.01:23364> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
+
+// --- Powered Light Inverted
+Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>, <minecraft:redstone_torch>, 200, 64);
+
+// --- Light Inverted
+Assembler.addRecipe(<EnderIO:blockElectricLight:3>, <EnderIO:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
+
+// --- Wireless Powered Light
+Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>, EResonator, 200, 256);
+
+// --- Wireless Powered Light Inverted
+Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
 
 
 

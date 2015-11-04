@@ -968,6 +968,9 @@ recipes.removeShapeless(<minecraft:glowstone_dust>);
 // --- Nether Star
 recipes.remove(<minecraft:nether_star>);
 
+// --- Glass
+recipes.removeShapeless(<minecraft:glass>);
+
 
 
 // --- Adding Back Recipes ---

@@ -1146,8 +1146,8 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2380> * 4,
 [<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>]);
 
 // --- Enderium Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9, 
-[<ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustThaumium>]);
+//recipes.addShapeless(<gregtech:gt.metaitem.01:2321> * 9, 
+//[<ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderiumBase>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustEnderEye>, <ore:dustBeryllium>, <ore:dustBeryllium>, <ore:dustThaumium>]);
 
 // --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [

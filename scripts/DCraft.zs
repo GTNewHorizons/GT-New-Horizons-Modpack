@@ -1145,7 +1145,7 @@ Compressor.addRecipe(<dreamcraft:tile.QuintupleCompressedCoal>, <dreamcraft:tile
 Compressor.addRecipe(<dreamcraft:tile.QuintupleCompressedCoalCoke>, <dreamcraft:tile.QuadrupleCompressedCoalCoke> * 9);
 
 // --- Block of Charged Certus Quartz
-//Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:7>, <appliedenergistics2:item.ItemMultiMaterial:1> * 9);
+Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:7>, <appliedenergistics2:item.ItemMultiMaterial:1> * 9);
 
 // --- Charged Certus Quartz Plate
 Compressor.addRecipe(<dreamcraft:item.ChargedCertusQuartzPlate>, <dreamcraft:item.ChargedCertusQuartzDust>);
@@ -1774,7 +1774,7 @@ Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.
 // -
 Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzRod> * 2);
 // -
-//Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust> * 9, <GemBlocksForGreg:tile.metalBlock7:7>);
+Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust> * 9, <GemBlocksForGreg:tile.metalBlock7:7>);
 
 
 

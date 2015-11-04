@@ -1206,20 +1206,20 @@ Unpacker.addRecipe(<dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:1
 // --- Ruby
 mods.chisel.Groups.addVariation("ruby", <BiomesOPlenty:gemOre:3>);
 // -
-//mods.chisel.Groups.addVariation("ruby", <GemBlocksForGreg:rubyBlock>);
+mods.chisel.Groups.addVariation("ruby", <GemBlocksForGreg:rubyBlock>);
 // -
 mods.chisel.Groups.addVariation("ruby", <ProjRed|Exploration:projectred.exploration.stone:5>);
 
 // --- Sapphire
 mods.chisel.Groups.addVariation("sapphire", <BiomesOPlenty:gemOre:13>);
 // -
-//mods.chisel.Groups.addVariation("sapphire", <GemBlocksForGreg:sapphireBlock>);
+mods.chisel.Groups.addVariation("sapphire", <GemBlocksForGreg:sapphireBlock>);
 // -
 mods.chisel.Groups.addVariation("sapphire", <ProjRed|Exploration:projectred.exploration.stone:6>);
 
 // --- Peridot
 mods.chisel.Groups.addVariation("peridot", <BiomesOPlenty:gemOre:5>);
 // -
-//mods.chisel.Groups.addVariation("peridot", <GemBlocksForGreg:olivineBlock>);
+mods.chisel.Groups.addVariation("peridot", <GemBlocksForGreg:olivineBlock>);
 // -
 mods.chisel.Groups.addVariation("peridot", <ProjRed|Exploration:projectred.exploration.stone:7>);
