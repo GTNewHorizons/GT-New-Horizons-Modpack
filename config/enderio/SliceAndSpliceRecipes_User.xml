@@ -1,3 +1,59 @@
 <SliceAndSpliceRecipes>
-
+  <recipeGroup name="EnderIO" enabled="false" />
+  
+  <recipeGroup name="GTNewHorizons" >
+    <recipe name="Electrode Skull" energyCost="100000" >
+      <input>
+        <itemStack oreDictionary="plateEnergeticAlloy" slot="0" />
+        <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
+        <itemStack oreDictionary="plateEnergeticAlloy" slot="2" />
+        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="0" slot="4" />
+        <itemStack oreDictionary="plateSilicon" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="0" />
+      </output>
+    </recipe>
+    <recipe name="Controller Skull" energyCost="200000" >
+      <input>
+        <itemStack oreDictionary="plateSoularium" slot="0" />
+        <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
+        <itemStack oreDictionary="plateSoularium" slot="2" />
+        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack oreDictionary="PlateRedAlloy" slot="4" />
+        <itemStack oreDictionary="plateSilicon" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="1" />
+      </output>
+    </recipe>
+    <recipe name="Tormented Enderman Head" energyCost="100000" >
+      <input>
+        <itemStack oreDictionary="plateSoularium" slot="0" />
+        <itemStack modID="EnderIO" itemName="blockEndermanSkull" itemMeta="0" slot="1" />
+        <itemStack oreDictionary="plateSoularium" slot="2" />
+        <itemStack modID="minecraft" itemName="potion" slot="3" />
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="0" slot="4" />
+        <itemStack modID="minecraft" itemName="potion" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockEndermanSkull" itemMeta="2" />
+      </output>
+    </recipe>
+    <recipe name="Ender Resonator" energyCost="200000" >
+      <input>
+        <itemStack oreDictionary="plateSoularium" slot="0" />
+        <itemStack modID="EnderIO" itemName="blockEndermanSkull" itemMeta="0" slot="1" />
+        <itemStack oreDictionary="plateSoularium" slot="2" />
+        <itemStack oreDictionary="plateSilicon" slot="3" />
+        <itemStack oreDictionary="plateVibrantAlloy" slot="4" />
+        <itemStack oreDictionary="plateSilicon" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="3" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
 </SliceAndSpliceRecipes>
