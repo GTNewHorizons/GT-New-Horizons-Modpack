@@ -7,6 +7,8 @@
 
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ChemicalBath;
+import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
 
 
@@ -93,6 +95,11 @@ val LightBulp = <FloodLights:electricIncandescentLightBulb>;
 val IronPlate = <ore:plateIron>;
 val RedAlloyWire = <ore:wireGt01RedAlloy>;
 val Obsidian = <ore:blockObsidian>;
+val EnderEye = <ore:gemEnderEye>;
+val Compass = <minecraft:compass>;
+val RAPlate = <ore:plateRedstoneAlloy>;
+val Binder = <EnderIO:itemMaterial:1>;
+val CIPlate = <ore:plateConductiveIron>;
 
 
 
@@ -279,6 +286,36 @@ recipes.remove(<EnderIO:blockReinforcedObsidian>);
 
 // --- Quiete Clear Glass
 mods.chisel.Groups.removeGroup("glass");
+
+// --- Coordinate Selector
+recipes.remove(<EnderIO:itemCoordSelector>);
+
+// --- Fused Quartz Frame
+recipes.remove(<EnderIO:itemFusedQuartzFrame>);
+
+// --- Conduit Facade
+recipes.remove(<EnderIO:itemConduitFacade>);
+
+// --- Hardened Conduit Facade
+recipes.remove(<EnderIO:itemConduitFacade:1>);
+
+// --- Redstone Conduit
+recipes.remove(<EnderIO:itemRedstoneConduit>);
+
+// --- Insulated Conduit
+recipes.remove(<EnderIO:itemRedstoneConduit:2>);
+
+// --- Conduit Switch
+recipes.remove(<EnderIO:itemRedstoneConduit:1>);
+
+// --- Energy Conduit
+recipes.remove(<EnderIO:itemPowerConduit>);
+
+// --- Enhanced Energy Conduit
+recipes.remove(<EnderIO:itemPowerConduit:1>);
+
+// --- Ender Energy Conduit
+recipes.remove(<EnderIO:itemPowerConduit:2>);
 
 
 
@@ -537,6 +574,37 @@ recipes.addShaped(<EnderIO:blockReinforcedObsidian>, [
 [DarkSteelBars, Obsidian, DarkSteelBars],
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate]]);
 
+// --- Coordinate Selector
+recipes.addShaped(<EnderIO:itemCoordSelector>, [
+[ESteelPlate, EnderEye, ESteelPlate],
+[PIPlate, Compass, PIPlate],
+[ESteelPlate, EnderEye, ESteelPlate]]);
+
+// --- Redstone Conduit
+recipes.addShaped(<EnderIO:itemRedstoneConduit> * 4, [
+[RAPlate, Wrench, RAPlate],
+[RAPlate, null, RAPlate],
+[RAPlate, Hammer, RAPlate]]);
+
+// --- Energy Conduit
+recipes.addShaped(<EnderIO:itemPowerConduit> * 4, [
+[CIPlate, Wrench, CIPlate],
+[CIPlate, Binder, CIPlate],
+[CIPlate, Hammer, CIPlate]]);
+
+// --- Enhanced Energy Conduit
+recipes.addShaped(<EnderIO:itemPowerConduit:1> * 4, [
+[EAPlate, Wrench, EAPlate],
+[EAPlate, Binder, EAPlate],
+[EAPlate, Hammer, EAPlate]]);
+
+// --- Ender Energy Conduit
+recipes.addShaped(<EnderIO:itemPowerConduit:2> * 4, [
+[VAPlate, Wrench, VAPlate],
+[VAPlate, Binder, VAPlate],
+[VAPlate, Hammer, VAPlate]]);
+
+
 
 
 
@@ -597,6 +665,18 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>
 // --- Wireless Powered Light Inverted
 Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
 
+// --- Fused Quartz Frame
+Assembler.addRecipe(<EnderIO:itemFusedQuartzFrame>, <gregtech:gt.blockmachines:4905>, <EnderIO:itemMaterial:1> * 4, 100, 16);
+
+// --- Conduit Facade
+Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:1> * 0, 100, 30);
+
+// --- Insulated Conduit
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 200, 64);
+
+// --- Conduit Switch
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneConduit:2>, <minecraft:lever>, 200, 64);
+
 
 
 
@@ -606,6 +686,43 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:
 
 // --- Electrical Steel
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11365>], [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:2020>], 600, 120, 1000);
+
+
+
+
+// --- Chemical Bath
+
+
+
+
+// --- Hardened Conduit Facade
+ChemicalBath.addRecipe([<EnderIO:itemConduitFacade:1>], <EnderIO:itemConduitFacade>, <liquid:obsidian.molten> * 576, [10000], 200, 2);
+
+
+
+
+// --- Extruder Recipes ---
+
+
+
+// --- Redstone Conduit
+Extruder.addRecipe(<EnderIO:itemRedstoneConduit>, <gregtech:gt.metaitem.01:11381>, <gregtech:gt.metaitem.01:32359> * 0, 20, 120);
+
+// --- Energy Conduit
+Extruder.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.metaitem.01:11369>, <gregtech:gt.metaitem.01:32359> * 0, 40, 256);
+
+// --- Enhanced Energy Conduit
+Extruder.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.metaitem.01:11366>, <gregtech:gt.metaitem.01:32359> * 0, 60, 480);
+
+// --- Ender Energy Conduit
+Extruder.addRecipe(<EnderIO:itemPowerConduit:2>, <EnderIO:itemAlloy:2>, <gregtech:gt.metaitem.01:32359> * 0, 80, 1024);
+// -
+Extruder.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.metaitem.01:11367>, <gregtech:gt.metaitem.01:32359> * 0, 80, 1024);
+
+
+
+
+
 
 
 
