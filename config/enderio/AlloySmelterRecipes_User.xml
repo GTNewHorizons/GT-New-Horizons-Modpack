@@ -44,21 +44,21 @@
         <itemStack oreDictionary="ingotElectricalSteel" number="1" />
       </output>
     </recipe>
-	<recipe name="Energetic Alloy" energyCost="500000" >
+	<recipe name="Energetic Alloy" energyCost="1500000" >
       <input>
-        <itemStack oreDictionary="dustRedstone"  />
+        <itemStack oreDictionary="dustTungstenSteel"  />
         <itemStack oreDictionary="dustGold"  />
-        <itemStack oreDictionary="dustGlowstone"  />
+        <itemStack oreDictionary="dustConductiveIron"  />
       </input>
       <output>
         <itemStack oreDictionary="ingotEnergeticAlloy" number="1" />
       </output>
     </recipe>
-	<recipe name="Vibrant Alloy" energyCost="1000000" >
+	<recipe name="Vibrant Alloy" energyCost="2000000" >
       <input>
         <itemStack oreDictionary="dustEnergeticAlloy" />
         <itemStack oreDictionary="dustEnderEye" />
-        <itemStack oreDictionary="dustEmerald" />
+        <itemStack oreDictionary="dustChrome" />
       </input>
       <output>
         <itemStack oreDictionary="ingotVibrantAlloy" number="1" />
@@ -74,17 +74,17 @@
         <itemStack oreDictionary="ingotRedstoneAlloy" number="1" />
       </output>
     </recipe>
-	<recipe name="Conductive Iron" energyCost="500000" >
+	<recipe name="Conductive Iron" energyCost="1000000" >
       <input>
-        <itemStack oreDictionary="dustRedstone" />
+        <itemStack oreDictionary="dustRedstoneAlloy" />
         <itemStack oreDictionary="dustIron" />
-		<itemStack oreDictionary="dustGlowstone" />
+		<itemStack oreDictionary="dustTitanium" />
       </input>
       <output>
          <itemStack oreDictionary="ingotConductiveIron" number="1" />
       </output>
     </recipe>
-    <recipe name="Pulsating Iron" energyCost="500000" >
+    <recipe name="Pulsating Iron" energyCost="1000000" >
       <input>
         <itemStack oreDictionary="dustIron"  />
         <itemStack oreDictionary="dustEnderPearl"  />
@@ -94,7 +94,7 @@
          <itemStack oreDictionary="ingotPulsatingIron" number="1" />
       </output>
     </recipe>
-	<recipe name="Dark Steel" energyCost="1000000" >
+	<recipe name="Dark Steel" energyCost="2000000" >
       <input>
         <itemStack oreDictionary="dustElectricalSteel" />
         <itemStack oreDictionary="dustCoal" />
@@ -104,7 +104,7 @@
         <itemStack oreDictionary="ingotDarkSteel" number="1" />
       </output>
     </recipe>
-	<recipe name="Soularium" energyCost="500000" >
+	<recipe name="Soularium" energyCost="1000000" >
       <input>
         <itemStack modID="minecraft" itemName="soul_sand" />
 		<itemStack oreDictionary="dustGold" />
@@ -114,7 +114,7 @@
         <itemStack oreDictionary="ingotSoularium" number="1" />
       </output>
     </recipe>
-	<recipe name="Enderium Base" energyCost="1000000" >
+	<recipe name="Enderium Base" energyCost="2000000" >
       <input>
 		<itemStack oreDictionary="dustTin" number="2" />
 		<itemStack oreDictionary="dustSilver" />
@@ -124,7 +124,7 @@
 	    <itemStack oreDictionary="ingotEnderiumBase" number="4" />
       </output>
 	</recipe>
-	<recipe name="Enderium" energyCost="2000000" >
+	<recipe name="Enderium" energyCost="3000000" >
       <input>
 		<itemStack oreDictionary="dustEnderiumBase" number="2" />
 		<itemStack oreDictionary="dustThaumium" />
