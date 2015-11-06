@@ -234,13 +234,13 @@ recipes.removeShaped(<OpenBlocks:goldenEye:*>);
 
 // --- Glider
 recipes.addShaped(Glider, [
-[null, <ore:screwAluminium>, null],
-[GliderWing, <ore:craftingToolScrewdriver>, GliderWing],
-[null, <ore:screwAluminium>, null]]);
+[<ore:screwAluminium>, <ore:stickAluminium>, <ore:screwAluminium>],
+[GliderWing, <ore:plateAluminium>, GliderWing],
+[<ore:craftingToolWrench>, <ore:stickAluminium>, <ore:craftingToolScrewdriver>]]);
 
 // --- Glider Wing
 recipes.addShaped(GliderWing, [
-[null, AlRod, Leather],
+[<ore:craftingToolHardHammer>, AlRod, Leather],
 [AlRod, TannedLeather, Leather],
 [Leather, Leather, Leather]]);
 

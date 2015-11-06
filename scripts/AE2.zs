@@ -434,6 +434,12 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:80>);
 // --- ME inverted Toggle Bus
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:100>);
 
+// --- ME Dense Cable Fluix
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
+
+// --- ME Smart Cable
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
+
 
 // --- Cells ---
 
@@ -679,14 +685,14 @@ recipes.addShaped(FluixGlassCable * 2, [
 [CertusRod, FluixDust, CertusRod]]);
 
 // --- Fluix Covered Cable
-recipes.addShaped(FluixCoveredC * 2, [
+recipes.addShaped(FluixCoveredC * 3, [
 [RubberPlate, Saw, RubberPlate],
-[QuartzFiber, QuartzFiber, QuartzFiber],
+[FluixGlassCable, FluixGlassCable, FluixGlassCable],
 [RubberPlate, null, RubberPlate]]);
 // - 
-recipes.addShaped(FluixCoveredC * 2, [
+recipes.addShaped(FluixCoveredC * 3, [
 [RubberPlate, null, RubberPlate],
-[QuartzFiber, QuartzFiber, QuartzFiber],
+[FluixGlassCable, FluixGlassCable, FluixGlassCable],
 [RubberPlate, Saw, RubberPlate]]);
 
 // --- Annihilation Core
@@ -1196,6 +1202,20 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:80>, <appliedenergis
 
 // --- ME inverted Toggle Bus
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:100>, <appliedenergistics2:item.ItemMultiPart:80>, <gregtech:gt.integrated_circuit:2> * 0, 100, 4);
+
+// --- Fluix Glass Cable
+Assembler.addRecipe(FluixGlassCable * 3, QuartzFiber * 3, FluixDust * 2, 100, 120);
+
+// --- Fluix Covered Cable
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.rubber> * 144, 150, 120);
+
+// --- ME Dense Cable Fluix
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76>, FluixCoveredC * 4, <gregtech:gt.metaitem.01:17811>, <liquid:molten.redstone> * 144, 200, 120);
+
+// --- ME Smart Cable
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 150, 120);
+
+
 
 
 

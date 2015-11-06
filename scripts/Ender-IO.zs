@@ -10,6 +10,7 @@ import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalBath;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
+import mods.ic2.Macerator;
 
 
 
@@ -100,7 +101,17 @@ val Compass = <minecraft:compass>;
 val RAPlate = <ore:plateRedstoneAlloy>;
 val Binder = <EnderIO:itemMaterial:1>;
 val CIPlate = <ore:plateConductiveIron>;
-
+val ESteelIngot = <ore:ingotElectricalSteel>;
+val ESteelGear = <ore:gearElectricalSteel>;
+val Compartor = <ProjRed|Integration:projectred.integration.gate:26>;
+val IRConduit = <EnderIO:itemRedstoneConduit:2>;
+val VAScrew = <ore:screwVibrantAlloy>;
+val DarkSteelRod = <ore:stickDarkSteel>;
+val EAScrew = <ore:screwEnergeticAlloy>;
+val SoulariumRod = <ore:stickSoularium>;
+val Leather = <ore:itemLeather>;
+val TLeather = <Backpack:tannedLeather>;
+val MSScrew = <ore:screwSteelMagnetic>;
 
 
 
@@ -316,6 +327,72 @@ recipes.remove(<EnderIO:itemPowerConduit:1>);
 
 // --- Ender Energy Conduit
 recipes.remove(<EnderIO:itemPowerConduit:2>);
+
+// --- Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit>);
+
+// --- Pressurized Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:1>);
+
+// --- Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:2>);
+
+// --- Item Conduit
+recipes.remove(<EnderIO:itemItemConduit>);
+
+// --- ME Conduit
+recipes.remove(<EnderIO:itemMEConduit>);
+
+// --- Dense ME Conduit
+recipes.remove(<EnderIO:itemMEConduit:1>);
+
+// --- Basic Item Filter
+recipes.remove(<EnderIO:itemBasicFilterUpgrade>);
+
+// --- Advanced Item Filter
+recipes.remove(<EnderIO:itemBasicFilterUpgrade:1>);
+
+// --- Existing Item Filter
+recipes.remove(<EnderIO:itemExistingItemFilter>);
+
+// --- Mod Item Filter
+recipes.remove(<EnderIO:itemModItemFilter>);
+
+// --- Chargeable Upgrade
+recipes.remove(<EnderIO:itemPowerItemFilter>);
+
+// --- Item Conduit Speed Upgrade
+recipes.remove(<EnderIO:itemExtractSpeedUpgrade>);
+
+// --- Item Conduit Speed Downgrade
+recipes.remove(<EnderIO:itemExtractSpeedUpgrade:1>);
+
+// --- Remote Awareness Upgrade
+recipes.remove(RAUpgrade);
+
+// --- Yeta Wrench
+recipes.remove(<EnderIO:itemYetaWrench>);
+
+// --- Conduit Probe
+recipes.remove(<EnderIO:itemConduitProbe>);
+
+// --- Staff of Traveling
+recipes.remove(<EnderIO:itemTravelStaff:*>);
+
+// --- Experience Rod
+recipes.remove(<EnderIO:itemXpTransfer>);
+
+// --- Soul Vial
+recipes.remove(<EnderIO:itemSoulVessel>);
+
+// --- Glider Wing
+recipes.remove(<EnderIO:itemGliderWing>);
+
+// --- Glider Wings
+recipes.remove(<EnderIO:itemGliderWing:1>);
+
+// --- Electromagnet
+recipes.remove(<EnderIO:itemMagnet:*>);
 
 
 
@@ -580,29 +657,56 @@ recipes.addShaped(<EnderIO:itemCoordSelector>, [
 [PIPlate, Compass, PIPlate],
 [ESteelPlate, EnderEye, ESteelPlate]]);
 
-// --- Redstone Conduit
-recipes.addShaped(<EnderIO:itemRedstoneConduit> * 4, [
-[RAPlate, Wrench, RAPlate],
-[RAPlate, null, RAPlate],
-[RAPlate, Hammer, RAPlate]]);
+// --- Item Conduit Speed Upgrade
+recipes.addShapeless(<EnderIO:itemExtractSpeedUpgrade>, [<EnderIO:itemExtractSpeedUpgrade:1>]);
 
-// --- Energy Conduit
-recipes.addShaped(<EnderIO:itemPowerConduit> * 4, [
-[CIPlate, Wrench, CIPlate],
-[CIPlate, Binder, CIPlate],
-[CIPlate, Hammer, CIPlate]]);
+// --- Remote Awareness Upgrade
+recipes.addShaped(RAUpgrade, [
+[SiliconPlate, Binder, SiliconPlate],
+[AdvCircuit, EnderEye, AdvCircuit],
+[SiliconPlate, ESteelPlate, SiliconPlate]]);
 
-// --- Enhanced Energy Conduit
-recipes.addShaped(<EnderIO:itemPowerConduit:1> * 4, [
-[EAPlate, Wrench, EAPlate],
-[EAPlate, Binder, EAPlate],
-[EAPlate, Hammer, EAPlate]]);
+// --- Yeta Wrench
+recipes.addShaped(<EnderIO:itemYetaWrench>, [
+[ESteelIngot, Hammer, ESteelIngot],
+[ESteelIngot, ESteelGear, ESteelIngot],
+[null, ESteelIngot, null]]);
 
-// --- Ender Energy Conduit
-recipes.addShaped(<EnderIO:itemPowerConduit:2> * 4, [
-[VAPlate, Wrench, VAPlate],
-[VAPlate, Binder, VAPlate],
-[VAPlate, Hammer, VAPlate]]);
+// --- Conduit Probe
+recipes.addShaped(<EnderIO:itemConduitProbe>, [
+[SiliconPlate, EConduit, SiliconPlate],
+[Circuit, Compartor, Circuit],
+[ESteelPlate, IRConduit, ESteelPlate]]);
+
+// --- Staff of Traveling
+recipes.addShaped(<EnderIO:itemTravelStaff:16>, [
+[Screwdriver, AdvCircuit, ECrystal],
+[VAScrew, DarkSteelRod, AdvCircuit],
+[DarkSteelRod, VAScrew, Wrench]]);
+
+// --- Experience Rod
+recipes.addShaped(<EnderIO:itemXpTransfer>, [
+[Screwdriver, AdvCircuit, PCrystal],
+[EAScrew, SoulariumRod, AdvCircuit],
+[SoulariumRod, EAScrew, Wrench]]);
+
+// --- Glider Wing
+recipes.addShaped(<EnderIO:itemGliderWing>, [
+[Hammer, DarkSteelRod, Leather],
+[DarkSteelRod, TLeather, Leather],
+[Leather, Leather, Leather]]);
+
+// --- Glider Wings
+recipes.addShaped(<EnderIO:itemGliderWing:1>, [
+[DarkSteelScrew, DarkSteelRod, DarkSteelScrew],
+[<EnderIO:itemGliderWing>, DarkSteelPlate, <EnderIO:itemGliderWing>],
+[Wrench, DarkSteelRod, Screwdriver]]);
+
+// --- Electromagnet
+recipes.addShaped(<EnderIO:itemMagnet:16>, [
+[ESteelPlate, CIPlate, CIPlate],
+[Wrench, MSScrew, VCrystal],
+[ESteelPlate, CIPlate, CIPlate]]);
 
 
 
@@ -675,7 +779,64 @@ Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <
 Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 200, 64);
 
 // --- Conduit Switch
-Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneConduit:2>, <minecraft:lever>, 200, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneConduit:2>, <minecraft:lever>, 100, 64);
+
+// --- Redstone Conduit
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17381>, 100, 64);
+
+// --- Insulated Redstone Conduit
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 200, 64);
+
+// --- Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.blockmachines:1420>, <gregtech:gt.metaitem.01:17369>, <liquid:molten.plastic> * 144, 200, 120);
+
+// --- Enhanced Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <gregtech:gt.metaitem.01:17366>, <liquid:molten.plastic> * 144, 200, 256);
+
+// --- Ender Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 200, 480);
+
+// --- Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <gregtech:gt.metaitem.01:17365>, <liquid:molten.plastic> * 144, 200, 120);
+
+// --- Pressurized Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 200, 256);
+
+// --- Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 200, 480);
+
+// --- Item Conduit
+Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 200, 256);
+
+// --- ME Conduit
+Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 200, 256);
+
+// --- Dense ME Conduit
+Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit>, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 200, 480);
+
+// --- Basic Item Filter
+Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <IC2:itemPartCarbonMesh> * 2, <minecraft:iron_bars>, 300, 30);
+
+// --- Advanced Item Filter
+Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade>, ZLogic, 300, 64);
+
+// --- Existing Item Filter
+Assembler.addRecipe(<EnderIO:itemExistingItemFilter>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
+
+// --- Mod Item Filter
+Assembler.addRecipe(<EnderIO:itemModItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemYetaWrench>, 300, 64);
+
+// --- Chargeable Upgrade
+Assembler.addRecipe(<EnderIO:itemPowerItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemConduitProbe>, 300, 64);
+
+// --- Item Conduit Speed Upgrade
+Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade>, <EnderIO:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:32640>, 300, 64);
+
+// --- Item Conduit Speed Downgrade
+Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpeedUpgrade>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.rubber> * 144, 300, 64);
+
+// --- Soul Vial
+Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <gregtech:gt.metaitem.01:25379>, 200, 48);
 
 
 
@@ -698,31 +859,8 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11365>], [<gregtech:gt.metaitem
 // --- Hardened Conduit Facade
 ChemicalBath.addRecipe([<EnderIO:itemConduitFacade:1>], <EnderIO:itemConduitFacade>, <liquid:obsidian.molten> * 576, [10000], 200, 2);
 
-
-
-
-// --- Extruder Recipes ---
-
-
-
-// --- Redstone Conduit
-Extruder.addRecipe(<EnderIO:itemRedstoneConduit>, <gregtech:gt.metaitem.01:11381>, <gregtech:gt.metaitem.01:32359> * 0, 20, 120);
-
-// --- Energy Conduit
-Extruder.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.metaitem.01:11369>, <gregtech:gt.metaitem.01:32359> * 0, 40, 256);
-
-// --- Enhanced Energy Conduit
-Extruder.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.metaitem.01:11366>, <gregtech:gt.metaitem.01:32359> * 0, 60, 480);
-
-// --- Ender Energy Conduit
-Extruder.addRecipe(<EnderIO:itemPowerConduit:2>, <EnderIO:itemAlloy:2>, <gregtech:gt.metaitem.01:32359> * 0, 80, 1024);
-// -
-Extruder.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.metaitem.01:11367>, <gregtech:gt.metaitem.01:32359> * 0, 80, 1024);
-
-
-
-
-
+// --- Conduit Binder
+ChemicalBath.addRecipe([<EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1>], <EnderIO:itemMaterial:2>, <liquid:molten.rubber> * 144, [10000, 9000, 5000], 200, 2);
 
 
 
@@ -733,3 +871,12 @@ Extruder.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.metaitem.01:11367>
 
 // --- Dark Steel Anvil
 FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.darksteel> * 4464, 900, 120);
+
+
+
+// --- Macerating Recipes ---
+
+
+
+// --- Binder Composite
+Macerator.addRecipe(<EnderIO:itemMaterial:2> * 9, <IC2:itemPartCFPowder>);

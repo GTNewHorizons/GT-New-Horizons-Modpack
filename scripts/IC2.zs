@@ -762,7 +762,7 @@ recipes.remove(<gregtech:gt.metaitem.02:4084>);
 recipes.remove(<gregtech:gt.metaitem.02:12084>);
 
 // --- Iridium Hammer
-recipes.remove(<gregtech:gt.metatool.01:12>.withTag({"GT.ToolStats": {PrimaryMaterial: "Iridium", MaxDamage: 512000 as long, SecondaryMaterial: "Steel"}}));
+//recipes.remove(<gregtech:gt.metatool.01:12>.withTag({"GT.ToolStats": {PrimaryMaterial: "Iridium", MaxDamage: 512000 as long, SecondaryMaterial: "Steel"}}));
 
 // --- Iridium Pickaxe Head
 recipes.remove(<gregtech:gt.metaitem.02:1084>);

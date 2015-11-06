@@ -550,16 +550,19 @@ recipes.remove(<gregtech:gt.metaitem.01:28344>);
 // ---  Knight Metall Ring
 recipes.remove(<gregtech:gt.metaitem.01:28362>);
 
-// --- GT Shaped and Shapeless Picks removal
-
+// --- GT Swords
 recipes.remove(<gregtech:gt.metatool.01>);
-// -
+
+// --- GT Pickaxes
 recipes.remove(<gregtech:gt.metatool.01:2>);
-// -
+
+// --- GT Shovels
 recipes.remove(<gregtech:gt.metatool.01:4>);
-// -
+
+// --- GT Axes
 recipes.remove(<gregtech:gt.metatool.01:6>);
-// -
+
+// --- GT Hoes
 recipes.remove(<gregtech:gt.metatool.01:8>);
 
 // --- Empty Shape
