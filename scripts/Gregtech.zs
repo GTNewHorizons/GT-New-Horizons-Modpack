@@ -947,7 +947,7 @@ recipes.remove(<gregtech:gt.blockmachines:495>);
 recipes.remove(<gregtech:gt.blockmachines:1001>);
 
 // --- Iridium Dust
-recipes.remove(<gregtech:gt.metaitem.01:2084>);
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
 
 // --- Iridium Ingot
 recipes.remove(<gregtech:gt.metaitem.01:11084>);

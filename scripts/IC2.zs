@@ -761,9 +761,6 @@ recipes.remove(<gregtech:gt.metaitem.02:4084>);
 // --- Iridium Sense Blade
 recipes.remove(<gregtech:gt.metaitem.02:12084>);
 
-// --- Iridium Hammer
-//recipes.remove(<gregtech:gt.metatool.01:12>.withTag({"GT.ToolStats": {PrimaryMaterial: "Iridium", MaxDamage: 512000 as long, SecondaryMaterial: "Steel"}}));
-
 // --- Iridium Pickaxe Head
 recipes.remove(<gregtech:gt.metaitem.02:1084>);
 
@@ -1476,10 +1473,6 @@ recipes.addShaped(<gregtech:gt.metaitem.02:7084>, [
 // --- Iridium Shovel Head
 recipes.addShaped(<gregtech:gt.metaitem.02:2084>, [
 [<ore:craftingToolFile>, <ore:plateIridium>, <ore:craftingToolHardHammer>]]);
-
-// --- Iridium Dust
-recipes.addShaped(<gregtech:gt.metaitem.01:2084> * 16, [
-[<gregtech:gt.metaitem.03:84>, <ore:craftingToolCrowbar>,null]]);
 
 // --- Iridium Ingot
 recipes.addShaped(<gregtech:gt.metaitem.01:11084> * 16, [

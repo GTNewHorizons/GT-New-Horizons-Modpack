@@ -709,7 +709,7 @@ recipes.addShaped(BreadthFirstUp, [
 // --- Pseudo Round-Robin Upgrade
 recipes.addShaped(RoundRobinUp, [
 [RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[Wrench, DiamondGear, SpeedUp],
+[SpeedUp, DiamondGear, Wrench],
 [RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
 
 // --- Stack Upgrade

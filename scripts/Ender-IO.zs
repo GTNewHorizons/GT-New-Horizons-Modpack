@@ -11,6 +11,7 @@ import mods.gregtech.ChemicalBath;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
+import mods.gregtech.Mixer;
 
 
 
@@ -880,3 +881,13 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 // --- Binder Composite
 Macerator.addRecipe(<EnderIO:itemMaterial:2> * 9, <IC2:itemPartCFPowder>);
+
+
+
+
+// --- Mixer Recipes
+
+
+
+// --- Redstone Alloy Dust
+Mixer.addRecipe(<gregtech:gt.metaitem.01:2381>, [<minecraft:redstone>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2535>], 100, 30);

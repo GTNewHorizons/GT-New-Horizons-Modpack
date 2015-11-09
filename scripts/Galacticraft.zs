@@ -522,7 +522,10 @@ recipes.remove(<GalacticraftMars:item.orionDrive>);
 recipes.remove(<GalacticraftCore:item.canvas>);
 
 // --- Titanium Shard
-furnace.remove(<gregtech:gt.metaitem.01:11028>, <GalacticraftMars:item.itemBasicAsteroids:4>);
+furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
+
+// --- Ilmenite Ore
+furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
 
 
 

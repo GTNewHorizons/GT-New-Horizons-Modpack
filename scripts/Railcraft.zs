@@ -13,6 +13,7 @@ import mods.gregtech.Fuels;
 import mods.ic2.Macerator;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
+import mods.gregtech.PrecisionLaser;
 import mods.ic2.SemiFluidGenerator;
 import mods.gregtech.Wiremill;
 
@@ -716,6 +717,8 @@ recipes.remove(<Railcraft:brick.infernal:2>);
 // --- Electrical Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
 
+recipes.remove(<Railcraft:upgrade.lapotron>);
+
 
 
 // --- Add Recipes ---
@@ -1311,7 +1314,8 @@ recipes.addShaped(<Railcraft:machine.gamma:7>, [
 
 // --- Cart Dispenser ---
 recipes.addShaped(<Railcraft:machine.gamma:8>, [
-[Dispenser, Minecart, Track]]);
+[Dispenser, Minecart, Track],
+[null, Crowbar, null]]);
 
 // --- Train Dispenser ---
 recipes.addShaped(<Railcraft:machine.gamma:9>, [
@@ -1757,6 +1761,12 @@ recipes.addShaped(<Railcraft:brick.infernal:2>, [
 [<minecraft:soul_sand>, <minecraft:magma_cream>, <minecraft:soul_sand>],
 [<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>]]);
 
+// --- Lapatron Loader Upgrade
+recipes.addShaped(<Railcraft:upgrade.lapotron>, [
+[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:cableGt02Platinum>, <minecraft:magma_cream>, <ore:cableGt02Platinum>],
+[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>]]);
+
 
 
 // --- Add Fuels ---
@@ -1841,6 +1851,12 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.
 
 // --- Electric Junction Tack ---
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 30);
+
+// --- Refined Firestone ---
+Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
+// -
+Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
+
 
 
 
@@ -1944,6 +1960,17 @@ PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316
 
 
 
+// --- Precision Laser Recipes ---
+
+
+
+
+// --- Firestone Cut
+PrecisionLaser.addRecipe(<Railcraft:firestone.cut>, <gregtech:gt.metaitem.01:24500> * 0, <Railcraft:firestone.raw> * 4, 2400, 480);
+
+
+
+
 
 // --- Nei Rename ---
 
@@ -1951,6 +1978,9 @@ PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316
 
 // --- Advanced Coke Oven Bricks
 <Railcraft:machine.alpha:12>.displayName = "Advanced Coke Oven Bricks";
+
+// --- Lapatron Loader Upgrade
+<Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
 
 
 
