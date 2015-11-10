@@ -24,6 +24,8 @@ public enum ItemList {
 	BioBall(new ModSimpleBaseItem("BioBall",  ModTabList.ModGenericTab)),
 	BioOrganicMesh(new ModSimpleBaseItem("BioOrganicMesh",  ModTabList.ModGenericTab)),
 	BioChunk(new ModSimpleBaseItem("BioChunk",  ModTabList.ModGenericTab)),
+	BowFletchingCast(new ModSimpleBaseItem("BowFletchingCast",  ModTabList.ModGenericTab)),
+	BowStringCast(new ModSimpleBaseItem("BowStringCast",  ModTabList.ModGenericTab)),
 	CompressedBioBall(new ModSimpleBaseItem("CompressedBioBall",  ModTabList.ModGenericTab)),
 	BlackPlutoniumDust(new ModSimpleBaseItem("BlackPlutoniumDust",  ModTabList.ModGenericTab)),
 	BlackPlutoniumPlate(new ModSimpleBaseItem("BlackPlutoniumPlate",  ModTabList.ModGenericTab)),
