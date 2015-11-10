@@ -11,6 +11,7 @@ import mods.gregtech.Brewery;
 import mods.gregtech.Canner;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
+import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
 import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
@@ -1355,11 +1356,12 @@ Extruder.addRecipe(SteelPole, <GalacticraftCore:item.basicItem:9> * 2, <gregtech
 
 
 
-// --- Furnace Recipes ---
+// --- Fluid Canner Recipes
 
 
-// --- Titanium Ingot
-//furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
+// --- Fuel Canister
+FluidCanner.addRecipe(<GalacticraftCore:item.fuelCanisterPartial:1>, <GalacticraftCore:item.fuelCanisterPartial:1001>, null, <liquid:fuel> * 1000);
+
 
 
 

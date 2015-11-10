@@ -121,6 +121,7 @@ val Coil = <IC2:itemRecipePart>;
 
 
 
+
 // --- Removing Recipes ---
 
 
@@ -168,10 +169,10 @@ recipes.remove(UpFrame);
 recipes.remove(Labware);
 
 // --- Blank Gene Sample
-recipes.remove(BlankGene);
+recipes.removeShaped(BlankGene);
 
-// --- Genetic Tamplate
-recipes.remove(<gendustry:GeneTemplate>);
+// --- Genetic Template
+recipes.removeShaped(Template);
 
 // --- Mutagen Tank
 recipes.remove(MutagenTank);

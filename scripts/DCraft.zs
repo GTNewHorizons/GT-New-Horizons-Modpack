@@ -41,6 +41,9 @@ val CobblestoneRod = <dreamcraft:item.CobbleStoneRod>;
 val Sandstone = <ore:sandstone>;
 val Cobblestone = <ore:cobblestone>;
 val Charcoal = <ore:gemCharcoal>;
+val Hammer = <ore:craftingToolHardHammer>;
+val Knife = <ore:craftingToolKnife>;
+val File = <ore:craftingToolFile>;
 
 
 // --- Removing Recipes ---
@@ -561,6 +564,28 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [
 recipes.addShaped(<dreamcraft:item.QuantinumRod>, [
 [<ore:craftingToolFile>, null, null],
 [null, <GalaxySpace:item.QuantiumIgnot>, null]]);
+
+// --- Bow Fletching Cast
+recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
+[null, null, Hammer],
+[null, <TConstruct:blankPattern:1>, Knife],
+[null, null, File]]);
+// -
+recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
+[null, null, Hammer],
+[null, <ore:plateBrass>, Knife],
+[null, null, File]]);
+
+// --- BowString Cast
+recipes.addShaped(<dreamcraft:item.BowStringCast>, [
+[null, null, null],
+[null, <TConstruct:blankPattern:1>, Hammer],
+[null, File, Knife]]);
+// -
+recipes.addShaped(<dreamcraft:item.BowStringCast>, [
+[null, null, null],
+[null, <ore:plateBrass>, Hammer],
+[null, File, Knife]]);
 
 
 
@@ -1413,6 +1438,8 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metait
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24545> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
 // -
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24890> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
+// -
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:17086>, 100, 120);
 
 
 
@@ -1495,6 +1522,30 @@ Extruder.addRecipe(<dreamcraft:item.QuantinumRod> * 2, <GalaxySpace:item.Quantiu
 
 // --- Manyullyn Plate
 Extruder.addRecipe(<dreamcraft:item.ManyullynPlate>, <TConstruct:materials:5>, <gregtech:gt.metaitem.01:32350> * 0, 100, 480);
+
+// --- Feather Fetching
+Extruder.addRecipe(<TConstruct:fletching>, <minecraft:feather>, <dreamcraft:item.BowFletchingCast> * 0, 200, 30);
+
+// --- Green Slime Fetching
+Extruder.addRecipe(<TConstruct:fletching:2>, <TConstruct:materials:1>, <dreamcraft:item.BowFletchingCast> * 0, 200, 30);
+
+// --- Blue Slime Fetching
+Extruder.addRecipe(<TConstruct:fletching:3>, <TConstruct:materials:17>, <dreamcraft:item.BowFletchingCast> * 0, 200, 30);
+
+// --- Leaf Fetching
+Extruder.addRecipe(<TConstruct:fletching:1>, <minecraft:leaves>, <dreamcraft:item.BowFletchingCast> * 0, 200, 30);
+
+// --- Slimeleaf Fetching
+Extruder.addRecipe(<TConstruct:fletching:4>, <TConstruct:slime.leaves>, <dreamcraft:item.BowFletchingCast> * 0, 200, 30);
+
+// --- Bowstring
+Extruder.addRecipe(<TConstruct:bowstring>, <minecraft:string> * 3, <dreamcraft:item.BowStringCast> * 0, 400, 30);
+
+// --- Fiery Bowstring
+Extruder.addRecipe(<TConstruct:bowstring:2>, <Natura:barleyFood:7> * 3, <dreamcraft:item.BowStringCast> * 0, 400, 30);
+
+// --- Enchanting Bowstring
+Extruder.addRecipe(<TConstruct:bowstring:1>, <Thaumcraft:ItemResource:7> * 3, <dreamcraft:item.BowStringCast> * 0, 400, 30);
 
 
 
@@ -1916,6 +1967,12 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldHelmet>, <liquid:ste
 
 // --- Mold Leggings
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormLeggings>, true, 100);
+ 
+// --- Bow Fletching Cast
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, false, 100);
+
+// --- BowString Cast
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, false, 100);
 
 
 // --- Vacuum Freezer Recipes ---

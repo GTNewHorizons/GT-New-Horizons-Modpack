@@ -1001,13 +1001,13 @@ recipes.addShaped(<minecraft:furnace>, [
 // --- Dispenser
 recipes.addShaped(Dispenser, [
 [Cobble, IronRing, Cobble],
-[<ore:springIron>, Bowstring, <ore:springIron>],
+[<ore:springIron>, <minecraft:string>, <ore:springIron>],
 [<ore:gearGtSmallAnyIron>, RedAlloyWire,  <ore:gearGtSmallAnyIron>]]);
 
 // --- Dropper
 recipes.addShaped(Dropper, [
 [Cobble, IronRing, Cobble],
-[<ore:springSmallIron>, Bowstring, <ore:springSmallIron>],
+[<ore:springSmallIron>, <minecraft:string>, <ore:springSmallIron>],
 [<ore:gearGtSmallAnyIron>, RedAlloyWire, <ore:gearGtSmallAnyIron>]]);
 
 // --- Piston

@@ -11,7 +11,6 @@ import mods.gregtech.ChemicalBath;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
-import mods.gregtech.Mixer;
 
 
 
@@ -774,7 +773,7 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:
 Assembler.addRecipe(<EnderIO:itemFusedQuartzFrame>, <gregtech:gt.blockmachines:4905>, <EnderIO:itemMaterial:1> * 4, 100, 16);
 
 // --- Conduit Facade
-Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:1> * 0, 100, 30);
+Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:8> * 0, 100, 30);
 
 // --- Insulated Conduit
 Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 200, 64);
@@ -881,13 +880,3 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 // --- Binder Composite
 Macerator.addRecipe(<EnderIO:itemMaterial:2> * 9, <IC2:itemPartCFPowder>);
-
-
-
-
-// --- Mixer Recipes
-
-
-
-// --- Redstone Alloy Dust
-Mixer.addRecipe(<gregtech:gt.metaitem.01:2381>, [<minecraft:redstone>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2535>], 100, 30);
