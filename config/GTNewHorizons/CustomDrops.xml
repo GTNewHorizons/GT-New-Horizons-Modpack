@@ -6,9 +6,10 @@
         <Drop Identifier="sample_Pig_CharcoalDrop" ItemName="minecraft:coal:1" Amount="5" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFLich">
-        <Drop Identifier="sample_Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>
+		<Drop Identifier="Litch_Ofanix" ItemName="Ztones:ofanix" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFSnowQueen">
-		<Drop Identifier="sample_Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>	
+		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>	
     </CustomDrop>
 </CustomDrops>
