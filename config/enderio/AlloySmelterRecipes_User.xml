@@ -34,7 +34,7 @@
  <!-- GT New Horizons Recipes
  -->
   <recipeGroup name="GTNewHorizons" >
-    <recipe name="Electrical Steel" energyCost="500000" >
+ <!--   <recipe name="Electrical Steel" energyCost="500000" >
       <input>
         <itemStack oreDictionary="dustSteel"  />
         <itemStack oreDictionary="dustCoal" />
@@ -134,7 +134,8 @@
         <itemStack oreDictionary="ingotEnderium" number="2" />
       </output>
     </recipe>
-	<recipe name="Fused Quartz 3 Slots" energyCost="40000" >
+	 -->
+	<recipe name="Fused Quartz 3 Slots" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustCertusQuartz" />
 		<itemStack oreDictionary="dustNetherQuartz" />
@@ -144,7 +145,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Quartz 3 Slots2" energyCost="40000" >
+	<recipe name="Fused Quartz 3 Slots2" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustNetherQuartz" />
 		<itemStack oreDictionary="dustNetherQuartz" />
@@ -154,7 +155,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Quartz 3 Slots3" energyCost="40000" >
+	<recipe name="Fused Quartz 3 Slots3" energyCost="20000" >
       <input>
 		<itemStack oreDictionary="dustCertusQuartz" />
 		<itemStack oreDictionary="dustCertusQuartz" />
@@ -164,7 +165,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" number="3" />
       </output>
     </recipe>
-	<recipe name="Fused Glass 3 Slots" energyCost="30000" >
+	<recipe name="Fused Glass 3 Slots" energyCost="15000" >
       <input>
         <itemStack oreDictionary="dustGlass" />
         <itemStack oreDictionary="dustGlass" />
@@ -174,7 +175,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" number="3" />
       </output>
 	</recipe> 
-	<recipe name="Enlightened Fused Quartz 2" energyCost="20000" >
+	<recipe name="Enlightened Fused Quartz 2" energyCost="10000" >
        <input>
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
         <itemStack oreDictionary="dustGlowstone" number="2" />
@@ -194,7 +195,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="3"  />
       </output>
     </recipe>
-    <recipe name="Dark Fused Quartz" energyCost="20000" >
+    <recipe name="Dark Fused Quartz" energyCost="10000" >
       <input>
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
         <itemStack oreDictionary="dyeBlack" number="2" />
