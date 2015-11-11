@@ -1296,5 +1296,43 @@ public class GT_Loader_Machines
 		//ArcFurnaceLuV
 		//ArcFurnaceZPM
 		//ArcFurnaceUV
+		// ===================================================================================================
+		// CentrifugeLuV
+		// ===================================================================================================
+		 
+		 CustomItemList.CentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11080, "basicmachine.centrifuge.tier.06", "Elite Centrifuge I", 6, "Separating Molecules",
+				 GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
+				 "", false, false, 0, "CENTRIFUGE",
+				 new Object[] { "CEC", "WMW", "CEC",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
+					 'C', AdvancedGTMaterials.LuV.getCircuit(),
+					 'W', AdvancedGTMaterials.LuV.getWire()}).getStackForm(1L));
+		 
+		 CustomItemList.CentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11081, "basicmachine.centrifuge.tier.07", "Elite Centrifuge II", 7, "Separating Molecules",
+				 GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
+				 "", false, false, 0, "CENTRIFUGE",
+				 new Object[] { "CEC", "WMW", "CEC",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
+					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					 'W', AdvancedGTMaterials.ZPM.getWire()}).getStackForm(1L));
+
+		 CustomItemList.CentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11082, "basicmachine.centrifuge.tier.08", "Elite Centrifuge III", 8, "Separating Molecules",
+				 GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
+				 "", false, false, 0, "CENTRIFUGE",
+				 new Object[] { "CEC", "WMW", "CEC",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
+					 'C', AdvancedGTMaterials.UV.getCircuit(),
+					 'W', AdvancedGTMaterials.UV.getWire()}).getStackForm(1L));
+
+
+		 //CentrifugeLuV
+		 //CentrifugeZPM
+		 //CentrifugeUV
 	}
 }

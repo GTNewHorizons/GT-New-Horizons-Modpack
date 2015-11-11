@@ -23,7 +23,7 @@ public enum CustomItemList implements IItemContainer
 	BendingMachineLuV, BendingMachineZPM, BendingMachineUV,
 	//BreweryLuV, BreweryZPM, BreweryUV,
 	//CanningMachineLuV, CanningMachineZPM, CanningMachineUV,
-	//CentrifugeLuV, CentrifugeZPM, CentrifugeUV,
+	CentrifugeLuV, CentrifugeZPM, CentrifugeUV,
 	//ChemicalBathLuV, ChemicalBathZPM, ChemicalBathUV,
 	//ChemicalReactorLuV, ChemicalReactorZPM, ChemicalReactorUV,
 	CompressorLuV, CompressorZPM, CompressorUV,
