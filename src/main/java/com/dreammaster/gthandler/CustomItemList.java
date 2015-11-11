@@ -51,7 +51,7 @@ public enum CustomItemList implements IItemContainer
 	//MixerLuV, MixerZPM, MixerUV,
 	OreWashingPlantLuV, OreWashingPlantZPM, OreWashingPlantUV,
 	//PackagerLuV, PackagerZPM, PackagerUV,
-	//PlasmaArcFurnaceLuV, PlasmaArcFurnaceZPM, PlasmaArcFurnaceUV,
+	PlasmaArcFurnaceLuV, PlasmaArcFurnaceZPM, PlasmaArcFurnaceUV,
 	PolarizerLuV, PolarizerZPM, PolarizerUV,
 	//PrinterLuV, PrinterZPM, PrinterUV,
 	//RockBreakerLuV, RockBreakerZPM, RockBreakerUV,

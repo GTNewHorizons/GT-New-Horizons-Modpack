@@ -1310,7 +1310,7 @@ public class GT_Loader_Machines
 					 'C', AdvancedGTMaterials.LuV.getCircuit(),
 					 'W', AdvancedGTMaterials.LuV.getWire()}).getStackForm(1L));
 		 
-		 CustomItemList.CentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		 CustomItemList.CentrifugeZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 11081, "basicmachine.centrifuge.tier.07", "Elite Centrifuge II", 7, "Separating Molecules",
 				 GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				 "", false, false, 0, "CENTRIFUGE",
@@ -1320,7 +1320,7 @@ public class GT_Loader_Machines
 					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
 					 'W', AdvancedGTMaterials.ZPM.getWire()}).getStackForm(1L));
 
-		 CustomItemList.CentrifugeLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		 CustomItemList.CentrifugeUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 11082, "basicmachine.centrifuge.tier.08", "Elite Centrifuge III", 8, "Separating Molecules",
 				 GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				 "", false, false, 0, "CENTRIFUGE",
@@ -1334,5 +1334,49 @@ public class GT_Loader_Machines
 		 //CentrifugeLuV
 		 //CentrifugeZPM
 		 //CentrifugeUV
+		 
+		 // ===================================================================================================
+		 // PlasmaArcFurnaceLuV
+		 // ===================================================================================================
+		 
+		 CustomItemList.PlasmaArcFurnaceLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11090, "basicmachine.plasmaarcfurnace.tier.06", "Elite Plasma Arc Furnace I", 6, "",
+				 GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
+				 (String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",
+				 new Object[] { "WGW", "CMC", "TPT",
+				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+				 'P', OrePrefixes.plateDouble.get(Materials.Chrome), 
+				 'C', AdvancedGTMaterials.LuV.getCircuit(),
+				 'W', AdvancedGTMaterials.LuV.getCable4(),
+				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
+				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+
+		 CustomItemList.PlasmaArcFurnaceZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11091, "basicmachine.plasmaarcfurnace.tier.07", "Elite Plasma Arc Furnace II", 7, "",
+				 GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
+				 (String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",
+				 new Object[] { "WGW", "CMC", "TPT",
+				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+				 'P', OrePrefixes.plateDouble.get(Materials.Iridium), 
+				 'C', AdvancedGTMaterials.ZPM.getCircuit(),
+				 'W', AdvancedGTMaterials.ZPM.getCable4(),
+				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
+				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+
+		 CustomItemList.PlasmaArcFurnaceUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11092, "basicmachine.plasmaarcfurnace.tier.08", "Elite Plasma Arc Furnace III", 8, "",
+				 GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
+				 (String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",
+				 new Object[] { "WGW", "CMC", "TPT",
+				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+				 'P', OrePrefixes.plateDouble.get(Materials.Osmium), 
+				 'C', AdvancedGTMaterials.UV.getCircuit(),
+				 'W', AdvancedGTMaterials.UV.getCable4(),
+				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
+				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+
+		 //PlasmaArcFurnaceLuV
+		 //PlasmaArcFurnaceZPM
+		 //PlasmaArcFurnaceUV
 	}
 }
