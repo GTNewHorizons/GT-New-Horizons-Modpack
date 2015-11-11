@@ -17,7 +17,7 @@ public enum CustomItemList implements IItemContainer
 	Generator_Plasma_ZPMV, Generator_Plasma_UV,
 	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV,
 	AmplifabricatorLuV, AmplifabricatorZPM, AmplifabricatorUV,
-	//ArcFurnaceLuV, ArcFurnaceZPM, ArcFurnaceUV,
+	ArcFurnaceLuV, ArcFurnaceZPM, ArcFurnaceUV,
 	AssemblingMachineLuV, AssemblingMachineZPM, AssemblingMachineUV,
 	AutoclaveLuV, AutoclaveZPM, AutoclaveUV,
 	BendingMachineLuV, BendingMachineZPM, BendingMachineUV,

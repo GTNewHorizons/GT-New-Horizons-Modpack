@@ -1256,5 +1256,45 @@ public class GT_Loader_Machines
 		 // ---------------------
 		 // Free IDs: 11070 - 11263
 		 // 19.10.2015 Namikon
+		 
+		// ===================================================================================================
+		// ArcFurnaceLuV
+		// ===================================================================================================
+		 CustomItemList.ArcFurnaceLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11070, "basicmachine.arcfurnace.tier.06", "Elite Arc Furnace I", 6, "", 
+				 GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png", 
+				 (String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE", 
+				 new Object[] { "WGW", "CMC", "PPP",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'P', OrePrefixes.plateDouble.get(Materials.Chrome), 
+					 'C', AdvancedGTMaterials.LuV.getCircuit(),
+					 'W', AdvancedGTMaterials.LuV.getWire(),
+					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+		   
+		 CustomItemList.ArcFurnaceZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11071, "basicmachine.arcfurnace.tier.07", "Elite Arc Furnace II", 7, "", 
+				 GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png", 
+				 (String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE", 
+				 new Object[] { "WGW", "CMC", "PPP",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'P', OrePrefixes.plateDouble.get(Materials.Iridium), 
+					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
+					 'W', AdvancedGTMaterials.ZPM.getWire(),
+					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+		   
+		 CustomItemList.ArcFurnaceUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				 11072, "basicmachine.arcfurnace.tier.08", "Elite Arc Furnace III", 8, "", 
+				 GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png", 
+				 (String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE", 
+				 new Object[] { "WGW", "CMC", "PPP",
+					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					 'P', OrePrefixes.plateDouble.get(Materials.Osmium), 
+					 'C', AdvancedGTMaterials.UV.getCircuit(),
+					 'W', AdvancedGTMaterials.UV.getWire(),
+					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
+		   
+		//ArcFurnaceLuV
+		//ArcFurnaceZPM
+		//ArcFurnaceUV
 	}
 }
