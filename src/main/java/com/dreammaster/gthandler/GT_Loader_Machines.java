@@ -1347,7 +1347,7 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Chrome), 
 				 'C', AdvancedGTMaterials.LuV.getCircuit(),
-				 'W', AdvancedGTMaterials.LuV.getCable4(),
+				 'W', AdvancedGTMaterials.LuV.getWire(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
@@ -1359,7 +1359,7 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Iridium), 
 				 'C', AdvancedGTMaterials.ZPM.getCircuit(),
-				 'W', AdvancedGTMaterials.ZPM.getCable4(),
+				 'W', AdvancedGTMaterials.ZPM.getWire(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
@@ -1371,7 +1371,7 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Osmium), 
 				 'C', AdvancedGTMaterials.UV.getCircuit(),
-				 'W', AdvancedGTMaterials.UV.getCable4(),
+				 'W', AdvancedGTMaterials.UV.getWire(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
