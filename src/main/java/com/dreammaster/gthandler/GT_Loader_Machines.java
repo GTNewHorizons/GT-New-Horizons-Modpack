@@ -853,7 +853,32 @@ public class GT_Loader_Machines
 		CustomItemList.MassFabricatorLuV.set(new GT_MetaTileEntity_Massfabricator(10950, "basicmachine.massfab.tier.06", "Elite Mass Fabricator I", 6).getStackForm(1L));
 		CustomItemList.MassFabricatorZPM.set(new GT_MetaTileEntity_Massfabricator(10951, "basicmachine.massfab.tier.07", "Elite Mass Fabricator II", 7).getStackForm(1L));
 		CustomItemList.MassFabricatorUV.set(new GT_MetaTileEntity_Massfabricator(10952, "basicmachine.massfab.tier.08", "Elite Mass Fabricator III", 8).getStackForm(1L));
-		   
+
+		
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorLuV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "CFC", "WMW", "CFC",
+			    'M', ItemList.Hull_LuV,
+			    'F', ItemList.Field_Generator_LuV,
+			    'C', AdvancedGTMaterials.LuV.getCircuit(),
+			    'W', AdvancedGTMaterials.LuV.getCable4()});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorZPM.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "CFC", "WMW", "CFC",
+			    'M', ItemList.Hull_ZPM,
+			    'F', ItemList.Field_Generator_ZPM,
+			    'C', AdvancedGTMaterials.ZPM.getCircuit(),
+			    'W', AdvancedGTMaterials.ZPM.getCable4()});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorUV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				new Object[] { "CFC", "WMW", "CFC",
+			    'M', ItemList.Hull_UV,
+			    'F', ItemList.Field_Generator_UV,
+			    'C', AdvancedGTMaterials.UV.getCircuit(),
+			    'W', AdvancedGTMaterials.UV.getCable4()});
+
 		//MassFabricatorLuV
 		//MassFabricatorZPM
 		//MassFabricatorUV
