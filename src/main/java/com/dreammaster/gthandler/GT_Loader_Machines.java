@@ -1253,9 +1253,6 @@ public class GT_Loader_Machines
 			 'C', AdvancedGTMaterials.UV.getCircuit(), 
 			 'P', ItemList.Electric_Pump_UV});
 */
-		 // ---------------------
-		 // Free IDs: 11070 - 11263
-		 // 19.10.2015 Namikon
 		 
 		// ===================================================================================================
 		// ArcFurnaceLuV
@@ -1378,5 +1375,9 @@ public class GT_Loader_Machines
 		 //PlasmaArcFurnaceLuV
 		 //PlasmaArcFurnaceZPM
 		 //PlasmaArcFurnaceUV
+		 
+		 // ---------------------
+		 // Free IDs: 11100 - 11263
+		 // 11.11.2015 Namikon
 	}
 }
