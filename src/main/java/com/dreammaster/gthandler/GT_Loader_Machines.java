@@ -1265,7 +1265,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'P', OrePrefixes.plateDouble.get(Materials.Chrome), 
 					 'C', AdvancedGTMaterials.LuV.getCircuit(),
-					 'W', AdvancedGTMaterials.LuV.getWire(),
+					 'W', AdvancedGTMaterials.LuV.getCable4(),
 					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 		   
 		 CustomItemList.ArcFurnaceZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
@@ -1276,7 +1276,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'P', OrePrefixes.plateDouble.get(Materials.Iridium), 
 					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
-					 'W', AdvancedGTMaterials.ZPM.getWire(),
+					 'W', AdvancedGTMaterials.ZPM.getCable4(),
 					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 		   
 		 CustomItemList.ArcFurnaceUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
@@ -1287,7 +1287,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'P', OrePrefixes.plateDouble.get(Materials.Osmium), 
 					 'C', AdvancedGTMaterials.UV.getCircuit(),
-					 'W', AdvancedGTMaterials.UV.getWire(),
+					 'W', AdvancedGTMaterials.UV.getCable4(),
 					 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 		   
 		//ArcFurnaceLuV
@@ -1305,7 +1305,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
 					 'C', AdvancedGTMaterials.LuV.getCircuit(),
-					 'W', AdvancedGTMaterials.LuV.getWire()}).getStackForm(1L));
+					 'W', AdvancedGTMaterials.LuV.getCable()}).getStackForm(1L));
 		 
 		 CustomItemList.CentrifugeZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 11081, "basicmachine.centrifuge.tier.07", "Elite Centrifuge II", 7, "Separating Molecules",
@@ -1315,7 +1315,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
 					 'C', AdvancedGTMaterials.ZPM.getCircuit(),
-					 'W', AdvancedGTMaterials.ZPM.getWire()}).getStackForm(1L));
+					 'W', AdvancedGTMaterials.ZPM.getCable()}).getStackForm(1L));
 
 		 CustomItemList.CentrifugeUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 11082, "basicmachine.centrifuge.tier.08", "Elite Centrifuge III", 8, "Separating Molecules",
@@ -1325,7 +1325,7 @@ public class GT_Loader_Machines
 					 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 					 'E', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.MOTOR,
 					 'C', AdvancedGTMaterials.UV.getCircuit(),
-					 'W', AdvancedGTMaterials.UV.getWire()}).getStackForm(1L));
+					 'W', AdvancedGTMaterials.UV.getCable()}).getStackForm(1L));
 
 
 		 //CentrifugeLuV
@@ -1344,7 +1344,7 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Chrome), 
 				 'C', AdvancedGTMaterials.LuV.getCircuit(),
-				 'W', AdvancedGTMaterials.LuV.getWire(),
+				 'W', AdvancedGTMaterials.LuV.getCable4(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
@@ -1356,10 +1356,11 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Iridium), 
 				 'C', AdvancedGTMaterials.ZPM.getCircuit(),
-				 'W', AdvancedGTMaterials.ZPM.getWire(),
+				 'W', AdvancedGTMaterials.ZPM.getCable4(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
+		 
 		 CustomItemList.PlasmaArcFurnaceUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				 11092, "basicmachine.plasmaarcfurnace.tier.08", "Elite Plasma Arc Furnace III", 8, "",
 				 GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
@@ -1368,10 +1369,9 @@ public class GT_Loader_Machines
 				 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
 				 'P', OrePrefixes.plateDouble.get(Materials.Osmium), 
 				 'C', AdvancedGTMaterials.UV.getCircuit(),
-				 'W', AdvancedGTMaterials.UV.getWire(),
+				 'W', AdvancedGTMaterials.UV.getCable4(),
 				 'T', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
 				 'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
-
 		 //PlasmaArcFurnaceLuV
 		 //PlasmaArcFurnaceZPM
 		 //PlasmaArcFurnaceUV
