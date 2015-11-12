@@ -1764,7 +1764,7 @@ ChemicalBath.addRecipe([<IC2:itemToolPainterWhite>], <IC2:itemToolPainter>, <liq
 
 
 
-//Uranium Block
+// --- Uranium Block
 Compressor.addRecipe(<IC2:blockMetal:3>, <IC2:itemUran238> * 9);
 
 // --- Plant Ball

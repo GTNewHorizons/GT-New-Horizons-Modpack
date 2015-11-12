@@ -776,7 +776,7 @@ Assembler.addRecipe(<EnderIO:itemFusedQuartzFrame>, <gregtech:gt.blockmachines:4
 Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:8> * 0, 100, 30);
 
 // --- Insulated Conduit
-Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 200, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 100, 64);
 
 // --- Conduit Switch
 Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneConduit:2>, <minecraft:lever>, 100, 64);
@@ -785,34 +785,34 @@ Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneCondui
 Assembler.addRecipe(<EnderIO:itemRedstoneConduit>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17381>, 100, 64);
 
 // --- Insulated Redstone Conduit
-Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 200, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 100, 64);
 
 // --- Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.blockmachines:1420>, <gregtech:gt.metaitem.01:17369>, <liquid:molten.plastic> * 144, 200, 120);
+Assembler.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.blockmachines:1420>, <gregtech:gt.metaitem.01:17369>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- Enhanced Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <gregtech:gt.metaitem.01:17366>, <liquid:molten.plastic> * 144, 200, 256);
+Assembler.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <gregtech:gt.metaitem.01:17366>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 200, 480);
+Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <gregtech:gt.metaitem.01:17365>, <liquid:molten.plastic> * 144, 200, 120);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <gregtech:gt.metaitem.01:17365>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- Pressurized Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 200, 256);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 200, 480);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Item Conduit
-Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 200, 256);
+Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 200, 256);
+Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Dense ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit>, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 200, 480);
+Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit>, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Basic Item Filter
 Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <IC2:itemPartCarbonMesh> * 2, <minecraft:iron_bars>, 300, 30);
@@ -837,16 +837,6 @@ Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpe
 
 // --- Soul Vial
 Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <gregtech:gt.metaitem.01:25379>, 200, 48);
-
-
-
-
-// --- Blast Furnace Recipes ---
-
-
-
-// --- Electrical Steel
-BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11365>], [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:2020>], 600, 120, 1000);
 
 
 

@@ -234,9 +234,6 @@ recipes.remove(<gendustry:ErrorSensorCover>);
 
 
 
-
-
-
 // --- Adding Back Recipes ---
 
 
@@ -300,7 +297,6 @@ recipes.addShaped(Replicator, [
 
 
 // --- Items ---
-
 
 
 
@@ -460,11 +456,24 @@ recipes.addShaped(<gendustry:ClimateModule>, [
 [TitaniumRod, TitaniumRotor, TitaniumRod],
 [CopperCasing, EVMotor, CopperCasing]]);
 
+// --- Blank Gene Sample
+furnace.addRecipe(<gendustry:GeneSampleBlank>, <gendustry:GeneSample>);
+
+// --- Gene Template
+furnace.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneTemplate>);
+
+
+// --- Ordicted ---
+
+
+
+// --- Gendutry Bee Combs
+oreDict.beeComb.add(<gendustry:HoneyComb:*>);
+
 
 
 
 // --- Assembler Recipes ---
-
 
 
 
@@ -497,7 +506,6 @@ Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17028>, <I
 
 // --- Error Sensor Cover
 Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17028>, <IC2:upgradeModule:5>, 100, 480);
-
 
 
 
