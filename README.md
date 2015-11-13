@@ -6,7 +6,7 @@
 -
 
 
-Version 1.0.7 is out (08.11.2015)(GT New Horizons Coremod 1.0.3) (GTTweaker 1.0.9)
+Version 1.0.7 is out (08.11.2015)(GT New Horizons Coremod 1.0.51) (GTTweaker 1.0.9)
 
 
 Large Modpack with every recipe Gregified
