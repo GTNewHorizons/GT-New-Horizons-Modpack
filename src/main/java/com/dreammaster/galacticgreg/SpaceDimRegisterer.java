@@ -166,7 +166,9 @@ public class SpaceDimRegisterer
         ModDBMDef DBMOberon = new ModDBMDef("oberonstone");       
         ModDBMDef DBMProteus = new ModDBMDef("proteusstone");      
         ModDBMDef DBMTriton = new ModDBMDef("tritonstone");       
-        ModDBMDef DBMPluto = new ModDBMDef("plutostone");        
+        ModDBMDef DBMPluto = new ModDBMDef("plutostone");
+        ModDBMDef DBMMakemake = new ModDBMDef("akemakesubgrunt");
+        ModDBMDef DBMCentauriA = new ModDBMDef("centauriasubgrunt");
 
         // Now define the available dimensions, and their chunkprovider.
         // Same as above, to not have any dependency in your code, you can just give it a string.
@@ -189,6 +191,10 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Phobos", "blessentumble.moons.phobos.dimension.ChunkProviderPhobos", DimensionType.Planet, singleToList(DBMPhobos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Venus", "blessentumble.planets.SolarSystem.venus.dimension.ChunkProviderVenus", DimensionType.Planet, singleToList(DBMVenus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Mercury", "blessentumble.planets.SolarSystem.mercury.dimension.ChunkProviderMercury", DimensionType.Planet, singleToList(DBMMercury)));
+
+        //14.11.2015 GSpace v2.6
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("MakeMake", "blessentumble.planets.SolarSystem.makemake.dimension.WorldProviderMakemake", DimensionType.Planet, singleToList(DBMMakemake)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("CnetauriA", "blessentumble.planets.ACentauriSystem.aCentauriBb.dimension.ACentauriSystem.aCentauriBb", DimensionType.Planet, singleToList(DBMCentauriA)));
 
         // GSpace 2.2-Beta: Kupierbelt
         ModDimensionDef dimKupierBelt = new ModDimensionDef("Kuiperbelt", "blessentumble.planets.SolarSystem.kuiperbelt.dimension.ChunkProviderKuiper", DimensionType.Asteroid);
