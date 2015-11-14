@@ -4,9 +4,6 @@
 	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4Don't use above y-level 128"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device"/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination"/>
-	<ToolTip ItemName="RIO:item.remoteAccessor" ToolTip="§4Disabled Item; No recipe"/>
-	<ToolTip ItemName="RIO:item.linker" ToolTip="§4Disabled Item; No recipe"/>
-	<ToolTip ItemName="RIO:item.pda" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe"/>
     <ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe"/>
