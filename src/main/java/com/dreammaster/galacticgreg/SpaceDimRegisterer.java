@@ -193,7 +193,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Mercury", "blessentumble.planets.SolarSystem.mercury.dimension.ChunkProviderMercury", DimensionType.Planet, singleToList(DBMMercury)));
 
         //14.11.2015 GSpace v2.6
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("MakeMake", "blessentumble.planets.SolarSystem.makemake.dimension.ChunkdProviderMakemake", DimensionType.Planet, singleToList(DBMMakemake)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("MakeMake", "blessentumble.planets.SolarSystem.makemake.dimension.ChunkProviderMakemake", DimensionType.Planet, singleToList(DBMMakemake)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "blessentumble.planets.ACentauriSystem.aCentauriBb.dimension.ChunkProviderACentauriBb", DimensionType.Planet, singleToList(DBMCentauriA)));
 
         // GSpace 2.2-Beta: Kupierbelt
