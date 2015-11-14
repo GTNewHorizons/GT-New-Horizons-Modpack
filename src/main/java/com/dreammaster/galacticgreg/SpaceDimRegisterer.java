@@ -167,8 +167,8 @@ public class SpaceDimRegisterer
         ModDBMDef DBMProteus = new ModDBMDef("proteusstone");      
         ModDBMDef DBMTriton = new ModDBMDef("tritonstone");       
         ModDBMDef DBMPluto = new ModDBMDef("plutostone");
-        ModDBMDef DBMMakemake = new ModDBMDef("akemakesubgrunt");
-        ModDBMDef DBMCentauriA = new ModDBMDef("centauriasubgrunt");
+        ModDBMDef DBMMakemake = new ModDBMDef("makemakesubgrunt");
+        ModDBMDef DBMCentauriA = new ModDBMDef("acentauribbsubgrunt");
 
         // Now define the available dimensions, and their chunkprovider.
         // Same as above, to not have any dependency in your code, you can just give it a string.
