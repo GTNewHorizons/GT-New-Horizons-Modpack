@@ -78,6 +78,21 @@ val GalgadorianDrillTip = <ore:toolHeadDrillGalgadorian>;
 val CobaltBrassGear = <ore:gearCobaltBrass>;
 val SReinforcedDust = <ore:dustSmallReinforced>;
 val SGalgadorianDust = <ore:dustSmallGalgadorian>;
+val IronCasing = <IC2:itemCasing:4>;
+val Furnace = <ore:craftingFurnace>;
+val Piston = <ore:craftingPiston>; 
+val IronFurnace = <ore:craftingIronFurnace>;
+val LVMotor = <gregtech:gt.metaitem.01:32600>;
+val MVMotor = <gregtech:gt.metaitem.01:32601>;
+val LVPiston = <gregtech:gt.metaitem.01:32640>;
+val MVPiston = <gregtech:gt.metaitem.01:32641>;
+val LPBoiler = <Railcraft:machine.beta:3>;
+val HPBoiler = <Railcraft:machine.beta:4>;
+val AluScrew = <ore:screwAluminium>;
+val IronTank = <irontank:ironTank>;
+val ObsidianTank = <irontank:obsidianTank>;
+val SolarPanel = <StevesCarts:ModuleComponents:44>;
+val AdvSolarPanel = <StevesCarts:ModuleComponents:58>;
 
 
 
@@ -204,6 +219,38 @@ recipes.remove(<StevesCarts:ModuleComponents:83>);
 // --- Blade Arm
 recipes.remove(<StevesCarts:ModuleComponents:84>);
 
+// --- Tiny Coal Engine
+recipes.remove(<StevesCarts:CartModule:44>);
+
+// --- Coal Engine
+recipes.remove(<StevesCarts:CartModule>);
+
+// --- Basic Solar Engine
+recipes.remove(<StevesCarts:CartModule:45>);
+
+// --- Solar Engine
+recipes.remove(<StevesCarts:CartModule:1>);
+
+// --- Compact Solar Engine
+recipes.remove(<StevesCarts:CartModule:56>);
+
+// --- Thermal Engine
+recipes.remove(<StevesCarts:CartModule:69>);
+
+// --- Advanced Thermal Engine
+recipes.remove(<StevesCarts:CartModule:70>);
+
+// --- Solar Panel
+recipes.remove(SolarPanel);
+
+// --- Advanced Solar Panel
+recipes.remove(AdvSolarPanel);
+
+// --- PCB
+recipes.remove(PCB);
+
+// --- Advanced PCB
+recipes.remove(AdvPCB);
 
 
 
@@ -354,6 +401,48 @@ recipes.addShaped(<StevesCarts:ModuleComponents:81>, [
 [SGalgadorianDust, CobaltBrassGear, SGalgadorianDust],
 [null, SGalgadorianDust, null]]);
 
+// --- Tiny Coal Engine
+recipes.addShaped(<StevesCarts:CartModule:44>, [
+[IronCasing, Furnace, IronCasing],
+[IronScrew, LVMotor, IronScrew],
+[Wrench, Piston, Screwdriver]]);
+
+// --- Coal Engine
+recipes.addShaped(<StevesCarts:CartModule>, [
+[SteelCasing, IronFurnace, SteelCasing],
+[LVMotor, SteelScrew, LVMotor],
+[LVPiston, Screwdriver, LVPiston]]);
+
+// --- Basic Solar Engine
+recipes.addShaped(<StevesCarts:CartModule:45>, [
+[SolarPanel, PCB, SolarPanel],
+[SteelScrew, LVMotor, SteelScrew],
+[Wrench, LVPiston, Screwdriver]]);
+
+// --- Solar Engine
+recipes.addShaped(<StevesCarts:CartModule:1>, [
+[SolarPanel, SolarPanel, SolarPanel],
+[LVMotor, AdvPCB, LVMotor],
+[LVPiston, AluScrew, LVPiston]]);
+
+// --- Compact Solar Engine
+recipes.addShaped(<StevesCarts:CartModule:56>, [
+[AdvSolarPanel, <StevesCarts:CartModule:1>, AdvSolarPanel],
+[MVMotor, AdvPCB, MVMotor],
+[MVPiston, StainlessSteelScrew, MVPiston]]);
+
+// --- Thermal Engine
+recipes.addShaped(<StevesCarts:CartModule:69>, [
+[SteelCasing, IronFurnace, SteelCasing],
+[LVMotor, ObsidianTank, LVMotor],
+[LVPiston, LPBoiler, LVPiston]]);
+
+// --- Advanced Thermal Engine
+recipes.addShaped(<StevesCarts:CartModule:70>, [
+[ReinforcedPlate, <StevesCarts:CartModule:69>, ReinforcedPlate],
+[MVMotor, IronTank, MVMotor],
+[MVPiston, HPBoiler, MVPiston]]);
+
 
 
 
@@ -403,6 +492,22 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:83>, <gregtech:gt.metaitem.02:
 
 // --- Blade Arm
 Assembler.addRecipe(<StevesCarts:ModuleComponents:84>, <gregtech:gt.metaitem.02:31032>, <StevesCarts:ModuleComponents:83> * 4, 600, 16);
+
+// --- Solar Panel
+Assembler.addRecipe(SolarPanel, <gregtech:gt.metaitem.01:32750>, PCB, 600, 30);
+
+// --- Advanced Solar Panel
+Assembler.addRecipe(AdvSolarPanel, SolarPanel * 4, AdvPCB * 2, 1200, 120);
+
+// --- PCB
+Assembler.addRecipe(PCB, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17086>, 200, 30);
+
+// --- Advanced PCB
+Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.tin> * 144, 200, 120);
+// -
+Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.lead> * 288, 200, 120);
+// -
+Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.solderingalloy> * 72, 200, 120);
 
 
 
