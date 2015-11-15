@@ -1178,18 +1178,18 @@ recipes.addShaped(Fence * 6, [
 // --- Fence Gate
 recipes.addShaped(FenceGate, [
 [Flint, null, Flint],
-[Plank, Stick, Plank],
-[Plank, Stick, Plank]]);
+[<minecraft:planks>, Stick, <minecraft:planks>],
+[<minecraft:planks>, Stick, <minecraft:planks>]]);
 // -
 recipes.addShaped(FenceGate * 2, [
 [IronScrew, Screwdriver, IronScrew],
-[Plank, Stick, Plank],
-[Plank, Stick, Plank]]);
+[<minecraft:planks>, Stick, <minecraft:planks>],
+[<minecraft:planks>, Stick, <minecraft:planks>]]);
 // -
 recipes.addShaped(FenceGate * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
-[Plank, Stick, Plank],
-[Plank, Stick, Plank]]);
+[<minecraft:planks>, Stick, <minecraft:planks>],
+[<minecraft:planks>, Stick, <minecraft:planks>]]);
 // -
 recipes.addShaped(FenceGate * 2, [
 [null, null, null],

@@ -151,6 +151,22 @@ recipes.remove(<malisisdoors:item.saloon>);
 // ---  Forcefield Controller
 recipes.remove(<malisisdoors:item.forcefieldItem>);
 
+// --- Arcania Fence Gate
+recipes.remove(<malisisdoors:acaciaFenceGate>);
+
+// --- Birch Fence Gate
+recipes.remove(<malisisdoors:birchFenceGate>);
+
+// --- Dark Oak Fence Gate
+recipes.remove(<malisisdoors:darkOakFenceGate>);
+
+// --- Jungle Fence Gate
+recipes.remove(<malisisdoors:jungleFenceGate>);
+
+// --- Spruce Fence Gate
+recipes.remove(<malisisdoors:spruceFenceGate>);
+
+
 
 
 
@@ -418,7 +434,88 @@ recipes.addShaped(<malisisdoors:item.saloon> * 2, [
 recipes.addShaped(<malisisdoors:item.forcefieldItem>, [
 [DiamondPlate, ThaumiumPlate, DiamondPlate],
 [Comparator, EnderEyelLense, Comparator],
-[DiamondPlate, Synchronizer, DiamondPlate]]);
+[DiamondPlate, Synchronizer, DiamondPlate]]);#
+
+// --- Arcania Fence Gate
+recipes.addShaped(<malisisdoors:acaciaFenceGate>, [
+[Flint, null, Flint],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>]]);
+// -
+recipes.addShaped(<malisisdoors:acaciaFenceGate> * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>]]);
+// -
+recipes.addShaped(<malisisdoors:acaciaFenceGate> * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>],
+[<minecraft:planks:4>, Stick, <minecraft:planks:4>]]);
+
+// --- Birch Fence Gate
+recipes.addShaped(<malisisdoors:birchFenceGate>, [
+[Flint, null, Flint],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>]]);
+// -
+recipes.addShaped(<malisisdoors:birchFenceGate> * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>]]);
+// -
+recipes.addShaped(<malisisdoors:birchFenceGate> * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>],
+[<minecraft:planks:2>, Stick, <minecraft:planks:2>]]);
+
+// --- Dark Oak Fence Gate
+recipes.addShaped(<malisisdoors:darkOakFenceGate>, [
+[Flint, null, Flint],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>]]);
+// -
+recipes.addShaped(<malisisdoors:darkOakFenceGate> * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>]]);
+// -
+recipes.addShaped(<malisisdoors:darkOakFenceGate> * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>],
+[<minecraft:planks:5>, Stick, <minecraft:planks:5>]]);
+
+// --- Jungle Fence Gate
+recipes.addShaped(<malisisdoors:jungleFenceGate>, [
+[Flint, null, Flint],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>]]);
+// -
+recipes.addShaped(<malisisdoors:jungleFenceGate> * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>]]);
+// -
+recipes.addShaped(<malisisdoors:jungleFenceGate> * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>],
+[<minecraft:planks:3>, Stick, <minecraft:planks:3>]]);
+
+// --- Spruce Fence Gate
+recipes.addShaped(<malisisdoors:spruceFenceGate>, [
+[Flint, null, Flint],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>]]);
+// -
+recipes.addShaped(<malisisdoors:spruceFenceGate> * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>]]);
+// -
+recipes.addShaped(<malisisdoors:spruceFenceGate> * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>],
+[<minecraft:planks:1>, Stick, <minecraft:planks:1>]]);
+
 
 
 
