@@ -1693,9 +1693,7 @@ recipes.addShaped(<Railcraft:tool.magnifying.glass>, [
 [SteelRod, null, null]]);
 
 // --- Coke Oven ---
-recipes.addShaped(<Railcraft:machine.alpha:7>, [
-[<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, null],
-[<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, null]]);
+recipes.addShapeless(<Railcraft:machine.alpha:7>, [<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>]);
 
 // --- Sandy Block ---
 recipes.addShaped(<Railcraft:brick.sandy:2>, [
