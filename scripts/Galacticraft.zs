@@ -528,6 +528,9 @@ furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
 // --- Ilmenite Ore
 furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
 
+// --- Ambiete Thermal Controller
+recipes.remove(<GalacticraftCore:item.basicItem:20>);
+
 
 
 
@@ -689,9 +692,9 @@ recipes.addShaped(<GalacticraftCore:tile.solar:4>, [
 
 // --- Full Solar Panel
 recipes.addShaped(<GalacticraftCore:item.basicItem:1>, [
-[SolarPanel, SolarPanel, SolarPanel],
+[<GalacticraftCore:item.basicItem>, <GalacticraftCore:item.basicItem>, <GalacticraftCore:item.basicItem>],
 [GCAlWire, BWafer, GCAlWire],
-[SolarPanel, SolarPanel, SolarPanel]]);
+[<GalacticraftCore:item.basicItem>, <GalacticraftCore:item.basicItem>, <GalacticraftCore:item.basicItem>]]);
 
 // --- Energy Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machineTiered>, [
@@ -1128,6 +1131,12 @@ recipes.addShaped(<GalacticraftCore:item.canvas>,  [
 [<ore:platePaper>, <minecraft:string>, <ore:platePaper>],
 [<ore:stickWood>, <ore:platePaper>, null]]);
 
+// --- Ambiete Thermal Controller
+recipes.addShaped(<GalacticraftCore:item.basicItem:20>,  [
+[<ore:circuitAdvanced>, <GalacticraftCore:item.airVent>, <ore:circuitAdvanced>],
+[<GalacticraftCore:item.basicItem:10>, <GalacticraftCore:item.basicItem:9>, <GalacticraftCore:item.basicItem:10>],
+[<GalacticraftCore:item.basicItem:8>, <GalacticraftCore:item.basicItem:13>, <GalacticraftCore:item.basicItem:8>]]);
+
 
 
 // --- Add Fuels ---
@@ -1286,6 +1295,9 @@ Assembler.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null
 
 // --- Oxygen Mask
 Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 120);
+
+// --- Solar Panel
+Assembler.addRecipe(<GalacticraftCore:item.basicItem>, SolarPanel, <GalacticraftCore:item.basicItem:9>, 200, 120);
 
 
 

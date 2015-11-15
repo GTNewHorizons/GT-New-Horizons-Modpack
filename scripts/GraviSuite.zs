@@ -105,9 +105,9 @@ recipes.addShaped(<GraviSuite:epicLappack:27>, [
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator:27>, [
-[<ore:plateAlloyIridium>, <ore:gemNetherStar>, <ore:plateNeutronium>],
-[<ore:gemEnderEye>, <ore:craftingTeleporter>, <minecraft:dragon_egg>.reuse()],
-[<ore:plateNaquadah>, <Thaumcraft:FocusPortableHole>, <ore:plateOsmium>]]);
+[<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32675>, <dreamcraft:item.NeutroniumItemCasing>],
+[<gregtech:gt.metaitem.01:32707>, <gregtech:gt.blockmachines:1145>, <gregtech:gt.metaitem.01:32707>],
+[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [

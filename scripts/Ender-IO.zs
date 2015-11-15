@@ -73,6 +73,7 @@ val DarkSteelScrew = <ore:screwDarkSteel>;
 val WCrystal = <EnderIO:itemMaterial:10>;
 val EnderEyeLens = <ore:lensEnderEye>;
 val MvFieldGen = <gregtech:gt.metaitem.01:32671>;
+val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
 val SPlate = <ore:plateSoularium>;
 val Shears = <minecraft:shears>;
 val IronAxe = <minecraft:iron_axe>;
@@ -565,7 +566,7 @@ recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 recipes.addShaped(<EnderIO:blockTelePad>, [
 [DarkSteelPlate, FQuartz, DarkSteelPlate],
 [Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
-[HvMotor, MvFieldGen, HvMotor]]);
+[HvMotor, LuVFieldGen, HvMotor]]);
 
 // --- Slice and Splice
 recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
