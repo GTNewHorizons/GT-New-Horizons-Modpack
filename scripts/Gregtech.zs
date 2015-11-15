@@ -97,17 +97,77 @@ recipes.remove(<gregtech:gt.metaitem.02:3500>);
 // --- Diamond Hoe Head
 recipes.remove(<gregtech:gt.metaitem.02:4500>);
 
+// --- Adamantium Ingot
+recipes.remove(<ore:ingotAdamantium>);
+
 // --- Aluminium Ingot
 recipes.remove(<ore:ingotAluminium>);
+
+// --- Americium Ingot
+recipes.remove(<ore:ingotAmericium>);
+
+// --- Annealed Copper Ingot
+recipes.remove(<ore:ingotAnnealedCopper>);
 
 // --- Antimony Ingot
 recipes.remove(<ore:ingotAntimony>);
 
+// --- Ardite Ingot
+recipes.remove(<ore:ingotArdite>);
+
+// --- Arsenic Ingot
+recipes.remove(<ore:ingotArsenic>);
+
+// --- Astral Silver Ingot
+recipes.remove(<ore:ingotAstralSilver>);
+
+// --- Battery Alloy Ingot
+recipes.remove(<ore:ingotBatteryAlloy>);
+
+// --- Beryllium Ingot
+recipes.remove(<ore:ingotBeryllium>);
+
+// --- Bismuth Ingot
+recipes.remove(<ore:ingotBismuth>);
+
+// --- Bismuth Bronze Ingot
+recipes.remove(<ore:ingotBismuthBronze>);
+
+// --- Black Bronze Ingot
+recipes.remove(<ore:ingotBlackBronze>);
+
+// --- Black Steel Ingot
+recipes.remove(<ore:ingotBlackSteel>);
+
+// --- Blue Alloy Ingot
+recipes.remove(<ore:ingotBlueAlloy>);
+
+// --- Blue Steel Ingot
+recipes.remove(<ore:ingotBlueSteel>);
+
+// --- Brass Ingot
+recipes.remove(<ore:ingotBrass>);
+
 // --- Bronze Ingot
 recipes.remove(<ore:ingotBronze>);
 
+// --- Carbon Ingot
+recipes.remove(<ore:ingotCarbon>);
+
+// --- Chrome Ingot
+recipes.remove(<ore:ingotChrome>);
+
+// --- Chromium Dioxide Ingot
+recipes.remove(<ore:ingotChromiumDioxide>);
+
 // --- Cobalt Ingot
 recipes.remove(<ore:ingotCobalt>);
+
+// --- Cobalt Brass Ingot
+recipes.remove(<ore:ingotCobaltBrass>);
+
+// --- Conductive Iron Ingot
+recipes.remove(<ore:ingotConductiveIron>);
 
 // --- Copper Ingot
 recipes.remove(<ore:ingotCopper>);
@@ -118,32 +178,191 @@ recipes.remove(<ore:ingotCupronickel>);
 // --- Damascus Steel Ingot
 recipes.remove(<ore:ingotDamascusSteel>);
 
+// --- Desh Ingot
+recipes.remove(<ore:ingotDesh>);
+
+// --- Electrical Steel Ingot
+recipes.remove(<ore:ingotElectricalSteel>);
+
 // --- Electrum Ingot
 recipes.remove(<ore:ingotElectrum>);
+
+// --- Energetic Alloy Ingot
+recipes.remove(<ore:ingotEnergeticAlloy>);
+
+// --- Enderium Base Iron Ingot
+recipes.remove(<ore:ingotEnderiumBase>);
+
+// --- Enderium Electrum Ingot
+recipes.remove(<ore:ingotEnderium>);
+
+// --- Enhanced Galgadorian Ingot
+recipes.remove(<ore:ingotEnhancedGalgadorian>);
+
+// --- Fluxed Electrum Ingot
+recipes.remove(<ore:ingotElectrumFlux>);
+
+// --- Galgadorian Ingot
+recipes.remove(<ore:ingotGalgadorian>);
+
+// --- Gallium Ingot
+recipes.remove(<ore:ingotGallium>);
+
+// --- HSLA Ingot
+recipes.remove(<ore:ingotHSLA>);
+
+// --- Indium Ingot
+recipes.remove(<ore:ingotIndium>);
+
+// --- Infused Gold Ingot
+recipes.remove(<ore:ingotInfusedGold>);
 
 // --- Invar Ingot
 recipes.remove(<ore:ingotInvar>);
 
+// --- Kanthal Ingot
+recipes.remove(<ore:ingotKanthal>);
+
+// --- Lithium Ingot
+recipes.remove(<ore:ingotLithium>);
+
 // --- Lead Ingot
 recipes.remove(<ore:ingotLead>);
+
+// --- Magnalium Ingot
+recipes.remove(<ore:ingotMagnalium>);
 
 // --- Magnesium Ingot
 recipes.remove(<ore:ingotMagnesium>);
 
+// --- Magnetic Iron Ingot
+recipes.remove(<ore:ingotIronMagnetic>);
+
+// --- Magnetic Neodymium Ingot
+recipes.remove(<ore:ingotNeodymiumMagnetic>);
+
+// --- Magnetic Steel Ingot
+recipes.remove(<ore:ingotSteelMagnetic>);
+
 // --- Manganese Ingot
 recipes.remove(<ore:ingotManganese>);
+
+// --- Meteoric Steel Ingot
+recipes.remove(<ore:ingotMeteoricSteel>);
+
+// --- Mithril Ingot
+recipes.remove(<ore:ingotMithril>);
+
+// --- Midasium Ingot
+recipes.remove(<ore:ingotMidasium>);
 
 // --- Molybdenum Ingot
 recipes.remove(<ore:ingotMolybdenum>);
 
+// --- Naquadah Ingot
+recipes.remove(<ore:ingotNaquadah>);
+
+// --- Naquadah Alloy Ingot
+recipes.remove(<ore:ingotNaquadahAlloy>);
+
+// --- Enriched Naquadah Ingot
+recipes.remove(<ore:ingotNaquadahEnriched>);
+
+// --- Naquadria Ingot
+recipes.remove(<ore:ingotNaquadria>);
+
+// --- Neodymium Ingot
+recipes.remove(<ore:ingotNeodymium>);
+
+// --- Neutronium Ingot
+recipes.remove(<ore:ingotNeutronium>);
+
 // --- Nickel Ingot
 recipes.remove(<ore:ingotNickel>);
+
+// --- Nichrome Ingot
+recipes.remove(<ore:ingotNichrome>);
+
+// --- Niobium Ingot
+recipes.remove(<ore:ingotNiobium>);
+
+// --- Niobium Nitride Ingot
+recipes.remove(<ore:ingotNiobiumNitride>);
+
+// --- Niobium Titanium Ingot
+recipes.remove(<ore:ingotNiobiumTitanium>);
+
+// --- Osmium Ingot
+recipes.remove(<ore:ingotOsmium>);
+
+// --- Osmiridium Steel Ingot
+recipes.remove(<ore:ingotOsmiridium>);
+
+// --- Palladium Ingot
+recipes.remove(<ore:ingotPalladium>);
+
+// --- Pig Iron Ingot
+recipes.remove(<ore:ingotPigIron>);
+
+// --- Plastic Ingot
+recipes.remove(<ore:ingotPlastic>);
+
+// --- Platinum Ingot
+recipes.remove(<ore:ingotPlatinum>);
+
+// --- Plutonium Ingot
+recipes.remove(<ore:ingotPlutonium>);
+
+// --- Plutonium241 Ingot
+recipes.remove(<ore:ingotPlutonium241>);
+
+// --- Potassium Ingot
+recipes.remove(<ore:ingotPotassium>);
+
+// --- Pulsating Iron Ingot
+recipes.remove(<ore:ingotPulsatingIron>);
+
+// --- Red Alloy Ingot
+recipes.remove(<ore:ingotRedAlloy>);
+
+// --- Red Steel Ingot
+recipes.remove(<ore:ingotRedSteel>);
+
+// --- Redstone Alloy Ingot
+recipes.remove(<ore:ingotRedstoneAlloy>);
+
+// --- Reinforced Ingot
+recipes.remove(<ore:ingotReinforced>);
+
+// --- Rose Gold Ingot
+recipes.remove(<ore:ingotRoseGold>);
+
+// --- Rubber Ingot
+recipes.remove(<ore:ingotRubber>);
+
+// --- Rubidium Ingot
+recipes.remove(<ore:ingotRubidium>);
+
+// --- Scandium Ingot
+recipes.remove(<ore:ingotScandium>);
+
+// --- Shadow Iron Ingot
+recipes.remove(<ore:ingotShadowIron>);
+
+// --- Shadow Steel Ingot
+recipes.remove(<ore:ingotShadowSteel>);
 
 // --- Silicon Ingot
 recipes.remove(<ore:ingotSilicon>);
 
 // --- Silver Ingot
 recipes.remove(<ore:ingotSilver>);
+
+// --- Soldering Alloy Ingot
+recipes.remove(<ore:ingotSolderingAlloy>);
+
+// --- Soularium Iron Ingot
+recipes.remove(<ore:ingotSoularium>);
 
 // --- Stainless Steel Ingot
 recipes.remove(<ore:ingotStainlessSteel>);
@@ -154,6 +373,12 @@ recipes.remove(<ore:ingotSteel>);
 // --- Steel Nuggets
 recipes.remove(<ore:nuggetSteel>);
 
+// --- Sterling Silver Ingot
+recipes.remove(<ore:ingotSterlingSilver>);
+
+// --- Sunnarium Ingot
+recipes.remove(<ore:ingotSunnarium>);
+
 // --- Thorium Ingot
 recipes.remove(<ore:ingotThorium>);
 
@@ -162,6 +387,36 @@ recipes.remove(<ore:ingotTin>);
 
 // --- Titanium Ingot
 recipes.remove(<ore:ingotTitanium>);
+
+// --- Tungsten Ingot
+recipes.remove(<ore:ingotTungsten>);
+
+// --- Tungsten Steel Ingot
+recipes.remove(<ore:ingotTungstenSteel>);
+
+// --- Ultimet Ingot
+recipes.remove(<ore:ingotUltimet>);
+
+// --- Uranium Ingot
+recipes.remove(<ore:ingotUranium>);
+
+// --- Uranium235 Ingot
+recipes.remove(<ore:ingotUranium235>);
+
+// --- Vanadium Ingot
+recipes.remove(<ore:ingotVanadium>);
+
+// --- Vanadium Gallium Ingot
+recipes.remove(<ore:ingotVanadiumGallium>);
+
+// --- Vibrant Alloy Ingot
+recipes.remove(<ore:ingotVibrantAlloy>);
+
+// --- Yttrium Ingot
+recipes.remove(<ore:ingotYttrium>);
+
+// --- Yttrium Barium Cuprate Ingot
+recipes.remove(<ore:ingotYttriumBariumCuprate>);
 
 // --- Zinc Ingot
 recipes.remove(<ore:ingotZinc>);
@@ -550,6 +805,54 @@ recipes.remove(<gregtech:gt.metaitem.01:28344>);
 // ---  Knight Metall Ring
 recipes.remove(<gregtech:gt.metaitem.01:28362>);
 
+// ---  Lithium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28006>);
+
+// ---  Carbon Ring
+recipes.remove(<gregtech:gt.metaitem.01:28010>);
+
+// ---  Potassium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28025>);
+
+// ---  Dark Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28364>);
+
+// ---  Electrical Steel Ring
+recipes.remove(<gregtech:gt.metaitem.01:28365>);
+
+// ---  Energetic Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28366>);
+
+// ---  Vibrant Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28367>);
+
+// ---  Conductive Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28369>);
+
+// ---  Pulsating Iron Ring
+recipes.remove(<gregtech:gt.metaitem.01:28378>);
+
+// ---  Soularium Ring
+recipes.remove(<gregtech:gt.metaitem.01:28379>);
+
+// ---  Enderium Base Ring
+recipes.remove(<gregtech:gt.metaitem.01:28380>);
+
+// ---  Redstone Alloy Ring
+recipes.remove(<gregtech:gt.metaitem.01:28381>);
+
+// ---  Ardite Ring
+recipes.remove(<gregtech:gt.metaitem.01:28382>);
+
+// ---  Reinforced Ring
+recipes.remove(<gregtech:gt.metaitem.01:28383>);
+
+// ---  Galgadorian Ring
+recipes.remove(<gregtech:gt.metaitem.01:28384>);
+
+// ---  Enhanced Galgadorian Ring
+recipes.remove(<gregtech:gt.metaitem.01:28385>);
+
 // --- GT Swords
 recipes.remove(<gregtech:gt.metatool.01>);
 
@@ -690,6 +993,9 @@ recipes.remove(<gregtech:gt.metaitem.01:32372>);
 
 // --- Extruder Shape Bottle
 recipes.remove(<gregtech:gt.metaitem.01:32373>);
+
+// --- Small Carbon Gear
+recipes.remove(<gregtech:gt.metaitem.02:20010>);
 
 // --- Small Aluminium Gear
 recipes.remove(<gregtech:gt.metaitem.02:20019>);
@@ -885,6 +1191,51 @@ recipes.remove(<gregtech:gt.metaitem.02:20884>);
 
 // --- Small Sealed Wood Gear
 recipes.remove(<gregtech:gt.metaitem.02:20889>);
+
+// --- Small Dark Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20364>);
+
+// --- Small Sunnarium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20318>);
+
+// --- Small Enderium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20321>);
+
+// --- Small Electrical Steel Gear
+recipes.remove(<gregtech:gt.metaitem.02:20365>);
+
+// --- Small Energetic Alloy Gear
+recipes.remove(<gregtech:gt.metaitem.02:20366>);
+
+// --- Small Vibrant Allow Gear
+recipes.remove(<gregtech:gt.metaitem.02:20367>);
+
+// --- Small Conductive Iron Gear
+recipes.remove(<gregtech:gt.metaitem.02:20369>);
+
+// --- Small Pulsating Iron Gear
+recipes.remove(<gregtech:gt.metaitem.02:20378>);
+
+// --- Small Soularium Gear
+recipes.remove(<gregtech:gt.metaitem.02:20379>);
+
+// --- Small Enhanced Galgadorian Gear
+recipes.remove(<gregtech:gt.metaitem.02:20385>);
+
+// --- Small Galgadorian Gear
+recipes.remove(<gregtech:gt.metaitem.02:20384>);
+
+// --- Small Reinforced Gear
+recipes.remove(<gregtech:gt.metaitem.02:20383>);
+
+// --- Small Ardite Gear
+recipes.remove(<gregtech:gt.metaitem.02:20382>);
+
+// --- Small Redstone Alloy Gear
+recipes.remove(<gregtech:gt.metaitem.02:20381>);
+
+// --- Small Enderium Base Gear
+recipes.remove(<gregtech:gt.metaitem.02:20380>);
 
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
@@ -1231,6 +1582,46 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 
 // --- Small Clay Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1805>, [<ore:craftingToolMortar>, <minecraft:clay_ball>]);
+
+// --- Tiny Iron Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:32>, [
+[<ore:nuggetIron>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Gold Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:86>, [
+[<ore:nuggetGold>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Copper Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:35>, [
+[<ore:nuggetCopper>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Tin Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:57>, [
+[<ore:nuggetTin>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Silver Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:54>, [
+[<ore:nuggetSilver>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Lead Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:89>, [
+[<ore:nuggetLead>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Zinc Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:36>, [
+[<ore:nuggetZinc>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+
+// --- Tiny Nickel Dust
+recipes.addShaped(<gregtech:gt.metaitem.01:34>, [
+[<ore:nuggetNickel>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
 
 // --- Iron Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28032>, [
@@ -1970,6 +2361,102 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28362>, [
 [<ore:craftingToolFile>, <ore:stickKnightmetal>, null],
 [null, null, null]]);
 
+// ---  Lithium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28006>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickLithium>, null],
+[null, null, null]]);
+
+// ---  Carbon Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28010>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickCarbon>, null],
+[null, null, null]]);
+
+// ---  Potassium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28025>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPotassium>, null],
+[null, null, null]]);
+
+// ---  Dark Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28364>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickDarkSteel>, null],
+[null, null, null]]);
+
+// ---  Electrical Steel Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28365>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickElectricalSteel>, null],
+[null, null, null]]);
+
+// ---  Energetic Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28366>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickEnergeticAlloy>, null],
+[null, null, null]]);
+
+// ---  Vibrant Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28367>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickVibrantAlloy>, null],
+[null, null, null]]);
+
+// ---  Conductive Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28369>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickConductiveIron>, null],
+[null, null, null]]);
+
+// ---  Pulsating Iron Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28378>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickPulsatingIron>, null],
+[null, null, null]]);
+
+// ---  Soularium Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28379>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickSoularium>, null],
+[null, null, null]]);
+
+// ---  Enderium Base Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28380>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickEnderiumBase>, null],
+[null, null, null]]);
+
+// ---  Redstone Alloy Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28381>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickRedstoneAlloy>, null],
+[null, null, null]]);
+
+// ---  Ardite Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28382>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickArdite>, null],
+[null, null, null]]);
+
+// ---  Reinforced Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28383>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickReinforced>, null],
+[null, null, null]]);
+
+// ---  Galgadorian Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28384>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickGalgadorian>, null],
+[null, null, null]]);
+
+// ---  Enhanced Galgadorian Ring
+recipes.addShaped(<gregtech:gt.metaitem.01:28385>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickEnhancedGalgadorian>, null],
+[null, null, null]]);
+
 // --- Small Carbon Gear
 recipes.addShaped(<gregtech:gt.metaitem.02:20010>, [
 [null, <ore:stickCoal>, null],
@@ -2359,6 +2846,96 @@ recipes.addShaped(<gregtech:gt.metaitem.02:20889>, [
 [null, <ore:stickWoodSealed>, null],
 [<ore:craftingToolSaw>, <ore:plateWoodSealed>, <ore:craftingToolWireCutter>],
 [null, <ore:stickWoodSealed>, null]]);
+
+// --- Small Dark Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20364>, [
+[null, <ore:stickDarkSteel>, null],
+[<ore:craftingToolSaw>, <ore:plateDarkSteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickDarkSteel>, null]]);
+
+// --- Small Sunnarium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20318>, [
+[null, <ore:stickSunnarium>, null],
+[<ore:craftingToolSaw>, <ore:plateSunnarium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSunnarium>, null]]);
+
+// --- Small Enderium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20321>, [
+[null, <ore:stickEnderium>, null],
+[<ore:craftingToolSaw>, <ore:plateEnderium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickEnderium>, null]]);
+
+// --- Small Electrical Steel Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20365>, [
+[null, <ore:stickElectricalSteel>, null],
+[<ore:craftingToolSaw>, <ore:plateElectricalSteel>, <ore:craftingToolWireCutter>],
+[null, <ore:stickElectricalSteel>, null]]);
+
+// --- Small Energetic Alloy Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20366>, [
+[null, <ore:stickEnergeticAlloy>, null],
+[<ore:craftingToolSaw>, <ore:plateEnergeticAlloy>, <ore:craftingToolWireCutter>],
+[null, <ore:stickEnergeticAlloy>, null]]);
+
+// --- Small Vibrant Alloy Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20367>, [
+[null, <ore:stickVibrantAlloy>, null],
+[<ore:craftingToolSaw>, <ore:plateVibrantAlloy>, <ore:craftingToolWireCutter>],
+[null, <ore:stickVibrantAlloy>, null]]);
+
+// --- Small Conductive Iron Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20369>, [
+[null, <ore:stickConductiveIron>, null],
+[<ore:craftingToolSaw>, <ore:plateConductiveIron>, <ore:craftingToolWireCutter>],
+[null, <ore:stickConductiveIron>, null]]);
+
+// --- Small Pulsating Iron Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20378>, [
+[null, <ore:stickPulsatingIron>, null],
+[<ore:craftingToolSaw>, <ore:platePulsatingIron>, <ore:craftingToolWireCutter>],
+[null, <ore:stickPulsatingIron>, null]]);
+
+// --- Small Soularium Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20379>, [
+[null, <ore:stickSoularium>, null],
+[<ore:craftingToolSaw>, <ore:plateSoularium>, <ore:craftingToolWireCutter>],
+[null, <ore:stickSoularium>, null]]);
+
+// --- Small Enhanced Galgadorian Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20385>, [
+[null, <ore:stickEnhancedGalgadorian>, null],
+[<ore:craftingToolSaw>, <ore:plateEnhancedGalgadorian>, <ore:craftingToolWireCutter>],
+[null, <ore:stickEnhancedGalgadorian>, null]]);
+
+// --- Small Galgadorian Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20384>, [
+[null, <ore:stickGalgadorian>, null],
+[<ore:craftingToolSaw>, <ore:plateGalgadorian>, <ore:craftingToolWireCutter>],
+[null, <ore:stickGalgadorian>, null]]);
+
+// --- Small Reinforced Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20383>, [
+[null, <ore:stickReinforced>, null],
+[<ore:craftingToolSaw>, <ore:plateReinforced>, <ore:craftingToolWireCutter>],
+[null, <ore:stickReinforced>, null]]);
+
+// --- Small Ardite Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20382>, [
+[null, <ore:stickArdite>, null],
+[<ore:craftingToolSaw>, <ore:plateArdite>, <ore:craftingToolWireCutter>],
+[null, <ore:stickArdite>, null]]);
+
+// --- Small Redstone Alloy Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20381>, [
+[null, <ore:stickRedstoneAlloy>, null],
+[<ore:craftingToolSaw>, <ore:plateRedstoneAlloy>, <ore:craftingToolWireCutter>],
+[null, <ore:stickRedstoneAlloy>, null]]);
+
+// --- Small Enderium Base Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20380>, [
+[null, <ore:stickEnderiumBase>, null],
+[<ore:craftingToolSaw>, <ore:plateEnderiumBase>, <ore:craftingToolWireCutter>],
+[null, <ore:stickEnderiumBase>, null]]);
 
 // --- Heavy Duty Allow Ingots
 recipes.addShaped(<gregtech:gt.metaitem.01:32462>, [
