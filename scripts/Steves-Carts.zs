@@ -9,8 +9,10 @@
 
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ChemicalBath;
 import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
+import mods.gregtech.CuttingSaw;
 import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
 import mods.gregtech.Pulverizer;
@@ -25,6 +27,7 @@ import mods.gregtech.Pulverizer;
 val PCB = <StevesCarts:ModuleComponents:9>;
 val SteelCasing = <IC2:itemCasing:5>;
 val LvRobotArm = <gregtech:gt.metaitem.01:32650>;
+val MvRobotArm = <gregtech:gt.metaitem.01:32651>;
 val LVConveyorBelt = <gregtech:gt.metaitem.01:32630>;
 val LVMHull = <gregtech:gt.blockmachines:11>;
 val LDPlate = <StevesCarts:ModuleComponents:38>;
@@ -84,6 +87,7 @@ val Piston = <ore:craftingPiston>;
 val IronFurnace = <ore:craftingIronFurnace>;
 val LVMotor = <gregtech:gt.metaitem.01:32600>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
+val HvMotor = <gregtech:gt.metaitem.01:32602>;
 val LVPiston = <gregtech:gt.metaitem.01:32640>;
 val MVPiston = <gregtech:gt.metaitem.01:32641>;
 val LPBoiler = <Railcraft:machine.beta:3>;
@@ -93,6 +97,23 @@ val IronTank = <irontank:ironTank>;
 val ObsidianTank = <irontank:obsidianTank>;
 val SolarPanel = <StevesCarts:ModuleComponents:44>;
 val AdvSolarPanel = <StevesCarts:ModuleComponents:58>;
+val Saw = <ore:craftingToolSaw>;
+val BladeArm = <StevesCarts:ModuleComponents:84>;
+val DiamondStick = <ore:stickDiamond>;
+val SawBlade = <StevesCarts:ModuleComponents:15>;
+val HSawBlade = <StevesCarts:ModuleComponents:80>;
+val GSawBlade = <StevesCarts:ModuleComponents:81>;
+val WoodCore = <StevesCarts:ModuleComponents:17>;
+val MasterCircuit = <ore:circuitMaster>;
+val Saplings1 = <minecraft:sapling:*>;
+val Saplings2 = <BiomesOPlenty:saplings:*>;
+val Saplings3 = <BiomesOPlenty:colorizedSaplings:*>;
+val Saplings4 = <Forestry:saplingGE:*>;
+val Saplings5 = <IC2:blockRubSapling>;
+val Saplings6 = <Natura:florasapling:*>;
+val Saplings7 = <Natura:Rare Sapling:*>;
+val Saplings8 = <Thaumcraft:blockCustomPlant:*>;
+val Saplings9 = <TwilightForest:tile.TFSapling:*>;
 
 
 
@@ -205,19 +226,19 @@ recipes.remove(<StevesCarts:ModuleComponents:18>);
 furnace.remove(<StevesCarts:ModuleComponents:19>);
 
 // --- Saw Blade
-recipes.remove(<StevesCarts:ModuleComponents:15>);
+recipes.remove(SawBlade);
 
 // --- Hardened Saw Blade
-recipes.remove(<StevesCarts:ModuleComponents:80>);
+recipes.remove(HSawBlade);
 
 // --- Galgadorian Saw Blade
-recipes.remove(<StevesCarts:ModuleComponents:81>);
+recipes.remove(GSawBlade);
 
 // --- Iron Blade
 recipes.remove(<StevesCarts:ModuleComponents:83>);
 
 // --- Blade Arm
-recipes.remove(<StevesCarts:ModuleComponents:84>);
+recipes.remove(BladeArm);
 
 // --- Tiny Coal Engine
 recipes.remove(<StevesCarts:CartModule:44>);
@@ -251,6 +272,50 @@ recipes.remove(PCB);
 
 // --- Advanced PCB
 recipes.remove(AdvPCB);
+
+// --- Chest Pane
+recipes.remove(<StevesCarts:ModuleComponents:30>);
+
+// --- Large Chest Pane
+recipes.remove(<StevesCarts:ModuleComponents:31>);
+
+// --- Huge Chest Pane
+recipes.remove(<StevesCarts:ModuleComponents:32>);
+
+// --- Iron Pane
+recipes.remove(<StevesCarts:ModuleComponents:34>);
+
+// --- Large Iron Pane
+recipes.remove(<StevesCarts:ModuleComponents:35>);
+
+// --- Huge Iron Pane
+recipes.remove(<StevesCarts:ModuleComponents:36>);
+
+// --- Dynamic Pane
+recipes.remove(<StevesCarts:ModuleComponents:37>);
+
+// --- Large Dynamic Pane
+recipes.remove(<StevesCarts:ModuleComponents:38>);
+
+// --- Huge Dynamic Pane
+recipes.remove(<StevesCarts:ModuleComponents:39>);
+
+// --- Basic Farmer 
+recipes.remove(<StevesCarts:CartModule:14>);
+
+// --- Galgadorian Farmer 
+recipes.remove(<StevesCarts:CartModule:84>);
+
+// --- Basic Wooden Cutter 
+recipes.remove(<StevesCarts:CartModule:15>);
+
+// --- Hardened Wooden Cutter 
+recipes.remove(<StevesCarts:CartModule:79>);
+
+// --- Galgadorian Wooden Cutter 
+recipes.remove(<StevesCarts:CartModule:80>);
+
+
 
 
 
@@ -384,19 +449,18 @@ recipes.addShaped(GalgadorianDrill, [
 [HMesh, TitaniumScrew, Hammer]]);
 
 // --- Saw Blade
-recipes.addShapeless(<StevesCarts:ModuleComponents:15>, [<gregtech:gt.metaitem.01:32721>]);
+recipes.addShapeless(SawBlade, [<gregtech:gt.metaitem.01:32721>]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:32721>, [<StevesCarts:ModuleComponents:15>]);
-
+recipes.addShapeless(<gregtech:gt.metaitem.01:32721>, [SawBlade]);
 
 // --- Hardened Saw Blade
-recipes.addShaped(<StevesCarts:ModuleComponents:80>, [
+recipes.addShaped(HSawBlade, [
 [null, SReinforcedDust, null],
 [SReinforcedDust, CobaltBrassGear, SReinforcedDust],
 [null, SReinforcedDust, null]]);
 
 // --- Galgadorian Saw Blade
-recipes.addShaped(<StevesCarts:ModuleComponents:81>, [
+recipes.addShaped(GSawBlade, [
 [null, SGalgadorianDust, null],
 [SGalgadorianDust, CobaltBrassGear, SGalgadorianDust],
 [null, SGalgadorianDust, null]]);
@@ -443,6 +507,70 @@ recipes.addShaped(<StevesCarts:CartModule:70>, [
 [MVMotor, IronTank, MVMotor],
 [MVPiston, HPBoiler, MVPiston]]);
 
+// ---  Chest Plate
+recipes.addShaped(<StevesCarts:ModuleComponents:30> * 2, [
+[<gregtech:gt.metaitem.01:17809>, null, null],
+[Saw, null, null]]);
+
+// ---  Large Chest Plate
+recipes.addShaped(<StevesCarts:ModuleComponents:31>, [
+[Screwdriver, <StevesCarts:ModuleComponents:30>, Wrench],
+[<StevesCarts:ModuleComponents:30>, IronScrew, <StevesCarts:ModuleComponents:30>],
+[null, <StevesCarts:ModuleComponents:30>, null]]);
+
+// ---  Huge Chest Plate
+recipes.addShaped(<StevesCarts:ModuleComponents:32>, [
+[Screwdriver, <StevesCarts:ModuleComponents:31>, Wrench],
+[<StevesCarts:ModuleComponents:31>, IronScrew, <StevesCarts:ModuleComponents:31>],
+[null, <StevesCarts:ModuleComponents:31>, null]]);
+
+// --- Iron Pane
+recipes.addShaped(<StevesCarts:ModuleComponents:34> * 2, [
+[IronPlate, null, null],
+[Saw, null, null]]);
+
+// --- Large Iron Pane
+recipes.addShaped(<StevesCarts:ModuleComponents:35>, [
+[Screwdriver, <StevesCarts:ModuleComponents:34>, Wrench],
+[<StevesCarts:ModuleComponents:34>, SteelScrew, <StevesCarts:ModuleComponents:34>],
+[null, <StevesCarts:ModuleComponents:34>, null]]);
+
+// --- Huge Iron Pane
+recipes.addShaped(<StevesCarts:ModuleComponents:36>, [
+[Screwdriver, <StevesCarts:ModuleComponents:35>, Wrench],
+[<StevesCarts:ModuleComponents:35>, SteelScrew, <StevesCarts:ModuleComponents:35>],
+[null, <StevesCarts:ModuleComponents:35>, null]]);
+
+// --- Basic Farmer 
+recipes.addShaped(<StevesCarts:CartModule:14>, [
+[DiamondStick, LVMotor, DiamondStick],
+[PCB, BladeArm, PCB],
+[DiamondStick, LvRobotArm, DiamondStick]]);
+
+// --- Galgadorian Farmer 
+recipes.addShaped(<StevesCarts:CartModule:84>, [
+[GalgadorianStick, MVMotor, GalgadorianStick],
+[AdvPCB, <StevesCarts:CartModule:14>, AdvPCB],
+[GalgadorianStick, MvRobotArm, GalgadorianStick]]);
+
+// --- Basic Wooden Cutter 
+recipes.addShaped(<StevesCarts:CartModule:15>, [
+[SawBlade, SawBlade, SawBlade],
+[SawBlade, WoodCore, SawBlade],
+[PCB, LVMotor, PCB]]);
+
+// --- Hardened Wooden Cutter 
+recipes.addShaped(<StevesCarts:CartModule:79>, [
+[HSawBlade, HSawBlade, HSawBlade],
+[HSawBlade, <StevesCarts:CartModule:15>, HSawBlade],
+[AdvPCB, MVMotor, AdvPCB]]);
+
+// --- Galgadorian Wooden Cutter 
+recipes.addShaped(<StevesCarts:CartModule:80>, [
+[GSawBlade, GSawBlade, GSawBlade],
+[GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
+[MasterCircuit, HvMotor, MasterCircuit]]);
+
 
 
 
@@ -482,16 +610,16 @@ Assembler.addRecipe(<StevesCarts:CartModule:81>, <gregtech:gt.metaitem.01:17384>
 Assembler.addRecipe(HMesh, <dreamcraft:item.SteelBars> * 5, <StevesCarts:ModuleComponents:19> * 4, 200, 64);
 
 // --- Hardened Saw Blade
-Assembler.addRecipe(<StevesCarts:ModuleComponents:80>, <gregtech:gt.metaitem.02:31343>, <gregtech:gt.metaitem.01:2383>, 1600, 2);
+Assembler.addRecipe(HSawBlade, <gregtech:gt.metaitem.02:31343>, <gregtech:gt.metaitem.01:2383>, 1600, 2);
 
 // --- Galgadorian Saw Blade
-Assembler.addRecipe(<StevesCarts:ModuleComponents:81>, <gregtech:gt.metaitem.02:31343>, <gregtech:gt.metaitem.01:2384>, 1600, 2);
+Assembler.addRecipe(GSawBlade, <gregtech:gt.metaitem.02:31343>, <gregtech:gt.metaitem.01:2384>, 1600, 2);
 
 // --- Iron Blade
 Assembler.addRecipe(<StevesCarts:ModuleComponents:83>, <gregtech:gt.metaitem.02:7032> * 2, <gregtech:gt.integrated_circuit:1> * 0, 300, 16);
 
 // --- Blade Arm
-Assembler.addRecipe(<StevesCarts:ModuleComponents:84>, <gregtech:gt.metaitem.02:31032>, <StevesCarts:ModuleComponents:83> * 4, 600, 16);
+Assembler.addRecipe(BladeArm, <gregtech:gt.metaitem.02:31032>, <StevesCarts:ModuleComponents:83> * 4, 600, 16);
 
 // --- Solar Panel
 Assembler.addRecipe(SolarPanel, <gregtech:gt.metaitem.01:32750>, PCB, 600, 30);
@@ -509,6 +637,39 @@ Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:mo
 // -
 Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.solderingalloy> * 72, 200, 120);
 
+// ---  Large Chest Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:31>, <StevesCarts:ModuleComponents:30> * 4, <gregtech:gt.integrated_circuit:4> * 0, 80, 8);
+
+// ---  Huge Chest Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:32>, <StevesCarts:ModuleComponents:31> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 16);
+
+// ---  Large Iron Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:35>, <StevesCarts:ModuleComponents:34> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 8);
+
+// ---  Huge Iron Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleComponents:35> * 4, <gregtech:gt.integrated_circuit:4> * 0, 320, 16);
+
+// --- Huge Dynamic Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:39>, <StevesCarts:ModuleComponents:38> * 4, PCB, 640, 30);
+
+// --- Wood Core
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings1 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings2 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings3 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings4 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings5 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings6 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings7 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings8 * 8, 300, 30);
+// -
+Assembler.addRecipe(WoodCore, AdvPCB, Saplings9 * 8, 300, 30);
 
 
 
@@ -528,7 +689,25 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12385>], <liquid:oxygen> * 1000
 
 
 
+
+// --- Chemical Bath Recipes
+
+
+
+// --- Dynamic Pane
+ChemicalBath.addRecipe([<StevesCarts:ModuleComponents:37>], <StevesCarts:ModuleComponents:34>, <liquid:molten.redstone> * 144, [10000], 200, 2);
+
+// --- Large Dynamic Pane
+ChemicalBath.addRecipe([<StevesCarts:ModuleComponents:38>], <StevesCarts:ModuleComponents:35>, <liquid:molten.redstone> * 576, [10000], 300, 2);
+
+
+
+
+
+
 // --- Chemical reactor Recipes ---
+
+
 
 
 // --- Raw Hardener
@@ -544,7 +723,7 @@ ChemicalReactor.addRecipe(<StevesCarts:ModuleComponents:18> * 2, null, <minecraf
 
 // --- Reinforced Metal Block
 Compressor.addRecipe(<StevesCarts:BlockMetalStorage>, <StevesCarts:ModuleComponents:22> * 9);
-// --- Reinforced Metal Block
+// -
 Compressor.addRecipe(<StevesCarts:BlockMetalStorage>, <gregtech:gt.metaitem.01:11383> * 9);
 
 // --- Galgadorian Block
@@ -560,6 +739,64 @@ Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <StevesCarts:ModuleCompo
 Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <gregtech:gt.metaitem.01:2385> * 9);
 
 
+
+// --- Cutting Saw Recipes ---
+
+
+
+// ---  Chest Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:17809>, <liquid:water> * 4, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:17809>, <liquid:ic2distilledwater> * 3, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:17809>, <liquid:lubricant> * 1, 50, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <StevesCarts:ModuleComponents:31>, <liquid:water> * 6, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <StevesCarts:ModuleComponents:31>, <liquid:ic2distilledwater> * 4, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <StevesCarts:ModuleComponents:31>, <liquid:lubricant> * 1, 50, 30);
+
+// ---  Large Chest Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:water> * 8, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:ic2distilledwater> * 6, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:lubricant> * 2, 50, 30);
+
+// ---  Iron Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:water> * 8, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:ic2distilledwater> * 6, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:lubricant> * 2, 100, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:water> * 12, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:ic2distilledwater> * 8, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:lubricant> * 2, 100, 30);
+
+// ---  Large Iron Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:35> * 4, null, <StevesCarts:ModuleComponents:36>, <liquid:water> * 16, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:35> * 4, null, <StevesCarts:ModuleComponents:36>, <liquid:ic2distilledwater> * 12, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:35> * 4, null, <StevesCarts:ModuleComponents:36>, <liquid:lubricant> * 4, 100, 30);
+
+// --- Dynamic Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:water> * 32, 300, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:ic2distilledwater> * 24, 300, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:lubricant> * 8, 300, 30);
+
+// --- Large Dynamic Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:water> * 64, 300, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:ic2distilledwater> * 48, 300, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:lubricant> * 16, 300, 30);
 
 
 
