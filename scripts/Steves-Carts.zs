@@ -114,6 +114,9 @@ val Saplings6 = <Natura:florasapling:*>;
 val Saplings7 = <Natura:Rare Sapling:*>;
 val Saplings8 = <Thaumcraft:blockCustomPlant:*>;
 val Saplings9 = <TwilightForest:tile.TFSapling:*>;
+val GlassPane = <ore:paneGlassColorless>;
+val PlasticPlate = <ore:platePlastic>;
+val RedstonePlate = <ore:plateRedstone>;
 
 
 
@@ -314,6 +317,45 @@ recipes.remove(<StevesCarts:CartModule:79>);
 
 // --- Galgadorian Wooden Cutter 
 recipes.remove(<StevesCarts:CartModule:80>);
+
+// --- Tank Pane
+recipes.remove(<StevesCarts:ModuleComponents:61>);
+
+// --- Large Tank Pane
+recipes.remove(<StevesCarts:ModuleComponents:62>);
+
+// --- Huge Tank Pane
+recipes.remove(<StevesCarts:ModuleComponents:63>);
+
+// --- Empty Disk
+recipes.remove(<StevesCarts:ModuleComponents:28>);
+
+// --- Entity Dectector:Animal
+recipes.remove(<StevesCarts:CartModule:21>);
+
+// --- Entity Dectector:Player
+recipes.remove(<StevesCarts:CartModule:22>);
+
+// --- Entity Dectector:Villager
+recipes.remove(<StevesCarts:CartModule:23>);
+
+// --- Entity Dectector:Monster
+recipes.remove(<StevesCarts:CartModule:24>);
+
+// --- Projectile:Potion
+recipes.remove(<StevesCarts:CartModule:51>);
+
+// --- Projectile:Fire Charge
+recipes.remove(<StevesCarts:CartModule:52>);
+
+// --- Projectile:Egg
+recipes.remove(<StevesCarts:CartModule:53>);
+
+// --- Cropp:Nether Warth
+recipes.remove(<StevesCarts:CartModule:58>);
+
+// --- Tree:Exotic
+recipes.remove(<StevesCarts:CartModule:88>);
 
 
 
@@ -571,6 +613,16 @@ recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
 [MasterCircuit, HvMotor, MasterCircuit]]);
 
+// --- Tank Pane
+recipes.addShaped(<StevesCarts:ModuleComponents:61> * 2, [
+[GlassPane, null, null],
+[Saw, null, null]]);
+
+// --- Empty Disk
+recipes.addShaped(<StevesCarts:ModuleComponents:28>, [
+[RedstonePlate, PlasticPlate, RedstonePlate],
+[PlasticPlate, PCB, PlasticPlate],
+[PlasticPlate, PlasticPlate, PlasticPlate]]);
 
 
 
@@ -671,6 +723,43 @@ Assembler.addRecipe(WoodCore, AdvPCB, Saplings8 * 8, 300, 30);
 // -
 Assembler.addRecipe(WoodCore, AdvPCB, Saplings9 * 8, 300, 30);
 
+// --- Large Tank Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:62>, <StevesCarts:ModuleComponents:61> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.rubber> * 36, 160, 8);
+
+// --- Huge Tank Pane
+Assembler.addRecipe(<StevesCarts:ModuleComponents:63>, <StevesCarts:ModuleComponents:62> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.rubber> * 72, 320, 16);
+
+// --- Entity Dectector:Animal
+Assembler.addRecipe(<StevesCarts:CartModule:21>, <StevesCarts:ModuleComponents:28>, <minecraft:porkchop>, 300, 30);
+
+// --- Entity Dectector:Player
+Assembler.addRecipe(<StevesCarts:CartModule:22>, <StevesCarts:ModuleComponents:28>, <minecraft:diamond>, 300, 30);
+
+// --- Entity Dectector:Villager
+Assembler.addRecipe(<StevesCarts:CartModule:23>, <StevesCarts:ModuleComponents:28>, <minecraft:emerald>, 300, 30);
+
+// --- Entity Dectector:Monster
+Assembler.addRecipe(<StevesCarts:CartModule:24>, <StevesCarts:ModuleComponents:28>, <minecraft:slime_ball>, 300, 30);
+
+// --- Projectile:Potion
+Assembler.addRecipe(<StevesCarts:CartModule:51>, <StevesCarts:ModuleComponents:28>, <minecraft:glass_bottle>, 300, 30);
+
+// --- Projectile:Fire Charge
+Assembler.addRecipe(<StevesCarts:CartModule:52>, <StevesCarts:ModuleComponents:28>, <minecraft:fire_charge>, 300, 30);
+
+// --- Projectile:Egg
+Assembler.addRecipe(<StevesCarts:CartModule:53>, <StevesCarts:ModuleComponents:28>, <minecraft:egg>, 300 ,30);
+
+// --- Projectile:Cake (Secret Recipes :))
+Assembler.addRecipe(<StevesCarts:CartModule:90>, <StevesCarts:ModuleComponents:28>, <minecraft:cake>, 600, 120);
+
+// --- Cropp:Nether Warth
+Assembler.addRecipe(<StevesCarts:CartModule:58>, <StevesCarts:ModuleComponents:28>, <minecraft:nether_wart>, 300, 30);
+
+// --- Tree:Exotic
+Assembler.addRecipe(<StevesCarts:CartModule:88>, <StevesCarts:ModuleComponents:28>, AdvPCB, 600, 64);
+
+
 
 
 
@@ -689,7 +778,6 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12385>], <liquid:oxygen> * 1000
 
 
 
-
 // --- Chemical Bath Recipes
 
 
@@ -703,16 +791,12 @@ ChemicalBath.addRecipe([<StevesCarts:ModuleComponents:38>], <StevesCarts:ModuleC
 
 
 
-
-
 // --- Chemical reactor Recipes ---
-
 
 
 
 // --- Raw Hardener
 ChemicalReactor.addRecipe(<StevesCarts:ModuleComponents:18> * 2, null, <minecraft:diamond>, null, <liquid:obsidian.molten> * 1152, 600);
-
 
 
 
@@ -789,14 +873,40 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:M
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:ic2distilledwater> * 24, 300, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:lubricant> * 8, 300, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:37> * 4, null, <StevesCarts:ModuleComponents:38>, <liquid:lubricant> * 8, 150, 30);
 
 // --- Large Dynamic Pane
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:water> * 64, 300, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:ic2distilledwater> * 48, 300, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:lubricant> * 16, 300, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:38> * 4, null, <StevesCarts:ModuleComponents:39>, <liquid:lubricant> * 16, 150, 30);
+
+// --- Large Tank Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:62> * 4, null, <StevesCarts:ModuleComponents:63>, <liquid:water> * 16, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:62> * 4, null, <StevesCarts:ModuleComponents:63>, <liquid:ic2distilledwater> * 12, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:62> * 4, null, <StevesCarts:ModuleComponents:63>, <liquid:lubricant> * 4, 100, 30);
+
+// --- Tank Pane
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:water> * 8, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:ic2distilledwater> * 6, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:lubricant> * 2, 100, 30); 
+//-
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:water> * 8, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:ic2distilledwater> * 6, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:lubricant> * 2, 100, 30); 
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:water> * 12, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:ic2distilledwater> * 8, 200, 30);
+// -
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:lubricant> * 2, 100, 30);
 
 
 
