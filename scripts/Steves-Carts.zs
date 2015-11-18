@@ -117,6 +117,39 @@ val Saplings9 = <TwilightForest:tile.TFSapling:*>;
 val GlassPane = <ore:paneGlassColorless>;
 val PlasticPlate = <ore:platePlastic>;
 val RedstonePlate = <ore:plateRedstone>;
+val AdvTank = <StevesCarts:CartModule:66>;
+val TriTorch = <StevesCarts:ModuleComponents:29>;
+val RHandle = <StevesCarts:ModuleComponents:12>;
+val Red = <ore:dyeRed>;
+val Blue = <ore:dyeBlue>;
+val GoldPlate = <ore:plateGold>;
+val IronRing = <ore:ringIron>;
+val IronBolt = <ore:boltIron>;
+val GlowstonePlate = <ore:plateGlowstone>;
+val Diamond = <ore:gemDiamond>;
+val BlockEmerald = <ore:blockEmerald>;
+val LiBattery = <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long});
+val Crystal = <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0});
+val Circuit = <ore:circuitBasic>;
+val AdvCircuit = <ore:circuitAdvanced>;
+val FDiamond = <ore:gemFlawlessDiamond>;
+val Book = <ore:bookEmpty>;
+val BookShelf = <minecraft:bookshelf>;
+val GalgadorianEye = <StevesCarts:ModuleComponents:45>;
+val MagicalWood = <ExtraUtilities:decorativeBlock1:8>;
+val Enchanter = <minecraft:enchanting_table>;
+val SteelRotor = <ore:rotorSteel>;
+val BlankUpgrade = <StevesCarts:ModuleComponents:59>;
+val CleaningFan = <StevesCarts:ModuleComponents:40>;
+val RedstoneDust = <ore:dustRedstone>;
+val CoalDust = <ore:dustCoal>;
+val SteelFrame = <ore:frameGtSteel>;
+val SteelAnvil = <Railcraft:anvil>;
+val Chest = <ore:chestWood>;
+val Track = <minecraft:rail>;
+val ObsidianPlate = <ore:plateObsidian>;
+val LapisBlock = <ore:blockLapis>;
+val EnderEyePlate = <ore:plateEnderEye>;
 
 
 
@@ -357,6 +390,98 @@ recipes.remove(<StevesCarts:CartModule:58>);
 // --- Tree:Exotic
 recipes.remove(<StevesCarts:CartModule:88>);
 
+// --- Liquid Manager
+recipes.remove(<StevesCarts:BlockLiquidManager>);
+
+// --- Pipe
+recipes.remove(<StevesCarts:ModuleComponents:24>);
+
+// --- Tri Torch
+recipes.remove(TriTorch);
+
+// --- Torch Placer
+recipes.remove(<StevesCarts:CartModule:7>);
+
+// --- Raw Handle
+recipes.remove(<StevesCarts:ModuleComponents:11>);
+
+// --- Refined Handle
+furnace.remove(RHandle);
+
+// --- Break Handle
+recipes.remove(<StevesCarts:CartModule:26>);
+
+// --- Speed Handle
+recipes.remove(<StevesCarts:ModuleComponents:13>);
+
+// --- Large Lump of Galgadorian
+recipes.remove(<StevesCarts:ModuleComponents:48>);
+
+// --- Chest Look
+recipes.remove(<StevesCarts:ModuleComponents:33>);
+
+// --- Cleaning Fan
+recipes.remove(CleaningFan);
+
+// --- Blank Upgrades
+recipes.remove(BlankUpgrade);
+
+// --- Upgrade:Batteries
+recipes.remove(<StevesCarts:upgrade>);
+
+// --- Upgarde:Power Crystal
+recipes.remove(<StevesCarts:upgrade:1>);
+
+// --- Upgarde:Knowledge
+recipes.remove(<StevesCarts:upgrade:2>);
+
+// --- Upgarde:Industrial Espionage
+recipes.remove(<StevesCarts:upgrade:3>);
+
+// --- Upgarde:Experienced Assembler
+recipes.remove(<StevesCarts:upgrade:4>);
+
+// --- Upgarde:New Era
+recipes.remove(<StevesCarts:upgrade:5>);
+
+// --- Upgarde:Co2 Friendly
+recipes.remove(<StevesCarts:upgrade:6>);
+
+// --- Upgarde:Generic Engine
+recipes.remove(<StevesCarts:upgrade:7>);
+
+// --- Upgarde:Module Input
+recipes.remove(<StevesCarts:upgrade:8>);
+
+// --- Upgarde:Production Line
+recipes.remove(<StevesCarts:upgrade:9>);
+
+// --- Upgarde:Cart Deployer
+recipes.remove(<StevesCarts:upgrade:10>);
+
+// --- Upgarde:Cart Modifier
+recipes.remove(<StevesCarts:upgrade:11>);
+
+// --- Upgarde:Cart Crane
+recipes.remove(<StevesCarts:upgrade:12>);
+
+// --- Upgarde:Redstone Controle
+recipes.remove(<StevesCarts:upgrade:13>);
+
+// --- Upgarde:Quick Demolisher
+recipes.remove(<StevesCarts:upgrade:15>);
+
+// --- Upgarde:Entropy
+recipes.remove(<StevesCarts:upgrade:16>);
+
+// --- Upgarde:Manager Bridge
+recipes.remove(<StevesCarts:upgrade:17>);
+
+// --- Upgarde:Thermal Engine
+recipes.remove(<StevesCarts:upgrade:18>);
+
+// --- Upgarde:Solar Panel
+recipes.remove(<StevesCarts:upgrade:19>);
 
 
 
@@ -624,6 +749,167 @@ recipes.addShaped(<StevesCarts:ModuleComponents:28>, [
 [PlasticPlate, PCB, PlasticPlate],
 [PlasticPlate, PlasticPlate, PlasticPlate]]);
 
+// --- Liquid Manager
+recipes.addShaped(<StevesCarts:BlockLiquidManager>, [
+[LDPlate, PCB, LDPlate],
+[LVConveyorBelt, LVMHull, LvRobotArm],
+[AdvTank, GTDetector, AdvTank]]);
+
+// --- Pipe
+recipes.addShapeless(<StevesCarts:ModuleComponents:24>, [<gregtech:gt.blockmachines:5131>]);
+// -
+recipes.addShapeless(<gregtech:gt.blockmachines:5131>, [<StevesCarts:ModuleComponents:24>]);
+
+// --- Torch Placer
+recipes.addShaped(<StevesCarts:CartModule:7>, [
+[TriTorch, null, TriTorch],
+[LVConveyorBelt, PCB, LvRobotArm],
+[IronCasing, IronCasing, IronCasing]]);
+
+// --- Break Handle
+recipes.addShaped(<StevesCarts:CartModule:26>, [
+[SteelScrew, Red, RHandle],
+[IronPlate, RHandle, Red],
+[RedstonePlate, IronPlate, Screwdriver]]);
+
+// --- Speed Handle
+recipes.addShaped(<StevesCarts:ModuleComponents:13>, [
+[SteelScrew, Blue, RHandle],
+[GoldPlate, RHandle, Blue],
+[RedstonePlate, GoldPlate, Screwdriver]]);
+
+// --- Chest Look
+recipes.addShaped(<StevesCarts:ModuleComponents:33>, [
+[null, Screwdriver, null],
+[IronScrew, IronRing, IronScrew],
+[null, IronBolt, null]]);
+
+// --- Cleaning Fan
+recipes.addShaped(CleaningFan, [
+[SteelBars, RedstoneDust, SteelBars],
+[CoalDust, SteelRotor, CoalDust],
+[SteelBars, RedstoneDust, SteelBars]]);
+
+// --- Blank Upgrades
+recipes.addShaped(BlankUpgrade, [
+[SteelCasing, RedstonePlate, SteelCasing],
+[ReinforcedPlate, AdvPCB, ReinforcedPlate],
+[SteelCasing, SteelCasing, SteelCasing]]);
+
+// --- Upgrade Batteries
+recipes.addShaped(<StevesCarts:upgrade>, [
+[RedstonePlate, Diamond, RedstonePlate],
+[Circuit, LiBattery, Circuit],
+[RedstonePlate, BlankUpgrade, RedstonePlate]]);
+
+// --- Upgarde Power Crystal
+recipes.addShaped(<StevesCarts:upgrade:1>, [
+[FDiamond, BlockEmerald, FDiamond],
+[AdvCircuit, Crystal, AdvCircuit],
+[GlowstonePlate, <StevesCarts:upgrade>, GlowstonePlate]]);
+
+// --- Upgarde Knowledge
+recipes.addShaped(<StevesCarts:upgrade:2>, [
+[Book, BookShelf, Book],
+[BookShelf, Enchanter, BookShelf],
+[ReinforcedPlate, BlankUpgrade, ReinforcedPlate]]);
+
+// --- Upgarde Industrial Espionage
+recipes.addShaped(<StevesCarts:upgrade:3>, [
+[MagicalWood, GalgadorianEye, MagicalWood],
+[GalgadorianEye, ReinforcedPlate, GalgadorianEye],
+[ReinforcedPlate, <StevesCarts:upgrade:2>, ReinforcedPlate]]);
+
+// --- Upgarde:Experienced Assembler
+recipes.addShaped(<StevesCarts:upgrade:4>, [
+[PCB, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]}), PCB],
+[ReinforcedPlate, AdvPCB, ReinforcedPlate],
+[ReinforcedPlate, BlankUpgrade, ReinforcedPlate]]);
+
+// --- Upgarde:New Era
+recipes.addShaped(<StevesCarts:upgrade:5>, [
+[GalgadorianPlate, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}), GalgadorianPlate],
+[GalgadorianPlate, MasterCircuit, GalgadorianPlate],
+[GalgadorianPlate, <StevesCarts:upgrade:4>, GalgadorianPlate]]);
+
+// --- Upgarde:Co2 Friendly
+recipes.addShaped(<StevesCarts:upgrade:6>, [
+[PCB, SteelBars, PCB],
+[LVMotor, SteelRotor, LVMotor],
+[CleaningFan, BlankUpgrade, CleaningFan]]);
+
+// --- Upgarde:Generic Engine
+recipes.addShaped(<StevesCarts:upgrade:7>, [
+[PCB, IronPlate, PCB],
+[LVPiston, IronFurnace, LVPiston],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Module Input
+recipes.addShaped(<StevesCarts:upgrade:8>, [
+[IronPlate, AdvPCB, IronPlate],
+[LVPiston, Chest, LVPiston],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Production Line
+recipes.addShaped(<StevesCarts:upgrade:9>, [
+[IronPlate, PCB, IronPlate],
+[AdvPCB, <BuildCraft|Silicon:redstoneChipset:6>, AdvPCB],
+[ReinforcedPlate, BlankUpgrade, ReinforcedPlate]]);
+
+// --- Upgarde:Cart Deployer
+recipes.addShaped(<StevesCarts:upgrade:10>, [
+[IronPlate, Track, IronPlate],
+[PCB, LVPiston, PCB],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Cart Modifier
+recipes.addShaped(<StevesCarts:upgrade:11>, [
+[IronPlate, LvRobotArm, IronPlate],
+[PCB, SteelAnvil, PCB],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Cart Crane
+recipes.addShaped(<StevesCarts:upgrade:12>, [
+[LVPiston, LvRobotArm, LVPiston],
+[LVConveyorBelt, SteelFrame, LVConveyorBelt],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Redstone Controle
+recipes.addShaped(<StevesCarts:upgrade:13>, [
+[PCB, <ProjRed|Integration:projectred.integration.gate:10>, PCB],
+[<ProjRed|Integration:projectred.integration.gate:17>, AdvPCB, <ProjRed|Integration:projectred.integration.gate:21>],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Quick Demolisher
+recipes.addShaped(<StevesCarts:upgrade:15>, [
+[ObsidianPlate, ReinforcedPlate, ObsidianPlate],
+[ReinforcedPlate, SteelBlock, ReinforcedPlate],
+[ObsidianPlate, BlankUpgrade, ObsidianPlate]]);
+
+// --- Upgarde:Entropy
+recipes.addShaped(<StevesCarts:upgrade:16>, [
+[FDiamond, ReinforcedPlate, FDiamond],
+[GalgadorianPlate, LapisBlock, GalgadorianPlate],
+[IronPlate, <StevesCarts:upgrade:15>, IronPlate]]);
+
+// --- Upgarde:Manager Bridge
+recipes.addShaped(<StevesCarts:upgrade:17>, [
+[IronPlate, EnderEyePlate, IronPlate],
+[AdvPCB, <StevesCarts:BlockDistributor>, AdvPCB],
+[IronPlate, BlankUpgrade, IronPlate]]);
+
+// --- Upgarde:Thermal Engine
+recipes.addShaped(<StevesCarts:upgrade:18>, [
+[IronTank, AdvPCB, IronTank],
+[LVPiston, <StevesCarts:CartModule:69>, LVPiston],
+[ObsidianPlate, BlankUpgrade, ObsidianPlate]]);
+
+// --- Upgarde:Solar Panel
+recipes.addShaped(<StevesCarts:upgrade:19>, [
+[SolarPanel, SolarPanel, SolarPanel],
+[LVPiston, AdvPCB, LVPiston],
+[LVMotor, BlankUpgrade, LVMotor]]);
+
 
 
 
@@ -759,6 +1045,15 @@ Assembler.addRecipe(<StevesCarts:CartModule:58>, <StevesCarts:ModuleComponents:2
 // --- Tree:Exotic
 Assembler.addRecipe(<StevesCarts:CartModule:88>, <StevesCarts:ModuleComponents:28>, AdvPCB, 600, 64);
 
+// --- Tri Torch
+Assembler.addRecipe(TriTorch, <minecraft:torch> * 3, <gregtech:gt.integrated_circuit:3> * 0, 100, 8);
+
+// --- Raw Handle
+Assembler.addRecipe(<StevesCarts:ModuleComponents:11>, <gregtech:gt.metaitem.02:22305>, <gregtech:gt.metaitem.02:22032>, 100, 16);
+
+// --- Chest Look
+Assembler.addRecipe(<StevesCarts:ModuleComponents:33>, <gregtech:gt.metaitem.01:28032>, <gregtech:gt.metaitem.01:26032>, 100, 8);
+
 
 
 
@@ -775,6 +1070,9 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12384>], <liquid:oxygen> * 1000
 
 // --- Enhanced Galgadorian Block
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12385>], <liquid:oxygen> * 1000, [<StevesCarts:ModuleComponents:48>], 3000, 120, 3500); 
+
+// --- Refined Handle
+BlastFurnace.addRecipe([RHandle], [<StevesCarts:ModuleComponents:11>], 200, 120, 1000);
 
 
 
