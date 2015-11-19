@@ -150,6 +150,16 @@ val Track = <minecraft:rail>;
 val ObsidianPlate = <ore:plateObsidian>;
 val LapisBlock = <ore:blockLapis>;
 val EnderEyePlate = <ore:plateEnderEye>;
+val ClearingTube = <StevesCarts:ModuleComponents:42>;
+val LClearingTube = <StevesCarts:ModuleComponents:65>;
+val CCore = <StevesCarts:ModuleComponents:41>;
+val LCCore = <StevesCarts:ModuleComponents:64>;
+val CTCover = <gregtech:gt.metaitem.01:32744>;
+val Pipe = <StevesCarts:ModuleComponents:24>;
+val Dispenser = <minecraft:dispenser>;
+val SteelPlate = <ore:plateSteel>;
+val MvSensor = <gregtech:gt.metaitem.01:32691>;
+
 
 
 
@@ -394,7 +404,7 @@ recipes.remove(<StevesCarts:CartModule:88>);
 recipes.remove(<StevesCarts:BlockLiquidManager>);
 
 // --- Pipe
-recipes.remove(<StevesCarts:ModuleComponents:24>);
+recipes.remove(Pipe);
 
 // --- Tri Torch
 recipes.remove(TriTorch);
@@ -482,6 +492,66 @@ recipes.remove(<StevesCarts:upgrade:18>);
 
 // --- Upgarde:Solar Panel
 recipes.remove(<StevesCarts:upgrade:19>);
+
+// --- Red Pigment
+recipes.remove(<StevesCarts:ModuleComponents:2>);
+
+// --- Green Pigment
+recipes.remove(<StevesCarts:ModuleComponents:3>);
+
+// --- Blue Pigment
+recipes.remove(<StevesCarts:ModuleComponents:4>);
+
+// --- Colorizer
+recipes.remove(<StevesCarts:CartModule:41>);
+
+// --- Color Randomizer
+recipes.remove(<StevesCarts:CartModule:101>);
+
+// --- Clearing Tube
+recipes.remove(ClearingTube);
+
+// --- Liquid Clearing Tube
+recipes.remove(LClearingTube);
+
+// --- Clearing Core
+recipes.remove(CCore);
+
+// --- Liquid Clearing Core
+recipes.remove(LCCore);
+
+// --- Cleaning Machine
+recipes.remove(<StevesCarts:CartModule:30>);
+
+// --- Liquid Cleaning Machine
+recipes.remove(<StevesCarts:CartModule:71>);
+
+// --- Crafter
+recipes.remove(<StevesCarts:CartModule:87>);
+
+// --- Advanced Crafter
+recipes.remove(<StevesCarts:CartModule:92>);
+
+// --- Smelter
+recipes.remove(<StevesCarts:CartModule:91>);
+
+// --- Advanced Smelter
+recipes.remove(<StevesCarts:CartModule:93>);
+
+// --- Shooter
+recipes.remove(<StevesCarts:CartModule:28>);
+
+// --- Shooting Station
+recipes.remove(<StevesCarts:ModuleComponents:25>);
+
+// --- Entity Analyzer
+recipes.remove(<StevesCarts:ModuleComponents:27>);
+
+// --- Entity Scanner
+recipes.remove(<StevesCarts:ModuleComponents:26>);
+
+// --- Advanced Shooter
+recipes.remove(<StevesCarts:CartModule:29>);
 
 
 
@@ -756,9 +826,9 @@ recipes.addShaped(<StevesCarts:BlockLiquidManager>, [
 [AdvTank, GTDetector, AdvTank]]);
 
 // --- Pipe
-recipes.addShapeless(<StevesCarts:ModuleComponents:24>, [<gregtech:gt.blockmachines:5131>]);
+recipes.addShapeless(Pipe, [<gregtech:gt.blockmachines:5131>]);
 // -
-recipes.addShapeless(<gregtech:gt.blockmachines:5131>, [<StevesCarts:ModuleComponents:24>]);
+recipes.addShapeless(<gregtech:gt.blockmachines:5131>, [Pipe]);
 
 // --- Torch Placer
 recipes.addShaped(<StevesCarts:CartModule:7>, [
@@ -910,6 +980,49 @@ recipes.addShaped(<StevesCarts:upgrade:19>, [
 [LVPiston, AdvPCB, LVPiston],
 [LVMotor, BlankUpgrade, LVMotor]]);
 
+// --- Colorizer
+recipes.addShaped(<StevesCarts:CartModule:41>, [
+[<StevesCarts:ModuleComponents:2>, <StevesCarts:ModuleComponents:3>, <StevesCarts:ModuleComponents:4>],
+[IronPlate, RedstonePlate, IronPlate],
+[IronScrew, IronPlate, IronScrew]]);
+
+// --- Clearing Core
+recipes.addShaped(CCore, [
+[CleaningFan, PCB, CleaningFan],
+[ClearingTube, ClearingTube, ClearingTube],
+[IronPlate, ClearingTube, IronPlate]]);
+
+// --- Liquid Clearing Core
+recipes.addShaped(LCCore, [
+[CleaningFan, PCB, CleaningFan],
+[LClearingTube, LClearingTube, LClearingTube],
+[IronPlate, LClearingTube, IronPlate]]);
+
+// --- Clearing Machine
+recipes.addShaped(<StevesCarts:CartModule:30>, [
+[ClearingTube, CCore, ClearingTube],
+[ClearingTube, AdvPCB, ClearingTube],
+[ClearingTube, Wrench, ClearingTube]]);
+
+// --- Liquid Clearing Machine
+recipes.addShaped(<StevesCarts:CartModule:71>, [
+[LClearingTube, LCCore, LClearingTube],
+[LClearingTube, AdvPCB, LClearingTube],
+[LClearingTube, Wrench, LClearingTube]]);
+
+// --- Shooting Station
+recipes.addShaped(<StevesCarts:ModuleComponents:25>, [
+[SteelPlate, Hammer, SteelPlate],
+[RedstonePlate, GoldPlate, RedstonePlate],
+[Dispenser, PCB, Dispenser]]);
+
+// --- Advanced Shooter
+recipes.addShaped(<StevesCarts:CartModule:29>, [
+[SteelScrew, <StevesCarts:ModuleComponents:26>, SteelScrew],
+[AdvPCB, <StevesCarts:ModuleComponents:25>, Pipe],
+[SteelPlate, <StevesCarts:ModuleComponents:27>, SteelPlate]]);
+
+
 
 
 
@@ -1054,6 +1167,86 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:11>, <gregtech:gt.metaitem.02:
 // --- Chest Look
 Assembler.addRecipe(<StevesCarts:ModuleComponents:33>, <gregtech:gt.metaitem.01:28032>, <gregtech:gt.metaitem.01:26032>, 100, 8);
 
+// --- Red Pigment
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <minecraft:dye:1> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <gregtech:gt.metaitem.02:32415> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <gendustry:HoneyDrop:11> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:14> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <ExtraBees:misc:19> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:2>, <gregtech:gt.metaitem.01:17811> * 2, <Botany:pigment:59> * 4, 100, 2);
+
+// --- Green Pigment
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <minecraft:dye:2> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <ExtraBees:misc:22> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:13> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <gendustry:HoneyDrop:12> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <gregtech:gt.metaitem.02:32416> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <BiomesOPlenty:misc:7> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:3>, <gregtech:gt.metaitem.01:17811> * 2, <Botany:pigment:28> * 4, 100, 2);
+
+// --- Blue Pigment
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <minecraft:dye:4> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <Botany:pigment:24> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <ExtraBees:misc:21> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <Natura:barleyFood:8> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:11> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <gendustry:HoneyDrop:14> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <gregtech:gt.metaitem.02:32418> * 4, 100, 2);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:4>, <gregtech:gt.metaitem.01:17811> * 2, <BiomesOPlenty:misc:5> * 4, 100, 2);
+
+// --- Color Randomizer
+Assembler.addRecipe(<StevesCarts:CartModule:101>, <StevesCarts:CartModule:41>, AdvPCB, 200, 30);
+
+// --- Crafter
+Assembler.addRecipe(<StevesCarts:CartModule:87>, CTCover, PCB * 2, 300, 30);
+
+// --- Advanced Crafter
+Assembler.addRecipe(<StevesCarts:CartModule:92>, <StevesCarts:CartModule:87>, AdvPCB * 2, 300, 120);
+
+// --- Smelter
+Assembler.addRecipe(<StevesCarts:CartModule:91>, <IC2:blockMachine:1>, PCB * 2, 300, 30);
+
+// --- Advanced Smelter
+Assembler.addRecipe(<StevesCarts:CartModule:93>, <StevesCarts:CartModule:91>, AdvPCB * 2, 300, 120);
+
+// --- Shooter
+Assembler.addRecipe(<StevesCarts:CartModule:28>, <StevesCarts:ModuleComponents:25>, Pipe * 8, 400, 30);
+
+// --- Entity Scanner
+Assembler.addRecipe(<StevesCarts:ModuleComponents:26>, <gregtech:gt.metaitem.01:32762>, <StevesCarts:CartModule:21>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:26>, <gregtech:gt.metaitem.01:32762>, <StevesCarts:CartModule:22>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:26>, <gregtech:gt.metaitem.01:32762>, <StevesCarts:CartModule:23>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:26>, <gregtech:gt.metaitem.01:32762>, <StevesCarts:CartModule:24>, 400, 120);
+
+// --- Entity Analyzer
+Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:CartModule:21>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:CartModule:22>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:CartModule:23>, 400, 120);
+// -
+Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:CartModule:24>, 400, 120);
 
 
 
@@ -1085,6 +1278,12 @@ ChemicalBath.addRecipe([<StevesCarts:ModuleComponents:37>], <StevesCarts:ModuleC
 
 // --- Large Dynamic Pane
 ChemicalBath.addRecipe([<StevesCarts:ModuleComponents:38>], <StevesCarts:ModuleComponents:35>, <liquid:molten.redstone> * 576, [10000], 300, 2);
+
+// --- Clearing Tube
+ChemicalBath.addRecipe([ClearingTube], <StevesCarts:ModuleComponents:24>, <liquid:dye.watermixed.dyeorange> * 864, [10000], 200, 2);
+
+// --- Liquid Clearing Tube
+ChemicalBath.addRecipe([LClearingTube], <StevesCarts:ModuleComponents:24>, <liquid:dye.watermixed.dyegreen> * 864, [10000], 200, 2);
 
 
 
