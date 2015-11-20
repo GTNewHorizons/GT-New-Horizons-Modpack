@@ -413,7 +413,7 @@ furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 
 // --- Netherstar Dust
-recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
+//recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
 // --- GT Swords
 recipes.remove(<gregtech:gt.metatool.01>);
@@ -587,16 +587,16 @@ recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
 // --- Iridium Dust
-recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
+//recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
 
 // --- Iridium Ingot
-recipes.remove(<gregtech:gt.metaitem.01:11084>);
+//recipes.remove(<gregtech:gt.metaitem.01:11084>);
 
 // --- RTG Pellets
 recipes.remove(<IC2:itemRTGPellet>);
 
 // --- Saltpeter
-recipes.remove(<gregtech:gt.metaitem.01:2836>);
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2836>);
 
 // --- Solar Panel 1EU
 recipes.remove(<gregtech:gt.metaitem.01:32750>);
@@ -800,9 +800,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:36>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:34>, [
 [<ore:nuggetNickel>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
-
-// --- Lead Ingot
-furnace.addRecipe(<gregtech:gt.metaitem.01:11089>, <gregtech:gt.metaitem.01:2089>);
 
 // --- Motor Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
@@ -1103,7 +1100,11 @@ Compressor.addRecipe(<gregtech:gt.metaitem.01:17524>, <gregtech:gt.metaitem.01:2
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17525>, <gregtech:gt.metaitem.01:2525>);
 
 
+
+
 // --- Engraving laser Recipes ---
+
+
 
 
 // --- Flawless Diamond
@@ -1285,6 +1286,7 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:802> * 2, <minecraft:flint>, 32, 
 
 
 // --- Forming Press Recipes
+
 
 
 // --- Mold Plate
