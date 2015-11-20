@@ -413,7 +413,7 @@ furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 
 // --- Netherstar Dust
-//recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
 // --- GT Swords
 recipes.remove(<gregtech:gt.metatool.01>);
@@ -587,7 +587,7 @@ recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
 // --- Iridium Dust
-//recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
 
 // --- Iridium Ingot
 //recipes.remove(<gregtech:gt.metaitem.01:11084>);
@@ -645,6 +645,9 @@ recipes.remove(<gregtech:gt.blockmachines:128>);
 
 // --- Quantum Chest V
 recipes.remove(<gregtech:gt.blockmachines:129>);
+
+// --- Iridium IC2
+recipes.remove(<IC2:itemOreIridium>);
 
 
 
@@ -927,19 +930,6 @@ recipes.addShaped(<gregtech:gt.blockmachines:129>, [
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <BloodArsenal:glass_shard>]);
 
-// --- Saltpeter Dust
-recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
-[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>],
-[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>],
-[<gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>, <gregtech:gt.metaitem.01:836>]]);
-// -
-recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
-[<gregtech:gt.metaitem.01:1836>, <gregtech:gt.metaitem.01:1836>, null],
-[<gregtech:gt.metaitem.01:1836>, <gregtech:gt.metaitem.01:1836>, null]]);
-// -
-recipes.addShaped(<gregtech:gt.metaitem.01:2836> * 16, [
-[<gregtech:gt.metaitem.03:836>, <ore:craftingToolCrowbar>, null]]);
-
 // --- HSLA Steel Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:10>, <gregtech:gt.metaitem.01:1047>, <gregtech:gt.metaitem.01:1345>, <gregtech:gt.metaitem.01:1034>, <gregtech:gt.metaitem.01:1029>, <gregtech:gt.metaitem.01:1030>, <gregtech:gt.metaitem.01:1048>, <gregtech:gt.metaitem.01:1028>]);
 
@@ -951,6 +941,16 @@ recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32612>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
+// --- Small Black Granit Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20849>, [
+[<ore:stoneGraniteBlack>, null, null],
+[null, <ore:craftingToolFile>, null>]]);
+
+// --- Small Red Granit Gear
+recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
+[<ore:stoneGraniteRed>, null, null],
+[null, <ore:craftingToolFile>, null>]]);
 
 
 
