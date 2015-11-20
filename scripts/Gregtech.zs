@@ -592,21 +592,6 @@ recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 // --- 360k NaK Cooling Cell
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
-// --- Brewery 32 EU
-recipes.remove(<gregtech:gt.blockmachines:491>);
-
-// --- Brewery 128 EU
-recipes.remove(<gregtech:gt.blockmachines:492>);
-
-// --- Brewery 512 EU
-recipes.remove(<gregtech:gt.blockmachines:493>);
-
-// --- Brewery 2048 EU
-recipes.remove(<gregtech:gt.blockmachines:494>);
-
-// --- Brewery 8192 EU
-recipes.remove(<gregtech:gt.blockmachines:495>);
-
 // --- Iridium Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
 
@@ -655,44 +640,11 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
 [<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
 [<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>]]);
 
-// --- Field Generator LV
-recipes.remove(<gregtech:gt.metaitem.01:32670>);
-
-// --- Field Generator MV
-recipes.remove(<gregtech:gt.metaitem.01:32671>);
-
-// --- Field Generator HV
-recipes.remove(<gregtech:gt.metaitem.01:32672>);
-
-// --- Field Generator EV
-recipes.remove(<gregtech:gt.metaitem.01:32673>);
-
-// --- Field Generator IV
-recipes.remove(<gregtech:gt.metaitem.01:32674>);
-
-// --- Quantum Tank I
-recipes.remove(<gregtech:gt.blockmachines:120>);
-
-// --- Quantum Tank II
-recipes.remove(<gregtech:gt.blockmachines:121>);
-
-// --- Quantum Tank III
-recipes.remove(<gregtech:gt.blockmachines:122>);
-
 // --- Quantum Tank IV
 recipes.remove(<gregtech:gt.blockmachines:123>);
 
 // --- Quantum Chest V
 recipes.remove(<gregtech:gt.blockmachines:124>);
-
-// --- Quantum Chest I
-recipes.remove(<gregtech:gt.blockmachines:125>);
-
-// --- Quantum Chest II
-recipes.remove(<gregtech:gt.blockmachines:126>);
-
-// --- Quantum Chest III
-recipes.remove(<gregtech:gt.blockmachines:127>);
 
 // --- Quantum Chest IV
 recipes.remove(<gregtech:gt.blockmachines:128>);
@@ -700,11 +652,6 @@ recipes.remove(<gregtech:gt.blockmachines:128>);
 // --- Quantum Chest V
 recipes.remove(<gregtech:gt.blockmachines:129>);
 
-// --- Advanced Pump III
-recipes.remove(<gregtech:gt.blockmachines:1143>);
-
-// --- Advanced Pump III
-recipes.remove(<gregtech:gt.blockmachines:1144>);
 
 
 
@@ -863,36 +810,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:34>, [
 // --- Lead Ingot
 furnace.addRecipe(<gregtech:gt.metaitem.01:11089>, <gregtech:gt.metaitem.01:2089>);
 
-// --- Brewery 32 EU
-recipes.addShaped(<gregtech:gt.blockmachines:491>, [
-[<minecraft:glass>, <gregtech:gt.metaitem.01:32610>, <minecraft:glass>],
-[<ore:cableGt01Tin>, <gregtech:gt.blockmachines:11>, <ore:cableGt01Tin>],
-[<ore:circuitBasic>, <minecraft:brewing_stand>, <ore:circuitBasic>]]);
-
-// --- Brewery 128 EU
-recipes.addShaped(<gregtech:gt.blockmachines:492>, [
-[<minecraft:glass>, <gregtech:gt.metaitem.01:32611>, <minecraft:glass>],
-[<ore:cableGt01Copper>, <gregtech:gt.blockmachines:12>, <ore:cableGt01Copper>],
-[<ore:circuitGood>, <minecraft:brewing_stand>, <ore:circuitGood>]]);
-
-// --- Brewery 512 EU
-recipes.addShaped(<gregtech:gt.blockmachines:493>, [
-[<minecraft:glass>, <gregtech:gt.metaitem.01:32612>, <minecraft:glass>],
-[<ore:cableGt01Gold>, <gregtech:gt.blockmachines:13>, <ore:cableGt01Gold>],
-[<ore:circuitAdvanced>, <minecraft:brewing_stand>, <ore:circuitAdvanced>]]);
-
-// --- Brewery 2048 EU
-recipes.addShaped(<gregtech:gt.blockmachines:494>, [
-[<minecraft:glass>, <gregtech:gt.metaitem.01:32613>, <minecraft:glass>],
-[<ore:cableGt01Aluminium>, <gregtech:gt.blockmachines:14>, <ore:cableGt01Aluminium>],
-[<ore:circuitElite>, <minecraft:brewing_stand>, <ore:circuitElite>]]);
-
-// --- Brewery 8192 EU
-recipes.addShaped(<gregtech:gt.blockmachines:495>, [
-[<minecraft:glass>, <gregtech:gt.metaitem.01:32614>, <minecraft:glass>],
-[<ore:cableGt01Tungsten>, <gregtech:gt.blockmachines:15>, <ore:cableGt01Tungsten>],
-[<ore:circuitMaster>, <minecraft:brewing_stand>, <ore:circuitMaster>]]);
-
 // --- Motor Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
@@ -992,54 +909,6 @@ recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.f
 // --- Scaffolding
 recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<OpenBlocks:scaffolding>]);
 
-// --- Field Generator LV
-recipes.addShaped(<gregtech:gt.metaitem.01:32670>, [
-[<ore:wireGt01Osmium>, <ore:circuitBasic>, <ore:wireGt01Osmium>],
-[<ore:circuitBasic>, <ore:plateEnderPearl>, <ore:circuitBasic>],
-[<ore:wireGt01Osmium>, <ore:circuitBasic>, <ore:wireGt01Osmium>]]);
-
-// --- Field Generator MV
-recipes.addShaped(<gregtech:gt.metaitem.01:32671>, [
-[<ore:wireGt02Osmium>, <ore:circuitGood>, <ore:wireGt02Osmium>],
-[<ore:circuitGood>, <ore:plateEnderEye>, <ore:circuitGood>],
-[<ore:wireGt02Osmium>, <ore:circuitGood>, <ore:wireGt02Osmium>]]);
-
-// --- Field Generator HV
-recipes.addShaped(<gregtech:gt.metaitem.01:32672>, [
-[<ore:wireGt04Osmium>, <ore:circuitAdvanced>, <ore:wireGt04Osmium>],
-[<ore:circuitAdvanced>, <ore:gemNetherStar>, <ore:circuitAdvanced>],
-[<ore:wireGt04Osmium>, <ore:circuitAdvanced>, <ore:wireGt04Osmium>]]);
-
-// --- Field Generator EV
-recipes.addShaped(<gregtech:gt.metaitem.01:32673>, [
-[<ore:wireGt08Osmium>, <ore:circuitElite>, <ore:wireGt08Osmium>],
-[<ore:circuitElite>, <ore:gemNetherStar>, <ore:circuitElite>],
-[<ore:wireGt08Osmium>, <ore:circuitElite>, <ore:wireGt08Osmium>]]);
-
-// --- Field Generator IV
-recipes.addShaped(<gregtech:gt.metaitem.01:32674>, [
-[<ore:wireGt16Osmium>, <ore:circuitMaster>, <ore:wireGt16Osmium>],
-[<ore:circuitMaster>, <ore:gemNetherStar>, <ore:circuitMaster>],
-[<ore:wireGt16Osmium>, <ore:circuitMaster>, <ore:wireGt16Osmium>]]);
-
-// --- Quantum Tank I
-recipes.addShaped(<gregtech:gt.blockmachines:120>, [
-[<ore:circuitData>, <gregtech:gt.metaitem.01:32670>, <ore:circuitData>],
-[<ore:plateStainlessSteel>, <gregtech:gt.blockmachines:11>, <ore:plateStainlessSteel>],
-[<ore:circuitData>, <ore:plateMeteoricIron>, <ore:circuitData>]]);
-
-// --- Quantum Tank II
-recipes.addShaped(<gregtech:gt.blockmachines:121>, [
-[<ore:circuitElite>, <gregtech:gt.metaitem.01:32671>, <ore:circuitElite>],
-[<ore:plateTitanium>, <gregtech:gt.blockmachines:12>, <ore:plateTitanium>],
-[<ore:circuitElite>, <ore:plateTitanium>, <ore:circuitElite>]]);
-
-// --- Quantum Tank III
-recipes.addShaped(<gregtech:gt.blockmachines:122>, [
-[<ore:circuitMaster>, <gregtech:gt.metaitem.01:32672>, <ore:circuitMaster>],
-[<ore:plateTungstenSteel>, <gregtech:gt.blockmachines:13>, <ore:plateTungstenSteel>],
-[<ore:circuitMaster>, <ore:plateTungstenSteel>, <ore:circuitMaster>]]);
-
 // --- Quantum Tank IV
 recipes.addShaped(<gregtech:gt.blockmachines:123>, [
 [<dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.metaitem.01:32673>, <dreamcraft:item.HighEnergyFlowCircuit>],
@@ -1051,24 +920,6 @@ recipes.addShaped(<gregtech:gt.blockmachines:124>, [
 [<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>],
 [<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
 [<dreamcraft:item.PikoCircuit>, <ore:plateAmericium>, <dreamcraft:item.PikoCircuit>]]);
-
-// --- Quantum Chest I
-recipes.addShaped(<gregtech:gt.blockmachines:125>, [
-[<ore:circuitData>, <ore:plateStainlessSteel>, <ore:circuitData>],
-[<ore:plateStainlessSteel>, <gregtech:gt.blockmachines:11>, <ore:plateStainlessSteel>],
-[<ore:circuitData>, <gregtech:gt.metaitem.01:32670>, <ore:circuitData>]]);
-
-// --- Quantum Chest II
-recipes.addShaped(<gregtech:gt.blockmachines:126>, [
-[<ore:circuitElite>, <ore:plateTitanium>, <ore:circuitElite>],
-[<ore:plateTitanium>, <gregtech:gt.blockmachines:12>, <ore:plateTitanium>],
-[<ore:circuitElite>, <gregtech:gt.metaitem.01:32671>, <ore:circuitElite>]]);
-
-// --- Quantum Chest III
-recipes.addShaped(<gregtech:gt.blockmachines:127>, [
-[<ore:circuitMaster>, <ore:plateTungstenSteel>, <ore:circuitMaster>],
-[<ore:plateTungstenSteel>, <gregtech:gt.blockmachines:13>, <ore:plateTungstenSteel>],
-[<ore:circuitMaster>, <gregtech:gt.metaitem.01:32672>, <ore:circuitMaster>]]);
 
 // --- Quantum Chest IV
 recipes.addShaped(<gregtech:gt.blockmachines:128>, [
@@ -1112,18 +963,6 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.
 
 // --- TungstenSteel Wrench
 recipes.addShapeless(<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}}), [<RIO:item.io_tool>]);
-
-// --- Advanced Pump III
-recipes.addShaped(<gregtech:gt.blockmachines:1143>, [
-[<gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32613>, <gregtech:gt.metaitem.01:32705>],
-[<gregtech:gt.metaitem.01:32613>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32613>],
-[<gregtech:gt.blockmachines:5153>, <gregtech:gt.metaitem.01:32613>, <gregtech:gt.blockmachines:5153>]]);
-
-// --- Advanced Pump IV
-recipes.addShaped(<gregtech:gt.blockmachines:1144>, [
-[<gregtech:gt.metaitem.01:32707>, <gregtech:gt.metaitem.01:32614>, <gregtech:gt.metaitem.01:32707>],
-[<gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:15>, <gregtech:gt.metaitem.01:32614>],
-[<gregtech:gt.blockmachines:5163>, <gregtech:gt.metaitem.01:32614>, <gregtech:gt.blockmachines:5163>]]);
 
 // --- Pump Machinen Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:10>, [

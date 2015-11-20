@@ -1288,10 +1288,10 @@ Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
 
 // --- Heavy Duty Plate Alloy T2
-Assembler.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.titanium> * 72, 600, 256);
+//Assembler.addRecipe(<gregtech:gt.metaitem.01:32463>, HeavyPlating, <GalacticraftCore:item.meteoricIronIngot:1> * 2, <liquid:molten.titanium> * 72, 600, 256);
 	
 // --- Heavy Duty Plate Alloy T3
-Assembler.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 144, 1200, 480);
+//Assembler.addRecipe(<gregtech:gt.metaitem.01:32464>, <GalacticraftMars:item.null:3>, DeshPlate * 4, <liquid:molten.tungstensteel> * 144, 1200, 480);
 
 // --- Oxygen Mask
 Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 120);
@@ -1410,10 +1410,10 @@ ImplosionCompressor.addRecipe([<GalacticraftCore:item.meteoricIronIngot:1>, <gre
 ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19884>, 1);
 
 // --- Heavy Duty Plats Tier 2
-ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.metaitem.01:32463>, 16);
+//ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.metaitem.01:32463>, 16);
 
 // --- Heavy Duty Plats Tier 3
-ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:28> * 2], <gregtech:gt.metaitem.01:32464>, 24);
+//ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:28> * 2], <gregtech:gt.metaitem.01:32464>, 24);
 
 
 
