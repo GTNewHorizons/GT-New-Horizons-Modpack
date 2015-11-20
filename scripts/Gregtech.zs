@@ -568,12 +568,6 @@ recipes.remove(<gregtech:gt.Double_Thoriumcell>);
 // --- Quad Thorium Fuel Rod
 recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
 
-// --- Heavy Duty Alloy Ingots T2
-recipes.remove(<gregtech:gt.metaitem.01:32463>);
-
-// --- Heavy Duty Alloy Ingots T3
-recipes.remove(<gregtech:gt.metaitem.01:32464>);
-
 // --- 60k Helium Cooling Cell
 recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
 
@@ -949,15 +943,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2836>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2836> * 16, [
 [<gregtech:gt.metaitem.03:836>, <ore:craftingToolCrowbar>, null]]);
 
-// --- Hepatizon Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2957> * 3, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTinyGold>, <ore:dustTinyGold>, <ore:dustTinyGold>, <ore:dustTinySilver>, <ore:dustTinySilver>, <ore:dustTinySilver>]);
-
-// --- Angmallen Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2958> * 2, [<ore:dustIron>, <ore:dustGold>]);
-
-// --- Inolashite Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2954>, [<gregtech:gt.metaitem.01:2485>, <gregtech:gt.metaitem.01:2952>]);
-
 // --- HSLA Steel Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:10>, <gregtech:gt.metaitem.01:1047>, <gregtech:gt.metaitem.01:1345>, <gregtech:gt.metaitem.01:1034>, <gregtech:gt.metaitem.01:1029>, <gregtech:gt.metaitem.01:1030>, <gregtech:gt.metaitem.01:1048>, <gregtech:gt.metaitem.01:1028>]);
 
@@ -970,8 +955,6 @@ recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32612>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
-// --- Electrical Steel Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2365>, [<gregtech:gt.metaitem.01:2305>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2535>]);
 
 
 
