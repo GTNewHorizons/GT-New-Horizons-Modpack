@@ -61,27 +61,6 @@ var shutterModule = <gregtech:gt.metaitem.01:32749>;
 // ---Remove Recipes ---
 
 
-// --- Small Coal Boiler
-recipes.remove(SmallCoalBoiler);
-
-// --- High Pressure Steam Furnace
-recipes.remove(HPFurnace);
-
-// --- High Pressure Alloy Smelter
-recipes.remove(HPAlloySmelter);
-
-// --- High Pressure Coal Boiler
-recipes.remove(HPBoiler);
-
-// --- Multi-Smelter
-recipes.remove(MultiSmelter);
-
-// --- Bronze Blast Furnace
-recipes.remove(<gregtech:gt.blockmachines:108>);
-
-// --- Electric Blast Furnace
-recipes.remove(ElectricBFurnace);
-
 // --- Diamond Sword Blade
 recipes.remove(<gregtech:gt.metaitem.02:500>);
 
@@ -589,13 +568,10 @@ recipes.remove(<gregtech:gt.Double_Thoriumcell>);
 // --- Quad Thorium Fuel Rod
 recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
 
-// --- Heavy Duty Allow Ingots
-recipes.remove(<gregtech:gt.metaitem.01:32462>);
-
-// --- Heavy Duty Allow Ingots T2
+// --- Heavy Duty Alloy Ingots T2
 recipes.remove(<gregtech:gt.metaitem.01:32463>);
 
-// --- Heavy Duty Allow Ingots T3
+// --- Heavy Duty Alloy Ingots T3
 recipes.remove(<gregtech:gt.metaitem.01:32464>);
 
 // --- 60k Helium Cooling Cell
@@ -616,9 +592,6 @@ recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 // --- 360k NaK Cooling Cell
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
 
-// --- Large Bronze Boiler
-recipes.remove(<gregtech:gt.blockmachines:1020>);
-
 // --- Brewery 32 EU
 recipes.remove(<gregtech:gt.blockmachines:491>);
 
@@ -633,9 +606,6 @@ recipes.remove(<gregtech:gt.blockmachines:494>);
 
 // --- Brewery 8192 EU
 recipes.remove(<gregtech:gt.blockmachines:495>);
-
-// --- Implosion Compressor
-recipes.remove(<gregtech:gt.blockmachines:1001>);
 
 // --- Iridium Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2084>);
@@ -742,54 +712,6 @@ recipes.remove(<gregtech:gt.blockmachines:1144>);
 
 
 
-// --- Small Coal Boiler
-recipes.addShaped(SmallCoalBoiler, [
-[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
-[<ore:plateBronze>, <ore:craftingToolWrench>, <ore:plateBronze>],
-[<minecraft:brick_block>, <minecraft:furnace>, <minecraft:brick_block>]]);
-
-// --- High Pressure Steam Furnace
-recipes.addShaped(HPFurnace, [
-[SteelPipe, SteelPipe, SteelPipe],
-[SteelPipe, BrickSteelHull, SteelPipe],
-[SteelPipe, IronFurnace, SteelPipe]]);
-
-// --- High Pressure Alloy Smelter
-recipes.addShaped(HPAlloySmelter, [
-[SteelPipe, SteelPipe, SteelPipe],
-[IronFurnace, BrickSteelHull, IronFurnace],
-[SteelPipe, SteelPipe, SteelPipe]]);
-
-// --- High Pressure Coal Boiler
-recipes.addShaped(HPBoiler, [
-[SteelPlate, SteelPlate, SteelPlate],
-[SteelPlate, <ore:craftingToolWrench>, SteelPlate],
-[Bricks, IronFurnace, Bricks]]);
-
-// --- Bronze Blast Furnace
-recipes.addShaped(<gregtech:gt.blockmachines:108>, [
-[<ore:plateBronze>, IronFurnace, <ore:plateBronze>],
-[IronFurnace, <ore:craftingToolWrench>, IronFurnace],
-[<ore:plateBronze>, IronFurnace, <ore:plateBronze>]]);
-
-// --- Electric Blast Furnace
-recipes.addShaped(ElectricBFurnace, [
-[IronFurnace, IronFurnace, IronFurnace],
-[BasicCircuit, HeatProofCase, BasicCircuit],
-[TinCable, BasicCircuit, TinCable]]);
-
-// --- Multi-Smelter
-recipes.addShaped(MultiSmelter, [
-[IronFurnace, IronFurnace, IronFurnace],
-[AdvCircuit, HeatProofCase, AdvCircuit],
-[AnnealedCable, AdvCircuit, AnnealedCable]]);
-
-// --- UV Machine Casing
-recipes.addShaped(<gregtech:gt.blockcasings:8>, [
-[<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>],
-[<ore:plateAlloyIridium>, <ore:craftingToolWrench>, <ore:plateAlloyIridium>],
-[<ore:plateAlloyIridium>, <ore:plateAlloyIridium>, <ore:plateAlloyIridium>]]);
-
 // --- Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
@@ -819,25 +741,6 @@ recipes.addShaped(<gregtech:gt.metaitem.02:4500>, [
 [<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <gregtech:gt.metatool.01:12>],
 [<gregtech:gt.metatool.01:18>, null, null],
 [null, null, null]]);
-
-// --- Damascus Steel Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
-[<ore:dustSteel>, <ore:dustCoal>, <ore:dustSilicon>, <ore:dustManganese>, <ore:dustChrome>, <ore:dustMolybdenum>, <ore:dustNickel>, <ore:dustNickel>, <ore:dustNickel>]);
-
-recipes.addShapeless(<gregtech:gt.metaitem.01:2335> * 3,
-[<ore:dustSteel>, <ore:dustCoal>, <ore:dustManganese>, <ore:dustManganese>, <ore:dustSilicon>, <ore:dustChrome>, <ore:dustChrome>, <ore:dustVanadium>]);
-
-// --- Shadow Iron Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2336> * 3, 
-[<ore:dustIron>, <ore:dustThaumium>, <ore:dustThaumium>, <ore:dustThaumium>]);
-
-// --- Osmiridium Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2317> * 3, 
-[<ore:dustOsmium>, <ore:dustIridium>, <ore:dustIridium>, <ore:dustIridium>]);
-
-// --- Enderium Base
-recipes.addShapeless(<gregtech:gt.metaitem.01:2380> * 4, 
-[<ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <ore:dustPlatinum>]);
 
 // --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
@@ -885,7 +788,6 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMorta
 recipes.addShaped(<gregtech:gt.metaitem.02:22874>, [[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:stickPlastic>]]);
 
 // --- Flour
-
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:cropBarley>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
@@ -958,26 +860,8 @@ recipes.addShaped(<gregtech:gt.metaitem.01:34>, [
 [<ore:nuggetNickel>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 
-// --- Heavy Duty Allow Ingots
-recipes.addShaped(<gregtech:gt.metaitem.01:32462>, [
-[<ore:boltStainlessSteel>, <ore:craftingToolHardHammer>, <ore:boltStainlessSteel>],
-[<ore:compressedBronze>, <ore:compressedAluminium>, <ore:compressedSteel>],
-[<ore:boltStainlessSteel>, <ore:craftingToolWrench>, <ore:boltStainlessSteel>]]);
-
-// --- Large Bronze Boiler
-recipes.addShaped(<gregtech:gt.blockmachines:1020>, [
-[<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>],
-[<ore:circuitGood>, <gregtech:gt.blockcasings3:13>, <ore:circuitGood>],
-[<ore:cableGt01Tin>, <ore:circuitGood>, <ore:cableGt01Tin>]]);
-
 // --- Lead Ingot
 furnace.addRecipe(<gregtech:gt.metaitem.01:11089>, <gregtech:gt.metaitem.01:2089>);
-
-// --- Implosion Compressor
-recipes.addShaped(<gregtech:gt.blockmachines:1001>, [
-[<IC2:blockAlloy>, <IC2:blockAlloy>, <IC2:blockAlloy>],
-[<ore:circuitAdvanced>, <gregtech:gt.blockcasings2>, <ore:circuitAdvanced>],
-[<ore:cableGt01Aluminium>, <ore:circuitAdvanced>, <ore:cableGt01Aluminium>]]);
 
 // --- Brewery 32 EU
 recipes.addShaped(<gregtech:gt.blockmachines:491>, [
