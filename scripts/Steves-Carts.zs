@@ -20,6 +20,7 @@ import mods.gregtech.Pulverizer;
 
 
 
+
 // --- Variables ---
 
 
@@ -159,6 +160,35 @@ val Pipe = <StevesCarts:ModuleComponents:24>;
 val Dispenser = <minecraft:dispenser>;
 val SteelPlate = <ore:plateSteel>;
 val MvSensor = <gregtech:gt.metaitem.01:32691>;
+val Melter = <StevesCarts:CartModule:33>;
+val GlowstoneBlock = <minecraft:glowstone>;
+val NetherBrick = <ore:stoneNetherBrick>;
+var Lava = <ore:bucketLava>;
+val LFFireBox = <Railcraft:machine.beta:6>;
+val Railer = <StevesCarts:CartModule:10>;
+val Dynamite = <StevesCarts:ModuleComponents:6>;
+val Lighter = <minecraft:flint_and_steel>;
+val Fuse = <StevesCarts:ModuleComponents:43>;
+val Fence = <minecraft:fence>;
+val PlasticStick = <ore:stickPlastic>;
+val Display = <dreamcraft:item.Display>;
+val BronzePipe = <gregtech:gt.blockmachines:5121>;
+val Hopper = <ore:blockHopper>;
+val Slab = <ore:slabWood>;
+val Plank = <ore:plankWood>;
+val Brick = <minecraft:brick_block>;
+val PAnchor = <Railcraft:machine.alpha:2>;
+val BrassPipe = <gregtech:gt.blockmachines:5601>;
+val Trash = <ExtraUtilities:trashcan>;
+val RefinedH = <StevesCarts:ModuleComponents:19>;
+val DOPlate = <ore:plateDenseObsidian>;
+val ReinforcedBlock = <StevesCarts:BlockMetalStorage>;
+val SteelPipe = <gregtech:gt.blockmachines:5132>;
+val SSteelPipe = <gregtech:gt.blockmachines:5131>;
+val XPDrain = <OpenBlocks:xpdrain>;
+val Cauldron = <minecraft:cauldron>;
+val EmeraldPlate = <ore:plateEmerald>;
+val Tank = <BuildCraft|Factory:tankBlock>;
 
 
 
@@ -269,7 +299,7 @@ recipes.remove(HMesh);
 recipes.remove(<StevesCarts:ModuleComponents:18>);
 
 // --- Refined Hardener
-furnace.remove(<StevesCarts:ModuleComponents:19>);
+furnace.remove(RefinedH);
 
 // --- Saw Blade
 recipes.remove(SawBlade);
@@ -552,6 +582,79 @@ recipes.remove(<StevesCarts:ModuleComponents:26>);
 
 // --- Advanced Shooter
 recipes.remove(<StevesCarts:CartModule:29>);
+
+// --- Melter
+recipes.remove(Melter);
+
+// --- Extreme Melter
+recipes.remove(<StevesCarts:CartModule:34>);
+
+// --- Railer
+recipes.remove(Railer);
+
+// --- Large Railer
+recipes.remove(<StevesCarts:CartModule:11>);
+
+// --- Dynamite
+recipes.remove(Dynamite);
+
+// --- Dynamite Carrier
+recipes.remove(<StevesCarts:CartModule:31>);
+
+// --- Fuse
+recipes.remove(Fuse);
+
+// --- Firework Display
+recipes.remove(<StevesCarts:CartModule:59>);
+
+// --- Glass O Magic
+recipes.remove(<StevesCarts:ModuleComponents:5>);
+
+// --- Invisible Core
+recipes.remove(<StevesCarts:CartModule:36>);
+
+// --- Wheel
+recipes.remove(<StevesCarts:ModuleComponents:14>);
+
+// --- Graphical Interface
+recipes.remove(<StevesCarts:ModuleComponents:10>);
+
+// --- Advanced Control System
+recipes.remove(<StevesCarts:CartModule:27>);
+
+// --- Tank Valve
+recipes.remove(<StevesCarts:ModuleComponents:60>);
+
+// --- Cage
+recipes.remove(<StevesCarts:CartModule:57>);
+
+// --- Bridge Builder
+recipes.remove(<StevesCarts:CartModule:12>);
+
+// --- Track Remover
+recipes.remove(<StevesCarts:CartModule:13>);
+
+// --- Seat
+recipes.remove(<StevesCarts:CartModule:25>);
+
+// --- Chunk Loader
+recipes.remove(<StevesCarts:CartModule:49>);
+
+// --- Lawn Mover
+recipes.remove(<StevesCarts:CartModule:85>);
+
+// --- Incinerator
+recipes.remove(<StevesCarts:CartModule:68>);
+
+// --- Divine Shield
+recipes.remove(<StevesCarts:CartModule:32>);
+
+// --- Hydrator
+recipes.remove(<StevesCarts:CartModule:16>);
+
+// --- Exp Bank
+recipes.remove(<StevesCarts:CartModule:95>);
+
 
 
 
@@ -1022,6 +1125,131 @@ recipes.addShaped(<StevesCarts:CartModule:29>, [
 [AdvPCB, <StevesCarts:ModuleComponents:25>, Pipe],
 [SteelPlate, <StevesCarts:ModuleComponents:27>, SteelPlate]]);
 
+// --- Melter
+recipes.addShaped(Melter, [
+[GlowstoneBlock, NetherBrick, GlowstoneBlock],
+[IronTank, IronFurnace, IronTank],
+[Lava, NetherBrick, Lava]]);
+
+// --- Extreme Melter
+recipes.addShaped(<StevesCarts:CartModule:34>, [
+[GlowstoneBlock, ObsidianPlate, GlowstoneBlock],
+[Melter, LFFireBox, Melter],
+[Lava, ObsidianPlate, Lava]]);
+
+// --- Railer
+recipes.addShaped(Railer, [
+[IronPlate, IronPlate, IronPlate],
+[LVConveyorBelt, Track, LvRobotArm],
+[IronPlate, IronPlate, IronPlate]]);
+
+// --- Large Railer
+recipes.addShaped(<StevesCarts:CartModule:11>,[
+[SteelPlate, SteelPlate, SteelPlate],
+[Railer, Track, Railer],
+[SteelPlate, SteelPlate, SteelPlate]]);
+
+// --- Dynamite
+recipes.addShapeless(Dynamite, [<IC2:itemDynamite>]);
+// -
+recipes.addShapeless(<IC2:itemDynamite>, [Dynamite]);
+
+// --- Dynamite Carrier
+recipes.addShaped(<StevesCarts:CartModule:31>, [
+[WoodPlate, Dynamite, WoodPlate],
+[Dynamite, Lighter, Dynamite],
+[WoodPlate, Dynamite, WoodPlate]]);
+
+// --- Firework Display
+recipes.addShaped(<StevesCarts:CartModule:59>, [
+[Fence, Dispenser, Fence],
+[Chest, Fuse, Chest],
+[PCB, Lighter, PCB]]);
+
+// --- Wheel
+recipes.addShaped(<StevesCarts:ModuleComponents:14>, [
+[IronStick, IronRing, IronStick],
+[IronRing, Hammer, IronRing],
+[IronStick, IronRing, IronStick]]);
+
+// --- Graphical Interface
+recipes.addShaped(<StevesCarts:ModuleComponents:10>, [
+[PlasticStick, GlassPane, PlasticStick],
+[PCB, Display, PCB],
+[PlasticStick, GlassPane, PlasticStick]]);
+
+// --- Advanced Control System
+recipes.addShaped(<StevesCarts:CartModule:27>, [
+[Hammer, <StevesCarts:ModuleComponents:10>, Wrench],
+[AdvPCB, <StevesCarts:ModuleComponents:14>, <StevesCarts:ModuleComponents:13>],
+[SteelPlate, SteelPlate, SteelPlate]]);
+
+// --- Tank Valve
+recipes.addShaped(<StevesCarts:ModuleComponents:60> * 2, [
+[IronScrew, BronzePipe, IronScrew],
+[IronBars, Screwdriver, IronBars],
+[IronScrew, BronzePipe, IronScrew]]);
+
+// --- Cage
+recipes.addShaped(<StevesCarts:CartModule:57>, [
+[SteelBars, SteelBars, SteelBars],
+[SteelBars, Hammer, SteelBars],
+[SteelBars, PCB, SteelBars]]);
+
+// --- Bridge Builder
+recipes.addShaped(<StevesCarts:CartModule:12>, [
+[PCB, RedstonePlate, PCB],
+[Brick, LVPiston, Brick],
+[IronPlate, Hopper, IronPlate]]);
+
+// --- Track Remover
+recipes.addShaped(<StevesCarts:CartModule:13>, [
+[LvRobotArm, PCB, LvRobotArm],
+[LVConveyorBelt, Track, LVConveyorBelt],
+[IronPlate, IronPlate, IronPlate]]);
+
+// --- Seat
+recipes.addShaped(<StevesCarts:CartModule:25>, [
+[Screwdriver, null, Plank],
+[null, IronScrew, Plank],
+[Slab, Slab, IronScrew]]);
+
+// --- Chunk Loader
+recipes.addShaped(<StevesCarts:CartModule:49>, [
+[IronPlate, PCB, IronPlate],
+[AdvPCB, PAnchor, AdvPCB],
+[ReinforcedPlate, PCB, ReinforcedPlate]]);
+
+// --- Lawn Mover
+recipes.addShaped(<StevesCarts:CartModule:85>, [
+[BladeArm, LVMotor, BladeArm],
+[LvRobotArm, PCB, LvRobotArm],
+[BladeArm, LVMotor, BladeArm]]);
+
+// --- Incinerator
+recipes.addShaped(<StevesCarts:CartModule:68>, [
+[IronPlate, BrassPipe, IronPlate],
+[PCB, Trash, PCB],
+[IronPlate, BrassPipe, IronPlate]]);
+
+// --- Divine Shield
+recipes.addShaped(<StevesCarts:CartModule:32>, [
+[DOPlate, RefinedH, DOPlate],
+[RefinedH, ReinforcedBlock, RefinedH],
+[DOPlate, RefinedH, DOPlate]]);
+
+// --- Hydrator
+recipes.addShaped(<StevesCarts:CartModule:16>, [
+[Tank, IronBars, Tank],
+[SteelPipe, PCB, SteelPipe],
+[SSteelPipe, Hammer, SSteelPipe]]);
+
+// --- Exp Bank
+recipes.addShaped(<StevesCarts:CartModule:95>, [
+[EmeraldPlate, XPDrain, EmeraldPlate],
+[PCB, Cauldron, PCB],
+[Tank, SteelPipe, Tank]]);
+
 
 
 
@@ -1248,6 +1476,22 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:Ca
 // -
 Assembler.addRecipe(<StevesCarts:ModuleComponents:27>, MvSensor, <StevesCarts:CartModule:24>, 400, 120);
 
+// --- Fuse
+Assembler.addRecipe(Fuse * 4, <minecraft:string>, <minecraft:gunpowder>, 50, 2);
+
+// --- Glass O Magic
+Assembler.addRecipe(<StevesCarts:ModuleComponents:5>, <minecraft:glass_pane> * 7, <minecraft:fermented_spider_eye>, <liquid:molten.thaumium> * 288, 200, 256);
+
+// --- Invisible Core
+Assembler.addRecipe(<StevesCarts:CartModule:36>, <StevesCarts:ModuleComponents:5> * 4, <StevesCarts:ModuleComponents:45>, <liquid:ender> * 1000, 400, 480);
+
+// --- Tank Valve
+Assembler.addRecipe(<StevesCarts:ModuleComponents:60> * 2, BronzePipe, IronBars, 400, 16);
+
+// --- Cage
+Assembler.addRecipe(<StevesCarts:CartModule:57>, SteelBars * 5, PCB, 600, 30);
+
+
 
 
 
@@ -1413,8 +1657,8 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:M
 
 
 
-// --- Compressed Callisto Ice Plate
-ImplosionCompressor.addRecipe(<StevesCarts:ModuleComponents:19>, <StevesCarts:ModuleComponents:18>, 1);
+// --- Refined Hardened
+ImplosionCompressor.addRecipe(RefinedH, <StevesCarts:ModuleComponents:18>, 1);
 
 
 
