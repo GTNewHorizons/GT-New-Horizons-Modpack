@@ -945,12 +945,12 @@ recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
 // --- Small Black Granit Gear
 recipes.addShaped(<gregtech:gt.metaitem.02:20849>, [
 [<ore:stoneGraniteBlack>, null, null],
-[null, <ore:craftingToolFile>, null>]]);
+[null, <ore:craftingToolFile>, null]]);
 
 // --- Small Red Granit Gear
 recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
 [<ore:stoneGraniteRed>, null, null],
-[null, <ore:craftingToolFile>, null>]]);
+[null, <ore:craftingToolFile>, null]]);
 
 
 
