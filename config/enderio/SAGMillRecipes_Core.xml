@@ -2939,6 +2939,25 @@
     </recipe>
   </recipeGroup>
 
+  <recipeGroup name="IC2" >
+    <recipe name="Lapis to Dust" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="gemLapis" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustLapis" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Lapis Block to Dust" energyCost="3600" >
+      <input>
+        <itemStack oreDictionary="blockLapis" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustLapis" number="9" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
   <grindingBalls>
     <grindingBall id="Flint" grindingMultiplier="1.2" chanceMultiplier="1.25" powerMultiplier="0.85" durationRF="24000" >
       <itemStack oreDictionary="itemFlint" />

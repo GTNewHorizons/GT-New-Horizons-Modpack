@@ -1,4 +1,4 @@
-// Mod Version: 1.2.4
+// Mod Version: 1.3.0
 {
 	// Food included in the food group
 	"food": {
@@ -18,6 +18,16 @@
 		]
 	},
 
+	// Food excluded from the food group, takes precedence over items in "food"
+	// Optional; uses the same format as the "food" property
+	"exclude": {
+		// This example excludes HarvestCraft strawberrys, which would have
+		// otherwise been included in the "listAllberry" oredict inclusion
+		"items": [
+			"harvestcraft:strawberryItem"
+		]
+	},
+
 	// The name that will be shown in the tooltip.
 	// Can be localized. Unused for hidden food groups.
 	// Optional; default if not defined: "spiceoflife.foodgroup.<filename>"
@@ -25,12 +35,6 @@
 
 	// Optional; default if not defined: true
 	"enabled": false,
-
-	// Food can only belong to one food group.
-	// In the case of conflicting food groups, the food group with the highest priority will be selected
-	// Example: A food group with priority 3 will take precedence over a food group with priority 1
-	// Optional; default if not defined: 0
-	"priority": 0,
 
 	// If true, the foods in this food group will be excluded from diminishing returns
 	// Optional; default if not defined: false
@@ -45,5 +49,13 @@
 	// instead of the main diminishing returns formula 
 	// See the food.modifier.formula config option in the main SpiceOfLife.cfg for documentation
 	// Optional; default if not defined: food.modifier.formula from SpiceOfLife.cfg
-	"formula": "MAX(0, 1 - count/2)"
+	"formula": "MAX(0, 1 - count/2)",
+
+	// Used to set the style of the food group name in tooltips, etc
+	// Valid values: 
+	//   black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold,
+	//   gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white,
+	//   obfuscated, bold, strikethrough, underline, italic
+	// Optional; default if not defined: gray
+	"color": "gold"
 }
