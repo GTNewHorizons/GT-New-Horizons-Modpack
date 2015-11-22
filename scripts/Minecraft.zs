@@ -1058,19 +1058,19 @@ recipes.addShapeless(JackOLantern,
 
 // --- Trapdoor
 recipes.addShaped(Trapdoor, [
-[WoodSlab, Stick, WoodSlab],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, Flint, Stick],
-[WoodSlab, Stick, WoodSlab]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 // --- 
 recipes.addShaped(Trapdoor * 2, [
-[WoodSlab, Stick, WoodSlab],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, IronScrew, Stick],
-[WoodSlab, Stick, WoodSlab]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 // ---
 recipes.addShaped(Trapdoor * 3, [
-[WoodSlab, Stick, WoodSlab],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, SteelScrew, Stick],
-[WoodSlab, Stick, WoodSlab]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 
 // --- Pressure Plate
 recipes.addShapeless(<minecraft:stone_pressure_plate> * 2, [Saw, <minecraft:stone_slab>]);
@@ -2422,24 +2422,24 @@ recipes.addShaped(<minecraft:nether_brick> * 2, [
 
 // --- Wooden Door
 recipes.addShaped(WoodDoor, [
-[<minecraft:planks:*>, <minecraft:trapdoor>, Screwdriver],
-[<minecraft:planks:*>, <ore:ringAnyIron>, <ore:screwAnyIron>],
-[<minecraft:planks:*>, <minecraft:planks:*>, Saw]]);
+[<minecraft:planks>, <minecraft:trapdoor>, Screwdriver],
+[<minecraft:planks>, <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<minecraft:planks>, <minecraft:planks>, Saw]]);
 // -
 recipes.addShaped(WoodDoor, [
-[<minecraft:planks:*>, <minecraft:trapdoor>, Screwdriver],
-[<minecraft:planks:*>, <ore:ringCopper>, <ore:screwCopper>],
-[<minecraft:planks:*>, <minecraft:planks:*>, Saw]]);
+[<minecraft:planks>, <minecraft:trapdoor>, Screwdriver],
+[<minecraft:planks>, <ore:ringCopper>, <ore:screwCopper>],
+[<minecraft:planks>, <minecraft:planks>, Saw]]);
 // -
 recipes.addShaped(WoodDoor, [
-[<minecraft:planks:*>, <minecraft:trapdoor>, Saw],
-[<minecraft:planks:*>, <ore:ringAnyIron>, <ore:screwAnyIron>],
-[<minecraft:planks:*>, <minecraft:planks:*>, Screwdriver]]);
+[<minecraft:planks>, <minecraft:trapdoor>, Saw],
+[<minecraft:planks>, <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<minecraft:planks>, <minecraft:planks>, Screwdriver]]);
 // -
 recipes.addShaped(WoodDoor, [
-[<minecraft:planks:*>, <minecraft:trapdoor>, Saw],
-[<minecraft:planks:*>, <ore:ringCopper>, <ore:screwCopper>],
-[<minecraft:planks:*>, <minecraft:planks:*>, Screwdriver]]);
+[<minecraft:planks>, <minecraft:trapdoor>, Saw],
+[<minecraft:planks>, <ore:ringCopper>, <ore:screwCopper>],
+[<minecraft:planks>, <minecraft:planks>, Screwdriver]]);
 
 // --- Iron Door
 recipes.addShaped(IronDoor, [
@@ -2749,10 +2749,10 @@ Assembler.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4
 // --- Iron Door
 Assembler.addRecipe(<minecraft:iron_door>, <Railcraft:part.plate> * 4, <dreamcraft:item.SteelBars>, <liquid:molten.steel> * 16, 400, 8);
 
-// --- Trapped Door
-Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab:*> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// --- Trapped Door Oak
+Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
-Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab:*> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 // --- Piston
 Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
@@ -2763,8 +2763,8 @@ Assembler.addRecipe(<minecraft:bookshelf>, <minecraft:planks:*> * 6, <minecraft:
 // --- Workbench
 Assembler.addRecipe(<minecraft:crafting_table>, <minecraft:log:*>, <minecraft:flint> * 2, 200, 4);
 
-// --- Fence Gate
-Assembler.addRecipe(FenceGate, <minecraft:stick> * 2, <minecraft:planks:*> * 2, 300, 8);
+// --- Fence Gate Oak
+Assembler.addRecipe(FenceGate, <minecraft:stick> * 2, <minecraft:planks> * 2, 300, 8);
 
 // --- Nether Star
 Assembler.addRecipe(<minecraft:nether_star>, <Thaumcraft:ItemResource:14> * 12, <minecraft:nether_star> * 0, 900, 256);

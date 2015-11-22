@@ -1,5 +1,13 @@
 // --- Created by DreamMasterXXL ---
 
+// --- for GT New Horizons ModPack 1.0.7.3
+
+// --- Steve's Carts Version 2.0.0.b18
+
+// --- Used Mods:
+// --- Minetweaker 3.0.10B, Modtweaker 0.9.4, GTTweaker 1.0.9, Gregtech 5.08.33.5 custom, GTCoreMod 1.0.6, IC2 2.2.796, Railcraft 9.7.0.0, Project Red 4.7.0pre9.92, Backpack Mod 2.0.1
+// --- Extra Utilities 1.2.12, Buildcraft 7.1.13, Thaumcraft 4.2.3.5, Forestry 3.6.12.3, Biome O Plenty 2.1.0.1465, Natura 2.2.0.1, Iron Tanks 1.0.1.50, Open Blocks 1.4.4, Ender Io 2.3.0.420
+
 
 
 
@@ -160,6 +168,7 @@ val Pipe = <StevesCarts:ModuleComponents:24>;
 val Dispenser = <minecraft:dispenser>;
 val SteelPlate = <ore:plateSteel>;
 val MvSensor = <gregtech:gt.metaitem.01:32691>;
+val HvSensor = <gregtech:gt.metaitem.01:32692>;
 val Melter = <StevesCarts:CartModule:33>;
 val GlowstoneBlock = <minecraft:glowstone>;
 val NetherBrick = <ore:stoneNetherBrick>;
@@ -189,6 +198,22 @@ val XPDrain = <OpenBlocks:xpdrain>;
 val Cauldron = <minecraft:cauldron>;
 val EmeraldPlate = <ore:plateEmerald>;
 val Tank = <BuildCraft|Factory:tankBlock>;
+val TinPipe = <gregtech:gt.blockmachines:5590>;
+val TannedLeather = <Backpack:tannedLeather>;
+val Compass = <minecraft:compass>;
+val FDetector = <gregtech:gt.metaitem.01:32732>;
+val NoteBlock = <minecraft:noteblock>;
+val JukeBox = <minecraft:jukebox>;
+val EDetector = <gregtech:gt.metaitem.01:32734>;
+val Button = <minecraft:stone_button>;
+val QBook = <minecraft:writable_book>;
+val IOEnchanter = <EnderIO:blockEnchanter>;
+val EGalgadorianPlate = <ore:plateEnhancedGalgadorian>;
+val Comparator = <ProjRed|Integration:projectred.integration.gate:26>;
+val HayBale = <minecraft:hay_block>;
+val LvPump = <gregtech:gt.metaitem.01:32610>;
+val Sign = <minecraft:sign>;
+val Cake = <minecraft:cake>;
 
 
 
@@ -654,6 +679,45 @@ recipes.remove(<StevesCarts:CartModule:16>);
 
 // --- Exp Bank
 recipes.remove(<StevesCarts:CartModule:95>);
+
+// --- Fertilizer
+recipes.remove(<StevesCarts:CartModule:18>);
+
+// --- Hight Controller
+recipes.remove(<StevesCarts:CartModule:19>);
+
+// --- Liquid Sensors
+recipes.remove(<StevesCarts:CartModule:20>);
+
+// --- Note Sequencer
+recipes.remove(<StevesCarts:CartModule:40>);
+
+// --- Drill Intelligence
+recipes.remove(<StevesCarts:CartModule:75>);
+
+// --- Power Observer
+recipes.remove(<StevesCarts:CartModule:77>);
+
+// --- Arcade
+recipes.remove(<StevesCarts:CartModule:78>);
+
+// --- Enchanter
+recipes.remove(<StevesCarts:CartModule:82>);
+
+// --- Ore Extractor
+recipes.remove(<StevesCarts:CartModule:83>);
+
+// --- Milker
+recipes.remove(<StevesCarts:CartModule:86>);
+
+// --- Planter Range Extender
+recipes.remove(<StevesCarts:CartModule:89>);
+
+// --- Information Provider
+recipes.remove(<StevesCarts:CartModule:94>);
+
+// --- Cake Server
+recipes.remove(<StevesCarts:CartModule:99>);
 
 
 
@@ -1249,6 +1313,84 @@ recipes.addShaped(<StevesCarts:CartModule:95>, [
 [EmeraldPlate, XPDrain, EmeraldPlate],
 [PCB, Cauldron, PCB],
 [Tank, SteelPipe, Tank]]);
+
+// --- Fertilizer
+recipes.addShaped(<StevesCarts:CartModule:18>, [
+[TinPipe, PCB, TinPipe],
+[Tank, TannedLeather, Tank],
+[TannedLeather, PCB, TannedLeather]]);
+
+// --- Hight Controller
+recipes.addShaped(<StevesCarts:CartModule:19>, [
+[IronPlate, Compass, IronPlate],
+[PCB, Display, PCB],
+[IronPlate, PCB, IronPlate]]);
+
+// --- Liquid Sensors
+recipes.addShaped(<StevesCarts:CartModule:20>, [
+[IronPlate, Diamond, IronPlate],
+[RedstonePlate, FDetector, RedstonePlate],
+[IronPlate, AdvPCB, IronPlate]]);
+
+// --- Note Sequencer
+recipes.addShaped(<StevesCarts:CartModule:40>, [
+[NoteBlock, RedstonePlate, NoteBlock],
+[NoteBlock, PCB, NoteBlock],
+[IronPlate, JukeBox, IronPlate]]);
+
+// --- Drill Intelligence
+recipes.addShaped(<StevesCarts:CartModule:75>, [
+[IronPlate, GoldPlate, IronPlate],
+[GoldPlate, AdvPCB, GoldPlate],
+[AdvPCB, RedstonePlate, AdvPCB]]);
+
+// --- Power Observer
+recipes.addShaped(<StevesCarts:CartModule:77>, [
+[IronPlate, LVPiston, IronPlate],
+[AdvPCB, EDetector, AdvPCB],
+[IronPlate, AdvPCB, IronPlate]]);
+
+// --- Arcade
+recipes.addShaped(<StevesCarts:CartModule:78>, [
+[IronPlate, RedstonePlate, IronPlate],
+[PCB, Display, PCB],
+[Button, AdvPCB, Button]]);
+
+// --- Enchanter
+recipes.addShaped(<StevesCarts:CartModule:82>, [
+[IronPlate, EGalgadorianPlate, IronPlate],
+[QBook, IOEnchanter, QBook],
+[RedstonePlate, AdvPCB, RedstonePlate]]);
+
+// --- Ore Extractor
+recipes.addShaped(<StevesCarts:CartModule:83>, [
+[HvSensor, RedstonePlate, HvSensor],
+[GalgadorianEye, GalgadorianPlate, GalgadorianEye],
+[Comparator, AdvPCB, Comparator]]);
+
+// --- Milker
+recipes.addShaped(<StevesCarts:CartModule:86>, [
+[HayBale, LvPump, HayBale],
+[AdvPCB, SSteelPipe, AdvPCB],
+[Tank, SSteelPipe, Tank]]);
+
+// --- Planter Range Extender
+recipes.addShaped(<StevesCarts:CartModule:89>, [
+[MvSensor, RedstonePlate, MvSensor],
+[AdvPCB, WoodCore, AdvPCB],
+[IronPlate, RedstonePlate, IronPlate]]);
+
+// --- Information Provider
+recipes.addShaped(<StevesCarts:CartModule:94>, [
+[IronPlate, Sign, IronPlate],
+[PCB, Display, PCB],
+[IronPlate, RedstonePlate, IronPlate]]);
+
+// --- Cake Server
+recipes.addShaped(<StevesCarts:CartModule:99>, [
+[null, Cake, null],
+[PCB, Slab, PCB],
+[IronPlate, IronPlate, IronPlate]]);
 
 
 

@@ -1,5 +1,12 @@
 // --- Created by DreamMasterXXL ---
 
+// --- for GT New Horizons ModPack 1.0.7.3
+
+// --- Malis Doors Version 1.12.2
+
+// --- Used Mods:
+// --- Minetweaker 3.0.10B, Modtweaker 0.9.4, GTTweaker 1.0.9, Gregtech 5.08.33.5 custom, GTCoreMod 1.0.6, Project Red 4.7.0pre9.92, Tinkers Construct 1.8.8
+
 
 
 // --- Importing Stuff ---
@@ -56,7 +63,6 @@ val CopperScrew = <ore:screwCopper>;
 val GlassPane = <ore:paneGlassColorless>;
 val SteelBars = <dreamcraft:item.SteelBars>;
 val Paper = <minecraft:paper>;
-val Carpet = <minecraft:carpet:*>;
 val String = <minecraft:string>;
 val DiamondPlate = <ore:plateDiamond>;
 val ThaumiumPlate = <ore:plateThaumium>;
@@ -142,8 +148,53 @@ recipes.remove(<malisisdoors:item.factory_door>);
 // --- Shoji Door
 recipes.remove(<malisisdoors:item.shoji_door>);
 
-// --- Curtain
-recipes.remove(<malisisdoors:item.curtain>);
+// --- Curtain Purple
+recipes.remove(<malisisdoors:item.curtain_purple>);
+
+// --- Curtain Yellow
+recipes.remove(<malisisdoors:item.curtain_yellow>);
+
+// --- Curtain Magenta
+recipes.remove(<malisisdoors:item.curtain_magenta>);
+
+// --- Curtain Pink
+recipes.remove(<malisisdoors:item.curtain_pink>);
+
+// --- Curtain White
+recipes.remove(<malisisdoors:item.curtain_white>);
+
+// --- Curtain Blue
+recipes.remove(<malisisdoors:item.curtain_blue>);
+
+// --- Curtain Gray
+recipes.remove(<malisisdoors:item.curtain_gray>);
+
+// --- Curtain Cyan
+recipes.remove(<malisisdoors:item.curtain_cyan>);
+
+// --- Curtain Red
+recipes.remove(<malisisdoors:item.curtain_red>);
+
+// --- Curtain Brown
+recipes.remove(<malisisdoors:item.curtain_brown>);
+
+// --- Curtain Lime
+recipes.remove(<malisisdoors:item.curtain_lime>);
+
+// --- Curtain Orange
+recipes.remove(<malisisdoors:item.curtain_orange>);
+
+// --- Curtain Silver/Light Gray
+recipes.remove(<malisisdoors:item.curtain_silver>);
+
+// --- Curtain Green
+recipes.remove(<malisisdoors:item.curtain_green>);
+
+// --- Curtain Light Blue
+recipes.remove(<malisisdoors:item.curtain_light_blue>);
+
+// --- Curtain Black
+recipes.remove(<malisisdoors:item.curtain_black>);
 
 // --- Saloon Door
 recipes.remove(<malisisdoors:item.saloon>);
@@ -165,6 +216,21 @@ recipes.remove(<malisisdoors:jungleFenceGate>);
 
 // --- Spruce Fence Gate
 recipes.remove(<malisisdoors:spruceFenceGate>);
+
+// --- Trapped Door Arcania
+recipes.remove(<malisisdoors:trapdoor_acacia>);
+
+// --- Trapped Door Birch
+recipes.remove(<malisisdoors:trapdoor_birch>);
+
+// --- Trapped Door Dark Oak
+recipes.remove(<malisisdoors:trapdoor_dark_oak>);
+
+// --- Trapped Door Jungle
+recipes.remove(<malisisdoors:trapdoor_jungle>);
+
+// --- Trapped Door Spruce
+recipes.remove(<malisisdoors:trapdoor_spruce>);
 
 
 
@@ -357,6 +423,86 @@ recipes.addShaped(<malisisdoors:item.door_spruce>, [
 [IronScrew, IronRing, <minecraft:planks:1>],
 [Screwdriver, <minecraft:planks:1>, <minecraft:planks:1>]]);
 
+// --- Trapdoor Acacia
+recipes.addShaped(<malisisdoors:trapdoor_acacia>, [
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>],
+[Stick, Flint, Stick],
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>]]);
+// --- 
+recipes.addShaped(<malisisdoors:trapdoor_acacia> * 2, [
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>],
+[Stick, IronScrew, Stick],
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>]]);
+// ---
+recipes.addShaped(<malisisdoors:trapdoor_acacia> * 3, [
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>],
+[Stick, SteelScrew, Stick],
+[<minecraft:wooden_slab:4>, Stick, <minecraft:wooden_slab:4>]]);
+
+// --- Trapdoor Spruce
+recipes.addShaped(<malisisdoors:trapdoor_spruce>, [
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>],
+[Stick, Flint, Stick],
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>]]);
+// --- 
+recipes.addShaped(<malisisdoors:trapdoor_spruce> * 2, [
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>],
+[Stick, IronScrew, Stick],
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>]]);
+// ---
+recipes.addShaped(<malisisdoors:trapdoor_spruce> * 3, [
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>],
+[Stick, SteelScrew, Stick],
+[<minecraft:wooden_slab:1>, Stick, <minecraft:wooden_slab:1>]]);
+
+// --- Trapdoor Birch
+recipes.addShaped(<malisisdoors:trapdoor_birch>, [
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>],
+[Stick, Flint, Stick],
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>]]);
+// --- 
+recipes.addShaped(<malisisdoors:trapdoor_birch> * 2, [
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>],
+[Stick, IronScrew, Stick],
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>]]);
+// ---
+recipes.addShaped(<malisisdoors:trapdoor_birch> * 3, [
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>],
+[Stick, SteelScrew, Stick],
+[<minecraft:wooden_slab:2>, Stick, <minecraft:wooden_slab:2>]]);
+
+// --- Trapdoor Jungle
+recipes.addShaped(<malisisdoors:trapdoor_jungle>, [
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>],
+[Stick, Flint, Stick],
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>]]);
+// --- 
+recipes.addShaped(<malisisdoors:trapdoor_jungle> * 2, [
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>],
+[Stick, IronScrew, Stick],
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>]]);
+// ---
+recipes.addShaped(<malisisdoors:trapdoor_jungle> * 3, [
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>],
+[Stick, SteelScrew, Stick],
+[<minecraft:wooden_slab:3>, Stick, <minecraft:wooden_slab:3>]]);
+
+// --- Trapdoor Dark Oak
+recipes.addShaped(<malisisdoors:trapdoor_dark_oak>, [
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>],
+[Stick, Flint, Stick],
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>]]);
+// --- 
+recipes.addShaped(<malisisdoors:trapdoor_dark_oak> * 2, [
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>],
+[Stick, IronScrew, Stick],
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>]]);
+// ---
+recipes.addShaped(<malisisdoors:trapdoor_dark_oak> * 3, [
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>],
+[Stick, SteelScrew, Stick],
+[<minecraft:wooden_slab:5>, Stick, <minecraft:wooden_slab:5>]]);
+
 // --- Wooden Glass Door
 recipes.addShaped(<malisisdoors:item.wood_sliding_door>, [
 [null, GlassPane, null],
@@ -418,11 +564,101 @@ recipes.addShaped(<malisisdoors:item.shoji_door>, [
 [Paper, CopperRing, IronScrew],
 [Paper, Stick, Screwdriver]]);
 
-// --- Curtain
-recipes.addShaped(<malisisdoors:item.curtain>, [
-[Carpet, null, Carpet],
-[Carpet, String, Carpet],
-[Carpet, null, Carpet]]);
+// --- Curtain Purple
+recipes.addShaped(<malisisdoors:item.curtain_purple>, [
+[<minecraft:carpet:10>, null, <minecraft:carpet:10>],
+[<minecraft:carpet:10>, String, <minecraft:carpet:10>],
+[<minecraft:carpet:10>, null, <minecraft:carpet:10>]]);
+
+// --- Curtain Yellow
+recipes.addShaped(<malisisdoors:item.curtain_yellow>, [
+[<minecraft:carpet:4>, null, <minecraft:carpet:4>],
+[<minecraft:carpet:4>, String, <minecraft:carpet:4>],
+[<minecraft:carpet:4>, null, <minecraft:carpet:4>]]);
+
+// --- Curtain Magenta
+recipes.addShaped(<malisisdoors:item.curtain_magenta>, [
+[<minecraft:carpet:2>, null, <minecraft:carpet:2>],
+[<minecraft:carpet:2>, String, <minecraft:carpet:2>],
+[<minecraft:carpet:2>, null, <minecraft:carpet:2>]]);
+
+// --- Curtain Pink
+recipes.addShaped(<malisisdoors:item.curtain_pink>, [
+[<minecraft:carpet:6>, null, <minecraft:carpet:6>],
+[<minecraft:carpet:6>, String, <minecraft:carpet:6>],
+[<minecraft:carpet:6>, null, <minecraft:carpet:6>]]);
+
+// --- Curtain White
+recipes.addShaped(<malisisdoors:item.curtain_white>, [
+[<minecraft:carpet>, null, <minecraft:carpet>],
+[<minecraft:carpet>, String, <minecraft:carpet>],
+[<minecraft:carpet>, null, <minecraft:carpet>]]);
+
+// --- Curtain Blue
+recipes.addShaped(<malisisdoors:item.curtain_blue>, [
+[<minecraft:carpet:11>, null, <minecraft:carpet:11>],
+[<minecraft:carpet:11>, String, <minecraft:carpet:11>],
+[<minecraft:carpet:11>, null, <minecraft:carpet:11>]]);
+
+// --- Curtain Gray
+recipes.addShaped(<malisisdoors:item.curtain_gray>, [
+[<minecraft:carpet:7>, null, <minecraft:carpet:7>],
+[<minecraft:carpet:7>, String, <minecraft:carpet:7>],
+[<minecraft:carpet:7>, null, <minecraft:carpet:7>]]);
+
+// --- Curtain Cyan
+recipes.addShaped(<malisisdoors:item.curtain_cyan>, [
+[<minecraft:carpet:9>, null, <minecraft:carpet:9>],
+[<minecraft:carpet:9>, String, <minecraft:carpet:9>],
+[<minecraft:carpet:9>, null, <minecraft:carpet:9>]]);
+
+// --- Curtain Red
+recipes.addShaped(<malisisdoors:item.curtain_red>, [
+[<minecraft:carpet:14>, null, <minecraft:carpet:14>],
+[<minecraft:carpet:14>, String, <minecraft:carpet:14>],
+[<minecraft:carpet:14>, null, <minecraft:carpet:14>]]);
+
+// --- Curtain Brown
+recipes.addShaped(<malisisdoors:item.curtain_brown>, [
+[<minecraft:carpet:12>, null, <minecraft:carpet:12>],
+[<minecraft:carpet:12>, String, <minecraft:carpet:12>],
+[<minecraft:carpet:12>, null, <minecraft:carpet:12>]]);
+
+// --- Curtain Lime
+recipes.addShaped(<malisisdoors:item.curtain_lime>, [
+[<minecraft:carpet:5>, null, <minecraft:carpet:5>],
+[<minecraft:carpet:5>, String, <minecraft:carpet:5>],
+[<minecraft:carpet:5>, null, <minecraft:carpet:5>]]);
+
+// --- Curtain Orange
+recipes.addShaped(<malisisdoors:item.curtain_orange>, [
+[<minecraft:carpet:1>, null, <minecraft:carpet:1>],
+[<minecraft:carpet:1>, String, <minecraft:carpet:1>],
+[<minecraft:carpet:1>, null, <minecraft:carpet:1>]]);
+
+// --- Curtain Silver/Light Gray
+recipes.addShaped(<malisisdoors:item.curtain_silver>, [
+[<minecraft:carpet:8>, null, <minecraft:carpet:8>],
+[<minecraft:carpet:8>, String, <minecraft:carpet:8>],
+[<minecraft:carpet:8>, null, <minecraft:carpet:8>]]);
+
+// --- Curtain Green
+recipes.addShaped(<malisisdoors:item.curtain_green>, [
+[<minecraft:carpet:13>, null, <minecraft:carpet:13>],
+[<minecraft:carpet:13>, String, <minecraft:carpet:13>],
+[<minecraft:carpet:13>, null, <minecraft:carpet:13>]]);
+
+// --- Curtain Light Blue
+recipes.addShaped(<malisisdoors:item.curtain_light_blue>, [
+[<minecraft:carpet:3>, null, <minecraft:carpet:3>],
+[<minecraft:carpet:3>, String, <minecraft:carpet:3>],
+[<minecraft:carpet:3>, null, <minecraft:carpet:3>]]);
+
+// --- Curtain Black
+recipes.addShaped(<malisisdoors:item.curtain_black>, [
+[<minecraft:carpet:15>, null, <minecraft:carpet:15>],
+[<minecraft:carpet:15>, String, <minecraft:carpet:15>],
+[<minecraft:carpet:15>, null, <minecraft:carpet:15>]]);
 
 // --- Saloon Door
 recipes.addShaped(<malisisdoors:item.saloon> * 2, [
@@ -605,8 +841,93 @@ Assembler.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liqu
 // -
 Assembler.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.copper> * 16, 400, 4);
 
-// --- Curtain
-Assembler.addRecipe(<malisisdoors:item.curtain>, Carpet * 3, <minecraft:string>, 400, 4);
+// --- Purple Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_purple>, <minecraft:carpet:10> * 3, <minecraft:string>, 400, 4);
+
+// --- Yellow Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_yellow>, <minecraft:carpet:4> * 3, <minecraft:string>, 400, 4);
+
+// --- Magenta Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_magenta>, <minecraft:carpet:2> * 3, <minecraft:string>, 400, 4);
+
+// --- Pink Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_pink>, <minecraft:carpet:6> * 3, <minecraft:string>, 400, 4);
+
+// --- White Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_white>, <minecraft:carpet> * 3, <minecraft:string>, 400, 4);
+
+// --- Blue Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_blue>, <minecraft:carpet:11> * 3, <minecraft:string>, 400, 4);
+
+// --- Cyan Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_cyan>, <minecraft:carpet:9> * 3, <minecraft:string>, 400, 4);
+
+// --- Red Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_red>, <minecraft:carpet:14> * 3, <minecraft:string>, 400, 4);
+
+// --- Gray Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_gray>, <minecraft:carpet:7> * 3, <minecraft:string>, 400, 4);
+
+// --- Brown Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_brown>, <minecraft:carpet:12> * 3, <minecraft:string>, 400, 4);
+
+// --- Lime Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_lime>, <minecraft:carpet:5> * 3, <minecraft:string>, 400, 4);
+
+// --- Orange Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_orange>, <minecraft:carpet:1> * 3, <minecraft:string>, 400, 4);
+
+// --- Silver/Light Gray Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_silver>, <minecraft:carpet:8> * 3, <minecraft:string>, 400, 4);
+
+// --- Green Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_green>, <minecraft:carpet:13> * 3, <minecraft:string>, 400, 4);
+
+// --- Light Blue Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_light_blue>, <minecraft:carpet:3> * 3, <minecraft:string>, 400, 4);
+
+// --- Black Curtain
+Assembler.addRecipe(<malisisdoors:item.curtain_black>, <minecraft:carpet:15> * 3, <minecraft:string>, 400, 4);
 
 // --- Saloon Door
 Assembler.addRecipe(<malisisdoors:item.saloon>, Trapdoor * 2, smallIronSpring * 2, 400, 4);
+
+// --- Fence Gate Acacia
+Assembler.addRecipe(<malisisdoors:acaciaFenceGate>, <minecraft:stick> * 2, <minecraft:planks:4> * 2, 300, 8);
+
+// --- Fence Gate Birch
+Assembler.addRecipe(<malisisdoors:birchFenceGate>, <minecraft:stick> * 2, <minecraft:planks:2> * 2, 300, 8);
+
+// --- Fence Gate Dark Oak
+Assembler.addRecipe(<malisisdoors:darkOakFenceGate>, <minecraft:stick> * 2, <minecraft:planks:5> * 2, 300, 8);
+
+// --- Fence Gate Jungle
+Assembler.addRecipe(<malisisdoors:jungleFenceGate>, <minecraft:stick> * 2, <minecraft:planks:3> * 2, 300, 8);
+
+// --- Fence Gate Spruce
+Assembler.addRecipe(<malisisdoors:spruceFenceGate>, <minecraft:stick> * 2, <minecraft:planks:1> * 2, 300, 8);
+
+// --- Trapped Door Arcania
+Assembler.addRecipe(<malisisdoors:trapdoor_acacia> * 4, <minecraft:wooden_slab:4> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<malisisdoors:trapdoor_acacia> * 6, <minecraft:wooden_slab:4> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+
+// --- Trapped Door Birch
+Assembler.addRecipe(<malisisdoors:trapdoor_birch> * 4, <minecraft:wooden_slab:2> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<malisisdoors:trapdoor_birch> * 6, <minecraft:wooden_slab:2> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+
+// --- Trapped Door Dark Oak
+Assembler.addRecipe(<malisisdoors:trapdoor_dark_oak> * 4, <minecraft:wooden_slab:5> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<malisisdoors:trapdoor_dark_oak> * 6, <minecraft:wooden_slab:5> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+
+// --- Trapped Door Jungle
+Assembler.addRecipe(<malisisdoors:trapdoor_jungle> * 4, <minecraft:wooden_slab:3> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<malisisdoors:trapdoor_jungle> * 6, <minecraft:wooden_slab:3> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+
+// --- Trapped Door Spruce
+Assembler.addRecipe(<malisisdoors:trapdoor_spruce> * 4, <minecraft:wooden_slab:1> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<malisisdoors:trapdoor_spruce> * 6, <minecraft:wooden_slab:1> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);

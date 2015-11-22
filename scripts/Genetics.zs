@@ -148,13 +148,13 @@ recipes.addShaped(<Genetics:labMachine:1>, [
 
 // --- Incubator
 recipes.addShaped(<Genetics:labMachine:2>, [
-[<ore:craftingTank>, <ore:craftingIronFurnace>, <ore:craftingTank>],
+[<BuildCraft|Factory:tankBlock>, <ore:craftingIronFurnace>, <BuildCraft|Factory:tankBlock>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
 [<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
 
 // --- Genpool
 recipes.addShaped(<Genetics:labMachine:3>, [
-[<ore:craftingTank>, <ore:chestIron>, <ore:craftingTank>],
+[<BuildCraft|Factory:tankBlock>, <ore:chestIron>, <BuildCraft|Factory:tankBlock>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
 [<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
 
