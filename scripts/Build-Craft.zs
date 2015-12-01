@@ -398,9 +398,6 @@ recipes.remove(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>);
 
 
 
-// --- Gears ---
-
-
 // --- Diamond Gear
 recipes.addShapeless(DiamondGear, [<ore:gearGtDiamond>]);
 
@@ -416,22 +413,11 @@ recipes.addShapeless(StoneGear, [<ore:gearGtStone>]);
 // --- Wooden Gear
 recipes.addShapeless(WoodGear, [<ore:gearGtWood>]);
 
-
-
-// --- Engines ---
-
-
 // --- Combustion Engine
 recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [
 [<ore:plateInvar>, <ore:plateLapis>, <ore:plateInvar>],
 [<ore:springInvar>, <minecraft:piston>, <ore:springInvar>],
 [<ore:gearInvar>, <Forestry:sturdyMachine>, <ore:gearInvar>]]);
-
-
-
-// --- Pipes ---
-
-
 
 // --- Cobblestone-Covered Kinesis Pipe
 recipes.addShaped(PipeCobbleKinesis, [
@@ -486,12 +472,6 @@ recipes.addShaped(PipeDiamondKinesis, [
 [DiamondRod, ClearPane, DiamondRod],
 [ClearPane, PlatinumWire, ClearPane],
 [DiamondRod, ClearPane, DiamondRod]]);
-
-
-
-// ---Items ---
-
-
 
 // --- Tank
 recipes.addShaped(BCTank, [

@@ -192,6 +192,9 @@ recipes.remove(<Natura:natura.bow.fusewood>);
 recipes.addShapeless(Cotton,
 [<harvestcraft:cottonItem>, <harvestcraft:cottonItem>]);
 
+// --- Cotton Seeds
+recipes.addShapeless(<Natura:barley.seed:1>, [<Natura:barleyFood:3>]);
+
 // --- Imp Leather
 recipes.addShaped(Leather, [
 [String, String, String],

@@ -384,6 +384,10 @@ recipes.removeShaped(<minecraft:stone_button>);
 // --- String
 recipes.removeShapeless(<minecraft:string>);
 
+// --- String
+recipes.removeShaped(<minecraft:string>, [
+[<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]]);
+
 // --- Glistering Melon
 recipes.removeShaped(<minecraft:speckled_melon>);
 
@@ -1012,7 +1016,7 @@ recipes.addShaped(Dropper, [
 
 // --- Piston
 recipes.addShaped(Piston, [
-[<gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>, <gregtech:gt.metaitem.02:32470>],
+[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
 [<ore:gearGtSmallAnyIron>, Fence, <ore:gearGtSmallAnyIron>],
 [Cobble, <ore:plateRedAlloy>, Cobble]]);
 
@@ -2228,12 +2232,12 @@ recipes.addShaped(<minecraft:compass>, [
 [<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 // --- Pumpkin Seeds
-recipes.addShaped(<minecraft:pumpkin_seeds> * 4, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>, <minecraft:pumpkin>]]);
+recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>]]);
 // -
 recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolSoftHammer>, <minecraft:pumpkin>]]);
 
 // --- Melon Seeds
-recipes.addShaped(<minecraft:melon_seeds> * 2, [[<minecraft:melon>, <ore:craftingToolHardHammer>, <minecraft:melon>]]);
+recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <ore:craftingToolHardHammer>]]);
 // -
 recipes.addShaped(<minecraft:melon_seeds>, [[<minecraft:melon>, <ore:craftingToolSoftHammer>, <minecraft:melon>]]);
 
@@ -2364,6 +2368,10 @@ recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
 [<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
+
+// --- String
+recipes.addShaped(<minecraft:string>, [
+[<Natura:barleyFood:3>, <Natura:barleyFood:3>, <Natura:barleyFood:3>]]);
 
 // --- Wooden Door
 recipes.remove(WoodDoor);

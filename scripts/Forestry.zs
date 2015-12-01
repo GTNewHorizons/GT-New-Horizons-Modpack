@@ -110,13 +110,13 @@ recipes.remove(<Forestry:ffarm:5>);
 // --- Tools and Items ---
 
 
-// --- Survivalist´s Pickaxe
+// --- Survivalists Pickaxe
 recipes.remove(<Forestry:bronzePickaxe>);
 
 // --- Pickaxe Kit
 recipes.remove(<Forestry:kitPickaxe>);
 
-// --- Survivalist´s Shovel
+// --- Survivalists Shovel
 recipes.remove(<Forestry:bronzeShovel>);
 
 // --- Shovel Kit

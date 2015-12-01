@@ -362,7 +362,7 @@ recipes.remove(<Railcraft:machine.beta:3>);
 // --- High Pressure Boiler Tank ---
 recipes.remove(HPBoilerTank);
 
-// --- Hobbyist´s Steam Engine ---
+// --- Hobbyists Steam Engine ---
 recipes.remove(<Railcraft:machine.beta:7>);
 
 // --- Commercial Steam Engine ---
@@ -879,7 +879,7 @@ recipes.addShaped(HPBoilerTank, [
 [SteelScrew, HHammer, SteelScrew],
 [<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 
-// --- Hobbyist´s Steam Engine ---
+// --- Hobbyists Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:7>, [
 [<ore:plateCopper>, LapisPlate, <ore:plateCopper>,],
 [<ore:springCopper>, Piston, <ore:springCopper>],
@@ -1789,7 +1789,7 @@ AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
 // --- Assembler Recipes ---
 
 
-// --- Hobbyist´s Steam Engine
+// --- Hobbyists Steam Engine
 Assembler.addRecipe(<Railcraft:machine.beta:7>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:3> * 10, 800, 256);
 
 // --- Commercial Steam Engine
