@@ -1221,6 +1221,17 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldLeggings>, <liquid:stee
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldBoots>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 
+// --- Glue ---
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2880>, <liquid:glue> * 144, 250, <TConstruct:GlueBlock>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11880>, <liquid:glue> * 144, 300, <TConstruct:GlueBlock>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:17880>, <liquid:glue> * 288, 350, <TConstruct:GlueBlock>);
+// -
+mods.tconstruct.Smeltery.addMelting(<EMT:EMTItems:10>, <liquid:glue> * 576, 400, <TConstruct:GlueBlock>);
+// -
+mods.tconstruct.Smeltery.addMelting(<EMT:EMTItems:8>, <liquid:glue> * 288, 200, <TConstruct:GlueBlock>);
+
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
 

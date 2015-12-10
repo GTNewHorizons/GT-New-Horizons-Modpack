@@ -702,6 +702,12 @@ mods.railcraft.BlastFurnace.removeRecipe(<TwilightForest:item.fieryIngot>);
 // --- HSLA Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
 
+// --- Redstone Alloy Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
+
+// --- Soularium Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
+
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
