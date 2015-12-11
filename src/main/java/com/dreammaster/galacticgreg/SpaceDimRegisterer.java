@@ -183,8 +183,8 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Proteus", "galaxyspace.SolarSystem.moons.proteus.dimension.ChunkProviderProteus", DimensionType.Planet, singleToList(DBMProteus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Oberon", "galaxyspace.SolarSystem.oberon.dimension.ChunkProviderOberon", DimensionType.Planet, singleToList(DBMOberon)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Titan", "galaxyspace.SolarSystem.moons.titan.dimension.ChunkProviderTitan", DimensionType.Planet, singleToList(DBMTitan)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Callisto", "galaxyspace.SolarSystem.SolarSystem.callisto.dimension.ChunkProviderCallisto", DimensionType.Planet, singleToList(DBMCallisto)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Ganymede", "galaxyspace.SolarSystem.moons.ganymed.dimension.ChunkProviderGanymede", DimensionType.Planet, singleToList(DBMGanymede)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Callisto", "galaxyspace.SolarSystem.moons.callisto.dimension.ChunkProviderCallisto", DimensionType.Planet, singleToList(DBMCallisto)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Ganymede", "galaxyspace.SolarSystem.moons.ganymede.dimension.ChunkProviderGanymede", DimensionType.Planet, singleToList(DBMGanymede)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Ceres", "galaxyspace.SolarSystem.planets.ceres.dimension.ChunkProviderCeres", DimensionType.Planet, singleToList(DBMCeres)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Deimos", "galaxyspace.SolarSystem.moons.deimos.dimension.ChunkProviderDeimos", DimensionType.Planet, singleToList(DBMDeimos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Enceladus", "galaxyspace.SolarSystem.moons.enceladus.dimension.ChunkProviderEnceladus", DimensionType.Planet, singleToList(DBMEnceladus)));
