@@ -1380,6 +1380,11 @@ recipes.addShaped(<TConstruct:bootsWood>, [
 [<ore:logWood>, null, <ore:logWood>],
 [null, null, null]]);
 
+// --- Clear Glass Pane
+recipes.addShaped(<TConstruct:GlassPane> * 2, [
+[<ore:craftingToolSaw>, null, null],
+[null, <TConstruct:GlassBlock>, null]]);
+
 
 
 // --- Items ---
