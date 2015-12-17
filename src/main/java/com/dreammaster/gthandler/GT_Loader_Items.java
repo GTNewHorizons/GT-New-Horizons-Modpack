@@ -314,5 +314,9 @@ public class GT_Loader_Items
 			'S', OrePrefixes.stick.get(Materials.ElectrumFlux), 
 			'P', OrePrefixes.plate.get(Materials.Osmium), 
 			'C', AdvancedGTMaterials.UV.getCircuit() });
+
+		CustomItemList.EtchedLowVoltageWiring.getItem(com.dreammaster.item.ItemList.EtchedLowVoltageWiring);
+
 	}
+
 }

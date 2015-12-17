@@ -1,6 +1,8 @@
 package com.dreammaster.gthandler;
 
 import static gregtech.api.enums.GT_Values.W;
+
+import com.dreammaster.item.ItemList;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -63,7 +65,10 @@ public enum CustomItemList implements IItemContainer
 	ThermalCentrifugeLuV, ThermalCentrifugeZPM, ThermalCentrifugeUV,
 	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
 	WiremillLuV, WiremillZPM, WiremillUV,
-	PumpLuV, PumpZPM, PumpUV;
+	PumpLuV, PumpZPM, PumpUV,
+
+	//CoreModItems
+	EtchedLowVoltageWiring;
 
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;
@@ -179,4 +184,6 @@ public enum CustomItemList implements IItemContainer
 		for (Object tOreName : aOreNames) GT_OreDictUnificator.registerOre(tOreName, getWildcard(1));
 		return this;
 	}
+
+
 }
