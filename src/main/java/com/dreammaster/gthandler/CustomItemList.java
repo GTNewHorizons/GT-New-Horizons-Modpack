@@ -68,7 +68,9 @@ public enum CustomItemList implements IItemContainer
 	PumpLuV, PumpZPM, PumpUV,
 
 	//CoreModItems
-	EtchedLowVoltageWiring;
+	EtchedLowVoltageWiring, EtchedInsaneVoltageWiring, EtchedLudicrousVoltageWiring,
+
+    SteelBars;
 
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;

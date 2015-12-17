@@ -318,8 +318,13 @@ public class GT_Loader_Items
                         'P', OrePrefixes.plate.get(Materials.Osmium),
                         'C', AdvancedGTMaterials.UV.getCircuit()});
 
-    CustomItemList.EtchedLowVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLowVoltageWiring.getIS());
 
+    //CoreMod Items
+    CustomItemList.EtchedLowVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLowVoltageWiring.getIS());
+    CustomItemList.EtchedInsaneVoltageWiring.set(com.dreammaster.item.ItemList.EtchedInsaneVoltageWiring.getIS());
+    CustomItemList.EtchedLudicrousVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLudicrousVoltageWiring.getIS());
+
+    CustomItemList.SteelBars.set(com.dreammaster.item.ItemList.SteelBars.getIS());
 
 	}
 

@@ -153,7 +153,7 @@ public class GT_CustomLoader
     private GT_Loader_Wires WireLoader = null;
     private GT_Loader_Batteries BatteryLoader = null;
     private GT_Loader_CoreMod CoreModLoader = null;
-    
+
     public void run()
     {
     	GameRegistry.registerItem(QuantumBread.Instance(), String.format("%s:itemQuantumToast", Refstrings.MODID));
