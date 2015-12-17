@@ -6,6 +6,7 @@ import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.enums.TC_Aspects;
 import gregtech.api.enums.Textures;
+import gregtech.api.interfaces.IItemContainer;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.objects.GT_MultiTexture;
 import gregtech.api.objects.GT_RenderedTexture;
@@ -17,6 +18,8 @@ import gregtech.common.covers.GT_Cover_Pump;
 import gregtech.common.items.GT_MetaGenerated_Item_01;
 
 import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class GT_Loader_Items
 {
@@ -307,15 +310,16 @@ public class GT_Loader_Items
 			'C', AdvancedGTMaterials.UV.getCircuit(), 
 			'W', AdvancedGTMaterials.UV.getCable() });
 		
-		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "P Q", "PS ", "CPP", 
-			'Q', AdvancedGTMaterials.UV.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.ElectrumFlux), 
-			'P', OrePrefixes.plate.get(Materials.Osmium), 
-			'C', AdvancedGTMaterials.UV.getCircuit() });
+		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]),
+                GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+                new Object[]{"P Q", "PS ", "CPP",
+                        'Q', AdvancedGTMaterials.UV.getGem(),
+                        'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
+                        'P', OrePrefixes.plate.get(Materials.Osmium),
+                        'C', AdvancedGTMaterials.UV.getCircuit()});
 
-		CustomItemList.EtchedLowVoltageWiring.getItem(com.dreammaster.item.ItemList.EtchedLowVoltageWiring);
+        CustomItemList.EtchedLowVoltageWiring.set(new Item());
+        CustomItemList.EtchedLowVoltageWiring.getItem(com.dreammaster.item.ItemList.EtchedLowVoltageWiring);
 
 	}
 

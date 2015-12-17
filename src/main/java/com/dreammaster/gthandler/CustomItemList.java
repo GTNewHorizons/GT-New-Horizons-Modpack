@@ -117,7 +117,7 @@ public enum CustomItemList implements IItemContainer
 	@Override
 	public boolean isStackEqual(Object aStack, boolean aWildcard, boolean aIgnoreNBT) {
 		if (GT_Utility.isStackInvalid(aStack)) return false;
-		return GT_Utility.areUnificationsEqual((ItemStack)aStack, aWildcard?getWildcard(1):get(1), aIgnoreNBT);
+		return GT_Utility.areUnificationsEqual((ItemStack) aStack, aWildcard ? getWildcard(1) : get(1), aIgnoreNBT);
 	}
 	
 	@Override
@@ -145,7 +145,7 @@ public enum CustomItemList implements IItemContainer
 	public ItemStack getAlmostBroken(long aAmount, Object... aReplacements) {
 		if (mHasNotBeenSet) throw new IllegalAccessError("The Enum '" + name() + "' has not been set to an Item at this time!");
 		if (GT_Utility.isStackInvalid(mStack)) return GT_Utility.copyAmount(aAmount, aReplacements);
-		return GT_Utility.copyAmountAndMetaData(aAmount, mStack.getMaxDamage()-1, GT_OreDictUnificator.get(mStack));
+		return GT_Utility.copyAmountAndMetaData(aAmount, mStack.getMaxDamage() - 1, GT_OreDictUnificator.get(mStack));
 	}
 	
 	@Override
@@ -184,6 +184,5 @@ public enum CustomItemList implements IItemContainer
 		for (Object tOreName : aOreNames) GT_OreDictUnificator.registerOre(tOreName, getWildcard(1));
 		return this;
 	}
-
 
 }
