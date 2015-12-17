@@ -319,7 +319,6 @@ public class GT_Loader_Items
                         'C', AdvancedGTMaterials.UV.getCircuit()});
 
         CustomItemList.EtchedLowVoltageWiring.set(new Item());
-        CustomItemList.EtchedLowVoltageWiring.getItem(com.dreammaster.item.ItemList.EtchedLowVoltageWiring);
 
 	}
 
