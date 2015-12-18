@@ -69,8 +69,15 @@ public enum CustomItemList implements IItemContainer
 
 	//CoreModItems
 	EtchedLowVoltageWiring, EtchedInsaneVoltageWiring, EtchedLudicrousVoltageWiring,
-
-    SteelBars;
+    SteelBars, PistonBlock, PistonPlate,ReinforcedGlassLense,
+    StainlessSteelItemCasing, IridiumAlloyItemCasing,
+	LichBones, SnowQueenBlood,
+	AdvancedProcessorBoard, NanoProcessorBoard, QuantumProcessorBoard, EngravedQuantumChip, HighEnergyCircuitParts, HighEnergyFlowCircuit, NanoCircuit, PikoCircuit, QuantumCircuit,
+    EngravedDiamondCrystalChip, EngravedEnergyChip,
+	CarbonPartBoots, CarbonPartChestplate, CarbonPartHelmet, CarbonPartHelmetNightVision, CarbonPartLeggings,
+	NanoRubberBoots, NanoChestJetPack, NanoPlatedLeggings, NanoScubaHelmet,
+	QuantumPartBoots, QuantumPartChestplate, QuantumPartHelmetEmpty, QuantumPartHelmet, QuantumPartLeggings,
+	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9;
 
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;

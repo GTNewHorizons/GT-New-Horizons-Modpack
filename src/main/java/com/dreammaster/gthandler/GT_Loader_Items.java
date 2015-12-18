@@ -319,12 +319,57 @@ public class GT_Loader_Items
                         'C', AdvancedGTMaterials.UV.getCircuit()});
 
 
-    //CoreMod Items
-    CustomItemList.EtchedLowVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLowVoltageWiring.getIS());
-    CustomItemList.EtchedInsaneVoltageWiring.set(com.dreammaster.item.ItemList.EtchedInsaneVoltageWiring.getIS());
-    CustomItemList.EtchedLudicrousVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLudicrousVoltageWiring.getIS());
+        //CoreMod Items
+    	CustomItemList.EtchedLowVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLowVoltageWiring.getIS());
+		CustomItemList.EtchedInsaneVoltageWiring.set(com.dreammaster.item.ItemList.EtchedInsaneVoltageWiring.getIS());
+   		CustomItemList.EtchedLudicrousVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLudicrousVoltageWiring.getIS());
+		CustomItemList.SteelBars.set(com.dreammaster.item.ItemList.SteelBars.getIS());
+		CustomItemList.LichBones.set(com.dreammaster.item.ItemList.LichBone.getIS());
+		CustomItemList.SnowQueenBlood.set(com.dreammaster.item.ItemList.SnowQueenBlood.getIS());
+		CustomItemList.AdvancedProcessorBoard.set(com.dreammaster.item.ItemList.AdvancedProcessorBoard.getIS());
+		CustomItemList.HighEnergyFlowCircuit.set(com.dreammaster.item.ItemList.HighEnergyFlowCircuit.getIS());
+		CustomItemList.NanoCircuit.set(com.dreammaster.item.ItemList.NanoCircuit.getIS());
+		CustomItemList.QuantumCircuit.set(com.dreammaster.item.ItemList.QuantumCircuit.getIS());
+		CustomItemList.CarbonPartBoots.set(com.dreammaster.item.ItemList.CarbonPartBoots.getIS());
+		CustomItemList.CarbonPartChestplate.set(com.dreammaster.item.ItemList.CarbonPartChestplate.getIS());
+		CustomItemList.CarbonPartHelmet.set(com.dreammaster.item.ItemList.CarbonPartHelmet.getIS());
+		CustomItemList.CarbonPartHelmetNightVision.set(com.dreammaster.item.ItemList.CarbonPartHelmetNightVision.getIS());
+		CustomItemList.CarbonPartLeggings.set(com.dreammaster.item.ItemList.CarbonPartLeggings.getIS());
+		CustomItemList.NanoRubberBoots.set(com.dreammaster.item.ItemList.NanoRubberBoots.getIS());
+		CustomItemList.NanoChestJetPack.set(com.dreammaster.item.ItemList.NanoChestJetPack.getIS());
+		CustomItemList.NanoPlatedLeggings.set(com.dreammaster.item.ItemList.NanoPlatedLeggings.getIS());
+		CustomItemList.NanoScubaHelmet.set(com.dreammaster.item.ItemList.NanoScubaHelmet.getIS());
+		CustomItemList.QuantumPartBoots.set(com.dreammaster.item.ItemList.QuantumPartBoots.getIS());
+		CustomItemList.QuantumPartChestplate.set(com.dreammaster.item.ItemList.QuantumPartChestplate.getIS());
+		CustomItemList.QuantumPartHelmetEmpty.set(com.dreammaster.item.ItemList.QuantumPartHelmetEmpty.getIS());
+		CustomItemList.QuantumPartHelmet.set(com.dreammaster.item.ItemList.QuantumPartHelmet.getIS());
+		CustomItemList.QuantumPartLeggings.set(com.dreammaster.item.ItemList.QuantumPartLeggings.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT4.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT4.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT5.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT5.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT6.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT6.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT7.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT7.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT8.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT8.getIS());
+		CustomItemList.HeavyDutyAlloyIngotT9.set(com.dreammaster.item.ItemList.HeavyDutyAlloyIngotT9.getIS());
+        CustomItemList.HighEnergyCircuitParts.set(com.dreammaster.item.ItemList.HighEnergyCircuitParts.getIS());
+        CustomItemList.EngravedDiamondCrystalChip.set(com.dreammaster.item.ItemList.EngravedDiamondCrystalChip.getIS());
+        CustomItemList.EngravedEnergyChip.set(com.dreammaster.item.ItemList.EngravedEnergyChip.getIS());
+        CustomItemList.NanoProcessorBoard.set(com.dreammaster.item.ItemList.NanoProcessorBoard.getIS());
+        CustomItemList.QuantumProcessorBoard.set(com.dreammaster.item.ItemList.QuantumProcessorBoard.getIS());
+        CustomItemList.EngravedQuantumChip.set(com.dreammaster.item.ItemList.EngravedQuantumChip.getIS());
+        CustomItemList.StainlessSteelItemCasing.set(com.dreammaster.item.ItemList.StainlessSteelItemCasing.getIS());
+        CustomItemList.IridiumAlloyItemCasing.set(com.dreammaster.item.ItemList.IridiumAlloyItemCasing.getIS());
+        CustomItemList.ReinforcedGlassLense.set(com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
 
-    CustomItemList.SteelBars.set(com.dreammaster.item.ItemList.SteelBars.getIS());
+
+
+
+
+
+
+
+
+
+
 
 	}
 
