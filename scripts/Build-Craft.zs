@@ -565,6 +565,11 @@ Assembler.addRecipe(<BuildCraft|Builders:templateItem>, <minecraft:paper>, <mine
 // --- Blueprint
 Assembler.addRecipe(<BuildCraft|Builders:blueprintItem>, <minecraft:paper>, <minecraft:redstone>, <liquid:dye.watermixed.dyeblue> * 144, 100, 30);
 
+// --- Tank
+Assembler.addRecipe(<BuildCraft|Factory:tankBlock>, <Railcraft:glass>, <gregtech:gt.metaitem.01:28032> * 2, 100, 8);
+// -
+Assembler.addRecipe(<BuildCraft|Factory:tankBlock>, <ExtraUtilities:decorativeBlock2:5>, <gregtech:gt.metaitem.01:28032> * 2, 100, 8);
+
 
 
 // --- Forming Press Recipes ---
