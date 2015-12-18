@@ -98,6 +98,18 @@ recipes.remove(TCableCamouflage);
 // --- Sign Updater
 recipes.remove(SignUpdater);
 
+// --- RF Node
+recipes.remove(<StevesAddons:cable_rf>);
+
+// --- Energistics Conector
+recipes.remove(<StevesAddons:cable_ae>);
+
+// --- Manager Dublicator
+recipes.remove(<StevesAddons:duplicator>);
+
+// --- Foctory Labler
+recipes.remove(<StevesAddons:labeler>);
+
 
 
 // --- Adding Recipes ---
@@ -120,7 +132,6 @@ recipes.addShaped(InventoryCable * 2, [
 
 
 // --- Assembler Recipes ---
-
 
 
 
@@ -165,7 +176,19 @@ Assembler.addRecipe(CableCluster, InventoryCable, DataControlCircuit * 2, <liqui
 Assembler.addRecipe(CableCamouflage, InventoryCable, Display * 2, <liquid:molten.redstone> * 288, 400, 480); 
 
 // --- Double Sided Cable Camouflage
-Assembler.addRecipe(DSCableCamouflage, CableCamouflage, <IC2:itemPartCircuitAdv> * 2, <liquid:molten.redstone> * 288, 600, 480); 
+Assembler.addRecipe(DSCableCamouflage, CableCamouflage, <IC2:itemPartCircuitAdv> * 2, <liquid:molten.redstone> * 576, 600, 480); 
 
 // --- Transforming Cable Camouflage
 Assembler.addRecipe(TCableCamouflage, DSCableCamouflage, FieldGeneratorLV, <liquid:molten.redstone> * 864, 800, 480);
+
+// --- RF Node
+Assembler.addRecipe(<StevesAddons:cable_rf>, InventoryCable, <EnderIO:itemPowerConduit>, <liquid:molten.redstone> * 288, 400, 480); 
+
+// --- Energistics Conector
+Assembler.addRecipe(<StevesAddons:cable_ae>, <appliedenergistics2:tile.BlockInterface>, <extracells:ecbaseblock>, <liquid:molten.redstone> * 576, 600, 480);
+
+// --- Manager Dublicator
+Assembler.addRecipe(<StevesAddons:duplicator>, <StevesFactoryManager:BlockMachineManagerName>, <OpenComputers:item:7>, <liquid:molten.redstone> * 864, 800, 480);
+
+// --- Foctory Labler
+Assembler.addRecipe(<StevesAddons:labeler>, <dreamcraft:item.Display>, <IC2:itemPartCircuitAdv> * 2, <liquid:molten.redstone> * 144, 200, 480);
