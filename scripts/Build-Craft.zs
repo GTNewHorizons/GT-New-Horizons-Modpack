@@ -534,9 +534,9 @@ recipes.addShaped(ElecectronicLib, [
 
 // --- Flood Gate
 recipes.addShaped(FloodGate, [
-[<IC2:itemCasing:5>, <dreamcraft:item.SteelBars>, <IC2:itemCasing:5>],
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32610>, <IC2:itemCasing:5>],
 [<dreamcraft:item.SteelBars>, <BuildCraft|Factory:tankBlock>, <dreamcraft:item.SteelBars>],
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32610>, <IC2:itemCasing:5>]]);
+[<IC2:itemCasing:5>, <dreamcraft:item.SteelBars>, <IC2:itemCasing:5>]]);
 
 
 

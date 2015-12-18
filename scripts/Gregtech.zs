@@ -952,6 +952,12 @@ recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
 [<ore:stoneGraniteRed>, null, null],
 [null, <ore:craftingToolFile>, null]]);
 
+// --- Processor Machine Casing
+recipes.addShaped(<gregtech:gt.blockcasings2:6>, [
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:circuitMaster>, <gregtech:gt.blockcasings2>, <ore:circuitMaster>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+
 
 
 
