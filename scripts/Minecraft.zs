@@ -775,13 +775,19 @@ recipes.removeShaped(<minecraft:hopper_minecart>);
 recipes.removeShaped(<minecraft:tnt_minecart>);
 
 // --- Iron Ingot
-recipes.remove(<minecraft:iron_ingot>);
+recipes.removeShaped(<minecraft:iron_ingot>, [
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 
 // --- Iron Nuggets
-recipes.remove(<ore:nuggetIron>);
+recipes.removeShaped(<ore:nuggetIron>);
 
 // --- Gold Ingot
-recipes.remove(<minecraft:gold_ingot>);
+recipes.removeShaped(<minecraft:gold_ingot>, [
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 
 // --- Gold Nuggets
 recipes.remove(<ore:nuggetGold>);
