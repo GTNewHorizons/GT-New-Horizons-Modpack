@@ -77,328 +77,912 @@ recipes.remove(<gregtech:gt.metaitem.02:3500>);
 recipes.remove(<gregtech:gt.metaitem.02:4500>);
 
 // --- Adamantium Ingot
-recipes.remove(<ore:ingotAdamantium>);
+recipes.removeShaped(<ore:ingotAdamantium>, [
+[<ore:nuggetAdamantium>, <ore:nuggetAluminium>, <ore:nuggetAdamantium>],
+[<ore:nuggetAdamantium>, <ore:nuggetAdamantium>, <ore:nuggetAdamantium>],
+[<ore:nuggetAdamantium>, <ore:nuggetAdamantium>, <ore:nuggetAdamantium>]]);
 
 // --- Aluminium Ingot
-recipes.remove(<ore:ingotAluminium>);
+recipes.removeShaped(<ore:ingotAluminium>, [
+[<ore:nuggetAluminium>, <ore:nuggetAluminium>, <ore:nuggetAluminium>],
+[<ore:nuggetAluminium>, <ore:nuggetAluminium>, <ore:nuggetAluminium>],
+[<ore:nuggetAluminium>, <ore:nuggetAluminium>, <ore:nuggetAluminium>]]);
 
 // --- Americium Ingot
-recipes.remove(<ore:ingotAmericium>);
+recipes.removeShaped(<ore:ingotAmericium>, [
+[<ore:nuggetAmericium>, <ore:nuggetAmericium>, <ore:nuggetAmericium>],
+[<ore:nuggetAmericium>, <ore:nuggetAmericium>, <ore:nuggetAmericium>],
+[<ore:nuggetAmericium>, <ore:nuggetAmericium>, <ore:nuggetAmericium>]]);
+
+// --- Angmallen Ingot
+recipes.removeShaped(<ore:ingotAngmallen>, [
+[<ore:nuggetAngmallen>, <ore:nuggetAngmallen>, <ore:nuggetAngmallen>],
+[<ore:nuggetAngmallen>, <ore:nuggetAngmallen>, <ore:nuggetAngmallen>],
+[<ore:nuggetAngmallen>, <ore:nuggetAngmallen>, <ore:nuggetAngmallen>]]);
 
 // --- Annealed Copper Ingot
-recipes.remove(<ore:ingotAnnealedCopper>);
+recipes.removeShaped(<ore:ingotAnnealedCopper>, [
+[<ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>],
+[<ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>],
+[<ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>, <ore:nuggetAnnealedCopper>]]);
 
 // --- Antimony Ingot
-recipes.remove(<ore:ingotAntimony>);
+recipes.removeShaped(<ore:ingotAntimony>, [
+[<ore:nuggetAntimony>, <ore:nuggetAntimony>, <ore:nuggetAntimony>],
+[<ore:nuggetAntimony>, <ore:nuggetAntimony>, <ore:nuggetAntimony>],
+[<ore:nuggetAntimony>, <ore:nuggetAntimony>, <ore:nuggetAntimony>]]);
 
 // --- Ardite Ingot
-recipes.remove(<ore:ingotArdite>);
+recipes.removeShaped(<ore:ingotArdite>, [
+[<ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>],
+[<ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>],
+[<ore:nuggetArdite>, <ore:nuggetArdite>, <ore:nuggetArdite>]]);
 
 // --- Arsenic Ingot
-recipes.remove(<ore:ingotArsenic>);
+recipes.removeShaped(<ore:ingotArsenic>, [
+[<ore:nuggetAdamantium>, <ore:nuggetAluminium>, <ore:nuggetAdamantium>],
+[<ore:nuggetAdamantium>, <ore:nuggetAdamantium>, <ore:nuggetAdamantium>],
+[<ore:nuggetAdamantium>, <ore:nuggetAdamantium>, <ore:nuggetAdamantium>]]);
 
 // --- Astral Silver Ingot
-recipes.remove(<ore:ingotAstralSilver>);
+recipes.removeShaped(<ore:ingotAstralSilver>, [
+[<ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>],
+[<ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>],
+[<ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>, <ore:nuggetAstralSilver>]]);
+
+// --- Atlarus Ingot
+recipes.removeShaped(<ore:ingotAtlarus>, [
+[<ore:nuggetAtlarus>, <ore:nuggetAtlarus>, <ore:nuggetAtlarus>],
+[<ore:nuggetAtlarus>, <ore:nuggetAtlarus>, <ore:nuggetAtlarus>],
+[<ore:nuggetAtlarus>, <ore:nuggetAtlarus>, <ore:nuggetAtlarus>]]);
 
 // --- Battery Alloy Ingot
-recipes.remove(<ore:ingotBatteryAlloy>);
+recipes.removeShaped(<ore:ingotBatteryAlloy>, [
+[<ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>],
+[<ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>],
+[<ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>, <ore:nuggetBatteryAlloy>]]);
 
 // --- Beryllium Ingot
-recipes.remove(<ore:ingotBeryllium>);
+recipes.removeShaped(<ore:ingotBeryllium>, [
+[<ore:nuggetBeryllium>, <ore:nuggetBeryllium>, <ore:nuggetBeryllium>],
+[<ore:nuggetBeryllium>, <ore:nuggetBeryllium>, <ore:nuggetBeryllium>],
+[<ore:nuggetBeryllium>, <ore:nuggetBeryllium>, <ore:nuggetBeryllium>]]);
 
 // --- Bismuth Ingot
-recipes.remove(<ore:ingotBismuth>);
+recipes.removeShaped(<ore:ingotBismuth>, [
+[<ore:nuggetBismuth>, <ore:nuggetBismuth>, <ore:nuggetBismuth>],
+[<ore:nuggetBismuth>, <ore:nuggetBismuth>, <ore:nuggetBismuth>],
+[<ore:nuggetBismuth>, <ore:nuggetBismuth>, <ore:nuggetBismuth>]]);
 
 // --- Bismuth Bronze Ingot
-recipes.remove(<ore:ingotBismuthBronze>);
+recipes.removeShaped(<ore:ingotBismuthBronze>, [
+[<ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>],
+[<ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>],
+[<ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>, <ore:nuggetBismuthBronze>]]);
 
 // --- Black Bronze Ingot
-recipes.remove(<ore:ingotBlackBronze>);
+recipes.removeShaped(<ore:ingotBlackBronze>, [
+[<ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>],
+[<ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>],
+[<ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>, <ore:nuggetBlackBronze>]]);
 
 // --- Black Steel Ingot
-recipes.remove(<ore:ingotBlackSteel>);
+recipes.removeShaped(<ore:ingotBlackSteel>, [
+[<ore:nugget>, <ore:nugget>, <ore:nugget>],
+[<ore:nugget>, <ore:nugget>, <ore:nugget>],
+[<ore:nugget>, <ore:nugget>, <ore:nugget>]]);
 
 // --- Blue Alloy Ingot
-recipes.remove(<ore:ingotBlueAlloy>);
+recipes.removeShaped(<ore:ingotBlueAlloy>, [
+[<ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>],
+[<ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>],
+[<ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>, <ore:nuggetBlackSteel>]]);
 
 // --- Blue Steel Ingot
-recipes.remove(<ore:ingotBlueSteel>);
+recipes.removeShaped(<ore:ingotBlueSteel>, [
+[<ore:nuggetBlueStee>, <ore:nuggetBlueStee>, <ore:nuggetBlueStee>],
+[<ore:nuggetBlueStee>, <ore:nuggetBlueStee>, <ore:nuggetBlueStee>],
+[<ore:nuggetBlueStee>, <ore:nuggetBlueStee>, <ore:nuggetBlueStee>]]);
 
 // --- Brass Ingot
-recipes.remove(<ore:ingotBrass>);
+recipes.removeShaped(<ore:ingotBrass>, [
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>],
+[<ore:nuggetBrass>, <ore:nuggetBrass>, <ore:nuggetBrass>]]);
 
 // --- Bronze Ingot
-recipes.remove(<ore:ingotBronze>);
+recipes.removeShaped(<ore:ingotBronze>, [
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>]]);
+
+// --- Caesium Ingot
+recipes.removeShaped(<ore:ingotCaesium>, [
+[<ore:nuggetCaesium>, <ore:nuggetCaesium>, <ore:nuggetCaesium>],
+[<ore:nuggetCaesium>, <ore:nuggetCaesium>, <ore:nuggetCaesium>],
+[<ore:nuggetCaesium>, <ore:nuggetCaesium>, <ore:nuggetCaesium>]]);
 
 // --- Carbon Ingot
-recipes.remove(<ore:ingotCarbon>);
+recipes.removeShaped(<ore:ingotCarbon>, [
+[<ore:nuggetCarbon>, <ore:nuggetCarbon>, <ore:nuggetCarbon>],
+[<ore:nuggetCarbon>, <ore:nuggetCarbon>, <ore:nuggetCarbon>],
+[<ore:nuggetCarbon>, <ore:nuggetCarbon>, <ore:nuggetCarbon>]]);
+
+// --- Carmot Ingot
+recipes.removeShaped(<ore:ingotCarmot>, [
+[<ore:nuggetCarmot>, <ore:nuggetCarmot>, <ore:nuggetCarmot>],
+[<ore:nuggetCarmot>, <ore:nuggetCarmot>, <ore:nuggetCarmot>],
+[<ore:nuggetCarmot>, <ore:nuggetCarmot>, <ore:nuggetCarmot>]]);
+
+// --- Celenegil Ingot
+recipes.removeShaped(<ore:ingotCelenegil>, [
+[<ore:nuggetCelenegil>, <ore:nuggetCelenegil>, <ore:nuggetCelenegil>],
+[<ore:nuggetCelenegil>, <ore:nuggetCelenegil>, <ore:nuggetCelenegil>],
+[<ore:nuggetCelenegil>, <ore:nuggetCelenegil>, <ore:nuggetCelenegil>]]);
+
+// --- Cerium Ingot
+recipes.removeShaped(<ore:ingotCerium>, [
+[<ore:nuggetCerium>, <ore:nuggetCerium>, <ore:nuggetCerium>],
+[<ore:nuggetCerium>, <ore:nuggetCerium>, <ore:nuggetCerium>],
+[<ore:nuggetCerium>, <ore:nuggetCerium>, <ore:nuggetCerium>]]);
+
+// --- Ceruclase Ingot
+recipes.removeShaped(<ore:ingotCeruclase>, [
+[<ore:nuggetCeruclase>, <ore:nuggetCeruclase>, <ore:nuggetCeruclase>],
+[<ore:nuggetCeruclase>, <ore:nuggetCeruclase>, <ore:nuggetCeruclase>],
+[<ore:nuggetCeruclase>, <ore:nuggetCeruclase>, <ore:nuggetCeruclase>]]);
 
 // --- Chrome Ingot
-recipes.remove(<ore:ingotChrome>);
+recipes.removeShaped(<ore:ingotChrome>, [
+[<ore:nuggetChrome>, <ore:nuggetChrome>, <ore:nuggetChrome>],
+[<ore:nuggetChrome>, <ore:nuggetChrome>, <ore:nuggetChrome>],
+[<ore:nuggetChrome>, <ore:nuggetChrome>, <ore:nuggetChrome>]]);
 
 // --- Chromium Dioxide Ingot
-recipes.remove(<ore:ingotChromiumDioxide>);
+recipes.removeShaped(<ore:ingotChromiumDioxide>, [
+[<ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>],
+[<ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>],
+[<ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>, <ore:nuggetChromiumDioxide>]]);
 
 // --- Cobalt Ingot
-recipes.remove(<ore:ingotCobalt>);
+recipes.removeShaped(<ore:ingotCobalt>, [
+[<ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>],
+[<ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>],
+[<ore:nuggetCobalt>, <ore:nuggetCobalt>, <ore:nuggetCobalt>]]);
 
 // --- Cobalt Brass Ingot
-recipes.remove(<ore:ingotCobaltBrass>);
+recipes.removeShaped(<ore:ingotCobaltBrass>, [
+[<ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>],
+[<ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>],
+[<ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>, <ore:nuggetCobaltBrass>]]);
 
 // --- Conductive Iron Ingot
-recipes.remove(<ore:ingotConductiveIron>);
+recipes.removeShaped(<ore:ingotConductiveIron>, [
+[<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>],
+[<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>],
+[<ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>]]);
 
 // --- Copper Ingot
-recipes.remove(<ore:ingotCopper>);
+recipes.removeShaped(<ore:ingotCopper>, [
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]]);
 
 // --- CuproNickel ingot
-recipes.remove(<ore:ingotCupronickel>);
+recipes.removeShaped(<ore:ingotCupronickel>, [
+[<ore:nuggetCupronickel>, <ore:nuggetCupronickel>, <ore:nuggetCupronickel>],
+[<ore:nuggetCupronickel>, <ore:nuggetCupronickel>, <ore:nuggetCupronickel>],
+[<ore:nuggetCupronickel>, <ore:nuggetCupronickel>, <ore:nuggetCupronickel>]]);
+
+// --- Dark Iron Ingot
+recipes.removeShaped(<ore:ingotDarkIron>, [
+[<ore:nuggetDarkIron>, <ore:nuggetDarkIron>, <ore:nuggetDarkIron>],
+[<ore:nuggetDarkIron>, <ore:nuggetDarkIron>, <ore:nuggetDarkIron>],
+[<ore:nuggetDarkIron>, <ore:nuggetDarkIron>, <ore:nuggetDarkIron>]]);
 
 // --- Damascus Steel Ingot
-recipes.remove(<ore:ingotDamascusSteel>);
+recipes.removeShaped(<ore:ingotDamascusSteel>, [
+[<ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>],
+[<ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>],
+[<ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>, <ore:nuggetDamascusSteel>]]);
+
+// --- Deep Iron Ingot
+recipes.removeShaped(<ore:ingotDeepIron>, [
+[<ore:nuggetDeepIron>, <ore:nuggetDeepIron>, <ore:nuggetDeepIron>],
+[<ore:nuggetDeepIron>, <ore:nuggetDeepIron>, <ore:nuggetDeepIron>],
+[<ore:nuggetDeepIron>, <ore:nuggetDeepIron>, <ore:nuggetDeepIron>]]);
 
 // --- Desh Ingot
-recipes.remove(<ore:ingotDesh>);
+recipes.removeShaped(<ore:ingotDesh>, [
+[<ore:nuggetDesh>, <ore:nuggetDesh>, <ore:nuggetDesh>],
+[<ore:nuggetDesh>, <ore:nuggetDesh>, <ore:nuggetDesh>],
+[<ore:nuggetDesh>, <ore:nuggetDesh>, <ore:nuggetDesh>]]);
+
+furnace.remove(<ore:ingotDesh>);
+
+// --- Duranium Ingot
+recipes.removeShaped(<ore:ingotDuranium>, [
+[<ore:nuggetDuranium>, <ore:nuggetDuranium>, <ore:nuggetDuranium>],
+[<ore:nuggetDuranium>, <ore:nuggetDuranium>, <ore:nuggetDuranium>],
+[<ore:nuggetDuranium>, <ore:nuggetDuranium>, <ore:nuggetDuranium>]]);
+
+// --- Dysprosium Ingot
+recipes.removeShaped(<ore:ingotDysprosium>, [
+[<ore:nuggetDysprosium>, <ore:nuggetDysprosium>, <ore:nuggetDysprosium>],
+[<ore:nuggetDysprosium>, <ore:nuggetDysprosium>, <ore:nuggetDysprosium>],
+[<ore:nuggetDysprosium>, <ore:nuggetDysprosium>, <ore:nuggetDysprosium>]]);
 
 // --- Electrical Steel Ingot
-recipes.remove(<ore:ingotElectricalSteel>);
+recipes.removeShaped(<ore:ingotElectricalSteel>, [
+[<ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>],
+[<ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>],
+[<ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>, <ore:nuggetElectricalSteel>]]);
 
 // --- Electrum Ingot
-recipes.remove(<ore:ingotElectrum>);
+recipes.removeShaped(<ore:ingotElectrum>, [
+[<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>],
+[<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>],
+[<ore:nuggetElectrum>, <ore:nuggetElectrum>, <ore:nuggetElectrum>]]);
 
 // --- Energetic Alloy Ingot
-recipes.remove(<ore:ingotEnergeticAlloy>);
+recipes.removeShaped(<ore:ingotEnergeticAlloy>, [
+[<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>],
+[<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>],
+[<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>]]);
 
 // --- Enderium Base Iron Ingot
-recipes.remove(<ore:ingotEnderiumBase>);
+recipes.removeShaped(<ore:ingotEnderiumBase>, [
+[<ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>],
+[<ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>],
+[<ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>, <ore:nuggetEnderiumBase>]]);
 
 // --- Enderium Electrum Ingot
-recipes.remove(<ore:ingotEnderium>);
+recipes.removeShaped(<ore:ingotEnderium>, [
+[<ore:nuggetEnderium>, <ore:nuggetEnderium>, <ore:nuggetEnderium>],
+[<ore:nuggetEnderium>, <ore:nuggetEnderium>, <ore:nuggetEnderium>],
+[<ore:nuggetEnderium>, <ore:nuggetEnderium>, <ore:nuggetEnderium>]]);
+
+// --- Endium Ingot
+recipes.removeShaped(<ore:ingotEndium>, [
+[<ore:nuggetEndium>, <ore:nuggetEndium>, <ore:nuggetEndium>],
+[<ore:nuggetEndium>, <ore:nuggetEndium>, <ore:nuggetEndium>],
+[<ore:nuggetEndium>, <ore:nuggetEndium>, <ore:nuggetEndium>]]);
 
 // --- Enhanced Galgadorian Ingot
-recipes.remove(<ore:ingotEnhancedGalgadorian>);
+recipes.removeShaped(<ore:ingotEnhancedGalgadorian>, [
+[<ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>],
+[<ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>],
+[<ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>, <ore:nuggetEnhancedGalgadorian>]]);
+
+// --- Erbium Ingot
+recipes.removeShaped(<ore:ingotErbium>, [
+[<ore:nuggetErbium>, <ore:nuggetErbium>, <ore:nuggetErbium>],
+[<ore:nuggetErbium>, <ore:nuggetErbium>, <ore:nuggetErbium>],
+[<ore:nuggetErbium>, <ore:nuggetErbium>, <ore:nuggetErbium>]]);
+
+// --- Europium Ingot
+recipes.removeShaped(<ore:ingotEuropium>, [
+[<ore:nuggetEuropium>, <ore:nuggetEuropium>, <ore:nuggetEuropium>],
+[<ore:nuggetEuropium>, <ore:nuggetEuropium>, <ore:nuggetEuropium>],
+[<ore:nuggetEuropium>, <ore:nuggetEuropium>, <ore:nuggetEuropium>]]);
+
+// --- Eximite Ingot
+recipes.removeShaped(<ore:ingotEximite>, [
+[<ore:nuggetEximite>, <ore:nuggetEximite>, <ore:nuggetEximite>],
+[<ore:nuggetEximite>, <ore:nuggetEximite>, <ore:nuggetEximite>],
+[<ore:nuggetEximite>, <ore:nuggetEximite>, <ore:nuggetEximite>]]);
 
 // --- Fluxed Electrum Ingot
-recipes.remove(<ore:ingotElectrumFlux>);
+recipes.removeShaped(<ore:ingotElectrumFlux>, [
+[<ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>],
+[<ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>],
+[<ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>, <ore:nuggetElectrumFlux>]]);
+
+// --- Force Ingot
+recipes.removeShaped(<ore:ingotForce>, [
+[<ore:nuggetForce>, <ore:nuggetForce>, <ore:nuggetForce>],
+[<ore:nuggetForce>, <ore:nuggetForce>, <ore:nuggetForce>],
+[<ore:nuggetForce>, <ore:nuggetForce>, <ore:nuggetForce>]]);
+
+// --- Gadolinium Ingot
+recipes.removeShaped(<ore:ingotGadolinium>, [
+[<ore:nuggetGadolinium>, <ore:nuggetGadolinium>, <ore:nuggetGadolinium>],
+[<ore:nuggetGadolinium>, <ore:nuggetGadolinium>, <ore:nuggetGadolinium>],
+[<ore:nuggetGadolinium>, <ore:nuggetGadolinium>, <ore:nuggetGadolinium>]]);
 
 // --- Galgadorian Ingot
-recipes.remove(<ore:ingotGalgadorian>);
+recipes.removeShaped(<ore:ingotGalgadorian>, [
+[<ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>],
+[<ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>],
+[<ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>, <ore:nuggetGalgadorian>]]);
 
 // --- Gallium Ingot
-recipes.remove(<ore:ingotGallium>);
+recipes.removeShaped(<ore:ingotGallium>, [
+[<ore:nuggetGallium>, <ore:nuggetGallium>, <ore:nuggetGallium>],
+[<ore:nuggetGallium>, <ore:nuggetGallium>, <ore:nuggetGallium>],
+[<ore:nuggetGallium>, <ore:nuggetGallium>, <ore:nuggetGallium>]]);
+
+// --- Haderoth Ingot
+recipes.removeShaped(<ore:ingotHaderoth>, [
+[<ore:nuggetHaderoth>, <ore:nuggetHaderoth>, <ore:nuggetHaderoth>],
+[<ore:nuggetHaderoth>, <ore:nuggetHaderoth>, <ore:nuggetHaderoth>],
+[<ore:nuggetHaderoth>, <ore:nuggetHaderoth>, <ore:nuggetHaderoth>]]);
+
+// --- Hepatizon Ingot
+recipes.removeShaped(<ore:ingotHepatizon>, [
+[<ore:nuggetHepatizon>, <ore:nuggetHepatizon>, <ore:nuggetHepatizon>],
+[<ore:nuggetHepatizon>, <ore:nuggetHepatizon>, <ore:nuggetHepatizon>],
+[<ore:nuggetHepatizon>, <ore:nuggetHepatizon>, <ore:nuggetHepatizon>]]);
+
+// --- Holmium Ingot
+recipes.removeShaped(<ore:ingotHolmium>, [
+[<ore:nuggetHolmium>, <ore:nuggetHolmium>, <ore:nuggetHolmium>],
+[<ore:nuggetHolmium>, <ore:nuggetHolmium>, <ore:nuggetHolmium>],
+[<ore:nuggetHolmium>, <ore:nuggetHolmium>, <ore:nuggetHolmium>]]);
 
 // --- HSLA Ingot
-recipes.remove(<ore:ingotHSLA>);
+recipes.removeShaped(<ore:ingotHSLA>, [
+[<ore:nuggetHSLA>, <ore:nuggetHSLA>, <ore:nuggetHSLA>],
+[<ore:nuggetHSLA>, <ore:nuggetHSLA>, <ore:nuggetHSLA>],
+[<ore:nuggetHSLA>, <ore:nuggetHSLA>, <ore:nuggetHSLA>]]);
+
+// --- Ignatius Ingot
+recipes.removeShaped(<ore:ingotIgnatius>, [
+[<ore:nuggetIgnatius>, <ore:nuggetIgnatius>, <ore:nuggetIgnatius>],
+[<ore:nuggetIgnatius>, <ore:nuggetIgnatius>, <ore:nuggetIgnatius>],
+[<ore:nuggetIgnatius>, <ore:nuggetIgnatius>, <ore:nuggetIgnatius>]]);
 
 // --- Indium Ingot
-recipes.remove(<ore:ingotIndium>);
+recipes.removeShaped(<ore:ingotIndium>, [
+[<ore:nuggetIndium>, <ore:nuggetIndium>, <ore:nuggetIndium>],
+[<ore:nuggetIndium>, <ore:nuggetIndium>, <ore:nuggetIndium>],
+[<ore:nuggetIndium>, <ore:nuggetIndium>, <ore:nuggetIndium>]]);
 
 // --- Infused Gold Ingot
-recipes.remove(<ore:ingotInfusedGold>);
+recipes.removeShaped(<ore:ingotInfusedGold>, [
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
+
+// --- Infuscolium Ingot
+recipes.removeShaped(<ore:ingotInfuscolium>, [
+[<ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>],
+[<ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>],
+[<ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>, <ore:nuggetInfuscolium>]]);
+
+// --- Inolashite Ingot
+recipes.removeShaped(<ore:ingotInolashite>, [
+[<ore:nuggetInolashite>, <ore:nuggetInolashite>, <ore:nuggetInolashite>],
+[<ore:nuggetInolashite>, <ore:nuggetInolashite>, <ore:nuggetInolashite>],
+[<ore:nuggetInolashite>, <ore:nuggetInolashite>, <ore:nuggetInolashite>]]);
 
 // --- Invar Ingot
-recipes.remove(<ore:ingotInvar>);
+recipes.removeShaped(<ore:ingotInvar>, [
+[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>],
+[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>],
+[<ore:nuggetInvar>, <ore:nuggetInvar>, <ore:nuggetInvar>]]);
+
+// --- Iridium Ingot
+recipes.removeShaped(<ore:ingotIridium>, [
+[<ore:nuggetIridium>, <ore:nuggetIridium>, <ore:nuggetIridium>],
+[<ore:nuggetIridium>, <ore:nuggetIridium>, <ore:nuggetIridium>],
+[<ore:nuggetIridium>, <ore:nuggetIridium>, <ore:nuggetIridium>]]);
+
+// --- Lutetium Ingot
+recipes.removeShaped(<ore:ingotLutetium>, [
+[<ore:nuggetLutetium>, <ore:nuggetLutetium>, <ore:nuggetLutetium>],
+[<ore:nuggetLutetium>, <ore:nuggetLutetium>, <ore:nuggetLutetium>],
+[<ore:nuggetLutetium>, <ore:nuggetLutetium>, <ore:nuggetLutetium>]]);
+
+// --- Kalendrite Ingot
+recipes.removeShaped(<ore:ingotKalendrite>, [
+[<ore:nuggetKalendrite>, <ore:nuggetKalendrite>, <ore:nuggetKalendrite>],
+[<ore:nuggetKalendrite>, <ore:nuggetKalendrite>, <ore:nuggetKalendrite>],
+[<ore:nuggetKalendrite>, <ore:nuggetKalendrite>, <ore:nuggetKalendrite>]]);
 
 // --- Kanthal Ingot
-recipes.remove(<ore:ingotKanthal>);
+recipes.removeShaped(<ore:ingotKanthal>, [
+[<ore:nuggetKanthal>, <ore:nuggetKanthal>, <ore:nuggetKanthal>],
+[<ore:nuggetKanthal>, <ore:nuggetKanthal>, <ore:nuggetKanthal>],
+[<ore:nuggetKanthal>, <ore:nuggetKanthal>, <ore:nuggetKanthal>]]);
+
+// --- Lanthanum Ingot
+recipes.removeShaped(<ore:ingotLanthanum>, [
+[<ore:nuggetLanthanum>, <ore:nuggetLanthanum>, <ore:nuggetLanthanum>],
+[<ore:nuggetLanthanum>, <ore:nuggetLanthanum>, <ore:nuggetLanthanum>],
+[<ore:nuggetLanthanum>, <ore:nuggetLanthanum>, <ore:nuggetLanthanum>]]);
 
 // --- Lithium Ingot
-recipes.remove(<ore:ingotLithium>);
+recipes.removeShaped(<ore:ingotLithium>, [
+[<ore:nuggetLithium>, <ore:nuggetLithium>, <ore:nuggetLithium>],
+[<ore:nuggetLithium>, <ore:nuggetLithium>, <ore:nuggetLithium>],
+[<ore:nuggetLithium>, <ore:nuggetLithium>, <ore:nuggetLithium>]]);
 
 // --- Lead Ingot
-recipes.remove(<ore:ingotLead>);
+recipes.removeShaped(<ore:ingotLead>, [
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]]);
 
 // --- Magnalium Ingot
-recipes.remove(<ore:ingotMagnalium>);
+recipes.removeShaped(<ore:ingotMagnalium>, [
+[<ore:nuggetMagnalium>, <ore:nuggetMagnalium>, <ore:nuggetMagnalium>],
+[<ore:nuggetMagnalium>, <ore:nuggetMagnalium>, <ore:nuggetMagnalium>],
+[<ore:nuggetMagnalium>, <ore:nuggetMagnalium>, <ore:nuggetMagnalium>]]);
 
 // --- Magnesium Ingot
-recipes.remove(<ore:ingotMagnesium>);
+recipes.removeShaped(<ore:ingotMagnesium>, [
+[<ore:nuggetMagnesium>, <ore:nuggetMagnesium>, <ore:nuggetMagnesium>],
+[<ore:nuggetMagnesium>, <ore:nuggetMagnesium>, <ore:nuggetMagnesium>],
+[<ore:nuggetMagnesium>, <ore:nuggetMagnesium>, <ore:nuggetMagnesium>]]);
 
 // --- Magnetic Iron Ingot
-recipes.remove(<ore:ingotIronMagnetic>);
+recipes.removeShaped(<ore:ingotIronMagnetic>, [
+[<ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>],
+[<ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>],
+[<ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>, <ore:nuggetIronMagnetic>]]);
 
 // --- Magnetic Neodymium Ingot
-recipes.remove(<ore:ingotNeodymiumMagnetic>);
+recipes.removeShaped(<ore:ingotNeodymiumMagnetic>, [
+[<ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>],
+[<ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>],
+[<ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>, <ore:nuggetNeodymiumMagnetic>]]);
 
 // --- Magnetic Steel Ingot
-recipes.remove(<ore:ingotSteelMagnetic>);
+recipes.removeShaped(<ore:ingotSteelMagnetic>, [
+[<ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>],
+[<ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>],
+[<ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>, <ore:nuggetSteelMagnetic>]]);
 
 // --- Manganese Ingot
-recipes.remove(<ore:ingotManganese>);
+recipes.removeShaped(<ore:ingotManganese>, [
+[<ore:nuggetManganese>, <ore:nuggetManganese>, <ore:nuggetManganese>],
+[<ore:nuggetManganese>, <ore:nuggetManganese>, <ore:nuggetManganese>],
+[<ore:nuggetManganese>, <ore:nuggetManganese>, <ore:nuggetManganese>]]);
 
 // --- Meteoric Steel Ingot
-recipes.remove(<ore:ingotMeteoricSteel>);
+recipes.removeShaped(<ore:ingotMeteoricSteel>, [
+[<ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>],
+[<ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>],
+[<ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>, <ore:nuggetMeteoricSteel>]]);
 
 // --- Mithril Ingot
-recipes.remove(<ore:ingotMithril>);
+recipes.removeShaped(<ore:ingotMithril>, [
+[<ore:nuggetMithril>, <ore:nuggetMithril>, <ore:nuggetMithril>],
+[<ore:nuggetMithril>, <ore:nuggetMithril>, <ore:nuggetMithril>],
+[<ore:nuggetMithril>, <ore:nuggetMithril>, <ore:nuggetMithril>]]);
 
 // --- Midasium Ingot
-recipes.remove(<ore:ingotMidasium>);
+recipes.removeShaped(<ore:ingotMidasium>, [
+[<ore:nuggetMidasium>, <ore:nuggetMidasium>, <ore:nuggetMidasium>],
+[<ore:nuggetMidasium>, <ore:nuggetMidasium>, <ore:nuggetMidasium>],
+[<ore:nuggetMidasium>, <ore:nuggetMidasium>, <ore:nuggetMidasium>]]);
 
 // --- Molybdenum Ingot
-recipes.remove(<ore:ingotMolybdenum>);
+recipes.removeShaped(<ore:ingotMolybdenum>, [
+[<ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>],
+[<ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>],
+[<ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>, <ore:nuggetMolybdenum>]]);
 
 // --- Naquadah Ingot
-recipes.remove(<ore:ingotNaquadah>);
+recipes.removeShaped(<ore:ingotNaquadah>, [
+[<ore:nuggetNaquadah>, <ore:nuggetNaquadah>, <ore:nuggetNaquadah>],
+[<ore:nuggetNaquadah>, <ore:nuggetNaquadah>, <ore:nuggetNaquadah>],
+[<ore:nuggetNaquadah>, <ore:nuggetNaquadah>, <ore:nuggetNaquadah>]]);
 
 // --- Naquadah Alloy Ingot
-recipes.remove(<ore:ingotNaquadahAlloy>);
+recipes.removeShaped(<ore:ingotNaquadahAlloy>, [
+[<ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>],
+[<ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>],
+[<ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>, <ore:nuggetNaquadahAlloy>]]);
 
 // --- Enriched Naquadah Ingot
-recipes.remove(<ore:ingotNaquadahEnriched>);
+recipes.removeShaped(<ore:ingotNaquadahEnriched>, [
+[<ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>],
+[<ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>],
+[<ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>, <ore:nuggetNaquadahEnriched>]]);
 
 // --- Naquadria Ingot
-recipes.remove(<ore:ingotNaquadria>);
+recipes.removeShaped(<ore:ingotNaquadria>, [
+[<ore:nuggetNaquadria>, <ore:nuggetNaquadria>, <ore:nuggetNaquadria>],
+[<ore:nuggetNaquadria>, <ore:nuggetNaquadria>, <ore:nuggetNaquadria>],
+[<ore:nuggetNaquadria>, <ore:nuggetNaquadria>, <ore:nuggetNaquadria>]]);
 
 // --- Neodymium Ingot
-recipes.remove(<ore:ingotNeodymium>);
+recipes.removeShaped(<ore:ingotNeodymium>, [
+[<ore:nuggetNeodymium>, <ore:nuggetNeodymium>, <ore:nuggetNeodymium>],
+[<ore:nuggetNeodymium>, <ore:nuggetNeodymium>, <ore:nuggetNeodymium>],
+[<ore:nuggetNeodymium>, <ore:nuggetNeodymium>, <ore:nuggetNeodymium>]]);
 
 // --- Neutronium Ingot
-recipes.remove(<ore:ingotNeutronium>);
+recipes.removeShaped(<ore:ingotNeutronium>, [
+[<ore:nuggetNeutronium>, <ore:nuggetNeutronium>, <ore:nuggetNeutronium>],
+[<ore:nuggetNeutronium>, <ore:nuggetNeutronium>, <ore:nuggetNeutronium>],
+[<ore:nuggetNeutronium>, <ore:nuggetNeutronium>, <ore:nuggetNeutronium>]]);
 
 // --- Nickel Ingot
-recipes.remove(<ore:ingotNickel>);
+recipes.removeShaped(<ore:ingotNickel>, [
+[<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>],
+[<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>],
+[<ore:nuggetNickel>, <ore:nuggetNickel>, <ore:nuggetNickel>]]);
 
 // --- Nichrome Ingot
-recipes.remove(<ore:ingotNichrome>);
+recipes.removeShaped(<ore:ingotNichrome>, [
+[<ore:nuggetNichrome>, <ore:nuggetNichrome>, <ore:nuggetNichrome>],
+[<ore:nuggetNichrome>, <ore:nuggetNichrome>, <ore:nuggetNichrome>],
+[<ore:nuggetNichrome>, <ore:nuggetNichrome>, <ore:nuggetNichrome>]]);
 
 // --- Niobium Ingot
-recipes.remove(<ore:ingotNiobium>);
+recipes.removeShaped(<ore:ingotNiobium>, [
+[<ore:nuggetNiobium>, <ore:nuggetNiobium>, <ore:nuggetNiobium>],
+[<ore:nuggetNiobium>, <ore:nuggetNiobium>, <ore:nuggetNiobium>],
+[<ore:nuggetNiobium>, <ore:nuggetNiobium>, <ore:nuggetNiobium>]]);
 
 // --- Niobium Nitride Ingot
-recipes.remove(<ore:ingotNiobiumNitride>);
+recipes.removeShaped(<ore:ingotNiobiumNitride>, [
+[<ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>],
+[<ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>],
+[<ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>, <ore:nuggetNiobiumNitride>]]);
 
 // --- Niobium Titanium Ingot
-recipes.remove(<ore:ingotNiobiumTitanium>);
+recipes.removeShaped(<ore:ingotNiobiumTitanium>, [
+[<ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>],
+[<ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>],
+[<ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>, <ore:nuggetNiobiumTitanium>]]);
+
+// --- Orichalcum Ingot
+recipes.removeShaped(<ore:ingotOrichalcum>, [
+[<ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>],
+[<ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>],
+[<ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>, <ore:nuggetOrichalcum>]]);
+
+// --- Oureclase Ingot
+recipes.removeShaped(<ore:ingotOureclase>, [
+[<ore:nuggetOureclase>, <ore:nuggetOureclase>, <ore:nuggetOureclase>],
+[<ore:nuggetOureclase>, <ore:nuggetOureclase>, <ore:nuggetOureclase>],
+[<ore:nuggetOureclase>, <ore:nuggetOureclase>, <ore:nuggetOureclase>]]);
 
 // --- Osmium Ingot
-recipes.remove(<ore:ingotOsmium>);
+recipes.removeShaped(<ore:ingotOsmium>, [
+[<ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>],
+[<ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>],
+[<ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>]]);
 
-// --- Osmiridium Steel Ingot
-recipes.remove(<ore:ingotOsmiridium>);
+// --- Osmiridium Ingot
+recipes.removeShaped(<ore:ingotOsmiridium>, [
+[<ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>],
+[<ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>],
+[<ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>, <ore:nuggetOsmiridium>]]);
 
 // --- Palladium Ingot
-recipes.remove(<ore:ingotPalladium>);
+recipes.removeShaped(<ore:ingotPalladium>, [
+[<ore:nuggetPalladium>, <ore:nuggetPalladium>, <ore:nuggetPalladium>],
+[<ore:nuggetPalladium>, <ore:nuggetPalladium>, <ore:nuggetPalladium>],
+[<ore:nuggetPalladium>, <ore:nuggetPalladium>, <ore:nuggetPalladium>]]);
 
 // --- Pig Iron Ingot
-recipes.remove(<ore:ingotPigIron>);
+recipes.removeShaped(<ore:ingotPigIron>, [
+[<ore:nuggetPigIron>, <ore:nuggetPigIron>, <ore:nuggetPigIron>],
+[<ore:nuggetPigIron>, <ore:nuggetPigIron>, <ore:nuggetPigIron>],
+[<ore:nuggetPigIron>, <ore:nuggetPigIron>, <ore:nuggetPigIron>]]);
 
 // --- Plastic Ingot
-recipes.remove(<ore:ingotPlastic>);
+recipes.removeShaped(<ore:ingotPlastic>, [
+[<ore:nuggetPlastic>, <ore:nuggetPlastic>, <ore:nuggetPlastic>],
+[<ore:nuggetPlastic>, <ore:nuggetPlastic>, <ore:nuggetPlastic>],
+[<ore:nuggetPlastic>, <ore:nuggetPlastic>, <ore:nuggetPlastic>]]);
 
 // --- Platinum Ingot
-recipes.remove(<ore:ingotPlatinum>);
+recipes.removeShaped(<ore:ingotPlatinum>, [
+[<ore:nuggetPlatinum>, <ore:nuggetPlatinum>, <ore:nuggetPlatinum>],
+[<ore:nuggetPlatinum>, <ore:nuggetPlatinum>, <ore:nuggetPlatinum>],
+[<ore:nuggetPlatinum>, <ore:nuggetPlatinum>, <ore:nuggetPlatinum>]]);
 
 // --- Plutonium Ingot
-recipes.remove(<ore:ingotPlutonium>);
+recipes.removeShaped(<ore:ingotPlutonium>, [
+[<ore:nuggetPlutonium>, <ore:nuggetPlutonium>, <ore:nuggetPlutonium>],
+[<ore:nuggetPlutonium>, <ore:nuggetPlutonium>, <ore:nuggetPlutonium>],
+[<ore:nuggetPlutonium>, <ore:nuggetPlutonium>, <ore:nuggetPlutonium>]]);
 
 // --- Plutonium241 Ingot
-recipes.remove(<ore:ingotPlutonium241>);
+recipes.removeShaped(<ore:ingotPlutonium241>, [
+[<ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>],
+[<ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>],
+[<ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>, <ore:nuggetPlutonium241>]]);
 
 // --- Potassium Ingot
-recipes.remove(<ore:ingotPotassium>);
+recipes.removeShaped(<ore:ingotPotassium>, [
+[<ore:nuggetPotassium>, <ore:nuggetPotassium>, <ore:nuggetPotassium>],
+[<ore:nuggetPotassium>, <ore:nuggetPotassium>, <ore:nuggetPotassium>],
+[<ore:nuggetPotassium>, <ore:nuggetPotassium>, <ore:nuggetPotassium>]]);
+
+// --- Praseodymium Ingot
+recipes.removeShaped(<ore:ingotPraseodymium>, [
+[<ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>],
+[<ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>],
+[<ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>, <ore:nuggetPraseodymium>]]);
+
+// --- Promethium, Ingot
+recipes.removeShaped(<ore:ingotPromethium>, [
+[<ore:nuggetPromethium>, <ore:nuggetPromethium>, <ore:nuggetPromethium>],
+[<ore:nuggetPromethium>, <ore:nuggetPromethium>, <ore:nuggetPromethium>],
+[<ore:nuggetPromethium>, <ore:nuggetPromethium>, <ore:nuggetPromethium>]]);
+
+// --- Prometheum, Ingot
+recipes.removeShaped(<ore:ingotPrometheum>, [
+[<ore:nuggetPrometheum>, <ore:nuggetPrometheum>, <ore:nuggetPrometheum>],
+[<ore:nuggetPrometheum>, <ore:nuggetPrometheum>, <ore:nuggetPrometheum>],
+[<ore:nuggetPrometheum>, <ore:nuggetPrometheum>, <ore:nuggetPrometheum>]]);
 
 // --- Pulsating Iron Ingot
-recipes.remove(<ore:ingotPulsatingIron>);
+recipes.removeShaped(<ore:ingotPulsatingIron>, [
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>]]);
 
 // --- Red Alloy Ingot
-recipes.remove(<ore:ingotRedAlloy>);
+recipes.removeShaped(<ore:ingotRedAlloy>, [
+[<ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>],
+[<ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>],
+[<ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>, <ore:nuggetRedAlloy>]]);
 
 // --- Red Steel Ingot
-recipes.remove(<ore:ingotRedSteel>);
+recipes.removeShaped(<ore:ingotRedSteel>, [
+[<ore:nuggetRedSteel>, <ore:nuggetRedSteel>, <ore:nuggetRedSteel>],
+[<ore:nuggetRedSteel>, <ore:nuggetRedSteel>, <ore:nuggetRedSteel>],
+[<ore:nuggetRedSteel>, <ore:nuggetRedSteel>, <ore:nuggetRedSteel>]]);
 
 // --- Redstone Alloy Ingot
-recipes.remove(<ore:ingotRedstoneAlloy>);
+recipes.removeShaped(<ore:ingotRedstoneAlloy>, [
+[<ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>],
+[<ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>],
+[<ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>, <ore:nuggetRedstoneAlloy>]]);
 
 // --- Reinforced Ingot
-recipes.remove(<ore:ingotReinforced>);
+recipes.removeShaped(<ore:ingotReinforced>, [
+[<ore:nuggetReinforced>, <ore:nuggetReinforced>, <ore:nuggetReinforced>],
+[<ore:nuggetReinforced>, <ore:nuggetReinforced>, <ore:nuggetReinforced>],
+[<ore:nuggetReinforced>, <ore:nuggetReinforced>, <ore:nuggetReinforced>]]);
 
 // --- Rose Gold Ingot
-recipes.remove(<ore:ingotRoseGold>);
+recipes.removeShaped(<ore:ingotRoseGold>, [
+[<ore:nuggetRoseGold>, <ore:nuggetRoseGold>, <ore:nuggetRoseGold>],
+[<ore:nuggetRoseGold>, <ore:nuggetRoseGold>, <ore:nuggetRoseGold>],
+[<ore:nuggetRoseGold>, <ore:nuggetRoseGold>, <ore:nuggetRoseGold>]]);
 
 // --- Rubber Ingot
-recipes.remove(<ore:ingotRubber>);
+recipes.removeShaped(<ore:ingotRubber>, [
+[<ore:nuggetRubber>, <ore:nuggetRubber>, <ore:nuggetRubber>],
+[<ore:nuggetRubber>, <ore:nuggetRubber>, <ore:nuggetRubber>],
+[<ore:nuggetRubber>, <ore:nuggetRubber>, <ore:nuggetRubber>]]);
 
 // --- Rubidium Ingot
-recipes.remove(<ore:ingotRubidium>);
+recipes.removeShaped(<ore:ingotRubidium>, [
+[<ore:nuggetRubidium>, <ore:nuggetRubidium>, <ore:nuggetRubidium>],
+[<ore:nuggetRubidium>, <ore:nuggetRubidium>, <ore:nuggetRubidium>],
+[<ore:nuggetRubidium>, <ore:nuggetRubidium>, <ore:nuggetRubidium>]]);
+
+// --- Samarium Ingot
+recipes.removeShaped(<ore:ingotSamarium>, [
+[<ore:nuggetSamarium>, <ore:nuggetSamarium>, <ore:nuggetSamarium>],
+[<ore:nuggetSamarium>, <ore:nuggetSamarium>, <ore:nuggetSamarium>],
+[<ore:nuggetSamarium>, <ore:nuggetSamarium>, <ore:nuggetSamarium>]]);
+
+// --- Sanguinite Ingot
+recipes.removeShaped(<ore:ingotSanguinite>, [
+[<ore:nuggetSanguinite>, <ore:nuggetSanguinite>, <ore:nuggetSanguinite>],
+[<ore:nuggetSanguinite>, <ore:nuggetSanguinite>, <ore:nuggetSanguinite>],
+[<ore:nuggetSanguinite>, <ore:nuggetSanguinite>, <ore:nuggetSanguinite>]]);
 
 // --- Scandium Ingot
-recipes.remove(<ore:ingotScandium>);
+recipes.removeShaped(<ore:ingotScandium>, [
+[<ore:nuggetScandium>, <ore:nuggetScandium>, <ore:nuggetScandium>],
+[<ore:nuggetScandium>, <ore:nuggetScandium>, <ore:nuggetScandium>],
+[<ore:nuggetScandium>, <ore:nuggetScandium>, <ore:nuggetScandium>]]);
 
 // --- Shadow Iron Ingot
-recipes.remove(<ore:ingotShadowIron>);
+recipes.removeShaped(<ore:ingotShadowIron>, [
+[<ore:nuggetShadowIron>, <ore:nuggetShadowIron>, <ore:nuggetShadowIron>],
+[<ore:nuggetShadowIron>, <ore:nuggetShadowIron>, <ore:nuggetShadowIron>],
+[<ore:nuggetShadowIron>, <ore:nuggetShadowIron>, <ore:nuggetShadowIron>]]);
 
 // --- Shadow Steel Ingot
-recipes.remove(<ore:ingotShadowSteel>);
+recipes.removeShaped(<ore:ingotShadowSteel>, [
+[<ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>],
+[<ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>],
+[<ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>, <ore:nuggetShadowSteel>]]);
 
 // --- Silicon Ingot
-recipes.remove(<ore:ingotSilicon>);
+recipes.removeShaped(<ore:ingotSilicon>, [
+[<ore:nuggetSilicon>, <ore:nuggetSilicon>, <ore:nuggetSilicon>],
+[<ore:nuggetSilicon>, <ore:nuggetSilicon>, <ore:nuggetSilicon>],
+[<ore:nuggetSilicon>, <ore:nuggetSilicon>, <ore:nuggetSilicon>]]);
 
 // --- Silver Ingot
-recipes.remove(<ore:ingotSilver>);
+recipes.removeShaped(<ore:ingotSilver>, [
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
 
 // --- Soldering Alloy Ingot
-recipes.remove(<ore:ingotSolderingAlloy>);
+recipes.removeShaped(<ore:ingotSolderingAlloy>, [
+[<ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>],
+[<ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>],
+[<ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>, <ore:nuggetSolderingAlloy>]]);
 
 // --- Soularium Iron Ingot
-recipes.remove(<ore:ingotSoularium>);
+recipes.removeShaped(<ore:ingotSoularium>, [
+[<ore:nuggetSoularium>, <ore:nuggetSoularium>, <ore:nuggetSoularium>],
+[<ore:nuggetSoularium>, <ore:nuggetSoularium>, <ore:nuggetSoularium>],
+[<ore:nuggetSoularium>, <ore:nuggetSoularium>, <ore:nuggetSoularium>]]);
 
 // --- Stainless Steel Ingot
-recipes.remove(<ore:ingotStainlessSteel>);
+recipes.removeShaped(<ore:ingotStainlessSteel>, [
+[<ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>],
+[<ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>],
+[<ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>, <ore:nuggetStainlessSteel>]]);
 
 // --- Steel Ingot
-recipes.remove(<ore:ingotSteel>);
-
-// --- Steel Nuggets
-recipes.remove(<ore:nuggetSteel>);
+recipes.removeShaped(<ore:ingotSteel>, [
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
 
 // --- Sterling Silver Ingot
-recipes.remove(<ore:ingotSterlingSilver>);
+recipes.removeShaped(<ore:ingotSterlingSilver>, [
+[<ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>],
+[<ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>],
+[<ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>, <ore:nuggetSterlingSilver>]]);
 
 // --- Sunnarium Ingot
-recipes.remove(<ore:ingotSunnarium>);
+recipes.removeShaped(<ore:ingotSunnarium>, [
+[<ore:nuggetSunnarium>, <ore:nuggetSunnarium>, <ore:nuggetSunnarium>],
+[<ore:nuggetSunnarium>, <ore:nuggetSunnarium>, <ore:nuggetSunnarium>],
+[<ore:nuggetSunnarium>, <ore:nuggetSunnarium>, <ore:nuggetSunnarium>]]);
+
+// --- Tantalum Ingot
+recipes.removeShaped(<ore:ingotTantalum>, [
+[<ore:nuggetTantalum>, <ore:nuggetTantalum>, <ore:nuggetTantalum>],
+[<ore:nuggetTantalum>, <ore:nuggetTantalum>, <ore:nuggetTantalum>],
+[<ore:nuggetTantalum>, <ore:nuggetTantalum>, <ore:nuggetTantalum>]]);
+
+// --- Tartarite Ingot
+recipes.removeShaped(<ore:ingotTartarite>, [
+[<ore:nuggetTartarite>, <ore:nuggetTartarite>, <ore:nuggetTartarite>],
+[<ore:nuggetTartarite>, <ore:nuggetTartarite>, <ore:nuggetTartarite>],
+[<ore:nuggetTartarite>, <ore:nuggetTartarite>, <ore:nuggetTartarite>]]);
 
 // --- Thorium Ingot
-recipes.remove(<ore:ingotThorium>);
+recipes.removeShaped(<ore:ingotThorium>, [
+[<ore:nuggetThorium>, <ore:nuggetThorium>, <ore:nuggetThorium>],
+[<ore:nuggetThorium>, <ore:nuggetThorium>, <ore:nuggetThorium>],
+[<ore:nuggetThorium>, <ore:nuggetThorium>, <ore:nuggetThorium>]]);
+
+// --- Tellurium Ingot
+recipes.removeShaped(<ore:ingotTellurium>, [
+[<ore:nuggetTellurium>, <ore:nuggetTellurium>, <ore:nuggetTellurium>],
+[<ore:nuggetTellurium>, <ore:nuggetTellurium>, <ore:nuggetTellurium>],
+[<ore:nuggetTellurium>, <ore:nuggetTellurium>, <ore:nuggetTellurium>]]);
+
+// --- Terbium Ingot
+recipes.removeShaped(<ore:ingotTerbium>, [
+[<ore:nuggetTerbium>, <ore:nuggetTerbium>, <ore:nuggetTerbium>],
+[<ore:nuggetTerbium>, <ore:nuggetTerbium>, <ore:nuggetTerbium>],
+[<ore:nuggetTerbium>, <ore:nuggetTerbium>, <ore:nuggetTerbium>]]);
+
+// --- Thulium Ingot
+recipes.removeShaped(<ore:ingotThulium>, [
+[<ore:nuggetThulium>, <ore:nuggetThulium>, <ore:nuggetThulium>],
+[<ore:nuggetThulium>, <ore:nuggetThulium>, <ore:nuggetThulium>],
+[<ore:nuggetThulium>, <ore:nuggetThulium>, <ore:nuggetThulium>]]);
 
 // --- Tin Ingot
-recipes.remove(<ore:ingotTin>);
+recipes.removeShaped(<ore:ingotTin>, [
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
+
+// --- Tin Alloy Ingot
+recipes.removeShaped(<ore:ingotTinAlloy>, [
+[<ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>],
+[<ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>],
+[<ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>, <ore:nuggetTinAlloy>]]);
 
 // --- Titanium Ingot
-recipes.remove(<ore:ingotTitanium>);
+recipes.removeShaped(<ore:ingotTitanium>, [
+[<ore:nuggetTitanium>, <ore:nuggetTitanium>, <ore:nuggetTitanium>],
+[<ore:nuggetTitanium>, <ore:nuggetTitanium>, <ore:nuggetTitanium>],
+[<ore:nuggetTitanium>, <ore:nuggetTitanium>, <ore:nuggetTitanium>]]);
+
+// --- Tritanium Ingot
+recipes.removeShaped(<ore:ingotTritanium>, [
+[<ore:nuggetTritanium>, <ore:nuggetTritanium>, <ore:nuggetTritanium>],
+[<ore:nuggetTritanium>, <ore:nuggetTritanium>, <ore:nuggetTritanium>],
+[<ore:nuggetTritanium>, <ore:nuggetTritanium>, <ore:nuggetTritanium>]]);
 
 // --- Tungsten Ingot
-recipes.remove(<ore:ingotTungsten>);
+recipes.removeShaped(<ore:ingotTungsten>, [
+[<ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>],
+[<ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>],
+[<ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>]]);
 
 // --- Tungsten Steel Ingot
-recipes.remove(<ore:ingotTungstenSteel>);
+recipes.removeShaped(<ore:ingotTungstenSteel>, [
+[<ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>],
+[<ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>],
+[<ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>, <ore:nuggetTungstenSteel>]]);
 
 // --- Ultimet Ingot
-recipes.remove(<ore:ingotUltimet>);
+recipes.removeShaped(<ore:ingotUltimet>, [
+[<ore:nuggetUltimet>, <ore:nuggetUltimet>, <ore:nuggetUltimet>],
+[<ore:nuggetUltimet>, <ore:nuggetUltimet>, <ore:nuggetUltimet>],
+[<ore:nuggetUltimet>, <ore:nuggetUltimet>, <ore:nuggetUltimet>]]);
 
 // --- Uranium Ingot
-recipes.remove(<ore:ingotUranium>);
+recipes.removeShaped(<ore:ingotUranium>, [
+[<ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>],
+[<ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>],
+[<ore:nuggetUranium>, <ore:nuggetUranium>, <ore:nuggetUranium>]]);
 
 // --- Uranium235 Ingot
-recipes.remove(<ore:ingotUranium235>);
+recipes.removeShaped(<ore:ingotUranium235>, [
+[<ore:nuggetUranium235>, <ore:nuggetUranium235>, <ore:nuggetUranium235>],
+[<ore:nuggetUranium235>, <ore:nuggetUranium235>, <ore:nuggetUranium235>],
+[<ore:nuggetUranium235>, <ore:nuggetUranium235>, <ore:nuggetUranium235>]]);
 
 // --- Vanadium Ingot
-recipes.remove(<ore:ingotVanadium>);
+recipes.removeShaped(<ore:ingotVanadium>, [
+[<ore:nuggetVanadium>, <ore:nuggetVanadium>, <ore:nuggetVanadium>],
+[<ore:nuggetVanadium>, <ore:nuggetVanadium>, <ore:nuggetVanadium>],
+[<ore:nuggetVanadium>, <ore:nuggetVanadium>, <ore:nuggetVanadium>]]);
 
 // --- Vanadium Gallium Ingot
-recipes.remove(<ore:ingotVanadiumGallium>);
+recipes.removeShaped(<ore:ingotVanadiumGallium>, [
+[<ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>],
+[<ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>],
+[<ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>, <ore:nuggetVanadiumGallium>]]);
 
 // --- Vibrant Alloy Ingot
-recipes.remove(<ore:ingotVibrantAlloy>);
+recipes.removeShaped(<ore:ingotVibrantAlloy>, [
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>]]);
+
+// --- Vulcanite Ingot
+recipes.removeShaped(<ore:ingotVulcanite>, [
+[<ore:nuggetVulcanite>, <ore:nuggetVulcanite>, <ore:nuggetVulcanite>],
+[<ore:nuggetVulcanite>, <ore:nuggetVulcanite>, <ore:nuggetVulcanite>],
+[<ore:nuggetVulcanite>, <ore:nuggetVulcanite>, <ore:nuggetVulcanite>]]);
+
+// --- Vyroxeres Ingot
+recipes.removeShaped(<ore:ingotVyroxeres>, [
+[<ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>],
+[<ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>],
+[<ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>, <ore:nuggetVyroxeres>]]);
+
+// --- Ytterbium Ingot
+recipes.removeShaped(<ore:ingotYtterbium>, [
+[<ore:nuggetYtterbium>, <ore:nuggetYtterbium>, <ore:nuggetYtterbium>],
+[<ore:nuggetYtterbium>, <ore:nuggetYtterbium>, <ore:nuggetYtterbium>],
+[<ore:nuggetYtterbium>, <ore:nuggetYtterbium>, <ore:nuggetYtterbium>]]);
 
 // --- Yttrium Ingot
-recipes.remove(<ore:ingotYttrium>);
+recipes.removeShaped(<ore:ingotYttrium>, [
+[<ore:nuggetYttrium>, <ore:nuggetYttrium>, <ore:nuggetYttrium>],
+[<ore:nuggetYttrium>, <ore:nuggetYttrium>, <ore:nuggetYttrium>],
+[<ore:nuggetYttrium>, <ore:nuggetYttrium>, <ore:nuggetYttrium>]]);
 
 // --- Yttrium Barium Cuprate Ingot
-recipes.remove(<ore:ingotYttriumBariumCuprate>);
+recipes.removeShaped(<ore:ingotYttriumBariumCuprate>, [
+[<ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>],
+[<ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>],
+[<ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>, <ore:nuggetYttriumBariumCuprate>]]);
 
 // --- Zinc Ingot
-recipes.remove(<ore:ingotZinc>);
+recipes.removeShaped(<ore:ingotZinc>, [
+[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>],
+[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>],
+[<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>]]);
 
 // ---Wrought Iron Ingot
 recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
