@@ -1861,6 +1861,18 @@ Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut
 // -
 Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
 
+// --- Iron Tank Wall
+Assembler.addRecipe(<Railcraft:machine.beta>, <Railcraft:part.plate> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
+
+// --- Steel Tank Wall
+Assembler.addRecipe(<Railcraft:machine.beta:13>, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
+
+// --- Low Pressure Boiler
+Assembler.addRecipe(<Railcraft:machine.beta:3>, <IC2:itemCasing:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 30);
+
+// --- High Pressure Boiler
+Assembler.addRecipe(<Railcraft:machine.beta:4>, <IC2:itemCasing:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 30);
+
 
 
 
