@@ -1864,8 +1864,20 @@ Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cra
 // --- Iron Tank Wall
 Assembler.addRecipe(<Railcraft:machine.beta>, <Railcraft:part.plate> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
 
+// --- Iron Tank Gauge
+Assembler.addRecipe(<Railcraft:machine.beta:1>, <Railcraft:part.plate> * 2, <TConstruct:GlassPane> * 2, 400, 30);
+
+// --- Iron Tank Valve
+Assembler.addRecipe(<Railcraft:machine.beta:2>, <gregtech:gt.blockmachines:5113> * 2, <minecraft:iron_bars> * 2, 400, 30);
+
 // --- Steel Tank Wall
 Assembler.addRecipe(<Railcraft:machine.beta:13>, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
+
+// --- Steel Tank Gauge
+Assembler.addRecipe(<Railcraft:machine.beta:14>, <Railcraft:part.plate:1> * 2, <Railcraft:machine.beta:1> * 2, 400, 30);
+
+// --- Steel Tank Valve
+Assembler.addRecipe(<Railcraft:machine.beta:15>, <gregtech:gt.blockmachines:5133> * 2, <dreamcraft:item.SteelBars> * 2, 400, 30);
 
 // --- Low Pressure Boiler
 Assembler.addRecipe(<Railcraft:machine.beta:3>, <IC2:itemCasing:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 30);
