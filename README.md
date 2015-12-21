@@ -1,5 +1,5 @@
 
-[DreamCraft]
+[GT New Horizons Mod Pack]
 =
 
 [Gregified modpack via Modtweaker. GT, Thaumcraft, Buildcraft, Witchery, Galacticraft, BloodMagic, Forestry, HQM...]
