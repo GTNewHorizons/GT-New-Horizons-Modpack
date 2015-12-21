@@ -36,6 +36,12 @@ recipes.remove(<witchery:ingredient:73>);
 // --- Adding Recipes ---
 
 
+// --- Warmwood
+recipes.addShaped(<witchery:ingredient:111>, [
+[<witchery:mutator>.transformDamage(), <witchery:somniancotton>, null],
+[<witchery:somniancotton>, <minecraft:wheat>, <witchery:somniancotton>],
+[null, <witchery:somniancotton>, null]]);
+
 // --- Oven
 mods.thaumcraft.Research.addResearch("OVEN", "ARTIFICE", "metallum 1, fabrico 1, instrumentum 1, machina 1", -12, -1, 4, <witchery:witchesovenidle>);
 game.setLocalization("en_US", "tc.research_name.OVEN", "Witchery Oven");
