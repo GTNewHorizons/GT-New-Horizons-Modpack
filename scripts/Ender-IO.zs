@@ -395,6 +395,9 @@ recipes.remove(<EnderIO:itemGliderWing:1>);
 // --- Electromagnet
 recipes.remove(<EnderIO:itemMagnet:*>);
 
+// --- Network Conduit
+recipes.remove(<EnderIO:itemOCConduit>);
+
 
 
 
@@ -814,6 +817,9 @@ Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMulti
 
 // --- Dense ME Conduit
 Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit>, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
+
+// --- Network Conduit
+Assembler.addRecipe(<EnderIO:itemOCConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Basic Item Filter
 Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <IC2:itemPartCarbonMesh> * 2, <minecraft:iron_bars>, 300, 30);

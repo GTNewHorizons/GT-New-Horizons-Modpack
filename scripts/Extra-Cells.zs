@@ -229,6 +229,61 @@ recipes.remove(<extracells:oc.upgrade:1>);
 // --- ME Upgrade Tier 3
 recipes.remove(<extracells:oc.upgrade>);
 
+// --- ME Gas Import Bus
+recipes.remove(<extracells:part.base:13>);
+
+// --- ME Gas Export Bus
+recipes.remove(<extracells:part.base:14>);
+
+// --- ME Gas Terminal
+recipes.remove(<extracells:part.base:15>);
+
+// --- ME 1K Gas Storage
+recipes.remove(<extracells:storage.gas>);
+
+// --- ME 4K Gas Storage
+recipes.remove(<extracells:storage.gas:1>);
+
+// --- ME 16K Gas Storage
+recipes.remove(<extracells:storage.gas:2>);
+
+// --- ME 64K Gas Storage
+recipes.remove(<extracells:storage.gas:3>);
+
+// --- ME 256K Gas Storage
+recipes.remove(<extracells:storage.gas:4>);
+
+// --- ME 1024K Gas Storage
+recipes.remove(<extracells:storage.gas:5>);
+
+// --- ME 4096K Gas Storage
+recipes.remove(<extracells:storage.gas:6>);
+
+// --- ME 1K Gas Storage Component
+recipes.remove(<extracells:storage.component:11>);
+
+// --- ME 4K Gas Storage Component
+recipes.remove(<extracells:storage.component:12>);
+
+// --- ME 16K Gas Storage Component
+recipes.remove(<extracells:storage.component:13>);
+
+// --- ME 64K Gas Storage Component
+recipes.remove(<extracells:storage.component:14>);
+
+// --- ME 256K Gas Storage Component
+recipes.remove(<extracells:storage.component:15>);
+
+// --- ME 1024K Gas Storage Component
+recipes.remove(<extracells:storage.component:16>);
+
+// --- ME 4096K Gas Storage Component
+recipes.remove(<extracells:storage.component:17>);
+
+// --- Gas Storage Housing
+recipes.remove(<extracells:storage.casing:2>);
+
+
 
 
 
