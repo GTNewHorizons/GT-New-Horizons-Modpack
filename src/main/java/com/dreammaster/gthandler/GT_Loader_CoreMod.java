@@ -6,6 +6,7 @@ import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Utility;
 import gregtech.api.util.GT_OreDictUnificator;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 
@@ -55,11 +56,12 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         }
 
         //HEE REcipes override
-            if (Loader.isModLoaded("HardcoreEnderExpansion")) {
+           if (Loader.isModLoaded("HardcoreEnderExpansion")) {
             long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_RECIPES_IF_SAME_NBT | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_SHAPED_RECIPES | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_NATIVE_RECIPES | GT_ModHandler.RecipeBits.ONLY_ADD_IF_THERE_IS_ANOTHER_RECIPE_FOR_IT;
-            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 32767), tBitMask, new Object[]{"DED", "EDE", "DED", Character.valueOf('D'), OrePrefixes.gem.get(Materials.Diamond), Character.valueOf('E'), OrePrefixes.gem.get(Materials.EnderEye)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 0), tBitMask, new Object[]{"DED", "EDE", "DED", Character.valueOf('D'), new ItemStack(Items.diamond, 1), Character.valueOf('E'), new ItemStack(Items.ender_eye, 1),});
 
         }
+
     }
 
 
