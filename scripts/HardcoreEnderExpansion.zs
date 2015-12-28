@@ -5,6 +5,7 @@
 // --- Imports --- 
 
 
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
@@ -52,6 +53,39 @@ recipes.remove(<HardcoreEnderExpansion:energy_extraction_table>);
 
 // --- Accumulation Table
 recipes.remove(<HardcoreEnderExpansion:accumulation_table>);
+
+// --- Spectral Tears
+recipes.remove(<HardcoreEnderExpansion:spectral_tear>);
+
+// Living Matter
+recipes.remove(<HardcoreEnderExpansion:living_matter>);
+
+// --- Energy Wand Core
+recipes.remove(<HardcoreEnderExpansion:energy_wand_core>);
+
+// --- Endergy Wand
+recipes.remove(<HardcoreEnderExpansion:energy_wand>);
+
+// --- Spooky Log
+recipes.remove(<HardcoreEnderExpansion:spooky_log>);
+
+// --- Spooky Leaves
+recipes.remove(<HardcoreEnderExpansion:spooky_leaves>);
+
+// --- Blank Gem
+recipes.remove(<HardcoreEnderExpansion:blank_gem>);
+
+// --- Spatial Dash Gem
+recipes.remove(<HardcoreEnderExpansion:spatial_dash_gem>);
+
+// --- Transference Gem
+recipes.remove(<HardcoreEnderExpansion:transference_gem>);
+
+// --- Schorching Pickaxe
+recipes.remove(<HardcoreEnderExpansion:schorching_pickaxe>);
+
+// --- Charm Pouch
+recipes.remove(<HardcoreEnderExpansion:charm_pouch>);
 
 
 
@@ -118,6 +152,53 @@ recipes.addShaped(<HardcoreEnderExpansion:accumulation_table>, [
 [<ore:plateThaumium>, <HardcoreEnderExpansion:energy_wand_core>, <ore:plateThaumium>],
 [<ore:blockStainlessSteel>, <ore:blockHeeEndium>, <ore:blockStainlessSteel>]]);
 
+// --- Spectral Tears
+recipes.addShaped(<HardcoreEnderExpansion:spectral_tear>, [
+[<HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>],
+[<HardcoreEnderExpansion:endoplasm>, <minecraft:ghast_tear>, <HardcoreEnderExpansion:endoplasm>],
+[<HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>]]);
+
+// Living Matter
+recipes.addShapeless(<HardcoreEnderExpansion:living_matter>, [<HardcoreEnderExpansion:spectral_tear>, <HardcoreEnderExpansion:silverfish_blood>, <minecraft:spider_eye>, <minecraft:bone>, <HardcoreEnderExpansion:instability_orb>, <minecraft:egg>, <minecraft:blaze_powder>, <minecraft:rotten_flesh>, <gregtech:gt.metaitem.01:2815>]);
+
+// --- Endergy Wand
+recipes.addShaped(<HardcoreEnderExpansion:energy_wand>, [
+[<ore:craftingToolScrewdriver>, <ore:screwTitanium>, <HardcoreEnderExpansion:energy_wand_core>],
+[<ore:screwTitanium>, <HardcoreEnderExpansion:obsidian_rod>, <ore:screwTitanium>],
+[<HardcoreEnderExpansion:obsidian_rod>, <ore:screwTitanium>, <ore:craftingToolFile>]]);
+
+// --- Spooky Leaves
+recipes.addShapeless(<HardcoreEnderExpansion:spooky_leaves>, [<HardcoreEnderExpansion:dry_splinter>, <minecraft:deadbush>, <minecraft:sand>, <minecraft:dye:15>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2530>]);
+
+// --- Charm Pouch
+recipes.addShaped(<HardcoreEnderExpansion:charm_pouch>, [
+[<HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:rune:*>, <HardcoreEnderExpansion:end_powder>],
+[<HardcoreEnderExpansion:rune:*>, <Thaumcraft:FocusPouch>, <HardcoreEnderExpansion:rune:*>],
+[<HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:rune:*>, <HardcoreEnderExpansion:end_powder>]]);
+
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+// --- Energy Wand Core
+Assembler.addRecipe(<HardcoreEnderExpansion:energy_wand_core>, <HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:auricion> * 8, 600, 256);
+
+// --- Blank Gem
+Assembler.addRecipe(<HardcoreEnderExpansion:blank_gem>, <HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:arcane_shard> * 8, 600, 256);
+
+// --- Spatial Dash Gem
+Assembler.addRecipe(<HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:blank_gem>, <HardcoreEnderExpansion:arcane_shard> * 8, <liquid:ender> * 1000, 1200, 480);
+
+// --- Transference Gem
+Assembler.addRecipe(<HardcoreEnderExpansion:transference_gem>, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:endoplasm> * 8, 1800, 1024);
+
+// --- Schorching Pickaxe
+Assembler.addRecipe(<HardcoreEnderExpansion:schorching_pickaxe>, <minecraft:golden_pickaxe>, <HardcoreEnderExpansion:fire_shard> * 8, 300, 120);
+
 
 
 
@@ -128,10 +209,13 @@ recipes.addShaped(<HardcoreEnderExpansion:accumulation_table>, [
 // --- Endium Block
 Compressor.addRecipe(<HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:endium_ingot> * 9);
 
+// --- Spooky Log
+Compressor.addRecipe(<HardcoreEnderExpansion:spooky_log>, <HardcoreEnderExpansion:dry_splinter> * 9);
+
+
 
 
 // --- Cutting Saw Recipes
-
 
 
 // --- Ravaged Brick Slab
@@ -146,8 +230,6 @@ CuttingSaw.addRecipe(<HardcoreEnderExpansion:ravaged_brick_slab> * 2, null, <Har
 
 
 // --- Extractor Recipes ---
-
-
 
 
 // --- Mangenta Dye 
