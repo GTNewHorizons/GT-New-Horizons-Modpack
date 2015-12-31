@@ -10,6 +10,61 @@ import mods.nei.NEI;
 
 
 // --- Remove Recipes ---
+
+
+// --- Super ConductorCover
+recipes.remove(<GraviSuite:itemSimpleItem>);
+
+// --- Super Conductor
+recipes.remove(<GraviSuite:itemSimpleItem:1>);
+
+// --- Cooling Core
+recipes.remove(<GraviSuite:itemSimpleItem:2>);
+
+// --- Gravitation Engine
+recipes.remove(<GraviSuite:itemSimpleItem:3>);
+
+// --- Magnetron
+recipes.remove(<GraviSuite:itemSimpleItem:4>);
+
+// --- Vajra Core
+recipes.remove(<GraviSuite:itemSimpleItem:5>);
+
+// --- Vajra
+recipes.remove(<GraviSuite:vajra:*>);
+
+// --- Engine Boost
+recipes.remove(<GraviSuite:itemSimpleItem:6>);
+
+// --- GraviChest
+recipes.remove(<GraviSuite:graviChestPlate>);
+
+// --- Advanced Chainsaw
+recipes.remove(<GraviSuite:advChainsaw>);
+
+// --- Advanced Nano Chest
+recipes.remove(<GraviSuite:advNanoChestPlate>);
+
+// --- Advanced Jetpack
+recipes.remove(<GraviSuite:advJetpack>);
+
+// --- Advanced Drill
+recipes.remove(<GraviSuite:advDDrill>);
+
+// --- Advanced Gravi Tool
+recipes.remove(<GraviSuite:graviTool>);
+
+// --- Advanced Jetpack
+recipes.remove(<GraviSuite:advLappack>);
+
+// --- Ultimate Lappack
+recipes.remove(<GraviSuite:ultimateLappack>);
+
+// --- Relocator
+recipes.remove(<GraviSuite:relocator:*>);
+
+// --- Epic Lappack
+recipes.remove(<GraviSuite:epicLappack:*>);
  
 // --- Add Recipes ---
 
