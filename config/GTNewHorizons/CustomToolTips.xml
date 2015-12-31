@@ -8,6 +8,7 @@
 	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe"/>
     <ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe"/>
 	
 //Buildcraft
 	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe"/>
@@ -37,4 +38,57 @@
 	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Blast Proof"/>
 	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid"/>
 	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid"/>
+//Bags
+	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:1" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:2" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:3" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:4" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:5" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:6" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:7" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:8" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:9" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:10" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:11" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:12" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:13" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:14" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:15" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:16" ToolTip="4*9 Inventory - 36 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:200" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:201" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:202" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:203" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:204" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:205" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:206" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:207" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:208" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:209" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:210" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:211" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:212" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:213" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:214" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:215" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:216" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="Backpack:backpack:17" ToolTip="Crafting Backpack with 9 Inventory Slots"/>
+	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots"/>
+//OMT - Fences
+	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
+//OMT - Walls
+	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
+//OMT - AddOns
+	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe"/>
 </CustomToolTips>
