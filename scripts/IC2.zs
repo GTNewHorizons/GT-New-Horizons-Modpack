@@ -1897,6 +1897,8 @@ Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 30);
 // --- Mining Pipe
 Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 200, 16);
 
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 400, 30);
+
 
 
 // --- Vacuum Freezer Recipes
