@@ -2018,6 +2018,16 @@ mods.thaumcraft.Aspects.set(<dreamcraft:tile.Charcoal>, "ignis 13, potentia 13")
 
 
 
+// --- Oredict Stuff ---
+
+
+
+// --- Blocl of Charcoal
+oreDict.blockCharcoal.add(<dreamcraft:tile.Charcoal>);
+
+
+
+
 // --- Thaumcraft Stuff
 
 

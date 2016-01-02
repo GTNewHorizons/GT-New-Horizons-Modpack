@@ -1677,6 +1677,9 @@ Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087
 // -
 Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:30004>, <gregtech:gt.blockmachines:1360> * 16, <liquid:molten.glass> * 8000, 400, 64);
 
+// --- Iron Furnace
+Assembler.addRecipe(IronFurnace, <minecraft:furnace>, <Railcraft:part.plate> * 4, 400, 16);
+
 
 
 // --- Blast Furnace Recipes ---
@@ -1790,6 +1793,18 @@ Compressor.addRecipe(<IC2:itemFuelPlantBall>, <Thaumcraft:blockCustomPlant:1> * 
 // -
 Compressor.addRecipe(<IC2:itemFuelPlantBall>, <TwilightForest:tile.TFSapling:*> * 8);
 
+
+
+
+// --- Destillery Recipes ---
+
+
+
+
+// --- Bio Gas
+Distillery.addRecipe(<liquid:ic2biogas> * 125, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 4, 40, 30, false);
+// -
+Distillery.addRecipe(<liquid:ic2biogas> * 1000, <gregtech:gt.integrated_circuit:8> * 0, <liquid:ic2biomass> * 31, 80, 120, false);
 
 
 
