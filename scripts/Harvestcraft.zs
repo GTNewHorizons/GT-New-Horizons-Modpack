@@ -19,7 +19,9 @@ val WovenCloth = <harvestcraft:wovencottonItem>;
 val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 
-
+// --- OREDICT STUFF ---
+val flour = <ore:dustWheat>;
+flour.add(<harvestcraft:flourItem>);
 
 // --- Removing Recipes ---
 
