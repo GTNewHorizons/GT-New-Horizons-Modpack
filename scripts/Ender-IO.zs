@@ -398,6 +398,12 @@ recipes.remove(<EnderIO:itemMagnet:*>);
 // --- Network Conduit
 recipes.remove(<EnderIO:itemOCConduit>);
 
+// --- Dark Steel Ingot
+recipes.removeShaped(<EnderIO:itemAlloy:6>, [
+[<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
+[<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
+[<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>]]);
+
 
 
 

@@ -1677,6 +1677,9 @@ Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087
 // -
 Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:30004>, <gregtech:gt.blockmachines:1360> * 16, <liquid:molten.glass> * 8000, 400, 64);
 
+// --- Iron Furnace
+Assembler.addRecipe(IronFurnace, <minecraft:furnace>, <Railcraft:part.plate> * 4, 400, 16);
+
 
 
 // --- Blast Furnace Recipes ---
@@ -1793,15 +1796,15 @@ Compressor.addRecipe(<IC2:itemFuelPlantBall>, <TwilightForest:tile.TFSapling:*> 
 
 
 
+// --- Destillery Recipes ---
 
 
-// --- Distillery Recipes ---
 
 
-
-// --- Biogas
-Distillery.addRecipe(<liquid:ic2biogas> * 1000, <gregtech:gt.integrated_circuit:2> * 0, <liquid:ic2biomass> * 32, 120, 120, false);
-
+// --- Bio Gas
+Distillery.addRecipe(<liquid:ic2biogas> * 125, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 4, 40, 30, false);
+// -
+Distillery.addRecipe(<liquid:ic2biogas> * 1000, <gregtech:gt.integrated_circuit:8> * 0, <liquid:ic2biomass> * 31, 80, 120, false);
 
 
 
@@ -1893,6 +1896,8 @@ Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 30);
 
 // --- Mining Pipe
 Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 200, 16);
+
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 400, 30);
 
 
 
