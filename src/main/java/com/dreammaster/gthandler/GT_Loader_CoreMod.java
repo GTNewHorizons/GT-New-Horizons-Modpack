@@ -13,7 +13,8 @@ import net.minecraft.item.ItemStack;
 
 public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegistrator {
     public void run(){
-        //Steel Bars
+
+
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 3L), ItemList.Circuit_Integrated.getWithDamage(0L, 3L, new Object[0]), CustomItemList.SteelBars.get(4L, new Object[0]), 400, 48);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getIC2Item("carbonPlate", 4L), ItemList.Circuit_Integrated.getWithDamage(0L, 4L, new Object[0]), CustomItemList.CarbonPartBoots.get(1L, new Object[0]), 400, 120);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getIC2Item("carbonPlate", 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]), CustomItemList.CarbonPartChestplate.get(1L, new Object[0]), 400, 120);
@@ -55,7 +56,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
             GT_Values.RA.addLaserEngraverRecipe(GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Naquadah, 1L), GT_Utility.copyAmount(0L, new Object[]{aStack}), CustomItemList.EtchedLudicrousVoltageWiring.get(1L, new Object[0]), 400, 7680);
         }
 
-        //HEE REcipes override
+           //HEE REcipes override
            if (Loader.isModLoaded("HardcoreEnderExpansion")) {
             long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_RECIPES_IF_SAME_NBT | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_SHAPED_RECIPES | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_NATIVE_RECIPES | GT_ModHandler.RecipeBits.ONLY_ADD_IF_THERE_IS_ANOTHER_RECIPE_FOR_IT;
             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 0), tBitMask, new Object[]{"DED", "EDE", "DED", Character.valueOf('D'), new ItemStack(Items.diamond, 1), Character.valueOf('E'), new ItemStack(Items.ender_eye, 1),});

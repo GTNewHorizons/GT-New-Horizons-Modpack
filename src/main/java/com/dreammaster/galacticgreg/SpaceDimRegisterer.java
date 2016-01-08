@@ -109,7 +109,7 @@ public class SpaceDimRegisterer
     private ModContainer Setup_GalactiCraftCore()
     {
         ModContainer modGCraftCore = new ModContainer("GalacticraftCore");
-        ModDBMDef DBMMoon = new ModDBMDef("moonBlock", 4);
+        ModDBMDef DBMMoon = new ModDBMDef("tile.moonBlock", 4);
 
         ModDimensionDef tMoonDim = new ModDimensionDef("Moon", "micdoodle8.mods.galacticraft.core.world.gen.ChunkProviderMoon", DimensionType.Planet, singleToList(DBMMoon));
         modGCraftCore.addDimensionDef(tMoonDim);
@@ -195,7 +195,7 @@ public class SpaceDimRegisterer
         //14.11.2015 GSpace v2.6
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("MakeMake", "blessentumble.planets.SolarSystem.makemake.dimension.ChunkProviderMakemake", DimensionType.Planet, singleToList(DBMMakemake)));
         //Disabled for now because not works
-        // modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "blessentumble.planets.ACentauriSystem.aCentauriBb.dimension.ChunkProviderACentauriBb", DimensionType.Planet, singleToList(DBMCentauriA)));
+        //modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "blessentumble.planets.ACentauriSystem.aCentauriBb.dimension.ChunkProviderACentauriBb", DimensionType.Planet, singleToList(DBMCentauriA)));
 
         // GSpace 2.2-Beta: Kupierbelt
         ModDimensionDef dimKupierBelt = new ModDimensionDef("Kuiperbelt", "blessentumble.planets.SolarSystem.kuiperbelt.dimension.ChunkProviderKuiper", DimensionType.Asteroid);
