@@ -7,6 +7,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.Brewery;
 import mods.gregtech.Canner;
 import mods.gregtech.ChemicalBath;
 import mods.ic2.Compressor;
@@ -1694,6 +1695,14 @@ BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonP
 
 
 
+// --- Brewing Recipes ---
+
+
+// --- Bio Mass
+Brewery.addRecipe(<liquid:water> * 1000, <IC2:itemBiochaff>, <liquid:ic2biomass> * 1000, false);
+
+
+
 
 // --- Canner Recipes
 
@@ -1846,6 +1855,7 @@ FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell
 
 // --- 60k Cooling Cell
 FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
+
 
 
 

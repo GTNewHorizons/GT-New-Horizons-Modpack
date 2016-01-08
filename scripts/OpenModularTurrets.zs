@@ -169,9 +169,9 @@ recipes.addShaped(<openmodularturrets:incendiaryTurret>, [
 
 // --- Hard Wall Tier 1
 recipes.addShaped(<openmodularturrets:hardWallTierOne> * 9, [
-[<ore:stoneSmooth>, <ore:gravel>, <ore:stoneSmooth>],
+[<ore:stoneSmooth>, <minecraft:gravel>, <ore:stoneSmooth>],
 [<minecraft:clay>, <ore:sand>, <minecraft:clay>],
-[<ore:stoneSmooth>, <ore:gravel>, <ore:stoneSmooth>]]);
+[<ore:stoneSmooth>, <minecraft:gravel>, <ore:stoneSmooth>]]);
 
 // --- Fence Tier 1
 recipes.addShaped(<openmodularturrets:fenceTierOne> * 5, [
