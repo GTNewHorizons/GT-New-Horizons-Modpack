@@ -302,13 +302,13 @@ public class GT_Loader_Items
 			'W', AdvancedGTMaterials.UV.getCable(), 
 			'P', AdvancedGTMaterials.UV.getPipe() });
 		
-		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_UV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SSC", "WQS", "CWS", 
-			'Q', AdvancedGTMaterials.UV.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.ElectrumFlux), 
-			'C', AdvancedGTMaterials.UV.getCircuit(), 
-			'W', AdvancedGTMaterials.UV.getCable() });
+		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_UV.get(1L, new Object[0]),
+                GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+                new Object[]{"SSC", "WQS", "CWS",
+                        'Q', AdvancedGTMaterials.UV.getGem(),
+                        'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
+                        'C', AdvancedGTMaterials.UV.getCircuit(),
+                        'W', AdvancedGTMaterials.UV.getCable()});
 		
 		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]),
                 GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
@@ -324,7 +324,25 @@ public class GT_Loader_Items
 		CustomItemList.EtchedInsaneVoltageWiring.set(com.dreammaster.item.ItemList.EtchedInsaneVoltageWiring.getIS());
    		CustomItemList.EtchedLudicrousVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLudicrousVoltageWiring.getIS());
 		CustomItemList.SteelBars.set(com.dreammaster.item.ItemList.SteelBars.getIS());
-		CustomItemList.LichBones.set(com.dreammaster.item.ItemList.LichBone.getIS());
+		CustomItemList.AluminiumBars.set(com.dreammaster.item.ItemList.AluminiumBars.getIS());
+		CustomItemList.StainlessSteelBars.set(com.dreammaster.item.ItemList.StainlessSteelBars.getIS());
+		CustomItemList.TungstenBars.set(com.dreammaster.item.ItemList.TungstenBars.getIS());
+		CustomItemList.TungstenSteelBars.set(com.dreammaster.item.ItemList.TungstenSteelBars.getIS());
+		CustomItemList.IridiumBars.set(com.dreammaster.item.ItemList.IridiumBars.getIS());
+		CustomItemList.OsmiumBars.set(com.dreammaster.item.ItemList.OsmiumBars.getIS());
+		CustomItemList.ChromeBars.set(com.dreammaster.item.ItemList.ChromeBars.getIS());
+		CustomItemList.TitaniumBars.set(com.dreammaster.item.ItemList.TitaniumBars.getIS());
+		CustomItemList.NeutroniumBars.set(com.dreammaster.item.ItemList.NeutroniumBars.getIS());
+		CustomItemList.RedstoneAlloyBars.set(com.dreammaster.item.ItemList.RedstoneAlloyBars.getIS());
+		CustomItemList.ElectricalSteelBars.set(com.dreammaster.item.ItemList.ElectricalSteelBars.getIS());
+		CustomItemList.ConductiveIronBars.set(com.dreammaster.item.ItemList.ConductiveIronBars.getIS());
+		CustomItemList.EnergeticAlloyBars.set(com.dreammaster.item.ItemList.EnergeticAlloyBars.getIS());
+		CustomItemList.VibrantAlloyBars.set(com.dreammaster.item.ItemList.VibrantAlloyBars.getIS());
+		CustomItemList.PulsatingIronBars.set(com.dreammaster.item.ItemList.PulsatingIronBars.getIS());
+		CustomItemList.SoulariumBars.set(com.dreammaster.item.ItemList.SoulariumBars.getIS());
+		CustomItemList.EnderiumBaseBars.set(com.dreammaster.item.ItemList.EnderiumBaseBars.getIS());
+		CustomItemList.EnderiumBars.set(com.dreammaster.item.ItemList.EnderiumBars.getIS());
+        CustomItemList.LichBone.set(com.dreammaster.item.ItemList.LichBone.getIS());
 		CustomItemList.SnowQueenBlood.set(com.dreammaster.item.ItemList.SnowQueenBlood.getIS());
 		CustomItemList.AdvancedProcessorBoard.set(com.dreammaster.item.ItemList.AdvancedProcessorBoard.getIS());
 		CustomItemList.HighEnergyFlowCircuit.set(com.dreammaster.item.ItemList.HighEnergyFlowCircuit.getIS());
@@ -359,18 +377,6 @@ public class GT_Loader_Items
         CustomItemList.StainlessSteelItemCasing.set(com.dreammaster.item.ItemList.StainlessSteelItemCasing.getIS());
         CustomItemList.IridiumAlloyItemCasing.set(com.dreammaster.item.ItemList.IridiumAlloyItemCasing.getIS());
         CustomItemList.ReinforcedGlassLense.set(com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 
 }
