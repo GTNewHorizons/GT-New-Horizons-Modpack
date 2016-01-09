@@ -19,7 +19,7 @@ import mods.ic2.Macerator;
 
 
 // --- Nexus Altar
-recipes.remove(<HardcoreEnderExpansion:altar_nexus>);
+//recipes.remove(<HardcoreEnderExpansion:altar_nexus>);
 
 // --- Basic Essence Altar
 recipes.remove(<HardcoreEnderExpansion:essence_altar>);
@@ -162,10 +162,10 @@ recipes.remove(<HardcoreEnderExpansion:curse:266>);
 
 
 // --- Nexus Altar
-recipes.addShaped(<HardcoreEnderExpansion:altar_nexus>, [
-[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>],
-[<ore:gemEnderEye>, <ore:gemDiamond>, <ore:gemEnderEye>],
-[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>]]);
+//recipes.addShaped(<HardcoreEnderExpansion:altar_nexus>, [
+//[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>],
+//[<ore:gemEnderEye>, <ore:gemDiamond>, <ore:gemEnderEye>],
+//[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>]]);
 
 // --- Basic Essence Altar
 recipes.addShaped(<HardcoreEnderExpansion:essence_altar>, [
