@@ -199,6 +199,9 @@ recipes.remove(<openmodularturrets:rangeUpgradeItem>);
 // --- Upgrade Scattershot
 recipes.remove(<openmodularturrets:scattershotUpgradeItem>);
 
+// --- Upgrade Efficency
+recipes.remove(<openmodularturrets:efficiencyUpgradeItem>);
+
 // --- Addon Damage Boost
 recipes.remove(<openmodularturrets:damageAmpAddon>);
 
@@ -236,13 +239,13 @@ recipes.addShaped(<openmodularturrets:baseTierWood>, [
 
 // --- Turret Base Tier 2
 recipes.addShaped(<openmodularturrets:baseTierOneBlock>, [
-[<ore:plateElectricalSteel>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), <ore:plateElectricalSteel>],
+[<ore:plateSteel>, <gregtech:gt.metaitem.01:32501>, <ore:plateSteel>],
 [<openmodularturrets:ioBus>, <openmodularturrets:sensorTierTwoItem>, <openmodularturrets:ioBus>],
-[<ore:plateElectricalSteel>, <EnderIO:itemBasicCapacitor>, <ore:plateElectricalSteel>]]);
+[<ore:plateSteel>, <EnderIO:itemBasicCapacitor>, <ore:plateSteel>]]);
 
 // --- Turret Base Tier 3
 recipes.addShaped(<openmodularturrets:baseTierTwoBlock>, [
-[<ore:plateDarkSteel>, <EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), <ore:plateDarkSteel>],
+[<ore:plateDarkSteel>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), <ore:plateDarkSteel>],
 [<openmodularturrets:ioBus>, <openmodularturrets:sensorTierThreeItem>, <openmodularturrets:ioBus>],
 [<ore:plateDarkSteel>, <EnderIO:itemBasicCapacitor>, <ore:plateDarkSteel>]]);
 
@@ -266,39 +269,39 @@ recipes.addShaped(<openmodularturrets:sensorTierOneItem>, [
 
 // --- Sensor Tier 2
 recipes.addShaped(<openmodularturrets:sensorTierTwoItem>, [
-[<ore:plateElectricalSteel>, <openmodularturrets:ioBus>, <ore:plateElectricalSteel>],
+[<ore:plateSteel>, <openmodularturrets:ioBus>, <ore:plateSteel>],
 [<ore:circuitBasic>, <openmodularturrets:sensorTierOneItem>, <ore:circuitBasic>],
-[<ore:plateElectricalSteel>, <openmodularturrets:ioBus>, <ore:plateElectricalSteel>]]);
+[<ore:plateSteel>, <openmodularturrets:ioBus>, <ore:plateSteel>]]);
 
 // --- Sensor Tier 3
 recipes.addShaped(<openmodularturrets:sensorTierThreeItem>, [
 [<ore:plateDarkSteel>, <openmodularturrets:ioBus>, <ore:plateDarkSteel>],
-[<ore:circuitGood>, <openmodularturrets:sensorTierOneItem>, <ore:circuitGood>],
+[<ore:circuitGood>, <openmodularturrets:sensorTierTwoItem>, <ore:circuitGood>],
 [<ore:plateDarkSteel>, <openmodularturrets:ioBus>, <ore:plateDarkSteel>]]);
 
 // --- Sensor Tier 4
 recipes.addShaped(<openmodularturrets:sensorTierFourItem>, [
 [<ore:plateEnergeticAlloy>, <openmodularturrets:ioBus>, <ore:plateEnergeticAlloy>],
-[<ore:circuitAdvanced>, <openmodularturrets:sensorTierOneItem>, <ore:circuitAdvanced>],
+[<ore:circuitAdvanced>, <openmodularturrets:sensorTierThreeItem>, <ore:circuitAdvanced>],
 [<ore:plateEnergeticAlloy>, <openmodularturrets:ioBus>, <ore:plateEnergeticAlloy>]]);
 
 // --- Sensor Tier 5
 recipes.addShaped(<openmodularturrets:sensorTierFiveItem>, [
 [<ore:plateVibrantAlloy>, <openmodularturrets:ioBus>, <ore:plateVibrantAlloy>],
-[<ore:circuitMaster>, <openmodularturrets:sensorTierFiveItem>, <ore:circuitMaster>],
+[<ore:circuitMaster>, <openmodularturrets:sensorTierFourItem>, <ore:circuitMaster>],
 [<ore:plateVibrantAlloy>, <openmodularturrets:ioBus>, <ore:plateVibrantAlloy>]]);
 
 // --- Chamber Tier 1
 recipes.addShaped(<openmodularturrets:chamberTierOne>, [
-[<gregtech:gt.metaitem.01:17889>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17889>],
+[<gregtech:gt.metaitem.01:17809>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17809>],
 [<ore:screwIron>, <ore:springIron>, <ore:screwIron>],
-[<gregtech:gt.metaitem.01:17889>, <ore:craftingPiston>, <gregtech:gt.metaitem.01:17889>]]);
+[<gregtech:gt.metaitem.01:17809>, <ore:craftingPiston>, <gregtech:gt.metaitem.01:17809>]]);
 
 // --- Barrel Tier 1
 recipes.addShaped(<openmodularturrets:barrelTierOne>, [
-[<gregtech:gt.metaitem.01:17889>, <gregtech:gt.metaitem.01:17889>, <gregtech:gt.metaitem.01:17889>],
+[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
 [<ore:ringIron>, <ore:craftingToolWrench>, <ore:ringIron>],
-[<gregtech:gt.metaitem.01:17889>, <gregtech:gt.metaitem.01:17889>, <gregtech:gt.metaitem.01:17889>]]);
+[<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>]]);
 
 // --- Disposable Item Turret Tier 1
 recipes.addShaped(<openmodularturrets:disposeItemTurret>, [
@@ -315,14 +318,14 @@ recipes.addShaped(<openmodularturrets:potatoCannonTurret>, [
 // --- Gun Turret Tier 2
 recipes.addShaped(<openmodularturrets:machineGunTurret>, [
 [<ore:craftingToolWrench>, <openmodularturrets:barrelTierTwo>, <ore:craftingToolHardHammer>],
-[<ore:plateElectricalSteel>, <openmodularturrets:barrelTierTwo>, <ore:plateElectricalSteel>],
+[<ore:plateSteel>, <openmodularturrets:barrelTierTwo>, <ore:plateSteel>],
 [<openmodularturrets:ioBus>, <openmodularturrets:chamberTierTwo>, <openmodularturrets:ioBus>]]);
 
 // --- Incendiary Turret Tier 2
 recipes.addShaped(<openmodularturrets:incendiaryTurret>, [
 [<openmodularturrets:barrelTierTwo>, <ore:craftingToolHardHammer>, <openmodularturrets:barrelTierTwo>],
-[<openmodularturrets:chamberTierOne>, <ore:plateElectricalSteel>, <openmodularturrets:chamberTierOne>],
-[<openmodularturrets:ioBus>, <ore:plateElectricalSteel>, <openmodularturrets:ioBus>]]);
+[<openmodularturrets:chamberTierOne>, <ore:plateSteel>, <openmodularturrets:chamberTierOne>],
+[<openmodularturrets:ioBus>, <ore:plateSteel>, <openmodularturrets:ioBus>]]);
 
 // --- Grenade Launcher Turret Tier 3
 recipes.addShaped(<openmodularturrets:grenadeTurret>, [
@@ -387,13 +390,13 @@ recipes.addShaped(<openmodularturrets:ioBus>, [
 // --- Based Power Expander Tier 1
 recipes.addShaped(<openmodularturrets:expanderPowerTierOne>, [
 [<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
-[<gregtech:gt.blockmachines:4985>, <gregtech:gt.metaitem.01:32500>, <gregtech:gt.blockmachines:4985>],
+[<gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:32500>, <gregtech:gt.blockmachines:4905>],
 [<ore:screwIron>, <ore:craftingToolFile>, <ore:screwIron>]]);
 
 // --- Based Inventory Expander Tier 1
 recipes.addShaped(<openmodularturrets:expanderInvTierOne>, [
 [<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
-[<gregtech:gt.blockmachines:4985>, <ore:chestWood>, <gregtech:gt.blockmachines:4985>],
+[<gregtech:gt.blockmachines:4905>, <ore:chestWood>, <gregtech:gt.blockmachines:4905>],
 [<ore:screwIron>, <ore:craftingToolFile>, <ore:screwIron>]]);
 
 // --- Basic Turret Base Crank
@@ -403,9 +406,9 @@ recipes.addShaped(<openmodularturrets:leverBlock>, [
 
 // --- Ammo Bullet
 recipes.addShaped(<openmodularturrets:bulletCraftable> * 64, [
-[<ore:foilElectricalSteel>, <ore:ringIron>, <ore:foilElectricalSteel>],
+[<ore:foilSteel>, <ore:ringIron>, <ore:foilSteel>],
 [<ore:plateIron>, <ore:dustGunpowder>, <ore:plateIron>],
-[<ore:foilElectricalSteel>, <ore:boltIron>, <ore:foilElectricalSteel>]]);
+[<ore:foilSteel>, <ore:boltIron>, <ore:foilSteel>]]);
 
 
 
@@ -432,7 +435,7 @@ Assembler.addRecipe(<openmodularturrets:fenceTierFour>, <dreamcraft:item.Tungste
 Assembler.addRecipe(<openmodularturrets:fenceTierFive>, <dreamcraft:item.IridiumBars>, <gregtech:gt.metaitem.01:28316>, 100, 256);
 
 // --- Based Power Expander Tier 1
-Assembler.addRecipe(<openmodularturrets:expanderPowerTierOne>, <gregtech:gt.blockmachines:4985>, <gregtech:gt.metaitem.01:32500>, 400, 16);
+Assembler.addRecipe(<openmodularturrets:expanderPowerTierOne>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:32500>, 400, 16);
 
 // --- Based Power Expander Tier 2
 Assembler.addRecipe(<openmodularturrets:expanderPowerTierTwo>, <gregtech:gt.blockmachines:4461>, <gregtech:gt.metaitem.01:32501>, 400, 30);
@@ -447,7 +450,7 @@ Assembler.addRecipe(<openmodularturrets:expanderPowerTierFour>, <gregtech:gt.blo
 Assembler.addRecipe(<openmodularturrets:expanderPowerTierFive>, <gregtech:gt.blockmachines:4463>, <gregtech:gt.metaitem.01:32504>, 400, 256);
 
 // --- Based Inventory Expander Tier 1
-Assembler.addRecipe(<openmodularturrets:expanderInvTierOne>, <gregtech:gt.blockmachines:4985>, <minecraft:chest>, 400, 16);
+Assembler.addRecipe(<openmodularturrets:expanderInvTierOne>, <gregtech:gt.blockmachines:4905>, <minecraft:chest>, 400, 16);
 
 // --- Based Inventory Expander Tier 2
 Assembler.addRecipe(<openmodularturrets:expanderInvTierTwo>, <gregtech:gt.blockmachines:4461>, <IronChest:BlockIronChest>, 400, 30);
@@ -462,10 +465,10 @@ Assembler.addRecipe(<openmodularturrets:expanderInvTierFour>, <gregtech:gt.block
 Assembler.addRecipe(<openmodularturrets:expanderInvTierFive>, <gregtech:gt.blockmachines:4463>, <IronChest:BlockIronChest:5>, 400, 256);
 
 // --- Barrel Tier 1
-Assembler.addRecipe(<openmodularturrets:barrelTierOne>, <gregtech:gt.metaitem.01:17889> * 4, <gregtech:gt.metaitem.01:28032> * 2, 200, 16);
+Assembler.addRecipe(<openmodularturrets:barrelTierOne>, <gregtech:gt.metaitem.01:17809> * 4, <gregtech:gt.metaitem.01:28032> * 2, 200, 16);
 
 // --- Barrel Tier 2
-Assembler.addRecipe(<openmodularturrets:barrelTierTwo>, <gregtech:gt.metaitem.01:17365> * 4, <gregtech:gt.metaitem.01:28305> * 2, 200, 30);
+Assembler.addRecipe(<openmodularturrets:barrelTierTwo>, <Railcraft:part.plate> * 4, <gregtech:gt.metaitem.01:28305> * 2, 200, 30);
 
 // --- Barrel Tier 3
 Assembler.addRecipe(<openmodularturrets:barrelTierThree>, <gregtech:gt.metaitem.01:17364> * 4, <gregtech:gt.metaitem.01:28306> * 2, 200, 64);
@@ -495,7 +498,7 @@ Assembler.addRecipe(<openmodularturrets:chamberTierFive>, <gregtech:gt.metaitem.
 Assembler.addRecipe(<openmodularturrets:ioBus>, <gregtech:gt.metaitem.01:32700> * 2, <gregtech:gt.metaitem.01:17086>, <liquid:molten.iron> * 72, 100, 30);
 
 // --- Ammo Bullet
-Assembler.addRecipe(<openmodularturrets:bulletCraftable> * 64, <gregtech:gt.metaitem.01:29365> * 2, <minecraft:gunpowder>, <liquid:molten.iron> * 144, 200, 30);
+Assembler.addRecipe(<openmodularturrets:bulletCraftable> * 64, <gregtech:gt.metaitem.01:29305> * 4, <minecraft:gunpowder>, <liquid:molten.iron> * 144, 200, 30);
 
 // --- Ammo Grenade
 Assembler.addRecipe(<openmodularturrets:grenadeCraftable> * 32, <gregtech:gt.metaitem.01:17306> * 2, <minecraft:tnt>, <liquid:molten.steel> * 144, 200, 64);
@@ -517,6 +520,9 @@ Assembler.addRecipe(<openmodularturrets:rangeUpgradeItem>, <gregtech:gt.metaitem
 
 // --- Upgrade Scattershot
 Assembler.addRecipe(<openmodularturrets:scattershotUpgradeItem>, <gregtech:gt.metaitem.01:17365>, <dreamcraft:item.StainlessSteelBars>, 100, 120);
+
+// --- Upgrade Efficency
+Assembler.addRecipe(<openmodularturrets:efficiencyUpgradeItem>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.blockmachines:5130> * 2, 100, 120);
 
 // --- Addon Damage Boost
 Assembler.addRecipe(<openmodularturrets:damageAmpAddon>, <gregtech:gt.metaitem.01:17365>, <minecraft:ender_eye> * 2, 100, 120);
