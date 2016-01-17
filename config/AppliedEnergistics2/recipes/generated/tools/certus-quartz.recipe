@@ -1,0 +1,41 @@
+shaped=
+    oredictionary:crystalCertusQuartz oredictionary:crystalCertusQuartz,
+    oredictionary:crystalCertusQuartz oredictionary:stickWood,
+    _ oredictionary:stickWood
+    -> ae2:ToolCertusQuartzAxe
+
+shaped=
+    oredictionary:crystalCertusQuartz oredictionary:crystalCertusQuartz oredictionary:crystalCertusQuartz,
+    _ oredictionary:stickWood _,
+    _ oredictionary:stickWood _
+    -> ae2:ToolCertusQuartzPickaxe
+
+shaped=
+    oredictionary:crystalCertusQuartz,
+    oredictionary:stickWood,
+    oredictionary:stickWood
+    -> ae2:ToolCertusQuartzSpade
+
+shaped=
+    oredictionary:crystalCertusQuartz,
+    oredictionary:crystalCertusQuartz,
+    oredictionary:stickWood
+    -> ae2:ToolCertusQuartzSword
+
+shaped=
+    oredictionary:crystalCertusQuartz oredictionary:crystalCertusQuartz,
+    _ oredictionary:stickWood,
+    _ oredictionary:stickWood
+    -> ae2:ToolCertusQuartzHoe
+
+shaped=
+    oredictionary:crystalCertusQuartz _ oredictionary:crystalCertusQuartz,
+    _ oredictionary:crystalCertusQuartz _,
+    oredictionary:crystalCertusQuartz _ oredictionary:crystalCertusQuartz
+    -> ae2:ToolCertusQuartzWrench
+
+shaped=
+    _ _ oredictionary:stickWood,
+    oredictionary:ingotIron oredictionary:stickWood _,
+    oredictionary:crystalCertusQuartz oredictionary:crystalCertusQuartz _
+    -> ae2:ToolCertusQuartzCuttingKnife

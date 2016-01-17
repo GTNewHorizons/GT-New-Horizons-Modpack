@@ -1,0 +1,104 @@
+shapeless=
+    ae2:CableGlass
+    wool
+    -> ae2:CableCovered.Fluix
+
+shapeless=
+    ae2:CableCovered mc:water_bucket
+    -> ae2:CableCovered.Fluix
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeWhite ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.White
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeBlack ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Black
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeRed ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Red
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeGreen ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Green
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeBrown ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Brown
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeBlue ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Blue
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyePurple ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Purple
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeCyan ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Cyan
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeLightGray ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.LightGray
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeGray ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Gray
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyePink ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Pink
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeLime ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Lime
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeYellow ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Yellow
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeLightBlue ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.LightBlue
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeMagenta ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Magenta
+
+shaped=
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered,
+    ae2:CableCovered oredictionary:dyeOrange ae2:CableCovered,
+    ae2:CableCovered ae2:CableCovered ae2:CableCovered
+    -> 8 ae2:CableCovered.Orange

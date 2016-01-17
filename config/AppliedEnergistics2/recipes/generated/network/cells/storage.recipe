@@ -1,0 +1,35 @@
+shapeless=
+    ae2:ItemMaterial.Cell1kPart ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemBasicStorageCell.1k
+
+shapeless=
+    ae2:ItemMaterial.Cell4kPart ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemBasicStorageCell.4k
+
+shapeless=
+    ae2:ItemMaterial.Cell16kPart ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemBasicStorageCell.16k
+
+shapeless=
+    ae2:ItemMaterial.Cell64kPart ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemBasicStorageCell.64k
+    
+shaped=
+    ae2:BlockQuartzGlass oredictionary:dustRedstone ae2:BlockQuartzGlass,
+    oredictionary:dustRedstone ae2:ItemMaterial.Cell1kPart oredictionary:dustRedstone,
+    oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron
+    -> ae2:ItemBasicStorageCell.1k
+
+shaped=
+    ae2:BlockQuartzGlass oredictionary:dustRedstone ae2:BlockQuartzGlass,
+    oredictionary:dustRedstone ae2:ItemMaterial.Cell4kPart oredictionary:dustRedstone,
+    oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron
+    -> ae2:ItemBasicStorageCell.4k
+
+shaped=
+    ae2:BlockQuartzGlass oredictionary:dustRedstone ae2:BlockQuartzGlass,
+    oredictionary:dustRedstone ae2:ItemMaterial.Cell16kPart oredictionary:dustRedstone,
+    oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron
+    -> ae2:ItemBasicStorageCell.16k
+
+shaped=
+    ae2:BlockQuartzGlass oredictionary:dustRedstone ae2:BlockQuartzGlass,
+    oredictionary:dustRedstone ae2:ItemMaterial.Cell64kPart oredictionary:dustRedstone,
+    oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron
+    -> ae2:ItemBasicStorageCell.64k

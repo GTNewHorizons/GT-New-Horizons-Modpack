@@ -1,0 +1,21 @@
+# Crash on Issues
+crash=false
+
+# Hides Exceptions and just display messages.
+exceptions=false
+
+# Error on Missing Items ( default is no because AE2 allows you to enable/disable items without modifying recipes. )
+erroronmissing=true
+
+# Important, keep in this order
+import=aliases.recipe
+import=oredict.recipe
+import=groups.recipe
+
+# All actual recipes
+import=decorative/index.recipe
+import=materials/index.recipe
+import=misc/index.recipe
+import=network/index.recipe
+import=processing/index.recipe
+import=tools/index.recipe

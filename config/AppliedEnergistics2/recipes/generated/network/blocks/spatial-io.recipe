@@ -1,0 +1,11 @@
+shaped=
+    glass glass glass,
+    cable ae2:BlockIOPort cable,
+    oredictionary:ingotIron ae2:ItemMaterial.EngProcessor oredictionary:ingotIron
+    -> ae2:BlockSpatialIOPort
+
+shaped=
+    ae2:BlockQuartzGlass cable ae2:BlockQuartzGlass,
+    oredictionary:dustFluix fluixCrystal oredictionary:dustFluix,
+    ae2:BlockQuartzGlass cable ae2:BlockQuartzGlass
+    -> ae2:BlockSpatialPylon

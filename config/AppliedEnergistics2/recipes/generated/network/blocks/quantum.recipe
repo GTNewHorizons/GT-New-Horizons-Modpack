@@ -1,0 +1,13 @@
+# Quantum Link Chamber
+shaped=
+    ae2:BlockQuartzGlass ae2:ItemMaterial.FluixPearl ae2:BlockQuartzGlass,
+    ae2:ItemMaterial.FluixPearl _ ae2:ItemMaterial.FluixPearl,
+    ae2:BlockQuartzGlass ae2:ItemMaterial.FluixPearl ae2:BlockQuartzGlass,
+    -> ae2:BlockQuantumLinkChamber
+
+# Quantum Ring
+shaped=
+    oredictionary:ingotIron ae2:ItemMaterial.LogicProcessor oredictionary:ingotIron,
+    ae2:ItemMaterial.EngProcessor ae2:BlockEnergyCell densecable,
+    oredictionary:ingotIron ae2:ItemMaterial.LogicProcessor oredictionary:ingotIron,
+    -> ae2:BlockQuantumRing

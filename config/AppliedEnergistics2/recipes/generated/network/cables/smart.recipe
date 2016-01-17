@@ -1,0 +1,104 @@
+shapeless=
+    ae2:CableCovered
+    oredictionary:dustRedstone oredictionary:dustGlowstone
+    -> ae2:CableSmart.Fluix
+
+shapeless=
+    ae2:CableSmart mc:water_bucket
+    -> ae2:CableSmart.Fluix
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeWhite ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.White
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeBlack ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Black
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeRed ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Red
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeGreen ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Green
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeBrown ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Brown
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeBlue ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Blue
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyePurple ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Purple
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeCyan ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Cyan
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeLightGray ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.LightGray
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeGray ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Gray
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyePink ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Pink
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeLime ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Lime
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeYellow ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Yellow
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeLightBlue ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.LightBlue
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeMagenta ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Magenta
+
+shaped=
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart,
+    ae2:CableSmart oredictionary:dyeOrange ae2:CableSmart,
+    ae2:CableSmart ae2:CableSmart ae2:CableSmart
+    -> 8 ae2:CableSmart.Orange

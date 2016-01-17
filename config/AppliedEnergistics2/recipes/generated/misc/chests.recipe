@@ -1,0 +1,11 @@
+shaped=
+    ae2:BlockSkyStone ae2:BlockSkyStone ae2:BlockSkyStone,
+    ae2:BlockSkyStone _	ae2:BlockSkyStone,
+    ae2:BlockSkyStone ae2:BlockSkyStone ae2:BlockSkyStone
+    -> ae2:BlockSkyChest
+
+shaped=
+    ae2:BlockSkyStone:1 ae2:BlockSkyStone:1 ae2:BlockSkyStone:1,
+    ae2:BlockSkyStone:1 _ ae2:BlockSkyStone:1,
+    ae2:BlockSkyStone:1 ae2:BlockSkyStone:1 ae2:BlockSkyStone:1
+    -> ae2:BlockSkyChest:1

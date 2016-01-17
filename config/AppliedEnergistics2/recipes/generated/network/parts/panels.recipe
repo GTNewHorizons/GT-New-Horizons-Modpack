@@ -1,0 +1,17 @@
+shaped=
+    _ oredictionary:dustGlowstone ae2:BlockQuartzGlass,
+    oredictionary:ingotIron oredictionary:dustRedstone ae2:BlockQuartzGlass,
+    _ oredictionary:dustGlowstone ae2:BlockQuartzGlass
+    -> 3 ae2:ItemPart.SemiDarkMonitor
+
+shapeless=
+    ae2:ItemPart.DarkMonitor
+    -> ae2:ItemPart.SemiDarkMonitor
+
+shapeless=
+    ae2:ItemPart.SemiDarkMonitor
+    -> ae2:ItemPart.Monitor
+
+shapeless=
+    ae2:ItemPart.Monitor
+    -> ae2:ItemPart.DarkMonitor

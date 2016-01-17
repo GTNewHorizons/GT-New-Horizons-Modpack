@@ -1,0 +1,22 @@
+shaped=
+    _ ae2:ItemMaterial.FluixPearl _,
+    oredictionary:ingotIron ae2:ItemPart.QuartzFiber oredictionary:ingotIron,
+    _ oredictionary:ingotIron _
+    -> ae2:ItemMaterial.Wireless
+
+shaped=
+    ae2:ItemMaterial.Wireless,
+    ae2:ItemMaterial.CalcProcessor,
+    cable
+    -> ae2:BlockWireless
+
+shaped=
+    ae2:ItemMaterial.Wireless,
+    ae2:ItemPart.Terminal,
+    ae2:BlockDenseEnergyCell
+    -> ae2:ToolWirelessTerminal
+
+shaped=
+    oredictionary:dustFluix certusCrystal dustEnder,
+    oredictionary:ingotIron oredictionary:ingotIron oredictionary:ingotIron,
+    -> 2 ae2:ItemMaterial.WirelessBooster

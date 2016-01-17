@@ -1,0 +1,37 @@
+shaped=
+    oredictionary:ingotIron ae2:ItemMaterial.CalcProcessor oredictionary:ingotIron,
+    cable ae2:ItemMaterial.LogicProcessor cable,
+    oredictionary:ingotIron ae2:ItemMaterial.CalcProcessor oredictionary:ingotIron
+    -> ae2:BlockCraftingUnit:0
+
+# co processor
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.EngProcessor
+    -> ae2:BlockCraftingUnit:1
+
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemPart.StorageMonitor
+    -> ae2:BlockCraftingMonitor
+
+# various storage sizes
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell1kPart
+    -> ae2:BlockCraftingStorage:0
+
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell4kPart
+    -> ae2:BlockCraftingStorage:1
+
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell16kPart
+    -> ae2:BlockCraftingStorage:2
+
+shapeless=
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell64kPart
+    -> ae2:BlockCraftingStorage:3

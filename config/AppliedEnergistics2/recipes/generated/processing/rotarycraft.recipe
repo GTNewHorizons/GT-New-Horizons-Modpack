@@ -1,0 +1,9 @@
+crusher= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
+crusher= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
+crusher= mc:ender_pearl -> ae2:ItemMaterial.EnderDust
+crusher= oredictionary:cropWheat -> ae2:ItemMaterial.Flour
+crusher= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
+crusher= ae2:ItemMaterial.CertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
+crusher= mc:quartz -> ae2:ItemMaterial.NetherQuartzDust
+crusher= ae2:OreQuartz -> 2 ae2:ItemMaterial.CertusQuartzDust
+crusher= ae2:OreQuartzCharged -> 2 ae2:ItemMaterial.CertusQuartzDust

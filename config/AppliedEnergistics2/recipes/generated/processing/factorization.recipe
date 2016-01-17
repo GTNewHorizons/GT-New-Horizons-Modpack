@@ -1,0 +1,9 @@
+grindfz= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
+grindfz= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
+grindfz= mc:ender_pearl -> ae2:ItemMaterial.EnderDust
+# grindfz= oredictionary:cropWheat -> ae2:ItemMaterial.Flour
+grindfz= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
+grindfz= ae2:ItemMaterial.CertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
+# grindfz= mc:quartz -> ae2:ItemMaterial.NetherQuartzDust
+grindfz= ae2:OreQuartz -> 2 ae2:ItemMaterial.CertusQuartzDust
+grindfz= ae2:OreQuartzCharged -> 2 ae2:ItemMaterial.CertusQuartzDust
