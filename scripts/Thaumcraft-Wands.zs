@@ -39,6 +39,7 @@ val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
 val CAP_Soj = <ThaumicExploration:sojournerCap>;
 val CAP_Mechanist = <ThaumicExploration:mechanistCap>;
 val CAP_Kami = <ThaumicTinkerer:kamiResource:4>;
+val CAP_Thauminite = <thaumicbases:resource:2>;
 
 // All missing wand caps
 function remove_TC_Infusion(pItem as IItemStack) {
@@ -67,6 +68,7 @@ remove_TC_Arcane(CAP_ShadowCloth);
 remove_TC_Arcane(CAP_MechanistUC);
 remove_TC_Arcane(CAP_SojUC);
 remove_TC_Arcane(CAP_Kami);
+remove_TC_Arcane(CAP_Thauminite);
 
 
 // --- Gold Wand Cap
