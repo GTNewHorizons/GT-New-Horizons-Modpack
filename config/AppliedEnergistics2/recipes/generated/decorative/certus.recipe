@@ -1,0 +1,8 @@
+shaped=
+    ae2:BlockQuartz,
+    ae2:BlockQuartz
+    -> 2 ae2:BlockQuartzPillar
+
+shaped=
+    ae2:BlockQuartz ae2:BlockQuartz
+    -> 2 ae2:BlockQuartzChiseled

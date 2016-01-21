@@ -1,0 +1,7 @@
+shapeless=
+    ae2:ItemPart.LevelEmitter monitor
+    -> ae2:ItemPart.StorageMonitor
+
+shapeless=
+    ae2:ItemMaterial.AnnihilationCore ae2:ItemPart.StorageMonitor ae2:ItemMaterial.FormationCore
+    -> ae2:ItemPart.ConversionMonitor

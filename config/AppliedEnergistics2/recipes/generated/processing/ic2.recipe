@@ -1,0 +1,9 @@
+macerator= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
+macerator= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
+macerator= mc:ender_pearl -> ae2:ItemMaterial.EnderDust
+# macerator= oredictionary:cropWheat -> ae2:ItemMaterial.Flour
+macerator= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
+macerator= ae2:ItemMaterial.CertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
+macerator= mc:quartz -> ae2:ItemMaterial.NetherQuartzDust
+macerator= ae2:OreQuartz -> 2 ae2:ItemMaterial.CertusQuartzDust
+macerator= ae2:OreQuartzCharged -> 2 ae2:ItemMaterial.CertusQuartzDust

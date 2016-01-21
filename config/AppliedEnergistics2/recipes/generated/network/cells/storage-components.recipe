@@ -1,0 +1,23 @@
+shaped=
+    oredictionary:dustRedstone certusCrystal oredictionary:dustRedstone,
+    certusCrystal ae2:ItemMaterial.LogicProcessor certusCrystal,
+    oredictionary:dustRedstone certusCrystal oredictionary:dustRedstone
+    -> ae2:ItemMaterial.Cell1kPart
+
+shaped=
+    oredictionary:dustRedstone ae2:ItemMaterial.CalcProcessor oredictionary:dustRedstone,
+    ae2:ItemMaterial.Cell1kPart ae2:BlockQuartzGlass ae2:ItemMaterial.Cell1kPart,
+    oredictionary:dustRedstone ae2:ItemMaterial.Cell1kPart oredictionary:dustRedstone
+    -> ae2:ItemMaterial.Cell4kPart
+
+shaped=
+    oredictionary:dustGlowstone ae2:ItemMaterial.EngProcessor oredictionary:dustGlowstone,
+    ae2:ItemMaterial.Cell4kPart ae2:BlockQuartzGlass ae2:ItemMaterial.Cell4kPart,
+    oredictionary:dustGlowstone ae2:ItemMaterial.Cell4kPart oredictionary:dustGlowstone
+    -> ae2:ItemMaterial.Cell16kPart
+
+shaped=
+    oredictionary:dustGlowstone ae2:ItemMaterial.EngProcessor oredictionary:dustGlowstone,
+    ae2:ItemMaterial.Cell16kPart ae2:BlockQuartzGlass ae2:ItemMaterial.Cell16kPart,
+    oredictionary:dustGlowstone ae2:ItemMaterial.Cell16kPart oredictionary:dustGlowstone
+    -> ae2:ItemMaterial.Cell64kPart

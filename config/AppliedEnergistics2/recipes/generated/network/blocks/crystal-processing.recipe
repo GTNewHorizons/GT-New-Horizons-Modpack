@@ -1,0 +1,11 @@
+shaped=
+    oredictionary:ingotIron cable oredictionary:ingotIron,
+    ae2:BlockQuartzGlass ae2:BlockFluix ae2:BlockQuartzGlass,
+    oredictionary:ingotIron cable oredictionary:ingotIron
+    -> ae2:BlockQuartzGrowthAccelerator
+
+shaped=
+    oredictionary:ingotIron fluixCrystal oredictionary:ingotIron,
+    oredictionary:ingotIron _ _,
+    oredictionary:ingotIron fluixCrystal oredictionary:ingotIron
+    -> ae2:BlockCharger

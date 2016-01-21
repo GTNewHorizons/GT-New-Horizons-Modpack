@@ -1,0 +1,9 @@
+shaped=
+    dustQuartz glass dustQuartz,
+    glass dustQuartz glass,
+    dustQuartz glass dustQuartz
+    -> 4 ae2:BlockQuartzGlass
+
+shaped=
+    mc:glowstone_dust ae2:BlockQuartzGlass mc:glowstone_dust
+    -> ae2:BlockQuartzLamp

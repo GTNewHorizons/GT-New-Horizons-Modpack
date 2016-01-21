@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Custom Recipes</title>
+    <link rel="shortcut icon" type="image/x-icon"
+          href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAACSSURBVDhPlZHLDYAwDEO7DWcunLsAWzBIN+toQS6xiNr0Z8kSafMeQoRRrvMQVMe9AMw5l25LLLwtsXCMsXRZUsPec1fiwY9IqT1DGwkuvTf2BNxX/BPgYvUTeKb4L7ALXBrdKd7+tnr2zjAr/mUkmcJMvVh/AtqFGSuxglvOOcxQYgXLMAOAgm2YSSkJqqOTEF4xoGOuk3A5dwAAAABJRU5ErkJggg==">
+    <style type="text/css">
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            max-width: 80ch;
+        }
+
+        div#content {
+            /*position: relative;*/
+            /*left: 25%;*/
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 15px;
+            display: block;
+        }
+
+        div#content li {
+            margin-bottom: 0.4em;
+            word-wrap: break-word;
+        }
+
+        code {
+            font-size: 13px;
+            white-space: pre-wrap;
+            padding: 1px 5px;
+            font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+            background-color: #eee;
+            margin: 0;
+            border: 0;
+            word-wrap: break-word;
+            line-height: 13px;
+        }
+
+        nav {
+            float: right;
+            width: 40%;
+            background: #eeeeee;
+            font-size: 0.8em;
+            padding-left: 15px;
+            margin: 0 0 0.5em 0.5em;
+            max-height: 200px;
+            word-wrap: break-word;
+            display: block;
+            overflow: auto;
+        }
+
+        h1, h2, h3, h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 500;
+        }
+
+        pre {
+            border: 1px solid #CCC;
+            background-color: #f6f6f2;
+            word-wrap: normal;
+            overflow: auto;
+            font-size: 13px;
+            padding: 5px;
+            width: auto;
+            max-height: 600px;
+            margin-bottom: 1em;
+            font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+            display: block;
+            white-space: pre;
+            line-height: 1.3;
+            border-spacing: 2px;
+            text-align: left;
+            color: #222;
+            max-width: 1024px;
+        }
+
+        blockquote {
+            margin: 0 0 10px;
+            padding: 10px;
+            background-color: #fff9e3;
+            border-left: 2px solid #ffeb8e;
+            quotes: none;
+            line-height: 1.3;
+            max-width: 1024px;
+        }
+
+        a {
+            color: #0c65a5;
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            line-height: 1.3;
+        }
+
+        a:hover {
+            color: #30a7fc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div id="header">
+        <h1>Custom Recipes</h1>
+    </div>
+
+    <div id="body">
+        <nav role="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#auto-generation">Auto-Generation</a></li>
+                <li><a href="#modification">Recipe Modification</a></li>
+                <ul>
+                    <li><a href="#item-references">Item References</a></li>
+                    <li><a href="#recipe-types">Recipe Types</a></li>
+                    <ul>
+                        <li><a href="#shapeless">Shapeless</a></li>
+                        <li><a href="#spahed">Shaped</a></li>
+                        <li><a href="#smelt">Smelt</a></li>
+                        <li><a href="#grind">Grind</a></li>
+                        <li><a href="#grindfz">Grindfz</a></li>
+                        <li><a href="#mekcrusher">Mekcrusher</a></li>
+                        <li><a href="#mekechamber">Mekechamber</a></li>
+                        <li><a href="#hccrusher">Hccrusher</a></li>
+                        <li><a href="#crusher">Crusher</a></li>
+                        <li><a href="#macerator">Macerator</a></li>
+                        <li><a href="#pulverizer">Pulverizer</a></li>
+                        <li><a href="#inscribe">Inscribe</a></li>
+                        <li><a href="#press">Press</a></li>
+                    </ul>
+                    <li><a href="#recipe-function">Recipe Function</a></li>
+                    <ul>
+                        <li><a href="#alias">Alias</a></li>
+                        <li><a href="#ore">Ore</a></li>
+                        <li><a href="#group">Group</a></li>
+                        <li><a href="#import">Import</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </nav>
+
+        <h2 id="introduction">Introduction</h2>
+        <p>This file is the README of Applied Energistics 2 for Custom Recipes. Applied Energistics 2 is extremely configurable and supports 100% customize-able
+            recipes if desired. This page will direct you on how to get started. The entry file for the recipe system is <code>index.recipe</code>.</p>
+
+        <h2 id="auto-generation">Auto-Generation</h2>
+        <p>AE2 will generate 2 folders in your AE2 configuration folder <code>config/AppliedEneristics2/</code>. One is <code>generated-recipes/</code> and the other is <code>user-recipes/</code>. Recipes will be automatically exported from AE2 into <code>generated-recipes/</code> on every start-up containing always the latest valid recipes. </p>
+        <blockquote>
+            You require file system permissions to generate the folders. Recipes will be loaded directly from AE2 if user has no permissions.
+        </blockquote>
+
+
+        <h2 id="recipe-modification">Recipe Modification</h2>
+        <p>You can modify the recipes by copying over the recipes from <code>generated-recipes/</code> into <code>user-recipes/</code>. You do <b>not</b> need to copy over all files, but the ones you will be changing. AE2 will prefer loading a user recipe if one would replace a generated recipe.</p>
+        <p>That way changed recipes by us are not overwriting your modified files.</p>
+
+        <h3 id="item-references">Item References</h3>
+        <p>In Minecraft each item is referenced by a namespace and a name, for example all of minecrafts items use the namespace <code>minecraft</code>. A glass block would be <code>minecraft:glass</code>.</p>
+        <p>The recipe system also exposes access to the oredictionary via a namespace, so you can use <code>oredictionary:glass</code> to use any type of glass.</p>
+
+        <h3 id="recipe-types">Recipe Types</h3>
+        <p>Different recipe types are there to interface with specific machines or mods. Use a <code>,</code> to add a new row to the recipe.</p>
+
+        <h4 id="shapeless">Shapeless</h4>
+        <ul>
+            <li>crafted in a minecraft crafting table</li>
+            <li>can take any shape as long as the inputs are correct</li>
+            <li>takes up to 9 items as input</li>
+            <li>outputs a single item as output, optionally with quantity</li>
+            <li>Example: <code>Log -> Planks</code> recipe</li>
+            <li>
+                AE2: <br />
+                <code>shapeless = minecraft:log -> 4 minecraft:planks</code>
+            </li>
+        </ul>
+
+        <h4 id="shaped">Shaped</h4>
+        <ul>
+            <li>crafted in a minecraft crafting table</li>
+            <li>requires the specific shape</li>
+            <li>takes up to 9 items as input</li>
+            <li>outputs a single item as output, optionally with quantity</li>
+            <li>Example: <code>8 Cobblestone -> Furnace</code> recipe</li>
+            <li>
+                AE2:
+                <pre>shaped =
+    minecraft:cobblestone minecraft:cobblestone minecraft:cobblestone,
+    minecraft:cobblestone _                     minecraft:cobblestone,
+    minecraft:cobblestone minecraft:cobblestone minecraft:cobblestone
+    -> minecraft:furnace</pre>
+            </li>
+        </ul>
+
+        <h4 id="smelt">Smelt</h4>
+        <ul>
+            <li>items to be burned in furnaces</li>
+            <li>takes 1 item as input</li>
+            <li>takes 1 item as output, optionally with quantity</li>
+            <li>Example: <code>Log -> Charcoal</code> recipe</li>
+            <li>
+                AE2: <br />
+                <code>smelt = minecraft:log -> minecraft:coal:1</code>
+            </li>
+        </ul>
+
+        <h4 id="grind">Grind</h4>
+        <ul>
+            <li>items to be grinded in the grindstone</li>
+            <li>takes 1 item as input</li>
+            <li>takes 1 item as output, optionally with quantity</li>
+            <li>Example: <code>Gravel -> Flint</code> recipe</li>
+            <li>
+                AE2: <br />
+                <code>grind = minecraft:gravel -> minecraft:flint</code>
+            </li>
+        </ul>
+
+        <h4 id="grindfz">Grindfz</h4>
+        <p>Same as <code>grind</code> for Factorization Grinder</p>
+
+        <h4 id="mekcrusher">Mekcrusher</h4>
+        <p>Same as <code>grind</code> for Mekanism Crusher</p>
+
+        <h4 id="mekechamber">Mekechamber</h4>
+        <p>Same as <code>grind</code> for Mekanism Enrichment Chamber</p>
+
+        <h4 id="hccrusher">Hccrusher</h4>
+        <p>Same as <code>grind</code> for HydrauliCraft Crusher</p>
+
+        <h4 id="crusher">Crusher</h4>
+        <p>Same as <code>grind</code> for RailCraft Crusher</p>
+
+        <h4 id="macerator">Macerator</h4>
+        <p>Same as <code>grind</code> for IndustrialCraft Macerator</p>
+
+        <h4 id="pulverizer">Pulverizer</h4>
+        <p>Same as <code>grind</code> for Thermal Expansion Pulverizer</p>
+
+        <h4 id="inscribe">Inscribe</h4>
+        <ul>
+            <li>used in the AE2 Inscriber</li>
+            <li>takes 2 or 3 items as input, first item is the center item</li>
+            <li>takes 1 item as output, optionally with quantity</li>
+            <li>center item is consumed</li>
+            <li>
+                Example: duplicate logic processor plate <br />
+                <code>Iron Block + Logic Processor Plate -> Logic Processor Plate</code>
+            </li>
+            <li>
+                AE2:
+                <pre>inscribe =
+    minecraft:iron_block
+    appliedenergistics2:ItemMaterial.LogicProcessorPress
+    -> appliedenergistics2:ItemMaterial.LogicProcessorPress</pre>
+            </li>
+        </ul>
+
+        <h4 id="press">Press</h4>
+        <ul>
+            <li>used in the AE2 Inscriber</li>
+            <li>takes 2 or 3 items as input, first item is the center item</li>
+            <li>takes 1 item as output, optionally with quantity</li>
+            <li>all items are consumed</li>
+            <li>
+                Example: create logic processor <br />
+                <code>Redstone + logic processor print + silicon print -> logic processor</code>
+            </li>
+            <li>
+                AE2:
+                <pre>press =
+    minecraft:redstone
+    appliedenergistics2:ItemMaterial.LogicProcessorPrint
+    appliedenergistics2:ItemMaterial.SiliconPrint
+    -> appliedenergistics2:ItemMaterial.LogicProcessor</pre>
+            </li>
+        </ul>
+
+        <h3 id="recipe-function">Recipe Function</h3>
+        <p>Adds convenience for easier recipe management.</p>
+
+        <h4 id="alias">Alias</h4>
+        <ul>
+            <li>creates a shorthand for a longer value</li>
+            <li>
+                AE2: alias <code>appliedenergistics2</code> to <code>ae2</code><br />
+                <code>alias = ae2 -> appliedenergistics2</code>
+            </li>
+            <li><code>appliedenergistics2:ItemMaterial.LogicProcessorPrint</code> could be aliased to <code>ae2:ItemMaterial.LogicProcessorPrint</code></li>
+        </ul>
+
+        <h4 id="ore">Ore</h4>
+        <ul>
+            <li>lets you add items into an ore dictionary value.</li>
+            <li>
+                AE2: add minecraft wool to OreDictionary as <code>blockWool</code><br />
+                <code>ore = minecraft:wool:* -> blockWool</code>
+            </li>
+            <li>oredictioned items can be accessed as <code>oredictionary:blockWool</code> for example</li>
+        </ul>
+
+        <h4 id="group">Group</h4>
+        <ul>
+            <li>lets you create a item group for 1 or more inputs</li>
+            <li>
+                Example: define a common group for both different AE2 interfaces<br />
+                <code>Block Interface + Part Interface = Interface</code>
+            </li>
+            <li>
+                AE2: <br />
+                <code>group = ae2:BlockInterface ae2:ItemPart.Interface -> interface</code>
+            </li>
+            <li>
+                This also enables shortening annoying names for example<br />
+                <code>group = ae2:ToolNetherQuartzWrench -> wrench</code>
+            </li>
+        </ul>
+
+        <h4 id="import">Import</h4>
+        <ul>
+            <li>lets you load an additional recipe file</li>
+            <li>this works with subdirectories, but the path needs to be always a relative path to the root recipe directory</li>
+            <li>
+                AE2: import all recipes for stairs<br />
+                <code>import = stairs.recipe</code>
+            </li>
+            <li>Any knowledge through <code>alias, ore, group</code> are carried over to the imported file</li>
+        </ul>
+
+            <!--<pre>-->
+<!--Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.-->
+            <!--</pre>-->
+        <!--<blockquote>-->
+            <!--A readme (or read me) fdsile contains information about other files in a directory or archive and is very commonly distributed with computer software.-->
+        <!--</blockquote>-->
+    </div>
+</div>
+</body>
+</html>
