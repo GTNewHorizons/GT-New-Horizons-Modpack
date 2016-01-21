@@ -1,3 +1,508 @@
+Version 1.0.7.6   16.01.2016
+
+New Mods:
+SGCraft 1.9.5 (Added for our Server, as we have Atlantis as "soon to be" Spawn". Items and recipes are disabled/OP Only)
+
+Mod Upgrade:
+ProjectRed 4.7.0.11.95 (Teteros' patch for the GregTech tool problem)
+Changed/added Recipes and/or configs:
+Synced the script-files from server to client, to get rid of old/invalid entries
+NodalMechanics: Changed the recipe and requirements (Moved it up a couple of tiers)
+ThaumicTinkerer: Disabled Ichor/Ichorcloth and Ichorium for now, until the final decision has been made for its appropriate tier
+EnderIO: Disabled WitherSkeleton replacement; In hope to fix the "Entity-30" problem
+SpecialMobs: Disabled "Thief" and "Hungry" modifiers 
+
+
+
+Version 1.0.7.5   09.01.2016
+
+
+
+New Mods:
+
+Open Modular Turrets 2.1.8.199
+HEE Music is now a ressource pack (seperated from the main Mod) since version 1.8.5
+
+
+Mod Upgrade:
+
+AE2 Stuff 0.5.1.61
+AE2 rv3 beta 4
+Automagy 027.1
+Biome o Plenty 2.1.0.1614
+Electro Magic Tools 1.2.5
+Ender Storage 1.4.7.38
+Extra Cells 2.3.7b183
+Galacticraft 3.0.12.408
+Gravisuit 2.0.64u
+Gregtech 5.08.33.4custom
+GT New Horizons Core Mod 1.0.9
+Hardcore Ender Expansion 1.8.5
+Iron Minecarts 1.0.4
+NEIIntegration 1.1.1 now with Forestry 3 and 4 support
+Not enough Items 1.0.5.120
+Open Blocks 1.5
+Open Computers 1.5.21.41
+Open Mods Lib 0.9
+Project red pre 4.7.10.93
+Rouge like Dungeon 1.4.4
+Schematica 1.7.6.131
+Tinkers Construct 1.8.8.990
+Tinkers Gregworks 1.0.7
+Thaumic Energistics 0.9.1.2
+Tinkers Gregworks 1.0.7
+Translocators 1.1.2.16
+
+
+Change/added Recipes for this mods:
+
+Extra Cells (pdate recipes to the new Version)
+Gregtech (take Platinum Ingots out of the EBF and Vac Freezer because of Tiering)
+GT New Horizons Core Mod (Change Coke oven Bricks in the Alloysmelter, Adding more Tooltips for chests and tanks, Recipe fix - Nano rubber boots, Recipe fix Laser Emitter, Added Block of Charcoal to Oredict )
+HEE (changed most of the recipes now with Minetweaker. I will later add it to the coremod via code)
+IC2 ( Adding recipes for mining Pipes otherwise you cant go pump stuff in LV Age.)
+Minecraft (adding Ladder recipe to the Assmebler(alternative recipe)
+Open Modular Turrets (adding more recipes)
+Pams Harvestcraft (fix pams flour in dough crafting)
+Railcraft(Adding Iroand Steel tank Waves, Gauges and Walls to the Assembler(alternative recipe)
+Remote IO (Changing Blank Plate recipe and Wireless Transmitter)
+Thaumic Energistics (Adding Wireless Essentia Therminal recipe)
+Witchery (Added Wormwood recipes)
+
+
+Code changes:
+
+Gregtech (New debug lang for achievements generation(miuirussia), fuel rod override v2(Blood Asp) Mox not working lik ic2 any more (more heat up more eu), Overriding IC2 fuel rods(Blood Asp), fix teleporter(Blood Asp), Sensor kit should not stack(Blood Asp), Fix teleporter nuclear control support(Blood Asp), Fixed Display overflow(Blood Asp), Adding Distillery recipes for Bio Gass Lv and MV), add missing EBXL recipes. tmp disable modular armor recipes(Blood Asp), AE2 oredict register fix(Blood Asp), fix depleted mox crashing(Blood Asp), Fix forestry worktable crash(Blood Asp), recipe Change for Drain and the Shutter Module)
+
+
+
+Config added/changes:
+
+Galacticraft (Change Base Biome ID from 102 to 116 to prevent GC Entity spawns in the overwolrd.)
+Gregtech ( make Gas Turbines, Diesel Generators, Magic Energy converters more efficient LV +5%, MV+10%, HV +15%)
+
+
+
+Version 1.0.7.4a   21.12.2015
+
+
+
+Mod Downgrade:
+
+Ender IO 2.3.0.421 because of https://github.com/SleepyTrousers/EnderIO/issues/3085
+Extra Cells 2.3.5b62 because of https://github.com/ExtraCells/ExtraCells2/issues/352
+
+Change/added Recipes for this mods:
+
+Ender IO (added recipes for OC Network Conduit)
+Extra Cells(emove Gas Components because unfinished will re add later)
+Railcraft (change recipe for Lapatron Upgrade, added recipes for Bleach Clay and the missing Carts(Cargo Cart, Track Relay Cart, Undercutter, Track remover and Track layer Cart)
+
+
+
+Version 1.0.7.4   21.12.2015
+
+New Mods:
+
+BeeSpecific 1.0.0 Forestry 3.6 (addon for HQM for Bees Quests)
+
+
+Mod Updates:
+
+Ae2 Stuff 0.5.1.60
+Asie Lib 0.4.5
+Auto Magy 0.27
+Auto Packager 1.5.7
+BdLib 1.9.4.109
+Biomes O Plenty 2.1.0.1521
+Brandons Core 1.0.0.10-bugfix
+Buildcraft  7.1.14
+Buildcraft Compat 7.1.3
+Computronics 1.6.0
+Draconic Evolution 1.0.2 Snapshot_9
+Electro Magic Tools 1.2.4
+Ender IO 2.3.0.422
+Extra Cells 2.3.5b171(get a Server crash atm)
+Forbidden Magic 0.572
+Gregtech 5.08.33.1custom
+HQM The Journey 4.4.4
+Hunger Overhaul 1.0.0.86
+IC2 Nuclear Control 2.3.3a Exist
+Industrialcraft2 2.2.810
+Infernal Mobs 1.6.6
+JourneyMap 5.1.3
+Malisiscore 0.14.0
+Malisisdoors 1.13.0
+Minecraft Forge 10.13.4.1614
+Morpheus 1.6.20 (Server only)
+NEIIntegration 1.1.0.1custom Forestry 3.6
+Open Blocks 1.4.4.-692
+Open Mods Lib 0.8.419
+Open Security 1.0.75
+Pam's Harvest Craft 1.7.10Lb
+Railcraft 9.8.0.0
+Storage Drawers 1.7.5
+Thaumic Tinkerer 2.5.517
+Waila Harvestability 1.1.6
+Warp Theory 1.0h-DEV
+
+
+Change/added Recipes for this mods:
+
+Buildcraft (Change Buildcraft Flood Gate because use the same recipe like Ender Io Tank, Tanks are can made in the assembler too)
+Ender IO (remove Redstone Alloy and Soularium from the RC Blast Furnace)
+Gregtech (Change Distillery recipes using a Pipe instead of a Blaze Rod via code, Adding back the recipes with the crates and the crowbar. for the Ingots, GT Adding Processor Machine Casing, Adding Glass Dust to the Forge Hammer, Add Clear glass pane recipes via Saw, Added Glass recipe to the Alloy smelter.)
+Core Mod (Change Piston Plate and Piston Recipe to fit with the Quest)
+Minecraft (fix gold and iron Ingot delete only the nugget recipe, Change String recipes, Change Melon and Pumpkin Seed recipes)
+Natura (make Cotton seed craftable)
+Railcraft (Put Tanks, Valves and Gauges Iron and Steel to the Assembler, Put Boilers from Railcraft to the Assembler)
+Steves Factory Manager (Rework all recipes)
+Steves Addons (make new recipes)
+Tinker Construct (adding rubber to the TC Smeltery to craft Glue, Make all Casts and Molds melt able in the Tic smelter)
+Thaumcraft (Adding Tags to the Basic Thaumcraft Wand because it Crash the game (Tainted Magic))
+Witchery( Added recipes for Warmwood, mutaing spring will get damage but will be returned)
+
+Remove the ' and `and ´ because of get errors
+
+
+Config added/changes:
+
+Gergetch (Disable RF to EU via Gt config)
+(Forestry) disabled wong Chromosme (genetics.clear.invalid.chromosomes=true)
+
+
+Quests:
+
+Updated Quests!
+
+
+
+Version 1.0.7.3   22.11.2015
+
+
+
+Mod Updates:
+
+Ae2 Stuff 0.5.0.57
+Biomes O Plenty 2.1.0.1465
+Blood Arsenal 1.2-4
+Ender Core 2.0.31_beta
+Ender IO 2.3.0.420_beta
+Forbidden Magic 0.571
+Electro Magic Tools 1.2.3
+Gregtech 5.08.32.6custom
+HQM-The Journey 4.4.2
+IC2 2.2.796
+Malis Doors 1.12.2
+Morpheus 1.6.13(Server Side only)
+Open Blocks 1.4.4.685
+Open Computers 1.5.20.38
+Open libs 0.8.413
+Open Printer 0.1.0.130
+Open Security 1.0-74
+Special Mobs 3.2.1
+Tainted Magic 1.1.6.3
+
+
+Change/added Recipes for this mods:
+
+Ender Io (change Telepad Recipes)
+Galacticraft (added Recipes for the Ambient Thermal Controller, Change Solar panel recipes)
+Gravisuit (Change Relocator recipes)
+Gregtech (most of the Recipes are now in Gt code and deleted from minetweaker)
+Malis Doors (Updated recipes to Version 1.12.2)
+Minecraft (Change Fence gate and Trap Door recipes from Vanilla because of Malis Doors)
+Railcrfat(Make Coke Oven Bricks recipe Shapless)
+Steve's Carts (Finish Steve's carts recipes yeah)
+Change crafting Tank to Buildcraft Tank because of Ztone Tank
+
+Config added/changes:
+
+Tinkers Construct (Lower the chance get repair on a Tool)
+
+
+Quests:
+
+Updated Quests!
+
+
+
+Version 1.0.7.2   14.11.2015
+
+
+
+Mod Updates:
+
+Gregtech 5.08.32.5custom
+GTNewHorizons Core Mod 1.0.6
+IC2 2.2.793
+IC2 Nei plugin 1.0.9
+Malsi Core 0.13.1
+Malis Doors 1.11.0
+Open Blocks 1.4.4.683
+Open libs 0.8.412
+
+
+Change/added Recipes for this mods:
+
+Ender IO (Change Conduit recipes time)
+Gendustry(Ordicted Bee Combs,Make Blank Samples and Templates be eraseable in the Furnace)
+Steve's Carts (Adding new Recipes)
+Thinker Construct (adding molten Obsidian to the Fluid Extractor)
+
+
+Config added/changes:
+
+Ender IO (Disabled Dire Slime ecause annoying)
+Gregtech (Adding Reineinfored, Galgadorian and Enhanced Galgadorian to the Material List and to the EBF )
+GT Core Mod (Adding makemake to the Generateable Planets, Alpha Centauri not works)
+Steve's Carts (change configs)
+
+
+
+Version 1.0.7.1   11.11.2015
+
+
+
+Mod Updates:
+
+Galacticraft 3.0.12.404
+Gregtech 5.08.32.4custom
+GTNewHorizons Core Mod 1.0.51
+HQM The Journey 4.4.1
+Open Printer 0.1.0.129
+Open Security 1.0-73
+Thaumichorizons 1.1.9
+
+Mod Downgrade:
+
+RWG 1.3.2
+
+
+Change/added Recipes for this mods:
+
+Extra Utilities (Change the Pseudo Round Robin Pipe Recipes)
+Galacticraft (remove Titanium Shard and Ilmenite ore out of the Furnace, Added Fuel Canister from GC to the GT Fluid Canner) 
+Gendustry (Change the recipes for the Gendustry Templates and Samples)
+Gregtech (Read Iridium Dust  tiny and small)
+GT New Horizons Core Mod (Added Diamond Lens to the Gold Engraved Chip, Adding Fletching and Bowstring Cast)
+Minecraft (Change recipes for Dropper and Dispenser using now a string)
+Railcraft (Adding Recipes for the Lapatron Loader Upgrade, Adding alternative  Firestone recipes to the Laser Engraver and the Assembler )
+Steve Carts (Start with Steve Carts)
+Tinkers Construct (Added Bow String and Fletching Cast with all recipes)
+
+
+Config added/changes:
+
+Ender IO (Moved Ender Alloys to the EBF (delete in the Alloy smelter))
+Galacticraft (Fixed Galacticraft Fuel Bug (sorry no old oil or fuel any more))
+GT Mew Horizons Core Mod (Added Ofanix to the Lich Bone Drops)
+
+
+
+Version 1.0.7.0   08.11.2015
+
+
+New Mods Added:
+
+Biomes O Plenty 2.1.0.1462 
+Ender IO 2.3.0.418
+Ender Zoo
+Flood Lights 1.0.3-116
+Gravi Suite- 2.0.55u (old mod with a new style)
+Irontank 1.0.1.50
+Not Enough Thaumcraft Tabs 1.0.1
+
+
+Removed Mods:
+
+Gregs Lightning 1.11.2
+
+
+Mod Updates:
+
+Anger Mod 0.6
+BiblioCraft 1.11.4
+Blood Magic 1.3.3.17
+Block Limiter 0.4
+Brandons Core 1.0.8
+Buildcraft 7.1.13
+Buildcraft Compat 7.1.2
+Draconic Evolution 1.2-5
+Electro Magic Tools 1.2.2fix2
+Ender Core 0.1.0.30
+Extra Utilities 1.2.12
+Forestry 3.6.12.3
+Galacticraft 3.0.12.403
+GalacticGreg 0.9.4
+Galaxy Space 2.6
+Gregtech  5.08.32.3custom
+GT NewHorizons CoreMod 1.0.3
+Holo Inventory 1.9.1.123
+HQM The Journey 4.3.3
+IC2 Nei Plugin Version 1.0.8
+IC2 Nuclear Control 2.3.2a-Butt
+Iguana Tinker Tweaks- 2.1.5.148
+Industrialcraft  2.2.791
+Malisiscore 0.12.10
+Malisisdoors 1.10.1
+Mantle 0.3.2b
+Mod Tweaker2 0.9.4.157
+Open Blocks 1.4.4.680
+Open Computers 1.5.19.37
+Open Mods Lib 0.8.410
+Open Printer 0.1.0.128
+Open Security 1.0-66
+Pam's Harvest Craft 1.7.10k-fix
+Remote IO 2.4.0
+Spice of Life 1.3.0
+Storage Drawers Woods (different Versions)
+Thaumic Tinkerer 2.5.513
+Tinkers Construct 1.8.8
+Waila Harvestability 1.1.5
+Waila Plugins 0.2.0-23
+
+
+Recipes added/changes:
+
+Make new Recipes for this mods:
+
+Ender IO (full mod)
+EnderZoo (full mod)
+Flood Light (full mod)
+Gendustry (full redone)
+Iron Tanks (full mod)
+Remote IO(full redone)
+
+
+Change/added Recipes for this mods:
+
+
+Applied Energystics(Storage Cells, Quartz Fiber is now cheaper, Changing Ae Dense Cable, Covered Cables and Smart Cables)
+Blood Arsenal (Adding recipes for the Blood Infused iron)
+Build Craft (added Filler Builder Architekt Table, Land MArk, Path Mark, flood Gate and Blue Print, changing the Kinesis Pipe recipes)
+Carpenters Blocks(Cutting Saw recipes)
+Extra Cells (rest of the Mod that was missing)
+Extra Utilities (rest of the Mod that was missing, disabled Peacefull Table)
+Galacticraft (Added mysterious Crystal recipe to make Bacterial Sludge, Change Pulveriser Recipes from galacticraft materials to be 20 sec long and 2 eu/t)
+Galaxy Space (added Tier 9 Rockets and recycling recipes)
+Gendustry (Redone of the Beyond Reality and infinity pack Bees (Sheet in the XLS Goolge Doc)
+Gravisuit(Adv Chainsaw and Adv Drill, Epic Lapack)
+Gregtech (Added Oil, Creosote back to the Diesel Generator, Added most of the high tier metals in th EBF, Added Pump Machine Casing recipes in GT, Changed the Fluid Reactor Blocks because Blood Asp add some own recipes, Adding the Molds and Extruder Shapes to the Forming Press, Remove Enderium Dust from Gt and add it to the Ender IO Alloy Smelter)
+GT New Horizons Core Mod (Added Chips for AE and GT items and Machines with new Tiers, Adv Pump 3/4, Charged Certus Quartz in the hammer, Make Coke Oven Bricks and Adv Bricks recycle able, Change Salis mundus amount to make special Wand items, Rewrote most Tooltips to be less... Weird..)
+IC 2 (disabled the Miner and the Drills, Change adv Miner, change meta ids, remove gem Iridium from most processes only macerating is allowed, Adding Meta Ids to all Ic2 and Graviuisuit Backpacks and Armors, Added recipes for the Kinetic Water Generator from IC2)
+IC2 Nuclear Contro (Adding missing recipe, Remove the Iridium Hammer so all Hammers are back)
+Minecraft (Torches and Crafting Table)
+Open Blocks (Change the Open Blocks Glider Recipes be equal with the Ender Io Glider (only different ingredients))
+Project Red (using molten redstone instead of molten redalloy)
+Railcraft (remove Electrical Steel out of the RC Blastfurnace)
+Remote IO (Adding remote Io Recipes for PDA, Linker and Remote Acess)
+Thinker Construct (Clear Glass and Pane can be made in the EBF 120 EU 1000K 100 Ticks out of Glass and Pane,  Glass and Pane can be made in the EBF 120 EU 1000K 100 Ticks out of Clear Glass and Pane)
+Wireless Redstone CBE (using molten redstone instead of molten redalloy)
+
+Clean up the whole cfg Files
+
+
+Config added/changes:
+
+Applied Energystics(Make Matter Balls and Singularity more Expensive)
+Blood Magic(Change Potion Id Soul Burn from 53 to 123)
+Buildcraft (Added new Tool Tips to BC Pipes)
+Electric Flood Light (Added new Tool Tips 32 EU)
+Ender IO (Change Alloy Smelter Recipes, Added Sag Mill Recipes from Namikon, Change Slice and Splice recipes , Make the Soul Binder recipes more expensive, Make Electric Steel, Enderium and Enderium Base Craftable via GT Dusts.)
+Extra Cells (Disable Ingame Wiki mod from extra cells)
+Extra Utilities(Ender Pump and Ender Quarry are not peaceable in the Over world, Remove Recipes out of the QED, Remove Peaceful Table)
+Galacticraft (New configs Optionsfor Ores on Asteroids and Mars. Disabled Ores on Mars only let Desh there)
+Galaxy Space (Added new Dim IDs for  Version 2.5)
+Gravisuit(Enabled the translocation Mode)
+Gregtech(change Plasma Cell Values)
+IC2 (Nuclear Energy multipler  to 10, Disabled IC2 Audio Engine)
+Remote Io (Added nwe Tool Tips)
+Ztones (Added Ztones Blocks to Sealable blocks)
+
+
+Version 1.0.6.0   04.10.2015
+
+
+New Mods Added:
+
+AE2 stuff 0.5.0.56
+Dragon's Radio Mod 1.7.1
+Enchiridion 2.0.2a
+IC2 Nei Plugin 1.0.7
+IN pure Core 1.0.0B9-62
+Utility Worlds 1.0.7
+Ztones 2.2.2
+
+
+Mod Updates:
+
+Appliedenergistics2-rv2-stable-10
+Bdlib-1.9.3.107
+Blood Arsenal 1.2-3
+Brandons Core 1.0.0.7
+Buildcraft 7.1.8
+Buildcraft Compat 7.1.1
+CoFH Core 3.0.3-303
+CoFH Lib 1.0.3-175
+Electric Magic Tools 1.2.2
+Extra Cells 2.3.0b142
+Forestry_ 3.6.10.1
+Gendustry 1.6.1.126
+Gregtech 5.08.30
+GT New Horizons Core Mod 0.9.29
+GTTweaker 1.0.9
+Hardcore Ender Expansion  v1.8.4
+Hunger Overhaul 1.7.10-1.0.0.85
+Industrialcraft 2.2.780
+InGame Info XML 2.8.1.82
+Magicbees 2.3.6
+Mine Tweaker3 3.0.10B
+Mod Tweaker 2-0.9.3.148
+Natura 1.0.0.107
+Open Blocks 1.4.4.674
+Open Mods Lib 0.8.399
+Open Security 1.0-65
+Storage Drawers 1.6.2
+Tinkers Construct 1.8.7.984
+Thaumic Tinkerer 2.5.510
+
+
+Recipes added/changes:
+
+Make new Recipes for this mods:
+
+AE2 stuff 0.5.0.56 (all)
+Dragon's Radio Mod 1.7.1 (all)
+Enchiridion 2.0.2a (all)
+Ztones 2.2.2 (all except the Blocks)
+
+
+Change/added Recipes for this mods:
+
+AE2 (Crystal Growth Accelerator)
+Extra Utilities (Conveyor Belts, Cabinets, Compressed Blocks, and more Blocks)
+Gravisuite (Vajra, Cooling Core, Vajra Core)
+Gregtech(Coolant Cells)
+GT New Horizons Core Mod (Wither Protection Ring, Neutron Reflector Fix, Coolant Cells, Graphite Block)
+IC2 (Cropnalyzer, Coolant Cells, Heat Vents and everything with MetaData,)
+Minecraft (Lever in Assembler Recipes)
+Open Computers (Case 2,3 and Server Rack)
+Project Red (JetPack)
+Random Things (Online Detector)
+
+
+Config added/changes:
+
+Advanced Solar Panels (new Molecular Transformer recipes)
+Gregtech(Lever)
+GT Core Mod (Custom Drops, Hazit items, Custom tool Tips,)
+IC2(new Configs available but not set)
+Natura(Trees can be disabled but i dont touche it)
+Tinkers Construct(now no iron ore on the surface any more, can set density for ardite and cobalt)
+Ztones (Blocks are sealable GC and Multipart able, disabled the pill and the totem)
+
+
 1.0.1.5 --- 21.06.2015 ---
 
 
