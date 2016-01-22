@@ -1,0 +1,14 @@
+config/JourneyMapServer/
+config/UtilityMobs/
+config/NEI/
+config/tcnodetracker.cfg
+config/MapWriterBlockColours.txt
+config/MapWriterBlockColourOverrides.txt
+config/MapWriter.cfg
+config/journeymap_ModInfo.cfg
+config/InvTweaksTree.txt
+config/InvTweaksRules.txt
+config/InvTweaks.cfg
+config/InGameInfoXML.cfg
+config/Dynmap.cfg
+*.ser
