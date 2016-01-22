@@ -52,6 +52,20 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:1>);
 // --- Item Grate
 recipes.remove(<Thaumcraft:blockMetalDevice:5>);
 
+// --- Enchanted Fabric
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
+
+// --- Thaumaturges Robe
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemChestplateRobe>);
+
+// --- Thaumaturges Leggings
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemLeggingsRobe>);
+
+// --- Thaumaturges Boots
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBootsRobe>);
+
+
+
 
 
 // --- Adding Recipes ---
@@ -152,6 +166,44 @@ mods.thaumcraft.Arcane.addShaped("GRATE", <Thaumcraft:blockMetalDevice:5>, "aer 
 [<ore:screwSteel>, <dreamcraft:item.SteelBars>, <ore:screwSteel>]]);
 // -
 mods.thaumcraft.Research.addArcanePage("GRATE", <Thaumcraft:blockMetalDevice:5>);
+
+// --- Enchanted Fabric
+mods.thaumcraft.Research.clearPages("ENCHFABRIC");
+mods.thaumcraft.Research.addPage("ENCHFABRIC", "tc.research_page.ENCHFABRIC.1");
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5" ,[
+[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+[<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
+[<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
+
+mods.thaumcraft.Research.setAspects("ENCHFABRIC", "pannus 10, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setComplexity("ENCHFABRIC", 1);
+// -
+mods.thaumcraft.Research.addArcanePage("ENCHFABRIC", <Thaumcraft:ItemResource:7>);
+mods.thaumcraft.Research.addPage("ENCHFABRIC", "tc.research_page.ENCHFABRIC.2");
+
+// --- Thaumaturges Robe
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemChestplateRobe> , "aer 15, ignis 15, aqua 15, ordo 15", [
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
+// -
+mods.thaumcraft.Research.addArcanePage("ENCHFABRIC", <Thaumcraft:ItemChestplateRobe>);
+
+// --- Thaumaturges Leggings
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemLeggingsRobe> , "aer 15, ignis 15, aqua 15, perditio 15", [
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>]]);
+// -
+mods.thaumcraft.Research.addArcanePage("ENCHFABRIC", <Thaumcraft:ItemLeggingsRobe>);
+
+// --- Thaumaturges Boots
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemBootsRobe> , "aer 15, terra 15, ignis 15, aqua 15", [
+[null, null, null],
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <ore:plateThaumium>, <Thaumcraft:ItemResource:7>]]);
+// -
+mods.thaumcraft.Research.addArcanePage("ENCHFABRIC", <Thaumcraft:ItemBootsRobe>);
 
 
 
