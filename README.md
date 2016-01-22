@@ -6,16 +6,16 @@
 -
 
 
-Version 1.0.7.5 is out (09.01.2016)(GT New Horizons Coremod 1.0.9) (GTTweaker 1.0.9)
+Version 1.0.7.6 is out (16.01.2016)(GT New Horizons Coremod 1.0.9) (GTTweaker 1.0.9)
 
 
 Large Modpack with every recipe Gregified
 -
 
 Hey guys, I'd like to open up my project and get more players.
-I've been working on it for 12 months and still got a lot more work to do.
+I've been working on it for 14 months and still got a lot more work to do.
 
-The pack has around 185 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
+The pack has around 190 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
 An example of Tiering (work in progress) is here:
 
 Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools
@@ -62,14 +62,14 @@ Number of players: ~10
 Github link
 
 
-Modlist - NewHorizons 1.0.7.5 --- 09.01..2016
+Modlist - NewHorizons 1.0.7.6 --- 16.01..2016
 
 Advanced Solar Panels	3.5.1<BR>
 AE2 Stuff	0.5.1.61<BR>
 AFSU	1.2.2.a<BR>
 Anger Mod	0.6<BR>
 AppleCore	1.1.0<BR>
-Applied Energistics	rv3stable2<BR>
+Applied Energistics	rv3stable4<BR>
 AsieLib	0.4.5<BR>
 Auto Packer	1.5.7<BR>
 Automagy	0.27.1<BR>
@@ -169,19 +169,20 @@ Pam's Harvestcraft	1.7.10lb<BR>
 Pam's Harvestcraft Nether	1.7.10a<BR>
 Player api	1.4<BR>
 Project Blue	1.1.4<BR>
-Project Red-Base	4.7.0pre10.93<BR>
-Project Red-Compat	4.7.0pre10.93<BR>
-Project Red-Fabrication	4.7.0pre10.93<BR>
-Project Red-Integration	4.7.0pre10.93<BR>
-Project Red-Lightning	4.7.0pre10.93<BR>
-Project Red-Mechanical	4.7.0pre10.93<BR>
-Project Red-World	4.7.0pre10.93<BR>
+Project Red-Base	4.7.0pre10.95<BR>
+Project Red-Compat	4.7.0pre10.95<BR>
+Project Red-Fabrication	4.7.0pre10.95<BR>
+Project Red-Integration	4.7.0pre10.95<BR>
+Project Red-Lightning	4.7.0pre10.95<BR>
+Project Red-Mechanical	4.7.0pre10.95<BR>
+Project Red-World	4.7.0pre10.95<BR>
 Railcraft	9.8.0.0<BR>
 Random Things	2.2.4<BR>
 Realistic World Gen	1.3.2<BR>
 RemoteIO	2.4.0<BR>
 Rogue-like Dungeons	1.4.4<BR>
 Schematica	1.7.6.131<BR>
+SG Craft 1.9.5<BR>
 Special Mobs	3.2.1<BR>
 Spice of Life	1.3.0<BR>
 Steve's Carts	2.0.0.18b<BR>

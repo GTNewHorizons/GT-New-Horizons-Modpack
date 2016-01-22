@@ -6,6 +6,7 @@
 
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
+import mods.ic2.Macerator;
 import mods.nei.NEI;
 
 // --- Variables ---
@@ -180,33 +181,47 @@ recipes.addShapeless(<harvestcraft:apiary>, [<Forestry:apiculture:2>]);
 // --- Pot
 recipes.addShaped(<harvestcraft:potItem>, [
 [<ore:craftingToolHardHammer>, <ore:plateAnyIron>, <ore:craftingToolFile>],
-[<ore:ringIron>, <ore:bucketEmpty>, <ore:ringIron>]]);
+[<ore:ringIron>, <ore:bucketEmpty>, <ore:ringIron>],
+[<ore:screwIron>, <ore:plateAnyIron>, <ore:screwIron>]]);
 // -
 recipes.addShaped(<harvestcraft:potItem>, [
 [<ore:craftingToolFile>, <ore:plateAnyIron>, <ore:craftingToolHardHammer>],
-[<ore:ringIron>, <ore:bucketEmpty>, <ore:ringIron>]]);
+[<ore:ringIron>, <ore:bucketEmpty>, <ore:ringIron>],
+[<ore:screwIron>, <ore:plateAnyIron>, <ore:screwIron>]]);
 
 // --- Skilet
 recipes.addShaped(<harvestcraft:skilletItem>, [
-[<Forestry:oakStick>, <ore:stickPlastic>, <ore:craftingToolHardHammer>,null],
+[<Forestry:oakStick>, <ore:stickPlastic>, <ore:craftingToolHardHammer>],
 [<ore:stickPlastic>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<Forestry:oakStick>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
 // -
 recipes.addShaped(<harvestcraft:skilletItem>, [
-[<Forestry:oakStick>, <ore:craftingToolFile>,null],
+[<Forestry:oakStick>, <ore:stickPlastic>, <ore:craftingToolFile>],
 [<ore:stickPlastic>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<Forestry:oakStick>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
 
-// --- Sacepan
+// --- Saucepan
 recipes.addShaped(<harvestcraft:saucepanItem>, [
-[<ore:stickPlastic>, <ore:craftingToolFile>,null],
+[<ore:stickPlastic>, <ore:craftingToolFile>, <ore:screwIron>],
 [<Forestry:oakStick>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
 // -
 recipes.addShaped(<harvestcraft:saucepanItem>, [
-[<ore:stickPlastic>, <ore:craftingToolHardHammer>,null],
+[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:screwIron>],
 [<Forestry:oakStick>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<ore:stickPlastic>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
+
+
+// --- Mixing Bowl
+recipes.addShaped(<harvestcraft:mixingbowlItem>, [
+[<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>],
+[<ore:plateAnyIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:screwIron>, <ore:craftingToolFile>, <ore:screwIron>]]);
+// -
+recipes.addShaped(<harvestcraft:mixingbowlItem>, [
+[<ore:screwIron>, <ore:craftingToolFile>, <ore:screwIron>],
+[<ore:plateAnyIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>]]);
 
 // --- Plum Juice
 recipes.addShapeless(<harvestcraft:plumjuiceItem>, [<ore:craftingToolHardHammer>, <ore:cropPlum>]);
@@ -350,7 +365,21 @@ recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [null, null, null]]);
 
 // --- Hardened Leather
-recipes.addShaped(<harvestcraft:hardenedleatherItem>, [[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
+recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
+[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
+
+// --- Fresh Water
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>.giveBack(<minecraft:bucket>)]);
+
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>)]);
+
+// --- Salt
+recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]); 
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>)]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>)]);
+
 
 
 
@@ -386,6 +415,9 @@ Compressor.addRecipe(<harvestcraft:firmtofuItem>, <harvestcraft:silkentofuItem>)
 
 // --- Pressed Wax
 Compressor.addRecipe(<harvestcraft:waxItem>, <harvestcraft:beeswaxItem> * 4);
+
+// --- Compressed Salt Block
+Compressor.addRecipe(<harvestcraft:spamcompressedsaltBlockalt>, <gregtech:gt.metaitem.01:2817> * 9);
 
 
 
@@ -546,6 +578,16 @@ Extractor.addRecipe(<harvestcraft:oliveoilItem>, <Forestry:fruits:1>);
 Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:waxcombItem>);
 // -
 Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:candleberryItem> * 4);
+
+
+
+
+// --- Macerator Recipes ---
+
+
+
+// --- Salt
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
 
 
 
