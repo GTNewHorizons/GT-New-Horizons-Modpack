@@ -272,6 +272,13 @@ mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6
 [<ore:stone>, <Thaumcraft:blockCrystal:*>, <ore:stone>],
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
+mods.thaumcraft.Research.clearPages("ARCANESTONE");
+mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.1");
+mods.thaumcraft.Research.addArcanePage("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6>);
+mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.2");
+game.setLocalization("en_US", "tc.research_page.ARCANESTONE.2", "Arcane Stone Bricks Assembler Recipe <BR><IMG>dreamcraft:textures/items/itemArcaneStoneBricksAssembler.png:0:0:255:255:0.40</IMG><BR><LINE>");
+mods.thaumcraft.Research.addCraftingPage("ARCANESTONE", <Thaumcraft:blockStairsArcaneStone>);
+
 // --- Arcane Pedstal
 mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "aer 20" ,[
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
