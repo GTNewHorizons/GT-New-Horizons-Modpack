@@ -15,9 +15,6 @@
 
 
 
-// --- Shrads
-furnace.remove(<Thaumcraft:ItemShard:*>);
-
 // --- Crystal Clusters
 recipes.remove(<Thaumcraft:blockCrystal:*>);
 
