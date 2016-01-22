@@ -42,6 +42,16 @@ recipes.remove(<Thaumcraft:blockCandle>);
 // --- Nitor and Alumentum
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:*>);
 
+// --- Thaumium Ingot
+recipes.removeShaped(<ore:ingotThaumium>, [
+[<ore:nuggetThaumium>, <ore:nuggetThaumium>, <ore:nuggetThaumium>],
+[<ore:nuggetThaumium>, <ore:nuggetThaumium>, <ore:nuggetThaumium>],
+[<ore:nuggetThaumium>, <ore:nuggetThaumium>, <ore:nuggetThaumium>]]);
+
+
+// --- Thaumium Nuggets
+recipes.remove(<Thaumcraft:ItemNugget:6>);
+
 
 
 
@@ -90,7 +100,6 @@ mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
 // -
 mods.thaumcraft.Research.addPage("ALUMENTUM", "tc.research_page.ALUMENTUM.2");
 game.setLocalization("en_US", "tc.research_page.ALUMENTUM.2", "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker");
-
 
 
 
@@ -149,6 +158,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
 
 // --- Alumentum
 mods.thaumcraft.Research.refreshResearchRecipe("ALUMENTUM");
+
+// --- Thaumium Ingot
+mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUM");
 
 
 
