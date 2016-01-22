@@ -468,8 +468,7 @@ recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEne
 // --- Capacitor Bank Upgrade From Basic Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:18315>, GCircuit	, <gregtech:gt.metaitem.01:18315>],
-[<EnderIO:blockCapBank:2>, EAPlate	, <EnderIO:blockCapBank:2>],
-[null, null	, null]]);
+[<EnderIO:blockCapBank:2>, EAPlate, <EnderIO:blockCapBank:2>]]);
 
 // --- Vibrant Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
@@ -479,15 +478,14 @@ recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnerg
 
 // --- Vibrant Capacitor Bank Upgrade From Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
-[<gregtech:gt.metaitem.01:20315>, AdvCircuit	, <gregtech:gt.metaitem.01:20315>],
-[<EnderIO:blockCapBank:3>, VCrystal	, <EnderIO:blockCapBank:3>],
-[null, null	, null]]);
+[<gregtech:gt.metaitem.01:20315>, AdvCircuit, <gregtech:gt.metaitem.01:20315>],
+[<EnderIO:blockCapBank:3>, VCrystal, <EnderIO:blockCapBank:3>]]);
 
 // --- Vibrant Capacitor Bank Upgrade From Basic Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:22315>, AdvCircuit	, <gregtech:gt.metaitem.01:22315>],
-[<EnderIO:blockCapBank:2>, EAPlate	, <EnderIO:blockCapBank:2>],
-[<EnderIO:blockCapBank:2>, VCrystal	, <EnderIO:blockCapBank:2>]]);
+[<EnderIO:blockCapBank:2>, EAPlate, <EnderIO:blockCapBank:2>],
+[<EnderIO:blockCapBank:2>, VCrystal, <EnderIO:blockCapBank:2>]]);
 
 // --- Painting Machine
 recipes.addShaped(<EnderIO:blockPainter>, [
