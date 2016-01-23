@@ -1817,67 +1817,67 @@ mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
 
 // --- White Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1> * 2,
-[Shears, <minecraft:wool>]);
+[Shears.transformDamage(), <minecraft:wool>]);
 
 // --- Orange Wool Slab
 recipes.addShapeless(<TConstruct:WoolSlab1:1> * 2,
-[Shears, <minecraft:wool:1>]);
+[Shears.transformDamage(), <minecraft:wool:1>]);
 
 // --- Magenta Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:2> * 2,
-[Shears, <minecraft:wool:2>]);
+[Shears.transformDamage(), <minecraft:wool:2>]);
 
 // --- Light Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:3> * 2,
-[Shears, <minecraft:wool:3>]);
+[Shears.transformDamage(), <minecraft:wool:3>]);
 
 // --- Yellow Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:4> * 2,
-[Shears, <minecraft:wool:4>]);
+[Shears.transformDamage(), <minecraft:wool:4>]);
 
 // --- Lime Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:5> * 2,
-[Shears, <minecraft:wool:5>]);
+[Shears.transformDamage(), <minecraft:wool:5>]);
 
 // --- Pink Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:6> * 2,
-[Shears, <minecraft:wool:6>]);
+[Shears.transformDamage(), <minecraft:wool:6>]);
 
 // --- Gray Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab1:7> * 2,
-[Shears, <minecraft:wool:7>]);
+[Shears.transformDamage(), <minecraft:wool:7>]);
 
 // --- Light Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2> * 2,
-[Shears, <minecraft:wool:8>]);
+[Shears.transformDamage(), <minecraft:wool:8>]);
 
 // --- Cyan Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:1> * 2,
-[Shears, <minecraft:wool:9>]);
+[Shears.transformDamage(), <minecraft:wool:9>]);
 
 // --- Purple Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:2> * 2,
-[Shears, <minecraft:wool:10>]);
+[Shears.transformDamage(), <minecraft:wool:10>]);
 
 // --- Blue Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:3> * 2,
-[Shears, <minecraft:wool:11>]);
+[Shears.transformDamage(), <minecraft:wool:11>]);
 
 // --- Brown Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:4> * 2,
-[Shears, <minecraft:wool:12>]);
+[Shears.transformDamage(), <minecraft:wool:12>]);
 
 // --- Green Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:5> * 2,
-[Shears, <minecraft:wool:13>]);
+[Shears.transformDamage(), <minecraft:wool:13>]);
 
 // --- Red Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:6> * 2,
-[Shears, <minecraft:wool:14>]);
+[Shears.transformDamage(), <minecraft:wool:14>]);
 
 // --- Black Wool Slab 
 recipes.addShapeless(<TConstruct:WoolSlab2:7> * 2,
-[Shears, <minecraft:wool:15>]);
+[Shears.transformDamage(), <minecraft:wool:15>]);
 
 // --- Oak Barricade
 recipes.addShaped(<TConstruct:trap.barricade.oak>, [
