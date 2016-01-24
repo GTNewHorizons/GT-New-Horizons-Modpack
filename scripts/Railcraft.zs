@@ -1716,6 +1716,8 @@ Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {Fl
 // -
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <gregtech:gt.metaitem.01:30712>, 8);
 
+furnace.setFuel(<Railcraft:fluid.creosote.bucket>, 6400);
+
 
 
 // --- Alloy Smelter Recipes ---
