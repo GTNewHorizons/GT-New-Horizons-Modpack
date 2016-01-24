@@ -162,7 +162,10 @@ recipes.addShaped(<RIO:intelligentWorkbench>, [
 
 
 // --- IO Tool
-recipes.addShapeless(IOTool, [<gregtech:gt.metatool.01:16>.withTag({"GT.ToolStats": {PrimaryMaterial: "TungstenSteel", MaxDamage: 512000 as long, SecondaryMaterial: "TungstenSteel"}})]);
+recipes.addShaped(IOTool, [
+[<ore:plateTungstenSteel>, <ore:craftingToolSaw>, <ore:plateTungstenSteel>],
+[<ore:screwTungstenSteel>, <ore:stickTungstenSteel>, <ore:screwTungstenSteel>],
+[<ore:craftingToolScrewdriver>, <ore:stickTungstenSteel>, <ore:craftingToolFile>]]);
 
 // --- Linker 
 recipes.addShaped(<RIO:item.linker>, [

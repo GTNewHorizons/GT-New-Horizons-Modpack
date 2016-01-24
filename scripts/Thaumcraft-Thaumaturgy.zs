@@ -45,6 +45,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusTrade>);
 // --- Wand Focus Pouch
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPouch>);
 
+// --- Node Stabilizer
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:9>);
+
 
 
 
@@ -233,12 +236,21 @@ mods.thaumcraft.Research.setComplexity("FOCUSTRADE", 2);
 
 // --- Wand Focus Pouch
 mods.thaumcraft.Arcane.addShaped("FOCUSPOUCH", <Thaumcraft:FocusPouch>, "terra 20, perditio 20, ordo 20", [
-[<ore:blodGold>, <ore:ringGold>, <ore:blodGold>],
+[<ore:boltGold>, <ore:ringGold>, <ore:boltGold>],
 [<harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemBaubleBlanks:2>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
 
 mods.thaumcraft.Research.setAspects("FOCUSPOUCH", "instrumentum 30, vacuos 20, praecantatio 10, pannus 10");
 mods.thaumcraft.Research.setComplexity("FOCUSPOUCH", 2);
+
+// --- Node Stabilizer
+mods.thaumcraft.Arcane.addShaped("NODESTABILIZER", <Thaumcraft:blockStoneDevice:9>, "aqua 35, terra 35, ordo 25", [
+[<ore:plateThaumium>, <ore:springGold>, <ore:plateThaumium>],
+[<ore:blockQuartz>, <gregtech:gt.metaitem.01:32640>, <ore:blockQuartz>],
+[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemResource:1>, <Thaumcraft:blockCosmeticSolid:7>]]);
+
+mods.thaumcraft.Research.setAspects("NODESTABILIZER", "auram 30, potentia 10, praecantatio 20, ordo 10");
+mods.thaumcraft.Research.setComplexity("NODESTABILIZER", 2);
 
 
 
@@ -275,6 +287,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("FOCUSTRADE");
 
 // --- Wand Focus Pouch
 mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPOUCH");
+
+// --- Node Stabilizer
+mods.thaumcraft.Research.refreshResearchRecipe("NODESTABILIZER");
 
 
 
