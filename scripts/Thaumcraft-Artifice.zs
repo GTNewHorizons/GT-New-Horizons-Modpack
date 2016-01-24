@@ -57,6 +57,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:2>);
 // --- Paving Stone of Warding
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:3>);
 
+// --- Runic Matrix
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:2>);
+
 // --- Arcane Pedstal
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:1>);
 
@@ -102,6 +105,15 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ArcaneDoorKey>);
 
 // --- Gold Arcane Key
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ArcaneDoorKey:1>);
+
+// --- Arcane Ear
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:1>);
+
+// --- Sinister Load Stone
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemCompassStone>);
+
+// --- Arcane Bellow
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice>);
 
 
 
@@ -189,7 +201,7 @@ mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6
 [<ore:stone>, <ore:stone>, <ore:stone>],
 [<ore:stone>, <Thaumcraft:blockCrystal:*>, <ore:stone>],
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
-
+// -
 mods.thaumcraft.Research.clearPages("ARCANESTONE");
 mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.1");
 mods.thaumcraft.Research.addArcanePage("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6>);
@@ -197,6 +209,21 @@ mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.2"
 game.setLocalization("en_US", "tc.research_page.ARCANESTONE.2", "Arcane Stone Bricks Assembler Recipe <BR><IMG>dreamcraft:textures/items/itemArcaneStoneBricksAssembler.png:0:0:255:255:0.40</IMG><BR><LINE>");
 mods.thaumcraft.Research.addCraftingPage("ARCANESTONE", <Thaumcraft:blockStairsArcaneStone>);
 mods.thaumcraft.Research.addCraftingPage("ARCANESTONE", <Thaumcraft:blockCosmeticSlabStone>);
+
+// --- Runic Matrix
+mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:2> , "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40" ,[
+[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCosmeticSolid:7>],
+[<Thaumcraft:blockCrystal:6>, <minecraft:ender_eye>, <Thaumcraft:blockCrystal:6>],
+[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCosmeticSolid:7>]]);
+
+// --- Arcane Pedstal
+mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "aer 20" ,[
+[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
+[null, <Thaumcraft:blockCosmeticSolid:6>, null],
+[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
+// -
+mods.thaumcraft.Research.setAspects("INFUSION", "fabrico 50, machina 40, praecantatio 30, cognitio 20, motus 10");
+mods.thaumcraft.Research.setComplexity("INFUSION", 2);
 
 // --- Paving Stone of Travel
 mods.thaumcraft.Research.clearPages("PAVETRAVEL");
@@ -222,12 +249,6 @@ mods.thaumcraft.Research.addPage("PAVEWARD", "tc.research_page.PAVEWARD.2");
 // -
 mods.thaumcraft.Research.setAspects("PAVEWARD", "motus 10, bestia 15, vinculum 20, telum 10");
 mods.thaumcraft.Research.setComplexity("PAVEWARD", 2);
-
-// --- Arcane Pedstal
-mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "aer 20" ,[
-[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
-[null, <Thaumcraft:blockCosmeticSolid:6>, null],
-[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
 
 // --- Item Grate
 mods.thaumcraft.Research.clearPages("GRATE");
@@ -328,6 +349,33 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:ArcaneDoorKey:1> * 
 [<ore:boltGold>, <ore:boltGold>, <ore:craftingToolScrewdriver>],
 [<ore:boltGold>, <ore:craftingToolHardHammer>, null]]);
 
+// --- Arcane Ear
+mods.thaumcraft.Arcane.addShaped("ARCANEEAR", <Thaumcraft:blockWoodenDevice:1>, "aer 10, terra 10, ordo 10", [
+[<ore:plateThaumium>, <gregtech:gt.metaitem.01:32690>, <ore:plateThaumium>],
+[<ore:plateGold>, <Thaumcraft:ItemZombieBrain>, <ore:plateGold>],
+[<Thaumcraft:blockWoodenDevice:6>, <ore:wireGt01RedAlloy>, <Thaumcraft:blockWoodenDevice:6>]]);
+// -
+mods.thaumcraft.Research.setAspects("ARCANEEAR", "aer 25, sensus 20, praecantatio 10, potentia 15");
+mods.thaumcraft.Research.setComplexity("ARCANEEAR", 2);
+
+// --- Sinister Load Stone
+mods.thaumcraft.Infusion.addRecipe("SINSTONE", <minecraft:flint>, 
+[<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemShard:6>],
+ "alienis 10, auram 10, sensus 10, tenebrae 10, ordo 10", <Thaumcraft:ItemCompassStone>, 4);
+// -
+mods.thaumcraft.Research.setAspects("SINSTONE", "auram 25, sensus 10, tenebrae 15, alienis 20");
+mods.thaumcraft.Research.setComplexity("SINSTONE", 2);
+mods.thaumcraft.Warp.addToResearch("SINSTONE", 1);
+
+// --- Arcane Bellow
+mods.thaumcraft.Arcane.addShaped("BELLOWS", <Thaumcraft:blockWoodenDevice>, "aer 10, ordo 10", [
+[<Thaumcraft:blockCosmeticSlabWood>, <ore:shardAir>, <Thaumcraft:blockCosmeticSlabWood>],
+[<Backpack:tannedLeather>, <gregtech:gt.metaitem.01:32640>, <Backpack:tannedLeather>],
+[<Thaumcraft:blockCosmeticSlabWood>, <ore:shardAir>, <Thaumcraft:blockCosmeticSlabWood>]]);
+// -
+mods.thaumcraft.Research.setAspects("BELLOWS", "motus 15, aer 20, praecantatio 10, machina 25");
+mods.thaumcraft.Research.setComplexity("BELLOWS", 2);
+
 
 
 
@@ -382,6 +430,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("TABLE");
 // --- Arcane Stone
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANESTONE");
 
+// --- Pedstal and Runic Matrix
+mods.thaumcraft.Research.refreshResearchRecipe("INFUSION");
+
 // --- Arcane Lamp
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANELAMP");
 
@@ -396,6 +447,16 @@ mods.thaumcraft.Research.refreshResearchRecipe("LEVITATOR");
 
 // --- Arcane Door, Pressure Plate, Keys, Warded Glass
 mods.thaumcraft.Research.refreshResearchRecipe("WARDEDARCANA");
+
+// --- Arcane Ear
+mods.thaumcraft.Research.refreshResearchRecipe("ARCANEEAR");
+
+// --- Sinister Load Stone
+mods.thaumcraft.Research.refreshResearchRecipe("SINSTONE");
+
+// --- Arcane Bellow
+mods.thaumcraft.Research.refreshResearchRecipe("BELLOWS");
+
 
 
 

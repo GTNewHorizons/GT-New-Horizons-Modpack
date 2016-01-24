@@ -64,6 +64,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:1>);
 // --- Alchemical Construct
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:9>);
 
+// --- Warded Jar
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar>);
+
 
 
 
@@ -153,6 +156,12 @@ mods.thaumcraft.Research.setComplexity("TRANSIRON", 1);
 mods.thaumcraft.Research.setAspects("PUREIRON", "metallum 25, ordo 15, vitreus 5");
 mods.thaumcraft.Research.setComplexity("PUREIRON", 1);
 
+// --- Warded Jar
+mods.thaumcraft.Arcane.addShaped("JARLABEL", <Thaumcraft:blockJar>, "aqua 2", [
+[<ore:paneGlassColorless>, <ore:plateRubber>, <ore:paneGlassColorless>],
+[<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
+[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
+
 
 
 
@@ -216,6 +225,10 @@ mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUM");
 
 // --- Essentia Distillation
 mods.thaumcraft.Research.refreshResearchRecipe("DISTILESSENTIA");
+
+// --- Warded Jar and Lables
+mods.thaumcraft.Research.refreshResearchRecipe("JARLABEL");
+
 
 
 
