@@ -163,19 +163,19 @@ mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks>,
 [<ore:screwGold>, <Thaumcraft:blockCrystal:6>, <ore:screwGold>]]);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks>);
 
-// --- Mundane Belt
-mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>, "terra 10, ignis 5, ordo 10", [
-[<ore:screwGold>, <ore:materialHardenedleather>, <ore:screwGold>],
-[<ore:materialHardenedleather>, <ore:craftingToolScrewdriver>, <ore:materialHardenedleather>],
-[<ore:screwGold>, <ore:ringGold>, <ore:screwGold>]]);
-mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>);
-
 // --- Mundane Ring
-mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:2>, "terra 10, ignis 10, ordo 5", [
+mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>, "terra 10, ignis 10, ordo 5", [
 [<ore:screwGold>, <ore:stickGold>, <ore:screwGold>],
 [<ore:stickGold>, <ore:craftingToolScrewdriver>, <ore:stickGold>],
 [<ore:screwGold>, <ore:stickGold>, <ore:screwGold>]]);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:2>);
+
+// --- Mundane Belt
+mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:2>, "terra 10, ignis 5, ordo 10", [
+[<ore:screwGold>, <ore:materialHardenedleather>, <ore:screwGold>],
+[<ore:materialHardenedleather>, <ore:craftingToolScrewdriver>, <ore:materialHardenedleather>],
+[<ore:screwGold>, <ore:ringGold>, <ore:screwGold>]]);
+mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBlanks:1>);
 
 // --- Mirrored Glass
 mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:10>, "aer 10, terra 10, ignis 10,", [

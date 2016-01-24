@@ -27,8 +27,23 @@ recipes.remove(<Thaumcraft:WandCasting>);
 // --- Greatwood Rood
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod>);
 
-// --- Fire Wand Focus
+// --- Wand Focus Fire
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFire>);
+
+// --- Wand Focus Excavation
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusExcavation>);
+
+// --- Wand Focus Frost
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFrost>);
+
+// --- Wand Focus Shock
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusShock>);
+
+// --- Wand Focus Equal Trade
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusTrade>);
+
+// --- Wand Focus Pouch
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPouch>);
 
 
 
@@ -171,14 +186,59 @@ mods.thaumcraft.Research.addArcanePage("ROD_greatwood", <Thaumcraft:WandCasting:
 mods.thaumcraft.Research.addPage("ROD_greatwood", "tc.research_page.ROD_greatwood.2");
 game.setLocalization("en_US", "tc.research_page.ROD_greatwood.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Stainless Steel Screws it will show more recipes.");
 
-// --- Fire Wand Focus
-mods.thaumcraft.Arcane.addShaped("FOCUSFIRE", <Thaumcraft:FocusFire>, "ignis 22, perditio 22, aer 22", [
+// --- Wand Focus Fire
+mods.thaumcraft.Arcane.addShaped("FOCUSFIRE", <Thaumcraft:FocusFire>, "ignis 20, perditio 20, ordo 20", [
 [<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>],
-[<ore:gemQuartz>, <Railcraft:firestone.refined>, <ore:gemQuartz>],
+[<ore:gemQuartz>, <ore:lensRuby>, <ore:gemQuartz>],
 [<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>]]);
 
 mods.thaumcraft.Research.setAspects("FOCUSFIRE", "ignis 10, praecantatio 5, motus 5");
-mods.thaumcraft.Research.setComplexity("FOCUSFIRE", 3);
+mods.thaumcraft.Research.setComplexity("FOCUSFIRE", 1);
+
+// --- Wand Focus Excavation
+mods.thaumcraft.Arcane.addShaped("FOCUSEXCAVATION", <Thaumcraft:FocusExcavation>, "terra 30, perditio 20, ordo 20", [
+[<Thaumcraft:blockCrystal:3>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:3>],
+[<ore:gemQuartz>, <ore:lensEmerald>, <ore:gemQuartz>],
+[<Thaumcraft:blockCrystal:3>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:3>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSEXCAVATION", "terra 30, praecantatio 10, perditio 20, motus 10");
+mods.thaumcraft.Research.setComplexity("FOCUSEXCAVATION", 2);
+
+// --- Wand Focus Frost
+mods.thaumcraft.Arcane.addShaped("FOCUSFROST", <Thaumcraft:FocusFrost>, "aqua 30, perditio 20, ordo 20", [
+[<Thaumcraft:blockCrystal:2>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:2>],
+[<ore:gemQuartz>, <ore:lensDiamond>, <ore:gemQuartz>],
+[<Thaumcraft:blockCrystal:2>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:2>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSFROST", "aqua 20, gellum 30, praecantatio 10, motus 10");
+mods.thaumcraft.Research.setComplexity("FOCUSFROST", 2);
+
+// --- Wand FocusShock
+mods.thaumcraft.Arcane.addShaped("FOCUSSHOCK", <Thaumcraft:FocusShock>, "aer 30, perditio 20, ordo 20", [
+[<Thaumcraft:blockCrystal>, <ore:gemQuartz>, <Thaumcraft:blockCrystal>],
+[<ore:gemQuartz>, <ore:lensGarnetYellow>, <ore:gemQuartz>],
+[<Thaumcraft:blockCrystal>, <ore:gemQuartz>, <Thaumcraft:blockCrystal>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSSHOCK", "aer 30, praecantatio 10, potentia 20, motus 10");
+mods.thaumcraft.Research.setComplexity("FOCUSSHOCK", 2);
+
+// --- Wand Focus Equal Trade
+mods.thaumcraft.Arcane.addShaped("FOCUSTRADE", <Thaumcraft:FocusTrade>, "aer 20, terra 20, perditio 30, ordo 30", [
+[<Thaumcraft:blockCrystal:6>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:6>],
+[<ore:gemQuartz>, <dreamcraft:item.ReinforcedGlassLense>, <ore:gemQuartz>],
+[<Thaumcraft:blockCrystal:6>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:6>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSTRADE", "permutatio 30, praecantatio 20, terra 10, motus 10");
+mods.thaumcraft.Research.setComplexity("FOCUSTRADE", 2);
+
+// --- Wand Focus Pouch
+mods.thaumcraft.Arcane.addShaped("FOCUSPOUCH", <Thaumcraft:FocusPouch>, "terra 20, perditio 20, ordo 20", [
+[<ore:blodGold>, <ore:ringGold>, <ore:blodGold>],
+[<harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemBaubleBlanks:2>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
+
+mods.thaumcraft.Research.setAspects("FOCUSPOUCH", "instrumentum 30, vacuos 20, praecantatio 10, pannus 10");
+mods.thaumcraft.Research.setComplexity("FOCUSPOUCH", 2);
 
 
 
@@ -198,8 +258,23 @@ mods.thaumcraft.Research.refreshResearchRecipe("CAP_gold");
 // --- Greatwood Rod
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
 
-// --- Fire Wand Focus
+// --- Wand Focus Fire
 mods.thaumcraft.Research.refreshResearchRecipe("FOCUSFIRE");
+
+// --- Wand Focus Excavation
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSEXCAVATION");
+
+// --- Wand Focus Frost
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSFROST");
+
+// --- Wand Focus Shock
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSSHOCK");
+
+// --- Wand Focus Equal Trade
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSTRADE");
+
+// --- Wand Focus Pouch
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPOUCH");
 
 
 
