@@ -21,8 +21,8 @@ recipes.remove(<Thaumcraft:blockCrystal:*>);
 // --- Amber
 furnace.remove(<Thaumcraft:ItemResource:6>);
 
-// --- Thaumometer
-recipes.remove(<Thaumcraft:ItemThaumometer>);
+// --- Deconstruction Table
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTable:14>);
 
 
 
@@ -100,9 +100,38 @@ mods.thaumcraft.Research.addPage("ORE", "tc.research_page.ORE.4");
 mods.thaumcraft.Research.setAspects("RESEARCHER1", "cognitio 20, sensus 10, ordo 10, lux 5");
 mods.thaumcraft.Research.setComplexity("RESEARCHER1", 1);
 
+// --- Research Mastery
+mods.thaumcraft.Research.setAspects("RESEARCHER2", "cognitio 40, sensus 20, ordo 20, lux 10, permutatio 5");
+mods.thaumcraft.Research.setComplexity("RESEARCHER2", 2);
+
 // --- Advanced Node Tapping
 mods.thaumcraft.Research.setAspects("NODETAPPER1", "permutatio 20, auram 10, praecantatio 15, motus 10");
 mods.thaumcraft.Research.setComplexity("NODETAPPER1", 2);
+
+// --- Master Node Tapping
+mods.thaumcraft.Research.setAspects("NODETAPPER2", "permutatio 40, auram 20, praecantatio 30, motus 20, potentia 10");
+mods.thaumcraft.Research.setComplexity("NODETAPPER2", 3);
+
+// --- Node Preserver
+mods.thaumcraft.Research.setAspects("NODEPRESERVE", "perditio 40, cognitio 20, fabrico 30, instrumentum 20");
+mods.thaumcraft.Research.setComplexity("NODEPRESERVE", 2);
+
+// --- Deconstruction Table
+mods.thaumcraft.Arcane.addShaped("DECONSTRUCTOR", <Thaumcraft:blockTable:14>, "ordo 20, perditio 20", [
+[<ore:screwThaumium>, <Thaumcraft:ItemThaumometer>, <ore:screwThaumium>],
+[<Thaumcraft:ItemPickThaumium>, <Thaumcraft:blockTable>, <Thaumcraft:ItemAxeThaumium>],
+[<ore:plateThaumium>, <ore:craftingToolScrewdriver>, <ore:plateThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("DECONSTRUCTOR", "sensus 40, auram 20, lucrum 30, fames 20");
+mods.thaumcraft.Research.setComplexity("DECONSTRUCTOR", 2);
+
+// --- Node in a Jar
+mods.thaumcraft.Research.setAspects("NODEJAR", "auram 50, motus 40, lucrum 30, permutatio 20, vitreus 10");
+mods.thaumcraft.Research.setComplexity("NODEJAR", 3);
+
+// --- Research Dublication
+mods.thaumcraft.Research.setAspects("RESEARCHDUPE", "sensus 50, cognitio 40, fabrico 60, lucrum 30, perditio 10, potentia 20");
+mods.thaumcraft.Research.setComplexity("RESEARCHDUPE", 3);
 
 
 
@@ -110,6 +139,8 @@ mods.thaumcraft.Research.setComplexity("NODETAPPER1", 2);
 
 
 
+// --- Deconstruction Table
+mods.thaumcraft.Research.refreshResearchRecipe("DECONSTRUCTOR");
 
 
 
