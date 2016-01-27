@@ -18,6 +18,7 @@ import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Replicator;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Scanner;
 
 import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
+import com.dreammaster.gthandler.accelerator.GT_WorldAccelerator;
 import com.dreammaster.item.food.QuantumBread;
 
 public class GT_Loader_Machines 
@@ -1402,7 +1403,16 @@ public class GT_Loader_Machines
 		 //PlasmaArcFurnaceUV
 		 
 		 // ---------------------
-		 // Free IDs: 11100 - 11263
-		 // 11.11.2015 Namikon
+         CustomItemList.AcceleratorLV.set(new GT_WorldAccelerator(11100, "basicmachine.accelerator.tier.01", "World Accelerator", 1).getStackForm(1L));
+         CustomItemList.AcceleratorMV.set(new GT_WorldAccelerator(11101, "basicmachine.accelerator.tier.02", "World Accelerator II", 2).getStackForm(1L));
+         CustomItemList.AcceleratorHV.set(new GT_WorldAccelerator(11102, "basicmachine.accelerator.tier.03", "World Accelerator III", 3).getStackForm(1L));
+         CustomItemList.AcceleratorEV.set(new GT_WorldAccelerator(11103, "basicmachine.accelerator.tier.04", "World Accelerator IV", 4).getStackForm(1L));
+         CustomItemList.AcceleratorIV.set(new GT_WorldAccelerator(11104, "basicmachine.accelerator.tier.05", "World Accelerator V", 5).getStackForm(1L));
+         CustomItemList.AcceleratorLuV.set(new GT_WorldAccelerator(11105, "basicmachine.accelerator.tier.06", "World Accelerator VI", 6).getStackForm(1L));
+         CustomItemList.AcceleratorZPM.set(new GT_WorldAccelerator(11106, "basicmachine.accelerator.tier.07", "World Accelerator VII", 7).getStackForm(1L));
+         CustomItemList.AcceleratorUV.set(new GT_WorldAccelerator(11107, "basicmachine.accelerator.tier.08", "World Accelerator VIII", 8).getStackForm(1L));
+		 
+		 // Free IDs: 11110 - 11263
+		 // 27.01.2016 Namikon
 	}
 }

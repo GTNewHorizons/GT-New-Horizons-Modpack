@@ -66,6 +66,7 @@ public enum CustomItemList implements IItemContainer
 	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
 	WiremillLuV, WiremillZPM, WiremillUV,
 	PumpLuV, PumpZPM, PumpUV,
+	AcceleratorLV, AcceleratorMV, AcceleratorHV, AcceleratorEV, AcceleratorIV, AcceleratorLuV, AcceleratorZPM, AcceleratorUV,    
 
 	//CoreModItems
 	EtchedLowVoltageWiring, EtchedInsaneVoltageWiring, EtchedLudicrousVoltageWiring,
