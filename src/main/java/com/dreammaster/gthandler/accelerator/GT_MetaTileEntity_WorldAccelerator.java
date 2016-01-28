@@ -4,11 +4,14 @@ import static gregtech.api.enums.GT_Values.V;
 import gregtech.api.enums.Textures;
 import gregtech.api.enums.Textures.BlockIcons.CustomIcon;
 import gregtech.api.interfaces.ITexture;
+import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
 import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_TieredMachineBlock;
 import gregtech.api.objects.GT_RenderedTexture;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import net.minecraft.block.Block;
@@ -16,16 +19,20 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import net.minecraftforge.common.util.ForgeDirection;
 
 import com.dreammaster.main.MainRegistry;
 
-public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock 
+public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock 
 {
+    private int _mMode = 0; // 0: RandomTicks around 1: TileEntities with range 1
     private static CustomIcon _mGTIco_Norm_Idle;
     private static CustomIcon _mGTIco_Norm_Active;
-    //private static CustomIcon _mGTIco_TE_Idle;
-    //private static CustomIcon _mGTIco_TE_Active;
+    private static CustomIcon _mGTIco_TE_Idle;
+    private static CustomIcon _mGTIco_TE_Active;
+    private static int[] mAccelerateStatic = {1, 2, 3, 4, 6, 8, 11, 13, 15, 20};
     
     @Override
     public void registerIcons(IIconRegister aBlockIconRegister)
@@ -33,16 +40,22 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
         super.registerIcons(aBlockIconRegister);
         _mGTIco_Norm_Idle = new CustomIcon("iconsets/OVERLAY_ACCELERATOR");           
         _mGTIco_Norm_Active = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_ACTIVE");  
-        //_mGTIco_TE_Idle = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_TE");           
-        //_mGTIco_TE_Active = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_TE_ACTIVE");  
+        _mGTIco_TE_Idle = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_TE");           
+        _mGTIco_TE_Active = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_TE_ACTIVE");  
     }
     
-    public GT_WorldAccelerator(int pID, String pName, String pNameRegional, int pTier)
+    public GT_MetaTileEntity_WorldAccelerator(int pID, String pName, String pNameRegional, int pTier)
     {
-        super(pID, pName, pNameRegional, pTier, 0, String.format("Accelerating Blocks. (Radius: %d EU/t: %d) Accepts up to 4 Amps", pTier, getEnergyDemand(pTier)));
+        super(pID, pName, pNameRegional, pTier, 0, String.format("Accelerating Blocks. (Radius: %d EU/t: %d)", pTier, getEnergyDemand(pTier)));
     }
 
-    public GT_WorldAccelerator(String pName, int pTier, int pInvSlotCount, String pDescription, ITexture[][][] pTextures)
+    @Override
+    public String[] getDescription()
+    {
+        return new String[]{"Accelerates Blocks or TileEntities around it", "Use a screwdriver to change mode", "To accelerate TileEntities, this machine has to be adjacent to it", "This machine accepts up to 4 Amps"};
+    }
+    
+    public GT_MetaTileEntity_WorldAccelerator(String pName, int pTier, int pInvSlotCount, String pDescription, ITexture[][][] pTextures)
     {
         super(pName, pTier, pInvSlotCount, pDescription, pTextures);
     }
@@ -50,7 +63,7 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
     @Override
     public MetaTileEntity newMetaEntity(IGregTechTileEntity pTileEntity)
     {
-        return new GT_WorldAccelerator(mName, mTier, mInventory.length, mDescription, mTextures);
+        return new GT_MetaTileEntity_WorldAccelerator(mName, mTier, mInventory.length, mDescription, mTextures);
     }
     
     @Override
@@ -62,8 +75,10 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
     @Override
     public ITexture[] getTexture(IGregTechTileEntity pBaseMetaTileEntity, byte pSide, byte pFacing, byte pColorIndex, boolean pActive, boolean pRedstone)
     {
-        return new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][pColorIndex + 1], (pSide < 2) ? null : pActive ? new GT_RenderedTexture(_mGTIco_Norm_Active) : new GT_RenderedTexture(_mGTIco_Norm_Idle)};
-        // TODO: Check for mode (TE or Normal blocks) and return correct textures
+        if (_mMode == 0)
+            return new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][pColorIndex + 1], (pSide < 2) ? null : pActive ? new GT_RenderedTexture(_mGTIco_Norm_Active) : new GT_RenderedTexture(_mGTIco_Norm_Idle)};
+        else
+            return new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][pColorIndex + 1], (pSide < 2) ? null : pActive ? new GT_RenderedTexture(_mGTIco_TE_Active) : new GT_RenderedTexture(_mGTIco_TE_Idle)};
     }
     
     @Override
@@ -81,7 +96,7 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
     @Override
     public void saveNBTData(NBTTagCompound pNBT)
     {
-        //
+        pNBT.setInteger("mAccelMode", _mMode);
     }
 
     public static long getEnergyDemand(int pTier)
@@ -92,7 +107,7 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
     @Override
     public void loadNBTData(NBTTagCompound pNBT) 
     {
-        //
+        _mMode = pNBT.getInteger("mAccelMode");
     }
     
     @Override
@@ -154,6 +169,14 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
     {
         return 4;
     }
+    
+    @Override
+    public void onScrewdriverRightClick(byte pSide, EntityPlayer pPlayer, float pX, float pY, float pZ)
+    {
+        _mMode = _mMode == 0 ? 1 : 0;
+        markDirty();
+        eu.usrv.yamcore.auxiliary.PlayerChatHelper.SendInfo(pPlayer, String.format("Switched mode to %d", _mMode));
+    }
 
     @Override
     public void onPostTick(IGregTechTileEntity pBaseMetaTileEntity, long pTick)
@@ -178,9 +201,16 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
                 // Continue to drain power
                 if (pBaseMetaTileEntity.decreaseStoredEnergyUnits(tEnergyDemand, false)) 
                 {
+                    World tWorld = pBaseMetaTileEntity.getWorld(); 
                     // Limit the random ticks to once per second
-                    if (pTick % 20 == 0)
-                        doAccelerateNormalBlocks(pBaseMetaTileEntity);
+                    if (_mMode == 0)
+                    {
+                        if (pTick % 20 == 0)
+                            doAccelerateNormalBlocks(pBaseMetaTileEntity, tWorld);
+                    }
+                    else
+                        doAccelerateTileEntities(pBaseMetaTileEntity, tWorld);
+
                 }
                 else
                 {
@@ -201,11 +231,45 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
      * anytime soon
      * @param pBaseMetaTileEntity
      */
-    private void doAccelerateTileEntities(IGregTechTileEntity pBaseMetaTileEntity)
+    private void doAccelerateTileEntities(IGregTechTileEntity pBaseMetaTileEntity, World pWorld)
     {
-        // Nothing here yet. Just do nothing for now..
-        if (pBaseMetaTileEntity.isActive())
-            getBaseMetaTileEntity().setActive(false);
+        try
+        {
+            if (!pBaseMetaTileEntity.isActive())
+                getBaseMetaTileEntity().setActive(true);
+            
+            for (ForgeDirection tDir : ForgeDirection.VALID_DIRECTIONS)
+            {
+                TileEntity tTile = pBaseMetaTileEntity.getTileEntityAtSide((byte) tDir.ordinal());
+                if (isTEBlackListed(tTile))
+                    continue;
+
+                for (int j = 0; j < mAccelerateStatic[mTier]; j++)
+                    tTile.updateEntity();
+            }
+        }
+        catch (Exception e)
+        {
+            MainRegistry.Logger.error("GT_MetaTileEntity_WorldAccelerator.doAccelerateTileEntities.crash", e.getMessage());
+        }
+    }
+
+    private static List<String> _mBlacklistedTileEntities = new ArrayList<String>();
+    // Inspired by ChromatiCraft's TileAccelerator
+    private boolean isTEBlackListed(TileEntity pTile)
+    {
+        if (pTile == null) return true; // Obvious
+        if (pTile instanceof IMetaTileEntity) return true; // Don't accelerate ANY gregtech machines
+        if (!pTile.canUpdate()) return true; // Skip if TE can't update at all
+        if (pTile.isInvalid()) return true; // Obvious
+        
+        String tSimpleClassName = pTile.getClass().getSimpleName().toLowerCase();
+        if (tSimpleClassName.contains("conduit") || tSimpleClassName.contains("wire") || tSimpleClassName.contains("cable"))
+            return true;
+        if (pTile.getClass().getCanonicalName().contains("appeng"))
+            return true;
+        
+        return false;
     }
 
     /**
@@ -213,7 +277,7 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
      * This does only affect blocks that implement the "RandomTick" method; Which is mostly used for grass growth and plants.
      * @param pBaseMetaTileEntity
      */
-    private void doAccelerateNormalBlocks(IGregTechTileEntity pBaseMetaTileEntity)
+    private void doAccelerateNormalBlocks(IGregTechTileEntity pBaseMetaTileEntity, World pWorld)
     {
         if (!pBaseMetaTileEntity.isActive())
             getBaseMetaTileEntity().setActive(true);
@@ -222,7 +286,6 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
         int tX = pBaseMetaTileEntity.getXCoord();
         int tY = pBaseMetaTileEntity.getYCoord();
         int tZ = pBaseMetaTileEntity.getZCoord();
-        World tWorld = pBaseMetaTileEntity.getWorld(); 
         
         int tX1 = tX - mTier;
         int tX2 = tX + mTier;
@@ -234,7 +297,7 @@ public class GT_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock
         for (int xi = tX1; xi <= tX2; xi++)
             for (int yi = tY1; yi <= tY2; yi++)
                 for (int zi = tZ1; zi <= tZ2; zi++)
-                    tryTickBlock(tWorld, xi, yi, zi, rnd);
+                    tryTickBlock(pWorld, xi, yi, zi, rnd);
         
     }
 
