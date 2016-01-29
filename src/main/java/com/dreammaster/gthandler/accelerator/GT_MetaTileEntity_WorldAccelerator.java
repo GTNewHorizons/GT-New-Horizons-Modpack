@@ -4,7 +4,6 @@ import static gregtech.api.enums.GT_Values.V;
 import gregtech.api.enums.Textures;
 import gregtech.api.enums.Textures.BlockIcons.CustomIcon;
 import gregtech.api.interfaces.ITexture;
-import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
 import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_TieredMachineBlock;
@@ -25,14 +24,17 @@ import net.minecraftforge.common.util.ForgeDirection;
 
 import com.dreammaster.main.MainRegistry;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
 public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_TieredMachineBlock 
 {
-    private int _mMode = 0; // 0: RandomTicks around 1: TileEntities with range 1
+    private byte mMode = 0; // 0: RandomTicks around 1: TileEntities with range 1
     private static CustomIcon _mGTIco_Norm_Idle;
     private static CustomIcon _mGTIco_Norm_Active;
     private static CustomIcon _mGTIco_TE_Idle;
     private static CustomIcon _mGTIco_TE_Active;
-    private static int[] mAccelerateStatic = {1, 2, 3, 4, 6, 8, 11, 13, 15, 20};
+    private static int[] mAccelerateStatic = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512};
     
     @Override
     public void registerIcons(IIconRegister aBlockIconRegister)
@@ -44,15 +46,27 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
         _mGTIco_TE_Active = new CustomIcon("iconsets/OVERLAY_ACCELERATOR_TE_ACTIVE");  
     }
     
+    @SideOnly(Side.CLIENT)
+    @Override
+    public void onValueUpdate(byte aValue)
+    {
+        mMode = aValue;
+    }
+
+    @Override
+    public byte getUpdateData() {
+        return mMode;
+    }
+    
     public GT_MetaTileEntity_WorldAccelerator(int pID, String pName, String pNameRegional, int pTier)
     {
-        super(pID, pName, pNameRegional, pTier, 0, String.format("Accelerating Blocks. (Radius: %d EU/t: %d)", pTier, getEnergyDemand(pTier)));
+        super(pID, pName, pNameRegional, pTier, 0, "");
     }
 
     @Override
     public String[] getDescription()
     {
-        return new String[]{"Accelerates Blocks or TileEntities around it", "Use a screwdriver to change mode", "To accelerate TileEntities, this machine has to be adjacent to it", "This machine accepts up to 4 Amps"};
+        return new String[]{String.format("Accelerating things (Radius: %d EU/t: %d Speed Bonus: x%d)", mTier, getEnergyDemand(mTier), mAccelerateStatic[mTier]), "Use a screwdriver to change mode", "To accelerate TileEntities, this machine has to be adjacent to it", "This machine accepts up to 4 Amps"};
     }
     
     public GT_MetaTileEntity_WorldAccelerator(String pName, int pTier, int pInvSlotCount, String pDescription, ITexture[][][] pTextures)
@@ -75,7 +89,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
     @Override
     public ITexture[] getTexture(IGregTechTileEntity pBaseMetaTileEntity, byte pSide, byte pFacing, byte pColorIndex, boolean pActive, boolean pRedstone)
     {
-        if (_mMode == 0)
+        if (mMode == 0)
             return new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][pColorIndex + 1], (pSide < 2) ? null : pActive ? new GT_RenderedTexture(_mGTIco_Norm_Active) : new GT_RenderedTexture(_mGTIco_Norm_Idle)};
         else
             return new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][pColorIndex + 1], (pSide < 2) ? null : pActive ? new GT_RenderedTexture(_mGTIco_TE_Active) : new GT_RenderedTexture(_mGTIco_TE_Idle)};
@@ -96,7 +110,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
     @Override
     public void saveNBTData(NBTTagCompound pNBT)
     {
-        pNBT.setInteger("mAccelMode", _mMode);
+        pNBT.setByte("mAccelMode", mMode);
     }
 
     public static long getEnergyDemand(int pTier)
@@ -107,7 +121,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
     @Override
     public void loadNBTData(NBTTagCompound pNBT) 
     {
-        _mMode = pNBT.getInteger("mAccelMode");
+        mMode = pNBT.getByte("mAccelMode");
     }
     
     @Override
@@ -170,12 +184,13 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
         return 4;
     }
     
+    private static String[] mModeStr = {"Blocks", "TileEntities"};
     @Override
     public void onScrewdriverRightClick(byte pSide, EntityPlayer pPlayer, float pX, float pY, float pZ)
     {
-        _mMode = _mMode == 0 ? 1 : 0;
+        mMode = (byte) (mMode == 0x00 ? 0x01 : 0x00);
         markDirty();
-        eu.usrv.yamcore.auxiliary.PlayerChatHelper.SendInfo(pPlayer, String.format("Switched mode to %d", _mMode));
+        eu.usrv.yamcore.auxiliary.PlayerChatHelper.SendInfo(pPlayer, String.format("Switched mode to: %s", mModeStr[mMode]));
     }
 
     @Override
@@ -203,7 +218,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
                 {
                     World tWorld = pBaseMetaTileEntity.getWorld(); 
                     // Limit the random ticks to once per second
-                    if (_mMode == 0)
+                    if (mMode == 0)
                     {
                         if (pTick % 20 == 0)
                             doAccelerateNormalBlocks(pBaseMetaTileEntity, tWorld);
@@ -244,8 +259,13 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
                 if (isTEBlackListed(tTile))
                     continue;
 
+                long tMaxTime = System.nanoTime() + 1000000;
                 for (int j = 0; j < mAccelerateStatic[mTier]; j++)
+                {
                     tTile.updateEntity();
+                    if (System.nanoTime() > tMaxTime)
+                        break;
+                }
             }
         }
         catch (Exception e)
@@ -259,14 +279,14 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
     private boolean isTEBlackListed(TileEntity pTile)
     {
         if (pTile == null) return true; // Obvious
-        if (pTile instanceof IMetaTileEntity) return true; // Don't accelerate ANY gregtech machines
         if (!pTile.canUpdate()) return true; // Skip if TE can't update at all
         if (pTile.isInvalid()) return true; // Obvious
         
         String tSimpleClassName = pTile.getClass().getSimpleName().toLowerCase();
+        String tCanonicalName = pTile.getClass().getCanonicalName().toLowerCase();
         if (tSimpleClassName.contains("conduit") || tSimpleClassName.contains("wire") || tSimpleClassName.contains("cable"))
             return true;
-        if (pTile.getClass().getCanonicalName().contains("appeng"))
+        if (tCanonicalName.contains("appeng") || tCanonicalName.contains("gregtech")) // Don't accelerate ANY gregtech machines
             return true;
         
         return false;
