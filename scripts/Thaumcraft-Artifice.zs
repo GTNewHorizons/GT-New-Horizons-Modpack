@@ -88,6 +88,12 @@ recipes.removeShaped(<Thaumcraft:blockCosmeticOpaque>, [
 // --- Arcane Lamp
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:7>);
 
+// --- Lamp of Growth
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockMetalDevice:8>);
+
+// --- Lamp of Fertility
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockMetalDevice:13>);
+
 // --- Arcane Levitator
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockLifter>);
 
@@ -114,6 +120,12 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemCompassStone>);
 
 // --- Arcane Bellow
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice>);
+
+// --- Flux Scubber
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:14>);
+
+// --- Boots of the Traveller
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
 
 
 
@@ -307,6 +319,22 @@ mods.thaumcraft.Arcane.addShaped("ARCANELAMP", <Thaumcraft:blockMetalDevice:7>, 
 mods.thaumcraft.Research.setAspects("ARCANELAMP", "lux 10, tenebrae 5, sensus 10");
 mods.thaumcraft.Research.setComplexity("ARCANELAMP", 1);
 
+// --- Lamp of Growth
+mods.thaumcraft.Infusion.addRecipe("LAMPGROWTH", <Thaumcraft:blockMetalDevice:7>, 
+[<gregtech:gt.metaitem.01:17086>, <minecraft:dye:15>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17086>, <minecraft:dye:15>, <Thaumcraft:blockCrystal:3>], 
+"herba 20, lux 10, victus 20, messis 10", <Thaumcraft:blockMetalDevice:8>, 5);
+// -
+mods.thaumcraft.Research.setAspects("LAMPGROWTH", "messis 40, lux 10, herba 20, victus 30");
+mods.thaumcraft.Research.setComplexity("LAMPGROWTH", 2);
+
+// --- Lamp of Fertility
+mods.thaumcraft.Infusion.addRecipe("LAMPFERTILITY", <Thaumcraft:blockMetalDevice:7>, 
+[<gregtech:gt.metaitem.01:17086>, <minecraft:wheat>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17086>, <minecraft:golden_carrot>, <Thaumcraft:blockCrystal:1>], 
+"bestia 20, lux 10, victus 20, sano 10", <Thaumcraft:blockMetalDevice:13>, 5);
+// -
+mods.thaumcraft.Research.setAspects("LAMPFERTILITY", "bestia 40, lux 10, victus 30, sano 20");
+mods.thaumcraft.Research.setComplexity("LAMPFERTILITY", 2);
+
 // --- Arcane Levitator
 mods.thaumcraft.Arcane.addShaped("LEVITATOR", <Thaumcraft:blockLifter>, "aer 20, terra 10, ordo 5", [
 [<Thaumcraft:blockWoodenDevice:6>, <ore:plateInfusedAir>, <Thaumcraft:blockWoodenDevice:6>],
@@ -376,6 +404,25 @@ mods.thaumcraft.Arcane.addShaped("BELLOWS", <Thaumcraft:blockWoodenDevice>, "aer
 mods.thaumcraft.Research.setAspects("BELLOWS", "motus 15, aer 20, praecantatio 10, machina 25");
 mods.thaumcraft.Research.setComplexity("BELLOWS", 2);
 
+// --- Flux Scubber
+mods.thaumcraft.Research.clearPages("FLUXSCRUB");
+mods.thaumcraft.Research.addPage("FLUXSCRUB", "tc.research_page.FLUXSCRUB.1");
+mods.thaumcraft.Infusion.addRecipe("FLUXSCRUB", <Thaumcraft:blockWoodenDevice>, 
+[<Thaumcraft:blockTube>, <dreamcraft:item.SteelBars>, <Thaumcraft:ItemResource:8>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockTube:1>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemResource:8>, <dreamcraft:item.SteelBars>], 
+"aqua 25, aer 20, praecantatio 15, vinculum 10, vitium 5", <Thaumcraft:blockStoneDevice:14>, 4);
+mods.thaumcraft.Research.addInfusionPage("FLUXSCRUB", <Thaumcraft:blockStoneDevice:14>);
+// -
+mods.thaumcraft.Research.setAspects("FLUXSCRUB", "aqua 50, praecantatio 40, aer 30, vinculum 20, vitium 10");
+mods.thaumcraft.Research.setComplexity("FLUXSCRUB", 3);
+
+// --- Boots of the Traveller
+mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER", <minecraft:leather_boots>, 
+[<Thaumcraft:blockCrystal>, <Thaumcraft:ItemResource:7>, <minecraft:feather>, <Thaumcraft:ItemResource:7>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemResource:7>, <minecraft:fish:*>, <Thaumcraft:ItemResource:7>], 
+"volatus 25, aer 25, iter 25, aqua 5", <Thaumcraft:BootsTraveller>, 2);
+// -
+mods.thaumcraft.Research.setAspects("BOOTSTRAVELLER", "aqua 15, iter 45, terra 25, volatus 35, aer 15");
+mods.thaumcraft.Research.setComplexity("BOOTSTRAVELLER", 3);
+
 
 
 
@@ -436,6 +483,12 @@ mods.thaumcraft.Research.refreshResearchRecipe("INFUSION");
 // --- Arcane Lamp
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANELAMP");
 
+// --- Lamp of Growth
+mods.thaumcraft.Research.refreshResearchRecipe("LAMPGROWTH");
+
+// --- Lamp of Fertility
+mods.thaumcraft.Research.refreshResearchRecipe("LAMPFERTILITY");
+
 // --- Paving Stone of Travel
 mods.thaumcraft.Research.refreshResearchRecipe("PAVETRAVEL");
 
@@ -456,6 +509,12 @@ mods.thaumcraft.Research.refreshResearchRecipe("SINSTONE");
 
 // --- Arcane Bellow
 mods.thaumcraft.Research.refreshResearchRecipe("BELLOWS");
+
+// --- Flux Scubber
+mods.thaumcraft.Research.refreshResearchRecipe("FLUXSCRUB");
+
+// --- Boots of the Traveller
+mods.thaumcraft.Research.refreshResearchRecipe("BOOTSTRAVELLER");
 
 
 

@@ -64,8 +64,28 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:1>);
 // --- Alchemical Construct
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:9>);
 
+// --- Essentia Tube
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube>);
+
+// --- Essentia Valve
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:1>);
+
+// --- Essentia Resonator
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResonator>);
+
 // --- Warded Jar
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar>);
+
+// --- Void Jar
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar:3>);
+
+// --- Purifying Bath Salt
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemBathSalts>);
+
+// --- Quicksilver
+recipes.remove(<Thaumcraft:ItemResource:3>);
+// -
+recipes.remove(<Thaumcraft:ItemNugget:5>);
 
 
 
@@ -121,6 +141,14 @@ game.setLocalization("en_US", "tc.research_page.ALUMENTUM.2", "Charcoal dust and
 mods.thaumcraft.Research.setAspects("ALCHEMICALDUPLICATION", "fabrico 25, praecantatio 15, lucrum 35, permutatio 5");
 mods.thaumcraft.Research.setComplexity("ALCHEMICALDUPLICATION", 2);
 
+// --- Alchemical Manufacture
+mods.thaumcraft.Research.setAspects("ALCHEMICALMANUFACTURE", "fabrico 40, praecantatio 30, lucrum 50, permutatio 15");
+mods.thaumcraft.Research.setComplexity("ALCHEMICALMANUFACTURE", 2);
+
+// --- Entropic Processing
+mods.thaumcraft.Research.setAspects("ENTROPICPROCESSING", "fabrico 40, praecantatio 30, lucrum 50, perditio 15");
+mods.thaumcraft.Research.setComplexity("ENTROPICPROCESSING", 2);
+
 // --- Alchemical Furnace
 mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA", <Thaumcraft:blockStoneDevice>, "ignis 15, aer 10, ordo 5", [
 [<Thaumcraft:blockCosmeticSolid:7>, <Railcraft:machine.beta:3>, <Thaumcraft:blockCosmeticSolid:7>],
@@ -148,19 +176,98 @@ mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA", <Thaumcraft:blockMetalDevice:
 [<Thaumcraft:blockTube:1>, <ore:blockThaumium>, <Thaumcraft:blockTube:1>],
 [<Thaumcraft:blockTube>, <Thaumcraft:ItemResource:8>, <Thaumcraft:blockTube>]]);
 
-// --- Metal Transmutation
+// --- Essentia Tube
+mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:blockTube> * 4, "ordo 8, aqua 8", [
+[<ore:screwThaumium>, <ore:nuggetGold>, <ore:screwThaumium>],
+[<Thaumcraft:ItemNugget:5>, <ore:pipeSmallSteel>, <Thaumcraft:ItemNugget:5>],
+[<ore:screwThaumium>, <ore:nuggetGold>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("TUBES", "praecantatio 30, permutatio 20, aqua 40, ordo 10");
+mods.thaumcraft.Research.setComplexity("TUBES", 2);
+
+// --- Essentia Valve
+mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:blockTube:1>, "ordo 8, aqua 8", [
+[<ore:screwThaumium>, <minecraft:lever>, <ore:screwThaumium>],
+[<ore:plateRubber>, <Thaumcraft:blockTube>, <ore:gearGtSmallThaumium>],
+[null, null, null]]);
+
+// --- Essentia Resonator
+mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:ItemResonator>, "aer 8, aqua 8", [
+[<ore:craftingToolScrewdriver>, <ore:stickThaumium>, null],
+[<ore:screwThaumium>, <Thaumcraft:ItemNugget:5>, <ore:stickThaumium>],
+[<ore:stickWood>, <ore:screwThaumium>, <ore:craftingToolFile>]]);
+
+// --- Iron Transmutation
 mods.thaumcraft.Research.setAspects("TRANSIRON", "metallum 25, ordo 15, permutatio 5");
 mods.thaumcraft.Research.setComplexity("TRANSIRON", 1);
 
-// --- Metal Purification
-mods.thaumcraft.Research.setAspects("PUREIRON", "metallum 25, ordo 15, vitreus 5");
+// --- Gold Transmutation
+mods.thaumcraft.Research.setAspects("TRANSGOLD", "metallum 45, lucrum 35, permutatio 25");
+mods.thaumcraft.Research.setComplexity("TRANSGOLD", 2);
+
+// --- Copper Transmutation
+mods.thaumcraft.Research.setAspects("TRANSCOPPER", "metallum 45, ordo 35, permutatio 25");
+mods.thaumcraft.Research.setComplexity("TRANSCOPPER", 2);
+
+// --- Tin Transmutation
+mods.thaumcraft.Research.setAspects("TRANSTIN", "metallum 45, vitreus 35, permutatio 25");
+mods.thaumcraft.Research.setComplexity("TRANSTIN", 2);
+
+// --- Lead Transmutation
+mods.thaumcraft.Research.setAspects("TRANSLEAD", "metallum 45, ordo 35, permutatio 25");
+mods.thaumcraft.Research.setComplexity("TRANSLEAD", 2);
+
+// --- Silver Transmutation
+mods.thaumcraft.Research.setAspects("TRANSSILVER", "metallum 45, lucrum 35, permutatio 25");
+mods.thaumcraft.Research.setComplexity("TRANSSILVER", 2);
+
+// --- Iron Purification
+mods.thaumcraft.Research.setAspects("PUREIRON", "metallum 25, ordo 25, vitreus 5");
 mods.thaumcraft.Research.setComplexity("PUREIRON", 1);
+
+// --- Gold Purification
+mods.thaumcraft.Research.setAspects("PUREGOLD", "metallum 45, lucrum 35, ordo 25, praecantatio 15");
+mods.thaumcraft.Research.setComplexity("PUREGOLD", 2);
+
+// --- Copper Purification
+mods.thaumcraft.Research.setAspects("PURECOPPER", "metallum 45, ordo 35, ordo 25, praecantatio 15");
+mods.thaumcraft.Research.setComplexity("PURECOPPER", 2);
+
+// --- Tin Purification
+mods.thaumcraft.Research.setAspects("PURETIN", "metallum 45, vitreus 35, ordo 25, praecantatio 15");
+mods.thaumcraft.Research.setComplexity("PURETIN", 2);
+
+// --- Lead Purification
+mods.thaumcraft.Research.setAspects("PURELEAD", "metallum 45, permutatio 35, ordo 25, praecantatio 15");
+mods.thaumcraft.Research.setComplexity("PURELEAD", 2);
+
+// --- Silver Purification
+mods.thaumcraft.Research.setAspects("PURESILVER", "metallum 45, lucrum 35, ordo 25, praecantatio 15");
+mods.thaumcraft.Research.setComplexity("PURESILVER", 2);
 
 // --- Warded Jar
 mods.thaumcraft.Arcane.addShaped("JARLABEL", <Thaumcraft:blockJar>, "aqua 2", [
 [<ore:paneGlassColorless>, <ore:plateRubber>, <ore:paneGlassColorless>],
 [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
 [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
+
+// --- Void Jar
+mods.thaumcraft.Research.clearPages("JARVOID");
+mods.thaumcraft.Research.addPage("JARVOID", "tc.research_page.JARVOID.1");
+mods.thaumcraft.Infusion.addRecipe("JARVOID", <Thaumcraft:blockJar>, 
+[<gregtech:gt.metaitem.01:17804>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.01:17533>, <Thaumcraft:ItemNugget:5>], 
+"vacuos 20, praecantatio 15, perditio 10, aqua 5", <Thaumcraft:blockJar:3>, 2);
+mods.thaumcraft.Research.addInfusionPage("JARVOID", <Thaumcraft:blockJar:3>);
+// -
+mods.thaumcraft.Research.setAspects("JARVOID", "vacuos 45, perditio 35, praecantatio 25, perditio 15");
+mods.thaumcraft.Research.setComplexity("JARVOID", 1);
+
+
+// --- Purifying Bath Salt
+mods.thaumcraft.Crucible.addRecipe("BATHSALTS", <Thaumcraft:ItemBathSalts>, <Thaumcraft:ItemResource:14>, "sano 10, cognitio 10, auram 10, ordo 10");
+// -
+mods.thaumcraft.Research.setAspects("BATHSALTS", "sano 35, cognitio 25, auram 45, ordo 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("BATHSALTS", 2);
 
 
 
@@ -228,6 +335,60 @@ mods.thaumcraft.Research.refreshResearchRecipe("DISTILESSENTIA");
 
 // --- Warded Jar and Lables
 mods.thaumcraft.Research.refreshResearchRecipe("JARLABEL");
+
+// --- Void Jar
+mods.thaumcraft.Research.refreshResearchRecipe("JARVOID");
+
+// --- Alchemical Duplication
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+
+// --- Alchemical Manufacture
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALMANUFACTURE");
+
+// --- Entropic Processing
+mods.thaumcraft.Research.refreshResearchRecipe("ENTROPICPROCESSING");
+
+// --- Purifying Bath Salt
+mods.thaumcraft.Research.refreshResearchRecipe("BATHSALTS");
+
+// --- Essentia Tubes
+mods.thaumcraft.Research.refreshResearchRecipe("TUBES");
+
+// --- Iron Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSIRON");
+
+// --- Gold Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSGOLD");
+
+// --- Copper Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSCOPPER");
+
+// --- Tin Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSTIN");
+
+// --- Lead Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSLEAD");
+
+// --- Silver Transmutation
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSSILVER");
+
+// --- Iron Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PUREIRON");
+
+// --- Gold Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PUREGOLD");
+
+// --- Copper Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PURECOPPER");
+
+// --- Tin Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PURETIN");
+
+// --- Lead Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PURELEAD");
+
+// --- Silver Purification
+mods.thaumcraft.Research.refreshResearchRecipe("PURESILVER");
 
 
 
