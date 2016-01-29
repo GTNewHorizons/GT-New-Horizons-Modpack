@@ -127,6 +127,35 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:14>);
 // --- Boots of the Traveller
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
 
+// --- Amulet of Runic Schielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAmuletRunic>);
+
+// --- Ring of Runic Schielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemRingRunic:1>);
+
+// --- Girdle of Runic Schielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleRunic>);
+
+// --- Arcan Bore Base
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:4>);
+
+// --- Arcan Bore
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
+
+// --- Pickaxe of the Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemPickaxeElemental>);
+
+// --- Axe of the Stream
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAxeElemental>);
+
+// --- Sword of Zephyr
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordElemental>);
+
+// --- Shovel of the Earthmover
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemShovelElemental>);
+
+// --- Hoe of Growth
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHoeElemental>);
 
 
 
@@ -423,7 +452,77 @@ mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER", <minecraft:leather_boots>,
 mods.thaumcraft.Research.setAspects("BOOTSTRAVELLER", "aqua 15, iter 45, terra 25, volatus 35, aer 15");
 mods.thaumcraft.Research.setComplexity("BOOTSTRAVELLER", 3);
 
+// --- Ring of Runic Schielding
+mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:1>, 
+[<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
+"potentia 25, tutamen 25, praecantatio 25, alienis 5", <Thaumcraft:ItemRingRunic:1>, 2);
+// -
+mods.thaumcraft.Research.setAspects("RUNICARMOR", "cognitio 45, tutamen 55, aer 25, potentia 35, praecantatio 15, alienis 5");
+mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
+// --- Amulet of Runic Schielding
+mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks>, 
+[<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
+"potentia 40, tutamen 40, praecantatio 40, alienis 20", <Thaumcraft:ItemAmuletRunic>, 4);
+
+// --- Girdle of Runic Schielding
+mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:2>, 
+[<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
+"potentia 55, tutamen 55, praecantatio 55, alienis 35", <Thaumcraft:ItemGirdleRunic>, 4);
+
+// --- Arcan Bore
+mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <gregtech:gt.metaitem.01:32641>, 
+[<Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:24500>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:24500>, <Thaumcraft:ItemPickThaumium>], 
+"machina 64, motus 32, perditio 64, potentia 32, vacuos 32", <Thaumcraft:blockWoodenDevice:5>, 6);
+// -
+mods.thaumcraft.Research.setAspects("ARCANEBORE", "instrumentum 45, perfodio 55, machina 35, motus 25, vacuos 5, cognito 15");
+mods.thaumcraft.Research.setComplexity("ARCANEBORE", 3);
+
+// --- Arcan Bore Base
+mods.thaumcraft.Arcane.addShaped("ARCANEBORE", <Thaumcraft:blockWoodenDevice:4>, "aer 30, ordo 30, terra 30", [
+[<Thaumcraft:blockCosmeticSlabWood>, <ore:pipeSmallSteel>, <Thaumcraft:blockCosmeticSlabWood>],
+[<ore:plateSteel>, <minecraft:dispenser>, <ore:plateSteel>],
+[<Thaumcraft:blockWoodenDevice:6>, <ore:wireFineSteel>, <Thaumcraft:blockWoodenDevice:6>]]);
+
+// --- Pickaxe of the Core
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALPICK", <Thaumcraft:ItemPickThaumium>,
+[<gregtech:gt.metaitem.02:29502>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:1>],
+"ignis 20, perfodio 20, sensus 20, lucrum 20", <Thaumcraft:ItemPickaxeElemental>, 3);
+// -
+mods.thaumcraft.Research.setAspects("ELEMENTALPICK", "instrumentum 45, ignis 35, perfodio 25, lucrum 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("ELEMENTALPICK", 3);
+
+// --- Axe of the Stream
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE", <Thaumcraft:ItemAxeThaumium>,
+[<gregtech:gt.metaitem.02:29513>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:2>],
+"aqua 10, arbor 20, fabrico 20, motus 20", <Thaumcraft:ItemAxeElemental>, 3);
+// -
+mods.thaumcraft.Research.setAspects("ELEMENTALAXE", "instrumentum 45, motus 35, fabrico 25, aqua 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("ELEMENTALAXE", 3);
+
+// --- Sword of Zephyr
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALSWORD", <Thaumcraft:ItemSwordThaumium>,
+[<gregtech:gt.metaitem.02:29528>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal>],
+"aer 20, motus 20, potentia 20, telum 20", <Thaumcraft:ItemSwordElemental>, 3);
+// -
+mods.thaumcraft.Research.setAspects("ELEMENTALSWORD", "instrumentum 45, telum 35, potentia 25, aer 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("ELEMENTALSWORD", 3);
+
+// --- Shovel of the Earthmover
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL", <Thaumcraft:ItemShovelThaumium>,
+[<gregtech:gt.metaitem.02:29501>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:3>],
+"fabrico 20, terra 20, perfodio 20, praecantatio 20", <Thaumcraft:ItemShovelElemental>, 3);
+// -
+mods.thaumcraft.Research.setAspects("ELEMENTALSHOVEL", "instrumentum 45, terra 35, perfodio 25, fabrico 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("ELEMENTALSHOVEL", 3);
+
+// --- Hoe of Growth
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE", <Thaumcraft:ItemHoeThaumium>,
+[<gregtech:gt.metaitem.02:29509>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:4>],
+"meto 20, herba 20, terra 20, messis 20", <Thaumcraft:ItemHoeElemental>, 3);
+// -
+mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 45, victus 35, meto 25, messis 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("ELEMENTALHOE", 3);
 
 
 
@@ -515,6 +614,27 @@ mods.thaumcraft.Research.refreshResearchRecipe("FLUXSCRUB");
 
 // --- Boots of the Traveller
 mods.thaumcraft.Research.refreshResearchRecipe("BOOTSTRAVELLER");
+
+// --- Amulet Ring and Girdle of Runic Schielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICARMOR");
+
+// --- Arcan Bore and Base
+mods.thaumcraft.Research.refreshResearchRecipe("ARCANEBORE");
+
+// --- Pickaxe of the Core
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALPICK");
+
+// --- Axe of the Stream
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALAXE");
+
+// --- Sword of Zephyr
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSWORD");
+
+// --- Shovel of the Earthmover
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSHOVEL");
+
+// --- Hoe of Growth
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALHOE");
 
 
 
