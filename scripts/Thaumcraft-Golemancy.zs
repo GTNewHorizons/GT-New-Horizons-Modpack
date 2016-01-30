@@ -62,6 +62,30 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemUpgrade:4>);
 // --- Golem Upgrade Entropy
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemUpgrade:5>);
 
+// --- Accessory Top Hat
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration>);
+
+// --- Accessory Spectacles
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:1>);
+
+// --- Accessory Top Bowtie
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:2>);
+
+// --- Accessory Top Fez
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:3>);
+
+// --- Accessory Top Dart Launcher
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:4>);
+
+// --- Accessory Top Visor
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:5>);
+
+// --- Accessory Top Iron Plating
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:6>);
+
+// --- Accessory Top Mace Arm
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:7>);
+
 
 
 
@@ -203,6 +227,78 @@ mods.thaumcraft.Research.setAspects("UPGRADEENTROPY", "cognitio 10, perditio 15,
 mods.thaumcraft.Research.setComplexity("UPGRADEENTROPY", 2);
 
 
+// --- Accessory Top Hat
+mods.thaumcraft.Arcane.addShaped("TINYHAT", <Thaumcraft:ItemGolemDecoration>, "ordo 10, ignis 10, terra 5", [
+[null, <ore:blockWoolBlack>, null],
+[<ore:foilGold>, <ore:foilGold>, <ore:foilGold>],
+[<ore:blockWoolBlack>, <Thaumcraft:ItemResource:7>, <ore:blockWoolBlack>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYHAT", "lucrum 20, panus 15, victus 10, sano 5");
+mods.thaumcraft.Research.setComplexity("TINYHAT", 2);
+
+// --- Accessory Spectacles
+mods.thaumcraft.Arcane.addShaped("TINYGLASSES", <Thaumcraft:ItemGolemDecoration:1>, "aer 5, aqua 5, ordo 5", [
+[<ore:stickIron>, null, <ore:stickIron>],
+[<ore:screwIron>, <Thaumcraft:ItemResource:7>, <ore:screwIron>],
+[<ore:lensGlass>, <ore:boltIron>, <ore:lensGlass>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYGLASSES", "lucrum 20, panus 15, sensus 10, ordo 5");
+mods.thaumcraft.Research.setComplexity("TINYGLASSES", 2);
+
+// --- Accessory Top Bowtie
+mods.thaumcraft.Arcane.addShaped("TINYBOWTIE", <Thaumcraft:ItemGolemDecoration:2>, "ordo 5, aer 5, terra 5", [
+[null, null, null],
+[<ore:blockWoolBlack>, <Thaumcraft:ItemResource:7>, <ore:blockWoolBlack>],
+[<ore:blockWoolBlack>, null, <ore:blockWoolBlack>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYBOWTIE", "lucrum 20, panus 15, iter 10, potentia 5");
+mods.thaumcraft.Research.setComplexity("TINYBOWTIE", 2);
+
+// --- Accessory Top Fez
+mods.thaumcraft.Arcane.addShaped("TINYFEZ", <Thaumcraft:ItemGolemDecoration:3>, "aer 5, aqua 5, terra 5", [
+[<ore:blockWoolRed>, <ore:blockWoolRed>, <minecraft:string>],
+[<ore:blockWoolRed>, <Thaumcraft:ItemResource:7>, <minecraft:string>],
+[<ore:blockWoolRed>, <ore:blockWoolRed>, <minecraft:string>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYFEZ", "lucrum 20, panus 15, potentia 10, sano 5");
+mods.thaumcraft.Research.setComplexity("TINYFEZ", 2);
+
+// --- Accessory Top Dart Launcher
+mods.thaumcraft.Arcane.addShaped("TINYDART", <Thaumcraft:ItemGolemDecoration:4>, "aer 5, ignis 5, terra 5", [
+[<minecraft:arrow>, <ore:springSmallSteel>, <minecraft:arrow>],
+[<minecraft:arrow>, <minecraft:dropper>, <minecraft:arrow>],
+[<minecraft:arrow>, <ore:springSmallSteel>, <minecraft:arrow>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYDART", "lucrum 20, volatus 15, telum 10, potentia 5");
+mods.thaumcraft.Research.setComplexity("TINYDART", 2);
+
+// --- Accessory Top Visor
+mods.thaumcraft.Arcane.addShaped("TINYVISOR", <Thaumcraft:ItemGolemDecoration:5>, "aqua 5, ignis 5, terra 5", [
+[<dreamcraft:item.SteelBars>, <minecraft:iron_helmet>, <dreamcraft:item.SteelBars>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[null, null, null]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYVISOR", "lucrum 20, sensus 15, tutamen 10, cognitio 5");
+mods.thaumcraft.Research.setComplexity("TINYVISOR", 2);
+
+// --- Accessory Top Iron Plating
+mods.thaumcraft.Arcane.addShaped("TINYARMOR", <Thaumcraft:ItemGolemDecoration:6>, "ordo 5, ignis 5, terra 10", [
+[null, null, null],
+[<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYARMOR", "lucrum 20, metalum 15, tutamen 10, cognitio 5");
+mods.thaumcraft.Research.setComplexity("TINYARMOR", 2);
+
+// --- Accessory Top Mace Arm
+mods.thaumcraft.Arcane.addShaped("TINYHAMMER", <Thaumcraft:ItemGolemDecoration:7>, "ordo 5, ignis 5, terra 10", [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[null, <ore:stickWood>, null]]);
+// -
+mods.thaumcraft.Research.setAspects("TINYHAMMER", "lucrum 20, metalum 15, telum 10, vinculum 5");
+mods.thaumcraft.Research.setComplexity("TINYHAMMER", 2);
+
 
 
 
@@ -256,6 +352,31 @@ mods.thaumcraft.Research.refreshResearchRecipe("UPGRADEORDER");
 
 // --- Golem Upgrade Entropy
 mods.thaumcraft.Research.refreshResearchRecipe("UPGRADEENTROPY");
+
+// --- Accessory Top Hat
+mods.thaumcraft.Research.refreshResearchRecipe("TINYHAT");
+
+// --- Accessory Spectacles
+mods.thaumcraft.Research.refreshResearchRecipe("TINYGLASSES");
+
+// --- Accessory Top Bowtie
+mods.thaumcraft.Research.refreshResearchRecipe("TINYBOWTIE");
+
+// --- Accessory Top Fez
+mods.thaumcraft.Research.refreshResearchRecipe("TINYFEZ");
+
+// --- Accessory Top Dart Launcher
+mods.thaumcraft.Research.refreshResearchRecipe("TINYDART");
+
+// --- Accessory Top Visor
+mods.thaumcraft.Research.refreshResearchRecipe("TINYVISOR");
+
+// --- Accessory Top Iron Plating
+mods.thaumcraft.Research.refreshResearchRecipe("TINYARMOR");
+
+// --- Accessory Top Mace Arm
+mods.thaumcraft.Research.refreshResearchRecipe("TINYHAMMER");
+
 
 
 

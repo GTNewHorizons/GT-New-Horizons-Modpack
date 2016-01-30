@@ -567,7 +567,7 @@ recipes.addShaped(<EnderIO:blockBuffer:1>, [
 recipes.addShaped(<EnderIO:blockInventoryPanel>, [
 [DarkSteelPlate, RAUpgrade, DarkSteelPlate],
 [PCrystal, Display, PCrystal],
-[DarkSteelPlate, SEnder, DarkSteelPlate]]);
+[DarkSteelPlate, ZLogic, DarkSteelPlate]]);
 
 // --- Dark Steel Ball
 recipes.addShaped(<EnderIO:itemMaterial:7> * 4, [
