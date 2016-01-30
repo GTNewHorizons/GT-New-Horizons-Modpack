@@ -127,13 +127,13 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:14>);
 // --- Boots of the Traveller
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
 
-// --- Amulet of Runic Schielding
+// --- Amulet of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAmuletRunic>);
 
-// --- Ring of Runic Schielding
+// --- Ring of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemRingRunic:1>);
 
-// --- Girdle of Runic Schielding
+// --- Girdle of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleRunic>);
 
 // --- Arcan Bore Base
@@ -452,7 +452,7 @@ mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER", <minecraft:leather_boots>,
 mods.thaumcraft.Research.setAspects("BOOTSTRAVELLER", "aqua 15, iter 45, terra 25, volatus 35, aer 15");
 mods.thaumcraft.Research.setComplexity("BOOTSTRAVELLER", 3);
 
-// --- Ring of Runic Schielding
+// --- Ring of Runic Shielding
 mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:1>, 
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 25, tutamen 25, praecantatio 25, alienis 5", <Thaumcraft:ItemRingRunic:1>, 2);
@@ -460,12 +460,12 @@ mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:1>
 mods.thaumcraft.Research.setAspects("RUNICARMOR", "cognitio 45, tutamen 55, aer 25, potentia 35, praecantatio 15, alienis 5");
 mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
-// --- Amulet of Runic Schielding
+// --- Amulet of Runic Shielding
 mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks>, 
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 40, tutamen 40, praecantatio 40, alienis 20", <Thaumcraft:ItemAmuletRunic>, 4);
 
-// --- Girdle of Runic Schielding
+// --- Girdle of Runic Shielding
 mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:2>, 
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 55, tutamen 55, praecantatio 55, alienis 35", <Thaumcraft:ItemGirdleRunic>, 4);
