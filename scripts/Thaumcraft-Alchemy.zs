@@ -256,7 +256,7 @@ mods.thaumcraft.Research.clearPages("JARVOID");
 mods.thaumcraft.Research.addPage("JARVOID", "tc.research_page.JARVOID.1");
 mods.thaumcraft.Infusion.addRecipe("JARVOID", <Thaumcraft:blockJar>, 
 [<gregtech:gt.metaitem.01:17804>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.01:17533>, <Thaumcraft:ItemNugget:5>], 
-"vacuos 20, praecantatio 15, perditio 10, aqua 5", <Thaumcraft:blockJar:3>, 2);
+"vacuos 7, praecantatio 7, perditio 7, aqua 7", <Thaumcraft:blockJar:3>, 2);
 mods.thaumcraft.Research.addInfusionPage("JARVOID", <Thaumcraft:blockJar:3>);
 // -
 mods.thaumcraft.Research.setAspects("JARVOID", "vacuos 45, perditio 35, praecantatio 25, perditio 15");

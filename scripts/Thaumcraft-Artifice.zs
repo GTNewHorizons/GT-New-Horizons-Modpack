@@ -511,7 +511,7 @@ mods.thaumcraft.Research.setComplexity("ELEMENTALSWORD", 3);
 // --- Shovel of the Earthmover
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL", <Thaumcraft:ItemShovelThaumium>,
 [<gregtech:gt.metaitem.02:29501>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:3>],
-"fabrico 20, terra 20, perfodio 20, praecantatio 20", <Thaumcraft:ItemShovelElemental>, 3);
+"fabrico 20, terra 20, perfodio 10, praecantatio 20", <Thaumcraft:ItemShovelElemental>, 3);
 // -
 mods.thaumcraft.Research.setAspects("ELEMENTALSHOVEL", "instrumentum 45, terra 35, perfodio 25, fabrico 15, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("ELEMENTALSHOVEL", 3);
@@ -519,7 +519,7 @@ mods.thaumcraft.Research.setComplexity("ELEMENTALSHOVEL", 3);
 // --- Hoe of Growth
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE", <Thaumcraft:ItemHoeThaumium>,
 [<gregtech:gt.metaitem.02:29509>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:4>],
-"meto 20, herba 20, terra 20, messis 20", <Thaumcraft:ItemHoeElemental>, 3);
+"meto 10, herba 20, terra 20, messis 20", <Thaumcraft:ItemHoeElemental>, 3);
 // -
 mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 45, victus 35, meto 25, messis 15, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("ELEMENTALHOE", 3);
