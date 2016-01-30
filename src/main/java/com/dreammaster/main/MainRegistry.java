@@ -199,9 +199,6 @@ public class MainRegistry {
 			AddLoginError("[CoreMod-Fluids] Some fluids failed to register. Check the logfile for details");
 		}
 		// ------------------------------------------------------------
-			
-		
-
 		
         if(PreEvent.getSide() == Side.CLIENT) {
             FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
