@@ -29,6 +29,7 @@ import com.dreammaster.command.CustomToolTipsCommand;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.command.ItemInHandInfoCommand;
 import com.dreammaster.command.CustomFuelsCommand;
+import com.dreammaster.command.LootBagCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
@@ -342,6 +343,8 @@ public class MainRegistry {
             pEvent.registerServerCommand(new CustomFuelsCommand());
         if (CoreConfig.ModCustomDrops_Enabled)
             pEvent.registerServerCommand(new CustomDropsCommand());
+        if (CoreConfig.ModLootBags_Enabled)
+        	pEvent.registerServerCommand(new LootBagCommand());
 	}
 	
 }

@@ -108,6 +108,14 @@ public class LootGroupsHandler
     	_mLootGroups.getLootTable().add(tSampleGroup);
     }
     
+	public LootGroup getGroupByID(int pGroupID)
+	{
+		for (LootGroup tGrp : _mLootGroups.getLootTable())
+			if (tGrp.mGroupID == pGroupID)
+				return tGrp;
+		return null;
+	}
+    
     /**
      * Save the loot configuration to disk
      * @return

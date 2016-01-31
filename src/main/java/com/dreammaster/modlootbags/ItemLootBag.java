@@ -62,7 +62,7 @@ public class ItemLootBag extends Item
 			return "LootBag (Default)";
 		else
 		{
-			LootGroup tGrp = getGroupByID(pStack.getItemDamage());
+			LootGroup tGrp = _mLGHandler.getGroupByID(pStack.getItemDamage());
 			return String.format("LootBag (%s)", tGrp == null ? "Error" : tGrp.mGroupName);
 		}
 	}
@@ -75,18 +75,10 @@ public class ItemLootBag extends Item
 			par3List.add(new ItemStack(this, 1, tGrp.mGroupID));
 	}
   
-	public LootGroup getGroupByID(int pGroupID)
-	{
-		for (LootGroup tGrp : _mLGHandler.getLootGroups().getLootTable())
-			if (tGrp.mGroupID == pGroupID)
-				return tGrp;
-		return null;
-	}
-	
 	@Override
 	public EnumRarity getRarity(ItemStack stack)
 	{
-		LootGroup tGrp = getGroupByID(stack.getItemDamage());
+		LootGroup tGrp = _mLGHandler.getGroupByID(stack.getItemDamage());
 		return tGrp == null ? EnumRarity.common : tGrp.getGroupRarity();
 	}
   
@@ -96,7 +88,7 @@ public class ItemLootBag extends Item
 		if (!world.isRemote)
 		{
 			int tGroupID = stack.getItemDamage();
-			LootGroup tGrp = getGroupByID(tGroupID);
+			LootGroup tGrp = _mLGHandler.getGroupByID(tGroupID);
 			if (tGrp != null)
 			{
 				int q = tGrp.mMinItems;
