@@ -1804,20 +1804,6 @@ Compressor.addRecipe(<IC2:itemFuelPlantBall>, <TwilightForest:tile.TFSapling:*> 
 
 
 
-
-// --- Destillery Recipes ---
-
-
-
-
-// --- Bio Gas
-Distillery.addRecipe(<liquid:ic2biogas> * 125, <gregtech:gt.integrated_circuit:4> * 0, <liquid:ic2biomass> * 4, 40, 30, false);
-// -
-Distillery.addRecipe(<liquid:ic2biogas> * 1000, <gregtech:gt.integrated_circuit:8> * 0, <liquid:ic2biomass> * 31, 80, 120, false);
-
-
-
-
 // --- Extruder Recipes ---
 
 
