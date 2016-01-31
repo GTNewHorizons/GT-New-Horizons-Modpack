@@ -27,54 +27,11 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:*>);
 // --- Basic Wand
 recipes.remove(<Thaumcraft:WandCasting>);
 
-// --- Greatwood Rood
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod>);
+// --- Greatwood Rod
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
 
 // --- Wand Cores
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
-
-// --- Wand Focus Fire
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFire>);
-
-// --- Wand Focus Excavation
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusExcavation>);
-
-// --- Wand Focus Frost
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusFrost>);
-
-// --- Wand Focus Shock
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusShock>);
-
-// --- Wand Focus Equal Trade
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusTrade>);
-
-// --- Wand Focus Pouch
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPouch>);
-
-// --- Node Stabilizer
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:9>);
-
-// --- Advanced Node Stabilizer
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockStoneDevice:10>);
-
-// --- Node Transducer
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:11>);
-
-// --- Vis Relay
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:14>);
-
-// --- Wand Recharge Pedestal
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockStoneDevice:5>);
-
-// --- Wand Focus Warding
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:FocusWarding>);
-
-// --- Wand Focus Portable Hole
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:FocusPortableHole>);
-
-// --- Wand Focus Nine Hells
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:FocusHellbat>);
-
 
 
 
@@ -257,6 +214,97 @@ mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCasting:6
 mods.thaumcraft.Research.addPage("CAP_thaumium", "tc.research_page.CAP_thaumium.2");
 game.setLocalization("en_US", "tc.research_page.CAP_thaumium.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
+// --- Iron Capped Wooden Scepter
+mods.thaumcraft.Research.clearPages("SCEPTRE");
+mods.thaumcraft.Research.addPage("SCEPTRE", "tc.research_page.SCEPTRE.1");
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[<TwilightForest:item.nagaScale>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}));
+
+// --- Copper Caped Wooden Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[<TwilightForest:item.nagaScale>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwAluminium>, null]]);
+
+// --- Golden Caped Wooden Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:4>.withTag({cap: "gold", rod: "wood", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[<TwilightForest:item.nagaScale>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:4>.withTag({cap: "gold", rod: "wood", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:4>.withTag({cap: "gold", rod: "wood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwAluminium>, null]]);
+
+// --- Silver Bossed Wooden Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), "aer 45, terra 45, ignis 45, aqua 45, ordo 45, perditio 45", [
+[<TwilightForest:item.nagaScale>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:4>.withTag({cap: "gold", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwAluminium>, null]]);
+
+// --- Thaumium Caped Wooden Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[<TwilightForest:item.nagaScale>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:3>.withTag({cap: "copper", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:4>.withTag({cap: "gold", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood", sceptre: 1}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwAluminium>, <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, null]]);
+// -
+mods.thaumcraft.Research.setAspects("SCEPTRE", "instrumentum 50, fabrico 40, abor 30, praecantatio 20, cognitio 10");
+mods.thaumcraft.Research.setComplexity("SCEPTRE", 3);
+// -
+mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}));
+// -
+mods.thaumcraft.Research.addPage("SCEPTRE", "tc.research_page.SCEPTRE.2");
+game.setLocalization("en_US", "tc.research_page.SCEPTRE.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
+
 // --- Greatwood Rod
 mods.thaumcraft.Research.clearPages("ROD_greatwood");
 mods.thaumcraft.Research.addPage("ROD_greatwood", "tc.research_page.ROD_greatwood.1");
@@ -355,6 +403,88 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:18>.wi
 [<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:12>.withTag({cap: "silver", rod: "greatwood"}), <ore:screwStainlessSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 
+// --- Iron Capped Greatwood Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:4>.withTag({cap: "iron", rod: "greatwood", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[<dreamcraft:item.LichBone>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+
+// --- Copper Caped Greatwood Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "copper", rod: "greatwood", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[<dreamcraft:item.LichBone>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "copper", rod: "greatwood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:4>.withTag({cap: "iron", rod: "greatwood", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwStainlessSteel>, null]]);
+ 
+// --- Golden Caped Greatwood Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[<dreamcraft:item.LichBone>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1}), "aer 20, terra 10, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:4>.withTag({cap: "iron", rod: "greatwood", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "copper", rod: "greatwood", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1 as byte}));
+
+// --- Silver Bossed Greatwood Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "silver", rod: "greatwood", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "silver", rod: "greatwood", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:4>.withTag({cap: "iron", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "silver", rod: "greatwood", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "copper", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "silver", rod: "greatwood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwStainlessSteel>, null]]);
+
+// --- Thaumium Caped Greatwood Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "thaumium", rod: "greatwood", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "thaumium", rod: "greatwood", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:4>.withTag({cap: "iron", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "thaumium", rod: "greatwood", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "copper", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "thaumium", rod: "greatwood", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:13>.withTag({cap: "gold", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "thaumium", rod: "greatwood", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:18>.withTag({cap: "silver", rod: "greatwood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwStainlessSteel>, null]]);
+
 // --- Reed Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_reed", <TConstruct:trap.punji>, 
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>], 
@@ -447,6 +577,88 @@ mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "reed"}), <ore:screwTitanium>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Iron Capped Reed Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Reed Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "reed", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "reed", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Reed Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "reed", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "reed", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "reed", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "reed", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Reed Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "reed", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "reed", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "reed", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "reed", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Reed Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "reed", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "reed", sceptre: 1 as byte}));
 
 // --- Blazing Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>, 
@@ -541,6 +753,86 @@ mods.thaumcraft.Research.addArcanePage("ROD_blaze", <Thaumcraft:WandCasting:24>.
 mods.thaumcraft.Research.addPage("ROD_blaze", "tc.research_page.ROD_blaze.2");
 game.setLocalization("en_US", "tc.research_page.ROD_blaze.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
+// --- Iron Capped Blaze Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Blaze Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "blaze", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "blaze", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Blaze Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "blaze", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "blaze", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "blaze", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "blaze", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Blaze Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "blaze", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "blaze", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "blaze", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "blaze", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Blaze Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "blaze", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "blaze", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "blaze", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "blaze", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "blaze", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "blaze", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+
 // --- Obsidian Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>, 
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>], 
@@ -634,6 +926,86 @@ mods.thaumcraft.Research.addArcanePage("ROD_obsidian", <Thaumcraft:WandCasting:3
 mods.thaumcraft.Research.addPage("ROD_obsidian", "tc.research_page.ROD_obsidian.2");
 game.setLocalization("en_US", "tc.research_page.ROD_obsidian.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
+// --- Iron Capped Obsidian Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Obsidian Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "obsidian", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "obsidian", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Obsidian Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "obsidian", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "obsidian", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "obsidian", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "obsidian", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Obsidian Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "obsidian", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "obsidian", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "obsidian", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "obsidian", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Obsidian Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "obsidian", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "obsidian", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "obsidian", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "obsidian", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "obsidian", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "obsidian", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+
 // --- Icy Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>, 
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>], 
@@ -721,11 +1093,91 @@ mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:36>.withTag(
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "ice"}), <ore:screwTitanium>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
-
+// -
 mods.thaumcraft.Research.addArcanePage("ROD_ice", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "ice"}));
 // -
 mods.thaumcraft.Research.addPage("ROD_ice", "tc.research_page.ROD_ice.2");
 game.setLocalization("en_US", "tc.research_page.ROD_ice.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
+
+// --- Iron Capped Icy Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Icy Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "ice", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "ice", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Icy Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "ice", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "ice", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "ice", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "ice", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Icy Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "ice", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "ice", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "ice", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "ice", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Icy Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "ice", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "ice", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "ice", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "ice", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "ice", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "ice", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
 
 // --- Quartz Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_quartz", <dreamcraft:item.ChargedCertusQuartzRod>, 
@@ -814,6 +1266,91 @@ mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:36>.withT
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "quartz"}), <ore:screwTitanium>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
+// -
+mods.thaumcraft.Research.addArcanePage("ROD_quartz", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "quartz"}));
+// -
+mods.thaumcraft.Research.addPage("ROD_quartz", "tc.research_page.ROD_quartz.2");
+game.setLocalization("en_US", "tc.research_page.ROD_quartz.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
+
+// --- Iron Capped Quartz Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Quartz Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "quartz", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "quartz", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Quartz Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "quartz", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "quartz", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "quartz", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "quartz", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Quartz Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "quartz", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "quartz", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "quartz", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "quartz", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Quartz Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "quartz", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "quartz", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "quartz", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "quartz", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "quartz", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "quartz", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
 
 // --- Bone Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_bone", <TConstruct:toolRod:5>, 
@@ -904,6 +1441,91 @@ mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:36>.withTag
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "bone"}), <ore:screwTitanium>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
+// -
+mods.thaumcraft.Research.addArcanePage("ROD_bone", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "bone"}));
+// -
+mods.thaumcraft.Research.addPage("ROD_bone", "tc.research_page.ROD_bone.2");
+game.setLocalization("en_US", "tc.research_page.ROD_bone.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
+
+// --- Iron Capped Bone Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.IronWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.IronWandCap>],
+[<dreamcraft:item.IronWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+
+// --- Copper Capped Bone Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "bone", sceptre: 1}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CopperWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "bone", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.CopperWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), <dreamcraft:item.CopperWandCap>],
+[<dreamcraft:item.CopperWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Gold Banded Bone Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "bone", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "bone", sceptre: 1}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "bone", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.GoldWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "bone", sceptre: 1}), <dreamcraft:item.GoldWandCap>],
+[<dreamcraft:item.GoldWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Silver Bossed Bone Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "bone", sceptre: 1}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSilverWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "bone", sceptre: 1}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "bone", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "bone", sceptre: 1}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+[null, <dreamcraft:item.ChargedSilverWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedSilverWandCap>],
+[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTitanium>, null]]);
+
+// --- Thaumium Bossed Bone Scepter
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "bone", sceptre: 1}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedThaumiumWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "bone", sceptre: 1}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "bone", sceptre: 1}), "aer 60, terra 60, ignis 60, aqua 60, ordo 60, perditio 60", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "bone", sceptre: 1}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
+// -
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "thaumium", rod: "bone", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+[null, <dreamcraft:item.ChargedThaumiumWandCap>, null],
+[<ore:screwTitanium>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "bone", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
+[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, null]]);
 
 // --- Silverwood Wand Core
 mods.thaumcraft.Infusion.addRecipe("ROD_silverwood", <Thaumcraft:blockMagicalLog:1>, 
@@ -912,210 +1534,6 @@ mods.thaumcraft.Infusion.addRecipe("ROD_silverwood", <Thaumcraft:blockMagicalLog
 // -
 mods.thaumcraft.Research.setAspects("ROD_silverwood", "instrumentum 50, praecantatio 40, cognitio 30, herba 20, arbor 10");
 mods.thaumcraft.Research.setComplexity("ROD_silverwood", 3);
-
-// --- Iron Capped Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.IronWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.IronWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Copper Capped Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CopperWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CopperWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5", [
-[null, null, <dreamcraft:item.CopperWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.CopperWandCap>, null, null]]);
-
-// --- Gold Banded Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), "aer 85, terra 85, ignis 85, aqua 85, ordo 85, perditio 85", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.GoldWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.GoldWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 5", [
-[null, null, <dreamcraft:item.GoldWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.GoldWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 3", [
-[null, null, <dreamcraft:item.GoldWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.GoldWandCap>, null, null]]);
-
-// --- Silver Bossed Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSilverWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
-[null, null, <dreamcraft:item.ChargedSilverWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
-[null, null, <dreamcraft:item.ChargedSilverWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5", [
-[null, null, <dreamcraft:item.ChargedSilverWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
-
-// --- Thaumium Bossed Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedThaumiumWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 10", [
-[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 8", [
-[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:18>.withTag({cap: "copper", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 5", [
-[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:27>.withTag({cap: "gold", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
-// -
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:54>.withTag({cap: "thaumium", rod: "silverwood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 3", [
-[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:36>.withTag({cap: "silver", rod: "silverwood"}), <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
-
-// --- Wand Focus Fire
-mods.thaumcraft.Arcane.addShaped("FOCUSFIRE", <Thaumcraft:FocusFire>, "ignis 20, perditio 20, ordo 20", [
-[<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>],
-[<ore:gemQuartz>, <ore:lensRuby>, <ore:gemQuartz>],
-[<Thaumcraft:blockCrystal:1>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:1>]]);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSFIRE", "ignis 10, praecantatio 5, motus 5");
-mods.thaumcraft.Research.setComplexity("FOCUSFIRE", 1);
-
-// --- Wand Focus Excavation
-mods.thaumcraft.Arcane.addShaped("FOCUSEXCAVATION", <Thaumcraft:FocusExcavation>, "terra 30, perditio 20, ordo 20", [
-[<Thaumcraft:blockCrystal:3>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:3>],
-[<ore:gemQuartz>, <ore:lensEmerald>, <ore:gemQuartz>],
-[<Thaumcraft:blockCrystal:3>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:3>]]);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSEXCAVATION", "terra 30, praecantatio 10, perditio 20, motus 10");
-mods.thaumcraft.Research.setComplexity("FOCUSEXCAVATION", 2);
-
-// --- Wand Focus Frost
-mods.thaumcraft.Arcane.addShaped("FOCUSFROST", <Thaumcraft:FocusFrost>, "aqua 30, perditio 20, ordo 20", [
-[<Thaumcraft:blockCrystal:2>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:2>],
-[<ore:gemQuartz>, <ore:lensDiamond>, <ore:gemQuartz>],
-[<Thaumcraft:blockCrystal:2>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:2>]]);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSFROST", "aqua 20, gellum 30, praecantatio 10, motus 10");
-mods.thaumcraft.Research.setComplexity("FOCUSFROST", 2);
-
-// --- Wand FocusShock
-mods.thaumcraft.Arcane.addShaped("FOCUSSHOCK", <Thaumcraft:FocusShock>, "aer 30, perditio 20, ordo 20", [
-[<Thaumcraft:blockCrystal>, <ore:gemQuartz>, <Thaumcraft:blockCrystal>],
-[<ore:gemQuartz>, <ore:lensGarnetYellow>, <ore:gemQuartz>],
-[<Thaumcraft:blockCrystal>, <ore:gemQuartz>, <Thaumcraft:blockCrystal>]]);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSSHOCK", "aer 30, praecantatio 10, potentia 20, motus 10");
-mods.thaumcraft.Research.setComplexity("FOCUSSHOCK", 2);
-
-// --- Wand Focus Equal Trade
-mods.thaumcraft.Arcane.addShaped("FOCUSTRADE", <Thaumcraft:FocusTrade>, "aer 20, terra 20, perditio 30, ordo 30", [
-[<Thaumcraft:blockCrystal:6>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:6>],
-[<ore:gemQuartz>, <dreamcraft:item.ReinforcedGlassLense>, <ore:gemQuartz>],
-[<Thaumcraft:blockCrystal:6>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:6>]]);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSTRADE", "permutatio 30, praecantatio 20, terra 10, motus 10");
-mods.thaumcraft.Research.setComplexity("FOCUSTRADE", 2);
-
-// --- Wand Focus Warding
-mods.thaumcraft.Infusion.addRecipe("FOCUSWARDING", <gregtech:gt.metaitem.01:24506>, 
-[<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCrystal:3>, <minecraft:quartz>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemResource:3>, <Thaumcraft:blockCrystal:3>, <minecraft:quartz>, <Thaumcraft:blockCrystal:4>],
- "cognitio 15, ordo 25, terra 30, tutamen 25, praecantatio 10", <Thaumcraft:FocusWarding>, 5);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSWARDING", "terra 40, cognitio 20, ordo 10, tutamen 30, praecantatio 5");
-mods.thaumcraft.Research.setComplexity("FOCUSWARDING", 3);
-
-// --- Wand Focus Portable Hole
-mods.thaumcraft.Infusion.addRecipe("FOCUSPORTABLEHOLE", <gregtech:gt.metaitem.01:24532>, 
-[<minecraft:quartz>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal>, <minecraft:quartz>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:3>], 
-"alienis 40, iter 30, perditio 20, permutatio 10, praecantatio 5", <Thaumcraft:FocusPortableHole>, 2);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSPORTABLEHOLE", "aer 40, iter 30, alienis 20, perditio 10, praecantatio 5");
-mods.thaumcraft.Research.setComplexity("FOCUSPORTABLEHOLE", 3);
-mods.thaumcraft.Warp.addToResearch("NODESTABILIZERADV", 1);
-
-// --- Wand Focus Nine Hells
-mods.thaumcraft.Infusion.addRecipe("FOCUSHELLBAT", <gregtech:gt.metaitem.01:24347>, 
-[<minecraft:quartz>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:5>, <minecraft:quartz>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal>], 
-"aer 30, ignis 40, bestia 20, perditio 10, praecantatio 5", <Thaumcraft:FocusHellbat>, 2);
-// -
-mods.thaumcraft.Research.setAspects("FOCUSHELLBAT", "praecantatio 40, iter 20, ignis 10, bestia 30, motus 5");
-mods.thaumcraft.Research.setComplexity("FOCUSHELLBAT", 3);
-mods.thaumcraft.Warp.addToResearch("NODESTABILIZERADV", 2);
-mods.thaumcraft.Warp.addToItem(<Thaumcraft:FocusHellbat>, 2);
-
-// --- Wand Focus Pouch
-mods.thaumcraft.Arcane.addShaped("FOCUSPOUCH", <Thaumcraft:FocusPouch>, "terra 20, perditio 20, ordo 20", [
-[<ore:boltGold>, <ore:ringGold>, <ore:boltGold>],
-[<harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemBaubleBlanks:2>, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
-
-mods.thaumcraft.Research.setAspects("FOCUSPOUCH", "instrumentum 30, vacuos 20, praecantatio 10, pannus 10");
-mods.thaumcraft.Research.setComplexity("FOCUSPOUCH", 2);
-
-// --- Node Stabilizer
-mods.thaumcraft.Arcane.addShaped("NODESTABILIZER", <Thaumcraft:blockStoneDevice:9>, "aqua 35, terra 35, ordo 25", [
-[<ore:plateThaumium>, <ore:springGold>, <ore:plateThaumium>],
-[<ore:blockQuartz>, <gregtech:gt.metaitem.01:32640>, <ore:blockQuartz>],
-[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemResource:1>, <Thaumcraft:blockCosmeticSolid:7>]]);
-
-mods.thaumcraft.Research.setAspects("NODESTABILIZER", "auram 30, potentia 10, praecantatio 20, ordo 10");
-mods.thaumcraft.Research.setComplexity("NODESTABILIZER", 2);
-
-// --- Advanced Node Stabilizer
-mods.thaumcraft.Infusion.addRecipe("NODESTABILIZERADV", <Thaumcraft:blockStoneDevice:9>, 
-[<minecraft:redstone_block>, <Thaumcraft:ItemResource:1>, <minecraft:redstone_block>, <Thaumcraft:ItemResource>, <minecraft:glowstone>, <minecraft:redstone_block>, <Thaumcraft:ItemResource:1>, <minecraft:redstone_block>, <Thaumcraft:ItemResource>,  <minecraft:glowstone>], 
-"auram 32, ordo 32, potentia 32, praecantatio 32", <Thaumcraft:blockStoneDevice:10>, 10);
-// -
-mods.thaumcraft.Research.setAspects("NODESTABILIZERADV", "auram 50, potentia 30, praecantatio 40, ordo 20, alienis 10");
-mods.thaumcraft.Research.setComplexity("NODESTABILIZERADV", 3);
-mods.thaumcraft.Warp.addToResearch("NODESTABILIZERADV", 2);
-
-// --- Node Transducer
-mods.thaumcraft.Arcane.addShaped("VISPOWER", <Thaumcraft:blockStoneDevice:11>, "ignis 32, aer 32, perditio 32, ordo 32", [
-[<ore:blockRedstone>, <ProjRed|Integration:projectred.integration.gate:26>, <ore:plateThaumium>],
-[<ore:plateThaumium>, <Thaumcraft:blockStoneDevice:9>, <ore:plateThaumium>],
-[<ore:blockRedstone>, <Thaumcraft:ItemResource:1>, <ore:blockRedstone>]]);
-
-// --- Vis Rellay
-mods.thaumcraft.Arcane.addShaped("VISPOWER", <Thaumcraft:blockMetalDevice:14>, "ignis 10, ordo 10", [
-[<ore:screwSteel>, <ore:lensDiamond>, <ore:screwSteel>],
-[<ore:ringThaumium>, <Thaumcraft:blockCrystal:6>, <ore:ringThaumium>],
-[<ore:screwSteel>, <ore:lensDiamond>, <ore:screwSteel>]]);
-// -
-mods.thaumcraft.Research.setAspects("VISPOWER", "auram 40, potentia 30, praecantatio 10, machina 20");
-mods.thaumcraft.Research.setComplexity("VISPOWER", 3);
-
-// --- Wand Recharge Pedestal
-mods.thaumcraft.Infusion.addRecipe("WANDPED", <Thaumcraft:blockStoneDevice:1>, 
-[<gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29500>], 
-"auram 10, permutatio 15, praecantatio 20, ordo 5", <Thaumcraft:blockStoneDevice:5>, 2);
-// -
-mods.thaumcraft.Research.setAspects("WANDPED", "auram 40, potentia 30, praecantatio 10, permutatio 20");
-mods.thaumcraft.Research.setComplexity("WANDPED", 3);
-
-
 
 
 
@@ -1153,49 +1571,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz");
 
 // --- Bone Wand Core
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
-
-// --- Silverwood Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
-
-// --- Wand Focus Fire
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSFIRE");
-
-// --- Wand Focus Excavation
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSEXCAVATION");
-
-// --- Wand Focus Frost
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSFROST");
-
-// --- Wand Focus Shock
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSSHOCK");
-
-// --- Wand Focus Equal Trade
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSTRADE");
-
-// --- Wand Focus Warding
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSWARDING");
-
-// --- Wand Focus Portable Hole
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPORTABLEHOLE");
-
-// --- Wand Focus Nine Hells
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSHELLBAT");
-
-// --- Wand Focus Pouch
-mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPOUCH");
-
-// --- Node Stabilizer
-mods.thaumcraft.Research.refreshResearchRecipe("NODESTABILIZER");
-
-// --- Advanced Node Stabilizer
-mods.thaumcraft.Research.refreshResearchRecipe("NODESTABILIZERADV");
-
-// --- Vis Relay and Node Transducer
-mods.thaumcraft.Research.refreshResearchRecipe("VISPOWER");
-
-// --- Wand Recharge Pedestal
-mods.thaumcraft.Research.refreshResearchRecipe("WANDPED");
-
 
 
 
