@@ -47,6 +47,7 @@ import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.modingameerrorlog.IngameErrorLog;
+import com.dreammaster.modlootbags.LootGroupsHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
@@ -88,6 +89,7 @@ public class MainRegistry {
 	public static CustomToolTipsHandler Module_CustomToolTips = null;
 	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CustomDropsHandler Module_CustomDrops = null;
+	public static LootGroupsHandler Module_LootBags = null;
 	public static IngameErrorLog Module_AdminErrorLogs = null;
 	public static GT_CustomLoader GTCustomLoader = null;
 	public static CoreModConfig CoreConfig;
@@ -185,6 +187,12 @@ public class MainRegistry {
 		{
             Logger.debug("Module_CustomDrops is enabled");
             Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
+		}
+		
+		if (CoreConfig.ModLootBags_Enabled)
+		{
+			Logger.debug("Module_LootBags is enabled");
+			Module_LootBags = new LootGroupsHandler(PreEvent.getModConfigurationDirectory());
 		}
 		
 		// ------------------------------------------------------------
@@ -305,6 +313,12 @@ public class MainRegistry {
 
 		if (CoreConfig.ModCustomDrops_Enabled)
             Module_CustomDrops.LoadConfig();
+		
+		if (CoreConfig.ModLootBags_Enabled)
+		{
+			Module_LootBags.LoadConfig();
+			Module_LootBags.registerBagItem();
+		}
 
 		ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
