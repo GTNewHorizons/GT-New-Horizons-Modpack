@@ -23,7 +23,7 @@ import mods.ic2.Macerator;
 recipes.remove(<Thaumcraft:ItemEssence>);
 
 // --- Shards
-furnace.remove(<Thaumcraft:ItemShard:*>);
+//furnace.remove(<Thaumcraft:ItemShard:*>);
 
 // --- Salis Mundus
 furnace.remove(<Thaumcraft:ItemResource:14>);
