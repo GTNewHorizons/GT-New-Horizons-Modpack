@@ -29,6 +29,7 @@ import com.dreammaster.command.CustomToolTipsCommand;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.command.ItemInHandInfoCommand;
 import com.dreammaster.command.CustomFuelsCommand;
+import com.dreammaster.command.LootBagCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
@@ -47,6 +48,7 @@ import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.modingameerrorlog.IngameErrorLog;
+import com.dreammaster.modlootbags.LootGroupsHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
@@ -88,6 +90,7 @@ public class MainRegistry {
 	public static CustomToolTipsHandler Module_CustomToolTips = null;
 	public static CustomFuelsHandler Module_CustomFuels = null;
 	public static CustomDropsHandler Module_CustomDrops = null;
+	public static LootGroupsHandler Module_LootBags = null;
 	public static IngameErrorLog Module_AdminErrorLogs = null;
 	public static GT_CustomLoader GTCustomLoader = null;
 	public static CoreModConfig CoreConfig;
@@ -187,6 +190,12 @@ public class MainRegistry {
             Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
 		}
 		
+		if (CoreConfig.ModLootBags_Enabled)
+		{
+			Logger.debug("Module_LootBags is enabled");
+			Module_LootBags = new LootGroupsHandler(PreEvent.getModConfigurationDirectory());
+		}
+		
 		// ------------------------------------------------------------
 		
 		
@@ -199,9 +208,6 @@ public class MainRegistry {
 			AddLoginError("[CoreMod-Fluids] Some fluids failed to register. Check the logfile for details");
 		}
 		// ------------------------------------------------------------
-			
-		
-
 		
         if(PreEvent.getSide() == Side.CLIENT) {
             FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
@@ -308,6 +314,12 @@ public class MainRegistry {
 
 		if (CoreConfig.ModCustomDrops_Enabled)
             Module_CustomDrops.LoadConfig();
+		
+		if (CoreConfig.ModLootBags_Enabled)
+		{
+			Module_LootBags.LoadConfig();
+			Module_LootBags.registerBagItem();
+		}
 
 		ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
@@ -331,6 +343,8 @@ public class MainRegistry {
             pEvent.registerServerCommand(new CustomFuelsCommand());
         if (CoreConfig.ModCustomDrops_Enabled)
             pEvent.registerServerCommand(new CustomDropsCommand());
+        if (CoreConfig.ModLootBags_Enabled)
+        	pEvent.registerServerCommand(new LootBagCommand());
 	}
 	
 }

@@ -19,6 +19,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
+import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
 import com.dreammaster.auxiliary.ItemHelper;
@@ -49,7 +50,7 @@ public class CustomDropsHandler
 	{
     	_mConfigFileName = String.format("config/%s/CustomDrops.xml",
         Refstrings.COLLECTIONID);
-    	_mPersistedDB = new PersistedDataBase(pConfigBaseDir, "CustomDrops.ser", Refstrings.COLLECTIONID);
+    	//_mPersistedDB = new PersistedDataBase(pConfigBaseDir, "CustomDrops.ser", Refstrings.COLLECTIONID);
     	_mDeathDebugPlayers = new ArrayList<UUID>();
 	}
 	    
@@ -254,6 +255,13 @@ public class CustomDropsHandler
 	{
 		try
 		{
+	    	if (_mPersistedDB == null)
+	    	{
+	    		_mPersistedDB = new PersistedDataBase(DimensionManager.getCurrentSaveRootDirectory(),
+	    				"CustomDrops.dat",
+	    				Refstrings.COLLECTIONID);
+	    	}
+	    	
 			for (Drop dr : tCustomDrop.getDrops())
 			{
 				String tDropID = dr.getIdentifier();
