@@ -156,7 +156,7 @@ public class GT_CustomLoader
 
     public void run()
     {
-    	GameRegistry.registerItem(QuantumBread.Instance(), String.format("%s:itemQuantumToast", Refstrings.MODID));
+    	GameRegistry.registerItem(QuantumBread.Instance(), "itemQuantumToast");
     	MaterialLoader.run();
     	FluidPipeLoader.run();
     	WireLoader.run();

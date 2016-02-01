@@ -49,6 +49,7 @@ import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.modingameerrorlog.IngameErrorLog;
 import com.dreammaster.modlootbags.LootGroupsHandler;
+import com.dreammaster.network.CoreModDispatcher;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
@@ -72,7 +73,7 @@ import eu.usrv.yamcore.items.ModItemManager;
 
 @Mod(modid = Refstrings.MODID, name = Refstrings.NAME, version = Refstrings.VERSION, 
 	dependencies = 	"required-after:Forge@[10.13.2.1291,);" +
-        			"required-after:YAMCore@[0.5.5,);" + 
+        			"required-after:YAMCore@[0.5.62,);" + 
 					"required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry {
 	
@@ -94,6 +95,7 @@ public class MainRegistry {
 	public static IngameErrorLog Module_AdminErrorLogs = null;
 	public static GT_CustomLoader GTCustomLoader = null;
 	public static CoreModConfig CoreConfig;
+	public static CoreModDispatcher NW;
 	public static Random Rnd = null;
 	public static LogHelper Logger = new LogHelper(Refstrings.MODID);
 	private static SpaceDimRegisterer SpaceDimReg = null;
@@ -123,6 +125,12 @@ public class MainRegistry {
             Module_AdminErrorLogs = new IngameErrorLog();
         }
 
+		// ------------------------------------------------------------
+		Logger.debug("PRELOAD Init NetworkChannel");
+		NW = new CoreModDispatcher(); 
+		NW.registerPackets();
+		// ------------------------------------------------------------        
+        
 		// ------------------------------------------------------------
 		Logger.debug("PRELOAD Init itemmanager");
 		ItemManager = new ModItemManager(Refstrings.MODID); 
@@ -291,7 +299,10 @@ public class MainRegistry {
 			FMLCommonHandler.instance().bus().register(Module_HazardousItems);
 		
 		if (CoreConfig.ModCustomToolTips_Enabled)
+		{
 		    MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
+		    FMLCommonHandler.instance().bus().register(Module_CustomToolTips);
+		}
 		
 		if (CoreConfig.ModCustomFuels_Enabled)
 		    GameRegistry.registerFuelHandler(Module_CustomFuels);

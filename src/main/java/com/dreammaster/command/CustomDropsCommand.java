@@ -6,6 +6,8 @@ import java.util.List;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.server.MinecraftServer;
 
 import com.dreammaster.main.MainRegistry;
 
@@ -118,7 +120,17 @@ public class CustomDropsCommand implements ICommand
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender pCommandSender)
     {
-        return true;
+       	if (pCommandSender instanceof EntityPlayerMP)
+    	{
+    		EntityPlayerMP tEP = (EntityPlayerMP) pCommandSender;
+    		boolean tPlayerOpped = MinecraftServer.getServer().getConfigurationManager().func_152596_g(tEP.getGameProfile());
+    		//boolean tIncreative = tEP.capabilities.isCreativeMode;
+    		return tPlayerOpped; // && tIncreative;
+    	}
+    	else if (pCommandSender instanceof MinecraftServer)
+    		return true;
+    	else
+    		return false;
     }
 
     @Override

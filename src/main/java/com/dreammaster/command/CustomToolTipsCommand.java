@@ -6,9 +6,13 @@ import java.util.List;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.server.MinecraftServer;
 
 import com.dreammaster.main.MainRegistry;
 
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.relauncher.Side;
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 
 public class CustomToolTipsCommand implements ICommand
@@ -65,48 +69,21 @@ public class CustomToolTipsCommand implements ICommand
         }
         else if (pArgs[0].equalsIgnoreCase("reload"))
         {
-            /*boolean bForce = false;
-            if (pArgs.length == 2)
-            {
-                String pSecondArg = pArgs[1];
-                if (pSecondArg.equalsIgnoreCase("force"))
-                    bForce = true;
-            }*/
-
-           /* if (MainRegistry.Module_CustomToolTips.HasConfigChanged() && !bForce)
+            boolean tFlag = MainRegistry.Module_CustomToolTips.ReloadCustomToolTips();
+            if (!tFlag)
             {
                 if (!InGame(pCmdSender))
-                {
-                    PlayerChatHelper.SendPlain(pCmdSender, "[CTT] Config file has changed and was not saved yet.");
-                    PlayerChatHelper.SendPlain(pCmdSender, "[CTT] To confirm the reload, type");
-                    PlayerChatHelper.SendPlain(pCmdSender, "[CTT] /customtooltips reload force");
-                }
+                    PlayerChatHelper.SendPlain(pCmdSender, "[CTT] Reload failed. Check your log for syntax errors");
                 else
-                {
-                    PlayerChatHelper.SendWarn(pCmdSender, "Config file has changed and was not saved yet.");
-                    PlayerChatHelper.SendWarn(pCmdSender, "To confirm the reload, type");
-                    PlayerChatHelper.SendWarn(pCmdSender, "/customtooltips reload force");
-                }
-                    
+                    PlayerChatHelper.SendWarn(pCmdSender, "Reload failed. Check your log for syntax errors");
             }
             else
-            {*/
-                boolean tFlag = MainRegistry.Module_CustomToolTips.ReloadCustomToolTips();
-                if (!tFlag)
-                {
-                    if (!InGame(pCmdSender))
-                        PlayerChatHelper.SendPlain(pCmdSender, "[CTT] Reload failed. Check your log for syntax errors");
-                    else
-                        PlayerChatHelper.SendWarn(pCmdSender, "Reload failed. Check your log for syntax errors");
-                }
+            {
+                if (!InGame(pCmdSender))
+                    PlayerChatHelper.SendPlain(pCmdSender, "[CTT] Reload done. New config is activated");
                 else
-                {
-                    if (!InGame(pCmdSender))
-                        PlayerChatHelper.SendPlain(pCmdSender, "[CTT] Reload done. New config is activated");
-                    else
-                        PlayerChatHelper.SendInfo(pCmdSender, "Reload done. New config is activated");
-                }
-           // }
+                    PlayerChatHelper.SendInfo(pCmdSender, "Reload done. New config is activated");
+            }
         }
         else
             SendHelpToPlayer(pCmdSender);
@@ -128,22 +105,28 @@ public class CustomToolTipsCommand implements ICommand
         }
         else
         {
-            PlayerChatHelper.SendInfo(pCmdSender, "/hazarditems reload");            
+            PlayerChatHelper.SendInfo(pCmdSender, "/customtooltips reload");            
         }
     }
 
-    /*
-     * As it is a clientside thing, everyone should be allowed to do this
-     */
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender pCommandSender)
     {
-        return true;
+    	if (pCommandSender instanceof EntityPlayerMP)
+    	{
+    		EntityPlayerMP tEP = (EntityPlayerMP) pCommandSender;
+    		boolean tPlayerOpped = MinecraftServer.getServer().getConfigurationManager().func_152596_g(tEP.getGameProfile());
+    		//boolean tIncreative = tEP.capabilities.isCreativeMode;
+    		return tPlayerOpped; // && tIncreative;
+    	}
+    	else if (pCommandSender instanceof MinecraftServer)
+    		return true;
+    	else
+    		return false;
     }
 
     @Override
-    public List addTabCompletionOptions(ICommandSender p_71516_1_,
-            String[] p_71516_2_)
+    public List addTabCompletionOptions(ICommandSender p_71516_1_, String[] p_71516_2_)
     {
         return null;
     }

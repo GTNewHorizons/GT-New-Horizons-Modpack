@@ -348,15 +348,17 @@ public class HazardousItemsCommand implements ICommand
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender pCommandSender)
     {
-        if (FMLCommonHandler.instance().getEffectiveSide() == Side.SERVER && !FMLCommonHandler.instance().getMinecraftServerInstance().isDedicatedServer())
-            return true;
-
-        if (pCommandSender instanceof EntityPlayerMP)
-        {
-            EntityPlayerMP tEP = (EntityPlayerMP) pCommandSender;
-            return MinecraftServer.getServer().getConfigurationManager().func_152596_g(tEP.getGameProfile());
-        }
-        return true;
+       	if (pCommandSender instanceof EntityPlayerMP)
+    	{
+    		EntityPlayerMP tEP = (EntityPlayerMP) pCommandSender;
+    		boolean tPlayerOpped = MinecraftServer.getServer().getConfigurationManager().func_152596_g(tEP.getGameProfile());
+    		//boolean tIncreative = tEP.capabilities.isCreativeMode;
+    		return tPlayerOpped; // && tIncreative;
+    	}
+    	else if (pCommandSender instanceof MinecraftServer)
+    		return true;
+    	else
+    		return false;
     }
 
     @Override
