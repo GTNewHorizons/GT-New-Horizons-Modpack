@@ -8,6 +8,7 @@
 
 Version 1.0.7.6 is out (16.01.2016)(GT New Horizons Coremod 1.0.9) (GTTweaker 1.0.9)
 
+[![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
 Large Modpack with every recipe Gregified
 -
