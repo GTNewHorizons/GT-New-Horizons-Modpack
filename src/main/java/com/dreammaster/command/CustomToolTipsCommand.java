@@ -69,7 +69,7 @@ public class CustomToolTipsCommand implements ICommand
         }
         else if (pArgs[0].equalsIgnoreCase("reload"))
         {
-            boolean tFlag = MainRegistry.Module_CustomToolTips.ReloadCustomToolTips();
+            boolean tFlag = MainRegistry.Module_CustomToolTips.reload();
             if (!tFlag)
             {
                 if (!InGame(pCmdSender))

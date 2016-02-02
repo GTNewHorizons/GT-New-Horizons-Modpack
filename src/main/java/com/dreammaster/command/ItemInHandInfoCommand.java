@@ -141,8 +141,7 @@ public class ItemInHandInfoCommand implements ICommand
     }
 
     @Override
-    public List addTabCompletionOptions(ICommandSender p_71516_1_,
-            String[] p_71516_2_)
+    public List addTabCompletionOptions(ICommandSender p_71516_1_, String[] p_71516_2_)
     {
         return null;
     }

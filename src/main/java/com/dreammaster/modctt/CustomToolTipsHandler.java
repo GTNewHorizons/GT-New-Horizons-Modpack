@@ -9,21 +9,17 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modctt.CustomToolTips.ItemToolTip;
-import com.dreammaster.network.CTTClientSyncMessage;
+import com.dreammaster.network.msg.CTTClientSyncMessage;
 
-import cpw.mods.fml.common.gameevent.PlayerEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.network.NetworkRegistry.TargetPoint;
-import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.common.gameevent.PlayerEvent;
 import eu.usrv.yamcore.auxiliary.LogHelper;
-import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 
 public class CustomToolTipsHandler
 {
@@ -40,9 +36,9 @@ public class CustomToolTipsHandler
     public void processServerConfig(String pServerXML)
     {
     	if (ReloadCustomToolTips(pServerXML))
-    		_mLogger.info("[CustomToolTips] Received and activated configuration from server");
+    		_mLogger.info("[CTT] Received and activated configuration from server");
     	else
-    		_mLogger.warn("[CustomToolTips] Received invalid configuration from server; Not activated!");
+    		_mLogger.warn("[CTT] Received invalid configuration from server; Not activated!");
     }
     
     public CustomToolTipsHandler()
@@ -54,9 +50,7 @@ public class CustomToolTipsHandler
     public void InitSampleConfig()
     {
         _mCustomToolTips = new CustomToolTips();
-        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:diamond", "§8F§4a§6n§4c§2y §4D§6i§9a§4m§7o§5n§1d§8s§2!"));
         _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:stone", "Wow, such stone, much rock"));
-        _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:dirt", "§k U CAN'T READ"));
         _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:coal", "This is coal..."));
         _mCustomToolTips.getToolTips().add(_mCttFactory.createCustomItemToolTip("minecraft:coal:1", "...and this charcoal!"));
     }
@@ -75,17 +69,17 @@ public class CustomToolTipsHandler
             jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); 
             jaxMarsh.marshal(_mCustomToolTips, new FileOutputStream(_mConfigFileName, false));
 
-            _mLogger.debug("Config file written");
+            _mLogger.debug("[CTT.SaveCustomToolTips] Config file written");
             return true;
         } catch (Exception e)
         {
-            _mLogger.error("Unable to create new CustomToolTips.xml. What did you do??");
+            _mLogger.error("[CTT.SaveCustomToolTips] Unable to create new CustomToolTips.xml. What did you do??");
             e.printStackTrace();
             return false;
         }
     }
 
-    private String getToolTipXMLStream()
+    private String getXMLStream()
     {
         try
         {
@@ -98,7 +92,7 @@ public class CustomToolTipsHandler
             return tSW.toString();
         } catch (Exception e)
         {
-            _mLogger.error("Unable to serialize tooltip objects");
+            _mLogger.error("[CTT.getXMLStream] Unable to serialize tooltip objects");
             e.printStackTrace();
             return "";
         }
@@ -109,11 +103,17 @@ public class CustomToolTipsHandler
      */
     public void LoadConfig()
     {
-        _mLogger.debug("CustomToolTips entering state: LOAD CONFIG");
+    	if (_mInitialized)
+    	{
+    		_mLogger.error("[LootBags] Something just called LoadConfig AFTER it has been initialized!");
+    		return;
+    	}
+    	
+        _mLogger.debug("[CTT.LoadConfig] entering state: LOAD CONFIG");
         File tConfigFile = new File(_mConfigFileName);
         if (!tConfigFile.exists())
         {
-            _mLogger.debug("CustomToolTips Config file not found, assuming first-start. Creating default one");
+            _mLogger.debug("[CTT.LoadConfig] Config file not found, assuming first-start. Creating default one");
             InitSampleConfig();
             SaveCustomToolTips();
         }
@@ -121,9 +121,9 @@ public class CustomToolTipsHandler
         // Fix for broken XML file; If it can't be loaded on reboot, keep it
         // there to be fixed, but load
         // default setting instead, so an Op/Admin can do reload ingame
-        if (!ReloadCustomToolTips())
+        if (!reload())
         {
-            _mLogger.warn("Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
+            _mLogger.warn("[CTT.LoadConfig] Configuration File seems to be damaged, loading does-nothing-evil default config. You should fix your file and reload it");
             MainRegistry.AddLoginError("[CustomToolTips] Config file not loaded due errors");
             InitSampleConfig();
         }
@@ -131,10 +131,17 @@ public class CustomToolTipsHandler
     }
 
     /**
-     * Reload XML tooltips in local instance
+     * Initiate reload. Will reload the config from disk and replace
+     * the internal list. If the file contains errors, nothing will be replaced, and
+     * an errormessage will be sent to the command issuer.
+     * 
+     * This method will just load the config the first time it is called, as this will happen
+     * in the servers load/postinit phase. After that, every call is caused by someone who tried to
+     * do an ingame reload. If that is successful, the updated config is broadcasted to every
+     * connected client
      * @return
      */
-    public boolean ReloadCustomToolTips()
+    public boolean reload()
     {
     	boolean tState = ReloadCustomToolTips("");
     	if (_mInitialized)
@@ -142,18 +149,30 @@ public class CustomToolTipsHandler
 	    	if (tState)
 	    		sendClientUpdate();
 	    	else
-	    		_mLogger.error("Reload of tooltip file failed. Not sending client update");
+	    		_mLogger.error("[CTT.ReloadCustomToolTips] Reload of tooltip file failed. Not sending client update");
     	}    	
     	return tState;
     }
     
     private void sendClientUpdate()
     {
-		String tPayload = getToolTipXMLStream();
-		if (!tPayload.isEmpty())
-			MainRegistry.NW.sendToAll(new CTTClientSyncMessage(tPayload));
+    	sendClientUpdate(null);
+    }
+    
+    private void sendClientUpdate(EntityPlayerMP pPlayer)
+    {
+    	String tPayload = getXMLStream();
+    	if (!tPayload.isEmpty())
+    	{
+			if (pPlayer != null && pPlayer instanceof EntityPlayerMP)
+				MainRegistry.NW.sendTo(new CTTClientSyncMessage(tPayload), pPlayer);
+			else if (pPlayer == null)
+				MainRegistry.NW.sendToAll(new CTTClientSyncMessage(tPayload));
+			else
+				_mLogger.error("[CTT.sendClientUpdate] Target is no EntityPlayer and not null");
+    	}
 		else
-			_mLogger.error("Unable to send update to clients; Received empty serialized object");		
+			_mLogger.error("[CTT.sendClientUpdate] Unable to send update to clients; Received empty serialized object");		
 	}
 
 	/**
@@ -162,11 +181,11 @@ public class CustomToolTipsHandler
      * 
      * @return
      */
-    public boolean ReloadCustomToolTips(String pXMLContent)
+    private boolean ReloadCustomToolTips(String pXMLContent)
     {
         boolean tResult = false;
 
-        _mLogger.debug("CustomToolTipsHandler will now try to load it's configuration");
+        _mLogger.debug("[CTT.ReloadCustomToolTips] will now try to load it's configuration");
         try
         {
             JAXBContext tJaxbCtx = JAXBContext.newInstance(CustomToolTips.class);
@@ -178,13 +197,13 @@ public class CustomToolTipsHandler
             {
             	File tConfigFile = new File(_mConfigFileName);
             	tNewItemCollection = (CustomToolTips) jaxUnmarsh.unmarshal(tConfigFile);
-            	_mLogger.debug("Config file has been loaded. Entering Verify state");
+            	_mLogger.debug("[CTT.ReloadCustomToolTips] Config file has been loaded. Entering Verify state");
             }
             else
             {
             	StringReader reader = new StringReader(pXMLContent);
             	tNewItemCollection = (CustomToolTips) jaxUnmarsh.unmarshal(reader);
-            	_mLogger.debug("Received Server-Tooltips. Entering Verify state");
+            	_mLogger.debug("[CTT.ReloadCustomToolTips] Received Server-Tooltips. Entering Verify state");
             }
 
             _mCustomToolTips = tNewItemCollection;
@@ -202,7 +221,7 @@ public class CustomToolTipsHandler
     public void onPlayerJoin(PlayerEvent.PlayerLoggedInEvent pEvent)
     {
     	if (pEvent.player instanceof EntityPlayerMP)
-    		sendClientUpdate();
+    		sendClientUpdate((EntityPlayerMP)pEvent.player);
     }
     
     @SubscribeEvent

@@ -302,6 +302,7 @@ public class MainRegistry {
 		{
 		    MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
 		    FMLCommonHandler.instance().bus().register(Module_CustomToolTips);
+		    FMLCommonHandler.instance().bus().register(Module_LootBags);
 		}
 		
 		if (CoreConfig.ModCustomFuels_Enabled)
