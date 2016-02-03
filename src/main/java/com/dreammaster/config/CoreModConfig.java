@@ -19,7 +19,6 @@ public class CoreModConfig extends ConfigManager
 	public boolean ModCustomDrops_Enabled;
 	public boolean ModAdminErrorLogs_Enabled;
 	public boolean ModBabyChest_Enabled;
-	public boolean ModLootBags_Enabled;
 	public int PotionTimer;
 	
 	@Override
@@ -31,7 +30,6 @@ public class CoreModConfig extends ConfigManager
 		ModCustomDrops_Enabled = false;
 		ModAdminErrorLogs_Enabled = true;
 		ModBabyChest_Enabled = true;
-		ModLootBags_Enabled = true;
 		PotionTimer = 100;
 	}
 
@@ -44,7 +42,6 @@ public class CoreModConfig extends ConfigManager
 		ModCustomFuels_Enabled = _mainConfig.getBoolean("CustomFuels", "Modules", ModCustomFuels_Enabled, "Set to true to enable CustomFuels module. Allows you to set burn-time values to almost any item");
 		ModAdminErrorLogs_Enabled = _mainConfig.getBoolean("AdminErrorLog", "Modules", ModAdminErrorLogs_Enabled, "If set to true, every op/admin will receive all errors occoured during the startup phase as ingame message on join");
 		ModBabyChest_Enabled = _mainConfig.getBoolean("BabyChest", "Modules", ModBabyChest_Enabled, "A complete, full working example for a custom chest, with its own renderer for items and blocks, custom sound and a GUI");
-		ModLootBags_Enabled = _mainConfig.getBoolean("LootBags", "Modules", ModLootBags_Enabled, "Custom lootbags. Much fancy");
 		PotionTimer = _mainConfig.getInt("PotionTimer", "Limits", PotionTimer, 100, 2048, "The time (in ticks) the potion effect will remain on the player when he drops the bucket. 20 = 1 second");
 	}
 

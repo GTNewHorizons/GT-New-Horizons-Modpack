@@ -198,12 +198,11 @@ public class MainRegistry {
             Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
 		}
 		
-		if (CoreConfig.ModLootBags_Enabled)
-		{
-			Logger.debug("Module_LootBags is enabled");
-			Module_LootBags = new LootGroupsHandler(PreEvent.getModConfigurationDirectory());
-		}
-		
+
+		// This is mandatory to load; As the HQM file will break if it's disabled
+		Module_LootBags = new LootGroupsHandler(PreEvent.getModConfigurationDirectory());
+		Module_LootBags.LoadConfig();
+		Module_LootBags.registerBagItem();		
 		// ------------------------------------------------------------
 		
 		
@@ -327,12 +326,6 @@ public class MainRegistry {
 		if (CoreConfig.ModCustomDrops_Enabled)
             Module_CustomDrops.LoadConfig();
 		
-		if (CoreConfig.ModLootBags_Enabled)
-		{
-			Module_LootBags.LoadConfig();
-			Module_LootBags.registerBagItem();
-		}
-
 		ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
         GTCustomLoader.run();
@@ -355,8 +348,8 @@ public class MainRegistry {
             pEvent.registerServerCommand(new CustomFuelsCommand());
         if (CoreConfig.ModCustomDrops_Enabled)
             pEvent.registerServerCommand(new CustomDropsCommand());
-        if (CoreConfig.ModLootBags_Enabled)
-        	pEvent.registerServerCommand(new LootBagCommand());
+
+        pEvent.registerServerCommand(new LootBagCommand());
 	}
 	
 }
