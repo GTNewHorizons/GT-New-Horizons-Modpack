@@ -1859,6 +1859,16 @@ PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> *
 
 
 
+// --- Macerator Recipes ---
+
+
+// --- Basalt Dust
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2844>, <IC2:blockBasalt>);
+
+
+
+
+
 // --- Mixer Recipes ---
 
 
