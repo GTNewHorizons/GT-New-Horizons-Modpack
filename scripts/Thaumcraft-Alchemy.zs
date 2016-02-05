@@ -48,7 +48,6 @@ recipes.removeShaped(<ore:ingotThaumium>, [
 [<ore:nuggetThaumium>, <ore:nuggetThaumium>, <ore:nuggetThaumium>],
 [<ore:nuggetThaumium>, <ore:nuggetThaumium>, <ore:nuggetThaumium>]]);
 
-
 // --- Thaumium Nuggets
 recipes.remove(<Thaumcraft:ItemNugget:6>);
 
@@ -70,8 +69,29 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube>);
 // --- Essentia Valve
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:1>);
 
+// --- Filtered Essentia Tube
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:3>);
+
+// --- Restricted Essentia Tubes
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:5>);
+
+// --- Directional Essentia Tubes
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:6>);
+
+// --- Alchemical Centrifuge
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:2>);
+
+// --- Essentia Buffer
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:4>);
+
 // --- Essentia Resonator
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResonator>);
+
+// --- Essentia Crystelizer
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTube:7>);
+
+// --- Mnemonic Matrix
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:12>);
 
 // --- Warded Jar
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar>);
@@ -81,6 +101,12 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar:3>);
 
 // --- Purifying Bath Salt
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemBathSalts>);
+
+// --- Sanitizing Soap
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemSanitySoap>);
+
+// --- Arcane Spa
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:12>);
 
 // --- Quicksilver
 recipes.remove(<Thaumcraft:ItemResource:3>);
@@ -197,6 +223,60 @@ mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:ItemResonator>, "aer 8, aq
 [<ore:screwThaumium>, <Thaumcraft:ItemNugget:5>, <ore:stickThaumium>],
 [<ore:stickWood>, <ore:screwThaumium>, <ore:craftingToolFile>]]);
 
+// --- Filtered Essentia Tube
+mods.thaumcraft.Arcane.addShaped("TUBEFILTER", <Thaumcraft:blockTube:3>, "ordo 16, aqua 16", [
+[<ore:craftingToolScrewdriver>, <Thaumcraft:ItemResource:8>, <ore:craftingToolFile>],
+[<ore:screwThaumium>, <Thaumcraft:blockTube>, <ore:screwThaumium>],
+[null, <Thaumcraft:ItemResource:8>, null]]);
+// -
+mods.thaumcraft.Research.setAspects("TUBEFILTER", "praecantatio 40, permutatio 30, aqua 50, ordo 20, limus 10");
+mods.thaumcraft.Research.setComplexity("TUBEFILTER", 3);
+
+// --- Restricted Essentia Tubes
+mods.thaumcraft.Arcane.addShaped("TUBEFILTER", <Thaumcraft:blockTube:5>, "terra 16, aqua 16", [
+[null, null, null],
+[<ore:ringRubber>, <Thaumcraft:blockTube>, <ore:ringRubber>],
+[null, null, null]]);
+
+// --- Directional Essentia Tubes
+mods.thaumcraft.Arcane.addShaped("TUBEFILTER", <Thaumcraft:blockTube:6>, "ordo 16, perditio 8, aqua 8", [
+[null, null, null],
+[<ore:dyeBlue>, <Thaumcraft:blockTube>, <ore:screwThaumium>],
+[null, null, null]]);
+
+// --- Alchemical Centrifuge
+mods.thaumcraft.Arcane.addShaped("CENTRIFUGE", <Thaumcraft:blockTube:2>, "ordo 32, perditio 16, aqua 16", [
+[<ore:screwThaumium>, <Thaumcraft:blockTube>, <ore:screwThaumium>],
+[<Thaumcraft:blockMetalDevice:1>, <Thaumcraft:blockMetalDevice:9>, <gregtech:gt.metaitem.01:32641>],
+[<ore:screwThaumium>, <Thaumcraft:blockTube>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("CENTRIFUGE", "fabrico 40, perditio 30, permutatio 50, praecantatio 20, machina 10");
+mods.thaumcraft.Research.setComplexity("CENTRIFUGE", 3);
+
+// --- Essentia Buffer
+mods.thaumcraft.Arcane.addShaped("CENTRIFUGE", <Thaumcraft:blockTube:4> * 4, "ordo 20, aqua 20", [
+[<Thaumcraft:ItemEssence>, <Thaumcraft:blockTube:1>, <Thaumcraft:ItemEssence>],
+[<Thaumcraft:blockTube>, <ore:screwThaumium>, <Thaumcraft:blockTube>],
+[<Thaumcraft:ItemEssence>, <Thaumcraft:blockTube:5>, <Thaumcraft:ItemEssence>]]);
+
+// --- Essentia Crystelizer
+mods.thaumcraft.Arcane.addShaped("ESSENTIACRYSTAL", <Thaumcraft:blockTube:7>, "terra 20, ordo 15, aqua 10", [
+[<ore:plateThaumium>, <minecraft:dispenser>, <ore:plateThaumium>],
+[<Thaumcraft:blockCrystal:6>, <Thaumcraft:blockMetalDevice:9>, <Thaumcraft:blockCrystal:6>],
+[<ore:screwThaumium>, <Thaumcraft:blockTube>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("ESSENTIACRYSTAL", "aqua 40, praecantatio 30, permutatio 50, vitreus 20, terra 10");
+mods.thaumcraft.Research.setComplexity("ESSENTIACRYSTAL", 3);
+
+// --- Mnemonic Matrix
+mods.thaumcraft.Arcane.addShaped("THAUMATORIUM", <Thaumcraft:blockMetalDevice:12>, "ignis 10, ordo 10, aqua 10", [
+[<ore:plateThaumium>, <ore:gemFlawlessAmber>, <ore:plateThaumium>],
+[<ore:gemFlawlessAmber>, <Thaumcraft:ItemZombieBrain>, <ore:gemFlawlessAmber>],
+[<ore:plateThaumium>, <ore:gemFlawlessAmber>, <ore:plateThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("THAUMATORIUM", "fabrico 40, aqua 30, permutatio 50, praecantatio 20, cognitio 10");
+mods.thaumcraft.Research.setComplexity("THAUMATORIUM", 3);
+
 // --- Iron Transmutation
 mods.thaumcraft.Research.setAspects("TRANSIRON", "metallum 25, ordo 15, permutatio 5");
 mods.thaumcraft.Research.setComplexity("TRANSIRON", 1);
@@ -268,6 +348,27 @@ mods.thaumcraft.Crucible.addRecipe("BATHSALTS", <Thaumcraft:ItemBathSalts>, <Tha
 // -
 mods.thaumcraft.Research.setAspects("BATHSALTS", "sano 35, cognitio 25, auram 45, ordo 15, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("BATHSALTS", 2);
+
+// --- Sanitizing Soap
+mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:5>, "alienis 20, cognitio 20, sano 20, ordo 20");
+// -
+mods.thaumcraft.Research.setAspects("SANESOAP", "sano 50, alienis 40, cognitio 30, ordo 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("SANESOAP", 3);
+
+// --- Arcane Spa
+mods.thaumcraft.Research.clearPages("ARCANESPA");
+mods.thaumcraft.Research.addPage("ARCANESPA", "tc.research_page.JARVOID.1");
+mods.thaumcraft.Infusion.addRecipe("ARCANESPA", <Thaumcraft:blockJar>,
+[<dreamcraft:item.StainlessSteelBars>, <minecraft:quartz_block>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemBathSalts>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <minecraft:quartz_block>], 
+"ordo 24, praecantatio 16, sano 16, aqua 32, machina 8", <Thaumcraft:blockStoneDevice:12>, 4);
+mods.thaumcraft.Research.addInfusionPage("ARCANESPA", <Thaumcraft:blockStoneDevice:12>);
+// -
+mods.thaumcraft.Research.setAspects("ARCANESPA", "ordo 50, aqua 40, machina 30, sano 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("ARCANESPA", 3);
+
+// --- Liquid Death
+mods.thaumcraft.Research.setAspects("LIQUIDDEATH", "aqua 50, mortuus 40, perditio 30, venenum 20, tenebrae 10");
+mods.thaumcraft.Research.setComplexity("LIQUIDDEATH", 3);
 
 
 
@@ -345,14 +446,32 @@ mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 // --- Alchemical Manufacture
 mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALMANUFACTURE");
 
+// --- Mnemonic Matrix
+mods.thaumcraft.Research.refreshResearchRecipe("THAUMATORIUM");
+
 // --- Entropic Processing
 mods.thaumcraft.Research.refreshResearchRecipe("ENTROPICPROCESSING");
 
 // --- Purifying Bath Salt
 mods.thaumcraft.Research.refreshResearchRecipe("BATHSALTS");
 
+// --- Sanitizing Soap
+mods.thaumcraft.Research.refreshResearchRecipe("SANESOAP");
+
+// --- Arcane Spa
+mods.thaumcraft.Research.refreshResearchRecipe("ARCANESPA");
+
 // --- Essentia Tubes
 mods.thaumcraft.Research.refreshResearchRecipe("TUBES");
+
+// --- Filtered Essentia Tube
+mods.thaumcraft.Research.refreshResearchRecipe("TUBEFILTER");
+
+// --- Alchemical Centrifuge
+mods.thaumcraft.Research.refreshResearchRecipe("CENTRIFUGE");
+
+// --- Essentia Crystelizer
+mods.thaumcraft.Research.refreshResearchRecipe("ESSENTIACRYSTAL");
 
 // --- Iron Transmutation
 mods.thaumcraft.Research.refreshResearchRecipe("TRANSIRON");
@@ -389,6 +508,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("PURELEAD");
 
 // --- Silver Purification
 mods.thaumcraft.Research.refreshResearchRecipe("PURESILVER");
+
+// --- Liquid Death
+mods.thaumcraft.Research.refreshResearchRecipe("LIQUIDDEATH");
 
 
 

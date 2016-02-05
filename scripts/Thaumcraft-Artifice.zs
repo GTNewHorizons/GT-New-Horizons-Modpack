@@ -130,11 +130,23 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
 // --- Amulet of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAmuletRunic>);
 
+// --- Amulet of Emergency Shielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAmuletRunic:1>);
+
 // --- Ring of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemRingRunic:1>);
 
+// --- Charged Ring of Shielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemRingRunic:2>);
+
+// --- Revitalizing Ring of Shielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemRingRunic:3>);
+
 // --- Girdle of Runic Shielding
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleRunic>);
+
+// --- Kinetic Girdle of Shielding
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleRunic:1>);
 
 // --- Arcan Bore Base
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:4>);
@@ -156,6 +168,12 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemShovelElemental>);
 
 // --- Hoe of Growth
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHoeElemental>);
+
+// --- Thaumostatic Harness
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:HoverHarness>);
+
+// --- Thauostatic Girdle
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleHover>);
 
 
 
@@ -460,15 +478,47 @@ mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:1>
 mods.thaumcraft.Research.setAspects("RUNICARMOR", "cognitio 45, tutamen 55, aer 25, potentia 35, praecantatio 15, alienis 5");
 mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
+// --- Charged Ring of Shielding
+mods.thaumcraft.Infusion.addRecipe("RUNICCHARGED", <Thaumcraft:ItemRingRunic:1>,
+[<minecraft:potion:8226>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:1>, <minecraft:potion:8226>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:1>],
+"potentia 64, tutamen 32, praecantatio 32, alienis 16, aer 8", <Thaumcraft:ItemRingRunic:2>, 6);
+// -
+mods.thaumcraft.Research.setAspects("RUNICCHARGED", "praecantatio 55, potentia 65, tutamen 35, alienis 45, aer 25, cognitio 15, cognitio 5");
+mods.thaumcraft.Research.setComplexity("RUNICCHARGED", 3);
+
+// --- Revitalizing Ring of Shielding
+mods.thaumcraft.Infusion.addRecipe("RUNICHEALING", <Thaumcraft:ItemRingRunic:1>,
+[<minecraft:potion:8225>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:2>, <minecraft:potion:8225>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:2>],
+"aqua 64, praecantatio 32, sano 32, tutamen 32, aer 8", <Thaumcraft:ItemRingRunic:3>, 6);
+// -
+mods.thaumcraft.Research.setAspects("RUNICHEALING", "praecantatio 55, aqua 65, sano 45, tutamen 35, alienis 25, aer 15, cognitio 5");
+mods.thaumcraft.Research.setComplexity("RUNICHEALING", 3);
+
 // --- Amulet of Runic Shielding
 mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks>, 
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 40, tutamen 40, praecantatio 40, alienis 20", <Thaumcraft:ItemAmuletRunic>, 4);
 
+// --- Amulet of Emergency Shielding
+mods.thaumcraft.Infusion.addRecipe("RUNICEMERGENCY", <Thaumcraft:ItemAmuletRunic>,
+[<minecraft:potion:8233>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:3>, <minecraft:potion:8233>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:3>],
+"praecantatio 64, terra 64, tutamen 64, vacuos 32, sano 8", <Thaumcraft:ItemAmuletRunic:1>, 8);
+// -
+mods.thaumcraft.Research.setAspects("RUNICEMERGENCY", "vocuos 55, praecantatio 65, terra 45, tutamen 35, alienis 25, sano 15, cognitio 5");
+mods.thaumcraft.Research.setComplexity("RUNICEMERGENCY", 3);
+
 // --- Girdle of Runic Shielding
 mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:2>, 
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <Thaumcraft:ItemResource:7>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 55, tutamen 55, praecantatio 55, alienis 35", <Thaumcraft:ItemGirdleRunic>, 4);
+
+// --- Kinetic Girdle of Shielding
+mods.thaumcraft.Infusion.addRecipe("RUNICKINETIC", <Thaumcraft:ItemGirdleRunic>,
+[<minecraft:potion:16428>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>, <minecraft:potion:16428>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>],
+"aer 64, praecantatio 64, tutamen 64, bestia 32, telum 8", <Thaumcraft:ItemGirdleRunic:1>, 8);
+// -
+mods.thaumcraft.Research.setAspects("RUNICKINETIC", "aer 55, praecantatio 65, tutamen 45, telum 35, alienis 25, bestia 15, cognitio 5");
+mods.thaumcraft.Research.setComplexity("RUNICKINETIC", 3);
 
 // --- Arcan Bore
 mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <gregtech:gt.metaitem.01:32641>, 
@@ -524,7 +574,21 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE", <Thaumcraft:ItemHoeThaumium>,
 mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 45, victus 35, meto 25, messis 15, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("ELEMENTALHOE", 3);
 
+// --- Thaumostatic Harness
+mods.thaumcraft.Infusion.addRecipe("HOVERHARNESS", <minecraft:leather_chestplate>, 
+[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17019>, <gregtech:gt.metaitem.01:17086>, <ProjRed|Integration:projectred.integration.gate:26>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockWoodenDevice:6>],
+"iter 32, machina 64, potentia 32, volatus 32, tutamen 16", <Thaumcraft:HoverHarness>, 6);
+// -
+mods.thaumcraft.Research.setAspects("HOVERHARNESS", "volatus 55, machina 45, iter 35, ear 25, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setComplexity("HOVERHARNESS", 3);
 
+// --- Thauostatic Girdle
+mods.thaumcraft.Infusion.addRecipe("HOVERGIRDLE", <Thaumcraft:ItemBaubleBlanks:2>,
+[<Thaumcraft:blockCrystal>, <minecraft:feather>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17019>, <gregtech:gt.metaitem.01:17086>, <TwilightForest:item.tfFeather>],
+"aer 64, iter 32, potentia 32, volatus 32, tutamen 16", <Thaumcraft:ItemGirdleHover>, 8);
+// -
+mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 55, motos 45, iter 35, ear 25, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setComplexity("HOVERGIRDLE", 3);
 
 
 
@@ -618,6 +682,18 @@ mods.thaumcraft.Research.refreshResearchRecipe("BOOTSTRAVELLER");
 // --- Amulet Ring and Girdle of Runic Schielding
 mods.thaumcraft.Research.refreshResearchRecipe("RUNICARMOR");
 
+// --- Kinetic Girdle of Shielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICKINETIC");
+
+// --- Amulet of Emergency Shielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICEMERGENCY");
+
+// --- Charged Ring of Shielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICCHARGED");
+
+// --- Revitalizing Ring of Shielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICHEALING");
+
 // --- Arcan Bore and Base
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANEBORE");
 
@@ -635,6 +711,12 @@ mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSHOVEL");
 
 // --- Hoe of Growth
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALHOE");
+
+// --- Thaumostatic Harness
+mods.thaumcraft.Research.refreshResearchRecipe("HOVERHARNESS");
+
+// --- Thauostatic Girdle
+mods.thaumcraft.Research.refreshResearchRecipe("HOVERGIRDLE");
 
 
 
