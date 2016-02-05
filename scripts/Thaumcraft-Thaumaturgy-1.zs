@@ -1360,7 +1360,6 @@ mods.thaumcraft.Infusion.addRecipe("ROD_bone", <TConstruct:toolRod:5>,
 mods.thaumcraft.Research.setAspects("ROD_bone", "instrumentum 25, praecantatio 20, exanimis 15, perditio 10, arbor 5");
 mods.thaumcraft.Research.setComplexity("ROD_bone", 2);
 mods.thaumcraft.Warp.addToResearch("ROD_bone", 1);
-mods.thaumcraft.Warp.addToItem(<Thaumcraft:WandRod:7>, 1);
 
 // --- Iron Capped Bone Wand
 mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "bone"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 25", [
