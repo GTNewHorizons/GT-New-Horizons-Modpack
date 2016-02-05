@@ -175,6 +175,29 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:HoverHarness>);
 // --- Thauostatic Girdle
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleHover>);
 
+// --- Magic Mirrored
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockMirror>);
+
+// --- Magic Hand Mirrored
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:HandMirror>);
+
+// --- Essentia Mirrored
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockMirror:6>);
+
+// --- Brain in a Jar
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockJar:1>);
+
+// --- Thaumium Fortress Helm
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
+
+// --- Thaumium Fortress Cuirass
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateFortress>);
+
+// --- Thaumium Fortress Tigh Guards
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsFortress>);
+
+
+
 
 
 // --- Adding Recipes ---
@@ -590,6 +613,64 @@ mods.thaumcraft.Infusion.addRecipe("HOVERGIRDLE", <Thaumcraft:ItemBaubleBlanks:2
 mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 55, motos 45, iter 35, ear 25, praecantatio 15, tutamen 5");
 mods.thaumcraft.Research.setComplexity("HOVERGIRDLE", 3);
 
+// --- Runic Shielding
+mods.thaumcraft.Research.setAspects("RUNICARMOR", "praecantatio 65, lucrum 55, permutatio 45, tutanem 35, cognitio 25, alienis 15, potentia 5");
+mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
+
+// --- Magic Mirror
+mods.thaumcraft.Infusion.addRecipe("MIRROR", <Thaumcraft:ItemResource:10>,
+[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
+"iter 16, permutatio 16, tenebrae 16, alienis 8", <Thaumcraft:blockMirror>, 2);
+// -
+mods.thaumcraft.Research.setAspects("MIRROR", "vitreus 65, iter 55, tenebrae 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setComplexity("MIRROR", 3);
+
+// --- Magic Hand Mirror
+mods.thaumcraft.Infusion.addRecipe("MIRRORHAND", <Thaumcraft:blockMirror>,
+[<minecraft:compass>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27330>, <minecraft:map>, <gregtech:gt.metaitem.01:27330>, <Thaumcraft:WandRod>, <gregtech:gt.metaitem.01:27330>],
+"instrumentum 32, iter 32, alienis 16, potentia 8", <Thaumcraft:HandMirror>, 5);
+// -
+mods.thaumcraft.Research.setAspects("MIRRORHAND", "iter 65, instrumentum 55, vitreus 45, alienis 35, cognitio 25, potentia 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("MIRRORHAND", 3);
+
+// --- Essentia Mirror
+mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10>,
+[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>],
+"aqua 16, iter 16, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
+// -
+mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 65, iter 55, vitreus 45, alienis 35, cognitio 25, potentia 15, aqua 5");
+mods.thaumcraft.Research.setComplexity("MIRRORESSENTIA", 3);
+
+// --- Brain in a Jar
+mods.thaumcraft.Infusion.addRecipe("JARBRAIN", <Thaumcraft:blockJar>, 
+[<Thaumcraft:ItemZombieBrain>, <minecraft:poisonous_potato>, <minecraft:spider_eye>, <minecraft:water_bucket>, <minecraft:spider_eye>, <minecraft:poisonous_potato>],
+"cognitio 15, exanimis 30, sensus 15, alienis 10", <Thaumcraft:blockJar:1>, 5);
+// -
+mods.thaumcraft.Research.setAspects("JARBRAIN", "lucrum 65, fames 55, exanimis 45, cognitio 35, alienis 25, potentia 15");
+mods.thaumcraft.Research.setComplexity("JARBRAIN", 3);
+
+// --- Infuision Enchantment
+mods.thaumcraft.Research.setAspects("INFUSIONENCHANTMENT", "instrumentum 75, praecantatio 65, tutamen 55, cognitio 45, telum 35, potentia 25, alienis 15, potentia 5");
+mods.thaumcraft.Research.setComplexity("INFUSIONENCHANTMENT", 4);
+
+// --- Thaumium Fortress Helm
+mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemHelmetThaumium>,
+[<gregtech:gt.metaitem.02:29501>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>],
+"metallum 32, praecantatio 32, tutamen 32, victus 16", <Thaumcraft:ItemHelmetFortress>, 4);
+// -
+mods.thaumcraft.Research.setAspects("ARMORFORTRESS", "fabrico 65, metallum 55, tutamen 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setComplexity("ARMORFORTRESS", 3);
+
+// --- Thaumium Fortress Cuirass
+mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemChestplateThaumium>,
+[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17086>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>],
+"metallum 32, praecantatio 32, tutamen 40, cognitio 16", <Thaumcraft:ItemChestplateFortress>, 4);
+
+// --- Thaumium Fortress Tigh Guards
+mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemLeggingsThaumium>,
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>],
+"metallum 32, praecantatio 32, tutamen 24, terra 16", <Thaumcraft:ItemLeggingsFortress>, 4);
+
 
 
 // --- Assembler Recipes --- 
@@ -718,6 +799,26 @@ mods.thaumcraft.Research.refreshResearchRecipe("HOVERHARNESS");
 // --- Thauostatic Girdle
 mods.thaumcraft.Research.refreshResearchRecipe("HOVERGIRDLE");
 
+// --- Runic Shielding
+mods.thaumcraft.Research.refreshResearchRecipe("RUNICARMOR");
+
+// --- Magic Mirror
+mods.thaumcraft.Research.refreshResearchRecipe("MIRROR");
+
+// --- Magic Hand Mirror
+mods.thaumcraft.Research.refreshResearchRecipe("MIRRORHAND");
+
+// --- Essentia Mirror
+mods.thaumcraft.Research.refreshResearchRecipe("MIRRORESSENTIA");
+
+// --- Brain in a Jar
+mods.thaumcraft.Research.refreshResearchRecipe("JARBRAIN");
+
+// --- Infuision Enchantment
+mods.thaumcraft.Research.refreshResearchRecipe("INFUSIONENCHANTMENT");
+
+// --- Thaumium Fortress Armor
+mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
 
 
 
