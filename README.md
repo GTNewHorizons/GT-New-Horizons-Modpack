@@ -20,11 +20,11 @@ The pack has around 190 mods that are carefully selected and balanced between ea
 An example of Tiering (work in progress) is here:
 
 Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools
-Tier 1: GT Bronze Age, TiCo, Chisel, Jabba, Twillight Forest
-Tier 2: GT (LV), Railcraft, Forestry, Extra Utilities, Backpacks
-Tier 3: GT (MV), Thaumcraft (+Addons), Binnie, Advanced Solar Panels, AE2
-Tier 4: GT (HV), Galacticraft (+Addons), AFSU, Witchery
-Tier 5: GT (EV), Gendustry, Blood Magic
+Tier 1: GT Bronze Age, TiCo, Chisel, Jabba, Twillight Forest<BR>
+Tier 2: GT (LV), Railcraft, Forestry, Extra Utilities, Backpacks<BR>
+Tier 3: GT (MV), Thaumcraft (+Addons), Binnie, Advanced Solar Panels, AE2<BR>
+Tier 4: GT (HV), Galacticraft (+Addons), AFSU, Witchery<BR>
+Tier 5: GT (EV), Gendustry, Blood Magic<BR>
 
 The server is so complex and heavily modified we're creating our own WIKI (WIP) - link is in Github.
 The number of mod interactions in this pack is beyond the scope of this thread.
@@ -63,7 +63,7 @@ Number of players: ~10
 Github link
 
 
-Modlist - NewHorizons 1.0.7.6 --- 16.01..2016
+Modlist - NewHorizons 1.0.7.6 --- 16.01.2016
 
 Advanced Solar Panels	3.5.1<BR>
 AE2 Stuff	0.5.1.61<BR>
