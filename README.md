@@ -13,38 +13,38 @@ Version 1.0.7.6 is out (16.01.2016)(GT New Horizons Coremod 1.0.9) (GTTweaker 1.
 Large Modpack with every recipe Gregified
 -
 
-Hey guys, I'd like to open up my project and get more players.
+Hey guys, I'd like to open up my project and get more players.<BR>
 I've been working on it for 14 months and still got a lot more work to do.
 
-The pack has around 190 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!
+The pack has around 190 mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
 
-Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools
+Tier 0: Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools<BR>
 Tier 1: GT Bronze Age, TiCo, Chisel, Jabba, Twillight Forest<BR>
 Tier 2: GT (LV), Railcraft, Forestry, Extra Utilities, Backpacks<BR>
 Tier 3: GT (MV), Thaumcraft (+Addons), Binnie, Advanced Solar Panels, AE2<BR>
 Tier 4: GT (HV), Galacticraft (+Addons), AFSU, Witchery<BR>
 Tier 5: GT (EV), Gendustry, Blood Magic<BR>
 
-The server is so complex and heavily modified we're creating our own WIKI (WIP) - link is in Github.
+The server is so complex and heavily modified we're creating our own WIKI (WIP) - link is in Github.<BR>
 The number of mod interactions in this pack is beyond the scope of this thread.
 
 
 What does this pack have to offer?
 
-*Technology*
-Everything you do is tied to GT as it should be. I'm using my own mods DreamCraftCore (for items) and MinetweakerGTAddon allowing me to use various GT machines I wouldn't be able to otherwise.
+*Technology*<BR>
+Everything you do is tied to GT as it should be. I'm using my own mods DreamCraftCore (for items) and MinetweakerGTAddon allowing me to use various GT machines I wouldn't be able to otherwise.<BR>
 You can also look forward to TiCo, Railcraft, Forestry, Extra Utilities, Openblocks, AE2, Buildcraft, Galacticraft with many addons, Gendustry, Steve's Carts, Open Computers and many others.
 
-*Magic*
-Many mods are carefully tied to Thaumcraft. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.
+*Magic*<BR>
+Many mods are carefully tied to Thaumcraft. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.<BR>
 When you've progressed enough you can reach Witchery or even Blood Magic.
 
-*Exploration*
-Using Realistic World Gen along with Biomes'o'Plenty creates a wonderful terrain. With Twillight Forest (that you need to conquer to reach endgame Thaumcraft), Galacticraft and other mods the server has over EIGHT dimensions.
+*Exploration*<BR>
+Using Realistic World Gen along with Biomes'o'Plenty creates a wonderful terrain. With Twillight Forest (that you need to conquer to reach endgame Thaumcraft), Galacticraft and other mods the server has over EIGHT dimensions.<BR>
 Rogue-like Dungeons and HEE with other mods' worldgen make sure you got some goodies to find.
 
-*Survival*
+*Survival*<BR>
 Hunger Overhaul, Pam's Harvestcraft, Special Mobs, HEE, Infernal Mobs, Lava Monsters, Zombie Awareness. Do I need to continue?
 
 You want to roam the land and kill everything in sight with ease, build a highly advanced MagicTech base and raid all the dungeons in Minecraft? Sure, you can. You got a long journey ahead though.
@@ -53,14 +53,13 @@ You want to roam the land and kill everything in sight with ease, build a highly
 How do I join?
 
 
-Write a post here or send me a PM.
+Write a post here or send me a PM.<BR>
 I'll send you TeamSpeak adress along with the whole pack.
 
 
-Server info
-Dedicated server located in Europe.
-Number of players: ~10
-Github link
+Server info<BR>
+Dedicated server located in Europe.<BR>
+Number of players: ~10<BR>
 
 
 Modlist - NewHorizons 1.0.7.6 --- 16.01.2016
