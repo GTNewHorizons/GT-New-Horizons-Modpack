@@ -41,6 +41,27 @@ mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemCore:3>);
 // --- Golem Animation Core Guard
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemCore:4>);
 
+// --- Golem Animation Core Use
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:8>);
+
+// --- Golem Animation Core Sorting
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:10>);
+
+// --- Golem Animation Core Decanting
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemCore:5>);
+
+// --- Golem Animation Core Alchemy
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:6>);
+
+// --- Golem Animation Core Butcher
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemCore:9>);
+
+// --- Golem Animation Core Fishing
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:11>);
+
+// --- Golem Animation Core Chop
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:7>);
+
 // --- Golemancers Bell
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:GolemBell>);
 
@@ -143,11 +164,11 @@ mods.thaumcraft.Research.clearPages("COREHARVEST");
 mods.thaumcraft.Research.addPage("COREHARVEST", "tc.research_page.COREHARVEST.1");
 mods.thaumcraft.Infusion.addRecipe("COREHARVEST", <Thaumcraft:ItemGolemCore:100>,
 [<minecraft:nether_star>, <minecraft:wheat_seeds>, <Thaumcraft:ItemHoeThaumium>, <gregtech:gt.metaitem.01:17086>],
-"messis 10, meteo 10, herba 20", <Thaumcraft:ItemGolemCore:3>, 4);
+"messis 10, meto 10, herba 20", <Thaumcraft:ItemGolemCore:3>, 4);
 mods.thaumcraft.Research.addInfusionPage("COREHARVEST", <Thaumcraft:ItemGolemCore:3>);
 mods.thaumcraft.Research.addPage("COREHARVEST", "tc.research_page.COREHARVEST.2");
 // -
-mods.thaumcraft.Research.setAspects("COREHARVEST", "meteo 50, messis 60, iter 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREHARVEST", "meto 50, messis 60, iter 30, permutatio 40, motus 20, praecantatio 10");
 mods.thaumcraft.Research.setComplexity("COREHARVEST", 3);
 
 // --- Golem Animation Core Guard
@@ -161,6 +182,70 @@ mods.thaumcraft.Research.addPage("COREGUARD", "tc.research_page.COREGUARD.2");
 // -
 mods.thaumcraft.Research.setAspects("COREGUARD", "sensus 50, telum 60, vinculum 30, permutatio 40, motus 20, praecantatio 10");
 mods.thaumcraft.Research.setComplexity("COREGUARD", 3);
+
+// --- Golem Animation Core Use
+mods.thaumcraft.Infusion.addRecipe("COREUSE", <Thaumcraft:ItemGolemCore:1>,
+[<minecraft:nether_star>, <ProjRed|Integration:projectred.integration.gate:26>, <minecraft:lever>, <minecraft:flint_and_steel>, <minecraft:stone_pressure_plate>, <minecraft:shears>],
+"humanus 20, instrumentum 20, machina 20, lucrum 20", <Thaumcraft:ItemGolemCore:8>, 4);
+// -
+mods.thaumcraft.Research.setAspects("COREUSE", "humanus 50, instrumentum 60, machina 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("COREUSE", 3);
+
+// --- Golem Animation Core Sorting
+mods.thaumcraft.Infusion.addRecipe("CORESORTING", <Thaumcraft:ItemGolemCore:100>,
+[<minecraft:nether_star>, <Thaumcraft:ItemGolemCore:1>, <minecraft:paper>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemGolemCore>, <ProjRed|Integration:projectred.integration.gate:26>],
+"lucrum 20, fames 20, permutatio 20, vacuos 20", <Thaumcraft:ItemGolemCore:10>, 4);
+// -
+mods.thaumcraft.Research.setAspects("CORESORTING", "fames 50, vacuos 60, lucrum 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("CORESORTING", 3);
+
+// --- Golem Animation Core Decanting
+mods.thaumcraft.Research.clearPages("CORELIQUID");
+mods.thaumcraft.Research.addPage("CORELIQUID", "tc.research_page.CORELIQUID.1");
+mods.thaumcraft.Infusion.addRecipe("CORELIQUID", <Thaumcraft:ItemGolemCore>,
+[<minecraft:nether_star>, <BuildCraft|Factory:tankBlock>, <IguanaTweaksTConstruct:clayBucketFired>, <minecraft:bucket>, <Forestry:waxCapsule>, <IC2:itemFluidCell>],
+"aqua 20, vacuos 20, metallum 20, iter 20", <Thaumcraft:ItemGolemCore:5>, 4);
+mods.thaumcraft.Research.addInfusionPage("CORELIQUID", <Thaumcraft:ItemGolemCore:5>);
+mods.thaumcraft.Research.addPage("CORELIQUID", "tc.research_page.CORELIQUID.2");
+// -
+mods.thaumcraft.Research.setAspects("CORELIQUID", "iter 50, aqua 60, metallum 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("CORELIQUID", 3);
+
+// --- Golem Animation Core Alchemy
+mods.thaumcraft.Infusion.addRecipe("COREALCHEMY", <Thaumcraft:ItemGolemCore:5>,
+[<minecraft:nether_star>, <minecraft:potion>, <Thaumcraft:blockJar>, <Thaumcraft:ItemEssence>, <Thaumcraft:ItemZombieBrain>, <minecraft:potion>, <Thaumcraft:ItemEssence>, <Thaumcraft:blockJar>],
+"aqua 32, motus 32, praecantatio 32, permutatio 32", <Thaumcraft:ItemGolemCore:6>, 7);
+// -
+mods.thaumcraft.Research.setAspects("COREALCHEMY", "potentia 50, aqua 60, iter 30, praecantatio 40, motus 20, alienis 10");
+mods.thaumcraft.Research.setComplexity("COREALCHEMY", 3);
+
+// --- Golem Animation Core Butcher
+mods.thaumcraft.Research.clearPages("COREBUTCHER");
+mods.thaumcraft.Research.addPage("COREBUTCHER", "tc.research_page.CORELIQUID.1");
+mods.thaumcraft.Infusion.addRecipe("COREBUTCHER", <Thaumcraft:ItemGolemCore:100>,
+[<Thaumcraft:ItemGolemCore:3>, <Thaumcraft:ItemGolemCore:4>],
+"bestia 32, corpus 32, mortuus 32, telum 32", <Thaumcraft:ItemGolemCore:9>, 7);
+mods.thaumcraft.Research.addInfusionPage("COREBUTCHER", <Thaumcraft:ItemGolemCore:7>);
+// -
+mods.thaumcraft.Research.setAspects("COREBUTCHER", "meto 50, telum 60, bestia 30, sensus 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("COREBUTCHER", 3);
+mods.thaumcraft.Warp.addToResearch("COREBUTCHER", 2);
+
+// --- Golem Animation Core Fishing
+mods.thaumcraft.Infusion.addRecipe("COREFISHING", <Thaumcraft:ItemGolemCore:3>,
+[<minecraft:nether_star>, <gregtech:gt.metatool.01:36>, <minecraft:iron_sword>, <Thaumcraft:ItemZombieBrain>, <minecraft:bow>, <minecraft:arrow>],
+"aqua 32, meto 20, bestia 32, fames 32", <Thaumcraft:ItemGolemCore:11>, 7);
+// -
+mods.thaumcraft.Research.setAspects("COREFISHING", "fames 50, aqua 60, bestia 30, meto 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("COREFISHING", 3);
+
+// --- Golem Animation Core Chop
+mods.thaumcraft.Infusion.addRecipe("CORELUMBER", <Thaumcraft:ItemGolemCore:3>,
+[<minecraft:nether_star>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemAxeElemental>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemAxeThaumium>],
+"arbor 32, instrumentum 32, meto 20, potentia 32", <Thaumcraft:ItemGolemCore:7>, 7);
+// -
+mods.thaumcraft.Research.setAspects("CORELUMBER", "potentia 50, arbor 60, instrumentum 30, meto 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setComplexity("CORELUMBER", 3);
 
 // --- Golemancers Bell
 mods.thaumcraft.Research.clearPages("GOLEMBELL");
@@ -287,7 +372,7 @@ mods.thaumcraft.Arcane.addShaped("TINYARMOR", <Thaumcraft:ItemGolemDecoration:6>
 [<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>],
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYARMOR", "lucrum 20, metalum 15, tutamen 10, cognitio 5");
+mods.thaumcraft.Research.setAspects("TINYARMOR", "lucrum 20, metallum 15, tutamen 10, cognitio 5");
 mods.thaumcraft.Research.setComplexity("TINYARMOR", 2);
 
 // --- Accessory Top Mace Arm
@@ -296,7 +381,7 @@ mods.thaumcraft.Arcane.addShaped("TINYHAMMER", <Thaumcraft:ItemGolemDecoration:7
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [null, <ore:stickWood>, null]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYHAMMER", "lucrum 20, metalum 15, telum 10, vinculum 5");
+mods.thaumcraft.Research.setAspects("TINYHAMMER", "lucrum 20, metallum 15, telum 10, vinculum 5");
 mods.thaumcraft.Research.setComplexity("TINYHAMMER", 2);
 
 
@@ -331,6 +416,27 @@ mods.thaumcraft.Research.refreshResearchRecipe("COREHARVEST");
 
 // --- Golem Animation Core Guard
 mods.thaumcraft.Research.refreshResearchRecipe("COREGUARD");
+
+// --- Golem Animation Core Use
+mods.thaumcraft.Research.refreshResearchRecipe("COREUSE");
+
+// --- Golem Animation Core Sorting
+mods.thaumcraft.Research.refreshResearchRecipe("CORESORTING");
+
+// --- Golem Animation Core Decanting
+mods.thaumcraft.Research.refreshResearchRecipe("CORELIQUID");
+
+// --- Golem Animation Core Alchemy
+mods.thaumcraft.Research.refreshResearchRecipe("COREALCHEMY");
+
+// --- Golem Animation Core Butcher
+mods.thaumcraft.Research.refreshResearchRecipe("COREBUTCHER");
+
+// --- Golem Animation Core Fishing
+mods.thaumcraft.Research.refreshResearchRecipe("COREFISHING");
+
+// --- Golem Animation Core Chop
+mods.thaumcraft.Research.refreshResearchRecipe("CORELUMBER");
 
 // --- Golemancers Bell
 mods.thaumcraft.Research.refreshResearchRecipe("GOLEMBELL");
