@@ -169,9 +169,6 @@ val Shears = <minecraft:shears>;
 
 
 
-// --- QED Recipes remove ALL
-mods.extraUtils.QED.removeRecipe(<*>);
-
 // --- Ender Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
 

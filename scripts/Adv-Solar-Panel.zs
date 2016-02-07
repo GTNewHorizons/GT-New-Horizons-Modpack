@@ -16,7 +16,8 @@ import mods.nei.NEI;
 // --- Remove Recipes --- 
 
 
-
+// --- QED Recipes remove ALL
+mods.extraUtils.QED.removeRecipe(<*>);
 
 // --- Molecular Transformer
 recipes.remove(<AdvancedSolarPanel:BlockMolecularTransformer>);
