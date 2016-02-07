@@ -196,6 +196,9 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateFortress>);
 // --- Thaumium Fortress Tigh Guards
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsFortress>);
 
+// --- Bone Bow
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBowBone>);
+
 
 
 
@@ -610,7 +613,7 @@ mods.thaumcraft.Infusion.addRecipe("HOVERGIRDLE", <Thaumcraft:ItemBaubleBlanks:2
 [<Thaumcraft:blockCrystal>, <minecraft:feather>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17019>, <gregtech:gt.metaitem.01:17086>, <TwilightForest:item.tfFeather>],
 "aer 64, iter 32, potentia 32, volatus 32, tutamen 16", <Thaumcraft:ItemGirdleHover>, 8);
 // -
-mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 55, motos 45, iter 35, ear 25, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 55, motus 45, iter 35, ear 25, praecantatio 15, tutamen 5");
 mods.thaumcraft.Research.setComplexity("HOVERGIRDLE", 3);
 
 // --- Runic Shielding
@@ -670,6 +673,37 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemChestplateTh
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemLeggingsThaumium>,
 [<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>],
 "metallum 32, praecantatio 32, tutamen 24, terra 16", <Thaumcraft:ItemLeggingsFortress>, 4);
+
+// --- Helm of Revealing
+mods.thaumcraft.Research.setAspects("HELMGOGGLES", "tutamen 65, sensus 55, auram 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setComplexity("HELMGOGGLES", 3);
+
+// --- Grinning Devil Faceplate
+mods.thaumcraft.Research.setAspects("MASKGRINNINGDEVIL", "tutamen 65, sano 55, cognitio 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setComplexity("MASKGRINNINGDEVIL", 3);
+mods.thaumcraft.Warp.addToResearch("MASKGRINNINGDEVIL", 1);
+
+// --- Angry Ghost Faceplate
+mods.thaumcraft.Research.setAspects("MASKANGRYGHOST", "tutamen 65, perditio 55, mortuus 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setComplexity("MASKANGRYGHOST", 3);
+mods.thaumcraft.Warp.addToResearch("MASKANGRYGHOST", 1);
+
+// --- Sipping Fiend Faceplate
+mods.thaumcraft.Research.setAspects("MASKSIPPINGFIEND", "tutamen 65, exanimis 55, victus 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setComplexity("MASKSIPPINGFIEND", 3);
+mods.thaumcraft.Warp.addToResearch("MASKSIPPINGFIEND", 2);
+
+
+// --- Bone Bow
+mods.thaumcraft.Arcane.addShaped("BONEBOW", <Thaumcraft:ItemBowBone>, "aer 32, perditio 32, terra 32", [
+[<Natura:barleyFood:7>, <minecraft:bone>, <ore:screwThaumium>],
+[<Natura:barleyFood:7>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.LichBone>],
+[<Natura:barleyFood:7>, <minecraft:bone>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("BONEBOW", "telum 45, motus 35, aer 25, exanimis 15");
+mods.thaumcraft.Research.setComplexity("BONEBOW", 2);
+
+
 
 
 
@@ -819,6 +853,21 @@ mods.thaumcraft.Research.refreshResearchRecipe("INFUSIONENCHANTMENT");
 
 // --- Thaumium Fortress Armor
 mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
+
+// --- Helm of Revealing
+mods.thaumcraft.Research.refreshResearchRecipe("HELMGOGGLES");
+
+// --- Grinning Devil Faceplate
+mods.thaumcraft.Research.refreshResearchRecipe("MASKGRINNINGDEVIL");
+
+// --- Angry Ghost Faceplate
+mods.thaumcraft.Research.refreshResearchRecipe("MASKANGRYGHOST");
+
+// --- Sipping Fiend Faceplate
+mods.thaumcraft.Research.refreshResearchRecipe("MASKSIPPINGFIEND");
+
+// --- Bone Bow
+mods.thaumcraft.Research.refreshResearchRecipe("BONEBOW");
 
 
 

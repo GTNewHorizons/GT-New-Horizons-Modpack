@@ -6,6 +6,10 @@
 
 
 
+import mods.ic2.Compressor;
+
+
+
 // --- Variables ---
 
 
@@ -17,11 +21,16 @@
 // --- Hungry Chest
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockChestHungry>);
 
-// --- Straw Golems
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer>);
+// --- Traveling Trunk
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:TrunkSpawner>);
 
-// --- Wood Golems
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:1>);
+// --- Golem Fetter
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:9>);
+
+// --- All Golems
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);
@@ -107,6 +116,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:6>);
 // --- Accessory Top Mace Arm
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemDecoration:7>);
 
+// --- Block of Flesh
+recipes.remove(<Thaumcraft:blockTaint:2>);
+
 
 
 
@@ -126,6 +138,23 @@ mods.thaumcraft.Arcane.addShaped("HUNGRYCHEST", <Thaumcraft:blockChestHungry> , 
 mods.thaumcraft.Research.setAspects("HUNGRYCHEST", "fames 15, vacuos 10, iter 5");
 mods.thaumcraft.Research.setComplexity("HUNGRYCHEST", 1);
 
+// --- Traveling Trunk
+mods.thaumcraft.Infusion.addRecipe("TRAVELTRUNK", <Thaumcraft:blockChestHungry>,
+[<gregtech:gt.metaitem.01:17306>, <gregtech:gt.metaitem.01:28306>, <gregtech:gt.metaitem.01:27306>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemGolemPlacer:1>, <Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:27306>, <gregtech:gt.metaitem.01:28306>],
+"iter 16, motus 16, spiritus 16, vacuos 32", <Thaumcraft:TrunkSpawner>, 4);
+// -
+mods.thaumcraft.Research.setAspects("TRAVELTRUNK", "spiritus 45, vacuos 35, arbor 25, iter 15, terra 5");
+mods.thaumcraft.Research.setComplexity("TRAVELTRUNK", 3);
+
+// --- Golem Fetter
+mods.thaumcraft.Arcane.addShaped("GOLEMFETTER", <Thaumcraft:blockCosmeticSolid:9>, "terra 15, ordo 15", [
+[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
+[<ore:plateThaumium>, <ore:blockRedstone>, <ore:plateThaumium>],
+[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>]]);
+// -
+mods.thaumcraft.Research.setAspects("GOLEMFETTER", "vinculum 35, machina 25, cognitio 15, praecantatio 5");
+mods.thaumcraft.Research.setComplexity("GOLEMFETTER", 2);
+
 // --- Straw Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMSTRAW", <Thaumcraft:ItemGolemPlacer>, <minecraft:hay_block>, "humanus 12, motus 12, spiritus 12");
 // -
@@ -137,6 +166,104 @@ mods.thaumcraft.Crucible.addRecipe("GOLEMWOOD", <Thaumcraft:ItemGolemPlacer:1>, 
 // -
 mods.thaumcraft.Research.setAspects("GOLEMWOOD", "arbor 40, permutatio 50, spiritus 30, motus 20, praecantatio 10");
 mods.thaumcraft.Research.setComplexity("GOLEMWOOD", 3);
+
+// --- Tallow Golems
+mods.thaumcraft.Research.clearPages("GOLEMTALLOW");
+mods.thaumcraft.Research.addPage("GOLEMTALLOW", "tc.research_page.GOLEMTALLOW.1");
+mods.thaumcraft.Crucible.addRecipe("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>, <Thaumcraft:blockCosmeticSolid:5>, "humanus 30, mortuus 30, spiritus 30");
+mods.thaumcraft.Research.addCruciblePage("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>);
+// -
+mods.thaumcraft.Research.setAspects("GOLEMTALLOW", "spiritus 40, permutatio 50, corpus 30, motus 20, praecantatio 10, corpus 5");
+mods.thaumcraft.Research.setComplexity("GOLEMTALLOW", 3);
+
+// --- Clay Golems
+mods.thaumcraft.Crucible.addRecipe("GOLEMCLAY", <Thaumcraft:ItemGolemPlacer:3>, <minecraft:clay>, "humanus 22, motus 22, spiritus 22");
+// -
+mods.thaumcraft.Research.setAspects("GOLEMCLAY", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, aqua 5");
+mods.thaumcraft.Research.setComplexity("GOLEMCLAY", 3);
+
+// --- Flesh Golems
+mods.thaumcraft.Research.clearPages("GOLEMFLESH");
+mods.thaumcraft.Research.addPage("GOLEMFLESH", "tc.research_page.GOLEMFLESH.1");
+mods.thaumcraft.Crucible.addRecipe("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>, <Thaumcraft:blockTaint:2>, "humanus 22, motus 22, spiritus 22");
+mods.thaumcraft.Research.addCruciblePage("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>);
+// -
+mods.thaumcraft.Research.setAspects("GOLEMFLESH", "corpus 40, permutatio 50, spiritus 30, motus 20, praecantatio 10, mortuus 5");
+mods.thaumcraft.Research.setComplexity("GOLEMFLESH", 3);
+
+// --- Stone Golems
+mods.thaumcraft.Crucible.addRecipe("GOLEMSTONE", <Thaumcraft:ItemGolemPlacer:5>, <ExtraUtilities:cobblestone_compressed>, "humanus 30, mortuus 30, spiritus 30");
+// -
+mods.thaumcraft.Research.setAspects("GOLEMSTONE", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, perditio 5");
+mods.thaumcraft.Research.setComplexity("GOLEMSTONE", 3);
+
+// --- Iron Golems
+mods.thaumcraft.Crucible.addRecipe("GOLEMIRON", <Thaumcraft:ItemGolemPlacer:6>, <minecraft:iron_block>, "humanus 40, mortuus 40, spiritus 40");
+// -
+mods.thaumcraft.Research.setAspects("GOLEMIRON", "permutatio 50, spiritus 60, motus 40, metallum 30, praecantatio 20, terra 10, humanus 5");
+mods.thaumcraft.Research.setComplexity("GOLEMIRON", 3);
+
+// --- Thaumium Golems
+mods.thaumcraft.Research.clearPages("GOLEMTHAUMIUM");
+mods.thaumcraft.Research.addPage("GOLEMTHAUMIUM", "tc.research_page.GOLEMTHAUMIUM.1");
+mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <Thaumcraft:blockCosmeticSolid:4>, "humanus 52, mortuus 52, spiritus 52");
+mods.thaumcraft.Research.addCruciblePage("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>);
+// -
+mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 60, spiritus 70, metallum 50, motus 40, praecantatio 30, terra 20, humanus 10, alienis 5");
+mods.thaumcraft.Research.setComplexity("GOLEMTHAUMIUM", 3);
+
+// --- Advanced Straw Golems
+mods.thaumcraft.Research.clearPages("ADVANCEDGOLEM");
+mods.thaumcraft.Research.addPage("ADVANCEDGOLEM", "tc.research_page.GOLEMTHAUMIUM.1");
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:wheat>],
+"cognitio 12, sensus 12, victus 12, humanus 6", <Thaumcraft:ItemGolemPlacer>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>);
+// -
+mods.thaumcraft.Research.setAspects("ADVANCEDGOLEM", "sensus 75, victus 65, cognitio 55, potentia 45, praecantatio 35, alienis 25, motus 15, terra 5");
+mods.thaumcraft.Research.setComplexity("ADVANCEDGOLEM", 4);
+
+// --- Advanced Wood Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:1>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:blockWoodenDevice:6>],
+"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:1>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:1>);
+
+// --- Advanced Tallow Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:2>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:4>],
+"cognitio 22, sensus 22, victus 22, humanus 11", <Thaumcraft:ItemGolemPlacer:2>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:2>);
+
+// --- Advanced Clay Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:3>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:clay_ball>],
+"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:3>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:3>);
+
+// --- Advanced Flesh Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:4>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:rotten_flesh>],
+"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:4>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:4>);
+
+// --- Advanced Stone Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:5>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:stone>],
+"cognitio 22, sensus 22, victus 22, humanus 11", <Thaumcraft:ItemGolemPlacer:5>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:5>);
+
+// --- Advanced Iron Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:6>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:iron_ingot>],
+"cognitio 32, sensus 32, victus 32, humanus 16", <Thaumcraft:ItemGolemPlacer:6>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:6>);
+
+// --- Advanced Thaumium Golems
+mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:7>,
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:2>],
+"cognitio 44, sensus 44, victus 44, humanus 22", <Thaumcraft:ItemGolemPlacer:7>.withTag({advanced: 1 as byte}), 5);
+mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:7>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.addShaped("COREGATHER", <Thaumcraft:ItemGolemCore:100>, "ordo 5, ignis 5, terra 5", [
@@ -386,6 +513,15 @@ mods.thaumcraft.Research.setComplexity("TINYHAMMER", 2);
 
 
 
+// --- Compressor Recipes ---
+
+
+
+// --- Block of Flesh
+Compressor.addRecipe(<Thaumcraft:blockTaint:2>, <minecraft:rotten_flesh> * 9);
+
+
+
 
 
 // --- Refresh Recipese --- 
@@ -396,11 +532,38 @@ mods.thaumcraft.Research.setComplexity("TINYHAMMER", 2);
 // --- Hungry Chest
 mods.thaumcraft.Research.refreshResearchRecipe("HUNGRYCHEST");
 
+// --- Traveling Trunk
+mods.thaumcraft.Research.refreshResearchRecipe("TRAVELTRUNK");
+
+// --- Golem Fetter
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMFETTER");
+
 // --- Straw Golems
 mods.thaumcraft.Research.refreshResearchRecipe("GOLEMSTRAW");
 
 // --- Wood Golems
 mods.thaumcraft.Research.refreshResearchRecipe("GOLEMWOOD");
+
+// --- Tallow Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMTALLOW");
+
+// --- Clay Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMCLAY");
+
+// --- Flesh Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMFLESH");
+
+// --- Stone Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMSTONE");
+
+// --- Iron Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMIRON");
+
+// --- Thaumium Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GOLEMTHAUMIUM");
+
+// --- Advanced Golems
+mods.thaumcraft.Research.refreshResearchRecipe("ADVANCEDGOLEM");
 
 // --- Golem Animation Core Gather
 mods.thaumcraft.Research.refreshResearchRecipe("COREGATHER");

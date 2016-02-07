@@ -117,7 +117,6 @@ recipes.remove(<Thaumcraft:ItemNugget:5>);
 
 
 
-
 // --- Adding Recipes ---
 
 
@@ -369,6 +368,17 @@ mods.thaumcraft.Research.setComplexity("ARCANESPA", 3);
 // --- Liquid Death
 mods.thaumcraft.Research.setAspects("LIQUIDDEATH", "aqua 50, mortuus 40, perditio 30, venenum 20, tenebrae 10");
 mods.thaumcraft.Research.setComplexity("LIQUIDDEATH", 3);
+
+// --- Ethereal Bloom
+mods.thaumcraft.Research.setAspects("ETHEREALBLOOM", "vitium 50, praecantatio 40, sano 30, herba 20, lux 10, terra 5");
+mods.thaumcraft.Research.setComplexity("ETHEREALBLOOM", 3);
+
+// --- Bottle of Taint Bloom
+mods.thaumcraft.Research.setAspects("BOTTLETAINT", "vitium 65, praecantatio 55, aqua 45, perditio 35, tenebrae 25, venenum 15, strontio 5");
+mods.thaumcraft.Research.setComplexity("BOTTLETAINT", 3);
+mods.thaumcraft.Warp.addToResearch("BOTTLETAINT", 5);
+mods.thaumcraft.Warp.addToItem(<Thaumcraft:ItemBottleTaint>, 1);
+
 
 
 
