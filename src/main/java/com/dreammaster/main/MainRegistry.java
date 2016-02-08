@@ -226,7 +226,7 @@ public class MainRegistry {
 		boolean tResult = true;
         if (!(ItemManager.RegisterNonEnumItem(TabManager, OvenGlove.Instance("OvenGlove", ModTabList.ModGenericTab))))
             tResult = false;
-        if (!(ItemManager.RegisterNonEnumItem(TabManager, WitherProtectionRing.Instance("WitherProtectionRing", ModTabList.ModGenericTab))))
+        if (!(ItemManager.RegisterNonEnumItem(TabManager, WitherProtectionRing.Instance("WitherProtectionRing", ModTabList.ModThaumcraftTab))))
             tResult = false;
 		
 		return tResult;
