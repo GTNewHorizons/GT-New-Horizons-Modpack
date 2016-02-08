@@ -16,6 +16,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 import com.dreammaster.auxiliary.ItemHelper;
+import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
@@ -25,6 +26,7 @@ import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 
 public class ItemLootBag extends Item
 {
@@ -83,30 +85,35 @@ public class ItemLootBag extends Item
 	}
   
 	@Override
-	public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player)
+	public ItemStack onItemRightClick(ItemStack pStack, World pWorld, EntityPlayer pPlayer)
 	{
-		if (!world.isRemote)
+		if (!pWorld.isRemote)
 		{
-			int tGroupID = stack.getItemDamage();
-			LootGroup tGrp = _mLGHandler.getGroupByID(tGroupID);
+			int tGroupID = pStack.getItemDamage();
+			LootGroup tGrp = _mLGHandler.getMergedGroupFromID(tGroupID);
 			if (tGrp != null)
 			{
 				int q = tGrp.mMinItems;
 				if (tGrp.mMaxItems > tGrp.mMinItems)
-					 q = q + world.rand.nextInt(tGrp.mMaxItems - tGrp.mMinItems);
+					 q = q + pWorld.rand.nextInt(tGrp.mMaxItems - tGrp.mMinItems);
 				
 				for (int a = 0; a < q; a++)
 				{
-					ItemStack is = getRandomLootItem(player, tGrp);
+					ItemStack is = getRandomLootItem(pPlayer, tGrp);
 					if (is != null)
-						world.spawnEntityInWorld(new EntityItem(world, player.posX, player.posY, player.posZ, is.copy()));
+					    pWorld.spawnEntityInWorld(new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, is.copy()));
 				}
 	      
-				world.playSoundAtEntity(player, String.format("%s:lootbag_open", Refstrings.MODID), 0.75F, 1.0F);				
+				pWorld.playSoundAtEntity(pPlayer, String.format("%s:lootbag_open", Refstrings.MODID), 0.75F, 1.0F);				
+			}
+			else
+			{
+			    PlayerChatHelper.SendNotifyWarning(pPlayer, "This lootbag seems to be damaged, sorry about that");
+			    pWorld.spawnEntityInWorld(new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, ItemList.Nothing.getIS().copy()));
 			}
 		}
-		stack.stackSize -= 1;
-		return stack;
+		pStack.stackSize -= 1;
+		return pStack;
 	}
 
 	private ItemStack getRandomLootItem(EntityPlayer player, LootGroup pGrp)

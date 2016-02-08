@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
+import com.dreammaster.auxiliary.ItemHelper;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
 import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
@@ -102,7 +103,7 @@ public class LootBagCommand implements ICommand
             }
    
             	
-            if (tSubCommand.equalsIgnoreCase("addloot"))
+            if (tSubCommand.equalsIgnoreCase("addloot") || tSubCommand.equalsIgnoreCase("addinventory"))
             {
             	int tGroupID = Integer.parseInt(pArgs[1]);
             	int tAmount = 1;
@@ -111,7 +112,7 @@ public class LootBagCommand implements ICommand
             	int tRandomAmount = 0;
             			
             	boolean tFlagsOK = true;
-            	if (tGroupID < 1 || tGroupID > 32767) tFlagsOK = false;
+            	if (tGroupID < 0 || tGroupID > 32767) tFlagsOK = false;
             	if (pArgs.length == 6)
             	{
             		tAmount = Integer.parseInt(pArgs[2]);
@@ -129,19 +130,31 @@ public class LootBagCommand implements ICommand
 	            	LootGroup tGrp = MainRegistry.Module_LootBags.getGroupByID(tGroupID);
 	            	if (tGrp != null)
 	            	{
-	                    UniqueIdentifier UID = GameRegistry.findUniqueIdentifierFor(inHand.getItem());
-	                    String tItemID = UID.toString();
-	                    if (inHand.getItemDamage() > 0)
-	                    	tItemID = String.format("%s:%d", tItemID, inHand.getItemDamage());
-	                    
-	                    String tItemNBT = "";
-	                    if (inHand.stackTagCompound != null)
-	                    	 tItemNBT = inHand.stackTagCompound.toString();
-	
-	            		Drop dr = tLGF.createDrop(tItemID, UUID.randomUUID().toString(), tItemNBT, tAmount, tRandomAmount==1 ? true : false, tChance, tLimitedDropCount);
-	            		tGrp.getDrops().add(dr);
-	            		MainRegistry.Module_LootBags.SaveLootGroups();
-	            		PlayerChatHelper.SendInfo(pCmdSender, String.format("Item %s added to LootGroup ID %d ", tItemID, tGrp.getGroupID()));
+	            	    List<ItemStack> tStacksToAdd = new ArrayList<ItemStack>();
+	            	    if (tSubCommand.equalsIgnoreCase("addloot"))
+	            	        tStacksToAdd.add(inHand.copy());
+	            	    else if (tSubCommand.equalsIgnoreCase("addinventory"))
+	            	    {
+	            	        for (ItemStack is : tEp.inventory.mainInventory)
+	            	            if (is != null)
+	            	                tStacksToAdd.add(is.copy());
+	            	    }
+	            	    
+	            	    for (ItemStack tis : tStacksToAdd)
+	            	    {
+                            String tItemID = ItemHelper.ConvertItemStackToString(tis);
+                            if (tItemID.isEmpty())
+                                continue; // Something went wrong..
+                            
+                            String tItemNBT = "";
+                            if (tis.stackTagCompound != null)
+                                 tItemNBT = tis.stackTagCompound.toString();
+        
+                            Drop dr = tLGF.createDrop(tItemID, UUID.randomUUID().toString(), tItemNBT, tAmount, tRandomAmount==1 ? true : false, tChance, tLimitedDropCount);
+                            tGrp.getDrops().add(dr);
+                            MainRegistry.Module_LootBags.SaveLootGroups();
+                            PlayerChatHelper.SendInfo(pCmdSender, String.format("Item %s added to LootGroup ID %d ", tItemID, tGrp.getGroupID()));
+	            	    }
 	            	}
 	            	else
 	            		PlayerChatHelper.SendError(pCmdSender, String.format("LootGroup ID %d is unknown", tGroupID));
@@ -158,6 +171,7 @@ public class LootBagCommand implements ICommand
             	int tMaxItems = 1;
             	
             	boolean tFlagsOK = true;
+            	if (tGroupID < 0 || tGroupID > 32767) tFlagsOK = false; // Just to be sure...
             	if (pArgs.length == 5)
             	{
             		int tIntRarity = Integer.parseInt(pArgs[2]);

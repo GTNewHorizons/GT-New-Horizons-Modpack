@@ -64,7 +64,24 @@ public class ItemHelper
         return null;
     }
     
-    /** Convert item instance to string notation (UNTESTED!)
+    public static String ConvertItemStackToString(ItemStack pStack)
+    {
+        try
+        {
+            UniqueIdentifier UID = GameRegistry.findUniqueIdentifierFor(pStack.getItem());
+            String tItemID = UID.toString();
+            if (pStack.getItemDamage() > 0)
+                tItemID = String.format("%s:%d", tItemID, pStack.getItemDamage());
+            
+            return tItemID;
+        }
+        catch (Exception e)
+        {
+            return "";
+        }
+    }
+    
+    /** Convert item instance to string notation (TESTED!)
      * 
      * @param pItem
      * @return

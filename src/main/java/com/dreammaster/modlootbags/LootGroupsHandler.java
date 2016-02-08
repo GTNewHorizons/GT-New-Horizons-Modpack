@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -106,16 +107,38 @@ public class LootGroupsHandler
     	Drop pigCakeUnlimitedDrop = _mLGF.createDrop("minecraft:cake", "sample_Loot_CakeDrop", 1, false, 100, 0);
     	Drop pigRandomCharcoalDrop = _mLGF.createDrop("minecraft:coal:1", "sample_Loot_CharcoalDrop", 5, true, 100, 0);
   
-    	LootGroup tSampleGroup = _mLGF.createLootGroup(1, "SampleGroup", EnumRarity.common, 1, 1);
+    	LootGroup tTrashGroup = _mLGF.createLootGroup(0, "Generic trash group", EnumRarity.common, 1, 1);
+    	LootGroup tSampleGroup = _mLGF.createLootGroup(1, "Sample Item group", EnumRarity.common, 1, 1);
     	tSampleGroup.getDrops().add(pigDiamondLimitedDrop);
     	tSampleGroup.getDrops().add(pigCakeUnlimitedDrop);
-    	tSampleGroup.getDrops().add(pigRandomCharcoalDrop);
+    	tTrashGroup.getDrops().add(pigRandomCharcoalDrop);
     	
     	_mLootGroups = new LootGroups();
     	_mLootGroups.getLootTable().add(tSampleGroup);
+    	_mLootGroups.getLootTable().add(tTrashGroup);
     }
     
-	public LootGroup getGroupByID(int pGroupID)
+    private HashMap<Integer, LootGroup> _mBufferedLootGroups = new HashMap<Integer, LootGroup>(); 
+    
+    public LootGroup getMergedGroupFromID(int pGroupID)
+    {
+        if (!_mBufferedLootGroups.containsKey(pGroupID))
+        {
+            LootGroup tTargetGroup = getGroupByID(pGroupID);
+            LootGroup tTrashGroup = getGroupByID(0);
+            if (tTargetGroup != null && tTrashGroup != null)
+            {                
+                LootGroup tMerged = _mLGF.copyLootGroup(tTargetGroup);
+                
+                tMerged.mDrops.addAll(tTrashGroup.mDrops);
+                _mBufferedLootGroups.put(pGroupID, tMerged);
+            }
+        }
+        
+        return _mBufferedLootGroups.get(pGroupID);
+    }
+
+    public LootGroup getGroupByID(int pGroupID)
 	{
 		for (LootGroup tGrp : _mLootGroups.getLootTable())
 			if (tGrp.mGroupID == pGroupID)
@@ -140,7 +163,7 @@ public class LootGroupsHandler
             return true;
         } catch (Exception e)
         {
-            _mLogger.error("[LootBags] Unable to create new LootBags.xml. What did you do??");
+            _mLogger.error("[LootBags] Unable to create new LootBags.xml. Is the config directory write protected?");
             e.printStackTrace();
             return false;
         }
