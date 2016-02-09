@@ -330,7 +330,7 @@ mods.thaumcraft.Research.setComplexity("CORESORTING", 3);
 mods.thaumcraft.Research.clearPages("CORELIQUID");
 mods.thaumcraft.Research.addPage("CORELIQUID", "tc.research_page.CORELIQUID.1");
 mods.thaumcraft.Infusion.addRecipe("CORELIQUID", <Thaumcraft:ItemGolemCore>,
-[<minecraft:nether_star>, <BuildCraft|Factory:tankBlock>, <IguanaTweaksTConstruct:clayBucketFired>, <minecraft:bucket>, <Forestry:waxCapsule>, <IC2:itemFluidCell>],
+[<minecraft:nether_star>, <BuildCraft|Factory:tankBlock>, <IguanaTweaksTConstruct:clayBucketFired>, <minecraft:bucket>, <Forestry:canEmpty>, <IC2:itemFluidCell>],
 "aqua 20, vacuos 20, metallum 20, iter 20", <Thaumcraft:ItemGolemCore:5>, 4);
 mods.thaumcraft.Research.addInfusionPage("CORELIQUID", <Thaumcraft:ItemGolemCore:5>);
 mods.thaumcraft.Research.addPage("CORELIQUID", "tc.research_page.CORELIQUID.2");
@@ -350,9 +350,9 @@ mods.thaumcraft.Research.setComplexity("COREALCHEMY", 3);
 mods.thaumcraft.Research.clearPages("COREBUTCHER");
 mods.thaumcraft.Research.addPage("COREBUTCHER", "tc.research_page.CORELIQUID.1");
 mods.thaumcraft.Infusion.addRecipe("COREBUTCHER", <Thaumcraft:ItemGolemCore:100>,
-[<Thaumcraft:ItemGolemCore:3>, <Thaumcraft:ItemGolemCore:4>],
+[<minecraft:nether_star>, <Thaumcraft:ItemGolemCore:3>, <gregtech:gt.metatool.01:36>, <minecraft:iron_sword>, <Thaumcraft:ItemZombieBrain>, <minecraft:bow>, <minecraft:arrow>],
 "bestia 32, corpus 32, mortuus 32, telum 32", <Thaumcraft:ItemGolemCore:9>, 7);
-mods.thaumcraft.Research.addInfusionPage("COREBUTCHER", <Thaumcraft:ItemGolemCore:7>);
+mods.thaumcraft.Research.addInfusionPage("COREBUTCHER", <Thaumcraft:ItemGolemCore:9>);
 // -
 mods.thaumcraft.Research.setAspects("COREBUTCHER", "meto 50, telum 60, bestia 30, sensus 40, motus 20, praecantatio 10");
 mods.thaumcraft.Research.setComplexity("COREBUTCHER", 3);
@@ -360,7 +360,7 @@ mods.thaumcraft.Warp.addToResearch("COREBUTCHER", 2);
 
 // --- Golem Animation Core Fishing
 mods.thaumcraft.Infusion.addRecipe("COREFISHING", <Thaumcraft:ItemGolemCore:3>,
-[<minecraft:nether_star>, <gregtech:gt.metatool.01:36>, <minecraft:iron_sword>, <Thaumcraft:ItemZombieBrain>, <minecraft:bow>, <minecraft:arrow>],
+[<minecraft:nether_star>, <minecraft:fish>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:fishing_rod>, <gregtech:gt.metatool.01:34>],
 "aqua 32, meto 20, bestia 32, fames 32", <Thaumcraft:ItemGolemCore:11>, 7);
 // -
 mods.thaumcraft.Research.setAspects("COREFISHING", "fames 50, aqua 60, bestia 30, meto 40, motus 20, praecantatio 10");

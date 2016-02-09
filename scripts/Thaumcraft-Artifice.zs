@@ -570,7 +570,7 @@ mods.thaumcraft.Research.setComplexity("ELEMENTALPICK", 3);
 
 // --- Axe of the Stream
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE", <Thaumcraft:ItemAxeThaumium>,
-[<gregtech:gt.metaitem.02:29513>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:2>],
+[<gregtech:gt.metaitem.02:29503>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:2>],
 "aqua 10, arbor 20, fabrico 20, motus 20", <Thaumcraft:ItemAxeElemental>, 3);
 // -
 mods.thaumcraft.Research.setAspects("ELEMENTALAXE", "instrumentum 45, motus 35, fabrico 25, aqua 15, praecantatio 5");
