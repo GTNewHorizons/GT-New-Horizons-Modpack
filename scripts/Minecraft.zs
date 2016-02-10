@@ -3387,7 +3387,6 @@ CuttingSaw.addRecipe(<minecraft:wooden_button> * 2, null, <minecraft:wooden_pres
 // -
 CuttingSaw.addRecipe(<minecraft:wooden_button> * 2, null, <minecraft:wooden_pressure_plate>, <liquid:lubricant> * 1, 25, 4);
 
-
 // --- Button Stone
 CuttingSaw.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressure_plate>, <liquid:water> * 4, 50, 8);
 // -
