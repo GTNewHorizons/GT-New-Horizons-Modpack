@@ -131,7 +131,7 @@ recipes.addShaped(<GraviSuite:graviChestPlate:27>, [
 // --- Advanced Nano Chest
 recipes.addShaped(<GraviSuite:advNanoChestPlate:27>, [
 [<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:*>, <IC2:itemPartCarbonPlate>],
-[<ore:plateIridium>, <IC2:itemArmorNanoChestplate:*>, <ore:plateIridium>],
+[<ore:plateChrome>, <IC2:itemArmorNanoChestplate:*>, <ore:plateChrome>],
 [<ore:wireGt12Platinum>, <ore:circuitAdvanced>, <ore:wireGt12Platinum>]]);
  
 // --- Advanced Jetpack
