@@ -11,6 +11,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
+import mods.gregtech.Extruder;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
@@ -1539,6 +1540,12 @@ recipes.addShaped(<gregtech:gt.blockcasings2:6>, [
 [<ore:circuitMaster>, <gregtech:gt.blockcasings2>, <ore:circuitMaster>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
+// --- Obsidian Plates
+recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:ingotObsidian>, null, null],
+[<ore:ingotObsidian>, null, null]]);
+
 
 
 
@@ -1809,6 +1816,23 @@ PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30890>, <gregtech:gt.metaitem.
 
 // --- Rubber Pulp
 Extractor.addRecipe(<gregtech:gt.metaitem.01:2880> * 2, <TConstruct:strangeFood>);
+
+
+
+
+// --- Extruder Recipes ---
+
+
+// --- Obsidian Plates
+Extruder.addRecipe(<gregtech:gt.metaitem.01:17804>, <TConstruct:materials:18>, <gregtech:gt.metaitem.01:32350> * 0, 20, 64);
+
+
+
+
+// --- Fermenter Recipes ---
+
+
+
 
 // --- Honey Forestry and BOP
 Fermenter.addRecipe(<liquid:honey> * 1000, <liquid:for.honey> * 1000, 20, false);
@@ -2083,6 +2107,9 @@ PlateBender.addRecipe(<gregtech:gt.metaitem.02:23028>, <gregtech:gt.metaitem.01:
 
 // --- Empty Shape Plate
 PlateBender.addRecipe(<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:20305>, 200, 120);
+
+// --- Obsidian Plates
+PlateBender.addRecipe(<gregtech:gt.metaitem.01:17804>, <TConstruct:materials:18>, 400, 24);
 
 
 
