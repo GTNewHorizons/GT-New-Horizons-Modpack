@@ -489,8 +489,6 @@ recipes.remove(<GalacticraftMars:item.deshSword>);
 
 // --- Desh Ingot
 furnace.remove(<GalacticraftMars:item.null:2>);
-// -
-recipes.remove(<GalacticraftMars:item.null:2>);
 
 // --- Desh Block
 recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);

@@ -72,7 +72,7 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:11>);
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:7>);
 
 // --- Golemancers Bell
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:GolemBell>);
+//mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:GolemBell>);
 
 // --- Golem Upgrade Air
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemUpgrade>);

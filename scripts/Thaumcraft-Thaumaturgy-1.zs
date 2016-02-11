@@ -18,12 +18,6 @@
 // --- Iron Wand Cap
 recipes.remove(<Thaumcraft:WandCap>);
 
-// --- Thaumcraft Wand Caps Arcane
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:*>);
-
-// --- Thaumcraft Wand Caps Infusion
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:*>);
-
 // --- Basic Wand
 recipes.remove(<Thaumcraft:WandCasting>);
 
