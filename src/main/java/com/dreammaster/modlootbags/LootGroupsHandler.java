@@ -103,12 +103,12 @@ public class LootGroupsHandler
      */
     public void InitSampleConfig()
     {
-    	Drop pigDiamondLimitedDrop = _mLGF.createDrop("minecraft:diamond", "sample_Loot_DiamondDrop", "{display:{Lore:[\"Oh, shiny\"]}}", 1, false, 100, 5);
+    	Drop pigDiamondLimitedDrop = _mLGF.createDrop("minecraft:diamond", "sample_Loot_DiamondDrop", "{display:{Lore:[\"Oh, shiny\"]}}", 1, false, 100, 5, "");
     	Drop pigCakeUnlimitedDrop = _mLGF.createDrop("minecraft:cake", "sample_Loot_CakeDrop", 1, false, 100, 0);
     	Drop pigRandomCharcoalDrop = _mLGF.createDrop("minecraft:coal:1", "sample_Loot_CharcoalDrop", 5, true, 100, 0);
   
-    	LootGroup tTrashGroup = _mLGF.createLootGroup(0, "Generic trash group", EnumRarity.common, 1, 1);
-    	LootGroup tSampleGroup = _mLGF.createLootGroup(1, "Sample Item group", EnumRarity.common, 1, 1);
+    	LootGroup tTrashGroup = _mLGF.createLootGroup(0, "Generic trash group", EnumRarity.common, 1, 1, false);
+    	LootGroup tSampleGroup = _mLGF.createLootGroup(1, "Sample Item group", EnumRarity.common, 1, 1, true);
     	tSampleGroup.getDrops().add(pigDiamondLimitedDrop);
     	tSampleGroup.getDrops().add(pigCakeUnlimitedDrop);
     	tTrashGroup.getDrops().add(pigRandomCharcoalDrop);
@@ -232,6 +232,27 @@ public class LootGroupsHandler
     	mLootBagItem = new ItemLootBag(this);
     	GameRegistry.registerItem(mLootBagItem, "lootbag");
     }
+    private String getClientSideXMLStream()
+    {
+    	try
+    	{
+        	StringWriter tSW = new StringWriter();
+            JAXBContext tJaxbCtx = JAXBContext.newInstance(LootGroups.class);
+            Marshaller jaxMarsh = tJaxbCtx.createMarshaller();
+            jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); 
+            
+            LootGroups tReducedGroup = _mLGF.copy(_mLootGroups, false);
+            jaxMarsh.marshal(tReducedGroup, tSW);
+
+            return tSW.toString();
+    	}
+    	catch (Exception e)
+    	{
+            _mLogger.error("[LootBags] Unable to serialize object");
+            e.printStackTrace();
+            return "";
+    	}
+    }
     
     private String getXMLStream()
     {
@@ -257,7 +278,7 @@ public class LootGroupsHandler
      * @param pLootGroupsToCheck
      * @return
      */
-    private boolean VerifyConfig(LootGroups pLootGroupsToCheck)
+    private boolean VerifyConfig(LootGroups pLootGroupsToCheck, boolean pIsLocalConfig)
     {
     	boolean tSuccess = true;
     	List<Integer> tIDlist = new ArrayList<Integer>();
@@ -283,35 +304,39 @@ public class LootGroupsHandler
     		else
     			tNameList.add(X.mGroupName);    			
     			
-    		if (X.mDrops.size() == 0)
+    		// Skip lootItems check if we received the server config
+    		if (pIsLocalConfig)
     		{
-    			_mLogger.error(String.format("[LootBags] LootGroup ID %d is empty!", X.mGroupID));
-    			tSuccess = false;
-    			break;
-    		}
-    		
-    		for (Drop Y : X.getDrops())
-    		{
-    			if (ItemHelper.ConvertStringToItem(Y.getItemName()) == null)
-    			{
-    				_mLogger.error(String.format("[LootBags] In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
-    				tSuccess = false;
-    			}
-    			
-    			if (Y.mTag != null && !Y.mTag.isEmpty())
-    			{
-        			try
-        			{
-        			    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(Y.mTag);
-        			    if (tNBT == null)
-        			        tSuccess = false;
-        			}
-        			catch (Exception e)
-        			{
-        			    _mLogger.error(String.format("[LootBags] In ItemDropID: [%s], NBTTag is invalid", Y.getIdentifier()));
-        			    tSuccess = false;
-        			}
-    			}
+	    		if (X.mDrops.size() == 0)
+	    		{
+	    			_mLogger.error(String.format("[LootBags] LootGroup ID %d is empty!", X.mGroupID));
+	    			tSuccess = false;
+	    			break;
+	    		}
+	    		
+	    		for (Drop Y : X.getDrops())
+	    		{
+	    			if (ItemHelper.ConvertStringToItem(Y.getItemName()) == null)
+	    			{
+	    				_mLogger.error(String.format("[LootBags] In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
+	    				tSuccess = false;
+	    			}
+	    			
+	    			if (Y.mTag != null && !Y.mTag.isEmpty())
+	    			{
+	        			try
+	        			{
+	        			    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(Y.mTag);
+	        			    if (tNBT == null)
+	        			        tSuccess = false;
+	        			}
+	        			catch (Exception e)
+	        			{
+	        			    _mLogger.error(String.format("[LootBags] In ItemDropID: [%s], NBTTag is invalid", Y.getIdentifier()));
+	        			    tSuccess = false;
+	        			}
+	    			}
+	    		}
     		}
     	}
     	return tSuccess;
@@ -333,8 +358,9 @@ public class LootGroupsHandler
             Unmarshaller jaxUnmarsh = tJaxbCtx.createUnmarshaller();
             
             LootGroups tNewItemCollection = null;
+            boolean tLocalConfig = pXMLContent.isEmpty();
             
-            if (pXMLContent.isEmpty())
+            if (tLocalConfig)
             {
                 File tConfigFile = new File(_mConfigFileName);
                 tNewItemCollection = (LootGroups) jaxUnmarsh.unmarshal(tConfigFile);
@@ -347,7 +373,7 @@ public class LootGroupsHandler
             	_mLogger.debug("[LootBags] Received Server-Config. Entering Verify state");
             }
             
-            if (!VerifyConfig(tNewItemCollection))
+            if (!VerifyConfig(tNewItemCollection, tLocalConfig))
             {
             	_mLogger.error("[LootBags] New config will NOT be activated. Please check your error-log and try again");
             	tResult = false;
@@ -389,7 +415,7 @@ public class LootGroupsHandler
      */
     private void sendClientUpdate(EntityPlayerMP pPlayer)
     {
-		String tPayload = getXMLStream();
+		String tPayload = getClientSideXMLStream();
 		if (!tPayload.isEmpty())
 		{
 			if (pPlayer != null && pPlayer instanceof EntityPlayerMP)

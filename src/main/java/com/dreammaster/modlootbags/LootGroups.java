@@ -54,6 +54,9 @@ public class LootGroups
         @XmlAttribute(name = "MaxItems")
         int mMaxItems;
         
+        @XmlAttribute(name = "CombineTrashGroup")
+        boolean mCombineWithTrash;
+        
         @XmlTransient
         private static int mMaxWeight = -1;
         
@@ -85,6 +88,7 @@ public class LootGroups
         
         public String getGroupName() { return mGroupName; }
         public int getGroupID() { return mGroupID; }
+        public boolean getCombineWithTrash() { return mCombineWithTrash; }
         public EnumRarity getGroupRarity()
         {
         	if (mRarity >= 0 && mRarity < EnumRarity.values().length)
@@ -116,6 +120,9 @@ public class LootGroups
             @XmlAttribute(name = "Chance")
             protected int mChance;
             
+            @XmlAttribute(name = "ItemGroup")
+            protected String mItemGroup;
+            
             @XmlAttribute(name = "LimitedDropCount")
             protected int mLimitedDropCount;
             
@@ -125,6 +132,11 @@ public class LootGroups
             public String getIdentifier()
             {
                 return mDropID;
+            }
+            
+            public String getItemDropGroup()
+            {
+            	return mItemGroup;
             }
             
             public String getItemName()

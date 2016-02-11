@@ -150,7 +150,7 @@ public class LootBagCommand implements ICommand
                             if (tis.stackTagCompound != null)
                                  tItemNBT = tis.stackTagCompound.toString();
         
-                            Drop dr = tLGF.createDrop(tItemID, UUID.randomUUID().toString(), tItemNBT, tAmount, tRandomAmount==1 ? true : false, tChance, tLimitedDropCount);
+                            Drop dr = tLGF.createDrop(tItemID, UUID.randomUUID().toString(), tItemNBT, tAmount, tRandomAmount==1 ? true : false, tChance, tLimitedDropCount, "");
                             tGrp.getDrops().add(dr);
                             MainRegistry.Module_LootBags.SaveLootGroups();
                             PlayerChatHelper.SendInfo(pCmdSender, String.format("Item %s added to LootGroup ID %d ", tItemID, tGrp.getGroupID()));
@@ -192,7 +192,7 @@ public class LootBagCommand implements ICommand
 	            	
 	            	if (tGrp == null)
 	            	{
-	            		LootGroup tNewGroup = tLGF.createLootGroup(tGroupID, tGroupName, tRarity, tMinItems, tMaxItems);
+	            		LootGroup tNewGroup = tLGF.createLootGroup(tGroupID, tGroupName, tRarity, tMinItems, tMaxItems, true);
 	            		MainRegistry.Module_LootBags.getLootGroups().getLootTable().add(tNewGroup);
 	            		MainRegistry.Module_LootBags.SaveLootGroups();
 	            		PlayerChatHelper.SendInfo(pCmdSender, String.format("New group added (ID: %d Name: %s)", tGroupID, tGroupName));
