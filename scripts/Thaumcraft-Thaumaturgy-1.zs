@@ -553,24 +553,24 @@ mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 // -
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:6>.withTag({cap: "iron", rod: "reed"}), <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:12>.withTag({cap: "copper", rod: "reed"}), <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:18>.withTag({cap: "gold", rod: "reed"}), <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedThaumiumWandCap>],
+[null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTitanium>, <Thaumcraft:WandCasting:24>.withTag({cap: "silver", rod: "reed"}), <ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 
 // --- Iron Capped Reed Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "reed", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [

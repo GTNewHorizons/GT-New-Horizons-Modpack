@@ -592,17 +592,17 @@ mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:56>.
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedSilverWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
 [null, null, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:14>.withTag({cap: "iron", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:28>.withTag({cap: "copper", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
 [null, null, <dreamcraft:item.ChargedSilverWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:42>.withTag({cap: "gold", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedSilverWandCap>, null, null]]);
@@ -615,22 +615,22 @@ mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.
 [<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:14>.withTag({cap: "iron", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:28>.withTag({cap: "copper", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:42>.withTag({cap: "gold", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.withTag({cap: "thaumium", rod: "blaze_staff"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
 [null, null, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:56>.withTag({cap: "silver", rod: "blaze_staff"}), <ore:screwTungstenSteel>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, null, null]]);
@@ -1436,7 +1436,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting
 [<ore:screwChrome>, <Thaumcraft:WandRod:52>, <ore:screwChrome>],
 [<dreamcraft:item.CopperWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandCasting:48>.withTag({cap: "copper", rod: "silverwood_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting:48>.withTag({cap: "copper", rod: "silverwood_staff"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <dreamcraft:item.CopperWandCap>],
 [<ore:screwChrome>, <Thaumcraft:WandCasting:24>.withTag({cap: "iron", rod: "silverwood_staff"}), <ore:screwChrome>],
 [<dreamcraft:item.CopperWandCap>, null, null]]);
