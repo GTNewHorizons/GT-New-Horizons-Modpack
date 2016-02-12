@@ -4,6 +4,8 @@ import com.dreammaster.modbabychest.ContainerBabyChest;
 import com.dreammaster.modbabychest.GuiBabyChest;
 import com.dreammaster.modbabychest.TileEntityBabyChest;
 import com.dreammaster.modlootbags.ContainerLootBag;
+import com.dreammaster.modlootbags.GuiLootBag;
+import com.dreammaster.modlootbags.ItemLootBag;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
@@ -26,7 +28,10 @@ public class GuiHandler implements IGuiHandler
         else
             if (pGuiID == GUI_LOOTBAG)
             {
-                return new ContainerLootBag(pPlayer, pPlayer.inventory, new InventoryItem(pPlayer.getHeldItem()));
+                if (pPlayer.getHeldItem().getItem() instanceof ItemLootBag)
+                {
+                    return new ContainerLootBag(pPlayer.inventory, pPlayer.getHeldItem().getItemDamage());    
+                }
             }
 
         return null;
@@ -43,7 +48,7 @@ public class GuiHandler implements IGuiHandler
         else
             if (pGuiID == GUI_LOOTBAG)
             {
-                return null;
+                return new GuiLootBag(pPlayer.inventory, pPlayer.getHeldItem().getItemDamage());
             }
 
         return null;

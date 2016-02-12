@@ -16,6 +16,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.DimensionManager;
@@ -39,16 +40,25 @@ public class LootGroupsHandler
     private LogHelper _mLogger = MainRegistry.Logger;
     private String _mConfigFileName;
     private LootGroupsFactory _mLGF = new LootGroupsFactory();
+    
     private LootGroups _mLootGroups = null;
+    private LootGroups _mClientSideLootGroups = null;
+    
     private eu.usrv.yamcore.persisteddata.PersistedDataBase _mPersistedDB = null;
 
+    
     private boolean _mInitialized = false;
 
     public LootGroups getLootGroups()
     {
         return _mLootGroups;
     }
-
+    
+    public LootGroups getLootGroupsClient()
+    {
+        return _mClientSideLootGroups;
+    }
+    
     /**
      * Calculate the unique loot-identifier for given loot and player. This is used to keep track of stuff the player got already
      * 
@@ -136,6 +146,13 @@ public class LootGroupsHandler
         return _mBufferedLootGroups.get(pGroupID);
     }
 
+    public LootGroup getGroupByIDClient(int pGroupID)
+    {
+        for (LootGroup tGrp : _mClientSideLootGroups.getLootTable())
+            if (tGrp.mGroupID == pGroupID) return tGrp;
+        return null;
+    }
+    
     public LootGroup getGroupByID(int pGroupID)
     {
         for (LootGroup tGrp : _mLootGroups.getLootTable())
@@ -168,6 +185,8 @@ public class LootGroupsHandler
         }
     }
 
+    
+    
     /**
      * Load the loot configuration from disk. Will not overwrite the existing loottable if errors occour Only called ONCE! Upon PostLoad(). Call reload() instead
      */
@@ -198,6 +217,7 @@ public class LootGroupsHandler
             InitSampleConfig();
         }
         _mInitialized = true;
+        dumpDebugInfo("LoadConfig");  
     }
 
     /**
@@ -218,6 +238,19 @@ public class LootGroupsHandler
         return tState;
     }
 
+    public void dumpDebugInfo(String pArea)
+    {
+        _mLogger.info(String.format("Area: %s", pArea));
+        _mLogger.info("====== Dumping LootTables ======");
+        for (LootGroup tlg : _mLootGroups.getLootTable())
+        {
+            for (Drop tdr : tlg.getDrops())
+                _mLogger.info(String.format("Group: %s Drop %s", tlg.getGroupName(), tdr.getItemName()));
+        }
+        _mLogger.info("====== States ======");
+        _mLogger.info(String.format("Initialized: %s", _mInitialized ? "true" : "false"));
+    }
+    
     public static Item mLootBagItem = null;
 
     public void registerBagItem()
@@ -238,6 +271,8 @@ public class LootGroupsHandler
             LootGroups tReducedGroup = _mLGF.copy(_mLootGroups, false);
             jaxMarsh.marshal(tReducedGroup, tSW);
 
+            dumpDebugInfo("getClientSideXMLStream");            
+            
             return tSW.toString();
         }
         catch (Exception e)
@@ -376,9 +411,10 @@ public class LootGroupsHandler
             }
             else
             {
-                _mLootGroups = tNewItemCollection;
-                if (tLocalConfig) _mBufferedLootGroups.clear(); // Also empty the buffered groups; As we might've gotten some group-relationship changs
+                if (tLocalConfig) _mLootGroups = tNewItemCollection;
+                _mClientSideLootGroups = tNewItemCollection;
 
+                if (tLocalConfig) _mBufferedLootGroups.clear(); // Also empty the buffered groups; As we might've gotten some group-relationship changs
                 tResult = true;
             }
 
@@ -453,5 +489,60 @@ public class LootGroupsHandler
         tGrp.add(pSelectedDrop);
 
         return tGrp;
+    }
+
+    /**
+     * Creates a fake Array of ItemStacks for given LootGroupID
+     * 
+     * @param pLootGroupID
+     * @return
+     */
+    public ItemStack[] createFakeInventoryFromID(int pLootGroupID) 
+    {
+        dumpDebugInfo("createFakeInventoryFromID");
+        ItemStack[] tList = new ItemStack[108];
+        int i = 0;
+        try
+        {
+            LootGroup lg = getGroupByID(pLootGroupID);
+            if (lg != null)
+            {
+                _mLogger.info(String.format("lg %s drops %d", lg.getGroupName(), lg.getDrops().size()));
+                for (Drop dr : lg.getDrops())
+                {
+                    tList[i] = getStackFromDrop(dr);
+                    _mLogger.info(String.format("fakeInventory[%d]: %s", i, tList[i].getDisplayName()));
+                    i++;
+                }
+            }
+            else
+                _mLogger.error("LootGroup for ID %d returned null", pLootGroupID);    
+        }
+        catch (Exception e)
+        {
+            _mLogger.error("Unable to build Itemlist for Lootbag GUI");
+            e.printStackTrace();
+        }
+        _mLogger.info(String.format("fakeInventory contains %d items", i));
+        return tList;
+    }
+    
+    private ItemStack getStackFromDrop(Drop pDrop)
+    {
+        ItemStack tRet = null;
+    
+        try
+        {
+            ItemDescriptor tDesc = ItemDescriptor.fromString(pDrop.getItemName());
+            if (tDesc != null)
+                tRet = tDesc.getItemStackwNBT(pDrop.getAmount(), pDrop.getNBTTag());
+        }
+        catch (Exception e)
+        {
+            _mLogger.error(String.format("Unable to generate ItemStack for drop ID %s (%s)", pDrop.getIdentifier(), pDrop.getItemName()));
+            tRet = null;
+        }
+        
+        return tRet;
     }
 }

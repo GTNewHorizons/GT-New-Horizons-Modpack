@@ -21,7 +21,9 @@ import com.dreammaster.auxiliary.FluidHelper;
 import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.GuiHandler;
 import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modbabychest.TileEntityBabyChest;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
 import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
 
@@ -31,7 +33,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 
-public class ItemLootBag extends Item implements IInventory
+public class ItemLootBag extends Item
 {
     private IIcon _mIcoDefault;
     private final LootGroupsHandler _mLGHandler;
@@ -68,7 +70,7 @@ public class ItemLootBag extends Item implements IInventory
             return "LootBag (Default)";
         else
         {
-            LootGroup tGrp = _mLGHandler.getGroupByID(pStack.getItemDamage());
+            LootGroup tGrp = _mLGHandler.getGroupByIDClient(pStack.getItemDamage());
             return String.format("LootBag (%s)", tGrp == null ? "Error" : tGrp.mGroupName);
         }
     }
@@ -77,14 +79,14 @@ public class ItemLootBag extends Item implements IInventory
     public void getSubItems(Item par1, CreativeTabs par2CreativeTabs, List par3List)
     {
         par3List.add(new ItemStack(this, 1, 0));
-        for (LootGroup tGrp : _mLGHandler.getLootGroups().getLootTable())
+        for (LootGroup tGrp : _mLGHandler.getLootGroupsClient().getLootTable())
             par3List.add(new ItemStack(this, 1, tGrp.mGroupID));
     }
 
     @Override
     public EnumRarity getRarity(ItemStack stack)
     {
-        LootGroup tGrp = _mLGHandler.getGroupByID(stack.getItemDamage());
+        LootGroup tGrp = _mLGHandler.getGroupByIDClient(stack.getItemDamage());
         return tGrp == null ? EnumRarity.common : tGrp.getGroupRarity();
     }
 
@@ -93,6 +95,12 @@ public class ItemLootBag extends Item implements IInventory
     {
         if (!pWorld.isRemote)
         {
+            if (pPlayer.capabilities.isCreativeMode && pPlayer.isSneaking())
+            {
+                pPlayer.openGui(MainRegistry.instance, GuiHandler.GUI_LOOTBAG, pWorld, (int)pPlayer.posX, (int)pPlayer.posY, (int)pPlayer.posZ);
+                return pStack;
+            }
+            
             int tGroupID = pStack.getItemDamage();
             LootGroup tGrp = _mLGHandler.getMergedGroupFromID(tGroupID);
             if (tGrp != null)
@@ -120,8 +128,8 @@ public class ItemLootBag extends Item implements IInventory
                 PlayerChatHelper.SendNotifyWarning(pPlayer, "This lootbag seems to be damaged, sorry about that");
                 pWorld.spawnEntityInWorld(new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, ItemList.Nothing.getIS().copy()));
             }
+            pStack.stackSize -= 1;
         }
-        pStack.stackSize -= 1;
         return pStack;
     }
 
@@ -210,76 +218,5 @@ public class ItemLootBag extends Item implements IInventory
         while (tReturnList.isEmpty() && tMaxRuns < 5);
 
         return tReturnList;
-    }
-
-    @Override
-    public int getSizeInventory()
-    {
-        return 108;
-    }
-
-    @Override
-    public ItemStack getStackInSlot(int pSlot)
-    {
-        return null;
-    }
-
-    @Override
-    public ItemStack decrStackSize(int pP_70298_1_, int pP_70298_2_)
-    {
-        return null;
-    }
-
-    @Override
-    public ItemStack getStackInSlotOnClosing(int pP_70304_1_)
-    {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void setInventorySlotContents(int pP_70299_1_, ItemStack pP_70299_2_)
-    {}
-
-    @Override
-    public String getInventoryName()
-    {
-        return "";
-    }
-
-    @Override
-    public boolean hasCustomInventoryName()
-    {
-        return false;
-    }
-
-    @Override
-    public int getInventoryStackLimit()
-    {
-        return 64;
-    }
-
-    @Override
-    public void markDirty()
-    {}
-
-    @Override
-    public boolean isUseableByPlayer(EntityPlayer pP_70300_1_)
-    {
-        return true;
-    }
-
-    @Override
-    public void openInventory()
-    {}
-
-    @Override
-    public void closeInventory()
-    {}
-
-    @Override
-    public boolean isItemValidForSlot(int pP_94041_1_, ItemStack pP_94041_2_)
-    {
-        return false;
     }
 }
