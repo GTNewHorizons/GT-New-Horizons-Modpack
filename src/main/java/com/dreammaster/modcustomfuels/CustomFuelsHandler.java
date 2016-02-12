@@ -23,32 +23,31 @@ public class CustomFuelsHandler implements IFuelHandler
     private String _mConfigFileName;
     private CustomFuelsFactory _mCfF = new CustomFuelsFactory();
     private CustomFuels _mCustomFuels = null;
-    
+
     public CustomFuelsHandler()
     {
-        _mConfigFileName = String.format("config/%s/CustomFuels.xml",
-                Refstrings.COLLECTIONID);
+        _mConfigFileName = String.format("config/%s/CustomFuels.xml", Refstrings.COLLECTIONID);
     }
-    
+
     public void InitSampleConfig()
     {
         _mCustomFuels = new CustomFuels();
         _mCustomFuels.getFuelItems().add(_mCfF.createCustomFuelItem("minecraft:diamond", 102400));
     }
-    
+
     public boolean SaveCustomFuels()
     {
         try
         {
             JAXBContext tJaxbCtx = JAXBContext.newInstance(CustomFuels.class);
             Marshaller jaxMarsh = tJaxbCtx.createMarshaller();
-            jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); 
-            jaxMarsh.marshal(_mCustomFuels, new FileOutputStream(
-                    _mConfigFileName, false));
+            jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+            jaxMarsh.marshal(_mCustomFuels, new FileOutputStream(_mConfigFileName, false));
 
             _mLogger.debug("Config file written");
             return true;
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             _mLogger.error("Unable to create new CustomFuels.xml. What did you do??");
             e.printStackTrace();
@@ -94,26 +93,25 @@ public class CustomFuelsHandler implements IFuelHandler
             _mCustomFuels = tNewItemCollection;
             tResult = true;
 
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             e.printStackTrace();
         }
 
         return tResult;
     }
-    
+
     @Override
     public int getBurnTime(ItemStack pIS)
     {
         try
         {
             int tReturnValue = 0;
-            
+
             FuelItem tFI = _mCustomFuels.FindFuelValue(pIS);
-            if (tFI != null)
-                return tFI.getBurnTime();
-            else
-                return 0;
+            if (tFI != null) return tFI.getBurnTime();
+            else return 0;
         }
         catch (Exception e)
         {

@@ -24,7 +24,7 @@ public class CustomDrops
 
     public List<CustomDrops.CustomDrop> getCustomDrops()
     {
-        Init();	
+        Init();
         return mCustomDrops;
     }
 
@@ -34,7 +34,7 @@ public class CustomDrops
         {
             Init();
             if (pEntity == null) return null;
-            
+
             String tEntityClassName = pEntity.getClass().getName();
             for (CustomDrop drop : mCustomDrops)
             {
@@ -42,7 +42,8 @@ public class CustomDrops
             }
 
             return null;
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             return null;
         }
@@ -62,76 +63,77 @@ public class CustomDrops
 
         @XmlElement(name = "Drop")
         protected List<CustomDrops.CustomDrop.Drop> mDrops;
-        
+
         public List<CustomDrops.CustomDrop.Drop> getDrops()
         {
-            Init();	
+            Init();
             return mDrops;
         }
-        
+
         private void Init()
         {
             if (mDrops == null) mDrops = new ArrayList<CustomDrops.CustomDrop.Drop>();
         }
-        
+
         public String getEntityName()
         {
             return mEntityClassName;
         }
 
-        
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType
         public static class Drop
         {
             @XmlAttribute(name = "Identifier")
             protected String mDropID;
-        	
+
             @XmlAttribute(name = "ItemName")
             protected String mItemName;
-            
+
             @XmlAttribute(name = "Amount")
             protected int mAmount;
 
             @XmlAttribute(name = "NBTTag")
             protected String mTag;
-            
+
             @XmlAttribute(name = "Chance")
             protected int mChance;
-            
+
             @XmlAttribute(name = "LimitedDropCount")
             protected int mLimitedDropCount;
-            
+
             @XmlAttribute(name = "RandomAmount")
             protected boolean mIsRandomAmount;
-            
+
             public String getIdentifier()
             {
                 return mDropID;
             }
-            
+
             public String getItemName()
             {
                 return mItemName;
             }
 
-
             public int getAmount()
             {
                 return mAmount;
             }
+
             public int getChance()
             {
                 return mChance;
             }
+
             public int getLimitedDropCount()
             {
                 return mLimitedDropCount;
             }
 
-			public boolean getIsRandomAmount() {
-				return mIsRandomAmount;
-			}
+            public boolean getIsRandomAmount()
+            {
+                return mIsRandomAmount;
+            }
         }
     }
 }

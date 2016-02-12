@@ -11,21 +11,25 @@ import codechicken.nei.api.IConfigureNEI;
 
 public class NEIGTNewHorizonsConfig implements IConfigureNEI
 {
-	@Override
-	public void loadConfig() {
-		API.hideItem(new ItemStack(QuantumBread.Instance()));
-		API.hideItem(new ItemStack(MainRegistry.Module_LootBags.mLootBagItem, 1, 0)); // Hide metaID 0, as this is the generic item
-		MainRegistry.Logger.info("Added NEI Config");
-	}
+    @Override
+    public void loadConfig()
+    {
+        API.hideItem(new ItemStack(QuantumBread.Instance()));
+        // Hide metaID 0, as this is the generic item for trash bags
+        API.hideItem(new ItemStack(MainRegistry.Module_LootBags.mLootBagItem, 1, 0));
+        MainRegistry.Logger.info("Added NEI Config");
+    }
 
-	@Override
-	public String getName() {
-		return "GTNewHorizons-NEIConfig";
-	}
+    @Override
+    public String getName()
+    {
+        return "GTNewHorizons-NEIConfig";
+    }
 
-	@Override
-	public String getVersion() {
-		return Refstrings.VERSION;
-	}
+    @Override
+    public String getVersion()
+    {
+        return Refstrings.VERSION;
+    }
 
 }

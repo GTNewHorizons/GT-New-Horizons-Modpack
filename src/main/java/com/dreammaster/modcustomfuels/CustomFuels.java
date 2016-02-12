@@ -26,7 +26,7 @@ public class CustomFuels
         Init();
 
         return mFuelItems;
-    }	
+    }
 
     public FuelItem FindFuelValue(ItemStack pItem)
     {
@@ -37,16 +37,16 @@ public class CustomFuels
 
             UniqueIdentifier UID = GameRegistry.findUniqueIdentifierFor(pItem.getItem());
             String tCompareName = UID.toString();
-            if (pItem.getItemDamage() > 0)
-                tCompareName = String.format("%s:%d", tCompareName, pItem.getItemDamage());
-            
+            if (pItem.getItemDamage() > 0) tCompareName = String.format("%s:%d", tCompareName, pItem.getItemDamage());
+
             for (FuelItem ifi : mFuelItems)
             {
                 if (ifi.mItemName.equalsIgnoreCase(tCompareName)) return ifi;
             }
 
             return null;
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             return null;
         }

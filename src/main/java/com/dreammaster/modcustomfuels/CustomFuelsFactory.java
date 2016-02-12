@@ -9,7 +9,7 @@ public class CustomFuelsFactory
         FuelItem fi = new FuelItem();
         fi.mItemName = pItemName;
         fi.mBurnTime = pBurnTime;
-        
+
         return fi;
     }
 }

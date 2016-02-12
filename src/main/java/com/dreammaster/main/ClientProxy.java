@@ -15,20 +15,23 @@ import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class ClientProxy extends CommonProxy{
-	public void registerRenderInfo() {
-	    BlockBabyChest.pRenderID = RenderingRegistry.getNextAvailableRenderId();
-	    TileEntitySpecialRenderer render = new RenderBabyChest();
-	    
-	    MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(MainRegistry._mBlockBabyChest), new RenderItemBabyChest());
-	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBabyChest.class, render);
-	}
+public class ClientProxy extends CommonProxy
+{
+    public void registerRenderInfo()
+    {
+        BlockBabyChest.pRenderID = RenderingRegistry.getNextAvailableRenderId();
+        TileEntitySpecialRenderer render = new RenderBabyChest();
+
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(MainRegistry._mBlockBabyChest), new RenderItemBabyChest());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBabyChest.class, render);
+    }
+
     @Override
     public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
     {
         return null;
     }
-    
+
     @Override
     public World getClientWorld()
     {
