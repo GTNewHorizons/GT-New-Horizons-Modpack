@@ -15,10 +15,9 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.MathHelper;
-import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.IFluidContainerItem;
 
-import com.dreammaster.auxiliary.ItemHelper;
+import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modhazardousitems.HazardousItems.HazardousFluid;
@@ -431,7 +430,7 @@ public class HazardousItemsHandler {
                     if (is == null)
                         continue;
 
-                    tCurrIS = ItemHelper.ConvertItemToString(is.getItem());
+                    tCurrIS = ItemDescriptor.fromStack(is).toString();
 
                     // Check if item is a fluid container
                     if ((Object)is.getItem() instanceof IFluidContainerItem)

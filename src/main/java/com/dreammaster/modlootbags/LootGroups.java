@@ -160,6 +160,10 @@ public class LootGroups
 			public boolean getIsRandomAmount() {
 				return mIsRandomAmount;
 			}
+
+			public String getNBTTag() {
+				return mTag;
+			}
         }
     }
 }

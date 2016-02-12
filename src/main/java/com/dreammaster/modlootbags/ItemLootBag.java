@@ -1,5 +1,6 @@
 package com.dreammaster.modlootbags;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -15,7 +16,8 @@ import net.minecraft.util.IIcon;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
-import com.dreammaster.auxiliary.ItemHelper;
+import com.dreammaster.auxiliary.FluidHelper;
+import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -97,11 +99,17 @@ public class ItemLootBag extends Item
 				if (tGrp.mMaxItems > tGrp.mMinItems)
 					 q = q + pWorld.rand.nextInt(tGrp.mMaxItems - tGrp.mMinItems);
 				
-				for (int a = 0; a < q; a++)
+				while(q > 0)
 				{
-					ItemStack is = getRandomLootItem(pPlayer, tGrp);
-					if (is != null)
-					    pWorld.spawnEntityInWorld(new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, is.copy()));
+					List<ItemStack> isList = getRandomLootItems(pPlayer, tGrp);
+					q -= isList.size();
+					
+					for (ItemStack tStack : isList)
+					{
+						EntityItem eti = new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, tStack.copy());
+						eti.delayBeforeCanPickup = 0;
+					    pWorld.spawnEntityInWorld(eti);
+					}
 				}
 	      
 				pWorld.playSoundAtEntity(pPlayer, String.format("%s:lootbag_open", Refstrings.MODID), 0.75F, 1.0F);				
@@ -116,15 +124,18 @@ public class ItemLootBag extends Item
 		return pStack;
 	}
 
-	private ItemStack getRandomLootItem(EntityPlayer player, LootGroup pGrp)
+	private List<ItemStack> getRandomLootItems(EntityPlayer player, LootGroup pGrp)
 	{
+		List<ItemStack> tReturnList = new ArrayList<ItemStack>();
+		List<Drop> tPendingDrops = new ArrayList<Drop>();
+		
 		double tRnd;
-		Drop tSelectedDrop = null;
-		ItemStack tReturnStack = null;
 		int tMaxRuns = 0;
+		Drop tSelectedDrop = null;
 		
 		do
 		{
+			// Step 1: Get a random drop by weight
 			tRnd = MainRegistry.Rnd.nextDouble() * pGrp.getMaxWeight();
 			//FMLLog.info("tRnd: %f", tRnd);
 			for (Drop tDr : pGrp.getDrops())
@@ -138,40 +149,55 @@ public class ItemLootBag extends Item
 				}
 				
 			}
+			
+			// Step 2: Was the selection successful? 
 			if (tSelectedDrop != null)
-			{
-				if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, tSelectedDrop))
+			{ 
+				// Ask the LootGroupHandler to provide a list with drops we shall use,
+				// based on the current drop. See JDoc on that function for details.
+				List<Drop> tPossibleItemDrops = _mLGHandler.getItemGroupDrops(pGrp, tSelectedDrop);
+				
+				// Now check for each item if the player is allowed to get another one of these.
+				// The check for isLimitedDrop is done in that function; So we only query the local
+				// Storage when it's required
+				for (Drop dr : tPossibleItemDrops)
 				{
-					//FMLLog.info("Player allowed to get drop");
-					int tAmount = tSelectedDrop.mAmount;
-					
-					if (tSelectedDrop.mIsRandomAmount)
-						tAmount = MainRegistry.Rnd.nextInt(tAmount) + 1;
-					
-					//FMLLog.info("Drop amount: %d", tAmount);
-					Item tItem = ItemHelper.ConvertStringToItem(tSelectedDrop.getItemName());
-					tReturnStack = new ItemStack(tItem, tAmount);
-
-					try
+					if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, tSelectedDrop))
 					{
-	    				if (tSelectedDrop.mTag != null && !tSelectedDrop.mTag.isEmpty())
-	    				{
-	    				    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(tSelectedDrop.mTag);
-	    				    tReturnStack.setTagCompound(tNBT);
-	    				}
-					}
-					catch (Exception e)
-					{
-					    _mLogger.error(String.format("CustomDrop ID %s failed to drop, due an invalid NBT Tag. Please correct your configs!"));
-					    tReturnStack = null;
-					}
+						// ... so add it to the pending items list.
+						tPendingDrops.add(tSelectedDrop);
+					}					
 				}
-				//else
-					//FMLLog.debug("Player not allowed to get drop");
+				
+				// At this point, we have a list of 1 to x items, depending on how the lootgroups are defined
+				// now we have to loop the chosen drops and get the actual ItemStacks with NBT and metavalues
+				
+				for (Drop td : tPendingDrops)
+				{
+					// How much to drop
+					int tAmount = td.getAmount();
+					
+					// Random drop? Alter amount by random
+					if (td.getIsRandomAmount())
+						tAmount = MainRegistry.Rnd.nextInt(tAmount) + 1; // Then get random amount between 1 and tAmount
+					
+					// Try to get ItemDescriptor
+					ItemDescriptor tIDesc = ItemDescriptor.fromString(td.getItemName());
+					
+					// getItemStackwNBT accepts both empty and filled tags, makes it easier to process here; As we don't have to if/else-it
+					if (tIDesc != null)
+						tReturnList.add(tIDesc.getItemStackwNBT(tAmount, td.getNBTTag()));
+					else
+						_mLogger.error(String.format("Skipping loot %s; Unable to get ItemStack", td.getItemName()));
+				}
+				
+				// tReturnList contains now all ItemStacks that should drop for this turn
+				
 			}
+			
 			tMaxRuns++;
-		} while (tReturnStack == null && tMaxRuns < 5);
+		} while (tReturnList.isEmpty() && tMaxRuns < 5);
 
-		return tReturnStack;
+		return tReturnList;
 	}
 }

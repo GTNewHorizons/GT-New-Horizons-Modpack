@@ -10,11 +10,11 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-import com.dreammaster.auxiliary.ItemHelper;
-
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
+
+import com.dreammaster.auxiliary.FluidHelper;
+import com.dreammaster.auxiliary.ItemDescriptor;
  
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "HazardousItemList")
@@ -87,7 +87,7 @@ public class HazardousItems {
 	    		{
 	    			// Exact match
 	                 //if (hi.itemName.equals(pInHand.getUnlocalizedName()))
-	    		    if (hi.itemName.equals(ItemHelper.ConvertItemToString(pInHand.getItem())))
+	    		    if (hi.itemName.equals(ItemDescriptor.fromItem(pInHand.getItem())))
 	    		        continue; // Dont read to new list
 	    		}
 	    		else
@@ -97,7 +97,7 @@ public class HazardousItems {
 		    			// "contains" match
 		        		String p1 = hi.itemName.toLowerCase();
 		        		//String p2 = pInHand.getUnlocalizedName().toLowerCase();
-		        		String p2 = ItemHelper.ConvertItemToString(pInHand.getItem()).toLowerCase();
+		        		String p2 = ItemDescriptor.fromItem(pInHand.getItem()).toString().toLowerCase();
 	
 		        		if (p2.contains(p1))
 		        			continue;
@@ -127,7 +127,7 @@ public class HazardousItems {
         try
         {
             List<HazardousItems.HazardousFluid> tNewList = new ArrayList<HazardousItems.HazardousFluid>();
-            Fluid tContainerFluid = ItemHelper.getFluidFromContainer(pInHand);
+            Fluid tContainerFluid = FluidHelper.getFluidFromContainer(pInHand);
             
             for (HazardousFluid hi : hazardousFluid)
             {
@@ -214,7 +214,7 @@ public class HazardousItems {
     		{
     			// Exact match
         		//if (hi.itemName.equals(pItemStack.getUnlocalizedName()))
-                if (hi.itemName.equals(ItemHelper.ConvertItemToString(pItemStack.getItem())))
+                if (hi.itemName.equals(ItemDescriptor.fromStack(pItemStack).toString()))
         			return hi;
     		}
     		else
@@ -222,7 +222,7 @@ public class HazardousItems {
     			// "contains" match
         		String p1 = hi.itemName.toLowerCase();
         		//String p2 = pItemStack.getUnlocalizedName().toLowerCase();
-        		String p2 = ItemHelper.ConvertItemToString(pItemStack.getItem()).toLowerCase();
+        		String p2 = ItemDescriptor.fromStack(pItemStack).toString().toLowerCase();
 
         		if (p2.contains(p1))
         			return hi;
@@ -239,7 +239,7 @@ public class HazardousItems {
      */
     public HazardousFluid FindHazardousFluid(ItemStack pItemStack)
     {
-        Fluid tStackFluid = ItemHelper.getFluidFromContainer(pItemStack);
+        Fluid tStackFluid = FluidHelper.getFluidFromContainer(pItemStack);
         if (tStackFluid == null)
             return null;
             

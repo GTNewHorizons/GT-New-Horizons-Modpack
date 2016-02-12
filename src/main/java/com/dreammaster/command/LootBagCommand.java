@@ -4,14 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import org.apache.commons.lang3.math.NumberUtils;
-
-import com.dreammaster.auxiliary.ItemHelper;
-import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modlootbags.LootGroups.LootGroup;
-import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
-import com.dreammaster.modlootbags.LootGroupsFactory;
-
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,11 +11,13 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
-import cpw.mods.fml.relauncher.Side;
-import eu.usrv.yamcore.YAMCore;
+
+import com.dreammaster.auxiliary.ItemDescriptor;
+import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modlootbags.LootGroups.LootGroup;
+import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
+import com.dreammaster.modlootbags.LootGroupsFactory;
+
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 
 public class LootBagCommand implements ICommand
@@ -142,7 +136,7 @@ public class LootBagCommand implements ICommand
 	            	    
 	            	    for (ItemStack tis : tStacksToAdd)
 	            	    {
-                            String tItemID = ItemHelper.ConvertItemStackToString(tis);
+                            String tItemID = ItemDescriptor.fromStack(tis).toString();
                             if (tItemID.isEmpty())
                                 continue; // Something went wrong..
                             

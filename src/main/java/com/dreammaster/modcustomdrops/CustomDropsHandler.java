@@ -13,26 +13,19 @@ import javax.xml.bind.Unmarshaller;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.DamageSource;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
-import com.dreammaster.auxiliary.ItemHelper;
+import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop.Drop;
-import com.dreammaster.modcustomfuels.CustomFuels;
-import com.dreammaster.modcustomfuels.CustomFuelsFactory;
-import com.dreammaster.modcustomfuels.CustomFuels.FuelItem;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import eu.usrv.yamcore.persisteddata.PersistedDataBase;
@@ -119,7 +112,7 @@ public class CustomDropsHandler
     	{
     		for (Drop Y : X.getDrops())
     		{
-    			if (ItemHelper.ConvertStringToItem(Y.getItemName()) == null)
+    			if (ItemDescriptor.fromString(Y.getItemName()) == null)
     			{
     				_mLogger.error(String.format("In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
     				tSuccess = false;
@@ -289,25 +282,15 @@ public class CustomDropsHandler
 				if (dr.getIsRandomAmount())
 					tFinalAmount = 1 + MainRegistry.Rnd.nextInt(dr.getAmount() -1 );
 				
-				Item tITD = ItemHelper.ConvertStringToItem(dr.getItemName());
-				ItemStack tDropStack = new ItemStack(tITD);
-
-				try
+				
+				ItemStack tDropStack = ItemDescriptor.fromString(dr.getItemName()).getItemStackwNBT(tFinalAmount, dr.mTag);
+				if (tDropStack == null)
+				    _mLogger.error(String.format("CustomDrop ID %s failed to drop"));
+				else
 				{
-    				if (dr.mTag != null && !dr.mTag.isEmpty())
-    				{
-    				    NBTTagCompound tNBT = (NBTTagCompound) JsonToNBT.func_150315_a(dr.mTag);
-    				    tDropStack.setTagCompound(tNBT);
-    				}
+					EntityItem tDropEntity = new EntityItem(tEntity.worldObj, tEntity.posX, tEntity.posY, tEntity.posZ, tDropStack);
+					pDropList.add(tDropEntity);					
 				}
-				catch (Exception e)
-				{
-				    _mLogger.error(String.format("CustomDrop ID %s failed to drop, due an invalid NBT Tag. Please correct your configs!"));
-				}
-    				
-				EntityItem tDropEntity = new EntityItem(tEntity.worldObj, tEntity.posX, tEntity.posY, tEntity.posZ, tDropStack);
-				pDropList.add(tDropEntity);
-				//tEntity.dropItem(ConvertStringToItem(dr.getItemName()), tFinalAmount);
 			}
 		}
 		catch (Exception e)

@@ -20,7 +20,8 @@ import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.DimensionManager;
 
-import com.dreammaster.auxiliary.ItemHelper;
+import com.dreammaster.auxiliary.ItemDescriptor;
+import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
@@ -126,7 +127,7 @@ public class LootGroupsHandler
         {
             LootGroup tTargetGroup = getGroupByID(pGroupID);
             LootGroup tTrashGroup = getGroupByID(0);
-            if (tTargetGroup != null && tTrashGroup != null)
+            if (tTargetGroup != null && tTrashGroup != null && tTargetGroup.mCombineWithTrash)
             {                
                 LootGroup tMerged = _mLGF.copyLootGroup(tTargetGroup);
                 
@@ -306,20 +307,23 @@ public class LootGroupsHandler
     			
     		// Skip lootItems check if we received the server config
     		if (pIsLocalConfig)
-    		{
+    		{ // This is a server-run. Verify we actually do have all items defined
 	    		if (X.mDrops.size() == 0)
 	    		{
-	    			_mLogger.error(String.format("[LootBags] LootGroup ID %d is empty!", X.mGroupID));
-	    			tSuccess = false;
+	    			_mLogger.error(String.format("[LootBags] LootGroup ID %d is empty. Adding dummy item", X.mGroupID));
+	    			String tNothingDrop = ItemDescriptor.fromItem(ItemList.Nothing.Item.getConstructedItem()).toString();
+	    			X.getDrops().add(_mLGF.createDrop(tNothingDrop, "yougotnothing", 1, false, 100, 0));
+	    			
+	    			//tSuccess = false; // Don't break on empty groups
 	    			break;
 	    		}
 	    		
 	    		for (Drop Y : X.getDrops())
 	    		{
-	    			if (ItemHelper.ConvertStringToItem(Y.getItemName()) == null)
+	    			if (ItemDescriptor.fromString(Y.getItemName()) == null)
 	    			{
 	    				_mLogger.error(String.format("[LootBags] In ItemDropID: [%s], can't find item [%s]", Y.getIdentifier(), Y.getItemName()));
-	    				tSuccess = false;
+	    				tSuccess = false; // Maybe add the nothing-item here? Or the invalid-item item from HQM
 	    			}
 	    			
 	    			if (Y.mTag != null && !Y.mTag.isEmpty())
@@ -381,6 +385,9 @@ public class LootGroupsHandler
             else
             {
             	_mLootGroups = tNewItemCollection;
+            	if (tLocalConfig)
+            		_mBufferedLootGroups.clear(); // Also empty the buffered groups; As we might've gotten some group-relationship changs
+            	
             	tResult = true;
             }
 
@@ -440,5 +447,26 @@ public class LootGroupsHandler
     		_mLogger.info("[LootBags] Received and activated configuration from server");
     	else
     		_mLogger.warn("[LootBags] Received invalid configuration from server; Not activated!");
+	}
+
+	
+	/** Get a list of all configured drops that are defined as a "ItemGroup" within the lootgroup.
+	 * If no itemGroup is defined, the list will only contain the given item
+	 * @param pGrp
+	 * @param tSelectedDrop
+	 * @return
+	 */
+	public List<Drop> getItemGroupDrops(LootGroup pGrp, Drop pSelectedDrop)
+	{
+		List<Drop> tGrp = new ArrayList<Drop>();
+		
+		for (Drop tDr : pGrp.getDrops())
+			if (tDr.getItemDropGroup().equalsIgnoreCase(pSelectedDrop.getItemDropGroup()))
+				tGrp.add(tDr);
+		
+		if (tGrp.isEmpty()) // Just in case something REALLY derpy happens..
+			tGrp.add(pSelectedDrop);
+		
+		return tGrp;
 	}
 }
