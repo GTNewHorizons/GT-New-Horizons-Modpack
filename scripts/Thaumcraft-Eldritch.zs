@@ -64,6 +64,12 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:*>);
 // --- Thaumcraft Wand Caps Infusion
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:*>);
 
+// --- Essentia Reservoir
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockEssentiaReservoir>);
+
+// --- Wand Focus Primal
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPrimal>);
+
 
 
 
@@ -1255,6 +1261,32 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:326>.withTag
 [<ore:screwChrome>, <Thaumcraft:WandCasting:216>.withTag({cap: "thaumium", rod: "silverwood_staff", sceptre: 1}), <dreamcraft:item.ChargedVoidWandCap>],
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwChrome>, null]]);
 
+// --- Essentia Reservoir
+mods.thaumcraft.Infusion.addRecipe("ESSENTIARESERVOIR", <Thaumcraft:blockTube:4>, 
+[<dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>], 
+"aqua 16, permutatio 16, praecantatio 16, vacuos 16", <Thaumcraft:blockEssentiaReservoir>, 8);
+// -
+mods.thaumcraft.Research.setAspects("ESSENTIARESERVOIR", "aqua 55, permutatio 45, praecantatio 35, vacuos 25, alienis 15, tenebrae 5");
+mods.thaumcraft.Research.setComplexity("ESSENTIARESERVOIR", 3);
+
+// --- Wand Focus Primal
+mods.thaumcraft.Arcane.addShaped("FOCUSPRIMAL", <Thaumcraft:FocusPrimal>, "aqua 75, terra 75, ignis 75, aer 75, ordo 75, perditio 75", [
+[<ore:gemExqusiteDiamond>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>],
+[<Thaumcraft:blockCrystal:2> ,<Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:3>],
+[<ore:gemExqusiteDiamond>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+// -
+mods.thaumcraft.Research.setAspects("FOCUSPRIMAL", "aqua 75, ignis 65, aer 55, terra 45, ordo 35, perditio 25, praecantatio 15, alienis 5");
+mods.thaumcraft.Research.setComplexity("FOCUSPRIMAL", 4);
+
+// --- Staff Core of the Primal
+mods.thaumcraft.Infusion.addRecipe("ROD_primal_staff", <Thaumcraft:WandRod:2>,
+[<Thaumcraft:ItemResource:15>, <Thaumcraft:WandRod:1>, <Thaumcraft:WandRod:3>, <Thaumcraft:WandRod:4>, <Thaumcraft:ItemResource:15>, <Thaumcraft:WandRod:5>, <Thaumcraft:WandRod:6>, <Thaumcraft:WandRod:7>],
+"aer 64, aqua 64, terra 64, ignis 64, ordo 64, perditio 64, praecantatio 128", <Thaumcraft:WandRod:100>, 10);
+// -
+mods.thaumcraft.Research.setAspects("ROD_primal_staff", "aqua 85, ignis 75, aer 65, terra 55, ordo 45, perditio 35, praecantatio 25, instrumentum 15, alienis 5");
+mods.thaumcraft.Research.setComplexity("ROD_primal_staff", 4);
+
+
 
 
 
@@ -1271,6 +1303,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETAL");
 
 // --- Void Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_void");
+
+// --- Essentia Reservoir
+mods.thaumcraft.Research.refreshResearchRecipe("ESSENTIARESERVOIR");
+
+// --- Wand Focus Primal
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPRIMAL");
+
+// --- Staff Core of the Primal
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_primal_staff");
 
 
 
