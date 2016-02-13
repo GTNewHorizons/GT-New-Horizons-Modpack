@@ -19,12 +19,15 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.common.DimensionManager;
+import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 
 import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
 import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
 import com.dreammaster.network.msg.LootBagClientSyncMessage;
@@ -32,6 +35,8 @@ import com.dreammaster.network.msg.LootBagClientSyncMessage;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.persisteddata.PersistedDataBase;
 
@@ -88,14 +93,14 @@ public class LootGroupsHandler
 
         boolean tResult = true;
         String pDropUID = getUniqueLootIdentifier(pPlayer, pGroup, pDrop);
-        // FMLLog.info("pDropUID: %s", pDropUID);
 
         if (pDrop.getLimitedDropCount() > 0)
         {
             int tReceivedAmount = _mPersistedDB.getValueAsInt(pDropUID, 0);
-            // FMLLog.info("tReceivedAmount: %d", tReceivedAmount);
-            if (tReceivedAmount >= pDrop.getLimitedDropCount()) tResult = false;
-            else _mPersistedDB.setValue(pDropUID, tReceivedAmount + 1);
+            if (tReceivedAmount >= pDrop.getLimitedDropCount())
+                tResult = false;
+            else 
+                _mPersistedDB.setValue(pDropUID, tReceivedAmount + 1);
         }
 
         return tResult;
@@ -130,20 +135,36 @@ public class LootGroupsHandler
 
     public LootGroup getMergedGroupFromID(int pGroupID)
     {
-        if (!_mBufferedLootGroups.containsKey(pGroupID))
+        LootGroup tReturnGroup = null;
+        LootGroup tTargetGroup = getGroupByID(pGroupID);
+        if (tTargetGroup != null)
         {
-            LootGroup tTargetGroup = getGroupByID(pGroupID);
-            LootGroup tTrashGroup = getGroupByID(0);
-            if (tTargetGroup != null && tTrashGroup != null && tTargetGroup.mCombineWithTrash)
+            if (!tTargetGroup.mCombineWithTrash)
+                tReturnGroup = tTargetGroup;
+            else
             {
-                LootGroup tMerged = _mLGF.copyLootGroup(tTargetGroup);
-
-                tMerged.mDrops.addAll(tTrashGroup.mDrops);
-                _mBufferedLootGroups.put(pGroupID, tMerged);
+                tReturnGroup = _mBufferedLootGroups.get(pGroupID);
+                if (tReturnGroup == null)
+                {
+                    LootGroup tTrashGroup = getGroupByID(0);
+                    if (tTrashGroup != null)
+                    {
+                        LootGroup tMerged = _mLGF.copyLootGroup(tTargetGroup);
+                        _mBufferedLootGroups.put(pGroupID, tMerged);
+                        tReturnGroup = tMerged;
+                    }
+                    else
+                    {
+                        //_mLogger.warn(String.format("Trashgroup is empty, but GroupID %d is set to merge with it", pGroupID));
+                        tReturnGroup = tTargetGroup;
+                    }
+                }
             }
         }
+        else
+            _mLogger.error(String.format("TargetGroup for ID returned null, this shouldn't happen. ID: %d", pGroupID));
 
-        return _mBufferedLootGroups.get(pGroupID);
+        return tReturnGroup;
     }
 
     public LootGroup getGroupByIDClient(int pGroupID)
@@ -174,7 +195,7 @@ public class LootGroupsHandler
             jaxMarsh.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
             jaxMarsh.marshal(_mLootGroups, new FileOutputStream(_mConfigFileName, false));
 
-            _mLogger.debug("[LootBags] Config file written");
+            //_mLogger.debug("[LootBags] Config file written");
             return true;
         }
         catch (Exception e)
@@ -198,11 +219,11 @@ public class LootGroupsHandler
             return;
         }
 
-        _mLogger.debug("[LootBags] LootBags entering state: LOAD CONFIG");
+        //_mLogger.debug("[LootBags] LootBags entering state: LOAD CONFIG");
         File tConfigFile = new File(_mConfigFileName);
         if (!tConfigFile.exists())
         {
-            _mLogger.debug("[LootBags] LootBags Config file not found, assuming first-start. Creating default one");
+            //_mLogger.debug("[LootBags] LootBags Config file not found, assuming first-start. Creating default one");
             InitSampleConfig();
             SaveLootGroups();
         }
@@ -217,7 +238,7 @@ public class LootGroupsHandler
             InitSampleConfig();
         }
         _mInitialized = true;
-        dumpDebugInfo("LoadConfig");  
+        //dumpDebugInfo("LoadConfig");  
     }
 
     /**
@@ -232,13 +253,15 @@ public class LootGroupsHandler
         boolean tState = ReloadLootGroups("");
         if (_mInitialized)
         {
-            if (tState) sendClientUpdate();
-            else _mLogger.error("[LootBags] Reload of LootBag file failed. Not sending client update");
+            if (tState)
+                sendClientUpdate();
+            else
+                _mLogger.error("[LootBags] Reload of LootBag file failed. Not sending client update");
         }
         return tState;
     }
 
-    public void dumpDebugInfo(String pArea)
+    /*public void dumpDebugInfo(String pArea)
     {
         _mLogger.info(String.format("Area: %s", pArea));
         _mLogger.info("====== Dumping LootTables ======");
@@ -249,7 +272,7 @@ public class LootGroupsHandler
         }
         _mLogger.info("====== States ======");
         _mLogger.info(String.format("Initialized: %s", _mInitialized ? "true" : "false"));
-    }
+    }*/
     
     public static Item mLootBagItem = null;
 
@@ -271,7 +294,7 @@ public class LootGroupsHandler
             LootGroups tReducedGroup = _mLGF.copy(_mLootGroups, false);
             jaxMarsh.marshal(tReducedGroup, tSW);
 
-            dumpDebugInfo("getClientSideXMLStream");            
+            //dumpDebugInfo("getClientSideXMLStream");            
             
             return tSW.toString();
         }
@@ -382,7 +405,7 @@ public class LootGroupsHandler
     {
         boolean tResult = false;
 
-        _mLogger.debug("[LootBags] LootGroupsHandler will now try to load its configuration");
+        //_mLogger.debug("[LootBags] LootGroupsHandler will now try to load its configuration");
         try
         {
             JAXBContext tJaxbCtx = JAXBContext.newInstance(LootGroups.class);
@@ -395,13 +418,13 @@ public class LootGroupsHandler
             {
                 File tConfigFile = new File(_mConfigFileName);
                 tNewItemCollection = (LootGroups) jaxUnmarsh.unmarshal(tConfigFile);
-                _mLogger.debug("[LootBags] Config file has been loaded. Entering Verify state");
+                //_mLogger.debug("[LootBags] Config file has been loaded. Entering Verify state");
             }
             else
             {
                 StringReader reader = new StringReader(pXMLContent);
                 tNewItemCollection = (LootGroups) jaxUnmarsh.unmarshal(reader);
-                _mLogger.debug("[LootBags] Received Server-Config. Entering Verify state");
+                //_mLogger.debug("[LootBags] Received Server-Config. Entering Verify state");
             }
 
             if (!VerifyConfig(tNewItemCollection, tLocalConfig))
@@ -411,10 +434,13 @@ public class LootGroupsHandler
             }
             else
             {
-                if (tLocalConfig) _mLootGroups = tNewItemCollection;
+                if (tLocalConfig)
+                {
+                    _mLootGroups = tNewItemCollection;
+                    _mBufferedLootGroups.clear(); // Also empty the buffered groups; As we might've gotten some group-relationship changs
+                }
                 _mClientSideLootGroups = tNewItemCollection;
-
-                if (tLocalConfig) _mBufferedLootGroups.clear(); // Also empty the buffered groups; As we might've gotten some group-relationship changs
+                    
                 tResult = true;
             }
 
@@ -453,9 +479,12 @@ public class LootGroupsHandler
         String tPayload = getClientSideXMLStream();
         if (!tPayload.isEmpty())
         {
-            if (pPlayer != null && pPlayer instanceof EntityPlayerMP) MainRegistry.NW.sendTo(new LootBagClientSyncMessage(tPayload), pPlayer);
-            else if (pPlayer == null) MainRegistry.NW.sendToAll(new LootBagClientSyncMessage(tPayload));
-            else _mLogger.error("[LootBags.sendClientUpdate] Target is no EntityPlayer and not null");
+            if (pPlayer != null && pPlayer instanceof EntityPlayerMP)
+                MainRegistry.NW.sendTo(new LootBagClientSyncMessage(tPayload), pPlayer);
+            else if (pPlayer == null)
+                MainRegistry.NW.sendToAll(new LootBagClientSyncMessage(tPayload));
+            else
+                _mLogger.error("[LootBags.sendClientUpdate] Target is no EntityPlayer and not null");
         }
         else _mLogger.error("[LootBags] Unable to send update to clients; Received empty serialized object");
     }
@@ -467,12 +496,15 @@ public class LootGroupsHandler
      */
     public void processServerConfig(String pPayload)
     {
-        if (ReloadLootGroups(pPayload)) _mLogger.info("[LootBags] Received and activated configuration from server");
-        else _mLogger.warn("[LootBags] Received invalid configuration from server; Not activated!");
+        if (ReloadLootGroups(pPayload)) 
+            _mLogger.info("[LootBags] Received and activated configuration from server");
+        else 
+            _mLogger.warn("[LootBags] Received invalid configuration from server; Not activated!");
     }
 
     /**
-     * Get a list of all configured drops that are defined as a "ItemGroup" within the lootgroup. If no itemGroup is defined, the list will only contain the given item
+     * Get a list of all configured drops that are defined as a "ItemGroup" within the lootgroup. 
+     * If no itemGroup is defined, the list will only contain the given item
      * 
      * @param pGrp
      * @param tSelectedDrop
@@ -482,24 +514,29 @@ public class LootGroupsHandler
     {
         List<Drop> tGrp = new ArrayList<Drop>();
 
-        for (Drop tDr : pGrp.getDrops())
-            if (tDr.getItemDropGroup().equalsIgnoreCase(pSelectedDrop.getItemDropGroup())) tGrp.add(tDr);
-
-        if (tGrp.isEmpty()) // Just in case something REALLY derpy happens..
-        tGrp.add(pSelectedDrop);
-
+        if (pSelectedDrop.getItemDropGroup().isEmpty())
+            tGrp.add(pSelectedDrop);
+        else
+        {
+            for (Drop tDr : pGrp.getDrops())
+                if (tDr.getItemDropGroup().equalsIgnoreCase(pSelectedDrop.getItemDropGroup())) tGrp.add(tDr);
+    
+            if (tGrp.isEmpty()) // Just in case something REALLY derpy happens..
+            tGrp.add(pSelectedDrop);
+        }
         return tGrp;
     }
 
     /**
      * Creates a fake Array of ItemStacks for given LootGroupID
+     * This should only execute on the SERVER thread
      * 
      * @param pLootGroupID
      * @return
      */
     public ItemStack[] createFakeInventoryFromID(int pLootGroupID) 
     {
-        dumpDebugInfo("createFakeInventoryFromID");
+        //dumpDebugInfo("createFakeInventoryFromID");
         ItemStack[] tList = new ItemStack[108];
         int i = 0;
         try
@@ -507,11 +544,13 @@ public class LootGroupsHandler
             LootGroup lg = getGroupByID(pLootGroupID);
             if (lg != null)
             {
-                _mLogger.info(String.format("lg %s drops %d", lg.getGroupName(), lg.getDrops().size()));
+                //_mLogger.info(String.format("lg %s drops %d", lg.getGroupName(), lg.getDrops().size()));
                 for (Drop dr : lg.getDrops())
                 {
-                    tList[i] = getStackFromDrop(dr);
-                    _mLogger.info(String.format("fakeInventory[%d]: %s", i, tList[i].getDisplayName()));
+                    ItemStack tPendingStack = getStackFromDrop(dr);
+                    addDropInformationNBT(tPendingStack, dr);
+                    tList[i] = tPendingStack;
+                    //_mLogger.info(String.format("fakeInventory[%d]: %s", i, tList[i].getDisplayName()));
                     i++;
                 }
             }
@@ -523,7 +562,7 @@ public class LootGroupsHandler
             _mLogger.error("Unable to build Itemlist for Lootbag GUI");
             e.printStackTrace();
         }
-        _mLogger.info(String.format("fakeInventory contains %d items", i));
+        //_mLogger.info(String.format("fakeInventory contains %d items", i));
         return tList;
     }
     
@@ -536,6 +575,7 @@ public class LootGroupsHandler
             ItemDescriptor tDesc = ItemDescriptor.fromString(pDrop.getItemName());
             if (tDesc != null)
                 tRet = tDesc.getItemStackwNBT(pDrop.getAmount(), pDrop.getNBTTag());
+            
         }
         catch (Exception e)
         {
@@ -544,5 +584,72 @@ public class LootGroupsHandler
         }
         
         return tRet;
+    }
+    private static String NBT_COMPOUND_LOOTBAGINFO = "LootBagDrop";
+    private static String NBT_S_DROP_ID = "LBDID";
+    private static String NBT_S_DROP_ITGROUP = "LBDGroup";
+    private static String NBT_I_DROP_AMOUNT = "LBDAmount";
+    private static String NBT_I_DROP_LIMIT = "LBDLimit";
+    private static String NBT_I_DROP_WEIGHT = "LBDWeight";
+    private static String NBT_B_DROP_ISRND = "LBDRnd";
+
+    
+    
+    /**
+     * Add NBT Information about this Item to the FakeStack, to disaply detailed information on the client
+     * 
+     * @param pStack
+     * @param pDrop
+     */
+    private void addDropInformationNBT(ItemStack pStack, Drop pDrop)
+    {
+        NBTTagCompound tTag = pStack.getTagCompound();
+        if (tTag == null)
+            tTag = new NBTTagCompound();
+
+        NBTTagCompound tLootTag = tTag.getCompoundTag(NBT_COMPOUND_LOOTBAGINFO);
+        
+        tLootTag.setString(NBT_S_DROP_ID, pDrop.getIdentifier());
+        tLootTag.setString(NBT_S_DROP_ITGROUP, (pDrop.getItemDropGroup().isEmpty()) ? "- no group -" : pDrop.getItemDropGroup());
+        tLootTag.setInteger(NBT_I_DROP_AMOUNT, pDrop.getAmount());
+        tLootTag.setInteger(NBT_I_DROP_LIMIT, pDrop.getLimitedDropCount());
+        tLootTag.setInteger(NBT_I_DROP_WEIGHT, pDrop.getChance());
+        tLootTag.setBoolean(NBT_B_DROP_ISRND, pDrop.getIsRandomAmount());
+
+        tTag.setTag(NBT_COMPOUND_LOOTBAGINFO, tLootTag);
+        pStack.setTagCompound(tTag);
+    }
+
+    @SubscribeEvent
+    public void onToolTip(ItemTooltipEvent pEvent)
+    {
+        ItemStack tStack = pEvent.itemStack;
+        if (tStack != null)
+        {
+            NBTTagCompound tComp = tStack.getTagCompound();
+            if (tComp != null)
+            {
+                NBTTagCompound tDropInfo = tComp.getCompoundTag(NBT_COMPOUND_LOOTBAGINFO);
+                if (!tDropInfo.hasNoTags())
+                {
+                    List<String> tToolTipInfo = new ArrayList<String>();
+                    tToolTipInfo.add(" ");
+                    tToolTipInfo.add(getFrmStr("__b__6 == Drop Information == __r"));
+                    tToolTipInfo.add(getFrmStr(String.format("__lDropID :__r %s", tDropInfo.getString(NBT_S_DROP_ID))));
+                    tToolTipInfo.add(getFrmStr(String.format("__lAmount :__r %d", tDropInfo.getInteger(NBT_I_DROP_AMOUNT))));
+                    tToolTipInfo.add(getFrmStr(String.format("__lRandom :__r %b", tDropInfo.getBoolean(NBT_B_DROP_ISRND))));
+                    tToolTipInfo.add(getFrmStr(String.format("__lLimit  :__r %d", tDropInfo.getInteger(NBT_I_DROP_LIMIT))));
+                    tToolTipInfo.add(getFrmStr(String.format("__lWeight :__r %d", tDropInfo.getInteger(NBT_I_DROP_WEIGHT))));
+                    tToolTipInfo.add(getFrmStr(String.format("__lIGroup :__r %s", tDropInfo.getString(NBT_S_DROP_ITGROUP))));
+                    
+                    pEvent.toolTip.addAll(tToolTipInfo);
+                }
+            }
+        }
+    }
+    
+    private String getFrmStr(String pSource)
+    {
+        return CustomToolTipsHandler.DecodeStringCodes(pSource);
     }
 }

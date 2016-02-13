@@ -10,6 +10,9 @@ import net.minecraft.item.ItemStack;
 import com.dreammaster.main.InventoryItem;
 import com.dreammaster.main.MainRegistry;
 
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.relauncher.Side;
+
 public class ContainerLootBag extends Container
 {  
     public static class FakeLootBagInventory implements IInventory
@@ -19,8 +22,9 @@ public class ContainerLootBag extends Container
 		
 		public FakeLootBagInventory(int pLootGroupID)
 		{
-		    MainRegistry.Logger.info(String.format("Creating fakeInventory for lootgroup %d", pLootGroupID));
+		    //MainRegistry.Logger.info(String.format("Creating fakeInventory for lootgroup %d", pLootGroupID));
 		    mInventory = mLGH.createFakeInventoryFromID(pLootGroupID);
+
 		}
 		
 		@Override
@@ -29,7 +33,8 @@ public class ContainerLootBag extends Container
 		}
 
 		@Override
-		public ItemStack getStackInSlot(int pSlot) {
+		public ItemStack getStackInSlot(int pSlot)
+		{
 			if (pSlot < 0 || pSlot >= 108)
 				return null;
 			else
@@ -37,7 +42,8 @@ public class ContainerLootBag extends Container
 		}
 
 		@Override
-		public ItemStack decrStackSize(int p_70298_1_, int p_70298_2_) {
+		public ItemStack decrStackSize(int p_70298_1_, int p_70298_2_)
+		{
 			return null;
 		}
 

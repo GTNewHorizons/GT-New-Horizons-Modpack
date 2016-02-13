@@ -289,6 +289,7 @@ public class MainRegistry
         if (CoreConfig.ModCustomToolTips_Enabled)
         {
             MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
+            MinecraftForge.EVENT_BUS.register(Module_LootBags);
             FMLCommonHandler.instance().bus().register(Module_CustomToolTips);
             FMLCommonHandler.instance().bus().register(Module_LootBags);
         }

@@ -151,7 +151,7 @@ public class LootGroups
 
             public String getItemDropGroup()
             {
-                return mItemGroup;
+                return (mItemGroup == null) ? "" : mItemGroup;
             }
 
             public String getItemName()

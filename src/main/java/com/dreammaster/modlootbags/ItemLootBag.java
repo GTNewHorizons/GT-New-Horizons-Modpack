@@ -7,6 +7,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
@@ -106,12 +107,16 @@ public class ItemLootBag extends Item
             if (tGrp != null)
             {
                 int q = tGrp.mMinItems;
-                if (tGrp.mMaxItems > tGrp.mMinItems) q = q + pWorld.rand.nextInt(tGrp.mMaxItems - tGrp.mMinItems);
-
+                if (tGrp.mMaxItems > tGrp.mMinItems)
+                    q = pWorld.rand.nextInt(tGrp.mMaxItems) + 1;
+                
+                //_mLogger.info(String.format("MinMax %d / %d", tGrp.mMinItems, tGrp.mMaxItems));
                 while (q > 0)
                 {
+                    //_mLogger.info(String.format("q: %d", q));
                     List<ItemStack> isList = getRandomLootItems(pPlayer, tGrp);
                     q -= isList.size();
+                    //_mLogger.info(String.format("NewQ: %d", q));
 
                     for (ItemStack tStack : isList)
                     {
@@ -122,13 +127,12 @@ public class ItemLootBag extends Item
                 }
 
                 pWorld.playSoundAtEntity(pPlayer, String.format("%s:lootbag_open", Refstrings.MODID), 0.75F, 1.0F);
+                pStack.stackSize -= 1;
             }
             else
             {
                 PlayerChatHelper.SendNotifyWarning(pPlayer, "This lootbag seems to be damaged, sorry about that");
-                pWorld.spawnEntityInWorld(new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, ItemList.Nothing.getIS().copy()));
             }
-            pStack.stackSize -= 1;
         }
         return pStack;
     }
@@ -146,27 +150,26 @@ public class ItemLootBag extends Item
         {
             // Step 1: Get a random drop by weight
             tRnd = MainRegistry.Rnd.nextDouble() * pGrp.getMaxWeight();
-            // FMLLog.info("tRnd: %f", tRnd);
             for (Drop tDr : pGrp.getDrops())
             {
                 tRnd -= tDr.mChance;
                 if (tRnd <= 0.0D)
                 {
                     tSelectedDrop = tDr;
-                    // FMLLog.info("SelectedDrop: %s", tSelectedDrop.mDropID);
                     break;
                 }
-
             }
+            
+            //_mLogger.info(String.format("Maxruns: %d", tMaxRuns));
 
             // Step 2: Was the selection successful?
             if (tSelectedDrop != null)
             {
-                // Ask the LootGroupHandler to provide a list with drops we
-                // shall use,
-                // based on the current drop. See JDoc on that function for
-                // details.
+                //_mLogger.info(String.format("SelectedDrop: %s", tSelectedDrop.mItemName));
+                // Ask the LootGroupHandler to provide a list with drops we shall use,
+                // based on the current drop. See JDoc on that function for details.
                 List<Drop> tPossibleItemDrops = _mLGHandler.getItemGroupDrops(pGrp, tSelectedDrop);
+                //_mLogger.info(String.format("Dump tPossibleDrops. Count: %d", tPossibleItemDrops.size()));
 
                 // Now check for each item if the player is allowed to get
                 // another one of these.
@@ -175,10 +178,11 @@ public class ItemLootBag extends Item
                 // Storage when it's required
                 for (Drop dr : tPossibleItemDrops)
                 {
-                    if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, tSelectedDrop))
+                    //_mLogger.info(String.format("PossibleDrop: %s", dr.mItemName));
+                    if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, dr))
                     {
                         // ... so add it to the pending items list.
-                        tPendingDrops.add(tSelectedDrop);
+                        tPendingDrops.add(dr);
                     }
                 }
 
@@ -187,15 +191,18 @@ public class ItemLootBag extends Item
                 // now we have to loop the chosen drops and get the actual
                 // ItemStacks with NBT and metavalues
 
+                //_mLogger.info(String.format("PendingDrops dump. Size : %d", tPendingDrops.size()));
                 for (Drop td : tPendingDrops)
                 {
+                    //_mLogger.info(String.format("PendingDrop: %s", td.mItemName));
                     // How much to drop
                     int tAmount = td.getAmount();
-
+                    //_mLogger.info(String.format("PendingDrop amount: %d", tAmount));
                     // Random drop? Alter amount by random
                     // Then get random amount between 1 and tAmount
                     if (td.getIsRandomAmount()) tAmount = MainRegistry.Rnd.nextInt(tAmount) + 1; 
 
+                    //_mLogger.info(String.format("PD fixed amount: %d", tAmount));
                     // Try to get ItemDescriptor
                     ItemDescriptor tIDesc = ItemDescriptor.fromString(td.getItemName());
 
@@ -203,7 +210,10 @@ public class ItemLootBag extends Item
                     // makes it easier to process here; As we don't have to
                     // if/else-it
                     if (tIDesc != null)
+                    {
                         tReturnList.add(tIDesc.getItemStackwNBT(tAmount, td.getNBTTag()));
+                        //_mLogger.info(String.format("ReturnList contains now %d items", tReturnList.size()));
+                    }
                     else
                         _mLogger.error(String.format("Skipping loot %s; Unable to get ItemStack", td.getItemName()));
                 }
@@ -216,7 +226,8 @@ public class ItemLootBag extends Item
             tMaxRuns++;
         }
         while (tReturnList.isEmpty() && tMaxRuns < 5);
-
+        
+        //_mLogger.info(String.format("Final returnList contains %d items", tReturnList.size()));
         return tReturnList;
     }
 }
