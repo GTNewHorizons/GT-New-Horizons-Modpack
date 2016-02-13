@@ -415,6 +415,8 @@ Compressor.addRecipe(<harvestcraft:firmtofuItem>, <harvestcraft:silkentofuItem>)
 
 // --- Pressed Wax
 Compressor.addRecipe(<harvestcraft:waxItem>, <harvestcraft:beeswaxItem> * 4);
+// -
+Compressor.addRecipe(<harvestcraft:waxItem>, <Forestry:beeswax> * 4);
 
 // --- Compressed Salt Block
 Compressor.addRecipe(<harvestcraft:spamcompressedsaltBlockalt>, <gregtech:gt.metaitem.01:2817> * 9);
@@ -588,6 +590,15 @@ Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:candleberryItem> *
 
 // --- Salt
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
+
+
+
+// --- Ordict Support ---
+
+
+
+// -- Beeswax
+oreDict.itemBeeswax.add(<harvestcraft:beeswaxItem>);
 
 
 
