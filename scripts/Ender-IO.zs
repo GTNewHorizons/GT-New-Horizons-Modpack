@@ -296,9 +296,6 @@ recipes.remove(<EnderIO:blockElectricLight:5>);
 // --- Reinforced Obsidian
 recipes.remove(<EnderIO:blockReinforcedObsidian>);
 
-// --- Dark Clear Glass
-recipes.remove(<FQuartz:5>)
-
 // --- Coordinate Selector
 recipes.remove(<EnderIO:itemCoordSelector>);
 
@@ -868,7 +865,7 @@ Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpe
 Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <gregtech:gt.metaitem.01:25379>, 200, 48);
 
 // --- Dark Clear Glass
-Assembler.addRecipe(<FQuartz:5>, <ore:dyeBlack>, <FQuartz>, 100, 48);
+Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
 
 
