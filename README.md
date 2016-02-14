@@ -26,7 +26,7 @@ Tier 3: GT (MV), Thaumcraft (+Addons), Binnie, Advanced Solar Panels, AE2<BR>
 Tier 4: GT (HV), Galacticraft (+Addons), AFSU, Witchery<BR>
 Tier 5: GT (EV), Gendustry, Blood Magic<BR>
 
-The server is so complex and heavily modified we're creating our own WIKI (WIP) - link is in Github.<BR>
+The server is so complex and heavily modified.<BR>
 The number of mod interactions in this pack is beyond the scope of this thread.
 
 
