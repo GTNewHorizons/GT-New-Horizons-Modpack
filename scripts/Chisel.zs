@@ -8,8 +8,7 @@
 
 
 mods.chisel.Groups.addGroup("glasswork"); 
-
-mods.chisel.Groups.addGroup("marble");
+//mods.chisel.Groups.addGroup("stained_glass_");
 
 
 
@@ -181,10 +180,13 @@ mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
 
 
 // --- Stained Glass (add other stained glass variations later)
-// mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass:>);
-// mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass_active:>);
-// mods.chisel.Groups.addVariation("stained_glass_", <TConstruct:GlassBlock.StainedClear:>);
-// mods.chisel.Groups.addVariation("stained_glass_", <Ztones:tile.glaxx:>);
+//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass_active>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <TConstruct:GlassBlock.StainedClear>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <Ztones:tile.glaxx>);
 
 
 // --- Marble
