@@ -12,17 +12,14 @@ import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
 import net.minecraft.item.EnumRarity;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
-
-import com.dreammaster.modcustomdrops.CustomDrops;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "LootGroups")
 public class LootGroups
 {
     @XmlElement(name = "LootGroup")
-    protected List<LootGroups.LootGroup> mLootGroups;
+    private List<LootGroups.LootGroup> mLootGroups;
 
     private void Init()
     {
@@ -46,16 +43,16 @@ public class LootGroups
         protected String mGroupName;
 
         @XmlAttribute(name = "Rarity")
-        int mRarity;
+        protected int mRarity;
 
         @XmlAttribute(name = "MinItems")
-        int mMinItems;
+        protected int mMinItems;
 
         @XmlAttribute(name = "MaxItems")
-        int mMaxItems;
+        protected int mMaxItems;
 
         @XmlAttribute(name = "CombineTrashGroup")
-        boolean mCombineWithTrash;
+        protected boolean mCombineWithTrash;
 
         @XmlTransient
         private static int mMaxWeight = -1;
@@ -72,7 +69,7 @@ public class LootGroups
         private IIcon mGroupIcon;
 
         @XmlElement(name = "Loot")
-        protected List<LootGroups.LootGroup.Drop> mDrops;
+        private List<LootGroups.LootGroup.Drop> mDrops;
 
         public List<LootGroups.LootGroup.Drop> getDrops()
         {

@@ -7,11 +7,7 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
-import com.dreammaster.main.InventoryItem;
 import com.dreammaster.main.MainRegistry;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.relauncher.Side;
 
 public class ContainerLootBag extends Container
 {  

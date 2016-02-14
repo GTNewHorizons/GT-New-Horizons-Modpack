@@ -7,28 +7,19 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.JsonToNBT;
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.IIcon;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
-import com.dreammaster.auxiliary.FluidHelper;
 import com.dreammaster.auxiliary.ItemDescriptor;
-import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.GuiHandler;
 import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modbabychest.TileEntityBabyChest;
 import com.dreammaster.modlootbags.LootGroups.LootGroup;
 import com.dreammaster.modlootbags.LootGroups.LootGroup.Drop;
 
-import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
@@ -120,9 +111,17 @@ public class ItemLootBag extends Item
 
                     for (ItemStack tStack : isList)
                     {
-                        EntityItem eti = new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, tStack.copy());
-                        eti.delayBeforeCanPickup = 0;
-                        pWorld.spawnEntityInWorld(eti);
+                        try
+                        {
+                            EntityItem eti = new EntityItem(pWorld, pPlayer.posX, pPlayer.posY, pPlayer.posZ, tStack.copy());
+                            eti.delayBeforeCanPickup = 0;
+                            pWorld.spawnEntityInWorld(eti);
+                        }
+                        catch (Exception e)
+                        {
+                            _mLogger.error("Unable to spawn dropitem in world");
+                            e.printStackTrace();
+                        }
                     }
                 }
 
@@ -179,7 +178,7 @@ public class ItemLootBag extends Item
                 for (Drop dr : tPossibleItemDrops)
                 {
                     //_mLogger.info(String.format("PossibleDrop: %s", dr.mItemName));
-                    if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, dr))
+                    if (_mLGHandler.isDropAllowedForPlayer(player, pGrp, dr, true))
                     {
                         // ... so add it to the pending items list.
                         tPendingDrops.add(dr);

@@ -48,7 +48,7 @@ public class LootGroupsFactory
         try
         {
             LootGroups tRet = new LootGroups();
-            for (LootGroup lg : pSource.mLootGroups)
+            for (LootGroup lg : pSource.getLootTable())
                 tRet.getLootTable().add(copyLootGroup(lg, pIncludeDrops));
 
             return tRet;
@@ -76,9 +76,9 @@ public class LootGroupsFactory
 
         if (pIncludeDrops)
         {
-            for (Drop dr : pSourceGroup.mDrops)
+            for (Drop dr : pSourceGroup.getDrops())
             {
-                lgrp.mDrops.add(copyDrop(dr));
+                lgrp.getDrops().add(copyDrop(dr));
             }
         }
         return lgrp;
@@ -103,7 +103,7 @@ public class LootGroupsFactory
         tdr.mItemGroup = pSourceDrop.mItemGroup;
         return tdr;
     }
-
+ 
     /**
      * Create a drop Entry
      * 

@@ -19,7 +19,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 
@@ -35,8 +34,6 @@ import com.dreammaster.network.msg.LootBagClientSyncMessage;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.persisteddata.PersistedDataBase;
 
@@ -84,12 +81,9 @@ public class LootGroupsHandler
      * @param pDrop
      * @return
      */
-    public boolean isDropAllowedForPlayer(EntityPlayer pPlayer, LootGroup pGroup, Drop pDrop)
+    public boolean isDropAllowedForPlayer(EntityPlayer pPlayer, LootGroup pGroup, Drop pDrop, boolean pUpdateDropCount)
     {
-        if (_mPersistedDB == null)
-        {
-            _mPersistedDB = new PersistedDataBase(DimensionManager.getCurrentSaveRootDirectory(), "LootBags.dat", Refstrings.COLLECTIONID);
-        }
+        InitStorage();
 
         boolean tResult = true;
         String pDropUID = getUniqueLootIdentifier(pPlayer, pGroup, pDrop);
@@ -99,13 +93,39 @@ public class LootGroupsHandler
             int tReceivedAmount = _mPersistedDB.getValueAsInt(pDropUID, 0);
             if (tReceivedAmount >= pDrop.getLimitedDropCount())
                 tResult = false;
-            else 
+            else
                 _mPersistedDB.setValue(pDropUID, tReceivedAmount + 1);
         }
 
         return tResult;
     }
+ 
+    private void InitStorage()
+    {
+        if (_mPersistedDB == null)
+            _mPersistedDB = new PersistedDataBase(DimensionManager.getCurrentSaveRootDirectory(), "LootBags.dat", Refstrings.COLLECTIONID);
+    }
+    
+    /**
+     * Increase the drop counter for given drop by 1
+     * 
+     * @param pPlayer
+     * @param pGroup
+     * @param pDrop
+     */
+    public void updateDropCount(EntityPlayer pPlayer, LootGroup pGroup, Drop pDrop)
+    {
+        InitStorage();
 
+        boolean tResult = true;
+        String pDropUID = getUniqueLootIdentifier(pPlayer, pGroup, pDrop);
+
+        if (pDrop.getLimitedDropCount() > 0)
+            _mPersistedDB.setValue(pDropUID, _mPersistedDB.getValueAsInt(pDropUID, 0) + 1);
+        else
+            _mLogger.warn("Unable to update DropCount for LootID %s. Limit is 0!", pDrop.getIdentifier());
+    }
+    
     public LootGroupsHandler(File pConfigBaseDir)
     {
         _mConfigFileName = String.format("config/%s/LootBags.xml", Refstrings.COLLECTIONID);
@@ -149,8 +169,17 @@ public class LootGroupsHandler
                     LootGroup tTrashGroup = getGroupByID(0);
                     if (tTrashGroup != null)
                     {
+                        // Copy the original group
                         LootGroup tMerged = _mLGF.copyLootGroup(tTargetGroup);
+                        // Add a copy for each trash loot to the drop list
+                        
+                        for (Drop tDr : tTrashGroup.getDrops())
+                            tMerged.getDrops().add(_mLGF.copyDrop(tDr));
+
+                        // Store the new list in our buffer
                         _mBufferedLootGroups.put(pGroupID, tMerged);
+                        
+                        // Set as return group
                         tReturnGroup = tMerged;
                     }
                     else
@@ -359,7 +388,7 @@ public class LootGroupsHandler
             // Skip lootItems check if we received the server config
             if (pIsLocalConfig)
             { // This is a server-run. Verify we actually do have all items defined
-                if (X.mDrops.size() == 0)
+                if (X.getDrops().size() == 0)
                 {
                     _mLogger.error(String.format("[LootBags] LootGroup ID %d is empty. Adding dummy item", X.mGroupID));
                     String tNothingDrop = ItemDescriptor.fromItem(ItemList.Nothing.Item.getConstructedItem()).toString();
