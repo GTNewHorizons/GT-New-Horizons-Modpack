@@ -176,7 +176,7 @@ mods.chisel.Groups.addVariation("glasswork", <chisel:glass2>);
 // -
 mods.chisel.Groups.addVariation("glasswork", <TConstruct:GlassBlock>);
 // -
-mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:5>);
+mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
 
 
 
