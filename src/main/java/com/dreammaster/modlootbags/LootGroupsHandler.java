@@ -534,10 +534,10 @@ public class LootGroupsHandler
      * @param pLootGroupID
      * @return
      */
-    public ItemStack[] createFakeInventoryFromID(int pLootGroupID) 
+    public ItemStack[] createFakeInventoryFromID(int pLootGroupID, int pSlotCount) 
     {
         //dumpDebugInfo("createFakeInventoryFromID");
-        ItemStack[] tList = new ItemStack[108];
+        ItemStack[] tList = new ItemStack[pSlotCount];
         int i = 0;
         try
         {
@@ -547,15 +547,23 @@ public class LootGroupsHandler
                 //_mLogger.info(String.format("lg %s drops %d", lg.getGroupName(), lg.getDrops().size()));
                 for (Drop dr : lg.getDrops())
                 {
-                    ItemStack tPendingStack = getStackFromDrop(dr);
-                    addDropInformationNBT(tPendingStack, dr);
-                    tList[i] = tPendingStack;
-                    //_mLogger.info(String.format("fakeInventory[%d]: %s", i, tList[i].getDisplayName()));
-                    i++;
+                    if (i < pSlotCount)
+                    {
+                        ItemStack tPendingStack = getStackFromDrop(dr);
+                        addDropInformationNBT(tPendingStack, dr);
+                        tList[i] = tPendingStack;
+                        //_mLogger.info(String.format("fakeInventory[%d]: %s", i, tList[i].getDisplayName()));
+                        i++;
+                    }
+                    else
+                    {
+                        _mLogger.warn(String.format("Warning: LootBagID %d contains more items than the GUI can currently display! (%d) The result will be truncated", pLootGroupID, pSlotCount));
+                        break;
+                    }
                 }
             }
             else
-                _mLogger.error("LootGroup for ID %d returned null", pLootGroupID);    
+                _mLogger.error("LootGroup for ID %d returned null", pLootGroupID);
         }
         catch (Exception e)
         {
@@ -592,8 +600,6 @@ public class LootGroupsHandler
     private static String NBT_I_DROP_LIMIT = "LBDLimit";
     private static String NBT_I_DROP_WEIGHT = "LBDWeight";
     private static String NBT_B_DROP_ISRND = "LBDRnd";
-
-    
     
     /**
      * Add NBT Information about this Item to the FakeStack, to disaply detailed information on the client

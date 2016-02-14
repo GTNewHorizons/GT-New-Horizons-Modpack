@@ -15,27 +15,31 @@ import cpw.mods.fml.relauncher.Side;
 
 public class ContainerLootBag extends Container
 {  
+    /**
+     * This is a fake container class that is used to provide ghost-item slots for the lootbags.
+     * Inventory won't accept any item, nor can you take items from it
+     */
     public static class FakeLootBagInventory implements IInventory
 	{    
 		private final ItemStack[] mInventory;
 		private final LootGroupsHandler mLGH = MainRegistry.Module_LootBags;
+		private final int mSlotCount = 108;
 		
 		public FakeLootBagInventory(int pLootGroupID)
 		{
 		    //MainRegistry.Logger.info(String.format("Creating fakeInventory for lootgroup %d", pLootGroupID));
-		    mInventory = mLGH.createFakeInventoryFromID(pLootGroupID);
-
+		    mInventory = mLGH.createFakeInventoryFromID(pLootGroupID, mSlotCount);
 		}
 		
 		@Override
 		public int getSizeInventory() {
-			return 108;
+			return mSlotCount;
 		}
 
 		@Override
 		public ItemStack getStackInSlot(int pSlot)
 		{
-			if (pSlot < 0 || pSlot >= 108)
+			if (pSlot < 0 || pSlot >= mSlotCount)
 				return null;
 			else
 				return mInventory[pSlot];
@@ -93,19 +97,28 @@ public class ContainerLootBag extends Container
 			return false;
 		}
 	}
-	
-    private final FakeLootBagInventory inventory;  
-    private static final int INV_START = InventoryItem.INV_SIZE, INV_END = INV_START + 26, HOTBAR_START = INV_END + 1,
-            HOTBAR_END = HOTBAR_START + 8;
 
+    private final FakeLootBagInventory mInventory;  
+    private static final int GUI_ROWS = 9;
+    private static final int GUI_COLUMNS = 12;
+    private static final int GUI_STARTX = 12;
+    private static final int GUI_STARTY = 8;
+    private static final int GUI_SLOTHEIGHT = 18;
+    private static final int GUI_SLOTWIDTH = 18;    
+    /**
+     * Populate the GUI with inventory slots. This is now sort of dynamic; as we use static final's to
+     * define max/min for rows, and the start locations
+     * 
+     * @param inventoryPlayer
+     * @param pLootGroupMeta
+     */
     public ContainerLootBag(InventoryPlayer inventoryPlayer, int pLootGroupMeta)
     {
-        this.inventory = new FakeLootBagInventory(pLootGroupMeta);
-        int i;
-        for (int col = 0; col < 12; col++)
+        mInventory = new FakeLootBagInventory(pLootGroupMeta);
+        for (int row = 0; row < GUI_ROWS; row++)
         {
-            for (int row = 0; row < 9; row++)
-                addSlotToContainer(new SlotLootBag(this.inventory, col + row*9, 12 + 18 * col, 8 + 18 * row));
+            for (int col = 0; col < GUI_COLUMNS; col++)
+                addSlotToContainer(new SlotLootBag(mInventory, col + row * GUI_COLUMNS, GUI_STARTX + GUI_SLOTWIDTH * col, GUI_STARTY + GUI_SLOTHEIGHT * row));
         }
         bindPlayerInventory(inventoryPlayer, 238, 256);
     }
@@ -113,6 +126,7 @@ public class ContainerLootBag extends Container
     protected void bindPlayerInventory(InventoryPlayer pInventoryPlayer, int pSizeX, int pSizeY)
     {
         int tLeftCol = (pSizeX - 162) / 2 + 1;
+        
         for (int playerInvRow = 0; playerInvRow < 3; playerInvRow++)
         {
             for (int playerInvCol = 0; playerInvCol < 9; playerInvCol++)
@@ -127,18 +141,18 @@ public class ContainerLootBag extends Container
         }
     }
     
-    /**
-     * You should override this method to prevent the player from moving the stack that opened the inventory, otherwise if the player moves
-     * it, the inventory will not be able to save properly
+    /* 
+     * Probably not required here; This prevents the player from moving the lootbag he just opened.
+     * Basically, it is meant to prevent you from moving the "inHand" item away, so the game is able to store
+     * the changed inventory. If you don't do that, one could dupe items with it. (But we don't allow add/remove of items here
+     * anyways, so not a problem
      */
     @Override
     public ItemStack slotClick(int slot, int button, int flag, EntityPlayer player)
     {
-        // this will prevent the player from interacting with the item that opened the inventory:
         if (slot >= 0 && getSlot(slot) != null && getSlot(slot).getStack() == player.getHeldItem())
-        {
             return null;
-        }
+
         return super.slotClick(slot, button, flag, player);
     }
 
@@ -149,7 +163,7 @@ public class ContainerLootBag extends Container
     }
 
     /**
-     * Called when a player shift-clicks on a slot. You must override this or you will crash when someone does that.
+     * Just do nothing on shift click
      */
     @Override
     public ItemStack transferStackInSlot(EntityPlayer par1EntityPlayer, int index)
@@ -157,6 +171,9 @@ public class ContainerLootBag extends Container
     	return null;
     }
 
+    /*
+     * No, we don't merge
+     */
     @Override
     protected boolean mergeItemStack(ItemStack stack, int start, int end, boolean backwards)
     {

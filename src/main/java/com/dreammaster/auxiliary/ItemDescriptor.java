@@ -189,6 +189,10 @@ public class ItemDescriptor
 
     public String toString()
     {
-        return String.format("%s:%s", mModID, mItemName, (mMetaID > 0) ? String.format(":%d", mMetaID) : "");
+        String tRet = String.format("%s:%s", mModID, mItemName);
+        if (mMetaID > 0)
+            tRet = String.format("%s:%d", tRet, mMetaID);
+        
+        return tRet;
     }
 }
