@@ -1109,7 +1109,7 @@ recipes.addShapedMirrored(Torch * 5, [
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 5, [
-[AnyWool, <Railcraft:fluid.creosote.bucket>.giveBack(<minecraft:bucket>)],
+[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 4, [
@@ -2367,12 +2367,12 @@ recipes.addShaped(<minecraft:fishing_rod>, [
 // --- Paper
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:dustWood>],
+[<ore:dustWood>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 // -
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
+[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 
 // --- String
@@ -2412,12 +2412,12 @@ recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 // --- Brick Blocks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 // -
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 
 // --- Brick
@@ -2426,7 +2426,7 @@ furnace.addRecipe(<minecraft:brick>, <dreamcraft:item.UnfiredClayBrick>);
 // --- Nether Bricks
 recipes.addShaped(<minecraft:nether_brick> * 2, [
 [<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
-[<ore:ingotBrickNether>, <minecraft:lava_bucket>.giveBack(<minecraft:bucket>), <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrickNether>],
 [<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 // -
 recipes.addShaped(<minecraft:nether_brick> * 2, [
