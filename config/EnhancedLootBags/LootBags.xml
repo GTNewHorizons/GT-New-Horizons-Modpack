@@ -124,8 +124,8 @@
         <Loot Identifier="bd60df6d-c98e-4e43-8d82-cfc37fb376af" ItemName="harvestcraft:zeppoleItem" Amount="6" NBTTag="" Chance="70" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="3e6ceda3-2686-4182-9b8e-e42589be0419" ItemName="harvestcraft:pumpkinoatsconesItem" Amount="6" NBTTag="" Chance="70" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="45d3e909-7b38-4f97-9e61-d9cee36eecc8" ItemName="IronChest:BlockIronChest:3" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="false"/>
-		<Loot Identifier="ab3c250d-be99-4f13-9507-426ee8f90366" ItemName="IronChest:woodCopperUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
-	</LootGroup>
+        <Loot Identifier="ab3c250d-be99-4f13-9507-426ee8f90366" ItemName="IronChest:woodCopperUpgrade" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
     <LootGroup GroupMetaID="2" GroupName="Steam" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0af8494c-84ee-4da2-9183-caac33026400" ItemName="gregtech:gt.blockmachines:1" Amount="1" NBTTag="" Chance="50" LimitedDropCount="8" RandomAmount="false"/>
         <Loot Identifier="d408b251-f7ed-4826-af9a-faf46216b6a6" ItemName="IC2:itemHarz" Amount="16" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="true"/>
@@ -368,7 +368,7 @@
         <Loot Identifier="41707639-95b6-4a04-bbab-1366cb83e1db" ItemName="GalacticraftCore:item.heavyPlating" Amount="8" NBTTag="" Chance="45" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="93139fe1-a4ba-49a3-8baf-a37b04a607ce" ItemName="GalacticraftMars:item.null:3" Amount="8" NBTTag="" Chance="35" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="db53e80e-ec91-4c44-81b1-a34dbf859bca" ItemName="GalacticraftMars:item.itemBasicAsteroids" Amount="1" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="false"/>
-	</LootGroup>
+    </LootGroup>
     <LootGroup GroupMetaID="9" GroupName="Magic Novice" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="6f554424-39f4-425a-9c4c-0e2a399e7793" ItemName="ForbiddenMagic:UmbralBush" Amount="1" NBTTag="" Chance="10" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="3321b488-d4de-4517-927f-9899d78d4f90" ItemName="Thaumcraft:ItemShard" Amount="8" NBTTag="" Chance="25" ItemGroup="basicshards" LimitedDropCount="0" RandomAmount="false"/>
@@ -460,5 +460,76 @@
         <Loot Identifier="3807da4d-170f-4da8-b200-fa373ffe4b5c" ItemName="extracells:storage.physical:3" Amount="1" NBTTag="{upgrades:{},config:{}}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="906ad40b-40b7-4046-a50c-0df5de7a044b" ItemName="extracells:storage.fluid:6" Amount="1" NBTTag="{}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="bd8a77f7-a4dd-4175-ac9c-d2cf6d4462f7" ItemName="gregtech:gt.metaitem.01:32598" Amount="1" NBTTag="{GT.ItemCharge:2000000000000L}" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="16" GroupName="BM Novice" Rarity="1" MinItems="1" MaxItems="1" CombineTrashGroup="true">
+		<Loot Identifier="a6dd65d5-c7a9-48c2-8ad4-1cdcd4d85b0b" ItemName="AWWayofTime:crystallos" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a6bc4fc8-a6a2-41f4-a096-a12ff7c5da0a" ItemName="AWWayofTime:aether" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3f95bc50-c62d-47ce-b930-84db9c7c536b" ItemName="AWWayofTime:crepitous" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5660cc61-e082-4924-8a3d-44220810e196" ItemName="AWWayofTime:incendium" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d1b42dce-6f6b-4314-9b0a-2a3194633853" ItemName="AWWayofTime:magicales" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a0bdad79-3278-4838-ac45-0829c9f017f2" ItemName="AWWayofTime:aquasalus" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="63c7dfba-3cfa-4137-9e19-2f2986a72c1f" ItemName="AWWayofTime:sanctus" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="98764d05-6119-4eae-a379-ca26c1dea6be" ItemName="AWWayofTime:tennebrae" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="793d0d4a-4572-4b52-a990-c7e3473e7a0b" ItemName="AWWayofTime:terrae" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+		<Loot Identifier="591020de-2270-4810-872a-9095bf30a9c7" ItemName="AWWayofTime:bloodMagicBaseAlchemyItems:3" Amount="16" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9b8e3539-c057-416f-9956-38a038c9f530" ItemName="AWWayofTime:alchemyFlask" Amount="4" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d142ec62-180a-4617-a205-097c61bd3032" ItemName="AWWayofTime:averageLengtheningCatalyst" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f548401e-cc3b-400b-a14c-f7a680a68cbf" ItemName="AWWayofTime:averagePowerCatalyst" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="12dbbd1d-b6b7-4d20-a4d7-d65ea9fe3143" ItemName="AWWayofTime:blockAlchemicCalcinator" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e53e3c19-e72f-4def-a5d9-120f3dd18059" ItemName="AWWayofTime:bloodMagicBaseAlchemyItems:5" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f7964371-e586-435e-963d-d90f00cfa894" ItemName="AWWayofTime:simpleCatalyst" Amount="8" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a2a56214-9ee3-48f8-a396-49b4c133ca35" ItemName="AWWayofTime:standardBindingAgent" Amount="4" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="abe4f341-adab-4f8a-bc06-3a009b1fd33f" ItemName="AWWayofTime:standardFillingAgent" Amount="4" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0c9c27b5-daf2-490d-b6cf-39caf649a85c" ItemName="AWWayofTime:bloodStoneBrick" Amount="32" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0917c42a-8e54-4d80-a3bd-a9dd63ac3ff4" ItemName="AWWayofTime:blockCrystalBelljar" Amount="2" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75a8d925-b06b-404d-ab7c-c46e13f2c7cf" ItemName="AWWayofTime:reinforcedSlate" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9dcc0a2b-3424-4e07-b92f-4d677cac9265" ItemName="AWWayofTime:blankSlate" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="17" GroupName="BM Adept" Rarity="2" MinItems="1" MaxItems="1" CombineTrashGroup="true">
+        <Loot Identifier="7d1c038a-3e7f-47b6-8114-eb5e14b282ae" ItemName="AWWayofTime:greaterLengtheningCatalyst" Amount="4" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1b58a6b5-2ad8-482e-9990-8fa511ca9adc" ItemName="AWWayofTime:enhancedFillingAgent" Amount="16" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f3007bed-cf6e-4ad4-93c1-be969e38de80" ItemName="AWWayofTime:greaterPowerCatalyst" Amount="8" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f512321b-2fd2-4d87-b00f-4997b0e1bddc" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0f81b442-c29d-4430-8503-fdfa75c5c085" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4e5097cb-76c4-4b0b-9cda-9268f7b5efb3" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3f99d9aa-3ee9-4251-ad54-72a9f212d607" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="85d8358f-9012-40b6-ba61-62314dd3d3e5" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEffect" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4f912f3f-8f34-494b-b88a-3010213c6f98" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d9c9f498-ed2a-47f1-89b9-85125a5fab10" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a8850532-af73-4fc0-8b3d-3b572aee1ac1" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="64ff924a-da1f-42b2-ba35-798be7f3ec1d" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7b3ffe00-b716-4b6a-b214-d3e5c248be75" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="80910072-9f91-4291-822d-01e7c7b98958" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:5" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ec5b1447-f750-4dba-8d81-5799b362d112" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellModifier" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="27a7e92f-83a7-4417-8905-42d130a57491" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eda75e4f-ff7a-42f8-adb8-e6ffd482dd7f" ItemName="AWWayofTime:blockReagentConduit" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9cc48a7c-5f54-4f54-b53f-9f775fd6cfba" ItemName="AWWayofTime:emptySocket" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bac11ad3-4dec-4d85-8dda-2740454c64fa" ItemName="AWWayofTime:bloodMagicBaseAlchemyItems:4" Amount="16" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1e53ce45-e122-44af-aea0-f547de58254b" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:10" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ea222550-b668-452f-b008-4004c0782f2c" ItemName="AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b19fcff8-0a5d-4310-a7a0-0ffe70b50601" ItemName="AWWayofTime:demonicSlate" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e3c0065b-307c-4af7-84d0-d6fa84444502" ItemName="AWWayofTime:imbuedSlate" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="18" GroupName="BM Master" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="true">
+        <Loot Identifier="2e27c5fb-547e-4130-820e-782122f9c76d" ItemName="AWWayofTime:bloodMagicBaseItems:27" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e7796819-92b0-4bfc-8da3-cdc289628d13" ItemName="AWWayofTime:bloodMagicBaseItems:29" Amount="4" NBTTag="" Chance="50" ItemGroup="demonShards" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="11b38b87-faec-4067-a836-1759cc4a2814" ItemName="AWWayofTime:bloodMagicBaseItems:28" Amount="4" NBTTag="" Chance="50" ItemGroup="demonShards" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d83c5788-b4e6-448e-8d34-19e37bc326b5" ItemName="AWWayofTime:blockTeleposer" Amount="1" NBTTag="" Chance="45" ItemGroup="teleposer" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5329ad79-7e53-4825-ae4e-eaf0007cf3f8" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;magicales&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b0b29605-d6ae-4147-9ba5-8ff700771e49" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;potentia&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ec489cb6-4c65-41d8-b9c9-1a9654eeb19d" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;terrae&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="49034b54-513c-4acc-b0f9-ba4f884a0dc6" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;crepitous&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cc43e8ea-76d3-449f-9adc-3a00c2175286" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;offensa&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="52a8b2c3-f5bc-4bfa-9a6d-626df510609c" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;orbisTerrae&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cd5ed82d-3174-4bd1-90bb-2d13441b3469" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;virtus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="21a63468-0acb-4823-bf21-6cdea7450332" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;crystallos&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2d5973dc-2b3c-49d2-a933-8e15fda610b6" ItemName="AWWayofTime:telepositionFocus" Amount="1" NBTTag="" Chance="45" ItemGroup="teleposer" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6736aa21-ef4b-4ec8-891f-13b47d4e81ad" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;incendium&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="41d8dfaa-77f0-40db-afe3-2ff8a71b0014" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;aquasalus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="26818fe3-0c2a-4852-bc78-a6c63b45732b" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;praesidium&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d44768f-400b-489b-94f0-3b623e081a56" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;aether&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d8643685-28a9-42f6-b6c2-5f5fc21fd193" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;reductus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e22620d5-9241-40b1-9ede-6f9c84d9f02d" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;tenebrae&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3eaae5b0-cdc4-4d3b-8d36-4e785896e232" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;sanctus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
