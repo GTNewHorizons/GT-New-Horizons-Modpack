@@ -1,7 +1,5 @@
 package com.dreammaster.block;
 
-import net.minecraft.block.material.Material;
-
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;

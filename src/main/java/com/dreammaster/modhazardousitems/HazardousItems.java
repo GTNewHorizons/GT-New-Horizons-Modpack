@@ -14,7 +14,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 
 import com.dreammaster.auxiliary.FluidHelper;
-import com.dreammaster.auxiliary.ItemDescriptor;
+
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "HazardousItemList")

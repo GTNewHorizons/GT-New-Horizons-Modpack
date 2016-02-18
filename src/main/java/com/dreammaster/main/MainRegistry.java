@@ -2,39 +2,23 @@ package com.dreammaster.main;
 
 import java.util.Random;
 
-import javax.swing.JOptionPane;
-
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import gregtech.api.GregTech_API;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.TC_Aspects;
-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicMachine_GT_Recipe;
-import gregtech.api.util.GT_ModHandler;
-import gregtech.api.util.GT_Recipe;
-import gregtech.common.items.GT_MetaGenerated_Item_01;
-import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
-import gregtech.common.tileentities.storage.GT_MetaTileEntity_QuantumTank;
 
 import com.dreammaster.baubles.OvenGlove;
 import com.dreammaster.baubles.WitherProtectionRing;
 import com.dreammaster.block.BlockList;
 import com.dreammaster.command.CustomDropsCommand;
+import com.dreammaster.command.CustomFuelsCommand;
 import com.dreammaster.command.CustomToolTipsCommand;
 import com.dreammaster.command.HazardousItemsCommand;
 import com.dreammaster.command.ItemInHandInfoCommand;
-import com.dreammaster.command.CustomFuelsCommand;
-import com.dreammaster.command.LootBagCommand;
 import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.galacticgreg.SpaceDimRegisterer;
-import com.dreammaster.gthandler.CustomItemList;
 import com.dreammaster.gthandler.GT_CustomLoader;
 import com.dreammaster.gthandler.ItemPipes;
 import com.dreammaster.item.ItemList;
@@ -46,8 +30,6 @@ import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
-import com.dreammaster.modingameerrorlog.IngameErrorLog;
-import com.dreammaster.modlootbags.LootGroupsHandler;
 import com.dreammaster.network.CoreModDispatcher;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -63,6 +45,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.auxiliary.IngameErrorLog;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.blocks.ModBlockManager;
 import eu.usrv.yamcore.client.NotificationTickHandler;
@@ -74,7 +57,7 @@ import eu.usrv.yamcore.items.ModItemManager;
         modid = Refstrings.MODID,
         name = Refstrings.NAME,
         version = Refstrings.VERSION,
-        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.62,);" + "required-after:Baubles@[1.0.1.10,);")
+        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.63,);" + "required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry
 {
 
@@ -92,7 +75,6 @@ public class MainRegistry
     public static CustomToolTipsHandler Module_CustomToolTips = null;
     public static CustomFuelsHandler Module_CustomFuels = null;
     public static CustomDropsHandler Module_CustomDrops = null;
-    public static LootGroupsHandler Module_LootBags = null;
     public static IngameErrorLog Module_AdminErrorLogs = null;
     public static GT_CustomLoader GTCustomLoader = null;
     public static CoreModConfig CoreConfig;
@@ -192,10 +174,6 @@ public class MainRegistry
             Module_CustomDrops = new CustomDropsHandler(PreEvent.getModConfigurationDirectory());
         }
 
-        // This is mandatory to load; As the HQM file will break if it's disabled
-        Module_LootBags = new LootGroupsHandler(PreEvent.getModConfigurationDirectory());
-        Module_LootBags.LoadConfig();
-        Module_LootBags.registerBagItem();
         // ------------------------------------------------------------
 
         // ------------------------------------------------------------
@@ -289,9 +267,7 @@ public class MainRegistry
         if (CoreConfig.ModCustomToolTips_Enabled)
         {
             MinecraftForge.EVENT_BUS.register(Module_CustomToolTips);
-            MinecraftForge.EVENT_BUS.register(Module_LootBags);
             FMLCommonHandler.instance().bus().register(Module_CustomToolTips);
-            FMLCommonHandler.instance().bus().register(Module_LootBags);
         }
 
         if (CoreConfig.ModCustomFuels_Enabled) GameRegistry.registerFuelHandler(Module_CustomFuels);
@@ -330,8 +306,6 @@ public class MainRegistry
         if (CoreConfig.ModItemInHandInfo_Enabled) pEvent.registerServerCommand(new ItemInHandInfoCommand());
         if (CoreConfig.ModCustomFuels_Enabled) pEvent.registerServerCommand(new CustomFuelsCommand());
         if (CoreConfig.ModCustomDrops_Enabled) pEvent.registerServerCommand(new CustomDropsCommand());
-
-        pEvent.registerServerCommand(new LootBagCommand());
     }
 
 }

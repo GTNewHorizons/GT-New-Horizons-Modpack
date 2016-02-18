@@ -105,7 +105,7 @@ public class CustomToolTipsHandler
     {
     	if (_mInitialized)
     	{
-    		_mLogger.error("[LootBags] Something just called LoadConfig AFTER it has been initialized!");
+    		_mLogger.error("[CTT] Something just called LoadConfig AFTER it has been initialized!");
     		return;
     	}
     	
@@ -128,67 +128,6 @@ public class CustomToolTipsHandler
             InitSampleConfig();
         }
         _mInitialized = true;
-    }
-
-    /**
-     * Decodes any font codes into something useable by the FontRenderer.
-     * @param s E.x.: "Hello,_nI am your _ltooltip_r and you love me."
-     * @return E.x. output (html not included): <br>"Hello,<br>I am your <b>tooltip</b> and you love me."
-     */
-    public static String DecodeStringCodes(String s)
-    {
-      return s.replace("__0", FontCodes.BLACK)
-        .replace("__1", FontCodes.DARK_BLUE)
-        .replace("__2", FontCodes.DARK_GREEN)
-        .replace("__3", FontCodes.DARK_AQUA)
-        .replace("__4", FontCodes.DARK_RED)
-        .replace("__5", FontCodes.DARK_PURPLE)
-        .replace("__6", FontCodes.GOLD)
-        .replace("__7", FontCodes.GRAY)
-        .replace("__8", FontCodes.DARK_GREY)
-        .replace("__9", FontCodes.BLUE)
-        .replace("__a", FontCodes.GREEN)
-        .replace("__b", FontCodes.AQUA)
-        .replace("__c", FontCodes.RED)
-        .replace("__d", FontCodes.LIGHT_PURPLE)
-        .replace("__e", FontCodes.YELLOW)
-        .replace("__f", FontCodes.WHITE)
-        .replace("__k", FontCodes.OBFUSCATED)
-        .replace("__l", FontCodes.BOLD)
-        .replace("__m", FontCodes.STRIKETHROUGH)
-        .replace("__n", FontCodes.UNDERLINE)
-        .replace("__o", FontCodes.ITALICS)
-        .replace("__r", FontCodes.RESET);
-    }
-    
-    public static class FontCodes
-    {
-         //color codes for rendered strings
-         public static final String BLACK = "\2470";
-         public static final String DARK_BLUE = "\2471";
-         public static final String DARK_GREEN = "\2472";
-         public static final String DARK_AQUA = "\2473";
-         public static final String DARK_RED = "\2474";
-         public static final String DARK_PURPLE = "\2475";
-         public static final String GOLD = "\2476";
-         public static final String GRAY = "\2477";
-         public static final String DARK_GREY = "\2478";
-         public static final String BLUE = "\2479";
-         public static final String GREEN = "\247a";
-         public static final String AQUA = "\247b";
-         public static final String RED = "\247c";
-         public static final String LIGHT_PURPLE = "\247d";
-         public static final String YELLOW = "\247e";
-         public static final String WHITE = "\247f";
-           
-         //font styles
-         public static final String OBFUSCATED = "\247k";
-         public static final String BOLD = "\247l";
-         public static final String STRIKETHROUGH = "\247m";
-         public static final String UNDERLINE = "\247n";
-         public static final String ITALICS = "\247o";
-           
-         public static final String RESET = "\247r";
     }
     
     /**

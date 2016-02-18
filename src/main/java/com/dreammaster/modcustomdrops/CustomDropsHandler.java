@@ -19,13 +19,13 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
-import com.dreammaster.auxiliary.ItemDescriptor;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop.Drop;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import eu.usrv.yamcore.persisteddata.PersistedDataBase;
