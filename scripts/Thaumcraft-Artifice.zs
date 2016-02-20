@@ -435,7 +435,7 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockWoodenDevice:2
 // --- Warded Glass
 mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "aer 10, aqua 10, ignis 10, terra 10", [
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>],
-[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:blockWoodenDevice:6>],
+[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemResource:6>, <Thaumcraft:blockWoodenDevice:6>],
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>]]);
 
 // --- Iron Arcane Key
@@ -594,7 +594,7 @@ mods.thaumcraft.Research.setComplexity("ELEMENTALSHOVEL", 3);
 
 // --- Hoe of Growth
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE", <Thaumcraft:ItemHoeThaumium>,
-[<gregtech:gt.metaitem.02:29509>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:4>],
+[<gregtech:gt.metaitem.02:29514>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:4>],
 "meto 10, herba 20, terra 20, messis 20", <Thaumcraft:ItemHoeElemental>, 3);
 // -
 mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 45, victus 35, meto 25, messis 15, praecantatio 5");

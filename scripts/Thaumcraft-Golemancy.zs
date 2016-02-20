@@ -30,7 +30,7 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:9>);
 // --- All Golems
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 // -
-//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);
@@ -150,19 +150,19 @@ mods.thaumcraft.Research.setComplexity("TRAVELTRUNK", 3);
 mods.thaumcraft.Arcane.addShaped("GOLEMFETTER", <Thaumcraft:blockCosmeticSolid:9>, "terra 15, ordo 15", [
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
 [<ore:plateThaumium>, <ore:blockRedstone>, <ore:plateThaumium>],
-[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>]]);
+[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>]]);
 // -
 mods.thaumcraft.Research.setAspects("GOLEMFETTER", "vinculum 35, machina 25, cognitio 15, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("GOLEMFETTER", 2);
 
 // --- Straw Golems
-mods.thaumcraft.Crucible.addRecipe("GOLEMSTRAW", <Thaumcraft:ItemGolemPlacer>, <minecraft:hay_block>, "humanus 12, motus 12, spiritus 12");
+mods.thaumcraft.Crucible.addRecipe("GOLEMSTRAW", <Thaumcraft:ItemGolemPlacer>, <minecraft:hay_block>, "humanus 10, motus 10, spiritus 10");
 // -
 mods.thaumcraft.Research.setAspects("GOLEMSTRAW", "messis 30, permutatio 40, spiritus 20, motus 10, praecantatio 5");
 mods.thaumcraft.Research.setComplexity("GOLEMSTRAW", 2);
 
 // --- Wood Golems
-mods.thaumcraft.Crucible.addRecipe("GOLEMWOOD", <Thaumcraft:ItemGolemPlacer:1>, <Thaumcraft:blockMagicalLog>, "humanus 16, motus 16, spiritus 16");
+mods.thaumcraft.Crucible.addRecipe("GOLEMWOOD", <Thaumcraft:ItemGolemPlacer:1>, <Thaumcraft:blockMagicalLog>, "humanus 14, motus 14, spiritus 14");
 // -
 mods.thaumcraft.Research.setAspects("GOLEMWOOD", "arbor 40, permutatio 50, spiritus 30, motus 20, praecantatio 10");
 mods.thaumcraft.Research.setComplexity("GOLEMWOOD", 3);
@@ -170,14 +170,14 @@ mods.thaumcraft.Research.setComplexity("GOLEMWOOD", 3);
 // --- Tallow Golems
 mods.thaumcraft.Research.clearPages("GOLEMTALLOW");
 mods.thaumcraft.Research.addPage("GOLEMTALLOW", "tc.research_page.GOLEMTALLOW.1");
-mods.thaumcraft.Crucible.addRecipe("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>, <Thaumcraft:blockCosmeticSolid:5>, "humanus 30, mortuus 30, spiritus 30");
+mods.thaumcraft.Crucible.addRecipe("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>, <Thaumcraft:blockCosmeticSolid:5>, "humanus 26, mortuus 26, spiritus 26");
 mods.thaumcraft.Research.addCruciblePage("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>);
 // -
 mods.thaumcraft.Research.setAspects("GOLEMTALLOW", "spiritus 40, permutatio 50, corpus 30, motus 20, praecantatio 10, corpus 5");
 mods.thaumcraft.Research.setComplexity("GOLEMTALLOW", 3);
 
 // --- Clay Golems
-mods.thaumcraft.Crucible.addRecipe("GOLEMCLAY", <Thaumcraft:ItemGolemPlacer:3>, <minecraft:clay>, "humanus 22, motus 22, spiritus 22");
+mods.thaumcraft.Crucible.addRecipe("GOLEMCLAY", <Thaumcraft:ItemGolemPlacer:3>, <minecraft:clay>, "humanus 20, motus 20, spiritus 20");
 // -
 mods.thaumcraft.Research.setAspects("GOLEMCLAY", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, aqua 5");
 mods.thaumcraft.Research.setComplexity("GOLEMCLAY", 3);
@@ -185,20 +185,20 @@ mods.thaumcraft.Research.setComplexity("GOLEMCLAY", 3);
 // --- Flesh Golems
 mods.thaumcraft.Research.clearPages("GOLEMFLESH");
 mods.thaumcraft.Research.addPage("GOLEMFLESH", "tc.research_page.GOLEMFLESH.1");
-mods.thaumcraft.Crucible.addRecipe("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>, <Thaumcraft:blockTaint:2>, "humanus 22, motus 22, spiritus 22");
+mods.thaumcraft.Crucible.addRecipe("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>, <Thaumcraft:blockTaint:2>, "humanus 20, motus 20, spiritus 20");
 mods.thaumcraft.Research.addCruciblePage("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>);
 // -
 mods.thaumcraft.Research.setAspects("GOLEMFLESH", "corpus 40, permutatio 50, spiritus 30, motus 20, praecantatio 10, mortuus 5");
 mods.thaumcraft.Research.setComplexity("GOLEMFLESH", 3);
 
 // --- Stone Golems
-mods.thaumcraft.Crucible.addRecipe("GOLEMSTONE", <Thaumcraft:ItemGolemPlacer:5>, <ExtraUtilities:cobblestone_compressed>, "humanus 30, mortuus 30, spiritus 30");
+mods.thaumcraft.Crucible.addRecipe("GOLEMSTONE", <Thaumcraft:ItemGolemPlacer:5>, <ExtraUtilities:cobblestone_compressed>, "humanus 26, mortuus 26, spiritus 26");
 // -
 mods.thaumcraft.Research.setAspects("GOLEMSTONE", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, perditio 5");
 mods.thaumcraft.Research.setComplexity("GOLEMSTONE", 3);
 
 // --- Iron Golems
-mods.thaumcraft.Crucible.addRecipe("GOLEMIRON", <Thaumcraft:ItemGolemPlacer:6>, <minecraft:iron_block>, "humanus 40, mortuus 40, spiritus 40");
+mods.thaumcraft.Crucible.addRecipe("GOLEMIRON", <Thaumcraft:ItemGolemPlacer:6>, <minecraft:iron_block>, "humanus 32, mortuus 32, spiritus 32");
 // -
 mods.thaumcraft.Research.setAspects("GOLEMIRON", "permutatio 50, spiritus 60, motus 40, metallum 30, praecantatio 20, terra 10, humanus 5");
 mods.thaumcraft.Research.setComplexity("GOLEMIRON", 3);
@@ -206,7 +206,7 @@ mods.thaumcraft.Research.setComplexity("GOLEMIRON", 3);
 // --- Thaumium Golems
 mods.thaumcraft.Research.clearPages("GOLEMTHAUMIUM");
 mods.thaumcraft.Research.addPage("GOLEMTHAUMIUM", "tc.research_page.GOLEMTHAUMIUM.1");
-mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <Thaumcraft:blockCosmeticSolid:4>, "humanus 52, mortuus 52, spiritus 52");
+mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <Thaumcraft:blockCosmeticSolid:4>, "humanus 40, mortuus 40, spiritus 40");
 mods.thaumcraft.Research.addCruciblePage("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>);
 // -
 mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 60, spiritus 70, metallum 50, motus 40, praecantatio 30, terra 20, humanus 10, alienis 5");
