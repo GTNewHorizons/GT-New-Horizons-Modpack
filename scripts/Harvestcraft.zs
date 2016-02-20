@@ -19,10 +19,12 @@ val juice = <ore:toolJuicer>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
 val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
+val flour = <ore:dustWheat>;
 
 // --- OREDICT STUFF ---
-val flour = <ore:dustWheat>;
 flour.add(<harvestcraft:flourItem>);
+
+Cotton.add(<harvestcraft:cottonItem>);
 
 // --- Removing Recipes ---
 
@@ -61,9 +63,6 @@ recipes.remove(<harvestcraft:apiary> );
 
 // --- Woven Cotton
 recipes.remove(WovenCloth);
-
-// --- Sink
-recipes.remove(<harvestcraft:sink:*>);
 
 // --- Cotton
 recipes.removeShapeless(<harvestcraft:cottonItem>);
@@ -174,6 +173,10 @@ recipes.addShaped(WovenCloth, [
 [String, Cotton, String],
 [Cotton, String, Cotton],
 [String, Cotton, String]]);
+
+// --- Pams cotton to natura
+recipes.addShapeless(<harvestcraft:cottonItem>, [<Natura:barleyFood:3>]);
+
 
 // --- Apiary
 recipes.addShapeless(<harvestcraft:apiary>, [<Forestry:apiculture:2>]);
@@ -606,3 +609,8 @@ oreDict.itemBeeswax.add(<harvestcraft:beeswaxItem>);
 
 
 // --- Hiding Stuff ---//
+
+// --- Sink
+NEI.hide(<harvestcraft:sink:*>);
+// --- Market
+NEI.hide(<harvestcraft:market>);
