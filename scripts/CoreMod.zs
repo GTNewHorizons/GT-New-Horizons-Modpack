@@ -34,23 +34,16 @@ import mods.gregtech.Wiremill;
 
 // --- Variables ---
 
-val BlankPattern = <TConstruct:blankPattern>;
-val BlankCast = <TConstruct:blankPattern:1>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
 val CobblestoneRod = <dreamcraft:item.CobbleStoneRod>;
 
-val Stone = <ore:stone>;
-val Cobblestone = <ore:cobblestone>;
 val Sandstone = <ore:sandstone>;
+val Cobblestone = <ore:cobblestone>;
+val Charcoal = <ore:gemCharcoal>;
 val Hammer = <ore:craftingToolHardHammer>;
 val Knife = <ore:craftingToolKnife>;
 val File = <ore:craftingToolFile>;
-val Saw = <ore:craftingToolSaw>;
-val Screwdriver = <ore:craftingToolScrewdriver>;
-val Mortar = <ore:craftingToolMortar>;
-val WireCutter = <ore:craftingToolWireCutter>;
-val WoodenBrickForm = <dreamcraft:item.WoodenBrickForm>.transformReplace(<dreamcraft:item.WoodenBrickForm>);
 
 
 // --- Removing Recipes ---
@@ -62,331 +55,331 @@ val WoodenBrickForm = <dreamcraft:item.WoodenBrickForm>.transformReplace(<dreamc
 
 // --- Sandstone Rod
 recipes.addShaped(SandstoneRod, [
-[File, Sandstone, Saw]]);
+[<ore:craftingToolFile>, Sandstone, <ore:craftingToolSaw>]]);
 
 // --- Cobblestone Rod
 recipes.addShaped(CobblestoneRod, [
-[File, Cobblestone, Saw]]);
+[<ore:craftingToolFile>, Cobblestone, <ore:craftingToolSaw>]]);
 
 // --- Long Obsidian Rod
 recipes.addShaped(<dreamcraft:item.LongObsidianRod> * 2, [
-[Saw, <ore:stoneObsidian>, File]]);
+[<ore:craftingToolSaw>, <ore:stoneObsidian>, <ore:craftingToolFile>]]);
 
 // --- Long Stone Rod
 recipes.addShaped(<dreamcraft:item.LongStoneRod> * 2, [
-[Saw, Stone, File]]);
+[<ore:craftingToolSaw>, <ore:stone>, <ore:craftingToolFile>]]);
 
 // --- Steel Bars
 recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
-[null, Hammer, null],
+[null, <ore:craftingToolHardHammer>, null],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
 
 // --- Void Plates
 recipes.addShaped(<dreamcraft:item.VoidPlate>, [
-[Hammer, null, null],
+[<ore:craftingToolHardHammer>, null, null],
 [<ore:ingotVoid>, null, null],
 [<ore:ingotVoid>, null, null]]);
 
 // --- Void Rod
 recipes.addShaped(<dreamcraft:item.VoidRod>, [
-[File, null, null],
+[<ore:craftingToolFile>, null, null],
 [null, <ore:ingotVoid>, null],
 [null, null, null]]);
 
 // --- Void Metal Ring
 recipes.addShaped(<dreamcraft:item.VoidRing>, [
-[Hammer, null, null],
-[File, <ore:stickVoid>, null],
+[<ore:craftingToolHardHammer>, null, null],
+[<ore:craftingToolFile>, <ore:stickVoid>, null],
 [null, null, null]]);
 
 // --- Mushroom Powder
 recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
 [<ore:listAllmushroom>, null, null],
-[Mortar, null, null],
+[<ore:craftingToolMortar>, null, null],
 [null, null, null]]);
 
 // --- Plate Mold
 recipes.addShaped(<dreamcraft:item.MoldFormPlate>, [
 [null, null, null],
-[WireCutter, BlankCast, File],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
 [null, null, null]]);
 
 // --- Casing Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCasing>, [
-[WireCutter, null, null],
-[null, BlankCast, null],
-[null, null, File]]);
+[<ore:craftingToolWireCutter>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
 
 // --- Gear Mold
 recipes.addShaped(<dreamcraft:item.MoldFormGear>, [
-[null, WireCutter, null],
-[null, BlankCast, null],
-[null, File, null]]);
+[null, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, null]]);
 
 // --- Coinage Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
-[null, null, WireCutter],
-[null, BlankCast, null],
-[File, null, null]]);
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
 
 // --- Bottle Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBottle>, [
 [null, null, null],
-[File, BlankCast, WireCutter],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
 [null, null, null]]);
 
 // --- Ingot Mold
 recipes.addShaped(<dreamcraft:item.MoldFormIngot>, [
-[File, null, null],
-[null, BlankCast, null],
-[null, null, WireCutter]]);
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
 
 // --- Ball Mold
 recipes.addShaped( <dreamcraft:item.MoldFormBall>, [
-[null, File, null],
-[null, BlankCast, null],
-[null, WireCutter, null]]);
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
 
 // --- Block Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBlock>, [
-[null, null, File],
-[null, BlankCast, null],
-[WireCutter, null, null]]);
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
 
 // --- Nuggets Mold
 recipes.addShaped(<dreamcraft:item.MoldFormNuggets>, [
-[null, File, null],
-[WireCutter, BlankCast, null],
+[null, <ore:craftingToolFile>, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Buns Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBuns>, [
-[WireCutter, null, File],
-[null, BlankCast, null],
+[<ore:craftingToolWireCutter>, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Bread Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBread>, [
-[null, WireCutter, null],
-[null, BlankCast, File],
+[null, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
 [null, null, null]]);
 
 // --- Baguette Mold, 
 recipes.addShaped(<dreamcraft:item.MoldFormBaguette>, [
-[null, null, WireCutter],
-[null, BlankCast, null],
-[null, null, File]]);
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
 
 // --- Cylinder Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCylinder>, [
 [null, null, null],
-[null, BlankCast, WireCutter],
-[null, File, null]]);
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, <ore:craftingToolFile>, null]]);
 
 // --- Anvil Mold
 recipes.addShaped(<dreamcraft:item.MoldFormAnvil>, [
 [null, null, null],
-[null, BlankCast, null],
-[File, null, WireCutter]]);
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, <ore:craftingToolWireCutter>]]);
 
 // --- Name Mold
 recipes.addShaped(<dreamcraft:item.MoldFormName>, [
 [null, null, null],
-[File, BlankCast, null],
-[null, WireCutter, null]]);
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
 
 // --- Head Mold
 recipes.addShaped(<dreamcraft:item.MoldFormArrowHead>, [
-[File, null, null],
-[null, BlankCast, null],
-[WireCutter, null, null]]);
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
 
 // --- Small Gear Mold
 recipes.addShaped(<dreamcraft:item.MoldFormSmallGear>, [
-[File, null, null],
-[WireCutter, BlankCast, null],
+[<ore:craftingToolFile>, null, null],
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
-[WireCutter, File, null],
-[null, BlankCast, null],
+[<ore:craftingToolWireCutter>, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Rod
 recipes.addShaped(<dreamcraft:item.ShapeRod>, [
-[null, WireCutter, File],
-[null, BlankCast, null],
+[null, <ore:craftingToolWireCutter>, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Bolt
 recipes.addShaped(<dreamcraft:item.ShapeBolt>, [
-[null, null, WireCutter],
-[null, BlankCast, File],
+[null, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
 [null, null, null]]);
 
 // --- Extruder Shape Cell
 recipes.addShaped(<dreamcraft:item.ShapeCell>, [
 [null, null, null],
-[null, BlankCast, WireCutter],
-[null, null, File]]);
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
+[null, null, <ore:craftingToolFile>]]);
 
 // --- Extruder Shape Ring
 recipes.addShaped(<dreamcraft:item.ShapeRing>, [
 [null, null, null],
-[null, BlankCast, null],
-[null, File, WireCutter]]);
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, <ore:craftingToolWireCutter>]]);
 
 // --- Extruder Shape Ingot
 recipes.addShaped(<dreamcraft:item.ShapeIngot>, [
 [null, null, null],
-[null, BlankCast, null],
-[File, WireCutter, null]]);
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, <ore:craftingToolWireCutter>, null]]);
 
 // --- Extruder Shape Wire
 recipes.addShaped(<dreamcraft:item.ShapeWire>, [
 [null, null, null],
-[File, BlankCast, null],
-[WireCutter, null, null]]);
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, null]]);
 
 // --- Extruder Shape Casing
 recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
-[WireCutter, null, null],
-[File, BlankCast, null],
+[<ore:craftingToolWireCutter>, null, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Tiny Pipe
 recipes.addShaped(<dreamcraft:item.ShapeTinyPipe>, [
-[File, WireCutter, null],
-[null, BlankCast, null],
+[<ore:craftingToolFile>, <ore:craftingToolWireCutter>, null],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Small Pipe
 recipes.addShaped(<dreamcraft:item.ShapeSmallPipe>, [
-[null, File, WireCutter],
-[null, BlankCast, null],
+[null, <ore:craftingToolFile>, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Normal Pipe
 recipes.addShaped(<dreamcraft:item.ShapeNormalPipe>, [
-[null, null, File],
-[null, BlankCast, WireCutter],
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
 [null, null, null]]);
 
 // --- Extruder Shape Lage Pipe
 recipes.addShaped(<dreamcraft:item.ShapeLargePipe>, [
 [null, null, null],
-[null, BlankCast, File],
-[null, null, WireCutter]]);
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, null, <ore:craftingToolWireCutter>]]);
 
 // --- Extruder Shape Huge Pipe
 recipes.addShaped(<dreamcraft:item.ShapeHugePipe>, [
 [null, null, null],
-[null, BlankCast, null],
-[null, WireCutter, File]]);
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, <ore:craftingToolFile>]]);
 
 // --- Extruder Shape Block
 recipes.addShaped(<dreamcraft:item.ShapeBlock>, [
 [null, null, null],
-[null, BlankCast, null],
-[WireCutter, File, null]]);
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, <ore:craftingToolFile>, null]]);
 
 // --- Extruder Shape Sword Blade
 recipes.addShaped(<dreamcraft:item.ShapeSwordBlade>, [
 [null, null, null],
-[WireCutter, BlankCast, null],
-[File, null, null]]);
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
 
 // --- Extruder Shape Pickaxe Head
 recipes.addShaped(<dreamcraft:item.ShapePickaxeHead>, [
-[null, WireCutter, null],
-[File, BlankCast, null],
+[null, <ore:craftingToolWireCutter>, null],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Shove Head
 recipes.addShaped(<dreamcraft:item.ShapeShovelHead>, [
-[File, null, WireCutter],
-[null, BlankCast, null],
+[<ore:craftingToolFile>, null, <ore:craftingToolWireCutter>],
+[null, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Axe Head
 recipes.addShaped(<dreamcraft:item.ShapeAxeHead>, [
-[null, File, null],
-[null, BlankCast, WireCutter],
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
 [null, null, null]]);
 
 // --- Extruder Shape Hoe Head
 recipes.addShaped(<dreamcraft:item.ShapeHoeHead>, [
-[null, null, File],
-[null, BlankCast, null],
-[null, null, WireCutter]]);
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
 
 // --- Extruder Shape Hammer Head
 recipes.addShaped(<dreamcraft:item.ShapeHammerHead>, [
 [null, null, null],
-[null, BlankCast, File],
-[null, WireCutter, null]]);
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[null, <ore:craftingToolWireCutter>, null]]);
 
 // --- Extruder Shape File Head
 recipes.addShaped(<dreamcraft:item.ShapeFileHead>, [
 [null, null, null],
-[null, BlankCast, null],
-[WireCutter, null, File]]);
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolWireCutter>, null, <ore:craftingToolFile>]]);
 
 // --- Extruder Shape Saw Blade
 recipes.addShaped(<dreamcraft:item.ShapeSawBlade>, [
 [null, null, null],
-[WireCutter, BlankCast, null],
-[null, File, null]]);
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolFile>, null]]);
 
 // --- Extruder Shape Gear
 recipes.addShaped(<dreamcraft:item.ShapeGear>, [
-[WireCutter, null, null],
-[null, BlankCast, null],
-[File, null, null]]);
+[<ore:craftingToolWireCutter>, null, null],
+[null, <TConstruct:blankPattern:1>, null],
+[<ore:craftingToolFile>, null, null]]);
 
 // --- Extruder Shape Bottle
 recipes.addShaped(<dreamcraft:item.ShapeBottle>, [
-[null, null, WireCutter],
-[File, BlankCast, null],
+[null, null, <ore:craftingToolWireCutter>],
+[<ore:craftingToolFile>, <TConstruct:blankPattern:1>, null],
 [null, null, null]]);
 
 // --- Extruder Shape Boat
 recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
-[File, null, null],
-[null, BlankCast, WireCutter],
+[<ore:craftingToolFile>, null, null],
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolWireCutter>],
 [null, null, null]]);
 
 // --- Mold Form Boots
 recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
-[null, File, null],
-[null, BlankCast, null],
-[null, null, WireCutter]]);
+[null, <ore:craftingToolFile>, null],
+[null, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolWireCutter>]]);
 
 // --- Mold Form Chestplate
 recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
-[null, null, File],
-[null, BlankCast, null],
-[null, WireCutter, null]]);
+[null, null, <ore:craftingToolFile>],
+[null, <TConstruct:blankPattern:1>, null],
+[null, <ore:craftingToolWireCutter>, null]]);
 
 // --- Mold Form Helmet
 recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
 [null, null, null],
-[null, BlankCast, File],
-[WireCutter, null, null]]);
+[null, <TConstruct:blankPattern:1>, <ore:craftingToolFile>],
+[<ore:craftingToolWireCutter>, null, null]]);
 
 // --- Mold Form Leggings
 recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
 [null, null, null],
-[WireCutter, BlankCast, null],
-[null, null, File]]);
+[<ore:craftingToolWireCutter>, <TConstruct:blankPattern:1>, null],
+[null, null, <ore:craftingToolFile>]]);
 
 // --- Display
 recipes.addShaped(<dreamcraft:item.Display>, [
 [<ore:platePlastic>, <gregtech:gt.metaitem.01:32740>, <ore:platePlastic>],
 [<ore:circuitBasic>, <ore:cableGt01Tin>, <ore:circuitBasic>],
-[<ore:screwIron>, Screwdriver, <ore:screwIron>]]);
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 // --- Laser Emitter
 recipes.addShaped(<dreamcraft:item.LaserEmitter>, [
@@ -398,48 +391,48 @@ recipes.addShaped(<dreamcraft:item.LaserEmitter>, [
 recipes.addShaped(<dreamcraft:item.DiamondDrillTip>, [
 [<ore:plateDiamond>, <ore:plateSteel>, <ore:plateDiamond>],
 [<ore:plateDiamond>, <ore:plateSteel>, <ore:plateDiamond>],
-[<ore:plateSteel>, Hammer, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
 
 // --- Iridium Reinforced Drill Tip
 recipes.addShaped(<dreamcraft:item.ReinforcedIridiumDrillTip>, [
 [<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
 [<ore:plateAlloyIridium>, <ore:plateSteel>, <ore:plateAlloyIridium>],
-[<ore:plateSteel>, Hammer, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>]]);
 
 // --- Diamond Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeDiamond>, [
 [<ore:plateDiamond>, <ore:plateDiamond>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Stone Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeStone>, [
 [<dreamcraft:item.StonePlate>, <dreamcraft:item.StonePlate>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Ardite Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeArdite>, [
 [<dreamcraft:item.ArditePlate>, <dreamcraft:item.ArditePlate>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Manyullyn Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeManyullyn>, [
 [<dreamcraft:item.ManyullynPlate>, <dreamcraft:item.ManyullynPlate>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Ruby Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeRuby>, [
 [<ore:plateRuby>, <ore:plateRuby>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Sapphire Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeSapphire>, [
 [<ore:plateSapphire>, <ore:plateSapphire>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Peridot Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladePeridot>, [
 [<ore:platePeridot>, <ore:platePeridot>, null],
-[File, Hammer, null]]);
+[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, null]]);
 
 // --- Aluminium Iron Plate
 recipes.addShaped(<dreamcraft:item.AluminiumIronPlate>, [
@@ -569,13 +562,13 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [
 
 // --- Quantinum Rod
 recipes.addShaped(<dreamcraft:item.QuantinumRod>, [
-[File, null, null],
+[<ore:craftingToolFile>, null, null],
 [null, <GalaxySpace:item.QuantiumIgnot>, null]]);
 
 // --- Bow Fletching Cast
 recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
 [null, null, Hammer],
-[null, BlankCast, Knife],
+[null, <TConstruct:blankPattern:1>, Knife],
 [null, null, File]]);
 // -
 recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
@@ -586,7 +579,7 @@ recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
 // --- BowString Cast
 recipes.addShaped(<dreamcraft:item.BowStringCast>, [
 [null, null, null],
-[null, BlankCast, Hammer],
+[null, <TConstruct:blankPattern:1>, Hammer],
 [null, File, Knife]]);
 // -
 recipes.addShaped(<dreamcraft:item.BowStringCast>, [
@@ -741,7 +734,7 @@ recipes.addShaped(<dreamcraft:item.LightAxeHead>, [
 // --- Light Shaft
 recipes.addShaped(<dreamcraft:item.LightShaft>, [
 [<ore:screwDesh>, <ore:stickTungsten>, <ore:screwDesh>],
-[Screwdriver, <ore:stickTungsten>, File],
+[<ore:craftingToolScrewdriver>, <ore:stickTungsten>, <ore:craftingToolFile>],
 [<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.SulfurBattery:100>, <GalacticraftCore:tile.aluminumWire:1>]]);
 
 // --- Neutron Reflector Parts
@@ -752,38 +745,44 @@ recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
 
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
-[Knife, BlankPattern, null]]);
+[<ore:craftingToolKnife>, <TConstruct:blankPattern>, null]]);
 
 // --- Unfired Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredClayBrick>, [<minecraft:clay_ball>, WoodenBrickForm]);
+recipes.addShaped(<dreamcraft:item.UnfiredClayBrick>, [
+[<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
 // -
 recipes.addShaped(<dreamcraft:item.UnfiredClayBrick> * 8, [
 [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<minecraft:clay_ball>, WoodenBrickForm, <minecraft:clay_ball>],
+[<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), <minecraft:clay_ball>],
 [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
 
 // --- Unfired Seared Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSearedBrick>, [<TConstruct:CraftedSoil:1>, WoodenBrickForm]);
+recipes.addShaped(<dreamcraft:item.UnfiredSearedBrick>, [
+[<TConstruct:CraftedSoil:1>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
 // -
 recipes.addShaped(<dreamcraft:item.UnfiredSearedBrick> * 8, [
 [<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>],
-[<TConstruct:CraftedSoil:1>, WoodenBrickForm, <TConstruct:CraftedSoil:1>],
+[<TConstruct:CraftedSoil:1>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), <TConstruct:CraftedSoil:1>],
 [<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
 
 // --- Unfired Coke Oven Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredCokeOvenBrick>, [<minecraft:clay_ball>, WoodenBrickForm, <ore:sand>, <ore:sand>]);
+recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick>, [
+[<minecraft:clay_ball>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null],
+[<ore:sand>, null, null],
+[<ore:sand>, null, null]]);
 // -
 recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick> * 3, [
 [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<ore:sand>, WoodenBrickForm, <ore:sand>],
+[<ore:sand>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), <ore:sand>],
 [<ore:sand>, <ore:sand>, <ore:sand>]]);
 
 // --- Unfired Slime Soil Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSlimeSoulBrick>, [<TConstruct:CraftedSoil:6>, WoodenBrickForm]);
+recipes.addShaped(<dreamcraft:item.UnfiredSlimeSoulBrick>, [
+[<TConstruct:CraftedSoil:6>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), null]]);
 // -
 recipes.addShaped(<dreamcraft:item.UnfiredSlimeSoulBrick> * 8, [
 [<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>],
-[<TConstruct:CraftedSoil:6>, WoodenBrickForm, <TConstruct:CraftedSoil:6>],
+[<TConstruct:CraftedSoil:6>, <dreamcraft:item.WoodenBrickForm>.giveBack(<dreamcraft:item.WoodenBrickForm>), <TConstruct:CraftedSoil:6>],
 [<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>]]);
 
 // --- Coke Oven Bricks

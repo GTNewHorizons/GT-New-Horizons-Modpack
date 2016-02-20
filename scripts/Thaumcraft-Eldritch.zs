@@ -14,6 +14,18 @@
 
 
 
+// --- Iron Wand Cap
+recipes.remove(<Thaumcraft:WandCap>);
+
+// --- Basic Wand
+recipes.remove(<Thaumcraft:WandCasting>);
+
+// --- Greatwood Rod
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
+
+// --- Wand Cores
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
+
 // --- Void Seed
 //mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
 
@@ -1271,9 +1283,9 @@ mods.thaumcraft.Research.setComplexity("ESSENTIARESERVOIR", 3);
 
 // --- Wand Focus Primal
 mods.thaumcraft.Arcane.addShaped("FOCUSPRIMAL", <Thaumcraft:FocusPrimal>, "aqua 75, terra 75, ignis 75, aer 75, ordo 75, perditio 75", [
-[<ore:gemExqusiteDiamond>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>],
+[<ore:gemExquisiteDiamond>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>],
 [<Thaumcraft:blockCrystal:2> ,<Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:3>],
-[<ore:gemExqusiteDiamond>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+[<Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <ore:gemExquisiteDiamond>]]);
 // -
 mods.thaumcraft.Research.setAspects("FOCUSPRIMAL", "aqua 75, ignis 65, aer 55, terra 45, ordo 35, perditio 25, praecantatio 15, alienis 5");
 mods.thaumcraft.Research.setComplexity("FOCUSPRIMAL", 4);

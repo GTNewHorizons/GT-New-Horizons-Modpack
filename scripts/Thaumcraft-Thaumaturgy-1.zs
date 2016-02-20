@@ -15,21 +15,6 @@
 
 
 
-// --- Iron Wand Cap
-recipes.remove(<Thaumcraft:WandCap>);
-
-// --- Basic Wand
-recipes.remove(<Thaumcraft:WandCasting>);
-
-// --- Greatwood Rod
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
-
-// --- Wand Cores
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
-
-
-
-
 // --- Adding Recipes ---
 
 
