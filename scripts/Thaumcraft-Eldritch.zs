@@ -82,6 +82,15 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockEssentiaReservoir>);
 // --- Wand Focus Primal
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPrimal>);
 
+// --- Void Thaumaturge Hood
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetVoid>);
+
+// --- Void Thaumaturge Roob
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateVoid>);
+
+// --- Void Thaumaturge Leggings
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsVoid>);
+
 
 
 
@@ -191,7 +200,6 @@ mods.thaumcraft.Arcane.addShaped("VOIDMETAL", <thaumicbases:voidShears>, "perdit
 [null, <ore:plateVoid>, null]]);
 // -
 mods.thaumcraft.Research.addArcanePage("VOIDMETAL", <thaumicbases:voidShears>);
-
 
 // --- Void Inert Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_void");
@@ -310,7 +318,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:27>.wi
 [<ore:screwStainlessSteel>, <Thaumcraft:WandCasting:18>.withTag({cap: "thaumium", rod: "greatwood"}), <ore:screwStainlessSteel>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 
-// --- Void aspected Greatwood Scepter
+// --- Void Aspected Greatwood Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:40>.withTag({cap: "void", rod: "greatwood", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
 [<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedVoidWandCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.ChargedVoidWandCap>],
@@ -1298,6 +1306,26 @@ mods.thaumcraft.Infusion.addRecipe("ROD_primal_staff", <Thaumcraft:WandRod:2>,
 mods.thaumcraft.Research.setAspects("ROD_primal_staff", "aqua 85, ignis 75, aer 65, terra 55, ordo 45, perditio 35, praecantatio 25, instrumentum 15, alienis 5");
 mods.thaumcraft.Research.setComplexity("ROD_primal_staff", 4);
 
+// --- Void Thaumaturge Hood
+mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemHelmetVoid>,
+[<Thaumcraft:ItemGoggles>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+"alienis 24, metallum 24, pannus 24, sensus 24, tutamen 24, vacuos 24, praecantatio 24", <Thaumcraft:ItemHelmetVoidFortress>, 8);
+// -
+mods.thaumcraft.Research.setAspects("ARMORVOIDFORTRESS", "vacuos 85, tenebrae 75, tutamen 65, pannus 55, alienis 45, praecantatio 35, sensus 25, metallum 15");
+mods.thaumcraft.Research.setComplexity("ARMORVOIDFORTRESS", 4);
+
+// --- Void Thaumaturge Roob
+mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemChestplateVoid>,
+[<Thaumcraft:ItemChestplateRobe>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+"alienis 32, metallum 32, pannus 32, sensus 32, tutamen 32, vacuos 32, praecantatio 32", <Thaumcraft:ItemChestplateVoidFortress>, 8);
+
+// --- Void Thaumaturge Leggings
+mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemLeggingsVoid>,
+[<Thaumcraft:ItemLeggingsRobe>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+"alienis 28, metallum 28, pannus 28, sensus 28, tutamen 28, vacuos 28, praecantatio 28", <Thaumcraft:ItemLeggingsVoidFortress>, 8);
+
+
+
 
 
 
@@ -1324,6 +1352,9 @@ mods.thaumcraft.Research.refreshResearchRecipe("FOCUSPRIMAL");
 
 // --- Staff Core of the Primal
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_primal_staff");
+
+// --- Void Thaumaturge Armor
+mods.thaumcraft.Research.refreshResearchRecipe("ARMORVOIDFORTRESS");
 
 
 
