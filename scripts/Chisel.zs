@@ -8,7 +8,7 @@
 
 
 mods.chisel.Groups.addGroup("glasswork"); 
-
+//mods.chisel.Groups.addGroup("stained_glass_");
 
 
 
@@ -172,7 +172,25 @@ mods.chisel.Groups.addVariation("glasswork", <chisel:glass:14>);
 mods.chisel.Groups.addVariation("glasswork", <chisel:glass:15>);
 // -
 mods.chisel.Groups.addVariation("glasswork", <chisel:glass2>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <TConstruct:GlassBlock>);
+// -
+mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
 
+
+
+// --- Stained Glass (add other stained glass variations later)
+//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass_active>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <TConstruct:GlassBlock.StainedClear>);
+// -
+//mods.chisel.Groups.addVariation("stained_glass_", <Ztones:tile.glaxx>);
+
+
+// --- Marble
+mods.chisel.Groups.addVariation("marble", <Railcraft:cube:7>)
 
 
 
