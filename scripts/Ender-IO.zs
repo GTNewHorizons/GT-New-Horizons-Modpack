@@ -296,9 +296,6 @@ recipes.remove(<EnderIO:blockElectricLight:5>);
 // --- Reinforced Obsidian
 recipes.remove(<EnderIO:blockReinforcedObsidian>);
 
-// --- Quiete Clear Glass
-mods.chisel.Groups.removeGroup("glass");
-
 // --- Coordinate Selector
 recipes.remove(<EnderIO:itemCoordSelector>);
 
@@ -479,13 +476,13 @@ recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnerg
 // --- Vibrant Capacitor Bank Upgrade From Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:20315>, AdvCircuit, <gregtech:gt.metaitem.01:20315>],
-[<EnderIO:blockCapBank:3>, VCrystal, <EnderIO:blockCapBank:3>]]);
+[<EnderIO:blockCapBank:2>, VCrystal, <EnderIO:blockCapBank:2>]]);
 
 // --- Vibrant Capacitor Bank Upgrade From Basic Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
-[<gregtech:gt.metaitem.01:22315>, AdvCircuit	, <gregtech:gt.metaitem.01:22315>],
-[<EnderIO:blockCapBank:2>, EAPlate, <EnderIO:blockCapBank:2>],
-[<EnderIO:blockCapBank:2>, VCrystal, <EnderIO:blockCapBank:2>]]);
+[<gregtech:gt.metaitem.01:22315>, AdvCircuit, <gregtech:gt.metaitem.01:22315>],
+[<EnderIO:blockCapBank:1>, EAPlate, <EnderIO:blockCapBank:1>],
+[<EnderIO:blockCapBank:1>, VCrystal, <EnderIO:blockCapBank:1>]]);
 
 // --- Painting Machine
 recipes.addShaped(<EnderIO:blockPainter>, [
@@ -867,6 +864,8 @@ Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpe
 // --- Soul Vial
 Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <gregtech:gt.metaitem.01:25379>, 200, 48);
 
+// --- Dark Clear Glass
+Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
 
 
