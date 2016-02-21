@@ -24,8 +24,6 @@ val flour = <ore:dustWheat>;
 // --- OREDICT STUFF ---
 flour.add(<harvestcraft:flourItem>);
 
-Cotton.add(<harvestcraft:cottonItem>);
-
 // --- Removing Recipes ---
 
 // --- Sink ---
