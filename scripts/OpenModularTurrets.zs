@@ -554,19 +554,19 @@ Assembler.addRecipe(<openmodularturrets:redstoneReactorAddon>, <gregtech:gt.meta
 
 
 // --- Hard Wall Tier 1
-ChemicalBath.addRecipe([<openmodularturrets:hardWallTierOne>], <gregtech:gt.blockmachines:4985>, <liquid:molten.concrete> * 144, [10000], 200, 16);
+ChemicalBath.addRecipe([<openmodularturrets:hardWallTierOne>], <gregtech:gt.blockmachines:4985>, <liquid:wet.concrete> * 144, [10000], 200, 16);
 
 // --- Hard Wall Tier 2
-ChemicalBath.addRecipe([<openmodularturrets:hardWallTierTwo>], <gregtech:gt.blockmachines:4461>, <liquid:molten.concrete> * 144, [10000], 200, 30);
+ChemicalBath.addRecipe([<openmodularturrets:hardWallTierTwo>], <gregtech:gt.blockmachines:4461>, <liquid:wet.concrete> * 144, [10000], 200, 30);
 
 // --- Hard Wall Tier 3
-ChemicalBath.addRecipe([<openmodularturrets:hardWallTierThree>], <gregtech:gt.blockmachines:4460>, <liquid:molten.concrete> * 144, [10000], 200, 64);
+ChemicalBath.addRecipe([<openmodularturrets:hardWallTierThree>], <gregtech:gt.blockmachines:4460>, <liquid:wet.concrete> * 144, [10000], 200, 64);
 
 // --- Hard Wall Tier 4
-ChemicalBath.addRecipe([<openmodularturrets:hardWallTierFour>], <gregtech:gt.blockmachines:4462>, <liquid:molten.concrete> * 144, [10000], 200, 120);
+ChemicalBath.addRecipe([<openmodularturrets:hardWallTierFour>], <gregtech:gt.blockmachines:4462>, <liquid:wet.concrete> * 144, [10000], 200, 120);
 
 // --- Hard Wall Tier 5
-ChemicalBath.addRecipe([<openmodularturrets:hardWallTierFive>], <gregtech:gt.blockmachines:4463>, <liquid:molten.concrete> * 144, [10000], 200, 256);
+ChemicalBath.addRecipe([<openmodularturrets:hardWallTierFive>], <gregtech:gt.blockmachines:4463>, <liquid:wet.concrete> * 144, [10000], 200, 256);
 
 
 
