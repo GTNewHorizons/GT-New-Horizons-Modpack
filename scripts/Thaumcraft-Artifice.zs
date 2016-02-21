@@ -340,7 +340,7 @@ mods.thaumcraft.Research.clearPages("GRATE");
 mods.thaumcraft.Research.addPage("GRATE", "tc.research_page.GRATE.1");
 mods.thaumcraft.Arcane.addShaped("GRATE", <Thaumcraft:blockMetalDevice:5>, "aer 5, ignis 5, ordo 5", [
 [<ore:screwSteel>, <dreamcraft:item.SteelBars>, <ore:screwSteel>],
-[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32729>, <ore:craftingToolScrewdriver>],
+[<ore:wireGt01RedAlloy>, <dreamcraft:item.AluminiumBars>, <ore:craftingToolScrewdriver>],
 [<ore:screwSteel>, <dreamcraft:item.SteelBars>, <ore:screwSteel>]]);
 // -
 mods.thaumcraft.Research.addArcanePage("GRATE", <Thaumcraft:blockMetalDevice:5>);

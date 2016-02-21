@@ -30,7 +30,7 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:9>);
 // --- All Golems
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);
