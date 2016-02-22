@@ -101,7 +101,7 @@ mods.thaumcraft.Arcane.addShaped("FOCUSFROST", <Thaumcraft:FocusFrost>, "aqua 30
 [<ore:gemQuartz>, <ore:lensDiamond>, <ore:gemQuartz>],
 [<Thaumcraft:blockCrystal:2>, <ore:gemQuartz>, <Thaumcraft:blockCrystal:2>]]);
 // -
-mods.thaumcraft.Research.setAspects("FOCUSFROST", "aqua 20, gellum 30, praecantatio 10, motus 10");
+mods.thaumcraft.Research.setAspects("FOCUSFROST", "aqua 20, gelum 30, praecantatio 10, motus 10");
 mods.thaumcraft.Research.setComplexity("FOCUSFROST", 2);
 
 // --- Wand FocusShock

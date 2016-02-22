@@ -990,7 +990,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>], 
 " aqua 24, gelum 12, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:3>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_ice", "instrumentum 25, praecantatio 20, aqua 15, gellum 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_ice", "instrumentum 25, praecantatio 20, aqua 15, gelum 10, arbor 5");
 mods.thaumcraft.Research.setComplexity("ROD_ice", 2);
 
 // --- Iron Capped Icy Wand
