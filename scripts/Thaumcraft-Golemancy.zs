@@ -135,7 +135,7 @@ mods.thaumcraft.Arcane.addShaped("HUNGRYCHEST", <Thaumcraft:blockChestHungry> , 
 [<Thaumcraft:ItemZombieBrain>, <ore:chestWood>, <Thaumcraft:ItemZombieBrain>],
 [<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>]]);
 // -
-mods.thaumcraft.Research.setAspects("HUNGRYCHEST", "fames 15, vacuos 10, iter 5");
+mods.thaumcraft.Research.setAspects("HUNGRYCHEST", "fames 9, vacuos 6, iter 3");
 mods.thaumcraft.Research.setComplexity("HUNGRYCHEST", 1);
 
 // --- Traveling Trunk
@@ -143,7 +143,7 @@ mods.thaumcraft.Infusion.addRecipe("TRAVELTRUNK", <Thaumcraft:blockChestHungry>,
 [<gregtech:gt.metaitem.01:17306>, <gregtech:gt.metaitem.01:28306>, <gregtech:gt.metaitem.01:27306>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemGolemPlacer:1>, <Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:27306>, <gregtech:gt.metaitem.01:28306>],
 "iter 16, motus 16, spiritus 16, vacuos 32", <Thaumcraft:TrunkSpawner>, 4);
 // -
-mods.thaumcraft.Research.setAspects("TRAVELTRUNK", "spiritus 45, vacuos 35, arbor 25, iter 15, terra 5");
+mods.thaumcraft.Research.setAspects("TRAVELTRUNK", "spiritus 12, vacuos 12, arbor 9, iter 6, terra 3");
 mods.thaumcraft.Research.setComplexity("TRAVELTRUNK", 3);
 
 // --- Golem Fetter
@@ -152,19 +152,19 @@ mods.thaumcraft.Arcane.addShaped("GOLEMFETTER", <Thaumcraft:blockCosmeticSolid:9
 [<ore:plateThaumium>, <ore:blockRedstone>, <ore:plateThaumium>],
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>]]);
 // -
-mods.thaumcraft.Research.setAspects("GOLEMFETTER", "vinculum 35, machina 25, cognitio 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("GOLEMFETTER", "vinculum 9, machina 9, cognitio 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("GOLEMFETTER", 2);
 
 // --- Straw Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMSTRAW", <Thaumcraft:ItemGolemPlacer>, <minecraft:hay_block>, "humanus 10, motus 10, spiritus 10");
 // -
-mods.thaumcraft.Research.setAspects("GOLEMSTRAW", "messis 30, permutatio 40, spiritus 20, motus 10, praecantatio 5");
+mods.thaumcraft.Research.setAspects("GOLEMSTRAW", "messis 9, permutatio 9, spiritus 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("GOLEMSTRAW", 2);
 
 // --- Wood Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMWOOD", <Thaumcraft:ItemGolemPlacer:1>, <Thaumcraft:blockMagicalLog>, "humanus 14, motus 14, spiritus 14");
 // -
-mods.thaumcraft.Research.setAspects("GOLEMWOOD", "arbor 40, permutatio 50, spiritus 30, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("GOLEMWOOD", "arbor 12, permutatio 12, spiritus 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("GOLEMWOOD", 3);
 
 // --- Tallow Golems
@@ -173,13 +173,13 @@ mods.thaumcraft.Research.addPage("GOLEMTALLOW", "tc.research_page.GOLEMTALLOW.1"
 mods.thaumcraft.Crucible.addRecipe("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>, <Thaumcraft:blockCosmeticSolid:5>, "humanus 26, mortuus 26, spiritus 26");
 mods.thaumcraft.Research.addCruciblePage("GOLEMTALLOW", <Thaumcraft:ItemGolemPlacer:2>);
 // -
-mods.thaumcraft.Research.setAspects("GOLEMTALLOW", "spiritus 40, permutatio 50, corpus 30, motus 20, praecantatio 10, corpus 5");
+mods.thaumcraft.Research.setAspects("GOLEMTALLOW", "spiritus 12, permutatio 12, corpus 12, motus 9, praecantatio 6, corpus 3");
 mods.thaumcraft.Research.setComplexity("GOLEMTALLOW", 3);
 
 // --- Clay Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMCLAY", <Thaumcraft:ItemGolemPlacer:3>, <minecraft:clay>, "humanus 20, motus 20, spiritus 20");
 // -
-mods.thaumcraft.Research.setAspects("GOLEMCLAY", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, aqua 5");
+mods.thaumcraft.Research.setAspects("GOLEMCLAY", "spiritus 12, permutatio 12, motus 12, terra 9, praecantatio 6, aqua 3");
 mods.thaumcraft.Research.setComplexity("GOLEMCLAY", 3);
 
 // --- Flesh Golems
@@ -188,19 +188,19 @@ mods.thaumcraft.Research.addPage("GOLEMFLESH", "tc.research_page.GOLEMFLESH.1");
 mods.thaumcraft.Crucible.addRecipe("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>, <Thaumcraft:blockTaint:2>, "humanus 20, motus 20, spiritus 20");
 mods.thaumcraft.Research.addCruciblePage("GOLEMFLESH", <Thaumcraft:ItemGolemPlacer:4>);
 // -
-mods.thaumcraft.Research.setAspects("GOLEMFLESH", "corpus 40, permutatio 50, spiritus 30, motus 20, praecantatio 10, mortuus 5");
+mods.thaumcraft.Research.setAspects("GOLEMFLESH", "corpus 12, permutatio 12, spiritus 12, motus 9, praecantatio 6, mortuus 3");
 mods.thaumcraft.Research.setComplexity("GOLEMFLESH", 3);
 
 // --- Stone Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMSTONE", <Thaumcraft:ItemGolemPlacer:5>, <ExtraUtilities:cobblestone_compressed>, "humanus 26, mortuus 26, spiritus 26");
 // -
-mods.thaumcraft.Research.setAspects("GOLEMSTONE", "spiritus 40, permutatio 50, motus 30, terra 20, praecantatio 10, perditio 5");
+mods.thaumcraft.Research.setAspects("GOLEMSTONE", "spiritus 12, permutatio 12, motus 12, terra 9, praecantatio 6, perditio 3");
 mods.thaumcraft.Research.setComplexity("GOLEMSTONE", 3);
 
 // --- Iron Golems
 mods.thaumcraft.Crucible.addRecipe("GOLEMIRON", <Thaumcraft:ItemGolemPlacer:6>, <minecraft:iron_block>, "humanus 32, mortuus 32, spiritus 32");
 // -
-mods.thaumcraft.Research.setAspects("GOLEMIRON", "permutatio 50, spiritus 60, motus 40, metallum 30, praecantatio 20, terra 10, humanus 5");
+mods.thaumcraft.Research.setAspects("GOLEMIRON", "permutatio 12, spiritus 12, motus 12, metallum 9, praecantatio 9, terra 6, humanus 3");
 mods.thaumcraft.Research.setComplexity("GOLEMIRON", 3);
 
 // --- Thaumium Golems
@@ -209,7 +209,7 @@ mods.thaumcraft.Research.addPage("GOLEMTHAUMIUM", "tc.research_page.GOLEMTHAUMIU
 mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <Thaumcraft:blockCosmeticSolid:4>, "humanus 40, mortuus 40, spiritus 40");
 mods.thaumcraft.Research.addCruciblePage("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>);
 // -
-mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 60, spiritus 70, metallum 50, motus 40, praecantatio 30, terra 20, humanus 10, alienis 5");
+mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 12, spiritus 12, metallum 12, motus 9, praecantatio 9, terra 9, humanus 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("GOLEMTHAUMIUM", 3);
 
 // --- Advanced Straw Golems
@@ -220,7 +220,7 @@ mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>
 "cognitio 12, sensus 12, victus 12, humanus 6", <Thaumcraft:ItemGolemPlacer>.withTag({advanced: 1 as byte}), 5);
 mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>);
 // -
-mods.thaumcraft.Research.setAspects("ADVANCEDGOLEM", "sensus 75, victus 65, cognitio 55, potentia 45, praecantatio 35, alienis 25, motus 15, terra 5");
+mods.thaumcraft.Research.setAspects("ADVANCEDGOLEM", "sensus 15, victus 15, cognitio 12, potentia 12, praecantatio 12, alienis 9, motus 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ADVANCEDGOLEM", 4);
 
 // --- Advanced Wood Golems
@@ -277,13 +277,13 @@ mods.thaumcraft.Crucible.addRecipe("COREGATHER", <Thaumcraft:ItemGolemCore:2>, <
 // --- Golem Animation Core Empty
 mods.thaumcraft.Crucible.addRecipe("COREEMPTY", <Thaumcraft:ItemGolemCore:1>, <Thaumcraft:ItemGolemCore:100>, "lucrum 10, vacuos 10");
 // -
-mods.thaumcraft.Research.setAspects("COREEMPTY", "lucrum 40, vacuos 50, permutatio 30, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREEMPTY", "lucrum 9, vacuos 9, permutatio 6, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREEMPTY", 2);
 
 // --- Golem Animation Core Fill
 mods.thaumcraft.Crucible.addRecipe("COREFILL", <Thaumcraft:ItemGolemCore>, <Thaumcraft:ItemGolemCore:100>, "fames 10, vacuos 10");
 // -
-mods.thaumcraft.Research.setAspects("COREFILL", "fames 40, vacuos 50, permutatio 30, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREFILL", "fames 9, vacuos 9, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREFILL", 2);
 
 // --- Golem Animation Core Harvest
@@ -295,7 +295,7 @@ mods.thaumcraft.Infusion.addRecipe("COREHARVEST", <Thaumcraft:ItemGolemCore:100>
 mods.thaumcraft.Research.addInfusionPage("COREHARVEST", <Thaumcraft:ItemGolemCore:3>);
 mods.thaumcraft.Research.addPage("COREHARVEST", "tc.research_page.COREHARVEST.2");
 // -
-mods.thaumcraft.Research.setAspects("COREHARVEST", "meto 50, messis 60, iter 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREHARVEST", "meto 12, messis 12, iter 9, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREHARVEST", 3);
 
 // --- Golem Animation Core Guard
@@ -307,7 +307,7 @@ mods.thaumcraft.Infusion.addRecipe("COREGUARD", <Thaumcraft:ItemGolemCore:100>,
 mods.thaumcraft.Research.addInfusionPage("COREGUARD", <Thaumcraft:ItemGolemCore:4>);
 mods.thaumcraft.Research.addPage("COREGUARD", "tc.research_page.COREGUARD.2");
 // -
-mods.thaumcraft.Research.setAspects("COREGUARD", "sensus 50, telum 60, vinculum 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREGUARD", "sensus 12, telum 12, vinculum 12, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREGUARD", 3);
 
 // --- Golem Animation Core Use
@@ -315,7 +315,7 @@ mods.thaumcraft.Infusion.addRecipe("COREUSE", <Thaumcraft:ItemGolemCore:1>,
 [<minecraft:nether_star>, <ProjRed|Integration:projectred.integration.gate:26>, <minecraft:lever>, <minecraft:flint_and_steel>, <minecraft:stone_pressure_plate>, <minecraft:shears>],
 "humanus 20, instrumentum 20, machina 20, lucrum 20", <Thaumcraft:ItemGolemCore:8>, 4);
 // -
-mods.thaumcraft.Research.setAspects("COREUSE", "humanus 50, instrumentum 60, machina 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREUSE", "humanus 12, instrumentum 12, machina 9, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREUSE", 3);
 
 // --- Golem Animation Core Sorting
@@ -323,7 +323,7 @@ mods.thaumcraft.Infusion.addRecipe("CORESORTING", <Thaumcraft:ItemGolemCore:100>
 [<minecraft:nether_star>, <Thaumcraft:ItemGolemCore:1>, <minecraft:paper>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemGolemCore>, <ProjRed|Integration:projectred.integration.gate:26>],
 "lucrum 20, fames 20, permutatio 20, vacuos 20", <Thaumcraft:ItemGolemCore:10>, 4);
 // -
-mods.thaumcraft.Research.setAspects("CORESORTING", "fames 50, vacuos 60, lucrum 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("CORESORTING", "fames 12, vacuos 12, lucrum 12, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CORESORTING", 3);
 
 // --- Golem Animation Core Decanting
@@ -335,7 +335,7 @@ mods.thaumcraft.Infusion.addRecipe("CORELIQUID", <Thaumcraft:ItemGolemCore>,
 mods.thaumcraft.Research.addInfusionPage("CORELIQUID", <Thaumcraft:ItemGolemCore:5>);
 mods.thaumcraft.Research.addPage("CORELIQUID", "tc.research_page.CORELIQUID.2");
 // -
-mods.thaumcraft.Research.setAspects("CORELIQUID", "iter 50, aqua 60, metallum 30, permutatio 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("CORELIQUID", "iter 12, aqua 12, metallum 9, permutatio 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CORELIQUID", 3);
 
 // --- Golem Animation Core Alchemy
@@ -343,7 +343,7 @@ mods.thaumcraft.Infusion.addRecipe("COREALCHEMY", <Thaumcraft:ItemGolemCore:5>,
 [<minecraft:nether_star>, <minecraft:potion>, <Thaumcraft:blockJar>, <Thaumcraft:ItemEssence>, <Thaumcraft:ItemZombieBrain>, <minecraft:potion>, <Thaumcraft:ItemEssence>, <Thaumcraft:blockJar>],
 "aqua 32, motus 32, praecantatio 32, permutatio 32", <Thaumcraft:ItemGolemCore:6>, 7);
 // -
-mods.thaumcraft.Research.setAspects("COREALCHEMY", "potentia 50, aqua 60, iter 30, praecantatio 40, motus 20, alienis 10");
+mods.thaumcraft.Research.setAspects("COREALCHEMY", "potentia 12, aqua 12, iter 12, praecantatio 9, motus 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("COREALCHEMY", 3);
 
 // --- Golem Animation Core Butcher
@@ -354,7 +354,7 @@ mods.thaumcraft.Infusion.addRecipe("COREBUTCHER", <Thaumcraft:ItemGolemCore:3>,
 "bestia 32, corpus 32, mortuus 32, telum 32", <Thaumcraft:ItemGolemCore:9>, 7);
 mods.thaumcraft.Research.addInfusionPage("COREBUTCHER", <Thaumcraft:ItemGolemCore:9>);
 // -
-mods.thaumcraft.Research.setAspects("COREBUTCHER", "meto 50, telum 60, bestia 30, sensus 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREBUTCHER", "meto 12, telum 12, bestia 9, sensus 12, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREBUTCHER", 3);
 mods.thaumcraft.Warp.addToResearch("COREBUTCHER", 2);
 
@@ -363,7 +363,7 @@ mods.thaumcraft.Infusion.addRecipe("COREFISHING", <Thaumcraft:ItemGolemCore:3>,
 [<minecraft:nether_star>, <minecraft:fish>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:fishing_rod>, <gregtech:gt.metatool.01:34>],
 "aqua 32, meto 20, bestia 32, fames 32", <Thaumcraft:ItemGolemCore:11>, 7);
 // -
-mods.thaumcraft.Research.setAspects("COREFISHING", "fames 50, aqua 60, bestia 30, meto 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("COREFISHING", "fames 12, aqua 12, bestia 12, meto 9, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("COREFISHING", 3);
 
 // --- Golem Animation Core Chop
@@ -371,7 +371,7 @@ mods.thaumcraft.Infusion.addRecipe("CORELUMBER", <Thaumcraft:ItemGolemCore:3>,
 [<minecraft:nether_star>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemAxeElemental>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemAxeThaumium>],
 "arbor 32, instrumentum 32, meto 20, potentia 32", <Thaumcraft:ItemGolemCore:7>, 7);
 // -
-mods.thaumcraft.Research.setAspects("CORELUMBER", "potentia 50, arbor 60, instrumentum 30, meto 40, motus 20, praecantatio 10");
+mods.thaumcraft.Research.setAspects("CORELUMBER", "potentia 12, arbor 12, instrumentum 9, meto 12, motus 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CORELUMBER", 3);
 
 // --- Golemancers Bell
@@ -390,7 +390,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEAIR", <Thaumcraft:ItemGolemUpgrade>, "a
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEAIR", "motus 10, aer 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEAIR", "motus 9, aer 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEAIR", 2);
 
 // --- Golem Upgrade Earth
@@ -399,7 +399,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEEARTH", <Thaumcraft:ItemGolemUpgrade:1>
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal:3>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEEARTH", "victus 10, terra 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEEARTH", "victus 9, terra 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEEARTH", 2);
 
 // --- Golem Upgrade Fire
@@ -408,7 +408,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEFIRE", <Thaumcraft:ItemGolemUpgrade:2>,
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal:1>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEFIRE", "potentia 10, ignis 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEFIRE", "potentia 9, ignis 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEFIRE", 2);
 
 // --- Golem Upgrade Water
@@ -417,7 +417,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEWATER", <Thaumcraft:ItemGolemUpgrade:3>
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal:2>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEWATER", "sensus 10, aqua 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEWATER", "sensus 9, aqua 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEWATER", 2);
 
 // --- Golem Upgrade Order
@@ -426,7 +426,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEORDER", <Thaumcraft:ItemGolemUpgrade:4>
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal:4>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEORDER", "cognitio 10, order 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEORDER", "cognitio 6, ordo 9, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEORDER", 2);
 
 // --- Golem Upgrade Entropy
@@ -435,7 +435,7 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEENTROPY", <Thaumcraft:ItemGolemUpgrade:
 [<ore:nuggetThaumium>, <Thaumcraft:blockCrystal:5>, <ore:nuggetThaumium>],
 [<ore:nuggetGold>, <Thaumcraft:ItemNugget:5>, <ore:nuggetGold>]]);
 // -
-mods.thaumcraft.Research.setAspects("UPGRADEENTROPY", "cognitio 10, perditio 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("UPGRADEENTROPY", "cognitio 6, perditio 9, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEENTROPY", 2);
 
 
@@ -445,7 +445,7 @@ mods.thaumcraft.Arcane.addShaped("TINYHAT", <Thaumcraft:ItemGolemDecoration>, "o
 [<ore:foilGold>, <ore:foilGold>, <ore:foilGold>],
 [<ore:blockWoolBlack>, <Thaumcraft:ItemResource:7>, <ore:blockWoolBlack>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYHAT", "lucrum 20, panus 15, victus 10, sano 5");
+mods.thaumcraft.Research.setAspects("TINYHAT", "lucrum 9, pannus 9, victus 6, sano 3");
 mods.thaumcraft.Research.setComplexity("TINYHAT", 2);
 
 // --- Accessory Spectacles
@@ -454,7 +454,7 @@ mods.thaumcraft.Arcane.addShaped("TINYGLASSES", <Thaumcraft:ItemGolemDecoration:
 [<ore:screwIron>, <Thaumcraft:ItemResource:7>, <ore:screwIron>],
 [<ore:lensGlass>, <ore:boltIron>, <ore:lensGlass>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYGLASSES", "lucrum 20, panus 15, sensus 10, ordo 5");
+mods.thaumcraft.Research.setAspects("TINYGLASSES", "lucrum 9, pannus 6, sensus 6, ordo 3");
 mods.thaumcraft.Research.setComplexity("TINYGLASSES", 2);
 
 // --- Accessory Top Bowtie
@@ -463,7 +463,7 @@ mods.thaumcraft.Arcane.addShaped("TINYBOWTIE", <Thaumcraft:ItemGolemDecoration:2
 [<ore:blockWoolBlack>, <Thaumcraft:ItemResource:7>, <ore:blockWoolBlack>],
 [<ore:blockWoolBlack>, null, <ore:blockWoolBlack>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYBOWTIE", "lucrum 20, panus 15, iter 10, potentia 5");
+mods.thaumcraft.Research.setAspects("TINYBOWTIE", "lucrum 9, pannus 9, iter 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("TINYBOWTIE", 2);
 
 // --- Accessory Top Fez
@@ -472,7 +472,7 @@ mods.thaumcraft.Arcane.addShaped("TINYFEZ", <Thaumcraft:ItemGolemDecoration:3>, 
 [<ore:blockWoolRed>, <Thaumcraft:ItemResource:7>, <minecraft:string>],
 [<ore:blockWoolRed>, <ore:blockWoolRed>, <minecraft:string>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYFEZ", "lucrum 20, panus 15, potentia 10, sano 5");
+mods.thaumcraft.Research.setAspects("TINYFEZ", "lucrum 9, pannus 9, potentia 6, sano 3");
 mods.thaumcraft.Research.setComplexity("TINYFEZ", 2);
 
 // --- Accessory Top Dart Launcher
@@ -481,7 +481,7 @@ mods.thaumcraft.Arcane.addShaped("TINYDART", <Thaumcraft:ItemGolemDecoration:4>,
 [<minecraft:arrow>, <minecraft:dropper>, <minecraft:arrow>],
 [<minecraft:arrow>, <ore:springSmallSteel>, <minecraft:arrow>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYDART", "lucrum 20, volatus 15, telum 10, potentia 5");
+mods.thaumcraft.Research.setAspects("TINYDART", "lucrum 9, volatus 9, telum 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("TINYDART", 2);
 
 // --- Accessory Top Visor
@@ -490,7 +490,7 @@ mods.thaumcraft.Arcane.addShaped("TINYVISOR", <Thaumcraft:ItemGolemDecoration:5>
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [null, null, null]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYVISOR", "lucrum 20, sensus 15, tutamen 10, cognitio 5");
+mods.thaumcraft.Research.setAspects("TINYVISOR", "lucrum 9, sensus 9, tutamen 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("TINYVISOR", 2);
 
 // --- Accessory Top Iron Plating
@@ -499,7 +499,7 @@ mods.thaumcraft.Arcane.addShaped("TINYARMOR", <Thaumcraft:ItemGolemDecoration:6>
 [<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>],
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYARMOR", "lucrum 20, metallum 15, tutamen 10, cognitio 5");
+mods.thaumcraft.Research.setAspects("TINYARMOR", "lucrum 9, metallum 9, tutamen 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("TINYARMOR", 2);
 
 // --- Accessory Top Mace Arm
@@ -508,7 +508,7 @@ mods.thaumcraft.Arcane.addShaped("TINYHAMMER", <Thaumcraft:ItemGolemDecoration:7
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [null, <ore:stickWood>, null]]);
 // -
-mods.thaumcraft.Research.setAspects("TINYHAMMER", "lucrum 20, metallum 15, telum 10, vinculum 5");
+mods.thaumcraft.Research.setAspects("TINYHAMMER", "lucrum 9, metallum 9, telum 6, vinculum 3");
 mods.thaumcraft.Research.setComplexity("TINYHAMMER", 2);
 
 

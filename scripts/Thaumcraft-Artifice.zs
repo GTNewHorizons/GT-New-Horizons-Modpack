@@ -235,7 +235,7 @@ mods.thaumcraft.Arcane.addShaped("GOGGLES", <Thaumcraft:ItemGoggles> , "aer 30, 
 [<ore:ringGold>, <ore:craftingToolScrewdriver>, <ore:ringGold>],
 [<Thaumcraft:ItemThaumometer>, <ore:stickGold>, <Thaumcraft:ItemThaumometer>]]);
 
-mods.thaumcraft.Research.setAspects("GOGGLES", "auram 5, praecantatio 10, sensus 15, instrumentum 10");
+mods.thaumcraft.Research.setAspects("GOGGLES", "auram 3, praecantatio 9, sensus 9, instrumentum 6");
 mods.thaumcraft.Research.setComplexity("GOGGLES", 2);
 
 // --- Table
@@ -290,8 +290,6 @@ mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6
 mods.thaumcraft.Research.clearPages("ARCANESTONE");
 mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.1");
 mods.thaumcraft.Research.addArcanePage("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6>);
-mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.2");
-game.setLocalization("en_US", "tc.research_page.ARCANESTONE.2", "Arcane Stone Bricks Assembler Recipe <BR><IMG>dreamcraft:textures/items/itemArcaneStoneBricksAssembler.png:0:0:255:255:0.40</IMG><BR><LINE>");
 mods.thaumcraft.Research.addCraftingPage("ARCANESTONE", <Thaumcraft:blockStairsArcaneStone>);
 mods.thaumcraft.Research.addCraftingPage("ARCANESTONE", <Thaumcraft:blockCosmeticSlabStone>);
 
@@ -307,7 +305,7 @@ mods.thaumcraft.Arcane.addShaped("INFUSION", <Thaumcraft:blockStoneDevice:1> , "
 [null, <Thaumcraft:blockCosmeticSolid:6>, null],
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
 // -
-mods.thaumcraft.Research.setAspects("INFUSION", "fabrico 50, machina 40, praecantatio 30, cognitio 20, motus 10");
+mods.thaumcraft.Research.setAspects("INFUSION", "fabrico 9, machina 9, praecantatio 6, cognitio 6, motus 3");
 mods.thaumcraft.Research.setComplexity("INFUSION", 2);
 
 // --- Paving Stone of Travel
@@ -319,7 +317,7 @@ mods.thaumcraft.Arcane.addShaped("PAVETRAVEL", <ThaumicTinkerer:travelSlabFull> 
 [<ore:plateInfusedAir>, <ore:plateInfusedEarth>, <ore:plateInfusedAir>]]);
 mods.thaumcraft.Research.addArcanePage("PAVETRAVEL", <ThaumicTinkerer:travelSlabFull>);
 // -
-mods.thaumcraft.Research.setAspects("PAVETRAVEL", "iter 20, volatus 10, terra 15, motus 10");
+mods.thaumcraft.Research.setAspects("PAVETRAVEL", "iter 9, volatus 6, terra 6, motus 3");
 mods.thaumcraft.Research.setComplexity("PAVETRAVEL", 2);
 
 // --- Paving Stone of Warding
@@ -332,7 +330,7 @@ mods.thaumcraft.Arcane.addShaped("PAVEWARD", <Thaumcraft:blockCosmeticSolid:3> *
 mods.thaumcraft.Research.addArcanePage("PAVEWARD", <Thaumcraft:blockCosmeticSolid:3>);
 mods.thaumcraft.Research.addPage("PAVEWARD", "tc.research_page.PAVEWARD.2");
 // -
-mods.thaumcraft.Research.setAspects("PAVEWARD", "motus 10, bestia 15, vinculum 20, telum 10");
+mods.thaumcraft.Research.setAspects("PAVEWARD", "motus 6, bestia 9, vinculum 3, telum 6");
 mods.thaumcraft.Research.setComplexity("PAVEWARD", 2);
 
 // --- Item Grate
@@ -353,7 +351,7 @@ mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7> , "ae
 [<harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>, <harvestcraft:wovencottonItem>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
-mods.thaumcraft.Research.setAspects("ENCHFABRIC", "pannus 10, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setAspects("ENCHFABRIC", "pannus 6, praecantatio 6, tutamen 3");
 mods.thaumcraft.Research.setComplexity("ENCHFABRIC", 1);
 // -
 mods.thaumcraft.Research.addArcanePage("ENCHFABRIC", <Thaumcraft:ItemResource:7>);
@@ -389,7 +387,7 @@ mods.thaumcraft.Arcane.addShaped("ARCANELAMP", <Thaumcraft:blockMetalDevice:7>, 
 [<ore:plateSteel>, <Thaumcraft:blockCosmeticOpaque>, <ore:plateSteel>],
 [<ore:paneGlassColorless>, <Thaumcraft:ItemResource:1>, <ore:paneGlassColorless>]]);
 // -
-mods.thaumcraft.Research.setAspects("ARCANELAMP", "lux 10, tenebrae 5, sensus 10");
+mods.thaumcraft.Research.setAspects("ARCANELAMP", "lux 6, tenebrae 3, sensus 6");
 mods.thaumcraft.Research.setComplexity("ARCANELAMP", 1);
 
 // --- Lamp of Growth
@@ -397,7 +395,7 @@ mods.thaumcraft.Infusion.addRecipe("LAMPGROWTH", <Thaumcraft:blockMetalDevice:7>
 [<gregtech:gt.metaitem.01:17086>, <minecraft:dye:15>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17086>, <minecraft:dye:15>, <Thaumcraft:blockCrystal:3>], 
 "herba 20, lux 10, victus 20, messis 10", <Thaumcraft:blockMetalDevice:8>, 5);
 // -
-mods.thaumcraft.Research.setAspects("LAMPGROWTH", "messis 40, lux 10, herba 20, victus 30");
+mods.thaumcraft.Research.setAspects("LAMPGROWTH", "messis 9, lux 3, herba 6, victus 9");
 mods.thaumcraft.Research.setComplexity("LAMPGROWTH", 2);
 
 // --- Lamp of Fertility
@@ -405,7 +403,7 @@ mods.thaumcraft.Infusion.addRecipe("LAMPFERTILITY", <Thaumcraft:blockMetalDevice
 [<gregtech:gt.metaitem.01:17086>, <minecraft:wheat>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17086>, <minecraft:golden_carrot>, <Thaumcraft:blockCrystal:1>], 
 "bestia 20, lux 10, victus 20, sano 10", <Thaumcraft:blockMetalDevice:13>, 5);
 // -
-mods.thaumcraft.Research.setAspects("LAMPFERTILITY", "bestia 40, lux 10, victus 30, sano 20");
+mods.thaumcraft.Research.setAspects("LAMPFERTILITY", "bestia 9, lux 3, victus 9, sano 6");
 mods.thaumcraft.Research.setComplexity("LAMPFERTILITY", 2);
 
 // --- Arcane Levitator
@@ -414,7 +412,7 @@ mods.thaumcraft.Arcane.addShaped("LEVITATOR", <Thaumcraft:blockLifter>, "aer 20,
 [<Thaumcraft:ItemResource:1>, <ore:rotorThaumium>, <Thaumcraft:ItemResource>],
 [<Thaumcraft:blockWoodenDevice:6>, <ore:plateInfusedEarth>, <Thaumcraft:blockWoodenDevice:6>]]);
 // -
-mods.thaumcraft.Research.setAspects("LEVITATOR", "aer 10, volatus 25, praecantatio 5, motus 20");
+mods.thaumcraft.Research.setAspects("LEVITATOR", "aer 3, volatus 6, praecantatio 3, motus 6");
 mods.thaumcraft.Research.setComplexity("LEVITATOR", 1);
 
 // --- Arcane Door
@@ -423,7 +421,7 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:ItemArcaneDoor>, "t
 [<Thaumcraft:blockWoodenDevice:6>, <ore:ringThaumium>, <ore:screwThaumium>],
 [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <ore:craftingToolSaw>]]);
 // -
-mods.thaumcraft.Research.setAspects("WARDEDARCANA", "tutamen 20, instrumentum 15, machina 10, motus 5");
+mods.thaumcraft.Research.setAspects("WARDEDARCANA", "tutamen 6, instrumentum 6, machina 6, motus 3");
 mods.thaumcraft.Research.setComplexity("WARDEDARCANA", 1);
 
 // --- Arcane Pressure Plate
@@ -456,7 +454,7 @@ mods.thaumcraft.Arcane.addShaped("ARCANEEAR", <Thaumcraft:blockWoodenDevice:1>, 
 [<ore:plateGold>, <Thaumcraft:ItemZombieBrain>, <ore:plateGold>],
 [<Thaumcraft:blockWoodenDevice:6>, <ore:wireGt01RedAlloy>, <Thaumcraft:blockWoodenDevice:6>]]);
 // -
-mods.thaumcraft.Research.setAspects("ARCANEEAR", "aer 25, sensus 20, praecantatio 10, potentia 15");
+mods.thaumcraft.Research.setAspects("ARCANEEAR", "aer 9, sensus 9, praecantatio 3, potentia 6");
 mods.thaumcraft.Research.setComplexity("ARCANEEAR", 2);
 
 // --- Sinister Load Stone
@@ -464,7 +462,7 @@ mods.thaumcraft.Infusion.addRecipe("SINSTONE", <minecraft:flint>,
 [<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemShard:6>],
  "alienis 10, auram 10, sensus 10, tenebrae 10, ordo 10", <Thaumcraft:ItemCompassStone>, 4);
 // -
-mods.thaumcraft.Research.setAspects("SINSTONE", "auram 25, sensus 10, tenebrae 15, alienis 20");
+mods.thaumcraft.Research.setAspects("SINSTONE", "auram 6, sensus 3, tenebrae 6, alienis 6");
 mods.thaumcraft.Research.setComplexity("SINSTONE", 2);
 mods.thaumcraft.Warp.addToResearch("SINSTONE", 1);
 
@@ -474,7 +472,7 @@ mods.thaumcraft.Arcane.addShaped("BELLOWS", <Thaumcraft:blockWoodenDevice>, "aer
 [<Backpack:tannedLeather>, <gregtech:gt.metaitem.01:32640>, <Backpack:tannedLeather>],
 [<Thaumcraft:blockCosmeticSlabWood>, <ore:shardAir>, <Thaumcraft:blockCosmeticSlabWood>]]);
 // -
-mods.thaumcraft.Research.setAspects("BELLOWS", "motus 15, aer 20, praecantatio 10, machina 25");
+mods.thaumcraft.Research.setAspects("BELLOWS", "motus 6, aer 9, praecantatio 3, machina 9");
 mods.thaumcraft.Research.setComplexity("BELLOWS", 2);
 
 // --- Flux Scubber
@@ -485,7 +483,7 @@ mods.thaumcraft.Infusion.addRecipe("FLUXSCRUB", <Thaumcraft:blockWoodenDevice>,
 "aqua 25, aer 20, praecantatio 15, vinculum 10, vitium 5", <Thaumcraft:blockStoneDevice:14>, 4);
 mods.thaumcraft.Research.addInfusionPage("FLUXSCRUB", <Thaumcraft:blockStoneDevice:14>);
 // -
-mods.thaumcraft.Research.setAspects("FLUXSCRUB", "aqua 50, praecantatio 40, aer 30, vinculum 20, vitium 10");
+mods.thaumcraft.Research.setAspects("FLUXSCRUB", "aqua 12, praecantatio 12, aer 9, vinculum 6, vitium 3");
 mods.thaumcraft.Research.setComplexity("FLUXSCRUB", 3);
 
 // --- Boots of the Traveller
@@ -493,7 +491,7 @@ mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER", <minecraft:leather_boots>,
 [<Thaumcraft:blockCrystal>, <Thaumcraft:ItemResource:7>, <minecraft:feather>, <Thaumcraft:ItemResource:7>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemResource:7>, <minecraft:fish:*>, <Thaumcraft:ItemResource:7>], 
 "volatus 25, aer 25, iter 25, aqua 5", <Thaumcraft:BootsTraveller>, 2);
 // -
-mods.thaumcraft.Research.setAspects("BOOTSTRAVELLER", "aqua 15, iter 45, terra 25, volatus 35, aer 15");
+mods.thaumcraft.Research.setAspects("BOOTSTRAVELLER", "aqua 9, iter 12, terra 6, volatus 12, aer 3");
 mods.thaumcraft.Research.setComplexity("BOOTSTRAVELLER", 3);
 
 // --- Ring of Runic Shielding
@@ -501,7 +499,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNICARMOR", <Thaumcraft:ItemBaubleBlanks:1>
 [<Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.02:29514>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemInkwell>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.02:29514>], 
 "potentia 25, tutamen 25, praecantatio 25, alienis 5", <Thaumcraft:ItemRingRunic:1>, 2);
 // -
-mods.thaumcraft.Research.setAspects("RUNICARMOR", "cognitio 45, tutamen 55, aer 25, potentia 35, praecantatio 15, alienis 5");
+mods.thaumcraft.Research.setAspects("RUNICARMOR", "cognitio 12, tutamen 12, aer 9, potentia 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
 // --- Charged Ring of Shielding
@@ -509,7 +507,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNICCHARGED", <Thaumcraft:ItemRingRunic:1>,
 [<minecraft:potion:8226>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:1>, <minecraft:potion:8226>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:1>],
 "potentia 64, tutamen 32, praecantatio 32, alienis 16, aer 8", <Thaumcraft:ItemRingRunic:2>, 6);
 // -
-mods.thaumcraft.Research.setAspects("RUNICCHARGED", "praecantatio 55, potentia 65, tutamen 35, alienis 45, aer 25, cognitio 15, cognitio 5");
+mods.thaumcraft.Research.setAspects("RUNICCHARGED", "praecantatio 12, potentia 12, tutamen 9, alienis 12, aer 9, cognitio 6, terra 3");
 mods.thaumcraft.Research.setComplexity("RUNICCHARGED", 3);
 
 // --- Revitalizing Ring of Shielding
@@ -517,7 +515,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNICHEALING", <Thaumcraft:ItemRingRunic:1>,
 [<minecraft:potion:8225>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:2>, <minecraft:potion:8225>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:2>],
 "aqua 64, praecantatio 32, sano 32, tutamen 32, aer 8", <Thaumcraft:ItemRingRunic:3>, 6);
 // -
-mods.thaumcraft.Research.setAspects("RUNICHEALING", "praecantatio 55, aqua 65, sano 45, tutamen 35, alienis 25, aer 15, cognitio 5");
+mods.thaumcraft.Research.setAspects("RUNICHEALING", "praecantatio 12, aqua 12, sano 12, tutamen 9, alienis 9, aer 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("RUNICHEALING", 3);
 
 // --- Amulet of Runic Shielding
@@ -530,7 +528,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNICEMERGENCY", <Thaumcraft:ItemAmuletRunic
 [<minecraft:potion:8233>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:3>, <minecraft:potion:8233>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:3>],
 "praecantatio 64, terra 64, tutamen 64, vacuos 32, sano 8", <Thaumcraft:ItemAmuletRunic:1>, 8);
 // -
-mods.thaumcraft.Research.setAspects("RUNICEMERGENCY", "vocuos 55, praecantatio 65, terra 45, tutamen 35, alienis 25, sano 15, cognitio 5");
+mods.thaumcraft.Research.setAspects("RUNICEMERGENCY", "vacuos 12, praecantatio 12, terra 9, tutamen 9, alienis 6, sano 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("RUNICEMERGENCY", 3);
 
 // --- Girdle of Runic Shielding
@@ -543,7 +541,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNICKINETIC", <Thaumcraft:ItemGirdleRunic>,
 [<minecraft:potion:16428>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>, <minecraft:potion:16428>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>],
 "aer 64, praecantatio 64, tutamen 64, bestia 32, telum 8", <Thaumcraft:ItemGirdleRunic:1>, 8);
 // -
-mods.thaumcraft.Research.setAspects("RUNICKINETIC", "aer 55, praecantatio 65, tutamen 45, telum 35, alienis 25, bestia 15, cognitio 5");
+mods.thaumcraft.Research.setAspects("RUNICKINETIC", "aer 12, praecantatio 12, tutamen 12, telum 9, alienis 9, bestia 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("RUNICKINETIC", 3);
 
 // --- Arcan Bore
@@ -551,7 +549,7 @@ mods.thaumcraft.Infusion.addRecipe("ARCANEBORE", <gregtech:gt.metaitem.01:32641>
 [<Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:24500>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:24500>, <Thaumcraft:ItemPickThaumium>], 
 "machina 64, motus 32, perditio 64, potentia 32, vacuos 32", <Thaumcraft:blockWoodenDevice:5>, 6);
 // -
-mods.thaumcraft.Research.setAspects("ARCANEBORE", "instrumentum 45, perfodio 55, machina 35, motus 25, vacuos 5, cognito 15");
+mods.thaumcraft.Research.setAspects("ARCANEBORE", "instrumentum 12, perfodio 12, machina 9, motus 9, vacuos 3, cognitio 6");
 mods.thaumcraft.Research.setComplexity("ARCANEBORE", 3);
 
 // --- Arcan Bore Base
@@ -565,7 +563,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALPICK", <Thaumcraft:ItemPickThaumium
 [<gregtech:gt.metaitem.02:29502>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:1>],
 "ignis 20, perfodio 20, sensus 20, lucrum 20", <Thaumcraft:ItemPickaxeElemental>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ELEMENTALPICK", "instrumentum 45, ignis 35, perfodio 25, lucrum 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("ELEMENTALPICK", "instrumentum 12, ignis 12, perfodio 9, lucrum 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("ELEMENTALPICK", 3);
 
 // --- Axe of the Stream
@@ -573,7 +571,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE", <Thaumcraft:ItemAxeThaumium>,
 [<gregtech:gt.metaitem.02:29503>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:2>],
 "aqua 10, arbor 20, fabrico 20, motus 20", <Thaumcraft:ItemAxeElemental>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ELEMENTALAXE", "instrumentum 45, motus 35, fabrico 25, aqua 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("ELEMENTALAXE", "instrumentum 12, motus 12, fabrico 9, aqua 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("ELEMENTALAXE", 3);
 
 // --- Sword of Zephyr
@@ -581,7 +579,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALSWORD", <Thaumcraft:ItemSwordThaumi
 [<gregtech:gt.metaitem.02:29528>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal>],
 "aer 20, motus 20, potentia 20, telum 20", <Thaumcraft:ItemSwordElemental>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ELEMENTALSWORD", "instrumentum 45, telum 35, potentia 25, aer 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("ELEMENTALSWORD", "instrumentum 12, telum 12, potentia 9, aer 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("ELEMENTALSWORD", 3);
 
 // --- Shovel of the Earthmover
@@ -589,7 +587,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL", <Thaumcraft:ItemShovelThau
 [<gregtech:gt.metaitem.02:29501>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:3>],
 "fabrico 20, terra 20, perfodio 10, praecantatio 20", <Thaumcraft:ItemShovelElemental>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ELEMENTALSHOVEL", "instrumentum 45, terra 35, perfodio 25, fabrico 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("ELEMENTALSHOVEL", "instrumentum 12, terra 12, perfodio 9, fabrico 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("ELEMENTALSHOVEL", 3);
 
 // --- Hoe of Growth
@@ -597,7 +595,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE", <Thaumcraft:ItemHoeThaumium>,
 [<gregtech:gt.metaitem.02:29514>, <Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockMagicalLog>, <Thaumcraft:blockCrystal:4>],
 "meto 10, herba 20, terra 20, messis 20", <Thaumcraft:ItemHoeElemental>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 45, victus 35, meto 25, messis 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("ELEMENTALHOE", "instrumentum 12, victus 12, meto 9, messis 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("ELEMENTALHOE", 3);
 
 // --- Thaumostatic Harness
@@ -605,19 +603,19 @@ mods.thaumcraft.Infusion.addRecipe("HOVERHARNESS", <minecraft:leather_chestplate
 [<gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17019>, <gregtech:gt.metaitem.01:17086>, <ProjRed|Integration:projectred.integration.gate:26>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockWoodenDevice:6>],
 "iter 32, machina 64, potentia 32, volatus 32, tutamen 16", <Thaumcraft:HoverHarness>, 6);
 // -
-mods.thaumcraft.Research.setAspects("HOVERHARNESS", "volatus 55, machina 45, iter 35, ear 25, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setAspects("HOVERHARNESS", "volatus 12, machina 12, iter 9, aer 9, praecantatio 6, tutamen 3");
 mods.thaumcraft.Research.setComplexity("HOVERHARNESS", 3);
 
-// --- Thauostatic Girdle
+// --- Thaumostatic Girdle
 mods.thaumcraft.Infusion.addRecipe("HOVERGIRDLE", <Thaumcraft:ItemBaubleBlanks:2>,
 [<Thaumcraft:blockCrystal>, <minecraft:feather>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17019>, <gregtech:gt.metaitem.01:17086>, <TwilightForest:item.tfFeather>],
 "aer 64, iter 32, potentia 32, volatus 32, tutamen 16", <Thaumcraft:ItemGirdleHover>, 8);
 // -
-mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 55, motus 45, iter 35, ear 25, praecantatio 15, tutamen 5");
+mods.thaumcraft.Research.setAspects("HOVERGIRDLE", "volatus 12, motus 12, iter 9, aer 9, praecantatio 6, tutamen 3");
 mods.thaumcraft.Research.setComplexity("HOVERGIRDLE", 3);
 
 // --- Runic Shielding
-mods.thaumcraft.Research.setAspects("RUNICARMOR", "praecantatio 65, lucrum 55, permutatio 45, tutanem 35, cognitio 25, alienis 15, potentia 5");
+mods.thaumcraft.Research.setAspects("RUNICARMOR", "praecantatio 12, lucrum 12, permutatio 9, tutamen 9, cognitio 6, alienis 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
 // --- Magic Mirror
@@ -625,7 +623,7 @@ mods.thaumcraft.Infusion.addRecipe("MIRROR", <Thaumcraft:ItemResource:10>,
 [<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
 "iter 16, permutatio 16, tenebrae 16, alienis 8", <Thaumcraft:blockMirror>, 2);
 // -
-mods.thaumcraft.Research.setAspects("MIRROR", "vitreus 65, iter 55, tenebrae 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setAspects("MIRROR", "vitreus 12, iter 12, tenebrae 9, alienis 9, cognitio 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("MIRROR", 3);
 
 // --- Magic Hand Mirror
@@ -633,7 +631,7 @@ mods.thaumcraft.Infusion.addRecipe("MIRRORHAND", <Thaumcraft:blockMirror>,
 [<minecraft:compass>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27330>, <minecraft:map>, <gregtech:gt.metaitem.01:27330>, <Thaumcraft:WandRod>, <gregtech:gt.metaitem.01:27330>],
 "instrumentum 32, iter 32, alienis 16, potentia 8", <Thaumcraft:HandMirror>, 5);
 // -
-mods.thaumcraft.Research.setAspects("MIRRORHAND", "iter 65, instrumentum 55, vitreus 45, alienis 35, cognitio 25, potentia 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("MIRRORHAND", "iter 12, instrumentum 12, vitreus 12, alienis 9, cognitio 6, potentia 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("MIRRORHAND", 3);
 
 // --- Essentia Mirror
@@ -641,7 +639,7 @@ mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10
 [<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>],
 "aqua 16, iter 16, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
 // -
-mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 65, iter 55, vitreus 45, alienis 35, cognitio 25, potentia 15, aqua 5");
+mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 12, iter 12, vitreus 9, alienis 9, cognitio 6, potentia 6, aqua 3");
 mods.thaumcraft.Research.setComplexity("MIRRORESSENTIA", 3);
 
 // --- Brain in a Jar
@@ -649,11 +647,11 @@ mods.thaumcraft.Infusion.addRecipe("JARBRAIN", <Thaumcraft:blockJar>,
 [<Thaumcraft:ItemZombieBrain>, <minecraft:poisonous_potato>, <minecraft:spider_eye>, <minecraft:water_bucket>, <minecraft:spider_eye>, <minecraft:poisonous_potato>],
 "cognitio 15, exanimis 30, sensus 15, alienis 10", <Thaumcraft:blockJar:1>, 5);
 // -
-mods.thaumcraft.Research.setAspects("JARBRAIN", "lucrum 65, fames 55, exanimis 45, cognitio 35, alienis 25, potentia 15");
+mods.thaumcraft.Research.setAspects("JARBRAIN", "lucrum 12, fames 12, exanimis 9, cognitio 9, alienis 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("JARBRAIN", 3);
 
 // --- Infuision Enchantment
-mods.thaumcraft.Research.setAspects("INFUSIONENCHANTMENT", "instrumentum 75, praecantatio 65, tutamen 55, cognitio 45, telum 35, potentia 25, alienis 15, potentia 5");
+mods.thaumcraft.Research.setAspects("INFUSIONENCHANTMENT", "instrumentum 15, praecantatio 15, tutamen 12, cognitio 12, telum 9, potentia 9, alienis 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("INFUSIONENCHANTMENT", 4);
 
 // --- Thaumium Fortress Helm
@@ -661,7 +659,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemHelmetThaumi
 [<gregtech:gt.metaitem.02:29501>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>],
 "metallum 32, praecantatio 32, tutamen 32, victus 16", <Thaumcraft:ItemHelmetFortress>, 4);
 // -
-mods.thaumcraft.Research.setAspects("ARMORFORTRESS", "fabrico 65, metallum 55, tutamen 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setAspects("ARMORFORTRESS", "fabrico 12, metallum 12, tutamen 9, alienis 9, cognitio 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("ARMORFORTRESS", 3);
 
 // --- Thaumium Fortress Cuirass
@@ -675,24 +673,23 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS", <Thaumcraft:ItemLeggingsThau
 "metallum 32, praecantatio 32, tutamen 24, terra 16", <Thaumcraft:ItemLeggingsFortress>, 4);
 
 // --- Helm of Revealing
-mods.thaumcraft.Research.setAspects("HELMGOGGLES", "tutamen 65, sensus 55, auram 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setAspects("HELMGOGGLES", "tutamen 12, sensus 12, auram 9, alienis 9, praecantatio 6, fabrico 3");
 mods.thaumcraft.Research.setComplexity("HELMGOGGLES", 3);
 
 // --- Grinning Devil Faceplate
-mods.thaumcraft.Research.setAspects("MASKGRINNINGDEVIL", "tutamen 65, sano 55, cognitio 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setAspects("MASKGRINNINGDEVIL", "tutamen 12, sano 12, cognitio 9, alienis 9, praecantatio 6, fabrico 3");
 mods.thaumcraft.Research.setComplexity("MASKGRINNINGDEVIL", 3);
 mods.thaumcraft.Warp.addToResearch("MASKGRINNINGDEVIL", 1);
 
 // --- Angry Ghost Faceplate
-mods.thaumcraft.Research.setAspects("MASKANGRYGHOST", "tutamen 65, perditio 55, mortuus 45, alienis 35, praecantatio 25, fabrico 15");
+mods.thaumcraft.Research.setAspects("MASKANGRYGHOST", "tutamen 12, perditio 12, mortuus 9, alienis 9, praecantatio 6, fabrico 3");
 mods.thaumcraft.Research.setComplexity("MASKANGRYGHOST", 3);
 mods.thaumcraft.Warp.addToResearch("MASKANGRYGHOST", 1);
 
 // --- Sipping Fiend Faceplate
-mods.thaumcraft.Research.setAspects("MASKSIPPINGFIEND", "tutamen 65, exanimis 55, victus 45, alienis 35, cognitio 25, potentia 15");
+mods.thaumcraft.Research.setAspects("MASKSIPPINGFIEND", "tutamen 12, exanimis 12, victus 9, alienis 9, cognitio 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("MASKSIPPINGFIEND", 3);
 mods.thaumcraft.Warp.addToResearch("MASKSIPPINGFIEND", 2);
-
 
 // --- Bone Bow
 mods.thaumcraft.Arcane.addShaped("BONEBOW", <Thaumcraft:ItemBowBone>, "aer 32, perditio 32, terra 32", [
@@ -700,7 +697,7 @@ mods.thaumcraft.Arcane.addShaped("BONEBOW", <Thaumcraft:ItemBowBone>, "aer 32, p
 [<Natura:barleyFood:7>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.LichBone>],
 [<Natura:barleyFood:7>, <minecraft:bone>, <ore:screwThaumium>]]);
 // -
-mods.thaumcraft.Research.setAspects("BONEBOW", "telum 45, motus 35, aer 25, exanimis 15");
+mods.thaumcraft.Research.setAspects("BONEBOW", "telum 9, motus 9, aer 6, exanimis 3");
 mods.thaumcraft.Research.setComplexity("BONEBOW", 2);
 
 
@@ -830,7 +827,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALHOE");
 // --- Thaumostatic Harness
 mods.thaumcraft.Research.refreshResearchRecipe("HOVERHARNESS");
 
-// --- Thauostatic Girdle
+// --- Thaumostatic Girdle
 mods.thaumcraft.Research.refreshResearchRecipe("HOVERGIRDLE");
 
 // --- Runic Shielding
