@@ -1314,7 +1314,6 @@ mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBloc
 [<gregtech:gt.metaitem.01:17532>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:17532>],
 [<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:26>, <gregtech:gt.metaitem.01:17330>]]);
 mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14>);
-mods.thaumcraft.Warp.addToResearch("EMINENCESTONE", 1);
 
 // --- Portal to the Last Millennium
 mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "ARTIFICE", "alienis 200, sensus 200, terra 100, ignis 200 vacuos 200", -10, 13, 12, <ExtraUtilities:dark_portal:2>);
@@ -1326,7 +1325,7 @@ mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_pag
 game.setLocalization("en_US", "ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
 mods.thaumcraft.Infusion.addRecipe("PORTALMILLENIUM", <minecraft:clock>, [<ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>], "alienis 75, sensus 25, praecantatio 75, terra 25, vacuos 75",  <ExtraUtilities:dark_portal:2>, 4);
 mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark_portal:2>);
-mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 3);
+mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
 mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "ARTIFICE", "alienis 200, spiritus 200, metallum 100, fabrico 200 lucrum 200, potentia 200", -12, 13, 12, <ExtraUtilities:dark_portal>);
@@ -1350,10 +1349,9 @@ mods.thaumcraft.Research.addPage("MAGICALWOOD", "ExtraUtilities.research_page.MA
 game.setLocalization("en_US", "ExtraUtilities.research_page.MAGICALWOOD", "Magical Wood is an ingredient in the crafting of the Ender Core. It can be placed near an Enchantment Table to boost the level the table can enchant at by five levels. The amount of magical wood made from the crafting recipe depends on the strength of the enchantments on the Enchanted Books. For example, 4x Protection I gives a single piece of Magical Wood, whereas 4x Protection IV gives 14 pieces of wood.");
 mods.thaumcraft.Arcane.addShaped("MAGICALWOOD", MagicalWood * 4, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
 [SilverwoodLog, <TwilightForest:item.carminite>, GreatwoodLog],
-[<gregtech:gt.metaitem.01:17330>, <Automagy:blockBookshelfEnchanted>, <gregtech:gt.metaitem.01:17330>],
+[<gregtech:gt.metaitem.01:17330>, <minecraft:bookshelf>, <gregtech:gt.metaitem.01:17330>],
 [GreatwoodLog, <TwilightForest:item.carminite>, SilverwoodLog]]);
 mods.thaumcraft.Research.addArcanePage("MAGICALWOOD", MagicalWood);
-mods.thaumcraft.Warp.addToResearch("MAGICALWOOD", 2);
 
 // --- Angel Block
 mods.thaumcraft.Research.addResearch("ANGELBLOCK", "ARTIFICE", "aer 300, lucrum 200, ignis 100, terra 150", -8, 17, 12, <ExtraUtilities:angelBlock>);
@@ -1368,4 +1366,3 @@ mods.thaumcraft.Arcane.addShaped("ANGELBLOCK", <ExtraUtilities:angelBlock>, "aer
 [<IC2:itemDensePlates:7>, <Automagy:blockRunedObsidian>, <IC2:itemDensePlates:7>],
 [<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:29351>, <gregtech:gt.metaitem.01:17540>]]);
 mods.thaumcraft.Research.addArcanePage("ANGELBLOCK", <ExtraUtilities:angelBlock>);
-mods.thaumcraft.Warp.addToResearch("ANGELBLOCK", 3);
