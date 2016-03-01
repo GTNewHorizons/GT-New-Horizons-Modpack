@@ -52,7 +52,14 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoScubaHelmet.get(1L, new Object[0]), CustomItemList.IridiumAlloyItemCasing.get(2L, new Object[0]), CustomItemList.QuantumPartHelmetEmpty.get(1L, new Object[0]), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumPartHelmetEmpty.get(1L, new Object[0]), CustomItemList.ReinforcedGlassLense.get(8L, new Object[0]), CustomItemList.QuantumPartHelmet.get(1L, new Object[0]), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoPlatedLeggings.get(1L, new Object[0]), CustomItemList.IridiumAlloyItemCasing.get(2L, new Object[0]), CustomItemList.QuantumPartLeggings.get(1L, new Object[0]), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NagaScaleChip.get(4L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 4L, new Object[0]), Materials.Thaumium.getMolten(72L), CustomItemList.NagaScaleFragment.get(1L, new Object[0]), 200, 48);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NagaScaleFragment.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), Materials.Thaumium.getMolten(216L), GT_ModHandler.getModItem("TwilightForest", "item.nagaScale", 1L, 0), 200, 96);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.LichBoneChip.get(4L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 4L, new Object[0]), Materials.Thaumium.getMolten(72L), CustomItemList.LichBoneFragment.get(1L, new Object[0]), 250, 128);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.LichBoneFragment.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), Materials.Thaumium.getMolten(216L), CustomItemList.LichBone.get(1L, new Object[0]), 250, 256);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 4L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 2), CustomItemList.LichBone.get(1L, new Object[0]), 900, 256);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CarminiteChip.get(4L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 4L, new Object[0]), Materials.Thaumium.getMolten(72L), CustomItemList.CarminiteFragment.get(1L, new Object[0]), 350, 1024);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CarminiteFragment.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), Materials.Thaumium.getMolten(216L), GT_ModHandler.getModItem("TwilightForest", "item.carminite", 1L, 0), 350, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.SnowQueenBloodDrop.get(24L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 24L, new Object[0]), Materials.Thaumium.getMolten(216L), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 400, 4096);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 10L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 4), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 1800, 7680);
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
@@ -63,6 +70,8 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
             }
         }
+
+        GT_Values.RA.addCentrifugeRecipe(CustomItemList.FieryBloodDrop.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, Materials.FierySteel.getFluid(10L), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, null, 12, 512);
     }
              {
                  OrePrefixes.crafting.add(this);

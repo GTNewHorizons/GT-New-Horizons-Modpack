@@ -311,12 +311,12 @@ public class GT_Loader_Items
                         'W', AdvancedGTMaterials.UV.getCable()});
 		
 		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]),
-                GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-                new Object[]{"P Q", "PS ", "CPP",
-                        'Q', AdvancedGTMaterials.UV.getGem(),
-                        'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
-                        'P', OrePrefixes.plate.get(Materials.Osmium),
-                        'C', AdvancedGTMaterials.UV.getCircuit()});
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+				new Object[]{"P Q", "PS ", "CPP",
+						'Q', AdvancedGTMaterials.UV.getGem(),
+						'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
+						'P', OrePrefixes.plate.get(Materials.Osmium),
+						'C', AdvancedGTMaterials.UV.getCircuit()});
 
 
         //CoreMod Items
@@ -342,7 +342,15 @@ public class GT_Loader_Items
 		CustomItemList.SoulariumBars.set(com.dreammaster.item.ItemList.SoulariumBars.getIS());
 		CustomItemList.EnderiumBaseBars.set(com.dreammaster.item.ItemList.EnderiumBaseBars.getIS());
 		CustomItemList.EnderiumBars.set(com.dreammaster.item.ItemList.EnderiumBars.getIS());
-        CustomItemList.LichBone.set(com.dreammaster.item.ItemList.LichBone.getIS());
+		CustomItemList.NagaScaleChip.set(com.dreammaster.item.ItemList.NagaScaleChip.getIS());
+		CustomItemList.NagaScaleFragment.set(com.dreammaster.item.ItemList.NagaScaleFragment.getIS());
+		CustomItemList.LichBoneChip.set(com.dreammaster.item.ItemList.LichBoneChip.getIS());
+		CustomItemList.LichBoneFragment.set(com.dreammaster.item.ItemList.LichBoneFragment.getIS());
+		CustomItemList.LichBone.set(com.dreammaster.item.ItemList.LichBone.getIS());
+        CustomItemList.FieryBloodDrop.set(com.dreammaster.item.ItemList.FieryBloodDrop.getIS());
+		CustomItemList.CarminiteChip.set(com.dreammaster.item.ItemList.CarminiteChip.getIS());
+		CustomItemList.CarminiteFragment.set(com.dreammaster.item.ItemList.CarminiteFragment.getIS());
+		CustomItemList.SnowQueenBloodDrop.set(com.dreammaster.item.ItemList.SnowQueenBloodDrop.getIS());
 		CustomItemList.SnowQueenBlood.set(com.dreammaster.item.ItemList.SnowQueenBlood.getIS());
 		CustomItemList.AdvancedProcessorBoard.set(com.dreammaster.item.ItemList.AdvancedProcessorBoard.getIS());
 		CustomItemList.HighEnergyFlowCircuit.set(com.dreammaster.item.ItemList.HighEnergyFlowCircuit.getIS());

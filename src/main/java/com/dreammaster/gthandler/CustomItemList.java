@@ -74,7 +74,7 @@ public enum CustomItemList implements IItemContainer
 	RedstoneAlloyBars, ElectricalSteelBars, ConductiveIronBars, EnergeticAlloyBars, VibrantAlloyBars, PulsatingIronBars, SoulariumBars, EnderiumBaseBars, EnderiumBars,
 	PistonBlock, PistonPlate,ReinforcedGlassLense,
     StainlessSteelItemCasing, IridiumAlloyItemCasing,
-	LichBone, SnowQueenBlood,
+	NagaScaleChip, NagaScaleFragment, LichBoneChip, LichBoneFragment, LichBone, FieryBloodDrop, CarminiteChip, CarminiteFragment, SnowQueenBloodDrop, SnowQueenBlood,
 	AdvancedProcessorBoard, NanoProcessorBoard, QuantumProcessorBoard, EngravedQuantumChip, HighEnergyCircuitParts, HighEnergyFlowCircuit, NanoCircuit, PikoCircuit, QuantumCircuit,
     EngravedDiamondCrystalChip, EngravedEnergyChip,
 	CarbonPartBoots, CarbonPartChestplate, CarbonPartHelmet, CarbonPartHelmetNightVision, CarbonPartLeggings,
