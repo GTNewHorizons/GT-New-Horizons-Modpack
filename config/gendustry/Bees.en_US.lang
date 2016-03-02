@@ -54,6 +54,11 @@ gendustry.bees.species.Plutonium=Plutonium
 gendustry.bees.species.Naquada=Naquadah
 gendustry.bees.species.Naquadria=Naquadria
 gendustry.bees.species.DOB=D-O-B
+gendustry.bees.species.Naga=Naga
+gendustry.bees.species.Lich=Lich
+gendustry.bees.species.Hydra=Hydra
+gendustry.bees.species.UrGhast=Ur Ghast
+gendustry.bees.species.SnowQueen=Snow Queen
 
 
 gendustry.honeycomb.lignite.name=Lignite Comb
@@ -126,8 +131,17 @@ gendustry.honeycomb.plutonium.name=Plutonium Comb
 gendustry.honeycomb.naquada.name=Naquadah Comb
 gendustry.honeycomb.naquadria.name=Naquadria Comb
 gendustry.honeycomb.mutagencatalyst.name=Muta Gem
+gendustry.honeycomb.DOB.name=D-O-B Comb
+
+gendustry.honeycomb.naga.name=Naga Scale Comb
+gendustry.honeycomb.lich.name=Lich Bone Comb
+gendustry.honeycomb.hydra.name=Hydra Blood Comb
+gendustry.honeycomb.urghast.name=Ur Ghast Comb
+gendustry.honeycomb.snowqueen.name=Snow Queen Comb
+
 gendustry.honeydrop.oildrop.name=Oil Drop
 gendustry.honeydrop.smallmutagencatalyst.name=Muta Gem Catalyst
-gendustry.honeycomb.DOB.name=D-O-B Comb
 gendustry.honeydrop.coolantdrop.name=Coolant Drop
 gendustry.honeydrop.hotcoolantdrop.name=Hot Coolant Drop
+gendustry.honeydrop.hydrablooddrop.name=Hydra Blood Drop
+gendustry.honeydrop.snowqueenblooddrop.name=Snow Queen Blood Drop
