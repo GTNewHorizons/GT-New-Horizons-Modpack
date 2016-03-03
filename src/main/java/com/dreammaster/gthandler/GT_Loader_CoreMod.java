@@ -70,6 +70,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
             }
         }
+        GT_Values.RA.addFluidExtractionRecipe(GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), Materials.FierySteel.getFluid(200L), 1500, 1600, 2);
 
         GT_Values.RA.addCentrifugeRecipe(CustomItemList.FieryBloodDrop.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, Materials.FierySteel.getFluid(10L), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, null, 12, 512);
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1000), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 4), CustomItemList.NagaScaleChip.get(1L, new Object[0]), CustomItemList.NagaScaleFragment.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 800, 0, 0}, 120, 30);
@@ -78,6 +79,8 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1003), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 2), CustomItemList.CarminiteChip.get(1L, new Object[0]), CustomItemList.CarminiteFragment.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 800, 0, 0}, 120, 256);
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1004), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 3), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 1000, 0, 0}, 120, 480);
     }
+
+
                  {
                  OrePrefixes.crafting.add(this);
              }
