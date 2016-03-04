@@ -742,6 +742,12 @@ recipes.remove(<Railcraft:cart.track.layer>);
 // --- Track Remover Cart
 recipes.remove(<Railcraft:cart.track.remover>);
 
+// --- Fire Stone cut
+recipes.remove(<Railcraft:firestone.cut>);
+
+// --- Fire Stone cut
+recipes.remove(<Railcraft:firestone.refined:*>);
+
 
 
 // --- Add Recipes ---
@@ -1715,7 +1721,7 @@ SemiFluidGenerator.addFluid(<liquid:creosote> * 25, 8);
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}), 8);
 // -
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <gregtech:gt.metaitem.01:30712>, 8);
-
+// -
 furnace.setFuel(<Railcraft:fluid.creosote.bucket>, 6400);
 
 
