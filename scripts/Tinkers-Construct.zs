@@ -318,11 +318,8 @@ recipes.remove(<TConstruct:decoration.stoneladder>);
 // --- Punji Sticks ---
 recipes.remove(<TConstruct:trap.punji>);
 
-// --- Alluminium Nuggets
+// --- Aluminium Nuggets
 recipes.remove(<TConstruct:materials:22>);
-
-// --- Gold Blank Casting
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:blankPattern:2>);
 
 // --- Golden Apple
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:golden_apple>);
