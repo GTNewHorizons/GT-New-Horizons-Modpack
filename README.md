@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.7.6 is out (16.01.2016)(GT New Horizons Coremod 1.0.9) (GTTweaker 1.0.9)
+Version 1.0.7.7 is out (06.03.2016)(GT New Horizons Coremod 1.1.26) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.7.6 --- 16.01.2016<BR>
+## Modlist - NewHorizons 1.0.7.7 --- 06.03.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * AE2 Stuff	0.5.1.9<BR>
