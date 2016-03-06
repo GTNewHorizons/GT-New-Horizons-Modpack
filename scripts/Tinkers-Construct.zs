@@ -318,11 +318,8 @@ recipes.remove(<TConstruct:decoration.stoneladder>);
 // --- Punji Sticks ---
 recipes.remove(<TConstruct:trap.punji>);
 
-// --- Alluminium Nuggets
+// --- Aluminium Nuggets
 recipes.remove(<TConstruct:materials:22>);
-
-// --- Gold Blank Casting
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:blankPattern:2>);
 
 // --- Golden Apple
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:golden_apple>);
@@ -1701,20 +1698,22 @@ recipes.addShaped(<TConstruct:trap.punji> * 2, [
 [<minecraft:reeds>, <ore:stickWood>, <minecraft:reeds>]]);
 
 // --- Ball of Moss
-mods.thaumcraft.Research.addResearch("BALLOFMOSS", "ARTIFICE", "sano 100, terra 100, instrumentum 100", 13, 6, 12, <TConstruct:materials:6>);
+mods.thaumcraft.Research.addResearch("BALLOFMOSS", "ARTIFICE", "sano 15, terra 12, instrumentum 9", 10, 6, 4, <TConstruct:materials:6>);
 game.setLocalization("en_US", "tc.research_name.BALLOFMOSS", "Ball of Moss");
 game.setLocalization("en_US", "tc.research_text.BALLOFMOSS", "[TC] Your Tools repair itselfs.");
 mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "SILKYCRYSTAL", false);
+mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
 mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
 game.setLocalization("en_US", "TConstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.");
-mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>], "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
+mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, 
+[<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>],
+"sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
 mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
-mods.thaumcraft.Warp.addToResearch("BALLOFMOSS", 2);
 
 // --- Necrotic Bone
-mods.thaumcraft.Research.addResearch("NECROTICBONE", "ALCHEMY", "exanimis 100, mortuus 100, spiritus 100, venenum 100", -7, -1, 1, <TConstruct:materials:8>);
+mods.thaumcraft.Research.addResearch("NECROTICBONE", "ALCHEMY", "exanimis 15, mortuus 12, spiritus 9, venenum 6", -7, -1, 4, <TConstruct:materials:8>);
 game.setLocalization("en_US", "tc.research_name.NECROTICBONE", "Necrotic Bone");
 game.setLocalization("en_US", "tc.research_text.NECROTICBONE", "[TC] Evil way to make Wither Skeleton Bones.");
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "ENTROPICPROCESSING", false);
@@ -1724,28 +1723,27 @@ mods.thaumcraft.Research.addPage("NECROTICBONE", "TConstruct.research_page.NECRO
 game.setLocalization("en_US", "TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons.");
 mods.thaumcraft.Crucible.addRecipe("NECROTICBONE", <TConstruct:materials:8>, <minecraft:bone>, "exanimis 20, mortuus 30, infernus 20, spiritus 20, venenum 20, corpus 5");
 mods.thaumcraft.Research.addCruciblePage("NECROTICBONE", <TConstruct:materials:8>);
-mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 1);
+mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 2);
 
 // --- Silky Cloth and Jewel
-mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "ARTIFICE", "pannus 100, lucrum 100, instrumentum 100, aer 100, praecantatio 100", 13, 8, 12, <TConstruct:materials:26>);
+mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "ARTIFICE", "pannus 15, lucrum 2, instrumentum 9, aer 6, praecantatio 3", 7, 8, 4, <TConstruct:materials:26>);
 game.setLocalization("en_US", "tc.research_name.SILKYCRYSTAL", "Silky Jevel");
 game.setLocalization("en_US", "tc.research_text.SILKYCRYSTAL", "[TC] Silky magical.");
-mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "LAVACRYSTAL", false);
+mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.setRound("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.addPage("SILKYCRYSTAL", "TConstruct.research_page.SILKYCRYSTAL");
 game.setLocalization("en_US", "TConstruct.research_page.SILKYCRYSTAL", "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.");
 mods.thaumcraft.Arcane.addShaped("SILKYCRYSTAL", <TConstruct:materials:25>, "aer 30, aqua 25, ignis 15, terra 15, ordo 10, perditio 10", [
 [String, <ore:foilGold>, String],
-[<ore:foilGold>, <Forestry:craftingMaterial:3>, <ore:foilGold>],
+[<ore:foilGold>, <Thaumcraft:ItemResource:7>, <ore:foilGold>],
 [String, <ore:foilGold>, String]]);
 mods.thaumcraft.Research.addArcanePage("SILKYCRYSTAL", <TConstruct:materials:25>);
-mods.thaumcraft.Infusion.addRecipe("SILKYCRYSTAL", <minecraft:diamond_block>, [<TConstruct:materials:25>, <Thaumcraft:ItemShard>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:3>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:4>], "ignis 20, terra 20, ordo 35, praecantatio 35, vitreus 20", <TConstruct:materials:26>, 4);
+mods.thaumcraft.Infusion.addRecipe("SILKYCRYSTAL", <gregtech:gt.metaitem.02:29500>, [<TConstruct:materials:25>, <Thaumcraft:ItemShard>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:3>, <TConstruct:materials:25>, <Thaumcraft:ItemShard:4>], "ignis 20, terra 20, ordo 35, praecantatio 35, vitreus 20", <TConstruct:materials:26>, 4);
 mods.thaumcraft.Research.addInfusionPage("SILKYCRYSTAL", <TConstruct:materials:26>);
-mods.thaumcraft.Warp.addToResearch("SILKYCRYSTAL", 1);
 
 // --- Lava Crystal
-mods.thaumcraft.Research.addResearch("LAVACRYSTAL", "ARTIFICE", "ignis 100, praecantatio 100, vacuos 100, perditio 100", 12, 9, 12, <TConstruct:materials:7>);
+mods.thaumcraft.Research.addResearch("LAVACRYSTAL", "ARTIFICE", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 13, 8, 4, <TConstruct:materials:7>);
 game.setLocalization("en_US", "tc.research_name.LAVACRYSTAL", "Lava Crystal");
 game.setLocalization("en_US", "tc.research_text.LAVACRYSTAL", "[TC] Fiery magical.");
 mods.thaumcraft.Research.addPrereq("LAVACRYSTAL", "ENCHANTINGTABLE", false);
@@ -1753,12 +1751,13 @@ mods.thaumcraft.Research.setConcealed("LAVACRYSTAL", true);
 mods.thaumcraft.Research.setRound("LAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACRYSTAL");
 game.setLocalization("en_US", "TConstruct.research_page.LAVACRYSTAL", "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).");
-mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, [<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
+mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, 
+[<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], 
+"ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
 mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>);
-mods.thaumcraft.Warp.addToResearch("LAVACRYSTAL", 1);
 
 // --- Red Heart
-mods.thaumcraft.Research.addResearch("REDHEART", "ARTIFICE", "ignis 100, praecantatio 100, vacuos 100, perditio 100", 8, 4, 12, <TConstruct:heartCanister:1>);
+mods.thaumcraft.Research.addResearch("REDHEART", "ARTIFICE", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 8, 4, 4, <TConstruct:heartCanister:1>);
 game.setLocalization("en_US", "tc.research_name.REDHEART", "Red Heart");
 game.setLocalization("en_US", "tc.research_text.REDHEART", "[TC] 10 Hearts are not enough.");
 mods.thaumcraft.Research.addPrereq("REDHEART", "RUNICAUGMENTATION", false);
@@ -1778,7 +1777,7 @@ mods.thaumcraft.Research.addArcanePage("REDHEART", <TConstruct:heartCanister:2>)
 mods.thaumcraft.Warp.addToResearch("REDHEART", 1);
 
 // --- Yellow Heart
-mods.thaumcraft.Research.addResearch("YELLOWHEART", "ARTIFICE", "ignis 100, praecantatio 100, vacuos 100, perditio 100", 9, 3, 12, <TConstruct:heartCanister:3> );
+mods.thaumcraft.Research.addResearch("YELLOWHEART", "ARTIFICE", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 9, 3, 4, <TConstruct:heartCanister:3> );
 game.setLocalization("en_US", "tc.research_name.YELLOWHEART", "Yellow Heart");
 game.setLocalization("en_US", "tc.research_text.YELLOWHEART", "[TC] 20 Hearts are not enough.");
 mods.thaumcraft.Research.addPrereq("YELLOWHEART", "REDHEART", false);
@@ -1797,9 +1796,8 @@ mods.thaumcraft.Arcane.addShaped("YELLOWHEART", <TConstruct:heartCanister:4>, "a
 mods.thaumcraft.Research.addArcanePage("YELLOWHEART", <TConstruct:heartCanister:4>);
 mods.thaumcraft.Warp.addToResearch("YELLOWHEART", 2);
 
-
 // --- Green Heart
-mods.thaumcraft.Research.addResearch("GREENHEART", "ARTIFICE", "ignis 100, praecantatio 100, vacuos 100, perditio 100", 9, 1, 12, <TConstruct:heartCanister:5>);
+mods.thaumcraft.Research.addResearch("GREENHEART", "ARTIFICE", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 9, 1, 4, <TConstruct:heartCanister:5>);
 game.setLocalization("en_US", "tc.research_name.GREENHEART", "Green Heart");
 game.setLocalization("en_US", "tc.research_text.GREENHEART", "[TC] 30 Hearts are not enough.");
 mods.thaumcraft.Research.addPrereq("GREENHEART", "YELLOWHEART", false);

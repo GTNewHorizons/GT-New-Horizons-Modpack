@@ -675,7 +675,7 @@ recipes.addShaped(<EnderIO:blockReinforcedObsidian>, [
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate]]);
 
 // --- Coordinate Selector
-recipes.addShaped(<EnderIO:itemCoordSelector>, [
+recipes.addShaped(<EnderIO:itemCoordSelector>.withTag({"bc:x": 0, default: 1 as byte, "bc:y": 0, "bc:z": 0}) [
 [ESteelPlate, EnderEye, ESteelPlate],
 [PIPlate, Compass, PIPlate],
 [ESteelPlate, EnderEye, ESteelPlate]]);

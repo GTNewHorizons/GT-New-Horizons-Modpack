@@ -47,7 +47,7 @@ mods.thaumcraft.Arcane.addShaped("CAP_copper", <dreamcraft:item.CopperWandCap>, 
 [<ore:screwSteel>, <ore:foilCopper>, <ore:screwSteel>]]);
 mods.thaumcraft.Research.addArcanePage("CAP_copper", <dreamcraft:item.CopperWandCap>);
 // -
-mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 5, metallum 5, permutatio 10");
+mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 3, metallum 6, permutatio 6");
 mods.thaumcraft.Research.setComplexity("CAP_copper", 1);
 
 // --- Copper Caped Wooden Wand
@@ -76,7 +76,7 @@ mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ord
 [<ore:screwAluminium>, <ore:foilGold>, <ore:screwAluminium>]]);
 mods.thaumcraft.Research.addArcanePage("CAP_gold", <dreamcraft:item.GoldWandCap>);
 // -
-mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 10, metallum 15, lucrum 10");
+mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 9, metallum 6, lucrum 3");
 mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
 
 // --- Golden Caped Wooden Wand
@@ -185,7 +185,7 @@ mods.thaumcraft.Infusion.addRecipe("CAP_thaumium", <Thaumcraft:WandCap:6>,
 "auram 25, potentia 40, praecantatio 25", <dreamcraft:item.ChargedThaumiumWandCap>, 5);
 mods.thaumcraft.Research.addInfusionPage("CAP_thaumium", <dreamcraft:item.ChargedThaumiumWandCap>);
 // -
-mods.thaumcraft.Research.setAspects("CAP_thaumium", "instrumentum 20, aurum 15, metallum 35, praecantatio 5");
+mods.thaumcraft.Research.setAspects("CAP_thaumium", "instrumentum 6, auram 9, metallum 12, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CAP_thaumium", 3);
 // -
 mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCasting:6>.withTag({cap: "thaumium", rod: "wood"}));
@@ -276,7 +276,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:6>.withTag({cap: "silver", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedThaumiumWandCap>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwAluminium>, null]]);
 // -
-mods.thaumcraft.Research.setAspects("SCEPTRE", "instrumentum 50, fabrico 40, abor 30, praecantatio 20, cognitio 10");
+mods.thaumcraft.Research.setAspects("SCEPTRE", "instrumentum 12, fabrico 12, arbor 9, praecantatio 6, cognitio 3");
 mods.thaumcraft.Research.setComplexity("SCEPTRE", 3);
 // -
 mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}));
@@ -294,7 +294,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandRod> , "aer 20
 // -
 mods.thaumcraft.Research.addArcanePage("ROD_greatwood", <Thaumcraft:WandRod>);
 // -
-mods.thaumcraft.Research.setAspects("ROD_greatwood", "instrumentum 20, praecantatio 10, arbor 15");
+mods.thaumcraft.Research.setAspects("ROD_greatwood", "instrumentum 9, praecantatio 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_greatwood", 2);
 
 // --- Iron Capped Greatwood Wand
@@ -469,7 +469,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_reed", <TConstruct:trap.punji>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal>], 
 "aer 24, motus 12, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:5>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_reed", "instrumentum 25, praecantatio 20, aer 15, herba 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_reed", "instrumentum 9, praecantatio 9, aer 6, herba 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_reed", 2);
 
 // --- Iron Capped Reed Wand
@@ -644,7 +644,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>], 
 "bestia 12, ignis 24, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:6>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_blaze", "instrumentum 25, praecantatio 20, aer 15, herba 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_blaze", "instrumentum 9, praecantatio 9, aer 6, herba 6, arbor 35");
 mods.thaumcraft.Research.setComplexity("ROD_blaze", 2);
 
 // --- Iron Capped Blazing Wand
@@ -817,7 +817,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_obsidian", <TConstruct:toolRod:6>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:3>], 
 " praecantatio 12, tenebrae 12, terra 24, vitreus 6", <Thaumcraft:WandRod:1>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_obsidian", "instrumentum 25, praecantatio 20, ignis 15, potentia 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_obsidian", "instrumentum 9, praecantatio 9, ignis 6, potentia 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_obsidian", 2);
 
 // --- Iron Capped Obsidian Wand
@@ -990,7 +990,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_ice", <BiomesOPlenty:hardIce>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:2>], 
 " aqua 24, gelum 12, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:3>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_ice", "instrumentum 25, praecantatio 20, aqua 15, gelum 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_ice", "instrumentum 9, praecantatio 9, aqua 6, gelum 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_ice", 2);
 
 // --- Iron Capped Icy Wand
@@ -1163,7 +1163,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_quartz", <dreamcraft:item.ChargedCertusQ
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>], 
 " ordo 24, praecantatio 12, potentia 12, vitreus 6", <Thaumcraft:WandRod:4>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_quartz", "instrumentum 25, praecantatio 20, terra 15, ordo 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_quartz", "instrumentum 9, praecantatio 9, terra 6, ordo 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_quartz", 2);
 
 // --- Iron Capped Quartz Wand
@@ -1336,7 +1336,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_bone", <TConstruct:toolRod:5>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:5>], 
 " exanimis 12, perditio 24, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:7>, 3);
 // -
-mods.thaumcraft.Research.setAspects("ROD_bone", "instrumentum 25, praecantatio 20, exanimis 15, perditio 10, arbor 5");
+mods.thaumcraft.Research.setAspects("ROD_bone", "instrumentum 9, praecantatio 9, exanimis 6, perditio 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_bone", 2);
 mods.thaumcraft.Warp.addToResearch("ROD_bone", 1);
 

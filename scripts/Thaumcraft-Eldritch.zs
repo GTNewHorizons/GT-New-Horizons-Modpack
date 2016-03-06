@@ -20,7 +20,7 @@ recipes.remove(<Thaumcraft:WandCap>);
 // --- Basic Wand
 recipes.remove(<Thaumcraft:WandCasting>);
 
-// --- Greatwood Rod
+// --- Wand Rod
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
 
 // --- Wand Cores
@@ -121,7 +121,7 @@ mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Thaumcraft:ItemResource:16>, <T
 mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.2");
 // -
-mods.thaumcraft.Research.setAspects("VOIDMETAL", "vacuos 55, metalum 45, tenebrae 35, alienis 25, gelum 15, terra 5");
+mods.thaumcraft.Research.setAspects("VOIDMETAL", "vacuos 12, metallum 12, tenebrae 9, alienis 9, gelum 6, terra 3");
 mods.thaumcraft.Research.setComplexity("VOIDMETAL", 3);
 mods.thaumcraft.Warp.addToResearch("VOIDMETAL", 1);
 
@@ -229,7 +229,7 @@ mods.thaumcraft.Infusion.addRecipe("CAP_void", <Thaumcraft:WandCap:8>,
 "alienis 32, auram 32, potentia 32, vacuos 32", <dreamcraft:item.ChargedVoidWandCap>, 8);
 mods.thaumcraft.Research.addInfusionPage("CAP_void", <dreamcraft:item.ChargedVoidWandCap>);
 // -
-mods.thaumcraft.Research.setAspects("CAP_void", "auram 65, vacuos 55, alienis 45, praecantatio 35, instrumentum 25, terra 15, tenebrae 5");
+mods.thaumcraft.Research.setAspects("CAP_void", "auram 12, vacuos 12, alienis 9, praecantatio 9, instrumentum 6, terra 6, tenebrae 3");
 mods.thaumcraft.Research.setComplexity("CAP_void", 3);
 
 // --- Void Aspected Wooden Wand
@@ -1043,7 +1043,6 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:189>.withTag
 [<ore:screwTungstenSteel>, <Thaumcraft:WandCasting:126>.withTag({cap: "thaumium", rod: "obsidian_staff", sceptre: 1}), <dreamcraft:item.ChargedVoidWandCap>],
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwTungstenSteel>, null]]);
 
-
 // --- Void Aspected Icy Staff Wand
 mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandCasting:126>.withTag({cap: "void", rod: "ice_staff"}), "aer 135, terra 135, ignis 135, aqua 135, ordo 135, perditio 135", [
 [<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedVoidWandCap>],
@@ -1297,7 +1296,7 @@ mods.thaumcraft.Infusion.addRecipe("ESSENTIARESERVOIR", <Thaumcraft:blockTube:4>
 [<dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>], 
 "aqua 16, permutatio 16, praecantatio 16, vacuos 16", <Thaumcraft:blockEssentiaReservoir>, 8);
 // -
-mods.thaumcraft.Research.setAspects("ESSENTIARESERVOIR", "aqua 55, permutatio 45, praecantatio 35, vacuos 25, alienis 15, tenebrae 5");
+mods.thaumcraft.Research.setAspects("ESSENTIARESERVOIR", "aqua 12, permutatio 12, praecantatio 9, vacuos 9, alienis 6, tenebrae 3");
 mods.thaumcraft.Research.setComplexity("ESSENTIARESERVOIR", 3);
 
 // --- Wand Focus Primal
@@ -1306,7 +1305,7 @@ mods.thaumcraft.Arcane.addShaped("FOCUSPRIMAL", <Thaumcraft:FocusPrimal>, "aqua 
 [<Thaumcraft:blockCrystal:2> ,<Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <ore:gemExquisiteDiamond>]]);
 // -
-mods.thaumcraft.Research.setAspects("FOCUSPRIMAL", "aqua 75, ignis 65, aer 55, terra 45, ordo 35, perditio 25, praecantatio 15, alienis 5");
+mods.thaumcraft.Research.setAspects("FOCUSPRIMAL", "aqua 12, ignis 12, aer 12, terra 9, ordo 9, perditio 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("FOCUSPRIMAL", 4);
 
 // --- Staff Core of the Primal
@@ -1314,7 +1313,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_primal_staff", <Thaumcraft:WandRod:2>,
 [<Thaumcraft:ItemResource:15>, <Thaumcraft:WandRod:1>, <Thaumcraft:WandRod:3>, <Thaumcraft:WandRod:4>, <Thaumcraft:ItemResource:15>, <Thaumcraft:WandRod:5>, <Thaumcraft:WandRod:6>, <Thaumcraft:WandRod:7>],
 "aer 64, aqua 64, terra 64, ignis 64, ordo 64, perditio 64, praecantatio 128", <Thaumcraft:WandRod:100>, 10);
 // -
-mods.thaumcraft.Research.setAspects("ROD_primal_staff", "aqua 85, ignis 75, aer 65, terra 55, ordo 45, perditio 35, praecantatio 25, instrumentum 15, alienis 5");
+mods.thaumcraft.Research.setAspects("ROD_primal_staff", "aqua 15, ignis 15, aer 12, terra 12, ordo 12, perditio 9, praecantatio 9, instrumentum 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ROD_primal_staff", 4);
 
 // --- Iron Capped Primal Staff
@@ -1549,7 +1548,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemHelmetVo
 [<Thaumcraft:ItemGoggles>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
 "alienis 24, metallum 24, pannus 24, sensus 24, tutamen 24, vacuos 24, praecantatio 24", <Thaumcraft:ItemHelmetVoidFortress>, 8);
 // -
-mods.thaumcraft.Research.setAspects("ARMORVOIDFORTRESS", "vacuos 85, tenebrae 75, tutamen 65, pannus 55, alienis 45, praecantatio 35, sensus 25, metallum 15");
+mods.thaumcraft.Research.setAspects("ARMORVOIDFORTRESS", "vacuos 15, tenebrae 15, tutamen 12, pannus 12, alienis 9, praecantatio 9, sensus 6, metallum 3");
 mods.thaumcraft.Research.setComplexity("ARMORVOIDFORTRESS", 4);
 
 // --- Void Thaumaturge Roob
@@ -1567,7 +1566,7 @@ mods.thaumcraft.Infusion.addRecipe("SANITYCHECK", <Thaumcraft:ItemThaumometer>,
 [<Thaumcraft:blockMirror>, <gregtech:gt.metaitem.01:27330>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:27330>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:27330>],
 "alienis 16, cognitio 32, sensus 24, sano 16", <Thaumcraft:ItemSanityChecker>, 5);
 // -
-mods.thaumcraft.Research.setAspects("SANITYCHECK", "sensus 65, cognitio 55, alienis 45, praecantatio 35, sano 25, victus 15");
+mods.thaumcraft.Research.setAspects("SANITYCHECK", "sensus 12, cognitio 12, alienis 12, praecantatio 9, sano 6, victus 3");
 mods.thaumcraft.Research.setComplexity("SANITYCHECK", 3);
 
 // --- Eldritch Eye
@@ -1575,7 +1574,7 @@ mods.thaumcraft.Infusion.addRecipe("OCULUS", <StevesCarts:ModuleComponents:45>,
 [<minecraft:ender_eye>, <Thaumcraft:ItemResource:17>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:ItemResource:17>, <minecraft:ender_eye>, <Thaumcraft:ItemResource:17>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:ItemResource:17>],
 "alienis 64, iter 32, tenebrae 32, vacuos 32", <Thaumcraft:ItemEldritchObject>, 7);
 // -
-mods.thaumcraft.Research.setAspects("OCULUS", "alienis 65, cognitio 55, tenebrae 45, iter 35, permutatio 25, vitium 15, praecantatio 5");
+mods.thaumcraft.Research.setAspects("OCULUS", "alienis 12, cognitio 12, tenebrae 9, iter 9, permutatio 9, vitium 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("OCULUS", 3);
 
 // --- Primal Crusher
@@ -1583,7 +1582,7 @@ mods.thaumcraft.Infusion.addRecipe("PRIMALCRUSHER", <Thaumcraft:ItemEldritchObje
 [<Thaumcraft:ItemResource:15>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemShovelVoid>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:ItemShovelElemental>],
 "alienis 24, instrumentum 24, lucrum 24, perditio 24, perfodio 24, telum 24, vacuos 24", <Thaumcraft:ItemPrimalCrusher>, 10);
 // -
-mods.thaumcraft.Research.setAspects("PRIMALCRUSHER", "praecantatio 75, alienis 65, instrumentum 55, lucrum 45, perd 35, perfodio 25, telum 15, vacuos 5");
+mods.thaumcraft.Research.setAspects("PRIMALCRUSHER", "praecantatio 12, alienis 12, instrumentum 12, lucrum 9, perditio 9, perfodio 9, telum 6, vacuos 3");
 mods.thaumcraft.Research.setComplexity("PRIMALCRUSHER", 3);
 
 // --- Advanced Alchemical Construct
@@ -1592,7 +1591,7 @@ mods.thaumcraft.Arcane.addShaped("ADVALCHEMYFURNACE", <Thaumcraft:blockMetalDevi
 [<Thaumcraft:blockMetalDevice:9> ,<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockMetalDevice:9>],
 [<ore:plateVoid>, <Thaumcraft:blockMetalDevice:9>, <ore:plateVoid>]]);
 // -
-mods.thaumcraft.Research.setAspects("ADVALCHEMYFURNACE", "perditio 55, auram 45, aer 35, ordo 25, praecantatio 15, alienis 5");
+mods.thaumcraft.Research.setAspects("ADVALCHEMYFURNACE", "perditio 12, auram 12, aer 9, ordo 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ADVALCHEMYFURNACE", 3);
 
 
