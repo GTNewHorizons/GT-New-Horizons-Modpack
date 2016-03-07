@@ -170,6 +170,9 @@ val Shears = <minecraft:shears>;
 
 
 
+// --- QED Recipes remove ALL
+mods.extraUtils.QED.removeRecipe(<*>);
+
 // --- Ender Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
 
@@ -560,6 +563,13 @@ mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
 
 // --- Add Recipes ---
 
+
+
+// --- Molecular Transformer from Advanced Solar Panels Mod
+mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransformer>, [
+[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>],
+[<IC2:itemPartCircuitAdv>, <AdvancedSolarPanel:asp_crafting_items:12>, <IC2:itemPartCircuitAdv>],
+[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>]]);
 
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
