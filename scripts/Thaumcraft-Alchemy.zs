@@ -113,6 +113,9 @@ recipes.remove(<Thaumcraft:ItemResource:3>);
 // -
 recipes.remove(<Thaumcraft:ItemNugget:5>);
 
+// --- Thaumium
+//mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
+
 
 
 
@@ -378,6 +381,9 @@ mods.thaumcraft.Research.setAspects("BOTTLETAINT", "vitium 12, praecantatio 12, 
 mods.thaumcraft.Research.setComplexity("BOTTLETAINT", 3);
 mods.thaumcraft.Warp.addToResearch("BOTTLETAINT", 5);
 mods.thaumcraft.Warp.addToItem(<Thaumcraft:ItemBottleTaint>, 1);
+
+// --- Thaumium
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ore:ingotIron>, "praecantatio 4");
 
 
 
