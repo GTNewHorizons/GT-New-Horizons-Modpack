@@ -1,4 +1,5 @@
 // --- Created by DreamMasterXXL ---
+// --- Forestry 4 tweaks by Lefty ---
 
 
 // --- Imports ---
@@ -94,9 +95,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500,
 
 // --- Alveary Light
 mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 7500, 
-[<Forestry:thermionicTubes:2>, <Forestry:stained:*>, <Forestry:thermionicTubes:2>, 
-<Forestry:stained:*>, <minecraft:redstone_lamp>, <Forestry:stained:*>, 
-<Forestry:thermionicTubes:2>, <Forestry:stained:*>, <Forestry:thermionicTubes:2>], 
+[<Forestry:thermionicTubes:2>, <minecraft:stained_glass:*>, <Forestry:thermionicTubes:2>, 
+<minecraft:stained_glass:*>, <minecraft:redstone_lamp>, <minecraft:stained_glass:*>, 
+<Forestry:thermionicTubes:2>, <minecraft:stained_glass:*>, <Forestry:thermionicTubes:2>], 
 <Forestry:alveary>, <ExtraBees:alveary:3>);
 
 
