@@ -200,14 +200,14 @@ mods.thaumcraft.Research.setComplexity("MB_VisAuraProvider", 4);
 mods.thaumcraft.Research.setConcealed("MB_VisAuraProvider", true);
 mods.thaumcraft.Warp.addToResearch("MB_VisAuraProvider", 2);
 mods.thaumcraft.Research.addPage("MB_VisAuraProvider", "tc.research_page.MB_VisAuraProvider.1");
-mods.thaumcraft.Arcane.addShaped("MB_VisAuraProvider", <MagicBees:visAuraProvider>, "ordo 100, aqua 100, aer 100, perditio 100", [
+mods.thaumcraft.Arcane.addShaped("MB_VisAuraProvider", <MagicBees:visAuraProvider>, "ordo 75, aqua 75, aer 75, perditio 75", [
 [<MagicBees:pollen:1>, <Thaumcraft:blockWoodenDevice:5>, <MagicBees:pollen>],
 [<Thaumcraft:blockWoodenDevice:5>, <Thaumcraft:blockMetalDevice:2>, <Thaumcraft:blockWoodenDevice:5>],
 [<gregtech:gt.metaitem.02:23086>, <gregtech:gt.blockmachines:4182>, <gregtech:gt.metaitem.02:23086>]]);
 mods.thaumcraft.Research.addArcanePage("MB_VisAuraProvider", <MagicBees:visAuraProvider>);
 
 // --- Concentrated Compound
-mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPOUND", "MAGICBEES", "messis 75, sano 75, vitreus 50, perditio 50", 2, -3, 4, <MagicBees:miscResources:2>);
+mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPOUND", "MAGICBEES", "messis 15, sano 12, vitreus 9, perditio 6", 2, -3, 4, <MagicBees:miscResources:2>);
 game.setLocalization("en_US", "tc.research_name.CONCENTRATEDCOMPOUND", "Concentrated Compound");
 game.setLocalization("en_US", "tc.research_text.CONCENTRATEDCOMPOUND", "[MB] Concentrated Compound.");
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_Root", false);
@@ -395,7 +395,7 @@ mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "or
 [<gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>],
 [<gregtech:gt.metatool.01:26>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metatool.01:12>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
-mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 10, terra 10, aer 10");
+mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 9, terra 6, aer 3");
 mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
 
 // --- Thaumic Grafter
@@ -406,11 +406,11 @@ mods.thaumcraft.Arcane.addShaped("MB_Grafter", <MagicBees:item.thaumiumGrafter>,
 [<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:23330>, null],
 [<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <gregtech:gt.metatool.01:12>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGrafter>);
-mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 15, terra 15, aer 15");
+mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
 // --- Enchanted Earth
-mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 200, victus 200, sano 100, ordo 200", 5, -2, 12, <MagicBees:magicbees.enchantedEarth>);
+mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -2, 2, <MagicBees:magicbees.enchantedEarth>);
 game.setLocalization("en_US", "tc.research_name.ENCHANTEDEARTH", "Enchanted Earth");
 game.setLocalization("en_US", "tc.research_text.ENCHANTEDEARTH", "[MC] Magical Dirt");
 mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
