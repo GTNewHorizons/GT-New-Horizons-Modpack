@@ -405,7 +405,7 @@ recipes.remove(<Forestry:apiculture:2>);
 recipes.remove(<Forestry:apiculture>);
 
 // --- Apiarys Chest
-recipes.remove(<Forestry:apiculture:1>);
+recipes.remove(<Forestry:apicultureChest>);
 
 // --- Alveary
 recipes.remove(<Forestry:alveary>);
@@ -618,13 +618,13 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000,
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
-<minecraft:chest>, <Forestry:apiculture:1>);
+<minecraft:chest>, <Forestry:apicultureChest>);
 // -
 mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
-<minecraft:chest>, <Forestry:apiculture:1>);
+<minecraft:chest>, <Forestry:apicultureChest>);
 
 // --- Arborits Chest
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
@@ -1671,7 +1671,7 @@ null, <Forestry:crate> * 4);
 
 // --- Apiarists Backpack
 recipes.addShaped(<Forestry:apiaristBag>, [
-[<harvestcraft:wovencottonItem>, <Forestry:apiculture:1>, <harvestcraft:wovencottonItem>],
+[<harvestcraft:wovencottonItem>, <Forestry:apicultureChest>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
 [<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
 
