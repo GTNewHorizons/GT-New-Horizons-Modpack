@@ -1386,7 +1386,7 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 250,
 null, <Forestry:frameImpregnated>);
 
 // --- Proven Frame
-mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 200, fabrico 200, cognitio 100, potentia 200", -1, 6, 10, <Forestry:frameProven>);
+mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", -1, 6, 4, <Forestry:frameProven>);
 game.setLocalization("en_US", "tc.research_name.PROVENFRAME", "Proven Frame");
 game.setLocalization("en_US", "tc.research_text.PROVENFRAME", "[FR] Better than Impregnated Frames");
 mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_DimensionalSingularity", false);
@@ -1400,14 +1400,16 @@ mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15
 mods.thaumcraft.Research.addArcanePage("PROVENFRAME", <Forestry:frameProven>);
 
 // --- Proven Grafter
-mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 200, permutatio 200, metallum 200, arbor 200", -5, -3, 10, <Forestry:grafterProven>);
+mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 15, permutatio 12, metallum 9, arbor 6", -5, -3, 4, <Forestry:grafterProven>);
 game.setLocalization("en_US", "tc.research_name.PROVENGRAFTER", "Proven Grafter");
 game.setLocalization("en_US", "tc.research_text.PROVENGRAFTER", "[FR] Better than a Bronze Grafter");
 mods.thaumcraft.Research.addPrereq("PROVENGRAFTER", "MB_Scoop", false);
 mods.thaumcraft.Research.setConcealed("PROVENGRAFTER", true);
 mods.thaumcraft.Research.addPage("PROVENGRAFTER", "Forestry.research_page.PROVENGRAFTER");
 game.setLocalization("en_US", "Forestry.research_page.PROVENGRAFTER", "The Proven Grafter is significantly stronger than the Bronze Grafter and can be obtained by trading with villagers. Like its counterparts the Bronze Grafter and the Thaumium Grafter it makes it possible for one to achieve a 100% sapling drop rate from trees that have been bred with the Forestry mod.<BR> It does not work on ordinary trees, and when it breaks the last hit does not retrieve a sapling.<BR> Now you find a magical way to infuse a bronze Grafter with saplings and pollen to get a proven one.");
-mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, [<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], "instrumentum 50, permutatio 50, metallum 40, arbor 20", <Forestry:grafterProven>, 3);
+mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, 
+[<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], 
+"instrumentum 25, permutatio 25, metallum 20, arbor 10", <Forestry:grafterProven>, 3);
 mods.thaumcraft.Research.addInfusionPage("PROVENGRAFTER", <Forestry:grafterProven>);
 
 // --- Candle
