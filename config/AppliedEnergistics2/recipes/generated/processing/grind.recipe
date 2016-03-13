@@ -1,4 +1,0 @@
-grind= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
-grind= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
-grind= mc:gravel -> mc:flint
-grind= mc:bone -> 4 mc:dye:15

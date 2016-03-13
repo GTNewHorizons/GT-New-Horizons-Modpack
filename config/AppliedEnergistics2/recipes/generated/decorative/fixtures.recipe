@@ -1,7 +1,0 @@
-shaped=
-    ae2:ItemMaterial.CertusQuartzCrystalCharged mc:iron_ingot
-    -> 2 ae2:BlockQuartzTorch
-
-shaped=
-    netherCrystal mc:iron_ingot
-    -> ae2:BlockLightDetector

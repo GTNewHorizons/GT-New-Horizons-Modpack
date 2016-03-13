@@ -1,9 +1,0 @@
-hccrusher= ae2:ItemMaterial.FluixCrystal -> ae2:ItemMaterial.FluixDust
-hccrusher= ae2:BlockSkyStone:0 -> ae2:ItemMaterial.SkyDust
-hccrusher= mc:ender_pearl -> ae2:ItemMaterial.EnderDust
-hccrusher= oredictionary:cropWheat -> ae2:ItemMaterial.Flour
-hccrusher= ae2:ItemMaterial.CertusQuartzCrystalCharged -> ae2:ItemMaterial.CertusQuartzDust
-hccrusher= ae2:ItemMaterial.CertusQuartzCrystal -> ae2:ItemMaterial.CertusQuartzDust
-hccrusher= mc:quartz -> ae2:ItemMaterial.NetherQuartzDust
-hccrusher= ae2:OreQuartz -> 2 ae2:ItemMaterial.CertusQuartzDust
-hccrusher= ae2:OreQuartzCharged -> 2 ae2:ItemMaterial.CertusQuartzDust

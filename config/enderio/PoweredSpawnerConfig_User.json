@@ -1,9 +1,0 @@
-{
-
-  // New entities are added, one already in _Core will have their values replaced with those in this file
-  "costMultiplier": {
-  }
-
-  // Adding a blackList section will completely replace the one in the core file.
-
-}
