@@ -450,7 +450,13 @@ mods.forestry.Carpenter.removeRecipe(<Forestry:flutterlyzer>);
 
 // --- Fence
 recipes.remove(<Forestry:fences:*>);
-// -
+
+
+// --- Carts ---
+
+
+// --- Minecart with Bee House/Apiary
+recipes.remove(<Forestry:cart.beehouse:*>);
 
 
 
@@ -2754,6 +2760,29 @@ recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expan
 
 
 
+// --- Carts ---
+
+
+
+// --- Minecart with Bee House
+recipes.addShaped(<Forestry:cart.beehouse>, [
+[null, <gregtech:gt.metatool.01:22>, null],
+[<ore:screwSteel>, <Forestry:apiculture:2>, <ore:screwSteel>],
+[<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
+
+// --- Minecart with Apiary
+recipes.addShaped(<Forestry:cart.beehouse:1>, [
+[null, <gregtech:gt.metatool.01:22>, null],
+[<ore:screwSteel>, <Forestry:apiculture>, <ore:screwSteel>],
+[<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
+
+// --- Minecart back
+recipes.addShapeless(<minecraft:minecart>, [<Forestry:cart.beehouse>]);
+// -
+recipes.addShapeless(<minecraft:minecart>, [<Forestry:cart.beehouse:1>]);
+
+
+
 
 // --- Add Fuels ---
 
@@ -2822,3 +2851,9 @@ Assembler.addRecipe(<Forestry:apiaristLegs>, <Forestry:craftingMaterial:3> * 7, 
 
 // --- Apiarists Shoes
 Assembler.addRecipe(<Forestry:apiaristBoots>, <Forestry:craftingMaterial:3> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 64);
+
+// --- Cart with Bee House
+Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraft:minecart>, 200, 16);
+
+// --- Cart with Apiary
+Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
