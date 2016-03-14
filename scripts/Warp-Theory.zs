@@ -88,7 +88,7 @@ mods.thaumcraft.Research.setAspects("warptheory.amulet", "alienis 15, auram 15, 
 mods.thaumcraft.Research.setComplexity("warptheory.amulet", 4);
 
 // --- Warp Warning
-mods.thaumcraft.Research.addResearch("WARPWARNING", "WT_Category", "null", 0, -2, 1, <minecraft:skull:1>);
+mods.thaumcraft.Research.addResearch("WARPWARNING", "NEWHORIZONS", "null", -2, 0, 1, <minecraft:skull:1>);
 game.setLocalization("en_US", "tc.research_name.WARPWARNING", "Warp Warnings");
 game.setLocalization("en_US", "tc.research_text.WARPWARNING", "[WT] Wither in the Overworld");
 mods.thaumcraft.Research.setAutoUnlock("WARPWARNING", true);
