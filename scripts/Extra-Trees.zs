@@ -755,7 +755,7 @@ recipes.addShaped(<ExtraTrees:door:46>.withTag({meta: 46}), [
 recipes.addShaped(<ExtraTrees:door:46>.withTag({meta: 46}), [
 [<ExtraTrees:planks:14>.withTag({meta: 14}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
 [<ExtraTrees:planks:14>.withTag({meta: 14}), <ore:ringCopper>, <ore:screwCopper>],
-[<ExtraTrees:planks:14>.withTag({meta: 14}), <ExtraTrees:planks:14>.withTag({meta: 13}), <ore:craftingToolSaw>]]);
+[<ExtraTrees:planks:14>.withTag({meta: 14}), <ExtraTrees:planks:14>.withTag({meta: 14}), <ore:craftingToolSaw>]]);
 
 // --- Solid Apple Wood Door
 recipes.addShaped(<ExtraTrees:door:302>.withTag({meta: 302}), [
@@ -784,7 +784,7 @@ recipes.addShaped(<ExtraTrees:door:47>.withTag({meta: 47}), [
 recipes.addShaped(<ExtraTrees:door:47>.withTag({meta: 47}), [
 [<ExtraTrees:planks:15>.withTag({meta: 15}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
 [<ExtraTrees:planks:15>.withTag({meta: 15}), <ore:ringCopper>, <ore:screwCopper>],
-[<ExtraTrees:planks:15>.withTag({meta: 15}), <ExtraTrees:planks:15>.withTag({meta: 13}), <ore:craftingToolSaw>]]);
+[<ExtraTrees:planks:15>.withTag({meta: 15}), <ExtraTrees:planks:15>.withTag({meta: 15}), <ore:craftingToolSaw>]]);
 
 // --- Solid Yew Wood Door
 recipes.addShaped(<ExtraTrees:door:303>.withTag({meta: 303}), [
@@ -813,7 +813,7 @@ recipes.addShaped(<ExtraTrees:door:48>.withTag({meta: 48}), [
 recipes.addShaped(<ExtraTrees:door:48>.withTag({meta: 48}), [
 [<ExtraTrees:planks:16>.withTag({meta: 16}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
 [<ExtraTrees:planks:16>.withTag({meta: 16}), <ore:ringCopper>, <ore:screwCopper>],
-[<ExtraTrees:planks:16>.withTag({meta: 16}), <ExtraTrees:planks:16>.withTag({meta: 13}), <ore:craftingToolSaw>]]);
+[<ExtraTrees:planks:16>.withTag({meta: 16}), <ExtraTrees:planks:16>.withTag({meta: 16}), <ore:craftingToolSaw>]]);
 
 // --- Solid Pear Wood Door
 recipes.addShaped(<ExtraTrees:door:304>.withTag({meta: 304}), [
@@ -842,7 +842,7 @@ recipes.addShaped(<ExtraTrees:door:49>.withTag({meta: 49}), [
 recipes.addShaped(<ExtraTrees:door:49>.withTag({meta: 49}), [
 [<ExtraTrees:planks:17>.withTag({meta: 17}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
 [<ExtraTrees:planks:17>.withTag({meta: 17}), <ore:ringCopper>, <ore:screwCopper>],
-[<ExtraTrees:planks:17>.withTag({meta: 17}), <ExtraTrees:planks:17>.withTag({meta: 13}), <ore:craftingToolSaw>]]);
+[<ExtraTrees:planks:17>.withTag({meta: 17}), <ExtraTrees:planks:17>.withTag({meta: 17}), <ore:craftingToolSaw>]]);
 
 // --- Solid Hawthorn Wood Door
 recipes.addShaped(<ExtraTrees:door:305>.withTag({meta: 305}), [
@@ -871,7 +871,7 @@ recipes.addShaped(<ExtraTrees:door:50>.withTag({meta: 50}), [
 recipes.addShaped(<ExtraTrees:door:50>.withTag({meta: 50}), [
 [<ExtraTrees:planks:18>.withTag({meta: 18}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
 [<ExtraTrees:planks:18>.withTag({meta: 18}), <ore:ringCopper>, <ore:screwCopper>],
-[<ExtraTrees:planks:18>.withTag({meta: 18}), <ExtraTrees:planks:18>.withTag({meta: 13}), <ore:craftingToolSaw>]]);
+[<ExtraTrees:planks:18>.withTag({meta: 18}), <ExtraTrees:planks:18>.withTag({meta: 18}), <ore:craftingToolSaw>]]);
 
 // --- Solid Rowan Wood Door
 recipes.addShaped(<ExtraTrees:door:306>.withTag({meta: 306}), [
@@ -891,9 +891,469 @@ recipes.addShaped(<ExtraTrees:door:818>.withTag({meta: 818}), [
 [<ExtraTrees:door:50>.withTag({meta: 50}), null, null],
 [null, null, null]]);
 
+// --- Elder Wood Door
+recipes.addShaped(<ExtraTrees:door:51>.withTag({meta: 51}), [
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <ExtraTrees:planks:19>.withTag({meta: 19}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:51>.withTag({meta: 51}), [
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:19>.withTag({meta: 19}), <ExtraTrees:planks:19>.withTag({meta: 19}), <ore:craftingToolSaw>]]);
 
+// --- Solid Elder Wood Door
+recipes.addShaped(<ExtraTrees:door:307>.withTag({meta: 307}), [
+[null, <ExtraTrees:door:51>.withTag({meta: 51}), null],
+[null, null, null],
+[null, null, null]]);
 
+// --- Split Elder Wood Door
+recipes.addShaped(<ExtraTrees:door:563>.withTag({meta: 563}), [
+[null, null, <ExtraTrees:door:51>.withTag({meta:51})],
+[null, null, null],
+[null, null, null]]);
 
+// --- Full Elder Wood Door
+recipes.addShaped(<ExtraTrees:door:819>.withTag({meta: 819}), [
+[null, null, null],
+[<ExtraTrees:door:51>.withTag({meta: 51}), null, null],
+[null, null, null]]);
+
+// --- Maclura Wood Door
+recipes.addShaped(<ExtraTrees:door:52>.withTag({meta: 52}), [
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <ExtraTrees:planks:20>.withTag({meta: 20}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:52>.withTag({meta: 52}), [
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:20>.withTag({meta: 20}), <ExtraTrees:planks:20>.withTag({meta: 20}), <ore:craftingToolSaw>]]);
+
+// --- Solid Maclura Wood Door
+recipes.addShaped(<ExtraTrees:door:308>.withTag({meta: 308}), [
+[null, <ExtraTrees:door:52>.withTag({meta: 52}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Maclura Wood Door
+recipes.addShaped(<ExtraTrees:door:564>.withTag({meta: 564}), [
+[null, null, <ExtraTrees:door:52>.withTag({meta:52})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Maclura Wood Door
+recipes.addShaped(<ExtraTrees:door:820>.withTag({meta: 820}), [
+[null, null, null],
+[<ExtraTrees:door:52>.withTag({meta: 52}), null, null],
+[null, null, null]]);
+
+// --- Syzgium Wood Door
+recipes.addShaped(<ExtraTrees:door:53>.withTag({meta: 53}), [
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <ExtraTrees:planks:21>.withTag({meta: 21}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:53>.withTag({meta: 53}), [
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:21>.withTag({meta: 21}), <ExtraTrees:planks:21>.withTag({meta: 21}), <ore:craftingToolSaw>]]);
+
+// --- Solid Syzgium Wood Door
+recipes.addShaped(<ExtraTrees:door:309>.withTag({meta: 309}), [
+[null, <ExtraTrees:door:53>.withTag({meta: 53}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Syzgium Wood Door
+recipes.addShaped(<ExtraTrees:door:565>.withTag({meta: 565}), [
+[null, null, <ExtraTrees:door:53>.withTag({meta:53})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Syzgium Wood Door
+recipes.addShaped(<ExtraTrees:door:821>.withTag({meta: 821}), [
+[null, null, null],
+[<ExtraTrees:door:53>.withTag({meta: 53}), null, null],
+[null, null, null]]);
+
+// --- Brazilwood Wood Door
+recipes.addShaped(<ExtraTrees:door:54>.withTag({meta: 54}), [
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <ExtraTrees:planks:22>.withTag({meta: 22}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:54>.withTag({meta: 54}), [
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:22>.withTag({meta: 22}), <ExtraTrees:planks:22>.withTag({meta: 22}), <ore:craftingToolSaw>]]);
+
+// --- Solid Brazilwood Wood Door
+recipes.addShaped(<ExtraTrees:door:310>.withTag({meta: 310}), [
+[null, <ExtraTrees:door:54>.withTag({meta: 54}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Brazilwood Wood Door
+recipes.addShaped(<ExtraTrees:door:566>.withTag({meta: 566}), [
+[null, null, <ExtraTrees:door:54>.withTag({meta:54})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Brazilwood Wood Door
+recipes.addShaped(<ExtraTrees:door:822>.withTag({meta: 822}), [
+[null, null, null],
+[<ExtraTrees:door:54>.withTag({meta: 54}), null, null],
+[null, null, null]]);
+
+// --- Logwood Wood Door
+recipes.addShaped(<ExtraTrees:door:55>.withTag({meta: 55}), [
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <ExtraTrees:planks:23>.withTag({meta: 23}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:55>.withTag({meta: 55}), [
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:23>.withTag({meta: 23}), <ExtraTrees:planks:23>.withTag({meta: 23}), <ore:craftingToolSaw>]]);
+
+// --- Solid Logwood Wood Door
+recipes.addShaped(<ExtraTrees:door:311>.withTag({meta: 311}), [
+[null, <ExtraTrees:door:55>.withTag({meta: 55}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Logwood Wood Door
+recipes.addShaped(<ExtraTrees:door:567>.withTag({meta: 567}), [
+[null, null, <ExtraTrees:door:55>.withTag({meta:55})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Logwood Wood Door
+recipes.addShaped(<ExtraTrees:door:823>.withTag({meta: 823}), [
+[null, null, null],
+[<ExtraTrees:door:55>.withTag({meta: 55}), null, null],
+[null, null, null]]);
+
+// --- Iroko Wood Door
+recipes.addShaped(<ExtraTrees:door:56>.withTag({meta: 56}), [
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <ExtraTrees:planks:24>.withTag({meta: 24}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:56>.withTag({meta: 56}), [
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:24>.withTag({meta: 24}), <ExtraTrees:planks:24>.withTag({meta: 24}), <ore:craftingToolSaw>]]);
+
+// --- Solid Iroko Wood Door
+recipes.addShaped(<ExtraTrees:door:312>.withTag({meta: 312}), [
+[null, <ExtraTrees:door:56>.withTag({meta: 56}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Iroko Wood Door
+recipes.addShaped(<ExtraTrees:door:568>.withTag({meta: 568}), [
+[null, null, <ExtraTrees:door:56>.withTag({meta:56})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Iroko Wood Door
+recipes.addShaped(<ExtraTrees:door:824>.withTag({meta: 824}), [
+[null, null, null],
+[<ExtraTrees:door:56>.withTag({meta: 56}), null, null],
+[null, null, null]]);
+
+// --- Locust Wood Door
+recipes.addShaped(<ExtraTrees:door:57>.withTag({meta: 57}), [
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <ExtraTrees:planks:25>.withTag({meta: 25}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:57>.withTag({meta: 57}), [
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:25>.withTag({meta: 25}), <ExtraTrees:planks:25>.withTag({meta: 25}), <ore:craftingToolSaw>]]);
+
+// --- Solid Locust Wood Door
+recipes.addShaped(<ExtraTrees:door:313>.withTag({meta: 313}), [
+[null, <ExtraTrees:door:57>.withTag({meta: 57}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Locust Wood Door
+recipes.addShaped(<ExtraTrees:door:569>.withTag({meta: 569}), [
+[null, null, <ExtraTrees:door:57>.withTag({meta:57})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Locust Wood Door
+recipes.addShaped(<ExtraTrees:door:825>.withTag({meta: 825}), [
+[null, null, null],
+[<ExtraTrees:door:57>.withTag({meta: 57}), null, null],
+[null, null, null]]);
+
+// --- Eucalyptus Wood Door
+recipes.addShaped(<ExtraTrees:door:58>.withTag({meta: 58}), [
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <ExtraTrees:planks:26>.withTag({meta: 26}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:58>.withTag({meta: 58}), [
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:26>.withTag({meta: 26}), <ExtraTrees:planks:26>.withTag({meta: 26}), <ore:craftingToolSaw>]]);
+
+// --- Solid Eucalyptus Wood Door
+recipes.addShaped(<ExtraTrees:door:314>.withTag({meta: 314}), [
+[null, <ExtraTrees:door:58>.withTag({meta: 58}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Eucalyptus Wood Door
+recipes.addShaped(<ExtraTrees:door:570>.withTag({meta: 570}), [
+[null, null, <ExtraTrees:door:58>.withTag({meta:58})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Eucalyptus Wood Door
+recipes.addShaped(<ExtraTrees:door:826>.withTag({meta: 826}), [
+[null, null, null],
+[<ExtraTrees:door:58>.withTag({meta: 58}), null, null],
+[null, null, null]]);
+
+// --- Purpleheart Wood Door
+recipes.addShaped(<ExtraTrees:door:59>.withTag({meta: 59}), [
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <ExtraTrees:planks:27>.withTag({meta: 27}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:59>.withTag({meta: 59}), [
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:27>.withTag({meta: 27}), <ExtraTrees:planks:27>.withTag({meta: 27}), <ore:craftingToolSaw>]]);
+
+// --- Solid Purpleheart Wood Door
+recipes.addShaped(<ExtraTrees:door:315>.withTag({meta: 315}), [
+[null, <ExtraTrees:door:59>.withTag({meta: 59}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Purpleheart Wood Door
+recipes.addShaped(<ExtraTrees:door:571>.withTag({meta: 571}), [
+[null, null, <ExtraTrees:door:59>.withTag({meta:59})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Purpleheart Wood Door
+recipes.addShaped(<ExtraTrees:door:827>.withTag({meta: 827}), [
+[null, null, null],
+[<ExtraTrees:door:59>.withTag({meta: 59}), null, null],
+[null, null, null]]);
+
+// --- Ash Wood Door
+recipes.addShaped(<ExtraTrees:door:60>.withTag({meta: 60}), [
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <ExtraTrees:planks:28>.withTag({meta: 28}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:60>.withTag({meta: 60}), [
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:28>.withTag({meta: 28}), <ExtraTrees:planks:28>.withTag({meta: 28}), <ore:craftingToolSaw>]]);
+
+// --- Solid Ash Wood Door
+recipes.addShaped(<ExtraTrees:door:316>.withTag({meta: 316}), [
+[null, <ExtraTrees:door:60>.withTag({meta: 60}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Ash Wood Door
+recipes.addShaped(<ExtraTrees:door:572>.withTag({meta: 572}), [
+[null, null, <ExtraTrees:door:60>.withTag({meta:60})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Ash Wood Door
+recipes.addShaped(<ExtraTrees:door:828>.withTag({meta: 828}), [
+[null, null, null],
+[<ExtraTrees:door:60>.withTag({meta: 60}), null, null],
+[null, null, null]]);
+
+// --- Holly Wood Door
+recipes.addShaped(<ExtraTrees:door:61>.withTag({meta: 61}), [
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <ExtraTrees:planks:29>.withTag({meta: 29}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:61>.withTag({meta: 61}), [
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:29>.withTag({meta: 29}), <ExtraTrees:planks:29>.withTag({meta: 29}), <ore:craftingToolSaw>]]);
+
+// --- Solid Holly Wood Door
+recipes.addShaped(<ExtraTrees:door:317>.withTag({meta: 317}), [
+[null, <ExtraTrees:door:61>.withTag({meta: 61}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Holly Wood Door
+recipes.addShaped(<ExtraTrees:door:573>.withTag({meta: 573}), [
+[null, null, <ExtraTrees:door:61>.withTag({meta:61})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Holly Wood Door
+recipes.addShaped(<ExtraTrees:door:829>.withTag({meta: 829}), [
+[null, null, null],
+[<ExtraTrees:door:61>.withTag({meta: 61}), null, null],
+[null, null, null]]);
+
+// --- Olive Wood Door
+recipes.addShaped(<ExtraTrees:door:62>.withTag({meta: 62}), [
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <ExtraTrees:planks:30>.withTag({meta: 30}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:62>.withTag({meta: 62}), [
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:30>.withTag({meta: 30}), <ExtraTrees:planks:30>.withTag({meta: 30}), <ore:craftingToolSaw>]]);
+
+// --- Solid Olive Wood Door
+recipes.addShaped(<ExtraTrees:door:318>.withTag({meta: 318}), [
+[null, <ExtraTrees:door:62>.withTag({meta: 62}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Olive Wood Door
+recipes.addShaped(<ExtraTrees:door:574>.withTag({meta: 574}), [
+[null, null, <ExtraTrees:door:62>.withTag({meta:62})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Olive Wood Door
+recipes.addShaped(<ExtraTrees:door:830>.withTag({meta: 830}), [
+[null, null, null],
+[<ExtraTrees:door:62>.withTag({meta: 62}), null, null],
+[null, null, null]]);
+
+// --- Sweetgum Wood Door
+recipes.addShaped(<ExtraTrees:door:63>.withTag({meta: 63}), [
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <ExtraTrees:planks:31>.withTag({meta: 31}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:63>.withTag({meta: 63}), [
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:31>.withTag({meta: 31}), <ExtraTrees:planks:31>.withTag({meta: 31}), <ore:craftingToolSaw>]]);
+
+// --- Solid Sweetgum Wood Door
+recipes.addShaped(<ExtraTrees:door:319>.withTag({meta: 319}), [
+[null, <ExtraTrees:door:63>.withTag({meta: 63}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Sweetgum Wood Door
+recipes.addShaped(<ExtraTrees:door:575>.withTag({meta: 575}), [
+[null, null, <ExtraTrees:door:63>.withTag({meta:63})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Sweetgum Wood Door
+recipes.addShaped(<ExtraTrees:door:831>.withTag({meta: 831}), [
+[null, null, null],
+[<ExtraTrees:door:63>.withTag({meta: 63}), null, null],
+[null, null, null]]);
+
+// --- Rosewood Wood Door
+recipes.addShaped(<ExtraTrees:door:64>.withTag({meta: 64}), [
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <ExtraTrees:planks:32>.withTag({meta: 32}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:64>.withTag({meta: 64}), [
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:32>.withTag({meta: 32}), <ExtraTrees:planks:32>.withTag({meta: 32}), <ore:craftingToolSaw>]]);
+
+// --- Solid Rosewood Wood Door
+recipes.addShaped(<ExtraTrees:door:320>.withTag({meta: 320}), [
+[null, <ExtraTrees:door:64>.withTag({meta: 64}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Rosewood Wood Door
+recipes.addShaped(<ExtraTrees:door:576>.withTag({meta: 576}), [
+[null, null, <ExtraTrees:door:64>.withTag({meta:64})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Rosewood Wood Door
+recipes.addShaped(<ExtraTrees:door:832>.withTag({meta: 832}), [
+[null, null, null],
+[<ExtraTrees:door:64>.withTag({meta: 64}), null, null],
+[null, null, null]]);
+
+// --- Ginko Wood Door
+recipes.addShaped(<ExtraTrees:door:65>.withTag({meta: 65}), [
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <ExtraTrees:planks:33>.withTag({meta: 33}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:65>.withTag({meta: 65}), [
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:33>.withTag({meta: 33}), <ExtraTrees:planks:33>.withTag({meta: 33}), <ore:craftingToolSaw>]]);
+
+// --- Solid Ginko Wood Door
+recipes.addShaped(<ExtraTrees:door:321>.withTag({meta: 321}), [
+[null, <ExtraTrees:door:65>.withTag({meta: 65}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Ginko Wood Door
+recipes.addShaped(<ExtraTrees:door:577>.withTag({meta: 577}), [
+[null, null, <ExtraTrees:door:65>.withTag({meta:65})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Ginko Wood Door
+recipes.addShaped(<ExtraTrees:door:833>.withTag({meta: 833}), [
+[null, null, null],
+[<ExtraTrees:door:65>.withTag({meta: 65}), null, null],
+[null, null, null]]);
+
+// --- Pink Ivory Wood Door
+recipes.addShaped(<ExtraTrees:door:66>.withTag({meta: 66}), [
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <ore:ringAnyIron>, <ore:screwAnyIron>],
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <ExtraTrees:planks:34>.withTag({meta: 34}), <ore:craftingToolSaw>]]);
+// -
+recipes.addShaped(<ExtraTrees:door:66>.withTag({meta: 66}), [
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <minecraft:trapdoor>, <ore:craftingToolScrewdriver>],
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <ore:ringCopper>, <ore:screwCopper>],
+[<ExtraTrees:planks:34>.withTag({meta: 34}), <ExtraTrees:planks:34>.withTag({meta: 34}), <ore:craftingToolSaw>]]);
+
+// --- Solid Pink Ivory Wood Door
+recipes.addShaped(<ExtraTrees:door:322>.withTag({meta: 322}), [
+[null, <ExtraTrees:door:66>.withTag({meta: 66}), null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Split Pink Ivory Wood Door
+recipes.addShaped(<ExtraTrees:door:578>.withTag({meta: 578}), [
+[null, null, <ExtraTrees:door:66>.withTag({meta:66})],
+[null, null, null],
+[null, null, null]]);
+
+// --- Full Pink Ivory Wood Door
+recipes.addShaped(<ExtraTrees:door:834>.withTag({meta: 834}), [
+[null, null, null],
+[<ExtraTrees:door:66>.withTag({meta: 66}), null, null],
+[null, null, null]]);
 
 
 
