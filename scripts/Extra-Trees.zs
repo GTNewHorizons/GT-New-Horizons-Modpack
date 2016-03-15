@@ -76,6 +76,12 @@ recipes.remove(<ExtraTrees:misc:13>);
 // --- Doors
 recipes.remove(<ExtraTrees:door>);
 
+// --- Gates
+recipes.remove(<ExtraTrees:gate>);
+
+// --- Fence
+recipes.remove(<ExtraTrees:fence>);
+
 
 
 
