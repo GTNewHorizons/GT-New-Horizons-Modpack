@@ -184,3 +184,86 @@ recipes.addShaped(<ExtraTrees:fence:66>.withTag({meta: 66}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <ExtraTrees:planks:34>.withTag({meta: 34}), <ore:stickWood>],
 [<ore:stickWood>, <ExtraTrees:planks:34>.withTag({meta: 34}), <ore:stickWood>]]);
+
+// --- Oak Fence
+recipes.addShapeless(<ExtraTrees:multifence>.withTag({meta: 0}), [<minecraft:fence>]);
+
+// --- Spruce Fence
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}), [
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}) * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}) * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
+
+// --- Birch Fence
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}), [
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}) * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}) * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
+
+// --- Jungle Fence
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}), [
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}) * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}) * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
+
+// --- Acacia Fence
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}), [
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}) * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}) * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
+
+// --- Dark Oak Fence
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}), [
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}) * 2, [
+[IronScrew, Screwdriver, IronScrew],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
+// -
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}) * 4, [
+[SteelScrew, Screwdriver, SteelScrew],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
+[<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
