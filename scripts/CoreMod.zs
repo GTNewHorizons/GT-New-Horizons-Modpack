@@ -382,6 +382,12 @@ recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
 [WireCutter, BlankCast, null],
 [null, null, File]]);
 
+// --- Mold Form Marshmallow
+recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
+[WireCutter, null, null],
+[null, BlankCast, null],
+[null, File, null]]);
+
 // --- Display
 recipes.addShaped(<dreamcraft:item.Display>, [
 [<ore:platePlastic>, <gregtech:gt.metaitem.01:32740>, <ore:platePlastic>],
@@ -701,6 +707,8 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:alu
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MarshmallowFormMold>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 
 
@@ -1720,6 +1728,8 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldLeg
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldBoots>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldChestplate>);
+// -
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MarshmallowForm>);
 
 // --- Aluminium Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1019> * 2, <dreamcraft:item.AluminiumItemCasing>);
@@ -1970,12 +1980,16 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldHelmet>, <liquid:ste
 
 // --- Mold Leggings
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormLeggings>, true, 100);
+
+// --- Mold Marshmallow
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MarshmallowForm>, <liquid:steel.molten> * 576, <dreamcraft:item.MarshmallowFormMold>, true, 100);
  
 // --- Bow Fletching Cast
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, false, 100);
 
 // --- BowString Cast
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, false, 100);
+
 
 
 // --- Vacuum Freezer Recipes ---
