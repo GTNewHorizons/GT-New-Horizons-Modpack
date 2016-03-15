@@ -2032,12 +2032,6 @@ oreDict.blockCharcoal.add(<dreamcraft:tile.Charcoal>);
 // --- Thaumcraft Stuff
 
 
-// --- GTNH Tab
-mods.thaumcraft.Research.addTab("NEWHORIZONS", "dreamcraft", "textures/thaumcraft/icon/icon_GTNH.png", "dreamcraft", "textures/thaumcraft/tab/tab_GTNH.png");
-game.setLocalization("en_US", "tc.research_category.NEWHORIZONS", "New Horizons");
-
-
-
 
 // --- Wither Ring
 mods.thaumcraft.Research.addResearch("WITHERRING", "ARTIFICE", "alienis 200, praecantatio 200, superbia 100, spiritus 100, infernus 200", 3, 2, 12, <dreamcraft:item.WitherProtectionRing>);
