@@ -386,9 +386,10 @@ public class GT_Loader_Items
         CustomItemList.IridiumAlloyItemCasing.set(com.dreammaster.item.ItemList.IridiumAlloyItemCasing.getIS());
         CustomItemList.ReinforcedGlassLense.set(com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
 		CustomItemList.MarshmallowForm.set(com.dreammaster.item.ItemList.MarshmallowForm.getIS());
-		CustomItemList.FormedSlush.set(com.dreammaster.item.ItemList.FormedSlush.getIS());
-		CustomItemList.UnckoocedSlush.set(com.dreammaster.item.ItemList.UnckoocedSlush.getIS());
-		CustomItemList.VeryHotMarshmallow.set(com.dreammaster.item.ItemList.VeryHotMarshmallow.getIS());
+		CustomItemList.MarshmallowFormMold.set(com.dreammaster.item.ItemList.MarshmallowFormMold.getIS());
+		CustomItemList.UncookedSlush.set(com.dreammaster.item.ItemList.UncookedSlush.getIS());
+		CustomItemList.MalformedSlush.set(com.dreammaster.item.ItemList.MalformedSlush.getIS());
+		CustomItemList.GlowingMarshmallow.set(com.dreammaster.item.ItemList.GlowingMarshmallow.getIS());
 	}
 
 }

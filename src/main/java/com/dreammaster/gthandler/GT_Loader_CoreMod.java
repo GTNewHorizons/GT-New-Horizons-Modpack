@@ -12,7 +12,7 @@ import gregtech.api.util.GT_Utility;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Loader;
-
+import net.minecraftforge.fluids.FluidRegistry;
 
 
 public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegistrator {
@@ -70,6 +70,9 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
             }
         }
+
+        GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
+
         GT_Values.RA.addFluidExtractionRecipe(GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), Materials.FierySteel.getFluid(200L), 1500, 1600, 2);
 
         GT_Values.RA.addCentrifugeRecipe(CustomItemList.FieryBloodDrop.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, Materials.FierySteel.getFluid(10L), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, null, 12, 512);
@@ -78,6 +81,13 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1002), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 1), CustomItemList.FieryBloodDrop.get(1L, new Object[0]), GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2004), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 1000, 0, 0}, 120, 120);
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1003), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 2), CustomItemList.CarminiteChip.get(1L, new Object[0]), CustomItemList.CarminiteFragment.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 800, 0, 0}, 120, 256);
         GT_Values.RA.addCentrifugeRecipe(GT_ModHandler.getModItem("gendustry", "HoneyComb", 1L, 1004), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Forestry", "beeswax", 1L, 0), GT_ModHandler.getModItem("MagicBees", "propolis", 1L, 3), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), GT_Values.NI, GT_Values.NI, new int[]{3000, 500, 3300, 1000, 0, 0}, 120, 480);
+
+        GT_Values.RA.addFormingPressRecipe(CustomItemList.MalformedSlush.get(2L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.UncookedSlush.get(1L, new Object[0]), 1200, 120);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(1L, new Object[0]), 200, 256);
+
+        GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Wheat, 1L), GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 1L, 14), new ItemStack(Items.sugar, 1, 0), GT_ModHandler.getModItem("DraconicEvolution", "draconiumDust", 1L, 0), FluidRegistry.getFluidStack("witchery:fluidspirit", 1000), GT_Values.NF, CustomItemList.MalformedSlush.get(2L, new Object[0]), 48000, 120);
+
+        GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_ModHandler.getModItem("DraconiEvolution", "dezilsMarshmallow", 1L, 0), 600);
     }
 
 
