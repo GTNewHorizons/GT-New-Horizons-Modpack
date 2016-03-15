@@ -80,7 +80,9 @@ public enum CustomItemList implements IItemContainer
 	CarbonPartBoots, CarbonPartChestplate, CarbonPartHelmet, CarbonPartHelmetNightVision, CarbonPartLeggings,
 	NanoRubberBoots, NanoChestJetPack, NanoPlatedLeggings, NanoScubaHelmet,
 	QuantumPartBoots, QuantumPartChestplate, QuantumPartHelmetEmpty, QuantumPartHelmet, QuantumPartLeggings,
-	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9;
+	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9,
+	MarshmallowForm, FormedSlush, UnckoocedSlush, VeryHotMarshmallow;
+
 
 	private ItemStack mStack = null;
 	private boolean mHasNotBeenSet = true;
