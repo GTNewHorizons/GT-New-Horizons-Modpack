@@ -390,6 +390,7 @@ public class GT_Loader_Items
 		CustomItemList.UncookedSlush.set(com.dreammaster.item.ItemList.UncookedSlush.getIS());
 		CustomItemList.MalformedSlush.set(com.dreammaster.item.ItemList.MalformedSlush.getIS());
 		CustomItemList.GlowingMarshmallow.set(com.dreammaster.item.ItemList.GlowingMarshmallow.getIS());
+		CustomItemList.Marshmallow.set(com.dreammaster.item.ItemList.Marshmallow.getIS());
 	}
 
 }
