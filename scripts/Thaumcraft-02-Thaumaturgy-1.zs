@@ -14,6 +14,27 @@
 
 
 
+// --- Iron Wand Cap
+recipes.remove(<Thaumcraft:WandCap>);
+
+// --- Thaumcraft Wand Caps Arcane
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:*>);
+
+// --- Thaumcraft Wand Caps Infusion
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:*>);
+
+// --- Basic Wand
+recipes.remove(<Thaumcraft:WandCasting:*>);
+
+// --- Wand Rods/cores
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
+
+
+
+
+
 
 // --- Adding Recipes ---
 
@@ -1512,7 +1533,6 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag(
 // --- Refresh Recipese --- 
 
 
-
 // --- Copper Wand Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_copper");
 
@@ -1522,27 +1542,8 @@ mods.thaumcraft.Research.refreshResearchRecipe("CAP_gold");
 // --- Silver Wand Cap
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_silver");
 
-// --- Greatwood Rod
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
-
-// --- Reed Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed");
-
-// --- Blaze Rod Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze");
-
-// --- Obsidian Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian");
-
-// --- Icy Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice");
-
-// --- Quartz Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz");
-
-// --- Bone Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
-
+// --- Silver Wand Cap
+mods.thaumcraft.Research.refreshResearchRecipe("CAP_thaumium");
 
 
 
