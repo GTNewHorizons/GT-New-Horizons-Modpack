@@ -1178,23 +1178,20 @@ Assembler.addRecipe(<ExtraUtilities:scanner>, <gregtech:gt.metaitem.01:32762>, <
 // --- Bedrockium Ingot
 Assembler.addRecipe(<ExtraUtilities:bedrockiumIngot>, <gregtech:gt.metaitem.01:11129>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:uuamplifier>, 2, 122880);
 
-
-
-// --- Compressor Recipes ---
-
-
-
 // --- Compressed Cobblestone
-Compressor.addRecipe(<ExtraUtilities:cobblestone_compressed>, <minecraft:cobblestone> * 9);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed>, <gregtech:gt.integrated_circuit:1> * 0, <minecraft:cobblestone> * 9, 100, 16);
 
 // --- Compressed Dirt
-Compressor.addRecipe(<ExtraUtilities:cobblestone_compressed:8>, <minecraft:dirt> * 9);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:8>, <minecraft:dirt> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
 
 // --- Compressed Gravel
-Compressor.addRecipe(<ExtraUtilities:cobblestone_compressed:12>, <minecraft:gravel> * 9);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:12>, <minecraft:gravel> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
 
 // --- Compressed Sand
-Compressor.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand> * 9);
+Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand> * 9, <gregtech:gt.integrated_circuit:1> * 0, 100, 16);
+
+
+
 
 
 
