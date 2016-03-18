@@ -1599,37 +1599,6 @@ mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:216>.w
 
 
 
-// --- Silverwood Wand Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
-
-// --- Greatwood Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood_staff");
-
-// --- Reed Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed_staff");
-
-// --- Blaze Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze_staff");
-
-// --- Obsidian Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian_staff");
-
-// --- Icy Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice_staff");
-
-// --- Quartz Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz_staff");
-
-// --- Bone Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone_staff");
-
-// --- Silverwood Staff Core
-mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood_staff");
-
-// --- Scepters
-mods.thaumcraft.Research.refreshResearchRecipe("SCEPTRE");
-
-
 
 
 

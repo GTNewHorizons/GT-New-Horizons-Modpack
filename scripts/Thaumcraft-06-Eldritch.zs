@@ -14,17 +14,6 @@
 
 
 
-// --- Iron Wand Cap
-recipes.remove(<Thaumcraft:WandCap>);
-
-// --- Basic Wand
-recipes.remove(<Thaumcraft:WandCasting>);
-
-// --- Wand Rod
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
-
-// --- Wand Cores
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
 
 // --- Void Seed
 //mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
@@ -69,12 +58,6 @@ recipes.remove(<thaumicbases:voidFAS>);
 
 // --- Void Shears
 recipes.remove(<thaumicbases:voidShears>);
-
-// --- Thaumcraft Wand Caps Arcane
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:*>);
-
-// --- Thaumcraft Wand Caps Infusion
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandCap:*>);
 
 // --- Essentia Reservoir
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockEssentiaReservoir>);
@@ -1635,6 +1618,57 @@ mods.thaumcraft.Research.refreshResearchRecipe("PRIMALCRUSHER");
 
 // --- Advanced Alchemical Construct
 mods.thaumcraft.Research.refreshResearchRecipe("ADVALCHEMYFURNACE");
+
+// --- Silverwood Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
+
+// --- Greatwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood_staff");
+
+// --- Reed Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed_staff");
+
+// --- Blaze Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze_staff");
+
+// --- Obsidian Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian_staff");
+
+// --- Icy Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice_staff");
+
+// --- Quartz Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz_staff");
+
+// --- Bone Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone_staff");
+
+// --- Silverwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood_staff");
+
+// --- Scepters
+mods.thaumcraft.Research.refreshResearchRecipe("SCEPTRE");
+
+// --- Greatwood Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood");
+
+// --- Reed Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_reed");
+
+// --- Blaze Rod Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blaze");
+
+// --- Obsidian Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_obsidian");
+
+// --- Icy Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_ice");
+
+// --- Quartz Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_quartz");
+
+// --- Bone Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
 
 
 
