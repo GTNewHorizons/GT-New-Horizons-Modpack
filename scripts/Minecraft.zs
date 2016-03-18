@@ -331,6 +331,8 @@ recipes.remove(Lever);
 // --- Stone Button
 recipes.remove(<minecraft:stone_button>);
 
+recipes.removeShaped(<minecraft:stone_button>);
+
 //Glass Pane
 recipes.remove(<minecraft:glass_pane>);
 
@@ -378,8 +380,6 @@ recipes.remove(Book);
 
 // --- Bow
 recipes.remove(Bow);
-
-recipes.removeShaped(<minecraft:stone_button>);
 
 // --- String
 recipes.removeShapeless(<minecraft:string>);
@@ -690,7 +690,7 @@ recipes.remove(BlackHardClay);
 // --- Sandstone
 recipes.remove(<minecraft:sandstone>);
 
-// --- Chiseld Sandstone
+// --- Chiseled Sandstone
 recipes.remove(<minecraft:sandstone:1>);
 
 // --- Smooth Sandstone
@@ -717,7 +717,7 @@ recipes.remove(<minecraft:nether_brick>);
 // --- Quartz Block
 recipes.remove(<minecraft:quartz_block>);
 
-// --- Chiseld Quartz
+// --- Chiseled Quartz
 recipes.remove(<minecraft:quartz_block:1>);
 
 // --- Bookshelf
@@ -995,6 +995,15 @@ recipes.addShaped(Chest, [
 [Log, <ore:plankWood>, Log],
 [<ore:plankWood>, Flint, <ore:plankWood>],
 [Log, <ore:plankWood>, Log]]);
+
+// --- Sandstone
+recipes.addShapeless(Sandstone,
+[<chisel:chisel>, <minecraft:sand>, <minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+
+recipes.addShapeless(Sandstone*2,
+[<chisel:chisel>, <minecraft:sand>, <minecraft:sand>,
+<minecraft:sand>, <minecraft:sand>, <minecraft:sand>,
+<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
 
 // --- Trapped Chest
 recipes.addShaped(TrappedChest, [
