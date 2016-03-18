@@ -21,7 +21,7 @@
         <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
         <itemStack oreDictionary="plateSoularium" slot="2" />
         <itemStack oreDictionary="plateSilicon" slot="3" />
-        <itemStack oreDictionary="PlateRedAlloy" slot="4" />
+        <itemStack oreDictionary="plateRedAlloy" slot="4" />
         <itemStack oreDictionary="plateSilicon" slot="5" />
       </input>
       <output>
