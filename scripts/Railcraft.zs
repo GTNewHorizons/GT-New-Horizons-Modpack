@@ -2095,6 +2095,7 @@ oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
 
 // --- Thaumium Crowbar
+mods.thaumcraft.Research.orphanResearch("RC_Crowbar");
 mods.thaumcraft.Research.moveResearch("RC_Crowbar", "ARTIFICE", 0, -4);
 mods.thaumcraft.Research.clearPrereqs("RC_Crowbar");
 mods.thaumcraft.Research.addPrereq("RC_Crowbar", "THAUMIUM", false);
@@ -2111,6 +2112,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar");
 
  
 // --- Void metal Crowbar
+mods.thaumcraft.Research.orphanResearch("RC_Crowbar_Void");
 mods.thaumcraft.Research.moveResearch("RC_Crowbar_Void", "ELDRITCH", 2, -4);
 mods.thaumcraft.Research.clearPrereqs("RC_Crowbar_Void");
 mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "VOIDMETAL", false);
