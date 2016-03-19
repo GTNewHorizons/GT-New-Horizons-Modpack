@@ -24,10 +24,10 @@ recipes.remove(<EnderStorage:enderPouch:*>);
 
 
 // --- Ender Chest Arcane
-mods.thaumcraft.Research.addResearch("ENDERCHEST", "ARTIFICE", "metallum 200, electrum 200, machina 100, alienis 100, lucrum 80, fabrico 80, ", 12, 12, 12, <EnderStorage:enderChest>);
+mods.thaumcraft.Research.addResearch("ENDERCHEST", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, alienis 9, lucrum 6, fabrico 3, ", -4, 0, 4, <EnderStorage:enderChest>);
 game.setLocalization("en_US", "tc.research_name.ENDERCHEST", "Ender Chest");
 game.setLocalization("en_US", "tc.research_text.ENDERCHEST", "[EC] Oh, its more magical than a Chest!");
-mods.thaumcraft.Research.addPrereq("ENDERCHEST", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPrereq("ENDERCHEST", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ENDERCHEST", true);
 mods.thaumcraft.Research.addPage("ENDERCHEST", "EnderStorage.research_page.ENDERCHEST");
 game.setLocalization("en_US", "EnderStorage.research_page.ENDERCHEST", "The Ender Chest is a block that allows the player to store 27 items much like a wooden chest however, if two Ender Chests are placed down in different places, the items inside chest A will be in chest B. If the items are taken from either chest, both of the chest will not have that item. While on SMP, players will not share the same storage. This can be used to prevent players form stealing more valuable items, as they cannot access the same a items. This also means two players can store items in the same ender chest.");
@@ -38,7 +38,7 @@ mods.thaumcraft.Arcane.addShaped("ENDERCHEST", <EnderStorage:enderChest>, "aer 1
 mods.thaumcraft.Research.addArcanePage("ENDERCHEST", <EnderStorage:enderChest>);
 
 // --- Ender Tank Arcane
-mods.thaumcraft.Research.addResearch("ENDERTANK", "ARTIFICE", "metallum 15, electrum 15, machina 12, ignis 9, lucrum 6, sensus 3, ", 12, 14, 4, <EnderStorage:enderChest:4096>);
+mods.thaumcraft.Research.addResearch("ENDERTANK", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, ignis 9, lucrum 6, sensus 3, ", -4, 2, 4, <EnderStorage:enderChest:4096>);
 game.setLocalization("en_US", "tc.research_name.ENDERTANK", "Ender Tank");
 game.setLocalization("en_US", "tc.research_text.ENDERTANK", "[EC] Oh, its more magical than a Tank!");
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERCHEST", false);
@@ -52,7 +52,7 @@ mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "a
 mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:4096>);
 
 // --- Ender Pouche Arcane
-mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "ARTIFICE", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", 12, 16, 4, <EnderStorage:enderPouch>);
+mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "NEWHORIZONS", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", -4, 4, 4, <EnderStorage:enderPouch>);
 game.setLocalization("en_US", "tc.research_name.ENDERPOUCHE", "Ender Pouch");
 game.setLocalization("en_US", "tc.research_text.ENDERPOUCHE", "[EC] Oh, its more magical than a Backpack!");
 mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "ENDERTANK", false);
