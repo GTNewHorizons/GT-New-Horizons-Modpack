@@ -1309,11 +1309,11 @@ oreDict.craftingToolShears.add(<ExtraUtilities:shears:16>);
 
 
 // --- Carved Imminence Stone
-mods.thaumcraft.Research.addResearch("EMINENCESTONE", "ARTIFICE", "alienis 200, sensus 200, terra 100, aer 200", -8, 13, 12, <ExtraUtilities:decorativeBlock1:14>);
+mods.thaumcraft.Research.addResearch("EMINENCESTONE", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, aer 6", 0, 4, 12, <ExtraUtilities:decorativeBlock1:14>);
 game.setLocalization("en_US", "tc.research_name.EMINENCESTONE", "Carved Imminence Stone");
 game.setLocalization("en_US", "tc.research_text.EMINENCESTONE", "[EU] Portal Stones");
 mods.thaumcraft.Research.addPrereq("EMINENCESTONE", "INFUSION", false);
-mods.thaumcraft.Research.setConcealed("EMINENCESTONE", true);
+mods.thaumcraft.Research.setConcealed("EMINENCESTONE", false);
 mods.thaumcraft.Research.addPage("EMINENCESTONE", "ExtraUtilities.research_page.EMINENCESTONE");
 game.setLocalization("en_US", "ExtraUtilities.research_page.EMINENCESTONE", "The Portal Stone for the Last Millennium Portal or only for decoration.");
 mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14> * 2, "aer 50, ignis 50, terra 50, aqua 50, ordo 50, perditio 50", [
@@ -1323,7 +1323,7 @@ mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBloc
 mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14>);
 
 // --- Portal to the Last Millennium
-mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "ARTIFICE", "alienis 200, sensus 200, terra 100, ignis 200 vacuos 200", -10, 13, 12, <ExtraUtilities:dark_portal:2>);
+mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, ignis 6 vacuos 200", 2, 6, 4, <ExtraUtilities:dark_portal:2>);
 game.setLocalization("en_US", "tc.research_name.PORTALMILLENIUM", "Portal to the last Millennium");
 game.setLocalization("en_US", "tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
@@ -1335,7 +1335,7 @@ mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark
 mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
-mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "ARTIFICE", "alienis 200, spiritus 200, metallum 100, fabrico 200 lucrum 200, potentia 200", -12, 13, 12, <ExtraUtilities:dark_portal>);
+mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 15, spiritus 15, metallum 12, fabrico 9 lucrum 6, potentia 3", 2, 8, 4, <ExtraUtilities:dark_portal>);
 game.setLocalization("en_US", "tc.research_name.PORTALDEEPDARK", "Portal to the Deep Dark");
 game.setLocalization("en_US", "tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
@@ -1347,7 +1347,7 @@ mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
 
 // --- Magical Wood
-mods.thaumcraft.Research.addResearch("MAGICALWOOD", "ARTIFICE", "praecantatio 150, lucrum 150, arbor 100, cognitio 150, pannus 100", -8, 15, 12, MagicalWood);
+mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2, 6, 4, MagicalWood);
 game.setLocalization("en_US", "tc.research_name.MAGICALWOOD", "Magical Wood");
 game.setLocalization("en_US", "tc.research_text.MAGICALWOOD", "[EU] Twilight Thaumcraft Magic");
 mods.thaumcraft.Research.addPrereq("MAGICALWOOD", "EMINENCESTONE", false);
@@ -1361,7 +1361,7 @@ mods.thaumcraft.Arcane.addShaped("MAGICALWOOD", MagicalWood * 4, "aer 10, ignis 
 mods.thaumcraft.Research.addArcanePage("MAGICALWOOD", MagicalWood);
 
 // --- Angel Block
-mods.thaumcraft.Research.addResearch("ANGELBLOCK", "ARTIFICE", "aer 300, lucrum 200, ignis 100, terra 150", -8, 17, 12, <ExtraUtilities:angelBlock>);
+mods.thaumcraft.Research.addResearch("ANGELBLOCK", "NEWHORIZONS", "aer 15, lucrum 12, ignis 9, terra 6", -2, 8, 4, <ExtraUtilities:angelBlock>);
 game.setLocalization("en_US", "tc.research_name.ANGELBLOCK", "Angel Block");
 game.setLocalization("en_US", "tc.research_text.ANGELBLOCK", "[EU] A Block in the Air");
 mods.thaumcraft.Research.addPrereq("ANGELBLOCK", "MAGICALWOOD", false);

@@ -80,6 +80,9 @@ recipes.remove(<gregtech:gt.metaitem.02:4500>);
 // --- Diamond Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2500>);
 
+// --- Sapphire
+recipes.removeShapeless(<gregtech:gt.metaitem.01:8503>);
+
 // --- Adamantium Ingot
 recipes.removeShaped(<ore:ingotAdamantium>, [
 [<ore:nuggetAdamantium>, <ore:nuggetAluminium>, <ore:nuggetAdamantium>],
