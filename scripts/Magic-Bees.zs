@@ -191,7 +191,7 @@ mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>)
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
 // --- Vis Apiary Booster
-mods.thaumcraft.Research.clearPages("MB_VisAuraProvider");
+mods.thaumcraft.Research.orphanResearch("MB_VisAuraProvider");
 mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
@@ -199,6 +199,7 @@ mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metalum 12
 mods.thaumcraft.Research.setComplexity("MB_VisAuraProvider", 4);
 mods.thaumcraft.Research.setConcealed("MB_VisAuraProvider", true);
 mods.thaumcraft.Warp.addToResearch("MB_VisAuraProvider", 2);
+mods.thaumcraft.Research.clearPages("MB_VisAuraProvider");
 mods.thaumcraft.Research.addPage("MB_VisAuraProvider", "tc.research_page.MB_VisAuraProvider.1");
 mods.thaumcraft.Arcane.addShaped("MB_VisAuraProvider", <MagicBees:visAuraProvider>, "ordo 75, aqua 75, aer 75, perditio 75", [
 [<MagicBees:pollen:1>, <Thaumcraft:blockWoodenDevice:5>, <MagicBees:pollen>],
@@ -279,10 +280,11 @@ mods.thaumcraft.Research.setAspects("MB_EssenceOblivion", "alienis 5, praecantat
 mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 
 // --- Magic Frame
+mods.thaumcraft.Research.orphanResearch("MB_FrameMagic");
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
-mods.thaumcraft.Research.clearPages("MB_FrameMagic");
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
 mods.thaumcraft.Research.addSibling("MB_FrameMagic", "INFUSION");
+mods.thaumcraft.Research.clearPages("MB_FrameMagic");
 mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
 mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 8, terra 8, aer 8, perditio 8, ignis 8, aqua 8", [
 [<ore:screwSteel>, <MagicBees:wax:1>, <ore:screwSteel>],
