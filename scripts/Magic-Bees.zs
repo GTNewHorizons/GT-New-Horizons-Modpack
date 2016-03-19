@@ -191,7 +191,6 @@ mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>)
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
 // --- Vis Apiary Booster
-mods.thaumcraft.Research.orphanResearch("MB_VisAuraProvider");
 mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
@@ -280,7 +279,6 @@ mods.thaumcraft.Research.setAspects("MB_EssenceOblivion", "alienis 5, praecantat
 mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 
 // --- Magic Frame
-mods.thaumcraft.Research.orphanResearch("MB_FrameMagic");
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
 mods.thaumcraft.Research.addSibling("MB_FrameMagic", "INFUSION");
