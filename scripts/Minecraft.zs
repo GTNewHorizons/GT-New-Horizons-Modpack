@@ -332,6 +332,8 @@ recipes.remove(Lever);
 // --- Stone Button
 recipes.remove(<minecraft:stone_button>);
 
+recipes.removeShaped(<minecraft:stone_button>);
+
 //Glass Pane
 recipes.remove(<minecraft:glass_pane>);
 
@@ -379,8 +381,6 @@ recipes.remove(Book);
 
 // --- Bow
 recipes.remove(Bow);
-
-recipes.removeShaped(<minecraft:stone_button>);
 
 // --- String
 recipes.removeShapeless(<minecraft:string>);
@@ -691,7 +691,7 @@ recipes.remove(BlackHardClay);
 // --- Sandstone
 recipes.remove(<minecraft:sandstone>);
 
-// --- Chiseld Sandstone
+// --- Chiseled Sandstone
 recipes.remove(<minecraft:sandstone:1>);
 
 // --- Smooth Sandstone
@@ -718,7 +718,7 @@ recipes.remove(<minecraft:nether_brick>);
 // --- Quartz Block
 recipes.remove(<minecraft:quartz_block>);
 
-// --- Chiseld Quartz
+// --- Chiseled Quartz
 recipes.remove(<minecraft:quartz_block:1>);
 
 // --- Bookshelf
@@ -982,6 +982,21 @@ recipes.remove(<minecraft:nether_star>);
 // --- Glass
 recipes.removeShapeless(<minecraft:glass>);
 
+// --- remove Iron Berrys in Furnace
+furnace.remove(<TConstruct:materials:19>, <TConstruct:oreBerries>);
+
+// --- remove Gold Berrys in Furnace
+furnace.remove(<minecraft:gold_nugget>, <TConstruct:oreBerries:1>);
+
+// --- remove Copper Berrys in Furnace
+furnace.remove(<TConstruct:materials:20>, <TConstruct:oreBerries:2>);
+
+// --- remove Tin Berrys in Furnace
+furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
+
+// --- remove Aluminium Berrys in Furnace
+furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
+
 
 
 // --- Adding Back Recipes ---
@@ -1063,7 +1078,7 @@ recipes.addShaped(Jukebox, [
 [Noteblock, AnyRecord, Noteblock],
 [Log, IronGear, Log]]);
 
-// --- Jack O Lantern
+// --- Jack O' Lantern
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
@@ -2262,21 +2277,6 @@ furnace.remove(<minecraft:glass>);
 
 // --- Add back glass Dust to Glass
 furnace.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>);
-
-// --- remove Iron Berrys in Furnace
-furnace.remove(<TConstruct:materials:19>, <TConstruct:oreBerries>);
-
-// --- remove Gold Berrys in Furnace
-furnace.remove(<minecraft:gold_nugget>, <TConstruct:oreBerries:1>);
-
-// --- remove Copper Berrys in Furnace
-furnace.remove(<TConstruct:materials:20>, <TConstruct:oreBerries:2>);
-
-// --- remove Tin Berrys in Furnace
-furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
-
-// --- remove Aluminium Berrys in Furnace
-furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
 // --- Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
