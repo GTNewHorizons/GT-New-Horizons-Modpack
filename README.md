@@ -87,6 +87,7 @@ Number of players: ~10<BR>
 * Better FPS	1.0.1<BR>
 * Bibliocraft	1.11.4<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
+* Binnie Patcher	1.6<BR>
 * Binnie Mods	2.0-pre14<BR>
 * Biomes o Plenty	2.1.0.1889<BR>
 * BlockLimiter	0.4<BR>
