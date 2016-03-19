@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.7.7 is out (06.03.2016)(GT New Horizons Coremod 1.1.26) (GTTweaker 1.1.0)
+Version 1.0.7.8 is out (19.03.2016)(GT New Horizons Coremod 1.1.31) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,11 +69,11 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.7.7 --- 06.03.2016<BR>
+## Modlist - NewHorizons 1.0.7.8 --- 19.03.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * AE2 Stuff	0.5.1.9<BR>
-* AFSU	1.2.2.a<BR>
+* AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
 * AppleCore	1.3.0<BR>
 * Applied Energistics	rv3stable5<BR>
@@ -83,6 +83,7 @@ Number of players: ~10<BR>
 * BackPack	2.0.1<BR>
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
+* Bee Specific	1.0.0<BR>
 * Better FPS	1.0.1<BR>
 * Bibliocraft	1.11.4<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -91,16 +92,16 @@ Number of players: ~10<BR>
 * BlockLimiter	0.4<BR>
 * Blood Arsenal	1.2.4<BR>
 * BloodMagic	1.3.3.17<BR>
-* Brandon's Core	1.0.0.10fix<BR>
-* Buildcraft	7.1.14<BR>
-* Buildcraft Compat	7.1.3<BR>
+* Brandon's Core	1.0.0.11<BR>
+* Buildcraft	7.1.16<BR>
+* Buildcraft Compat	7.1.4<BR>
 * Carpenter's Blocks	3.3.7<BR>
 * CodeChickenCore	1.07.48<BR>
 * CodeChickenLib	1.1.3.140<BR>
 * CofhCore	3.2.1.325<BR>
 * CofhLib	1.1.1.181<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2 snapshot 9<BR>
+* Draconic Evolution	1.0.2 RC2<BR>
 * Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.0.1.31<BR>
@@ -108,23 +109,23 @@ Number of players: ~10<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Portals 3	3.0.12<BR>
-* Extra Cells	2.3.9b188<BR>
+* Extra Cells	2.3.9b189<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.21<BR>
 * Flood Light	1.1.1.122<BR>
 * Forbidden Magic	0.573<BR>
-* Forestry	3.6.12.3<BR>
+* Forestry	4.2.10.58<BR>
 * Forge Microblocks	1.2.0.345<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
-* Galacticraft-Planets	3.0.12.400<BR>
-* GalacticraftCore	3.0.12.400<BR>
+* Galacticraft-Planets	3.0.12.452GS2.6Custom<BR>
+* GalacticraftCore	3.0.12.452GS2.6Custom<BR>
 * GalactiGreg	0.9.4<BR>
 * Galaxy Space	2.6 Beta<BR>
-* Gendustry	1.6.1.126<BR>
+* Gendustry	1.6.4.134<BR>
 * Gravitation Suite	2.0.65u<BR>
-* Gregtech	5.08.33.5custom<BR>
-* GT New Horizons Core Mod	1.1.26<BR>
+* Gregtech	5.08.33.6custom<BR>
+* GT New Horizons Core Mod	1.1.31<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Hardcore Questing Mod	4.4.4<BR>
@@ -134,7 +135,7 @@ Number of players: ~10<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.3.4a<BR>
 * IguanaTinkerTweaks	2.1.5<BR>
-* Industrial Craft 2	2.2.2.815<BR>
+* Industrial Craft 2	2.2.2.817<BR>
 * Industrial Craft 2 Nei Plugin	1.0.9<BR>
 * Infernal Mobs	1.6.6<BR>
 * Ingame Info XML	2.8.1.82<BR>
@@ -147,18 +148,18 @@ Number of players: ~10<BR>
 * JourneyMap	5.1.4<BR>
 * Lava Monsters	2.2.1<BR>
 * Lunatius Core	1.1.2.21<BR>
-* Magic Bees	2.3.6<BR>
+* Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.400<BR>
+* MicdoodleCore	3.0.12.452GS2.6Custom<BR>
 * Mine Tweaker 3	3.0.10B<BR>
 * Minecraft Forge	10.13.4.1617<BR>
 * Mod Tweaker 2	0.9.4.156<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.107<BR>
 * NEI	1.0.5.120<BR>
-* Nei Addons	1.12.12.37<BR>
+* Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
 * Nodal Mechanics	1.0-12<BR>
 * Open Blocks	1.5.1<BR>
@@ -168,7 +169,7 @@ Number of players: ~10<BR>
 * Open Modular Turrets 2.2.0.213<BR>
 * Open Printers	0.1.0.130<BR>
 * Open Security	1.0-91<BR>
-* Optifine	HD UD 1<BR>
+* Optifine	HD UD 3<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
@@ -180,13 +181,13 @@ Number of players: ~10<BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Railcraft	9.8.0.0<BR>
+* Railcraft	9.9.0.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
 * Rogue-like Dungeons	1.4.4<BR>
 * Schematica	1.7.6.131<BR>
-* SG Craft 1.9.5<BR>
+* SG Craft 1.11.0<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.1<BR>
 * Steve's Carts	2.0.0.18b<BR>
@@ -200,7 +201,7 @@ Number of players: ~10<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.3.1710.4<BR>
-* Thaumic Energistics	1.0.0.1<BR>
+* Thaumic Energistics	1.0.0.2fix<BR>
 * Thaumic Exploration	1.1.53<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
@@ -225,4 +226,4 @@ Number of players: ~10<BR>
 
 ---
 
-Maintained by Dream-Master, Namikon, Drobac, Teteros, Lefty, Methes, Warlord Wossman and Arnab.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes and Warlord Wossman.
