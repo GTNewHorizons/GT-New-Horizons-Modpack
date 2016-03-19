@@ -1,5 +1,0 @@
-shaped=
-    oredictionary:ingotIron ae2:BlockChest oredictionary:ingotIron,
-    cable ae2:ItemMaterial.Cell16kPart cable,
-    oredictionary:ingotIron ae2:ItemMaterial.EngProcessor oredictionary:ingotIron
-    -> ae2:BlockSecurity

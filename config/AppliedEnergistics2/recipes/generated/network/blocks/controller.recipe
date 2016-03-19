@@ -1,5 +1,0 @@
-shaped=
-    ae2:BlockSkyStone:1 ae2:ItemMaterial.PurifiedFluixCrystal ae2:BlockSkyStone:1,
-    ae2:ItemMaterial.PurifiedFluixCrystal ae2:ItemMaterial.EngProcessor ae2:ItemMaterial.PurifiedFluixCrystal,
-    ae2:BlockSkyStone:1 ae2:ItemMaterial.PurifiedFluixCrystal ae2:BlockSkyStone:1
-    -> ae2:BlockController

@@ -1,5 +1,0 @@
-shaped=
-    oredictionary:ingotIron oredictionary:ingotIron ae2:ItemMaterial.FormationCore,
-    ae2:ItemMaterial.Cell4kPart ae2:BlockEnergyCell _,
-    oredictionary:ingotIron _ _
-    -> ae2:ToolMassCannon
