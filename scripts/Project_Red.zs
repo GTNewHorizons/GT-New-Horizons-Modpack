@@ -303,6 +303,12 @@ recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:7>);
 // --- Pressure Resistance Tube
 recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:8>);
 
+// --- Network Vave Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:9>);
+
+// --- Network Latency Pipe
+recipes.remove(<ProjRed|Transportation:projectred.transportation.pipe:10>);
+
 // --- Item Responder Chip
 recipes.remove(<ProjRed|Transportation:projectred.transportation.routingchip>);
 
@@ -920,6 +926,12 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <
 
 // --- Pressure Resistance Tube
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <Railcraft:part.plate:1>, 300, 30);
+
+// --- Network Vave Pipe
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:9>, <ProjRed|Transportation:projectred.transportation.pipe>, <StevesCarts:ModuleComponents:60>, 200, 30);
+
+// --- Network Latency Pipe
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:10>, <ProjRed|Transportation:projectred.transportation.pipe>, <dreamcraft:item.StonePlate> * 4, 200, 30);
 
 // --- IC Chip
 Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 30); 
