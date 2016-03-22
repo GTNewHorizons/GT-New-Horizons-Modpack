@@ -257,6 +257,12 @@ mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:2>);
 // --- Refined Iron Ingot
 mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:3>);
 
+// --- Cobalt Ingot
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11033>);
+
+// --- Cobalt Nugget
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9033>);
+
 // --- Chain Helmet
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
 
@@ -268,6 +274,22 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_leggings>);
 
 // --- Chain Boots
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
+
+// --- Steel Ingot
+//mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
+
+// --- Cobalt Dust
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2033>);
+
+// --- Cobalt Nugget
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
+
+// --- Cobalt Ingot
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:11033>);
+
+// --- Cobalt Block
+mods.tconstruct.Smeltery.removeMelting(<GemBlocksForGreg:tile.metalBlock0:9>);
+
 
 
 // --- Oredict Obsidian Tool Rod
@@ -787,9 +809,6 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:9032>, <liquid:i
 // --- Bronze Nugget
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:9300>, <liquid:bronze.molten> *16, <TConstruct:metalPattern:27>, false, 20);
 
-// --- Cobalt Nugget
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:9033>, <liquid:cobalt.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
-
 // --- Copper Ingot
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11035>, <liquid:copper.molten> * 144, <TConstruct:metalPattern>, false, 100);
 
@@ -1056,17 +1075,6 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2019>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3019>, <liquid:aluminum.molten> * 144, 400, <TConstruct:SearedBrick:5>);
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4019>, <liquid:aluminum.molten> * 144, 400, <TConstruct:SearedBrick:5>);
-
-// --- Gt Cobalt
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:33>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
-// -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
-// -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
-// -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
-// -
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
 
 // --- Gt Nickel
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:34>, <liquid:nickel.molten> * 144, 400, <gregtech:gt.blockores:34>);
