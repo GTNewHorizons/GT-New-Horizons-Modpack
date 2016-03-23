@@ -6,7 +6,28 @@
 
 
 
+import mods.nei.NEI;
+import minetweaker.item.IItemStack;
+
+
+
 // --- Variables ---
+
+
+
+val CAP_Shadow = <TaintedMagic:ShadowCap>;
+val CAP_Cloth = <TaintedMagic:ClothCap>;
+val CAP_Crimson = <TaintedMagic:CrimsonClothCap>;
+val CAP_ShadowCloth = <TaintedMagic:ShadowClothCap>;
+val CAP_Alchemic = <ForbiddenMagic:WandCaps>;
+val CAP_BloodInfused = <BloodArsenal:wand_caps>;
+val CAP_VoidMetalUC = <Thaumcraft:WandCap:8>;
+val CAP_VoidMetal = <Thaumcraft:WandCap:7>;
+val CAP_MechanistUC = <ThaumicExploration:mechanistCapUncharged>;
+val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
+val CAP_Soj = <ThaumicExploration:sojournerCap>;
+val CAP_Mechanist = <ThaumicExploration:mechanistCap>;
+val CAP_Kami = <ThaumicTinkerer:kamiResource:4>;
 
 
 
@@ -32,7 +53,32 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:*>);
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:*>);
 
 
+// All missing wand caps
+function remove_TC_Infusion(pItem as IItemStack) {
+mods.thaumcraft.Infusion.removeRecipe(pItem);
+NEI.hide(pItem);
+}
 
+function remove_TC_Arcane(pItem as IItemStack) {
+mods.thaumcraft.Arcane.removeRecipe(pItem);
+NEI.hide(pItem);
+}
+
+// Infusion Caps
+remove_TC_Infusion(CAP_Shadow);
+remove_TC_Infusion(CAP_Alchemic);
+remove_TC_Infusion(CAP_BloodInfused);
+remove_TC_Infusion(CAP_Mechanist);
+remove_TC_Infusion(CAP_Soj);
+
+
+// Arcane Bench Caps
+remove_TC_Arcane(CAP_Cloth);
+remove_TC_Arcane(CAP_Crimson);
+remove_TC_Arcane(CAP_ShadowCloth);
+remove_TC_Arcane(CAP_MechanistUC);
+remove_TC_Arcane(CAP_SojUC);
+remove_TC_Arcane(CAP_Kami);
 
 
 
