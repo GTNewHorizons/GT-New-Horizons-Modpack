@@ -8,6 +8,10 @@
 
 
 
+import mods.ic2.Compressor;
+import mods.gregtech.CuttingSaw;
+import mods.gregtech.PrecisionLaser;
+
 
 // --- Variables ---
 val kamiRes = <ThaumicTinkerer:kamiResource>;
@@ -32,7 +36,11 @@ recipes.remove(<ThaumicTinkerer:shareBook>);
 // --- Dark Quartz
 recipes.remove(<ThaumicTinkerer:darkQuartzItem>);
 // -
-recipes.remove(<ThaumicTinkerer:darkQuartz:*>);
+recipes.remove(<ThaumicTinkerer:darkQuartz>);
+// -
+recipes.remove(<ThaumicTinkerer:darkQuartz:1>);
+// -
+recipes.remove(<ThaumicTinkerer:darkQuartz:3>);
 // -
 recipes.remove(<ThaumicTinkerer:darkQuartzSlab>);
 
@@ -41,6 +49,9 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:interface>);
 
 // --- Transvector Binder
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:connector>);
+
+// --- Transvector Dislocator
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:dislocator>);
 
 
 
@@ -68,7 +79,7 @@ mods.thaumcraft.Research.addInfusionPage("SHARETOME", <ThaumicTinkerer:shareBook
 // --- Dark Quartz
 mods.thaumcraft.Research.orphanResearch("DARK_QUARTZ");
 mods.thaumcraft.Research.removeResearch("DARK_QUARTZ");
-mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2, 2, 0, <ThaumicTinkerer:darkQuartzItem>);
+mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "tenebrae 6, vitreus 3", -2, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
 mods.thaumcraft.Research.setRound("DARKQUARTZ", true);
 game.setLocalization("en_US", "tc.research_name.DARKQUARTZ", "Smokey Quartz");
 game.setLocalization("en_US", "tc.research_text.DARKQUARTZ", "[TT] Shadow of the Day");
@@ -85,7 +96,16 @@ mods.thaumcraft.Arcane.addShaped("DARKQUARTZ", <ThaumicTinkerer:darkQuartzItem>,
 [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]]);
 // -
 mods.thaumcraft.Research.addArcanePage("DARKQUARTZ", <ThaumicTinkerer:darkQuartzItem>);
+// -
+mods.thaumcraft.Research.addCraftingPage("DARKQUARTZ", <ThaumicTinkerer:darkQuartz:2>);
+// -
+mods.thaumcraft.Research.addCraftingPage("DARKQUARTZ", <ThaumicTinkerer:darkQuartzSlab>);
+// -
+mods.thaumcraft.Research.addCraftingPage("DARKQUARTZ", <ThaumicTinkerer:darkQuartzStairs>);
 
+// --- Dark Quartz Slab
+recipes.addShaped(<ThaumicTinkerer:darkQuartzSlab> * 2, [
+[<ore:craftingToolSaw>, <ThaumicTinkerer:darkQuartz>]]);
 
 // --- Transvector Interface
 mods.thaumcraft.Research.addPrereq("INTERFACE", "INFUSION", false);
@@ -103,7 +123,48 @@ mods.thaumcraft.Arcane.addShaped("INTERFACE", <ThaumicTinkerer:connector>, "ordo
 [<Forestry:oakStick>, null, <Thaumcraft:ItemShard:3>]]);
 // -
 mods.thaumcraft.Research.setAspects("INTERFACE", "ordo 12, perditio 9, potentia 6, aqua 3");
-mods.thaumcraft.Research.setComplexity("CAP_copper", 3);
+mods.thaumcraft.Research.setComplexity("INTERFACE", 3);
+
+// --- Transvector Interface
+mods.thaumcraft.Arcane.addShaped("DISLOCATOR", <ThaumicTinkerer:dislocator>, "ordo 48, perditio 48, terra 24", [
+[<ore:screwThaumium>, <Thaumcraft:ItemResource:10>, <ore:plateEnderPearl>],
+[<ore:circuitBasic>, <ThaumicTinkerer:interface>, <ore:circuitBasic>],
+[<ore:plateEnderPearl>, <Thaumcraft:ItemResource:10>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("DISLOCATOR", "cognitio 15, ordo 12, perditio 9, potentia 6, aqua 3");
+mods.thaumcraft.Research.setComplexity("DISLOCATOR", 4);
+
+
+
+// --- Compressor Recipes ---
+
+
+
+// --- DArk Quartz Block
+Compressor.addRecipe(<ThaumicTinkerer:darkQuartz>, <ThaumicTinkerer:darkQuartzItem> * 4);
+
+// --- Stone Pressure Plate
+CuttingSaw.addRecipe(<ThaumicTinkerer:darkQuartzSlab> * 2, null, <ThaumicTinkerer:darkQuartz>, <liquid:water> * 5, 100, 8);
+// -
+CuttingSaw.addRecipe(<ThaumicTinkerer:darkQuartzSlab> * 2, null, <ThaumicTinkerer:darkQuartz>, <liquid:ic2distilledwater> * 4, 100, 8);
+// -
+CuttingSaw.addRecipe(<ThaumicTinkerer:darkQuartzSlab> * 2, null, <ThaumicTinkerer:darkQuartz>, <liquid:lubricant> * 1, 50, 8);
+
+
+
+// --- Percission Laser Recipes
+
+
+
+// --- Chiseld Black Quartz Block
+PrecisionLaser.addRecipe(<ThaumicTinkerer:darkQuartz:1>, <gregtech:gt.metaitem.01:24506>, <ThaumicTinkerer:darkQuartz>, 50, 16);
+// -
+PrecisionLaser.addRecipe(<ThaumicTinkerer:darkQuartz:1>, <gregtech:gt.metaitem.01:24515>, <ThaumicTinkerer:darkQuartz>, 50, 16);
+// -
+PrecisionLaser.addRecipe(<ThaumicTinkerer:darkQuartz:1>, <gregtech:gt.metaitem.01:24545>, <ThaumicTinkerer:darkQuartz>, 50, 16);
+// -
+PrecisionLaser.addRecipe(<ThaumicTinkerer:darkQuartz:1>, <gregtech:gt.metaitem.01:24890>, <ThaumicTinkerer:darkQuartz>, 50, 16);
+
 
 
 
@@ -114,3 +175,6 @@ mods.thaumcraft.Research.setComplexity("CAP_copper", 3);
 
 // --- Transvector Interface
 mods.thaumcraft.Research.refreshResearchRecipe("INTERFACE");
+
+// --- Transvector Dislocator
+mods.thaumcraft.Research.refreshResearchRecipe("DISLOCATOR");
