@@ -14,6 +14,26 @@
 
 
 
+// --- Wand Rods/cores
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:2>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:50>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:51>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:52>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:53>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:54>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:55>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:56>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:57>);
+
+
 
 // --- Adding Recipes ---
 
@@ -1598,6 +1618,12 @@ mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:216>.w
 // --- Refresh Recipese --- 
 
 
+
+// --- Silverwood Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
+
+// --- Greatwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood_staff");
 
 
 
