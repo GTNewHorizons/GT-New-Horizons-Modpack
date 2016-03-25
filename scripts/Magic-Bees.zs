@@ -194,7 +194,7 @@ mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
-mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metalum 12, vitreus 12, ordo 9, motus 6, machina 3");
+mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metallum 12, vitreus 12, ordo 9, motus 6, machina 3");
 mods.thaumcraft.Research.setComplexity("MB_VisAuraProvider", 4);
 mods.thaumcraft.Research.setConcealed("MB_VisAuraProvider", true);
 mods.thaumcraft.Warp.addToResearch("MB_VisAuraProvider", 2);

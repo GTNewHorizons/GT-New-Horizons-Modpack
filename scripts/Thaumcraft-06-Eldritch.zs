@@ -14,6 +14,10 @@
 
 
 
+// --- Staff Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:100>);
+
+
 
 // --- Void Seed
 //mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
