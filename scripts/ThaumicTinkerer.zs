@@ -104,6 +104,24 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:funnel>);
 // --- Thaumic Restorer
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:repairer>);
 
+// --- Kinetic Attractor
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:magnet>);
+
+// --- Corporeal Attractor
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:magnet:1>);
+
+// --- Soul Mauld
+mods.thaumcraft.Crucible.removeRecipe(<ThaumicTinkerer:soulMould>);
+
+// --- Dynamism Tablet
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:animationTablet>);
+
+// --- Levitational Locomotive
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:Levitational Locomotive>);
+
+// --- Levitational Locomotive Relay
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:Levitational Locomotive Relay>);
+
 
 
 
@@ -394,7 +412,7 @@ mods.thaumcraft.Research.addCruciblePage("INFUSEDPOTIONS", <ThaumicTinkerer:infu
 // --- Potion of Aqua
 mods.thaumcraft.Crucible.addRecipe("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion:3>, <ThaumicTinkerer:infusedGrain:3>, "auram 16, aqua 16, praecantatio 8");
 mods.thaumcraft.Research.addCruciblePage("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion:3>);
-mods.thaumcraft.Warp.addToResearch("INFUSEDPOTIONS", 4);
+mods.thaumcraft.Warp.addToResearch("INFUSEDPOTIONS", 2);
 
 // --- Essentia Funnel
 mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "INFUSION", false);
@@ -415,12 +433,59 @@ mods.thaumcraft.Infusion.addRecipe("REPAIRER", <Thaumcraft:blockCosmeticSolid:4>
 mods.thaumcraft.Research.setAspects("REPAIRER", "instrumentum 15, fabrico 12, oder 9, potentia 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("REPAIRER", 4);
 
+// --- Kinetic Attractor
+mods.thaumcraft.Arcane.addShaped("MAGNETS", <ThaumicTinkerer:magnet>, "aer 30, terra 25, ordo 20, perditio 15", [
+[<ore:screwThaumium>, <ore:plateSteelMagnetic>, <ore:screwThaumium>],
+[<Thaumcraft:blockCrystal:3>, <ore:plateThaumium>, <Thaumcraft:blockCrystal>],
+[<Thaumcraft:blockMagicalLog>, <ThaumicTinkerer:focusTelekinesis>, <Thaumcraft:blockMagicalLog>]]);
+// -
+mods.thaumcraft.Research.setAspects("MAGNETS", "betsia 15, machina 15, motuus 12, sesus 9, order 6, spritus 3");
+mods.thaumcraft.Research.setComplexity("MAGNETS", 4);
+mods.thaumcraft.Warp.addToResearch("MAGNETS", 2);
+
+// --- Corporeal Attractor
+mods.thaumcraft.Arcane.addShaped("MAGNETS", <ThaumicTinkerer:magnet:1>, "aer 25, terra 30, ordo 15, perditio 20", [
+[<ore:screwThaumium>, <ore:plateThaumium>, <ore:screwThaumium>],
+[<Thaumcraft:blockCrystal:3>, <ore:plateSteelMagnetic>, <Thaumcraft:blockCrystal>],
+[<Thaumcraft:blockMagicalLog:1>, <ThaumicTinkerer:focusTelekinesis>, <Thaumcraft:blockMagicalLog:1>]]);
+
+// --- Soul Mauld
+mods.thaumcraft.Crucible.addRecipe("MAGNETS", <ThaumicTinkerer:soulMould>, <minecraft:ender_eye>, "bestia 8, cognitio 8, sensus 8, spiritus 8");
+
+// --- Dynamism Tablet
+mods.thaumcraft.Arcane.addShaped("ANIMATION_TABLET", <ThaumicTinkerer:animationTablet>, "aer 35, ignis 30, ordo 20", [
+[<ore:plateRoseGold>, <ore:plateThaumium>, <ore:plateRoseGold>],
+[<ore:plateElectrum>, <ore:plateThaumium>, <ore:plateElectrum>],
+[<ore:screwThaumium>, <Thaumcraft:ItemGolemCore:100>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("ANIMATION_TABLET", "machina 15, metallum 15, motuus 12, potentia 9, order 6, exanimis 3");
+mods.thaumcraft.Research.setComplexity("ANIMATION_TABLET", 4);
+mods.thaumcraft.Warp.addToResearch("ANIMATION_TABLET", 3);
+
+// --- Levitational Locomotive
+mods.thaumcraft.Infusion.addRecipe("LEVITATOR_LOCOMOTIVE", <Thaumcraft:blockLifter>, 
+[<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:27032>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:27032>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:27032>],
+"motus 30, ordo 20, praecantatio 15, aer 25, potentia 10", <ThaumicTinkerer:Levitational Locomotive>, 4);
+// -
+mods.thaumcraft.Research.setAspects("LEVITATOR_LOCOMOTIVE", "motuus 15, ordo 15, machina 12, aer 9, potentia 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("LEVITATOR_LOCOMOTIVE", 3);
+
+// --- Levitational Locomotive Relay
+mods.thaumcraft.Arcane.addShaped("LEVITATOR_LOCOMOTIVE", <ThaumicTinkerer:Levitational Locomotive Relay>, "aer 30, terra 20, ordo 10", [
+[<ore:paneGlassColorless>, <ore:lensInfusedWater>, <ore:paneGlassColorless>],
+[<ore:lensInfusedWater>, <Thaumcraft:blockMagicalLog>, <ore:lensInfusedWater>],
+[<ore:paneGlassColorless>, <ore:lensInfusedWater>, <ore:paneGlassColorless>]]);
+
+
+
+
+
 
 // --- Compressor Recipes ---
 
 
 
-// --- DArk Quartz Block
+// --- Dark Quartz Block
 Compressor.addRecipe(<ThaumicTinkerer:darkQuartz>, <ThaumicTinkerer:darkQuartzItem> * 4);
 
 // --- Stone Pressure Plate
@@ -494,3 +559,12 @@ mods.thaumcraft.Research.refreshResearchRecipe("FUNNEL");
 
 // --- Thaumic Restorer
 mods.thaumcraft.Research.refreshResearchRecipe("REPAIRER");
+
+// --- Copereal and Kinetic Attractor, Soul Mauld
+mods.thaumcraft.Research.refreshResearchRecipe("MAGNETS");
+
+// --- Dynamism Tablet
+mods.thaumcraft.Research.refreshResearchRecipe("ANIMATION_TABLET");
+
+// --- Levitational Locomotive and Relay
+mods.thaumcraft.Research.refreshResearchRecipe("LEVITATOR_LOCOMOTIVE");
