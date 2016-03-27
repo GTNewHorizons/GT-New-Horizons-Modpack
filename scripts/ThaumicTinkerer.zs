@@ -122,6 +122,48 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:Levitational Locomotive>)
 // --- Levitational Locomotive Relay
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:Levitational Locomotive Relay>);
 
+// --- Talisman of Remedium
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:cleansingTalisman>);
+
+// --- Ethereal Platform
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:platform>);
+
+// --- Cursed Spitit Blade
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:bloodSword>);
+
+// --- Tablet of Necromancy
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:spawner>);
+
+// --- Wand Focus Efreets Flame
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:focusSmelt>);
+
+// --- Wand Focus Uprising
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusFlight>);
+
+// --- Wand Focus Distortion
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusDeflect>);
+
+// --- Wand Focus Ender Rift
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:focusEnderChest>);
+
+// --- Wand Focus Telekinesis
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusTelekinesis>);
+
+// --- Wand Focus Dislocation
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusDislocation>);
+
+// --- Wand Focus Mending
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusHeal>);
+
+// --- Osmotic Enchanter
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:enchanter>);
+
+// --- Spellbounding Cloth
+mods.thaumcraft.Crucible.removeRecipe(<ThaumicTinkerer:spellCloth>);
+
+// --- Talisman of Withhold
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:xpTalisman>);
+
 
 
 
@@ -415,8 +457,7 @@ mods.thaumcraft.Research.addCruciblePage("INFUSEDPOTIONS", <ThaumicTinkerer:infu
 mods.thaumcraft.Warp.addToResearch("INFUSEDPOTIONS", 2);
 
 // --- Essentia Funnel
-mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "INFUSION", false);
-mods.thaumcraft.Research.setConcealed("ENDERPOUCHE", true);
+mods.thaumcraft.Research.addPrereq("FUNNEL", "INFUSION", false);
 mods.thaumcraft.Arcane.addShaped("FUNNEL", <ThaumicTinkerer:funnel>, "ordo 8, perditio 8, aqua 8", [
 [<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>],
 [<ore:plateThaumium>, <ore:pipeMediumStainlessSteel>, <ore:plateThaumium>]]);
@@ -439,7 +480,7 @@ mods.thaumcraft.Arcane.addShaped("MAGNETS", <ThaumicTinkerer:magnet>, "aer 30, t
 [<Thaumcraft:blockCrystal:3>, <ore:plateThaumium>, <Thaumcraft:blockCrystal>],
 [<Thaumcraft:blockMagicalLog>, <ThaumicTinkerer:focusTelekinesis>, <Thaumcraft:blockMagicalLog>]]);
 // -
-mods.thaumcraft.Research.setAspects("MAGNETS", "betsia 15, machina 15, motuus 12, sesus 9, order 6, spritus 3");
+mods.thaumcraft.Research.setAspects("MAGNETS", "bestia 15, machina 15, motus 12, sensus 9, ordo 6, spiritus 3");
 mods.thaumcraft.Research.setComplexity("MAGNETS", 4);
 mods.thaumcraft.Warp.addToResearch("MAGNETS", 2);
 
@@ -453,21 +494,23 @@ mods.thaumcraft.Arcane.addShaped("MAGNETS", <ThaumicTinkerer:magnet:1>, "aer 25,
 mods.thaumcraft.Crucible.addRecipe("MAGNETS", <ThaumicTinkerer:soulMould>, <minecraft:ender_eye>, "bestia 8, cognitio 8, sensus 8, spiritus 8");
 
 // --- Dynamism Tablet
+mods.thaumcraft.Research.setConcealed("ANIMATION_TABLET", true);
 mods.thaumcraft.Arcane.addShaped("ANIMATION_TABLET", <ThaumicTinkerer:animationTablet>, "aer 35, ignis 30, ordo 20", [
 [<ore:plateRoseGold>, <ore:plateThaumium>, <ore:plateRoseGold>],
 [<ore:plateElectrum>, <ore:plateThaumium>, <ore:plateElectrum>],
 [<ore:screwThaumium>, <Thaumcraft:ItemGolemCore:100>, <ore:screwThaumium>]]);
 // -
-mods.thaumcraft.Research.setAspects("ANIMATION_TABLET", "machina 15, metallum 15, motuus 12, potentia 9, order 6, exanimis 3");
+mods.thaumcraft.Research.setAspects("ANIMATION_TABLET", "machina 15, metallum 15, motus 12, potentia 9, ordo 6, exanimis 3");
 mods.thaumcraft.Research.setComplexity("ANIMATION_TABLET", 4);
 mods.thaumcraft.Warp.addToResearch("ANIMATION_TABLET", 3);
 
 // --- Levitational Locomotive
+mods.thaumcraft.Research.setConcealed("LEVITATOR_LOCOMOTIVE", true);
 mods.thaumcraft.Infusion.addRecipe("LEVITATOR_LOCOMOTIVE", <Thaumcraft:blockLifter>, 
 [<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:27032>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:27032>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:27032>],
 "motus 30, ordo 20, praecantatio 15, aer 25, potentia 10", <ThaumicTinkerer:Levitational Locomotive>, 4);
 // -
-mods.thaumcraft.Research.setAspects("LEVITATOR_LOCOMOTIVE", "motuus 15, ordo 15, machina 12, aer 9, potentia 6, praecantatio 3");
+mods.thaumcraft.Research.setAspects("LEVITATOR_LOCOMOTIVE", "motus 15, ordo 15, machina 12, aer 9, potentia 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("LEVITATOR_LOCOMOTIVE", 3);
 
 // --- Levitational Locomotive Relay
@@ -475,6 +518,140 @@ mods.thaumcraft.Arcane.addShaped("LEVITATOR_LOCOMOTIVE", <ThaumicTinkerer:Levita
 [<ore:paneGlassColorless>, <ore:lensInfusedWater>, <ore:paneGlassColorless>],
 [<ore:lensInfusedWater>, <Thaumcraft:blockMagicalLog>, <ore:lensInfusedWater>],
 [<ore:paneGlassColorless>, <ore:lensInfusedWater>, <ore:paneGlassColorless>]]);
+
+// --- Talisman of Remedium
+mods.thaumcraft.Research.addPrereq("CLEANSING_TALISMAN", "DARKQUARTZ", false);
+mods.thaumcraft.Research.addPrereq("CLEANSING_TALISMAN", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("CLEANSING_TALISMAN", "RUNICARMOR", false);
+mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);
+mods.thaumcraft.Infusion.addRecipe("CLEANSING_TALISMAN", <minecraft:ender_eye>, 
+[<ThaumicTinkerer:darkQuartzItem>, <Thaumcraft:ItemResource:1>, <ThaumicTinkerer:darkQuartzItem>, <minecraft:ghast_tear>, <ThaumicTinkerer:darkQuartzItem>, <minecraft:ghast_tear>, <ThaumicTinkerer:darkQuartzItem>, <Thaumcraft:ItemResource:1>],
+"humanus 32, instrumentum 24, sano 16, victus 16", <ThaumicTinkerer:cleansingTalisman>, 4);
+// -
+mods.thaumcraft.Research.setAspects("CLEANSING_TALISMAN", "sano 15, ordo 12, mortuus 9, victus 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("CLEANSING_TALISMAN", 3);
+
+// --- Ethereal Platform
+mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);
+mods.thaumcraft.Arcane.addShaped("PLATFORM", <ThaumicTinkerer:platform> * 2, "aer 10, perditio 10", [
+[<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>],
+[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:6>]]);
+// -
+mods.thaumcraft.Research.setAspects("PLATFORM", "sensus 12, arbor 9, motus 6, iter 3, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("PLATFORM", 3);
+
+// --- Cursed Spitit Blade
+mods.thaumcraft.Research.setConcealed("BLOOD_SWORD", true);
+mods.thaumcraft.Infusion.addRecipe("BLOOD_SWORD", <Thaumcraft:ItemSwordThaumium>,
+[<gregtech:gt.metaitem.02:29500>, <minecraft:ghast_tear>, <minecraft:rotten_flesh>, <minecraft:porkchop>, <minecraft:fish>, <minecraft:nether_wart>, <gregtech:gt.metaitem.02:29500>, <minecraft:bone>, <minecraft:beef>, <minecraft:blaze_powder>, <minecraft:spider_eye>, <minecraft:chicken>],
+"fames 32, humanus 8, spiritus 16, tenebrae 24, telum 16", <ThaumicTinkerer:bloodSword>, 8);
+// -
+mods.thaumcraft.Research.setAspects("BLOOD_SWORD", "fames 15, telum 12, corpus 9, spiritus 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("BLOOD_SWORD", 4);
+mods.thaumcraft.Warp.addToResearch("BLOOD_SWORD", 3);
+
+// --- Tablet of Necromancy
+mods.thaumcraft.Research.setConcealed("SUMMON", true);
+mods.thaumcraft.Arcane.addShaped("SUMMON", <ThaumicTinkerer:spawner>, "ordo 75, perditio 75, terra 50", [
+[<ore:gemFlawlessRuby>, <Thaumcraft:blockMetalDevice:5>, <ore:gemFlawlessRuby>],
+[<Thaumcraft:blockCosmeticSolid:8>, <ore:plateDenseObsidian>, <Thaumcraft:blockCosmeticSolid:8>],
+[<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>]]);
+// -
+mods.thaumcraft.Research.setAspects("SUMMON", "telum 15, bestia 12, praecantatio 9, spiritus 6, terra 3");
+mods.thaumcraft.Research.setComplexity("SUMMON", 4);
+mods.thaumcraft.Warp.addToResearch("SUMMON", 5);
+
+// --- Wand Focus Efreets Flame
+mods.thaumcraft.Arcane.addShaped("FOCUS_SMELT", <ThaumicTinkerer:focusSmelt>, "ignis 16, perditio 12, ordo 12, aer 8", [
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:FocusExcavation>, <Thaumcraft:ItemResource:14>],
+[<Thaumcraft:ItemResource:1>, <minecraft:furnace>, <Thaumcraft:ItemResource:1>],
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:FocusFire>, <Thaumcraft:ItemResource:14>]]);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_SMELT", "ignis 15, potentia 12, praecantatio 9, aer 6, terra 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_SMELT", 3);
+
+// --- Wand Focus Uprising
+mods.thaumcraft.Research.addPrereq("FOCUS_FLIGHT", "FOCUSFIRE", false);
+mods.thaumcraft.Infusion.addRecipe("FOCUS_FLIGHT", <Thaumcraft:ItemSwordElemental>,
+[<gregtech:gt.metaitem.02:21330>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:2532>, <gregtech:gt.metaitem.02:21330>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:2532>],
+"aer 32, iter 24, motus 32, volatus 24, aer 16", <ThaumicTinkerer:focusFlight>, 6);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_FLIGHT", "motus 15, aer 12, praecantatio 9, volatus 6, iter 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_FLIGHT", 4);
+
+// --- Wand Focus Distortion
+mods.thaumcraft.Research.addPrereq("FOCUS_DEFLECT", "FOCUS_FLIGHT", false);
+mods.thaumcraft.Infusion.addRecipe("FOCUS_DEFLECT", <ThaumicTinkerer:focusFlight>,
+[<Thaumcraft:ItemResource:10>, <Thaumcraft:blockCosmeticSolid:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemResource:10>, <Thaumcraft:blockCosmeticSolid:3>, <Thaumcraft:blockCrystal:4>],
+"aer 32, ordo 24, tutamen 32, auram 24, alienis 16", <ThaumicTinkerer:focusDeflect>, 6);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_DEFLECT", "alienis 15, praecantatio 12, permutatio 9, auram 6, aer 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_DEFLECT", 4);
+
+// --- Wand Focus Ender Rift
+mods.thaumcraft.Research.addPrereq("FOCUS_ENDER_CHEST", "ENDERCHEST", false);
+mods.thaumcraft.Arcane.addShaped("FOCUS_ENDER_CHEST", <ThaumicTinkerer:focusEnderChest>, "perditio 50, ordo 50", [
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:blockMirror>, <Thaumcraft:ItemResource:14>],
+[<ore:plateEnderium>, <Thaumcraft:FocusPortableHole>, <ore:plateEnderium>],
+[<Thaumcraft:ItemResource:14>, <ore:plateNetherStar>, <Thaumcraft:ItemResource:14>]]);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_ENDER_CHEST", "alienis 15, vacuos 12, praecantatio 9, tenebrae 6, terra 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_ENDER_CHEST", 4);
+mods.thaumcraft.Warp.addToResearch("ANIMATION_TABLET", 3);
+
+// --- Wand Focus Telekinesis
+mods.thaumcraft.Infusion.addRecipe("FOCUS_TELEKINESIS", <ThaumicTinkerer:focusFlight>,
+[<Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:17355>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:17355>, <gregtech:gt.metaitem.01:17522>],
+"aer 24, cognitio 32, motus 32, perditio 24, lucrum 16", <ThaumicTinkerer:focusTelekinesis>, 10);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_TELEKINESIS", "alienis 15, motus 15, praecantatio 12, cognitio 9, lucrum 6");
+mods.thaumcraft.Research.setComplexity("FOCUS_TELEKINESIS", 4);
+
+// --- Wand Focus Dislocation
+mods.thaumcraft.Research.addPrereq("FOCUS_DISLOCATION", "FOCUSTRADE", false);
+mods.thaumcraft.Infusion.addRecipe("FOCUS_DISLOCATION", <Thaumcraft:FocusTrade>,
+[<gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.02:29514>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.02:29514>, <gregtech:gt.metaitem.01:17522>],
+"alienis 64, praecantatio 32, tenebrae 32, vacuos 32, vitium 16, permutatio 16 ", <ThaumicTinkerer:focusDislocation>, 10);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_DISLOCATION", "alienis 15, permutatio 15, praecantatio 12, tenebrae 9, vacuos 6, vitium 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_DISLOCATION", 4);
+mods.thaumcraft.Warp.addToResearch("FOCUS_DISLOCATION", 3);
+
+// --- Wand Focus Mending
+mods.thaumcraft.Infusion.addRecipe("FOCUS_HEAL", <Thaumcraft:FocusPech>,
+[<minecraft:golden_apple>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:ItemResource:14>, <minecraft:golden_carrot>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:ItemResource:14>],
+"sano 24, spiritus 32, praecantatio 32, victus 24", <ThaumicTinkerer:focusHeal>, 10);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_HEAL", "sano 15, victus 15, praecantatio 12, spiritus 9, cognitio 6");
+mods.thaumcraft.Research.setComplexity("FOCUS_HEAL", 4);
+
+// --- Osmotic Enchanter
+mods.thaumcraft.Research.addPrereq("ENCHANTER", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPrereq("ENCHANTER", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("ENCHANTER", true);
+mods.thaumcraft.Infusion.addRecipe("ENCHANTER", <minecraft:enchanting_table>,
+[<Thaumcraft:blockCosmeticSolid>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17330>, <ThaumicTinkerer:spellCloth>, <Thaumcraft:blockCosmeticSolid>, <ThaumicTinkerer:spellCloth>, <gregtech:gt.metaitem.01:17330>, <ThaumicTinkerer:spellCloth>, <Thaumcraft:blockCosmeticSolid>, <ThaumicTinkerer:spellCloth>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockCosmeticSolid>],
+"alienis 64, cognitio 64, potentia 64, praecantatio 64, auram 64, vacuos 64 ", <ThaumicTinkerer:enchanter>, 12);
+// -
+mods.thaumcraft.Research.setAspects("ENCHANTER", "alienis 15, praecantatio 15, auram 12, tenebrae 12, vacuos 9, cognitio 6, terra 3");
+mods.thaumcraft.Research.setComplexity("ENCHANTER", 4);
+mods.thaumcraft.Warp.addToResearch("ENCHANTER", 3);
+
+// --- Spellbounding Cloth
+mods.thaumcraft.Research.addPrereq("SPELL_CLOTH", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("SPELL_CLOTH", true);
+mods.thaumcraft.Crucible.addRecipe("SPELL_CLOTH", <ThaumicTinkerer:spellCloth>, <Thaumcraft:ItemResource:7>, "perditio 16, praecantatio 16, permutatio 8, alienis 8");
+// -
+mods.thaumcraft.Research.setAspects("SPELL_CLOTH", "praecantatio 12, pannus 9, auram 6, alienis 3");
+mods.thaumcraft.Research.setComplexity("SPELL_CLOTH", 3);
+
+// --- Talisman of Withhold
+mods.thaumcraft.Infusion.addRecipe("XP_TALISMAN", <Thaumcraft:ItemBaubleBlanks>, 
+[<Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17500>],
+"bestia 24, lucrum 32, machina 16, permutatio 16, humanus 8", <ThaumicTinkerer:xpTalisman>, 8);
+// -
+mods.thaumcraft.Research.setAspects("XP_TALISMAN", "lucrum 15, praecantatio 12, humanus 9, auram 6, machina 3");
+mods.thaumcraft.Research.setComplexity("XP_TALISMAN", 4);
 
 
 
@@ -568,3 +745,45 @@ mods.thaumcraft.Research.refreshResearchRecipe("ANIMATION_TABLET");
 
 // --- Levitational Locomotive and Relay
 mods.thaumcraft.Research.refreshResearchRecipe("LEVITATOR_LOCOMOTIVE");
+
+// --- Talisman of Remedium
+mods.thaumcraft.Research.refreshResearchRecipe("CLEANSING_TALISMAN");
+
+// --- Ethereal Platform
+mods.thaumcraft.Research.refreshResearchRecipe("PLATFORM");
+
+// --- Cursed Spitit Blade
+mods.thaumcraft.Research.refreshResearchRecipe("BLOOD_SWORD");
+
+// --- Tablet of Necromancy
+mods.thaumcraft.Research.refreshResearchRecipe("SUMMON");
+
+// --- Wand Focus Efreets Flame
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_SMELT");
+
+// --- Wand Focus Uprising
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_FLIGHT");
+
+// --- Wand Focus Distortion
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_DEFLECT");
+
+// --- Wand Focus Ender Rift
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_ENDER_CHEST");
+
+// --- Wand Focus Telekinesis
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_TELEKINESIS");
+
+// --- Wand Focus Dislocation
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_DISLOCATION");
+
+// --- Wand Focus Mending
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_HEAL");
+
+// --- Osmotic Enchanter
+mods.thaumcraft.Research.refreshResearchRecipe("ENCHANTER");
+
+// --- Spellbounding Cloth
+mods.thaumcraft.Research.refreshResearchRecipe("SPELL_CLOTH");
+
+// --- Talisman of Withhold
+mods.thaumcraft.Research.refreshResearchRecipe("XP_TALISMAN");

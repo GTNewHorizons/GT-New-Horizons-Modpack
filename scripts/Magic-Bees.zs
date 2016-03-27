@@ -282,6 +282,7 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
 mods.thaumcraft.Research.addSibling("MB_FrameMagic", "INFUSION");
+mods.thaumcraft.Research.setConcealed("MB_FrameMagic", true);
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
 mods.thaumcraft.Research.addPage("MB_FrameMagic", "tc.research_page.MB_FrameMagic.1");
 mods.thaumcraft.Arcane.addShaped("MB_FrameMagic", <MagicBees:frameMagic>, "ordo 8, terra 8, aer 8, perditio 8, ignis 8, aqua 8", [
@@ -299,6 +300,7 @@ game.setLocalization("en_US", "tc.research_text.GENTLEFRAME", "[MB] Magic Living
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addSibling("GENTLEFRAME", "MB_EssenceLife");
 mods.thaumcraft.Research.addSibling("GENTLEFRAME", "INFUSION");
+mods.thaumcraft.Research.setConcealed("GENTLEFRAME", true);
 mods.thaumcraft.Research.addPage("GENTLEFRAME", "MagicBees.research_page.GENTLEFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.GENTLEFRAME", "The Gentle Frame is an Item used in an Apiary, which increases a Queen's lifespan and production at the cost of a slightly lower mutation rate. It has a durability of 200, which is slightly shorter than average. The Gentle Frame increases a bee's lifespan by 50% and its productivity by 40%. Its mutation rate is lowered by 30%, leaving it at 70% of its initial mutation rate. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by one point. Additionally, Sano and Victus Flux will be released into the Aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
 mods.thaumcraft.Arcane.addShaped("GENTLEFRAME", <MagicBees:frameGentle>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
@@ -314,6 +316,7 @@ game.setLocalization("en_US", "tc.research_text.RESILIENTFRAME", "[MB] Magic Pro
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addSibling("RESILIENTFRAME", "MB_EssenceArmor");
 mods.thaumcraft.Research.addSibling("RESILIENTFRAME", "INFUSION");
+mods.thaumcraft.Research.setConcealed("RESILIENTFRAME", true);
 mods.thaumcraft.Research.addPage("RESILIENTFRAME", "MagicBees.research_page.RESILIENTFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.RESILIENTFRAME", "The Resilient Frame is an Item used in an Apiary, which doubles the bee's productivity. It has a durability of 840, making it the most durable frame available. The Resilient Frame is the longer-lasting counterpart to the Magic Frame. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by two points. Additionally, Tutamen Flux will be released into the Aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
 mods.thaumcraft.Arcane.addShaped("RESILIENTFRAME", <MagicBees:frameResilient>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
@@ -329,6 +332,7 @@ game.setLocalization("en_US", "tc.research_text.NECROTICFRAME", "[MB] Magic Kill
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addSibling("NECROTICFRAME", "MB_EssenceDeath");
 mods.thaumcraft.Research.addSibling("NECROTICFRAME", "INFUSION");
+mods.thaumcraft.Research.setConcealed("NECROTICFRAME", true);
 mods.thaumcraft.Research.addPage("NECROTICFRAME", "MagicBees.research_page.NECROTICFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.NECROTICFRAME", "The Necrotic Frame is an Item used in an Apiary, which drastically decreases a Queen's lifespan and productivity. It has a durability of 270. The Necrotic Frame decreases a bee's lifespan to only 30% and its productivity to 75%. With each durability use/bee cycle, the Necrotic Frame will deplete the nearby Aura by one point. Additionally, a significant amount of Mortuus and Venenum Flux will be released into the aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
 mods.thaumcraft.Arcane.addShaped("NECROTICFRAME", <MagicBees:frameNecrotic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
@@ -344,6 +348,7 @@ game.setLocalization("en_US", "tc.research_text.METABOLICFRAME", "[MB] Magic Dru
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addSibling("METABOLICFRAME", "MB_EssenceUnstable");
 mods.thaumcraft.Research.addSibling("METABOLICFRAME", "INFUSION");
+mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.METABOLICFRAME", "The Metabolic Frame is an Item used in an Apiary, which drastically increases a bee's mutation rate as well as slightly its production at the cost of high aura consumption. It has a durability of 120. The Metabolic Frame increases the mutation rate by 80% and its production by 20%. With each durability use/bee cycle, the Metabolic Frame will deplete the nearby Aura by 5 points. Out of all frames, the Metabolic Frame has the highest aura consumption. Additionally, Permutatio and Motus Flux will be released into the Aura.");
 mods.thaumcraft.Arcane.addShaped("METABOLICFRAME", <MagicBees:frameMetabolic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
@@ -359,6 +364,7 @@ game.setLocalization("en_US", "tc.research_text.TEMPORALFRAME", "[MB] Magic Time
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addSibling("TEMPORALFRAME", "MB_EssenceTime");
 mods.thaumcraft.Research.addSibling("TEMPORALFRAME", "INFUSION");
+mods.thaumcraft.Research.setConcealed("TEMPORALFRAME", true);
 mods.thaumcraft.Research.addPage("TEMPORALFRAME", "MagicBees.research_page.TEMPORALFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.TEMPORALFRAME", "The Temporal Frame is an Item used in an Apiary, which drastically increases a Queen's lifespan to 150%. It has a durability of 300. Out of all Frames, the Temporal Frame gives the highest lifespan increase. With each durability use/bee cycle, the Temporal Frame will deplete the nearby Aura by one point. However, a significant amount of Tempus Flux will be released into the aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
 mods.thaumcraft.Arcane.addShaped("TEMPORALFRAME", <MagicBees:frameTemporal>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
@@ -378,6 +384,7 @@ mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "NECROTICFRAME", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "METABOLICFRAME", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "TEMPORALFRAME", false);
 mods.thaumcraft.Research.addSibling("OBLIVIONFRAME", "MB_EssenceOblivion");
+mods.thaumcraft.Research.setConcealed("OBLIVIONFRAME", true);
 mods.thaumcraft.Research.addPage("OBLIVIONFRAME", "MagicBees.research_page.OBLIVIONFRAME");
 game.setLocalization("en_US", "MagicBees.research_page.OBLIVIONFRAME", "The Oblivion Frame is an item added by the Magic Bees mod. Placed in an Apiary or inserted in a Frame Housing within an Alveary, it reduces the lifespan of the residing Queen to a single life cycle (27.5 sec) allowing for very rapid bee breeding. However, an Oblivion Frame draws about 15 Vis per use from the air and releases Tempus aspects into the aura as flux. The Oblivion Frame does not function if used alongside another frame, and that would cause it to take a lot of damage");
 mods.thaumcraft.Research.addSibling("OBLIVIONFRAME", "INFUSION");
