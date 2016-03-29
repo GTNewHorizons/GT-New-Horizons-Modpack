@@ -164,6 +164,9 @@ mods.thaumcraft.Crucible.removeRecipe(<ThaumicTinkerer:spellCloth>);
 // --- Talisman of Withhold
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:xpTalisman>);
 
+// --- Helmet of Revealing
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:revealingHelm>);
+
 
 
 
@@ -471,7 +474,7 @@ mods.thaumcraft.Infusion.addRecipe("REPAIRER", <Thaumcraft:blockCosmeticSolid:4>
 [<gregtech:gt.metaitem.01:17330>, <Railcraft:part.plate>, <dreamcraft:item.ReinforcedGlassPlate>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17500>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.metaitem.01:17086>],
 "fabrico 32, instrumentum 32, ordo 16, praecantatio 16, potentia 8", <ThaumicTinkerer:repairer>, 8);
 // -
-mods.thaumcraft.Research.setAspects("REPAIRER", "instrumentum 15, fabrico 12, oder 9, potentia 6, praecantatio 3");
+mods.thaumcraft.Research.setAspects("REPAIRER", "instrumentum 15, fabrico 12, ordo 9, potentia 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("REPAIRER", 4);
 
 // --- Kinetic Attractor
@@ -653,6 +656,86 @@ mods.thaumcraft.Infusion.addRecipe("XP_TALISMAN", <Thaumcraft:ItemBaubleBlanks>,
 mods.thaumcraft.Research.setAspects("XP_TALISMAN", "lucrum 15, praecantatio 12, humanus 9, auram 6, machina 3");
 mods.thaumcraft.Research.setComplexity("XP_TALISMAN", 4);
 
+// --- Helmet of Revealing
+mods.thaumcraft.Arcane.addShaped("REVEALING_HELM", <ThaumicTinkerer:revealingHelm>, "aer 35, aqua 35, terra 35, ignis 35, ordo 35, perditio 35", [
+[<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>],
+[<ore:plateThaumium>, <Thaumcraft:ItemGoggles>, <ore:plateThaumium>],
+[null, <Thaumcraft:ItemHelmetThaumium>, null]]);
+// -
+mods.thaumcraft.Research.setAspects("REVEALING_HELM", "tutamen 15, auram 12, praecantatio 9, metallum 6, sensus 3");
+mods.thaumcraft.Research.setComplexity("REVEALING_HELM", 4);
+
+// --- Enchantment: Ascet Boost
+mods.thaumcraft.Research.setConcealed("TTENCH_ASCENT_BOOST", true);
+mods.thaumcraft.Research.setAspects("TTENCH_ASCENT_BOOST", "aer 15, motus 12, praecantatio 9, auram 6, tempus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_ASCENT_BOOST", 3);
+
+// --- Enchantment: Slow Fall
+mods.thaumcraft.Research.setConcealed("TTENCH_SLOW_FALL", true);
+mods.thaumcraft.Research.setAspects("TTENCH_SLOW_FALL", "aer 15, motus 12, praecantatio 9, auram 6, tempus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_SLOW_FALL", 3);
+
+// --- Enchantment: Flaming Touch
+mods.thaumcraft.Research.setConcealed("TTENCH_AUTO_SMELT", true);
+mods.thaumcraft.Research.setAspects("TTENCH_AUTO_SMELT", "ignis 15, perditio 12, praecantatio 9, auram 6, metallum 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_AUTO_SMELT", 3);
+
+// --- Enchantment: Disintegrate
+mods.thaumcraft.Research.setConcealed("TTENCH_DESINTEGRATE", true);
+mods.thaumcraft.Research.setAspects("TTENCH_DESINTEGRATE", "vacuos 15, perditio 12, praecantatio 9, auram 6, tempus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_DESINTEGRATE", 3);
+
+// --- Enchantment: Quick Draw
+mods.thaumcraft.Research.setConcealed("TTENCH_QUICK_DRAW", true);
+mods.thaumcraft.Research.setAspects("TTENCH_QUICK_DRAW", "telum 15, sensus 12, praecantatio 9, auram 6, motus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_QUICK_DRAW", 3);
+
+// --- Enchantment: Vampirism
+mods.thaumcraft.Research.setConcealed("TTENCH_VAMPIRISM", true);
+mods.thaumcraft.Research.setAspects("TTENCH_VAMPIRISM", "fames 15, telum 12, praecantatio 9, auram 6, lucrum 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_VAMPIRISM", 3);
+
+// --- Enchantment: Pounce
+mods.thaumcraft.Research.setConcealed("TTENCH_POUNCE", true);
+mods.thaumcraft.Research.setAspects("TTENCH_POUNCE", "aer 15, ordo 15, tutamen 12, praecantatio 9, auram 6, volatus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_POUNCE", 4);
+
+// --- Enchantment: Shockwave
+mods.thaumcraft.Research.setConcealed("TTENCH_SHOCKWAVE", true);
+mods.thaumcraft.Research.setAspects("TTENCH_SHOCKWAVE", "aer 15, perditio 15, tutamen 12, praecantatio 9, auram 6, volatus 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_SHOCKWAVE", 4);
+
+// --- Enchantment: Tunnel
+mods.thaumcraft.Research.setConcealed("TTENCH_TUNNEL", true);
+mods.thaumcraft.Research.setAspects("TTENCH_TUNNEL", "terra 15, ordo 15, instrumentum 12, praecantatio 9, auram 6, perfodio 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_TUNNEL", 4);
+
+// --- Enchantment: Shatter
+mods.thaumcraft.Research.setConcealed("TTENCH_SHATTER", true);
+mods.thaumcraft.Research.setAspects("TTENCH_SHATTER", "terra 15, perditio 15, instrumentum 12, praecantatio 9, auram 6, perfodio 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_SHATTER", 4);
+
+// --- Enchantment: Focused Strikes
+mods.thaumcraft.Research.setConcealed("TTENCH_FOCUSED", true);
+mods.thaumcraft.Research.setAspects("TTENCH_FOCUSED", "ordo 15, telum 15, praecantatio 12, alienis 9, auram 6, bestia 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_FOCUSED", 4);
+
+// --- Enchantment: Dispersed Strikes
+mods.thaumcraft.Research.setConcealed("TTENCH_DISPERSED", true);
+mods.thaumcraft.Research.setAspects("TTENCH_DISPERSED", "perditio 15, telum 15, praecantatio 12, alienis 9, auram 6, bestia 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_DISPERSED", 4);
+
+// --- Enchantment: Valiance
+mods.thaumcraft.Research.setConcealed("TTENCH_VALIANCE", true);
+mods.thaumcraft.Research.setAspects("TTENCH_VALIANCE", "sano 15, telum 15, praecantatio 12, alienis 9, auram 6, bestia 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_VALIANCE", 4);
+
+// --- Enchantment: Final Strike
+mods.thaumcraft.Research.setConcealed("TTENCH_FINAL", true);
+mods.thaumcraft.Research.setAspects("TTENCH_FINAL", "ordo 15, perditio 15, telum 15, praecantatio 12, alienis 9, auram 6, superbia 3");
+mods.thaumcraft.Research.setComplexity("TTENCH_FINAL", 4);
+
+
 
 
 
@@ -787,3 +870,48 @@ mods.thaumcraft.Research.refreshResearchRecipe("SPELL_CLOTH");
 
 // --- Talisman of Withhold
 mods.thaumcraft.Research.refreshResearchRecipe("XP_TALISMAN");
+
+// --- Helmet of Revealing
+mods.thaumcraft.Research.refreshResearchRecipe("REVEALING_HELM");
+
+// --- Enchantment: Ascet Boost
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_ASCENT_BOOST");
+
+// --- Enchantment: Slow Fall
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_SLOW_FALL");
+
+// --- Enchantment: Flaming Touch
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_AUTO_SMELT");
+
+// --- Enchantment: Disintegrate
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_DESINTEGRATE");
+
+// --- Enchantment: Quick Draw
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_QUICK_DRAW");
+
+// --- Enchantment: Vampirism
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_VAMPIRISM");
+
+// --- Enchantment: Pounce
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_POUNCE");
+
+// --- Enchantment: Shockwave
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_SHOCKWAVE");
+
+// --- Enchantment: Tunnel
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_TUNNEL");
+
+// --- Enchantment: Shatter
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_SHATTER");
+
+// --- Enchantment: Focused Strikes
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_FOCUSED");
+
+// --- Enchantment: Dispersed Strikes
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_DISPERSED");
+
+// --- Enchantment: Valiance
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_VALIANCE");
+
+// --- Enchantment: Final Strike
+mods.thaumcraft.Research.refreshResearchRecipe("TTENCH_FINAL");

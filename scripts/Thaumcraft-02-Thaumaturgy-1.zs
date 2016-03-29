@@ -720,7 +720,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_blaze", <minecraft:blaze_rod>,
 [<Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:1>], 
 "bestia 12, ignis 24, praecantatio 12, vitreus 6", <Thaumcraft:WandRod:6>, 2);
 // -
-mods.thaumcraft.Research.setAspects("ROD_blaze", "instrumentum 9, praecantatio 9, aer 6, herba 6, arbor 35");
+mods.thaumcraft.Research.setAspects("ROD_blaze", "instrumentum 9, praecantatio 9, aer 6, herba 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_blaze", 2);
 
 // --- Iron Capped Blazing Wand
