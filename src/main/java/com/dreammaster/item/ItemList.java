@@ -103,7 +103,7 @@ public enum ItemList
     HeavyDutyAlloyIngotT9(new ModSimpleBaseItem("HeavyDutyAlloyIngotT9", ModTabList.ModGenericTab)),
     HighEnergyCircuitParts(new ModSimpleBaseItem("HighEnergyCircuitParts", ModTabList.ModCircuitsTab)),
     HighEnergyFlowCircuit(new ModSimpleBaseItem("HighEnergyFlowCircuit", ModTabList.ModCircuitsTab)),
-    InchoriumCap(new ModSimpleBaseItem("InchoriumCap", ModTabList.ModThaumcraftTab)),
+    IchoriumCap(new ModSimpleBaseItem("IchoriumCap", ModTabList.ModThaumcraftTab)),
     InfernalBrick(new ModSimpleBaseItem("InfernalBrick", ModTabList.ModGenericTab)),
     IridiumItemCasing(new ModSimpleBaseItem("IridiumItemCasing", ModTabList.ModGenericTab)),
     IridiumBars(new ModSimpleBaseItem("IridiumBars", ModTabList.ModGenericTab)),
