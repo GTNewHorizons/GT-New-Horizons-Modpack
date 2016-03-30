@@ -391,6 +391,7 @@ public class GT_Loader_Items
 		CustomItemList.MalformedSlush.set(com.dreammaster.item.ItemList.MalformedSlush.getIS());
 		CustomItemList.GlowingMarshmallow.set(com.dreammaster.item.ItemList.GlowingMarshmallow.getIS());
 		CustomItemList.Marshmallow.set(com.dreammaster.item.ItemList.Marshmallow.getIS());
+		CustomItemList.InchoriumCap.set(com.dreammaster.item.ItemList.InchoriumCap.getIS());
 	}
 
 }
