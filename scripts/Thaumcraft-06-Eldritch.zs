@@ -1581,6 +1581,10 @@ mods.thaumcraft.Arcane.addShaped("ADVALCHEMYFURNACE", <Thaumcraft:blockMetalDevi
 mods.thaumcraft.Research.setAspects("ADVALCHEMYFURNACE", "perditio 12, auram 12, aer 9, ordo 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ADVALCHEMYFURNACE", 3);
 
+// --- Void Metal
+recipes.addShapeless(<Thaumcraft:ItemResource:16>, [<gregtech:gt.metaitem.01:11970>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:11970>, [<Thaumcraft:ItemResource:16>]);
 
 
 

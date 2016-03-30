@@ -13,10 +13,9 @@ import mods.gregtech.CuttingSaw;
 import mods.gregtech.PrecisionLaser;
 
 
+
 // --- Variables ---
-val kamiRes = <ThaumicTinkerer:kamiResource>;
-val ichorCloth = <ThaumicTinkerer:kamiResource:1>;
-val ichorIngot = <ThaumicTinkerer:kamiResource:2>;
+
 
 
 
@@ -25,10 +24,6 @@ val ichorIngot = <ThaumicTinkerer:kamiResource:2>;
 
 
 
-// --- KAMI
-mods.thaumcraft.Infusion.removeRecipe(kamiRes);
-mods.thaumcraft.Arcane.removeRecipe(ichorCloth);
-mods.thaumcraft.Arcane.removeRecipe(ichorIngot);
 
 // --- Tomb of Knowledge Sharing
 recipes.remove(<ThaumicTinkerer:shareBook>);

@@ -991,6 +991,12 @@ recipes.removeShaped(<ore:ingotZinc>, [
 [<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>],
 [<ore:nuggetZinc>, <ore:nuggetZinc>, <ore:nuggetZinc>]]);
 
+// --- Voidmetal Ingot
+recipes.removeShaped(<ore:ingotVoidmetal>, [
+[<ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>],
+[<ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>],
+[<ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>, <ore:nuggetVoidmetal>]]);
+
 // ---Wrought Iron Ingot
 recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
