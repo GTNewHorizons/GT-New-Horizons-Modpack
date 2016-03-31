@@ -76,6 +76,49 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorclothLegsGem>);
 // --- Boots of the horizotal Shield
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorclothBootsGem>);
 
+// --- Celestial Gateway
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:warpGate>);
+
+// --- Celestial Pearl
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:skyPearl>);
+
+// --- Wand Focus Celestial Recall
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusRecall>);
+
+// --- Ichorium Pickaxe
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:ichorPick>);
+
+// --- Ichorium Shovel
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:ichorShovel>);
+
+// --- Ichorium Axe
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:ichorAxe>);
+
+// --- Ichorium Sword
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:ichorSword>);
+
+// --- Awakened Ichorium Pickaxe
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorPickGem>);
+
+// --- Awakened Ichorium Shovel
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorShovelGem>);
+
+// --- Awakened Ichorium Axe
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorAxeGem>);
+
+// --- Awakened Ichorium Sword
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:ichorSwordGem>);
+
+// --- Protoclay
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:protoclay>);
+
+// --- Block Hole Ring
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:blockTalisman>);
+
+// --- Worldshapers looking Glass
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:placementMirror>);
+
+
 
 
 
@@ -248,12 +291,127 @@ mods.thaumcraft.Warp.addToResearch("ICHORCLOTH_LEGS_GEM", 4);
 
 // --- Boots of the horizotal Shield
 mods.thaumcraft.Infusion.addRecipe("ICHORCLOTH_BOOTS_GEM", <ThaumicTinkerer:ichorclothBoots>,
-[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemBootsThaumium>, <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "terra"}]}, <Thaumcraft:ItemThaumonomicon>, <harvestcraft:wovencottonItem>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:blockMetalDevice:8>, <Thaumcraft:blockWoodenDevice:5>, <minecraft:lead>, <Thaumcraft:FocusPrimal>, <minecraft:grass>],
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemBootsThaumium>, <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "terra"}]}}), <Thaumcraft:ItemThaumonomicon>, <harvestcraft:wovencottonItem>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:blockMetalDevice:8>, <Thaumcraft:blockWoodenDevice:5>, <minecraft:lead>, <Thaumcraft:FocusPrimal>, <minecraft:grass>],
 "herba 64, iter 64, lux 64, motus 64, perfodio 64, terra 64, tutamen 64", <ThaumicTinkerer:ichorclothBootsGem>, 16);
 // -
 mods.thaumcraft.Research.setAspects("ICHORCLOTH_BOOTS_GEM", "terra 24, iter 21, perfodio 18, herba 15, lux 12, motus 9, cognitio 6, tutamen 3");
 mods.thaumcraft.Research.setComplexity("ICHORCLOTH_BOOTS_GEM", 4);
 mods.thaumcraft.Warp.addToResearch("ICHORCLOTH_BOOTS_GEM", 4);
+
+// --- Celestial Gateway
+mods.thaumcraft.Infusion.addRecipe("WARP_GATE",  <Thaumcraft:blockCosmeticSolid:2>,
+[<ThaumicTinkerer:dislocator>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+"alienis 64, iter 72, volatus 64, terra 32, aer 32", <ThaumicTinkerer:warpGate>, 10);
+
+// --- Celestial Pearl
+mods.thaumcraft.Infusion.addRecipe("WARP_GATE", <minecraft:ender_pearl>,
+[<IC2:itemDensePlates:8>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+"aer 24, alienis 32, volatus 32, iter 32, vitreus 24", <ThaumicTinkerer:skyPearl>, 10);
+// -
+mods.thaumcraft.Research.setAspects("WARP_GATE", "iter 18, volatus 15, alienis 12, machina 9, vitreus 6, aer 3");
+mods.thaumcraft.Research.setComplexity("WARP_GATE", 4);
+mods.thaumcraft.Warp.addToResearch("WARP_GATE", 4);
+
+// --- Wand Focus Celestial Recall
+mods.thaumcraft.Infusion.addRecipe("FOCUS_RECALL", <ThaumicTinkerer:focusEnderChest>,
+[<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:skyPearl>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:skyPearl>],
+"alienis 64, iter 128, praecantatio 96, volatus 48, aer 32", <ThaumicTinkerer:focusRecall>, 14);
+// -
+mods.thaumcraft.Research.setAspects("FOCUS_RECALL", "iter 18, alienis 15, volatus 12, praecantatio 9, aer 6, cognitio 3");
+mods.thaumcraft.Research.setComplexity("FOCUS_RECALL", 4);
+mods.thaumcraft.Warp.addToResearch("FOCUS_RECALL", 4);
+
+// --- Ichorium Pickaxe
+mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorPick>, "ignis 75, perditio 50, ordo 25", [
+[<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>],
+[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:plateVoidmetal>],
+[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+
+// --- Ichorium Shovel
+mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorShovel>, "terra 75, perditio 50, ordo 25", [
+[null, <ThaumicTinkerer:kamiResource:2>, null],
+[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:plateVoidmetal>],
+[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+
+// --- Ichorium Axe
+mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorAxe>, "aqua 75, perditio 50, ordo 25", [
+[<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>, <ore:plateVoidmetal>],
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>],
+[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+
+// --- Ichorium Sword
+mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorSword>, "aer 75, perditio 50, ordo 25", [
+[null, <ThaumicTinkerer:kamiResource:2>, null],
+[<ore:plateVoidmetal>, <ThaumicTinkerer:kamiResource:2>, <ore:plateVoidmetal>],
+[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+// -
+mods.thaumcraft.Research.setAspects("ICHOR_TOOLS", "instrumentum 18, telum 15, metallum 12, fabrico 9, praecantatio 6, alienis 3");
+mods.thaumcraft.Research.setComplexity("ICHOR_TOOLS", 4);
+mods.thaumcraft.Warp.addToResearch("ICHOR_TOOLS", 3);
+
+// --- Awakened Ichorium Pickaxe
+mods.thaumcraft.Infusion.addRecipe("ICHOR_PICK_GEM", <ThaumicTinkerer:ichorPick>,
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:FocusFire>, <StevesCarts:CartModule:9>.withTag({Data: 100 as byte}), <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <StevesCarts:CartModule:9>.withTag({Data: 100 as byte}), <Thaumcraft:FocusFire>, <Thaumcraft:ItemPickaxeElemental>],
+"ignis 64, lucrum 64, metallum 64, meto 64, messis 64, perfodio 64, terra 64, sensus 64", <ThaumicTinkerer:ichorPickGem>, 18);
+// -
+mods.thaumcraft.Research.setAspects("ICHOR_PICK_GEM", "ignis 24, lucrum 21, metallum 18, meto 15, messis 12, perfodio 9, terra 6, sensus 3");
+mods.thaumcraft.Research.setComplexity("ICHOR_PICK_GEM", 4);
+mods.thaumcraft.Warp.addToResearch("ICHOR_PICK_GEM", 3);
+
+// --- Awakened Ichorium Shovel
+mods.thaumcraft.Infusion.addRecipe("ICHOR_SHOVEL_GEM", <ThaumicTinkerer:ichorShovel>,
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemShovelElemental>, <Thaumcraft:FocusExcavation>, <gregtech:gt.metaitem.01:32642>, <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <gregtech:gt.metaitem.01:32642>, <Thaumcraft:FocusExcavation>, <Thaumcraft:ItemShovelElemental>],
+"instrumentum 64, meto 64, perfodio 64, sensus 64, terra 64, vinculum 64, ordo 64", <ThaumicTinkerer:ichorShovelGem>, 18);
+// -
+mods.thaumcraft.Research.setAspects("ICHOR_SHOVEL_GEM", "instrumentum 21, meto 18, perfodio 15, sensus 12, terra 9, vinculum 6, ordo 3");
+mods.thaumcraft.Research.setComplexity("ICHOR_SHOVEL_GEM", 4);
+mods.thaumcraft.Warp.addToResearch("ICHOR_SHOVEL_GEM", 3);
+
+// --- Awakened Ichorium Axe
+mods.thaumcraft.Infusion.addRecipe("ICHOR_AXE_GEM", <ThaumicTinkerer:ichorAxe>,
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemAxeElemental>, <Thaumcraft:FocusExcavation>, <gregtech:gt.metaitem.01:32721>, <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <gregtech:gt.metaitem.01:32721>, <Thaumcraft:FocusExcavation>, <Thaumcraft:ItemAxeElemental>],
+"aqua 64, arbor 64, instrumentum 64, messis 64, meto 64, perfodio 64, sensus 64", <ThaumicTinkerer:ichorAxeGem>, 18);
+// -
+mods.thaumcraft.Research.setAspects("ICHOR_AXE_GEM", "aqua 21, arbor 18, instrumentum 15, messis 12, meto 9, perfodio 6, sensus 3");
+mods.thaumcraft.Research.setComplexity("ICHOR_AXE_GEM", 4);
+mods.thaumcraft.Warp.addToResearch("ICHOR_AXE_GEM", 3);
+
+// --- Awakened Ichorium Sword
+mods.thaumcraft.Infusion.addRecipe("ICHOR_SWORD_GEM", <ThaumicTinkerer:ichorSword>,
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemSwordElemental>, <Thaumcraft:FocusFrost>, <ExtraUtilities:spike_base_diamond>, <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <ExtraUtilities:spike_base_diamond>, <Thaumcraft:FocusFrost>, <Thaumcraft:ItemSwordElemental>],
+"aer 64, fames 64, ordo 64, potentia 64, spiritus 64, telum 64, vitreus 64", <ThaumicTinkerer:ichorSwordGem>, 18);
+// -
+mods.thaumcraft.Research.setAspects("ICHOR_SWORD_GEM", "aer 21, fames 18, ordo 15, potentia 12, spiritus 9, telum 6, vitreus 3");
+mods.thaumcraft.Research.setComplexity("ICHOR_SWORD_GEM", 4);
+mods.thaumcraft.Warp.addToResearch("ICHOR_SWORD_GEM", 3);
+
+// --- Protoclay
+mods.thaumcraft.Infusion.addRecipe("PROTOCLAY", <minecraft:clay_ball>,
+[<minecraft:stone>, <minecraft:dirt>, <ThaumicTinkerer:kamiResource:7>, <minecraft:sand:*>, <minecraft:cobblestone>, <minecraft:log:*>, <ThaumicTinkerer:kamiResource:6>, <minecraft:grass>],
+"instrumentum 32, perfodio 32, terra 16, aer 16", <ThaumicTinkerer:protoclay>, 5);
+// -
+mods.thaumcraft.Research.setAspects("PROTOCLAY", "instrumentum 18, humanus 15, machina 12, perfodio 9, terra 6, aer 3");
+mods.thaumcraft.Research.setComplexity("PROTOCLAY", 4);
+mods.thaumcraft.Warp.addToResearch("PROTOCLAY", 1);
+
+// --- Block Hole Ring
+mods.thaumcraft.Infusion.addRecipe("BLOCK_TALISMAN", <Thaumcraft:FocusPortableHole>,
+[<ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <EnderStorage:enderChest>, <Thaumcraft:ItemResource:11>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:11>, <Thaumcraft:blockJar:3>, <gregtech:gt.metaitem.02:30501>],
+"alienis 64, praecantatio 64, vacuos 72, tenebrae 48, spiritus 32", <ThaumicTinkerer:blockTalisman>, 10);
+// -
+mods.thaumcraft.Research.setAspects("BLOCK_TALISMAN", "vacuos 15, tenebrae 12, alienis 9, praecantatio 6, spiritus 3");
+mods.thaumcraft.Research.setComplexity("BLOCK_TALISMAN", 4);
+mods.thaumcraft.Warp.addToResearch("BLOCK_TALISMAN", 6);
+
+// --- Worldshapers looking Glass
+mods.thaumcraft.Infusion.addRecipe("PLACEMENT_MIRROR", <ThaumicTinkerer:blockTalisman>,
+[<ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <minecraft:dropper>, <minecraft:blaze_rod>, <ThaumicTinkerer:kamiResource:2>, <minecraft:blaze_rod>, <Thaumcraft:blockMirror>, <gregtech:gt.metaitem.02:30501>],
+"cognitio 64, fabrico 72, praecantatio 64, vitreus 48, alienis 32", <ThaumicTinkerer:placementMirror>, 16);
+// -
+mods.thaumcraft.Research.setAspects("PLACEMENT_MIRROR", "cognitio 15, fabrico 12, praecantatio 9, vitreus 6, alienis 3");
+mods.thaumcraft.Research.setComplexity("PLACEMENT_MIRROR", 4);
+mods.thaumcraft.Warp.addToResearch("PLACEMENT_MIRROR", 8);
+
 
 
 
@@ -317,3 +475,33 @@ mods.thaumcraft.Research.refreshResearchRecipe("ICHORCLOTH_LEGS_GEM");
 
 // --- Boots of the horizotal Shield
 mods.thaumcraft.Research.refreshResearchRecipe("ICHORCLOTH_BOOTS_GEM");
+
+// --- Celestial Gateway and Pearl
+mods.thaumcraft.Research.refreshResearchRecipe("WARP_GATE");
+
+// --- Wand Focus Celestial Recall
+mods.thaumcraft.Research.refreshResearchRecipe("FOCUS_RECALL");
+
+// --- Ichorium Tools
+mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_TOOLS");
+
+// --- Awakened Ichorium Pickaxe
+mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_PICK_GEM");
+
+// --- Awakened Ichorium Shovel
+mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_SHOVEL_GEM");
+
+// --- Awakened Ichorium Axe
+mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_AXE_GEM");
+
+// --- Awakened Ichorium Sword
+mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_SWORD_GEM");
+
+// --- Protoclay
+mods.thaumcraft.Research.refreshResearchRecipe("PROTOCLAY");
+
+// --- Block Hole Ring
+mods.thaumcraft.Research.refreshResearchRecipe("BLOCK_TALISMAN");
+
+// --- Worldshapers looking Glass
+mods.thaumcraft.Research.refreshResearchRecipe("PLACEMENT_MIRROR");
