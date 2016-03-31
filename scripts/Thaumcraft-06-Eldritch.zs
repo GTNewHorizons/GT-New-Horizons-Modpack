@@ -261,7 +261,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag(
 [<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.ChargedVoidWandCap>],
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "void", rod: "wood", sceptre: 1}), "aer 30, terra 30, ignis 30, aqua 30, ordo 30, perditio 30", [
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "void", rod: "wood", sceptre: 1}), "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [
 [null, <dreamcraft:item.ChargedVoidWandCap>, <ore:screwAluminium>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:1>.withTag({cap: "iron", rod: "wood", sceptre: 1}), <dreamcraft:item.ChargedVoidWandCap>],
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwAluminium>, null]]);
