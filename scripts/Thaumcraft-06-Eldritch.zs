@@ -225,27 +225,27 @@ mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag(
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}), "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "void", rod: "wood"}), "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [
 [null, null, <dreamcraft:item.ChargedVoidWandCap>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting>, <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "void", rod: "wood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
 [null, null, <dreamcraft:item.ChargedVoidWandCap>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}), <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "void", rod: "wood"}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
 [null, null, <dreamcraft:item.ChargedVoidWandCap>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:3>.withTag({cap: "gold", rod: "wood"}), <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "void", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
 [null, null, <dreamcraft:item.ChargedVoidWandCap>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:4>.withTag({cap: "silver", rod: "wood"}), <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "thaumium", rod: "wood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5", [
+mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:9>.withTag({cap: "void", rod: "wood"}), "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5", [
 [null, null, <dreamcraft:item.ChargedVoidWandCap>],
 [<ore:screwAluminium>, <Thaumcraft:WandCasting:6>.withTag({cap: "thaumium", rod: "wood"}), <ore:screwAluminium>],
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
