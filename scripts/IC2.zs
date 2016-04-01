@@ -360,14 +360,26 @@ recipes.remove(<IC2:itemPartCFPowder>);
 // --- Double Uranium Fuel Rod
 recipes.remove(<IC2:reactorUraniumDual:*>);
 
+// --- Double Uranium Fuel Rod
+recipes.remove(<gregtech:gt.reactorUraniumDual>);
+
 // --- Quad Uranium Fuel Rod
 recipes.remove(<IC2:reactorUraniumQuad:*>);
+
+// --- Quad Uranium Fuel Rod
+recipes.remove(<gregtech:gt.reactorUraniumQuad>);
 
 // --- Double Mox Fuel Rod
 recipes.remove(<IC2:reactorMOXDual:*>);
 
+// --- Double Mox Fuel Rod
+recipes.remove(<gregtech:gt.reactorMOXDual>);
+
 // --- Quad Mox Fuel Rod
 recipes.remove(<IC2:reactorMOXQuad:*>);
+
+// --- Quad Mox Fuel Rod
+recipes.remove(<gregtech:gt.reactorMOXQuad>);
 
 // --- Reinforced Door
 recipes.remove(<IC2:itemDoorAlloy>);
@@ -1568,16 +1580,16 @@ Assembler.addRecipe(<IC2:itemCropnalyzer:26>, <gregtech:gt.metaitem.01:32740>, <
 Assembler.addRecipe(<IC2:itemToolMEter>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuit> * 2, <liquid:molten.glowstone> * 288, 600, 16);
 
 // --- Double Uranium Fuel Rod
-Assembler.addRecipe(<IC2:reactorUraniumDual:1>, <IC2:reactorUraniumSimple:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
+Assembler.addRecipe(<gregtech:gt.reactorUraniumDual>, <gregtech:gt.reactorUraniumSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
 
 // --- Quad Uranium Fuel Rod
-Assembler.addRecipe(<IC2:reactorUraniumQuad:1>, <IC2:reactorUraniumDual:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
+Assembler.addRecipe(<gregtech:gt.reactorUraniumQuad>, <gregtech:gt.reactorUraniumDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
 
 // --- Double Mox Fuel Rod
-Assembler.addRecipe(<IC2:reactorMOXDual:1>, <IC2:reactorMOXSimple:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
+Assembler.addRecipe(<gregtech:gt.reactorMOXDual>, <gregtech:gt.reactorMOXSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
 
 // --- Quad Mox Fuel Rod
-Assembler.addRecipe(<IC2:reactorMOXQuad:1>, <IC2:reactorMOXDual:1> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
+Assembler.addRecipe(<gregtech:gt.reactorMOXQuad>, <gregtech:gt.reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
 
 // --- Reinforced Door
 Assembler.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 30);
