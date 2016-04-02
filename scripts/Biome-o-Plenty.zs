@@ -112,9 +112,17 @@ oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 // --- Centrifuge Recipes ---
 
 
-
+// --- Honey Drops
 mods.gregtech.Centrifuge.addRecipe([<Forestry:honeyDrop> * 7, <Forestry:honeyDrop>, <Forestry:honeyDrop>, <Forestry:honeyDrop>], null, <BiomesOPlenty:honeyBlock>, null, null, [10000, 5000, 2500, 1200], 4000, 8);
 
+// --- Bees Wax
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>], null, <BiomesOPlenty:misc:2>, null, null, [10000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>], null, <harvestcraft:waxcombItem>, null, null, [10000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>, <Forestry:honeyDrop>], null, <BiomesOPlenty:food:9>, null, null, [10000, 9000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>, <Forestry:honeyDrop>], null, <harvestcraft:honeycombItem>, null, null, [10000, 9000], 120, 5);
 
 
 // --- Compressor Recipes ---
@@ -142,7 +150,7 @@ FluidExtractor.addRecipe(null, <BiomesOPlenty:honeyBlock> , <liquid:for.honey> *
 
 
 // --- Honey Drops
-FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 1000, 400, 40);
+FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:32308> * 0, <liquid:for.honey> * 1000, 400, 40);
 
 
 
