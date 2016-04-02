@@ -138,17 +138,28 @@ FluidExtractor.addRecipe(null, <BiomesOPlenty:honeyBlock> , <liquid:for.honey> *
 
 
 
+// --- Fluid Solidifier Recipes ---
+
+
+// --- Honey Drops
+FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 1000, 400, 40);
+
+
+
+
+
+
 // --- Macerator Recipes ---
 
 
 
-// --- small Bone Segment
+// --- Small Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 5, <BiomesOPlenty:bones>);
 
-// --- medium Bone Segment
+// --- Medium Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
 
-// --- large Bone Segment
+// --- Large Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
 
 
