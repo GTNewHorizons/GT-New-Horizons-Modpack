@@ -8,6 +8,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Fuels;
+import mods.gregtech.FluidSolidifier;
 import mods.ic2.SemiFluidGenerator;
 
 
@@ -2859,3 +2860,15 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 
 // --- Cart with Apiary
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
+
+
+
+
+// --- Fluid Solidifier Recipes ---
+
+
+
+// --- Honey Drops
+FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 200, 400, 8);
+// -
+FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:honey> * 200, 400, 8);

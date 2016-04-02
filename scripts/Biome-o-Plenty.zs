@@ -7,6 +7,7 @@
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
 
 
@@ -112,7 +113,6 @@ oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 
 
 
-
 mods.gregtech.Centrifuge.addRecipe([<Forestry:honeyDrop> * 7, <Forestry:honeyDrop>, <Forestry:honeyDrop>, <Forestry:honeyDrop>], null, <BiomesOPlenty:honeyBlock>, null, null, [10000, 5000, 2500, 1200], 4000, 8);
 
 
@@ -127,7 +127,6 @@ Compressor.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice> * 16);
 
 
 
-
 // --- Fluid Extractor Recipes ---
 
 
@@ -138,8 +137,8 @@ FluidExtractor.addRecipe(<BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1> ,
 FluidExtractor.addRecipe(null, <BiomesOPlenty:honeyBlock> , <liquid:for.honey> * 1000, 10000, 1200, 40);
 
 
-// --- Macerator Recipes ---
 
+// --- Macerator Recipes ---
 
 
 
@@ -151,7 +150,6 @@ Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
 
 // --- large Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
-
 
 
 
