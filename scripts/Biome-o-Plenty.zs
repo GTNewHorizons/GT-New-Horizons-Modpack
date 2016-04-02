@@ -4,9 +4,11 @@
 
 // --- Imports ---
 
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.FluidCanner;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
 
@@ -108,6 +110,14 @@ recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlen
 oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 
 
+// --- Assembler Recipes ---
+
+
+// --- Empty Combs
+Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt.integrated_circuit:2> * 0, 120, 20);
+
+
+
 
 // --- Centrifuge Recipes ---
 
@@ -143,6 +153,15 @@ FluidExtractor.addRecipe(<BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1> ,
 
 // --- Honey
 FluidExtractor.addRecipe(null, <BiomesOPlenty:honeyBlock> , <liquid:for.honey> * 1000, 10000, 1200, 40);
+
+
+
+// --- Fluid Canner
+
+
+// --- Filled Combs
+mods.gregtech.FluidCanner.addRecipe(<BiomesOPlenty:food:9>, <BiomesOPlenty:misc:2>, null, <liquid:for.honey> * 100);
+
 
 
 
