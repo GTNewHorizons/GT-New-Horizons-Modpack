@@ -116,6 +116,9 @@ oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 // --- Empty Combs
 Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt.integrated_circuit:2> * 0, 120, 20);
 
+// --- Hive Block
+Assembler.addRecipe(<BiomesOPlenty:hive:1>, <Forestry:propolis> * 2, <gregtech:gt.integrated_circuit:2> * 0, 400, 40);
+
 
 
 

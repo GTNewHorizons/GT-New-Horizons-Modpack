@@ -7,6 +7,7 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.Centrifuge;
 import mods.gregtech.Fuels;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.SemiFluidGenerator;
@@ -2860,6 +2861,16 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 
 // --- Cart with Apiary
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
+
+
+
+
+// --- Centrifuge Recipes
+
+
+// --- Propolis
+mods.gregtech.Centrifuge.addRecipe([<Forestry:propolis>], null, <BiomesOPlenty:hive:1>, null, null, [500], 400, 40);
+
 
 
 
