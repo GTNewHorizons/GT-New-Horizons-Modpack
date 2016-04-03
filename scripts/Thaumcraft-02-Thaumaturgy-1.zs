@@ -25,24 +25,43 @@ val CAP_MechanistUC = <ThaumicExploration:mechanistCapUncharged>;
 val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
 val CAP_Soj = <ThaumicExploration:sojournerCap>;
 val CAP_Mechanist = <ThaumicExploration:mechanistCap>;
+<<<<<<< HEAD
+=======
+val CAP_Kami = <ThaumicTinkerer:kamiResource:4>;
+>>>>>>> 1.0.7.8fix
 val CAP_Thauminite = <thaumicbases:resource:2>;
 
 // --- Functions ---
    
 function remove_TC_Infusion(pItem as IItemStack) {
 mods.thaumcraft.Infusion.removeRecipe(pItem);
+<<<<<<< HEAD
 //NEI.hide(pItem);
+=======
+NEI.hide(pItem);
+>>>>>>> 1.0.7.8fix
 }
  
 function remove_TC_Arcane(pItem as IItemStack) {
 mods.thaumcraft.Arcane.removeRecipe(pItem);
+<<<<<<< HEAD
 //NEI.hide(pItem);
 }
 
 
+=======
+NEI.hide(pItem);
+}
+
+>>>>>>> 1.0.7.8fix
 
 // --- Removing Recipes ---
 
+<<<<<<< HEAD
+=======
+// --- Removing Recipes ---
+
+>>>>>>> 1.0.7.8fix
 // Add-on Infusion Caps
 remove_TC_Infusion(CAP_Shadow);
 remove_TC_Infusion(CAP_Alchemic);
@@ -56,6 +75,10 @@ remove_TC_Arcane(CAP_Crimson);
 remove_TC_Arcane(CAP_ShadowCloth);
 remove_TC_Arcane(CAP_MechanistUC);
 remove_TC_Arcane(CAP_SojUC);
+<<<<<<< HEAD
+=======
+remove_TC_Arcane(CAP_Kami);
+>>>>>>> 1.0.7.8fix
 remove_TC_Arcane(CAP_Thauminite);
 
 // --- Iron Wand Cap
@@ -84,6 +107,12 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:5>);
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:6>);
 // -
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:7>);
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 1.0.7.8fix
 
 
 
