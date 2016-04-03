@@ -1246,6 +1246,16 @@ recipes.remove(<gregtech:gt.blockmachines:129>);
 // --- Iridium IC2
 recipes.remove(<IC2:itemOreIridium>);
 
+// --- Enderpearl Dust
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2532>);
+
+// --- Endereye Dust
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2533>);
+
+// --- Enderpearl Dust
+recipes.removeShapeless(<minecraft:ender_pearl>);
+
+
 
 
 
