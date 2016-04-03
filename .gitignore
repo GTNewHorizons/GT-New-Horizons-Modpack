@@ -72,6 +72,7 @@ config/warptheory/
 !config/GregTech/OverpoweredStuff.cfg
 !config/GregTech/Recipes.cfg
 !config/GregTech/WorldGeneration.cfg
+!config/GregTech/Unification.cfg
 !config/HungerOverhaul/HungerOverhaul.cfg
 !config/opencomputers/user.recipes
 !config/railcraft/blocks.cfg
