@@ -1247,13 +1247,169 @@ recipes.remove(<gregtech:gt.blockmachines:129>);
 recipes.remove(<IC2:itemOreIridium>);
 
 // --- Enderpearl Dust
-recipes.removeShapeless(<gregtech:gt.metaitem.01:2532>);
+recipes.removeShapeless(<ore:dustEnderPearl>);
+// -
+recipes.removeShapeless(<ore:gemEnderPearl>);
 
 // --- Endereye Dust
-recipes.removeShapeless(<gregtech:gt.metaitem.01:2533>);
+recipes.removeShapeless(<ore:dustEnderEye>);
+// -
+recipes.removeShapeless(<ore:gemEnderEye>);
 
-// --- Enderpearl Dust
-recipes.removeShapeless(<minecraft:ender_pearl>);
+// --- Ruby Dust
+recipes.removeShapeless(<ore:dustRuby>);
+// -
+recipes.removeShapeless(<ore:gemRuby>);
+
+// --- Sapphire Dust
+recipes.removeShapeless(<ore:dustSapphire>);
+// -
+recipes.removeShapeless(<ore:gemSapphire>);
+
+// --- Green Sapphire Dust
+recipes.removeShapeless(<ore:dustGreenSapphire>);
+// -
+recipes.removeShapeless(<ore:gemGreenSapphire>);
+
+// --- Olivine Dust
+recipes.removeShapeless(<ore:dustOlivine>);
+// -
+recipes.removeShapeless(<ore:gemOlivine>);
+
+// --- Topaz Dust
+recipes.removeShapeless(<ore:dustTopaz>);
+// -
+recipes.removeShapeless(<ore:gemTopaz>);
+
+// --- Tanzanite Dust
+recipes.removeShapeless(<ore:dustTanzanite>);
+// -
+recipes.removeShapeless(<ore:gemTanzanite>);
+
+// --- Amethyst Dust
+recipes.removeShapeless(<ore:dustAmethyst>);
+// -
+recipes.removeShapeless(<ore:gemAmethyst>);
+
+// --- Jasper Dust
+recipes.removeShapeless(<ore:dustJasper>);
+// -
+recipes.removeShapeless(<ore:gemJasper>);
+
+// --- Yellow Garnet Dust
+recipes.removeShapeless(<ore:dustGarnetYellow>);
+// -
+recipes.removeShapeless(<ore:gemGarnetYellow>);
+
+// --- Red Garnet Dust
+recipes.removeShapeless(<ore:dustGarnetRed>);
+// -
+recipes.removeShapeless(<ore:gemGarnetRed>);
+
+// --- Force Dust
+recipes.removeShapeless(<ore:dustForce>);
+// -
+recipes.removeShapeless(<ore:gemForce>);
+
+// --- Forcillium Dust
+recipes.removeShapeless(<ore:dustForcillium>);
+// -
+recipes.removeShapeless(<ore:gemForcillium>);
+
+// --- Forcicium Dust
+recipes.removeShapeless(<ore:dustForcicium>);
+// -
+recipes.removeShapeless(<ore:gemForcicium>);
+
+// --- Dilithium Dust
+recipes.removeShapeless(<ore:dustDilithium>);
+// -
+recipes.removeShapeless(<ore:gemDilithium>);
+
+// --- Amber Dust
+recipes.removeShapeless(<ore:dustAmber>);
+// -
+recipes.removeShapeless(<ore:gemAmber>);
+
+// --- Fools Ruby Dust
+recipes.removeShapeless(<ore:dustFoolsRuby>);
+// -
+recipes.removeShapeless(<ore:gemFoolsRuby>);
+
+// --- Blue Topaz Dust
+recipes.removeShapeless(<ore:dustBlueTopaz>);
+// -
+recipes.removeShapeless(<ore:gemBlueTopaz>);
+
+// --- Monazite Dust
+recipes.removeShapeless(<ore:dustMonazite>);
+// -
+recipes.removeShapeless(<ore:gemMonazite>);
+
+// --- Quartzite Dust
+recipes.removeShapeless(<ore:dustQuartzite>);
+// -
+recipes.removeShapeless(<ore:gemQuartzite>);
+
+// --- Lazurite Dust
+recipes.removeShapeless(<ore:dustLazurite>);
+// -
+recipes.removeShapeless(<ore:gemLazurite>);
+
+// --- Sodalite Dust
+recipes.removeShapeless(<ore:dustSodalite>);
+// -
+recipes.removeShapeless(<ore:gemSodalite>);
+
+// --- Niter Dust
+recipes.removeShapeless(<ore:dustNiter>);
+// -
+recipes.removeShapeless(<ore:gemNiter>);
+
+// --- Phosphorus Dust
+recipes.removeShapeless(<ore:dustPhosphorus>);
+// -
+recipes.removeShapeless(<ore:gemPhosphorus>);
+
+// --- Lignite Coal Dust
+recipes.removeShapeless(<ore:dustLignite>);
+// -
+recipes.removeShapeless(<ore:gemLignite>);
+
+// --- Perditio Dust
+recipes.removeShapeless(<ore:dustInfusedEntropy>);
+// -
+recipes.removeShapeless(<ore:gemInfusedEntropy>);
+
+// --- Ordo Dust
+recipes.removeShapeless(<ore:dustInfusedOrder>);
+// -
+recipes.removeShapeless(<ore:gemInfusedOrder>);
+
+// --- Vinteum Dust
+recipes.removeShapeless(<ore:dustVinteum>);
+// -
+recipes.removeShapeless(<ore:gemVinteum>);
+
+// --- Aer Dust
+recipes.removeShapeless(<ore:dustInfusedAir>);
+// -
+recipes.removeShapeless(<ore:gemInfusedAir>);
+
+// --- Ignis Dust
+recipes.removeShapeless(<ore:dustInfusedFire>);
+// -
+recipes.removeShapeless(<ore:gemInfusedFire>);
+
+// --- Terra Dust
+recipes.removeShapeless(<ore:dustInfusedEarth>);
+// -
+recipes.removeShapeless(<ore:gemInfusedEarth>);
+
+// --- Aqua Dust
+recipes.removeShapeless(<ore:dustInfusedWater>);
+// -
+recipes.removeShapeless(<ore:gemInfusedWater>);
 
 
 
