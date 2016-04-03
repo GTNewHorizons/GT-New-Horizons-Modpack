@@ -311,11 +311,11 @@ mods.thaumcraft.Research.setComplexity("INFUSION", 2);
 // --- Paving Stone of Travel
 mods.thaumcraft.Research.clearPages("PAVETRAVEL");
 mods.thaumcraft.Research.addPage("PAVETRAVEL", "tc.research_page.PAVETRAVEL.1");
-mods.thaumcraft.Arcane.addShaped("PAVETRAVEL", <ThaumicTinkerer:travelSlabFull> * 4, "aer 12, ordo 12, terra 12", [
+mods.thaumcraft.Arcane.addShaped("PAVETRAVEL", <Thaumcraft:blockCosmeticSolid:2> * 4, "aer 12, ordo 12, terra 12", [
 [<ore:plateInfusedAir>, <ore:plateInfusedEarth>, <ore:plateInfusedAir>],
 [<ore:plateInfusedEarth>, <Thaumcraft:blockCosmeticSolid:7>, <ore:plateInfusedEarth>],
 [<ore:plateInfusedAir>, <ore:plateInfusedEarth>, <ore:plateInfusedAir>]]);
-mods.thaumcraft.Research.addArcanePage("PAVETRAVEL", <ThaumicTinkerer:travelSlabFull>);
+mods.thaumcraft.Research.addArcanePage("PAVETRAVEL", <Thaumcraft:blockCosmeticSolid:2>);
 // -
 mods.thaumcraft.Research.setAspects("PAVETRAVEL", "iter 9, volatus 6, terra 6, motus 3");
 mods.thaumcraft.Research.setComplexity("PAVETRAVEL", 2);

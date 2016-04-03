@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.7.8 is out (19.03.2016)(GT New Horizons Coremod 1.1.31) (GTTweaker 1.1.0)
+Version 1.0.7.9 is out (03.04.2016)(GT New Horizons Coremod 1.1.33) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 14 months and still got a lot more work to do.
+I've been working on it for 17 months and still got a lot more work to do.
 
 The pack has around 190+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.7.8 --- 19.03.2016<BR>
+## Modlist - NewHorizons 1.0.7.9 --- 03.04.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * AE2 Stuff	0.5.1.9<BR>
@@ -78,7 +78,7 @@ Number of players: ~10<BR>
 * AppleCore	1.3.0<BR>
 * Applied Energistics	rv3stable5<BR>
 * AsieLib	0.4.5<BR>
-* Auto Packer	1.5.9<BR>
+* Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
 * BackPack	2.0.1<BR>
 * Baubles	1.0.1.10<BR>
@@ -91,7 +91,7 @@ Number of players: ~10<BR>
 * Binnie Mods	2.0-pre14<BR>
 * Biomes o Plenty	2.1.0.1889<BR>
 * BlockLimiter	0.4<BR>
-* Blood Arsenal	1.2.4<BR>
+* Blood Arsenal	1.2.5<BR>
 * BloodMagic	1.3.3.17<BR>
 * Brandon's Core	1.0.0.11<BR>
 * Buildcraft	7.1.16<BR>
@@ -102,20 +102,20 @@ Number of players: ~10<BR>
 * CofhCore	3.2.1.325<BR>
 * CofhLib	1.1.1.181<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2 RC2<BR>
-* Electro Magic Tools	1.2.5<BR>
+* Draconic Evolution	1.0.2<BR>
+* Electro Magic Tools	1.2.6<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.0.1.31<BR>
+* Ender Core	0.0.1.32<BR>
 * Ender IO	2.3.0.424<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Extra Cells	2.3.9b189<BR>
 * Extra Utilities	1.2.12<BR>
-* FastCraft	1.21<BR>
-* Flood Light	1.1.1.122<BR>
-* Forbidden Magic	0.573<BR>
-* Forestry	4.2.10.58<BR>
+* FastCraft	1.22<BR>
+* Flood Light	1.1.1.124<BR>
+* Forbidden Magic	0.574<BR>
+* Forestry	4.2.11.59<BR>
 * Forge Microblocks	1.2.0.345<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
@@ -124,19 +124,19 @@ Number of players: ~10<BR>
 * GalactiGreg	0.9.4<BR>
 * Galaxy Space	2.6 Beta<BR>
 * Gendustry	1.6.4.134<BR>
-* Gravitation Suite	2.0.65u<BR>
-* Gregtech	5.08.33.6custom<BR>
-* GT New Horizons Core Mod	1.1.31<BR>
+* Gravitation Suite	2.0.67u<BR>
+* Gregtech	5.08.33.10custom<BR>
+* GT New Horizons Core Mod	1.1.33<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Hardcore Questing Mod	4.4.4<BR>
 * Help Fixer	1.0.7<BR>
-* Holo Inventory	1.9.1.123<BR>
+* Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.85<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.3.4a<BR>
-* IguanaTinkerTweaks	2.1.5<BR>
-* Industrial Craft 2	2.2.2.817<BR>
+* IguanaTinkerTweaks	2.1.6<BR>
+* Industrial Craft 2	2.2.2.818<BR>
 * Industrial Craft 2 Nei Plugin	1.0.9<BR>
 * Infernal Mobs	1.6.6<BR>
 * Ingame Info XML	2.8.1.82<BR>
@@ -156,7 +156,7 @@ Number of players: ~10<BR>
 * MicdoodleCore	3.0.12.452GS2.6Custom<BR>
 * Mine Tweaker 3	3.0.10B<BR>
 * Minecraft Forge	10.13.4.1617<BR>
-* Mod Tweaker 2	0.9.4.156<BR>
+* Mod Tweaker 2	0.9.5.170<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.107<BR>
 * NEI	1.0.5.120<BR>
@@ -167,8 +167,8 @@ Number of players: ~10<BR>
 * Open Computers	1.5.22.46<BR>
 * Open Eye	0.6.145<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.0.213<BR>
-* Open Printers	0.1.0.130<BR>
+* Open Modular Turrets 2.2.0.211<BR>
+* Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
 * Optifine	HD UD 3<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
@@ -182,7 +182,7 @@ Number of players: ~10<BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Railcraft	9.9.0.0<BR>
+* Railcraft	9.10.0.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
@@ -194,7 +194,7 @@ Number of players: ~10<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.9.45<BR>
+* Storage Drawers	1.9.5<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * TC Node Tracker	1.1.2<BR>
@@ -209,7 +209,7 @@ Number of players: ~10<BR>
 * Thaumic Tinkerer	2.5.523<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
-* Tinker's Gregworks	1.0.8<BR>
+* Tinker's Gregworks	1.0.11<BR>
 * TMechworks	02.14.106<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>

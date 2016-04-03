@@ -14,6 +14,26 @@
 
 
 
+// --- Wand Rods/cores
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:2>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:50>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:51>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:52>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:53>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:54>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:55>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:56>);
+// -
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandRod:57>);
+
+
 
 // --- Adding Recipes ---
 
@@ -24,7 +44,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_silverwood", <Thaumcraft:blockMagicalLog
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
 " aer 48, aqua 48, ignis 48, ordo 48, perditio 48, praecantatio 48, terra 48", <Thaumcraft:WandRod:2>, 5);
 // -
-mods.thaumcraft.Research.setAspects("ROD_silverwood", "instrumentum 50, praecantatio 40, cognitio 30, herba 20, arbor 10");
+mods.thaumcraft.Research.setAspects("ROD_silverwood", "instrumentum 12, praecantatio 12, cognitio 9, herba 6, arbor 3");
 mods.thaumcraft.Research.setComplexity("ROD_silverwood", 3);
 
 // --- Iron Capped Silverwood Wand
@@ -199,7 +219,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandRod:50>,
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_greatwood_staff", "instrumentum 50, praecantatio 40, arbor 30, ignis 20, aer 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_greatwood_staff", "instrumentum 12, praecantatio 12, arbor 9, ignis 6, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_greatwood_staff", 3);
 
 // --- Iron Capped Greatwood Staff Wand
@@ -375,7 +395,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandRod:55>, "aer
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:5>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:5>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_reed_staff", "instrumentum 50, praecantatio 40, herba 30, aer 20, ignis 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_reed_staff", "instrumentum 12, praecantatio 12, herba 9, aer 6, ignis 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_reed_staff", 3);
 
 // --- Iron Capped Reed Staff Wand
@@ -550,7 +570,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandRod:56>, "ae
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:6>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_blaze_staff", "instrumentum 50, praecantatio 40, ignis 30, potentia 20, aer 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_blaze_staff", "instrumentum 12, praecantatio 12, ignis 9, potentia 6, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_blaze_staff", 3);
 
 // --- Iron Capped Blaze Staff Wand
@@ -724,7 +744,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_obsidian_staff", <Thaumcraft:WandRod:51>, 
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:1>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:1>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_obsidian_staff", "instrumentum 50, praecantatio 40, terra 30, ignis 20, aer 10, potentia 5");
+mods.thaumcraft.Research.setAspects("ROD_obsidian_staff", "instrumentum 12, praecantatio 12, terra 9, ignis 6, aer 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("ROD_obsidian_staff", 3);
 
 // --- Iron Capped Obsidian Staff Wand
@@ -898,7 +918,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandRod:53>, "aer 
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:3>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_ice_staff", "instrumentum 50, praecantatio 40, gelum 30, aqua 20, aer 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_ice_staff", "instrumentum 12, praecantatio 12, gelum 9, aqua 6, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_ice_staff", 3);
 
 // --- Iron Capped Icy Staff Wand
@@ -1072,7 +1092,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_quartz_staff", <Thaumcraft:WandRod:54>, "a
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:4>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:4>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_quartz_staff", "instrumentum 50, praecantatio 40, vitreus 30, ordo 20, aer 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_quartz_staff", "instrumentum 12, praecantatio 12, vitreus 9, ordo 6, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_quartz_staff", 3);
 
 // --- Iron Capped Quartz Staff Wand
@@ -1246,7 +1266,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandRod:57>, "aer
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:7>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:7>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_bone_staff", "instrumentum 50, praecantatio 40, exanimis 30, perditio 20, aer 10, terra 5");
+mods.thaumcraft.Research.setAspects("ROD_bone_staff", "instrumentum 12, praecantatio 12, exanimis 9, perditio 6, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_bone_staff", 3);
 mods.thaumcraft.Warp.addToResearch("ROD_bone_staff", 3);
 
@@ -1421,7 +1441,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandRod:52>
 [<Thaumcraft:blockCrystal:2>, <Thaumcraft:WandRod:2>, <Thaumcraft:blockCrystal:3>],
 [<Thaumcraft:WandRod:2>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
 // -
-mods.thaumcraft.Research.setAspects("ROD_silverwood_staff", "instrumentum 70, praecantatio 60, arbor 50, ordo 40, aer 30, terra 20");
+mods.thaumcraft.Research.setAspects("ROD_silverwood_staff", "instrumentum 15, praecantatio 15, arbor 12, ordo 9, aer 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ROD_silverwood_staff", 4);
 
 // --- Iron Capped Silverwood Staff Wand
@@ -1598,6 +1618,12 @@ mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:216>.w
 // --- Refresh Recipese --- 
 
 
+
+// --- Silverwood Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
+
+// --- Greatwood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_greatwood_staff");
 
 
 

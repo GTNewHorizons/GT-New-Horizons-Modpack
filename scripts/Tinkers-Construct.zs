@@ -199,6 +199,11 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
 // --- Casting Recipes ---
 
+// --- Cobalt Ore
+mods.tconstruct.Smeltery.removeMelting(<ore:oreCobalt>);
+
+// --- Cobalt Dust
+mods.tconstruct.Smeltery.removeMelting(<ore:dustCobalt>);
 
 // --- Alumium Ingot
 mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
@@ -277,9 +282,6 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 
 // --- Steel Ingot
 //mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
-
-// --- Cobalt Dust
-mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2033>);
 
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
@@ -1226,6 +1228,9 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldLeggings>, <liquid:stee
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldBoots>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 
+// --- Tinkers Cobalt
+mods.tconstruct.Smeltery.addMelting(<TConstruct:SearedBrick:1>, <liquid:cobalt.molten> * 144, 800, <TConstruct:MetalBlock>);
+
 // --- Glue ---
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2880>, <liquid:glue> * 144, 250, <TConstruct:GlueBlock>);
 // -
@@ -1236,6 +1241,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:17880>, <liquid:glu
 mods.tconstruct.Smeltery.addMelting(<EMT:EMTItems:10>, <liquid:glue> * 576, 400, <TConstruct:GlueBlock>);
 // -
 mods.tconstruct.Smeltery.addMelting(<EMT:EMTItems:8>, <liquid:glue> * 288, 200, <TConstruct:GlueBlock>);
+
+// --- Cobalt Ingot
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);

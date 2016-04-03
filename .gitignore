@@ -72,6 +72,7 @@ config/warptheory/
 !config/GregTech/OverpoweredStuff.cfg
 !config/GregTech/Recipes.cfg
 !config/GregTech/WorldGeneration.cfg
+!config/GregTech/Unification.cfg
 !config/HungerOverhaul/HungerOverhaul.cfg
 !config/opencomputers/user.recipes
 !config/railcraft/blocks.cfg
@@ -97,7 +98,6 @@ config/HardcoreEnderExpansion.clientsave.cfg
 config/harvestthenether.cfg
 config/IC2NuclearControl.cfg
 config/IGWMod.cfg
-config/InGameInfoXML.cfg
 config/InvTweaks.cfg
 config/InvTweaksRules.txt
 config/InvTweaksTree.txt

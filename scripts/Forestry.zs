@@ -7,7 +7,9 @@
 
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.Centrifuge;
 import mods.gregtech.Fuels;
+import mods.gregtech.FluidSolidifier;
 import mods.ic2.SemiFluidGenerator;
 
 
@@ -622,13 +624,13 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000,
 recipes.addShapeless(<Forestry:apiculture:2>, [<harvestcraft:apiary>]);
 
 // --- Apiarys Chest
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
 <minecraft:chest>, <Forestry:apicultureChest>);
 // -
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
@@ -667,42 +669,42 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000,
 <minecraft:chest>, <Forestry:lepidopterology>);
 
 // --- Swarmer
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>, 
 <Forestry:royalJelly>, <Forestry:frameProven>, <Forestry:royalJelly>, 
 <Forestry:thermionicTubes:5>, <gregtech:gt.metaitem.01:29351>, <Forestry:thermionicTubes:5>], 
 <Forestry:alveary>, <Forestry:alveary:2>);
 
 // --- Alveary Fan
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:11>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:11>, 
 <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.02:21300>, <dreamcraft:item.SteelBars>, 
 <Forestry:thermionicTubes:11>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:11>], 
 <Forestry:alveary>, <Forestry:alveary:3>);
 
 // --- Alveary Heater
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:7>, <dreamcraft:item.SteelBars>, <Forestry:thermionicTubes:7>, 
 <IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>, 
 <Forestry:thermionicTubes:7>, <gregtech:gt.metaitem.01:32601>, <Forestry:thermionicTubes:7>], 
 <Forestry:alveary>, <Forestry:alveary:4>);
 
 // --- Alveary Hygroregulator
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:32702>, <Forestry:thermionicTubes:6>, 
 <BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>, 
 <Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>], 
 <Forestry:alveary>, <Forestry:alveary:5>);
 
 // --- Alveary Stabiliser
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>, 
 <gregtech:gt.metaitem.01:32729>, <Forestry:beealyzer>, <gregtech:gt.metaitem.01:32729>, 
 <Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>], 
 <Forestry:alveary>, <Forestry:alveary:6>);
 
 // --- Alveary Sieve
-mods.forestry.Carpenter.addRecipe(60, <liquid:honey> * 5000, 
+mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>, 
 <Forestry:craftingMaterial:3>, <Forestry:pollenFertile:*>, <Forestry:craftingMaterial:3>, 
 <Forestry:thermionicTubes:9>, <Forestry:craftingMaterial:3>, <Forestry:thermionicTubes:9>], 
@@ -1165,49 +1167,48 @@ null, <minecraft:sand:*>, null],
 null, <Forestry:fertilizerCompound> * 2);
 
 // --- Iodine Capsule
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <Forestry:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 // -
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <ExtraBees:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 //-
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:pollen:*>, <Forestry:honeydew>, 
 <Forestry:pollen:*>, <MagicBees:propolis:*>, <Forestry:pollen:*>, 
 <minecraft:gunpowder>, <Forestry:pollen:*>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:iodineCapsule>);
 
 // --- Dissipation Charge
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <Forestry:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 // -
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <ExtraBees:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 // -
-mods.forestry.Carpenter.addRecipe(40, <liquid:honey> * 1000, 
+mods.forestry.Carpenter.addRecipe(40, <liquid:for.honey> * 1000, 
 [<Forestry:honeydew>, <Forestry:royalJelly>, <Forestry:honeydew>, 
 <Forestry:royalJelly>, <MagicBees:propolis:*>, <Forestry:royalJelly>, 
 <minecraft:gunpowder>, <Forestry:royalJelly>, <minecraft:gunpowder>],
 <Forestry:canEmpty>, <Forestry:craftingMaterial:4>);
 
 // --- Scented Paneling
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 1000, 
-[<gregtech:gt.metaitem.02:19086>, <Forestry:royalJelly>, <gregtech:gt.metaitem.02:19086>, 
-<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>, 
-<Forestry:beeswax>, <Forestry:pollen:*>, <Forestry:beeswax>],
-null, <Forestry:craftingMaterial:6>);
+mods.forestry.Carpenter.addRecipe(<Forestry:craftingMaterial:6>, [
+[<gregtech:gt.metaitem.02:19086>, <Forestry:royalJelly>, <gregtech:gt.metaitem.02:19086>],
+[<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>], 
+[<Forestry:beeswax>, <Forestry:pollen:*>, <Forestry:beeswax>]], <liquid:for.honey> * 1000, 10, null);
 
 // --- Bituminous Peat
 mods.forestry.Carpenter.addRecipe(10, <liquid:creosote> * 200, 
@@ -1421,75 +1422,75 @@ mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>,
 mods.thaumcraft.Research.addInfusionPage("PROVENGRAFTER", <Forestry:grafterProven>);
 
 // --- Candle
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <Forestry:beeswax>, null],
 null, <Forestry:candle> * 2);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <Forestry:beeswax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <Forestry:refractoryWax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <Forestry:refractoryWax>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax:1>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax:1>, null],
 null, <Forestry:candle> * 8);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <minecraft:string>, null, 
 null, <MagicBees:wax:2>, null],
 null, <Forestry:candle> * 4);
 // -
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 100, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 100, 
 [null,null, null, 
 null, <Forestry:craftingMaterial:2>, null, 
 null, <MagicBees:wax:2>, null],
 null, <Forestry:candle> * 8);
 
 // --- Honeyed Slice
-mods.forestry.Carpenter.addRecipe(10, <liquid:honey> * 800, 
+mods.forestry.Carpenter.addRecipe(10, <liquid:for.honey> * 800, 
 [null, null, null,
 null, null, null,
 null, <gregtech:gt.metaitem.02:32566>, null],
 null, <Forestry:honeyedSlice>);
 
 // --- Ambrosia
-mods.forestry.Carpenter.addRecipe(20, <liquid:honey> * 400, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 400, 
 [<Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>,
 <Forestry:royalJelly>, <Forestry:royalJelly>, <Forestry:royalJelly>,
 <Forestry:honeydew>, <Forestry:honeydew>, <Forestry:honeydew>],
@@ -2860,3 +2861,23 @@ Assembler.addRecipe(<Forestry:cart.beehouse>, <Forestry:apiculture:2>, <minecraf
 
 // --- Cart with Apiary
 Assembler.addRecipe(<Forestry:cart.beehouse:1>, <Forestry:apiculture>, <minecraft:minecart>, 200, 16);
+
+
+
+
+// --- Centrifuge Recipes
+
+
+// --- Propolis
+mods.gregtech.Centrifuge.addRecipe([<Forestry:propolis>], null, <BiomesOPlenty:hive:1>, null, null, [500], 400, 40);
+
+
+
+
+
+// --- Fluid Solidifier Recipes ---
+
+
+
+// --- Honey Drops
+FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 200, 400, 8);

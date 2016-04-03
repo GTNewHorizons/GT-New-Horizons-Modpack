@@ -4,8 +4,12 @@
 
 // --- Imports ---
 
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
+import mods.gregtech.Centrifuge;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.FluidCanner;
+import mods.gregtech.FluidSolidifier;
 import mods.ic2.Macerator;
 
 
@@ -105,14 +109,33 @@ recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]);
 recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
 oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 
-// --- small Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 5, <BiomesOPlenty:bones>);
 
-// --- medium Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
+// --- Assembler Recipes ---
 
-// --- large Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
+
+// --- Empty Combs
+Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt.integrated_circuit:2> * 0, 120, 20);
+
+// --- Hive Block
+Assembler.addRecipe(<BiomesOPlenty:hive:1>, <Forestry:propolis> * 2, <gregtech:gt.integrated_circuit:2> * 0, 400, 40);
+
+
+
+
+// --- Centrifuge Recipes ---
+
+
+// --- Honey Drops
+mods.gregtech.Centrifuge.addRecipe([<Forestry:honeyDrop> * 7, <Forestry:honeyDrop>, <Forestry:honeyDrop>, <Forestry:honeyDrop>], null, <BiomesOPlenty:honeyBlock>, null, null, [10000, 5000, 2500, 1200], 4000, 8);
+
+// --- Bees Wax
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>], null, <BiomesOPlenty:misc:2>, null, null, [10000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>], null, <harvestcraft:waxcombItem>, null, null, [10000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>, <Forestry:honeyDrop>], null, <BiomesOPlenty:food:9>, null, null, [10000, 9000], 120, 5);
+// -
+mods.gregtech.Centrifuge.addRecipe([<Forestry:beeswax>, <Forestry:honeyDrop>], null, <harvestcraft:honeycombItem>, null, null, [10000, 9000], 120, 5);
 
 
 // --- Compressor Recipes ---
@@ -125,13 +148,49 @@ Compressor.addRecipe(<BiomesOPlenty:hardIce>, <minecraft:packed_ice> * 16);
 
 
 
-
 // --- Fluid Extractor Recipes ---
 
 
 // --- Poison
 FluidExtractor.addRecipe(<BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1> , <liquid:poison> * 1000, 10000, 20, 2);
 
+// --- Honey
+FluidExtractor.addRecipe(null, <BiomesOPlenty:honeyBlock> , <liquid:for.honey> * 1000, 10000, 1200, 40);
+
+
+
+// --- Fluid Canner
+
+
+// --- Filled Combs
+mods.gregtech.FluidCanner.addRecipe(<BiomesOPlenty:food:9>, <BiomesOPlenty:misc:2>, null, <liquid:for.honey> * 100);
+
+
+
+
+// --- Fluid Solidifier Recipes ---
+
+
+// --- Honey Drops
+FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:32308> * 0, <liquid:for.honey> * 1000, 400, 40);
+
+
+
+
+
+
+// --- Macerator Recipes ---
+
+
+
+// --- Small Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 5, <BiomesOPlenty:bones>);
+
+// --- Medium Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
+
+// --- Large Bone Segment
+Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
 
 
 
