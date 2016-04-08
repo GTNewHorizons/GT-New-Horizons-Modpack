@@ -287,7 +287,7 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 
 // --- Cobalt Ingot
-mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:11033>);
+mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 
 // --- Cobalt Block
 mods.tconstruct.Smeltery.removeMelting(<GemBlocksForGreg:tile.metalBlock0:9>);
