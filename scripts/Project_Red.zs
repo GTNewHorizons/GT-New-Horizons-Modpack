@@ -1076,7 +1076,10 @@ FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:proj
 // --- Energized Silicon Ship
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:8>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:14>, 600, 30);
 
-// --- Red Silicon Compound
+// --- Silicon
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:12>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:32307> * 0, 200, 30);
+
+// --- Infused Silicon
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:13>, <ProjRed|Core:projectred.core.part:42>, <gregtech:gt.metaitem.01:32307> * 0, 600, 30);
 
 // --- Glowing Silicon Compound
@@ -1101,7 +1104,7 @@ Macerator.addRecipe(<ProjRed|Core:projectred.core.part:56> * 9, <ProjRed|Explora
 
 
 // --- Red Silicon Compound
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:42>, [<gregtech:gt.metaitem.01:2020>, <minecraft:redstone> * 8], 400, 30);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:42>, [<ProjRed|Core:projectred.core.part:12>, <minecraft:redstone> * 8], 400, 30);
 
 // --- Glowing Silicon Compound
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:43>, [<gregtech:gt.metaitem.01:2020>, <minecraft:glowstone_dust> * 8], 400, 30);
