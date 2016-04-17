@@ -375,8 +375,6 @@ recipes.remove(<GalacticraftMars:tile.mars:8>);
 
 // --- Desh Ingot
 recipes.remove(<ore:ingotDesh>);
-// -
-furnace.remove(<ore:ingotDesh>);
 
 // --- Desh Stick
 recipes.remove(<GalacticraftMars:item.null:1>);
