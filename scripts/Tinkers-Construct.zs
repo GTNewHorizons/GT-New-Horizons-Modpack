@@ -2169,8 +2169,21 @@ recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>
 furnace.addRecipe(<TConstruct:materials:37>, <dreamcraft:item.UnfiredSlimeSoulBrick>);
 
 
-// --- Snoball to water
-//mods.tconstruct.Smeltery.addMelting(<minecraft:snowball>, <liquid:water> * 125, 20, <minecraft:water>);
+
+
+
+
+// --- Add Fuels to the Smeltery ---
+
+
+
+// --- Hot Coolant
+mods.tconstruct.Smeltery.addFuel(<liquid:ic2hotcoolant>, 900, 55);
+
+// --- Pahoehoe Lava
+mods.tconstruct.Smeltery.addFuel(<liquid:ic2pahoehoelava>, 3000, 90);
+
+
 
 
 
