@@ -16,6 +16,25 @@ import mods.nei.NEI;
 val Chest = <minecraft:chest>;
 val Barrel = <JABBA:barrel>;
 val Log = <ore:logWood>;
+val Log1 = <minecraft:log:*>;
+val Log2 = <minecraft:log2:*>;
+val Log3 = <BiomesOPlenty:logs1:*>;
+val Log4 = <BiomesOPlenty:logs2:*>;
+val Log5 = <BiomesOPlenty:logs3:*>;
+val Log6 = <BiomesOPlenty:logs4:*>;
+val Log7 = <ExtraTrees:log>;
+val Log8 = <Forestry:logs:*>;
+val Log9 = <Forestry:logsFireproof:*>;
+val Log10 = <IC2:blockRubWood>;
+val Log11 = <Natura:tree:*>;
+val Log12 = <Natura:redwood:*>;
+val Log13 = <Natura:willow:*>;
+val Log14 = <Natura:bloodwood:*>;
+val Log15 = <Natura:Dark Tree:*>;
+val Log16 = <Natura:Rare Tree:*>;
+val Log17 = <Thaumcraft:blockMagicalLog:*>;
+val Log18 = <TwilightForest:tile.TFLog:*>;
+val Log19 = <TwilightForest:tile.TFMagicLog:*>;
 
 val MKI = <JABBA:upgradeStructural>;
 val MKII = <JABBA:upgradeStructural:1>;
@@ -316,6 +335,45 @@ recipes.addShaped(VoidUp, [
 // --- Assembler Recipes ---
 
 
+
+// --- Barrel
+Assembler.addRecipe(Barrel, Log1 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log2 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log3 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log4 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log5 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log6 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log7 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log8 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log9 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log10 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log11 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log12 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log13 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log14 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log15 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log16 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log17 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log18 * 6, Chest, 200, 16);
+// -
+Assembler.addRecipe(Barrel, Log19 * 6, Chest, 200, 16);
 
 // --- Storage Upgrade
 Assembler.addRecipe(StorageUp, Barrel, Piston, 1200, 16);
