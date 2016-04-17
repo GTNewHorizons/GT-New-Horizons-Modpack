@@ -374,7 +374,9 @@ recipes.remove(<GalacticraftMars:item.titanium_boots>);
 recipes.remove(<GalacticraftMars:tile.mars:8>);
 
 // --- Desh Ingot
-recipes.remove(<gregtech:gt.metaitem.01:11884>);
+recipes.remove(<ore:ingotDesh>);
+// -
+furnace.remove(<ore:ingotDesh>);
 
 // --- Desh Stick
 recipes.remove(<GalacticraftMars:item.null:1>);
