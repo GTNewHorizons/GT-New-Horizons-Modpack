@@ -139,7 +139,7 @@ mods.thaumcraft.Research.setComplexity("TALLOW", 1);
 // --- Withe Tallow Candle
 mods.thaumcraft.Research.clearPages("TALLOW");
 mods.thaumcraft.Research.addPage("TALLOW", "tc.research_page.TALLOW.1");
-mods.thaumcraft.Arcane.addShaped("TALLOW", <Thaumcraft:blockCandle>, "lux 5, praecantatio 2", [
+mods.thaumcraft.Arcane.addShaped("TALLOW", <Thaumcraft:blockCandle>, "ignis 3, ordo 1, perditio 1, aer 3", [
 [null, <minecraft:string>, null],
 [null, <Thaumcraft:ItemResource:4>, null],
 [null, <Thaumcraft:ItemResource:4>, null]]);

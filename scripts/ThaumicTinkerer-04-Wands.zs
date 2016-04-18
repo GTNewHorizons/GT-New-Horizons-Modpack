@@ -133,37 +133,37 @@ mods.thaumcraft.Arcane.addShaped("CAP_void", <Thaumcraft:WandCasting:90>.withTag
 [<dreamcraft:item.ChargedVoidWandCap>, null, null]]);
 
 // --- Ichorium Ardorned Ichorclothstapped Silverwooden Wand
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 550, terra 550, ignis 550, aqua 550, ordo 550, perditio 550", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 550, terra 550, ignis 550, aqua 550, ordo 550, perditio 550", [
 [<dreamcraft:item.SnowQueenBlood>, <ore:screwOsmium>, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 300, terra 300, ignis 300, aqua 300, ordo 300, perditio 300", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 300, terra 300, ignis 300, aqua 300, ordo 300, perditio 300", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:10>.withTag({cap: "iron", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:20>.withTag({cap: "copper", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:30>.withTag({cap: "gold", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:40>.withTag({cap: "silver", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:60>.withTag({cap: "thaumium", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
 // -
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <Thaumcraft:WandCasting:100>.withTag({cap: "ICHOR", rod: "ICHORCLOTH"}), "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
 [null, null, <dreamcraft:item.IchoriumCap>],
 [<ore:screwOsmium>, <Thaumcraft:WandCasting:90>.withTag({cap: "void", rod: "ICHORCLOTH"}), <ore:screwOsmium>],
 [<dreamcraft:item.IchoriumCap>, null, null]]);
@@ -320,6 +320,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:150>.withTag
 
 
 // --- Refresh Recipese --- 
+
 
 
 

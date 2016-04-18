@@ -151,7 +151,7 @@ mods.thaumcraft.Research.addInfusionPage("DIMENSIONSHARDS", <ThaumicTinkerer:kam
 mods.thaumcraft.Research.addPrereq("ICHOR", "DIMENSIONSHARDS", false);
 mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>,
 [<gregtech:gt.metaitem.02:29500>, <ThaumicTinkerer:kamiResource:6>, <minecraft:ender_eye>, <ThaumicTinkerer:kamiResource:7>],
-"humanus 32, lux 32, spiritus 64, vitium 16, ordo 16", <ThaumicTinkerer:kamiResource> * 2, 10);
+"humanus 32, lux 32, spiritus 64, alienis 16, ordo 16", <ThaumicTinkerer:kamiResource> * 2, 10);
 // -
 mods.thaumcraft.Research.setAspects("ICHOR", "humanus 15, spiritus 15, ordo 15, praecantatio 15, vitium 12, lux 9, infernus 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHOR", 4);
@@ -161,7 +161,7 @@ mods.thaumcraft.Warp.addToResearch("ICHOR", 5);
 mods.thaumcraft.Arcane.addShaped("ICHOR_CLOTH", <ThaumicTinkerer:kamiResource:1> * 2, "aer 125, aqua 125, ignis 125, terra 125, ordo 125, perditio 125", [
 [<ThaumicTinkerer:kamiResource>, <Thaumcraft:ItemResource:7>, <ThaumicTinkerer:kamiResource>],
 [<ore:gemFlawlessDiamond>, <Thaumcraft:ItemResource:7>, <ore:gemFlawlessDiamond>],
-[<ore:screwVoidmetal>, <ore:craftingToolScrewdriver>, <ore:screwVoidmetal>]]);
+[<ore:screwOsmiridium>, <ore:craftingToolScrewdriver>, <ore:screwOsmiridium>]]);
 // -
 mods.thaumcraft.Research.setAspects("ICHOR_CLOTH", "pannus 15, fabrico 15, praecantatio 12, sensus 9, lux 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHOR_CLOTH", 4);
@@ -169,8 +169,8 @@ mods.thaumcraft.Warp.addToResearch("ICHOR_CLOTH", 1);
 
 // --- Ichorium
 mods.thaumcraft.Arcane.addShaped("ICHORIUM", <ThaumicTinkerer:kamiResource:2>, "aer 125, aqua 125, ignis 125, terra 125, ordo 125, perditio 125", [
-[<ore:ingotThaumium>, <ThaumicTinkerer:kamiResource>, <ore:ingotThaumium>],
-[<ThaumicTinkerer:kamiResource>, <ore:ingotVoid>, <ThaumicTinkerer:kamiResource>],
+[<ore:ingotVoid>, <ThaumicTinkerer:kamiResource>, <ore:ingotVoid>],
+[<ThaumicTinkerer:kamiResource>, <ore:ingotOsmiridium>, <ThaumicTinkerer:kamiResource>],
 [<ore:gemFlawlessDiamond>, <ThaumicTinkerer:kamiResource>, <ore:gemFlawlessDiamond>]]);
 // -
 mods.thaumcraft.Research.setAspects("ICHORIUM", "metallum 15, fabrico 15, instrumentum 12, praecantatio 9, lux 6, alienis 3");
@@ -181,14 +181,25 @@ mods.thaumcraft.Warp.addToResearch("ICHORIUM", 2);
 furnace.addRecipe(<ThaumicTinkerer:kamiResource:3> * 9, <ThaumicTinkerer:kamiResource:2>);
 
 // --- Ichor Wand Cap
-mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <dreamcraft:item.IchoriumCap> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
+mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
+mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
+mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <dreamcraft:item.IchoriumCap>);
+game.setLocalization("en_US", "tc.research_name.CAPICHOR", "Ichorium Wand Caps");
+game.setLocalization("en_US", "tc.research_text.CAPICHOR", "[TT] Somewhat like a Steam Sale");
+mods.thaumcraft.Research.addPrereq("CAPICHOR", "ICHORIUM", false);
+mods.thaumcraft.Research.setConcealed("CAPICHOR", false);
+mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
+game.setLocalization("en_US", "tt.research.page.CAPICHOR", "You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.");
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <dreamcraft:item.IchoriumCap> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
 [<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>],
 [<ore:ringVoidmetal>, <ThaumicTinkerer:kamiResource:2>, <ore:ringVoidmetal>],
 [<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>]]);
 // -
-mods.thaumcraft.Research.setAspects("CAP_ICHOR", "metallum 15, instrumentum 15, tenebrae 12, praecantatio 9, lux 6, alienis 3");
-mods.thaumcraft.Research.setComplexity("CAP_ICHOR", 4);
-mods.thaumcraft.Warp.addToResearch("CAP_ICHOR", 3);
+mods.thaumcraft.Research.addArcanePage("CAPICHOR", <dreamcraft:item.IchoriumCap>);
+// -
+mods.thaumcraft.Research.setAspects("CAPICHOR", "metallum 15, instrumentum 15, tenebrae 12, praecantatio 9, lux 6, alienis 3");
+mods.thaumcraft.Research.setComplexity("CAPICHOR", 4);
+mods.thaumcraft.Warp.addToResearch("CAPICHOR", 3);
 
 // --- Feline Amulet
 mods.thaumcraft.Infusion.addRecipe("CAT_AMULET", <ThaumicTinkerer:kamiResource>, 
@@ -210,26 +221,26 @@ mods.thaumcraft.Warp.addToResearch("ICHOR_POUCH", 3);
 // --- Ichorcloth Helm
 mods.thaumcraft.Arcane.addShaped("ICHORCLOTH_ARMOR", <ThaumicTinkerer:ichorclothHelm>, "aqua 75, perditio 50, ordo 25", [
 [<ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>],
-[<ThaumicTinkerer:kamiResource:1>, <ore:plateVoidmetal>, <ThaumicTinkerer:kamiResource:1>],
-[null, <ore:screwVoidmetal>, null]]);
+[<ThaumicTinkerer:kamiResource:1>, <ore:plateOsmiridium>, <ThaumicTinkerer:kamiResource:1>],
+[null, <ore:screwOsmiridium>, null]]);
 
 // --- Ichorcloth Chestplate
 mods.thaumcraft.Arcane.addShaped("ICHORCLOTH_ARMOR", <ThaumicTinkerer:ichorclothChest>, "aer 75, perditio 50, ordo 25", [
-[<ThaumicTinkerer:kamiResource:1>, <ore:screwVoidmetal>, <ThaumicTinkerer:kamiResource:1>],
+[<ThaumicTinkerer:kamiResource:1>, <ore:screwOsmiridium>, <ThaumicTinkerer:kamiResource:1>],
 [<ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>],
 [<ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>]]);
 
 // --- Ichorcloth Leggings
 mods.thaumcraft.Arcane.addShaped("ICHORCLOTH_ARMOR", <ThaumicTinkerer:ichorclothLegs>, "ignis 75, perditio 50, ordo 25", [
 [<ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>],
-[<ThaumicTinkerer:kamiResource:1>, <ore:plateVoidmetal>, <ThaumicTinkerer:kamiResource:1>],
-[<ThaumicTinkerer:kamiResource:1>, <ore:screwVoidmetal>, <ThaumicTinkerer:kamiResource:1>]]);
+[<ThaumicTinkerer:kamiResource:1>, <ore:plateOsmiridium>, <ThaumicTinkerer:kamiResource:1>],
+[<ThaumicTinkerer:kamiResource:1>, <ore:screwOsmiridium>, <ThaumicTinkerer:kamiResource:1>]]);
 
 // --- Ichorcloth Boots
 mods.thaumcraft.Arcane.addShaped("ICHORCLOTH_ARMOR",<ThaumicTinkerer:ichorclothBoots>, "terra 75, perditio 50, ordo 25", [
 [null, null, null],
-[<ThaumicTinkerer:kamiResource:1>, <ore:plateVoidmetal>, <ThaumicTinkerer:kamiResource:1>],
-[<ThaumicTinkerer:kamiResource:1>, <ore:screwVoidmetal>, <ThaumicTinkerer:kamiResource:1>]]);
+[<ThaumicTinkerer:kamiResource:1>, <ore:plateOsmiridium>, <ThaumicTinkerer:kamiResource:1>],
+[<ThaumicTinkerer:kamiResource:1>, <ore:screwOsmiridium>, <ThaumicTinkerer:kamiResource:1>]]);
 // -
 mods.thaumcraft.Research.setAspects("ICHORCLOTH_ARMOR", "tutamen 15, pannus 15, lux 12, perfodio 9, motus 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHORCLOTH_ARMOR", 4);
@@ -324,26 +335,26 @@ mods.thaumcraft.Warp.addToResearch("FOCUS_RECALL", 4);
 // --- Ichorium Pickaxe
 mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorPick>, "ignis 75, perditio 50, ordo 25", [
 [<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>],
-[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:plateVoidmetal>],
-[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+[<ore:plateOsmiridium>, <Thaumcraft:WandRod:2>, <ore:plateOsmiridium>],
+[<ore:screwOsmiridium>, <Thaumcraft:WandRod:2>, <ore:screwOsmiridium>]]);
 
 // --- Ichorium Shovel
 mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorShovel>, "terra 75, perditio 50, ordo 25", [
 [null, <ThaumicTinkerer:kamiResource:2>, null],
-[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:plateVoidmetal>],
-[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+[<ore:plateOsmiridium>, <Thaumcraft:WandRod:2>, <ore:plateOsmiridium>],
+[<ore:screwOsmiridium>, <Thaumcraft:WandRod:2>, <ore:screwOsmiridium>]]);
 
 // --- Ichorium Axe
 mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorAxe>, "aqua 75, perditio 50, ordo 25", [
-[<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>, <ore:plateVoidmetal>],
-[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>],
-[<ore:plateVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+[<ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:2>, <ore:plateOsmiridium>],
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:WandRod:2>, <ore:screwOsmiridium>],
+[<ore:plateOsmiridium>, <Thaumcraft:WandRod:2>, <ore:screwOsmiridium>]]);
 
 // --- Ichorium Sword
 mods.thaumcraft.Arcane.addShaped("ICHOR_TOOLS", <ThaumicTinkerer:ichorSword>, "aer 75, perditio 50, ordo 25", [
 [null, <ThaumicTinkerer:kamiResource:2>, null],
-[<ore:plateVoidmetal>, <ThaumicTinkerer:kamiResource:2>, <ore:plateVoidmetal>],
-[<ore:screwVoidmetal>, <Thaumcraft:WandRod:2>, <ore:screwVoidmetal>]]);
+[<ore:plateOsmiridium>, <ThaumicTinkerer:kamiResource:2>, <ore:plateOsmiridium>],
+[<ore:screwOsmiridium>, <Thaumcraft:WandRod:2>, <ore:screwOsmiridium>]]);
 // -
 mods.thaumcraft.Research.setAspects("ICHOR_TOOLS", "instrumentum 18, telum 15, metallum 12, fabrico 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHOR_TOOLS", 4);
@@ -442,9 +453,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("ICHOR_CLOTH");
 
 // --- Ichorium
 mods.thaumcraft.Research.refreshResearchRecipe("ICHORIUM");
-
-// --- Ichor Wand Cap
-mods.thaumcraft.Research.refreshResearchRecipe("CAP_ICHOR");
 
 // --- Feline Amulet
 mods.thaumcraft.Research.refreshResearchRecipe("CAT_AMULET");

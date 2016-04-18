@@ -374,7 +374,7 @@ recipes.remove(<GalacticraftMars:item.titanium_boots>);
 recipes.remove(<GalacticraftMars:tile.mars:8>);
 
 // --- Desh Ingot
-recipes.remove(<gregtech:gt.metaitem.01:11884>);
+recipes.remove(<ore:ingotDesh>);
 
 // --- Desh Stick
 recipes.remove(<GalacticraftMars:item.null:1>);
@@ -486,9 +486,6 @@ recipes.remove(<GalacticraftMars:item.deshSpade>);
 
 // --- Desh Sword
 recipes.remove(<GalacticraftMars:item.deshSword>);
-
-// --- Desh Ingot
-//furnace.remove(<GalacticraftMars:item.null:2>);
 
 // --- Desh Block
 recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
@@ -1107,9 +1104,6 @@ recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [null, null, <ore:toolHeadArrowMeteoricSteel>],
 [String, String, String],
 [<ore:ringMeteoricSteel>, null, null]]);
-
-// --- Desh Ingot
-furnace.addRecipe(<gregtech:gt.metaitem.01:11884>, <gregtech:gt.metaitem.01:2884>);
 
 // --- Astro Miner Base
 recipes.addShaped(<GalacticraftMars:tile.minerBase> * 4, [
