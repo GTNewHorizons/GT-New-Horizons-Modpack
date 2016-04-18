@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.7.9 is out (03.04.2016)(GT New Horizons Coremod 1.1.33) (GTTweaker 1.1.0)
+Version 1.0.7.9b is out (18.04.2016)(GT New Horizons Coremod 1.1.35) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.7.9 --- 03.04.2016<BR>
+## Modlist - NewHorizons 1.0.7.9b --- 18.04.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * AE2 Stuff	0.5.1.9<BR>
@@ -93,7 +93,7 @@ Number of players: ~10<BR>
 * BlockLimiter	0.4<BR>
 * Blood Arsenal	1.2.5<BR>
 * BloodMagic	1.3.3.17<BR>
-* Brandon's Core	1.0.0.11<BR>
+* Brandon's Core	1.0.0.12<BR>
 * Buildcraft	7.1.16<BR>
 * Buildcraft Compat	7.1.4<BR>
 * Carpenter's Blocks	3.3.7<BR>
@@ -102,10 +102,10 @@ Number of players: ~10<BR>
 * CofhCore	3.2.1.325<BR>
 * CofhLib	1.1.1.181<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2<BR>
-* Electro Magic Tools	1.2.6<BR>
+* Draconic Evolution	1.0.2b<BR>
+* Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.0.1.32<BR>
+* Ender Core	0.2.0.33<BR>
 * Ender IO	2.3.0.424<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
@@ -116,28 +116,28 @@ Number of players: ~10<BR>
 * Flood Light	1.1.1.124<BR>
 * Forbidden Magic	0.574<BR>
 * Forestry	4.2.11.59<BR>
-* Forge Microblocks	1.2.0.345<BR>
+* Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Galacticraft-Planets	3.0.12.452GS2.6Custom<BR>
 * GalacticraftCore	3.0.12.452GS2.6Custom<BR>
 * GalactiGreg	0.9.4<BR>
 * Galaxy Space	2.6 Beta<BR>
-* Gendustry	1.6.4.134<BR>
+* Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.10custom<BR>
-* GT New Horizons Core Mod	1.1.33<BR>
+* Gregtech	5.08.33.15custom<BR>
+* GT New Horizons Core Mod	1.1.35<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
-* Hardcore Questing Mod	4.4.4<BR>
+* Hardcore Questing Mod	4.4.4a<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.85<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.3.4a<BR>
 * IguanaTinkerTweaks	2.1.6<BR>
-* Industrial Craft 2	2.2.2.818<BR>
-* Industrial Craft 2 Nei Plugin	1.0.9<BR>
+* Industrial Craft 2	2.2.2.820<BR>
+* Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * Ingame Info XML	2.8.1.82<BR>
 * InpureCore	1.0.0B9-62<BR>
@@ -156,7 +156,7 @@ Number of players: ~10<BR>
 * MicdoodleCore	3.0.12.452GS2.6Custom<BR>
 * Mine Tweaker 3	3.0.10B<BR>
 * Minecraft Forge	10.13.4.1617<BR>
-* Mod Tweaker 2	0.9.5.170<BR>
+* Mod Tweaker 2	0.9.5.171<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.107<BR>
 * NEI	1.0.5.120<BR>
@@ -167,10 +167,10 @@ Number of players: ~10<BR>
 * Open Computers	1.5.22.46<BR>
 * Open Eye	0.6.145<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.0.211<BR>
+* Open Modular Turrets 2.2.2.217<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
-* Optifine	HD UD 3<BR>
+* Optifine	HD UD 1<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
@@ -194,7 +194,7 @@ Number of players: ~10<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.9.5<BR>
+* Storage Drawers	1.9.7<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * TC Node Tracker	1.1.2<BR>
@@ -202,14 +202,14 @@ Number of players: ~10<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.3.1710.4<BR>
-* Thaumic Energistics	1.0.0.2fix<BR>
+* Thaumic Energistics	1.0.0.4<BR>
 * Thaumic Exploration	1.1.53<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.523<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
-* Tinker's Gregworks	1.0.11<BR>
+* Tinker's Gregworks	1.0.13<BR>
 * TMechworks	02.14.106<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
