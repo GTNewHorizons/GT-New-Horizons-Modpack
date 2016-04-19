@@ -119,7 +119,7 @@ public class GT_Loader_Items
 			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
 			'R', OrePrefixes.stick.get(Materials.Chrome),
 			'W', OrePrefixes.wireGt04.get(Materials.Platinum),
-			'C', AdvancedGTMaterials.LuV.getCable() });
+			'C', OrePrefixes.cableGt04.get(Materials.Naquadah) });
 
 		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_LuV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
@@ -189,7 +189,7 @@ public class GT_Loader_Items
 			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
 			'R', OrePrefixes.stick.get(Materials.Iridium), 
 			'W', OrePrefixes.wireGt04.get(Materials.Osmium),
-			'C', AdvancedGTMaterials.ZPM.getCable() });
+			'C', OrePrefixes.cableGt04.get(Materials.NaquadahAlloy) });
 
 		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_ZPM.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
@@ -258,7 +258,7 @@ public class GT_Loader_Items
 			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
 			'R', OrePrefixes.stick.get(Materials.Osmium),
 			'W', OrePrefixes.wireGt04.get(Materials.NaquadahAlloy),
-			'C', AdvancedGTMaterials.UV.getCable() });
+			'C', OrePrefixes.cableGt04.get(Materials.ElectrumFlux) });
 
 		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_UV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
