@@ -118,7 +118,7 @@ public class GT_Loader_Items
 				new Object[] { "CWR", "WIW", "RWC", 
 			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
 			'R', OrePrefixes.stick.get(Materials.Chrome),
-			'W', OrePrefixes.wireGt04.get(Materials.Osmium),
+			'W', OrePrefixes.wireGt04.get(Materials.Platinum),
 			'C', AdvancedGTMaterials.LuV.getCable() });
 
 		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_LuV.get(1L, new Object[0]),
@@ -188,7 +188,7 @@ public class GT_Loader_Items
 				new Object[] { "CWR", "WIW", "RWC", 
 			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
 			'R', OrePrefixes.stick.get(Materials.Iridium), 
-			'W', OrePrefixes.wireGt04.get(Materials.Naquadah),
+			'W', OrePrefixes.wireGt04.get(Materials.Osmium),
 			'C', AdvancedGTMaterials.ZPM.getCable() });
 
 		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_ZPM.get(1L, new Object[0]),
