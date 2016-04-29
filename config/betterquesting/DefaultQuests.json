@@ -792,7 +792,7 @@
         {
           "completeUsers": [],
           "target": "Sheep",
-          "required": 5,
+          "required": 6,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
@@ -1492,6 +1492,22 @@
           ],
           "userProgress": [],
           "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "IguanaTweaksTConstruct:clayBucketFired",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -2479,6 +2495,22 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
             }
           ],
           "userProgress": [],
