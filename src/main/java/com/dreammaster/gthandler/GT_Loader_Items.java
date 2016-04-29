@@ -392,6 +392,8 @@ public class GT_Loader_Items
 		CustomItemList.GlowingMarshmallow.set(com.dreammaster.item.ItemList.GlowingMarshmallow.getIS());
 		CustomItemList.Marshmallow.set(com.dreammaster.item.ItemList.Marshmallow.getIS());
 		CustomItemList.IchoriumCap.set(com.dreammaster.item.ItemList.IchoriumCap.getIS());
+		CustomItemList.CoinDarkWizard.set(com.dreammaster.item.ItemList.CoinDarkWizard.getIS());
+		CustomItemList.CoinTechnician.set(com.dreammaster.item.ItemList.CoinTechnician.getIS());
 	}
 
 }

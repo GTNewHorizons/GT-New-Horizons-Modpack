@@ -52,6 +52,8 @@ public enum ItemList
     ChargedCertusQuartzDust(new ModSimpleBaseItem("ChargedCertusQuartzDust", ModTabList.ModGenericTab)),
     ChargedCertusQuartzPlate(new ModSimpleBaseItem("ChargedCertusQuartzPlate", ModTabList.ModGenericTab)),
     ChargedCertusQuartzRod(new ModSimpleBaseItem("ChargedCertusQuartzRod", ModTabList.ModGenericTab)),
+    CoinDarkWizard(new ModSimpleBaseItem("CoinDarkWizard", ModTabList.ModGenericTab)),
+    CoinTechnician(new ModSimpleBaseItem("CoinTechnician", ModTabList.ModGenericTab)),
     CokeOvenBrick(new ModSimpleBaseItem("CokeOvenBrick", ModTabList.ModGenericTab)),
     ConductiveIronBars(new ModSimpleBaseItem("ConductiveIronBars", ModTabList.ModGenericTab)),
     ChromeBars(new ModSimpleBaseItem("ChromeBars", ModTabList.ModGenericTab)),
