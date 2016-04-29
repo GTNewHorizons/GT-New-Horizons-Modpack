@@ -1690,6 +1690,21 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "toolCuttingboard",
+              "Damage": 34
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "dreamcraft:item.WoodenBrickForm",
               "Count": 1,
               "OreDict": "",
@@ -2026,6 +2041,21 @@
         "Damage": 0
       },
       "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "dustWood",
+              "Damage": 2809
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
         {
           "completeUsers": [],
           "partialMatch": true,
