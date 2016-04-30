@@ -1063,6 +1063,72 @@
       ]
     },
     {
+      "questID": 16,
+      "name": "Better Tank...... Iron Tank",
+      "description": "Store more then 16 Buckets of Fluids in one tank? Sure make some iron Tank or upgrade the Buildcraft Tank.\nDiamond Tankes carry up to 64 Buckets and Obsidian ones are blast proof.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "irontank:diamondTank",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "irontank:ironTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        84
+      ]
+    },
+    {
       "questID": 17,
       "name": "The Gathering: Sand",
       "description": "In a strange vision you saw a big structure which would allow you to make charcoal. Finally some torches! According to your calculations, you would need a lot of sand for that",
@@ -5977,6 +6043,79 @@
       "preRequisites": []
     },
     {
+      "questID": 84,
+      "name": "Where i can put all the Liquids in",
+      "description": "With your rand New Alloy Smelter you are able to combine two materials. What happened if you mixing some Obsidian Dust and Glass? Obsidian Glass great. Your Fist Tank you can made would be a Buildcraft Tank. This Tank carry up to 16 Buckets of each Fluid. It is possible to upgrade those tanks up to 64 Bucket Tanks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Factory:tankBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "ringIron",
+              "Damage": 28032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "screwIron",
+              "Damage": 27032
+            },
+            {
+              "id": "ExtraUtilities:decorativeBlock2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        46
+      ]
+    },
+    {
       "questID": 85,
       "name": "Smelt all the things...",
       "description": "...at once! Uses power to smelt up to 18 items in one step. Can\u0027t go any faster! (Well, maybe with those fancy new LuV+ Tier machines in this pack...)",
@@ -6191,7 +6330,7 @@
       "quests": [
         {
           "id": 15,
-          "x": 207,
+          "x": 192,
           "y": 0
         },
         {
@@ -6306,8 +6445,8 @@
         },
         {
           "id": 40,
-          "x": 82,
-          "y": 3
+          "x": 88,
+          "y": 0
         },
         {
           "id": 41,
@@ -6347,12 +6486,12 @@
         },
         {
           "id": 47,
-          "x": 55,
-          "y": 33
+          "x": 56,
+          "y": 32
         },
         {
           "id": 48,
-          "x": 96,
+          "x": 168,
           "y": 0
         },
         {
@@ -6372,13 +6511,13 @@
         },
         {
           "id": 53,
-          "x": 167,
-          "y": 66
+          "x": 168,
+          "y": 64
         },
         {
           "id": 54,
           "x": 168,
-          "y": 33
+          "y": 32
         },
         {
           "id": 52,
@@ -6387,17 +6526,17 @@
         },
         {
           "id": 55,
-          "x": 130,
+          "x": 128,
           "y": 32
         },
         {
           "id": 56,
-          "x": 129,
-          "y": 65
+          "x": 128,
+          "y": 64
         },
         {
           "id": 57,
-          "x": 240,
+          "x": 248,
           "y": 64
         },
         {
@@ -6479,6 +6618,16 @@
           "id": 71,
           "x": 208,
           "y": 144
+        },
+        {
+          "id": 84,
+          "x": 88,
+          "y": 32
+        },
+        {
+          "id": 16,
+          "x": 88,
+          "y": 64
         }
       ]
     },
