@@ -6407,6 +6407,2282 @@
       "preRequisites": [
         45
       ]
+    },
+    {
+      "questID": 88,
+      "name": "Welcome to Tier 2",
+      "description": "Why, hello there! Seems you\u0027ve made it into electrical age. But behold, do not throw your steam machines away, you\u0027ll probably want to use them until you reach Tier 3",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1120
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1120
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:bananasplitItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 89,
+      "name": "Steam-a-licious!",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [
+        {
+          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
+          "timestamp": 331508,
+          "claimed": false
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 90,
+      "name": "Damn you, wirecutter!",
+      "description": "Enough is enough. No more wasting of gazillions of ingots just for a couple of wires. Now that you have power, you should go for a wiremill!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 351
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 351
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 91,
+      "name": "You gonna hate this #1",
+      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of Chests or Barrels you need one.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32630
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32630
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 92,
+      "name": "You gonna hate this #3",
+      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Probably, the most painfull item ever...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32650
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32650
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 93,
+      "name": "You gonna hate this #2",
+      "description": "The second item you\u0027ll need a lot of. When you want to get the Fluid out of the Thanks you need one.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32610
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32610
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 94,
+      "name": "Electric macerator",
+      "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to macerate something is a lot better when using EU here",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 301
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 301
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 95,
+      "name": "You gonna hate this #4",
+      "description": "A piston, but more .. \"Electrical\". The 4th item you gonna craft a lot in the future",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32640
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32640
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 96,
+      "name": "Saving redstone",
+      "description": "Tired of using 4 redstone for one magnetic rod? Well, good news for you! The polarizer doesn\u0027t need redstone, just a little bit of power. You don\u0027t need to attach this machine to a permanent power source, it runs fine on batteries",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 551
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 551
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 97,
+      "name": "Avengers, assemble!",
+      "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 211
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 211
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 98,
+      "name": "No more filing",
+      "description": "Why wasting a full ingot to make a rod, that needs a tool which looses durability and takes even more ingots? With just this little device, all your rod-needs shall be fulfilled (for now)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 291
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 291
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 99,
+      "name": "Bzzz",
+      "description": "Optional machine. Like the forming press, you don\u0027t really *need* it in the 32 EU age. Not mandatory to proceed",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 591
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 591
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 100,
+      "name": "Press all the things",
+      "description": "An optional machine, if you want to make circuits more efficient. Not mandatory in 32 EU age, so if you\u0027re short on steel, you can skip this device and build the next tier then",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 601
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 601
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 101,
+      "name": "Electric forge hammer",
+      "description": "Not really required, but it is a lot faster than the steam one. And it can be automated. There are no recipes that require more than steam level to hammer something",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 611
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 611
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 102,
+      "name": "Cutting things apart",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, and that with the highest possible efficiency. Totally worth it!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 251
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 251
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 103,
+      "name": "Get ready for Tier 3",
+      "description": "In order to proceed forward, you need to get Aluminium. A lot of. But for now, one is enough to unlock this quest. Probably the best source for Aluminium is clay, but you need a MV machine for that. So you need to find an alternative until you have enough dusts for your first machine",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2019
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2019
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 104,
+      "name": "Your magic progression",
+      "description": "Now that you are able to produce Aluminium, you may dig into magic. If you haven\u0027t unlocked basic thaumaturgy, try to find a silverwood and a greatwood sapling",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "aqua": 2500,
+          "terra": 2500,
+          "ignis": 2500,
+          "ordo": 2500,
+          "perditio": 2500,
+          "aer": 2500
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        103
+      ]
+    },
+    {
+      "questID": 105,
+      "name": "The missing one",
+      "description": "\u003cbasdxz\u003e But ffs, add a plate bender to the LV tier book",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 221
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 221
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 106,
+      "name": "Your first automation",
+      "description": "Well, probably not the first, but definitely something big! First you need a cart assembler",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:BlockCartAssembler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:BlockCartAssembler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 107,
+      "name": "Cart modules: Power",
+      "description": "Your cart needs power, obviously. A cart can be powered by solar and lava; But for now you have to use a simple coal engine",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 44
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 108,
+      "name": "Automated (un-)loading",
+      "description": "You can fill and empty your cart manually, but it\u0027s a lot more convenient to automate that; Isn\u0027t it?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:BlockCargoManager",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:BlockCargoManager",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rail",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 109,
+      "name": "Cart modules: Farming",
+      "description": "Unfortunately, the basic farmer can\u0027t farm anything besides wheat; But it\u0027s not expensive at all, and probably the cheapest solution to give your automated food production a boost",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14,
+        "tag": {
+          "Data": 100
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14,
+              "tag": {
+                "Data": 100
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StevesCarts:ModuleComponents",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 110,
+      "name": "Cart modules: Storage",
+      "description": "A basic cart can\u0027t hold any items, so you need to attach chests to it",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rail",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 111,
+      "name": "A simple cart",
+      "description": "In order to create or customize your cart you need a hull to attach your desired updates to. Wood can be used for really simple item transfer, but to farm wheat or wood, you need at least an iron one",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 38
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rail",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 112,
+      "name": "Cart modules: Wood cutter",
+      "description": "The basic wood cutter will break after a while, but you never have to replace it. It can be simply repaired with Diamonds",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15,
+        "tag": {
+          "Data": 100
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15,
+              "tag": {
+                "Data": 100
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 113,
+      "name": "Basic transport pipe",
+      "description": "These pipes are rather simple and won\u0027t do anything on their own; But in combination with Transfer Nodes, you\u0027ll soon find out how great they are. Also, given the correct updates, they even surpass most other transfer systems",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:pipes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:pipes",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraUtilities:pipes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 114,
+      "name": "Basic transport: Items",
+      "description": "In order to transfer items, you need so called \"nodes\". There are some for pushing items into a pipe system, and later you\u0027ll have access to nodes that are able to pull items from attached inventories",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:extractor_base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:extractor_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        113
+      ]
+    },
+    {
+      "questID": 115,
+      "name": "Basic transport: Fluids",
+      "description": "Just like item nodes, liquid nodes transfer.. liquids. But probably the best thing: They can all utilize the same transfer pipe!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:extractor_base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:extractor_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        113
+      ]
+    },
+    {
+      "questID": 116,
+      "name": "Accelerated plant growth",
+      "description": "Plants grow very slowly, you might\u0027ve discovered that by now. So why not do something against that? A watering can will come in handy very soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:watering_can",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:watering_can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 117,
+      "name": "Gotta catch \u0027em all",
+      "description": "Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for that",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:golden_lasso",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:golden_lasso",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 118,
+      "name": "Basic monster protection",
+      "description": "Spawning monsters in or near your base can be annoying. Especially if you happen to get a silverfish creeper. Luckily, there is a way to prevent them to spawn at all",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:chandelier",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:chandelier",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 119,
+      "name": "A quite different storage",
+      "description": "Normal chests can fill up rather quickly if you happen to collect mob drops like swords and / or armor. By using a cabinet, you can store up to 270 items of the same type",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:filing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:filing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ExtraUtilities:filing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        106
+      ]
+    },
+    {
+      "questID": 120,
+      "name": "Protect your base; Tier 1",
+      "description": "One needs proper protection for his home. So why not get some turrets for safety? At the moment, 2 Turrets are available; \"Potato\" and \"disposable item\". I assume you can guess what they do and how they work...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:chamberTierOne",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:sensorTierOneItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:barrelTierOne",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:chamberTierOne",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        121
+      ]
+    },
+    {
+      "questID": 121,
+      "name": "Passive defense",
+      "description": "A more \"passive\" approach to base defense are walls and fences. But seriously, where is the fun?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:fenceTierOne",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:hardWallTierOne",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:fenceTierOne",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 122,
+      "name": "Turret base",
+      "description": "Turrets must be placed on top of a turret base. Only the player who initially played the base can access and configure the turret; So don\u0027t worry about people taking your ammunition",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:baseTierWood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:baseTierWood",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        120
+      ]
+    },
+    {
+      "questID": 123,
+      "name": "Who needs that dirt anyways",
+      "description": "You probably have a ton of items floating around in your base; So why not use it to kill enemies?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:disposeItemTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:disposeItemTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Forestry:canWater",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        122
+      ]
+    },
+    {
+      "questID": 124,
+      "name": "Don\u0027t play with food!",
+      "description": "Use it to kill Zombies instead. Does only little damage, but hey, who cares?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:potatoCannonTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:potatoCannonTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Forestry:canOil",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        122
+      ]
+    },
+    {
+      "questID": 125,
+      "name": "Upgrades",
+      "description": "Your turrets probably need more space to hold more ammunition, so why not get an upgrade for that?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:expanderInvTierOne",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:expanderInvTierOne",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BuildCraft|Core:engineBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 20,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        124,
+        123
+      ]
     }
   ],
   "questLines": [
@@ -6795,6 +9071,197 @@
           "id": 16,
           "x": 88,
           "y": 64
+        }
+      ]
+    },
+    {
+      "name": "Tier 2 - 32 EU (LV)",
+      "description": "The first \"Voltage\" Tier of this pack. Things are getting easier...",
+      "quests": [
+        {
+          "id": 88,
+          "x": 40,
+          "y": 72
+        },
+        {
+          "id": 90,
+          "x": 160,
+          "y": 32
+        },
+        {
+          "id": 91,
+          "x": 40,
+          "y": 8
+        },
+        {
+          "id": 92,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 93,
+          "x": 0,
+          "y": 40
+        },
+        {
+          "id": 94,
+          "x": 112,
+          "y": 120
+        },
+        {
+          "id": 95,
+          "x": 0,
+          "y": 104
+        },
+        {
+          "id": 96,
+          "x": 112,
+          "y": 8
+        },
+        {
+          "id": 97,
+          "x": 136,
+          "y": 16
+        },
+        {
+          "id": 98,
+          "x": 176,
+          "y": 56
+        },
+        {
+          "id": 99,
+          "x": 136,
+          "y": 104
+        },
+        {
+          "id": 100,
+          "x": 160,
+          "y": 88
+        },
+        {
+          "id": 101,
+          "x": 88,
+          "y": 136
+        },
+        {
+          "id": 102,
+          "x": 0,
+          "y": 136
+        },
+        {
+          "id": 103,
+          "x": 40,
+          "y": 184
+        },
+        {
+          "id": 104,
+          "x": 40,
+          "y": 216
+        },
+        {
+          "id": 105,
+          "x": 80,
+          "y": 8
+        },
+        {
+          "id": 106,
+          "x": 312,
+          "y": 72
+        },
+        {
+          "id": 107,
+          "x": 272,
+          "y": 0
+        },
+        {
+          "id": 108,
+          "x": 312,
+          "y": 32
+        },
+        {
+          "id": 109,
+          "x": 312,
+          "y": 0
+        },
+        {
+          "id": 110,
+          "x": 352,
+          "y": 0
+        },
+        {
+          "id": 111,
+          "x": 272,
+          "y": 32
+        },
+        {
+          "id": 112,
+          "x": 352,
+          "y": 32
+        },
+        {
+          "id": 113,
+          "x": 232,
+          "y": 112
+        },
+        {
+          "id": 114,
+          "x": 200,
+          "y": 144
+        },
+        {
+          "id": 115,
+          "x": 256,
+          "y": 144
+        },
+        {
+          "id": 116,
+          "x": 312,
+          "y": 112
+        },
+        {
+          "id": 117,
+          "x": 352,
+          "y": 112
+        },
+        {
+          "id": 118,
+          "x": 272,
+          "y": 112
+        },
+        {
+          "id": 119,
+          "x": 352,
+          "y": 72
+        },
+        {
+          "id": 120,
+          "x": 120,
+          "y": 184
+        },
+        {
+          "id": 122,
+          "x": 160,
+          "y": 184
+        },
+        {
+          "id": 123,
+          "x": 200,
+          "y": 216
+        },
+        {
+          "id": 124,
+          "x": 200,
+          "y": 184
+        },
+        {
+          "id": 125,
+          "x": 256,
+          "y": 184
+        },
+        {
+          "id": 121,
+          "x": 80,
+          "y": 184
         }
       ]
     },
