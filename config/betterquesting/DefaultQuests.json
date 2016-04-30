@@ -11100,6 +11100,4805 @@
       "preRequisites": [
         157
       ]
+    },
+    {
+      "questID": 160,
+      "name": "Tier 4",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 20,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 161,
+      "name": "Tier 3",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [
+        {
+          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
+          "timestamp": 74926,
+          "claimed": false
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 162,
+      "name": "Dimensional Goal: Moon",
+      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. You need titanium in large quantities",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 163,
+      "name": "I see everything",
+      "description": "The inventory panel is an alternative to your (hopefully?) existing ProjectRed storage system. Just like project red, you have to connect every chest/barrel with an item conduit. In addition to that, you also have to install a \"remote awareness\" upgrade into every (!) conduit you want the panel to see",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockInventoryPanel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockInventoryPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemFunctionUpgrade",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemFunctionUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "EnderIO:itemFunctionUpgrade",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        164,
+        169
+      ]
+    },
+    {
+      "questID": 164,
+      "name": "Tasty...",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [
+        {
+          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
+          "timestamp": 74926,
+          "claimed": false
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 165,
+      "name": "Soul eater",
+      "description": "Wouldn\u0027t it be great to actually make use of the intelligence or abilities a certain creature has? For example; The ender-teleportation? Or use the brain capacity of a zombie for simple logic? (He doesn\u0027t use it anyways...) With this machine, you are able to bind a captured soul to an item, which can then be used in machines to improve their functionality",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockSoulBinder",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockSoulBinder",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        166
+      ]
+    },
+    {
+      "questID": 166,
+      "name": "A new alloy",
+      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"Magic\". Anyways, for that you need a new alloy; Soularium",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11379
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11379
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 167,
+      "name": "Experience-Storage",
+      "description": "Dying is painful, isn\u0027t it? As your precious experience is lost. But fear not, there is a solution! By using an experience obelisk, you are now able to store all your experience in a safe location",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockExperienceObelisk",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockExperienceObelisk",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 168,
+      "name": "A soul vessel",
+      "description": "For your new machine, you need something to actually capture souls from monsters. The soul vials are reusable vessels; Just right-click any living entity to steal its soul.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemSoulVessel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ForgeData": {
+                  "WITCInitialWidth": 0.6000000238418579,
+                  "ezModsApp": 1,
+                  "smi": 1,
+                  "WITCInitialHeight": 1.7999999523162842,
+                  "HungerOverhaulCheck": 5
+                },
+                "Attributes": [
+                  {
+                    "Base": -2.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 2189974539282499591,
+                        "UUIDLeast": -6477178668949725305,
+                        "Amount": 1.0,
+                        "Operation": 0,
+                        "Name": "normal"
+                      }
+                    ],
+                    "Name": "tc.mobmod"
+                  },
+                  {
+                    "Base": 26.0,
+                    "Name": "generic.maxHealth"
+                  },
+                  {
+                    "Base": 0.0,
+                    "Name": "generic.knockbackResistance"
+                  },
+                  {
+                    "Base": 0.25,
+                    "Name": "generic.movementSpeed"
+                  },
+                  {
+                    "Base": 16.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 27127316897707,
+                        "UUIDLeast": 182634832621765121,
+                        "Amount": 0.012908903102869372,
+                        "Operation": 1,
+                        "Name": "Random spawn bonus"
+                      }
+                    ],
+                    "Name": "generic.followRange"
+                  },
+                  {
+                    "Base": 1.8,
+                    "Name": "generic.attackDamage"
+                  }
+                ],
+                "Invulnerable": 0,
+                "PortalCooldown": 0,
+                "AbsorptionAmount": 0.0,
+                "FallDistance": 0.0,
+                "DeathTime": 0,
+                "DropChances": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "PersistenceRequired": 0,
+                "id": "Thaumcraft.TaintedCreeper",
+                "HealF": 26.0,
+                "Fuse": 30,
+                "Motion": [
+                  0,
+                  0,
+                  0
+                ],
+                "Leashed": 0,
+                "UUIDLeast": -1910302092572580780,
+                "Health": 26,
+                "Air": 300,
+                "OnGround": 1,
+                "Dimension": 0,
+                "Rotation": [
+                  10,
+                  0
+                ],
+                "CreatureInfusion": {
+                  "PlayerInfusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "InfusionCosts": {
+                    "Aspects": ""
+                  },
+                  "tumorWarpTemp": 0,
+                  "Infusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "toggleClimb": 0,
+                  "toggleInvisible": 0,
+                  "tumorWarp": 0,
+                  "sitting": 0,
+                  "tumorWarpPermanent": 0
+                },
+                "UUIDMost": 27127316341783,
+                "Equipment": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "CustomName": "\"\"",
+                "Pos": [
+                  222,
+                  4,
+                  1471
+                ],
+                "Fire": -1,
+                "CanPickUpLoot": 0,
+                "HurtTime": 0,
+                "AttackTime": 0,
+                "ExplosionRadius": 3,
+                "CustomNameVisible": 0
+              }
+            },
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ForgeData": {
+                  "WITCInitialWidth": 0.5,
+                  "ezModsApp": 1,
+                  "smi": 1,
+                  "WITCInitialHeight": 0.800000011920929,
+                  "HungerOverhaulCheck": 4
+                },
+                "Attributes": [
+                  {
+                    "Base": -2.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 2189974539282499591,
+                        "UUIDLeast": -6477178668949725305,
+                        "Amount": 1.0,
+                        "Operation": 0,
+                        "Name": "normal"
+                      }
+                    ],
+                    "Name": "tc.mobmod"
+                  },
+                  {
+                    "Base": 6.0,
+                    "Name": "generic.maxHealth"
+                  },
+                  {
+                    "Base": 0.0,
+                    "Name": "generic.knockbackResistance"
+                  },
+                  {
+                    "Base": 0.4,
+                    "Name": "generic.movementSpeed"
+                  },
+                  {
+                    "Base": 16.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 27178571439803,
+                        "UUIDLeast": -4879626912252908080,
+                        "Amount": -0.03553818567513433,
+                        "Operation": 1,
+                        "Name": "Random spawn bonus"
+                      }
+                    ],
+                    "Name": "generic.followRange"
+                  },
+                  {
+                    "Base": 2.7,
+                    "Name": "generic.attackDamage"
+                  }
+                ],
+                "Invulnerable": 0,
+                "PortalCooldown": 0,
+                "AbsorptionAmount": 0.0,
+                "FallDistance": 0.0,
+                "DeathTime": 0,
+                "DropChances": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "PersistenceRequired": 0,
+                "id": "Thaumcraft.TaintedChicken",
+                "HealF": 6.0,
+                "Motion": [
+                  0,
+                  0,
+                  0
+                ],
+                "Leashed": 0,
+                "UUIDLeast": 2120839428921693136,
+                "Health": 6,
+                "Air": 300,
+                "OnGround": 1,
+                "Dimension": 0,
+                "Rotation": [
+                  167,
+                  0
+                ],
+                "CreatureInfusion": {
+                  "PlayerInfusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "InfusionCosts": {
+                    "Aspects": ""
+                  },
+                  "tumorWarpTemp": 0,
+                  "Infusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "toggleClimb": 0,
+                  "toggleInvisible": 0,
+                  "tumorWarp": 0,
+                  "sitting": 0,
+                  "tumorWarpPermanent": 0
+                },
+                "UUIDMost": 27178571304768,
+                "Equipment": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "CustomName": "\"\"",
+                "Pos": [
+                  223,
+                  4,
+                  1473
+                ],
+                "Fire": -1,
+                "CanPickUpLoot": 0,
+                "HurtTime": 0,
+                "AttackTime": 0,
+                "CustomNameVisible": 0
+              }
+            },
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ForgeData": {
+                  "WITCInitialWidth": 0.8999999761581421,
+                  "ezModsApp": 1,
+                  "smi": 1,
+                  "WITCInitialHeight": 1.2999999523162842,
+                  "HungerOverhaulCheck": 8
+                },
+                "Attributes": [
+                  {
+                    "Base": -2.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 2189974539282499591,
+                        "UUIDLeast": -6477178668949725305,
+                        "Amount": 1.0,
+                        "Operation": 0,
+                        "Name": "normal"
+                      }
+                    ],
+                    "Name": "tc.mobmod"
+                  },
+                  {
+                    "Base": 36.0,
+                    "Name": "generic.maxHealth"
+                  },
+                  {
+                    "Base": 0.0,
+                    "Name": "generic.knockbackResistance"
+                  },
+                  {
+                    "Base": 0.27,
+                    "Name": "generic.movementSpeed"
+                  },
+                  {
+                    "Base": 16.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 27170415539521,
+                        "UUIDLeast": 55055077136148619,
+                        "Amount": 0.05541744393087603,
+                        "Operation": 1,
+                        "Name": "Random spawn bonus"
+                      }
+                    ],
+                    "Name": "generic.followRange"
+                  },
+                  {
+                    "Base": 5.4,
+                    "Name": "generic.attackDamage"
+                  }
+                ],
+                "Invulnerable": 0,
+                "PortalCooldown": 0,
+                "AbsorptionAmount": 0.0,
+                "FallDistance": 0.0,
+                "DeathTime": 0,
+                "DropChances": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "PersistenceRequired": 0,
+                "id": "Thaumcraft.TaintedCow",
+                "HealF": 36.0,
+                "Motion": [
+                  0,
+                  0,
+                  0
+                ],
+                "Leashed": 0,
+                "UUIDLeast": 7340828040503509870,
+                "Health": 36,
+                "Air": 300,
+                "OnGround": 1,
+                "Dimension": 0,
+                "Rotation": [
+                  -124,
+                  0
+                ],
+                "CreatureInfusion": {
+                  "PlayerInfusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "InfusionCosts": {
+                    "Aspects": ""
+                  },
+                  "tumorWarpTemp": 0,
+                  "Infusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "toggleClimb": 0,
+                  "toggleInvisible": 0,
+                  "tumorWarp": 0,
+                  "sitting": 0,
+                  "tumorWarpPermanent": 0
+                },
+                "UUIDMost": 27170415457974,
+                "Equipment": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "CustomName": "\"\"",
+                "Pos": [
+                  220,
+                  4,
+                  1475
+                ],
+                "Fire": -1,
+                "CanPickUpLoot": 0,
+                "HurtTime": 0,
+                "AttackTime": 0,
+                "CustomNameVisible": 0
+              }
+            },
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ForgeData": {
+                  "WITCInitialWidth": 0.6000000238418579,
+                  "ezModsApp": 1,
+                  "smi": 1,
+                  "WITCInitialHeight": 1.7999999523162842
+                },
+                "Attributes": [
+                  {
+                    "Base": -2.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 2189974539282499591,
+                        "UUIDLeast": -6477178668949725305,
+                        "Amount": 1.0,
+                        "Operation": 0,
+                        "Name": "normal"
+                      }
+                    ],
+                    "Name": "tc.mobmod"
+                  },
+                  {
+                    "Base": 26.0,
+                    "Name": "generic.maxHealth"
+                  },
+                  {
+                    "Base": 0.0,
+                    "Name": "generic.knockbackResistance"
+                  },
+                  {
+                    "Base": 0.3,
+                    "Name": "generic.movementSpeed"
+                  },
+                  {
+                    "Base": 16.0,
+                    "Modifiers": [
+                      {
+                        "UUIDMost": 27159316027577,
+                        "UUIDLeast": 3351821129110175732,
+                        "Amount": -0.02643265509317006,
+                        "Operation": 1,
+                        "Name": "Random spawn bonus"
+                      }
+                    ],
+                    "Name": "generic.followRange"
+                  },
+                  {
+                    "Base": 3.6,
+                    "Name": "generic.attackDamage"
+                  }
+                ],
+                "Invulnerable": 0,
+                "PortalCooldown": 0,
+                "AbsorptionAmount": 0.0,
+                "FallDistance": 0.0,
+                "DeathTime": 0,
+                "DropChances": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "PersistenceRequired": 0,
+                "id": "Thaumcraft.TaintedVillager",
+                "HealF": 26.0,
+                "Motion": [
+                  0,
+                  0,
+                  0
+                ],
+                "Leashed": 0,
+                "UUIDLeast": -5486064703714104449,
+                "Health": 26,
+                "Air": 300,
+                "OnGround": 1,
+                "Dimension": 0,
+                "Rotation": [
+                  153,
+                  -23
+                ],
+                "CreatureInfusion": {
+                  "PlayerInfusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "InfusionCosts": {
+                    "Aspects": ""
+                  },
+                  "tumorWarpTemp": 0,
+                  "Infusions": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "toggleClimb": 0,
+                  "toggleInvisible": 0,
+                  "tumorWarp": 0,
+                  "sitting": 0,
+                  "tumorWarpPermanent": 0
+                },
+                "UUIDMost": 27159315945153,
+                "Equipment": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "CustomName": "\"\"",
+                "Pos": [
+                  221,
+                  4,
+                  1475
+                ],
+                "Fire": -1,
+                "CanPickUpLoot": 0,
+                "HurtTime": 0,
+                "AttackTime": 0,
+                "CustomNameVisible": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        165
+      ]
+    },
+    {
+      "questID": 169,
+      "name": "The creation of life",
+      "description": "By utilizing large amounts of energy, you\u0027re able to re-activate those broken spawners you may have found in the past. If you haven\u0027t, you should get one now",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockPoweredSpawner",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBrokenSpawner",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mobType": "Skeleton"
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockPoweredSpawner",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        165
+      ]
+    },
+    {
+      "questID": 170,
+      "name": "Specific enchantments",
+      "description": "Enchanting books is, just as it is for items, random. And that is annoying if you need a specific enchantment on your tool or armor. Now there is a way to actually select enchantments, for a price, obviously. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockEnchanter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockEnchanter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        167
+      ]
+    },
+    {
+      "questID": 171,
+      "name": "Almost like steel",
+      "description": "Next-gen protection against nasty Zombies, creepers and other \"stuff\"",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:fenceTierThree",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:fenceTierThree",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:hardWallTierThree",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 172,
+      "name": "Protect your base; Tier 3",
+      "description": "Now we\u0027re talking; Grenades! Big booms.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:chamberTierThree",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:chamberTierThree",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:barrelTierThree",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:sensorTierThreeItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        171
+      ]
+    },
+    {
+      "questID": 173,
+      "name": "Tier 3 base",
+      "description": "More storage, more power, and a lot more slots for possible upgrades",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:baseTierTwoBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:baseTierTwoBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        172
+      ]
+    },
+    {
+      "questID": 174,
+      "name": "This is relative useful",
+      "description": "For... some things... mabye... At least it is fun to watch",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:relativisticTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:relativisticTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        173
+      ]
+    },
+    {
+      "questID": 175,
+      "name": "Fire in the hole",
+      "description": "Ah, there is nothing like an explosion and the certitude that your enemies have been blasted to pieces",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:grenadeTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:grenadeTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "openmodularturrets:grenadeCraftable",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        173
+      ]
+    },
+    {
+      "questID": 176,
+      "name": "Tier 5",
+      "description": "The main goal here is to get a Tier 2 rocket, and reach mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This questset will teach you about a couple of options you have regarding power production.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 177,
+      "name": "Tier 4",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [
+        {
+          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
+          "timestamp": 74926,
+          "claimed": false
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 178,
+      "name": "It\u0027s storage time",
+      "description": "Now that you\u0027ve reached HighVoltage age, you might consider starting to work on your AE System. It might be small, and it might be tricky to power it at first, but it\u0027s really worth the effort. You should start by collecting all 4 inscriber patterns",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 179,
+      "name": "Find them all",
+      "description": "There are a lot of asteroids on the surface, but there are more; Underground. In order to find those, you need a compass. This quest is optional",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyCompass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockSkyCompass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 180,
+      "name": "Drives",
+      "description": "Quite different from anything you\u0027ve seen before. Make sure to check out the Item/Fluid processors!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.LogicProcessorItemGoldCore",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 181,
+      "name": "Fluix crystals",
+      "description": "Not \"flux\"; Even if the color is the same",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        183
+      ]
+    },
+    {
+      "questID": 182,
+      "name": "Autocrafting",
+      "description": "Crafting can be a pain. So why not automate it?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockMolecularAssembler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockMolecularAssembler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 183,
+      "name": "Getting your first circuits",
+      "description": "Making the circuits is quite different from what you\u0027re used to, so it\u0027s advised to check NEI for the new recipes. Get 8 of each circuit for now",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 22
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 24
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        178
+      ]
+    },
+    {
+      "questID": 184,
+      "name": "Cables",
+      "description": "To have access to your AE from your entire base, you\u0027ll need cables. A lot of them. For now, the basic ones will do, but eventually, you\u0027ll end up using dense cables and P2P Channels",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 16
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 36
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 56
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 76
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 185,
+      "name": "Terminals everywhere",
+      "description": "And a pain to craft, no doubt",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 380
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 340
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 380
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 360
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 480
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 360
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 480
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 340
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 186,
+      "name": "Dimensional Goal: Mars",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.mars",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 187,
+      "name": "Dimensional Goal: Phobos",
+      "description": "A smaller goal, as the main goal is mars. But you\u0027ll find different ores on this planet",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:phobossecrock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:phobosstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:phobosrock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 188,
+      "name": "Dimensional Goal: Deimos",
+      "description": "A smaller goal, as the main goal is mars. But you\u0027ll find different ores on this planet",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:deimossubgrunt",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:deimosgrunt",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 189,
+      "name": "HEV Mark III Protective System",
+      "description": "Some things are dirty, and some things are even dangerous. You\u0027ll play with nasty stuff here, so better prepare yourself",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorHazmatHelmet",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorHazmatHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorHazmatChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorHazmatLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemArmorRubBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 190,
+      "name": "Appropriate power",
+      "description": "Whether you used Magic, Steam, Oil or Biogas for power until now, you\u0027ll run into problems as you advance to higher tiers. So you need to upgrade your power grid; At least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "IC2:itemFuelRod",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2NuclearControl:blockNuclearControlMain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        189
+      ]
+    },
+    {
+      "questID": 191,
+      "name": "Tier 2 fuel: Uranium",
+      "description": "Just \"regular\" uranium fuel, nothing special about it",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.reactorUraniumSimple",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.reactorUraniumSimple",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        190
+      ]
+    },
+    {
+      "questID": 192,
+      "name": "Tier 3 fuel: MOX",
+      "description": "Highly reactive, but the most powerful fuel rod you can get. Burns twice as fast as uranium, but produces massive amounts of power. Rumors are, that peaks up to 11k EU/t are possible...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.reactorMOXSimple",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.reactorMOXSimple",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        190
+      ]
+    },
+    {
+      "questID": 193,
+      "name": "Tier 1 fuel: Thorium",
+      "description": "The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect \"fire and forget\" power source",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.Thoriumcell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.ThoriumcellDep",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        190
+      ]
+    },
+    {
+      "questID": 194,
+      "name": "Monitoring your reactor",
+      "description": "It\u0027s important to monitor your reactor (Or just fancy to have a big screen somewhere...) So now that you\u0027ve gained knowledge about the available fuel rods, you can start to build yourself a power plant. Here is something to help you out",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2NuclearControl:blockNuclearControlMain",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2NuclearControl:blockNuclearControlMain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "IC2NuclearControl:blockNuclearControlMain",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "IC2NuclearControl:ItemRemoteSensorKit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2NuclearControl:ItemUpgrade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        195
+      ]
+    },
+    {
+      "questID": 195,
+      "name": "Increasing the capacity",
+      "description": "To unleash the full potential of your reactor, you have to attach 6 reactor chambers to it",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockReactorChamber",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockReactorChamber",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        196,
+        197,
+        198
+      ]
+    },
+    {
+      "questID": 196,
+      "name": "Move the heat",
+      "description": "Reactors heat up, well the rods do, so you need to \"move the heat away\" to somewhere else. You should get one of each, and try to figure out what each individual heat exchanger does, in order to figure out a good setup",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:reactorHeatSwitchDiamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:reactorHeatSwitch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchSpread",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchDiamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:reactorHeatSwitch",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchCore",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchSpread",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorHeatSwitchDiamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        190
+      ]
+    },
+    {
+      "questID": 197,
+      "name": "Venting heat",
+      "description": "You can\u0027t just move the heat around; Eventually you need to get rid of it. Just like the exchangers, there are different types of vents, each of them has a certain usage you\u0027ll need to find out",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:reactorVentDiamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:reactorVent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentGold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentDiamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentSpread",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:reactorVent",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentCore",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentGold",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "IC2:reactorVentSpread",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        190
+      ]
+    },
+    {
+      "questID": 198,
+      "name": "Double the fun",
+      "description": "Need even more power? Why not combine rods? Produces twice the amount of power (and heat, obviously) but only uses up one slot",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.reactorMOXDual",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.Double_Thoriumcell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.reactorMOXDual",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.reactorUraniumDual",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.reactorMOXDual",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.reactorUraniumDual",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.Double_Thoriumcell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        193,
+        191,
+        192
+      ]
+    },
+    {
+      "questID": 199,
+      "name": "Quit exhaling dusts",
+      "description": "The QED is used for stuff like EnderQuarry (yay) and advanced mob-protection",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:endConstructor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:endConstructor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ExtraUtilities:endConstructor",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraUtilities:endConstructor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 200,
+      "name": "Advanced mob-protection",
+      "description": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is 128 blocks, so a single one might be enough for your entire base",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:magnumTorch",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:magnumTorch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        199
+      ]
+    },
+    {
+      "questID": 201,
+      "name": "Automated mining",
+      "description": "The QED enables you to assemble the most convenient devide ever for mining: The EnderQuarry",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:enderQuarry",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:enderQuarry",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        199
+      ]
+    },
+    {
+      "questID": 202,
+      "name": "Accelerating things",
+      "description": "A normal Quarry won\u0027t satisfy your needs for MOOORE, so a speed upgrade is required",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:enderQuarryUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:enderQuarryUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        201
+      ]
+    },
+    {
+      "questID": 203,
+      "name": "Bundled AE channels",
+      "description": "P2P tunnels. You need them; A lot of them!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 460
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 460
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 204,
+      "name": "Load and Unload the rocket",
+      "description": "What use has an automated rocket, if you can\u0027t load and unload it automated?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.cargo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.cargo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "GalacticraftCore:tile.cargo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        186
+      ]
+    },
+    {
+      "questID": 205,
+      "name": "Cargo rocket; For the fun",
+      "description": "No need to fly to distant planets anymore on your own to grab mined ores",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.spaceshipTier2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        186
+      ]
+    },
+    {
+      "questID": 206,
+      "name": "Turning A into B with C",
+      "description": "Molecular transforming all the things! The most important recipe here is sunnarium",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AdvancedSolarPanel:BlockMolecularTransformer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:BlockMolecularTransformer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        199
+      ]
+    },
+    {
+      "questID": 207,
+      "name": "Turret base Tier 4",
+      "description": "Even more range, power and upgrade slots",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:baseTierThreeBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:baseTierThreeBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        208
+      ]
+    },
+    {
+      "questID": 208,
+      "name": "Protect your base; Tier 4",
+      "description": "Parts for powerful turrets",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:chamberTierFour",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:chamberTierFour",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:barrelTierFour",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:sensorTierFourItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        211
+      ]
+    },
+    {
+      "questID": 209,
+      "name": "Make love, not war",
+      "description": "For those who don\u0027t want to kill things; Just teleport them away. Takes a large amount of power however",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:teleporterTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:teleporterTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        207
+      ]
+    },
+    {
+      "questID": 210,
+      "name": "Why grenades ...",
+      "description": "...when you can use rockets? Yes, Rockets! They search and destroy, and go off with a huge boom",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:rocketTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:rocketTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "openmodularturrets:rocketCraftable",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        207
+      ]
+    },
+    {
+      "questID": 211,
+      "name": "Tier 4 fence and walls",
+      "description": "Another upgrade for you walls. One more to go",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:fenceTierFour",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:fenceTierFour",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:hardWallTierFour",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        189
+      ]
+    },
+    {
+      "questID": 212,
+      "name": "Pulverize the moon",
+      "description": "Literally. You can grind the rock of most planets, to get a chance for higher tier metal dusts. Does consume quite a bit of power, but can really help you out at times",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.MoonStoneDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MoonStoneDust",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2085
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2081
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 213,
+      "name": "Tier 6",
+      "description": "IV-Level. You will need Tungstensteel for machines. Supposed Planets to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to Gregtech\" by now.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:deimosgrunt",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:tile.mars",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "GalaxySpace:phobosstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 214,
+      "name": "This is the end.... ?",
+      "description": "Basically the \"end\" of the conventional tiered gameplay. However! This is just the start of your journey, as you\u0027ll have access to even more powerful and awesome stuff. You have proven yourself worthy, and mastered the challenges up to this Tier; Congratulations!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:end_portal_frame",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 50,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        215
+      ]
+    },
+    {
+      "questID": 215,
+      "name": "On your way to Tier 7",
+      "description": "The next Tier is defined as \"Asteroids-Dimension\" and \"8192 EU/t Machines\". The machines now reached their full potential, and some asteroids may contain precious ores to improve your powergen",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "name": "Reach asteroid belt",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 30,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:tile.asteroidsBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        213
+      ]
+    },
+    {
+      "questID": 216,
+      "name": "\"Clean\" energy..?",
+      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! (Hint: It\u0027s probably a good idea to wear your hazmat suite before claiming your reward...)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1191
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1191
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 26326
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        215
+      ]
+    },
+    {
+      "questID": 217,
+      "name": "Final choice: Void",
+      "description": "Tired of mobs in your base? Want to build somewhere.. Different? Probably in a void Dimension? Then this is your chance. But choose wisely; You can only pick one option",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "utilityworlds:uw_portal_void",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "utilityworlds:uw_portal_void",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        214
+      ]
+    },
+    {
+      "questID": 218,
+      "name": "Final choice: Loot",
+      "description": "Don\u0027t need a void dim, eh? Well, then you\u0027ll probably be happy about some extra loot. Choose wisely; You can only pick one",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:stone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "Thaumcraft:blockLootCrate",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "DraconicEvolution:dezilsMarshmallow",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        214
+      ]
+    },
+    {
+      "questID": 219,
+      "name": "Almost unbreakable",
+      "description": "Probably not required anymore, but you made so many walls, so why not make some Tier5?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:fenceTierFive",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:fenceTierFive",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:hardWallTierFive",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        213
+      ]
+    },
+    {
+      "questID": 220,
+      "name": "Protect your base; Tier 5",
+      "description": "Tough materials, for tough weapons. Railguns, and lasers, and.. stuff. I assume you want a lot of those soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:chamberTierFive",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:chamberTierFive",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:barrelTierFive",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:sensorTierFiveItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        219
+      ]
+    },
+    {
+      "questID": 221,
+      "name": "Turret base Tier 5",
+      "description": "The last one, I promise. Used for the most powerful turrets available. You wonder if they might help you take out some more... \"Dangerous\" enemies..?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:baseTierFourBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:baseTierFourBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        220
+      ]
+    },
+    {
+      "questID": 222,
+      "name": "PewPew!",
+      "description": "Requires no ammo, but still does a ton of damage. All you need to do is feed it power",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:laserTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:laserTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        221
+      ]
+    },
+    {
+      "questID": 223,
+      "name": "Railguns, what else",
+      "description": "Massive power, and a wonderful sound when they fire. I recommend to use upgrades to increase range and damage",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:railGunTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:railGunTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "openmodularturrets:ferroSlug",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        221
+      ]
     }
   ],
   "questLines": [
@@ -11582,102 +16381,102 @@
         },
         {
           "id": 106,
-          "x": 336,
+          "x": 320,
           "y": 72
         },
         {
           "id": 107,
-          "x": 296,
+          "x": 280,
           "y": 0
         },
         {
           "id": 108,
-          "x": 336,
+          "x": 320,
           "y": 32
         },
         {
           "id": 109,
-          "x": 336,
+          "x": 320,
           "y": 0
         },
         {
           "id": 110,
-          "x": 376,
+          "x": 360,
           "y": 0
         },
         {
           "id": 111,
-          "x": 296,
+          "x": 280,
           "y": 32
         },
         {
           "id": 112,
-          "x": 376,
+          "x": 360,
           "y": 32
         },
         {
           "id": 113,
-          "x": 256,
+          "x": 240,
           "y": 112
         },
         {
           "id": 114,
-          "x": 224,
+          "x": 208,
           "y": 144
         },
         {
           "id": 115,
-          "x": 280,
+          "x": 264,
           "y": 144
         },
         {
           "id": 116,
-          "x": 336,
+          "x": 320,
           "y": 112
         },
         {
           "id": 117,
-          "x": 376,
+          "x": 360,
           "y": 112
         },
         {
           "id": 118,
-          "x": 296,
+          "x": 280,
           "y": 112
         },
         {
           "id": 119,
-          "x": 376,
+          "x": 360,
           "y": 72
         },
         {
           "id": 120,
-          "x": 144,
+          "x": 128,
           "y": 184
         },
         {
           "id": 122,
-          "x": 184,
+          "x": 160,
           "y": 184
         },
         {
           "id": 123,
-          "x": 224,
+          "x": 240,
           "y": 216
         },
         {
           "id": 124,
-          "x": 224,
+          "x": 208,
           "y": 184
         },
         {
           "id": 125,
-          "x": 280,
+          "x": 264,
           "y": 184
         },
         {
           "id": 121,
-          "x": 104,
+          "x": 96,
           "y": 184
         }
       ]
@@ -11859,6 +16658,329 @@
         {
           "id": 126,
           "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Tier 4 - 512 EU (HV)",
+      "description": "Finally some power to work with. This tier will help you prepare to reach distant planets and gather more rare resources to build even more advanced machines",
+      "quests": [
+        {
+          "id": 160,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 162,
+          "x": 0,
+          "y": 104
+        },
+        {
+          "id": 163,
+          "x": 200,
+          "y": 0
+        },
+        {
+          "id": 165,
+          "x": 120,
+          "y": 0
+        },
+        {
+          "id": 167,
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": 168,
+          "x": 120,
+          "y": 32
+        },
+        {
+          "id": 169,
+          "x": 160,
+          "y": 0
+        },
+        {
+          "id": 166,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": 170,
+          "x": 48,
+          "y": 104
+        },
+        {
+          "id": 171,
+          "x": 120,
+          "y": 64
+        },
+        {
+          "id": 172,
+          "x": 120,
+          "y": 104
+        },
+        {
+          "id": 173,
+          "x": 160,
+          "y": 104
+        },
+        {
+          "id": 174,
+          "x": 160,
+          "y": 64
+        },
+        {
+          "id": 175,
+          "x": 200,
+          "y": 104
+        }
+      ]
+    },
+    {
+      "name": "Tier 5 - 2048 EU (EV)",
+      "description": "Titanium-Level",
+      "quests": [
+        {
+          "id": 176,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": 178,
+          "x": 152,
+          "y": 32
+        },
+        {
+          "id": 179,
+          "x": 96,
+          "y": 72
+        },
+        {
+          "id": 180,
+          "x": 128,
+          "y": 72
+        },
+        {
+          "id": 182,
+          "x": 160,
+          "y": 72
+        },
+        {
+          "id": 181,
+          "x": 160,
+          "y": 112
+        },
+        {
+          "id": 183,
+          "x": 200,
+          "y": 32
+        },
+        {
+          "id": 184,
+          "x": 200,
+          "y": 72
+        },
+        {
+          "id": 185,
+          "x": 128,
+          "y": 112
+        },
+        {
+          "id": 186,
+          "x": 64,
+          "y": 112
+        },
+        {
+          "id": 187,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 188,
+          "x": 96,
+          "y": 112
+        },
+        {
+          "id": 189,
+          "x": 224,
+          "y": 0
+        },
+        {
+          "id": 190,
+          "x": 264,
+          "y": 0
+        },
+        {
+          "id": 191,
+          "x": 264,
+          "y": 112
+        },
+        {
+          "id": 192,
+          "x": 344,
+          "y": 72
+        },
+        {
+          "id": 193,
+          "x": 304,
+          "y": 72
+        },
+        {
+          "id": 194,
+          "x": 392,
+          "y": 72
+        },
+        {
+          "id": 195,
+          "x": 392,
+          "y": 0
+        },
+        {
+          "id": 196,
+          "x": 344,
+          "y": 32
+        },
+        {
+          "id": 197,
+          "x": 344,
+          "y": 0
+        },
+        {
+          "id": 198,
+          "x": 344,
+          "y": 112
+        },
+        {
+          "id": 199,
+          "x": 32,
+          "y": 176
+        },
+        {
+          "id": 200,
+          "x": 32,
+          "y": 208
+        },
+        {
+          "id": 201,
+          "x": 64,
+          "y": 208
+        },
+        {
+          "id": 202,
+          "x": 96,
+          "y": 208
+        },
+        {
+          "id": 203,
+          "x": 200,
+          "y": 112
+        },
+        {
+          "id": 204,
+          "x": 32,
+          "y": 112
+        },
+        {
+          "id": 205,
+          "x": 64,
+          "y": 144
+        },
+        {
+          "id": 206,
+          "x": 96,
+          "y": 176
+        },
+        {
+          "id": 207,
+          "x": 304,
+          "y": 168
+        },
+        {
+          "id": 209,
+          "x": 344,
+          "y": 168
+        },
+        {
+          "id": 210,
+          "x": 304,
+          "y": 208
+        },
+        {
+          "id": 208,
+          "x": 264,
+          "y": 168
+        },
+        {
+          "id": 211,
+          "x": 224,
+          "y": 168
+        },
+        {
+          "id": 212,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Tier 6 and beyond",
+      "description": "The last regular tier that will \"guide\" you ",
+      "quests": [
+        {
+          "id": 213,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 214,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 215,
+          "x": 0,
+          "y": 40
+        },
+        {
+          "id": 216,
+          "x": 48,
+          "y": 40
+        },
+        {
+          "id": 217,
+          "x": 0,
+          "y": 112
+        },
+        {
+          "id": 218,
+          "x": 48,
+          "y": 72
+        },
+        {
+          "id": 219,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 220,
+          "x": 88,
+          "y": 0
+        },
+        {
+          "id": 221,
+          "x": 128,
+          "y": 0
+        },
+        {
+          "id": 222,
+          "x": 128,
+          "y": 40
+        },
+        {
+          "id": 223,
+          "x": 168,
           "y": 0
         }
       ]
