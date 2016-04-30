@@ -279,7 +279,7 @@
       ],
       "rewards": [
         {
-          "choices": [
+          "rewards": [
             {
               "id": "minecraft:apple",
               "Count": 2,
@@ -287,7 +287,7 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:choice"
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -1061,31 +1061,6 @@
       "preRequisites": [
         13
       ]
-    },
-    {
-      "questID": 16,
-      "name": "SO..TIRED..MUST..SLEEP..",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "tasks": [],
-      "rewards": [],
-      "completed": [],
-      "preRequisites": []
     },
     {
       "questID": 17,
@@ -3046,31 +3021,6 @@
       "preRequisites": [
         40
       ]
-    },
-    {
-      "questID": 45,
-      "name": "You shall proceed",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "tasks": [],
-      "rewards": [],
-      "completed": [],
-      "preRequisites": []
     },
     {
       "questID": 46,
@@ -6029,31 +5979,6 @@
       ]
     },
     {
-      "questID": 84,
-      "name": "Getting coal",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "tasks": [],
-      "rewards": [],
-      "completed": [],
-      "preRequisites": []
-    },
-    {
       "questID": 85,
       "name": "Smelt all the things...",
       "description": "...at once! Uses power to smelt up to 18 items in one step. Can\u0027t go any faster! (Well, maybe with those fancy new LuV+ Tier machines in this pack...)",
@@ -6576,7 +6501,7 @@
         {
           "id": 76,
           "x": 80,
-          "y": 1
+          "y": 0
         },
         {
           "id": 77,
