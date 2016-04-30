@@ -706,7 +706,19 @@
           "taskID": "bq_standard:hunt"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cooked_porkchop",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "completed": [],
       "preRequisites": [
         11
@@ -1072,13 +1084,7 @@
       },
       "tasks": [],
       "rewards": [],
-      "completed": [
-        {
-          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-          "timestamp": 4076,
-          "claimed": false
-        }
-      ],
+      "completed": [],
       "preRequisites": []
     },
     {
@@ -2846,7 +2852,125 @@
       ],
       "completed": [],
       "preRequisites": [
+        43
+      ]
+    },
+    {
+      "questID": 42,
+      "name": "Cow Tripper",
+      "description": "Before you kill some Pigs and Sheeps to complete previous Quests. Now its time to kill some Cows and hopfully get some Leather. If you are lucky and get some Cow Trophy you never need to kill any Cow.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:leather",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Cow",
+          "required": 6,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:cooked_beef",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
         33
+      ]
+    },
+    {
+      "questID": 43,
+      "name": "Cotton, cotton and more cotten",
+      "description": "You find out that Cotton is very useful. You can make wool out of it (how is this happened magical maybe) Strings can make out of Cotton too and some other useful items. Make some small Cotton plantation to get more of this useful stuff.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Natura:barleyFood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Natura:barleyFood",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:barley.seed",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        42
       ]
     }
   ],
@@ -2943,7 +3067,7 @@
         },
         {
           "id": 17,
-          "x": 264,
+          "x": 272,
           "y": 40
         },
         {
@@ -2978,8 +3102,8 @@
         },
         {
           "id": 24,
-          "x": 264,
-          "y": 79
+          "x": 272,
+          "y": 80
         },
         {
           "id": 25,
@@ -2988,7 +3112,7 @@
         },
         {
           "id": 27,
-          "x": 264,
+          "x": 272,
           "y": 184
         },
         {
@@ -3058,13 +3182,23 @@
         },
         {
           "id": 41,
-          "x": 192,
+          "x": 248,
           "y": 160
         },
         {
           "id": 26,
           "x": 232,
           "y": 112
+        },
+        {
+          "id": 42,
+          "x": 184,
+          "y": 160
+        },
+        {
+          "id": 43,
+          "x": 216,
+          "y": 160
         }
       ]
     }
