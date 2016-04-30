@@ -6472,39 +6472,8 @@
       ],
       "completed": [],
       "preRequisites": [
-        89
+        70
       ]
-    },
-    {
-      "questID": 89,
-      "name": "Steam-a-licious!",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "tasks": [],
-      "rewards": [],
-      "completed": [
-        {
-          "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-          "timestamp": 331508,
-          "claimed": false
-        }
-      ],
-      "preRequisites": []
     },
     {
       "questID": 90,
@@ -6556,11 +6525,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6618,11 +6591,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6680,11 +6657,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6742,11 +6723,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6804,11 +6789,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6866,11 +6855,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6928,11 +6921,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -6990,11 +6987,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7052,11 +7053,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7114,11 +7119,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7176,11 +7185,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7238,11 +7251,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7300,11 +7317,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7454,11 +7475,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7517,11 +7542,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7636,11 +7665,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7817,11 +7850,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7886,11 +7923,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -7949,11 +7990,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -8484,11 +8529,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -8671,11 +8720,15 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 20,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -9101,7 +9154,7 @@
         {
           "id": 93,
           "x": 0,
-          "y": 40
+          "y": 8
         },
         {
           "id": 94,
