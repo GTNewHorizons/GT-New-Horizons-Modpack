@@ -1065,7 +1065,7 @@
     {
       "questID": 16,
       "name": "Better Tank...... Iron Tank",
-      "description": "Store more then 16 Buckets of Fluids in one tank? Sure make some iron Tank or upgrade the Buildcraft Tank.\nDiamond Tankes carry up to 64 Buckets and Obsidian ones are blast proof.",
+      "description": "Store more than 16 Buckets of Fluids in one tank? Sure make some iron Tank or upgrade the Buildcraft Tank.\nDiamond Tanks carry up to 64 Buckets and Obsidian ones are blast proof.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3087,6 +3087,83 @@
       "preRequisites": [
         40
       ]
+    },
+    {
+      "questID": 45,
+      "name": "Multiblock Tanks..... Railcraft Tanks",
+      "description": "576 Buckets of Fluids...... Enough to store all the Creosote in i made before. If this isn\u0027t enough i can make this Tank bigger.  The smallest Tank are 3x4 the biggest 9x8 Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
     },
     {
       "questID": 46,
@@ -6647,53 +6724,58 @@
         },
         {
           "id": 76,
-          "x": 80,
-          "y": 0
+          "x": 0,
+          "y": 32
         },
         {
           "id": 77,
           "x": 0,
-          "y": 48
+          "y": 64
         },
         {
           "id": 78,
           "x": 0,
-          "y": 80
+          "y": 96
         },
         {
           "id": 79,
           "x": 40,
-          "y": 80
+          "y": 96
         },
         {
           "id": 80,
           "x": 40,
-          "y": 48
+          "y": 64
         },
         {
           "id": 81,
           "x": 80,
-          "y": 48
+          "y": 64
         },
         {
           "id": 82,
-          "x": 120,
-          "y": 0
+          "x": 40,
+          "y": 32
         },
         {
           "id": 83,
-          "x": 160,
-          "y": 0
+          "x": 40,
+          "y": 128
         },
         {
           "id": 85,
           "x": 0,
-          "y": 112
+          "y": 128
         },
         {
           "id": 86,
           "x": 80,
-          "y": 80
+          "y": 96
+        },
+        {
+          "id": 45,
+          "x": 80,
+          "y": 0
         }
       ]
     }
