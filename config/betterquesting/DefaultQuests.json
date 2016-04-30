@@ -6317,6 +6317,96 @@
       "preRequisites": [
         79
       ]
+    },
+    {
+      "questID": 87,
+      "name": "Steel Multiblock Tanks",
+      "description": "Want to double the amount of Liquid a Tank can hold. Sure make a Steel Tank. All sizes allowed from 3x4 to 9x8 Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        45
+      ]
     }
   ],
   "questLines": [
@@ -6775,6 +6865,11 @@
         {
           "id": 45,
           "x": 80,
+          "y": 0
+        },
+        {
+          "id": 87,
+          "x": 120,
           "y": 0
         }
       ]
