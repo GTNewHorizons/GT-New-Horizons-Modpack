@@ -2833,7 +2833,7 @@
     {
       "questID": 42,
       "name": "Cow Tripper",
-      "description": "Before you kill some Pigs and Sheep\u0027s to complete previous Quests. Now it\u0027s time to kill some Cows and hopefully get some Leather. If you are lucky and get some Cow Trophy you never need to kill any Cow.",
+      "description": "Before you kill some Pigs and Sheep\u0027s to complete previous Quests. Now it\u0027s time to kill some Cows and hopefully get some Leather. If you are lucky and get some Cow Trophy you never need to kill any Cow in the future.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2889,7 +2889,7 @@
     {
       "questID": 43,
       "name": "Cotton, cotton and more cotten",
-      "description": "You find out that Cotton is very useful. You can make wool out of it (how is this happened magical maybe) Strings can make out of Cotton too and some other useful items. Make some small Cotton plantation to get more of this useful stuff.",
+      "description": "You find out that Cotton is very useful. You can make wool out of it (how you can do this this very magical) Strings can made out of Cotton too and some other useful items. Make some small Cotton plantation to get more of this useful stuff.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
