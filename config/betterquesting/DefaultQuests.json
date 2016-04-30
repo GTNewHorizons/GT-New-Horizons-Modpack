@@ -6476,6 +6476,69 @@
       ]
     },
     {
+      "questID": 89,
+      "name": "Tier 3",
+      "description": "In Tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes unlock. Your goal here is to reach a stable ore-processing for the vast amounts of materials you\u0027ll need for Tier 4. You also should focus on power production if you haven\u0027t already.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 20,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        103
+      ]
+    },
+    {
       "questID": 90,
       "name": "Damn you, wirecutter!",
       "description": "Enough is enough. No more wasting of gazillions of ingots just for a couple of wires. Now that you have power, you should go for a wiremill!",
@@ -8736,6 +8799,2229 @@
         124,
         123
       ]
+    },
+    {
+      "questID": 127,
+      "name": "Basic item storage",
+      "description": "Having tons of chests everywhere can get quite annoying after a while. Getting an AE System is not an option either, as you don\u0027t have access to the required materials yet. But there is an early solution for that problem",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Transportation:projectred.transportation.pipe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "chipROM": {
+                  "mode": 1,
+                  "mm": 1,
+                  "hide": 0,
+                  "grp": 0,
+                  "pref": 0,
+                  "filteritems": "",
+                  "filteritemsCount": 9,
+                  "nbtm": 1,
+                  "om": 0
+                }
+              }
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "chipROM": {
+                  "mode": 1,
+                  "mm": 1,
+                  "hide": 0,
+                  "grp": 0,
+                  "pref": 0,
+                  "filteritems": "",
+                  "filteritemsCount": 9,
+                  "nbtm": 1,
+                  "om": 0
+                }
+              }
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 128,
+      "name": "Ender not-so-IO",
+      "description": "You\u0027ve probably used EnderIO before. It\u0027s quite useful for a lot of things. But a lot of stuff has changed here, so let\u0027s start from scratch",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockEnderIo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11365
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11369
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11378
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11369
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11378
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11365
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 129,
+      "name": "Machine chassis",
+      "description": "All EnderIO machines still require the basic chassis, and it\u0027s almost the same recipe as before; Except that you need plates instead of ingots. But that shouldn\u0027t be a problem at all...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemMachinePart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        128
+      ]
+    },
+    {
+      "questID": 130,
+      "name": "Portable tanks",
+      "description": "Until now, you where required to use buildcraft tanks to carry liquids around; Which can be a pain to do. These little tanks are able to push and pull liquids by themselfs, as they have a buildin pump which is powered by some magic energy source. How convenient.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockTank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        129
+      ]
+    },
+    {
+      "questID": 131,
+      "name": "Simple RF-Power: Solid",
+      "description": "By simply burning coal as fuel, this machine produces RF power. But a lot, but enough for a basic machine setup",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockStirlingGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockStirlingGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        130
+      ]
+    },
+    {
+      "questID": 132,
+      "name": "Simple RF-Power: Liquids",
+      "description": "This generator requires both water as coolant, and a burnable liquid; Such as fuel. The amount of power it produces depends on the liquid used",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCombustionGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCombustionGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        130
+      ]
+    },
+    {
+      "questID": 133,
+      "name": "The power of endermen",
+      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range also is somewhat limited. TravelAnchors do not have that limitation; You can teleport from one Anchor to any other within range; You can name them and even set them to private. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockTravelAnchor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockTravelAnchor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:blockTravelAnchor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 50,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        129
+      ]
+    },
+    {
+      "questID": 134,
+      "name": "Conduits",
+      "description": "Probably the most awesome way to transport just anything in multiple different ways. Get some of each type",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemPowerConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemLiquidConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemPowerConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemRedstoneConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemLiquidConduit",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemRedstoneConduit",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemPowerConduit",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        129
+      ]
+    },
+    {
+      "questID": 135,
+      "name": "Yet another wrench",
+      "description": "The Yeta Wrench is more than just a regular wrench; While holding it, you are able to switch between available conduits, eventually allowing you remove one specific conduit type from a bundle of many. Ctrl-Mousewheel will switch modes; Also Shift-Leftclick allows you to open the configuration interface even if you don\u0027t have access to that side of the conduit",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemYetaWrench",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemYetaWrench",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        134
+      ]
+    },
+    {
+      "questID": 136,
+      "name": "Improving conduits",
+      "description": "Conduits on their own are pretty awesome, but you can do better. By using filters and speed upgrades, you gain even more control over what and how fast they work",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemBasicFilterUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemExtractSpeedUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicFilterUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        134
+      ]
+    },
+    {
+      "questID": 137,
+      "name": "Making things pretty",
+      "description": "While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockPainter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemConduitFacade",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemConduitFacade",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockPainter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemConduitFacade",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemConduitFacade",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        134
+      ]
+    },
+    {
+      "questID": 138,
+      "name": "Come to the dark side...",
+      "description": "...we have cookies",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cookie",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        128
+      ]
+    },
+    {
+      "questID": 139,
+      "name": "Luke, i\u0027m your father",
+      "description": "With that dark steel you got, you may now craft yourself a new set of armor. While pretty basic first, it can be upgraded later to unlock powerful features",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_helmet",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11364
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        138
+      ]
+    },
+    {
+      "questID": 140,
+      "name": "Dark steel tools",
+      "description": "There are also tools made of dark steel. Each of them can receive upgrades; Hold shift to get the tooltip which will explain what you need in order to upgrade them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_sword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        138
+      ]
+    },
+    {
+      "questID": 141,
+      "name": "Basic upgrades",
+      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreEnderExpansion:exp_bottle_consistent",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        140,
+        139
+      ]
+    },
+    {
+      "questID": 142,
+      "name": "Brewing liquids",
+      "description": "This machine is not only capable of brewing more powerful burnable liquids, it can also be used to brew nutrient distillation, which might have a further usage soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockVat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockVat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        132
+      ]
+    },
+    {
+      "questID": 143,
+      "name": "Smelting alloys",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockAlloySmelter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        132,
+        131
+      ]
+    },
+    {
+      "questID": 144,
+      "name": "Automated crafting",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCrafter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCrafter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        132,
+        131
+      ]
+    },
+    {
+      "questID": 145,
+      "name": "Ore processing",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockSagMill",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockSagMill",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        132,
+        131
+      ]
+    },
+    {
+      "questID": 146,
+      "name": "Torture device",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockSliceAndSplice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockSliceAndSplice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        132,
+        131
+      ]
+    },
+    {
+      "questID": 147,
+      "name": "Not for rockets...",
+      "description": "It claims to be rocket fuel, but it isn\u0027t. However, it does generate quite a bit of power. Use your \"Vat\" to make some. Will generate 160 RF/t when used in a combustion generator",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:bucketRocket_fuel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:bucketRocket_fuel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        142
+      ]
+    },
+    {
+      "questID": 148,
+      "name": "Tasty...",
+      "description": "Yeah, that is... Well.. You are sure it will have an usage for something.. some day...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:bucketNutrient_distillation",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:bucketNutrient_distillation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        142
+      ]
+    },
+    {
+      "questID": 149,
+      "name": "Firewater",
+      "description": "Not exaclty what you think it is; It\u0027s better to not consume that liquid. When used in the combustion generator, it will produce 80RF/t",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:bucketFire_water",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:bucketFire_water",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        142
+      ]
+    },
+    {
+      "questID": 150,
+      "name": "Hootch",
+      "description": "The lowest tier of renewable, burnable fluid. Generates 60 RF/t, but can be automated for \"green\" infinite power",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:bucketHootch",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:bucketHootch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        142
+      ]
+    },
+    {
+      "questID": 151,
+      "name": "Automated Mob-Farming",
+      "description": "Of course... A zombie loves that ... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are, that there might be a weapon that will never break when used in this \"machine\"...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockKillerJoe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockKillerJoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        148
+      ]
+    },
+    {
+      "questID": 152,
+      "name": "And it will never break",
+      "description": "By using an etheric sword, your KillerJoe will run.. forever. Proper enchantments are a requirement for be efficient, but that shouldn\u0027t be a problem",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:ethericsword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:ethericsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        151
+      ]
+    },
+    {
+      "questID": 153,
+      "name": "Simple item transfer",
+      "description": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to build compact machines",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Translocator:translocator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Translocator:translocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 154,
+      "name": "Simple fluid transfer",
+      "description": "Just like the item translocators, the fluid ones transfer.. fluids. Same restrictions apply; 1 Block distance",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Translocator:translocator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Translocator:translocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        153
+      ]
+    },
+    {
+      "questID": 155,
+      "name": "Harder, stronger, faster",
+      "description": "No, actually not faster. But more durable than Tier1.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:fenceTierTwo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:fenceTierTwo",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:hardWallTierTwo",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 156,
+      "name": "Protect your base; Tier 2",
+      "description": "Slightly better protection; And now with a real gun. No more food wasting",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:chamberTierTwo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:chamberTierTwo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:barrelTierTwo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:sensorTierTwoItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        155
+      ]
+    },
+    {
+      "questID": 157,
+      "name": "Tier 2 turret base",
+      "description": "Nothing to see here. Proceed",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:baseTierOneBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:baseTierOneBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 20,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        156
+      ]
+    },
+    {
+      "questID": 158,
+      "name": "Sometimes, a bullet will do",
+      "description": "They hit hard. You have been warned",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:machineGunTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:machineGunTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "openmodularturrets:bulletCraftable",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        157
+      ]
+    },
+    {
+      "questID": 159,
+      "name": "Burn them. Burn them all!",
+      "description": "Hmmm, crispy bacon. What would happen if you enable neutral mobs as target..?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "openmodularturrets:incendiaryTurret",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:incendiaryTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "openmodularturrets:blazingClayCraftable",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        157
+      ]
     }
   ],
   "questLines": [
@@ -9133,188 +11419,364 @@
       "quests": [
         {
           "id": 88,
-          "x": 40,
+          "x": 64,
           "y": 72
         },
         {
           "id": 90,
-          "x": 160,
-          "y": 32
+          "x": 128,
+          "y": 8
         },
         {
           "id": 91,
-          "x": 40,
-          "y": 8
+          "x": 128,
+          "y": 40
         },
         {
           "id": 92,
-          "x": 0,
-          "y": 72
-        },
-        {
-          "id": 93,
-          "x": 0,
-          "y": 8
-        },
-        {
-          "id": 94,
-          "x": 112,
+          "x": 128,
           "y": 120
         },
         {
-          "id": 95,
+          "id": 93,
+          "x": 128,
+          "y": 88
+        },
+        {
+          "id": 94,
           "x": 0,
           "y": 104
         },
         {
+          "id": 95,
+          "x": 128,
+          "y": 152
+        },
+        {
           "id": 96,
-          "x": 112,
+          "x": 64,
           "y": 8
         },
         {
           "id": 97,
-          "x": 136,
-          "y": 16
+          "x": 96,
+          "y": 8
         },
         {
           "id": 98,
-          "x": 176,
-          "y": 56
+          "x": 0,
+          "y": 168
         },
         {
           "id": 99,
-          "x": 136,
-          "y": 104
-        },
-        {
-          "id": 100,
-          "x": 160,
-          "y": 88
-        },
-        {
-          "id": 101,
-          "x": 88,
-          "y": 136
-        },
-        {
-          "id": 102,
           "x": 0,
           "y": 136
         },
         {
+          "id": 100,
+          "x": 0,
+          "y": 8
+        },
+        {
+          "id": 101,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 102,
+          "x": 0,
+          "y": 40
+        },
+        {
           "id": 103,
-          "x": 40,
+          "x": 64,
           "y": 184
         },
         {
           "id": 104,
-          "x": 40,
+          "x": 64,
           "y": 216
         },
         {
           "id": 105,
-          "x": 80,
+          "x": 32,
           "y": 8
         },
         {
           "id": 106,
-          "x": 312,
+          "x": 336,
           "y": 72
         },
         {
           "id": 107,
-          "x": 272,
+          "x": 296,
           "y": 0
         },
         {
           "id": 108,
-          "x": 312,
+          "x": 336,
           "y": 32
         },
         {
           "id": 109,
-          "x": 312,
+          "x": 336,
           "y": 0
         },
         {
           "id": 110,
-          "x": 352,
+          "x": 376,
           "y": 0
         },
         {
           "id": 111,
-          "x": 272,
+          "x": 296,
           "y": 32
         },
         {
           "id": 112,
-          "x": 352,
+          "x": 376,
           "y": 32
         },
         {
           "id": 113,
-          "x": 232,
+          "x": 256,
           "y": 112
         },
         {
           "id": 114,
-          "x": 200,
+          "x": 224,
           "y": 144
         },
         {
           "id": 115,
-          "x": 256,
+          "x": 280,
           "y": 144
         },
         {
           "id": 116,
-          "x": 312,
+          "x": 336,
           "y": 112
         },
         {
           "id": 117,
-          "x": 352,
+          "x": 376,
           "y": 112
         },
         {
           "id": 118,
-          "x": 272,
+          "x": 296,
           "y": 112
         },
         {
           "id": 119,
-          "x": 352,
+          "x": 376,
           "y": 72
         },
         {
           "id": 120,
-          "x": 120,
+          "x": 144,
           "y": 184
         },
         {
           "id": 122,
-          "x": 160,
+          "x": 184,
           "y": 184
         },
         {
           "id": 123,
-          "x": 200,
+          "x": 224,
           "y": 216
         },
         {
           "id": 124,
-          "x": 200,
+          "x": 224,
           "y": 184
         },
         {
           "id": 125,
-          "x": 256,
+          "x": 280,
           "y": 184
         },
         {
           "id": 121,
-          "x": 80,
+          "x": 104,
           "y": 184
+        }
+      ]
+    },
+    {
+      "name": "Tier 3 - 128 EU (MV)",
+      "description": "Your second voltage tier. Don\u0027t ever mix 2 different voltage levels, or you will be punished in a hard way",
+      "quests": [
+        {
+          "id": 89,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 127,
+          "x": 0,
+          "y": 112
+        },
+        {
+          "id": 128,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 129,
+          "x": 168,
+          "y": 112
+        },
+        {
+          "id": 130,
+          "x": 264,
+          "y": 112
+        },
+        {
+          "id": 131,
+          "x": 312,
+          "y": 152
+        },
+        {
+          "id": 132,
+          "x": 312,
+          "y": 112
+        },
+        {
+          "id": 133,
+          "x": 232,
+          "y": 152
+        },
+        {
+          "id": 134,
+          "x": 168,
+          "y": 0
+        },
+        {
+          "id": 135,
+          "x": 200,
+          "y": 0
+        },
+        {
+          "id": 136,
+          "x": 200,
+          "y": 32
+        },
+        {
+          "id": 137,
+          "x": 136,
+          "y": 0
+        },
+        {
+          "id": 138,
+          "x": 96,
+          "y": 32
+        },
+        {
+          "id": 139,
+          "x": 96,
+          "y": 64
+        },
+        {
+          "id": 140,
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": 141,
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": 142,
+          "x": 312,
+          "y": 72
+        },
+        {
+          "id": 143,
+          "x": 352,
+          "y": 152
+        },
+        {
+          "id": 144,
+          "x": 352,
+          "y": 112
+        },
+        {
+          "id": 145,
+          "x": 352,
+          "y": 72
+        },
+        {
+          "id": 146,
+          "x": 264,
+          "y": 152
+        },
+        {
+          "id": 147,
+          "x": 352,
+          "y": 32
+        },
+        {
+          "id": 148,
+          "x": 272,
+          "y": 32
+        },
+        {
+          "id": 149,
+          "x": 232,
+          "y": 32
+        },
+        {
+          "id": 150,
+          "x": 312,
+          "y": 32
+        },
+        {
+          "id": 151,
+          "x": 232,
+          "y": 0
+        },
+        {
+          "id": 152,
+          "x": 272,
+          "y": 0
+        },
+        {
+          "id": 153,
+          "x": 64,
+          "y": 112
+        },
+        {
+          "id": 154,
+          "x": 96,
+          "y": 112
+        },
+        {
+          "id": 155,
+          "x": 40,
+          "y": 168
+        },
+        {
+          "id": 156,
+          "x": 80,
+          "y": 168
+        },
+        {
+          "id": 157,
+          "x": 112,
+          "y": 168
+        },
+        {
+          "id": 158,
+          "x": 144,
+          "y": 152
+        },
+        {
+          "id": 159,
+          "x": 144,
+          "y": 192
         }
       ]
     },
