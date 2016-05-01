@@ -15419,11 +15419,15 @@
       ],
       "rewards": [
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 50,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "completed": [],
@@ -15590,8 +15594,8 @@
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
-      "logic": "AND",
-      "taskLogic": "AND",
+      "logic": "OR",
+      "taskLogic": "OR",
       "icon": {
         "id": "utilityworlds:uw_portal_void",
         "Count": 1,
@@ -15629,7 +15633,7 @@
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "minecraft:stone",
@@ -31765,57 +31769,57 @@
       "quests": [
         {
           "id": 213,
-          "x": 0,
+          "x": 24,
           "y": 0
         },
         {
           "id": 214,
-          "x": 0,
+          "x": 24,
           "y": 72
         },
         {
           "id": 215,
-          "x": 0,
+          "x": 24,
           "y": 40
         },
         {
           "id": 216,
-          "x": 48,
+          "x": 72,
           "y": 40
         },
         {
           "id": 217,
           "x": 0,
-          "y": 112
+          "y": 104
         },
         {
           "id": 218,
           "x": 48,
-          "y": 72
+          "y": 104
         },
         {
           "id": 219,
-          "x": 48,
+          "x": 72,
           "y": 0
         },
         {
           "id": 220,
-          "x": 88,
+          "x": 112,
           "y": 0
         },
         {
           "id": 221,
-          "x": 128,
+          "x": 152,
           "y": 0
         },
         {
           "id": 222,
-          "x": 128,
+          "x": 152,
           "y": 40
         },
         {
           "id": 223,
-          "x": 168,
+          "x": 192,
           "y": 0
         }
       ]
