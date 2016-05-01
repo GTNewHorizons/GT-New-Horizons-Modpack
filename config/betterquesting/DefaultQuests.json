@@ -24358,7 +24358,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 4320,
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -24426,7 +24426,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 4320,
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -24538,7 +24538,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 4320,
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -24597,7 +24597,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 4320,
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -25509,14 +25509,24 @@
           "consume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1000,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "DraconicEvolution:draconiumDust",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 200,
               "OreDict": "",
               "Damage": 0
             }
@@ -25539,7 +25549,9 @@
         }
       ],
       "completed": [],
-      "preRequisites": []
+      "preRequisites": [
+        308
+      ]
     },
     {
       "questID": 363,
@@ -27489,7 +27501,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 0,
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -30388,6 +30400,340 @@
       "preRequisites": [
         424
       ]
+    },
+    {
+      "questID": 439,
+      "name": "Steam \u003e Tier 2",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        441
+      ]
+    },
+    {
+      "questID": 441,
+      "name": "Basic \u003e Steam",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 443,
+      "name": "Tier 2 \u003e Tier 3",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        439
+      ]
+    },
+    {
+      "questID": 445,
+      "name": "Tier 3 \u003e Tier 4",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        443
+      ]
+    },
+    {
+      "questID": 447,
+      "name": "Tier 4 \u003e Tier 5",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        445
+      ]
+    },
+    {
+      "questID": 449,
+      "name": "Tier 5 \u003e Tier 6",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        447
+      ]
     }
   ],
   "questLines": [
@@ -32691,6 +33037,42 @@
           "id": 438,
           "x": 160,
           "y": 64
+        }
+      ]
+    },
+    {
+      "name": "Reward Area",
+      "description": "Upgrade your lootbags!",
+      "quests": [
+        {
+          "id": 439,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": 441,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 443,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": 445,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 447,
+          "x": 128,
+          "y": 0
+        },
+        {
+          "id": 449,
+          "x": 160,
+          "y": 0
         }
       ]
     }
