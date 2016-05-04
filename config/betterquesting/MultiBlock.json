@@ -1,0 +1,1371 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "You are not prepared",
+      "description": "It\u0027s time for something really big: A smeltery! It\u0027s a lot to craft, so better gather some resources...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:Smeltery",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:LavaTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1,
+      "name": "The water problem",
+      "description": "Finite water is a problem. But fear not, there are solutions! I shall guide you to get a steady supply of water",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockRubSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemTreetap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemHarz",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 52,
+              "OreDict": "",
+              "Damage": 23032
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 5101
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 2,
+      "name": "Time to get some steel",
+      "description": "You need steel? Fine. Let\u0027s get busy...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 108
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:brick_block",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 196,
+              "OreDict": "",
+              "Damage": 17300
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 28,
+              "OreDict": "plateIron",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMachine",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 108
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:fuel.coke",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 3,
+      "name": "Multiblock Tanks..... Railcraft Tanks",
+      "description": "576 Buckets of Fluids...... Enough to store all the Creosote in i made before. If this isn\u0027t enough i can make this Tank bigger.  The smallest Tank are 3x4 the biggest 9x8 Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 4,
+      "name": "EBF-Time",
+      "description": "In order to get alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1000
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 11,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1000
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 71
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 81
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 91
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 41
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32764
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 5,
+      "name": "Upgrade #1: More heat",
+      "description": "Better materials need higher temperatures. You can just exchange the old coils with the new ones. You can even recycle the old coils, how fancy is that!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Upgrade #2: Higher tier",
+      "description": "To reach the 3600k heat capacity of your EBF, so you can process high-tier materials like Tungsten, you need Nichrome heating coils",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Compress all the things",
+      "description": "Martin\u0027s favourite machine. Compress ALL the things! With explosives, of course.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockITNT",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockITNT",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1001
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ExtraUtilities:cobblestone_compressed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ExtraUtilities:cobblestone_compressed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "IC2:itemPartIndustrialDiamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 9,
+      "name": "In the universe ...",
+      "description": "...there\u0027s only one absolute... everything freezes! Now it\u0027s somewhat expensive to launch into space just to cool down a few ingots, so why not build a machine which can simulate the cold environment?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1002
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1002
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:neapolitanicecreamItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 10,
+      "name": "An unexpected Bonus",
+      "description": "Because we\u0027re nice Developers, we decided to add a little bonus if you happen to compress charcoal. Not only enables it to process more than 16 steel at a time, it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a Quintuple one!)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.Charcoal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:tile.QuintupleCompressedCharcoal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Highspeed Charcoal",
+      "description": "Sure, those Coke-Ovens are nice, but there aren\u0027t even remotely fast enough to keep up with a large steam boiler. Luckily , there is an upgrade available! The produced creosote oil is consumed instead of returned; But it will speed up the process dramatically. Who needs that nasty yellowish stuff anyways...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 34,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:tile.Charcoal",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 13,
+      "name": "Smelt all the things...",
+      "description": "...at once! Uses power to smelt up to 18 items in one step. Can\u0027t go any faster! (Well, maybe with those fancy new LuV+ Tier machines in this pack...)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1003
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1003
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 14,
+      "name": "Upgrade #3: Highest Tier",
+      "description": "To process Draconium and Neutronium you need more than 3600K. Upgrade your EBF to 9000K.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 15,
+      "name": "Steel Multiblock Tanks",
+      "description": "Want to double the amount of Liquid a Tank can hold. Sure make a Steel Tank. All sizes allowed from 3x4 to 9x8 Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        3
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Multiblock Goals",
+      "description": "This set is a global tracker for multiblock goals structures. As you can build several parts of many multiblocks way earlier than the respecive tier",
+      "quests": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1,
+          "x": 40,
+          "y": 0
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 7,
+          "x": 40,
+          "y": 96
+        },
+        {
+          "id": 8,
+          "x": 40,
+          "y": 64
+        },
+        {
+          "id": 9,
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": 10,
+          "x": 40,
+          "y": 32
+        },
+        {
+          "id": 11,
+          "x": 40,
+          "y": 128
+        },
+        {
+          "id": 13,
+          "x": 0,
+          "y": 128
+        },
+        {
+          "id": 14,
+          "x": 80,
+          "y": 96
+        },
+        {
+          "id": 3,
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": 15,
+          "x": 120,
+          "y": 0
+        }
+      ]
+    }
+  ]
+}

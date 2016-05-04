@@ -1,0 +1,1375 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Simple but powerful spells",
+      "description": "The simple spell system is rather easy to setup, and can be done early on in your bloodmagic career",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:blockHomHeart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blockHomHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
+      "questID": 1,
+      "name": "Paying the highest price",
+      "description": "When regular magic just isn\u0027t enough, you need something.. stronger; Which is paid with blood. Your blood, and maybe others",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:Altar",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:Altar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 2,
+      "name": "4 Paradigm",
+      "description": "Paradigm shape your spell. Read the individual task for more information",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "Spell foci",
+      "description": "You have nine basic elements and each have a focus, an item that represents them. You place this focus in your altar next to the spell table in order for your magic to flow through it and the paradigm.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:tnt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:water_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:obsidian",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ender_pearl",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:apprenticeBloodOrb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ownerName": "Namikon"
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:blankSpell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Some examples",
+      "description": "Here are a few examples that you could do and might come in handy. There are a LOT more combinations to discover, so just trial and error!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:blankSpell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blankSpell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        3,
+        2
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "Portable battery...",
+      "description": "Not exactly a \"battery\", more a portable access point for your lifepoints, aka blood.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:weakBloodOrb",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:weakBloodOrb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "Infinite Water",
+      "description": "By sacrificing some blood to the water spirits, they\u0027ll grant you some of their precious element",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:waterSigil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:waterSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "*Poke*",
+      "description": "Time to get some blood. You have to start with your own...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:sacrificialKnife",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "sacrifice": 0
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:sacrificialKnife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "sacrifice": 0
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Lava for blood",
+      "description": "Well, it\u0027s both red, so that connection was quite obvious.. Was it..?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:lavaSigil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:lavaSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "Tier 1 slates",
+      "description": "The basic slates. Basically just stone with blood.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:blankSlate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blankSlate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:blankSlate",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "See all the things",
+      "description": "It\u0027s quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:divinationSigil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:divinationSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Basic runes",
+      "description": "The basic runes you can craft at the moment",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 12,
+      "name": "Alchemy with blood",
+      "description": "Not like \"BloodAlchemy\". You probably will need more than one later, but for now one is sufficient",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:blockWritingTable",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blockWritingTable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 13,
+      "name": "Potion catalysts",
+      "description": "In order to manipulate potions you need catalysts. You then combine the ingredient you used to get the potion effect in with either a lengthening or power catalyst to increase the duration or the level of the potioneffect",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:averageLengtheningCatalyst",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:mundaneLengtheningCatalyst",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:mundanePowerCatalyst",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:weakBindingAgent",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:simpleCatalyst",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 14,
+      "name": "Simple alchemical things",
+      "description": "Alchemy can be weird, and tedious. There are a lot of reagents and even more possible combinations. For now, and in order to get started, you need a couple of basic things",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:crystallos",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:crystallos",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:sanctus",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:simpleCatalyst",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "AWWayofTime:sanctus",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:crystallos",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 15,
+      "name": "Refilling your potions",
+      "description": "If empty, you don\u0027t have to throw the potion away. Just refill it",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:weakFillingAgent",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:weakFillingAgent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:standardFillingAgent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 16,
+      "name": "Special potion flasks",
+      "description": "Regular glass bottles are unable to hold these special potions you want; You need to imbue it with some blood from your altar",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:alchemyFlask",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:alchemyFlask",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:alchemyFlask",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Potion: Flight mode",
+      "description": "Just to give you an idea what is possible; Let\u0027s do a sample potion. Shall we? Get yourself a potion flask, a feather and one of your weak binding agents you made. Combine those in the chemistry set, and you\u0027ll get something that you\u0027ll probably want to keep for a while",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:alchemyFlask",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:alchemyFlask",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:feather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:weakBindingAgent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:averageLengtheningCatalyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        13,
+        16
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Paying the highest price",
+      "description": "When regular magic just won\u0027t cover it; Pay demons to do it for you! The cost might scare some people... But no risk no fun",
+      "quests": [
+        {
+          "id": 1,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 5,
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": 7,
+          "x": 40,
+          "y": 0
+        },
+        {
+          "id": 6,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 8,
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": 9,
+          "x": 95,
+          "y": 0
+        },
+        {
+          "id": 10,
+          "x": 120,
+          "y": 32
+        },
+        {
+          "id": 11,
+          "x": 96,
+          "y": 64
+        },
+        {
+          "id": 12,
+          "x": 216,
+          "y": 0
+        },
+        {
+          "id": 13,
+          "x": 176,
+          "y": 64
+        },
+        {
+          "id": 15,
+          "x": 216,
+          "y": 32
+        },
+        {
+          "id": 14,
+          "x": 176,
+          "y": 32
+        },
+        {
+          "id": 16,
+          "x": 256,
+          "y": 32
+        },
+        {
+          "id": 17,
+          "x": 256,
+          "y": 64
+        },
+        {
+          "id": 0,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 2,
+          "x": 136,
+          "y": 128
+        },
+        {
+          "id": 3,
+          "x": 56,
+          "y": 128
+        },
+        {
+          "id": 4,
+          "x": 96,
+          "y": 128
+        }
+      ]
+    }
+  ]
+}

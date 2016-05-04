@@ -1,0 +1,2689 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Not coal",
+      "description": "Way better. To be fair, it\u0027s a waste to use coal itself, but it also works with charcoal. And it speeds up the dissolving of items in an alchemical furnace",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        23
+      ]
+    },
+    {
+      "questID": 1,
+      "name": "Save the squids, we must",
+      "description": "A very convenient way to make PETA activists happy and get ink at the same time. (Hint: The essentia in those roses might be useful...)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ForbiddenMagic:UmbralBush",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ForbiddenMagic:UmbralBush",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "Infinite.. Lava?",
+      "description": "Well, it does need some Ignis vis, but hey, it\u0027s free",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicExploration:everfullUrn",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicExploration:everburnUrn",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        3
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "Infinite water!",
+      "description": "The struggle is over. You finally discovered a way to get infinite amounts of water.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicExploration:everburnUrn",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicExploration:everfullUrn",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "Strange things",
+      "description": "You came across those weird trees, they seem to be more than just plants. You felt something... Different. There is something going on, but you are not sure what exactly yet. But you\u0027re sure you\u0027ll find out very soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 6,
+      "name": "Searching for answers",
+      "description": "Last night, you had a dream. A Dimension, so weird and different, exactly like the sappling you found. You decided to go there and look for answers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:end_portal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "name": "Twilight arrival",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 7,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "See the unseen",
+      "description": "Everything is made of 6 primal aspects. Those aspects can be combined to form compound aspects, but in the end, there are only 6. Like the infused shards you found. You noticed that those shards start to vibrate when you bring them next to something that is made of the respective aspect. Maybe you can create a device to actually \"scan\" items, and reveal their compounds? This could be very usefull later on",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemThaumometer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemThaumometer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Tables to work on",
+      "description": "The idea with the bookshelf did indeed work! Now you need a nice table to do some research on, and probably something to infuse items with vis while crafting. Maybe you should try to hit a table with your wand",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockTable",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Magic stones",
+      "description": "This whole place here is filled with magic. No matter where you look at, it\u0027s just everywhere. You wonder what happens to normal stone if it\u0027s exposed to large amounts of magic for such a long time. Maybe it\u0027s time to go mining?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 541
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 543
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 542
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 545
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 541
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 544
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 540
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 12,
+      "name": "Your first wand",
+      "description": "You are sure that this place will give you all the answers you are looking for! To continue, you need something to handle the magic energy called \"Vis\". Guess it\u0027s time to craft your first wand",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "aqua": 2500,
+          "ignis": 2500,
+          "terra": 2500,
+          "ordo": 2500,
+          "perditio": 2500,
+          "aer": 2500
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:oakStick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.IronWandCap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.nagaScale",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27019
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "aqua": 2500,
+                "ignis": 2500,
+                "terra": 2500,
+                "ordo": 2500,
+                "perditio": 2500,
+                "aer": 2500
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 13,
+      "name": "Tome of knowledge",
+      "description": "All the things you\u0027ve discovered so far, you need to write them down. But you are lazy, and you have a wand, so why not try a magical way to \"write down\" your research? You wonder if you could enchant a book with your wand, so that it will keep track of your progress... You should try that on a bookself!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemThaumonomicon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 14,
+      "name": "Improving your wand",
+      "description": "Your wand does a great job in storing and releasing vis as you please. However, those iron caps are.. Weak. If you don\u0027t pay enough attention to it, it might hurt the node. Maybe you should try to improve it with caps made out of a more valuable material. Like.. Gold, mabye?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.GoldWandCap",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.GoldWandCap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 15,
+      "name": "Getting shards",
+      "description": "Now that you found all 6 primal types of magic infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your forge hammer.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
+      "questID": 16,
+      "name": "A \"greater\" Wand",
+      "description": "While doing all your research and mining these infused stones, you had an idea how to actually use the Wood of an Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: Vis!. The vis makes sure the wood doesn\u0027t loose it\u0027s magic conductivity while forming the rod",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandRod",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Better screws",
+      "description": "Unfortunately, your aluminium screws don\u0027t work with the greatwood rod. Somehow, the wood seems to repell the material. Luckily, you already have a blast furnace, so you can get a better material than aluminium",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 27306
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (0)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 18,
+      "name": "A more powerfull \"scale\"",
+      "description": "The naga scales are weak, they can only hold a very limited amount of Vis. You need a better, more powerfull component to store Vis in your wand. You\u0027ve heard rumors about an evil Wizard in the Twilight forest. Maybe he has ...something... that can be used..?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.LichBone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.LichBone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 19,
+      "name": "\"Stores 50 Vis\" Wand",
+      "description": "Now combine your new wand, and be more powerfull than before! You have a feeling, that this new wand will become handy very soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9,
+        "tag": {
+          "aqua": 5000,
+          "ignis": 5000,
+          "terra": 5000,
+          "cap": "gold",
+          "rod": "greatwood",
+          "ordo": 5000,
+          "perditio": 5000,
+          "aer": 5000
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9,
+              "tag": {
+                "aqua": 5000,
+                "ignis": 5000,
+                "terra": 5000,
+                "cap": "gold",
+                "rod": "greatwood",
+                "ordo": 5000,
+                "perditio": 5000,
+                "aer": 5000
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "questID": 20,
+      "name": "Fuuuuuu..sion!",
+      "description": "Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCosmeticSolid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        21,
+        19,
+        22
+      ]
+    },
+    {
+      "questID": 21,
+      "name": "Another brick in the wall",
+      "description": "A magic one. You are on your way to infusion, and you need 8 of those in total",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCosmeticSolid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCosmeticSolid",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
+      "questID": 22,
+      "name": "Essentia cooking",
+      "description": "In order to get essentia, you need to dissolve items. Obviously, you only want to dissolve those items you don\u0027t really need, and only those, for the essentia you need to craft things",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:blockJar",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        37
+      ]
+    },
+    {
+      "questID": 23,
+      "name": "Not for soup",
+      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a whack with your wand",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 24,
+      "name": "Balacned shards",
+      "description": "By combining all 6 primal aspects in a crucible, you are able to make balanced shards. They can be ground up into Salis Mundus, an absolutely crucial thing to have, trust me!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        23,
+        15
+      ]
+    },
+    {
+      "questID": 25,
+      "name": "Crystal clusters",
+      "description": "You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        24
+      ]
+    },
+    {
+      "questID": 26,
+      "name": "The choice: Ignis",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "ignis"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "ignis"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 27,
+      "name": "The choice",
+      "description": "By now, you should\u0027ve collected a few (or a lot) of locations for Aura nodes to get Vis from. You  might also have noticed, that you probably are low on a certain aspect, like Aer. Or Ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They are all pale, but they will help you out. You may only choose one, so think twice before you make your decision",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockAiry",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 28,
+      "name": "The choice: Terra",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "terra"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "terra"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 29,
+      "name": "The choice: Perditio",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "perditio"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "perditio"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        26,
+        27
+      ]
+    },
+    {
+      "questID": 30,
+      "name": "The choice: Ordo",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "ordo"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "ordo"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 31,
+      "name": "The choice: Aqua",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "aqua"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "aqua"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        26,
+        27
+      ]
+    },
+    {
+      "questID": 32,
+      "name": "The choice: Aer",
+      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain Vis...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:BlockJarNodeItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "nodetype": 0,
+          "Aspects": [
+            {
+              "amount": 30,
+              "key": "aer"
+            }
+          ],
+          "nodemod": 1,
+          "nodeid": "0:-312:64:54"
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "Aspects": [
+                  {
+                    "amount": 30,
+                    "key": "aer"
+                  }
+                ],
+                "display": {
+                  "Lore": [
+                    "Second hand. But who cares?"
+                  ],
+                  "Name": "Used Auranode"
+                },
+                "nodemod": 1,
+                "nodeid": "0:-312:64:54"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        28,
+        30,
+        27
+      ]
+    },
+    {
+      "questID": 33,
+      "name": "Not just for decoration",
+      "description": "Sure, they look pretty, but they serve a much more important purpose: Channeling vast amounts of Vis and essentia. This might be usefull soon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCosmeticSolid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCosmeticSolid",
+              "Count": 92,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 34,
+      "name": "This is the end...",
+      "description": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... Weather changing, random teleportation, or even a Wither spawning right next to someone. Be careful, my friend",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:cake",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 35,
+      "name": "Turning liquids into essentia",
+      "description": "What a simple idea. So many people wasted tons of buckets just to get Aqua from Water, or Sano from Milk. Why didn\u0027t they just dissolve the liquid itself? Stupid ones...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Automagy:blockBoiler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Automagy:blockBoiler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        36,
+        22
+      ]
+    },
+    {
+      "questID": 36,
+      "name": "Essentia filtering",
+      "description": "This nifty little device will filter out essentia. Once it has received a single unit of any type, it will only accept this type until it is completely empty. How convenient. You can place more than one on top of an alchemical furnace",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockMetalDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        37
+      ]
+    },
+    {
+      "questID": 37,
+      "name": "An alternative to torches",
+      "description": "And lava! It\u0027s an excellent heat source",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        23
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Novice Thaumaturge",
+      "description": "Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great Wizard, like me",
+      "quests": [
+        {
+          "id": 5,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 6,
+          "x": 56,
+          "y": 0
+        },
+        {
+          "id": 7,
+          "x": 224,
+          "y": 0
+        },
+        {
+          "id": 11,
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": 13,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 14,
+          "x": 264,
+          "y": 0
+        },
+        {
+          "id": 12,
+          "x": 104,
+          "y": 0
+        },
+        {
+          "id": 15,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 8,
+          "x": 184,
+          "y": 0
+        },
+        {
+          "id": 16,
+          "x": 304,
+          "y": 64
+        },
+        {
+          "id": 17,
+          "x": 224,
+          "y": 32
+        },
+        {
+          "id": 18,
+          "x": 264,
+          "y": 32
+        },
+        {
+          "id": 19,
+          "x": 224,
+          "y": 64
+        },
+        {
+          "id": 20,
+          "x": 224,
+          "y": 128
+        },
+        {
+          "id": 23,
+          "x": 104,
+          "y": 32
+        },
+        {
+          "id": 24,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 25,
+          "x": 0,
+          "y": 128
+        },
+        {
+          "id": 26,
+          "x": 184,
+          "y": 168
+        },
+        {
+          "id": 28,
+          "x": 264,
+          "y": 168
+        },
+        {
+          "id": 29,
+          "x": 184,
+          "y": 216
+        },
+        {
+          "id": 30,
+          "x": 264,
+          "y": 216
+        },
+        {
+          "id": 31,
+          "x": 184,
+          "y": 192
+        },
+        {
+          "id": 32,
+          "x": 264,
+          "y": 192
+        },
+        {
+          "id": 27,
+          "x": 224,
+          "y": 192
+        },
+        {
+          "id": 33,
+          "x": 144,
+          "y": 128
+        },
+        {
+          "id": 21,
+          "x": 184,
+          "y": 128
+        },
+        {
+          "id": 34,
+          "x": 256,
+          "y": 96
+        },
+        {
+          "id": 35,
+          "x": 184,
+          "y": 64
+        },
+        {
+          "id": 36,
+          "x": 144,
+          "y": 64
+        },
+        {
+          "id": 22,
+          "x": 184,
+          "y": 96
+        },
+        {
+          "id": 0,
+          "x": 56,
+          "y": 96
+        },
+        {
+          "id": 37,
+          "x": 104,
+          "y": 96
+        },
+        {
+          "id": 1,
+          "x": 184,
+          "y": 32
+        },
+        {
+          "id": 2,
+          "x": 304,
+          "y": 128
+        },
+        {
+          "id": 3,
+          "x": 256,
+          "y": 128
+        }
+      ]
+    }
+  ]
+}
