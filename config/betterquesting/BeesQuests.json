@@ -1,0 +1,2243 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "First things first",
+      "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:IndustrialScoop",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge": 4990
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraBees:honeyComb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 66
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1,
+      "name": "Go find some bees",
+      "description": "The next thing to: Find bee hives around the world. There are 11 mundane bees that can be found, where 8 are located in the Overworld. Any kind of bee will work for this quest",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beePrincessGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH": 20,
+          "NA": 0,
+          "Health": 20,
+          "IsAnalyzed": 0,
+          "Genome": {
+            "Chromosomes": [
+              {
+                "UID1": "forestry.speciesMarshy",
+                "UID0": "forestry.speciesMarshy",
+                "Slot": 0
+              },
+              {
+                "UID1": "forestry.speedSlowest",
+                "UID0": "forestry.speedSlowest",
+                "Slot": 1
+              },
+              {
+                "UID1": "forestry.lifespanShorter",
+                "UID0": "forestry.lifespanShorter",
+                "Slot": 2
+              },
+              {
+                "UID1": "forestry.fertilityNormal",
+                "UID0": "forestry.fertilityNormal",
+                "Slot": 3
+              },
+              {
+                "UID1": "forestry.toleranceBoth1",
+                "UID0": "forestry.toleranceBoth1",
+                "Slot": 4
+              },
+              {
+                "UID1": "forestry.boolFalse",
+                "UID0": "forestry.boolFalse",
+                "Slot": 5
+              },
+              {
+                "UID1": "forestry.toleranceNone",
+                "UID0": "forestry.toleranceNone",
+                "Slot": 7
+              },
+              {
+                "UID1": "forestry.boolFalse",
+                "UID0": "forestry.boolFalse",
+                "Slot": 8
+              },
+              {
+                "UID1": "forestry.boolFalse",
+                "UID0": "forestry.boolFalse",
+                "Slot": 9
+              },
+              {
+                "UID1": "forestry.flowersMushrooms",
+                "UID0": "forestry.flowersMushrooms",
+                "Slot": 10
+              },
+              {
+                "UID1": "forestry.floweringSlower",
+                "UID0": "forestry.floweringSlower",
+                "Slot": 11
+              },
+              {
+                "UID1": "forestry.territoryAverage",
+                "UID0": "forestry.territoryAverage",
+                "Slot": 12
+              },
+              {
+                "UID1": "forestry.effectNone",
+                "UID0": "forestry.effectNone",
+                "Slot": 13
+              }
+            ]
+          }
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH": 20,
+                "NA": 0,
+                "Health": 20,
+                "IsAnalyzed": 0,
+                "Genome": {
+                  "Chromosomes": [
+                    {
+                      "UID1": "forestry.speciesMarshy",
+                      "UID0": "forestry.speciesMarshy",
+                      "Slot": 0
+                    },
+                    {
+                      "UID1": "forestry.speedSlowest",
+                      "UID0": "forestry.speedSlowest",
+                      "Slot": 1
+                    },
+                    {
+                      "UID1": "forestry.lifespanShorter",
+                      "UID0": "forestry.lifespanShorter",
+                      "Slot": 2
+                    },
+                    {
+                      "UID1": "forestry.fertilityNormal",
+                      "UID0": "forestry.fertilityNormal",
+                      "Slot": 3
+                    },
+                    {
+                      "UID1": "forestry.toleranceBoth1",
+                      "UID0": "forestry.toleranceBoth1",
+                      "Slot": 4
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 5
+                    },
+                    {
+                      "UID1": "forestry.toleranceNone",
+                      "UID0": "forestry.toleranceNone",
+                      "Slot": 7
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 8
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 9
+                    },
+                    {
+                      "UID1": "forestry.flowersMushrooms",
+                      "UID0": "forestry.flowersMushrooms",
+                      "Slot": 10
+                    },
+                    {
+                      "UID1": "forestry.floweringSlower",
+                      "UID0": "forestry.floweringSlower",
+                      "Slot": 11
+                    },
+                    {
+                      "UID1": "forestry.territoryAverage",
+                      "UID0": "forestry.territoryAverage",
+                      "Slot": 12
+                    },
+                    {
+                      "UID1": "forestry.effectNone",
+                      "UID0": "forestry.effectNone",
+                      "Slot": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH": 20,
+                "Health": 20,
+                "IsAnalyzed": 0,
+                "Genome": {
+                  "Chromosomes": [
+                    {
+                      "UID1": "forestry.speciesMarshy",
+                      "UID0": "forestry.speciesMarshy",
+                      "Slot": 0
+                    },
+                    {
+                      "UID1": "forestry.speedSlowest",
+                      "UID0": "forestry.speedSlowest",
+                      "Slot": 1
+                    },
+                    {
+                      "UID1": "forestry.lifespanShorter",
+                      "UID0": "forestry.lifespanShorter",
+                      "Slot": 2
+                    },
+                    {
+                      "UID1": "forestry.fertilityNormal",
+                      "UID0": "forestry.fertilityNormal",
+                      "Slot": 3
+                    },
+                    {
+                      "UID1": "forestry.toleranceBoth1",
+                      "UID0": "forestry.toleranceBoth1",
+                      "Slot": 4
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 5
+                    },
+                    {
+                      "UID1": "forestry.toleranceNone",
+                      "UID0": "forestry.toleranceNone",
+                      "Slot": 7
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 8
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 9
+                    },
+                    {
+                      "UID1": "forestry.flowersMushrooms",
+                      "UID0": "forestry.flowersMushrooms",
+                      "Slot": 10
+                    },
+                    {
+                      "UID1": "forestry.floweringSlower",
+                      "UID0": "forestry.floweringSlower",
+                      "Slot": 11
+                    },
+                    {
+                      "UID1": "forestry.territoryAverage",
+                      "UID0": "forestry.territoryAverage",
+                      "Slot": 12
+                    },
+                    {
+                      "UID1": "forestry.effectNone",
+                      "UID0": "forestry.effectNone",
+                      "Slot": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "A new home",
+      "description": "Now that you\u0027ve destroyed the poor bees homes, you should build them a new one. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:apiculture",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:apiculture",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "Analyze them all",
+      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other stuff. It is mandatory to keep track of those properties",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BinnieCore:fieldKit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "BinnieCore:fieldKit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 63
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:paper",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Scan or not to scan",
+      "description": "In order to go into bee breeding, you need a way to see all the traits, active and inactive. You only want to breed so called \"pure\" bees; For those, both \"Active\" and \"Inactive\" traits are identical.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beealyzer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beealyzer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        3
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "Top-Tier analyser",
+      "description": "The best you can get, for all your scanning and analysing needs",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Genetics:analyst",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Genetics:analyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Genetics:misc",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "To play god",
+      "description": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge, that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:MutagenBucket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "name": "Visit Mars",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 29,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH": 20,
+                "Health": 20,
+                "IsAnalyzed": 1,
+                "Genome": {
+                  "Chromosomes": [
+                    {
+                      "UID1": "magicbees.speciesOblivion",
+                      "UID0": "magicbees.speciesOblivion",
+                      "Slot": 0
+                    },
+                    {
+                      "UID1": "forestry.speedSlowest",
+                      "UID0": "forestry.speedSlowest",
+                      "Slot": 1
+                    },
+                    {
+                      "UID1": "forestry.lifespanShorter",
+                      "UID0": "forestry.lifespanShorter",
+                      "Slot": 2
+                    },
+                    {
+                      "UID1": "forestry.fertilityMaximum",
+                      "UID0": "forestry.fertilityMaximum",
+                      "Slot": 3
+                    },
+                    {
+                      "UID1": "forestry.toleranceUp2",
+                      "UID0": "forestry.toleranceUp2",
+                      "Slot": 4
+                    },
+                    {
+                      "UID1": "forestry.boolTrue",
+                      "UID0": "forestry.boolTrue",
+                      "Slot": 5
+                    },
+                    {
+                      "UID1": "forestry.toleranceNone",
+                      "UID0": "forestry.toleranceNone",
+                      "Slot": 7
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 8
+                    },
+                    {
+                      "UID1": "forestry.boolTrue",
+                      "UID0": "forestry.boolTrue",
+                      "Slot": 9
+                    },
+                    {
+                      "UID1": "forestry.flowersEnd",
+                      "UID0": "forestry.flowersEnd",
+                      "Slot": 10
+                    },
+                    {
+                      "UID1": "forestry.floweringSlowest",
+                      "UID0": "forestry.floweringSlowest",
+                      "Slot": 11
+                    },
+                    {
+                      "UID1": "forestry.territoryAverage",
+                      "UID0": "forestry.territoryAverage",
+                      "Slot": 12
+                    },
+                    {
+                      "UID1": "forestry.effectAggressive",
+                      "UID0": "forestry.effectAggressive",
+                      "Slot": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH": 20,
+                "Health": 20,
+                "IsAnalyzed": 1,
+                "Genome": {
+                  "Chromosomes": [
+                    {
+                      "UID1": "magicbees.speciesOblivion",
+                      "UID0": "magicbees.speciesOblivion",
+                      "Slot": 0
+                    },
+                    {
+                      "UID1": "forestry.speedSlowest",
+                      "UID0": "forestry.speedSlowest",
+                      "Slot": 1
+                    },
+                    {
+                      "UID1": "forestry.lifespanShorter",
+                      "UID0": "forestry.lifespanShorter",
+                      "Slot": 2
+                    },
+                    {
+                      "UID1": "forestry.fertilityMaximum",
+                      "UID0": "forestry.fertilityMaximum",
+                      "Slot": 3
+                    },
+                    {
+                      "UID1": "forestry.toleranceUp2",
+                      "UID0": "forestry.toleranceUp2",
+                      "Slot": 4
+                    },
+                    {
+                      "UID1": "forestry.boolTrue",
+                      "UID0": "forestry.boolTrue",
+                      "Slot": 5
+                    },
+                    {
+                      "UID1": "forestry.toleranceNone",
+                      "UID0": "forestry.toleranceNone",
+                      "Slot": 7
+                    },
+                    {
+                      "UID1": "forestry.boolFalse",
+                      "UID0": "forestry.boolFalse",
+                      "Slot": 8
+                    },
+                    {
+                      "UID1": "forestry.boolTrue",
+                      "UID0": "forestry.boolTrue",
+                      "Slot": 9
+                    },
+                    {
+                      "UID1": "forestry.flowersEnd",
+                      "UID0": "forestry.flowersEnd",
+                      "Slot": 10
+                    },
+                    {
+                      "UID1": "forestry.floweringSlowest",
+                      "UID0": "forestry.floweringSlowest",
+                      "Slot": 11
+                    },
+                    {
+                      "UID1": "forestry.territoryAverage",
+                      "UID0": "forestry.territoryAverage",
+                      "Slot": 12
+                    },
+                    {
+                      "UID1": "forestry.effectAggressive",
+                      "UID0": "forestry.effectAggressive",
+                      "Slot": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Upgraded home",
+      "description": "The bee house can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. But to actually breed those together, you need something different",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:apiculture",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:apiculture",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:frameUntreated",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        2,
+        4
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Mutatron",
+      "description": "Mutations can be boring, they can be annoying, and most times, they are frustrating. With this machine, you will get a 100% purebred mutation. If the combination of princess and drone can result in multiple mutations, the outcome is random. But who cares? ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Mutatron",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Mutatron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gendustry:Labware",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "Genetic Sampler",
+      "description": "With this machine, you can extract a random trait from any bee, tree or butterfly. The bee/sapling/butterfly will be destroyed in this process. Each process requires an empty gene sample and labware",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Sampler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Sampler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "Diamondware",
+      "description": "Also known as Labware. Be prepared; In order to do serious bee-work, you need stacks of diamonds. I\u0027m not joking; Stacks!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Labware",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Labware",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        15
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Genetic Imprinter",
+      "description": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee/tree or butterfly. The gene sample (or pattern) will not be destroyed. The success rate is 100%, and one labware is consumed each time.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Imprinter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Imprinter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 12,
+      "name": "Genetic Transposer",
+      "description": "DNA samples of species, and/or traits are pretty valueable. You always should keep at least one of each effect/trait/species you get your hand on in a chest somewhere save. By using this machine, you are able to copy any DNA sample, for the cost of an empty serum vial and some labware",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Transposer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Transposer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gendustry:Labware",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 13,
+      "name": "Advanced Mutatron",
+      "description": "A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, but the mutation is a 100% success, and you can select which mutation you want to have. This machine is a must-have for high-tier bees",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:MutatronAdv",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:MutatronAdv",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gendustry:Labware",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 14,
+      "name": "Blank Gene Sample",
+      "description": "To get the various traits from a bee, you need a lot of power, labware and an empty gene sample. You don\u0027t need a lot of those, as you can just throw them in a furnace to remove remaining DNA of traits you don\u0027t need or want.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSampleBlank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSampleBlank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 15,
+      "name": "Genetic template",
+      "description": "Templates are used to combine multiple gene samples into one large batch. It can be used to apply multiple traits at once, but you can also replicate a bee from liquid DNA and protein, if you manage to fill all 13 traits in one template. These templates can also be copied, just like the small samples",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneTemplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneTemplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 16,
+      "name": "A rather cruel disposal",
+      "description": "You probably will end up with a lot of excess drones while doing bees. (Or saplings if you do trees). Instead of throwing them away, you could also turn them into... Something useful.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Extractor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Extractor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Arnie\u0027s blender",
+      "description": "They say, breakfast is the most important meal of the day. This machine turns raw meat into liquid protein, which is used to create bees from scratch",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Liquifier",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Liquifier",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 18,
+      "name": "And there shall be light",
+      "description": "Out of princesses to inject traits to? Too lazy to find hives and get more bees? Not a problem. With this nifty little device, you can use a ton of power, liquid DNA and protein to create any bee you wish to have. The only drawback is: All bees will be ignoble, which means they will die after a random amount of cycles.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:Replicator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:Replicator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 19,
+      "name": "Only the Best: Temperature 3",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "magicbees.speciesDoctoral",
+          "chromosome": 0
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.toleranceBoth3",
+                "chromosome": 4
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 20,
+      "name": "Only the Best: Humidity 3",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.toleranceBoth3",
+          "chromosome": 4
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.toleranceBoth3",
+                "chromosome": 7
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 21,
+      "name": "Only the Best: Fertility 4",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.toleranceBoth3",
+          "chromosome": 4
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.fertilityMaximum",
+                "chromosome": 3
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 22,
+      "name": "Highend species: Draconic",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 9
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "magicbees.speciesDraconic",
+                "chromosome": 0
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 23,
+      "name": "Highend species: Doctoral",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 5
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "magicbees.speciesDoctoral",
+                "chromosome": 0
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 24,
+      "name": "Only the Best: Speed Fastest",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 5
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.speedFastest",
+                "chromosome": 1
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 25,
+      "name": "Highend species: Silicon",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 9
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "magicbees.speciesSilicon",
+                "chromosome": 0
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 26,
+      "name": "Only the Best: Rain",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 5
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.boolTrue",
+                "chromosome": 8
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 27,
+      "name": "Only the Best: Day and Night",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 8
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.boolTrue",
+                "chromosome": 5
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 28,
+      "name": "Only the Best: Cave",
+      "description": "On your way to awesome bees, you have to collect only the best traits available",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gendustry:GeneSample",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "species": "rootBees",
+          "allele": "forestry.boolTrue",
+          "chromosome": 8
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:GeneSample",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "species": "rootBees",
+                "allele": "forestry.boolTrue",
+                "chromosome": 9
+              }
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "How to B(ee)",
+      "description": "An untiered questset that is meant as an ingame, quest-based tutorial and guide to bees, as they are a really helpful tool to advance forward",
+      "quests": [
+        {
+          "id": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1,
+          "x": 40,
+          "y": 0
+        },
+        {
+          "id": 2,
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": 3,
+          "x": 152,
+          "y": 0
+        },
+        {
+          "id": 4,
+          "x": 200,
+          "y": 0
+        },
+        {
+          "id": 5,
+          "x": 200,
+          "y": 32
+        },
+        {
+          "id": 6,
+          "x": 112,
+          "y": 64
+        },
+        {
+          "id": 7,
+          "x": 152,
+          "y": 32
+        },
+        {
+          "id": 8,
+          "x": 152,
+          "y": 64
+        },
+        {
+          "id": 9,
+          "x": 40,
+          "y": 96
+        },
+        {
+          "id": 11,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 12,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 13,
+          "x": 200,
+          "y": 64
+        },
+        {
+          "id": 14,
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": 10,
+          "x": 40,
+          "y": 64
+        },
+        {
+          "id": 15,
+          "x": 40,
+          "y": 32
+        },
+        {
+          "id": 16,
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": 17,
+          "x": 80,
+          "y": 96
+        },
+        {
+          "id": 18,
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": 19,
+          "x": 0,
+          "y": 168
+        },
+        {
+          "id": 20,
+          "x": 32,
+          "y": 168
+        },
+        {
+          "id": 21,
+          "x": 96,
+          "y": 168
+        },
+        {
+          "id": 22,
+          "x": 296,
+          "y": 168
+        },
+        {
+          "id": 23,
+          "x": 224,
+          "y": 168
+        },
+        {
+          "id": 24,
+          "x": 64,
+          "y": 168
+        },
+        {
+          "id": 25,
+          "x": 256,
+          "y": 168
+        },
+        {
+          "id": 26,
+          "x": 128,
+          "y": 168
+        },
+        {
+          "id": 27,
+          "x": 192,
+          "y": 168
+        },
+        {
+          "id": 28,
+          "x": 160,
+          "y": 168
+        }
+      ]
+    }
+  ]
+}

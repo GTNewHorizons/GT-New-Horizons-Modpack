@@ -1,0 +1,2265 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Looking for alternatives",
+      "description": "It is frustrating. Either you are able to contain the dust but can\u0027t activate it, or, you activate it and it caused serious damage. Maybe you need to find answers somewhere else.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconiumDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "display": {
+            "Lore": [
+              "Unfortunately, it has already lost its power"
+            ],
+            "Name": "Activated Draconium Dust"
+          }
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 1,
+      "name": "Draconic.. Like.. Dragon?",
+      "description": "Maybe you where looking for the right things in the wrong place. As this dust obviously origins from dragons, the best thing to do now is to find answers in the Dimension of Dragons: The End.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:dragon_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "name": "Dragon Dimension",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "Weird creatures",
+      "description": "These ghosts are weird beeings. But, I found this ectoplasm, which, by itself, seems to be pretty useless",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:endoplasm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:endoplasm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        3
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "Activated teleport power",
+      "description": "By a random guess of yours, you combined Ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn\u0027t have enough power to let Vis pass through. Maybe you can even further increase the gems power?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:spatial_dash_gem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:spatial_dash_gem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Arcane shards",
+      "description": "While the normal world is based on Vis and Primal energy, the end seems to be quite different. This Arcane shard is the crystallized form of this Energy, just like the primal shards you used so many of in the past. By pure randomness, you discovered that it reacts with the Metal you\u0027ve found.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:arcane_shard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:arcane_shard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:blank_gem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        28
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "Draconic Evolution",
+      "description": "After a long and tedious path, you finally managed to create a device that is able to activate draconium dust, trap it in spacetime, and make use of the vast energies it emitts while activated. The result is a perfectly stabilized core, that is completely harmless by itself, but is also able to provide incredible amounts of power on demand.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconicCore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "display": {
+            "Lore": [
+              "Emits a strong, vibrating aura of pure energy you never experienced before.",
+              "In good memory of your old friend, the technician. May he rest in peace"
+            ]
+          }
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:draconicCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "Emits a strong, vibrating aura of pure energy.",
+                    "you never experienced before."
+                  ]
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "Balanced thaumium",
+      "description": "This new metal is quite cheap, and has an awesome conductivity towards all 6 primal aspects. Regarding the capsule, i\u0027d say it is a superconductor for vis. I think I can finally assemble the final frame",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "thaumicbases:resource",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:resource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:resource",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        12
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Automated evolution",
+      "description": "The machine is working pretty well, but it\u0027s tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32654
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32656
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32636
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32757
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:archmageBloodOrb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:blockWritingTable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemGolemPlacer",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "Thaumcraft:ItemGolemCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:ItemGolemCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemGolemDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "MagicBees:miscResources",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17
+            },
+            {
+              "id": "Thaumcraft:ItemGolemUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemGolemDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "BiblioCraft:BiblioLamp",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ProjRed|Illumination:projectred.illumination.cagelamp2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "ProjRed|Illumination:projectred.illumination.cagelamp2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Activated teleport gem",
+      "description": "You are sure that you\u0027ve just discovered the solution for your containment problem. This gem happily transmitts Vis on request, while keeping the containment field intact. What a great day!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:transference_gem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:transference_gem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:transference_gem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "You did it! But...",
+      "description": "Now that you are able to contain the activated draconium dust for an infinite amount of time, you where able to massure the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconiumDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "display": {
+            "Lore": [
+              "Unfortunately, it has already lost its power"
+            ],
+            "Name": "Activated Draconium Dust"
+          }
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "A catalyst",
+      "description": "Thats it. This catalyst contains all primal energies in a quite different form, a lot weaker than any node. However, in combination with the draconium dust, it amplifies the Vis thats around it, which leads to a permanent activation. It still needs to be contained, but you don\u0027t need the direct Vis beam anymore.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BloodArsenal:amorphic_catalyst",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "BloodArsenal:amorphic_catalyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "BloodArsenal:amorphic_catalyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Bulma would be proud",
+      "description": "By combining a dimensional singularity with some glass cylinders, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust anymore, but I don\u0027t think I have to...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "MagicBees:capsule.void",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:capsule.void",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "MagicBees:capsule.void",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 12,
+      "name": "The final steps",
+      "description": "Now that I\u0027ve found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and Void metal has a bad conductivity. I need to find a magic alloy that is more \"balanced\" in terms of primal aspects",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11129
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11129
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
+      "questID": 13,
+      "name": "Endless evolution",
+      "description": "Using your machine, you can now craft infinite amounts of these cores. And since it would be gruesome to let your golem work just for one single core, you decided to only request cores in a large batch of 16. How nice of you.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconicCore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11129
+            },
+            {
+              "id": "thaumicbases:resource",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:draconicCore",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 14,
+      "name": "Beyond imagination",
+      "description": "What is this? Draconium dust? I wonder if I could use this for something...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:writable_book",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 15,
+      "name": "The power of dragons",
+      "description": "Hey my friend. I got your sample, and I have to say, I\u0027m amazed. This material has a lot of potential, but it\u0027s useless at the moment. I have an Idea how to turn this into something usefull, but I need you to help me with a few problems first",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconiumDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        14
+      ]
+    },
+    {
+      "questID": 16,
+      "name": "A hull",
+      "description": "First things first, we need a hull. I played around with your sample, and it seems that I reacts with every know material. It even attacks Iridium! It\u0027s completely harmless if it\u0027s in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than Iridium my friend",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        15
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Dense, denser, Neutronium",
+      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11129
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11129
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11129
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        18
+      ]
+    },
+    {
+      "questID": 18,
+      "name": "Not a planet",
+      "description": "This place is interesting. Maybe I should try to find new Materials here...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:fireworks",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "name": "Pluto",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 49,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        16
+      ]
+    },
+    {
+      "questID": 19,
+      "name": "Successful.. Or not?",
+      "description": "Heh, Neutronium. I didn\u0027t even knew such a thing really exists. Unfortunately, the Draconium dust was enclosed for... 5 seconds? But, it was a small success. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:tile.TFTowerTranslucent",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5,
+        "tag": {
+          "display": {
+            "Lore": [
+              "Formerly known as Neutronium"
+            ],
+            "Name": "Hull debris"
+          }
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11129
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:tile.TFTowerTranslucent",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "Formerly known as Neutronium"
+                  ],
+                  "Name": "Hull debris"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        17
+      ]
+    },
+    {
+      "questID": 20,
+      "name": "Black Plutonium",
+      "description": "This doesn\u0027t seem to be dense, but it\u0027s a Material you haven\u0027t seen before. Maybe this could be the solution?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalaxySpace:item.BlackPlutonium",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.BlackPlutonium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.BlackPlutonium",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 21,
+      "name": "We have a hull",
+      "description": "Surprisingly, this Material is able to contain the Draconium Dust. It could be the radiation. Good job my friend!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.BlackPlutonium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 22,
+      "name": "Draconium Dust core",
+      "description": "I\u0027ve created a first sample of what I shall call \"Draconium Dust core\". Not quite the result I expected to be honest, but see for yourself",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:enderporter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "display": {
+            "Lore": [
+              "The first sample. Wait.. Is that... a button?"
+            ],
+            "Name": "Draconium Dust core"
+          }
+        }
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:enderporter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "The first sample. Wait.. Is that... a button?"
+                  ],
+                  "Name": "Draconium Dust core"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        21
+      ]
+    },
+    {
+      "questID": 23,
+      "name": "We need to control it",
+      "description": "The problem is, that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        22
+      ]
+    },
+    {
+      "questID": 25,
+      "name": "The power of primals",
+      "description": "What else could control energies better than a focus of crystallized primal energy? With this little item, it should be possible to control the energies released from the dust",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemEldritchObject",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemEldritchObject",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemEldritchObject",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        23
+      ]
+    },
+    {
+      "questID": 26,
+      "name": "Unforeseen consequences",
+      "description": "You haven\u0027t heard anything in a while from the technican. You have a feeling that someting might have gone terrible wrong, so you went to his place to investigate. What you found was... nothing. A void. It seems that he tried to combine the pearl with the dust. What did he say? The dust reacts to Aura nodes? Of course it does. It amplifies the energies by a thousand times. And giving it raw primal energy, good lord, what has he done. May he rest in peace",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:mudball",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "display": {
+            "Lore": [
+              "A mix of draconium dust, a primordial pearl",
+              "and.. Is that a bone?"
+            ],
+            "Name": "Primordial dust"
+          }
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:mudball",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "A mix of draconium dust, a primordial pearl",
+                    "and.. Is that a bone?"
+                  ],
+                  "Name": "Primordial dust"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 27,
+      "name": "I\u0027m on my own now",
+      "description": "I need to continue my research. I still think that this Primordial pearl is the key to control the dust, but i\u0027m not sure how. Maybe the pearl is just too strong? I should try to use something that\u0027s similar, but less powerful. It reacts to Vis, so maybe.. I should try to make a wand focus with that pearl. That way, I could channel Vis into the dust without actually combining both",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemEldritchObject",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        26
+      ]
+    },
+    {
+      "questID": 28,
+      "name": "An interesting Material",
+      "description": "This metal has quite interesting properties. It seems, that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this Metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:endium_ingot",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:endium_ingot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:endium_ingot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        29
+      ]
+    },
+    {
+      "questID": 29,
+      "name": "Gross, what is that...",
+      "description": "It\u0027s purple, and it smells like rotten eggs. But while staring at this unpleasent fluid, you had an idea. You can\u0027t reach the dust directly, but can you actually teleport something in and out the field? Might be worth a try",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:bucket_ender_goo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:bucket_ender_goo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "HardcoreEnderExpansion:bucket_ender_goo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 30,
+      "name": "An Appropriate focus",
+      "description": "You\u0027ve tried a lot, and nothing was quite enough to activate the Dust. Until now. You finally found a focus that is able to transmit enough power to cause a heavy reaction with the dust, but not enough to cause problems. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicHorizons:focusAnimation",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicHorizons:focusAnimation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 31,
+      "name": "Activated draconium dust",
+      "description": "At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to normal dust as soon as I stop to feed it with Vis. If I only could contain it, surround it with a forcefield...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:draconiumDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "Unfortunately, it has already lost its power"
+                  ],
+                  "Name": "Activated Draconium Dust"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        30
+      ]
+    },
+    {
+      "questID": 32,
+      "name": "The strongest forcefield",
+      "description": "In order to create a forcefield, I need to build myself a containment device. I will use only the best emitters I can afford. I will take no risks here",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32684
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32676
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32686
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        31
+      ]
+    },
+    {
+      "questID": 33,
+      "name": "Not what I expected...",
+      "description": "The outcome was... Interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what\u0027s left from that..) And a couple of field generators",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7129,
+        "tag": {
+          "display": {
+            "Lore": [
+              "A pile of something that",
+              "used to be a machine hull"
+            ],
+            "Name": "MAX Machine Casing (Molten)"
+          }
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32676
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7129,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "A pile of something that",
+                    "used to be a machine hull"
+                  ],
+                  "Name": "MAX Machine Casing (Molten)"
+                }
+              }
+            },
+            {
+              "id": "minecraft:nether_star",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "A few scratches here and there,",
+                    "but still usable"
+                  ],
+                  "Name": "Nether Star (Used)"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        32
+      ]
+    },
+    {
+      "questID": 34,
+      "name": "Forcefield, second try",
+      "description": "I came to the following conclusion: Draconium Dust seems to react nicely with all kinds of magic energy, and seems to repell technology. So I need to find a way to create a forcefield with magic alone. There must be a way...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2000,
+        "tag": {
+          "aqua": 900100,
+          "ignis": 900100,
+          "terra": 900100,
+          "cap": "orichalcum",
+          "rod": "neutronium",
+          "ordo": 900100,
+          "perditio": 900100,
+          "aer": 900100
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
+      "questID": 35,
+      "name": "A magic force field",
+      "description": "While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the \"frozen in spacetime\" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicHorizons:vortexStabilizer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicHorizons:vortexStabilizer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "ThaumicHorizons:vortexStabilizer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ThaumicHorizons:transductionAmplifier",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "completed": [],
+      "preRequisites": [
+        34
+      ]
+    },
+    {
+      "questID": 36,
+      "name": "What the..?",
+      "description": "The device works! It is able to fully contain and separate the draconium dust from everything around it! Unfortunately... It also prevents the Vis from passing the barrier, which results in regular draconium dust... In a forcefield...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicHorizons:transductionAmplifier",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        35
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Legendary Tier X",
+      "description": "A legendary questline with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?",
+      "quests": [
+        {
+          "id": 14,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 15,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": 16,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": 17,
+          "x": 128,
+          "y": 0
+        },
+        {
+          "id": 19,
+          "x": 160,
+          "y": 0
+        },
+        {
+          "id": 20,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 21,
+          "x": 224,
+          "y": 0
+        },
+        {
+          "id": 22,
+          "x": 256,
+          "y": 0
+        },
+        {
+          "id": 18,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 23,
+          "x": 256,
+          "y": 32
+        },
+        {
+          "id": 25,
+          "x": 224,
+          "y": 32
+        },
+        {
+          "id": 26,
+          "x": 192,
+          "y": 32
+        },
+        {
+          "id": 27,
+          "x": 160,
+          "y": 32
+        },
+        {
+          "id": 28,
+          "x": 256,
+          "y": 96
+        },
+        {
+          "id": 30,
+          "x": 128,
+          "y": 32
+        },
+        {
+          "id": 31,
+          "x": 96,
+          "y": 32
+        },
+        {
+          "id": 32,
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": 33,
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": 34,
+          "x": 96,
+          "y": 64
+        },
+        {
+          "id": 35,
+          "x": 128,
+          "y": 64
+        },
+        {
+          "id": 36,
+          "x": 160,
+          "y": 64
+        },
+        {
+          "id": 0,
+          "x": 192,
+          "y": 64
+        },
+        {
+          "id": 1,
+          "x": 224,
+          "y": 64
+        },
+        {
+          "id": 29,
+          "x": 256,
+          "y": 64
+        },
+        {
+          "id": 2,
+          "x": 160,
+          "y": 96
+        },
+        {
+          "id": 4,
+          "x": 224,
+          "y": 96
+        },
+        {
+          "id": 3,
+          "x": 192,
+          "y": 96
+        },
+        {
+          "id": 5,
+          "x": 160,
+          "y": 152
+        },
+        {
+          "id": 7,
+          "x": 192,
+          "y": 152
+        },
+        {
+          "id": 8,
+          "x": 128,
+          "y": 96
+        },
+        {
+          "id": 9,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 10,
+          "x": 64,
+          "y": 96
+        },
+        {
+          "id": 11,
+          "x": 64,
+          "y": 128
+        },
+        {
+          "id": 12,
+          "x": 96,
+          "y": 128
+        },
+        {
+          "id": 6,
+          "x": 128,
+          "y": 128
+        },
+        {
+          "id": 13,
+          "x": 224,
+          "y": 152
+        }
+      ]
+    }
+  ]
+}

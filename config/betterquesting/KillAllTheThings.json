@@ -1,0 +1,2593 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Don\u0027t look in the eyes!",
+      "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyways",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Hydra",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        1
+      ]
+    },
+    {
+      "questID": 1,
+      "name": "I don\u0027t even...",
+      "description": "Ok so there is this Maze. And there are... Minotaurs. But what in the world is a Minoshroom? ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.meefStroganoff",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Minoshroom",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        3
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "A big ugly snake",
+      "description": "Required for your first wand, and, in general, an ugly creature",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Naga",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 3,
+      "name": "Adventure time!",
+      "description": "Stop him before he makes his wish at Prismos\u0027!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Twilight Lich",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Who you\u0027re gonna call?",
+      "description": "Phantom Busters! Or wait... Ah whatever. The drop good armor by the way.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.phantomHelm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Knight Phantom",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "The big fluffy crybaby",
+      "description": "It flies, it makes funny sounds, and .. IT\u0027S SO FLUFFY! Well, kill it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Tower Ghast",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "Let her go",
+      "description": "It seems the cold doesn\u0027t bother her. Comitted crimes: None. But.. You know... You have to progress somehow",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Snow Queen",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Yeti. Alpha, Yeti.",
+      "description": "Wanted: Alpha Yeti. Death. Committed crimes: Throwing ice at people",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 43200,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.alphaFur",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "TwilightForest.Yeti Boss",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 8,
+      "name": "Secret: A nice lamp",
+      "description": "Hey, you! I want that lamp. I have something for you in return. You don\u0027t need it anyways, do you?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.lampOfCinders",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.lampOfCinders",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.lampOfCinders",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:cleaver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool": {
+                  "RenderExtra": 9,
+                  "BaseDurability": 27,
+                  "BaseAttack": 6,
+                  "ToolEXP": 0,
+                  "Built": 1,
+                  "Moss": 3,
+                  "Effect1": 4,
+                  "HarvestLevel": 0,
+                  "ModifierTip1": "§2Moss",
+                  "RenderHead": 9,
+                  "ModDurability": 0.0,
+                  "Shoddy": 0.0,
+                  "RenderHandle": 9,
+                  "Accessory": 9,
+                  "MiningSpeed": 100,
+                  "Unbreaking": 0,
+                  "Damage": 0,
+                  "HarvestLevel2": 0,
+                  "BonusDurability": 0,
+                  "TotalDurability": 27,
+                  "MiningSpeed2": 100,
+                  "Head": 9,
+                  "Tooltip1": "§2Auto-Repair",
+                  "Attack": 6,
+                  "Handle": 9,
+                  "Broken": 0,
+                  "Extra": 9,
+                  "RenderAccessory": 9,
+                  "ToolLevel": 1,
+                  "Modifiers": 20
+                },
+                "display": {
+                  "Name": "§fPaper Cleaver"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "Time to kill (Creeper)",
+      "description": "Who hasn\u0027t experienced that yet... You think nothing evil, mine a few Diamonds, and suddenly, you wake up in your bed, all your items gone. Time to strike back!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Creeper",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 10,
+      "name": "Time to kill (Pigman)",
+      "description": "\"Zombie Pigman\". What the hell is going on with you Zombies! Maybe you should encase your Animals better at night.....",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IguanaTweaksTConstruct:skullItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "PigZombie",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 11,
+      "name": "Time to kill (Spiders)",
+      "description": "Wall climbing monsters, gross! Slay them. Quickly!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:string",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Spider",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 12,
+      "name": "Time to kill (Skeleton)",
+      "description": "Arrows are nice, if you shoot them. If one hits you, well, bad things happen. Hint: Arrows are an excellent source of Telum",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Skeleton",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 13,
+      "name": "Time to kill (Blaze)",
+      "description": "You should be carefull with this task. Fire protection is highly recommended",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IguanaTweaksTConstruct:skullItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Blaze",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 14,
+      "name": "Time to kill (Zombie)",
+      "description": "Nobody knows who they are, or where they came from. They\u0027re just annoying a night",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "Zombie",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 15,
+      "name": "Time to kill (Enderman)",
+      "description": "Uh, fancy teleport pearls. You need them. All of them. Now!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IguanaTweaksTConstruct:skullItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "SpecialMobs.SpecialEnderman",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "ForgeData": {
+              "SMData": {}
+            }
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 16,
+      "name": "Time to kill (Wither)",
+      "description": "After collection a couple of those WitherSkeleton heads, you feel like you could need some more action. So why not kill a Wither? You\u0027ll need a ton of Netherstars anyways..",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "WitherBoss",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "score": "Reputation (0)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        },
+        {
+          "score": "Reputation (1)",
+          "type": "dummy",
+          "value": 5,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        13,
+        9,
+        14,
+        10,
+        15,
+        12,
+        11
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Secret: The trade for life",
+      "description": "You have been busy my friend. I have something for you. Give me your hearts, and I will magically enhance them so you can actually use those",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:heartCanister",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        16
+      ]
+    },
+    {
+      "questID": 18,
+      "name": "Skeleton: Evolved",
+      "description": "In Order to advance to a higher tier and reach Mars, Deimos and Phobos, you need to make yourself a better rocket. There are rumors, that an evolved Skeleton has Schematics of such a device. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedSkeletonBoss",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": -2.0,
+                "Name": "tc.mobmod"
+              },
+              {
+                "Base": 450.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.4000000059604645,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              },
+              {
+                "Base": 2.0,
+                "Name": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "roomCoordsY": 0.0,
+            "roomCoordsZ": 0.0,
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedSkeletonBoss",
+            "HealF": 450.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -7451466073367462686,
+            "Health": 450,
+            "roomCoordsX": 0.0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "roomSizeZ": 0.0,
+            "roomSizeY": 0.0,
+            "roomSizeX": 0.0,
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31672829593511,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 19,
+      "name": "Creeper: Evolved",
+      "description": "Not that regular creepers are nasty enough, no. There is an Evolved Creeper Boss! He is your key (Well he HAS a key..) to reach the next tier of planets (Asteroid Belt, Ceres, Io, Europa, Ganymede, Callisto)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:skull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftMars.CreeperBoss",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": -2.0,
+                "Name": "tc.mobmod"
+              },
+              {
+                "Base": 600.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.05000000074505806,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              },
+              {
+                "Base": 2.0,
+                "Name": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "roomCoordsY": 0.0,
+            "roomCoordsZ": 0.0,
+            "PersistenceRequired": 0,
+            "id": "GalacticraftMars.CreeperBoss",
+            "HealF": 600.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -3749161857075506145,
+            "Health": 600,
+            "roomCoordsX": 0.0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "roomSizeZ": 0.0,
+            "roomSizeY": 0.0,
+            "roomSizeX": 0.0,
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31694812711759,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        18
+      ]
+    },
+    {
+      "questID": 20,
+      "name": "Blaze: Evolved",
+      "description": "In order to proceed to Tier 4 Planets, the BlazeBoss needs to be killed. Find him in one of the Dungeons on IO",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IguanaTweaksTConstruct:skullItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedBossBlaze",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": -2.0,
+                "Name": "tc.mobmod"
+              },
+              {
+                "Base": 600.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.05000000074505806,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              },
+              {
+                "Base": 2.0,
+                "Name": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "roomCoordsY": 0.0,
+            "roomCoordsZ": 0.0,
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedBossBlaze",
+            "HealF": 600.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": 3139249885953614191,
+            "Health": 600,
+            "roomCoordsX": 0.0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "roomSizeZ": 0.0,
+            "roomSizeY": 0.0,
+            "roomSizeX": 0.0,
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31574278611849,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 21,
+      "name": "Ghast: Evolved",
+      "description": "Fluffy, fluffier, Ghasts! And also big crybabies. This one hides in a dungeon on Venus, and holds the Key for Tier 5 Planets",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:misc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 10
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedBossGhast",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 600.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.05000000074505806,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "roomCoordsY": 0.0,
+            "roomCoordsZ": 0.0,
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedBossGhast",
+            "HealF": 600.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -1940216915570942457,
+            "Health": 600,
+            "roomCoordsX": 0.0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "roomSizeZ": 0.0,
+            "roomSizeY": 0.0,
+            "roomSizeX": 0.0,
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31541628372871,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 22,
+      "name": "Brain: Ev.. Wait, what?",
+      "description": "Seriously, a Brain? Anyways, it\u0027s your key to Tier 6 Planets, and he lurks around on Enceladus",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Automagy:crystalBrain",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedBossCrystallBrain",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 600.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.05000000074505806,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "roomCoordsY": 0.0,
+            "roomCoordsZ": 0.0,
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedBossCrystallBrain",
+            "HealF": 600.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -8695602247100464947,
+            "Health": 600,
+            "roomCoordsX": 0.0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "roomSizeZ": 0.0,
+            "roomSizeY": 0.0,
+            "roomSizeX": 0.0,
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31515761597583,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        21
+      ]
+    },
+    {
+      "questID": 23,
+      "name": "Slime: Evolved",
+      "description": "Totally looks like a Thaumic Slime to me. Don\u0027t you think so? Find this dude on Proteus",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:slime.gel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedBossSlime",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Size": 0,
+            "Attributes": [
+              {
+                "Base": 600.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.05000000074505806,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedBossSlime",
+            "HealF": 600.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": 7447897214129003200,
+            "Health": 600,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31487744687521,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        22
+      ]
+    },
+    {
+      "questID": 24,
+      "name": "Crab: Evolved",
+      "description": "The last frontier: A.. crab.. What did you expect, a super Boss? Heh. No.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spider_eye",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "target": "GalacticraftCore.EvolvedBossCrab",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": -2.0,
+                "Name": "tc.mobmod"
+              },
+              {
+                "Base": 300.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 4.0,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              },
+              {
+                "Base": 3.0,
+                "Name": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "GalacticraftCore.EvolvedBossCrab",
+            "HealF": 300.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -7408821166148249931,
+            "Health": 300,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 31452827876544,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "userProgress": [],
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        23
+      ]
+    },
+    {
+      "questID": 25,
+      "name": "Technology: Evolved",
+      "description": "You beat the game, literally. There is nothing left to do. But one thing might be interesting for you; You know, just for the phuns. Select one of the totally OP items here",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:upgradeCore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 10
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:BlockJarNodeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "nodetype": 0,
+                "display": {
+                  "Lore": [
+                    "This! Is OP"
+                  ]
+                },
+                "Aspects": [
+                  {
+                    "amount": 1000,
+                    "key": "instrumentum"
+                  }
+                ],
+                "nodemod": 0,
+                "nodeid": "0:-312:64:54"
+              }
+            },
+            {
+              "id": "TConstruct:creativeModifier",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2000,
+              "tag": {
+                "aqua": 900100,
+                "terra": 900100,
+                "ignis": 900100,
+                "cap": "orichalcum",
+                "rod": "neutronium",
+                "ordo": 900100,
+                "perditio": 900100,
+                "aer": 900100
+              }
+            },
+            {
+              "id": "ProjRed|Fabrication:projectred.fabrication.icchip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        24,
+        8,
+        16
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Kill all the things",
+      "description": "This world is full with nasty things. Time to kill some things, and improve your reputation",
+      "quests": [
+        {
+          "id": 0,
+          "x": 120,
+          "y": 0
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 3,
+          "x": 40,
+          "y": 0
+        },
+        {
+          "id": 1,
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": 4,
+          "x": 160,
+          "y": 0
+        },
+        {
+          "id": 5,
+          "x": 200,
+          "y": 0
+        },
+        {
+          "id": 6,
+          "x": 280,
+          "y": 0
+        },
+        {
+          "id": 7,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 8,
+          "x": 320,
+          "y": 0
+        },
+        {
+          "id": 9,
+          "x": 296,
+          "y": 168
+        },
+        {
+          "id": 10,
+          "x": 280,
+          "y": 120
+        },
+        {
+          "id": 11,
+          "x": 360,
+          "y": 120
+        },
+        {
+          "id": 12,
+          "x": 344,
+          "y": 96
+        },
+        {
+          "id": 13,
+          "x": 344,
+          "y": 168
+        },
+        {
+          "id": 14,
+          "x": 280,
+          "y": 144
+        },
+        {
+          "id": 15,
+          "x": 296,
+          "y": 96
+        },
+        {
+          "id": 16,
+          "x": 320,
+          "y": 144
+        },
+        {
+          "id": 17,
+          "x": 360,
+          "y": 144
+        },
+        {
+          "id": 18,
+          "x": 0,
+          "y": 39
+        },
+        {
+          "id": 19,
+          "x": 40,
+          "y": 40
+        },
+        {
+          "id": 20,
+          "x": 80,
+          "y": 40
+        },
+        {
+          "id": 21,
+          "x": 120,
+          "y": 40
+        },
+        {
+          "id": 22,
+          "x": 160,
+          "y": 40
+        },
+        {
+          "id": 23,
+          "x": 200,
+          "y": 40
+        },
+        {
+          "id": 24,
+          "x": 240,
+          "y": 40
+        },
+        {
+          "id": 25,
+          "x": 320,
+          "y": 40
+        }
+      ]
+    }
+  ]
+}
