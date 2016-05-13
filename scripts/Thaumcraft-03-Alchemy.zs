@@ -359,7 +359,7 @@ mods.thaumcraft.Research.setComplexity("SANESOAP", 3);
 
 // --- Arcane Spa
 mods.thaumcraft.Research.clearPages("ARCANESPA");
-mods.thaumcraft.Research.addPage("ARCANESPA", "tc.research_page.JARVOID.1");
+mods.thaumcraft.Research.addPage("ARCANESPA", "tc.research_page.ARCANESPA.1");
 mods.thaumcraft.Infusion.addRecipe("ARCANESPA", <Thaumcraft:blockJar>,
 [<dreamcraft:item.StainlessSteelBars>, <minecraft:quartz_block>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemBathSalts>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <minecraft:quartz_block>], 
 "ordo 24, praecantatio 16, sano 16, aqua 32, machina 8", <Thaumcraft:blockStoneDevice:12>, 4);
