@@ -140,7 +140,6 @@ mods.thaumcraft.Research.addArcanePage("CAP_copper", <Thaumcraft:WandCasting:2>.
 
 mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.2");
 game.setLocalization("en_US", "tc.research_page.CAP_copper.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.CAP_copper.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Gold Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_gold");
@@ -174,7 +173,6 @@ mods.thaumcraft.Research.addArcanePage("CAP_gold", <Thaumcraft:WandCasting:3>.wi
 // -
 mods.thaumcraft.Research.addPage("CAP_gold", "tc.research_page.CAP_gold.2");
 game.setLocalization("en_US", "tc.research_page.CAP_gold.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.CAP_gold.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Silver Inert Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_silver");
@@ -218,7 +216,6 @@ mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCasting:4>.
 // -
 mods.thaumcraft.Research.addPage("CAP_silver", "tc.research_page.CAP_silver.2");
 game.setLocalization("en_US", "tc.research_page.CAP_silver.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.CAP_silver.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Thaumium Inert Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_thaumium");
@@ -269,7 +266,6 @@ mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCasting:6
 // -
 mods.thaumcraft.Research.addPage("CAP_thaumium", "tc.research_page.CAP_thaumium.2");
 game.setLocalization("en_US", "tc.research_page.CAP_thaumium.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.CAP_thaumium.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Iron Capped Wooden Scepter
 mods.thaumcraft.Research.clearPages("SCEPTRE");
@@ -361,7 +357,6 @@ mods.thaumcraft.Research.addArcanePage("SCEPTRE", <Thaumcraft:WandCasting:9>.wit
 // -
 mods.thaumcraft.Research.addPage("SCEPTRE", "tc.research_page.SCEPTRE.2");
 game.setLocalization("en_US", "tc.research_page.SCEPTRE.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.SCEPTRE.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Greatwood Rod
 mods.thaumcraft.Research.clearPages("ROD_greatwood");
@@ -413,7 +408,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_greatwood", <Thaumcraft:WandCasting:
 // -
 mods.thaumcraft.Research.addPage("ROD_greatwood", "tc.research_page.ROD_greatwood.2");
 game.setLocalization("en_US", "tc.research_page.ROD_greatwood.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Stainless Steel Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_greatwood.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Stainless Steel Screws it will show more recipes.");
 
 // --- Silver Bossed Greatwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:12>.withTag({cap: "silver", rod: "greatwood"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
@@ -610,7 +604,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_reed", <Thaumcraft:WandCasting:24>.w
 // -
 mods.thaumcraft.Research.addPage("ROD_reed", "tc.research_page.ROD_reed.2");
 game.setLocalization("en_US", "tc.research_page.ROD_reed.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_reed.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Thaumium Bossed Reed Wand
 mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "reed"}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
@@ -812,7 +805,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_blaze", <Thaumcraft:WandCasting:24>.
 // -
 mods.thaumcraft.Research.addPage("ROD_blaze", "tc.research_page.ROD_blaze.2");
 game.setLocalization("en_US", "tc.research_page.ROD_blaze.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_blaze.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Iron Capped Blaze Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "blaze", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
@@ -986,7 +978,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_obsidian", <Thaumcraft:WandCasting:3
 // -
 mods.thaumcraft.Research.addPage("ROD_obsidian", "tc.research_page.ROD_obsidian.2");
 game.setLocalization("en_US", "tc.research_page.ROD_obsidian.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_obsidian.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Iron Capped Obsidian Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "obsidian", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
@@ -1160,7 +1151,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_ice", <Thaumcraft:WandCasting:36>.wi
 // -
 mods.thaumcraft.Research.addPage("ROD_ice", "tc.research_page.ROD_ice.2");
 game.setLocalization("en_US", "tc.research_page.ROD_ice.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_ice.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Iron Capped Icy Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "ice", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
@@ -1334,7 +1324,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_quartz", <Thaumcraft:WandCasting:36>
 // -
 mods.thaumcraft.Research.addPage("ROD_quartz", "tc.research_page.ROD_quartz.2");
 game.setLocalization("en_US", "tc.research_page.ROD_quartz.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_quartz.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Iron Capped Quartz Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "quartz", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [
@@ -1509,7 +1498,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_bone", <Thaumcraft:WandCasting:36>.w
 // -
 mods.thaumcraft.Research.addPage("ROD_bone", "tc.research_page.ROD_bone.2");
 game.setLocalization("en_US", "tc.research_page.ROD_bone.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_bone.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Titanium Screws it will show more recipes.");
 
 // --- Iron Capped Bone Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:9>.withTag({cap: "iron", rod: "bone", sceptre: 1}), "aer 75, terra 75, ignis 75, aqua 75, ordo 75, perditio 75", [

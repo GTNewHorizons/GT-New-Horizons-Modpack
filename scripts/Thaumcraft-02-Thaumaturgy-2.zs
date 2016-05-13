@@ -131,7 +131,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_silverwood", <Thaumcraft:WandCasting
 // -
 mods.thaumcraft.Research.addPage("ROD_silverwood", "tc.research_page.ROD_silverwood.2");
 game.setLocalization("en_US", "tc.research_page.ROD_silverwood.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Tungsten Steel Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_silverwood.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Tungsten Steel Screws it will show more recipes.");
 
 // --- Iron Capped Silverwood Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "iron", rod: "silverwood", sceptre: 1}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
@@ -308,7 +307,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_greatwood_staff", <Thaumcraft:WandCa
 mods.thaumcraft.Research.addPage("ROD_greatwood_staff", "tc.research_page.ROD_greatwood_staff.2");
 mods.thaumcraft.Research.addPage("ROD_greatwood_staff", "tc.research_page.ROD_greatwood_staff.3");
 game.setLocalization("en_US", "tc.research_page.ROD_greatwood_staff.3", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Tungsten Steel Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_greatwood_staff.3", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Tungsten Steel Screws it will show more recipes.");
 
 // --- Iron Capped Gretwood Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:12>.withTag({cap: "iron", rod: "greatwood_staff", sceptre: 1}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
@@ -484,7 +482,6 @@ mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:84>.w
 // -
 mods.thaumcraft.Research.addPage("ROD_reed_staff", "tc.research_page.ROD_reed_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_reed_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_reed_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Reed Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "reed_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -660,7 +657,6 @@ mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:84>.
 // -
 mods.thaumcraft.Research.addPage("ROD_blaze_staff", "tc.research_page.ROD_blaze_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_blaze_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_blaze_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Blaze Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "blaze_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -835,7 +831,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_obsidian_staff", <Thaumcraft:WandCas
 // -
 mods.thaumcraft.Research.addPage("ROD_obsidian_staff", "tc.research_page.ROD_obsidian_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_obsidian_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_obsidian_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Obsidian Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "obsidian_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -1010,7 +1005,6 @@ mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandCasting:84>.wi
 // -
 mods.thaumcraft.Research.addPage("ROD_ice_staff", "tc.research_page.ROD_ice_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_ice_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_ice_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Icy Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "ice_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -1185,7 +1179,6 @@ mods.thaumcraft.Arcane.addShaped("ROD_quartz_staff", <Thaumcraft:WandCasting:84>
 // -
 mods.thaumcraft.Research.addPage("ROD_quartz_staff", "tc.research_page.ROD_quartz_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_quartz_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_quartz_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Quartz Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "quartz_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -1361,7 +1354,6 @@ mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandCasting:84>.w
 // -
 mods.thaumcraft.Research.addPage("ROD_bone_staff", "tc.research_page.ROD_bone_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_bone_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_bone_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Chrome Screws it will show more recipes.");
 
 // --- Iron Capped Bone Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:21>.withTag({cap: "iron", rod: "bone_staff", sceptre: 1}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
@@ -1536,7 +1528,6 @@ mods.thaumcraft.Research.addArcanePage("ROD_silverwood_staff", <Thaumcraft:WandC
 // -
 mods.thaumcraft.Research.addPage("ROD_silverwood_staff", "tc.research_page.ROD_silverwood_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_silverwood_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Iridium Screws it will show more recipes.");
-game.setLocalization("zh_CN", "tc.research_page.ROD_silverwood_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Iridium Screws it will show more recipes.");
 
 // --- Iron Capped Silverwood Staff Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:26>.withTag({cap: "iron", rod: "silverwood_staff", sceptre: 1}), "aer 170, terra 170, ignis 170, aqua 170, ordo 170, perditio 170", [
