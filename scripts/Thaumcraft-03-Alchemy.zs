@@ -164,7 +164,6 @@ mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
 // -
 mods.thaumcraft.Research.addPage("ALUMENTUM", "tc.research_page.ALUMENTUM.2");
 game.setLocalization("en_US", "tc.research_page.ALUMENTUM.2", "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker");
-game.setLocalization("zh_CN", "tc.research_page.ALUMENTUM.2", "Charcoal dust and Lignite dust works well too. They are not shown in the recipe because of Mod Tweaker");
 
 // --- Alchemical Duplication
 mods.thaumcraft.Research.setAspects("ALCHEMICALDUPLICATION", "fabrico 9, praecantatio 6, lucrum 9, permutatio 3");

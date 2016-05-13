@@ -66,14 +66,11 @@ mods.thaumcraft.Research.orphanResearch("warptheory.cleanser");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanser");
 mods.thaumcraft.Research.addResearch("PURETEAR", "WT_Category", "alienis 12, praecantatio 12, permutatio 9, sano 6, terra 3", -4, -1, 3, <WarpTheory:item.warptheory.cleanser>);
 game.setLocalization("en_US", "tc.research_name.PURETEAR", "Pure Tear");
-game.setLocalization("zh_CN", "tc.research_name.PURETEAR", "Pure Tear");
 game.setLocalization("en_US", "tc.research_text.PURETEAR", "Magical Medicine");
-game.setLocalization("zh_CN", "tc.research_text.PURETEAR", "Magical Medicine");
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPage("PURETEAR", "Minecraft.research_page.PURETEAR");
 game.setLocalization("en_US", "Minecraft.research_page.PURETEAR", "By combining the curative properties of Ghast Tears, the magical energy of Salis Mundus, and the stabilizing properties of crystals, you've discovered a means of purging negative magical energy from the body.<BR>The process is not without drawbacks, though, as all that energy has to go somewhere.");
-game.setLocalization("zh_CN", "Minecraft.research_page.PURETEAR", "By combining the curative properties of Ghast Tears, the magical energy of Salis Mundus, and the stabilizing properties of crystals, you've discovered a means of purging negative magical energy from the body.<BR>The process is not without drawbacks, though, as all that energy has to go somewhere.");
 mods.thaumcraft.Infusion.addRecipe("PURETEAR", <minecraft:nether_star>, 
 [<Thaumcraft:ItemResource:14>, <appliedenergistics2:item.ItemMultiMaterial:10>, <gregtech:gt.metaitem.01:24500>, <appliedenergistics2:item.ItemMultiMaterial:11>, <minecraft:ghast_tear>, <Thaumcraft:ItemResource:14>, <minecraft:ghast_tear>, <appliedenergistics2:item.ItemMultiMaterial:11>, <gregtech:gt.metaitem.01:24500>, <appliedenergistics2:item.ItemMultiMaterial:10>], 
 "alienis 32, permutatio 32, praecantatio 16, sano 16", <WarpTheory:item.warptheory.cleanser>, 6);
