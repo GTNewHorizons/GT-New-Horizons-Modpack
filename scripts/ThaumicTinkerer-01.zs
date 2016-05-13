@@ -173,12 +173,12 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:revealingHelm>);
 mods.thaumcraft.Research.orphanResearch("SHARE_TOME");
 mods.thaumcraft.Research.removeResearch("SHARE_TOME");
 mods.thaumcraft.Research.addResearch("SHARETOME", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 0, -1, 3, <ThaumicTinkerer:shareBook>);
-game.setLocalization("en_US", "tc.research_name.SHARETOME", "Tome of Knowledge Sharing");
-game.setLocalization("en_US", "tc.research_text.SHARETOME", "[TT] A Goldfish's Diary");
+game.setLocalization("tc.research_name.SHARETOME", "Tome of Knowledge Sharing");
+game.setLocalization("tc.research_text.SHARETOME", "[TT] A Goldfish's Diary");
 mods.thaumcraft.Research.addPrereq("SHARETOME", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("SHARETOME", false);
 mods.thaumcraft.Research.addPage("SHARETOME", "tt.research.page.SHARETOME");
-game.setLocalization("en_US", "tt.research.page.SHARETOME", "If one day you happen to want to share your knowledge with the rest of the world, this is the item for you.<BR><BR>By simply right clicking on this tome and handing it to someone else, they'll get all the research you've discovered so far.<BR><BR>(Note: Case there being no recipe on the right of this, the recipe is disabled and the item is creative only)");
+game.setLocalization("tt.research.page.SHARETOME", "If one day you happen to want to share your knowledge with the rest of the world, this is the item for you.<BR><BR>By simply right clicking on this tome and handing it to someone else, they'll get all the research you've discovered so far.<BR><BR>(Note: Case there being no recipe on the right of this, the recipe is disabled and the item is creative only)");
 mods.thaumcraft.Infusion.addRecipe("SHARETOME", <minecraft:skull:3>, 
 [<minecraft:nether_star>, <minecraft:paper>, <Thaumcraft:ItemInkwell>, <Thaumcraft:ItemThaumonomicon>, <minecraft:paper>],
 "cognitio 32, praecantatio 16, permutatio 32, pannus 16", <ThaumicTinkerer:shareBook>, 6);
@@ -191,10 +191,10 @@ mods.thaumcraft.Research.removeResearch("DARK_QUARTZ");
 mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
 mods.thaumcraft.Research.setRound("DARKQUARTZ", true);
 mods.thaumcraft.Research.setAutoUnlock("DARKQUARTZ", true);
-game.setLocalization("en_US", "tc.research_name.DARKQUARTZ", "Smokey Quartz");
-game.setLocalization("en_US", "tc.research_text.DARKQUARTZ", "[TT] Shadow of the Day");
+game.setLocalization("tc.research_name.DARKQUARTZ", "Smokey Quartz");
+game.setLocalization("tc.research_text.DARKQUARTZ", "[TT] Shadow of the Day");
 mods.thaumcraft.Research.addPage("DARKQUARTZ", "tt.research.page.DARKQUARTZ");
-game.setLocalization("en_US", "tt.research.page.DARKQUARTZ", "Smokey Quartz is pretty much Quartz, but negative. All regular blocks that can be made with quartz, can also be made with smokey quartz, and they look black.<BR><BR>Smokey Quartz itself can be made with a piece of coal or charcoal for tinting, and a few pieces of regular nether quartz.");
+game.setLocalization("tt.research.page.DARKQUARTZ", "Smokey Quartz is pretty much Quartz, but negative. All regular blocks that can be made with quartz, can also be made with smokey quartz, and they look black.<BR><BR>Smokey Quartz itself can be made with a piece of coal or charcoal for tinting, and a few pieces of regular nether quartz.");
 mods.thaumcraft.Arcane.addShaped("DARKQUARTZ", <ThaumicTinkerer:darkQuartzItem>, "perditio 8", [
 [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
 [<ore:gemQuartz>, <ore:coal>, <ore:gemQuartz>],
@@ -282,10 +282,10 @@ mods.thaumcraft.Research.addPrereq("FIREIGNIS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREIGNIS", true);
-game.setLocalization("en_US", "tc.research_name.FIREIGNIS", "Elemental Fire: Ignis");
-game.setLocalization("en_US", "tc.research_text.FIREIGNIS", "[TT] Fire infused with.....more fire!");
+game.setLocalization("tc.research_name.FIREIGNIS", "Elemental Fire: Ignis");
+game.setLocalization("tc.research_text.FIREIGNIS", "[TT] Fire infused with.....more fire!");
 mods.thaumcraft.Research.addPage("FIREIGNIS", "tt.research.page.FIREIGNIS");
-game.setLocalization("en_US", "tt.research.page.FIREIGNIS", "You have managed to enhance the destructive powers of hyperenergetic nitor. By letting this fire loose on the surface of the world, you can transmute blocks into their equivalent forms in the nether.");
+game.setLocalization("tt.research.page.FIREIGNIS", "You have managed to enhance the destructive powers of hyperenergetic nitor. By letting this fire loose on the surface of the world, you can transmute blocks into their equivalent forms in the nether.");
 mods.thaumcraft.Infusion.addRecipe("FIREIGNIS", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ignis"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:1>, <minecraft:redstone>, <Thaumcraft:blockCrystal:1>],
 "ignis 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireFire>, 16);
@@ -300,10 +300,10 @@ mods.thaumcraft.Research.addPrereq("FIREAQUA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAQUA", true);
-game.setLocalization("en_US", "tc.research_name.FIREAQUA", "Elemental Fire: Aqua");
-game.setLocalization("en_US", "tc.research_text.FIREAQUA", "[TT] Water plus Fire. This should end well.");
+game.setLocalization("tc.research_name.FIREAQUA", "Elemental Fire: Aqua");
+game.setLocalization("tc.research_text.FIREAQUA", "[TT] Water plus Fire. This should end well.");
 mods.thaumcraft.Research.addPage("FIREAQUA", "tt.research.page.FIREAQUA");
-game.setLocalization("en_US", "tt.research.page.FIREAQUA", "You have managed to totally invert the destructive power of fire. This fire, when let loose in the nether, will turn it into your own personal winter wonderland.");
+game.setLocalization("tt.research.page.FIREAQUA", "You have managed to totally invert the destructive power of fire. This fire, when let loose in the nether, will turn it into your own personal winter wonderland.");
 mods.thaumcraft.Infusion.addRecipe("FIREAQUA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aqua"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:2>, <minecraft:redstone>, <Thaumcraft:blockCrystal:2>],
 "aqua 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireWater>, 16);
@@ -318,10 +318,10 @@ mods.thaumcraft.Research.addPrereq("FIRETERRA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIRETERRA", true);
-game.setLocalization("en_US", "tc.research_name.FIRETERRA", "Elemental Fire: Terra");
-game.setLocalization("en_US", "tc.research_text.FIRETERRA", "[TT] Enough dirt to ... do whatever one does with dirt");
+game.setLocalization("tc.research_name.FIRETERRA", "Elemental Fire: Terra");
+game.setLocalization("tc.research_text.FIRETERRA", "[TT] Enough dirt to ... do whatever one does with dirt");
 mods.thaumcraft.Research.addPage("FIRETERRA", "tt.research.page.FIRETERRA");
-game.setLocalization("en_US", "tt.research.page.FIRETERRA", "This fire will turn a wide variety of blocks into dirt. Just about the least useful thing ever. Seriously. This is just about the least useful item ever.");
+game.setLocalization("tt.research.page.FIRETERRA", "This fire will turn a wide variety of blocks into dirt. Just about the least useful thing ever. Seriously. This is just about the least useful item ever.");
 mods.thaumcraft.Infusion.addRecipe("FIRETERRA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "terra"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:3>, <minecraft:redstone>, <Thaumcraft:blockCrystal:3>],
 "terra 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireEarth>, 16);
@@ -336,10 +336,10 @@ mods.thaumcraft.Research.addPrereq("FIREORDO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREORDO", true);
-game.setLocalization("en_US", "tc.research_name.FIREORDO", "Elemental Fire: Ordo");
-game.setLocalization("en_US", "tc.research_text.FIREORDO", "[TT] More ingots for your ore");
+game.setLocalization("tc.research_name.FIREORDO", "Elemental Fire: Ordo");
+game.setLocalization("tc.research_text.FIREORDO", "[TT] More ingots for your ore");
 mods.thaumcraft.Research.addPage("FIREORDO", "tt.research.page.FIREORDO");
-game.setLocalization("en_US", "tt.research.page.FIREORDO", "This fire, when let loose on a mountain of ores, will help you to process the ores into useful blocks of metal. While most of the ores will be consumed in the volatile fire, you will get thrice the amount of metal of mundane means of smelting.");
+game.setLocalization("tt.research.page.FIREORDO", "This fire, when let loose on a mountain of ores, will help you to process the ores into useful blocks of metal. While most of the ores will be consumed in the volatile fire, you will get thrice the amount of metal of mundane means of smelting.");
 mods.thaumcraft.Infusion.addRecipe("FIREORDO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ordo"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:4>, <minecraft:redstone>, <Thaumcraft:blockCrystal:4>],
 "ordo 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireOrder>, 16);
@@ -354,10 +354,10 @@ mods.thaumcraft.Research.addPrereq("FIREAER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAER", true);
-game.setLocalization("en_US", "tc.research_name.FIREAER", "Elemental Fire: Aer");
-game.setLocalization("en_US", "tc.research_text.FIREAER", "[TT] Suspension of disbelief is a useful skill");
+game.setLocalization("tc.research_name.FIREAER", "Elemental Fire: Aer");
+game.setLocalization("tc.research_text.FIREAER", "[TT] Suspension of disbelief is a useful skill");
 mods.thaumcraft.Research.addPage("FIREAER", "tt.research.page.FIREAER");
-game.setLocalization("en_US", "tt.research.page.FIREAER", "Everyone likes desserts, right? Well, this fire, when let loose on the world, turns everything into a desert. That is almost like a dessert. Good enough?");
+game.setLocalization("tt.research.page.FIREAER", "Everyone likes desserts, right? Well, this fire, when let loose on the world, turns everything into a desert. That is almost like a dessert. Good enough?");
 mods.thaumcraft.Infusion.addRecipe("FIREAER", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aer"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
 "aer 10, lux 10, motus 10, praecantatio 10", <ThaumicTinkerer:fireAir>, 16);
@@ -372,10 +372,10 @@ mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREPERDITIO", true);
-game.setLocalization("en_US", "tc.research_name.FIREPERDITIO", "Elemental Fire: Perditio");
-game.setLocalization("en_US", "tc.research_text.FIREPERDITIO", "[TT] Cleanup time");
+game.setLocalization("tc.research_name.FIREPERDITIO", "Elemental Fire: Perditio");
+game.setLocalization("tc.research_text.FIREPERDITIO", "[TT] Cleanup time");
 mods.thaumcraft.Research.addPage("FIREPERDITIO", "tt.research.page.FIREPERDITIO");
-game.setLocalization("en_US", "tt.research.page.FIREPERDITIO", "This fire acts like an antidote of sorts. If your elemental fires have gotten out of your control, you can set loose this specially designed flame. It will rip the magic out of elemental fire, returning it to a mundane form.");
+game.setLocalization("tt.research.page.FIREPERDITIO", "This fire acts like an antidote of sorts. If your elemental fires have gotten out of your control, you can set loose this specially designed flame. It will rip the magic out of elemental fire, returning it to a mundane form.");
 mods.thaumcraft.Infusion.addRecipe("FIREPERDITIO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "perditio"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
 "perditio 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireChaos>, 16);
@@ -394,12 +394,12 @@ mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREAER", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREORDO", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREPERDITIO", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDSEED", true);
-game.setLocalization("en_US", "tc.research_name.INFUSEDSEED", "Infused Crops");
-game.setLocalization("en_US", "tc.research_text.INFUSEDSEED", "[TT] Who said bees? No one said bees.");
+game.setLocalization("tc.research_name.INFUSEDSEED", "Infused Crops");
+game.setLocalization("tc.research_text.INFUSEDSEED", "[TT] Who said bees? No one said bees.");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "tt.research.page.INFUSEDSEED.1");
-game.setLocalization("en_US", "tt.research.page.INFUSEDSEED.1", "You are able to create a new form of plant by infusing mundane seeds with magical shards. These seeds can create a wide variety of items. Each aspect can create a different type of item. You can only craft primal seeds, all others must be bred. When a fully-grown crop is harvested, it will deposit magical residue into the soil. If a crop is grown in soil containing high magical residue of an appropriate aspect, the two aspects will combine to form a seed of a different aspect.");
+game.setLocalization("tt.research.page.INFUSEDSEED.1", "You are able to create a new form of plant by infusing mundane seeds with magical shards. These seeds can create a wide variety of items. Each aspect can create a different type of item. You can only craft primal seeds, all others must be bred. When a fully-grown crop is harvested, it will deposit magical residue into the soil. If a crop is grown in soil containing high magical residue of an appropriate aspect, the two aspects will combine to form a seed of a different aspect.");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "tt.research.page.INFUSEDSEED.2");
-game.setLocalization("en_US", "tt.research.page.INFUSEDSEED.2", "Aspect Tendencies can also be bred into crops to increase certain traits. Terra will increase the magical residue left on the soil. Ignis will aid in the creation of new aspects. Ordo will increase the bounty from a plant. Perditio will increase the seeds dropped. Aer will allow a plant to receive other types of tendencies easier. A single plant can only have a maximum of 50 aspect tendencies. There are two ways to give crops primal tendencies. Crops will occasionally absorb primal tendencies if planted next to plants of the appropriate aspect. However, plants can't receive more than 5 points in a single aspect in this manner.");
+game.setLocalization("tt.research.page.INFUSEDSEED.2", "Aspect Tendencies can also be bred into crops to increase certain traits. Terra will increase the magical residue left on the soil. Ignis will aid in the creation of new aspects. Ordo will increase the bounty from a plant. Perditio will increase the seeds dropped. Aer will allow a plant to receive other types of tendencies easier. A single plant can only have a maximum of 50 aspect tendencies. There are two ways to give crops primal tendencies. Crops will occasionally absorb primal tendencies if planted next to plants of the appropriate aspect. However, plants can't receive more than 5 points in a single aspect in this manner.");
 mods.thaumcraft.Infusion.addRecipe("INFUSEDSEED", <minecraft:wheat_seeds>,
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal>],
 "messis 32, meto 32, aer 16", <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "aer"}]}, aspectTendencies: {Aspects: []}}), 4);
@@ -426,7 +426,7 @@ mods.thaumcraft.Infusion.addRecipe("INFUSEDSEED", <minecraft:wheat_seeds>,
 "messis 32, meto 32, perditio 16", <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "perditio"}]}, aspectTendencies: {Aspects: []}}), 4);
 // -
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "tt.research.page.INFUSEDSEED.3");
-game.setLocalization("en_US", "tt.research.page.INFUSEDSEED.3", "The other recipes are not shown but you can infuse Seeds with all the other Primal Aspect Crystals.<BR>Seeds infuse Ignis with Ignis Cluster and 16 ignis Aspect instead of Air, Seeds infuse Aqua with Aqua Crystals and 16 aqua Aspect instead of Air...");
+game.setLocalization("tt.research.page.INFUSEDSEED.3", "The other recipes are not shown but you can infuse Seeds with all the other Primal Aspect Crystals.<BR>Seeds infuse Ignis with Ignis Cluster and 16 ignis Aspect instead of Air, Seeds infuse Aqua with Aqua Crystals and 16 aqua Aspect instead of Air...");
 mods.thaumcraft.Warp.addToResearch("INFUSEDSEED", 2);
 
 // --- Potion of Air
@@ -434,10 +434,10 @@ mods.thaumcraft.Research.addResearch("INFUSEDPOTIONS", "TT_CATEGORY", "auram 15,
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSEDSEED", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);
-game.setLocalization("en_US", "tc.research_name.INFUSEDPOTIONS", "Infused Poitions");
-game.setLocalization("en_US", "tc.research_text.INFUSEDPOTIONS", "[TT] Grwoing your Poitions.");
+game.setLocalization("tc.research_name.INFUSEDPOTIONS", "Infused Poitions");
+game.setLocalization("tc.research_text.INFUSEDPOTIONS", "[TT] Grwoing your Poitions.");
 mods.thaumcraft.Research.addPage("INFUSEDPOTIONS", "tt.research.page.INFUSEDPOTIONS.1");
-game.setLocalization("en_US", "tt.research.page.INFUSEDPOTIONS.1", "Crops will also drain tendencies from nearby crops. A crop will drain points from an adjacent crop with an equal or greater number of points. Some plants will create special grain, which can be made into potions. <BR> Earth infused potions summons barriers between mobs that attack you. <BR> Fire infused potions trap your enemies in a sphere of fire. <BR> Air infused potions send your enemies up in the air. <BR> Water infused potions chill surrounding lava.");
+game.setLocalization("tt.research.page.INFUSEDPOTIONS.1", "Crops will also drain tendencies from nearby crops. A crop will drain points from an adjacent crop with an equal or greater number of points. Some plants will create special grain, which can be made into potions. <BR> Earth infused potions summons barriers between mobs that attack you. <BR> Fire infused potions trap your enemies in a sphere of fire. <BR> Air infused potions send your enemies up in the air. <BR> Water infused potions chill surrounding lava.");
 mods.thaumcraft.Crucible.addRecipe("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion>, <ThaumicTinkerer:infusedGrain>, "auram 16, aer 16, praecantatio 8");
 mods.thaumcraft.Research.addCruciblePage("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion>);
 
