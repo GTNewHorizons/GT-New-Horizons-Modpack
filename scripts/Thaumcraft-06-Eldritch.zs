@@ -254,6 +254,7 @@ mods.thaumcraft.Research.addArcanePage("CAP_void", <Thaumcraft:WandCasting:9>.wi
 // -
 mods.thaumcraft.Research.addPage("CAP_void", "tc.research_page.CAP_void.2");
 game.setLocalization("en_US", "tc.research_page.CAP_void.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
+game.setLocalization("zh_CN", "tc.research_page.CAP_void.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Aluminium Screws it will show more recipes.");
 
 // --- Void Aspected Wooden Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "void", rod: "wood", sceptre: 1}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
@@ -1387,6 +1388,7 @@ mods.thaumcraft.Research.addArcanePage("ROD_primal_staff", <Thaumcraft:WandCasti
 // -
 mods.thaumcraft.Research.addPage("ROD_primal_staff", "tc.research_page.ROD_primal_staff.2");
 game.setLocalization("en_US", "tc.research_page.ROD_primal_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Iridium Screws it will show more recipes.");
+game.setLocalization("zh_CN", "tc.research_page.ROD_primal_staff.2", "There are more Upgrade Recipes for the Wands. Look at the uses of the Wand Capes and Iridium Screws it will show more recipes.");
 
 // --- Void Aspected Primal Staff
 mods.thaumcraft.Arcane.addShaped("ROD_primal_staff", <Thaumcraft:WandCasting:288>.withTag({cap: "void", rod: "primal_staff"}), "aer 280, terra 280, ignis 280, aqua 280, ordo 280, perditio 280", [
