@@ -91,6 +91,43 @@
         <fluidStack name="fire_water" />
       </output>
     </recipe>
+    <recipe name="Liquid Sunshine" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="glowstone_dust" slot="0" multiplier="0.25" />
+        <itemStack modID="minecraft" itemName="glowstone" slot="0" multiplier="1" />
+        <itemStack modID="minecraft" itemName="double_plant" itemMeta="0" slot="1" multiplier="1" />
+        <fluidStack name="fire_water" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="liquid_sunshine" />
+      </output>
+    </recipe>
+    <recipe name="Cloud Seed" energyCost="10000" allowMissing="true" >
+      <input>
+        <itemStack oreDictionary="dustSalt" slot="0" multiplier="1" />
+        <itemStack oreDictionary="itemClay" slot="0" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="clay" slot="0" multiplier="2" />
+        <itemStack modID="minecraft" itemName="snowball" slot="1" multiplier="0.1" />
+        <itemStack modID="minecraft" itemName="snow" slot="1" multiplier="0.5" />
+        <itemStack oreDictionary="ice" slot="1" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="packed_ice" itemMeta="0" slot="1" multiplier="1" />
+        <fluidStack name="water" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="cloud_seed" />
+      </output>
+    </recipe>
+    <recipe name="Concentrated Cloud Seed" energyCost="20000" allowMissing="true" >
+      <input>
+        <itemStack oreDictionary="dustSalt" slot="0" multiplier="1" />
+        <itemStack oreDictionary="itemClay" slot="0" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="clay" slot="0" multiplier="2" />
+        <fluidStack name="cloud_seed" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="cloud_seed_concentrated" />
+      </output>
+    </recipe>
   </recipeGroup>
 
 </VatRecipes>
