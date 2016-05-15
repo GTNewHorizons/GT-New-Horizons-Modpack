@@ -145,50 +145,12 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Fused Quartz 2 Slots" energyCost="10000" >
-      <input>
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" number="2" />
-      </output>
-    </recipe>
-    <recipe name="Fused Quartz 3 Slots" energyCost="15000" >
-      <input>
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" number="3" />
-      </output>
-    </recipe>
     <recipe name="Fused Glass" energyCost="2500" >
       <input>
         <itemStack oreDictionary="sand" />
       </input>
       <output>
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" />
-      </output>
-    </recipe>
-    <recipe name="Fused Glass 2 Slots" energyCost="5000" >
-      <input>
-        <itemStack oreDictionary="sand" />
-        <itemStack oreDictionary="sand" />
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" number="2" />
-      </output>
-    </recipe>
-    <recipe name="Fused Glass 3 Slots" energyCost="7500" >
-      <input>
-        <itemStack oreDictionary="sand" />
-        <itemStack oreDictionary="sand" />
-        <itemStack oreDictionary="sand" />
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" number="3" />
       </output>
     </recipe>
     <recipe name="Enlightened Fused Quartz" energyCost="5000" >
