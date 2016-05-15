@@ -179,7 +179,7 @@ recipes.addShapeless(OrangeSmallB,
 recipes.addShapeless(WhiteSmallB,
 [SmallB, <ore:dyeWhite>, Paintbrush]);
 
-// --- Mdeium Backpack
+// --- Medium Backpack
 recipes.addShaped(MediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
 [TannedLeather, SmallB, TannedLeather],
