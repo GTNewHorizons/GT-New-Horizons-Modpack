@@ -55,6 +55,9 @@ recipes.remove(<IC2:blockKineticGenerator>);
 // --- Kinetic Water Generator
 recipes.remove(<IC2:blockKineticGenerator:4>);
 
+// --- Sterling Kinetic Generator
+recipes.remove(<IC2:blockKineticGenerator:5>);
+
 // --- Reactor Chamber
 recipes.remove(<IC2:blockReactorChamber>);
 
@@ -977,6 +980,12 @@ recipes.addShaped(<IC2:blockKineticGenerator:4>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<IC2:itemRecipePart:11>, <gregtech:gt.blockcasings2:10>, <IC2:itemRecipePart:11>],
 [<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>]]);
+
+// --- Sterling Kinetic Generator
+recipes.addShaped(<IC2:blockKineticGenerator:5>, [
+[<gregtech:gt.metaitem.01:32601>, <IC2:itemRecipePart:5>, <gregtech:gt.metaitem.01:32601>],
+[<ore:circuitGood>, <gregtech:gt.blockcasings:11>, <ore:circuitGood>],
+[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:5>, <BuildCraft|Factory:tankBlock>]]);
 
 // --- Steam Turbine Blade ---
 recipes.addShapeless(<IC2:itemSteamTurbineBlade>, [<Railcraft:part.turbine.disk>]);
