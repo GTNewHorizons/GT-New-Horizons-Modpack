@@ -35487,7 +35487,7 @@
           "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "requiredItems": [
             {
               "id": "chisel:diamond_block",
