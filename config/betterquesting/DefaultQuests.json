@@ -2110,13 +2110,13 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "oreAnyCopper",
               "Damage": 35
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "oreMalachite",
               "Damage": 871
             }
           ],
@@ -2836,8 +2836,7 @@
       ],
       "completed": [],
       "preRequisites": [
-        34,
-        30
+        34
       ]
     },
     {
