@@ -756,7 +756,133 @@
           "required": 5,
           "subtypes": true,
           "ignoreNBT": true,
-          "targetNBT": {},
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
+              {
+                "Base": 10.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.25,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "Saddle": 0,
+            "FallDistance": 0.0,
+            "InLove": 0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "Pig",
+            "HealF": 10.0,
+            "Age": 0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -3998212785627166950,
+            "Health": 10,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 14197274275598,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
           "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
@@ -872,7 +998,134 @@
           "required": 6,
           "subtypes": true,
           "ignoreNBT": true,
-          "targetNBT": {},
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
+              {
+                "Base": 8.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.23000000417232513,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "InLove": 0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "Sheep",
+            "HealF": 8.0,
+            "Age": 0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": 8005527541666259430,
+            "Health": 8,
+            "Color": 0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 14240014886935,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "Sheared": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
           "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
