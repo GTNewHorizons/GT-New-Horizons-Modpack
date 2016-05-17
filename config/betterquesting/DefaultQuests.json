@@ -754,7 +754,7 @@
           "completeUsers": [],
           "target": "Pig",
           "required": 5,
-          "subtypes": true,
+          "subtypes": false,
           "ignoreNBT": true,
           "targetNBT": {
             "Attributes": [
@@ -996,7 +996,7 @@
           "completeUsers": [],
           "target": "Sheep",
           "required": 6,
-          "subtypes": true,
+          "subtypes": false,
           "ignoreNBT": true,
           "targetNBT": {
             "Attributes": [
