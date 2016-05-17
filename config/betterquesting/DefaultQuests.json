@@ -17649,12 +17649,12 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "aqua": 2500,
-                "ignis": 2500,
-                "terra": 2500,
-                "ordo": 2500,
-                "perditio": 2500,
-                "aer": 2500
+                "aqua": 0,
+                "terra": 0,
+                "ignis": 0,
+                "ordo": 0,
+                "perditio": 0,
+                "aer": 0
               }
             }
           ],
