@@ -32925,6 +32925,106 @@
       ]
     },
     {
+      "questID": 440,
+      "name": "Oak trees are no Apple Trees",
+      "description": "Oak Trees which give Apples?  Who the hell add this to Minecraft?  You find a way combining a oak sapling and an Apple to get a Apple tree sapping. Try to plant one to get a permanent source of Food.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:pamappleSapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:apple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:pamappleSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:pampearSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamcherrySapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamorangeSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamwalnutSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
       "questID": 441,
       "name": "Basic \u003e Steam",
       "description": "No Description",
@@ -39927,78 +40027,83 @@
       "quests": [
         {
           "id": 0,
-          "x": 22,
-          "y": 18
+          "x": 0,
+          "y": 0
         },
         {
           "id": 1,
-          "x": 96,
-          "y": 18
+          "x": 72,
+          "y": 0
         },
         {
           "id": 2,
-          "x": 60,
-          "y": 18
+          "x": 32,
+          "y": 0
         },
         {
           "id": 3,
-          "x": 181,
-          "y": 18
+          "x": 160,
+          "y": 0
         },
         {
           "id": 5,
-          "x": 222,
-          "y": 18
+          "x": 200,
+          "y": 0
         },
         {
           "id": 4,
-          "x": 132,
-          "y": 18
+          "x": 112,
+          "y": 0
         },
         {
           "id": 6,
-          "x": 265,
-          "y": 51
+          "x": 240,
+          "y": 32
         },
         {
           "id": 7,
-          "x": 265,
-          "y": 134
+          "x": 240,
+          "y": 112
         },
         {
           "id": 8,
-          "x": 222,
-          "y": 51
+          "x": 200,
+          "y": 32
         },
         {
           "id": 9,
-          "x": 222,
-          "y": 133
+          "x": 200,
+          "y": 112
         },
         {
           "id": 10,
-          "x": 178,
-          "y": 92
+          "x": 160,
+          "y": 72
         },
         {
           "id": 12,
-          "x": 178,
-          "y": 132
+          "x": 160,
+          "y": 112
         },
         {
           "id": 11,
-          "x": 178,
-          "y": 52
+          "x": 160,
+          "y": 32
         },
         {
           "id": 13,
-          "x": 222,
-          "y": 186
+          "x": 200,
+          "y": 168
         },
         {
           "id": 14,
-          "x": 25,
-          "y": 186
+          "x": 8,
+          "y": 168
+        },
+        {
+          "id": 440,
+          "x": 112,
+          "y": 32
         }
       ]
     },

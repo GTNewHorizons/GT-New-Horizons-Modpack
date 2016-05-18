@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.7.9b is out (18.04.2016)(GT New Horizons Coremod 1.1.35) (GTTweaker 1.1.0)
+Version 1.0.8.2 is out (18.05.2016)(GT New Horizons Coremod 1.1.37) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -15,7 +15,7 @@ Version 1.0.7.9b is out (18.04.2016)(GT New Horizons Coremod 1.1.35) (GTTweaker 
 Hey guys, I'd like to open up my project and get more players.<BR>
 I've been working on it for 17 months and still got a lot more work to do.
 
-The pack has around 190+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
+The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
 
 **Tier 0:** Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools<BR>
@@ -69,25 +69,30 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.7.9b --- 18.04.2016<BR>
+## Modlist - NewHorizons 1.0.8.3 --- 19.05.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
+* Adventure Backpack 0.8e22<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
-* AppleCore	1.3.0<BR>
-* Applied Energistics	rv3stable5<BR>
+* AppleCore	1.3.1<BR>
+* Applied Energistics rv3stable5<BR>
+* Architecture Craft 1.4.1<BR>
 * AsieLib	0.4.5<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
-* BackPack	2.0.1<BR>
+* Avaritia 1.11<BR>
+* BackPack	2.2.2<BR>
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
-* Bee Specific	1.0.0<BR>
+* Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
-* Bibliocraft	1.11.4<BR>
+* Better Questing 1.0.92<BR>
+* Better Questing Themed 1.0.0<BR>
+* Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Patcher	1.6<BR>
+* Binnie Patcher	1.8<BR>
 * Binnie Mods	2.0-pre14<BR>
 * Biomes o Plenty	2.1.0.1889<BR>
 * BlockLimiter	0.4<BR>
@@ -95,48 +100,52 @@ Number of players: ~10<BR>
 * BloodMagic	1.3.3.17<BR>
 * Brandon's Core	1.0.0.12<BR>
 * Buildcraft	7.1.16<BR>
-* Buildcraft Compat	7.1.4<BR>
+* Buildcraft Compat	7.1.5<BR>
 * Carpenter's Blocks	3.3.7<BR>
-* CodeChickenCore	1.07.48<BR>
+* CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
 * CofhCore	3.2.1.325<BR>
 * CofhLib	1.1.1.181<BR>
+* Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2b<BR>
+* Draconic Evolution	1.0.2d<BR>
+* Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.2.0.33<BR>
+* Ender Core	0.2.0.34<BR>
 * Ender IO	2.3.0.424<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
+* Enhanced Loot Bags 1.0<BR>
 * Enhanced Portals 3	3.0.12<BR>
-* Extra Cells	2.3.9b189<BR>
+* Extra Cells	2.3.10b190<BR>
 * Extra Utilities	1.2.12<BR>
-* FastCraft	1.22<BR>
+* FastCraft	1.23<BR>
 * Flood Light	1.1.1.124<BR>
 * Forbidden Magic	0.574<BR>
-* Forestry	4.2.11.59<BR>
+* Forestry	4.2.12.60<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
-* Galacticraft-Planets	3.0.12.452GS2.6Custom<BR>
-* GalacticraftCore	3.0.12.452GS2.6Custom<BR>
+* Gadomancy 1.0.6.3<BR>
+* Galacticraft-Planets	3.0.12.460GS2.6Custom<BR>
+* GalacticraftCore	3.0.12.460GS2.6Custom<BR>
 * GalactiGreg	0.9.4<BR>
 * Galaxy Space	2.6 Beta<BR>
+* Gem Blocks For Greg 1.5.0<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.15custom<BR>
-* GT New Horizons Core Mod	1.1.35<BR>
+* Gregtech	5.08.33.17custom<BR>
+* GT New Horizons Core Mod	1.1.37<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
-* Hardcore Questing Mod	4.4.4a<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.85<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.3.4a<BR>
-* IguanaTinkerTweaks	2.1.6<BR>
-* Industrial Craft 2	2.2.2.820<BR>
+* IguanaTinkerTweaks	2.1.6a<BR>
+* Industrial Craft 2	2.2.2.821<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * Ingame Info XML	2.8.1.82<BR>
@@ -146,16 +155,17 @@ Number of players: ~10<BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.50<BR>
 * Jabba	1.2.1a<BR>
-* JourneyMap	5.1.4<BR>
+* JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
 * Lunatius Core	1.1.2.21<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.452GS2.6Custom<BR>
+* MicdoodleCore	3.0.12.460GS2.6Custom<BR>
+* Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Mine Tweaker 3	3.0.10B<BR>
-* Minecraft Forge	10.13.4.1617<BR>
+* Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.5.171<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.107<BR>
@@ -163,14 +173,15 @@ Number of players: ~10<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
 * Nodal Mechanics	1.0-12<BR>
+* Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.5.1<BR>
 * Open Computers	1.5.22.46<BR>
-* Open Eye	0.6.145<BR>
+* Open Eye	0.7.5<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.2.217<BR>
+* Open Modular Turrets 2.2.2.218<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
-* Optifine	HD UD 1<BR>
+* Optifine	HD UD 4<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
@@ -182,19 +193,22 @@ Number of players: ~10<BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Railcraft	9.10.0.0<BR>
+* Questbook 1.1.0<BR>
+* Railcraft	9.12.2.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
-* Rogue-like Dungeons	1.4.4<BR>
+* RFExpansion-1.0.7<BR>
+* Rogue like Dungeons	1.5.0b<BR>
 * Schematica	1.7.6.131<BR>
-* SG Craft 1.11.0<BR>
+* SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.1<BR>
+* Standard Expansion 1.0.71<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.9.7<BR>
+* Storage Drawers	1.9.8<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * TC Node Tracker	1.1.2<BR>
@@ -202,7 +216,7 @@ Number of players: ~10<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.3.1710.4<BR>
-* Thaumic Energistics	1.0.0.4<BR>
+* Thaumic Energistics	1.0.0.5<BR>
 * Thaumic Exploration	1.1.53<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
@@ -210,6 +224,7 @@ Number of players: ~10<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
 * Tinker's Gregworks	1.0.13<BR>
+* Tinker's Defense 1.2.1a<BR>
 * TMechworks	02.14.106<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
