@@ -1,5 +1,5 @@
 {
-  "editMode": true,
+  "editMode": false,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -754,9 +754,135 @@
           "completeUsers": [],
           "target": "Pig",
           "required": 5,
-          "subtypes": true,
+          "subtypes": false,
           "ignoreNBT": true,
-          "targetNBT": {},
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
+              {
+                "Base": 10.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.25,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "Saddle": 0,
+            "FallDistance": 0.0,
+            "InLove": 0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "Pig",
+            "HealF": 10.0,
+            "Age": 0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -3998212785627166950,
+            "Health": 10,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 14197274275598,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
           "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
@@ -870,9 +996,136 @@
           "completeUsers": [],
           "target": "Sheep",
           "required": 6,
-          "subtypes": true,
+          "subtypes": false,
           "ignoreNBT": true,
-          "targetNBT": {},
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
+              {
+                "Base": 8.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.23000000417232513,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 16.0,
+                "Name": "generic.followRange"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "FallDistance": 0.0,
+            "InLove": 0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "Sheep",
+            "HealF": 8.0,
+            "Age": 0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": 8005527541666259430,
+            "Health": 8,
+            "Color": 0,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 14240014886935,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "Sheared": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
           "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
@@ -2110,13 +2363,13 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "oreAnyCopper",
               "Damage": 35
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "oreMalachite",
               "Damage": 871
             }
           ],
@@ -6581,7 +6834,17 @@
               "Count": 4,
               "OreDict": "screwIron",
               "Damage": 27032
-            },
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "requiredItems": [
             {
               "id": "ExtraUtilities:decorativeBlock2",
               "Count": 1,
@@ -6590,7 +6853,7 @@
             }
           ],
           "userProgress": [],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -17639,12 +17902,12 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "aqua": 2500,
-                "ignis": 2500,
-                "terra": 2500,
-                "ordo": 2500,
-                "perditio": 2500,
-                "aer": 2500
+                "aqua": 0,
+                "terra": 0,
+                "ignis": 0,
+                "ordo": 0,
+                "perditio": 0,
+                "aer": 0
               }
             }
           ],
@@ -32662,106 +32925,6 @@
       ]
     },
     {
-      "questID": 440,
-      "name": "Oak trees are no Apple Trees",
-      "description": "Oak Trees which give Apples?  Who the hell add this to Minecraft?  You find a way combining a oak sapling and an Apple to get a Apple tree sapping. Try to plant one to get a permanent source of Food.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "harvestcraft:pamappleSapling",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "tasks": [
-        {
-          "completeUsers": [],
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:sapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:apple",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "userProgress": [],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "completeUsers": [],
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "harvestcraft:pamappleSapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "userProgress": [],
-          "taskID": "bq_standard:crafting"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "harvestcraft:pampearSapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:pamcherrySapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:pamorangeSapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:pamwalnutSapling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        }
-      ],
-      "completed": [],
-      "preRequisites": [
-        4
-      ]
-    },
-    {
       "questID": 441,
       "name": "Basic \u003e Steam",
       "description": "No Description",
@@ -33158,69 +33321,8 @@
           "Genome": {
             "Chromosomes": [
               {
-                "UID1": "forestry.speciesMarshy",
-                "UID0": "forestry.speciesMarshy",
-                "Slot": 0
-              },
-              {
-                "UID1": "forestry.speedSlowest",
-                "UID0": "forestry.speedSlowest",
-                "Slot": 1
-              },
-              {
-                "UID1": "forestry.lifespanShorter",
-                "UID0": "forestry.lifespanShorter",
-                "Slot": 2
-              },
-              {
-                "UID1": "forestry.fertilityNormal",
-                "UID0": "forestry.fertilityNormal",
-                "Slot": 3
-              },
-              {
-                "UID1": "forestry.toleranceBoth1",
-                "UID0": "forestry.toleranceBoth1",
-                "Slot": 4
-              },
-              {
-                "UID1": "forestry.boolFalse",
-                "UID0": "forestry.boolFalse",
-                "Slot": 5
-              },
-              {
-                "UID1": "forestry.toleranceNone",
-                "UID0": "forestry.toleranceNone",
-                "Slot": 7
-              },
-              {
-                "UID1": "forestry.boolFalse",
-                "UID0": "forestry.boolFalse",
-                "Slot": 8
-              },
-              {
-                "UID1": "forestry.boolFalse",
-                "UID0": "forestry.boolFalse",
-                "Slot": 9
-              },
-              {
-                "UID1": "forestry.flowersMushrooms",
-                "UID0": "forestry.flowersMushrooms",
-                "Slot": 10
-              },
-              {
-                "UID1": "forestry.floweringSlower",
-                "UID0": "forestry.floweringSlower",
-                "Slot": 11
-              },
-              {
-                "UID1": "forestry.territoryAverage",
-                "UID0": "forestry.territoryAverage",
-                "Slot": 12
-              },
-              {
-                "UID1": "forestry.effectNone",
-                "UID0": "forestry.effectNone",
-                "Slot": 13
+                "UID1": "forestry.speciesForest",
+                "UID0": "forestry.speciesForest"
               }
             ]
           }
@@ -33230,7 +33332,7 @@
         {
           "completeUsers": [],
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "requiredItems": [
             {
@@ -35638,7 +35740,7 @@
           "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "requiredItems": [
             {
               "id": "chisel:diamond_block",
@@ -39825,83 +39927,78 @@
       "quests": [
         {
           "id": 0,
-          "x": 0,
-          "y": 0
+          "x": 22,
+          "y": 18
         },
         {
           "id": 1,
-          "x": 74,
-          "y": 0
+          "x": 96,
+          "y": 18
         },
         {
           "id": 2,
-          "x": 38,
-          "y": 0
+          "x": 60,
+          "y": 18
         },
         {
           "id": 3,
-          "x": 159,
-          "y": 0
+          "x": 181,
+          "y": 18
         },
         {
           "id": 5,
-          "x": 200,
-          "y": 0
+          "x": 222,
+          "y": 18
         },
         {
           "id": 4,
-          "x": 112,
-          "y": 0
+          "x": 132,
+          "y": 18
         },
         {
           "id": 6,
-          "x": 243,
-          "y": 33
+          "x": 265,
+          "y": 51
         },
         {
           "id": 7,
-          "x": 243,
-          "y": 116
+          "x": 265,
+          "y": 134
         },
         {
           "id": 8,
-          "x": 200,
-          "y": 32
+          "x": 222,
+          "y": 51
         },
         {
           "id": 9,
-          "x": 200,
-          "y": 120
+          "x": 222,
+          "y": 133
         },
         {
           "id": 10,
-          "x": 160,
-          "y": 72
+          "x": 178,
+          "y": 92
         },
         {
           "id": 12,
-          "x": 160,
-          "y": 120
+          "x": 178,
+          "y": 132
         },
         {
           "id": 11,
-          "x": 160,
-          "y": 32
+          "x": 178,
+          "y": 52
         },
         {
           "id": 13,
-          "x": 200,
-          "y": 168
+          "x": 222,
+          "y": 186
         },
         {
           "id": 14,
-          "x": 3,
-          "y": 168
-        },
-        {
-          "id": 440,
-          "x": 112,
-          "y": 32
+          "x": 25,
+          "y": 186
         }
       ]
     },
