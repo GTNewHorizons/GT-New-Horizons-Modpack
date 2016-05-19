@@ -908,7 +908,7 @@
       ],
       "completed": [],
       "preRequisites": [
-        446
+        11
       ]
     },
     {
@@ -34141,6 +34141,95 @@
       ]
     },
     {
+      "questID": 450,
+      "name": "Your first long range Weapon",
+      "description": "Since you can\u0027t make any Vanilla Bow before LV and Tinkers Weapons not in this Tier you find a way make some Speer out of some sticks, leather and a string. Craft some because some Infernal Monsters are better to kill with a long range Weapon.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "battlegear2:spear.wood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 2,
+              "OreDict": "woodStick",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "battlegear2:spear.wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -40901,12 +40990,12 @@
         },
         {
           "id": 1,
-          "x": 72,
+          "x": 80,
           "y": 0
         },
         {
           "id": 2,
-          "x": 32,
+          "x": 40,
           "y": 0
         },
         {
@@ -40921,7 +41010,7 @@
         },
         {
           "id": 4,
-          "x": 112,
+          "x": 120,
           "y": 0
         },
         {
@@ -40947,17 +41036,17 @@
         {
           "id": 10,
           "x": 160,
-          "y": 112
+          "y": 104
         },
         {
           "id": 12,
           "x": 200,
-          "y": 112
+          "y": 104
         },
         {
           "id": 11,
           "x": 160,
-          "y": 32
+          "y": 72
         },
         {
           "id": 13,
@@ -40971,7 +41060,7 @@
         },
         {
           "id": 440,
-          "x": 112,
+          "x": 120,
           "y": 32
         },
         {
@@ -40982,16 +41071,21 @@
         {
           "id": 444,
           "x": 240,
-          "y": 112
+          "y": 104
         },
         {
           "id": 446,
-          "x": 160,
-          "y": 72
+          "x": 120,
+          "y": 104
         },
         {
           "id": 448,
-          "x": 112,
+          "x": 80,
+          "y": 104
+        },
+        {
+          "id": 450,
+          "x": 120,
           "y": 72
         }
       ]
@@ -41122,22 +41216,22 @@
         },
         {
           "id": 41,
-          "x": 248,
-          "y": 160
+          "x": 232,
+          "y": 120
         },
         {
           "id": 26,
-          "x": 232,
-          "y": 112
+          "x": 192,
+          "y": 120
         },
         {
           "id": 42,
-          "x": 184,
+          "x": 192,
           "y": 160
         },
         {
           "id": 43,
-          "x": 216,
+          "x": 232,
           "y": 160
         }
       ]
