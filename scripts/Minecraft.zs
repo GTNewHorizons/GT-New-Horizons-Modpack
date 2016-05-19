@@ -428,6 +428,9 @@ recipes.removeShaped(<minecraft:bookshelf>);
 //Wooden PressurePlate
 recipes.remove(<minecraft:wooden_pressure_plate>);
 
+// --- Saddle
+recipes.remove(<minecraft:saddle>);
+
 
 // --- Wool ---
 
