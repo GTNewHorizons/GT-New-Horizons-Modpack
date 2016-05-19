@@ -394,6 +394,7 @@ public class GT_Loader_Items
 		CustomItemList.IchoriumCap.set(com.dreammaster.item.ItemList.IchoriumCap.getIS());
 		CustomItemList.CoinDarkWizard.set(com.dreammaster.item.ItemList.CoinDarkWizard.getIS());
 		CustomItemList.CoinTechnician.set(com.dreammaster.item.ItemList.CoinTechnician.getIS());
+		CustomItemList.WetTofu.set(com.dreammaster.item.ItemList.WetTofu.getIS());
 	}
 
 }

@@ -82,7 +82,8 @@ public enum CustomItemList implements IItemContainer
 	QuantumPartBoots, QuantumPartChestplate, QuantumPartHelmetEmpty, QuantumPartHelmet, QuantumPartLeggings,
 	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9,
 	MarshmallowForm, MarshmallowFormMold, UncookedSlush, MalformedSlush, GlowingMarshmallow, Marshmallow,
-	IchoriumCap, CoinTechnician, CoinDarkWizard;
+	IchoriumCap, CoinTechnician, CoinDarkWizard,
+	WetTofu;
 
 
 	private ItemStack mStack = null;

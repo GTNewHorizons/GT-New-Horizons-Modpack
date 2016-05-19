@@ -296,6 +296,7 @@ public enum ItemList
     VoidPlate(new ModSimpleBaseItem("VoidPlate", ModTabList.ModThaumcraftTab)),
     VoidRing(new ModSimpleBaseItem("VoidRing", ModTabList.ModThaumcraftTab)),
     VoidRod(new ModSimpleBaseItem("VoidRod", ModTabList.ModThaumcraftTab)),
+    WetTofu(new ModSimpleBaseItem("WetTofu", ModTabList.ModGenericTab)),
     WirelessTransmitter(new ModSimpleBaseItem("WirelessTransmitter", ModTabList.ModGenericTab)),
     WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
 
