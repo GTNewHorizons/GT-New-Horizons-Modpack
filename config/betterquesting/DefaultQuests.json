@@ -35,6 +35,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:dirt",
@@ -142,6 +143,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:gravel",
@@ -164,6 +166,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:log",
@@ -506,6 +509,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:stick",
@@ -567,6 +571,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:carrot",
@@ -634,6 +639,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:cobblestone",
@@ -1179,6 +1185,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:bed",
@@ -1265,6 +1272,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCustomPlant",
@@ -1287,6 +1295,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCustomPlant",
@@ -1365,6 +1374,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:sand",
@@ -1497,6 +1507,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:sand",
@@ -1570,6 +1581,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:stone",
@@ -1685,6 +1697,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:gravel",
@@ -1758,6 +1771,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:clay_ball",
@@ -1842,6 +1856,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:log",
@@ -1918,6 +1933,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IguanaTweaksTConstruct:clayBucketFired",
@@ -2047,6 +2063,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.UnfiredCokeOvenBrick",
@@ -2063,6 +2080,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.CokeOvenBrick",
@@ -2187,6 +2205,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:coal",
@@ -2292,6 +2311,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -2353,6 +2373,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockores",
@@ -2438,6 +2459,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -2664,6 +2686,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:GravelOre",
@@ -2740,6 +2763,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -2928,6 +2952,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:iron_ingot",
@@ -3014,6 +3039,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:metalPattern",
@@ -3030,6 +3056,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:metalPattern",
@@ -3046,6 +3073,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:pickaxeHead",
@@ -3062,6 +3090,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:shovelHead",
@@ -3451,6 +3480,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Natura:barleyFood",
@@ -3518,6 +3548,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -3820,6 +3851,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -4144,6 +4176,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:glass",
@@ -4643,6 +4676,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -5009,6 +5043,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -5352,6 +5387,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:blankPattern",
@@ -5383,6 +5419,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -5399,6 +5436,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -5922,6 +5960,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:blockRubSapling",
@@ -5953,6 +5992,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:itemHarz",
@@ -6059,6 +6099,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:brick_block",
@@ -6075,6 +6116,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -6091,6 +6133,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Railcraft:part.plate",
@@ -6242,6 +6285,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6264,6 +6308,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6280,6 +6325,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6491,6 +6537,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:blockITNT",
@@ -6507,6 +6554,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6523,6 +6571,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings2",
@@ -6605,6 +6654,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6621,6 +6671,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings2",
@@ -6697,6 +6748,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:tile.QuintupleCompressedCharcoal",
@@ -6764,6 +6816,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Railcraft:machine.alpha",
@@ -6844,6 +6897,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:decorativeBlock2",
@@ -6911,6 +6965,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -6927,6 +6982,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings",
@@ -6986,6 +7042,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings",
@@ -7142,6 +7199,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -7214,6 +7272,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8209,6 +8268,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -8310,6 +8370,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8382,6 +8443,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:BlockCartAssembler",
@@ -8454,6 +8516,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:CartModule",
@@ -8515,6 +8578,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:BlockCargoManager",
@@ -8590,6 +8654,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:CartModule",
@@ -8654,6 +8719,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:CartModule",
@@ -8715,6 +8781,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:CartModule",
@@ -8790,6 +8857,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "StevesCarts:CartModule",
@@ -8865,6 +8933,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:pipes",
@@ -8937,6 +9006,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:extractor_base",
@@ -8998,6 +9068,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:extractor_base",
@@ -9059,6 +9130,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:watering_can",
@@ -9120,6 +9192,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:golden_lasso",
@@ -9181,6 +9254,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:chandelier",
@@ -9242,6 +9316,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:filing",
@@ -9309,6 +9384,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:sensorTierOneItem",
@@ -9382,6 +9458,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:hardWallTierOne",
@@ -9449,6 +9526,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:baseTierWood",
@@ -9521,6 +9599,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:disposeItemTurret",
@@ -9588,6 +9667,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:potatoCannonTurret",
@@ -9655,6 +9735,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:expanderInvTierOne",
@@ -9799,6 +9880,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.pipe",
@@ -9827,6 +9909,7 @@
           "partialMatch": true,
           "ignoreNBT": true,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
@@ -9952,6 +10035,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -9968,6 +10052,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -9984,6 +10069,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -10057,6 +10143,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemBasicCapacitor",
@@ -10073,6 +10160,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemMachinePart",
@@ -10140,6 +10228,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockTank",
@@ -10207,6 +10296,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockStirlingGenerator",
@@ -10274,6 +10364,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockCombustionGenerator",
@@ -10341,6 +10432,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockTravelAnchor",
@@ -10419,6 +10511,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemItemConduit",
@@ -10516,6 +10609,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemYetaWrench",
@@ -10577,6 +10671,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemExtractSpeedUpgrade",
@@ -10593,6 +10688,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemBasicFilterUpgrade",
@@ -10654,6 +10750,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemMaterial",
@@ -10670,6 +10767,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemConduitFacade",
@@ -10686,6 +10784,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemConduitFacade",
@@ -10702,6 +10801,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockPainter",
@@ -10775,6 +10875,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemAlloy",
@@ -10836,6 +10937,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:item.darkSteel_helmet",
@@ -10921,6 +11023,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:item.darkSteel_axe",
@@ -10949,6 +11052,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:item.darkSteel_sword",
@@ -11016,6 +11120,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemMaterial",
@@ -11078,6 +11183,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockVat",
@@ -11145,6 +11251,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockAlloySmelter",
@@ -11213,6 +11320,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockCrafter",
@@ -11281,6 +11389,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockSagMill",
@@ -11349,6 +11458,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockSliceAndSplice",
@@ -11417,6 +11527,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:bucketRocket_fuel",
@@ -11466,6 +11577,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:bucketNutrient_distillation",
@@ -11515,6 +11627,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:bucketFire_water",
@@ -11564,6 +11677,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:bucketHootch",
@@ -11613,6 +11727,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockKillerJoe",
@@ -11680,6 +11795,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:ethericsword",
@@ -11741,6 +11857,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Translocator:translocator",
@@ -11802,6 +11919,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Translocator:translocator",
@@ -11863,6 +11981,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:fenceTierTwo",
@@ -11930,6 +12049,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:chamberTierTwo",
@@ -12003,6 +12123,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:baseTierOneBlock",
@@ -12075,6 +12196,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:machineGunTurret",
@@ -12142,6 +12264,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:incendiaryTurret",
@@ -12209,6 +12332,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -12277,6 +12401,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:Altar",
@@ -12336,6 +12461,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftCore:tile.moonBlock",
@@ -12420,6 +12546,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockInventoryPanel",
@@ -12436,6 +12563,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemFunctionUpgrade",
@@ -12526,6 +12654,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:weakBloodOrb",
@@ -12587,6 +12716,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockSoulBinder",
@@ -12654,6 +12784,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -12715,6 +12846,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockExperienceObelisk",
@@ -12782,6 +12914,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemSoulVessel",
@@ -12798,6 +12931,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemSoulVessel",
@@ -13442,6 +13576,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:itemBrokenSpawner",
@@ -13461,6 +13596,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockPoweredSpawner",
@@ -13528,6 +13664,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "EnderIO:blockEnchanter",
@@ -13595,6 +13732,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:fenceTierThree",
@@ -13662,6 +13800,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:chamberTierThree",
@@ -13735,6 +13874,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:baseTierTwoBlock",
@@ -13796,6 +13936,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:relativisticTurret",
@@ -13857,6 +13998,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:grenadeTurret",
@@ -13924,6 +14066,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -13940,6 +14083,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftCore:tile.moonBlock",
@@ -14015,6 +14159,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:sacrificialKnife",
@@ -14079,6 +14224,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14158,6 +14304,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockSkyCompass",
@@ -14219,6 +14366,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.LogicProcessorItemGoldCore",
@@ -14235,6 +14383,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14251,6 +14400,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
@@ -14318,6 +14468,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14334,6 +14485,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14401,6 +14553,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockMolecularAssembler",
@@ -14429,6 +14582,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14502,6 +14656,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -14593,6 +14748,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
@@ -14621,6 +14777,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
@@ -14694,6 +14851,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
@@ -14791,6 +14949,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftMars:tile.mars",
@@ -14863,6 +15022,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:phobossecrock",
@@ -14936,6 +15096,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:deimossubgrunt",
@@ -15003,6 +15164,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:itemArmorHazmatHelmet",
@@ -15076,6 +15238,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:blockGenerator",
@@ -15143,6 +15306,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.reactorUraniumSimple",
@@ -15204,6 +15368,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.reactorMOXSimple",
@@ -15265,6 +15430,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.ThoriumcellDep",
@@ -15388,6 +15554,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:blockReactorChamber",
@@ -15451,6 +15618,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:reactorHeatSwitch",
@@ -15548,6 +15716,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:reactorVent",
@@ -15651,6 +15820,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.Double_Thoriumcell",
@@ -15738,6 +15908,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:endConstructor",
@@ -15805,6 +15976,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:magnumTorch",
@@ -15866,6 +16038,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:enderQuarry",
@@ -15927,6 +16100,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ExtraUtilities:enderQuarryUpgrade",
@@ -15999,6 +16173,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
@@ -16060,6 +16235,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftCore:tile.cargo",
@@ -16127,6 +16303,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftMars:item.spaceshipTier2",
@@ -16188,6 +16365,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AdvancedSolarPanel:BlockMolecularTransformer",
@@ -16249,6 +16427,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:baseTierThreeBlock",
@@ -16310,6 +16489,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:chamberTierFour",
@@ -16383,6 +16563,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:teleporterTurret",
@@ -16444,6 +16625,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:rocketTurret",
@@ -16511,6 +16693,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:fenceTierFour",
@@ -16578,6 +16761,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.MoonStoneDust",
@@ -16645,6 +16829,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -16661,6 +16846,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:deimosgrunt",
@@ -16745,6 +16931,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftMars:tile.asteroidsBlock",
@@ -16830,6 +17017,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalacticraftMars:tile.asteroidsBlock",
@@ -16914,6 +17102,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -17081,6 +17270,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:fenceTierFive",
@@ -17148,6 +17338,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:chamberTierFive",
@@ -17221,6 +17412,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:baseTierFourBlock",
@@ -17282,6 +17474,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:laserTurret",
@@ -17343,6 +17536,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "openmodularturrets:railGunTurret",
@@ -17410,6 +17604,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCustomPlant",
@@ -17676,6 +17871,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:waterSigil",
@@ -17737,6 +17933,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockores",
@@ -17847,6 +18044,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:oakStick",
@@ -17878,6 +18076,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.nagaScale",
@@ -17894,6 +18093,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -17989,6 +18189,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemThaumonomicon",
@@ -18132,6 +18333,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemShard",
@@ -18372,6 +18574,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.LichBone",
@@ -18454,6 +18657,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandCasting",
@@ -18634,6 +18838,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCosmeticSolid",
@@ -18854,6 +19059,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemShard",
@@ -19022,6 +19228,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19100,6 +19307,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemShard",
@@ -19160,6 +19368,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19249,6 +19458,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19339,6 +19549,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19428,6 +19639,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19518,6 +19730,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -19844,6 +20057,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemResource",
@@ -19911,6 +20125,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemResource",
@@ -20190,6 +20405,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.fieryTears",
@@ -20309,6 +20525,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.fieryBlood",
@@ -20384,6 +20601,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20559,6 +20777,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20620,6 +20839,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20681,6 +20901,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20742,6 +20963,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20803,6 +21025,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -20864,6 +21087,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandCap",
@@ -20880,6 +21104,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.ChargedThaumiumWandCap",
@@ -20941,6 +21166,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.SnowQueenBlood",
@@ -21017,6 +21243,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.carminite",
@@ -21093,6 +21320,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockStoneDevice",
@@ -21165,6 +21393,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockStoneDevice",
@@ -21237,6 +21466,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockStoneDevice",
@@ -21309,6 +21539,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockMetalDevice",
@@ -21450,6 +21681,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -21511,6 +21743,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -21637,6 +21870,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -21698,6 +21932,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -21765,6 +22000,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemResource",
@@ -21781,6 +22017,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemResource",
@@ -21797,6 +22034,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemResource",
@@ -21936,6 +22174,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockEssentiaReservoir",
@@ -22003,6 +22242,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "WarpTheory:item.warptheory.something",
@@ -22064,6 +22304,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:FocusHellbat",
@@ -22125,6 +22366,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemHelmetFortress",
@@ -22222,6 +22464,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemPlacer",
@@ -22238,6 +22481,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemCore",
@@ -22305,6 +22549,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemPlacer",
@@ -22321,6 +22566,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemCore",
@@ -22400,6 +22646,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemPlacer",
@@ -22416,6 +22663,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemCore",
@@ -22489,6 +22737,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemPlacer",
@@ -22505,6 +22754,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemGolemCore",
@@ -22578,6 +22828,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockTube",
@@ -22666,6 +22917,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemCrystalEssence",
@@ -22760,6 +23012,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemCrystalEssence",
@@ -22868,6 +23121,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemCrystalEssence",
@@ -23085,6 +23339,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockMirror",
@@ -23146,6 +23401,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Automagy:blockEssentiaLocusAggregator",
@@ -23214,6 +23470,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Automagy:blockEssentiaLocus",
@@ -23275,6 +23532,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ForbiddenMagic:TaintShovel",
@@ -23336,6 +23594,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:fireChaos",
@@ -23421,6 +23680,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:redlonSeeds",
@@ -23437,6 +23697,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:rainbowCactus",
@@ -23453,6 +23714,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:lucriteSeeds",
@@ -23469,6 +23731,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:lazulliaSeeds",
@@ -23548,6 +23811,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:overchanter",
@@ -23616,6 +23880,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:enchanter",
@@ -23683,6 +23948,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:cryingObsidian",
@@ -23744,6 +24010,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:goldenOakSapling",
@@ -23760,6 +24027,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:goldenOakSapling",
@@ -23776,6 +24044,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:goldenOakSapling",
@@ -23792,6 +24061,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:goldenOakSapling",
@@ -23853,6 +24123,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -23975,6 +24246,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:kamiResource",
@@ -23997,6 +24269,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:kamiResource",
@@ -24058,6 +24331,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothHelmGem",
@@ -24130,6 +24404,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothHelm",
@@ -24208,6 +24483,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothLegsGem",
@@ -24280,6 +24556,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothLegs",
@@ -24358,6 +24635,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothChestGem",
@@ -24430,6 +24708,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothChest",
@@ -24508,6 +24787,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:kamiResource",
@@ -24575,6 +24855,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothBootsGem",
@@ -24647,6 +24928,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorclothBoots",
@@ -24725,6 +25007,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorAxe",
@@ -24797,6 +25080,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:kamiResource",
@@ -24864,6 +25148,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorSword",
@@ -24936,6 +25221,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorPick",
@@ -25008,6 +25294,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorShovel",
@@ -25080,6 +25367,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorSwordGem",
@@ -25152,6 +25440,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorShovelGem",
@@ -25224,6 +25513,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorAxeGem",
@@ -25296,6 +25586,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorPickGem",
@@ -25368,6 +25659,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:ichorPouch",
@@ -25432,6 +25724,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:blockTalisman",
@@ -25493,6 +25786,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:focusRecall",
@@ -25554,6 +25848,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicTinkerer:warpGate",
@@ -25615,6 +25910,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:witchesovenidle",
@@ -25680,6 +25976,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:altar",
@@ -25747,6 +26044,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:cauldron",
@@ -25814,6 +26112,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:spinningwheel",
@@ -25881,6 +26180,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:kettle",
@@ -25942,6 +26242,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:brew.fuel",
@@ -26015,6 +26316,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:ingredient",
@@ -26094,6 +26396,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:chalkritual",
@@ -26185,6 +26488,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:ingredient",
@@ -26246,6 +26550,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:ingredient",
@@ -26307,6 +26612,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:ingredient",
@@ -26374,6 +26680,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:taglockkit",
@@ -26447,6 +26754,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:gold_nugget",
@@ -26569,6 +26877,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:poppet",
@@ -26753,6 +27062,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:diamond_sword",
@@ -26850,6 +27160,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.NanoCircuit",
@@ -26866,6 +27177,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -26882,6 +27194,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -26898,6 +27211,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -26968,6 +27282,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -27094,6 +27409,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -27110,6 +27426,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -27203,6 +27520,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TaintedMagic:EldritchShard",
@@ -27219,6 +27537,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TaintedMagic:EldritchShard",
@@ -27280,6 +27599,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:creamofavocadosoupItem",
@@ -27296,6 +27616,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:supremepizzaItem",
@@ -27312,6 +27633,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:mintchocolatechipicemcreamItem",
@@ -27405,6 +27727,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:bloodMagicBaseItems",
@@ -27427,6 +27750,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:bloodMagicBaseItems",
@@ -27526,6 +27850,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:item.ElectCrystall",
@@ -27542,6 +27867,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:item.ElectCrystall",
@@ -27603,6 +27929,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "DraconicEvolution:draconiumDust",
@@ -27619,6 +27946,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -27680,6 +28008,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "DraconicEvolution:draconiumDust",
@@ -27761,6 +28090,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -27777,6 +28107,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -27879,6 +28210,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -27948,6 +28280,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:item.BlackPlutonium",
@@ -27964,6 +28297,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:item.BlackPlutonium",
@@ -28013,6 +28347,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "GalaxySpace:item.BlackPlutonium",
@@ -28082,6 +28417,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "DraconicEvolution:draconiumDust",
@@ -28183,6 +28519,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -28199,6 +28536,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemEldritchObject",
@@ -28342,6 +28680,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:endium_ingot",
@@ -28358,6 +28697,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:endium_ingot",
@@ -28407,6 +28747,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:bucket_ender_goo",
@@ -28423,6 +28764,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:bucket_ender_goo",
@@ -28472,6 +28814,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicHorizons:focusAnimation",
@@ -28533,6 +28876,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "DraconicEvolution:draconiumDust",
@@ -28602,6 +28946,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings",
@@ -28788,6 +29133,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicHorizons:vortexStabilizer",
@@ -28804,6 +29150,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ThaumicHorizons:vortexStabilizer",
@@ -28988,6 +29335,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:endoplasm",
@@ -29085,6 +29433,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:arcane_shard",
@@ -29230,6 +29579,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:resource",
@@ -29279,6 +29629,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -29301,6 +29652,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -29317,6 +29669,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:archmageBloodOrb",
@@ -29363,6 +29716,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "MagicBees:miscResources",
@@ -29391,6 +29745,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "BiblioCraft:BiblioLamp",
@@ -29479,6 +29834,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:transference_gem",
@@ -29548,6 +29904,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "DraconicEvolution:draconiumDust",
@@ -29612,6 +29969,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "BloodArsenal:amorphic_catalyst",
@@ -29673,6 +30031,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "MagicBees:capsule.void",
@@ -29689,6 +30048,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "MagicBees:capsule.void",
@@ -29738,6 +30098,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -29787,6 +30148,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -29960,6 +30322,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:dragon_egg",
@@ -30019,6 +30382,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:leonardsurn",
@@ -30247,6 +30611,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:dragon_egg",
@@ -30263,6 +30628,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:chalkheart",
@@ -30297,6 +30663,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "witchery:ingredient",
@@ -30331,6 +30698,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:bedrock",
@@ -30398,6 +30766,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:lavaSigil",
@@ -30459,6 +30828,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blankSlate",
@@ -30520,6 +30890,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:divinationSigil",
@@ -30581,6 +30952,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
@@ -30648,6 +31020,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blockWritingTable",
@@ -30709,6 +31082,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:mundaneLengtheningCatalyst",
@@ -30788,6 +31162,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:crystallos",
@@ -30810,6 +31185,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:simpleCatalyst",
@@ -30883,6 +31259,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:weakFillingAgent",
@@ -30950,6 +31327,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:alchemyFlask",
@@ -31017,6 +31395,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:alchemyFlask",
@@ -31091,6 +31470,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blockHomHeart",
@@ -31152,6 +31532,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:skull",
@@ -31168,6 +31549,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:skull",
@@ -31184,6 +31566,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:skull",
@@ -31200,6 +31583,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:skull",
@@ -31279,6 +31663,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:flint_and_steel",
@@ -31307,6 +31692,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:ghast_tear",
@@ -31335,6 +31721,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:obsidian",
@@ -31411,6 +31798,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blankSpell",
@@ -31427,6 +31815,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:stone",
@@ -31443,6 +31832,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:stone",
@@ -31459,6 +31849,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:stone",
@@ -31509,6 +31900,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:sigilOfMagnetism",
@@ -31570,6 +31962,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:imbuedSlate",
@@ -31631,6 +32024,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:reinforcedSlate",
@@ -31692,6 +32086,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:apprenticeBloodOrb",
@@ -31753,6 +32148,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:magicianBloodOrb",
@@ -31814,6 +32210,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:waterScribeTool",
@@ -31893,6 +32290,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:runeOfSelfSacrifice",
@@ -31966,6 +32364,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
@@ -32045,6 +32444,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:itemRitualDiviner",
@@ -32112,6 +32512,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:emptySocket",
@@ -32128,6 +32529,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:bloodSocket",
@@ -32144,6 +32546,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:armourForge",
@@ -32211,6 +32614,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:weakBloodShard",
@@ -32290,6 +32694,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:boundHelmet",
@@ -32375,6 +32780,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:energySword",
@@ -32436,6 +32842,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:ritualStone",
@@ -32503,6 +32910,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:boundPickaxe",
@@ -32564,6 +32972,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:boundShovel",
@@ -32625,6 +33034,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:boundAxe",
@@ -32686,6 +33096,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:bedrock",
@@ -32765,6 +33176,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm",
@@ -32781,6 +33193,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrytile.blockSpellEffect",
@@ -32797,6 +33210,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrytile.blockSpellModifier",
@@ -32813,6 +33227,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement",
@@ -32835,6 +33250,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:itemComplexSpellCrystal",
@@ -32908,6 +33324,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -32969,6 +33386,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:sapling",
@@ -33069,6 +33487,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -33096,6 +33515,129 @@
       ],
       "completed": [],
       "preRequisites": []
+    },
+    {
+      "questID": 442,
+      "name": "Backed Potatos",
+      "description": "Eating raw Potatoes isn't that healthy you find out.  Some Potatoes are green and poison already. After you get a Furnace you can make delicious Baked Potatoes as an other Food alternative. Put an baked Potato on a stick make it even more delicious.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32201
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:baked_potato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32201
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:melon_seeds",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:pumpkin_seeds",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        9
+      ]
     },
     {
       "questID": 443,
@@ -33128,6 +33670,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -33189,6 +33732,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -33250,6 +33794,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -33311,6 +33856,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "enhancedlootbags:lootbag",
@@ -33375,6 +33921,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metatool.01",
@@ -33448,6 +33995,7 @@
           "partialMatch": true,
           "ignoreNBT": true,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:beePrincessGE",
@@ -33664,6 +34212,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:apiculture",
@@ -33725,6 +34274,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "BinnieCore:fieldKit",
@@ -33786,6 +34336,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:beealyzer",
@@ -33847,6 +34398,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Genetics:analyst",
@@ -34119,6 +34671,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:apiculture",
@@ -34181,6 +34734,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Mutatron",
@@ -34242,6 +34796,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Sampler",
@@ -34303,6 +34858,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Labware",
@@ -34352,6 +34908,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Imprinter",
@@ -34413,6 +34970,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Transposer",
@@ -34474,6 +35032,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:MutatronAdv",
@@ -34535,6 +35094,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSampleBlank",
@@ -34584,6 +35144,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneTemplate",
@@ -34645,6 +35206,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Extractor",
@@ -34706,6 +35268,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Liquifier",
@@ -34767,6 +35330,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:Replicator",
@@ -34833,6 +35397,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -34904,6 +35469,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -34975,6 +35541,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35046,6 +35613,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35117,6 +35685,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35188,6 +35757,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35259,6 +35829,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35330,6 +35901,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35401,6 +35973,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35472,6 +36045,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gendustry:GeneSample",
@@ -35538,6 +36112,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:leafygarden",
@@ -35626,6 +36201,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:firmtofuItem",
@@ -35648,6 +36224,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "harvestcraft:delightedmealItem",
@@ -35743,6 +36320,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "chisel:rebel",
@@ -35855,6 +36433,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "chisel:diamond_block",
@@ -35938,6 +36517,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:ender_pearl",
@@ -35997,6 +36577,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:ender_chest",
@@ -36300,6 +36881,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ForbiddenMagic:EldritchOrb",
@@ -36361,6 +36943,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:transcendentBloodOrb",
@@ -36422,6 +37005,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:bloodMagicBaseItems",
@@ -36489,6 +37073,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:bloodMagicBaseItems",
@@ -36511,6 +37096,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blockCrystal",
@@ -36595,6 +37181,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:demonicSlate",
@@ -36662,6 +37249,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:dawnScribeTool",
@@ -36723,6 +37311,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:archmageBloodOrb",
@@ -36784,6 +37373,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:masterBloodOrb",
@@ -36845,6 +37435,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:duskScribeTool",
@@ -36906,6 +37497,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
@@ -36985,6 +37577,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
@@ -37046,6 +37639,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:itemRitualDiviner",
@@ -37113,6 +37707,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:itemRitualDiviner",
@@ -37189,6 +37784,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:blockCrystalBelljar",
@@ -37319,6 +37915,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:ritualStone",
@@ -37335,6 +37932,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:activationCrystal",
@@ -37402,6 +38000,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement",
@@ -38013,6 +38612,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.lampOfCinders",
@@ -38029,6 +38629,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TwilightForest:item.lampOfCinders",
@@ -38707,6 +39308,7 @@
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "betterquesting:extra_life",
@@ -40076,8 +40678,8 @@
         },
         {
           "id": 7,
-          "x": 240,
-          "y": 112
+          "x": 280,
+          "y": 72
         },
         {
           "id": 8,
@@ -40087,7 +40689,7 @@
         {
           "id": 9,
           "x": 200,
-          "y": 112
+          "y": 72
         },
         {
           "id": 10,
@@ -40118,6 +40720,11 @@
           "id": 440,
           "x": 112,
           "y": 32
+        },
+        {
+          "id": 442,
+          "x": 240,
+          "y": 72
         }
       ]
     },
