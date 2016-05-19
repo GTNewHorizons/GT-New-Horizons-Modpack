@@ -908,7 +908,7 @@
       ],
       "completed": [],
       "preRequisites": [
-        11
+        446
       ]
     },
     {
@@ -33636,7 +33636,8 @@
       ],
       "completed": [],
       "preRequisites": [
-        9
+        9,
+        7
       ]
     },
     {
@@ -33801,8 +33802,7 @@
       ],
       "completed": [],
       "preRequisites": [
-        9,
-        442
+        9
       ]
     },
     {
@@ -33868,6 +33868,95 @@
       ]
     },
     {
+      "questID": 446,
+      "name": "Shields UP",
+      "description": "Now you held a Sword in one Hand and what you can do with the other? Right you need a Shield. Let\u0027s get some.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "battlegear2:shield.wood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:flint",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "battlegear2:shield.wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
       "questID": 447,
       "name": "Tier 4 \u003e Tier 5",
       "description": "No Description",
@@ -33927,6 +34016,66 @@
       "completed": [],
       "preRequisites": [
         445
+      ]
+    },
+    {
+      "questID": 448,
+      "name": "Shield Update",
+      "description": "Your wooden Shield is very weak  so you looking for a better one.  You need Leather for a better one so go and find some Cows.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "battlegear2:shield.hide",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [
+        {
+          "completeUsers": [],
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "battlegear2:shield.hide",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "userProgress": [],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:fence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "completed": [],
+      "preRequisites": [
+        446
       ]
     },
     {
@@ -40798,11 +40947,11 @@
         {
           "id": 10,
           "x": 160,
-          "y": 72
+          "y": 112
         },
         {
           "id": 12,
-          "x": 160,
+          "x": 200,
           "y": 112
         },
         {
@@ -40834,6 +40983,16 @@
           "id": 444,
           "x": 240,
           "y": 112
+        },
+        {
+          "id": 446,
+          "x": 160,
+          "y": 72
+        },
+        {
+          "id": 448,
+          "x": 112,
+          "y": 72
         }
       ]
     },
