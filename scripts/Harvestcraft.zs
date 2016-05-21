@@ -4,6 +4,7 @@
 
 // --- Importing Stuff ---
 
+import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
@@ -387,29 +388,37 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <I
 // --- Ordicted Things ---
 
 
-// --- Mortar ---
+// --- Mortar
 mortar.add(<gregtech:gt.metatool.01:24>);
 
-// --- Cutboard ---
+// --- Cutboard
 cutboard.add(<gregtech:gt.metatool.01:34>);
 
-// --- Bowl ---
+// --- Bowl
 bowl.add(<minecraft:bowl>);
 
-// --- Bake ---
+// --- Bake
 bake.add(<gregtech:gt.metatool.01:46>);
 
-// --- Juicer ---
+// --- Juicer
 juice.add(<gregtech:gt.metatool.01:14>);
+
+
+
+// --- Centrifuge recipes
+
+
+
+// --- Silken Tofu
+Centrifuge.addRecipe([<harvestcraft:silkentofuItem>, <harvestcraft:silkentofuItem>, <harvestcraft:soymilkItem>], null, <dreamcraft:item.WetTofu>, null, null, [10000, 5000, 5000], 200, 8);
+
+
 
 
 
 // --- Compressor Recipes ---
 
 
-
-// --- Silken Tofu
-Compressor.addRecipe(<harvestcraft:silkentofuItem>, <harvestcraft:soymilkItem>);
 
 // --- Firm Tofu
 Compressor.addRecipe(<harvestcraft:firmtofuItem>, <harvestcraft:silkentofuItem>);
