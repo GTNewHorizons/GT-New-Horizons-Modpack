@@ -810,6 +810,7 @@ recipes.addShaped(<dreamcraft:tile.DiamondFrameBox>, [
 
 
 
+
 // --- Alloy Smelter Recipes
 
 
@@ -1049,6 +1050,17 @@ Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <a
 // --- Compressed Lead-Nickel Plate
 Assembler.addRecipe(<dreamcraft:item.LeadNickelPlate> * 2, <GalaxySpace:item.LeadCom>, <GalaxySpace:item.NickelComIngot>, <liquid:ic2coolant> * 2000, 600, 1024);
 
+// --- Wet Tofu
+Assembler.addRecipe(<dreamcraft:item.WetTofu>, <harvestcraft:soybeanItem>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 100, 600, 2);
+// -
+Assembler.addRecipe(<dreamcraft:item.WetTofu>, <harvestcraft:soybeanItem>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ic2distilledwater> * 50, 300, 4);
+
+// --- Compressed Oxygen
+Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <IC2:itemFluidCell>, <gregtech:gt.integrated_circuit:16> * 0, <liquid:oxygen> * 16000, 1200, 120);
+
+// --- Compressed Nitrogen
+Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressednitrogen", Amount: 1000}}), <IC2:itemFluidCell>, <gregtech:gt.integrated_circuit:16> * 0, <liquid:nitrogen> * 16000, 1200, 120);
+
 
 
 
@@ -1199,6 +1211,7 @@ Compressor.addRecipe(<dreamcraft:item.BioCarbonPlate>, <dreamcraft:item.BioOrgan
 
 // --- Stone Plate
 Compressor.addRecipe(<dreamcraft:item.StonePlate>, <gregtech:gt.metaitem.01:2299> * 9);
+
 
 
 

@@ -1145,6 +1145,20 @@ Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
 
 
 
+// --- Oredicted Names ---
+
+
+// --- Desh to Ore Dict
+oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
+
+// --- Stick of Desh
+oreDict.stickDesh.add(<GalacticraftMars:item.null:1>);
+
+// --- Ilmenite to Ore Dict
+oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
+
+
+
 // --- Arc Furnace Recipes ---
 
 
@@ -1338,6 +1352,7 @@ Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metait
 
 // --- Desh Block
 Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
+
 
 
 
@@ -1620,24 +1635,11 @@ PlateBender.addRecipe(<GalacticraftCore:item.canister:1> , <GalacticraftCore:ite
 
 
 // --- Fluid Oxygen
-VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidoxygen"}}), <gregtech:gt.metaitem.01:30013> * 12, 2400);
+VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidoxygen"}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), 2400);
 
 // --- Fluid Nitrogen
-VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidnitrogen"}}), <gregtech:gt.metaitem.01:30012> * 12, 2400);
+VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidnitrogen"}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressednitrogen", Amount: 1000}}), 2400);
 
-// --- Ilmenite to Ore Dict
-oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
-
-
-
-// --- Oredicted Names ---
-
-
-// --- Desh to Ore Dict
-oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
-
-// --- Stick of Desh
-oreDict.stickDesh.add(<GalacticraftMars:item.null:1>);
 
 
 
