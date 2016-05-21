@@ -17,6 +17,8 @@ public enum FluidList {
 	FermentedBacterialSludge(ExtendedFluidCollection.getFermentedBacterialSludge(), ModTabList.ModFluidsTab),
 	NitricAcid(ExtendedFluidCollection.getNitricAcid(),ModTabList.ModFluidsTab),
 	Ammonia(ExtendedFluidCollection.getAmmonia(), ModTabList.ModFluidsTab),
+	CompressedOxygen(ExtendedFluidCollection.getCompressedOxygen(), ModTabList.ModFluidsTab),
+	CompressedNitrogen(ExtendedFluidCollection.getCompressedNitrogen(), ModTabList.ModFluidsTab),
 
 	// Do not delete this
 	EndOfList(null, null);
