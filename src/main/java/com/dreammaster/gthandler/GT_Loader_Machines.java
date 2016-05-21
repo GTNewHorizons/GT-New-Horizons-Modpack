@@ -1401,18 +1401,102 @@ public class GT_Loader_Machines
 		 //PlasmaArcFurnaceLuV
 		 //PlasmaArcFurnaceZPM
 		 //PlasmaArcFurnaceUV
-		 
-		 // ---------------------
-         CustomItemList.AcceleratorLV.set(new GT_MetaTileEntity_WorldAccelerator(11100, "basicmachine.accelerator.tier.01", "World Accelerator", 1).getStackForm(1L));
-         CustomItemList.AcceleratorMV.set(new GT_MetaTileEntity_WorldAccelerator(11101, "basicmachine.accelerator.tier.02", "World Accelerator II", 2).getStackForm(1L));
-         CustomItemList.AcceleratorHV.set(new GT_MetaTileEntity_WorldAccelerator(11102, "basicmachine.accelerator.tier.03", "World Accelerator III", 3).getStackForm(1L));
-         CustomItemList.AcceleratorEV.set(new GT_MetaTileEntity_WorldAccelerator(11103, "basicmachine.accelerator.tier.04", "World Accelerator IV", 4).getStackForm(1L));
-         CustomItemList.AcceleratorIV.set(new GT_MetaTileEntity_WorldAccelerator(11104, "basicmachine.accelerator.tier.05", "World Accelerator V", 5).getStackForm(1L));
-         CustomItemList.AcceleratorLuV.set(new GT_MetaTileEntity_WorldAccelerator(11105, "basicmachine.accelerator.tier.06", "World Accelerator VI", 6).getStackForm(1L));
-         CustomItemList.AcceleratorZPM.set(new GT_MetaTileEntity_WorldAccelerator(11106, "basicmachine.accelerator.tier.07", "World Accelerator VII", 7).getStackForm(1L));
-         CustomItemList.AcceleratorUV.set(new GT_MetaTileEntity_WorldAccelerator(11107, "basicmachine.accelerator.tier.08", "World Accelerator VIII", 8).getStackForm(1L));
-		 
-		 // Free IDs: 11110 - 11263
+
+		// ===================================================================================================
+		// World Accelerator Lv-UV
+		// ===================================================================================================
+
+        CustomItemList.AcceleratorLV.set(new GT_MetaTileEntity_WorldAccelerator(11100, "basicmachine.accelerator.tier.01", "World Accelerator", 1).getStackForm(1L));
+		CustomItemList.AcceleratorMV.set(new GT_MetaTileEntity_WorldAccelerator(11101, "basicmachine.accelerator.tier.02", "World Accelerator II", 2).getStackForm(1L));
+		CustomItemList.AcceleratorHV.set(new GT_MetaTileEntity_WorldAccelerator(11102, "basicmachine.accelerator.tier.03", "World Accelerator III", 3).getStackForm(1L));
+		CustomItemList.AcceleratorEV.set(new GT_MetaTileEntity_WorldAccelerator(11103, "basicmachine.accelerator.tier.04", "World Accelerator IV", 4).getStackForm(1L));
+		CustomItemList.AcceleratorIV.set(new GT_MetaTileEntity_WorldAccelerator(11104, "basicmachine.accelerator.tier.05", "World Accelerator V", 5).getStackForm(1L));
+		CustomItemList.AcceleratorLuV.set(new GT_MetaTileEntity_WorldAccelerator(11105, "basicmachine.accelerator.tier.06", "World Accelerator VI", 6).getStackForm(1L));
+		CustomItemList.AcceleratorZPM.set(new GT_MetaTileEntity_WorldAccelerator(11106, "basicmachine.accelerator.tier.07", "World Accelerator VII", 7).getStackForm(1L));
+		CustomItemList.AcceleratorUV.set(new GT_MetaTileEntity_WorldAccelerator(11107, "basicmachine.accelerator.tier.08", "World Accelerator VIII", 8).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorLV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_LV,
+						'M', ItemList.Electric_Motor_LV,
+						'P', ItemList.Electric_Pump_LV,
+						'B', ItemList.Hull_LV,
+						'C', ItemList.Conveyor_Module_LV,
+						'I', ItemList.Electric_Piston_LV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorMV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_MV,
+						'M', ItemList.Electric_Motor_MV,
+						'P', ItemList.Electric_Pump_MV,
+						'B', ItemList.Hull_MV,
+						'C', ItemList.Conveyor_Module_MV,
+						'I', ItemList.Electric_Piston_MV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_HV,
+						'M', ItemList.Electric_Motor_HV,
+						'P', ItemList.Electric_Pump_HV,
+						'B', ItemList.Hull_HV,
+						'C', ItemList.Conveyor_Module_HV,
+						'I', ItemList.Electric_Piston_HV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorEV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_EV,
+						'M', ItemList.Electric_Motor_EV,
+						'P', ItemList.Electric_Pump_EV,
+						'B', ItemList.Hull_EV,
+						'C', ItemList.Conveyor_Module_EV,
+						'I', ItemList.Electric_Piston_EV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorIV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_IV,
+						'M', ItemList.Electric_Motor_IV,
+						'P', ItemList.Electric_Pump_IV,
+						'B', ItemList.Hull_IV,
+						'C', ItemList.Conveyor_Module_IV,
+						'I', ItemList.Electric_Piston_IV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorLuV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_LuV,
+						'M', ItemList.Electric_Motor_LuV,
+						'P', ItemList.Electric_Pump_LuV,
+						'B', ItemList.Hull_LuV,
+						'C', ItemList.Conveyor_Module_LuV,
+						'I', ItemList.Electric_Piston_LuV});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorZPM.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_ZPM,
+						'M', ItemList.Electric_Motor_ZPM,
+						'P', ItemList.Electric_Pump_ZPM,
+						'B', ItemList.Hull_ZPM,
+						'C', ItemList.Conveyor_Module_ZPM,
+						'I', ItemList.Electric_Piston_ZPM});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorUV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"RMR", "PBC", "IMI",
+						'R', ItemList.Robot_Arm_UV,
+						'M', ItemList.Electric_Motor_UV,
+						'P', ItemList.Electric_Pump_UV,
+						'B', ItemList.Hull_UV,
+						'C', ItemList.Conveyor_Module_UV,
+						'I', ItemList.Electric_Piston_UV});
+
+
+		// Free IDs: 11110 - 11263
 		 // 27.01.2016 Namikon
 	}
 }
