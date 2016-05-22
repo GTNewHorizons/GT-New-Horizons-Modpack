@@ -61,6 +61,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CarminiteFragment.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), Materials.Thaumium.getMolten(216L), GT_ModHandler.getModItem("TwilightForest", "item.carminite", 1L, 0), 350, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.SnowQueenBloodDrop.get(24L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 24L, new Object[0]), Materials.Thaumium.getMolten(216L), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 400, 4096);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 10L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 4), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 1800, 7680);
+        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 16L, 14), GT_ModHandler.getModItem("witchery", "ingredient", 1L, 130),  new ItemStack(Items.nether_star, 1, 32767), 900, 254);
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
@@ -103,6 +104,10 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
 
         GT_Values.RA.addFormingPressRecipe(CustomItemList.MalformedSlush.get(2L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.UncookedSlush.get(1L, new Object[0]), 1200, 120);
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(1L, new Object[0]), 200, 256);
+
+        GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 32767), CustomItemList.NetherStarFragment.get(2L, new Object[0]), 16, 30);
+
+        GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L, new Object[0]), 1, new ItemStack(Items.nether_star, 1, 32767), null);
 
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Wheat, 1L), GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 1L, 14), new ItemStack(Items.sugar, 1, 0), GT_ModHandler.getModItem("DraconicEvolution", "draconiumDust", 1L, 0), FluidRegistry.getFluidStack("witchery:fluidspirit", 1000), GT_Values.NF, CustomItemList.MalformedSlush.get(2L, new Object[0]), 600, 7680);
 

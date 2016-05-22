@@ -2,11 +2,10 @@ package com.dreammaster.gthandler;
 
 import static gregtech.api.enums.GT_Values.W;
 
-import com.dreammaster.item.ItemList;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.fluids.Fluid;
 import gregtech.api.interfaces.IItemContainer;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
@@ -74,7 +73,7 @@ public enum CustomItemList implements IItemContainer
 	RedstoneAlloyBars, ElectricalSteelBars, ConductiveIronBars, EnergeticAlloyBars, VibrantAlloyBars, PulsatingIronBars, SoulariumBars, EnderiumBaseBars, EnderiumBars,
 	PistonBlock, PistonPlate,ReinforcedGlassLense,
     StainlessSteelItemCasing, IridiumAlloyItemCasing,
-	NagaScaleChip, NagaScaleFragment, LichBoneChip, LichBoneFragment, LichBone, FieryBloodDrop, CarminiteChip, CarminiteFragment, SnowQueenBloodDrop, SnowQueenBlood,
+	NagaScaleChip, NagaScaleFragment, LichBoneChip, LichBoneFragment, LichBone, FieryBloodDrop, CarminiteChip, CarminiteFragment, SnowQueenBloodDrop, SnowQueenBlood, NetherStarFragment,
 	AdvancedProcessorBoard, NanoProcessorBoard, QuantumProcessorBoard, EngravedQuantumChip, HighEnergyCircuitParts, HighEnergyFlowCircuit, NanoCircuit, PikoCircuit, QuantumCircuit,
     EngravedDiamondCrystalChip, EngravedEnergyChip,
 	CarbonPartBoots, CarbonPartChestplate, CarbonPartHelmet, CarbonPartHelmetNightVision, CarbonPartLeggings,

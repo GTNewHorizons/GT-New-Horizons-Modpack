@@ -202,6 +202,7 @@ public enum ItemList
     NeutroniumItemCasing(new ModSimpleBaseItem("NeutroniumItemCasing", ModTabList.ModGenericTab)),
     NeutroniumIronPlate(new ModSimpleBaseItem("NeutroniumIronPlate", ModTabList.ModGenericTab)),
     NeutronReflectorParts(new ModSimpleBaseItem("NeutronReflectorParts", ModTabList.ModCircuitsTab)),
+    NetherStarFragment(new ModSimpleBaseItem("NetherStarFragment", ModTabList.ModGenericTab)),
     Nothing(new ModSimpleBaseItem("Nothing", ModTabList.ModGenericTab)),
     PikoCircuit(new ModSimpleBaseItem("PikoCircuit", ModTabList.ModCircuitsTab)),
     PistonPlate(new ModSimpleBaseItem("PistonPlate", ModTabList.ModGenericTab)),

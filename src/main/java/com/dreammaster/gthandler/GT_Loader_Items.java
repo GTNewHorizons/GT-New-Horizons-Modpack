@@ -395,6 +395,7 @@ public class GT_Loader_Items
 		CustomItemList.CoinDarkWizard.set(com.dreammaster.item.ItemList.CoinDarkWizard.getIS());
 		CustomItemList.CoinTechnician.set(com.dreammaster.item.ItemList.CoinTechnician.getIS());
 		CustomItemList.WetTofu.set(com.dreammaster.item.ItemList.WetTofu.getIS());
+		CustomItemList.NetherStarFragment.set(com.dreammaster.item.ItemList.NetherStarFragment.getIS());
 	}
 
 }
