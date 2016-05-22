@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.2 is out (18.05.2016)(GT New Horizons Coremod 1.1.37) (GTTweaker 1.1.0)
+Version 1.0.8.4 is out (22.05.2016)(GT New Horizons Coremod 1.1.41) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.8.3 --- 19.05.2016<BR>
+## Modlist - NewHorizons 1.0.8.4 --- 22.05.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e22<BR>
@@ -88,7 +88,7 @@ Number of players: ~10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
-* Better Questing 1.0.92<BR>
+* Better Questing 1.0.95<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -135,15 +135,15 @@ Number of players: ~10<BR>
 * Gem Blocks For Greg 1.5.0<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.17custom<BR>
-* GT New Horizons Core Mod	1.1.37<BR>
+* Gregtech	5.08.33.19custom<BR>
+* GT New Horizons Core Mod	1.1.41<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.85<BR>
 * Chisel	2.5.1.44<BR>
-* IC2 Nuclear Control	2.3.4a<BR>
+* IC2 Nuclear Control	2.4.0a<BR>
 * IguanaTinkerTweaks	2.1.6a<BR>
 * Industrial Craft 2	2.2.2.821<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
@@ -204,7 +204,7 @@ Number of players: ~10<BR>
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.1<BR>
-* Standard Expansion 1.0.71<BR>
+* Standard Expansion 1.0.78<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
