@@ -2652,6 +2652,7 @@ recipes.addShaped(<minecraft:shears>, [
 recipes.addShaped(<minecraft:nether_star> * 16, [
 [<gregtech:gt.metaitem.03:2506>, <ore:craftingToolCrowbar>]]);
 
+
 // --- Charcoal
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
 // -
@@ -2690,6 +2691,21 @@ mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFMagicLog:*>, false,
 mods.railcraft.BlastFurnace.addRecipe(<witchery:witchlog:*>, false, false, 20, <minecraft:coal:1>);
 // -
 mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, false, 20, <minecraft:coal:1>);
+
+
+
+// --- Thaumcraft Aspects Set ---
+
+
+// --- Blaze
+mods.thaumcraft.Aspects.set(<minecraft:blaze_powder>, "ignis 6, praecantatio 4, instrumentum 2");
+
+// --- Blaze Rod
+mods.thaumcraft.Aspects.set(<minecraft:blaze_rod>, "ignis 10, praecantatio 4");
+
+// --- Paper
+mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 4, aqua 2, arbor 1");
+
 
 
 
@@ -2771,9 +2787,6 @@ Assembler.addRecipe(<minecraft:crafting_table>, <minecraft:log:*>, <minecraft:fl
 
 // --- Fence Gate Oak
 Assembler.addRecipe(FenceGate, <minecraft:stick> * 2, <minecraft:planks> * 2, 300, 8);
-
-// --- Nether Star
-Assembler.addRecipe(<minecraft:nether_star>, <Thaumcraft:ItemResource:14> * 12, <minecraft:nether_star> * 0, 900, 256);
 
 // --- Chest
 Assembler.addRecipe(Chest, <minecraft:log:*> * 2, <minecraft:planks:*> * 2, 100, 30);

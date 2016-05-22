@@ -78,13 +78,6 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemLeggingsRobe>);
 // --- Thaumaturges Boots
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBootsRobe>);
 
-// --- Amber
-recipes.removeShapeless(<Thaumcraft:ItemResource:6>);
-// -
-recipes.removeShaped(<Thaumcraft:blockCosmeticOpaque>, [
-[<ore:gemAmber>, <ore:gemAmber>, null],
-[<ore:gemAmber>, <ore:gemAmber>, null]]);
-
 // --- Arcane Lamp
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:7>);
 
