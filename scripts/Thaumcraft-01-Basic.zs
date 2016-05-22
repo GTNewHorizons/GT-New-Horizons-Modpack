@@ -6,6 +6,9 @@
 
 
 
+import mods.gregtech.Autoclave;
+
+
 // --- Variables ---
 
 
@@ -19,7 +22,21 @@
 recipes.remove(<Thaumcraft:blockCrystal:*>);
 
 // --- Amber
+recipes.removeShapeless(<Thaumcraft:ItemResource:6>);
+// -
 furnace.remove(<Thaumcraft:ItemResource:6>);
+// -
+recipes.removeShaped(<Thaumcraft:ItemResource:6>, [
+[<Thaumcraft:blockCosmeticOpaque>]]);
+// -
+recipes.removeShaped(<Thaumcraft:ItemResource:6>, [
+[<Thaumcraft:blockCosmeticOpaque:1>]]);
+
+
+// --- Amber Block
+recipes.remove(<Thaumcraft:blockCosmeticOpaque>);
+// -
+recipes.remove(<Thaumcraft:blockCosmeticOpaque:1>);
 
 // --- Deconstruction Table
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockTable:14>);
@@ -132,6 +149,18 @@ mods.thaumcraft.Research.setComplexity("NODEJAR", 3);
 // --- Research Dublication
 mods.thaumcraft.Research.setAspects("RESEARCHDUPE", "sensus 12, cognitio 12, fabrico 12, lucrum 9, perditio 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("RESEARCHDUPE", 3);
+
+
+
+
+// --- Autoclave Recipes ---
+
+
+
+// --- Amber
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:water> * 200, 7000, 2000, 24);
+// -
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
 
 
 
