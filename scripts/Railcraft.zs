@@ -748,6 +748,15 @@ recipes.remove(<Railcraft:firestone.cut>);
 // --- Fire Stone cut
 recipes.remove(<Railcraft:firestone.refined:*>);
 
+// --- Redstone Flux Cart
+recipes.remove(<Railcraft:cart.redstone.flux>);
+
+// --- Redstone Flux Loader
+recipes.remove(<Railcraft:machine.gamma:10>);
+
+// --- Redstone Flux Unloader
+recipes.remove(<Railcraft:machine.gamma:11>);
+
 
 
 // --- Add Recipes ---
@@ -1711,6 +1720,24 @@ recipes.addShaped(<Railcraft:cart.track.remover>, [
 [<Railcraft:tool.crowbar.reinforced>, <ore:circuitBasic>, <Railcraft:tool.crowbar.reinforced>],
 [<gregtech:gt.metaitem.01:32600>, <minecraft:minecart>, <gregtech:gt.metaitem.01:32600>]]);
 
+// --- Redstone Flux Cart
+recipes.addShaped(<Railcraft:cart.redstone.flux>, [
+[<ore:plateLead>, <ore:craftingToolScrewdriver>, <ore:plateLead>],
+[<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), <ore:circuitBasic>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0})],
+[<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
+
+// --- Redstone Flux Loader
+recipes.addShaped(<Railcraft:machine.gamma:10>, [
+[<ore:plateLead>, <EnderIO:itemBasicCapacitor>, <ore:plateLead>],
+[<ore:plateRedstoneAlloy>, <Railcraft:detector:10>, <ore:plateRedstoneAlloy>],
+[<ore:plateLead>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), <ore:plateLead>]]);
+
+// --- Redstone Flux Unloader
+recipes.addShaped(<Railcraft:machine.gamma:11>, [
+[<ore:plateLead>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), <ore:plateLead>],
+[<ore:plateRedstoneAlloy>, <Railcraft:detector:10>, <ore:plateRedstoneAlloy>],
+[<ore:plateLead>, <EnderIO:itemBasicCapacitor>, <ore:plateLead>]]);
+
 
 
 // --- Add Fuels ---
@@ -2029,6 +2056,10 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post:5>, [[null, <Railcraft:slab:2>,
 // --- Metal Platform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>, null], [null, <Railcraft:post:2>, null]]);
 
+// --- Lead Plates
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 4);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:4> * 2, [[<ore:ingotLead>, <ore:ingotLead>, null], [<ore:ingotLead>, <ore:ingotLead>, null]]);
+
 
 
 
@@ -2073,6 +2104,9 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 // --- Steel Shears
 oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
+// --- Lead Plates
+oreDict.plateLead.add(<Railcraft:part.plate:4>);
+
 
 
 
@@ -2085,6 +2119,9 @@ oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
 
 // --- Lapatron Loader Upgrade
 <Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
+
+// --- Lead Plate
+<Railcraft:part.plate:4>.displayName = "Lead Plate";
 
 
 
