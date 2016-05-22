@@ -59,9 +59,9 @@ public class GT_Loader_Items
 
 
 		// Robot Arms
-		ItemList.Robot_Arm_LuV.set(GT.addItem(655, "Robot Arm (LuV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITO, 32L) }));
-		ItemList.Robot_Arm_ZPM.set(GT.addItem(656, "Robot Arm (ZPM)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITO, 64L) }));
-		ItemList.Robot_Arm_UV.set(GT.addItem(657, "Robot Arm (UV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITO, 128L) }));
+		ItemList.Robot_Arm_LuV.set(GT.addItem(655, "Robot Arm (LuV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 32L) }));
+		ItemList.Robot_Arm_ZPM.set(GT.addItem(656, "Robot Arm (ZPM)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 64L) }));
+		ItemList.Robot_Arm_UV.set(GT.addItem(657, "Robot Arm (UV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 128L) }));
 
 		// Motors
 		// Bloodasp added the UltimateBattery on Slot 605... Just within the range of the Motors... Massive derp dude...
