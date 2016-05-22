@@ -1129,6 +1129,33 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:20>,  [
 [<GalacticraftCore:item.basicItem:10>, <GalacticraftCore:item.basicItem:9>, <GalacticraftCore:item.basicItem:10>],
 [<GalacticraftCore:item.basicItem:8>, <GalacticraftCore:item.basicItem:13>, <GalacticraftCore:item.basicItem:8>]]);
 
+// --- Schematics Moon Buggy
+recipes.addShapeless(<GalacticraftCore:item.schematic>, [<GalacticraftCore:item.schematic:1>]);
+
+// --- Schematics Tier 2 Rocket
+recipes.addShapeless(<GalacticraftCore:item.schematic:1>, [<GalacticraftCore:item.schematic>]);
+
+// --- Schematics Tier 3 Rocket
+recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
+[<GalacticraftMars:item.schematic>]]);
+// -
+recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
+[null, <GalacticraftMars:item.schematic>]]);
+
+// --- Schematics Cargo Rocket
+recipes.addShaped(<GalacticraftMars:item.schematic>, [
+[<GalacticraftMars:item.schematic:1>]]);
+// -
+recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
+[null, <GalacticraftMars:item.schematic:1>]]);
+
+// --- Schematics Astro Miner
+recipes.addShaped(<GalacticraftMars:item.schematic>, [
+[<GalacticraftMars:item.schematic:2>]]);
+// -
+recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
+[null, <GalacticraftMars:item.schematic:2>]]);
+
 
 
 // --- Add Fuels ---
