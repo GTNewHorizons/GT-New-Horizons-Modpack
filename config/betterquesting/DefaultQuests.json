@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -87,14 +87,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                10
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -176,14 +169,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                2
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:retrieval"
         }
       ],
@@ -241,14 +227,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -312,14 +291,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -460,17 +432,7 @@
               }
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1,
-                1,
-                1,
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -542,14 +504,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                8
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:retrieval"
         }
       ],
@@ -733,14 +688,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -919,12 +867,7 @@
             "AttackTime": 0,
             "CustomNameVisible": 0
           },
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "value": 5
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
       ],
@@ -995,14 +938,7 @@
               }
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -3605,16 +3541,7 @@
               "Damage": 1
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0,
-                0,
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -5720,14 +5647,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5747,15 +5667,7 @@
               "Damage": 1
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0,
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5769,14 +5681,7 @@
               "Damage": 2
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5790,14 +5695,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5811,14 +5709,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -5907,14 +5798,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5944,14 +5828,7 @@
               "Damage": 23032
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -5965,14 +5842,7 @@
               "Damage": 14
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -6093,14 +5963,7 @@
               "Damage": 1
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -6114,14 +5977,7 @@
               "Damage": 10
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -6135,14 +5991,7 @@
               "Damage": 108
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -6215,14 +6064,7 @@
               "Damage": 11
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -6236,14 +6078,7 @@
               "Damage": 1000
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         },
         {
@@ -6311,14 +6146,7 @@
               "Damage": 12
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -32587,14 +32415,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -32776,14 +32597,7 @@
               "Damage": 32201
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -32950,14 +32764,7 @@
               }
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -33109,14 +32916,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                1
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -33234,14 +33034,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -33387,14 +33180,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:crafting"
         }
       ],
@@ -35662,26 +35448,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
-                0,
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:retrieval"
         },
         {
@@ -35703,15 +35470,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0,
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:retrieval"
         },
         {
@@ -35763,20 +35522,7 @@
               "Damage": 0
             }
           ],
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "data": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ]
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:retrieval"
         }
       ],
@@ -38177,12 +37923,7 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "value": 2
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
       ],
@@ -38318,12 +38059,7 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "value": 1
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
       ],
@@ -38527,12 +38263,7 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
-          "userProgress": [
-            {
-              "uuid": "6998d7be-fc35-4bdf-b3d2-a79ce0522aa3",
-              "value": 1
-            }
-          ],
+          "userProgress": [],
           "taskID": "bq_standard:hunt"
         }
       ],
