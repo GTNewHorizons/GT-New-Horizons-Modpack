@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.4 is out (22.05.2016)(GT New Horizons Coremod 1.1.41) (GTTweaker 1.1.0)
+Version 1.0.8.4 is out (26.05.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.8.4 --- 22.05.2016<BR>
+## Modlist - NewHorizons 1.0.8.4 --- 26.05.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e22<BR>
@@ -88,14 +88,15 @@ Number of players: ~10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
-* Better Questing 1.0.95<BR>
+* Better HUD 1.3.4<BR>
+* Better Questing 1.0.101<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
 * Binnie Patcher	1.8<BR>
 * Binnie Mods	2.0-pre14<BR>
 * Biomes o Plenty	2.1.0.1889<BR>
-* BlockLimiter	0.4<BR>
+* BlockLimiter	0.51<BR>
 * Blood Arsenal	1.2.5<BR>
 * BloodMagic	1.3.3.17<BR>
 * Brandon's Core	1.0.0.12<BR>
@@ -135,8 +136,8 @@ Number of players: ~10<BR>
 * Gem Blocks For Greg 1.5.0<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.19custom<BR>
-* GT New Horizons Core Mod	1.1.41<BR>
+* Gregtech	5.08.33.22custom<BR>
+* GT New Horizons Core Mod	1.1.43<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
@@ -145,7 +146,7 @@ Number of players: ~10<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.4.0a<BR>
 * IguanaTinkerTweaks	2.1.6a<BR>
-* Industrial Craft 2	2.2.2.821<BR>
+* Industrial Craft 2	2.2.2.822<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * Ingame Info XML	2.8.1.82<BR>
@@ -211,6 +212,7 @@ Number of players: ~10<BR>
 * Storage Drawers	1.9.8<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
+* TC Inventoryscan 1.0.11<BR>
 * TC Node Tracker	1.1.2<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
@@ -236,7 +238,7 @@ Number of players: ~10<BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.9<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.63<BR>
+* YamCore	0.5.65<BR>
 * Ztones	2.2.2custom<BR>
 
 
