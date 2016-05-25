@@ -2289,7 +2289,7 @@ mods.thaumcraft.Research.addPrereq("NECROTICBONE", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("NECROTICBONE", true);
 mods.thaumcraft.Research.setRound("NECROTICBONE", true);
 mods.thaumcraft.Research.addPage("NECROTICBONE", "TConstruct.research_page.NECROTICBONE");
-game.setLocalization("TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons.");
+game.setLocalization("TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons. The sheer volume of essentia required is too much for the Crucible. You will need a more advanced method of production to create these bones.");
 mods.thaumcraft.Crucible.addRecipe("NECROTICBONE", <TConstruct:materials:8>, <minecraft:bone>, "exanimis 20, mortuus 30, infernus 20, spiritus 20, venenum 20, corpus 5");
 mods.thaumcraft.Research.addCruciblePage("NECROTICBONE", <TConstruct:materials:8>);
 mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 2);
