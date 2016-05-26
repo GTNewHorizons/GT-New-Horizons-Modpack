@@ -16645,15 +16645,19 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
-      "taskLogic": "OR",
+      "logic": "XOR",
+      "taskLogic": "AND",
       "icon": {
         "id": "utilityworlds:uw_portal_void",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -16668,7 +16672,8 @@
         }
       ],
       "preRequisites": [
-        214
+        214,
+        218
       ]
     },
     {
@@ -16688,7 +16693,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "minecraft:stone",
@@ -16696,7 +16701,11 @@
         "OreDict": "",
         "Damage": 0
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -16729,7 +16738,8 @@
         }
       ],
       "preRequisites": [
-        214
+        214,
+        217
       ]
     },
     {
