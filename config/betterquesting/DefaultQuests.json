@@ -18642,7 +18642,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
@@ -18710,7 +18710,12 @@
         }
       ],
       "preRequisites": [
-        245
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
       ]
     },
     {
@@ -18778,8 +18783,8 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
-      "taskLogic": "AND",
+      "logic": "XOR",
+      "taskLogic": "OR",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
         "Count": 1,
@@ -18846,7 +18851,12 @@
         }
       ],
       "preRequisites": [
-        245
+        245,
+        244,
+        247,
+        248,
+        249,
+        250
       ]
     },
     {
@@ -18866,7 +18876,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
@@ -18934,8 +18944,12 @@
         }
       ],
       "preRequisites": [
+        245,
         244,
-        245
+        246,
+        248,
+        249,
+        250
       ]
     },
     {
@@ -18955,7 +18969,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
@@ -19023,7 +19037,12 @@
         }
       ],
       "preRequisites": [
-        245
+        245,
+        244,
+        246,
+        247,
+        249,
+        250
       ]
     },
     {
@@ -19043,7 +19062,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
@@ -19111,8 +19130,12 @@
         }
       ],
       "preRequisites": [
+        245,
         244,
-        245
+        246,
+        247,
+        248,
+        250
       ]
     },
     {
@@ -19132,7 +19155,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
         "id": "Thaumcraft:BlockJarNodeItem",
@@ -19200,9 +19223,12 @@
         }
       ],
       "preRequisites": [
+        245,
+        244,
         246,
+        247,
         248,
-        245
+        249
       ]
     },
     {
@@ -38542,12 +38568,39 @@
       },
       "tasks": [
         {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 28,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
           "target": "GalacticraftCore.EvolvedSkeletonBoss",
           "required": 1,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
             "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
               {
                 "Base": -2.0,
                 "Name": "tc.mobmod"
@@ -38596,7 +38649,7 @@
               0
             ],
             "Leashed": 0,
-            "UUIDLeast": -7451466073367462686,
+            "UUIDLeast": 3550669721897671587,
             "Health": 450,
             "roomCoordsX": 0.0,
             "Air": 0,
@@ -38648,7 +38701,7 @@
               "sitting": 0,
               "tumorWarpPermanent": 0
             },
-            "UUIDMost": 31672829593511,
+            "UUIDMost": 2977706436292,
             "Equipment": [
               {},
               {},
@@ -40991,32 +41044,32 @@
         },
         {
           "id": 244,
-          "x": 184,
-          "y": 168
+          "x": 144,
+          "y": 160
         },
         {
           "id": 246,
-          "x": 264,
-          "y": 168
+          "x": 304,
+          "y": 160
         },
         {
           "id": 247,
-          "x": 184,
-          "y": 216
+          "x": 144,
+          "y": 224
         },
         {
           "id": 248,
-          "x": 264,
-          "y": 216
+          "x": 304,
+          "y": 224
         },
         {
           "id": 249,
-          "x": 184,
+          "x": 144,
           "y": 192
         },
         {
           "id": 250,
-          "x": 264,
+          "x": 304,
           "y": 192
         },
         {
