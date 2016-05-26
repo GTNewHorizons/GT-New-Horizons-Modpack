@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -26579,7 +26579,11 @@
           "GT.ItemCharge": 1000000000
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         351
@@ -26610,7 +26614,11 @@
         "OreDict": "",
         "Damage": 7
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         352
@@ -26717,7 +26725,11 @@
         "OreDict": "",
         "Damage": 6
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         352
@@ -26916,7 +26928,11 @@
         "OreDict": "",
         "Damage": 0
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         352
@@ -27035,7 +27051,11 @@
         "OreDict": "",
         "Damage": 4
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         352
@@ -27266,7 +27286,11 @@
         "OreDict": "",
         "Damage": 9
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         363
@@ -27680,7 +27704,11 @@
         "OreDict": "",
         "Damage": 0
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         370
@@ -27836,7 +27864,11 @@
         "OreDict": "",
         "Damage": 3
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         373
@@ -28275,7 +28307,11 @@
           "aer": 900100
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         380
@@ -28427,7 +28463,11 @@
           }
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         383
