@@ -1003,6 +1003,18 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:11304>, [
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>], 
 [<gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>, <gregtech:gt.metaitem.01:9304>]]); 
 
+// --- Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconium>, [
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>]]);
+
+// --- Awakened Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconiumAwakened>, [
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>]]);
+
 // --- Steel Ingot
 furnace.remove(<gregtech:gt.metaitem.01:11305>, <minecraft:chainmail_boots>);
 

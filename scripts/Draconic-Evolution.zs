@@ -31,6 +31,9 @@ recipes.remove(WyvernECore);
 // --- Wyvern Flux Capacitor
 recipes.remove(WyvernFluxCapicator);
 
+// --- Sword of the Wyvern
+recipes.remove(<DraconicEvolution:wyvernSword>);
+
 // --- Awakened Core
 recipes.remove(AwakenedCore);
 
@@ -97,6 +100,18 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator,[
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
+// --- Sword of the Wyvern
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernSword>,[
+[null, null, null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>],
+[null, null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>],
+[null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null],
+[null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
+[null,  <ore:ingotIridium>, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null, null],
+[null, null,  <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null, null, null],
+[null, null, <AWWayofTime:energySword>, <ore:ingotIridium>, null, null, null, null, null],
+[null, WyvernECore, null, null, <ore:ingotIridium>, null, null, null, null],
+[WyvernCore, null, null, null, null, null, null, null, null]]);
+
 // --- Awakened Core
 mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore,[
 [null, null, null, null, null, null, null, null, null],
@@ -144,5 +159,18 @@ mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore,[
 [null, null, <ore:plateDraconiumAwakened>, null, AwakenedCore, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+
+
+// --- 
+//mods.avaritia.ExtremeCrafting.addShaped(null,[
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
 
 //mods.avaritia.ExtremeCrafting.addShaped(output, ingredients);
