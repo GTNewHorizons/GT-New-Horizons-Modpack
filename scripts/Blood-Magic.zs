@@ -21,8 +21,7 @@ mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundAxe>);
 // --- Bound Shovel
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundShovel>);
 
-// --- Bound Sickel
-mods.bloodmagic.Binding.removeRecipe(<BloodArsenal:bound_sickle>);
+
 
 
 // --- Add recipes ---
@@ -52,6 +51,3 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:bo
 
 // --- Bound Shovel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
-
-// --- Bound Sickel
-mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemHoeElemental>, <BloodArsenal:bound_sickle>);
