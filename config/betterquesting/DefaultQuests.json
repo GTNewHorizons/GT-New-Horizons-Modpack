@@ -27076,12 +27076,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "DraconicEvolution:draconiumDust",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 200,
               "OreDict": "",
               "Damage": 0
             }
@@ -27091,12 +27091,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 200,
+              "id": "DraconicEvolution:draconiumDust",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -27309,7 +27309,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        364
+        457
       ]
     },
     {
@@ -27643,10 +27643,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "Thaumcraft:ItemEldritchObject",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 3
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -27683,7 +27683,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        371
+        458
       ]
     },
     {
@@ -27721,7 +27721,11 @@
         }
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -27930,7 +27934,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ThaumicHorizons:focusAnimation",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -27967,7 +27971,7 @@
         }
       ],
       "preRequisites": [
-        374
+        459
       ]
     },
     {
@@ -28133,7 +28137,11 @@
         }
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -28247,7 +28255,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ThaumicHorizons:vortexStabilizer",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -28293,7 +28301,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        381
+        460
       ]
     },
     {
@@ -28322,7 +28330,11 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -28404,7 +28416,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:dragon_egg",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -28425,7 +28437,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        384
+        461
       ]
     },
     {
@@ -28617,7 +28629,11 @@
         }
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -29039,7 +29055,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "BloodArsenal:amorphic_catalyst",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -29089,7 +29105,7 @@
         }
       ],
       "preRequisites": [
-        393
+        462
       ]
     },
     {
@@ -33572,6 +33588,286 @@
       "rewards": [],
       "preRequisites": [
         916
+      ]
+    },
+    {
+      "questID": 457,
+      "name": "Trigger P",
+      "description": "Trigger if you be on Pluto.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 49,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        364
+      ]
+    },
+    {
+      "questID": 458,
+      "name": "Trigger Pr",
+      "description": "Triggered by the Primordial Pearl.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemEldritchObject",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        371
+      ]
+    },
+    {
+      "questID": 459,
+      "name": "Trigger Fo",
+      "description": "Triggeres if you craft the Primordial Focus",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicHorizons:focusAnimation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        374
+      ]
+    },
+    {
+      "questID": 460,
+      "name": "Trigger V",
+      "description": "Triggers after you craft a Vortex",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicHorizons:vortexStabilizer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        381
+      ]
+    },
+    {
+      "questID": 461,
+      "name": "Trigger TE",
+      "description": "Triggers if you arravied the End first",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        384
+      ]
+    },
+    {
+      "questID": 462,
+      "name": "Trigger Ca",
+      "description": "Triggers if you craft the Catalyst.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BloodArsenal:amorphic_catalyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        393
       ]
     },
     {
@@ -42122,182 +42418,212 @@
         {
           "id": 362,
           "x": 0,
-          "y": 0
+          "y": 32
         },
         {
           "id": 363,
           "x": 32,
-          "y": 0
+          "y": 32
         },
         {
           "id": 364,
           "x": 64,
-          "y": 0
+          "y": 32
         },
         {
           "id": 365,
           "x": 128,
-          "y": 0
+          "y": 32
         },
         {
           "id": 367,
           "x": 160,
-          "y": 0
+          "y": 32
         },
         {
           "id": 368,
           "x": 192,
-          "y": 0
+          "y": 32
         },
         {
           "id": 369,
           "x": 224,
-          "y": 0
+          "y": 32
         },
         {
           "id": 370,
           "x": 256,
-          "y": 0
+          "y": 32
         },
         {
           "id": 366,
           "x": 96,
-          "y": 0
+          "y": 32
         },
         {
           "id": 371,
-          "x": 256,
+          "x": 288,
           "y": 32
         },
         {
           "id": 372,
-          "x": 224,
+          "x": 320,
           "y": 32
         },
         {
           "id": 373,
-          "x": 192,
+          "x": 352,
           "y": 32
         },
         {
           "id": 374,
-          "x": 160,
+          "x": 384,
           "y": 32
         },
         {
           "id": 375,
-          "x": 256,
-          "y": 96
+          "x": 64,
+          "y": 64
         },
         {
           "id": 377,
-          "x": 128,
-          "y": 32
+          "x": 384,
+          "y": 64
         },
         {
           "id": 378,
-          "x": 96,
-          "y": 32
+          "x": 352,
+          "y": 64
         },
         {
           "id": 379,
-          "x": 64,
-          "y": 32
+          "x": 320,
+          "y": 64
         },
         {
           "id": 380,
-          "x": 64,
+          "x": 288,
           "y": 64
         },
         {
           "id": 381,
-          "x": 96,
-          "y": 64
-        },
-        {
-          "id": 382,
-          "x": 128,
-          "y": 64
-        },
-        {
-          "id": 383,
-          "x": 160,
-          "y": 64
-        },
-        {
-          "id": 384,
-          "x": 192,
-          "y": 64
-        },
-        {
-          "id": 385,
-          "x": 224,
-          "y": 64
-        },
-        {
-          "id": 376,
           "x": 256,
           "y": 64
         },
         {
-          "id": 386,
+          "id": 382,
+          "x": 224,
+          "y": 64
+        },
+        {
+          "id": 383,
+          "x": 192,
+          "y": 64
+        },
+        {
+          "id": 384,
           "x": 160,
+          "y": 64
+        },
+        {
+          "id": 385,
+          "x": 128,
+          "y": 64
+        },
+        {
+          "id": 376,
+          "x": 96,
+          "y": 64
+        },
+        {
+          "id": 386,
+          "x": 0,
           "y": 96
         },
         {
           "id": 388,
-          "x": 224,
-          "y": 96
+          "x": 32,
+          "y": 64
         },
         {
           "id": 387,
-          "x": 192,
-          "y": 96
+          "x": 0,
+          "y": 64
         },
         {
           "id": 389,
-          "x": 160,
-          "y": 152
+          "x": 224,
+          "y": 128
         },
         {
           "id": 391,
-          "x": 192,
-          "y": 152
+          "x": 256,
+          "y": 128
         },
         {
           "id": 392,
-          "x": 128,
+          "x": 32,
           "y": 96
         },
         {
           "id": 393,
-          "x": 96,
+          "x": 64,
           "y": 96
         },
         {
           "id": 394,
-          "x": 64,
+          "x": 96,
           "y": 96
         },
         {
           "id": 395,
-          "x": 64,
-          "y": 128
+          "x": 128,
+          "y": 96
         },
         {
           "id": 396,
-          "x": 96,
+          "x": 160,
           "y": 128
         },
         {
           "id": 390,
-          "x": 128,
+          "x": 192,
           "y": 128
         },
         {
           "id": 397,
-          "x": 224,
-          "y": 152
+          "x": 288,
+          "y": 128
+        },
+        {
+          "id": 457,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 458,
+          "x": 320,
+          "y": 0
+        },
+        {
+          "id": 459,
+          "x": 416,
+          "y": 32
+        },
+        {
+          "id": 460,
+          "x": 256,
+          "y": 96
+        },
+        {
+          "id": 461,
+          "x": 160,
+          "y": 96
+        },
+        {
+          "id": 462,
+          "x": 64,
+          "y": 128
         }
       ]
     },
