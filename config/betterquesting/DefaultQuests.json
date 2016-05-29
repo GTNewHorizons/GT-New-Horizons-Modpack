@@ -38568,18 +38568,26 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (0)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -38860,7 +38868,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        162
+      ]
     },
     {
       "questID": 919,
@@ -42317,7 +42327,7 @@
       ]
     },
     {
-      "name": "There are comming...",
+      "name": "They are comming...",
       "description": "The spirits that i\u0027ve called... Demon invasion and beyond. Really deep into dark magic!",
       "quests": [
         {
