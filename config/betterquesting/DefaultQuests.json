@@ -33159,8 +33159,56 @@
       ]
     },
     {
+      "questID": 451,
+      "name": "Trigger LoC",
+      "description": "Triggered by have a Lamp of Cinder in the Inventory.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.lampOfCinders",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        906
+      ]
+    },
+    {
       "questID": 452,
-      "name": "Trigger Singularity",
+      "name": "Trigger S",
       "description": "Triggers by make a Singularity",
       "isMain": false,
       "isSilent": false,
@@ -33208,7 +33256,7 @@
     },
     {
       "questID": 453,
-      "name": "Trigger Shard of Creation",
+      "name": "Trigger Sh",
       "description": "Triggers by making a Shard of Creation",
       "isMain": false,
       "isSilent": false,
@@ -33256,7 +33304,7 @@
     },
     {
       "questID": 454,
-      "name": "Trigger Life and Soul Shard",
+      "name": "Trigger LSS",
       "description": "Triggers by make a Life and Soul Shard",
       "isMain": false,
       "isSilent": false,
@@ -33310,7 +33358,7 @@
     },
     {
       "questID": 455,
-      "name": "Trigger Mysterious Crystal",
+      "name": "Trigger MC",
       "description": "Triggered by finding a Mysterious Crystal",
       "isMain": false,
       "isSilent": false,
@@ -37918,7 +37966,7 @@
     },
     {
       "questID": 908,
-      "name": "Secret: A nice lamp",
+      "name": "Secret: A nice....",
       "description": "Hey, you! I want that lamp. I have something for you in return. You don\u0027t need it anyways, do you?",
       "isMain": false,
       "isSilent": false,
@@ -38036,7 +38084,7 @@
         }
       ],
       "preRequisites": [
-        906
+        451
       ]
     },
     {
@@ -38869,7 +38917,8 @@
         }
       ],
       "preRequisites": [
-        162
+        162,
+        902
       ]
     },
     {
@@ -42504,42 +42553,47 @@
         {
           "id": 918,
           "x": 0,
-          "y": 40
+          "y": 56
         },
         {
           "id": 919,
           "x": 40,
-          "y": 40
+          "y": 56
         },
         {
           "id": 920,
           "x": 80,
-          "y": 40
+          "y": 56
         },
         {
           "id": 921,
           "x": 120,
-          "y": 40
+          "y": 56
         },
         {
           "id": 922,
           "x": 160,
-          "y": 40
+          "y": 56
         },
         {
           "id": 923,
           "x": 200,
-          "y": 40
+          "y": 56
         },
         {
           "id": 924,
           "x": 240,
-          "y": 40
+          "y": 56
         },
         {
           "id": 925,
           "x": 320,
-          "y": 40
+          "y": 56
+        },
+        {
+          "id": 451,
+          "x": 280,
+          "y": 32
         }
       ]
     },
