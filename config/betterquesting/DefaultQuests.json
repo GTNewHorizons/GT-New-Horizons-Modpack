@@ -33161,7 +33161,7 @@
     {
       "questID": 452,
       "name": "Trigger Singularity",
-      "description": "No Description",
+      "description": "Triggers by make a Singularity",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33209,7 +33209,7 @@
     {
       "questID": 453,
       "name": "Trigger Shard of Creation",
-      "description": "No Description",
+      "description": "Triggers by making a Shard of Creation",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33257,7 +33257,7 @@
     {
       "questID": 454,
       "name": "Trigger Life and Soul Shard",
-      "description": "No Description",
+      "description": "Triggers by make a Life and Soul Shard",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33311,7 +33311,7 @@
     {
       "questID": 455,
       "name": "Trigger Mysterious Crystal",
-      "description": "No Description",
+      "description": "Triggered by finding a Mysterious Crystal",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
