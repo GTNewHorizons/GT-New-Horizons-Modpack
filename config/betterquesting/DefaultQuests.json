@@ -23403,7 +23403,7 @@
     },
     {
       "questID": 308,
-      "name": "Zero Point Module",
+      "name": "The final Goal",
       "description": "Thanks to your help, I managed to create the ultimate Energy Source: An encased wormhole. I have no use for it, so you may have it. Thank you for letting my dream come true!",
       "isMain": false,
       "isSilent": false,
@@ -23421,13 +23421,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 32598,
-        "tag": {
-          "GT.ItemCharge": 2000000000000
-        }
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [],
@@ -29766,10 +29763,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bedrock",
+              "id": "Thaumcraft:ItemEldritchObject",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 3
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -32064,7 +32061,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:stone",
+        "id": "AWWayofTime:sanguineHelmet",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -32078,25 +32075,25 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bedrock",
+              "id": "AWWayofTime:sanguineHelmet",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:bedrock",
+              "id": "AWWayofTime:sanguineRobe",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:bedrock",
+              "id": "AWWayofTime:sanguinePants",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:bedrock",
+              "id": "AWWayofTime:sanguineBoots",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -39090,8 +39087,7 @@
         }
       ],
       "preRequisites": [
-        162,
-        902
+        162
       ]
     },
     {
