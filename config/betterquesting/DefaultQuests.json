@@ -26460,7 +26460,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        162
+      ]
     },
     {
       "questID": 352,
@@ -26557,10 +26559,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 47
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -26609,7 +26611,7 @@
         }
       ],
       "preRequisites": [
-        353
+        452
       ]
     },
     {
@@ -26668,7 +26670,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TaintedMagic:EldritchShard",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -26720,7 +26722,7 @@
         }
       ],
       "preRequisites": [
-        355
+        453
       ]
     },
     {
@@ -26869,10 +26871,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "AWWayofTime:bloodMagicBaseItems",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 28
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -26933,7 +26935,7 @@
         }
       ],
       "preRequisites": [
-        358
+        454
       ]
     },
     {
@@ -26992,7 +26994,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "GalaxySpace:item.ElectCrystall",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -27044,7 +27046,7 @@
         }
       ],
       "preRequisites": [
-        360
+        455
       ]
     },
     {
@@ -33154,6 +33156,204 @@
       ],
       "preRequisites": [
         11
+      ]
+    },
+    {
+      "questID": 452,
+      "name": "Trigger Singularity",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 47
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        353
+      ]
+    },
+    {
+      "questID": 453,
+      "name": "Trigger Shard of Creation",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:EldritchShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        355
+      ]
+    },
+    {
+      "questID": 454,
+      "name": "Trigger Life and Soul Shard",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:bloodMagicBaseItems",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            },
+            {
+              "id": "AWWayofTime:bloodMagicBaseItems",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        358
+      ]
+    },
+    {
+      "questID": 455,
+      "name": "Trigger Mysterious Crystal",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ElectCrystall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        360
       ]
     },
     {
@@ -41602,68 +41802,88 @@
       "quests": [
         {
           "id": 308,
-          "x": 240,
+          "x": 304,
           "y": 64
         },
         {
           "id": 351,
-          "x": 0,
+          "x": 64,
           "y": 0
         },
         {
           "id": 352,
-          "x": 0,
+          "x": 64,
           "y": 64
         },
         {
           "id": 353,
-          "x": 80,
+          "x": 112,
           "y": 0
         },
         {
           "id": 354,
-          "x": 112,
+          "x": 176,
           "y": 0
         },
         {
           "id": 355,
-          "x": 80,
+          "x": 112,
           "y": 32
         },
         {
           "id": 356,
-          "x": 112,
+          "x": 176,
           "y": 32
         },
         {
           "id": 357,
-          "x": 80,
+          "x": 112,
           "y": 64
         },
         {
           "id": 358,
-          "x": 80,
+          "x": 112,
           "y": 96
         },
         {
           "id": 359,
-          "x": 112,
+          "x": 176,
           "y": 96
         },
         {
           "id": 360,
-          "x": 80,
-          "y": 128
-        },
-        {
-          "id": 361,
           "x": 112,
           "y": 128
         },
         {
-          "id": 350,
+          "id": 361,
           "x": 176,
+          "y": 128
+        },
+        {
+          "id": 350,
+          "x": 240,
           "y": 64
+        },
+        {
+          "id": 452,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 453,
+          "x": 144,
+          "y": 32
+        },
+        {
+          "id": 454,
+          "x": 144,
+          "y": 96
+        },
+        {
+          "id": 455,
+          "x": 144,
+          "y": 128
         }
       ]
     },
