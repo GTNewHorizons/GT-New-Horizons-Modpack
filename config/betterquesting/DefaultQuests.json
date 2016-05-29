@@ -33405,6 +33405,179 @@
       ]
     },
     {
+      "questID": 456,
+      "name": "Trigger Life",
+      "description": "Triggers the Life Canister Quest after a Wither death.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "target": "WitherBoss",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "weapon.penetrateArmor"
+              },
+              {
+                "Base": 3.0,
+                "Name": "weapon.daze"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.attackSpeed"
+              },
+              {
+                "Base": 0.0,
+                "Name": "weapon.mountedBonus"
+              },
+              {
+                "Base": -2.0,
+                "Name": "tc.mobmod"
+              },
+              {
+                "Base": 300.0,
+                "Name": "generic.maxHealth"
+              },
+              {
+                "Base": 0.0,
+                "Name": "generic.knockbackResistance"
+              },
+              {
+                "Base": 0.6000000238418579,
+                "Name": "generic.movementSpeed"
+              },
+              {
+                "Base": 40.0,
+                "Name": "generic.followRange"
+              },
+              {
+                "Base": 2.0,
+                "Name": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable": 0,
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "Invul": 0,
+            "FallDistance": 0.0,
+            "DeathTime": 0,
+            "DropChances": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "PersistenceRequired": 0,
+            "id": "WitherBoss",
+            "HealF": 300.0,
+            "Motion": [
+              0,
+              0,
+              0
+            ],
+            "Leashed": 0,
+            "UUIDLeast": -5130901120732393594,
+            "Health": 300,
+            "Air": 0,
+            "OnGround": 0,
+            "Dimension": 0,
+            "Rotation": [
+              0,
+              0
+            ],
+            "CreatureInfusion": {
+              "PlayerInfusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "InfusionCosts": {
+                "Aspects": ""
+              },
+              "tumorWarpTemp": 0,
+              "Infusions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb": 0,
+              "toggleInvisible": 0,
+              "tumorWarp": 0,
+              "sitting": 0,
+              "tumorWarpPermanent": 0
+            },
+            "UUIDMost": 14321298824739,
+            "Equipment": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CustomName": "",
+            "Pos": [
+              0,
+              0,
+              0
+            ],
+            "Fire": 0,
+            "CanPickUpLoot": 0,
+            "HurtTime": 0,
+            "AttackTime": 0,
+            "CustomNameVisible": 0
+          },
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        916
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -37984,7 +38157,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TwilightForest:item.lampOfCinders",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -38668,10 +38841,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TConstruct:heartCanister",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -38716,7 +38889,7 @@
         }
       ],
       "preRequisites": [
-        916
+        456
       ]
     },
     {
@@ -42507,48 +42680,48 @@
         },
         {
           "id": 909,
-          "x": 296,
-          "y": 168
+          "x": 392,
+          "y": 128
         },
         {
           "id": 910,
-          "x": 280,
-          "y": 120
+          "x": 240,
+          "y": 128
         },
         {
           "id": 911,
-          "x": 360,
-          "y": 120
+          "x": 352,
+          "y": 160
         },
         {
           "id": 912,
-          "x": 344,
-          "y": 96
+          "x": 392,
+          "y": 160
         },
         {
           "id": 913,
-          "x": 344,
-          "y": 168
+          "x": 280,
+          "y": 160
         },
         {
           "id": 914,
-          "x": 280,
-          "y": 144
+          "x": 240,
+          "y": 160
         },
         {
           "id": 915,
-          "x": 296,
-          "y": 96
+          "x": 320,
+          "y": 160
         },
         {
           "id": 916,
           "x": 320,
-          "y": 144
+          "y": 96
         },
         {
           "id": 917,
-          "x": 360,
-          "y": 144
+          "x": 392,
+          "y": 96
         },
         {
           "id": 918,
@@ -42594,6 +42767,11 @@
           "id": 451,
           "x": 280,
           "y": 32
+        },
+        {
+          "id": 456,
+          "x": 360,
+          "y": 96
         }
       ]
     },
