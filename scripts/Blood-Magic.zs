@@ -9,6 +9,19 @@
 // --- Blood Altar 
 recipes.remove(<AWWayofTime:Altar>);
 
+// --- Bound Blade
+mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:energySword>);
+
+// --- Bound Pickaxe
+mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundPickaxe>);
+
+// --- Bound Axe
+mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundAxe>);
+
+// --- Bound Shovel
+mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundShovel>);
+
+
 
 
 // --- Add recipes ---
@@ -26,3 +39,15 @@ game.setLocalization("bloodmagic.research_page.BLOODALTAR", "The Blood Altar is 
 mods.thaumcraft.Infusion.addRecipe("BLOODALTAR", <Thaumcraft:blockStoneDevice:2>, [<TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockMetalDevice>], "alienis 80, fames 100, auram 60, praecantatio 40", <AWWayofTime:Altar>, 15);
 mods.thaumcraft.Research.addInfusionPage("BLOODALTAR", <AWWayofTime:Altar>);
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 5);
+
+// --- Bound Blade
+mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemSwordElemental>, <AWWayofTime:energySword>);
+
+// --- Bound Pickaxe
+mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemPickaxeElemental>, <AWWayofTime:boundPickaxe>);
+
+// --- Bound Axe
+mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:boundAxe>);
+
+// --- Bound Shovel
+mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
