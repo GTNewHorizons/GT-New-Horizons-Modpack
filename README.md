@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.4 is out (26.05.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
+Version 1.0.8.5 is out (30.05.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,10 +69,10 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.8.4 --- 26.05.2016<BR>
+## Modlist - NewHorizons 1.0.8.5 --- 30.05.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
-* Adventure Backpack 0.8e22<BR>
+* Adventure Backpack 0.8e23<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
@@ -89,7 +89,7 @@ Number of players: ~10<BR>
 * Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
 * Better HUD 1.3.4<BR>
-* Better Questing 1.0.101<BR>
+* Better Questing 1.0.118<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -109,17 +109,17 @@ Number of players: ~10<BR>
 * CofhLib	1.1.1.181<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2d<BR>
+* Draconic Evolution	1.0.2e<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.2.0.34<BR>
-* Ender IO	2.3.0.424<BR>
+* Ender Core	0.2.0.35<BR>
+* Ender IO	2.3.0.426<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Loot Bags 1.0<BR>
 * Enhanced Portals 3	3.0.12<BR>
-* Extra Cells	2.3.10b190<BR>
+* Extra Cells	2.3.10b192<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.23<BR>
 * Flood Light	1.1.1.124<BR>
@@ -136,7 +136,7 @@ Number of players: ~10<BR>
 * Gem Blocks For Greg 1.5.0<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.22custom<BR>
+* Gregtech	5.08.33.25custom<BR>
 * GT New Horizons Core Mod	1.1.43<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
@@ -155,7 +155,7 @@ Number of players: ~10<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.50<BR>
-* Jabba	1.2.1a<BR>
+* Jabba	1.2.2<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
 * Lunatius Core	1.1.2.21<BR>
@@ -199,13 +199,13 @@ Number of players: ~10<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
-* RFExpansion-1.0.7<BR>
+* RF Expansion 1.0.8<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Schematica	1.7.6.131<BR>
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.1<BR>
-* Standard Expansion 1.0.78<BR>
+* Standard Expansion 1.0.81<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
