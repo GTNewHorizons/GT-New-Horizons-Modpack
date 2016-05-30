@@ -29,7 +29,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1334,7 +1334,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1394,7 +1394,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1463,7 +1463,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1535,7 +1535,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1601,7 +1601,7 @@
         "OreDict": "",
         "Damage": 24
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1647,7 +1647,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1719,7 +1719,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1802,7 +1802,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1862,7 +1862,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -1942,7 +1942,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2001,7 +2001,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2076,7 +2076,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2135,7 +2135,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2207,7 +2207,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -2239,7 +2239,7 @@
         "OreDict": "",
         "Damage": 8538
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2299,7 +2299,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2383,7 +2383,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2455,7 +2455,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2526,7 +2526,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2602,7 +2602,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2662,7 +2662,7 @@
         "OreDict": "",
         "Damage": 2300
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2736,7 +2736,7 @@
         "OreDict": "",
         "Damage": 16
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2852,7 +2852,7 @@
         "OreDict": "",
         "Damage": 32
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -2937,7 +2937,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3043,7 +3043,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3113,7 +3113,7 @@
         "OreDict": "",
         "Damage": 100
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3218,7 +3218,7 @@
           "Durability": 1000
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3299,7 +3299,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Cow",
@@ -3358,7 +3358,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3424,7 +3424,7 @@
         "OreDict": "",
         "Damage": 100
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3502,7 +3502,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3582,7 +3582,7 @@
         "OreDict": "",
         "Damage": 118
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3653,7 +3653,7 @@
         "OreDict": "",
         "Damage": 119
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3717,7 +3717,7 @@
         "OreDict": "",
         "Damage": 11308
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3783,7 +3783,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3910,7 +3910,7 @@
         "OreDict": "",
         "Damage": 106
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -3968,7 +3968,7 @@
         "OreDict": "",
         "Damage": 109
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4026,7 +4026,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4103,7 +4103,7 @@
         "OreDict": "",
         "Damage": 112
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4161,7 +4161,7 @@
         "OreDict": "",
         "Damage": 115
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4207,7 +4207,7 @@
         "OreDict": "",
         "Damage": 116
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4282,7 +4282,7 @@
         "OreDict": "",
         "Damage": 113
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4335,7 +4335,7 @@
     {
       "questID": 57,
       "name": "Upgrade: Extractor",
-      "description": "This quest is optional. An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the normal extractor does also extract your nerves...",
+      "description": "This quest is optional. An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the UNLOCKED extractor does also extract your nerves...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4357,7 +4357,7 @@
         "OreDict": "",
         "Damage": 110
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4432,7 +4432,7 @@
         "OreDict": "",
         "Damage": 107
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4512,7 +4512,7 @@
           "mFluidState": 1
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4560,7 +4560,7 @@
         "OreDict": "",
         "Damage": 101
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4618,7 +4618,7 @@
         "OreDict": "",
         "Damage": 102
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4676,7 +4676,7 @@
         "OreDict": "",
         "Damage": 105
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4734,7 +4734,7 @@
         "OreDict": "",
         "Damage": 103
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4792,7 +4792,7 @@
         "OreDict": "",
         "Damage": 104
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4867,7 +4867,7 @@
         "OreDict": "",
         "Damage": 11305
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -4945,7 +4945,7 @@
         "OreDict": "",
         "Damage": 32700
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5034,7 +5034,7 @@
         "OreDict": "",
         "Damage": 1360
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5137,7 +5137,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5195,7 +5195,7 @@
         "OreDict": "",
         "Damage": 17880
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5315,7 +5315,7 @@
         "OreDict": "",
         "Damage": 1120
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5392,7 +5392,7 @@
         "OreDict": "",
         "Damage": 32600
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5463,7 +5463,7 @@
         "OreDict": "",
         "Damage": 21032
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5534,7 +5534,7 @@
         "OreDict": "",
         "Damage": 11
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5605,7 +5605,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5736,7 +5736,7 @@
         "OreDict": "",
         "Damage": 14
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -5865,7 +5865,7 @@
         "OreDict": "",
         "Damage": 108
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6009,7 +6009,7 @@
         "OreDict": "",
         "Damage": 1000
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6159,7 +6159,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6217,7 +6217,7 @@
         "OreDict": "",
         "Damage": 14
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6275,7 +6275,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6386,7 +6386,7 @@
         "OreDict": "",
         "Damage": 1002
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6476,7 +6476,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6542,7 +6542,7 @@
         "OreDict": "",
         "Damage": 12
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6600,7 +6600,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6685,7 +6685,7 @@
         "OreDict": "",
         "Damage": 1003
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6758,7 +6758,7 @@
         "OreDict": "",
         "Damage": 15
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6818,7 +6818,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6911,7 +6911,7 @@
         "OreDict": "",
         "Damage": 1120
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -6982,7 +6982,7 @@
         "OreDict": "",
         "Damage": 12
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7053,7 +7053,7 @@
         "OreDict": "",
         "Damage": 351
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7122,7 +7122,7 @@
         "OreDict": "",
         "Damage": 32630
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7191,7 +7191,7 @@
         "OreDict": "",
         "Damage": 32650
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7260,7 +7260,7 @@
         "OreDict": "",
         "Damage": 32610
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7329,7 +7329,7 @@
         "OreDict": "",
         "Damage": 301
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7398,7 +7398,7 @@
         "OreDict": "",
         "Damage": 32640
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7467,7 +7467,7 @@
         "OreDict": "",
         "Damage": 551
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7536,7 +7536,7 @@
         "OreDict": "",
         "Damage": 211
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7605,7 +7605,7 @@
         "OreDict": "",
         "Damage": 291
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7674,7 +7674,7 @@
         "OreDict": "",
         "Damage": 591
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7743,7 +7743,7 @@
         "OreDict": "",
         "Damage": 601
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7812,7 +7812,7 @@
         "OreDict": "",
         "Damage": 611
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7881,7 +7881,7 @@
         "OreDict": "",
         "Damage": 251
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -7950,7 +7950,7 @@
         "OreDict": "",
         "Damage": 2019
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8018,7 +8018,7 @@
           "aer": 2500
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -8050,7 +8050,7 @@
         "OreDict": "",
         "Damage": 221
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8121,7 +8121,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8192,7 +8192,7 @@
         "OreDict": "",
         "Damage": 44
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8252,7 +8252,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8326,7 +8326,7 @@
           "Data": 100
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8389,7 +8389,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8449,7 +8449,7 @@
         "OreDict": "",
         "Damage": 38
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8523,7 +8523,7 @@
           "Data": 100
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8597,7 +8597,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8668,7 +8668,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8728,7 +8728,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8788,7 +8788,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8848,7 +8848,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8908,7 +8908,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -8946,7 +8946,7 @@
     {
       "questID": 119,
       "name": "A quite different storage",
-      "description": "Normal chests can fill up rather quickly if you happen to collect mob drops like swords and / or armor. By using a cabinet, you can store up to 270 items of the same type",
+      "description": "UNLOCKED chests can fill up rather quickly if you happen to collect mob drops like swords and / or armor. By using a cabinet, you can store up to 270 items of the same type",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8968,7 +8968,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9034,7 +9034,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9106,7 +9106,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9172,7 +9172,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9243,7 +9243,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9309,7 +9309,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9375,7 +9375,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9447,7 +9447,7 @@
         "OreDict": "",
         "Damage": 372
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9516,7 +9516,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9667,7 +9667,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9769,7 +9769,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9850,7 +9850,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9916,7 +9916,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -9982,7 +9982,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10048,7 +10048,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10125,7 +10125,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10221,7 +10221,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10281,7 +10281,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10356,7 +10356,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10473,7 +10473,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10533,7 +10533,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10617,7 +10617,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10710,7 +10710,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10771,7 +10771,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10837,7 +10837,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10904,7 +10904,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10971,7 +10971,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11038,7 +11038,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11105,7 +11105,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11153,7 +11153,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11201,7 +11201,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11249,7 +11249,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11297,7 +11297,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11363,7 +11363,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11423,7 +11423,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11483,7 +11483,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11543,7 +11543,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11609,7 +11609,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11681,7 +11681,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11752,7 +11752,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11818,7 +11818,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11884,7 +11884,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -11951,7 +11951,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12009,7 +12009,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12092,7 +12092,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12196,7 +12196,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12256,7 +12256,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12322,7 +12322,7 @@
         "OreDict": "",
         "Damage": 11379
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12382,7 +12382,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12448,7 +12448,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -12506,7 +12506,7 @@
                         "UUIDLeast": -6477178668949725305,
                         "Amount": 1.0,
                         "Operation": 0,
-                        "Name": "normal"
+                        "Name": "UNLOCKED"
                       }
                     ],
                     "Name": "tc.mobmod"
@@ -12655,7 +12655,7 @@
                         "UUIDLeast": -6477178668949725305,
                         "Amount": 1.0,
                         "Operation": 0,
-                        "Name": "normal"
+                        "Name": "UNLOCKED"
                       }
                     ],
                     "Name": "tc.mobmod"
@@ -12802,7 +12802,7 @@
                         "UUIDLeast": -6477178668949725305,
                         "Amount": 1.0,
                         "Operation": 0,
-                        "Name": "normal"
+                        "Name": "UNLOCKED"
                       }
                     ],
                     "Name": "tc.mobmod"
@@ -12948,7 +12948,7 @@
                         "UUIDLeast": -6477178668949725305,
                         "Amount": 1.0,
                         "Operation": 0,
-                        "Name": "normal"
+                        "Name": "UNLOCKED"
                       }
                     ],
                     "Name": "tc.mobmod"
@@ -13106,7 +13106,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13190,7 +13190,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13256,7 +13256,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13322,7 +13322,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13394,7 +13394,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13454,7 +13454,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13514,7 +13514,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13580,7 +13580,7 @@
         "OreDict": "",
         "Damage": 14
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13669,7 +13669,7 @@
           "sacrifice": 0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13732,7 +13732,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13810,7 +13810,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13870,7 +13870,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -13966,7 +13966,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14047,7 +14047,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14146,7 +14146,7 @@
         "OreDict": "",
         "Damage": 22
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14236,7 +14236,7 @@
         "OreDict": "",
         "Damage": 16
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14335,7 +14335,7 @@
         "OreDict": "",
         "Damage": 380
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14431,7 +14431,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14502,7 +14502,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14574,7 +14574,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14640,7 +14640,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14712,7 +14712,7 @@
         "OreDict": "",
         "Damage": 5
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14778,7 +14778,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14838,7 +14838,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14898,7 +14898,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -14958,7 +14958,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [
         {
@@ -15020,7 +15020,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15082,7 +15082,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15178,7 +15178,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15280,7 +15280,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15366,7 +15366,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15432,7 +15432,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15492,7 +15492,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15530,7 +15530,7 @@
     {
       "questID": 202,
       "name": "Accelerating things",
-      "description": "A normal Quarry won\u0027t satisfy your needs for MOOORE, so a speed upgrade is required",
+      "description": "A UNLOCKED Quarry won\u0027t satisfy your needs for MOOORE, so a speed upgrade is required",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15552,7 +15552,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15623,7 +15623,7 @@
         "OreDict": "",
         "Damage": 460
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15683,7 +15683,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15749,7 +15749,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15809,7 +15809,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15869,7 +15869,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -15929,7 +15929,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16001,7 +16001,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16061,7 +16061,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16127,7 +16127,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16193,7 +16193,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16259,7 +16259,7 @@
         "OreDict": "",
         "Damage": 15
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16357,7 +16357,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16429,7 +16429,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Reach asteroid belt",
@@ -16523,7 +16523,7 @@
         "OreDict": "",
         "Damage": 1191
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16583,7 +16583,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -16632,7 +16632,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -16699,7 +16699,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16765,7 +16765,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16837,7 +16837,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16897,7 +16897,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -16957,7 +16957,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17023,7 +17023,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17083,7 +17083,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Twilight arrival",
@@ -17156,7 +17156,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17225,7 +17225,7 @@
         "OreDict": "",
         "Damage": 15
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17283,7 +17283,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17321,7 +17321,7 @@
     {
       "questID": 229,
       "name": "Magic stones",
-      "description": "This whole place here is filled with magic. No matter where you look at, it\u0027s just everywhere. You wonder what happens to normal stone if it\u0027s exposed to large amounts of magic for such a long time. Maybe it\u0027s time to go mining?",
+      "description": "This whole place here is filled with magic. No matter where you look at, it\u0027s just everywhere. You wonder what happens to UNLOCKED stone if it\u0027s exposed to large amounts of magic for such a long time. Maybe it\u0027s time to go mining?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17343,7 +17343,7 @@
         "OreDict": "",
         "Damage": 541
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17452,7 +17452,7 @@
           "aer": 2500
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17587,7 +17587,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17658,7 +17658,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17727,7 +17727,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17828,7 +17828,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17897,7 +17897,7 @@
         "OreDict": "",
         "Damage": 27306
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -17962,7 +17962,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18043,7 +18043,7 @@
           "aer": 5000
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18126,7 +18126,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18220,7 +18220,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18291,7 +18291,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18366,7 +18366,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18435,7 +18435,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18513,7 +18513,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18600,7 +18600,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18682,7 +18682,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18741,7 +18741,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18834,7 +18834,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -18927,7 +18927,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19020,7 +19020,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19113,7 +19113,7 @@
           "nodeid": "0:-312:64:54"
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19195,7 +19195,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19264,7 +19264,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -19296,7 +19296,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19366,7 +19366,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19435,7 +19435,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19501,7 +19501,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19567,7 +19567,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19613,7 +19613,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19671,7 +19671,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19729,7 +19729,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [
         {
@@ -19773,7 +19773,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19856,7 +19856,7 @@
           "aer": 10000
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -19889,7 +19889,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -19963,7 +19963,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20031,7 +20031,7 @@
           "aer": 2500
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -20063,7 +20063,7 @@
         "OreDict": "",
         "Damage": 27028
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20135,7 +20135,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20195,7 +20195,7 @@
         "OreDict": "",
         "Damage": 5
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20255,7 +20255,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20315,7 +20315,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20375,7 +20375,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20435,7 +20435,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20510,7 +20510,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20583,7 +20583,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20656,7 +20656,7 @@
         "OreDict": "",
         "Damage": 11
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20727,7 +20727,7 @@
         "OreDict": "",
         "Damage": 9
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20798,7 +20798,7 @@
         "OreDict": "",
         "Damage": 5
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20869,7 +20869,7 @@
         "OreDict": "",
         "Damage": 14
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -20952,7 +20952,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Visit \"Outer Lands\"",
@@ -21008,7 +21008,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21068,7 +21068,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21128,7 +21128,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Thaumcraft.CultistCleric",
@@ -21189,7 +21189,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21249,7 +21249,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21315,7 +21315,7 @@
         "OreDict": "",
         "Damage": 17
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21411,7 +21411,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21459,7 +21459,7 @@
     {
       "questID": 287,
       "name": "What could possibly go wrong?",
-      "description": "256 Essentia in one block! Now that is what I call storage. Does make weird sounds, but I guess it\u0027s just normal",
+      "description": "256 Essentia in one block! Now that is what I call storage. Does make weird sounds, but I guess it\u0027s just UNLOCKED",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21481,7 +21481,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21547,7 +21547,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21607,7 +21607,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21667,7 +21667,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21763,7 +21763,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21844,7 +21844,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -21937,7 +21937,7 @@
         "OreDict": "",
         "Damage": 5
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22024,7 +22024,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22111,7 +22111,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22198,7 +22198,7 @@
           ]
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22614,7 +22614,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22674,7 +22674,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22741,7 +22741,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22801,7 +22801,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22861,7 +22861,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -22945,7 +22945,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23068,7 +23068,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23135,7 +23135,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23201,7 +23201,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23261,7 +23261,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23366,7 +23366,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23426,7 +23426,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [
         {
@@ -23484,7 +23484,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23565,7 +23565,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23636,7 +23636,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23713,7 +23713,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23784,7 +23784,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23861,7 +23861,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -23932,7 +23932,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24009,7 +24009,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24075,7 +24075,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24146,7 +24146,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24223,7 +24223,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24294,7 +24294,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24360,7 +24360,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24431,7 +24431,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24502,7 +24502,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24573,7 +24573,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24644,7 +24644,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24715,7 +24715,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24786,7 +24786,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24857,7 +24857,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24920,7 +24920,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -24980,7 +24980,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25040,7 +25040,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25100,7 +25100,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25164,7 +25164,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25230,7 +25230,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25296,7 +25296,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25362,7 +25362,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25422,7 +25422,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25494,7 +25494,7 @@
         "OreDict": "",
         "Damage": 28
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25572,7 +25572,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25662,7 +25662,7 @@
         "OreDict": "",
         "Damage": 11
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25722,7 +25722,7 @@
         "OreDict": "",
         "Damage": 41
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25782,7 +25782,7 @@
         "OreDict": "",
         "Damage": 9
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25848,7 +25848,7 @@
         "OreDict": "",
         "Damage": 38
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25920,7 +25920,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -25986,7 +25986,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.demon",
@@ -26039,7 +26039,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26102,7 +26102,7 @@
         "OreDict": "",
         "Damage": 39
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.hellhound",
@@ -26155,7 +26155,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.goblinmog",
@@ -26216,7 +26216,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26312,7 +26312,7 @@
         "OreDict": "",
         "Damage": 17
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26426,7 +26426,7 @@
           ]
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26489,7 +26489,7 @@
           "GT.ItemCharge": 1000000000
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -26525,7 +26525,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -26561,7 +26561,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26636,7 +26636,7 @@
         "OreDict": "",
         "Damage": 6
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -26672,7 +26672,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26747,7 +26747,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26837,7 +26837,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -26873,7 +26873,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -26960,7 +26960,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -26996,7 +26996,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27071,7 +27071,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27146,7 +27146,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27194,7 +27194,7 @@
         "OreDict": "",
         "Damage": 9
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -27230,7 +27230,7 @@
         "OreDict": "",
         "Damage": 11129
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27293,7 +27293,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Pluto",
@@ -27345,7 +27345,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27413,7 +27413,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27476,7 +27476,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27544,7 +27544,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27612,7 +27612,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -27648,7 +27648,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27720,7 +27720,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -27777,7 +27777,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -27813,7 +27813,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27876,7 +27876,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27939,7 +27939,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -27977,7 +27977,7 @@
     {
       "questID": 378,
       "name": "Activated draconium dust",
-      "description": "At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to normal dust as soon as I stop to feed it with Vis. If I only could contain it, surround it with a forcefield...",
+      "description": "At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to UNLOCKED dust as soon as I stop to feed it with Vis. If I only could contain it, surround it with a forcefield...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27999,7 +27999,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28067,7 +28067,7 @@
         "OreDict": "",
         "Damage": 32684
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28136,7 +28136,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -28224,7 +28224,7 @@
           "aer": 900100
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -28260,7 +28260,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28329,7 +28329,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -28385,7 +28385,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -28421,7 +28421,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Dragon Dimension",
@@ -28465,7 +28465,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28513,7 +28513,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28537,7 +28537,7 @@
     {
       "questID": 388,
       "name": "Arcane shards",
-      "description": "While the normal world is based on Vis and Primal energy, the end seems to be quite different. This Arcane shard is the crystallized form of this Energy, just like the primal shards you used so many of in the past. By pure randomness, you discovered that it reacts with the Metal you\u0027ve found.",
+      "description": "While the UNLOCKED world is based on Vis and Primal energy, the end seems to be quite different. This Arcane shard is the crystallized form of this Energy, just like the primal shards you used so many of in the past. By pure randomness, you discovered that it reacts with the Metal you\u0027ve found.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28559,7 +28559,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28628,7 +28628,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -28690,7 +28690,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28751,7 +28751,7 @@
         "OreDict": "",
         "Damage": 32654
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -28931,7 +28931,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29012,7 +29012,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29060,7 +29060,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29133,7 +29133,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29196,7 +29196,7 @@
         "OreDict": "",
         "Damage": 11129
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29244,7 +29244,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29310,7 +29310,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.babayaga",
@@ -29361,7 +29361,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.hornedHuntsman",
@@ -29412,7 +29412,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29470,7 +29470,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29528,7 +29528,7 @@
         "OreDict": "",
         "Damage": 141
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.lordoftorment",
@@ -29579,7 +29579,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.goblinmog",
@@ -29638,7 +29638,7 @@
         "OreDict": "",
         "Damage": 23
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "witchery.demon",
@@ -29689,7 +29689,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29836,7 +29836,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29896,7 +29896,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -29956,7 +29956,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30016,7 +30016,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30082,7 +30082,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30142,7 +30142,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30220,7 +30220,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30313,7 +30313,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30379,7 +30379,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30445,7 +30445,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30518,7 +30518,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30578,7 +30578,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30701,7 +30701,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30830,7 +30830,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30924,7 +30924,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -30984,7 +30984,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31044,7 +31044,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31104,7 +31104,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31164,7 +31164,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31224,7 +31224,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31302,7 +31302,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31374,7 +31374,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31452,7 +31452,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31518,7 +31518,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31614,7 +31614,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31692,7 +31692,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31776,7 +31776,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31836,7 +31836,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31902,7 +31902,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -31962,7 +31962,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32022,7 +32022,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32082,7 +32082,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32160,7 +32160,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32298,7 +32298,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32455,7 +32455,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32629,7 +32629,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32788,7 +32788,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -32933,7 +32933,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -33051,7 +33051,7 @@
         "OreDict": "",
         "Damage": 8
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -33898,7 +33898,7 @@
           "charge": 4990
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -33970,7 +33970,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34006,8 +34006,8 @@
                       "Slot": 2
                     },
                     {
-                      "UID1": "forestry.fertilityNormal",
-                      "UID0": "forestry.fertilityNormal",
+                      "UID1": "forestry.fertilityUNLOCKED",
+                      "UID0": "forestry.fertilityUNLOCKED",
                       "Slot": 3
                     },
                     {
@@ -34086,8 +34086,8 @@
                       "Slot": 2
                     },
                     {
-                      "UID1": "forestry.fertilityNormal",
-                      "UID0": "forestry.fertilityNormal",
+                      "UID1": "forestry.fertilityUNLOCKED",
+                      "UID0": "forestry.fertilityUNLOCKED",
                       "Slot": 3
                     },
                     {
@@ -34185,7 +34185,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34245,7 +34245,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34305,7 +34305,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34365,7 +34365,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34425,7 +34425,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Visit Mars",
@@ -34635,7 +34635,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34696,7 +34696,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34756,7 +34756,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34816,7 +34816,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34864,7 +34864,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34924,7 +34924,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -34984,7 +34984,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35044,7 +35044,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35092,7 +35092,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35152,7 +35152,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35212,7 +35212,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35272,7 +35272,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35337,7 +35337,7 @@
           "chromosome": 0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35407,7 +35407,7 @@
           "chromosome": 4
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35477,7 +35477,7 @@
           "chromosome": 4
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35547,7 +35547,7 @@
           "chromosome": 9
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35617,7 +35617,7 @@
           "chromosome": 5
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35687,7 +35687,7 @@
           "chromosome": 5
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35757,7 +35757,7 @@
           "chromosome": 9
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35827,7 +35827,7 @@
           "chromosome": 5
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35897,7 +35897,7 @@
           "chromosome": 8
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -35967,7 +35967,7 @@
           "chromosome": 8
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36032,7 +36032,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36234,7 +36234,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36427,7 +36427,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36485,7 +36485,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36545,7 +36545,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "Visit the End",
@@ -36601,7 +36601,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "HardcoreEnderExpansion.EnderEye",
@@ -36654,7 +36654,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "HardcoreEnderExpansion.EnderGuardian",
@@ -36723,7 +36723,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "DraconicEvolution.EnderDragon",
@@ -36776,7 +36776,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36836,7 +36836,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36896,7 +36896,7 @@
         "OreDict": "",
         "Damage": 27
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -36962,7 +36962,7 @@
         "OreDict": "",
         "Damage": 28
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37066,7 +37066,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37132,7 +37132,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37192,7 +37192,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37252,7 +37252,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37312,7 +37312,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37372,7 +37372,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37450,7 +37450,7 @@
         "OreDict": "",
         "Damage": 5
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37510,7 +37510,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37576,7 +37576,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37651,7 +37651,7 @@
           ]
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37861,7 +37861,7 @@
         "OreDict": "",
         "Damage": 13
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -37945,7 +37945,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Hydra",
@@ -38009,7 +38009,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Minoshroom",
@@ -38073,7 +38073,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Naga",
@@ -38135,7 +38135,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Twilight Lich",
@@ -38199,7 +38199,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Knight Phantom",
@@ -38263,7 +38263,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Tower Ghast",
@@ -38327,7 +38327,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Snow Queen",
@@ -38391,7 +38391,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "TwilightForest.Yeti Boss",
@@ -38455,7 +38455,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -38578,7 +38578,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Creeper",
@@ -38646,7 +38646,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "PigZombie",
@@ -38714,7 +38714,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Spider",
@@ -38782,7 +38782,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Skeleton",
@@ -38850,7 +38850,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Blaze",
@@ -38918,7 +38918,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "Zombie",
@@ -38986,7 +38986,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "SpecialMobs.SpecialEnderman",
@@ -39058,7 +39058,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "WitherBoss",
@@ -39139,7 +39139,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -39210,7 +39210,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "name": "New Location",
@@ -39411,7 +39411,7 @@
         "OreDict": "",
         "Damage": 4
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftMars.CreeperBoss",
@@ -39585,7 +39585,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftCore.EvolvedBossBlaze",
@@ -39759,7 +39759,7 @@
         "OreDict": "",
         "Damage": 10
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftCore.EvolvedBossGhast",
@@ -39925,7 +39925,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftCore.EvolvedBossCrystallBrain",
@@ -40091,7 +40091,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftCore.EvolvedBossSlime",
@@ -40252,7 +40252,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "target": "GalacticraftCore.EvolvedBossCrab",
@@ -40420,7 +40420,7 @@
         "OreDict": "",
         "Damage": 10
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [
         {
