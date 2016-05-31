@@ -23421,10 +23421,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 32598,
+        "tag": {
+          "GT.ItemCharge": 2000000000000
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [],
@@ -26556,10 +26559,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 47
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -26667,7 +26670,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "TaintedMagic:EldritchShard",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -26868,10 +26871,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "AWWayofTime:bloodMagicBaseItems",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 28
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -26991,7 +26994,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "GalaxySpace:item.ElectCrystall",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -27643,10 +27646,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "Thaumcraft:ItemEldritchObject",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 3
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27934,7 +27937,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "ThaumicHorizons:focusAnimation",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -28255,7 +28258,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "ThaumicHorizons:vortexStabilizer",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -28416,7 +28419,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "minecraft:dragon_egg",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -29055,7 +29058,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "BloodArsenal:amorphic_catalyst",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -38450,7 +38453,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "TwilightForest:item.lampOfCinders",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -39134,10 +39137,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "TConstruct:heartCanister",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 2
       },
       "visibility": "UNLOCKED",
       "tasks": [
