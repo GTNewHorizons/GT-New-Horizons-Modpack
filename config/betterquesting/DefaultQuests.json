@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -16627,7 +16627,7 @@
       "logic": "XOR",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:stone",
+        "id": "DraconicEvolution:dezilsMarshmallow",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -19572,6 +19572,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ForbiddenMagic:UmbralBush",
