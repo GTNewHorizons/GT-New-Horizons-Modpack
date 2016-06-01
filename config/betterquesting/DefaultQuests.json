@@ -363,7 +363,7 @@
             "TotalDurability": 56
           },
           "display": {
-            "Name": "§fFlint Pickaxe"
+            "Name": "ï¿½fFlint Pickaxe"
           }
         }
       },
@@ -2310,7 +2310,7 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "oreChalcopyrite",
               "Damage": 855
             },
             {
@@ -2933,7 +2933,7 @@
             "TotalDurability": 356
           },
           "display": {
-            "Name": "§fBronze Pickaxe"
+            "Name": "ï¿½fBronze Pickaxe"
           }
         }
       },
@@ -9520,7 +9520,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -19580,7 +19580,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
@@ -26506,7 +26506,7 @@
     {
       "questID": 353,
       "name": "A problem that matters",
-      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow… But .. How?",
+      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehowï¿½ But .. How?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38509,7 +38509,7 @@
                   "Moss": 3,
                   "Effect1": 4,
                   "HarvestLevel": 0,
-                  "ModifierTip1": "§2Moss",
+                  "ModifierTip1": "ï¿½2Moss",
                   "RenderHead": 9,
                   "ModDurability": 0.0,
                   "Shoddy": 0.0,
@@ -38523,7 +38523,7 @@
                   "TotalDurability": 27,
                   "MiningSpeed2": 100,
                   "Head": 9,
-                  "Tooltip1": "§2Auto-Repair",
+                  "Tooltip1": "ï¿½2Auto-Repair",
                   "Attack": 6,
                   "Handle": 9,
                   "Broken": 0,
@@ -38533,7 +38533,7 @@
                   "Modifiers": 20
                 },
                 "display": {
-                  "Name": "§fPaper Cleaver"
+                  "Name": "ï¿½fPaper Cleaver"
                 }
               }
             }
