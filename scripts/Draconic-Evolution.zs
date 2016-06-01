@@ -2,6 +2,14 @@
 
 
 
+// --- Importing Stuff ---
+
+
+import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
+
+
+
 // --- Variables ---
 
 
@@ -64,11 +72,35 @@ recipes.remove(DraconicECore);
 // --- Draconic Flux Capacitor
 recipes.remove(DraconicFluxCapacitor);
 
+// --- Draconic Helm
+recipes.remove(<DraconicEvolution:draconicHelm>);
+
+// --- Draconic Chestplate
+recipes.remove(<DraconicEvolution:draconicChest>);
+
+// --- Draconic Leggings
+recipes.remove(<DraconicEvolution:draconicLeggs>);
+
+// --- Draconic Boots
+recipes.remove(<DraconicEvolution:draconicBoots>);
+
 // --- Chaotic Core
 recipes.remove(ChaoticCore);
 
 // --- Charm of Disloctotion
 recipes.remove(DCham);
+
+// --- Energy Infuser
+recipes.remove(<DraconicEvolution:energyInfuser>);
+
+// --- Particel Generator
+recipes.remove(<DraconicEvolution:particleGenerator>);
+
+// --- Draconic Infused Obsidian
+recipes.remove(<DraconicEvolution:infusedObsidian>);
+
+// --- Draconic Evolution Tablet
+recipes.remove(<DraconicEvolution:infoTablet>);
 
 
 // --- Add Recipes ---
@@ -76,12 +108,12 @@ recipes.remove(DCham);
 // --- Charm of Disloctotion
 mods.avaritia.ExtremeCrafting.addShaped(DCham,[
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, null, <ore:dustDraconium>, null, null, null, null],
-[null, null, <ore:dustDraconium>, <ore:dustBlaze>, <ore:dustDraconium>, <ore:dustBlaze>, <ore:dustDraconium>, null, null],
-[null, null, null, <ore:dustDraconium>, DraconicCore, <ore:dustDraconium>, null, null, null],
-[null, null, null, <ore:dustDraconium>, <ore:pearlEnderEye>, <ore:dustDraconium>, null, null, null],
-[null, null, <ore:dustDraconium>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:dustDraconium>, null, null],
-[null, null, null, null, <ore:dustDraconium>, null, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:dustBlaze>, <ore:plateDraconium>, <ore:dustBlaze>, <ore:plateDraconium>, null, null],
+[null, null, null, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, null, null, null],
+[null, null, null, <ore:plateDraconium>, <ore:pearlEnderEye>, <ore:plateDraconium>, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:plateDraconium>, null, null],
+[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -90,9 +122,9 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernCore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
-[null, null, null, <ore:plateDraconium>, <ore:plateIridium>, <ore:plateDraconium>, null, null, null],
-[null, null, DraconicCore,  <ore:plateIridium>, <ore:gemNetherStar>,  <ore:plateIridium>, DraconicCore, null, null],
-[null, null, null, <ore:plateDraconium>,  <ore:plateIridium>, <ore:plateDraconium>, null, null, null],
+[null, null, null, <ore:plateDraconium>, <ore:plateNeutronium>, <ore:plateDraconium>, null, null, null],
+[null, null, DraconicCore,  <ore:plateNeutronium>, <ore:gemNetherStar>,  <ore:plateNeutronium>, DraconicCore, null, null],
+[null, null, null, <ore:plateDraconium>,  <ore:plateNeutronium>, <ore:plateDraconium>, null, null, null],
 [null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -123,110 +155,108 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator,[
 
 // --- Sword of the Wyvern
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernSword>,[
-[null, null, null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>],
-[null, null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>],
-[null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null],
-[null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
-[null,  <ore:ingotIridium>, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null, null],
-[null, null,  <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null, null, null],
-[null, null, <AWWayofTime:energySword>, <ore:ingotIridium>, null, null, null, null, null],
-[null, WyvernECore, null, null, <ore:ingotIridium>, null, null, null, null],
+[null, null, null, null, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>],
+[null, null, null, null, null, null, <ore:plateDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>],
+[null, null, null, null, null, <ore:plateDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>, null],
+[null, null, null, null, <ore:plateDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>, null, null],
+[null,  <ore:ingotNeutronium>, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>, null, null, null],
+[null, null,  <ore:ingotNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null, null],
+[null, null, <AWWayofTime:energySword>, <ore:ingotNeutronium>, null, null, null, null, null],
+[null, WyvernECore, null, null, <ore:ingotNeutronium>, null, null, null, null],
 [WyvernCore, null, null, null, null, null, null, null, null]]);
 
 // --- Pickaxe of the Wyvern
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernPickaxe>, [
-[null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null],
-[<ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, WyvernECore, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>],
-[<ore:ingotDraconium>, <ore:ingotDraconium>, null, null, WyvernCore, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>],
+[null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null],
+[<ore:plateDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, WyvernECore, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconium>, null, null, WyvernCore, null, null, <ore:plateDraconium>, <ore:plateDraconium>],
 [null, null, null, null, <AWWayofTime:boundPickaxe>, null, null, null, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null]]);
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null]]);
 
 // --- Shovel of the Wyvern
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernShovel>, [
-[null, null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>],
-[null, null, null, null, null, <ore:ingotDraconium>, <ore:ingotDraconium>, WyvernECore, <ore:ingotDraconium>],
-[null, null, null, null, null, null, WyvernCore, <ore:ingotDraconium>, <ore:ingotDraconium>],
-[null, null, null, null, null, <AWWayofTime:boundShovel>, null, <ore:ingotDraconium>, null],
-[null, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, <ore:ingotIridium>, null, null, null, null, null],
-[null, null, <ore:ingotIridium>, null, null, null, null, null, null],
-[null, <ore:ingotIridium>, null, null, null, null, null, null, null],
-[<ore:ingotIridium>, null, null, null, null, null, null, null, null]]);
+[null, null, null, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>],
+[null, null, null, null, null, <ore:plateDraconium>, <ore:ingotDraconium>, WyvernECore, <ore:plateDraconium>],
+[null, null, null, null, null, null, WyvernCore, <ore:ingotDraconium>, <ore:plateDraconium>],
+[null, null, null, null, null, <AWWayofTime:boundShovel>, null, <ore:plateDraconium>, null],
+[null, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, <ore:ingotNeutronium>, null, null, null, null, null],
+[null, null, <ore:ingotNeutronium>, null, null, null, null, null, null],
+[null, <ore:ingotNeutronium>, null, null, null, null, null, null, null],
+[<ore:ingotNeutronium>, null, null, null, null, null, null, null, null]]);
 
 // --- Bow of the Wyvern
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernBow>, [
-[null, null, null, <ore:ingotDraconium>, WyvernECore, null, null, null, null],
-[null, null, <ore:ingotDraconium>, null, <ore:ingotIridium>, null, null, null, null],
-[null, <ore:ingotDraconium>, null, null, <ore:ingotIridium>, null, null, null, null],
-[<ore:ingotDraconium>, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[<BloodArsenal:bound_bow>, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[<ore:ingotDraconium>, null, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, <ore:ingotDraconium>, null, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, <ore:ingotDraconium>, null, <ore:ingotIridium>, null, null, null, null],
-[null, null, null, <ore:ingotDraconium>, WyvernCore, null, null, null, null]]);
+[null, null, null, <ore:plateDraconium>, WyvernECore, null, null, null, null],
+[null, null, <ore:plateDraconium>, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, <ore:plateDraconium>, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[<ore:plateDraconium>, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[<BloodArsenal:bound_bow>, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[<ore:plateDraconium>, null, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, <ore:plateDraconium>, null, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, <ore:plateDraconium>, null, <ore:ingotNeutronium>, null, null, null, null],
+[null, null, null, <ore:plateDraconium>, WyvernCore, null, null, null, null]]);
 
 // --- Wyvern Helm
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernHelm>, [
-[null, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, null, WyvernCore, <ore:ingotDraconium>, WyvernECore, null, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, null, <AWWayofTime:sanguineHelmet>, null, <ore:ingotDraconium>, <ore:ingotIridium>, null],
+[null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, null, WyvernCore, <AWWayofTime:sanguineHelmet>, WyvernCore, null, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateNeutronium>, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Wyvern Chestplate
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernChest>, [
-[null, <ore:ingotIridium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotIridium>, null],
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, WyvernCore, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, WyvernECore, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <AWWayofTime:sanguineRobe>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, null]]);
+[null, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, null],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, WyvernCore, <AWWayofTime:sanguineRobe>, WyvernCore, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null]]);
 
 // --- Wyvern Leggings
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernLeggs>, [
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, <ore:ingotIridium>, <AWWayofTime:sanguinePants>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, WyvernECore, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, WyvernCore, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, null, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]]);
-
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <AWWayofTime:sanguinePants>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, WyvernECore, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, WyvernCore, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, WyvernCore, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, null, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>]]);
 
 // --- Wyvern Boots
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernBoots>, [
-[null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <AWWayofTime:sanguineBoots>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null, <ore:ingotIridium>, <ore:ingotDraconium>, <ore:ingotIridium>, null],
-[<ore:ingotIridium>,WyvernECore, <ore:ingotDraconium>, <ore:ingotIridium>, null, <ore:ingotIridium>, <ore:ingotDraconium>, WyvernCore, <ore:ingotIridium>],
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>],
+[null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <AWWayofTime:sanguineBoots>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, WyvernECore, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null, <ore:plateNeutronium>, <ore:plateDraconium>, <ore:plateNeutronium>, null],
+[<ore:plateNeutronium>,WyvernCore, <ore:plateDraconium>, <ore:plateNeutronium>, null, <ore:plateNeutronium>, <ore:plateDraconium>, WyvernCore, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, null, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
 
 // --- Awakened Core
 mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>, <ore:plateNeutronium>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, WyvernCore,  <ore:plateNeutronium>, <dreamcraft:item.ManyullynCrystal>,  <ore:plateNeutronium>, WyvernCore, null, null],
-[null, null, null, <ore:plateDraconiumAwakened>,  <ore:plateNeutronium>, <ore:plateDraconiumAwakened>, null, null, null],
+[null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, null, null, null],
+[null, null, WyvernCore,  <ore:plateDraconium>, <dreamcraft:item.ManyullynCrystal>,  <ore:plateDraconium>, WyvernCore, null, null],
+[null, null, null, <ore:plateDraconiumAwakened>,  <ore:plateDraconium>, <ore:plateDraconiumAwakened>, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -255,6 +285,54 @@ mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor,[
 [null, null, null, null, <ore:plateDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
+// --- Draconic Helm
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicHelm>, [
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, DraconicECore, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, null, AwakenedCore, <DraconicEvolution:wyvernHelm>, AwakenedCore, null, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Draconic Chestplate
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicChest>, [
+[null, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, null],
+[<ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, AwakenedCore, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, DraconicECore, <DraconicEvolution:wyvernChest>, DraconicECore, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null]]);
+
+// --- Draconic Leggings
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicLeggs>, [
+[<ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, <ore:plateDraconium>, <DraconicEvolution:wyvernLeggs>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, DraconicECore, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, AwakenedCore, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, AwakenedCore, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>]]);
+
+// --- Draconic Boots
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicBoots>, [
+[null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <DraconicEvolution:wyvernBoots>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, DraconicECore, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null],
+[<ore:plateDraconium>,AwakenedCore, <ore:plateDraconiumAwakened>, <ore:plateDraconium>, null, <ore:plateDraconium>, <ore:plateDraconiumAwakened>, AwakenedCore, <ore:plateDraconium>],
+[<ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
 // --- Chaotic Core
 mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore,[
 [null, null, null, null, null, null, null, null, null],
@@ -267,9 +345,56 @@ mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore,[
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
+// --- Energy Infuser
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyInfuser>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <ore:craftingToolScrewdriver>, null, null, null, null],
+[null, null, null, <ore:screwDraconium>, <DraconicEvolution:particleGenerator>, <ore:screwDraconium>, null, null, null],
+[null, null, null, <DraconicEvolution:infusedObsidian>, WyvernCore, <DraconicEvolution:infusedObsidian>, null, null, null],
+[null, null, null, WyvernCore, WyvernFluxCapicator, WyvernCore, null, null, null],
+[null, null, <ore:screwDraconium>, <DraconicEvolution:infusedObsidian>, WyvernCore, <DraconicEvolution:infusedObsidian>, <ore:screwDraconium>, null, null],
+[null, null, <ore:blockDraconium>, <ore:blockDraconium>, <DraconicEvolution:particleGenerator>, <ore:blockDraconium>, <ore:blockDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Particel Generator 
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null],
+[null, null, null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null],
+[null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null, <ore:itemVibrantCrystal>, null],
+[null, <ore:stickBlaze>, null, <ore:stickBlaze>, DraconicCore, <ore:stickBlaze>, null, <ore:stickBlaze>, null],
+[null, <ore:itemVibrantCrystal>, null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null],
+[null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null, null, null],
+[null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+
+// --- Draconic Evolution Tablet
+Assembler.addRecipe(<DraconicEvolution:infoTablet>, <dreamcraft:item.StonePlate> * 4, <DraconicEvolution:draconiumDust>, 400, 480);
+
+
+
+
+// --- Blastfurnace Recipes ---
+
+
+
+
+// --- Draconic Infused Obsidian
+BlastFurnace.addRecipe([<DraconicEvolution:infusedObsidian>], <liquid:molten.draconium> * 144, [<minecraft:obsidian>, <minecraft:blaze_powder>], 1200, 1920, 7500); 
+
+
 
 // --- 
-//mods.avaritia.ExtremeCrafting.addShaped(null,[
+//mods.avaritia.ExtremeCrafting.addShaped(null, [
 //[null, null, null, null, null, null, null, null, null],
 //[null, null, null, null, null, null, null, null, null],
 //[null, null, null, null, null, null, null, null, null],
