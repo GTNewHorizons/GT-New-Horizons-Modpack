@@ -22,6 +22,13 @@ val DraconicECore = <DraconicEvolution:draconiumEnergyCore:1>;
 val DraconicFluxCapacitor = <DraconicEvolution:draconiumFluxCapacitor:1>;
 val ChaoticCore = <DraconicEvolution:chaoticCore>;
 val DCham = <DraconicEvolution:teleporterMKI>;
+val IRotor = <DraconicEvolution:reactorCraftingPart:1>;
+val ORotor = <DraconicEvolution:reactorCraftingPart:2>;
+
+
+
+
+
 
 // --- Remove Recipes ---
 
@@ -129,14 +136,35 @@ recipes.remove(<DraconicEvolution:infoTablet>);
 // --- Item Dislocator
 recipes.remove(<DraconicEvolution:magnet>);
 
-// --- Aw Item Dislocator
+// --- Advanced Item Dislocator
 recipes.remove(<DraconicEvolution:magnet:1>);
+
+// --- Reactor Stabilizer Inner Rotor
+recipes.remove(IRotor);
+
+// --- Reactor Stabilizer Outer Rotor
+recipes.remove(ORotor);
+
+// --- Reactor Stabilizer Rotor Assembly
+recipes.remove(<DraconicEvolution:reactorCraftingPart:3>);
+
+// --- Reactor Stabilizer Focus Ring
+recipes.remove(<DraconicEvolution:reactorCraftingPart:4>);
+
+// --- Reactor Stabilizer Frame
+recipes.remove(<DraconicEvolution:reactorCraftingPart>);
+
+// --- Reactor Stabilizer
+recipes.remove(<DraconicEvolution:reactorStabilizer>);
 
 
 
 
 
 // --- Add Recipes ---
+
+
+
 
 // --- Charm of Disloctotion
 mods.avaritia.ExtremeCrafting.addShaped(DCham,[
@@ -510,7 +538,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-// --- Aw Item Dislocator
+// --- Advanced Item Dislocator
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
@@ -519,6 +547,90 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
 [null, null, null, null, null, null, <DraconicEvolution:magnet>, null, null],
 [null, null, null, null, null, null, <ore:ingotDraconiumAwakened>, null, null],
 [null, <DraconicEvolution:draconium:2>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Inner Rotor
+mods.avaritia.ExtremeCrafting.addShaped(IRotor, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, <ore:plateDraconiumAwakened>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <ore:plateDraconiumAwakened>, null],
+[null, WyvernCore, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, WyvernCore, null],
+[null, <ore:plateDraconiumAwakened>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <dreamcraft:item.EngravedEnergyChip>, <ore:plateDraconiumAwakened>, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Outer Rotor
+mods.avaritia.ExtremeCrafting.addShaped(ORotor, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, <ore:plateDraconium>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <ore:plateDraconium>, null],
+[null, DraconicCore, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, DraconicCore, null],
+[null, <ore:plateDraconium>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <dreamcraft:item.EngravedDiamondCrystalChip>, <ore:plateDraconium>, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Rotor Assembly
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCraftingPart:3>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, <ore:stickLongDraconium>, <ore:stickLongDraconium>, ORotor, ORotor, ORotor, ORotor, ORotor, null],
+[null, <ore:stickLongDraconium>, IRotor, IRotor, IRotor, IRotor, IRotor, null, null],
+[null, <DraconicEvolution:draconium:2>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, WyvernCore, <ore:plateDraconium>, null],
+[null, <ore:stickLongDraconium>, IRotor, IRotor, IRotor, IRotor, IRotor, null, null],
+[null, <ore:stickLongDraconium>, <ore:stickLongDraconium>, ORotor, ORotor, ORotor, ORotor, ORotor, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Focus Ring
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCraftingPart:4>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, <ore:stickLongDraconium>, <ore:stickLongDraconium>, ORotor, ORotor, ORotor, ORotor, ORotor, null],
+[null, <ore:stickLongDraconium>, IRotor, IRotor, IRotor, IRotor, IRotor, null, null],
+[null, <DraconicEvolution:draconium:2>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, <gregtech:gt.blockcasings4:7>, WyvernCore, <ore:plateDraconium>, null],
+[null, <ore:stickLongDraconium>, IRotor, IRotor, IRotor, IRotor, IRotor, null, null],
+[null, <ore:stickLongDraconium>, <ore:stickLongDraconium>, ORotor, ORotor, ORotor, ORotor, ORotor, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Focus Ring
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCraftingPart:4>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, <ore:stickRoseGold>, ORotor, <ore:stickRoseGold>, null, null, null],
+[null, null, <ore:stickRoseGold>, <ore:stickRoseGold>, WyvernCore, <ore:stickRoseGold>, <ore:stickRoseGold>, null, null],
+[null, <ore:stickRoseGold>, <ore:stickRoseGold>, IRotor, <ore:lensNetherStar>, IRotor, <ore:stickRoseGold>, <ore:stickRoseGold>, null],
+[null, ORotor, WyvernCore, <ore:lensNetherStar>, <ore:lensDiamond>, <ore:lensNetherStar>, WyvernCore, ORotor, null],
+[null, <ore:stickRoseGold>, <ore:stickRoseGold>, IRotor, <ore:lensNetherStar>, IRotor, <ore:stickRoseGold>, <ore:stickRoseGold>, null],
+[null, null, <ore:stickRoseGold>, <ore:stickRoseGold>, WyvernCore, <ore:stickRoseGold>, <ore:stickRoseGold>, null, null],
+[null, null, null, <ore:stickRoseGold>, ORotor, <ore:stickRoseGold>, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Stabilizer Frame
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCraftingPart>, [
+[<dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, null, null, null, null, null, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>, <ore:plateDraconiumAwakened>, AwakenedCore, <ore:plateDraconiumAwakened>, <dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, null, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, null, null, null, null, null, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>],
+[<dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>, <dreamcraft:item.BlackPlutoniumPlate>]]);
+
+// --- Reactor Stabilizer
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorStabilizer>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, <dreamcraft:item.BlackPlutoniumPlate>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <dreamcraft:item.BlackPlutoniumPlate>, null],
+[null, <ore:plateDraconiumAwakened>, <dreamcraft:item.EngravedManyullynCrystalChip>, DraconicECore, <ore:plateDraconiumAwakened>, DraconicECore, <dreamcraft:item.EngravedManyullynCrystalChip>, <ore:plateDraconiumAwakened>, null],
+[null, <DraconicEvolution:reactorCraftingPart>, ChaoticCore, <DraconicEvolution:reactorCraftingPart:4>, <ore:blockCosmicNeutronium>, <DraconicEvolution:reactorCraftingPart:3>, ChaoticCore, <ore:plateDraconiumAwakened>, null],
+[null, <ore:plateDraconiumAwakened>, <dreamcraft:item.EngravedManyullynCrystalChip>, DraconicECore, <ore:plateDraconiumAwakened>, DraconicECore, <dreamcraft:item.EngravedManyullynCrystalChip>, <ore:plateDraconiumAwakened>, null],
+[null, <dreamcraft:item.BlackPlutoniumPlate>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <dreamcraft:item.BlackPlutoniumPlate>, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
