@@ -7,6 +7,9 @@
 
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ForgeHammer;
+import mods.gregtech.Packer;
+import mods.gregtech.ImplosionCompressor;
 
 
 
@@ -156,6 +159,102 @@ recipes.remove(<DraconicEvolution:reactorCraftingPart>);
 
 // --- Reactor Stabilizer
 recipes.remove(<DraconicEvolution:reactorStabilizer>);
+
+// --- Draconic Reactor Core
+recipes.remove(<DraconicEvolution:reactorCore>);
+
+// --- Dissenchanter
+recipes.remove(<DraconicEvolution:dissEnchanter>);
+
+// --- Resurrection Stone
+recipes.remove(<DraconicEvolution:draconium:1>);
+
+// --- Draconic Chest
+recipes.remove(<DraconicEvolution:draconiumChest>);
+
+// --- Dislocator Pedestal
+recipes.remove(<DraconicEvolution:teleporterStand>);
+
+// --- Dislocator Receptacle
+recipes.remove(<DraconicEvolution:dislocatorReceptacle>);
+
+// --- Safty Match
+recipes.remove(<DraconicEvolution:safetyMatch:*>);
+
+// --- Safty Match Box
+recipes.remove(<DraconicEvolution:safetyMatch>);
+
+// --- Chaos Shard
+recipes.remove(<DraconicEvolution:chaosShard>);
+
+// --- Large Chaos Fragment
+recipes.remove(<DraconicEvolution:chaosFragment:2>);
+
+// --- Small Chaos Fragment
+recipes.remove(<DraconicEvolution:chaosFragment:1>);
+
+// --- Tiny Chaos Fragment
+recipes.remove(<DraconicEvolution:chaosFragment>);
+
+// --- Distortion Flame
+recipes.remove(<DraconicEvolution:xRayBlock>);
+
+// --- Energy Core
+recipes.remove(<DraconicEvolution:energyStorageCore>);
+
+// --- Energy Pylon
+recipes.remove(<DraconicEvolution:energyPylon>);
+
+// --- Energy Relay
+recipes.remove(<DraconicEvolution:energyCrystal>);
+
+// --- Wireless Energy Tranceiver
+recipes.remove(<DraconicEvolution:energyCrystal:4>);
+
+// --- Advanced Energy Relay
+recipes.remove(<DraconicEvolution:energyCrystal:1>);
+
+// --- Advanced Wireless Energy Tranceiver
+recipes.remove(<DraconicEvolution:energyCrystal:5>);
+
+// --- Crystal Binder
+recipes.remove(<DraconicEvolution:wrench>);
+
+// --- Ender Arrow
+recipes.remove(<DraconicEvolution:enderArrow>);
+
+// --- Generator
+recipes.remove(<DraconicEvolution:generator:3>);
+
+// --- Player Detector
+recipes.remove(<DraconicEvolution:playerDetector>);
+
+// --- Advanced Player Detector
+recipes.remove(<DraconicEvolution:playerDetectorAdvanced>);
+
+// --- Rain Sensor
+recipes.remove(<DraconicEvolution:rainSensor>);
+
+// --- Weather Control
+recipes.remove(<DraconicEvolution:weatherController>);
+
+// --- Sun Dial
+recipes.remove(<DraconicEvolution:sunDial>);
+
+// --- Mob Grinder
+recipes.remove(<DraconicEvolution:grinder:3>);
+
+// --- Fluid Gate
+recipes.remove(<DraconicEvolution:flowGate:6>);
+
+// --- Flux Gate
+recipes.remove(<DraconicEvolution:flowGate>);
+
+// --- Reactor Energy Injector
+recipes.remove(<DraconicEvolution:reactorEnergyInjector>);
+
+// --- Upgrade Modifier
+recipes.remove(<DraconicEvolution:upgradeModifier>);
 
 
 
@@ -634,6 +733,262 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorStabilizer>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
+// --- Draconic Reactor Core
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCore>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null, null, null],
+[null, null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null, null],
+[null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconiumAwakened>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null],
+[null, <ore:plateDraconiumAwakened>, <DraconicEvolution:draconium:2>, <ore:blockDraconiumAwakened>, <DraconicEvolution:chaosShard>, <ore:blockDraconiumAwakened>, <DraconicEvolution:draconium:2>, <ore:plateDraconiumAwakened>, null],
+[null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconiumAwakened>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null],
+[null, null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null, null],
+[null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Dissenchanter
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dissEnchanter>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, null, null],
+[null, null, <ore:plateDiamond>, <minecraft:enchanted_book>, DraconicCore, <minecraft:enchanted_book>, <ore:plateDiamond>, null, null],
+[null, null, <ore:plateDiamond>, DraconicCore, <minecraft:enchanting_table>, DraconicCore, <ore:plateDiamond>, null, null],
+[null, null, <ore:plateDiamond>, <minecraft:enchanted_book>, DraconicCore, <minecraft:enchanted_book>, <ore:plateDiamond>, null, null],
+[null, null, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+
+// --- Resurrection Stone
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconium:1>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <DraconicEvolution:mobSoul>.withTag({Name: "Any"}), <ore:plateDraconium>, WyvernCore, <ore:plateDraconium>, <DraconicEvolution:mobSoul>.withTag({Name: "Any"}), null, null],
+[null, null, <ore:plateDraconium>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconium>, null, null],
+[null, null, WyvernCore, <DraconicEvolution:draconium:2>, WyvernCore, <DraconicEvolution:draconium:2>, WyvernCore, null, null],
+[null, null, <ore:plateDraconium>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <DraconicEvolution:mobSoul>.withTag({Name: "Any"}), <ore:plateDraconium>, WyvernCore, <ore:plateDraconium>, <DraconicEvolution:mobSoul>.withTag({Name: "Any"}), null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Draconic Chest
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconiumChest>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:screwDraconium>, <ore:plateDoubleDraconium>, <ore:plateDoubleDraconium>, <ore:plateDoubleDraconium>, <ore:screwDraconium>, null, null],
+[null, null, <ore:plateDoubleDraconium>, <gregtech:gt.metaitem.01:32744>, <EnderIO:blockCapBank:1>.withTag({type: "SIMPLE"}), <gregtech:gt.blockmachines:263>, <ore:plateDoubleDraconium>, null, null],
+[null, null, <ore:plateDoubleDraconium>, <ore:chestDiamond>, WyvernCore, <ore:chestDiamond>, <ore:plateDoubleDraconium>, null, null],
+[null, null, <ore:screwDraconium>, <ore:plateDoubleDraconium>, <ore:plateDoubleDraconium>, <ore:plateDoubleDraconium>, <ore:screwDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Dislocator Pedestal
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterStand>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:slabStone>, <ore:stickBlaze>, DCham, <ore:stickBlaze>, <ore:slabStone>, null, null],
+[null, null, null, <ore:slabStone>, <ore:slabStone>, <ore:slabStone>, null, null, null],
+[null, null, null, null, <DraconicEvolution:infusedObsidian>, null, null, null, null],
+[null, null, null, null, <DraconicEvolution:infusedObsidian>, null, null, null, null],
+[null, null, null, null, <DraconicEvolution:infusedObsidian>, null, null, null, null],
+[null, null, null, <ore:stone>, <DraconicEvolution:infusedObsidian>, <ore:stone>, null, null, null],
+[null, null, <ore:slabStone>, <ore:slabStone>, <ore:slabStone>, <ore:slabStone>, <ore:slabStone>, null, null]]);
+
+// --- Dislocator Receptacle
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dislocatorReceptacle>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateSilver>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateSilver>, null, null],
+[null, null, <ore:plateDraconium>, <DraconicEvolution:infusedObsidian>, <ore:plateDraconium>, <DraconicEvolution:infusedObsidian>, <ore:plateDraconium>, null, null],
+[null, null, DraconicCore, <ore:plateDraconium>, <DraconicEvolution:teleporterStand>, <ore:plateDraconium>, DraconicCore, null, null],
+[null, null, <ore:plateDraconium>, <DraconicEvolution:infusedObsidian>, <ore:plateDraconium>, <DraconicEvolution:infusedObsidian>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateSilver>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateSilver>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Safty Match
+recipes.addShapeless(<DraconicEvolution:safetyMatch:1000>, [<gregtech:gt.metaitem.01:32471>, <ore:dustDraconium>]);
+
+// --- Distortion Flame
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:xRayBlock> * 4, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
+[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
+[null, null, <ore:paneGlassColorless>, <ore:plateDraconium>, <ore:gemDiamond>, <ore:plateDraconium>, <ore:paneGlassColorless>, null, null],
+[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
+[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Energy Core
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyStorageCore>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernCore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, WyvernECore, WyvernCore, <DraconicEvolution:draconium:2>, WyvernCore, WyvernECore, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernCore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Energy Pylon
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyPylon>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:gemEnderEye>, <ore:plateEmerald>, <ore:plateDiamond>, <ore:plateEmerald>, <ore:gemEnderEye>, null, null],
+[null, null, <ore:plateEmerald>, <ore:plateDiamond>, DraconicCore, <ore:plateDiamond>, <ore:plateEmerald>, null, null],
+[null, null, <ore:plateDiamond>, DraconicCore, <ore:blockDraconium>, DraconicCore, <ore:plateDiamond>, null, null],
+[null, null, <ore:plateEmerald>, <ore:plateDiamond>, DraconicCore, <ore:plateDiamond>, <ore:plateEmerald>, null, null],
+[null, null, <ore:gemEnderEye>, <ore:plateEmerald>, <ore:plateDiamond>, <ore:plateEmerald>, <ore:gemEnderEye>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Energy Relay
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyCrystal>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <ore:gemExquisiteDiamond>, null, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
+[null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
+[null, null, null, <ore:gemExquisiteDiamond>, DraconicCore, <ore:gemExquisiteDiamond>, null, null, null],
+[null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, null, null, null, null],
+[null, null, null, null, <ore:gemExquisiteDiamond>, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Advanced Energy Relay
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyCrystal:1>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <ore:plateDraconiumAwakened>, null, null, null, null],
+[null, null, null, null, DraconicCore, null, null, null, null],
+[null, null, null, <ore:gemExquisiteRuby>, WyvernCore, <ore:gemExquisiteRuby>, null, null, null],
+[null, null, null, DraconicCore, <DraconicEvolution:energyCrystal>, DraconicCore, null, null, null],
+[null, null, null, <ore:gemExquisiteRuby>, WyvernCore, <ore:gemExquisiteRuby>, null, null, null],
+[null, null, null, null, DraconicCore, null, null, null, null],
+[null, null, null, null, <ore:plateDraconiumAwakened>, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Crystal Binder
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wrench>, [
+[null, null, null, null, null, <ore:plateDraconium>, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, <ore:plateDiamond>, null, null, null],
+[null, null, null, null, <ore:plateDraconium>, <ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDraconium>, <ore:plateDraconium>],
+[null, null, null, <ore:stickBlaze>, <ore:stickBlaze>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null],
+[null, null, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, null, null, null, null],
+[null, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, null, null, null, null, null],
+[<ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, null, null, null, null, null, null],
+[DraconicCore, <ore:stickBlaze>, null, null, null, null, null, null, null]]);
+
+// --- Generator
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:generator:3>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateSteel>, <ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:plateSteel>, null, null],
+[null, null, <ore:ingotBrickNether>, <gregtech:gt.metaitem.01:32500>, DraconicCore, <gregtech:gt.metaitem.01:32500>, <ore:ingotBrickNether>, null, null],
+[null, null, <ore:ingotBrickNether>, <BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone>, <ore:craftingIronFurnace>, <BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone>, <ore:ingotBrickNether>, null, null],
+[null, null, <ore:plateSteel>, <ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:plateSteel>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Advanced Player Detector
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:playerDetectorAdvanced>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:gemEnderEye>, <minecraft:compass>, <ore:gemEnderEye>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <minecraft:skull:1>, <DraconicEvolution:playerDetector>, <minecraft:skull:1>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:gemEnderEye>, <minecraft:compass>, <ore:gemEnderEye>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Weather Control
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:weatherController>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <DraconicEvolution:rainSensor>, <OpenBlocks:bigbutton>, <minecraft:daylight_detector>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, DraconicCore, <Forestry:factory:7>, DraconicCore, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:stickBlaze>, <ore:gemExquisiteEmerald>, <ore:stickBlaze>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Sun Dial
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:sunDial>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <minecraft:dragon_egg>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <DraconicEvolution:dragonHeart>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, WyvernCore, <DraconicEvolution:chaosShard>, WyvernCore, <ore:plateDraconiumAwakened>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, AwakenedCore, <DraconicEvolution:weatherController>, AwakenedCore, <ore:plateDraconiumAwakened>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Mob Grinder
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:grinder:3>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <Thaumcraft:ItemSwordElemental>, <EnderIO:blockKillerJoe>, <Thaumcraft:ItemSwordElemental>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <gregtech:gt.metaitem.01:32604>, <DraconicEvolution:generator:3>, <gregtech:gt.metaitem.01:32604>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Fluid Gate
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:flowGate:6>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:pipeHugeNeutronium>, <ProjRed|Integration:projectred.integration.gate:26>, WyvernCore, <ProjRed|Integration:projectred.integration.gate:26>, <ore:pipeHugeNeutronium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, DraconicCore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Flux Gate
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:flowGate>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <EnderIO:itemPowerConduit:2>, <ProjRed|Integration:projectred.integration.gate:26>, WyvernCore, <ProjRed|Integration:projectred.integration.gate:26>, <EnderIO:itemPowerConduit:2>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Reactor Energy Injector
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorEnergyInjector>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, ORotor, null, <ore:plateDraconiumAwakened>, null, ORotor, null, null],
+[null, null, ORotor, IRotor, <ore:plateDraconiumAwakened>, IRotor, ORotor, null, null],
+[null, null, WyvernECore, IRotor, WyvernCore, IRotor, WyvernECore, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Upgrade Modifier
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:upgradeModifier>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:gearDraconium>, DraconicCore, <ore:gearDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, DraconicCore, <gregtech:gt.metaitem.01:32604>, DraconicCore, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:gearDraconium>, DraconicCore, <ore:gearDraconium>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
 
 
 
@@ -646,6 +1001,22 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorStabilizer>, [
 // --- Draconic Evolution Tablet
 Assembler.addRecipe(<DraconicEvolution:infoTablet>, <dreamcraft:item.StonePlate> * 4, <DraconicEvolution:draconiumDust>, 400, 480);
 
+// --- Wireless Energy Tranceiver
+Assembler.addRecipe(<DraconicEvolution:energyCrystal:4>, <DraconicEvolution:energyCrystal>, <DraconicEvolution:particleGenerator> * 2, <liquid:molten.enderium> * 864, 1200, 1024);
+
+// --- Advanced Wireless Energy Tranceiver
+Assembler.addRecipe(<DraconicEvolution:energyCrystal:5>, <DraconicEvolution:energyCrystal:1>, <DraconicEvolution:particleGenerator> * 2, <liquid:molten.enderium> * 864, 2400, 4096);
+
+// --- Ender Arrow
+Assembler.addRecipe(<DraconicEvolution:enderArrow>, <minecraft:arrow>, <minecraft:ender_pearl>, 200, 480);
+
+// --- Player Detector
+Assembler.addRecipe(<DraconicEvolution:playerDetector>, <Railcraft:detector:5>, DraconicCore, 200, 480);
+
+// --- Rain Sensor
+Assembler.addRecipe(<DraconicEvolution:rainSensor>, <ProjRed|Integration:projectred.integration.gate:16>, <gregtech:gt.metaitem.01:17975>, 200, 480);
+
+
 
 
 
@@ -656,6 +1027,54 @@ Assembler.addRecipe(<DraconicEvolution:infoTablet>, <dreamcraft:item.StonePlate>
 
 // --- Draconic Infused Obsidian
 BlastFurnace.addRecipe([<DraconicEvolution:infusedObsidian>], <liquid:molten.draconium> * 144, [<minecraft:obsidian>, <minecraft:blaze_powder>], 1200, 1920, 7500); 
+
+
+
+
+// ---  Forge Hammer Recipes ---
+
+
+
+
+// --- Chaos Shard
+ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment:2> * 9, <DraconicEvolution:chaosShard>, 100, 480);
+
+// --- Large Chaos Fragment
+ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment:1> * 9, <DraconicEvolution:chaosFragment:2>, 50, 480);
+
+// --- Small Chaos Fragment
+ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment> * 9, <DraconicEvolution:chaosFragment:1>, 25, 480);
+
+
+
+
+// --- Implosion Compressor Recipes ---
+
+
+
+// --- Chaos Shard
+ImplosionCompressor.addRecipe([<DraconicEvolution:chaosShard>], <DraconicEvolution:chaosFragment:2> * 9, 8);
+
+// --- Chaos Shard
+ImplosionCompressor.addRecipe([<DraconicEvolution:chaosFragment:2>], <DraconicEvolution:chaosFragment:1> * 9, 4);
+
+// --- Chaos Shard
+ImplosionCompressor.addRecipe([<DraconicEvolution:chaosFragment:1>], <DraconicEvolution:chaosFragment> * 9, 2);
+
+
+
+
+
+
+// --- Packer Recipe ----
+
+
+
+
+// --- Safty Match Box
+Packer.addRecipe(<DraconicEvolution:safetyMatch>, <DraconicEvolution:safetyMatch:1000> * 16, <gregtech:gt.metaitem.01:18879>, 64, 16);
+
+
 
 
 
