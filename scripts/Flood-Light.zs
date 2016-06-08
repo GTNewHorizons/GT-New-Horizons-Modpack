@@ -21,6 +21,7 @@ val GlassLens = <ore:lensGlass>;
 val DiamondLens = <ore:lensDiamond>;
 val GlassPane = <ore:paneGlass>;
 val Mantle = <FloodLights:mantle>;
+val TitaniumPlates = <ore:plateTitanium>;
 
 
 
@@ -62,6 +63,9 @@ recipes.remove(<FloodLights:carbonLantern>);
 // --- Mantle
 recipes.remove(Mantle);
 
+// --- Grow Light
+recipes.remove(<FloodLights:growLight>);
+
 
 
 
@@ -99,6 +103,12 @@ recipes.addShapeless(<FloodLights:smallElectricFloodlightMetaBlock> * 2, [<Flood
 
 // --- Square Flurocen Light
 recipes.addShapeless(<FloodLights:smallElectricFloodlightMetaBlock:1>, [<FloodLights:smallElectricFloodlightMetaBlock> * 2]);
+
+// --- Grow Light
+recipes.addShaped(<FloodLights:growLight>, [
+[<FloodLights:electricIncandescentLightBulb>, <Thaumcraft:blockMetalDevice:8>, <FloodLights:electricIncandescentLightBulb>],
+[<ore:circuitAdvanced>, <FloodLights:electricIncandescentLightBulb>, <ore:circuitAdvanced>],
+[TitaniumPlates, <ore:wireGt01Cobalt>, TitaniumPlates]]);
 
 
 
