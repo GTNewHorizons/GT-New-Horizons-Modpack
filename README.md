@@ -59,7 +59,7 @@ Food is a thing in the pack during starting days, you cant see at night time w/o
 ## How do I join?
 
 Write a post here or send me a PM.<BR>
-I'll send you TeamSpeak & IRC adress along with the whole pack.
+I'll send you IRC adress along with the link for the whole pack.
 
 
 Server info<BR>
