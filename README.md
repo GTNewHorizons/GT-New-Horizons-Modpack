@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.5 is out (30.05.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
+Version 1.0.8.6 is out (09.06.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,14 +69,14 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.8.5 --- 30.05.2016<BR>
+## Modlist - NewHorizons 1.0.8.6 --- 09.06.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
-* Adventure Backpack 0.8e23<BR>
+* Adventure Backpack 0.8e24<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
-* AppleCore	1.3.1<BR>
+* AppleCore	1.3.2<BR>
 * Applied Energistics rv3stable5<BR>
 * Architecture Craft 1.4.1<BR>
 * AsieLib	0.4.5<BR>
@@ -89,7 +89,7 @@ Number of players: ~10<BR>
 * Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
 * Better HUD 1.3.4<BR>
-* Better Questing 1.0.118<BR>
+* Better Questing 1.0.121<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -122,8 +122,8 @@ Number of players: ~10<BR>
 * Extra Cells	2.3.10b192<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.23<BR>
-* Flood Light	1.1.1.124<BR>
-* Forbidden Magic	0.574<BR>
+* Flood Light	1.2.1.134<BR>
+* Forbidden Magic	0.575<BR>
 * Forestry	4.2.12.60<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
@@ -136,7 +136,7 @@ Number of players: ~10<BR>
 * Gem Blocks For Greg 1.5.0<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.08.33.25custom<BR>
+* Gregtech	5.08.33.27custom<BR>
 * GT New Horizons Core Mod	1.1.43<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
@@ -144,7 +144,7 @@ Number of players: ~10<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.85<BR>
 * Chisel	2.5.1.44<BR>
-* IC2 Nuclear Control	2.4.0a<BR>
+* IC2 Nuclear Control	2.4.0b<BR>
 * IguanaTinkerTweaks	2.1.6a<BR>
 * Industrial Craft 2	2.2.2.822<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
@@ -199,12 +199,12 @@ Number of players: ~10<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
-* RF Expansion 1.0.8<BR>
+* RF Expansion 1.0.11<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Schematica	1.7.6.131<BR>
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
-* Spice of Life	1.3.1<BR>
+* Spice of Life	1.3.2<BR>
 * Standard Expansion 1.0.81<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
@@ -219,7 +219,7 @@ Number of players: ~10<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.3.1710.4<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.53<BR>
+* Thaumic Exploration	1.1.55<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.523<BR>
