@@ -437,11 +437,11 @@ mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore,[
 mods.avaritia.ExtremeCrafting.addShaped(DraconicECore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, null, WyvernFluxCapicator, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, <ore:plateDraconiumAwakened>, <AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, WyvernECore,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernCore,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernECore, null, null],
+[null, null, WyvernFluxCapicator,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernCore,  <AdvancedSolarPanel:asp_crafting_items:4>, WyvernFluxCapicator, null, null],
 [null, null, null, <ore:plateDraconiumAwakened>,  <AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
+[null, null, <ore:plateDraconiumAwakened>, null, WyvernFluxCapicator, null, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
