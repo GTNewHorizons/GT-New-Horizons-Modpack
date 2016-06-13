@@ -97,3 +97,12 @@ mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKni
 [<ore:plateAluminium>, <battlegear2:dagger.diamond>, <TConstruct:strangeFood:1>],
 [<ore:stickSteel>, <ore:plateAluminium>, <ore:screwSteel>]]);
 mods.thaumcraft.Research.addArcanePage("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>);
+
+
+
+// --- Nei Rename ---
+
+
+
+// --- Blood Altar
+<AWWayofTime:Altar>.displayName = "Altar of GregoriusT's Blood";
