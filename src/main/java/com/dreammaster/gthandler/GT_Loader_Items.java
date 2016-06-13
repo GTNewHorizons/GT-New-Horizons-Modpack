@@ -396,6 +396,12 @@ public class GT_Loader_Items
 		CustomItemList.CoinTechnician.set(com.dreammaster.item.ItemList.CoinTechnician.getIS());
 		CustomItemList.WetTofu.set(com.dreammaster.item.ItemList.WetTofu.getIS());
 		CustomItemList.NetherStarFragment.set(com.dreammaster.item.ItemList.NetherStarFragment.getIS());
+		CustomItemList.WeakOrb.set(com.dreammaster.item.ItemList.WeakOrb.getIS());
+		CustomItemList.ApprenticeOrb.set(com.dreammaster.item.ItemList.ApprenticeOrb.getIS());
+		CustomItemList.MasterOrb.set(com.dreammaster.item.ItemList.MasterOrb.getIS());
+		CustomItemList.MagicianOrb.set(com.dreammaster.item.ItemList.MagicianOrb.getIS());
+		CustomItemList.ArchmageOrb.set(com.dreammaster.item.ItemList.ArchmageOrb.getIS());
+		CustomItemList.TranscendentOrb.set(com.dreammaster.item.ItemList.TranscendentOrb.getIS());
 	}
 
 }
