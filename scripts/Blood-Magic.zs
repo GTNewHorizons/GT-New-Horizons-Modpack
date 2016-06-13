@@ -15,6 +15,21 @@ recipes.remove(<AWWayofTime:sacrificialKnife>);
 // --- Week Blood Orb
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 
+// --- Apprentice Blood Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);  // was Emerald
+
+// --- Magican Blood Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>); // was Gold Block
+
+// --- Master Blood Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:masterBloodOrb>);   // was weak Blood Shard
+
+// --- Arche Mage Blood Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:archmageBloodOrb>);  // was Deamon Shard
+
+// --- Transcendent Blood Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:transcendentBloodOrb>);  // was Crystal Cluster
+
 // --- Bound Blade
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:energySword>);
 
@@ -39,7 +54,22 @@ mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundShovel>);
 
 
 // --- Week Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <Thaumcraft:blockCrystal:6>, 1, 5000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <dreamcraft:item.WeakOrb>, 1, 5000);  //was 2000
+
+// --- Apprentice Blood Orb
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <dreamcraft:item.ApprenticeOrb>, 2, 10000);  // was 5000
+
+// --- Magican Blood Orb
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <dreamcraft:item.MagicianOrb>, 3, 30000); // was 25000
+
+// --- Master Blood Orb
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:masterBloodOrb>, <dreamcraft:item.MasterOrb>, 4, 60000);   // was 40000
+
+// --- Arche Mage Blood Orb
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item.ArchmageOrb>, 5, 120000);  // was 75000
+
+// --- Transcendent Blood Orb
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);  // was 200000
 
 
 
