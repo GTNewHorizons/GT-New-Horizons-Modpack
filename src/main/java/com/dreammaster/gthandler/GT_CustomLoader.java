@@ -7,7 +7,6 @@ import net.minecraft.item.ItemStack;
 
 import com.dreammaster.item.ItemList;
 import com.dreammaster.item.food.QuantumBread;
-import com.dreammaster.lib.Refstrings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

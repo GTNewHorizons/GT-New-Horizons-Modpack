@@ -9,7 +9,6 @@ import gregtech.api.enums.OreDictNames;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicMachine_GT_Recipe;
 import gregtech.api.util.GT_ModHandler;
-import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Recipe;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Massfabricator;

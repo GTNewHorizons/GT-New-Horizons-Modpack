@@ -1,7 +1,5 @@
 package com.dreammaster.gthandler;
 
-import net.minecraft.item.ItemStack;
-import cpw.mods.fml.common.registry.GameRegistry;
 import gregtech.api.enums.GT_Values;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;

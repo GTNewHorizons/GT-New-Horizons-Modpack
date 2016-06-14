@@ -1,11 +1,6 @@
 package com.dreammaster.gthandler;
 
-import gregtech.api.enums.GT_Values;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OreDictNames;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.SubTag;
+import gregtech.api.enums.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Utility;
@@ -61,7 +56,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CarminiteFragment.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), Materials.Thaumium.getMolten(216L), GT_ModHandler.getModItem("TwilightForest", "item.carminite", 1L, 0), 350, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.SnowQueenBloodDrop.get(24L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 24L, new Object[0]), Materials.Thaumium.getMolten(216L), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 400, 4096);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 10L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 4), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 1800, 7680);
-        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 16L, 14), GT_ModHandler.getModItem("witchery", "ingredient", 1L, 130),  new ItemStack(Items.nether_star, 1, 32767), 900, 256);
+        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 16L, 14), GT_ModHandler.getModItem("witchery", "ingredient", 1L, 130), new ItemStack(Items.nether_star, 1, 32767), 900, 256);
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
@@ -73,6 +68,8 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         }
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
+
+        GT_Values.RA.addCutterRecipe(GT_ModHandler.getModItem("IC2", "blockAlloyGlass", 1L, 32767), CustomItemList.ReinforcedGlassPLate.get(2L, new Object[0]), GT_Values.NI, 1200, 30);
 
         GT_Values.RA.addFluidExtractionRecipe(GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), Materials.FierySteel.getFluid(200L), 1500, 1600, 2);
 
@@ -109,6 +106,8 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
 
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L, new Object[0]), 1, new ItemStack(Items.nether_star, 1, 32767), null);
 
+        GT_Values.RA.addLatheRecipe(CustomItemList.ReinforcedGlassPLate.get(1L, new Object[0]), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Glass, 1L), 400, 16);
+
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Wheat, 1L), GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 1L, 14), new ItemStack(Items.sugar, 1, 0), GT_ModHandler.getModItem("DraconicEvolution", "draconiumDust", 1L, 0), FluidRegistry.getFluidStack("witchery:fluidspirit", 1000), GT_Values.NF, CustomItemList.MalformedSlush.get(2L, new Object[0]), 600, 7680);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), CustomItemList.Marshmallow.get(1L, new Object[0]), 48000);
@@ -135,6 +134,15 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 0), tBitMask, new Object[]{"DED", "EDE", "DED", Character.valueOf('D'), new ItemStack(Items.diamond, 1), Character.valueOf('E'), new ItemStack(Items.ender_eye, 1),});
 
         }
+
+        //Crafting Recipes
+        //Blood Magic Orbs
+        GT_ModHandler.addCraftingRecipe(CustomItemList.WeakOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Aluminium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.AnnealedCopper), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.ApprenticeOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.StainlessSteel), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.RoseGold), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.MagicianOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Titanium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.PulsatingIron), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.MasterOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.TungstenSteel), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.EnergeticAlloy), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.ArchmageOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Chrome), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.FierySteel), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.TranscendentOrb.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Iridium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.Plutonium241), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
 
     }
 

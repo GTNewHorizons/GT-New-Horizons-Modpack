@@ -6,20 +6,17 @@ import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.enums.TC_Aspects;
 import gregtech.api.enums.Textures;
-import gregtech.api.interfaces.IItemContainer;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.objects.GT_MultiTexture;
 import gregtech.api.objects.GT_RenderedTexture;
 import gregtech.api.util.GT_ModHandler;
-import gregtech.api.util.GT_Utility;
 import gregtech.common.covers.GT_Cover_Arm;
 import gregtech.common.covers.GT_Cover_Conveyor;
 import gregtech.common.covers.GT_Cover_Pump;
 import gregtech.common.items.GT_MetaGenerated_Item_01;
 
 import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+
 
 public class GT_Loader_Items
 {
@@ -384,6 +381,7 @@ public class GT_Loader_Items
         CustomItemList.EngravedQuantumChip.set(com.dreammaster.item.ItemList.EngravedQuantumChip.getIS());
         CustomItemList.StainlessSteelItemCasing.set(com.dreammaster.item.ItemList.StainlessSteelItemCasing.getIS());
         CustomItemList.IridiumAlloyItemCasing.set(com.dreammaster.item.ItemList.IridiumAlloyItemCasing.getIS());
+		CustomItemList.ReinforcedGlassPLate.set(com.dreammaster.item.ItemList.ReinforcedGlassPlate.getIS());
         CustomItemList.ReinforcedGlassLense.set(com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
 		CustomItemList.MarshmallowForm.set(com.dreammaster.item.ItemList.MarshmallowForm.getIS());
 		CustomItemList.MarshmallowFormMold.set(com.dreammaster.item.ItemList.MarshmallowFormMold.getIS());
