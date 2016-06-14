@@ -581,7 +581,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicHoe>, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicDistructionStaff>, [
 [null, null, null, <ore:plateDraconiumAwakened>, DraconicECore, <ore:plateDraconiumAwakened>, null, null, null],
 [null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, ChaoticCore, <DraconicEvolution:draconicShovel>, ChaoticCore, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null],
-[<ore:plateDraconiumAwakened>, null, null, <DraconicEvolution:draconicPickaxe>, <ore:ingotDraconiumAwakened>, <DraconicEvolution:draconicSword>, null, null, <ore:plateDraconiumAwakened>]],
+[<ore:plateDraconiumAwakened>, null, null, <DraconicEvolution:draconicPickaxe>, <ore:ingotDraconiumAwakened>, <DraconicEvolution:draconicSword>, null, null, <ore:plateDraconiumAwakened>],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null],
@@ -590,7 +590,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicDistructionSt
 [null, null, null, null, <ore:ingotDraconiumAwakened>, null, null, null, null]]);
 
 // --- Chaotic Core
-mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore,[
+mods.avaritia.ExtremeCrafting.addShaped(ChaoticCore, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, null, AwakenedCore, null, <ore:plateDraconiumAwakened>, null, null],
