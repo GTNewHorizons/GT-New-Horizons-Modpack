@@ -2,6 +2,17 @@
 
 
 
+// --- Importing Stuff ---
+
+
+
+import mods.gregtech.Assembler;
+import mods.ic2.Compressor;
+import mods.gregtech.CuttingSaw;
+
+
+
+
 // --- remove Recipes ---
 
 
@@ -42,6 +53,20 @@ mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundAxe>);
 // --- Bound Shovel
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:boundShovel>);
 
+// --- Blank Blood Stone
+recipes.remove(<BloodArsenal:blood_stone>);
+
+// --- Blank Slate
+recipes.remove(<AWWayofTime:blankSlate>);
+// -
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSlate>);
+
+// --- Blood Rune
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune>);
+
+// --- Alchemic Chemistry Set
+recipes.remove(<AWWayofTime:blockWritingTable>);
+
 
 
 
@@ -71,6 +96,12 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item
 // --- Transcendent Blood Orb
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);  // was 200000
 
+// --- Blank Blood Stone
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone>, <Thaumcraft:blockCosmeticSolid:6>, 1, 1000);
+
+// --- Cell of Life Essense
+mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
+
 
 
 // --- Binding Ritual Recipes ----
@@ -90,6 +121,73 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:bo
 
 // --- Bound Shovel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
+
+
+
+// --- Assembler Recipe ---
+
+
+// --- Blood Rune
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:weakBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:magicianBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:masterBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:archmageBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <BloodArsenal:transparent_orb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <ForbiddenMagic:EldritchOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+// -
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+
+// --- Alchemic Chemistry Set
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:weakBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:magicianBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:masterBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:archmageBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <BloodArsenal:transparent_orb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <ForbiddenMagic:EldritchOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
+// -
+Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <Avaritia:Orb_Armok> * 0, <liquid:lifeessence> * 10000, 600, 120);
+
+
+
+// --- Compressor Recipes ---
+
+
+
+// --- Blank Blood Stone
+Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
+
+
+
+
+// --- Cutting Saw Recipes ---
+
+
+
+
+// --- Blank Slate
+CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 9000, 1800, 64);
+
+
+
+
 
 // --- Thaumcraft Stuff
 
