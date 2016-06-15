@@ -1,0 +1,194 @@
+{
+    "images":
+    {
+	
+		"black":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 99,
+            "posY" : 0,
+            "width" : 155,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 100,
+            "posY" : 0,
+            "width" : 250,
+            "height" : 120,
+            "alignment" : "top_left"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "Singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 14033956, 
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : -10,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+			"hoverText" : "Alone Alone.....",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "Multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 2414116,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+			"hoverText" : "Join us",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "Options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 30,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		        
+		"language":
+        {
+            "text" : "Language",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 70,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 90,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        }
+	},
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+		"packTxt":
+        {
+            "text" : "GT New Horizons 1.0.8.6",
+            "posX" : 2,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+	
+	"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+	
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.png",
+			"mode" : "stretch"
+		}
+    }
+}
