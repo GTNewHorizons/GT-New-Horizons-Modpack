@@ -79,7 +79,12 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:reinforcedSlate>);
 recipes.remove(<AWWayofTime:reinforcedSlate>);
 
 // --- Reinforced Blood Stone
+mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_stone:1>);
+// -
 recipes.remove(<BloodArsenal:blood_stone:1>);
+
+// --- Divination Sigil
+recipes.remove(<AWWayofTime:divinationSigil>);
 
 
 
@@ -110,11 +115,11 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item
 // --- Transcendent Blood Orb
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);  // was 200000
 
-// --- Blank Blood Stone
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone>, <Thaumcraft:blockCosmeticSolid:6>, 1, 9000);
+// --- Blank Slate
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.ArcaneSlate>, 1, 2000);
 
-// --- Reinforced Blood Stone
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone:1>, <BloodArsenal:blood_stone>, 2, 18000);
+// --- Reinforced Slate
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>, 2, 4000);
 
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
@@ -170,6 +175,8 @@ Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blan
 // --- Compressor Recipes ---
 
 
+// --- Arcane Stone
+Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:6>, <dreamcraft:item.ArcaneSlate> * 9);
 
 // --- Blank Blood Stone
 Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
@@ -184,6 +191,8 @@ Compressor.addRecipe(<BloodArsenal:blood_stone:1>, <AWWayofTime:reinforcedSlate>
 
 
 
+// --- Arcane Slate
+CuttingSaw.addRecipe(<dreamcraft:item.ArcaneSlate> * 9, null, <Thaumcraft:blockCosmeticSolid:6>, <liquid:lifeessence> * 1000, 1200, 48);
 
 // --- Blank Slate
 CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 1800, 64);
@@ -246,12 +255,27 @@ mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_sta
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
 mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
 
+// --- Divination Sigil
+mods.thaumcraft.Research.addResearch("DIVINATIONSIGIL", "BLOODMAGIC", "vitreus 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:divinationSigil>);
+game.setLocalization("tc.research_name.DIVINATIONSIGIL", "Divination Sigil");
+game.setLocalization("tc.research_text.DIVINATIONSIGIL", "[BM] How much Essence you have?");
+mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "NITOR", false);
+mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("DIVINATIONSIGIL", true);
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "bloodmagic.research_page.DIVINATIONSIGIL");
+game.setLocalization("bloodmagic.research_page.DIVINATIONSIGIL", "The Divination Sigil is a tool added by Blood Magic that is used to check important details of both the Blood Altar and the player's network, including the altar tier and total Life Essence storage levels. While holding the Divination Sigil, there are two possible uses for the player. When aiming at a Blood Altar and right clicking, a chat printout will display the total essence stored within the altar, the current tier, and its maximum capacity. When right clicking anywhere else, a chat printout will display the total essence stored within the player's personal network.");
+mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>, 
+[<Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>], 
+"vitreus 24, terra 18, praecantatio 12, instrumentum 6, metallum 4", <AWWayofTime:divinationSigil>, 3);
+mods.thaumcraft.Research.addInfusionPage("DIVINATIONSIGIL", <AWWayofTime:divinationSigil>);
+
 // --- Water Sigil
-mods.thaumcraft.Research.addResearch("WATERSIGIL", "BLOODMAGIC", "aqua 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:waterSigil>);
+mods.thaumcraft.Research.addResearch("WATERSIGIL", "BLOODMAGIC", "aqua 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 4, 3, <AWWayofTime:waterSigil>);
 game.setLocalization("tc.research_name.WATERSIGIL", "Water Sigil");
 game.setLocalization("tc.research_text.WATERSIGIL", "[BM] Infinite water, anyone?");
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("WATERSIGIL", "BLOODALTAR", false);
+mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
 mods.thaumcraft.Research.addPage("WATERSIGIL", "bloodmagic.research_page.WATERSIGIL");
 game.setLocalization("bloodmagic.research_page.WATERSIGIL", "The Water Sigil acts as an alternative to a bucket of water, allowing for the creation of water source blocks at the cost of 200 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Water Sigil is also used in the creation of the Sigil of Elemental Affinity.");
@@ -261,7 +285,7 @@ mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:imbuedSlate>,
 mods.thaumcraft.Research.addInfusionPage("WATERSIGIL", <AWWayofTime:waterSigil>);
 
 // --- Lava Sigil
-mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 4, 3, <AWWayofTime:lavaSigil>);
+mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 6, 3, <AWWayofTime:lavaSigil>);
 game.setLocalization("tc.research_name.LAVASIGIL", "Lava Sigil");
 game.setLocalization("tc.research_text.LAVASIGIL", "[BM] Contac with Liquid is highly uncommon");
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
