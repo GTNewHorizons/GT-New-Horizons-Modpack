@@ -67,6 +67,12 @@ recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune>);
 // --- Alchemic Chemistry Set
 recipes.remove(<AWWayofTime:blockWritingTable>);
 
+// --- Water Sigil
+recipes.remove(<AWWayofTime:waterSigil>);
+
+// --- Lava Sigil
+recipes.remove(<AWWayofTime:lavaSigil>);
+
 
 
 
@@ -146,24 +152,7 @@ Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blan
 // -
 Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 
-// --- Alchemic Chemistry Set
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:weakBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:magicianBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:masterBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:archmageBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <BloodArsenal:transparent_orb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <ForbiddenMagic:EldritchOrb> * 0, <liquid:lifeessence> * 10000, 600, 120);
-// -
-Assembler.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, <Avaritia:Orb_Armok> * 0, <liquid:lifeessence> * 10000, 600, 120);
+
 
 
 
@@ -225,6 +214,48 @@ mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKni
 [<ore:plateAluminium>, <battlegear2:dagger.diamond>, <TConstruct:strangeFood:1>],
 [<ore:stickSteel>, <ore:plateAluminium>, <ore:screwSteel>]]);
 mods.thaumcraft.Research.addArcanePage("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>);
+
+// --- Alchemic Chemistry Set
+mods.thaumcraft.Research.addResearch("ALCHEMICCHEMSTRYSET", "BLOODMAGIC", "fabrico 15, ignis 12, instrumentum 9, praecantatio 6, victus 3", 4, 0, 3, <AWWayofTime:blockWritingTable>);
+game.setLocalization("tc.research_name.ALCHEMICCHEMSTRYSET", "Alchemic Chemistry Set");
+game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM] Blub, blub.....OH");
+mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", false);
+mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "bloodmagic.research_page.ALCHEMICCHEMSTRYSET");
+game.setLocalization("bloodmagic.research_page.ALCHEMICCHEMSTRYSET", "The Alchemic Chemistry Set is a block added by Blood Magic. This is a Chemistry set used for the mod mentioned above. It's main purpose is to, you guessed it, brew potions! It's an essential part of this mod; as this block is used to brew things that can be the base of many others. Along with the many other such things, you will need LP to actually use and make things with this block. LP, the basic power of this mod, will be explained in a later thread.");
+mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>, 
+[<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
+"fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
+mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
+
+// --- Water Sigil
+mods.thaumcraft.Research.addResearch("WATERSIGIL", "BLOODMAGIC", "aqua 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:waterSigil>);
+game.setLocalization("tc.research_name.WATERSIGIL", "Water Sigil");
+game.setLocalization("tc.research_text.WATERSIGIL", "[BM] Infinite water, anyone?");
+mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("WATERSIGIL", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
+mods.thaumcraft.Research.addPage("WATERSIGIL", "bloodmagic.research_page.WATERSIGIL");
+game.setLocalization("bloodmagic.research_page.WATERSIGIL", "The Water Sigil acts as an alternative to a bucket of water, allowing for the creation of water source blocks at the cost of 200 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Water Sigil is also used in the creation of the Sigil of Elemental Affinity.");
+mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:imbuedSlate>, 
+[<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>], 
+"aqua 40, terra 32, praecantatio 24, instrumentum 16, metallum 8", <AWWayofTime:waterSigil>, 5);
+mods.thaumcraft.Research.addInfusionPage("WATERSIGIL", <AWWayofTime:waterSigil>);
+
+// --- Lava Sigil
+mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 4, 3, <AWWayofTime:lavaSigil>);
+game.setLocalization("tc.research_name.LAVASIGIL", "Lava Sigil");
+game.setLocalization("tc.research_text.LAVASIGIL", "[BM] Contac with Liquid is highly uncommon");
+mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("LAVASIGIL", "WATERSIGIL", false);
+mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
+mods.thaumcraft.Research.addPage("LAVASIGIL", "bloodmagic.research_page.LAVASIGIL");
+game.setLocalization("bloodmagic.research_page.LAVASIGIL", "The Lava Sigil is a tool added by Blood Magic. The Lava Sigil acts as an alternative to a bucket of lava, allowing for the creation of lava source blocks at the cost of 2,000 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Lava Sigil is also used in the creation of the Sigil of Elemental Affinity.");
+mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:demonicSlate>, 
+[<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>], 
+"ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
+mods.thaumcraft.Research.addInfusionPage("LAVASIGIL", <AWWayofTime:lavaSigil>);
 
 
 
