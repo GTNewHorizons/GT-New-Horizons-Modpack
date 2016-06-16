@@ -86,6 +86,21 @@ recipes.remove(<BloodArsenal:blood_stone:1>);
 // --- Divination Sigil
 recipes.remove(<AWWayofTime:divinationSigil>);
 
+// --- Speed Rune
+recipes.remove(<AWWayofTime:speedRune>);
+
+// --- Ritual Stone
+recipes.remove(<AWWayofTime:ritualStone>);
+
+// --- Master Ritual Stone
+recipes.remove(<AWWayofTime:masterStone>);
+
+// --- Large Blood Stone Bricks
+recipes.remove(<AWWayofTime:largeBloodStoneBrick>);
+
+// --- Spell Table
+recipes.remove(<AWWayofTime:blockHomHeart>);
+
 
 
 
@@ -119,7 +134,7 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.ArcaneSlate>, 1, 2000);
 
 // --- Reinforced Slate
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>, 2, 4000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, 2, 4000);
 
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
@@ -143,6 +158,14 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:bo
 
 // --- Bound Shovel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
+
+
+
+// --- Alchemic Chemistry Set Recipes
+
+
+// --- Large Blood Stone Bricks
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:largeBloodStoneBrick> * 4, [<AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:weakBloodShard>], 3, 2500);
 
 
 
@@ -269,6 +292,64 @@ mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>,
 [<Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>], 
 "vitreus 24, terra 18, praecantatio 12, instrumentum 6, metallum 4", <AWWayofTime:divinationSigil>, 3);
 mods.thaumcraft.Research.addInfusionPage("DIVINATIONSIGIL", <AWWayofTime:divinationSigil>);
+
+// --- Speed Rune
+mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2, 2, 3, <AWWayofTime:speedRune>);
+game.setLocalization("tc.research_name.SPEEDRUNE", "Divination Sigil");
+game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How much Essence you have?");
+mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "bloodmagic.research_page.SPEEDRUNE");
+game.setLocalization("bloodmagic.research_page.SPEEDRUNE", "The Speed Rune is a block added by Blood Magic that is used for upgrading the tier of the Blood Altar. The Speed Rune can be used interchangeably with any other rune. The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar.");
+mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+[<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
+"motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 5);
+mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
+
+// --- Ritual Stone
+mods.thaumcraft.Research.addResearch("RITUALSTONE", "BLOODMAGIC", "terra 15, ignis 12, tenebrae 9, praecantatio 6, aer 3", -2, -2, 3, <AWWayofTime:ritualStone>);
+game.setLocalization("tc.research_name.RITUALSTONE", "Ritual Stone");
+game.setLocalization("tc.research_text.RITUALSTONE", "[BM] Rituals");
+mods.thaumcraft.Research.addPrereq("RITUALSTONE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RITUALSTONE", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("RITUALSTONE", true);
+mods.thaumcraft.Research.addPage("RITUALSTONE", "bloodmagic.research_page.RITUALSTONE");
+game.setLocalization("bloodmagic.research_page.RITUALSTONE", "The Ritual Stone is a block added by Blood Magic that is used to create various rituals, such as the Ritual of Binding. The Ritual Stones can be automatically placed and painted by the Ritual Diviner, or they can be manually placed and painted with the various Elemental Inks, such as the Elemental Inscription Tool: Air. The Ritual Stone is also used in the creation of the Master Ritual Stone.");
+mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <BloodArsenal:blood_stone:1>, 
+[<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>,], 
+"terra 24, ignis 18, tenebrae 12, praecantatio 6, aer 3", <AWWayofTime:ritualStone>, 6);
+mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone>);
+
+// --- Spell Table
+mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4, -2, 3, <AWWayofTime:blockHomHeart>);
+game.setLocalization("tc.research_name.SPELLTABLE", "Ritual Stone");
+game.setLocalization("tc.research_text.SPELLTABLE", "[BM] Rituals");
+mods.thaumcraft.Research.addPrereq("SPELLTABLE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SPELLTABLE", "RITUALSTONE", false);
+mods.thaumcraft.Research.setConcealed("SPELLTABLE", true);
+mods.thaumcraft.Research.addPage("SPELLTABLE", "bloodmagic.research_page.SPELLTABLE");
+game.setLocalization("bloodmagic.research_page.SPELLTABLE", "The Spell Table is a block added by Blood Magic that is used as a focus for the Basic Spell System. It is used in conjunction with a Unbound Crystal and a Blood Altar. After crafting a Spell Table, place it next to a Blood Altar. After that, one must place a skull on the Spell table to determine what type of effect will ensue when casting the spell. A Skeleton Skull denotes an Offensive-Ranged spell, Wither Skull is Offensive-Melee, Zombie Head allows for Defensive Spells, and the Creeper Head is for Environmental spells. Once one has chosen what type of spell one wants, the player can place several items in the adjacent Blood Altar to denote exactly what spell one wants to cast.");
+mods.thaumcraft.Arcane.addShaped("SPELLTABLE", <AWWayofTime:blockHomHeart>, "aer 40, ignis 40, terra 40, aqua 40, ordo 40, perditio 40", [
+[<AWWayofTime:largeBloodStoneBrick>, <AWWayofTime:largeBloodStoneBrick>, <AWWayofTime:largeBloodStoneBrick>],
+[<BloodArsenal:blood_stone:1>, <gregtech:gt.metaitem.01:32744>, <BloodArsenal:blood_stone:1>],
+[<BloodArsenal:blood_stone:1>, <BloodArsenal:blood_stone:1>, <BloodArsenal:blood_stone:1>]]);
+mods.thaumcraft.Research.addArcanePage("SPELLTABLE", <AWWayofTime:blockHomHeart>);
+mods.thaumcraft.Warp.addToResearch("SPELLTABLE", 4);
+
+// --- Master Ritual Stone
+mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2, -4, 3, <AWWayofTime:masterStone>);
+game.setLocalization("tc.research_name.MASTERRITUALSTONE", "Ritual Stone");
+game.setLocalization("tc.research_text.MASTERRITUALSTONE", "[BM] Lets Start some Rituals");
+mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "RITUALSTONE", false);
+mods.thaumcraft.Research.setConcealed("MASTERRITUALSTONE", true);
+mods.thaumcraft.Research.addPage("MASTERRITUALSTONE", "bloodmagic.research_page.MASTERRITUALSTONE");
+game.setLocalization("bloodmagic.research_page.MASTERRITUALSTONE", "The Master Ritual Stone is a block added by Blood Magic. The Master Ritual Stone is used in the creation of all rituals except for the weak rituals, such as the Water Ritual. The Master Ritual Stone is the center of each ritual as it is used to activate them. Sending a redstone signal into a Master Ritual Stone will cause the ritual to stop functioning. Removing this redstone signal will allow the ritual to continue running without it requiring a restart with an activation crystal.");
+mods.thaumcraft.Infusion.addRecipe("MASTERRITUALSTONE", <AWWayofTime:ritualStone>, 
+[<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid>, <BloodArsenal:blood_stone:1>, <Thaumcraft:blockCosmeticSolid:1>, <BloodArsenal:blood_stone:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <BloodArsenal:blood_stone:1>, <Thaumcraft:blockCosmeticSolid>, <BloodArsenal:blood_stone:1>,], 
+"terra 36, ignis 24, tenebrae 16, praecantatio 16, aer 8, cognitio 8", <AWWayofTime:masterStone>, 8);
+mods.thaumcraft.Research.addInfusionPage("MASTERRITUALSTONE", <AWWayofTime:masterStone>);
 
 // --- Water Sigil
 mods.thaumcraft.Research.addResearch("WATERSIGIL", "BLOODMAGIC", "aqua 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 4, 3, <AWWayofTime:waterSigil>);
