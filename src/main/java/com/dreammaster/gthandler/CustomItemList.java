@@ -83,7 +83,8 @@ public enum CustomItemList implements IItemContainer
 	MarshmallowForm, MarshmallowFormMold, UncookedSlush, MalformedSlush, GlowingMarshmallow, Marshmallow,
 	IchoriumCap, CoinTechnician, CoinDarkWizard,
 	WetTofu,
-	WeakOrb, ApprenticeOrb, MasterOrb, MagicianOrb, ArchmageOrb, TranscendentOrb;
+	WeakOrb, ApprenticeOrb, MasterOrb, MagicianOrb, ArchmageOrb, TranscendentOrb,
+	ArcaneSlate;
 
 
 	private ItemStack mStack = null;

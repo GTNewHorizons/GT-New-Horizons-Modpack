@@ -20,6 +20,7 @@ public enum ItemList
     AdvancedCokeOvenBrick(new ModSimpleBaseItem("AdvancedCokeOvenBrick", ModTabList.ModGenericTab)),
     AdvancedProcessorBoard(new ModSimpleBaseItem("AdvancedProcessorBoard", ModTabList.ModCircuitsTab)),
     ApprenticeOrb(new ModSimpleBaseItem("ApprenticeOrb", ModTabList.ModThaumcraftTab)),
+    ArcaneSlate(new ModSimpleBaseItem("ArcaneSlate", ModTabList.ModThaumcraftTab)),
     ArchmageOrb(new ModSimpleBaseItem("ArchmageOrb", ModTabList.ModThaumcraftTab)),
     ArditePlate(new ModSimpleBaseItem("ArditePlate", ModTabList.ModGenericTab)),
     AsteroidsStoneDust(new ModSimpleBaseItem("AsteroidsStoneDust", ModTabList.ModGenericTab)),

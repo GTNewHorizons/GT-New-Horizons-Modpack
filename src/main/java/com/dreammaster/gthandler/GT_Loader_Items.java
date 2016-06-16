@@ -400,6 +400,7 @@ public class GT_Loader_Items
 		CustomItemList.MagicianOrb.set(com.dreammaster.item.ItemList.MagicianOrb.getIS());
 		CustomItemList.ArchmageOrb.set(com.dreammaster.item.ItemList.ArchmageOrb.getIS());
 		CustomItemList.TranscendentOrb.set(com.dreammaster.item.ItemList.TranscendentOrb.getIS());
+		CustomItemList.ArcaneSlate.set(com.dreammaster.item.ItemList.ArcaneSlate.getIS());
 	}
 
 }
