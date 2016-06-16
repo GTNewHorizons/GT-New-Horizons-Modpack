@@ -29999,8 +29999,8 @@
     },
     {
       "questID": 409,
-      "name": "Basic runes",
-      "description": "The basic runes you can craft at the moment",
+      "name": "Basic rune",
+      "description": "The basic rune you can craft at the moment",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30032,12 +30032,6 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "AWWayofTime:speedRune",
               "Count": 4,
               "OreDict": "",
               "Damage": 0
@@ -42777,7 +42771,7 @@
         {
           "id": 421,
           "x": 160,
-          "y": 1
+          "y": 0
         },
         {
           "id": 422,
@@ -42816,17 +42810,17 @@
         },
         {
           "id": 429,
-          "x": 168,
+          "x": 192,
           "y": 120
         },
         {
           "id": 431,
-          "x": 200,
+          "x": 224,
           "y": 120
         },
         {
           "id": 430,
-          "x": 136,
+          "x": 160,
           "y": 120
         },
         {
