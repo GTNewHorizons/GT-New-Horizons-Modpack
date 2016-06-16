@@ -73,6 +73,14 @@ recipes.remove(<AWWayofTime:waterSigil>);
 // --- Lava Sigil
 recipes.remove(<AWWayofTime:lavaSigil>);
 
+// --- Reinforced Slate
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:reinforcedSlate>);
+// -
+recipes.remove(<AWWayofTime:reinforcedSlate>);
+
+// --- Reinforced Blood Stone
+recipes.remove(<BloodArsenal:blood_stone:1>);
+
 
 
 
@@ -103,7 +111,10 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);  // was 200000
 
 // --- Blank Blood Stone
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone>, <Thaumcraft:blockCosmeticSolid:6>, 1, 1000);
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone>, <Thaumcraft:blockCosmeticSolid:6>, 1, 9000);
+
+// --- Reinforced Blood Stone
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stone:1>, <BloodArsenal:blood_stone>, 2, 18000);
 
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
@@ -163,6 +174,9 @@ Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blan
 // --- Blank Blood Stone
 Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
 
+// --- Reinforced Blood Stone
+Compressor.addRecipe(<BloodArsenal:blood_stone:1>, <AWWayofTime:reinforcedSlate> * 9);
+
 
 
 
@@ -172,7 +186,10 @@ Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
 
 
 // --- Blank Slate
-CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 9000, 1800, 64);
+CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 1800, 64);
+
+// --- Blank Slate
+CuttingSaw.addRecipe(<AWWayofTime:reinforcedSlate> * 9, null, <BloodArsenal:blood_stone:1>, <liquid:lifeessence> * 1000, 2400, 120);
 
 
 
