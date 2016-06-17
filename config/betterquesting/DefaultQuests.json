@@ -30357,7 +30357,7 @@
     {
       "questID": 414,
       "name": "Special potion flasks",
-      "description": "Regular glass bottles are unable to hold these special potions you want; You need to imbue it with some blood from your altar",
+      "description": "Regular glass Phials are unable to hold these special potions you want; You need to imbue it with some blood from your altar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
