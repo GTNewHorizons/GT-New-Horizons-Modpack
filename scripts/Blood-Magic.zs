@@ -116,14 +116,20 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:weakFillingAgent>);
 // --- Poition Flask
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:alchemyFlask>);
 
-// --- Weak binding Agent
+// --- Weak Binding Agent
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:weakBindingAgent>);
+
+// --- Stadart Binding Agent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:standardBindingAgent>);
 
 // --- Mundane Lengthening Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundaneLengtheningCatalyst>);
 
 // --- Mundane Power Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundanePowerCatalyst>);
+
+// --- Unbound Crystal
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSpell>);
 
 
 
@@ -166,10 +172,13 @@ mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: 
 // --- Poition Flask
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <Thaumcraft:ItemEssence>, 2, 4000);
 
+// --- Unbound Crystal
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSpell>, <IC2:itemBatLamaCrystal:26>, 2, 5000);
+
+
 
 
 // --- Binding Ritual Recipes ----
-
 
 
 
@@ -188,7 +197,9 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime
 
 
 
+
 // --- Alchemic Chemistry Set Recipes
+
 
 
 // --- Large Blood Stone Bricks
@@ -214,6 +225,9 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundaneLengtheningCatalyst>, [<gr
 
 // --- Mundane Power Catalyst
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundanePowerCatalyst>, [<gregtech:gt.metaitem.01:2028>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:weakBindingAgent>], 3, 4000);
+
+// --- Stadart Binding Agent
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:standardBindingAgent>, [<gregtech:gt.metaitem.01:2028>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:sanctus>, <AWWayofTime:crystallos>], 3, 4000);
 
 
 
