@@ -30835,7 +30835,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -30854,7 +30854,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:ice",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -30869,7 +30875,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:ghast_tear",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -30884,7 +30896,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "AWWayofTime:apprenticeBloodOrb",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
