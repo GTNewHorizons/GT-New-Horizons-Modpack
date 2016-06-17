@@ -110,6 +110,21 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:crystallos>);
 // --- Sanctus
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:sanctus>);
 
+// --- Weak filling Agent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:weakFillingAgent>);
+
+// --- Poition Flask
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:alchemyFlask>);
+
+// --- Weak binding Agent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:weakBindingAgent>);
+
+// --- Mundane Lengthening Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundaneLengtheningCatalyst>);
+
+// --- Mundane Power Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundanePowerCatalyst>);
+
 
 
 
@@ -148,6 +163,9 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:reinforcedSlate>, <AWWayofTime:blan
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
 
+// --- Poition Flask
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <Thaumcraft:ItemEssence>, 2, 4000);
+
 
 
 // --- Binding Ritual Recipes ----
@@ -184,6 +202,18 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<AWWayofTime:simple
 
 // --- Sanctus
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2086>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>], 2, 1000);
+
+// --- Weak filling Agent
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakFillingAgent>, [<AWWayofTime:simpleCatalyst>, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:nether_wart>, <minecraft:blaze_powder>], 3, 2000);
+
+// --- Weak binding Agent
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBindingAgent>, [<AWWayofTime:simpleCatalyst>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2805>, <gregtech:gt.metaitem.01:2805>], 2, 2000);
+
+// --- Mundane Lengthening Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundaneLengtheningCatalyst>, [<gregtech:gt.metaitem.01:2028>, <minecraft:redstone>, <minecraft:redstone>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:weakBindingAgent>], 3, 4000);
+
+// --- Mundane Power Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundanePowerCatalyst>, [<gregtech:gt.metaitem.01:2028>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:weakBindingAgent>], 3, 4000);
 
 
 
