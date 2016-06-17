@@ -101,6 +101,15 @@ recipes.remove(<AWWayofTime:largeBloodStoneBrick>);
 // --- Spell Table
 recipes.remove(<AWWayofTime:blockHomHeart>);
 
+// --- Simple Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:simpleCatalyst>);
+
+// --- Crystallos
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:crystallos>);
+
+// --- Sanctus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:sanctus>);
+
 
 
 
@@ -166,6 +175,15 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime
 
 // --- Large Blood Stone Bricks
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:largeBloodStoneBrick> * 4, [<AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:ritualStone>, <AWWayofTime:weakBloodShard>], 3, 2500);
+
+// --- Simple Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:simpleCatalyst>, [<Thaumcraft:ItemEssence>, <Genetics:misc:4>, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:gunpowder>], 1, 500);
+
+// --- Crystallos
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <BiomesOPlenty:hardIce>], 2, 1000);
+
+// --- Sanctus
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2086>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>], 2, 1000);
 
 
 
@@ -323,8 +341,8 @@ mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone
 
 // --- Spell Table
 mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4, -2, 3, <AWWayofTime:blockHomHeart>);
-game.setLocalization("tc.research_name.SPELLTABLE", "Ritual Stone");
-game.setLocalization("tc.research_text.SPELLTABLE", "[BM] Rituals");
+game.setLocalization("tc.research_name.SPELLTABLE", "Spell Table");
+game.setLocalization("tc.research_text.SPELLTABLE", "[BM] Abrakadabra.....");
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "RITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("SPELLTABLE", true);

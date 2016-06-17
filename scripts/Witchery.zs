@@ -20,6 +20,9 @@ recipes.remove(<witchery:filteredfumefunnel>);
 // --- Fume Filter
 recipes.remove(<witchery:ingredient:73>);
 
+// --- Null Catalyst doublication
+recipes.removeShapeless(<witchery:ingredient:130>, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>]);
+
 //recipes.remove(<witchery:distilleryidle>);
 //recipes.remove(<witchery:ingredient:10>);
 //recipes.remove(<witchery:altar>);
@@ -40,12 +43,14 @@ recipes.remove(<witchery:ingredient:73>);
 mods.thaumcraft.Research.addTab("WITHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
 game.setLocalization("tc.research_category.WITHERY", "Witchery");
 
-
 // --- Warmwood
 recipes.addShaped(<witchery:ingredient:111>, [
 [<witchery:mutator>.transformDamage(), <witchery:somniancotton>, null],
 [<witchery:somniancotton>, <minecraft:wheat>, <witchery:somniancotton>],
 [null, <witchery:somniancotton>, null]]);
+
+// --- Null Catalyst doublication
+recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>, <ore:dustTinyNetherStar>]);
 
 // --- Oven
 mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
