@@ -131,6 +131,9 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundanePowerCatalyst>);
 // --- Unbound Crystal
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSpell>);
 
+// --- Aether
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:aether>);
+
 
 
 
@@ -228,6 +231,9 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundanePowerCatalyst>, [<gregtech
 
 // --- Stadart Binding Agent
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:standardBindingAgent>, [<gregtech:gt.metaitem.01:2028>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:sanctus>, <AWWayofTime:crystallos>], 3, 4000);
+
+// --- Aether
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:aether>, [<EMT:EMTItems:8>, <minecraft:feather>, <minecraft:feather>, <minecraft:ghast_tear>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 
 
