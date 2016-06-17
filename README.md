@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.6 is out (09.06.2016)(GT New Horizons Coremod 1.1.43) (GTTweaker 1.1.0)
+Version 1.0.8.7 is out (**.06.2016)(GT New Horizons Coremod 1.1.47) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -69,7 +69,7 @@ Number of players: ~10<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.8.6 --- 09.06.2016<BR>
+## Modlist - NewHorizons 1.0.8.7 --- **.06.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e24<BR>
@@ -89,7 +89,7 @@ Number of players: ~10<BR>
 * Bee Better At Bees 0.3<BR>
 * Better FPS	1.0.1<BR>
 * Better HUD 1.3.4<BR>
-* Better Questing 1.0.121<BR>
+* Better Questing 1.0.124<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -98,7 +98,7 @@ Number of players: ~10<BR>
 * Biomes o Plenty	2.1.0.1889<BR>
 * BlockLimiter	0.51<BR>
 * Blood Arsenal	1.2.5<BR>
-* BloodMagic	1.3.3.17<BR>
+* BloodMagic	1.3.3.19<BR>
 * Brandon's Core	1.0.0.12<BR>
 * Buildcraft	7.1.16<BR>
 * Buildcraft Compat	7.1.5<BR>
@@ -109,22 +109,22 @@ Number of players: ~10<BR>
 * CofhLib	1.1.1.181<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.0<BR>
-* Draconic Evolution	1.0.2e<BR>
+* Draconic Evolution	1.0.2f<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.2.0.35<BR>
+* Ender Core	0.2.0.36<BR>
 * Ender IO	2.3.0.426<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Loot Bags 1.0<BR>
 * Enhanced Portals 3	3.0.12<BR>
-* Extra Cells	2.3.10b192<BR>
+* Extra Cells	2.3.13196<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.23<BR>
 * Flood Light	1.2.1.134<BR>
 * Forbidden Magic	0.575<BR>
-* Forestry	4.2.12.60<BR>
+* Forestry	4.2.13.61<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
@@ -137,7 +137,7 @@ Number of players: ~10<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
 * Gregtech	5.08.33.27custom<BR>
-* GT New Horizons Core Mod	1.1.43<BR>
+* GT New Horizons Core Mod	1.1.47<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
@@ -149,7 +149,6 @@ Number of players: ~10<BR>
 * Industrial Craft 2	2.2.2.822<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
-* Ingame Info XML	2.8.1.82<BR>
 * InpureCore	1.0.0B9-62<BR>
 * Inventory Tweak	1.59.156<BR>
 * Iron Chest Minecarts	1.0.4<BR>
@@ -158,7 +157,6 @@ Number of players: ~10<BR>
 * Jabba	1.2.2<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
-* Lunatius Core	1.1.2.21<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
@@ -177,12 +175,10 @@ Number of players: ~10<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.5.1<BR>
 * Open Computers	1.5.22.46<BR>
-* Open Eye	0.7.5<BR>
 * Open Mods Lib	0.9.1<BR>
 * Open Modular Turrets 2.2.2.218<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
-* Optifine	HD UD 4<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
@@ -199,9 +195,8 @@ Number of players: ~10<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * RemoteIO	2.4.0<BR>
-* RF Expansion 1.0.11<BR>
+* RF Expansion 1.0.12<BR>
 * Rogue like Dungeons	1.5.0b<BR>
-* Schematica	1.7.6.131<BR>
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.2<BR>
@@ -213,7 +208,6 @@ Number of players: ~10<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * TC Inventoryscan 1.0.11<BR>
-* TC Node Tracker	1.1.2<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
