@@ -83,6 +83,30 @@ mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_stone:1>);
 // -
 recipes.remove(<BloodArsenal:blood_stone:1>);
 
+// --- Imbued Slate
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:imbuedSlate>);
+// -
+recipes.remove(<AWWayofTime:imbuedSlate>);
+
+// --- Imbued Blood Stone
+recipes.remove(<BloodArsenal:blood_stone:2>);
+
+// --- Demonic Slate
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:demonicSlate>);
+// -
+recipes.remove(<AWWayofTime:demonicSlate>);
+
+// --- Demonic Blood Stone
+recipes.remove(<BloodArsenal:blood_stone:3>);
+
+// --- Ethereal Slate
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:bloodMagicBaseItems:27>);
+// -
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:27>);
+
+// --- Ethereal Blood Stone
+recipes.remove(<BloodArsenal:blood_stone:4>);
+
 // --- Divination Sigil
 recipes.remove(<AWWayofTime:divinationSigil>);
 
@@ -179,6 +203,23 @@ recipes.remove(<AWWayofTime:runeOfSacrifice>);
 // --- Rune of Self Sacrifice
 recipes.remove(<AWWayofTime:runeOfSelfSacrifice>);
 
+// --- Air Sigil
+recipes.remove(<AWWayofTime:airSigil>);
+
+// --- Sigil of faster Mining
+recipes.remove(<AWWayofTime:sigilOfTheFastMiner>);
+
+// --- Sigil of the green grow
+recipes.remove(<AWWayofTime:growthSigil>);
+
+// --- Void Sigil
+recipes.remove(<AWWayofTime:voidSigil>);
+
+// --- Blood Letters Pack
+recipes.remove(<AWWayofTime:itemBloodPack>);
+
+// --- Weak activation Crystal
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:activationCrystal>);
 
 
 
@@ -214,6 +255,15 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.Arcan
 // --- Reinforced Slate
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, 2, 4000);
 
+// --- Imbued Slate
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:imbuedSlate>, <AWWayofTime:reinforcedSlate>, 3, 10000);
+
+// --- Demonic Slate
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:demonicSlate>, <AWWayofTime:imbuedSlate>, 4, 20000);
+
+// --- Ethereal Slate
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:demonicSlate>, 5, 50000);
+
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
 
@@ -225,6 +275,9 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSpell>, <IC2:itemBatLamaCrysta
 
 // --- Dagger of Sacrifice
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <AWWayofTime:sacrificialKnife>, 2, 10000);
+
+// --- Weak activation Crystal
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:activationCrystal>, <AWWayofTime:blankSpell>, 3, 20000);
 
 
 
@@ -353,6 +406,15 @@ Compressor.addRecipe(<BloodArsenal:blood_stone>, <AWWayofTime:blankSlate> * 9);
 // --- Reinforced Blood Stone
 Compressor.addRecipe(<BloodArsenal:blood_stone:1>, <AWWayofTime:reinforcedSlate> * 9);
 
+// --- Imbued Blood Stone
+Compressor.addRecipe(<BloodArsenal:blood_stone:2>, <AWWayofTime:imbuedSlate> * 9);
+
+// --- Demonic Blood Stone
+Compressor.addRecipe(<BloodArsenal:blood_stone:3>, <AWWayofTime:demonicSlate> * 9);
+
+// --- Ethereal Blood Stone
+Compressor.addRecipe(<BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:27> * 9);
+
 
 
 
@@ -366,8 +428,17 @@ CuttingSaw.addRecipe(<dreamcraft:item.ArcaneSlate> * 9, null, <Thaumcraft:blockC
 // --- Blank Slate
 CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 1800, 64);
 
-// --- Blank Slate
+// --- Reinforced Slate
 CuttingSaw.addRecipe(<AWWayofTime:reinforcedSlate> * 9, null, <BloodArsenal:blood_stone:1>, <liquid:lifeessence> * 1000, 2400, 120);
+
+// --- Imbued Slate
+CuttingSaw.addRecipe(<AWWayofTime:imbuedSlate> * 9, null, <BloodArsenal:blood_stone:2>, <liquid:lifeessence> * 1000, 3000, 480);
+
+// --- Demonic Slate
+CuttingSaw.addRecipe(<AWWayofTime:demonicSlate> * 9, null, <BloodArsenal:blood_stone:3>, <liquid:lifeessence> * 1000, 3600, 1920);
+
+// --- Ethereal Slate
+CuttingSaw.addRecipe(<AWWayofTime:bloodMagicBaseItems:27> * 9, null, <BloodArsenal:blood_stone:4>, <liquid:lifeessence> * 1000, 4800, 7680);
 
 
 
@@ -441,7 +512,7 @@ mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>,
 mods.thaumcraft.Research.addInfusionPage("DIVINATIONSIGIL", <AWWayofTime:divinationSigil>);
 
 // --- Speed Rune
-mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2, 2, 3, <AWWayofTime:speedRune>);
+mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2, 0, 3, <AWWayofTime:speedRune>);
 game.setLocalization("tc.research_name.SPEEDRUNE", "Speed Rune");
 game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How fast is your Altar?");
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
@@ -454,22 +525,43 @@ mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardryb
 "motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
 mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
 
+// --- Imperfect Ritual Stone
+mods.thaumcraft.Research.addResearch("IMPERFECTRITUALSTONE", "BLOODMAGIC", "auram 12, praecantatio 9, terra 6, tenebrae 3", -2, -2, 3, <AWWayofTime:imperfectRitualStone>);
+game.setLocalization("tc.research_name.IMPERFECTRITUALSTONE", "Imperfect Ritual Stone");
+game.setLocalization("tc.research_text.IMPERFECTRITUALSTONE", "[BM] Basic but oho.");
+mods.thaumcraft.Research.addPrereq("IMPERFECTRITUALSTONE", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("IMPERFECTRITUALSTONE", false);
+mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_page.IMPERFECTRITUALSTONE.1");
+game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.1", "Imperfect Ritual Stone is a block from Blood Magic used in the construction of Rituals. The Imperfect Ritual Stone is used in weaker rituals, such as the Water Ritual. 
+A weak ritual is simple but can be useful. Each is created by placing a specific block on top of an Imperfect Ritual Stone, then activated by Right-clicking the Stone. Each cost 5,000 Life Essence.");
+mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_page.IMPERFECTRITUALSTONE.2");
+game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.2", "1. Water Source Block Creates a Thunderstorm.
+2. Block of Coal Summons a strong Zombie.
+3. Lapis Lazuli Block Lapis Lazuli Block Makes it night time.
+4. Bedrock above Grants Resistance II for 1 minute.");
+mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 15, ignis 15, aqua 15, terra 15, ordo 15, perditio 15", [
+[<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
+[<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
+[<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>]]);
+mods.thaumcraft.Research.addArcanePage("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>);
+
 // --- Ritual Stone
-mods.thaumcraft.Research.addResearch("RITUALSTONE", "BLOODMAGIC", "terra 15, ignis 12, tenebrae 9, praecantatio 6, aer 3", -2, -2, 3, <AWWayofTime:ritualStone>);
+mods.thaumcraft.Research.addResearch("RITUALSTONE", "BLOODMAGIC", "terra 15, ignis 12, tenebrae 9, praecantatio 6, aer 3", -2, -4, 3, <AWWayofTime:ritualStone>);
 game.setLocalization("tc.research_name.RITUALSTONE", "Ritual Stone");
 game.setLocalization("tc.research_text.RITUALSTONE", "[BM] Rituals");
 mods.thaumcraft.Research.addPrereq("RITUALSTONE", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("RITUALSTONE", "BLOODALTAR", false);
+mods.thaumcraft.Research.addPrereq("RITUALSTONE", "IMPERFECTRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("RITUALSTONE", true);
 mods.thaumcraft.Research.addPage("RITUALSTONE", "bloodmagic.research_page.RITUALSTONE");
 game.setLocalization("bloodmagic.research_page.RITUALSTONE", "The Ritual Stone is a block added by Blood Magic that is used to create various rituals, such as the Ritual of Binding. The Ritual Stones can be automatically placed and painted by the Ritual Diviner, or they can be manually placed and painted with the various Elemental Inks, such as the Elemental Inscription Tool: Air. The Ritual Stone is also used in the creation of the Master Ritual Stone.");
-mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <BloodArsenal:blood_stone:1>, 
+mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <AWWayofTime:imperfectRitualStone>, 
 [<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>], 
 "terra 24, ignis 18, tenebrae 12, praecantatio 6, aer 3", <AWWayofTime:ritualStone>, 6);
 mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone>);
+mods.thaumcraft.Warp.addToResearch("RITUALSTONE", 1);
 
 // --- Spell Table
-mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4, -2, 3, <AWWayofTime:blockHomHeart>);
+mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4, -4, 3, <AWWayofTime:blockHomHeart>);
 game.setLocalization("tc.research_name.SPELLTABLE", "Spell Table");
 game.setLocalization("tc.research_text.SPELLTABLE", "[BM] Abrakadabra.....");
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "INFUSION", false);
@@ -485,7 +577,7 @@ mods.thaumcraft.Research.addArcanePage("SPELLTABLE", <AWWayofTime:blockHomHeart>
 mods.thaumcraft.Warp.addToResearch("SPELLTABLE", 4);
 
 // --- Master Ritual Stone
-mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2, -4, 3, <AWWayofTime:masterStone>);
+mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2, -6, 3, <AWWayofTime:masterStone>);
 game.setLocalization("tc.research_name.MASTERRITUALSTONE", "Master Ritual Stone");
 game.setLocalization("tc.research_text.MASTERRITUALSTONE", "[BM] Lets Start some Rituals");
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "INFUSION", false);
@@ -497,6 +589,7 @@ mods.thaumcraft.Infusion.addRecipe("MASTERRITUALSTONE", <AWWayofTime:ritualStone
 [<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid>, <BloodArsenal:blood_stone:1>, <Thaumcraft:blockCosmeticSolid:1>, <BloodArsenal:blood_stone:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <BloodArsenal:blood_stone:1>, <Thaumcraft:blockCosmeticSolid>, <BloodArsenal:blood_stone:1>,], 
 "terra 36, ignis 24, tenebrae 16, praecantatio 16, aer 8, cognitio 8", <AWWayofTime:masterStone>, 8);
 mods.thaumcraft.Research.addInfusionPage("MASTERRITUALSTONE", <AWWayofTime:masterStone>);
+mods.thaumcraft.Warp.addToResearch("MASTERRITUALSTONE", 2);
 
 // --- Water Sigil
 mods.thaumcraft.Research.addResearch("WATERSIGIL", "BLOODMAGIC", "aqua 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 4, 3, <AWWayofTime:waterSigil>);
@@ -507,10 +600,11 @@ mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
 mods.thaumcraft.Research.addPage("WATERSIGIL", "bloodmagic.research_page.WATERSIGIL");
 game.setLocalization("bloodmagic.research_page.WATERSIGIL", "The Water Sigil acts as an alternative to a bucket of water, allowing for the creation of water source blocks at the cost of 200 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Water Sigil is also used in the creation of the Sigil of Elemental Affinity.");
-mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:imbuedSlate>, 
-[<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>], 
+mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:reinforcedSlate>, 
+[<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>], 
 "aqua 40, terra 32, praecantatio 24, instrumentum 16, metallum 8", <AWWayofTime:waterSigil>, 5);
 mods.thaumcraft.Research.addInfusionPage("WATERSIGIL", <AWWayofTime:waterSigil>);
+mods.thaumcraft.Warp.addToResearch("WATERSIGIL", 2);
 
 // --- Lava Sigil
 mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 6, 3, <AWWayofTime:lavaSigil>);
@@ -521,10 +615,11 @@ mods.thaumcraft.Research.addPrereq("LAVASIGIL", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
 mods.thaumcraft.Research.addPage("LAVASIGIL", "bloodmagic.research_page.LAVASIGIL");
 game.setLocalization("bloodmagic.research_page.LAVASIGIL", "The Lava Sigil is a tool added by Blood Magic. The Lava Sigil acts as an alternative to a bucket of lava, allowing for the creation of lava source blocks at the cost of 2,000 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Lava Sigil is also used in the creation of the Sigil of Elemental Affinity.");
-mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:demonicSlate>, 
-[<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>], 
+mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:imbuedSlate>, 
+[<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>], 
 "ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
 mods.thaumcraft.Research.addInfusionPage("LAVASIGIL", <AWWayofTime:lavaSigil>);
+mods.thaumcraft.Warp.addToResearch("LAVASIGIL", 4);
 
 // --- Empty Core
 mods.thaumcraft.Research.addResearch("EMPTYCORE", "BLOODMAGIC", "vitreus 15, terra 12, lucrum 9, metallum 6, praecantatio 3", 0, -2, 3, <AWWayofTime:bloodMagicBaseItems:1>);
@@ -558,7 +653,7 @@ mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseI
 mods.thaumcraft.Research.addInfusionPage("BMLAVACRYSTAL", <AWWayofTime:lavaCrystal>);
 
 // --- Rune of Sacrifice
-mods.thaumcraft.Research.addResearch("RUNESACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, potentia 9, praecantatio 6, terra 3", -2, 4, 3, <AWWayofTime:runeOfSacrifice>);
+mods.thaumcraft.Research.addResearch("RUNESACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, potentia 9, praecantatio 6, terra 3", -4, 0, 3, <AWWayofTime:runeOfSacrifice>);
 game.setLocalization("tc.research_name.RUNESACRIFICE", "Rune of Sacrifice");
 game.setLocalization("tc.research_text.RUNESACRIFICE", "[BM] Very bloody");
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
@@ -572,11 +667,11 @@ mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <AWWayofTime:AlchemicalWizar
 mods.thaumcraft.Research.addInfusionPage("RUNESACRIFICE", <AWWayofTime:runeOfSacrifice>);
 
 // --- Rune of Self Sacrifice
-mods.thaumcraft.Research.addResearch("RUNESELFSACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, lucrum 9, praecantatio 6, terra 3", -4, 6, 3, <AWWayofTime:runeOfSelfSacrifice>);
+mods.thaumcraft.Research.addResearch("RUNESELFSACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, lucrum 9, praecantatio 6, terra 3", -4, 2, 3, <AWWayofTime:runeOfSelfSacrifice>);
 game.setLocalization("tc.research_name.RUNESELFSACRIFICE", "Rune of Self Sacrifice");
 game.setLocalization("tc.research_text.RUNESELFSACRIFICE", "[BM] Even more bloody");
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "RUNESACRIFICE", false);
+mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "bloodmagic.research_page.RUNESELFSACRIFICE");
 game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%.");
@@ -584,6 +679,82 @@ mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <AWWayofTime:AlchemicalW
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
 mods.thaumcraft.Research.addInfusionPage("RUNESELFSACRIFICE", <AWWayofTime:runeOfSelfSacrifice>);
+
+// --- Air Sigil
+mods.thaumcraft.Research.addResearch("AIRSIGIL", "BLOODMAGIC", "volatus 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 0, 8, 4, <AWWayofTime:airSigil>);
+game.setLocalization("tc.research_name.AIRSIGIL", "Air Sigil");
+game.setLocalization("tc.research_text.AIRSIGIL", "[BM] Fly like a Bird but not look down.");
+mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("AIRSIGIL", "LAVASIGIL", false);
+mods.thaumcraft.Research.setConcealed("AIRSIGIL", true);
+mods.thaumcraft.Research.addPage("AIRSIGIL", "bloodmagic.research_page.AIRSIGIL");
+game.setLocalization("bloodmagic.research_page.AIRSIGIL", "The Air Sigil is a sigil added by Blood Magic that grants the user access to a basic method of flight at the cost of LP. Upon right clicking with the Air Sigil, the user will be launched in the direction they are facing at the cost of 50 LP per click. Do note, however, that the user is still vulnerable to fall damage without a form of protection, such as the Sigil of Elemental Affinity.");
+mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
+[<minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>], 
+"volatus 72, aer 64, motus 56, praecantatio 48, iter 32, potentia 24, cognitio 12", <AWWayofTime:airSigil>, 9);
+mods.thaumcraft.Research.addInfusionPage("AIRSIGIL", <AWWayofTime:airSigil>);
+mods.thaumcraft.Warp.addToResearch("AIRSIGIL", 6);
+
+// --- Sigil of faster Mining
+mods.thaumcraft.Research.addResearch("FASTERMINING", "BLOODMAGIC", "instrumentum 15, perfodio 12, praecantatio 9, metallum 6, motus 3", -2, 4, 3, <AWWayofTime:sigilOfTheFastMiner>);
+game.setLocalization("tc.research_name.FASTERMINING", "Sigil of faster mining");
+game.setLocalization("tc.research_text.FASTERMINING", "[BM] Hast II and you?");
+mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("FASTERMINING", "DIVINATIONSIGIL", false);
+mods.thaumcraft.Research.setConcealed("FASTERMINING", true);
+mods.thaumcraft.Research.addPage("FASTERMINING", "bloodmagic.research_page.FASTERMINING");
+game.setLocalization("bloodmagic.research_page.FASTERMINING", "The Sigil of the Fast Miner is a tool added by Blood Magic. The Sigil of the Fast Miner grants the user Haste II at the cost of Life Essence (LP). Upon activating the Sigil of the Fast Miner, 100 LP will be consumed from the owner's network to grant the user Haste II. Every ten seconds after activation, an additional 100 LP will be consumed to continue granting the user Haste II.");
+mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>, 
+[<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemPickThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemShovelThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemAxeThaumium>, <AWWayofTime:aether>], 
+"instrumentum 36, praecantatio 24, metallum 18, perfodio 12, motus 8", <AWWayofTime:sigilOfTheFastMiner>, 5);
+mods.thaumcraft.Research.addInfusionPage("FASTERMINING", <AWWayofTime:sigilOfTheFastMiner>);
+mods.thaumcraft.Warp.addToResearch("FASTERMINING", 2);
+
+// --- Sigil of the green grow
+mods.thaumcraft.Research.addResearch("GREENGROW", "BLOODMAGIC", "instrumentum 15, terra 12, herba 9, arbor 6, victus 3", 2, 4, 3, <AWWayofTime:growthSigil>);
+game.setLocalization("tc.research_name.GREENGROW", "Sigil of the Green Grow");
+game.setLocalization("tc.research_text.GREENGROW", "[BM] Who needs a green Thumb?");
+mods.thaumcraft.Research.addPrereq("GREENGROW", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("GREENGROW", "DIVINATIONSIGIL", false);
+mods.thaumcraft.Research.setConcealed("GREENGROW", true);
+mods.thaumcraft.Research.addPage("GREENGROW", "bloodmagic.research_page.GREENGROW");
+game.setLocalization("bloodmagic.research_page.GREENGROW", "The Sigil of the Green Grove is a sigil added by Blood Magic. When activated, the sigil will speed the growth of all nearby plants in a manner similar to the Ritual of the Green Grove. Upon activating the Sigil of the Green Grove, additional growth ticks will be applied to all plants within a six block radius of the player. This effect will consume 150 LP per five seconds. Right clicking on a plant will cause a bonemeal effect to be activated on that plant, consuming 150 LP per click. This effect can only be applied to plants that can have their growth sped up by Bonemeal.");
+mods.thaumcraft.Infusion.addRecipe("GREENGROW", <AWWayofTime:reinforcedSlate>, 
+[<witchery:witchsapling>, <AWWayofTime:terrae>, <witchery:witchsapling:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant>, <AWWayofTime:terrae>, <TConstruct:slime.sapling>, <AWWayofTime:terrae>], 
+"instrumentum 36, terra 24, herba 18, arbor 12, victus 8", <AWWayofTime:growthSigil>, 5);
+mods.thaumcraft.Research.addInfusionPage("GREENGROW", <AWWayofTime:growthSigil>);
+mods.thaumcraft.Warp.addToResearch("GREENGROW", 2);
+
+// --- Void Sigil
+mods.thaumcraft.Research.addResearch("VOIDSIGIL", "BLOODMAGIC", "vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -2, 6, 3, <AWWayofTime:voidSigil>);
+game.setLocalization("tc.research_name.VOIDSIGIL", "Void Sigil");
+game.setLocalization("tc.research_text.VOIDSIGIL", "[BM] Better than a Swiffer!");
+mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "WATERSIGIL", false);
+mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
+mods.thaumcraft.Research.addPage("VOIDSIGIL", "bloodmagic.research_page.VOIDSIGIL");
+game.setLocalization("bloodmagic.research_page.VOIDSIGIL", "The Void Sigil is a tool added by Blood Magic. The Void Sigil is used to remove source blocks of liquid at a small LP cost. When used in conjunction with the Lava Sigil or Water Sigil, it can be useful in cleaning up accidental liquid placement. In order to use the Void Sigil, it must first be bound to a player. This can be done by right clicking with the sigil. Once bound, right clicking any placed liquid source block will cause it to disappear, at the cost of 50 LP and the liquid.");
+mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>, 
+[<BloodArsenal:blood_burned_string>, <dreamcraft:item.VoidPlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <dreamcraft:item.VoidPlate>], 
+"vacuos 64, terra 40, praecantatio 32, auram 24, metallum 16", <AWWayofTime:voidSigil>, 7);
+mods.thaumcraft.Research.addInfusionPage("VOIDSIGIL", <AWWayofTime:voidSigil>);
+mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
+
+// --- Blood Letters Pack
+recipes.remove(<AWWayofTime:itemBloodPack>);
+mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "tellum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -2, 3, <AWWayofTime:itemBloodPack>);
+game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
+game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM] This Pack really chaffs...");
+mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
+mods.thaumcraft.Research.setConcealed("BLOODLETTERSPACK", true);
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "bloodmagic.research_page.BLOODLETTERSPACK");
+game.setLocalization("bloodmagic.research_page.BLOODLETTERSPACK", "The Blood Letter's Pack is a piece of armor added by Blood Magic. Wearing the armor does one heart of damage a second and fills 100 LP per heart and will not reduce a player's health below 5 hearts. The Pack stores up to 10000 LP, upgrades unknown. The Blood Letter's Pack is used to store LP while away from the Altar. Using a filled Pack on the Altar will transfer stored LP into the Altar's buffer tank.");
+mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>, "aer 15, ignis 15, terra 30, aqua 30, ordo 30, perditio 30", [
+[<AWWayofTime:reinforcedSlate>, <AWWayofTime:sacrificialKnife>, <AWWayofTime:reinforcedSlate>],
+[<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
+[<AWWayofTime:reinforcedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:reinforcedSlate>]]);
+mods.thaumcraft.Research.addArcanePage("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>);
+
 
 
 
