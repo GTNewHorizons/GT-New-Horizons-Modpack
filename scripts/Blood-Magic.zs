@@ -173,6 +173,12 @@ recipes.remove(<AWWayofTime:lavaCrystal>);
 // --- Empty Core
 recipes.remove(<AWWayofTime:bloodMagicBaseItems:1>);
 
+// --- Rune of Sacrifice
+recipes.remove(<AWWayofTime:runeOfSacrifice>);
+
+// --- Rune of Self Sacrifice
+recipes.remove(<AWWayofTime:runeOfSelfSacrifice>);
+
 
 
 
@@ -445,7 +451,7 @@ mods.thaumcraft.Research.addPage("SPEEDRUNE", "bloodmagic.research_page.SPEEDRUN
 game.setLocalization("bloodmagic.research_page.SPEEDRUNE", "The Speed Rune is a block added by Blood Magic that is used for upgrading the tier of the Blood Altar. The Speed Rune can be used interchangeably with any other rune. The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar.");
 mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
 [<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
-"motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 5);
+"motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
 mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
 
 // --- Ritual Stone
@@ -551,6 +557,33 @@ mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseI
 "ignis 24, terra 18, praecantatio 18, infernus 6, aer 6", <AWWayofTime:lavaCrystal>, 4);
 mods.thaumcraft.Research.addInfusionPage("BMLAVACRYSTAL", <AWWayofTime:lavaCrystal>);
 
+// --- Rune of Sacrifice
+mods.thaumcraft.Research.addResearch("RUNESACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, potentia 9, praecantatio 6, terra 3", -2, 4, 3, <AWWayofTime:runeOfSacrifice>);
+game.setLocalization("tc.research_name.RUNESACRIFICE", "Rune of Sacrifice");
+game.setLocalization("tc.research_text.RUNESACRIFICE", "[BM] Very bloody");
+mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
+mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
+mods.thaumcraft.Research.addPage("RUNESACRIFICE", "bloodmagic.research_page.RUNESACRIFICE");
+game.setLocalization("bloodmagic.research_page.RUNESACRIFICE", "The Rune of Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by an additive 10%.");
+mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+[<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
+"fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
+mods.thaumcraft.Research.addInfusionPage("RUNESACRIFICE", <AWWayofTime:runeOfSacrifice>);
+
+// --- Rune of Self Sacrifice
+mods.thaumcraft.Research.addResearch("RUNESELFSACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, lucrum 9, praecantatio 6, terra 3", -4, 6, 3, <AWWayofTime:runeOfSelfSacrifice>);
+game.setLocalization("tc.research_name.RUNESELFSACRIFICE", "Rune of Self Sacrifice");
+game.setLocalization("tc.research_text.RUNESELFSACRIFICE", "[BM] Even more bloody");
+mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "RUNESACRIFICE", false);
+mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
+mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "bloodmagic.research_page.RUNESELFSACRIFICE");
+game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%.");
+mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+[<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
+"fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
+mods.thaumcraft.Research.addInfusionPage("RUNESELFSACRIFICE", <AWWayofTime:runeOfSelfSacrifice>);
 
 
 
