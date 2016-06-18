@@ -31364,7 +31364,7 @@
         }
       ],
       "preRequisites": [
-        423
+        424
       ]
     },
     {
@@ -33886,6 +33886,78 @@
       "rewards": [],
       "preRequisites": [
         393
+      ]
+    },
+    {
+      "questID": 463,
+      "name": "Runes Tier 2",
+      "description": "Speed rune are the only Tier 2 Rune. The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:speedRune",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "AWWayofTime:imbuedSlate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        423
       ]
     },
     {
@@ -42793,8 +42865,8 @@
         },
         {
           "id": 426,
-          "x": 168,
-          "y": 32
+          "x": 232,
+          "y": 64
         },
         {
           "id": 427,
@@ -42880,6 +42952,11 @@
           "id": 417,
           "x": 64,
           "y": 120
+        },
+        {
+          "id": 463,
+          "x": 168,
+          "y": 32
         }
       ]
     },
