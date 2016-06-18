@@ -27,19 +27,19 @@ recipes.remove(<AWWayofTime:sacrificialKnife>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 
 // --- Apprentice Blood Orb
-mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);  // was Emerald
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 
 // --- Magican Blood Orb
-mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>); // was Gold Block
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>);
 
 // --- Master Blood Orb
-mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:masterBloodOrb>);   // was weak Blood Shard
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:masterBloodOrb>);
 
 // --- Arche Mage Blood Orb
-mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:archmageBloodOrb>);  // was Deamon Shard
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:archmageBloodOrb>);
 
 // --- Transcendent Blood Orb
-mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:transcendentBloodOrb>);  // was Crystal Cluster
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:transcendentBloodOrb>);
 
 // --- Bound Blade
 mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:energySword>);
@@ -232,22 +232,22 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:activationCrystal>);
 
 
 // --- Week Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <dreamcraft:item.WeakOrb>, 1, 5000);  //was 2000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <dreamcraft:item.WeakOrb>, 1, 5000);
 
 // --- Apprentice Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <dreamcraft:item.ApprenticeOrb>, 2, 10000);  // was 5000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <dreamcraft:item.ApprenticeOrb>, 2, 10000);
 
 // --- Magican Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <dreamcraft:item.MagicianOrb>, 3, 30000); // was 25000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <dreamcraft:item.MagicianOrb>, 3, 30000);
 
 // --- Master Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:masterBloodOrb>, <dreamcraft:item.MasterOrb>, 4, 60000);   // was 40000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:masterBloodOrb>, <dreamcraft:item.MasterOrb>, 4, 60000);
 
 // --- Arche Mage Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item.ArchmageOrb>, 5, 120000);  // was 75000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item.ArchmageOrb>, 5, 120000);
 
 // --- Transcendent Blood Orb
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);  // was 200000
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);
 
 // --- Blank Slate
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.ArcaneSlate>, 1, 2000);
@@ -468,7 +468,7 @@ mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 
 // --- Sacrificial Knife
-mods.thaumcraft.Research.addResearch("SACRIFICIALKNIFE", "BLOODMAGIC", "telum 15, lucrum 12, instrumentum 9, fames 6, fabrico 3", 2, 0, 3, <AWWayofTime:sacrificialKnife>);
+mods.thaumcraft.Research.addResearch("SACRIFICIALKNIFE", "BLOODMAGIC", "telum 15, lucrum 12, instrumentum 9, fames 6, fabrico 3", 2, -2, 3, <AWWayofTime:sacrificialKnife>);
 game.setLocalization("tc.research_name.SACRIFICIALKNIFE", "Sacrificial Knife");
 game.setLocalization("tc.research_text.SACRIFICIALKNIFE", "[BM] Ouch! that hurts.");
 mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
@@ -482,7 +482,7 @@ mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKni
 mods.thaumcraft.Research.addArcanePage("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>);
 
 // --- Alchemic Chemistry Set
-mods.thaumcraft.Research.addResearch("ALCHEMICCHEMSTRYSET", "BLOODMAGIC", "fabrico 15, ignis 12, instrumentum 9, praecantatio 6, victus 3", 4, 0, 3, <AWWayofTime:blockWritingTable>);
+mods.thaumcraft.Research.addResearch("ALCHEMICCHEMSTRYSET", "BLOODMAGIC", "fabrico 15, ignis 12, instrumentum 9, praecantatio 6, victus 3", 4, -4, 3, <AWWayofTime:blockWritingTable>);
 game.setLocalization("tc.research_name.ALCHEMICCHEMSTRYSET", "Alchemic Chemistry Set");
 game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM] Blub, blub.....OH");
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
@@ -742,7 +742,7 @@ mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
 
 // --- Blood Letters Pack
 recipes.remove(<AWWayofTime:itemBloodPack>);
-mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "tellum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -2, 3, <AWWayofTime:itemBloodPack>);
+mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "tellum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -4, 3, <AWWayofTime:itemBloodPack>);
 game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM] This Pack really chaffs...");
 mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
@@ -754,6 +754,96 @@ mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>
 [<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:reinforcedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:reinforcedSlate>]]);
 mods.thaumcraft.Research.addArcanePage("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>);
+
+// --- Weak Orb
+mods.thaumcraft.Research.addResearch("WEAKORB", "BLOODMAGIC", "vitreus 9, potentia 6, praecantatio 3", 2, 0, 2, <dreamcraft:item.WeakOrb>);
+game.setLocalization("tc.research_name.WEAKORB", "Weak Orb");
+game.setLocalization("tc.research_text.WEAKORB", "[BM] Orb transformation Tier I");
+mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("WEAKORB", true);
+mods.thaumcraft.Research.addPage("WEAKORB", "bloodmagic.research_page.WEAKORB");
+game.setLocalization("bloodmagic.research_page.WEAKORB", "After you createt a raw Orb Tier 1 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Weak Blood Orb");
+mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
+[null, <ore:gemDiamond>, null],
+[<AWWayofTime:blankSlate>, <dreamcraft:item.RawOrbTier1>, <AWWayofTime:blankSlate>],
+[null, <ore:gemDiamond>, null]]);
+mods.thaumcraft.Research.addArcanePage("WEAKORB", <dreamcraft:item.WeakOrb>);
+mods.thaumcraft.Warp.addToResearch("WEAKORB", 1);
+
+// --- Apprentice Orb
+mods.thaumcraft.Research.addResearch("APPRENTICEORB", "BLOODMAGIC", "vitreus 12, potentia 9, praecantatio 6, cognitio 3", 4, 0, 3, <dreamcraft:item.ApprenticeOrb>);
+game.setLocalization("tc.research_name.APPRENTICEORB", "Apprentice Orb");
+game.setLocalization("tc.research_text.APPRENTICEORB", "[BM] Orb transformation Tier II");
+mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
+mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "bloodmagic.research_page.APPRENTICEORB");
+game.setLocalization("bloodmagic.research_page.APPRENTICEORB", "After you createt a raw Orb Tier 2 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Apprentice Blood Orb");
+mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
+[null, <ore:gemFlawlessEmerald>, null],
+[<AWWayofTime:reinforcedSlate>, <dreamcraft:item.RawOrbTier2>, <AWWayofTime:reinforcedSlate>],
+[null, <ore:gemFlawlessEmerald>, null]]);
+mods.thaumcraft.Research.addArcanePage("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>);
+mods.thaumcraft.Warp.addToResearch("APPRENTICEORB", 2);
+
+// --- Magican Orb
+mods.thaumcraft.Research.addResearch("MAGICANORB", "BLOODMAGIC", "vitreus 15, potentia 12, praecantatio 9, cognitio 6, sano 3", 6, 0, 3, <dreamcraft:item.MagicianOrb>);
+game.setLocalization("tc.research_name.MAGICANORB", "Magican Orb");
+game.setLocalization("tc.research_text.MAGICANORB", "[BM] Orb transformation Tier III");
+mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
+mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
+mods.thaumcraft.Research.addPage("MAGICANORB", "bloodmagic.research_page.MAGICANORB");
+game.setLocalization("bloodmagic.research_page.MAGICANORB", "After you createt a raw Orb Tier 3 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Magican Blood Orb");
+mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
+[null, <ore:blockGold>, null],
+[<AWWayofTime:imbuedSlate>, <dreamcraft:item.RawOrbTier3>, <AWWayofTime:imbuedSlate>],
+[null, <ore:blockGold>, null]]);
+mods.thaumcraft.Research.addArcanePage("MAGICANORB", <dreamcraft:item.MagicianOrb>);
+mods.thaumcraft.Warp.addToResearch("MAGICANORB", 3);
+
+// --- Master Orb
+mods.thaumcraft.Research.addResearch("MASTERORB", "BLOODMAGIC", "vitreus 18, potentia 15, praecantatio 12, cognitio 9, sano 6, aqua 3", 8, 0, 3, <dreamcraft:item.MasterOrb>);
+game.setLocalization("tc.research_name.MASTERORB", "Master Orb");
+game.setLocalization("tc.research_text.MASTERORB", "[BM] Orb transformation Tier IV");
+mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
+mods.thaumcraft.Research.setConcealed("MASTERORB", true);
+mods.thaumcraft.Research.addPage("MASTERORB", "bloodmagic.research_page.MASTERORB");
+game.setLocalization("bloodmagic.research_page.MASTERORB", "After you createt a raw Orb Tier 4 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Master Blood Orb");
+mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
+[null, <AWWayofTime:weakBloodShard>, null],
+[<AWWayofTime:demonicSlate>, <dreamcraft:item.RawOrbTier4>, <AWWayofTime:demonicSlate>],
+[null, <AWWayofTime:weakBloodShard>, null]]);
+mods.thaumcraft.Research.addArcanePage("MASTERORB", <dreamcraft:item.MasterOrb>);
+mods.thaumcraft.Warp.addToResearch("MASTERORB", 4);
+
+// --- Archmage Orb
+mods.thaumcraft.Research.addResearch("ARCHMAGEORB", "BLOODMAGIC", "vitreus 21, potentia 18, praecantatio 15, cognitio 12, sano 9, aqua 6, infernus 3", 10, 0, 4, <dreamcraft:item.ArchmageOrb>);
+game.setLocalization("tc.research_name.ARCHMAGEORB", "Archmage Orb");
+game.setLocalization("tc.research_text.ARCHMAGEORB", "[BM] Orb transformation Tier V");
+mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
+mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "bloodmagic.research_page.ARCHMAGEORB");
+game.setLocalization("bloodmagic.research_page.ARCHMAGEORB", "After you createt a raw Orb Tier 5 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Archmage Blood Orb");
+mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
+[null, <AWWayofTime:demonBloodShard>, null],
+[<AWWayofTime:bloodMagicBaseItems:27>, <dreamcraft:item.RawOrbTier5>, <AWWayofTime:bloodMagicBaseItems:27>],
+[null, <AWWayofTime:demonBloodShard>, null]]);
+mods.thaumcraft.Research.addArcanePage("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>);
+mods.thaumcraft.Warp.addToResearch("ARCHMAGEORB", 5);
+
+// --- Transcendent Orb
+mods.thaumcraft.Research.addResearch("TRANSCENDENTORB", "BLOODMAGIC", "vitreus 24, potentia 21, praecantatio 18, cognitio 15, sano 12, aqua 9, infernus 6, electrum 3", 12, 0, 4, <dreamcraft:item.TranscendentOrb>);
+game.setLocalization("tc.research_name.TRANSCENDENTORB", "Transcendent Orb");
+game.setLocalization("tc.research_text.TRANSCENDENTORB", "[BM] Orb transformation Tier VI");
+mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
+mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "bloodmagic.research_page.TRANSCENDENTORB");
+game.setLocalization("bloodmagic.research_page.TRANSCENDENTORB", "After you createt a raw Orb Tier 6 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Transcendent Blood Orb");
+mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
+[null, <AWWayofTime:blockCrystal>, null],
+[<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
+[null, <AWWayofTime:blockCrystal>, null]]);
+mods.thaumcraft.Research.addArcanePage("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>);
+mods.thaumcraft.Warp.addToResearch("TRANSCENDENTORB", 6);
 
 
 

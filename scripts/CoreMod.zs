@@ -2478,4 +2478,6 @@ mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 
 mods.thaumcraft.Research.addArcanePage("LUGGAGE", <OpenBlocks:luggage>);
 mods.thaumcraft.Warp.addToResearch("LUGGAGE", 1);
 
+
+
 // --- Hiding Stuff ----
