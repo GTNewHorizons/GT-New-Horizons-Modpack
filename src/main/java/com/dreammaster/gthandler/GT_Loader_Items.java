@@ -401,6 +401,12 @@ public class GT_Loader_Items
 		CustomItemList.ArchmageOrb.set(com.dreammaster.item.ItemList.ArchmageOrb.getIS());
 		CustomItemList.TranscendentOrb.set(com.dreammaster.item.ItemList.TranscendentOrb.getIS());
 		CustomItemList.ArcaneSlate.set(com.dreammaster.item.ItemList.ArcaneSlate.getIS());
+		CustomItemList.RawOrbTier1.set(com.dreammaster.item.ItemList.RawOrbTier1.getIS());
+		CustomItemList.RawOrbTier2.set(com.dreammaster.item.ItemList.RawOrbTier2.getIS());
+		CustomItemList.RawOrbTier3.set(com.dreammaster.item.ItemList.RawOrbTier3.getIS());
+		CustomItemList.RawOrbTier4.set(com.dreammaster.item.ItemList.RawOrbTier4.getIS());
+		CustomItemList.RawOrbTier5.set(com.dreammaster.item.ItemList.RawOrbTier5.getIS());
+		CustomItemList.RawOrbTier6.set(com.dreammaster.item.ItemList.RawOrbTier6.getIS());
 	}
 
 }
