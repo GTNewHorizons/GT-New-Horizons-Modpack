@@ -134,6 +134,45 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSpell>);
 // --- Aether
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:aether>);
 
+// --- Cobweb
+mods.bloodmagic.Alchemy.removeRecipe(<minecraft:web>);
+
+// --- Fractured Bone
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:5>);
+
+// --- Leather
+mods.bloodmagic.Alchemy.removeRecipe(<minecraft:leather>);
+
+// --- Fire Charge
+mods.bloodmagic.Alchemy.removeRecipe(<minecraft:fire_charge>);
+
+// --- Dagger of Sacrifice
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:daggerOfSacrifice>);
+
+// --- Incendium
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:incendium>);
+
+// --- Magicales
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:magicales>);
+
+// --- Crepitous
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:crepitous>);
+
+// --- Terrae
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:terrae>);
+
+// --- Aquasalus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:aquasalus>);
+
+// --- Tennebrae
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:tennebrae>);
+
+// --- Lava Crystal
+recipes.remove(<AWWayofTime:lavaCrystal>);
+
+// --- Empty Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:1>);
+
 
 
 
@@ -178,6 +217,9 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <Thaumcraft:ItemEsse
 // --- Unbound Crystal
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSpell>, <IC2:itemBatLamaCrystal:26>, 2, 5000);
 
+// --- Dagger of Sacrifice
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <AWWayofTime:sacrificialKnife>, 2, 10000);
+
 
 
 
@@ -212,10 +254,10 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:largeBloodStoneBrick> * 4, [<AWWa
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:simpleCatalyst>, [<Thaumcraft:ItemEssence>, <Genetics:misc:4>, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:gunpowder>], 1, 500);
 
 // --- Crystallos
-mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <BiomesOPlenty:hardIce>], 2, 1000);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<BiomesOPlenty:hardIce>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 // --- Sanctus
-mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:2086>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>], 2, 1000);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<gregtech:gt.metaitem.01:2086>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 // --- Weak filling Agent
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakFillingAgent>, [<AWWayofTime:simpleCatalyst>, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:nether_wart>, <minecraft:blaze_powder>], 3, 2000);
@@ -234,6 +276,36 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:standardBindingAgent>, [<gregtech
 
 // --- Aether
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:aether>, [<EMT:EMTItems:8>, <minecraft:feather>, <minecraft:feather>, <minecraft:ghast_tear>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Cobweb
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:web>, [<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>], 1, 500);
+
+// --- Fractured Bone
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:5>, [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>, <minecraft:bone>, <minecraft:gunpowder>], 1, 500);
+
+// --- Leather
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:leather> * 3, [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:water_bucket>, <minecraft:flint>], 1, 600);
+
+// --- Fire Charge
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder>, <gregtech:gt.metaitem.01:2535>, <minecraft:gunpowder>], 1, 900);
+
+// --- Incendium
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium>, [<minecraft:lava_bucket>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.01:2347>, <gregtech:gt.metaitem.01:2807>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Magicales
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:magicales>, [<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <minecraft:gunpowder>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Crepitous
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crepitous>, [<AWWayofTime:blankSlate>, <minecraft:gunpowder>, <minecraft:gunpowder>, <AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Terrae
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:terrae>, [<appliedenergistics2:item.ItemMultiMaterial:45>, <gregtech:gt.metaitem.01:2935>, <gregtech:gt.metaitem.01:2936>, <gregtech:gt.metaitem.01:2804>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Aquasalus
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:aquasalus>, [<minecraft:potion>, <gregtech:gt.metaitem.01:2543>, <gregtech:gt.metaitem.01:2543>, <minecraft:dye>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Tennebrae
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:tennebrae>, [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2535>, <gregtech:gt.metaitem.01:2536>, <gregtech:gt.metaitem.01:2538>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 
 
@@ -345,6 +417,7 @@ mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_sta
 [<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
 mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
+mods.thaumcraft.Warp.addToResearch("ALCHEMICCHEMSTRYSET", 3);
 
 // --- Divination Sigil
 mods.thaumcraft.Research.addResearch("DIVINATIONSIGIL", "BLOODMAGIC", "vitreus 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:divinationSigil>);
@@ -363,8 +436,8 @@ mods.thaumcraft.Research.addInfusionPage("DIVINATIONSIGIL", <AWWayofTime:divinat
 
 // --- Speed Rune
 mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2, 2, 3, <AWWayofTime:speedRune>);
-game.setLocalization("tc.research_name.SPEEDRUNE", "Divination Sigil");
-game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How much Essence you have?");
+game.setLocalization("tc.research_name.SPEEDRUNE", "Speed Rune");
+game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How fast is your Altar?");
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
@@ -385,7 +458,7 @@ mods.thaumcraft.Research.setConcealed("RITUALSTONE", true);
 mods.thaumcraft.Research.addPage("RITUALSTONE", "bloodmagic.research_page.RITUALSTONE");
 game.setLocalization("bloodmagic.research_page.RITUALSTONE", "The Ritual Stone is a block added by Blood Magic that is used to create various rituals, such as the Ritual of Binding. The Ritual Stones can be automatically placed and painted by the Ritual Diviner, or they can be manually placed and painted with the various Elemental Inks, such as the Elemental Inscription Tool: Air. The Ritual Stone is also used in the creation of the Master Ritual Stone.");
 mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <BloodArsenal:blood_stone:1>, 
-[<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>,], 
+[<AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:terrae>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:1>, <AWWayofTime:reinforcedSlate>], 
 "terra 24, ignis 18, tenebrae 12, praecantatio 6, aer 3", <AWWayofTime:ritualStone>, 6);
 mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone>);
 
@@ -407,7 +480,7 @@ mods.thaumcraft.Warp.addToResearch("SPELLTABLE", 4);
 
 // --- Master Ritual Stone
 mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2, -4, 3, <AWWayofTime:masterStone>);
-game.setLocalization("tc.research_name.MASTERRITUALSTONE", "Ritual Stone");
+game.setLocalization("tc.research_name.MASTERRITUALSTONE", "Master Ritual Stone");
 game.setLocalization("tc.research_text.MASTERRITUALSTONE", "[BM] Lets Start some Rituals");
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "RITUALSTONE", false);
@@ -446,6 +519,38 @@ mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:demonicSlate>,
 [<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <IC2:itemCellEmpty:2>], 
 "ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
 mods.thaumcraft.Research.addInfusionPage("LAVASIGIL", <AWWayofTime:lavaSigil>);
+
+// --- Empty Core
+mods.thaumcraft.Research.addResearch("EMPTYCORE", "BLOODMAGIC", "vitreus 15, terra 12, lucrum 9, metallum 6, praecantatio 3", 0, -2, 3, <AWWayofTime:bloodMagicBaseItems:1>);
+game.setLocalization("tc.research_name.EMPTYCORE", "Empty Core");
+game.setLocalization("tc.research_text.EMPTYCORE", "[BM] All you need is a Core");
+mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
+mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
+mods.thaumcraft.Research.addPage("EMPTYCORE", "bloodmagic.research_page.EMPTYCORE");
+game.setLocalization("bloodmagic.research_page.EMPTYCORE", "The Empty Core is a component added by Blood Magic. It is used in the creation of the various cores, such as the Projectile Core, Self Core, Melee Core and Lava Crystal.");
+mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 30, ignis 30, terra 30, aqua 30, ordo 30, perditio 30", [
+[<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<gregtech:gt.metaitem.01:17306>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:17306>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>]]);
+mods.thaumcraft.Research.addArcanePage("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>);
+
+// --- Lava Crystal
+mods.thaumcraft.Research.addResearch("BMLAVACRYSTAL", "BLOODMAGIC", "ignis 15, infernus 12, terra 9, praecantatio 6, aer 3", 0, -4, 3, <AWWayofTime:lavaCrystal>);
+game.setLocalization("tc.research_name.BMLAVACRYSTAL", "Lava Crystal");
+game.setLocalization("tc.research_text.BMLAVACRYSTAL", "[BM] TC Lava Crystal, Warded Glass...");
+mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "EMPTYCORE", false);
+mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "LAVACRYSTAL", false);
+mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "WARDEDARCANA", false);
+mods.thaumcraft.Research.setConcealed("BMLAVACRYSTAL", true);
+mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "bloodmagic.research_page.BMLAVACRYSTAL");
+game.setLocalization("bloodmagic.research_page.BMLAVACRYSTAL", "The Lava Crystal is used as a replacement fuel source in furnaces and engines. Rather than losing durability, the crystal drains 25 Life Essence from the player's network per operation. In order to use the Lava Crystal, it must first be bound to a player. To do this, right click while holding the crystal. Once bound to a player, it will begin to function as a fuel source. The Lava Crystal is also used in the creation of the Lava Sigil.");
+mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseItems:1>, 
+[<TConstruct:materials:7>, <Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockCosmeticOpaque:2>], 
+"ignis 24, terra 18, praecantatio 18, infernus 6, aer 6", <AWWayofTime:lavaCrystal>, 4);
+mods.thaumcraft.Research.addInfusionPage("BMLAVACRYSTAL", <AWWayofTime:lavaCrystal>);
+
 
 
 
