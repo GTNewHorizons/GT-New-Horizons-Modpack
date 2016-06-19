@@ -221,6 +221,39 @@ recipes.remove(<AWWayofTime:itemBloodPack>);
 // --- Weak activation Crystal
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:activationCrystal>);
 
+// --- Empty Socket
+recipes.remove(<AWWayofTime:emptySocket>);
+
+// --- Filled Socket
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:bloodSocket>);
+
+// --- Soul Armor Forge
+recipes.remove(<AWWayofTime:armourForge>);
+
+// --- Rune of Argumented Capacity
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:1>);
+
+// --- Rune of Dislocation
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:2>);
+
+// --- Sigil of elemental Affinity
+recipes.remove(<AWWayofTime:sigilOfElementalAffinity>);
+
+// --- Sigil of Holding
+recipes.remove(<AWWayofTime:sigilOfHolding>);
+
+// --- Sigil of Phantom Bridge
+recipes.remove(<AWWayofTime:sigilOfTheBridge>);
+
+// --- Sigil of Magnetism
+recipes.remove(<AWWayofTime:sigilOfMagnetism>);
+
+// --- Sigil of the Blood Lamp
+//recipes.remove(<AWWayofTime:itemBloodLightSigil>);
+
+// --- Sigil of Sight
+recipes.remove(<AWWayofTime:seerSigil>);
+
 
 
 // --- Add recipes ---
@@ -279,6 +312,10 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <AWWayofTime:sa
 // --- Weak activation Crystal
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:activationCrystal>, <AWWayofTime:blankSpell>, 3, 20000);
 
+// --- Filled Socket
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodSocket>, <AWWayofTime:emptySocket>, 3, 40000);
+
+
 
 
 
@@ -298,6 +335,7 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:bo
 
 // --- Bound Shovel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
+
 
 
 
@@ -372,23 +410,23 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:tennebrae>, [<gregtech:gt.metaite
 
 
 // --- Blood Rune
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:weakBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:weakBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:apprenticeBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:magicianBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:magicianBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:masterBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:masterBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:archmageBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:archmageBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <AWWayofTime:transcendentBloodOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <BloodArsenal:transparent_orb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <BloodArsenal:transparent_orb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <ForbiddenMagic:EldritchOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <ForbiddenMagic:EldritchOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
-Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 2, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 
 
 
@@ -607,11 +645,11 @@ mods.thaumcraft.Research.addInfusionPage("WATERSIGIL", <AWWayofTime:waterSigil>)
 mods.thaumcraft.Warp.addToResearch("WATERSIGIL", 2);
 
 // --- Lava Sigil
-mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 6, 3, <AWWayofTime:lavaSigil>);
+mods.thaumcraft.Research.addResearch("LAVASIGIL", "BLOODMAGIC", "ignis 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 8, 3, <AWWayofTime:lavaSigil>);
 game.setLocalization("tc.research_name.LAVASIGIL", "Lava Sigil");
 game.setLocalization("tc.research_text.LAVASIGIL", "[BM] Contac with Liquid is highly uncommon");
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("LAVASIGIL", "WATERSIGIL", false);
+mods.thaumcraft.Research.addPrereq("LAVASIGIL", "SIGILOFTHEBLOODLAMP", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
 mods.thaumcraft.Research.addPage("LAVASIGIL", "bloodmagic.research_page.LAVASIGIL");
 game.setLocalization("bloodmagic.research_page.LAVASIGIL", "The Lava Sigil is a tool added by Blood Magic. The Lava Sigil acts as an alternative to a bucket of lava, allowing for the creation of lava source blocks at the cost of 2,000 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Lava Sigil is also used in the creation of the Sigil of Elemental Affinity.");
@@ -661,7 +699,7 @@ mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESACRIFICE", "bloodmagic.research_page.RUNESACRIFICE");
 game.setLocalization("bloodmagic.research_page.RUNESACRIFICE", "The Rune of Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by an additive 10%.");
-mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
 mods.thaumcraft.Research.addInfusionPage("RUNESACRIFICE", <AWWayofTime:runeOfSacrifice>);
@@ -675,13 +713,13 @@ mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "bloodmagic.research_page.RUNESELFSACRIFICE");
 game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%.");
-mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
 mods.thaumcraft.Research.addInfusionPage("RUNESELFSACRIFICE", <AWWayofTime:runeOfSelfSacrifice>);
 
 // --- Air Sigil
-mods.thaumcraft.Research.addResearch("AIRSIGIL", "BLOODMAGIC", "volatus 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 0, 8, 4, <AWWayofTime:airSigil>);
+mods.thaumcraft.Research.addResearch("AIRSIGIL", "BLOODMAGIC", "volatus 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 0, 10, 4, <AWWayofTime:airSigil>);
 game.setLocalization("tc.research_name.AIRSIGIL", "Air Sigil");
 game.setLocalization("tc.research_text.AIRSIGIL", "[BM] Fly like a Bird but not look down.");
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
@@ -691,7 +729,7 @@ mods.thaumcraft.Research.addPage("AIRSIGIL", "bloodmagic.research_page.AIRSIGIL"
 game.setLocalization("bloodmagic.research_page.AIRSIGIL", "The Air Sigil is a sigil added by Blood Magic that grants the user access to a basic method of flight at the cost of LP. Upon right clicking with the Air Sigil, the user will be launched in the direction they are facing at the cost of 50 LP per click. Do note, however, that the user is still vulnerable to fall damage without a form of protection, such as the Sigil of Elemental Affinity.");
 mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
 [<minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>], 
-"volatus 72, aer 64, motus 56, praecantatio 48, iter 32, potentia 24, cognitio 12", <AWWayofTime:airSigil>, 9);
+"volatus 64, aer 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:airSigil>, 9);
 mods.thaumcraft.Research.addInfusionPage("AIRSIGIL", <AWWayofTime:airSigil>);
 mods.thaumcraft.Warp.addToResearch("AIRSIGIL", 6);
 
@@ -710,7 +748,7 @@ mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>
 mods.thaumcraft.Research.addInfusionPage("FASTERMINING", <AWWayofTime:sigilOfTheFastMiner>);
 mods.thaumcraft.Warp.addToResearch("FASTERMINING", 2);
 
-// --- Sigil of the green grow
+// --- Sigil of the Green Grow
 mods.thaumcraft.Research.addResearch("GREENGROW", "BLOODMAGIC", "instrumentum 15, terra 12, herba 9, arbor 6, victus 3", 2, 4, 3, <AWWayofTime:growthSigil>);
 game.setLocalization("tc.research_name.GREENGROW", "Sigil of the Green Grow");
 game.setLocalization("tc.research_text.GREENGROW", "[BM] Who needs a green Thumb?");
@@ -845,6 +883,158 @@ mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.Transcenden
 mods.thaumcraft.Research.addArcanePage("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>);
 mods.thaumcraft.Warp.addToResearch("TRANSCENDENTORB", 6);
 
+// --- Empty Socket
+mods.thaumcraft.Research.addResearch("EMPTYSOCKET", "BLOODMAGIC", "terra 15, tutamen 12, praecantatio 9, tenebrae 6, sano 3", 2, -6, 3, <AWWayofTime:emptySocket>);
+game.setLocalization("tc.research_name.EMPTYSOCKET", "Empty Socket");
+game.setLocalization("tc.research_text.EMPTYSOCKET", "[BM] Mh this smees not to work...");
+mods.thaumcraft.Research.addPrereq("EMPTYSOCKET", "BLOODLETTERSPACK", false);
+mods.thaumcraft.Research.setConcealed("EMPTYSOCKET", true);
+mods.thaumcraft.Research.addPage("EMPTYSOCKET", "bloodmagic.research_page.EMPTYSOCKET");
+game.setLocalization("bloodmagic.research_page.EMPTYSOCKET", "The Empty Socket is a block added by Blood Magic that is used in the creation of the Filled Socket. The Empty Socket is the first step in creating Bound Armour, such as the Bound Chestplate.");
+mods.thaumcraft.Arcane.addShaped("EMPTYSOCKET", <AWWayofTime:emptySocket>, "aer 50, aqua 50, ignis 50, terra 50, perditio 50, ordo 50", [
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <dreamcraft:tile.DiamondFrameBox>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:weakBloodShard>]]);
+mods.thaumcraft.Research.addArcanePage("EMPTYSOCKET", <AWWayofTime:emptySocket>);
+mods.thaumcraft.Warp.addToResearch("EMPTYSOCKET", 2);
+
+// --- Soul Armor Forge
+mods.thaumcraft.Research.addResearch("SOULARMORFORGE", "BLOODMAGIC", "tutamen 18, metallum 15, praecantatio 12, praecantatio 9, tenebrae 6, exanimis 3", 2, -8, 3, <AWWayofTime:armourForge>);
+game.setLocalization("tc.research_name.SOULARMORFORGE", "Soul Armor Forge");
+game.setLocalization("tc.research_text.SOULARMORFORGE", "[BM] Demonic Armor");
+mods.thaumcraft.Research.addPrereq("SOULARMORFORGE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SOULARMORFORGE", "EMPTYSOCKET", false);
+mods.thaumcraft.Research.setConcealed("SOULARMORFORGE", true);
+mods.thaumcraft.Research.addPage("SOULARMORFORGE", "bloodmagic.research_page.SOULARMORFORGE.1");
+game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.1", "The Soul Armour Forge is a block added by Blood Magic. The Soul Armour Forge is used to create the pieces of the Bound Armour, such as the Bound Helmet and Bound Chestplate. To create the Soul Armour Forge and all pieces of Bound Armour, 28 Filled Sockets are required. n order to use the Soul Armour Forge, it must be placed in the world and surrounded with Filled Sockets forming the shape of the desired piece of armor. In order to function properly, the Soul Armour Forge must touch as many Filled Sockets as possible with the layout, such as the picture to the right. Laying the sockets both horizontally and vertically will work.");
+mods.thaumcraft.Research.addPage("SOULARMORFORGE", "bloodmagic.research_page.SOULARMORFORGE.2");
+game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.2", " Once the sockets have been placed, right clicking on them with a sigil, blood orb, or blood shard will place them into the sockets, binding them to that piece of armor.");
+mods.thaumcraft.Infusion.addRecipe("SOULARMORFORGE", <TConstruct:ToolForgeBlock:6>, 
+[<AWWayofTime:bloodSocket>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:magicales>, <AWWayofTime:bloodSocket>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 
+"tutamen 64, metallum 40, praecantatio 32, auram 24, tenebrae 16, exanimis 8", <AWWayofTime:armourForge>, 7);
+mods.thaumcraft.Research.addInfusionPage("SOULARMORFORGE", <AWWayofTime:armourForge>);
+mods.thaumcraft.Warp.addToResearch("SOULARMORFORGE", 4);
+
+// --- Rune of Argumented Capacity
+mods.thaumcraft.Research.addResearch("RUNEOFARGUMENTEDCAPACITY", "BLOODMAGIC", "aqua 18, fames 15, lucrum 12, praecantatio 9, terra 6, vacuos 3", -6, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:1>);
+game.setLocalization("tc.research_name.RUNEOFARGUMENTEDCAPACITY", "Rune of Argumented Capacity");
+game.setLocalization("tc.research_text.RUNEOFARGUMENTEDCAPACITY", "[BM] Pimp my Altar");
+mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "RUNESACRIFICE", false);
+mods.thaumcraft.Research.setConcealed("RUNEOFARGUMENTEDCAPACITY", true);
+mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY");
+game.setLocalization("bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY", "The Rune of Augmented Capacity is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Augmented Capacity adds an additional 2,000 LP storage potential to the Blood Altar. This also increases the tank's internal buffer as it is always 10% of the altar's capacity.");
+mods.thaumcraft.Infusion.addRecipe("RUNEOFARGUMENTEDCAPACITY", <BloodArsenal:blood_stone:1>, 
+[<BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>], 
+"aqua 32, lucrum 24, fames 18, praecantatio 12, terra 8, vacuos 4", <AWWayofTime:AlchemicalWizardrybloodRune:1>, 7);
+mods.thaumcraft.Research.addInfusionPage("RUNEOFARGUMENTEDCAPACITY", <AWWayofTime:AlchemicalWizardrybloodRune:1>);
+
+// --- Rune of Dislocation
+mods.thaumcraft.Research.addResearch("RUNEOFDISLOCATION", "BLOODMAGIC", "aqua 18, praecantatio 15, motus 12 tempus 9, terra 9, cognitio 3", -6, 2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:2>);
+game.setLocalization("tc.research_name.RUNEOFDISLOCATION", "Rune of Dislocation");
+game.setLocalization("tc.research_text.RUNEOFDISLOCATION", "[BM] That was quick");
+mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
+mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
+mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "bloodmagic.research_page.RUNEOFDISLOCATION");
+game.setLocalization("bloodmagic.research_page.RUNEOFDISLOCATION", "The Rune of Dislocation is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Dislocation increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate.");
+mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
+[<gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>], 
+"aqua 32, praecantatio 24, motus 18, tempus 12, terra 8, cognitio 4", <AWWayofTime:AlchemicalWizardrybloodRune:2>, 7);
+mods.thaumcraft.Research.addInfusionPage("RUNEOFDISLOCATION", <AWWayofTime:AlchemicalWizardrybloodRune:2>);
+
+// --- Sigil of Elemental Affinity
+mods.thaumcraft.Research.addResearch("SIGILOFELEMENTALAFFINITY", "BLOODMAGIC", "volatus 27, ignis 24, aqua 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 2, 10, 4, <AWWayofTime:sigilOfElementalAffinity>);
+game.setLocalization("tc.research_name.SIGILOFELEMENTALAFFINITY", "Sigil of Elemental Affinity");
+game.setLocalization("tc.research_text.SIGILOFELEMENTALAFFINITY", "[BM] Burned, drowned or falling to death not anymore");
+mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "WATERSIGIL", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "LAVASIGIL", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "AIRSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFELEMENTALAFFINITY", true);
+mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "bloodmagic.research_page.SIGILOFELEMENTALAFFINITY");
+game.setLocalization("bloodmagic.research_page.SIGILOFELEMENTALAFFINITY", "The Sigil of Elemental Affinity is a sigil added by Blood Magic that grants the user several forms of environmental protection. These forms of protection range from fall damage negation, to water breathing, to fire immunity, all at a small LP cost while active. Upon right click, the sigil will activate and grant the user water breathing, fire (and lava) immunity, and fall damage negation at the cost of 300 LP every 10 seconds.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFELEMENTALAFFINITY", <AWWayofTime:demonicSlate>, 
+[<AWWayofTime:earthScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:lavaSigil>, <AWWayofTime:fireScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:waterSigil>, <AWWayofTime:waterScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:airSigil>, <AWWayofTime:airScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:imbuedSlate>], 
+"volatus 64, aer 48, aqua 48, ignis 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:sigilOfElementalAffinity>, 9);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFELEMENTALAFFINITY", <AWWayofTime:sigilOfElementalAffinity>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFELEMENTALAFFINITY", 8);
+
+// --- Sigil of Holding
+recipes.remove(<AWWayofTime:sigilOfHolding>);
+mods.thaumcraft.Research.addResearch("SIGILOFHOLDING", "BLOODMAGIC", "lucrum 18, cognitio 15, gula 12, superbia 9, limus 6, praecantatio 3", 4, 6, 3, <AWWayofTime:sigilOfHolding>);
+game.setLocalization("tc.research_name.SIGILOFHOLDING", "Sigil of Holding");
+game.setLocalization("tc.research_text.SIGILOFHOLDING", "[BM] Up to 5 Slots");
+mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
+mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "bloodmagic.research_page.SIGILOFHOLDING");
+game.setLocalization("bloodmagic.research_page.SIGILOFHOLDING", "The Sigil of Holding is a tool added by Blood Magic. The Sigil of Holding is used to save inventory space by combining several sigils into a single one. When used, the Sigil of Holding will consume a single sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored sigils, while right clicking will activate the displayed sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
+[<IronChest:BlockIronChest:2>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
+"lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFHOLDING", <AWWayofTime:sigilOfHolding>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFHOLDING", 2);
+
+// --- Sigil of Phantom Bridge
+recipes.remove(<AWWayofTime:sigilOfTheBridge>);
+mods.thaumcraft.Research.addResearch("SIGILOFPHANTOMBRIDGE", "BLOODMAGIC", "terra 18, alienis 15, iter 12, vitreus 9, potentia 6, praecantatio 3", -4, 6, 3, <AWWayofTime:sigilOfTheBridge>);
+game.setLocalization("tc.research_name.SIGILOFPHANTOMBRIDGE", "Sigil of Phantom Bridge");
+game.setLocalization("tc.research_text.SIGILOFPHANTOMBRIDGE", "[BM] Air Walker");
+mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "VOIDSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFPHANTOMBRIDGE", true);
+mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "bloodmagic.research_page.SIGILOFPHANTOMBRIDGE");
+game.setLocalization("bloodmagic.research_page.SIGILOFPHANTOMBRIDGE", "The Sigil of the Phantom Bridge is an item added by the Blood Magic mod. When active, this Sigil creates a 5×5 platform of Spectral Block centered at the Player. Spectral Blocks outside of the platform will vanish after 5 seconds. These blocks can be broken instantly with a hit and 'Right-clicking' on one with another block will replace the Spectral Block. This can be used to build in mid-air. Crouching will create a layer below you. Activating this Sigil costs 150 LP every 10 seconds while active, plus 1 LP per block created, until deactivated.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFPHANTOMBRIDGE", <AWWayofTime:imbuedSlate>, 
+[<AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>], 
+"terra 48, alienis 32, iter 24, vitreus 16, potentia 8, praecantatio 8", <AWWayofTime:sigilOfTheBridge>, 9);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFPHANTOMBRIDGE", <AWWayofTime:sigilOfTheBridge>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFPHANTOMBRIDGE", 4);
+
+// --- Sigil of Magnetism
+mods.thaumcraft.Research.addResearch("SIGILOFMAGNETISM", "BLOODMAGIC", "magneto 21, potentia 18, electrum 15, praecantatio 12, auram 6, cognitio 3", 2, 6, 3, <AWWayofTime:sigilOfMagnetism>);
+game.setLocalization("tc.research_name.SIGILOFMAGNETISM", "Sigil of Magnetism");
+game.setLocalization("tc.research_text.SIGILOFMAGNETISM", "[BM] Magic Magnet");
+mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "WATERSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFMAGNETISM", true);
+mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "bloodmagic.research_page.SIGILOFMAGNETISM");
+game.setLocalization("bloodmagic.research_page.SIGILOFMAGNETISM", "The Sigil of Magnetism is a tool added by Blood Magic. The Sigil of Magnetism acts as an item magnet with a radius of five blocks at the cost of Life Essence (LP). Upon activating the Sigil of Magnetism, 75 LP will be consumed from the owner's network to act as an item magnet for the user. Every ten seconds after activation, an additional 75 LP will be consumed to continue acting as an item magnet. This effect has a radius of five blocks, centered on the player.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 
+[<GemBlocksForGreg:tile.metalBlock6:12>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <GemBlocksForGreg:tile.metalBlock6:12>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <GemBlocksForGreg:tile.metalBlock6:12>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <GemBlocksForGreg:tile.metalBlock6:12>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>], 
+"potentia 32, magneto 24, electrum 24, auram 16, cognitio 12, praecantatio 6", <AWWayofTime:sigilOfMagnetism>, 9);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFMAGNETISM", <AWWayofTime:sigilOfMagnetism>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFMAGNETISM", 2);
+
+// --- Sigil of the Blood Lamp
+mods.thaumcraft.Research.addResearch("SIGILOFTHEBLOODLAMP", "BLOODMAGIC", "lux 18, ignis 15, aer 12, potentia 9, sensus 6, praecantatio 3, ", 0, 6, 3, <AWWayofTime:itemBloodLightSigil>);
+game.setLocalization("tc.research_name.SIGILOFTHEBLOODLAMP", "Sigil of Sight");
+game.setLocalization("tc.research_text.SIGILOFTHEBLOODLAMP", "[BM] Blood Altar Infos for free");
+mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "WATERSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFTHEBLOODLAMP", true);
+mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "bloodmagic.research_page.SIGILOFTHEBLOODLAMP");
+game.setLocalization("bloodmagic.research_page.SIGILOFTHEBLOODLAMP", "The Sigil of the Blood Lamp is a tool added by Blood Magic. The sigil allows the user to create a Blood Light anywhere by right-clicking a block. The Blood Light emits light and is often used to light player's bases. It can also function as a ranged weapon. While holding the Sigil of the Blood Lamp, right clicking on a block will consume 30 LP to place a Blood Light at that location. Right clicking the sigil while not facing a block will shoot a small projectile from the sigil, dealing half a heart of damage on impact.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFTHEBLOODLAMP", <AWWayofTime:imbuedSlate>, 
+[<ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>], 
+"lux 48, ignis 32, aer 32, potentia 24, sensus 16, praecantatio 8", <AWWayofTime:itemBloodLightSigil>, 4);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFTHEBLOODLAMP", <AWWayofTime:itemBloodLightSigil>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFTHEBLOODLAMP", 3);
+
+// --- Sigil of Sight
+mods.thaumcraft.Research.addResearch("SIGILOFSIGHT", "BLOODMAGIC", "ordo 15, sensus 12, cognitio 9, vitreus 6, praecantatio 3", 2, 2, 3, <AWWayofTime:seerSigil>);
+game.setLocalization("tc.research_name.SIGILOFSIGHT", "Sigil of Sight");
+game.setLocalization("tc.research_text.SIGILOFSIGHT", "[BM] Blood Altar Infos for free");
+mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "DIVINATIONSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFSIGHT", true);
+mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "bloodmagic.research_page.SIGILOFSIGHT");
+game.setLocalization("bloodmagic.research_page.SIGILOFSIGHT", "The Sigil of Sight is an item from Blood Magic. When used on a Blood Altar it shows the item progress, consumption rate, current essence, and input and output tanks. Using this Sigil costs 0 LP per use.When socketed into Bound Armor, the Sigil of Sight has no effect.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>, 
+[<Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>, <Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>], 
+"ordo 24, sensus 18, cognitio 12, vitreus 6, praecantatio 4", <AWWayofTime:seerSigil>, 3);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFSIGHT", <AWWayofTime:seerSigil>);
 
 
 
