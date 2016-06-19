@@ -287,6 +287,15 @@ recipes.remove(<AWWayofTime:itemRitualDiviner:2>);
 // --- Ritual Dismantler
 recipes.remove(<AWWayofTime:ritualDismantler>);
 
+// --- Rune of the Orb
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:3>);
+
+// --- Rune of Superior Capacity
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:4>);
+
+// --- Rune of Aceleration
+recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:5>);
+
 
 
 
@@ -1092,7 +1101,6 @@ mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>
 mods.thaumcraft.Research.addInfusionPage("SIGILOFSIGHT", <AWWayofTime:seerSigil>);
 
 // --- Ritual Diviner Tier 1
-recipes.remove(<AWWayofTime:itemRitualDiviner>);
 mods.thaumcraft.Research.addResearch("RITUALDIVINER", "BLOODMAGIC", "aer 18, ignis 15, terra 12, aqua 9, perditio 6, ordo 3", -2, -8, 3, <AWWayofTime:itemRitualDiviner>);
 game.setLocalization("tc.research_name.RITUALDIVINER", "Ritual Diviner");
 game.setLocalization("tc.research_text.RITUALDIVINER", "[BM] New Rituals");
@@ -1122,6 +1130,55 @@ mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDivin
 [<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>], 
 "aer 64, ignis 64, terra 64, aqua 64, perditio 32, ordo 32", <AWWayofTime:itemRitualDiviner:2>, 9);
 mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:2>);
+
+// --- Rune of the Orb
+mods.thaumcraft.Research.addResearch("RUNEOFTHEORB", "BLOODMAGIC", "potentia 15, victus 12, motus 9, lucrum 6, praecantatio 3", -6, -2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:3>);
+game.setLocalization("tc.research_name.RUNEOFTHEORB", "Rune of the Orb");
+game.setLocalization("tc.research_text.RUNEOFTHEORB", "[BM] More Runes");
+mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
+mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
+mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "bloodmagic.research_page.RUNEOFTHEORB");
+game.setLocalization("bloodmagic.research_page.RUNEOFTHEORB", "The Rune of the Orb is an upgrade component for the Blood Altar.
+Each Rune of the Orb increases the amount of LP that can be transferred into a Soul Network by 2% of its original value. For the Weak Blood Orb this is 100 LP per rune, but for the Archmage's Blood Orb it is 200,000 LP.");
+mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
+[<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
+"potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
+mods.thaumcraft.Research.addInfusionPage("RUNEOFTHEORB", <AWWayofTime:AlchemicalWizardrybloodRune:3>);
+
+// --- Rune of Superior Capacity
+mods.thaumcraft.Research.addResearch("RUNEOFSUPERIORCAPACITY", "BLOODMAGIC", "potentia 18, aqua 15, cognitio 12, lucrum 9, praecantatio 6, alienis 3", -8, -2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:4>);
+game.setLocalization("tc.research_name.RUNEOFSUPERIORCAPACITY", "Rune of Superior Capacity");
+game.setLocalization("tc.research_text.RUNEOFSUPERIORCAPACITY", "[BM] More Blood");
+mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "RUNEOFARGUMENTEDCAPACITY", false);
+mods.thaumcraft.Research.setConcealed("RUNEOFSUPERIORCAPACITY", true);
+mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.1");
+game.setLocalization("bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.1", "The Rune of Superior Capacity is an upgrade component for the Blood Altar. Each one increases the capacity of the altar by 10% LP. These are multiplicative: two is 21%, three is 33% and so on. With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of Augmented Capacity. The effects of having both runes of augmented capacity and runes of superior capacity stack, but runes of superior capacity do NOT multiply the 2,000 added by each rune of augmented capacity, only the original 10,000.");
+mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.2");
+game.setLocalization("bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (2000*A) + (10000)*(1.1)^S
+Where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
+mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood_stone:3>, 
+[<irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>, <irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>], 
+"potentia 48, aqua 32, cognitio 24, lucrum 16, praecantatio 8, alienis 4, ", <AWWayofTime:AlchemicalWizardrybloodRune:4>, 8);
+mods.thaumcraft.Research.addInfusionPage("RUNEOFSUPERIORCAPACITY", <AWWayofTime:AlchemicalWizardrybloodRune:4>);
+
+// --- Rune of Acceleration
+mods.thaumcraft.Research.addResearch("RUNEOFACCELERATION", "BLOODMAGIC", "potentia 21, tempus 18, cognitio 15, aqua 12, motus 9, praecantatio 6, terra 3", -8, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:5>);
+game.setLocalization("tc.research_name.RUNEOFACCELERATION", "Rune of Acceleration");
+game.setLocalization("tc.research_text.RUNEOFACCELERATION", "[BM] More Speed");
+mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFARGUMENTEDCAPACITY", false);
+mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFDISLOCATION", false);
+mods.thaumcraft.Research.setConcealed("RUNEOFACCELERATION", true);
+mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "bloodmagic.research_page.RUNEOFACCELERATION");
+game.setLocalization("bloodmagic.research_page.RUNEOFACCELERATION", "Rune of Dislocation increases the amount of fluid that is moved from one tank to the other each action. Rune of Acceleration increases the frequency of those actions.");
+mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_stone:4>, 
+[<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
+"potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
+mods.thaumcraft.Research.addInfusionPage("RUNEOFACCELERATION", <AWWayofTime:AlchemicalWizardrybloodRune:5>);
+
+
 
 
 // --- Nei Rename ---
