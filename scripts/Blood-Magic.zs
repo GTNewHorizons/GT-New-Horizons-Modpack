@@ -249,10 +249,44 @@ recipes.remove(<AWWayofTime:sigilOfTheBridge>);
 recipes.remove(<AWWayofTime:sigilOfMagnetism>);
 
 // --- Sigil of the Blood Lamp
-//recipes.remove(<AWWayofTime:itemBloodLightSigil>);
+recipes.remove(<AWWayofTime:itemBloodLightSigil>);
 
 // --- Sigil of Sight
 recipes.remove(<AWWayofTime:seerSigil>);
+
+// --- Imperfect Ritual Stone
+recipes.remove(<AWWayofTime:imperfectRitualStone>);
+
+// --- Elemental Inscription Tool Water
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:waterScribeTool>);
+
+// --- Elemental Inscription Tool Fire
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:fireScribeTool>);
+
+// --- Elemental Inscription Tool Earth
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:earthScribeTool>);
+
+// --- Elemental Inscription Tool Air
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:airScribeTool>);
+
+// --- Elemental Inscription Tool Dusk
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:duskScribeTool>);
+
+// --- Elemental Inscription Tool Dawn
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:dawnScribeTool>);
+
+// --- Ritual Diviner Tier 1
+recipes.remove(<AWWayofTime:itemRitualDiviner>);
+
+// --- Ritual Diviner Tier 2
+recipes.remove(<AWWayofTime:itemRitualDiviner:1>);
+
+// --- Ritual Diviner Tier 3
+recipes.remove(<AWWayofTime:itemRitualDiviner:2>);
+
+// --- Ritual Dismantler
+recipes.remove(<AWWayofTime:ritualDismantler>);
+
 
 
 
@@ -314,6 +348,24 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:activationCrystal>, <AWWayofTime:bl
 
 // --- Filled Socket
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodSocket>, <AWWayofTime:emptySocket>, 3, 40000);
+
+// --- Elemental Inscription Tool Water
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:waterScribeTool>, <Thaumcraft:blockCrystal:2>, 3, 5000);
+
+// --- Elemental Inscription Tool Fire
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:fireScribeTool>, <Thaumcraft:blockCrystal:1>, 3, 5000);
+
+// --- Elemental Inscription Tool Earth
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:earthScribeTool>, <Thaumcraft:blockCrystal:3>, 3, 5000);
+
+// --- Elemental Inscription Tool Air
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:airScribeTool>, <Thaumcraft:blockCrystal>, 3, 5000);
+
+// --- Elemental Inscription Tool Dusk
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:duskScribeTool>, <Thaumcraft:blockCrystal:5>, 4, 10000);
+
+// --- Elemental Inscription Tool Dawn
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:dawnScribeTool>, <Thaumcraft:blockCrystal:6>, 6, 100000);
 
 
 
@@ -427,6 +479,9 @@ Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blan
 Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <ForbiddenMagic:EldritchOrb> * 0, <liquid:wet.concrete> * 1152, 200, 64);
 // -
 Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blankSlate> * 4, <Avaritia:Orb_Armok> * 0, <liquid:wet.concrete> * 1152, 200, 64);
+
+// --- Ritual Dismantler
+Assembler.addRecipe(<AWWayofTime:ritualDismantler>, <AWWayofTime:itemRitualDiviner>, <minecraft:redstone_torch> * 2, 600, 120);
 
 
 
@@ -1036,6 +1091,37 @@ mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>
 "ordo 24, sensus 18, cognitio 12, vitreus 6, praecantatio 4", <AWWayofTime:seerSigil>, 3);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFSIGHT", <AWWayofTime:seerSigil>);
 
+// --- Ritual Diviner Tier 1
+recipes.remove(<AWWayofTime:itemRitualDiviner>);
+mods.thaumcraft.Research.addResearch("RITUALDIVINER", "BLOODMAGIC", "aer 18, ignis 15, terra 12, aqua 9, perditio 6, ordo 3", -2, -8, 3, <AWWayofTime:itemRitualDiviner>);
+game.setLocalization("tc.research_name.RITUALDIVINER", "Ritual Diviner");
+game.setLocalization("tc.research_text.RITUALDIVINER", "[BM] New Rituals");
+mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "MASTERRITUALSTONE", false);
+mods.thaumcraft.Research.setConcealed("RITUALDIVINER", true);
+mods.thaumcraft.Research.addPage("RITUALDIVINER", "bloodmagic.research_page.RITUALDIVINER.1");
+game.setLocalization("bloodmagic.research_page.RITUALDIVINER.1", "The Ritual Diviner is an item added by the Blood Magic mod.
+A tool to help with the construction of Rituals. Shift+Right-clicking it will cycle through the available rituals. The tooltip will display the number and type of Ritual Stones required to build the selected ritual. Right-clicking on a Master Ritual Stone with it will place and ink the ritual stones needed for the ritual. Placing a stone will use Life Essence, a ritual stone from the user's inventory and will cause the diviner to animate and emit green particles. The ritual diviner will not replace existing blocks.");
+mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:seerSigil>, 
+[<witchery:chalkritual>, <AWWayofTime:waterScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:fireScribeTool>, <gregtech:gt.metaitem.02:29501>, <AWWayofTime:earthScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:airScribeTool>, <gregtech:gt.metaitem.02:29501>], 
+"aer 32, ignis 32, terra 32, aqua 32, perditio 16, ordo 16", <AWWayofTime:itemRitualDiviner>, 3);
+mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner>);
+mods.thaumcraft.Warp.addToResearch("RITUALDIVINER", 3);
+
+// --- Ritual Diviner Tier 2
+mods.thaumcraft.Research.addPage("RITUALDIVINER", "bloodmagic.research_page.RITUALDIVINER.2");
+game.setLocalization("bloodmagic.research_page.RITUALDIVINER.2", "If it tries and fails to place a stone it will animate but will not emit any particles. The mage will need to clear out the obstruction for placement to continue. Snow, tall grass and torches are common, yet easily overlooked, obstructions. There are 3 tiers of Diviner, tier 1 places elemental runes, tier 2 can place a dusk runes and tier 3 can place a dawn rune. There is a tooltip that indicates the tier of a diviner. Attempting to build a ritual that requires dusk runes with the diviner that can't place them will cause it to act as if the ritual is complete when it is not.");
+mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDiviner>, 
+[<AWWayofTime:duskScribeTool>, <AWWayofTime:demonicSlate>, <AWWayofTime:duskScribeTool>, <AWWayofTime:demonicSlate>, <AWWayofTime:duskScribeTool>, <AWWayofTime:demonicSlate>, <AWWayofTime:duskScribeTool>, <AWWayofTime:demonicSlate>], 
+"aer 48, ignis 48, terra 48, aqua 48, perditio 24, ordo 24", <AWWayofTime:itemRitualDiviner:1>, 6);
+mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:1>);
+
+// --- Ritual Diviner Tier 3
+recipes.remove(<AWWayofTime:itemRitualDiviner:2>);
+mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:1>, 
+[<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>], 
+"aer 64, ignis 64, terra 64, aqua 64, perditio 32, ordo 32", <AWWayofTime:itemRitualDiviner:2>, 9);
+mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:2>);
 
 
 // --- Nei Rename ---
