@@ -407,6 +407,7 @@ public class GT_Loader_Items
 		CustomItemList.RawOrbTier4.set(com.dreammaster.item.ItemList.RawOrbTier4.getIS());
 		CustomItemList.RawOrbTier5.set(com.dreammaster.item.ItemList.RawOrbTier5.getIS());
 		CustomItemList.RawOrbTier6.set(com.dreammaster.item.ItemList.RawOrbTier6.getIS());
+		CustomItemList.TeleposerFrame.set(com.dreammaster.item.ItemList.TeleposerFrame.getIS());
 	}
 
 }

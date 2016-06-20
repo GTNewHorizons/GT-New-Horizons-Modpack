@@ -84,7 +84,8 @@ public enum CustomItemList implements IItemContainer
 	IchoriumCap, CoinTechnician, CoinDarkWizard,
 	WetTofu,
 	WeakOrb, ApprenticeOrb, MasterOrb, MagicianOrb, ArchmageOrb, TranscendentOrb, RawOrbTier1, RawOrbTier2, RawOrbTier3, RawOrbTier4, RawOrbTier5, RawOrbTier6,
-	ArcaneSlate;
+	ArcaneSlate,
+	TeleposerFrame;
 
 
 	private ItemStack mStack = null;

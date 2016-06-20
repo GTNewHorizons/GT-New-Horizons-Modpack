@@ -289,6 +289,7 @@ public enum ItemList
     StainlessSteelItemCasing(new ModSimpleBaseItem("StainlessSteelItemCasing", ModTabList.ModGenericTab)),
     SteelBars(new ModSimpleBaseItem("SteelBars", ModTabList.ModGenericTab)),
     StonePlate(new ModSimpleBaseItem("StonePlate", ModTabList.ModGenericTab)),
+    TeleposerFrame(new ModSimpleBaseItem("TeleposerFrame", ModTabList.ModThaumcraftTab)),
     TitaniumBars(new ModSimpleBaseItem("TitaniumBars", ModTabList.ModGenericTab)),
     TitaniumItemCasing(new ModSimpleBaseItem("TitaniumItemCasing", ModTabList.ModGenericTab)),
     TitaniumIronPlate(new ModSimpleBaseItem("TitaniumIronPlate", ModTabList.ModGenericTab)),
