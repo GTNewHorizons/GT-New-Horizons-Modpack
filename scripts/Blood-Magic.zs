@@ -296,10 +296,81 @@ recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:4>);
 // --- Rune of Aceleration
 recipes.remove(<AWWayofTime:AlchemicalWizardrybloodRune:5>);
 
+// --- Awakened Activation Crystal
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:activationCrystal:1>);
+// -
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:activationCrystal:1>);
+
+// --- Standart Filling Agent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:standardFillingAgent>);
+
+// --- Enhanced Filling Agent
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:enhancedFillingAgent>);
+
+// --- Ender Shard
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:32>);
+
+// --- Teleposer
+recipes.remove(<AWWayofTime:blockTeleposer>);
+
+// --- Teleposing Focus
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:telepositionFocus>);
+
+// --- Enhanced Teleportation Focus
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:enhancedTelepositionFocus>);
+
+// --- Reinforced Teleportation Focus
+recipes.remove(<AWWayofTime:reinforcedTelepositionFocus>);
+
+// --- Demonic Teleportation Focus
+recipes.remove(<AWWayofTime:demonicTelepositionFocus>);
+
+// --- Strengthened Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:3>);
+
+// --- Concentrated Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:4>);
 
 
 
 // --- Add recipes ---
+
+
+
+// --- Blood Orb Recipes ---
+
+
+
+// --- Teleposer Frame
+mods.bloodmagic.BloodOrb.addShaped(<dreamcraft:item.TeleposerFrame>, [
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:magicales>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:magicales>, <AWWayofTime:weakBloodShard>]]);
+
+// --- Teleposing Focus
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:telepositionFocus>, [
+[null, <AWWayofTime:bloodMagicBaseItems:32>, null],
+[<AWWayofTime:weakBloodShard>, <dreamcraft:item.TeleposerFrame>, <AWWayofTime:weakBloodShard>],
+[null, <AWWayofTime:masterBloodOrb>, null]]);
+
+// --- Teleposer
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockTeleposer>, [
+[<ore:plateRoseGold>, <AWWayofTime:masterBloodOrb>, <ore:plateRoseGold>],
+[<AWWayofTime:bloodMagicBaseItems:32>, <AWWayofTime:telepositionFocus>, <AWWayofTime:bloodMagicBaseItems:32>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <gregtech:gt.blockmachines:4412>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>]]);
+
+// --- Reinforced Teleportation Focus
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:reinforcedTelepositionFocus>, [
+[null, <AWWayofTime:weakBloodShard>, null],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:enhancedTelepositionFocus>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:masterBloodOrb>, <AWWayofTime:weakBloodShard>, <AWWayofTime:archmageBloodOrb>]]);
+
+// --- Demonic Teleportation Focus
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:demonicTelepositionFocus>, [
+[null, <AWWayofTime:demonBloodShard>, null],
+[<AWWayofTime:demonBloodShard>, <AWWayofTime:reinforcedTelepositionFocus>, <AWWayofTime:demonBloodShard>],
+[<AWWayofTime:archmageBloodOrb>, <AWWayofTime:demonBloodShard>, <AWWayofTime:transcendentBloodOrb>]]);
+
 
 
 
@@ -375,6 +446,12 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:duskScribeTool>, <Thaumcraft:blockC
 
 // --- Elemental Inscription Tool Dawn
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:dawnScribeTool>, <Thaumcraft:blockCrystal:6>, 6, 100000);
+
+// --- Ender Shard
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodMagicBaseItems:32>, <EnderZoo:enderFragment>, 4, 5000);
+
+// --- Enhanced Teleportation Focus
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:enhancedTelepositionFocus>, <AWWayofTime:telepositionFocus>, 4, 20000);
 
 
 
@@ -464,6 +541,23 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:aquasalus>, [<minecraft:potion>, 
 
 // --- Tennebrae
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:tennebrae>, [<gregtech:gt.metaitem.01:2804>, <gregtech:gt.metaitem.01:2535>, <gregtech:gt.metaitem.01:2536>, <gregtech:gt.metaitem.01:2538>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+
+// --- Awakened Activation Crystal
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:activationCrystal:1>, [<AWWayofTime:activationCrystal>, <AWWayofTime:demonBloodShard>, <AWWayofTime:bloodMagicBaseAlchemyItems>, <AWWayofTime:aquasalus>, <AWWayofTime:aether>], 4, 50000);
+
+// --- Standart Filling Agent
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:standardFillingAgent>, [<AWWayofTime:weakFillingAgent>, <AWWayofTime:terrae>, <AWWayofTime:aquasalus>], 4, 4000);
+
+// --- Enhanced Filling Agent
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:enhancedFillingAgent>, [<AWWayofTime:standardFillingAgent>, <AWWayofTime:magicales>, <AWWayofTime:crystallos>, <AWWayofTime:aether>, <AWWayofTime:sanctus>], 4, 6000);
+
+// --- Strengthened Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:3>, [<AWWayofTime:simpleCatalyst>, <AWWayofTime:terrae>, <AWWayofTime:terrae>, <minecraft:dye:15>, <minecraft:nether_wart>], 3, 1500);
+
+// --- Concentrated Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:4>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:5>, <gregtech:gt.metaitem.01:1086>], 4, 3000);
+
+
 
 
 
@@ -1177,6 +1271,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_sto
 [<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
 "potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
 mods.thaumcraft.Research.addInfusionPage("RUNEOFACCELERATION", <AWWayofTime:AlchemicalWizardrybloodRune:5>);
+
 
 
 
