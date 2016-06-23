@@ -100,7 +100,7 @@ mods.tconstruct.Casting.removeBasinRecipe(<minecraft:emerald_block>);
 // --- Block of Cobalt
 recipes.remove(<TConstruct:MetalBlock>);
 // -
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock>);
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:MetalBlock>);
 
 // --- Block of Ardite
 recipes.remove(<TConstruct:MetalBlock:1>);
@@ -154,7 +154,7 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:GlueBlock>);
 
 // --- Block of Pig Iron
-mods.tconstruct.Casting.removeBasinRecipe(<GemBlocksForGreg:tile.metalBlock3:13>);
+mods.tconstruct.Casting.removeBasinRecipe(<gregtech:gt.blockmetal5:11>);
 
 // --- Congealed Slime
 recipes.remove(<TConstruct:slime.gel>);
@@ -290,7 +290,12 @@ mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 
 // --- Cobalt Block
-mods.tconstruct.Smeltery.removeMelting(<GemBlocksForGreg:tile.metalBlock0:9>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<ore:blockCobalt>);
+
+// --- Blood Infuse Iron Block
+mods.tconstruct.Casting.removeBasinRecipe(<BloodArsenal:blood_infused_iron_block>);
 
 
 
