@@ -21,7 +21,7 @@ public class GT_Loader_FluidPipes
 		// 5150 - 5154 Titanium
 		// 5160 - 5164 Tungstensteel
 		// 5165 - 5167 High Pressure Pipe
-		// 5168 Plasma Pipe
+		// 5168 - Plasma Pipe
 		// 5170 - 5174 Plastic
 		
 		// 5180 - 5184 NiobiumTitanium

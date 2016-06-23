@@ -392,6 +392,9 @@ public class GT_Loader_Items
 		CustomItemList.IchoriumCap.set(com.dreammaster.item.ItemList.IchoriumCap.getIS());
 		CustomItemList.CoinDarkWizard.set(com.dreammaster.item.ItemList.CoinDarkWizard.getIS());
 		CustomItemList.CoinTechnician.set(com.dreammaster.item.ItemList.CoinTechnician.getIS());
+		CustomItemList.CoinChunkloaderTierI.set(com.dreammaster.item.ItemList.CoinChunkloaderTierI.getIS());
+		CustomItemList.CoinChunkloaderTierII.set(com.dreammaster.item.ItemList.CoinChunkloaderTierII.getIS());
+		CustomItemList.CoinChunkloaderTierIII.set(com.dreammaster.item.ItemList.CoinChunkloaderTierIII.getIS());
 		CustomItemList.WetTofu.set(com.dreammaster.item.ItemList.WetTofu.getIS());
 		CustomItemList.NetherStarFragment.set(com.dreammaster.item.ItemList.NetherStarFragment.getIS());
 		CustomItemList.WeakOrb.set(com.dreammaster.item.ItemList.WeakOrb.getIS());
