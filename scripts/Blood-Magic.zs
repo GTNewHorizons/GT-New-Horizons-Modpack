@@ -331,6 +331,57 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:3>)
 // --- Concentrated Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:4>);
 
+// --- Complex Spell Crystal
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:itemComplexSpellCrystal>);
+
+// --- Energy Blaster
+mods.bloodmagic.Binding.removeRecipe(<AWWayofTime:energyBlaster>);
+
+// --- Energy Bazooka
+recipes.remove(<AWWayofTime:energyBazooka>);
+
+// --- Arcane Pedestal
+recipes.remove(<AWWayofTime:blockPedestal>);
+
+// --- Arcane Plinth
+recipes.remove(<AWWayofTime:blockPlinth>);
+
+// --- Alchemic Calcinator
+recipes.remove(<AWWayofTime:blockAlchemicCalcinator>);
+
+// --- Alchemic Router
+recipes.remove(<AWWayofTime:itemAttunedCrystal>);
+
+// --- Alchemical Clearer
+recipes.remove(<AWWayofTime:itemDestinationClearer>);
+
+// --- Alchemical Segmenter
+recipes.remove(<AWWayofTime:itemTankSegmenter>);
+
+// --- Quartz Rod
+recipes.remove(<AWWayofTime:bloodMagicBaseItems>);
+
+// --- Bell Jar
+recipes.remove(<AWWayofTime:blockCrystalBelljar>);
+
+// --- Alchemie Relay
+recipes.remove(<AWWayofTime:blockReagentConduit>);
+
+// --- Crystal Cluster
+recipes.remove(<AWWayofTime:blockCrystal>);
+
+// --- Glyph of Rigit Stability
+recipes.remove(<AWWayofTime:blockStabilityGlyph>);
+
+// --- Glyph of Adept Enchanter
+recipes.remove(<AWWayofTime:blockEnchantmentGlyph>);
+
+// --- Glyph of Arcane Potential
+recipes.remove(<AWWayofTime:blockEnchantmentGlyph:1>);
+
+
+
+
 
 
 // --- Add recipes ---
@@ -370,6 +421,18 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:demonicTelepositionFocus>, [
 [null, <AWWayofTime:demonBloodShard>, null],
 [<AWWayofTime:demonBloodShard>, <AWWayofTime:reinforcedTelepositionFocus>, <AWWayofTime:demonBloodShard>],
 [<AWWayofTime:archmageBloodOrb>, <AWWayofTime:demonBloodShard>, <AWWayofTime:transcendentBloodOrb>]]);
+
+// --- Raw Blaster
+mods.bloodmagic.BloodOrb.addShaped(<dreamcraft:item.Blaster>, [
+[<AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:crepitous>, <ore:gemFlawlessDiamond>],
+[<AWWayofTime:crepitous>, <AWWayofTime:bloodMagicBaseItems:3>, null],
+[<ore:gemFlawlessDiamond>, null, <AWWayofTime:weakBloodShard>]]);
+
+// --- Energy Bazooka
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBazooka>, [
+[<AWWayofTime:archmageBloodOrb>, <BloodArsenal:amorphic_catalyst>, <ore:gemExquisiteDiamond>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:energyBlaster>, null],
+[<ore:gemExquisiteDiamond>, null, <AWWayofTime:demonBloodShard>]]);
 
 
 
@@ -474,6 +537,16 @@ mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemAxeElemental>, <AWWayofTime:bo
 // --- Bound Shovel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemShovelElemental>, <AWWayofTime:boundShovel>);
 
+// --- Energy Blaster
+mods.bloodmagic.Binding.addRecipe(<dreamcraft:item.Blaster>, <AWWayofTime:energyBlaster>);
+
+// --- Quartz Rod
+mods.bloodmagic.Binding.addRecipe(<gregtech:gt.metaitem.01:23522>, <AWWayofTime:bloodMagicBaseItems>);
+// -
+mods.bloodmagic.Binding.addRecipe(<gregtech:gt.metaitem.01:23516>, <AWWayofTime:bloodMagicBaseItems>);
+// -
+mods.bloodmagic.Binding.addRecipe(<gregtech:gt.metaitem.01:23523>, <AWWayofTime:bloodMagicBaseItems>);
+
 
 
 
@@ -557,6 +630,8 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:3>, [<
 // --- Concentrated Catalyst
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:4>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:5>, <gregtech:gt.metaitem.01:1086>], 4, 3000);
 
+// --- Complex Spell Crystal
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:itemComplexSpellCrystal>, [<AWWayofTime:blankSpell>, <AWWayofTime:weakBloodShard>, <AWWayofTime:weakBloodShard>, <dreamcraft:item.EngravedGoldChip>, <dreamcraft:item.EngravedDiamondCrystalChip>], 3, 15000);
 
 
 
@@ -1272,6 +1347,161 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_sto
 "potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
 mods.thaumcraft.Research.addInfusionPage("RUNEOFACCELERATION", <AWWayofTime:AlchemicalWizardrybloodRune:5>);
 
+// --- Arcane Pedestal
+recipes.remove(<AWWayofTime:blockPedestal>);
+mods.thaumcraft.Research.addResearch("ARCANEPEDESTALANDPLINTH", "BLOODMAGIC", "ignis 15, terra 12, tenebrae 9, alienis 6, praecantatio 3", -4, -6, 3, <AWWayofTime:blockPedestal>);
+game.setLocalization("tc.research_name.ARCANEPEDESTALANDPLINTH", "Arcane Pedestal");
+game.setLocalization("tc.research_text.ARCANEPEDESTALANDPLINTH", "[BM] Lets summon some Demonds");
+mods.thaumcraft.Research.addPrereq("ARCANEPEDESTALANDPLINTH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ARCANEPEDESTALANDPLINTH", "MASTERRITUALSTONE", false);
+mods.thaumcraft.Research.setConcealed("ARCANEPEDESTALANDPLINTH", true);
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.1");
+game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.1", "The Arcane Pedestal is a block added by Blood Magic. When used in conjunction with an Arcane Plinth, the pedestals allow for the summoning of Demons and Elementals based upon what items are placed on them. The Arcane Pedestal is also used in the crafting of the Arcane Plinth.");
+mods.thaumcraft.Arcane.addShaped("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>, "ignis 30, terra 30, ordo 30, perditio 30,", [
+[<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:weakBloodShard>, <AWWayofTime:AlchemicalWizardrybloodRune>],
+[<AWWayofTime:largeBloodStoneBrick>, <Thaumcraft:blockStoneDevice:1>, <AWWayofTime:largeBloodStoneBrick>],
+[<Thaumcraft:blockCosmeticSolid:7>, <AWWayofTime:weakBloodShard>, <Thaumcraft:blockCosmeticSolid:7>]]);
+mods.thaumcraft.Research.addArcanePage("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>);
+
+// --- Arcane Plinth
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.2");
+game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.2", "The Arcane Plinth is a block added by Blood Magic. It is used in conjunction with Arcane Pedestals to summon Demons and Elementals. The Arcane Plinth is the center of the summoning circle, and must have the correct tier or higher blood orb placed on it in order to finish the summon.");
+mods.thaumcraft.Infusion.addRecipe("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>, 
+[<BloodArsenal:blood_infused_iron_block>, <witchery:ingredient:130>, <AWWayofTime:weakBloodShard>, <BloodArsenal:blood_infused_iron_block>, <AWWayofTime:weakBloodShard>, <witchery:ingredient:130>, <BloodArsenal:blood_infused_iron_block>, <witchery:ingredient:130>, <AWWayofTime:weakBloodShard>, <BloodArsenal:blood_infused_iron_block>, <AWWayofTime:weakBloodShard>, <witchery:ingredient:130>], 
+"metallum 64, ignis 48, terra 32, tenebrae 24, praecantatio 16, alienis 8", <AWWayofTime:blockPlinth>, 10);
+mods.thaumcraft.Research.addInfusionPage("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPlinth>);
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.3");
+game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.3", "The Arcane Plinth is the central block used to create a Summoning Circle in order to call forth demons from beyond. The Summoning Circle consists of three separate tiers, with each successive capable of summoning more powerful demons.Summoning a demon requires that you place a particular set of items upon the pedestals surrounding the Arcane Plinth. The items may be placed in any order and position. Placing an item onto a pedestal functions identically to placing items in a Blood Altar - right click with the item in hand to place it on the pedestal. You may also remove items from the Arcane Pedestal or Arcane Plinth by right clicking it with an empty hand. In addition to the required ingredients, each demon requires that a blood orb be placed atop the Arcane Plinth.");
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.4");
+game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.4", "The blood orb can be placed at any time during the summoning process, or simply left atop the Arcane Plinth between summons. If the items were placed correctly lightning will strike each pedestal in turn, consuming the placed items as it strikes. When all items are consumed, the Arcane Plinth will be struck with lightning and the demon will be summoned.");
+mods.thaumcraft.Warp.addToResearch("ARCANEPEDESTALANDPLINTH", 2);
+
+// --- Alchemic Calcinator
+mods.thaumcraft.Research.addResearch("ALCHEMICCALCINATOR", "BLOODMAGIC", "praecantatio 18, vitreus 15, terra 12, perditio 9, aqua 6, ignis 3", -4, -8, 3, <AWWayofTime:blockAlchemicCalcinator>);
+game.setLocalization("tc.research_name.ALCHEMICCALCINATOR", "Alchemic Calcinator");
+game.setLocalization("tc.research_text.ALCHEMICCALCINATOR", "[BM] Brewing some magical things");
+mods.thaumcraft.Research.addPrereq("ALCHEMICCALCINATOR", "ARCANEPEDESTALANDPLINTH", false);
+mods.thaumcraft.Research.setConcealed("ALCHEMICCALCINATOR", true);
+mods.thaumcraft.Research.addPage("ALCHEMICCALCINATOR", "bloodmagic.research_page.ALCHEMICCALCINATOR");
+game.setLocalization("bloodmagic.research_page.ALCHEMICCALCINATOR", "The Alchemic Calcinator converts one reagent into 1,000 AR, consuming 2,000 LP in the process. The produced AR flows into the internal buffer of 2,000 AR, from where it slowly goes into the 4,000 AR main tank. The main tank will output to a single target container. This can be disabled by applying a Redstone signal. To insert an orb or a reagent simply Right-click the Calcinator with it. An orb must be first inserted in order to activate it. The Calcinator needs to be hooked up to a target container such as a Crystal Belljar in order to tranfer AR, set the destination using an Alchemic Router. To clear already set destinations use an Alchemic Cleanser.");
+mods.thaumcraft.Arcane.addShaped("ALCHEMICCALCINATOR", <AWWayofTime:blockAlchemicCalcinator>, "ignis 50, aqua 50, terra 50, aer 50, ordo 50, perditio 50", [
+[<AWWayofTime:bloodMagicBaseItems:15>, <Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:bloodMagicBaseItems:15>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<Thaumcraft:blockCosmeticSolid:7>, <witchery:cauldron>, <Thaumcraft:blockCosmeticSolid:7>]]);
+mods.thaumcraft.Research.addArcanePage("ALCHEMICCALCINATOR", <AWWayofTime:blockAlchemicCalcinator>);
+mods.thaumcraft.Warp.addToResearch("ALCHEMICCALCINATOR", 3);
+
+// --- Alchemic Router
+mods.thaumcraft.Research.addResearch("ALCHEMICTOOLS", "BLOODMAGIC", "terra 15, praecantatio 12, instrumentum 9, potentia 6, aer 3", -4, -12, 3, <AWWayofTime:itemAttunedCrystal>);
+game.setLocalization("tc.research_name.ALCHEMICTOOLS", "Alchemic Tools");
+game.setLocalization("tc.research_text.ALCHEMICTOOLS", "[BM] Lets link it");
+mods.thaumcraft.Research.addPrereq("ALCHEMICTOOLS", "ALCHEMICCALCINATOR", false);
+mods.thaumcraft.Research.setConcealed("ALCHEMICTOOLS", true);
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.1");
+game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.1", "The Alchemic Router is the item needed to establish links between containers (Calcinators, Relays, Belljars & Master Ritual Stones). To create a new link, select the source container by right-clicking it with the Router. Next, select the destination container by right-clicking it with the router. The Router can be set to only create links for a certain reagent. Shift right-click a container to cycle through the different types of reagents stored. You can clear the router's saved source coordinates by shift right-clicking the router into the air. All links have a maximum range of 5 blocks (this may be subject to change).");
+mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemAttunedCrystal>, "terra 15, ordo 15, aer 15", [
+[<AWWayofTime:reinforcedSlate>, <AWWayofTime:bloodMagicBaseItems>, null],
+[null, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <AWWayofTime:bloodMagicBaseItems>],
+[<AWWayofTime:bloodMagicBaseItems>, null, <AWWayofTime:reinforcedSlate>]]);
+mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemAttunedCrystal>);
+
+// --- Alchemical Clearer
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.2");
+game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.2", "The Alchemic cleanser is an item used to remove links created with the Alchemic Router. When right-clicked on any container, it removes all outgoing links from that container to others.");
+mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemDestinationClearer>, "terra 15, aer 15, perditio 15", [
+[<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseItems>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:3>, null, <AWWayofTime:bloodMagicBaseAlchemyItems:3>],
+[<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseItems>]]);
+mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemDestinationClearer>);
+
+// --- Alchemical Segmenter
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.3");
+game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.3", "The Alchemic Segmenter can be used to limit the number of tanks used for a certain type of AR. Shift right-click on a container to cycle through its reagent types until you have the one you want to restrict. Then, left-click the target container until you have the right max number of tanks. Example: You can limit a Relay (which has two tanks) to have a maximum of 1 tank of Praesidium, 1 tank of Potentia and 1 tank of Sanctus.");
+mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemTankSegmenter>, "terra 15, aer 15, ignis 15", [
+[<witchery:chalkheart>, <AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:mundanePowerCatalyst>],
+[null, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <AWWayofTime:bloodMagicBaseItems>],
+[<AWWayofTime:bloodMagicBaseItems>, null, <witchery:chalkheart>]]);
+mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemTankSegmenter>);
+
+// --- Bell Jar
+mods.thaumcraft.Research.addResearch("BELLJAR", "BLOODMAGIC", "vitreus 18, aer 15, terra 12, ordo 9, lucrum 6, arbor 3", -6, -12, 3, <AWWayofTime:blockCrystalBelljar>);
+game.setLocalization("tc.research_name.BELLJAR", "Bell Jar");
+game.setLocalization("tc.research_text.BELLJAR", "[BM] Demon Lamps");
+mods.thaumcraft.Research.addPrereq("BELLJAR", "ALCHEMICCALCINATOR", false);
+mods.thaumcraft.Research.setConcealed("BELLJAR", true);
+mods.thaumcraft.Research.addPage("BELLJAR", "bloodmagic.research_page.BELLJAR");
+game.setLocalization("bloodmagic.research_page.BELLJAR", "The Crystal Belljar is a block added by the Blood Magic mod. It can hold up to 16,000 AR. It can only output to a single container. The Belljar outputs a Redstone signal which varies in strength, corresponding to how full its internal storage is.");
+mods.thaumcraft.Arcane.addShaped("BELLJAR", <AWWayofTime:blockCrystalBelljar>, "aer 20, terra 15, ordo 20", [
+[<Thaumcraft:blockCosmeticOpaque:2>, <Thaumcraft:blockCosmeticOpaque:2>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<minecraft:wooden_pressure_plate>, <minecraft:light_weighted_pressure_plate>, <minecraft:wooden_pressure_plate>]]);
+mods.thaumcraft.Research.addArcanePage("BELLJAR", <AWWayofTime:blockCrystalBelljar>);
+
+// --- Alchemy Relay
+mods.thaumcraft.Research.addResearch("ALCHEMYRELAY", "BLOODMAGIC", "metallum 18, bestia 15, pannus 12, praecantatio 9, alienis 6, potentia 3", -2, -12, 3, <AWWayofTime:blockReagentConduit>);
+game.setLocalization("tc.research_name.ALCHEMYRELAY", " Alchemy Relay");
+game.setLocalization("tc.research_text.ALCHEMYRELAY", "[BM] More the one Calcinator");
+mods.thaumcraft.Research.addPrereq("ALCHEMYRELAY", "ALCHEMICCALCINATOR", false);
+mods.thaumcraft.Research.setConcealed("ALCHEMYRELAY", true);
+mods.thaumcraft.Research.addPage("ALCHEMYRELAY", "bloodmagic.research_page.ALCHEMYRELAY");
+game.setLocalization("bloodmagic.research_page.ALCHEMYRELAY", "The Relay has two 2,000AR tanks. Unlike the Calcinator and the Belljar, it can support multiple outgoing links. This makes this block especially useful for sorting reagents. Transmission can be stopped by applying a redstone signal.");
+mods.thaumcraft.Arcane.addShaped("ALCHEMYRELAY", <AWWayofTime:blockReagentConduit>, "aer 25, terra 15, ordo 25, ignis 10", [
+[<AWWayofTime:imbuedSlate>, <BloodArsenal:blood_burned_string>, <AWWayofTime:imbuedSlate>],
+[<BloodArsenal:blood_burned_string>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <BloodArsenal:blood_burned_string>],
+[<AWWayofTime:imbuedSlate>, <BloodArsenal:blood_burned_string>, <AWWayofTime:imbuedSlate>]]);
+mods.thaumcraft.Research.addArcanePage("ALCHEMYRELAY", <AWWayofTime:blockReagentConduit>);
+
+// --- Crystal Cluster
+mods.thaumcraft.Research.addResearch("CRYSTALCLUSTER", "BLOODMAGIC", "victus 21, spiritus 18, alienis 15, potentia 12, praecantatio 9, tenebrae 6, cognitio 3", -10, 0, 4, <AWWayofTime:blockCrystal>);
+game.setLocalization("tc.research_name.CRYSTALCLUSTER", "Crystal CLuster");
+game.setLocalization("tc.research_text.CRYSTALCLUSTER", "[BM] Tier 6. Ready set go!");
+mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "RUNEOFACCELERATION", false);
+mods.thaumcraft.Research.setConcealed("CRYSTALCLUSTER", true);
+mods.thaumcraft.Research.addPage("CRYSTALCLUSTER", "bloodmagic.research_page.CRYSTALCLUSTER");
+game.setLocalization("bloodmagic.research_page.CRYSTALCLUSTER", "Crystal Cluster is an item required to complete the tier 6 blood altar. Moade ou of 5 Soul and 5 Life Shards");
+mods.thaumcraft.Infusion.addRecipe("CRYSTALCLUSTER", <BloodArsenal:blood_stone:4>, 
+[<AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>], 
+"potentia 72, victus 64, spiritus 64, praecantatio 32, tenebrae 32, alienis 16, cognitio 16", <AWWayofTime:blockCrystal>, 15);
+mods.thaumcraft.Research.addInfusionPage("CRYSTALCLUSTER", <AWWayofTime:blockCrystal>);
+mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 5);
+
+// --- Glyph of Rigit Stability
+recipes.remove(<AWWayofTime:blockStabilityGlyph>);
+mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", -12, 0, 4, <AWWayofTime:blockStabilityGlyph>);
+game.setLocalization("tc.research_name.GLYPHSTONE", "Glyph Stone");
+game.setLocalization("tc.research_text.GLYPHSTONE", "[BM] Omega.... What?");
+mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "CRYSTALCLUSTER", false);
+mods.thaumcraft.Research.setConcealed("GLYPHSTONE", true);
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.1");
+game.setLocalization("bloodmagic.research_page.GLYPHSTONE.1", "Now its time for the Omega Ritual. So the Omega armor is an upgrade from the normal Bound Armor from Blood Magic. You hve to Building a the Omega Chamber the most complicated and most important part of the Omega ritual. The duration and protection of your Omega Armor will be almost completely based on this. The idea behind the ritual is that activating the ritual releases the reagents like a gas from the master ritual stone. However the gas must be contained in order to empower your armor, so the chamber must be completely sealed when you activate the ritual. Once the reagent gas has entered your armor, the chamber may be broken and you can exit. Because it is a gas, the volume of the chamber is not important. Every FACE of a block the is exposed to the gas once the ritual is activated counts for 1 point of stability.");
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.2");
+game.setLocalization("bloodmagic.research_page.GLYPHSTONE.1", "In order for the ritual to successfully activate, the stability needs to be 151 or higher. The higher it is, the more time you get from it. If you use Glyphs of Rigid Stability, each face exposed is worth 2 points of stability. While these are significantly more expensive than using dirt or some other block, they essentially double the overall stability of the chamber. Therefore it is best to construct the entire exterior of the chamber out of these Glyphs of Rigid Stability(except the floor which has to be the ritual stones and bell jars.");
+mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockStabilityGlyph>, "aer 20, terra 20, aqua 20, ignis 20, ordo 20, perditio 20", [
+[<AWWayofTime:crepitous>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>],
+[<AWWayofTime:bloodMagicBaseItems:17>, <BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:17>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>]]);
+mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockStabilityGlyph>);
+mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 3);
+
+// --- Glyph of Adept Enchanter
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.2");
+game.setLocalization("bloodmagic.research_page.GLYPHSTONE.2", "In order to increase the time the Omega state lasts before reverting back to normal Bound armor, the chamber's stability needs to increase. In order to increase the enchantability, which decides how good of enchantments are on the armor, you need Glyphs of the Adept Enchanter, and in order to increase the enchantment level you, need Glyphs of Arcane Potential. The reason you cannot make your entire chamber out of the other Glyphs which add the enchantments to your armor is because each face of the Adept Enchanter Glyphs count as -10 stability points and each face of Arcane Potential is worth -20 points. This is why you need all the Glyphs of Rigid Stability, because the more of those you have, the more of the other 2 Glyphs you can have without dipping below 151 stability points.");
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.3");
+game.setLocalization("bloodmagic.research_page.GLYPHSTONE.3", "In order to achieve more than just level 1 enchantments on your armor, you need more surface area than an empty box chamber will provide, so you need to add blocks inside the chamber. But you can't just fill it with blocks because the gas needs a way to get to the faces. Think of it as if the gas flows from the Master Ritual Stone in blocks. Every time a gas block Connects with another block, the face that it connects to is counted towards the ritual.");
+mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph>, "aer 30, terra 30, aqua 30, ignis 30, ordo 30, perditio 30", [
+[<AWWayofTime:bloodMagicBaseAlchemyItems>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseAlchemyItems>],
+[<AWWayofTime:bloodMagicBaseItems:17>, <BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:17>],
+[<AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:magicales>]]);
+mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph>);
+
+// --- Glyph of Arcane Potential
+mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph:1>, "aer 30, terra 30, aqua 30, ignis 30, ordo 30, perditio 30", [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>],
+[<AWWayofTime:bloodMagicBaseItems:17>, <BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:17>],
+[<AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:magicales>]]);
+mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph:1>);
 
 
 
