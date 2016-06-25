@@ -173,10 +173,6 @@ recipes.addShaped(WovenCloth, [
 [Cotton, String, Cotton],
 [String, Cotton, String]]);
 
-// --- Pams cotton to natura
-recipes.addShapeless(<harvestcraft:cottonItem>, [<Natura:barleyFood:3>]);
-
-
 // --- Apiary
 recipes.addShapeless(<harvestcraft:apiary>, [<Forestry:apiculture:2>]);
 
