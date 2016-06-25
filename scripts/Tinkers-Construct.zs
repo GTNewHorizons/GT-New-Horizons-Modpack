@@ -777,6 +777,15 @@ furnace.remove(<TConstruct:materials:2>);
 // --- Seared Bricks Nether
 furnace.remove(<TConstruct:materials:37>);
 
+// --- Aluminium Ingot
+recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
+[<TConstruct:materials:22>, <TConstruct:materials:22>, <TConstruct:materials:22>],
+[<TConstruct:materials:22>, <TConstruct:materials:22>, <TConstruct:materials:22>],
+[<TConstruct:materials:22>, <TConstruct:materials:22>,<TConstruct:materials:22>]]);
+
+// --- Raw Aluminium
+recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
+[<TConstruct:materials:12>, null, null]]);
 
 
 
@@ -2226,6 +2235,10 @@ AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>,
 AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
 // -
 AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:30> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 30);
+// -
+AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <gregtech:gt.metaitem.01:2382>, 400, 16);
+// -
+AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:11033>, <gregtech:gt.metaitem.01:11382>, 400, 16);
 
 // --- Ardite Ingot
 AlloySmelter.addRecipe(<TConstruct:materials:4>, <TConstruct:materials:29> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
