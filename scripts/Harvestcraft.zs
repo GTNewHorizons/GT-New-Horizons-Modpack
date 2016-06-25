@@ -461,6 +461,8 @@ Extractor.addRecipe(<harvestcraft:grapejuiceItem>, <gregtech:gt.metaitem.02:3255
 Extractor.addRecipe(<harvestcraft:grapejuiceItem>, <harvestcraft:grapeItem>);
 
 // --- Blue Berry Juice
+Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <ExtraTrees:food:45>);
+// -
 Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <harvestcraft:blueberryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <Natura:berry:1> * 4);
@@ -474,6 +476,8 @@ Extractor.addRecipe(<harvestcraft:cherryjuiceItem>, <Forestry:fruits>);
 
 // --- Black Berry Juice
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <ExtraTrees:food:43>);
+// -
+Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <harvestcraft:blackberryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <Natura:berry:2> * 4);
 
