@@ -436,6 +436,18 @@ recipes.remove(<AWWayofTime:bloodMagicBaseItems:24>);
 // --- Tool Core
 recipes.remove(<AWWayofTime:bloodMagicBaseItems:26>);
 
+// --- Magicales Cables
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:2>);
+
+// --- Paradigm Plate
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:8>);
+
+// --- Output Spell Cable
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:9>);
+
+// --- Input Spell Cable
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:14>);
+
 
 
 
@@ -603,6 +615,30 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:26>, [
 [<AWWayofTime:terrae>, <TConstruct:heavyPlate:6>, <AWWayofTime:terrae>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:terrae>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:terrae>]]);
+
+// --- Magicales Cables
+recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:2> * 3, [
+[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>],
+[<AWWayofTime:magicales>, <AWWayofTime:magicales>, <AWWayofTime:magicales>],
+[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>]]);
+
+// --- Paradigm Plate
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:8>, [
+[<AWWayofTime:reinforcedSlate>, <ore:plateTitanium>, <AWWayofTime:reinforcedSlate>],
+[<AWWayofTime:blankSlate>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:blankSlate>],
+[<AWWayofTime:reinforcedSlate>, <ore:plateTitanium>, <AWWayofTime:reinforcedSlate>]]);
+
+// --- Output Spell Cable
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:9>, [
+[<AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>, null],
+[<AWWayofTime:reinforcedSlate>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:bloodMagicBaseItems:2>],
+[<AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>, null]]);
+
+// --- Input Spell Cable
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:14>, [
+[null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>],
+[<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:reinforcedSlate>],
+[null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>]]);
 
 
 
