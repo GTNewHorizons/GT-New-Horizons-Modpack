@@ -28523,6 +28523,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:spatial_dash_gem",
@@ -28531,7 +28533,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
@@ -28584,6 +28586,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:blank_gem",
@@ -28592,7 +28596,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
@@ -28941,19 +28945,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "HardcoreEnderExpansion:transference_gem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
@@ -29067,19 +29058,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "BloodArsenal:amorphic_catalyst",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
