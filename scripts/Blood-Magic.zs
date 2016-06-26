@@ -379,6 +379,62 @@ recipes.remove(<AWWayofTime:blockEnchantmentGlyph>);
 // --- Glyph of Arcane Potential
 recipes.remove(<AWWayofTime:blockEnchantmentGlyph:1>);
 
+// --- Wooden Brace
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:3>);
+
+// --- Stone Brace
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:4>);
+
+// --- Obsidian Brace
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:25>);
+
+// --- Living Brace
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:31>);
+
+// --- Projectile Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:5>);
+
+// --- Selfe Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:6>);
+
+// --- Meele Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:7>);
+
+// --- Firy Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:10>);
+
+// --- Icy Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:11>);
+
+// --- Gusty Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:12>);
+
+// --- Earthen Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:13>);
+
+// --- Unattuned Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:18>);
+
+// --- Offensive Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:19>);
+
+// --- Defensive Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:20>);
+
+// --- Inviromental Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:21>);
+
+// --- Power Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:22>);
+
+// --- Reduction Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:23>);
+
+// --- Potency Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:24>);
+
+// --- Tool Core
+recipes.remove(<AWWayofTime:bloodMagicBaseItems:26>);
 
 
 
@@ -433,6 +489,120 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBazooka>, [
 [<AWWayofTime:archmageBloodOrb>, <BloodArsenal:amorphic_catalyst>, <ore:gemExquisiteDiamond>],
 [<BloodArsenal:amorphic_catalyst>, <AWWayofTime:energyBlaster>, null],
 [<ore:gemExquisiteDiamond>, null, <AWWayofTime:demonBloodShard>]]);
+
+// --- Wooden Brace
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:3>, [
+[<AWWayofTime:weakBloodOrb>, <gregtech:gt.metaitem.01:17809>, <AWWayofTime:blankSlate>],
+[<gregtech:gt.metaitem.01:17809>, <dreamcraft:item.ArcaneSlate>, <gregtech:gt.metaitem.01:17809>],
+[<AWWayofTime:blankSlate>, <gregtech:gt.metaitem.01:17809>, null]]);
+
+// --- Stone Brace
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:4>, [
+[<AWWayofTime:apprenticeBloodOrb>, <dreamcraft:item.StonePlate>, <AWWayofTime:reinforcedSlate>],
+[<dreamcraft:item.StonePlate>, <AWWayofTime:bloodMagicBaseItems:3>, <dreamcraft:item.StonePlate>],
+[<AWWayofTime:reinforcedSlate>, <dreamcraft:item.StonePlate>, null]]);
+
+// --- Obsidian Brace
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:25>, [
+[<AWWayofTime:magicianBloodOrb>, <ore:plateObsidian>, <AWWayofTime:imbuedSlate>],
+[<ore:plateObsidian>, <AWWayofTime:bloodMagicBaseItems:4>, <ore:plateObsidian>],
+[<AWWayofTime:imbuedSlate>, <ore:plateObsidian>, null]]);
+
+// --- Living Brace
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:31>, [
+[<AWWayofTime:masterBloodOrb>, <ore:plateRoseGold>, <AWWayofTime:demonicSlate>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>],
+[<AWWayofTime:demonicSlate>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:28>]]);
+
+// --- Projectile Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:5>, [
+[<AWWayofTime:magicales>, <gregtech:gt.metaitem.02:25028>, <AWWayofTime:magicales>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:magicales>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:magicales>]]);
+
+// --- Selfe Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:6>, [
+[<AWWayofTime:sanctus>, <Thaumcraft:ItemResource:1>, <AWWayofTime:sanctus>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:sanctus>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:sanctus>]]);
+
+// --- Meele Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:7>, [
+[<AWWayofTime:incendium>, <minecraft:fire_charge>, <AWWayofTime:incendium>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:incendium>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:incendium>]]);
+
+// --- Firy Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:10>, [
+[<AWWayofTime:incendium>, <Railcraft:firestone.refined>, <AWWayofTime:incendium>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:incendium>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:incendium>]]);
+
+// --- Icy Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:11>, [
+[<AWWayofTime:crystallos>, <Thaumcraft:FocusFrost>, <AWWayofTime:crystallos>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:crystallos>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:crystallos>]]);
+
+// --- Gusty Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:12>, [
+[<AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:aether>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:aether>]]);
+
+// --- Earthen Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:13>, [
+[<AWWayofTime:terrae>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:terrae>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:terrae>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:terrae>]]);
+
+// --- Unattuned Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:18>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>]]);
+
+// --- Offensive Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:19>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems>, <Thaumcraft:ItemSwordThaumium>, <AWWayofTime:bloodMagicBaseAlchemyItems>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems>]]);
+
+// --- Defensive Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:20>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <tinkersdefense:Heater Shield>.withTag({InfiTool: {RenderExtra: 31, BaseDurability: 663, BaseAttack: 4, ToolEXP: 0 as long, HarvestLevel: 3, RenderHead: 31, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 31, Accessory: 31, MiningSpeed: 650, Unbreaking: 0, Damage: 0, HarvestLevel2: 3, BonusDurability: 0, TotalDurability: 663, MiningSpeed2: 650, Head: 31, Attack: 4, Handle: 31, Broken: 0 as byte, Extra: 31, RenderAccessory: 31, ToolLevel: 1, Modifiers: 2}, display: {Name: "§fThaumium Heater Shield"}}), <AWWayofTime:bloodMagicBaseAlchemyItems:1>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>]]);
+
+// --- Inviromental Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:21>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:2>, <EnderIO:itemMaterial:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>]]);
+
+// --- Power Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:22>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <IC2:itemBatCrystal:*>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>]]);
+
+// --- Reduction Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:23>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:7>, <ore:plateSoularium>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:7>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>]]);
+
+// --- Potency Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:24>, [
+[<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <EnderIO:itemMaterial:6>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>]]);
+
+// --- Tool Core
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:26>, [
+[<AWWayofTime:terrae>, <TConstruct:heavyPlate:6>, <AWWayofTime:terrae>],
+[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
+[<AWWayofTime:terrae>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:terrae>]]);
 
 
 
@@ -901,7 +1071,7 @@ mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
 mods.thaumcraft.Research.addPage("EMPTYCORE", "bloodmagic.research_page.EMPTYCORE");
 game.setLocalization("bloodmagic.research_page.EMPTYCORE", "The Empty Core is a component added by Blood Magic. It is used in the creation of the various cores, such as the Projectile Core, Self Core, Melee Core and Lava Crystal.");
-mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 30, ignis 30, terra 30, aqua 30, ordo 30, perditio 30", [
+mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
 [<gregtech:gt.metaitem.01:17306>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:17306>],
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>]]);
@@ -1483,7 +1653,7 @@ mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockStabilityGlyph>
 [<AWWayofTime:bloodMagicBaseItems:17>, <BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseItems:17>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>]]);
 mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockStabilityGlyph>);
-mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 3);
+mods.thaumcraft.Warp.addToResearch("GLYPHSTONE", 3);
 
 // --- Glyph of Adept Enchanter
 mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.2");
