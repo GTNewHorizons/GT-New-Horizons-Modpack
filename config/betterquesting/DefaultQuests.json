@@ -26295,7 +26295,7 @@
     {
       "questID": 350,
       "name": "A few more things...",
-      "description": "Ok, I think I have everything I need to assemble the device. Can you assist me with some additional Materials? I need to update most of my machines, as these exotic components you got me already damaged most of them already. Don\u0027t worry, I have a list here.",
+      "description": "Ok, I think I have everything I need to assemble the device. Can you assist me with some additional Materials? I need to update most of my machines, as these exotic components you got me already damaged most of them already. Don\u0027t worry, I have a list here.\n\nMost of my circuits burned to crisp while I was trying to meassure the conductivity of these soul and life shards. I need better ones.\n\nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?\n\nDo you see this pile of molten Chrome over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 Singularities, the first one ... Well.. Just get me a better casing, would you?\n\nIt seems, that the stabilizers need... stabilizing.... But I\u0027m out of field generators. Can you help me with this?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26508,7 +26508,7 @@
     {
       "questID": 353,
       "name": "A problem that matters",
-      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow� But .. How?",
+      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut .. How?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42627,87 +42627,87 @@
       "quests": [
         {
           "id": 308,
-          "x": 304,
-          "y": 64
-        },
-        {
-          "id": 351,
-          "x": 64,
-          "y": 0
-        },
-        {
-          "id": 352,
-          "x": 64,
-          "y": 64
-        },
-        {
-          "id": 353,
-          "x": 112,
-          "y": 0
-        },
-        {
-          "id": 354,
-          "x": 176,
-          "y": 0
-        },
-        {
-          "id": 355,
-          "x": 112,
-          "y": 32
-        },
-        {
-          "id": 356,
-          "x": 176,
-          "y": 32
-        },
-        {
-          "id": 357,
-          "x": 112,
-          "y": 64
-        },
-        {
-          "id": 358,
-          "x": 112,
-          "y": 96
-        },
-        {
-          "id": 359,
-          "x": 176,
-          "y": 96
-        },
-        {
-          "id": 360,
-          "x": 112,
-          "y": 128
-        },
-        {
-          "id": 361,
-          "x": 176,
-          "y": 128
-        },
-        {
-          "id": 350,
           "x": 240,
           "y": 64
         },
         {
+          "id": 351,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 352,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 353,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 354,
+          "x": 112,
+          "y": 0
+        },
+        {
+          "id": 355,
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": 356,
+          "x": 112,
+          "y": 32
+        },
+        {
+          "id": 357,
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": 358,
+          "x": 48,
+          "y": 96
+        },
+        {
+          "id": 359,
+          "x": 112,
+          "y": 96
+        },
+        {
+          "id": 360,
+          "x": 48,
+          "y": 128
+        },
+        {
+          "id": 361,
+          "x": 112,
+          "y": 128
+        },
+        {
+          "id": 350,
+          "x": 176,
+          "y": 64
+        },
+        {
           "id": 452,
-          "x": 144,
+          "x": 80,
           "y": 0
         },
         {
           "id": 453,
-          "x": 144,
+          "x": 80,
           "y": 32
         },
         {
           "id": 454,
-          "x": 144,
+          "x": 80,
           "y": 96
         },
         {
           "id": 455,
-          "x": 144,
+          "x": 80,
           "y": 128
         }
       ]
