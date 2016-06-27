@@ -27085,21 +27085,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 200,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "DraconicEvolution:draconiumDust",
               "Count": 1,
               "OreDict": "",
@@ -27123,13 +27108,13 @@
         }
       ],
       "preRequisites": [
-        308
+        464
       ]
     },
     {
       "questID": 363,
       "name": "The power of dragons",
-      "description": "Hey my friend. I got your sample, and I have to say, I\u0027m amazed. This material has a lot of potential, but it\u0027s useless at the moment. I have an Idea how to turn this into something usefull, but I need you to help me with a few problems first",
+      "description": "Hey my friend. I got your sample, and I have to say, I\u0027m amazed. This material has a lot of potential, but it\u0027s useless at the moment. I have an Idea how to turn this into something usefull, but I need you to help me with a few problems first.\n\nI need a good hand full of that stuff for my research. Please get me some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27213,7 +27198,7 @@
     {
       "questID": 365,
       "name": "Dense, denser, Neutronium",
-      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?",
+      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?\n\nThis looks promising. Send me some samples, and I will try my luck.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27270,7 +27255,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        366
+        465
       ]
     },
     {
@@ -27320,7 +27305,7 @@
     {
       "questID": 367,
       "name": "Successful.. Or not?",
-      "description": "Heh, Neutronium. I didn\u0027t even knew such a thing really exists. Unfortunately, the Draconium dust was enclosed for... 5 seconds? But, it was a small success. ",
+      "description": "Heh, Neutronium. I didn\u0027t even knew such a thing really exists. Unfortunately, the Draconium dust was enclosed for... 5 seconds? But, it was a small success. \n\nOk let\u0027s travell to some planets and moons and looking for the new Material. I think we have to flying very far for it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27453,7 +27438,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        367
+        466
       ]
     },
     {
@@ -33635,7 +33620,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        364
+        367
       ]
     },
     {
@@ -33944,6 +33929,150 @@
       ],
       "preRequisites": [
         423
+      ]
+    },
+    {
+      "questID": 464,
+      "name": "The Technicain Part 2",
+      "description": "I will ask the technican about this stuff, but I need to reach a good reputation first. He is a busy man, and I don\u0027t want to be denied.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.CoinTechnician",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        308
+      ]
+    },
+    {
+      "questID": 465,
+      "name": "Trigger Nt",
+      "description": "Trigger if you get Neutronium Ore.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "oreNeutronium",
+              "Damage": 129
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        364
+      ]
+    },
+    {
+      "questID": 466,
+      "name": "Trigger BP",
+      "description": "Triggers if you find Black Plutonium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:plutoblackplutonium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        366
       ]
     },
     {
@@ -42508,12 +42637,12 @@
         },
         {
           "id": 365,
-          "x": 128,
+          "x": 96,
           "y": 32
         },
         {
           "id": 367,
-          "x": 160,
+          "x": 128,
           "y": 32
         },
         {
@@ -42533,7 +42662,7 @@
         },
         {
           "id": 366,
-          "x": 96,
+          "x": 160,
           "y": 32
         },
         {
@@ -42673,7 +42802,7 @@
         },
         {
           "id": 457,
-          "x": 96,
+          "x": 160,
           "y": 0
         },
         {
@@ -42700,6 +42829,21 @@
           "id": 462,
           "x": 128,
           "y": 128
+        },
+        {
+          "id": 464,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 465,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 466,
+          "x": 192,
+          "y": 0
         }
       ]
     },
