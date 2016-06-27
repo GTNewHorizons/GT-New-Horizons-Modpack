@@ -149,8 +149,20 @@ mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:standardBindingAgent>);
 // --- Mundane Lengthening Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundaneLengtheningCatalyst>);
 
+// --- Average Lengthening Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:averageLengtheningCatalyst>);
+
+// --- Greater Lengthening Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:greaterLengtheningCatalyst>);
+
 // --- Mundane Power Catalyst
 mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:mundanePowerCatalyst>);
+
+// --- Average Power Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:averagePowerCatalyst>);
+
+// --- Greater Power Catalyst
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:greaterPowerCatalyst>);
 
 // --- Unbound Crystal
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSpell>);
@@ -448,6 +460,59 @@ recipes.remove(<AWWayofTime:bloodMagicBaseItems:9>);
 // --- Input Spell Cable
 recipes.remove(<AWWayofTime:bloodMagicBaseItems:14>);
 
+// --- Key of Binding
+recipes.remove(<AWWayofTime:itemKeyOfDiablo>);
+
+// --- Armor Inhibitor
+recipes.remove(<AWWayofTime:armourInhibitor>);
+
+// --- Cracked Runic Plate
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:15>);
+
+// --- Runic Plate
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:16>);
+
+// --- Imbued Runic Plate
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:17>);
+
+// --- Soul Runic Plate
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:30>);
+
+// --- Offensa
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems>);
+
+// --- Praesidium
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:1>);
+
+// --- Obris Terrae
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:2>);
+
+// --- Virtus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>);
+
+// --- Reductus
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>);
+
+// --- Potentia
+mods.bloodmagic.Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>);
+
+// --- Input Routing Focus
+recipes.remove(<AWWayofTime:inputRoutingFocus>);
+
+// --- Default Output Routing Focus
+recipes.remove(<AWWayofTime:outputRoutingFocus>);
+
+// --- Output Routing Focus Mod Items
+recipes.remove(<AWWayofTime:outputRoutingFocus:1>);
+
+// --- Output Routing Focus Ignore MetaData
+recipes.remove(<AWWayofTime:outputRoutingFocus:2>);
+
+// --- Output Routing Focus Match MetaData
+recipes.remove(<AWWayofTime:outputRoutingFocus:3>);
+
+// --- Output Routing Focus Global
+recipes.remove(<AWWayofTime:inputRoutingFocus:4>);
 
 
 
@@ -640,7 +705,11 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:14>, [
 [<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:reinforcedSlate>],
 [null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>]]);
 
-
+// --- Input Routing Focus
+recipes.addShaped(<AWWayofTime:inputRoutingFocus>, [
+[<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>],
+[<AWWayofTime:blankSlate>, <AWWayofTime:bloodMagicBaseItems:32>, <AWWayofTime:blankSlate>],
+[<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>]]);
 
 
 // --- Altar Recipes ---
@@ -782,8 +851,20 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBindingAgent>, [<AWWayofTime:
 // --- Mundane Lengthening Catalyst
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundaneLengtheningCatalyst>, [<gregtech:gt.metaitem.01:2028>, <minecraft:redstone>, <minecraft:redstone>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:weakBindingAgent>], 3, 4000);
 
+// --- Average Lengthening Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:averageLengtheningCatalyst>, [<AWWayofTime:standardBindingAgent>, <AWWayofTime:mundaneLengtheningCatalyst>, <AWWayofTime:mundaneLengtheningCatalyst>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 4, 6000);
+
+// --- Greater Lengthening Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:greaterLengtheningCatalyst>, [<AWWayofTime:aquasalus>, <AWWayofTime:averageLengtheningCatalyst>, <AWWayofTime:averageLengtheningCatalyst>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 4, 8000);
+
 // --- Mundane Power Catalyst
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:mundanePowerCatalyst>, [<gregtech:gt.metaitem.01:2028>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:weakBindingAgent>], 3, 4000);
+
+// --- Average Power Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:averagePowerCatalyst>, [<AWWayofTime:standardBindingAgent>, <AWWayofTime:mundanePowerCatalyst>, <AWWayofTime:mundanePowerCatalyst>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 4, 6000);
+
+// --- Greater Power Catalyst
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:greaterPowerCatalyst>, [<AWWayofTime:incendium>, <AWWayofTime:averagePowerCatalyst>, <AWWayofTime:averagePowerCatalyst>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 4, 8000);
 
 // --- Stadart Binding Agent
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:standardBindingAgent>, [<gregtech:gt.metaitem.01:2028>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:weakBindingAgent>, <AWWayofTime:sanctus>, <AWWayofTime:crystallos>], 3, 4000);
@@ -839,6 +920,36 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:4>, [<
 // --- Complex Spell Crystal
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:itemComplexSpellCrystal>, [<AWWayofTime:blankSpell>, <AWWayofTime:weakBloodShard>, <AWWayofTime:weakBloodShard>, <dreamcraft:item.EngravedGoldChip>, <dreamcraft:item.EngravedDiamondCrystalChip>], 3, 15000);
 
+// --- Cracked Runic Plate
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseItems:15> * 2, [<AWWayofTime:bloodMagicBaseAlchemyItems:4>, <AWWayofTime:imbuedSlate>, <AWWayofTime:imbuedSlate>, <AWWayofTime:magicales>, <AWWayofTime:magicales>], 4, 2000);
+
+// --- Runic Plate
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseItems:16>, [<AWWayofTime:bloodMagicBaseItems:15>, <AWWayofTime:terrae>, <AWWayofTime:terrae>, <AWWayofTime:demonicSlate>], 5, 6000);
+
+// --- Imbued Runic Plate
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseItems:17>, [<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseItems:16>, <AWWayofTime:bloodMagicBaseItems:16>, <AWWayofTime:aquasalus>, <AWWayofTime:incendium>], 5, 12000);
+
+// --- Soul Runic Plate
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseItems:30>, [<AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:27>], 6, 25000);
+
+// --- Offensa
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <gregtech:gt.metaitem.02:25028>, <gregtech:gt.metaitem.02:25028>], 3, 2000);
+
+// --- Praesidium
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:1>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:tennebrae>, <AWWayofTime:tennebrae>, <witchery:ingredient:56>, <witchery:ingredient:56>], 3, 2000);
+
+// --- Obris Terrae
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:2>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:terrae>, <AWWayofTime:terrae>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>], 3, 2000);
+
+// --- Virtus
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:2100>, <gregtech:gt.metaitem.01:2100>, <dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzDust>], 3, 4000);
+
+// --- Reductus
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2379>, <gregtech:gt.metaitem.01:2379>], 3, 4000);
+
+// --- Potentia
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:8>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <IC2:itemDust2:2>, <IC2:itemDust2:2>, <gregtech:gt.metaitem.01:2367>, <gregtech:gt.metaitem.01:2367>], 3, 4000);
+
 
 
 
@@ -867,7 +978,20 @@ Assembler.addRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:blan
 // --- Ritual Dismantler
 Assembler.addRecipe(<AWWayofTime:ritualDismantler>, <AWWayofTime:itemRitualDiviner>, <minecraft:redstone_torch> * 2, 600, 120);
 
+// --- Default Output Routing Focus
+Assembler.addRecipe(<AWWayofTime:outputRoutingFocus>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:1> * 0, 200, 120);
 
+// --- Output Routing Focus Mod Items
+Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:1>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:2> * 0, 200, 120);
+
+// --- Output Routing Focus Ignore MetaData
+Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:2>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:3> * 0, 200, 120);
+
+// --- Output Routing Focus Match MetaData
+Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:3>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:4> * 0, 200, 120);
+
+// --- Output Routing Focus Global
+Assembler.addRecipe(<AWWayofTime:outputRoutingFocus:4>, <AWWayofTime:inputRoutingFocus>, <gregtech:gt.integrated_circuit:5> * 0, 200, 120);
 
 
 
@@ -1674,11 +1798,11 @@ mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 5);
 
 // --- Glyph of Rigit Stability
 recipes.remove(<AWWayofTime:blockStabilityGlyph>);
-mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", -12, 0, 4, <AWWayofTime:blockStabilityGlyph>);
+mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", 2, -10, 4, <AWWayofTime:blockStabilityGlyph>);
 game.setLocalization("tc.research_name.GLYPHSTONE", "Glyph Stone");
 game.setLocalization("tc.research_text.GLYPHSTONE", "[BM] Omega.... What?");
 mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "CRYSTALCLUSTER", false);
+mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "SOULARMORFORGE", false);
 mods.thaumcraft.Research.setConcealed("GLYPHSTONE", true);
 mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.1");
 game.setLocalization("bloodmagic.research_page.GLYPHSTONE.1", "Now its time for the Omega Ritual. So the Omega armor is an upgrade from the normal Bound Armor from Blood Magic. You hve to Building a the Omega Chamber the most complicated and most important part of the Omega ritual. The duration and protection of your Omega Armor will be almost completely based on this. The idea behind the ritual is that activating the ritual releases the reagents like a gas from the master ritual stone. However the gas must be contained in order to empower your armor, so the chamber must be completely sealed when you activate the ritual. Once the reagent gas has entered your armor, the chamber may be broken and you can exit. Because it is a gas, the volume of the chamber is not important. Every FACE of a block the is exposed to the gas once the ritual is activated counts for 1 point of stability.");
@@ -1709,7 +1833,33 @@ mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyp
 [<AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:magicales>]]);
 mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph:1>);
 
+// --- Key of Binding
+mods.thaumcraft.Research.addResearch("KEYOFBINDING", "BLOODMAGIC", "vitreus 15, lucrum 12, metallum 9, terra 6, praecantatio 3", 4, -2, 3, <AWWayofTime:itemKeyOfDiablo>);
+game.setLocalization("tc.research_name.KEYOFBINDING", "Key of Binding");
+game.setLocalization("tc.research_text.KEYOFBINDING", "[BM] Binding all the Stuff");
+mods.thaumcraft.Research.addPrereq("KEYOFBINDING", "SACRIFICIALKNIFE", false);
+mods.thaumcraft.Research.setConcealed("KEYOFBINDING", true);
+mods.thaumcraft.Research.addPage("KEYOFBINDING", "bloodmagic.research_page.KEYOFBINDING");
+game.setLocalization("bloodmagic.research_page.KEYOFBINDING", "The Key of Binding is a tool added by Blood Magic. The Key of Binding is used to bind unbound items to the owner's network.There are two types of the Key of Binding. The first being a standard, craft-able key. The second one must be spawned in, and comes pre-bound to Server-wide Soul Network, allowing for a server-wide soul network to be established by using the key. Upon right clicking, the Key of Binding will search the user's inventory for the first unbound item and will bind it to the owner of the key's network.");
+mods.thaumcraft.Arcane.addShaped("KEYOFBINDING", <AWWayofTime:itemKeyOfDiablo>, "terra 15, ordo 15, ignis 15", [
+[null, <ore:plateRoseGold>, <ore:gemFlawlessDiamond>],
+[<AWWayofTime:weakBloodShard>, <Thaumcraft:ArcaneDoorKey:1>, <AWWayofTime:weakBloodShard>],
+[<ore:gemFlawlessDiamond>, <ore:plateRoseGold>, null]]);
+mods.thaumcraft.Research.addArcanePage("KEYOFBINDING", <AWWayofTime:itemKeyOfDiablo>);
 
+// --- Armor Inhibitor
+mods.thaumcraft.Research.addResearch("ARMORINHIBITOR", "BLOODMAGIC", "metallum 15, lucrum 12, spiritus 9, alienis 6, praecantatio 3", 4, -8, 3, <AWWayofTime:armourInhibitor>);
+game.setLocalization("tc.research_name.ARMORINHIBITOR", "Armor Inhibitor");
+game.setLocalization("tc.research_text.ARMORINHIBITOR", "[BM] Used to supress a souls");
+mods.thaumcraft.Research.addPrereq("ARMORINHIBITOR", "SOULARMORFORGE", false);
+mods.thaumcraft.Research.setConcealed("ARMORINHIBITOR", true);
+mods.thaumcraft.Research.addPage("ARMORINHIBITOR", "bloodmagic.research_page.ARMORINHIBITOR");
+game.setLocalization("bloodmagic.research_page.ARMORINHIBITOR", "While activated, the Armour Inhibitor will deactivate all armor upgrades on Bound Armor. For example, if wearing bound boots with a Sigil of Haste in them, the inhibitor will disable the haste effect. This can be useful if using armor with the Sigil of Magnetism or Sigil of the Phantom Bridge socketed. The inhibitor does not require any life essence to operate.");
+mods.thaumcraft.Arcane.addShaped("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>, "perditio 30, aer 30, aqua 30", [
+[<AWWayofTime:weakBloodShard>, <ore:plateRoseGold>, null],
+[<ore:plateRoseGold>, <AWWayofTime:imbuedSlate>, <ore:plateRoseGold>],
+[null, <ore:plateRoseGold>, <AWWayofTime:weakBloodShard>]]);
+mods.thaumcraft.Research.addArcanePage("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>);
 
 
 // --- Nei Rename ---
