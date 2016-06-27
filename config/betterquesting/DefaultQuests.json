@@ -29020,7 +29020,15 @@
               "id": "DraconicEvolution:draconiumDust",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "Unfortunately, it has already lost its power"
+                  ],
+                  "Name": "Activated Draconium Dust"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -42620,12 +42628,12 @@
         },
         {
           "id": 389,
-          "x": 224,
+          "x": 256,
           "y": 128
         },
         {
           "id": 391,
-          "x": 256,
+          "x": 288,
           "y": 128
         },
         {
@@ -42640,27 +42648,27 @@
         },
         {
           "id": 394,
-          "x": 96,
-          "y": 96
-        },
-        {
-          "id": 395,
           "x": 128,
           "y": 96
         },
         {
-          "id": 396,
+          "id": 395,
           "x": 160,
           "y": 128
         },
         {
-          "id": 390,
+          "id": 396,
           "x": 192,
           "y": 128
         },
         {
+          "id": 390,
+          "x": 224,
+          "y": 128
+        },
+        {
           "id": 397,
-          "x": 288,
+          "x": 320,
           "y": 128
         },
         {
@@ -42690,7 +42698,7 @@
         },
         {
           "id": 462,
-          "x": 64,
+          "x": 128,
           "y": 128
         }
       ]
