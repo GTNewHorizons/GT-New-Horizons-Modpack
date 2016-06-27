@@ -28717,7 +28717,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        396
+        468
       ]
     },
     {
@@ -29087,7 +29087,7 @@
     {
       "questID": 395,
       "name": "Bulma would be proud",
-      "description": "By combining a dimensional singularity with some glass cylinders, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust anymore, but I don\u0027t think I have to...\n\n\nThe perfect vessel for massive power!",
+      "description": "By combining a dimensional singularity with some glass cylinders and molten Gold, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust anymore, but I don\u0027t think I have to...\n\n\nThe perfect vessel for massive power!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33749,7 +33749,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -34121,6 +34121,54 @@
       "rewards": [],
       "preRequisites": [
         394
+      ]
+    },
+    {
+      "questID": 468,
+      "name": "Trigger Tt",
+      "description": "Trigger if you get Thaumite Nuggets.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:resource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        396
       ]
     },
     {
@@ -42897,6 +42945,11 @@
           "id": 467,
           "x": 128,
           "y": 128
+        },
+        {
+          "id": 468,
+          "x": 192,
+          "y": 96
         }
       ]
     },
