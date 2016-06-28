@@ -514,6 +514,24 @@ recipes.remove(<AWWayofTime:outputRoutingFocus:3>);
 // --- Output Routing Focus Global
 recipes.remove(<AWWayofTime:inputRoutingFocus:4>);
 
+// --- Sigil of Hast
+recipes.remove(<AWWayofTime:sigilOfHaste>);
+
+// --- Sigil of Whirl Wind
+recipes.remove(<AWWayofTime:sigilOfWind>);
+
+// --- Sigil of Supression
+recipes.remove(<AWWayofTime:sigilOfSupression>);
+
+// --- Sigil of Ender Serverance
+recipes.remove(<AWWayofTime:sigilOfEnderSeverance>);
+
+// --- Harvest Goddess Sigil
+recipes.remove(<AWWayofTime:itemHarvestSigil>);
+
+// --- Sigil of Compression
+recipes.remove(<AWWayofTime:itemCompressionSigil>);
+
 
 
 
@@ -558,14 +576,20 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:demonicTelepositionFocus>, [
 // --- Raw Blaster
 mods.bloodmagic.BloodOrb.addShaped(<dreamcraft:item.Blaster>, [
 [<AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:crepitous>, <ore:gemFlawlessDiamond>],
-[<AWWayofTime:crepitous>, <AWWayofTime:bloodMagicBaseItems:3>, null],
-[<ore:gemFlawlessDiamond>, null, <AWWayofTime:weakBloodShard>]]);
+[<AWWayofTime:crepitous>, <AWWayofTime:bloodMagicBaseItems:3>, <AWWayofTime:bloodMagicBaseItems:15>],
+[<ore:gemFlawlessDiamond>, <AWWayofTime:bloodMagicBaseItems:15>, <AWWayofTime:weakBloodShard>]]);
 
-// --- Energy Bazooka
-mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBazooka>, [
+// --- Energy Blaster II
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBlasterSecondTier>, [
 [<AWWayofTime:archmageBloodOrb>, <BloodArsenal:amorphic_catalyst>, <ore:gemExquisiteDiamond>],
-[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:energyBlaster>, null],
-[<ore:gemExquisiteDiamond>, null, <AWWayofTime:demonBloodShard>]]);
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:energyBlaster>, <AWWayofTime:bloodMagicBaseItems:17>],
+[<ore:gemExquisiteDiamond>, <AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:demonBloodShard>]]);
+
+// --- Energy Blaster III
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBlasterThirdTier>, [
+[<AWWayofTime:transcendentBloodOrb>, <BloodArsenal:blood_infused_diamond_bound>, <ore:gemExquisiteDiamond>],
+[<BloodArsenal:blood_infused_diamond_bound>, <AWWayofTime:energyBlasterSecondTier>, <AWWayofTime:bloodMagicBaseItems:30>],
+[<ore:gemExquisiteDiamond>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:demonPlacer>]]);
 
 // --- Wooden Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:3>, [
@@ -1336,7 +1360,7 @@ mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
 mods.thaumcraft.Research.addPage("VOIDSIGIL", "bloodmagic.research_page.VOIDSIGIL");
 game.setLocalization("bloodmagic.research_page.VOIDSIGIL", "The Void Sigil is a tool added by Blood Magic. The Void Sigil is used to remove source blocks of liquid at a small LP cost. When used in conjunction with the Lava Sigil or Water Sigil, it can be useful in cleaning up accidental liquid placement. In order to use the Void Sigil, it must first be bound to a player. This can be done by right clicking with the sigil. Once bound, right clicking any placed liquid source block will cause it to disappear, at the cost of 50 LP and the liquid.");
 mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>, 
-[<BloodArsenal:blood_burned_string>, <dreamcraft:item.VoidPlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <dreamcraft:item.VoidPlate>], 
+[<BloodArsenal:blood_burned_string>, <dreamcraft:item.VoidPlate>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <dreamcraft:item.VoidPlate>], 
 "vacuos 64, terra 40, praecantatio 32, auram 24, metallum 16", <AWWayofTime:voidSigil>, 7);
 mods.thaumcraft.Research.addInfusionPage("VOIDSIGIL", <AWWayofTime:voidSigil>);
 mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
@@ -1507,12 +1531,10 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_ston
 mods.thaumcraft.Research.addInfusionPage("RUNEOFDISLOCATION", <AWWayofTime:AlchemicalWizardrybloodRune:2>);
 
 // --- Sigil of Elemental Affinity
-mods.thaumcraft.Research.addResearch("SIGILOFELEMENTALAFFINITY", "BLOODMAGIC", "volatus 27, ignis 24, aqua 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 2, 10, 4, <AWWayofTime:sigilOfElementalAffinity>);
+mods.thaumcraft.Research.addResearch("SIGILOFELEMENTALAFFINITY", "BLOODMAGIC", "volatus 27, ignis 24, aqua 21, aer 18, motus 15, praecantatio 12, iter 9, potentia 6, cognitio 3", 0, 12, 4, <AWWayofTime:sigilOfElementalAffinity>);
 game.setLocalization("tc.research_name.SIGILOFELEMENTALAFFINITY", "Sigil of Elemental Affinity");
 game.setLocalization("tc.research_text.SIGILOFELEMENTALAFFINITY", "[BM] Burned, drowned or falling to death not anymore");
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "INFUSION", false);
-mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "WATERSIGIL", false);
-mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "LAVASIGIL", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFELEMENTALAFFINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "bloodmagic.research_page.SIGILOFELEMENTALAFFINITY");
@@ -1861,6 +1883,143 @@ mods.thaumcraft.Arcane.addShaped("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>
 [null, <ore:plateRoseGold>, <AWWayofTime:weakBloodShard>]]);
 mods.thaumcraft.Research.addArcanePage("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>);
 
+// --- Sigil of Hast
+mods.thaumcraft.Research.addResearch("SIGILOFHASTE", "BLOODMAGIC", "iter 21, motus 18, aer 15, potentia 12, praecantatio 9, alienis 6, cognitio 3", -2, 12, 4, <AWWayofTime:sigilOfHaste>);
+game.setLocalization("tc.research_name.SIGILOFHASTE", "Sigil of Haste");
+game.setLocalization("tc.research_text.SIGILOFHASTE", "[BM] You are on speed?");
+mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "AIRSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFHASTE", true);
+mods.thaumcraft.Research.addPage("SIGILOFHASTE", "bloodmagic.research_page.SIGILOFHASTE");
+game.setLocalization("bloodmagic.research_page.SIGILOFHASTE", "The Sigil of Haste is a tool added by Blood Magic. The Sigil of Haste grants the user Boost II at the cost of Life Essence (LP). Upon activating the Sigil of Haste, 300 LP will be consumed from the owner's network to grant the user Boost II. Every ten seconds after activation, an additional 300 LP will be consumed to continue granting the user Boost II. When socketed into Bound Armor, the Sigil of Haste grants Boost.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFHASTE", <AWWayofTime:demonicSlate>, 
+[<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:cookie>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:sugar>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:sugar>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:cookie>], 
+"iter 64, motus 32, aer 24, potentia 24, praecantatio 16, alienis 8, cognitio 8", <AWWayofTime:sigilOfHaste>, 8);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFHASTE", <AWWayofTime:sigilOfHaste>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFHASTE", 3);
+
+// --- Sigil of Whirl Wind
+mods.thaumcraft.Research.addResearch("SIGILOFWHIRLWIND", "BLOODMAGIC", "aer 24, tutamen 21, potentia 18, victus 15, sano 12, cognitio 9, superbia 6, nebrisum 3", 2, 12, 4, <AWWayofTime:sigilOfWind>);
+game.setLocalization("tc.research_name.SIGILOFWHIRLWIND", "Sigil of Whirlwind");
+game.setLocalization("tc.research_text.SIGILOFWHIRLWIND", "[BM] Just blow away those Arrows");
+mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "AIRSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFWHIRLWIND", true);
+mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "bloodmagic.research_page.SIGILOFWHIRLWIND");
+game.setLocalization("bloodmagic.research_page.SIGILOFWHIRLWIND", "The Sigil of the Whirlwind is an item added by the Blood Magic mod. When active, it deflects projectiles and arrows fired at the Player. Activating this Sigil costs 350 LP per use. When socketed into Bound Armor, the Sigil of the Whirlwind deflects projectiles and arrows fired at the Player.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFWHIRLWIND", <AWWayofTime:airSigil>, 
+[<TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>], 
+"aer 72, tutamen 48, potentia 32, victus 32, sano 16, cognitio 16, superbia 8, nebrisum 8", <AWWayofTime:sigilOfWind>, 12);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFWHIRLWIND", <AWWayofTime:sigilOfWind>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFWHIRLWIND", 4);
+
+// --- Sigil of Supression
+mods.thaumcraft.Research.addResearch("SIGILOFSUPRESSION", "BLOODMAGIC", "vacuos 21, auram 18, aqua 15, metallum 12, praecantatio 9, terra 6, motus 3", -2, 8, 4, <AWWayofTime:sigilOfSupression>);
+game.setLocalization("tc.research_name.SIGILOFSUPRESSION", "Sigil of Supression");
+game.setLocalization("tc.research_text.SIGILOFSUPRESSION", "[BM] Walk just like Jesus");
+mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "VOIDSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFSUPRESSION", true);
+mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "bloodmagic.research_page.SIGILOFSUPRESSION");
+game.setLocalization("bloodmagic.research_page.SIGILOFSUPRESSION", "The Sigil of Supression is an item added by the Blood Magic mod. When activated, the Sigil temporarily removes any fluid source within a 5 block radius. Once it is disabled, or the Player moves out of range, the sources will return. It works on any fluid that uses the Forge fluid API, such as Water, Lava or Oil. Activating this Sigil costs 500 LP every 10 seconds until deactivated. When socketed into Bound Armor, the Sigil of Supression temporarily removes any fluid source within a 5 block radius of the Player.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFSUPRESSION", <AWWayofTime:voidSigil>, 
+[<AWWayofTime:blockTeleposer>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <AWWayofTime:demonicSlate>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:demonicSlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>], 
+"vacuos 72, auram 16, aqua 64, metallum 8, praecantatio 32, terra 32, motus 16", <AWWayofTime:sigilOfSupression>, 15);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFSUPRESSION", <AWWayofTime:sigilOfSupression>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFSUPRESSION", 5);
+
+// --- Sigil of Ender Serverance
+mods.thaumcraft.Research.addResearch("SIGILOFENDERSEVERANCE", "BLOODMAGIC", "alienis 21, cognitio 18, humanus 15, potentia 12, vinculum 9, limus 6, nebrisum 3", 0, 14, 4, <AWWayofTime:sigilOfEnderSeverance>);
+game.setLocalization("tc.research_name.SIGILOFENDERSEVERANCE", "Sigil of Ender Serverance");
+game.setLocalization("tc.research_text.SIGILOFENDERSEVERANCE", "[BM] Put those Enderman in a Dire Situation");
+mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "SIGILOFELEMENTALAFFINITY", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "OCULUS", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFENDERSEVERANCE", true);
+mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
+game.setLocalization("bloodmagic.research_page.SIGILOFENDERSEVERANCE", "The Sigil of Ender Severance is an item added by the Blood Magic mod. This Sigil prevents teleporting. It has an effect range over an area of 11 x 11 x 11 meter, centered on the Player. This allows a Player to easily attack the Enderman, with a range weapon, without him jumping all over and sneaking up from behind. This sigil costs 300 LP per 10 seconds while active.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFENDERSEVERANCE", <AWWayofTime:bloodMagicBaseItems:27>, 
+[<Thaumcraft:ItemEldritchObject>, <AWWayofTime:demonicSlate>, <StevesCarts:ModuleComponents:45>, <TConstruct:slime.gel:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:32724>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <TConstruct:slime.gel:2>, <StevesCarts:ModuleComponents:45>, <AWWayofTime:demonicSlate>], 
+"alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 18);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFENDERSEVERANCE", <AWWayofTime:sigilOfEnderSeverance>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFENDERSEVERANCE", 6);
+
+// --- Harvest Goddess Sigil
+mods.thaumcraft.Research.addResearch("HARVESTGODDESSSIGIL", "BLOODMAGIC", "herba 21, arbor 18, meto 15, messis 12, cognitio 9, praecantatio 6, alienis 3", 0, 16, 4, <AWWayofTime:itemHarvestSigil>);
+game.setLocalization("tc.research_name.HARVESTGODDESSSIGIL", "Harvest Goddess Sigil");
+game.setLocalization("tc.research_text.HARVESTGODDESSSIGIL", "[BM] you sow what you reap");
+mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
+mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
+mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
+game.setLocalization("bloodmagic.research_page.HARVESTGODDESSSIGIL", "The Harvest Goddess Sigil is an item from Blood Magic. It is used to harvest and immediately replant mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. The effect of this sigil is very similar to ritual Reap of the Harvest Moon, trading off area of effect and automation for portability. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, the Harvest Goddess Sigil Harvests and replants nearby crops.");
+mods.thaumcraft.Infusion.addRecipe("HARVESTGODDESSSIGIL", <AWWayofTime:growthSigil>, 
+[<BloodArsenal:bound_sickle>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>], 
+"herba 72, arbor 64, meto 8, messis 16, cognitio 24, praecantatio 32, alienis 16", <AWWayofTime:itemHarvestSigil>, 20);
+mods.thaumcraft.Research.addInfusionPage("HARVESTGODDESSSIGIL", <AWWayofTime:itemHarvestSigil>);
+mods.thaumcraft.Warp.addToResearch("HARVESTGODDESSSIGIL", 7);
+
+// --- Sigil of Compression
+mods.thaumcraft.Research.addResearch("SIGILOFCOMPRESSION", "BLOODMAGIC", "metallum 15, potentia 12, machina 9, lucrum 6, superbia 3", 2, 8, 3, <AWWayofTime:itemCompressionSigil>);
+game.setLocalization("tc.research_name.SIGILOFCOMPRESSION", "Sigil of Compression");
+game.setLocalization("tc.research_text.SIGILOFCOMPRESSION", "[BM] Are you try to be the Hulk?");
+mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
+mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
+game.setLocalization("bloodmagic.research_page.SIGILOFCOMPRESSION", "The Sigil of Compression is an item added by the Blood Magic mod. This Sigil compresses any item picked-up into its block form if possible. Sadly it not works for Gregtech Ingots which makes the Sigil very useless. Activating this Sigil costs 250 LP every 10 seconds while active.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFCOMPRESSION", <AWWayofTime:demonicSlate>, 
+[<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32644>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32604>, <AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32604>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32644>], 
+"metallum 32, potentia 24, machina 16, lucrum 16, superbia 8", <AWWayofTime:itemCompressionSigil>, 10);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFCOMPRESSION", <AWWayofTime:itemCompressionSigil>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFCOMPRESSION", 2);
+
+// --- Energy Bazooka I
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAI", "BLOODMAGIC", "potentia 21, instrumentum 18, telum 15 , superbia 12, fames 9, nebrisum 6, ira 3", -12, 0, 4, <AWWayofTime:energyBazooka>);
+game.setLocalization("tc.research_name.ENERGYBAZOOKAI", "Energy Bazooka I");
+game.setLocalization("tc.research_text.ENERGYBAZOOKAI", "[BM] Boooom I");
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "CRYSTALCLUSTER", false);
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "ICHOR_SWORD_GEM", false);
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "PRIMALCRUSHER", false);
+mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAI", true);
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAI", "bloodmagic.research_page.ENERGYBAZOOKAI");
+game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAI", "The Energy Bazooka I is a stronger version of the Energy Blaster. This weapon uses 2,000 LP to fire a two-staged projectile. The primary projectile explodes into 20 secondary projectiles when it hits something. The secondary projectiles will rebound and explode on impact. Damage 200, Secondary Damage 250");
+mods.thaumcraft.Arcane.addShaped("ENERGYBAZOOKAI", <AWWayofTime:energyBazooka>, "aqua 150, ignis 150, terra 150, aer 150, perditio 150, ordo 150", [
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemEldritchObject:3>, <ThaumicTinkerer:kamiResource:2>],
+[<BloodArsenal:blood_infused_diamond_block>,  <AWWayofTime:energyBlasterThirdTier>, <BloodArsenal:blood_infused_diamond_block>],
+[<ThaumicTinkerer:kamiResource:2>, <AWWayofTime:demonicTelepositionFocus>, <ThaumicTinkerer:kamiResource:2>]]);
+mods.thaumcraft.Research.addArcanePage("ENERGYBAZOOKAI", <AWWayofTime:energyBazooka>);
+mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAI", 5);
+
+// --- Energy Bazooka II
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAII", "BLOODMAGIC", "potentia 24, instrumentum 21, telum 18 , infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -14, 0, 4, <AWWayofTime:energyBazookaSecondTier>);
+game.setLocalization("tc.research_name.ENERGYBAZOOKAII", "Energy Bazooka II");
+game.setLocalization("tc.research_text.ENERGYBAZOOKAII", "[BM] Boooom II");
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAII", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAII", "ENERGYBAZOOKAI", false);
+mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAII", true);
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAII", "bloodmagic.research_page.ENERGYBAZOOKAII");
+game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAII", "The Energy Bazooka II is a stronger version of the Energy Blaster. This weapon uses 20,000 LP to fire a two-staged projectile. The primary projectile explodes into 20 secondary projectiles when it hits something. The secondary projectiles will rebound and explode on impact. Damage 500, Secondary Damage 750");
+mods.thaumcraft.Infusion.addRecipe("ENERGYBAZOOKAII", <AWWayofTime:energyBazooka>, 
+[<DraconicEvolution:draconium:2>, <DraconicEvolution:draconicCore>, <AWWayofTime:dawnScribeTool>, <DraconicEvolution:wyvernCore>, <AWWayofTime:duskScribeTool>, <DraconicEvolution:draconium:2>, <AWWayofTime:duskScribeTool>, <DraconicEvolution:draconicCore>, <AWWayofTime:dawnScribeTool>, <DraconicEvolution:wyvernCore>], 
+"potentia 96, instrumentum 72, telum 64 , infernus 64, superbia 32, fames 32, nebrisum 16, ira 8", <AWWayofTime:energyBazookaSecondTier>, 15);
+mods.thaumcraft.Research.addInfusionPage("ENERGYBAZOOKAII", <AWWayofTime:energyBazookaSecondTier>);
+mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAII", 10);
+
+// --- Energy Bazooka III
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAIII", "BLOODMAGIC", "potentia 27, instrumentum 24, telum 21 , terminus 18, infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -16, 0, 4, <AWWayofTime:energyBazookaThirdTier>);
+game.setLocalization("tc.research_name.ENERGYBAZOOKAIII", "Energy Bazooka III");
+game.setLocalization("tc.research_text.ENERGYBAZOOKAIII", "[BM] Boooom III");
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAIII", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAIII", "ENERGYBAZOOKAII", false);
+mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAIII", true);
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAIII", "bloodmagic.research_page.ENERGYBAZOOKAIII");
+game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAIII", "The Energy Bazooka III is a stronger version of the Energy Blaster. This weapon uses 200,000 LP to fire a two-staged projectile. The primary projectile explodes into 20 secondary projectiles when it hits something. The secondary projectiles will rebound and explode on impact. Damage 1000, Secondary Damage 1500");
+mods.thaumcraft.Infusion.addRecipe("ENERGYBAZOOKAIII", <AWWayofTime:energyBazookaSecondTier>, 
+[<Avaritia:big_pearl>, <Avaritia:Resource:6>, <DraconicEvolution:awakenedCore>, <Avaritia:Resource_Block>, <Avaritia:Resource:6>, <Avaritia:Resource:6>, <Avaritia:Resource_Block>, <DraconicEvolution:chaoticCore>, <Avaritia:Resource:6>], 
+"potentia 128, instrumentum 96, telum 72 , terminus 64, infernus 72, superbia 48, fames 32, nebrisum 16, ira 8", <AWWayofTime:energyBazookaThirdTier>, 20);
+mods.thaumcraft.Research.addInfusionPage("ENERGYBAZOOKAIII", <AWWayofTime:energyBazookaThirdTier>);
+mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAIII", 20);
 
 // --- Nei Rename ---
 
