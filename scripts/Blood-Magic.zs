@@ -532,6 +532,50 @@ recipes.remove(<AWWayofTime:itemHarvestSigil>);
 // --- Sigil of Compression
 recipes.remove(<AWWayofTime:itemCompressionSigil>);
 
+// --- Incense Crucible
+recipes.remove(<AWWayofTime:blockCrucible>);
+
+// --- Spell Conduit
+recipes.remove(<AWWayofTime:blockConduit>);
+
+// --- Wooden Ash
+recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
+
+// --- Particel Generator
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>);
+
+// --- Self Augmentator
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>);
+
+// --- Meele Aggregator
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>);
+
+// --- Tool Forge
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>);
+
+// --- Default Spell Modifier
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>);
+
+// --- Offensive Spell Modifier
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>);
+
+// --- Defensive Spell Modifier
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>);
+
+// --- Inviromental Spell Modifier
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>);
+
+// --- Crucible of Fire
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>);
+
+// --- Ice Maker
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>);
+
+// --- Wind Generator
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>);
+
+// --- Earth Former
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>);
 
 
 
@@ -734,6 +778,95 @@ recipes.addShaped(<AWWayofTime:inputRoutingFocus>, [
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:blankSlate>, <AWWayofTime:bloodMagicBaseItems:32>, <AWWayofTime:blankSlate>],
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, <AWWayofTime:reinforcedSlate>]]);
+
+// --- Incense Crucible
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockCrucible>, [
+[<ore:plateAluminium>, <AWWayofTime:apprenticeBloodOrb>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <Thaumcraft:blockMetalDevice>, <ore:plateAluminium>],
+[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
+
+// --- Spell Conduit
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockConduit>, [
+[<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:bloodMagicBaseItems>],
+[<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:bloodMagicBaseItems:2>],
+[<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseItems>]]);
+
+// --- Wooden Ash
+recipes.addShapeless(<AWWayofTime:bloodMagicIncenseItem>, [<witchery:ingredient:18>, <witchery:ingredient:18>, <witchery:ingredient:18>, <witchery:ingredient:18>, <gregtech:gt.metaitem.01:2816>, <gregtech:gt.metaitem.01:2816>, <gregtech:gt.metaitem.01:2815>, <gregtech:gt.metaitem.01:2815>, <BiomesOPlenty:misc:1>]);
+
+// --- Particel Generator
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>, [
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:5>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+
+// --- Self Augmentator
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>, [
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:6>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+
+// --- Meele Aggregator
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>, [
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:7>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+
+// --- Tool Forge
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>, [
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:26>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+
+// --- Default Spell Modifier
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:18>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Offensive Spell Modifier
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:19>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Defensive Spell Modifier
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:20>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Inviromental Spell Modifier
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:21>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Crucible of Fire
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:10>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Ice Maker
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:11>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Wind Generator
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:12>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+// --- Earth Former
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>, [
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:13>, <AWWayofTime:bloodMagicBaseItems:9>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+
+
 
 
 // --- Altar Recipes ---
