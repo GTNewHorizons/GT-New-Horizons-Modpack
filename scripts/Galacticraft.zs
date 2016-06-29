@@ -488,7 +488,7 @@ recipes.remove(<GalacticraftMars:item.deshSpade>);
 recipes.remove(<GalacticraftMars:item.deshSword>);
 
 // --- Desh Block
-recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
+//recipes.remove(<GemBlocksForGreg:tile.metalBlock7:5>);
 
 // --- Sealable Cobblestone Transport Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:8>);
@@ -1378,7 +1378,7 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, 
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
 
 // --- Desh Block
-Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
+//Compressor.addRecipe(<GemBlocksForGreg:tile.metalBlock7:5>, <gregtech:gt.metaitem.01:11884> * 9);
 
 
 
@@ -1469,7 +1469,7 @@ Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCo
 Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
 
 // --- Desh Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GemBlocksForGreg:tile.metalBlock7:5>);
+//Macerator.addRecipe(<gregtech:gt.metaitem.01:2884> * 9, <GemBlocksForGreg:tile.metalBlock7:5>);
 
 
 

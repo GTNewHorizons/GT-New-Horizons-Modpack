@@ -17315,7 +17315,7 @@
         }
       ],
       "preRequisites": [
-        164
+        424
       ]
     },
     {
@@ -26295,7 +26295,7 @@
     {
       "questID": 350,
       "name": "A few more things...",
-      "description": "Ok, I think I have everything I need to assemble the device. Can you assist me with some additional Materials? I need to update most of my machines, as these exotic components you got me already damaged most of them already. Don\u0027t worry, I have a list here.",
+      "description": "Ok, I think I have everything I need to assemble the device. Can you assist me with some additional Materials? I need to update most of my machines, as these exotic components you got me already damaged most of them already. Don\u0027t worry, I have a list here.\n\nMost of my circuits burned to crisp while I was trying to meassure the conductivity of these soul and life shards. I need better ones.\n\nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?\n\nDo you see this pile of molten Chrome over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 Singularities, the first one ... Well.. Just get me a better casing, would you?\n\nIt seems, that the stabilizers need... stabilizing.... But I\u0027m out of field generators. Can you help me with this?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26508,7 +26508,7 @@
     {
       "questID": 353,
       "name": "A problem that matters",
-      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow� But .. How?",
+      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a Star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut .. How?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27085,21 +27085,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 200,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "DraconicEvolution:draconiumDust",
               "Count": 1,
               "OreDict": "",
@@ -27123,13 +27108,13 @@
         }
       ],
       "preRequisites": [
-        308
+        464
       ]
     },
     {
       "questID": 363,
       "name": "The power of dragons",
-      "description": "Hey my friend. I got your sample, and I have to say, I\u0027m amazed. This material has a lot of potential, but it\u0027s useless at the moment. I have an Idea how to turn this into something usefull, but I need you to help me with a few problems first",
+      "description": "Hey my friend. I got your sample, and I have to say, I\u0027m amazed. This material has a lot of potential, but it\u0027s useless at the moment. I have an Idea how to turn this into something usefull, but I need you to help me with a few problems first.\n\nI need a good hand full of that stuff for my research. Please get me some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27213,7 +27198,7 @@
     {
       "questID": 365,
       "name": "Dense, denser, Neutronium",
-      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?",
+      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?\n\nThis looks promising. Send me some samples, and I will try my luck.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27270,7 +27255,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        366
+        465
       ]
     },
     {
@@ -27320,7 +27305,7 @@
     {
       "questID": 367,
       "name": "Successful.. Or not?",
-      "description": "Heh, Neutronium. I didn\u0027t even knew such a thing really exists. Unfortunately, the Draconium dust was enclosed for... 5 seconds? But, it was a small success. ",
+      "description": "Heh, Neutronium. I didn\u0027t even knew such a thing really exists. Unfortunately, the Draconium dust was enclosed for... 5 seconds? But, it was a small success. \n\nOk let\u0027s travell to some planets and moons and looking for the new Material. I think we have to flying very far for it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27396,7 +27381,7 @@
     {
       "questID": 368,
       "name": "Black Plutonium",
-      "description": "This doesn\u0027t seem to be dense, but it\u0027s a Material you haven\u0027t seen before. Maybe this could be the solution?",
+      "description": "This doesn\u0027t seem to be dense, but it\u0027s a Material you haven\u0027t seen before. Maybe this could be the solution?\n\nBlack what? Huh, interesting. Send me some samples, I want to analyse it",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27453,7 +27438,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        367
+        466
       ]
     },
     {
@@ -28243,7 +28228,7 @@
     {
       "questID": 382,
       "name": "A magic force field",
-      "description": "While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the \"frozen in spacetime\" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.",
+      "description": "While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the \"frozen in spacetime\" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.\n\nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.\n\nJust to be sure, I will add some amplifiers to it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28360,7 +28345,7 @@
     {
       "questID": 384,
       "name": "Looking for alternatives",
-      "description": "It is frustrating. Either you are able to contain the dust but can\u0027t activate it, or, you activate it and it caused serious damage. Maybe you need to find answers somewhere else.",
+      "description": "It is frustrating. Either you are able to contain the dust but can\u0027t activate it, or, you activate it and it caused serious damage. Maybe you need to find answers somewhere else.\n\nDraconic.. Like.. Dragon?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28496,7 +28481,7 @@
     {
       "questID": 387,
       "name": "Activated teleport power",
-      "description": "By a random guess of yours, you combined Ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn\u0027t have enough power to let Vis pass through. Maybe you can even further increase the gems power?",
+      "description": "By a random guess of yours, you combined molten Ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn\u0027t have enough power to let Vis pass through. Maybe you can even further increase the gems power?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28523,6 +28508,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:spatial_dash_gem",
@@ -28531,7 +28518,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
@@ -28542,7 +28529,7 @@
     {
       "questID": 388,
       "name": "Arcane shards",
-      "description": "While the UNLOCKED world is based on Vis and Primal energy, the end seems to be quite different. This Arcane shard is the crystallized form of this Energy, just like the primal shards you used so many of in the past. By pure randomness, you discovered that it reacts with the Metal you\u0027ve found.",
+      "description": "While the normal world is based on Vis and Primal energy, the end seems to be quite different. This Arcane shard is the crystallized form of this Energy, just like the primal shards you used so many of in the past. By pure randomness, you discovered that it reacts with the Metal you\u0027ve found.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28584,6 +28571,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "HardcoreEnderExpansion:blank_gem",
@@ -28592,7 +28581,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
@@ -28728,13 +28717,13 @@
       ],
       "rewards": [],
       "preRequisites": [
-        396
+        468
       ]
     },
     {
       "questID": 391,
       "name": "Automated evolution",
-      "description": "The machine is working pretty well, but it\u0027s tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process",
+      "description": "The machine is working pretty well, but it\u0027s tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process.\n\nYou can use robot arms and conveyor belts to automate the input and output.\n\nObviously, you need to power the machines. A solar panel will do just fine.\n\nIn order to automate the catalyst, you need a few things. One golem will gather basic materials, while the second one will hunt creepers and ghasts for the more valuable ingredients.\n\nYou found a way to re-use the singularity, so you only need to get some sand. Luckily, the golem that works on the catalyst will be able to get glass too. He just needs a little additional motivation.\n\nYour golems needs light, obviously. Also, it would be nice if there are some signal lamps that indicate the status of the process. Would it not?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28941,19 +28930,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "HardcoreEnderExpansion:transference_gem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
@@ -28987,7 +28963,7 @@
     {
       "questID": 393,
       "name": "You did it! But...",
-      "description": "Now that you are able to contain the activated draconium dust for an infinite amount of time, you where able to massure the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.",
+      "description": "Now that you are able to contain the activated draconium dust for an infinite amount of time, you where able to massure the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.\n\nYou noticed something that might help: The dust reacts to Vis, but it needs a lot of it, therefore you required the animation focus. If you could find a catalyst, that you can mix the dust with, you could make the dust react with the Vis from its surroundings instead of a direct beam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29029,7 +29005,15 @@
               "id": "DraconicEvolution:draconiumDust",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "display": {
+                  "Lore": [
+                    "Unfortunately, it has already lost its power"
+                  ],
+                  "Name": "Activated Draconium Dust"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -29043,7 +29027,7 @@
     {
       "questID": 394,
       "name": "A catalyst",
-      "description": "Thats it. This catalyst contains all primal energies in a quite different form, a lot weaker than any node. However, in combination with the draconium dust, it amplifies the Vis thats around it, which leads to a permanent activation. It still needs to be contained, but you don\u0027t need the direct Vis beam anymore.",
+      "description": "Thats it. This catalyst contains all primal energies in a quite different form, a lot weaker than any node. However, in combination with the draconium dust, it amplifies the Vis thats around it, which leads to a permanent activation. It still needs to be contained, but you don\u0027t need the direct Vis beam anymore.\n\nThe result is a compound, which still emits massive amounts of power, but is less destructive. It still attacks the neutronium, but I think if I can find a capsule-like container that has special properties, I could create a portable version of it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29067,19 +29051,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "BloodArsenal:amorphic_catalyst",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -29116,7 +29087,7 @@
     {
       "questID": 395,
       "name": "Bulma would be proud",
-      "description": "By combining a dimensional singularity with some glass cylinders, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust anymore, but I don\u0027t think I have to...",
+      "description": "By combining a dimensional singularity with some glass cylinders and molten Gold, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust anymore, but I don\u0027t think I have to...\n\n\nThe perfect vessel for massive power!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29173,7 +29144,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        394
+        467
       ]
     },
     {
@@ -29873,7 +29844,8 @@
         }
       ],
       "preRequisites": [
-        407
+        407,
+        708
       ]
     },
     {
@@ -29998,8 +29970,8 @@
     },
     {
       "questID": 409,
-      "name": "Basic runes",
-      "description": "The basic runes you can craft at the moment",
+      "name": "Basic rune",
+      "description": "The basic rune you can craft at the moment",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30031,12 +30003,6 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "AWWayofTime:speedRune",
               "Count": 4,
               "OreDict": "",
               "Damage": 0
@@ -30356,13 +30322,13 @@
         }
       ],
       "preRequisites": [
-        412
+        415
       ]
     },
     {
       "questID": 414,
       "name": "Special potion flasks",
-      "description": "Regular glass bottles are unable to hold these special potions you want; You need to imbue it with some blood from your altar",
+      "description": "Regular glass Phials are unable to hold these special potions you want; You need to imbue it with some blood from your altar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30455,7 +30421,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -30555,7 +30521,7 @@
         }
       ],
       "preRequisites": [
-        409
+        433
       ]
     },
     {
@@ -30840,7 +30806,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -30859,7 +30825,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:ice",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -30874,7 +30846,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:ghast_tear",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -30889,7 +30867,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "AWWayofTime:apprenticeBloodOrb",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -31351,7 +31335,7 @@
         }
       ],
       "preRequisites": [
-        423
+        424
       ]
     },
     {
@@ -33636,7 +33620,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        364
+        367
       ]
     },
     {
@@ -33765,7 +33749,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -33873,6 +33857,318 @@
       "rewards": [],
       "preRequisites": [
         393
+      ]
+    },
+    {
+      "questID": 463,
+      "name": "Runes Tier 2",
+      "description": "Speed rune are the only Tier 2 Rune. The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:speedRune",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "AWWayofTime:imbuedSlate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        423
+      ]
+    },
+    {
+      "questID": 464,
+      "name": "The Technicain Part 2",
+      "description": "I will ask the technican about this stuff, but I need to reach a good reputation first. He is a busy man, and I don\u0027t want to be denied.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.CoinTechnician",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        308
+      ]
+    },
+    {
+      "questID": 465,
+      "name": "Trigger Nt",
+      "description": "Trigger if you get Neutronium Ore.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "oreNeutronium",
+              "Damage": 129
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        364
+      ]
+    },
+    {
+      "questID": 466,
+      "name": "Trigger BP",
+      "description": "Triggers if you find Black Plutonium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:plutoblackplutonium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        366
+      ]
+    },
+    {
+      "questID": 467,
+      "name": "Trigger VC",
+      "description": "Trigger if you have a Void Capsule.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:capsule.void",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        394
+      ]
+    },
+    {
+      "questID": 468,
+      "name": "Trigger Tt",
+      "description": "Trigger if you get Thaumite Nuggets.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:resource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        396
       ]
     },
     {
@@ -42331,87 +42627,87 @@
       "quests": [
         {
           "id": 308,
-          "x": 304,
-          "y": 64
-        },
-        {
-          "id": 351,
-          "x": 64,
-          "y": 0
-        },
-        {
-          "id": 352,
-          "x": 64,
-          "y": 64
-        },
-        {
-          "id": 353,
-          "x": 112,
-          "y": 0
-        },
-        {
-          "id": 354,
-          "x": 176,
-          "y": 0
-        },
-        {
-          "id": 355,
-          "x": 112,
-          "y": 32
-        },
-        {
-          "id": 356,
-          "x": 176,
-          "y": 32
-        },
-        {
-          "id": 357,
-          "x": 112,
-          "y": 64
-        },
-        {
-          "id": 358,
-          "x": 112,
-          "y": 96
-        },
-        {
-          "id": 359,
-          "x": 176,
-          "y": 96
-        },
-        {
-          "id": 360,
-          "x": 112,
-          "y": 128
-        },
-        {
-          "id": 361,
-          "x": 176,
-          "y": 128
-        },
-        {
-          "id": 350,
           "x": 240,
           "y": 64
         },
         {
+          "id": 351,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 352,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": 353,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 354,
+          "x": 112,
+          "y": 0
+        },
+        {
+          "id": 355,
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": 356,
+          "x": 112,
+          "y": 32
+        },
+        {
+          "id": 357,
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": 358,
+          "x": 48,
+          "y": 96
+        },
+        {
+          "id": 359,
+          "x": 112,
+          "y": 96
+        },
+        {
+          "id": 360,
+          "x": 48,
+          "y": 128
+        },
+        {
+          "id": 361,
+          "x": 112,
+          "y": 128
+        },
+        {
+          "id": 350,
+          "x": 176,
+          "y": 64
+        },
+        {
           "id": 452,
-          "x": 144,
+          "x": 80,
           "y": 0
         },
         {
           "id": 453,
-          "x": 144,
+          "x": 80,
           "y": 32
         },
         {
           "id": 454,
-          "x": 144,
+          "x": 80,
           "y": 96
         },
         {
           "id": 455,
-          "x": 144,
+          "x": 80,
           "y": 128
         }
       ]
@@ -42437,12 +42733,12 @@
         },
         {
           "id": 365,
-          "x": 128,
+          "x": 96,
           "y": 32
         },
         {
           "id": 367,
-          "x": 160,
+          "x": 128,
           "y": 32
         },
         {
@@ -42462,7 +42758,7 @@
         },
         {
           "id": 366,
-          "x": 96,
+          "x": 160,
           "y": 32
         },
         {
@@ -42602,7 +42898,7 @@
         },
         {
           "id": 457,
-          "x": 96,
+          "x": 160,
           "y": 0
         },
         {
@@ -42627,8 +42923,33 @@
         },
         {
           "id": 462,
-          "x": 64,
+          "x": 96,
           "y": 128
+        },
+        {
+          "id": 464,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 465,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 466,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 467,
+          "x": 128,
+          "y": 128
+        },
+        {
+          "id": 468,
+          "x": 192,
+          "y": 96
         }
       ]
     },
@@ -42689,8 +43010,8 @@
         },
         {
           "id": 164,
-          "x": 0,
-          "y": 32
+          "x": 40,
+          "y": 64
         },
         {
           "id": 177,
@@ -42698,28 +43019,18 @@
           "y": 0
         },
         {
-          "id": 228,
-          "x": 0,
-          "y": 64
-        },
-        {
-          "id": 406,
-          "x": 64,
-          "y": 32
-        },
-        {
           "id": 407,
-          "x": 95,
+          "x": 104,
           "y": 0
         },
         {
           "id": 408,
-          "x": 120,
-          "y": 32
+          "x": 136,
+          "y": 64
         },
         {
           "id": 409,
-          "x": 96,
+          "x": 80,
           "y": 64
         },
         {
@@ -42751,26 +43062,6 @@
           "id": 415,
           "x": 256,
           "y": 64
-        },
-        {
-          "id": 416,
-          "x": 96,
-          "y": 96
-        },
-        {
-          "id": 417,
-          "x": 136,
-          "y": 128
-        },
-        {
-          "id": 418,
-          "x": 56,
-          "y": 128
-        },
-        {
-          "id": 419,
-          "x": 96,
-          "y": 128
         }
       ]
     },
@@ -42780,98 +43071,128 @@
       "quests": [
         {
           "id": 420,
-          "x": 192,
+          "x": 296,
           "y": 0
         },
         {
           "id": 421,
-          "x": 160,
-          "y": 1
+          "x": 264,
+          "y": 0
         },
         {
           "id": 422,
-          "x": 0,
+          "x": 104,
           "y": 0
         },
         {
           "id": 423,
-          "x": 32,
+          "x": 136,
           "y": 32
         },
         {
           "id": 424,
-          "x": 160,
+          "x": 264,
           "y": 32
         },
         {
           "id": 425,
-          "x": 192,
+          "x": 296,
           "y": 32
         },
         {
           "id": 426,
-          "x": 64,
-          "y": 32
+          "x": 232,
+          "y": 64
         },
         {
           "id": 427,
-          "x": 192,
+          "x": 296,
           "y": 64
         },
         {
           "id": 428,
-          "x": 224,
+          "x": 328,
           "y": 32
         },
         {
           "id": 429,
-          "x": 168,
+          "x": 296,
           "y": 120
         },
         {
           "id": 431,
-          "x": 200,
+          "x": 328,
           "y": 120
         },
         {
           "id": 430,
-          "x": 136,
+          "x": 264,
           "y": 120
         },
         {
           "id": 432,
-          "x": 96,
+          "x": 200,
           "y": 120
         },
         {
           "id": 433,
-          "x": 0,
+          "x": 104,
           "y": 64
         },
         {
           "id": 434,
-          "x": 32,
+          "x": 136,
           "y": 120
         },
         {
           "id": 435,
-          "x": 64,
+          "x": 168,
           "y": 120
         },
         {
           "id": 436,
-          "x": 0,
+          "x": 104,
           "y": 120
         },
         {
           "id": 437,
-          "x": 96,
+          "x": 200,
           "y": 64
         },
         {
           "id": 438,
-          "x": 160,
+          "x": 264,
           "y": 64
+        },
+        {
+          "id": 228,
+          "x": 232,
+          "y": 32
+        },
+        {
+          "id": 418,
+          "x": 0,
+          "y": 120
+        },
+        {
+          "id": 419,
+          "x": 32,
+          "y": 120
+        },
+        {
+          "id": 416,
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": 417,
+          "x": 64,
+          "y": 120
+        },
+        {
+          "id": 463,
+          "x": 168,
+          "y": 32
         }
       ]
     },
@@ -42881,77 +43202,82 @@
       "quests": [
         {
           "id": 700,
-          "x": 160,
+          "x": 192,
           "y": 96
         },
         {
           "id": 702,
-          "x": 160,
+          "x": 192,
           "y": 0
         },
         {
           "id": 704,
-          "x": 0,
+          "x": 32,
           "y": 0
         },
         {
           "id": 701,
-          "x": 160,
+          "x": 192,
           "y": 64
         },
         {
           "id": 707,
-          "x": 192,
-          "y": 0
-        },
-        {
-          "id": 708,
-          "x": 0,
-          "y": 32
-        },
-        {
-          "id": 706,
-          "x": 160,
-          "y": 32
-        },
-        {
-          "id": 709,
-          "x": 32,
-          "y": 32
-        },
-        {
-          "id": 710,
-          "x": 0,
-          "y": 64
-        },
-        {
-          "id": 711,
           "x": 224,
           "y": 0
         },
         {
-          "id": 712,
+          "id": 708,
           "x": 32,
-          "y": 64
+          "y": 32
         },
         {
-          "id": 713,
+          "id": 706,
           "x": 192,
           "y": 32
         },
         {
-          "id": 714,
+          "id": 709,
           "x": 64,
+          "y": 32
+        },
+        {
+          "id": 710,
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": 711,
+          "x": 256,
+          "y": 0
+        },
+        {
+          "id": 712,
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": 713,
+          "x": 224,
+          "y": 32
+        },
+        {
+          "id": 714,
+          "x": 96,
           "y": 0
         },
         {
           "id": 703,
-          "x": 112,
+          "x": 144,
           "y": 0
         },
         {
           "id": 715,
-          "x": 112,
+          "x": 144,
+          "y": 32
+        },
+        {
+          "id": 406,
+          "x": 0,
           "y": 32
         }
       ]

@@ -100,7 +100,7 @@ mods.tconstruct.Casting.removeBasinRecipe(<minecraft:emerald_block>);
 // --- Block of Cobalt
 recipes.remove(<TConstruct:MetalBlock>);
 // -
-mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock>);
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:MetalBlock>);
 
 // --- Block of Ardite
 recipes.remove(<TConstruct:MetalBlock:1>);
@@ -154,7 +154,7 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:GlueBlock>);
 
 // --- Block of Pig Iron
-mods.tconstruct.Casting.removeBasinRecipe(<GemBlocksForGreg:tile.metalBlock3:13>);
+mods.tconstruct.Casting.removeBasinRecipe(<gregtech:gt.blockmetal5:11>);
 
 // --- Congealed Slime
 recipes.remove(<TConstruct:slime.gel>);
@@ -266,7 +266,19 @@ mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:3>);
 mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11033>);
 
 // --- Cobalt Nugget
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9033>);
+//mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9382>);
+
+// --- Ardite Ingot
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11382>);
+
+// --- Ardite Nugget
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9382>);
+
+// --- Manyullyn Ingot
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11386>);
+
+// --- Manyullyn Nugget
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9386>);
 
 // --- Chain Helmet
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
@@ -290,7 +302,12 @@ mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 
 // --- Cobalt Block
-mods.tconstruct.Smeltery.removeMelting(<GemBlocksForGreg:tile.metalBlock0:9>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<ore:blockCobalt>);
+
+// --- Blood Infuse Iron Block
+mods.tconstruct.Casting.removeBasinRecipe(<BloodArsenal:blood_infused_iron_block>);
 
 
 
@@ -772,6 +789,15 @@ furnace.remove(<TConstruct:materials:2>);
 // --- Seared Bricks Nether
 furnace.remove(<TConstruct:materials:37>);
 
+// --- Aluminium Ingot
+recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
+[<TConstruct:materials:22>, <TConstruct:materials:22>, <TConstruct:materials:22>],
+[<TConstruct:materials:22>, <TConstruct:materials:22>, <TConstruct:materials:22>],
+[<TConstruct:materials:22>, <TConstruct:materials:22>,<TConstruct:materials:22>]]);
+
+// --- Raw Aluminium
+recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
+[<TConstruct:materials:12>, null, null]]);
 
 
 
@@ -2212,18 +2238,22 @@ AlloySmelter.addRecipe(<TConstruct:materials:1>, <TConstruct:CraftedSoil> * 2, <
 AlloySmelter.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 2, <gregtech:gt.metaitem.01:32307> * 0, 400, 16);
 
 // --- Manyullyn Ingot
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:4>, 400, 16);
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:4>, 400, 16);
 // -
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:38>, 400, 16);
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:38>, 400, 16);
 // -
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:4>, 400, 16);
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:4>, 400, 16);
 // -
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
 // -
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:30> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 30);
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:30> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 30);
+// -
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <gregtech:gt.metaitem.01:2382>, 400, 16);
+// -
+//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:11033>, <gregtech:gt.metaitem.01:11382>, 400, 16);
 
 // --- Ardite Ingot
-AlloySmelter.addRecipe(<TConstruct:materials:4>, <TConstruct:materials:29> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+//AlloySmelter.addRecipe(<TConstruct:materials:4>, <TConstruct:materials:29> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
 
 // --- Alumit Ingot
 AlloySmelter.addRecipe(<TConstruct:materials:15>, <TConstruct:materials:32> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 8);

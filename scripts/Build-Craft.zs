@@ -419,6 +419,12 @@ recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [
 [<ore:springInvar>, <minecraft:piston>, <ore:springInvar>],
 [<ore:gearInvar>, <Forestry:sturdyMachine>, <ore:gearInvar>]]);
 
+// --- Cobblestone Structure Pipe
+recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>, [
+[CobbleRod, ClearPane, CobbleRod],
+[ClearPane, <minecraft:gravel>, ClearPane],
+[CobbleRod, ClearPane, CobbleRod]]);
+
 // --- Cobblestone-Covered Kinesis Pipe
 recipes.addShaped(PipeCobbleKinesis, [
 [CobbleRod, ClearPane, CobbleRod],
