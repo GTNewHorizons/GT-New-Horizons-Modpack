@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.7 is out (**.07.2016)(GT New Horizons Coremod 1.1.56) (GTTweaker 1.1.0)
+Version 1.0.8.7 is out (30.06.2016)(GT New Horizons Coremod 1.1.56) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
