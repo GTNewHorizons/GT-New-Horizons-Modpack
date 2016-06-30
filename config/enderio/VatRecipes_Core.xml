@@ -38,7 +38,7 @@
 <VatRecipes>
 
   <recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
-    <recipe name="Nutrient Distilation" energyCost="10000" >
+    <recipe name="Nutrient Distilation" energyCost="10000" allowMissing="true" >
       <input>
         <itemStack modID="Thaumcraft" itemName="ItemZombieBrain" slot="0" multiplier="2" />
         <itemStack oreDictionary="itemSkull" slot="0" multiplier="2" />

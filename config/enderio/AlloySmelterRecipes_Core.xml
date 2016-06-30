@@ -52,9 +52,9 @@
 
   <dumpRegistery oreDictionary="true" />
 
-  To show ore dictionary and/or registered names, in the EnderIO config set:
+  To show ore dictionary and/or registered names, in the EnderCore config set:
 
-  addRegisterdNameTooltip=true
+  addRegistryNameTooltip=true
   addOreDictionaryTooltips=true
 
 -->
