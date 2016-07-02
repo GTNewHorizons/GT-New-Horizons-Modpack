@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler;
 
+import gregtech.GT_Mod;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.metatileentity.implementations.GT_MetaPipeEntity_Cable;
@@ -14,18 +15,21 @@ public class GT_Loader_Wires
 	
     private void registerWires()
     {
+
+        boolean bEC = !GT_Mod.gregtechproxy.mHardcoreCables;
     	// ID Range: 1200 - 4100
     	// Free IDs: 2030 - 4100
     	
         // ZPM Tier
-        makeWires(Materials.NaquadahAlloy, 1800, 1L, 2L, 2L, gregtech.api.enums.GT_Values.V[7], true, false);
+        makeWires(Materials.NaquadahAlloy, 1800, bEC ? 4L : 64L, bEC ? 8L : 128L, 2L, gregtech.api.enums.GT_Values.V[7], true, false);
         //makeWires(Materials.???, 1820, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[7], true, false);  
         
         
         // UV Tier
         makeWires(Materials.ElectrumFlux, 1900, 1L, 2L, 3L, gregtech.api.enums.GT_Values.V[8], true, false);
         //makeWires(Materials.???, 1920, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[8], true, false);
-        
+
+
         // 2000 and 2010 are used for RedAlloy and Super Conductor
     }
     
