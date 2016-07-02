@@ -93,6 +93,21 @@ mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_sta
 mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
 mods.thaumcraft.Warp.addToResearch("ALCHEMICCHEMSTRYSET", 3);
 
+// --- Amorphic Catalyst
+mods.thaumcraft.Research.addResearch("AMORPHICCATALYST", "BLOODMAGIC", "aqua 18, ignis 15, terra 12, aer 9, ordo 6, perditio 3", 6, -4, 3, <BloodArsenal:amorphic_catalyst>);
+game.setLocalization("tc.research_name.AMORPHICCATALYST", "Amorphic Catalyst");
+game.setLocalization("tc.research_text.AMORPHICCATALYST", "[BA] Mixed Catalyst");
+mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "ALCHEMICCHEMSTRYSET", false);
+mods.thaumcraft.Research.setConcealed("AMORPHICCATALYST", true);
+mods.thaumcraft.Research.addPage("AMORPHICCATALYST", "bloodmagic.research_page.AMORPHICCATALYST");
+game.setLocalization("bloodmagic.research_page.AMORPHICCATALYST", "Take a Reinforced Slate and infused it with all magical Ingredients you can made. Now you get a very Powerful Catalyst.");
+mods.thaumcraft.Infusion.addRecipe("AMORPHICCATALYST", <AWWayofTime:reinforcedSlate>, 
+[<AWWayofTime:simpleCatalyst>, <AWWayofTime:aether>, <AWWayofTime:terrae>, <AWWayofTime:crystallos>, <AWWayofTime:sanctus>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:incendium>, <AWWayofTime:aquasalus>, <AWWayofTime:tennebrae>], 
+"aqua 16, ignis 16, terra 16, aer 16, ordo 16, perditio 16", <BloodArsenal:amorphic_catalyst>, 5);
+mods.thaumcraft.Research.addInfusionPage("AMORPHICCATALYST", <BloodArsenal:amorphic_catalyst>);
+mods.thaumcraft.Warp.addToResearch("AMORPHICCATALYST", 2);
+
 // --- Divination Sigil
 mods.thaumcraft.Research.addResearch("DIVINATIONSIGIL", "BLOODMAGIC", "vitreus 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:divinationSigil>);
 game.setLocalization("tc.research_name.DIVINATIONSIGIL", "Divination Sigil");
@@ -338,7 +353,6 @@ mods.thaumcraft.Research.addInfusionPage("VOIDSIGIL", <AWWayofTime:voidSigil>);
 mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
 
 // --- Blood Letters Pack
-recipes.remove(<AWWayofTime:itemBloodPack>);
 mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "tellum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -4, 3, <AWWayofTime:itemBloodPack>);
 game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM] This Pack really chaffs...");
@@ -351,6 +365,42 @@ mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>
 [<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:reinforcedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:reinforcedSlate>]]);
 mods.thaumcraft.Research.addArcanePage("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>);
+
+// --- Life Imbued Helm
+mods.thaumcraft.Research.addResearch("IMBUEARMOR", "BLOODMAGIC", "sano 15 , tutamen 12, praecantatio 9, metallum 6, potentia 3",  4, -6, 3, <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}));
+game.setLocalization("tc.research_name.IMBUEARMOR", "Life Imbue Armor");
+game.setLocalization("tc.research_text.IMBUEARMOR", "[BM] Life for Blood");
+mods.thaumcraft.Research.addPrereq("IMBUEARMOR", "BLOODLETTERSPACK", false);
+mods.thaumcraft.Research.setConcealed("IMBUEARMOR", true);
+mods.thaumcraft.Research.addPage("IMBUEARMOR", "bloodmagic.research_page.IMBUEARMOR");
+game.setLocalization("bloodmagic.research_page.IMBUEARMOR", "The Life Imbued Armor is a powerful armor able to store Life Essence and utilize it to protect the wearer. Wearing this full set of armor will randomly heal you completely for the cost of LE inside the armor. Can be refilled in the Life Infuser.");
+mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 0}), "terra 30, ignis 30, ordo 30, perditio 30", [
+[<TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <Thaumcraft:ItemHelmetThaumium>, <TConstruct:heavyPlate:251>],
+[null, <ore:craftingToolHardHammer>, null]]);
+mods.thaumcraft.Research.addArcanePage("IMBUEARMOR", <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 0}));
+mods.thaumcraft.Warp.addToResearch("IMBUEARMOR", 2);
+
+// --- Life Imbued Chestplate
+mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}), "terra 60, ignis 60, ordo 60, perditio 60", [
+[<TConstruct:heavyPlate:251>, <Thaumcraft:ItemChestplateThaumium>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <ore:craftingToolHardHammer>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>]]);
+mods.thaumcraft.Research.addArcanePage("IMBUEARMOR", <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}));
+
+// --- Life Imbued Leggings
+mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_leggings>.withTag({LPStored: 0}), "terra 45, ignis 45, ordo 45, perditio 45", [
+[<TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <Thaumcraft:ItemLeggingsThaumium>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <ore:craftingToolHardHammer>, <TConstruct:heavyPlate:251>]]);
+mods.thaumcraft.Research.addArcanePage("IMBUEARMOR", <BloodArsenal:life_imbued_leggings>.withTag({LPStored: 0}));
+
+// --- Life Imbued Boots
+mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_boots>.withTag({LPStored: 0}), "terra 30, ignis 30, ordo 30, perditio 30", [
+[null, null, null],
+[<TConstruct:heavyPlate:251>, <Thaumcraft:ItemBootsThaumium>, <TConstruct:heavyPlate:251>],
+[<TConstruct:heavyPlate:251>, <ore:craftingToolHardHammer>, <TConstruct:heavyPlate:251>]]);
+mods.thaumcraft.Research.addArcanePage("IMBUEARMOR", <BloodArsenal:life_imbued_boots>.withTag({LPStored: 0}));
 
 // --- Weak Orb
 mods.thaumcraft.Research.addResearch("WEAKORB", "BLOODMAGIC", "vitreus 9, potentia 6, praecantatio 3", 2, 0, 2, <dreamcraft:item.WeakOrb>);
@@ -442,6 +492,21 @@ mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.Transcenden
 mods.thaumcraft.Research.addArcanePage("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>);
 mods.thaumcraft.Warp.addToResearch("TRANSCENDENTORB", 6);
 
+// --- Transparent Orb
+mods.thaumcraft.Research.addResearch("TRANSPARENTORB", "BLOODMAGIC", "vitreus 27, potentia 24, praecantatio 21, cognitio 18, sano 15, aqua 12, infernus 9, electrum 6, alienis 3", 14, 0, 4, <BloodArsenal:transparent_orb>);
+game.setLocalization("tc.research_name.TRANSPARENTORB", "Transparent Orb");
+game.setLocalization("tc.research_text.TRANSPARENTORB", "[BM] How much Liefe Points are in your Orb?");
+mods.thaumcraft.Research.addPrereq("TRANSPARENTORB", "TRANSCENDENTORB", false);
+mods.thaumcraft.Research.setConcealed("TRANSPARENTORB", true);
+mods.thaumcraft.Research.addPage("TRANSPARENTORB", "bloodmagic.research_page.TRANSPARENTORB");
+game.setLocalization("bloodmagic.research_page.TRANSPARENTORB", "Transparent Orb: Did you ever want to know how much Liefe Essence is in your Blood Orb? Now you can. Dynamic measuring of Liefe Points! Magical.");
+mods.thaumcraft.Arcane.addShaped("TRANSPARENTORB", <BloodArsenal:transparent_orb>, "aer 175, aqua 175, ignis 175, terra 175, perditio 175, ordo 175", [
+[<BloodArsenal:blood_stained_glass>, <BloodArsenal:blood_lamp>, <BloodArsenal:blood_stained_glass>],
+[<BloodArsenal:blood_stained_glass>, <AWWayofTime:transcendentBloodOrb>, <BloodArsenal:blood_stained_glass>],
+[<BloodArsenal:blood_burned_string>, <AWWayofTime:divinationSigil>, <BloodArsenal:blood_burned_string>]]);
+mods.thaumcraft.Research.addArcanePage("TRANSPARENTORB", <BloodArsenal:transparent_orb>);
+mods.thaumcraft.Warp.addToResearch("TRANSPARENTORB", 7);
+
 // --- Empty Socket
 mods.thaumcraft.Research.addResearch("EMPTYSOCKET", "BLOODMAGIC", "terra 15, tutamen 12, praecantatio 9, tenebrae 6, sano 3", 2, -6, 3, <AWWayofTime:emptySocket>);
 game.setLocalization("tc.research_name.EMPTYSOCKET", "Empty Socket");
@@ -518,7 +583,6 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFELEMENTALAFFINITY", <AWWayofTim
 mods.thaumcraft.Warp.addToResearch("SIGILOFELEMENTALAFFINITY", 8);
 
 // --- Sigil of Holding
-recipes.remove(<AWWayofTime:sigilOfHolding>);
 mods.thaumcraft.Research.addResearch("SIGILOFHOLDING", "BLOODMAGIC", "lucrum 18, cognitio 15, gula 12, superbia 9, limus 6, praecantatio 3", 4, 6, 3, <AWWayofTime:sigilOfHolding>);
 game.setLocalization("tc.research_name.SIGILOFHOLDING", "Sigil of Holding");
 game.setLocalization("tc.research_text.SIGILOFHOLDING", "[BM] Up to 5 Slots");
@@ -534,7 +598,6 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFHOLDING", <AWWayofTime:sigilOfH
 mods.thaumcraft.Warp.addToResearch("SIGILOFHOLDING", 2);
 
 // --- Sigil of Phantom Bridge
-recipes.remove(<AWWayofTime:sigilOfTheBridge>);
 mods.thaumcraft.Research.addResearch("SIGILOFPHANTOMBRIDGE", "BLOODMAGIC", "terra 18, alienis 15, iter 12, vitreus 9, potentia 6, praecantatio 3", -4, 6, 3, <AWWayofTime:sigilOfTheBridge>);
 game.setLocalization("tc.research_name.SIGILOFPHANTOMBRIDGE", "Sigil of Phantom Bridge");
 game.setLocalization("tc.research_text.SIGILOFPHANTOMBRIDGE", "[BM] Air Walker");
@@ -618,7 +681,6 @@ mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDivin
 mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:1>);
 
 // --- Ritual Diviner Tier 3
-recipes.remove(<AWWayofTime:itemRitualDiviner:2>);
 mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:1>, 
 [<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:dawnScribeTool>], 
 "aer 64, ignis 64, terra 64, aqua 64, perditio 32, ordo 32", <AWWayofTime:itemRitualDiviner:2>, 9);
@@ -672,7 +734,6 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_sto
 mods.thaumcraft.Research.addInfusionPage("RUNEOFACCELERATION", <AWWayofTime:AlchemicalWizardrybloodRune:5>);
 
 // --- Arcane Pedestal
-recipes.remove(<AWWayofTime:blockPedestal>);
 mods.thaumcraft.Research.addResearch("ARCANEPEDESTALANDPLINTH", "BLOODMAGIC", "ignis 15, terra 12, tenebrae 9, alienis 6, praecantatio 3", -4, -6, 3, <AWWayofTime:blockPedestal>);
 game.setLocalization("tc.research_name.ARCANEPEDESTALANDPLINTH", "Arcane Pedestal");
 game.setLocalization("tc.research_text.ARCANEPEDESTALANDPLINTH", "[BM] Lets summon some Demonds");
@@ -791,7 +852,6 @@ mods.thaumcraft.Research.addInfusionPage("CRYSTALCLUSTER", <AWWayofTime:blockCry
 mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 5);
 
 // --- Glyph of Rigit Stability
-recipes.remove(<AWWayofTime:blockStabilityGlyph>);
 mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", 2, -10, 4, <AWWayofTime:blockStabilityGlyph>);
 game.setLocalization("tc.research_name.GLYPHSTONE", "Glyph Stone");
 game.setLocalization("tc.research_text.GLYPHSTONE", "[BM] Omega.... What?");

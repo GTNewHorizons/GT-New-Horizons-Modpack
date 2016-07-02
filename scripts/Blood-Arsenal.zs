@@ -132,6 +132,24 @@ recipes.remove(<BloodArsenal:blood_money:2>);
 // --- Blood Mony x64
 recipes.remove(<BloodArsenal:blood_money:3>);
 
+// --- Life Imbued Helm
+recipes.remove(<BloodArsenal:life_imbued_helmet>);
+
+// --- Life Imbued Chestplate
+recipes.remove(<BloodArsenal:life_imbued_chestplate>);
+
+// --- Life Imbued Leggings
+recipes.remove(<BloodArsenal:life_imbued_leggings>);
+
+// --- Life Imbued Boots
+recipes.remove(<BloodArsenal:life_imbued_boots>);
+
+// --- Amorphic Catalyst
+recipes.remove(<BloodArsenal:amorphic_catalyst>);
+
+// --- Transparent Orb
+recipes.remove(<BloodArsenal:transparent_orb>);
+
 
 
 
