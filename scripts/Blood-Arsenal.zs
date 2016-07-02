@@ -150,6 +150,21 @@ recipes.remove(<BloodArsenal:amorphic_catalyst>);
 // --- Transparent Orb
 recipes.remove(<BloodArsenal:transparent_orb>);
 
+// --- Sigil of Augmented Holding
+recipes.remove(<BloodArsenal:sigil_of_augmented_holding>);
+
+// --- Sigil of Lightning
+recipes.remove(<BloodArsenal:sigil_of_lightning>);
+
+// --- Sigil of Swimming
+recipes.remove(<BloodArsenal:sigil_of_swimming>);
+
+// --- Ender Sigil
+recipes.remove(<BloodArsenal:sigil_of_ender>);
+
+// --- Sigil of Divinity
+recipes.remove(<BloodArsenal:sigil_of_divinity>);
+
 
 
 

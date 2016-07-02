@@ -352,6 +352,21 @@ mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>,
 mods.thaumcraft.Research.addInfusionPage("VOIDSIGIL", <AWWayofTime:voidSigil>);
 mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
 
+// --- Sigil of Swimming
+mods.thaumcraft.Research.addResearch("SIGILOFSWIMMING", "BLOODMAGIC", "aer 21, aqua 18, vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -4, 8, 3, <BloodArsenal:sigil_of_swimming>);
+game.setLocalization("tc.research_name.SIGILOFSWIMMING", "Sigil of Swimming");
+game.setLocalization("tc.research_text.SIGILOFSWIMMING", "[BA] Like a fish");
+mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "VOIDSIGIL", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFSWIMMING", true);
+mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "bloodmagic.research_page.SIGILOFSWIMMING");
+game.setLocalization("bloodmagic.research_page.SIGILOFSWIMMING", "The Sigil of Swimming allows the player to move faster, break faster, and breath underwater! So you are able now to rebuild Atlantis.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFSWIMMING", <AWWayofTime:voidSigil>, 
+[<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <AWWayofTime:demonicSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>], 
+"aer 64, aqua 64, vacuos 64, terra 48, praecantatio 32, auram 24, metallum 16", <BloodArsenal:sigil_of_swimming>, 12);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFSWIMMING", <BloodArsenal:sigil_of_swimming>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFSWIMMING", 6);
+
 // --- Blood Letters Pack
 mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "tellum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -4, 3, <AWWayofTime:itemBloodPack>);
 game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
@@ -582,6 +597,21 @@ mods.thaumcraft.Infusion.addRecipe("SIGILOFELEMENTALAFFINITY", <AWWayofTime:demo
 mods.thaumcraft.Research.addInfusionPage("SIGILOFELEMENTALAFFINITY", <AWWayofTime:sigilOfElementalAffinity>);
 mods.thaumcraft.Warp.addToResearch("SIGILOFELEMENTALAFFINITY", 8);
 
+// --- Sigil of Lightning
+mods.thaumcraft.Research.addResearch("SIGILOFLIGHTNING", "BLOODMAGIC", "tempestas 24, aer 21, aqua 18, terra 15, potentia 12, tenebrae 9, ira 6, electrum 3", 2, 14, 4, <BloodArsenal:sigil_of_lightning>);
+game.setLocalization("tc.research_name.SIGILOFLIGHTNING", "Sigil of Lightning");
+game.setLocalization("tc.research_text.SIGILOFLIGHTNING", "[BA] Lightning Strike");
+mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "SIGILOFELEMENTALAFFINITY", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFLIGHTNING", true);
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "bloodmagic.research_page.SIGILOFLIGHTNING");
+game.setLocalization("bloodmagic.research_page.SIGILOFLIGHTNING", "The Lightning Sigil is a very powerful sigil that summons lightning wherever you point and click! It has 5 different modes. Mode 1 one Lighning Strike, mode 2 two lightning stricks....");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>, 
+[<AWWayofTime:airSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>, <AWWayofTime:waterSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>], 
+"tempestas 32, aer 72, aqua 72, terra 64, potentia 48, tenebrae 8, ira 8, electrum 16", <BloodArsenal:sigil_of_lightning>, 15);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFLIGHTNING", <BloodArsenal:sigil_of_lightning>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFLIGHTNING", 12);
+
 // --- Sigil of Holding
 mods.thaumcraft.Research.addResearch("SIGILOFHOLDING", "BLOODMAGIC", "lucrum 18, cognitio 15, gula 12, superbia 9, limus 6, praecantatio 3", 4, 6, 3, <AWWayofTime:sigilOfHolding>);
 game.setLocalization("tc.research_name.SIGILOFHOLDING", "Sigil of Holding");
@@ -592,10 +622,25 @@ mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "bloodmagic.research_page.SIGILOFHOLDING");
 game.setLocalization("bloodmagic.research_page.SIGILOFHOLDING", "The Sigil of Holding is a tool added by Blood Magic. The Sigil of Holding is used to save inventory space by combining several sigils into a single one. When used, the Sigil of Holding will consume a single sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored sigils, while right clicking will activate the displayed sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
-[<IronChest:BlockIronChest:2>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
+[<IronChest:BlockIronChest>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
 "lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFHOLDING", <AWWayofTime:sigilOfHolding>);
 mods.thaumcraft.Warp.addToResearch("SIGILOFHOLDING", 2);
+
+// --- Sigil of Augmented Holding
+mods.thaumcraft.Research.addResearch("SIGILOFAUGMENTETHOLDING", "BLOODMAGIC", "vacuos 21, lucrum 18, cognitio 15, gula 12, superbia 9, limus 6, praecantatio 3", 4, 8, 3, <BloodArsenal:sigil_of_augmented_holding>);
+game.setLocalization("tc.research_name.SIGILOFAUGMENTETHOLDING", "Sigil of Augmented Holding");
+game.setLocalization("tc.research_text.SIGILOFAUGMENTETHOLDING", "[BA] Up to 9 Slots");
+mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "SIGILOFHOLDING", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFAUGMENTETHOLDING", true);
+mods.thaumcraft.Research.addPage("SIGILOFAUGMENTETHOLDING", "bloodmagic.research_page.SIGILOFAUGMENTETHOLDING");
+game.setLocalization("bloodmagic.research_page.SIGILOFAUGMENTETHOLDING", "The Sigil of Augmented Holding is an upgraded variant of the Sigil of Holding and holds 9 sigils in total! When used, the Sigil of Augmented Holding will consume a single sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored sigils, while right clicking will activate the displayed sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFAUGMENTETHOLDING", <AWWayofTime:sigilOfHolding>, 
+[<IronChest:BlockIronChest:2>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <gregtech:gt.metaitem.01:17977>, <minecraft:blaze_rod>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>, <minecraft:blaze_rod>, <gregtech:gt.metaitem.01:17977>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>], 
+"vacuos 48, lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <BloodArsenal:sigil_of_augmented_holding>, 15);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFAUGMENTETHOLDING", <BloodArsenal:sigil_of_augmented_holding>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFAUGMENTETHOLDING", 4);
 
 // --- Sigil of Phantom Bridge
 mods.thaumcraft.Research.addResearch("SIGILOFPHANTOMBRIDGE", "BLOODMAGIC", "terra 18, alienis 15, iter 12, vitreus 9, potentia 6, praecantatio 3", -4, 6, 3, <AWWayofTime:sigilOfTheBridge>);
@@ -972,9 +1017,39 @@ mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "bloodmagic.research_p
 game.setLocalization("bloodmagic.research_page.SIGILOFENDERSEVERANCE", "The Sigil of Ender Severance is an item added by the Blood Magic mod. This Sigil prevents teleporting. It has an effect range over an area of 11 x 11 x 11 meter, centered on the Player. This allows a Player to easily attack the Enderman, with a range weapon, without him jumping all over and sneaking up from behind. This sigil costs 300 LP per 10 seconds while active.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFENDERSEVERANCE", <AWWayofTime:bloodMagicBaseItems:27>, 
 [<Thaumcraft:ItemEldritchObject>, <AWWayofTime:demonicSlate>, <StevesCarts:ModuleComponents:45>, <TConstruct:slime.gel:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:32724>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <TConstruct:slime.gel:2>, <StevesCarts:ModuleComponents:45>, <AWWayofTime:demonicSlate>], 
-"alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 18);
+"alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 17);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFENDERSEVERANCE", <AWWayofTime:sigilOfEnderSeverance>);
 mods.thaumcraft.Warp.addToResearch("SIGILOFENDERSEVERANCE", 6);
+
+// --- Ender Sigil
+mods.thaumcraft.Research.addResearch("ENDERSIGIL", "BLOODMAGIC", "vacuos 24, alienis 21, cognitio 18, humanus 15, potentia 12, vinculum 9, limus 6, nebrisum 3", -2, 16, 4, <BloodArsenal:sigil_of_ender>);
+game.setLocalization("tc.research_name.ENDERSIGIL", "Ender Sigil");
+game.setLocalization("tc.research_text.ENDERSIGIL", "[BA] Stick your Hand into the End");
+mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "SIGILOFENDERSEVERANCE", false);
+mods.thaumcraft.Research.setConcealed("ENDERSIGIL", true);
+mods.thaumcraft.Research.addPage("ENDERSIGIL", "bloodmagic.research_page.ENDERSIGIL");
+game.setLocalization("bloodmagic.research_page.ENDERSIGIL", "The Ender Sigil have two functions when this sigil is right-clicked, it opens up the player's Ender Chest; when it is shift-right-clicked, it teleports the player to whatever block they are facing.");
+mods.thaumcraft.Infusion.addRecipe("ENDERSIGIL", <AWWayofTime:sigilOfEnderSeverance>, 
+[<EnderStorage:enderChest>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32724>, <minecraft:ender_eye>, <minecraft:ender_eye>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32726>], 
+"vacuos 16, alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <BloodArsenal:sigil_of_ender>, 20);
+mods.thaumcraft.Research.addInfusionPage("ENDERSIGIL", <BloodArsenal:sigil_of_ender>);
+mods.thaumcraft.Warp.addToResearch("ENDERSIGIL", 8);
+
+// --- Sigil of Divinity
+mods.thaumcraft.Research.addResearch("SIGILOFDIVINITY", "BLOODMAGIC", "tutamen 24, aer 21, ignis 18, aqua 15, terra 12, ordo 9, perditio 6, sano 3", 2, 16, 4, <BloodArsenal:sigil_of_divinity>);
+game.setLocalization("tc.research_name.SIGILOFDIVINITY", "Sigil of Divinity");
+game.setLocalization("tc.research_text.SIGILOFDIVINITY", "[BA] The Power be with you");
+mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "SIGILOFENDERSEVERANCE", false);
+mods.thaumcraft.Research.setConcealed("SIGILOFDIVINITY", true);
+mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "bloodmagic.research_page.SIGILOFDIVINITY");
+game.setLocalization("bloodmagic.research_page.SIGILOFDIVINITY", "The Sigil of Divinity is the ultimate form of protection, when activated, it puts up an absorption shield over the player. Even though this may protect against demons, it uses lots (don't say I didn't warn you) of LP!");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFDIVINITY", <AWWayofTime:sigilOfElementalAffinity>, 
+[<BloodArsenal:blood_stone:4>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_diamond_block>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_glowstone>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.01:32726>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:amorphic_catalyst>], 
+"tutamen 64, aer 72, ignis 64, aqua 48, terra 32, ordo 32, perditio 16, sano 8", <BloodArsenal:sigil_of_divinity>, 25);
+mods.thaumcraft.Research.addInfusionPage("SIGILOFDIVINITY", <BloodArsenal:sigil_of_divinity>);
+mods.thaumcraft.Warp.addToResearch("SIGILOFDIVINITY", 10);
 
 // --- Harvest Goddess Sigil
 mods.thaumcraft.Research.addResearch("HARVESTGODDESSSIGIL", "BLOODMAGIC", "herba 21, arbor 18, meto 15, messis 12, cognitio 9, praecantatio 6, alienis 3", 0, 16, 4, <AWWayofTime:itemHarvestSigil>);
