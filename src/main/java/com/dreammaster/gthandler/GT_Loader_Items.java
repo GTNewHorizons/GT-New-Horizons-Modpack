@@ -411,6 +411,7 @@ public class GT_Loader_Items
 		CustomItemList.RawOrbTier5.set(com.dreammaster.item.ItemList.RawOrbTier5.getIS());
 		CustomItemList.RawOrbTier6.set(com.dreammaster.item.ItemList.RawOrbTier6.getIS());
 		CustomItemList.TeleposerFrame.set(com.dreammaster.item.ItemList.TeleposerFrame.getIS());
+		CustomItemList.MysteriousCrystal.set(com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
 	}
 
 }

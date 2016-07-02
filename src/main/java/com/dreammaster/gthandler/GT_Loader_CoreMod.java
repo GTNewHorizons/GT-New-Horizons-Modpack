@@ -1,9 +1,12 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.item.*;
 import gregtech.api.enums.*;
+import gregtech.api.enums.ItemList;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Utility;
+import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -67,9 +70,11 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
             }
         }
+        GT_Values.RA.addAssemblerRecipe(ItemList.Gravistar.get(1L, new Object[]{}), CustomItemList.NanoCircuit.get(4L, new Object[]{}), Materials.Osmium.getMolten(576L), ItemList.Field_Generator_LuV.get(1, new Object[0]), 2400, 7680);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.MysteriousCrystal.get(1L, new Object[]{}), CustomItemList.PikoCircuit.get(4L, new Object[]{}), Materials.Naquadah.getMolten(576L), ItemList.Field_Generator_ZPM.get(1, new Object[0]), 3000, 7680);
+        GT_Values.RA.addAssemblerRecipe(new ItemStack(Blocks.dragon_egg, 1, 32767), CustomItemList.QuantumCircuit.get(4L, new Object[]{}), Materials.NaquadahAlloy.getMolten(576L), ItemList.Field_Generator_UV.get(1, new Object[0]), 3600, 7680);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
-
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.RedstoneAlloy, 9L), ItemList.Circuit_Integrated.getWithDamage(0L, 9L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.RedstoneAlloy, 4L), ItemList.Circuit_Integrated.getWithDamage(0L, 4L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
