@@ -3,6 +3,7 @@
 
 // --- Imports ---
 
+import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Lathe;
@@ -121,6 +122,15 @@ mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_infused_glowstone_dust>);
 
 // --- Blood Burned String
 recipes.remove(<BloodArsenal:blood_burned_string>);
+
+// --- Blood Mony x4
+recipes.remove(<BloodArsenal:blood_money:1>);
+
+// --- Blood Mony x16
+recipes.remove(<BloodArsenal:blood_money:2>);
+
+// --- Blood Mony x64
+recipes.remove(<BloodArsenal:blood_money:3>);
 
 
 
@@ -290,6 +300,21 @@ oreDict.blockBloodInfusedIron.add(<BloodArsenal:blood_infused_iron_block>);
 
 
 
+// --- Centrifuge Recipes ---
+
+
+// --- Blood Money
+Centrifuge.addRecipe([<BloodArsenal:blood_money>, <BloodArsenal:blood_money>, <BloodArsenal:blood_money>, <BloodArsenal:blood_money>], null, <BloodArsenal:blood_money:1> , null, null, [10000, 10000, 10000, 10000], 400, 30);
+
+// --- Blood Money x4
+Centrifuge.addRecipe([<BloodArsenal:blood_money:1>, <BloodArsenal:blood_money:1>, <BloodArsenal:blood_money:1>, <BloodArsenal:blood_money:1>], null, <BloodArsenal:blood_money:2> , null, null, [10000, 10000, 10000, 10000], 400, 30);
+
+// --- Blood Money x16
+Centrifuge.addRecipe([<BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:2>], null, <BloodArsenal:blood_money:3> , null, null, [10000, 10000, 10000, 10000], 400, 30);
+
+
+
+
 // --- Compressor Recipes ---
 
 
@@ -301,6 +326,15 @@ Compressor.addRecipe(<BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:b
 Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_iron> * 9);
 // -
 Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <gregtech:gt.metaitem.01:11977> * 9);
+
+// --- Blood Mony x4
+Compressor.addRecipe(<BloodArsenal:blood_money:1>, <BloodArsenal:blood_money> * 4);
+
+// --- Blood Mony x16
+Compressor.addRecipe(<BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:1> * 4);
+
+// --- Blood Mony x64
+Compressor.addRecipe(<BloodArsenal:blood_money:3>, <BloodArsenal:blood_money:2> * 4);
 
 
 
