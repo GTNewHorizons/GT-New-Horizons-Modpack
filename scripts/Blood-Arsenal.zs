@@ -110,6 +110,19 @@ recipes.remove(<BloodArsenal:blood_infused_shovel_diamond>);
 // --- Blood Infused Diamond Sword
 recipes.remove(<BloodArsenal:blood_infused_sword_diamond>);
 
+// --- Blood Diamond
+recipes.remove(<BloodArsenal:blood_diamond>);
+
+// --- Blood Infused Diamond Active
+mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_infused_diamond_active>);
+
+// --- Blood Infused Glowstone
+mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_infused_glowstone_dust>);
+
+// --- Blood Burned String
+recipes.remove(<BloodArsenal:blood_burned_string>);
+
+
 
 
 
@@ -199,6 +212,8 @@ mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_sword_diamond>, [
 
 
 
+
+
 // --- Altar Recipes ---
 
 
@@ -231,6 +246,18 @@ mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_iron_block>, <minecr
 
 // --- Blood Infused Glow Stone
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_glowstone>, <minecraft:glowstone>, 4, 28000);
+
+// --- Blood Infused Diamond Active
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_diamond_active>, <BloodArsenal:blood_infused_diamond_unactive>, 4, 120000);
+
+// --- Blood Diamond
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_diamond>, <gregtech:gt.metaitem.02:30500>, 4, 12000);
+
+// --- Blood Infused Glowstone
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_glowstone_dust>, <minecraft:glowstone_dust>, 3, 7000);
+
+// --- Blood Burned String
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_burned_string>, <minecraft:string>, 3, 5000);
 
 
 
