@@ -352,6 +352,7 @@ public class GT_Loader_Items
 		CustomItemList.AdvancedProcessorBoard.set(com.dreammaster.item.ItemList.AdvancedProcessorBoard.getIS());
 		CustomItemList.HighEnergyFlowCircuit.set(com.dreammaster.item.ItemList.HighEnergyFlowCircuit.getIS());
 		CustomItemList.NanoCircuit.set(com.dreammaster.item.ItemList.NanoCircuit.getIS());
+		CustomItemList.PikoCircuit.set(com.dreammaster.item.ItemList.PikoCircuit.getIS());
 		CustomItemList.QuantumCircuit.set(com.dreammaster.item.ItemList.QuantumCircuit.getIS());
 		CustomItemList.CarbonPartBoots.set(com.dreammaster.item.ItemList.CarbonPartBoots.getIS());
 		CustomItemList.CarbonPartChestplate.set(com.dreammaster.item.ItemList.CarbonPartChestplate.getIS());
