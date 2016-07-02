@@ -23,7 +23,7 @@ public class GT_CustomLoader
         		Materials.Naquadah,
         		OrePrefixes.wireGt02.get(Materials.Osmium),
         		OrePrefixes.gemExquisite.get(Materials.Diamond),
-        		ItemList.MysteriousCrystal.getIS(),
+        		gregtech.api.enums.ItemList.Gravistar,
         		Materials.Chrome,
         		Materials.Enderium),
         
