@@ -3,8 +3,10 @@
 
 // --- Imports ---
 
+import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Lathe;
+import mods.ic2.Macerator;
 
 
 // --- Variables ---
@@ -36,10 +38,164 @@ recipes.remove(<BloodArsenal:blood_infused_planks>);
 // --- Blood Infused Sticks
 recipes.remove(<BloodArsenal:blood_infused_stick>);
 
+// --- Blood Stained Glass
+recipes.remove(<BloodArsenal:blood_stained_glass>);
+
+// --- Blood Infused Ice
+recipes.remove(<BloodArsenal:blood_stained_ice>);
+
+// --- Blood Infused Pack Ice
+recipes.remove(<BloodArsenal:blood_stained_ice_packed>);
+
+// --- Blood Infused Iron Block
+mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:blood_infused_iron_block>);
+
+// --- Blood Infused Glow Stone
+recipes.remove(<BloodArsenal:blood_infused_glowstone>);
+
+// --- Blood Infused Diamond Block
+recipes.remove(<BloodArsenal:blood_infused_diamond_block>);
+
+// --- Bound Igniter
+mods.bloodmagic.Binding.removeRecipe(<BloodArsenal:bound_igniter>);
+
+// --- Bound Shears
+mods.bloodmagic.Binding.removeRecipe(<BloodArsenal:bound_shears>);
+
+// --- Blood Lamp
+recipes.remove(<BloodArsenal:blood_lamp>);
+
+// --- Life Infuser
+recipes.remove(<BloodArsenal:life_infuser>);
+
+// --- Life Essence Materializer
+recipes.remove(<BloodArsenal:lp_materializer>);
+
+// --- Soul Compacter
+recipes.remove(<BloodArsenal:compacter>);
+
+// --- Blood Infused Wooden Pickaxe
+recipes.remove(<BloodArsenal:blood_infused_pickaxe_wood>);
+
+// --- Blood Infused Wooden Axe
+recipes.remove(<BloodArsenal:blood_infused_axe_wood>);
+
+// --- Blood Infused Wooden Shovel
+recipes.remove(<BloodArsenal:blood_infused_shovel_wood>);
+
+// --- Blood Infused Wooden Sword
+recipes.remove(<BloodArsenal:blood_infused_sword_wood>);
+
+// --- Blood Infused Iron Pickaxe
+recipes.remove(<BloodArsenal:blood_infused_pickaxe_iron>);
+
+// --- Blood Infused Iron Axe
+recipes.remove(<BloodArsenal:blood_infused_axe_iron>);
+
+// --- Blood Infused Iron Shovel
+recipes.remove(<BloodArsenal:blood_infused_shovel_iron>);
+
+// --- Blood Infused Iron Sword
+recipes.remove(<BloodArsenal:blood_infused_sword_iron>);
+
+// --- Blood Infused Diamond Pickaxe
+recipes.remove(<BloodArsenal:blood_infused_pickaxe_diamond>);
+
+// --- Blood Infused Diamond Axe
+recipes.remove(<BloodArsenal:blood_infused_axe_diamond>);
+
+// --- Blood Infused Diamond Shovel
+recipes.remove(<BloodArsenal:blood_infused_shovel_diamond>);
+
+// --- Blood Infused Diamond Sword
+recipes.remove(<BloodArsenal:blood_infused_sword_diamond>);
+
+
 
 
 // --- Adding Recipes ---
 
+
+
+// --- Orb Recipes ---
+
+// --- Blood Lamp
+recipes.addShaped(<BloodArsenal:blood_lamp>, [
+[<ore:plateBloodInfusedIron>, <BloodArsenal:blood_stained_glass>, <ore:plateBloodInfusedIron>],
+[<BloodArsenal:blood_stained_glass>, <minecraft:redstone_lamp>, <BloodArsenal:blood_stained_glass>],
+[<ore:plateBloodInfusedIron>, <BloodArsenal:blood_stained_glass>, <ore:plateBloodInfusedIron>]]);
+
+// --- Blood Infused Wooden Pickaxe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_pickaxe_wood>, [
+[<BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_wood>],
+[<ore:screwStainlessSteel>, <BloodArsenal:blood_infused_stick>, <ore:screwStainlessSteel>],
+[<AWWayofTime:apprenticeBloodOrb>, <BloodArsenal:blood_infused_stick>, <ore:craftingToolScrewdriver>]]);
+
+// --- Blood Infused Wooden Axe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_axe_wood>, [
+[<BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_wood>, <ore:screwStainlessSteel>],
+[<BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_stick>, <ore:craftingToolScrewdriver>],
+[<ore:screwStainlessSteel>, <BloodArsenal:blood_infused_stick>, <AWWayofTime:apprenticeBloodOrb>]]);
+
+// --- Blood Infused Wooden Shovel
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_shovel_wood>, [
+[<ore:screwStainlessSteel>, <BloodArsenal:blood_infused_wood>, <ore:screwStainlessSteel>],
+[<AWWayofTime:apprenticeBloodOrb>, <BloodArsenal:blood_infused_stick> , <ore:craftingToolScrewdriver>],
+[null, <BloodArsenal:blood_infused_stick>, null]]);
+
+// --- Blood Infused Wooden Sword
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_sword_wood>, [
+[<ore:screwStainlessSteel>, <BloodArsenal:blood_infused_wood>, <ore:screwStainlessSteel>],
+[<AWWayofTime:apprenticeBloodOrb>, <BloodArsenal:blood_infused_wood> , <ore:craftingToolScrewdriver>],
+[null, <BloodArsenal:blood_infused_stick>, null]]);
+
+// --- Blood Infused Iron Pickaxe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_pickaxe_iron>, [
+[<TConstruct:heavyPlate:251>, <ore:ingotBloodInfusedIron>, <ore:ingotBloodInfusedIron>],
+[<ore:screwBloodInfusedIron>, <BloodArsenal:blood_infused_pickaxe_wood>, <ore:craftingToolScrewdriver>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:magicianBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Iron Axe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_axe_iron>, [
+[<TConstruct:heavyPlate:251>,<ore:ingotBloodInfusedIron>, <ore:screwBloodInfusedIron>],
+[<TConstruct:heavyPlate:251>, <BloodArsenal:blood_infused_axe_wood>, <ore:craftingToolScrewdriver>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:magicianBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Iron Shovel
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_shovel_iron>, [
+[<ore:screwBloodInfusedIron>, <TConstruct:heavyPlate:251>, <ore:screwBloodInfusedIron>],
+[<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_shovel_wood>, <ore:screwBloodInfusedIron>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:magicianBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Iron Sword
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_sword_iron>, [
+[<ore:screwBloodInfusedIron>, <TConstruct:heavyPlate:251>, <ore:craftingToolScrewdriver>],
+[<TConstruct:heavyPlate:251>, <BloodArsenal:blood_infused_sword_wood>, <ore:screwBloodInfusedIron>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:magicianBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Diamond Pickaxe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_pickaxe_diamond>, [
+[<ore:screwTungstenSteel>, <BloodArsenal:blood_infused_diamond_block>, <ore:screwTungstenSteel>],
+[<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_pickaxe_iron>, <BloodArsenal:blood_infused_diamond_bound>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:masterBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Diamond Axe
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_axe_diamond>, [
+[<ore:screwTungstenSteel>, <BloodArsenal:blood_infused_diamond_block>, <ore:screwTungstenSteel>],
+[<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_axe_iron>, <BloodArsenal:blood_infused_diamond_bound>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:masterBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Diamond Shovel
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_shovel_diamond>, [
+[<ore:screwTungstenSteel>, <BloodArsenal:blood_infused_diamond_block>, <ore:screwTungstenSteel>],
+[<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_shovel_iron>, <BloodArsenal:blood_infused_diamond_bound>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:masterBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
+
+// --- Blood Infused Diamond Sword
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_sword_diamond>, [
+[<ore:screwTungstenSteel>, <BloodArsenal:blood_infused_diamond_block>, <ore:screwTungstenSteel>],
+[<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_sword_iron>, <BloodArsenal:blood_infused_diamond_bound>],
+[<BloodArsenal:amorphic_catalyst>, <AWWayofTime:masterBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
 
 
 
@@ -49,13 +205,75 @@ recipes.remove(<BloodArsenal:blood_infused_stick>);
 
 
 // --- Blood Infused Wood
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log:*>, 2, 5000);
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log>, 2, 5000);
+// -
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log:1>, 2, 5000);
+// -
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log:2>, 2, 5000);
+// -
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log:3>, 2, 5000);
+// -
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log2>, 2, 5000);
+// -
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_wood>, <minecraft:log2:1>, 2, 5000);
+
+// --- Blood Stained Glass
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stained_glass>, <minecraft:glass>, 1, 200);
+
+// --- Blood Infused Ice
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stained_ice>, <minecraft:ice>, 1, 400);
+
+// --- Blood Infused Pack Ice
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_stained_ice_packed>, <minecraft:packed_ice>, 1, 600);
+
+// --- Blood Infused Iron Block
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_iron_block>, <minecraft:iron_block>, 4, 64000);
+
+// --- Blood Infused Glow Stone
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_glowstone>, <minecraft:glowstone>, 4, 28000);
+
+
+
+
+// --- Binding Rituals
+
+
 
 // --- Bound Sickel
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemHoeElemental>, <BloodArsenal:bound_sickle>);
 
 // --- Bound Bow
 mods.bloodmagic.Binding.addRecipe(<Thaumcraft:ItemBowBone>, <BloodArsenal:bound_bow>);
+
+// --- Bound Igniter
+mods.bloodmagic.Binding.addRecipe(<Natura:natura.flintandblaze>, <BloodArsenal:bound_igniter>);
+
+// --- Bound Shears
+mods.bloodmagic.Binding.addRecipe(<EnderIO:item.darkSteel_shears>, <BloodArsenal:bound_shears>);
+
+
+
+
+// --- Ordict support ---
+
+oreDict.ingotBloodInfusedIron.add(<BloodArsenal:blood_infused_iron>);
+
+oreDict.blockBloodInfusedIron.add(<BloodArsenal:blood_infused_iron_block>);
+
+
+
+
+// --- Compressor Recipes ---
+
+
+
+// --- Blood Infused Diamond Block
+Compressor.addRecipe(<BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:blood_infused_diamond_bound> * 9);
+
+// --- Blood Infused Iron Block
+Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_iron> * 9);
+// -
+Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <gregtech:gt.metaitem.01:11977> * 9);
 
 
 
@@ -75,9 +293,23 @@ CuttingSaw.addRecipe(<BloodArsenal:blood_infused_planks> * 6, null, <BloodArsena
 
 
 
+
 // --- Lathe Recipes
 
 
 
 // --- Blood Infused Sticks
 Lathe.addRecipe([<BloodArsenal:blood_infused_stick> * 2], <BloodArsenal:blood_infused_planks>, 20, 8);
+
+
+
+
+// --- Macerator Recipes ---
+
+
+
+// --- Blood Infused Diamond Block
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2977>, <BloodArsenal:blood_infused_iron>);
+
+// --- Blood Infused Iron Block
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2977> * 9, <BloodArsenal:blood_infused_iron_block>);
