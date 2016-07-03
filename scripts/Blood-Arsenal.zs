@@ -165,7 +165,29 @@ recipes.remove(<BloodArsenal:sigil_of_ender>);
 // --- Sigil of Divinity
 recipes.remove(<BloodArsenal:sigil_of_divinity>);
 
+// --- Amulet of Self Sacrifice
+recipes.remove(<BloodArsenal:self_sacrifice_amulet>);
 
+// --- Amulet of Sacrifice
+recipes.remove(<BloodArsenal:sacrifice_amulet>);
+
+// --- Empowered Amulet of Sacrifice
+recipes.remove(<BloodArsenal:empowered_sacrifice_amulet>);
+
+// --- Empowered Amulet of Self Sacrifice
+recipes.remove(<BloodArsenal:empowered_self_sacrifice_amulet>);
+
+// --- Glass Sacrificial Dagger
+recipes.remove(<BloodArsenal:glass_sacrificial_dagger>);
+
+// --- Glass Dagger of Sacrifice
+recipes.remove(<BloodArsenal:glass_dagger_of_sacrifice>);
+
+// --- Vampire Ring
+recipes.remove(<BloodArsenal:vampire_ring>);
+
+// --- Soul Fragment
+mods.bloodmagic.Altar.removeRecipe(<BloodArsenal:soul_fragment>);
 
 
 
@@ -253,6 +275,47 @@ mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:blood_infused_sword_diamond>, [
 [<ore:craftingToolScrewdriver>, <BloodArsenal:blood_infused_sword_iron>, <BloodArsenal:blood_infused_diamond_bound>],
 [<BloodArsenal:amorphic_catalyst>, <AWWayofTime:masterBloodOrb>, <BloodArsenal:amorphic_catalyst>]]);
 
+// --- Amulet of Self Sacrifice
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:self_sacrifice_amulet>, [
+[<BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>],
+[<BloodArsenal:blood_burned_string>, <AWWayofTime:apprenticeBloodOrb>, <BloodArsenal:blood_burned_string>],
+[<ore:gemFlawlessGarnetYellow>, <BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>]]);
+
+// --- Amulet of Sacrifice
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:sacrifice_amulet>, [
+[<BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>],
+[<BloodArsenal:blood_burned_string>, <AWWayofTime:apprenticeBloodOrb>, <BloodArsenal:blood_burned_string>],
+[<ore:gemFlawlessRuby>, <BloodArsenal:blood_burned_string>, <BloodArsenal:blood_burned_string>]]);
+
+// --- Empowered Amulet of Sacrifice
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:empowered_sacrifice_amulet>, [
+[<BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <AWWayofTime:runeOfSacrifice>],
+[<AWWayofTime:runeOfSacrifice>, <BloodArsenal:sacrifice_amulet>, <BloodArsenal:blood_infused_glowstone_dust>],
+[<ore:gemExquisiteRuby>, <AWWayofTime:runeOfSacrifice>, <ore:stickLongBlaze>]]);
+
+// --- Empowered Amulet of Self Sacrifice
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:empowered_self_sacrifice_amulet>, [
+[<BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <AWWayofTime:runeOfSelfSacrifice>],
+[<AWWayofTime:runeOfSelfSacrifice>, <BloodArsenal:self_sacrifice_amulet>, <BloodArsenal:blood_infused_glowstone_dust>],
+[<ore:gemExquisiteGarnetYellow>, <AWWayofTime:runeOfSelfSacrifice>, <ore:stickLongBlaze>]]);
+
+// --- Glass Sacrificial Dagger
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:glass_sacrificial_dagger>, [
+[<BloodArsenal:glass_shard>, <gregtech:gt.metaitem.01:32200>, <BloodArsenal:glass_shard>],
+[<BloodArsenal:glass_shard>, <AWWayofTime:sacrificialKnife>, <BloodArsenal:glass_shard>],
+[<TConstruct:heavyPlate:251>, <AWWayofTime:magicianBloodOrb>, <TConstruct:heavyPlate:251>]]);
+
+// --- Glass Dagger of Sacrifice
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:glass_dagger_of_sacrifice>, [
+[<BloodArsenal:glass_shard>, <gregtech:gt.metaitem.01:32200>, <BloodArsenal:glass_shard>],
+[<BloodArsenal:glass_shard>, <AWWayofTime:daggerOfSacrifice>, <BloodArsenal:glass_shard>],
+[<TConstruct:heavyPlate:251>, <AWWayofTime:magicianBloodOrb>, <TConstruct:heavyPlate:251>]]);
+
+// --- Vampire Ring
+mods.bloodmagic.BloodOrb.addShaped(<BloodArsenal:vampire_ring>, [
+[<BloodArsenal:blood_infused_diamond_bound>, <ore:wireFineBloodInfusedIron>, null],
+[<ore:wireFineBloodInfusedIron>, <Thaumcraft:ItemBaubleBlanks:1>, <ore:wireFineBloodInfusedIron>],
+[<AWWayofTime:masterBloodOrb>, <ore:wireFineBloodInfusedIron>, null]]);
 
 
 
@@ -300,7 +363,10 @@ mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_diamond>, <gregtech:gt.metai
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_glowstone_dust>, <minecraft:glowstone_dust>, 3, 7000);
 
 // --- Blood Burned String
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_burned_string>, <minecraft:string>, 3, 5000);
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_burned_string>, <minecraft:string>, 2, 5000);
+
+// --- Soul Fragment
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:soul_fragment>, <BloodArsenal:heart>, 4, 100000);
 
 
 

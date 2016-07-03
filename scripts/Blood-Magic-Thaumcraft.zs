@@ -2,6 +2,25 @@
 
 
 
+// --- Remove Recipes ---
+
+
+
+// --- Blood Infused Iron Cap
+mods.thaumcraft.Infusion.removeRecipe(<BloodArsenal:wand_caps>);
+
+// --- Blood Infused Woooden Rod
+mods.thaumcraft.Infusion.removeRecipe(<BloodArsenal:wand_cores>);
+
+// --- Blood Infused Wodden Staff of Doom
+mods.thaumcraft.Infusion.removeRecipe(<BloodArsenal:wand_cores:1>);
+
+
+
+
+// --- Add Recipes ---
+
+
 
 
 // --- Thaumcraft Stuff
@@ -1127,6 +1146,59 @@ mods.thaumcraft.Infusion.addRecipe("ENERGYBAZOOKAIII", <AWWayofTime:energyBazook
 "potentia 128, instrumentum 96, telum 72 , terminus 64, infernus 72, superbia 48, fames 32, nebrisum 16, ira 8", <AWWayofTime:energyBazookaThirdTier>, 20);
 mods.thaumcraft.Research.addInfusionPage("ENERGYBAZOOKAIII", <AWWayofTime:energyBazookaThirdTier>);
 mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAIII", 20);
+
+// --- Blood Infused Wand Cap
+mods.thaumcraft.Research.clearPages("CAP_blood_iron");
+mods.thaumcraft.Research.addPage("CAP_blood_iron", "blood_arsenal.research_page.CAP_blood_iron.1");
+mods.thaumcraft.Infusion.addRecipe("CAP_blood_iron", <ForbiddenMagic:WandCaps>, 
+[<BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <gregtech:gt.metaitem.01:17977>, <gregtech:gt.metaitem.01:28977>, <gregtech:gt.metaitem.01:17977>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <gregtech:gt.metaitem.01:17977>, <gregtech:gt.metaitem.01:28977>, <gregtech:gt.metaitem.01:17977>, <BloodArsenal:blood_infused_glowstone_dust>],
+"aqua 32, praecantatio 24, victus 24, metallum 16, ignis 8", <BloodArsenal:wand_caps>, 5);
+mods.thaumcraft.Research.addInfusionPage("CAP_blood_iron", <BloodArsenal:wand_caps>);
+// -
+//mods.thaumcraft.Research.setAspects("CAP_blood_iron", "");
+//mods.thaumcraft.Research.setComplexity("CAP_blood_iron", 3);
+mods.thaumcraft.Warp.addToResearch("CAP_blood_iron", 3);
+
+// --- Blood Infused Woooden Rod
+mods.thaumcraft.Research.clearPages("ROD_blood_wood");
+mods.thaumcraft.Research.addPage("ROD_blood_wood", "blood_arsenal.research_page.ROD_blood_wood.1");
+mods.thaumcraft.Research.addPage("ROD_blood_wood", "blood_arsenal.research_page.ROD_blood_wood.2");
+mods.thaumcraft.Infusion.addRecipe("ROD_blood_wood", <ForbiddenMagic:WandCores:3>, 
+[<BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>],
+"praecantatio 32, instrumentum 24, victus 32, arbor 16, potentia 8", <BloodArsenal:wand_cores>, 8);
+mods.thaumcraft.Research.addInfusionPage("ROD_blood_wood", <BloodArsenal:wand_cores>);
+// -
+//mods.thaumcraft.Research.setAspects("ROD_blood_wood", "");
+//mods.thaumcraft.Research.setComplexity("ROD_blood_wood", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_blood_wood", 5);
+
+// --- Blood Infused Wodden Staff of Doom
+mods.thaumcraft.Research.clearPages("ROD_blood_wood_staff");
+mods.thaumcraft.Research.addPage("ROD_blood_wood_staff", "blood_arsenal.research_page.ROD_blood_wood_staff.1");
+mods.thaumcraft.Infusion.addRecipe("ROD_blood_wood_staff", <ForbiddenMagic:WandCores:9>, 
+[<BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>],
+"victus 64, aqua 64, praecantatio 64, instrumentum 48, metallum 16, ignis 16, infernus 8, arbor 32", <BloodArsenal:wand_cores:1>, 12);
+mods.thaumcraft.Research.addInfusionPage("ROD_blood_wood_staff", <BloodArsenal:wand_cores:1>);
+// -
+//mods.thaumcraft.Research.setAspects("ROD_blood_wood_staff", "");
+//mods.thaumcraft.Research.setComplexity("ROD_blood_wood_staff", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_blood_wood_staff", 7);
+
+
+// --- Refresh Taumcraft Tabs
+
+
+
+// --- Deconstruction Table
+mods.thaumcraft.Research.refreshResearchRecipe("CAP_blood_iron");
+
+// --- Blood Infused Woooden Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blood_wood");
+
+// --- Blood Infused Wodden Staff of Doom
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blood_wood_staff");
+
+
 
 // --- Nei Rename ---
 
