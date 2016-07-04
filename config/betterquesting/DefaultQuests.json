@@ -336,34 +336,34 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "InfiTool": {
-            "BaseDurability": 56,
-            "Head": 3,
-            "HeadEXP": 0,
-            "BaseAttack": 3,
-            "ToolEXP": 0,
-            "Built": 1,
-            "HarvestLevel": 0,
-            "Attack": 3,
-            "RenderHead": 3,
-            "ModDurability": 0.0,
-            "Handle": 3,
-            "Broken": 0,
-            "Shoddy": 0.0,
-            "RenderHandle": 3,
-            "Accessory": 3,
-            "MiningSpeed": 400,
-            "RenderAccessory": 3,
-            "ToolLevel": 1,
-            "HarvestLevelModified": 0,
-            "Unbreaking": 0,
-            "Damage": 0,
-            "BonusDurability": 0,
-            "Modifiers": 0,
-            "TotalDurability": 56
+          "InfiTool:10": {
+            "BaseDurability:4": 56,
+            "Head:4": 3,
+            "HeadEXP:4": 0,
+            "BaseAttack:4": 3,
+            "Built:4": 1,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 0,
+            "Attack:4": 3,
+            "RenderHead:4": 3,
+            "ModDurability:6": 0.0,
+            "Handle:4": 3,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 3,
+            "Accessory:4": 3,
+            "MiningSpeed:4": 400,
+            "RenderAccessory:4": 3,
+            "ToolLevel:4": 1,
+            "HarvestLevelModified:4": 0,
+            "Unbreaking:4": 0,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 56
           },
-          "display": {
-            "Name": "�fFlint Pickaxe"
+          "display:10": {
+            "Name:8": "�fFlint Pickaxe"
           }
         }
       },
@@ -379,10 +379,10 @@
               "OreDict": "",
               "Damage": 4,
               "tag": {
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Flint",
-                  "MaxDamage": 6400,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             },
@@ -392,10 +392,10 @@
               "OreDict": "",
               "Damage": 2,
               "tag": {
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Flint",
-                  "MaxDamage": 6400,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             },
@@ -405,16 +405,16 @@
               "OreDict": "",
               "Damage": 6,
               "tag": {
-                "ench": [
+                "ench:9": [
                   {
-                    "lvl": 1,
-                    "id": 20
+                    "lvl:2": 1,
+                    "id:2": 20
                   }
                 ],
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Flint",
-                  "MaxDamage": 6400,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             },
@@ -424,10 +424,10 @@
               "OreDict": "",
               "Damage": 8,
               "tag": {
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Flint",
-                  "MaxDamage": 6400,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             }
@@ -924,16 +924,16 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ench": [
+                "ench:9": [
                   {
-                    "lvl": 1,
-                    "id": 20
+                    "lvl:4": 1,
+                    "id:4": 20
                   }
                 ],
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Flint",
-                  "MaxDamage": 6400,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             }
@@ -1880,7 +1880,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -2906,34 +2906,34 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "InfiTool": {
-            "BaseDurability": 356,
-            "Head": 14,
-            "HeadEXP": 0,
-            "BaseAttack": 4,
-            "ToolEXP": 0,
-            "Built": 1,
-            "HarvestLevel": 3,
-            "Attack": 4,
-            "RenderHead": 14,
-            "ModDurability": 0.0,
-            "Handle": 14,
-            "Broken": 0,
-            "Shoddy": 0.0,
-            "RenderHandle": 14,
-            "Accessory": 14,
-            "MiningSpeed": 650,
-            "RenderAccessory": 14,
-            "ToolLevel": 1,
-            "HarvestLevelModified": 0,
-            "Unbreaking": 1,
-            "Damage": 0,
-            "BonusDurability": 0,
-            "Modifiers": 0,
-            "TotalDurability": 356
+          "InfiTool:10": {
+            "BaseDurability:4": 356,
+            "Head:4": 14,
+            "HeadEXP:4": 0,
+            "BaseAttack:4": 4,
+            "Built:4": 1,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 3,
+            "Attack:4": 4,
+            "RenderHead:4": 14,
+            "ModDurability:6": 0.0,
+            "Handle:4": 14,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 14,
+            "Accessory:4": 14,
+            "MiningSpeed:4": 650,
+            "RenderAccessory:4": 14,
+            "ToolLevel:4": 1,
+            "HarvestLevelModified:4": 0,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 356
           },
-          "display": {
-            "Name": "�fBronze Pickaxe"
+          "display:10": {
+            "Name:8": "�fBronze Pickaxe"
           }
         }
       },
@@ -3215,7 +3215,7 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "Durability": 1000
+          "Durability:4": 1000
         }
       },
       "visibility": "UNLOCKED",
@@ -3230,7 +3230,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Durability": 1000
+                "Durability:4": 1000
               }
             },
             {
@@ -3239,7 +3239,7 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "Durability": 1000
+                "Durability:4": 1000
               }
             }
           ],
@@ -4507,9 +4507,9 @@
         "OreDict": "",
         "Damage": 48,
         "tag": {
-          "mFluidDisplayAmount": 0,
-          "mFluidDisplayHeat": 375,
-          "mFluidState": 1
+          "mFluidDisplayAmount:4": 0,
+          "mFluidDisplayHeat:4": 375,
+          "mFluidState:4": 1
         }
       },
       "visibility": "UNLOCKED",
@@ -8010,12 +8010,12 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "aqua": 2500,
-          "terra": 2500,
-          "ignis": 2500,
-          "ordo": 2500,
-          "perditio": 2500,
-          "aer": 2500
+          "aqua:4": 2500,
+          "terra:4": 2500,
+          "ignis:4": 2500,
+          "ordo:4": 2500,
+          "perditio:4": 2500,
+          "aer:4": 2500
         }
       },
       "visibility": "UNLOCKED",
@@ -8323,7 +8323,7 @@
         "OreDict": "",
         "Damage": 14,
         "tag": {
-          "Data": 100
+          "Data:4": 100
         }
       },
       "visibility": "UNLOCKED",
@@ -8340,7 +8340,7 @@
               "OreDict": "",
               "Damage": 14,
               "tag": {
-                "Data": 100
+                "Data:4": 100
               }
             }
           ],
@@ -8520,7 +8520,7 @@
         "OreDict": "",
         "Damage": 15,
         "tag": {
-          "Data": 100
+          "Data:4": 100
         }
       },
       "visibility": "UNLOCKED",
@@ -8537,7 +8537,7 @@
               "OreDict": "",
               "Damage": 15,
               "tag": {
-                "Data": 100
+                "Data:4": 100
               }
             }
           ],
@@ -9557,16 +9557,16 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "chipROM": {
-                  "mode": 0,
-                  "mm": 1,
-                  "hide": 0,
-                  "grp": 0,
-                  "pref": 0,
-                  "filteritems": "",
-                  "filteritemsCount": 9,
-                  "nbtm": 1,
-                  "om": 0
+                "chipROM:10": {
+                  "mode:4": 0,
+                  "mm:4": 1,
+                  "hide:4": 0,
+                  "grp:4": 0,
+                  "pref:4": 0,
+                  "filteritems:8": "",
+                  "filteritemsCount:4": 9,
+                  "nbtm:4": 1,
+                  "om:4": 0
                 }
               }
             },
@@ -9576,17 +9576,17 @@
               "OreDict": "",
               "Damage": 5,
               "tag": {
-                "chipROM": {
-                  "mode": 1,
-                  "mm": 1,
-                  "hide": 0,
-                  "orient": -1,
-                  "grp": 0,
-                  "pref": 0,
-                  "filteritems": "",
-                  "filteritemsCount": 9,
-                  "nbtm": 1,
-                  "om": 0
+                "chipROM:10": {
+                  "mode:4": 1,
+                  "mm:4": 1,
+                  "hide:4": 0,
+                  "orient:4": -1,
+                  "grp:4": 0,
+                  "pref:4": 0,
+                  "filteritems:8": "",
+                  "filteritemsCount:4": 9,
+                  "nbtm:4": 1,
+                  "om:4": 0
                 }
               }
             }
@@ -9609,16 +9609,16 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "chipROM": {
-                  "mode": 1,
-                  "mm": 1,
-                  "hide": 0,
-                  "grp": 0,
-                  "pref": 0,
-                  "filteritems": "",
-                  "filteritemsCount": 9,
-                  "nbtm": 1,
-                  "om": 0
+                "chipROM:10": {
+                  "mode:4": 1,
+                  "mm:4": 1,
+                  "hide:4": 0,
+                  "grp:4": 0,
+                  "pref:4": 0,
+                  "filteritems:8": "",
+                  "filteritemsCount:4": 9,
+                  "nbtm:4": 1,
+                  "om:4": 0
                 }
               }
             },
@@ -12490,90 +12490,90 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ForgeData": {
-                  "WITCInitialWidth": 0.6000000238418579,
-                  "ezModsApp": 1,
-                  "smi": 1,
-                  "WITCInitialHeight": 1.7999999523162842,
-                  "HungerOverhaulCheck": 5
+                "ForgeData:10": {
+                  "WITCInitialWidth:6": 0.6000000238418579,
+                  "ezModsApp:4": 1,
+                  "smi:4": 1,
+                  "WITCInitialHeight:6": 1.7999999523162842,
+                  "HungerOverhaulCheck:4": 5
                 },
-                "Attributes": [
+                "Attributes:9": [
                   {
-                    "Base": -2.0,
-                    "Modifiers": [
+                    "Base:6": -2.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 2189974539282499591,
-                        "UUIDLeast": -6477178668949725305,
-                        "Amount": 1.0,
-                        "Operation": 0,
-                        "Name": "UNLOCKED"
+                        "UUIDMost:4": 2189974539282499591,
+                        "UUIDLeast:4": -6477178668949725305,
+                        "Amount:6": 1.0,
+                        "Operation:4": 0,
+                        "Name:8": "UNLOCKED"
                       }
                     ],
-                    "Name": "tc.mobmod"
+                    "Name:8": "tc.mobmod"
                   },
                   {
-                    "Base": 26.0,
-                    "Name": "generic.maxHealth"
+                    "Base:6": 26.0,
+                    "Name:8": "generic.maxHealth"
                   },
                   {
-                    "Base": 0.0,
-                    "Name": "generic.knockbackResistance"
+                    "Base:6": 0.0,
+                    "Name:8": "generic.knockbackResistance"
                   },
                   {
-                    "Base": 0.25,
-                    "Name": "generic.movementSpeed"
+                    "Base:6": 0.25,
+                    "Name:8": "generic.movementSpeed"
                   },
                   {
-                    "Base": 16.0,
-                    "Modifiers": [
+                    "Base:6": 16.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 27127316897707,
-                        "UUIDLeast": 182634832621765121,
-                        "Amount": 0.012908903102869372,
-                        "Operation": 1,
-                        "Name": "Random spawn bonus"
+                        "UUIDMost:4": 27127316897707,
+                        "UUIDLeast:4": 182634832621765121,
+                        "Amount:6": 0.012908903102869372,
+                        "Operation:4": 1,
+                        "Name:8": "Random spawn bonus"
                       }
                     ],
-                    "Name": "generic.followRange"
+                    "Name:8": "generic.followRange"
                   },
                   {
-                    "Base": 1.8,
-                    "Name": "generic.attackDamage"
+                    "Base:6": 1.8,
+                    "Name:8": "generic.attackDamage"
                   }
                 ],
-                "Invulnerable": 0,
-                "PortalCooldown": 0,
-                "AbsorptionAmount": 0.0,
-                "FallDistance": 0.0,
-                "DeathTime": 0,
-                "DropChances": [
+                "Invulnerable:4": 0,
+                "PortalCooldown:4": 0,
+                "AbsorptionAmount:6": 0.0,
+                "FallDistance:6": 0.0,
+                "DeathTime:4": 0,
+                "DropChances:9": [
                   0,
                   0,
                   0,
                   0,
                   0
                 ],
-                "PersistenceRequired": 0,
-                "id": "Thaumcraft.TaintedCreeper",
-                "HealF": 26.0,
-                "Fuse": 30,
-                "Motion": [
+                "PersistenceRequired:4": 0,
+                "HealF:6": 26.0,
+                "id:8": "Thaumcraft.TaintedCreeper",
+                "Fuse:4": 30,
+                "Motion:9": [
                   0,
                   0,
                   0
                 ],
-                "Leashed": 0,
-                "UUIDLeast": -1910302092572580780,
-                "Health": 26,
-                "Air": 300,
-                "OnGround": 1,
-                "Dimension": 0,
-                "Rotation": [
+                "Leashed:4": 0,
+                "UUIDLeast:4": -1910302092572580780,
+                "Health:4": 26,
+                "Air:4": 300,
+                "OnGround:4": 1,
+                "Dimension:4": 0,
+                "Rotation:9": [
                   10,
                   0
                 ],
-                "CreatureInfusion": {
-                  "PlayerInfusions": [
+                "CreatureInfusion:10": {
+                  "PlayerInfusions:9": [
                     0,
                     0,
                     0,
@@ -12587,11 +12587,11 @@
                     0,
                     0
                   ],
-                  "InfusionCosts": {
-                    "Aspects": ""
+                  "tumorWarpTemp:4": 0,
+                  "InfusionCosts:10": {
+                    "Aspects:8": ""
                   },
-                  "tumorWarpTemp": 0,
-                  "Infusions": [
+                  "Infusions:9": [
                     0,
                     0,
                     0,
@@ -12605,32 +12605,32 @@
                     0,
                     0
                   ],
-                  "toggleClimb": 0,
-                  "toggleInvisible": 0,
-                  "tumorWarp": 0,
-                  "sitting": 0,
-                  "tumorWarpPermanent": 0
+                  "toggleClimb:4": 0,
+                  "toggleInvisible:4": 0,
+                  "tumorWarp:4": 0,
+                  "tumorWarpPermanent:4": 0,
+                  "sitting:4": 0
                 },
-                "UUIDMost": 27127316341783,
-                "Equipment": [
+                "Equipment:9": [
                   {},
                   {},
                   {},
                   {},
                   {}
                 ],
-                "CustomName": "\"\"",
-                "Pos": [
+                "UUIDMost:4": 27127316341783,
+                "CustomName:8": "\"\"",
+                "Pos:9": [
                   222,
                   4,
                   1471
                 ],
-                "Fire": -1,
-                "CanPickUpLoot": 0,
-                "HurtTime": 0,
-                "AttackTime": 0,
-                "ExplosionRadius": 3,
-                "CustomNameVisible": 0
+                "Fire:4": -1,
+                "CanPickUpLoot:4": 0,
+                "HurtTime:4": 0,
+                "ExplosionRadius:4": 3,
+                "AttackTime:4": 0,
+                "CustomNameVisible:4": 0
               }
             },
             {
@@ -12639,89 +12639,89 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ForgeData": {
-                  "WITCInitialWidth": 0.5,
-                  "ezModsApp": 1,
-                  "smi": 1,
-                  "WITCInitialHeight": 0.800000011920929,
-                  "HungerOverhaulCheck": 4
+                "ForgeData:10": {
+                  "WITCInitialWidth:6": 0.5,
+                  "ezModsApp:4": 1,
+                  "smi:4": 1,
+                  "WITCInitialHeight:6": 0.800000011920929,
+                  "HungerOverhaulCheck:4": 4
                 },
-                "Attributes": [
+                "Attributes:9": [
                   {
-                    "Base": -2.0,
-                    "Modifiers": [
+                    "Base:6": -2.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 2189974539282499591,
-                        "UUIDLeast": -6477178668949725305,
-                        "Amount": 1.0,
-                        "Operation": 0,
-                        "Name": "UNLOCKED"
+                        "UUIDMost:4": 2189974539282499591,
+                        "UUIDLeast:4": -6477178668949725305,
+                        "Amount:6": 1.0,
+                        "Operation:4": 0,
+                        "Name:8": "UNLOCKED"
                       }
                     ],
-                    "Name": "tc.mobmod"
+                    "Name:8": "tc.mobmod"
                   },
                   {
-                    "Base": 6.0,
-                    "Name": "generic.maxHealth"
+                    "Base:6": 6.0,
+                    "Name:8": "generic.maxHealth"
                   },
                   {
-                    "Base": 0.0,
-                    "Name": "generic.knockbackResistance"
+                    "Base:6": 0.0,
+                    "Name:8": "generic.knockbackResistance"
                   },
                   {
-                    "Base": 0.4,
-                    "Name": "generic.movementSpeed"
+                    "Base:6": 0.4,
+                    "Name:8": "generic.movementSpeed"
                   },
                   {
-                    "Base": 16.0,
-                    "Modifiers": [
+                    "Base:6": 16.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 27178571439803,
-                        "UUIDLeast": -4879626912252908080,
-                        "Amount": -0.03553818567513433,
-                        "Operation": 1,
-                        "Name": "Random spawn bonus"
+                        "UUIDMost:4": 27178571439803,
+                        "UUIDLeast:4": -4879626912252908080,
+                        "Amount:6": -0.03553818567513433,
+                        "Operation:4": 1,
+                        "Name:8": "Random spawn bonus"
                       }
                     ],
-                    "Name": "generic.followRange"
+                    "Name:8": "generic.followRange"
                   },
                   {
-                    "Base": 2.7,
-                    "Name": "generic.attackDamage"
+                    "Base:6": 2.7,
+                    "Name:8": "generic.attackDamage"
                   }
                 ],
-                "Invulnerable": 0,
-                "PortalCooldown": 0,
-                "AbsorptionAmount": 0.0,
-                "FallDistance": 0.0,
-                "DeathTime": 0,
-                "DropChances": [
+                "Invulnerable:4": 0,
+                "PortalCooldown:4": 0,
+                "AbsorptionAmount:6": 0.0,
+                "FallDistance:6": 0.0,
+                "DeathTime:4": 0,
+                "DropChances:9": [
                   0,
                   0,
                   0,
                   0,
                   0
                 ],
-                "PersistenceRequired": 0,
-                "id": "Thaumcraft.TaintedChicken",
-                "HealF": 6.0,
-                "Motion": [
+                "PersistenceRequired:4": 0,
+                "HealF:6": 6.0,
+                "id:8": "Thaumcraft.TaintedChicken",
+                "Motion:9": [
                   0,
                   0,
                   0
                 ],
-                "Leashed": 0,
-                "UUIDLeast": 2120839428921693136,
-                "Health": 6,
-                "Air": 300,
-                "OnGround": 1,
-                "Dimension": 0,
-                "Rotation": [
+                "Leashed:4": 0,
+                "UUIDLeast:4": 2120839428921693136,
+                "Health:4": 6,
+                "Air:4": 300,
+                "OnGround:4": 1,
+                "Dimension:4": 0,
+                "Rotation:9": [
                   167,
                   0
                 ],
-                "CreatureInfusion": {
-                  "PlayerInfusions": [
+                "CreatureInfusion:10": {
+                  "PlayerInfusions:9": [
                     0,
                     0,
                     0,
@@ -12735,11 +12735,11 @@
                     0,
                     0
                   ],
-                  "InfusionCosts": {
-                    "Aspects": ""
+                  "tumorWarpTemp:4": 0,
+                  "InfusionCosts:10": {
+                    "Aspects:8": ""
                   },
-                  "tumorWarpTemp": 0,
-                  "Infusions": [
+                  "Infusions:9": [
                     0,
                     0,
                     0,
@@ -12753,31 +12753,31 @@
                     0,
                     0
                   ],
-                  "toggleClimb": 0,
-                  "toggleInvisible": 0,
-                  "tumorWarp": 0,
-                  "sitting": 0,
-                  "tumorWarpPermanent": 0
+                  "toggleClimb:4": 0,
+                  "toggleInvisible:4": 0,
+                  "tumorWarp:4": 0,
+                  "tumorWarpPermanent:4": 0,
+                  "sitting:4": 0
                 },
-                "UUIDMost": 27178571304768,
-                "Equipment": [
+                "Equipment:9": [
                   {},
                   {},
                   {},
                   {},
                   {}
                 ],
-                "CustomName": "\"\"",
-                "Pos": [
+                "UUIDMost:4": 27178571304768,
+                "CustomName:8": "\"\"",
+                "Pos:9": [
                   223,
                   4,
                   1473
                 ],
-                "Fire": -1,
-                "CanPickUpLoot": 0,
-                "HurtTime": 0,
-                "AttackTime": 0,
-                "CustomNameVisible": 0
+                "Fire:4": -1,
+                "CanPickUpLoot:4": 0,
+                "HurtTime:4": 0,
+                "AttackTime:4": 0,
+                "CustomNameVisible:4": 0
               }
             },
             {
@@ -12786,89 +12786,89 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ForgeData": {
-                  "WITCInitialWidth": 0.8999999761581421,
-                  "ezModsApp": 1,
-                  "smi": 1,
-                  "WITCInitialHeight": 1.2999999523162842,
-                  "HungerOverhaulCheck": 8
+                "ForgeData:10": {
+                  "WITCInitialWidth:6": 0.8999999761581421,
+                  "ezModsApp:4": 1,
+                  "smi:4": 1,
+                  "WITCInitialHeight:6": 1.2999999523162842,
+                  "HungerOverhaulCheck:4": 8
                 },
-                "Attributes": [
+                "Attributes:9": [
                   {
-                    "Base": -2.0,
-                    "Modifiers": [
+                    "Base:6": -2.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 2189974539282499591,
-                        "UUIDLeast": -6477178668949725305,
-                        "Amount": 1.0,
-                        "Operation": 0,
-                        "Name": "UNLOCKED"
+                        "UUIDMost:4": 2189974539282499591,
+                        "UUIDLeast:4": -6477178668949725305,
+                        "Amount:6": 1.0,
+                        "Operation:4": 0,
+                        "Name:8": "UNLOCKED"
                       }
                     ],
-                    "Name": "tc.mobmod"
+                    "Name:8": "tc.mobmod"
                   },
                   {
-                    "Base": 36.0,
-                    "Name": "generic.maxHealth"
+                    "Base:6": 36.0,
+                    "Name:8": "generic.maxHealth"
                   },
                   {
-                    "Base": 0.0,
-                    "Name": "generic.knockbackResistance"
+                    "Base:6": 0.0,
+                    "Name:8": "generic.knockbackResistance"
                   },
                   {
-                    "Base": 0.27,
-                    "Name": "generic.movementSpeed"
+                    "Base:6": 0.27,
+                    "Name:8": "generic.movementSpeed"
                   },
                   {
-                    "Base": 16.0,
-                    "Modifiers": [
+                    "Base:6": 16.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 27170415539521,
-                        "UUIDLeast": 55055077136148619,
-                        "Amount": 0.05541744393087603,
-                        "Operation": 1,
-                        "Name": "Random spawn bonus"
+                        "UUIDMost:4": 27170415539521,
+                        "UUIDLeast:4": 55055077136148619,
+                        "Amount:6": 0.05541744393087603,
+                        "Operation:4": 1,
+                        "Name:8": "Random spawn bonus"
                       }
                     ],
-                    "Name": "generic.followRange"
+                    "Name:8": "generic.followRange"
                   },
                   {
-                    "Base": 5.4,
-                    "Name": "generic.attackDamage"
+                    "Base:6": 5.4,
+                    "Name:8": "generic.attackDamage"
                   }
                 ],
-                "Invulnerable": 0,
-                "PortalCooldown": 0,
-                "AbsorptionAmount": 0.0,
-                "FallDistance": 0.0,
-                "DeathTime": 0,
-                "DropChances": [
+                "Invulnerable:4": 0,
+                "PortalCooldown:4": 0,
+                "AbsorptionAmount:6": 0.0,
+                "FallDistance:6": 0.0,
+                "DeathTime:4": 0,
+                "DropChances:9": [
                   0,
                   0,
                   0,
                   0,
                   0
                 ],
-                "PersistenceRequired": 0,
-                "id": "Thaumcraft.TaintedCow",
-                "HealF": 36.0,
-                "Motion": [
+                "PersistenceRequired:4": 0,
+                "HealF:6": 36.0,
+                "id:8": "Thaumcraft.TaintedCow",
+                "Motion:9": [
                   0,
                   0,
                   0
                 ],
-                "Leashed": 0,
-                "UUIDLeast": 7340828040503509870,
-                "Health": 36,
-                "Air": 300,
-                "OnGround": 1,
-                "Dimension": 0,
-                "Rotation": [
+                "Leashed:4": 0,
+                "UUIDLeast:4": 7340828040503509870,
+                "Health:4": 36,
+                "Air:4": 300,
+                "OnGround:4": 1,
+                "Dimension:4": 0,
+                "Rotation:9": [
                   -124,
                   0
                 ],
-                "CreatureInfusion": {
-                  "PlayerInfusions": [
+                "CreatureInfusion:10": {
+                  "PlayerInfusions:9": [
                     0,
                     0,
                     0,
@@ -12882,11 +12882,11 @@
                     0,
                     0
                   ],
-                  "InfusionCosts": {
-                    "Aspects": ""
+                  "tumorWarpTemp:4": 0,
+                  "InfusionCosts:10": {
+                    "Aspects:8": ""
                   },
-                  "tumorWarpTemp": 0,
-                  "Infusions": [
+                  "Infusions:9": [
                     0,
                     0,
                     0,
@@ -12900,31 +12900,31 @@
                     0,
                     0
                   ],
-                  "toggleClimb": 0,
-                  "toggleInvisible": 0,
-                  "tumorWarp": 0,
-                  "sitting": 0,
-                  "tumorWarpPermanent": 0
+                  "toggleClimb:4": 0,
+                  "toggleInvisible:4": 0,
+                  "tumorWarp:4": 0,
+                  "tumorWarpPermanent:4": 0,
+                  "sitting:4": 0
                 },
-                "UUIDMost": 27170415457974,
-                "Equipment": [
+                "Equipment:9": [
                   {},
                   {},
                   {},
                   {},
                   {}
                 ],
-                "CustomName": "\"\"",
-                "Pos": [
+                "UUIDMost:4": 27170415457974,
+                "CustomName:8": "\"\"",
+                "Pos:9": [
                   220,
                   4,
                   1475
                 ],
-                "Fire": -1,
-                "CanPickUpLoot": 0,
-                "HurtTime": 0,
-                "AttackTime": 0,
-                "CustomNameVisible": 0
+                "Fire:4": -1,
+                "CanPickUpLoot:4": 0,
+                "HurtTime:4": 0,
+                "AttackTime:4": 0,
+                "CustomNameVisible:4": 0
               }
             },
             {
@@ -12933,88 +12933,88 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ForgeData": {
-                  "WITCInitialWidth": 0.6000000238418579,
-                  "ezModsApp": 1,
-                  "smi": 1,
-                  "WITCInitialHeight": 1.7999999523162842
+                "ForgeData:10": {
+                  "WITCInitialWidth:6": 0.6000000238418579,
+                  "ezModsApp:4": 1,
+                  "smi:4": 1,
+                  "WITCInitialHeight:6": 1.7999999523162842
                 },
-                "Attributes": [
+                "Attributes:9": [
                   {
-                    "Base": -2.0,
-                    "Modifiers": [
+                    "Base:6": -2.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 2189974539282499591,
-                        "UUIDLeast": -6477178668949725305,
-                        "Amount": 1.0,
-                        "Operation": 0,
-                        "Name": "UNLOCKED"
+                        "UUIDMost:4": 2189974539282499591,
+                        "UUIDLeast:4": -6477178668949725305,
+                        "Amount:6": 1.0,
+                        "Operation:4": 0,
+                        "Name:8": "UNLOCKED"
                       }
                     ],
-                    "Name": "tc.mobmod"
+                    "Name:8": "tc.mobmod"
                   },
                   {
-                    "Base": 26.0,
-                    "Name": "generic.maxHealth"
+                    "Base:6": 26.0,
+                    "Name:8": "generic.maxHealth"
                   },
                   {
-                    "Base": 0.0,
-                    "Name": "generic.knockbackResistance"
+                    "Base:6": 0.0,
+                    "Name:8": "generic.knockbackResistance"
                   },
                   {
-                    "Base": 0.3,
-                    "Name": "generic.movementSpeed"
+                    "Base:6": 0.3,
+                    "Name:8": "generic.movementSpeed"
                   },
                   {
-                    "Base": 16.0,
-                    "Modifiers": [
+                    "Base:6": 16.0,
+                    "Modifiers:9": [
                       {
-                        "UUIDMost": 27159316027577,
-                        "UUIDLeast": 3351821129110175732,
-                        "Amount": -0.02643265509317006,
-                        "Operation": 1,
-                        "Name": "Random spawn bonus"
+                        "UUIDMost:4": 27159316027577,
+                        "UUIDLeast:4": 3351821129110175732,
+                        "Amount:6": -0.02643265509317006,
+                        "Operation:4": 1,
+                        "Name:8": "Random spawn bonus"
                       }
                     ],
-                    "Name": "generic.followRange"
+                    "Name:8": "generic.followRange"
                   },
                   {
-                    "Base": 3.6,
-                    "Name": "generic.attackDamage"
+                    "Base:6": 3.6,
+                    "Name:8": "generic.attackDamage"
                   }
                 ],
-                "Invulnerable": 0,
-                "PortalCooldown": 0,
-                "AbsorptionAmount": 0.0,
-                "FallDistance": 0.0,
-                "DeathTime": 0,
-                "DropChances": [
+                "Invulnerable:4": 0,
+                "PortalCooldown:4": 0,
+                "AbsorptionAmount:6": 0.0,
+                "FallDistance:6": 0.0,
+                "DeathTime:4": 0,
+                "DropChances:9": [
                   0,
                   0,
                   0,
                   0,
                   0
                 ],
-                "PersistenceRequired": 0,
-                "id": "Thaumcraft.TaintedVillager",
-                "HealF": 26.0,
-                "Motion": [
+                "PersistenceRequired:4": 0,
+                "HealF:6": 26.0,
+                "id:8": "Thaumcraft.TaintedVillager",
+                "Motion:9": [
                   0,
                   0,
                   0
                 ],
-                "Leashed": 0,
-                "UUIDLeast": -5486064703714104449,
-                "Health": 26,
-                "Air": 300,
-                "OnGround": 1,
-                "Dimension": 0,
-                "Rotation": [
+                "Leashed:4": 0,
+                "UUIDLeast:4": -5486064703714104449,
+                "Health:4": 26,
+                "Air:4": 300,
+                "OnGround:4": 1,
+                "Dimension:4": 0,
+                "Rotation:9": [
                   153,
                   -23
                 ],
-                "CreatureInfusion": {
-                  "PlayerInfusions": [
+                "CreatureInfusion:10": {
+                  "PlayerInfusions:9": [
                     0,
                     0,
                     0,
@@ -13028,11 +13028,11 @@
                     0,
                     0
                   ],
-                  "InfusionCosts": {
-                    "Aspects": ""
+                  "tumorWarpTemp:4": 0,
+                  "InfusionCosts:10": {
+                    "Aspects:8": ""
                   },
-                  "tumorWarpTemp": 0,
-                  "Infusions": [
+                  "Infusions:9": [
                     0,
                     0,
                     0,
@@ -13046,31 +13046,31 @@
                     0,
                     0
                   ],
-                  "toggleClimb": 0,
-                  "toggleInvisible": 0,
-                  "tumorWarp": 0,
-                  "sitting": 0,
-                  "tumorWarpPermanent": 0
+                  "toggleClimb:4": 0,
+                  "toggleInvisible:4": 0,
+                  "tumorWarp:4": 0,
+                  "tumorWarpPermanent:4": 0,
+                  "sitting:4": 0
                 },
-                "UUIDMost": 27159315945153,
-                "Equipment": [
+                "Equipment:9": [
                   {},
                   {},
                   {},
                   {},
                   {}
                 ],
-                "CustomName": "\"\"",
-                "Pos": [
+                "UUIDMost:4": 27159315945153,
+                "CustomName:8": "\"\"",
+                "Pos:9": [
                   221,
                   4,
                   1475
                 ],
-                "Fire": -1,
-                "CanPickUpLoot": 0,
-                "HurtTime": 0,
-                "AttackTime": 0,
-                "CustomNameVisible": 0
+                "Fire:4": -1,
+                "CanPickUpLoot:4": 0,
+                "HurtTime:4": 0,
+                "AttackTime:4": 0,
+                "CustomNameVisible:4": 0
               }
             }
           ],
@@ -13120,7 +13120,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "mobType": "Skeleton"
+                "mobType:8": "Skeleton"
               }
             }
           ],
@@ -13666,7 +13666,7 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "sacrifice": 0
+          "sacrifice:4": 0
         }
       },
       "visibility": "UNLOCKED",
@@ -13683,7 +13683,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "sacrifice": 0
+                "sacrifice:4": 0
               }
             }
           ],
@@ -17444,12 +17444,12 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "aqua": 2500,
-          "ignis": 2500,
-          "terra": 2500,
-          "ordo": 2500,
-          "perditio": 2500,
-          "aer": 2500
+          "aqua:4": 2500,
+          "terra:4": 2500,
+          "ignis:4": 2500,
+          "ordo:4": 2500,
+          "perditio:4": 2500,
+          "aer:4": 2500
         }
       },
       "visibility": "UNLOCKED",
@@ -17522,12 +17522,12 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "aqua": 0,
-                "terra": 0,
-                "ignis": 0,
-                "ordo": 0,
-                "perditio": 0,
-                "aer": 0
+                "aqua:4": 0,
+                "terra:4": 0,
+                "ignis:4": 0,
+                "ordo:4": 0,
+                "perditio:4": 0,
+                "aer:4": 0
               }
             }
           ],
@@ -18033,14 +18033,14 @@
         "OreDict": "",
         "Damage": 9,
         "tag": {
-          "aqua": 5000,
-          "ignis": 5000,
-          "terra": 5000,
-          "cap": "gold",
-          "rod": "greatwood",
-          "ordo": 5000,
-          "perditio": 5000,
-          "aer": 5000
+          "aqua:4": 5000,
+          "terra:4": 5000,
+          "ignis:4": 5000,
+          "cap:8": "gold",
+          "rod:8": "greatwood",
+          "ordo:4": 5000,
+          "perditio:4": 5000,
+          "aer:4": 5000
         }
       },
       "visibility": "UNLOCKED",
@@ -18057,14 +18057,14 @@
               "OreDict": "",
               "Damage": 9,
               "tag": {
-                "aqua": 5000,
-                "ignis": 5000,
-                "terra": 5000,
-                "cap": "gold",
-                "rod": "greatwood",
-                "ordo": 5000,
-                "perditio": 5000,
-                "aer": 5000
+                "aqua:4": 5000,
+                "terra:4": 5000,
+                "ignis:4": 5000,
+                "cap:8": "gold",
+                "rod:8": "greatwood",
+                "ordo:4": 5000,
+                "perditio:4": 5000,
+                "aer:4": 5000
               }
             }
           ],
@@ -18589,15 +18589,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "ignis"
+              "amount:4": 30,
+              "key:8": "ignis"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -18627,21 +18627,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "ignis"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "ignis"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -18730,15 +18730,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "terra"
+              "amount:4": 30,
+              "key:8": "terra"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -18768,21 +18768,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "terra"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "terra"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -18823,15 +18823,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "perditio"
+              "amount:4": 30,
+              "key:8": "perditio"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -18861,21 +18861,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "perditio"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "perditio"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -18916,15 +18916,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "ordo"
+              "amount:4": 30,
+              "key:8": "ordo"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -18954,21 +18954,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "ordo"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "ordo"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -19009,15 +19009,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "aqua"
+              "amount:4": 30,
+              "key:8": "aqua"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -19047,21 +19047,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "aqua"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "aqua"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -19102,15 +19102,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "nodetype": 0,
-          "Aspects": [
+          "nodetype:4": 0,
+          "Aspects:9": [
             {
-              "amount": 30,
-              "key": "aer"
+              "amount:4": 30,
+              "key:8": "aer"
             }
           ],
-          "nodemod": 1,
-          "nodeid": "0:-312:64:54"
+          "nodemod:4": 1,
+          "nodeid:8": "0:-312:64:54"
         }
       },
       "visibility": "UNLOCKED",
@@ -19140,21 +19140,21 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "Aspects": [
-                  {
-                    "amount": 30,
-                    "key": "aer"
-                  }
-                ],
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "Second hand. But who cares?"
                   ],
-                  "Name": "Used Auranode"
+                  "Name:8": "Used Auranode"
                 },
-                "nodemod": 1,
-                "nodeid": "0:-312:64:54"
+                "Aspects:9": [
+                  {
+                    "amount:4": 30,
+                    "key:8": "aer"
+                  }
+                ],
+                "nodemod:4": 1,
+                "nodeid:8": "0:-312:64:54"
               }
             }
           ],
@@ -19848,14 +19848,14 @@
         "OreDict": "",
         "Damage": 54,
         "tag": {
-          "aqua": 10000,
-          "ignis": 10000,
-          "terra": 10000,
-          "cap": "thaumium",
-          "rod": "silverwood",
-          "ordo": 10000,
-          "perditio": 10000,
-          "aer": 10000
+          "aqua:4": 10000,
+          "terra:4": 10000,
+          "ignis:4": 10000,
+          "cap:8": "thaumium",
+          "rod:8": "silverwood",
+          "ordo:4": 10000,
+          "perditio:4": 10000,
+          "aer:4": 10000
         }
       },
       "visibility": "UNLOCKED",
@@ -19918,11 +19918,11 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "It crumbled to dust within seconds..."
                   ],
-                  "Name": "Lich Bone"
+                  "Name:8": "Lich Bone"
                 }
               }
             },
@@ -20025,12 +20025,12 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "aqua": 2500,
-          "ignis": 2500,
-          "terra": 2500,
-          "ordo": 2500,
-          "perditio": 2500,
-          "aer": 2500
+          "aqua:4": 2500,
+          "terra:4": 2500,
+          "ignis:4": 2500,
+          "ordo:4": 2500,
+          "perditio:4": 2500,
+          "aer:4": 2500
         }
       },
       "visibility": "UNLOCKED",
@@ -20096,11 +20096,11 @@
               "OreDict": "",
               "Damage": 9306,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "It.. melted..?!"
                   ],
-                  "Name": "Stainless Steel screw"
+                  "Name:8": "Stainless Steel screw"
                 }
               }
             }
@@ -21714,14 +21714,14 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ench": [
+                "ench:9": [
                   {
-                    "lvl": 4,
-                    "id": 34
+                    "lvl:4": 4,
+                    "id:4": 34
                   },
                   {
-                    "lvl": 2,
-                    "id": 154
+                    "lvl:4": 2,
+                    "id:4": 154
                   }
                 ]
               }
@@ -22192,10 +22192,10 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "Aspects": [
+          "Aspects:9": [
             {
-              "amount": 1,
-              "key": "ordo"
+              "amount:4": 1,
+              "key:8": "ordo"
             }
           ]
         }
@@ -22214,10 +22214,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "ordo"
+                    "amount:4": 1,
+                    "key:8": "ordo"
                   }
                 ]
               }
@@ -22228,10 +22228,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "aqua"
+                    "amount:4": 1,
+                    "key:8": "aqua"
                   }
                 ]
               }
@@ -22242,10 +22242,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "terra"
+                    "amount:4": 1,
+                    "key:8": "terra"
                   }
                 ]
               }
@@ -22256,10 +22256,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "ignis"
+                    "amount:4": 1,
+                    "key:8": "ignis"
                   }
                 ]
               }
@@ -22270,10 +22270,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "aer"
+                    "amount:4": 1,
+                    "key:8": "aer"
                   }
                 ]
               }
@@ -22284,10 +22284,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "perditio"
+                    "amount:4": 1,
+                    "key:8": "perditio"
                   }
                 ]
               }
@@ -22307,10 +22307,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "radio"
+                    "amount:4": 1,
+                    "key:8": "radio"
                   }
                 ]
               }
@@ -22321,10 +22321,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "superbia"
+                    "amount:4": 1,
+                    "key:8": "superbia"
                   }
                 ]
               }
@@ -22335,10 +22335,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "alienis"
+                    "amount:4": 1,
+                    "key:8": "alienis"
                   }
                 ]
               }
@@ -22349,10 +22349,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "nebrisum"
+                    "amount:4": 1,
+                    "key:8": "nebrisum"
                   }
                 ]
               }
@@ -22363,10 +22363,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "strontio"
+                    "amount:4": 1,
+                    "key:8": "strontio"
                   }
                 ]
               }
@@ -22377,10 +22377,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "tempus"
+                    "amount:4": 1,
+                    "key:8": "tempus"
                   }
                 ]
               }
@@ -22391,10 +22391,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "luxuria"
+                    "amount:4": 1,
+                    "key:8": "luxuria"
                   }
                 ]
               }
@@ -22414,10 +22414,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "ira"
+                    "amount:4": 1,
+                    "key:8": "ira"
                   }
                 ]
               }
@@ -22428,10 +22428,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "spiritus"
+                    "amount:4": 1,
+                    "key:8": "spiritus"
                   }
                 ]
               }
@@ -22442,10 +22442,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "mortuus"
+                    "amount:4": 1,
+                    "key:8": "mortuus"
                   }
                 ]
               }
@@ -22456,10 +22456,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "venenum"
+                    "amount:4": 1,
+                    "key:8": "venenum"
                   }
                 ]
               }
@@ -22470,10 +22470,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "infernus"
+                    "amount:4": 1,
+                    "key:8": "infernus"
                   }
                 ]
               }
@@ -22484,10 +22484,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "tenebrae"
+                    "amount:4": 1,
+                    "key:8": "tenebrae"
                   }
                 ]
               }
@@ -22498,10 +22498,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "corpus"
+                    "amount:4": 1,
+                    "key:8": "corpus"
                   }
                 ]
               }
@@ -22512,10 +22512,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "exanimis"
+                    "amount:4": 1,
+                    "key:8": "exanimis"
                   }
                 ]
               }
@@ -22533,10 +22533,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "nebrisum"
+                    "amount:4": 1,
+                    "key:8": "nebrisum"
                   }
                 ]
               }
@@ -22547,10 +22547,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "superbia"
+                    "amount:4": 1,
+                    "key:8": "superbia"
                   }
                 ]
               }
@@ -22561,10 +22561,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "strontio"
+                    "amount:4": 1,
+                    "key:8": "strontio"
                   }
                 ]
               }
@@ -22575,10 +22575,10 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1,
-                    "key": "luxuria"
+                    "amount:4": 1,
+                    "key:8": "luxuria"
                   }
                 ]
               }
@@ -23428,7 +23428,7 @@
         "OreDict": "",
         "Damage": 32598,
         "tag": {
-          "GT.ItemCharge": 2000000000000
+          "GT.ItemCharge:4": 2000000000000
         }
       },
       "visibility": "UNLOCKED",
@@ -23442,7 +23442,7 @@
               "OreDict": "",
               "Damage": 32598,
               "tag": {
-                "GT.ItemCharge": 2000000000000
+                "GT.ItemCharge:4": 2000000000000
               }
             }
           ],
@@ -24876,7 +24876,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Inventory": ""
+                "Inventory:8": ""
               }
             }
           ],
@@ -26058,7 +26058,7 @@
               "OreDict": "",
               "Damage": 6,
               "tag": {
-                "WITCDamage": 0
+                "WITCDamage:4": 0
               }
             }
           ],
@@ -26426,7 +26426,7 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "pages": [
+          "pages:9": [
             "Conceptual Device:\nThe Zero-Point-Module.\n\nHello my friend.\nI need you to help me with a pr"
           ]
         }
@@ -26491,7 +26491,7 @@
         "OreDict": "",
         "Damage": 32599,
         "tag": {
-          "GT.ItemCharge": 1000000000
+          "GT.ItemCharge:4": 1000000000
         }
       },
       "visibility": "UNLOCKED",
@@ -27327,11 +27327,11 @@
         "OreDict": "",
         "Damage": 5,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "Formerly known as Neutronium"
             ],
-            "Name": "Hull debris"
+            "Name:8": "Hull debris"
           }
         }
       },
@@ -27362,11 +27362,11 @@
               "OreDict": "",
               "Damage": 5,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "Formerly known as Neutronium"
                   ],
-                  "Name": "Hull debris"
+                  "Name:8": "Hull debris"
                 }
               }
             }
@@ -27526,11 +27526,11 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "The first sample. Wait.. Is that... a button?"
             ],
-            "Name": "Draconium Dust core"
+            "Name:8": "Draconium Dust core"
           }
         }
       },
@@ -27561,11 +27561,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "The first sample. Wait.. Is that... a button?"
                   ],
-                  "Name": "Draconium Dust core"
+                  "Name:8": "Draconium Dust core"
                 }
               }
             }
@@ -27701,12 +27701,12 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "A mix of draconium dust, a primordial pearl",
               "and.. Is that a bone?"
             ],
-            "Name": "Primordial dust"
+            "Name:8": "Primordial dust"
           }
         }
       },
@@ -27725,12 +27725,12 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "A mix of draconium dust, a primordial pearl",
                     "and.. Is that a bone?"
                   ],
-                  "Name": "Primordial dust"
+                  "Name:8": "Primordial dust"
                 }
               }
             }
@@ -28016,11 +28016,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "Unfortunately, it has already lost its power"
                   ],
-                  "Name": "Activated Draconium Dust"
+                  "Name:8": "Activated Draconium Dust"
                 }
               }
             }
@@ -28117,12 +28117,12 @@
         "OreDict": "",
         "Damage": 7129,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "A pile of something that",
               "used to be a machine hull"
             ],
-            "Name": "MAX Machine Casing (Molten)"
+            "Name:8": "MAX Machine Casing (Molten)"
           }
         }
       },
@@ -28147,12 +28147,12 @@
               "OreDict": "",
               "Damage": 7129,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "A pile of something that",
                     "used to be a machine hull"
                   ],
-                  "Name": "MAX Machine Casing (Molten)"
+                  "Name:8": "MAX Machine Casing (Molten)"
                 }
               }
             },
@@ -28162,12 +28162,12 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "A few scratches here and there,",
                     "but still usable"
                   ],
-                  "Name": "Nether Star (Used)"
+                  "Name:8": "Nether Star (Used)"
                 }
               }
             }
@@ -28204,14 +28204,14 @@
         "OreDict": "",
         "Damage": 2000,
         "tag": {
-          "aqua": 900100,
-          "ignis": 900100,
-          "terra": 900100,
-          "cap": "orichalcum",
-          "rod": "neutronium",
-          "ordo": 900100,
-          "perditio": 900100,
-          "aer": 900100
+          "aqua:4": 900100,
+          "terra:4": 900100,
+          "ignis:4": 900100,
+          "cap:8": "orichalcum",
+          "rod:8": "neutronium",
+          "ordo:4": 900100,
+          "perditio:4": 900100,
+          "aer:4": 900100
         }
       },
       "visibility": "UNLOCKED",
@@ -28367,11 +28367,11 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "Unfortunately, it has already lost its power"
             ],
-            "Name": "Activated Draconium Dust"
+            "Name:8": "Activated Draconium Dust"
           }
         }
       },
@@ -28614,8 +28614,8 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "Emits a strong, vibrating aura of pure energy you never experienced before.",
               "In good memory of your old friend, the technician. May he rest in peace"
             ]
@@ -28637,8 +28637,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "Emits a strong, vibrating aura of pure energy you never experienced before.",
                     "In good memory of your old friend, the technician. May he rest in peace"
                   ]
@@ -28985,11 +28985,11 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "display": {
-            "Lore": [
+          "display:10": {
+            "Lore:9": [
               "Unfortunately, it has already lost its power"
             ],
-            "Name": "Activated Draconium Dust"
+            "Name:8": "Activated Draconium Dust"
           }
         }
       },
@@ -29007,11 +29007,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "display": {
-                  "Lore": [
+                "display:10": {
+                  "Lore:9": [
                     "Unfortunately, it has already lost its power"
                   ],
-                  "Name": "Activated Draconium Dust"
+                  "Name:8": "Activated Draconium Dust"
                 }
               }
             }
@@ -30752,7 +30752,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ownerName": "Namikon"
+                "ownerName:8": "Namikon"
               }
             }
           ],
@@ -32589,8 +32589,7 @@
         }
       ],
       "preRequisites": [
-        9,
-        7
+        9
       ]
     },
     {
@@ -32678,10 +32677,10 @@
         "OreDict": "",
         "Damage": 14,
         "tag": {
-          "GT.ToolStats": {
-            "PrimaryMaterial": "Wood",
-            "MaxDamage": 12800,
-            "SecondaryMaterial": "Wood"
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Wood",
+            "MaxDamage:4": 12800,
+            "SecondaryMaterial:8": "Wood"
           }
         }
       },
@@ -32718,10 +32717,10 @@
               "OreDict": "",
               "Damage": 14,
               "tag": {
-                "GT.ToolStats": {
-                  "PrimaryMaterial": "Wood",
-                  "MaxDamage": 12800,
-                  "SecondaryMaterial": "Wood"
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Wood",
+                  "MaxDamage:4": 12800,
+                  "SecondaryMaterial:8": "Wood"
                 }
               }
             }
@@ -34172,6 +34171,372 @@
       ]
     },
     {
+      "questID": 469,
+      "name": "Collecting some Berries",
+      "description": "Are your waiting now that the Carrots grows? To make your time passing more quickly go and find some Berry Bushes and Berries. You can put the Bushes around your House to make a Wall against all theses Monsters want to come in your House and kill you.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Natura:BerryBush",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Natura:berry",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Natura:berry",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:BerryBush",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Natura:BerryBush",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 470,
+      "name": "Berry Medly",
+      "description": "Mh what you can do with all this Berries? Just eating? you will see that they have a very low saturation Level. Lets plant those new Berry Bushes and mix them to have some better Food.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Natura:berryMedley",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Natura:berry",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Natura:berry",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Natura:berry",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Natura:berry",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "stickWood",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:flint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood",
+                  "Damage:4": 100
+                }
+              }
+            },
+            {
+              "id": "minecraft:bowl",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Natura:berryMedley",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "Natura:BerryBush",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Natura:berryMedley",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        469
+      ]
+    },
+    {
+      "questID": 471,
+      "name": "Food Variants",
+      "description": "Maybe you noticed already that eaten the same food often is very boring. So take a break and make some Hot tea in the furnace. You can make same very tasty raisins out of Grapes in the Furnace too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:teaItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:tealeafItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:grapeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:teaItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:raisinsItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2817
+            },
+            {
+              "id": "harvestcraft:butterItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        442
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -34196,7 +34561,7 @@
         "OreDict": "",
         "Damage": 1,
         "tag": {
-          "charge": 4990
+          "charge:4": 4990
         }
       },
       "visibility": "UNLOCKED",
@@ -34257,15 +34622,15 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "MaxH": 20,
-          "NA": 0,
-          "Health": 20,
-          "IsAnalyzed": 0,
-          "Genome": {
-            "Chromosomes": [
+          "MaxH:4": 20,
+          "NA:4": 0,
+          "Health:4": 20,
+          "IsAnalyzed:4": 0,
+          "Genome:10": {
+            "Chromosomes:9": [
               {
-                "UID1": "forestry.speciesForest",
-                "UID0": "forestry.speciesForest"
+                "UID1:8": "forestry.speciesForest",
+                "UID0:8": "forestry.speciesForest"
               }
             ]
           }
@@ -34285,76 +34650,76 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH": 20,
-                "NA": 0,
-                "Health": 20,
-                "IsAnalyzed": 0,
-                "Genome": {
-                  "Chromosomes": [
+                "MaxH:4": 20,
+                "NA:4": 0,
+                "Health:4": 20,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
                     {
-                      "UID1": "forestry.speciesMarshy",
-                      "UID0": "forestry.speciesMarshy",
-                      "Slot": 0
+                      "UID1:8": "forestry.speciesMarshy",
+                      "UID0:8": "forestry.speciesMarshy",
+                      "Slot:4": 0
                     },
                     {
-                      "UID1": "forestry.speedSlowest",
-                      "UID0": "forestry.speedSlowest",
-                      "Slot": 1
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
                     },
                     {
-                      "UID1": "forestry.lifespanShorter",
-                      "UID0": "forestry.lifespanShorter",
-                      "Slot": 2
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
                     },
                     {
-                      "UID1": "forestry.fertilityUNLOCKED",
-                      "UID0": "forestry.fertilityUNLOCKED",
-                      "Slot": 3
+                      "UID1:8": "forestry.fertilityUNLOCKED",
+                      "UID0:8": "forestry.fertilityUNLOCKED",
+                      "Slot:4": 3
                     },
                     {
-                      "UID1": "forestry.toleranceBoth1",
-                      "UID0": "forestry.toleranceBoth1",
-                      "Slot": 4
+                      "UID1:8": "forestry.toleranceBoth1",
+                      "UID0:8": "forestry.toleranceBoth1",
+                      "Slot:4": 4
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 5
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
                     },
                     {
-                      "UID1": "forestry.toleranceNone",
-                      "UID0": "forestry.toleranceNone",
-                      "Slot": 7
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 8
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 9
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
                     },
                     {
-                      "UID1": "forestry.flowersMushrooms",
-                      "UID0": "forestry.flowersMushrooms",
-                      "Slot": 10
+                      "UID1:8": "forestry.flowersMushrooms",
+                      "UID0:8": "forestry.flowersMushrooms",
+                      "Slot:4": 10
                     },
                     {
-                      "UID1": "forestry.floweringSlower",
-                      "UID0": "forestry.floweringSlower",
-                      "Slot": 11
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
                     },
                     {
-                      "UID1": "forestry.territoryAverage",
-                      "UID0": "forestry.territoryAverage",
-                      "Slot": 12
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
                     },
                     {
-                      "UID1": "forestry.effectNone",
-                      "UID0": "forestry.effectNone",
-                      "Slot": 13
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
                     }
                   ]
                 }
@@ -34366,75 +34731,75 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH": 20,
-                "Health": 20,
-                "IsAnalyzed": 0,
-                "Genome": {
-                  "Chromosomes": [
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
                     {
-                      "UID1": "forestry.speciesMarshy",
-                      "UID0": "forestry.speciesMarshy",
-                      "Slot": 0
+                      "UID1:8": "forestry.speciesMarshy",
+                      "UID0:8": "forestry.speciesMarshy",
+                      "Slot:4": 0
                     },
                     {
-                      "UID1": "forestry.speedSlowest",
-                      "UID0": "forestry.speedSlowest",
-                      "Slot": 1
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
                     },
                     {
-                      "UID1": "forestry.lifespanShorter",
-                      "UID0": "forestry.lifespanShorter",
-                      "Slot": 2
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
                     },
                     {
-                      "UID1": "forestry.fertilityUNLOCKED",
-                      "UID0": "forestry.fertilityUNLOCKED",
-                      "Slot": 3
+                      "UID1:8": "forestry.fertilityUNLOCKED",
+                      "UID0:8": "forestry.fertilityUNLOCKED",
+                      "Slot:4": 3
                     },
                     {
-                      "UID1": "forestry.toleranceBoth1",
-                      "UID0": "forestry.toleranceBoth1",
-                      "Slot": 4
+                      "UID1:8": "forestry.toleranceBoth1",
+                      "UID0:8": "forestry.toleranceBoth1",
+                      "Slot:4": 4
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 5
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
                     },
                     {
-                      "UID1": "forestry.toleranceNone",
-                      "UID0": "forestry.toleranceNone",
-                      "Slot": 7
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 8
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 9
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
                     },
                     {
-                      "UID1": "forestry.flowersMushrooms",
-                      "UID0": "forestry.flowersMushrooms",
-                      "Slot": 10
+                      "UID1:8": "forestry.flowersMushrooms",
+                      "UID0:8": "forestry.flowersMushrooms",
+                      "Slot:4": 10
                     },
                     {
-                      "UID1": "forestry.floweringSlower",
-                      "UID0": "forestry.floweringSlower",
-                      "Slot": 11
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
                     },
                     {
-                      "UID1": "forestry.territoryAverage",
-                      "UID0": "forestry.territoryAverage",
-                      "Slot": 12
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
                     },
                     {
-                      "UID1": "forestry.effectNone",
-                      "UID0": "forestry.effectNone",
-                      "Slot": 13
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
                     }
                   ]
                 }
@@ -34749,75 +35114,75 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH": 20,
-                "Health": 20,
-                "IsAnalyzed": 1,
-                "Genome": {
-                  "Chromosomes": [
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
                     {
-                      "UID1": "magicbees.speciesOblivion",
-                      "UID0": "magicbees.speciesOblivion",
-                      "Slot": 0
+                      "UID1:8": "magicbees.speciesOblivion",
+                      "UID0:8": "magicbees.speciesOblivion",
+                      "Slot:4": 0
                     },
                     {
-                      "UID1": "forestry.speedSlowest",
-                      "UID0": "forestry.speedSlowest",
-                      "Slot": 1
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
                     },
                     {
-                      "UID1": "forestry.lifespanShorter",
-                      "UID0": "forestry.lifespanShorter",
-                      "Slot": 2
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
                     },
                     {
-                      "UID1": "forestry.fertilityMaximum",
-                      "UID0": "forestry.fertilityMaximum",
-                      "Slot": 3
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
                     },
                     {
-                      "UID1": "forestry.toleranceUp2",
-                      "UID0": "forestry.toleranceUp2",
-                      "Slot": 4
+                      "UID1:8": "forestry.toleranceUp2",
+                      "UID0:8": "forestry.toleranceUp2",
+                      "Slot:4": 4
                     },
                     {
-                      "UID1": "forestry.boolTrue",
-                      "UID0": "forestry.boolTrue",
-                      "Slot": 5
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 5
                     },
                     {
-                      "UID1": "forestry.toleranceNone",
-                      "UID0": "forestry.toleranceNone",
-                      "Slot": 7
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 8
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
                     },
                     {
-                      "UID1": "forestry.boolTrue",
-                      "UID0": "forestry.boolTrue",
-                      "Slot": 9
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 9
                     },
                     {
-                      "UID1": "forestry.flowersEnd",
-                      "UID0": "forestry.flowersEnd",
-                      "Slot": 10
+                      "UID1:8": "forestry.flowersEnd",
+                      "UID0:8": "forestry.flowersEnd",
+                      "Slot:4": 10
                     },
                     {
-                      "UID1": "forestry.floweringSlowest",
-                      "UID0": "forestry.floweringSlowest",
-                      "Slot": 11
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
                     },
                     {
-                      "UID1": "forestry.territoryAverage",
-                      "UID0": "forestry.territoryAverage",
-                      "Slot": 12
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
                     },
                     {
-                      "UID1": "forestry.effectAggressive",
-                      "UID0": "forestry.effectAggressive",
-                      "Slot": 13
+                      "UID1:8": "forestry.effectAggressive",
+                      "UID0:8": "forestry.effectAggressive",
+                      "Slot:4": 13
                     }
                   ]
                 }
@@ -34829,75 +35194,75 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH": 20,
-                "Health": 20,
-                "IsAnalyzed": 1,
-                "Genome": {
-                  "Chromosomes": [
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
                     {
-                      "UID1": "magicbees.speciesOblivion",
-                      "UID0": "magicbees.speciesOblivion",
-                      "Slot": 0
+                      "UID1:8": "magicbees.speciesOblivion",
+                      "UID0:8": "magicbees.speciesOblivion",
+                      "Slot:4": 0
                     },
                     {
-                      "UID1": "forestry.speedSlowest",
-                      "UID0": "forestry.speedSlowest",
-                      "Slot": 1
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
                     },
                     {
-                      "UID1": "forestry.lifespanShorter",
-                      "UID0": "forestry.lifespanShorter",
-                      "Slot": 2
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
                     },
                     {
-                      "UID1": "forestry.fertilityMaximum",
-                      "UID0": "forestry.fertilityMaximum",
-                      "Slot": 3
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
                     },
                     {
-                      "UID1": "forestry.toleranceUp2",
-                      "UID0": "forestry.toleranceUp2",
-                      "Slot": 4
+                      "UID1:8": "forestry.toleranceUp2",
+                      "UID0:8": "forestry.toleranceUp2",
+                      "Slot:4": 4
                     },
                     {
-                      "UID1": "forestry.boolTrue",
-                      "UID0": "forestry.boolTrue",
-                      "Slot": 5
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 5
                     },
                     {
-                      "UID1": "forestry.toleranceNone",
-                      "UID0": "forestry.toleranceNone",
-                      "Slot": 7
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
                     },
                     {
-                      "UID1": "forestry.boolFalse",
-                      "UID0": "forestry.boolFalse",
-                      "Slot": 8
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
                     },
                     {
-                      "UID1": "forestry.boolTrue",
-                      "UID0": "forestry.boolTrue",
-                      "Slot": 9
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 9
                     },
                     {
-                      "UID1": "forestry.flowersEnd",
-                      "UID0": "forestry.flowersEnd",
-                      "Slot": 10
+                      "UID1:8": "forestry.flowersEnd",
+                      "UID0:8": "forestry.flowersEnd",
+                      "Slot:4": 10
                     },
                     {
-                      "UID1": "forestry.floweringSlowest",
-                      "UID0": "forestry.floweringSlowest",
-                      "Slot": 11
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
                     },
                     {
-                      "UID1": "forestry.territoryAverage",
-                      "UID0": "forestry.territoryAverage",
-                      "Slot": 12
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
                     },
                     {
-                      "UID1": "forestry.effectAggressive",
-                      "UID0": "forestry.effectAggressive",
-                      "Slot": 13
+                      "UID1:8": "forestry.effectAggressive",
+                      "UID0:8": "forestry.effectAggressive",
+                      "Slot:4": 13
                     }
                   ]
                 }
@@ -35633,9 +35998,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "magicbees.speciesDoctoral",
-          "chromosome": 0
+          "species:8": "rootBees",
+          "allele:8": "magicbees.speciesDoctoral",
+          "chromosome:4": 0
         }
       },
       "visibility": "UNLOCKED",
@@ -35652,9 +36017,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.toleranceBoth3",
-                "chromosome": 4
+                "species:8": "rootBees",
+                "allele:8": "forestry.toleranceBoth3",
+                "chromosome:4": 4
               }
             }
           ],
@@ -35703,9 +36068,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.toleranceBoth3",
-          "chromosome": 4
+          "species:8": "rootBees",
+          "allele:8": "forestry.toleranceBoth3",
+          "chromosome:4": 4
         }
       },
       "visibility": "UNLOCKED",
@@ -35722,9 +36087,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.toleranceBoth3",
-                "chromosome": 7
+                "species:8": "rootBees",
+                "allele:8": "forestry.toleranceBoth3",
+                "chromosome:4": 7
               }
             }
           ],
@@ -35773,9 +36138,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.toleranceBoth3",
-          "chromosome": 4
+          "species:8": "rootBees",
+          "allele:8": "forestry.toleranceBoth3",
+          "chromosome:4": 4
         }
       },
       "visibility": "UNLOCKED",
@@ -35792,9 +36157,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.fertilityMaximum",
-                "chromosome": 3
+                "species:8": "rootBees",
+                "allele:8": "forestry.fertilityMaximum",
+                "chromosome:4": 3
               }
             }
           ],
@@ -35843,9 +36208,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 9
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 9
         }
       },
       "visibility": "UNLOCKED",
@@ -35862,9 +36227,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "magicbees.speciesDraconic",
-                "chromosome": 0
+                "species:8": "rootBees",
+                "allele:8": "magicbees.speciesDraconic",
+                "chromosome:4": 0
               }
             }
           ],
@@ -35913,9 +36278,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 5
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 5
         }
       },
       "visibility": "UNLOCKED",
@@ -35932,9 +36297,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "magicbees.speciesDoctoral",
-                "chromosome": 0
+                "species:8": "rootBees",
+                "allele:8": "magicbees.speciesDoctoral",
+                "chromosome:4": 0
               }
             }
           ],
@@ -35983,9 +36348,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 5
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 5
         }
       },
       "visibility": "UNLOCKED",
@@ -36002,9 +36367,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.speedFastest",
-                "chromosome": 1
+                "species:8": "rootBees",
+                "allele:8": "forestry.speedFastest",
+                "chromosome:4": 1
               }
             }
           ],
@@ -36053,9 +36418,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 9
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 9
         }
       },
       "visibility": "UNLOCKED",
@@ -36072,9 +36437,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "magicbees.speciesSilicon",
-                "chromosome": 0
+                "species:8": "rootBees",
+                "allele:8": "magicbees.speciesSilicon",
+                "chromosome:4": 0
               }
             }
           ],
@@ -36123,9 +36488,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 5
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 5
         }
       },
       "visibility": "UNLOCKED",
@@ -36142,9 +36507,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.boolTrue",
-                "chromosome": 8
+                "species:8": "rootBees",
+                "allele:8": "forestry.boolTrue",
+                "chromosome:4": 8
               }
             }
           ],
@@ -36193,9 +36558,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 8
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 8
         }
       },
       "visibility": "UNLOCKED",
@@ -36212,9 +36577,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.boolTrue",
-                "chromosome": 5
+                "species:8": "rootBees",
+                "allele:8": "forestry.boolTrue",
+                "chromosome:4": 5
               }
             }
           ],
@@ -36263,9 +36628,9 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "species": "rootBees",
-          "allele": "forestry.boolTrue",
-          "chromosome": 8
+          "species:8": "rootBees",
+          "allele:8": "forestry.boolTrue",
+          "chromosome:4": 8
         }
       },
       "visibility": "UNLOCKED",
@@ -36282,9 +36647,9 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "species": "rootBees",
-                "allele": "forestry.boolTrue",
-                "chromosome": 9
+                "species:8": "rootBees",
+                "allele:8": "forestry.boolTrue",
+                "chromosome:4": 9
               }
             }
           ],
@@ -37943,11 +38308,11 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "reagentTanks": [
+          "reagentTanks:9": [
             {
-              "amount": 16000,
-              "Reagent": "magicales",
-              "capacity": 16000
+              "amount:4": 16000,
+              "Reagent:8": "magicales",
+              "capacity:4": 16000
             }
           ]
         }
@@ -37966,11 +38331,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "magicales",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "magicales",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -37981,11 +38346,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "potentia",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "potentia",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -37996,11 +38361,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "incendium",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "incendium",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38011,11 +38376,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "terrae",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "terrae",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38026,11 +38391,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "tenebrae",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "tenebrae",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38041,11 +38406,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "sanctus",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "sanctus",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38056,11 +38421,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "aether",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "aether",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38071,11 +38436,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "reagentTanks": [
+                "reagentTanks:9": [
                   {
-                    "amount": 16000,
-                    "Reagent": "aquasalus",
-                    "capacity": 16000
+                    "amount:4": 16000,
+                    "Reagent:8": "aquasalus",
+                    "capacity:4": 16000
                   }
                 ]
               }
@@ -38798,40 +39163,40 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "InfiTool": {
-                  "RenderExtra": 9,
-                  "BaseDurability": 27,
-                  "BaseAttack": 6,
-                  "ToolEXP": 0,
-                  "Built": 1,
-                  "Moss": 3,
-                  "Effect1": 4,
-                  "HarvestLevel": 0,
-                  "ModifierTip1": "�2Moss",
-                  "RenderHead": 9,
-                  "ModDurability": 0.0,
-                  "Shoddy": 0.0,
-                  "RenderHandle": 9,
-                  "Accessory": 9,
-                  "MiningSpeed": 100,
-                  "Unbreaking": 0,
-                  "Damage": 0,
-                  "HarvestLevel2": 0,
-                  "BonusDurability": 0,
-                  "TotalDurability": 27,
-                  "MiningSpeed2": 100,
-                  "Head": 9,
-                  "Tooltip1": "�2Auto-Repair",
-                  "Attack": 6,
-                  "Handle": 9,
-                  "Broken": 0,
-                  "Extra": 9,
-                  "RenderAccessory": 9,
-                  "ToolLevel": 1,
-                  "Modifiers": 20
+                "InfiTool:10": {
+                  "RenderExtra:4": 9,
+                  "BaseDurability:4": 27,
+                  "BaseAttack:4": 6,
+                  "ToolEXP:4": 0,
+                  "Built:4": 1,
+                  "Moss:4": 3,
+                  "Effect1:4": 4,
+                  "HarvestLevel:4": 0,
+                  "ModifierTip1:8": "�2Moss",
+                  "RenderHead:4": 9,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 9,
+                  "Accessory:4": 9,
+                  "MiningSpeed:4": 100,
+                  "Unbreaking:4": 0,
+                  "HarvestLevel2:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 27,
+                  "MiningSpeed2:4": 100,
+                  "Head:4": 9,
+                  "Tooltip1:8": "�2Auto-Repair",
+                  "Attack:4": 6,
+                  "Handle:4": 9,
+                  "Broken:4": 0,
+                  "Extra:4": 9,
+                  "RenderAccessory:4": 9,
+                  "ToolLevel:4": 1,
+                  "Modifiers:4": 20
                 },
-                "display": {
-                  "Name": "�fPaper Cleaver"
+                "display:10": {
+                  "Name:8": "�fPaper Cleaver"
                 }
               }
             }
@@ -40732,20 +41097,20 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "nodetype": 0,
-                "display": {
-                  "Lore": [
+                "nodetype:4": 0,
+                "display:10": {
+                  "Lore:9": [
                     "This! Is OP"
                   ]
                 },
-                "Aspects": [
+                "Aspects:9": [
                   {
-                    "amount": 1000,
-                    "key": "instrumentum"
+                    "amount:4": 1000,
+                    "key:8": "instrumentum"
                   }
                 ],
-                "nodemod": 0,
-                "nodeid": "0:-312:64:54"
+                "nodemod:4": 0,
+                "nodeid:8": "0:-312:64:54"
               }
             },
             {
@@ -40760,14 +41125,14 @@
               "OreDict": "",
               "Damage": 2000,
               "tag": {
-                "aqua": 900100,
-                "terra": 900100,
-                "ignis": 900100,
-                "cap": "orichalcum",
-                "rod": "neutronium",
-                "ordo": 900100,
-                "perditio": 900100,
-                "aer": 900100
+                "aqua:4": 900100,
+                "terra:4": 900100,
+                "ignis:4": 900100,
+                "cap:8": "orichalcum",
+                "rod:8": "neutronium",
+                "ordo:4": 900100,
+                "perditio:4": 900100,
+                "aer:4": 900100
               }
             },
             {
@@ -40799,102 +41164,117 @@
         },
         {
           "id": 1,
-          "x": 80,
+          "x": 72,
           "y": 0
         },
         {
           "id": 2,
-          "x": 40,
+          "x": 36,
           "y": 0
         },
         {
           "id": 3,
-          "x": 160,
+          "x": 144,
           "y": 0
         },
         {
           "id": 5,
-          "x": 200,
+          "x": 180,
           "y": 0
         },
         {
           "id": 4,
-          "x": 120,
+          "x": 108,
           "y": 0
         },
         {
           "id": 6,
-          "x": 240,
-          "y": 32
+          "x": 216,
+          "y": 0
         },
         {
           "id": 7,
-          "x": 280,
+          "x": 288,
           "y": 72
         },
         {
           "id": 8,
-          "x": 200,
-          "y": 32
+          "x": 180,
+          "y": 36
         },
         {
           "id": 9,
-          "x": 200,
+          "x": 180,
           "y": 72
         },
         {
           "id": 10,
-          "x": 160,
-          "y": 104
+          "x": 144,
+          "y": 144
         },
         {
           "id": 12,
-          "x": 200,
-          "y": 104
+          "x": 216,
+          "y": 144
         },
         {
           "id": 11,
-          "x": 160,
+          "x": 144,
           "y": 72
         },
         {
           "id": 13,
-          "x": 280,
-          "y": 168
+          "x": 288,
+          "y": 180
         },
         {
           "id": 14,
-          "x": 8,
-          "y": 168
+          "x": 0,
+          "y": 180
         },
         {
           "id": 440,
-          "x": 120,
-          "y": 32
+          "x": 108,
+          "y": 36
         },
         {
           "id": 442,
-          "x": 240,
+          "x": 216,
           "y": 72
         },
         {
           "id": 444,
-          "x": 240,
-          "y": 104
+          "x": 216,
+          "y": 108
         },
         {
           "id": 446,
-          "x": 120,
-          "y": 104
+          "x": 108,
+          "y": 108
         },
         {
           "id": 448,
-          "x": 80,
-          "y": 104
+          "x": 72,
+          "y": 108
         },
         {
           "id": 450,
-          "x": 120,
+          "x": 108,
+          "y": 72
+        },
+        {
+          "id": 469,
+          "x": 252,
+          "y": 0
+        },
+        {
+          "id": 470,
+          "x": 288,
+          "y": 0
+        },
+        {
+          "id": 471,
+          "x": 252,
           "y": 72
         }
       ]
