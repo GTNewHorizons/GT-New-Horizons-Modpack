@@ -39,7 +39,7 @@ public class GT_Loader_Items
 		// 630 - 639 Conveyors
 		// 640 - 649 Pistons
 		// 650 - 659 Robot Arms
-		// 660 - 669 Unused
+		// 660 - 664 Fluid Regulators
 		// 670 - 679 Field Generators
 		// 680 - 689 Emitters
 		// 690 - 699 Sensors
