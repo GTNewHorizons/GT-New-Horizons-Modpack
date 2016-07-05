@@ -2080,14 +2080,14 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metatool.01",
               "Count": 1,
-              "OreDict": "craftingToolKnife",
+              "OreDict": "",
               "Damage": 34,
               "tag": {
                 "ench:9": [
@@ -3379,7 +3379,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -34244,13 +34244,13 @@
               "id": "Natura:BerryBush",
               "Count": 5,
               "OreDict": "",
-              "Damage": 12
+              "Damage": 0
             },
             {
               "id": "Natura:BerryBush",
               "Count": 5,
               "OreDict": "",
-              "Damage": 13
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -34362,12 +34362,12 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "requiredItems": [
             {
               "id": "gregtech:gt.metatool.01",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "craftingToolKnife",
               "Damage": 34,
               "tag": {
                 "ench:9": [
