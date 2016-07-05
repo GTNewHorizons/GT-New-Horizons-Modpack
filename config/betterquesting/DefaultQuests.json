@@ -34537,6 +34537,322 @@
       ]
     },
     {
+      "questID": 472,
+      "name": "Your first Tool",
+      "description": "After your Tinkers Table are ready you can craft your First Tool. If you not find a Village first you can craft only flint Tools. Let\u0027s start with some Pickaxe, Axe and Shovel. Swords are at this point unable to craft out of wood and flint. You have to wait until you get some iron and Bronze. Using your Gregtech Swords for the meantime. This Tool is weak at the moment but the more you are using the better it get. Your Tool will level up to Level 99 if you play long enough. Tool parts can be replaced for a bit level  Xp points. The Tools must be repaired first.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 56,
+            "Head:4": 3,
+            "HeadEXP:4": 0,
+            "BaseAttack:4": 3,
+            "Built:4": 1,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 0,
+            "Attack:4": 3,
+            "RenderHead:4": 3,
+            "ModDurability:6": 0.0,
+            "Handle:4": 3,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 3,
+            "Accessory:4": 3,
+            "MiningSpeed:4": 400,
+            "RenderAccessory:4": 3,
+            "ToolLevel:4": 1,
+            "HarvestLevelModified:4": 0,
+            "Unbreaking:4": 0,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 56
+          },
+          "display:10": {
+            "Name:8": "§fFlint Pickaxe"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:planks",
+              "Count": 1,
+              "OreDict": "plankWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxeHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:shovelHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:hatchetHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:binding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 113,
+                  "Head:4": 3,
+                  "HeadEXP:4": 0,
+                  "BaseAttack:4": 3,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 0,
+                  "Attack:4": 3,
+                  "RenderHead:4": 3,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 400,
+                  "RenderAccessory:4": 0,
+                  "ToolLevel:4": 1,
+                  "HarvestLevelModified:4": 0,
+                  "Unbreaking:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 113
+                },
+                "display:10": {
+                  "Name:8": "§fFlint Pickaxe"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:hatchet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 113,
+                  "Head:4": 3,
+                  "BaseAttack:4": 5,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 1,
+                  "Attack:4": 5,
+                  "RenderHead:4": 3,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "MiningSpeed:4": 400,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 113
+                },
+                "display:10": {
+                  "Name:8": "§fFlint Hatchet"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:shovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 113,
+                  "Head:4": 3,
+                  "BaseAttack:4": 4,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 1,
+                  "Attack:4": 4,
+                  "RenderHead:4": 3,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "MiningSpeed:4": 400,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 113
+                },
+                "display:10": {
+                  "Name:8": "§fFlint Shovel"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:flint",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -41285,67 +41601,67 @@
       "quests": [
         {
           "id": 15,
-          "x": 192,
+          "x": 180,
           "y": 0
         },
         {
           "id": 17,
-          "x": 272,
-          "y": 40
+          "x": 252,
+          "y": 36
         },
         {
           "id": 18,
-          "x": 152,
+          "x": 144,
           "y": 0
         },
         {
           "id": 19,
-          "x": 152,
-          "y": 40
+          "x": 144,
+          "y": 36
         },
         {
           "id": 20,
-          "x": 232,
-          "y": 40
+          "x": 216,
+          "y": 36
         },
         {
           "id": 21,
-          "x": 192,
-          "y": 40
+          "x": 180,
+          "y": 36
         },
         {
           "id": 22,
-          "x": 192,
-          "y": 80
+          "x": 180,
+          "y": 72
         },
         {
           "id": 23,
-          "x": 152,
-          "y": 80
+          "x": 144,
+          "y": 72
         },
         {
           "id": 24,
-          "x": 272,
-          "y": 80
+          "x": 252,
+          "y": 72
         },
         {
           "id": 25,
-          "x": 232,
-          "y": 80
+          "x": 216,
+          "y": 72
         },
         {
           "id": 27,
-          "x": 272,
-          "y": 184
+          "x": 252,
+          "y": 216
         },
         {
           "id": 28,
-          "x": 56,
-          "y": 184
+          "x": 36,
+          "y": 216
         },
         {
           "id": 29,
-          "x": 8,
+          "x": 0,
           "y": 144
         },
         {
@@ -41355,73 +41671,78 @@
         },
         {
           "id": 31,
-          "x": 104,
+          "x": 108,
           "y": 144
         },
         {
           "id": 32,
-          "x": 152,
-          "y": 120
+          "x": 144,
+          "y": 108
         },
         {
           "id": 33,
-          "x": 152,
-          "y": 160
+          "x": 144,
+          "y": 144
         },
         {
           "id": 34,
-          "x": 40,
+          "x": 36,
           "y": 144
         },
         {
           "id": 35,
-          "x": 88,
-          "y": 112
+          "x": 72,
+          "y": 108
         },
         {
           "id": 36,
-          "x": 24,
-          "y": 80
+          "x": 0,
+          "y": 72
         },
         {
           "id": 38,
-          "x": 56,
-          "y": 112
+          "x": 36,
+          "y": 108
         },
         {
           "id": 37,
-          "x": 56,
-          "y": 80
+          "x": 36,
+          "y": 72
         },
         {
           "id": 39,
           "x": 0,
-          "y": 48
+          "y": 36
         },
         {
           "id": 40,
-          "x": 88,
+          "x": 72,
           "y": 0
         },
         {
           "id": 41,
-          "x": 232,
-          "y": 120
+          "x": 216,
+          "y": 108
         },
         {
           "id": 26,
-          "x": 192,
-          "y": 120
+          "x": 180,
+          "y": 108
         },
         {
           "id": 42,
-          "x": 192,
-          "y": 160
+          "x": 180,
+          "y": 144
         },
         {
           "id": 43,
-          "x": 232,
-          "y": 160
+          "x": 216,
+          "y": 144
+        },
+        {
+          "id": 472,
+          "x": 144,
+          "y": 180
         }
       ]
     },
