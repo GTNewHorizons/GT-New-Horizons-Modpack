@@ -2081,15 +2081,31 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metatool.01",
               "Count": 1,
-              "OreDict": "toolCuttingboard",
-              "Damage": 34
+              "OreDict": "craftingToolKnife",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 6400,
+                  "SecondaryMaterial:8": "Wood",
+                  "Damage:4": 100
+                }
+              }
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -34539,7 +34555,7 @@
     {
       "questID": 472,
       "name": "Your first Tool",
-      "description": "After your Tinkers Table are ready you can craft your First Tool. If you not find a Village first you can craft only flint Tools. Let\u0027s start with some Pickaxe, Axe and Shovel. Swords are at this point unable to craft out of wood and flint. You have to wait until you get some iron and Bronze. Using your Gregtech Swords for the meantime. This Tool is weak at the moment but the more you are using the better it get. Your Tool will level up to Level 99 if you play long enough. Tool parts can be replaced for a bit level  Xp points. The Tools must be repaired first.",
+      "description": "After your Tinkers Table are ready you can craft your First Tool. If you not find a Village first you can craft only flint Tools. Let\u0027s  start with some Pickaxe, Axe and Shovel. Swords are at this point unable to and need metals like iron or bronze which you get later. So let\u0027s using your Gregtech Swords for the meantime. Your new tools are weak at the moment but the more you are using the better it get and it will level up to Level 99 if you play long enough. Tool parts can be replaced for a bit level  Xp points. The Tools must be repaired first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -34850,6 +34866,140 @@
       ],
       "preRequisites": [
         33
+      ]
+    },
+    {
+      "questID": 473,
+      "name": "Making a better sword",
+      "description": "Now its time to making your first Thinkes sword. First you have to make you some Blade, Guard and Stick Cast Form. Melting some Bronze in the Furnace down and cast your Tool Parts. Tada ready is your first TC Sword.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:broadsword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 427,
+            "Head:4": 14,
+            "BaseAttack:4": 7,
+            "Built:4": 1,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 4,
+            "Attack:4": 7,
+            "RenderHead:4": 14,
+            "ModDurability:6": 0.0,
+            "Handle:4": 14,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 14,
+            "Accessory:4": 14,
+            "MiningSpeed:4": 650,
+            "RenderAccessory:4": 14,
+            "ToolLevel:4": 1,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 427
+          },
+          "display:10": {
+            "Name:8": "§fBronze Broadsword"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:swordBlade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:wideGuard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        38
       ]
     },
     {
@@ -41743,6 +41893,11 @@
           "id": 472,
           "x": 144,
           "y": 180
+        },
+        {
+          "id": 473,
+          "x": 0,
+          "y": 108
         }
       ]
     },
