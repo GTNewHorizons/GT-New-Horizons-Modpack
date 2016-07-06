@@ -741,75 +741,75 @@
           "subtypes": false,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 0.0,
-                "Name": "weapon.penetrateArmor"
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
               },
               {
-                "Base": 3.0,
-                "Name": "weapon.daze"
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.attackSpeed"
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.mountedBonus"
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
               },
               {
-                "Base": 10.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.25,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "Saddle": 0,
-            "FallDistance": 0.0,
-            "InLove": 0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "Saddle:4": 0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "PersistenceRequired": 0,
-            "id": "Pig",
-            "HealF": 10.0,
-            "Age": 0,
-            "Motion": [
+            "PersistenceRequired:4": 0,
+            "HealF:6": 10.0,
+            "id:8": "Pig",
+            "Age:4": 0,
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -3998212785627166950,
-            "Health": 10,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -3998212785627166950,
+            "Health:4": 10,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": [
               0,
               0
             ],
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -823,11 +823,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -841,31 +841,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 14197274275598,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 14197274275598,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -979,75 +979,75 @@
           "subtypes": false,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 0.0,
-                "Name": "weapon.penetrateArmor"
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
               },
               {
-                "Base": 3.0,
-                "Name": "weapon.daze"
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.attackSpeed"
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.mountedBonus"
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
               },
               {
-                "Base": 8.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 8.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.23000000417232513,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "InLove": 0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "InLove:4": 0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "PersistenceRequired": 0,
-            "id": "Sheep",
-            "HealF": 8.0,
-            "Age": 0,
-            "Motion": [
+            "PersistenceRequired:4": 0,
+            "HealF:6": 8.0,
+            "id:8": "Sheep",
+            "Age:4": 0,
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": 8005527541666259430,
-            "Health": 8,
-            "Color": 0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": 8005527541666259430,
+            "Health:4": 8,
+            "Color:4": 0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": [
               0,
               0
             ],
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -1061,11 +1061,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -1079,32 +1079,32 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 14240014886935,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 14240014886935,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "Sheared": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "Sheared:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -5094,6 +5094,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -5108,7 +5110,7 @@
               "Damage": 1366
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -33454,81 +33456,81 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 0.0,
-                "Name": "weapon.penetrateArmor"
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
               },
               {
-                "Base": 3.0,
-                "Name": "weapon.daze"
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.attackSpeed"
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.mountedBonus"
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
               },
               {
-                "Base": -2.0,
-                "Name": "tc.mobmod"
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
               },
               {
-                "Base": 300.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 300.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.6000000238418579,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.6000000238418579,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 40.0,
-                "Name": "generic.followRange"
+                "Base:6": 40.0,
+                "Name:8": "generic.followRange"
               },
               {
-                "Base": 2.0,
-                "Name": "generic.attackDamage"
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "Invul": 0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "Invul:4": 0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "PersistenceRequired": 0,
-            "id": "WitherBoss",
-            "HealF": 300.0,
-            "Motion": [
+            "PersistenceRequired:4": 0,
+            "HealF:6": 300.0,
+            "id:8": "WitherBoss",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -5130901120732393594,
-            "Health": 300,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -5130901120732393594,
+            "Health:4": 300,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": [
               0,
               0
             ],
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -33542,11 +33544,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -33560,31 +33562,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 14321298824739,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 14321298824739,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -40126,8 +40128,8 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "ForgeData": {
-              "SMData": {}
+            "ForgeData:10": {
+              "SMData:10": {}
             }
           },
           "taskID": "bq_standard:hunt"
@@ -40361,86 +40363,86 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 0.0,
-                "Name": "weapon.penetrateArmor"
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
               },
               {
-                "Base": 3.0,
-                "Name": "weapon.daze"
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.attackSpeed"
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
               },
               {
-                "Base": 0.0,
-                "Name": "weapon.mountedBonus"
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
               },
               {
-                "Base": -2.0,
-                "Name": "tc.mobmod"
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
               },
               {
-                "Base": 450.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 450.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.4000000059604645,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.4000000059604645,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               },
               {
-                "Base": 2.0,
-                "Name": "generic.attackDamage"
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "roomCoordsY": 0.0,
-            "roomCoordsZ": 0.0,
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedSkeletonBoss",
-            "HealF": 450.0,
-            "Motion": [
+            "roomCoordsY:6": 0.0,
+            "roomCoordsZ:6": 0.0,
+            "PersistenceRequired:4": 0,
+            "HealF:6": 450.0,
+            "id:8": "GalacticraftCore.EvolvedSkeletonBoss",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": 3550669721897671587,
-            "Health": 450,
-            "roomCoordsX": 0.0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": 3550669721897671587,
+            "Health:4": 450,
+            "roomCoordsX:6": 0.0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "roomSizeZ:6": 0.0,
+            "Rotation:9": [
               0,
               0
             ],
-            "roomSizeZ": 0.0,
-            "roomSizeY": 0.0,
-            "roomSizeX": 0.0,
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "roomSizeY:6": 0.0,
+            "roomSizeX:6": 0.0,
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -40454,11 +40456,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -40472,31 +40474,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 2977706436292,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 2977706436292,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -40551,70 +40553,70 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": -2.0,
-                "Name": "tc.mobmod"
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
               },
               {
-                "Base": 600.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 600.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.05000000074505806,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.05000000074505806,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               },
               {
-                "Base": 2.0,
-                "Name": "generic.attackDamage"
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "roomCoordsY": 0.0,
-            "roomCoordsZ": 0.0,
-            "PersistenceRequired": 0,
-            "id": "GalacticraftMars.CreeperBoss",
-            "HealF": 600.0,
-            "Motion": [
+            "roomCoordsY:6": 0.0,
+            "roomCoordsZ:6": 0.0,
+            "PersistenceRequired:4": 0,
+            "HealF:6": 600.0,
+            "id:8": "GalacticraftMars.CreeperBoss",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -3749161857075506145,
-            "Health": 600,
-            "roomCoordsX": 0.0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -3749161857075506145,
+            "Health:4": 600,
+            "roomCoordsX:6": 0.0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "roomSizeZ:6": 0.0,
+            "Rotation:9": [
               0,
               0
             ],
-            "roomSizeZ": 0.0,
-            "roomSizeY": 0.0,
-            "roomSizeX": 0.0,
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "roomSizeY:6": 0.0,
+            "roomSizeX:6": 0.0,
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -40628,11 +40630,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -40646,31 +40648,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31694812711759,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31694812711759,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -40725,70 +40727,70 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": -2.0,
-                "Name": "tc.mobmod"
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
               },
               {
-                "Base": 600.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 600.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.05000000074505806,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.05000000074505806,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               },
               {
-                "Base": 2.0,
-                "Name": "generic.attackDamage"
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "roomCoordsY": 0.0,
-            "roomCoordsZ": 0.0,
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedBossBlaze",
-            "HealF": 600.0,
-            "Motion": [
+            "roomCoordsY:6": 0.0,
+            "roomCoordsZ:6": 0.0,
+            "PersistenceRequired:4": 0,
+            "HealF:6": 600.0,
+            "id:8": "GalacticraftCore.EvolvedBossBlaze",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": 3139249885953614191,
-            "Health": 600,
-            "roomCoordsX": 0.0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": 3139249885953614191,
+            "Health:4": 600,
+            "roomCoordsX:6": 0.0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "roomSizeZ:6": 0.0,
+            "Rotation:9": [
               0,
               0
             ],
-            "roomSizeZ": 0.0,
-            "roomSizeY": 0.0,
-            "roomSizeX": 0.0,
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "roomSizeY:6": 0.0,
+            "roomSizeX:6": 0.0,
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -40802,11 +40804,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -40820,31 +40822,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31574278611849,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31574278611849,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -40899,62 +40901,62 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 600.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 600.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.05000000074505806,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.05000000074505806,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "roomCoordsY": 0.0,
-            "roomCoordsZ": 0.0,
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedBossGhast",
-            "HealF": 600.0,
-            "Motion": [
+            "roomCoordsY:6": 0.0,
+            "roomCoordsZ:6": 0.0,
+            "PersistenceRequired:4": 0,
+            "HealF:6": 600.0,
+            "id:8": "GalacticraftCore.EvolvedBossGhast",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -1940216915570942457,
-            "Health": 600,
-            "roomCoordsX": 0.0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -1940216915570942457,
+            "Health:4": 600,
+            "roomCoordsX:6": 0.0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "roomSizeZ:6": 0.0,
+            "Rotation:9": [
               0,
               0
             ],
-            "roomSizeZ": 0.0,
-            "roomSizeY": 0.0,
-            "roomSizeX": 0.0,
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "roomSizeY:6": 0.0,
+            "roomSizeX:6": 0.0,
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -40968,11 +40970,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -40986,31 +40988,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31541628372871,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31541628372871,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -41065,62 +41067,62 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": 600.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 600.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.05000000074505806,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.05000000074505806,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "roomCoordsY": 0.0,
-            "roomCoordsZ": 0.0,
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedBossCrystallBrain",
-            "HealF": 600.0,
-            "Motion": [
+            "roomCoordsY:6": 0.0,
+            "roomCoordsZ:6": 0.0,
+            "PersistenceRequired:4": 0,
+            "HealF:6": 600.0,
+            "id:8": "GalacticraftCore.EvolvedBossCrystallBrain",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -8695602247100464947,
-            "Health": 600,
-            "roomCoordsX": 0.0,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -8695602247100464947,
+            "Health:4": 600,
+            "roomCoordsX:6": 0.0,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "roomSizeZ:6": 0.0,
+            "Rotation:9": [
               0,
               0
             ],
-            "roomSizeZ": 0.0,
-            "roomSizeY": 0.0,
-            "roomSizeX": 0.0,
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "roomSizeY:6": 0.0,
+            "roomSizeX:6": 0.0,
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -41134,11 +41136,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -41152,31 +41154,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31515761597583,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31515761597583,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -41231,57 +41233,57 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Size": 0,
-            "Attributes": [
+            "Size:4": 0,
+            "Attributes:9": [
               {
-                "Base": 600.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 600.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 0.05000000074505806,
-                "Name": "generic.movementSpeed"
+                "Base:6": 0.05000000074505806,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedBossSlime",
-            "HealF": 600.0,
-            "Motion": [
+            "PersistenceRequired:4": 0,
+            "HealF:6": 600.0,
+            "id:8": "GalacticraftCore.EvolvedBossSlime",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": 7447897214129003200,
-            "Health": 600,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": 7447897214129003200,
+            "Health:4": 600,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": [
               0,
               0
             ],
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -41295,11 +41297,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -41313,31 +41315,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31487744687521,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31487744687521,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -41392,64 +41394,64 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
-            "Attributes": [
+            "Attributes:9": [
               {
-                "Base": -2.0,
-                "Name": "tc.mobmod"
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
               },
               {
-                "Base": 300.0,
-                "Name": "generic.maxHealth"
+                "Base:6": 300.0,
+                "Name:8": "generic.maxHealth"
               },
               {
-                "Base": 0.0,
-                "Name": "generic.knockbackResistance"
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
               },
               {
-                "Base": 4.0,
-                "Name": "generic.movementSpeed"
+                "Base:6": 4.0,
+                "Name:8": "generic.movementSpeed"
               },
               {
-                "Base": 16.0,
-                "Name": "generic.followRange"
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
               },
               {
-                "Base": 3.0,
-                "Name": "generic.attackDamage"
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable": 0,
-            "PortalCooldown": 0,
-            "AbsorptionAmount": 0.0,
-            "FallDistance": 0.0,
-            "DeathTime": 0,
-            "DropChances": [
+            "Invulnerable:4": 0,
+            "PortalCooldown:4": 0,
+            "AbsorptionAmount:6": 0.0,
+            "FallDistance:6": 0.0,
+            "DeathTime:4": 0,
+            "DropChances:9": [
               0,
               0,
               0,
               0,
               0
             ],
-            "PersistenceRequired": 0,
-            "id": "GalacticraftCore.EvolvedBossCrab",
-            "HealF": 300.0,
-            "Motion": [
+            "PersistenceRequired:4": 0,
+            "HealF:6": 300.0,
+            "id:8": "GalacticraftCore.EvolvedBossCrab",
+            "Motion:9": [
               0,
               0,
               0
             ],
-            "Leashed": 0,
-            "UUIDLeast": -7408821166148249931,
-            "Health": 300,
-            "Air": 0,
-            "OnGround": 0,
-            "Dimension": 0,
-            "Rotation": [
+            "Leashed:4": 0,
+            "UUIDLeast:4": -7408821166148249931,
+            "Health:4": 300,
+            "Air:4": 0,
+            "OnGround:4": 0,
+            "Dimension:4": 0,
+            "Rotation:9": [
               0,
               0
             ],
-            "CreatureInfusion": {
-              "PlayerInfusions": [
+            "CreatureInfusion:10": {
+              "PlayerInfusions:9": [
                 0,
                 0,
                 0,
@@ -41463,11 +41465,11 @@
                 0,
                 0
               ],
-              "InfusionCosts": {
-                "Aspects": ""
+              "tumorWarpTemp:4": 0,
+              "InfusionCosts:10": {
+                "Aspects:8": ""
               },
-              "tumorWarpTemp": 0,
-              "Infusions": [
+              "Infusions:9": [
                 0,
                 0,
                 0,
@@ -41481,31 +41483,31 @@
                 0,
                 0
               ],
-              "toggleClimb": 0,
-              "toggleInvisible": 0,
-              "tumorWarp": 0,
-              "sitting": 0,
-              "tumorWarpPermanent": 0
+              "toggleClimb:4": 0,
+              "toggleInvisible:4": 0,
+              "tumorWarp:4": 0,
+              "tumorWarpPermanent:4": 0,
+              "sitting:4": 0
             },
-            "UUIDMost": 31452827876544,
-            "Equipment": [
+            "Equipment:9": [
               {},
               {},
               {},
               {},
               {}
             ],
-            "CustomName": "",
-            "Pos": [
+            "UUIDMost:4": 31452827876544,
+            "CustomName:8": "",
+            "Pos:9": [
               0,
               0,
               0
             ],
-            "Fire": 0,
-            "CanPickUpLoot": 0,
-            "HurtTime": 0,
-            "AttackTime": 0,
-            "CustomNameVisible": 0
+            "Fire:4": 0,
+            "CanPickUpLoot:4": 0,
+            "HurtTime:4": 0,
+            "AttackTime:4": 0,
+            "CustomNameVisible:4": 0
           },
           "taskID": "bq_standard:hunt"
         }
