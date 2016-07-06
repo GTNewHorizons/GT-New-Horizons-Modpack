@@ -2224,7 +2224,11 @@
         "Damage": 0
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         27
@@ -2287,7 +2291,7 @@
         }
       ],
       "preRequisites": [
-        28
+        474
       ]
     },
     {
@@ -2371,7 +2375,7 @@
         }
       ],
       "preRequisites": [
-        28
+        474
       ]
     },
     {
@@ -2443,7 +2447,7 @@
         }
       ],
       "preRequisites": [
-        28
+        474
       ]
     },
     {
@@ -2650,7 +2654,7 @@
         }
       ],
       "preRequisites": [
-        28
+        474
       ]
     },
     {
@@ -3209,7 +3213,7 @@
     {
       "questID": 41,
       "name": "Don\u0027t burn your fingers!",
-      "description": "You have decided its time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discover a magical item that would allow you to carry anything hot, even lava in a bucket",
+      "description": "You have decided its time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discover a magical item that would allow you to carry anything hot, even lava in a bucket.\n\nThe Gloves are be placed in the Baubles Ring slots from Thaumcraft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3239,24 +3243,45 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
           "requiredItems": [
             {
               "id": "dreamcraft:item.OvenGlove",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Durability:4": 1000
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.OvenGlove",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "Durability:4": 1000
-              }
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -35005,6 +35030,121 @@
       ]
     },
     {
+      "questID": 474,
+      "name": "Upgrade 2.0",
+      "description": "Find Iron, Copper and Tin Ore very funny but how you can mine it which just a flint pickaxe? I have an idea, could you bring me all your Stone your mined  with your Flint Pick and I will give you a better Tool Head in exchange.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 225,
+            "Head:4": 2,
+            "HeadEXP:4": 0,
+            "BaseAttack:4": 4,
+            "Built:4": 1,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 2,
+            "Attack:4": 4,
+            "RenderHead:4": 2,
+            "ModDurability:6": 0.0,
+            "Handle:4": 2,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 2,
+            "Accessory:4": 2,
+            "MiningSpeed:4": 600,
+            "RenderAccessory:4": 2,
+            "ToolLevel:4": 1,
+            "HarvestLevelModified:4": 0,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 225
+          },
+          "display:10": {
+            "Name:8": "§fIron Pickaxe"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:pickaxeHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:hatchetHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:shovelHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        28,
+        472
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -41808,7 +41948,7 @@
         },
         {
           "id": 28,
-          "x": 36,
+          "x": 60,
           "y": 216
         },
         {
@@ -41900,6 +42040,11 @@
           "id": 473,
           "x": 0,
           "y": 108
+        },
+        {
+          "id": 474,
+          "x": 60,
+          "y": 180
         }
       ]
     },
