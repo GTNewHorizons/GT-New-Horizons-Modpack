@@ -89,7 +89,7 @@ mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_TAINTED_CORE", 3);
 mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_TAINTED_CORE", 5);
 
 // --- Wand Argumentation Charge Buffer
-mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_CHARGE_BUFFER", "instrumentum 3, praecantatio 6, potentia 12, vacous 9, tenebrae 15, alienis 18");
+mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_CHARGE_BUFFER", "instrumentum 3, praecantatio 6, potentia 12, vacuos 9, tenebrae 15, alienis 18");
 mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_CHARGE_BUFFER", 3);
 
 // --- Wand Argumentation Vis Channel
