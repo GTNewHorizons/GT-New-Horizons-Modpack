@@ -72,15 +72,15 @@ mods.thaumcraft.Research.setAspects("@CRIMSON_REALISATION", "alienis 3, auram 12
 mods.thaumcraft.Research.setComplexity("@CRIMSON_REALISATION", 3);
 
 // --- Crimson Celestial Field
-mods.thaumcraft.Research.setAspects("@CRIMSON_CELESTIAL_FIELD", "alienis 3, auram 12, tenebrae 6, praecantatio 9, order 15, vacous 18");
+mods.thaumcraft.Research.setAspects("@CRIMSON_CELESTIAL_FIELD", "alienis 3, auram 12, tenebrae 6, praecantatio 9, ordo 15, vacuos 18");
 mods.thaumcraft.Research.setComplexity("@CRIMSON_CELESTIAL_FIELD", 3);
 
 // --- Crimson Thaumaturgy
-mods.thaumcraft.Research.setAspects("@CRIMSON_THAUMATURGY", "alienis 3, instrumentum 12, tenebrae 6, praecantatio 9, order 15");
+mods.thaumcraft.Research.setAspects("@CRIMSON_THAUMATURGY", "alienis 3, instrumentum 12, tenebrae 6, praecantatio 9, ordo 15");
 mods.thaumcraft.Research.setComplexity("@CRIMSON_THAUMATURGY", 3);
 
 // --- Crimson Wand Argumentation
-mods.thaumcraft.Research.setAspects("@CRIMSON_WAND_AUGMENTATION", "alienis 3, tenebrae 6, instrumentum 12, praecantatio 9, order 15, machina 18, cognitio 21");
+mods.thaumcraft.Research.setAspects("@CRIMSON_WAND_AUGMENTATION", "alienis 3, tenebrae 6, instrumentum 12, praecantatio 9, ordo 15, machina 18, cognitio 21");
 mods.thaumcraft.Research.setComplexity("@CRIMSON_WAND_AUGMENTATION", 3);
 
 // --- Wand Argumentation Tainted Core

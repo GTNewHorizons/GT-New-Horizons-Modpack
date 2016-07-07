@@ -281,6 +281,7 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 // --- Magic Frame
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.addSibling("MB_FrameMagic", "INFUSION");
 mods.thaumcraft.Research.setConcealed("MB_FrameMagic", true);
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
