@@ -207,6 +207,8 @@ mods.tconstruct.Smeltery.removeMelting(<ore:dustCobalt>);
 
 // --- Alumium Ingot
 mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
+// -
+recipes.remove(<TConstruct:materials:11>);
 
 // --- Steel Ingot
 mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
