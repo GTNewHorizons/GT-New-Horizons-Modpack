@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.8 is out (xx.07.2016)(GT New Horizons Coremod 1.1.60) (GTTweaker 1.1.0)
+Version 1.0.8.8 is out (xx.07.2016)(GT New Horizons Coremod 1.1.61) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -142,7 +142,7 @@ US Server Prospercraft.com
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
 * Gregtech	5.09.22.17custom<BR>
-* GT New Horizons Core Mod	1.1.56<BR>
+* GT New Horizons Core Mod	1.1.61<BR>
 * GTTweaker	1.1.0<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
