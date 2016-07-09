@@ -12,6 +12,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Loader;
 import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fluids.FluidStack;
 
 
 public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegistrator {
@@ -61,6 +62,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(CustomItemList.SnowQueenBloodDrop.get(24L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 24L, new Object[0]), Materials.Thaumium.getMolten(216L), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 400, 4096);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 10L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 4), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 1800, 7680);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 16L, 14), GT_ModHandler.getModItem("witchery", "ingredient", 1L, 130), new ItemStack(Items.nether_star, 1, 32767), 900, 256);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Wood, 1L), GT_OreDictUnificator.get(OrePrefixes.slab, Materials.Wood, 3L), GT_Values.NF, CustomItemList.WoodenCasing.get(1L, new Object[0]), 100, 8);
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
@@ -312,6 +314,9 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier4.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.TungstenSteel), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.EnergeticAlloy), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier5.get(1L, new Object[0]),  GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Chrome), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.FierySteel), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier6.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Iridium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.Plutonium241), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
+
+        //Other
+        GT_ModHandler.addCraftingRecipe(CustomItemList.WoodenCasing.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "XCX", "SDS", Character.valueOf('S'), OrePrefixes.slab.get(Materials.Wood), Character.valueOf('D'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('X'), OrePrefixes.screw.get(Materials.Iron), Character.valueOf('C'), OrePrefixes.frameGt.get(Materials.Wood)});
 
     }
 

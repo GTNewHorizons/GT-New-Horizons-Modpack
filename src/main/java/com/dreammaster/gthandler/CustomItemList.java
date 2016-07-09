@@ -86,7 +86,8 @@ public enum CustomItemList implements IItemContainer
 	WeakOrb, ApprenticeOrb, MasterOrb, MagicianOrb, ArchmageOrb, TranscendentOrb, RawOrbTier1, RawOrbTier2, RawOrbTier3, RawOrbTier4, RawOrbTier5, RawOrbTier6,
 	ArcaneSlate,
 	TeleposerFrame,
-	MysteriousCrystal;
+	MysteriousCrystal,
+	WoodenCasing;
 
 
 	private ItemStack mStack = null;

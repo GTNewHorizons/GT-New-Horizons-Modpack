@@ -319,6 +319,7 @@ public enum ItemList
     WetTofu(new ModSimpleBaseItem("WetTofu", ModTabList.ModGenericTab)),
     WirelessTransmitter(new ModSimpleBaseItem("WirelessTransmitter", ModTabList.ModGenericTab)),
     WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
+    WoodenCasing(new ModSimpleBaseItem("WoodenCasing", ModTabList.ModGenericTab)),
 
     // Do not delete this
     EndOfList(null);
