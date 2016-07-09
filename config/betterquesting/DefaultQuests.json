@@ -2834,6 +2834,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "harvestcraft:zucchinibakeItem",
               "Count": 2,
               "OreDict": "",
@@ -2850,7 +2856,7 @@
     {
       "questID": 37,
       "name": "Getting iron",
-      "description": "With your new bronze tools, you are able to mine another \"primal\" ore: Iron. There are other iron compounds you can mine earlier, like pyrite. But iron itself, can only be mined with a bronze tool",
+      "description": "With your new bronze tools, you are able to mine most of the Overworld Ores. I think you found  Iron or Magnetite Ore already.  So bring me some Ores and make some Iron Ingots out of it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2881,16 +2887,49 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:iron_ingot",
-              "Count": 64,
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 917
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
               "OreDict": "",
               "Damage": 32
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 870
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 931
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 930
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 80,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -5653,7 +5692,122 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "minecraft:sand",
+              "Count": 120,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gravel",
+              "Count": 120,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 80,
+              "OreDict": "",
+              "Damage": 2805
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 158,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.WoodenBrickForm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.UnfiredSearedBrick",
+              "Count": 162,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 162,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 27,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "TConstruct:LavaTank",
               "Count": 1,
@@ -5668,40 +5822,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "TConstruct:Smeltery",
-              "Count": 1,
+              "id": "TConstruct:SearedBlock",
+              "Count": 2,
               "OreDict": "",
               "Damage": 1
             },
             {
-              "id": "TConstruct:SearedBlock",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "TConstruct:Smeltery",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "TConstruct:SearedBlock",
-              "Count": 1,
+              "id": "TConstruct:CastingChannel",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -5714,6 +5842,40 @@
           "requiredItems": [
             {
               "id": "TConstruct:Smeltery",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:SearedBlock",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
