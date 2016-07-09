@@ -611,7 +611,7 @@ recipes.addShaped(<Forestry:engine:2>, [
 // --- Bee House
 recipes.addShaped(<Forestry:apiculture:2>, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <Forestry:sturdyMachine>, <Forestry:frameUntreated>],
+[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
 [<ore:beeComb>, <ore:slabWood>, <ore:beeComb>]]);
 
 // --- Apiary
