@@ -87,7 +87,8 @@ public enum CustomItemList implements IItemContainer
 	ArcaneSlate,
 	TeleposerFrame,
 	MysteriousCrystal,
-	WoodenCasing;
+	WoodenCasing,
+	FR_Comb;
 
 
 	private ItemStack mStack = null;
