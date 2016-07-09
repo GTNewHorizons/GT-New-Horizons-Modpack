@@ -315,7 +315,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier6.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Iridium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.Plutonium241), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
 
         //Other
-        GT_ModHandler.addCraftingRecipe(CustomItemList.WoodenCasing.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "UCU", "SDS", Character.valueOf('S'), OrePrefixes.slab.get(Materials.Wood), Character.valueOf('D'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('X'), OrePrefixes.screw.get(Materials.Iron), Character.valueOf('C'), OrePrefixes.frameGt.get(Materials.Wood)});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.WoodenCasing.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "UCU", "SDS", Character.valueOf('S'), OrePrefixes.slab.get(Materials.Wood), Character.valueOf('D'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('U'), OrePrefixes.screw.get(Materials.Iron), Character.valueOf('C'), OrePrefixes.frameGt.get(Materials.Wood)});
     }
 
 }
