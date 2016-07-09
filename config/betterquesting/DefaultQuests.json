@@ -5697,19 +5697,19 @@
           "requiredItems": [
             {
               "id": "minecraft:sand",
-              "Count": 120,
+              "Count": 123,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "minecraft:gravel",
-              "Count": 120,
+              "Count": 123,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 80,
+              "Count": 82,
               "OreDict": "",
               "Damage": 2805
             }
@@ -5722,7 +5722,7 @@
           "requiredItems": [
             {
               "id": "TConstruct:CraftedSoil",
-              "Count": 158,
+              "Count": 162,
               "OreDict": "",
               "Damage": 1
             }
