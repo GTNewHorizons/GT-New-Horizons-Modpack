@@ -2889,31 +2889,31 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "",
+              "OreDict": "oreBandedIron",
               "Damage": 917
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "",
+              "OreDict": "oreIron",
               "Damage": 32
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "",
+              "OreDict": "oreMagnetite",
               "Damage": 870
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "",
+              "OreDict": "oreYellowLimonite",
               "Damage": 931
             },
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "",
+              "OreDict": "oreBrownLimonite",
               "Damage": 930
             }
           ],
@@ -3190,12 +3190,80 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.WoodenBrickForm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.UnfiredClayBrick",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:brick",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
           "requiredItems": [
             {
               "id": "minecraft:brick_block",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 7,
+              "OreDict": "plateIron",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:crafting"
