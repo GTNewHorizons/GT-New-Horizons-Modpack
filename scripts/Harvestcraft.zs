@@ -189,25 +189,25 @@ recipes.addShaped(<harvestcraft:potItem>, [
 
 // --- Skilet
 recipes.addShaped(<harvestcraft:skilletItem>, [
-[<Forestry:oakStick>, <ore:stickPlastic>, <ore:craftingToolHardHammer>],
-[<ore:stickPlastic>, <ore:bucketEmpty>, <ore:plateAnyIron>],
-[<Forestry:oakStick>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
+[<ore:stickWood>, <ore:stickIron>, <ore:craftingToolHardHammer>],
+[<ore:stickIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:stickWood>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
 // -
 recipes.addShaped(<harvestcraft:skilletItem>, [
-[<Forestry:oakStick>, <ore:stickPlastic>, <ore:craftingToolFile>],
-[<ore:stickPlastic>, <ore:bucketEmpty>, <ore:plateAnyIron>],
-[<Forestry:oakStick>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
+[<ore:stickWood>, <ore:stickIron>, <ore:craftingToolFile>],
+[<ore:stickIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
 
 // --- Saucepan
 recipes.addShaped(<harvestcraft:saucepanItem>, [
-[<ore:stickPlastic>, <ore:craftingToolFile>, <ore:screwIron>],
-[<Forestry:oakStick>, <ore:bucketEmpty>, <ore:plateAnyIron>],
-[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
+[<ore:stickWood>, <ore:craftingToolFile>, <ore:screwIron>],
+[<ore:stickIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:plateAnyIron>]]);
 // -
 recipes.addShaped(<harvestcraft:saucepanItem>, [
-[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:screwIron>],
-[<Forestry:oakStick>, <ore:bucketEmpty>, <ore:plateAnyIron>],
-[<ore:stickPlastic>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
+[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:screwIron>],
+[<ore:stickIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
+[<ore:stickWood>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
 
 
 // --- Mixing Bowl
@@ -378,7 +378,22 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <m
 // -
 recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
 
+// --- Wet Tofu
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+// -
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
 
+// --- Firm Tofu
+recipes.addShapeless(<harvestcraft:firmtofuItem>, [<ore:craftingToolSoftHammer>, <dreamcraft:item.WetTofu>]);
+
+// --- Silken Tofu
+recipes.addShapeless(<harvestcraft:silkentofuItem>, [<ore:craftingToolRollingPin>, <harvestcraft:firmtofuItem>]);
+
+// --- Rainbow Curry
+recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
+[<minecraft:red_flower:1>, <minecraft:double_plant:2>, <BiomesOPlenty:flowers2:2>],
+[<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
+[<minecraft:bowl>, <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
 
 // --- Ordicted Things ---
