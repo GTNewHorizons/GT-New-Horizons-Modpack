@@ -1679,7 +1679,7 @@ ChemicalBath.addRecipe([LClearingTube], <StevesCarts:ModuleComponents:24>, <liqu
 
 
 // --- Raw Hardener
-ChemicalReactor.addRecipe(<StevesCarts:ModuleComponents:18> * 2, null, <minecraft:diamond>, null, <liquid:obsidian.molten> * 1152, 600);
+ChemicalReactor.addRecipe(<StevesCarts:ModuleComponents:18> * 2, null, <minecraft:diamond>, null, <liquid:obsidian.molten> * 1152, 600, 30);
 
 
 

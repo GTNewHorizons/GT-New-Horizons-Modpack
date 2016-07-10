@@ -145,4 +145,4 @@ Assembler.addRecipe(<WR-CBE|Addons:rep>, <WR-CBE|Core:blazeTransceiver> * 2, <WR
 
 
 // --- REther Pearl
-ChemicalReactor.addRecipe(<WR-CBE|Core:retherPearl>, null, <minecraft:ender_pearl>, <minecraft:glowstone_dust>, <liquid:molten.redstone> * 144, 1200);
+ChemicalReactor.addRecipe(<WR-CBE|Core:retherPearl>, null, <minecraft:ender_pearl>, <minecraft:glowstone_dust>, <liquid:molten.redstone> * 144, 1200, 30);

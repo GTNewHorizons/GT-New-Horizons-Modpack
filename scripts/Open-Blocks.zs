@@ -625,7 +625,7 @@ ChemicalBath.addRecipe([<OpenBlocks:goldenEye:100>], <minecraft:ender_eye>, <liq
 
 
 // --- Sponge
-ChemicalReactor.addRecipe(<OpenBlocks:sponge>, null, <minecraft:wool>, <minecraft:slime_ball>, <liquid:water> * 1000, 200);
+ChemicalReactor.addRecipe(<OpenBlocks:sponge>, null, <minecraft:wool>, <minecraft:slime_ball>, <liquid:water> * 1000, 200, 30);
 
 
 
