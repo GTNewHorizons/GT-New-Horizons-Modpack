@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.8 is out (xx.07.2016)(GT New Horizons Coremod 1.1.61) (GTTweaker 1.1.0)
+Version 1.0.8.8 is out (10.07.2016)(GT New Horizons Coremod 1.1.61) (GTTweaker 1.1.0)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -72,7 +72,7 @@ US Server Prospercraft.com
 ---
 
 
-## Modlist - NewHorizons 1.0.8.8 --- xx.07.2016<BR>
+## Modlist - NewHorizons 1.0.8.8 --- 10.07.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e25<BR>
@@ -143,7 +143,7 @@ US Server Prospercraft.com
 * Gravitation Suite	2.0.67u<BR>
 * Gregtech	5.09.22.17custom<BR>
 * GT New Horizons Core Mod	1.1.61<BR>
-* GTTweaker	1.1.0<BR>
+* GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
@@ -208,7 +208,7 @@ US Server Prospercraft.com
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.9<BR>
+* Storage Drawers	1.10.0<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * Thaumcraft	4.2.3.5<BR>
