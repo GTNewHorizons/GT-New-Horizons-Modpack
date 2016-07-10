@@ -2873,10 +2873,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockores",
+        "id": "minecraft:iron_ore",
         "Count": 1,
         "OreDict": "",
-        "Damage": 32
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -6066,6 +6066,21 @@
             }
           ],
           "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:planks",
+              "Count": 130,
+              "OreDict": "plankWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
