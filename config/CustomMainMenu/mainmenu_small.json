@@ -7,7 +7,7 @@
             "image" : "mainmenu:textures/bg_menu2.png",
             "posX" : 0,
             "posY" : 0,
-            "width" : 150,
+            "width" : 300,
             "height" : 4096,
             "alignment" : "column_top"
         },
@@ -16,15 +16,15 @@
             "image" : "mainmenu:textures/logo2.png",
             "posX" : 0,
             "posY" : 0,
-            "width" : 150,
-            "height" : 116.3692785,
+            "width" : 300,
+            "height" : 232.738557,
             "alignment" : "column_logo"
         }
 	
 	},
     
     "buttons":
-    {  
+    {   
 		"singleplayer":
         {
             "text" : "Singleplayer",
@@ -34,7 +34,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -120,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,
@@ -55,7 +55,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -100,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,
@@ -75,7 +75,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -80,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,
@@ -95,7 +95,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -60,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,			
@@ -115,7 +115,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -40,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,
@@ -138,7 +138,7 @@
 			"texture" : "mainmenu:textures/btn4.png",
             "posX" : 0,
             "posY" : -20,
-            "width" : 150,
+            "width" : 300,
             "height" : 20,
 			imageWidth : 1000,
 			imageHeight : 1,
@@ -155,7 +155,7 @@
         "mojang":
         {
             "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
-            "posX" : 155,
+            "posX" : 305,
             "posY" : 0,
             "alignment" : "column_bottom"
         }
