@@ -95,6 +95,9 @@ recipes.remove(<IC2NuclearControl:networkLink>);
 // --- Portable Information Panel
 recipes.remove(<IC2NuclearControl:remoteMonitor>);
 
+// --- Vanilla Kit
+recipes.remove(<IC2NuclearControl:ItemVanilliaKit>);
+
 
 
 
@@ -245,3 +248,6 @@ Assembler.addRecipe(<IC2NuclearControl:ItemUpgrade>, <gregtech:gt.metaitem.01:32
 
 // --- Text Card
 Assembler.addRecipe(<IC2NuclearControl:ItemTextCard>, <gregtech:gt.metaitem.01:32740>, <IC2:itemFreq>, 1600, 2);
+
+// --- Vanilla Kit
+Assembler.addRecipe(<IC2NuclearControl:ItemVanilliaKit>, <IC2:itemPartCircuit>, <IC2:itemFreq>, 1600, 2);
