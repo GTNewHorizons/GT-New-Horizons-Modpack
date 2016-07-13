@@ -414,6 +414,7 @@ public class GT_Loader_Items
 		CustomItemList.TeleposerFrame.set(com.dreammaster.item.ItemList.TeleposerFrame.getIS());
 		CustomItemList.MysteriousCrystal.set(com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
 		CustomItemList.WoodenCasing.set(com.dreammaster.item.ItemList.WoodenCasing.getIS());
+		CustomItemList.EssentiaCircuit.set(com.dreammaster.item.ItemList.EssentiaCircuit.getIS());
 	}
 
 }

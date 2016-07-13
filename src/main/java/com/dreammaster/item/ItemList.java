@@ -95,6 +95,7 @@ public enum ItemList
     EnrichedNaquadriaSunnariumAlloy(new ModSimpleBaseItem("EnrichedNaquadriaSunnariumAlloy", ModTabList.ModGenericTab)),
     EnrichedNaquadriaNeutroniumSunnariumAlloy(new ModSimpleBaseItem("EnrichedNaquadriaNeutroniumSunnariumAlloy", ModTabList.ModGenericTab)),
     EnvironmentalCircuit(new ModSimpleBaseItem("EnvironmentalCircuit", ModTabList.ModCircuitsTab)),
+    EssentiaCircuit(new ModSimpleBaseItem("EssentiaCircuit", ModTabList.ModCircuitsTab)),
     EtchedLowVoltageWiring(new ModSimpleBaseItem("EtchedLowVoltageWiring", ModTabList.ModCircuitsTab)),
     EtchedInsaneVoltageWiring(new ModSimpleBaseItem("EtchedInsaneVoltageWiring", ModTabList.ModCircuitsTab)),
     EtchedLudicrousVoltageWiring(new ModSimpleBaseItem("EtchedLudicrousVoltageWiring", ModTabList.ModCircuitsTab)),
