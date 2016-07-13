@@ -81,6 +81,7 @@ public enum ItemList
     EnderiumBaseBars(new ModSimpleBaseItem("EnderiumBaseBars", ModTabList.ModGenericTab)),
     EnderiumBars(new ModSimpleBaseItem("EnderiumBars", ModTabList.ModGenericTab)),
     EnergeticAlloyBars(new ModSimpleBaseItem("EnergeticAlloyBars", ModTabList.ModGenericTab)),
+    EngineeringProcessorEssentiaPulsatingCore(new ModSimpleBaseItem("EngineeringProcessorEssentiaPulsatingCore", ModTabList.ModCircuitsTab)),
     EngineeringProcessorFluidDiamondCore(new ModSimpleBaseItem("EngineeringProcessorFluidDiamondCore", ModTabList.ModCircuitsTab)),
     EngineeringProcessorFluidEmeraldCore(new ModSimpleBaseItem("EngineeringProcessorFluidEmeraldCore", ModTabList.ModCircuitsTab)),
     EngineeringProcessorItemAdvEmeraldCore(new ModSimpleBaseItem("EngineeringProcessorItemAdvEmeraldCore", ModTabList.ModCircuitsTab)),

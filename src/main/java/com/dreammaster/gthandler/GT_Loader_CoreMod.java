@@ -75,6 +75,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(ItemList.Gravistar.get(1L, new Object[]{}), CustomItemList.NanoCircuit.get(4L, new Object[]{}), Materials.Osmium.getMolten(576L), ItemList.Field_Generator_LuV.get(1, new Object[0]), 2400, 7680);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.MysteriousCrystal.get(1L, new Object[]{}), CustomItemList.PikoCircuit.get(4L, new Object[]{}), Materials.Naquadah.getMolten(576L), ItemList.Field_Generator_ZPM.get(1, new Object[0]), 3000, 7680);
         GT_Values.RA.addAssemblerRecipe(new ItemStack(Blocks.dragon_egg, 1, 32767), CustomItemList.QuantumCircuit.get(4L, new Object[]{}), Materials.NaquadahAlloy.getMolten(576L), ItemList.Field_Generator_UV.get(1, new Object[0]), 3600, 7680);
+        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("appliedenergistics2", "item.ItemMultiMaterial", 1L, 24), CustomItemList.EssentiaCircuit.get(1L, new Object[]{}), CustomItemList.EngineeringProcessorEssentiaPulsatingCore.get(1, new Object[0]), 100, 1920);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
@@ -224,7 +225,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         }
         GT_Values.RA.addFormingPressRecipe(CustomItemList.MalformedSlush.get(2L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.UncookedSlush.get(1L, new Object[0]), 1200, 120);
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(0L, new Object[0]), CustomItemList.MarshmallowForm.get(1L, new Object[0]), 200, 256);
-        GT_Values.RA.addFormingPressRecipe(ItemList.Circuit_Parts_Crystal_Chip_Master.get(1L, new Object[0]), GT_ModHandler.getModItem("BuildCraft|Silicon", "redstoneChipset", 1L, 4), CustomItemList.EssentiaCircuit.get(1L, new Object[0]), 300, 1920);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Circuit_Parts_Crystal_Chip_Master.get(1L, new Object[0]), GT_ModHandler.getModItem("BuildCraft|Silicon", "redstoneChipset", 1L, 4), CustomItemList.EssentiaCircuit.get(1L, new Object[0]), 300, 480);
 
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 32767), CustomItemList.NetherStarFragment.get(2L, new Object[0]), 16, 30);
 
