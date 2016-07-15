@@ -15,6 +15,8 @@ import mods.gregtech.Centrifuge;
 
 // --- Emerald Nugget
 recipes.removeShaped(<ForbiddenMagic:FMResource> * 9, [[<minecraft:emerald>]]);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<ForbiddenMagic:FMResource>);
 
 // --- Riding Crop
 recipes.remove(<ForbiddenMagic:RidingCrop>);
@@ -36,6 +38,17 @@ mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:BlinkFocus>);
 
 // --- Thaumic Cake
 mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:ArcaneCakeItem>);
+
+// --- Diabolic Fork
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:DiabolistFork>);
+
+// --- Axe of the Skulltaker
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:SkullAxe>);
+
+// --- Rapier of the Strix
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:BloodRapier>);
+
+
 
 
 
@@ -133,6 +146,38 @@ mods.thaumcraft.Infusion.addRecipe("ARCANECAKE", <minecraft:cake>,
 mods.thaumcraft.Research.setAspects("ARCANECAKE",  "praecantatio 18, gula 15, fames 12, fabrico 9, limus 6, aqua 3");
 mods.thaumcraft.Research.setComplexity("ARCANECAKE", 3);
 
+// --- Diabolic Fork
+mods.thaumcraft.Infusion.addRecipe("FORK", <Thaumcraft:ItemSwordThaumium>,
+[<gregtech:gt.metaitem.01:23977>, <gregtech:gt.metaitem.01:27541>, <appliedenergistics2:item.ItemMultiMaterial:1>, <gregtech:gt.metaitem.01:23977>, <gregtech:gt.metaitem.01:27541>, <appliedenergistics2:item.ItemMultiMaterial:1>, <gregtech:gt.metaitem.01:23977>, <gregtech:gt.metaitem.01:27541>, <appliedenergistics2:item.ItemMultiMaterial:1>],
+"telum 32, infernus 24, potentia 16 , machina 8", <ForbiddenMagic:DiabolistFork>, 10);
+// -
+mods.thaumcraft.Research.setAspects("FORK",  "tenebrae 18, praecantatio 15, infernus 12, machina 9, instrumentum 6, telum 3");
+mods.thaumcraft.Research.setComplexity("FORK", 3);
+mods.thaumcraft.Warp.addToResearch("FORK", 2);
+
+// --- Axe of the Skulltaker
+mods.thaumcraft.Infusion.addRecipe("SKULLAXE", <Thaumcraft:ItemAxeElemental>,
+[<ForbiddenMagic:NetherShard>, <minecraft:skull>, <ForbiddenMagic:NetherShard>, <minecraft:skull:1>, <ForbiddenMagic:NetherShard>, <gregtech:gt.metaitem.02:30502>, <ForbiddenMagic:NetherShard>, <minecraft:skull:2>, <ForbiddenMagic:NetherShard>, <minecraft:skull:4>],
+"infernus 32, ira 24, telum 24, potentia 16, mortuus 8", <ForbiddenMagic:SkullAxe>, 10);
+// -
+mods.thaumcraft.Research.setAspects("SKULLAXE",  "praecantatio 18, instrumentum 15, mortuus 12, ira 9, telum 6, infernus 3");
+mods.thaumcraft.Research.setComplexity("SKULLAXE", 3);
+mods.thaumcraft.Warp.addToResearch("SKULLAXE", 2);
+
+// --- Rapier of the Strix
+mods.thaumcraft.Infusion.addRecipe("BLOODRAPIER", <Thaumcraft:ItemSwordVoid>,
+[<minecraft:feather>, <Thaumcraft:ItemResource:11>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:12>, <ForbiddenMagic:GluttonyShard>, <gregtech:gt.metaitem.02:30514>, <Thaumcraft:ItemResource:11>, <ForbiddenMagic:NetherShard>, <Thaumcraft:ItemResource:12>, <ForbiddenMagic:GluttonyShard>],
+"tenebrae 16, victus 24, telum 16, fames 32, gula 8", <ForbiddenMagic:BloodRapier>, 10);
+// -
+mods.thaumcraft.Research.setAspects("BLOODRAPIER",  "tenebrae 18, gula 15, victus 12, fames 9, praecantatio 6, telum 3");
+mods.thaumcraft.Research.setComplexity("BLOODRAPIER", 3);
+mods.thaumcraft.Warp.addToResearch("BLOODRAPIER", 2);
+
+// --- Emerald Nugget
+mods.thaumcraft.Crucible.addRecipe("TRANSEMERALD", <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource> * 4, "lucrum 4, vitreus 4");
+// -
+mods.thaumcraft.Research.setAspects("TRANSEMERALD",  "permutatio 15, vitreus 12, lucrum 9, terra 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("TRANSEMERALD", 3);
 
 
 
@@ -159,3 +204,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("FOCUSBLINK");
 
 // --- Thaumic Cake
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANECAKE");
+
+// --- Emerald Nugget
+mods.thaumcraft.Research.refreshResearchRecipe("TRANSEMERALD");
+
+// --- Diabolic Fork
+mods.thaumcraft.Research.refreshResearchRecipe("FORK");
+
+// --- Axe of the Skulltaker
+mods.thaumcraft.Research.refreshResearchRecipe("SKULLAXE");
+
+// --- Rapier of the Strix
+mods.thaumcraft.Research.refreshResearchRecipe("BLOODRAPIER");
