@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.8.8 is out (10.07.2016)(GT New Horizons Coremod 1.1.61) (GTTweaker 1.1.0)
+Version 1.0.9.0 is out (16.07.2016)(GT New Horizons Coremod 1.1.63) (GTTweaker 1.1.1)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -72,7 +72,7 @@ US Server Prospercraft.com
 ---
 
 
-## Modlist - NewHorizons 1.0.8.8 --- 10.07.2016<BR>
+## Modlist - NewHorizons 1.0.9.0 --- 16.07.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e25<BR>
@@ -91,7 +91,6 @@ US Server Prospercraft.com
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
-* Better HUD 1.3.4<BR>
 * Better Questing 1.0.132<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
@@ -115,6 +114,7 @@ US Server Prospercraft.com
 * Computronics	1.6.0<BR>
 * Craft Tweaker 3.0.10<BR>
 * Custom Main Menu 1.9.2<BR>
+* Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2h1custom<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.5<BR>
@@ -141,15 +141,15 @@ US Server Prospercraft.com
 * Galaxy Space	2.6 Beta<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.22.17custom<BR>
-* GT New Horizons Core Mod	1.1.61<BR>
+* Gregtech	5.09.22.20custom<BR>
+* GT New Horizons Core Mod	1.1.63<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.5<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.103<BR>
 * Chisel	2.5.1.44<BR>
-* IC2 Nuclear Control	2.4.0b<BR>
+* IC2 Nuclear Control	2.4.1a<BR>
 * IguanaTinkerTweaks	2.1.6a<BR>
 * Industrial Craft 2	2.2.2.822<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
@@ -179,7 +179,7 @@ US Server Prospercraft.com
 * Open Blocks	1.5.1<BR>
 * Open Computers	1.5.22.46<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.2.219<BR>
+* Open Modular Turrets 2.2.3.221<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
