@@ -120,6 +120,8 @@ mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:knowledge.core>);
 // --- Knowledge Inscriber
 mods.thaumcraft.Arcane.removeRecipe(<thaumicenergistics:thaumicenergistics.block.knowledge.inscriber>);
 
+// --- Infusion Provider
+mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:thaumicenergistics.block.infusion.provider>);
 
 
 
@@ -421,11 +423,17 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEKNOWLEDGEINSCRIBER", <tha
 [<ore:plateThaumium>, <appliedenergistics2:item.ItemMultiPart:400>, <ore:plateThaumium>],
 [<ore:plateInfusedEntropy>, <thaumicenergistics:knowledge.core>, <ore:plateInfusedEntropy>],
 [<ore:plateThaumium>, <Thaumcraft:ItemThaumonomicon>, <ore:plateThaumium>]]);
-
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEKNOWLEDGEINSCRIBER", "cognitio 18, machina 15, fabrico 12, permutatio 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEKNOWLEDGEINSCRIBER", 3);
 
+// --- Infusion Provider
+mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEINFPROV", <thaumicenergistics:thaumicenergistics.block.essentia.provider>,
+[<Thaumcraft:blockMirror:6>, <Thaumcraft:blockCrystal>, <thaumicenergistics:part.base>, <thaumicenergistics:material>, <Thaumcraft:ItemResource:14>, <Thaumcraft:blockMirror:6>, <Thaumcraft:ItemResource:14>, <thaumicenergistics:material:1>, <thaumicenergistics:part.base:3>, <Thaumcraft:blockCrystal>],
+"machina 64, ordo 48, permutatio 32, praecantatio 16, alienis 24, spiritus 8", <thaumicenergistics:thaumicenergistics.block.infusion.provider>, 10);
+// -
+mods.thaumcraft.Research.setAspects("thaumicenergistics.TEINFPROV", "permutatio 21, motus 18, sensus 15, machina 12, praecantatio 9, alienis 6, spiritus 3");
+mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEINFPROV", 3);
 
 
 
@@ -479,3 +487,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEARCANEASSEM
 
 // --- Knowledge Inscriber and Core
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEKNOWLEDGEINSCRIBER");
+
+// --- Infusion Provider
+mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEINFPROV");

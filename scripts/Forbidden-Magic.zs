@@ -48,6 +48,12 @@ mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:SkullAxe>);
 // --- Rapier of the Strix
 mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:BloodRapier>);
 
+// --- Wrath Cage
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
+
+// --- Blank Imprinting Crystal
+mods.thaumcraft.Crucible.removeRecipe(<ForbiddenMagic:MobCrystal>);
+
 
 
 
@@ -179,6 +185,17 @@ mods.thaumcraft.Crucible.addRecipe("TRANSEMERALD", <ForbiddenMagic:FMResource>, 
 mods.thaumcraft.Research.setAspects("TRANSEMERALD",  "permutatio 15, vitreus 12, lucrum 9, terra 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("TRANSEMERALD", 3);
 
+// --- Wrath Cage
+mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <EnderIO:itemBrokenSpawner>,
+[<gregtech:gt.blockmetal7:4>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard>, <ForbiddenMagic:MobCrystal>, <ForbiddenMagic:MobCrystal>, <ForbiddenMagic:MobCrystal>, <ForbiddenMagic:MobCrystal>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>, <Thaumcraft:blockJar>],
+"ira 32, machina 32, bestia 64, metallum 48, alienis 16, exanimis 16, praecantatio 32", <ForbiddenMagic:WrathCage>, 15);
+
+// --- Blank Imprinting Crystal
+mods.thaumcraft.Crucible.addRecipe("WRATHCAGE", <ForbiddenMagic:MobCrystal>, <IC2:itemBatCrystal:*>, "cognitio 10, potentia 10, praecantatio 10, vitreus 10");
+// -
+mods.thaumcraft.Research.setAspects("WRATHCAGE",  "ira 21, machina 18, bestia 15, metallum 12, praecantatio 9, alienis 6, exanimis 3");
+mods.thaumcraft.Research.setComplexity("WRATHCAGE", 3);
+mods.thaumcraft.Warp.addToResearch("WRATHCAGE", 5);
 
 
 // --- Refresh Thaumcraft Recipes ---
@@ -216,3 +233,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("SKULLAXE");
 
 // --- Rapier of the Strix
 mods.thaumcraft.Research.refreshResearchRecipe("BLOODRAPIER");
+
+// --- Wrath Cage and Blank Imprinting Crystal
+mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
