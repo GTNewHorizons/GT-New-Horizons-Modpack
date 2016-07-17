@@ -1155,8 +1155,8 @@ mods.thaumcraft.Infusion.addRecipe("CAP_blood_iron", <ForbiddenMagic:WandCaps>,
 "aqua 32, praecantatio 24, victus 24, metallum 16, ignis 8", <dreamcraft:item.WandCapBloodIron>, 5);
 mods.thaumcraft.Research.addInfusionPage("CAP_blood_iron", <dreamcraft:item.WandCapBloodIron>);
 // -
-//mods.thaumcraft.Research.setAspects("CAP_blood_iron", "");
-//mods.thaumcraft.Research.setComplexity("CAP_blood_iron", 3);
+mods.thaumcraft.Research.setAspects("CAP_blood_iron", "victus 18, aqua 15 , praecantatio 12, tenebrae 9, metallum 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("CAP_blood_iron", 3);
 mods.thaumcraft.Warp.addToResearch("CAP_blood_iron", 3);
 
 // --- Blood Infused Woooden Rod
@@ -1168,21 +1168,28 @@ mods.thaumcraft.Infusion.addRecipe("ROD_blood_wood", <ForbiddenMagic:WandCores:3
 "praecantatio 32, instrumentum 24, victus 32, arbor 16, potentia 8", <BloodArsenal:wand_cores>, 8);
 mods.thaumcraft.Research.addInfusionPage("ROD_blood_wood", <BloodArsenal:wand_cores>);
 // -
-//mods.thaumcraft.Research.setAspects("ROD_blood_wood", "");
-//mods.thaumcraft.Research.setComplexity("ROD_blood_wood", 3);
+mods.thaumcraft.Research.setAspects("ROD_blood_wood", "victus 18, praecantatio 15, aqua 12, tenebrae 9, instrumentum 6, terra 3");
+mods.thaumcraft.Research.setComplexity("ROD_blood_wood", 3);
 mods.thaumcraft.Warp.addToResearch("ROD_blood_wood", 5);
 
 // --- Blood Infused Wodden Staff of Doom
-mods.thaumcraft.Research.clearPages("ROD_blood_wood_staff");
-mods.thaumcraft.Research.addPage("ROD_blood_wood_staff", "blood_arsenal.research_page.ROD_blood_wood_staff.1");
-mods.thaumcraft.Infusion.addRecipe("ROD_blood_wood_staff", <ForbiddenMagic:WandCores:9>, 
+mods.thaumcraft.Research.orphanResearch("ROD_blood_wood_staff");
+mods.thaumcraft.Research.removeResearch("ROD_blood_wood_staff");
+mods.thaumcraft.Research.addResearch("RODBLOODWOODSTUFF", "FORBIDDEN", "victus 18, instrumentum 15, aqua 12, praecantatio 9, potentia 6, tenebrae 3", 7, -5, 3, <BloodArsenal:wand_cores:1>);
+game.setLocalization("tc.research_name.RODBLOODWOODSTUFF", "Blood Infused Wood Staff Core");
+game.setLocalization("tc.research_text.RODBLOODWOODSTUFF", "Bringing Doom to the party");
+mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTUFF", "ROD_blood_staff", false);
+mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTUFF", "ROD_blood_wood", false);
+mods.thaumcraft.Research.setConcealed("RODBLOODWOODSTUFF", true);
+mods.thaumcraft.Research.setSpikey("RODBLOODWOODSTUFF", true);
+mods.thaumcraft.Research.addPage("RODBLOODWOODSTUFF", "tc.research_page.RODBLOODWOODSTUFF");
+game.setLocalization("tc.research_page.RODBLOODWOODSTUFF", "Even with your supremely regenerative wand and caps, you are still not yet satisfied. You know that when the Blood Rods are turned into Blood Staff Cores, they regenerate four times faster but holds half the amount of vis. Working with some dark magics and a Blood Staff Core, you can now create a living terror. This mighty staff regenerates 2 times faster than the Blood Staff but this is where the regenerative capabilities of Blood Infused Wood meet its limits: the wood itself seemingly tries to regenerate faster than it physically can. To compensate for this, it has to draw Life from the player every time it regenerates vis. And unlike the other blood wands, it doesn't care if you survive or not...");
+mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTUFF", <ForbiddenMagic:WandCores:9>, 
 [<BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>],
 "victus 64, aqua 64, praecantatio 64, instrumentum 48, metallum 16, ignis 16, infernus 8, arbor 32", <BloodArsenal:wand_cores:1>, 12);
-mods.thaumcraft.Research.addInfusionPage("ROD_blood_wood_staff", <BloodArsenal:wand_cores:1>);
+mods.thaumcraft.Research.addInfusionPage("RODBLOODWOODSTUFF", <BloodArsenal:wand_cores:1>);
 // -
-//mods.thaumcraft.Research.setAspects("ROD_blood_wood_staff", "");
-//mods.thaumcraft.Research.setComplexity("ROD_blood_wood_staff", 3);
-mods.thaumcraft.Warp.addToResearch("ROD_blood_wood_staff", 7);
+mods.thaumcraft.Warp.addToResearch("RODBLOODWOODSTUFF", 7);
 
 // --- Blood Iron Toped Wooden Wand
 mods.thaumcraft.Arcane.addShaped("CAP_blood_iron", <Thaumcraft:WandCasting:5>.withTag({cap: "blood_iron", rod: "wood"}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [

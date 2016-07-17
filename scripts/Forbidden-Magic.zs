@@ -54,8 +54,56 @@ mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WrathCage>);
 // --- Blank Imprinting Crystal
 mods.thaumcraft.Crucible.removeRecipe(<ForbiddenMagic:MobCrystal>);
 
+// --- Chameleon Pickaxe
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:MorphPickaxe>);
 
+// --- Chameleon Axe
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:MorphAxe>);
 
+// --- Chameleon Shovel
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:MorphShovel>);
+
+// --- Chameleon Sword
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:MorphSword>);
+
+// --- Shovel of the Purifier
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:TaintShovel>);
+
+// --- Pickaxe of Distortion
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:TaintPickaxe>);
+
+// --- Tainted Tree
+mods.thaumcraft.Crucible.removeRecipe(<ForbiddenMagic:TaintSapling>);
+
+// --- Tainted Stone
+mods.thaumcraft.Arcane.removeRecipe(<ForbiddenMagic:TaintBlock>);
+
+// --- Eldritch Blood Orb
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:EldritchOrb>);
+
+// --- Primal Scribing Tools
+mods.thaumcraft.Arcane.removeRecipe(<ForbiddenMagic:Primewell>);
+
+// --- Collar of Pain
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:SubCollar>);
+
+// --- Infernal Rod
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WandCores:1>);
+
+// --- Inert Blood Rod
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WandCores:6>);
+
+// --- Blood Rod
+mods.bloodmagic.Altar.removeRecipe(<ForbiddenMagic:WandCores:3>);
+
+// --- Tainted Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WandCores>);
+
+// --- Blood Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<ForbiddenMagic:WandCores:9>);
+
+// --- Alchemical Caps
+mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WandCaps>);
 
 
 
@@ -80,6 +128,15 @@ mods.chisel.Groups.addVariation("netherstar", <ForbiddenMagic:StarBlock>);
 // -
 mods.chisel.Groups.addVariation("netherstar", <gregtech:gt.blockgem3:3>);
 
+
+// --- Ordict Support ---
+
+
+// --- Log Wood
+oreDict.logWood.add(<ForbiddenMagic:TaintLog>);
+
+// --- Plank Wood
+oreDict.planWood.add(<ForbiddenMagic:TaintPlank>);
 
 
 
@@ -197,6 +254,198 @@ mods.thaumcraft.Research.setAspects("WRATHCAGE",  "ira 21, machina 18, bestia 15
 mods.thaumcraft.Research.setComplexity("WRATHCAGE", 3);
 mods.thaumcraft.Warp.addToResearch("WRATHCAGE", 5);
 
+// --- Chameleon Pickaxe
+mods.thaumcraft.Infusion.addRecipe("MORPHTOOLS", <Thaumcraft:ItemPickaxeElemental>,
+[<Thaumcraft:WandRod:2>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30500>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30502>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>],
+"invidia 16, instrumentum 16, permutatio 32, cognitio 8, praecantatio 48, potentia 8", <ForbiddenMagic:MorphPickaxe>, 10);
+
+// --- Chameleon Axe
+mods.thaumcraft.Infusion.addRecipe("MORPHTOOLS", <Thaumcraft:ItemAxeElemental>,
+[<Thaumcraft:WandRod:2>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30500>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30502>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>],
+"invidia 16, instrumentum 16, permutatio 32, cognitio 8, praecantatio 48, potentia 8", <ForbiddenMagic:MorphAxe>, 10);
+
+// --- Chameleon Shovel
+mods.thaumcraft.Infusion.addRecipe("MORPHTOOLS", <Thaumcraft:ItemShovelElemental>,
+[<Thaumcraft:WandRod:2>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30500>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30502>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>],
+"invidia 16, instrumentum 16, permutatio 32, cognitio 8, praecantatio 48, potentia 8", <ForbiddenMagic:MorphShovel>, 10);
+
+// --- Chameleon Sword
+mods.thaumcraft.Infusion.addRecipe("MORPHTOOLS", <Thaumcraft:ItemSwordElemental>,
+[<Thaumcraft:WandRod:2>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30500>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>, <gregtech:gt.metaitem.02:30502>, <ForbiddenMagic:NetherShard:1>, <Thaumcraft:ItemResource:3>, <ForbiddenMagic:NetherShard:1>],
+"invidia 16, telum 16, permutatio 32, cognitio 8, praecantatio 48, potentia 8", <ForbiddenMagic:MorphSword>, 10);
+// -
+mods.thaumcraft.Research.setAspects("MORPHTOOLS", "invidia 18, instrumentum 15, permutatio 12, cognitio 9, praecantatio 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("MORPHTOOLS", 3);
+mods.thaumcraft.Warp.addToResearch("MORPHTOOLS", 5);
+
+// --- Shovel of the Purifier
+mods.thaumcraft.Infusion.addRecipe("TAINTSHOVEL", <Thaumcraft:ItemShovelElemental>, 
+[<Thaumcraft:WandRod:2>, <Thaumcraft:blockCrystal:4>, <gregtech:gt.metaitem.02:30514>, <TConstruct:strangeFood>, <TConstruct:strangeFood>, <minecraft:slime_ball>, <minecraft:slime_ball>, <gregtech:gt.metaitem.02:30503>, <Thaumcraft:blockCrystal:4>],
+"perfodio 16, sano 16, vitreus 32, praecantatio 32, limus 8, instrumentum 8", <ForbiddenMagic:TaintShovel>, 10);
+// -
+mods.thaumcraft.Research.setAspects("TAINTSHOVEL", "vitreus 21, vitium 18, instrumentum 15, limus 12, praecantatio 9, venenum 6, permutatio 3");
+mods.thaumcraft.Research.setComplexity("TAINTSHOVEL", 3);
+
+// --- Pickaxe of Distortion
+mods.thaumcraft.Infusion.addRecipe("TAINTPICK", <Thaumcraft:ItemShovelElemental>, 
+[<Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:30514>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:3>, <Thaumcraft:ItemResource:3>, <gregtech:gt.metaitem.02:30509>, <Thaumcraft:blockCrystal:5>],
+"perfodio 16, instrumentum 8, vitium 16, perditio 32, praecantatio 32, mortuus 8", <ForbiddenMagic:TaintPickaxe>, 10);
+// -
+mods.thaumcraft.Research.setAspects("TAINTPICK", "vitium 18, perditio 15, instrumentum 12, praecantatio 9, mortuus 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("TAINTPICK", 3);
+
+// --- Tainted Tree
+mods.thaumcraft.Crucible.addRecipe("TAINTTREE", <ForbiddenMagic:TaintSapling>, <ore:treeSapling>, "venenum 8, vitium 20");
+// -
+mods.thaumcraft.Research.setAspects("TAINTTREE", "vitium 18, arbor 15, herba 12, venenum 9, mortuus 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("TAINTTREE", 3);
+
+// --- Tainted Stone
+mods.thaumcraft.Arcane.addShaped("TAINTSTONE", <ForbiddenMagic:TaintBlock> * 9, "ordo 9, perditio 9", [
+[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
+[<minecraft:stone>, <ForbiddenMagic:NetherShard:2>, <minecraft:stone>],
+[<minecraft:stone>, <minecraft:stone>,<minecraft:stone>]]);
+// -
+mods.thaumcraft.Research.setAspects("TAINTSTONE", "praecantatio 12, vitium 9, terra 6, ordo 3");
+mods.thaumcraft.Research.setComplexity("TAINTSTONE", 2);
+
+// --- Eldritch Blood Orb
+mods.thaumcraft.Infusion.addRecipe("ELDRITCHORB", <BloodArsenal:transparent_orb>,
+[<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:6>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidPlate>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:32724>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:ItemEldritchObject>],
+"alienis 48, tenebrae 32, vacuos 64, victus 64, praecantatio 16, vitreus 8", <ForbiddenMagic:EldritchOrb>, 15);
+// -
+mods.thaumcraft.Research.setAspects("ELDRITCHORB", "vacuos 18, victus 15, alienis 12, vitreus 9, tenebrae 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("ELDRITCHORB", 3);
+mods.thaumcraft.Warp.addToResearch("ELDRITCHORB", 6);
+
+// --- Primal Scribing Tools
+mods.thaumcraft.Arcane.addShaped("PRIMEWELL", <ForbiddenMagic:Primewell>, "aqua 100, ignis 100, aer 100, terra 100, ordo 100, perditio 100", [
+[<ore:screwInfusedAir>, <Thaumcraft:ItemEldritchObject:3>, <ore:screwInfusedEarth>],
+[<ore:screwInfusedFire>, <Thaumcraft:ItemInkwell>, <ore:screwInfusedOrder>],
+[<ore:screwInfusedWater>, <ore:craftingToolScrewdriver>, <ore:screwInfusedEntropy>]]);
+// -
+mods.thaumcraft.Research.setAspects("PRIMEWELL", "alienis 18, cognitio 15, fabrico 12, vitreus 9, volatus 6, ordo 3");
+mods.thaumcraft.Research.setComplexity("PRIMEWELL", 3);
+mods.thaumcraft.Warp.addToResearch("PRIMEWELL", 1);
+
+// --- Collar of Pain
+mods.thaumcraft.Infusion.addRecipe("SUBCOLLAR", <Thaumcraft:ItemBaubleBlanks:2>,
+[<Thaumcraft:ItemAmuletVis:1>, <ForbiddenMagic:NetherShard:4>, <minecraft:lead>, <ForbiddenMagic:NetherShard:4>, <minecraft:lead>, <ForbiddenMagic:NetherShard:4>, <minecraft:lead>, <ForbiddenMagic:NetherShard:4>, <minecraft:lead>],
+"vinculum 8, infernus 8, auram 16, corpus 16, luxuria 8, praecantatio 32", <ForbiddenMagic:SubCollar>, 10);
+// -
+mods.thaumcraft.Research.setAspects("SUBCOLLAR", "vinculum 18, auram 15, corpus 12, luxuria 9, praecantatio 6, cognitio 3");
+mods.thaumcraft.Research.setComplexity("SUBCOLLAR", 3);
+
+// --- Lord of Hellfire
+mods.thaumcraft.Research.setAspects("HELLFIRE", "infernus 18, ignis 15, iter 12, praecantatio 9, potentia 6, lux 3");
+mods.thaumcraft.Research.setComplexity("HELLFIRE", 3);
+
+// --- Infernal Rod
+mods.thaumcraft.Infusion.addRecipe("ROD_infernal", <Thaumcraft:WandRod:6>,
+[<ForbiddenMagic:NetherShard:3>, <gregtech:gt.metaitem.01:17379>, <minecraft:skull:1>, <ForbiddenMagic:NetherShard:3>, <minecraft:blaze_rod>, <ForbiddenMagic:NetherShard:3>, <Thaumcraft:ItemResource:14>, <ForbiddenMagic:NetherShard:3>, <minecraft:ghast_tear>, <gregtech:gt.metaitem.01:17379>],
+"superbia 16, praecantatio 16, infernus 32, ignis 48, instrumentum 8", <ForbiddenMagic:WandCores:1>, 7);
+// -
+mods.thaumcraft.Research.setAspects("ROD_infernal", "infernus 15, ignis 12, aqua 9, praecantatio 6, instrumentum 3");
+mods.thaumcraft.Research.setComplexity("ROD_infernal", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_infernal", 3);
+
+// --- Inert Blood Rod
+mods.thaumcraft.Infusion.addRecipe("ROD_blood", <AWWayofTime:masterBloodOrb>,
+[<AWWayofTime:demonicSlate>, <AWWayofTime:sanctus>, <AWWayofTime:magicales>, <AWWayofTime:incendium>, <AWWayofTime:aether>, <AWWayofTime:bloodMagicBaseAlchemyItems>, <AWWayofTime:demonicSlate>, <AWWayofTime:terrae>, <AWWayofTime:tennebrae>, <AWWayofTime:aquasalus>, <AWWayofTime:crystallos>, <AWWayofTime:crepitous>],
+"aqua 16, praecantatio 32,victus 24, exanimis 8, alienis 8", <ForbiddenMagic:WandCores:6>, 9);
+// -
+mods.thaumcraft.Research.setAspects("ROD_blood", "victus 15, aqua 12, tenebrae 9, praecantatio 6, telum 3");
+mods.thaumcraft.Research.setComplexity("ROD_blood", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_blood", 3);
+
+// --- Enchantment:Consuming
+mods.thaumcraft.Research.setAspects("CONSUMING", "vacuos 18, praecantatio 15, perditio 12, lucrum 9, gula 6,  ignis 3");
+mods.thaumcraft.Research.setComplexity("CONSUMING", 3);
+
+// --- Enchantment:Educational
+mods.thaumcraft.Research.setAspects("EDUCATIONAL", "cognitio 15, praecantatio 12, telum 9, lucrum 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("EDUCATIONAL", 3);
+
+// --- Enchantment:Capitalist
+mods.thaumcraft.Research.setAspects("GREEDY", "lucrum 18, praecantatio 15, telum 12, infernus 9, luxuria 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("GREEDY", 3);
+
+// --- Enchantment:Corrupting
+mods.thaumcraft.Research.setAspects("CORRUPTING", "infernus 18, vitreus 15, permutatio 12, spiritus 9, nebrisum 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("CORRUPTING", 3);
+mods.thaumcraft.Warp.addToResearch("CORRUPTING", 2);
+
+// --- Enchantment:Wrath
+mods.thaumcraft.Research.setAspects("WRATH", "ira 18, praecantatio 15, telum 12, superbia 9, potentia 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("WRATH", 3);
+mods.thaumcraft.Warp.addToResearch("WRATH", 3);
+
+// --- Enchantment:Voidtouched
+mods.thaumcraft.Research.setAspects("VOIDTOUCHED", "invidia 18, alienis 15, instrumentum 12, fabrico 9, tenebrae 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("VOIDTOUCHED", 3);
+mods.thaumcraft.Warp.addToResearch("VOIDTOUCHED", 2);
+
+// --- Enchantment:Impact
+mods.thaumcraft.Research.setAspects("IMPACT", "perfodio 18, instrumentum 15, invidia 12, perditio 9, lucrum 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("IMPACT", 3);
+
+// --- Enchantment:Fire Core
+mods.thaumcraft.Research.setAspects("CLUSTER", "invidia 18, metallum 15, infernus 12, potentia 9, lucrum 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("CLUSTER", 3);
+
+// --- Tainted Wand Core
+mods.thaumcraft.Infusion.addRecipe("ROD_tainted", <Thaumcraft:WandRod:1>,
+[<ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:11>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:12>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:11>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:12>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:11>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:12>],
+"vitium 32, praecantatio 16, perditio 48, venenum 24, alienis 8, tenebrae 32", <ForbiddenMagic:WandCores>, 12);
+// -
+mods.thaumcraft.Research.setAspects("ROD_tainted", "vitium 18, praecantatio 15, instrumentum 12, perditio 9, venenum 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("ROD_tainted", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_tainted", 3);
+
+// --- Blood Staff Core
+mods.thaumcraft.Arcane.addShaped("ROD_blood_staff", <ForbiddenMagic:WandCores:9>, "aqua 40, ignis 40, aer 40, terra 40, perditio 40, ordo 40", [
+[<ore:screwInfusedOrder>, <ThaumicTinkerer:kamiResource:6>, <AWWayofTime:demonBloodShard>],
+[<AWWayofTime:bloodMagicBaseItems:29> ,<ForbiddenMagic:WandCores:3>, <AWWayofTime:bloodMagicBaseItems:28>],
+[<ForbiddenMagic:WandCores:3>, <ThaumicTinkerer:kamiResource:7>, <ore:screwInfusedEntropy>]]);
+// -
+mods.thaumcraft.Research.setAspects("ROD_blood_staff", "victus 18, aqua 15, telum 12, terra 9, tenebrae 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("ROD_blood_staff", 3);
+mods.thaumcraft.Warp.addToResearch("ROD_blood_staff", 4);
+
+// --- Alchemical Caps
+mods.thaumcraft.Infusion.addRecipe("CAP_alchemical", <dreamcraft:item.GoldWandCap>,
+[<AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>],
+"victus 16, aqua 32, praecantatio 16, permutatio 8, metallum 8", <ForbiddenMagic:WandCaps>, 15);
+// -
+mods.thaumcraft.Research.setAspects("CAP_alchemical", "victus 15, aqua 12, instrumentum 9, metallum 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("CAP_alchemical", 3);
+mods.thaumcraft.Warp.addToResearch("CAP_alchemical", 2);
+
+
+
+
+
+// --- Altar Recipes ---
+
+
+
+
+// --- Blood Rod
+mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:WandCores:3>, <ForbiddenMagic:WandCores:6>, 4, 50000);
+
+
+
+
+
+// --- Thaumcraft Aspects Set ---
+
+
+// --- Profane Wand
+mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "terra 32, praecantatio 24, vitreus 16, infernus 8, tenebrae 4,");
+
+
+
+
 
 // --- Refresh Thaumcraft Recipes ---
 
@@ -236,3 +485,42 @@ mods.thaumcraft.Research.refreshResearchRecipe("BLOODRAPIER");
 
 // --- Wrath Cage and Blank Imprinting Crystal
 mods.thaumcraft.Research.refreshResearchRecipe("WRATHCAGE");
+
+// --- Chameleon Tools
+mods.thaumcraft.Research.refreshResearchRecipe("MORPHTOOLS");
+
+// --- Shovel of the Purifier
+mods.thaumcraft.Research.refreshResearchRecipe("TAINTSHOVEL");
+
+// --- Pickaxe of Distortion
+mods.thaumcraft.Research.refreshResearchRecipe("TAINTPICK");
+
+// --- Tainted Tree
+mods.thaumcraft.Research.refreshResearchRecipe("TAINTTREE");
+
+// --- Tainted Stone
+mods.thaumcraft.Research.refreshResearchRecipe("TAINTSTONE");
+
+// --- Eldritch Blood Orb
+mods.thaumcraft.Research.refreshResearchRecipe("ELDRITCHORB");
+
+// --- Primal Scribing Tools
+mods.thaumcraft.Research.refreshResearchRecipe("PRIMEWELL");
+
+// --- Collar of Pain
+mods.thaumcraft.Research.refreshResearchRecipe("SUBCOLLAR");
+
+// --- Infernal Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_infernal");
+
+// --- Blood Rod
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blood");
+
+// --- Tainted Wand Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_tainted");
+
+// --- Blood Staff Core
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_blood_staff");
+
+// --- Alchemical Caps
+mods.thaumcraft.Research.refreshResearchRecipe("CAP_alchemical");

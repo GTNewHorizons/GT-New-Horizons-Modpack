@@ -187,7 +187,7 @@ mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, pr
 game.setLocalization("tc.research_name.CAPICHOR", "Ichorium Wand Caps");
 game.setLocalization("tc.research_text.CAPICHOR", "[TT] Somewhat like a Steam Sale");
 mods.thaumcraft.Research.addPrereq("CAPICHOR", "ICHORIUM", false);
-mods.thaumcraft.Research.setConcealed("CAPICHOR", false);
+mods.thaumcraft.Research.setConcealed("CAPICHOR", true);
 mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
 game.setLocalization("tt.research.page.CAPICHOR", "You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.");
 mods.thaumcraft.Arcane.addShaped("CAPICHOR", <dreamcraft:item.IchoriumCap> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
