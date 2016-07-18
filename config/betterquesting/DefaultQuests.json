@@ -2201,7 +2201,7 @@
     {
       "questID": 28,
       "name": "Copper sky",
-      "description": "With your new acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in care you don\u0027t know, they spawn in rather large veins. Use the following quests to search and locate the most important veins you\u0027ll need",
+      "description": "With your new acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in case you don\u0027t know, they spawn in rather large veins. Use the following quests to search and locate the most important veins you\u0027ll need",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6860,7 +6860,7 @@
     {
       "questID": 84,
       "name": "Where i can put all the Liquids in",
-      "description": "With your rand New Alloy Smelter you are able to combine two materials. What happened if you mixing some Obsidian Dust and Glass? Obsidian Glass great. Your Fist Tank you can made would be a Buildcraft Tank. This Tank carry up to 16 Buckets of each Fluid. It is possible to upgrade those tanks up to 64 Bucket Tanks.",
+      "description": "With your brand new Alloy Smelter you are able to combine two materials. What happened if you mixing some Obsidian Dust and Glass? Obsidian Glass great. Your First Tank you can made would be a Buildcraft Tank. This Tank can carry up 16 Buckets of a single Fluid. It is possible to upgrade thise tanks that it can hold up 64 Bucket.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6906,7 +6906,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -42187,7 +42187,7 @@
         },
         {
           "id": 28,
-          "x": 60,
+          "x": 72,
           "y": 216
         },
         {
@@ -42282,7 +42282,7 @@
         },
         {
           "id": 474,
-          "x": 60,
+          "x": 72,
           "y": 180
         }
       ]
