@@ -158,7 +158,16 @@
             "posX" : 155,
             "posY" : 0,
             "alignment" : "column_bottom"
-        }
+        },
+		"aviators":
+        {
+            "text" : "Opening Music Copyright by the Aviators",
+            "posX" : 150,
+            "posY" : 10,
+            "color" : -1,
+            "fontSize" : 0.5,
+            "alignment" : "column_bottom"
+        } 
     },
     
 	
