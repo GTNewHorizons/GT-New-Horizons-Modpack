@@ -19,7 +19,7 @@ import mods.ic2.Macerator;
 
 
 // --- Nexus Altar
-//recipes.remove(<HardcoreEnderExpansion:altar_nexus>);
+recipes.remove(<HardcoreEnderExpansion:altar_nexus>);
 
 // --- Basic Essence Altar
 recipes.remove(<HardcoreEnderExpansion:essence_altar>);
@@ -57,7 +57,7 @@ recipes.remove(<HardcoreEnderExpansion:accumulation_table>);
 // --- Spectral Tears
 recipes.remove(<HardcoreEnderExpansion:spectral_tear>);
 
-// Living Matter
+// --- Living Matter
 recipes.remove(<HardcoreEnderExpansion:living_matter>);
 
 // --- Energy Wand Core
@@ -162,10 +162,10 @@ recipes.remove(<HardcoreEnderExpansion:curse:266>);
 
 
 // --- Nexus Altar
-//recipes.addShaped(<HardcoreEnderExpansion:altar_nexus>, [
-//[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>],
-//[<ore:gemEnderEye>, <ore:gemDiamond>, <ore:gemEnderEye>],
-//[<ore:gemDiamond>, <ore:gemEnderEye>, <ore:gemDiamond>]]);
+recipes.addShaped(<HardcoreEnderExpansion:altar_nexus>, [
+[<ore:plateDiamond>, <ore:gemEnderEye>, <ore:plateDiamond>],
+[<ore:gemEnderEye>, <ore:plateDiamond>, <ore:gemEnderEye>],
+[<ore:plateDiamond>, <ore:gemEnderEye>, <ore:plateDiamond>]]);
 
 // --- Basic Essence Altar
 recipes.addShaped(<HardcoreEnderExpansion:essence_altar>, [
@@ -181,9 +181,9 @@ recipes.addShaped(<HardcoreEnderExpansion:void_chest>, [
 
 // --- Biome Compass
 recipes.addShaped(<HardcoreEnderExpansion:biome_compass>, [
-[<ore:screwEndium>, <HardcoreEnderExpansion:end_powder>, <ore:boltEndium>],
-[<ore:ringEndium>, <ore:plateEndium>, <ore:ringEndium>],
-[<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwEndium>]]);
+[<ore:screwHeeEndium>, <HardcoreEnderExpansion:end_powder>, <ore:boltHeeEndium>],
+[<ore:ringHeeEndium>, <ore:plateHeeEndium>, <ore:ringHeeEndium>],
+[<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwHeeEndium>]]);
 
 // --- Obsidian Rod
 recipes.addShaped(<HardcoreEnderExpansion:obsidian_rod>, [
@@ -225,7 +225,7 @@ recipes.addShaped(<HardcoreEnderExpansion:spectral_tear>, [
 [<HardcoreEnderExpansion:endoplasm>, <minecraft:ghast_tear>, <HardcoreEnderExpansion:endoplasm>],
 [<HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>, <HardcoreEnderExpansion:endoplasm>]]);
 
-// Living Matter
+// --- Living Matter
 recipes.addShapeless(<HardcoreEnderExpansion:living_matter>, [<HardcoreEnderExpansion:spectral_tear>, <HardcoreEnderExpansion:silverfish_blood>, <minecraft:spider_eye>, <minecraft:bone>, <HardcoreEnderExpansion:instability_orb>, <minecraft:egg>, <minecraft:blaze_powder>, <minecraft:rotten_flesh>, <gregtech:gt.metaitem.01:2815>]);
 
 // --- Endergy Wand
