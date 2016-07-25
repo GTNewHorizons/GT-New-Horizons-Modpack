@@ -21,7 +21,7 @@ public class GT_Loader_Wires
     	// Free IDs: 2030 - 4100
     	
         // ZPM Tier
-        makeWires(Materials.NaquadahAlloy, 1800, bEC ? 4L : 64L, bEC ? 8L : 128L, 2L, gregtech.api.enums.GT_Values.V[7], true, false);
+        makeWires(Materials.NaquadahAlloy, 1780, bEC ? 4L : 64L, bEC ? 8L : 128L, 2L, gregtech.api.enums.GT_Values.V[7], true, false);
         //makeWires(Materials.???, 1820, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[7], true, false);  
         
         
