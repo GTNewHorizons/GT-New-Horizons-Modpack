@@ -20,11 +20,6 @@ public class GT_Loader_Wires
     	// ID Range: 1200 - 4100
     	// Free IDs: 2030 - 4100
     	
-        // ZPM Tier Move too GT Code
-        //makeWires(Materials.NaquadahAlloy, 1780, bEC ? 4L : 64L, bEC ? 8L : 128L, 2L, gregtech.api.enums.GT_Values.V[7], true, false);
-        //makeWires(Materials.???, 1820, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[7], true, false);  
-        
-        
         // UV Tier
         makeWires(Materials.ElectrumFlux, 1900, 1L, 2L, 3L, gregtech.api.enums.GT_Values.V[8], true, false);
         //makeWires(Materials.???, 1920, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[8], true, false);
@@ -32,7 +27,6 @@ public class GT_Loader_Wires
 
         // 2000 and 2010 are used for RedAlloy and Super Conductor
     }
-    
     
     private static void makeWires(Materials aMaterial, int aStartID, long aLossInsulated, long aLoss, long aAmperage, long aVoltage, boolean aInsulatable, boolean aAutoInsulated)
     {

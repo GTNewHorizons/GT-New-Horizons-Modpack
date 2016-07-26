@@ -43,63 +43,6 @@ public class GT_Loader_Items
 		// 670 - 679 Field Generators
 		// 680 - 689 Emitters
 		// 690 - 699 Sensors
-		
-		// Pistons
-		ItemList.Electric_Piston_LuV.set(GT.addItem(
-				645, // Item Meta-ID *Must be available*! Or it will overwrite existing items. Explosions and world corruption may occour if you fail here! 
-				"Electric Piston (LuV)", // Readable name of that item
-				"",  // Lore
-				new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L) }));
-
-		ItemList.Electric_Piston_ZPM.set(GT.addItem(646, "Electric Piston (ZPM)", "", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L) }));
-		ItemList.Electric_Piston_UV.set(GT.addItem(647, "Electric Piston (UV)", "", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L) }));
-
-
-		// Robot Arms
-		ItemList.Robot_Arm_LuV.set(GT.addItem(655, "Robot Arm (LuV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 32L) }));
-		ItemList.Robot_Arm_ZPM.set(GT.addItem(656, "Robot Arm (ZPM)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 64L) }));
-		ItemList.Robot_Arm_UV.set(GT.addItem(657, "Robot Arm (UV)", "Inserts into specific Slots (as Cover)", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.COGNITIO, 128L) }));
-
-		// Motors
-		// Bloodasp added the UltimateBattery on Slot 605... Just within the range of the Motors... Massive derp dude...
-		ItemList.Electric_Motor_LuV.set(GT.addItem(606, "Electric Motor (LuV)", "", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 32L) }));
-		ItemList.Electric_Motor_ZPM.set(GT.addItem(607, "Electric Motor (ZPM)", "", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 64L) }));
-		ItemList.Electric_Motor_UV.set(GT.addItem(608, "Electric Motor (UV)", "", new Object[] {new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MOTUS, 128L) }));
-
-		// Conveyor Belts
-		ItemList.Conveyor_Module_LuV.set(GT.addItem(635, "Conveyor Module (LuV)", "1 Stack every 1/20 sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 32L) }));
-		ItemList.Conveyor_Module_ZPM.set(GT.addItem(636, "Conveyor Module (ZPM)", "1 Stack every 1/20 sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 64L) }));
-		ItemList.Conveyor_Module_UV.set(GT.addItem(637, "Conveyor Module (UV)", "1 Stack every 1/20 sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 128L) }));
-
-		// Field generators
-		ItemList.Field_Generator_LuV.set(GT.addItem(675, "Field Generator (LuV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.TUTAMEN, 32L) }));
-		ItemList.Field_Generator_ZPM.set(GT.addItem(676, "Field Generator (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.TUTAMEN, 64L) }));
-		ItemList.Field_Generator_UV.set(GT.addItem(677, "Field Generator (UV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.TUTAMEN, 128L) }));
-		
-		// Pumps
-		ItemList.Electric_Pump_LuV.set(GT.addItem(615, "Electric Pump (LuV)", "327680 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 32L) }));
-		ItemList.Electric_Pump_ZPM.set(GT.addItem(616, "Electric Pump (ZPM)", "655360 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 64L) }));
-		ItemList.Electric_Pump_UV.set(GT.addItem(617, "Electric Pump (UV)", "1310720 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 128L) }));
-		 
-		// Sensor
-		ItemList.Sensor_LuV.set(GT.addItem(695, "Sensor (LuV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 32L) }));
-		ItemList.Sensor_ZPM.set(GT.addItem(696, "Sensor (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 64L) }));
-		ItemList.Sensor_UV.set(GT.addItem(697, "Sensor (UV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 128L) }));
-		   
-		// <><><><><><><><><><><><><><><><><>   Register Covers    <><><><><><><><><><><><><><><><><>
-		GregTech_API.registerCover(ItemList.Robot_Arm_LuV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[6][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_ARM) }), new GT_Cover_Arm(1));
-		GregTech_API.registerCover(ItemList.Robot_Arm_ZPM.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[7][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_ARM) }), new GT_Cover_Arm(1));
-		GregTech_API.registerCover(ItemList.Robot_Arm_UV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[8][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_ARM) }), new GT_Cover_Arm(1));
-		
-		GregTech_API.registerCover(ItemList.Conveyor_Module_LuV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[6][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_CONVEYOR) }), new GT_Cover_Conveyor(1));
-	    GregTech_API.registerCover(ItemList.Conveyor_Module_ZPM.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[7][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_CONVEYOR) }), new GT_Cover_Conveyor(1));
-	    GregTech_API.registerCover(ItemList.Conveyor_Module_UV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[8][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_CONVEYOR) }), new GT_Cover_Conveyor(1));
-
-	    GregTech_API.registerCover(ItemList.Electric_Pump_LuV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[6][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_PUMP) }), new GT_Cover_Pump(16384));
-	    GregTech_API.registerCover(ItemList.Electric_Pump_ZPM.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[7][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_PUMP) }), new GT_Cover_Pump(32768));
-	    GregTech_API.registerCover(ItemList.Electric_Pump_UV.get(1L, new Object[0]), new GT_MultiTexture(new ITexture[] { Textures.BlockIcons.MACHINE_CASINGS[8][0], new GT_RenderedTexture(Textures.BlockIcons.OVERLAY_PUMP) }), new GT_Cover_Pump(65536));
-	    
-		// <><><><><><><><><><><><><><><><><> Recipe section below <><><><><><><><><><><><><><><><><>
 
 		// ===================
 		// ==== LuV Items ====
