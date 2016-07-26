@@ -81,11 +81,6 @@ public class GT_Loader_Items
 		ItemList.Electric_Pump_ZPM.set(GT.addItem(616, "Electric Pump (ZPM)", "655360 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 64L) }));
 		ItemList.Electric_Pump_UV.set(GT.addItem(617, "Electric Pump (UV)", "1310720 L/sec (as Cover)", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.ITER, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.AQUA, 128L) }));
 		 
-		// Emitter
-		ItemList.Emitter_LuV.set(GT.addItem(685, "Emitter (LuV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.LUX, 32L) }));
-		ItemList.Emitter_ZPM.set(GT.addItem(686, "Emitter (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.LUX, 64L) }));
-		ItemList.Emitter_UV.set(GT.addItem(687, "Emitter (UV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 16L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 16L), new TC_Aspects.TC_AspectStack(TC_Aspects.LUX, 16L) }));
-
 		// Sensor
 		ItemList.Sensor_LuV.set(GT.addItem(695, "Sensor (LuV)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 32L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 32L) }));
 		ItemList.Sensor_ZPM.set(GT.addItem(696, "Sensor (ZPM)", "", new Object[] { new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.MACHINA, 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.SENSUS, 64L) }));
