@@ -52,9 +52,10 @@ mods.thaumcraft.Infusion.addRecipe("GADOMANCY.GOLEMCOREBODYGUARD", <Thaumcraft:I
 mods.thaumcraft.Research.setAspects("GADOMANCY.GOLEMCOREBODYGUARD", "instrumentum 18, ordo 15, machina 12, telum 9, tutamen 6, auram 3");
 mods.thaumcraft.Research.setComplexity("GADOMANCY.GOLEMCOREBODYGUARD", 3);
 
-// --- Golemic Schielding
+// --- Golemic Schielding All Golems
 mods.thaumcraft.Research.setAspects("GADOMANCY.GOLEMRUNICSHIELD", "auram 15, motus 12, tutamen 9, praecantatio 6, ordo 3");
 mods.thaumcraft.Research.setComplexity("GADOMANCY.GOLEMRUNICSHIELD", 3);
+
 
 
 
@@ -71,3 +72,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.GOLEMCOREBREAK");
 
 // --- Golem Animation Core Bodyguard
 mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.GOLEMCOREBODYGUARD");
+
+// --- Golemic Schielding All Golems
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.GOLEMRUNICSHIELD");
