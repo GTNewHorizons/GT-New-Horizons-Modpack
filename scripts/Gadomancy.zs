@@ -49,6 +49,23 @@ mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockStoneMachine:1>);
 // --- Redirection Focus
 mods.thaumcraft.Infusion.removeRecipe(<gadomancy:BlockStoneMachine:3>);
 
+// --- Arcane Packager
+mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockStoneMachine:4>);
+
+// --- Aura Phylone
+mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockAuraPylon>);
+
+// --- Aura Phylone Peak
+mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockAuraPylon:1>);
+
+// --- Book of Knowledge
+mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockKnowledgeBook>);
+
+// --- Essentia Condenser
+mods.thaumcraft.Arcane.removeRecipe(<gadomancy:BlockEssentiaCompressor>);
+
+
+
 
 
 
@@ -184,6 +201,88 @@ mods.thaumcraft.Research.setComplexity("GADOMANCY.ETHEREAL_FAMILIAR", 3);
 mods.thaumcraft.Research.setAspects("GADOMANCY.AURA_CORE", "tenebrae 27, praecantatio 24, auram 21, perditio 18, ordo 15, aqua 12, aer 9, ignis 6, terra 3");
 mods.thaumcraft.Research.setComplexity("GADOMANCY.AURA_CORE", 3);
 
+// --- Core Cleaning
+mods.thaumcraft.Research.setAspects("GADOMANCY.CLEAN_AURA_CORE", "aqua 27, sano 24, praecantatio 21, auram 18, terra 15, ignis 12, perditio 9, ordo 6, aer 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.CLEAN_AURA_CORE", 4);
+
+// --- Corrosive Venom
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_POISON", "venenum 15, telum 12, perditio 9, tenebrae 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_POISON", 3);
+
+// --- Enervatio
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_WEAKNESS", "vinculum 15, vitium 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_WEAKNESS", 3);
+
+// --- Lightning Impact
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_SHOCK", "aer 15, tempestas 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_SHOCK", 3);
+
+// --- Flesh Burn
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_FIRE", "ignis 15, infernus 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_FIRE", 3);
+
+// --- Arc Amplifiction
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_DAMAGE", "potentia 15, ignis 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_DAMAGE", 3);
+
+// --- Sensitive Boost
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_RANGE", "alienis 15, ordo 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_RANGE", 3);
+
+// --- Frequency Emission Overdrive
+mods.thaumcraft.Research.setAspects("GADOMANCY.FAMILIAR_SPEED", "motus 15, auram 12, telum 9, praecantatio 6, tenebrae 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.FAMILIAR_SPEED", 3);
+
+// --- Arcane Packager
+mods.thaumcraft.Arcane.addShaped("GADOMANCY.ARCANE_PACKAGER", <gadomancy:BlockStoneMachine:4>, "ordo 100, perditio 100, aer 100", [
+[<Thaumcraft:blockWoodenDevice:6>, <gregtech:gt.metaitem.01:32642>, <Thaumcraft:blockWoodenDevice:6>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <gadomancy:ItemAuraCore:1>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<Thaumcraft:blockJar>, <Thaumcraft:blockTable:15>, <Thaumcraft:blockJar>]]);
+// -
+mods.thaumcraft.Research.setAspects("GADOMANCY.ARCANE_PACKAGER", "machina 18, aer 15, vacuos 12, praecantatio 9, potentia 6, arbor 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.ARCANE_PACKAGER", 3);
+
+// --- Aura Pylone
+mods.thaumcraft.Arcane.addShaped("GADOMANCY.AURA_PYLON", <gadomancy:BlockAuraPylon>, "ordo 100, aqua 100, aer 100, ignis 100", [
+[<Thaumcraft:blockTube:6>, <ore:stickIridium>, <Thaumcraft:blockTube:6>],
+[<Thaumcraft:blockMagicalLog:1>, <Thaumcraft:blockJar>, <Thaumcraft:blockMagicalLog:1>],
+[<Thaumcraft:blockTube:6>, <ore:stickIridium>, <Thaumcraft:blockTube:6>]]);
+// -
+mods.thaumcraft.Research.setAspects("GADOMANCY.AURA_PYLON", "auram 18, ordo 15, praecantatio 12, machina 9, aer 6, ignis 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.AURA_PYLON", 3);
+
+// --- Aura Pylone Peak
+mods.thaumcraft.Arcane.addShaped("GADOMANCY.AURA_PYLON", <gadomancy:BlockAuraPylon:1>, "ordo 125, aer 125, ignis 125", [
+[<ore:screwOsmiridium>, <Thaumcraft:ItemResource:1>, <ore:screwOsmiridium>],
+[<Thaumcraft:ItemResource>, <gadomancy:ItemAuraCore:2>, <Thaumcraft:ItemResource>],
+[<ore:stickIridium>, <gadomancy:BlockAuraPylon>, <ore:stickIridium>]]);
+
+// --- Book of Knowledge
+mods.thaumcraft.Arcane.addShaped("GADOMANCY.KNOWLEDGE_BOOK", <gadomancy:BlockKnowledgeBook>, "ordo 75, ignis 50, perditio 35, aer 35", [
+[<Thaumcraft:ItemInkwell>, <Thaumcraft:ItemThaumonomicon>, <Thaumcraft:ItemInkwell>],
+[<minecraft:bookshelf>, <gadomancy:ItemAuraCore:5>, <minecraft:bookshelf>],
+[<Thaumcraft:blockMetalDevice:12>, <Thaumcraft:ItemGoggles>, <Thaumcraft:blockMetalDevice:12>]]);
+// -
+mods.thaumcraft.Research.setAspects("GADOMANCY.KNOWLEDGE_BOOK", "cognitio 24, ordo 21, praecantatio 18, machina 15, fabrico 12, motus 9, aer 6, lucrum 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.KNOWLEDGE_BOOK", 3);
+mods.thaumcraft.Warp.addToResearch("GADOMANCY.KNOWLEDGE_BOOK", 4);
+
+// --- Essentia Condenser
+mods.thaumcraft.Arcane.addShaped("GADOMANCY.ESSENTIA_COMPRESSOR", <gadomancy:BlockEssentiaCompressor>, "aer 180, aqua 200, ignis 120, terra 100, perditio 140, ordo 160", [
+[<Thaumcraft:blockTube:6>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockTube:6>],
+[<Thaumcraft:blockMagicalLog>, <gadomancy:ItemElement>, <Thaumcraft:blockMagicalLog>],
+[<Thaumcraft:blockTube:6>, <gadomancy:ItemAuraCore:3>, <Thaumcraft:blockTube:6>]]);
+// -
+mods.thaumcraft.Research.setAspects("GADOMANCY.ESSENTIA_COMPRESSOR", "vacuos 21, perditio 18, machina 15, aqua 12, praecantatio 9, aqua 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.ESSENTIA_COMPRESSOR", 3);
+
+// --- Aura Aspects
+mods.thaumcraft.Research.setAspects("GADOMANCY.AURA_EFFECTS", "cognitio 27, auram 24, praecantatio 21, ordo 18, ignis 15, aer 12, aqua 9, terra 6, perditio 3");
+mods.thaumcraft.Research.setComplexity("GADOMANCY.AURA_EFFECTS", 4);
+
+
+
+
 
 
 
@@ -223,3 +322,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.BLOCK_PROTECTOR");
 
 // --- Gate of the Void Walkers
 mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.E_PORTAL_CREATOR");
+
+// --- Arcane Packager
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.ARCANE_PACKAGER");
+
+// --- Aura Pylone
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.AURA_PYLON");
+
+// --- Book of Knowledge
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.KNOWLEDGE_BOOK");
+
+// --- Essentia Condenser
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.ESSENTIA_COMPRESSOR");

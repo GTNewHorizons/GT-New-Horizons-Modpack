@@ -403,7 +403,6 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEENTROPY", <Thaumcraft:ItemGolemUpgrade:
 mods.thaumcraft.Research.setAspects("UPGRADEENTROPY", "cognitio 6, perditio 9, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEENTROPY", 2);
 
-
 // --- Accessory Top Hat
 mods.thaumcraft.Arcane.addShaped("TINYHAT", <Thaumcraft:ItemGolemDecoration>, "ordo 10, ignis 10, terra 5", [
 [null, <ore:blockWoolBlack>, null],
