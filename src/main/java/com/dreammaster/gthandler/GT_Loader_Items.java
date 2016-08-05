@@ -354,6 +354,7 @@ public class GT_Loader_Items
 		CustomItemList.WoodenCasing.set(com.dreammaster.item.ItemList.WoodenCasing.getIS());
 		CustomItemList.EssentiaCircuit.set(com.dreammaster.item.ItemList.EssentiaCircuit.getIS());
 		CustomItemList.EngineeringProcessorEssentiaPulsatingCore.set(com.dreammaster.item.ItemList.EngineeringProcessorEssentiaPulsatingCore.getIS());
+		CustomItemList.ManyullynCrystal.set(com.dreammaster.item.ItemList.ManyullynCrystal.getIS());
 	}
 
 }
