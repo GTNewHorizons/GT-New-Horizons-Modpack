@@ -48,212 +48,212 @@ public class GT_Loader_Items
 		// ==== LuV Items ====
 		// Materials: Chrome, Osmium Wire, Naquadah Cable
 		// ===================
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_LuV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-				new Object[] { "CWR", "WIW", "RWC", 
-			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
-			'R', OrePrefixes.stick.get(Materials.Chrome),
-			'W', OrePrefixes.wireGt04.get(Materials.Platinum),
-			'C', OrePrefixes.cableGt04.get(Materials.Naquadah) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_LuV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "PPP", "CSS", "CMG",
-			'P', OrePrefixes.plate.get(Materials.Chrome), 
-			'S', OrePrefixes.stick.get(Materials.Chrome), 
-			'G', OrePrefixes.gearGtSmall.get(Materials.Chrome), 
-			'M', ItemList.Electric_Motor_LuV, 
-			'C', AdvancedGTMaterials.LuV.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_LuV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "CCC", "MSM", "PES", 
-			'S', OrePrefixes.stick.get(Materials.Chrome), 
-			'M', ItemList.Electric_Motor_LuV, 
-			'P', ItemList.Electric_Piston_LuV, 
-			'E', AdvancedGTMaterials.LuV.getCircuit(),
-			'C', AdvancedGTMaterials.LuV.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_LuV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "RRR", "MCM", "RRR", 
-			'M', ItemList.Electric_Motor_LuV,
-			'C', AdvancedGTMaterials.LuV.getCable(), 
-			'R', OrePrefixes.plate.get(Materials.Rubber) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_LuV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "WCW", "CGC", "WCW", 
-			'G', AdvancedGTMaterials.LuV.getPowerGem(), 
-			'C', AdvancedGTMaterials.LuV.getCircuit(), 
-			'W', AdvancedGTMaterials.LuV.getWire() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_LuV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SXO", "dPw", "OMW", 
-			'M', ItemList.Electric_Motor_LuV, 
-			'O', OrePrefixes.ring.get(Materials.Rubber), 
-			'X', OrePrefixes.rotor.get(Materials.Chrome), 
-			'S', OrePrefixes.screw.get(Materials.Chrome), 
-			'W', AdvancedGTMaterials.LuV.getCable(), 
-			'P', AdvancedGTMaterials.LuV.getPipe() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_LuV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SSC", "WQS", "CWS", 
-			'Q', AdvancedGTMaterials.LuV.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.Osmiridium), 
-			'C', AdvancedGTMaterials.LuV.getCircuit(), 
-			'W', AdvancedGTMaterials.LuV.getCable() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_LuV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "P Q", "PS ", "CPP", 
-			'Q', AdvancedGTMaterials.LuV.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.Osmiridium), 
-			'P', OrePrefixes.plate.get(Materials.Chrome), 
-			'C', AdvancedGTMaterials.LuV.getCircuit() });
-
-		// ===================
-		// ==== ZPM Items ====
-		// Materials: Iridium, Naquadah Wire, NaquadaAlloy Cable
-		// ===================
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_ZPM.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-				new Object[] { "CWR", "WIW", "RWC", 
-			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
-			'R', OrePrefixes.stick.get(Materials.Iridium), 
-			'W', OrePrefixes.wireGt04.get(Materials.Osmium),
-			'C', OrePrefixes.cableGt04.get(Materials.NaquadahAlloy) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_ZPM.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "PPP", "CSS", "CMG",
-			'P', OrePrefixes.plate.get(Materials.Iridium), 
-			'S', OrePrefixes.stick.get(Materials.Iridium), 
-			'G', OrePrefixes.gearGtSmall.get(Materials.Iridium), 
-			'M', ItemList.Electric_Motor_ZPM, 
-			'C', AdvancedGTMaterials.ZPM.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_ZPM.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "CCC", "MSM", "PES", 
-			'S', OrePrefixes.stick.get(Materials.Iridium), 
-			'M', ItemList.Electric_Motor_ZPM, 
-			'P', ItemList.Electric_Piston_ZPM, 
-			'E', AdvancedGTMaterials.ZPM.getCircuit(),
-			'C', AdvancedGTMaterials.ZPM.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_ZPM.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "RRR", "MCM", "RRR", 
-			'M', ItemList.Electric_Motor_ZPM,
-			'C', AdvancedGTMaterials.ZPM.getCable(), 
-			'R', OrePrefixes.plate.get(Materials.Rubber) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_ZPM.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "WCW", "CGC", "WCW", 
-			'G', AdvancedGTMaterials.ZPM.getPowerGem(), 
-			'C', AdvancedGTMaterials.ZPM.getCircuit(), 
-			'W', AdvancedGTMaterials.ZPM.getWire() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_ZPM.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SXO", "dPw", "OMW", 
-			'M', ItemList.Electric_Motor_ZPM, 
-			'O', OrePrefixes.ring.get(Materials.HSLA), 
-			'X', OrePrefixes.rotor.get(Materials.Iridium), 
-			'S', OrePrefixes.screw.get(Materials.Iridium), 
-			'W', AdvancedGTMaterials.ZPM.getCable(), 
-			'P', AdvancedGTMaterials.ZPM.getPipe() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_ZPM.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SSC", "WQS", "CWS", 
-			'Q', AdvancedGTMaterials.ZPM.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.NaquadahAlloy), 
-			'C', AdvancedGTMaterials.ZPM.getCircuit(), 
-			'W', AdvancedGTMaterials.ZPM.getCable() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_ZPM.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "P Q", "PS ", "CPP", 
-			'Q', AdvancedGTMaterials.ZPM.getGem(), 
-			'S', OrePrefixes.stick.get(Materials.NaquadahAlloy), 
-			'P', OrePrefixes.plate.get(Materials.Iridium), 
-			'C', AdvancedGTMaterials.ZPM.getCircuit() });
-		// ==================
-		// ==== UV Items ====
-		// Materials: Osmium, NaquadaAlloyWire, ElectrumFlux Cable
-		// ==================
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_UV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-				new Object[] { "CWR", "WIW", "RWC", 
-			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic), 
-			'R', OrePrefixes.stick.get(Materials.Osmium),
-			'W', OrePrefixes.wireGt04.get(Materials.NaquadahAlloy),
-			'C', OrePrefixes.cableGt04.get(Materials.ElectrumFlux) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_UV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "PPP", "CSS", "CMG",
-			'P', OrePrefixes.plate.get(Materials.Osmium), 
-			'S', OrePrefixes.stick.get(Materials.Osmium), 
-			'G', OrePrefixes.gearGtSmall.get(Materials.Osmium), 
-			'M', ItemList.Electric_Motor_UV, 
-			'C', AdvancedGTMaterials.UV.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_UV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "CCC", "MSM", "PES", 
-			'S', OrePrefixes.stick.get(Materials.Osmium), 
-			'M', ItemList.Electric_Motor_UV, 
-			'P', ItemList.Electric_Piston_UV, 
-			'E', AdvancedGTMaterials.UV.getCircuit(), 
-			'C', AdvancedGTMaterials.UV.getCable() });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_UV.get(1L, new Object[0]), 
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "RRR", "MCM", "RRR", 
-			'M', ItemList.Electric_Motor_UV,
-			'C', AdvancedGTMaterials.UV.getCable(), 
-			'R', OrePrefixes.plate.get(Materials.Rubber) });
-
-		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_UV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "WCW", "CGC", "WCW", 
-			'G', AdvancedGTMaterials.UV.getPowerGem(), 
-			'C', AdvancedGTMaterials.UV.getCircuit(), 
-			'W', AdvancedGTMaterials.UV.getWire() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_UV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, 
-				new Object[] { "SXO", "dPw", "OMW", 
-			'M', ItemList.Electric_Motor_UV, 
-			'O', OrePrefixes.ring.get(Materials.HSLA), 
-			'X', OrePrefixes.rotor.get(Materials.Osmium), 
-			'S', OrePrefixes.screw.get(Materials.Osmium), 
-			'W', AdvancedGTMaterials.UV.getCable(), 
-			'P', AdvancedGTMaterials.UV.getPipe() });
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_UV.get(1L, new Object[0]),
-                GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-                new Object[]{"SSC", "WQS", "CWS",
-                        'Q', AdvancedGTMaterials.UV.getGem(),
-                        'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
-                        'C', AdvancedGTMaterials.UV.getCircuit(),
-                        'W', AdvancedGTMaterials.UV.getCable()});
-		
-		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
-				new Object[]{"P Q", "PS ", "CPP",
-						'Q', AdvancedGTMaterials.UV.getGem(),
-						'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
-						'P', OrePrefixes.plate.get(Materials.Osmium),
-						'C', AdvancedGTMaterials.UV.getCircuit()});
-
-
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CWR", "WIW", "RWC",
+//			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic),
+//			'R', OrePrefixes.stick.get(Materials.Chrome),
+//			'W', OrePrefixes.wireGt04.get(Materials.Platinum),
+//			'C', OrePrefixes.cableGt04.get(Materials.Naquadah) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "PPP", "CSS", "CMG",
+//			'P', OrePrefixes.plate.get(Materials.Chrome),
+//			'S', OrePrefixes.stick.get(Materials.Chrome),
+//			'G', OrePrefixes.gearGtSmall.get(Materials.Chrome),
+//			'M', ItemList.Electric_Motor_LuV,
+//			'C', AdvancedGTMaterials.LuV.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CCC", "MSM", "PES",
+//			'S', OrePrefixes.stick.get(Materials.Chrome),
+//			'M', ItemList.Electric_Motor_LuV,
+//			'P', ItemList.Electric_Piston_LuV,
+//			'E', AdvancedGTMaterials.LuV.getCircuit(),
+//			'C', AdvancedGTMaterials.LuV.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "RRR", "MCM", "RRR",
+//			'M', ItemList.Electric_Motor_LuV,
+//			'C', AdvancedGTMaterials.LuV.getCable(),
+//			'R', OrePrefixes.plate.get(Materials.Rubber) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "WCW", "CGC", "WCW",
+//			'G', AdvancedGTMaterials.LuV.getPowerGem(),
+//			'C', AdvancedGTMaterials.LuV.getCircuit(),
+//			'W', AdvancedGTMaterials.LuV.getWire() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "SXO", "dPw", "OMW",
+//			'M', ItemList.Electric_Motor_LuV,
+//			'O', OrePrefixes.ring.get(Materials.Rubber),
+//			'X', OrePrefixes.rotor.get(Materials.Chrome),
+//			'S', OrePrefixes.screw.get(Materials.Chrome),
+//			'W', AdvancedGTMaterials.LuV.getCable(),
+//			'P', AdvancedGTMaterials.LuV.getPipe() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "SSC", "WQS", "CWS",
+//			'Q', AdvancedGTMaterials.LuV.getGem(),
+//			'S', OrePrefixes.stick.get(Materials.Osmiridium),
+//			'C', AdvancedGTMaterials.LuV.getCircuit(),
+//			'W', AdvancedGTMaterials.LuV.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_LuV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "P Q", "PS ", "CPP",
+//			'Q', AdvancedGTMaterials.LuV.getGem(),
+//			'S', OrePrefixes.stick.get(Materials.Osmiridium),
+//			'P', OrePrefixes.plate.get(Materials.Chrome),
+//			'C', AdvancedGTMaterials.LuV.getCircuit() });
+//
+//		// ===================
+//		// ==== ZPM Items ====
+//		// Materials: Iridium, Naquadah Wire, NaquadaAlloy Cable
+//		// ===================
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CWR", "WIW", "RWC",
+//			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic),
+//			'R', OrePrefixes.stick.get(Materials.Iridium),
+//			'W', OrePrefixes.wireGt04.get(Materials.Osmium),
+//			'C', OrePrefixes.cableGt04.get(Materials.NaquadahAlloy) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "PPP", "CSS", "CMG",
+//			'P', OrePrefixes.plate.get(Materials.Iridium),
+//			'S', OrePrefixes.stick.get(Materials.Iridium),
+//			'G', OrePrefixes.gearGtSmall.get(Materials.Iridium),
+//			'M', ItemList.Electric_Motor_ZPM,
+//			'C', AdvancedGTMaterials.ZPM.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CCC", "MSM", "PES",
+//			'S', OrePrefixes.stick.get(Materials.Iridium),
+//			'M', ItemList.Electric_Motor_ZPM,
+//			'P', ItemList.Electric_Piston_ZPM,
+//			'E', AdvancedGTMaterials.ZPM.getCircuit(),
+//			'C', AdvancedGTMaterials.ZPM.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "RRR", "MCM", "RRR",
+//			'M', ItemList.Electric_Motor_ZPM,
+//			'C', AdvancedGTMaterials.ZPM.getCable(),
+//			'R', OrePrefixes.plate.get(Materials.Rubber) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "WCW", "CGC", "WCW",
+//			'G', AdvancedGTMaterials.ZPM.getPowerGem(),
+//			'C', AdvancedGTMaterials.ZPM.getCircuit(),
+//			'W', AdvancedGTMaterials.ZPM.getWire() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "SXO", "dPw", "OMW",
+//			'M', ItemList.Electric_Motor_ZPM,
+//			'O', OrePrefixes.ring.get(Materials.HSLA),
+//			'X', OrePrefixes.rotor.get(Materials.Iridium),
+//			'S', OrePrefixes.screw.get(Materials.Iridium),
+//			'W', AdvancedGTMaterials.ZPM.getCable(),
+//			'P', AdvancedGTMaterials.ZPM.getPipe() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "SSC", "WQS", "CWS",
+//			'Q', AdvancedGTMaterials.ZPM.getGem(),
+//			'S', OrePrefixes.stick.get(Materials.NaquadahAlloy),
+//			'C', AdvancedGTMaterials.ZPM.getCircuit(),
+//			'W', AdvancedGTMaterials.ZPM.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_ZPM.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "P Q", "PS ", "CPP",
+//			'Q', AdvancedGTMaterials.ZPM.getGem(),
+//			'S', OrePrefixes.stick.get(Materials.NaquadahAlloy),
+//			'P', OrePrefixes.plate.get(Materials.Iridium),
+//			'C', AdvancedGTMaterials.ZPM.getCircuit() });
+//		// ==================
+//		// ==== UV Items ====
+//		// Materials: Osmium, NaquadaAlloyWire, ElectrumFlux Cable
+//		// ==================
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Motor_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CWR", "WIW", "RWC",
+//			'I', OrePrefixes.stick.get(Materials.NeodymiumMagnetic),
+//			'R', OrePrefixes.stick.get(Materials.Osmium),
+//			'W', OrePrefixes.wireGt04.get(Materials.NaquadahAlloy),
+//			'C', OrePrefixes.cableGt04.get(Materials.ElectrumFlux) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Piston_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "PPP", "CSS", "CMG",
+//			'P', OrePrefixes.plate.get(Materials.Osmium),
+//			'S', OrePrefixes.stick.get(Materials.Osmium),
+//			'G', OrePrefixes.gearGtSmall.get(Materials.Osmium),
+//			'M', ItemList.Electric_Motor_UV,
+//			'C', AdvancedGTMaterials.UV.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Robot_Arm_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "CCC", "MSM", "PES",
+//			'S', OrePrefixes.stick.get(Materials.Osmium),
+//			'M', ItemList.Electric_Motor_UV,
+//			'P', ItemList.Electric_Piston_UV,
+//			'E', AdvancedGTMaterials.UV.getCircuit(),
+//			'C', AdvancedGTMaterials.UV.getCable() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Conveyor_Module_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "RRR", "MCM", "RRR",
+//			'M', ItemList.Electric_Motor_UV,
+//			'C', AdvancedGTMaterials.UV.getCable(),
+//			'R', OrePrefixes.plate.get(Materials.Rubber) });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Field_Generator_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "WCW", "CGC", "WCW",
+//			'G', AdvancedGTMaterials.UV.getPowerGem(),
+//			'C', AdvancedGTMaterials.UV.getCircuit(),
+//			'W', AdvancedGTMaterials.UV.getWire() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Electric_Pump_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[] { "SXO", "dPw", "OMW",
+//			'M', ItemList.Electric_Motor_UV,
+//			'O', OrePrefixes.ring.get(Materials.HSLA),
+//			'X', OrePrefixes.rotor.get(Materials.Osmium),
+//			'S', OrePrefixes.screw.get(Materials.Osmium),
+//			'W', AdvancedGTMaterials.UV.getCable(),
+//			'P', AdvancedGTMaterials.UV.getPipe() });
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Emitter_UV.get(1L, new Object[0]),
+//                GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//                new Object[]{"SSC", "WQS", "CWS",
+//                        'Q', AdvancedGTMaterials.UV.getGem(),
+//                        'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
+//                        'C', AdvancedGTMaterials.UV.getCircuit(),
+//                        'W', AdvancedGTMaterials.UV.getCable()});
+//
+//		GT_ModHandler.addCraftingRecipe(ItemList.Sensor_UV.get(1L, new Object[0]),
+//				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE,
+//				new Object[]{"P Q", "PS ", "CPP",
+//						'Q', AdvancedGTMaterials.UV.getGem(),
+//						'S', OrePrefixes.stick.get(Materials.ElectrumFlux),
+//						'P', OrePrefixes.plate.get(Materials.Osmium),
+//						'C', AdvancedGTMaterials.UV.getCircuit()});
+//
+//
         //CoreMod Items
     	CustomItemList.EtchedLowVoltageWiring.set(com.dreammaster.item.ItemList.EtchedLowVoltageWiring.getIS());
 		CustomItemList.EtchedInsaneVoltageWiring.set(com.dreammaster.item.ItemList.EtchedInsaneVoltageWiring.getIS());
