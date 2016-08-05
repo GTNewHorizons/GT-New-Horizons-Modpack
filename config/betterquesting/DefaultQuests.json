@@ -35556,6 +35556,279 @@
       ]
     },
     {
+      "questID": 478,
+      "name": "Flint and Steel",
+      "description": "After you can make Steel you are able to craft some Flint and Steel. I guess you want to travel to the Nether as soon as possible but be aware The Nether is very dangerous.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:flint_and_steel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1520
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 1,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20305
+            },
+            {
+              "id": "minecraft:flint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:arrow",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:obsidian",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 479,
+      "name": "THE NETHER",
+      "description": "THE NETHER. Nowe more dangerous with Extra Hardcore Infernal Mobs. Have fun and take Care.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:portal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:obsidian",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:natura.armor.imphelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impjerkin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impleggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 4
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impboots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 2
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        478
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -42465,158 +42738,168 @@
       "quests": [
         {
           "id": 44,
-          "x": 16,
+          "x": 0,
           "y": 0
         },
         {
           "id": 46,
-          "x": 56,
+          "x": 48,
           "y": 0
         },
         {
           "id": 47,
-          "x": 56,
-          "y": 32
+          "x": 48,
+          "y": 36
         },
         {
           "id": 48,
-          "x": 168,
+          "x": 156,
           "y": 0
         },
         {
           "id": 49,
-          "x": 208,
+          "x": 204,
           "y": 0
         },
         {
           "id": 50,
-          "x": 248,
+          "x": 252,
           "y": 0
         },
         {
           "id": 51,
-          "x": 208,
-          "y": 64
+          "x": 204,
+          "y": 72
         },
         {
           "id": 53,
-          "x": 168,
-          "y": 64
+          "x": 156,
+          "y": 72
         },
         {
           "id": 54,
-          "x": 168,
-          "y": 32
+          "x": 156,
+          "y": 36
         },
         {
           "id": 52,
-          "x": 208,
-          "y": 32
+          "x": 204,
+          "y": 36
         },
         {
           "id": 55,
-          "x": 128,
-          "y": 32
+          "x": 120,
+          "y": 36
         },
         {
           "id": 56,
-          "x": 128,
-          "y": 64
+          "x": 120,
+          "y": 72
         },
         {
           "id": 57,
-          "x": 248,
-          "y": 64
+          "x": 240,
+          "y": 72
         },
         {
           "id": 58,
-          "x": 296,
+          "x": 300,
           "y": 0
         },
         {
           "id": 59,
-          "x": 16,
-          "y": 128
+          "x": 0,
+          "y": 144
         },
         {
           "id": 60,
           "x": 0,
-          "y": 176
+          "y": 180
         },
         {
           "id": 61,
-          "x": 32,
-          "y": 176
+          "x": 36,
+          "y": 180
         },
         {
           "id": 62,
-          "x": 56,
-          "y": 128
+          "x": 48,
+          "y": 144
         },
         {
           "id": 63,
-          "x": 56,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 64,
-          "x": 56,
-          "y": 96
+          "x": 48,
+          "y": 108
         },
         {
           "id": 65,
-          "x": 88,
-          "y": 112
+          "x": 84,
+          "y": 108
         },
         {
           "id": 66,
-          "x": 128,
-          "y": 112
+          "x": 120,
+          "y": 108
         },
         {
           "id": 68,
-          "x": 128,
+          "x": 156,
           "y": 144
         },
         {
           "id": 69,
-          "x": 208,
-          "y": 112
+          "x": 204,
+          "y": 108
         },
         {
           "id": 70,
-          "x": 272,
-          "y": 176
+          "x": 204,
+          "y": 180
         },
         {
           "id": 67,
-          "x": 168,
-          "y": 112
+          "x": 156,
+          "y": 108
         },
         {
           "id": 72,
-          "x": 160,
-          "y": 176
+          "x": 156,
+          "y": 180
         },
         {
           "id": 73,
-          "x": 88,
-          "y": 176
+          "x": 120,
+          "y": 180
         },
         {
           "id": 71,
-          "x": 208,
+          "x": 204,
           "y": 144
         },
         {
           "id": 84,
-          "x": 88,
-          "y": 32
+          "x": 84,
+          "y": 36
         },
         {
           "id": 16,
-          "x": 88,
-          "y": 64
+          "x": 84,
+          "y": 72
+        },
+        {
+          "id": 478,
+          "x": 84,
+          "y": 144
+        },
+        {
+          "id": 479,
+          "x": 84,
+          "y": 180
         }
       ]
     },
