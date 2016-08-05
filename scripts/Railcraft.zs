@@ -358,12 +358,6 @@ recipes.remove(<Railcraft:machine.beta:5>);
 // --- Liquid Fueled Boiler Firebox ---
 recipes.remove(<Railcraft:machine.beta:6>);
 
-// --- Low Pressure Boiler Tank ---
-recipes.remove(<Railcraft:machine.beta:3>);
-
-// --- High Pressure Boiler Tank ---
-recipes.remove(HPBoilerTank);
-
 // --- Hobbyists Steam Engine ---
 recipes.remove(<Railcraft:machine.beta:7>);
 
@@ -900,18 +894,6 @@ recipes.addShaped(<Railcraft:machine.beta:6>, [
 [SteelPlate, Cauldron, SteelPlate],
 [<dreamcraft:item.SteelBars>, <gregtech:gt.blockcasings3:13>, <dreamcraft:item.SteelBars>],
 [SteelPlate, IronFurnace, SteelPlate]]);
-
-// --- Low Pressure Boiler Tank ---
-recipes.addShaped(<Railcraft:machine.beta:3>, [
-[<IC2:itemCasing:4>, <IC2:itemCasing:4>, <IC2:itemCasing:4>],
-[IronScrew, HHammer, IronScrew],
-[<IC2:itemCasing:4>, <IC2:itemCasing:4>, <IC2:itemCasing:4>]]);
-
-// --- High Pressure Boiler Tank ---
-recipes.addShaped(HPBoilerTank, [
-[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>],
-[SteelScrew, HHammer, SteelScrew],
-[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 
 // --- Hobbyists Steam Engine ---
 recipes.addShaped(<Railcraft:machine.beta:7>, [
@@ -1852,12 +1834,6 @@ Assembler.addRecipe(<Railcraft:machine.beta:14>, <Railcraft:part.plate:1> * 2, <
 // --- Steel Tank Valve
 Assembler.addRecipe(<Railcraft:machine.beta:15>, <gregtech:gt.blockmachines:5133> * 2, <dreamcraft:item.SteelBars> * 2, 400, 30);
 
-// --- Low Pressure Boiler
-Assembler.addRecipe(<Railcraft:machine.beta:3>, <IC2:itemCasing:4> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 30);
-
-// --- High Pressure Boiler
-Assembler.addRecipe(<Railcraft:machine.beta:4>, <IC2:itemCasing:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 30);
-
 // --- Work Cart ---
 Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
 
@@ -1951,8 +1927,6 @@ FluidSolidifier.addRecipe(SteelAnvil, <gregtech:gt.metaitem.01:32314> * 0, <liqu
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta:1>);
-// -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 6, <Railcraft:machine.beta:3>);
 
 // --- Bronze Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2300> * 10, <Railcraft:machine.beta:2>);
@@ -1963,8 +1937,6 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:14>);
 // -
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 10, <Railcraft:machine.beta:15>);
-// -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 6, <Railcraft:machine.beta:4>);
 
 
 
