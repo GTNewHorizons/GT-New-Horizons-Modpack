@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.9.0 is out (16.07.2016)(GT New Horizons Coremod 1.1.63) (GTTweaker 1.1.1)
+Version 1.0.9.1 is out (06.08.2016)(GT New Horizons Coremod 1.1.71) (GTTweaker 1.1.1)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -59,8 +59,10 @@ Food is a thing in the pack during starting days, you cant see at night time w/o
 ---
 ## How do I join?
 
-Write a post here or send me a PM.<BR>
-I'll send you IRC adress along with the link for the whole pack.
+Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
+Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
+Forum Link: http://forum.gtnewhorizons.com/
+Server IP you can get from Discord or pm in the Forum.
 
 
 Server info<BR>
@@ -72,7 +74,7 @@ US Server Prospercraft.com
 ---
 
 
-## Modlist - NewHorizons 1.0.9.0 --- 16.07.2016<BR>
+## Modlist - NewHorizons 1.0.9.1 --- 06.08.2016<BR>
 
 * Advanced Solar Panels	3.5.1<BR>
 * Adventure Backpack 0.8e25<BR>
@@ -91,7 +93,7 @@ US Server Prospercraft.com
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
-* Better Questing 1.0.132<BR>
+* Better Questing 1.0.141<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -108,8 +110,8 @@ US Server Prospercraft.com
 * Carpenter's Blocks	3.3.8<BR>
 * CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
-* CofhCore	3.2.1.325<BR>
-* CofhLib	1.1.1.181<BR>
+* CofhCore	3.1.3.327<BR>
+* CofhLib	1.1.2.182<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.0<BR>
 * Craft Tweaker 3.0.10<BR>
@@ -120,7 +122,7 @@ US Server Prospercraft.com
 * Electro Magic Tools	1.2.5<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.2.0.36<BR>
-* Ender IO	2.3.0.427<BR>
+* Ender IO	2.3.0.428<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Loot Bags 1.0<BR>
@@ -128,30 +130,30 @@ US Server Prospercraft.com
 * Extra Cells	2.3.14b197<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.23<BR>
-* Flood Light	1.2.1.134<BR>
+* Flood Light	1.2.8.137<BR>
 * Forbidden Magic	0.575<BR>
-* Forestry	4.2.14.62<BR>
+* Forestry	4.2.15.63<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
-* Gadomancy 1.0.7.1<BR>
+* Gadomancy 1.0.7.2<BR>
 * Galacticraft-Planets	3.0.12.462aGS2.6Custom<BR>
 * GalacticraftCore	3.0.12.462aGS2.6Custom<BR>
 * GalactiGreg	0.9.4<BR>
 * Galaxy Space	2.6 Beta<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.22.20custom<BR>
-* GT New Horizons Core Mod	1.1.63<BR>
+* Gregtech	5.09.22.31custom<BR>
+* GT New Horizons Core Mod	1.1.71<BR>
 * GTTweaker	1.1.1<BR>
-* Hardcore Ender Expansion	1.8.5<BR>
+* Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.103<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
 * IguanaTinkerTweaks	2.1.6a<BR>
-* Industrial Craft 2	2.2.2.822<BR>
+* Industrial Craft 2	2.2.2.823<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * InpureCore	1.0.0B9-62<BR>
@@ -179,7 +181,7 @@ US Server Prospercraft.com
 * Open Blocks	1.5.1<BR>
 * Open Computers	1.5.22.46<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.3.221<BR>
+* Open Modular Turrets 2.2.4.225<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
@@ -204,11 +206,11 @@ US Server Prospercraft.com
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
 * Spice of Life	1.3.2<BR>
-* Standard Expansion 1.0.85<BR>
+* Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.0<BR>
+* Storage Drawers	1.10.1<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * Thaumcraft	4.2.3.5<BR>
@@ -223,7 +225,7 @@ US Server Prospercraft.com
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
 * Tinker's Gregworks	1.0.13<BR>
-* Tinker's Defense 1.2.1a<BR>
+* Tinker's Defense 1.3.6<BR>
 * TMechworks	02.14.106<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>

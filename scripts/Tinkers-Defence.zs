@@ -23,22 +23,34 @@ import mods.ic2.Compressor;
 
 
 // --- Aeon Steel Ingot
-recipes.remove(<tinkersdefense:AeonSteelIngot>);
+recipes.remove(<tinkersdefense:aeonsteelingot>);
 
 // --- Aeon Steel Block
-recipes.remove(<tinkersdefense:AeonSteelBlock>);
+recipes.remove(<tinkersdefense:aeonsteelblock>);
 
 // --- Queens Gold Ingot
-recipes.remove(<tinkersdefense:QueensGoldIngot>);
+recipes.remove(<tinkersdefense:queensgoldingot>);
 
 // --- Queens Gold Block
-recipes.remove(<tinkersdefense:QueensGoldBlock>);
+recipes.remove(<tinkersdefense:queensgoldblock>);
 
 // --- Dogbearium Ingot
-recipes.remove(<tinkersdefense:DogbeariumIngot>);
+recipes.remove(<tinkersdefense:dogbeariumingot>);
 
 // --- Dogbearium Block
-recipes.remove(<tinkersdefense:DogbeariumBlock>);
+recipes.remove(<tinkersdefense:dogbeariumblock>);
+
+// --- Green Mint Ingot
+recipes.remove(<tinkersdefense:greenmintingot>);
+
+// --- Green Mint Block
+recipes.remove(<tinkersdefense:greenmintblock>);
+
+// --- Red Mint Ingot
+recipes.remove(<tinkersdefense:redmintingot>);
+
+// --- Red Mint Block
+recipes.remove(<tinkersdefense:redmintblock>);
 
 
 
@@ -53,10 +65,16 @@ recipes.remove(<tinkersdefense:DogbeariumBlock>);
 
 
 // --- Aeon Steel Block
-Compressor.addRecipe(<tinkersdefense:AeonSteelBlock>, <tinkersdefense:AeonSteelIngot> * 9);
+Compressor.addRecipe(<tinkersdefense:aeonsteelblock>, <tinkersdefense:aeonsteelingot> * 9);
 
 // --- Queens Gold Block
-Compressor.addRecipe(<tinkersdefense:QueensGoldBlock>, <tinkersdefense:QueensGoldIngot> * 9);
+Compressor.addRecipe(<tinkersdefense:queensgoldblock>, <tinkersdefense:queensgoldingot> * 9);
 
 // --- Dogbearium Block
-Compressor.addRecipe(<tinkersdefense:DogbeariumBlock>, <tinkersdefense:DogbeariumIngot> * 9);
+Compressor.addRecipe(<tinkersdefense:dogbeariumblock>, <tinkersdefense:dogbeariumingot> * 9);
+
+// --- Green Mint Block
+Compressor.addRecipe(<tinkersdefense:greenmintblock>, <tinkersdefense:greenmintingot> * 9);
+
+// --- Red Mint Block
+Compressor.addRecipe(<tinkersdefense:redmintblock>, <tinkersdefense:redmintingot> * 9);

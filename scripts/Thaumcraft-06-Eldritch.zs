@@ -212,7 +212,7 @@ mods.thaumcraft.Research.addArcanePage("CAP_void", <Thaumcraft:WandCap:8>);
 
 // --- Charged Void Cap
 mods.thaumcraft.Infusion.addRecipe("CAP_void", <Thaumcraft:WandCap:8>, 
-[<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemNugget:7>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemNugget:7>], 
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>], 
 "alienis 32, auram 32, potentia 32, vacuos 32", <dreamcraft:item.ChargedVoidWandCap>, 8);
 mods.thaumcraft.Research.addInfusionPage("CAP_void", <dreamcraft:item.ChargedVoidWandCap>);
 // -
@@ -674,6 +674,11 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
 
 
 
+// --- Ordicted Stuff ---
+
+
+// --- Void Nuggets
+oreDict.nuggetVoidmetal.add(<Thaumcraft:ItemNugget:7>);
 
 
 

@@ -2201,7 +2201,7 @@
     {
       "questID": 28,
       "name": "Copper sky",
-      "description": "With your new acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in care you don\u0027t know, they spawn in rather large veins. Use the following quests to search and locate the most important veins you\u0027ll need",
+      "description": "With your new acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in case you don\u0027t know, they spawn in rather large veins. Use the following quests to search and locate the most important veins you\u0027ll need",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6375,10 +6375,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 12
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6436,10 +6436,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 13
+        "Damage": 1
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -6448,10 +6448,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 13
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6494,10 +6494,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 14
+        "Damage": 2
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -6506,10 +6506,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 14
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6736,7 +6736,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice Developers, we decided to add a little bonus if you happen to compress charcoal. Not only enables it to process more than 16 steel at a time, it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a Quintuple one!)",
+      "description": "Because we\u0027re nice Developers, we decided to add a little bonus if you happen to compress charcoal. Not only enables it to process more than 16 steel at a time (not in the Bronze Blast furnace), it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a Quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6860,7 +6860,7 @@
     {
       "questID": 84,
       "name": "Where i can put all the Liquids in",
-      "description": "With your rand New Alloy Smelter you are able to combine two materials. What happened if you mixing some Obsidian Dust and Glass? Obsidian Glass great. Your Fist Tank you can made would be a Buildcraft Tank. This Tank carry up to 16 Buckets of each Fluid. It is possible to upgrade those tanks up to 64 Bucket Tanks.",
+      "description": "With your brand new Alloy Smelter you are able to combine two materials. What happened if you mixing some Obsidian Dust and Glass? Obsidian Glass great. Your First Tank you can made would be a Buildcraft Tank. This Tank can carry up 16 Buckets of a single Fluid. It is possible to upgrade thise tanks that it can hold up 64 Bucket.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6906,7 +6906,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -7017,8 +7017,8 @@
     },
     {
       "questID": 86,
-      "name": "Upgrade #3: Highest Tier",
-      "description": "To process Draconium and Neutronium you need more than 3600K. Upgrade your EBF to 9000K.",
+      "name": "Upgrade #3: Upgrade Tier 4",
+      "description": "To process more advenced Materials like  Enderium, Enriched Naquadah or Niob-Titanium you need more than 3600K. Upgrade your EBF to 4500k.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7035,27 +7035,25 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 15
+        "Damage": 3
       },
       "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 15
+              "Damage": 3
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
@@ -35384,6 +35382,464 @@
       ]
     },
     {
+      "questID": 475,
+      "name": "Upgrade #4: Upgrade Tier 5",
+      "description": "To process more advenced Materials like HSS-E, HSS-S, Naquadah or Draconium you need more than 4500K. Upgrade your EBF to 5400k.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        86
+      ]
+    },
+    {
+      "questID": 476,
+      "name": "Upgrade #3: Upgrade Tier 6",
+      "description": "To process more advenced Materials like Naquadah-Alloy you need more than 5400K. Upgrade your EBF to 7200k.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        475
+      ]
+    },
+    {
+      "questID": 477,
+      "name": "Upgrade #6: Upgrade Tier 7",
+      "description": "To process the most advenced Materials like Neutronium, Fluxed-Electrum or Awakened Draconium you need more than 7200K. Upgrade your EBF to 9001k max.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        476
+      ]
+    },
+    {
+      "questID": 478,
+      "name": "Flint and Steel",
+      "description": "After you can make Steel you are able to craft some Flint and Steel. I guess you want to travel to the Nether as soon as possible but be aware The Nether is very dangerous.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:flint_and_steel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1520
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 1,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20305
+            },
+            {
+              "id": "minecraft:flint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:arrow",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:obsidian",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 479,
+      "name": "THE NETHER",
+      "description": "THE NETHER. Now more dangerous with Extra Hardcore Infernal Mobs. Have fun and take care.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:portal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:obsidian",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "name": "The Nether",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": -1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:natura.armor.imphelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impjerkin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impleggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 4
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Natura:natura.armor.impboots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 2
+                  },
+                  {
+                    "lvl:4": 1,
+                    "id:4": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        478
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -42187,7 +42643,7 @@
         },
         {
           "id": 28,
-          "x": 60,
+          "x": 72,
           "y": 216
         },
         {
@@ -42282,7 +42738,7 @@
         },
         {
           "id": 474,
-          "x": 60,
+          "x": 72,
           "y": 180
         }
       ]
@@ -42293,158 +42749,168 @@
       "quests": [
         {
           "id": 44,
-          "x": 16,
+          "x": 0,
           "y": 0
         },
         {
           "id": 46,
-          "x": 56,
+          "x": 48,
           "y": 0
         },
         {
           "id": 47,
-          "x": 56,
-          "y": 32
+          "x": 48,
+          "y": 36
         },
         {
           "id": 48,
-          "x": 168,
+          "x": 156,
           "y": 0
         },
         {
           "id": 49,
-          "x": 208,
+          "x": 204,
           "y": 0
         },
         {
           "id": 50,
-          "x": 248,
+          "x": 252,
           "y": 0
         },
         {
           "id": 51,
-          "x": 208,
-          "y": 64
+          "x": 204,
+          "y": 72
         },
         {
           "id": 53,
-          "x": 168,
-          "y": 64
+          "x": 156,
+          "y": 72
         },
         {
           "id": 54,
-          "x": 168,
-          "y": 32
+          "x": 156,
+          "y": 36
         },
         {
           "id": 52,
-          "x": 208,
-          "y": 32
+          "x": 204,
+          "y": 36
         },
         {
           "id": 55,
-          "x": 128,
-          "y": 32
+          "x": 120,
+          "y": 36
         },
         {
           "id": 56,
-          "x": 128,
-          "y": 64
+          "x": 120,
+          "y": 72
         },
         {
           "id": 57,
-          "x": 248,
-          "y": 64
+          "x": 240,
+          "y": 72
         },
         {
           "id": 58,
-          "x": 296,
+          "x": 300,
           "y": 0
         },
         {
           "id": 59,
-          "x": 16,
-          "y": 128
+          "x": 0,
+          "y": 144
         },
         {
           "id": 60,
           "x": 0,
-          "y": 176
+          "y": 180
         },
         {
           "id": 61,
-          "x": 32,
-          "y": 176
+          "x": 36,
+          "y": 180
         },
         {
           "id": 62,
-          "x": 56,
-          "y": 128
+          "x": 48,
+          "y": 144
         },
         {
           "id": 63,
-          "x": 56,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 64,
-          "x": 56,
-          "y": 96
+          "x": 48,
+          "y": 108
         },
         {
           "id": 65,
-          "x": 88,
-          "y": 112
+          "x": 84,
+          "y": 108
         },
         {
           "id": 66,
-          "x": 128,
-          "y": 112
+          "x": 120,
+          "y": 108
         },
         {
           "id": 68,
-          "x": 128,
+          "x": 156,
           "y": 144
         },
         {
           "id": 69,
-          "x": 208,
-          "y": 112
+          "x": 204,
+          "y": 108
         },
         {
           "id": 70,
-          "x": 272,
-          "y": 176
+          "x": 204,
+          "y": 180
         },
         {
           "id": 67,
-          "x": 168,
-          "y": 112
+          "x": 156,
+          "y": 108
         },
         {
           "id": 72,
-          "x": 160,
-          "y": 176
+          "x": 156,
+          "y": 180
         },
         {
           "id": 73,
-          "x": 88,
-          "y": 176
+          "x": 120,
+          "y": 180
         },
         {
           "id": 71,
-          "x": 208,
+          "x": 204,
           "y": 144
         },
         {
           "id": 84,
-          "x": 88,
-          "y": 32
+          "x": 84,
+          "y": 36
         },
         {
           "id": 16,
-          "x": 88,
-          "y": 64
+          "x": 84,
+          "y": 72
+        },
+        {
+          "id": 478,
+          "x": 84,
+          "y": 144
+        },
+        {
+          "id": 479,
+          "x": 84,
+          "y": 180
         }
       ]
     },
@@ -43798,68 +44264,83 @@
         },
         {
           "id": 75,
-          "x": 40,
+          "x": 48,
           "y": 0
         },
         {
           "id": 76,
           "x": 0,
-          "y": 32
+          "y": 36
         },
         {
           "id": 77,
           "x": 0,
-          "y": 64
+          "y": 72
         },
         {
           "id": 78,
           "x": 0,
-          "y": 96
+          "y": 108
         },
         {
           "id": 79,
-          "x": 40,
-          "y": 96
+          "x": 48,
+          "y": 108
         },
         {
           "id": 80,
-          "x": 40,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 81,
-          "x": 80,
-          "y": 64
+          "x": 96,
+          "y": 72
         },
         {
           "id": 82,
-          "x": 40,
-          "y": 32
+          "x": 48,
+          "y": 36
         },
         {
           "id": 83,
-          "x": 40,
-          "y": 128
+          "x": 48,
+          "y": 144
         },
         {
           "id": 85,
           "x": 0,
-          "y": 128
+          "y": 144
         },
         {
           "id": 86,
-          "x": 80,
-          "y": 96
+          "x": 96,
+          "y": 108
         },
         {
           "id": 45,
-          "x": 80,
+          "x": 96,
           "y": 0
         },
         {
           "id": 87,
-          "x": 120,
+          "x": 144,
           "y": 0
+        },
+        {
+          "id": 475,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 476,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 477,
+          "x": 240,
+          "y": 108
         }
       ]
     },

@@ -1,4 +1,49 @@
 // --- Created by Lefty ---
+// --- Additional Recipes by DreamMasterXXL ---
+
+
+
+// --- Remove Recipes ---
+
+
+
+// --- Printing Press
+recipes.remove(<BiblioCraft:Printing Press>);
+
+// --- Print Press Case
+recipes.remove(<BiblioCraft:item.BiblioChase>);
+
+// --- Typesetting Table
+recipes.remove(<BiblioCraft:Typesetting Machine>);
+
+
+
+
+// --- Add Recipes ---
+
+
+// --- Printing Press
+recipes.addShaped(<BiblioCraft:Printing Press>, [
+[<ore:plateThaumium>, <ore:stickBlaze>, <ore:plateThaumium>],
+[<ore:plateAluminium>, <gregtech:gt.metaitem.01:32601>, <ore:plateAluminium>],
+[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+
+// --- Print Press Case
+recipes.addShaped(<BiblioCraft:item.BiblioChase>, [
+[<ore:stickWoodSealed>, <ore:stickWoodSealed>, <ore:stickWoodSealed>],
+[<ore:stickWoodSealed>, null, <ore:stickWoodSealed>],
+[<ore:stickWoodSealed>, <ore:stickWoodSealed>, <ore:stickWoodSealed>]]);
+
+// --- Typesetting Table
+recipes.addShaped(<BiblioCraft:Typesetting Machine>, [
+[<ore:plateAluminium>, <BiblioCraft:item.BiblioChase>, <ore:plateAluminium>],
+[<ore:plateWoodSealed>, <ore:frameGtWoodSealed>, <ore:plateWoodSealed>],
+[<ore:plateWoodSealed>, <ore:plateWoodSealed>, <ore:plateWoodSealed>]]);
+
+
+
+
+
 // --- Fixes for Forestry 4 ---
 
 

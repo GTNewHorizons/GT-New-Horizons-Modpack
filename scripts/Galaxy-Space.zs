@@ -25,9 +25,6 @@ furnace.remove(<GalaxySpace:item.QuantiumIgnot>);
 // --- Block of Lead
 recipes.remove(<GalaxySpace:mercurylead>);
 
-// --- Lead Ingot
-furnace.remove(<GalaxySpace:item.LeadIngot>);
-
 // --- Frozen Glowstone
 recipes.remove(<GalaxySpace:europaglowstone>);
 

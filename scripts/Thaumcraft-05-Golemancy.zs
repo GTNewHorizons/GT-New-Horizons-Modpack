@@ -30,7 +30,21 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:9>);
 // --- All Golems
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 // -
-//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:1>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:2>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:3>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:4>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:5>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:6>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:7>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);
@@ -212,58 +226,9 @@ mods.thaumcraft.Research.addCruciblePage("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemP
 mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 12, spiritus 12, metallum 12, motus 9, praecantatio 9, terra 9, humanus 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("GOLEMTHAUMIUM", 3);
 
-// --- Advanced Straw Golems
-mods.thaumcraft.Research.clearPages("ADVANCEDGOLEM");
-mods.thaumcraft.Research.addPage("ADVANCEDGOLEM", "tc.research_page.GOLEMTHAUMIUM.1");
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:wheat>],
-"cognitio 12, sensus 12, victus 12, humanus 6", <Thaumcraft:ItemGolemPlacer>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer>);
-// -
+// --- Advanced Golems
 mods.thaumcraft.Research.setAspects("ADVANCEDGOLEM", "sensus 15, victus 15, cognitio 12, potentia 12, praecantatio 12, alienis 9, motus 6, terra 3");
 mods.thaumcraft.Research.setComplexity("ADVANCEDGOLEM", 4);
-
-// --- Advanced Wood Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:1>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:blockWoodenDevice:6>],
-"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:1>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:1>);
-
-// --- Advanced Tallow Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:2>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:4>],
-"cognitio 22, sensus 22, victus 22, humanus 11", <Thaumcraft:ItemGolemPlacer:2>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:2>);
-
-// --- Advanced Clay Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:3>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:clay_ball>],
-"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:3>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:3>);
-
-// --- Advanced Flesh Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:4>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:rotten_flesh>],
-"cognitio 16, sensus 16, victus 16, humanus 8", <Thaumcraft:ItemGolemPlacer:4>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:4>);
-
-// --- Advanced Stone Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:5>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:stone>],
-"cognitio 22, sensus 22, victus 22, humanus 11", <Thaumcraft:ItemGolemPlacer:5>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:5>);
-
-// --- Advanced Iron Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:6>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <minecraft:iron_ingot>],
-"cognitio 32, sensus 32, victus 32, humanus 16", <Thaumcraft:ItemGolemPlacer:6>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:6>);
-
-// --- Advanced Thaumium Golems
-mods.thaumcraft.Infusion.addRecipe("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:7>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemResource>, <Thaumcraft:blockJar>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:2>],
-"cognitio 44, sensus 44, victus 44, humanus 22", <Thaumcraft:ItemGolemPlacer:7>.withTag({advanced: 1 as byte}), 5);
-mods.thaumcraft.Research.addInfusionPage("ADVANCEDGOLEM", <Thaumcraft:ItemGolemPlacer:7>);
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.addShaped("COREGATHER", <Thaumcraft:ItemGolemCore:100>, "ordo 5, ignis 5, terra 5", [
@@ -437,7 +402,6 @@ mods.thaumcraft.Arcane.addShaped("UPGRADEENTROPY", <Thaumcraft:ItemGolemUpgrade:
 // -
 mods.thaumcraft.Research.setAspects("UPGRADEENTROPY", "cognitio 6, perditio 9, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("UPGRADEENTROPY", 2);
-
 
 // --- Accessory Top Hat
 mods.thaumcraft.Arcane.addShaped("TINYHAT", <Thaumcraft:ItemGolemDecoration>, "ordo 10, ignis 10, terra 5", [

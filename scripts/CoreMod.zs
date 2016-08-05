@@ -62,6 +62,10 @@ val String = <minecraft:string>;
 
 
 
+// --- Dissenchanter
+recipes.remove(<DraconicEvolution:dissEnchanter>);
+
+
 // --- Adding Back Recipes ---
 
 
@@ -2171,7 +2175,7 @@ mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshma
 mods.thaumcraft.Research.addInfusionPage("DEZILSMARSHMALLOW", <DraconicEvolution:dezilsMarshmallow>);
 mods.thaumcraft.Warp.addToResearch("DEZILSMARSHMALLOW", 8);
 
-// --- Enchanting Table Infusion
+// --- Enchanting Table
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "NEWHORIZONS", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 0, 0, 4, <minecraft:enchanting_table>);
 game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
 game.setLocalization("tc.research_text.ENCHANTINGTABLE", "[MC] Oh, its more magical than a Table!");
@@ -2184,6 +2188,22 @@ mods.thaumcraft.Arcane.addShaped("ENCHANTINGTABLE", <minecraft:enchanting_table>
 [<Thaumcraft:ItemResource>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>],
 [<ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"}), <ore:plateDenseObsidian>, <ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"})]]);
 mods.thaumcraft.Research.addArcanePage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
+
+// --- Disenchanting Table
+mods.thaumcraft.Research.addResearch("DISENCHANTINGTABLE", "NEWHORIZONS", "alienis 21, perditio 18, praecantatio 15, fabrico 12, cognitio 9, potentia 6", 2, 2, 4, <DraconicEvolution:dissEnchanter>);
+game.setLocalization("tc.research_name.DISENCHANTINGTABLE", "Disenchanting Table");
+game.setLocalization("tc.research_text.DISENCHANTINGTABLE", "[DC] Oh, you can remove Enchants? Nice!");
+mods.thaumcraft.Research.addPrereq("DISENCHANTINGTABLE", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("DISENCHANTINGTABLE", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.setConcealed("DISENCHANTINGTABLE", true);
+mods.thaumcraft.Research.addPage("DISENCHANTINGTABLE", "DraconicEvolution.research_page.DISENCHANTINGTABLE");
+game.setLocalization("DraconicEvolution.research_page.DISENCHANTINGTABLE", "Disenchanter is a block added by the Draconic Evolution mod. It can be used to remove enchantments from items. This is achieved by placing an enchanted item and a book in its GUI. The enchantment will be moved to the book after pressing the button in the GUI. This process costs a certain amount of experience, as well as cause damage to the item that is being disenchanted. The damage caused to the item can be reduced by placing Bookcases around the Disenchanter.");
+mods.thaumcraft.Arcane.addShaped("DISENCHANTINGTABLE", <DraconicEvolution:dissEnchanter>, "aer 75, aqua 75, terra 75, ignis 75, ordo 75, perditio 75", [
+[<ore:blockAmethyst>, <Thaumcraft:ItemResource:7>, <ore:blockAmethyst>],
+[<minecraft:enchanted_book>, <minecraft:enchanting_table>, <minecraft:enchanted_book>],
+[<ore:blockThaumium>, <ore:plateDenseObsidian>, <ore:blockThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("DISENCHANTINGTABLE", <DraconicEvolution:dissEnchanter>);
+mods.thaumcraft.Warp.addToResearch("DISENCHANTINGTABLE", 3);
 
 // --- Brewing Stand
 mods.thaumcraft.Research.addResearch("BREWINGSTAND", "NEWHORIZONS", "praecantatio 15, fabrico 15, cognitio 12, perditio 12, ignis 9, terra 6, aqua 3", 2, 0, 4, <minecraft:brewing_stand>);
