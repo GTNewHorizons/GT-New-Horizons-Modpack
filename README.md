@@ -181,7 +181,7 @@ US Server Prospercraft.com
 * Open Blocks	1.5.1<BR>
 * Open Computers	1.5.22.46<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.3.222<BR>
+* Open Modular Turrets 2.2.4.225<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-91<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
