@@ -6375,10 +6375,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 12
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6436,10 +6436,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 13
+        "Damage": 1
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -6448,10 +6448,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 13
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6494,10 +6494,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 14
+        "Damage": 2
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -6506,10 +6506,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 14
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6736,7 +6736,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice Developers, we decided to add a little bonus if you happen to compress charcoal. Not only enables it to process more than 16 steel at a time, it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a Quintuple one!)",
+      "description": "Because we\u0027re nice Developers, we decided to add a little bonus if you happen to compress charcoal. Not only enables it to process more than 16 steel at a time (not in the Bronze Blast furnace), it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a Quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7017,8 +7017,8 @@
     },
     {
       "questID": 86,
-      "name": "Upgrade #3: Highest Tier",
-      "description": "To process Draconium and Neutronium you need more than 3600K. Upgrade your EBF to 9000K.",
+      "name": "Upgrade #3: Upgrade Tier 4",
+      "description": "To process more advenced Materials like  Enderium, Enriched Naquadah or Niob-Titanium you need more than 3600K. Upgrade your EBF to 4500k.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7035,27 +7035,25 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockcasings",
+        "id": "gregtech:gt.blockcasings5",
         "Count": 1,
         "OreDict": "",
-        "Damage": 15
+        "Damage": 3
       },
       "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
+              "id": "gregtech:gt.blockcasings5",
               "Count": 16,
               "OreDict": "",
-              "Damage": 15
+              "Damage": 3
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
@@ -35384,6 +35382,180 @@
       ]
     },
     {
+      "questID": 475,
+      "name": "Upgrade #4: Upgrade Tier 5",
+      "description": "To process more advenced Materials like HSS-E, HSS-S, Naquadah or Draconium you need more than 4500K. Upgrade your EBF to 5400k.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        86
+      ]
+    },
+    {
+      "questID": 476,
+      "name": "Upgrade #3: Upgrade Tier 6",
+      "description": "To process more advenced Materials like Naquadah-Alloy you need more than 5400K. Upgrade your EBF to 7200k.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        475
+      ]
+    },
+    {
+      "questID": 477,
+      "name": "Upgrade #6: Upgrade Tier 7",
+      "description": "To process the most advenced Materials like Neutronium, Fluxed-Electrum or Awakened Draconium you need more than 7200K. Upgrade your EBF to 9001k max.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings5",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        476
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important, a scoop.",
@@ -43798,68 +43970,83 @@
         },
         {
           "id": 75,
-          "x": 40,
+          "x": 48,
           "y": 0
         },
         {
           "id": 76,
           "x": 0,
-          "y": 32
+          "y": 36
         },
         {
           "id": 77,
           "x": 0,
-          "y": 64
+          "y": 72
         },
         {
           "id": 78,
           "x": 0,
-          "y": 96
+          "y": 108
         },
         {
           "id": 79,
-          "x": 40,
-          "y": 96
+          "x": 48,
+          "y": 108
         },
         {
           "id": 80,
-          "x": 40,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 81,
-          "x": 80,
-          "y": 64
+          "x": 96,
+          "y": 72
         },
         {
           "id": 82,
-          "x": 40,
-          "y": 32
+          "x": 48,
+          "y": 36
         },
         {
           "id": 83,
-          "x": 40,
-          "y": 128
+          "x": 48,
+          "y": 144
         },
         {
           "id": 85,
           "x": 0,
-          "y": 128
+          "y": 144
         },
         {
           "id": 86,
-          "x": 80,
-          "y": 96
+          "x": 96,
+          "y": 108
         },
         {
           "id": 45,
-          "x": 80,
+          "x": 96,
           "y": 0
         },
         {
           "id": 87,
-          "x": 120,
+          "x": 144,
           "y": 0
+        },
+        {
+          "id": 475,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 476,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 477,
+          "x": 240,
+          "y": 108
         }
       ]
     },
