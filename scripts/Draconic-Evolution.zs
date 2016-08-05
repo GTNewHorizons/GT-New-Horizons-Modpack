@@ -163,9 +163,6 @@ recipes.remove(<DraconicEvolution:reactorStabilizer>);
 // --- Draconic Reactor Core
 recipes.remove(<DraconicEvolution:reactorCore>);
 
-// --- Dissenchanter
-recipes.remove(<DraconicEvolution:dissEnchanter>);
-
 // --- Resurrection Stone
 recipes.remove(<DraconicEvolution:draconium:1>);
 
@@ -731,18 +728,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:reactorCore>, [
 [null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconiumAwakened>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null],
 [null, null, <ore:plateDraconiumAwakened>, <ore:blockDraconium>, <DraconicEvolution:draconium:2>, <ore:blockDraconium>, <ore:plateDraconiumAwakened>, null, null],
 [null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-
-// --- Dissenchanter
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dissEnchanter>, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>, null, null],
-[null, null, <ore:plateDiamond>, <minecraft:enchanted_book>, DraconicCore, <minecraft:enchanted_book>, <ore:plateDiamond>, null, null],
-[null, null, <ore:plateDiamond>, DraconicCore, <minecraft:enchanting_table>, DraconicCore, <ore:plateDiamond>, null, null],
-[null, null, <ore:plateDiamond>, <minecraft:enchanted_book>, DraconicCore, <minecraft:enchanted_book>, <ore:plateDiamond>, null, null],
-[null, null, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, <ore:gemEnderEye>, null, null],
-[null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Resurrection Stone

@@ -685,14 +685,14 @@ mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
 // --- Steel Nuggets
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
 
+// --- Meteoric Iron
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
+
 // --- Meteoric Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
 
 // --- GT Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
-
-// --- Fiery Steel
-mods.railcraft.BlastFurnace.removeRecipe(<TwilightForest:item.fieryIngot>);
 
 // --- HSLA Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
