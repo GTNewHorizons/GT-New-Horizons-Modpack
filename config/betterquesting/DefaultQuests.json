@@ -35682,7 +35682,7 @@
     {
       "questID": 479,
       "name": "THE NETHER",
-      "description": "THE NETHER. Nowe more dangerous with Extra Hardcore Infernal Mobs. Have fun and take Care.",
+      "description": "THE NETHER. Now more dangerous with Extra Hardcore Infernal Mobs. Have fun and take care.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35726,6 +35726,17 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "name": "The Nether",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": -1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
         }
       ],
       "rewards": [
