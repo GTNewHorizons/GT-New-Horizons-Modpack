@@ -74,9 +74,9 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
             }
         }
-        GT_Values.RA.addAssemblerRecipe(ItemList.Gravistar.get(1L, new Object[]{}), CustomItemList.NanoCircuit.get(4L, new Object[]{}), Materials.Osmium.getMolten(576L), ItemList.Field_Generator_LuV.get(1, new Object[0]), 2400, 7680);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.MysteriousCrystal.get(1L, new Object[]{}), CustomItemList.PikoCircuit.get(4L, new Object[]{}), Materials.Naquadah.getMolten(576L), ItemList.Field_Generator_ZPM.get(1, new Object[0]), 3000, 7680);
-        GT_Values.RA.addAssemblerRecipe(new ItemStack(Blocks.dragon_egg, 1, 32767), CustomItemList.QuantumCircuit.get(4L, new Object[]{}), Materials.NaquadahAlloy.getMolten(576L), ItemList.Field_Generator_UV.get(1, new Object[0]), 3600, 7680);
+//      GT_Values.RA.addAssemblerRecipe(ItemList.Gravistar.get(1L, new Object[]{}), CustomItemList.NanoCircuit.get(4L, new Object[]{}), Materials.Osmium.getMolten(576L), ItemList.Field_Generator_LuV.get(1, new Object[0]), 2400, 7680);
+//      GT_Values.RA.addAssemblerRecipe(CustomItemList.MysteriousCrystal.get(1L, new Object[]{}), CustomItemList.PikoCircuit.get(4L, new Object[]{}), Materials.Naquadah.getMolten(576L), ItemList.Field_Generator_ZPM.get(1, new Object[0]), 3000, 7680);
+//      GT_Values.RA.addAssemblerRecipe(new ItemStack(Blocks.dragon_egg, 1, 32767), CustomItemList.QuantumCircuit.get(4L, new Object[]{}), Materials.NaquadahAlloy.getMolten(576L), ItemList.Field_Generator_UV.get(1, new Object[0]), 3600, 7680);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("appliedenergistics2", "item.ItemMultiMaterial", 1L, 24), CustomItemList.EssentiaCircuit.get(1L, new Object[]{}), CustomItemList.EngineeringProcessorEssentiaPulsatingCore.get(1, new Object[0]), 100, 1920);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
