@@ -63,6 +63,8 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 10L, 14), GT_ModHandler.getModItem("TwilightForest", "item.trophy", 0L, 4), CustomItemList.SnowQueenBlood.get(1L, new Object[0]), 1800, 7680);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("Thaumcraft", "ItemResource", 16L, 14), GT_ModHandler.getModItem("witchery", "ingredient", 1L, 130), new ItemStack(Items.nether_star, 1, 32767), 900, 256);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Wood, 1L), GT_OreDictUnificator.get(OrePrefixes.slab, Materials.Wood, 3L), Materials.Iron.getMolten(32L), CustomItemList.WoodenCasing.get(1L, new Object[0]), 100, 8);
+        GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Iron.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), 200, 30);
+        GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Steel.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), 200, 30);
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
@@ -316,6 +318,10 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
 
         //Other
         GT_ModHandler.addCraftingRecipe(CustomItemList.WoodenCasing.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "UCU", "SDS", Character.valueOf('S'), OrePrefixes.slab.get(Materials.Wood), Character.valueOf('D'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('U'), OrePrefixes.screw.get(Materials.Iron), Character.valueOf('C'), OrePrefixes.frameGt.get(Materials.Wood)});
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3));
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4));
+        GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Iron, Character.valueOf('S'), OrePrefixes.screw.get(Materials.AnyIron)});
+        GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Steel, Character.valueOf('S'), OrePrefixes.screw.get(Materials.Steel)});
     }
 
 }
