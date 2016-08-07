@@ -153,7 +153,7 @@ public class SpaceDimRegisterer
 
         // Now lets first define a block here for our dimension. You can add the modID, but you don't have to.
         // It will automatically add the mods name that is defined in the modcontainer.
-        ModDBMDef DBMPhobos = new ModDBMDef("phobosstone");       
+        ModDBMDef DBMPhobos = new ModDBMDef("phobosblocks", 2);
         ModDBMDef DBMDeimos = new ModDBMDef("deimossubgrunt");    
         ModDBMDef DBMCeres = new ModDBMDef("ceressubgrunt");     
         ModDBMDef DBMIO = new ModDBMDef("iorock");
@@ -188,7 +188,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Deimos", "blessentumble.moons.SolarSystem.deimos.dimension.ChunkProviderDeimos", DimensionType.Planet, singleToList(DBMDeimos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Enceladus", "blessentumble.moons.SolarSystem.enceladus.dimension.ChunkProviderEnceladus", DimensionType.Planet, singleToList(DBMEnceladus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Io", "blessentumble.moons.io.dimension.ChunkProviderIo", DimensionType.Planet, singleToList(DBMIO)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Phobos", "blessentumble.moons.phobos.dimension.ChunkProviderPhobos", DimensionType.Planet, singleToList(DBMPhobos)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Phobos", "galaxyspace.SolarSystem.moons.phobos.dimension.ChunkProviderPhobos", DimensionType.Planet, singleToList(DBMPhobos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Venus", "blessentumble.planets.SolarSystem.venus.dimension.ChunkProviderVenus", DimensionType.Planet, singleToList(DBMVenus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Mercury", "blessentumble.planets.SolarSystem.mercury.dimension.ChunkProviderMercury", DimensionType.Planet, singleToList(DBMMercury)));
 
