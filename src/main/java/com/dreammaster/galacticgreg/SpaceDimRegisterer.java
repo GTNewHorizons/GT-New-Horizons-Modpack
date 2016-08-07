@@ -157,6 +157,7 @@ public class SpaceDimRegisterer
         ModDBMDef DBMDeimos = new ModDBMDef("deimosblocks", 1);
         ModDBMDef DBMCeres = new ModDBMDef("ceresblocks", 1);
         ModDBMDef DBMIO = new ModDBMDef("ioblocks", 2);
+        ModDBMDef DBMEuropa = new ModDBMDef("europagrunt", 1);
         ModDBMDef DBMGanymede = new ModDBMDef("ganymedeblocks", 1);
         ModDBMDef DBMCallisto = new ModDBMDef("callistoblocks", 1);
         ModDBMDef DBMVenus = new ModDBMDef("venusblocks", 1);
@@ -193,6 +194,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Deimos", "galaxyspace.SolarSystem.moons.deimos.dimension.ChunkProviderDeimos", DimensionType.Planet, singleToList(DBMDeimos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Enceladus", "galaxyspace.SolarSystem.moons.enceladus.dimension.ChunkProviderEnceladus", DimensionType.Planet, singleToList(DBMEnceladus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Io", "galaxyspace.SolarSystem.moons.io.dimension.ChunkProviderIo", DimensionType.Planet, singleToList(DBMIO)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("Europa", "galaxyspace.SolarSystem.moons.europa.dimension.ChunkProviderEuropa", DimensionType.Planet, singleToList(DBMEuropa))); //Ice from Y 70-50 for new Ledox Ore
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Phobos", "galaxyspace.SolarSystem.moons.phobos.dimension.ChunkProviderPhobos", DimensionType.Planet, singleToList(DBMPhobos)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Venus", "galaxyspace.SolarSystem.planets.venus.dimension.ChunkProviderVenus", DimensionType.Planet, singleToList(DBMVenus)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Mercury", "galaxyspace.SolarSystem.planets.mercury.dimension.ChunkProviderMercury", DimensionType.Planet, singleToList(DBMMercury)));
