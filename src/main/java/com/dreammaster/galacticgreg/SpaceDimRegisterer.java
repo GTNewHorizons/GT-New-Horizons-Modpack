@@ -170,7 +170,7 @@ public class SpaceDimRegisterer
         ModDBMDef DBMPluto = new ModDBMDef("plutoblocks", 5);
         ModDBMDef DBMMakemake = new ModDBMDef("makemakegrunt", 1);
         ModDBMDef DBMHaumea = new ModDBMDef("haumeablocks");
-        ModDBMDef DBMCentauriA = new ModDBMDef("acentauribbsubgrunt");
+        //ModDBMDef DBMCentauriA = new ModDBMDef("acentauribbsubgrunt"); //Not working
         ModDBMDef DBMVegaB = new ModDBMDef("vegasubgrunt");
         //ModDBMDef DBMbarnardaC = new ModDBMDef("BarnadaCdirt");
         ModDBMDef DBMbarnardaE = new ModDBMDef("BarnadaEsubgrunt");
@@ -200,7 +200,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Mercury", "galaxyspace.SolarSystem.planets.mercury.dimension.ChunkProviderMercury", DimensionType.Planet, singleToList(DBMMercury)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("MakeMake", "galaxyspace.SolarSystem.planets.makemake.dimension.ChunkProviderMakemake", DimensionType.Planet, singleToList(DBMMakemake)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Haumea", "galaxyspace.SolarSystem.planets.haumea.dimension.ChunkProviderHaumea", DimensionType.Planet, singleToList(DBMHaumea)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "galaxyspace.ACentauriSystem.planets.aCentauriBb.dimension.ChunkProviderACentauri", DimensionType.Planet, singleToList(DBMCentauriA)));
+        //modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "galaxyspace.ACentauriSystem.planets.aCentauriBb.dimension.ChunkProviderACentauri", DimensionType.Planet, singleToList(DBMCentauriA))); //Not working
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("VegaB", "galaxyspace.VegaSystem.planets.vegaB.dimension.ChunkProviderVegaB", DimensionType.Planet, singleToList(DBMVegaB)));
         //modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardC", "galaxyspace.BarnardsSystem.planets.barnardaC.dimension.ChunkProviderBarnardaC", DimensionType.Planet, singleToList(DBMbarnardaC)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardE", "galaxyspace.BarnardsSystem.planets.barnardaD.dimension.ChunkProviderBarnardaE", DimensionType.Planet, singleToList(DBMbarnardaE)));
