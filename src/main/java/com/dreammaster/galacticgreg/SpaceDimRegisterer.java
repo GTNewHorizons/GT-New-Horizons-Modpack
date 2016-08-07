@@ -172,9 +172,9 @@ public class SpaceDimRegisterer
         ModDBMDef DBMHaumea = new ModDBMDef("haumeablocks");
         //ModDBMDef DBMCentauriA = new ModDBMDef("acentauribbsubgrunt"); //Not working
         ModDBMDef DBMVegaB = new ModDBMDef("vegasubgrunt");
-        ModDBMDef DBMbarnardaC = new ModDBMDef("BarnadaCdirt");
-        ModDBMDef DBMbarnardaE = new ModDBMDef("BarnadaEsubgrunt");
-        ModDBMDef DBMbarnardaF = new ModDBMDef("BarnadaFsubgrunt");
+        ModDBMDef DBMbarnardaC = new ModDBMDef("BarnardaCdirt");
+        ModDBMDef DBMbarnardaE = new ModDBMDef("BarnardaEsubgrunt");
+        ModDBMDef DBMbarnardaF = new ModDBMDef("BarnardaFsubgrunt");
 
         // Now define the available dimensions, and their chunkprovider.
         // Same as above, to not have any dependency in your code, you can just give it a string.
