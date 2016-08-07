@@ -171,10 +171,10 @@ public class SpaceDimRegisterer
         ModDBMDef DBMMakemake = new ModDBMDef("makemakegrunt", 1);
         ModDBMDef DBMHaumea = new ModDBMDef("haumeablocks");
         //ModDBMDef DBMCentauriA = new ModDBMDef("acentauribbsubgrunt"); //Not working
-        ModDBMDef DBMVegaB = new ModDBMDef("vegasubgrunt");
-        ModDBMDef DBMbarnardaC = new ModDBMDef("BarnardaCdirt");
-        ModDBMDef DBMbarnardaE = new ModDBMDef("BarnardaEsubgrunt");
-        ModDBMDef DBMbarnardaF = new ModDBMDef("BarnardaFsubgrunt");
+        ModDBMDef DBMVegaB = new ModDBMDef("vegabsubgrunt");
+        ModDBMDef DBMbarnardaC = new ModDBMDef("barnardaCdirt");
+        ModDBMDef DBMbarnardaE = new ModDBMDef("barnardaEsubgrunt");
+        ModDBMDef DBMbarnardaF = new ModDBMDef("barnardaFsubgrunt");
 
         // Now define the available dimensions, and their chunkprovider.
         // Same as above, to not have any dependency in your code, you can just give it a string.
@@ -202,9 +202,9 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Haumea", "galaxyspace.SolarSystem.planets.haumea.dimension.ChunkProviderHaumea", DimensionType.Planet, singleToList(DBMHaumea)));
         //modCGalaxySpace.addDimensionDef(new ModDimensionDef("CentauriA", "galaxyspace.ACentauriSystem.planets.aCentauriBb.dimension.ChunkProviderACentauri", DimensionType.Planet, singleToList(DBMCentauriA))); //Not working
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("VegaB", "galaxyspace.VegaSystem.planets.vegaB.dimension.ChunkProviderVegaB", DimensionType.Planet, singleToList(DBMVegaB)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardC", "galaxyspace.BarnardsSystem.planets.barnardaE.dimension.ChunkProviderBarnardaC", DimensionType.Planet, singleToList(DBMbarnardaC)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardC", "galaxyspace.BarnardsSystem.planets.barnardaC.dimension.ChunkProviderBarnardaC", DimensionType.Planet, singleToList(DBMbarnardaC)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardE", "galaxyspace.BarnardsSystem.planets.barnardaE.dimension.ChunkProviderBarnardaE", DimensionType.Planet, singleToList(DBMbarnardaE)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardF", "galaxyspace.BarnardsSystem.planets.barnardaE.dimension.ChunkProviderBarnardaF", DimensionType.Planet, singleToList(DBMbarnardaF)));
+        modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardF", "galaxyspace.BarnardsSystem.planets.barnardaF.dimension.ChunkProviderBarnardaF", DimensionType.Planet, singleToList(DBMbarnardaF)));
         ModDimensionDef dimKupierBelt = new ModDimensionDef("Kuiperbelt", "galaxyspace.SolarSystem.planets.kuiperbelt.dimension.ChunkProviderKuiper", DimensionType.Asteroid);
         dimKupierBelt.setDimensionType(DimensionType.Asteroid);
         dimKupierBelt.addAsteroidMaterial(new AsteroidBlockComb(GTOreTypes.RedGranite)); 
