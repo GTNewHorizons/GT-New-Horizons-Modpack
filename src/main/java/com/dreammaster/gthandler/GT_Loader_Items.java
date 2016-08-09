@@ -355,6 +355,17 @@ public class GT_Loader_Items
 		CustomItemList.EssentiaCircuit.set(com.dreammaster.item.ItemList.EssentiaCircuit.getIS());
 		CustomItemList.EngineeringProcessorEssentiaPulsatingCore.set(com.dreammaster.item.ItemList.EngineeringProcessorEssentiaPulsatingCore.getIS());
 		CustomItemList.ManyullynCrystal.set(com.dreammaster.item.ItemList.ManyullynCrystal.getIS());
+		CustomItemList.SchematicsAstroMiner.set(com.dreammaster.item.ItemList.SchematicsAstroMiner.getIS());
+		CustomItemList.SchematicsCargoRocket.set(com.dreammaster.item.ItemList.SchematicsCargoRocket.getIS());
+		CustomItemList.SchematicsMoonBuggy.set(com.dreammaster.item.ItemList.SchematicsMoonBuggy.getIS());
+		CustomItemList.SchematicsTier1.set(com.dreammaster.item.ItemList.SchematicsTier1.getIS());
+		CustomItemList.SchematicsTier2.set(com.dreammaster.item.ItemList.SchematicsTier2.getIS());
+		CustomItemList.SchematicsTier3.set(com.dreammaster.item.ItemList.SchematicsTier3.getIS());
+		CustomItemList.SchematicsTier4.set(com.dreammaster.item.ItemList.SchematicsTier4.getIS());
+		CustomItemList.SchematicsTier5.set(com.dreammaster.item.ItemList.SchematicsTier5.getIS());
+		CustomItemList.SchematicsTier6.set(com.dreammaster.item.ItemList.SchematicsTier6.getIS());
+		CustomItemList.SchematicsTier7.set(com.dreammaster.item.ItemList.SchematicsTier7.getIS());
+		CustomItemList.SchematicsTier8.set(com.dreammaster.item.ItemList.SchematicsTier8.getIS());
 	}
 
 }

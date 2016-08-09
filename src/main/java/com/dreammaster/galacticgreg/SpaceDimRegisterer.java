@@ -206,6 +206,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardE", "galaxyspace.BarnardsSystem.planets.barnardaE.dimension.ChunkProviderBarnardaE", DimensionType.Planet, singleToList(DBMbarnardaE)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardF", "galaxyspace.BarnardsSystem.planets.barnardaF.dimension.ChunkProviderBarnardaF", DimensionType.Planet, singleToList(DBMbarnardaF)));
         ModDimensionDef dimKupierBelt = new ModDimensionDef("Kuiperbelt", "galaxyspace.SolarSystem.planets.kuiperbelt.dimension.ChunkProviderKuiper", DimensionType.Asteroid);
+
         dimKupierBelt.setDimensionType(DimensionType.Asteroid);
         dimKupierBelt.addAsteroidMaterial(new AsteroidBlockComb(GTOreTypes.RedGranite)); 
         dimKupierBelt.addAsteroidMaterial(new AsteroidBlockComb(GTOreTypes.BlackGranite));

@@ -88,7 +88,8 @@ public enum CustomItemList implements IItemContainer
 	TeleposerFrame,
 	MysteriousCrystal, ManyullynCrystal,
 	WoodenCasing,
-	EssentiaCircuit, EngineeringProcessorEssentiaPulsatingCore;
+	EssentiaCircuit, EngineeringProcessorEssentiaPulsatingCore,
+	SchematicsAstroMiner, SchematicsCargoRocket, SchematicsMoonBuggy, SchematicsTier1, SchematicsTier2, SchematicsTier3, SchematicsTier4, SchematicsTier5, SchematicsTier6, SchematicsTier7, SchematicsTier8;
 
 
 	private ItemStack mStack = null;
