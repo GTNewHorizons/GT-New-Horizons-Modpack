@@ -74,6 +74,8 @@ recipes.addShaped(<Avaritia:Dire_Crafting>, [
 [<gregtech:gt.metaitem.01:32652>, <Avaritia:Triple_Craft>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <Avaritia:Crystal_Matrix>, <ore:waferAdvanced>],
 [<gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32642>]]);
+// -
+recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
 
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [

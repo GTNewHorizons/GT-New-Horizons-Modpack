@@ -606,10 +606,10 @@ recipes.addShaped(<GalacticraftCore:tile.cargo:4>, [
 [CompressedAl, <minecraft:hopper>, CompressedAl]]);
 
 // --- Nasa Workbench
-recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
-[<gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32652>],
-[<ore:waferAdvanced>, <ore:circuitElite>, <ore:waferAdvanced>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.blockcasings:3>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+//recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>, [
+//[<gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32652>],
+//[<ore:waferAdvanced>, <ore:circuitElite>, <ore:waferAdvanced>],
+//[<dreamcraft:item.StainlessSteelItemCasing>, <gregtech:gt.blockcasings:3>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Tin Decoration Block
 recipes.addShaped(TinDecoBlock, [
@@ -1155,6 +1155,104 @@ recipes.addShaped(<GalacticraftMars:item.schematic>, [
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
 [null, <GalacticraftMars:item.schematic:2>]]);
+
+// --- Rocket Tier 1
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
+[<dreamcraft:item.SchematicsTier1>, null, null, null, null, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <ore:compressedSteel>, null, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleLander>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftCore:item.heavyPlating>, null, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <ore:compressedSteel>, <GalacticraftCore:item.engine>, <ore:compressedSteel>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 1 Cargo 1
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship:1>,[
+[<dreamcraft:item.SchematicsTier1>, null, null, null, null, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <ore:compressedSteel>, null, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleLander>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftCore:item.heavyPlating>, <ore:chestCopper>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <ore:compressedSteel>, <GalacticraftCore:item.engine>, <ore:compressedSteel>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 1 Cargo 2
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship:2>,[
+[<dreamcraft:item.SchematicsTier1>, null, null, null, null, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <ore:compressedSteel>, null, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleLander>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftCore:item.heavyPlating>, <ore:chestIron>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <ore:compressedSteel>, <GalacticraftCore:item.engine>, <ore:compressedSteel>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+
+// --- Rocket Tier 1 Cargo 3
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship:3>,[
+[<dreamcraft:item.SchematicsTier1>, null, null, null, null, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <ore:compressedSteel>, null, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleLander>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, null, <GalacticraftCore:item.heavyPlating>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftCore:item.heavyPlating>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftCore:item.heavyPlating>, <ore:chestGold>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <ore:compressedSteel>, <GalacticraftCore:item.engine>, <ore:compressedSteel>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 2
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2>,[
+[<dreamcraft:item.SchematicsTier2>, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.heavyPlating>, null, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, null, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.engine:1>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.engine:1>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 2 Cargo 1
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2:1>,[
+[<dreamcraft:item.SchematicsTier2>, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.heavyPlating>, null, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <ore:chestCopper>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.engine:1>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.engine:1>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 2 Cargo 2
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2:2>,[
+[<dreamcraft:item.SchematicsTier2>, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.heavyPlating>, null, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <ore:chestIron>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.engine:1>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.engine:1>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Rocket Tier 2 Cargo 3
+mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2:3>,[
+[<dreamcraft:item.SchematicsTier2>, null, null, null, <GalacticraftCore:item.noseCone>, null, null, null, null],
+[null, null, null, null, <GalacticraftCore:item.heavyPlating>, null, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, null, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, null, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.rocketFins>, <GalacticraftMars:item.null:3>, <ore:chestGold>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.rocketFins>, null, null],
+[null, null, <GalacticraftCore:item.engine:1>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.heavyPlating>, <GalacticraftCore:item.engine>, <GalacticraftCore:item.engine:1>, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
 
 
 
