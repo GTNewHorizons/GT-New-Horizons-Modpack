@@ -1510,45 +1510,6 @@ FluidCanner.addRecipe(<GalacticraftCore:item.fuelCanisterPartial:1>, <Galacticra
 
 
 
-// --- Implusion Compressor Recipes ---
-
-
-
-// --- Compressed Copper Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:6>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19035>, 1);
-
-// --- Compressed Tin Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:7>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19057>, 1);
-
-// --- Compressed Aluminium Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:8>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19019>, 1);
-
-// --- Compressed Steel Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:9>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19305>, 1);
-
-// --- Compressed Bronze Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:10>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19300>, 1);
-
-// --- Compressed Titanium Plates
-ImplosionCompressor.addRecipe([<GalacticraftMars:item.itemBasicAsteroids:6>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19028>, 1);
-
-// --- Compressed Iron Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.basicItem:11>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19032>, 1);
-
-// --- Compressed Meteoric Steel Plates
-ImplosionCompressor.addRecipe([<GalacticraftCore:item.meteoricIronIngot:1>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19341>, 1);
-
-// --- Compressed Desh Plates
-ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:5>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19884>, 1);
-
-// --- Heavy Duty Plats Tier 2
-//ImplosionCompressor.addRecipe([<GalacticraftMars:item.null:3>, <gregtech:gt.metaitem.01:81> * 2], <gregtech:gt.metaitem.01:32463>, 16);
-
-// --- Heavy Duty Plats Tier 3
-//ImplosionCompressor.addRecipe([HeavyDutyPlate, <gregtech:gt.metaitem.01:28> * 2], <gregtech:gt.metaitem.01:32464>, 24);
-
-
-
 // --- Macerator Recipes ---
 
 
