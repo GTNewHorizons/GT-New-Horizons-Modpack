@@ -309,6 +309,10 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 32767), CustomItemList.NetherStarFragment.get(2L, new Object[0]), 16, 30);
 
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L, new Object[0]), 1, new ItemStack(Items.nether_star, 1, 32767), null);
+        GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Aluminium, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualAluminium", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
+        GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Bronze, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualBronze", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
+        GT_Values.RA.addImplosionRecipe(CustomItemList.RawSDHCAlloy.get(1L, new Object[0]), 5, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedSDHD120", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Desh, 1L));
+        GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.block, Materials.Coal, 1L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedCoal", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
 
         GT_Values.RA.addLatheRecipe(CustomItemList.ReinforcedGlassPLate.get(1L, new Object[0]), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Glass, 1L), 400, 16);
 
@@ -399,6 +403,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4));
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Iron, Character.valueOf('S'), OrePrefixes.screw.get(Materials.AnyIron)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Steel, Character.valueOf('S'), OrePrefixes.screw.get(Materials.Steel)});
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3));
     }
 
 }

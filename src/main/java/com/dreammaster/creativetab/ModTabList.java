@@ -18,6 +18,9 @@ public class ModTabList {
 	public static String ModCircuitsTab = "tabDreamCraftItems_Circuit";
 	public static String ModFluidsTab = "tabDreamCraftFluids";
 	public static String ModBlocksTab = "tabDreamCraftBlocks";
+	public static String ModSpaceTab = "tabDreamCraftSpace";
+	public static String ModSolarTab = "tabDreamCraftSolar";
+	public static String ModBarsAndCasingsTab = "tabDreamCraftBars_Casings";
 	
 	public static void InitModTabs(CreativeTabsManager pTabManager, ModItemManager pItemManager)
 	{
@@ -28,5 +31,8 @@ public class ModTabList {
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModCircuitsTab, ItemList.QuantumCircuit.Item.getConstructedItem()));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModFluidsTab, Items.bucket));
 		pTabManager.AddCreativeTab(new ModCreativeTab(ModBlocksTab, Item.getItemFromBlock(Blocks.stone)));
+		pTabManager.AddCreativeTab(new ModCreativeTab(ModSpaceTab, ItemList.HeavyDutyNoseConeTier3.Item.getConstructedItem()));
+		pTabManager.AddCreativeTab(new ModCreativeTab(ModSolarTab, ItemList.EnrichedNaquadriaNeutroniumSunnariumAlloy.Item.getConstructedItem()));
+		pTabManager.AddCreativeTab(new ModCreativeTab(ModBarsAndCasingsTab, ItemList.ChromeBars.Item.getConstructedItem()));
 	}
 }
