@@ -1260,8 +1260,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket>,
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
+[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
+[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftCore:item.engine:1>, <GalacticraftMars:item.null:3>, <GalacticraftMars:item.itemBasicAsteroids:1>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.engine:1>, null, null]]);
 
@@ -1272,8 +1272,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket:1
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
+[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
+[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <ore:chestCopper>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftCore:item.engine:1>, <GalacticraftMars:item.null:3>, <GalacticraftMars:item.itemBasicAsteroids:1>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.engine:1>, null, null]]);
 
@@ -1284,8 +1284,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket:2
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
+[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
+[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <ore:chestIron>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftCore:item.engine:1>, <GalacticraftMars:item.null:3>, <GalacticraftMars:item.itemBasicAsteroids:1>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.engine:1>, null, null]]);
 
@@ -1296,8 +1296,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket:3
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleLander2>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
 [null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
-[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <GalaxySpace:item.ModuleSmallFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
+[null, null, null, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, null, null, null],
+[null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <dreamcraft:item.MediumFuelCanister>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftMars:item.itemBasicAsteroids:2>, <GalacticraftMars:item.itemBasicAsteroids>, <ore:chestGold>, <GalacticraftMars:item.itemBasicAsteroids>, <GalacticraftMars:item.itemBasicAsteroids:2>, null, null],
 [null, null, <GalacticraftCore:item.engine:1>, <GalacticraftMars:item.null:3>, <GalacticraftMars:item.itemBasicAsteroids:1>, <GalacticraftMars:item.null:3>, <GalacticraftCore:item.engine:1>, null, null]]);
 
@@ -1385,31 +1385,31 @@ oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 
 
 // --- Tier 1 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <GalacticraftCore:item.spaceship>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:1>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <GalacticraftCore:item.spaceship:1>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:2>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <GalacticraftCore:item.spaceship:2>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <GalacticraftCore:item.spaceship:3>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <GalacticraftCore:item.spaceship:3>, <liquid:oxygen> * 2000, [10000, 10000, 10000], 1200, 30);
 
 // --- Tier 2 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:1>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:1>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:2>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:3>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <GalacticraftMars:item.spaceshipTier2:3>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 
 // --- Tier 3 Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 37, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 37, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12],  <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 37, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12],  <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 37, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 
 // --- Tier 4 Rocket Recycling
 ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <GalaxySpace:item.Tier4Rocket>, <liquid:oxygen> * 8000, [10000, 10000, 10000, 10000], 4800, 30);
@@ -1457,12 +1457,14 @@ ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:
 ArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <GalaxySpace:item.Tier8Rocket:3>, <liquid:oxygen> * 16000, [10000, 10000, 10000, 10000], 9600, 30);
 
 // ---  Cargo Rocket Recycling
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:11>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:11>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:12>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <GalacticraftMars:item.spaceshipTier2:12>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 // -
-ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4],  <GalacticraftMars:item.spaceshipTier2:13>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4],  <GalacticraftMars:item.spaceshipTier2:13>, <liquid:oxygen> * 4000, [10000, 10000, 10000, 10000], 2400, 30);
 
+// ---  Astro Miner Recycling
+ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 3, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 3, <gregtech:gt.metaitem.01:11028> * 10], <GalacticraftMars:item.itemAstroMiner>, <liquid:oxygen> * 6000, [10000, 10000, 10000, 10000], 3600, 30);
 
 
 
@@ -1616,55 +1618,55 @@ Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <Galacticr
 
 
 // --- Tier 1 Rocket Recycling
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:argon> * 3, <GalacticraftCore:item.spaceship>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:argon> * 3, <GalacticraftCore:item.spaceship>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:1>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:1>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:1>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:1>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:2>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:2>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:2>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:2>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:3>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:nitrogen> * 8, <GalacticraftCore:item.spaceship:3>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 32], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:3>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 20, <gregtech:gt.metaitem.01:32462> * 16, <gregtech:gt.metaitem.01:11305> * 64], <liquid:argon> * 3, <GalacticraftCore:item.spaceship:3>, <liquid:plasma.argon> * 3, [10000, 10000, 10000], 65, 30);
 
 // --- Tier 2 Rocket Recycling
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:1>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:1>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:1>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:1>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:2>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:2>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:2>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:2>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:3>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:3>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11305> * 32, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:3>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 10, <gregtech:gt.metaitem.01:32462> * 41, <gregtech:gt.metaitem.01:11305> * 64, <gregtech:gt.metaitem.01:11340> * 6], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:3>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 
 // --- Tier 3 Rocket Recycling
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:1>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:2>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 28, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 35, <gregtech:gt.metaitem.01:32463> * 11, <gregtech:gt.metaitem.01:32462> * 32, <gregtech:gt.metaitem.01:11340> * 12], <liquid:argon> * 8, <GalacticraftMars:item.itemTier3Rocket:3>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 
 // --- Tier 4 Rocket Recycling
 PlasmaArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT4> * 10, <gregtech:gt.metaitem.01:32464> * 25, <gregtech:gt.metaitem.01:32463> * 16, <gregtech:gt.metaitem.01:32462> * 28], <liquid:nitrogen> * 35, <GalaxySpace:item.Tier4Rocket>, <liquid:plasma.nitrogen> * 35, [10000, 10000, 10000, 10000], 266, 30);
@@ -1752,18 +1754,22 @@ PlasmaArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dream
 PlasmaArcFurnace.addRecipe([<dreamcraft:item.HeavyDutyAlloyIngotT8> * 10, <dreamcraft:item.HeavyDutyAlloyIngotT5> * 25, <dreamcraft:item.HeavyDutyAlloyIngotT4> * 8, <gregtech:gt.metaitem.01:32464> * 14], <liquid:argon> * 22, <GalaxySpace:item.Tier8Rocket:3>, <liquid:plasma.argon> * 22, [10000, 10000, 10000, 10000], 533, 30);
 
 // ---  Cargo Rocket Recycling
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:11>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:11>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:11>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:11>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:12>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:12>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:12>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:12>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:13>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:nitrogen> * 17, <GalacticraftMars:item.spaceshipTier2:13>, <liquid:plasma.nitrogen> * 17, [10000, 10000, 10000, 10000], 130, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 24, <gregtech:gt.metaitem.01:32462> * 6, <gregtech:gt.metaitem.01:11305> * 32, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:13>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32463> * 6, <gregtech:gt.metaitem.01:32462> * 24, <gregtech:gt.metaitem.01:11305> * 40, <minecraft:diamond> * 4], <liquid:argon> * 6, <GalacticraftMars:item.spaceshipTier2:13>, <liquid:plasma.argon> * 6, [10000, 10000, 10000, 10000], 130, 30);
 
+// --- Astro Miner Recycling
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 3, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 3, <gregtech:gt.metaitem.01:11028> * 10], <liquid:nitrogen> * 26, <GalacticraftMars:item.itemAstroMiner>, <liquid:plasma.nitrogen> * 26, [10000, 10000, 10000, 10000], 200, 30);
+// -
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 3, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 3, <gregtech:gt.metaitem.01:11028> * 10], <liquid:argon> * 8, <GalacticraftMars:item.itemAstroMiner>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 
 
 
