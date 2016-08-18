@@ -416,6 +416,7 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Iron, Character.valueOf('S'), OrePrefixes.screw.get(Materials.AnyIron)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SHS", "CCC", Character.valueOf('H'), ToolDictNames.craftingToolHardHammer, Character.valueOf('C'), ItemList.IC2_Item_Casing_Steel, Character.valueOf('S'), OrePrefixes.screw.get(Materials.Steel)});
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3));
+        GT_ModHandler.addShapelessCraftingRecipe(GT_ModHandler.getIC2Item("miningPipe", 1L), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{GT_ModHandler.getIC2Item("miningPipeTip", 1L)});
     }
 
 }
