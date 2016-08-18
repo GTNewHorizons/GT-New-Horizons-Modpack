@@ -367,6 +367,8 @@ public class GT_Loader_Items
 		CustomItemList.SchematicsTier7.set(com.dreammaster.item.ItemList.SchematicsTier7.getIS());
 		CustomItemList.SchematicsTier8.set(com.dreammaster.item.ItemList.SchematicsTier8.getIS());
 		CustomItemList.RawSDHCAlloy.set(com.dreammaster.item.ItemList.RawSDHCAlloy.getIS());
+		CustomItemList.TungstenString.set(com.dreammaster.item.ItemList.TungstenString.getIS());
+		CustomItemList.MeteoricIronString.set(com.dreammaster.item.ItemList.MeteoricIronString.getIS());
 	}
 
 }

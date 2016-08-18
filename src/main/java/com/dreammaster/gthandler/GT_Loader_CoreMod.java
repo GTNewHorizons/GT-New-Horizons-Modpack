@@ -388,6 +388,9 @@ public class GT_Loader_CoreMod implements gregtech.api.interfaces.IOreRecipeRegi
         GT_Values.RA.addLatheRecipe(GT_ModHandler.getModItem("Forestry", "slabs3", 1L, 6), new ItemStack(Items.bowl,1), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Wood, 1), 50, 8);
         GT_Values.RA.addLatheRecipe(GT_ModHandler.getModItem("Forestry", "slabs3", 1L, 7), new ItemStack(Items.bowl,1), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Wood, 1), 50, 8);
 
+        GT_Values.RA.addWiremillRecipe(GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.MeteoricIron, 1L), CustomItemList.MeteoricIronString.get(4L, new Object[0]), 600, 480);
+        GT_Values.RA.addWiremillRecipe(GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.Tungsten, 1L), CustomItemList.TungstenString.get(4L, new Object[0]), 1200, 1920);
+
         //Crafting Recipes
         //Blood Magic Orbs
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier1.get(1L, new Object[0]), GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", Character.valueOf('X'), OrePrefixes.screw.get(Materials.Aluminium), Character.valueOf('T'), ToolDictNames.craftingToolScrewdriver, Character.valueOf('P'), OrePrefixes.plate.get(Materials.AnnealedCopper), Character.valueOf('O'), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
