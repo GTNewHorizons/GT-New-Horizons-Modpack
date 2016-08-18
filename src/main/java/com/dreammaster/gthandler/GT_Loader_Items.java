@@ -369,6 +369,7 @@ public class GT_Loader_Items
 		CustomItemList.RawSDHCAlloy.set(com.dreammaster.item.ItemList.RawSDHCAlloy.getIS());
 		CustomItemList.TungstenString.set(com.dreammaster.item.ItemList.TungstenString.getIS());
 		CustomItemList.MeteoricIronString.set(com.dreammaster.item.ItemList.MeteoricIronString.getIS());
+		CustomItemList.BlackPlutoniumCompressedPlate.set(com.dreammaster.item.ItemList.BlackPlutoniumCompressedPlate.getIS());
 	}
 
 }
