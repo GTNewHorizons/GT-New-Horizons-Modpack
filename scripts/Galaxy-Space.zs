@@ -73,6 +73,36 @@ recipes.remove(<GalaxySpace:assemblymachine>);
 // --- Converter Surface
 recipes.remove(<GalaxySpace:convertersurface>);
 
+// --- Plasma Sword
+recipes.remove(<GalaxySpace:item.plasmasword:*>);
+
+// --- Plasma Pickaxe
+recipes.remove(<GalaxySpace:item.plasmapickaxe:*>);
+
+// --- Plasma Axe
+recipes.remove(<GalaxySpace:item.plasmaaxe:*>);
+
+// --- Plasma Hoe
+recipes.remove(<GalaxySpace:item.plasmahoe:*>);
+
+// --- Plasma Shovel
+recipes.remove(<GalaxySpace:item.plasmashovel:*>);
+
+// --- Thermal Cloth Tier 2
+recipes.remove(<GalaxySpace:item.ThermalClothT2>);
+
+// --- Thermal Helmet Tier 2
+recipes.remove(<GalaxySpace:item.ThermalPaddingT2>);
+
+// --- Thermal Chestplate Tier 2
+recipes.remove(<GalaxySpace:item.ThermalPaddingT2:1>);
+
+// --- Thermal Leggings Tier 2
+recipes.remove(<GalaxySpace:item.ThermalPaddingT2:2>);
+
+// --- Thermal Boots Tier 2
+recipes.remove(<GalaxySpace:item.ThermalPaddingT2:3>);
+
 
 
 
@@ -168,7 +198,7 @@ recipes.addShaped(<GalaxySpace:item.plasmaaxe>.withTag({electricity: 0.0 as floa
 recipes.addShaped(<GalaxySpace:item.plasmahoe>.withTag({electricity: 0.0 as float}), [
 [<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:craftingToolHardHammer>],
 [<ore:craftingToolFile>, <GalacticraftCore:item.steelPole>, <ore:plateDesh>],
-[null, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <ore:plateDesh>]]);
+[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <ore:plateDesh>]]);
 
 // --- Plasma Shovel
 recipes.addShaped(<GalaxySpace:item.plasmashovel>.withTag({electricity: 0.0 as float}), [
@@ -199,6 +229,12 @@ recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
 [<ore:screwDesh>, <ore:craftingToolScrewdriver>, <ore:screwDesh>],
 [<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.CompressedCoal>, <GalaxySpace:item.CompressedDualAluminium>],
 [<ore:screwDesh>, <ore:craftingToolHardHammer>, <ore:screwDesh>]]);
+
+// --- Thermal Cloth Tier 2
+recipes.addShaped(<GalaxySpace:item.ThermalClothT2>, [
+[<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>],
+[<dreamcraft:item.TungstenString>, <GalacticraftMars:item.itemBasicAsteroids:7>, <dreamcraft:item.TungstenString>],
+[<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>]]);
 
 // --- Rocket Tier 4
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,[
@@ -477,6 +513,17 @@ Assembler.addRecipe(<GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0
 // --- Compressed Icy Ingot (Plate T 4)
 Assembler.addRecipe(<dreamcraft:item.IceCompressedPlate> * 2, <dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.CallistoIceCompressedPlate>, <liquid:ic2coolant> * 1000, 600, 480);
 
+// --- Thermal Helmet Tier 2
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2>, <GalaxySpace:item.ThermalClothT2> * 5, <gregtech:gt.integrated_circuit:5> * 0, 1500, 1920);
+
+// --- Thermal Chestplate Tier 2
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:1>, <GalaxySpace:item.ThermalClothT2> * 8, <gregtech:gt.integrated_circuit:8> * 0, 2400, 1920);
+
+// --- Thermal Leggings Tier 2
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:2>, <GalaxySpace:item.ThermalClothT2> * 7, <gregtech:gt.integrated_circuit:7> * 0, 2100, 1920);
+
+// --- Thermal Boots Tier 2
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.ThermalClothT2> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 1920);
 
 
 

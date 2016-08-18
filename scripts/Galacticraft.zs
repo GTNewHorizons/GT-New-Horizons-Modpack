@@ -1794,12 +1794,3 @@ VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, Fluid
 
 // --- Fluid Nitrogen
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {Amount: 1000, FluidName: "liquidnitrogen"}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressednitrogen", Amount: 1000}}), 2400);
-
-
-
-
-// --- Wiremill Recipes ---
-
-
-// --- Meteoric Steel String
-Wiremill.addRecipe(<dreamcraft:item.MeteoricIronString> * 4, <gregtech:gt.metaitem.02:22340>, 600, 480);
