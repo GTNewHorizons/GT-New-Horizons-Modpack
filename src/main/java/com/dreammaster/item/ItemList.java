@@ -338,6 +338,7 @@ public enum ItemList
     TungstenSteelBars(new ModSimpleBaseItem("TungstenSteelBars", ModTabList.ModBarsAndCasingsTab)),
     TungstenSteelItemCasing(new ModSimpleBaseItem("TungstenSteelItemCasing", ModTabList.ModBarsAndCasingsTab)),
     TungstenSteeLIronPlate(new ModSimpleBaseItem("TungstenSteelIronPlate", ModTabList.ModSolarTab)),
+    TungstenString(new ModSimpleBaseItem("TungstenString", ModTabList.ModSpaceTab)),
     UncookedSlush(new ModSimpleBaseItem("UncookedSlush", ModTabList.ModThaumcraftTab)),
     UnfiredClayBrick(new ModSimpleBaseItem("UnfiredClayBrick", ModTabList.ModGenericTab)),
     UnfiredCokeOvenBrick(new ModSimpleBaseItem("UnfiredCokeOvenBrick", ModTabList.ModGenericTab)),
