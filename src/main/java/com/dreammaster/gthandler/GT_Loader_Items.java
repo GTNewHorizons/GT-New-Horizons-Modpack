@@ -377,6 +377,7 @@ public class GT_Loader_Items
 		CustomItemList.QuantinumDualCompressedPlates.set(com.dreammaster.item.ItemList.QuantinumDualCompressedPlates.getIS());
 		CustomItemList.MytrylCompressedPlate.set(com.dreammaster.item.ItemList.MytrylCompressedPlate.getIS());
 		CustomItemList.MytrylDualCompressedPlates.set(com.dreammaster.item.ItemList.MytrylDualCompressedPlates.getIS());
+		CustomItemList.MysteriousCrystalCompressedPlate.set(com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
 		CustomItemList.MysteriousCrystalDualCompressedPlates.set(com.dreammaster.item.ItemList.MysteriousCrystalDualCompressedPlates.getIS());
 	}
 
