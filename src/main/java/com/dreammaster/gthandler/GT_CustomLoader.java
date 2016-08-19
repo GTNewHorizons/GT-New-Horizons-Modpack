@@ -142,7 +142,8 @@ public class GT_CustomLoader
     	MaterialLoader = new GT_Loader_Materials();
     	WireLoader = new GT_Loader_Wires();
     	BatteryLoader = new GT_Loader_Batteries();
-        CoreModLoader = new GT_Loader_CoreMod();
+        MachineRecipeLoader = new GT_MachineRecipeLoader();
+        CraftingRecipeLoader = new GT_CraftingRecipeLoader();
         OreDictionary = new GT_Loader_OreDictionary();
     }
     
@@ -152,7 +153,8 @@ public class GT_CustomLoader
     private GT_Loader_Materials MaterialLoader = null;
     private GT_Loader_Wires WireLoader = null;
     private GT_Loader_Batteries BatteryLoader = null;
-    private GT_Loader_CoreMod CoreModLoader = null;
+    private GT_MachineRecipeLoader MachineRecipeLoader = null;
+    private GT_CraftingRecipeLoader CraftingRecipeLoader = null;
     private GT_Loader_OreDictionary OreDictionary = null;
 
     public void run()
@@ -164,7 +166,8 @@ public class GT_CustomLoader
     	ItemLoader.run();
     	MachineLoader.run();
     	BatteryLoader.run();
-        CoreModLoader.run();
+        MachineRecipeLoader.run();
+        CraftingRecipeLoader.run();
         OreDictionary.run();
     }
 }
