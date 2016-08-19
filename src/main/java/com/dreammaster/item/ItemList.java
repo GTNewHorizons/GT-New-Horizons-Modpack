@@ -211,7 +211,7 @@ public enum ItemList
     MysteriousCrystalPlate(new ModSimpleBaseItem("MysteriousCrystalPlate", ModTabList.ModSpaceTab)),
     MysteriousCrystalDensePlate(new ModSimpleBaseItem("MysteriousCrystalDensePlate", ModTabList.ModSpaceTab)),
     MysteriousCrystalCompressedPlate(new ModSimpleBaseItem("MysteriousCrystalCompressedPlate", ModTabList.ModSpaceTab)),
-    MysteriousCrystalDualCompressedPlates(new ModSimpleBaseItem("MysteriousCrystalCompressedPlate", ModTabList.ModSpaceTab)),
+    MysteriousCrystalDualCompressedPlates(new ModSimpleBaseItem("MysteriousCrystalDualCompressedPlates", ModTabList.ModSpaceTab)),
     MytrylCrystal(new ModSimpleBaseItem("MytrylCrystal", ModTabList.ModSpaceTab)),
     MytrylDust(new ModSimpleBaseItem("MytrylDust", ModTabList.ModSpaceTab)),
     MytrylIngot(new ModSimpleBaseItem("MytrylIngot", ModTabList.ModSpaceTab)),

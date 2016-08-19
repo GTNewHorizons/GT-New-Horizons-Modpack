@@ -370,6 +370,14 @@ public class GT_Loader_Items
 		CustomItemList.TungstenString.set(com.dreammaster.item.ItemList.TungstenString.getIS());
 		CustomItemList.MeteoricIronString.set(com.dreammaster.item.ItemList.MeteoricIronString.getIS());
 		CustomItemList.BlackPlutoniumCompressedPlate.set(com.dreammaster.item.ItemList.BlackPlutoniumCompressedPlate.getIS());
+		CustomItemList.DeshDualCompressedPlates.set(com.dreammaster.item.ItemList.DeshDualCompressedPlates.getIS());
+		CustomItemList.TitaniumDualCompressedPlates.set(com.dreammaster.item.ItemList.TitaniumDualCompressedPlates.getIS());
+		CustomItemList.IceCompressedPlate.set(com.dreammaster.item.ItemList.IceCompressedPlate.getIS());
+		CustomItemList.IceDualCompressedPlates.set(com.dreammaster.item.ItemList.IceDualCompressedPlates.getIS());
+		CustomItemList.QuantinumDualCompressedPlates.set(com.dreammaster.item.ItemList.QuantinumDualCompressedPlates.getIS());
+		CustomItemList.MytrylCompressedPlate.set(com.dreammaster.item.ItemList.MytrylCompressedPlate.getIS());
+		CustomItemList.MytrylDualCompressedPlates.set(com.dreammaster.item.ItemList.MytrylDualCompressedPlates.getIS());
+		CustomItemList.MysteriousCrystalDualCompressedPlates.set(com.dreammaster.item.ItemList.MysteriousCrystalDualCompressedPlates.getIS());
 	}
 
 }
