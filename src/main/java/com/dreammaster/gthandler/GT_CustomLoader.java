@@ -143,6 +143,7 @@ public class GT_CustomLoader
     	WireLoader = new GT_Loader_Wires();
     	BatteryLoader = new GT_Loader_Batteries();
         CoreModLoader = new GT_Loader_CoreMod();
+        OreDictionary = new GT_Loader_OreDictionary();
     }
     
     private GT_Loader_Items ItemLoader = null;
@@ -152,6 +153,7 @@ public class GT_CustomLoader
     private GT_Loader_Wires WireLoader = null;
     private GT_Loader_Batteries BatteryLoader = null;
     private GT_Loader_CoreMod CoreModLoader = null;
+    private GT_Loader_OreDictionary OreDictionary = null;
 
     public void run()
     {
@@ -163,5 +165,6 @@ public class GT_CustomLoader
     	MachineLoader.run();
     	BatteryLoader.run();
         CoreModLoader.run();
+        OreDictionary.run();
     }
 }
