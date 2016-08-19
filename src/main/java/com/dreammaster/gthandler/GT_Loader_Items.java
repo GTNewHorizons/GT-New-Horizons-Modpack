@@ -380,6 +380,9 @@ public class GT_Loader_Items
 		CustomItemList.MytrylDualCompressedPlates.set(com.dreammaster.item.ItemList.MytrylDualCompressedPlates.getIS());
 		CustomItemList.MysteriousCrystalCompressedPlate.set(com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
 		CustomItemList.MysteriousCrystalDualCompressedPlates.set(com.dreammaster.item.ItemList.MysteriousCrystalDualCompressedPlates.getIS());
+		CustomItemList.MediumFuelCanister.set(com.dreammaster.item.ItemList.MediumFuelCanister.getIS());
+		CustomItemList.LargeFuelCanister.set(com.dreammaster.item.ItemList.LargeFuelCanister.getIS());
+		CustomItemList.ExtraLargeFuelCanister.set(com.dreammaster.item.ItemList.ExtraLargeFuelCanister.getIS());
 	}
 
 }

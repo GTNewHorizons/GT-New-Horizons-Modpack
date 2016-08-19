@@ -92,7 +92,8 @@ public enum CustomItemList implements IItemContainer
 	EssentiaCircuit, EngineeringProcessorEssentiaPulsatingCore,
 	SchematicsAstroMiner, SchematicsCargoRocket, SchematicsMoonBuggy, SchematicsTier1, SchematicsTier2, SchematicsTier3, SchematicsTier4, SchematicsTier5, SchematicsTier6, SchematicsTier7, SchematicsTier8,
 	RawSDHCAlloy,
-	TungstenString, MeteoricIronString;
+	TungstenString, MeteoricIronString,
+	MediumFuelCanister, LargeFuelCanister, ExtraLargeFuelCanister;
 
 
 	private ItemStack mStack = null;
