@@ -95,7 +95,8 @@ public enum CustomItemList implements IItemContainer
 	SchematicsAstroMiner, SchematicsCargoRocket, SchematicsMoonBuggy, SchematicsTier1, SchematicsTier2, SchematicsTier3, SchematicsTier4, SchematicsTier5, SchematicsTier6, SchematicsTier7, SchematicsTier8,
 	RawSDHCAlloy,
 	TungstenString, MeteoricIronString,
-	MediumFuelCanister, LargeFuelCanister, ExtraLargeFuelCanister;
+	MediumFuelCanister, LargeFuelCanister, ExtraLargeFuelCanister, HeavyDutyRocketEngineTier3, HeavyDutyRocketEngineTier4, HeavyDutyNoseConeTier3, HeavyDutyNoseConeTier4, HeavyDutyRocketFinsTier3, HeavyDutyRocketFinsTier4,
+	Tier2Booster, Tier3Booster, Tier4Booster, HeavyDutyPlateTier4, HeavyDutyPlateTier5, HeavyDutyPlateTier6, HeavyDutyPlateTier7, HeavyDutyPlateTier8;
 
 
 	private ItemStack mStack = null;

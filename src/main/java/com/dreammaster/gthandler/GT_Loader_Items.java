@@ -395,6 +395,20 @@ public class GT_Loader_Items
 		CustomItemList.CallistoIcePlate.set(com.dreammaster.item.ItemList.CallistoIcePlate.getIS());
 		CustomItemList.MytrylPlate.set(com.dreammaster.item.ItemList.MytrylPlate.getIS());
 		CustomItemList.CallistoIceCompressedPlate.set(com.dreammaster.item.ItemList.CallistoIceCompressedPlate.getIS());
+		CustomItemList.HeavyDutyRocketEngineTier3.set(com.dreammaster.item.ItemList.HeavyDutyRocketEngineTier3.getIS());
+		CustomItemList.HeavyDutyRocketEngineTier4.set(com.dreammaster.item.ItemList.HeavyDutyRocketEngineTier4.getIS());
+		CustomItemList.HeavyDutyNoseConeTier3.set(com.dreammaster.item.ItemList.HeavyDutyNoseConeTier3.getIS());
+		CustomItemList.HeavyDutyNoseConeTier4.set(com.dreammaster.item.ItemList.HeavyDutyNoseConeTier4.getIS());
+		CustomItemList.HeavyDutyRocketFinsTier3.set(com.dreammaster.item.ItemList.HeavyDutyRocketFinsTier3.getIS());
+		CustomItemList.HeavyDutyRocketFinsTier4.set(com.dreammaster.item.ItemList.HeavyDutyRocketFinsTier4.getIS());
+		CustomItemList.Tier2Booster.set(com.dreammaster.item.ItemList.Tier2Booster.getIS());
+		CustomItemList.Tier3Booster.set(com.dreammaster.item.ItemList.Tier3Booster.getIS());
+		CustomItemList.Tier4Booster.set(com.dreammaster.item.ItemList.Tier4Booster.getIS());
+		CustomItemList.HeavyDutyPlateTier4.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier4.getIS());
+		CustomItemList.HeavyDutyPlateTier5.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier5.getIS());
+		CustomItemList.HeavyDutyPlateTier6.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier6.getIS());
+		CustomItemList.HeavyDutyPlateTier7.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier7.getIS());
+		CustomItemList.HeavyDutyPlateTier8.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier8.getIS());
 	}
 
 }
