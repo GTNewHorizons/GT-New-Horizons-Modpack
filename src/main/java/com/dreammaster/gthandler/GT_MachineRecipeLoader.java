@@ -10,7 +10,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Loader;
 import net.minecraftforge.fluids.FluidRegistry;
-
+import net.minecraftforge.fluids.FluidStack;
 
 
 public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_MachineRecipeLoader implements gregtech.api.interfaces.IOreRecipeRegistrator{
@@ -86,6 +86,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Elite.get(1L, new Object[0]), GT_ModHandler.getModItem("GalaxySpace", "item.SchematicTier6", 0L, 0), CustomItemList.SchematicsTier6.get(1, new Object[0]), 100, 4096);
         GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Elite.get(1L, new Object[0]), GT_ModHandler.getModItem("GalaxySpace", "item.SchematicTier7", 0L, 0), CustomItemList.SchematicsTier7.get(1, new Object[0]), 120, 7680);
         GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Elite.get(1L, new Object[0]), GT_ModHandler.getModItem("GalaxySpace", "item.SchematicTier8", 0L, 0), CustomItemList.SchematicsTier8.get(1, new Object[0]), 140, 30720);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.LedoxCompressedPlate.get(1, new Object[0]), CustomItemList.IceCompressedPlate.get(1, new Object[0]), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.IronDualCompressedPlates.get(2, new Object[0]), 600, 480);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);

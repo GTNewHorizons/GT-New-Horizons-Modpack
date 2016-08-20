@@ -373,6 +373,7 @@ public class GT_Loader_Items
 		CustomItemList.DeshDualCompressedPlates.set(com.dreammaster.item.ItemList.DeshDualCompressedPlates.getIS());
 		CustomItemList.TitaniumDualCompressedPlates.set(com.dreammaster.item.ItemList.TitaniumDualCompressedPlates.getIS());
 		CustomItemList.IceCompressedPlate.set(com.dreammaster.item.ItemList.IceCompressedPlate.getIS());
+		CustomItemList.LedoxCompressedPlate.set(com.dreammaster.item.ItemList.LedoxCompressedPlate.getIS());
 		CustomItemList.IceDualCompressedPlates.set(com.dreammaster.item.ItemList.IceDualCompressedPlates.getIS());
 		CustomItemList.QuantinumCompressedPlate.set(com.dreammaster.item.ItemList.QuantinumCompressedPlate.getIS());
 		CustomItemList.QuantinumDualCompressedPlates.set(com.dreammaster.item.ItemList.QuantinumDualCompressedPlates.getIS());

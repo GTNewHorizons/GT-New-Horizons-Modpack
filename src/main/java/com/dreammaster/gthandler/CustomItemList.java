@@ -81,7 +81,7 @@ public enum CustomItemList implements IItemContainer
 	QuantumPartBoots, QuantumPartChestplate, QuantumPartHelmetEmpty, QuantumPartHelmet, QuantumPartLeggings,
 	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9, BlackPlutoniumCompressedPlate, DeshDualCompressedPlates, TitaniumDualCompressedPlates,
 	IceCompressedPlate, IceDualCompressedPlates, QuantinumCompressedPlate, QuantinumDualCompressedPlates, MytrylDualCompressedPlates, MytrylCompressedPlate, MysteriousCrystalCompressedPlate, MysteriousCrystalDualCompressedPlates,
-	SteelDualCompressedPlates, TinDualCompressedPlates, CopperDualCompressedPlates, IronDualCompressedPlates, MeteoricIronDualCompressedPlates,
+	SteelDualCompressedPlates, TinDualCompressedPlates, CopperDualCompressedPlates, IronDualCompressedPlates, MeteoricIronDualCompressedPlates, LedoxCompressedPlate,
 	MarshmallowForm, MarshmallowFormMold, UncookedSlush, MalformedSlush, GlowingMarshmallow, Marshmallow,
 	IchoriumCap, CoinTechnician, CoinDarkWizard, CoinChunkloaderTierI, CoinChunkloaderTierII, CoinChunkloaderTierIII,
 	WetTofu,
