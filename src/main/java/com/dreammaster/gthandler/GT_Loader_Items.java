@@ -380,6 +380,11 @@ public class GT_Loader_Items
 		CustomItemList.MytrylDualCompressedPlates.set(com.dreammaster.item.ItemList.MytrylDualCompressedPlates.getIS());
 		CustomItemList.MysteriousCrystalCompressedPlate.set(com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
 		CustomItemList.MysteriousCrystalDualCompressedPlates.set(com.dreammaster.item.ItemList.MysteriousCrystalDualCompressedPlates.getIS());
+		CustomItemList.SteelDualCompressedPlates.set(com.dreammaster.item.ItemList.SteelDualCompressedPlates.getIS());
+		CustomItemList.TinDualCompressedPlates.set(com.dreammaster.item.ItemList.TinDualCompressedPlates.getIS());
+		CustomItemList.CopperDualCompressedPlates.set(com.dreammaster.item.ItemList.CopperDualCompressedPlates.getIS());
+		CustomItemList.IronDualCompressedPlates.set(com.dreammaster.item.ItemList.IronDualCompressedPlates.getIS());
+		CustomItemList.MeteoricIronDualCompressedPlates.set(com.dreammaster.item.ItemList.MeteoricIronDualCompressedPlates.getIS());
 		CustomItemList.MediumFuelCanister.set(com.dreammaster.item.ItemList.MediumFuelCanister.getIS());
 		CustomItemList.LargeFuelCanister.set(com.dreammaster.item.ItemList.LargeFuelCanister.getIS());
 		CustomItemList.ExtraLargeFuelCanister.set(com.dreammaster.item.ItemList.ExtraLargeFuelCanister.getIS());

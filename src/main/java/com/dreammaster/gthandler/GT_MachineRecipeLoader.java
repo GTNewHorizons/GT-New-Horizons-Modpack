@@ -325,6 +325,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addImplosionRecipe(CustomItemList.QuantinumCompressedPlate.get(2L, new Object[0]), 2, CustomItemList.QuantinumDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
         GT_Values.RA.addImplosionRecipe(CustomItemList.MytrylCompressedPlate.get(2L, new Object[0]), 2, CustomItemList.MytrylDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
         GT_Values.RA.addImplosionRecipe(CustomItemList.MysteriousCrystalCompressedPlate.get(2L, new Object[0]), 2, CustomItemList.MysteriousCrystalDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
+        GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 2L, 9), 2, CustomItemList.SteelDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
+         GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 2L, 7), 2, CustomItemList.TinDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
+        GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 2L, 6), 2, CustomItemList.CopperDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
+        GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 2L, 11), 2, CustomItemList.IronDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
+        GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.meteoricIronIngot", 2L, 1), 2, CustomItemList.MeteoricIronDualCompressedPlates.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
 
         GT_Values.RA.addLatheRecipe(CustomItemList.ReinforcedGlassPLate.get(1L, new Object[0]), CustomItemList.ReinforcedGlassLense.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Glass, 1L), 400, 16);
 
