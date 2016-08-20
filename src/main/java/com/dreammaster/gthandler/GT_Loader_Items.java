@@ -389,6 +389,12 @@ public class GT_Loader_Items
 		CustomItemList.MediumFuelCanister.set(com.dreammaster.item.ItemList.MediumFuelCanister.getIS());
 		CustomItemList.LargeFuelCanister.set(com.dreammaster.item.ItemList.LargeFuelCanister.getIS());
 		CustomItemList.ExtraLargeFuelCanister.set(com.dreammaster.item.ItemList.ExtraLargeFuelCanister.getIS());
+		CustomItemList.MysteriousCrystalPlate.set(com.dreammaster.item.ItemList.MysteriousCrystalPlate.getIS());
+		CustomItemList.LedoxPlate.set(com.dreammaster.item.ItemList.LedoxPlate.getIS());
+		CustomItemList.QuantinumPlate.set(com.dreammaster.item.ItemList.QuantinumPlate.getIS());
+		CustomItemList.CallistoIcePlate.set(com.dreammaster.item.ItemList.CallistoIcePlate.getIS());
+		CustomItemList.MytrylPlate.set(com.dreammaster.item.ItemList.MytrylPlate.getIS());
+		CustomItemList.CallistoIceCompressedPlate.set(com.dreammaster.item.ItemList.CallistoIceCompressedPlate.getIS());
 	}
 
 }
