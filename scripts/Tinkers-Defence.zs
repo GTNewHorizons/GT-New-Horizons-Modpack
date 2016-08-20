@@ -23,34 +23,22 @@ import mods.ic2.Compressor;
 
 
 // --- Aeon Steel Ingot
-recipes.remove(<tinkersdefense:aeonsteelingot>);
+recipes.remove(<tinkersdefense:AeonSteelIngot>);
 
 // --- Aeon Steel Block
-recipes.remove(<tinkersdefense:aeonsteelblock>);
+recipes.remove(<tinkersdefense:AeonSteelBlock>);
 
 // --- Queens Gold Ingot
-recipes.remove(<tinkersdefense:queensgoldingot>);
+recipes.remove(<tinkersdefense:QueensGoldIngot>);
 
 // --- Queens Gold Block
-recipes.remove(<tinkersdefense:queensgoldblock>);
+recipes.remove(<tinkersdefense:QueensGoldBlock>);
 
 // --- Dogbearium Ingot
-recipes.remove(<tinkersdefense:dogbeariumingot>);
+recipes.remove(<tinkersdefense:DogbeariumIngot>);
 
 // --- Dogbearium Block
-recipes.remove(<tinkersdefense:dogbeariumblock>);
-
-// --- Green Mint Ingot
-recipes.remove(<tinkersdefense:greenmintingot>);
-
-// --- Green Mint Block
-recipes.remove(<tinkersdefense:greenmintblock>);
-
-// --- Red Mint Ingot
-recipes.remove(<tinkersdefense:redmintingot>);
-
-// --- Red Mint Block
-recipes.remove(<tinkersdefense:redmintblock>);
+recipes.remove(<tinkersdefense:DogbeariumBlock>);
 
 
 
@@ -65,16 +53,10 @@ recipes.remove(<tinkersdefense:redmintblock>);
 
 
 // --- Aeon Steel Block
-Compressor.addRecipe(<tinkersdefense:aeonsteelblock>, <tinkersdefense:aeonsteelingot> * 9);
+Compressor.addRecipe(<tinkersdefense:AeonSteelBlock>, <tinkersdefense:AeonSteelIngot> * 9);
 
 // --- Queens Gold Block
-Compressor.addRecipe(<tinkersdefense:queensgoldblock>, <tinkersdefense:queensgoldingot> * 9);
+Compressor.addRecipe(<tinkersdefense:QueensGoldBlock>, <tinkersdefense:QueensGoldIngot> * 9);
 
 // --- Dogbearium Block
-Compressor.addRecipe(<tinkersdefense:dogbeariumblock>, <tinkersdefense:dogbeariumingot> * 9);
-
-// --- Green Mint Block
-Compressor.addRecipe(<tinkersdefense:greenmintblock>, <tinkersdefense:greenmintingot> * 9);
-
-// --- Red Mint Block
-Compressor.addRecipe(<tinkersdefense:redmintblock>, <tinkersdefense:redmintingot> * 9);
+Compressor.addRecipe(<tinkersdefense:DogbeariumBlock>, <tinkersdefense:DogbeariumIngot> * 9);

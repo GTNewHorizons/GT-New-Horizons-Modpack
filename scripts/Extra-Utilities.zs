@@ -1293,11 +1293,3 @@ ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:13>, <Extra
 
 // --- Double Compressed Sand
 ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:15>, <ExtraUtilities:cobblestone_compressed:14> * 9, 1);
-
-
-// --- Ordict Stuff ---
-
-
-
-// --- Precision Shears
-oreDict.craftingToolShears.add(<ExtraUtilities:shears:16>);

@@ -3096,14 +3096,6 @@ ImplosionCompressor.addRecipe([<minecraft:nether_star> * 3, <gregtech:gt.metaite
 
 
 
-// --- Ore Dicted Stuff ---
-
-
-
-// --- Shears
-oreDict.craftingToolShears.add(<minecraft:shears>);
-
-
 
 // --- Mixer Recipes ---
 

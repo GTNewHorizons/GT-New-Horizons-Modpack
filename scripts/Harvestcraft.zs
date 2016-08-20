@@ -22,8 +22,7 @@ val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
 
-// --- OREDICT STUFF ---
-flour.add(<harvestcraft:flourItem>);
+
 
 // --- Removing Recipes ---
 
@@ -615,16 +614,6 @@ Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:candleberryItem> *
 
 // --- Salt
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
-
-
-
-// --- Ordict Support ---
-
-
-
-// -- Beeswax
-oreDict.itemBeeswax.add(<harvestcraft:beeswaxItem>);
-
 
 
 

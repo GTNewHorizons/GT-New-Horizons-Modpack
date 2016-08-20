@@ -212,18 +212,6 @@ recipes.addShaped(<GalaxySpace:item.QuantBow>, [
 [<dreamcraft:item.MysteriousCrystal>, null, <TConstruct:bowstring:2>],
 [<ore:stickLongLead>, <dreamcraft:item.MytrylCrystal>, <TConstruct:bowstring:2>]]);
 
-// --- Blank Fuel Tank
-recipes.addShaped(<GalaxySpace:item.ModuleSmallCanister>, [
-[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>],
-[<ore:compressedSteel>, <GalacticraftCore:item.oilCanisterPartial:1001>, <ore:compressedSteel>],
-[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]]);
-
-// --- Small Fuel Canister
-recipes.addShaped(<GalaxySpace:item.ModuleSmallFuelCanister>, [
-[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
-[<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.ModuleSmallCanister>, <GalaxySpace:item.CompressedDualAluminium>],
-[<ore:screwStainlessSteel>, <ore:craftingToolHardHammer>, <ore:screwStainlessSteel>]]);
-
 // --- Compressed Raw Alloy SDHC-120
 recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
 [<ore:screwDesh>, <ore:craftingToolScrewdriver>, <ore:screwDesh>],
@@ -480,28 +468,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier8Rocket:3>,[
 
 
 
-
-// --- Ordicts ---
-
-
- 
-
-// --- Andamantium Ingot
-oreDict.ingotAdamantium.add(<GalaxySpace:item.Ingots>);
-
-// --- Andamantium Ore
-oreDict.oreAdamantium.add(<GalaxySpace:oberonblocks:3>);
-
-// --- Cobalt ingot
-oreDict.ingotCobalt.add(<GalaxySpace:item.Ingots:1>);
-
-// --- Cobalt Ore
-oreDict.oreCobalt.add(<GalaxySpace:phobosblocks:4>);
-
-
-
-
-
 // --- Assembler Recipes
 
 
@@ -509,9 +475,6 @@ oreDict.oreCobalt.add(<GalaxySpace:phobosblocks:4>);
 
 // --- Lead Battery
 Assembler.addRecipe(<GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:item.battery:*>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.lead> * 6000, 100, 120);
-
-// --- Compressed Icy Ingot (Plate T 4)
-Assembler.addRecipe(<dreamcraft:item.IceCompressedPlate> * 2, <dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.CallistoIceCompressedPlate>, <liquid:ic2coolant> * 1000, 600, 480);
 
 // --- Thermal Helmet Tier 2
 Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2>, <GalaxySpace:item.ThermalClothT2> * 5, <gregtech:gt.integrated_circuit:5> * 0, 1500, 1920);
@@ -544,15 +507,6 @@ Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.The
 
 
 
-
-// --- Compressed Lead Plates
-ImplosionCompressor.addRecipe([<GalaxySpace:item.CompressedPlates:3>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19089>, 1);
-
-// --- Compressed Nickel Plates
-ImplosionCompressor.addRecipe([<GalaxySpace:item.CompressedPlates:6>, <gregtech:gt.metaitem.01:816>], <gregtech:gt.metaitem.01:19034>, 1);
-
-// --- Compressed Black Plutonium Plates
-ImplosionCompressor.addRecipe([<dreamcraft:item.BlackPlutoniumCompressedPlate>, <gregtech:gt.metaitem.01:816>], <dreamcraft:item.BlackPlutoniumPlate> * 3, 1);
 
 // --- Heavy Duty Plats Tier 4
 ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);

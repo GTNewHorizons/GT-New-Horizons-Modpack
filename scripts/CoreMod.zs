@@ -1627,29 +1627,6 @@ FormingPress.addRecipe(<dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.meta
 
 
 
-// --- Implosion Compressor Recipes
-
-
-
-
-// --- Compressed Callisto Ice Plate
-ImplosionCompressor.addRecipe(<dreamcraft:item.CallistoIceCompressedPlate>, <dreamcraft:item.CallistoIcePlate> * 3, 1);
-
-// --- Compressed Ledox Plate
-ImplosionCompressor.addRecipe(<dreamcraft:item.LedoxCompressedPlate>, <dreamcraft:item.LedoxPlate> * 3, 1);
-
-// --- Compressed Quantinum Plate
-ImplosionCompressor.addRecipe(<dreamcraft:item.QuantinumCompressedPlate>, <dreamcraft:item.QuantinumPlate> * 3, 1);
-
-// --- Compressed Mysterious Crystal Plate
-ImplosionCompressor.addRecipe(<dreamcraft:item.MysteriousCrystalCompressedPlate>, <dreamcraft:item.MysteriousCrystalPlate> * 3, 1);
-
-// --- Compressed Mytryl Plate
-ImplosionCompressor.addRecipe(<dreamcraft:item.MytrylCompressedPlate>, <dreamcraft:item.MytrylPlate> * 3, 1);
-
-
-
-
 // --- Lathe Recipes
 
 
@@ -1662,9 +1639,6 @@ Lathe.addRecipe([<dreamcraft:item.LongObsidianRod> * 4, null], <minecraft:obsidi
 
 // --- Long Stone Rod
 Lathe.addRecipe([<dreamcraft:item.LongStoneRod> * 4, null], <minecraft:stone>, 320, 16);
-
-// --- Reinforced Glass Lens
-//Lathe.addRecipe([<dreamcraft:item.ReinforcedGlassLense>, <gregtech:gt.metaitem.01:1890>], <dreamcraft:item.ReinforcedGlassPlate>, 400, 16);
 
 // --- Charged Certus Quartz Rod
 Lathe.addRecipe([<dreamcraft:item.ChargedCertusQuartzRod> * 2, <dreamcraft:item.ChargedCertusQuartzDust>], <appliedenergistics2:item.ItemMultiMaterial:1> * 2, 200, 16);
@@ -1882,144 +1856,6 @@ Pulverizer.addRecipe([<dreamcraft:item.AsteroidsStoneDust>, <gregtech:gt.metaite
 // -
 Pulverizer.addRecipe([<dreamcraft:item.AsteroidsStoneDust>, <gregtech:gt.metaitem.01:1086>, <gregtech:gt.metaitem.01:1089>], <GalacticraftMars:tile.asteroidsBlock:2>, [10000, 3000, 1000], 400, 2);
 
-
-
-// --- Ore Dicted
-
-
-
-// --- Cobble Stone Rod
-oreDict.stickCobblestone.add(<dreamcraft:item.CobbleStoneRod>);
-
-// --- Stone Plate
-
-oreDict.plateStone.add(<dreamcraft:item.StonePlate>);
-
-// --- Sandstone Rod
-oreDict.stickSandstone.add(<dreamcraft:item.SandStoneRod>);
-
-// --- Void Metal Plate
-oreDict.plateVoid.add(<dreamcraft:item.VoidPlate>);
-
-// --- Void Metal Rod
-oreDict.stickVoid.add(<dreamcraft:item.VoidRod>);
-
-// --- Void Metal Ring
-oreDict.ringVoid.add(<dreamcraft:item.VoidRing>);
-
-// --- Void Metal Foil
-oreDict.foilVoid.add(<dreamcraft:item.VoidFoil>);
-
-// --- Reinforced Glass Lens
-oreDict.lensReinforcedGlass.add(<dreamcraft:item.ReinforcedGlassLense>);
-
-// --- Reinforced Glass Plate
-oreDict.plateReinforcedGlass.add(<dreamcraft:item.ReinforcedGlassPlate>);
-
-// --- Dust Mytryl
-oreDict.dustMytryl.add(<dreamcraft:item.MytrylDust>);
-
-// --- Ingot Mytryl
-oreDict.ingotMytryl.add(<dreamcraft:item.MytrylIngot>);
-
-// --- Plate Mytryl
-oreDict.plateMytryl.add(<dreamcraft:item.MytrylPlate>);
-
-// --- Compressed Plate Mytryl
-oreDict.compressedMytryl.add(<dreamcraft:item.MytrylCompressedPlate>);
-
-// --- Gem Mytryl
-//oreDict.gemMytryl.add(<dreamcraft:item.MytrylCrystal>);
-
-// --- Dense Plate Mytryl
-oreDict.densePlateMytryl.add(<dreamcraft:item.MytrylDensePlate>);
-
-// --- Block Mytryl
-oreDict.blockMytryl.add(<dreamcraft:tile.Mytryl>);
-
-// --- Block Quantinum
-oreDict.blockQuantinum.add(<dreamcraft:tile.Mytryl>);
-
-// --- Ingot Quantinum
-oreDict.ingotQuantinum.add(<dreamcraft:tile.Mytryl>);
-
-// --- Compressed Plate Quantinum
-oreDict.CompressedQuantinum.add(<dreamcraft:item.QuantinumCompressedPlate>);
-
-// --- Dust Quantinum
-oreDict.dustQuantinum.add(<dreamcraft:item.QuantinumDust>);
-
-// --- Dense Plate Quantinum
-oreDict.densePlateQuantinum.add(<dreamcraft:item.QuantinumDensePlate>);
-
-// --- Plate Quantinum
-oreDict.plateQuantinum.add(<dreamcraft:item.QuantinumPlate>);
-
-// --- Ingot Mysterious Crystal
-oreDict.ingotMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalIngot>);
-
-// --- Cold Ingot Mysterious Crystal
-oreDict.ingotColdMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalColdIngot>);
-
-// --- Block Mysterious Crystal
-oreDict.BlockMyteriousCrystal.add(<dreamcraft:tile.MysteriousCrystal>);
-
-// --- Dust Mysterious Crystal
-oreDict.dustMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalDust>);
-
-// --- Plate Mysterious Crystal
-oreDict.plateMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalPlate>);
-
-// --- Dense Plate Mysterious Crystal
-oreDict.plateDenseMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalDensePlate>);
-
-// --- Compressed Plate Mysterious Crystal
-oreDict.compressedMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystalCompressedPlate>);
-
-// --- Gem Mysterious Crystal
-oreDict.gemMyteriousCrystal.add(<dreamcraft:item.MysteriousCrystal>);
-
-// --- Ingot Ledox
-oreDict.ingotLedox.add(<dreamcraft:item.LedoxIngot>);
-
-// --- Cold Ingot Ledox
-oreDict.ingotColdLedox.add(<dreamcraft:item.LedoxColdIngot>);
-
-// --- Block Ledox
-oreDict.BlockLedox.add(<dreamcraft:tile.Ledox>);
-
-// --- Dust Ledox
-oreDict.dustLedox.add(<dreamcraft:item.LedoxDust>);
-
-// --- Plate Ledox
-oreDict.plateLedox.add(<dreamcraft:item.LedoxPlate>);
-
-// --- Dense Plate Ledox
-oreDict.plateDenseLedox.add(<dreamcraft:item.LedoxDensePlate>);
-
-// --- Compressed Plate Ledox
-oreDict.compressedLedox.add(<dreamcraft:item.LedoxCompressedPlate>);
-
-// --- Ingot Callisto Ice
-oreDict.ingotCallistoIce.add(<dreamcraft:item.CallistoIceIngot>);
-
-// --- Cold Ingot Callisto Ice
-oreDict.ingotColdCallistoIce.add(<dreamcraft:item.CallistoIceColdIngot>);
-
-// --- Block Callisto Ice
-oreDict.BlockCallistoIce.add(<dreamcraft:tile.CallistoColdIce>);
-
-// --- Dust Callisto Ice
-oreDict.dustCallistoIce.add(<dreamcraft:item.CallistoIceDust>);
-
-// --- Plate Callisto Ice
-oreDict.plateCallistoIce.add(<dreamcraft:item.CallistoIcePlate>);
-
-// --- Dense Plate Callisto Ice
-oreDict.plateDenseCallistoIce.add(<dreamcraft:item.CallistoIceDensePlate>);
-
-// --- Compressed Plate Callisto Ice
-oreDict.compressedCallistoIce.add(<dreamcraft:item.CallistoIceCompressedPlate>);
 
 
 

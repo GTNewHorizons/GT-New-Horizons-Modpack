@@ -463,13 +463,6 @@ furnace.addRecipe(<gendustry:GeneSampleBlank>, <gendustry:GeneSample>);
 furnace.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneTemplate>);
 
 
-// --- Ordicted ---
-
-
-
-// --- Gendutry Bee Combs
-oreDict.beeComb.add(<gendustry:HoneyComb:*>);
-
 
 
 

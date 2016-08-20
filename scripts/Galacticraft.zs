@@ -1355,29 +1355,12 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemAstroMiner>,[
 
 // --- Add Fuels ---
 
-// --- Oil
-//SemiFluidGenerator.addFluid(<liquid:oilgc> * 20, 16);
-//Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oilgc", Amount: 1000}}), 16);
-// -
+
+// --- Diesel
 Fuels.addDieselFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), 16);
 // -
 Fuels.addDieselFuel(<IC2:itemCellEmpty>, <gregtech:gt.metaitem.01:30707>, 16);
-// -
-//Fuels.addDieselFuel(null, <GalacticraftCore:tile.crudeOilStill>, 16);
 
-
-
-// --- Oredicted Names ---
-
-
-// --- Desh to Ore Dict
-oreDict.oreDesh.add(<GalacticraftMars:tile.mars:2>);
-
-// --- Stick of Desh
-oreDict.stickDesh.add(<GalacticraftMars:item.null:1>);
-
-// --- Ilmenite to Ore Dict
-oreDict.oreIlmenite.add(<GalacticraftMars:tile.asteroidsBlock:4>);
 
 
 
