@@ -103,6 +103,65 @@ recipes.remove(<GalaxySpace:item.ThermalPaddingT2:2>);
 // --- Thermal Boots Tier 2
 recipes.remove(<GalaxySpace:item.ThermalPaddingT2:3>);
 
+// --- Ceres Glowstone
+recipes.remove(<GalaxySpace:ceresglowstone>);
+
+// --- IO Glowstone
+recipes.remove(<GalaxySpace:ioglowstone>);
+
+// --- Enceladus Glowstone
+recipes.remove(<GalaxySpace:enceladusglowstone>);
+
+// --- Proteus Glowstone
+recipes.remove(<GalaxySpace:proteusglowstone>);
+
+// --- Pluto Glowstone
+recipes.remove(<GalaxySpace:plutoglowstone>);
+
+// --- Durable Nose Cone Tier 2
+recipes.remove(<GalaxySpace:item.RocketParts>);
+
+// --- Durable Engine Tier 2
+recipes.remove(<GalaxySpace:item.RocketParts:1>);
+
+// --- Durable Booster Tier 2
+recipes.remove(<GalaxySpace:item.RocketParts:2>);
+
+// --- Durable Fins Tier 2
+recipes.remove(<GalaxySpace:item.RocketParts:3>);
+
+// --- Decorate Lead
+recipes.remove(<GalaxySpace:metalsblock>);
+
+// --- Decorate Adamantite
+recipes.remove(<GalaxySpace:metalsblock:1>);
+
+// --- Decorate Cobaltum
+recipes.remove(<GalaxySpace:metalsblock:2>);
+
+// --- Decorate Magnesium
+recipes.remove(<GalaxySpace:metalsblock:3>);
+
+// --- Decorate Mithril
+recipes.remove(<GalaxySpace:metalsblock:4>);
+
+// --- Decorate Nickel
+recipes.remove(<GalaxySpace:metalsblock:5>);
+
+// --- Decorate Oriharukon
+recipes.remove(<GalaxySpace:metalsblock:6>);
+
+// --- Decorate Platinum
+recipes.remove(<GalaxySpace:metalsblock:7>);
+
+// --- Decorate Wolfranium
+recipes.remove(<GalaxySpace:metalsblock:8>);
+
+// --- Decorate Copper
+recipes.remove(<GalaxySpace:metalsblock:9>);
+
+// --- Future Glass
+recipes.remove(<GalaxySpace:futureglass>);
 
 
 
@@ -223,6 +282,66 @@ recipes.addShaped(<GalaxySpace:item.ThermalClothT2>, [
 [<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>],
 [<dreamcraft:item.TungstenString>, <GalacticraftMars:item.itemBasicAsteroids:7>, <dreamcraft:item.TungstenString>],
 [<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>]]);
+
+// --- Decorate Lead
+recipes.addShaped(<GalaxySpace:metalsblock>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedLead>, null],
+[<ore:CompressedLead>, <ore:stone>, <ore:CompressedLead>],
+[null, <ore:CompressedLead>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Adamantite
+recipes.addShaped(<GalaxySpace:metalsblock:1>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedAdamantite>, null],
+[<ore:CompressedAdamantite>, <ore:stone>, <ore:CompressedAdamantite>],
+[null, <ore:CompressedAdamantite>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Cobaltum
+recipes.addShaped(<GalaxySpace:metalsblock:2>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedCobaltum>, null],
+[<ore:CompressedCobaltum>, <ore:stone>, <ore:CompressedCobaltum>],
+[null, <ore:CompressedCobaltum>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Magnesium
+recipes.addShaped(<GalaxySpace:metalsblock:3>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedMagnesium>, null],
+[<ore:CompressedMagnesium>, <ore:stone>, <ore:CompressedMagnesium>],
+[null, <ore:CompressedMagnesium>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Mithril
+recipes.addShaped(<GalaxySpace:metalsblock:4>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedMithril>, null],
+[<ore:CompressedMithril>, <ore:stone>, <ore:CompressedMithril>],
+[null, <ore:CompressedMithril>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Nickel
+recipes.addShaped(<GalaxySpace:metalsblock:5>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedNickel>, null],
+[<ore:CompressedNickel>, <ore:stone>, <ore:CompressedNickel>],
+[null, <ore:CompressedNickel>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Oriharukon
+recipes.addShaped(<GalaxySpace:metalsblock:6>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedOriharukon>, null],
+[<ore:CompressedOriharukon>, <ore:stone>, <ore:CompressedOriharukon>],
+[null, <ore:CompressedOriharukon>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Platinum
+recipes.addShaped(<GalaxySpace:metalsblock:7>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedPlatinum>, null],
+[<ore:CompressedPlatinum>, <ore:stone>, <ore:CompressedPlatinum>],
+[null, <ore:CompressedPlatinum>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Wolfranium
+recipes.addShaped(<GalaxySpace:metalsblock:8>, [
+[<ore:craftingToolHardHammer>, <GalaxySpace:item.CompressedPlates:9>, null],
+[<GalaxySpace:item.CompressedPlates:9>, <ore:stone>, <GalaxySpace:item.CompressedPlates:9>],
+[null, <GalaxySpace:item.CompressedPlates:9>, <ore:craftingToolWrench>]]);
+
+// --- Decorate Copper
+recipes.addShaped(<GalaxySpace:metalsblock:9>, [
+[<ore:craftingToolHardHammer>, <ore:compressedCopper>, null],
+[<ore:compressedCopper>, <ore:stone>, <ore:compressedCopper>],
+[null, <ore:compressedCopper>, <ore:craftingToolWrench>]]);
 
 // --- Rocket Tier 4
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,[
@@ -488,7 +607,8 @@ Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:2>, <GalaxySpace:item.The
 // --- Thermal Boots Tier 2
 Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.ThermalClothT2> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 1920);
 
-
+// --- Future Glass
+Assembler.addRecipe(<GalaxySpace:futureglass>, <minecraft:glass>, <gregtech:gt.metaitem.01:23884> * 8, 200, 480);
 
 
 // --- Compressor Recipes ---
@@ -496,8 +616,21 @@ Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.The
 
 
 
-// --- Frozen Glowstone
-//Compressor.addRecipe(<GalaxySpace:europaglowstone>, <GalaxySpace:item.BlueCrystall> * 6);
+// --- Ceres Glowstone
+Compressor.addRecipe(<GalaxySpace:ceresglowstone>, <GalaxySpace:item.GlowstoneDusts> * 4);
+
+// --- IO Glowstone
+Compressor.addRecipe(<GalaxySpace:ioglowstone>, <GalaxySpace:item.GlowstoneDusts:1> * 4);
+
+// --- Enceladus Glowstone
+Compressor.addRecipe(<GalaxySpace:enceladusglowstone>, <GalaxySpace:item.GlowstoneDusts:2> * 4);
+
+// --- Proteus Glowstone
+Compressor.addRecipe(<GalaxySpace:proteusglowstone>, <GalaxySpace:item.GlowstoneDusts:3> * 4);
+
+// --- Pluto Glowstone
+Compressor.addRecipe(<GalaxySpace:plutoglowstone>, <GalaxySpace:item.GlowstoneDusts:4> * 4);
+
 
 
 
@@ -530,8 +663,22 @@ ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier8>, <gregtech:
 // --- Macerator Recipes ---
 
 
-// --- Ice Crystal
-//Macerator.addRecipe(<GalaxySpace:item.BlueCrystall> * 6, <GalaxySpace:europaglowstone>);
+
+// --- Ceres Glowstone Dust
+Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts> * 4, <GalaxySpace:ceresglowstone>);
+
+// --- IO Glowstone Dust
+Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:1> * 4, <GalaxySpace:ioglowstone>);
+
+// --- Enceladus Glowstone Dust
+Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:2> * 4, <GalaxySpace:enceladusglowstone>);
+
+// --- Proteus Glowstone Dust
+Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:3> * 4, <GalaxySpace:proteusglowstone>);
+
+// --- Pluto Glowstone Dust
+Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:4> * 4, <GalaxySpace:plutoglowstone>);
+
 
 
 
