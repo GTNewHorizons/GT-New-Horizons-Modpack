@@ -409,6 +409,8 @@ public class GT_Loader_Items
 		CustomItemList.HeavyDutyPlateTier6.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier6.getIS());
 		CustomItemList.HeavyDutyPlateTier7.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier7.getIS());
 		CustomItemList.HeavyDutyPlateTier8.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier8.getIS());
+		CustomItemList.LeadNickelPlate.set(com.dreammaster.item.ItemList.LeadNickelPlate.getIS());
+		CustomItemList.LeadOriharukonPlate.set(com.dreammaster.item.ItemList.LeadOriharukonPlate.getIS());
 	}
 
 }
