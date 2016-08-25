@@ -76,6 +76,7 @@ val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val IronPlate = <ore:plateAnyIron>;
 val SteelRing = <ore:ringSteel>;
+val StainlessGear = <ore:gearStainlessSteel>;
 val IronRod = <ore:stickAnyIron>;
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
@@ -670,7 +671,7 @@ recipes.addShaped(SpeedUp, [
 // --- Item Filter Upgrade
 recipes.addShaped(ItemFilterUp, [
 [RedAlloyPlate, IronBars, RedAlloyPlate],
-[IronBars, DiamondGear, IronBars],
+[IronBars, StainlessGear, IronBars],
 [RedAlloyPlate, IronBars, RedAlloyPlate]]);
 
 // --- Advanced Item Filter
