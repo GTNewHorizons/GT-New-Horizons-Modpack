@@ -1340,7 +1340,7 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 
 // --- Teleporter
 recipes.addShaped(<IC2:blockMachine2>, [
-[<gregtech:gt.metaitem.01:32671>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32671>],
+[<gregtech:gt.metaitem.01:32672>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32672>],
 [<ore:circuitData>, <IC2:blockElectric:5>, <ore:circuitData>],
 [<gregtech:gt.metaitem.01:32602>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32602>]]);
 
