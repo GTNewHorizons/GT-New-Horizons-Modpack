@@ -75,7 +75,6 @@ val DarkSteelScrew = <ore:screwDarkSteel>;
 val WCrystal = <EnderIO:itemMaterial:10>;
 val EnderEyeLens = <ore:lensEnderEye>;
 val MvFieldGen = <gregtech:gt.metaitem.01:32671>;
-val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
 val SPlate = <ore:plateSoularium>;
 val Shears = <minecraft:shears>;
 val IronAxe = <minecraft:iron_axe>;

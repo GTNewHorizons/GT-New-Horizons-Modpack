@@ -815,7 +815,7 @@ recipes.addShaped(<IC2:blockGenerator:8>, [
 // --- Reactor Chamber
 recipes.addShaped(<IC2:blockReactorChamber>, [
 [<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>],
-[<ore:plateDenseLead>, <IC2:blockMachine:12>, <ore:plateDenseLead>],
+[<ore:plateDenseTitanium>, <IC2:blockMachine:12>, <ore:plateDenseTitanium>],
 [<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>]]);
 
 // --- Heat Conductor
@@ -996,7 +996,6 @@ recipes.addShapeless(<IC2:itemSteamTurbine>, [<Railcraft:part.turbine.rotor>]);
 recipes.addShaped(<IC2:itemSteamTurbine>, [
 [<IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>],
 [null, Wrench, null]]);
-
 
 // --- Iron Furnace
 recipes.addShaped(IronFurnace, [
@@ -1390,7 +1389,7 @@ recipes.addShaped(<IC2:blockGenerator:9>, [
 recipes.addShaped(<IC2:blockGenerator:5>, [
 [<ore:plateDenseLead>, <ore:circuitAdvanced>, <ore:plateDenseLead>],
 [<IC2:blockReactorChamber>, <IC2:blockReactorChamber>, <IC2:blockReactorChamber>],
-[<ore:plateDenseLead>, <ore:cableGt08Platinum>, <ore:plateDenseLead>]]);
+[<ore:plateDenseTitanium>, <ore:cableGt08Platinum>, <ore:plateDenseTitanium>]]);
 
 // --- Fluid Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:1>, [
