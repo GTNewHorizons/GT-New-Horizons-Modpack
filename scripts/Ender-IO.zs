@@ -25,6 +25,8 @@ val HvMotor = <gregtech:gt.metaitem.01:32602>;
 val LvPump = <gregtech:gt.metaitem.01:32610>;
 val MvPump = <gregtech:gt.metaitem.01:32611>;
 val HvPump = <gregtech:gt.metaitem.01:32612>;
+val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
+val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val IronFurnace = <ore:craftingIronFurnace>;
 val MCasing = <EnderIO:itemMachinePart>;
 val Circuit = <ore:circuitBasic>;
@@ -588,7 +590,7 @@ recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 recipes.addShaped(<EnderIO:blockTelePad>, [
 [DarkSteelPlate, FQuartz, DarkSteelPlate],
 [Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
-[HvMotor, LuVFieldGen, HvMotor]]);
+[LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
 recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
