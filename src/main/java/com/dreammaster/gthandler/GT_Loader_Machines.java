@@ -349,7 +349,7 @@ public class GT_Loader_Machines
 				new Object[] { "GBG", "CMC", "WPW", 
 					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
 					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
-					'B', OrePrefixes.stick.get(Materials.NetherStar), 
+					'B', OrePrefixes.pipeMedium.get(Materials.Enderium),
 					'C', AdvancedGTMaterials.LuV.getCircuit(), 
 					'W', AdvancedGTMaterials.LuV.getCable(), 
 					'G', AdvancedGTMaterials.LuV.getGlass() }).getStackForm(1L));
@@ -361,7 +361,7 @@ public class GT_Loader_Machines
 				new Object[] { "GBG", "CMC", "WPW", 
 					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
 					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
-					'B', OrePrefixes.stick.get(Materials.NetherStar), 
+					'B', OrePrefixes.pipeMedium.get(Materials.Naquadah),
 					'C', AdvancedGTMaterials.ZPM.getCircuit(), 
 					'W', AdvancedGTMaterials.ZPM.getCable(), 
 					'G', AdvancedGTMaterials.ZPM.getGlass() }).getStackForm(1L));
@@ -373,7 +373,7 @@ public class GT_Loader_Machines
 				new Object[] { "GBG", "CMC", "WPW", 
 					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
 					'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP,
-					'B', OrePrefixes.stick.get(Materials.NetherStar), 
+					'B', OrePrefixes.pipeMedium.get(Materials.Neutronium),
 					'C', AdvancedGTMaterials.UV.getCircuit(), 
 					'W', AdvancedGTMaterials.UV.getCable(), 
 					'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
@@ -1496,6 +1496,6 @@ public class GT_Loader_Machines
 
 
 		// Free IDs: 11110 - 11263
-		 // 27.01.2016 Namikon
+		// 27.01.2016 Namikon
 	}
 }

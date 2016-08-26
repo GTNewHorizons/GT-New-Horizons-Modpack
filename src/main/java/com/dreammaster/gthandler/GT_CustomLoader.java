@@ -21,7 +21,7 @@ public class GT_CustomLoader
         LuV(ItemList.NanoCircuit.getIS(),
         		OrePrefixes.wireGt02.get(Materials.YttriumBariumCuprate),
         		Materials.Naquadah,
-        		OrePrefixes.wireGt02.get(Materials.Osmium),
+        		OrePrefixes.wireGt02.get(Materials.HSSG),
         		OrePrefixes.gemExquisite.get(Materials.Diamond),
         		gregtech.api.enums.ItemList.Gravistar,
         		Materials.Chrome,
