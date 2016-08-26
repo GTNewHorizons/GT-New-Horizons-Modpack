@@ -12294,7 +12294,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -14689,7 +14689,7 @@
     {
       "questID": 186,
       "name": "Dimensional Goal: Mars",
-      "description": "No Description",
+      "description": "Mars have many new Ores you need to find like Tungsten, Uranium and Plutonium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14716,7 +14716,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -14787,35 +14787,26 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:phobossecrock"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:phobosstone"
-              }
+              "Damage": 1
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:phobosrock"
-              }
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -14868,26 +14859,20 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:deimossubgrunt"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:deimosgrunt"
-              }
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -43481,177 +43466,177 @@
       "quests": [
         {
           "id": 176,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
           "id": 178,
-          "x": 152,
-          "y": 32
+          "x": 108,
+          "y": 36
         },
         {
           "id": 179,
-          "x": 96,
+          "x": 108,
           "y": 72
         },
         {
           "id": 180,
-          "x": 128,
+          "x": 144,
           "y": 72
         },
         {
           "id": 182,
-          "x": 160,
+          "x": 180,
           "y": 72
         },
         {
           "id": 181,
-          "x": 160,
-          "y": 112
+          "x": 180,
+          "y": 108
         },
         {
           "id": 183,
-          "x": 200,
-          "y": 32
+          "x": 216,
+          "y": 36
         },
         {
           "id": 184,
-          "x": 200,
+          "x": 216,
           "y": 72
         },
         {
           "id": 185,
-          "x": 128,
-          "y": 112
+          "x": 144,
+          "y": 108
         },
         {
           "id": 186,
-          "x": 64,
-          "y": 112
+          "x": 72,
+          "y": 108
         },
         {
           "id": 187,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 188,
-          "x": 96,
-          "y": 112
+          "x": 108,
+          "y": 108
         },
         {
           "id": 189,
-          "x": 224,
+          "x": 240,
           "y": 0
         },
         {
           "id": 190,
-          "x": 264,
+          "x": 276,
           "y": 0
         },
         {
           "id": 191,
-          "x": 264,
-          "y": 112
+          "x": 276,
+          "y": 108
         },
         {
           "id": 192,
-          "x": 344,
+          "x": 348,
           "y": 72
         },
         {
           "id": 193,
-          "x": 304,
+          "x": 300,
           "y": 72
         },
         {
           "id": 194,
-          "x": 392,
+          "x": 396,
           "y": 72
         },
         {
           "id": 195,
-          "x": 392,
+          "x": 396,
           "y": 0
         },
         {
           "id": 196,
-          "x": 344,
-          "y": 32
+          "x": 348,
+          "y": 36
         },
         {
           "id": 197,
-          "x": 344,
+          "x": 348,
           "y": 0
         },
         {
           "id": 198,
-          "x": 344,
-          "y": 112
+          "x": 348,
+          "y": 108
         },
         {
           "id": 199,
-          "x": 32,
-          "y": 176
+          "x": 36,
+          "y": 180
         },
         {
           "id": 200,
-          "x": 32,
-          "y": 208
+          "x": 36,
+          "y": 216
         },
         {
           "id": 201,
-          "x": 64,
-          "y": 208
+          "x": 72,
+          "y": 216
         },
         {
           "id": 202,
-          "x": 96,
-          "y": 208
+          "x": 108,
+          "y": 216
         },
         {
           "id": 203,
-          "x": 200,
-          "y": 112
+          "x": 216,
+          "y": 108
         },
         {
           "id": 204,
-          "x": 32,
-          "y": 112
+          "x": 36,
+          "y": 108
         },
         {
           "id": 205,
-          "x": 64,
+          "x": 72,
           "y": 144
         },
         {
           "id": 206,
-          "x": 96,
-          "y": 176
+          "x": 108,
+          "y": 180
         },
         {
           "id": 207,
-          "x": 304,
+          "x": 312,
           "y": 168
         },
         {
           "id": 209,
-          "x": 344,
+          "x": 348,
           "y": 168
         },
         {
           "id": 210,
-          "x": 304,
-          "y": 208
+          "x": 312,
+          "y": 204
         },
         {
           "id": 208,
-          "x": 264,
+          "x": 276,
           "y": 168
         },
         {
           "id": 211,
-          "x": 224,
+          "x": 240,
           "y": 168
         },
         {
