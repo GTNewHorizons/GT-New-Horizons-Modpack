@@ -94,7 +94,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier7.get(1L, new Object[0]), CustomItemList.BlackPlutoniumCompressedPlate.get(14, new Object[0]), Materials.Neutronium.getMolten(1440L), CustomItemList.HeavyDutyAlloyIngotT8.get(1L, new Object[0]), 4200, 30720);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GalaxySpace", "item.CompressedPlates", 1L, 7), GT_ModHandler.getModItem("GalaxySpace", "item.CompressedPlates", 1L, 3), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.LeadOriharukonPlate.get(2L, new Object[0]), 1200, 1024);
 
-//TODO  Ore Mixes, Planet Stone ByProducts, Quest check, Rocket reverse recipes
+//TODO  Planet Stone ByProducts, Quest check, Rocket reverse recipes 5-8
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.RedstoneAlloy, 9L), ItemList.Circuit_Integrated.getWithDamage(0L, 9L, new Object[0]), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
