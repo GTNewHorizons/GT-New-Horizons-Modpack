@@ -411,6 +411,9 @@ public class GT_Loader_Items
 		CustomItemList.HeavyDutyPlateTier8.set(com.dreammaster.item.ItemList.HeavyDutyPlateTier8.getIS());
 		CustomItemList.LeadNickelPlate.set(com.dreammaster.item.ItemList.LeadNickelPlate.getIS());
 		CustomItemList.LeadOriharukonPlate.set(com.dreammaster.item.ItemList.LeadOriharukonPlate.getIS());
+		CustomItemList.MoonStoneDust.set(com.dreammaster.item.ItemList.MoonStoneDust.getIS());
+		CustomItemList.MarsStoneDust.set(com.dreammaster.item.ItemList.MarsStoneDust.getIS());
+		CustomItemList.AsteroidsStoneDust.set(com.dreammaster.item.ItemList.AsteroidsStoneDust.getIS());
 	}
 
 }

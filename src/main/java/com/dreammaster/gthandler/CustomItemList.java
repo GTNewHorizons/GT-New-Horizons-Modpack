@@ -97,7 +97,8 @@ public enum CustomItemList implements IItemContainer
 	TungstenString, MeteoricIronString,
 	MediumFuelCanister, LargeFuelCanister, ExtraLargeFuelCanister, HeavyDutyRocketEngineTier3, HeavyDutyRocketEngineTier4, HeavyDutyNoseConeTier3, HeavyDutyNoseConeTier4, HeavyDutyRocketFinsTier3, HeavyDutyRocketFinsTier4,
 	Tier2Booster, Tier3Booster, Tier4Booster, HeavyDutyPlateTier4, HeavyDutyPlateTier5, HeavyDutyPlateTier6, HeavyDutyPlateTier7, HeavyDutyPlateTier8,
-	LeadNickelPlate, LeadOriharukonPlate;
+	LeadNickelPlate, LeadOriharukonPlate,
+	MoonStoneDust, MarsStoneDust, AsteroidsStoneDust;
 
 
 	private ItemStack mStack = null;
