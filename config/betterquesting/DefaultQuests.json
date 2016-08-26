@@ -16559,17 +16559,14 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:deimosgrunt"
-              }
+              "Damage": 1
             },
             {
               "id": "GalacticraftMars:tile.mars",
@@ -16578,13 +16575,10 @@
               "Damage": 4
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:phobosstone"
-              }
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16648,7 +16642,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -16731,7 +16725,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -27282,13 +27276,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "GalaxySpace:item.UnknowCrystal",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "orig_id:8": "GalaxySpace:item.ElectCrystall"
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27299,13 +27290,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.ElectCrystall"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27317,13 +27305,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.ElectCrystall"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27693,13 +27678,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "orig_id:8": "GalaxySpace:item.BlackPlutonium"
-        }
+        "Damage": 11388
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27710,13 +27692,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.BlackPlutonium"
-              }
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27728,13 +27707,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.BlackPlutonium"
-              }
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27779,13 +27755,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.BlackPlutonium"
-              }
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -33698,13 +33671,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:item.ElectCrystall"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -34370,13 +34340,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "GalaxySpace:plutoblackplutonium"
-              }
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
