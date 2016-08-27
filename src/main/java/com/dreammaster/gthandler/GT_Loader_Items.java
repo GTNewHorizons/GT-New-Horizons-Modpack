@@ -416,6 +416,14 @@ public class GT_Loader_Items
 		CustomItemList.AsteroidsStoneDust.set(com.dreammaster.item.ItemList.AsteroidsStoneDust.getIS());
 		CustomItemList.PhobosStoneDust.set(com.dreammaster.item.ItemList.PhobosStoneDust.getIS());
 		CustomItemList.DeimosStoneDust.set(com.dreammaster.item.ItemList.DeimosStoneDust.getIS());
+		CustomItemList.CeresStoneDust.set(com.dreammaster.item.ItemList.CeresStoneDust.getIS());
+		CustomItemList.EuropaIceDust.set(com.dreammaster.item.ItemList.EuropaIceDust.getIS());
+		CustomItemList.EuropaStoneDust.set(com.dreammaster.item.ItemList.EuropaStoneDust.getIS());
+		CustomItemList.GanymedStoneDust.set(com.dreammaster.item.ItemList.GanymedStoneDust.getIS());
+		CustomItemList.CallistoStoneDust.set(com.dreammaster.item.ItemList.CallistoStoneDust.getIS());
+		CustomItemList.IoStoneDust.set(com.dreammaster.item.ItemList.IoStoneDust.getIS());
+		CustomItemList.VenusStoneDust.set(com.dreammaster.item.ItemList.VenusStoneDust.getIS());
+		CustomItemList.MercuryStoneDust.set(com.dreammaster.item.ItemList.MercuryStoneDust.getIS());
 	}
 
 }

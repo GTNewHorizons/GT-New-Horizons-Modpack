@@ -113,6 +113,7 @@ public enum ItemList
     EtchedInsaneVoltageWiring(new ModSimpleBaseItem("EtchedInsaneVoltageWiring", ModTabList.ModCircuitsTab)),
     EtchedLudicrousVoltageWiring(new ModSimpleBaseItem("EtchedLudicrousVoltageWiring", ModTabList.ModCircuitsTab)),
     EuropaIceDust(new ModSimpleBaseItem("EuropaIceDust", ModTabList.ModSpaceTab)),
+    EuropaStoneDust(new ModSimpleBaseItem("EuropaStoneDust", ModTabList.ModSpaceTab)),
     ExtraLargeFuelCanister(new ModSimpleBaseItem("ExtraLargeFuelCanister", ModTabList.ModSpaceTab)),
     ExtruderShapeBoat(new ModSimpleBaseItem("ExtruderShapeBoat", ModTabList.ModShapesTab)),
     FieryBloodDrop(new ModSimpleBaseItem("FieryBloodDrop", ModTabList.ModThaumcraftTab)),
