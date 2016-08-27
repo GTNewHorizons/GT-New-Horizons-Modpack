@@ -414,6 +414,8 @@ public class GT_Loader_Items
 		CustomItemList.MoonStoneDust.set(com.dreammaster.item.ItemList.MoonStoneDust.getIS());
 		CustomItemList.MarsStoneDust.set(com.dreammaster.item.ItemList.MarsStoneDust.getIS());
 		CustomItemList.AsteroidsStoneDust.set(com.dreammaster.item.ItemList.AsteroidsStoneDust.getIS());
+		CustomItemList.PhobosStoneDust.set(com.dreammaster.item.ItemList.PhobosStoneDust.getIS());
+		CustomItemList.DeimosStoneDust.set(com.dreammaster.item.ItemList.DeimosStoneDust.getIS());
 	}
 
 }
