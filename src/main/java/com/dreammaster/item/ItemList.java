@@ -193,6 +193,7 @@ public enum ItemList
     MarshmallowFormMold(new ModSimpleBaseItem("MarshmallowFormMold", ModTabList.ModThaumcraftTab)),
     MasterOrb(new ModSimpleBaseItem("MasterOrb", ModTabList.ModThaumcraftTab)),
     MediumFuelCanister(new ModSimpleBaseItem("MediumFuelCanister", ModTabList.ModSpaceTab)),
+    MercuryCoreDust(new ModSimpleBaseItem("MercuryCoreDust", ModTabList.ModSpaceTab)),
     MercuryStoneDust(new ModSimpleBaseItem("MercuryStoneDust", ModTabList.ModSpaceTab)),
     MeteoricIronString(new ModSimpleBaseItem("MeteoricIronString", ModTabList.ModSpaceTab)),
     MeteoricIronDualCompressedPlates(new ModSimpleBaseItem("MeteoricIronDualCompressedPlates", ModTabList.ModSpaceTab)),
