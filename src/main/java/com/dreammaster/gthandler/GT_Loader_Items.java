@@ -428,6 +428,12 @@ public class GT_Loader_Items
 		CustomItemList.EnceladusStoneDust.set(com.dreammaster.item.ItemList.EnceladusStoneDust.getIS());
 		CustomItemList.TitanStoneDust.set(com.dreammaster.item.ItemList.TitanStoneDust.getIS());
 		CustomItemList.OberonStoneDust.set(com.dreammaster.item.ItemList.OberonStoneDust.getIS());
+		CustomItemList.ProteusStoneDust.set(com.dreammaster.item.ItemList.ProteusStoneDust.getIS());
+		CustomItemList.TritonStoneDust.set(com.dreammaster.item.ItemList.TritonStoneDust.getIS());
+		CustomItemList.PlutoIceDust.set(com.dreammaster.item.ItemList.PlutoIceDust.getIS());
+		CustomItemList.PlutoStoneDust.set(com.dreammaster.item.ItemList.PlutoStoneDust.getIS());
+		CustomItemList.HaumeaStoneDust.set(com.dreammaster.item.ItemList.HaumeaStoneDust.getIS());
+		CustomItemList.MakeMakeStoneDust.set(com.dreammaster.item.ItemList.MakeMakeStoneDust.getIS());
 	}
 
 }
