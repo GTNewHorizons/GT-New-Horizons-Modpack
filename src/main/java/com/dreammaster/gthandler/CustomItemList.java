@@ -65,7 +65,7 @@ public enum CustomItemList implements IItemContainer
 	//UnpackagerLuV, UnpackagerZPM, UnpackagerUV,
 	WiremillLuV, WiremillZPM, WiremillUV,
 	PumpLuV, PumpZPM, PumpUV,
-	AcceleratorLV, AcceleratorMV, AcceleratorHV, AcceleratorEV, AcceleratorIV, AcceleratorLuV, AcceleratorZPM, AcceleratorUV,    
+	AcceleratorLV, AcceleratorMV, AcceleratorHV, AcceleratorEV, AcceleratorIV, AcceleratorLuV, AcceleratorZPM, AcceleratorUV,
 
 	//CoreModItems
 	EtchedLowVoltageWiring, EtchedInsaneVoltageWiring, EtchedLudicrousVoltageWiring,
@@ -99,7 +99,7 @@ public enum CustomItemList implements IItemContainer
 	Tier2Booster, Tier3Booster, Tier4Booster, HeavyDutyPlateTier4, HeavyDutyPlateTier5, HeavyDutyPlateTier6, HeavyDutyPlateTier7, HeavyDutyPlateTier8,
 	LeadNickelPlate, LeadOriharukonPlate,
 	MoonStoneDust, MarsStoneDust, AsteroidsStoneDust, PhobosStoneDust, DeimosStoneDust,CeresStoneDust, EuropaIceDust, EuropaStoneDust, GanymedStoneDust, CallistoStoneDust, IoStoneDust, VenusStoneDust, MercuryStoneDust, EnceladusIceDust, EnceladusStoneDust,
-	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust;
+	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust;
 
 
 	private ItemStack mStack = null;

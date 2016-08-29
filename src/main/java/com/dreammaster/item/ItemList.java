@@ -54,6 +54,7 @@ public enum ItemList
     CarbonPartLeggings(new ModSimpleBaseItem("CarbonPartLeggings", ModTabList.ModGenericTab)),
     CarminiteChip(new ModSimpleBaseItem("CarminiteChip", ModTabList.ModThaumcraftTab)),
     CarminiteFragment(new ModSimpleBaseItem("CarminiteFragment", ModTabList.ModThaumcraftTab)),
+    CentauriASurfaceDust(new ModSimpleBaseItem("CentauriASurfaceDust", ModTabList.ModSpaceTab)),
     CentauriAStoneDust(new ModSimpleBaseItem("CentauriAStoneDust", ModTabList.ModSpaceTab)),
     CeresStoneDust(new ModSimpleBaseItem("CeresStoneDust", ModTabList.ModSpaceTab)),
     ChargedSilverWandCap(new ModSimpleBaseItem("ChargedSilverWandCap", ModTabList.ModThaumcraftTab)),

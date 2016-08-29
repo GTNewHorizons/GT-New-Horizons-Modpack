@@ -435,6 +435,11 @@ public class GT_Loader_Items
 		CustomItemList.HaumeaStoneDust.set(com.dreammaster.item.ItemList.HaumeaStoneDust.getIS());
 		CustomItemList.MakeMakeStoneDust.set(com.dreammaster.item.ItemList.MakeMakeStoneDust.getIS());
 		CustomItemList.MercuryCoreDust.set(com.dreammaster.item.ItemList.MercuryCoreDust.getIS());
+		CustomItemList.CentauriAStoneDust.set(com.dreammaster.item.ItemList.CentauriAStoneDust.getIS());
+		CustomItemList.CentauriASurfaceDust.set(com.dreammaster.item.ItemList.CentauriASurfaceDust.getIS());
+		CustomItemList.VegaBStoneDust.set(com.dreammaster.item.ItemList.VegaBStoneDust.getIS());
+		CustomItemList.BarnardaEStoneDust.set(com.dreammaster.item.ItemList.BarnardaEStoneDust.getIS());
+		CustomItemList.BarnardaFStoneDust.set(com.dreammaster.item.ItemList.BarnardaFStoneDust.getIS());
 	}
 
 }
