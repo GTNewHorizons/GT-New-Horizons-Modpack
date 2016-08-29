@@ -99,7 +99,8 @@ public enum CustomItemList implements IItemContainer
 	Tier2Booster, Tier3Booster, Tier4Booster, HeavyDutyPlateTier4, HeavyDutyPlateTier5, HeavyDutyPlateTier6, HeavyDutyPlateTier7, HeavyDutyPlateTier8,
 	LeadNickelPlate, LeadOriharukonPlate,
 	MoonStoneDust, MarsStoneDust, AsteroidsStoneDust, PhobosStoneDust, DeimosStoneDust,CeresStoneDust, EuropaIceDust, EuropaStoneDust, GanymedStoneDust, CallistoStoneDust, IoStoneDust, VenusStoneDust, MercuryStoneDust, EnceladusIceDust, EnceladusStoneDust,
-	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust;
+	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust,
+	MysteriousCrystalDust;
 
 
 	private ItemStack mStack = null;
