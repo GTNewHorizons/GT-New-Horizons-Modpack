@@ -1327,9 +1327,9 @@ recipes.addShaped(<IC2:blockMachine2:12>, [
 
 // --- Advanced Miner
 recipes.addShaped(<IC2:blockMachine2:11>, [
-[<ore:circuitAdvanced>, <IC2:blockElectric:1>, <ore:circuitAdvanced>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:blockMachine:12>, <gregtech:gt.metaitem.01:32602>],
-[<gregtech:gt.metaitem.01:32652>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32652>]]);
+[<ore:circuitElite>, <IC2:blockElectric:2>, <ore:circuitElite>],
+[<gregtech:gt.metaitem.01:32604>, <IC2:blockMachine:12>, <gregtech:gt.metaitem.01:32604>],
+[<gregtech:gt.metaitem.01:32654>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32654>]]);
 
 // --- Tesla Coil
 recipes.addShaped(<IC2:blockMachine2:1>, [
@@ -1339,9 +1339,9 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 
 // --- Teleporter
 recipes.addShaped(<IC2:blockMachine2>, [
-[<gregtech:gt.metaitem.01:32672>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32672>],
-[<ore:circuitData>, <IC2:blockElectric:5>, <ore:circuitData>],
-[<gregtech:gt.metaitem.01:32602>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32602>]]);
+[<gregtech:gt.metaitem.01:32674>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32674>],
+[<ore:circuitMaster>, <IC2:blockElectric:5>, <ore:circuitMaster>],
+[<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
 
 // --- Magnetizer
 recipes.addShaped(<IC2:blockMachine:9>, [
