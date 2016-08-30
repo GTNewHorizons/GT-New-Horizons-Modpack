@@ -145,6 +145,7 @@ public enum ItemList
     IceCompressedPlate(new ModSimpleBaseItem("IceCompressedPlate", ModTabList.ModSpaceTab)),
     IceDualCompressedPlates(new ModSimpleBaseItem("IceDualCompressedPlates", ModTabList.ModSpaceTab)),
     IchoriumCap(new ModSimpleBaseItem("IchoriumCap", ModTabList.ModThaumcraftTab)),
+    IndustryFrame(new ModSimpleBaseItem("IndustryFrame", ModTabList.ModGenericTab)),
     InfernalBrick(new ModSimpleBaseItem("InfernalBrick", ModTabList.ModGenericTab)),
     IoStoneDust(new ModSimpleBaseItem("IoStoneDust", ModTabList.ModSpaceTab)),
     IridiumItemCasing(new ModSimpleBaseItem("IridiumItemCasing", ModTabList.ModBarsAndCasingsTab)),

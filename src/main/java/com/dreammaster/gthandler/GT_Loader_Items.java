@@ -441,6 +441,7 @@ public class GT_Loader_Items
 		CustomItemList.BarnardaEStoneDust.set(com.dreammaster.item.ItemList.BarnardaEStoneDust.getIS());
 		CustomItemList.BarnardaFStoneDust.set(com.dreammaster.item.ItemList.BarnardaFStoneDust.getIS());
 		CustomItemList.MysteriousCrystalDust.set(com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
+		CustomItemList.IndustryFrame.set(com.dreammaster.item.ItemList.IndustryFrame.getIS());
 	}
 
 }
