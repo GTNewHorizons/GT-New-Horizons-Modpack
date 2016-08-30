@@ -1078,7 +1078,7 @@ recipes.addShaped(<GalacticraftMars:tile.beamReceiver>, [
 // --- Short range Teleporter
 recipes.addShaped(<GalacticraftMars:tile.telepadShort>, [
 [CompressedTi, DeshPlate, CompressedTi],
-[<GalacticraftMars:item.itemBasicAsteroids:8>, <IC2:blockMachine2>, <GalacticraftMars:item.itemBasicAsteroids:8>],
+[<GalacticraftMars:item.itemBasicAsteroids:8>, <gregtech:gt.metaitem.01:32672>, <GalacticraftMars:item.itemBasicAsteroids:8>],
 [CompressedTi, DeshPlate, CompressedTi]]);
 
 // --- Cryogenic Chamber
@@ -1811,21 +1811,21 @@ PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 3, <gregtech:gt.me
 PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32464> * 3, <gregtech:gt.metaitem.01:32463> * 8, <gregtech:gt.metaitem.01:32462> * 3, <gregtech:gt.metaitem.01:11028> * 10], <liquid:argon> * 8, <GalacticraftMars:item.itemAstroMiner>, <liquid:plasma.argon> * 8, [10000, 10000, 10000, 10000], 200, 30);
 
 // ---  Moon Buggy Recycling
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 21, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 21, <gregtech:gt.metaitem.01:11306> * 4], <liquid:nitrogen> * 8, <GalacticraftCore:item.buggy>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 21, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 21, <gregtech:gt.metaitem.01:11306> * 4], <liquid:argon> * 3, <GalacticraftCore:item.buggy>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 28, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:1>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 28, <gregtech:gt.metaitem.01:11306> * 4], <liquid:nitrogen> * 8, <GalacticraftCore:item.buggy:1>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 28, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:1>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 28, <gregtech:gt.metaitem.01:11306> * 4], <liquid:argon> * 3, <GalacticraftCore:item.buggy:1>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 35, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:2>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 35, <gregtech:gt.metaitem.01:11306> * 4], <liquid:nitrogen> * 8, <GalacticraftCore:item.buggy:2>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 35, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:2>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 35, <gregtech:gt.metaitem.01:11306> * 4], <liquid:argon> * 3, <GalacticraftCore:item.buggy:2>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 42, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:3>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 42, <gregtech:gt.metaitem.01:11306> * 4], <liquid:nitrogen> * 8, <GalacticraftCore:item.buggy:3>, <liquid:plasma.nitrogen> * 8, [10000, 10000, 10000, 10000], 65, 30);
 // -
-PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 42, <gregtech:gt.metaitem.01:11306> * 4], <GalacticraftCore:item.buggy:3>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
+PlasmaArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaitem.01:11340> * 5, <gregtech:gt.metaitem.01:11305> * 42, <gregtech:gt.metaitem.01:11306> * 4], <liquid:argon> * 3, <GalacticraftCore:item.buggy:3>, <liquid:plasma.argon> * 3, [10000, 10000, 10000, 10000], 65, 30);
 
 
 // --- Plate Bender Recipes ---
