@@ -1176,9 +1176,6 @@ Assembler.addRecipe(<ExtraUtilities:golden_lasso>, <minecraft:ender_eye>, <gregt
 // --- Portable Scanner
 Assembler.addRecipe(<ExtraUtilities:scanner>, <gregtech:gt.metaitem.01:32762>, <minecraft:ender_eye>, 600, 120);
 
-// --- Bedrockium Ingot
-Assembler.addRecipe(<ExtraUtilities:bedrockiumIngot>, <gregtech:gt.metaitem.01:11129>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ic2uumatter> * 1000, 2, 122880);
-
 // --- Compressed Cobblestone
 Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed>, <gregtech:gt.integrated_circuit:1> * 0, <minecraft:cobblestone> * 9, 100, 16);
 

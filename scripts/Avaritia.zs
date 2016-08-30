@@ -126,15 +126,6 @@ Compressor.addRecipe(<Avaritia:Crystal_Matrix>, <Avaritia:Resource:1> * 9);
 
 
 
-// --- Centrifuge Recipes ---
-
-
-
-// --- Pile of Neutrons
-Centrifuge.addRecipe([<Avaritia:Resource:2>, <Avaritia:Resource:2>, <Avaritia:Resource:2>], null, <gregtech:gt.metaitem.01:2129>, null, null, [5000, 2000, 1000], 1200, 480);
-
-
-
 // --- Extractor Recipes ---
 
 
@@ -210,6 +201,10 @@ Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_ward>);
 Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_11>);
 // -
 Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_wait>);
+
+
+
+mods.avaritia.Compressor.add(<Avaritia:Resource:6>, 512, <gregtech:gt.metaitem.01:2394>);
 
 
 //print("ExtremCrafting loaded!");
