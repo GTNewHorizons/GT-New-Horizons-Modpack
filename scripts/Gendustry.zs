@@ -98,6 +98,7 @@ val RedAlloyDust = <ore:dustRedAlloy>;
 val EVPiston = <gregtech:gt.metaitem.01:32643>;
 val LuVPistons = <gregtech:gt.metaitem.01:32645>;
 val EVMotor = <gregtech:gt.metaitem.01:32603>;
+val IvMotor = <gregtech:gt.metaitem.01:32604>;
 val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val HVBuffer = <gregtech:gt.blockmachines:9233>;
 val EVRobotorArm = <gregtech:gt.metaitem.01:32653>;
@@ -136,6 +137,7 @@ val Battery = <IC2:itemBatChargeRE:26>;
 val CrystalBattery = <IC2:itemBatChargeCrystal:26>;
 val DTank = <irontank:diamondTank>;
 val Coil = <IC2:itemRecipePart>;
+val ApicultureChest = <Forestry:apicultureChest>;
 
 
 
@@ -261,9 +263,9 @@ recipes.remove(<gendustry:ErrorSensorCover>);
 
 // --- Industrial Apiary
 recipes.addShaped(IndustrialApiary, [
-[OsmiumGear, BeeReceptacle, OsmiumGear],
+[TitaniumGear, ApicultureChest, TitaniumGear],
 [AlvearyFan, HardCasing, AlvearyHeater],
-[OsmiumGear, PowerModule, OsmiumGear]]);
+[TitaniumGear, IvMotor, TitaniumGear]]);
 
 // --- Mutatron
 recipes.addShaped(Mutatron, [
