@@ -520,5 +520,4 @@ Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052
 
 
 
-
 // --- Hiding Stuff ---

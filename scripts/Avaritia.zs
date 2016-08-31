@@ -203,8 +203,5 @@ Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_11>);
 Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_wait>);
 
 
-
-mods.avaritia.Compressor.add(<Avaritia:Resource:6>, 512, <gregtech:gt.metaitem.01:2394>);
-
-
-//print("ExtremCrafting loaded!");
+// --- Neutronium Compressor
+mods.avaritia.Compressor.add(<Avaritia:Resource:5>, 64, <gregtech:gt.metaitem.01:2394>);
