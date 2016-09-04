@@ -171,15 +171,11 @@ public class GT_Loader_Batteries
 				null, 100, 12500);
 
 		// PeV 134217728
-		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.cellPlasma, Materials.Americium, 8L),
-				CustomItemList.BatteryHull_PeV.get(1L, new Object[0]),
-				CustomItemList.BatteryHull_PeV_Full.get(1L, new Object[0]),
-				null, 100, 630000);
+		GT_Values.RA.addFluidCannerRecipe(CustomItemList.BatteryHull_PeV.get(1L, new Object[0]), CustomItemList.BatteryHull_PeV_Full.get(1L, new Object[0]),
+				Materials.Americium.getPlasma(8000L), GT_Values.NF, 100, 630000);
 
 		// ExV 536870912
-		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.cellPlasma, Materials.Neutronium, 16L),
-				CustomItemList.BatteryHull_ExV.get(1L, new Object[0]),
-				CustomItemList.BatteryHull_ExV_Full.get(1L, new Object[0]),
-				null, 100, 630000);
+		GT_Values.RA.addFluidCannerRecipe(CustomItemList.BatteryHull_ExV.get(1L, new Object[0]), CustomItemList.BatteryHull_ExV_Full.get(1L, new Object[0]),
+				Materials.Neutronium.getPlasma(8000L),  GT_Values.NF, 100, 630000);
 	}
 }
