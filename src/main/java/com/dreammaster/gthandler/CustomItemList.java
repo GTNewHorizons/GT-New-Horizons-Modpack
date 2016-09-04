@@ -13,8 +13,8 @@ import gregtech.api.util.GT_Utility;
 
 public enum CustomItemList implements IItemContainer
 {
-	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV,
-	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full,
+	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV, BatteryHull_MeV, BatteryHull_GiV, BatteryHull_TeV, BatteryHull_PeV, BatteryHull_ExV,
+	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full, BatteryHull_MeV_Full, BatteryHull_GiV_Full, BatteryHull_TeV_Full, BatteryHull_PeV_Full, BatteryHull_ExV_Full,
 	Generator_Plasma_ZPMV, Generator_Plasma_UV,
 	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV,
 	AmplifabricatorLuV, AmplifabricatorZPM, AmplifabricatorUV,
