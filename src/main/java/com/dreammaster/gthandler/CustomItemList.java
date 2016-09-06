@@ -16,7 +16,7 @@ public enum CustomItemList implements IItemContainer
 	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV, BatteryHull_UHV, BatteryHull_UEV, BatteryHull_UIV, BatteryHull_UMV, BatteryHull_UxV,
 	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full, BatteryHull_UHV_Full, BatteryHull_UEV_Full, BatteryHull_UIV_Full, BatteryHull_UMV_Full, BatteryHull_UxV_Full,
 	Generator_Plasma_ZPMV, Generator_Plasma_UV,
-	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV,
+	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV, AlloySmelterUHV, AlloySmelterUEV, AlloySmelterUIV, AlloySmelterUMV,
 	AmplifabricatorLuV, AmplifabricatorZPM, AmplifabricatorUV,
 	ArcFurnaceLuV, ArcFurnaceZPM, ArcFurnaceUV,
 	AssemblingMachineLuV, AssemblingMachineZPM, AssemblingMachineUV,

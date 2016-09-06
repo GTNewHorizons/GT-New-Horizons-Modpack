@@ -81,14 +81,36 @@ public class GT_Loader_Machines
 					'C', AdvancedGTMaterials.ZPM.getHCoil() }).getStackForm(1L));
 
 		CustomItemList.AlloySmelterUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10762, "basicmachine.alloysmelter.tier.08", "Instant Alloy Smelter", 8, "HighTech combination Smelter", 
-				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png", 
-				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER", 
-				new Object[] { "ECE", "CMC", "WCW", 
-					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 
-					'E', AdvancedGTMaterials.UV.getCircuit(), 
-					'W', AdvancedGTMaterials.UV.getCable(), 
+				10762, "basicmachine.alloysmelter.tier.08", "Instant Alloy Smelter", 8, "HighTech combination Smelter",
+				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
+				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",
+				new Object[] { "ECE", "CMC", "WCW",
+					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+					'E', AdvancedGTMaterials.UV.getCircuit(),
+					'W', AdvancedGTMaterials.UV.getCable(),
 					'C', AdvancedGTMaterials.UV.getHCoil() }).getStackForm(1L));
+
+
+		//Nulling recipes for now
+		CustomItemList.AlloySmelterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10763, "basicmachine.alloysmelter.tier.09", "2Instant Alloy Smelter", 9, "HighTech combination Smelter",
+				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
+				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
+
+		CustomItemList.AlloySmelterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10764, "basicmachine.alloysmelter.tier.10", "3Instant Alloy Smelter",10, "HighTech combination Smelter",
+				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
+				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
+
+		CustomItemList.AlloySmelterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10765, "basicmachine.alloysmelter.tier.11", "4Instant Alloy Smelter",11, "HighTech combination Smelter",
+				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
+				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
+
+		CustomItemList.AlloySmelterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+				10766, "basicmachine.alloysmelter.tier.12", "5Instant Alloy Smelter",12, "HighTech combination Smelter",
+				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
+				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
 		// ===================================================================================================
 
 		// ===================================================================================================
@@ -96,7 +118,7 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.AmplifabricatorLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				10770, "basicmachine.amplifab.tier.06", "Elite Amplifabricator I", 6, "Extracting UU Amplifier", 
-				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png", 
+				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "AMPLIFAB", 
 				new Object[] { "WPW", "PMP", "CPC", 
 					'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
