@@ -18,3 +18,6 @@ CoreMod.ipr
 CoreMod.iws
 Idea.bat
 SetupDevWorkspaces.bat
+*.iml
+*.ipr
+*.iws
