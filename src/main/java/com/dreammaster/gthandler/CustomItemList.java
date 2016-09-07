@@ -13,6 +13,12 @@ import gregtech.api.util.GT_Utility;
 
 public enum CustomItemList implements IItemContainer
 {
+	Hatch_Dynamo_UEV, Hatch_Dynamo_UIV, Hatch_Dynamo_UMV,
+	Hatch_Energy_UEV, Hatch_Energy_UIV, Hatch_Energy_UMV,
+	Battery_Charger_4by4_UEV, Battery_Charger_4by4_UIV, Battery_Charger_4by4_UMV, Battery_Charger_4by4_UXV, Battery_Charger_4by4_OPV, Battery_Charger_4by4_MAXV,
+	Battery_Buffer_1by1_UEV, Battery_Buffer_1by1_UIV, Battery_Buffer_1by1_UMV, Battery_Buffer_1by1_UXV, Battery_Buffer_1by1_OPV, Battery_Buffer_1by1_MAXV,
+	Battery_Buffer_2by2_UEV, Battery_Buffer_2by2_UIV, Battery_Buffer_2by2_UMV, Battery_Buffer_2by2_UXV, Battery_Buffer_2by2_OPV, Battery_Buffer_2by2_MAXV,
+	Battery_Buffer_3by3_UEV, Battery_Buffer_3by3_UIV, Battery_Buffer_3by3_UMV, Battery_Buffer_3by3_UXV, Battery_Buffer_3by3_OPV, Battery_Buffer_3by3_MAXV,
 	Battery_Buffer_4by4_UEV, Battery_Buffer_4by4_UIV, Battery_Buffer_4by4_UMV, Battery_Buffer_4by4_UXV, Battery_Buffer_4by4_OPV, Battery_Buffer_4by4_MAXV,
 	Hull_UEV, Hull_UIV, Hull_UMV, Hull_UXV, Hull_OPV, Hull_MAXV,//since Hull_MAX is in gt
 	Transformer_UHV_UEV, Transformer_UEV_UIV, Transformer_UIV_UMV, Transformer_UMV_UXV, Transformer_UXV_OPV, Transformer_OPV_MAXV,

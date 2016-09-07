@@ -1,9 +1,9 @@
 package com.dreammaster.gthandler;
 
+import gregtech.GT_Mod;
 import gregtech.api.interfaces.ITexture;
-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicBatteryBuffer;
-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicHull;
-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Transformer;
+import gregtech.api.metatileentity.implementations.*;
+import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.common.tileentities.machines.basic.*;
 import net.minecraft.item.ItemStack;
 import gregtech.api.GregTech_API;
@@ -12,7 +12,6 @@ import gregtech.api.enums.ItemList;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OreDictNames;
 import gregtech.api.enums.OrePrefixes;
-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicMachine_GT_Recipe;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Recipe;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
@@ -24,6 +23,23 @@ import net.minecraft.util.EnumChatFormatting;
 
 public class GT_Loader_Machines 
 {
+	private static boolean bEC = !GT_Mod.gregtechproxy.mHardcoreCables;//Hardocre cables?
+	private static void makeWires(Materials aMaterial, int aStartID, long aLossInsulated, long aLoss, long aAmperage, long aVoltage, boolean aInsulatable, boolean aAutoInsulated) {
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt01, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 0, "wire." + aMaterial.name().toLowerCase() + ".01", "1x " + aMaterial.mDefaultLocalName + " Wire", 0.125F, aMaterial, aLoss, 1L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt02, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 1, "wire." + aMaterial.name().toLowerCase() + ".02", "2x " + aMaterial.mDefaultLocalName + " Wire", 0.25F, aMaterial, aLoss, 2L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt04, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 2, "wire." + aMaterial.name().toLowerCase() + ".04", "4x " + aMaterial.mDefaultLocalName + " Wire", 0.375F, aMaterial, aLoss, 4L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt08, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 3, "wire." + aMaterial.name().toLowerCase() + ".08", "8x " + aMaterial.mDefaultLocalName + " Wire", 0.5F, aMaterial, aLoss, 8L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt12, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 4, "wire." + aMaterial.name().toLowerCase() + ".12", "12x " + aMaterial.mDefaultLocalName + " Wire", 0.75F, aMaterial, aLoss, 12L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt16, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 5, "wire." + aMaterial.name().toLowerCase() + ".16", "16x " + aMaterial.mDefaultLocalName + " Wire", 1.0F, aMaterial, aLoss, 16L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
+		if (aInsulatable) {
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt01, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 6, "cable." + aMaterial.name().toLowerCase() + ".01", "1x " + aMaterial.mDefaultLocalName + " Cable", 0.25F, aMaterial, aLossInsulated, 1L * aAmperage, aVoltage, true, false).getStackForm(1L));
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt02, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 7, "cable." + aMaterial.name().toLowerCase() + ".02", "2x " + aMaterial.mDefaultLocalName + " Cable", 0.375F, aMaterial, aLossInsulated, 2L * aAmperage, aVoltage, true, false).getStackForm(1L));
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt04, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 8, "cable." + aMaterial.name().toLowerCase() + ".04", "4x " + aMaterial.mDefaultLocalName + " Cable", 0.5F, aMaterial, aLossInsulated, 4L * aAmperage, aVoltage, true, false).getStackForm(1L));
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt08, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 9, "cable." + aMaterial.name().toLowerCase() + ".08", "8x " + aMaterial.mDefaultLocalName + " Cable", 0.75F, aMaterial, aLossInsulated, 8L * aAmperage, aVoltage, true, false).getStackForm(1L));
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt12, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 10, "cable." + aMaterial.name().toLowerCase() + ".12", "12x " + aMaterial.mDefaultLocalName + " Cable", 1.0F, aMaterial, aLossInsulated, 12L * aAmperage, aVoltage, true, false).getStackForm(1L));
+			GT_OreDictUnificator.registerOre(OrePrefixes.cableGt16, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 11, "cable." + aMaterial.name().toLowerCase() + ".16", "16x " + aMaterial.mDefaultLocalName + " Cable", 1.0F, aMaterial, aLossInsulated, 16L * aAmperage, aVoltage, true, false).getStackForm(1L));
+		}
+	}
 	public void run()
 	{
 		registerMachines();
@@ -31,7 +47,10 @@ public class GT_Loader_Machines
 
 	private void registerMachines()
 	{
-		// MetaTileEntity ID Range: 10752 - 11263. This is the free range mentioned in GregTech_API.java, as of
+		//TODO:While adding recipes look at GT_Loader_MetaTileEntities there is some useful info
+		//TODO:Add recipes where u see //TODO:recipes or null in the code
+
+		// MetaTileEntity ID Range: look at end of file
 		// GT 5.08.30
 		
 		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(
@@ -2552,6 +2571,7 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
 		CustomItemList.Hull_UIV.set(new GT_MetaTileEntity_BasicHull(
 				11231, "hull.tier.11", "UIV Machine Hull",11,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
@@ -2561,6 +2581,7 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
 		CustomItemList.Hull_UMV.set(new GT_MetaTileEntity_BasicHull(
 				11232, "hull.tier.12", "UMV Machine Hull",12,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
@@ -2570,6 +2591,7 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
 		CustomItemList.Hull_UXV.set(new GT_MetaTileEntity_BasicHull(
 				11233, "hull.tier.13", "UXV Machine Hull",13,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
@@ -2579,6 +2601,7 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
 		CustomItemList.Hull_OPV.set(new GT_MetaTileEntity_BasicHull(
 				11234, "hull.tier.14", "OPV Machine Hull",14,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
@@ -2588,6 +2611,7 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
 		CustomItemList.Hull_MAXV.set(new GT_MetaTileEntity_BasicHull(
 				11235, "hull.tier.15", "MAX Machine Hull",15,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
@@ -2605,21 +2629,183 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.Battery_Buffer_4by4_UEV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11240, "batterybuffer.16.tier.10", "Extremely Ultimate Battery Buffer",10,"", 16).getStackForm(1L));
+
 		CustomItemList.Battery_Buffer_4by4_UIV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11241, "batterybuffer.16.tier.11", "Insanely Ultimate Battery Buffer",11,"", 16).getStackForm(1L));
+
 		CustomItemList.Battery_Buffer_4by4_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11242, "batterybuffer.16.tier.12", "Mega Ultimate Buffer",12,"", 16).getStackForm(1L));
+
 		CustomItemList.Battery_Buffer_4by4_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11243, "batterybuffer.16.tier.13", "Extended Mega Ultimate Buffer",13,"", 16).getStackForm(1L));
+
 		CustomItemList.Battery_Buffer_4by4_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11244, "batterybuffer.16.tier.14", "Overpowered Battery Buffer",14,"", 16).getStackForm(1L));
+
 		CustomItemList.Battery_Buffer_4by4_MAXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11245, "batterybuffer.16.tier.15", "Maximum Battery Buffer",15,"", 16).getStackForm(1L));
 
 			//TODO:Recipes
 
+		// ===================================================================================================
+		// Battery buffer 3x3
+		// ===================================================================================================
+		CustomItemList.Battery_Buffer_3by3_UEV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11250, "batterybuffer.09.tier.10", "Extremely Ultimate Battery Buffer",10,"", 9).getStackForm(1L));
 
-		// Free IDs: 11250 - 11263
+		CustomItemList.Battery_Buffer_3by3_UIV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11251, "batterybuffer.09.tier.11", "Insanely Ultimate Battery Buffer",11,"", 9).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_3by3_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11252, "batterybuffer.09.tier.12", "Mega Ultimate Buffer",12,"", 9).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_3by3_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11253, "batterybuffer.09.tier.13", "Extended Mega Ultimate Buffer",13,"", 9).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_3by3_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11254, "batterybuffer.09.tier.14", "Overpowered Battery Buffer",14,"", 9).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_3by3_MAXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11255, "batterybuffer.09.tier.15", "Maximum Battery Buffer",15,"", 9).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// Battery buffer 2x2
+		// ===================================================================================================
+		CustomItemList.Battery_Buffer_2by2_UEV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11260, "batterybuffer.04.tier.10", "Extremely Ultimate Battery Buffer",10,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_2by2_UIV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11261, "batterybuffer.04.tier.11", "Insanely Ultimate Battery Buffer",11,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_2by2_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11262, "batterybuffer.04.tier.12", "Mega Ultimate Buffer",12,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_2by2_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11263, "batterybuffer.04.tier.13", "Extended Mega Ultimate Buffer",13,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_2by2_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11264, "batterybuffer.04.tier.14", "Overpowered Battery Buffer",14,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_2by2_MAXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11265, "batterybuffer.04.tier.15", "Maximum Battery Buffer",15,"", 4).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// Battery buffer 1x1
+		// ===================================================================================================
+		CustomItemList.Battery_Buffer_1by1_UEV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11270, "batterybuffer.01.tier.10", "Extremely Ultimate Battery Buffer",10,"", 1).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_1by1_UIV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11271, "batterybuffer.01.tier.11", "Insanely Ultimate Battery Buffer",11,"", 1).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_1by1_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11272, "batterybuffer.01.tier.12", "Mega Ultimate Buffer",12,"", 1).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_1by1_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11273, "batterybuffer.01.tier.13", "Extended Mega Ultimate Buffer",13,"", 1).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_1by1_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11274, "batterybuffer.01.tier.14", "Overpowered Battery Buffer",14,"", 1).getStackForm(1L));
+
+		CustomItemList.Battery_Buffer_1by1_MAXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
+				11275, "batterybuffer.01.tier.15", "Maximum Battery Buffer",15,"", 1).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// Battery charger 4x4 - faster battery charge/discharge
+		// ===================================================================================================
+		CustomItemList.Battery_Charger_4by4_UEV.set(new GT_MetaTileEntity_Charger(
+				11280, "batterycharger.16.tier.10", "Extremely Ultimate Battery Charger",10,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Charger_4by4_UIV.set(new GT_MetaTileEntity_Charger(
+				11281, "batterycharger.16.tier.11", "Insanely Ultimate Battery Charger",11,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Charger_4by4_UMV.set(new GT_MetaTileEntity_Charger(
+				11282, "batterycharger.16.tier.12", "Mega Ultimate Charger",12,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Charger_4by4_UXV.set(new GT_MetaTileEntity_Charger(
+				11283, "batterycharger.16.tier.13", "Extended Mega Ultimate Charger",13,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Charger_4by4_OPV.set(new GT_MetaTileEntity_Charger(
+				11284, "batterycharger.16.tier.14", "Overpowered Battery Charger",14,"", 4).getStackForm(1L));
+
+		CustomItemList.Battery_Charger_4by4_MAXV.set(new GT_MetaTileEntity_Charger(
+				11285, "batterycharger.16.tier.15", "Maximum Battery Charger",15,"", 4).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// Dynamo Hatches
+		// ===================================================================================================
+		CustomItemList.Hatch_Dynamo_UEV.set(new GT_MetaTileEntity_Hatch_Dynamo(
+				11290, "hatch.dynamo.tier.10", "UEV Dynamo Hatch",10).getStackForm(1L));
+
+		CustomItemList.Hatch_Dynamo_UIV.set(new GT_MetaTileEntity_Hatch_Dynamo(
+				11291, "hatch.dynamo.tier.11", "UIV Dynamo Hatch",11).getStackForm(1L));
+
+		CustomItemList.Hatch_Dynamo_UMV.set(new GT_MetaTileEntity_Hatch_Dynamo(
+				11292, "hatch.dynamo.tier.12", "UMV Dynamo Hatch",12).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// Energy Hatches
+		// ===================================================================================================
+		CustomItemList.Hatch_Energy_UEV.set(new GT_MetaTileEntity_Hatch_Energy(
+				11300, "hatch.energy.tier.10", "UEV Energy Hatch",10).getStackForm(1L));
+
+		CustomItemList.Hatch_Energy_UIV.set(new GT_MetaTileEntity_Hatch_Energy(
+				11301, "hatch.energy.tier.11", "UIV Energy Hatch",11).getStackForm(1L));
+
+		CustomItemList.Hatch_Energy_UMV.set(new GT_MetaTileEntity_Hatch_Energy(
+				11302, "hatch.energy.tier.12", "UMV Energy Hatch",12).getStackForm(1L));
+
+		//TODO:Recipes
+
+		// ===================================================================================================
+		// MAke wires?
+		// ===================================================================================================
+
+		//Takes 20!!! slots per wire
+		//TODO:Proper stuff...
+		makeWires(Materials.Draconium, 11310, bEC ? 4L : 16L, bEC ? 32L : 64L, 8L, gregtech.api.enums.GT_Values.V[10], true, false);
+		makeWires(Materials.DraconiumAwakened, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 4L, gregtech.api.enums.GT_Values.V[11], true, false);
+		makeWires(Materials.Bedrockium, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], true, false);
+		makeWires(Materials.BlackPlutonium, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], true, false);
+		makeWires(Materials.Oriharukon, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], true, false);
+		makeWires(Materials.Infinity, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[15], true, false);
+
+
+	/**
+     * A List of all registered MetaTileEntities
+     * <p/>
+     * 0 -  1199 are used by GregTech.
+     * 1200 -  2047 are used for GregTech Cables.
+     * 2048 -  2559 are reserved for OvermindDL.
+     * 2560 -  3071 are reserved for Immibis.
+     * 3072 -  3583 are reserved for LinusPhoenix.
+     * 3584 -  4095 are reserved for BloodyAsp.
+     * 4096 -  5095 are used for GregTech Frames.
+     * 5096 -  6099 are used for GregTech Pipes.
+     * 6100 -  8191 are used for GregTech Decoration Blocks.
+     * 8192 -  8703 are reserved for ZL123.
+     * 8704 -  9215 are reserved for Mr10Movie.
+     * 9216 -  9727 are used for GregTech Automation Machines.
+     * 9728 - 10239 are reserved for 28Smiles.
+     * 10240 - 10751 are reserved for VirMan.
+     * 10752 - 11263 are reserved for Briareos81.
+     * 11264 - 12000 are reserved for the next one who asks me.
+     * 9728 - 32766 are currently free.
+     * <p/>
+     * Contact me if you need a free ID-Range, which doesn't conflict with other Addons.
+     * You could make an ID-Config, but we all know, what "stupid" customers think about conflicting ID's
+     */
+		//// WE USE RANGE 10750+  (next free id's start from ... )
 		// 27.01.2016 Namikon
 	}
 }
