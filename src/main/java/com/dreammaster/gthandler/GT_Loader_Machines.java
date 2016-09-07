@@ -2772,7 +2772,7 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 
 		//Takes 20!!! slots per wire
-		//TODO:Proper stuff...
+		//TODO:Proper materials...
 		makeWires(Materials.Draconium, 11310, bEC ? 4L : 16L, bEC ? 32L : 64L, 8L, gregtech.api.enums.GT_Values.V[10], true, false);
 		makeWires(Materials.DraconiumAwakened, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 4L, gregtech.api.enums.GT_Values.V[11], true, false);
 		makeWires(Materials.Bedrockium, 11350, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], false, false);

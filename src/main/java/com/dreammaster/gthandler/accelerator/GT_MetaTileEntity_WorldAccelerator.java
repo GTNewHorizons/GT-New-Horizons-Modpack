@@ -34,7 +34,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
     private static CustomIcon _mGTIco_Norm_Active;
     private static CustomIcon _mGTIco_TE_Idle;
     private static CustomIcon _mGTIco_TE_Active;
-    private static int[] mAccelerateStatic = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512};
+    private static int[] mAccelerateStatic = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 512, 512, 512, 512, 512, 512};
     
     @Override
     public void registerIcons(IIconRegister aBlockIconRegister)
@@ -306,7 +306,7 @@ public class GT_MetaTileEntity_WorldAccelerator extends GT_MetaTileEntity_Tiered
         int tX = pBaseMetaTileEntity.getXCoord();
         int tY = pBaseMetaTileEntity.getYCoord();
         int tZ = pBaseMetaTileEntity.getZCoord();
-        
+
         int tX1 = tX - mTier;
         int tX2 = tX + mTier;
         int tY1 = Math.max(tY - mTier, 0); // Limit to bedrock
