@@ -2778,7 +2778,7 @@ public class GT_Loader_Machines
 		makeWires(Materials.Bedrockium, 11350, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], true, false);
 		makeWires(Materials.BlackPlutonium, 11370, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], true, false);
 		makeWires(Materials.Oriharukon, 11390, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], true, false);
-		makeWires(Materials.Infinity, 11410, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[15], true, false);
+		makeWires(Materials.Infinity, 11410, 1L, 1L, 16L, gregtech.api.enums.GT_Values.V[15], false, true);
 
 
 	/**
