@@ -23,7 +23,7 @@ import net.minecraft.util.EnumChatFormatting;
 
 public class GT_Loader_Machines 
 {
-	private static boolean bEC = !GT_Mod.gregtechproxy.mHardcoreCables;//Hardocre cables?
+	private static boolean bEC = !GT_Mod.gregtechproxy.mHardcoreCables;//Hardcore cables?
 	private static void makeWires(Materials aMaterial, int aStartID, long aLossInsulated, long aLoss, long aAmperage, long aVoltage, boolean aInsulatable, boolean aAutoInsulated) {
 		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt01, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 0, "wire." + aMaterial.name().toLowerCase() + ".01", "1x " + aMaterial.mDefaultLocalName + " Wire", 0.125F, aMaterial, aLoss, 1L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
 		GT_OreDictUnificator.registerOre(OrePrefixes.wireGt02, aMaterial, new GT_MetaPipeEntity_Cable(aStartID + 1, "wire." + aMaterial.name().toLowerCase() + ".02", "2x " + aMaterial.mDefaultLocalName + " Wire", 0.25F, aMaterial, aLoss, 2L * aAmperage, aVoltage, false, !aAutoInsulated).getStackForm(1L));
@@ -2768,16 +2768,16 @@ public class GT_Loader_Machines
 		//TODO:Recipes
 
 		// ===================================================================================================
-		// MAke wires?
+		// Make wires
 		// ===================================================================================================
 
 		//Takes 20!!! slots per wire
 		//TODO:Proper stuff...
 		makeWires(Materials.Draconium, 11310, bEC ? 4L : 16L, bEC ? 32L : 64L, 8L, gregtech.api.enums.GT_Values.V[10], true, false);
 		makeWires(Materials.DraconiumAwakened, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 4L, gregtech.api.enums.GT_Values.V[11], true, false);
-		makeWires(Materials.Bedrockium, 11350, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], true, false);
-		makeWires(Materials.BlackPlutonium, 11370, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], true, false);
-		makeWires(Materials.Oriharukon, 11390, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], true, false);
+		makeWires(Materials.Bedrockium, 11350, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], false, false);
+		makeWires(Materials.BlackPlutonium, 11370, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], false, false);
+		makeWires(Materials.Oriharukon, 11390, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], false, false);
 		makeWires(Materials.Infinity, 11410, 1L, 1L, 16L, gregtech.api.enums.GT_Values.V[15], false, true);
 
 
