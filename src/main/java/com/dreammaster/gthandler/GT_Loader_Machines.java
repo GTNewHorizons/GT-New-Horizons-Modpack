@@ -2775,10 +2775,10 @@ public class GT_Loader_Machines
 		//TODO:Proper stuff...
 		makeWires(Materials.Draconium, 11310, bEC ? 4L : 16L, bEC ? 32L : 64L, 8L, gregtech.api.enums.GT_Values.V[10], true, false);
 		makeWires(Materials.DraconiumAwakened, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 4L, gregtech.api.enums.GT_Values.V[11], true, false);
-		makeWires(Materials.Bedrockium, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], true, false);
-		makeWires(Materials.BlackPlutonium, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], true, false);
-		makeWires(Materials.Oriharukon, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], true, false);
-		makeWires(Materials.Infinity, 11330, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[15], true, false);
+		makeWires(Materials.Bedrockium, 11350, bEC ? 4L : 16L, bEC ? 16L : 32L, 2L, gregtech.api.enums.GT_Values.V[12], true, false);
+		makeWires(Materials.BlackPlutonium, 11370, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[13], true, false);
+		makeWires(Materials.Oriharukon, 11390, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], true, false);
+		makeWires(Materials.Infinity, 11410, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[15], true, false);
 
 
 	/**
