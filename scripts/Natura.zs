@@ -1135,9 +1135,6 @@ recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<harvestcraft:juicerIte
 // -
 recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blackberryItem>]);
 
-// --- Barley to Oredict
-oreDict.cropBarley.add(<Natura:barleyFood>);
-
 // --- Barley Seeds
 recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
 

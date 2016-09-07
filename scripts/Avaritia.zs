@@ -74,6 +74,8 @@ recipes.addShaped(<Avaritia:Dire_Crafting>, [
 [<gregtech:gt.metaitem.01:32652>, <Avaritia:Triple_Craft>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <Avaritia:Crystal_Matrix>, <ore:waferAdvanced>],
 [<gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32642>]]);
+// -
+recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
 
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [
@@ -121,15 +123,6 @@ Compressor.addRecipe(<Avaritia:Triple_Craft>, <Avaritia:Double_Craft> * 9);
 Compressor.addRecipe(<Avaritia:Crystal_Matrix>, <Avaritia:Resource:1> * 9);
 
 
-
-
-
-// --- Centrifuge Recipes ---
-
-
-
-// --- Pile of Neutrons
-Centrifuge.addRecipe([<Avaritia:Resource:2>, <Avaritia:Resource:2>, <Avaritia:Resource:2>], null, <gregtech:gt.metaitem.01:2129>, null, null, [5000, 2000, 1000], 1200, 480);
 
 
 
@@ -210,4 +203,5 @@ Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_11>);
 Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_wait>);
 
 
-//print("ExtremCrafting loaded!");
+// --- Neutronium Compressor
+mods.avaritia.Compressor.add(<Avaritia:Resource:5>, 64, <gregtech:gt.metaitem.01:2394>);

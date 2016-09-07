@@ -2069,19 +2069,6 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 
 
-// --- Ordicted things ---
-
-
-
-// --- Steel Shears
-oreDict.craftingToolShears.add(<Railcraft:tool.steel.shears>);
-
-// --- Lead Plates
-oreDict.plateLead.add(<Railcraft:part.plate:4>);
-
-
-
-
 // --- Nei Rename ---
 
 

@@ -129,14 +129,6 @@ mods.chisel.Groups.addVariation("netherstar", <ForbiddenMagic:StarBlock>);
 mods.chisel.Groups.addVariation("netherstar", <gregtech:gt.blockgem3:3>);
 
 
-// --- Ordict Support ---
-
-
-// --- Log Wood
-oreDict.logWood.add(<ForbiddenMagic:TaintLog>);
-
-// --- Plank Wood
-oreDict.planWood.add(<ForbiddenMagic:TaintPlank>);
 
 
 

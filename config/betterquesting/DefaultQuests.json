@@ -12294,7 +12294,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -14689,7 +14689,7 @@
     {
       "questID": 186,
       "name": "Dimensional Goal: Mars",
-      "description": "No Description",
+      "description": "Mars have many new Ores you need to find like Tungsten, Uranium and Plutonium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14716,7 +14716,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -14787,26 +14787,26 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:phobossecrock",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "GalaxySpace:phobosstone",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1
             },
             {
-              "id": "GalaxySpace:phobosrock",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -14859,20 +14859,20 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:deimossubgrunt",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "GalaxySpace:deimosgrunt",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16559,14 +16559,14 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:deimosgrunt",
+              "id": "GalaxySpace:deimosblocks",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1
             },
             {
               "id": "GalacticraftMars:tile.mars",
@@ -16575,10 +16575,10 @@
               "Damage": 4
             },
             {
-              "id": "GalaxySpace:phobosstone",
+              "id": "GalaxySpace:phobosblocks",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16642,7 +16642,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -16725,7 +16725,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -27276,7 +27276,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "GalaxySpace:item.ElectCrystall",
+        "id": "GalaxySpace:item.UnknowCrystal",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -27290,7 +27290,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.ElectCrystall",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -27305,7 +27305,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.ElectCrystall",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 32,
               "OreDict": "",
               "Damage": 0
@@ -27678,10 +27678,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "GalaxySpace:item.BlackPlutonium",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 11388
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27692,10 +27692,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.BlackPlutonium",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27707,10 +27707,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.BlackPlutonium",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27755,10 +27755,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.BlackPlutonium",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -33671,7 +33671,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:item.ElectCrystall",
+              "id": "GalaxySpace:item.UnknowCrystal",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -34340,10 +34340,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalaxySpace:plutoblackplutonium",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11388
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -41562,7 +41562,24 @@
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
+            "Size:3": 0,
             "Attributes:9": [
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
+              },
+              {
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
+              },
               {
                 "Base:6": -2.0,
                 "Name:8": "tc.mobmod"
@@ -41584,48 +41601,50 @@
                 "Name:8": "generic.followRange"
               },
               {
-                "Base:6": 2.0,
+                "Base:6": 4.0,
                 "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable:4": 0,
-            "PortalCooldown:4": 0,
-            "AbsorptionAmount:6": 0.0,
-            "FallDistance:6": 0.0,
-            "DeathTime:4": 0,
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
             "DropChances:9": [
-              0,
-              0,
-              0,
-              0,
-              0
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967
             ],
             "roomCoordsY:6": 0.0,
             "roomCoordsZ:6": 0.0,
-            "PersistenceRequired:4": 0,
-            "HealF:6": 600.0,
+            "PersistenceRequired:1": 0,
+            "HealF:5": 600.0,
             "id:8": "GalacticraftCore.EvolvedBossBlaze",
+            "Fuse:2": 30,
             "Motion:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Leashed:4": 0,
-            "UUIDLeast:4": 3139249885953614191,
-            "Health:4": 600,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -2265408451657568236,
+            "Health:2": 600,
             "roomCoordsX:6": 0.0,
-            "Air:4": 0,
-            "OnGround:4": 0,
-            "Dimension:4": 0,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "ignited:1": 0,
+            "Air:2": 0,
             "roomSizeZ:6": 0.0,
             "Rotation:9": [
-              0,
-              0
+              0.0,
+              0.0
             ],
             "roomSizeY:6": 0.0,
             "roomSizeX:6": 0.0,
             "CreatureInfusion:10": {
-              "PlayerInfusions:9": [
+              "PlayerInfusions:11": [
                 0,
                 0,
                 0,
@@ -41639,11 +41658,11 @@
                 0,
                 0
               ],
-              "tumorWarpTemp:4": 0,
+              "tumorWarpTemp:3": 0,
               "InfusionCosts:10": {
-                "Aspects:8": ""
+                "Aspects:9": []
               },
-              "Infusions:9": [
+              "Infusions:11": [
                 0,
                 0,
                 0,
@@ -41657,11 +41676,11 @@
                 0,
                 0
               ],
-              "toggleClimb:4": 0,
-              "toggleInvisible:4": 0,
-              "tumorWarp:4": 0,
-              "tumorWarpPermanent:4": 0,
-              "sitting:4": 0
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "tumorWarpPermanent:3": 0,
+              "sitting:1": 0
             },
             "Equipment:9": [
               {},
@@ -41670,18 +41689,19 @@
               {},
               {}
             ],
-            "UUIDMost:4": 31574278611849,
+            "UUIDMost:4": 24409945973051,
             "CustomName:8": "",
             "Pos:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Fire:4": 0,
-            "CanPickUpLoot:4": 0,
-            "HurtTime:4": 0,
-            "AttackTime:4": 0,
-            "CustomNameVisible:4": 0
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "ExplosionRadius:1": 3,
+            "CustomNameVisible:1": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -41871,8 +41891,8 @@
     },
     {
       "questID": 922,
-      "name": "Brain: Ev.. Wait, what?",
-      "description": "Seriously, a Brain? Anyways, it\u0027s your key to Tier 6 Planets, and he lurks around on Enceladus",
+      "name": "Crystal Boss: Ev.. Wait, what?",
+      "description": "Seriously, a Crystal Boss? Anyways, it\u0027s your key to Tier 6 Planets, and he lurks around on Enceladus",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41897,12 +41917,30 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "target": "GalacticraftCore.EvolvedBossCrystallBrain",
+          "target": "GalacticraftCore.EvolvedCrystalBoss",
           "required": 1,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
+            "ForgeData:10": {},
+            "Size:3": 0,
             "Attributes:9": [
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
+              },
+              {
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
+              },
               {
                 "Base:6": 600.0,
                 "Name:8": "generic.maxHealth"
@@ -41920,44 +41958,50 @@
                 "Name:8": "generic.followRange"
               }
             ],
-            "Invulnerable:4": 0,
-            "PortalCooldown:4": 0,
-            "AbsorptionAmount:6": 0.0,
-            "FallDistance:6": 0.0,
-            "DeathTime:4": 0,
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "SkeletonType:1": 0,
             "DropChances:9": [
-              0,
-              0,
-              0,
-              0,
-              0
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967
             ],
             "roomCoordsY:6": 0.0,
+            "carriedData:2": 0,
             "roomCoordsZ:6": 0.0,
-            "PersistenceRequired:4": 0,
-            "HealF:6": 600.0,
-            "id:8": "GalacticraftCore.EvolvedBossCrystallBrain",
+            "PersistenceRequired:1": 0,
+            "HealF:5": 600.0,
+            "id:8": "GalacticraftCore.EvolvedCrystalBoss",
+            "Fuse:2": 30,
+            "carried:2": 0,
+            "ConversionTime:3": -1,
             "Motion:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Leashed:4": 0,
-            "UUIDLeast:4": -8695602247100464947,
-            "Health:4": 600,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6796800124609087632,
+            "Health:2": 600,
             "roomCoordsX:6": 0.0,
-            "Air:4": 0,
-            "OnGround:4": 0,
-            "Dimension:4": 0,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "ignited:1": 0,
+            "Air:2": 0,
             "roomSizeZ:6": 0.0,
             "Rotation:9": [
-              0,
-              0
+              0.0,
+              0.0
             ],
             "roomSizeY:6": 0.0,
             "roomSizeX:6": 0.0,
             "CreatureInfusion:10": {
-              "PlayerInfusions:9": [
+              "PlayerInfusions:11": [
                 0,
                 0,
                 0,
@@ -41971,11 +42015,11 @@
                 0,
                 0
               ],
-              "tumorWarpTemp:4": 0,
+              "tumorWarpTemp:3": 0,
               "InfusionCosts:10": {
-                "Aspects:8": ""
+                "Aspects:9": []
               },
-              "Infusions:9": [
+              "Infusions:11": [
                 0,
                 0,
                 0,
@@ -41989,11 +42033,11 @@
                 0,
                 0
               ],
-              "toggleClimb:4": 0,
-              "toggleInvisible:4": 0,
-              "tumorWarp:4": 0,
-              "tumorWarpPermanent:4": 0,
-              "sitting:4": 0
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "tumorWarpPermanent:3": 0,
+              "sitting:1": 0
             },
             "Equipment:9": [
               {},
@@ -42002,18 +42046,20 @@
               {},
               {}
             ],
-            "UUIDMost:4": 31515761597583,
+            "UUIDMost:4": 24491145111402,
             "CustomName:8": "",
+            "CanBreakDoors:1": 0,
             "Pos:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Fire:4": 0,
-            "CanPickUpLoot:4": 0,
-            "HurtTime:4": 0,
-            "AttackTime:4": 0,
-            "CustomNameVisible:4": 0
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "ExplosionRadius:1": 3,
+            "CustomNameVisible:1": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -42198,8 +42244,8 @@
     },
     {
       "questID": 924,
-      "name": "Crab: Evolved",
-      "description": "The last frontier: A.. crab.. What did you expect, a super Boss? Heh. No.",
+      "name": "Wolf:Evolved",
+      "description": "The last frontier: A.. wolf.. What did you expect, a super Boss? Heh. No.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42216,7 +42262,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:spider_eye",
+        "id": "witchery:wolfhead",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -42224,18 +42270,35 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "target": "GalacticraftCore.EvolvedBossCrab",
+          "target": "GalacticraftCore.EvolvedBossWolf",
           "required": 1,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {
+            "ForgeData:10": {},
             "Attributes:9": [
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
+              },
+              {
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
+              },
               {
                 "Base:6": -2.0,
                 "Name:8": "tc.mobmod"
               },
               {
-                "Base:6": 300.0,
+                "Base:6": 350.0,
                 "Name:8": "generic.maxHealth"
               },
               {
@@ -42251,42 +42314,43 @@
                 "Name:8": "generic.followRange"
               },
               {
-                "Base:6": 3.0,
+                "Base:6": 5.0,
                 "Name:8": "generic.attackDamage"
               }
             ],
-            "Invulnerable:4": 0,
-            "PortalCooldown:4": 0,
-            "AbsorptionAmount:6": 0.0,
-            "FallDistance:6": 0.0,
-            "DeathTime:4": 0,
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
             "DropChances:9": [
-              0,
-              0,
-              0,
-              0,
-              0
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967
             ],
-            "PersistenceRequired:4": 0,
-            "HealF:6": 300.0,
-            "id:8": "GalacticraftCore.EvolvedBossCrab",
+            "PersistenceRequired:1": 0,
+            "HealF:5": 350.0,
+            "id:8": "GalacticraftCore.EvolvedBossWolf",
+            "ConversionTime:3": -1,
             "Motion:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Leashed:4": 0,
-            "UUIDLeast:4": -7408821166148249931,
-            "Health:4": 300,
-            "Air:4": 0,
-            "OnGround:4": 0,
-            "Dimension:4": 0,
+            "Leashed:1": 0,
+            "UUIDLeast:4": -514555328123248278,
+            "Health:2": 350,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "Air:2": 0,
             "Rotation:9": [
-              0,
-              0
+              0.0,
+              0.0
             ],
             "CreatureInfusion:10": {
-              "PlayerInfusions:9": [
+              "PlayerInfusions:11": [
                 0,
                 0,
                 0,
@@ -42300,11 +42364,11 @@
                 0,
                 0
               ],
-              "tumorWarpTemp:4": 0,
+              "tumorWarpTemp:3": 0,
               "InfusionCosts:10": {
-                "Aspects:8": ""
+                "Aspects:9": []
               },
-              "Infusions:9": [
+              "Infusions:11": [
                 0,
                 0,
                 0,
@@ -42318,11 +42382,11 @@
                 0,
                 0
               ],
-              "toggleClimb:4": 0,
-              "toggleInvisible:4": 0,
-              "tumorWarp:4": 0,
-              "tumorWarpPermanent:4": 0,
-              "sitting:4": 0
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "tumorWarpPermanent:3": 0,
+              "sitting:1": 0
             },
             "Equipment:9": [
               {},
@@ -42331,18 +42395,19 @@
               {},
               {}
             ],
-            "UUIDMost:4": 31452827876544,
+            "UUIDMost:4": 24669862148609,
             "CustomName:8": "",
+            "CanBreakDoors:1": 0,
             "Pos:9": [
-              0,
-              0,
-              0
+              0.0,
+              0.0,
+              0.0
             ],
-            "Fire:4": 0,
-            "CanPickUpLoot:4": 0,
-            "HurtTime:4": 0,
-            "AttackTime:4": 0,
-            "CustomNameVisible:4": 0
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "CustomNameVisible:1": 0
           },
           "taskID": "bq_standard:hunt"
         }
@@ -43368,177 +43433,177 @@
       "quests": [
         {
           "id": 176,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
           "id": 178,
-          "x": 152,
-          "y": 32
+          "x": 108,
+          "y": 36
         },
         {
           "id": 179,
-          "x": 96,
+          "x": 108,
           "y": 72
         },
         {
           "id": 180,
-          "x": 128,
+          "x": 144,
           "y": 72
         },
         {
           "id": 182,
-          "x": 160,
+          "x": 180,
           "y": 72
         },
         {
           "id": 181,
-          "x": 160,
-          "y": 112
+          "x": 180,
+          "y": 108
         },
         {
           "id": 183,
-          "x": 200,
-          "y": 32
+          "x": 216,
+          "y": 36
         },
         {
           "id": 184,
-          "x": 200,
+          "x": 216,
           "y": 72
         },
         {
           "id": 185,
-          "x": 128,
-          "y": 112
+          "x": 144,
+          "y": 108
         },
         {
           "id": 186,
-          "x": 64,
-          "y": 112
+          "x": 72,
+          "y": 108
         },
         {
           "id": 187,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 188,
-          "x": 96,
-          "y": 112
+          "x": 108,
+          "y": 108
         },
         {
           "id": 189,
-          "x": 224,
+          "x": 240,
           "y": 0
         },
         {
           "id": 190,
-          "x": 264,
+          "x": 276,
           "y": 0
         },
         {
           "id": 191,
-          "x": 264,
-          "y": 112
+          "x": 276,
+          "y": 108
         },
         {
           "id": 192,
-          "x": 344,
+          "x": 348,
           "y": 72
         },
         {
           "id": 193,
-          "x": 304,
+          "x": 300,
           "y": 72
         },
         {
           "id": 194,
-          "x": 392,
+          "x": 396,
           "y": 72
         },
         {
           "id": 195,
-          "x": 392,
+          "x": 396,
           "y": 0
         },
         {
           "id": 196,
-          "x": 344,
-          "y": 32
+          "x": 348,
+          "y": 36
         },
         {
           "id": 197,
-          "x": 344,
+          "x": 348,
           "y": 0
         },
         {
           "id": 198,
-          "x": 344,
-          "y": 112
+          "x": 348,
+          "y": 108
         },
         {
           "id": 199,
-          "x": 32,
-          "y": 176
+          "x": 36,
+          "y": 180
         },
         {
           "id": 200,
-          "x": 32,
-          "y": 208
+          "x": 36,
+          "y": 216
         },
         {
           "id": 201,
-          "x": 64,
-          "y": 208
+          "x": 72,
+          "y": 216
         },
         {
           "id": 202,
-          "x": 96,
-          "y": 208
+          "x": 108,
+          "y": 216
         },
         {
           "id": 203,
-          "x": 200,
-          "y": 112
+          "x": 216,
+          "y": 108
         },
         {
           "id": 204,
-          "x": 32,
-          "y": 112
+          "x": 36,
+          "y": 108
         },
         {
           "id": 205,
-          "x": 64,
+          "x": 72,
           "y": 144
         },
         {
           "id": 206,
-          "x": 96,
-          "y": 176
+          "x": 108,
+          "y": 180
         },
         {
           "id": 207,
-          "x": 304,
+          "x": 312,
           "y": 168
         },
         {
           "id": 209,
-          "x": 344,
+          "x": 348,
           "y": 168
         },
         {
           "id": 210,
-          "x": 304,
-          "y": 208
+          "x": 312,
+          "y": 204
         },
         {
           "id": 208,
-          "x": 264,
+          "x": 276,
           "y": 168
         },
         {
           "id": 211,
-          "x": 224,
+          "x": 240,
           "y": 168
         },
         {

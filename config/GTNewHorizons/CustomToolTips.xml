@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
-
+//Misc
 	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..."/>
 	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4Don't use above y-level 128"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device"/>
@@ -9,6 +9,10 @@
     <ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
+	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
+	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
+	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
 	
 //Buildcraft
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>

@@ -674,12 +674,4 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_bone");
 
 
 
-// --- Ordicted Stuff ---
-
-
-// --- Void Nuggets
-oreDict.nuggetVoidmetal.add(<Thaumcraft:ItemNugget:7>);
-
-
-
 // --- Hiding Stuff ---

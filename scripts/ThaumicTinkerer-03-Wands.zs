@@ -318,7 +318,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:135>.withTag
 [<dreamcraft:item.ChargedVoidWandCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
 
 // --- Ichorium Ardorned Ichorclothstapped Silverwooden Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:150>.withTag({cap: "void", rod: "ICHORCLOTH", sceptre: 1}), "aer 600, terra 600, ignis 600, aqua 600, ordo 600, perditio 600", [
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:150>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), "aer 600, terra 600, ignis 600, aqua 600, ordo 600, perditio 600", [
 [<dreamcraft:item.SnowQueenBlood>, <dreamcraft:item.IchoriumCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <dreamcraft:item.IchoriumCap>],
 [<dreamcraft:item.IchoriumCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);

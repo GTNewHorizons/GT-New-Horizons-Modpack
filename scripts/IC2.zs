@@ -815,7 +815,7 @@ recipes.addShaped(<IC2:blockGenerator:8>, [
 // --- Reactor Chamber
 recipes.addShaped(<IC2:blockReactorChamber>, [
 [<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>],
-[<ore:plateDenseLead>, <IC2:blockMachine:12>, <ore:plateDenseLead>],
+[<ore:plateDenseTitanium>, <IC2:blockMachine:12>, <ore:plateDenseTitanium>],
 [<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>]]);
 
 // --- Heat Conductor
@@ -996,7 +996,6 @@ recipes.addShapeless(<IC2:itemSteamTurbine>, [<Railcraft:part.turbine.rotor>]);
 recipes.addShaped(<IC2:itemSteamTurbine>, [
 [<IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>, <IC2:itemSteamTurbineBlade>],
 [null, Wrench, null]]);
-
 
 // --- Iron Furnace
 recipes.addShaped(IronFurnace, [
@@ -1328,9 +1327,9 @@ recipes.addShaped(<IC2:blockMachine2:12>, [
 
 // --- Advanced Miner
 recipes.addShaped(<IC2:blockMachine2:11>, [
-[<ore:circuitAdvanced>, <IC2:blockElectric:1>, <ore:circuitAdvanced>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:blockMachine:12>, <gregtech:gt.metaitem.01:32602>],
-[<gregtech:gt.metaitem.01:32652>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32652>]]);
+[<ore:circuitElite>, <IC2:blockElectric:2>, <ore:circuitElite>],
+[<gregtech:gt.metaitem.01:32604>, <IC2:blockMachine:12>, <gregtech:gt.metaitem.01:32604>],
+[<gregtech:gt.metaitem.01:32654>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32654>]]);
 
 // --- Tesla Coil
 recipes.addShaped(<IC2:blockMachine2:1>, [
@@ -1340,9 +1339,9 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 
 // --- Teleporter
 recipes.addShaped(<IC2:blockMachine2>, [
-[<gregtech:gt.metaitem.01:32671>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32671>],
-[<ore:circuitData>, <IC2:blockElectric:5>, <ore:circuitData>],
-[<gregtech:gt.metaitem.01:32602>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32602>]]);
+[<gregtech:gt.metaitem.01:32674>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32674>],
+[<ore:circuitMaster>, <IC2:blockElectric:5>, <ore:circuitMaster>],
+[<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
 
 // --- Magnetizer
 recipes.addShaped(<IC2:blockMachine:9>, [
@@ -1390,7 +1389,7 @@ recipes.addShaped(<IC2:blockGenerator:9>, [
 recipes.addShaped(<IC2:blockGenerator:5>, [
 [<ore:plateDenseLead>, <ore:circuitAdvanced>, <ore:plateDenseLead>],
 [<IC2:blockReactorChamber>, <IC2:blockReactorChamber>, <IC2:blockReactorChamber>],
-[<ore:plateDenseLead>, <ore:cableGt08Platinum>, <ore:plateDenseLead>]]);
+[<ore:plateDenseTitanium>, <ore:cableGt08Platinum>, <ore:plateDenseTitanium>]]);
 
 // --- Fluid Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:1>, [

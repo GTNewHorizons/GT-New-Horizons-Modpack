@@ -76,6 +76,7 @@ val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val IronPlate = <ore:plateAnyIron>;
 val SteelRing = <ore:ringSteel>;
+val StainlessGear = <ore:gearStainlessSteel>;
 val IronRod = <ore:stickAnyIron>;
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
@@ -670,7 +671,7 @@ recipes.addShaped(SpeedUp, [
 // --- Item Filter Upgrade
 recipes.addShaped(ItemFilterUp, [
 [RedAlloyPlate, IronBars, RedAlloyPlate],
-[IronBars, DiamondGear, IronBars],
+[IronBars, StainlessGear, IronBars],
 [RedAlloyPlate, IronBars, RedAlloyPlate]]);
 
 // --- Advanced Item Filter
@@ -1175,9 +1176,6 @@ Assembler.addRecipe(<ExtraUtilities:golden_lasso>, <minecraft:ender_eye>, <gregt
 // --- Portable Scanner
 Assembler.addRecipe(<ExtraUtilities:scanner>, <gregtech:gt.metaitem.01:32762>, <minecraft:ender_eye>, 600, 120);
 
-// --- Bedrockium Ingot
-Assembler.addRecipe(<ExtraUtilities:bedrockiumIngot>, <gregtech:gt.metaitem.01:11129>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ic2uumatter> * 1000, 2, 122880);
-
 // --- Compressed Cobblestone
 Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed>, <gregtech:gt.integrated_circuit:1> * 0, <minecraft:cobblestone> * 9, 100, 16);
 
@@ -1293,11 +1291,3 @@ ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:13>, <Extra
 
 // --- Double Compressed Sand
 ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:15>, <ExtraUtilities:cobblestone_compressed:14> * 9, 1);
-
-
-// --- Ordict Stuff ---
-
-
-
-// --- Precision Shears
-oreDict.craftingToolShears.add(<ExtraUtilities:shears:16>);

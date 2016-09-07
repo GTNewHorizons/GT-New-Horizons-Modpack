@@ -97,17 +97,14 @@ recipes.addShaped(<BiomesOPlenty:scytheDiamond>, [
 // --- Pile of Ash
 recipes.addShapeless(<gregtech:gt.metaitem.01:2816>, [<BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>, <BiomesOPlenty:misc:1>]);
 
-// --- Mahogony Wood Oredict
-oreDict.logWood.add(<BiomesOPlenty:logs4:3>);
-
 // --- Nerf Mahogony
 recipes.remove(<BiomesOPlenty:planks:14>);
 
 recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]); 
 
-// --- Barley Ordict
+// --- Barley
 recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
-oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
+
 
 
 // --- Assembler Recipes ---

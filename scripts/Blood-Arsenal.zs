@@ -390,13 +390,6 @@ mods.bloodmagic.Binding.addRecipe(<EnderIO:item.darkSteel_shears>, <BloodArsenal
 
 
 
-// --- Ordict support ---
-
-oreDict.ingotBloodInfusedIron.add(<BloodArsenal:blood_infused_iron>);
-
-oreDict.blockBloodInfusedIron.add(<BloodArsenal:blood_infused_iron_block>);
-
-
 
 
 // --- Centrifuge Recipes ---

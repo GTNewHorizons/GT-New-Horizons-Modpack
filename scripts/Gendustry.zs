@@ -13,6 +13,7 @@ import mods.gregtech.Assembler;
 // --- Variables ---
 
 
+
 val IndustrialApiary = <gendustry:IndustrialApiary>;
 val MutagenProducer = <gendustry:MutagenProducer>;
 val Mutatron = <gendustry:Mutatron>;
@@ -53,10 +54,16 @@ val AlGear = <ore:gearAluminium>;
 val SSteelGear = <ore:gearStainlessSteel>;
 val TitaniumGear = <ore:gearTitanium>;
 val PalladiumGear = <ore:gearPalladium>;
+val NaqudahAlloyGear = <ore:gearNaquadahAlloy>;
 val TitaniumSmallGear = <ore:gearGtSmallTitanium>;
 val PalladiumSmallGear = <ore:gearGtSmallPalladium>;
+val NaqudahAlloySmallGear = <ore:gearGtSmallNaquadahAlloy>;
+val OsmiumGear = <ore:gearOsmium>;
+val OsmiumSmallGear = <ore:gearGtSmallOsmium>;
+val OsmiumRotor = <ore:rotorOsmium>;
 
 val AlPlate = <ore:plateAluminium>;
+val PalladiumPlate = <ore:platePalladium>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
 val SSteelPlate = <ore:plateStainlessSteel>;
 val TitaniumPlate = <ore:plateTitanium>;
@@ -69,24 +76,35 @@ val CrystalChip = <dreamcraft:item.EngravedDiamondCrystalChip>;
 val TungstenSteelPlate = <ore:plateTungstenSteel>;
 val IronPlate = <ore:plateIron>;
 val CopperCasing = <IC2:itemCasing>;
+val IridiumAlloyCasing = <dreamcraft:item.IridiumAlloyItemCasing>;
 val NichromeCable = <ore:cableGt01Nichrome>;
+val VanadiumGalliumCable = <ore:cableGt01VanadiumGallium>;
 
 val DataCircuit = <ore:circuitData>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val EngineerProcessor = <appliedenergistics2:item.ItemMultiMaterial:24>;
+val NanoCircuits = <dreamcraft:item.NanoCircuit>;
 
 val TitaniumScrew = <ore:screwTitanium>;
+val OsmiumScrew = <ore:screwOsmium>;
+val HSSScrew = <ore:screwHSSS>;
 val TitaniumRod = <ore:stickTitanium>;
 val DiamondRod = <ore:stickDiamond>;
 val TinRod = <ore:stickTin>;
+val PalladiumRod = <ore:stickPalladium>;
 
 val RedAlloyDust = <ore:dustRedAlloy>;
 
 val EVPiston = <gregtech:gt.metaitem.01:32643>;
+val LuVPistons = <gregtech:gt.metaitem.01:32645>;
 val EVMotor = <gregtech:gt.metaitem.01:32603>;
+val IvMotor = <gregtech:gt.metaitem.01:32604>;
+val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val HVBuffer = <gregtech:gt.blockmachines:9233>;
 val EVRobotorArm = <gregtech:gt.metaitem.01:32653>;
-val IVRobotorArm = <gregtech:gt.metaitem.01:32654>;
+val IVRobotArm = <gregtech:gt.metaitem.01:32654>;
+val LuVRobotArm = <gregtech:gt.metaitem.01:32655>;
+val UVRobotorArm = <gregtech:gt.metaitem.01:32657>;
 
 val HHammer = <ore:craftingToolHardHammer>;
 val Scoop = <ore:craftingToolScoop>;
@@ -111,13 +129,15 @@ val Wax = <ore:itemBeeswax>;
 val Vines = <minecraft:vine>;
 val Netherrack = <minecraft:netherrack>;
 val SteelBars = <dreamcraft:item.SteelBars>;
+val OsmiumBars = <dreamcraft:item.OsmiumBars>;
 val TitaniumRotor = <gregtech:gt.metaitem.02:21028>;
 val Sugar = <minecraft:sugar>;
 val AdvBattery = <IC2:itemBatChargeAdv:26>;
 val Battery = <IC2:itemBatChargeRE:26>;
 val CrystalBattery = <IC2:itemBatChargeCrystal:26>;
-val Tank = <BuildCraft|Factory:tankBlock>;
+val DTank = <irontank:diamondTank>;
 val Coil = <IC2:itemRecipePart>;
+val ApicultureChest = <Forestry:apicultureChest>;
 
 
 
@@ -243,57 +263,57 @@ recipes.remove(<gendustry:ErrorSensorCover>);
 
 // --- Industrial Apiary
 recipes.addShaped(IndustrialApiary, [
-[TitaniumGear, BeeReceptacle, TitaniumGear],
+[TitaniumGear, ApicultureChest, TitaniumGear],
 [AlvearyFan, HardCasing, AlvearyHeater],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[TitaniumGear, IvMotor, TitaniumGear]]);
 
 // --- Mutatron
 recipes.addShaped(Mutatron, [
 [MutagenTank, GeneticsProcessor, MutagenTank],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Genetic Imprinter
 recipes.addShaped(GeneticImprinter, [
-[GeneticsProcessor, TitaniumGear, GeneticsProcessor],
+[GeneticsProcessor, OsmiumGear, GeneticsProcessor],
 [BeeReceptacle, HardCasing, BeeReceptacle],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Genetic Sampler
 recipes.addShaped(GeneticSampler, [
 [GeneticsProcessor, BeeReceptacle, GeneticsProcessor],
 [CrystalChip, HardCasing, CrystalChip],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Advanced Mutatron
 recipes.addShaped(AdvMutatron, [
-[IVRobotorArm, GeneticsProcessor, IVRobotorArm],
+[UVRobotorArm, GeneticsProcessor, UVRobotorArm],
 [GeneticsProcessor, Mutatron, GeneticsProcessor],
-[PalladiumGear, PowerModule, PalladiumGear]]);
+[NaqudahAlloyGear, PowerModule, NaqudahAlloyGear]]);
 
 // --- Protein Liquifier
 recipes.addShaped(Liquifier, [
-[TitaniumGear, Hopper, TitaniumGear],
-[EVPiston, HardCasing, EVPiston],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, Hopper, OsmiumGear],
+[LuVPistons, HardCasing, LuVPistons],
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- DNA Extractor
 recipes.addShaped(DNAExtractor, [
-[EVPiston, BeeReceptacle, EVPiston],
+[LuVPistons, BeeReceptacle, LuVPistons],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Genetic Transposer
 recipes.addShaped(Transposer, [
-[EVRobotorArm, TitaniumGear, EVRobotorArm],
+[LuVRobotArm, OsmiumGear, LuVRobotArm],
 [GeneticsProcessor, HardCasing, GeneticsProcessor],
-[TitaniumGear, PowerModule, TitaniumGear]]);
+[OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Genetic Replicator
 recipes.addShaped(Replicator, [
-[EVRobotorArm, GeneticsProcessor, EVRobotorArm],
+[LuVRobotArm, GeneticsProcessor, LuVRobotArm],
 [PowerModule, HardCasing, PowerModule],
-[TitaniumGear, GeneticsProcessor, TitaniumGear]]);
+[OsmiumGear, GeneticsProcessor, OsmiumGear]]);
 
 
 // --- Items ---
@@ -302,159 +322,159 @@ recipes.addShaped(Replicator, [
 
 // --- Bee Receptacle
 recipes.addShaped(BeeReceptacle, [
-[TitaniumScrew, Wrench, TitaniumScrew],
-[CopperCasing, SteelBars, CopperCasing],
-[TitaniumScrew, Screwdriver, TitaniumScrew]]);
+[HSSScrew, <gendustry:HoneyComb:701>, HSSScrew],
+[IridiumAlloyCasing, OsmiumBars, IridiumAlloyCasing],
+[HSSScrew, Screwdriver, HSSScrew]]);
 
 // --- Power Module
 recipes.addShaped(PowerModule, [
-[NichromeCable, CopperCasing, NichromeCable],
-[CopperCasing, AdvCircuit, CopperCasing],
-[TitaniumSmallGear, EVMotor, TitaniumSmallGear]]);
+[VanadiumGalliumCable, <gendustry:HoneyComb:702>, VanadiumGalliumCable],
+[IridiumAlloyCasing, NanoCircuits, IridiumAlloyCasing],
+[OsmiumSmallGear, LuVMotor, OsmiumSmallGear]]);
 
 // --- Plains Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:17>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Grass, UpFrame, Grass],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Light Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:11>, [
-[TitaniumSmallGear, GlowStoneGlass, TitaniumSmallGear],
+[PalladiumSmallGear, GlowStoneGlass, PalladiumSmallGear],
 [GlowStoneGlass, UpFrame, GlowStoneGlass],
-[TitaniumSmallGear, GlowStoneGlass, TitaniumSmallGear]]);
+[OsmiumSmallGear, GlowStoneGlass, OsmiumSmallGear]]);
 
 // --- Flowering Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:2>, [
-[TitaniumSmallGear, <minecraft:red_flower>, TitaniumSmallGear],
+[PalladiumSmallGear, <minecraft:red_flower>, PalladiumSmallGear],
 [<Botany:pollen:*>, UpFrame, <Botany:pollen:*>],
-[TitaniumSmallGear, <minecraft:yellow_flower>, TitaniumSmallGear]]);
+[OsmiumSmallGear, <minecraft:yellow_flower>, OsmiumSmallGear]]);
 
 // --- Winter Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:20>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Ice, UpFrame, Ice],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Dryer Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:5>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Sand, UpFrame, Sand],
-[TitaniumSmallGear, LavaBucket, TitaniumSmallGear]]);
+[OsmiumSmallGear, LavaBucket, OsmiumSmallGear]]);
 
 // --- Automation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:14>, [
-[TitaniumSmallGear, TitaniumGear, TitaniumSmallGear],
+[PalladiumSmallGear, TitaniumGear, PalladiumSmallGear],
 [<minecraft:redstone_torch>, UpFrame, <minecraft:redstone_torch>],
-[TitaniumSmallGear, EVPiston, TitaniumSmallGear]]);
+[OsmiumSmallGear, EVPiston, OsmiumSmallGear]]);
 
 // --- Humidifier Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:4>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Cactus, UpFrame, Cactus],
-[TitaniumSmallGear, WaterBucket, TitaniumSmallGear]]);
+[OsmiumSmallGear, WaterBucket, OsmiumSmallGear]]);
 
 // --- Hell Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:13>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [BlazeRod, UpFrame, GhatsTear],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Pollen Scrubber Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:22>, [
-[TitaniumSmallGear, SteelBars, TitaniumSmallGear],
+[PalladiumSmallGear, SteelBars, PalladiumSmallGear],
 [TitaniumRotor, UpFrame, TitaniumRotor],
-[TitaniumSmallGear, SteelBars, TitaniumSmallGear]]);
+[OsmiumSmallGear, SteelBars, OsmiumSmallGear]]);
 
 // --- Desert Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:16>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Sand, UpFrame, Sand],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Cooler Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:7>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Snow, UpFrame, Snow],
-[TitaniumSmallGear, Ice, TitaniumSmallGear]]);
+[OsmiumSmallGear, Ice, OsmiumSmallGear]]);
 
 // --- Live Spawn Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:1>, [
-[TitaniumSmallGear, <minecraft:fermented_spider_eye>, TitaniumSmallGear],
+[PalladiumSmallGear, <minecraft:fermented_spider_eye>, PalladiumSmallGear],
 [<BiomesOPlenty:jarFilled:1>, UpFrame, <BiomesOPlenty:jarFilled:1>],
-[TitaniumSmallGear, <minecraft:fermented_spider_eye>, TitaniumSmallGear]]);
+[OsmiumSmallGear, <minecraft:fermented_spider_eye>, OsmiumSmallGear]]);
 
 // --- Seal Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:10>, [
-[TitaniumSmallGear, Rubber, TitaniumSmallGear],
+[PalladiumSmallGear, Rubber, PalladiumSmallGear],
 [Wax, UpFrame, Wax],
-[TitaniumSmallGear, Rubber, TitaniumSmallGear]]);
+[OsmiumSmallGear, Rubber, OsmiumSmallGear]]);
 
 // --- Genteics Stabilizer Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:19>, [
-[TitaniumSmallGear, GeneticsProcessor, TitaniumSmallGear],
+[PalladiumSmallGear, GeneticsProcessor, PalladiumSmallGear],
 [RedAlloyPlate, UpFrame, RedAlloyPlate],
-[TitaniumSmallGear, GeneticsProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, GeneticsProcessor, OsmiumSmallGear]]);
 
 // --- Jungel Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:18>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Vines, UpFrame, Vines],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Territory Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:3>, [
-[TitaniumSmallGear, IronPlate, TitaniumSmallGear],
+[PalladiumSmallGear, IronPlate, PalladiumSmallGear],
 [EnderPearlPlate, UpFrame, EnderPearlPlate],
-[TitaniumSmallGear, IronPlate, TitaniumSmallGear]]);
+[OsmiumSmallGear, IronPlate, OsmiumSmallGear]]);
 
 // --- Ocean Emulation Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:21>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [WaterBucket, UpFrame, WaterBucket],
-[TitaniumSmallGear, EnviroProcessor, TitaniumSmallGear]]);
+[OsmiumSmallGear, EnviroProcessor, OsmiumSmallGear]]);
 
 // --- Open Sky Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:12>, [
-[TitaniumSmallGear, <ProjRed|Illumination:projectred.illumination.lamp:27>, TitaniumSmallGear],
+[PalladiumSmallGear, <ProjRed|Illumination:projectred.illumination.lamp:27>, PalladiumSmallGear],
 [ClearPane, UpFrame, ClearPane],
-[TitaniumSmallGear, ClearPane, TitaniumSmallGear]]);
+[OsmiumSmallGear, ClearPane, OsmiumSmallGear]]);
 
 // --- Heater Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:6>, [
-[TitaniumSmallGear, ClimateCtrl, TitaniumSmallGear],
+[PalladiumSmallGear, ClimateCtrl, PalladiumSmallGear],
 [Netherrack, UpFrame, Netherrack],
-[TitaniumSmallGear, LavaBucket, TitaniumSmallGear]]);
+[OsmiumSmallGear, LavaBucket, OsmiumSmallGear]]);
 
 // --- Sieve Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade:15>, [
-[TitaniumSmallGear, WovenSilk, TitaniumSmallGear],
+[PalladiumSmallGear, WovenSilk, PalladiumSmallGear],
 [SteelBars, UpFrame, SteelBars],
-[TitaniumSmallGear, WovenSilk, TitaniumSmallGear]]);
+[OsmiumSmallGear, WovenSilk, OsmiumSmallGear]]);
 
 // --- Production Upgrade
 recipes.addShaped(<gendustry:ApiaryUpgrade>, [
-[TitaniumSmallGear, Sugar, TitaniumSmallGear],
+[PalladiumSmallGear, Sugar, PalladiumSmallGear],
 [RoyalJelly, UpFrame, RoyalJelly],
-[TitaniumSmallGear, Sugar, TitaniumSmallGear]]);
+[OsmiumSmallGear, Sugar, OsmiumSmallGear]]);
 
 // --- Industrial Grafter
 recipes.addShaped(<gendustry:IndustrialGrafter:100>, [
-[TitaniumScrew, Grafter, TitaniumScrew],
-[TitaniumSmallGear, PowerModule, TitaniumSmallGear],
-[TitaniumPlate, <ore:batteryBasic>, TitaniumPlate]]);
+[OsmiumScrew, Grafter, OsmiumScrew],
+[OsmiumSmallGear, PowerModule, OsmiumSmallGear],
+[PalladiumPlate, <ore:batteryBasic>, PalladiumPlate]]);
 
 // --- Industrial Scoop
 recipes.addShaped(<gendustry:IndustrialScoop:100>, [
-[TitaniumScrew, Scoop, TitaniumScrew],
-[TitaniumSmallGear, PowerModule, TitaniumSmallGear],
-[TitaniumPlate, <ore:batteryBasic>, TitaniumPlate]]);
+[OsmiumScrew, Scoop, OsmiumScrew],
+[OsmiumSmallGear, PowerModule, OsmiumSmallGear],
+[PalladiumPlate, <ore:batteryBasic>, PalladiumPlate]]);
 
 // --- Climate Control Module
 recipes.addShaped(<gendustry:ClimateModule>, [
-[CopperCasing, Coil, CopperCasing],
-[TitaniumRod, TitaniumRotor, TitaniumRod],
-[CopperCasing, EVMotor, CopperCasing]]);
+[<gendustry:HoneyComb:610>, Coil, <gendustry:HoneyComb:700>],
+[PalladiumRod, OsmiumRotor, PalladiumRod],
+[IridiumAlloyCasing, LuVMotor, IridiumAlloyCasing]]);
 
 // --- Blank Gene Sample
 furnace.addRecipe(<gendustry:GeneSampleBlank>, <gendustry:GeneSample>);
@@ -462,13 +482,6 @@ furnace.addRecipe(<gendustry:GeneSampleBlank>, <gendustry:GeneSample>);
 // --- Gene Template
 furnace.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneTemplate>);
 
-
-// --- Ordicted ---
-
-
-
-// --- Gendutry Bee Combs
-oreDict.beeComb.add(<gendustry:HoneyComb:*>);
 
 
 
@@ -478,35 +491,34 @@ oreDict.beeComb.add(<gendustry:HoneyComb:*>);
 
 
 // --- Genetics Labware
-Assembler.addRecipe(Labware * 2, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:28305>, <liquid:molten.glass> * 576, 100, 480);
+Assembler.addRecipe(Labware * 2, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:28305>, <liquid:molten.glass> * 576, 200, 1920);
 
 // --- Blank Gene Sample
-Assembler.addRecipe(BlankGene, <gregtech:gt.metaitem.01:17057> * 4, <gregtech:gt.metaitem.01:2308>, <liquid:molten.glass> * 144, 50, 480);
+Assembler.addRecipe(BlankGene, <gregtech:gt.metaitem.01:17057> * 4, <gregtech:gt.metaitem.01:2308>, <liquid:molten.glass> * 144, 100, 1920);
 
 // --- Genetic Tamplate
-Assembler.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneSampleBlank> * 4, <gregtech:gt.metaitem.01:17500>, <liquid:molten.redstone> * 576, 200, 480);
+Assembler.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneSampleBlank> * 4, <gregtech:gt.metaitem.01:17500>, <liquid:molten.redstone> * 576, 400, 1920);
 
 // --- Mutagen Tank
-Assembler.addRecipe(MutagenTank, Tank, <gregtech:gt.metaitem.01:17089>, 150, 480);
+Assembler.addRecipe(MutagenTank, DTank, <gregtech:gt.metaitem.01:18052>, 300, 1920);
 
 // --- Genetics Processor
-Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 480);
+Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 1920);
 
 // --- Environmental Processor
-Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 480);
+Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 1920);
 
 // --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <Forestry:frameUntreated>, <IC2:itemPartCircuitAdv>, 100, 480);
+Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <dreamcraft:item.HighEnergyFlowCircuit>, 400, 1920);
 
 // --- Item Ijector Cover
-Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17028>, <IC2:upgradeModule:3>, 100, 480);
+Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 1920);
 
 // --- Item Import Cover
-Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17028>, <IC2:upgradeModule:6>, 100, 480);
+Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:6>, 200, 1920);
 
 // --- Error Sensor Cover
-Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17028>, <IC2:upgradeModule:5>, 100, 480);
-
+Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:5>, 200, 1920);
 
 
 
