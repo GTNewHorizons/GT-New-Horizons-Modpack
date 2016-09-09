@@ -59,17 +59,17 @@ public class GT_Loader_Machines
 		CustomItemList.Generator_Plasma_UV.set(new GT_MetaTileEntity_PlasmaGenerator(
 				10753, "basicgenerator.plasmagenerator.tier.09", "Pocket Sun", 8).getStackForm(1L));
 
-		CustomItemList.Generator_Plasma_UHV.set(new GT_MetaTileEntity_PlasmaGenerator(
-				10754, "basicgenerator.plasmagenerator.tier.10", "Pocket Sun", 9).getStackForm(1L));
+		//CustomItemList.Generator_Plasma_UHV.set(new GT_MetaTileEntity_PlasmaGenerator(
+		//		10754, "basicgenerator.plasmagenerator.tier.10", "Pocket Sun", 9).getStackForm(1L));
 
-		CustomItemList.Generator_Plasma_UEV.set(new GT_MetaTileEntity_PlasmaGenerator(
-				10755, "basicgenerator.plasmagenerator.tier.11", "Pocket Sun",10).getStackForm(1L));
+		//CustomItemList.Generator_Plasma_UEV.set(new GT_MetaTileEntity_PlasmaGenerator(
+		//		10755, "basicgenerator.plasmagenerator.tier.11", "Pocket Sun",10).getStackForm(1L));
 
-		CustomItemList.Generator_Plasma_UIV.set(new GT_MetaTileEntity_PlasmaGenerator(
-				10756, "basicgenerator.plasmagenerator.tier.12", "Pocket Sun",11).getStackForm(1L));
+		//CustomItemList.Generator_Plasma_UIV.set(new GT_MetaTileEntity_PlasmaGenerator(
+		//		10756, "basicgenerator.plasmagenerator.tier.12", "Pocket Sun",11).getStackForm(1L));
 
-		CustomItemList.Generator_Plasma_UMV.set(new GT_MetaTileEntity_PlasmaGenerator(
-				10757, "basicgenerator.plasmagenerator.tier.13", "Pocket Sun",12).getStackForm(1L));
+		//CustomItemList.Generator_Plasma_UMV.set(new GT_MetaTileEntity_PlasmaGenerator(
+		//		10757, "basicgenerator.plasmagenerator.tier.13", "Pocket Sun",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Generator_Plasma_ZPMV.get(1L, new Object[0]), 
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
