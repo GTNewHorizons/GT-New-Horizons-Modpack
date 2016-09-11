@@ -30,7 +30,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("ingotColdCallistoIce", com.dreammaster.item.ItemList.CallistoIceColdIngot.getIS());
         GT_OreDictUnificator.registerOre("blockCallistoIce", GT_ModHandler.getModItem("dreamcraft", "tile.CallistoColdIce", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.CallistoIce, com.dreammaster.item.ItemList.CallistoIceDust.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.CallistoIce, com.dreammaster.item.ItemList.CallistoIcePlate.getIS());
+        GT_OreDictUnificator.registerOre("plateColdCallistoIce", com.dreammaster.item.ItemList.CallistoIcePlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.CallistoIce, com.dreammaster.item.ItemList.CallistoIceDensePlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.CallistoIce, com.dreammaster.item.ItemList.CallistoIceCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Ledox, com.dreammaster.item.ItemList.LedoxIngot.getIS());
