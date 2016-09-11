@@ -877,31 +877,31 @@ recipes.addShaped(<IC2:itemToolMiningLaser:26>, [
 [<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
 
 // --- Bat Pack
-recipes.addShaped(<IC2:itemArmorBatpack:27>, [
+recipes.addShaped(<IC2:itemArmorBatpack:26>, [
 [<IC2:itemBatREDischarged>, <ore:circuitBasic>, <IC2:itemBatREDischarged>],
 [<IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>],
 [<IC2:itemBatREDischarged>, <ore:wireGt02Tin>, <IC2:itemBatREDischarged>]]);
 
 // --- Advanced Batpack
-recipes.addShaped(<IC2:itemArmorAdvBatpack:27>, [
+recipes.addShaped(<IC2:itemArmorAdvBatpack:26>, [
 [<IC2:itemAdvBat:*>, <ore:circuitGood>, <IC2:itemAdvBat:*>],
 [<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:*>, <IC2:itemAdvBat:*>],
 [<IC2:itemAdvBat:*>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:*>]]);
 
 // --- Energy Pack
-recipes.addShaped(<IC2:itemArmorEnergypack:27>, [
+recipes.addShaped(<IC2:itemArmorEnergypack:26>, [
 [<ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>],
 [<ore:batteryElite>, <IC2:itemArmorAdvBatpack:*>, <ore:batteryElite>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Electric Jetpack
-recipes.addShaped(<IC2:itemArmorJetpackElectric:27>, [
+recipes.addShaped(<IC2:itemArmorJetpackElectric:26>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:*>, <gregtech:gt.metaitem.01:32602>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Biogas Jetpack
-recipes.addShaped(<IC2:itemArmorJetpack:27>, [
+recipes.addShaped(<IC2:itemArmorJetpack:26>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<BuildCraft|Factory:tankBlock>, <IC2:reactorCoolantSix:1>, <BuildCraft|Factory:tankBlock>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
@@ -1646,28 +1646,28 @@ Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.solderingalloy> * 72, 600, 30);
 
 // --- Nano Suit Boots
-Assembler.addRecipe(<IC2:itemArmorNanoBoots:27>, <dreamcraft:item.CarbonPartBoots>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
+Assembler.addRecipe(<IC2:itemArmorNanoBoots:26>, <dreamcraft:item.CarbonPartBoots>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
 
 // --- Nano Suit Chestplate
-Assembler.addRecipe(<IC2:itemArmorNanoChestplate:27>, <dreamcraft:item.CarbonPartChestplate>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
+Assembler.addRecipe(<IC2:itemArmorNanoChestplate:26>, <dreamcraft:item.CarbonPartChestplate>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
 
 // --- Nano Suit Helmet
-Assembler.addRecipe(<IC2:itemArmorNanoHelmet:27>, <dreamcraft:item.CarbonPartHelmetNightVision>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
+Assembler.addRecipe(<IC2:itemArmorNanoHelmet:26>, <dreamcraft:item.CarbonPartHelmetNightVision>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
 
 // --- Nano Suit Leggings
-Assembler.addRecipe(<IC2:itemArmorNanoLegs:27>, <dreamcraft:item.CarbonPartLeggings>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
+Assembler.addRecipe(<IC2:itemArmorNanoLegs:26>, <dreamcraft:item.CarbonPartLeggings>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
 
 // --- Quantum Suit Boots
-Assembler.addRecipe(<IC2:itemArmorQuantumBoots:27>, <dreamcraft:item.QuantumPartBoots>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
+Assembler.addRecipe(<IC2:itemArmorQuantumBoots:26>, <dreamcraft:item.QuantumPartBoots>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
 
 // --- Quantum Suit Chestplate
-Assembler.addRecipe(<IC2:itemArmorQuantumChestplate:27>, <dreamcraft:item.QuantumPartChestplate>, <dreamcraft:item.QuantumCrystal>,<liquid:molten.glowstone> * 288, 1500, 4096);
+Assembler.addRecipe(<IC2:itemArmorQuantumChestplate:26>, <dreamcraft:item.QuantumPartChestplate>, <dreamcraft:item.QuantumCrystal>,<liquid:molten.glowstone> * 288, 1500, 4096);
 
 // --- Quantum Suit Helmet
-Assembler.addRecipe(<IC2:itemArmorQuantumHelmet:27>, <dreamcraft:item.QuantumPartHelmet>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
+Assembler.addRecipe(<IC2:itemArmorQuantumHelmet:26>, <dreamcraft:item.QuantumPartHelmet>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
 
 // --- Quantum Suit Leggings
-Assembler.addRecipe(<IC2:itemArmorQuantumLegs:27>, <dreamcraft:item.QuantumPartLeggings>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
+Assembler.addRecipe(<IC2:itemArmorQuantumLegs:26>, <dreamcraft:item.QuantumPartLeggings>, <dreamcraft:item.QuantumCrystal>, <liquid:molten.glowstone> * 288, 1500, 4096);
 
 // --- Containment Box
 Assembler.addRecipe(<IC2:itemContainmentbox>, <minecraft:chest>, <IC2:itemCasing:6> * 8, 300, 120);
@@ -1851,7 +1851,7 @@ FluidCanner.addRecipe(<IC2:itemMugCoffee:2>, <IC2:itemMugEmpty>, null, <liquid:p
 FluidCanner.addRecipe(<IC2:itemFoamSprayer>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 8000}}), <IC2:itemFoamSprayer>, null, <liquid:ic2constructionfoam> * 8000);
 
 // --- CF Back Pack
-FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 80000}}), <IC2:itemArmorCFPack:27>, null, <liquid:ic2constructionfoam> * 80000);
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 80000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 80000);
 
 // --- 10k Cooling Cell
 FluidCanner.addRecipe(<IC2:reactorCoolantSimple:1>, <dreamcraft:item.TenKCell>, null, <liquid:ic2coolant> * 1000);
