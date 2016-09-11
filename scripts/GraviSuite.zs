@@ -84,18 +84,18 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 // --- Cooling Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_NaK_Coolantcell>, <ore:plateAlloyIridium>, <gregtech:gt.180k_NaK_Coolantcell>],
+[<gregtech:gt.180k_NaK_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_NaK_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 // -
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_Helium_Coolantcell>, <ore:plateAlloyIridium>, <gregtech:gt.180k_Helium_Coolantcell>],
+[<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_Helium_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 
 // --- Gravitation Engine
 recipes.addShaped(<GraviSuite:itemSimpleItem:3>, [
 [<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>],
-[<GraviSuite:itemSimpleItem:2>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:2>],
+[<GraviSuite:itemSimpleItem:2>, <gregtech:gt.blockmachines:25>, <GraviSuite:itemSimpleItem:2>],
 [<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>]]);
  
 // --- Magnetron
@@ -125,7 +125,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 // --- Gravi Chest
 recipes.addShaped(<GraviSuite:graviChestPlate:27>, [
 [<GraviSuite:itemSimpleItem:1>, <IC2:itemArmorQuantumChestplate:*>, <GraviSuite:itemSimpleItem:1>],
-[<GraviSuite:itemSimpleItem:3>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:3>],
+[<GraviSuite:itemSimpleItem:3>, <gregtech:gt.blockmachines:26>, <GraviSuite:itemSimpleItem:3>],
 [<GraviSuite:itemSimpleItem:1>, <GraviSuite:ultimateLappack:*>, <GraviSuite:itemSimpleItem:1>]]);
  
 // --- Advanced Nano Chest

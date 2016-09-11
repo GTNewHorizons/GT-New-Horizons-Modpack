@@ -1154,7 +1154,7 @@ recipes.addShaped(<IC2:itemBatChargeRE:26>, [
 [<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
 
 // --- Night Vision Goggle
-recipes.addShaped(<IC2:itemNightvisionGoggles:27>, [
+recipes.addShaped(<IC2:itemNightvisionGoggles:26>, [
 [<IC2:reactorHeatSwitchDiamond:1>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond:1>],
 [<ore:ringStainlessSteel>, <ore:boltStainlessSteel>, <ore:ringStainlessSteel>],
 [<GalacticraftCore:item.sensorLens>,  <ore:craftingToolScrewdriver>, <GalacticraftCore:item.sensorLens>]]);
