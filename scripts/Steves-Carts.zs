@@ -1,6 +1,6 @@
 // --- Created by DreamMasterXXL ---
 
-// --- for GT New Horizons ModPack 1.0.7.3
+// --- for GT New Horizons ModPack
 
 // --- Steve's Carts Version 2.0.0.b18
 
@@ -97,6 +97,7 @@ val IronFurnace = <ore:craftingIronFurnace>;
 val LVMotor = <gregtech:gt.metaitem.01:32600>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
 val HvMotor = <gregtech:gt.metaitem.01:32602>;
+val EvMotor = <gregtech:gt.metaitem.01:32603>;
 val LVPiston = <gregtech:gt.metaitem.01:32640>;
 val MVPiston = <gregtech:gt.metaitem.01:32641>;
 val LPBoiler = <Railcraft:machine.beta:3>;
@@ -961,19 +962,19 @@ recipes.addShaped(<StevesCarts:CartModule:84>, [
 recipes.addShaped(<StevesCarts:CartModule:15>, [
 [SawBlade, SawBlade, SawBlade],
 [SawBlade, WoodCore, SawBlade],
-[PCB, LVMotor, PCB]]);
+[PCB, MVMotor, PCB]]);
 
 // --- Hardened Wooden Cutter 
 recipes.addShaped(<StevesCarts:CartModule:79>, [
 [HSawBlade, HSawBlade, HSawBlade],
 [HSawBlade, <StevesCarts:CartModule:15>, HSawBlade],
-[AdvPCB, MVMotor, AdvPCB]]);
+[AdvPCB, HvMotor, AdvPCB]]);
 
 // --- Galgadorian Wooden Cutter 
 recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, GSawBlade, GSawBlade],
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
-[MasterCircuit, HvMotor, MasterCircuit]]);
+[MasterCircuit, EvMotor, MasterCircuit]]);
 
 // --- Tank Pane
 recipes.addShaped(<StevesCarts:ModuleComponents:61> * 2, [
@@ -1474,23 +1475,23 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:36>, <StevesCarts:ModuleCompon
 Assembler.addRecipe(<StevesCarts:ModuleComponents:39>, <StevesCarts:ModuleComponents:38> * 4, PCB, 640, 30);
 
 // --- Wood Core
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings1 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings1 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings2 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings2 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings3 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings3 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings4 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings4 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings5 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings5 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings6 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings6 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings7 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings7 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings8 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings8 * 8, 300, 30);
 // -
-Assembler.addRecipe(WoodCore, AdvPCB, Saplings9 * 8, 300, 30);
+Assembler.addRecipe(WoodCore, PCB, Saplings9 * 8, 300, 30);
 
 // --- Large Tank Pane
 Assembler.addRecipe(<StevesCarts:ModuleComponents:62>, <StevesCarts:ModuleComponents:61> * 4, <gregtech:gt.integrated_circuit:4> * 0, <liquid:molten.rubber> * 36, 160, 8);
