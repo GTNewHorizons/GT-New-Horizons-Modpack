@@ -962,19 +962,19 @@ recipes.addShaped(<StevesCarts:CartModule:84>, [
 recipes.addShaped(<StevesCarts:CartModule:15>, [
 [SawBlade, SawBlade, SawBlade],
 [SawBlade, WoodCore, SawBlade],
-[PCB, MVMotor, PCB]]);
+[PCB, LVMotor, PCB]]);
 
 // --- Hardened Wooden Cutter 
 recipes.addShaped(<StevesCarts:CartModule:79>, [
 [HSawBlade, HSawBlade, HSawBlade],
 [HSawBlade, <StevesCarts:CartModule:15>, HSawBlade],
-[AdvPCB, HvMotor, AdvPCB]]);
+[AdvPCB, MVMotor, AdvPCB]]);
 
 // --- Galgadorian Wooden Cutter 
 recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, GSawBlade, GSawBlade],
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
-[MasterCircuit, EvMotor, MasterCircuit]]);
+[MasterCircuit, HvMotor, MasterCircuit]]);
 
 // --- Tank Pane
 recipes.addShaped(<StevesCarts:ModuleComponents:61> * 2, [
