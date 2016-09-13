@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.gthandler.transformers.GT_MetaTileEntity_WetTransformer;
 import gregtech.GT_Mod;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.metatileentity.implementations.*;
@@ -2533,27 +2534,27 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// Transformer
 		// ===================================================================================================
-		CustomItemList.Transformer_UHV_UEV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_UEV_UHV.set(new GT_MetaTileEntity_Transformer(
 				11220, "transformer.tier.09", "Highly Ultimate Transformer", 9,
 				"UEV -> UHV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		CustomItemList.Transformer_UEV_UIV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_UIV_UEV.set(new GT_MetaTileEntity_Transformer(
 				11221, "transformer.tier.10", "Extremely Ultimate Transformer",10,
 				"UIV -> UEV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		CustomItemList.Transformer_UIV_UMV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_UMV_UIV.set(new GT_MetaTileEntity_Transformer(
 				11222, "transformer.tier.11", "Insanely Ultimate Transformer",11,
 				"UMV -> UIV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		CustomItemList.Transformer_UMV_UXV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_UXV_UMV.set(new GT_MetaTileEntity_Transformer(
 				11223, "transformer.tier.12", "Mega Ultimate Transformer",12,
 				"UXV -> UMV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		CustomItemList.Transformer_UXV_OPV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_OPV_UXV.set(new GT_MetaTileEntity_Transformer(
 				11224, "transformer.tier.13", "Extended Mega Ultimate Transformer",13,
 				"OPV -> UXV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		CustomItemList.Transformer_OPV_MAXV.set(new GT_MetaTileEntity_Transformer(
+		CustomItemList.Transformer_MAXV_OPV.set(new GT_MetaTileEntity_Transformer(
 				11225, "transformer.tier.14", "Overpowered Transformer",14,
 				"MAX -> OPV (Use Soft Hammer to invert)").getStackForm(1L));
 
@@ -2780,6 +2781,79 @@ public class GT_Loader_Machines
 		makeWires(Materials.Oriharukon, 11390, bEC ? 4L : 16L, bEC ? 16L : 32L, 1L, gregtech.api.enums.GT_Values.V[14], false, false);
 		makeWires(Materials.Infinity, 11410, 1L, 1L, 16L, gregtech.api.enums.GT_Values.V[15], false, true);
 
+		/** ID SPACE RESERVED: to 11800, FOR WIRES **/
+
+
+		// ===================================================================================================
+		// Wet Transformers
+		// ===================================================================================================
+		CustomItemList.WetTransformer_LV_ULV.set(new GT_MetaTileEntity_WetTransformer(
+				12000, "wettransformer.tier.00", "Ultra Low Voltage Power Transformer", 0,
+				"LV -> ULV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_MV_LV.set(new GT_MetaTileEntity_WetTransformer(
+				12001, "wetransformer.tier.01", "Low Voltage Power Transformer", 1,
+				"MV -> LV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_HV_MV.set(new GT_MetaTileEntity_WetTransformer(
+				12002, "wettransformer.tier.02", "Medium Voltage Power Transformer", 2,
+				"HV -> MV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_EV_HV.set(new GT_MetaTileEntity_WetTransformer(
+				12003, "wettransformer.tier.03", "High Voltage Power Transformer", 3,
+				"EV -> HV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_IV_EV.set(new GT_MetaTileEntity_WetTransformer(
+				12004, "wettransformer.tier.04", "Extreme Power Transformer", 4,
+				"IV -> EV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_LuV_IV.set(new GT_MetaTileEntity_WetTransformer(
+				12005, "wettransformer.tier.05", "Insane Power Transformer", 5,
+				"LuV -> IV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_ZPM_LuV.set(new GT_MetaTileEntity_WetTransformer(
+				12006, "wettransformer.tier.06", "Ludicrous Power Transformer", 6,
+				"ZPM -> LuV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UV_ZPM.set(new GT_MetaTileEntity_WetTransformer(
+				12007, "wettransformer.tier.07", "ZPM Voltage Power Transformer", 7,
+				"UV -> ZPM (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UHV_UV.set(new GT_MetaTileEntity_WetTransformer(
+				12008, "wettransformer.tier.08", "Ultimate Power Transformer", 8,
+				"UHV -> UV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UEV_UHV.set(new GT_MetaTileEntity_WetTransformer(
+				12009, "wettransformer.tier.09", "Highly Ultimate Power Transformer", 9,
+				"UEV -> UHV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UIV_UEV.set(new GT_MetaTileEntity_WetTransformer(
+				12010, "wettransformer.tier.10", "Extremely Ultimate Power Transformer",10,
+				"UIV -> UEV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UMV_UIV.set(new GT_MetaTileEntity_WetTransformer(
+				12011, "wettransformer.tier.11", "Insanely Ultimate Power Transformer",11,
+				"UMV -> UIV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_UXV_UMV.set(new GT_MetaTileEntity_WetTransformer(
+				12012, "wettransformer.tier.12", "Mega Ultimate Power Transformer",12,
+				"UXV -> UMV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_OPV_UXV.set(new GT_MetaTileEntity_WetTransformer(
+				12013, "wettransformer.tier.13", "Extended Mega Ultimate Power Transformer",13,
+				"OPV -> UXV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		CustomItemList.WetTransformer_MAXV_OPV.set(new GT_MetaTileEntity_WetTransformer(
+				12014, "wettransformer.tier.14", "Overpowered Power Transformer",14,
+				"MAX -> OPV (Use Soft Hammer to invert)").getStackForm(1L));
+
+		//TODO: Crafting recipes,
+		//TODO: Add Mineral Oil, distill of fuel/light fuel/heavy fuel - into mineral oil, doable at tier 1 cheap fast
+		//Crafting like -transformers- but use 2x thicker wires and a cell of mineral oil on the right middle slot
+		//						     and Coils in the last 2 free slots on left (using the higher tier wire material)
+		//						     just look at the current transformer recipes
+
+		//                           You can also replace the middle part with the cheap transformer equivalent
 
 	/**
      * A List of all registered MetaTileEntities

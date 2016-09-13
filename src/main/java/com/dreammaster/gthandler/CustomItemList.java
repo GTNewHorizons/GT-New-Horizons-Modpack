@@ -21,7 +21,8 @@ public enum CustomItemList implements IItemContainer
 	Battery_Buffer_3by3_UEV, Battery_Buffer_3by3_UIV, Battery_Buffer_3by3_UMV, Battery_Buffer_3by3_UXV, Battery_Buffer_3by3_OPV, Battery_Buffer_3by3_MAXV,
 	Battery_Buffer_4by4_UEV, Battery_Buffer_4by4_UIV, Battery_Buffer_4by4_UMV, Battery_Buffer_4by4_UXV, Battery_Buffer_4by4_OPV, Battery_Buffer_4by4_MAXV,
 	Hull_UEV, Hull_UIV, Hull_UMV, Hull_UXV, Hull_OPV, Hull_MAXV,//since Hull_MAX is in gt
-	Transformer_UHV_UEV, Transformer_UEV_UIV, Transformer_UIV_UMV, Transformer_UMV_UXV, Transformer_UXV_OPV, Transformer_OPV_MAXV,
+	Transformer_UEV_UHV, Transformer_UIV_UEV, Transformer_UMV_UIV, Transformer_UXV_UMV, Transformer_OPV_UXV, Transformer_MAXV_OPV,
+	WetTransformer_LV_ULV, WetTransformer_MV_LV, WetTransformer_HV_MV, WetTransformer_EV_HV, WetTransformer_IV_EV, WetTransformer_LuV_IV, WetTransformer_ZPM_LuV, WetTransformer_UV_ZPM, WetTransformer_UHV_UV, WetTransformer_UEV_UHV, WetTransformer_UIV_UEV, WetTransformer_UMV_UIV, WetTransformer_UXV_UMV, WetTransformer_OPV_UXV, WetTransformer_MAXV_OPV,
 
 	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV, BatteryHull_UHV, BatteryHull_UEV, BatteryHull_UIV, BatteryHull_UMV, BatteryHull_UxV,
 	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full, BatteryHull_UHV_Full, BatteryHull_UEV_Full, BatteryHull_UIV_Full, BatteryHull_UMV_Full, BatteryHull_UxV_Full,
