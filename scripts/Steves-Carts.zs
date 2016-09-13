@@ -720,6 +720,8 @@ recipes.remove(<StevesCarts:CartModule:94>);
 // --- Cake Server
 recipes.remove(<StevesCarts:CartModule:99>);
 
+// --- Wood Core
+recipes.remove(WoodCore);
 
 
 
@@ -1380,6 +1382,12 @@ recipes.addShaped(<StevesCarts:CartModule:89>, [
 [MvSensor, RedstonePlate, MvSensor],
 [AdvPCB, WoodCore, AdvPCB],
 [IronPlate, RedstonePlate, IronPlate]]);
+
+// --- Wood Core
+recipes.addShaped(WoodCore, [
+[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>],
+[<ore:treeSapling>, PCB, <ore:treeSapling>],
+[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]]);
 
 // --- Information Provider
 recipes.addShaped(<StevesCarts:CartModule:94>, [
