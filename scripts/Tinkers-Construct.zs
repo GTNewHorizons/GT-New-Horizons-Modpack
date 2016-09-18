@@ -1295,12 +1295,6 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldLeggings>, <liquid:stee
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldBoots>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 
-// --- Tinkers Cobalt
-mods.tconstruct.Smeltery.addMelting(<TConstruct:SearedBrick:1>, <liquid:cobalt.molten> * 144, 800, <TConstruct:MetalBlock>);
-
-// --- Tinkers Ardite
-mods.tconstruct.Smeltery.addMelting(<TConstruct:SearedBrick:2>, <liquid:ardite.molten> * 144, 800, <TConstruct:MetalBlock:1>);
-
 // --- Glue ---
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2880>, <liquid:glue> * 144, 250, <TConstruct:GlueBlock>);
 // -
