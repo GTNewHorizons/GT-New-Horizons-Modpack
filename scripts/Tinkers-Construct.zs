@@ -464,6 +464,18 @@ recipes.remove(<TConstruct:LavaTank:2>);
 // -
 recipes.remove(<TConstruct:LavaTankNether:2>);
 
+// --- Tin Oreberrys to Ingot
+recipes.removeShaped(<ore:ingotTin>, [
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
+
+// --- Copper Oreberrys to Ingot
+recipes.removeShaped(<ore:ingotCopper>, [
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]]);
+
 
 
 
