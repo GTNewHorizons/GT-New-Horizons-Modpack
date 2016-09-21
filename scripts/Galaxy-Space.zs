@@ -273,9 +273,9 @@ recipes.addShaped(<GalaxySpace:item.QuantBow>, [
 
 // --- Compressed Raw Alloy SDHC-120
 recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
-[<ore:screwDesh>, <ore:craftingToolScrewdriver>, <ore:screwDesh>],
+[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
 [<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.CompressedCoal>, <GalaxySpace:item.CompressedDualAluminium>],
-[<ore:screwDesh>, <ore:craftingToolHardHammer>, <ore:screwDesh>]]);
+[<ore:screwStainlessSteel>, <ore:craftingToolHardHammer>, <ore:screwStainlessSteel>]]);
 
 // --- Thermal Cloth Tier 2
 recipes.addShaped(<GalaxySpace:item.ThermalClothT2>, [
