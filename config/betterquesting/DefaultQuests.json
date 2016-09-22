@@ -34340,10 +34340,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.blockores",
               "Count": 1,
               "OreDict": "",
-              "Damage": 11388
+              "Damage": 388
             }
           ],
           "taskID": "bq_standard:retrieval"
