@@ -20,7 +20,7 @@ import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.galacticgreg.SpaceDimRegisterer;
 import com.dreammaster.gthandler.GT_CustomLoader;
-import com.dreammaster.gthandler.ItemPipes;
+import com.dreammaster.gthandler.GT_Loader_ItemPipes;
 import com.dreammaster.item.ItemList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.modbabychest.BlockBabyChest;
@@ -287,7 +287,7 @@ public class MainRegistry
 
         if (CoreConfig.ModCustomDrops_Enabled) Module_CustomDrops.LoadConfig();
 
-        ItemPipes.registerPipes();
+        GT_Loader_ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
         GTCustomLoader.run();
 

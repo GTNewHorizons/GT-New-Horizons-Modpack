@@ -6,7 +6,7 @@ import gregtech.api.metatileentity.implementations.GT_MetaPipeEntity_Item;
 import gregtech.api.util.GT_OreDictUnificator;
 
 
-public class ItemPipes {
+public class GT_Loader_ItemPipes {
 
     public static void registerPipes()
     {
@@ -61,8 +61,34 @@ public class ItemPipes {
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveMedium.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5657, "GT_Pipe_Restrictive_ElectrumFlux", "Restrictive Fluxed Electrum Item Pipe", 0.5F, Materials.ElectrumFlux, 16, 204800, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5658, "GT_Pipe_Restrictive_ElectrumFlux_Large", "Large Restrictive Fluxed Electrum Item Pipe", 0.75F, Materials.ElectrumFlux, 32, 102400, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.ElectrumFlux), new GT_MetaPipeEntity_Item(5659, "GT_Pipe_Restrictive_ElectrumFlux_Huge", "Huge Restrictive Fluxed Electrum Item Pipe", 1.0F, Materials.ElectrumFlux, 64, 51200, true).getStackForm(1L));
-        
-        // Last ID  here: 5659
+
+        // Black Plutonium
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5660, "GT_Pipe_Black_Plutonium_Tiny", "Tiny Black Plutonium Item Pipe", 0.25F, Materials.BlackPlutonium, 8, 4096, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5661, "GT_Pipe_Black_Plutonium_Small", "Small Black Plutonium Item Pipe", 0.375F, Materials.BlackPlutonium, 16, 2048, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5662, "GT_Pipe_Black_Plutonium", "Black Plutonium Item Pipe", 0.5F, Materials.BlackPlutonium, 32, 1024, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5663, "GT_Pipe_Black_Plutonium_Large", "Large Black Plutonium Item Pipe", 0.75F, Materials.BlackPlutonium, 64, 512, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5664, "GT_Pipe_Black_Plutonium_Huge", "Huge Black Plutonium Item Pipe", 1.0F, Materials.BlackPlutonium, 128, 256, false).getStackForm(1L));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveTiny.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5665, "GT_Pipe_Restrictive_Black_Plutonium_Tiny", "Tiny Restrictive Black Plutonium Item Pipe", 0.25F, Materials.BlackPlutonium, 8, 409600, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveSmall.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5666, "GT_Pipe_Restrictive_Black_Plutonium_Small", "Small Restrictive Black Plutonium Item Pipe", 0.375F, Materials.BlackPlutonium, 16, 204800, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveMedium.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5667, "GT_Pipe_Restrictive_Black_Plutonium", "Restrictive Black Plutonium Item Pipe", 0.5F, Materials.BlackPlutonium, 32, 102400, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5668, "GT_Pipe_Restrictive_Black_Plutonium_Large", "Large Restrictive Black Plutonium Item Pipe", 0.75F, Materials.BlackPlutonium, 64, 51200, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.BlackPlutonium), new GT_MetaPipeEntity_Item(5669, "GT_Pipe_Restrictive_Black_Plutonium_Huge", "Huge Restrictive Black Plutonium Item Pipe", 1.0F, Materials.BlackPlutonium, 128, 25600, true).getStackForm(1L));
+
+        // Bedrockium
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5670, "GT_Pipe_Bedrockium_Tiny", "Tiny Bedrockium Item Pipe", 0.25F, Materials.Bedrockium, 16, 2048, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5671, "GT_Pipe_Bedrockium_Small", "Small Bedrockium Item Pipe", 0.375F, Materials.Bedrockium, 32, 1024, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5672, "GT_Pipe_Bedrockium", "Bedrockium Item Pipe", 0.5F, Materials.Bedrockium, 64, 512, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5673, "GT_Pipe_Bedrockium_Large", "Large Bedrockium Item Pipe", 0.75F, Materials.Bedrockium, 128, 256, false).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5674, "GT_Pipe_Bedrockium_Huge", "Huge Bedrockium Item Pipe", 1.0F, Materials.Bedrockium, 256, 128, false).getStackForm(1L));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveTiny.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5675, "GT_Pipe_Restrictive_Bedrockium_Tiny", "Tiny Restrictive Bedrockium Item Pipe", 0.25F, Materials.Bedrockium, 16, 204800, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveSmall.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5676, "GT_Pipe_Restrictive_Bedrockiumm_Small", "Small Restrictive Bedrockium Item Pipe", 0.375F, Materials.Bedrockium, 32, 102400, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveMedium.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5677, "GT_Pipe_Restrictive_Bedrockium", "Restrictive Bedrockium Item Pipe", 0.5F, Materials.Bedrockium, 64, 51200, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5678, "GT_Pipe_Restrictive_Bedrockium_Large", "Large Restrictive Bedrockium Item Pipe", 0.75F, Materials.Bedrockium, 128, 25600, true).getStackForm(1L));
+        GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.Bedrockium), new GT_MetaPipeEntity_Item(5679, "GT_Pipe_Restrictive_Bedrockium_Huge", "Huge Restrictive Bedrockium Item Pipe", 1.0F, Materials.Bedrockium, 256, 12800, true).getStackForm(1L));
+
+        // Last ID  here: 5679
         
     }
 }

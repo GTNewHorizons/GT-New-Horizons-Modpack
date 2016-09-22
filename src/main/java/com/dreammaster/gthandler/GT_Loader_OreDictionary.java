@@ -62,6 +62,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("compressedMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre("plateDenseMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
         GT_OreDictUnificator.registerOre("gemMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Bedrockium, GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 1L, 0));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ore, Materials.Desh, GT_ModHandler.getModItem("GalacticraftMars", "tile.mars", 1L, 2));
         GT_OreDictUnificator.registerOre(OrePrefixes.stick, Materials.Desh, GT_ModHandler.getModItem("GalacticraftMars", "item.null", 1L, 1));
