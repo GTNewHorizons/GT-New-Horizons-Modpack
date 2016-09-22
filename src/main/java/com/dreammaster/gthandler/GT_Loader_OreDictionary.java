@@ -90,5 +90,8 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Voidmetal, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "block_bedrockiu>", 1L, 0));
     }
 }
