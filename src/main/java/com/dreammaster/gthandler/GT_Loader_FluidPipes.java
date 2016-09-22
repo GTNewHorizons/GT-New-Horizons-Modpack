@@ -59,12 +59,12 @@ public class GT_Loader_FluidPipes
 		GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.NetherStar), new GT_MetaPipeEntity_Fluid(5223, "GT_Pipe_Nether_Star_Large", "Large Nether Star Fluid Pipe", 0.75F, Materials.NetherStar, 51200, 1000000, true).getStackForm(1L));
 		GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.NetherStar), new GT_MetaPipeEntity_Fluid(5224, "GT_Pipe_Nether_Star_Huge", "Huge Nether Star Fluid Pipe", 1.0F, Materials.NetherStar, 76800, 1000000, true).getStackForm(1L));
 
-		// 5230 - 5234 Unstable Ingot
-		GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.Unstable), new GT_MetaPipeEntity_Fluid(5230, "GT_Pipe_Unstable_Tiny", "Tiny Unstable Fluid Pipe", 0.25F, Materials.Unstable, 4000, 1000000, true).getStackForm(1L));
-		GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.Unstable), new GT_MetaPipeEntity_Fluid(5231, "GT_Pipe_Unstable_Small", "Small Unstable Fluid Pipe", 0.375F, Materials.Unstable, 8000, 1000000, true).getStackForm(1L));
-		GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.Unstable), new GT_MetaPipeEntity_Fluid(5232, "GT_Pipe_Unstable", "Unstable Fluid Pipe", 0.5F, Materials.Unstable, 24000, 1000000, true).getStackForm(1L));
-		GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.Unstable), new GT_MetaPipeEntity_Fluid(5233, "GT_Pipe_Unstable_Large", "Large Unstable Fluid Pipe", 0.75F, Materials.Unstable, 64000, 1000000, true).getStackForm(1L));
-		GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.Unstable), new GT_MetaPipeEntity_Fluid(5234, "GT_Pipe_Unstable_Huge", "Huge Unstable Fluid Pipe", 1.0F, Materials.Unstable, 96000, 1000000, true).getStackForm(1L));
+		// 5230 - 5234 Mysteroius Crystal
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.MysteriousCrystal), new GT_MetaPipeEntity_Fluid(5230, "GT_Pipe_MysteriousCrystal_Tiny", "Tiny Mysterious Crystal Fluid Pipe", 0.25F, Materials.MysteriousCrystal, 4000, 1000000, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.MysteriousCrystal), new GT_MetaPipeEntity_Fluid(5231, "GT_Pipe_MysteriousCrystal_Small", "Small Mysterious Crystal Fluid Pipe", 0.375F, Materials.MysteriousCrystal, 8000, 1000000, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.MysteriousCrystal), new GT_MetaPipeEntity_Fluid(5232, "GT_Pipe_MysteriousCrystal", "Mysterious Crystal Fluid Pipe", 0.5F, Materials.MysteriousCrystal, 24000, 1000000, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.MysteriousCrystal), new GT_MetaPipeEntity_Fluid(5233, "GT_Pipe_MysteriousCrystal_Large", "Large Mysterious Crystal Fluid Pipe", 0.75F, Materials.MysteriousCrystal, 64000, 1000000, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.MysteriousCrystal), new GT_MetaPipeEntity_Fluid(5234, "GT_Pipe_MysteriousCrystal_Huge", "Huge Mysterious Crystal Fluid Pipe", 1.0F, Materials.MysteriousCrystal, 96000, 1000000, true).getStackForm(1L));
 
 		// 5240 - 5244 Awakened Draconium
 		GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.DraconiumAwakened), new GT_MetaPipeEntity_Fluid(5240, "GT_Pipe_Awakened_Draconium_Tiny", "Tiny Awakened Draconium Fluid Pipe", 0.25F, Materials.DraconiumAwakened, 7500, 10000000, true).getStackForm(1L));

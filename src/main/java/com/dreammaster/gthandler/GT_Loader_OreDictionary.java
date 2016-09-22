@@ -93,10 +93,5 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Voidmetal, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
-        //GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "block_bedrockium", 1L, 0));
-        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Unstableingot, GT_ModHandler.getModItem("ExtraUtilities", "unstableingot", 1L, 0));
-        GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Unstableingot, GT_ModHandler.getModItem("ExtraUtilities", "unstableingot", 1L, 1));
-        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Unstableingot, GT_ModHandler.getModItem("ExtraUtilities", "unstableingot", 1L, 2));
-        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Unstableingot, GT_ModHandler.getModItem("ExtraUtilities", "decorativeBlock1", 1L, 5));
     }
 }
