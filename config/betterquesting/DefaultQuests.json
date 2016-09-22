@@ -34288,13 +34288,13 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockores",
               "Count": 1,
-              "OreDict": "oreNeutronium",
+              "OreDict": "",
               "Damage": 129
             }
           ],
@@ -41532,7 +41532,7 @@
     {
       "questID": 920,
       "name": "Blaze: Evolved",
-      "description": "In order to proceed to Tier 4 Planets, the BlazeBoss needs to be killed. Find him in one of the Dungeons on IO",
+      "description": "In order to proceed to Tier 5 Planets, the BlazeBoss needs to be killed. Find him in one of the Dungeons on IO",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41720,13 +41720,13 @@
         }
       ],
       "preRequisites": [
-        919
+        921
       ]
     },
     {
       "questID": 921,
       "name": "Ghast: Evolved",
-      "description": "Fluffy, fluffier, Ghasts! And also big crybabies. This one hides in a dungeon on Venus, and holds the Key for Tier 5 Planets",
+      "description": "Fluffy, fluffier, Ghasts! And also big crybabies. This one hides in a dungeon on Ceres, and holds the Key for Tier 4 Planets",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41886,7 +41886,7 @@
         }
       ],
       "preRequisites": [
-        920
+        919
       ]
     },
     {
@@ -42078,7 +42078,7 @@
         }
       ],
       "preRequisites": [
-        921
+        920
       ]
     },
     {
@@ -45076,7 +45076,7 @@
       "quests": [
         {
           "id": 900,
-          "x": 120,
+          "x": 144,
           "y": 0
         },
         {
@@ -45086,132 +45086,132 @@
         },
         {
           "id": 903,
-          "x": 40,
+          "x": 48,
           "y": 0
         },
         {
           "id": 901,
-          "x": 80,
+          "x": 96,
           "y": 0
         },
         {
           "id": 904,
-          "x": 160,
+          "x": 192,
           "y": 0
         },
         {
           "id": 905,
-          "x": 200,
+          "x": 240,
           "y": 0
         },
         {
           "id": 906,
-          "x": 280,
+          "x": 336,
           "y": 0
         },
         {
           "id": 907,
-          "x": 240,
+          "x": 288,
           "y": 0
         },
         {
           "id": 908,
-          "x": 320,
+          "x": 384,
           "y": 0
         },
         {
           "id": 909,
-          "x": 392,
-          "y": 128
+          "x": 420,
+          "y": 132
         },
         {
           "id": 910,
           "x": 240,
-          "y": 128
+          "y": 96
         },
         {
           "id": 911,
-          "x": 352,
-          "y": 160
+          "x": 348,
+          "y": 132
         },
         {
           "id": 912,
-          "x": 392,
-          "y": 160
+          "x": 384,
+          "y": 132
         },
         {
           "id": 913,
-          "x": 280,
-          "y": 160
+          "x": 276,
+          "y": 132
         },
         {
           "id": 914,
           "x": 240,
-          "y": 160
+          "y": 132
         },
         {
           "id": 915,
-          "x": 320,
-          "y": 160
+          "x": 312,
+          "y": 132
         },
         {
           "id": 916,
-          "x": 320,
+          "x": 336,
           "y": 96
         },
         {
           "id": 917,
-          "x": 392,
+          "x": 420,
           "y": 96
         },
         {
           "id": 918,
           "x": 0,
-          "y": 56
+          "y": 60
         },
         {
           "id": 919,
-          "x": 40,
-          "y": 56
+          "x": 48,
+          "y": 60
         },
         {
           "id": 920,
-          "x": 80,
-          "y": 56
+          "x": 144,
+          "y": 60
         },
         {
           "id": 921,
-          "x": 120,
-          "y": 56
+          "x": 96,
+          "y": 60
         },
         {
           "id": 922,
-          "x": 160,
-          "y": 56
+          "x": 192,
+          "y": 60
         },
         {
           "id": 923,
-          "x": 200,
-          "y": 56
+          "x": 240,
+          "y": 60
         },
         {
           "id": 924,
-          "x": 240,
-          "y": 56
+          "x": 288,
+          "y": 60
         },
         {
           "id": 925,
-          "x": 320,
-          "y": 56
+          "x": 336,
+          "y": 60
         },
         {
           "id": 451,
-          "x": 280,
-          "y": 32
+          "x": 336,
+          "y": 24
         },
         {
           "id": 456,
-          "x": 360,
+          "x": 384,
           "y": 96
         }
       ]
