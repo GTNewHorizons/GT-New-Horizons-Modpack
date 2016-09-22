@@ -54,14 +54,14 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumDust.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumDensePlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumPlate.getIS());
-        GT_OreDictUnificator.registerOre("ingotMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalIngot.getIS());
-        GT_OreDictUnificator.registerOre("ingotColdMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalColdIngot.getIS());
-        GT_OreDictUnificator.registerOre("blockMyteriousCrystal", GT_ModHandler.getModItem("dreamcraft", "tile.MysteriousCrystal", 1L, 0));
-        GT_OreDictUnificator.registerOre("dustMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
-        GT_OreDictUnificator.registerOre("plateMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalPlate.getIS());
-        GT_OreDictUnificator.registerOre("compressedMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
-        GT_OreDictUnificator.registerOre("plateDenseMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
-        GT_OreDictUnificator.registerOre("gemMyteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalIngot.getIS());
+        GT_OreDictUnificator.registerOre("ingotColdMysteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalColdIngot.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.MysteriousCrystal, GT_ModHandler.getModItem("dreamcraft", "tile.MysteriousCrystal", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalPlate.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.gem, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Bedrockium, GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 1L, 0));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ore, Materials.Desh, GT_ModHandler.getModItem("GalacticraftMars", "tile.mars", 1L, 2));
