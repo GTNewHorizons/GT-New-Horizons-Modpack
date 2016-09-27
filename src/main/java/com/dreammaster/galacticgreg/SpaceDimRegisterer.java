@@ -175,7 +175,7 @@ public class SpaceDimRegisterer
         ModDBMDef DBMbarnardaC = new ModDBMDef("barnardaCdirt");
         ModDBMDef DBMbarnardaE = new ModDBMDef("barnardaEsubgrunt");
         ModDBMDef DBMbarnardaF = new ModDBMDef("barnardaFsubgrunt");
-        ModDBMDef DBMTcetiE = new ModDBMDef("tcetiestone");
+        ModDBMDef DBMTcetiE = new ModDBMDef("tcetieblocks", 2);
 
         // Now define the available dimensions, and their chunkprovider.
         // Same as above, to not have any dependency in your code, you can just give it a string.
