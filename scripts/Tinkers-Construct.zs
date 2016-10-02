@@ -476,6 +476,21 @@ recipes.removeShaped(<ore:ingotCopper>, [
 [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
 [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]]);
 
+// --- Steel Ingot
+recipes.removeShaped(<ore:ingotSteel>, [
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
+
+// --- Bronze Ingot
+recipes.removeShaped(<ore:ingotBronze>, [
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>]]);
+
+furnace.remove(<IC2:itemRubber>);
+
+
 
 
 
