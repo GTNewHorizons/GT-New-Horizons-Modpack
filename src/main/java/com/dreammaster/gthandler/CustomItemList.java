@@ -112,7 +112,7 @@ public enum CustomItemList implements IItemContainer
 	LeadNickelPlate, LeadOriharukonPlate,
 	MoonStoneDust, MarsStoneDust, AsteroidsStoneDust, PhobosStoneDust, DeimosStoneDust,CeresStoneDust, EuropaIceDust, EuropaStoneDust, GanymedStoneDust, CallistoStoneDust, IoStoneDust, VenusStoneDust, MercuryStoneDust, EnceladusIceDust, EnceladusStoneDust,
 	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust,
-	MysteriousCrystalDust,
+	MysteriousCrystalDust, TCetiEStoneDust,
 	IndustryFrame;
 
 

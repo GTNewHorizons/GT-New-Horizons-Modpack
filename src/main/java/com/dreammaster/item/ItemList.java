@@ -357,6 +357,7 @@ public enum ItemList
     SteelBars(new ModSimpleBaseItem("SteelBars", ModTabList.ModBarsAndCasingsTab)),
     SteelDualCompressedPlates(new ModSimpleBaseItem("SteelDualCompressedPlates", ModTabList.ModSpaceTab)),
     StonePlate(new ModSimpleBaseItem("StonePlate", ModTabList.ModGenericTab)),
+    TCetiEStoneDust(new ModSimpleBaseItem("TCetiEStoneDust", ModTabList.ModSpaceTab)),
     TeleposerFrame(new ModSimpleBaseItem("TeleposerFrame", ModTabList.ModThaumcraftTab)),
     Tier2Booster(new ModSimpleBaseItem("Tier2Booster", ModTabList.ModSpaceTab)),
     Tier3Booster(new ModSimpleBaseItem("Tier3Booster", ModTabList.ModSpaceTab)),
