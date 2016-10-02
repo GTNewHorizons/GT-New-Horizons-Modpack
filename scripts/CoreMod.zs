@@ -883,9 +883,6 @@ Assembler.addRecipe(<dreamcraft:item.BioOrganicMesh>, <dreamcraft:item.RawBioFib
 // --- Bio Chunk
 Assembler.addRecipe(<dreamcraft:item.BioChunk>, <dreamcraft:tile.Charcoal>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
 
-// --- Bio Fiber
-Assembler.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <minecraft:dye:15> * 2, 400, 8);
-
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
 
@@ -953,6 +950,15 @@ Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedn
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:water> * 1000, 9000, 3600, 480);
 // -
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
+
+// --- Bio Fiber
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:ic2biomass> * 8, 3300, 100, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:ic2biogas> * 8, 5000, 100, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:fuel> * 8, 9000, 100, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:nitrofuel> * 8, 10000, 100, 20);
 
 
 
