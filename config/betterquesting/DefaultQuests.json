@@ -16828,7 +16828,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 26326
+              "Damage": 23326
             }
           ],
           "rewardID": "bq_standard:item"
@@ -21698,6 +21698,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemHelmetVoidFortress",
@@ -21718,7 +21720,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
