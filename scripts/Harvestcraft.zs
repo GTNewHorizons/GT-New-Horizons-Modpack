@@ -390,7 +390,7 @@ recipes.addShapeless(<harvestcraft:silkentofuItem>, [<ore:craftingToolRollingPin
 
 // --- Rainbow Curry
 recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
-[<minecraft:red_flower:1>, <minecraft:double_plant:2>, <BiomesOPlenty:flowers2:2>],
+[<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
 [<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
 [<minecraft:bowl>, <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 

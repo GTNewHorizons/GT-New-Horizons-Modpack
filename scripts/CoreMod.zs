@@ -952,13 +952,13 @@ Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.Mysteriou
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
 
 // --- Bio Fiber
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:ic2biomass> * 8, 3300, 100, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:ic2biogas> * 8, 5000, 100, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biogas> * 8, 5000, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:fuel> * 8, 9000, 100, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber> * 2, <IC2:itemFuelPlantBall> * 8, <liquid:nitrofuel> * 8, 10000, 100, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 200, 20);
 
 
 
