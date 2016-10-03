@@ -87,7 +87,13 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("itemBeeswax", GT_ModHandler.getModItem("harvestcraft", "beeswaxItem", 1L, 0));
         GT_OreDictUnificator.registerOre("foodFlour", GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
         GT_OreDictUnificator.registerOre("listAllmeatcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllporkcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllchickencooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllbeefcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
         GT_OreDictUnificator.registerOre("listAllmeatraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllporkraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllchickenraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
