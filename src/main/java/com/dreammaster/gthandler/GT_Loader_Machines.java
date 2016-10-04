@@ -1,11 +1,14 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.gthandler.casings.GT_Block_CasingsNH;
+import com.dreammaster.gthandler.multiAirFilter.GT_MetaTileEntity_AirFilter;
 import com.dreammaster.gthandler.transformers.GT_MetaTileEntity_WetTransformer;
 import gregtech.GT_Mod;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.metatileentity.implementations.*;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.common.tileentities.machines.basic.*;
+import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import gregtech.api.GregTech_API;
 import gregtech.api.enums.GT_Values;
@@ -2828,6 +2831,12 @@ public class GT_Loader_Machines
 		//						     just look at the current transformer recipes
 
 		//                           You can also replace the middle part with the cheap transformer equivalent
+
+
+		// ===================================================================================================
+		// MULTIBLOCKS
+		// ===================================================================================================
+		CustomItemList.Machine_Multi_AirFilter.set(new GT_MetaTileEntity_AirFilter(12020, "multimachine.airfilter", "Electric Air Filter").getStackForm(1L));
 
 		/**
 		 * A List of all registered MetaTileEntities

@@ -1,5 +1,7 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.gthandler.casings.GT_Container_CasingsNH;
+import com.dreammaster.gthandler.casings.GT_Loader_CasingsNH;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import net.minecraft.init.Blocks;
@@ -145,6 +147,7 @@ public class GT_CustomLoader
         MachineRecipeLoader = new GT_MachineRecipeLoader();
         CraftingRecipeLoader = new GT_CraftingRecipeLoader();
         OreDictionary = new GT_Loader_OreDictionary();
+        CasingLoader = new GT_Loader_CasingsNH();
     }
     
     private GT_Loader_Items ItemLoader = null;
@@ -156,6 +159,7 @@ public class GT_CustomLoader
     private GT_MachineRecipeLoader MachineRecipeLoader = null;
     private GT_CraftingRecipeLoader CraftingRecipeLoader = null;
     private GT_Loader_OreDictionary OreDictionary = null;
+    private GT_Loader_CasingsNH CasingLoader = null;
 
     public void run()
     {
@@ -169,5 +173,6 @@ public class GT_CustomLoader
         MachineRecipeLoader.run();
         CraftingRecipeLoader.run();
         OreDictionary.run();
+        CasingLoader.run();
     }
 }
