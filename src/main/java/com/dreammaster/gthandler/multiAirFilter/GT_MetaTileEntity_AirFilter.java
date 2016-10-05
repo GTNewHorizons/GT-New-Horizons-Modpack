@@ -55,7 +55,8 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                 "1x Maintenance Hatch (Any bottom layer casing)",
                 "Air Filter Turbine Casings for the rest",
                 "Can accept catalysts and turbine (in controller)",
-                "Machine tier limits max muffler effect"};
+                "Machine tier limits max muffler effect",
+                "Features Hysteresis control (tm)"};
     }
 
     public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, byte aSide, byte aFacing, byte aColorIndex, boolean aActive, boolean aRedstone) {
@@ -299,7 +300,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
             if(this.mMachine && this.mMaxProgresstime>0 && (aTick % 20L == 0L)){
                 GT_Pollution.addPollution(new ChunkPosition(this.getBaseMetaTileEntity().getXCoord(), this.getBaseMetaTileEntity().getYCoord(), this.getBaseMetaTileEntity().getZCoord()), -mPollutionReduction);
             }
-            if(this.mMachine && (aTick % 150L == 0L)){
+            if(this.mMachine && (aTick % 20L == 0L)){
                 //check for pollution
                 int pollution=GT_Pollution.getPollutionAtCoords(aBaseMetaTileEntity.getXCoord(), aBaseMetaTileEntity.getZCoord());
                 hasPollution = pollution > 250000 || hasPollution;//HYSTERESIS :O !!! (trust me i am engineer)
