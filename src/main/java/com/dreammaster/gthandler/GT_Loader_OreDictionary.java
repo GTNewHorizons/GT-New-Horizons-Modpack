@@ -14,7 +14,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_Log.out.println("Core-Mod: Register OreDict Entries of Non-GT-Items.");
 
 
-        //Custom Stuff GT New Horizons 1.0.9.2
+        //Custom Stuff GT New Horizons 1.0.9.X
         GT_OreDictUnificator.registerOre("ingotBloodInfusedIron", GT_ModHandler.getModItem("BloodArsenal", "blood_infused_iron", 1L, 0));
         GT_OreDictUnificator.registerOre("blockBloodInfusedIron", GT_ModHandler.getModItem("BloodArsenal", "blood_infused_iron_block", 1L, 0));
 
@@ -86,6 +86,14 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
 
         GT_OreDictUnificator.registerOre("itemBeeswax", GT_ModHandler.getModItem("harvestcraft", "beeswaxItem", 1L, 0));
         GT_OreDictUnificator.registerOre("foodFlour", GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
+        GT_OreDictUnificator.registerOre("listAllmeatcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllporkcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllchickencooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllbeefcooked", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2893));
+        GT_OreDictUnificator.registerOre("listAllmeatraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllporkraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllchickenraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
