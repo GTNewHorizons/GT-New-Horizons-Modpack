@@ -7,6 +7,7 @@ import gregtech.api.gui.GT_GUIContainer_MultiMachine;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
+import gregtech.api.items.GT_MetaGenerated_Tool;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Muffler;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
 import gregtech.api.objects.GT_RenderedTexture;
@@ -88,10 +89,10 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
             counter = 0;
             try{
                 if(aStack.getItem() instanceof GT_MetaGenerated_Tool_01)
-                    baseEff=10000;//TODO ADD REPOS TO USE THE CODE BELOW
+                    //baseEff=10000;//TODO ADD REPOS TO USE THE CODE BELOW
 
-                    //baseEff = GT_Utility.safeInt((long)((50.0F
-                    //        + (10.0F * ((GT_MetaGenerated_Tool) aStack.getItem()).getToolCombatDamage(aStack))) * 100));
+                    baseEff = GT_Utility.safeInt((long)((50.0F
+                            + (10.0F * ((GT_MetaGenerated_Tool) aStack.getItem()).getToolCombatDamage(aStack))) * 100));
                 else
                     baseEff=2500;
             }catch (Exception e){
