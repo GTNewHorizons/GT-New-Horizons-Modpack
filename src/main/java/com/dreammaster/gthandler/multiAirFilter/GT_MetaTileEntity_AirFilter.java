@@ -26,7 +26,6 @@ import static gregtech.api.enums.GT_Values.V;
  */
 public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBase {
     protected int mPollutionReduction=0;
-    protected int mNominalPollutionReduction =0;
     protected int baseEff = 2500;
     protected int counter = 0;
     protected boolean hasPollution=true;
@@ -114,7 +113,6 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
 
 
         mPollutionReduction=GT_Utility.safeInt((long)mPollutionReduction*baseEff)/10000;//should be around 400 with turbine at ev
-        mNominalPollutionReduction =mPollutionReduction;
         if(!this.hasPollution){
             mPollutionReduction = 0;
             mMaxProgresstime = 0;
@@ -127,7 +125,6 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         //In case recipe is too OP for that machine
         if (mEUt == Integer.MAX_VALUE - 1) {
             mPollutionReduction = 0;
-            mNominalPollutionReduction = 0;
             return false;
         }
         if (this.mEUt > 0) {
@@ -346,7 +343,6 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                         EnumChatFormatting.RED+ (getIdealStatus() - getRepairStatus())+EnumChatFormatting.RESET+
                         " Efficiency: "+
                         EnumChatFormatting.YELLOW+Float.toString(mEfficiency / 100.0F)+EnumChatFormatting.RESET + " %",
-                "Nominal Pollution reduction: "+EnumChatFormatting.GREEN+ mNominalPollutionReduction +EnumChatFormatting.RESET+" gibbl/s",
                 "Pollution reduction: "+ EnumChatFormatting.GREEN + mPollutionReduction+ EnumChatFormatting.RESET+" gibbl/s"
         };
     }
