@@ -167,13 +167,15 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
     public boolean checkMachine(IGregTechTileEntity aBaseMetaTileEntity, ItemStack aStack) {
         int xDir = ForgeDirection.getOrientation(aBaseMetaTileEntity.getBackFacing()).offsetX;
         int zDir = ForgeDirection.getOrientation(aBaseMetaTileEntity.getBackFacing()).offsetZ;
+        int one = 1;
+        int two = 2;
 
         //air check and top casing check
-        if (!aBaseMetaTileEntity.getAirOffset(xDir, 1, zDir) || !aBaseMetaTileEntity.getAirOffset(xDir, 2, zDir)) {//check air inside
+        if (!aBaseMetaTileEntity.getAirOffset(xDir, one, zDir) || !aBaseMetaTileEntity.getAirOffset(xDir, two, zDir)) {//check air inside
             return false;
         }
-        for(int i=-1;i<2;i++) {
-            for (int j = -1; j < 2; j++) {
+        for(int i=-one;i<two;i++) {
+            for (int j = -one; j < two; j++) {
                 if (!aBaseMetaTileEntity.getAirOffset(xDir+i, 4, zDir+j) || !aBaseMetaTileEntity.getAirOffset(xDir+i, 5, zDir+j)) {//check air at on top of top layer
                     return false;
                 }
@@ -182,89 +184,89 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
 
             }
         }
-        if (!aBaseMetaTileEntity.getAirOffset(2+xDir, 1, zDir) || !aBaseMetaTileEntity.getAirOffset(2+xDir, 2, zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir-2, 1, zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-2, 2, zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir, 1, 2+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir, 2, 2+zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir, 1, zDir-2) || !aBaseMetaTileEntity.getAirOffset(xDir, 2, zDir-2)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(two+xDir, one, zDir) || !aBaseMetaTileEntity.getAirOffset(two+xDir, two, zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir-two, one, zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-two, two, zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir, one, two+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir, two, two+zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir, one, zDir-two) || !aBaseMetaTileEntity.getAirOffset(xDir, two, zDir-two)) return false;
 
 
-        if (!aBaseMetaTileEntity.getAirOffset(2+xDir, 1, 1+zDir) || !aBaseMetaTileEntity.getAirOffset(2+xDir, 2, 1+zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(2+xDir, 1, zDir-1) || !aBaseMetaTileEntity.getAirOffset(2+xDir, 2, zDir-1)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(two+xDir, one, one+zDir) || !aBaseMetaTileEntity.getAirOffset(two+xDir, two, one+zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(two+xDir, one, zDir-one) || !aBaseMetaTileEntity.getAirOffset(two+xDir, two, zDir-one)) return false;
 
-        if (!aBaseMetaTileEntity.getAirOffset(xDir-2, 1, 1+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-2, 2, 1+zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir-2, 1, zDir-1) || !aBaseMetaTileEntity.getAirOffset(xDir-2, 2, zDir-1)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir-two, one, one+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-two, two, one+zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir-two, one, zDir-one) || !aBaseMetaTileEntity.getAirOffset(xDir-two, two, zDir-one)) return false;
 
-        if (!aBaseMetaTileEntity.getAirOffset(1+xDir, 1, 2+zDir) || !aBaseMetaTileEntity.getAirOffset(1+xDir, 2, 2+zDir)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir-1, 1, 2+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-1, 2, 2+zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(one+xDir, one, two+zDir) || !aBaseMetaTileEntity.getAirOffset(one+xDir, two, two+zDir)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir-one, one, two+zDir) || !aBaseMetaTileEntity.getAirOffset(xDir-one, two, two+zDir)) return false;
 
-        if (!aBaseMetaTileEntity.getAirOffset(1+xDir, 1, zDir-2) || !aBaseMetaTileEntity.getAirOffset(1+xDir, 2, zDir-2)) return false;
-        if (!aBaseMetaTileEntity.getAirOffset(xDir-1, 1, zDir-2) || !aBaseMetaTileEntity.getAirOffset(xDir-1, 2, zDir-2)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(one+xDir, one, zDir-two) || !aBaseMetaTileEntity.getAirOffset(one+xDir, two, zDir-two)) return false;
+        if (!aBaseMetaTileEntity.getAirOffset(xDir-one, one, zDir-two) || !aBaseMetaTileEntity.getAirOffset(xDir-one, two, zDir-two)) return false;
 
         //air check and top casing check done
 
         //muffler check
         mMufflerHatches.clear();
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(1+xDir, 1, zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 1, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 1, zDir)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(one+xDir, one, zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, zDir)!= 0) return false;
         }
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(1+xDir, 2, zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 2, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 2, zDir)!= 0) return false;
-        }
-
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir-1, 1, zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 1, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 1, zDir)!= 0) return false;
-        }
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir-1, 2, zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 2, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 2, zDir)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(one+xDir, two, zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, zDir)!= 0) return false;
         }
 
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, 1, 1+zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir, 1, 1+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, 1, 1+zDir)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir-one, one, zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, zDir)!= 0) return false;
         }
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, 2, 1+zDir), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir, 2, 1+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, 2, 1+zDir)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir-one, two, zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, zDir)!= 0) return false;
         }
 
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, 1, zDir-1), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir, 1, zDir-1)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, 1, zDir-1)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, one, one+zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir, one, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, one, one+zDir)!= 0) return false;
         }
-        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, 2, zDir-1), 57)){
-            if(aBaseMetaTileEntity.getBlockOffset(xDir, 2, zDir-1)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
-            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, 2, zDir-1)!= 0) return false;
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, two, one+zDir), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir, two, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, two, one+zDir)!= 0) return false;
+        }
+
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, one, zDir-one), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir, one, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, one, zDir-one)!= 0) return false;
+        }
+        if(!addMufflerToMachineList(aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir, two, zDir-one), 57)){
+            if(aBaseMetaTileEntity.getBlockOffset(xDir, two, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+            if(aBaseMetaTileEntity.getMetaIDOffset(xDir, two, zDir-one)!= 0) return false;
         }
         if(mMufflerHatches.isEmpty())return false;
         //muffler check done
         //pipe casing check
-        if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 1, 1+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 1, 1+zDir)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 2, 1+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 2, 1+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, one+zDir)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, one+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, one+zDir)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, one+zDir)!= 13) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 1, 1+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 1, 1+zDir)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 2, 1+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 2, 1+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, one+zDir)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, one+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, one+zDir)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, one+zDir)!= 13) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 1, zDir-1)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 1, zDir-1)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(1+xDir, 2, zDir-1)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(1+xDir, 2, zDir-1)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, zDir-one)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, zDir-one)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, zDir-one)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, zDir-one)!= 13) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 1, zDir-1)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 1, zDir-1)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-1, 2, zDir-1)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-1, 2, zDir-1)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, zDir-one)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, zDir-one)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, zDir-one)!= GregTech_API.sBlockCasings2) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, zDir-one)!= 13) return false;
         //pipe casing check done
         //bottom casing
-        for (int i = -1; i < 2; i++) {
-            for (int j = -1; j < 2; j++) {
+        for (int i = -one; i < two; i++) {
+            for (int j = -one; j < two; j++) {
                 if ((xDir + i != 0) || (zDir + j != 0)) {//sneak exclusion of the controller block
                     IGregTechTileEntity tTileEntity = aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir + i, 0, zDir + j);
                     if ((!addMaintenanceToMachineList(tTileEntity, 57)) &&
@@ -347,5 +349,4 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                 "Pollution reduction: "+ EnumChatFormatting.GREEN + mPollutionReduction+ EnumChatFormatting.RESET+" gibbl/s"
         };
     }
-
 }
