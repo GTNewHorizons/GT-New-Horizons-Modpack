@@ -22,7 +22,7 @@ group= "com.dreammaster" // http://maven.apache.org/guides/mini/guide-naming-con
 archivesBaseName = "GTNewHorizonsCoreMod"
 
 minecraft {
-    version = "1.7.10-10.13.2.1291"
+    version = "1.7.10-10.13.4.1614-1.7.10"
     runDir = "eclipse"
 	
 	replaceIn "src/main/java/com/dreammaster/lib/Refstrings.java"
