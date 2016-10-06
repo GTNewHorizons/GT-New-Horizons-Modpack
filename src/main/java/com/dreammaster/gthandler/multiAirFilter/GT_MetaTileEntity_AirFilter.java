@@ -28,8 +28,7 @@ import static gregtech.api.enums.GT_Values.V;
 public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBase {
     protected int mPollutionReduction=0;
     protected int baseEff = 2500;
-    protected int counter = 0;
-    protected boolean hasPollution=true;
+    protected boolean hasPollution=false;
 
 
     public GT_MetaTileEntity_AirFilter(int aID, String aName, String aNameRegional) {
@@ -83,23 +82,20 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
     public boolean checkRecipe(ItemStack aStack){
         mPollutionReduction = 0;
         mMaxProgresstime = 0;
-        if(!this.mMachine)return false;
-        if (baseEff == 0 || counter >= 1000 || this.getBaseMetaTileEntity().hasWorkJustBeenEnabled()
-                || this.getBaseMetaTileEntity().hasInventoryBeenModified()) {
-            counter = 0;
-            try{
-                if(aStack.getItem() instanceof GT_MetaGenerated_Tool_01)
-                    //baseEff=10000;//TODO ADD REPOS TO USE THE CODE BELOW
+        if(!this.hasPollution || !this.mMachine)return false;
 
-                    baseEff = GT_Utility.safeInt((long)((50.0F
-                            + (10.0F * ((GT_MetaGenerated_Tool) aStack.getItem()).getToolCombatDamage(aStack))) * 100));
-                else
-                    baseEff=2500;
-            }catch (Exception e){
+        try{
+            if(aStack.getItem() instanceof GT_MetaGenerated_Tool_01 &&
+                    ((GT_MetaGenerated_Tool) aStack.getItem()).getToolStats(aStack).getSpeedMultiplier()>0 &&
+                    ((GT_MetaGenerated_Tool) aStack.getItem()).getPrimaryMaterial(aStack).mToolSpeed>0 ) {
+                baseEff = GT_Utility.safeInt((long) ((50.0F
+                        + (10.0F * ((GT_MetaGenerated_Tool) aStack.getItem()).getToolCombatDamage(aStack))) * 100));
+            }
+            else {
                 baseEff = 2500;
             }
-        } else {
-            counter++;
+        }catch (Exception e){
+            baseEff = 2500;
         }
 
         long tVoltage = getMaxInputVoltage();
@@ -107,23 +103,21 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
 
         for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
             if (isValidMetaTileEntity(tHatch)) {
-                mPollutionReduction+=Math.min(tTier,tHatch.mTier)*20;
+                mPollutionReduction+=Math.min(tTier,tHatch.mTier)*50;
             }
         }
 
         //TODO add "recipes" (catalyst - bigger baseEff, and slag output)
 
 
-        mPollutionReduction=GT_Utility.safeInt((long)mPollutionReduction*baseEff)/10000;//should be around 400 with turbine at ev
-        if(!this.hasPollution){
-            mPollutionReduction = 0;
-            mMaxProgresstime = 0;
-            return false;
-        }
+        mPollutionReduction=GT_Utility.safeInt((long)mPollutionReduction*baseEff)/10000;
 
         this.mEfficiency = (10000 - (getIdealStatus() - getRepairStatus()) * 1000);
         this.mEfficiencyIncrease = 10000;
-        calculateOverclockedNessMulti(GT_Utility.safeInt(tVoltage-(tVoltage>>2)), 20, 1, tVoltage);
+
+        mPollutionReduction=GT_Utility.safeInt((long)mPollutionReduction*mEfficiency/10000);
+
+        calculateOverclockedNessMulti(GT_Utility.safeInt(tVoltage-(tVoltage>>2)), 200, 1, tVoltage);
         //In case recipe is too OP for that machine
         if (mEUt == Integer.MAX_VALUE - 1) {
             mPollutionReduction = 0;
@@ -300,10 +294,15 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
             } catch (Exception e) {}
         }
         if (aBaseMetaTileEntity.isServerSide()) {
-            if(this.mMachine && this.mMaxProgresstime>0 && (aTick % 20L == 0L)){
-                GT_Pollution.addPollution(new ChunkPosition(this.getBaseMetaTileEntity().getXCoord(), this.getBaseMetaTileEntity().getYCoord(), this.getBaseMetaTileEntity().getZCoord()), -mPollutionReduction);
-            }
-            if(this.mMachine && (aTick % 20L == 0L)){
+            if(this.mMachine && (aTick % 200L == 0L)){
+                if(this.mMaxProgresstime>0){
+                    GT_Pollution.addPollution(new ChunkPosition(this.getBaseMetaTileEntity().getXCoord(), this.getBaseMetaTileEntity().getYCoord(), this.getBaseMetaTileEntity().getZCoord()), -mPollutionReduction);
+                    if(mInventory[1].getItem() instanceof GT_MetaGenerated_Tool_01 &&
+                            ((GT_MetaGenerated_Tool) mInventory[1].getItem()).getToolStats(mInventory[1]).getSpeedMultiplier()>0 &&
+                            ((GT_MetaGenerated_Tool) mInventory[1].getItem()).getPrimaryMaterial(mInventory[1]).mToolSpeed>0 ) {
+                        ((GT_MetaGenerated_Tool) mInventory[1].getItem()).doDamage(mInventory[1], 10L*(long) Math.min(-mEUt / this.damageFactorLow, Math.pow(-mEUt, this.damageFactorHigh)));
+                    }
+                }
                 //check for pollution
                 int pollution=GT_Pollution.getPollutionAtCoords(aBaseMetaTileEntity.getXCoord(), aBaseMetaTileEntity.getZCoord());
                 hasPollution = pollution > 250000 || hasPollution;//HYSTERESIS :O !!! (trust me i am engineer)
@@ -347,7 +346,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                         EnumChatFormatting.RED+ (getIdealStatus() - getRepairStatus())+EnumChatFormatting.RESET+
                         " Efficiency: "+
                         EnumChatFormatting.YELLOW+Float.toString(mEfficiency / 100.0F)+EnumChatFormatting.RESET + " %",
-                "Pollution reduction: "+ EnumChatFormatting.GREEN + mPollutionReduction+ EnumChatFormatting.RESET+" gibbl/s"
+                "Pollution reduction: "+ EnumChatFormatting.GREEN + mPollutionReduction/10 + EnumChatFormatting.RESET+" gibbl/s"
         };
     }
 }
