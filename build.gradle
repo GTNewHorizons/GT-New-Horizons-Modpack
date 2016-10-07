@@ -49,7 +49,7 @@ processResources
 {
 	def cleanVersion = project.version.split('-')[1]
     // this will ensure that this task is redone when the versions change.
-    inputs.property "version", cleanVersion
+    inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
     // replace stuff in mcmod.info, nothing else
@@ -59,7 +59,7 @@ processResources
 				
 		
         // replace version and mcversion
-        expand 'version':cleanVersion, 'mcversion':project.minecraft.version
+        expand 'version':project.version, 'mcversion':project.minecraft.version
     }
         
     // copy everything else, thats not the mcmod.info
