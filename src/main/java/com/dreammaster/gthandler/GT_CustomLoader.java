@@ -139,6 +139,7 @@ public class GT_CustomLoader
     public GT_CustomLoader()
     {
     	ItemLoader = new GT_Loader_Items();
+        CasingLoader = new GT_Loader_CasingsNH();
     	MachineLoader = new GT_Loader_Machines();
     	FluidPipeLoader = new GT_Loader_FluidPipes();
     	MaterialLoader = new GT_Loader_Materials();
@@ -147,10 +148,10 @@ public class GT_CustomLoader
         MachineRecipeLoader = new GT_MachineRecipeLoader();
         CraftingRecipeLoader = new GT_CraftingRecipeLoader();
         OreDictionary = new GT_Loader_OreDictionary();
-        CasingLoader = new GT_Loader_CasingsNH();
     }
     
     private GT_Loader_Items ItemLoader = null;
+    private GT_Loader_CasingsNH CasingLoader = null;
     private GT_Loader_Machines MachineLoader = null;
     private GT_Loader_FluidPipes FluidPipeLoader = null;
     private GT_Loader_Materials MaterialLoader = null;
@@ -159,7 +160,6 @@ public class GT_CustomLoader
     private GT_MachineRecipeLoader MachineRecipeLoader = null;
     private GT_CraftingRecipeLoader CraftingRecipeLoader = null;
     private GT_Loader_OreDictionary OreDictionary = null;
-    private GT_Loader_CasingsNH CasingLoader = null;
 
     public void run()
     {
@@ -167,12 +167,12 @@ public class GT_CustomLoader
     	MaterialLoader.run();
     	FluidPipeLoader.run();
     	WireLoader.run();
+        CasingLoader.run();
     	ItemLoader.run();
     	MachineLoader.run();
     	BatteryLoader.run();
         MachineRecipeLoader.run();
         CraftingRecipeLoader.run();
         OreDictionary.run();
-        CasingLoader.run();
     }
 }
