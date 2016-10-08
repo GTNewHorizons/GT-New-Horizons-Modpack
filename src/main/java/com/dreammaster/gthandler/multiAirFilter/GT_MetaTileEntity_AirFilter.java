@@ -239,25 +239,25 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         if(mMufflerHatches.isEmpty())return false;
         //muffler check done
         //pipe casing check
-        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, one+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, one+zDir)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, one+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, one+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, one+zDir)!= 1) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, one+zDir)!= 1) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, one+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, one+zDir)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, one+zDir)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, one+zDir)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, one+zDir)!= 1) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, one+zDir)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, one+zDir)!= 1) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, zDir-one)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, zDir-one)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, zDir-one)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, zDir-one)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, one, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, one, zDir-one)!= 1) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(one+xDir, two, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(one+xDir, two, zDir-one)!= 1) return false;
 
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, zDir-one)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, zDir-one)!= 13) return false;
-        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, zDir-one)!= GregTech_API.sBlockCasings2) return false;
-        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, zDir-one)!= 13) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, one, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, one, zDir-one)!= 1) return false;
+        if(aBaseMetaTileEntity.getBlockOffset(xDir-one, two, zDir-one)!= GT_Container_CasingsNH.sBlockCasingsNH) return false;
+        if(aBaseMetaTileEntity.getMetaIDOffset(xDir-one, two, zDir-one)!= 1) return false;
         //pipe casing check done
         //bottom casing
         for (int i = -one; i < two; i++) {

@@ -30,8 +30,10 @@ public class GT_Block_CasingsNH
             Textures.BlockIcons.CASING_BLOCKS[(i + 48)] = new GT_CopiedBlockTexture(this, 6, i);
         }
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".0.name", "Air Filter Turbine Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".1.name", "Air Filter Vent Casing");//adding
 
         CustomItemList.Casing_AirFilter.set(new ItemStack(this, 1, 0));//adding
+        CustomItemList.Casing_AirFilter.set(new ItemStack(this, 1, 1));//adding
     }
 
     public IIcon getIcon(int aSide, int aMeta) {
@@ -118,6 +120,8 @@ public class GT_Block_CasingsNH
                 default:
                     return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
             }
+        }else if(tMeta==1){
+            return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
         }
         return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
     }
