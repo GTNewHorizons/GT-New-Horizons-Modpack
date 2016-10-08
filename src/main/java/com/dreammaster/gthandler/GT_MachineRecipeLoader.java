@@ -97,7 +97,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Bedrockium, 9L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.UUMatter.getMolten(1000L), GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0), 1, 122880);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Unstable, 9L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), Materials.UUMatter.getMolten(1000L), GT_ModHandler.getModItem("ExtraUtilities", "unstableingot", 1L, 2), 1, 122880);
 
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Steel, 1L), CustomItemList.TitaniumBars.get(6L, new Object[0]), ItemList.Casing_Vent.get(1L, new Object[0]), 50, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Steel, 1L), CustomItemList.TitaniumBars.get(6L, new Object[0]), CustomItemList.Casing_AirFilter_Vent.get(1L, new Object[0]), 50, 16);
 
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
