@@ -13,7 +13,7 @@ import gregtech.api.util.GT_Utility;
 
 public enum CustomItemList implements IItemContainer
 {
-	Machine_Multi_AirFilter,Casing_AirFilter,
+	Machine_Multi_AirFilter,Casing_AirFilter_Vent,Casing_AirFilter_Turbine,
 	Hatch_Dynamo_UEV, Hatch_Dynamo_UIV, Hatch_Dynamo_UMV,
 	Hatch_Energy_UEV, Hatch_Energy_UIV, Hatch_Energy_UMV,
 	Battery_Charger_4by4_UEV, Battery_Charger_4by4_UIV, Battery_Charger_4by4_UMV, Battery_Charger_4by4_UXV, Battery_Charger_4by4_OPV, Battery_Charger_4by4_MAXV,
