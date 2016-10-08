@@ -47,7 +47,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         return new String[]{
                 "Controller Block for the Air Filter",
                 "Size(WxHxD): 3x4x3 (Hollow), Controller (Front middle bottom)",
-                "8x Steel Pipe Machine Casing (Two middle Layers, corners)",
+                "8x Air Filter Vent Casing (Two middle Layers, corners)",
                 "1-8x Muffler Hatch (Two middle Layers, sides)",
                 "1x Input Bus (Any bottom layer casing)",
                 "1x Output Bus (Any bottom layer casing)",
