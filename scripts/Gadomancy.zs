@@ -334,3 +334,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.KNOWLEDGE_BOOK");
 
 // --- Essentia Condenser
 mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.ESSENTIA_COMPRESSOR");
+
+// --- Sticky Jars
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.STICKYJAR");
