@@ -1,25 +1,22 @@
 package com.dreammaster.modctt;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.StringReader;
-import java.io.StringWriter;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraftforge.event.entity.player.ItemTooltipEvent;
-
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modctt.CustomToolTips.ItemToolTip;
 import com.dreammaster.network.msg.CTTClientSyncMessage;
-
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
 import eu.usrv.yamcore.auxiliary.LogHelper;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraftforge.event.entity.player.ItemTooltipEvent;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.StringReader;
+import java.io.StringWriter;
 
 public class CustomToolTipsHandler
 {

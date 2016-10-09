@@ -1,6 +1,5 @@
 package com.dreammaster.modhazardousitems;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface IDamageEffectContainer

@@ -1,15 +1,14 @@
 package com.dreammaster.gthandler;
 
-import static gregtech.api.enums.GT_Values.W;
-
-
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import gregtech.api.interfaces.IItemContainer;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Utility;
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+
+import static gregtech.api.enums.GT_Values.W;
 
 public enum CustomItemList implements IItemContainer
 {

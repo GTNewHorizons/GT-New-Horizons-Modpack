@@ -1,12 +1,11 @@
 package com.dreammaster.auxiliary;
 
-import net.minecraft.item.ItemStack;
 import codechicken.nei.api.API;
 import codechicken.nei.api.IConfigureNEI;
-
 import com.dreammaster.item.food.QuantumBread;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
+import net.minecraft.item.ItemStack;
 
 public class NEIGTNewHorizonsConfig implements IConfigureNEI
 {

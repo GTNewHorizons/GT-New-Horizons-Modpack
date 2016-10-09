@@ -1,16 +1,13 @@
 package com.dreammaster.gthandler;
 
-import com.dreammaster.gthandler.casings.GT_Container_CasingsNH;
 import com.dreammaster.gthandler.casings.GT_Loader_CasingsNH;
+import com.dreammaster.item.ItemList;
+import com.dreammaster.item.food.QuantumBread;
+import cpw.mods.fml.common.registry.GameRegistry;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
-
-import com.dreammaster.item.ItemList;
-import com.dreammaster.item.food.QuantumBread;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * How to add new Stuff:

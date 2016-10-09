@@ -1,10 +1,10 @@
 package com.dreammaster.gthandler;
 
-import com.dreammaster.gthandler.casings.GT_Block_CasingsNH;
-import com.dreammaster.item.*;
 import cpw.mods.fml.common.Loader;
-import gregtech.api.enums.*;
 import gregtech.api.enums.ItemList;
+import gregtech.api.enums.Materials;
+import gregtech.api.enums.OrePrefixes;
+import gregtech.api.enums.ToolDictNames;
 import gregtech.api.util.GT_ModHandler;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

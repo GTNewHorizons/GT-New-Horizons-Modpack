@@ -1,15 +1,13 @@
 package com.dreammaster.fluids;
 
 
-import net.minecraft.block.material.Material;
-import net.minecraftforge.fluids.Fluid;
-
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
-
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.fluids.ModSimpleBaseFluid;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.fluids.Fluid;
 
 public enum FluidList {
 	SodiumPotassium(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("SodiumPotassium"), Material.water), ModTabList.ModFluidsTab),

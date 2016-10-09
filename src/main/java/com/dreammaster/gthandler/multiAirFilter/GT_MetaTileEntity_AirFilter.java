@@ -1,7 +1,6 @@
 package com.dreammaster.gthandler.multiAirFilter;
 
 import com.dreammaster.gthandler.casings.GT_Container_CasingsNH;
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.Textures;
 import gregtech.api.gui.GT_GUIContainer_MultiMachine;
 import gregtech.api.interfaces.ITexture;

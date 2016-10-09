@@ -1,13 +1,20 @@
 package com.dreammaster.modhazardousitems;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.Random;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-
+import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousFluid;
+import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
+import com.dreammaster.modhazardousitems.HazardousItems.ItmDamageEffect;
+import com.dreammaster.modhazardousitems.HazardousItems.ItmPotionEffect;
+import com.google.common.collect.EvictingQueue;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.TickEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
+import eu.usrv.yamcore.auxiliary.LogHelper;
+import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
+import eu.usrv.yamcore.gameregistry.PotionHelper;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -17,22 +24,12 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.MathHelper;
 import net.minecraftforge.fluids.IFluidContainerItem;
 
-import com.dreammaster.lib.Refstrings;
-import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modhazardousitems.HazardousItems.HazardousFluid;
-import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
-import com.dreammaster.modhazardousitems.HazardousItems.ItmDamageEffect;
-import com.dreammaster.modhazardousitems.HazardousItems.ItmPotionEffect;
-import com.google.common.collect.EvictingQueue;
-
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.TickEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
-import eu.usrv.yamcore.auxiliary.ItemDescriptor;
-import eu.usrv.yamcore.auxiliary.LogHelper;
-import eu.usrv.yamcore.gameregistry.DamageTypeHelper;
-import eu.usrv.yamcore.gameregistry.PotionHelper;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.Random;
 
 /**
  * Eventhandler to apply configured Damage Values to player, if they have

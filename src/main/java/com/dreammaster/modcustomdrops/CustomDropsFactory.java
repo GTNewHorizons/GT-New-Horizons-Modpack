@@ -2,7 +2,6 @@ package com.dreammaster.modcustomdrops;
 
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
 import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop.Drop;
-import com.dreammaster.modcustomfuels.CustomFuels.FuelItem;
 
 public class CustomDropsFactory
 {

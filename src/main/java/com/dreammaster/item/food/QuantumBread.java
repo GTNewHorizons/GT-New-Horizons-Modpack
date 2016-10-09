@@ -1,17 +1,9 @@
 package com.dreammaster.item.food;
 
-import java.util.List;
-
-import com.dreammaster.baubles.OvenGlove;
-import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
-
 import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
-import eu.usrv.yamcore.iface.IExtendedModItem;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -21,6 +13,8 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class QuantumBread extends ItemFood
 {

@@ -1,21 +1,6 @@
 package com.dreammaster.gthandler;
 
-import gregtech.api.GregTech_API;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.TC_Aspects;
-import gregtech.api.enums.Textures;
-import gregtech.api.interfaces.ITexture;
-import gregtech.api.objects.GT_MultiTexture;
-import gregtech.api.objects.GT_RenderedTexture;
-import gregtech.api.util.GT_ModHandler;
-import gregtech.common.covers.GT_Cover_Arm;
-import gregtech.common.covers.GT_Cover_Conveyor;
-import gregtech.common.covers.GT_Cover_Pump;
 import gregtech.common.items.GT_MetaGenerated_Item_01;
-
-import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
 
 
 public class GT_Loader_Items

@@ -1,28 +1,19 @@
 package com.dreammaster.gthandler;
 
-import com.dreammaster.gthandler.casings.GT_Block_CasingsNH;
+import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
+import com.dreammaster.gthandler.accelerator.GT_MetaTileEntity_WorldAccelerator;
 import com.dreammaster.gthandler.multiAirFilter.GT_MetaTileEntity_AirFilter;
 import com.dreammaster.gthandler.transformers.GT_MetaTileEntity_WetTransformer;
-import gregtech.GT_Mod;
+import com.dreammaster.item.food.QuantumBread;
+import gregtech.api.GregTech_API;
+import gregtech.api.enums.*;
 import gregtech.api.interfaces.ITexture;
 import gregtech.api.metatileentity.implementations.*;
-import gregtech.api.util.GT_OreDictUnificator;
-import gregtech.common.tileentities.machines.basic.*;
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemStack;
-import gregtech.api.GregTech_API;
-import gregtech.api.enums.GT_Values;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OreDictNames;
-import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Recipe;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
-
-import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
-import com.dreammaster.gthandler.accelerator.GT_MetaTileEntity_WorldAccelerator;
-import com.dreammaster.item.food.QuantumBread;
+import gregtech.common.tileentities.machines.basic.*;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumChatFormatting;
 
 public class GT_Loader_Machines

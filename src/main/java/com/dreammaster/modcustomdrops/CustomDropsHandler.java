@@ -1,15 +1,14 @@
 package com.dreammaster.modcustomdrops;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-
+import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
+import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop.Drop;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
+import eu.usrv.yamcore.auxiliary.LogHelper;
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
+import eu.usrv.yamcore.persisteddata.PersistedDataBase;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,16 +18,14 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
-import com.dreammaster.lib.Refstrings;
-import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop;
-import com.dreammaster.modcustomdrops.CustomDrops.CustomDrop.Drop;
-
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import eu.usrv.yamcore.auxiliary.ItemDescriptor;
-import eu.usrv.yamcore.auxiliary.LogHelper;
-import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
-import eu.usrv.yamcore.persisteddata.PersistedDataBase;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public class CustomDropsHandler
 {
