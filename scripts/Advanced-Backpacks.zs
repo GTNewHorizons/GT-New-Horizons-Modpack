@@ -15,7 +15,7 @@ import mods.gregtech.Brewery;
 
 
 // --- Advanced Backpack
-recipes.remove(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), true);
+recipes.remove(<adventurebackpack:adventureBackpack>);
 
 // --- Backpack Tank
 recipes.remove(<adventurebackpack:backpackComponent:2>);
