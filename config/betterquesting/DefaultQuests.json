@@ -25424,7 +25424,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        238
+      ]
     },
     {
       "questID": 333,
