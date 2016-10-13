@@ -43,6 +43,20 @@ furnace.remove(<EMT:EMTItems:8>);
 // --- Rubber Ball
 recipes.remove(<EMT:EMTItems:10>);
 
+// --- Tainted Feather
+recipes.remove(<EMT:EMTItems:13>);
+
+// --- Thaumic Reinforced Wing
+mods.thaumcraft.Arcane.removeRecipe(<EMT:EMTItems:14>);
+
+// --- Thaumic Reinforced Wings
+mods.thaumcraft.Arcane.removeRecipe(<EMT:ThaumiumWing>);
+
+// --- Nano Wings
+mods.thaumcraft.Infusion.removeRecipe(<EMT:NanosuitWing:*>);
+
+
+
 
 // --- Add Recipes ---
 
@@ -57,7 +71,7 @@ recipes.addShapeless(<TConstruct:materials:36> * 2, [<EMT:EMTItems:8>]);
 // --- Electro Magic Tools
 mods.thaumcraft.Research.orphanResearch("Electric Magic Tools");
 mods.thaumcraft.Research.removeResearch("Electric Magic Tools");
-mods.thaumcraft.Research.addResearch("ElectricMagicTools", "EMT", "terra 0", 0, 0, 0, <EMT:SuperchargedMjolnir:1>.withTag({charge: 1000000.0}));
+mods.thaumcraft.Research.addResearch("ElectricMagicTools", "EMT", "terra 0", 0, 0, 0, <dreamcraft:item.EMT>);
 mods.thaumcraft.Research.setAutoUnlock("ElectricMagicTools", true);
 mods.thaumcraft.Research.setSpikey("ElectricMagicTools", true);
 game.setLocalization("tc.research_name.ElectricMagicTools", "Electric Magic Tools");
@@ -133,6 +147,62 @@ mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:FeatherWing>, "aer 24, ter
 [<EMT:EMTItems:12>, <minecraft:string>, <EMT:EMTItems:12>]]);
 mods.thaumcraft.Research.addArcanePage("FeatherWings", <EMT:FeatherWing>);
 
+// --- Thaumium Reinforced Wings
+mods.thaumcraft.Research.orphanResearch("Thaumium Reinforced Wings");
+mods.thaumcraft.Research.removeResearch("Thaumium Reinforced Wings");
+mods.thaumcraft.Research.addResearch("ThaumiumReinforcedWings", "EMT", "aer 21, potentia 18, praecantatio 15, volatus 12, metallum 9, vitium 6, machina 3", 0, 4, 3, <EMT:ThaumiumWing>);
+mods.thaumcraft.Research.addPrereq("ThaumiumReinforcedWings", "FeatherWings", false);
+mods.thaumcraft.Research.setConcealed("ThaumiumReinforcedWings", true);
+mods.thaumcraft.Research.setRound("ThaumiumReinforcedWings", true);
+game.setLocalization("tc.research_name.ThaumiumReinforcedWings", "Thaumium Reinforced Wings");
+game.setLocalization("tc.research_text.ThaumiumReinforcedWings", "Already much better");
+mods.thaumcraft.Research.addPage("ThaumiumReinforcedWings", "tc.research_page.ThaumiumReinforcedWings");
+game.setLocalization("tc.research_page.ThaumiumReinforcedWings", "The magic infusing Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher on spacebar hit, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.");
+mods.thaumcraft.Crucible.addRecipe("ThaumiumReinforcedWings", <EMT:EMTItems:13>, <minecraft:feather>, "vitium 6, lucrum 4, fames 4");
+mods.thaumcraft.Research.addCruciblePage("ThaumiumReinforcedWings", <EMT:EMTItems:13>);
+mods.thaumcraft.Arcane.addShaped("ThaumiumReinforcedWings", <EMT:EMTItems:14>, "aer 48, terra 48, ignis 48, aqua 48, ordo 48, perditio 48", [
+[<EMT:EMTItems:13>, <ore:plateThaumium>, <ore:plateStainlessSteel>],
+[<EMT:EMTItems:13>, <ore:wireFineCobalt>, <ore:plateStainlessSteel>],
+[<EMT:EMTItems:13>, <ore:plateThaumium>, <ore:plateStainlessSteel>]]);
+mods.thaumcraft.Research.addArcanePage("ThaumiumReinforcedWings", <EMT:EMTItems:14>);
+mods.thaumcraft.Arcane.addShaped("ThaumiumReinforcedWings", <EMT:ThaumiumWing>, "aer 48, terra 48, ignis 48, aqua 48, ordo 48, perditio 48", [
+[<EMT:EMTItems:14>, <ore:wireFineCobalt>, <EMT:EMTItems:14>],
+[<EMT:EMTItems:14>,  <ore:wireFineCobalt>, <EMT:EMTItems:14>],
+[null, null, null]]);
+mods.thaumcraft.Research.addArcanePage("ThaumiumReinforcedWings", <EMT:ThaumiumWing>);
+
+// --- Nano Wings
+mods.thaumcraft.Research.orphanResearch("Nanosuit Wings");
+mods.thaumcraft.Research.removeResearch("Nanosuit Wings");
+mods.thaumcraft.Research.addResearch("NanosuitWings", "EMT", "aer 24, potentia 21, praecantatio 18, volatus 15, metallum 12, vitium 9, machina 6, terra 3", 0, 6, 4, <EMT:NanosuitWing:1>.withTag({charge: 100000.0}));
+mods.thaumcraft.Research.addPrereq("NanosuitWings", "ThaumiumReinforcedWings", false);
+mods.thaumcraft.Research.setConcealed("NanosuitWings", true);
+mods.thaumcraft.Research.setRound("NanosuitWings", true);
+game.setLocalization("tc.research_name.NanosuitWings", "Nanosuit Wings");
+game.setLocalization("tc.research_text.NanosuitWings", "Nanotechnologies to the rescue!");
+mods.thaumcraft.Research.addPage("NanosuitWings", "tc.research_page.NanosuitWings");
+game.setLocalization("tc.research_page.NanosuitWings", "Combining the magic harnessed by Thaumium with the nanotechnologies in your wings.. seemed like the logical way to go. You can thrust yourself way higher than before, and fall even slower when holding spacebar. Included: fall damage reduction, 75%.");
+mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing>,
+[<IC2:itemArmorNanoChestplate:*>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
+"aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing:26>, 5);
+mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing>);
+
+// --- Quantum Wings
+mods.thaumcraft.Research.orphanResearch("Quantum Wings");
+mods.thaumcraft.Research.removeResearch("Quantum Wings");
+mods.thaumcraft.Research.addResearch("QuantumWings", "EMT", "aer 27, potentia 24, praecantatio 21, volatus 18, metallum 15, vitium 12, machina 9, terra 6, lucrum 3", 0, 8, 4, <EMT:QuantumWing:1>.withTag({charge: 1000000.0}));
+mods.thaumcraft.Research.addPrereq("QuantumWings", "NanosuitWings", false);
+mods.thaumcraft.Research.setConcealed("QuantumWings", true);
+mods.thaumcraft.Research.setRound("QuantumWings", true);
+game.setLocalization("tc.research_name.QuantumWings", "Quantum Wings");
+game.setLocalization("tc.research_text.QuantumWings", "Quantum technologies.");
+mods.thaumcraft.Research.addPage("QuantumWings", "tc.research_page.QuantumWings");
+game.setLocalization("tc.research_page.QuantumWings", "After exploring all the possibilities of nanotechnologies, you decided to do the last jump. Quantum. You can thrust yourself many blocks high, have a very good protection, and your fall is slowed down a lot. However, the quantum unpredictability happened once again. Your fall will be completely stopped when spacebar and sneak are maintained. You don't know why, but it works. Included: fall damage reduction, 100%.");
+mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:*>,
+[<IC2:itemArmorQuantumChestplate:*>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
+"tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing:26>, 10);
+mods.thaumcraft.Research.addInfusionPage("QuantumWings", <EMT:QuantumWing>);
+
 
 
 
@@ -172,4 +242,4 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2880> * 4, <EMT:EMTItems:10>);
 
 
 // --- Feather Wings
-mods.thaumcraft.Research.refreshResearchRecipe("Feather Wings");
+//mods.thaumcraft.Research.refreshResearchRecipe("Feather Wings");
