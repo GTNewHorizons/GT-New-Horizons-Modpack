@@ -86,6 +86,7 @@ public enum ItemList
     EmeraldAdvancedCoreChip(new ModSimpleBaseItem("EmeraldAdvancedCoreChip", ModTabList.ModCircuitsTab)),
     EmeraldAdvancedFluidCoreChip(new ModSimpleBaseItem("EmeraldAdvancedFluidCoreChip", ModTabList.ModCircuitsTab)),
     EmeraldHighAdvancedCoreChip(new ModSimpleBaseItem("EmeraldHighAdvancedCoreChip", ModTabList.ModCircuitsTab)),
+    EMT(new ModSimpleBaseItem("EMT", ModTabList.ModGenericTab)),
     EnceladusIceDust(new ModSimpleBaseItem("EnceladusIceDust", ModTabList.ModSpaceTab)),
     EnceladusStoneDust(new ModSimpleBaseItem("EnceladusStoneDust", ModTabList.ModSpaceTab)),
     EnderiumBaseBars(new ModSimpleBaseItem("EnderiumBaseBars", ModTabList.ModBarsAndCasingsTab)),
