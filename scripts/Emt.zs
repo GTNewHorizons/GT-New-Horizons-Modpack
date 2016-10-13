@@ -55,6 +55,9 @@ mods.thaumcraft.Arcane.removeRecipe(<EMT:ThaumiumWing>);
 // --- Nano Wings
 mods.thaumcraft.Infusion.removeRecipe(<EMT:NanosuitWing:*>);
 
+// --- Quantum Wings
+mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumWing:*>);
+
 
 
 
@@ -174,7 +177,7 @@ mods.thaumcraft.Research.addArcanePage("ThaumiumReinforcedWings", <EMT:ThaumiumW
 // --- Nano Wings
 mods.thaumcraft.Research.orphanResearch("Nanosuit Wings");
 mods.thaumcraft.Research.removeResearch("Nanosuit Wings");
-mods.thaumcraft.Research.addResearch("NanosuitWings", "EMT", "aer 24, potentia 21, praecantatio 18, volatus 15, metallum 12, vitium 9, machina 6, terra 3", 0, 6, 4, <EMT:NanosuitWing:1>.withTag({charge: 100000.0}));
+mods.thaumcraft.Research.addResearch("NanosuitWings", "EMT", "aer 24, potentia 21, praecantatio 18, volatus 15, metallum 12, vitium 9, machina 6, terra 3", 0, 6, 4, <EMT:NanosuitWing>);
 mods.thaumcraft.Research.addPrereq("NanosuitWings", "ThaumiumReinforcedWings", false);
 mods.thaumcraft.Research.setConcealed("NanosuitWings", true);
 mods.thaumcraft.Research.setRound("NanosuitWings", true);
@@ -182,15 +185,15 @@ game.setLocalization("tc.research_name.NanosuitWings", "Nanosuit Wings");
 game.setLocalization("tc.research_text.NanosuitWings", "Nanotechnologies to the rescue!");
 mods.thaumcraft.Research.addPage("NanosuitWings", "tc.research_page.NanosuitWings");
 game.setLocalization("tc.research_page.NanosuitWings", "Combining the magic harnessed by Thaumium with the nanotechnologies in your wings.. seemed like the logical way to go. You can thrust yourself way higher than before, and fall even slower when holding spacebar. Included: fall damage reduction, 75%.");
-mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing>,
+mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing:*>,
 [<IC2:itemArmorNanoChestplate:*>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
-"aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing:26>, 5);
+"aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing>, 5);
 mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing>);
 
 // --- Quantum Wings
 mods.thaumcraft.Research.orphanResearch("Quantum Wings");
 mods.thaumcraft.Research.removeResearch("Quantum Wings");
-mods.thaumcraft.Research.addResearch("QuantumWings", "EMT", "aer 27, potentia 24, praecantatio 21, volatus 18, metallum 15, vitium 12, machina 9, terra 6, lucrum 3", 0, 8, 4, <EMT:QuantumWing:1>.withTag({charge: 1000000.0}));
+mods.thaumcraft.Research.addResearch("QuantumWings", "EMT", "aer 27, potentia 24, praecantatio 21, volatus 18, metallum 15, vitium 12, machina 9, terra 6, lucrum 3", 0, 8, 4, <EMT:QuantumWing>);
 mods.thaumcraft.Research.addPrereq("QuantumWings", "NanosuitWings", false);
 mods.thaumcraft.Research.setConcealed("QuantumWings", true);
 mods.thaumcraft.Research.setRound("QuantumWings", true);
@@ -200,8 +203,24 @@ mods.thaumcraft.Research.addPage("QuantumWings", "tc.research_page.QuantumWings"
 game.setLocalization("tc.research_page.QuantumWings", "After exploring all the possibilities of nanotechnologies, you decided to do the last jump. Quantum. You can thrust yourself many blocks high, have a very good protection, and your fall is slowed down a lot. However, the quantum unpredictability happened once again. Your fall will be completely stopped when spacebar and sneak are maintained. You don't know why, but it works. Included: fall damage reduction, 100%.");
 mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:*>,
 [<IC2:itemArmorQuantumChestplate:*>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
-"tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing:26>, 10);
+"tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing>, 10);
 mods.thaumcraft.Research.addInfusionPage("QuantumWings", <EMT:QuantumWing>);
+
+// --- Quantum Infused Chestplate
+mods.thaumcraft.Research.orphanResearch("Infused Quantum Armor");
+mods.thaumcraft.Research.removeResearch("Infused Quantum Armor");
+mods.thaumcraft.Research.addResearch("InfusedQuantumArmor", "EMT", "aer 30, potentia 27, praecantatio 24, volatus 21, metallum 18, vitium 15, machina 12, terra 9, lucrum 6, superbia 3", 0, 10, 4, <EMT:itemArmorQuantumChestplate>);
+mods.thaumcraft.Research.addPrereq("InfusedQuantumArmor", "QuantumWings", false);
+mods.thaumcraft.Research.setConcealed("InfusedQuantumArmor", true);
+mods.thaumcraft.Research.setRound("InfusedQuantumArmor", true);
+game.setLocalization("tc.research_name.InfusedQuantumArmor", "Infused Quantum Сhestplate");
+game.setLocalization("tc.research_text.InfusedQuantumArmor", "The last step is here...");
+mods.thaumcraft.Research.addPage("InfusedQuantumArmor", "tc.research_page.InfusedQuantumArmor");
+game.setLocalization("tc.research_page.InfusedQuantumArmor", "You had been nothing to do and you decided to do something useful. You had an idea in your head of making armor which you can fasten the wings or backpack for being protected in flight. Take the wings or backpack in your hands and sit down to put their on armor. To remove them, hold Shift + Unequip (see in options).");
+mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumChestplate:*>,
+[<EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>, <EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>], 
+"tutamen 72, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16, lucrum 8", <EMT:itemArmorQuantumChestplate>, 15);
+mods.thaumcraft.Research.addInfusionPage("InfusedQuantumArmor", <EMT:itemArmorQuantumChestplate>);
 
 
 
