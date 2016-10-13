@@ -67,6 +67,16 @@ mods.thaumcraft.Arcane.removeRecipe(<EMT:Diamond Omnitool:*>);
 // --- Iron Omnitool
 mods.thaumcraft.Infusion.removeRecipe(<EMT:ThaumiumOmnitool:*>);
 
+// --- Electric Boots of The Traveller
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ElectricBootsTraveller:*>);
+
+// --- Nano Boots of The Traveller
+mods.thaumcraft.Infusion.removeRecipe(<EMT:NanoBootsTraveller:*>);
+
+// --- Quantum Boots of The Traveller
+mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumBootsTraveller:*>);
+
+
 
 
 
