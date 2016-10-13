@@ -58,6 +58,15 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:NanosuitWing:*>);
 // --- Quantum Wings
 mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumWing:*>);
 
+// --- Iron Omnitool
+recipes.remove(<EMT:Omnitool:*>);
+
+// --- Diamond Omnitool
+mods.thaumcraft.Arcane.removeRecipe(<EMT:Diamond Omnitool:*>);
+
+// --- Iron Omnitool
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ThaumiumOmnitool:*>);
+
 
 
 
@@ -93,7 +102,7 @@ mods.thaumcraft.Research.addPage("DiamondChainsaw", "tc.research_page.DiamondCha
 game.setLocalization("tc.research_page.DiamondChainsaw", "You are unsure why the thought of upgrading a Chainsaw with diamonds similarly to what you have done with a Drill has never occurred to you. This upgrade makes the Chainsaw capable of holding more energy and breaking blocks faster.");
 mods.thaumcraft.Arcane.addShaped("DiamondChainsaw", <EMT:DiamondChainsaw:26>.withTag({shearsMode: 1 as byte}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
 [<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>],
-[<ore:plateDiamond>, <gregtech:gt.metatool.01:110>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <gregtech:gt.metatool.01:112>, <ore:plateDiamond>],
 [<ore:craftingToolHardHammer>, <ore:plateDiamond>, <ore:craftingToolWrench>]]);
 mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:26>.withTag({shearsMode: 1 as byte}));
 
@@ -173,6 +182,7 @@ mods.thaumcraft.Arcane.addShaped("ThaumiumReinforcedWings", <EMT:ThaumiumWing>, 
 [<EMT:EMTItems:14>,  <ore:wireFineCobalt>, <EMT:EMTItems:14>],
 [null, null, null]]);
 mods.thaumcraft.Research.addArcanePage("ThaumiumReinforcedWings", <EMT:ThaumiumWing>);
+mods.thaumcraft.Warp.addToResearch("ThaumiumReinforcedWings", 1);
 
 // --- Nano Wings
 mods.thaumcraft.Research.orphanResearch("Nanosuit Wings");
@@ -189,6 +199,7 @@ mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing:*>,
 [<IC2:itemArmorNanoChestplate:*>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
 "aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing>, 5);
 mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing>);
+mods.thaumcraft.Warp.addToResearch("NanosuitWings", 2);
 
 // --- Quantum Wings
 mods.thaumcraft.Research.orphanResearch("Quantum Wings");
@@ -205,6 +216,7 @@ mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:*>,
 [<IC2:itemArmorQuantumChestplate:*>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
 "tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing>, 10);
 mods.thaumcraft.Research.addInfusionPage("QuantumWings", <EMT:QuantumWing>);
+mods.thaumcraft.Warp.addToResearch("QuantumWings", 3);
 
 // --- Quantum Infused Chestplate
 mods.thaumcraft.Research.orphanResearch("Infused Quantum Armor");
@@ -221,11 +233,119 @@ mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumC
 [<EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>, <EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>], 
 "tutamen 72, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16, lucrum 8", <EMT:itemArmorQuantumChestplate>, 15);
 mods.thaumcraft.Research.addInfusionPage("InfusedQuantumArmor", <EMT:itemArmorQuantumChestplate>);
+mods.thaumcraft.Warp.addToResearch("InfusedQuantumArmor", 4);
+
+// --- Iron Omnitool
+mods.thaumcraft.Research.orphanResearch("Iron Omnitool");
+mods.thaumcraft.Research.removeResearch("Iron Omnitool");
+mods.thaumcraft.Research.addResearch("IronOmnitool", "EMT", "potentia 12, instrumentum 9, perfodio 6, telum 3", -2, 0, 2, <EMT:Omnitool>);
+mods.thaumcraft.Research.addPrereq("IronOmnitool", "ElectricMagicTools", false);
+mods.thaumcraft.Research.setRound("IronOmnitool", true);
+game.setLocalization("tc.research_name.IronOmnitool", "Iron Omnitool");
+game.setLocalization("tc.research_text.IronOmnitool", "Changing tools is for peasants");
+mods.thaumcraft.Research.addPage("IronOmnitool", "tc.research_page.IronOmnitool");
+game.setLocalization("tc.research_page.IronOmnitool", "While tinkering with the inner workings of some of your tools to see if magical integration is a possibility, you have discovered a way to combine the Mining Drill and the Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies! As you are working with mundane metals, magic influence is not needed to merge these tools together.");
+mods.thaumcraft.Arcane.addShaped("IronOmnitool", <EMT:Omnitool>, "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
+[<ore:screwIron>, <gregtech:gt.metatool.01:100>, <ore:screwIron>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+[<ore:craftingToolHardHammer>, <gregtech:gt.metatool.01:110>, <ore:craftingToolWrench>]]);
+mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool>);
+
+// --- Diamond Omnitool
+mods.thaumcraft.Research.orphanResearch("Diamond Omnitool");
+mods.thaumcraft.Research.removeResearch("Diamond Omnitool");
+mods.thaumcraft.Research.addResearch("DiamondOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -4, 0, 3, <EMT:Diamond Omnitool>);
+mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "IronOmnitool", false);
+mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondChainsaw", false);
+//mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondDrill", false);
+mods.thaumcraft.Research.setConcealed("DiamondOmnitool", true);
+mods.thaumcraft.Research.setRound("DiamondOmnitool", true);
+game.setLocalization("tc.research_name.DiamondOmnitool", "Diamond Omnitool");
+game.setLocalization("tc.research_text.DiamondOmnitool", "Jack of all trades");
+mods.thaumcraft.Research.addPage("DiamondOmnitool", "tc.research_page.DiamondOmnitool");
+game.setLocalization("tc.research_page.DiamondOmnitool", "Your discovery of an Iron Omnitool has driven you to try to accomplish the same with some more powerful devices. You have discovered a way to combine the Diamond Drill and the Diamond Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies, while maintaining the speed and capacity bonuses of the diamond tools. As diamonds are incredibly tough and nearly impossible to reshape once the raw diamonds have been fashioned into tools such as drills and chainsaws, you will require a little bit of magic to coax them to merge.");
+mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:*>,
+[<gregtech:gt.metatool.01:102>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
+"instrumentum 32, perfodio 24, potentia 24, metallum 16, telum 16, terra 8", <EMT:Diamond Omnitool>, 6);
+mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool>);
+
+// --- Thaumium Omnitool
+mods.thaumcraft.Research.orphanResearch("Thaumium Omnitool");
+mods.thaumcraft.Research.removeResearch("Thaumium Omnitool");
+mods.thaumcraft.Research.addResearch("ThaumiumOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -6, 0, 4, <EMT:ThaumiumOmnitool>);
+mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "DiamondOmnitool", false);
+//mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", false);
+//mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", false);
+mods.thaumcraft.Research.setConcealed("ThaumiumOmnitool", true);
+mods.thaumcraft.Research.setRound("ThaumiumOmnitool", true);
+game.setLocalization("tc.research_name.ThaumiumOmnitool", "Thaumium Omnitool");
+game.setLocalization("tc.research_text.ThaumiumOmnitool", "Mystical multitool");
+mods.thaumcraft.Research.addPage("ThaumiumOmnitool", "tc.research_page.ThaumiumOmnitool");
+game.setLocalization("tc.research_page.ThaumiumOmnitool", "After creating the Diamond and Iron Omnitools, the next logical step was to do the same with Thaumium. Unfortunately, this isn't as easy. You have discovered a way to combine the Thaumium Drill and the Thaumium Chainsaw, resulting in a tool capable of mining and chopping trees at great speed with a high energy capacity. These tools have already once been infused with magic. You are not sure what will happen if they were to be infused again.");
+mods.thaumcraft.Infusion.addRecipe("ThaumiumOmnitool", <EMT:ThaumiumChainsaw:*>,
+[<EMT:ThaumiumDrill:*>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
+"instrumentum 48, perfodio 24, potentia 32, metallum 24, telum 16, terra 8, praecantatio 16", <EMT:ThaumiumOmnitool>, 8);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumOmnitool", <EMT:ThaumiumOmnitool>);
+mods.thaumcraft.Warp.addToResearch("ThaumiumOmnitool", 1);
+
+// --- Electric Boots of The Traveller
+mods.thaumcraft.Research.orphanResearch("Electric Boots of the Traveller");
+mods.thaumcraft.Research.removeResearch("Electric Boots of the Traveller");
+mods.thaumcraft.Research.addResearch("ElectricBootsoftheTraveller", "EMT", "praecantatio 15, motus 12, potentia 9, tutamen 6, terra 3", 2, 2, 3, <EMT:ElectricBootsTraveller>);
+mods.thaumcraft.Research.addPrereq("ElectricBootsoftheTraveller", "ElectricMagicTools", false);
+mods.thaumcraft.Research.addPrereq("ElectricBootsoftheTraveller", "BOOTSTRAVELLER", false);
+mods.thaumcraft.Research.setConcealed("ElectricBootsoftheTraveller", true);
+mods.thaumcraft.Research.setRound("ElectricBootsoftheTraveller", true);
+game.setLocalization("tc.research_name.ElectricBootsoftheTraveller", "Electric Boots of the Traveller");
+game.setLocalization("tc.research_text.ElectricBootsoftheTraveller", "I've got the power");
+mods.thaumcraft.Research.addPage("ElectricBootsoftheTraveller", "tc.research_page.ElectricBootsoftheTraveller");
+game.setLocalization("tc.research_page.ElectricBootsoftheTraveller", "With lots of precise mechanical components and a touch of magic, you have recreated the effects of the Boots of the Traveller in a more stable form. These boots, unlike the original, will not wear away over time, but instead use EU. These boots negate all fall damage, and have all the normal properties of the Boots of the Traveller.");
+mods.thaumcraft.Infusion.addRecipe("ElectricBootsoftheTraveller", <Thaumcraft:BootsTraveller>,
+[<IC2:itemStaticBoots>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.blockmachines:1361>, <IC2:itemAdvBat:*>, <gregtech:gt.blockmachines:1361>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.01:17500>], 
+"motus 32, potentia 16, tutamen 32, praecantatio 8, volatus 8, iter 8", <EMT:ElectricBootsTraveller>, 3);
+mods.thaumcraft.Research.addInfusionPage("ElectricBootsoftheTraveller", <EMT:ElectricBootsTraveller>);
+
+// --- Nano Boots of The Traveller
+mods.thaumcraft.Research.orphanResearch("Nano Boots of the Traveller");
+mods.thaumcraft.Research.removeResearch("Nano Boots of the Traveller");
+mods.thaumcraft.Research.addResearch("NanoBootsoftheTraveller", "EMT", "praecantatio 18, motus 15, potentia 12, tutamen 9, terra 6, volatus 3", 4, 2, 3, <EMT:NanoBootsTraveller>);
+mods.thaumcraft.Research.addPrereq("NanoBootsoftheTraveller", "ElectricBootsoftheTraveller", false);
+mods.thaumcraft.Research.setConcealed("NanoBootsoftheTraveller", true);
+mods.thaumcraft.Research.setRound("NanoBootsoftheTraveller", true);
+game.setLocalization("tc.research_name.NanoBootsoftheTraveller", "Nano Boots of the Traveller");
+game.setLocalization("tc.research_text.NanoBootsoftheTraveller", "Speed demon");
+mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.NanoBootsoftheTraveller");
+game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "Your Electric Boots of the Traveller are nice, but you think you can do better. You have found a way to upgrade these boots to the Nano tier, improving the mechanical components and improving the spell cast on the footwear. These boots allow for higher jumps and faster running than before.");
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
+[<IC2:itemArmorNanoBoots:*>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
+"motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller>, 6);
+mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller>);
+mods.thaumcraft.Warp.addToResearch("NanoBootsoftheTraveller", 1);
+
+// --- Quantum Boots of The Traveller
+mods.thaumcraft.Research.orphanResearch("Quantum Boots of the Traveller");
+mods.thaumcraft.Research.removeResearch("Quantum Boots of the Traveller");
+mods.thaumcraft.Research.addResearch("QuantumBootsoftheTraveller", "EMT", "praecantatio 21, motus 18, potentia 15, tutamen 12, terra 9, volatus 6, auram 3", 6, 2, 4, <EMT:QuantumBootsTraveller>);
+mods.thaumcraft.Research.addPrereq("QuantumBootsoftheTraveller", "NanoBootsoftheTraveller", false);
+mods.thaumcraft.Research.setConcealed("QuantumBootsoftheTraveller", true);
+mods.thaumcraft.Research.setRound("QuantumBootsoftheTraveller", true);
+game.setLocalization("tc.research_name.QuantumBootsoftheTraveller", "Quantum Boots of the Traveller");
+game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "Faster than light");
+mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
+game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast, that you appear to be in multiple places at once. But do not forget what happened to Schrodinger's cat...");
+mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:*>,
+[<IC2:itemArmorQuantumBoots:*>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemBatLamaCrystal:*>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
+"motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller>, 9);
+mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller>);
+mods.thaumcraft.Warp.addToResearch("QuantumBootsoftheTraveller", 2);
+
 
 
 
 
 // --- Assembler Recipes
+
+
 
 
 // --- Duct Tape
