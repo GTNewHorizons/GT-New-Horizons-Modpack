@@ -76,6 +76,25 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:NanoBootsTraveller:*>);
 // --- Quantum Boots of The Traveller
 mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumBootsTraveller:*>);
 
+// --- Thaumium Drill
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ThaumiumDrill:*>);
+
+// --- Drill of The Rockbreaker
+mods.thaumcraft.Infusion.removeRecipe(<EMT:DrillRockbreaker:*>);
+
+// --- Thaumium Chainsaw
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ThaumiumChainsaw:*>);
+
+// --- Chainsaw of The Stream
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ChainsawStream:*>);
+
+// --- Armor Charging Ring
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTBaubles>);
+
+// --- Inventory Charging Ring
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTBaubles:1>);
+
+
 
 
 
@@ -284,8 +303,8 @@ mods.thaumcraft.Research.orphanResearch("Thaumium Omnitool");
 mods.thaumcraft.Research.removeResearch("Thaumium Omnitool");
 mods.thaumcraft.Research.addResearch("ThaumiumOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -6, 0, 4, <EMT:ThaumiumOmnitool>);
 mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "DiamondOmnitool", false);
-//mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", false);
-//mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", false);
+mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", false);
+mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", false);
 mods.thaumcraft.Research.setConcealed("ThaumiumOmnitool", true);
 mods.thaumcraft.Research.setRound("ThaumiumOmnitool", true);
 game.setLocalization("tc.research_name.ThaumiumOmnitool", "Thaumium Omnitool");
@@ -348,6 +367,108 @@ mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsT
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller>);
 mods.thaumcraft.Warp.addToResearch("QuantumBootsoftheTraveller", 2);
+
+// --- Thaumium Drill
+mods.thaumcraft.Research.orphanResearch("Thaumium Drill");
+mods.thaumcraft.Research.removeResearch("Thaumium Drill");
+mods.thaumcraft.Research.addResearch("ThaumiumDrill", "EMT", "instrumentum 18, perfodio 15, potentia 12, lucrum 9, praecantatio 6, ignis 3", 2, 0, 3, <EMT:ThaumiumDrill>);
+mods.thaumcraft.Research.addPrereq("ThaumiumDrill", "ElectricMagicTools", false);
+mods.thaumcraft.Research.setConcealed("ThaumiumDrill", true);
+mods.thaumcraft.Research.setRound("ThaumiumDrill", true);
+game.setLocalization("tc.research_name.ThaumiumDrill", "Thaumium Drill");
+game.setLocalization("tc.research_text.ThaumiumDrill", "Magical mining");
+mods.thaumcraft.Research.addPage("ThaumiumDrill", "tc.research_page.ThaumiumDrill");
+game.setLocalization("tc.research_page.ThaumiumDrill", "You have discovered a way to infuse Thaumium with mundane electricity. Fusing Thaumium to a Diamond Drill results in a tool that can dig through stone faster and has a higher capacity.<BR><BR>While Thaumium is a very useful and powerful material, it is nowhere near the strength of Iridium. It is considered a mid-tier tool. <BR><BR>This tool may not be the most powerful, but you have a feeling that you will be able to upgrade it in the near future.");
+mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>,
+[<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
+"instrumentum 32, perfodio 16, potentia 32, lucrum 24, praecantatio 8", <EMT:ThaumiumDrill>, 7);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumDrill", <EMT:ThaumiumDrill>);
+mods.thaumcraft.Warp.addToResearch("ThaumiumDrill", 1);
+
+// --- Drill of The Rockbreaker
+mods.thaumcraft.Research.orphanResearch("Drill of the Rockbreaker");
+mods.thaumcraft.Research.removeResearch("Drill of the Rockbreaker");
+mods.thaumcraft.Research.addResearch("DrilloftheRockbreaker", "EMT", "instrumentum 21, perfodio 18, potentia 15, lucrum 12, praecantatio 9, ignis 6, terra 3", 4, 0, 4, <EMT:DrillRockbreaker>);
+mods.thaumcraft.Research.addPrereq("DrilloftheRockbreaker", "ThaumiumDrill", false);
+mods.thaumcraft.Research.setConcealed("DrilloftheRockbreaker", true);
+mods.thaumcraft.Research.setRound("DrilloftheRockbreaker", true);
+game.setLocalization("tc.research_name.DrilloftheRockbreaker", "Drill of the Rockbreaker");
+game.setLocalization("tc.research_text.DrilloftheRockbreaker", "Mining it big");
+mods.thaumcraft.Research.addPage("DrilloftheRockbreaker", "tc.research_page.DrilloftheRockbreaker");
+game.setLocalization("tc.research_page.DrilloftheRockbreaker", "After studying the Pickaxe of the Core, the Shovel of the Earthmover and the Thaumium Drill, you have managed to combine most of their abilities, resulting in an electric tool that can mine a whole 3x3x1 area of pickaxe and dirt materials very quickly.<BR><BR>This marvelous device is able to find the closest ore clusters on a shift-right click, though at the cost of some EU.");
+mods.thaumcraft.Infusion.addRecipe("DrilloftheRockbreaker", <EMT:ThaumiumDrill:*>,
+[<Thaumcraft:ItemShovelElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemPickaxeElemental>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
+"instrumentum 48, perfodio 24, potentia 48, lucrum 32, praecantatio 16, ignis 8", <EMT:DrillRockbreaker>, 10);
+mods.thaumcraft.Research.addInfusionPage("DrilloftheRockbreaker", <EMT:DrillRockbreaker>);
+mods.thaumcraft.Warp.addToResearch("DrilloftheRockbreaker", 2);
+
+// --- Thaumium Chainsaw
+mods.thaumcraft.Research.orphanResearch("Thaumium Chainsaw");
+mods.thaumcraft.Research.removeResearch("Thaumium Chainsaw");
+mods.thaumcraft.Research.addResearch("ThaumiumChainsaw", "EMT", "instrumentum 18, telum 15, potentia 12, lucrum 9, praecantatio 6, aer 3", 0, -4, 3, <EMT:ThaumiumChainsaw>);
+mods.thaumcraft.Research.addPrereq("ThaumiumChainsaw", "DiamondChainsaw", false);
+mods.thaumcraft.Research.setConcealed("ThaumiumChainsaw", true);
+mods.thaumcraft.Research.setRound("ThaumiumChainsaw", true);
+game.setLocalization("tc.research_name.ThaumiumChainsaw", "Thaumium Chainsaw");
+game.setLocalization("tc.research_text.ThaumiumChainsaw", "Felling trees and severing heads with a touch of magic.");
+mods.thaumcraft.Research.addPage("ThaumiumChainsaw", "tc.research_page.ThaumiumChainsaw");
+game.setLocalization("tc.research_page.ThaumiumChainsaw", "You have found a way to fuse Thaumium to a Diamond Chainsaw, allowing it to fell trees quicker and hold more power. Nevertheless, these ameliorations do not come without drawbacks: during the process of fusing these materials, the chainsaw loses its ability to shear foliage, tall grass, and animals.<BR><BR>You have an intuition you will be able to upgrade this tool in the near future.");
+mods.thaumcraft.Infusion.addRecipe("ThaumiumChainsaw", <EMT:DiamondChainsaw:*>,
+[<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
+"instrumentum 32, telum 24, potentia 24, lucrum 16, praecantatio 8", <EMT:ThaumiumChainsaw>, 7);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumChainsaw", <EMT:ThaumiumChainsaw>);
+mods.thaumcraft.Warp.addToResearch("ThaumiumChainsaw", 1);
+
+// --- Chainsaw of The Stream
+mods.thaumcraft.Research.orphanResearch("Chainsaw of the Stream");
+mods.thaumcraft.Research.removeResearch("Chainsaw of the Stream");
+mods.thaumcraft.Research.addResearch("ChainsawoftheStream", "EMT", "instrumentum 21 telum 18, potentia 15, lucrum 12, praecantatio 9, aer 6, arbor 3", 0, -6, 4, <EMT:ChainsawStream>);
+mods.thaumcraft.Research.addPrereq("ChainsawoftheStream", "ThaumiumChainsaw", false);
+mods.thaumcraft.Research.setConcealed("ChainsawoftheStream", true);
+mods.thaumcraft.Research.setRound("ChainsawoftheStream", true);
+game.setLocalization("tc.research_name.ChainsawoftheStream", "Chainsaw of the Stream");
+game.setLocalization("tc.research_text.ChainsawoftheStream", "Felling trees in a single swoop");
+mods.thaumcraft.Research.addPage("ChainsawoftheStream", "tc.research_page.ChainsawoftheStream");
+game.setLocalization("tc.research_page.ChainsawoftheStream", "After studying both the Axe of the Stream and the Thaumium Chainsaw, you managed to combine most of their abilities, resulting in an electric tool that can chop down whole trees without much effort.");
+mods.thaumcraft.Infusion.addRecipe("ChainsawoftheStream", <EMT:ThaumiumChainsaw:*>,
+[<Thaumcraft:ItemAxeElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Railcraft:tool.steel.shears>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
+"instrumentum 48, telum 32, potentia 32, lucrum 24, praecantatio 16, aer 8", <EMT:ChainsawStream>, 10);
+mods.thaumcraft.Research.addInfusionPage("ChainsawoftheStream", <EMT:ChainsawStream>);
+mods.thaumcraft.Warp.addToResearch("ChainsawoftheStream", 2);
+
+// --- Inventory Charging Ring
+mods.thaumcraft.Research.orphanResearch("Inventory Charging Ring");
+mods.thaumcraft.Research.removeResearch("Inventory Charging Ring");
+mods.thaumcraft.Research.addResearch("InventoryChargingRing", "EMT", "potentia 15, vitreus 12, praecantatio 9, electrum 6, auram 3", 0, -8, 3, <EMT:EMTBaubles:1>);
+mods.thaumcraft.Research.addPrereq("InventoryChargingRing", "ElectricMagicTools", false);
+mods.thaumcraft.Research.setConcealed("InventoryChargingRing", true);
+mods.thaumcraft.Research.setRound("InventoryChargingRing", true);
+game.setLocalization("tc.research_name.InventoryChargingRing", "Inventory Charging Ring");
+game.setLocalization("tc.research_text.InventoryChargingRing", "Passive charger");
+mods.thaumcraft.Research.addPage("InventoryChargingRing", "tc.research_page.InventoryChargingRing");
+game.setLocalization("tc.research_page.InventoryChargingRing", "While other thaumaturgists use rings to charge their runic shields, you feel that there are better applications for them.  By fusing power sources into a mundane ring, you have learned how to funnel its charging effects into electric items in your inventory instead. It doesn't generate much at only 32 EU per tick, but that just means there's room for improvement.");
+mods.thaumcraft.Infusion.addRecipe("InventoryChargingRing", <Thaumcraft:ItemBaubleBlanks:1>,
+[<IC2:itemBatLamaCrystal:*>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.metaitem.01:32751>], 
+"potentia 64, vitreus 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles:1>, 7);
+mods.thaumcraft.Research.addInfusionPage("InventoryChargingRing", <EMT:EMTBaubles:1>);
+mods.thaumcraft.Warp.addToResearch("InventoryChargingRing", 2);
+
+// --- Armor Charging Ring
+mods.thaumcraft.Research.orphanResearch("Armor Charging Ring");
+mods.thaumcraft.Research.removeResearch("Armor Charging Ring");
+mods.thaumcraft.Research.addResearch("ArmorChargingRing", "EMT", "potentia 15, tutamen 12, praecantatio 9, electrum 6, auram 3", 0, -10, 3, <EMT:EMTBaubles>);
+mods.thaumcraft.Research.addPrereq("ArmorChargingRing", "InventoryChargingRing", false);
+mods.thaumcraft.Research.setConcealed("ArmorChargingRing", true);
+mods.thaumcraft.Research.setRound("ArmorChargingRing", true);
+game.setLocalization("tc.research_name.ArmorChargingRing", "Armor Charging Ring");
+game.setLocalization("tc.research_text.ArmorChargingRing", "Passive life-saver");
+mods.thaumcraft.Research.addPage("ArmorChargingRing", "tc.research_page.ArmorChargingRing");
+game.setLocalization("tc.research_page.ArmorChargingRing", "You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power.  By infusing a few more power sources and a piece of armor, you have found a way to have it do just that.  Sadly, the new power sources do not increase the recharge rate, but progress is progress.");
+mods.thaumcraft.Infusion.addRecipe("ArmorChargingRing", <Thaumcraft:ItemBaubleBlanks:1>,
+[<IC2:itemBatLamaCrystal:*>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.metaitem.01:32751>],
+"potentia 64, tutamen 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles>, 8);
+mods.thaumcraft.Research.addInfusionPage("ArmorChargingRing", <EMT:EMTBaubles>);
+mods.thaumcraft.Warp.addToResearch("ArmorChargingRing", 2);
 
 
 
