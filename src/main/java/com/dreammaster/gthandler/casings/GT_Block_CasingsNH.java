@@ -57,6 +57,9 @@ public class GT_Block_CasingsNH
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(IBlockAccess aWorld, int xCoord, int yCoord, int zCoord, int aSide) {
         int tMeta = aWorld.getBlockMetadata(xCoord, yCoord, zCoord);
+        if(tMeta==1){
+            return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
+        }
         if (tMeta != 0 || (!mConnectedMachineTextures)) {
             return getIcon(aSide, tMeta);
         }
@@ -121,8 +124,6 @@ public class GT_Block_CasingsNH
                 default:
                     return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
             }
-        }else if(tMeta==1){
-            return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
         }
         return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
     }

@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler.multiAirFilter;
 
+import com.dreammaster.gthandler.CustomItemList;
 import com.dreammaster.gthandler.casings.GT_Container_CasingsNH;
 import gregtech.api.enums.Textures;
 import gregtech.api.gui.GT_GUIContainer_MultiMachine;
@@ -10,6 +11,7 @@ import gregtech.api.items.GT_MetaGenerated_Tool;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Muffler;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
 import gregtech.api.objects.GT_RenderedTexture;
+import gregtech.api.util.GT_Recipe;
 import gregtech.api.util.GT_Utility;
 import gregtech.common.GT_Pollution;
 import gregtech.common.items.GT_MetaGenerated_Tool_01;
@@ -18,6 +20,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.ChunkPosition;
 import net.minecraftforge.common.util.ForgeDirection;
+
+import java.util.*;
 
 import static gregtech.api.enums.GT_Values.V;
 
@@ -28,7 +32,10 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
     protected int mPollutionReduction=0;
     protected int baseEff = 2500;
     protected boolean hasPollution=false;
-
+    final static GT_Recipe tRecipe= new GT_Recipe(
+            new ItemStack[]{CustomItemList.AdsorptionFilter.get(1L, new Object())},
+            new ItemStack[]{CustomItemList.AdsorptionFilterDirty.get(1L,new Object())},
+            null, null, null, null, 1, 1, 0);
 
     public GT_MetaTileEntity_AirFilter(int aID, String aName, String aNameRegional) {
         super(aID, aName, aNameRegional);
@@ -126,7 +133,32 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
             this.mEUt = (-this.mEUt);
         }
 
-        updateSlots();
+
+
+        ArrayList<ItemStack> tInputList = getStoredInputs();
+        int tInputList_sS=tInputList.size();
+        for (int i = 0; i < tInputList_sS - 1; i++) {
+            for (int j = i + 1; j < tInputList_sS; j++) {
+                if (GT_Utility.areStacksEqual((ItemStack) tInputList.get(i), (ItemStack) tInputList.get(j))) {
+                    if (((ItemStack) tInputList.get(i)).stackSize >= ((ItemStack) tInputList.get(j)).stackSize) {
+                        tInputList.remove(j--); tInputList_sS=tInputList.size();
+                    } else {
+                        tInputList.remove(i--); tInputList_sS=tInputList.size();
+                        break;
+                    }
+                }
+            }
+        }
+        ItemStack[] tInputs = (ItemStack[]) Arrays.copyOfRange(tInputList.toArray(new ItemStack[tInputList.size()]), 0, 2);
+        if (tInputList.size() > 0) {
+            if (tRecipe.isRecipeInputEqual(true, null, tInputs)) {
+                mPollutionReduction*=2;
+                this.mOutputItems = new ItemStack[]{tRecipe.getOutput(0)};
+
+                updateSlots();
+                return true;
+            }
+        }
         return true;
     }
 
