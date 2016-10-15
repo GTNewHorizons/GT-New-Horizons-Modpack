@@ -65,8 +65,8 @@ mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.2");
 game.setLocalization("Witchery.research_page.OVEN.2", "Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.");
 mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 25, ignis 25, terra 25", [
 [<ore:plateSteel>, <ore:plateThaumium>, <ore:plateSteel>],
-[<dreamcraft:item.SteelBars>, <IC2:blockMachine:1>, <dreamcraft:item.SteelBars>],
-[<ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"}), null, <ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"})]]);
+[<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
+[<ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"}), <IC2:blockMachine:1>, <ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"})]]);
 mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
 
 // --- Fume Funnel
