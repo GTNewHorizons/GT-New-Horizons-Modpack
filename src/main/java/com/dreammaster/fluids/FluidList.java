@@ -17,6 +17,7 @@ public enum FluidList {
 	Ammonia(ExtendedFluidCollection.getAmmonia(), ModTabList.ModFluidsTab),
 	CompressedOxygen(ExtendedFluidCollection.getCompressedOxygen(), ModTabList.ModFluidsTab),
 	CompressedNitrogen(ExtendedFluidCollection.getCompressedNitrogen(), ModTabList.ModFluidsTab),
+	Pollution(ExtendedFluidCollection.getPollution(), ModTabList.ModFluidsTab),
 
 	// Do not delete this
 	EndOfList(null, null);
