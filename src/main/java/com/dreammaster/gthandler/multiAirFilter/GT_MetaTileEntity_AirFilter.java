@@ -147,7 +147,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
 
                 for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
                     if (isValidMetaTileEntity(tHatch)) {
-                        mPollutionReduction+=tHatch.mTier*50;
+                        mPollutionReduction+=Math.min(tTier*2,tHatch.mTier)*50;
                     }
                 }
                 updateSlots();
