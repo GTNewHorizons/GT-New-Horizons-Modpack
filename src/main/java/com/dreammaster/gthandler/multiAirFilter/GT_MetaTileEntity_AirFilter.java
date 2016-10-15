@@ -60,7 +60,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                 "1x Energy Hatch (Any bottom layer casing)",
                 "1x Maintenance Hatch (Any bottom layer casing)",
                 "Air Filter Turbine Casings for the rest",
-                "Can accept catalysts and turbine (in controller)",
+                "Can accept Adsorption filters, Turbine (in controller)",
                 "Machine tier limits max muffler effect",
                 "Features Hysteresis control (tm)"};
     }
@@ -107,15 +107,6 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         long tVoltage = getMaxInputVoltage();
         byte tTier = (byte) Math.max(1, GT_Utility.getTier(tVoltage));
 
-        for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
-            if (isValidMetaTileEntity(tHatch)) {
-                mPollutionReduction+=Math.min(tTier,tHatch.mTier)*50;
-            }
-        }
-
-        //TODO add "recipes" (catalyst - bigger baseEff, and slag output)
-
-
         mPollutionReduction=GT_Utility.safeInt((long)mPollutionReduction*baseEff)/10000;
 
         this.mEfficiency = (10000 - (getIdealStatus() - getRepairStatus()) * 1000);
@@ -132,8 +123,6 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         if (this.mEUt > 0) {
             this.mEUt = (-this.mEUt);
         }
-
-
 
         ArrayList<ItemStack> tInputList = getStoredInputs();
         int tInputList_sS=tInputList.size();
@@ -155,8 +144,20 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                 mPollutionReduction*=2;
                 this.mOutputItems = new ItemStack[]{tRecipe.getOutput(0)};
 
+
+                for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
+                    if (isValidMetaTileEntity(tHatch)) {
+                        mPollutionReduction+=tHatch.mTier*50;
+                    }
+                }
                 updateSlots();
                 return true;
+            }
+        }
+
+        for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
+            if (isValidMetaTileEntity(tHatch)) {
+                mPollutionReduction+=Math.min(tTier,tHatch.mTier)*50;
             }
         }
         return true;
