@@ -4,6 +4,7 @@ import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
 import com.dreammaster.gthandler.accelerator.GT_MetaTileEntity_WorldAccelerator;
 import com.dreammaster.gthandler.multiAirFilter.GT_MetaTileEntity_AirFilter;
 import com.dreammaster.gthandler.transformers.GT_MetaTileEntity_WetTransformer;
+import com.dreammaster.gthandler.turboCharger.GT_MetaTileEntity_TurboCharger;
 import com.dreammaster.item.food.QuantumBread;
 import gregtech.api.GregTech_API;
 import gregtech.api.enums.*;
@@ -2712,16 +2713,16 @@ public class GT_Loader_Machines
 				11281, "batterycharger.16.tier.11", "Insanely Ultimate Battery Charger",11,"", 4).getStackForm(1L));
 
 		CustomItemList.Battery_Charger_4by4_UMV.set(new GT_MetaTileEntity_Charger(
-				11282, "batterycharger.16.tier.12", "Mega Ultimate Charger",12,"", 4).getStackForm(1L));
+				11282, "batterycharger.16.tier.12", "Mega Ultimate Battery Charger",12,"", 4).getStackForm(1L));
 
-		CustomItemList.Battery_Charger_4by4_UXV.set(new GT_MetaTileEntity_Charger(
-				11283, "batterycharger.16.tier.13", "Extended Mega Ultimate Charger",13,"", 4).getStackForm(1L));
+		//CustomItemList.Battery_Charger_4by4_UXV.set(new GT_MetaTileEntity_Charger(
+		//		11283, "batterycharger.16.tier.13", "Extended Mega Ultimate Battery Charger",13,"", 4).getStackForm(1L));
 
-		CustomItemList.Battery_Charger_4by4_OPV.set(new GT_MetaTileEntity_Charger(
-				11284, "batterycharger.16.tier.14", "Overpowered Battery Charger",14,"", 4).getStackForm(1L));
+		//CustomItemList.Battery_Charger_4by4_OPV.set(new GT_MetaTileEntity_Charger(
+		//		11284, "batterycharger.16.tier.14", "Overpowered Battery Charger",14,"", 4).getStackForm(1L));
 
-		CustomItemList.Battery_Charger_4by4_MAXV.set(new GT_MetaTileEntity_Charger(
-				11285, "batterycharger.16.tier.15", "Maximum Battery Charger",15,"", 4).getStackForm(1L));
+		//CustomItemList.Battery_Charger_4by4_MAXV.set(new GT_MetaTileEntity_Charger(
+		//		11285, "batterycharger.16.tier.15", "Maximum Battery Charger",15,"", 4).getStackForm(1L));
 
 		//TODO:Recipes
 
@@ -2911,19 +2912,167 @@ public class GT_Loader_Machines
 				12014, "wettransformer.tier.14", "Overpowered Power Transformer",14,
 				"MAX -> OPV (Use Soft Hammer to invert)").getStackForm(1L));
 
-		//TODO: Crafting recipes,
-		//TODO: Add Mineral Oil, distill of fuel/light fuel/heavy fuel - into mineral oil, doable at tier 1 cheap fast
-		//Crafting like -transformers- but use 2x thicker wires and a cell of mineral oil on the right middle slot
-		//						     and Coils in the last 2 free slots on left (using the higher tier wire material)
-		//						     just look at the current transformer recipes
-
-		//                           You can also replace the middle part with the cheap transformer equivalent
-
-
 		// ===================================================================================================
-		// MULTIBLOCKS
+		// MULTIBLOCKS ID space up to 12039
 		// ===================================================================================================
 		CustomItemList.Machine_Multi_AirFilter.set(new GT_MetaTileEntity_AirFilter(12020, "multimachine.airfilter", "Electric Air Filter").getStackForm(1L));
+
+
+
+		// ===================================================================================================
+		// Turbo Chargers
+		// ===================================================================================================
+		CustomItemList.Battery_TurboCharger_4by4_ULV.set(new GT_MetaTileEntity_TurboCharger(
+				12040, "batteryturbocharger.16.tier.00", "Ultra Low Voltage Turbo Charger",0,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ULV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_LV_ULV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_ULV,
+						Character.valueOf('B'), ItemList.Battery_RE_ULV_Tantalum,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Lead),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Primitive)});
+
+		CustomItemList.Battery_TurboCharger_4by4_LV.set(new GT_MetaTileEntity_TurboCharger(
+				12041, "batteryturbocharger.16.tier.01", "Low Voltage Turbo Charger",1,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_MV_LV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_LV,
+						Character.valueOf('B'), ItemList.Battery_RE_LV_Lithium,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Tin),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Basic)});
+
+		CustomItemList.Battery_TurboCharger_4by4_MV.set(new GT_MetaTileEntity_TurboCharger(
+				12042, "batteryturbocharger.16.tier.02", "Medium Voltage Turbo Charger",2,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_MV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_HV_MV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_MV,
+						Character.valueOf('B'), ItemList.Battery_RE_MV_Lithium,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.AnyCopper),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Good)});
+
+		CustomItemList.Battery_TurboCharger_4by4_HV.set(new GT_MetaTileEntity_TurboCharger(
+				12043, "batteryturbocharger.16.tier.03", "High Voltage Turbo Charger",3,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_HV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_EV_HV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_HV,
+						Character.valueOf('B'), ItemList.Battery_RE_HV_Lithium,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Gold),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Advanced)});
+
+		CustomItemList.Battery_TurboCharger_4by4_EV.set(new GT_MetaTileEntity_TurboCharger(
+				12044, "batteryturbocharger.16.tier.04", "Extreme Voltage Turbo Charger",4,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_EV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_IV_EV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_EV,
+						Character.valueOf('B'), OrePrefixes.battery.get(Materials.Master),
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Aluminium),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Data)});
+
+		CustomItemList.Battery_TurboCharger_4by4_IV.set(new GT_MetaTileEntity_TurboCharger(
+				12045, "batteryturbocharger.16.tier.05", "Insane Voltage Turbo Charger",5,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_IV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_LuV_IV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_IV,
+						Character.valueOf('B'), ItemList.Energy_LapotronicOrb,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Tungsten),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Elite)});
+
+		CustomItemList.Battery_TurboCharger_4by4_LuV.set(new GT_MetaTileEntity_TurboCharger(
+				12046, "batteryturbocharger.16.tier.06", "Ludicrous Voltage Turbo Charger",6,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LuV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_ZPM_LuV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_LuV,
+						Character.valueOf('B'), ItemList.Energy_LapotronicOrb2,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.VanadiumGallium),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Master)});
+
+		CustomItemList.Battery_TurboCharger_4by4_ZPM.set(new GT_MetaTileEntity_TurboCharger(
+				12047, "batteryturbocharger.16.tier.07", "ZPM Voltage Turbo Charger",7,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ZPM.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_UV_ZPM,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_ZPM,
+						Character.valueOf('B'), ItemList.Energy_LapotronicOrb2,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.Naquadah),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Ultimate)});
+
+		CustomItemList.Battery_TurboCharger_4by4_UV.set(new GT_MetaTileEntity_TurboCharger(
+				12048, "batteryturbocharger.16.tier.08", "Ultimate Voltage Turbo Charger",8,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_UHV_UV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_UV,
+						Character.valueOf('B'), ItemList.ZPM2,
+						Character.valueOf('C'), OrePrefixes.cableGt16.get(Materials.NaquadahAlloy),
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Ultimate)});
+
+		CustomItemList.Battery_TurboCharger_4by4_UHV.set(new GT_MetaTileEntity_TurboCharger(
+				12049, "batteryturbocharger.16.tier.09", "Highly Ultimate Voltage Turbo Charger",9,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"BTB", "CMC", "BXB",
+						Character.valueOf('T'), CustomItemList.WetTransformer_UEV_UHV,
+						Character.valueOf('M'), ItemList.Battery_Charger_4by4_MAX,
+						Character.valueOf('B'), ItemList.ZPM2,
+						Character.valueOf('C'), OrePrefixes.wireGt16.get(Materials.Superconductor),//DONT COPY THIS it has superconductor: cable->wire
+						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Ultimate)});
+
+		//CustomItemList.Battery_TurboCharger_4by4_UEV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12050, "batteryturbocharger.16.tier.10", "Extremely Ultimate Turbo Charger",10,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		//CustomItemList.Battery_TurboCharger_4by4_UIV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12051, "batteryturbocharger.16.tier.11", "Insanely Ultimate Turbo Charger",11,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		//CustomItemList.Battery_TurboCharger_4by4_UMV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12052, "batteryturbocharger.16.tier.12", "Mega Ultimate Turbo Charger",12,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		//CustomItemList.Battery_TurboCharger_4by4_UXV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12053, "batteryturbocharger.16.tier.13", "Extended Mega Ultimate Turbo Charger",13,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		//CustomItemList.Battery_TurboCharger_4by4_OPV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12054, "batteryturbocharger.16.tier.14", "Overpowered Turbo Charger",14,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+		//CustomItemList.Battery_TurboCharger_4by4_MAXV.set(new GT_MetaTileEntity_TurboCharger(
+		//		12055, "batteryturbocharger.16.tier.15", "Maximum Turbo Charger",15,"128A in (can be at Tier+1)/16A out", 4).getStackForm(1L));
+
+
+
+
 
 		/**
 		 * A List of all registered MetaTileEntities
