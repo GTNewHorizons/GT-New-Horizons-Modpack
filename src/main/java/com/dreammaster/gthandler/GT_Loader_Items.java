@@ -428,6 +428,9 @@ public class GT_Loader_Items
 		CustomItemList.MysteriousCrystalDust.set(com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
 		CustomItemList.IndustryFrame.set(com.dreammaster.item.ItemList.IndustryFrame.getIS());
 		CustomItemList.TCetiEStoneDust.set(com.dreammaster.item.ItemList.TCetiEStoneDust.getIS());
+		CustomItemList.AdsorptionFilterCasing.set(com.dreammaster.item.ItemList.AdsorptionFilterCasing.getIS());
+		CustomItemList.AdsorptionFilter.set(com.dreammaster.item.ItemList.AdsorptionFilter.getIS());
+		CustomItemList.AdsorptionFilterDirty.set(com.dreammaster.item.ItemList.AdsorptionFilterDirty.getIS());
 	}
 
 }
