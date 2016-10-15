@@ -3691,7 +3691,9 @@
           "rewardID": "bq_standard:choice"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        36
+      ]
     },
     {
       "questID": 46,
@@ -5970,7 +5972,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        18
+      ]
     },
     {
       "questID": 75,
@@ -6114,7 +6118,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        36
+      ]
     },
     {
       "questID": 76,
@@ -6258,7 +6264,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        44
+      ]
     },
     {
       "questID": 77,
@@ -6408,7 +6416,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        88
+      ]
     },
     {
       "questID": 78,
@@ -6635,7 +6645,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        89
+      ]
     },
     {
       "questID": 81,
@@ -6725,7 +6737,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        160
+      ]
     },
     {
       "questID": 82,
@@ -6849,7 +6863,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        77
+      ]
     },
     {
       "questID": 84,
@@ -7007,7 +7023,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        89
+      ]
     },
     {
       "questID": 86,
@@ -7159,7 +7177,8 @@
         }
       ],
       "preRequisites": [
-        45
+        45,
+        65
       ]
     },
     {
@@ -44449,12 +44468,12 @@
         },
         {
           "id": 80,
-          "x": 48,
+          "x": 96,
           "y": 72
         },
         {
           "id": 81,
-          "x": 96,
+          "x": 192,
           "y": 72
         },
         {
@@ -44465,12 +44484,12 @@
         {
           "id": 83,
           "x": 48,
-          "y": 144
+          "y": 72
         },
         {
           "id": 85,
-          "x": 0,
-          "y": 144
+          "x": 144,
+          "y": 72
         },
         {
           "id": 86,
@@ -44489,18 +44508,18 @@
         },
         {
           "id": 475,
-          "x": 144,
-          "y": 108
+          "x": 96,
+          "y": 144
         },
         {
           "id": 476,
-          "x": 192,
-          "y": 108
+          "x": 48,
+          "y": 144
         },
         {
           "id": 477,
-          "x": 240,
-          "y": 108
+          "x": 0,
+          "y": 144
         }
       ]
     },
