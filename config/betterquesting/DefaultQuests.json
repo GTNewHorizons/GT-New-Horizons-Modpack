@@ -12277,7 +12277,12 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        241,
+        240,
+        239,
+        332
+      ]
     },
     {
       "questID": 162,
@@ -25440,7 +25445,7 @@
         }
       ],
       "preRequisites": [
-        238
+        241
       ]
     },
     {
