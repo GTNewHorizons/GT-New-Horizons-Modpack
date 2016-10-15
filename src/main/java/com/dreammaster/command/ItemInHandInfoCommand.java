@@ -1,22 +1,17 @@
 package com.dreammaster.command;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.IFluidContainerItem;
 
-import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modhazardousitems.HazardousItems.HazardousItem;
-
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.GameRegistry.UniqueIdentifier;
-import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemInHandInfoCommand implements ICommand
 {

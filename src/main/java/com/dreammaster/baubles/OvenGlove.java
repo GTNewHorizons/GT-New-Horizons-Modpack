@@ -1,8 +1,13 @@
 package com.dreammaster.baubles;
 
-import java.util.List;
-import java.util.Random;
-
+import baubles.api.BaubleType;
+import baubles.common.container.InventoryBaubles;
+import com.dreammaster.lib.Refstrings;
+import com.dreammaster.main.MainRegistry;
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.client.NotificationTickHandler;
+import eu.usrv.yamcore.iface.IExtendedModItem;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
@@ -14,16 +19,9 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
-import baubles.api.BaubleType;
-import baubles.common.container.InventoryBaubles;
 
-import com.dreammaster.lib.Refstrings;
-import com.dreammaster.main.MainRegistry;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.relauncher.Side;
-import eu.usrv.yamcore.client.NotificationTickHandler;
-import eu.usrv.yamcore.iface.IExtendedModItem;
+import java.util.List;
+import java.util.Random;
 
 public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedModItem {
 	private static final String NBTTAG_DURABILITY = "Durability";

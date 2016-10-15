@@ -1,31 +1,21 @@
 package com.dreammaster.baubles;
 
-import java.util.List;
-import java.util.Random;
-
-import com.dreammaster.lib.Refstrings;
-import com.dreammaster.main.MainRegistry;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.relauncher.Side;
 import baubles.api.BaubleType;
 import baubles.common.container.InventoryBaubles;
+import com.dreammaster.lib.Refstrings;
+import eu.usrv.yamcore.iface.IExtendedModItem;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.potion.PotionHelper;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.IIcon;
-import net.minecraft.world.World;
-import eu.usrv.yamcore.client.NotificationTickHandler;
-import eu.usrv.yamcore.iface.IExtendedModItem;
+
+import java.util.List;
+import java.util.Random;
 
 public class WitherProtectionRing extends Item implements baubles.api.IBauble, IExtendedModItem {
     Random _mRnd = new Random();

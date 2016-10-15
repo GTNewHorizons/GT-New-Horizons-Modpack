@@ -1,21 +1,22 @@
 package com.dreammaster.gthandler;
 
-import static gregtech.api.enums.GT_Values.W;
-
-
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import gregtech.api.interfaces.IItemContainer;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Utility;
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+
+import static gregtech.api.enums.GT_Values.W;
 
 public enum CustomItemList implements IItemContainer
 {
+	Machine_Multi_AirFilter,Casing_AirFilter_Vent,Casing_AirFilter_Turbine,
 	Hatch_Dynamo_UEV, Hatch_Dynamo_UIV, Hatch_Dynamo_UMV,
 	Hatch_Energy_UEV, Hatch_Energy_UIV, Hatch_Energy_UMV,
-	Battery_Charger_4by4_UEV, Battery_Charger_4by4_UIV, Battery_Charger_4by4_UMV, Battery_Charger_4by4_UXV, Battery_Charger_4by4_OPV, Battery_Charger_4by4_MAXV,
+	Battery_TurboCharger_4by4_ULV,Battery_TurboCharger_4by4_LV,Battery_TurboCharger_4by4_MV,Battery_TurboCharger_4by4_HV,Battery_TurboCharger_4by4_EV,Battery_TurboCharger_4by4_IV,Battery_TurboCharger_4by4_LuV,Battery_TurboCharger_4by4_ZPM,Battery_TurboCharger_4by4_UV,Battery_TurboCharger_4by4_UHV,//Battery_TurboCharger_4by4_UEV,Battery_TurboCharger_4by4_UIV,Battery_TurboCharger_4by4_UMV,Battery_TurboCharger_4by4_UXV,Battery_TurboCharger_4by4_OPV,Battery_TurboCharger_4by4_MAXV,
+	Battery_Charger_4by4_UEV, Battery_Charger_4by4_UIV, Battery_Charger_4by4_UMV, //Battery_Charger_4by4_UXV, Battery_Charger_4by4_OPV, Battery_Charger_4by4_MAXV,
 	Battery_Buffer_1by1_UEV, Battery_Buffer_1by1_UIV, Battery_Buffer_1by1_UMV, Battery_Buffer_1by1_UXV, Battery_Buffer_1by1_OPV, Battery_Buffer_1by1_MAXV,
 	Battery_Buffer_2by2_UEV, Battery_Buffer_2by2_UIV, Battery_Buffer_2by2_UMV, Battery_Buffer_2by2_UXV, Battery_Buffer_2by2_OPV, Battery_Buffer_2by2_MAXV,
 	Battery_Buffer_3by3_UEV, Battery_Buffer_3by3_UIV, Battery_Buffer_3by3_UMV, Battery_Buffer_3by3_UXV, Battery_Buffer_3by3_OPV, Battery_Buffer_3by3_MAXV,
@@ -113,7 +114,8 @@ public enum CustomItemList implements IItemContainer
 	MoonStoneDust, MarsStoneDust, AsteroidsStoneDust, PhobosStoneDust, DeimosStoneDust,CeresStoneDust, EuropaIceDust, EuropaStoneDust, GanymedStoneDust, CallistoStoneDust, IoStoneDust, VenusStoneDust, MercuryStoneDust, EnceladusIceDust, EnceladusStoneDust,
 	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust,
 	MysteriousCrystalDust, TCetiEStoneDust,
-	IndustryFrame;
+	IndustryFrame,
+	AdsorptionFilterCasing, AdsorptionFilter, AdsorptionFilterDirty;
 
 
 	private ItemStack mStack = null;

@@ -251,6 +251,46 @@ public class ExtendedFluidCollection
 
         _mCompressedNitrogen.setRegisterBucket(false); // don't register a bucket
     }
+    private static ModSimpleBaseFluid _mPollution;
+    public static ModSimpleBaseFluid getPollution()
+    {
+        if (_mPollution == null)
+            populatePollution();
+
+        return _mPollution;
+    }
+    private static void populatePollution()
+    {
+        Fluid tPollution = ModFluidManager.GetNewFluid("Pollution");
+        tPollution.setGaseous(false);
+        tPollution.setViscosity(1);
+        tPollution.setDensity(1);
+        tPollution.setLuminosity(0);
+        tPollution.setTemperature(295);
+        tPollution.setRarity(EnumRarity.epic); // The rarity of the fluid. Used primarily in tool tips.
+
+        _mPollution = new ModSimpleBaseFluid(tPollution, Material.water);
+
+
+        // Add potion effects to the fluid if player steps into a pool
+        // Syntax is: new PotionEffect(<potionID>, <duration in ticks>, <level>)
+        // Level 0: Potion Level I
+        // Level 1: Potion Level II
+        // ...
+        // For the duration: Set it low to vanish the effect as soon as the player leaves the pool
+        // If you set the duration to 200, the potion timer will start to tick for 10 seconds after
+        // the player has left the pool.
+        _mPollution.addPotionEffect(new PotionEffect(Potion.weakness.id, 20, 3));
+
+        // Same for stacking potion effects, except that you want to set the duration to the amount which will be
+        // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
+        // fluid block
+        _mPollution.addStackingPotionEffect(new PotionEffect(Potion.weakness.id, 20, 3));
+        _mPollution.addStackingPotionEffect(new PotionEffect(Potion.poison.id, 10, 0));
+
+        _mPollution.setRegisterBucket(true); // don't register a bucket
+    }
+
 
 
 

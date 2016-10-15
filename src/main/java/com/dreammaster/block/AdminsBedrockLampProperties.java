@@ -1,9 +1,9 @@
 package com.dreammaster.block;
 
+import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 import net.minecraft.block.Block;
 import net.minecraft.block.Block.SoundType;
 import net.minecraft.block.material.Material;
-import eu.usrv.yamcore.iface.IExtendedBlockProperties;
 
 public class AdminsBedrockLampProperties  implements IExtendedBlockProperties
 {

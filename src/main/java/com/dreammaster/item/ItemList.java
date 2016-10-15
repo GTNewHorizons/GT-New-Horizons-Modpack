@@ -1,19 +1,20 @@
 package com.dreammaster.item;
 
-import net.minecraft.item.ItemStack;
-
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
-
 import eu.usrv.yamcore.items.ModItemManager;
 import eu.usrv.yamcore.items.ModSimpleBaseItem;
+import net.minecraft.item.ItemStack;
 
 public enum ItemList
 {
     TenKCell(new ModSimpleBaseItem("TenKCell", ModTabList.ModGenericTab)),
     ThirtyKCell(new ModSimpleBaseItem("ThirtyKCell", ModTabList.ModGenericTab)),
     SixtyKCell(new ModSimpleBaseItem("SixtyKCell", ModTabList.ModGenericTab)),
+    AdsorptionFilterCasing(new ModSimpleBaseItem("AdsorptionFilterCasing", ModTabList.ModGenericTab)),
+    AdsorptionFilter(new ModSimpleBaseItem("AdsorptionFilter", ModTabList.ModGenericTab)),
+    AdsorptionFilterDirty(new ModSimpleBaseItem("AdsorptionFilterDirty", ModTabList.ModGenericTab)),
     AluminiumBars(new ModSimpleBaseItem("AluminiumBars", ModTabList.ModBarsAndCasingsTab)),
     AluminiumItemCasing(new ModSimpleBaseItem("AluminiumItemCasing", ModTabList.ModBarsAndCasingsTab)),
     AluminiumIronPlate(new ModSimpleBaseItem("AluminiumIronPlate", ModTabList.ModSolarTab)),
@@ -88,6 +89,7 @@ public enum ItemList
     EmeraldAdvancedCoreChip(new ModSimpleBaseItem("EmeraldAdvancedCoreChip", ModTabList.ModCircuitsTab)),
     EmeraldAdvancedFluidCoreChip(new ModSimpleBaseItem("EmeraldAdvancedFluidCoreChip", ModTabList.ModCircuitsTab)),
     EmeraldHighAdvancedCoreChip(new ModSimpleBaseItem("EmeraldHighAdvancedCoreChip", ModTabList.ModCircuitsTab)),
+    EMT(new ModSimpleBaseItem("EMT", ModTabList.ModGenericTab)),
     EnceladusIceDust(new ModSimpleBaseItem("EnceladusIceDust", ModTabList.ModSpaceTab)),
     EnceladusStoneDust(new ModSimpleBaseItem("EnceladusStoneDust", ModTabList.ModSpaceTab)),
     EnderiumBaseBars(new ModSimpleBaseItem("EnderiumBaseBars", ModTabList.ModBarsAndCasingsTab)),

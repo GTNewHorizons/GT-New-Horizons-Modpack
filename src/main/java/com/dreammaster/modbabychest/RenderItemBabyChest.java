@@ -1,17 +1,11 @@
 package com.dreammaster.modbabychest;
 
+import cpw.mods.fml.client.FMLClientHandler;
 import net.minecraft.client.model.ModelChest;
-import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.IItemRenderer;
-
 import org.lwjgl.opengl.GL11;
-
-import com.dreammaster.lib.Refstrings;
-
-import cpw.mods.fml.client.FMLClientHandler;
 
 public class RenderItemBabyChest implements IItemRenderer
 {

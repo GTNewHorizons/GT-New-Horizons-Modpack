@@ -1,19 +1,15 @@
 package com.dreammaster.command;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.dreammaster.main.MainRegistry;
+import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
 
-import com.dreammaster.main.MainRegistry;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.relauncher.Side;
-import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomToolTipsCommand implements ICommand
 {

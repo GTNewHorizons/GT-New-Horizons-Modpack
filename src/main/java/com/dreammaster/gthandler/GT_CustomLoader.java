@@ -1,14 +1,13 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.gthandler.casings.GT_Loader_CasingsNH;
+import com.dreammaster.item.ItemList;
+import com.dreammaster.item.food.QuantumBread;
+import cpw.mods.fml.common.registry.GameRegistry;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
-
-import com.dreammaster.item.ItemList;
-import com.dreammaster.item.food.QuantumBread;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * How to add new Stuff:
@@ -137,6 +136,7 @@ public class GT_CustomLoader
     public GT_CustomLoader()
     {
     	ItemLoader = new GT_Loader_Items();
+        CasingLoader = new GT_Loader_CasingsNH();
     	MachineLoader = new GT_Loader_Machines();
     	FluidPipeLoader = new GT_Loader_FluidPipes();
     	MaterialLoader = new GT_Loader_Materials();
@@ -148,6 +148,7 @@ public class GT_CustomLoader
     }
     
     private GT_Loader_Items ItemLoader = null;
+    private GT_Loader_CasingsNH CasingLoader = null;
     private GT_Loader_Machines MachineLoader = null;
     private GT_Loader_FluidPipes FluidPipeLoader = null;
     private GT_Loader_Materials MaterialLoader = null;
@@ -163,6 +164,7 @@ public class GT_CustomLoader
     	MaterialLoader.run();
     	FluidPipeLoader.run();
     	WireLoader.run();
+        CasingLoader.run();
     	ItemLoader.run();
     	MachineLoader.run();
     	BatteryLoader.run();
