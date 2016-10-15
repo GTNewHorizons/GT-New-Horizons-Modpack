@@ -2297,7 +2297,7 @@
     {
       "questID": 30,
       "name": "Copper",
-      "description": "Can be found either between y 10 and 40 as \"Malachite Ore\", or between 5 and 60 as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with forms of Iron, such as \"Limonite\".",
+      "description": "Can be found either between 5 and 60 as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2329,21 +2329,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockores",
-              "Count": 4,
+              "Count": 24,
               "OreDict": "oreChalcopyrite",
               "Damage": 855
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 4,
+              "Count": 24,
               "OreDict": "oreAnyCopper",
               "Damage": 35
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 4,
-              "OreDict": "oreMalachite",
-              "Damage": 871
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -7103,6 +7097,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Railcraft:machine.beta",
@@ -7123,7 +7119,7 @@
               "Damage": 14
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -35844,6 +35840,96 @@
       ]
     },
     {
+      "questID": 480,
+      "name": "Malachite",
+      "description": "Another Copper source  is \"Malachite Ore\" and can be found between y 10 and 40. This Vein contain more Iron Ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 871
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreMalachite",
+              "Damage": 871
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreBandedIron",
+              "Damage": 917
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreYellowLimonite",
+              "Damage": 931
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreBrownLimonite",
+              "Damage": 930
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11035
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32240
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        474
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -42657,62 +42743,62 @@
       "quests": [
         {
           "id": 15,
-          "x": 180,
+          "x": 216,
           "y": 0
         },
         {
           "id": 17,
-          "x": 252,
+          "x": 288,
           "y": 36
         },
         {
           "id": 18,
-          "x": 144,
+          "x": 180,
           "y": 0
         },
         {
           "id": 19,
-          "x": 144,
+          "x": 180,
           "y": 36
         },
         {
           "id": 20,
-          "x": 216,
+          "x": 252,
           "y": 36
         },
         {
           "id": 21,
-          "x": 180,
+          "x": 216,
           "y": 36
         },
         {
           "id": 22,
-          "x": 180,
-          "y": 72
-        },
-        {
-          "id": 23,
-          "x": 144,
-          "y": 72
-        },
-        {
-          "id": 24,
-          "x": 252,
-          "y": 72
-        },
-        {
-          "id": 25,
           "x": 216,
           "y": 72
         },
         {
-          "id": 27,
+          "id": 23,
+          "x": 180,
+          "y": 72
+        },
+        {
+          "id": 24,
+          "x": 288,
+          "y": 72
+        },
+        {
+          "id": 25,
           "x": 252,
+          "y": 72
+        },
+        {
+          "id": 27,
+          "x": 288,
           "y": 216
         },
         {
           "id": 28,
-          "x": 72,
+          "x": 108,
           "y": 216
         },
         {
@@ -42727,17 +42813,17 @@
         },
         {
           "id": 31,
-          "x": 108,
+          "x": 144,
           "y": 144
         },
         {
           "id": 32,
-          "x": 144,
+          "x": 180,
           "y": 108
         },
         {
           "id": 33,
-          "x": 144,
+          "x": 180,
           "y": 144
         },
         {
@@ -42748,7 +42834,7 @@
         {
           "id": 35,
           "x": 72,
-          "y": 108
+          "y": 72
         },
         {
           "id": 36,
@@ -42777,27 +42863,27 @@
         },
         {
           "id": 41,
-          "x": 216,
+          "x": 252,
           "y": 108
         },
         {
           "id": 26,
-          "x": 180,
+          "x": 216,
           "y": 108
         },
         {
           "id": 42,
-          "x": 180,
-          "y": 144
-        },
-        {
-          "id": 43,
           "x": 216,
           "y": 144
         },
         {
+          "id": 43,
+          "x": 252,
+          "y": 144
+        },
+        {
           "id": 472,
-          "x": 144,
+          "x": 180,
           "y": 180
         },
         {
@@ -42807,8 +42893,13 @@
         },
         {
           "id": 474,
-          "x": 72,
+          "x": 108,
           "y": 180
+        },
+        {
+          "id": 480,
+          "x": 108,
+          "y": 144
         }
       ]
     },
