@@ -45,7 +45,7 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mAmmonia.addStackingPotionEffect(new PotionEffect(24, 20, 0));
+        _mAmmonia.addStackingPotionEffect(new PotionEffect(Potion.poison.id, 20, 0));
         
         _mAmmonia.setRegisterBucket(false); // don't register a bucket
     }
@@ -124,9 +124,9 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(24, 20, 0));
+        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(Potion.confusion.id, 20, 0));
 
-        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(25, 20, 0));
+        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(Potion.poison.id, 20, 0));
 
         _mFermentedBacterialSludge.setRegisterBucket(true); // don't register a bucket
     }
@@ -165,9 +165,9 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(24, 40, 0));
+        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(Potion.confusion.id, 40, 0));
 
-        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(25, 40, 0));
+        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(Potion.poison.id, 40, 0));
 
         _mEnrichedBacterialSludge.setRegisterBucket(true); // don't register a bucket
     }
