@@ -115,7 +115,8 @@ public enum CustomItemList implements IItemContainer
 	TitanStoneDust, OberonStoneDust, ProteusStoneDust, TritonStoneDust, PlutoIceDust, PlutoStoneDust, HaumeaStoneDust, MakeMakeStoneDust, MercuryCoreDust, CentauriAStoneDust, CentauriASurfaceDust, VegaBStoneDust, BarnardaEStoneDust, BarnardaFStoneDust,
 	MysteriousCrystalDust, TCetiEStoneDust,
 	IndustryFrame,
-	AdsorptionFilterCasing, AdsorptionFilter, AdsorptionFilterDirty;
+	AdsorptionFilterCasing, AdsorptionFilter, AdsorptionFilterDirty,
+	VoidSeed;
 
 
 	private ItemStack mStack = null;
