@@ -1,15 +1,20 @@
 package com.dreammaster.fluids;
 
+import cpw.mods.fml.common.Loader;
+import cpw.mods.fml.common.ModClassLoader;
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.fluids.ModSimpleBaseFluid;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraftforge.common.ForgeModContainer;
 import net.minecraftforge.fluids.Fluid;
 
 public class ExtendedFluidCollection
 {
+    final static boolean bop_loaded= Loader.isModLoaded("BiomesOPlenty");
+
     private static ModSimpleBaseFluid _mAmmonia;
     public static ModSimpleBaseFluid getAmmonia()
     {
@@ -45,7 +50,7 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mAmmonia.addStackingPotionEffect(new PotionEffect(24, 20, 0));
+        _mAmmonia.addStackingPotionEffect(new PotionEffect(bop_loaded?24:Potion.poison.id, 20, 0));
         
         _mAmmonia.setRegisterBucket(false); // don't register a bucket
     }
@@ -124,9 +129,9 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(24, 20, 0));
+        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(bop_loaded?24:Potion.poison.id, 20, 0));
 
-        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(25, 20, 0));
+        _mFermentedBacterialSludge.addStackingPotionEffect(new PotionEffect(bop_loaded?25:Potion.moveSlowdown.id, 20, 0));
 
         _mFermentedBacterialSludge.setRegisterBucket(true); // don't register a bucket
     }
@@ -165,9 +170,9 @@ public class ExtendedFluidCollection
         // Same for stacking potion effects, except that you want to set the duration to the amount which will be
         // ADDED about each 0,5 seconds. So this poison-effect will increase as long as the player has contact with the
         // fluid block
-        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(24, 40, 0));
+        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(bop_loaded?24:Potion.poison.id, 40, 0));
 
-        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(25, 40, 0));
+        _mEnrichedBacterialSludge.addStackingPotionEffect(new PotionEffect(bop_loaded?25:Potion.moveSlowdown.id, 40, 0));
 
         _mEnrichedBacterialSludge.setRegisterBucket(true); // don't register a bucket
     }
