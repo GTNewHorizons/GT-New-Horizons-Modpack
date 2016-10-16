@@ -94,6 +94,28 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTBaubles>);
 // --- Inventory Charging Ring
 mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTBaubles:1>);
 
+// --- Electric Goggles of Revealing
+mods.thaumcraft.Arcane.removeRecipe(<EMT:ElectricGogglesRevealing:*>);
+
+// --- Nanosuit Goggle of Revealing
+mods.thaumcraft.Infusion.removeRecipe(<EMT:NanosuitGogglesRevealing:*>);
+
+// --- Quantum Goggle of Revealing
+mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumGogglesRevealing:*>);
+
+// --- Solar Helm of Revealing
+mods.thaumcraft.Infusion.removeRecipe(<EMT:SolarHelmetRevealing:*>);
+
+// --- Compressed Solar Pannels
+mods.thaumcraft.Arcane.removeRecipe(<EMT:EMTSolars:*>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTSolars:*>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<EMT:EMTSolars:*>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<EMT:EMTSolars2:*>);
+
+
 
 
 
@@ -285,8 +307,8 @@ mods.thaumcraft.Research.orphanResearch("Diamond Omnitool");
 mods.thaumcraft.Research.removeResearch("Diamond Omnitool");
 mods.thaumcraft.Research.addResearch("DiamondOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -4, 0, 3, <EMT:Diamond Omnitool>);
 mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "IronOmnitool", false);
-mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondChainsaw", false);
-//mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondDrill", false);
+mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondChainsaw", true);
+mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondDrill", true);
 mods.thaumcraft.Research.setConcealed("DiamondOmnitool", true);
 mods.thaumcraft.Research.setRound("DiamondOmnitool", true);
 game.setLocalization("tc.research_name.DiamondOmnitool", "Diamond Omnitool");
@@ -303,8 +325,8 @@ mods.thaumcraft.Research.orphanResearch("Thaumium Omnitool");
 mods.thaumcraft.Research.removeResearch("Thaumium Omnitool");
 mods.thaumcraft.Research.addResearch("ThaumiumOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -6, 0, 4, <EMT:ThaumiumOmnitool>);
 mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "DiamondOmnitool", false);
-mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", false);
-mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", false);
+mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", true);
+mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", true);
 mods.thaumcraft.Research.setConcealed("ThaumiumOmnitool", true);
 mods.thaumcraft.Research.setRound("ThaumiumOmnitool", true);
 game.setLocalization("tc.research_name.ThaumiumOmnitool", "Thaumium Omnitool");
@@ -321,8 +343,8 @@ mods.thaumcraft.Warp.addToResearch("ThaumiumOmnitool", 1);
 mods.thaumcraft.Research.orphanResearch("Electric Boots of the Traveller");
 mods.thaumcraft.Research.removeResearch("Electric Boots of the Traveller");
 mods.thaumcraft.Research.addResearch("ElectricBootsoftheTraveller", "EMT", "praecantatio 15, motus 12, potentia 9, tutamen 6, terra 3", 2, 2, 3, <EMT:ElectricBootsTraveller>);
-mods.thaumcraft.Research.addPrereq("ElectricBootsoftheTraveller", "ElectricMagicTools", false);
 mods.thaumcraft.Research.addPrereq("ElectricBootsoftheTraveller", "BOOTSTRAVELLER", false);
+mods.thaumcraft.Research.addPrereq("ElectricBootsoftheTraveller", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setConcealed("ElectricBootsoftheTraveller", true);
 mods.thaumcraft.Research.setRound("ElectricBootsoftheTraveller", true);
 game.setLocalization("tc.research_name.ElectricBootsoftheTraveller", "Electric Boots of the Traveller");
@@ -363,7 +385,7 @@ game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "Faster than
 mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
 game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast, that you appear to be in multiple places at once. But do not forget what happened to Schrodinger's cat...");
 mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:*>,
-[<IC2:itemArmorQuantumBoots:*>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemBatLamaCrystal:*>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
+[<IC2:itemArmorQuantumBoots:*>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller>);
 mods.thaumcraft.Warp.addToResearch("QuantumBootsoftheTraveller", 2);
@@ -440,7 +462,7 @@ mods.thaumcraft.Warp.addToResearch("ChainsawoftheStream", 2);
 mods.thaumcraft.Research.orphanResearch("Inventory Charging Ring");
 mods.thaumcraft.Research.removeResearch("Inventory Charging Ring");
 mods.thaumcraft.Research.addResearch("InventoryChargingRing", "EMT", "potentia 15, vitreus 12, praecantatio 9, electrum 6, auram 3", 0, -8, 3, <EMT:EMTBaubles:1>);
-mods.thaumcraft.Research.addPrereq("InventoryChargingRing", "ElectricMagicTools", false);
+mods.thaumcraft.Research.addPrereq("InventoryChargingRing", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setConcealed("InventoryChargingRing", true);
 mods.thaumcraft.Research.setRound("InventoryChargingRing", true);
 game.setLocalization("tc.research_name.InventoryChargingRing", "Inventory Charging Ring");
@@ -469,6 +491,195 @@ mods.thaumcraft.Infusion.addRecipe("ArmorChargingRing", <Thaumcraft:ItemBaubleBl
 "potentia 64, tutamen 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles>, 8);
 mods.thaumcraft.Research.addInfusionPage("ArmorChargingRing", <EMT:EMTBaubles>);
 mods.thaumcraft.Warp.addToResearch("ArmorChargingRing", 2);
+
+// --- Electric Goggles of Revealing
+mods.thaumcraft.Research.orphanResearch("Electric Goggles");
+mods.thaumcraft.Research.removeResearch("Electric Goggles");
+mods.thaumcraft.Research.orphanResearch("Nanosuit Goggles of Revealing");
+mods.thaumcraft.Research.removeResearch("Nanosuit Goggles of Revealing");
+mods.thaumcraft.Research.orphanResearch("Quantum Goggles of Revealing");
+mods.thaumcraft.Research.removeResearch("Quantum Goggles of Revealing");
+mods.thaumcraft.Research.addResearch("ElectricGogglesofRevealing", "EMT", "tutamen 15, potentia 12, sensus 9, praecantatio 6, electrum 3", -6, -2, 3, <EMT:ElectricGogglesRevealing>);
+mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "GOGGLES", false);
+mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "ElectricMagicTools", true);
+mods.thaumcraft.Research.setRound("ElectricGogglesofRevealing", true);
+game.setLocalization("tc.research_name.ElectricGogglesofRevealing", "Electric Goggles of Revealing");
+game.setLocalization("tc.research_text.ElectricGogglesofRevealing", "The best of both worlds");
+mods.thaumcraft.Research.addPage("ElectricGogglesofRevealing", "tc.research_page.ElectricGogglesofRevealing");
+game.setLocalization("tc.research_page.ElectricGogglesofRevealing", "You have found a way to detect auras using purely electronic means, no longer requiring mystical energy that can be depleted over time. You can now create a pair of Goggles of Revealing that can be recharged with EU while being able to see Aura Nodes just as you could before. A diamond helmet is required to house the sensitive vis sensing circuitry and prevent it from being damaged, which also has the added benefit of providing extra protection.");
+mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing>, "aer 45, ignis 45, terra 45, aqua 45, ordo 45, perditio 45", [
+[<ore:wireGt02AnyCopper>, <minecraft:diamond_helmet>, <ore:wireGt02AnyCopper>],
+[<ore:circuitBasic>, <Thaumcraft:ItemGoggles>, <ore:circuitBasic>],
+[<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:*>, <ProjRed|Integration:projectred.integration.gate:10>]]);
+mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing>);
+
+// --- Nanosuit Goggle of Revealing
+mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4, -2, 3, <EMT:NanosuitGogglesRevealing>);
+mods.thaumcraft.Research.addPrereq("NanosuitGogglesofRevealing", "ElectricGogglesofRevealing", false);
+mods.thaumcraft.Research.setConcealed("NanosuitGogglesofRevealing", true);
+mods.thaumcraft.Research.setRound("NanosuitGogglesofRevealing", true);
+game.setLocalization("tc.research_name.NanosuitGogglesofRevealing", "Nanosuit Goggles of Revealing");
+game.setLocalization("tc.research_text.NanosuitGogglesofRevealing", "Top-tier eye protection");
+mods.thaumcraft.Research.addPage("NanosuitGogglesofRevealing", "tc.research_page.NanosuitGogglesofRevealing");
+game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips. This will prevent you from turning off the night vision effect of the helmet.");
+mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
+[<IC2:itemArmorNanoHelmet:*>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:*>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
+"tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing>, 6);
+mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing>);
+mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
+
+// --- Quantum Goggle of Revealing
+mods.thaumcraft.Research.addResearch("QuantumGogglesofRevealing", "EMT", "tutamen 21, potentia 18, sensus 15, praecantatio 12, auram 9, lucrum 6, electrum 3", -2, -2, 4, <EMT:QuantumGogglesRevealing>);
+mods.thaumcraft.Research.addPrereq("QuantumGogglesofRevealing", "NanosuitGogglesofRevealing", false);
+mods.thaumcraft.Research.setConcealed("QuantumGogglesofRevealing", true);
+mods.thaumcraft.Research.setRound("QuantumGogglesofRevealing", true);
+game.setLocalization("tc.research_name.QuantumGogglesofRevealing", "Quantum Goggles of Revealing");
+game.setLocalization("tc.research_text.QuantumGogglesofRevealing", "Protection coupled with utility");
+mods.thaumcraft.Research.addPage("QuantumGogglesofRevealing", "tc.research_page.QuantumGogglesofRevealing");
+game.setLocalization("tc.research_page.QuantumGogglesofRevealing", "It took a lot of trial and error, but you have found a way to slip in vis detection sensors to a Quantum Helmet. By infusing the quantum helmet with magic, you will be able to use it to see Aura Nodes. During the design process, you had to replace several control circuits that involve night vision and automatic feeding with vis detecting circuitry and capacitors to absorb the excess magical energy. You find that using a Mining Laser to contain it can safely focus and direct the explosive pulse where the vision effect and the feeding unit of the helmet lie. Have fun getting force-fed energy. This will prevent you from turning off the night vision and feeding features.");
+mods.thaumcraft.Infusion.addRecipe("QuantumGogglesofRevealing", <EMT:NanosuitGogglesRevealing:*>,
+[<IC2:itemArmorQuantumHelmet:*>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32693>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32693>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1563>], 
+"tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8", <EMT:QuantumGogglesRevealing>, 9);
+mods.thaumcraft.Research.addInfusionPage("QuantumGogglesofRevealing", <EMT:QuantumGogglesRevealing>);
+mods.thaumcraft.Warp.addToResearch("QuantumGogglesofRevealing", 2);
+
+// --- Solar Helm of Revealing
+mods.thaumcraft.Research.orphanResearch("Solar Helmet of Revealing");
+mods.thaumcraft.Research.removeResearch("Solar Helmet of Revealing");
+mods.thaumcraft.Research.addResearch("SolarHelmetofRevealing", "EMT", "tutamen 30, potentia 27, sensus 24, praecantatio 21, auram 15, electrum 12, lucrum 9, aer 6, lux 3", -2, -4, 4, <EMT:SolarHelmetRevealing>);
+mods.thaumcraft.Research.addPrereq("SolarHelmetofRevealing", "QuantumGogglesofRevealing", false);
+mods.thaumcraft.Research.addPrereq("SolarHelmetofRevealing", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("SolarHelmetofRevealing", true);
+mods.thaumcraft.Research.setRound("SolarHelmetofRevealing", true);
+game.setLocalization("tc.research_name.SolarHelmetofRevealing", "Solar Helmet of Revealing");
+game.setLocalization("tc.research_text.SolarHelmetofRevealing", "The sunlight hurts my eyes");
+mods.thaumcraft.Research.addPage("SolarHelmetofRevealing", "tc.research_page.SolarHelmetofRevealing");
+game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 128 EU/t during the day, and nothing at night.");
+mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:*>,
+[<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
+"tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing>, 12);
+mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing>);
+mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
+
+// --- Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Compressed Solars");
+mods.thaumcraft.Research.removeResearch("Compressed Solars");
+mods.thaumcraft.Research.addResearch("CompressedSolars", "EMT", "potentia 18, lux 15, metallum 12, praecantatio 9, ignis 6, aer 3", -6, -4, 3, <EMT:EMTSolars>);
+mods.thaumcraft.Research.addPrereq("CompressedSolars", "ElectricMagicTools", true);
+game.setLocalization("tc.research_name.CompressedSolars", "Compressed Solar Pannels");
+game.setLocalization("tc.research_text.CompressedSolars", "Increase the efficiency!");
+mods.thaumcraft.Research.addPage("CompressedSolars", "tc.research_page.CompressedSolars");
+game.setLocalization("tc.research_page.CompressedSolars", "You have found a way to compress 8 mundane Solar Panels in a magical one, that acts as if it was made of 10 mundane solar panels, generating 10 EU/t. You may repeat this process with compressed solar panels, allowing you to increase the power potential per block even higher. You can also, by magical infusion, create triple compressed solar panels, taking the folly a step further.");
+mods.thaumcraft.Arcane.addShaped("CompressedSolars", <EMT:EMTSolars>, "aer 50, aqua 50, terra 50, ignis 50, ordo 50, perditio 50", [
+[<IC2:blockGenerator:3>, <IC2:blockGenerator:3>, <IC2:blockGenerator:3>],
+[<IC2:blockGenerator:3>, <dreamcraft:item.ReinforcedAluminiumIronPlate>, <IC2:blockGenerator:3>],
+[<IC2:blockGenerator:3>, <IC2:blockGenerator:3>, <IC2:blockGenerator:3>]]);
+mods.thaumcraft.Research.addArcanePage("CompressedSolars", <EMT:EMTSolars>);
+mods.thaumcraft.Arcane.addShaped("CompressedSolars", <EMT:EMTSolars:1>, "aer 100, aqua 100, terra 100, ignis 100, ordo 100, perditio 100", [
+[<EMT:EMTSolars>, <EMT:EMTSolars>, <EMT:EMTSolars>],
+[<EMT:EMTSolars>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <EMT:EMTSolars>],
+[<EMT:EMTSolars>, <EMT:EMTSolars>, <EMT:EMTSolars>]]);
+mods.thaumcraft.Research.addArcanePage("CompressedSolars", <EMT:EMTSolars:1>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <EMT:EMTSolars:1>,
+[<dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>], 
+"aer 150, aqua 150, terra 150, ignis 150, ordo 150, perditio 150", <EMT:EMTSolars:2>, 15);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars:2>);
+
+// --- Water Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Water Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7, -7, 3, <EMT:EMTSolars:3>);
+mods.thaumcraft.Research.addPrereq("WaterInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.WaterInfusedSolarPanels", "Water Infused Solar Pannels");
+game.setLocalization("tc.research_text.WaterInfusedSolarPanels", "Curse you rain!");
+mods.thaumcraft.Research.addPage("WaterInfusedSolarPanels", "tc.research_page.WaterInfusedSolarPanels");
+game.setLocalization("tc.research_page.WaterInfusedSolarPanels", "You always hated rain, especially when all your power came from Solar Panels. You hated it so much that you decided to find a way to make your Solar Panels keep running during rain. You managed... kind of. The Water Infused Solar Panels work during rain, and during rain only.");
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:3>, <EMT:EMTSolars>, "aqua 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:3>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:4>, <EMT:EMTSolars:1>, "aqua 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:4>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:5>, <EMT:EMTSolars:2>, "aqua 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:5>);
+
+// --- Entropy Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Entropy Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8, -6, 3, <EMT:EMTSolars:6>);
+mods.thaumcraft.Research.addPrereq("EntropyInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.EntropyInfusedSolarPanels", "Entropy Infused Solar Panels");
+game.setLocalization("tc.research_text.EntropyInfusedSolarPanels", "Not afraid of the dark");
+mods.thaumcraft.Research.addPage("EntropyInfusedSolarPanels", "tc.research_page.EntropyInfusedSolarPanels");
+game.setLocalization("tc.research_page.EntropyInfusedSolarPanels", "You know that Solar Panels stop working at nightime. To counter that, you found a way to make your Solar Panels produce energy at night!");
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:6>, <EMT:EMTSolars>, "perditio 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:6>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:7>, <EMT:EMTSolars:1>, "perditio 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:7>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>, <EMT:EMTSolars:2>, "perditio 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>);
+
+// --- Order Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -8, 3, <EMT:EMTSolars:9>);
+mods.thaumcraft.Research.addPrereq("OrderInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.OrderInfusedSolarPanels", "Order Infused Solar Panels");
+game.setLocalization("tc.research_text.OrderInfusedSolarPanels", "I've got the power!");
+mods.thaumcraft.Research.addPage("OrderInfusedSolarPanels", "tc.research_page.OrderInfusedSolarPanels");
+game.setLocalization("tc.research_page.OrderInfusedSolarPanels", "Harnessing the power of Order, you have managed to triple the output of your Solar Panels at day!");
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:9>, <EMT:EMTSolars>, "ordo 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:9>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:10>, <EMT:EMTSolars:1>, "ordo 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:10>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:11>, <EMT:EMTSolars:2>, "ordo 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:11>);
+
+// --- Fire Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Fire Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5, -7, 3, <EMT:EMTSolars:12>);
+mods.thaumcraft.Research.addPrereq("FireInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.FireInfusedSolarPanels", "Fire Infused Solar Panels");
+game.setLocalization("tc.research_text.FireInfusedSolarPanels", "Where it is hot and dangerous...");
+mods.thaumcraft.Research.addPage("FireInfusedSolarPanels", "tc.research_page.FireInfusedSolarPanels");
+game.setLocalization("tc.research_page.FireInfusedSolarPanels", "Fascinated by the Nether, you created a monster. These Solar Panels work like normal in the Overworld, but also produce more energy when they are located in the Nether! A monster I tell you...");
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:12>, <EMT:EMTSolars>, "ignis 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:12>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:13>, <EMT:EMTSolars:1>, "ignis 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:13>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:14>, <EMT:EMTSolars:2>, "ignis 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:14>);
+
+// --- Air Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4, -6, 3, <EMT:EMTSolars:15>);
+mods.thaumcraft.Research.addPrereq("AirInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.AirInfusedSolarPanels", "Air Infused Solar Panels");
+game.setLocalization("tc.research_text.AirInfusedSolarPanels", "Don't be afraid of heights");
+mods.thaumcraft.Research.addPage("AirInfusedSolarPanels", "tc.research_page.AirInfusedSolarPanels");
+game.setLocalization("tc.research_page.AirInfusedSolarPanels", "Your adventurous mind and the natural amount of air existing at the top of the world make these Solar Panels yield more energy when located over Y = 160.");
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars:15>, <EMT:EMTSolars>, "aer 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars:15>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2>, <EMT:EMTSolars:1>, "aer 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2:1>, <EMT:EMTSolars:2>, "aer 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2:1>);
+
+// --- Earth Infused Compressed Solar Pannels
+mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
+mods.thaumcraft.Research.removeResearch("Earth Infused Solar Panels");
+mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -7, 3, <EMT:EMTSolars2:2>);
+mods.thaumcraft.Research.addPrereq("EarthInfusedSolarPanels", "CompressedSolars", false);
+game.setLocalization("tc.research_name.EarthInfusedSolarPanels", "Earth Infused Solar Panels");
+game.setLocalization("tc.research_text.EarthInfusedSolarPanels", "Not for claustrophobic persons");
+mods.thaumcraft.Research.addPage("EarthInfusedSolarPanels", "tc.research_page.EarthInfusedSolarPanels");
+game.setLocalization("tc.research_page.EarthInfusedSolarPanels", "You have decided to get closer to the core. These Solar Panels produce more energy under Y = 10, but keep in mind the rebellious spirits need to be able to see the sun to work.");
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:2>, <EMT:EMTSolars>, "terra 32, permutatio 32, praecantatio 32, lux 16");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:2>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:3>, <EMT:EMTSolars:1>, "terra 64, permutatio 64, praecantatio 64, lux 32");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:3>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>, <EMT:EMTSolars:2>, "terra 128, permutatio 128, praecantatio 128, lux 64");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>);
 
 
 
