@@ -13,18 +13,10 @@
 // --- Removing Recipes ---
 
 
-
 // --- Staff Core
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:100>);
 
-
-
-// --- Void Seed
-//mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
-
 // --- Void Ingot
-//mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:16>);
-// -
 recipes.remove(<Thaumcraft:ItemResource:16>);
 
 // --- Void Nuggets
@@ -98,8 +90,14 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:3>);
 
 
 
+
 // --- Void Seed
-mods.thaumcraft.Crucible.addRecipe("ELDRITCHMINOR", <Thaumcraft:ItemResource:17>, <ore:listAllseed>, "alienis 8, tenebrae 8, vacuos 8");
+mods.thaumcraft.Research.clearPages("ELDRITCHMINOR");
+mods.thaumcraft.Research.addPage("ELDRITCHMINOR", "tc.research_page.ELDRITCHMINOR.1");
+mods.thaumcraft.Crucible.addRecipe("ELDRITCHMINOR", <dreamcraft:item.VoidSeed>, <minecraft:wheat_seeds>, "alienis 8, tenebrae 8, vacuos 8");
+// -
+furnace.addRecipe(<Thaumcraft:ItemResource:17>, <dreamcraft:item.VoidSeed>);
+mods.thaumcraft.Research.addCruciblePage("ELDRITCHMINOR", <dreamcraft:item.VoidSeed>);
 
 // --- Void Ingot
 mods.thaumcraft.Research.clearPages("VOIDMETAL");
