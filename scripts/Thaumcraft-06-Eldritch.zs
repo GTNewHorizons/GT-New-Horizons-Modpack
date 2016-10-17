@@ -102,7 +102,7 @@ mods.thaumcraft.Research.addCruciblePage("ELDRITCHMINOR", <dreamcraft:item.VoidS
 // --- Void Ingot
 mods.thaumcraft.Research.clearPages("VOIDMETAL");
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.1");
-mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:17>, "metallum 16");
+mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Thaumcraft:ItemResource:16>, <dreamcraft:item.VoidSeed>, "metallum 16");
 mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.2");
 // -
@@ -210,7 +210,7 @@ mods.thaumcraft.Research.addArcanePage("CAP_void", <Thaumcraft:WandCap:8>);
 
 // --- Charged Void Cap
 mods.thaumcraft.Infusion.addRecipe("CAP_void", <Thaumcraft:WandCap:8>, 
-[<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>], 
+[<Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidSeed>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidSeed>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidSeed>], 
 "alienis 32, auram 32, potentia 32, vacuos 32", <dreamcraft:item.ChargedVoidWandCap>, 8);
 mods.thaumcraft.Research.addInfusionPage("CAP_void", <dreamcraft:item.ChargedVoidWandCap>);
 // -
@@ -550,7 +550,7 @@ mods.thaumcraft.Research.setComplexity("SANITYCHECK", 3);
 
 // --- Eldritch Eye
 mods.thaumcraft.Infusion.addRecipe("OCULUS", <StevesCarts:ModuleComponents:45>,
-[<minecraft:ender_eye>, <Thaumcraft:ItemResource:17>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:ItemResource:17>, <minecraft:ender_eye>, <Thaumcraft:ItemResource:17>, <gregtech:gt.metaitem.01:17086>, <Thaumcraft:ItemResource:17>],
+[<minecraft:ender_eye>, <dreamcraft:item.VoidSeed>, <gregtech:gt.metaitem.01:17086>, <dreamcraft:item.VoidSeed>, <minecraft:ender_eye>, <dreamcraft:item.VoidSeed>, <gregtech:gt.metaitem.01:17086>, <dreamcraft:item.VoidSeed>],
 "alienis 64, iter 32, tenebrae 32, vacuos 32", <Thaumcraft:ItemEldritchObject>, 7);
 // -
 mods.thaumcraft.Research.setAspects("OCULUS", "alienis 12, cognitio 12, tenebrae 9, iter 9, permutatio 9, vitium 6, praecantatio 3");
