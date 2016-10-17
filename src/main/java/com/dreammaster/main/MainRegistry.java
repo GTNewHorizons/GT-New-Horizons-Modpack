@@ -20,6 +20,8 @@ import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.network.CoreModDispatcher;
+import com.dreammaster.railcraftStones.NH_GeodePopulator;
+import com.dreammaster.railcraftStones.NH_QuarryPopulator;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
@@ -267,6 +269,11 @@ public class MainRegistry
         if (CoreConfig.ModCustomFuels_Enabled) GameRegistry.registerFuelHandler(Module_CustomFuels);
 
         if (CoreConfig.ModCustomDrops_Enabled) MinecraftForge.EVENT_BUS.register(Module_CustomDrops);
+
+        if(Loader.isModLoaded("Railcraft")){
+            MinecraftForge.EVENT_BUS.register(NH_GeodePopulator.instance());//instead of RC
+            MinecraftForge.EVENT_BUS.register(NH_QuarryPopulator.instance());//instead of RC
+        }
     }
 
     @EventHandler
@@ -284,7 +291,6 @@ public class MainRegistry
         GT_Loader_ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
         GTCustomLoader.run();
-
     }
 
     /**
