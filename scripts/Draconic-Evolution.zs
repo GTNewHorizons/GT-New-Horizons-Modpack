@@ -263,7 +263,7 @@ recipes.remove(<DraconicEvolution:upgradeModifier>);
 
 
 // --- Charm of Disloctotion
-mods.avaritia.ExtremeCrafting.addShaped(DCham, [
+mods.avaritia.ExtremeCrafting.addShaped(DCham,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, <ore:plateDraconium>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:dustBlaze>, <ore:plateDraconium>, null, null],
@@ -275,7 +275,7 @@ mods.avaritia.ExtremeCrafting.addShaped(DCham, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Enhanced Charm of Disloctotion
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
 [null, null, <ore:plateDraconium>, <ore:pearlEnderEye>, null, <ore:pearlEnderEye>, <ore:plateDraconium>, null, null],
@@ -287,7 +287,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Wyvern Core
-mods.avaritia.ExtremeCrafting.addShaped(WyvernCore, [
+mods.avaritia.ExtremeCrafting.addShaped(WyvernCore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconium>, null, DraconicCore, null, <ore:plateDraconium>, null, null],
@@ -299,7 +299,7 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernCore, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Wyvern Engergy Core
-mods.avaritia.ExtremeCrafting.addShaped(WyvernECore, [
+mods.avaritia.ExtremeCrafting.addShaped(WyvernECore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconium>, null, <ore:plateRedstoneAlloy>, null, <ore:plateDraconium>, null, null],
@@ -311,7 +311,7 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernECore, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Wyvern Flux Capacitor
-mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator, [
+mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:plateDraconium>, null, null, null, null],
 [null, null, <ore:plateDraconium>, <ore:wireGt02Superconductor>, WyvernECore, <ore:wireGt02Superconductor>, <ore:plateDraconium>, null, null],
@@ -323,7 +323,7 @@ mods.avaritia.ExtremeCrafting.addShaped(WyvernFluxCapicator, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Sword of the Wyvern
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernSword>, [
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernSword>,[
 [null, null, null, null, null, null, null, <ore:plateDraconium>, <ore:plateDraconium>],
 [null, null, null, null, null, null, <ore:plateDraconium>, WyvernECore, <ore:plateDraconium>],
 [null, null, null, null, null, <ore:plateDraconium>, <ore:ingotDraconium>, <ore:plateDraconium>, null],
@@ -419,7 +419,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernBoots>, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Awakened Core
-mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore, [
+mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernCore, null, <ore:plateDraconiumAwakened>, null, null],
@@ -431,7 +431,7 @@ mods.avaritia.ExtremeCrafting.addShaped(AwakenedCore, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Draconic Energy Core
-mods.avaritia.ExtremeCrafting.addShaped(DraconicECore, [
+mods.avaritia.ExtremeCrafting.addShaped(DraconicECore,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, null, WyvernECore, null, <ore:plateDraconiumAwakened>, null, null],
@@ -443,7 +443,7 @@ mods.avaritia.ExtremeCrafting.addShaped(DraconicECore, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Draconic Flux Capacitor
-mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor, [
+mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor,[
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:plateDraconiumAwakened>, null, null, null, null],
 [null, null, <ore:plateDraconiumAwakened>, <ore:wireGt04Superconductor>, AwakenedCore, <ore:wireGt04Superconductor>, <ore:plateDraconiumAwakened>, null, null],
@@ -455,7 +455,7 @@ mods.avaritia.ExtremeCrafting.addShaped(DraconicFluxCapacitor, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Draconic Sword
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicSword>, [
+mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicSword>,[
 [null, null, null, null, null, null, null, <ore:plateDraconiumAwakened>, <ore:plateDraconiumAwakened>],
 [null, null, null, null, null, null, <ore:plateDraconiumAwakened>, DraconicECore, <ore:plateDraconiumAwakened>],
 [null, null, null, null, null, <ore:plateDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:plateDraconiumAwakened>, null],

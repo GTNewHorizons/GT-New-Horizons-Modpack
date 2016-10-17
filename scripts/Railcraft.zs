@@ -2114,9 +2114,9 @@ mods.thaumcraft.Research.addPrereq("RC_Crowbar_Void", "RC_Crowbar", false);
 mods.thaumcraft.Research.clearPages("RC_Crowbar_Void");
 mods.thaumcraft.Research.addPage("RC_Crowbar_Void", "thaumcraft.research.RC_Crowbar_Void.page.1");
 mods.thaumcraft.Arcane.addShaped("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>, "perditio 50, ignis 50, aer 50, terra 50", [
-[<ore:craftingToolHardHammer>, <ore:dyeRed>, <dreamcraft:item.VoidRod>],
-[<ore:dyeRed>, <dreamcraft:item.VoidRod>, <ore:dyeRed>],
-[<dreamcraft:item.VoidRod>, <ore:dyeRed>, <ore:craftingToolFile>]]);
+[<ore:craftingToolHardHammer>, <ore:dyeRed>, <ore:stickVoid>],
+[<ore:dyeRed>, <ore:stickVoid>, <ore:dyeRed>],
+[<ore:stickVoid>, <ore:dyeRed>, <ore:craftingToolFile>]]);
 mods.thaumcraft.Research.addArcanePage("RC_Crowbar_Void", <Railcraft:tool.crowbar.void>);
 mods.thaumcraft.Warp.addToResearch("RC_Crowbar_Void", 2);
 

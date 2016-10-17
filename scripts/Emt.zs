@@ -115,6 +115,18 @@ mods.thaumcraft.Crucible.removeRecipe(<EMT:EMTSolars:*>);
 // -
 mods.thaumcraft.Crucible.removeRecipe(<EMT:EMTSolars2:*>);
 
+// --- Electric Hoe of Growth
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ElectricHoeGrowth:*>);
+
+// --- Electric Scribing Tool
+mods.thaumcraft.Arcane.removeRecipe(<EMT:ElectricScribingTools:*>);
+
+// --- Mjolnir
+mods.thaumcraft.Infusion.removeRecipe(<EMT:Mjolnir:*>);
+
+// --- Supercharged Mjolnir
+mods.thaumcraft.Infusion.removeRecipe(<EMT:SuperchargedMjolnir:*>);
+
 
 
 
@@ -680,6 +692,78 @@ mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:3>
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:3>);
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>, <EMT:EMTSolars:2>, "terra 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>);
+
+// --- Electric Hoe of Growth
+mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
+mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
+mods.thaumcraft.Research.addResearch("ElectricHoeofGrowth", "EMT", "potentia 15, messis 12, praecantatio 9, herba 6, electrum 3", 2, -2, 3, <EMT:ElectricHoeGrowth>);
+mods.thaumcraft.Research.addPrereq("ElectricHoeofGrowth", "ELEMENTALHOE", false);
+mods.thaumcraft.Research.addPrereq("ElectricHoeofGrowth", "ElectricMagicTools", false);
+mods.thaumcraft.Research.setConcealed("ElectricHoeofGrowth", true);
+mods.thaumcraft.Research.setRound("ElectricHoeofGrowth", true);
+game.setLocalization("tc.research_name.ElectricHoeofGrowth", "Electric Hoe of Growth");
+game.setLocalization("tc.research_text.ElectricHoeofGrowth", "Shockingly natural");
+mods.thaumcraft.Research.addPage("ElectricHoeofGrowth", "tc.research_page.ElectricHoeofGrowth");
+game.setLocalization("tc.research_page.ElectricHoeofGrowth", "You have managed to upgrade your Hoe of Growth. It now delivers little shocks to the land and plants around it, much like your regular Hoe of Growth would do. <BR><BR>However, the magic contained within this tool is too powerful for you to convert it fully to using mundane electricity, for the tool still has a limited number of uses before it breaks, but is rechargeable.");
+mods.thaumcraft.Infusion.addRecipe("ElectricHoeofGrowth", <Thaumcraft:ItemHoeElemental>,
+[<IC2:itemToolHoe:*>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <IC2:itemBatLamaCrystal:*>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
+"potentia 32, messis 32, praecantatio 48, herba 16, electrum 8", <EMT:ElectricHoeGrowth>, 8);
+mods.thaumcraft.Research.addInfusionPage("ElectricHoeofGrowth", <EMT:ElectricHoeGrowth>);
+
+// --- Electric Scribing Tool
+mods.thaumcraft.Research.orphanResearch("Electric Scribing Tools");
+mods.thaumcraft.Research.removeResearch("Electric Scribing Tools");
+mods.thaumcraft.Research.addResearch("ElectricScribingTools", "EMT", "potentia 15, tenebrae 12, fabrico 9, praecantatio 6, electrum 3", 6, -4, 3, <EMT:ElectricScribingTools>);
+mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "RESEARCH", false);
+game.setLocalization("tc.research_name.ElectricScribingTools", "Electric Scribing Tools");
+game.setLocalization("tc.research_text.ElectricScribingTools", "Save squiddy!");
+mods.thaumcraft.Research.addPage("ElectricScribingTools", "tc.research_page.ElectricScribingTools");
+game.setLocalization("tc.research_page.ElectricScribingTools", "You have decided not to kill any more squid. Therefore, you researched a way to charge your scribing tools, in a way which would make them not needing any ink. Thanks to static electricity, and the ball pen technology, you managed to make the ink inside the scribing tools spin so quickly, that EU could recharge it.");
+mods.thaumcraft.Arcane.addShaped("ElectricScribingTools", <EMT:ElectricScribingTools>, "aer 20, ignis 20, aqua 20, ordo 20", [
+[<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>],
+[<Thaumcraft:ItemInkwell>, <IC2:itemBatCrystal:*>, <Thaumcraft:ItemInkwell>],
+[<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>]]);
+mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScribingTools>);
+
+// --- Mjolnir
+mods.thaumcraft.Research.orphanResearch("Mjolnir");
+mods.thaumcraft.Research.removeResearch("Mjolnir");
+mods.thaumcraft.Research.addResearch("Mjolnirnew", "EMT", "telum 18, tempestas 15, alienis 12, ira 9, aer 6, ignis 3", 4, -4, 3, <EMT:Mjolnir>);
+mods.thaumcraft.Research.addPrereq("Mjolnirnew", "The Legend", false);
+mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ELEMENTALSWORD", false);
+mods.thaumcraft.Research.addPrereq("Mjolnirnew", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.addPrereq("Mjolnirnew", "NITOR", false);
+mods.thaumcraft.Research.setConcealed("Mjolnirnew", true);
+mods.thaumcraft.Research.setRound("Mjolnirnew", true);
+game.setLocalization("tc.research_name.Mjolnirnew", "MjolniR");
+game.setLocalization("tc.research_text.Mjolnirnew", "Godly power");
+mods.thaumcraft.Research.addPage("Mjolnirnew", "tc.research_page.Mjolnirnew");
+game.setLocalization("tc.research_page.Mjolnirnew", "You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling,(you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.");
+mods.thaumcraft.Infusion.addRecipe("Mjolnirnew", <EMT:TaintedMjolnir:*>,
+[<Thaumcraft:ItemSwordElemental>, <gregtech:gt.metaitem.01:17880>, <EMT:EMTItems:6>, <Thaumcraft:ItemResource:1>, <gregtech:gt.metaitem.01:17880>, <IC2:itemBatCrystal:*>, <Thaumcraft:FocusShock>, <IC2:itemBatCrystal:*>, <gregtech:gt.metaitem.01:17880>, <Thaumcraft:ItemResource:1>, <EMT:EMTItems:6>, <gregtech:gt.metaitem.01:17880>], 
+"telum 48, tempestas 48, alienis 32, ira 24, aer 16, ignis 16", <EMT:Mjolnir>, 10);
+mods.thaumcraft.Research.addInfusionPage("Mjolnirnew", <EMT:Mjolnir>);
+
+// --- Supercharged Mjolnir
+mods.thaumcraft.Research.orphanResearch("Supercharged Mjolnir");
+mods.thaumcraft.Research.removeResearch("Supercharged Mjolnir");
+mods.thaumcraft.Research.addResearch("SuperchargedMjolnir", "EMT", "telum 21, tempestas 18, alienis 15, bestia 12, ira 9, aer 6, ignis 3", 3, -3, 4, <EMT:SuperchargedMjolnir>);
+mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "Mjolnirnew", false);
+mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "FOCUSHELLBAT", false);
+mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "ALUMENTUM", false);
+mods.thaumcraft.Research.setConcealed("SuperchargedMjolnir", true);
+mods.thaumcraft.Research.setRound("SuperchargedMjolnir", true);
+game.setLocalization("tc.research_name.SuperchargedMjolnir", "Supercharged Mjolnir");
+game.setLocalization("tc.research_text.SuperchargedMjolnir", "Making it yours");
+mods.thaumcraft.Research.addPage("SuperchargedMjolnir", "tc.research_page.SuperchargedMjolnir");
+game.setLocalization("tc.research_page.SuperchargedMjolnir", "After some more exploring of the dungeons existing all around the worlds and dimensions, you have managed to find a method that makes you able to overpower Thor's power, making his Hammer yours. Furthermore, you have managed to make your Hammer summon defenders, some strange Snow-Golems like creature that shall protect you. However, the hammer lost its power to summon lightning where you desire it to, and creates a ring of lightning around you.");
+mods.thaumcraft.Infusion.addRecipe("SuperchargedMjolnir", <EMT:Mjolnir:*>,
+[<IC2:itemNanoSaber:*>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <Thaumcraft:FocusHellbat>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:1>, <IC2:itemPartIridium>], 
+"telum 64, potentia 64, alienis 48, ira 32, aer 24, ignis 24, bestia 16", <EMT:SuperchargedMjolnir>, 15);
+mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:SuperchargedMjolnir>);
+
 
 
 

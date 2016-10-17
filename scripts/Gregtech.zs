@@ -766,7 +766,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32758>, [
 
 // --- Solar Panel 524288 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32759>, [
-[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:wireGt01Superconductor>, null, null],
+[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null],
 [null, null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <AdvancedSolarPanel:asp_crafting_items:13>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null, null],
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
@@ -774,7 +774,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32759>, [
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
 [null, null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <AdvancedSolarPanel:asp_crafting_items:13>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null, null],
-[null, null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null]]);
+[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null]]);
 
 // --- Frames
 recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.frame>]);

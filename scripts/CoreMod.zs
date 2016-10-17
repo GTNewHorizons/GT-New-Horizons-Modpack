@@ -91,24 +91,6 @@ recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
 
-// --- Void Plates
-recipes.addShaped(<dreamcraft:item.VoidPlate>, [
-[Hammer, null, null],
-[<ore:ingotVoid>, null, null],
-[<ore:ingotVoid>, null, null]]);
-
-// --- Void Rod
-recipes.addShaped(<dreamcraft:item.VoidRod>, [
-[File, null, null],
-[null, <ore:ingotVoid>, null],
-[null, null, null]]);
-
-// --- Void Metal Ring
-recipes.addShaped(<dreamcraft:item.VoidRing>, [
-[Hammer, null, null],
-[File, <ore:stickVoid>, null],
-[null, null, null]]);
-
 // --- Mushroom Powder
 recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
 [<ore:listAllmushroom>, null, null],
@@ -790,9 +772,6 @@ recipes.addShaped(<dreamcraft:tile.DiamondFrameBox>, [
 
 
 
-// --- Void Metal Plate
-AlloySmelter.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, <gregtech:gt.metaitem.01:32301> * 0, 2400, 30);
-
 // --- Aluminium Item Casing
 AlloySmelter.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, <gregtech:gt.metaitem.01:11019> * 3, <gregtech:gt.metaitem.01:32302> * 0, 240, 30);
 
@@ -1306,15 +1285,6 @@ Extractor.addRecipe(<dreamcraft:item.AdvancedCokeOvenBrick> * 4, <Railcraft:mach
 // --- Extruder Recipes
 
 
-// --- Void Metal Plate
-Extruder.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32350> * 0, 800, 120);
-
-// --- Void Metal Rod
-Extruder.addRecipe(<dreamcraft:item.VoidRod> * 2, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32351> * 0, 400, 96);
-
-// --- Void Metal Ring
-Extruder.addRecipe(<dreamcraft:item.VoidRing> * 4, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32353> * 0, 800, 96);
-
 // --- Aluminium Item Casing
 Extruder.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, <gregtech:gt.metaitem.01:11019>, <gregtech:gt.metaitem.01:32357> * 0, 100, 64);
 
@@ -1417,9 +1387,6 @@ FluidSolidifier.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.m
 // --- Forge Hammer Recipes
 
 
-// --- Void Metal Plate
-ForgeHammer.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, 800, 16);
-
 // --- Charged Certus Dust
 ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergistics2:item.ItemMultiMaterial:1>, 10, 16);
 
@@ -1474,8 +1441,6 @@ FormingPress.addRecipe(<dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.meta
 
 
 
-// --- Void Sticks
-Lathe.addRecipe([<dreamcraft:item.VoidRod>, <dreamcraft:item.VoidRod>], <Thaumcraft:ItemResource:16>, 1000, 16);
 
 // --- Long Obsidian Rod
 Lathe.addRecipe([<dreamcraft:item.LongObsidianRod> * 4, null], <minecraft:obsidian>, 640, 16);
@@ -1640,12 +1605,6 @@ Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregt
 // --- Plate Bender Recipes
 
 
-
-// --- Void Metal Plate
-PlateBender.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, 1200, 24);
-
-// --- Void Metal Foil
-PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate>, 600, 24);
 
 // --- Dense Quantinum Plate
 PlateBender.addRecipe(<dreamcraft:item.QuantinumDensePlate>, <dreamcraft:item.QuantinumPlate> * 9, 600, 120);
