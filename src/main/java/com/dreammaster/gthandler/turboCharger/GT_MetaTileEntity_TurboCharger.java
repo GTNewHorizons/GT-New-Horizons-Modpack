@@ -76,7 +76,7 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
                         for (int i = mMetaTileEntity.dechargerSlotStartIndex(), k = mMetaTileEntity.dechargerSlotCount() + i; i < k; i++) {
                             if (mMetaTileEntity.mInventory[i] != null && mBaseMetaTileEntity.getStoredEU() < mBaseMetaTileEntity.getEUCapacity()) {
                                 //CODE
-                                mBaseMetaTileEntity.increaseStoredEnergyUnits(GT_ModHandler.dischargeElectricItem(mMetaTileEntity.mInventory[i], GT_Utility.safeInt(Math.min(V[mTier] * 120, mBaseMetaTileEntity.getEUCapacity() - mBaseMetaTileEntity.getStoredEU())), (int) Math.min(Integer.MAX_VALUE, mMetaTileEntity.getInputTier()), true, false, false), true);
+                                mBaseMetaTileEntity.increaseStoredEnergyUnits(GT_ModHandler.dischargeElectricItem(mMetaTileEntity.mInventory[i], GT_Utility.safeInt(Math.min(V[mTier] * 60, mBaseMetaTileEntity.getEUCapacity() - mBaseMetaTileEntity.getStoredEU())), (int) Math.min(Integer.MAX_VALUE, mMetaTileEntity.getInputTier()), true, false, false), true);
                                 if (mMetaTileEntity.mInventory[i].stackSize <= 0)
                                     mMetaTileEntity.mInventory[i] = null;
                             }
@@ -86,7 +86,7 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
                         for (int i = mMetaTileEntity.rechargerSlotStartIndex(), k = mMetaTileEntity.rechargerSlotCount() + i; i < k; i++) {
                             if (mBaseMetaTileEntity.getStoredEU() > 0 && mMetaTileEntity.mInventory[i] != null) {
                                 //CODE
-                                mBaseMetaTileEntity.decreaseStoredEU(GT_ModHandler.chargeElectricItem(mMetaTileEntity.mInventory[i], GT_Utility.safeInt(Math.min(V[mTier] * 120, mBaseMetaTileEntity.getStoredEU())), (int) Math.min(Integer.MAX_VALUE, mMetaTileEntity.getOutputTier()), true, false), true);
+                                mBaseMetaTileEntity.decreaseStoredEU(GT_ModHandler.chargeElectricItem(mMetaTileEntity.mInventory[i], GT_Utility.safeInt(Math.min(V[mTier] * 60, mBaseMetaTileEntity.getStoredEU())), (int) Math.min(Integer.MAX_VALUE, mMetaTileEntity.getOutputTier()), true, false), true);
                                 if (mMetaTileEntity.mInventory[i].stackSize <= 0)
                                     mMetaTileEntity.mInventory[i] = null;
                             }
