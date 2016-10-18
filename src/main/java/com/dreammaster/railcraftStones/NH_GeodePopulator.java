@@ -41,7 +41,7 @@ public class NH_GeodePopulator {
         int x = chunkX * 16 + 8;
         int z = chunkZ * 16 + 8;
         if(this.canGen(world, rand, x, z)) {
-            int y = 12 + rand.nextInt(20);
+            int y = 16 + rand.nextInt(16);
             this.geode.generate(world, rand, x, y, z);
         }
 
