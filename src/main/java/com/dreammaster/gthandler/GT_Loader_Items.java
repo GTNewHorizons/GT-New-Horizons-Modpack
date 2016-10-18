@@ -431,6 +431,7 @@ public class GT_Loader_Items
 		CustomItemList.AdsorptionFilterCasing.set(com.dreammaster.item.ItemList.AdsorptionFilterCasing.getIS());
 		CustomItemList.AdsorptionFilter.set(com.dreammaster.item.ItemList.AdsorptionFilter.getIS());
 		CustomItemList.AdsorptionFilterDirty.set(com.dreammaster.item.ItemList.AdsorptionFilterDirty.getIS());
+		CustomItemList.VoidSeed.set(com.dreammaster.item.ItemList.VoidSeed.getIS());
 	}
 
 }

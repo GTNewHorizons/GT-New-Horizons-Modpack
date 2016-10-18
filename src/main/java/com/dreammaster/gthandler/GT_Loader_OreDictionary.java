@@ -42,10 +42,10 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.Ledox, com.dreammaster.item.ItemList.LedoxCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.stick, Materials.Stone, com.dreammaster.item.ItemList.CobbleStoneRod.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Stone, com.dreammaster.item.ItemList.StonePlate.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Voidmetal, com.dreammaster.item.ItemList.VoidPlate.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.stick, Materials.Voidmetal, com.dreammaster.item.ItemList.VoidRod.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.ring, Materials.Voidmetal, com.dreammaster.item.ItemList.VoidRing.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.foil, Materials.Voidmetal, com.dreammaster.item.ItemList.VoidFoil.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Void, com.dreammaster.item.ItemList.VoidPlate.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.stick, Materials.Void, com.dreammaster.item.ItemList.VoidRod.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.ring, Materials.Void, com.dreammaster.item.ItemList.VoidRing.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.foil, Materials.Void, com.dreammaster.item.ItemList.VoidFoil.getIS());
         GT_OreDictUnificator.registerOre("stickSandstone", com.dreammaster.item.ItemList.SandStoneRod.getIS());
         GT_OreDictUnificator.registerOre("lensReinforcedGlass", com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
         GT_OreDictUnificator.registerOre("plateReinforcedGlass", com.dreammaster.item.ItemList.ReinforcedGlassPlate.getIS());
@@ -98,7 +98,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
 
-        GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Voidmetal, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
+        GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
     }

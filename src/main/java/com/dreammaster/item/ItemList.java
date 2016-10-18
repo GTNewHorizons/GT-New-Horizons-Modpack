@@ -391,6 +391,7 @@ public enum ItemList
     VoidPlate(new ModSimpleBaseItem("VoidPlate", ModTabList.ModThaumcraftTab)),
     VoidRing(new ModSimpleBaseItem("VoidRing", ModTabList.ModThaumcraftTab)),
     VoidRod(new ModSimpleBaseItem("VoidRod", ModTabList.ModThaumcraftTab)),
+    VoidSeed(new ModSimpleBaseItem("VoidSeed", ModTabList.ModThaumcraftTab)),
     WandCapAlchemical(new ModSimpleBaseItem("WandCapAlchemical", ModTabList.ModThaumcraftTab)),
     WandCapBloodIron(new ModSimpleBaseItem("WandCapBloodIron", ModTabList.ModThaumcraftTab)),
     WeakOrb(new ModSimpleBaseItem("WeakOrb", ModTabList.ModThaumcraftTab)),
