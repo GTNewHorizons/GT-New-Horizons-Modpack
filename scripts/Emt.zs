@@ -127,6 +127,35 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:Mjolnir:*>);
 // --- Supercharged Mjolnir
 mods.thaumcraft.Infusion.removeRecipe(<EMT:SuperchargedMjolnir:*>);
 
+// --- Uranium
+mods.thaumcraft.Arcane.removeRecipe(<IC2:itemUran235small>);
+
+// --- Crystalized UU-Mater
+mods.thaumcraft.Crucible.removeRecipe(<EMT:EMTItems:15>);
+
+// --- Coal
+mods.thaumcraft.Infusion.removeRecipe(<minecraft:coal>);
+
+// --- Glowstone Block
+mods.thaumcraft.Infusion.removeRecipe(<minecraft:glowstone>);
+
+// --- Iridium
+mods.thaumcraft.Infusion.removeRecipe(<IC2:itemOreIridium>);
+
+// --- Gold Ingot
+mods.thaumcraft.Infusion.removeRecipe(<minecraft:gold_ingot>);
+
+// --- Diamond Gem
+mods.thaumcraft.Infusion.removeRecipe(<minecraft:diamond>);
+
+// --- Wand Focus Shield
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ShieldFocus>);
+
+// --- Uranium
+mods.thaumcraft.Infusion.removeRecipe(<IC2:itemUran238>);
+
+// --- Shield Block
+mods.thaumcraft.Arcane.removeRecipe(<EMT:ShieldBlock>);
 
 
 
@@ -320,7 +349,6 @@ mods.thaumcraft.Research.removeResearch("Diamond Omnitool");
 mods.thaumcraft.Research.addResearch("DiamondOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -4, 0, 3, <EMT:Diamond Omnitool>);
 mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "IronOmnitool", false);
 mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondChainsaw", true);
-mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondDrill", true);
 mods.thaumcraft.Research.setConcealed("DiamondOmnitool", true);
 mods.thaumcraft.Research.setRound("DiamondOmnitool", true);
 game.setLocalization("tc.research_name.DiamondOmnitool", "Diamond Omnitool");
@@ -764,7 +792,165 @@ mods.thaumcraft.Infusion.addRecipe("SuperchargedMjolnir", <EMT:Mjolnir:*>,
 "telum 64, potentia 64, alienis 48, ira 32, aer 24, ignis 24, bestia 16", <EMT:SuperchargedMjolnir>, 15);
 mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:SuperchargedMjolnir>);
 
+// --- Lightning Summoner
+mods.thaumcraft.Research.orphanResearch("Lightning Summoner");
+mods.thaumcraft.Research.removeResearch("Lightning Summoner");
+mods.thaumcraft.Research.addResearch("LightningSummoner", "EMT", "tempestas 15, aer 12, ignis 9, nebrisum 6, permutatio 3", 6, -5, 4, <EMT:EMTItems:6>);
+mods.thaumcraft.Research.addPrereq("LightningSummoner", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.addPrereq("LightningSummoner", "NITOR", false);
+mods.thaumcraft.Research.addPrereq("LightningSummoner", "ALUMENTUM", false);
+mods.thaumcraft.Research.setConcealed("LightningSummoner", true);
+game.setLocalization("tc.research_name.LightningSummoner", "Lightning Summoner");
+game.setLocalization("tc.research_text.LightningSummoner", "From vilest enemies");
+mods.thaumcraft.Research.addPage("LightningSummoner", "tc.research_page.LightningSummoner");
+game.setLocalization("tc.research_page.LightningSummoner", "This item is dropped by your archenemy, the Supercharged Creeper. You feel it is going to be very useful later on.<BR><BR>If you dont't have any luck i have a recipe for you to make this magic balls of lighting");
+mods.thaumcraft.Infusion.addRecipe("LightningSummoner", <Thaumcraft:FocusShock>,
+[<Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>], 
+"tempestas 16, aer 24, ignis 16, nebrisum 8, permutatio 8",<EMT:EMTItems:6>, 9);
+mods.thaumcraft.Research.addInfusionPage("LightningSummoner", <EMT:EMTItems:6>);
 
+// --- Uranium
+mods.thaumcraft.Research.orphanResearch("Tiny Uranium");
+mods.thaumcraft.Research.removeResearch("Tiny Uranium");
+mods.thaumcraft.Research.addResearch("TinyUranium", "EMT", "permutatio 15, venenum 12, mortuus 9, praecantatio 6, metallum 3", 5, -4, 3, <IC2:itemUran235small>);
+mods.thaumcraft.Research.addPrereq("TinyUranium", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("TinyUranium", "RESEARCH", false);
+game.setLocalization("tc.research_name.TinyUranium", "Tiny Uranium");
+game.setLocalization("tc.research_text.TinyUranium", "Some shrinkage may occur");
+mods.thaumcraft.Research.addPage("TinyUranium", "tc.research_page.TinyUranium");
+game.setLocalization("tc.research_page.TinyUranium", "After processing all your ores and using them for the creation of nuclear reactors, you have finally run out of uranium nuggets, needed to make your beloved fuel rods. After long research sessions, you have managed to transform your leftover uranium into much-needed nuggets!<BR><BR>Unfortunately, this process is a bit wasteful, but you believe it to be worth the cost.");
+mods.thaumcraft.Arcane.addShapeless("TinyUranium", <IC2:itemUran235small> * 7, "aer 7, ignis 7, aqua 7, terra 7, ordo 7, perditio 7", [<IC2:itemUran238>]);
+mods.thaumcraft.Research.addArcanePage("TinyUranium", <IC2:itemUran235small>);
+
+// --- Crystalized UU Mater
+mods.thaumcraft.Research.orphanResearch("UU-Matter Infusion");
+mods.thaumcraft.Research.removeResearch("UU-Matter Infusion");
+mods.thaumcraft.Research.addResearch("UUMatterInfusion", "EMT", "fabrico 15, alienis 12, permutatio 9, praecantatio 6, vitreus 3", 5, -3, 3, <EMT:EMTItems:15>);
+mods.thaumcraft.Research.addPrereq("UUMatterInfusion", "ElectricMagicTools", true);
+game.setLocalization("tc.research_name.UUMatterInfusion", "UUMatter Infusion");
+game.setLocalization("tc.research_text.UUMatterInfusion", "A magically charged metamorphic liquid...");
+mods.thaumcraft.Research.addPage("UUMatterInfusion", "tc.research_page.UUMatterInfusion");
+game.setLocalization("tc.research_page.UUMatterInfusion", "You have always found the powers possessed by UU-Mater very strange, even... magical looking, especially the ability to take a large number of shapes if manipulated correctly. And here you are, having discovered a way to shape the liquid through the process of Infusion Crafting. Many recipes are available, and all of them use between 4 to 32 of each primal aspect.");
+mods.thaumcraft.Crucible.addRecipe("UUMatterInfusion", <EMT:EMTItems:15>, <IC2:itemCellEmpty:3>, "vitreus 16, gelum 8, praecantatio 8, permutatio 8");
+mods.thaumcraft.Research.addCruciblePage("UUMatterInfusion", <EMT:EMTItems:15>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:coal:1>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>], 
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <minecraft:coal> * 16, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <minecraft:coal>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:glowstone_dust>,
+[<EMT:EMTItems:15>], 
+"aer 4, aqua 4, terra 4, ignis 4, perditio 4, ordo 8", <minecraft:glowstone>, 3);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <minecraft:glowstone>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:iron_ingot>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5032> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5032>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <gregtech:gt.metaitem.01:11035>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5035> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5035>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UU-MatterInfusion", <gregtech:gt.metaitem.01:11057>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5057> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5057>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:gold_ingot>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5086> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5086>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <IC2:itemUran238>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5098> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5098>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <gregtech:gt.metaitem.01:11054>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5054> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5054>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <gregtech:gt.metaitem.01:11089>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <gregtech:gt.metaitem.01:5089> * 32, 6);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5089>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:redstone>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 12, aqua 12, terra 24, ignis 12, perditio 12, ordo 24", <gregtech:gt.metaitem.01:5810> * 24, 9);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5810>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:dye:4>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 12, aqua 12, terra 24, ignis 12, perditio 12, ordo 24", <gregtech:gt.metaitem.01:5526> * 24, 9);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <gregtech:gt.metaitem.01:5526>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:iron_ingot>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 8, aqua 8, terra 16, ignis 8, perditio 8, ordo 16", <minecraft:gold_ingot> * 2, 9);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <minecraft:gold_ingot>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:gold_ingot>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 16, aqua 16, terra 32, ignis 16, perditio 16, ordo 32", <minecraft:diamond>, 12);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <minecraft:diamond>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion", <minecraft:diamond>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>],
+"aer 24, aqua 24, terra 48, ignis 24, perditio 24, ordo 48", <IC2:itemUran238> * 2, 15);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <IC2:itemUran238>);
+// -
+mods.thaumcraft.Infusion.addRecipe("UUMatterInfusion",  <IC2:itemUran238>,
+[<EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>, <EMT:EMTItems:15>,],
+"aer 32, aqua 32, terra 64, ignis 32, perditio 32, ordo 64", <IC2:itemOreIridium> * 2, 18);
+mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <IC2:itemOreIridium>);
+
+// --- Portable Node
+mods.thaumcraft.Research.orphanResearch("Portable Node");
+mods.thaumcraft.Research.removeResearch("Portable Node");
+mods.thaumcraft.Research.addResearch("PortableNode", "EMT", "auram 15, alienis 12, lucrum 9, praecantatio 6, vitreus 3", 6, -3, 3, <EMT:PortableNode>);
+mods.thaumcraft.Research.addPrereq("PortableNode", "ElectricMagicTools", true);
+game.setLocalization("tc.research_name.PortableNode", "Portable Node");
+game.setLocalization("tc.research_text.PortableNode", "Randomly convenient");
+mods.thaumcraft.Research.addPage("PortableNode", "tc.research_page.PortableNode");
+game.setLocalization("tc.research_page.PortableNode", "After studying in an in-depth manner of the wonders of Node Jarring, you have managed to create an item capable of spawning a random node. However, due to some parts of node magic which you cannot understand, this Portable Node will always be Fading and Unstable. <BR><BR>You can only get rid of it by a shift-right click, and you think that you should dispose of it as soon as possible, for unstable nodes are... rather unpredictable.");
+mods.thaumcraft.Research.addCruciblePage("PortableNode", <EMT:PortableNode>);
+
+// --- Wand Focus Shield
+mods.thaumcraft.Research.orphanResearch("Shield Focus");
+mods.thaumcraft.Research.removeResearch("Shield Focus");
+mods.thaumcraft.Research.addResearch("ShieldFocus", "EMT", "tutamen 15, aer 12, vitreus 9, praecantatio 6, cognitio 3", 2, 4, 3, <EMT:ShieldFocus>);
+mods.thaumcraft.Research.addPrereq("PortableNode", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ShieldFocus", "FOCUSPORTABLEHOLE", false);
+mods.thaumcraft.Research.setConcealed("ShieldFocus", true);
+game.setLocalization("tc.research_name.ShieldFocus", "Shield Focus");
+game.setLocalization("tc.research_text.ShieldFocus", "S.H.I.E.L.D.");
+mods.thaumcraft.Research.addPage("ShieldFocus", "tc.research_page.ShieldFocus");
+game.setLocalization("tc.research_page.ShieldFocus", "With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternate dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.");
+mods.thaumcraft.Infusion.addRecipe("ShieldFocus", <Thaumcraft:FocusPortableHole>,
+[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
+"aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8",<EMT:ShieldFocus>, 9);
+mods.thaumcraft.Research.addInfusionPage("ShieldFocus", <EMT:ShieldFocus>);
+
+// --- Shield Block
+mods.thaumcraft.Research.orphanResearch("Shield Block");
+mods.thaumcraft.Research.removeResearch("Shield Block");
+mods.thaumcraft.Research.addResearch("ShieldBlock", "EMT", "tutamen 15, vinculum 12, cognitio 9, praecantatio 6, alienis 3", 2, 6, 3, <EMT:ShieldBlock>);
+mods.thaumcraft.Research.addPrereq("ShieldBlock", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ShieldBlock", "ShieldFocus", false);
+game.setLocalization("tc.research_name.ShieldBlock", "Shield Block");
+game.setLocalization("tc.research_text.ShieldBlock", "Magical protection");
+mods.thaumcraft.Research.addPage("ShieldBlock", "tc.research_page.ShieldBlock");
+game.setLocalization("tc.research_page.ShieldBlock", "After studying the blocks created by the shield focus, you have discovered how to recreate them yourself, without relying on them to be summoned by the focus. They are highly blast resistant, and even resistant to nukes. However, in the event of an actual nuclear explosion, while the shield blocks will survive the aftermath, the surrounding blocks will not.<BR><BR>These blocks are unstable and do not drop when broken, even when Silk Touch is used.");
+mods.thaumcraft.Arcane.addShaped("ShieldBlock", <EMT:ShieldBlock> * 10, "terra 20, ordo 20, perditio 20", [
+[<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>],
+[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:1>, <dreamcraft:item.ReinforcedGlassPlate>],
+[<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>]]);
+mods.thaumcraft.Research.addArcanePage("ShieldBlock", <EMT:ShieldBlock>);
 
 
 
