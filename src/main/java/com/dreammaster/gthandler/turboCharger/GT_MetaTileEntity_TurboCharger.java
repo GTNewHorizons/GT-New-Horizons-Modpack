@@ -68,8 +68,8 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
     public void onPostTick(IGregTechTileEntity aBaseMetaTileEntity, long aTick) {
         if (aBaseMetaTileEntity.isServerSide()) {
 
-            mCharge = aBaseMetaTileEntity.getStoredEU() / 2 > aBaseMetaTileEntity.getEUCapacity() / 3 || !getBaseMetaTileEntity().isAllowedToWork();
-            mDecharge = aBaseMetaTileEntity.getStoredEU() < aBaseMetaTileEntity.getEUCapacity() / 3 && getBaseMetaTileEntity().isAllowedToWork();
+            mCharge = aBaseMetaTileEntity.getStoredEU() / 2 > aBaseMetaTileEntity.getEUCapacity() / 3 || !aBaseMetaTileEntity.isAllowedToWork();
+            mDecharge = aBaseMetaTileEntity.getStoredEU() < aBaseMetaTileEntity.getEUCapacity() / 3 && aBaseMetaTileEntity.isAllowedToWork();
             mBatteryCount = 0;
             mChargeableCount = 0;
             for (ItemStack tStack : mInventory)
