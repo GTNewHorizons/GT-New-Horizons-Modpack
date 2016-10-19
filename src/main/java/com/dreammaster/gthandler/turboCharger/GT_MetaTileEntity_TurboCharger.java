@@ -36,7 +36,7 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
         ITexture[][][] rTextures = new ITexture[2][17][];
         for (byte i = -1; i < 16; i++) {
             rTextures[0][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1]};
-            rTextures[1][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1], getBaseMetaTileEntity().isAllowedToWork()?Textures.BlockIcons.OVERLAYS_ENERGY_OUT_POWER[mTier]:Textures.BlockIcons.OVERLAYS_ENERGY_IN_POWER[mTier]};
+            rTextures[1][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1], Textures.BlockIcons.OVERLAYS_ENERGY_OUT_POWER[mTier]};
         }
         return rTextures;
     }
