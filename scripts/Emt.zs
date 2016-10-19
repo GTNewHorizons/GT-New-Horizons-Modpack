@@ -157,6 +157,29 @@ mods.thaumcraft.Infusion.removeRecipe(<IC2:itemUran238>);
 // --- Shield Block
 mods.thaumcraft.Arcane.removeRecipe(<EMT:ShieldBlock>);
 
+// --- Kris-tmas Focus
+mods.thaumcraft.Arcane.removeRecipe(<EMT:ChristmasFocus>);
+
+// --- Energy Ball Focus
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EnergyBallFocus>);
+
+// --- Explosion Focus
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ExplosionFocus>);
+
+// --- Wand Focus Charging
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ChargingFocus>);
+
+// --- Wand Focus Wand Charging
+mods.thaumcraft.Infusion.removeRecipe(<EMT:WandChargingFocus>);
+
+// --- Aspeckt Generator
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EssentiaGenerators:*>);
+// -
+mods.thaumcraft.Crucible.removeRecipe(<EMT:EssentiaGenerators:*>);
+
+// --- Industrial Wand Charging Station and Ethereal Processor
+mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTMachines:*>);
+
 
 
 
@@ -202,6 +225,7 @@ mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:2
 mods.thaumcraft.Research.removeResearch("Thaumium Plate");
 mods.thaumcraft.Research.addResearch("ThaumiumPlate", "EMT", "null", 6, -6, 0, <EMT:EMTItems:5>);
 mods.thaumcraft.Research.setAutoUnlock("ThaumiumPlate", true);
+mods.thaumcraft.Research.setRound("ThaumiumPlate", true);
 game.setLocalization("tc.research_name.ThaumiumPlate", "Thaumium Plate");
 game.setLocalization("tc.research_text.ThaumiumPlate", "Thaumium, the industrial way");
 mods.thaumcraft.Research.addPage("ThaumiumPlate", "tc.research_page.ThaumiumPlate");
@@ -541,6 +565,7 @@ mods.thaumcraft.Research.orphanResearch("Quantum Goggles of Revealing");
 mods.thaumcraft.Research.removeResearch("Quantum Goggles of Revealing");
 mods.thaumcraft.Research.addResearch("ElectricGogglesofRevealing", "EMT", "tutamen 15, potentia 12, sensus 9, praecantatio 6, electrum 3", -6, -2, 3, <EMT:ElectricGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "GOGGLES", false);
+mods.thaumcraft.Research.setConcealed("ElectricGogglesofRevealing", true);
 mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setRound("ElectricGogglesofRevealing", true);
 game.setLocalization("tc.research_name.ElectricGogglesofRevealing", "Electric Goggles of Revealing");
@@ -630,6 +655,7 @@ mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7, -7, 3, <EMT:EMTSolars:3>);
 mods.thaumcraft.Research.addPrereq("WaterInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("WaterInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.WaterInfusedSolarPanels", "Water Infused Solar Pannels");
 game.setLocalization("tc.research_text.WaterInfusedSolarPanels", "Curse you rain!");
 mods.thaumcraft.Research.addPage("WaterInfusedSolarPanels", "tc.research_page.WaterInfusedSolarPanels");
@@ -646,6 +672,7 @@ mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8, -6, 3, <EMT:EMTSolars:6>);
 mods.thaumcraft.Research.addPrereq("EntropyInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("EntropyInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.EntropyInfusedSolarPanels", "Entropy Infused Solar Panels");
 game.setLocalization("tc.research_text.EntropyInfusedSolarPanels", "Not afraid of the dark");
 mods.thaumcraft.Research.addPage("EntropyInfusedSolarPanels", "tc.research_page.EntropyInfusedSolarPanels");
@@ -662,6 +689,7 @@ mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -8, 3, <EMT:EMTSolars:9>);
 mods.thaumcraft.Research.addPrereq("OrderInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("OrderInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.OrderInfusedSolarPanels", "Order Infused Solar Panels");
 game.setLocalization("tc.research_text.OrderInfusedSolarPanels", "I've got the power!");
 mods.thaumcraft.Research.addPage("OrderInfusedSolarPanels", "tc.research_page.OrderInfusedSolarPanels");
@@ -678,6 +706,7 @@ mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5, -7, 3, <EMT:EMTSolars:12>);
 mods.thaumcraft.Research.addPrereq("FireInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("FireInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.FireInfusedSolarPanels", "Fire Infused Solar Panels");
 game.setLocalization("tc.research_text.FireInfusedSolarPanels", "Where it is hot and dangerous...");
 mods.thaumcraft.Research.addPage("FireInfusedSolarPanels", "tc.research_page.FireInfusedSolarPanels");
@@ -694,6 +723,7 @@ mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4, -6, 3, <EMT:EMTSolars:15>);
 mods.thaumcraft.Research.addPrereq("AirInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("AirInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.AirInfusedSolarPanels", "Air Infused Solar Panels");
 game.setLocalization("tc.research_text.AirInfusedSolarPanels", "Don't be afraid of heights");
 mods.thaumcraft.Research.addPage("AirInfusedSolarPanels", "tc.research_page.AirInfusedSolarPanels");
@@ -710,6 +740,7 @@ mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -7, 3, <EMT:EMTSolars2:2>);
 mods.thaumcraft.Research.addPrereq("EarthInfusedSolarPanels", "CompressedSolars", false);
+mods.thaumcraft.Research.setConcealed("EarthInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.EarthInfusedSolarPanels", "Earth Infused Solar Panels");
 game.setLocalization("tc.research_text.EarthInfusedSolarPanels", "Not for claustrophobic persons");
 mods.thaumcraft.Research.addPage("EarthInfusedSolarPanels", "tc.research_page.EarthInfusedSolarPanels");
@@ -744,6 +775,8 @@ mods.thaumcraft.Research.removeResearch("Electric Scribing Tools");
 mods.thaumcraft.Research.addResearch("ElectricScribingTools", "EMT", "potentia 15, tenebrae 12, fabrico 9, praecantatio 6, electrum 3", 6, -4, 3, <EMT:ElectricScribingTools>);
 mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "RESEARCH", false);
+mods.thaumcraft.Research.setConcealed("ElectricScribingTools", true);
+mods.thaumcraft.Research.setRound("ElectricScribingTools", true);
 game.setLocalization("tc.research_name.ElectricScribingTools", "Electric Scribing Tools");
 game.setLocalization("tc.research_text.ElectricScribingTools", "Save squiddy!");
 mods.thaumcraft.Research.addPage("ElectricScribingTools", "tc.research_page.ElectricScribingTools");
@@ -757,7 +790,7 @@ mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScr
 // --- Mjolnir
 mods.thaumcraft.Research.orphanResearch("Mjolnir");
 mods.thaumcraft.Research.removeResearch("Mjolnir");
-mods.thaumcraft.Research.addResearch("Mjolnirnew", "EMT", "telum 18, tempestas 15, alienis 12, ira 9, aer 6, ignis 3", 4, -4, 3, <EMT:Mjolnir>);
+mods.thaumcraft.Research.addResearch("Mjolnirnew", "EMT", "telum 18, tempestas 15, alienis 12, ira 9, aer 6, ignis 3", 4, -5, 3, <EMT:Mjolnir>);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "The Legend", false);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ELEMENTALSWORD", false);
@@ -777,7 +810,7 @@ mods.thaumcraft.Research.addInfusionPage("Mjolnirnew", <EMT:Mjolnir>);
 // --- Supercharged Mjolnir
 mods.thaumcraft.Research.orphanResearch("Supercharged Mjolnir");
 mods.thaumcraft.Research.removeResearch("Supercharged Mjolnir");
-mods.thaumcraft.Research.addResearch("SuperchargedMjolnir", "EMT", "telum 21, tempestas 18, alienis 15, bestia 12, ira 9, aer 6, ignis 3", 3, -3, 4, <EMT:SuperchargedMjolnir>);
+mods.thaumcraft.Research.addResearch("SuperchargedMjolnir", "EMT", "telum 21, tempestas 18, alienis 15, bestia 12, ira 9, aer 6, ignis 3", 3, -5, 4, <EMT:SuperchargedMjolnir>);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "Mjolnirnew", false);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "FOCUSHELLBAT", false);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "ALUMENTUM", false);
@@ -800,6 +833,7 @@ mods.thaumcraft.Research.addPrereq("LightningSummoner", "FOCUSSHOCK", false);
 mods.thaumcraft.Research.addPrereq("LightningSummoner", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("LightningSummoner", "ALUMENTUM", false);
 mods.thaumcraft.Research.setConcealed("LightningSummoner", true);
+mods.thaumcraft.Research.setRound("LightningSummoner", true);
 game.setLocalization("tc.research_name.LightningSummoner", "Lightning Summoner");
 game.setLocalization("tc.research_text.LightningSummoner", "From vilest enemies");
 mods.thaumcraft.Research.addPage("LightningSummoner", "tc.research_page.LightningSummoner");
@@ -815,6 +849,8 @@ mods.thaumcraft.Research.removeResearch("Tiny Uranium");
 mods.thaumcraft.Research.addResearch("TinyUranium", "EMT", "permutatio 15, venenum 12, mortuus 9, praecantatio 6, metallum 3", 5, -4, 3, <IC2:itemUran235small>);
 mods.thaumcraft.Research.addPrereq("TinyUranium", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("TinyUranium", "RESEARCH", false);
+mods.thaumcraft.Research.setConcealed("TinyUranium", true);
+mods.thaumcraft.Research.setRound("TinyUranium", true);
 game.setLocalization("tc.research_name.TinyUranium", "Tiny Uranium");
 game.setLocalization("tc.research_text.TinyUranium", "Some shrinkage may occur");
 mods.thaumcraft.Research.addPage("TinyUranium", "tc.research_page.TinyUranium");
@@ -827,6 +863,7 @@ mods.thaumcraft.Research.orphanResearch("UU-Matter Infusion");
 mods.thaumcraft.Research.removeResearch("UU-Matter Infusion");
 mods.thaumcraft.Research.addResearch("UUMatterInfusion", "EMT", "fabrico 15, alienis 12, permutatio 9, praecantatio 6, vitreus 3", 5, -3, 3, <EMT:EMTItems:15>);
 mods.thaumcraft.Research.addPrereq("UUMatterInfusion", "ElectricMagicTools", true);
+mods.thaumcraft.Research.setRound("UUMatterInfusion", true);
 game.setLocalization("tc.research_name.UUMatterInfusion", "UUMatter Infusion");
 game.setLocalization("tc.research_text.UUMatterInfusion", "A magically charged metamorphic liquid...");
 mods.thaumcraft.Research.addPage("UUMatterInfusion", "tc.research_page.UUMatterInfusion");
@@ -914,6 +951,7 @@ mods.thaumcraft.Research.orphanResearch("Portable Node");
 mods.thaumcraft.Research.removeResearch("Portable Node");
 mods.thaumcraft.Research.addResearch("PortableNode", "EMT", "auram 15, alienis 12, lucrum 9, praecantatio 6, vitreus 3", 6, -3, 3, <EMT:PortableNode>);
 mods.thaumcraft.Research.addPrereq("PortableNode", "ElectricMagicTools", true);
+mods.thaumcraft.Research.setRound("PortableNode", true);
 game.setLocalization("tc.research_name.PortableNode", "Portable Node");
 game.setLocalization("tc.research_text.PortableNode", "Randomly convenient");
 mods.thaumcraft.Research.addPage("PortableNode", "tc.research_page.PortableNode");
@@ -924,7 +962,7 @@ mods.thaumcraft.Research.addCruciblePage("PortableNode", <EMT:PortableNode>);
 mods.thaumcraft.Research.orphanResearch("Shield Focus");
 mods.thaumcraft.Research.removeResearch("Shield Focus");
 mods.thaumcraft.Research.addResearch("ShieldFocus", "EMT", "tutamen 15, aer 12, vitreus 9, praecantatio 6, cognitio 3", 2, 4, 3, <EMT:ShieldFocus>);
-mods.thaumcraft.Research.addPrereq("PortableNode", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ShieldFocus", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("ShieldFocus", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("ShieldFocus", true);
 game.setLocalization("tc.research_name.ShieldFocus", "Shield Focus");
@@ -933,7 +971,7 @@ mods.thaumcraft.Research.addPage("ShieldFocus", "tc.research_page.ShieldFocus");
 game.setLocalization("tc.research_page.ShieldFocus", "With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternate dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.");
 mods.thaumcraft.Infusion.addRecipe("ShieldFocus", <Thaumcraft:FocusPortableHole>,
 [<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
-"aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8",<EMT:ShieldFocus>, 9);
+"aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8", <EMT:ShieldFocus>, 9);
 mods.thaumcraft.Research.addInfusionPage("ShieldFocus", <EMT:ShieldFocus>);
 
 // --- Shield Block
@@ -942,6 +980,7 @@ mods.thaumcraft.Research.removeResearch("Shield Block");
 mods.thaumcraft.Research.addResearch("ShieldBlock", "EMT", "tutamen 15, vinculum 12, cognitio 9, praecantatio 6, alienis 3", 2, 6, 3, <EMT:ShieldBlock>);
 mods.thaumcraft.Research.addPrereq("ShieldBlock", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("ShieldBlock", "ShieldFocus", false);
+mods.thaumcraft.Research.setConcealed("ShieldBlock", true);
 game.setLocalization("tc.research_name.ShieldBlock", "Shield Block");
 game.setLocalization("tc.research_text.ShieldBlock", "Magical protection");
 mods.thaumcraft.Research.addPage("ShieldBlock", "tc.research_page.ShieldBlock");
@@ -951,6 +990,201 @@ mods.thaumcraft.Arcane.addShaped("ShieldBlock", <EMT:ShieldBlock> * 10, "terra 2
 [<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:1>, <dreamcraft:item.ReinforcedGlassPlate>],
 [<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>]]);
 mods.thaumcraft.Research.addArcanePage("ShieldBlock", <EMT:ShieldBlock>);
+
+// --- Kris-tmas Focus
+mods.thaumcraft.Research.orphanResearch("Kris-tmas Focus");
+mods.thaumcraft.Research.removeResearch("Kris-tmas Focus");
+mods.thaumcraft.Research.addResearch("KristmasFocus", "EMT", "gelum 15, bestia 12, victus 9, mortuus 6, praecantatio 3", 3, 4, 3, <EMT:ChristmasFocus>);
+mods.thaumcraft.Research.addPrereq("KristmasFocus", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("KristmasFocus", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.setConcealed("KristmasFocus", true);
+game.setLocalization("tc.research_name.KristmasFocus", "Kris-tmas Focus");
+game.setLocalization("tc.research_text.KristmasFocus", "Ho! Ho! Ho!");
+mods.thaumcraft.Research.addPage("KristmasFocus", "tc.research_page.KristmasFocus");
+game.setLocalization("tc.research_page.KristmasFocus", "Merry Christmas!<BR><BR>You have found a novel use for the frost focus. By exposing it to the magic of Christmas, you can summon your snowy friends at will to fire snowballs at your Festivus celebrating neighbours!");
+mods.thaumcraft.Arcane.addShaped("KristmasFocus", <EMT:ChristmasFocus>, "aer 25, ordo 25, aqua 25", [
+[<minecraft:pumpkin>, <gregtech:gt.metaitem.01:2728>, <minecraft:pumpkin>],
+[<gregtech:gt.metaitem.01:2702>, <Thaumcraft:FocusFrost>, <gregtech:gt.metaitem.01:2702>],
+[<minecraft:pumpkin>, <gregtech:gt.metaitem.01:2728>, <minecraft:pumpkin>]]);
+mods.thaumcraft.Research.addArcanePage("KristmasFocus", <EMT:ChristmasFocus>);
+
+// --- Energy Ball Focus
+mods.thaumcraft.Research.orphanResearch("Energy Ball Focus");
+mods.thaumcraft.Research.removeResearch("Energy Ball Focus");
+mods.thaumcraft.Research.addResearch("EnergyBallFocus", "EMT", "potentia 15, praecantatio 12, victus 9, praecantatio 6, cognitio 3", 4, 4, 3, <EMT:EnergyBallFocus>);
+mods.thaumcraft.Research.addPrereq("EnergyBallFocus", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EnergyBallFocus", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.setConcealed("EnergyBallFocus", true);
+game.setLocalization("tc.research_name.EnergyBallFocus", "Energy Ball Focus");
+game.setLocalization("tc.research_text.EnergyBallFocus", "Not a toy");
+mods.thaumcraft.Research.addPage("EnergyBallFocus", "tc.research_page.EnergyBallFocus");
+game.setLocalization("tc.research_page.EnergyBallFocus", "It's necessary to put on the BatPack or nano/quant chestplate for using this focus. You need 5120EU to create one ball. It's not recommended for using in a closed space!");
+mods.thaumcraft.Infusion.addRecipe("EnergyBallFocus", <Thaumcraft:FocusShock>,
+[<IC2:blockMachine2:1>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:1461>], 
+"potentia 24, praecantatio 18, victus 12, praecantatio 12, cognitio 6", <EMT:EnergyBallFocus>, 6);
+mods.thaumcraft.Research.addInfusionPage("EnergyBallFocus", <EMT:EnergyBallFocus>);
+mods.thaumcraft.Warp.addToResearch("EnergyBallFocus", 1);
+
+// --- Explosion Focus
+mods.thaumcraft.Research.orphanResearch("Explosion Focus");
+mods.thaumcraft.Research.removeResearch("Explosion Focus");
+mods.thaumcraft.Research.addResearch("ExplosionFocus", "EMT", "ignis 15, mortuus 12, telum 9, praecantatio 6, potentia 3", 5, 4, 3, <EMT:ExplosionFocus>);
+mods.thaumcraft.Research.addPrereq("ExplosionFocus", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ExplosionFocus", "FOCUSHELLBAT", false);
+mods.thaumcraft.Research.setConcealed("ExplosionFocus", true);
+game.setLocalization("tc.research_name.ExplosionFocus", "Explosion Focus");
+game.setLocalization("tc.research_text.ExplosionFocus", "Use only in well-ventilated areas");
+mods.thaumcraft.Research.addPage("ExplosionFocus", "tc.research_page.ExplosionFocus");
+game.setLocalization("tc.research_page.ExplosionFocus", "You have found a way to improve the Nine Hells focus.  By exposing the bats to the explosive properties of a Mining Laser, you have built a focus that acts similarly to the Laser but uses vis instead of EU.  However, its effects are incredibly unstable, so you make a note to be careful.");
+mods.thaumcraft.Infusion.addRecipe("ExplosionFocus", <Thaumcraft:FocusHellbat>,
+[<IC2:itemToolMiningLaser:*>, <dreamcraft:item.ReinforcedGlassLense>, <Thaumcraft:ItemResource:1>, <minecraft:firework_charge>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:tnt>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:firework_charge>, <Thaumcraft:ItemResource>, <dreamcraft:item.ReinforcedGlassLense>], 
+"ignis 64, mortuus 24, motus 48, telum 32, praecantatio 16, potentia 10", <EMT:ExplosionFocus>, 9);
+mods.thaumcraft.Research.addInfusionPage("ExplosionFocus", <EMT:ExplosionFocus>);
+mods.thaumcraft.Warp.addToResearch("ExplosionFocus", 1);
+
+// --- Wand Focus Charging
+mods.thaumcraft.Research.orphanResearch("Wand Focus: Charging");
+mods.thaumcraft.Research.removeResearch("Wand Focus: Charging");
+mods.thaumcraft.Research.addResearch("WandFocusCharging", "EMT", "permutatio 15, potentia 12, machina 9, praecantatio 6, cognitio 3", 6, 4, 3, <EMT:ChargingFocus>);
+mods.thaumcraft.Research.addPrereq("WandFocusCharging", "ElectricMagicTools", true);
+mods.thaumcraft.Research.setConcealed("WandFocusCharging", true);
+game.setLocalization("tc.research_name.WandFocusCharging", "Wand Focus: Charging");
+game.setLocalization("tc.research_text.WandFocusCharging", "From vis to electricity");
+mods.thaumcraft.Research.addPage("WandFocusCharging", "tc.research_page.WandFocusCharging");
+game.setLocalization("tc.research_page.WandFocusCharging", "You realized you always carry a wand with you, along with your electric stuff. But sometimes, you have ran out of juice in your electric tools. That's why you created this wand focus. It is very simple, yet very useful, for it drains vis from your wand storage, and charges the items using mundane electricity.");
+mods.thaumcraft.Infusion.addRecipe("WandFocusCharging", <IC2:itemBatCrystal:*>,
+[<gregtech:gt.blockmachines:22>, <gregtech:gt.metaitem.02:21330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:20330>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.blockmachines:1460>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.02:20330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:21330>], 
+"permutatio 48, potentia 24, machina 32, praecantatio 16, cognitio 8", <EMT:ChargingFocus>, 9);
+mods.thaumcraft.Research.addInfusionPage("WandFocusCharging", <EMT:ChargingFocus>);
+
+// --- Wand Focus Wand Charging
+mods.thaumcraft.Research.orphanResearch("Wand Focus: Wand Charging");
+mods.thaumcraft.Research.removeResearch("Wand Focus: Wand Charging");
+mods.thaumcraft.Research.addResearch("WandFocusWandCharging", "EMT", "potentia 18, fabrico 15, lucrum 12, permutatio 9, praecantatio 6, cognitio 3", 6, 6, 3, <EMT:WandChargingFocus>);
+mods.thaumcraft.Research.addPrereq("WandFocusWandCharging", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("WandFocusWandCharging", "WandFocusCharging", false);
+mods.thaumcraft.Research.addPrereq("WandFocusWandCharging", "IndustrialWandChargingStation", true);
+mods.thaumcraft.Research.setConcealed("WandFocusWandCharging", true);
+game.setLocalization("tc.research_name.WandFocusWandCharging", "Wand Focus: Wand Charging");
+game.setLocalization("tc.research_text.WandFocusWandCharging", "From electricity to vis");
+mods.thaumcraft.Research.addPage("WandFocusWandCharging", "tc.research_page.WandFocusWandCharging");
+game.setLocalization("tc.research_page.WandFocusWandCharging", "You've discovered a way to take the benefits of the Industrial Recharge station and house them inside of a Charging Focus, reversing its polarity.  Now it will drain electricity from your items in order to recharge your wand, albeit at a rather high cost. Furthermore, you have realized than you need a full set of Electric Armor to be able to start the wand charging process.");
+mods.thaumcraft.Infusion.addRecipe("WandFocusWandCharging", <EMT:ChargingFocus>,
+[<EMT:EMTMachines>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:20970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1660>, <IC2:itemBatLamaCrystal:*>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:20970>, <IC2:itemPartIridium>], 
+"potentia 48, fabrico 32, lucrum 64, permutatio 48, praecantatio 16, cognitio 8, auram 32", <EMT:WandChargingFocus>, 15);
+mods.thaumcraft.Research.addInfusionPage("WandFocusWandCharging", <EMT:WandChargingFocus>);
+mods.thaumcraft.Warp.addToResearch("WandFocusWandCharging", 2);
+
+// --- Potentia Generator
+mods.thaumcraft.Research.orphanResearch("Industrial Wand Charging Station");
+mods.thaumcraft.Research.removeResearch("Industrial Wand Charging Station");
+mods.thaumcraft.Research.orphanResearch("Etheral Processor");
+mods.thaumcraft.Research.removeResearch("Etheral Processor");
+mods.thaumcraft.Research.orphanResearch("Potentia Generator");
+mods.thaumcraft.Research.removeResearch("Potentia Generator");
+mods.thaumcraft.Research.addResearch("PotentiaGenerator", "EMT", "potentia 15, permutatio 12, machina 9, praecantatio 6, metallum 3", -4, 2, 3, <EMT:EssentiaGenerators>);
+mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "JARLABEL", false);
+mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "FOCUSTRADE", false);
+mods.thaumcraft.Research.setConcealed("PotentiaGenerator", true);
+game.setLocalization("tc.research_name.PotentiaGenerator", "Potentia Generator");
+game.setLocalization("tc.research_text.PotentiaGenerator", "Harnessing the power-producing potential of Essentia");
+mods.thaumcraft.Research.addPage("PotentiaGenerator", "tc.research_page.PotentiaGenerator");
+game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 8 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering.");
+mods.thaumcraft.Infusion.addRecipe("PotentiaGenerator", <IC2:blockGenerator:7>,
+[<Thaumcraft:FocusTrade>, <gregtech:gt.metaitem.01:32681>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32601>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:22>, <Thaumcraft:blockJar>, <IC2:blockMachine:12>, <IC2:itemBatCrystal:*>, <gregtech:gt.metaitem.01:32601>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32681>], 
+"potentia 48, permutatio 32, machina 16, praecantatio 32, metallum 32", <EMT:EssentiaGenerators>, 6);
+mods.thaumcraft.Research.addInfusionPage("PotentiaGenerator", <EMT:EssentiaGenerators>);
+
+// --- Ignis Potentia Generator
+mods.thaumcraft.Research.orphanResearch("Ignis Generator");
+mods.thaumcraft.Research.removeResearch("Ignis Generator");
+mods.thaumcraft.Research.addResearch("IgnisGenerator", "EMT", "ignis 12, permutatio 9, aqua 6, praecantatio 3", -6, 4, 3, <EMT:EssentiaGenerators:1>);
+mods.thaumcraft.Research.addPrereq("IgnisGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("IgnisGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("IgnisGenerator", true);
+game.setLocalization("tc.research_name.IgnisGenerator", "Ignis Generator");
+game.setLocalization("tc.research_text.IgnisGenerator", "If you can't handle the heat...");
+mods.thaumcraft.Research.addPage("IgnisGenerator", "tc.research_page.IgnisGenerator");
+game.setLocalization("tc.research_page.IgnisGenerator", "Just as you thought, with a bit of tweaking, you have found a way to instead use Ignis Essentia to produce power. On the inside, this machine is able to heat water by consuming Ignis. The steam produced by this heat then spins the turbines, similar to a typical Generator.");
+mods.thaumcraft.Crucible.addRecipe("IgnisGenerator", <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators>, "ignis 16, permutatio 8, praecantatio 8");
+mods.thaumcraft.Research.addCruciblePage("IgnisGenerator", <EMT:EssentiaGenerators:1>);
+
+// --- Auram Potentia Generator
+mods.thaumcraft.Research.orphanResearch("Auram Generator");
+mods.thaumcraft.Research.removeResearch("Auram Generator");
+mods.thaumcraft.Research.addResearch("AuramGenerator", "EMT", "auram 12, permutatio 9, aqua 6, praecantatio 3", -4, 4, 3, <EMT:EssentiaGenerators:2>);
+mods.thaumcraft.Research.addPrereq("AuramGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("AuramGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("AuramGenerator", true);
+game.setLocalization("tc.research_name.AuramGenerator", "Auram Generator");
+game.setLocalization("tc.research_text.AuramGenerator", "Harnessing the magic in the air");
+mods.thaumcraft.Research.addPage("AuramGenerator", "tc.research_page.AuramGenerator");
+game.setLocalization("tc.research_page.AuramGenerator", "Though it took a bit more work than you initially thought, you have found a way to produce EU using Auram Essenita. This required a complete reworking of the machine, relying on Auram's pulsating magical power to spin a Generator.");
+mods.thaumcraft.Crucible.addRecipe("AuramGenerator", <EMT:EssentiaGenerators:2>, <EMT:EssentiaGenerators>, "auram 16, permutatio 8, praecantatio 8");
+mods.thaumcraft.Research.addCruciblePage("AuramGenerator", <EMT:EssentiaGenerators:2>);
+
+// --- Arbor Potentia Generator
+mods.thaumcraft.Research.orphanResearch("Arbor Generator");
+mods.thaumcraft.Research.removeResearch("Arbor Generator");
+mods.thaumcraft.Research.addResearch("ArborGenerator", "EMT", "arbor 12, permutatio 9, aqua 6, praecantatio 3", -2, 4, 3, <EMT:EssentiaGenerators:3>);
+mods.thaumcraft.Research.addPrereq("ArborGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("ArborGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("ArborGenerator", true);
+game.setLocalization("tc.research_name.ArborGenerator", "Arbor Generator");
+game.setLocalization("tc.research_text.ArborGenerator", "Bringing power generation back to its basics");
+mods.thaumcraft.Research.addPage("ArborGenerator", "tc.research_page.ArborGenerator");
+game.setLocalization("tc.research_page.ArborGenerator", "You always seem to have excess Arbor Essentia sitting around. Not anymore! By modifying your original Potentia Generator, you have found a way to produce energy using Arbor Essentia instead.");
+mods.thaumcraft.Crucible.addRecipe("ArborGenerator", <EMT:EssentiaGenerators:3>, <EMT:EssentiaGenerators>, "arbor 16, permutatio 8, praecantatio 8");
+mods.thaumcraft.Research.addCruciblePage("ArborGenerator", <EMT:EssentiaGenerators:3>);
+
+// --- Aer Potentia Generator
+mods.thaumcraft.Research.orphanResearch("Aer Generator");
+mods.thaumcraft.Research.removeResearch("Aer Generator");
+mods.thaumcraft.Research.addResearch("AerGenerator", "EMT", "aer 12, permutatio 9, aqua 6, praecantatio 3", -4, 6, 3, <EMT:EssentiaGenerators:4>);
+mods.thaumcraft.Research.addPrereq("AerGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("AerGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("AerGenerator", true);
+game.setLocalization("tc.research_name.AerGenerator", "Aer Generator");
+game.setLocalization("tc.research_text.AerGenerator", "Compressing your environment");
+mods.thaumcraft.Research.addPage("AerGenerator", "tc.research_page.AerGenerator");
+game.setLocalization("tc.research_page.AerGenerator", "You have discovered the enormous power of the air, and therefore decided to try out a modification of your original Potentia Generator capable of compressing air from Aer Essentia in a nearby jar.");
+mods.thaumcraft.Crucible.addRecipe("AerGenerator", <EMT:EssentiaGenerators:4>, <EMT:EssentiaGenerators>, "aer 16, permutatio 8, praecantatio 8");
+mods.thaumcraft.Research.addCruciblePage("AerGenerator", <EMT:EssentiaGenerators:4>);
+
+// --- Industrial Wand Charging Station
+mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6, 2, 3, <EMT:EMTMachines>);
+mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "PotentiaGenerator", false);
+mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "WANDPED", false);
+mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "JARLABEL", false);
+mods.thaumcraft.Research.setConcealed("IndustrialWandChargingStation", true);
+game.setLocalization("tc.research_name.IndustrialWandChargingStation", "Industrial Wand Charging Station");
+game.setLocalization("tc.research_text.IndustrialWandChargingStation", "Charging your wand the industrial way");
+mods.thaumcraft.Research.addPage("IndustrialWandChargingStation", "tc.research_page.IndustrialWandChargingStation");
+game.setLocalization("tc.research_page.IndustrialWandChargingStation", "You have managed to combine the powers of the Wand Pedestal with those of the mighty UU-Matter, resulting in a machine capable of replicating aspects on your wand, at the cost of 50000 EU to recharge every aspect on the wand of 1 unit.");
+mods.thaumcraft.Infusion.addRecipe("IndustrialWandChargingStation", <Thaumcraft:blockStoneDevice:5>,
+[<gregtech:gt.blockmachines:485>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:30500>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockJar>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.02:30500>, <IC2:itemPartIridium>], 
+"permutatio 48, potentia 48, fabrico 48, praecantatio 32, lucrum 64, cognitio 16", <EMT:EMTMachines>, 9);
+mods.thaumcraft.Research.addInfusionPage("IndustrialWandChargingStation", <EMT:EMTMachines>);
+mods.thaumcraft.Warp.addToResearch("IndustrialWandChargingStation", 3);
+
+// --- Ethereal Processor
+mods.thaumcraft.Research.addResearch("EtheralProcessor", "EMT", "machina 15, fabrico 12, potentia 9, praecantatio 6, cognitio 3", -2, 2, 3, <EMT:EMTMachines:1>);
+mods.thaumcraft.Research.addPrereq("EtheralProcessor", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EtheralProcessor", "BELLOWS", false);
+mods.thaumcraft.Research.addPrereq("EtheralProcessor", "DISTILESSENTIA", false);
+mods.thaumcraft.Research.addPrereq("EtheralProcessor", "INFERNALFURNACE", false);
+mods.thaumcraft.Research.addPrereq("EtheralProcessor", "PotentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("EtheralProcessor", true);
+game.setLocalization("tc.research_name.EtheralProcessor", "Etheral Processor");
+game.setLocalization("tc.research_text.EtheralProcessor", "The sky is blue...");
+mods.thaumcraft.Research.addPage("EtheralProcessor", "tc.research_page.EtheralProcessor");
+game.setLocalization("tc.research_page.EtheralProcessor", "After taping into hell's power with the Infernal Furnace to get some rewards out of your mining sessions, you have something totally different in mind. You are now using the power of the Good, the sky and the so called Paradise. This Ethereal Processor doubles the yield of every smelting recipe, and gives a 10% chance of getting a Thaumium Nugget as a bonus. You can see two drawbacks to this : as it doubles your smelting yield, it takes twice the time to process an item. As it is a highly magical device, some mundane smelting recipes do not seem to work. You are confident that smelting cobblestone into stone will not work into this wonder-machine.");
+mods.thaumcraft.Infusion.addRecipe("EtheralProcessor", <gregtech:gt.blockmachines:302>,
+[<gregtech:gt.blockmachines:262>, <Thaumcraft:blockMetalDevice:9>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockWoodenDevice>, <Thaumcraft:blockStoneDevice>, <Thaumcraft:blockWoodenDevice>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockMetalDevice:9>], 
+"machina 16, fabrico 16, potentia 24, praecantatio 28, cognitio 8", <EMT:EMTMachines:1>, 9);
+mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>);
 
 
 
