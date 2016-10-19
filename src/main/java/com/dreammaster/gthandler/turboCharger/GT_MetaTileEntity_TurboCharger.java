@@ -9,6 +9,7 @@ import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Utility;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Charger;
+import net.minecraft.item.ItemStack;
 
 import static gregtech.api.enums.GT_Values.V;
 
@@ -35,7 +36,7 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
         ITexture[][][] rTextures = new ITexture[2][17][];
         for (byte i = -1; i < 16; i++) {
             rTextures[0][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1]};
-            rTextures[1][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1], Textures.BlockIcons.OVERLAYS_ENERGY_OUT_POWER[mTier]};
+            rTextures[1][i + 1] = new ITexture[]{Textures.BlockIcons.MACHINE_CASINGS[mTier][i + 1], getBaseMetaTileEntity().isAllowedToWork()?Textures.BlockIcons.OVERLAYS_ENERGY_OUT_POWER[mTier]:Textures.BlockIcons.OVERLAYS_ENERGY_IN_POWER[mTier]};
         }
         return rTextures;
     }
@@ -66,7 +67,17 @@ public class GT_MetaTileEntity_TurboCharger extends GT_MetaTileEntity_Charger {
     @Override
     public void onPostTick(IGregTechTileEntity aBaseMetaTileEntity, long aTick) {
         if (aBaseMetaTileEntity.isServerSide()) {
-            super.onPostTick(aBaseMetaTileEntity, aTick);
+
+            mCharge = aBaseMetaTileEntity.getStoredEU() / 2 > aBaseMetaTileEntity.getEUCapacity() / 3 || !getBaseMetaTileEntity().isAllowedToWork();
+            mDecharge = aBaseMetaTileEntity.getStoredEU() < aBaseMetaTileEntity.getEUCapacity() / 3 && getBaseMetaTileEntity().isAllowedToWork();
+            mBatteryCount = 0;
+            mChargeableCount = 0;
+            for (ItemStack tStack : mInventory)
+                if (GT_ModHandler.isElectricItem(tStack, mTier)) {
+                    if (GT_ModHandler.isChargerItem(tStack)) mBatteryCount++;
+                    mChargeableCount++;
+                }
+
             if (this.getBaseMetaTileEntity() instanceof BaseMetaTileEntity) {
                 BaseMetaTileEntity mBaseMetaTileEntity = (BaseMetaTileEntity) getBaseMetaTileEntity();
                 if (mBaseMetaTileEntity.getMetaTileEntity() instanceof MetaTileEntity) {

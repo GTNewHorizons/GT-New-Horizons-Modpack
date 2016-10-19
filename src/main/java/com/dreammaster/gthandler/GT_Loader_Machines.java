@@ -2923,7 +2923,7 @@ public class GT_Loader_Machines
 		// Turbo Chargers
 		// ===================================================================================================
 		CustomItemList.Battery_TurboCharger_4by4_ULV.set(new GT_MetaTileEntity_TurboCharger(
-				12040, "batteryturbocharger.16.tier.00", "Ultra Low Voltage Turbo Charger",0,"64A in /16A out", 4).getStackForm(1L));
+				12040, "batteryturbocharger.16.tier.00", "Ultra Low Voltage Turbo Charger",0,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ULV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2936,7 +2936,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Primitive)});
 
 		CustomItemList.Battery_TurboCharger_4by4_LV.set(new GT_MetaTileEntity_TurboCharger(
-				12041, "batteryturbocharger.16.tier.01", "Low Voltage Turbo Charger",1,"64A in /16A out", 4).getStackForm(1L));
+				12041, "batteryturbocharger.16.tier.01", "Low Voltage Turbo Charger",1,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2949,7 +2949,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Basic)});
 
 		CustomItemList.Battery_TurboCharger_4by4_MV.set(new GT_MetaTileEntity_TurboCharger(
-				12042, "batteryturbocharger.16.tier.02", "Medium Voltage Turbo Charger",2,"64A in /16A out", 4).getStackForm(1L));
+				12042, "batteryturbocharger.16.tier.02", "Medium Voltage Turbo Charger",2,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_MV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2962,7 +2962,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Good)});
 
 		CustomItemList.Battery_TurboCharger_4by4_HV.set(new GT_MetaTileEntity_TurboCharger(
-				12043, "batteryturbocharger.16.tier.03", "High Voltage Turbo Charger",3,"64A in /16A out", 4).getStackForm(1L));
+				12043, "batteryturbocharger.16.tier.03", "High Voltage Turbo Charger",3,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_HV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2975,7 +2975,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Advanced)});
 
 		CustomItemList.Battery_TurboCharger_4by4_EV.set(new GT_MetaTileEntity_TurboCharger(
-				12044, "batteryturbocharger.16.tier.04", "Extreme Voltage Turbo Charger",4,"64A in /16A out", 4).getStackForm(1L));
+				12044, "batteryturbocharger.16.tier.04", "Extreme Voltage Turbo Charger",4,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_EV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2988,7 +2988,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Data)});
 
 		CustomItemList.Battery_TurboCharger_4by4_IV.set(new GT_MetaTileEntity_TurboCharger(
-				12045, "batteryturbocharger.16.tier.05", "Insane Voltage Turbo Charger",5,"64A in /16A out", 4).getStackForm(1L));
+				12045, "batteryturbocharger.16.tier.05", "Insane Voltage Turbo Charger",5,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_IV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -3001,7 +3001,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Elite)});
 
 		CustomItemList.Battery_TurboCharger_4by4_LuV.set(new GT_MetaTileEntity_TurboCharger(
-				12046, "batteryturbocharger.16.tier.06", "Ludicrous Voltage Turbo Charger",6,"64A in /16A out", 4).getStackForm(1L));
+				12046, "batteryturbocharger.16.tier.06", "Ludicrous Voltage Turbo Charger",6,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LuV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -3014,7 +3014,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Master)});
 
 		CustomItemList.Battery_TurboCharger_4by4_ZPM.set(new GT_MetaTileEntity_TurboCharger(
-				12047, "batteryturbocharger.16.tier.07", "ZPM Voltage Turbo Charger",7,"64A in /16A out", 4).getStackForm(1L));
+				12047, "batteryturbocharger.16.tier.07", "ZPM Voltage Turbo Charger",7,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ZPM.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -3027,7 +3027,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Ultimate)});
 
 		CustomItemList.Battery_TurboCharger_4by4_UV.set(new GT_MetaTileEntity_TurboCharger(
-				12048, "batteryturbocharger.16.tier.08", "Ultimate Voltage Turbo Charger",8,"64A in /16A out", 4).getStackForm(1L));
+				12048, "batteryturbocharger.16.tier.08", "Ultimate Voltage Turbo Charger",8,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -3040,7 +3040,7 @@ public class GT_Loader_Machines
 						Character.valueOf('X'), OrePrefixes.circuit.get(Materials.Ultimate)});
 
 		CustomItemList.Battery_TurboCharger_4by4_UHV.set(new GT_MetaTileEntity_TurboCharger(
-				12049, "batteryturbocharger.16.tier.09", "Highly Ultimate Voltage Turbo Charger",9,"64A in /16A out", 4).getStackForm(1L));
+				12049, "batteryturbocharger.16.tier.09", "Highly Ultimate Voltage Turbo Charger",9,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UHV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
