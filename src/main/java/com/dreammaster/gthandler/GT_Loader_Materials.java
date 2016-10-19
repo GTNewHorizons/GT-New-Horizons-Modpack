@@ -29,7 +29,6 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.SolderingAlloy),
 			OrePrefixes.dust.get(Materials.RedSteel),
 			OrePrefixes.dust.get(Materials.BlueSteel),
-			OrePrefixes.dust.get(Materials.NaquadahAlloy), 
-			OrePrefixes.dust.get(Materials.DeepIron)});
+			OrePrefixes.dust.get(Materials.NaquadahAlloy)});
 	}
 }
