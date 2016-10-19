@@ -2522,27 +2522,27 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.Transformer_UEV_UHV.set(new GT_MetaTileEntity_Transformer(
 				11220, "transformer.tier.09", "Highly Ultimate Transformer", 9,
-				"UEV -> UHV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UEV -> UHV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.Transformer_UIV_UEV.set(new GT_MetaTileEntity_Transformer(
 				11221, "transformer.tier.10", "Extremely Ultimate Transformer",10,
-				"UIV -> UEV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UIV -> UEV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.Transformer_UMV_UIV.set(new GT_MetaTileEntity_Transformer(
 				11222, "transformer.tier.11", "Insanely Ultimate Transformer",11,
-				"UMV -> UIV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UMV -> UIV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.Transformer_UXV_UMV.set(new GT_MetaTileEntity_Transformer(
 				11223, "transformer.tier.12", "Mega Ultimate Transformer",12,
-				"UXV -> UMV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UXV -> UMV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.Transformer_OPV_UXV.set(new GT_MetaTileEntity_Transformer(
 				11224, "transformer.tier.13", "Extended Mega Ultimate Transformer",13,
-				"OPV -> UXV (Use Soft Hammer to invert)").getStackForm(1L));
+				"OPV -> UXV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.Transformer_MAXV_OPV.set(new GT_MetaTileEntity_Transformer(
 				11225, "transformer.tier.14", "Overpowered Transformer",14,
-				"MAX -> OPV (Use Soft Hammer to invert)").getStackForm(1L));
+				"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		//TODO:recipes
 
@@ -2758,7 +2758,7 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.WetTransformer_LV_ULV.set(new GT_MetaTileEntity_WetTransformer(
 				12000, "wettransformer.tier.00", "Ultra Low Voltage Power Transformer", 0,
-				"LV -> ULV (Use Soft Hammer to invert)").getStackForm(1L));
+				"LV -> ULV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LV_ULV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2774,7 +2774,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_MV_LV.set(new GT_MetaTileEntity_WetTransformer(
 				12001, "wetransformer.tier.01", "Low Voltage Power Transformer", 1,
-				"MV -> LV (Use Soft Hammer to invert)").getStackForm(1L));
+				"MV -> LV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_MV_LV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2790,7 +2790,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_HV_MV.set(new GT_MetaTileEntity_WetTransformer(
 				12002, "wettransformer.tier.02", "Medium Voltage Power Transformer", 2,
-				"HV -> MV (Use Soft Hammer to invert)").getStackForm(1L));
+				"HV -> MV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_HV_MV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2806,7 +2806,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_EV_HV.set(new GT_MetaTileEntity_WetTransformer(
 				12003, "wettransformer.tier.03", "High Voltage Power Transformer", 3,
-				"EV -> HV (Use Soft Hammer to invert)").getStackForm(1L));
+				"EV -> HV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_EV_HV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2822,7 +2822,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_IV_EV.set(new GT_MetaTileEntity_WetTransformer(
 				12004, "wettransformer.tier.04", "Extreme Power Transformer", 4,
-				"IV -> EV (Use Soft Hammer to invert)").getStackForm(1L));
+				"IV -> EV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_IV_EV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2838,7 +2838,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_LuV_IV.set(new GT_MetaTileEntity_WetTransformer(
 				12005, "wettransformer.tier.05", "Insane Power Transformer", 5,
-				"LuV -> IV (Use Soft Hammer to invert)").getStackForm(1L));
+				"LuV -> IV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LuV_IV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2854,7 +2854,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_ZPM_LuV.set(new GT_MetaTileEntity_WetTransformer(
 				12006, "wettransformer.tier.06", "Ludicrous Power Transformer", 6,
-				"ZPM -> LuV (Use Soft Hammer to invert)").getStackForm(1L));
+				"ZPM -> LuV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_ZPM_LuV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2870,7 +2870,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_UV_ZPM.set(new GT_MetaTileEntity_WetTransformer(
 				12007, "wettransformer.tier.07", "ZPM Voltage Power Transformer", 7,
-				"UV -> ZPM (Use Soft Hammer to invert)").getStackForm(1L));
+				"UV -> ZPM (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UV_ZPM.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2886,31 +2886,31 @@ public class GT_Loader_Machines
 
 		CustomItemList.WetTransformer_UHV_UV.set(new GT_MetaTileEntity_WetTransformer(
 				12008, "wettransformer.tier.08", "Ultimate Power Transformer", 8,
-				"UHV -> UV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UHV -> UV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_UEV_UHV.set(new GT_MetaTileEntity_WetTransformer(
 				12009, "wettransformer.tier.09", "Highly Ultimate Power Transformer", 9,
-				"UEV -> UHV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UEV -> UHV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_UIV_UEV.set(new GT_MetaTileEntity_WetTransformer(
 				12010, "wettransformer.tier.10", "Extremely Ultimate Power Transformer",10,
-				"UIV -> UEV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UIV -> UEV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_UMV_UIV.set(new GT_MetaTileEntity_WetTransformer(
 				12011, "wettransformer.tier.11", "Insanely Ultimate Power Transformer",11,
-				"UMV -> UIV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UMV -> UIV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_UXV_UMV.set(new GT_MetaTileEntity_WetTransformer(
 				12012, "wettransformer.tier.12", "Mega Ultimate Power Transformer",12,
-				"UXV -> UMV (Use Soft Hammer to invert)").getStackForm(1L));
+				"UXV -> UMV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_OPV_UXV.set(new GT_MetaTileEntity_WetTransformer(
 				12013, "wettransformer.tier.13", "Extended Mega Ultimate Power Transformer",13,
-				"OPV -> UXV (Use Soft Hammer to invert)").getStackForm(1L));
+				"OPV -> UXV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		CustomItemList.WetTransformer_MAXV_OPV.set(new GT_MetaTileEntity_WetTransformer(
 				12014, "wettransformer.tier.14", "Overpowered Power Transformer",14,
-				"MAX -> OPV (Use Soft Hammer to invert)").getStackForm(1L));
+				"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		// ===================================================================================================
 		// MULTIBLOCKS ID space up to 12039
