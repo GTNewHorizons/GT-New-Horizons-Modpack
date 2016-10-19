@@ -13,23 +13,23 @@ public class GT_Loader_Materials {
 
 	private void registerMaterialRecipes()
 	{
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.NaquadahAlloy, 5L),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] { 
-			OrePrefixes.dust.get(Materials.Naquadah), 
-			OrePrefixes.dust.get(Materials.Platinum), 
-			OrePrefixes.dust.get(Materials.Tantalum), 
-			OrePrefixes.dust.get(Materials.Tantalum), 
-			OrePrefixes.dust.get(Materials.Tantalum)});
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.NaquadahAlloy, 4L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
+			OrePrefixes.dust.get(Materials.Naquadah),
+			OrePrefixes.dust.get(Materials.Naquadah),
+			OrePrefixes.dust.get(Materials.Carbon),
+			OrePrefixes.dust.get(Materials.Trinium)});
 		
 		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.ElectrumFlux, 8L),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] { 
 			OrePrefixes.dust.get(Materials.RoseGold), 
-			OrePrefixes.dust.get(Materials.RoseGold), 
-			OrePrefixes.dust.get(Materials.SterlingSilver), 
-			OrePrefixes.dust.get(Materials.SterlingSilver), 
-			OrePrefixes.dust.get(Materials.RedAlloy), 
-			OrePrefixes.dust.get(Materials.RedAlloy), 
+			OrePrefixes.dust.get(Materials.InfusedGold),
+			OrePrefixes.dust.get(Materials.AstralSilver),
+			OrePrefixes.dust.get(Materials.SterlingSilver),
+			OrePrefixes.dust.get(Materials.SolderingAlloy),
+			OrePrefixes.dust.get(Materials.RedSteel),
+			OrePrefixes.dust.get(Materials.BlueSteel),
 			OrePrefixes.dust.get(Materials.NaquadahAlloy), 
-			OrePrefixes.dust.get(Materials.NaquadahAlloy)});
+			OrePrefixes.dust.get(Materials.DeepIron)});
 	}
 }
