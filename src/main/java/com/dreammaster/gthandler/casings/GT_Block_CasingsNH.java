@@ -32,20 +32,26 @@ public class GT_Block_CasingsNH
         }
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".0.name", "Air Filter Turbine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".1.name", "Air Filter Vent Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".2.name", "Pyrolyze Oven Casing");//adding
 
         CustomItemList.Casing_AirFilter_Turbine.set(new ItemStack(this, 1, 0));//adding
         CustomItemList.Casing_AirFilter_Vent.set(new ItemStack(this, 1, 1));//adding
+        CustomItemList.Casing_Pyrolyze.set(new ItemStack(this, 1, 2));//adding
     }
 
     public IIcon getIcon(int aSide, int aMeta) {
         switch (aMeta) {
             case 0:
                 return Textures.BlockIcons.MACHINE_CASING_TURBINE.getIcon();
+            case 1:
+                return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
+            case 2:
+                return Textures.BlockIcons.MACHINE_8V_SIDE.getIcon();
         }
         return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
     }
 
-    public IIcon getTurbineCasing(int meta, int iconIndex, boolean active) {
+    private IIcon getTurbineCasing(int meta, int iconIndex, boolean active) {
         switch (meta) {
             case 0:
                 return active ? Textures.BlockIcons.TURBINE_ACTIVE[iconIndex].getIcon() : Textures.BlockIcons.TURBINE[iconIndex].getIcon();
@@ -59,6 +65,8 @@ public class GT_Block_CasingsNH
         int tMeta = aWorld.getBlockMetadata(xCoord, yCoord, zCoord);
         if(tMeta==1){
             return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
+        }else if(tMeta==2){
+            return Textures.BlockIcons.MACHINE_8V_SIDE.getIcon();
         }
         if (tMeta != 0 || (!mConnectedMachineTextures)) {
             return getIcon(aSide, tMeta);

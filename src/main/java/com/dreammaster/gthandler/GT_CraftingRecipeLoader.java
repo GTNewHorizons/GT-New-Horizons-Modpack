@@ -61,11 +61,11 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_AirFilter_Turbine.get(1L, new Object[0]), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"SSS", "RVR", "MSM", 'V', CustomItemList.Casing_AirFilter_Vent, 'S', OrePrefixes.stickLong.get(Materials.Titanium), 'R', OrePrefixes.rotor.get(Materials.Titanium), 'M', ItemList.Electric_Motor_EV, 'R', OrePrefixes.screw.get(Materials.Titanium)});
         GT_ModHandler.addCraftingRecipe(CustomItemList.Machine_Multi_AirFilter.get(1L, new Object[0]), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"RPR", "MBM", "CGC", 'B', ItemList.Hull_EV, 'R', OrePrefixes.rotor.get(Materials.Titanium), 'P',  ItemList.Electric_Pump_EV, 'M', ItemList.Electric_Motor_EV, 'C', OrePrefixes.cableGt01.get(Materials.Titanium), 'G', ItemList.Casing_Turbine2});
 
+        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_Pyrolyze.get(1L, new Object[0]), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"PhP", "SFS", "PwP", 'S', OrePrefixes.plate.get(Materials.Steel), 'P', OrePrefixes.plate.get(Materials.Iron), 'F', ItemList.Casing_BronzePlatedBricks});
+
         if (Loader.isModLoaded("HardcoreEnderExpansion")) {
             long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_RECIPES_IF_SAME_NBT | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_SHAPED_RECIPES | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_NATIVE_RECIPES | GT_ModHandler.RecipeBits.ONLY_ADD_IF_THERE_IS_ANOTHER_RECIPE_FOR_IT;
             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 0), tBitMask, new Object[]{"DED", "EDE", "DED", 'D', new ItemStack(Items.diamond, 1), 'E', new ItemStack(Items.ender_eye, 1),});
-
-
         }
     }
 }
