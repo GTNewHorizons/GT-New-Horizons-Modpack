@@ -7,7 +7,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 import gregtech.api.enums.Textures;
 import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
-import gregtech.api.objects.GT_CopiedBlockTexture;
 import gregtech.api.util.GT_LanguageManager;
 import gregtech.common.blocks.GT_Block_Casings_Abstract;
 import gregtech.common.blocks.GT_Material_Casings;
@@ -15,8 +14,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
-
-//import gregtech.common.tileentities.machines.multi.GT_MetaTileEntity_LargeTurbine;
 
 /**
  * Created by danie_000 on 03.10.2016.
@@ -27,9 +24,9 @@ public class GT_Block_CasingsNH
 
     public GT_Block_CasingsNH() {
         super(GT_Item_CasingsNH.class, "gt.blockcasingsNH", GT_Material_Casings.INSTANCE);
-        for (byte i = 0; i < 16; i = (byte) (i + 1)) {
-            Textures.BlockIcons.CASING_BLOCKS[(i + 48)] = new GT_CopiedBlockTexture(this, 6, i);
-        }
+        //for (byte i = 0; i < 16; i = (byte) (i + 1)) { //Breaks stuff cos imma stupid
+        //    Textures.BlockIcons.CASING_BLOCKS[(i + 48)] = new GT_CopiedBlockTexture(this, 6, i);
+        //}
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".0.name", "Air Filter Turbine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".1.name", "Air Filter Vent Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".2.name", "Pyrolyze Oven Casing");//adding
