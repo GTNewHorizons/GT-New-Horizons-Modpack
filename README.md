@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.9.3 is out (xx.10.2016)
+Version 1.0.9.3 is out (22.10.2016)
 
 [![Build Status](http://jenkins.usrv.eu:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.eu:8081/job/GTNewHorizons%20Configs/)
 
@@ -60,21 +60,44 @@ Food is a thing in the pack during starting days, you cant see at night time w/o
 ## How do I join?
 
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
+FTB Launcher Code: GTNH<BR>
+Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
-Forum Link: http://forum.gtnewhorizons.com/
-Server IP you can get from Discord or pm in the Forum.
+Forum Link: http://forum.gtnewhorizons.com/<BR>
+Server IP you can get from Discord or pm in the Forum.<BR>
 
 
-Server info<BR>
-Dedicated server located in Europe.<BR>
-Number of players: ~10<BR>
+## EU Server:<BR>
 
-US Server Prospercraft.com
+Official EU Server Public<BR>
+
+http://gtnewhorizons.com/<BR>
+eu.gtnewhorizons.com<BR>
+
+ 
+
+Dirt Huts EU Server Whitelisted<BR>
+
+http://dirthuts.com<BR>
+
+138.201.196.161<BR>
+
+ 
+
+US Server:<BR>
+
+Prospercraft Greylist<BR>
+
+http://www.prospercraft.com/<BR>
+
+newhorizons.prospercraft.com<BR>
+
+US Server Prospercraft.com<BR>
 
 ---
 
 
-## Modlist - NewHorizons 1.0.9.3 --- xx.10.2016<BR>
+## Modlist - NewHorizons 1.0.9.3 --- 22.10.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta1<BR>
@@ -143,8 +166,8 @@ US Server Prospercraft.com
 * Galaxy Space	1.1.1<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.25.00custom<BR>
-* GT New Horizons Core Mod	1.2.21<BR>
+* Gregtech	5.09.25.05custom<BR>
+* GT New Horizons Core Mod	1.2.27<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -159,7 +182,7 @@ US Server Prospercraft.com
 * InpureCore	1.0.0B9-62<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
-* Iron Tanks	1.1.50<BR>
+* Iron Tanks	1.1.54<BR>
 * Jabba	1.2.2<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
