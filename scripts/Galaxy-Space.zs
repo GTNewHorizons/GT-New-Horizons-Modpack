@@ -583,7 +583,29 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier8Rocket:3>,[
 [<dreamcraft:item.Tier4Booster>, <dreamcraft:item.HeavyDutyRocketFinsTier4>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:chestGold>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyRocketFinsTier4>, <dreamcraft:item.Tier4Booster>],
 [null, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, <dreamcraft:item.HeavyDutyRocketEngineTier4>, null]]);
 
+// --- Space Suit Helmet
+recipes.addShaped(<GalaxySpace:item.spacesuit_helmet>, [
+[<GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.lead_helmet>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.oxygenMask>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalacticraftMars:item.null:5>, <GalacticraftCore:item.oxygenConcentrator>, <GalacticraftMars:item.null:5>]]);
 
+// --- Space Suit Chestplate
+recipes.addShaped(<GalaxySpace:item.spacesuit_plate>, [
+[<GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.lead_plate>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.CompressedPlates:2>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedSDHD120>]]);
+
+// --- Space Suit Leggings
+recipes.addShaped(<GalaxySpace:item.spacesuit_leg>, [
+[<GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.lead_leg>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedPlates:2>, <GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.CompressedPlates:2>],
+[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedPlates:2>]]);
+
+// --- Space Suit Boots
+recipes.addShaped(<GalaxySpace:item.spacesuit_boots>, [
+[<GalaxySpace:item.CompressedSDHD120>, <GalaxySpace:item.lead_boots>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedPlates:2>]]);
 
 
 
