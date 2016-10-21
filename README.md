@@ -59,12 +59,15 @@ Food is a thing in the pack during starting days, you cant see at night time w/o
 ---
 ## How do I join?
 
+Go to the Main Menu and choose the server you like to play.
+
+## Links
+
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
 FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
 Forum Link: http://forum.gtnewhorizons.com/<BR>
-Server IP you can get from Discord or pm in the Forum.<BR>
 
 
 ## EU Server:<BR>
