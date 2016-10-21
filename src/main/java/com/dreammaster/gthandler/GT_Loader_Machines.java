@@ -1653,7 +1653,7 @@ public class GT_Loader_Machines
 		// SlicingMachineLuV
 		// ===================================================================================================
 		CustomItemList.SlicingMachineLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11028, "basicmachine.slicer.tier.06", "ELite Slicing Machine", 6, "Slice of Life",
+				11028, "basicmachine.slicer.tier.06", "Elite Slicing Machine", 6, "Slice of Life",
 				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
 
 		CustomItemList.SlicingMachineZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
@@ -2143,7 +2143,7 @@ public class GT_Loader_Machines
 		// Canning Machine
 		// ===================================================================================================
 		CustomItemList.CanningMachineLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11130, "basicmachine.canner.tier.06", "ELite Canning Machine", 6,
+				11130, "basicmachine.canner.tier.06", "Elite Canning Machine", 6,
 				"Unmobile Food Canning Machine GTA4", GT_Recipe.GT_Recipe_Map.sCannerRecipes,
 				2, 2, 0, 0, 1, "Canner.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CANNER", null).getStackForm(1L));
@@ -2187,7 +2187,7 @@ public class GT_Loader_Machines
 		// Chemical Bath
 		// ===================================================================================================
 		CustomItemList.ChemicalBathLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11140, "basicmachine.chemicalbath.tier.06", "ELite Chemical Bath", 6,
+				11140, "basicmachine.chemicalbath.tier.06", "Elite Chemical Bath", 6,
 				"Bathing Ores in Chemicals to separate them", GT_Recipe.GT_Recipe_Map.sChemicalBathRecipes,
 				1, 3, 8000, 0, 1, "ChemicalBath.png", "",
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
@@ -2294,7 +2294,7 @@ public class GT_Loader_Machines
 		// Fermenter
 		// ===================================================================================================
 		CustomItemList.FermenterLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11170, "basicmachine.fermenter.tier.06", "ELite Fermenter", 6,
+				11170, "basicmachine.fermenter.tier.06", "Elite Fermenter", 6,
 				"Fermenting Fluids", GT_Recipe.GT_Recipe_Map.sFermentingRecipes,
 				1, 1, 1000, 0, 1, "Fermenter.png", "",
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
@@ -2340,7 +2340,7 @@ public class GT_Loader_Machines
 		// Fluid Canner
 		// ===================================================================================================
 		CustomItemList.FluidCannerLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11180, "basicmachine.fluidcanner.tier.06", "ELite Fluid Canner", 6,
+				11180, "basicmachine.fluidcanner.tier.06", "Elite Fluid Canner", 6,
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 96000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
@@ -2476,7 +2476,7 @@ public class GT_Loader_Machines
 		// Mixer
 		// ===================================================================================================
 		CustomItemList.FluidHeaterLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11210, "basicmachine.mixer.tier.06", "ELite Mixer", 6,
+				11210, "basicmachine.mixer.tier.06", "Elite Mixer", 6,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
