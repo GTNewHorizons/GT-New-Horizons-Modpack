@@ -840,6 +840,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:ingotObsidian>, null, null],
 [<ore:ingotObsidian>, null, null]]);
 
+// --- Nether Star Ore 
+recipes.addShapeless(<gregtech:gt.blockores:1506>, [<gregtech:gt.blockores:506>, <minecraft:netherrack>]);
+
+// --- Basaltic Mineral Sand Ore 
+recipes.addShapeless(<gregtech:gt.blockores:1935>, [<gregtech:gt.blockores:935>, <minecraft:netherrack>]);
+
 
 
 
