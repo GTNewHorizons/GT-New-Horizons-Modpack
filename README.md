@@ -70,29 +70,21 @@ Server IP you can get from Discord or pm in the Forum.<BR>
 ## EU Server:<BR>
 
 Official EU Server Public<BR>
-
 http://gtnewhorizons.com/<BR>
 eu.gtnewhorizons.com<BR>
 
  
-
 Dirt Huts EU Server Whitelisted<BR>
-
 http://dirthuts.com<BR>
-
-138.201.196.161<BR>
+138.201.196.161:25562<BR>
 
  
-
-US Server:<BR>
+## US Server:<BR>
 
 Prospercraft Greylist<BR>
-
 http://www.prospercraft.com/<BR>
-
 newhorizons.prospercraft.com<BR>
 
-US Server Prospercraft.com<BR>
 
 ---
 
