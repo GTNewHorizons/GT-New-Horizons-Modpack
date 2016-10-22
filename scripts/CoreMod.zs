@@ -9,6 +9,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Brewery;
 import mods.gregtech.Centrifuge;
+import mods.gregtech.ChemicalBath;
 import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
@@ -946,14 +947,11 @@ Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 
 
 // --- Advanced Coke Oven Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], <liquid:oxygen> * 2000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 1200, 120, 1500); 
-// -
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 2400, 120, 1800); 
+BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
 
-// --- Hot Netherrack Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:oxygen> * 1000, [<minecraft:netherbrick> * 16, <minecraft:magma_cream>], 150, 120, 1000); 
-// -
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], [<minecraft:netherbrick> * 16, <minecraft:magma_cream>], 300, 120, 1200); 
+// --- Infernal Netherrack Bricks
+BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:lava> * 1000, [<minecraft:netherbrick> * 4, <BiomesOPlenty:flowers2:2>], 1200, 120, 1800); 
+
 
 
 
@@ -964,6 +962,15 @@ BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], [<minecraft:n
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
 // -
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+
+// --- Infernal Bricks
+ChemicalBath.addRecipe([<dreamcraft:item.InfernalBrick> * 4], <dreamcraft:item.HotNetherrackBrick> * 4, <liquid:hell_blood> * 1000, [10000], 100, 30);
 
 
 
@@ -1671,8 +1678,7 @@ VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraf
 // --- Mytryl Ingot
 VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 400);
 
-// --- Infernal Bricks
-VacuumFreezer.addRecipe(<dreamcraft:item.InfernalBrick>, <dreamcraft:item.HotNetherrackBrick>, 600); 
+
 
 
 
