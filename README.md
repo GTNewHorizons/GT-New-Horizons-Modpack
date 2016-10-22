@@ -154,7 +154,7 @@ newhorizons.prospercraft.com<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
-* Gadomancy 1.0.7.2<BR>
+* Gadomancy 1.0.7.3<BR>
 * Galacticraft-Planets	3.0.12.463<BR>
 * GalacticraftCore	3.0.12.463<BR>
 * GalactiGreg	0.9.5<BR>
