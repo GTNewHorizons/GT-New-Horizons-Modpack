@@ -476,6 +476,21 @@ recipes.removeShaped(<ore:ingotCopper>, [
 [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
 [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]]);
 
+// --- Steel Ingot
+recipes.removeShaped(<ore:ingotSteel>, [
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
+
+// --- Bronze Ingot
+recipes.removeShaped(<ore:ingotBronze>, [
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>],
+[<ore:nuggetBronze>, <ore:nuggetBronze>, <ore:nuggetBronze>]]);
+
+furnace.remove(<IC2:itemRubber>);
+
+
 
 
 
@@ -2314,7 +2329,7 @@ AlloySmelter.addRecipe(<TConstruct:materials:37>, <TConstruct:CraftedSoil:6>, <g
 
 
 // --- Green SDX TNT
-Assembler.addRecipe(<TConstruct:explosive.slime>, <TConstruct:slime.gel:1>, <IC2:blockITNT>, 600, 32);
+Assembler.addRecipe(<TConstruct:explosive.slime>, <TConstruct:slime.gel:1>, <IC2:blockITNT>, 600, 30);
 
 // --- Blue SDX TNT
 Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TConstruct:explosive.slime>, 600, 64);

@@ -13,18 +13,10 @@
 // --- Removing Recipes ---
 
 
-
 // --- Staff Core
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:100>);
 
-
-
-// --- Void Seed
-//mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
-
 // --- Void Ingot
-//mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:16>);
-// -
 recipes.remove(<Thaumcraft:ItemResource:16>);
 
 // --- Void Nuggets
@@ -98,14 +90,18 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:3>);
 
 
 
+
 // --- Void Seed
+mods.thaumcraft.Research.clearPages("ELDRITCHMINOR");
+mods.thaumcraft.Research.addPage("ELDRITCHMINOR", "tc.research_page.ELDRITCHMINOR.1");
 mods.thaumcraft.Crucible.addRecipe("ELDRITCHMINOR", <Thaumcraft:ItemResource:17>, <ore:listAllseed>, "alienis 8, tenebrae 8, vacuos 8");
+mods.thaumcraft.Research.addCruciblePage("ELDRITCHMINOR", <Thaumcraft:ItemResource:17>);
 
 // --- Void Ingot
 mods.thaumcraft.Research.clearPages("VOIDMETAL");
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.1");
-mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:17>, "metallum 16");
-mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
+mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <gregtech:gt.metaitem.01:11970>, <Thaumcraft:ItemResource:17>, "metallum 16");
+mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <gregtech:gt.metaitem.01:11970>);
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.2");
 // -
 mods.thaumcraft.Research.setAspects("VOIDMETAL", "vacuos 12, metallum 12, tenebrae 9, alienis 9, gelum 6, terra 3");
@@ -427,7 +423,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:326>.withTag
 
 // --- Essentia Reservoir
 mods.thaumcraft.Infusion.addRecipe("ESSENTIARESERVOIR", <Thaumcraft:blockTube:4>, 
-[<dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockJar>], 
+[<gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockJar>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockJar>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockJar>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockJar>], 
 "aqua 16, permutatio 16, praecantatio 16, vacuos 16", <Thaumcraft:blockEssentiaReservoir>, 8);
 // -
 mods.thaumcraft.Research.setAspects("ESSENTIARESERVOIR", "aqua 12, permutatio 12, praecantatio 9, vacuos 9, alienis 6, tenebrae 3");
@@ -526,7 +522,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:432>.withTag
 
 // --- Void Thaumaturge Hood
 mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemHelmetVoid>,
-[<Thaumcraft:ItemGoggles>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemGoggles>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>],
 "alienis 24, metallum 24, pannus 24, sensus 24, tutamen 24, vacuos 24, praecantatio 24", <Thaumcraft:ItemHelmetVoidFortress>, 8);
 // -
 mods.thaumcraft.Research.setAspects("ARMORVOIDFORTRESS", "vacuos 15, tenebrae 15, tutamen 12, pannus 12, alienis 9, praecantatio 9, sensus 6, metallum 3");
@@ -534,12 +530,12 @@ mods.thaumcraft.Research.setComplexity("ARMORVOIDFORTRESS", 4);
 
 // --- Void Thaumaturge Roob
 mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemChestplateVoid>,
-[<Thaumcraft:ItemChestplateRobe>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemChestplateRobe>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>],
 "alienis 32, metallum 32, pannus 32, sensus 32, tutamen 32, vacuos 32, praecantatio 32", <Thaumcraft:ItemChestplateVoidFortress>, 8);
 
 // --- Void Thaumaturge Leggings
 mods.thaumcraft.Infusion.addRecipe("ARMORVOIDFORTRESS", <Thaumcraft:ItemLeggingsVoid>,
-[<Thaumcraft:ItemLeggingsRobe>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemLeggingsRobe>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>, <harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:17330>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:7>],
 "alienis 28, metallum 28, pannus 28, sensus 28, tutamen 28, vacuos 28, praecantatio 28", <Thaumcraft:ItemLeggingsVoidFortress>, 8);
 
 // --- Sanity Checker
@@ -574,11 +570,6 @@ mods.thaumcraft.Arcane.addShaped("ADVALCHEMYFURNACE", <Thaumcraft:blockMetalDevi
 // -
 mods.thaumcraft.Research.setAspects("ADVALCHEMYFURNACE", "perditio 12, auram 12, aer 9, ordo 9, praecantatio 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ADVALCHEMYFURNACE", 3);
-
-// --- Void Metal
-recipes.addShapeless(<Thaumcraft:ItemResource:16>, [<gregtech:gt.metaitem.01:11970>]);
-// -
-recipes.addShapeless(<gregtech:gt.metaitem.01:11970>, [<Thaumcraft:ItemResource:16>]);
 
 
 

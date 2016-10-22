@@ -1059,9 +1059,9 @@ recipes.addShaped(<Natura:trapdoor.darkwood> * 3, [
 recipes.addShaped(<Natura:button.darkwood> * 2, [[Saw, <Natura:pressureplate.darkwood>, null]]);
 
 // --- Fuse Wood
-recipes.addShapeless(<Natura:planks:12> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Dark Tree:12>]);
+recipes.addShapeless(<Natura:planks:12> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Dark Tree:1>]);
 // -
-recipes.addShapeless(<Natura:planks:12> * 2, [<Natura:Dark Tree:12>]);
+recipes.addShapeless(<Natura:planks:12> * 2, [<Natura:Dark Tree:1>]);
 // -
 recipes.addShapeless(<Natura:natura.stick:12> * 2, [<Natura:planks:12>, <Natura:planks:12>]);
 // -

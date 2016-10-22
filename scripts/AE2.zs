@@ -1207,7 +1207,7 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:100>, <appliedenergi
 Assembler.addRecipe(FluixGlassCable * 3, QuartzFiber * 3, FluixDust * 2, 100, 120);
 
 // --- Fluix Covered Cable
-Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.rubber> * 144, 150, 120);
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.rubber> * 144, 150, 120);
 
 // --- ME Dense Cable Fluix
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76>, FluixCoveredC * 4, <gregtech:gt.metaitem.01:17811>, <liquid:molten.redstone> * 144, 200, 120);

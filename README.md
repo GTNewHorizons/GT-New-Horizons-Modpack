@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.9.2 is out (08.09.2016)(GT New Horizons Coremod 1.2.09) (GTTweaker 1.1.1)
+Version 1.0.9.3 is out (22.10.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 17 months and still got a lot more work to do.
+I've been working on it for 22 months and still got a lot more work to do.
 
 The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -59,25 +59,43 @@ Food is a thing in the pack during starting days, you cant see at night time w/o
 ---
 ## How do I join?
 
+Go to the Main Menu and choose the server you like to play.
+
+## Links
+
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
+FTB Launcher Code: GTNH<BR>
+Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
-Forum Link: http://forum.gtnewhorizons.com/
-Server IP you can get from Discord or pm in the Forum.
+Forum Link: http://forum.gtnewhorizons.com/<BR>
 
 
-Server info<BR>
-Dedicated server located in Europe.<BR>
-Number of players: ~10<BR>
+## EU Server:<BR>
 
-US Server Prospercraft.com
+Official EU Server Public<BR>
+http://gtnewhorizons.com/<BR>
+eu.gtnewhorizons.com<BR>
+
+ 
+Dirt Huts EU Server Whitelisted<BR>
+http://dirthuts.com<BR>
+138.201.196.161:25562<BR>
+
+ 
+## US Server:<BR>
+
+Prospercraft Greylist<BR>
+http://www.prospercraft.com/<BR>
+newhorizons.prospercraft.com<BR>
+
 
 ---
 
 
-## Modlist - NewHorizons 1.0.9.2 --- 08.09.2016<BR>
+## Modlist - NewHorizons 1.0.9.3 --- 22.10.2016<BR>
 
-* Advanced Solar Panels	3.5.1<BR>
-* Adventure Backpack 0.8e26<BR>
+* Advanced Solar Panels	3.5.1a<BR>
+* Adventure Backpack 0.9fbeta1<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
@@ -107,21 +125,21 @@ US Server Prospercraft.com
 * Brandon's Core	1.0.0.12<BR>
 * Buildcraft	7.1.17<BR>
 * Buildcraft Compat	7.1.5<BR>
-* Carpenter's Blocks	3.3.8<BR>
+* Carpenter's Blocks	3.3.8.1<BR>
 * CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
 * CofhCore	3.1.3.327<BR>
 * CofhLib	1.1.2.182<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.0<BR>
-* Craft Tweaker 3.0.10<BR>
+* Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution	1.0.2h1custom<BR>
+* Draconic Evolution	1.0.2iCustom<BR>
 * Dummy Core 1.13<BR>
-* Electro Magic Tools	1.2.5<BR>
+* Electro Magic Tools	1.2.6.2<BR>
 * Enchiridion 	2.0.2a<BR>
-* Ender Core	0.2.0.36<BR>
+* Ender Core	0.2.0.39<BR>
 * Ender IO	2.3.0.429<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
@@ -132,34 +150,34 @@ US Server Prospercraft.com
 * FastCraft	1.23<BR>
 * Flood Light	1.2.8.137<BR>
 * Forbidden Magic	0.575<BR>
-* Forestry	4.2.15.63<BR>
+* Forestry	4.2.16.64<BR>
 * Forge Microblocks	1.2.0.347<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.2<BR>
 * Galacticraft-Planets	3.0.12.463<BR>
 * GalacticraftCore	3.0.12.463<BR>
-* GalactiGreg	0.9.4<BR>
-* Galaxy Space	1.1.0<BR>
+* GalactiGreg	0.9.5<BR>
+* Galaxy Space	1.1.1<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.23.13custom<BR>
-* GT New Horizons Core Mod	1.2.09<BR>
+* Gregtech	5.09.25.05custom<BR>
+* GT New Horizons Core Mod	1.2.27<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
-* Hunger Overhaul	1.0.0.103<BR>
+* Hunger Overhaul	1.0.0.104<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
-* IguanaTinkerTweaks	2.1.6a<BR>
-* Industrial Craft 2	2.2.2.825<BR>
+* IguanaTinkerTweaks	2.1.6b<BR>
+* Industrial Craft 2	2.2.2.826<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * InpureCore	1.0.0B9-62<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
-* Iron Tanks	1.1.50<BR>
+* Iron Tanks	1.1.54<BR>
 * Jabba	1.2.2<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
@@ -172,7 +190,7 @@ US Server Prospercraft.com
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
 * MrTJPCore	1.1.0.33<BR>
-* Natura	2.2.0.1.9.107<BR>
+* Natura	2.2.0.1.9.126<BR>
 * NEI	1.0.5.120<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
@@ -199,18 +217,19 @@ US Server Prospercraft.com
 * Railcraft	9.12.2.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
+* ReAuth 3.2<BR>
 * RemoteIO	2.4.1<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.11.2<BR>
 * Special Mobs	3.2.2<BR>
-* Spice of Life	1.3.2<BR>
+* Spice of Life	1.3.6<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.2<BR>
+* Storage Drawers	1.10.4<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
 * Tainted Magic	1.1.6.4<BR>
 * Thaumcraft	4.2.3.5<BR>
@@ -243,4 +262,4 @@ US Server Prospercraft.com
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911 and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997 and many more.

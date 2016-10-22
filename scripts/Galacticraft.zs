@@ -1537,15 +1537,23 @@ Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:
 
 // --- Thermal Padding Helm
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding>, <GalacticraftMars:item.itemBasicAsteroids:7> * 5, <gregtech:gt.integrated_circuit:5> * 0, 750, 1024);
+// -
+Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 5, <GalacticraftMars:item.thermalPadding>, <gregtech:gt.integrated_circuit:1> * 0, 180, 256);
 
 // --- Thermal Padding Chestpiece
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:1>, <GalacticraftMars:item.itemBasicAsteroids:7> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 1024);
+// -
+Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 8, <GalacticraftMars:item.thermalPadding:1>, <gregtech:gt.integrated_circuit:1> * 0, 300, 256);
 
 // --- Thermal Padding Leggings
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:item.itemBasicAsteroids:7> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1050, 1024);
+// -
+Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 7, <GalacticraftMars:item.thermalPadding:2>, <gregtech:gt.integrated_circuit:1> * 0, 260, 256);
 
 // --- Thermal Padding Boots
 Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
+// -
+Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 4, <GalacticraftMars:item.thermalPadding:3>, <gregtech:gt.integrated_circuit:1> * 0, 150, 256);
 
 // --- Oxygen Mask
 Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 120);

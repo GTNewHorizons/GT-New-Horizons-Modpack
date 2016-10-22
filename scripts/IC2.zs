@@ -1207,15 +1207,15 @@ recipes.addShaped(<IC2:obscurator:27>, [
 
 // --- OD Scanner
 recipes.addShaped(<IC2:itemScanner:26>, [
-[<IC2:itemCasing:3>, <ore:plateMeteoricSteel>, <IC2:itemCasing:3>],
+[<IC2:itemCasing:3>, <ore:plateStainlessSteel>, <IC2:itemCasing:3>],
 [<ore:circuitAdvanced>, <dreamcraft:item.Display>, <ore:circuitAdvanced>],
-[<ore:cableGt01AnyCopper>, <ore:batteryAdvanced>, <ore:cableGt01AnyCopper>]]);
+[<ore:cableGt01Gold>, <ore:batteryElite>, <ore:cableGt01Gold>]]);
 
 // --- OV Scanner
 recipes.addShaped(<IC2:itemScannerAdv:26>, [
-[<IC2:itemCasing:3>, <IC2:itemScanner:*>, <IC2:itemCasing:3>],
+[<dreamcraft:item.TitaniumItemCasing>, <IC2:itemScanner:*>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:circuitElite>, <dreamcraft:item.Display>, <ore:circuitElite>],
-[<ore:cableGt01Gold>, <ore:batteryElite>, <ore:cableGt01Gold>]]);
+[<ore:cableGt01Nichrome>, <ore:batteryMaster>, <ore:cableGt01Nichrome>]]);
 
 // --- Mining Drill
 //recipes.addShaped(<IC2:itemToolDrill:26>, [
@@ -1673,7 +1673,7 @@ Assembler.addRecipe(<IC2:itemArmorQuantumLegs:26>, <dreamcraft:item.QuantumPartL
 Assembler.addRecipe(<IC2:itemContainmentbox>, <minecraft:chest>, <IC2:itemCasing:6> * 8, 300, 120);
 
 // --- Tool Box
-Assembler.addRecipe(<IC2:itemToolbox>, <minecraft:chest>, <IC2:itemCasing:2> * 5, 300, 32);
+Assembler.addRecipe(<IC2:itemToolbox>, <minecraft:chest>, <IC2:itemCasing:2> * 5, 300, 30);
 
 // --- Mox Nuclear Fuel
 Assembler.addRecipe(<IC2:itemMOX>, <IC2:itemUran238> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 400, 256);

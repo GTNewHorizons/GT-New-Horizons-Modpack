@@ -192,7 +192,7 @@ mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
 game.setLocalization("tt.research.page.CAPICHOR", "You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.");
 mods.thaumcraft.Arcane.addShaped("CAPICHOR", <dreamcraft:item.IchoriumCap> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
 [<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>],
-[<ore:ringVoidmetal>, <ThaumicTinkerer:kamiResource:2>, <ore:ringVoidmetal>],
+[<ore:ringVoid>, <ThaumicTinkerer:kamiResource:2>, <ore:ringVoid>],
 [<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>]]);
 // -
 mods.thaumcraft.Research.addArcanePage("CAPICHOR", <dreamcraft:item.IchoriumCap>);

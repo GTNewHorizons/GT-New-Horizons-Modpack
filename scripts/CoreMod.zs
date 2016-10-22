@@ -9,6 +9,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Brewery;
 import mods.gregtech.Centrifuge;
+import mods.gregtech.ChemicalBath;
 import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
@@ -90,24 +91,6 @@ recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
 [null, Hammer, null],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
-
-// --- Void Plates
-recipes.addShaped(<dreamcraft:item.VoidPlate>, [
-[Hammer, null, null],
-[<ore:ingotVoid>, null, null],
-[<ore:ingotVoid>, null, null]]);
-
-// --- Void Rod
-recipes.addShaped(<dreamcraft:item.VoidRod>, [
-[File, null, null],
-[null, <ore:ingotVoid>, null],
-[null, null, null]]);
-
-// --- Void Metal Ring
-recipes.addShaped(<dreamcraft:item.VoidRing>, [
-[Hammer, null, null],
-[File, <ore:stickVoid>, null],
-[null, null, null]]);
 
 // --- Mushroom Powder
 recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
@@ -790,9 +773,6 @@ recipes.addShaped(<dreamcraft:tile.DiamondFrameBox>, [
 
 
 
-// --- Void Metal Plate
-AlloySmelter.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, <gregtech:gt.metaitem.01:32301> * 0, 2400, 30);
-
 // --- Aluminium Item Casing
 AlloySmelter.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, <gregtech:gt.metaitem.01:11019> * 3, <gregtech:gt.metaitem.01:32302> * 0, 240, 30);
 
@@ -883,9 +863,6 @@ Assembler.addRecipe(<dreamcraft:item.BioOrganicMesh>, <dreamcraft:item.RawBioFib
 // --- Bio Chunk
 Assembler.addRecipe(<dreamcraft:item.BioChunk>, <dreamcraft:tile.Charcoal>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
 
-// --- Bio Fiber
-Assembler.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <minecraft:dye:15> * 2, 400, 8);
-
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
 
@@ -954,6 +931,15 @@ Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.Mysteriou
 // -
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
 
+// --- Bio Fiber
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biogas> * 8, 5000, 200, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 200, 20);
+// -
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 200, 20);
+
 
 
 // --- Blast Furnace Recipes ---
@@ -961,14 +947,11 @@ Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.Mysteriou
 
 
 // --- Advanced Coke Oven Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], <liquid:oxygen> * 2000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 1200, 120, 1500); 
-// -
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick> * 2], [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 2400, 120, 1800); 
+BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
 
-// --- Hot Netherrack Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:oxygen> * 1000, [<minecraft:netherbrick> * 16, <minecraft:magma_cream>], 150, 120, 1000); 
-// -
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], [<minecraft:netherbrick> * 16, <minecraft:magma_cream>], 300, 120, 1200); 
+// --- Infernal Netherrack Bricks
+BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:lava> * 1000, [<minecraft:netherbrick> * 4, <BiomesOPlenty:flowers2:2>], 1200, 120, 1800); 
+
 
 
 
@@ -979,6 +962,15 @@ BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], [<minecraft:n
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
 // -
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+
+// --- Infernal Bricks
+ChemicalBath.addRecipe([<dreamcraft:item.InfernalBrick> * 4], <dreamcraft:item.HotNetherrackBrick> * 4, <liquid:hell_blood> * 1000, [10000], 100, 30);
 
 
 
@@ -1186,15 +1178,6 @@ CuttingSaw.addRecipe(<dreamcraft:item.QuantinumPlate> * 9, null, <dreamcraft:til
 // --- Mysterious Crystal Plate
 CuttingSaw.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamcraft:tile.MysteriousCrystal>, <liquid:ic2coolant> * 1000, 9600, 60);
 
-// --- Bedrockium Plate
-CuttingSaw.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:water> * 1000, 18000, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2distilledwater> * 750, 18000, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:lubricant> * 250, 9000, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.BedrockiumPlate> * 9, null, <ExtraUtilities:block_bedrockium>, <liquid:ic2coolant> * 1000, 6000, 60);
-
 // --- Black Plutonium Plate
 CuttingSaw.addRecipe(<dreamcraft:item.BlackPlutoniumPlate> * 9, null, <dreamcraft:tile.BlackPlutonium>, <liquid:ic2coolant> * 1000, 12000, 90);
 
@@ -1309,15 +1292,6 @@ Extractor.addRecipe(<dreamcraft:item.AdvancedCokeOvenBrick> * 4, <Railcraft:mach
 // --- Extruder Recipes
 
 
-// --- Void Metal Plate
-Extruder.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32350> * 0, 800, 120);
-
-// --- Void Metal Rod
-Extruder.addRecipe(<dreamcraft:item.VoidRod> * 2, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32351> * 0, 400, 96);
-
-// --- Void Metal Ring
-Extruder.addRecipe(<dreamcraft:item.VoidRing> * 4, <Thaumcraft:ItemResource:16>, <gregtech:gt.metaitem.01:32353> * 0, 800, 96);
-
 // --- Aluminium Item Casing
 Extruder.addRecipe(<dreamcraft:item.AluminiumItemCasing> * 2, <gregtech:gt.metaitem.01:11019>, <gregtech:gt.metaitem.01:32357> * 0, 100, 64);
 
@@ -1420,9 +1394,6 @@ FluidSolidifier.addRecipe(<dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.m
 // --- Forge Hammer Recipes
 
 
-// --- Void Metal Plate
-ForgeHammer.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16> * 2, 800, 16);
-
 // --- Charged Certus Dust
 ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergistics2:item.ItemMultiMaterial:1>, 10, 16);
 
@@ -1477,8 +1448,6 @@ FormingPress.addRecipe(<dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.meta
 
 
 
-// --- Void Sticks
-Lathe.addRecipe([<dreamcraft:item.VoidRod>, <dreamcraft:item.VoidRod>], <Thaumcraft:ItemResource:16>, 1000, 16);
 
 // --- Long Obsidian Rod
 Lathe.addRecipe([<dreamcraft:item.LongObsidianRod> * 4, null], <minecraft:obsidian>, 640, 16);
@@ -1644,12 +1613,6 @@ Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregt
 
 
 
-// --- Void Metal Plate
-PlateBender.addRecipe(<dreamcraft:item.VoidPlate>, <Thaumcraft:ItemResource:16>, 1200, 24);
-
-// --- Void Metal Foil
-PlateBender.addRecipe(<dreamcraft:item.VoidFoil> * 4, <dreamcraft:item.VoidPlate>, 600, 24);
-
 // --- Dense Quantinum Plate
 PlateBender.addRecipe(<dreamcraft:item.QuantinumDensePlate>, <dreamcraft:item.QuantinumPlate> * 9, 600, 120);
 
@@ -1715,8 +1678,7 @@ VacuumFreezer.addRecipe(<dreamcraft:item.MysteriousCrystalColdIngot>, <dreamcraf
 // --- Mytryl Ingot
 VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHotIngot>, 400);
 
-// --- Infernal Bricks
-VacuumFreezer.addRecipe(<dreamcraft:item.InfernalBrick>, <dreamcraft:item.HotNetherrackBrick>, 600); 
+
 
 
 

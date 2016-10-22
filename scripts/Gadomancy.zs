@@ -120,7 +120,7 @@ mods.thaumcraft.Infusion.addRecipe("GADOMANCY.NODE_MANIPULATOR", <Thaumcraft:blo
 
 // --- Randomize Focus
 mods.thaumcraft.Infusion.addRecipe("GADOMANCY.NODE_MANIPULATOR", <Thaumcraft:blockStoneDevice:8>,
-[<Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:6>, <dreamcraft:item.VoidRing>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:6>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidRing>, <Thaumcraft:blockCrystal:6>],
+[<Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:ItemResource:15>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:28970>, <Thaumcraft:blockCrystal:6>],
 "alienis 24, machina 48, ordo 64, praecantatio 16, tenebrae 32, nebrisum 8, lucrum 16", <gadomancy:BlockStoneMachine>, 10);
 // -
 mods.thaumcraft.Research.setAspects("GADOMANCY.NODE_MANIPULATOR", "nebrisum 27, alienis 24, vacuos 21, praecantatio 18, auram 15, lucrum 12, machina 9, tenebrae 6, permutatio 3");
@@ -128,7 +128,7 @@ mods.thaumcraft.Research.setComplexity("GADOMANCY.NODE_MANIPULATOR", 4);
 
 // --- Infusion Claw
 mods.thaumcraft.Infusion.addRecipe("GADOMANCY.INFUSIONCLAW", <Thaumcraft:blockStoneDevice:5>,
-[<Thaumcraft:ItemGolemCore:8>, <Thaumcraft:blockCosmeticSolid:6>, <dreamcraft:item.VoidRod>, <Thaumcraft:FocusPrimal>, <dreamcraft:item.VoidRod>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:blockCosmeticSolid:6>, <dreamcraft:item.VoidRod>, <Thaumcraft:FocusPrimal>, <dreamcraft:item.VoidRod>, <Thaumcraft:blockCosmeticSolid:6>],
+[<Thaumcraft:ItemGolemCore:8>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:23970>, <Thaumcraft:FocusPrimal>, <gregtech:gt.metaitem.01:23970>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:23970>, <Thaumcraft:FocusPrimal>, <gregtech:gt.metaitem.01:23970>, <Thaumcraft:blockCosmeticSolid:6>],
 "alienis 64, machina 48, ordo 48, tenebrae 32, praecantatio 32, motus 16, cognitio 8", <gadomancy:BlockInfusionClaw>, 15);
 // -
 mods.thaumcraft.Research.setAspects("GADOMANCY.INFUSIONCLAW", "alienis 21, machina 18, praecantatio 15, ordo 12, tenebrae 9, motus 6, cognitio 3");
@@ -186,7 +186,7 @@ mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <gadomancy:BlockS
 
 // --- Redirection Focus
 mods.thaumcraft.Infusion.addRecipe("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:blockStoneDevice:8>,
-[<Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidRing>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidRing>, <Thaumcraft:blockCrystal:5>],
+[<Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:28970>, <Thaumcraft:blockCrystal:5>],
 "alienis 48, machina 48, permutatio 64, tenebrae 32, vacuos 32, auram 16, praecantatio 8", <gadomancy:BlockStoneMachine:3>, 10);
 
 // --- Gate of the Void Walkers
@@ -334,3 +334,6 @@ mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.KNOWLEDGE_BOOK");
 
 // --- Essentia Condenser
 mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.ESSENTIA_COMPRESSOR");
+
+// --- Sticky Jars
+mods.thaumcraft.Research.refreshResearchRecipe("GADOMANCY.STICKYJAR");

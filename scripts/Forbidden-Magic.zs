@@ -303,7 +303,7 @@ mods.thaumcraft.Research.setComplexity("TAINTSTONE", 2);
 
 // --- Eldritch Blood Orb
 mods.thaumcraft.Infusion.addRecipe("ELDRITCHORB", <BloodArsenal:transparent_orb>,
-[<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:6>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidPlate>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:32724>, <dreamcraft:item.VoidPlate>, <dreamcraft:item.VoidPlate>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:ItemEldritchObject>],
+[<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:ItemEldritchObject>],
 "alienis 48, tenebrae 32, vacuos 64, victus 64, praecantatio 16, vitreus 8", <ForbiddenMagic:EldritchOrb>, 15);
 // -
 mods.thaumcraft.Research.setAspects("ELDRITCHORB", "vacuos 18, victus 15, alienis 12, vitreus 9, tenebrae 6, praecantatio 3");
