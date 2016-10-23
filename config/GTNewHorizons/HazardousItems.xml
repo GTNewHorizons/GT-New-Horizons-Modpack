@@ -44,13 +44,13 @@
 		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="9" TickDuration="200" Level="1"/>
     </Item>
-	<Item ItemName="dreamcraft:dreamcraft_Pollution_bucket" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+	<Item ItemName="dreamcraft:dreamcraft_Pollution_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
 		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="9" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Item>
-		<Item FluidName="pollution" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+		<Item FluidName="pollution" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
 		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="9" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
