@@ -539,11 +539,17 @@ recipes.remove(<ExtraUtilities:scanner>);
 // --- Builder Wand
 recipes.remove(<ExtraUtilities:builderswand>);
 
+// --- Super Builder Wand
+recipes.remove(<ExtraUtilities:creativebuilderswand>);
+
 // --- Precision Shears
 recipes.remove(<ExtraUtilities:shears>);
 
 // --- Etheric Sword
 recipes.remove(<ExtraUtilities:ethericsword>);
+
+// --- Kikoku
+recipes.remove(<ExtraUtilities:lawSword>);
 
 // --- Erosion Shovel
 recipes.remove(<ExtraUtilities:erosionShovel>);
@@ -985,7 +991,14 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 
 // --- Builder Wand
 recipes.addShaped(<ExtraUtilities:builderswand>, [
-[null, <ore:ingotUnstable>, null],
+[null, <ExtraUtilities:unstableingot>, null],
+[null, <ExtraUtilities:unstableingot>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Super Builder Wand
+recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
+[null, <ExtraUtilities:unstableingot:2>, null],
+[null, <ExtraUtilities:unstableingot:2>, null],
 [null, <TConstruct:toolRod:6>, null]]);
 
 // --- Precision Shears
@@ -995,8 +1008,14 @@ recipes.addShaped(<ExtraUtilities:shears>, [
 
 // --- Etheric Sword
 recipes.addShaped(<ExtraUtilities:ethericsword>, [
-[null, <ore:ingotUnstable>, null],
-[null, <ore:ingotUnstable>, null],
+[null, <ExtraUtilities:unstableingot>, null],
+[null, <ExtraUtilities:unstableingot>, null],
+[null, <TConstruct:toolRod:6>, null]]);
+
+// --- Kikoku
+recipes.addShaped(<ExtraUtilities:lawSword>, [
+[null, <ExtraUtilities:unstableingot:2>, null],
+[null, <ExtraUtilities:unstableingot:2>, null],
 [null, <TConstruct:toolRod:6>, null]]);
 
 // --- Erosion Shovel
