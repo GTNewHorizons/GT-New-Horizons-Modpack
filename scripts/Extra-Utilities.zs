@@ -991,15 +991,15 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 
 // --- Builder Wand
 recipes.addShaped(<ExtraUtilities:builderswand>, [
+[null, null, <ExtraUtilities:unstableingot>],
 [null, <ExtraUtilities:unstableingot>, null],
-[null, <ExtraUtilities:unstableingot>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[<TConstruct:toolRod:6>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
+[null, null, <ExtraUtilities:unstableingot:2>],
 [null, <ExtraUtilities:unstableingot:2>, null],
-[null, <ExtraUtilities:unstableingot:2>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[<TConstruct:toolRod:6>, null, null]]);
 
 // --- Precision Shears
 recipes.addShaped(<ExtraUtilities:shears>, [
