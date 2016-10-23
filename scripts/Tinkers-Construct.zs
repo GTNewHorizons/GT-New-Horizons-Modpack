@@ -337,14 +337,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<BloodArsenal:blood_infused_iron_block
 
 
 
-// --- Oredict Obsidian Tool Rod
-oreDict.stickObsidian.remove(<TConstruct:toolRod:6>);
-// -
-oreDict.obsidianRod.remove(<TConstruct:toolRod:6>);
-// -
-oreDict.rodObsidian.remove(<TConstruct:toolRod:6>);
-// -
-oreDict.toolRodObsidian.add(<TConstruct:toolRod:6>);
 
 
 // --- Blocks & Items ---
@@ -2452,9 +2444,6 @@ Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
 
 // --- Iron Tool Rod
 Extruder.addRecipe(<TConstruct:toolRod:2>, <minecraft:iron_ingot>, <TConstruct:metalPattern:1> * 0, 250, 30);
-
-// --- Obsidian Tool Rod
-Extruder.addRecipe(<TConstruct:toolRod:6>, <TConstruct:materials:18>, <TConstruct:metalPattern:1> * 0, 90, 120);
 
 // --- Netherrack Tool Rod
 Extruder.addRecipe(<TConstruct:toolRod:7>, <minecraft:netherbrick>, <TConstruct:metalPattern:1> * 0, 122, 30);

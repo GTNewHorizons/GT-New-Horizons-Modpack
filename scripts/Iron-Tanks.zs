@@ -33,7 +33,7 @@ val IronRod = <ore:stickIron>;
 val SteelRod = <ore:stickSteel>;
 val GoldRod = <ore:stickGold>;
 val DiamondRod = <ore:stickDiamond>;
-val ObsidianRod = <TConstruct:toolRod:6>;
+val ObsidianRod = <RandomThings:ingredient:1>;
 
 val CopperScrew = <ore:screwCopper>;
 val IronScrew = <ore:screwIron>;
