@@ -363,7 +363,7 @@
             "TotalDurability:4": 56
           },
           "display:10": {
-            "Name:8": "�fFlint Pickaxe"
+            "Name:8": "Flint Pickaxe"
           }
         }
       },
@@ -2980,7 +2980,7 @@
             "TotalDurability:4": 356
           },
           "display:10": {
-            "Name:8": "�fBronze Pickaxe"
+            "Name:8": "Bronze Pickaxe"
           }
         }
       },
@@ -34961,7 +34961,7 @@
             "TotalDurability:4": 56
           },
           "display:10": {
-            "Name:8": "�fFlint Pickaxe"
+            "Name:8": "Flint Pickaxe"
           }
         }
       },
@@ -35113,7 +35113,7 @@
                   "TotalDurability:4": 113
                 },
                 "display:10": {
-                  "Name:8": "�fFlint Pickaxe"
+                  "Name:8": "Flint Pickaxe"
                 }
               }
             },
@@ -35145,7 +35145,7 @@
                   "TotalDurability:4": 113
                 },
                 "display:10": {
-                  "Name:8": "�fFlint Hatchet"
+                  "Name:8": "Flint Hatchet"
                 }
               }
             },
@@ -35177,7 +35177,7 @@
                   "TotalDurability:4": 113
                 },
                 "display:10": {
-                  "Name:8": "�fFlint Shovel"
+                  "Name:8": "Flint Shovel"
                 }
               }
             }
@@ -35275,7 +35275,7 @@
             "TotalDurability:4": 427
           },
           "display:10": {
-            "Name:8": "�fBronze Broadsword"
+            "Name:8": "Bronze Broadsword"
           }
         }
       },
@@ -35411,7 +35411,7 @@
             "TotalDurability:4": 225
           },
           "display:10": {
-            "Name:8": "�fIron Pickaxe"
+            "Name:8": "Iron Pickaxe"
           }
         }
       },
@@ -40907,7 +40907,7 @@
                   "Moss:4": 3,
                   "Effect1:4": 4,
                   "HarvestLevel:4": 0,
-                  "ModifierTip1:8": "�2Moss",
+                  "ModifierTip1:8": "Moss",
                   "RenderHead:4": 9,
                   "ModDurability:6": 0.0,
                   "Shoddy:6": 0.0,
@@ -40921,7 +40921,7 @@
                   "TotalDurability:4": 27,
                   "MiningSpeed2:4": 100,
                   "Head:4": 9,
-                  "Tooltip1:8": "�2Auto-Repair",
+                  "Tooltip1:8": "Auto-Repair",
                   "Attack:4": 6,
                   "Handle:4": 9,
                   "Broken:4": 0,
@@ -40931,7 +40931,7 @@
                   "Modifiers:4": 20
                 },
                 "display:10": {
-                  "Name:8": "�fPaper Cleaver"
+                  "Name:8": "Paper Cleaver"
                 }
               }
             }
