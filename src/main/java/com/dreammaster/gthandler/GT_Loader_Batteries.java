@@ -40,7 +40,7 @@ public class GT_Loader_Batteries
 		CustomItemList.BatteryHull_UEV.set(GT.addItem(tLastID = 562, "Medium Neutronium Battery (Empty)", "An empty UEV Energy Storage", new Object[] { new ItemData(Materials.NaquadahEnriched, OrePrefixes.plate.mMaterialAmount * 36L, new MaterialStack[0]), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 512L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 512L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 512L) }));
 		CustomItemList.BatteryHull_UIV.set(GT.addItem(tLastID = 563, "Large Neutronium Battery (Empty)", "An empty UIV Energy Storage", new Object[] { new ItemData(Materials.NaquadahAlloy, OrePrefixes.plate.mMaterialAmount * 48L, new MaterialStack[0]), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 1024L) }));
 		CustomItemList.BatteryHull_UMV.set(GT.addItem(tLastID = 564, "Medium Plasma Battery (Empty)", "An empty UMV Energy Storage", new Object[] { new ItemData(Materials.Neutronium, OrePrefixes.plate.mMaterialAmount * 56L, new MaterialStack[0]), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 2048L) }));
-		CustomItemList.BatteryHull_UxV.set(GT.addItem(tLastID = 565, "Large Plasma Battery (Empty)", "An empty UxV Energy Storage", new Object[] { new ItemData(Materials.DraconiumAwakened, OrePrefixes.plate.mMaterialAmount * 64L, new MaterialStack[0]), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 4096L) }));
+		CustomItemList.BatteryHull_UxV.set(GT.addItem(tLastID = 565, "Large Plasma Battery (Empty)", "An empty UXV Energy Storage", new Object[] { new ItemData(Materials.DraconiumAwakened, OrePrefixes.plate.mMaterialAmount * 64L, new MaterialStack[0]), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 4096L) }));
 
 		// Recipes
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.Aluminium, 2L),
@@ -103,10 +103,10 @@ public class GT_Loader_Batteries
 		CustomItemList.BatteryHull_UIV_Full.set(GT.addItem(tLastID = 580, "Large Neutronium Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 1024L)}));
 		GT.setElectricStats(32000 + tLastID, 26214400000L, GT_Values.V[11], 11L, -3L, true);
 
-		CustomItemList.BatteryHull_UMV_Full.set(GT.addItem(tLastID = 585, "Medium Ininity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 2048L)}));
+		CustomItemList.BatteryHull_UMV_Full.set(GT.addItem(tLastID = 585, "Medium Infinity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 2048L)}));
 		GT.setElectricStats(32000 + tLastID, 104857600000L, GT_Values.V[12], 12L, -3L, true);
 
-		CustomItemList.BatteryHull_UxV_Full.set(GT.addItem(tLastID = 590, "Large Ininity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 4096L)}));
+		CustomItemList.BatteryHull_UxV_Full.set(GT.addItem(tLastID = 590, "Large Infinity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 4096L)}));
 		GT.setElectricStats(32000 + tLastID, 419430400000L, GT_Values.V[13], 13L, -3L, true);
 
 	    // Just to be complete, extractor recipes for the filled hulls
