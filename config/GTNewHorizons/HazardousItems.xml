@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <HazardousItemList>
-    <Item ItemName="tfarcenim:stone" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="0.5"/>
-        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
-    </Item>
-    <Fluid FluidName="tfarcenim:water" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="0.5"/>
-        <PotionEffect PotionID="19" TickDuration="100" Level="1"/>
-    </Fluid>
 	    <Item ItemName="minecraft:lava_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
         <DamageEffect Source="inFire" Amount="1"/>
     </Item>
@@ -50,10 +42,10 @@
 		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Item>
-		<Item FluidName="pollution" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+		<Fluid FluidName="pollution" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
 		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="9" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
 		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
-    </Item>
+    </Fluid>
 </HazardousItemList>
