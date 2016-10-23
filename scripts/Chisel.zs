@@ -89,12 +89,12 @@ recipes.addShaped(Chisel, [
 // --- Obsidian Chisel
 recipes.addShaped(ObsidianChisel, [
 [HHammer, SteelPlate, ObsidainPlate],
-[SteelScrew, <TConstruct:toolRod:6>, SteelPlate],
+[SteelScrew, <RandomThings:ingredient:1>, SteelPlate],
 [SteelRod, SteelScrew, Screwdriver]]);
 // -
 recipes.addShaped(ObsidianChisel, [
 [Screwdriver, SteelPlate, ObsidainPlate],
-[SteelScrew, <TConstruct:toolRod:6>, SteelPlate],
+[SteelScrew, <RandomThings:ingredient:1>, SteelPlate],
 [SteelRod, SteelScrew, HHammer]]);
 
 // --- Diamond Chisel
