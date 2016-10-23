@@ -105,22 +105,22 @@ public class GT_Loader_Machines
 
 		//Nulling recipes for now
 		CustomItemList.AlloySmelterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10763, "basicmachine.alloysmelter.tier.09", "Legendary Alloy Integrator", 9, "HighTech combination Smelter",
+				10763, "basicmachine.alloysmelter.tier.09", "Epic Alloy Integrator", 9, "HighTech combination Smelter",
 				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
 				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
 
 		CustomItemList.AlloySmelterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10764, "basicmachine.alloysmelter.tier.10", "Legendary Alloy Integrator II",10, "HighTech combination Smelter",
+				10764, "basicmachine.alloysmelter.tier.10", "Epic Alloy Integrator II",10, "HighTech combination Smelter",
 				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
 				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
 
 		CustomItemList.AlloySmelterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10765, "basicmachine.alloysmelter.tier.11", "Legendary Alloy Integrator III",11, "HighTech combination Smelter",
+				10765, "basicmachine.alloysmelter.tier.11", "Epic Alloy Integrator III",11, "HighTech combination Smelter",
 				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
 				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
 
 		CustomItemList.AlloySmelterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10766, "basicmachine.alloysmelter.tier.12", "Legendary Alloy Integrator IV",12, "HighTech combination Smelter",
+				10766, "basicmachine.alloysmelter.tier.12", "Epic Alloy Integrator IV",12, "HighTech combination Smelter",
 				GT_Recipe.GT_Recipe_Map.sAlloySmelterRecipes, 2, 1, 0, 0, 1, "AlloySmelter.png",
 				(String)GregTech_API.sSoundList.get(208), false, false, 0, "ALLOY_SMELTER",null).getStackForm(1L));
 		// ===================================================================================================
@@ -159,22 +159,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable4(), }).getStackForm(1L));
 
 		CustomItemList.AmplifabricatorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10773, "basicmachine.amplifab.tier.09", "Legendary Amplicreator", 9, "Extracting UU Amplifier",
+				10773, "basicmachine.amplifab.tier.09", "Epic Amplicreator", 9, "Extracting UU Amplifier",
 				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "AMPLIFAB",null).getStackForm(1L));
 
 		CustomItemList.AmplifabricatorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10774, "basicmachine.amplifab.tier.10", "Legendary Amplicreator II",10, "Extracting UU Amplifier",
+				10774, "basicmachine.amplifab.tier.10", "Epic Amplicreator II",10, "Extracting UU Amplifier",
 				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "AMPLIFAB",null).getStackForm(1L));
 
 		CustomItemList.AmplifabricatorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10775, "basicmachine.amplifab.tier.11", "Legendary Amplicreator III",11, "Extracting UU Amplifier",
+				10775, "basicmachine.amplifab.tier.11", "Epic Amplicreator III",11, "Extracting UU Amplifier",
 				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "AMPLIFAB",null).getStackForm(1L));
 
 		CustomItemList.AmplifabricatorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10776, "basicmachine.amplifab.tier.12", "Legendary Amplicreator IV",12, "Extracting UU Amplifier",
+				10776, "basicmachine.amplifab.tier.12", "Epic Amplicreator IV",12, "Extracting UU Amplifier",
 				GT_Recipe.GT_Recipe_Map.sAmplifiers, 1, 1, 1000, 0, 1, "Amplifabricator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "AMPLIFAB",null).getStackForm(1L));
 
@@ -219,22 +219,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.AssemblingMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10783, "basicmachine.assembler.tier.09", "Legendary Assembly Constructor", 9, "Avengers, Assemble!",
+				10783, "basicmachine.assembler.tier.09", "Epic Assembly Constructor", 9, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png",
 				"", false, false, 0, "ASSEMBLER",null).getStackForm(1L));
 
 		CustomItemList.AssemblingMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10784, "basicmachine.assembler.tier.10", "Legendary Assembly Constructor II",10, "Avengers, Assemble!",
+				10784, "basicmachine.assembler.tier.10", "Epic Assembly Constructor II",10, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png",
 				"", false, false, 0, "ASSEMBLER",null).getStackForm(1L));
 
 		CustomItemList.AssemblingMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10785, "basicmachine.assembler.tier.11", "Legendary Assembly Constructor III",11, "Avengers, Assemble!",
+				10785, "basicmachine.assembler.tier.11", "Epic Assembly Constructor III",11, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png",
 				"", false, false, 0, "ASSEMBLER",null).getStackForm(1L));
 
 		CustomItemList.AssemblingMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10786, "basicmachine.assembler.tier.12", "Legendary Assembly Constructor IV",12, "Avengers, Assemble!",
+				10786, "basicmachine.assembler.tier.12", "Epic Assembly Constructor IV",12, "Avengers, Assemble!",
 				GT_Recipe.GT_Recipe_Map.sAssemblerRecipes, 2, 1, 16000, 0, 1, "Assembler.png",
 				"", false, false, 0, "ASSEMBLER",null).getStackForm(1L));
 
@@ -283,22 +283,22 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.UV.getGlass(), }).getStackForm(1L));
 
 		CustomItemList.AutoclaveUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10793, "basicmachine.autoclave.tier.09", "Legendary Pressure Cooker", 9, "Crystallizing your Dusts",
+				10793, "basicmachine.autoclave.tier.09", "Epic Pressure Cooker", 9, "Crystallizing your Dusts",
 				GT_Recipe.GT_Recipe_Map.sAutoclaveRecipes, 1, 1, 8000, 0, 1, "Autoclave.png",
 				"", false, false, 0, "AUTOCLAVE",null).getStackForm(1L));
 
 		CustomItemList.AutoclaveUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10794, "basicmachine.autoclave.tier.10", "Legendary Pressure Cooker II",10, "Crystallizing your Dusts",
+				10794, "basicmachine.autoclave.tier.10", "Epic Pressure Cooker II",10, "Crystallizing your Dusts",
 				GT_Recipe.GT_Recipe_Map.sAutoclaveRecipes, 1, 1, 8000, 0, 1, "Autoclave.png",
 				"", false, false, 0, "AUTOCLAVE",null).getStackForm(1L));
 
 		CustomItemList.AutoclaveUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10795, "basicmachine.autoclave.tier.11", "Legendary Pressure Cooker III",11, "Crystallizing your Dusts",
+				10795, "basicmachine.autoclave.tier.11", "Epic Pressure Cooker III",11, "Crystallizing your Dusts",
 				GT_Recipe.GT_Recipe_Map.sAutoclaveRecipes, 1, 1, 8000, 0, 1, "Autoclave.png",
 				"", false, false, 0, "AUTOCLAVE",null).getStackForm(1L));
 
 		CustomItemList.AutoclaveUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10796, "basicmachine.autoclave.tier.12", "Legendary Pressure Cooker IV",12, "Crystallizing your Dusts",
+				10796, "basicmachine.autoclave.tier.12", "Epic Pressure Cooker IV",12, "Crystallizing your Dusts",
 				GT_Recipe.GT_Recipe_Map.sAutoclaveRecipes, 1, 1, 8000, 0, 1, "Autoclave.png",
 				"", false, false, 0, "AUTOCLAVE",null).getStackForm(1L));
 
@@ -344,22 +344,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.BendingMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10803, "basicmachine.bender.tier.09", "Legendary Bending Unit", 9, "Boo, he's bad! We want BENDER!!!",
+				10803, "basicmachine.bender.tier.09", "Epic Bending Unit", 9, "Boo, he's bad! We want BENDER!!!",
 				GT_Recipe.GT_Recipe_Map.sBenderRecipes, 2, 1, 0, 0, 1, "Bender.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "BENDER",null).getStackForm(1L));
 
 		CustomItemList.BendingMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10804, "basicmachine.bender.tier.10", "Legendary Bending Unit II",10, "Boo, he's bad! We want BENDER!!!",
+				10804, "basicmachine.bender.tier.10", "Epic Bending Unit II",10, "Boo, he's bad! We want BENDER!!!",
 				GT_Recipe.GT_Recipe_Map.sBenderRecipes, 2, 1, 0, 0, 1, "Bender.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "BENDER",null).getStackForm(1L));
 
 		CustomItemList.BendingMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10805, "basicmachine.bender.tier.11", "Legendary Bending Unit III",11, "Boo, he's bad! We want BENDER!!!",
+				10805, "basicmachine.bender.tier.11", "Epic Bending Unit III",11, "Boo, he's bad! We want BENDER!!!",
 				GT_Recipe.GT_Recipe_Map.sBenderRecipes, 2, 1, 0, 0, 1, "Bender.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "BENDER",null).getStackForm(1L));
 
 		CustomItemList.BendingMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10806, "basicmachine.bender.tier.12", "Legendary Bending Unit IV",12, "Boo, he's bad! We want BENDER!!!",
+				10806, "basicmachine.bender.tier.12", "Epic Bending Unit IV",12, "Boo, he's bad! We want BENDER!!!",
 				GT_Recipe.GT_Recipe_Map.sBenderRecipes, 2, 1, 0, 0, 1, "Bender.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "BENDER",null).getStackForm(1L));
 
@@ -402,22 +402,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.CompressorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10813, "basicmachine.compressor.tier.09", "Legendary Matter Constrictor", 9, "Compress-O-Matic C77",
+				10813, "basicmachine.compressor.tier.09", "Epic Matter Constrictor", 9, "Compress-O-Matic C77",
 				GT_Recipe.GT_Recipe_Map.sCompressorRecipes, 1, 1, 0, 0, 1, "Compressor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "COMPRESSOR",null).getStackForm(1L));
 
 		CustomItemList.CompressorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10814, "basicmachine.compressor.tier.10", "Legendary Matter Constrictor II",10, "Compress-O-Matic C77",
+				10814, "basicmachine.compressor.tier.10", "Epic Matter Constrictor II",10, "Compress-O-Matic C77",
 				GT_Recipe.GT_Recipe_Map.sCompressorRecipes, 1, 1, 0, 0, 1, "Compressor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "COMPRESSOR",null).getStackForm(1L));
 
 		CustomItemList.CompressorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10815, "basicmachine.compressor.tier.11", "Legendary Matter Constrictor III",11, "Compress-O-Matic C77",
+				10815, "basicmachine.compressor.tier.11", "Epic Matter Constrictor III",11, "Compress-O-Matic C77",
 				GT_Recipe.GT_Recipe_Map.sCompressorRecipes, 1, 1, 0, 0, 1, "Compressor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "COMPRESSOR",null).getStackForm(1L));
 
 		CustomItemList.CompressorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10816, "basicmachine.compressor.tier.12", "Legendary Matter Constrictor IV",12, "Compress-O-Matic C77",
+				10816, "basicmachine.compressor.tier.12", "Epic Matter Constrictor IV",12, "Compress-O-Matic C77",
 				GT_Recipe.GT_Recipe_Map.sCompressorRecipes, 1, 1, 0, 0, 1, "Compressor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "COMPRESSOR",null).getStackForm(1L));
 
@@ -469,22 +469,22 @@ public class GT_Loader_Machines
 						'B', OreDictNames.craftingDiamondBlade  }).getStackForm(1L));
 
 		CustomItemList.CuttingMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10823, "basicmachine.cutter.tier.09", "Legendary Object Divider", 9, "Slice'N Dice",
+				10823, "basicmachine.cutter.tier.09", "Epic Object Divider", 9, "Slice'N Dice",
 				GT_Recipe.GT_Recipe_Map.sCutterRecipes, 1, 2, 1000, 0, 1, "Cutter.png",
 				"", false, false, 0, "CUTTER",null).getStackForm(1L));
 
 		CustomItemList.CuttingMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10824, "basicmachine.cutter.tier.10", "Legendary Object Divider II",10, "Slice'N Dice",
+				10824, "basicmachine.cutter.tier.10", "Epic Object Divider II",10, "Slice'N Dice",
 				GT_Recipe.GT_Recipe_Map.sCutterRecipes, 1, 2, 1000, 0, 1, "Cutter.png",
 				"", false, false, 0, "CUTTER",null).getStackForm(1L));
 
 		CustomItemList.CuttingMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10825, "basicmachine.cutter.tier.11", "Legendary Object Divider III",11, "Slice'N Dice",
+				10825, "basicmachine.cutter.tier.11", "Epic Object Divider III",11, "Slice'N Dice",
 				GT_Recipe.GT_Recipe_Map.sCutterRecipes, 1, 2, 1000, 0, 1, "Cutter.png",
 				"", false, false, 0, "CUTTER",null).getStackForm(1L));
 
 		CustomItemList.CuttingMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10826, "basicmachine.cutter.tier.12", "Legendary Object Divider IV",12, "Slice'N Dice",
+				10826, "basicmachine.cutter.tier.12", "Epic Object Divider IV",12, "Slice'N Dice",
 				GT_Recipe.GT_Recipe_Map.sCutterRecipes, 1, 2, 1000, 0, 1, "Cutter.png",
 				"", false, false, 0, "CUTTER",null).getStackForm(1L));
 
@@ -533,22 +533,22 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
 
 		CustomItemList.DistilleryUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10833, "basicmachine.distillery.tier.09", "Legendary Fraction Splitter", 9, "Extracting the most relevant Parts of Fluids",
+				10833, "basicmachine.distillery.tier.09", "Epic Fraction Splitter", 9, "Extracting the most relevant Parts of Fluids",
 				GT_Recipe.GT_Recipe_Map.sDistilleryRecipes, 1, 0, 1000, 0, 1, "Distillery.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "DISTILLERY",null).getStackForm(1L));
 
 		CustomItemList.DistilleryUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10834, "basicmachine.distillery.tier.10", "Legendary Fraction Splitter II",10, "Extracting the most relevant Parts of Fluids",
+				10834, "basicmachine.distillery.tier.10", "Epic Fraction Splitter II",10, "Extracting the most relevant Parts of Fluids",
 				GT_Recipe.GT_Recipe_Map.sDistilleryRecipes, 1, 0, 1000, 0, 1, "Distillery.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "DISTILLERY",null).getStackForm(1L));
 
 		CustomItemList.DistilleryUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10835, "basicmachine.distillery.tier.11", "Legendary Fraction Splitter III",11, "Extracting the most relevant Parts of Fluids",
+				10835, "basicmachine.distillery.tier.11", "Epic Fraction Splitter III",11, "Extracting the most relevant Parts of Fluids",
 				GT_Recipe.GT_Recipe_Map.sDistilleryRecipes, 1, 0, 1000, 0, 1, "Distillery.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "DISTILLERY",null).getStackForm(1L));
 
 		CustomItemList.DistilleryUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10836, "basicmachine.distillery.tier.12", "Legendary Fraction Splitter IV",12, "Extracting the most relevant Parts of Fluids",
+				10836, "basicmachine.distillery.tier.12", "Epic Fraction Splitter IV",12, "Extracting the most relevant Parts of Fluids",
 				GT_Recipe.GT_Recipe_Map.sDistilleryRecipes, 1, 0, 1000, 0, 1, "Distillery.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "DISTILLERY",null).getStackForm(1L));
 
@@ -591,22 +591,22 @@ public class GT_Loader_Machines
 						'C', AdvancedGTMaterials.UV.getHCoil() }).getStackForm(1L));
 
 		CustomItemList.ElectricFurnaceUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10843, "basicmachine.e_furnace.tier.09", "Legendary Atom Stimulator", 9, "Not like using a Commodore 64",
+				10843, "basicmachine.e_furnace.tier.09", "Epic Atom Stimulator", 9, "Not like using a Commodore 64",
 				GT_Recipe.GT_Recipe_Map.sFurnaceRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "ELECTRIC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ElectricFurnaceUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10844, "basicmachine.e_furnace.tier.10", "Legendary Atom Stimulator II",10, "Not like using a Commodore 64",
+				10844, "basicmachine.e_furnace.tier.10", "Epic Atom Stimulator II",10, "Not like using a Commodore 64",
 				GT_Recipe.GT_Recipe_Map.sFurnaceRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "ELECTRIC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ElectricFurnaceUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10845, "basicmachine.e_furnace.tier.11", "Legendary Atom Stimulator III",11, "Not like using a Commodore 64",
+				10845, "basicmachine.e_furnace.tier.11", "Epic Atom Stimulator III",11, "Not like using a Commodore 64",
 				GT_Recipe.GT_Recipe_Map.sFurnaceRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "ELECTRIC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ElectricFurnaceUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10846, "basicmachine.e_furnace.tier.12", "Legendary Atom Stimulator IV",12, "Not like using a Commodore 64",
+				10846, "basicmachine.e_furnace.tier.12", "Epic Atom Stimulator IV",12, "Not like using a Commodore 64",
 				GT_Recipe.GT_Recipe_Map.sFurnaceRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "ELECTRIC_FURNACE",null).getStackForm(1L));
 
@@ -783,22 +783,22 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
 
 		CustomItemList.ExtractorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10873, "basicmachine.extractor.tier.09", "Legendary Extractinator", 9, "Dejuicer-Device of Doom - D123",
+				10873, "basicmachine.extractor.tier.09", "Epic Extractinator", 9, "Dejuicer-Device of Doom - D123",
 				GT_Recipe.GT_Recipe_Map.sExtractorRecipes, 1, 1, 0, 0, 1, "Extractor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "EXTRACTOR",null).getStackForm(1L));
 
 		CustomItemList.ExtractorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10874, "basicmachine.extractor.tier.10", "Legendary Extractinator II",10, "Dejuicer-Device of Doom - D123",
+				10874, "basicmachine.extractor.tier.10", "Epic Extractinator II",10, "Dejuicer-Device of Doom - D123",
 				GT_Recipe.GT_Recipe_Map.sExtractorRecipes, 1, 1, 0, 0, 1, "Extractor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "EXTRACTOR",null).getStackForm(1L));
 
 		CustomItemList.ExtractorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10875, "basicmachine.extractor.tier.11", "Legendary Extractinator III",11, "Dejuicer-Device of Doom - D123",
+				10875, "basicmachine.extractor.tier.11", "Epic Extractinator III",11, "Dejuicer-Device of Doom - D123",
 				GT_Recipe.GT_Recipe_Map.sExtractorRecipes, 1, 1, 0, 0, 1, "Extractor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "EXTRACTOR",null).getStackForm(1L));
 
 		CustomItemList.ExtractorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10876, "basicmachine.extractor.tier.12", "Legendary Extractinator IV",12, "Dejuicer-Device of Doom - D123",
+				10876, "basicmachine.extractor.tier.12", "Epic Extractinator IV",12, "Dejuicer-Device of Doom - D123",
 				GT_Recipe.GT_Recipe_Map.sExtractorRecipes, 1, 1, 0, 0, 1, "Extractor.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "EXTRACTOR",null).getStackForm(1L));
 
@@ -844,22 +844,22 @@ public class GT_Loader_Machines
 						'C', AdvancedGTMaterials.UV.getHCoil() }).getStackForm(1L));
 
 		CustomItemList.ExtruderUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10883, "basicmachine.extruder.tier.09", "Legendary Shape Driver", 9, "Universal Machine for Metal Working",
+				10883, "basicmachine.extruder.tier.09", "Epic Shape Driver", 9, "Universal Machine for Metal Working",
 				GT_Recipe.GT_Recipe_Map.sExtruderRecipes, 2, 1, 0, 0, 1, "Extruder.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(208)), false, false, 0, "EXTRUDER",null).getStackForm(1L));
 
 		CustomItemList.ExtruderUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10884, "basicmachine.extruder.tier.10", "Legendary Shape Driver II",10, "Universal Machine for Metal Working",
+				10884, "basicmachine.extruder.tier.10", "Epic Shape Driver II",10, "Universal Machine for Metal Working",
 				GT_Recipe.GT_Recipe_Map.sExtruderRecipes, 2, 1, 0, 0, 1, "Extruder.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(208)), false, false, 0, "EXTRUDER",null).getStackForm(1L));
 
 		CustomItemList.ExtruderUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10885, "basicmachine.extruder.tier.11", "Legendary Shape Driver III",11, "Universal Machine for Metal Working",
+				10885, "basicmachine.extruder.tier.11", "Epic Shape Driver III",11, "Universal Machine for Metal Working",
 				GT_Recipe.GT_Recipe_Map.sExtruderRecipes, 2, 1, 0, 0, 1, "Extruder.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(208)), false, false, 0, "EXTRUDER",null).getStackForm(1L));
 
 		CustomItemList.ExtruderUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10886, "basicmachine.extruder.tier.12", "Legendary Shape Driver IV",12, "Universal Machine for Metal Working",
+				10886, "basicmachine.extruder.tier.12", "Epic Shape Driver IV",12, "Universal Machine for Metal Working",
 				GT_Recipe.GT_Recipe_Map.sExtruderRecipes, 2, 1, 0, 0, 1, "Extruder.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(208)), false, false, 0, "EXTRUDER",null).getStackForm(1L));
 
@@ -908,22 +908,22 @@ public class GT_Loader_Machines
 						'B', OreDictNames.craftingChest }).getStackForm(1L));
 
 		CustomItemList.FluidSolidifierUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10893, "basicmachine.fluidsolidifier.tier.09", "Legendary Fluid Petrificator", 9, "Cools Fluids down to form Solids",
+				10893, "basicmachine.fluidsolidifier.tier.09", "Epic Fluid Petrificator", 9, "Cools Fluids down to form Solids",
 				GT_Recipe.GT_Recipe_Map.sFluidSolidficationRecipes, 1, 1, 16000, 0, 1, "FluidSolidifier.png",
 				"", false, false, 0, "FLUID_SOLIDIFIER",null).getStackForm(1L));
 
 		CustomItemList.FluidSolidifierUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10894, "basicmachine.fluidsolidifier.tier.10", "Legendary Fluid Petrificator II",10, "Cools Fluids down to form Solids",
+				10894, "basicmachine.fluidsolidifier.tier.10", "Epic Fluid Petrificator II",10, "Cools Fluids down to form Solids",
 				GT_Recipe.GT_Recipe_Map.sFluidSolidficationRecipes, 1, 1, 16000, 0, 1, "FluidSolidifier.png",
 				"", false, false, 0, "FLUID_SOLIDIFIER",null).getStackForm(1L));
 
 		CustomItemList.FluidSolidifierUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10895, "basicmachine.fluidsolidifier.tier.11", "Legendary Fluid Petrificator III",11, "Cools Fluids down to form Solids",
+				10895, "basicmachine.fluidsolidifier.tier.11", "Epic Fluid Petrificator III",11, "Cools Fluids down to form Solids",
 				GT_Recipe.GT_Recipe_Map.sFluidSolidficationRecipes, 1, 1, 16000, 0, 1, "FluidSolidifier.png",
 				"", false, false, 0, "FLUID_SOLIDIFIER",null).getStackForm(1L));
 
 		CustomItemList.FluidSolidifierUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10896, "basicmachine.fluidsolidifier.tier.12", "Legendary Fluid Petrificator IV",12, "Cools Fluids down to form Solids",
+				10896, "basicmachine.fluidsolidifier.tier.12", "Epic Fluid Petrificator IV",12, "Cools Fluids down to form Solids",
 				GT_Recipe.GT_Recipe_Map.sFluidSolidficationRecipes, 1, 1, 16000, 0, 1, "FluidSolidifier.png",
 				"", false, false, 0, "FLUID_SOLIDIFIER",null).getStackForm(1L));
 
@@ -966,22 +966,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.FormingPressUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10903, "basicmachine.press.tier.09", "Legendary Surface Shifter", 9, "Imprinting Images into things",
+				10903, "basicmachine.press.tier.09", "Epic Surface Shifter", 9, "Imprinting Images into things",
 				GT_Recipe.GT_Recipe_Map.sPressRecipes, 2, 1, 0, 0, 1, "Press.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "PRESS",null).getStackForm(1L));
 
 		CustomItemList.FormingPressUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10904, "basicmachine.press.tier.10", "Legendary Surface Shifter II",10, "Imprinting Images into things",
+				10904, "basicmachine.press.tier.10", "Epic Surface Shifter II",10, "Imprinting Images into things",
 				GT_Recipe.GT_Recipe_Map.sPressRecipes, 2, 1, 0, 0, 1, "Press.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "PRESS",null).getStackForm(1L));
 
 		CustomItemList.FormingPressUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10905, "basicmachine.press.tier.11", "Legendary Surface Shifter III",11, "Imprinting Images into things",
+				10905, "basicmachine.press.tier.11", "Epic Surface Shifter III",11, "Imprinting Images into things",
 				GT_Recipe.GT_Recipe_Map.sPressRecipes, 2, 1, 0, 0, 1, "Press.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "PRESS",null).getStackForm(1L));
 
 		CustomItemList.FormingPressUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10906, "basicmachine.press.tier.12", "Legendary Surface Shifter IV",12, "Imprinting Images into things",
+				10906, "basicmachine.press.tier.12", "Epic Surface Shifter IV",12, "Imprinting Images into things",
 				GT_Recipe.GT_Recipe_Map.sPressRecipes, 2, 1, 0, 0, 1, "Press.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(203)), false, false, 0, "PRESS",null).getStackForm(1L));
 
@@ -1030,22 +1030,22 @@ public class GT_Loader_Machines
 						'A', OreDictNames.craftingAnvil }).getStackForm(1L));
 
 		CustomItemList.ForgeHammerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10913, "basicmachine.hammer.tier.09", "Legendary Impact Modulator", 9, "Stop, Hammertime!",
+				10913, "basicmachine.hammer.tier.09", "Epic Impact Modulator", 9, "Stop, Hammertime!",
 				GT_Recipe.GT_Recipe_Map.sHammerRecipes, 1, 1, 0, 6, 3, "Hammer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(1)), false, false, 0, "HAMMER",null).getStackForm(1L));
 
 		CustomItemList.ForgeHammerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10914, "basicmachine.hammer.tier.10", "Legendary Impact Modulator II",10, "Stop, Hammertime!",
+				10914, "basicmachine.hammer.tier.10", "Epic Impact Modulator II",10, "Stop, Hammertime!",
 				GT_Recipe.GT_Recipe_Map.sHammerRecipes, 1, 1, 0, 6, 3, "Hammer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(1)), false, false, 0, "HAMMER",null).getStackForm(1L));
 
 		CustomItemList.ForgeHammerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10915, "basicmachine.hammer.tier.11", "Legendary Impact Modulator III",11, "Stop, Hammertime!",
+				10915, "basicmachine.hammer.tier.11", "Epic Impact Modulator III",11, "Stop, Hammertime!",
 				GT_Recipe.GT_Recipe_Map.sHammerRecipes, 1, 1, 0, 6, 3, "Hammer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(1)), false, false, 0, "HAMMER",null).getStackForm(1L));
 
 		CustomItemList.ForgeHammerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10916, "basicmachine.hammer.tier.12", "Legendary Impact Modulator IV",12, "Stop, Hammertime!",
+				10916, "basicmachine.hammer.tier.12", "Epic Impact Modulator IV",12, "Stop, Hammertime!",
 				GT_Recipe.GT_Recipe_Map.sHammerRecipes, 1, 1, 0, 6, 3, "Hammer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(1)), false, false, 0, "HAMMER",null).getStackForm(1L));
 
@@ -1091,19 +1091,19 @@ public class GT_Loader_Machines
 						'D', OreDictNames.craftingIndustrialDiamond }).getStackForm(1L));
 
 		CustomItemList.LatheUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10923, "basicmachine.lathe.tier.09", "Legendary Turn-O-Matic", 9, "Produces Rods more efficiently",
+				10923, "basicmachine.lathe.tier.09", "Epic Turn-O-Matic", 9, "Produces Rods more efficiently",
 				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE",null).getStackForm(1L));
 
 		CustomItemList.LatheUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10924, "basicmachine.lathe.tier.10", "Legendary Turn-O-Matic II",10, "Produces Rods more efficiently",
+				10924, "basicmachine.lathe.tier.10", "Epic Turn-O-Matic II",10, "Produces Rods more efficiently",
 				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE",null).getStackForm(1L));
 
 		CustomItemList.LatheUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10925, "basicmachine.lathe.tier.11", "Legendary Turn-O-Matic III",11, "Produces Rods more efficiently",
+				10925, "basicmachine.lathe.tier.11", "Epic Turn-O-Matic III",11, "Produces Rods more efficiently",
 				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE",null).getStackForm(1L));
 
 		CustomItemList.LatheUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10926, "basicmachine.lathe.tier.12", "Legendary Turn-O-Matic IV",12, "Produces Rods more efficiently",
+				10926, "basicmachine.lathe.tier.12", "Epic Turn-O-Matic IV",12, "Produces Rods more efficiently",
 				GT_Recipe.GT_Recipe_Map.sLatheRecipes, 1, 2, 0, 0, 1, "Lathe.png", "", false, false, 0, "LATHE",null).getStackForm(1L));
 
 
@@ -1150,22 +1150,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.PrecisionLaserEngraverUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10933, "basicmachine.laserengraver.tier.09", "Legendary Exact Photon Cannon", 9, "With the Power of 2.42 GW",
+				10933, "basicmachine.laserengraver.tier.09", "Epic Exact Photon Cannon", 9, "With the Power of 2.42 GW",
 				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER",null).getStackForm(1L));
 
 		CustomItemList.PrecisionLaserEngraverUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10934, "basicmachine.laserengraver.tier.10", "Legendary Exact Photon Cannon II",10, "With the Power of 4.84 GW",
+				10934, "basicmachine.laserengraver.tier.10", "Epic Exact Photon Cannon II",10, "With the Power of 4.84 GW",
 				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER",null).getStackForm(1L));
 
 		CustomItemList.PrecisionLaserEngraverUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10935, "basicmachine.laserengraver.tier.11", "Legendary Exact Photon Cannon III",11, "With the Power of 9.68 GW",
+				10935, "basicmachine.laserengraver.tier.11", "Epic Exact Photon Cannon III",11, "With the Power of 9.68 GW",
 				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER",null).getStackForm(1L));
 
 		CustomItemList.PrecisionLaserEngraverUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10936, "basicmachine.laserengraver.tier.12", "Legendary Exact Photon Cannon IV",12, "With the Power of 19.36 GW",
+				10936, "basicmachine.laserengraver.tier.12", "Epic Exact Photon Cannon IV",12, "With the Power of 19.36 GW",
 				GT_Recipe.GT_Recipe_Map.sLaserEngraverRecipes, 2, 1, 0, 0, 1, "LaserEngraver.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "LASER_ENGRAVER",null).getStackForm(1L));
 
@@ -1214,22 +1214,22 @@ public class GT_Loader_Machines
 						'G', OreDictNames.craftingGrinder }).getStackForm(1L));
 
 		CustomItemList.MaceratorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10943, "basicmachine.macerator.tier.09", "Legendary Shape Eliminator", 9, "Schreddering your Ores with Byproducts",
+				10943, "basicmachine.macerator.tier.09", "Epic Shape Eliminator", 9, "Schreddering your Ores with Byproducts",
 				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER",null).getStackForm(1L));
 
 		CustomItemList.MaceratorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10944, "basicmachine.macerator.tier.10", "Legendary Shape Eliminator II",10, "Schreddering your Ores with Byproducts",
+				10944, "basicmachine.macerator.tier.10", "Epic Shape Eliminator II",10, "Schreddering your Ores with Byproducts",
 				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER",null).getStackForm(1L));
 
 		CustomItemList.MaceratorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10945, "basicmachine.macerator.tier.11", "Legendary Shape Eliminator III",11, "Schreddering your Ores with Byproducts",
+				10945, "basicmachine.macerator.tier.11", "Epic Shape Eliminator III",11, "Schreddering your Ores with Byproducts",
 				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER",null).getStackForm(1L));
 
 		CustomItemList.MaceratorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10946, "basicmachine.macerator.tier.12", "Legendary Shape Eliminator IV",12, "Schreddering your Ores with Byproducts",
+				10946, "basicmachine.macerator.tier.12", "Epic Shape Eliminator IV",12, "Schreddering your Ores with Byproducts",
 				GT_Recipe.GT_Recipe_Map.sMaceratorRecipes, 1, 4, 0, 0, 1, "Macerator4.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(201)), false, false, 1, "PULVERIZER",null).getStackForm(1L));
 
@@ -1244,10 +1244,10 @@ public class GT_Loader_Machines
 		CustomItemList.MassFabricatorLuV.set(new GT_MetaTileEntity_Massfabricator(10950, "basicmachine.massfab.tier.06", "Elite Mass Fabricator", 6).getStackForm(1L));
 		CustomItemList.MassFabricatorZPM.set(new GT_MetaTileEntity_Massfabricator(10951, "basicmachine.massfab.tier.07", "Elite Mass Fabricator II", 7).getStackForm(1L));
 		CustomItemList.MassFabricatorUV.set(new GT_MetaTileEntity_Massfabricator(10952, "basicmachine.massfab.tier.08", "Ultimate Existence Initiator", 8).getStackForm(1L));
-		CustomItemList.MassFabricatorUHV.set(new GT_MetaTileEntity_Massfabricator(10953, "basicmachine.massfab.tier.09", "Legendary Existence Initiator", 9).getStackForm(1L));
-		CustomItemList.MassFabricatorUEV.set(new GT_MetaTileEntity_Massfabricator(10954, "basicmachine.massfab.tier.10", "Legendary Existence Initiator II",10).getStackForm(1L));
-		CustomItemList.MassFabricatorUIV.set(new GT_MetaTileEntity_Massfabricator(10955, "basicmachine.massfab.tier.11", "Legendary Existence Initiator III",11).getStackForm(1L));
-		CustomItemList.MassFabricatorUMV.set(new GT_MetaTileEntity_Massfabricator(10956, "basicmachine.massfab.tier.12", "Legendary Existence Initiator IV",12).getStackForm(1L));
+		CustomItemList.MassFabricatorUHV.set(new GT_MetaTileEntity_Massfabricator(10953, "basicmachine.massfab.tier.09", "Epic Existence Initiator", 9).getStackForm(1L));
+		CustomItemList.MassFabricatorUEV.set(new GT_MetaTileEntity_Massfabricator(10954, "basicmachine.massfab.tier.10", "Epic Existence Initiator II",10).getStackForm(1L));
+		CustomItemList.MassFabricatorUIV.set(new GT_MetaTileEntity_Massfabricator(10955, "basicmachine.massfab.tier.11", "Epic Existence Initiator III",11).getStackForm(1L));
+		CustomItemList.MassFabricatorUMV.set(new GT_MetaTileEntity_Massfabricator(10956, "basicmachine.massfab.tier.12", "Epic Existence Initiator IV",12).getStackForm(1L));
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorLuV.get(1L, new Object[0]),
@@ -1301,22 +1301,22 @@ public class GT_Loader_Machines
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
 		CustomItemList.MicrowaveUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10963, "basicmachine.microwave.tier.09", "Legendary UFO Engine", 9, "Did you really remember the instruction Manual?",
+				10963, "basicmachine.microwave.tier.09", "Epic UFO Engine", 9, "Did you really remember the instruction Manual?",
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
 		CustomItemList.MicrowaveUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10964, "basicmachine.microwave.tier.10", "Legendary UFO Engine II",10, "Did you really remember the instruction Manual?",
+				10964, "basicmachine.microwave.tier.10", "Epic UFO Engine II",10, "Did you really remember the instruction Manual?",
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
 		CustomItemList.MicrowaveUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10965, "basicmachine.microwave.tier.11", "Legendary UFO Engine III",11, "Did you really remember the instruction Manual?",
+				10965, "basicmachine.microwave.tier.11", "Epic UFO Engine III",11, "Did you really remember the instruction Manual?",
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
 		CustomItemList.MicrowaveUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10966, "basicmachine.microwave.tier.12", "Legendary UFO Engine IV",12, "Did you really remember the instruction Manual?",
+				10966, "basicmachine.microwave.tier.12", "Epic UFO Engine IV",12, "Did you really remember the instruction Manual?",
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
@@ -1365,22 +1365,22 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
 
 		CustomItemList.OreWashingPlantUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10973, "basicmachine.orewasher.tier.09", "Legendary Ore Washing Machine", 9, "Getting more Byproducts from your Ores",
+				10973, "basicmachine.orewasher.tier.09", "Epic Ore Washing Machine", 9, "Getting more Byproducts from your Ores",
 				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png",
 				"", false, false, 0, "ORE_WASHER",null).getStackForm(1L));
 
 		CustomItemList.OreWashingPlantUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10974, "basicmachine.orewasher.tier.10", "Legendary Ore Washing Machine II",10, "Getting more Byproducts from your Ores",
+				10974, "basicmachine.orewasher.tier.10", "Epic Ore Washing Machine II",10, "Getting more Byproducts from your Ores",
 				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png",
 				"", false, false, 0, "ORE_WASHER",null).getStackForm(1L));
 
 		CustomItemList.OreWashingPlantUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10975, "basicmachine.orewasher.tier.11", "Legendary Ore Washing Machine III",11, "Getting more Byproducts from your Ores",
+				10975, "basicmachine.orewasher.tier.11", "Epic Ore Washing Machine III",11, "Getting more Byproducts from your Ores",
 				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png",
 				"", false, false, 0, "ORE_WASHER",null).getStackForm(1L));
 
 		CustomItemList.OreWashingPlantUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10976, "basicmachine.orewasher.tier.12", "Legendary Ore Washing Machine IV",12, "Getting more Byproducts from your Ores",
+				10976, "basicmachine.orewasher.tier.12", "Epic Ore Washing Machine IV",12, "Getting more Byproducts from your Ores",
 				GT_Recipe.GT_Recipe_Map.sOreWasherRecipes, 1, 3, 16000, 0, 1, "OreWasher.png",
 				"", false, false, 0, "ORE_WASHER",null).getStackForm(1L));
 
@@ -1423,22 +1423,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.PolarizerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10983, "basicmachine.polarizer.tier.09", "Legendary Magnetism Inducer", 9, "Bipolarising your Magnets",
+				10983, "basicmachine.polarizer.tier.09", "Epic Magnetism Inducer", 9, "Bipolarising your Magnets",
 				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER",null).getStackForm(1L));
 
 		CustomItemList.PolarizerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10984, "basicmachine.polarizer.tier.10", "Legendary Magnetism Inducer II",10, "Bipolarising your Magnets",
+				10984, "basicmachine.polarizer.tier.10", "Epic Magnetism Inducer II",10, "Bipolarising your Magnets",
 				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER",null).getStackForm(1L));
 
 		CustomItemList.PolarizerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10985, "basicmachine.polarizer.tier.11", "Legendary Magnetism Inducer III",11, "Bipolarising your Magnets",
+				10985, "basicmachine.polarizer.tier.11", "Epic Magnetism Inducer III",11, "Bipolarising your Magnets",
 				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER",null).getStackForm(1L));
 
 		CustomItemList.PolarizerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10986, "basicmachine.polarizer.tier.12", "Legendary Magnetism Inducer IV",12, "Bipolarising your Magnets",
+				10986, "basicmachine.polarizer.tier.12", "Epic Magnetism Inducer IV",12, "Bipolarising your Magnets",
 				GT_Recipe.GT_Recipe_Map.sPolarizerRecipes, 1, 1, 0, 0, 1, "Polarizer.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "POLARIZER",null).getStackForm(1L));
 
@@ -1484,22 +1484,22 @@ public class GT_Loader_Machines
 						'G', OrePrefixes.dust.get(Materials.NetherStar) }).getStackForm(1L));
 
 		CustomItemList.RecyclerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10993, "basicmachine.recycler.tier.09", "Legendary Scrap-O-Matic", 9, "Compress, burn, obliterate and filter EVERYTHING",
+				10993, "basicmachine.recycler.tier.09", "Epic Scrap-O-Matic", 9, "Compress, burn, obliterate and filter EVERYTHING",
 				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER",null).getStackForm(1L));
 
 		CustomItemList.RecyclerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10994, "basicmachine.recycler.tier.10", "Legendary Scrap-O-Matic II",10, "Compress, burn, obliterate and filter EVERYTHING",
+				10994, "basicmachine.recycler.tier.10", "Epic Scrap-O-Matic II",10, "Compress, burn, obliterate and filter EVERYTHING",
 				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER",null).getStackForm(1L));
 
 		CustomItemList.RecyclerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10995, "basicmachine.recycler.tier.11", "Legendary Scrap-O-Matic III",11, "Compress, burn, obliterate and filter EVERYTHING",
+				10995, "basicmachine.recycler.tier.11", "Epic Scrap-O-Matic III",11, "Compress, burn, obliterate and filter EVERYTHING",
 				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER",null).getStackForm(1L));
 
 		CustomItemList.RecyclerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10996, "basicmachine.recycler.tier.12", "Legendary Scrap-O-Matic IV",12, "Compress, burn, obliterate and filter EVERYTHING",
+				10996, "basicmachine.recycler.tier.12", "Epic Scrap-O-Matic IV",12, "Compress, burn, obliterate and filter EVERYTHING",
 				GT_Recipe.GT_Recipe_Map.sRecyclerRecipes, 1, 1, 0, 0, 1, "Recycler.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "RECYCLER",null).getStackForm(1L));
 
@@ -1514,10 +1514,10 @@ public class GT_Loader_Machines
 		CustomItemList.ReplicatorLuV.set(new GT_MetaTileEntity_Replicator(11000, "basicmachine.replicator.tier.06", "Elite Replicator"  , 6).getStackForm(1L));
 		CustomItemList.ReplicatorZPM.set(new GT_MetaTileEntity_Replicator(11001, "basicmachine.replicator.tier.07", "Elite Replicator II" , 7).getStackForm(1L));
 		CustomItemList.ReplicatorUV.set( new GT_MetaTileEntity_Replicator(11002, "basicmachine.replicator.tier.08", "Ultimate Elemental Composer", 8).getStackForm(1L));
-		CustomItemList.ReplicatorUHV.set(new GT_MetaTileEntity_Replicator(11003, "basicmachine.replicator.tier.09", "Legendary Elemental Composer", 9).getStackForm(1L));
-		CustomItemList.ReplicatorUEV.set(new GT_MetaTileEntity_Replicator(11004, "basicmachine.replicator.tier.10", "Legendary Elemental Composer II",10).getStackForm(1L));
-		CustomItemList.ReplicatorUIV.set(new GT_MetaTileEntity_Replicator(11005, "basicmachine.replicator.tier.11", "Legendary Elemental Composer III",11).getStackForm(1L));
-		CustomItemList.ReplicatorUMV.set(new GT_MetaTileEntity_Replicator(11006, "basicmachine.replicator.tier.12", "Legendary Elemental Composer IV",12).getStackForm(1L));
+		CustomItemList.ReplicatorUHV.set(new GT_MetaTileEntity_Replicator(11003, "basicmachine.replicator.tier.09", "Epic Elemental Composer", 9).getStackForm(1L));
+		CustomItemList.ReplicatorUEV.set(new GT_MetaTileEntity_Replicator(11004, "basicmachine.replicator.tier.10", "Epic Elemental Composer II",10).getStackForm(1L));
+		CustomItemList.ReplicatorUIV.set(new GT_MetaTileEntity_Replicator(11005, "basicmachine.replicator.tier.11", "Epic Elemental Composer III",11).getStackForm(1L));
+		CustomItemList.ReplicatorUMV.set(new GT_MetaTileEntity_Replicator(11006, "basicmachine.replicator.tier.12", "Epic Elemental Composer IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorLuV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -1558,10 +1558,10 @@ public class GT_Loader_Machines
 		CustomItemList.ScannerLuV.set(new GT_MetaTileEntity_Scanner(11010, "basicmachine.scanner.tier.06", "Elite Scanner", 6).getStackForm(1L));
 		CustomItemList.ScannerZPM.set(new GT_MetaTileEntity_Scanner(11011, "basicmachine.scanner.tier.07", "Elite Scanner II", 7).getStackForm(1L));
 		CustomItemList.ScannerUV.set(new GT_MetaTileEntity_Scanner(11012, "basicmachine.scanner.tier.08", "Ultimate Electron Microscope", 8).getStackForm(1L));
-		CustomItemList.ScannerUHV.set(new GT_MetaTileEntity_Scanner(11013, "basicmachine.scanner.tier.09", "Legendary Electron Microscope", 9).getStackForm(1L));
-		CustomItemList.ScannerUEV.set(new GT_MetaTileEntity_Scanner(11014, "basicmachine.scanner.tier.10", "Legendary Electron Microscope II",10).getStackForm(1L));
-		CustomItemList.ScannerUIV.set(new GT_MetaTileEntity_Scanner(11015, "basicmachine.scanner.tier.11", "Legendary Electron Microscope III",11).getStackForm(1L));
-		CustomItemList.ScannerUMV.set(new GT_MetaTileEntity_Scanner(11016, "basicmachine.scanner.tier.12", "Legendary Electron Microscope IV",12).getStackForm(1L));
+		CustomItemList.ScannerUHV.set(new GT_MetaTileEntity_Scanner(11013, "basicmachine.scanner.tier.09", "Epic Electron Microscope", 9).getStackForm(1L));
+		CustomItemList.ScannerUEV.set(new GT_MetaTileEntity_Scanner(11014, "basicmachine.scanner.tier.10", "Epic Electron Microscope II",10).getStackForm(1L));
+		CustomItemList.ScannerUIV.set(new GT_MetaTileEntity_Scanner(11015, "basicmachine.scanner.tier.11", "Epic Electron Microscope III",11).getStackForm(1L));
+		CustomItemList.ScannerUMV.set(new GT_MetaTileEntity_Scanner(11016, "basicmachine.scanner.tier.12", "Epic Electron Microscope IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerLuV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -1629,19 +1629,19 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.SiftingMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11023, "basicmachine.sifter.tier.09", "Legendary Pulsation Filter", 9, "Stay calm and keep sifting",
+				11023, "basicmachine.sifter.tier.09", "Epic Pulsation Filter", 9, "Stay calm and keep sifting",
 				GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER",null).getStackForm(1L));
 
 		CustomItemList.SiftingMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11024, "basicmachine.sifter.tier.10", "Legendary Pulsation Filter II",10, "Stay calm and keep sifting",
+				11024, "basicmachine.sifter.tier.10", "Epic Pulsation Filter II",10, "Stay calm and keep sifting",
 				GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER",null).getStackForm(1L));
 
 		CustomItemList.SiftingMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11025, "basicmachine.sifter.tier.11", "Legendary Pulsation Filter III",11, "Stay calm and keep sifting",
+				11025, "basicmachine.sifter.tier.11", "Epic Pulsation Filter III",11, "Stay calm and keep sifting",
 				GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER",null).getStackForm(1L));
 
 		CustomItemList.SiftingMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11026, "basicmachine.sifter.tier.12", "Legendary Pulsation Filter IV",12, "Stay calm and keep sifting",
+				11026, "basicmachine.sifter.tier.12", "Epic Pulsation Filter IV",12, "Stay calm and keep sifting",
 				GT_Recipe.GT_Recipe_Map.sSifterRecipes, 1, 9, 0, 2, 5, "Sifter.png", "", false, false, 0, "SIFTER",null).getStackForm(1L));
 
 		//SiftingMachineLuV
@@ -1671,19 +1671,19 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.SlicingMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11033, "basicmachine.slicer.tier.09", "Legendary Quantum Slicer", 9, "Be careful when slicing bread!",
+				11033, "basicmachine.slicer.tier.09", "Epic Quantum Slicer", 9, "Be careful when slicing bread!",
 				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
 
 		CustomItemList.SlicingMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11034, "basicmachine.slicer.tier.10", "Legendary Quantum Slicer II",10, "Be careful when slicing bread!",
+				11034, "basicmachine.slicer.tier.10", "Epic Quantum Slicer II",10, "Be careful when slicing bread!",
 				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
 
 		CustomItemList.SlicingMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11035, "basicmachine.slicer.tier.11", "Legendary Quantum Slicer III",11, "Be careful when slicing bread!",
+				11035, "basicmachine.slicer.tier.11", "Epic Quantum Slicer III",11, "Be careful when slicing bread!",
 				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
 
 		CustomItemList.SlicingMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11036, "basicmachine.slicer.tier.12", "Legendary Quantum Slicer IV",12, "Be careful when slicing bread!",
+				11036, "basicmachine.slicer.tier.12", "Epic Quantum Slicer IV",12, "Be careful when slicing bread!",
 				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
 
 		GT_Values.RA.addSlicerRecipe(ItemList.Food_Sliced_Breads.get(1L, new Object[0]), ItemList.Shape_Slicer_Flat.get(0L, new Object[0]), new ItemStack(QuantumBread.Instance(), 1), 20, 524200);
@@ -1731,22 +1731,22 @@ public class GT_Loader_Machines
 						'O', AdvancedGTMaterials.UV.getHCoil() }).getStackForm(1L));
 
 		CustomItemList.ThermalCentrifugeUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11043, "basicmachine.thermalcentrifuge.tier.09", "Legendary Fire Cyclone", 9, "Separating Ores more precisely",
+				11043, "basicmachine.thermalcentrifuge.tier.09", "Epic Fire Cyclone", 9, "Separating Ores more precisely",
 				GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png",
 				"", false, false, 0, "THERMAL_CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.ThermalCentrifugeUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11044, "basicmachine.thermalcentrifuge.tier.10", "Legendary Fire Cyclone II",10, "Separating Ores more precisely",
+				11044, "basicmachine.thermalcentrifuge.tier.10", "Epic Fire Cyclone II",10, "Separating Ores more precisely",
 				GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png",
 				"", false, false, 0, "THERMAL_CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.ThermalCentrifugeUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11045, "basicmachine.thermalcentrifuge.tier.11", "Legendary Fire Cyclone III",11, "Separating Ores more precisely",
+				11045, "basicmachine.thermalcentrifuge.tier.11", "Epic Fire Cyclone III",11, "Separating Ores more precisely",
 				GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png",
 				"", false, false, 0, "THERMAL_CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.ThermalCentrifugeUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11046, "basicmachine.thermalcentrifuge.tier.12", "Legendary Fire Cyclone IV",12, "Separating Ores more precisely",
+				11046, "basicmachine.thermalcentrifuge.tier.12", "Epic Fire Cyclone IV",12, "Separating Ores more precisely",
 				GT_Recipe.GT_Recipe_Map.sThermalCentrifugeRecipes, 1, 3, 0, 0, 1, "ThermalCentrifuge.png",
 				"", false, false, 0, "THERMAL_CENTRIFUGE",null).getStackForm(1L));
 
@@ -1789,22 +1789,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.WiremillUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11053, "basicmachine.wiremill.tier.09", "Legendary Wire Transfigurator", 9, "Produces Wires more efficiently",
+				11053, "basicmachine.wiremill.tier.09", "Epic Wire Transfigurator", 9, "Produces Wires more efficiently",
 				GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL",null).getStackForm(1L));
 
 		CustomItemList.WiremillUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11054, "basicmachine.wiremill.tier.10", "Legendary Wire Transfigurator II",10, "Produces Wires more efficiently",
+				11054, "basicmachine.wiremill.tier.10", "Epic Wire Transfigurator II",10, "Produces Wires more efficiently",
 				GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL",null).getStackForm(1L));
 
 		CustomItemList.WiremillUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11055, "basicmachine.wiremill.tier.11", "Legendary Wire Transfigurator III",11, "Produces Wires more efficiently",
+				11055, "basicmachine.wiremill.tier.11", "Epic Wire Transfigurator III",11, "Produces Wires more efficiently",
 				GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL",null).getStackForm(1L));
 
 		CustomItemList.WiremillUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11056, "basicmachine.wiremill.tier.12", "Legendary Wire Transfigurator IV",12, "Produces Wires more efficiently",
+				11056, "basicmachine.wiremill.tier.12", "Epic Wire Transfigurator IV",12, "Produces Wires more efficiently",
 				GT_Recipe.GT_Recipe_Map.sWiremillRecipes, 1, 1, 0, 0, 1, "Wiremill.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(204)), false, false, 0, "WIREMILL",null).getStackForm(1L));
 
@@ -1882,22 +1882,22 @@ public class GT_Loader_Machines
 						'G', OrePrefixes.cell.get(Materials.Graphite)}).getStackForm(1L));
 
 		CustomItemList.ArcFurnaceUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11073, "basicmachine.arcfurnace.tier.09", "Legendary Short Circuit Heater", 9, "",
+				11073, "basicmachine.arcfurnace.tier.09", "Epic Short Circuit Heater", 9, "",
 				GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ArcFurnaceUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11074, "basicmachine.arcfurnace.tier.10", "Legendary Short Circuit Heater II",10, "",
+				11074, "basicmachine.arcfurnace.tier.10", "Epic Short Circuit Heater II",10, "",
 				GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ArcFurnaceUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11075, "basicmachine.arcfurnace.tier.11", "Legendary Short Circuit Heater III",11, "",
+				11075, "basicmachine.arcfurnace.tier.11", "Epic Short Circuit Heater III",11, "",
 				GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE",null).getStackForm(1L));
 
 		CustomItemList.ArcFurnaceUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11076, "basicmachine.arcfurnace.tier.12", "Legendary Short Circuit Heater IV",12, "",
+				11076, "basicmachine.arcfurnace.tier.12", "Epic Short Circuit Heater IV",12, "",
 				GT_Recipe.GT_Recipe_Map.sArcFurnaceRecipes, 1, 1, 0, 0, 1, "ArcFurnace.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "ARC_FURNACE",null).getStackForm(1L));
 
@@ -1939,22 +1939,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable()}).getStackForm(1L));
 
 		CustomItemList.CentrifugeUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11083, "basicmachine.centrifuge.tier.09", "Legendary Molecular Tornado", 9, "Separating Molecules",
+				11083, "basicmachine.centrifuge.tier.09", "Epic Molecular Tornado", 9, "Separating Molecules",
 				GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				"", false, false, 0, "CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.CentrifugeUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11084, "basicmachine.centrifuge.tier.10", "Legendary Molecular Tornado II",10, "Separating Molecules",
+				11084, "basicmachine.centrifuge.tier.10", "Epic Molecular Tornado II",10, "Separating Molecules",
 				GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				"", false, false, 0, "CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.CentrifugeUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11085, "basicmachine.centrifuge.tier.11", "Legendary Molecular Tornado III",11, "Separating Molecules",
+				11085, "basicmachine.centrifuge.tier.11", "Epic Molecular Tornado III",11, "Separating Molecules",
 				GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				"", false, false, 0, "CENTRIFUGE",null).getStackForm(1L));
 
 		CustomItemList.CentrifugeUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11086, "basicmachine.centrifuge.tier.12", "Legendary Molecular Tornado IV",12, "Separating Molecules",
+				11086, "basicmachine.centrifuge.tier.12", "Epic Molecular Tornado IV",12, "Separating Molecules",
 				GT_Recipe.GT_Recipe_Map.sCentrifugeRecipes, 2, 6, 64000, 0, 1, "Centrifuge.png",
 				"", false, false, 0, "CENTRIFUGE",null).getStackForm(1L));
 
@@ -2006,25 +2006,25 @@ public class GT_Loader_Machines
 
 
 		CustomItemList.PlasmaArcFurnaceUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11093, "basicmachine.plasmaarcfurnace.tier.09", "Legendary Plasma Discharge Heater", 9, "",
+				11093, "basicmachine.plasmaarcfurnace.tier.09", "Epic Plasma Discharge Heater", 9, "",
 				GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
 				(String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",null).getStackForm(1L));
 
 
 		CustomItemList.PlasmaArcFurnaceUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11094, "basicmachine.plasmaarcfurnace.tier.10", "Legendary Plasma Discharge Heater II",10, "",
+				11094, "basicmachine.plasmaarcfurnace.tier.10", "Epic Plasma Discharge Heater II",10, "",
 				GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
 				(String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",null).getStackForm(1L));
 
 
 		CustomItemList.PlasmaArcFurnaceUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11095, "basicmachine.plasmaarcfurnace.tier.11", "Legendary Plasma Discharge Heater III",11, "",
+				11095, "basicmachine.plasmaarcfurnace.tier.11", "Epic Plasma Discharge Heater III",11, "",
 				GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
 				(String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",null).getStackForm(1L));
 
 
 		CustomItemList.PlasmaArcFurnaceUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11096, "basicmachine.plasmaarcfurnace.tier.12", "Legendary Plasma Discharge Heater IV",12, "",
+				11096, "basicmachine.plasmaarcfurnace.tier.12", "Epic Plasma Discharge Heater IV",12, "",
 				GT_Recipe.GT_Recipe_Map.sPlasmaArcFurnaceRecipes, 1, 4, 1000, 0, 1, "PlasmaArcFurnace.png",
 				(String) GregTech_API.sSoundList.get(Integer.valueOf(202)), false, false, 0, "PLASMA_ARC_FURNACE",null).getStackForm(1L));
 		//PlasmaArcFurnaceLuV
@@ -2132,10 +2132,10 @@ public class GT_Loader_Machines
 		CustomItemList.BreweryLuV.set(new GT_MetaTileEntity_PotionBrewer(11120,"basicmachine.brewery.tier.06", "Elite Brewery", 6).getStackForm(1L));
 		CustomItemList.BreweryZPM.set(new GT_MetaTileEntity_PotionBrewer(11121,"basicmachine.brewery.tier.07", "Elite Brewery II", 7).getStackForm(1L));
 		CustomItemList.BreweryUV.set(new GT_MetaTileEntity_PotionBrewer(11122,"basicmachine.brewery.tier.08", "Ultimate Brew Rusher", 8).getStackForm(1L));
-		CustomItemList.BreweryUHV.set(new GT_MetaTileEntity_PotionBrewer(11123,"basicmachine.brewery.tier.09", "Legendary Brew Rusher", 9).getStackForm(1L));
-		CustomItemList.BreweryUEV.set(new GT_MetaTileEntity_PotionBrewer(11124,"basicmachine.brewery.tier.10", "Legendary Brew Rusher II",10).getStackForm(1L));
-		CustomItemList.BreweryUIV.set(new GT_MetaTileEntity_PotionBrewer(11125,"basicmachine.brewery.tier.11", "Legendary Brew Rusher III",11).getStackForm(1L));
-		CustomItemList.BreweryUMV.set(new GT_MetaTileEntity_PotionBrewer(11126,"basicmachine.brewery.tier.12", "Legendary Brew Rusher IV",12).getStackForm(1L));
+		CustomItemList.BreweryUHV.set(new GT_MetaTileEntity_PotionBrewer(11123,"basicmachine.brewery.tier.09", "Epic Brew Rusher", 9).getStackForm(1L));
+		CustomItemList.BreweryUEV.set(new GT_MetaTileEntity_PotionBrewer(11124,"basicmachine.brewery.tier.10", "Epic Brew Rusher II",10).getStackForm(1L));
+		CustomItemList.BreweryUIV.set(new GT_MetaTileEntity_PotionBrewer(11125,"basicmachine.brewery.tier.11", "Epic Brew Rusher III",11).getStackForm(1L));
+		CustomItemList.BreweryUMV.set(new GT_MetaTileEntity_PotionBrewer(11126,"basicmachine.brewery.tier.12", "Epic Brew Rusher IV",12).getStackForm(1L));
 
 		//TODO:Recipes
 
@@ -2161,25 +2161,25 @@ public class GT_Loader_Machines
 				false, false, 0, "CANNER", null).getStackForm(1L));
 
 		CustomItemList.CanningMachineUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11133, "basicmachine.canner.tier.09", "Legendary Can Operator", 9,
+				11133, "basicmachine.canner.tier.09", "Epic Can Operator", 9,
 				"Unmobile Food Canning Machine GTA4", GT_Recipe.GT_Recipe_Map.sCannerRecipes,
 				2, 2, 0, 0, 1, "Canner.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CANNER", null).getStackForm(1L));
 
 		CustomItemList.CanningMachineUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11134, "basicmachine.canner.tier.10", "Legendary Can Operator II",10,
+				11134, "basicmachine.canner.tier.10", "Epic Can Operator II",10,
 				"Unmobile Food Canning Machine GTA4", GT_Recipe.GT_Recipe_Map.sCannerRecipes,
 				2, 2, 0, 0, 1, "Canner.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CANNER", null).getStackForm(1L));
 
 		CustomItemList.CanningMachineUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11135, "basicmachine.canner.tier.11", "Legendary Can Operator III",11,
+				11135, "basicmachine.canner.tier.11", "Epic Can Operator III",11,
 				"Unmobile Food Canning Machine GTA4", GT_Recipe.GT_Recipe_Map.sCannerRecipes,
 				2, 2, 0, 0, 1, "Canner.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CANNER", null).getStackForm(1L));
 
 		CustomItemList.CanningMachineUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11136, "basicmachine.canner.tier.12", "Legendary Can Operator IV",12,
+				11136, "basicmachine.canner.tier.12", "Epic Can Operator IV",12,
 				"Unmobile Food Canning Machine GTA4", GT_Recipe.GT_Recipe_Map.sCannerRecipes,
 				2, 2, 0, 0, 1, "Canner.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CANNER", null).getStackForm(1L));
@@ -2205,25 +2205,25 @@ public class GT_Loader_Machines
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
 
 		CustomItemList.ChemicalBathUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11143, "basicmachine.chemicalbath.tier.09", "Legendary Chemical Dunktron", 9,
+				11143, "basicmachine.chemicalbath.tier.09", "Epic Chemical Dunktron", 9,
 				"Bathing Ores in Chemicals to separate them", GT_Recipe.GT_Recipe_Map.sChemicalBathRecipes,
 				1, 3, 8000, 0, 1, "ChemicalBath.png", "",
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
 
 		CustomItemList.ChemicalBathUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11144, "basicmachine.chemicalbath.tier.10", "Legendary Chemical Dunktron II",10,
+				11144, "basicmachine.chemicalbath.tier.10", "Epic Chemical Dunktron II",10,
 				"Bathing Ores in Chemicals to separate them", GT_Recipe.GT_Recipe_Map.sChemicalBathRecipes,
 				1, 3, 8000, 0, 1, "ChemicalBath.png", "",
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
 
 		CustomItemList.ChemicalBathUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11145, "basicmachine.chemicalbath.tier.11", "Legendary Chemical Dunktron III",11,
+				11145, "basicmachine.chemicalbath.tier.11", "Epic Chemical Dunktron III",11,
 				"Bathing Ores in Chemicals to separate them", GT_Recipe.GT_Recipe_Map.sChemicalBathRecipes,
 				1, 3, 8000, 0, 1, "ChemicalBath.png", "",
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
 
 		CustomItemList.ChemicalBathUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11146, "basicmachine.chemicalbath.tier.12", "Legendary Chemical Dunktron IV",12,
+				11146, "basicmachine.chemicalbath.tier.12", "Epic Chemical Dunktron IV",12,
 				"Bathing Ores in Chemicals to separate them", GT_Recipe.GT_Recipe_Map.sChemicalBathRecipes,
 				1, 3, 8000, 0, 1, "ChemicalBath.png", "",
 				false, true, 0, "CHEMICAL_BATH", null).getStackForm(1L));
@@ -2250,25 +2250,25 @@ public class GT_Loader_Machines
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11153, "basicmachine.chemicalreactor.tier.09", "Legendary hemical Performer", 9,
+				11153, "basicmachine.chemicalreactor.tier.09", "Epic hemical Performer", 9,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
 				2, 1, 16000, 0, 1, "ChemicalReactor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11154, "basicmachine.chemicalreactor.tier.10", "Legendary Chemical Performer II",10,
+				11154, "basicmachine.chemicalreactor.tier.10", "Epic Chemical Performer II",10,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
 				2, 1, 16000, 0, 1, "ChemicalReactor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11155, "basicmachine.chemicalreactor.tier.11", "Legendary Chemical Performer III",11,
+				11155, "basicmachine.chemicalreactor.tier.11", "Epic Chemical Performer III",11,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
 				2, 1, 16000, 0, 1, "ChemicalReactor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11156, "basicmachine.chemicalreactor.tier.12", "Legendary Chemical Performer IV",12,
+				11156, "basicmachine.chemicalreactor.tier.12", "Epic Chemical Performer IV",12,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
 				2, 1, 16000, 0, 1, "ChemicalReactor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
@@ -2279,10 +2279,10 @@ public class GT_Loader_Machines
 		CustomItemList.DisassemblerLuV.set(new GT_MetaTileEntity_Disassembler(11160, "basicmachine.disassembler.tier.06", "Elite Disassembler", 6).getStackForm(1L));
 		CustomItemList.DisassemblerZPM.set(new GT_MetaTileEntity_Disassembler(11161, "basicmachine.disassembler.tier.07", "Elite Disassembler II", 7).getStackForm(1L));
 		CustomItemList.DisassemblerUV.set(new GT_MetaTileEntity_Disassembler(11162, "basicmachine.disassembler.tier.08", "Ultimate Deconstructor", 8).getStackForm(1L));
-		CustomItemList.DisassemblerUHV.set(new GT_MetaTileEntity_Disassembler(11163, "basicmachine.disassembler.tier.09", "Legendary Deconstructor", 9).getStackForm(1L));
-		CustomItemList.DisassemblerUEV.set(new GT_MetaTileEntity_Disassembler(11164, "basicmachine.disassembler.tier.10", "Legendary Deconstructor II",10).getStackForm(1L));
-		CustomItemList.DisassemblerUIV.set(new GT_MetaTileEntity_Disassembler(11165, "basicmachine.disassembler.tier.11", "Legendary Deconstructor III",11).getStackForm(1L));
-		CustomItemList.DisassemblerUMV.set(new GT_MetaTileEntity_Disassembler(11166, "basicmachine.disassembler.tier.12", "Legendary Deconstructor IV",12).getStackForm(1L));
+		CustomItemList.DisassemblerUHV.set(new GT_MetaTileEntity_Disassembler(11163, "basicmachine.disassembler.tier.09", "Epic Deconstructor", 9).getStackForm(1L));
+		CustomItemList.DisassemblerUEV.set(new GT_MetaTileEntity_Disassembler(11164, "basicmachine.disassembler.tier.10", "Epic Deconstructor II",10).getStackForm(1L));
+		CustomItemList.DisassemblerUIV.set(new GT_MetaTileEntity_Disassembler(11165, "basicmachine.disassembler.tier.11", "Epic Deconstructor III",11).getStackForm(1L));
+		CustomItemList.DisassemblerUMV.set(new GT_MetaTileEntity_Disassembler(11166, "basicmachine.disassembler.tier.12", "Epic Deconstructor IV",12).getStackForm(1L));
 
 		//TODO:Recipes
 
@@ -2312,25 +2312,25 @@ public class GT_Loader_Machines
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
 
 		CustomItemList.FermenterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11173, "basicmachine.fermenter.tier.09", "Legendary Fermentation Hastener", 9,
+				11173, "basicmachine.fermenter.tier.09", "Epic Fermentation Hastener", 9,
 				"Fermenting Fluids", GT_Recipe.GT_Recipe_Map.sFermentingRecipes,
 				1, 1, 1000, 0, 1, "Fermenter.png", "",
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
 
 		CustomItemList.FermenterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11174, "basicmachine.fermenter.tier.10", "Legendary Fermentation Hastener II",10,
+				11174, "basicmachine.fermenter.tier.10", "Epic Fermentation Hastener II",10,
 				"Fermenting Fluids", GT_Recipe.GT_Recipe_Map.sFermentingRecipes,
 				1, 1, 1000, 0, 1, "Fermenter.png", "",
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
 
 		CustomItemList.FermenterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11175, "basicmachine.fermenter.tier.11", "Legendary Fermentation Hastener III",11,
+				11175, "basicmachine.fermenter.tier.11", "Epic Fermentation Hastener III",11,
 				"Fermenting Fluids", GT_Recipe.GT_Recipe_Map.sFermentingRecipes,
 				1, 1, 1000, 0, 1, "Fermenter.png", "",
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
 
 		CustomItemList.FermenterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11176, "basicmachine.fermenter.tier.12", "Legendary Fermentation Hastener IV",12,
+				11176, "basicmachine.fermenter.tier.12", "Epic Fermentation Hastener IV",12,
 				"Fermenting Fluids", GT_Recipe.GT_Recipe_Map.sFermentingRecipes,
 				1, 1, 1000, 0, 1, "Fermenter.png", "",
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
@@ -2358,25 +2358,25 @@ public class GT_Loader_Machines
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
 		CustomItemList.FluidCannerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11183, "basicmachine.fluidcanner.tier.09", "Legendary Liquid Can Actuator", 9,
+				11183, "basicmachine.fluidcanner.tier.09", "Epic Liquid Can Actuator", 9,
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 144000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
 		CustomItemList.FluidCannerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11184, "basicmachine.fluidcanner.tier.10", "Legendary Liquid Can Actuator II",10,
+				11184, "basicmachine.fluidcanner.tier.10", "Epic Liquid Can Actuator II",10,
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 160000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
 		CustomItemList.FluidCannerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11185, "basicmachine.fluidcanner.tier.11", "Legendary Liquid Can Actuator III",11,
+				11185, "basicmachine.fluidcanner.tier.11", "Epic Liquid Can Actuator III",11,
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 176000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
 		CustomItemList.FluidCannerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11186, "basicmachine.fluidcanner.tier.12", "Legendary Liquid Can Actuator IV",12,
+				11186, "basicmachine.fluidcanner.tier.12", "Epic Liquid Can Actuator IV",12,
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 192000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
@@ -2404,25 +2404,25 @@ public class GT_Loader_Machines
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
 		CustomItemList.FluidExtractorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11193, "basicmachine.fluidextractor.tier.09", "Legendary Liquefying Sucker", 9,
+				11193, "basicmachine.fluidextractor.tier.09", "Epic Liquefying Sucker", 9,
 				"Extracting Fluids from Items", GT_Recipe.GT_Recipe_Map.sFluidExtractionRecipes,
 				1, 1, 16000, 0, 1, "FluidExtractor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
 		CustomItemList.FluidExtractorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11194, "basicmachine.fluidextractor.tier.10", "Legendary Liquefying Sucker II",10,
+				11194, "basicmachine.fluidextractor.tier.10", "Epic Liquefying Sucker II",10,
 				"Extracting Fluids from Items", GT_Recipe.GT_Recipe_Map.sFluidExtractionRecipes,
 				1, 1, 16000, 0, 1, "FluidExtractor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
 		CustomItemList.FluidExtractorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11195, "basicmachine.fluidextractor.tier.11", "Legendary Liquefying Sucker III",11,
+				11195, "basicmachine.fluidextractor.tier.11", "Epic Liquefying Sucker III",11,
 				"Extracting Fluids from Items", GT_Recipe.GT_Recipe_Map.sFluidExtractionRecipes,
 				1, 1, 16000, 0, 1, "FluidExtractor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
 		CustomItemList.FluidExtractorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11196, "basicmachine.fluidextractor.tier.12", "Legendary Liquefying Sucker IV",12,
+				11196, "basicmachine.fluidextractor.tier.12", "Epic Liquefying Sucker IV",12,
 				"Extracting Fluids from Items", GT_Recipe.GT_Recipe_Map.sFluidExtractionRecipes,
 				1, 1, 16000, 0, 1, "FluidExtractor.png", (String) GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
@@ -2449,25 +2449,25 @@ public class GT_Loader_Machines
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11203, "basicmachine.fluidheater.tier.09", "Legendary Heat Infuser", 9,
+				11203, "basicmachine.fluidheater.tier.09", "Epic Heat Infuser", 9,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
 				1, 0, 8000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11204, "basicmachine.fluidheater.tier.10", "Legendary Heat Infuser II",10,
+				11204, "basicmachine.fluidheater.tier.10", "Epic Heat Infuser II",10,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
 				1, 0, 8000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11205, "basicmachine.fluidheater.tier.11", "Legendary Heat Infuser III",11,
+				11205, "basicmachine.fluidheater.tier.11", "Epic Heat Infuser III",11,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
 				1, 0, 8000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11206, "basicmachine.fluidheater.tier.12", "Legendary Heat Infuser IV",12,
+				11206, "basicmachine.fluidheater.tier.12", "Epic Heat Infuser IV",12,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
 				1, 0, 8000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
@@ -2494,25 +2494,25 @@ public class GT_Loader_Machines
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11213, "basicmachine.mixer.tier.09", "Legendary Matter Organizer", 9,
+				11213, "basicmachine.mixer.tier.09", "Epic Matter Organizer", 9,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11214, "basicmachine.mixer.tier.10", "Legendary Matter Organizer II",10,
+				11214, "basicmachine.mixer.tier.10", "Epic Matter Organizer II",10,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11215, "basicmachine.mixer.tier.11", "Legendary Matter Organizer III",11,
+				11215, "basicmachine.mixer.tier.11", "Epic Matter Organizer III",11,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				11216, "basicmachine.mixer.tier.12", "Legendary Matter Organizer IV",12,
+				11216, "basicmachine.mixer.tier.12", "Epic Matter Organizer IV",12,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
