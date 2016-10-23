@@ -993,13 +993,13 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 recipes.addShaped(<ExtraUtilities:builderswand>, [
 [null, null, <ExtraUtilities:unstableingot>],
 [null, <ExtraUtilities:unstableingot>, null],
-[<TConstruct:toolRod:6>, null, null]]);
+[<RandomThings:ingredient:1>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
 [null, null, <ExtraUtilities:unstableingot:2>],
 [null, <ExtraUtilities:unstableingot:2>, null],
-[<TConstruct:toolRod:6>, null, null]]);
+[<RandomThings:ingredient:1>, null, null]]);
 
 // --- Precision Shears
 recipes.addShaped(<ExtraUtilities:shears>, [
@@ -1010,37 +1010,37 @@ recipes.addShaped(<ExtraUtilities:shears>, [
 recipes.addShaped(<ExtraUtilities:ethericsword>, [
 [null, <ExtraUtilities:unstableingot>, null],
 [null, <ExtraUtilities:unstableingot>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[null, <RandomThings:ingredient:1>, null]]);
 
 // --- Kikoku
 recipes.addShaped(<ExtraUtilities:lawSword>, [
 [null, <ExtraUtilities:unstableingot:2>, null],
 [null, <ExtraUtilities:unstableingot:2>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[null, <RandomThings:ingredient:1>, null]]);
 
 // --- Erosion Shovel
 recipes.addShaped(<ExtraUtilities:erosionShovel>, [
 [null, <ore:ingotUnstable>, null],
-[null, <TConstruct:toolRod:6>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[null, <RandomThings:ingredient:1>, null],
+[null, <RandomThings:ingredient:1>, null]]);
 
 // --- Destruction Pickaxe
 recipes.addShaped(<ExtraUtilities:destructionpickaxe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, <ore:ingotUnstable>],
-[null, <TConstruct:toolRod:6>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[null, <RandomThings:ingredient:1>, null],
+[null, <RandomThings:ingredient:1>, null]]);
 
 // --- Healing Axe
 recipes.addShaped(<ExtraUtilities:defoliageAxe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, null],
-[<ore:ingotUnstable>, <TConstruct:toolRod:6>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[<ore:ingotUnstable>, <RandomThings:ingredient:1>, null],
+[null, <RandomThings:ingredient:1>, null]]);
 
 // --- Reversing Hoe
 recipes.addShaped(<ExtraUtilities:temporalHoe>, [
 [<ore:ingotUnstable>, <ore:ingotUnstable>, null],
-[null, <TConstruct:toolRod:6>, null],
-[null, <TConstruct:toolRod:6>, null]]);
+[null, <RandomThings:ingredient:1>, null],
+[null, <RandomThings:ingredient:1>, null]]);
 
 
 
