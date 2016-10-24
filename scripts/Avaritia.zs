@@ -79,9 +79,9 @@ recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWor
 
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [
-[<ore:screwDiamond>, <ore:gemFlawlessDiamond> , <ore:screwDiamond>],
-[<ore:gemFlawlessDiamond>, <ore:stickDiamond>, <ore:gemFlawlessDiamond>],
-[<ore:screwDiamond>, <ore:gemFlawlessDiamond>, <ore:screwDiamond>]]);
+[<ore:screwDiamond>, <ore:PlateDiamond> , <ore:screwDiamond>],
+[<ore:PlateDiamond>, <ore:stickDiamond>, <ore:PlateDiamond>],
+[<ore:screwDiamond>, <ore:PlateDiamond>, <ore:screwDiamond>]]);
 
 
 

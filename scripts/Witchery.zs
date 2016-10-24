@@ -20,7 +20,7 @@ recipes.remove(<witchery:filteredfumefunnel>);
 // --- Fume Filter
 recipes.remove(<witchery:ingredient:73>);
 
-// --- Null Catalyst doublication
+// --- Null Catalyst duplication
 recipes.removeShapeless(<witchery:ingredient:130>, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>]);
 
 //recipes.remove(<witchery:distilleryidle>);
@@ -50,7 +50,7 @@ recipes.addShaped(<witchery:ingredient:111>, [
 [null, <witchery:somniancotton>, null]]);
 
 // --- Null Catalyst doublication
-recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>, <ore:dustTinyNetherStar>]);
+recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
 // --- Oven
 mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
