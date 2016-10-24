@@ -1681,20 +1681,20 @@ null, <Forestry:crate> * 4);
 // --- Apiarists Backpack
 recipes.addShaped(<Forestry:apiaristBag>, [
 [<harvestcraft:wovencottonItem>, <Forestry:apicultureChest>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <harvestcraft:wovencottonItem>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Lepidopterists Backpack
 recipes.addShaped(<Forestry:lepidopteristBag>, [
 [<harvestcraft:wovencottonItem>, <Forestry:lepidopterology>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <harvestcraft:wovencottonItem>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <harvestcraft:wovencottonItem>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Miners Backpack
 recipes.addShaped(<Forestry:minerBag>, [
 [<harvestcraft:wovencottonItem>, <ore:ingotIron>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <ore:ingotIron>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <ore:ingotIron>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Miners Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
@@ -1706,8 +1706,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 // --- Diggers Backpack
 recipes.addShaped(<Forestry:diggerBag>, [
 [<harvestcraft:wovencottonItem>, <ore:stone>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <ore:stone>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <ore:stone>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Diggers Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
@@ -1719,8 +1719,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 // --- Foresters Backpach
 recipes.addShaped(<Forestry:foresterBag>, [
 [<harvestcraft:wovencottonItem>, <ore:logWood>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <ore:logWood>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <ore:logWood>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Foresters Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
@@ -1732,8 +1732,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 // --- Hunters Backpack
 recipes.addShaped(<Forestry:hunterBag>, [
 [<harvestcraft:wovencottonItem>, <minecraft:feather>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <minecraft:feather>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <minecraft:feather>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Hunters Backpack Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
@@ -1745,8 +1745,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 // --- Builders Backpach
 recipes.addShaped(<Forestry:builderBag>, [
 [<harvestcraft:wovencottonItem>, <minecraft:fence>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <minecraft:fence>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <minecraft:fence>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Builders Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 

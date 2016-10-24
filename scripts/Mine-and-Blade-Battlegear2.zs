@@ -218,6 +218,6 @@ recipes.addShaped(<battlegear2:mace.diamond>, [
 
 // --- Quiver
 recipes.addShaped(<battlegear2:quiver>.withTag({current: 0 as byte}), [
-[<Backpack:tannedLeather>, <ore:ringAnyIron>, <Backpack:tannedLeather>],
+[<ore:itemLeather>, <ore:ringAnyIron>, <ore:itemLeather>],
 [<ore:itemLeather>, <minecraft:string>, <ore:itemLeather>],
 [<Backpack:tannedLeather>, <ore:itemLeather>, <Backpack:tannedLeather>]]);

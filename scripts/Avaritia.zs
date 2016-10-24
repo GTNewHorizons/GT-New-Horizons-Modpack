@@ -103,7 +103,7 @@ AlloySmelter.addRecipe(<Avaritia:Resource:4> * 9, <Avaritia:Resource_Block>, <gr
 
 
 // --- Crystal Matrix Ingot
-Assembler.addRecipe(<Avaritia:Resource:1>, <Avaritia:Resource> * 4, <minecraft:nether_star> * 2, 1200, 480);
+Assembler.addRecipe(<Avaritia:Resource:1>, <Avaritia:Resource> * 2, <minecraft:nether_star> * 2, 1200, 480);
 
 
 
