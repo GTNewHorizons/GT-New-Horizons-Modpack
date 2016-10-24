@@ -2925,7 +2925,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        38
+        474
       ]
     },
     {
@@ -36272,6 +36272,472 @@
       ]
     },
     {
+      "questID": 485,
+      "name": "You need moooore Wood",
+      "description": "It\u0027s time to feed your new Coke oven with some Wood to get more Charcoal. You are looking for the efficient way to plant trees. Try to find some Spruce Wood Saplings and some Jungle Saplings. Both can planted in a 2x2 way to get bigger trees.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:colorizedSaplings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "BiomesOPlenty:colorizedSaplings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Natura:florasapling",
+              "Count": 49,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:colorizedSaplings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 486,
+      "name": "Tanned Leather",
+      "description": "By further processing you have found a way to make leather more durable and more resistant. Make some Bound Leather with four sheets of Leather, some stings and a Woven Cotton. Now you have to place it at a Drying Rack and wait about 10 minutes to get some Tanned Leather.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Backpack:tannedLeather",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Armor.DryingRack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        42
+      ]
+    },
+    {
+      "questID": 487,
+      "name": "Need more space ?",
+      "description": "Your tanned Leather is more resistant then normal one and good for making some Backpack. Let\u0027s get some Builder and some Miner Backpack. Each Packs holding different Items. So using both for you first mining experience.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:diggerBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:diggerBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:minerBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:cooked_beef",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        486
+      ]
+    },
+    {
+      "questID": 488,
+      "name": "You need it all!",
+      "description": "There are more Backpacks not only the Diggers and Miners. Hunter, Builders and Foresters Backpack are very handy too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:foresterBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:foresterBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:hunterBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:builderBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leather_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        486
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -43090,163 +43556,183 @@
       "quests": [
         {
           "id": 15,
-          "x": 216,
+          "x": 300,
           "y": 0
         },
         {
           "id": 17,
-          "x": 288,
+          "x": 372,
           "y": 36
         },
         {
           "id": 18,
-          "x": 180,
+          "x": 264,
           "y": 0
         },
         {
           "id": 19,
-          "x": 180,
+          "x": 264,
           "y": 36
         },
         {
           "id": 20,
-          "x": 252,
+          "x": 336,
           "y": 36
         },
         {
           "id": 21,
-          "x": 216,
+          "x": 300,
           "y": 36
         },
         {
           "id": 22,
-          "x": 216,
+          "x": 300,
           "y": 72
         },
         {
           "id": 23,
-          "x": 180,
+          "x": 264,
           "y": 72
         },
         {
           "id": 24,
-          "x": 288,
+          "x": 372,
           "y": 72
         },
         {
           "id": 25,
-          "x": 252,
+          "x": 336,
           "y": 72
         },
         {
           "id": 27,
-          "x": 288,
+          "x": 372,
           "y": 216
         },
         {
           "id": 28,
-          "x": 108,
+          "x": 144,
           "y": 216
         },
         {
           "id": 29,
-          "x": 0,
-          "y": 144
+          "x": 36,
+          "y": 180
         },
         {
           "id": 30,
-          "x": 72,
-          "y": 144
+          "x": 96,
+          "y": 108
         },
         {
           "id": 31,
           "x": 144,
-          "y": 144
+          "y": 108
         },
         {
           "id": 32,
-          "x": 180,
+          "x": 264,
           "y": 108
         },
         {
           "id": 33,
-          "x": 180,
+          "x": 264,
           "y": 144
         },
         {
           "id": 34,
-          "x": 36,
-          "y": 144
+          "x": 48,
+          "y": 108
         },
         {
           "id": 35,
-          "x": 72,
+          "x": 120,
           "y": 72
         },
         {
           "id": 36,
           "x": 0,
-          "y": 72
+          "y": 0
         },
         {
           "id": 38,
-          "x": 36,
-          "y": 108
-        },
-        {
-          "id": 37,
-          "x": 36,
+          "x": 72,
           "y": 72
         },
         {
-          "id": 39,
+          "id": 37,
           "x": 0,
+          "y": 144
+        },
+        {
+          "id": 39,
+          "x": 36,
           "y": 36
         },
         {
           "id": 40,
-          "x": 72,
+          "x": 120,
           "y": 0
         },
         {
           "id": 41,
-          "x": 252,
-          "y": 108
+          "x": 228,
+          "y": 72
         },
         {
           "id": 26,
-          "x": 216,
+          "x": 336,
           "y": 108
         },
         {
           "id": 42,
-          "x": 216,
+          "x": 228,
           "y": 144
         },
         {
           "id": 43,
-          "x": 252,
-          "y": 144
+          "x": 228,
+          "y": 108
         },
         {
           "id": 472,
-          "x": 180,
+          "x": 264,
           "y": 180
         },
         {
           "id": 473,
-          "x": 0,
-          "y": 108
+          "x": 36,
+          "y": 72
         },
         {
           "id": 474,
-          "x": 108,
+          "x": 144,
           "y": 180
         },
         {
           "id": 480,
-          "x": 108,
+          "x": 84,
+          "y": 216
+        },
+        {
+          "id": 485,
+          "x": 420,
+          "y": 72
+        },
+        {
+          "id": 486,
+          "x": 192,
           "y": 144
+        },
+        {
+          "id": 487,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 488,
+          "x": 192,
+          "y": 72
         }
       ]
     },
