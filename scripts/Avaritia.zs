@@ -10,6 +10,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
+import mods.gregtech.FormingPress;
 import mods.gregtech.ImplosionCompressor;
 import mods.ic2.Macerator;
 
@@ -80,7 +81,7 @@ recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWor
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [
 [<ore:screwDiamond>, <ore:plateDiamond> , <ore:screwDiamond>],
-[<ore:plateDiamond>, <ore:stickDiamond>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
 [<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>]]);
 
 
@@ -148,6 +149,18 @@ Extractor.addRecipe(<Avaritia:Resource:1> * 9, <Avaritia:Crystal_Matrix>);
 
 // --- Neutronium Ingots
 Extruder.addRecipe(<Avaritia:Resource:4> * 9, <Avaritia:Resource_Block>, <gregtech:gt.metaitem.01:32355> * 0, 1200, 1920);
+
+
+
+// --- Forming Presee recipes
+
+
+
+
+
+// --- Diamond Lattice
+FormingPress.addRecipe(<Avaritia:Resource>, <gregtech:gt.metaitem.01:17500> * 4, <IC2:itemPartCircuit>, 200, 120);
+
 
 
 
