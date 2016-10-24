@@ -159,8 +159,8 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:1544>, [<MagicBees:miscResources:2
 // --- Thaumaturges Backpach
 recipes.addShaped(<MagicBees:backpack.thaumaturgeT1>, [
 [<harvestcraft:wovencottonItem>, <ore:gemAmber>, <harvestcraft:wovencottonItem>],
-[<Backpack:tannedLeather>, <ore:gemAmber>, <Backpack:tannedLeather>],
-[<Backpack:tannedLeather>, <Backpack:tannedLeather>, <Backpack:tannedLeather>]]);
+[<ore:itemLeather>, <ore:gemAmber>, <ore:itemLeather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 
 // --- Thaumaturges Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
