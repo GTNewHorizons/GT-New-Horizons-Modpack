@@ -56,9 +56,6 @@ recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, 
 mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
 game.setLocalization("tc.research_name.OVEN", "Witchery Oven");
 game.setLocalization("tc.research_text.OVEN", "[WI] The tales of Hansel and Gretel");
-mods.thaumcraft.Research.addPrereq("OVEN", "INFERNALFURNACE", false);
-mods.thaumcraft.Research.addPrereq("OVEN", "INFUSION", false);
-mods.thaumcraft.Research.setConcealed("OVEN", false);
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
 game.setLocalization("Witchery.research_page.OVEN.1", "The witches oven, made infamous in the tale of Hansel and Gretel, is a very practical device for the would-be witch or warlock. While unable to smelt metals, the oven is particularly good at cooking food and making charcoal; cooking about 10% faster than a furnace. The second, and probably more important feature of a witches oven, is that it is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot.");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.2");
