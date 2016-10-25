@@ -81,7 +81,7 @@ recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWor
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [
 [<ore:screwDiamond>, <ore:plateDiamond> , <ore:screwDiamond>],
-[<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <dreamcraft:item.StainlessSteelBars>, <ore:plateDiamond>],
 [<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>]]);
 
 
@@ -103,7 +103,7 @@ AlloySmelter.addRecipe(<Avaritia:Resource:4> * 9, <Avaritia:Resource_Block>, <gr
 
 
 // --- Crystal Matrix Ingot
-Assembler.addRecipe(<Avaritia:Resource:1>, <Avaritia:Resource> * 2, <minecraft:nether_star> * 2, 1200, 480);
+Assembler.addRecipe(<Avaritia:Resource:1>, <Avaritia:Resource> * 4, <minecraft:nether_star> * 2, 1200, 480);
 
 
 
@@ -159,7 +159,7 @@ Extruder.addRecipe(<Avaritia:Resource:4> * 9, <Avaritia:Resource_Block>, <gregte
 
 
 // --- Diamond Lattice
-FormingPress.addRecipe(<Avaritia:Resource>, <gregtech:gt.metaitem.01:17500> * 4, <IC2:itemPartCircuit>, 200, 120);
+FormingPress.addRecipe(<Avaritia:Resource>, <gregtech:gt.metaitem.01:17500> * 4, <dreamcraft:item.StainlessSteelBars>, 200, 120);
 
 
 
