@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.0.9.3 is out (22.10.2016)
+Version 1.1.0.0 is out (27.10.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 22 months and still got a lot more work to do.
+I've been working on it for 23 months and still got a lot more work to do.
 
 The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -92,7 +92,7 @@ newhorizons.prospercraft.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.0.9.3 --- 22.10.2016<BR>
+## Modlist - NewHorizons 1.1.0.0 --- 27.10.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta1<BR>
@@ -161,8 +161,8 @@ newhorizons.prospercraft.com<BR>
 * Galaxy Space	1.1.1<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.25.05custom<BR>
-* GT New Horizons Core Mod	1.2.27<BR>
+* Gregtech	5.09.25.12<BR>
+* GT New Horizons Core Mod	1.2.30<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
