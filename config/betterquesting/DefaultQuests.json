@@ -36822,6 +36822,88 @@
       ]
     },
     {
+      "questID": 490,
+      "name": "Horseback Riding",
+      "description": "Are you ready for a small trip. With you new Launch Box a Saddle, some Lead and of course a Horse we start a small Journey.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:saddle",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:saddle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:fence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:saddle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lead",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        489
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -43822,6 +43904,11 @@
           "id": 489,
           "x": 0,
           "y": 36
+        },
+        {
+          "id": 490,
+          "x": 0,
+          "y": 72
         }
       ]
     },
