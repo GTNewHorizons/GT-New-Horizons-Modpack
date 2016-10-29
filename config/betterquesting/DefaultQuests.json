@@ -36738,6 +36738,90 @@
       ]
     },
     {
+      "questID": 489,
+      "name": "Better Launch Bag",
+      "description": "Your Launch Bag is now use up and rather old so it\u0027s time to get a bigger Storage for your Food. Let\u0027s craft some Launch Box to store even more food for your long Journeys.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "SpiceOfLife:lunchbox",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
+          "Inventory:10": {
+            "Items:9": []
+          },
+          "Open:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "SpiceOfLife:lunchbox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
+                "Inventory:10": {
+                  "Items:9": []
+                },
+                "Open:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:delightedmealItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:supremepizzaItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bltItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -43556,183 +43640,188 @@
       "quests": [
         {
           "id": 15,
-          "x": 300,
+          "x": 336,
           "y": 0
         },
         {
           "id": 17,
-          "x": 372,
+          "x": 408,
           "y": 36
         },
         {
           "id": 18,
-          "x": 264,
+          "x": 300,
           "y": 0
         },
         {
           "id": 19,
-          "x": 264,
+          "x": 300,
           "y": 36
         },
         {
           "id": 20,
-          "x": 336,
+          "x": 372,
           "y": 36
         },
         {
           "id": 21,
-          "x": 300,
+          "x": 336,
           "y": 36
         },
         {
           "id": 22,
-          "x": 300,
+          "x": 336,
           "y": 72
         },
         {
           "id": 23,
-          "x": 264,
+          "x": 300,
           "y": 72
         },
         {
           "id": 24,
-          "x": 372,
+          "x": 408,
           "y": 72
         },
         {
           "id": 25,
-          "x": 336,
+          "x": 372,
           "y": 72
         },
         {
           "id": 27,
-          "x": 372,
+          "x": 408,
           "y": 216
         },
         {
           "id": 28,
-          "x": 144,
+          "x": 180,
           "y": 216
         },
         {
           "id": 29,
-          "x": 36,
+          "x": 72,
           "y": 180
         },
         {
           "id": 30,
-          "x": 96,
+          "x": 132,
           "y": 108
         },
         {
           "id": 31,
-          "x": 144,
+          "x": 180,
           "y": 108
         },
         {
           "id": 32,
-          "x": 264,
+          "x": 300,
           "y": 108
         },
         {
           "id": 33,
-          "x": 264,
+          "x": 300,
           "y": 144
         },
         {
           "id": 34,
-          "x": 48,
+          "x": 84,
           "y": 108
         },
         {
           "id": 35,
-          "x": 120,
+          "x": 156,
           "y": 72
         },
         {
           "id": 36,
-          "x": 0,
+          "x": 36,
           "y": 0
         },
         {
           "id": 38,
-          "x": 72,
+          "x": 108,
           "y": 72
         },
         {
           "id": 37,
-          "x": 0,
+          "x": 36,
           "y": 144
         },
         {
           "id": 39,
-          "x": 36,
+          "x": 72,
           "y": 36
         },
         {
           "id": 40,
-          "x": 120,
+          "x": 156,
           "y": 0
         },
         {
           "id": 41,
-          "x": 228,
+          "x": 264,
           "y": 72
         },
         {
           "id": 26,
-          "x": 336,
+          "x": 372,
           "y": 108
         },
         {
           "id": 42,
-          "x": 228,
+          "x": 264,
           "y": 144
         },
         {
           "id": 43,
-          "x": 228,
+          "x": 264,
           "y": 108
         },
         {
           "id": 472,
-          "x": 264,
+          "x": 300,
           "y": 180
         },
         {
           "id": 473,
-          "x": 36,
+          "x": 72,
           "y": 72
         },
         {
           "id": 474,
-          "x": 144,
+          "x": 180,
           "y": 180
         },
         {
           "id": 480,
-          "x": 84,
+          "x": 120,
           "y": 216
         },
         {
           "id": 485,
-          "x": 420,
+          "x": 456,
           "y": 72
         },
         {
           "id": 486,
-          "x": 192,
+          "x": 228,
           "y": 144
         },
         {
           "id": 487,
-          "x": 192,
+          "x": 228,
           "y": 108
         },
         {
           "id": 488,
-          "x": 192,
+          "x": 228,
           "y": 72
+        },
+        {
+          "id": 489,
+          "x": 0,
+          "y": 36
         }
       ]
     },
