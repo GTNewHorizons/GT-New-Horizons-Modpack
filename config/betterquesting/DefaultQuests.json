@@ -46654,27 +46654,6 @@
           "y": 0
         }
       ]
-    },
-    {
-      "name": "New Quest Line",
-      "description": "No description",
-      "quests": [
-        {
-          "id": 481,
-          "x": 0,
-          "y": 0
-        },
-        {
-          "id": 482,
-          "x": 48,
-          "y": 0
-        },
-        {
-          "id": 483,
-          "x": 108,
-          "y": 0
-        }
-      ]
     }
   ]
 }
