@@ -2297,7 +2297,7 @@
     {
       "questID": 30,
       "name": "Copper",
-      "description": "Can be found either between 5 and 60 as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
+      "description": "Can be found between 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -11178,7 +11178,7 @@
     },
     {
       "questID": 143,
-      "name": "Alloy Smelter",
+      "name": "Smelting all-joy",
       "description": "This combination smelter allows you to produce fused quartz and quite clear glass of all variants.",
       "isMain": false,
       "isSilent": false,
@@ -35935,7 +35935,7 @@
     {
       "questID": 480,
       "name": "Malachite",
-      "description": "Another Copper source  is \"Malachite Ore\" and can be found between y 10 and 40. This Vein contain more Iron Ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
+      "description": "Another Copper source  is \"Malachite\" and can be found between y 10 and 40. This Vein contains more Iron Ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36162,7 +36162,7 @@
     {
       "questID": 484,
       "name": "Can you hear the Carrots grow?",
-      "description": "Tiered to wait many Minecraft Days to look you Carrots growing sooooo slowly...?\nWell I got an idea, Bone meal will help you growing food in seconds. Ok chop down some trees and i will give you some Bone meal.",
+      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will give you some bone meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36273,8 +36273,8 @@
     },
     {
       "questID": 485,
-      "name": "You need moooore Wood",
-      "description": "It\u0027s time to feed your new Coke oven with some Wood to get more Charcoal. You are looking for the efficient way to plant trees. Try to find some Spruce Wood Saplings and some Jungle Saplings. Both can planted in a 2x2 way to get bigger trees.",
+      "name": "You need MOOOOOOORE Wood",
+      "description": "It\u0027s time to feed your new coke oven with some wood to get more Charcoal. You are looking for the most efficient way to plant trees. Try to find some Spruce Wood Saplings and some Jungle Saplings. both can planted in a 2x2 grid to get bigger trees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36352,7 +36352,7 @@
     {
       "questID": 486,
       "name": "Tanned Leather",
-      "description": "By further processing you have found a way to make leather more durable and more resistant. Make some Bound Leather with four sheets of Leather, some stings and a Woven Cotton. Now you have to place it at a Drying Rack and wait about 10 minutes to get some Tanned Leather.",
+      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some Bound Leather from four sheets of Leather, some stings and a Woven Cotton. Now you just have to hang it on a Drying Rack and wait about 10 minutes to get some Tanned Leather.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36465,8 +36465,8 @@
     },
     {
       "questID": 487,
-      "name": "Need more space ?",
-      "description": "Your tanned Leather is more resistant then normal one and good for making some Backpack. Let\u0027s get some Builder and some Miner Backpack. Each Packs holding different Items. So using both for you first mining experience.",
+      "name": "Need more space?",
+      "description": "As you might know: tanned leather is more resistant and good enough for a backpack. Let\u0027s get a Digger Backpack and a Miner Backpack. Each pack holds different items. So use both for your first true back-packed mining experience.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36614,8 +36614,8 @@
     },
     {
       "questID": 488,
-      "name": "You need it all!",
-      "description": "There are more Backpacks not only the Diggers and Miners. Hunter, Builders and Foresters Backpack are very handy too.",
+      "name": "You need them all!",
+      "description": "There are many more Backpacks: Hunter, Builder, Forester...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36740,7 +36740,7 @@
     {
       "questID": 489,
       "name": "Better Launch Bag",
-      "description": "Your Launch Bag is now use up and rather old so it\u0027s time to get a bigger Storage for your Food. Let\u0027s craft some Launch Box to store even more food for your long Journeys.",
+      "description": "Your Launch Bag is now so abused and rather old so it\u0027s time to get something better. Let\u0027s craft a Launch Box which can hold way more food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36906,7 +36906,7 @@
     {
       "questID": 491,
       "name": "Sleeping outside",
-      "description": "Carry the bed with you all the looks very funny. Why not crafting a Sleeping Bag to stay outside without placing a bed and change your spawn point. Be warned: If you play on a Servers better sleeping  below y 128. Nights are very cold in the Mountains.",
+      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a Sleeping Bag to stay outside without placing a bed and changing your spawn point. Be warned: If you play on a Servers better sleep below y 128, nights are very cold in the Mountains...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
