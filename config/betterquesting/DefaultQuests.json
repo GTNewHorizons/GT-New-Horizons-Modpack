@@ -36773,7 +36773,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "requiredItems": [
             {
               "id": "SpiceOfLife:lunchbox",
@@ -36901,6 +36901,103 @@
       ],
       "preRequisites": [
         489
+      ]
+    },
+    {
+      "questID": 491,
+      "name": "Sleeping outside",
+      "description": "Carry the bed with you all the looks very funny. Why not crafting a Sleeping Bag to stay outside without placing a bed and change your spawn point. Be warned: If you play on a Servers better sleeping  below y 128. Nights are very cold in the Mountains.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:sleepingBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wool",
+              "Count": 3,
+              "OreDict": "blockWoolWhite",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:carpet",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "OpenBlocks:sleepingBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:leather",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        486
       ]
     },
     {
@@ -43787,12 +43884,12 @@
         },
         {
           "id": 30,
-          "x": 132,
+          "x": 108,
           "y": 108
         },
         {
           "id": 31,
-          "x": 180,
+          "x": 144,
           "y": 108
         },
         {
@@ -43807,12 +43904,12 @@
         },
         {
           "id": 34,
-          "x": 84,
+          "x": 72,
           "y": 108
         },
         {
           "id": 35,
-          "x": 156,
+          "x": 144,
           "y": 72
         },
         {
@@ -43837,7 +43934,7 @@
         },
         {
           "id": 40,
-          "x": 156,
+          "x": 144,
           "y": 0
         },
         {
@@ -43872,7 +43969,7 @@
         },
         {
           "id": 474,
-          "x": 180,
+          "x": 120,
           "y": 180
         },
         {
@@ -43909,6 +44006,11 @@
           "id": 490,
           "x": 0,
           "y": 72
+        },
+        {
+          "id": 491,
+          "x": 192,
+          "y": 144
         }
       ]
     },
