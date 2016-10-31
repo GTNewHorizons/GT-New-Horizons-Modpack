@@ -19640,7 +19640,11 @@
         "Damage": 0
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         238
