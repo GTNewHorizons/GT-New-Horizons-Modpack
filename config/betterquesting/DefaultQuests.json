@@ -2895,6 +2895,12 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
+              "OreDict": "oreMagnetite",
+              "Damage": 870
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
               "OreDict": "oreYellowLimonite",
               "Damage": 931
             },
@@ -2915,7 +2921,7 @@
           "requiredItems": [
             {
               "id": "minecraft:iron_ingot",
-              "Count": 64,
+              "Count": 72,
               "OreDict": "",
               "Damage": 0
             }
