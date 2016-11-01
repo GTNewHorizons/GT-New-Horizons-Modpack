@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.1.0.0 is out (27.10.2016)
+Version 1.1.0.2 is out (01.11.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -92,7 +92,7 @@ newhorizons.prospercraft.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.1.0.0 --- 27.10.2016<BR>
+## Modlist - NewHorizons 1.1.0.2 --- 01.11.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta1<BR>
@@ -161,7 +161,7 @@ newhorizons.prospercraft.com<BR>
 * Galaxy Space	1.1.1<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.25.12<BR>
+* Gregtech	5.09.25.14<BR>
 * GT New Horizons Core Mod	1.2.30<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
@@ -223,7 +223,7 @@ newhorizons.prospercraft.com<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.11.2<BR>
-* Special Mobs	3.2.2<BR>
+* Special Mobs	3.2.2c<BR>
 * Spice of Life	1.3.6<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
