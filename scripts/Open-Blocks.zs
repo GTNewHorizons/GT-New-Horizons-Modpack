@@ -326,6 +326,8 @@ recipes.addShaped(<OpenBlocks:sleepingBag>, [
 [Carpet, Carpet, Carpet],
 [Wool, Wool, Wool],
 [TannedLeather, TannedLeather, TannedLeather]]);
+// -
+recipes.addShapeless(<OpenBlocks:sleepingBag>, [<adventurebackpack:backpackComponent:1>]);
 
 // --- Bear Trap
 recipes.addShaped(<OpenBlocks:beartrap>, [

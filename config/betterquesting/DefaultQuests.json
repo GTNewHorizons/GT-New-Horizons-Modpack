@@ -2297,7 +2297,7 @@
     {
       "questID": 30,
       "name": "Copper",
-      "description": "Can be found either between 5 and 60 as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
+      "description": "Can be found between 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2895,6 +2895,12 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
+              "OreDict": "oreMagnetite",
+              "Damage": 870
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
               "OreDict": "oreYellowLimonite",
               "Damage": 931
             },
@@ -2915,7 +2921,7 @@
           "requiredItems": [
             {
               "id": "minecraft:iron_ingot",
-              "Count": 64,
+              "Count": 72,
               "OreDict": "",
               "Damage": 0
             }
@@ -11178,8 +11184,8 @@
     },
     {
       "questID": 143,
-      "name": "This combination smelter allows you to produce fused quartz and quite clear glass of all variants.",
-      "description": "No Description",
+      "name": "Smelting all-joy",
+      "description": "This combination smelter allows you to produce fused quartz and quite clear glass of all variants.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -19634,7 +19640,11 @@
         "Damage": 0
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         238
@@ -35935,7 +35945,7 @@
     {
       "questID": 480,
       "name": "Malachite",
-      "description": "Another Copper source  is \"Malachite Ore\" and can be found between y 10 and 40. This Vein contain more Iron Ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
+      "description": "Another Copper source  is \"Malachite\" and can be found between y 10 and 40. This Vein contains more Iron Ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36023,146 +36033,9 @@
       ]
     },
     {
-      "questID": 481,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "questbook:questBook",
-        "Count": 64,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        77
-      ]
-    },
-    {
-      "questID": 482,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        481
-      ]
-    },
-    {
-      "questID": 483,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        482
-      ]
-    },
-    {
       "questID": 484,
       "name": "Can you hear the Carrots grow?",
-      "description": "Tiered to wait many Minecraft Days to look you Carrots growing sooooo slowly...?\nWell I got an idea, Bone meal will help you growing food in seconds. Ok chop down some trees and i will give you some Bone meal.Tiered to wait many Minecraft Days to look you Carrots growing sooooo slowly...?\nWell I got an idea, Bone meal will help you growing food in seconds. Ok chop down some trees and I will give you some Bone meal.",
+      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will give you some bone meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36273,8 +36146,8 @@
     },
     {
       "questID": 485,
-      "name": "You need moooore Wood",
-      "description": "It\u0027s time to feed your new Coke oven with some Wood to get more Charcoal. You are looking for the efficient way to plant trees. Try to find some Spruce Wood Saplings and some Jungle Saplings. Both can planted in a 2x2 way to get bigger trees.",
+      "name": "You need MOOOOOOORE Wood",
+      "description": "It\u0027s time to feed your new coke oven with some wood to get more Charcoal. You are looking for the most efficient way to plant trees. Try to find some Spruce Wood Saplings and some Jungle Saplings. both can planted in a 2x2 grid to get bigger trees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36352,7 +36225,7 @@
     {
       "questID": 486,
       "name": "Tanned Leather",
-      "description": "By further processing you have found a way to make leather more durable and more resistant. Make some Bound Leather with four sheets of Leather, some stings and a Woven Cotton. Now you have to place it at a Drying Rack and wait about 10 minutes to get some Tanned Leather.",
+      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some Bound Leather from four sheets of Leather, some stings and a Woven Cotton. Now you just have to hang it on a Drying Rack and wait about 10 minutes to get some Tanned Leather.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36465,8 +36338,8 @@
     },
     {
       "questID": 487,
-      "name": "Need more space ?",
-      "description": "Your tanned Leather is more resistant then normal one and good for making some Backpack. Let\u0027s get some Builder and some Miner Backpack. Each Packs holding different Items. So using both for you first mining experience.",
+      "name": "Need more space?",
+      "description": "As you might know: tanned leather is more resistant and good enough for a backpack. Let\u0027s get a Digger Backpack and a Miner Backpack. Each pack holds different items. So use both for your first true back-packed mining experience.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36539,7 +36412,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -36614,8 +36487,8 @@
     },
     {
       "questID": 488,
-      "name": "You need it all!",
-      "description": "There are more Backpacks not only the Diggers and Miners. Hunter, Builders and Foresters Backpack are very handy too.",
+      "name": "You need them all!",
+      "description": "There are many more Backpacks: Hunter, Builder, Forester...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36725,6 +36598,269 @@
             },
             {
               "id": "harvestcraft:wovencottonItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        486
+      ]
+    },
+    {
+      "questID": 489,
+      "name": "Better Launch Bag",
+      "description": "Your Launch Bag is now so abused and rather old so it\u0027s time to get something better. Let\u0027s craft a Launch Box which can hold way more food.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "SpiceOfLife:lunchbox",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
+          "Inventory:10": {
+            "Items:9": []
+          },
+          "Open:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "SpiceOfLife:lunchbox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "UUID:8": "60ced69d-32df-413d-ac1d-28b72b4c8621",
+                "Inventory:10": {
+                  "Items:9": []
+                },
+                "Open:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:delightedmealItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:supremepizzaItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bltItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 490,
+      "name": "Horseback Riding",
+      "description": "Are you ready for a small trip. With you new Launch Box a Saddle, some Lead and of course a Horse we start a small Journey.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:saddle",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:saddle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:fence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:saddle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lead",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        489
+      ]
+    },
+    {
+      "questID": 491,
+      "name": "Sleeping outside",
+      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a Sleeping Bag to stay outside without placing a bed and changing your spawn point. Be warned: If you play on a Servers better sleep below y 128, nights are very cold in the Mountains...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:sleepingBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wool",
+              "Count": 3,
+              "OreDict": "blockWoolWhite",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:carpet",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "OpenBlocks:sleepingBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:leather",
               "Count": 8,
               "OreDict": "",
               "Damage": 0
@@ -43556,72 +43692,72 @@
       "quests": [
         {
           "id": 15,
-          "x": 300,
+          "x": 336,
           "y": 0
         },
         {
           "id": 17,
-          "x": 372,
+          "x": 408,
           "y": 36
         },
         {
           "id": 18,
-          "x": 264,
+          "x": 300,
           "y": 0
         },
         {
           "id": 19,
-          "x": 264,
+          "x": 300,
           "y": 36
         },
         {
           "id": 20,
-          "x": 336,
+          "x": 372,
           "y": 36
         },
         {
           "id": 21,
-          "x": 300,
+          "x": 336,
           "y": 36
         },
         {
           "id": 22,
-          "x": 300,
-          "y": 72
-        },
-        {
-          "id": 23,
-          "x": 264,
-          "y": 72
-        },
-        {
-          "id": 24,
-          "x": 372,
-          "y": 72
-        },
-        {
-          "id": 25,
           "x": 336,
           "y": 72
         },
         {
-          "id": 27,
+          "id": 23,
+          "x": 300,
+          "y": 72
+        },
+        {
+          "id": 24,
+          "x": 408,
+          "y": 72
+        },
+        {
+          "id": 25,
           "x": 372,
+          "y": 72
+        },
+        {
+          "id": 27,
+          "x": 408,
           "y": 216
         },
         {
           "id": 28,
-          "x": 144,
+          "x": 180,
           "y": 216
         },
         {
           "id": 29,
-          "x": 36,
+          "x": 72,
           "y": 180
         },
         {
           "id": 30,
-          "x": 96,
+          "x": 108,
           "y": 108
         },
         {
@@ -43631,108 +43767,123 @@
         },
         {
           "id": 32,
-          "x": 264,
+          "x": 300,
           "y": 108
         },
         {
           "id": 33,
-          "x": 264,
+          "x": 300,
           "y": 144
         },
         {
           "id": 34,
-          "x": 48,
+          "x": 72,
           "y": 108
         },
         {
           "id": 35,
-          "x": 120,
+          "x": 144,
           "y": 72
         },
         {
           "id": 36,
-          "x": 0,
+          "x": 36,
           "y": 0
         },
         {
           "id": 38,
-          "x": 72,
+          "x": 108,
           "y": 72
         },
         {
           "id": 37,
-          "x": 0,
+          "x": 36,
           "y": 144
         },
         {
           "id": 39,
-          "x": 36,
+          "x": 72,
           "y": 36
         },
         {
           "id": 40,
-          "x": 120,
+          "x": 144,
           "y": 0
         },
         {
           "id": 41,
-          "x": 228,
+          "x": 264,
           "y": 72
         },
         {
           "id": 26,
-          "x": 336,
+          "x": 372,
           "y": 108
         },
         {
           "id": 42,
-          "x": 228,
+          "x": 264,
           "y": 144
         },
         {
           "id": 43,
-          "x": 228,
+          "x": 264,
           "y": 108
         },
         {
           "id": 472,
-          "x": 264,
+          "x": 300,
           "y": 180
         },
         {
           "id": 473,
-          "x": 36,
+          "x": 72,
           "y": 72
         },
         {
           "id": 474,
-          "x": 144,
+          "x": 120,
           "y": 180
         },
         {
           "id": 480,
-          "x": 84,
+          "x": 120,
           "y": 216
         },
         {
           "id": 485,
-          "x": 420,
+          "x": 456,
           "y": 72
         },
         {
           "id": 486,
-          "x": 192,
+          "x": 228,
           "y": 144
         },
         {
           "id": 487,
-          "x": 192,
+          "x": 228,
           "y": 108
         },
         {
           "id": 488,
-          "x": 192,
+          "x": 228,
           "y": 72
+        },
+        {
+          "id": 489,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 490,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 491,
+          "x": 192,
+          "y": 144
         }
       ]
     },
@@ -46373,27 +46524,6 @@
         {
           "id": 449,
           "x": 160,
-          "y": 0
-        }
-      ]
-    },
-    {
-      "name": "New Quest Line",
-      "description": "No description",
-      "quests": [
-        {
-          "id": 481,
-          "x": 0,
-          "y": 0
-        },
-        {
-          "id": 482,
-          "x": 48,
-          "y": 0
-        },
-        {
-          "id": 483,
-          "x": 108,
           "y": 0
         }
       ]

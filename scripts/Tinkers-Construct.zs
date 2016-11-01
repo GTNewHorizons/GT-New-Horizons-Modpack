@@ -2242,6 +2242,8 @@ recipes.addShaped(<TConstruct:Redstone.Landmine:3>, [
 
 // --- Obsidian Sticks
 recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
+// -
+recipes.addShapeless(<RandomThings:ingredient:1>, [<TConstruct:toolRod:6>]);
 
 // --- Clear Glass
 recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>]);

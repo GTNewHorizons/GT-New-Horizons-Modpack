@@ -375,6 +375,11 @@ recipes.remove(<ProjRed|Expansion:projectred.expansion.machine2:11>);
 // --- Recipe Plan
 recipes.remove(<ProjRed|Expansion:projectred.expansion.plan>);
 
+// --- Redstone Alloy
+mods.tconstruct.Smeltery.removeAlloy(<liquid:redmetal.molten>);
+
+
+
 
 
 
@@ -382,6 +387,9 @@ recipes.remove(<ProjRed|Expansion:projectred.expansion.plan>);
 // --- Adding Recipes ---
 
 
+
+// --- Redstone Alloy
+mods.tconstruct.Smeltery.addAlloy(<liquid:redmetal.molten> * 144, [<liquid:redstone.molten> * 576, <liquid:copper.molten> * 144]);
 
 // --- Electrotine Generator
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine1:1>, [

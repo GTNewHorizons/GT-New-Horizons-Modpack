@@ -100,8 +100,6 @@ recipes.addShapeless(<BuildCraft|Factory:tankBlock>, [<adventurebackpack:backpac
 
 // --- Sleeping Bag
 recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<OpenBlocks:sleepingBag>]);
-// -
-recipes.addShapeless(<OpenBlocks:sleepingBag>, [<adventurebackpack:backpackComponent:1>]);
 
 // --- Machete
 recipes.addShaped(<adventurebackpack:machete>, [
