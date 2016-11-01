@@ -5,6 +5,7 @@ import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_Log;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
+import gregtech.api.util.GT_Utility;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -35,7 +36,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.CallistoIce, com.dreammaster.item.ItemList.CallistoIceCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Ledox, com.dreammaster.item.ItemList.LedoxIngot.getIS());
         GT_OreDictUnificator.registerOre("ingotColdLedox", com.dreammaster.item.ItemList.LedoxColdIngot.getIS());
-        GT_OreDictUnificator.registerOre("blockLedox",  GT_ModHandler.getModItem("dreamcraft", "tile.Ledox", 1L, 0));
+        GT_OreDictUnificator.registerOre("blockLedox", GT_ModHandler.getModItem("dreamcraft", "tile.Ledox", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Ledox, com.dreammaster.item.ItemList.LedoxDust.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Ledox, com.dreammaster.item.ItemList.LedoxPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.Ledox, com.dreammaster.item.ItemList.LedoxDensePlate.getIS());
@@ -101,5 +102,10 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
+
+        //remove Ordict
+
+        GT_OreDictUnificator.addToBlacklist(GT_ModHandler.getModItem( "RandomThings" , "ingredient", 1L, 1));
+
     }
 }
