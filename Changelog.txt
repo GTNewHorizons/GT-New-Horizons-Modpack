@@ -1,3 +1,1183 @@
+Version 1.1.0.2  01.11.2016
+
+
+
+
+Mod Upgrade:
+
+
+Gregtech 5.09.25.14
+Special Mobs 3.2.2c(debug)
+
+
+
+Changed/added Recipes:
+
+
+Adventure Backpacks-Open Blocks (Sleeping bag reverse recipe works now.)
+Project Red Tinkers Construct (Project red in Tinkers smeltery recipe changed)
+
+
+
+Code changes:
+
+
+Gergtech (oil with the Oil Rig works again)
+Railcraft (Fuel changes)
+
+
+
+Quests:
+
+
+Adding a few new Quests in Tier 0/0,5, Typo changes by Tec
+
+
+
+Version 1.1.0.0  27.10.2016
+
+
+
+New Mods:
+
+
+Re Auth 3.2
+
+
+
+Mod Upgrade:
+
+
+Adventurebackpack 0.9fbeta1
+Buildcraft 7.1.18(let's try to fill up the Nether with BC Oil Tongue)
+Carpenter's Blocks 3.3.8.1
+Craft Tweaker 3.0.12
+Draconic Evolution 1.0.2i
+Electro Magic Tools 1.2.6.2
+Ender Core 0.2.0.39 beta
+Forestry 4.2.16.64
+Gadomancy 1.0.7.3
+Galactic Greg 0.9.5
+Galaxy Space 1.1.1 STABLE
+Gregtech 5.09.25.12
+GT NewHorizons CoreMod 1.2.30
+Hunger Overhaul 1.0.0.104
+Industrialcraft 2-2.2.826 experimental
+Iguana Tinker Tweaks 2.1.6b
+Natura 2.2.0.1.126 
+RemoteIO 2.4.1 (Now with new version)
+Spice Of Life 1.3.6
+Storage Drawers 1.10.4
+
+
+
+Changed/added Recipes:
+
+
+Adventure Backpacks(Now Backpacks craftable because Craft Tweaker gave me a NBT option to remove only one nbt recipe instead of all)
+Electro Magic Tools(Make the whole Mod playable so add all Recipes back with GT Tools)
+Gergtech(remove crafting Bronze and Steel Ingots out of Nuggets, Bio Fiber recipe changed to be even more like the new gt recipe)
+GT New Horizons Core Mod (Now pollution is toxic.)
+Railcraft(Now the Advanced Coke oven is available Lv age. You need to vac freezer anymore and no blaze)
+Witchery(add Crucible to Witchery Oven recipes.)
+
+
+
+Code changes:
+
+
+Gregtech(Changed get clay dust a bit. And diamond out of red sand, change compressor recipes, Update IGT_RecipeAdder.java Fluid Canner, Adding tiers up to Tier 15, Add Infinity as Material Add Cells to Infinity Catalyst, infinity and Bedrockium Add more Plasma and Cells to new Materials from GS, Added some magic Fuels and fixes, Initial material change and tier expansion., Materials update, whitespaces, Higher tier method adjustment for long computaion., more work on ultimat-er battery, Scanner core scanning code changes, Finally working on first ticks on the teleporter and microwaveET's. Also minor spelling fix, Worldgen and random changes, Postinit reduction and save registered recipes., Change max machine casings to UHV, add Mysterious Crystal Material, Exposing more recipe adding functionality. Chemical Reactor and Centrifuge, Assembly Line Fix, Pyrolyse Oven fix, Return slabs on paper crafting and add metal subtags to TungstenCarbine, VanadiumSteel, ect, fix #717 Lathe can't make rods, Adding UBC Support from Blood asps code, Temp fix for missing Greg'd recipes (Muramasa), Fixes #714 - solar boiler, add Pollution system, add Ores to Infinity Infinity Catalyst and Bedrockium, Fix the MKII Fusion Casing Recipe , Fixed fluid regulator., Return slabs on paper craft(this time without bug), Alloy energy hatch in every slice of the assembly line, Optimize hiding of fluid extraction recipes., drop items from exploding gt machines + config, Fixed charcoal pile igniter bug, high tier stuff require more Nq and Nq alloy cable instead of wire..., Give ore Achievements from all ore stone types, change recipes for Field Generator (Tier balance) fix #740, Add duranium and tritanium, Pyrolyze works, soft Hammer->soft Mallet changes too, Pollution effects detects Full hazmat now, Make pyrolyze to use our casing (fixes texturinig), Optimize particles and change spawning code for electric machines, New Naquadah Cells for the IC Reactor) 
+GT New Horizons(Added Wet Transformers, Added HP and Plasma Turbines recipe, change compressor recipes, Add new Wires/Cables Ordict Berockium, New Fluid and Items Pipes Ordict more stuff, Put Wildcard values to ic2 recipes., GS compat version 1.1.1, TCeti Stone dust added and recipes, fixe large Plasma Turbine recipe, try to ordict mince meat to pams food for Burgers Idea by @MTesseracT, Added Pollution Air Filter Machine and Filters, Pollution fluid etc, update forge to 1614, fix Conductive iron in the mixer using no titanium, added recipe for Air Filter Block, Electric Air Filter Machine Block and Vent Casing, Optimize Imports (intelliJ), add helper Item for EMT nerf, Initial power trafo's recipes, change Ordict stuff to void from voidmetal, Added generators to expand railcraft quarried/abyssal stone generators., Trinium processing, better HighTier EBF ing, Astral Silver craftable etc., Remove Character.valueOf, Add pyrolyze oven casing, )
+
+
+
+Config changes:
+
+
+Applied Energystics(System needs now 10x power then before)
+Electro Magic Tools(Tiered Tools via Iguana Tweaks to a higher level)
+Galaxy Space(Add TCeti Dimension ID)
+Gregtech(Teleporter now Interdimensional tp able, TCetiE now added in the GT configs withe Orgen, added three now Small Ores small 16/Infinity Catalyst, small 17/Infinity, small 18/Bedrockium, Plutonium Mix are dprecated now and removed, Adden new GT Uranium Mix, New Solar Panel design in Avaritia Table. Welcome to Hell Muahahahaha Tongue, fix the last recipe need 32 eut/t)
+GT New Horizons Core Mod(Fix Hazit items)
+Iguana Tinker Tweaks(Change a lot of Tool defaults to higher Tier)
+Pams Harvestcraft(No you can plant all plants from Harvest craft.)
+Thaumcraft(VoidMetal stuff is fixed)
+
+
+
+Fixes:
+
+
+fix #708
+reverse recipe for Thermal clothes
+
+Fix #707
+Chandelier not craft able in LV Tier
+
+fix #711
+SDHC Alloy need now Stainless Steel screws
+
+fix #713
+Quest Fixes 
+
+fix #720
+rainbow Curry now craftable
+Change recipes for Bio Fiber.
+
+fix #716
+OD and OV Scanner recipe changes
+
+fix #730
+CAble using Circuit state 24 now
+
+fix #621
+Forestry Backpacks can now hold all items of the right type.
+
+
+
+Quests:
+
+
+Fix Wooden Cutter and Farmer Quest. Ignore NBT Data, Thaumcraft Quest fixes, Tier fixes, Quest overhault by Tec remove many spelling issues (thanks), Change Copper and Malachite Quest make two Quests. Change Steel Tank Multi Block Quest be retrieval instead of crafting Quest. Advanced Coke Oven Quest Fix, added more Quests for Backpacks and Tanned Leather
+
+
+
+Version 1.0.9.2  09.09.2016
+
+
+
+Mod Upgrade:
+
+
+Adventurebackpack 0.8ebeta27
+Better Questing 1.0.155
+Buildcraft 7.1.18(Oil in the Nether Problems)
+Chisel 2.9.5.11
+EnderIo 2.3.0.429
+Galacticraft 3.0.12.463
+Galaxyspace 1.1.0(this will change a lot YEAH)
+Gregtech 5.09.23.12
+GT Core Mod 1.2.09
+Industrialcraft 2.2.825
+Opensecurity 1.0.94
+Remoteio 2.4.1
+Standart Expansion 1.0.99
+Storagedrawers 1.10.3
+Thaumicexploration 1.1.57
+Thaumictinkerer 2.5.538
+Tinkersdefense 1.3.7 (hopfully works now) Sorry not works. To much crashes.
+Wireles Redstone 1.4.1.11
+
+
+
+Changed/added Recipes:
+
+
+Core Mod (Added Tool Tips for Oven Gloves and Lava Buckets)
+Ender IO (Telepad now LuV Level)
+Extra Utilities (Item Filter need now Stainless Steel Gear)
+Galaxy Space(Change mostly all, recipes are fixed, tired to Version 1.1.0,  Change Rocket Reverse recipes, Avaritia Table now Nasa Workbench, Planets and Moons will be resetted)[/color] 
+MANY IDS NOT MATCH SO ITEMS BE REMOVED AFTER THE UPDATE
+Galacticraft (Short Range Telepoter are cheaper now)
+Gendustry (recipe change now Osmium, Palladium and Naquadah is neede, high Tier Bee Combs are needed only Industry Apiary is at titan Level)
+Gregtech(Add stuff to GT Code like Heavy Duty Plates, Rocket Parts, Planet and Moon Stone Byproducts, Added new Materials like Infinity Catalyst, Bedrockium and Unstable)
+IC2 (Teleporter to IV Level now, Adv Miner Iv Level too, Reactor Needs now Titanium)
+Project Red (Illuminator dust using more dyes Ordicted a bit)
+Thaumic Tinkerer (Fix the recipe of a TT-kami scepter @Thanks to Sirilux)
+Tinkers Construct (Cobalt and Ardite need an EBF now. No diret Ore smelt anymore)
+
+
+
+Code and Config changes:
+
+
+Core Mod(Ore dict support goes to the code because of Minetweaker script erros and waiting time, Quantum Circuits need now Black Plutonium, adding an Industry Frame as Crafting Item for Gendustry, Teleporter need Infinity Block, adding many Galaxy Space components to the Core mod)
+Ender IO (Ender Mini not Attak creepers any more)
+Gregtech(Many new Ore Mixes and changes because of Galaxy Space Update, Added nwe 3 Tiers of Naquadah Reactors, Scanner reworks by Tec, remove pullution until it is used, )
+Infernal Mobs (Hellhounds not alwas infernal any more, disabed rust due server issues and life stealer, enable 1up and regen)
+
+
+
+Quests:
+
+
+Fixed all Galaxy Space Quests to fit with version 1.1.0
+
+
+
+Version 1.0.9.1  06.08.2016
+
+
+
+Mod Upgrade:
+
+
+Better Questing 1.0.141
+CofhCore 3.1.3.327
+CofhLib 1.1.2.182 
+Ender IO 2.3.0.428
+Flood Light 1.2.8.137
+Forestry 4.2.15.63
+Gadomancy 1.0.7.2
+Gregtech 5.09.22.31custom
+GT New Horizons Core Mod 1.1.71
+Hardcore Ender Expansion 1.8.6
+Industrial Craft 2 2.2.3.823
+Open Modular Turrets 2.2.4.225
+Standard Expansion 1.0.94
+Storage Drawers 1.10.1
+Tinker's Defense 1.3.6(NOT WORKING ON THE SERVER YET)
+
+
+
+Changed/added Recipes:
+
+
+BiblioCraft (Some recipe like the Printing Press and stuff nerfed Needs Attention)
+Blood Magic(Finish this Mod)
+Draconic Evolution (Make a new recipe for the Disenchanter Disenchanter [EarlyISH-Mid way] )
+Forbidden Magic (nerfed this Mod 100%)
+Gadomancy (All recipes are now nerfed)
+Gregtech(Change some Slime recipe give not Rubber only Raw Rubber)
+HEE(change and enabled some recipe)
+Railcraft(remove LP and HP Boiler recipe from Minetweaker)
+Thaumcraft(Change some Advance Golem recipe back to vanilla because of Gadomancies Shielding Golems (Modtweaker sucks sometimes), Void Nuggets Ore Support and Wand Cap change)
+Thaumic Energistics (Added forgotten recipe)
+Thaumic Tinker (Hide Kami now 100%)
+Tinkers Defense(Fix some recipes with the new Version)
+
+
+
+Code and Config changes:
+
+
+Core Mod(Adding Alchemical Wand Cap(Forbidden Magic), change meta ID from Naquadah Alloy Wires, All high Tier machine Parts now in GT Code, Added LP and HP RC Boiler to code, added allot of oxy and no oxy recipes to the EBF(All new materials with changed temps), Manyullyn Crystal now in the Item List, remove all Shaped Recipes for High Tier Machine Parts because in GT Code)
+Custom Main Menu(The GT New Horizons Start  Screen have now a Musik)
+Gregtech(Fluid Filter Fix, New EBF and Multismelter Heating Coil Blocks 4200k, 5400k, 7200K and 9001K(Old Coils get automatically replaced by new ones),  Change Materials Tier, Added 16x Cables, Change Cables recipe be more like GT 5.08, UBC Ore Support, Reactoria Crop Fix, New Cables, Some Fuel in Fusin reactor change, Achievements overhaul, packing most of the high Tier stuff to GT back, GT Sound Volumes now adjustable, change Recipes from Sensors, Field Generators and Emitters, Broken Ore Spawn in the TF )
+Railcraft(added LP and HP Boiler to the Core Mod code)
+
+
+
+Quests:
+
+
+Fixed some Quests. New Quests are added(Flint and Steel, Nether Portal, New EBF Furnace Coil Quests)
+
+
+
+Version 1.0.9.0  16.07.2016
+
+
+
+Mod Upgrade:
+
+
+
+Gregtech 5.09.22.20custom
+Gt New Horizons Core Mod 1.1.63
+Open Modular Turrets 2.2.3.221
+
+
+
+Changed/added Recipes:
+
+
+Forbidden magic (70% nerfed)
+Thaumic Energistics (Done with this Mod recipe changes)
+
+
+Code and Config changes:
+
+
+GT New Horizons Core Mod (Added Essentia Processor and circuit for Thaumic Energistics)
+Gregtech (added Spring and small Spring as Shaped recipe)
+
+
+
+Quests:
+
+
+same small fixes.
+
+
+
+Version 1.0.8.9  13.07.2016
+
+
+
+Mod Remove:
+
+
+Better Hud 1.3.4
+
+
+
+New Mods :
+
+
+Default World Generator 0.1b13
+
+
+
+Mod Upgrade:
+
+
+IC2 Nucear Control 2.4.1a
+
+
+
+Changed/added Recipes:
+
+
+IC2 Nuclear Control (Added Recipe for Vanilla Kit)
+Thaumic Energistics (70% done with the mod)
+Warp Theory (fix some bug)
+
+
+
+Code and Config changes:
+
+
+Custom Main Menu (change aq bit the configs and pics thanks @Technus)
+
+
+
+Version 1.0.8.8  10.07.2016
+
+
+
+Mod Remove:
+
+
+Enchiridion 2.0.2a
+
+
+
+Mod Upgrade:
+
+
+Better Questing 1.0.132
+Block Limiter 0.5.1a
+Bloody Quest 1.1.0
+Craft Tweaker 3.0.10
+Draconic Evolution 1.0.2h1custom
+Galacticraft 3.0.12.462aGS2.6Custom
+Gregtech 5.09.22.17custom
+Gt New Horizons Core Mod 1.1.61
+GTTweaker 1.1.1
+Hunger Overhaul 1.0.0.103
+Mod Tweaker 0.9.6.173
+RF Expansion 1.0.13
+Standard Expansion 1.0.85
+Storage Drawers 1.10.0
+Thaumic Tinker 2.5.527
+Utility World 1.0.9 
+
+
+
+Changed/added Recipes:
+
+
+Blood Arsenal (Nerf the whole mod and put most of the Stuff in Thaumonomicum)
+Blood Magic (Put all Thaumcraft Stuff in one file)
+Forestry (Change Bee House Recipe to be early game available. Need Core Mod 1.1.61)
+Harvestcraft (Changed Skillet and Sauce Pan recipe not using Plastic anymore, Adding Rainbow Curry recipe, Change Tofu recipe to be early game available)
+Magic Bees (Change Frames need Singularity first researched)
+Thaumcraft(remove the upgrade recipe because not working well(NBT data). We have to look what we can do about the Wand recycling and upgrades, rearranged the Script files)
+Thaumic Machine (Change the Core recipe and change all Researches was bugged before)
+Tinkers Construct (remove Alu Ingot casting and adding Alu Brass Ingots to the Smeltery)
+
+
+
+Code and Config changes:
+
+
+Block Limiter(duct taped crash with Berry Medly)
+Blood Arsenal(Change LP Values a bit)
+Forbidden Magic (Added back Block via Chisel)
+GT New Horizons Core Mod (Added a Wooden Casing for Bee Houses, Added 16x insulated Cables, Add Blood Infused Iron Blood Wand cap, Fix Piko Circuit, Adding Field Generators to Assembler)
+Gregtech (Added 16x insulated Cables, change cable recipe using Rubber sheet Shaped Recipe (32 EU only), change some Graphics from Fluid regulators and Fluid Filter and changed Ids to be not overridden, Added LuV, ZPM and UV Mob Rep, Change Pile Igniter recipe to be LV Steel, Added Blood Aps pollution system but not have any effects now, Name fixes Assembly Line (Blood Asp), Rise generator internal EU storage to counter production bug (Blood Asp), rebalancing sifting output (Blood Asp), make GT trigger ic2 achievements (Blood Asp), Finished adding all component assembly line recipes (Blood Asp), fix ic2 crash (Blood Asp), change Electric Tiers, Adding new Tooltip to Assembly Line, Add Argon Gas, Adding Blood Infused Iron to GT, visual changes, fix Stuff, Turbine tooltip fixes(Muramasa))
+
+
+
+Quests:
+
+
+A lot of fixes not remember.
+
+
+
+Version 1.0.8.7  30.06.2016  (public Release)
+
+
+New Mods:
+
+Aqua Creeper 1.0.1
+Blood Quests 1.0.0
+Craft Tweaker 3.0.9
+Custom Main Menu 1.9.2
+Gregtech 5.09.22.12Custom (Major changes need to be tested very carefully)
+Resource Loader 1.3
+
+
+
+Mod Remove:
+
+Gemblocks for Greg 1.5.0(inside 5.09 code)
+Gergtech 5.08.33.xx
+Minetweaker 3.10.B
+TC Node Tracker 1.1.2
+
+
+
+Mod Upgrade:
+
+Adventure Backpacks 0.8ebeta25
+Better Questing 1.0.124
+Blood Magic 1.3.3.24custom(Custom Altar)
+Biome O Plenty 2.1.0.2027
+Buildcraft 7.1.17
+Draconic Evolution 1.0.2g1custom(Custom Multiblock structures cfg)
+Ender Core 0.2.0.36
+Ender IO 2.3.0.427
+Extra Cells 2.3.14b194
+Forestry 4.2.14.62
+Gadomancy 1.7.1
+Galacticraft 3.0.12.462GS2.6Compat
+Gt New Horizons Core Mod 1.1.56
+Modtweaker 0.9.5.172
+Open Modular Turrets 2.2.2.219
+Storage Drawers 1.9.9
+Utility Worls 1.0.8(Garden Dimension)
+Thaumic Tinkerer 2.5.526
+
+
+
+Changed/added Recipes:
+
+Blood Magic (a full rework of the Mod)
+Buildcraft (added Cobblestone structure Pipe only for Cosmetically things)
+Pams Harvestcraft (Fix cotton/Seeds recipe, adding blue and blackberry juice)
+Tinkers Construct (Remove Nugget ,Block and Ingot Casting from Ardite, Manyullyn and Cobalt)
+Witchery (adding recipe for Null Catalyst)
+
+
+Code and Config changes:
+
+Blood Magic(Now we get 3 Different Blasters and 3 Different Bazookas, i increase the values a lot so Bazooka 3 have a Damage from 1000 and 1500 Second Damage but the recipe is ultra hard, changing LP needed for Sigils, Added own Blocks to the Altar so you need now Tier 3 Titanium Blocks and Glowstone on Top, Tier 4 Tungstenstell Blocks on Top Bloodstone and Tier 6 Iridium Blocks and Crystal Blocks on top. Monsters have now custom values of sacrifice lp.)
+Core Mod (added Reinforced Glass recipe to the Core mod code,)
+Draconic Evolution (adding a lot of config options, Tools can get much more upgrades, Multiblock Energy storage are changed Base version using 320 Mio RF and the next x7 next x7 ....., Need now as Core Avaritia Neutronium Blocks and as Hull Charged Draconium Blocks, Fixe some recipes)
+Gendustry (change Bees script to support new GT Metal and Gem Blocks)
+Gregtech (Change Version to 5.09 and add all the stuff we add to 5.08. Disabled GT Bees because we add via Gendustry (will change this later when i edit the Bees in java code)Steam Turbines configs changes need to be tested, Now you can feed gt machnies with rf to 100 EU = 360 RF, 100 RF = 20 EU (10% loss, 20% loss) unificated Endium Ore from HEE, Added Manyullyn to Material Enum, Adding remove Nuggets out of Ingots shaped recipe via code)
+Waila(disabled Blood Altar and Alchemic Brewer support)
+
+Quests:
+
+Fixing Legendary Quests, fixe some bugs.
+
+
+Misc:
+
+Added a own Custom Main menu and change Quest book Pictures.
+
+
+
+Version 1.0.8.6 09.06.2016  (Pre Release of the public Release)
+
+
+Mod Upgrade:
+
+Adventure Backpack 0.8e24
+Applecore 1.3.2
+Better Questing 1.0.121(No reset any more and hidden Quests works)
+Flood Light 1.2.1.134
+Forbidden Magic 0.575
+Gregtech 5.08.33.27
+RF Expansion 1.0.11
+Spice of Life 1.3.2
+Thaumic Exploration 1.1.55
+
+
+Changed/added Recipes:
+
+Draconic Evolution (adding all recipe to Avaritia 9x9 Table)
+
+
+Code changes:
+
+Gregtech (Oxygen recipe using now Circuit int the EBF to work now)
+
+
+
+Quests:
+
+Fixing a lot of Quests. Hope te most work is done here
+
+
+
+Version 1.0.8.5 30.05.2016
+
+
+Mod Upgrade:
+
+Adventure Backpack 0.8e23
+Better Questing 1.0.118
+Carpenters Blocks 3.3.8
+Draconic Evolution 1.0.2e
+Ender Core 0.2.0.35
+Ender IO 2.3.0.426
+Extra Cells 2.3.10b192
+Gregtech 5.08.33.25
+Jabba 1.2.2
+RF Expansion 1.0.8
+Standard Expansion 1.0.81
+
+
+Changed/added Recipes
+
+Blood Magic (Change Binding Ritual recipes)
+Draconic Evolution (start with the Recipes Core and Wyvern Tools and Armor)
+Gregtech (remove Nugget Crafting from Draconium and Awakened Material)
+
+
+Code changes:
+
+Better Questing Mod (player save data will be available in extra file to make reset impossible)
+Gregtech (Multi smelter can now have 256 smelting processes instead of 100, fix old Code from Tec)
+
+
+
+Quests:
+
+Fixing a lot of Quests. Not all done yet.
+
+
+
+Version 1.0.8.4 26.05.2016
+
+
+Mod remove
+
+Ingame InfoXLM
+
+
+Mod Upgrade:
+
+Better HUD 1.3.4
+Better Questing 1.0.101
+Block Limiter 0.51
+Gregtech 5.0.8.33.22
+GTNH Core Mod 1.1.43
+Ic2 Nuclear control 2.4.0a
+Industrial Craft 2 2.2.822
+TC Inventoryscan 1.0.11
+YamCore 0.5.65
+
+
+Changed/added Recipes
+
+Avaritia (now fully integrated and useable)
+Galacticraft (Schematics exchange Tierwise, change the recipe from fluid oxygen and nitrogen, 
+GT NewHorizons Core Mod (Adding Wet Tofu )
+Minecraft (change TC Aspects from Blazepowder, Rods and Paper, change Nether Star dupe recipe)
+Railcraft (Adding recipes for the RF Cart and Loader, Unloader)
+Thaumcraft (add Amber Autoclave recipe and Disable Block and item crafting in the workbench)
+Tinkers Contruct (adding Lead ingots and Nuggets to the smeltery)
+
+
+Code changes:
+
+Block Limiter (adding Item Limiter to the Mod so you can block items from usage in Dimension or on the whole Server, Client)
+GT NewHorizons Core Mod (Adding Wet Tofu item, adding compressed Oxygen and compressed Nitrogen Fluid Gas, Addig new Netherstar dupe recipe, Change Thaumcraft aspect Names, adding World Accelerator recipes )
+Gregtech (Change Thaumcraft aspect Names, Channge burnvalues for Nitro Diesel, Diesel, Ethanol to match with the setting we had(so no changes) Change Burnvalue charcoal a bit 4x, change some Gui for Distillation Tower, Large Turbine and Large Heat Exchanger, adding missing recipes for Ingots (Ender IO Metals) to the EBF with oxygen and without oxygen, adding Turbine Casings from gt 5.0.9, adding some casings to the Assembler, added new Guis for Bronze Steel machines, Adding assembly machine WIP, )
+
+
+
+Version 1.0.8.3 20.05.2016
+
+
+Mod Upgrade:
+
+Backpack Mod 2.2.2 (fix Whitelist thing)
+Better Questing 1.0.95 (invisible Gui Button removed)
+Binnie Patcher 1.8
+GT New Horizons Core Mod 1.1.38
+Mine and Blade Battlegear 2 1.0.8.4 (fix Bug)
+Optifine HD4
+Standard Expansion 1.0.74
+
+
+Changed/added Recipes:
+
+Minecraft (remove Saddle recipe)
+
+
+
+Config added/changes:
+
+Open Security (adding howler alarms)
+
+
+
+Code changes:
+
+GT New Horizons Core Mod (adding wet Tofu item(no recipe yet)
+
+
+
+
+Version 1.0.8.2 18.05.2016
+
+
+Mod Upgrade:
+
+Standard Expansion 1.0.71 (fix Mob Hunt and meeting Quests)
+
+
+
+Version 1.0.8.1 17.05.2016
+
+
+Mod Upgrade:
+
+Adventure Backpack 0.8e22 (better preformance)
+Standard Expansion 1.0.68 (fix Party error)
+
+
+
+Version 1.0.8.0 17.05.2016
+
+
+
+New Mod:
+
+Adventure Backpack 0.8e21
+Architecturecraft 1.4.1
+Bee better at Bees 0.3
+Better Questing 1.0.92
+Compact Kinetic Generators 1.0
+Mine and Blade Battlegear 2 1.0.8.3
+Questbook 1.1.0
+RF Expansion 1.0.7
+Standard Expansion 1.0.65
+Tinkers Defense 1.2.1a
+
+
+Remove Mod:
+
+Bee Specific 1.0
+HQM 4.4.4
+
+
+Mod Upgrade:
+
+Apple Core 1.3.1
+Bibliocraft 1.11.5
+Binnie Patcher 1.7
+Back Pack Mod 2.2.1
+Build Craft Compat 7.1.5
+Draconic Evolution 1.0.2d
+Ender Core 0.2.0.34
+Extra Cells 2.3.10b190
+Fastcraft 1.2.3
+Forestry 4.2.12.60
+Galacticraft 460GS2.6compat
+Gregtech 5.08.33.17
+GTNH Core Mod 1.1.37
+Industrialcraft 2.2.2.821
+Jorneymaps 5.1.4p1
+Open Eyes 0.7. snapshot 5
+Open Modular Turrets 2.2.2.218
+Railcraft 9.12.2.0
+Rogue Like Dungeons 1.5.0b
+SG Craft 1.11.2
+Thaumic Energistics 1.0.0.5
+
+
+
+Changed/added Recipes:
+
+Adventure Backpack (change recipe)
+Architecturecraft (change recipe)
+Mine and Blade Battlegear 2 (change recipe)
+Thaumcraft (remove us locolizer for the chinese guys)
+Tinkers Defense (change Block recipes)
+
+
+Code changes:
+
+Gregtech (corrected Motor recipe, Add Capes Thanks To Tec)
+GT Core Mod (Adding Coins (the dark wizard, the technicain)
+Tinkers Defense (Make the Mod Minetweaker compatible)
+
+
+
+Version 1.0.7.9a/b 18.04.2016
+
+
+New Mod:
+
+Gadomancy 1.0.6.3
+
+
+
+Mod Upgrade:
+
+Brandons Core 1.0.0.12
+Draconic Evolution 1.0.2b
+Ender Core 0.2.0.33
+Forge Multipart 1.2.0.347
+Gendustry 1.6.4.135
+Gregtech 5.08.33.15
+GTNH Core Mod 1.1.35
+HQM 4.4.4a
+Industrialcraft 2.2.2.820
+Modtweaker 0.9.5.171 (Squeezer fix)
+Open Modular Turrets 2.2.2.217 ( now with eu support)
+Storage Drawers 1.9.7
+Thaumic Energistics 1.0.0.4
+ThinkersGregworks 1.0.13 (now with Ticon upgrade compatibility)
+
+
+
+Changed/added Recipes:
+
+Draconic Evolution (adding recipe for the Dislocator in the Avaritia table)
+Extra Utilities (Change Bedrockium Ingots recipe using now the right UUMatter)
+Jabba (Add assembler recipe for Barrels)
+Project Red (Change Silicon Comboud recipe to not match with Redstone alloy in the mixer)
+Thaumcraft (Fix tallow Candle Arcane Worktable recipe)
+Thaumic Tinker (Change void material to Osmiridium)
+Thinkers Construct (Cobalt Ingot again smeltable in the smeltery, adding new Fuels to the smeltery Hotcoolant (less efficient the lava) and pahoehoe lava (mare efficient then lava)
+
+
+
+Code changes:
+
+Gregtech (Malachite change to Lv 1 because fit better in the Questbook, Fix Filter recipe using 30 EU, Fix Large Fluid Cells recycling recipe, Draconium add metal tag, try to fix the Opaque Block issue, fix custom ore mixes, unisulated Wires now paintable, Add new Tier to EBF 9000K for high Tier materials, Multismelter rebalanced, Draconium need now EBF Tier 4, add ebf heat capacity to gt scanner, change Efurnace recipe to not be same with Alloy smelter, Change Motor recipes using mx gt04 cables)
+GTNH Core Mod (change Efurnace recipe to not be same with Alloy smelter, Change Motor recipes using mx gt04 cables)
+
+
+
+Config added/changes:
+
+Galacticraft (remove GC Desh ore from the Mars)
+Gregtech (adding new Desh Mix to Mars only)
+
+
+
+Version 1.0.7.9 04.04.2016
+
+
+New Mod:
+
+Avaritia 1.11
+Mumble Link 4.1.1-2b
+
+
+
+Mod Upgrade:
+
+Autopackager 1.5.9a
+Blood Arsenal 1.2-5
+Draconic Evolution 1.0.2
+Ender Core 0.2.0.32_beta
+Fastcraft 1.22
+Flood Lights 1.1.1-124
+Forbidden Magic 0.574
+GraviSuite 2.0.67u
+Gregtech 5.08.33.10custom
+GT New Horizons CoreMod 1.1.33
+Holo Inventory 1.9.1.124
+Ic2 Nei Plugin 1.1.0
+Industrialcraft 2.2.818
+Iguana Tinker Tweaks 2.1.6
+Open Printer 0.1.0.132
+Storage Drawers 1.9.6 
+Tinkers Gregworks 1.0.11
+
+
+
+Changed/added Recipes
+
+Avaritia (remove all recipes for now will be add later back)
+Core Mod (Fix the GTNH Tab and add all recipe back)
+Draconic Evolution (add missing core back will begin with recipes soon)
+Forestry/biome o Plenty/Pams Harvestcraft (add many new honey wax and Comb recipes, Fix honey and for.honey issue)
+Gregtech (remove all Dust and gem recipes out of Blocks (Shapeless), Fix Bronze recipes, adding old Fuel rod recipes back)
+Thaumic Tinker (add all recipes back and nerf them)
+Tinkers Construct (fix cobalt issue)
+
+
+
+Code changes:
+
+Core Mod (adding bees centrifuge recipes to code and delete them out of Gendustry cfg, some name fixes, adding ichor Cap)
+Gregtech (adding new Fluid Cans to GT Steel, Alu, StailessSteel, Titan, TungstenSteel, Chrome, Iridium, Osmium, Neutronium, add Draconium and Draconium Awakened to GT, Fix Rotors in assembler, )
+
+
+Config added/changes:
+
+Gendustry (fix Bee Comb colors, remove some Centrifuge recipes, fix Ur Ghast Bees, Fix DNA and Protein recipes via cfg)
+Ingame XML (change position to not overlap other Gui)
+
+
+
+Version 1.0.7.8d 23.03.2016
+
+
+Mods Updates
+
+Forestry 4.2.11.59
+Gregtech 5.0.8.33.9custom
+Iguana Tweaks 2.1.5.149(Now Tools Shows Levels thanks to Tec)
+Open Printers 1.0.131
+Railcraft 9.10.0.0
+Thinkers Gregworks 1.0.9 (now with Gem Tools and Ingot and Block repair support)
+
+
+Changed/added Recipes
+
+Thinkers Construct (remove most of the GT Cobat from the smeltery)
+
+
+Code changes:
+
+Gregtech (Add other gt machines support for processing array and stack them up to 64 (tanks to Tec) !!!, Cobalt need now a EBF (because of Ticon)
+
+
+
+Version 1.0.7.8c 20.03.2016
+
+
+Mods Updates
+
+Gregtech 5.0.8.33.7custom
+
+
+Changed/added Recipes
+
+Forestry (remove wood slabs and logs from zs script because in GT code now)
+
+
+Code changes:
+
+Gregtech (added Forestry 4 wood support for meta id >16)
+
+
+
+Version 1.0.7.8b 20.03.2016
+
+
+Mods Backdate
+
+Optifine HD UD1
+
+
+
+Version 1.0.7.8a 19.03.2016
+
+
+
+Changed/added Recipes
+
+All mods using NEWHORIZONS Tab (fixed nasty bug how Server handle Minetweaker scripts)
+
+
+
+Version 1.0.7.8 19.03.2016
+
+
+New Mod:
+
+Binnie Patcher 1.6
+
+
+Mod Upgrade:
+
+AFSU 1.2.3a
+Bee Specific 1.0.0
+Brandons Core 1.0.0.11
+Buildcraft 7.1.16
+Buildcraft Compat 7.1.4
+Draconic Evolution 1.0.2RC2
+Extra Cells 2.3.9b189
+Forestry 4.2.10.58
+Galacticraft 3.0.12.452GS
+Gendustry 1.6.4.134
+Gregtech 5.0.8.33.6
+GTNH Core Mod 1.1.30
+Industrialcraft 2.2.817
+Magic Bees 2.4.3
+Nei Addons 1.12.15.41
+Optifine HD UD3
+Railcraft 9.9.0.0
+SG Craft 1.11.0
+Thaumic Energistics 1.0.0.2fix
+
+
+
+Changed/added Recipes
+
+Bibliocraft (adding recipe for Forestry4 wood back)
+Extra Trees (add Fence, Doors adn Gate recipe Forestry 4 compatible)
+Extra Utilities (fix thaumcraft recipes)
+Forestry (Make all recipes Forestry 4 compatible thanks to lefty, rebalaced Proven Grafter,)
+Gregtech/Extra Bees (Sapphire crafting fix)
+GTNH Core Mod (Adding Thaumcraft Tab and move all custom researches to this tab, add Witchery Tab)
+Storage Drawers (nerf all recipe from the mod thanks to lefty,) 
+Magic Bees (Fixed messed up recipes)
+Minecraft (fix thaumcraft items)
+Tinkers Construct (Change the Heart recipes a bit)
+Warp Theory (Fix thaumcraft items, make Purifiation Talisman cheaper HV Age, )
+
+
+
+Code changes:
+
+Draconic Evolution (adding recipe for Dezils Marshmallows Yea)
+Gregtech (added Forestry 4 support for the Sqeezer and Centrifuge)
+GTNH Core Mod (added Thaumcraft and Witchery Tab to the Thaumanomicum)
+
+
+Config added/changes:
+
+Draconic Evolution (remove Dezils Marshmallows from Butcher trade OOOhhhh)
+Forbidden magic/Bloodmagic (Fix potion id conflicts I:FeatherFall=114 to I:FeatherFall=135, I:Corrupting=71 to I:Corrupting=125)
+
+
+
+Version 1.0.7.7n 18.03.2016
+
+
+
+Changed/added Recipes
+
+
+Ender Io (Fix slice and splice recipes)
+Extra-Utilities (fix compressed recipes)
+Thaumcraft (Fix thaumcraft items recipes that can be craftet on servers)
+
+
+
+Version 1.0.7.7m
+
+
+Config changes:
+
+Galacticraft (Change Biome IDs to Dim 141, 142 and 143 because GC Biomes apear in the nether, fix config files)
+
+
+
+Version 1.0.7.7l
+
+
+Config changes:
+
+Gendustry (Fixed UrGhast Bees mutation and tweak the combs a bit)
+
+
+
+Version 1.0.7.7k
+
+
+Mod Updates
+
+Galacticraft 3.0.12.446GS2.6-compat (Fixe some erros, not need Thermal Clothes Tier 2 on >Tier 3 Planet, Fix Tier 8 Rocket Crash)
+
+
+
+Version 1.0.7.7j
+
+
+
+Config changes:
+
+OpenComputer ( Tweaks to improve openCC experience)
+
+
+
+Version 1.0.7.7i 09.03.2016 2016
+
+
+
+Mod removed
+
+Moebius Core 1.2.5
+
+
+Changed/added Recipes
+
+Core Mod (Re-add .transformReplace functions for CoreMod.zs )
+
+
+
+Version 1.0.7.7g  07.03.2016 2016
+
+
+
+
+New Mods
+
+Enhanced LootBags 1.0
+
+
+Mod Updates
+
+Galacticraft 3.0.12.408 (Downgrade because crash with GS and optifine)
+
+
+Changed/added Recipes and/or configs:
+
+Ender IO (Enable QED recipe back)
+Thaumcraft(Added Thaumium recipe back)
+
+
+Quests
+
+Are be reset because the sever crash all the time (sorry)
+
+https://github.com/lorddusk/HQM/issues/168
+
+
+
+Version 1.0.7.7b/c  06.03.2016 2016
+
+
+Mod Updates
+
+Galacticraft 3.0.12.446 (to avoid AE/GalaxySpace errors for now)
+
+Quests
+
+Are be reset because the sever crash all the time (sorry)
+
+https://github.com/lorddusk/HQM/issues/168
+
+
+
+Version 1.0.7.7a  06.03.2016 2016
+
+
+Mod Updates
+
+Hardcore Ender Expansion (get HEE Music to the right Folder)
+Galacticraft 3.0.12.440 (to avoid AE/GalaxySpace errors for now)
+
+
+Changed/added Recipes and/or configs:
+
+
+Ender IO (fix recipes)
+
+
+
+Version 1.0.7.7  07.03.2016 2016
+
+
+
+Mod Upgrade:
+
+AE2 Stuff 0.5.1.9(rv3 update to prevent the crash)
+AppleCore 1.3.0
+Applied Energistics rv3 beta 5
+Automagy 28.2
+Auto Packager 1.5.9
+Biomes o Plenty 2.1.0 1889
+Cofh Core 3.1.2.325
+Cofh Lib 1.1.1.181
+Ender IO 2.3.0.424
+Extra Cells 2 2.3.9b188
+Floodlight 1.1.1.121
+Forbidden Magic 0.573
+Galacticraft 3.0.12.400 (down grade because Galaxy Space)
+Gravitation Suite 2.0.65u
+Gregtech 5.0.8.33.5custom
+GT New Horizons Core Mod 1.1.26
+GTTweaker 1.1.0(Gt 5.09 support)
+IC2 Nuclear Control 2.3.4a
+Industrial Craft 2 2.2.2.815
+Journeymap 5.1.4
+Malisis Core 0.14.3
+Malis Door 1.13.2
+MRTJP Core 1.1.0.33
+Nei Integration 1.1.2
+Nodal mechanics 1.0.12
+Not Enough Thaumcraft Tabs 1.0.2
+Open Blocks 1.5.1
+Open Computers 1.5.22.46
+Open Mods Libs 0.9.1
+Open Modular Turrets 2.1.9.211
+Open Security 1.0.91
+Optifine HD UD1
+Project Blue 1.1.6
+Project Red 4.7.0.12.95GT
+Special Mobs 3.2.2
+Spice of Life 1.3.1
+Storage Drawers 1.9.4
+Storage Drawers Wood Addons 1.1.1 (Forestry, Natura, Bop, Misc(Thaumcraft, Witchery)
+Thaumic Energistics 1.0.0.1 (rv3 beta 5 compatible with new conten)
+Thaumic Thinkerer 2.5.523
+Tinker's Construct 1.8.9custom
+Tinkers Gregworks 1.0.8
+YamCore 0.5.63
+
+
+
+Mod Removed:
+
+Moebius Core 1.2.5
+Not enough Codecs 0.3.13
+
+
+
+Changed/added Recipes and/or configs:
+
+Advanced Solar Panels (Fix Molecular Transformer Recipe)
+Chisel (Add recipes)
+Ender (IO Coordinator NBT Tag Fix, Dark Clear Glass fix, Correct the ID of Viberant capacitor Band Upgrades, Change Panel recipe, Change Io Wrench recipe, EnderIO Capacitor bank upgradibility)
+Extra Utilities (TC Research & recipe tweaks, Bedrockium Ingot and Compressed stuff changed)
+Forestry (Replace .giveBack with .transformReplace because of the Working Table)
+Gravisuit (Change recipefrom Advanced Nano Chest : added Chrome Plates instead of iridium Plates.)
+Gregtech (Force Diamond dust to be obtained by macerating a diamond block, Add Obsidian plates recipe out of Ingots)
+IC2 (Add missing basalt dust recipe, Remove duplicate biogas recipe from distillery)
+Minecraft (Vanilla Thaumcraft Research & Recipe scripts)
+Nature (Fix recipe using wrong sticks)
+Nodal Mechanics (Remove Nodal mechanics zs because add the new Version with the changed recipes)
+Open Modular Turrest (Correct molten.concrete to wet.concrete)
+Pams Harvestcraft (Clean Pam's scripts and hide unused blocks, Added Harvest Craft Beeswax to Ordict and to Compressor recipe, Added recipe for salt and fresh water, Added recipe for mixing bowl, change recipe from pot, saucepan and skillet, added salt block recipe)
+Railcraft (Remove the Firestone shaped recipe, Add Creosote fuel to the Furnace. Burn value 6400 or 32 items)
+Thaumcraft (Thaumcraft recipes changes adn additions approved by Drobac. Thaumcraft is done 100%)
+Tinkers Construct (Lower TiC TC aspect costs & adjust their recipes. Added Obsidian Totem and tile to the smeltery, Shears are not consumed any more when crafting Wool slabs)
+Warp Theory (Item/Research fixes and Warp warnings)
+
+
+Code changes:
+
+Gregtech (Added wet concrete, Add Void Metal material )
+Tinkers Construct (Add config option to TiC for removal of gold casts)
+
+
+Config added/changes:
+
+Draconic Evolution (Old armor textures enabled(the pretty ones))
+Enchiridion (Restrict enchiridion library to only contain books acquired by the player.)
+Enhanced Lootbags (Lootbag configs, New folder for LootBags (Mod will be added later))
+Gendustry/Twilight Forest (New TF bee species/drops & adjust Extra Bees Research)
+Hunger overhaul (Disable constant hunger loss, remove Butcher Trades)
+Infernal Mobs (Witchery bosses can no longer become infernal)
+Morpheus (Lower sleep percentage to 25%)
+NEI (Default NEI to recipe instead of cheat mode)
+Pams Harvestcraft/Spice of Life (change food config, Food boost and no pams bees, Modified food formula)
+Project Red (Regenerate ProjectRed.cfg to prevent Ore Spawn)
+Special Mobs (remove Ender Effect)
+Tinker Construct (Add config option to TiC for removal of gold casts)
+Tinkers Gregworks (rebalanced most of the values of the Gt Materials for tinker tools)
+Translocators (Disable mobile crafting grid)
+Warp Theory (Warp-Multiplier down to x1; Lightning Effect to 30)
+
+
+
 Version 1.0.7.6   16.01.2016
 
 New Mods:
