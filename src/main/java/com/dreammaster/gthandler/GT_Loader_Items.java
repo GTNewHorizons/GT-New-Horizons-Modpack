@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler;
 
+import com.dreammaster.item.ItemList;
 import gregtech.common.items.GT_MetaGenerated_Item_01;
 
 
@@ -432,6 +433,9 @@ public class GT_Loader_Items
 		CustomItemList.AdsorptionFilter.set(com.dreammaster.item.ItemList.AdsorptionFilter.getIS());
 		CustomItemList.AdsorptionFilterDirty.set(com.dreammaster.item.ItemList.AdsorptionFilterDirty.getIS());
 		CustomItemList.VoidSeed.set(com.dreammaster.item.ItemList.VoidSeed.getIS());
+		CustomItemList.WaferTier3.set(ItemList.WaferTier3.getIS());
+		CustomItemList.MirandaStoneDust.set(ItemList.MirandaStoneDust.getIS());
+
 	}
 
 }
