@@ -66,10 +66,14 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Wood, 1L), GT_OreDictUnificator.get(OrePrefixes.slab, Materials.Wood, 3L), Materials.Iron.getMolten(32L), CustomItemList.WoodenCasing.get(1L, new Object[0]), 100, 8);
         GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Iron.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), 200, 30);
         GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Steel.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), 200, 30);
+
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicon, 6L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 4L), CustomItemList.NanoBoard.get(1L, new Object[0]), 400, 1920);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicon, 8L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 8L), CustomItemList.QuantumBoard.get(1L, new Object[0]), 200, 7680);
+
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
-                GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Board_Advanced.get(1L, new Object[0]), CustomItemList.HighEnergyCircuitParts.get(4L, new Object[0]), tMat.getMolten(288L * tMultiplier / 2L), CustomItemList.AdvancedProcessorBoard.get(1L, new Object[0]), 400, 480);
+                GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Board_Advanced.get(1L, new Object[0]), CustomItemList.HighEnergyCircuitParts.get(4L, new Object[0]), tMat.getMolten(288L * tMultiplier / 2L), CustomItemList.AdvancedBoard.get(1L, new Object[0]), 400, 480);
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.AdvancedProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedDiamondCrystalChip.get(4L, new Object[0]), tMat.getMolten(432L * tMultiplier / 2L), CustomItemList.HighEnergyFlowCircuit.get(1L, new Object[0]), 400, 4096);
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedEnergyChip.get(4L, new Object[0]), tMat.getMolten(576L * tMultiplier / 2L), CustomItemList.NanoCircuit.get(1L, new Object[0]), 500, 7680);
                 GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), CustomItemList.EngravedQuantumChip.get(6L, new Object[0]), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L, new Object[0]), 700, 122880);
@@ -368,6 +372,10 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addFormingPressRecipe(ItemList.Circuit_Parts_Crystal_Chip_Master.get(1L, new Object[0]), GT_ModHandler.getModItem("BuildCraft|Silicon", "redstoneChipset", 1L, 4), CustomItemList.EssentiaCircuit.get(1L, new Object[0]), 300, 480);
 
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 0), CustomItemList.NetherStarFragment.get(2L, new Object[0]), 16, 30);
+
+        GT_Values.RA.addFormingPressRecipe(CustomItemList.AdvancedBoard.get(1L, new Object[0]), CustomItemList.HighEnergyFlowCircuit.get(4L, new Object[0]), CustomItemList.AdvancedProcessorBoard.get(1L, new Object[0]), 400, 480);
+        GT_Values.RA.addFormingPressRecipe(CustomItemList.NanoBoard.get(1L, new Object[0]), CustomItemList.EtchedInsaneVoltageWiring.get(6L, new Object[0]), CustomItemList.NanoProcessorBoard.get(1L, new Object[0]), 200, 4096);
+        GT_Values.RA.addFormingPressRecipe(CustomItemList.QuantumBoard.get(1L, new Object[0]), CustomItemList.EtchedLudicrousVoltageWiring.get(8L, new Object[0]), CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), 400, 30720);
 
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L, new Object[0]), 1, new ItemStack(Items.nether_star, 1, 0), null);
         GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Aluminium, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualAluminium", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));

@@ -88,7 +88,7 @@ public enum CustomItemList implements IItemContainer
 	PistonBlock, PistonPlate,ReinforcedGlassLense, ReinforcedGlassPLate,
     StainlessSteelItemCasing, IridiumAlloyItemCasing,
 	NagaScaleChip, NagaScaleFragment, LichBoneChip, LichBoneFragment, LichBone, FieryBloodDrop, CarminiteChip, CarminiteFragment, SnowQueenBloodDrop, SnowQueenBlood, NetherStarFragment,
-	AdvancedProcessorBoard, NanoProcessorBoard, QuantumProcessorBoard, EngravedQuantumChip, HighEnergyCircuitParts, HighEnergyFlowCircuit, NanoCircuit, PikoCircuit, QuantumCircuit,
+	AdvancedBoard, AdvancedProcessorBoard, NanoBoard, NanoProcessorBoard, QuantumBoard, QuantumProcessorBoard, EngravedQuantumChip, HighEnergyCircuitParts, HighEnergyFlowCircuit, NanoCircuit, PikoCircuit, QuantumCircuit,
     EngravedDiamondCrystalChip, EngravedEnergyChip,
 	CarbonPartBoots, CarbonPartChestplate, CarbonPartHelmet, CarbonPartHelmetNightVision, CarbonPartLeggings,
 	NanoRubberBoots, NanoChestJetPack, NanoPlatedLeggings, NanoScubaHelmet,

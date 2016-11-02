@@ -273,6 +273,7 @@ public class GT_Loader_Items
 		CustomItemList.CarminiteFragment.set(com.dreammaster.item.ItemList.CarminiteFragment.getIS());
 		CustomItemList.SnowQueenBloodDrop.set(com.dreammaster.item.ItemList.SnowQueenBloodDrop.getIS());
 		CustomItemList.SnowQueenBlood.set(com.dreammaster.item.ItemList.SnowQueenBlood.getIS());
+		CustomItemList.AdvancedBoard.set(com.dreammaster.item.ItemList.AdvancedBoard.getIS());
 		CustomItemList.AdvancedProcessorBoard.set(com.dreammaster.item.ItemList.AdvancedProcessorBoard.getIS());
 		CustomItemList.HighEnergyFlowCircuit.set(com.dreammaster.item.ItemList.HighEnergyFlowCircuit.getIS());
 		CustomItemList.NanoCircuit.set(com.dreammaster.item.ItemList.NanoCircuit.getIS());
@@ -301,7 +302,9 @@ public class GT_Loader_Items
         CustomItemList.HighEnergyCircuitParts.set(com.dreammaster.item.ItemList.HighEnergyCircuitParts.getIS());
         CustomItemList.EngravedDiamondCrystalChip.set(com.dreammaster.item.ItemList.EngravedDiamondCrystalChip.getIS());
         CustomItemList.EngravedEnergyChip.set(com.dreammaster.item.ItemList.EngravedEnergyChip.getIS());
+		CustomItemList.NanoBoard.set(com.dreammaster.item.ItemList.NanoBoard.getIS());
         CustomItemList.NanoProcessorBoard.set(com.dreammaster.item.ItemList.NanoProcessorBoard.getIS());
+		CustomItemList.QuantumBoard.set(com.dreammaster.item.ItemList.QuantumBoard.getIS());
         CustomItemList.QuantumProcessorBoard.set(com.dreammaster.item.ItemList.QuantumProcessorBoard.getIS());
         CustomItemList.EngravedQuantumChip.set(com.dreammaster.item.ItemList.EngravedQuantumChip.getIS());
         CustomItemList.StainlessSteelItemCasing.set(com.dreammaster.item.ItemList.StainlessSteelItemCasing.getIS());
