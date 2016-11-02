@@ -146,3 +146,9 @@ recipes.addShaped(<battlegear2:mace.diamond>, [
 [<ore:screwStainlessSteel>, <TGregworks:tGregToolPartLargePlate:72>.withTag({material: "Diamond"}), <TConstruct:heavyPlate:2>],
 [<ore:screwStainlessSteel>, <TConstruct:heavyPlate:2>, <TGregworks:tGregToolPartLargePlate:72>.withTag({material: "Diamond"})],
 [<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
+
+// --- Quiver
+recipes.addShaped(<battlegear2:quiver>, [
+[<ore:itemLeather>, <ore:ringAnyIron>, <ore:itemLeather>],
+[<ore:itemLeather>, <minecraft:string>, <ore:itemLeather>],
+[<Backpack:tannedLeather>, <ore:itemLeather>, <Backpack:tannedLeather>]]);
