@@ -82,8 +82,6 @@ recipes.remove(<battlegear2:mace.gold>);
 // --- Diamond Mace
 recipes.remove(<battlegear2:mace.diamond>);
 
-// --- Quiver
-recipes.remove(<battlegear2:quiver>);
 
 
 
@@ -214,10 +212,4 @@ recipes.addShaped(<battlegear2:mace.gold>, [
 recipes.addShaped(<battlegear2:mace.diamond>, [
 [<ore:screwStainlessSteel>, <TGregworks:tGregToolPartLargePlate:72>.withTag({material: "Diamond"}), <TConstruct:heavyPlate:2>],
 [<ore:screwStainlessSteel>, <TConstruct:heavyPlate:2>, <TGregworks:tGregToolPartLargePlate:72>.withTag({material: "Diamond"})],
-[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
-
-// --- Quiver
-recipes.addShaped(<battlegear2:quiver>.withTag({current: 0 as byte}), [
-[<ore:itemLeather>, <ore:ringAnyIron>, <ore:itemLeather>],
-[<ore:itemLeather>, <minecraft:string>, <ore:itemLeather>],
-[<Backpack:tannedLeather>, <ore:itemLeather>, <Backpack:tannedLeather>]]);
+[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);[<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
