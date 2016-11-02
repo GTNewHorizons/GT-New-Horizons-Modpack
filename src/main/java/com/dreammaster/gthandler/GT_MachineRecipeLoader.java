@@ -67,8 +67,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Iron.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 3), 200, 30);
         GT_Values.RA.addAssemblerRecipe(ItemList.IC2_Item_Casing_Steel.get(6L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 6L, new Object[0]), GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 4), 200, 30);
 
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicon, 6L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 4L), CustomItemList.NanoBoard.get(1L, new Object[0]), 400, 1920);
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicon, 8L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 8L), CustomItemList.QuantumBoard.get(1L, new Object[0]), 200, 7680);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Platinum, 6L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 4L), CustomItemList.NanoBoard.get(1L, new Object[0]), 400, 1920);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Palladium, 8L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 8L), CustomItemList.QuantumBoard.get(1L, new Object[0]), 200, 7680);
 
         for (Materials tMat : Materials.VALUES) {
             if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
@@ -373,7 +373,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 0), CustomItemList.NetherStarFragment.get(2L, new Object[0]), 16, 30);
 
-        GT_Values.RA.addFormingPressRecipe(CustomItemList.AdvancedBoard.get(1L, new Object[0]), CustomItemList.HighEnergyFlowCircuit.get(4L, new Object[0]), CustomItemList.AdvancedProcessorBoard.get(1L, new Object[0]), 400, 480);
+        GT_Values.RA.addFormingPressRecipe(CustomItemList.AdvancedBoard.get(1L, new Object[0]), ItemList.Circuit_Parts_Wiring_Elite.get(4L, new Object[0]), CustomItemList.AdvancedProcessorBoard.get(1L, new Object[0]), 400, 480);
         GT_Values.RA.addFormingPressRecipe(CustomItemList.NanoBoard.get(1L, new Object[0]), CustomItemList.EtchedInsaneVoltageWiring.get(6L, new Object[0]), CustomItemList.NanoProcessorBoard.get(1L, new Object[0]), 200, 4096);
         GT_Values.RA.addFormingPressRecipe(CustomItemList.QuantumBoard.get(1L, new Object[0]), CustomItemList.EtchedLudicrousVoltageWiring.get(8L, new Object[0]), CustomItemList.QuantumProcessorBoard.get(1L, new Object[0]), 400, 30720);
 
