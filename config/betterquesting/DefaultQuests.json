@@ -27055,10 +27055,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TaintedMagic:EldritchShard",
+        "id": "TaintedMagic:ItemMaterial",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 5
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27069,10 +27069,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27084,10 +27084,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -33672,10 +33672,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -35696,12 +35696,6 @@
               "Damage": 1520
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 23305
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
@@ -35710,20 +35704,33 @@
             {
               "id": "Railcraft:part.plate",
               "Count": 1,
-              "OreDict": "plateSteel",
-              "Damage": 1
-            },
-            {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
               "OreDict": "",
-              "Damage": 20305
+              "Damage": 1
             },
             {
               "id": "minecraft:flint",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20305
             }
           ],
           "taskID": "bq_standard:crafting"
