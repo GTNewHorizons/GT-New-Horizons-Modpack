@@ -20,7 +20,7 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.Carbon),
 			OrePrefixes.dust.get(Materials.Trinium)});
 		
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.ElectrumFlux, 8L),
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.ElectrumFlux, 4L),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] { 
 			OrePrefixes.dust.get(Materials.RoseGold), 
 			OrePrefixes.dust.get(Materials.InfusedGold),
