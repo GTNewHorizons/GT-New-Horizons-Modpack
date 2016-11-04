@@ -2929,7 +2929,31 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:lava_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         474
       ]
@@ -3686,6 +3710,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 2
+            },
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -6268,6 +6298,29 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
@@ -12355,8 +12408,7 @@
       "preRequisites": [
         241,
         240,
-        239,
-        332
+        239
       ]
     },
     {
@@ -36040,6 +36092,42 @@
       ]
     },
     {
+      "questID": 481,
+      "name": "Creosote Oil",
+      "description": "You burned now a bit wood to charcoal and wonder what you can do with all this Creosote Oil? \nWell you can burn it in the normal furnace for cook your food or you can make even more torches with it. Later in the LV Age you can probably run a Electric Blas Furnace with it or burn it in Diesel Generators to make EU power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:fluid.creosote.bucket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        24
+      ]
+    },
+    {
       "questID": 484,
       "name": "Can you hear the Carrots grow?",
       "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will give you some bone meal.",
@@ -43891,6 +43979,11 @@
           "id": 491,
           "x": 192,
           "y": 144
+        },
+        {
+          "id": 481,
+          "x": 456,
+          "y": 108
         }
       ]
     },
