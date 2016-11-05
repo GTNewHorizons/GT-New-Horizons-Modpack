@@ -36165,13 +36165,13 @@
           "requiredItems": [
             {
               "id": "minecraft:leather",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "minecraft:beef",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             }
@@ -36186,13 +36186,13 @@
           "requiredItems": [
             {
               "id": "minecraft:wool",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "harvestcraft:muttonrawItem",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             }
@@ -36207,7 +36207,7 @@
           "requiredItems": [
             {
               "id": "minecraft:porkchop",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             }
@@ -36222,13 +36222,13 @@
           "requiredItems": [
             {
               "id": "minecraft:chicken",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "minecraft:egg",
-              "Count": 20,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             }
