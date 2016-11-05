@@ -36128,6 +36128,333 @@
       ]
     },
     {
+      "questID": 482,
+      "name": "Animal Farms",
+      "description": "Try to get some Leather or get some Wool need a lot of time hunting animals and travel  around. Why not catching some animal make a farm and breed them to get a decent amount of Leather, Wool and Meat?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "entity:8": "Cow"
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:beef",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wool",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:muttonrawItem",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:porkchop",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chicken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:egg",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ExtraUtilities:shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:mattock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "MiningSpeed2:4": 700,
+                  "BaseDurability:4": 67,
+                  "Head:4": 314,
+                  "BaseAttack:4": 6,
+                  "Built:4": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 6,
+                  "Attack:4": 6,
+                  "RenderHead:4": 314,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 314,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 314,
+                  "Accessory:4": 314,
+                  "MiningSpeed:4": 700,
+                  "RenderAccessory:4": 314,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 10,
+                  "HarvestLevel2:4": 6,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 67
+                },
+                "display:10": {
+                  "Name:8": "Unstable Induced Mattock"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        483,
+        492
+      ]
+    },
+    {
+      "questID": 483,
+      "name": "Gardener",
+      "description": "If you wondering why you never get Seeds when you destroy Grass you right. Try to look with your new Mattock on the Grass to find some Seeds and Plants.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:wheat_seeds",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:shovelHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:hatchetHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:mattock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "MiningSpeed2:4": 650,
+                  "BaseDurability:4": 534,
+                  "Head:4": 14,
+                  "BaseAttack:4": 6,
+                  "Built:4": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 4,
+                  "Attack:4": 6,
+                  "RenderHead:4": 14,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 14,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 14,
+                  "Accessory:4": 14,
+                  "MiningSpeed:4": 650,
+                  "RenderAccessory:4": 14,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 1,
+                  "HarvestLevel2:4": 4,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 534
+                },
+                "display:10": {
+                  "Name:8": "Bronze Mattock"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemIngot",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:GravelOre",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
       "questID": 484,
       "name": "Can you hear the Carrots grow?",
       "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will give you some bone meal.",
@@ -36966,6 +37293,173 @@
       ],
       "preRequisites": [
         486
+      ]
+    },
+    {
+      "questID": 492,
+      "name": "Sheep Hairdresser",
+      "description": "Kill a Sheep to get the wool is so ineffective. Why not making some Shears to get even more wool.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "entity:8": "Sheep"
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27032
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        36
       ]
     },
     {
@@ -43788,202 +44282,217 @@
         {
           "id": 15,
           "x": 336,
-          "y": 0
+          "y": 36
         },
         {
           "id": 17,
           "x": 408,
-          "y": 36
+          "y": 72
         },
         {
           "id": 18,
           "x": 300,
-          "y": 0
+          "y": 36
         },
         {
           "id": 19,
           "x": 300,
-          "y": 36
+          "y": 72
         },
         {
           "id": 20,
           "x": 372,
-          "y": 36
+          "y": 72
         },
         {
           "id": 21,
           "x": 336,
-          "y": 36
+          "y": 72
         },
         {
           "id": 22,
           "x": 336,
-          "y": 72
+          "y": 108
         },
         {
           "id": 23,
           "x": 300,
-          "y": 72
+          "y": 108
         },
         {
           "id": 24,
           "x": 408,
-          "y": 72
+          "y": 108
         },
         {
           "id": 25,
           "x": 372,
-          "y": 72
+          "y": 108
         },
         {
           "id": 27,
           "x": 408,
-          "y": 216
+          "y": 252
         },
         {
           "id": 28,
           "x": 180,
-          "y": 216
+          "y": 252
         },
         {
           "id": 29,
           "x": 72,
-          "y": 180
+          "y": 216
         },
         {
           "id": 30,
           "x": 108,
-          "y": 108
+          "y": 144
         },
         {
           "id": 31,
           "x": 144,
-          "y": 108
+          "y": 144
         },
         {
           "id": 32,
           "x": 300,
-          "y": 108
+          "y": 144
         },
         {
           "id": 33,
           "x": 300,
-          "y": 144
+          "y": 180
         },
         {
           "id": 34,
           "x": 72,
-          "y": 108
+          "y": 144
         },
         {
           "id": 35,
           "x": 144,
-          "y": 72
+          "y": 108
         },
         {
           "id": 36,
           "x": 36,
-          "y": 0
+          "y": 36
         },
         {
           "id": 38,
           "x": 108,
-          "y": 72
+          "y": 108
         },
         {
           "id": 37,
           "x": 36,
-          "y": 144
+          "y": 180
         },
         {
           "id": 39,
           "x": 72,
-          "y": 36
+          "y": 72
         },
         {
           "id": 40,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 41,
           "x": 264,
-          "y": 72
+          "y": 108
         },
         {
           "id": 26,
           "x": 372,
-          "y": 108
+          "y": 144
         },
         {
           "id": 42,
           "x": 264,
-          "y": 144
+          "y": 180
         },
         {
           "id": 43,
           "x": 264,
-          "y": 108
+          "y": 144
         },
         {
           "id": 472,
           "x": 300,
-          "y": 180
+          "y": 216
         },
         {
           "id": 473,
           "x": 72,
-          "y": 72
+          "y": 108
         },
         {
           "id": 474,
           "x": 120,
-          "y": 180
+          "y": 216
         },
         {
           "id": 480,
           "x": 120,
-          "y": 216
+          "y": 252
         },
         {
           "id": 485,
           "x": 456,
-          "y": 72
+          "y": 108
         },
         {
           "id": 486,
           "x": 228,
-          "y": 144
+          "y": 180
         },
         {
           "id": 487,
           "x": 228,
-          "y": 108
+          "y": 144
         },
         {
           "id": 488,
           "x": 228,
-          "y": 72
+          "y": 108
         },
         {
           "id": 489,
           "x": 0,
-          "y": 36
+          "y": 72
         },
         {
           "id": 490,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 491,
           "x": 192,
-          "y": 144
+          "y": 180
         },
         {
           "id": 481,
           "x": 456,
-          "y": 108
+          "y": 144
+        },
+        {
+          "id": 482,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 483,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 492,
+          "x": 36,
+          "y": 0
         }
       ]
     },
