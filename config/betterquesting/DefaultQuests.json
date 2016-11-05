@@ -36094,7 +36094,7 @@
     {
       "questID": 481,
       "name": "Creosote Oil",
-      "description": "You burned now a bit wood to charcoal and wonder what you can do with all this Creosote Oil? \nWell you can burn it in the normal furnace for cook your food or you can make even more torches with it. Later in the LV Age you can probably run a Electric Blas Furnace with it or burn it in Diesel Generators to make EU power.",
+      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this Creosote Oil? \nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run Diesel Generators with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36130,7 +36130,7 @@
     {
       "questID": 482,
       "name": "Animal Farms",
-      "description": "Try to get some Leather or get some Wool need a lot of time hunting animals and travel  around. Why not catching some animal make a farm and breed them to get a decent amount of Leather, Wool and Meat?",
+      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and travelling around, or you can just simply make a farm to get a decent amount of Leather, Wool and Meat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36300,7 +36300,7 @@
     {
       "questID": 483,
       "name": "Gardener",
-      "description": "If you wondering why you never get Seeds when you destroy Grass you right. Try to look with your new Mattock on the Grass to find some Seeds and Plants.",
+      "description": "If you wonder: Why I never get Seeds when destroying Grass? You are right. Try to work with your new Mattock on the Grass Blocks that do not have water anywhere nearby to find some Seeds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37298,7 +37298,7 @@
     {
       "questID": 492,
       "name": "Sheep Hairdresser",
-      "description": "Kill a Sheep to get the wool is so ineffective. Why not making some Shears to get even more wool.",
+      "description": "Killing sheep to get the wool is so ineffective. Making some Shears would make sense if you need more wool.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
