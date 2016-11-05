@@ -36380,7 +36380,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
