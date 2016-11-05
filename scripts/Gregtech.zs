@@ -841,11 +841,10 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:ingotObsidian>, null, null]]);
 
 // --- Nether Star Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1506>, [<gregtech:gt.blockores:506>, <minecraft:netherrack>]);
+furnace.addRecipe(<minecraft:nether_star>, <gregtech:gt.blockores:506>);
 
-// --- Basaltic Mineral Sand Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1935>, [<gregtech:gt.blockores:935>, <minecraft:netherrack>]);
-
+// --- Basaltic Mineral Sand Iron
+furnace.addRecipe(<minecraft:iron_ingot>, <gregtech:gt.blockores:935>);
 
 
 
@@ -947,6 +946,9 @@ Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <l
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2865>], 500, 480, 2000);
 // -
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.01:11020>, <gregtech:gt.metaitem.01:2865>], 500, 480, 2000);
+
+// --- Basaltic Mineral Sand
+BlastFurnace.addRecipe([<minecraft:iron_ingot> * 2, <gregtech:gt.metaitem.01:1816>], [<gregtech:gt.blockores:935>, <gregtech:gt.metaitem.01:2823>], 500, 120, 1500);
 
 // --- Canner Recipes ---
 
@@ -1204,6 +1206,12 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:8890>, <TConstruct:GlassBlock>, 1
 //-
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:1890>, <gregtech:gt.metaitem.02:27890>, 10, 16);
 
+// --- Basaltic Mineral Sand
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:5935>, <gregtech:gt.blockores:935>, 10, 16);
+
+// --- Nether Star
+ForgeHammer.addRecipe(<minecraft:nether_star>, <gregtech:gt.blockores:506>, 10, 16);
+
 
 
 
@@ -1375,6 +1383,12 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
 // --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
+
+// --- Basaltic Mineral Sand
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5935> * 2, <gregtech:gt.blockores:935>);
+
+// --- Nether Star
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5506> * 2, <gregtech:gt.blockores:506>);
 
 
 
