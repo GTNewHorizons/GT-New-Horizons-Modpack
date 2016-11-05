@@ -152,6 +152,9 @@ mods.thaumcraft.Research.setComplexity("RESEARCHDUPE", 3);
 
 
 
+// --- Block of Thaumium
+mods.chisel.Groups.addVariation("thaumium", <gregtech:gt.blockmetal7:4>);
+
 
 // --- Autoclave Recipes ---
 
