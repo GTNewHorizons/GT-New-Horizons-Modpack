@@ -314,7 +314,7 @@
     {
       "questID": 5,
       "name": "Tools",
-      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Unless you\u0027d like to continue punching trees with your bare hand...)",
+      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Except you\u0027d like to continue punching trees with your bare hand...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -593,7 +593,7 @@
     {
       "questID": 8,
       "name": "Get that stone",
-      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut too...)",
+      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut to...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4016,6 +4016,34 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17308
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "minecraft:piston",
               "Count": 1,
               "OreDict": "",
@@ -4056,7 +4084,7 @@
         }
       ],
       "preRequisites": [
-        48
+        493
       ]
     },
     {
@@ -37463,6 +37491,95 @@
       ]
     },
     {
+      "questID": 493,
+      "name": "Wire Cutter v.0.2Alpha",
+      "description": "Small Gears needs a Wire Cutter to be made so let\u0027s craft one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 26
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27032
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27032
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -44517,7 +44634,7 @@
         },
         {
           "id": 48,
-          "x": 156,
+          "x": 120,
           "y": 0
         },
         {
@@ -44664,6 +44781,11 @@
           "id": 479,
           "x": 84,
           "y": 180
+        },
+        {
+          "id": 493,
+          "x": 156,
+          "y": 0
         }
       ]
     },
