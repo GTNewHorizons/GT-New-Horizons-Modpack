@@ -37543,7 +37543,7 @@
     {
       "questID": 493,
       "name": "Wire Cutter v.0.2Alpha",
-      "description": "Small Gears needs a Wire Cutter to be made so let\u0027s craft one.",
+      "description": "Small gears require a wire cutter to be made, so let\u0027s craft one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -37632,7 +37632,7 @@
     {
       "questID": 494,
       "name": "Redstone",
-      "description": "If you don\u0027t find any Redstone vein yet it is more important now to look for some. Look at Y Level 5-40.",
+      "description": "If you didnt\u0027t found any Redstone vein, it is quite important to look for some now. Try your luck at Y level 5-40.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37715,8 +37715,8 @@
     },
     {
       "questID": 495,
-      "name": "Oh Shiny",
-      "description": "To make your first Macerator you need two Diamonds, entering the Twilight Forest need one. Find a  Diamond Vein would help you allot. Go and find some at Y Level 5-20.",
+      "name": "Oh Shiny (Not Platinum!)",
+      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and find some at Y Level 5-20.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37817,7 +37817,7 @@
     {
       "questID": 496,
       "name": "How to make rubber",
-      "description": "Making Rubber is now more complicated you need Raw Rubber and Sulfur for craft it. Make The Nether Quest first and find some Sulfur Vein. Found on Y 5-20.",
+      "description": "Making rubber is now more complicated, you need raw rubber and sulfur. Finding a sulfur vein in nether seems like a good idea, isn\u0027t it? Found on Y 5-20.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
