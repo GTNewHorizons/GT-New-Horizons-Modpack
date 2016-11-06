@@ -5158,6 +5158,18 @@
               "Count": 2,
               "OreDict": "",
               "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2000
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1240
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -5452,6 +5464,42 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 60,
+              "OreDict": "",
+              "Damage": 2896
+            },
+            {
+              "id": "IC2:itemDust",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
               "Damage": 17880
@@ -5491,7 +5539,7 @@
         }
       ],
       "preRequisites": [
-        51
+        496
       ]
     },
     {
@@ -5639,7 +5687,8 @@
         }
       ],
       "preRequisites": [
-        67
+        67,
+        69
       ]
     },
     {
@@ -17583,7 +17632,8 @@
         }
       ],
       "preRequisites": [
-        224
+        224,
+        495
       ]
     },
     {
@@ -35742,7 +35792,7 @@
       "questID": 478,
       "name": "Flint and Steel",
       "description": "After you make Steel you are able to craft Flint and Steel. I guess you want to travel to the Nether as soon as possible but be aware The Nether is very dangerous.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -35873,7 +35923,7 @@
       "questID": 479,
       "name": "THE NETHER",
       "description": "Now more dangerous with Extra Hardcore Infernal Mobs. Have fun and take care.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -37577,6 +37627,281 @@
       ],
       "preRequisites": [
         48
+      ]
+    },
+    {
+      "questID": 494,
+      "name": "Redstone",
+      "description": "If you don\u0027t find any Redstone vein yet it is more important now to look for some. Look at Y Level 5-40.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:redstone_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 502
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 826
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32221
+            },
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
+      "questID": 495,
+      "name": "Oh Shiny",
+      "description": "To make your first Macerator you need two Diamonds, entering the Twilight Forest need one. Find a  Diamond Vein would help you allot. Go and find some at Y Level 5-20.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 500
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 865
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 535
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32234
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32232
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPlates",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        49
+      ]
+    },
+    {
+      "questID": 496,
+      "name": "How to make rubber",
+      "description": "Making Rubber is now more complicated you need Raw Rubber and Sulfur for craft it. Make The Nether Quest first and find some Sulfur Vein. Found on Y 5-20.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1022
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1834
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1839
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:peaandhamsoupItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Natura:barleyFood",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        51,
+        479
       ]
     },
     {
@@ -44458,7 +44783,7 @@
         },
         {
           "id": 29,
-          "x": 72,
+          "x": 36,
           "y": 216
         },
         {
@@ -44548,12 +44873,12 @@
         },
         {
           "id": 474,
-          "x": 120,
+          "x": 108,
           "y": 216
         },
         {
           "id": 480,
-          "x": 120,
+          "x": 108,
           "y": 252
         },
         {
@@ -44634,78 +44959,78 @@
         },
         {
           "id": 48,
-          "x": 120,
+          "x": 96,
           "y": 0
         },
         {
           "id": 49,
-          "x": 204,
+          "x": 276,
           "y": 0
         },
         {
           "id": 50,
-          "x": 252,
+          "x": 324,
           "y": 0
         },
         {
           "id": 51,
-          "x": 204,
-          "y": 72
+          "x": 276,
+          "y": 108
         },
         {
           "id": 53,
-          "x": 156,
+          "x": 228,
           "y": 72
         },
         {
           "id": 54,
-          "x": 156,
+          "x": 228,
           "y": 36
         },
         {
           "id": 52,
-          "x": 204,
+          "x": 276,
           "y": 36
         },
         {
           "id": 55,
-          "x": 120,
+          "x": 192,
           "y": 36
         },
         {
           "id": 56,
-          "x": 120,
+          "x": 132,
           "y": 72
         },
         {
           "id": 57,
-          "x": 240,
-          "y": 72
+          "x": 324,
+          "y": 108
         },
         {
           "id": 58,
-          "x": 300,
+          "x": 372,
           "y": 0
         },
         {
           "id": 59,
           "x": 0,
-          "y": 144
+          "y": 156
         },
         {
           "id": 60,
           "x": 0,
-          "y": 180
+          "y": 240
         },
         {
           "id": 61,
-          "x": 36,
-          "y": 180
+          "x": 48,
+          "y": 240
         },
         {
           "id": 62,
           "x": 48,
-          "y": 144
+          "y": 156
         },
         {
           "id": 63,
@@ -44719,73 +45044,88 @@
         },
         {
           "id": 65,
-          "x": 84,
+          "x": 96,
           "y": 108
         },
         {
           "id": 66,
-          "x": 120,
-          "y": 108
+          "x": 132,
+          "y": 156
         },
         {
           "id": 68,
-          "x": 156,
-          "y": 144
+          "x": 132,
+          "y": 204
         },
         {
           "id": 69,
-          "x": 204,
-          "y": 108
+          "x": 228,
+          "y": 156
         },
         {
           "id": 70,
-          "x": 204,
-          "y": 180
+          "x": 276,
+          "y": 240
         },
         {
           "id": 67,
-          "x": 156,
-          "y": 108
+          "x": 228,
+          "y": 204
         },
         {
           "id": 72,
-          "x": 156,
-          "y": 180
+          "x": 96,
+          "y": 240
         },
         {
           "id": 73,
-          "x": 120,
-          "y": 180
+          "x": 96,
+          "y": 156
         },
         {
           "id": 71,
-          "x": 204,
-          "y": 144
+          "x": 276,
+          "y": 204
         },
         {
           "id": 84,
-          "x": 84,
+          "x": 96,
           "y": 36
         },
         {
           "id": 16,
-          "x": 84,
+          "x": 96,
           "y": 72
         },
         {
           "id": 478,
-          "x": 84,
-          "y": 144
+          "x": 132,
+          "y": 108
         },
         {
           "id": 479,
-          "x": 84,
-          "y": 180
+          "x": 192,
+          "y": 108
         },
         {
           "id": 493,
-          "x": 156,
+          "x": 228,
           "y": 0
+        },
+        {
+          "id": 494,
+          "x": 132,
+          "y": 36
+        },
+        {
+          "id": 495,
+          "x": 324,
+          "y": 36
+        },
+        {
+          "id": 496,
+          "x": 228,
+          "y": 108
         }
       ]
     },
