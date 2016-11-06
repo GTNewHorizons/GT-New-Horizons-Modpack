@@ -314,7 +314,7 @@
     {
       "questID": 5,
       "name": "Tools",
-      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Except you\u0027d like to continue punching trees with your bare hand...)",
+      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Unless you\u0027d like to continue punching trees with your bare hand...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -593,7 +593,7 @@
     {
       "questID": 8,
       "name": "Get that stone",
-      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut to...)",
+      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut too...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
