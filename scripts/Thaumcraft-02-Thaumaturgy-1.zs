@@ -15,10 +15,6 @@ import minetweaker.item.IItemStack;
 
 
 
-val CAP_Shadow = <TaintedMagic:ShadowCap>;
-val CAP_Cloth = <TaintedMagic:ClothCap>;
-val CAP_Crimson = <TaintedMagic:CrimsonClothCap>;
-val CAP_ShadowCloth = <TaintedMagic:ShadowClothCap>;
 val CAP_MechanistUC = <ThaumicExploration:mechanistCapUncharged>;
 val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
 val CAP_Soj = <ThaumicExploration:sojournerCap>;
@@ -42,14 +38,10 @@ mods.thaumcraft.Arcane.removeRecipe(pItem);
 // --- Removing Recipes ---
 
 // Add-on Infusion Caps
-remove_TC_Infusion(CAP_Shadow);
 remove_TC_Infusion(CAP_Mechanist);
 remove_TC_Infusion(CAP_Soj);
-  
+
 // Add-on Arcane Bench Caps
-remove_TC_Arcane(CAP_Cloth);
-remove_TC_Arcane(CAP_Crimson);
-remove_TC_Arcane(CAP_ShadowCloth);
 remove_TC_Arcane(CAP_MechanistUC);
 remove_TC_Arcane(CAP_SojUC);
 remove_TC_Arcane(CAP_Thauminite);

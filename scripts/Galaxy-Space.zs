@@ -163,6 +163,18 @@ recipes.remove(<GalaxySpace:metalsblock:9>);
 // --- Future Glass
 recipes.remove(<GalaxySpace:futureglass>);
 
+// --- Advanced Machine Frame
+recipes.remove(<GalaxySpace:machineframes>);
+
+// --- Hybride Solar Panel
+recipes.remove(<GalaxySpace:solarPanel>);
+
+// --- Advanced Energy Cluster
+recipes.remove(<GalaxySpace:storagemoduleT3>);
+
+// --- Advanced Oxygen Module
+recipes.remove(<GalaxySpace:oxstoragemoduleT2>);
+
 
 
 
@@ -342,6 +354,30 @@ recipes.addShaped(<GalaxySpace:metalsblock:9>, [
 [<ore:craftingToolHardHammer>, <ore:compressedCopper>, null],
 [<ore:compressedCopper>, <ore:stone>, <ore:compressedCopper>],
 [null, <ore:compressedCopper>, <ore:craftingToolWrench>]]);
+
+// --- Advanced Machine Frame
+recipes.addShaped(<GalaxySpace:machineframes>, [
+[<GalaxySpace:item.CompressedPlates:5>, <dreamcraft:item.WaferTier3>, <GalaxySpace:item.CompressedPlates:5>],
+[<GalacticraftCore:tile.aluminumWire:1>, <gregtech:gt.blockcasings4>, <GalacticraftCore:tile.aluminumWire:1>],
+[<GalaxySpace:item.CompressedPlates:5>, <dreamcraft:item.WaferTier3>, <GalaxySpace:item.CompressedPlates:5>]]);
+
+// --- Hybride Solar Panel
+recipes.addShaped(<GalaxySpace:solarPanel>, [
+[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftCore:item.basicItem:1>, <GalaxySpace:item.CompressedPlates:2>],
+[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.aluminumWire:1>],
+[<gregtech:gt.metaitem.01:32601>, <dreamcraft:item.WaferTier3>, <gregtech:gt.metaitem.01:32691>]]);
+
+// --- Advanced Energy Cluster
+recipes.addShaped(<GalaxySpace:storagemoduleT3>, [
+[<GalaxySpace:item.CompressedPlates:9>, <GalacticraftCore:tile.machineTiered:8>, <GalaxySpace:item.CompressedPlates:9>],
+[<dreamcraft:item.WaferTier3>, <GalaxySpace:machineframes>, <dreamcraft:item.WaferTier3>],
+[<GalaxySpace:item.CompressedPlates:9>, <GalacticraftCore:tile.machineTiered:8>, <GalaxySpace:item.CompressedPlates:9>]]);
+
+// --- Advanced Oxygen Module
+recipes.addShaped(<GalaxySpace:oxstoragemoduleT2>, [
+[<GalacticraftCore:tile.machine2:8>, <GalacticraftCore:item.oxygenConcentrator>, <GalacticraftCore:tile.machine2:8>],
+[<GalacticraftCore:tile.oxygenPipe>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.oxygenPipe>],
+[<GalacticraftCore:tile.machine2:8>, <dreamcraft:item.WaferTier3>, <GalacticraftCore:tile.machine2:8>]]);
 
 // --- Rocket Tier 4
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,[

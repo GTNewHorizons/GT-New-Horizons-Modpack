@@ -697,12 +697,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
 // --- HSLA Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
 
-// --- Redstone Alloy Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
-
-// --- Soularium Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
-
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
@@ -714,9 +708,6 @@ mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
 
 // --- Infernal Block
 recipes.remove(<Railcraft:brick.infernal:2>);
-
-// --- Electrical Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
 
 // --- Lapatron Upgrade
 recipes.remove(<Railcraft:upgrade.lapotron>);
