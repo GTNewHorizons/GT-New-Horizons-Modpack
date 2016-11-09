@@ -102,5 +102,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Shadow, GT_ModHandler.getModItem("TaintedMagic", "BlockShadowmetal", 1L, 0));
     }
 }
