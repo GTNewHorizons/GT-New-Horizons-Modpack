@@ -20,6 +20,24 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
 
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PsP", 'P', OrePrefixes.wireGt02.get(Materials.Cupronickel)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L, new Object[0]), 100, 8);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Kanthal)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Kanthal, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Copper.getMolten(144L), ItemList.Casing_Coil_Kanthal.get(1L, new Object[0]), 100, 24);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Nichrome)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Nichrome, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Aluminium.getMolten(144L), ItemList.Casing_Coil_Nichrome.get(1L, new Object[0]), 100, 120);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.TungstenSteel)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.TungstenSteel, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Nichrome.getMolten(144L), ItemList.Casing_Coil_TungstenSteel.get(1L, new Object[0]), 100, 500);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.HSSG)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.HSSG, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Tungsten.getMolten(144L), ItemList.Casing_Coil_HSSG.get(1L, new Object[0]), 100, 2000);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Naquadah)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Naquadah, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.TungstenSteel.getMolten(144L), ItemList.Casing_Coil_Naquadah.get(1L, new Object[0]), 100, 4000);
+        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.NaquadahAlloy)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.NaquadahAlloy, 8L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Mica, 8L), Materials.Naquadah.getMolten(144L), ItemList.Casing_Coil_NaquadahAlloy.get(1L, new Object[0]), 100, 8000);
+        //GT_ModHandler.addCraftingRecipe(, bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Superconductor)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Superconductor, 8L), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumNitride, 8L), Materials.Trinium.getMolten(144L), ItemList.Casing_Coil_Superconductor.get(1L, new Object[0]), 100, 9001);
+
+
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 3L), ItemList.Circuit_Integrated.getWithDamage(0L, 3L, new Object[0]), CustomItemList.SteelBars.get(4L, new Object[0]), 400, 48);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Aluminium, 3L), ItemList.Circuit_Integrated.getWithDamage(0L, 3L, new Object[0]), CustomItemList.AluminiumBars.get(4L, new Object[0]), 400, 64);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.stick, Materials.StainlessSteel, 3L), ItemList.Circuit_Integrated.getWithDamage(0L, 3L, new Object[0]), CustomItemList.StainlessSteelBars.get(4L, new Object[0]), 400, 96);
