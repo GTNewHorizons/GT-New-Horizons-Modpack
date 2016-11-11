@@ -13,7 +13,7 @@ public class GT_Loader_Materials {
 
 	private void registerMaterialRecipes()
 	{
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.NaquadahAlloy, 4L),
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.NaquadahAlloy, 15L),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
 			OrePrefixes.dust.get(Materials.Naquadah),
 			OrePrefixes.dust.get(Materials.Naquadah),
