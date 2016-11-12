@@ -31,7 +31,7 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.BlueSteel),
 			OrePrefixes.dust.get(Materials.NaquadahAlloy)});
 
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Duralumin, 30L),
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Duralumin, 8L),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
 						OrePrefixes.dust.get(Materials.Aluminium),
 						OrePrefixes.dust.get(Materials.Aluminium),
