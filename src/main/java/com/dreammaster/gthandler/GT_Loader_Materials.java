@@ -19,10 +19,10 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.Naquadah),
 			OrePrefixes.dust.get(Materials.Carbon),
 			OrePrefixes.dust.get(Materials.Trinium)});
-		
+
 		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.ElectrumFlux, 4L),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] { 
-			OrePrefixes.dust.get(Materials.RoseGold), 
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
+			OrePrefixes.dust.get(Materials.RoseGold),
 			OrePrefixes.dust.get(Materials.InfusedGold),
 			OrePrefixes.dust.get(Materials.AstralSilver),
 			OrePrefixes.dust.get(Materials.SterlingSilver),
@@ -30,5 +30,17 @@ public class GT_Loader_Materials {
 			OrePrefixes.dust.get(Materials.RedSteel),
 			OrePrefixes.dust.get(Materials.BlueSteel),
 			OrePrefixes.dust.get(Materials.NaquadahAlloy)});
+
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Duralumin, 30L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.Aluminium),
+						OrePrefixes.dust.get(Materials.AnyCopper),
+						OrePrefixes.dust.get(Materials.Manganese),
+						OrePrefixes.dust.get(Materials.Magnesium)});
 	}
 }
