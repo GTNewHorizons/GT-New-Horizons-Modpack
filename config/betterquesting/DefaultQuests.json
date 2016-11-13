@@ -6408,7 +6408,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.",
+      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
