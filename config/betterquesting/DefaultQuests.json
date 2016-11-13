@@ -2728,7 +2728,7 @@
     {
       "questID": 36,
       "name": "Important tools",
-      "description": "In order to craft even the basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should make yourself familiar with each of their recipes, as you will need a lot of these tools, starting from today.",
+      "description": "In order to craft even the basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should make yourself familiar with each of their recipes, as you will need a lot of these tools, starting from today.\n\nAlso your new tools can be used to make Railcraft water tanks, a quite useful thing considering the finite water feature.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6801,7 +6801,7 @@
     {
       "questID": 81,
       "name": "At the end of...",
-      "description": "...universe everything freezes eventually. But waiting for the heat death of universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool of your hot stuff.",
+      "description": "...universe everything freezes eventually. But waiting for the heat death of universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
