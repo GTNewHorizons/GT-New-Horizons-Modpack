@@ -9,6 +9,10 @@ import net.minecraft.item.ItemStack;
 
 public enum ItemList
 {
+    MicaBasedPulp(new ModSimpleBaseItem("MicaBasedPulp", ModTabList.ModGenericTab)),
+    MicaBasedSheet(new ModSimpleBaseItem("MicaBasedSheet", ModTabList.ModGenericTab)),
+    MicaInsulatorSheet(new ModSimpleBaseItem("MicaInsulatorSheet", ModTabList.ModGenericTab)),
+    MicaInsulatorFoil(new ModSimpleBaseItem("MicaInsulatorFoil", ModTabList.ModGenericTab)),
     TenKCell(new ModSimpleBaseItem("TenKCell", ModTabList.ModGenericTab)),
     ThirtyKCell(new ModSimpleBaseItem("ThirtyKCell", ModTabList.ModGenericTab)),
     SixtyKCell(new ModSimpleBaseItem("SixtyKCell", ModTabList.ModGenericTab)),
