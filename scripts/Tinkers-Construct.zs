@@ -129,8 +129,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
 
 // --- Block of Aluminium
 recipes.remove(<TConstruct:MetalBlock:6>);
-// -
-mods.tconstruct.Casting.removeBasinRecipe(<GalacticraftCore:tile.gcBlockCore:11>);
 
 // --- Block of Aluminium Brass
 recipes.remove(<TConstruct:MetalBlock:7>);
@@ -230,8 +228,6 @@ mods.tconstruct.Smeltery.removeMelting(<ore:nuggetManyullyn>);
 mods.tconstruct.Smeltery.removeMelting(<ore:blockManyullyn>);
 
 // --- Alumium Ingot
-mods.tconstruct.Casting.removeTableRecipe(<GalacticraftCore:item.basicItem:5>);
-// -
 recipes.remove(<TConstruct:materials:11>);
 
 // --- Steel Ingot
@@ -288,24 +284,6 @@ mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:2>);
 // --- Refined Iron Ingot
 mods.tconstruct.Casting.removeTableRecipe(<IC2:itemIngot:3>);
 
-// --- Cobalt Ingot
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11033>);
-
-// --- Cobalt Nugget
-//mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9382>);
-
-// --- Ardite Ingot
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11382>);
-
-// --- Ardite Nugget
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9382>);
-
-// --- Manyullyn Ingot
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:11386>);
-
-// --- Manyullyn Nugget
-mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.01:9386>);
-
 // --- Chain Helmet
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
 
@@ -317,9 +295,6 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_leggings>);
 
 // --- Chain Boots
 mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
-
-// --- Steel Ingot
-//mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
 
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
@@ -815,9 +790,6 @@ furnace.remove(<TConstruct:materials:11>);
 
 // --- Iron Nugget
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget>);
-
-// --- Steel Nugget
-mods.tconstruct.Casting.removeTableRecipe(<Railcraft:nugget:1>);
 
 // --- Tin Nugget
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
