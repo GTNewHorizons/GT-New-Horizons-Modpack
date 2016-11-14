@@ -23,9 +23,6 @@ recipes.remove(<OpenComputers:case2>);
 // --- Computer Case Tier 3
 recipes.remove(<OpenComputers:case3>);
 
-// --- Server Rack
-recipes.remove(<OpenComputers:serverRack>);
-
 
 
 
