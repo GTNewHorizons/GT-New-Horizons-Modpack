@@ -131,8 +131,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
 recipes.remove(<TConstruct:MetalBlock:6>);
 // -
 mods.tconstruct.Casting.removeBasinRecipe(<ore:blockAluminum>);
-// -
-mods.tconstruct.Casting.removeBasinRecipe(<ore:blockAluminium>);
 
 // --- Block of Aluminium Brass
 recipes.remove(<TConstruct:MetalBlock:7>);
