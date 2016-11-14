@@ -129,6 +129,10 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:1>);
 
 // --- Block of Aluminium
 recipes.remove(<TConstruct:MetalBlock:6>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<ore:blockAluminum>);
+// -
+mods.tconstruct.Casting.removeBasinRecipe(<ore:blockAluminium>);
 
 // --- Block of Aluminium Brass
 recipes.remove(<TConstruct:MetalBlock:7>);
@@ -233,6 +237,9 @@ recipes.remove(<TConstruct:materials:11>);
 // --- Steel Ingot
 mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
 
+// --- Steel Nuggets
+mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetSteel>);
+
 // --- Steel Dust
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2305>);
 
@@ -298,9 +305,13 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
 
 // --- Cobalt Ingot
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
 
 // --- Cobalt Block
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
@@ -542,9 +553,13 @@ recipes.remove(<TConstruct:materials:28>);
 
 // --- Ardite Nuggets
 recipes.remove(<TConstruct:materials:29>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetArdite>);
 
 // --- Manyullyn Nuggets
 recipes.remove(<TConstruct:materials:30>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetManyullyn>);
 
 
 // --- Stained Glass Pane ---
@@ -736,11 +751,15 @@ furnace.remove(<TConstruct:materials:3>);
 recipes.remove(<TConstruct:materials:4>);
 // -
 furnace.remove(<TConstruct:materials:4>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:ingotArdite>);
 
 // --- Manyullyn Ingot
 recipes.remove(<TConstruct:materials:5>);
 // -
 furnace.remove(<TConstruct:materials:5>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<ore:ingotManyullyn>);
 
 // --- Alluminium Brass Ingot
 recipes.remove(<TConstruct:materials:14>);
@@ -787,6 +806,11 @@ recipes.remove(<TConstruct:Redstone.Landmine:3>);
 
 // --- Aluminium Ingot
 furnace.remove(<TConstruct:materials:11>);
+// -
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:11>);
+
+// --- Aluminium Nugget
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:22>);
 
 // --- Iron Nugget
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget>);
