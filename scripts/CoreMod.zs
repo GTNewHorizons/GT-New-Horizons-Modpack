@@ -949,8 +949,6 @@ Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 // --- Advanced Coke Oven Bricks
 BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
 
-// --- Infernal Netherrack Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:lava> * 1000, [<minecraft:netherbrick> * 4, <BiomesOPlenty:flowers2:2>], 1200, 120, 1800); 
 
 
 
