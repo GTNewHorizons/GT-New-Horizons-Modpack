@@ -321,8 +321,11 @@ public class GT_Loader_Items
 		CustomItemList.CoinDarkWizard.set(ItemList.CoinDarkWizard.getIS());
 		CustomItemList.CoinTechnician.set(ItemList.CoinTechnician.getIS());
 		CustomItemList.CoinChunkloaderTierI.set(ItemList.CoinChunkloaderTierI.getIS());
+			CustomItemList.CoinChunkloaderTierI.getItem().setMaxStackSize(4);
 		CustomItemList.CoinChunkloaderTierII.set(ItemList.CoinChunkloaderTierII.getIS());
+			CustomItemList.CoinChunkloaderTierII.getItem().setMaxStackSize(4);
 		CustomItemList.CoinChunkloaderTierIII.set(ItemList.CoinChunkloaderTierIII.getIS());
+			CustomItemList.CoinChunkloaderTierIII.getItem().setMaxStackSize(4);
 		CustomItemList.WetTofu.set(ItemList.WetTofu.getIS());
 		CustomItemList.NetherStarFragment.set(ItemList.NetherStarFragment.getIS());
 		CustomItemList.WeakOrb.set(ItemList.WeakOrb.getIS());
