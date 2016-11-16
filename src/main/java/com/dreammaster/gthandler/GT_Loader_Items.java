@@ -445,6 +445,7 @@ public class GT_Loader_Items
         CustomItemList.MicaBasedSheet.set(ItemList.MicaBasedSheet.getIS());
 		CustomItemList.MicaInsulatorSheet.set(ItemList.MicaInsulatorSheet.getIS());
 		CustomItemList.MicaInsulatorFoil.set(ItemList.MicaInsulatorFoil.getIS());
+		CustomItemList.HotNetherrackBrick.set(ItemList.HotNetherrackBrick.getIS());
 	}
 
 }

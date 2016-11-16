@@ -117,7 +117,8 @@ public enum CustomItemList implements IItemContainer
 	MysteriousCrystalDust, TCetiEStoneDust, MirandaStoneDust, WaferTier3,
 	IndustryFrame,
 	AdsorptionFilterCasing, AdsorptionFilter, AdsorptionFilterDirty,
-	VoidSeed,MicaBasedPulp,MicaBasedSheet,MicaInsulatorSheet,MicaInsulatorFoil;
+	VoidSeed,MicaBasedPulp,MicaBasedSheet,MicaInsulatorSheet,MicaInsulatorFoil,
+	HotNetherrackBrick;
 
 
 	private ItemStack mStack = null;
