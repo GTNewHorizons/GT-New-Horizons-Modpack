@@ -942,17 +942,6 @@ Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 
 
 
-// --- Blast Furnace Recipes ---
-
-
-
-// --- Advanced Coke Oven Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
-
-
-
-
-
 // --- Brewing Recipes ---
 
 
@@ -960,16 +949,6 @@ BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
 // -
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
-
-
-
-// --- Chemical Bath Recipes ---
-
-
-
-// --- Infernal Bricks
-ChemicalBath.addRecipe([<dreamcraft:item.InfernalBrick> * 4], <dreamcraft:item.HotNetherrackBrick> * 4, <liquid:hell_blood> * 1000, [10000], 100, 30);
-
 
 
 
