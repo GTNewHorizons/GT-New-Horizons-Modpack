@@ -501,7 +501,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addCentrifugeRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.BlackPlutonium, 1L), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{5000, 2000, 1000}, 1200, 1920);
 
-        GT_Values.RA.addChemicalBathRecipe(CustomItemList.InfernalBrick.get(4L, new Object[0]), new FluidStack(FluidRegistry.getFluid("hell_blood"), 1000), CustomItemList.HotNetherrackBrick.get(4L, new Object[0]), GT_Values.NI, GT_Values.NI, null, 200, 30);
+        GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L, new Object[0]), new FluidStack(FluidRegistry.getFluid("hell_blood"), 500), CustomItemList.InfernalBrick.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, null, 200, 30);
 
         GT_Values.RA.addDistillationTowerRecipe(new FluidStack(FluidRegistry.getFluid("pollution"), 1600), new FluidStack[]{Materials.SulfuricAcid.getFluid(50L), Materials.NitrogenDioxide.getGas(50L), Materials.Methane.getGas(50L), Materials.Mercury.getFluid(1L)}, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Ash, 1L), 600, 1920);
 
