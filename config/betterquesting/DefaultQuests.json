@@ -9872,12 +9872,15 @@
               "Damage": 4
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "IC2:itemFluidCell",
               "Count": 8,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "orig_id:8": "Forestry:canOil"
+                "Fluid:10": {
+                  "FluidName:8": "oil",
+                  "Amount:4": 1000
+                }
               }
             }
           ],
