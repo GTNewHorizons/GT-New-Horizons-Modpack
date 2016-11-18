@@ -861,7 +861,7 @@ Assembler.addRecipe(<dreamcraft:item.LightBinding>, <GalacticraftMars:item.itemB
 Assembler.addRecipe(<dreamcraft:item.BioOrganicMesh>, <dreamcraft:item.RawBioFiber> * 2, <gregtech:gt.integrated_circuit:2> * 0, 800, 2);
 
 // --- Bio Chunk
-Assembler.addRecipe(<dreamcraft:item.BioChunk>, <dreamcraft:tile.Charcoal>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
+Assembler.addRecipe(<dreamcraft:item.BioChunk>, <gregtech:gt.blockgem3:4>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
 
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
@@ -983,11 +983,8 @@ Compressor.addRecipe(<dreamcraft:tile.BlackPlutonium>, <gregtech:gt.metaitem.01:
 // --- Block of Mytryl
 Compressor.addRecipe(<dreamcraft:tile.Mytryl>, <dreamcraft:item.MytrylIngot> * 9);
 
-// --- Compressed Block of Charcoal
-Compressor.addRecipe(<dreamcraft:tile.Charcoal>, <minecraft:coal:1> * 9);
-
 // --- Compressed Charcoal Block
-Compressor.addRecipe(<dreamcraft:tile.CompressedCharcoal>, <dreamcraft:tile.Charcoal> * 9);
+Compressor.addRecipe(<dreamcraft:tile.CompressedCharcoal>, <gregtech:gt.blockgem3:4> * 9);
 
 // --- Compressed Coal Block
 Compressor.addRecipe(<dreamcraft:tile.CompressedCoal>, <minecraft:coal_block> * 9);
@@ -1659,25 +1656,6 @@ VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHo
 
 // --- Electrotine Wire
 Wiremill.addRecipe(<dreamcraft:item.ElectrotineWire> * 2, <ProjRed|Core:projectred.core.part:55>, 100, 4);
-
-
-
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Block of Charcoal
-mods.thaumcraft.Aspects.set(<dreamcraft:tile.Charcoal>, "ignis 13, potentia 13");
-
-
-
-
-// --- Oredict Stuff ---
-
-
-
-// --- Blocl of Charcoal
-oreDict.blockCharcoal.add(<dreamcraft:tile.Charcoal>);
-
 
 
 
