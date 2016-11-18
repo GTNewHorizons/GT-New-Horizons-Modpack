@@ -106,5 +106,22 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Shadow, GT_ModHandler.getModItem("TaintedMagic", "BlockShadowmetal", 1L, 0));
 
         GT_OreDictUnificator.set(OrePrefixes.ingot, Materials.Shadow, GT_ModHandler.getModItem("TaintedMagic", "ItemMaterial", 1L, 0));
+
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "tree", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "tree", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "tree", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "tree", 1L, 3));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "redwood", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "redwood", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "redwood", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "willow", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "bloodwood", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "bloodwood", 1L, 15));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Dark Tree", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Dark Tree", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 3));
     }
 }
