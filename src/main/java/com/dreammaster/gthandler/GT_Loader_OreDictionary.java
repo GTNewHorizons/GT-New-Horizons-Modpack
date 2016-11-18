@@ -123,5 +123,47 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 1));
         GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 2));
         GT_OreDictUnificator.set(OrePrefixes.log, Materials.Wood, GT_ModHandler.getModItem("Natura", "Rare Tree", 1L, 3));
+
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 3));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 4));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 5));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 6));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 7));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 8));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 9));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 10));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 11));
+        GT_OreDictUnificator.set(OrePrefixes.plank, Materials.Wood, GT_ModHandler.getModItem("Natura", "planks", 1L, 12));
+
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 3));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 4));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 5));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 6));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 7));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 8));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 9));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 10));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 11));
+        GT_OreDictUnificator.set(OrePrefixes.stick, Materials.Wood, GT_ModHandler.getModItem("Natura", "stick", 1L, 12));
+
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 3));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 4));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 5));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 6));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab1", 1L, 7));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab2", 1L, 0));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab2", 1L, 1));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab2", 1L, 2));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab2", 1L, 3));
+        GT_OreDictUnificator.set(OrePrefixes.slab, Materials.Wood, GT_ModHandler.getModItem("Natura", "plankSlab2", 1L, 4));
     }
 }
