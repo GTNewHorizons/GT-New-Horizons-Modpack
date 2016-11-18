@@ -2245,6 +2245,54 @@ recipes.addShapeless(<TConstruct:GlassBlock>, [<ExtraUtilities:decorativeBlock2>
 // --- Seared Bricks Nether
 furnace.addRecipe(<TConstruct:materials:37>, <dreamcraft:item.UnfiredSlimeSoulBrick>);
 
+// --- Bronze Helmet
+mods.tconstruct.Casting.addTableRecipe(<IC2:itemArmorBronzeHelmet>, <liquid:bronze.molten> * 720, <dreamcraft:item.MoldHelmet>, false, 500);
+
+// --- Bronze Chestplate
+mods.tconstruct.Casting.addTableRecipe(<IC2:itemArmorBronzeChestplate>, <liquid:bronze.molten> * 1152, <dreamcraft:item.MoldChestplate>, false, 800);
+
+// --- Bronze Leggins
+mods.tconstruct.Casting.addTableRecipe(<IC2:itemArmorBronzeLegs>, <liquid:bronze.molten> * 1008, <dreamcraft:item.MoldLeggings>, false, 700);
+
+// --- Bronze Boots
+mods.tconstruct.Casting.addTableRecipe(<IC2:itemArmorBronzeBoots>, <liquid:bronze.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
+
+// --- Steel Helmet
+mods.tconstruct.Casting.addTableRecipe(<Railcraft:armor.steel.helmet>, <liquid:steel.molten> * 720, <dreamcraft:item.MoldHelmet>, false, 500);
+
+// --- Steel Chestplate
+mods.tconstruct.Casting.addTableRecipe(<Railcraft:armor.steel.plate>, <liquid:steel.molten> * 1152, <dreamcraft:item.MoldChestplate>, false, 800);
+
+// --- Steel Leggins
+mods.tconstruct.Casting.addTableRecipe(<Railcraft:armor.steel.legs>, <liquid:steel.molten> * 1008, <dreamcraft:item.MoldLeggings>, false, 700);
+
+// --- Steel Boots
+mods.tconstruct.Casting.addTableRecipe(<Railcraft:armor.steel.boots>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
+
+// --- Iron Helmet
+mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_helmet>, <liquid:iron.molten> * 720, <dreamcraft:item.MoldHelmet>, false, 500);
+
+// --- Iron Chestplate
+mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_chestplate>, <liquid:iron.molten> * 1152, <dreamcraft:item.MoldChestplate>, false, 800);
+
+// --- Iron Leggins
+mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_leggings>, <liquid:iron.molten> * 1008, <dreamcraft:item.MoldLeggings>, false, 700);
+
+// --- Iron Boots
+mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_boots>, <liquid:iron.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
+
+// --- Gold Helmet
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_helmet>, <liquid:gold.molten> * 720, <dreamcraft:item.MoldHelmet>, false, 500);
+
+// --- Gold Chestplate
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_chestplate>, <liquid:gold.molten> * 1152, <dreamcraft:item.MoldChestplate>, false, 800);
+
+// --- Gold Leggins
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_leggings>, <liquid:gold.molten> * 1008, <dreamcraft:item.MoldLeggings>, false, 700);
+
+// --- Gold Boots
+mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_boots>, <liquid:gold.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
+
 
 
 

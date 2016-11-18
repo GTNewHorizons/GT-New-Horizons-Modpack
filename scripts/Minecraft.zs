@@ -2722,6 +2722,29 @@ AlloySmelter.addRecipe(<minecraft:netherbrick>, <gregtech:gt.metaitem.01:2807>, 
 // --- Glass
 AlloySmelter.addRecipe(<minecraft:glass>, <BloodArsenal:glass_shard> * 2, <gregtech:gt.metaitem.01:32308> * 0, 5, 64);
 
+// --- Iron Helmet
+AlloySmelter.addRecipe(<minecraft:iron_helmet>, <minecraft:iron_ingot> * 5, <dreamcraft:item.MoldHelmet> * 0, 200, 30);
+
+// --- Iron Chestplate
+AlloySmelter.addRecipe(<minecraft:iron_chestplate>, <minecraft:iron_ingot> * 8, <dreamcraft:item.MoldChestplate> * 0, 200, 30);
+
+// --- Iron Leggins
+AlloySmelter.addRecipe(<minecraft:iron_leggings>, <minecraft:iron_ingot> * 7, <dreamcraft:item.MoldLeggings> * 0, 200, 30);
+
+// --- Iron Boots
+AlloySmelter.addRecipe(<minecraft:iron_boots>, <minecraft:iron_ingot> * 4, <dreamcraft:item.MoldBoots> * 0, 200, 30);
+
+// --- Gold Helmet
+AlloySmelter.addRecipe(<minecraft:golden_helmet>, <minecraft:gold_ingot> * 5, <dreamcraft:item.MoldHelmet> * 0, 200, 30);
+
+// --- Gold Chestplate
+AlloySmelter.addRecipe(<minecraft:golden_chestplate>, <minecraft:gold_ingot> * 8, <dreamcraft:item.MoldChestplate> * 0, 200, 30);
+
+// --- Gold Leggins
+AlloySmelter.addRecipe(<minecraft:golden_leggings>, <minecraft:gold_ingot> * 7, <dreamcraft:item.MoldLeggings> * 0, 200, 30);
+
+// --- Gold Boots
+AlloySmelter.addRecipe(<minecraft:golden_boots>, <minecraft:gold_ingot> * 4, <dreamcraft:item.MoldBoots> * 0, 200, 30);
 
 
 

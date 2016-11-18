@@ -1734,6 +1734,17 @@ furnace.setFuel(<Railcraft:fluid.creosote.bucket>, 6400);
 // --- Block of Concrete
 AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
 
+// --- Steel Helmet
+AlloySmelter.addRecipe(<Railcraft:armor.steel.helmet>, <gregtech:gt.metaitem.01:11305> * 5, <dreamcraft:item.MoldHelmet> * 0, 600, 30);
+
+// --- Steel Chestplate
+AlloySmelter.addRecipe(<Railcraft:armor.steel.plate>, <gregtech:gt.metaitem.01:11305> * 8, <dreamcraft:item.MoldChestplate> * 0, 600, 30);
+
+// --- Steel Leggings
+AlloySmelter.addRecipe(<Railcraft:armor.steel.legs>, <gregtech:gt.metaitem.01:11305> * 7, <dreamcraft:item.MoldLeggings> * 0, 600, 30);
+
+// --- Steel Boots
+AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:11305> * 4, <dreamcraft:item.MoldBoots> * 0, 600, 30);
 
 
 
