@@ -38,6 +38,60 @@ recipes.removeShaped(Leather, [
 [ImpLeather, ImpLeather],
 [ImpLeather, ImpLeather]]);
 
+// --- Planks
+recipes.removeShaped(<Natura:planks>);
+// -
+recipes.removeShaped(<Natura:planks:1>);
+// -
+recipes.removeShaped(<Natura:planks:2>);
+// -
+recipes.removeShaped(<Natura:planks:3>);
+// -
+recipes.removeShaped(<Natura:planks:4>);
+// -
+recipes.removeShaped(<Natura:planks:5>);
+// -
+recipes.removeShaped(<Natura:planks:6>);
+// -
+recipes.removeShaped(<Natura:planks:7>);
+// -
+recipes.removeShaped(<Natura:planks:8>);
+// -
+recipes.removeShaped(<Natura:planks:9>);
+// -
+recipes.removeShaped(<Natura:planks:10>);
+// -
+recipes.removeShaped(<Natura:planks:11>);
+// -
+recipes.removeShaped(<Natura:planks:12>);
+
+// --- Sticks
+recipes.removeShapeless(<Natura:natura.stick> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:1> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:2> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:3> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:4> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:5> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:6> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:7> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:8> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:9> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:10> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:11> * 4, [<ore:plankWood>, <ore:plankWood>]);
+// -
+recipes.removeShapeless(<Natura:natura.stick:12> * 4, [<ore:plankWood>, <ore:plankWood>]);
+
 // ---  Crafting Tables
 recipes.remove(<Natura:Natura.workbench:*>);
 
@@ -46,6 +100,11 @@ recipes.remove(<Natura:Natura.bookshelf:*>);
 
 // --- Fence
 recipes.remove(<Natura:Natura.fence:*>);
+
+// --- Slab
+recipes.remove(<Natura:plankSlab1:*>);
+// -
+recipes.remove(<Natura:plankSlab2:*>);
 
 // --- Eucalyptus Pressure Plates
 recipes.remove(<Natura:pressureplate.eucalyptus>);
@@ -144,6 +203,17 @@ recipes.addShaped(Leather, [
 [String, String, String]]);
 
 // --- Eucalyptus Wood
+recipes.addShapeless(<Natura:planks> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:tree>]);
+// -
+recipes.addShapeless(<Natura:planks> * 2, [<Natura:tree>]);
+// -
+recipes.addShapeless(<Natura:natura.stick> * 2, [<Natura:planks>, <Natura:planks>]);
+// -
+recipes.addShaped(<Natura:natura.stick> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks>, null, null],
+[<Natura:planks>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench>,
 [Flint, Flint, <Natura:tree>, <Natura:tree>]);
 // -
@@ -161,6 +231,8 @@ recipes.addShaped(<Natura:Natura.fence> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick>, <Natura:planks>, <Natura:natura.stick>],
 [<Natura:natura.stick>, <Natura:planks>, <Natura:natura.stick>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1> * 2, [[Saw, <Natura:planks>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.eucalyptus>, [
 [Flint, null, Flint],
@@ -197,6 +269,17 @@ recipes.addShaped(<Natura:trapdoor.eucalyptus> * 3, [
 recipes.addShaped(<Natura:button.eucalyptus> * 2, [[Saw, <Natura:pressureplate.eucalyptus>, null]]);
 
 // --- Sukura Wood
+recipes.addShapeless(<Natura:planks:1> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:tree:1>]);
+// -
+recipes.addShapeless(<Natura:planks:1> * 2, [<Natura:tree:1>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:1> * 2, [<Natura:planks:1>, <Natura:planks:1>]);
+// -
+recipes.addShaped(<Natura:natura.stick:1> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:1>, null, null],
+[<Natura:planks:1>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:1>,
 [Flint, Flint, <Natura:tree:1>, <Natura:tree:1>]);
 // -
@@ -214,6 +297,8 @@ recipes.addShaped(<Natura:Natura.fence:1> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:1>, <Natura:planks:1>, <Natura:natura.stick:1>],
 [<Natura:natura.stick:1>, <Natura:planks:1>, <Natura:natura.stick:1>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:1> * 2, [[Saw, <Natura:planks:1>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.sakura>, [
 [Flint, null, Flint],
@@ -255,6 +340,17 @@ recipes.addShaped(<Natura:trapdoor.sakura> * 3, [
 recipes.addShaped(<Natura:button.sakura> * 2, [[Saw, <Natura:pressureplate.sakura>, null]]);
 
 // --- Ghost Wood
+recipes.addShapeless(<Natura:planks:2> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:tree:2>]);
+// -
+recipes.addShapeless(<Natura:planks:2> * 2, [<Natura:tree:2>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:2> * 2, [<Natura:planks:2>, <Natura:planks:2>]);
+// -
+recipes.addShaped(<Natura:natura.stick:2> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:2>, null, null],
+[<Natura:planks:2>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:2>,
 [Flint, Flint, <Natura:tree:2>, <Natura:tree:2>]);
 // -
@@ -272,6 +368,8 @@ recipes.addShaped(<Natura:Natura.fence:2> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:2>, <Natura:planks:2>, <Natura:natura.stick:2>],
 [<Natura:natura.stick:2>, <Natura:planks:2>, <Natura:natura.stick:2>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:2> * 2, [[Saw, <Natura:planks:2>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.ghostwood>, [
 [Flint, null, Flint],
@@ -313,6 +411,17 @@ recipes.addShaped(<Natura:trapdoor.ghostwood> * 3, [
 recipes.addShaped(<Natura:button.ghostwood> * 2, [[Saw, <Natura:pressureplate.ghostwood>, null]]);
 
 // --- Red Wood
+recipes.addShapeless(<Natura:planks:3> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:redwood:1>]);
+// -
+recipes.addShapeless(<Natura:planks:3> * 2, [<Natura:redwood:1>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:3> * 2, [<Natura:planks:3>, <Natura:planks:3>]);
+// -
+recipes.addShaped(<Natura:natura.stick:3> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:3>, null, null],
+[<Natura:planks:3>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:3>,
 [Flint, Flint, <Natura:redwood:1>, <Natura:redwood:1>]);
 // -
@@ -330,6 +439,8 @@ recipes.addShaped(<Natura:Natura.fence:3> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:3>, <Natura:planks:3>, <Natura:natura.stick:3>],
 [<Natura:natura.stick:3>, <Natura:planks:3>, <Natura:natura.stick:3>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:3> * 2, [[Saw, <Natura:planks:3>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.redwood>, [
 [Flint, null, Flint],
@@ -371,6 +482,23 @@ recipes.addShaped(<Natura:trapdoor.redwood> * 3, [
 recipes.addShaped(<Natura:button.redwood> * 2, [[Saw, <Natura:pressureplate.redwood>, null]]);
 
 // --- Blood Wood
+recipes.addShapeless(<Natura:planks:4> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:bloodwood>]);
+// -
+recipes.addShapeless(<Natura:planks:4> * 2, [<Natura:bloodwood>]);
+// -
+recipes.addShapeless(<Natura:planks:4> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:bloodwood:15>]);
+// -
+recipes.addShapeless(<Natura:planks:4> * 2, [<Natura:bloodwood:15>]);
+// -
+recipes.addShapeless(<Natura:planks:4> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:bloodwood:1>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:4> * 2, [<Natura:planks:4>, <Natura:planks:4>]);
+// -
+recipes.addShaped(<Natura:natura.stick:4> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:4>, null, null],
+[<Natura:planks:4>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:4>,
 [Flint, Flint, <Natura:bloodwood>, <Natura:bloodwood>]);
 // -
@@ -392,6 +520,8 @@ recipes.addShaped(<Natura:Natura.fence:4> * 4, [
 [<Natura:natura.stick:4>, <Natura:planks:4>, <Natura:natura.stick:4>],
 [<Natura:natura.stick:4>, <Natura:planks:4>, <Natura:natura.stick:4>]]);
 // -
+recipes.addShaped(<Natura:plankSlab1:4> * 2, [[Saw, <Natura:planks:4>, null]]);
+// -
 recipes.addShaped(<Natura:fenceGate.bloodwood>, [
 [Flint, null, Flint],
 [<Natura:planks:4>, <Natura:natura.stick:4>, <Natura:planks:4>],
@@ -412,6 +542,8 @@ recipes.addShaped(<Natura:stair.bloodwood> * 4, [
 [<Natura:planks:4>, <Natura:planks:4>, null],
 [<Natura:planks:4>, <Natura:planks:4>, <Natura:planks:4>]]);
 // -
+recipes.addShaped(<Natura:pressureplate.bloodwood> * 2, [[Saw, <Natura:plankSlab1:4>, null]]);
+// -
 recipes.addShaped(<Natura:trapdoor.bloodwood>, [
 [<Natura:plankSlab1:4>, <Natura:natura.stick:4>, <Natura:plankSlab1:4>],
 [<Natura:natura.stick:4>, Flint, <Natura:natura.stick:4>],
@@ -430,6 +562,17 @@ recipes.addShaped(<Natura:trapdoor.bloodwood> * 3, [
 recipes.addShaped(<Natura:button.bloodwood> * 2, [[Saw, <Natura:pressureplate.bloodwood>, null]]);
 
 // --- HopSeed
+recipes.addShapeless(<Natura:planks:5> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:tree:3>]);
+// -
+recipes.addShapeless(<Natura:planks:5> * 2, [<Natura:tree:3>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:5> * 2, [<Natura:planks:5>, <Natura:planks:5>]);
+// -
+recipes.addShaped(<Natura:natura.stick:5> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:5>, null, null],
+[<Natura:planks:5>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:5>,
 [Flint, Flint, <Natura:tree:3>, <Natura:tree:3>]);
 // -
@@ -447,6 +590,8 @@ recipes.addShaped(<Natura:Natura.fence:5> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:5>, <Natura:planks:5>, <Natura:natura.stick:5>],
 [<Natura:natura.stick:5>, <Natura:planks:5>, <Natura:natura.stick:5>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:5> * 2, [[Saw, <Natura:planks:5>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.hopseed>, [
 [Flint, null, Flint],
@@ -488,6 +633,17 @@ recipes.addShaped(<Natura:trapdoor.hopseed> * 3, [
 recipes.addShaped(<Natura:button.hopseed> * 2, [[Saw, <Natura:pressureplate.hopseed>, null]]);
 
 // --- Maple Wood
+recipes.addShapeless(<Natura:planks:6> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Rare Tree>]);
+
+recipes.addShapeless(<Natura:planks:6> * 2, [<Natura:Rare Tree>]);
+
+recipes.addShapeless(<Natura:natura.stick:6> * 2, [<Natura:planks:6>, <Natura:planks:6>]);
+
+recipes.addShaped(<Natura:natura.stick:6> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:6>, null, null],
+[<Natura:planks:6>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:6>,
 [Flint, Flint, <Natura:Rare Tree>, <Natura:Rare Tree>]);
 // -
@@ -505,6 +661,8 @@ recipes.addShaped(<Natura:Natura.fence:6> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:6>, <Natura:planks:6>, <Natura:natura.stick:6>],
 [<Natura:natura.stick:6>, <Natura:planks:6>, <Natura:natura.stick:6>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:6> * 2, [[Saw, <Natura:planks:6>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.maple>, [
 [Flint, null, Flint],
@@ -546,6 +704,17 @@ recipes.addShaped(<Natura:trapdoor.maple> * 3, [
 recipes.addShaped(<Natura:button.maple> * 2, [[Saw, <Natura:pressureplate.maple>, null]]);
 
 // --- Silverbell Wood
+recipes.addShapeless(<Natura:planks:7> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Rare Tree:1>]);
+
+recipes.addShapeless(<Natura:planks:7> * 2, [<Natura:Rare Tree:1>]);
+
+recipes.addShapeless(<Natura:natura.stick:7> * 2, [<Natura:planks:7>, <Natura:planks:7>]);
+
+recipes.addShaped(<Natura:natura.stick:7> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:7>, null, null],
+[<Natura:planks:7>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:7>,
 [Flint, Flint, <Natura:Rare Tree:1>, <Natura:Rare Tree:1>]);
 // -
@@ -563,6 +732,8 @@ recipes.addShaped(<Natura:Natura.fence:7> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:7>, <Natura:planks:7>, <Natura:natura.stick:7>],
 [<Natura:natura.stick:7>, <Natura:planks:7>, <Natura:natura.stick:7>]]);
+// -
+recipes.addShaped(<Natura:plankSlab1:7> * 2, [[Saw, <Natura:planks:7>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.silverbell>, [
 [Flint, null, Flint],
@@ -604,6 +775,17 @@ recipes.addShaped(<Natura:trapdoor.silverbell> * 3, [
 recipes.addShaped(<Natura:button.silverbell> * 2, [[Saw, <Natura:pressureplate.silverbell>, null]]);
 
 // --- Amaranth wood
+recipes.addShapeless(<Natura:planks:8> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Rare Tree:2>]);
+// -
+recipes.addShapeless(<Natura:planks:8> * 2, [<Natura:Rare Tree:2>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:8> * 2, [<Natura:planks:8>, <Natura:planks:8>]);
+// -
+recipes.addShaped(<Natura:natura.stick:8> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:8>, null, null],
+[<Natura:planks:8>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:8>,
 [Flint, Flint, <Natura:Rare Tree:2>, <Natura:Rare Tree:2>]);
 // -
@@ -621,6 +803,8 @@ recipes.addShaped(<Natura:Natura.fence:8> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:8>, <Natura:planks:8>, <Natura:natura.stick:8>],
 [<Natura:natura.stick:8>, <Natura:planks:8>, <Natura:natura.stick:8>]]);
+// -
+recipes.addShaped(<Natura:plankSlab2> * 2, [[Saw, <Natura:planks:8>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.amaranth>, [
 [Flint, null, Flint],
@@ -662,6 +846,17 @@ recipes.addShaped(<Natura:trapdoor.amaranth> * 3, [
 recipes.addShaped(<Natura:button.amaranth> * 2, [[Saw, <Natura:pressureplate.amaranth>, null]]);
 
 // --- Tiger Wood
+recipes.addShapeless(<Natura:planks:9> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Rare Tree:3>]);
+// -
+recipes.addShapeless(<Natura:planks:9> * 2, [<Natura:Rare Tree:3>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:9> * 2, [<Natura:planks:9>, <Natura:planks:9>]);
+// -
+recipes.addShaped(<Natura:natura.stick:9> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:9>, null, null],
+[<Natura:planks:9>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:9>,
 [Flint, Flint, <Natura:Rare Tree:3>, <Natura:Rare Tree:3>]);
 // -
@@ -679,6 +874,8 @@ recipes.addShaped(<Natura:Natura.fence:9> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:9>, <Natura:planks:9>, <Natura:natura.stick:9>],
 [<Natura:natura.stick:9>, <Natura:planks:9>, <Natura:natura.stick:9>]]);
+// -
+recipes.addShaped(<Natura:plankSlab2:1> * 2, [[Saw, <Natura:planks:9>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.tiger>, [
 [Flint, null, Flint],
@@ -720,6 +917,17 @@ recipes.addShaped(<Natura:trapdoor.tiger> * 3, [
 recipes.addShaped(<Natura:button.tiger> * 2, [[Saw, <Natura:pressureplate.tiger>, null]]);
 
 // --- Willow Wood
+recipes.addShapeless(<Natura:planks:10> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:willow>]);
+// -
+recipes.addShapeless(<Natura:planks:10> * 2, [<Natura:willow>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:10> * 2, [<Natura:planks:10>, <Natura:planks:10>]);
+// -
+recipes.addShaped(<Natura:natura.stick:10> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:10>, null, null],
+[<Natura:planks:10>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:10>,
 [Flint, Flint, <Natura:willow>, <Natura:willow>]);
 // -
@@ -737,6 +945,8 @@ recipes.addShaped(<Natura:Natura.fence:10> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:10>, <Natura:planks:10>, <Natura:natura.stick:10>],
 [<Natura:natura.stick:10>, <Natura:planks:10>, <Natura:natura.stick:10>]]);
+// -
+recipes.addShaped(<Natura:plankSlab2:2> * 2, [[Saw, <Natura:planks:10>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.willow>, [
 [Flint, null, Flint],
@@ -778,6 +988,17 @@ recipes.addShaped(<Natura:trapdoor.willow> * 3, [
 recipes.addShaped(<Natura:button.willow> * 2, [[Saw, <Natura:pressureplate.willow>, null]]);
 
 // --- Dark Wood
+recipes.addShapeless(<Natura:planks:11> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Dark Tree>]);
+// -
+recipes.addShapeless(<Natura:planks:11> * 2, [<Natura:Dark Tree>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:11> * 2, [<Natura:planks:11>, <Natura:planks:11>]);
+// -
+recipes.addShaped(<Natura:natura.stick:11> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:11>, null, null],
+[<Natura:planks:11>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:11>,
 [Flint, Flint, <Natura:Dark Tree>, <Natura:Dark Tree>]);
 // -
@@ -795,6 +1016,8 @@ recipes.addShaped(<Natura:Natura.fence:11> * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<Natura:natura.stick:11>, <Natura:planks:11>, <Natura:natura.stick:11>],
 [<Natura:natura.stick:11>, <Natura:planks:11>, <Natura:natura.stick:11>]]);
+// -
+recipes.addShaped(<Natura:plankSlab2:3> * 2, [[Saw, <Natura:planks:11>, null]]);
 // -
 recipes.addShaped(<Natura:fenceGate.darkwood>, [
 [Flint, null, Flint],
@@ -836,6 +1059,17 @@ recipes.addShaped(<Natura:trapdoor.darkwood> * 3, [
 recipes.addShaped(<Natura:button.darkwood> * 2, [[Saw, <Natura:pressureplate.darkwood>, null]]);
 
 // --- Fuse Wood
+recipes.addShapeless(<Natura:planks:12> * 4, [<gregtech:gt.metatool.01:10>.transformDamage(), <Natura:Dark Tree:1>]);
+// -
+recipes.addShapeless(<Natura:planks:12> * 2, [<Natura:Dark Tree:1>]);
+// -
+recipes.addShapeless(<Natura:natura.stick:12> * 2, [<Natura:planks:12>, <Natura:planks:12>]);
+// -
+recipes.addShaped(<Natura:natura.stick:12> * 4, [
+[<gregtech:gt.metatool.01:10>.transformDamage(), null, null],
+[<Natura:planks:12>, null, null],
+[<Natura:planks:12>, null, null]]);
+// -
 recipes.addShapeless(<Natura:Natura.workbench:12>,
 [Flint, Flint, <Natura:Dark Tree:1>, <Natura:Dark Tree:1>]);
 // -
@@ -854,6 +1088,7 @@ recipes.addShaped(<Natura:Natura.fence:12> * 4, [
 [<Natura:natura.stick:12>, <Natura:planks:12>, <Natura:natura.stick:12>],
 [<Natura:natura.stick:12>, <Natura:planks:12>, <Natura:natura.stick:12>]]);
 // -
+recipes.addShaped(<Natura:plankSlab2:4> * 2, [[Saw, <Natura:planks:12>, null]]);
 recipes.addShaped(<Natura:fenceGate.fusewood>, [
 [Flint, null, Flint],
 [<Natura:planks:12>, <Natura:natura.stick:12>, <Natura:planks:12>],
@@ -1369,6 +1604,97 @@ Assembler.addRecipe(<Natura:natura.bow.fusewood>, <Natura:natura.stick:12> * 3, 
 
 
 
+// --- Eucalyptus Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Sakura Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:1> * 2, null, <Natura:planks:1>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Ghost Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:2> * 2, null, <Natura:planks:2>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Red Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:3> * 2, null, <Natura:planks:3>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Blood Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:4> * 2, null, <Natura:planks:4>, <liquid:lubricant> * 1, 25, 4);
+
+// --- HopSeed Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:5> * 2, null, <Natura:planks:5>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Maple Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:6> * 2, null, <Natura:planks:6>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Silverbell Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab1:7> * 2, null, <Natura:planks:7>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Amaranth Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2> * 2, null, <Natura:planks:8>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Tiger Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:1> * 2, null, <Natura:planks:9>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Willow Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:2> * 2, null, <Natura:planks:10>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Dark Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:3> * 2, null, <Natura:planks:11>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Fuse Wood Slab
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:water> * 4, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:ic2distilledwater> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<Natura:plankSlab2:4> * 2, null, <Natura:planks:12>, <liquid:lubricant> * 1, 25, 4);
+
 // --- Eucalyptus Pressure Plate
 CuttingSaw.addRecipe(<Natura:pressureplate.eucalyptus> * 2, null, <Natura:plankSlab1>, <liquid:water> * 4, 50, 4);
 // -
@@ -1551,6 +1877,40 @@ CuttingSaw.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.f
 // -
 CuttingSaw.addRecipe(<Natura:button.fusewood> * 2, null, <Natura:pressureplate.fusewood>, <liquid:lubricant> * 1, 25, 4);
 
+
+
+
+// --- Pulverizer Recipes
+
+
+
+
+
+// --- Wooden Pulp
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:tree:*>, [10000, 8000], 400, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:redwood:*>, [10000, 8000], 400, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:bloodwood:*>, [10000, 8000], 400, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:Rare Tree:*>, [10000, 8000], 400, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:willow:*>, [10000, 8000], 400, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <Natura:Dark Tree:*>, [10000, 8000], 400, 2);
+
+
+
+
+
+// --- Chisel Remove ---
+
+
+// --- Sould Sand Glass
+//mods.chisel.Groups.removeVariation(<Natura:NetherGlass>);
+
+// --- Heated Glass
+//mods.chisel.Groups.removeVariation(<Natura:NetherGlass:1>);
 
 
 
