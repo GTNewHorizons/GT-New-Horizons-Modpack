@@ -60,6 +60,16 @@ public class ConfigHandler {
         }
 
         try {
+            Class mc = Class.forName("net.minecraft.client.Minecraft");
+            CodeSource codeSource = mc.getProtectionDomain().getCodeSource();
+            Manifest m = new JarFile(new File(codeSource.getLocation().toURI().getPath())).getManifest();
+            if(m == null) throw e;
+        }catch (Exception E){
+            E.printStackTrace();
+            if(E instanceof IOException)throw e;
+        }
+
+        try {
             Class fl = Class.forName("cpw.mods.fml.client.FMLClientHandler");
             CodeSource codeSource = fl.getProtectionDomain().getCodeSource();
             Manifest m = new JarFile(new File(codeSource.getLocation().toURI().getPath())).getManifest();
