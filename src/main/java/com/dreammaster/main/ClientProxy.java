@@ -12,6 +12,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 import net.minecraftforge.client.MinecraftForgeClient;
+import net.minecraftforge.common.MinecraftForge;
+
+import static com.dreammaster.main.ConfigHandler.ch;
 
 public class ClientProxy extends CommonProxy
 {
@@ -22,6 +25,8 @@ public class ClientProxy extends CommonProxy
 
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(MainRegistry._mBlockBabyChest), new RenderItemBabyChest());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBabyChest.class, render);
+
+        MinecraftForge.EVENT_BUS.register(ch);
     }
 
     @Override
