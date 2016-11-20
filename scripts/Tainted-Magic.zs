@@ -36,6 +36,15 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusMageMace>);
 // --- Shadow-Imbued Cloth
 mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemMaterial:1>);
 
+// --- Shard of Creation
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemMaterial:5>);
+
+// --- Wand Focus Dark Matter
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusEldritch>);
+
+// --- Crystal Dagger
+mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemCrystalDagger>);
+
 
 
 
@@ -141,7 +150,7 @@ mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("FocusShardGTNH", true);
 game.setLocalization("tc.research_name.FocusShardGTNH", "Wand Focus: Vis Shard");
 game.setLocalization("tc.research_text.FocusShardGTNH", "Blip bloop");
-mods.thaumcraft.Research.addPage("FocusShardGTNH", "tc.research_page.WarpedGogglesGTNH");
+mods.thaumcraft.Research.addPage("FocusShardGTNH", "tc.research_page.FocusShardGTNH");
 game.setLocalization("tc.research_page.FocusShardGTNH", "With the study of different types of shards, an incredible idea dawned upon you: what if you could animate a vis shard to be used in combat?<BR>This focus can only be cast if you are looking at an enemy. The shard will float through the air, homing in on its target, and will burst on contact.<BR>It would seem that the shard will also bounce off of solid blocks.");
 mods.thaumcraft.Arcane.addShaped("FocusShardGTNH", <TaintedMagic:ItemFocusVisShard>, "ordo 50, aer 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:3>, <Thaumcraft:blockCrystal:6>, <TaintedMagic:ItemMaterial:3>],
@@ -158,13 +167,13 @@ mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("MaceFocusGTNH", true);
 game.setLocalization("tc.research_name.MaceFocusGTNH", "Wand Focus: Mage's Mace");
 game.setLocalization("tc.research_text.MaceFocusGTNH", "Yes, just hit them with your staff");
-mods.thaumcraft.Research.addPage("MaceFocusGTNH", "tc.research_page.WarpedGogglesGTNH");
+mods.thaumcraft.Research.addPage("MaceFocusGTNH", "tc.research_page.MaceFocusGTNH");
 game.setLocalization("tc.research_page.MaceFocusGTNH", "With the discovery of foci, you've noticed that most foci are ranged. For you, this can sometimes be a problem.<BR>By infusing some sharp objects into a Block of Shadowmetal, you created a foci that acts as a mace.<BR>When equipped, this focus will grant increased attack damage to the staff or wand that you are using; Turning it into the perfect melee weapon. Nonetheless, this comes at a cost. The focus uses vis every time you hit a mob, no damage will be inflicted if your staff or wand does not have the required vis. The potency upgrade will increase the damage by one each level.");
 mods.thaumcraft.Infusion.addRecipe("MaceFocusGTNH", <TaintedMagic:ItemShadowmetalSword>,
 [<TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:27368>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:27368>], 
 "metallum 16, perditio 32, praecantatio 48, telum 64, cognitio 8", <TaintedMagic:ItemFocusMageMace>, 9);
 mods.thaumcraft.Research.addInfusionPage("MaceFocusGTNH", <TaintedMagic:ItemFocusMageMace>);
-mods.thaumcraft.Warp.addToResearch("WarpedGogglesGTNH", 1);
+mods.thaumcraft.Warp.addToResearch("MaceFocusGTNH", 1);
 
 // --- Shadow-Imbued Cloth
 mods.thaumcraft.Research.orphanResearch("SHADOWCLOTH");
@@ -175,10 +184,71 @@ mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("ShadowClothGTNH", true);
 game.setLocalization("tc.research_name.ShadowClothGTNH", "Shadow-Imbued Cloth");
 game.setLocalization("tc.research_text.ShadowClothGTNH", "I wear black 'cause I'm emo");
-mods.thaumcraft.Research.addPage("ShadowClothGTNH", "tc.research_page.WarpedGogglesGTNH");
+mods.thaumcraft.Research.addPage("ShadowClothGTNH", "tc.research_page.ShadowClothGTNH");
 game.setLocalization("tc.research_page.ShadowClothGTNH", "When you discovered Shadowmetal, you ran a few experiments using it. Shadow-Imbued Cloth was one of many results.<BR>Shadow-Imbued Cloth has similar properties to Enchanted Fabric though it is quite dark in colour, and has some interesting magical properties... It is soft, thin, light, and incredibly strong. You are certain that it will be of many uses.");
 mods.thaumcraft.Arcane.addShaped("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>],
 [<gregtech:gt.metaitem.01:29368>, <gregtech:gt.metaitem.01:29330>, <gregtech:gt.metaitem.01:29368>],
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>]]);
 mods.thaumcraft.Research.addArcanePage("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>);
+
+// --- Shard of Creation
+mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
+mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
+mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
+game.setLocalization("tc.research_name.CreationShardGTNH", "Shard of Creation");
+game.setLocalization("tc.research_text.CreationShardGTNH", "I am not a madman");
+mods.thaumcraft.Research.addPage("CreationShardGTNH", "tc.research_page.CreationShardGTNH");
+game.setLocalization("tc.research_page.CreationShardGTNH", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
+mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:17>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
+mods.thaumcraft.Infusion.addRecipe("CreationShardGTNH", <minecraft:nether_star>,
+[<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
+"alienis 64, vacuos 64, praecantatio 64, auram 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
+mods.thaumcraft.Research.addInfusionPage("CreationShardGTNH", <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
+
+// --- Wand Focus Dark Matter
+mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
+mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
+mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
+mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
+game.setLocalization("tc.research_name.EldritchFocusGTNH", "Wand Focus: Dark Matter");
+game.setLocalization("tc.research_text.EldritchFocusGTNH", "And in the darkness bind them");
+mods.thaumcraft.Research.addPage("EldritchFocusGTNH", "tc.research_page.EldritchFocusGTNH.1");
+game.setLocalization("tc.research_page.EldritchFocusGTNH.1", "After having payed a visit to the voidscape known as the Outerlands, the race known as the Eldritch have sparked your interest. You are very intrigued by the Eldritch Guardians, and especially the orbs of dark matter that they tend to hurl at you.<BR>After having made contact with this dark matter, you have thought it might be worth it to take a shot at the Eldritch's magic.<BR>By utilizing the powers of creation, you have managed to create a focus that summons these orbs of dark matter upon command.<BR>(Continued)");
+mods.thaumcraft.Infusion.addRecipe("EldritchFocusGTNH", <TaintedMagic:ItemMaterial:5>,
+[<Thaumcraft:FocusPortableHole>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.01:17970>], 
+"aer 84, alienis 72, praecantatio 64, tenebrae 64, ira 32, potentia 16", <TaintedMagic:ItemFocusEldritch>, 9);
+mods.thaumcraft.Research.addInfusionPage("EldritchFocusGTNH", <TaintedMagic:ItemFocusEldritch>);
+mods.thaumcraft.Research.addPage("EldritchFocusGTNH", "tc.research_page.EldritchFocusGTNH.2");
+game.setLocalization("tc.research_page.EldritchFocusGTNH.2", "Because this focus is infused with the awakened power of The Shard of Creation, the orbs have turned out to be even stronger than the ones the guardians fire at you. They deal 5 hearts of damage, and inflict a weakness potion upon contact.<BR>However, you must take caution when using this focus. Every time you cast the focus, and summon an orb, there is a chance the orb will cause you to gain a small amount of sticky warp... But a little warp never hurt anyone right?");
+mods.thaumcraft.Warp.addToResearch("EldritchFocusGTNH", 4);
+
+// --- Crystal Blood
+mods.thaumcraft.Research.orphanResearch("CRYSTALDAGGER");
+mods.thaumcraft.Research.removeResearch("CRYSTALDAGGER");
+mods.thaumcraft.Research.addResearch("CrystalDaggerGTNH", "TM", "telum 18, ignis 15, sano 12, fames 9, infernus 6, lucrum 3", 0, -3, 4, <TaintedMagic:ItemCrystalDagger>);
+mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "TAINTEDMAGIC", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ENCHFABRIC", false);
+mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ESSENTIACRYSTAL", false);
+mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.setConcealed("CrystalDaggerGTNH", true);
+game.setLocalization("tc.research_name.CrystalDaggerGTNH", "Crystal Blood");
+game.setLocalization("tc.research_text.CrystalDaggerGTNH", "Drip, drip, drop...");
+mods.thaumcraft.Research.addPage("CrystalDaggerGTNH", "tc.research_page.CrystalDaggerGTNH");
+game.setLocalization("tc.research_page.CrystalDaggerGTNH", "After having discovered the Essentia Crystallizer, you've managed to create a dagger that crystallizes the blood of your foes.<BR>Whenever a living creature is killed by this blade, a few drops of blood will be crystallized. It also seems that any blade that possesses the same Bloodlust effect will also crystallize any creature's blood upon death.<BR>You are certain that this is no ordinary blood, it is particularly interesting because Crimson Cult Attire seems to have similar properties.");
+mods.thaumcraft.Arcane.addShaped("CrystalDaggerGTNH",  <TaintedMagic:ItemCrystalDagger>, "terra 100, ignis 100, perditio 100, ordo 50, aer 50", [
+[<ore:screwThaumium>, <ore:craftingToolWrench>, <TGregworks:tGregToolPartKnifeBlade:105>.withTag({material: "Shadow"})], 
+[null, <Thaumcraft:blockTube:7>, null], 
+[<Forestry:oakStick>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("CrystalDaggerGTNH", <TaintedMagic:ItemCrystalDagger>);
+mods.thaumcraft.Warp.addToResearch("CrystalDaggerGTNH", 3);
