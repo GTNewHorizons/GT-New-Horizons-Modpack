@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.1.0.2 is out (01.11.2016)
+Version 1.1.0.4 is out (10.11.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
