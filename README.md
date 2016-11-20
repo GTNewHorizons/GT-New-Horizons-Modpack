@@ -67,13 +67,13 @@ Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<B
 FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
-Forum Link: http://forum.gtnewhorizons.com/<BR>
+Forum Link: http://gtnewhorizons.enjin.com/<BR>
 
 
 ## EU Server:<BR>
 
 Official EU Server Public<BR>
-http://gtnewhorizons.com/<BR>
+http://gtnewhorizons.enjin.com/<BR>
 eu.gtnewhorizons.com<BR>
 
  
@@ -92,7 +92,7 @@ newhorizons.prospercraft.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.1.0.2 --- 01.11.2016<BR>
+## Modlist - NewHorizons 1.1.0.4 --- 10.11.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta1<BR>
@@ -218,7 +218,7 @@ newhorizons.prospercraft.com<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * ReAuth 3.2<BR>
-* RemoteIO	2.4.1<BR>
+* RemoteIO	2.4.0<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
