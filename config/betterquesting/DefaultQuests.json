@@ -7095,12 +7095,6 @@
               "Count": 136,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "BiomesOPlenty:flowers2",
-              "Count": 34,
-              "OreDict": "",
-              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -7148,6 +7142,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "dreamcraft:item.AdvancedCokeOvenBrick",
+              "Count": 136,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "Railcraft:machine.alpha",
               "Count": 34,
               "OreDict": "",
@@ -7161,7 +7170,19 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:tile.Charcoal",
+              "id": "gregtech:gt.blockgem3",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:coal_block",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:cube",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
