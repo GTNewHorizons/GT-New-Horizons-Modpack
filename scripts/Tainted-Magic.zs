@@ -45,6 +45,20 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusEldritch>);
 // --- Crystal Dagger
 mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemCrystalDagger>);
 
+// --- Crimson Stained Cloth
+mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemMaterial:2>);
+
+// --- Culist Helmet
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemHelmetCultistRobe>);
+
+// --- Culist Chestplate
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemChestplateCultistRobe>);
+
+// --- Culist Leggings
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemLeggingsCultistRobe>);
+
+// --- Culist Boots
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBootsCultist>);
 
 
 
@@ -237,7 +251,7 @@ mods.thaumcraft.Research.orphanResearch("CRYSTALDAGGER");
 mods.thaumcraft.Research.removeResearch("CRYSTALDAGGER");
 mods.thaumcraft.Research.addResearch("CrystalDaggerGTNH", "TM", "telum 18, ignis 15, sano 12, fames 9, infernus 6, lucrum 3", 0, -3, 4, <TaintedMagic:ItemCrystalDagger>);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "TAINTEDMAGIC", false);
-mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ESSENTIACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "VOIDMETAL", false);
@@ -252,3 +266,58 @@ mods.thaumcraft.Arcane.addShaped("CrystalDaggerGTNH",  <TaintedMagic:ItemCrystal
 [<Forestry:oakStick>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("CrystalDaggerGTNH", <TaintedMagic:ItemCrystalDagger>);
 mods.thaumcraft.Warp.addToResearch("CrystalDaggerGTNH", 3);
+
+// --- Crimson Stained Cloth
+mods.thaumcraft.Research.orphanResearch("CRIMSONROBES");
+mods.thaumcraft.Research.removeResearch("CRIMSONROBES");
+mods.thaumcraft.Research.addResearch("CrimsonRobesGTNH", "TM", "pannus 18, permutatio 15, tutamen 12, alienis 9, tenebrae 6, praecantatio 3", -2, -5, 4, <TaintedMagic:ItemMaterial:2>);
+mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "TAINTEDMAGIC", true);
+mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "CrystalDaggerGTNH", false);
+mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "ShadowClothGTNH", true);
+mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.setConcealed("CrimsonRobesGTNH", true);
+game.setLocalization("tc.research_name.CrimsonRobesGTNH", "Crimson Seamstry");
+game.setLocalization("tc.research_text.CrimsonRobesGTNH", "This will not wash out");
+mods.thaumcraft.Research.addPage("CrimsonRobesGTNH", "tc.research_page.CrimsonRobesGTNH");
+game.setLocalization("tc.research_page.CrimsonRobesGTNH", "After studying Crystal Blood for quite some time, you realized that the Crimson Cult's Robes posses very similar properties.<BR>By staining Shadow-Imbued Cloth with Crystal Blood, you were able to perfectly replicate the material that the Crimson Cult uses for their attire.<BR>Using Crimson-stained Cloth (see right) you were able to make all of the robe pieces. Their recipes are inscribed on the following pages.");
+mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <TaintedMagic:ItemMaterial:2>, "terra 25, ignis 25, perditio 25, aqua 25, ordo 25, aer 25", [
+[<ore:foilVoid>, <TaintedMagic:ItemMaterial:7>, <ore:foilVoid>], 
+[<TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:7>], 
+[<ore:foilVoid>, <TaintedMagic:ItemMaterial:7>, <ore:foilVoid>]]);
+mods.thaumcraft.Research.addArcanePage("CrimsonRobesGTNH", <TaintedMagic:ItemMaterial:2>);
+mods.thaumcraft.Warp.addToResearch("CrimsonRobesGTNH", 2);
+
+// --- Culist Helmet
+mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <Thaumcraft:ItemHelmetCultistRobe>, "terra 30, ignis 30, perditio 30, aqua 30, ordo 30, aer 30", [
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>], 
+[null, <ore:plateVoid>, null]]);
+mods.thaumcraft.Research.addArcanePage("CrimsonRobesGTNH", <Thaumcraft:ItemHelmetCultistRobe>);
+
+// --- Culist Chestplate
+mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <Thaumcraft:ItemChestplateCultistRobe>, "terra 30, ignis 30, perditio 30, aqua 30, ordo 30, aer 30", [
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>]]);
+mods.thaumcraft.Research.addArcanePage("CrimsonRobesGTNH", <Thaumcraft:ItemChestplateCultistRobe>);
+
+// --- Culist Leggings
+mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <Thaumcraft:ItemLeggingsCultistRobe>, "terra 30, ignis 30, perditio 30, aqua 30, ordo 30, aer 30", [
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>]]);
+mods.thaumcraft.Research.addArcanePage("CrimsonRobesGTNH", <Thaumcraft:ItemLeggingsCultistRobe>);
+
+// --- Culist Boots
+mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <Thaumcraft:ItemBootsCultist>, "terra 30, ignis 30, perditio 30, aqua 30, ordo 30, aer 30", [
+[null, null, null], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateVoid>, <TaintedMagic:ItemMaterial:2>]]);
+mods.thaumcraft.Research.addArcanePage("CrimsonRobesGTNH", <Thaumcraft:ItemBootsCultist>);
+
+// --- Tier 5 Upgrade Blood Lust
+mods.thaumcraft.Research.addPrereq("BLOODLUSTUPGRADE", "CrystalDaggerGTNH", false);
+mods.thaumcraft.Research.setConcealed("BLOODLUSTUPGRADE", true);
+mods.thaumcraft.Research.setAspects("BLOODLUSTUPGRADE", "aqua 15, sano 12, telum 9, praecantatio 6, ira 3");
+mods.thaumcraft.Research.setComplexity("BLOODLUSTUPGRADE", 3);
+mods.thaumcraft.Warp.addToResearch("BLOODLUSTUPGRADE", 2);
