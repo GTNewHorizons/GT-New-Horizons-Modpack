@@ -433,7 +433,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.StainlessSteel, 4L),  ItemList.Circuit_Integrated.getWithDamage(0L, 14L, new Object[0]),      Materials.Oxygen.getGas(1000L),                     GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.StainlessSteel, 1L), GT_Values.NI, 1200, 480, 1700);
 
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot,     Materials.BrickNether, 1L),     ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]),       Materials.Oxygen.getGas(1000L),                     GT_Values.NF, CustomItemList.HotNetherrackBrick.get(1L, new Object[0]),                  GT_Values.NI, 600, 120, 1200);
-        GT_Values.RA.addBlastRecipe(CustomItemList.InfernalBrick.get(1L, new Object[0]), CustomItemList.CokeOvenBrick.get(1L, new Object[0]),                                               Materials.Oxygen.getGas(1000L),                     GT_Values.NF, CustomItemList.AdvancedCokeOvenBrick.get(2L, new Object[0]),               GT_Values.NI, 1200, 120, 1600);
+        GT_Values.RA.addBlastRecipe(CustomItemList.InfernalBrick.get(1L, new Object[0]),                            CustomItemList.CokeOvenBrick.get(1L, new Object[0]),                    Materials.Oxygen.getGas(1000L),                     GT_Values.NF, CustomItemList.AdvancedCokeOvenBrick.get(2L, new Object[0]),               GT_Values.NI, 1200, 120, 1600);
 
         if (Loader.isModLoaded("gendustry")) {
             GT_Values.RA.addFluidExtractionRecipe(GT_ModHandler.getModItem("gendustry", "HoneyDrop", 1L, 2005), CustomItemList.SnowQueenBloodDrop.get(1L, new Object[0]), Materials.FierySteel.getFluid(200L), 1500, 1600, 2);
@@ -501,7 +501,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addCentrifugeRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.BlackPlutonium, 1L), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{5000, 2000, 1000}, 1200, 1920);
 
-        GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L, new Object[0]), new FluidStack(FluidRegistry.getFluid("hell_blood"), 500), CustomItemList.InfernalBrick.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, null, 200, 30);
+        GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L, new Object[0]), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.InfernalBrick.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, null, 200, 30);
 
         GT_Values.RA.addDistillationTowerRecipe(new FluidStack(FluidRegistry.getFluid("pollution"), 1600), new FluidStack[]{Materials.SulfuricAcid.getFluid(50L), Materials.NitrogenDioxide.getGas(50L), Materials.Methane.getGas(50L), Materials.Mercury.getFluid(1L)}, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Ash, 1L), 600, 1920);
 
