@@ -38,6 +38,7 @@ public enum ItemList
     BioOrganicMesh(new ModSimpleBaseItem("BioOrganicMesh", ModTabList.ModGenericTab)),
     BioChunk(new ModSimpleBaseItem("BioChunk", ModTabList.ModGenericTab)),
     Blaster(new ModSimpleBaseItem("Blaster", ModTabList.ModThaumcraftTab)),
+    BloodVial(new ModSimpleBaseItem("BloodVial", ModTabList.ModThaumcraftTab)),
     BowFletchingCast(new ModSimpleBaseItem("BowFletchingCast", ModTabList.ModMoldsTab)),
     BowStringCast(new ModSimpleBaseItem("BowStringCast", ModTabList.ModMoldsTab)),
     CompressedBioBall(new ModSimpleBaseItem("CompressedBioBall", ModTabList.ModGenericTab)),
