@@ -1991,6 +1991,9 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 // --- Copper Plates ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
+// --- Lead Plates ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 2);
+
 // --- Rebar ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 
@@ -2005,7 +2008,6 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:3> * 8);
 
 // --- Reinforced Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4>);
-//mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 32);
 
 // --- Electric Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:5> * 6);
