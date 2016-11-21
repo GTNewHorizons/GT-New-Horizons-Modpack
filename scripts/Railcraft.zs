@@ -1991,9 +1991,6 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 // --- Copper Plates ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
-// --- Lead Plates ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 2);
-
 // --- Rebar ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 
@@ -2034,7 +2031,6 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>,
 
 // --- Lead Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 4);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:4> * 2, [[<ore:ingotLead>, <ore:ingotLead>, null], [<ore:ingotLead>, <ore:ingotLead>, null]]);
 
 
 
