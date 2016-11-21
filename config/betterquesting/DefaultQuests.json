@@ -38080,6 +38080,118 @@
       ]
     },
     {
+      "questID": 497,
+      "name": "More Charcoal",
+      "description": "You find an alternative way to make Charcoal with an \"Charcoal Pile Igniter\". \nGo and get some to make massive amounts of Charcoal.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1155
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17300
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21305
+            },
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1155
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11300
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11335
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        478
+      ]
+    },
+    {
       "questID": 500,
       "name": "First things first",
       "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
@@ -45274,7 +45386,7 @@
         },
         {
           "id": 478,
-          "x": 132,
+          "x": 156,
           "y": 108
         },
         {
@@ -45301,6 +45413,11 @@
           "id": 496,
           "x": 228,
           "y": 108
+        },
+        {
+          "id": 497,
+          "x": 192,
+          "y": 144
         }
       ]
     },
