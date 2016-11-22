@@ -60,6 +60,43 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemLeggingsCultistRobe>);
 // --- Culist Boots
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBootsCultist>);
 
+// --- Crimson Plating
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemMaterial:8>);
+
+// --- Crimson Cult Helmet
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemHelmetCultistPlate>);
+
+// --- Crimson Cult Chestplate
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemChestplateCultistPlate>);
+
+// --- Crimson Cult Greaves
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemLeggingsCultistPlate>);
+
+// --- Crimson Preadetor Helmet
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetCultistLeaderPlate>);
+
+// --- Crimson Preadetor Chestplate
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateCultistLeaderPlate>);
+
+// --- Crimson Preadetor Greaves
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsCultistLeaderPlate>);
+
+// --- Phial of Voidsent Blood
+mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemVoidsentBlood>);
+
+// --- Crimson Blade
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordCrimson>);
+
+// --- Voidmetal Goggles of Revealing
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidmetalGoggles>);
+
+// --- Wand Focus Tainted Storm
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusTaint>);
+
+// --- Wand Focus Tainted Shock Wave
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusTaintedBlast>);
+
+
 
 
 
@@ -159,7 +196,7 @@ mods.thaumcraft.Warp.addToResearch("WarpedGogglesGTNH", 1);
 mods.thaumcraft.Research.orphanResearch("FOCUSSHARD");
 mods.thaumcraft.Research.removeResearch("FOCUSSHARD");
 mods.thaumcraft.Research.addResearch("FocusShardGTNH", "TM", "motus 18, vitreus 15, praecantatio 12, aer 9, perditio 6, ordo 3", 3, 1, 3, <TaintedMagic:ItemFocusVisShard>);
-mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "EvilshardsGTNH", true);
+mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "EvilshardsGTNH", false);
 mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("FocusShardGTNH", true);
 game.setLocalization("tc.research_name.FocusShardGTNH", "Wand Focus: Vis Shard");
@@ -176,6 +213,7 @@ mods.thaumcraft.Research.addArcanePage("FocusShardGTNH", <TaintedMagic:ItemFocus
 mods.thaumcraft.Research.orphanResearch("MACEFOCUS");
 mods.thaumcraft.Research.removeResearch("MACEFOCUS");
 mods.thaumcraft.Research.addResearch("MaceFocusGTNH", "TM", "perditio 18, terra 15, praecantatio 12, telum 9, metallum 6, cognitio 3", 0, 4, 3, <TaintedMagic:ItemFocusMageMace>);
+mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("MaceFocusGTNH", true);
@@ -193,7 +231,7 @@ mods.thaumcraft.Warp.addToResearch("MaceFocusGTNH", 1);
 mods.thaumcraft.Research.orphanResearch("SHADOWCLOTH");
 mods.thaumcraft.Research.removeResearch("SHADOWCLOTH");
 mods.thaumcraft.Research.addResearch("ShadowClothGTNH", "TM", "pannus 15, tenebrae 12, praecantatio 9, aer 6, tutamen 3", -1, 2, 3, <TaintedMagic:ItemMaterial:1>);
-mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("ShadowClothGTNH", true);
 game.setLocalization("tc.research_name.ShadowClothGTNH", "Shadow-Imbued Cloth");
@@ -321,3 +359,153 @@ mods.thaumcraft.Research.setConcealed("BLOODLUSTUPGRADE", true);
 mods.thaumcraft.Research.setAspects("BLOODLUSTUPGRADE", "aqua 15, sano 12, telum 9, praecantatio 6, ira 3");
 mods.thaumcraft.Research.setComplexity("BLOODLUSTUPGRADE", 3);
 mods.thaumcraft.Warp.addToResearch("BLOODLUSTUPGRADE", 2);
+
+// --- Crimson Plating
+mods.thaumcraft.Research.orphanResearch("KNIGHTROBES");
+mods.thaumcraft.Research.removeResearch("KNIGHTROBES");
+mods.thaumcraft.Research.addResearch("KnightRobesGTNH", "TM", "pannus 21, permutatio 18, tutamen 15, alienis 12, tenebrae 9, praecantatio 6, metallum 3", -4, -4, 4, <TaintedMagic:ItemMaterial:8>);
+mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "ELDRITCHMINOR", false);
+mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "CrimsonRobesGTNH", false);
+mods.thaumcraft.Research.setConcealed("KnightRobesGTNH", true);
+game.setLocalization("tc.research_name.KnightRobesGTNH", "Crimson Forgery");
+game.setLocalization("tc.research_text.KnightRobesGTNH", "Dance to the song of ringing steel");
+mods.thaumcraft.Research.addPage("KnightRobesGTNH", "tc.research_page.KnightRobesGTNH");
+game.setLocalization("tc.research_page.KnightRobesGTNH", "With a will, there is a way...<BR>It seems that it wasn't quite as easy to create the Crimson Knight armor as it was to create the Robes. But, you have found an answer.<BR>Crimson Plating was just the substance you needed. This strong, bloodstained metal is identical to that of Crimson Knight armor.<BR>The recipes for the plating, and the armor are transcribed on the following pages.");
+mods.thaumcraft.Infusion.addRecipe("KnightRobesGTNH", <gregtech:gt.metaitem.01:17330>,
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:7>], 
+"metallum 16, praecantatio 16, tenebrae 16, alienis 16, tutamen 16", <TaintedMagic:ItemMaterial:8>, 6);
+mods.thaumcraft.Research.addInfusionPage("KnightRobesGTNH", <TaintedMagic:ItemMaterial:8>);
+mods.thaumcraft.Warp.addToResearch("KnightRobesGTNH", 4);
+
+// --- Crimson Cult Helmet
+mods.thaumcraft.Arcane.addShaped("KnightRobesGTNH", <Thaumcraft:ItemHelmetCultistPlate>, "terra 50, ignis 50, perditio 50, aqua 50, ordo 50, aer 50", [
+[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>], 
+[<TaintedMagic:ItemMaterial:8>, <ore:plateShadow>, <TaintedMagic:ItemMaterial:8>], 
+[null, <ore:plateShadow>, null]]);
+mods.thaumcraft.Research.addArcanePage("KnightRobesGTNH", <Thaumcraft:ItemHelmetCultistPlate>);
+
+// --- Crimson Cult Chestplate
+mods.thaumcraft.Arcane.addShaped("KnightRobesGTNH", <Thaumcraft:ItemChestplateCultistPlate>, "terra 50, ignis 50, perditio 50, aqua 50, ordo 50, aer 50", [
+[<TaintedMagic:ItemMaterial:8>, <ore:plateShadow>, <TaintedMagic:ItemMaterial:8>], 
+[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>], 
+[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>]]);
+mods.thaumcraft.Research.addArcanePage("KnightRobesGTNH", <Thaumcraft:ItemChestplateCultistPlate>);
+
+// --- Crimson Cult Greaves
+mods.thaumcraft.Arcane.addShaped("KnightRobesGTNH", <Thaumcraft:ItemLeggingsCultistPlate>, "terra 50, ignis 50, perditio 50, aqua 50, ordo 50, aer 50", [
+[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:8>], 
+[<TaintedMagic:ItemMaterial:8>, <ore:plateShadow>, <TaintedMagic:ItemMaterial:8>], 
+[<TaintedMagic:ItemMaterial:2>, <ore:plateShadow>, <TaintedMagic:ItemMaterial:2>]]);
+mods.thaumcraft.Research.addArcanePage("KnightRobesGTNH", <Thaumcraft:ItemLeggingsCultistPlate>);
+
+// --- Crimson Preadetor Helmet
+mods.thaumcraft.Research.orphanResearch("PRAETORARMOR");
+mods.thaumcraft.Research.removeResearch("PRAETORARMOR");
+mods.thaumcraft.Research.addResearch("PraetorarmorGTNH", "TM", "pannus 24, permutatio 21, tutamen 18, alienis 15, tenebrae 12, praecantatio 9, metallum 6, potentia 3", -6, -4, 4, <Thaumcraft:ItemHelmetCultistLeaderPlate>);
+mods.thaumcraft.Research.addPrereq("PraetorarmorGTNH", "KnightRobesGTNH", false);
+mods.thaumcraft.Research.setConcealed("PraetorarmorGTNH", true);
+game.setLocalization("tc.research_name.PraetorarmorGTNH", "Advanced Crimson Forgery");
+game.setLocalization("tc.research_text.PraetorarmorGTNH", "And now, the final curtain!");
+mods.thaumcraft.Research.addPage("PraetorarmorGTNH", "tc.research_page.PraetorarmorGTNH");
+game.setLocalization("tc.research_page.PraetorarmorGTNH", "Strange whispers have been talking to you more than usual. They spoke of the Crimson Cult's leader - and you hope to be the one to defeat them. You have been having visions, and you thought that with the discoveries of Crimson-stained Cloth, and Crimson Plating, it won't be hard to replicate the praetor's suit of armor.<BR>But, you were wrong. You thought it would be easy enough, but apparently it is not. You had to use quite a bit more plating and cloth than expected, but you have managed to construct the armor. Their recipes are written on the following pages.");
+mods.thaumcraft.Infusion.addRecipe("PraetorarmorGTNH", <Thaumcraft:ItemHelmetCultistPlate>,
+[<gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>], 
+"metallum 64, praecantatio 64, tenebrae 64, alienis 64, tutamen 64", <Thaumcraft:ItemHelmetCultistLeaderPlate>, 6);
+mods.thaumcraft.Research.addInfusionPage("PraetorarmorGTNH", <Thaumcraft:ItemHelmetCultistLeaderPlate>);
+mods.thaumcraft.Warp.addToResearch("PraetorarmorGTNH", 5);
+
+// --- Crimson Preadetor Chestplate
+mods.thaumcraft.Infusion.addRecipe("PraetorarmorGTNH", <Thaumcraft:ItemChestplateCultistPlate>,
+[<gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>], 
+"metallum 64, praecantatio 64, tenebrae 64, alienis 64, tutamen 64", <Thaumcraft:ItemChestplateCultistLeaderPlate>, 6);
+mods.thaumcraft.Research.addInfusionPage("PraetorarmorGTNH", <Thaumcraft:ItemChestplateCultistLeaderPlate>);
+
+// --- Crimson Preadetor Greaves
+mods.thaumcraft.Infusion.addRecipe("PraetorarmorGTNH", <Thaumcraft:ItemLeggingsCultistPlate>,
+[<gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>], 
+"metallum 64, praecantatio 64, tenebrae 64, alienis 64, tutamen 64", <Thaumcraft:ItemLeggingsCultistLeaderPlate>, 6);
+mods.thaumcraft.Research.addInfusionPage("PraetorarmorGTNH", <Thaumcraft:ItemLeggingsCultistLeaderPlate>);
+
+// --- Phial of Voidsent Blood
+mods.thaumcraft.Research.orphanResearch("VOIDSENTBLOOD");
+mods.thaumcraft.Research.removeResearch("VOIDSENTBLOOD");
+mods.thaumcraft.Research.addResearch("VoidsentGTNH", "TM", "tenebrae 21, tutamen 18, vacuos 15, tenebrae 12, auram 9, praecantatio 6, alienis 3", -7, -5, 4, <TaintedMagic:ItemVoidsentBlood>);
+mods.thaumcraft.Research.addPrereq("VoidsentGTNH", "PraetorarmorGTNH", false);
+mods.thaumcraft.Research.setConcealed("VoidsentGTNH", true);
+game.setLocalization("tc.research_name.VoidsentGTNH", "Voidsent Blood");
+game.setLocalization("tc.research_text.VoidsentGTNH", "Lady Amandine's favourite");
+mods.thaumcraft.Research.addPage("VoidsentGTNH", "tc.research_page.VoidsentGTNH");
+game.setLocalization("tc.research_page.VoidsentGTNH", "While you love Crimson Cult robes, they are inferior to any armor made from Voidmetal because they do not repair themselves.<BR>Until now.<BR>Voidsent Blood is a simple concoction, it's just Crystal Blood infused with void aspects.<BR>Applying this elixir to Crimson Cult attire via a crafting grid will cause the armor to repair itself. ");
+mods.thaumcraft.Crucible.addRecipe("VoidsentGTNH", <TaintedMagic:ItemVoidsentBlood>, <TaintedMagic:ItemMaterial:7>, "auram 12, tenebrae 12, tutamen 12, vacuos 16, alienis 16"); 
+mods.thaumcraft.Research.addCruciblePage("VoidsentGTNH", <TaintedMagic:ItemVoidsentBlood>);
+mods.thaumcraft.Warp.addToResearch("VoidsentGTNH", 2);
+
+// --- Crimson Blade
+mods.thaumcraft.Research.orphanResearch("CRIMSONBLADE");
+mods.thaumcraft.Research.removeResearch("CRIMSONBLADE");
+mods.thaumcraft.Research.addResearch("CrimsonBladeGTNH", "TM", "perditio 18, telum 15, vacuos 12, tenebrae 9, metallum 6, potentia 3", -7, -3, 4, <Thaumcraft:ItemSwordCrimson>);
+mods.thaumcraft.Research.addPrereq("CrimsonBladeGTNH", "PraetorarmorGTNH", false);
+mods.thaumcraft.Research.setConcealed("CrimsonBladeGTNH", true);
+game.setLocalization("tc.research_name.CrimsonBladeGTNH", "Crimson Blade");
+game.setLocalization("tc.research_text.CrimsonBladeGTNH", "This shall be mercy");
+mods.thaumcraft.Research.addPage("CrimsonBladeGTNH", "tc.research_page.CrimsonBladeGTNH");
+game.setLocalization("tc.research_page.CrimsonBladeGTNH", "This seems to be the conclusion of your studies on the Crimson Cult and Crystal Blood, you have finally done it. You created the legendary weapon known as The Crimson Blade; the blade wielded by the Cult's leader them self.<BR>This blade will inflict weakness upon anything it strikes, and it also possesses the ability to crystallize blood - just like the Crystal Dagger.");
+mods.thaumcraft.Infusion.addRecipe("CrimsonBladeGTNH", <Thaumcraft:ItemSwordVoid>,
+[<TaintedMagic:ItemCrystalDagger>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:7>], 
+"alienis 16, metallum 24, perditio 32, telum 64, vacuos 48, tenebrae 32", <Thaumcraft:ItemSwordCrimson>, 9);
+mods.thaumcraft.Research.addInfusionPage("CrimsonBladeGTNH", <Thaumcraft:ItemSwordCrimson>);
+mods.thaumcraft.Warp.addToResearch("CrimsonBladeGTNH", 5);
+
+// --- Voidmetal Goggles of Revealing
+mods.thaumcraft.Research.orphanResearch("VOIDGOGGLES");
+mods.thaumcraft.Research.removeResearch("VOIDGOGGLES");
+mods.thaumcraft.Research.addResearch("VoidgogglesGTNH", "TM", "sensus 21, vacuos 18, praecantatio 15, tenebrae 12, vitreus 9, alienis 6, metallum 3", 3, 5, 4, <TaintedMagic:ItemVoidmetalGoggles>);
+mods.thaumcraft.Research.addPrereq("VoidgogglesGTNH", "WarpedGogglesGTNH", false);
+mods.thaumcraft.Research.addPrereq("VoidgogglesGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.setConcealed("VoidgogglesGTNH", true);
+game.setLocalization("tc.research_name.VoidgogglesGTNH", "Voidmetal Goggles of Revealing");
+game.setLocalization("tc.research_text.VoidgogglesGTNH", "Who needs 20/20 vision anyway?");
+mods.thaumcraft.Research.addPage("VoidgogglesGTNH", "tc.research_page.VoidgogglesGTNH");
+game.setLocalization("tc.research_page.VoidgogglesGTNH", "By infusing your Warped Goggles of Revealing with Voidmetal, you have created a pair of goggles that repair themselves, and have an extremely high vis discount.<BR>Sadly, they offer inferior protection to the original Warped Goggles of Revealing.<BR>Your vision might become distorted and warped while wearing these goggles, but that's okay...warp is not a bad thing, right?");
+mods.thaumcraft.Infusion.addRecipe("VoidgogglesGTNH", <TaintedMagic:ItemWarpedGoggles>,
+[<TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:24506>, <gregtech:gt.metaitem.01:27970>, <gregtech:gt.metaitem.01:26970>, <gregtech:gt.metaitem.01:27970>, <gregtech:gt.metaitem.01:24506>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:17970>], 
+"sensus 32, tenebrae 32, tutamen 48, vacuos 64, vitreus 24, alienis 8, metallum 16", <TaintedMagic:ItemVoidmetalGoggles>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidgogglesGTNH", <TaintedMagic:ItemVoidmetalGoggles>);
+mods.thaumcraft.Warp.addToResearch("VoidgogglesGTNH", 5);
+
+// --- Wand Focus Tainted Storm
+mods.thaumcraft.Research.orphanResearch("TAINTFOCUS");
+mods.thaumcraft.Research.removeResearch("TAINTFOCUS");
+mods.thaumcraft.Research.addResearch("TaintFocusGTNH", "TM", "vitium 18, aqua 15, limus 12, aer 9, praecantatio 6, potentia 3", 5, 2, 4, <TaintedMagic:ItemFocusTaint>);
+mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "EvilshardsGTNH", false);
+mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "BOTTLETAINT", false);
+mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "TAINTSHOVEL", false);
+mods.thaumcraft.Research.setConcealed("TaintFocusGTNH", true);
+game.setLocalization("tc.research_name.TaintFocusGTNH", "Wand Focus: Tainted Storm");
+game.setLocalization("tc.research_text.TaintFocusGTNH", "Sickness must be purged!");
+mods.thaumcraft.Research.addPage("TaintFocusGTNH", "tc.research_page.TaintFocusGTNH");
+game.setLocalization("tc.research_page.TaintFocusGTNH", "After having seen the destructive power of flux you thought it would be interesting to make a wand focus that harnesses this power. The result is the Tainted Storm focus.<BR>This focus will blast an AoE attack of Tainted Bubbles within a range of 10 metres, inflicting a poison effect on contact, and causing a fair amount of damage.<BR>Take caution when using this focus, for there is a chance you will get infected with the Flux Flu while using it. But, thats only the consequence of handling such a large amount of flux.");
+mods.thaumcraft.Infusion.addRecipe("TaintFocusGTNH", <Thaumcraft:FocusPech>,
+[<Thaumcraft:ItemResource:11>, <TaintedMagic:ItemMaterial:4>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:12>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:11>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:12>, <Thaumcraft:ItemBottleTaint>, <ForbiddenMagic:NetherShard:2>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:11>], 
+"aqua 72, limus 72, praecantatio 72, vitium 72, aer 64, potentia 32", <TaintedMagic:ItemFocusTaint>, 9);
+mods.thaumcraft.Research.addInfusionPage("TaintFocusGTNH", <TaintedMagic:ItemFocusTaint>);
+mods.thaumcraft.Warp.addToResearch("TaintFocusGTNH", 4);
+
+// --- Wand Focus Tainted Shock Wave
+mods.thaumcraft.Research.orphanResearch("FOCUSTAINTEDBLAST");
+mods.thaumcraft.Research.removeResearch("FOCUSTAINTEDBLAST");
+mods.thaumcraft.Research.addResearch("FocusTaintedBlastGTNH", "TM", "praecantatio 21, vitium 18, motus 15, aer 12, perditio 9, telum 6, motus 3", 5, 3, 4, <TaintedMagic:ItemFocusTaintedBlast>);
+mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "TaintFocusGTNH", false);
+mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "FOCUSFIRE", false);
+mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "ELDRITCHMINOR", false);
+mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.setConcealed("FocusTaintedBlastGTNH", true);
+game.setLocalization("tc.research_name.FocusTaintedBlastGTNH", "Wand Focus: Tainted Shockwave");
+game.setLocalization("tc.research_text.FocusTaintedBlastGTNH", "Almighty push");
+mods.thaumcraft.Research.addPage("FocusTaintedBlastGTNH", "tc.research_page.FocusTaintedBlastGTNH");
+game.setLocalization("tc.research_page.FocusTaintedBlastGTNH", "With the study of advanced foci and taint, you felt the need for a focus that offensive, but defensive.<BR>The Wand Focus: Tainted Shockwave will gather an extremely concentrated amount of tainted energy at the tip of you wand, then eventually explode in a 15 block radius. This will certainly blast all entities far away from you. It also seems that the Enlarge upgrade in the Focal Manipulator will increase the radius.<BR>50 zombies swarming you? No problem! Whip out your wand and they will be sent flying.");
+mods.thaumcraft.Infusion.addRecipe("FocusTaintedBlastGTNH", <TaintedMagic:ItemFocusTaint>,
+[<IC2:blockITNT>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:11>, <IC2:blockITNT>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemBottleTaint>, <IC2:blockITNT>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:15>, <IC2:blockITNT>, <Thaumcraft:ItemResource:11>, <Thaumcraft:ItemBottleTaint>], 
+"motus 64, praecantatio 64, telum 72, vitium 84, cognitio 32, aer 48, praecantatio 16", <TaintedMagic:ItemFocusTaintedBlast>, 12);
+mods.thaumcraft.Research.addInfusionPage("FocusTaintedBlastGTNH", <TaintedMagic:ItemFocusTaintedBlast>);
+mods.thaumcraft.Warp.addToResearch("FocusTaintedBlastGTNH", 6);
