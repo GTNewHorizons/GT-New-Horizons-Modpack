@@ -96,6 +96,38 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusTaint>);
 // --- Wand Focus Tainted Shock Wave
 mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusTaintedBlast>);
 
+// --- Thaumic Alloy
+mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemMaterial:6>);
+
+// --- Thaumic Disassembler
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemThaumicDisassembler>);
+
+// --- Boots of Void Walker
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidwalkerBoots>);
+
+// --- Voidwalkers Sash of runic Schielding
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidwalkerSash>);
+
+// --- Void Fortress Helmet
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidFortressHelmet>);
+
+// --- Void Fortress Cuirass
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidFortressChestplate>);
+
+// --- Void Tight Guards
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemVoidFortressLeggings>);
+
+// --- Shadow Fortress Helmet
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemShadowFortressHelmet>);
+
+// --- Shadow Fortress Cuirass
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemShadowFortressChestplate>);
+
+// --- Shadow Tight Guards
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemShadowFortressLeggings>);
+
+// --- All Fortress Blades
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemKatana:*>);
 
 
 
@@ -509,3 +541,201 @@ mods.thaumcraft.Infusion.addRecipe("FocusTaintedBlastGTNH", <TaintedMagic:ItemFo
 "motus 64, praecantatio 64, telum 72, vitium 84, cognitio 32, aer 48, praecantatio 16", <TaintedMagic:ItemFocusTaintedBlast>, 12);
 mods.thaumcraft.Research.addInfusionPage("FocusTaintedBlastGTNH", <TaintedMagic:ItemFocusTaintedBlast>);
 mods.thaumcraft.Warp.addToResearch("FocusTaintedBlastGTNH", 6);
+
+// --- Thaumic Alloy
+mods.thaumcraft.Research.orphanResearch("THAUMICDISASSEMBLER");
+mods.thaumcraft.Research.removeResearch("THAUMICDISASSEMBLER");
+mods.thaumcraft.Research.addResearch("ThaumicdisassemblerGTNH", "TM", "telum 18, metallum 15, instrumentum 12, praecantatio 9, alienis 6, vitium 3", 5, -6, 4, <TaintedMagic:ItemThaumicDisassembler>);
+mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.setConcealed("ThaumicdisassemblerGTNH", true);
+game.setLocalization("tc.research_name.ThaumicdisassemblerGTNH", "Thaumic Disassembler");
+game.setLocalization("tc.research_text.ThaumicdisassemblerGTNH", "Wait a minute...");
+mods.thaumcraft.Research.addPage("ThaumicdisassemblerGTNH", "tc.research_page.ThaumicdisassemblerGTNH.1");
+game.setLocalization("tc.research_page.ThaumicdisassemblerGTNH.1", "It was rumored that in the world of modern technology, a tool existed that goes by the name The Atomic Disassembler.<BR>This tool is said to be perfect - you can break any block at your desired speed. All it cost was a little bit of energy.<BR>You became jealous hearing about these technological advancements and honestly, you want these tech-tools.<BR>But, you are a Thaumaturge. You will NOT dabble in technology. You must create a tool that is an equal to the Atomic Disassembler using the power of Thaumaturgy.");
+mods.thaumcraft.Arcane.addShaped("ThaumicdisassemblerGTNH", <TaintedMagic:ItemMaterial:6>, "ordo 75, perditio 75, terra 50", [
+[<ore:plateVoid>, <ore:plateThaumium>, <ore:plateVoid>], 
+[<ore:plateShadow>, <Thaumcraft:blockCrystal:6>, <ore:plateShadow>], 
+[<ore:plateVoid>, <ore:plateThaumium>, <ore:plateVoid>]]);
+mods.thaumcraft.Research.addArcanePage("ThaumicdisassemblerGTNH", <TaintedMagic:ItemMaterial:6>);
+mods.thaumcraft.Warp.addToResearch("ThaumicdisassemblerGTNH", 4);
+
+// --- Thaumic Disassembler
+mods.thaumcraft.Research.addPage("ThaumicdisassemblerGTNH", "tc.research_page.ThaumicdisassemblerGTNH.2");
+game.setLocalization("tc.research_page.ThaumicdisassemblerGTNH.2", "The Thaumic Disassembler is just that, you can break any block, anytime, at any speed you want. Just Shift+Right-click to change the speed. Though, when it came time to find a way to power this tool, you were stumped for quite some time. Due to the Thaumium in the matrix, the repairing proprieties of Void Metal did not apply.<BR>Finally, it dawned upon  you. All it took was a small amount of Perditio Vis to keep this tool charged.<BR>You do not need technology, for you are a Thaumaturge!");
+mods.thaumcraft.Infusion.addRecipe("ThaumicdisassemblerGTNH", <TaintedMagic:ItemMaterial:6>,
+[<Thaumcraft:ItemPickVoid>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemShovelVoid>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemSwordVoid>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemAxeVoid>, <gregtech:gt.metaitem.01:17368>], 
+"instrumentum 32, metallum 32, telum 24, vacuos 24, praecantatio 16, potentia 16", <TaintedMagic:ItemThaumicDisassembler>, 10);
+mods.thaumcraft.Research.addInfusionPage("ThaumicdisassemblerGTNH", <TaintedMagic:ItemThaumicDisassembler>);
+
+// --- Boots of Void Walker
+mods.thaumcraft.Research.orphanResearch("VOIDWALKERBOOTS");
+mods.thaumcraft.Research.removeResearch("VOIDWALKERBOOTS");
+mods.thaumcraft.Research.addResearch("VoidWalkerBootsGTNH", "TM", "tenebrae 21, tutamen 18, alienis 15, praecantatio 12, iter 9, aer 6, volatus 3", 4, -8, 4, <TaintedMagic:ItemVoidwalkerBoots>);
+mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "BOOTSTRAVELLER", false);
+mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "TAINTEDMAGIC", true);
+mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.setConcealed("VoidWalkerBootsGTNH", true);
+game.setLocalization("tc.research_name.VoidWalkerBootsGTNH", "Boots of the Voidwalker");
+game.setLocalization("tc.research_text.VoidWalkerBootsGTNH", "Otherworldly footwear");
+mods.thaumcraft.Research.addPage("VoidWalkerBootsGTNH", "tc.research_page.VoidWalkerBootsGTNH");
+game.setLocalization("tc.research_page.VoidWalkerBootsGTNH", "You have been searching, searching very hard for a set of boots to complete your Void Thaumaturge attire. After a long night of researching, you finally devised the perfect pair of boots to complete the set.<BR>The Boots of the Voidwalker offer outstanding protection, as well as an enormous speed boost while walking or flying. You will also be immune to fall damage while wearing the boots.");
+mods.thaumcraft.Infusion.addRecipe("VoidWalkerBootsGTNH", <Thaumcraft:BootsTraveller>,
+[<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
+"alienis 64, iter 84, tenebrae 72, tutamen 64, vacuos 64, praecantatio 32", <TaintedMagic:ItemVoidwalkerBoots>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidWalkerBootsGTNH", <TaintedMagic:ItemVoidwalkerBoots>);
+mods.thaumcraft.Warp.addToResearch("VoidWalkerBootsGTNH", 4);
+
+// --- Voidwalkers Sash of runic Schielding
+mods.thaumcraft.Research.orphanResearch("VOIDSASH");
+mods.thaumcraft.Research.removeResearch("VOIDSASH");
+mods.thaumcraft.Research.addResearch("VoidSashGTNH", "TM", "metallum 24, vacuos 21, tutamen 18, praecantatio 15, alienis 12, tenebrae 9, iter 6, aer 3", 3, -8, 4, <TaintedMagic:ItemVoidwalkerSash>);
+mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "VoidWalkerBootsGTNH", false);
+mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "RUNICARMOR", false);
+mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "TAINTEDMAGIC", true);
+mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.setConcealed("VoidSashGTNH", true);
+game.setLocalization("tc.research_name.VoidSashGTNH", "Voidwalker's Sash of Runic Shielding");
+game.setLocalization("tc.research_text.VoidSashGTNH", "Gotta go fast");
+mods.thaumcraft.Research.addPage("VoidSashGTNH", "tc.research_page.VoidSashGTNH");
+game.setLocalization("tc.research_page.VoidSashGTNH", "After extensive study of Runic Shielding, you had a bizarre idea.<BR>Using Void Metal, Shadowmetal, the Primordial Pearl, a little Shadow Cloth and a fine mixture of essentia; a sash of runic shielding more powerful than you had ever believed possible was created. The Voidwalker's Sash of Runic Shielding offers §6Runic Shield +20§0 and can be equipped in the belt slot.<BR>If you are wearing the sash alongside the Boots of the Voidwalker, your speed and jump height will be increased greatly. One would Shift+Right-click with the sash to toggle this effect.");
+mods.thaumcraft.Infusion.addRecipe("VoidSashGTNH", <Thaumcraft:ItemGirdleRunic>,
+[<Thaumcraft:ItemEldritchObject:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:30508>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>], 
+"iter 48, praecantatio 64, tutamen 84, vacuos 72, volatus 32, alienis 24, aer 16", <TaintedMagic:ItemVoidwalkerSash>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidSashGTNH", <TaintedMagic:ItemVoidwalkerSash>);
+mods.thaumcraft.Warp.addToResearch("VoidSashGTNH", 4);
+
+// --- Void Fortress Helmet
+mods.thaumcraft.Research.orphanResearch("VOIDFORTRESS");
+mods.thaumcraft.Research.removeResearch("VOIDFORTRESS");
+mods.thaumcraft.Research.addResearch("VoidFortressGTNH", "TM", "tutamen 21, vacuos 18, alienis 15, tenebrae 12, victus 9, cognitio 6, terra 3", 7, -8, 4, <TaintedMagic:ItemVoidFortressHelmet>);
+mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "ARMORFORTRESS", false);
+mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.setConcealed("VoidFortressGTNH", true);
+game.setLocalization("tc.research_name.VoidFortressGTNH", "Void Fortress Armor");
+game.setLocalization("tc.research_text.VoidFortressGTNH", "Nothing is getting out");
+mods.thaumcraft.Research.addPage("VoidFortressGTNH", "tc.research_page.VoidFortressGTNH");
+game.setLocalization("tc.research_page.VoidFortressGTNH", "This is a simple improvement on the concepts laid down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. ");
+mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemHelmetVoid>,
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
+"alienis 32, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 16, potentia 16, victus 32", <TaintedMagic:ItemVoidFortressHelmet>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressHelmet>);
+mods.thaumcraft.Warp.addToResearch("VoidFortressGTNH", 5);
+
+// --- Void Fortress Cuirass
+mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemChestplateVoid>,
+[<gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17351>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>], 
+"alienis 32, metallum 64, praecantatio 64, tutamen 64, vacuos 32, tenebrae 16, potentia 16, cognitio 32", <TaintedMagic:ItemVoidFortressChestplate>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressChestplate>);
+
+// --- Void Tight Guards
+mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemLeggingsVoid>,
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
+"alienis 32, metallum 32, praecantatio 32, tutamen 32, vacuos 32, tenebrae 16, potentia 16, terra 32", <TaintedMagic:ItemVoidFortressLeggings>, 12);
+mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressLeggings>);
+
+// --- Shadow Fortress Helmet
+mods.thaumcraft.Research.orphanResearch("SHADOWFORTRESSARMOR");
+mods.thaumcraft.Research.removeResearch("SHADOWFORTRESSARMOR");
+mods.thaumcraft.Research.addResearch("ShadowFortressArmorGTNH", "TM", "tutamen 24, vacuos 21, alienis 18, tenebrae 15, victus 12, cognitio 9, terra 6, superbia 3", 8, -9, 4, <TaintedMagic:ItemShadowFortressHelmet>);
+mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "VoidFortressGTNH", false);
+mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.setConcealed("ShadowFortressArmorGTNH", true);
+game.setLocalization("tc.research_name.ShadowFortressArmorGTNH", "Shadow Fortress Armor");
+game.setLocalization("tc.research_text.ShadowFortressArmorGTNH", "If you wear robes, you are weak");
+mods.thaumcraft.Research.addPage("ShadowFortressArmorGTNH", "tc.research_page.ShadowFortressArmorGTNH");
+game.setLocalization("tc.research_page.ShadowFortressArmorGTNH", "After having discovered Thaumium and Void Fortress Armor, you thought to yourself that Shadowmetal would be the perfect candidate to be made into Fortress Armor.<BR>It worked perfectly. While this suit of armor did not inherit the auto-repair ability, it is drastically more protective than the Void Fortress Armor. It also seems that wearing multiple pieces of this armor will increase its protection significantly.<BR>Like normal fortress armor, this armor can be enhanced by various different faceplates and modifications.");
+mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressHelmet>,
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+"alienis 48, metallum 64, praecantatio 64, tutamen 64, vacuos 48, tenebrae 32, potentia 32, victus 48", <TaintedMagic:ItemShadowFortressHelmet>, 16);
+mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressHelmet>);
+mods.thaumcraft.Warp.addToResearch("ShadowFortressArmorGTNH", 10);
+
+// --- Shadow Fortress Cuirass
+mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressChestplate>,
+[<TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>], 
+"alienis 48, metallum 84, praecantatio 84, tutamen 84, vacuos 48, tenebrae 32, potentia 32, cognitio 48", <TaintedMagic:ItemShadowFortressChestplate>, 16);
+mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressChestplate>);
+
+// --- Shadow Tight Guards
+mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressLeggings>,
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+"alienis 48, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 32, potentia 32, terra 48", <TaintedMagic:ItemShadowFortressLeggings>, 16);
+mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressLeggings>);
+
+// --- Thaumic Fortress Blade
+mods.thaumcraft.Research.orphanResearch("THAUMIUMKATANA");
+mods.thaumcraft.Research.removeResearch("THAUMIUMKATANA");
+mods.thaumcraft.Research.addResearch("ThaumiumKatanaGTNH", "TM", "metallum 18, telum 15, praecantatio 12, motus 9, potentia 6, mortuus 3", 7, 1, 4, <TaintedMagic:ItemKatana>);
+mods.thaumcraft.Research.addPrereq("ThaumiumKatanaGTNH", "ARMORFORTRESS", false);
+mods.thaumcraft.Research.addPrereq("ThaumiumKatanaGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.setConcealed("ThaumiumKatanaGTNH", true);
+game.setLocalization("tc.research_name.ThaumiumKatanaGTNH", "Thaumium Fortress Blade");
+game.setLocalization("tc.research_text.ThaumiumKatanaGTNH", "Nothing will survive");
+mods.thaumcraft.Research.addPage("ThaumiumKatanaGTNH", "tc.research_page.ThaumiumKatanaGTNH");
+game.setLocalization("tc.research_page.ThaumiumKatanaGTNH", "Using a design similar to Thaumium Fortress Armor, you have designed a blade that will fit the set perfectly.<BR>By improving the construction process of a Thaumium Sword, you have increased the damage it will deal. This blade will also never take damage from use.<BR>Furthermore, you can charge your blade by holding down right click. Upon releasing, a strike will be delivered with increased damage based on how charged the blade is. At full charge, the blade has the potential to deal up to 2 times its attack damage. The blade will remain sheathed at your hip when it is not in use.");
+mods.thaumcraft.Infusion.addRecipe("ThaumiumKatanaGTNH", <Thaumcraft:ItemSwordThaumium>,
+[<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:29501>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:29501>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:17330>], 
+"metallum 64, praecantatio 32, telum 48, mortuus 24, potentia 16, motus 8", <TaintedMagic:ItemKatana>, 6);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumKatanaGTNH", <TaintedMagic:ItemKatana>);
+mods.thaumcraft.Warp.addToResearch("ThaumiumKatanaGTNH", 3);
+
+// --- Void Metal Fortress Blade
+mods.thaumcraft.Research.orphanResearch("VOIDMETALKATANA");
+mods.thaumcraft.Research.removeResearch("VOIDMETALKATANA");
+mods.thaumcraft.Research.addResearch("VoidMetalKatanaGTNH", "TM", "metallum 21, telum 18, vacuos 15, praecantatio 12, motus 9, potentia 6, mortuus 3", 7, 0, 4, <TaintedMagic:ItemKatana:1>);
+mods.thaumcraft.Research.addPrereq("VoidMetalKatanaGTNH", "ThaumiumKatanaGTNH", false);
+mods.thaumcraft.Research.addPrereq("VoidMetalKatanaGTNH", "VOIDMETAL", true);
+mods.thaumcraft.Research.setConcealed("VoidMetalKatanaGTNH", true);
+game.setLocalization("tc.research_name.VoidMetalKatanaGTNH", "Voidmetal Fortress Blade");
+game.setLocalization("tc.research_text.VoidMetalKatanaGTNH", "Void samurai");
+mods.thaumcraft.Research.addPage("VoidMetalKatanaGTNH", "tc.research_page.VoidMetalKatanaGTNH");
+game.setLocalization("tc.research_page.VoidMetalKatanaGTNH", "By using the same construction process as the Thaumium Fortress blade, but substituting the material for Voidmetal, you have created a Fortress Blade that is even more powerful.<BR>The Voidmetal Fortress Blade is not only sharper and stronger than its Thaumium counterpart, but also possesses the Greater Sapping effect which will weaken anything you hit.<BR>They do say that this much Voidmetal is not healthy for ones body, but you care not.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.");
+mods.thaumcraft.Infusion.addRecipe("VoidMetalKatanaGTNH", <Thaumcraft:ItemSwordVoid>,
+[<gregtech:gt.metaitem.01:17386>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17386>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17970>], 
+"alienis 48, metallum 72, praecantatio 48, telum 64, mortuus 32, potentia 24, motus 16, vacuos 32", <TaintedMagic:ItemKatana:1>, 9);
+mods.thaumcraft.Research.addInfusionPage("VoidMetalKatanaGTNH", <TaintedMagic:ItemKatana:1>);
+mods.thaumcraft.Warp.addToResearch("VoidMetalKatanaGTNH", 6);
+
+// --- Shadow Metal Fortress Blade
+mods.thaumcraft.Research.orphanResearch("SHADOWMETALKATANA");
+mods.thaumcraft.Research.removeResearch("SHADOWMETALKATANA");
+mods.thaumcraft.Research.addResearch("ShadowMetalKatanaGTNH", "TM", "tenebrae 24, metallum 21, telum 18, vacuos 15, praecantatio 12, motus 9, potentia 6, mortuus 3", 8, -1, 4, <TaintedMagic:ItemKatana:2>);
+mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "VoidMetalKatanaGTNH", false);
+mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.setConcealed("ShadowMetalKatanaGTNH", true);
+game.setLocalization("tc.research_name.ShadowMetalKatanaGTNH", "Shadowmetal Fortress Blade");
+game.setLocalization("tc.research_text.ShadowMetalKatanaGTNH", "Chakra blades");
+mods.thaumcraft.Research.addPage("ShadowMetalKatanaGTNH", "tc.research_page.ShadowMetalKatanaGTNH");
+game.setLocalization("tc.research_page.ShadowMetalKatanaGTNH", "After having discovered Shadowmetal Fortress Armor, you were certain that you could make a Fortress Blade from Shadowmetal as well.<BR>The results were astounding. By following the same construction process as the Thaumium and Voidmetal Fortress Blades, you have created the strongest, and sharpest Fortress Blade you have ever laid eyes upon.<BR>The blade will also inflict a slowing effect while simultaneously blurring the vision of whatever you hit.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.");
+mods.thaumcraft.Infusion.addRecipe("ShadowMetalKatanaGTNH", <TaintedMagic:ItemShadowmetalSword>,
+[<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:17368>], 
+"alienis 64, metallum 84, praecantatio 64, telum 72, mortuus 48, potentia 32, motus 24, vacuos 48, tenebrae 48", <TaintedMagic:ItemKatana:2>, 12);
+mods.thaumcraft.Research.addInfusionPage("ShadowMetalKatanaGTNH", <TaintedMagic:ItemKatana:2>);
+mods.thaumcraft.Warp.addToResearch("ShadowMetalKatanaGTNH", 9);
+
+
+// --- Vulcanic Inspiration
+mods.thaumcraft.Research.addPrereq("INSCRIPTIONFIRE", "ThaumiumKatanaGTNH", false);
+mods.thaumcraft.Research.setConcealed("INSCRIPTIONFIRE", true);
+mods.thaumcraft.Research.setAspects("INSCRIPTIONFIRE", "ignis 15, metallum 12, lux 9, praecantatio 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("INSCRIPTIONFIRE", 3);
+mods.thaumcraft.Warp.addToResearch("INSCRIPTIONFIRE", 2);
+
+// --- Tainted Inspiration
+mods.thaumcraft.Research.addPrereq("INSCRIPTIONTAINT", "ThaumiumKatanaGTNH", false);
+mods.thaumcraft.Research.setConcealed("INSCRIPTIONTAINT", true);
+mods.thaumcraft.Research.setAspects("INSCRIPTIONTAINT", "vitium 15, metallum 12, corpus 9, praecantatio 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("INSCRIPTIONTAINT", 3);
+mods.thaumcraft.Warp.addToResearch("INSCRIPTIONTAINT", 3);
+
+// --- Undead Inspiration
+mods.thaumcraft.Research.addPrereq("INSCRIPTIONUNDEAD", "ThaumiumKatanaGTNH", false);
+mods.thaumcraft.Research.setConcealed("INSCRIPTIONUNDEAD", true);
+mods.thaumcraft.Research.setAspects("INSCRIPTIONUNDEAD", "sano 15, metallum 12, exanimis 9, praecantatio 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("INSCRIPTIONUNDEAD", 3);
+mods.thaumcraft.Warp.addToResearch("INSCRIPTIONUNDEAD", 4);
