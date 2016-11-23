@@ -861,7 +861,7 @@ Assembler.addRecipe(<dreamcraft:item.LightBinding>, <GalacticraftMars:item.itemB
 Assembler.addRecipe(<dreamcraft:item.BioOrganicMesh>, <dreamcraft:item.RawBioFiber> * 2, <gregtech:gt.integrated_circuit:2> * 0, 800, 2);
 
 // --- Bio Chunk
-Assembler.addRecipe(<dreamcraft:item.BioChunk>, <dreamcraft:tile.Charcoal>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
+Assembler.addRecipe(<dreamcraft:item.BioChunk>, <gregtech:gt.blockgem3:4>, <dreamcraft:item.CompressedBioBall> * 8, 1200, 64);
 
 // --- Diamond Frame Box
 Assembler.addRecipe(<dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:23500> * 4, <gregtech:gt.integrated_circuit:4> * 0, 64, 8);
@@ -942,19 +942,6 @@ Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 
 
 
-// --- Blast Furnace Recipes ---
-
-
-
-// --- Advanced Coke Oven Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.AdvancedCokeOvenBrick>], <liquid:oxygen> * 1000, [<dreamcraft:item.InfernalBrick>, <dreamcraft:item.CokeOvenBrick>], 600, 120, 1500); 
-
-// --- Infernal Netherrack Bricks
-BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:lava> * 1000, [<minecraft:netherbrick> * 4, <BiomesOPlenty:flowers2:2>], 1200, 120, 1800); 
-
-
-
-
 // --- Brewing Recipes ---
 
 
@@ -962,16 +949,6 @@ BlastFurnace.addRecipe([<dreamcraft:item.HotNetherrackBrick> * 4], <liquid:lava>
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
 // -
 Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
-
-
-
-// --- Chemical Bath Recipes ---
-
-
-
-// --- Infernal Bricks
-ChemicalBath.addRecipe([<dreamcraft:item.InfernalBrick> * 4], <dreamcraft:item.HotNetherrackBrick> * 4, <liquid:hell_blood> * 1000, [10000], 100, 30);
-
 
 
 
@@ -1006,11 +983,8 @@ Compressor.addRecipe(<dreamcraft:tile.BlackPlutonium>, <gregtech:gt.metaitem.01:
 // --- Block of Mytryl
 Compressor.addRecipe(<dreamcraft:tile.Mytryl>, <dreamcraft:item.MytrylIngot> * 9);
 
-// --- Compressed Block of Charcoal
-Compressor.addRecipe(<dreamcraft:tile.Charcoal>, <minecraft:coal:1> * 9);
-
 // --- Compressed Charcoal Block
-Compressor.addRecipe(<dreamcraft:tile.CompressedCharcoal>, <dreamcraft:tile.Charcoal> * 9);
+Compressor.addRecipe(<dreamcraft:tile.CompressedCharcoal>, <gregtech:gt.blockgem3:4> * 9);
 
 // --- Compressed Coal Block
 Compressor.addRecipe(<dreamcraft:tile.CompressedCoal>, <minecraft:coal_block> * 9);
@@ -1404,12 +1378,6 @@ ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergis
 // --- High Energy Circuit Parts
 FormingPress.addRecipe(<dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:2501> * 3, 200, 256);
 
-// --- Nano Processor Board
-FormingPress.addRecipe(<dreamcraft:item.NanoProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 4, <dreamcraft:item.EtchedInsaneVoltageWiring> * 4, 200, 4096);
-
-// --- Quantum Processor Board
-FormingPress.addRecipe(<dreamcraft:item.QuantumProcessorBoard>, <gregtech:gt.metaitem.01:17020> * 8, <dreamcraft:item.EtchedLudicrousVoltageWiring> * 8, 400, 30720);
-
 // --- Simple Circuit Board
 FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);
 
@@ -1688,25 +1656,6 @@ VacuumFreezer.addRecipe(<dreamcraft:item.MytrylIngot>, <dreamcraft:item.MytrylHo
 
 // --- Electrotine Wire
 Wiremill.addRecipe(<dreamcraft:item.ElectrotineWire> * 2, <ProjRed|Core:projectred.core.part:55>, 100, 4);
-
-
-
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Block of Charcoal
-mods.thaumcraft.Aspects.set(<dreamcraft:tile.Charcoal>, "ignis 13, potentia 13");
-
-
-
-
-// --- Oredict Stuff ---
-
-
-
-// --- Blocl of Charcoal
-oreDict.blockCharcoal.add(<dreamcraft:tile.Charcoal>);
-
 
 
 

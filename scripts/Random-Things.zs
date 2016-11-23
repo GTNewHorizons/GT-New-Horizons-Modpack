@@ -14,12 +14,9 @@ val SensorMV = <gregtech:gt.metaitem.01:32691>;
 val CircuitGood = <gregtech:gt.metaitem.01:32702>;
 
 
-// --- Remove Recipes
 
-// --- De Ordicted Obsidian Sticks
-oreDict.stickObsidian.remove(<RandomThings:ingredient:1>);
-oreDict.obsidianStick.remove(<RandomThings:ingredient:1>);
-oreDict.obsidianRod.remove(<RandomThings:ingredient:1>);
+
+
 
 // --- Remove Recipes
 

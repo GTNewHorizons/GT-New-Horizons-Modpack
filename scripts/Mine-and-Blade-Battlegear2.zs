@@ -2,93 +2,6 @@
 
 
 
-
-
-
-
-// --- Remove Recipes --- 
-
-
-
-// --- Wood Shield
-recipes.remove(<battlegear2:shield.wood>);
-
-// --- Hide Shield
-recipes.remove(<battlegear2:shield.hide>);
-
-// --- Iron Shield
-recipes.remove(<battlegear2:shield.iron>);
-
-// --- Golden Shield
-recipes.remove(<battlegear2:shield.gold>);
-
-// --- Diamond Shield
-recipes.remove(<battlegear2:shield.diamond>);
-
-// --- Wooden Dagger
-recipes.remove(<battlegear2:dagger.wood>);
-
-// --- Stone Dagger
-recipes.remove(<battlegear2:dagger.stone>);
-
-// --- Iron Dagger
-recipes.remove(<battlegear2:dagger.iron>);
-
-// --- Diamond Dagger
-recipes.remove(<battlegear2:dagger.diamond>);
-
-// --- Wooden Spear
-recipes.remove(<battlegear2:spear.wood>);
-
-// --- Stone Spear
-recipes.remove(<battlegear2:spear.stone>);
-
-// --- Iron Spear
-recipes.remove(<battlegear2:spear.iron>);
-
-// --- Gold Spear
-recipes.remove(<battlegear2:spear.gold>);
-
-// --- Diamond Spear
-recipes.remove(<battlegear2:spear.diamond>);
-
-// --- Wooden Axe
-recipes.remove(<battlegear2:waraxe.wood>);
-
-// --- Stone Axe
-recipes.remove(<battlegear2:waraxe.stone>);
-
-// --- Iron Axe
-recipes.remove(<battlegear2:waraxe.iron>);
-
-// --- Gold Axe
-recipes.remove(<battlegear2:waraxe.gold>);
-
-// --- Diamond Axe
-recipes.remove(<battlegear2:waraxe.diamond>);
-
-// --- Wooden Mace
-recipes.remove(<battlegear2:mace.wood>);
-
-// --- Stone Mace
-recipes.remove(<battlegear2:mace.stone>);
-
-// --- Iron Mace
-recipes.remove(<battlegear2:mace.iron>);
-
-// --- Gold Mace
-recipes.remove(<battlegear2:mace.gold>);
-
-// --- Diamond Mace
-recipes.remove(<battlegear2:mace.diamond>);
-
-// --- Quiver
-recipes.remove(<battlegear2:quiver>);
-
-
-
-
-
 // --- Adding Back Recipes ---
 
 
@@ -105,6 +18,24 @@ recipes.addShaped(<battlegear2:shield.hide>, [
 [<ore:itemFlint>, <ore:itemLeather>, <ore:itemFlint>],
 [<ore:itemLeather>, <battlegear2:shield.wood>, <ore:itemLeather>],
 [<ore:itemFlint>, <ore:itemLeather>, <ore:itemFlint>]]);
+
+// --- Iron Shield
+recipes.addShaped(<battlegear2:shield.iron>, [
+[<TConstruct:heavyPlate:2>, <TConstruct:toughBinding:2>, <TConstruct:heavyPlate:2>],
+[<ore:craftingToolHardHammer>, <TConstruct:toughRod:2>, <ore:craftingToolFile>],
+[null, <TConstruct:toughRod:2>, null]]);
+
+// --- Gold Shield
+recipes.addShaped(<battlegear2:shield.gold>, [
+[<TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"}), <TGregworks:tGregToolPartToughBind:6>.withTag({material: "Gold"}), <TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"})],
+[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:6>.withTag({material: "Gold"}), <ore:craftingToolFile>],
+[null, <TGregworks:tGregToolPartToughRod:6>.withTag({material: "Gold"}), null]]);
+
+// --- Diamond Shield
+recipes.addShaped(<battlegear2:shield.diamond>, [
+[<TGregworks:tGregToolPartLargePlate:77>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartToughBind:77>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:77>.withTag({material: "Diamond"})],
+[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:77>.withTag({material: "Diamond"}), <ore:craftingToolFile>],
+[null, <TGregworks:tGregToolPartToughRod:77>.withTag({material: "Diamond"}), null]]);
 
 // --- Wooden Dagger
 recipes.addShaped(<battlegear2:dagger.wood>, [
@@ -217,7 +148,7 @@ recipes.addShaped(<battlegear2:mace.diamond>, [
 [<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
 
 // --- Quiver
-recipes.addShaped(<battlegear2:quiver>.withTag({current: 0 as byte}), [
+recipes.addShaped(<battlegear2:quiver>, [
 [<ore:itemLeather>, <ore:ringAnyIron>, <ore:itemLeather>],
 [<ore:itemLeather>, <minecraft:string>, <ore:itemLeather>],
 [<Backpack:tannedLeather>, <ore:itemLeather>, <Backpack:tannedLeather>]]);

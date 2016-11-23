@@ -61,7 +61,7 @@ recipes.addShaped(<TMechworks:RedstoneMachine:1>, [
 Assembler.addRecipe(<TMechworks:RedstoneMachine:2>, <TMechworks:RedstoneMachine>, <gregtech:gt.blockmachines:9241>, <liquid:molten.redstone> * 576, 600, 30);
 
 // --- Extended Drawbridge
-Assembler.addRecipe(<TMechworks:RedstoneMachine:3>, <TMechworks:RedstoneMachine:2>, <gregtech:gt.metaitem.01:17033> * 6, <liquid:molten.redstone> * 1152, 1200, 64);
+Assembler.addRecipe(<TMechworks:RedstoneMachine:3>, <TMechworks:RedstoneMachine>, <gregtech:gt.metaitem.01:17033> * 6, <liquid:molten.redstone> * 1152, 1200, 64);
 
 // --- Spool of Wire
 Assembler.addRecipe(<TMechworks:SpoolWire:256>, <gregtech:gt.metaitem.01:23305>, <TMechworks:LengthWire>, 200, 16);

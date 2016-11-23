@@ -63,7 +63,7 @@ recipes.remove(<adventurebackpack:pistonBoots>);
 recipes.remove(<adventurebackpack:adventureSuit>);
 
 // --- Adventures Pants
-recipes.remove(<adventurebackpack:Pantaloon>);
+recipes.remove(<adventurebackpack:adventurePants>);
 
 // --- Clockwork Crossbow
 recipes.remove(<adventurebackpack:clockworkCrossbow>);
@@ -185,7 +185,7 @@ recipes.addShaped(<adventurebackpack:adventureSuit>, [
 [<Backpack:tannedLeather>, <ore:screwBronze>, <Backpack:tannedLeather>]]);
 
 // --- Adventures Pants
-recipes.addShaped(<adventurebackpack:Pantaloon>, [
+recipes.addShaped(<adventurebackpack:adventurePants>, [
 [<Backpack:tannedLeather>, <ore:craftingToolScrewdriver>, <Backpack:tannedLeather>],
 [<harvestcraft:wovencottonItem>, <minecraft:leather_leggings>, <harvestcraft:wovencottonItem>],
 [<Backpack:tannedLeather>, <ore:screwBronze>, <Backpack:tannedLeather>]]);

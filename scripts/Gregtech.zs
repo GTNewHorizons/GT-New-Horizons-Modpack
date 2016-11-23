@@ -307,9 +307,51 @@ recipes.remove(<gregtech:gt.metaitem.01:32759>);
 
 // --- Apatite
 recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>]]);
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>],
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>],
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>]]);
+
+// --- Silver Ingot
+recipes.removeShaped(<ore:ingotSilver>, [
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
+
+// --- Lead Ingot
+recipes.removeShaped(<ore:ingotLead>, [
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]]);
+
+// --- Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconium>, [
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>]]);
+
+// --- Awakened Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconiumAwakened>, [
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>]]);
+
+// --- Vibrant Alloy Ingot 
+recipes.removeShaped(<ore:ingotVibrantAlloy>, [
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>]]);
+
+// --- Pulsating Iron Ingot
+recipes.removeShaped(<ore:ingotPulsatingIron>, [
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>]]);
+
+// --- Thauminite Ingot
+recipes.removeShaped(<ore:ingotThauminite>, [
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>]]);
 
 // --- Quantum Tank IV
 recipes.remove(<gregtech:gt.blockmachines:123>);
@@ -840,12 +882,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:ingotObsidian>, null, null],
 [<ore:ingotObsidian>, null, null]]);
 
-// --- Nether Star Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1506>, [<gregtech:gt.blockores:506>, <minecraft:netherrack>]);
-
-// --- Basaltic Mineral Sand Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1935>, [<gregtech:gt.blockores:935>, <minecraft:netherrack>]);
-
 
 
 
@@ -901,6 +937,9 @@ AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaite
 // -
 AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaitem.01:9035> * 27, <gregtech:gt.metaitem.01:9057> * 9, 200, 16);
 
+// --- Thauminite Ingot
+AlloySmelter.addRecipe(<thaumicbases:resource:1> , <thaumicbases:resource> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+
 // --- Glass
 AlloySmelter.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
 // -
@@ -948,7 +987,14 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.
 // -
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.01:11020>, <gregtech:gt.metaitem.01:2865>], 500, 480, 2000);
 
+
+
+
+
+
 // --- Canner Recipes ---
+
+
 
 
 // --- Thorium Fuel Rod
@@ -1375,6 +1421,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
 // --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
+
 
 
 
