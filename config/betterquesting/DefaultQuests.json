@@ -314,7 +314,7 @@
     {
       "questID": 5,
       "name": "Tools",
-      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Except you\u0027d like to continue punching trees with your bare hand...)",
+      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Unless you\u0027d like to continue punching trees with your bare hand...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -593,7 +593,7 @@
     {
       "questID": 8,
       "name": "Get that stone",
-      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut to...)",
+      "description": "Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut too...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2595,7 +2595,7 @@
       "questID": 34,
       "name": "Aluminini...um...?",
       "description": "Whatever it is spelled, you will need it. Mostly found on the surface. Try to search in rivers. (This quest is optional)",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -2728,7 +2728,7 @@
     {
       "questID": 36,
       "name": "Important tools",
-      "description": "In order to craft even the basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should make yourself familiar with each of their recipes, as you will need a lot of these tools, starting from today.",
+      "description": "In order to craft even the basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should make yourself familiar with each of their recipes, as you will need a lot of these tools, starting from today.\n\nAlso your new tools can be used to make Railcraft water tanks, a quite useful thing considering the finite water feature.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2929,7 +2929,31 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:lava_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         474
       ]
@@ -2938,7 +2962,7 @@
       "questID": 38,
       "name": "Making better tools",
       "description": "With Aluminium and Copper, you can create a pretty durable material \"Aluminium Brass\", which can be used to cast better tools. These can be used to mine some more advanced ores.\n\nBut first you need a Smeltery. Go to Multi Block Chapter or find Smeltery Blocks in a Village nearby.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -3688,6 +3712,12 @@
               "Damage": 2
             },
             {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
@@ -3986,6 +4016,34 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17308
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "minecraft:piston",
               "Count": 1,
               "OreDict": "",
@@ -4026,7 +4084,7 @@
         }
       ],
       "preRequisites": [
-        48
+        493
       ]
     },
     {
@@ -5100,6 +5158,18 @@
               "Count": 2,
               "OreDict": "",
               "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2000
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1240
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -5313,7 +5383,8 @@
         }
       ],
       "preRequisites": [
-        66
+        66,
+        67
       ]
     },
     {
@@ -5394,6 +5465,42 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 60,
+              "OreDict": "",
+              "Damage": 2896
+            },
+            {
+              "id": "IC2:itemDust",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
               "Damage": 17880
@@ -5433,7 +5540,7 @@
         }
       ],
       "preRequisites": [
-        51
+        496
       ]
     },
     {
@@ -5581,7 +5688,8 @@
         }
       ],
       "preRequisites": [
-        67
+        67,
+        69
       ]
     },
     {
@@ -6268,6 +6376,29 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
@@ -6277,7 +6408,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.",
+      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6383,7 +6514,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 3,
+              "Count": 4,
               "OreDict": "",
               "Damage": 41
             }
@@ -6393,6 +6524,107 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 2901
+            },
+            {
+              "id": "IC2:itemHarz",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MicaBasedPulp",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2946
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MicaBasedSheet",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2890
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MicaInsulatorSheet",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MicaInsulatorFoil",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 1341
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings5",
@@ -6401,7 +6633,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -6670,7 +6902,7 @@
     {
       "questID": 81,
       "name": "At the end of...",
-      "description": "...universe everything freezes eventually. But waiting for the heat death of universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool of your hot stuff.",
+      "description": "...universe everything freezes eventually. But waiting for the heat death of universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6863,12 +7095,6 @@
               "Count": 136,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "BiomesOPlenty:flowers2",
-              "Count": 34,
-              "OreDict": "",
-              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -6916,6 +7142,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "dreamcraft:item.AdvancedCokeOvenBrick",
+              "Count": 136,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "Railcraft:machine.alpha",
               "Count": 34,
               "OreDict": "",
@@ -6929,7 +7170,19 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:tile.Charcoal",
+              "id": "gregtech:gt.blockgem3",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:coal_block",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:cube",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -6995,6 +7248,27 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "TConstruct:GlassBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "dustObsidian",
+              "Damage": 2804
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "ExtraUtilities:decorativeBlock2",
               "Count": 1,
               "OreDict": "",
@@ -7002,6 +7276,19 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
@@ -7024,7 +7311,7 @@
         }
       ],
       "preRequisites": [
-        46
+        65
       ]
     },
     {
@@ -9707,10 +9994,16 @@
               "Damage": 4
             },
             {
-              "id": "Forestry:canOil",
+              "id": "IC2:itemFluidCell",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "oil",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -12355,8 +12648,7 @@
       "preRequisites": [
         241,
         240,
-        239,
-        332
+        239
       ]
     },
     {
@@ -17503,7 +17795,8 @@
         }
       ],
       "preRequisites": [
-        224
+        224,
+        495
       ]
     },
     {
@@ -19951,7 +20244,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -19964,7 +20257,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32414
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         227
       ]
@@ -27055,10 +27360,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TaintedMagic:EldritchShard",
+        "id": "TaintedMagic:ItemMaterial",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 5
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -27069,10 +27374,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -27084,10 +27389,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -33672,10 +33977,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TaintedMagic:EldritchShard",
+              "id": "TaintedMagic:ItemMaterial",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -35662,7 +35967,7 @@
       "questID": 478,
       "name": "Flint and Steel",
       "description": "After you make Steel you are able to craft Flint and Steel. I guess you want to travel to the Nether as soon as possible but be aware The Nether is very dangerous.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -35696,12 +36001,6 @@
               "Damage": 1520
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 23305
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
@@ -35710,20 +36009,33 @@
             {
               "id": "Railcraft:part.plate",
               "Count": 1,
-              "OreDict": "plateSteel",
-              "Damage": 1
-            },
-            {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
               "OreDict": "",
-              "Damage": 20305
+              "Damage": 1
             },
             {
               "id": "minecraft:flint",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23305
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20305
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -35786,7 +36098,7 @@
       "questID": 479,
       "name": "THE NETHER",
       "description": "Now more dangerous with Extra Hardcore Infernal Mobs. Have fun and take care.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36030,6 +36342,369 @@
       ],
       "preRequisites": [
         474
+      ]
+    },
+    {
+      "questID": 481,
+      "name": "Creosote Oil",
+      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this Creosote Oil? \nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run Diesel Generators with it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:fluid.creosote.bucket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        24
+      ]
+    },
+    {
+      "questID": 482,
+      "name": "Animal Farms",
+      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and travelling around, or you can just simply make a farm to get a decent amount of Leather, Wool and Meat.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "entity:8": "Cow"
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:beef",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wool",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:muttonrawItem",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:porkchop",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chicken",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:egg",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ExtraUtilities:shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:mattock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "MiningSpeed2:4": 700,
+                  "BaseDurability:4": 67,
+                  "Head:4": 314,
+                  "BaseAttack:4": 6,
+                  "Built:4": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 6,
+                  "Attack:4": 6,
+                  "RenderHead:4": 314,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 314,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 314,
+                  "Accessory:4": 314,
+                  "MiningSpeed:4": 700,
+                  "RenderAccessory:4": 314,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 10,
+                  "HarvestLevel2:4": 6,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 67
+                },
+                "display:10": {
+                  "Name:8": "Unstable Induced Mattock"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        483,
+        492
+      ]
+    },
+    {
+      "questID": 483,
+      "name": "Gardener",
+      "description": "If you wonder: Why I never get Seeds when destroying Grass? You are right. Try to work with your new Mattock on the Grass Blocks that do not have water anywhere nearby to find some Seeds.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:wheat_seeds",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:shovelHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:hatchetHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:mattock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "MiningSpeed2:4": 650,
+                  "BaseDurability:4": 534,
+                  "Head:4": 14,
+                  "BaseAttack:4": 6,
+                  "Built:4": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 4,
+                  "Attack:4": 6,
+                  "RenderHead:4": 14,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 14,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 14,
+                  "Accessory:4": 14,
+                  "MiningSpeed:4": 650,
+                  "RenderAccessory:4": 14,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 1,
+                  "HarvestLevel2:4": 4,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 534
+                },
+                "display:10": {
+                  "Name:8": "Bronze Mattock"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemIngot",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:GravelOre",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
       ]
     },
     {
@@ -36333,7 +37008,7 @@
         }
       ],
       "preRequisites": [
-        42
+        36
       ]
     },
     {
@@ -36607,7 +37282,7 @@
         }
       ],
       "preRequisites": [
-        486
+        487
       ]
     },
     {
@@ -36871,6 +37546,649 @@
       ],
       "preRequisites": [
         486
+      ]
+    },
+    {
+      "questID": 492,
+      "name": "Sheep Hairdresser",
+      "description": "Killing sheep to get the wool is so ineffective. Making some Shears would make sense if you need more wool.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:trophy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "entity:8": "Sheep"
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27032
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 493,
+      "name": "Wire Cutter v.0.2Alpha",
+      "description": "Small gears require a wire cutter to be made, so let\u0027s craft one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 26
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27032
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27032
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
+      "questID": 494,
+      "name": "Redstone",
+      "description": "If you didnt\u0027t found any Redstone vein, it is quite important to look for one now. Try your luck at Y level 5-40.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:redstone_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 502
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 826
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32221
+            },
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
+      "questID": 495,
+      "name": "Oh Shiny (Not Platinum!)",
+      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and find some at Y Level 5-20.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:diamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 500
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 865
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 535
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32234
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32232
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPlates",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        49
+      ]
+    },
+    {
+      "questID": 496,
+      "name": "How to make rubber",
+      "description": "Making rubber is now more complicated, you need raw rubber and sulfur. Finding a sulfur vein in nether seems like a good idea, isn\u0027t it? Found on Y 5-20.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1022
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1834
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1839
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:peaandhamsoupItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Natura:barleyFood",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        51,
+        479
+      ]
+    },
+    {
+      "questID": 497,
+      "name": "More Charcoal",
+      "description": "You find an alternative way to make Charcoal with an \"Charcoal Pile Igniter\". \nGo and get some to make massive amounts of Charcoal.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1155
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17300
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21305
+            },
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1155
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11300
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11335
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        478
       ]
     },
     {
@@ -43693,197 +45011,217 @@
         {
           "id": 15,
           "x": 336,
-          "y": 0
+          "y": 36
         },
         {
           "id": 17,
           "x": 408,
-          "y": 36
+          "y": 72
         },
         {
           "id": 18,
           "x": 300,
-          "y": 0
+          "y": 36
         },
         {
           "id": 19,
           "x": 300,
-          "y": 36
+          "y": 72
         },
         {
           "id": 20,
           "x": 372,
-          "y": 36
+          "y": 72
         },
         {
           "id": 21,
           "x": 336,
-          "y": 36
+          "y": 72
         },
         {
           "id": 22,
           "x": 336,
-          "y": 72
+          "y": 108
         },
         {
           "id": 23,
           "x": 300,
-          "y": 72
+          "y": 108
         },
         {
           "id": 24,
           "x": 408,
-          "y": 72
+          "y": 108
         },
         {
           "id": 25,
           "x": 372,
-          "y": 72
+          "y": 108
         },
         {
           "id": 27,
           "x": 408,
-          "y": 216
+          "y": 252
         },
         {
           "id": 28,
           "x": 180,
-          "y": 216
+          "y": 252
         },
         {
           "id": 29,
-          "x": 72,
-          "y": 180
+          "x": 36,
+          "y": 216
         },
         {
           "id": 30,
           "x": 108,
-          "y": 108
+          "y": 180
         },
         {
           "id": 31,
           "x": 144,
-          "y": 108
+          "y": 180
         },
         {
           "id": 32,
           "x": 300,
-          "y": 108
+          "y": 144
         },
         {
           "id": 33,
           "x": 300,
-          "y": 144
+          "y": 180
         },
         {
           "id": 34,
           "x": 72,
-          "y": 108
+          "y": 180
         },
         {
           "id": 35,
           "x": 144,
-          "y": 72
+          "y": 144
         },
         {
           "id": 36,
           "x": 36,
-          "y": 0
+          "y": 36
         },
         {
           "id": 38,
           "x": 108,
-          "y": 72
+          "y": 144
         },
         {
           "id": 37,
           "x": 36,
-          "y": 144
+          "y": 180
         },
         {
           "id": 39,
           "x": 72,
-          "y": 36
+          "y": 0
         },
         {
           "id": 40,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 41,
           "x": 264,
-          "y": 72
+          "y": 108
         },
         {
           "id": 26,
           "x": 372,
-          "y": 108
+          "y": 144
         },
         {
           "id": 42,
           "x": 264,
-          "y": 144
+          "y": 180
         },
         {
           "id": 43,
           "x": 264,
-          "y": 108
+          "y": 144
         },
         {
           "id": 472,
           "x": 300,
-          "y": 180
+          "y": 216
         },
         {
           "id": 473,
           "x": 72,
-          "y": 72
+          "y": 144
         },
         {
           "id": 474,
-          "x": 120,
-          "y": 180
+          "x": 108,
+          "y": 216
         },
         {
           "id": 480,
-          "x": 120,
-          "y": 216
+          "x": 108,
+          "y": 252
         },
         {
           "id": 485,
           "x": 456,
-          "y": 72
-        },
-        {
-          "id": 486,
-          "x": 228,
-          "y": 144
-        },
-        {
-          "id": 487,
-          "x": 228,
           "y": 108
         },
         {
-          "id": 488,
-          "x": 228,
+          "id": 486,
+          "x": 72,
           "y": 72
+        },
+        {
+          "id": 487,
+          "x": 108,
+          "y": 72
+        },
+        {
+          "id": 488,
+          "x": 108,
+          "y": 108
         },
         {
           "id": 489,
           "x": 0,
-          "y": 36
+          "y": 72
         },
         {
           "id": 490,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 491,
-          "x": 192,
+          "x": 72,
+          "y": 108
+        },
+        {
+          "id": 481,
+          "x": 456,
           "y": 144
+        },
+        {
+          "id": 482,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 483,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 492,
+          "x": 36,
+          "y": 0
         }
       ]
     },
@@ -43908,78 +45246,78 @@
         },
         {
           "id": 48,
-          "x": 156,
+          "x": 96,
           "y": 0
         },
         {
           "id": 49,
-          "x": 204,
+          "x": 276,
           "y": 0
         },
         {
           "id": 50,
-          "x": 252,
+          "x": 324,
           "y": 0
         },
         {
           "id": 51,
-          "x": 204,
-          "y": 72
+          "x": 276,
+          "y": 108
         },
         {
           "id": 53,
-          "x": 156,
+          "x": 228,
           "y": 72
         },
         {
           "id": 54,
-          "x": 156,
+          "x": 228,
           "y": 36
         },
         {
           "id": 52,
-          "x": 204,
+          "x": 276,
           "y": 36
         },
         {
           "id": 55,
-          "x": 120,
+          "x": 192,
           "y": 36
         },
         {
           "id": 56,
-          "x": 120,
+          "x": 132,
           "y": 72
         },
         {
           "id": 57,
-          "x": 240,
-          "y": 72
+          "x": 324,
+          "y": 108
         },
         {
           "id": 58,
-          "x": 300,
+          "x": 372,
           "y": 0
         },
         {
           "id": 59,
           "x": 0,
-          "y": 144
+          "y": 180
         },
         {
           "id": 60,
           "x": 0,
-          "y": 180
+          "y": 252
         },
         {
           "id": 61,
-          "x": 36,
-          "y": 180
+          "x": 48,
+          "y": 252
         },
         {
           "id": 62,
           "x": 48,
-          "y": 144
+          "y": 180
         },
         {
           "id": 63,
@@ -43993,68 +45331,93 @@
         },
         {
           "id": 65,
-          "x": 84,
+          "x": 96,
           "y": 108
         },
         {
           "id": 66,
-          "x": 120,
-          "y": 108
+          "x": 192,
+          "y": 180
         },
         {
           "id": 68,
-          "x": 156,
-          "y": 144
+          "x": 228,
+          "y": 216
         },
         {
           "id": 69,
-          "x": 204,
-          "y": 108
+          "x": 228,
+          "y": 144
         },
         {
           "id": 70,
-          "x": 204,
-          "y": 180
+          "x": 228,
+          "y": 252
         },
         {
           "id": 67,
-          "x": 156,
-          "y": 108
-        },
-        {
-          "id": 72,
-          "x": 156,
+          "x": 228,
           "y": 180
         },
         {
+          "id": 72,
+          "x": 96,
+          "y": 252
+        },
+        {
           "id": 73,
-          "x": 120,
+          "x": 96,
           "y": 180
         },
         {
           "id": 71,
-          "x": 204,
-          "y": 144
+          "x": 276,
+          "y": 180
         },
         {
           "id": 84,
-          "x": 84,
-          "y": 36
+          "x": 132,
+          "y": 180
         },
         {
           "id": 16,
-          "x": 84,
-          "y": 72
+          "x": 132,
+          "y": 216
         },
         {
           "id": 478,
-          "x": 84,
-          "y": 144
+          "x": 156,
+          "y": 108
         },
         {
           "id": 479,
-          "x": 84,
-          "y": 180
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 493,
+          "x": 228,
+          "y": 0
+        },
+        {
+          "id": 494,
+          "x": 132,
+          "y": 36
+        },
+        {
+          "id": 495,
+          "x": 324,
+          "y": 36
+        },
+        {
+          "id": 496,
+          "x": 228,
+          "y": 108
+        },
+        {
+          "id": 497,
+          "x": 192,
+          "y": 144
         }
       ]
     },

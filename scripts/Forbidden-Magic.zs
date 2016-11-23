@@ -405,9 +405,12 @@ mods.thaumcraft.Research.setComplexity("ROD_blood_staff", 3);
 mods.thaumcraft.Warp.addToResearch("ROD_blood_staff", 4);
 
 // --- Alchemical Caps
+mods.thaumcraft.Research.clearPages("CAP_alchemical");
+mods.thaumcraft.Research.addPage("CAP_alchemical", "forbidden.research_page.CAP_alchemical.1");
 mods.thaumcraft.Infusion.addRecipe("CAP_alchemical", <dreamcraft:item.GoldWandCap>,
 [<AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>],
 "victus 16, aqua 32, praecantatio 16, permutatio 8, metallum 8", <dreamcraft:item.WandCapAlchemical>, 6);
+mods.thaumcraft.Research.addInfusionPage("CAP_alchemical", <dreamcraft:item.WandCapAlchemical>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_alchemical", "victus 15, aqua 12, instrumentum 9, metallum 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CAP_alchemical", 3);
@@ -668,13 +671,13 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:202>.withTag
 // --- Alchemical Crowened Blood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:84>.withTag({cap: "alchemical", rod: "blood"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
 [<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.WandCapAlchemical>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores:3>, <ore:screwTungstenSteel>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <ore:screwTungstenSteel>],
 [<dreamcraft:item.WandCapAlchemical>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Alchemical Crowened Blood Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:168>.withTag({cap: "alchemical", rod: "blood", sceptre: 1 as byte}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
 [<TwilightForest:item.fieryTears>, <dreamcraft:item.WandCapAlchemical>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores:3>, <dreamcraft:item.WandCapAlchemical>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <dreamcraft:item.WandCapAlchemical>],
 [<dreamcraft:item.WandCapAlchemical>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Alchemical Crowened Blood Staff Wand
