@@ -1326,7 +1326,7 @@ AlloySmelter.addRecipe(<Natura:NetherGlass:1>, <minecraft:glass>, <Natura:heatsa
 
 
 // --- Flint and Blaze
-Assembler.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3>, <liquid:molten.blaze> * 432, 200, 64);
+Assembler.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3> * 0, <liquid:molten.blaze> * 432, 200, 64);
 
 // --- Eucalyptus Bookshelf
 Assembler.addRecipe(<Natura:Natura.bookshelf>, <Natura:planks> * 6, <minecraft:book> * 3, 300, 16);
