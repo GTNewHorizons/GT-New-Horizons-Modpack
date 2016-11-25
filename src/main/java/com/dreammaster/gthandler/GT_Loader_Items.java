@@ -449,6 +449,15 @@ public class GT_Loader_Items
 		CustomItemList.InfernalBrick.set(ItemList.InfernalBrick.getIS());
 		CustomItemList.AdvancedCokeOvenBrick.set(ItemList.AdvancedCokeOvenBrick.getIS());
 		CustomItemList.CokeOvenBrick.set(ItemList.CokeOvenBrick.getIS());
+		CustomItemList.MedalDerp.set(ItemList.MedalDerp.getIS());
+			CustomItemList.MedalDerp.getItem().setMaxStackSize(1);
+		CustomItemList.MedalGTExplosion.set(ItemList.MedalGTExplosion.getIS());
+			CustomItemList.MedalGTExplosion.getItem().setMaxStackSize(1);
+		CustomItemList.MedalBuilder.set(ItemList.MedalBuilder.getIS());
+			CustomItemList.MedalBuilder.getItem().setMaxStackSize(1);
+		CustomItemList.MedalEngineer.set(ItemList.MedalEngineer.getIS());
+			CustomItemList.MedalEngineer.getItem().setMaxStackSize(1);
+		CustomItemList.MedalWarp.set(ItemList.MedalWarp.getIS());
+			CustomItemList.MedalWarp.getItem().setMaxStackSize(1);
 	}
-
 }

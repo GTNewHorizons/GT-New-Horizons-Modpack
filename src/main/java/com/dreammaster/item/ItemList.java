@@ -414,6 +414,11 @@ public enum ItemList
     WirelessTransmitter(new ModSimpleBaseItem("WirelessTransmitter", ModTabList.ModGenericTab)),
     WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
     WoodenCasing(new ModSimpleBaseItem("WoodenCasing", ModTabList.ModGenericTab)),
+    MedalDerp(new ModSimpleBaseItem("MedalDerp", ModTabList.ModGenericTab)),
+    MedalGTExplosion(new ModSimpleBaseItem("MedalGTExplosion", ModTabList.ModGenericTab)),
+    MedalBuilder(new ModSimpleBaseItem("MedalBuilder", ModTabList.ModGenericTab)),
+    MedalEngineer(new ModSimpleBaseItem("MedalEngineer", ModTabList.ModGenericTab)),
+    MedalWarp(new ModSimpleBaseItem("MedalWarp", ModTabList.ModGenericTab)),
 
     // Do not delete this
     EndOfList(null);

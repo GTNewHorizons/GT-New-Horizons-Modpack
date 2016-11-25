@@ -118,7 +118,8 @@ public enum CustomItemList implements IItemContainer
 	IndustryFrame,
 	AdsorptionFilterCasing, AdsorptionFilter, AdsorptionFilterDirty,
 	VoidSeed,MicaBasedPulp,MicaBasedSheet,MicaInsulatorSheet,MicaInsulatorFoil,
-	HotNetherrackBrick, InfernalBrick, AdvancedCokeOvenBrick, CokeOvenBrick;
+	HotNetherrackBrick, InfernalBrick, AdvancedCokeOvenBrick, CokeOvenBrick,
+	MedalDerp,MedalGTExplosion,MedalBuilder,MedalEngineer,MedalWarp;
 
 
 	private ItemStack mStack = null;
