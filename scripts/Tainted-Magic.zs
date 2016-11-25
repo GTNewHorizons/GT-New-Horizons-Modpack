@@ -129,6 +129,12 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemShadowFortressLeggings>)
 // --- All Fortress Blades
 mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemKatana:*>);
 
+// --- Warp Wood Rod
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemWandRod>);
+
+// --- Warp Wood Stuff
+mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemWandRod:1>);
+
 
 
 
@@ -210,7 +216,7 @@ mods.thaumcraft.Warp.addToResearch("WarpTreeGTNH", 3);
 mods.thaumcraft.Research.orphanResearch("WARPEDGOGGLES");
 mods.thaumcraft.Research.removeResearch("WARPEDGOGGLES");
 mods.thaumcraft.Research.addResearch("WarpedGogglesGTNH", "TM", "tutamen 15, alienis 12, tenebrae 9, sensus 6, aer 3", 2, 3, 3, <TaintedMagic:ItemWarpedGoggles>);
-mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "EvilshardsGTNH", true);
 mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "GOGGLES", false);
 mods.thaumcraft.Research.setConcealed("WarpedGogglesGTNH", true);
@@ -245,8 +251,8 @@ mods.thaumcraft.Research.addArcanePage("FocusShardGTNH", <TaintedMagic:ItemFocus
 mods.thaumcraft.Research.orphanResearch("MACEFOCUS");
 mods.thaumcraft.Research.removeResearch("MACEFOCUS");
 mods.thaumcraft.Research.addResearch("MaceFocusGTNH", "TM", "perditio 18, terra 15, praecantatio 12, telum 9, metallum 6, cognitio 3", 0, 4, 3, <TaintedMagic:ItemFocusMageMace>);
-mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "TAINTEDMAGIC", false);
-mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "TAINTEDMAGIC", true);
+mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("MaceFocusGTNH", true);
 game.setLocalization("tc.research_name.MaceFocusGTNH", "Wand Focus: Mage's Mace");
@@ -739,3 +745,50 @@ mods.thaumcraft.Research.setConcealed("INSCRIPTIONUNDEAD", true);
 mods.thaumcraft.Research.setAspects("INSCRIPTIONUNDEAD", "sano 15, metallum 12, exanimis 9, praecantatio 6, potentia 3");
 mods.thaumcraft.Research.setComplexity("INSCRIPTIONUNDEAD", 3);
 mods.thaumcraft.Warp.addToResearch("INSCRIPTIONUNDEAD", 4);
+
+// --- Warp Wood Rod
+mods.thaumcraft.Research.orphanResearch("ROD_warpwood");
+mods.thaumcraft.Research.removeResearch("ROD_warpwood");
+mods.thaumcraft.Research.addResearch("RoD_warpwoodGTNH", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, instrumentum 6, terra 3", 8, -2, 4, <TaintedMagic:ItemWandRod>);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "WarpTreeGTNH", false);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.addPrereq("RoD_warpwoodGTNH", "ROD_primal_staff", false);   
+mods.thaumcraft.Research.setConcealed("RoD_warpwoodGTNH", true);
+game.setLocalization("tc.research_name.RoD_warpwoodGTNH", "Warpwood Wand Rod");
+game.setLocalization("tc.research_text.RoD_warpwoodGTNH", "The wand chooses the wizard...");
+mods.thaumcraft.Research.addPage("RoD_warpwoodGTNH", "tc.research_page.RoD_warpwoodGTNH.1");
+game.setLocalization("tc.research_page.RoD_warpwoodGTNH.1", "Ever since you discovered Warpwood, you have wondered if it would be possible to forge this wood into a wand. The Primordial Pearl has given you the answer to the question.<BR>Since the wood is imbued with warp, you think it's only logical to use a Zombie Brain as a place to store the insanity. And, Using the power of the Primordial Pearl as the core of this rod, the power is immense.<BR>The wood is also extremely dense, making it able to store huge amounts of vis - 250 of each, that is.<BR>(Continued)");
+mods.thaumcraft.Infusion.addRecipe("RoD_warpwoodGTNH", <TaintedMagic:BlockWarpwoodLog>,
+[<Thaumcraft:ItemEldritchObject:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>], 
+"alienis 64, arbor 64, praecantatio 64, tenebrae 48, instrumentum 32, terra 24", <TaintedMagic:ItemWandRod>, 9);
+mods.thaumcraft.Research.addInfusionPage("RoD_warpwoodGTNH", <TaintedMagic:ItemWandRod>);
+mods.thaumcraft.Warp.addToResearch("RoD_warpwoodGTNH", 3);
+mods.thaumcraft.Research.addPage("RoD_warpwoodGTNH", "tc.research_page.RoD_warpwoodGTNH.2");
+game.setLocalization("tc.research_page.RoD_warpwoodGTNH.2", "It would also seem that the warp stored within the rod festers off of your own, creating vis as a byproduct and quickly filling up your wand. The more warp you amass, the greater the reaction, and the faster the wand will recharge itself. Due to this process being fueled by the Primordial Pearl, the influx of vis would put any other core to shame.<BR>Seeing as it wards off all warp, The Warp Ward buff seems to negate the reaction completely.<BR><BR>§oToday my wand started whispering strangely to me. As my insane mind grows stronger, the more my wand reveals to me...");
+
+// --- Warp Wood Stuff
+mods.thaumcraft.Research.orphanResearch("ROD_warpwood_staff");
+mods.thaumcraft.Research.removeResearch("ROD_warpwood_staff");
+mods.thaumcraft.Research.addResearch("RoD_Warpwood_StaffGTNH", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2, 4, <TaintedMagic:ItemWandRod:1>);
+mods.thaumcraft.Research.addPrereq("RoD_Warpwood_StaffGTNH", "RoD_warpwoodGTNH", false);
+mods.thaumcraft.Research.setConcealed("RoD_Warpwood_StaffGTNH", true);
+game.setLocalization("tc.research_name.RoD_Warpwood_StaffGTNH", "Warpwood Staff Core");
+game.setLocalization("tc.research_text.RoD_Warpwood_StaffGTNH", "It's not quite clear why...");
+mods.thaumcraft.Research.addPage("RoD_Warpwood_StaffGTNH", "tc.research_page.RoD_Warpwood_StaffGTNH");
+game.setLocalization("tc.research_page.RoD_Warpwood_StaffGTNH", "After having seen the power of the Warpwood wand core, you wondered what would happen if you were to make a staff.<BR>Unlike most staves, simply adding a primal charm was not enough to bind them into a staff core. It took the use of the Primordial Pearl.<BR>The same auto recharging abilities seem to apply as well, and on top of all of that this staff core offers a huge amount of storage - 500 primal vis.");
+mods.thaumcraft.Arcane.addShaped("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWandRod:1>, "aqua 150, terra 150, ignis 150, aer 150, ordo 150, perditio 150", [
+[<ore:screwShadow>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemEldritchObject:3>], 
+[<TaintedMagic:ItemMaterial:3>, <TaintedMagic:ItemWandRod>, <TaintedMagic:ItemMaterial:3>],
+[<TaintedMagic:ItemWandRod>, <TaintedMagic:ItemMaterial:4>, <ore:screwShadow>]]);
+mods.thaumcraft.Research.addArcanePage("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWandRod:1>);
+mods.thaumcraft.Warp.addToResearch("RoD_Warpwood_StaffGTNH", 5);
+
+// --- Undead Inspiration
+mods.thaumcraft.Research.addPrereq("CREATION", "CreationShardGTNH", false);
+mods.thaumcraft.Research.setConcealed("CREATION", true);
+mods.thaumcraft.Research.setAspects("CREATION", "praecantatio 15, alienis 12, cognitio 9, alienis 6, potentia 3");
+mods.thaumcraft.Research.setComplexity("CREATION", 3);
+mods.thaumcraft.Warp.addToResearch("CREATION", 2);
