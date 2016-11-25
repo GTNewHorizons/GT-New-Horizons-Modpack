@@ -16,7 +16,6 @@ public class ConfigHandler {
 
     @SubscribeEvent
     public void onDrawBlockHighlight(DrawBlockHighlightEvent aEvent) {
-        MinecraftForge.EVENT_BUS.unregister(ch);
         Error e=new Error();
         e.setStackTrace(new StackTraceElement[]{});
 
@@ -25,18 +24,18 @@ public class ConfigHandler {
             boolean nerf1=VanillaChange.getField("HARDCORE_DARKNESS").getBoolean(null);
             boolean nerf2=VanillaChange.getField("LOCKED_GAMMA").getBoolean(null);
             if (!nerf1 || !nerf2){
-                Minecraft.getMinecraft().crashed(new CrashReport("",e));
+                Minecraft.getMinecraft().crashed(new CrashReport("",e)); return;
             }
         }catch (Exception E){/*E.printStackTrace();*/}
 
         try{
             Class.forName("net.minecraftxray.loader.XRayForgeTweaker");
-            Minecraft.getMinecraft().crashed(new CrashReport("",e));
+            Minecraft.getMinecraft().crashed(new CrashReport("",e)); return;
         }catch (Exception E){/*E.printStackTrace();*/}
 
         try{
             Class.forName("de.Kradxn.Xray.mod_Xray");
-            Minecraft.getMinecraft().crashed(new CrashReport("",e));
+            Minecraft.getMinecraft().crashed(new CrashReport("",e)); return;
         }catch (Exception E){/*E.printStackTrace();*/}
 
         //try {
@@ -79,5 +78,6 @@ public class ConfigHandler {
         //    if(E instanceof IOException)throw e;
         //}
 
+        MinecraftForge.EVENT_BUS.unregister(ch);
     }
 }
