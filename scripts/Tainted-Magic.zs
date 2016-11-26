@@ -135,6 +135,20 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemWandRod>);
 // --- Warp Wood Stuff
 mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemWandRod:1>);
 
+// --- Wand Focus Time
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusTime>);
+
+// --- Wand Focus Meteorology
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemFocusMeteorology>);
+
+// --- Edge of the Primordials
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemPrimordialEdge>);
+
+// --- Caps
+mods.thaumcraft.Arcane.removeRecipe(<TaintedMagic:ItemWandCap:*>);
+// -
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemWandCap>);
+
 
 
 
@@ -246,6 +260,7 @@ mods.thaumcraft.Arcane.addShaped("FocusShardGTNH", <TaintedMagic:ItemFocusVisSha
 [<Thaumcraft:ItemWispEssence:*>, <Thaumcraft:ItemResource:3>, <Thaumcraft:ItemWispEssence:*>],
 [<TaintedMagic:ItemMaterial:4>, <Thaumcraft:blockCrystal:6>, <TaintedMagic:ItemMaterial:4>]]);
 mods.thaumcraft.Research.addArcanePage("FocusShardGTNH", <TaintedMagic:ItemFocusVisShard>);
+mods.thaumcraft.Warp.addToResearch("FocusShardGTNH", 1);
 
 // --- Wand Focus Mage Mace
 mods.thaumcraft.Research.orphanResearch("MACEFOCUS");
@@ -281,25 +296,26 @@ mods.thaumcraft.Arcane.addShaped("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1
 [<gregtech:gt.metaitem.01:29368>, <gregtech:gt.metaitem.01:29330>, <gregtech:gt.metaitem.01:29368>],
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>]]);
 mods.thaumcraft.Research.addArcanePage("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>);
+mods.thaumcraft.Warp.addToResearch("ShadowClothGTNH", 2);
 
 // --- Shard of Creation
 mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
 mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
-mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
-mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
-mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
-game.setLocalization("tc.research_name.CreationShardGTNH", "Shard of Creation");
-game.setLocalization("tc.research_text.CreationShardGTNH", "I am not a madman");
-mods.thaumcraft.Research.addPage("CreationShardGTNH", "tc.research_page.CreationShardGTNH");
-game.setLocalization("tc.research_page.CreationShardGTNH", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
-mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:17>, "alienis 16, vacuos 16, tenebrae 16");
-mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
-mods.thaumcraft.Infusion.addRecipe("CreationShardGTNH", <minecraft:nether_star>,
+mods.thaumcraft.Research.addResearch("CREATIONSHARD", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CREATIONSHARD", true);
+game.setLocalization("tc.research_name.CREATIONSHARD", "Shard of Creation");
+game.setLocalization("tc.research_text.CREATIONSHARD", "I am not a madman");
+mods.thaumcraft.Research.addPage("CREATIONSHARD", "tc.research_page.CREATIONSHARD");
+game.setLocalization("tc.research_page.CREATIONSHARD", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
+mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:17>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Research.addCruciblePage("CREATIONSHARD", <dreamcraft:item.VoidEssence>);
+mods.thaumcraft.Infusion.addRecipe("CREATIONSHARD", <minecraft:nether_star>,
 [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
-"alienis 64, vacuos 64, praecantatio 64, auram 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
-mods.thaumcraft.Research.addInfusionPage("CreationShardGTNH", <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
+"alienis 64, vacuos 64, praecantatio 64, auram 64, tenebrae 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
+mods.thaumcraft.Research.addInfusionPage("CREATIONSHARD", <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Warp.addToResearch("CREATIONSHARD", 10);
 
 // --- Wand Focus Dark Matter
 mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
@@ -307,7 +323,7 @@ mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
 mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
-mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CREATIONSHARD", false);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
 game.setLocalization("tc.research_name.EldritchFocusGTNH", "Wand Focus: Dark Matter");
@@ -786,9 +802,130 @@ mods.thaumcraft.Arcane.addShaped("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWan
 mods.thaumcraft.Research.addArcanePage("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWandRod:1>);
 mods.thaumcraft.Warp.addToResearch("RoD_Warpwood_StaffGTNH", 5);
 
-// --- Undead Inspiration
-mods.thaumcraft.Research.addPrereq("CREATION", "CreationShardGTNH", false);
-mods.thaumcraft.Research.setConcealed("CREATION", true);
-mods.thaumcraft.Research.setAspects("CREATION", "praecantatio 15, alienis 12, cognitio 9, alienis 6, potentia 3");
-mods.thaumcraft.Research.setComplexity("CREATION", 3);
-mods.thaumcraft.Warp.addToResearch("CREATION", 2);
+// --- Wand Focus Time
+mods.thaumcraft.Research.orphanResearch("FOCUSTIME");
+mods.thaumcraft.Research.removeResearch("FOCUSTIME");
+mods.thaumcraft.Research.addResearch("FocusTimeGTNH", "TM", "tempus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, permutatio 3", 11, -8, 4, <TaintedMagic:ItemFocusTime>);
+mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "CREATION", false);
+mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSPORTABLEHOLE", false);
+mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSFIRE", false);
+mods.thaumcraft.Research.setConcealed("FocusTimeGTNH", true);
+game.setLocalization("tc.research_name.FocusTimeGTNH", "Wand Focus: Time");
+game.setLocalization("tc.research_text.FocusTimeGTNH", "Mou ikkai");
+mods.thaumcraft.Research.addPage("FocusTimeGTNH", "tc.research_page.FocusTimeGTNH");
+game.setLocalization("tc.research_page.FocusTimeGTNH", "Using the basic principals of creation, you have created a focus to modify the world slightly.<BR>The Time focus is simple. Using the Shard of Creation to tap into the world's creational formula, you are able to shift the time from night to day and vice versa.<BR>The only problem is the immensely long cooldown time of 30 seconds.<BR>This focus will not accept upgrades from the Focal Manipulator.");
+mods.thaumcraft.Infusion.addRecipe("FocusTimeGTNH", <TaintedMagic:ItemMaterial:5>,
+[<Thaumcraft:FocusPortableHole>, <Thaumcraft:blockCrystal>, <dreamcraft:item.VoidEssence>, <minecraft:clock>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>, <dreamcraft:item.VoidEssence>, <minecraft:clock>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal>], 
+"alienis 84, lux 72, tenebrae 64, vacuos 48, tempus 24, praecantatio 32, permutatio 16", <TaintedMagic:ItemFocusTime>, 16);
+mods.thaumcraft.Research.addInfusionPage("FocusTimeGTNH", <TaintedMagic:ItemFocusTime>);
+mods.thaumcraft.Warp.addToResearch("FocusTimeGTNH", 10);
+
+// --- Wand Focus Meteorology
+mods.thaumcraft.Research.orphanResearch("FOCUSWEATHER");
+mods.thaumcraft.Research.removeResearch("FOCUSWEATHER");
+mods.thaumcraft.Research.addResearch("FocusWeatherGTNH", "TM", "volatus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, tempestas 3", 12, -7, 4, <TaintedMagic:ItemFocusMeteorology>);
+mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "CREATION", false);
+mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSSHOCK", false);
+mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSFROST", false);
+mods.thaumcraft.Research.setConcealed("FocusWeatherGTNH", true);
+game.setLocalization("tc.research_name.FocusWeatherGTNH", "Wand Focus: Meteorology");
+game.setLocalization("tc.research_text.FocusWeatherGTNH", "There's a 30% chance that it's already raining.");
+mods.thaumcraft.Research.addPage("FocusWeatherGTNH", "tc.research_page.FocusWeatherGTNH");
+game.setLocalization("tc.research_page.FocusWeatherGTNH", "Using the basic principals of creation, it wasn't hard to create a focus to modify the current weather in the world.<BR>The weather focus will stop a storm if one exists, or start one if no storm is present.<BR>The only problem is the rather long cooldown of 30 seconds.<BR>This focus will not accept upgrades from the Focal Manipulator.");
+mods.thaumcraft.Infusion.addRecipe("FocusWeatherGTNH", <TaintedMagic:ItemMaterial:5>,
+[<Thaumcraft:FocusShock>, <Thaumcraft:blockCrystal:2>, <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:FocusFrost>, <Thaumcraft:blockCrystal:2>, <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>], 
+"alienis 84, aqua 72, tempestas 64, vacuos 48, praecantatio 32, volatus 24, perditio 16", <TaintedMagic:ItemFocusMeteorology>, 16);
+mods.thaumcraft.Research.addInfusionPage("FocusWeatherGTNH", <TaintedMagic:ItemFocusMeteorology>);
+mods.thaumcraft.Warp.addToResearch("FocusWeatherGTNH", 10);
+
+// --- Edge of the Primordials
+mods.thaumcraft.Research.orphanResearch("PRIMALBLADE");
+mods.thaumcraft.Research.removeResearch("PRIMALBLADE");
+mods.thaumcraft.Research.addResearch("PrimalBladeGTNH", "TM", "praecantatio 24, alienis 21, telum 18, tenebrae 15, vacuos 12, auram 9, potentia 6, cognitio 3", 11, -5, 4, <TaintedMagic:ItemPrimordialEdge>);
+mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "CREATION", false);
+mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "EvilshardsGTNH", true);
+mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "CrystalDaggerGTNH", true);
+mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "PRIMALCRUSHER", false);
+mods.thaumcraft.Research.setConcealed("PrimalBladeGTNH", true);
+game.setLocalization("tc.research_name.PrimalBladeGTNH", "Edge of the Primordials");
+game.setLocalization("tc.research_text.PrimalBladeGTNH", "Kamui");
+mods.thaumcraft.Research.addPage("PrimalBladeGTNH", "tc.research_page.PrimalBladeGTNH");
+game.setLocalization("tc.research_page.PrimalBladeGTNH", "Using many dangerous magics, you've created the other half of your primal tool set.<BR>The Edge of the Primordials is a dangerously sharp blade imbued with primal aspects. When blocking, a strong vortex of energy will be created that will pull all mobs within a 15 block radius towards you, damaging them. The effect is similar to that of a Hungry Node. This blade also possesses Eldritch Sapping - this will cause the blade to inflict strong weakness and hunger effects to your enemy.<BR>Be careful with this blade... You may start hallucinating if you use it too much...");
+mods.thaumcraft.Infusion.addRecipe("PrimalBladeGTNH", <Thaumcraft:ItemSwordVoid>,
+[<Thaumcraft:ItemPrimalCrusher>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17368>, <dreamcraft:item.VoidEssence>, <TaintedMagic:ItemCrystalDagger>, <dreamcraft:item.VoidEssence>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17368>], 
+"alienis 96, metallum 84, telum 72, tenebrae 64, vacuos 48, auram 32, cognitio 24, potentia 16", <TaintedMagic:ItemPrimordialEdge>, 16);
+mods.thaumcraft.Research.addInfusionPage("PrimalBladeGTNH", <TaintedMagic:ItemPrimordialEdge>);
+mods.thaumcraft.Warp.addToResearch("PrimalBladeGTNH", 10);
+
+// --- Cloth Cap
+mods.thaumcraft.Research.orphanResearch("CAP_cloth");
+mods.thaumcraft.Research.removeResearch("CAP_cloth");
+mods.thaumcraft.Research.addResearch("Cap_ClothGTNH", "TM", "praecantatio 12, pannus 9, sano 6, alienis 3", 7, 5, 3, <dreamcraft:item.EnchantedClothCap>);
+mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "CAP_gold", false);
+mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "ENCHFABRIC", false);
+mods.thaumcraft.Research.setConcealed("Cap_ClothGTNH", true);
+game.setLocalization("tc.research_name.Cap_ClothGTNH", "Cloth Caps");
+game.setLocalization("tc.research_text.Cap_ClothGTNH", "Remember to wrap it");
+mods.thaumcraft.Research.addPage("Cap_ClothGTNH", "tc.research_page.Cap_ClothGTNH");
+game.setLocalization("tc.research_page.Cap_ClothGTNH", "With the immersive study of wandcraft, and the discovery of Enchanted Fabric, you decided to use some to cap a wand.<BR>You are not sure why it worked, seeing as it is just cloth, but it did nonetheless. Using a few pieces of fabric, and a little vis, you have forged a fairly effective and very cheap wand cap.<BR>This cap grants a 5% Vis Discount... Though, you are not quite sure why.");
+mods.thaumcraft.Arcane.addShaped("Cap_ClothGTNH", <dreamcraft:item.EnchantedClothCap>, "terra 25, ignis 25, ordo 25, perditio 25", [
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>], 
+[<Thaumcraft:ItemResource:7>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
+mods.thaumcraft.Research.addArcanePage("Cap_ClothGTNH", <dreamcraft:item.EnchantedClothCap>);
+mods.thaumcraft.Warp.addToResearch("Cap_ClothGTNH", 1);
+
+// --- Shadow Imbued-Cloth Cap
+mods.thaumcraft.Research.orphanResearch("CAP_shadowcloth");
+mods.thaumcraft.Research.removeResearch("CAP_shadowcloth");
+mods.thaumcraft.Research.addResearch("CaP_ShadowClothGTNH", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <dreamcraft:item.ShadowImbuedClothCap>);
+mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "CAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "ShadowClothGTNH", false);
+mods.thaumcraft.Research.setConcealed("CaP_ShadowClothGTNH", true);
+game.setLocalization("tc.research_name.CaP_ShadowClothGTNH", "Shadow-Imbued Cloth Caps");
+game.setLocalization("tc.research_text.CaP_ShadowClothGTNH", "On Wednesdays we wear black");
+mods.thaumcraft.Research.addPage("CaP_ShadowClothGTNH", "tc.research_page.CaP_ShadowClothGTNH");
+game.setLocalization("tc.research_page.CaP_ShadowClothGTNH", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.");
+mods.thaumcraft.Arcane.addShaped("CaP_ShadowClothGTNH", <dreamcraft:item.ShadowImbuedClothCap>, "terra 50, ignis 50, ordo 50, perditio 50", [
+[<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>], 
+[<ore:foilShadow>, <dreamcraft:item.ChargedThaumiumWandCap>, <ore:foilShadow>],
+[<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>]]);
+mods.thaumcraft.Research.addArcanePage("CaP_ShadowClothGTNH", <dreamcraft:item.ShadowImbuedClothCap>);
+mods.thaumcraft.Warp.addToResearch("CaP_ShadowClothGTNH", 2);
+
+// --- Crimson-Stained Cloth Cap
+mods.thaumcraft.Research.orphanResearch("CAP_crimsoncloth");
+mods.thaumcraft.Research.removeResearch("CAP_crimsoncloth");
+mods.thaumcraft.Research.addResearch("CaP_CrimsonClothGTNH", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <dreamcraft:item.CrimsonStainedClothCap>);
+mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CaP_ClothGTNH", true);
+mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CrimsonRobesGTNH", false);
+mods.thaumcraft.Research.setConcealed("CaP_CrimsonClothGTNH", true);
+game.setLocalization("tc.research_name.CaP_CrimsonClothGTNH", "Crimson-Stained Cloth Caps");
+game.setLocalization("tc.research_text.CaP_CrimsonClothGTNH", "I love them red");
+mods.thaumcraft.Research.addPage("CaP_CrimsonClothGTNH", "tc.research_page.CaP_CrimsonClothGTNH");
+game.setLocalization("tc.research_page.CaP_CrimsonClothGTNH", "Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Enchanted Cloth Cap to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.");
+mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <dreamcraft:item.CrimsonStainedClothCap>, "terra 75, ignis 75, ordo 75, perditio 75", [
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:2>, <dreamcraft:item.EnchantedClothCap>, <TaintedMagic:ItemMaterial:2>],
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>]]);
+mods.thaumcraft.Research.addArcanePage("CaP_CrimsonClothGTNH", <dreamcraft:item.CrimsonStainedClothCap>);
+mods.thaumcraft.Warp.addToResearch("CaP_CrimsonClothGTNH", 4);
+
+// --- Shadow Metal Cap
+mods.thaumcraft.Research.orphanResearch("CAP_shadowmetal");
+mods.thaumcraft.Research.removeResearch("CAP_shadowmetal");
+mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -2, -2, 4, <dreamcraft:item.ShadowmetalCap>);
+mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CaP_ShadowClothGTNH", false);
+mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CAP_void", false);
+mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CaP_ShadowmetalGTNH", true);
+game.setLocalization("tc.research_name.CaP_ShadowmetalGTNH", "Shadowmetal Wand Caps");
+game.setLocalization("tc.research_text.CaP_ShadowmetalGTNH", "What a drag");
+mods.thaumcraft.Research.addPage("CaP_ShadowmetalGTNH", "tc.research_page.CaP_ShadowmetalGTNH");
+game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.");
+mods.thaumcraft.Infusion.addRecipe("PrimalBladeGTNH", <dreamcraft:item.ChargedVoidWandCap>,
+[<Thaumcraft:ItemEldritchObject:3>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
+"alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <dreamcraft:item.ShadowmetalCap>, 12);
+mods.thaumcraft.Research.addInfusionPage("CaP_ShadowmetalGTNH", <dreamcraft:item.ShadowmetalCap>);
+mods.thaumcraft.Warp.addToResearch("CaP_ShadowmetalGTNH", 8);
