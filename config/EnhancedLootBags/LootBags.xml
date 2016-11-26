@@ -533,7 +533,6 @@
         <Loot Identifier="81bb4052-f4b7-446f-b364-9a01c7edffd7" ItemName="ThaumicTinkerer:skyPearl" Amount="2" NBTTag="" Chance="100" ItemGroup="celestial_gateway" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="e19c7089-7293-47fa-82bb-5a152fc6c598" ItemName="ThaumicTinkerer:kamiResource" Amount="8" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="5f579b95-4a65-4aec-8914-1413fa977162" ItemName="minecraft:beacon" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="665e0f09-dc1b-4d6d-af26-92340e3a5e67" ItemName="Thaumcraft:WandCasting:192" Amount="1" NBTTag="{cap:&quot;SHADOW&quot;,rod:&quot;WARP&quot;}" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="205d54ed-5b6c-4348-9c7a-d50e0564f167" ItemName="TaintedMagic:FocusTime" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2c8f8140-cd6b-4f5f-afd7-1b3fff58124d" ItemName="TaintedMagic:PrimalBlade" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="b2f3c96e-a3a1-4aca-a5f1-51b5da8f9fa1" ItemName="WarpTheory:item.warptheory.amulet" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
