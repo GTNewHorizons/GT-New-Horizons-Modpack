@@ -77,7 +77,7 @@ recipes.addShaped(<catwalks:scaffold>, [
 recipes.addShapeless(<catwalks:scaffold>, [<catwalks:scaffold:1>]);
 
 // --- Support Column
-recipes.addShaped(<catwalks:support_column>, [
+recipes.addShaped(<catwalks:support_column> * 3, [
 [<ore:stickSteel>, <catwalks:steelgrate>, <ore:stickSteel>],
 [<ore:stickSteel>, <catwalks:steelgrate>, <ore:stickSteel>],
 [<ore:stickSteel>, <catwalks:steelgrate>, <ore:stickSteel>]]);
@@ -115,7 +115,7 @@ Assembler.addRecipe(<catwalks:catwalk_unlit> * 3, <catwalks:steelgrate> * 3, <gr
 Assembler.addRecipe(<catwalks:scaffold>, <gregtech:gt.blockmachines:4401>, <catwalks:steelgrate>, 100, 30);
 
 // --- Caged Ladda
-Assembler.addRecipe(<catwalks:catwalk_unlit> * 3, <catwalks:steelgrate> * 3, <minecraft:ladder>, <liquid:molten.steel> * 216, 300, 30);
+Assembler.addRecipe(<catwalks:cagedLadder_north_unlit> * 3, <catwalks:steelgrate> * 3, <minecraft:ladder>, <liquid:molten.steel> * 216, 300, 30);
 
 // --- Sturdy Rail
 Assembler.addRecipe(<catwalks:sturdy_rail>, <minecraft:rail>, <catwalks:steelgrate>, 150, 30);
