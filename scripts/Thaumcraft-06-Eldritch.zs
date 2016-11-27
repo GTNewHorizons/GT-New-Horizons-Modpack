@@ -151,7 +151,7 @@ mods.thaumcraft.Research.addArcanePage("VOIDMETAL", <Thaumcraft:ItemHoeVoid>);
 // --- Void Helm
 mods.thaumcraft.Arcane.addShaped("VOIDMETAL", <Thaumcraft:ItemHelmetVoid>, "perditio 40, terra 20", [
 [<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>],
-[<ore:craftingToolFile>, <ore:craftingToolHardHammer>, <ore:plateVoid>],
+[<ore:plateVoid>, <ore:craftingToolHardHammer>, <ore:plateVoid>],
 [null, null, null]]);
 // -
 mods.thaumcraft.Research.addArcanePage("VOIDMETAL", <Thaumcraft:ItemHelmetVoid>);

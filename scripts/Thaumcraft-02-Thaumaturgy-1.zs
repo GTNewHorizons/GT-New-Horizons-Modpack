@@ -15,10 +15,6 @@ import minetweaker.item.IItemStack;
 
 
 
-val CAP_Shadow = <TaintedMagic:ShadowCap>;
-val CAP_Cloth = <TaintedMagic:ClothCap>;
-val CAP_Crimson = <TaintedMagic:CrimsonClothCap>;
-val CAP_ShadowCloth = <TaintedMagic:ShadowClothCap>;
 val CAP_MechanistUC = <ThaumicExploration:mechanistCapUncharged>;
 val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
 val CAP_Soj = <ThaumicExploration:sojournerCap>;
@@ -42,14 +38,10 @@ mods.thaumcraft.Arcane.removeRecipe(pItem);
 // --- Removing Recipes ---
 
 // Add-on Infusion Caps
-remove_TC_Infusion(CAP_Shadow);
 remove_TC_Infusion(CAP_Mechanist);
 remove_TC_Infusion(CAP_Soj);
-  
+
 // Add-on Arcane Bench Caps
-remove_TC_Arcane(CAP_Cloth);
-remove_TC_Arcane(CAP_Crimson);
-remove_TC_Arcane(CAP_ShadowCloth);
 remove_TC_Arcane(CAP_MechanistUC);
 remove_TC_Arcane(CAP_SojUC);
 remove_TC_Arcane(CAP_Thauminite);
@@ -1515,7 +1507,7 @@ mods.thaumcraft.Research.setComplexity("FOCUSWARDING", 3);
 // --- Wand Focus Portable Hole
 mods.thaumcraft.Infusion.addRecipe("FOCUSPORTABLEHOLE", <gregtech:gt.metaitem.01:24532>, 
 [<minecraft:quartz>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal>, <minecraft:quartz>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:3>], 
-"alienis 40, iter 30, perditio 20, permutatio 10, praecantatio 5", <Thaumcraft:FocusPortableHole>, 2);
+"alienis 40, iter 30, perditio 20, permutatio 10, praecantatio 5", <Thaumcraft:FocusPortableHole>, 6);
 // -
 mods.thaumcraft.Research.setAspects("FOCUSPORTABLEHOLE", "aer 12, iter 12, alienis 9, perditio 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("FOCUSPORTABLEHOLE", 3);
@@ -1524,7 +1516,7 @@ mods.thaumcraft.Warp.addToResearch("NODESTABILIZERADV", 1);
 // --- Wand Focus Nine Hells
 mods.thaumcraft.Infusion.addRecipe("FOCUSHELLBAT", <gregtech:gt.metaitem.01:24347>, 
 [<minecraft:quartz>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:5>, <minecraft:quartz>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal>], 
-"aer 30, ignis 40, bestia 20, perditio 10, praecantatio 5", <Thaumcraft:FocusHellbat>, 2);
+"aer 30, ignis 40, bestia 20, perditio 10, praecantatio 5", <Thaumcraft:FocusHellbat>, 7);
 // -
 mods.thaumcraft.Research.setAspects("FOCUSHELLBAT", "praecantatio 12, iter 9, ignis 9, bestia 6, motus 3");
 mods.thaumcraft.Research.setComplexity("FOCUSHELLBAT", 3);

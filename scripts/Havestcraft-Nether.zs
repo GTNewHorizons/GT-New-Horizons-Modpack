@@ -130,6 +130,10 @@ recipes.addShaped(<harvestthenether:quartzbootsItem>, [
 [<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17522>],
 [null, null, null]]);
 
+// --- Glow Flower Seed
+recipes.addShapeless(<harvestthenether:glowflowerseedItem>, [<harvestthenether:glowFlower>]);
+
+
 
 
 

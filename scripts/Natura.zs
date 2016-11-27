@@ -1326,7 +1326,7 @@ AlloySmelter.addRecipe(<Natura:NetherGlass:1>, <minecraft:glass>, <Natura:heatsa
 
 
 // --- Flint and Blaze
-Assembler.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3>, <liquid:molten.blaze> * 432, 200, 64);
+Assembler.addRecipe(<Natura:natura.flintandblaze>, <minecraft:flint_and_steel>, <gregtech:gt.integrated_circuit:3> * 0, <liquid:molten.blaze> * 432, 200, 64);
 
 // --- Eucalyptus Bookshelf
 Assembler.addRecipe(<Natura:Natura.bookshelf>, <Natura:planks> * 6, <minecraft:book> * 3, 300, 16);
@@ -1603,6 +1603,104 @@ Assembler.addRecipe(<Natura:natura.bow.fusewood>, <Natura:natura.stick:12> * 3, 
 // --- Cutting Saw Recipes ---
 
 
+
+// --- Eucalyptus Planks
+CuttingSaw.addRecipe([<Natura:planks> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree>, <liquid:water> * 5, 400, 8);
+// -
+CuttingSaw.addRecipe([<Natura:planks> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree>, <liquid:ic2distilledwater> * 3, 400, 8);
+// -
+CuttingSaw.addRecipe([<Natura:planks> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:tree>, <liquid:lubricant> * 1, 200, 8);
+
+// --- Sakura Planks
+CuttingSaw.addRecipe([<Natura:planks:1> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:1>, <liquid:water> * 5, 400, 8);
+// -
+CuttingSaw.addRecipe([<Natura:planks:1> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:1>, <liquid:ic2distilledwater> * 3, 400, 8);
+// -
+CuttingSaw.addRecipe([<Natura:planks:1> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:tree:1>, <liquid:lubricant> * 1, 200, 8);
+
+// --- Ghost Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:2> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:2>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:2> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:2>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:2> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:tree:2>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Red Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:3> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:redwood>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:3> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:redwood>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:3> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:redwood>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Blood Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:4> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:bloodwood>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:4> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:bloodwood>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:4> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:bloodwood>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Blood Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:4> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:bloodwood:15>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:4> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:bloodwood:15>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:4> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:bloodwood:15>, <liquid:lubricant> * 1, 200, 4);
+
+// --- HopSeed Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:5> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:3>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:5> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:tree:3>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:5> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:tree:3>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Maple Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:6> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:6> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:6> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Rare Tree>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Silverbell Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:7> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:1>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:7> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:1>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:7> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Rare Tree:1>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Amaranth Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:8> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:2>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:8> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:2>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:8> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Rare Tree:2>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Tiger Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:9> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:3>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:9> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Rare Tree:3>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:9> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Rare Tree:3>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Willow Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:10> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:willow>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:10> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:willow>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:10> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:willow>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Dark Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:11> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Dark Tree>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:11> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Dark Tree>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:11> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Dark Tree>, <liquid:lubricant> * 1, 200, 4);
+
+// --- Fuse Wood Planks
+CuttingSaw.addRecipe([<Natura:planks:12> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Dark Tree:1>, <liquid:water> * 5, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:12> * 4, <gregtech:gt.metaitem.01:2809> * 2], <Natura:Dark Tree:1>, <liquid:ic2distilledwater> * 3, 400, 4);
+// -
+CuttingSaw.addRecipe([<Natura:planks:12> * 6, <gregtech:gt.metaitem.01:2809> * 1], <Natura:Dark Tree:1>, <liquid:lubricant> * 1, 200, 4);
 
 // --- Eucalyptus Slab
 CuttingSaw.addRecipe(<Natura:plankSlab1> * 2, null, <Natura:planks>, <liquid:water> * 4, 50, 4);

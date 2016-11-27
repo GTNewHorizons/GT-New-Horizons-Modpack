@@ -307,9 +307,51 @@ recipes.remove(<gregtech:gt.metaitem.01:32759>);
 
 // --- Apatite
 recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>],
-[<MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>, <MagicBees:beeNugget:7>]]);
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>],
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>],
+[<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>]]);
+
+// --- Silver Ingot
+recipes.removeShaped(<ore:ingotSilver>, [
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>],
+[<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>]]);
+
+// --- Lead Ingot
+recipes.removeShaped(<ore:ingotLead>, [
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>],
+[<ore:nuggetLead>, <ore:nuggetLead>, <ore:nuggetLead>]]);
+
+// --- Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconium>, [
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>],
+[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>]]);
+
+// --- Awakened Draconium Ingot
+recipes.removeShaped(<ore:ingotDraconiumAwakened>, [
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
+[<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>]]);
+
+// --- Vibrant Alloy Ingot 
+recipes.removeShaped(<ore:ingotVibrantAlloy>, [
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+[<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>]]);
+
+// --- Pulsating Iron Ingot
+recipes.removeShaped(<ore:ingotPulsatingIron>, [
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
+[<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>]]);
+
+// --- Thauminite Ingot
+recipes.removeShaped(<ore:ingotThauminite>, [
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
+[<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>]]);
 
 // --- Quantum Tank IV
 recipes.remove(<gregtech:gt.blockmachines:123>);
@@ -840,12 +882,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:ingotObsidian>, null, null],
 [<ore:ingotObsidian>, null, null]]);
 
-// --- Nether Star Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1506>, [<gregtech:gt.blockores:506>, <minecraft:netherrack>]);
-
-// --- Basaltic Mineral Sand Ore 
-recipes.addShapeless(<gregtech:gt.blockores:1935>, [<gregtech:gt.blockores:935>, <minecraft:netherrack>]);
-
 
 
 
@@ -901,6 +937,9 @@ AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaite
 // -
 AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaitem.01:9035> * 27, <gregtech:gt.metaitem.01:9057> * 9, 200, 16);
 
+// --- Thauminite Ingot
+AlloySmelter.addRecipe(<thaumicbases:resource:1> , <thaumicbases:resource> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+
 // --- Glass
 AlloySmelter.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
 // -
@@ -948,7 +987,14 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.
 // -
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.01:11020>, <gregtech:gt.metaitem.01:2865>], 500, 480, 2000);
 
+
+
+
+
+
 // --- Canner Recipes ---
+
+
 
 
 // --- Thorium Fuel Rod
@@ -998,116 +1044,6 @@ Compressor.addRecipe(<gregtech:gt.metaitem.01:17524>, <gregtech:gt.metaitem.01:2
 
 // --- Sodalite Plate
 Compressor.addRecipe(<gregtech:gt.metaitem.01:17525>, <gregtech:gt.metaitem.01:2525>);
-
-
-
-
-// --- Engraving laser Recipes ---
-
-
-
-
-// --- Flawless Diamond
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:24500> * 0, <minecraft:diamond> * 3, 1200, 480);
-
-// --- Exquisite Diamond
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30500>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29500> * 3, 2400, 1024);
-
-// --- Flawless Emerald
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29501>, <gregtech:gt.metaitem.01:24500> * 0, <minecraft:emerald> * 3, 1200, 480);
-
-// --- Exquisite Emerald
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29501> * 3, 2400, 1024);
-
-// --- Flawless Ruby
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29502>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8502> * 3, 1200, 480);
-
-// --- Exquisite Ruby
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30502>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29502> * 3, 2400, 1024);
-
-// --- Flawless Sapphire
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29503>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8503> * 3, 1200, 480);
-
-// --- Exquisite Sapphire
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30503>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29503> * 3, 2400, 1024);
-
-// --- Flawless Green Sapphire
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29504>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8504> * 3, 1200, 480);
-
-// --- Exquisite Green Sapphire
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30504>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29504> * 3, 2400, 1024);
-
-// --- Flawless Olivine
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29505>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8505> * 3, 1200, 480);
-
-// --- Exquisite Olivine
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30505>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29505> * 3, 2400, 1024);
-
-// --- Flawless Topaz
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29507>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8507> * 3, 1200, 480);
-
-// --- Exquisite Topaz
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30507>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29507> * 3, 2400, 1024);
-
-// --- Flawless Tanzanite
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29508>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8508> * 3, 1200, 480);
-
-// --- Exquisite Tanzanite
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30508>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29508> * 3, 2400, 1024);
-
-// --- Flawless Amethyst
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29509>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8509> * 3, 1200, 480);
-
-// --- Exquisite Amethyst
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30509>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29509> * 3, 2400, 1024);
-
-// --- Flawless Opal
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29510>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8510> * 3, 1200, 480);
-
-// --- Exquisite Opal
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30510>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29510> * 3, 2400, 1024);
-
-// --- Flawless Jasper
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29511>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8511> * 3, 1200, 480);
-
-// --- Exquisite Jasper
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30511>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29511> * 3, 2400, 1024);
-
-// --- Flawless Fools Ruby
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29512>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8512> * 3, 1200, 480);
-
-// --- Exquisite Fools Ruby
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30512>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29512> * 3, 2400, 1024);
-
-// --- Flawless Blue Topaz
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29513>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8513> * 3, 1200, 480);
-
-// --- Exquisite Blue Topaz
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30513>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29513> * 3, 2400, 1024);
-
-// --- Flawless Amber
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29514>, <gregtech:gt.metaitem.01:24500> * 0, <Thaumcraft:ItemResource:6> * 3, 1200, 480);
-
-// --- Exquisite Amber
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30514>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29514> * 3, 2400, 1024);
-
-// --- Flawless Red Granet
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29527>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8527> * 3, 1200, 480);
-
-// --- Exquisite Red Granet
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30527>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29527> * 3, 2400, 1024);
-
-// --- Flawless Yellow Granet
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29528>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8528> * 3, 1200, 480);
-
-// --- Exquisite Yellow Granet
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30528>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29528> * 3, 2400, 1024);
-
-// --- Flawless Glass Crystal
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:29890>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:8890> * 3, 1200, 480);
-
-// --- Exquisite Glass Crystal
-PrecisionLaser.addRecipe(<gregtech:gt.metaitem.02:30890>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.02:29890> * 3, 2400, 1024);
 
 
 
@@ -1375,6 +1311,7 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 
 // --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
+
 
 
 

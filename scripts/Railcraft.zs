@@ -697,12 +697,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
 // --- HSLA Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
 
-// --- Redstone Alloy Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
-
-// --- Soularium Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
-
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
@@ -714,9 +708,6 @@ mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.void>);
 
 // --- Infernal Block
 recipes.remove(<Railcraft:brick.infernal:2>);
-
-// --- Electrical Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
 
 // --- Lapatron Upgrade
 recipes.remove(<Railcraft:upgrade.lapotron>);
@@ -1743,6 +1734,17 @@ furnace.setFuel(<Railcraft:fluid.creosote.bucket>, 6400);
 // --- Block of Concrete
 AlloySmelter.addRecipe(ConcreteBlock * 5, Stone * 5, Rebar * 4, 300, 0);
 
+// --- Steel Helmet
+AlloySmelter.addRecipe(<Railcraft:armor.steel.helmet>, <gregtech:gt.metaitem.01:11305> * 5, <dreamcraft:item.MoldHelmet> * 0, 600, 30);
+
+// --- Steel Chestplate
+AlloySmelter.addRecipe(<Railcraft:armor.steel.plate>, <gregtech:gt.metaitem.01:11305> * 8, <dreamcraft:item.MoldChestplate> * 0, 600, 30);
+
+// --- Steel Leggings
+AlloySmelter.addRecipe(<Railcraft:armor.steel.legs>, <gregtech:gt.metaitem.01:11305> * 7, <dreamcraft:item.MoldLeggings> * 0, 600, 30);
+
+// --- Steel Boots
+AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:11305> * 4, <dreamcraft:item.MoldBoots> * 0, 600, 30);
 
 
 
@@ -2003,7 +2005,6 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:3> * 8);
 
 // --- Reinforced Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4>);
-//mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:4> * 32);
 
 // --- Electric Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:5> * 6);
@@ -2030,7 +2031,6 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>,
 
 // --- Lead Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 4);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:4> * 2, [[<ore:ingotLead>, <ore:ingotLead>, null], [<ore:ingotLead>, <ore:ingotLead>, null]]);
 
 
 
