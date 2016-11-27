@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.1.0.4 is out (10.11.2016)
+Version 1.2.0.0 is out (27.11.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -92,18 +92,19 @@ newhorizons.prospercraft.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.1.0.4 --- 10.11.2016<BR>
+## Modlist - NewHorizons 1.2.0.0 --- 27.11.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta1<BR>
+* Adventure Backpack 0.9fbeta9<BR>
 * AE2 Stuff	0.5.1.9<BR>
+* AE2 Wireless Crafting Table 1.8.7.1b<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
 * AppleCore	1.3.2<BR>
-* Applied Energistics rv3stable5<BR>
+* Applied Energistics rv3stable6<BR>
 * Aqua Creeper 1.0.1<BR>
-* Architecture Craft 1.4.1<BR>
-* AsieLib	0.4.5<BR>
+* Architecture Craft 1.4.2<BR>
+* AsieLib	0.4.6<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
 * Avaritia 1.11<BR>
@@ -126,13 +127,14 @@ newhorizons.prospercraft.com<BR>
 * Buildcraft	7.1.17<BR>
 * Buildcraft Compat	7.1.5<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
+* Catwalk Mod 1.1.0<BR>
 * CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
 * CofhCore	3.1.3.327<BR>
 * CofhLib	1.1.2.182<BR>
 * Compact Kinetic Generators 1.0<BR>
-* Computronics	1.6.0<BR>
-* Craft Tweaker 3.0.12<BR>
+* Computronics	1.6.1<BR>
+* Craft Tweaker 3.0.13<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2iCustom<BR>
@@ -145,7 +147,7 @@ newhorizons.prospercraft.com<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Loot Bags 1.0<BR>
 * Enhanced Portals 3	3.0.12<BR>
-* Extra Cells	2.3.14b197<BR>
+* Extra Cells	2.3.14b199<BR>
 * Extra Utilities	1.2.12<BR>
 * FastCraft	1.23<BR>
 * Flood Light	1.2.8.137<BR>
@@ -158,11 +160,11 @@ newhorizons.prospercraft.com<BR>
 * Galacticraft-Planets	3.0.12.463<BR>
 * GalacticraftCore	3.0.12.463<BR>
 * GalactiGreg	0.9.5<BR>
-* Galaxy Space	1.1.1<BR>
+* Galaxy Space	1.1.3<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.25.14<BR>
-* GT New Horizons Core Mod	1.2.30<BR>
+* Gregtech	5.09.26.18<BR>
+* GT New Horizons Core Mod	1.2.49<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -171,10 +173,11 @@ newhorizons.prospercraft.com<BR>
 * Chisel	2.5.1.44<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
 * IguanaTinkerTweaks	2.1.6b<BR>
-* Industrial Craft 2	2.2.2.826<BR>
+* Industrial Craft 2	2.2.2.827<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * InpureCore	1.0.0B9-62<BR>
+* Inventory Tweaks 1.58.147<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.54<BR>
@@ -194,14 +197,14 @@ newhorizons.prospercraft.com<BR>
 * NEI	1.0.5.120<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
-* Nodal Mechanics	1.0-12<BR>
+* Nodal Mechanics	1.0-13<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.5.1<BR>
-* Open Computers	1.5.22.46<BR>
+* Open Computers	1.6.0.9<BR>
 * Open Mods Lib	0.9.1<BR>
-* Open Modular Turrets 2.2.4.225<BR>
+* Open Modular Turrets 2.2.4.226<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-94<BR>
+* Open Security	1.0-95<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
@@ -222,16 +225,17 @@ newhorizons.prospercraft.com<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.11.2<BR>
+* SG Craft 1.13.0<BR>
 * Special Mobs	3.2.2c<BR>
 * Spice of Life	1.3.6<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.4<BR>
+* Storage Drawers	1.10.7<BR>
 * Storage Drawers Wood Addons 1.1.1<BR>
-* Tainted Magic	1.1.6.4<BR>
+* Tainted Magic	r7.6<BR>
+* TC Node Tracker 1.1.2<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
@@ -256,7 +260,7 @@ newhorizons.prospercraft.com<BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.65<BR>
+* YamCore	0.5.69<BR>
 * Ztones	2.2.2custom<BR>
 
 
