@@ -10,6 +10,7 @@ import gregtech.api.metatileentity.BaseMetaPipeEntity;
 import gregtech.api.metatileentity.MetaPipeEntity;
 import gregtech.api.objects.GT_RenderedTexture;
 import gregtech.api.util.GT_Utility;
+import gregtech.common.GT_Client;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.ItemStack;
@@ -325,9 +326,10 @@ public class GT_CustomMetaPipeEntity_Item extends MetaPipeEntity implements IMet
 	public String[] getDescription() {
 		return new String[] {String.format("Item Capacity: 1 Stack/%d ticks", mCustomTickTime), "Routing Value: " + mStepSize};
 	}
-	
+
 	@Override
 	public float getThickNess() {
+		if(GT_Client.hideValue==1) return 0.125F;
 		return mThickNess;
 	}
 }
