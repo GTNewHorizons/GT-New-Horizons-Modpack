@@ -163,7 +163,7 @@ newhorizons.prospercraft.com<BR>
 * Galaxy Space	1.1.3<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.26.18<BR>
+* Gregtech	5.09.26.19<BR>
 * GT New Horizons Core Mod	1.2.49<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
