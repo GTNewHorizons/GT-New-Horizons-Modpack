@@ -655,22 +655,22 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.UV.getGlass() }).getStackForm(1L));
 
 		CustomItemList.ElectrolyzerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10853, "basicmachine.electrolyzer.tier.09", "Legendery Ionizer", 9, "Electrolyzing Molecules",
+				10853, "basicmachine.electrolyzer.tier.09", "Epic Ionizer", 9, "Electrolyzing Molecules",
 				GT_Recipe.GT_Recipe_Map.sElectrolyzerRecipes, 2, 6, 64000, 0, 1, "Electrolyzer.png",
 				"", false, false, 0, "ELECTROLYZER",null).getStackForm(1L));
 
 		CustomItemList.ElectrolyzerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10854, "basicmachine.electrolyzer.tier.10", "Legendery Ionizer II",10, "Electrolyzing Molecules",
+				10854, "basicmachine.electrolyzer.tier.10", "Epic Ionizer II",10, "Electrolyzing Molecules",
 				GT_Recipe.GT_Recipe_Map.sElectrolyzerRecipes, 2, 6, 64000, 0, 1, "Electrolyzer.png",
 				"", false, false, 0, "ELECTROLYZER",null).getStackForm(1L));
 
 		CustomItemList.ElectrolyzerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10855, "basicmachine.electrolyzer.tier.11", "Legendery Ionizer III",11, "Electrolyzing Molecules",
+				10855, "basicmachine.electrolyzer.tier.11", "Epic Ionizer III",11, "Electrolyzing Molecules",
 				GT_Recipe.GT_Recipe_Map.sElectrolyzerRecipes, 2, 6, 64000, 0, 1, "Electrolyzer.png",
 				"", false, false, 0, "ELECTROLYZER",null).getStackForm(1L));
 
 		CustomItemList.ElectrolyzerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10856, "basicmachine.electrolyzer.tier.12", "Legendery Ionizer IV",12, "Electrolyzing Molecules",
+				10856, "basicmachine.electrolyzer.tier.12", "Epic Ionizer IV",12, "Electrolyzing Molecules",
 				GT_Recipe.GT_Recipe_Map.sElectrolyzerRecipes, 2, 6, 64000, 0, 1, "Electrolyzer.png",
 				"", false, false, 0, "ELECTROLYZER",null).getStackForm(1L));
 
@@ -719,22 +719,22 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.UV.getCable() }).getStackForm(1L));
 
 		CustomItemList.ElectromagneticSeparatorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10863, "basicmachine.electromagneticseparator.tier.09", "Legendaery Magnetar Separator", 9, "Separating the magnetic Ores from the rest",
+				10863, "basicmachine.electromagneticseparator.tier.09", "Epic Magnetar Separator", 9, "Separating the magnetic Ores from the rest",
 				GT_Recipe.GT_Recipe_Map.sElectroMagneticSeparatorRecipes, 1, 3, 0, 0, 1, "ElectromagneticSeparator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "ELECTROMAGNETIC_SEPARATOR",null).getStackForm(1L));
 
 		CustomItemList.ElectromagneticSeparatorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10864, "basicmachine.electromagneticseparator.tier.10", "Legendaery Magnetar Separator II",10, "Separating the magnetic Ores from the rest",
+				10864, "basicmachine.electromagneticseparator.tier.10", "Epic Magnetar Separator II",10, "Separating the magnetic Ores from the rest",
 				GT_Recipe.GT_Recipe_Map.sElectroMagneticSeparatorRecipes, 1, 3, 0, 0, 1, "ElectromagneticSeparator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "ELECTROMAGNETIC_SEPARATOR",null).getStackForm(1L));
 
 		CustomItemList.ElectromagneticSeparatorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10865, "basicmachine.electromagneticseparator.tier.11", "Legendaery Magnetar Separator III",11, "Separating the magnetic Ores from the rest",
+				10865, "basicmachine.electromagneticseparator.tier.11", "Epic Magnetar Separator III",11, "Separating the magnetic Ores from the rest",
 				GT_Recipe.GT_Recipe_Map.sElectroMagneticSeparatorRecipes, 1, 3, 0, 0, 1, "ElectromagneticSeparator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "ELECTROMAGNETIC_SEPARATOR",null).getStackForm(1L));
 
 		CustomItemList.ElectromagneticSeparatorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
-				10866, "basicmachine.electromagneticseparator.tier.12", "Legendaery Magnetar Separator IV",12, "Separating the magnetic Ores from the rest",
+				10866, "basicmachine.electromagneticseparator.tier.12", "Epic Magnetar Separator IV",12, "Separating the magnetic Ores from the rest",
 				GT_Recipe.GT_Recipe_Map.sElectroMagneticSeparatorRecipes, 1, 3, 0, 0, 1, "ElectromagneticSeparator.png",
 				(String)GregTech_API.sSoundList.get(Integer.valueOf(212)), false, false, 0, "ELECTROMAGNETIC_SEPARATOR",null).getStackForm(1L));
 
