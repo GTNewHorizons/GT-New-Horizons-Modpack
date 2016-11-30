@@ -170,7 +170,7 @@ public class SpaceDimRegisterer
         ModDBMDef DBMbarnardaC = new ModDBMDef("barnardaCdirt");
         ModDBMDef DBMbarnardaE = new ModDBMDef("barnardaEsubgrunt");
         ModDBMDef DBMbarnardaF = new ModDBMDef("barnardaFsubgrunt");
-        ModDBMDef DBMTcetiE = new ModDBMDef("tcetieblocks", 2);
+        //ModDBMDef DBMTcetiE = new ModDBMDef("tcetieblocks", 2);
         ModDBMDef DBMMiranda = new ModDBMDef("mirandablocks", 2);
 
 
@@ -180,7 +180,7 @@ public class SpaceDimRegisterer
         // The resulting config setting will be: <ModID>_<Name you give here as arg0>_false = false
         // make sure to never change this name once you've generated your config files, as it will overwrite everything!
 
-        // 01.11.2016 GSpace v1.1.2 Stable
+        // 30.11.2016 GSpace v1.1.3 Stable
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Pluto", "galaxyspace.SolarSystem.planets.pluto.dimension.ChunkProviderPluto", DimensionType.Planet, singleToList(DBMPluto)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Triton", "galaxyspace.SolarSystem.moons.triton.dimension.ChunkProviderTriton", DimensionType.Planet, singleToList(DBMTriton)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Proteus", "galaxyspace.SolarSystem.moons.proteus.dimension.ChunkProviderProteus", DimensionType.Planet, singleToList(DBMProteus)));
@@ -203,7 +203,7 @@ public class SpaceDimRegisterer
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardC", "galaxyspace.BarnardsSystem.planets.barnardaC.dimension.ChunkProviderBarnardaC", DimensionType.Planet, singleToList(DBMbarnardaC)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardE", "galaxyspace.BarnardsSystem.planets.barnardaE.dimension.ChunkProviderBarnardaE", DimensionType.Planet, singleToList(DBMbarnardaE)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("BarnardF", "galaxyspace.BarnardsSystem.planets.barnardaF.dimension.ChunkProviderBarnardaF", DimensionType.Planet, singleToList(DBMbarnardaF)));
-        modCGalaxySpace.addDimensionDef(new ModDimensionDef("TcetiE", "galaxyspace.TCetiSystem.planets.tcetiE.dimension.ChunkProviderTCetiE", DimensionType.Planet, singleToList(DBMTcetiE)));
+        //modCGalaxySpace.addDimensionDef(new ModDimensionDef("TcetiE", "galaxyspace.TCetiSystem.planets.tcetiE.dimension.ChunkProviderTCetiE", DimensionType.Planet, singleToList(DBMTcetiE)));
         modCGalaxySpace.addDimensionDef(new ModDimensionDef("Miranda", "galaxyspace.SolarSystem.moons.miranda.dimension.ChunkProviderMiranda", DimensionType.Planet, singleToList(DBMMiranda)));
 
         ModDimensionDef dimKupierBelt = new ModDimensionDef("Kuiperbelt", "galaxyspace.SolarSystem.planets.kuiperbelt.dimension.ChunkProviderKuiper", DimensionType.Asteroid);
