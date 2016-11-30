@@ -5470,10 +5470,10 @@
               "Damage": 2896
             },
             {
-              "id": "IC2:itemDust",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 13
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "dustSulfur",
+              "Damage": 2022
             }
           ],
           "taskID": "bq_standard:retrieval"
