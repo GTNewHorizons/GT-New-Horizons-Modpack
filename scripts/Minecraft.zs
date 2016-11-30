@@ -1087,19 +1087,19 @@ recipes.addShapeless(JackOLantern,
 
 // --- Trapdoor
 recipes.addShaped(Trapdoor, [
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
 [Stick, Flint, Stick],
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
 // --- 
 recipes.addShaped(Trapdoor * 2, [
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
 [Stick, IronScrew, Stick],
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
 // ---
 recipes.addShaped(Trapdoor * 3, [
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
 [Stick, SteelScrew, Stick],
-[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
+[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
 
 // --- Pressure Plate
 recipes.addShapeless(<minecraft:stone_pressure_plate> * 2, [Saw, <minecraft:stone_slab>]);
