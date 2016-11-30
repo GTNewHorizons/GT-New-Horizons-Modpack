@@ -21,9 +21,13 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
 
-        GT_Values.RA.addAlloySmelterRecipe(CustomItemList.MicaBasedSheet.get(4L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 1L),CustomItemList.MicaInsulatorSheet.get(4L),400,30);
+        GT_Values.RA.addAlloySmelterRecipe(CustomItemList.MicaBasedSheet.get(4L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.MicaInsulatorSheet.get(4L),400,30);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Ruby, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sapphire, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GreenSapphire, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
 
         //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PsP", 'P', OrePrefixes.wireGt02.get(Materials.Cupronickel)});
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), CustomItemList.AluminoSilicateWool.get(12L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L, new Object[0]), 100, 8);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L, new Object[0]), 100, 8);
         //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Kanthal)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Kanthal, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Copper.getMolten(144L), ItemList.Casing_Coil_Kanthal.get(1L, new Object[0]), 100, 24);

@@ -419,6 +419,7 @@ public enum ItemList
     MedalBuilder(new ModSimpleBaseItem("MedalBuilder", ModTabList.ModGenericTab)),
     MedalEngineer(new ModSimpleBaseItem("MedalEngineer", ModTabList.ModGenericTab)),
     MedalWarp(new ModSimpleBaseItem("MedalWarp", ModTabList.ModGenericTab)),
+    AluminoSilicateWool(new ModSimpleBaseItem("AluminoSilicateWool", ModTabList.ModGenericTab)),
 
     // Do not delete this
     EndOfList(null);
