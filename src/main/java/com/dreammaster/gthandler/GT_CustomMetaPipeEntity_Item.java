@@ -257,7 +257,7 @@ public class GT_CustomMetaPipeEntity_Item extends MetaPipeEntity implements IMet
 			if (isInventoryEmpty())
 				mLastReceivedFrom = 6;
 			oLastReceivedFrom = mLastReceivedFrom;
-		}else if(GT_Client.changeDetected==4 && aBaseMetaTileEntity.isClientSide()) aBaseMetaTileEntity.issueTextureUpdate();
+		}else if(aBaseMetaTileEntity.isClientSide() && GT_Client.changeDetected==4) aBaseMetaTileEntity.issueTextureUpdate();
 	}
 
 	@Override
