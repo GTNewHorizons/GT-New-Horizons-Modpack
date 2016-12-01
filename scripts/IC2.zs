@@ -1630,13 +1630,13 @@ Assembler.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <gregtech:gt.m
 Assembler.addRecipe(<IC2:upgradeModule:6>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32630>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Scuba Helmet
-Assembler.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <dreamcraft:item.ReinforcedGlassLense> * 2, <liquid:glue> * 144, 500, 30);
+Assembler.addRecipe(<IC2:itemArmorHazmatHelmet>, <gregtech:gt.metaitem.01:17880> * 5, <dreamcraft:item.ReinforcedGlassLense> * 2, <liquid:refinedGlue> * 144, 500, 30);
 
 // --- Hazmat Suit
-Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:glue> * 144, 500, 30);
+Assembler.addRecipe(<IC2:itemArmorHazmatChestplate>, <gregtech:gt.metaitem.01:17880> * 8, <minecraft:wool:1> * 4, <liquid:refinedGlue> * 144, 500, 30);
 
 // --- Hazmat Suit Leggings
-Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:glue> * 144, 500, 30);
+Assembler.addRecipe(<IC2:itemArmorHazmatLeggings>, <gregtech:gt.metaitem.01:17880> * 7, <minecraft:carpet:1> * 4, <liquid:refinedGlue> * 144, 500, 30);
 
 // --- Solar Helmet
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.lead> * 288, 600, 30);
