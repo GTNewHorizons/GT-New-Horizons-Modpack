@@ -95,7 +95,7 @@ newhorizons.prospercraft.com<BR>
 ## Modlist - NewHorizons 1.2.0.0 --- 27.11.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta10pre<BR>
+* Adventure Backpack 0.9fbeta10<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.1b<BR>
 * AFSU	1.2.3.a<BR>
@@ -108,7 +108,7 @@ newhorizons.prospercraft.com<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
 * Avaritia 1.11<BR>
-* BackPack	2.2.2<BR>
+* BackPack	2.2.3<BR>
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
