@@ -1195,7 +1195,7 @@ mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>
 
 
 // --- Duct Tape
-Assembler.addRecipe(<EMT:EMTItems:9>, <minecraft:paper> * 12, <EMT:EMTItems:10> * 4, <liquid:glue> * 6912, 600, 30);
+Assembler.addRecipe(<EMT:EMTItems:9>, <minecraft:paper> * 12, <EMT:EMTItems:10> * 4, <liquid:refinedGlue> * 6912, 600, 30);
 
 
 
