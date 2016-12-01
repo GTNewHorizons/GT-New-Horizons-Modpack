@@ -3024,9 +3024,9 @@ Assembler.addRecipe(Lever, <BiomesOPlenty:plants:8>, <minecraft:stone_button>, 5
 // Ladder
 Assembler.addRecipe(<minecraft:ladder>, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27809>, 100, 8);
 // -
-Assembler.addRecipe(<minecraft:ladder> * 2, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27032>, <liquid:glue> * 16, 100, 16);
+Assembler.addRecipe(<minecraft:ladder> * 2, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27032>, <liquid:refinedGlue> * 16, 100, 16);
 // -
-Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27305>, <liquid:glue> * 32, 100, 30);
+Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27305>, <liquid:refinedGlue> * 32, 100, 30);
 
 
 
