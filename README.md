@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.2.0.0 is out (27.11.2016)
+Version 1.2.1.0 is out (01.12.2016)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -95,7 +95,7 @@ newhorizons.prospercraft.com<BR>
 ## Modlist - NewHorizons 1.2.0.0 --- 27.11.2016<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta9<BR>
+* Adventure Backpack 0.9fbeta10pre<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.1b<BR>
 * AFSU	1.2.3.a<BR>
@@ -134,10 +134,10 @@ newhorizons.prospercraft.com<BR>
 * CofhLib	1.1.2.182<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.1<BR>
-* Craft Tweaker 3.0.13<BR>
+* Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution	1.0.2iCustom<BR>
+* Draconic Evolution	1.0.2jCustom<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.6.2<BR>
 * Enchiridion 	2.0.2a<BR>
@@ -145,7 +145,7 @@ newhorizons.prospercraft.com<BR>
 * Ender IO	2.3.0.429<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
-* Enhanced Loot Bags 1.0<BR>
+* Enhanced Loot Bags 1.0.1<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Extra Cells	2.3.14b199<BR>
 * Extra Utilities	1.2.12<BR>
@@ -162,9 +162,9 @@ newhorizons.prospercraft.com<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3<BR>
 * Gendustry	1.6.4.135<BR>
-* Gravitation Suite	2.0.67u<BR>
-* Gregtech	5.09.26.19<BR>
-* GT New Horizons Core Mod	1.2.49<BR>
+* Gravitation Suite	2.0.67u1<BR>
+* Gregtech	5.09.26.21<BR>
+* GT New Horizons Core Mod	1.3.01<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -177,7 +177,7 @@ newhorizons.prospercraft.com<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * InpureCore	1.0.0B9-62<BR>
-* Inventory Tweaks 1.58.147<BR>
+* Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.54<BR>
@@ -204,7 +204,7 @@ newhorizons.prospercraft.com<BR>
 * Open Mods Lib	0.9.1<BR>
 * Open Modular Turrets 2.2.4.225<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-95<BR>
+* Open Security	1.0-96<BR>
 * Pam's Harvestcraft	1.7.10lb<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>

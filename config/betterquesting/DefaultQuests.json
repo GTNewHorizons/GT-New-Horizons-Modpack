@@ -5470,10 +5470,10 @@
               "Damage": 2896
             },
             {
-              "id": "IC2:itemDust",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 13
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "dustSulfur",
+              "Damage": 2022
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -6528,86 +6528,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 24,
-              "OreDict": "",
-              "Damage": 2901
-            },
-            {
-              "id": "IC2:itemHarz",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.MicaBasedPulp",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 2946
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.MicaBasedSheet",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 2890
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.MicaInsulatorSheet",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.MicaInsulatorFoil",
-              "Count": 128,
+              "id": "dreamcraft:item.AluminoSilicateWool",
+              "Count": 192,
               "OreDict": "",
               "Damage": 0
             },
@@ -18570,6 +18492,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -18578,7 +18502,7 @@
               "Damage": 27306
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
