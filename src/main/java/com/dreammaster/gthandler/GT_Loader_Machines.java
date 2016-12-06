@@ -2738,6 +2738,12 @@ public class GT_Loader_Machines
 		CustomItemList.Hatch_Dynamo_UMV.set(new GT_MetaTileEntity_Hatch_Dynamo(
 				11292, "hatch.dynamo.tier.12", "UMV Dynamo Hatch",12).getStackForm(1L));
 
+		CustomItemList.Hatch_Dynamo_UXV.set(new GT_MetaTileEntity_Hatch_Dynamo(
+				11293, "hatch.dynamo.tier.13", "UXV Dynamo Hatch",13).getStackForm(1L));
+
+		CustomItemList.Hatch_Dynamo_OPV.set(new GT_MetaTileEntity_Hatch_Dynamo(
+				11294, "hatch.dynamo.tier.14", "OPV Dynamo Hatch",14).getStackForm(1L));
+
 		//TODO:Recipes
 
 		// ===================================================================================================
