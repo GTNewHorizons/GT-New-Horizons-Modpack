@@ -466,7 +466,7 @@ recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEne
 // --- Capacitor Bank Upgrade From Basic Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:18315>, GCircuit	, <gregtech:gt.metaitem.01:18315>],
-[<EnderIO:blockCapBank:2>, EAPlate, <EnderIO:blockCapBank:2>]]);
+[<EnderIO:blockCapBank:1>, EAPlate, <EnderIO:blockCapBank:1>]]);
 
 // --- Vibrant Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
