@@ -2381,6 +2381,26 @@ recipes.addShaped(<minecraft:bed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [Fence, <ore:craftingToolSoftHammer>, Fence]]);
+// -
+recipes.addShaped(<minecraft:bed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ExtraTrees:fence:*>, <ore:craftingToolSoftHammer>, <ExtraTrees:fence:*>]]);
+// -
+recipes.addShaped(<minecraft:bed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<Forestry:fences:*>, <ore:craftingToolSoftHammer>, <Forestry:fences:*>]]);
+// -
+recipes.addShaped(<minecraft:bed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<Forestry:fencesFireproof:*>, <ore:craftingToolSoftHammer>, <Forestry:fencesFireproof:*>]]);
+// -
+recipes.addShaped(<minecraft:bed>, [
+[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<Natura:Natura.fence:*>, <ore:craftingToolSoftHammer>, <Natura:Natura.fence:*>]]);
 
 // --- Fishing Rod
 recipes.addShaped(<minecraft:fishing_rod>, [
