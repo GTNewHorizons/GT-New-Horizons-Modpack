@@ -153,11 +153,11 @@ mods.thaumcraft.Research.setAspects("NITOR", "lux 6, ignis 3, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("NITOR", 1);
 
 // --- Alumentum
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustCoal>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2535>, "ignis 6, perditio 3, potentia 6");
 // -
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustCharcoal>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2536>, "ignis 6, perditio 3, potentia 6");
 // -
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustLignite>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2538>, "ignis 6, perditio 3, potentia 6");
 // -
 mods.thaumcraft.Research.setAspects("ALUMENTUM", "ignis 3, praecantatio 3, perditio 6");
 mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
