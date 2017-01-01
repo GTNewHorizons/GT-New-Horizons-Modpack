@@ -42,6 +42,13 @@ val Slab4 = <ExtraTrees:slab:*>;
 val Slab5 = <Forestry:slabs:*>;
 val Slab6 = <Natura:plankSlab1:*>;
 val Slab7 = <Natura:plankSlab2:*>;
+val Plank = <minecraft:planks:*>;
+val Plank1 = <BiomesOPlenty:planks:*>;
+val Plank2 = <ExtraTrees:planks:*>;
+val Plank3 = <ExtraUtilities:colorWoodPlanks:*>;
+val Plank4 = <Forestry:planks:*>;
+val Plank5 = <Forestry:planksFireproof:*>;
+val Plank6 = <Natura:planks:*>;
 
 val MKI = <JABBA:upgradeStructural>;
 val MKII = <JABBA:upgradeStructural:1>;
@@ -344,19 +351,19 @@ recipes.addShaped(VoidUp, [
 
 
 // --- Barrel
-Assembler.addRecipe(Barrel, Slab1 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab2 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank1 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab3 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank2 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab4 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank3 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab5 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank4 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab6 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank5 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab7 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank6 * 8, Chest, 200, 16);
 
 
 // --- Storage Upgrade
