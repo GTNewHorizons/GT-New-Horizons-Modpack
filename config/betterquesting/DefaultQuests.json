@@ -7811,7 +7811,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -7949,7 +7949,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -8156,7 +8156,7 @@
         }
       ],
       "preRequisites": [
-        88
+        92
       ]
     },
     {
@@ -8225,7 +8225,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -8293,9 +8293,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        88
-      ]
+      "preRequisites": []
     },
     {
       "questID": 100,
@@ -8363,7 +8361,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -8432,7 +8430,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -8501,7 +8499,7 @@
         }
       ],
       "preRequisites": [
-        88
+        91
       ]
     },
     {
@@ -8672,7 +8670,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -38118,7 +38116,7 @@
     {
       "questID": 498,
       "name": "XP usage",
-      "description": "Exploring some Dungeons or be outside in the night fighting some mobs give you a lot of XP. Better using it to get iron, copper, tin and other useful dusts before you died during the next fight.",
+      "description": "Exploring some Dungeons or be outside in the night fighting some mobs give you a lot of XP. Better using it to get iron, copper, tin and other useful dusts before you died during the next fight.\nPlace your Tank on the Ground and ontop the Drain. Now you can fill it with XP. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38192,6 +38190,81 @@
       "preRequisites": [
         36,
         74
+      ]
+    },
+    {
+      "questID": 499,
+      "name": "Diesel-Creosote Gen",
+      "description": "You almost made it. One last crafting step is required in order to advance to Tier 2. Keep going!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1120
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1110
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:cranberrybarItem",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        72
       ]
     },
     {
@@ -45435,188 +45508,188 @@
       "quests": [
         {
           "id": 88,
-          "x": 64,
-          "y": 72
+          "x": 48,
+          "y": 0
         },
         {
           "id": 90,
-          "x": 128,
-          "y": 8
+          "x": 0,
+          "y": 84
         },
         {
           "id": 91,
-          "x": 128,
-          "y": 40
+          "x": 144,
+          "y": 12
         },
         {
           "id": 92,
-          "x": 128,
-          "y": 120
+          "x": 180,
+          "y": 84
         },
         {
           "id": 93,
-          "x": 128,
-          "y": 88
+          "x": 144,
+          "y": 48
         },
         {
           "id": 94,
-          "x": 0,
-          "y": 104
+          "x": 144,
+          "y": 120
         },
         {
           "id": 95,
-          "x": 128,
-          "y": 152
+          "x": 144,
+          "y": 84
         },
         {
           "id": 96,
-          "x": 64,
-          "y": 8
+          "x": 96,
+          "y": 84
         },
         {
           "id": 97,
-          "x": 96,
-          "y": 8
+          "x": 216,
+          "y": 84
         },
         {
           "id": 98,
-          "x": 0,
-          "y": 168
+          "x": 180,
+          "y": 48
         },
         {
           "id": 99,
-          "x": 0,
-          "y": 136
+          "x": 216,
+          "y": 48
         },
         {
           "id": 100,
-          "x": 0,
-          "y": 8
+          "x": 180,
+          "y": 120
         },
         {
           "id": 101,
-          "x": 0,
-          "y": 72
+          "x": 96,
+          "y": 120
         },
         {
           "id": 102,
-          "x": 0,
-          "y": 40
+          "x": 180,
+          "y": 12
         },
         {
           "id": 103,
-          "x": 64,
-          "y": 184
+          "x": 0,
+          "y": 0
         },
         {
           "id": 104,
-          "x": 64,
-          "y": 216
+          "x": 0,
+          "y": 36
         },
         {
           "id": 105,
-          "x": 32,
-          "y": 8
+          "x": 216,
+          "y": 120
         },
         {
           "id": 106,
-          "x": 320,
-          "y": 72
+          "x": 336,
+          "y": 0
         },
         {
           "id": 107,
-          "x": 280,
-          "y": 0
+          "x": 468,
+          "y": 72
         },
         {
           "id": 108,
-          "x": 320,
-          "y": 32
-        },
-        {
-          "id": 109,
-          "x": 320,
+          "x": 444,
           "y": 0
         },
         {
+          "id": 109,
+          "x": 492,
+          "y": 36
+        },
+        {
           "id": 110,
-          "x": 360,
+          "x": 492,
           "y": 0
         },
         {
           "id": 111,
-          "x": 280,
-          "y": 32
+          "x": 408,
+          "y": 36
         },
         {
           "id": 112,
-          "x": 360,
-          "y": 32
-        },
-        {
-          "id": 113,
-          "x": 240,
-          "y": 112
-        },
-        {
-          "id": 114,
-          "x": 208,
-          "y": 144
-        },
-        {
-          "id": 115,
-          "x": 264,
-          "y": 144
-        },
-        {
-          "id": 116,
-          "x": 320,
-          "y": 112
-        },
-        {
-          "id": 117,
-          "x": 360,
-          "y": 112
-        },
-        {
-          "id": 118,
-          "x": 280,
-          "y": 112
-        },
-        {
-          "id": 119,
-          "x": 360,
+          "x": 432,
           "y": 72
         },
         {
+          "id": 113,
+          "x": 336,
+          "y": 72
+        },
+        {
+          "id": 114,
+          "x": 372,
+          "y": 108
+        },
+        {
+          "id": 115,
+          "x": 300,
+          "y": 108
+        },
+        {
+          "id": 116,
+          "x": 372,
+          "y": 72
+        },
+        {
+          "id": 117,
+          "x": 300,
+          "y": 72
+        },
+        {
+          "id": 118,
+          "x": 372,
+          "y": 36
+        },
+        {
+          "id": 119,
+          "x": 300,
+          "y": 36
+        },
+        {
           "id": 120,
-          "x": 128,
-          "y": 184
+          "x": 48,
+          "y": 168
         },
         {
           "id": 122,
-          "x": 160,
-          "y": 184
-        },
-        {
-          "id": 123,
-          "x": 240,
+          "x": 48,
           "y": 216
         },
         {
+          "id": 123,
+          "x": 48,
+          "y": 264
+        },
+        {
           "id": 124,
-          "x": 208,
-          "y": 184
+          "x": 0,
+          "y": 216
         },
         {
           "id": 125,
-          "x": 264,
-          "y": 184
+          "x": 0,
+          "y": 264
         },
         {
           "id": 121,
-          "x": 96,
-          "y": 184
+          "x": 48,
+          "y": 120
         }
       ]
     },
