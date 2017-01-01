@@ -147,7 +147,7 @@ mods.thaumcraft.Research.addCruciblePage("TALLOW", <Thaumcraft:ItemResource:4>);
 mods.thaumcraft.Research.addArcanePage("TALLOW", <Thaumcraft:blockCandle>);
 
 // --- Nitor
-mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <ore:dustGlowstone>, "ignis 4, lux 4, potentia 4");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <minecraft:glowstone_dust>, "ignis 4, lux 4, potentia 4");
 
 mods.thaumcraft.Research.setAspects("NITOR", "lux 6, ignis 3, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("NITOR", 1);
@@ -383,7 +383,7 @@ mods.thaumcraft.Warp.addToResearch("BOTTLETAINT", 5);
 mods.thaumcraft.Warp.addToItem(<Thaumcraft:ItemBottleTaint>, 1);
 
 // --- Thaumium
-mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ore:ingotIron>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>, "praecantatio 4");
 
 
 
