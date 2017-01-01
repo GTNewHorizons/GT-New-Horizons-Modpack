@@ -258,9 +258,9 @@ recipes.addShaped(<OpenBlocks:autoanvil>, [
 
 // --- XP Drain
 recipes.addShaped(<OpenBlocks:xpdrain>, [
-[<ore:plateSteel>, <ore:stickAnyIron>, <ore:plateSteel>],
+[<ore:screwAnyIron>, <ore:stickAnyIron>, <ore:screwAnyIron>],
 [<ore:stickAnyIron>, IronBars, <ore:stickAnyIron>],
-[<ore:plateSteel>, <ore:stickAnyIron>, <ore:plateSteel>]]);
+[<ore:screwAnyIron>, <ore:stickAnyIron>, <ore:screwAnyIron>]]);
 
 // --- Path
 recipes.addShaped(<OpenBlocks:path> * 4, [

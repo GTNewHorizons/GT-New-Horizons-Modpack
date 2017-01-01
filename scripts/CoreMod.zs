@@ -587,6 +587,69 @@ recipes.addShaped(<dreamcraft:item.BowStringCast>, [
 [null, <ore:plateBrass>, Hammer],
 [null, File, Knife]]);
 
+// --- Charcoal out of XP 5 level
+recipes.addShaped(<minecraft:coal:1>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+
+// --- Clay Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+
+// --- Copper Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>]]);
+ 
+// --- Tin Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+
+// --- Glass Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2890>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+
+// --- Iron Dust out of XP 10 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+
+// --- Redstone Dust out of XP 10 level
+recipes.addShaped(<minecraft:redstone>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>]]);
+
+// --- Aluminum Tico Dust out of XP 10 level
+recipes.addShaped(<TConstruct:materials:40>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>))],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>]]);
+
+// --- Silver Dust out of XP 12,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2054>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>, null]]);
+
+// --- Nickel Dust out of XP 12,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>]]);
+
+// --- Gold Dust out of XP 15 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>]]);
+
+// --- Sulfur Dust out of XP 15 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2022>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>, null],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>, null, null]]);
+
+// --- Obsidian Dust out of XP 15 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>, null],
+[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>, null]]);
 
 
 
