@@ -38115,8 +38115,8 @@
     },
     {
       "questID": 498,
-      "name": "XP usage",
-      "description": "Exploring some Dungeons or be outside in the night fighting some mobs give you a lot of XP. Better using it to get iron, copper, tin and other useful dusts before you died during the next fight.\nPlace your Tank on the Ground and ontop the Drain. Now you can fill it with XP. ",
+      "name": "XP use?",
+      "description": "Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin or other useful dusts before you die during the next fight.\nPlace your Tank on the Ground and a drain on top. Now you can fill it with XP.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
