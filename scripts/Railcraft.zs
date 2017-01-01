@@ -1379,6 +1379,9 @@ recipes.addShaped(<Railcraft:borehead.steel>, [
 // --- Diamond Borehead ---
 recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>, <gregtech:gt.metaitem.01:32722>]);
 
+// --- Diamond Borehead ---
+recipes.addShapeless(<gregtech:gt.metaitem.01:32722> * 2, [<Railcraft:borehead.diamond>]);
+
 // --- RC Crowbar ---
 recipes.addShaped(<Railcraft:tool.crowbar>, [
 [HHammer, RedDye, IronRod],
