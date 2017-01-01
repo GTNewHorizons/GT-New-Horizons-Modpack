@@ -64,6 +64,11 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.gem, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Bedrockium, GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.BlackPlutonium, GT_ModHandler.getModItem("dreamcraft", "item.BlackPlutoniumPlate", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.BlackPlutonium, GT_ModHandler.getModItem("dreamcraft", "item.BlackPlutoniumDensePlate", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.BlackPlutonium, GT_ModHandler.getModItem("dreamcraft", "tile.BlackPlutonium", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Manyullyn, GT_ModHandler.getModItem("dreamcraft", "item.ManyullynPlate", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Ardite, GT_ModHandler.getModItem("dreamcraft", "item.ArditePlate", 1L, 0));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ore, Materials.Desh, GT_ModHandler.getModItem("GalacticraftMars", "tile.mars", 1L, 2));
         GT_OreDictUnificator.registerOre(OrePrefixes.stick, Materials.Desh, GT_ModHandler.getModItem("GalacticraftMars", "item.null", 1L, 1));
