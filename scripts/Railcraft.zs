@@ -1377,7 +1377,7 @@ recipes.addShaped(<Railcraft:borehead.steel>, [
 [SteelPlate, <ore:gearSteel>, SteelPlate]]);
 
 // --- Diamond Borehead ---
-recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>]);
+recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>, <gregtech:gt.metaitem.01:32722>]);
 
 // --- RC Crowbar ---
 recipes.addShaped(<Railcraft:tool.crowbar>, [
