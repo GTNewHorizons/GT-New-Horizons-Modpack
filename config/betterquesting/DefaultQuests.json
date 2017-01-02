@@ -5528,6 +5528,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:itemCasing",
@@ -5548,7 +5550,7 @@
               "Damage": 1240
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -16282,19 +16284,22 @@
               "id": "IC2:reactorVent",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 1,
+              "tag": {}
             },
             {
               "id": "IC2:reactorVentCore",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 1,
+              "tag": {}
             },
             {
               "id": "IC2:reactorVentGold",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 1,
+              "tag": {}
             },
             {
               "id": "IC2:reactorVentSpread",
@@ -36639,14 +36644,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:flint_and_steel",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "minecraft:obsidian",
-              "Count": 9,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -45372,7 +45371,7 @@
     {
       "questID": 920,
       "name": "Blaze: Evolved",
-      "description": "In order to proceed to Tier 5 Planets, the Blaze Boss needs to be killed. Find him in one of the Dungeons on Io.",
+      "description": "In order to proceed to Tier 4 Planets, the Blaze Boss needs to be killed. Find him in one of the Dungeons on Ceres.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45560,13 +45559,13 @@
         }
       ],
       "preRequisites": [
-        921
+        919
       ]
     },
     {
       "questID": 921,
       "name": "Ghast: Evolved",
-      "description": "Fluffy, fluffier, Ghasts! And also big crybabies. This one hides in a dungeon on Ceres, and holds the Key for Tier 4 Planets.",
+      "description": "Fluffy, fluffier, Ghasts! And also big crybabies. This one hides in a dungeon on IO, and holds the Key for Tier 5 Planets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45726,7 +45725,7 @@
         }
       ],
       "preRequisites": [
-        919
+        920
       ]
     },
     {
@@ -45918,7 +45917,7 @@
         }
       ],
       "preRequisites": [
-        920
+        921
       ]
     },
     {
@@ -49151,12 +49150,12 @@
         },
         {
           "id": 920,
-          "x": 144,
+          "x": 96,
           "y": 60
         },
         {
           "id": 921,
-          "x": 96,
+          "x": 144,
           "y": 60
         },
         {
