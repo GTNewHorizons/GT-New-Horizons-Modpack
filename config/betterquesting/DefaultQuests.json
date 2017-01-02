@@ -1460,8 +1460,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "irontank:diamondTank",
-        "Count": 64,
+        "id": "irontank:ironTank",
+        "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
