@@ -1974,7 +1974,7 @@ PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316
 
 
 // --- Firestone Cut
-PrecisionLaser.addRecipe(<Railcraft:firestone.cut>, <gregtech:gt.metaitem.01:24500> * 0, <Railcraft:firestone.raw> * 4, 2400, 480);
+PrecisionLaser.addRecipe(<Railcraft:firestone.cut>, <gregtech:gt.metaitem.01:24500> * 0, <Railcraft:firestone.raw>, 2400, 480);
 
 
 
