@@ -4138,7 +4138,7 @@
         }
       ],
       "preRequisites": [
-        46
+        494
       ]
     },
     {
@@ -38454,7 +38454,7 @@
       "questID": 494,
       "name": "Redstone",
       "description": "If you didnt\u0027t found any Redstone vein, it is quite important to look for one now. Try your luck at Y level 5-40.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -38531,7 +38531,7 @@
         }
       ],
       "preRequisites": [
-        48
+        46
       ]
     },
     {
@@ -41622,6 +41622,137 @@
       "preRequisites": [
         65,
         69
+      ]
+    },
+    {
+      "questID": 535,
+      "name": "Redstone early Game processing",
+      "description": "You wondering how to process Redstone without any Macerator. Well you can mine it with a Gregtech Hammer and get the Crushed Ore. Then Using the Hammer in the Crafting Table to get Some Impure Redstone Dust. After this filling the Cauldron with Water and drop the whole Stack in. You get pure Redstone Dust for your Redalloy Ingots.","isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5810
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "craftingToolHardHammer",
+              "Damage": 12
+            },
+            {
+              "id": "minecraft:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:water_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5810
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 3810
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 810
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        494
       ]
     },
     {
@@ -46547,7 +46678,7 @@
         },
         {
           "id": 48,
-          "x": 96,
+          "x": 132,
           "y": 0
         },
         {
@@ -46702,8 +46833,8 @@
         },
         {
           "id": 494,
-          "x": 132,
-          "y": 36
+          "x": 96,
+          "y": 0
         },
         {
           "id": 495,
@@ -46724,6 +46855,11 @@
           "id": 534,
           "x": 192,
           "y": 180
+        },
+        {
+          "id": 535,
+          "x": 96,
+          "y": 36
         }
       ]
     },
