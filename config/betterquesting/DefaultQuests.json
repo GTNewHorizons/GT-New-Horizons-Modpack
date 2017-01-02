@@ -6625,7 +6625,7 @@
     {
       "questID": 76,
       "name": "Time to get some steel",
-      "description": "You need steel? Uhh... fine. Let\u0027s get busy...",
+      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n\n(Hint: Bronze Blast Furnace can share Walls if you build more than one. You can save a lot of Materials building four of them. Be warnend this outputs a lot of Pollution)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
