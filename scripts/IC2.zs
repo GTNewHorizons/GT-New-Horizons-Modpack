@@ -1932,30 +1932,3 @@ Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 
 
 // --- Coolant
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2hotcoolant", Amount: 1000}}), 200);
-
-
-
-// --- Nei Change Names ---
-
-
- 
-// --- Refined Block
-NEI.overrideName(<IC2:blockMetal:5>, "Block of Steel");
-
-// --- Steel Shaft
-NEI.overrideName(<IC2:itemRecipePart:12>, "Shaft (Steel)");
-
-// --- Steel Item Casing
-NEI.overrideName(<IC2:itemCasing:5>, "Steel Item Casing");
-
-// --- Steel Plate
-NEI.overrideName(<IC2:itemPlates:5>, "Steel Plate");
-
-// --- Dense Steel Plate
-NEI.overrideName(<IC2:itemDensePlates:5>, "Dense Steel Plate");
-
-// --- Steel Ingot
-NEI.overrideName(<IC2:itemIngot:3>, "Steel Ingot");
-
-// --- Block Cutting Blade
-NEI.overrideName(<IC2:itemAdvIronBlockCuttingBlade>, "Block Cutting Blade (Steel)");
