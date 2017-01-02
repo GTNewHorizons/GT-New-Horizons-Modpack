@@ -5819,53 +5819,10 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 17880
+        "Damage": 11880
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "TConstruct:blankPattern",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.MoldFormPlate",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32301
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -5895,24 +5852,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 20,
+              "Count": 40,
               "OreDict": "",
               "Damage": 11880
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 17880
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -41627,7 +41569,8 @@
     {
       "questID": 535,
       "name": "Redstone early Game processing",
-      "description": "You wondering how to process Redstone without any Macerator. Well you can mine it with a Gregtech Hammer and get the Crushed Ore. Then Using the Hammer in the Crafting Table to get Some Impure Redstone Dust. After this filling the Cauldron with Water and drop the whole Stack in. You get pure Redstone Dust for your Redalloy Ingots.","isMain": false,
+      "description": "You wondering how to process Redstone without any Macerator. Well you can mine it with a Gregtech Hammer and get the Crushed Ore. Then Using the Hammer in the Crafting Table to get Some Impure Redstone Dust. After this filling the Cauldron with Water and drop the whole Stack in. You get pure Redstone Dust for your Redalloy Ingots.",
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -41753,6 +41696,124 @@
       ],
       "preRequisites": [
         494
+      ]
+    },
+    {
+      "questID": 536,
+      "name": "Low Tier Wires",
+      "description": "Low Tier Wires like Red Alloy and Tin can be made in a crafting Table. Copper Wire needs a Alloy Smelter for it. So let\u0027s make some Mold for the Rubber Plates.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 17880
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MoldFormPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32301
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 17880
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:creamedbroccolisoupItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "IC2:itemHarz",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        69
       ]
     },
     {
@@ -46860,6 +46921,11 @@
           "id": 535,
           "x": 96,
           "y": 36
+        },
+        {
+          "id": 536,
+          "x": 276,
+          "y": 180
         }
       ]
     },
