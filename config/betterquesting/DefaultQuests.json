@@ -38729,7 +38729,7 @@
       "questID": 497,
       "name": "More Charcoal",
       "description": "You have found an alternative way of making Charcoal with an \"Charcoal Pile Igniter\". \nGo and start getting massive amounts of Charcoal.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -41543,6 +41543,85 @@
       ],
       "preRequisites": [
         95
+      ]
+    },
+    {
+      "questID": 534,
+      "name": "Pollution what....?",
+      "description": "If you running your Bronze Blast furnace for a long time you sometimes you get headaches, nausea and other wired Effects. Yes this is Pollution from making so much Steel. If you can collect some Rubber Sheets you get some Hazmat Suit for free.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:dreamcraft_Pollution",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 17880
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemArmorHazmatHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorHazmatChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorHazmatLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorRubBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65,
+        69
       ]
     },
     {
@@ -46559,32 +46638,32 @@
         {
           "id": 66,
           "x": 192,
-          "y": 180
+          "y": 216
         },
         {
           "id": 68,
           "x": 228,
-          "y": 216
+          "y": 252
         },
         {
           "id": 69,
           "x": 228,
-          "y": 144
+          "y": 180
         },
         {
           "id": 70,
           "x": 228,
-          "y": 252
+          "y": 288
         },
         {
           "id": 67,
           "x": 228,
-          "y": 180
+          "y": 216
         },
         {
           "id": 72,
           "x": 96,
-          "y": 252
+          "y": 288
         },
         {
           "id": 73,
@@ -46594,7 +46673,7 @@
         {
           "id": 71,
           "x": 276,
-          "y": 180
+          "y": 216
         },
         {
           "id": 84,
@@ -46640,6 +46719,11 @@
           "id": 497,
           "x": 192,
           "y": 144
+        },
+        {
+          "id": 534,
+          "x": 192,
+          "y": 180
         }
       ]
     },
