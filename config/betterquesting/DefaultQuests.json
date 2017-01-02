@@ -41816,6 +41816,209 @@
       ]
     },
     {
+      "questID": 537,
+      "name": "Time to kill (Witch)",
+      "description": "Witches are always Infernal and very dangerous. Be careful they throw always Potion at you.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:witchhat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "target": "Witch",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "ForgeData:10": {},
+            "Attributes:9": [
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.penetrateArmor"
+              },
+              {
+                "Base:6": 3.0,
+                "Name:8": "weapon.daze"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.attackSpeed"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "weapon.mountedBonus"
+              },
+              {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              {
+                "Base:6": 26.0,
+                "Name:8": "generic.maxHealth"
+              },
+              {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            ],
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "DropChances:9": [
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967
+            ],
+            "PersistenceRequired:1": 0,
+            "HealF:5": 26.0,
+            "id:8": "Witch",
+            "Anger:2": 0,
+            "ConversionTime:3": -1,
+            "Motion:9": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Leashed:1": 0,
+            "UUIDLeast:4": 6323763076874975255,
+            "Health:2": 26,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "Air:2": 0,
+            "Rotation:9": [
+              0.0,
+              0.0
+            ],
+            "CreatureInfusion:10": {
+              "PlayerInfusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "tumorWarpTemp:3": 0,
+              "InfusionCosts:10": {
+                "Aspects:9": []
+              },
+              "Infusions:11": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "toggleClimb:1": 0,
+              "toggleInvisible:1": 0,
+              "tumorWarp:3": 0,
+              "tumorWarpPermanent:3": 0,
+              "sitting:1": 0
+            },
+            "Equipment:9": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "UUIDMost:4": 50486316337289,
+            "CustomName:8": "",
+            "CanBreakDoors:1": 0,
+            "Pos:9": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "CustomNameVisible:1": 0
+          },
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -44919,7 +45122,8 @@
         910,
         915,
         912,
-        911
+        911,
+        537
       ]
     },
     {
@@ -46294,7 +46498,29 @@
         "Damage": 10
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 1000,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 1000,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [
         {
           "choices": [
@@ -49095,37 +49321,37 @@
         },
         {
           "id": 909,
-          "x": 420,
+          "x": 444,
           "y": 132
         },
         {
           "id": 910,
-          "x": 240,
+          "x": 228,
           "y": 96
         },
         {
           "id": 911,
-          "x": 348,
+          "x": 372,
           "y": 132
         },
         {
           "id": 912,
-          "x": 384,
+          "x": 408,
           "y": 132
         },
         {
           "id": 913,
-          "x": 276,
+          "x": 264,
           "y": 132
         },
         {
           "id": 914,
-          "x": 240,
+          "x": 228,
           "y": 132
         },
         {
           "id": 915,
-          "x": 312,
+          "x": 300,
           "y": 132
         },
         {
@@ -49187,6 +49413,11 @@
           "id": 456,
           "x": 384,
           "y": 96
+        },
+        {
+          "id": 537,
+          "x": 336,
+          "y": 132
         }
       ]
     },
