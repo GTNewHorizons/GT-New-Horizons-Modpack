@@ -7604,7 +7604,13 @@
         }
       ],
       "preRequisites": [
-        103
+        103,
+        91,
+        93,
+        92,
+        95,
+        529,
+        530
       ]
     },
     {
@@ -7680,7 +7686,7 @@
       "questID": 91,
       "name": "You gonna hate this #1",
       "description": "The first item you\u0027ll need a lot of. If you want to pull items out of Chests or Barrels you need one (Goes pretty well with item pipes or GT machines, adjust with screwdriver).",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7749,7 +7755,7 @@
       "questID": 92,
       "name": "You gonna hate this #3",
       "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Probably, the most painful item ever (Works like conveyor but can work with selected item slots, adjust with screwdriver).",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7818,7 +7824,7 @@
       "questID": 93,
       "name": "You gonna hate this #2",
       "description": "The second item you\u0027ll need a lot of. When you want to get the Fluid out of the Thanks you need one (Goes pretty well with fluid pipes or GT machines, adjust with screwdriver, it can also be further upgraded into fluid regulator that allows precise control of fluid transfer speed).",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7956,7 +7962,7 @@
       "questID": 95,
       "name": "You gonna hate this #4",
       "description": "A piston, but more .. \"Electrical\". The 4th item you are going to craft a lot in the future.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8293,7 +8299,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        529
+      ]
     },
     {
       "questID": 100,
@@ -38115,8 +38123,8 @@
     },
     {
       "questID": 498,
-      "name": "XP use?",
-      "description": "Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin or other useful dusts before you die during the next fight.\nPlace your Tank on the Ground and a drain on top. Now you can fill it with XP.",
+      "name": "XP usage",
+      "description": "Exploring some Dungeons or be outside in the night fighting some mobs give you a lot of XP. Better using it to get iron, copper, tin and other useful dusts before you died during the next fight.\nPlace your Tank on the Ground and ontop the Drain. Now you can fill it with XP. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40402,6 +40410,214 @@
       ],
       "preRequisites": [
         509
+      ]
+    },
+    {
+      "questID": 529,
+      "name": "You gonna hate this #5",
+      "description": "The fifth item you\u0027ll need a lot of. For the Microwave, the Scanner, Precision Laser etc.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32680
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32680
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 530,
+      "name": "You gonna hate this #6",
+      "description": "The sixth item you\u0027ll need a lot of. For the Scanner and the Seismic Prospector.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32690
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32690
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        88
+      ]
+    },
+    {
+      "questID": 531,
+      "name": "Scanning Bees, Crops",
+      "description": "Automate your Bee or Crop scannig. Later one this machine gets very usefull  scanning high level Machineparts for the Assembly machine or make Dataorbs for the UU MAter productions.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 341
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 341
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        529,
+        530
       ]
     },
     {
@@ -45513,68 +45729,68 @@
         },
         {
           "id": 90,
-          "x": 0,
-          "y": 84
+          "x": 12,
+          "y": 120
         },
         {
           "id": 91,
-          "x": 144,
-          "y": 12
+          "x": 192,
+          "y": 36
         },
         {
           "id": 92,
-          "x": 180,
-          "y": 84
+          "x": 264,
+          "y": 120
         },
         {
           "id": 93,
-          "x": 144,
-          "y": 48
+          "x": 192,
+          "y": 84
         },
         {
           "id": 94,
-          "x": 144,
-          "y": 120
+          "x": 192,
+          "y": 168
         },
         {
           "id": 95,
-          "x": 144,
-          "y": 84
+          "x": 192,
+          "y": 120
         },
         {
           "id": 96,
-          "x": 96,
-          "y": 84
+          "x": 84,
+          "y": 120
         },
         {
           "id": 97,
-          "x": 216,
-          "y": 84
+          "x": 264,
+          "y": 36
         },
         {
           "id": 98,
-          "x": 180,
-          "y": 48
+          "x": 312,
+          "y": 168
         },
         {
           "id": 99,
-          "x": 216,
-          "y": 48
+          "x": 156,
+          "y": 168
         },
         {
           "id": 100,
-          "x": 180,
-          "y": 120
+          "x": 264,
+          "y": 168
         },
         {
           "id": 101,
-          "x": 96,
-          "y": 120
+          "x": 228,
+          "y": 168
         },
         {
           "id": 102,
-          "x": 180,
-          "y": 12
+          "x": 228,
+          "y": 36
         },
         {
           "id": 103,
@@ -45588,77 +45804,77 @@
         },
         {
           "id": 105,
-          "x": 216,
-          "y": 120
+          "x": 228,
+          "y": 84
         },
         {
           "id": 106,
-          "x": 336,
+          "x": 348,
           "y": 0
         },
         {
           "id": 107,
-          "x": 468,
+          "x": 480,
           "y": 72
         },
         {
           "id": 108,
-          "x": 444,
+          "x": 456,
           "y": 0
         },
         {
           "id": 109,
-          "x": 492,
+          "x": 504,
           "y": 36
         },
         {
           "id": 110,
-          "x": 492,
+          "x": 504,
           "y": 0
         },
         {
           "id": 111,
-          "x": 408,
+          "x": 420,
           "y": 36
         },
         {
           "id": 112,
-          "x": 432,
+          "x": 444,
           "y": 72
         },
         {
           "id": 113,
-          "x": 336,
+          "x": 348,
           "y": 72
         },
         {
           "id": 114,
-          "x": 372,
-          "y": 108
+          "x": 384,
+          "y": 120
         },
         {
           "id": 115,
-          "x": 300,
-          "y": 108
+          "x": 312,
+          "y": 120
         },
         {
           "id": 116,
-          "x": 372,
+          "x": 384,
           "y": 72
         },
         {
           "id": 117,
-          "x": 300,
+          "x": 312,
           "y": 72
         },
         {
           "id": 118,
-          "x": 372,
+          "x": 384,
           "y": 36
         },
         {
           "id": 119,
-          "x": 300,
+          "x": 312,
           "y": 36
         },
         {
@@ -45690,6 +45906,21 @@
           "id": 121,
           "x": 48,
           "y": 120
+        },
+        {
+          "id": 529,
+          "x": 156,
+          "y": 120
+        },
+        {
+          "id": 530,
+          "x": 120,
+          "y": 120
+        },
+        {
+          "id": 531,
+          "x": 120,
+          "y": 168
         }
       ]
     },
