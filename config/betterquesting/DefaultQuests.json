@@ -41288,10 +41288,28 @@
               }
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "IC2:itemFluidCell",
               "Count": 4,
               "OreDict": "",
-              "Damage": 30708
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "fuel",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "nitrofuel",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
@@ -41315,7 +41333,7 @@
     {
       "questID": 533,
       "name": "Hydrogen, Methane or some Natural Gas",
-      "description": "Some centifuge processes leving some Gases behind like Hydrogen or Methane. Centifuge some Brown and Yellow Limonite to get Hydrogenor dump your un used Food in a Centrifuge to get Methane Gas. \n",
+      "description": "Some centrifuge processes leaving some Gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused Food in a Centrifuge to get Methane Gas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41357,10 +41375,40 @@
         {
           "rewards": [
             {
-              "id": "harvestcraft:bananasplitItem",
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "hydrogen",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "methane",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "IC2:itemFluidCell",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_lpg",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
