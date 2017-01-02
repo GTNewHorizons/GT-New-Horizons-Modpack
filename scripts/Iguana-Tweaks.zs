@@ -37,18 +37,18 @@ recipes.addShaped(<IguanaTweaksTConstruct:clayBucketWater>, [
 
 //--- Ardite Saw
 recipes.addShaped(<IguanaTweaksTConstruct:sawArdite>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladeArdite>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeArdite>, <ore:stickSteel>],
 [null, null, null]]);
 
 //--- Cobalt Saw
 recipes.addShaped(<IguanaTweaksTConstruct:sawCobalt>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <ore:toolHeadSawCobalt>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <ore:toolHeadSawCobalt>, <ore:stickSteel>],
 [null, null, null]]);
 
 //--- Mannyullyn Saw
 recipes.addShaped(<IguanaTweaksTConstruct:sawManyullyn>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladeManyullyn>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeManyullyn>, <ore:stickSteel>],
 [null, null, null]]);
