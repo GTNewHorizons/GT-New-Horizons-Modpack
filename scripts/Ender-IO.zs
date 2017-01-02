@@ -463,11 +463,6 @@ recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEne
 [EAPlate, MCasing, EAPlate],
 [Capacitor2, <gregtech:gt.metaitem.01:32537>, Capacitor2]]);
 
-recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
-[Capacitor2, GCircuit, Capacitor2],
-[EAPlate, MCasing, EAPlate],
-[Capacitor2, <gregtech:gt.metaitem.01:32537>, Capacitor2]]);
-
 // --- Vibrant Capacitor Bank
 recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [Capacitor3, AdvCircuit, Capacitor3],
