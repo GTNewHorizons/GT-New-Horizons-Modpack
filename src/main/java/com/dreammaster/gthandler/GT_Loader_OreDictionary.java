@@ -15,7 +15,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_Log.out.println("Core-Mod: Register OreDict Entries of Non-GT-Items.");
 
 
-        //Custom Stuff GT New Horizons 1.0.9.X
+        //Custom Stuff GT New Horizons 1.3.X.X
         GT_OreDictUnificator.registerOre("ingotBloodInfusedIron", GT_ModHandler.getModItem("BloodArsenal", "blood_infused_iron", 1L, 0));
         GT_OreDictUnificator.registerOre("blockBloodInfusedIron", GT_ModHandler.getModItem("BloodArsenal", "blood_infused_iron_block", 1L, 0));
 
@@ -103,6 +103,9 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 22));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
 
