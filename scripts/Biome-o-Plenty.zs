@@ -105,14 +105,16 @@ recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]);
 // --- Barley
 recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
 
-// --- Polish Lime Stone
-recipes.addShaped(<BiomesOPlenty:rocks:1> * 8, [
+// --- Lime Stone
+recipes.addShaped(<BiomesOPlenty:rocks> * 8, [
 [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
 [<minecraft:stone>, <minecraft:dye:10>, <minecraft:stone>],
 [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+// -
+recipes.addShapeless(<BiomesOPlenty:rocks:1>, [<BiomesOPlenty:rocks>]);
 
-// --- Lime Stone
-recipes.addShapeless(<BiomesOPlenty:rocks>, [<ore:craftingToolHardHammer>, <BiomesOPlenty:rocks:1>]);
+// --- Polish Lime Stone
+recipes.addShapeless(<BiomesOPlenty:rocks>, [<BiomesOPlenty:rocks:1>]);
 
 
 

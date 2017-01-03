@@ -194,6 +194,9 @@ mods.chisel.Groups.addVariation("marble", <Railcraft:cube:7>);
 //-
 mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones>);
 
+// --- Limestone
+mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
+
 
 
 
