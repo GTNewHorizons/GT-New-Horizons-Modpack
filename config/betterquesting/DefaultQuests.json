@@ -8140,9 +8140,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        88
-      ]
+      "preRequisites": []
     },
     {
       "questID": 91,
@@ -8215,7 +8213,7 @@
     },
     {
       "questID": 92,
-      "name": "You gonna hate this #3",
+      "name": "You gonna hate this #4",
       "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Probably, the most painful item ever (Works like conveyor but can work with selected item slots, adjust with screwdriver).",
       "isMain": true,
       "isSilent": false,
@@ -8422,7 +8420,7 @@
     },
     {
       "questID": 95,
-      "name": "You gonna hate this #4",
+      "name": "You gonna hate this #3",
       "description": "A piston, but more .. \"Electrical\". The 4th item you are going to craft a lot in the future.",
       "isMain": true,
       "isSilent": false,
@@ -8554,9 +8552,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        88
-      ]
+      "preRequisites": []
     },
     {
       "questID": 97,
@@ -8692,9 +8688,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        95
-      ]
+      "preRequisites": []
     },
     {
       "questID": 99,
@@ -8761,9 +8755,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        529
-      ]
+      "preRequisites": []
     },
     {
       "questID": 100,
@@ -8830,14 +8822,12 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        95
-      ]
+      "preRequisites": []
     },
     {
       "questID": 101,
       "name": "Electric forge hammer",
-      "description": "Not really required, but it is a lot faster than the steam one. And it can be automated. There are no recipes that require more than steam level to hammer something.",
+      "description": "Not really required, but it is a lot faster than the steam one and. If yand it can be automated. If you feeling Ore washing is too slow use the Hammer. There are no recipes that require more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8900,7 +8890,7 @@
         }
       ],
       "preRequisites": [
-        95
+        538
       ]
     },
     {
@@ -8969,7 +8959,8 @@
         }
       ],
       "preRequisites": [
-        91
+        540,
+        539
       ]
     },
     {
@@ -41283,10 +41274,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        529,
-        530
-      ]
+      "preRequisites": []
     },
     {
       "questID": 532,
@@ -42084,7 +42072,371 @@
         }
       ],
       "preRequisites": [
-        88
+        94
+      ]
+    },
+    {
+      "questID": 539,
+      "name": "Round and round and round...",
+      "description": "After purified your ore dust  you can centrifuge it to get even more byproducts out of the Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 361
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 361
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        538
+      ]
+    },
+    {
+      "questID": 540,
+      "name": "A very sharp Saw Blade",
+      "description": "Combining Cobalt brass with Diamond dust make a very sharp Saw Blade for your Cutting machine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32721
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31343
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32721
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:chocolatemilkshakeItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        541
+      ]
+    },
+    {
+      "questID": 541,
+      "name": "A new Alloy",
+      "description": "If you want to cutting Diamond Blocks into plates it's time for a new Alloy \"Cobalt Brass\".\nFirst you need to make Brass out of Zinc (only in small Ores or as Centrifuge By Product from Tin or Tetrahedrite available) and Copper, mix it with Aluminum and Cobalt Dust(can be get by centrifuge various materials)to get your new alloy.","isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11343
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemDust",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2036
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 2301
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 14,
+              "OreDict": "",
+              "Damage": 2301
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2033
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 2343
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32222
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        91
+      ]
+    },
+    {
+      "questID": 542,
+      "name": "Water and Electricity",
+      "description": "Using the power of Water and Electricity to get even more out of your Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 371
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 371
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        539
       ]
     },
     {
@@ -47229,77 +47581,77 @@
       "quests": [
         {
           "id": 88,
-          "x": 96,
+          "x": 228,
           "y": 0
         },
         {
           "id": 90,
-          "x": 0,
-          "y": 120
+          "x": 60,
+          "y": 204
         },
         {
           "id": 91,
-          "x": 204,
-          "y": 36
-        },
-        {
-          "id": 92,
-          "x": 276,
-          "y": 120
-        },
-        {
-          "id": 93,
-          "x": 204,
+          "x": 156,
           "y": 72
         },
         {
+          "id": 92,
+          "x": 300,
+          "y": 108
+        },
+        {
+          "id": 93,
+          "x": 156,
+          "y": 108
+        },
+        {
           "id": 94,
-          "x": 276,
-          "y": 168
+          "x": 228,
+          "y": 156
         },
         {
           "id": 95,
-          "x": 204,
-          "y": 120
+          "x": 228,
+          "y": 108
         },
         {
           "id": 96,
-          "x": 48,
-          "y": 120
+          "x": 60,
+          "y": 276
         },
         {
           "id": 97,
-          "x": 324,
-          "y": 120
+          "x": 348,
+          "y": 108
         },
         {
           "id": 98,
-          "x": 360,
-          "y": 168
+          "x": 60,
+          "y": 180
         },
         {
           "id": 99,
-          "x": 168,
-          "y": 216
+          "x": 60,
+          "y": 228
         },
         {
           "id": 100,
-          "x": 324,
-          "y": 168
+          "x": 60,
+          "y": 300
         },
         {
           "id": 101,
-          "x": 240,
-          "y": 168
+          "x": 180,
+          "y": 204
         },
         {
           "id": 102,
-          "x": 276,
-          "y": 36
+          "x": 180,
+          "y": 252
         },
         {
           "id": 103,
-          "x": 48,
+          "x": 84,
           "y": 0
         },
         {
@@ -47309,138 +47661,158 @@
         },
         {
           "id": 105,
-          "x": 324,
-          "y": 72
+          "x": 264,
+          "y": 156
         },
         {
           "id": 106,
-          "x": 396,
+          "x": 528,
           "y": 0
         },
         {
           "id": 107,
-          "x": 528,
-          "y": 72
+          "x": 684,
+          "y": 120
         },
         {
           "id": 108,
-          "x": 504,
+          "x": 660,
           "y": 0
         },
         {
           "id": 109,
-          "x": 552,
-          "y": 36
-        },
-        {
-          "id": 110,
-          "x": 552,
-          "y": 0
-        },
-        {
-          "id": 111,
-          "x": 468,
-          "y": 36
-        },
-        {
-          "id": 112,
-          "x": 492,
+          "x": 708,
           "y": 72
         },
         {
+          "id": 110,
+          "x": 708,
+          "y": 36
+        },
+        {
+          "id": 111,
+          "x": 612,
+          "y": 72
+        },
+        {
+          "id": 112,
+          "x": 636,
+          "y": 120
+        },
+        {
           "id": 113,
-          "x": 396,
+          "x": 528,
           "y": 72
         },
         {
           "id": 114,
-          "x": 432,
+          "x": 564,
           "y": 120
         },
         {
           "id": 115,
-          "x": 360,
+          "x": 492,
           "y": 120
         },
         {
           "id": 116,
-          "x": 432,
+          "x": 564,
           "y": 72
         },
         {
           "id": 117,
-          "x": 360,
+          "x": 492,
           "y": 72
         },
         {
           "id": 118,
-          "x": 432,
+          "x": 564,
           "y": 36
         },
         {
           "id": 119,
-          "x": 360,
+          "x": 492,
           "y": 36
         },
         {
           "id": 120,
-          "x": 96,
-          "y": 168
+          "x": 84,
+          "y": 36
         },
         {
           "id": 122,
-          "x": 48,
-          "y": 168
+          "x": 36,
+          "y": 36
         },
         {
           "id": 123,
-          "x": 48,
-          "y": 216
+          "x": 36,
+          "y": 84
         },
         {
           "id": 124,
           "x": 0,
-          "y": 168
+          "y": 36
         },
         {
           "id": 125,
           "x": 0,
-          "y": 216
+          "y": 84
         },
         {
           "id": 121,
-          "x": 96,
-          "y": 120
+          "x": 132,
+          "y": 36
         },
         {
           "id": 529,
-          "x": 168,
-          "y": 120
+          "x": 300,
+          "y": 72
         },
         {
           "id": 530,
-          "x": 132,
-          "y": 120
+          "x": 300,
+          "y": 36
         },
         {
           "id": 531,
-          "x": 132,
-          "y": 216
+          "x": 60,
+          "y": 252
         },
         {
           "id": 532,
-          "x": 240,
-          "y": 72
+          "x": 192,
+          "y": 156
         },
         {
           "id": 533,
-          "x": 276,
-          "y": 72
+          "x": 156,
+          "y": 156
         },
         {
           "id": 538,
-          "x": 204,
-          "y": 168
+          "x": 228,
+          "y": 204
+        },
+        {
+          "id": 539,
+          "x": 228,
+          "y": 252
+        },
+        {
+          "id": 540,
+          "x": 120,
+          "y": 252
+        },
+        {
+          "id": 541,
+          "x": 120,
+          "y": 72
+        },
+        {
+          "id": 542,
+          "x": 264,
+          "y": 252
         }
       ]
     },
