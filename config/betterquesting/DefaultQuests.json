@@ -8072,14 +8072,18 @@
         92,
         95,
         529,
-        530
+        530,
+        539,
+        97,
+        546,
+        90
       ]
     },
     {
       "questID": 90,
       "name": "Damn you, wire cutter!",
       "description": "Enough is enough. No more wasting of gazillions of ingots just for a couple of wires. Now that you have power, you should go for a wiremill!",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8355,7 +8359,7 @@
       "questID": 94,
       "name": "Electric macerator",
       "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to macerate something is a lot better when using EU.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8562,7 +8566,7 @@
       "questID": 97,
       "name": "Avengers, assemble!",
       "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8631,7 +8635,7 @@
       "questID": 98,
       "name": "No more filing",
       "description": "Why wasting a full ingot to make a rod, that needs a tool which looses durability and takes even more ingots? With this little device, all your rod-needs shall be fulfilled (for now).",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8909,7 +8913,7 @@
       "questID": 102,
       "name": "Cutting things apart",
       "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it!",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -9079,7 +9083,7 @@
       "questID": 105,
       "name": "The missing one",
       "description": "It was once said... \u003cbasdxz\u003e But ffs, add a plate bender to the LV tier book ...and then it popped into existence.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42030,7 +42034,7 @@
       "questID": 538,
       "name": "Basic Ore washer",
       "description": "Macerating the Ores double the output. If you want more crafting Some Ore washer and washing out some rare materials.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42099,7 +42103,7 @@
       "questID": 539,
       "name": "Round and round and round...",
       "description": "After purified your ore dust  you can centrifuge it to get even more byproducts out of the Dust.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42168,7 +42172,7 @@
       "questID": 540,
       "name": "A very sharp Saw Blade",
       "description": "Combining Cobalt brass with Diamond dust make a very sharp Saw Blade for your Cutting machine.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42265,7 +42269,7 @@
       "questID": 541,
       "name": "A new Alloy",
       "description": "If you want to cutting Diamond Blocks into plates it\u0027s time for a new Alloy \"Cobalt Brass\".\nFirst you need to make Brass out of Zinc (only in small Ores or as Centrifuge By Product from Tin or Tetrahedrite available) and Copper, mix it with Aluminum and Cobalt Dust(can be get by centrifuge various materials)to get your new alloy.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42666,6 +42670,1020 @@
       "preRequisites": [
         95,
         93
+      ]
+    },
+    {
+      "questID": 546,
+      "name": "Black Gold",
+      "description": "When you traveled around you may seen this huge Oil Wells everywhere. Now its time to go make some pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined to Diesel or Nitro Fuel. \n\nTake some Diesel Generator with you to power the Pump.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Energy:blockOil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1140
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:bucket",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        93
+      ]
+    },
+    {
+      "questID": 547,
+      "name": "Refined your Oil",
+      "description": "Burning Oil in the Diesel Generator is very uneffective way to get power. Every Bucket/cell of Oil gives you 16000 EU. Why you no try to refined your oil in some better Fuel?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 531
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 531
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        546
+      ]
+    },
+    {
+      "questID": 548,
+      "name": "Sulfuric Light Fuel",
+      "description": "First step is to destillate your Oil into sulfuric light fuel with a burn value of 32000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30737
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_sufluriclight_fuel",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30707
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        547
+      ]
+    },
+    {
+      "questID": 549,
+      "name": "Light Fuel",
+      "description": "With the chemical reactor and Hydrogen  you can produce some light Fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cell you can used later to produce some Sulfuric Acid for your TNT/iTNT production.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30740
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_light_fuel",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "irontank:obsidianTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        543,
+        548,
+        550
+      ]
+    },
+    {
+      "questID": 550,
+      "name": "H like Hydrogen",
+      "description": "Try to centrifuge some brown or yellow lemonite dust to get some Hydrogen.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "hydrogen",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "hydrogen",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:mushroom_stew",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        539
+      ]
+    },
+    {
+      "questID": 551,
+      "name": "Sulfuric Heavy Fuel",
+      "description": "The second step is to destillate some sulfuric heavy fuel out of the Oil with a burn value of 32000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "liquid_sulfuricheavy_fuel",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_sulfuricheavy_fuel",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30707
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        547
+      ]
+    },
+    {
+      "questID": 552,
+      "name": "Heavy Fuel",
+      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide Cells you can save for later crafting of Sulfuric Acid for yur TNT/iTNT production,",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "liquid_heavy_fuel",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_heavy_fuel",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30707
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        551,
+        543,
+        550
+      ]
+    },
+    {
+      "questID": 553,
+      "name": "Diesel Fuel",
+      "description": "Mixing your light and heavy Fuel together get you some Diesel.\nIt burns very well in Diesel Generator with an burn value of 320000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Energy:blockFuel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30708
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30707
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        554
+      ]
+    },
+    {
+      "questID": 554,
+      "name": "Mix it!",
+      "description": "The mixer is a very usefull divice. You can mixing all kind of fluid and items.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 581
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 581
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        549,
+        552
+      ]
+    },
+    {
+      "questID": 555,
+      "name": "N like Nitrogen",
+      "description": "You can get some Nitrogen centrifuge some Air. This process take a long time esspecialy at LV Tier.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "hydrogen",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "nitrogen",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        539
+      ]
+    },
+    {
+      "questID": 556,
+      "name": "Glycery Trini...... what?",
+      "description": "Making some Glycery Trinitate with some Nitrogen, Coal Dust and Water.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30714
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "nitrogen",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2535
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 30714
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        555,
+        543
+      ]
+    },
+    {
+      "questID": 557,
+      "name": "NITRO Fuel",
+      "description": "576000 EU per Cell this is very Good. Make some Nitro Diesel and power your Diesel Engin with it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:pattern.fluid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "fluidID:8": "nitrofuel"
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 30709
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        556,
+        549
       ]
     },
     {
@@ -47815,7 +48833,7 @@
         },
         {
           "id": 90,
-          "x": 300,
+          "x": 396,
           "y": 204
         },
         {
@@ -47835,18 +48853,18 @@
         },
         {
           "id": 94,
-          "x": 228,
+          "x": 252,
           "y": 156
         },
         {
           "id": 95,
-          "x": 228,
+          "x": 252,
           "y": 108
         },
         {
           "id": 96,
-          "x": 300,
-          "y": 252
+          "x": 396,
+          "y": 240
         },
         {
           "id": 97,
@@ -47855,7 +48873,7 @@
         },
         {
           "id": 98,
-          "x": 264,
+          "x": 348,
           "y": 204
         },
         {
@@ -47870,13 +48888,13 @@
         },
         {
           "id": 101,
-          "x": 180,
-          "y": 204
+          "x": 348,
+          "y": 240
         },
         {
           "id": 102,
-          "x": 180,
-          "y": 252
+          "x": 300,
+          "y": 396
         },
         {
           "id": 103,
@@ -47890,7 +48908,7 @@
         },
         {
           "id": 105,
-          "x": 264,
+          "x": 300,
           "y": 156
         },
         {
@@ -47965,33 +48983,33 @@
         },
         {
           "id": 120,
-          "x": 84,
-          "y": 36
+          "x": 0,
+          "y": 108
         },
         {
           "id": 122,
-          "x": 36,
-          "y": 36
+          "x": 0,
+          "y": 156
         },
         {
           "id": 123,
-          "x": 36,
-          "y": 84
+          "x": 48,
+          "y": 156
         },
         {
           "id": 124,
           "x": 0,
-          "y": 36
+          "y": 204
         },
         {
           "id": 125,
-          "x": 0,
-          "y": 84
+          "x": 48,
+          "y": 204
         },
         {
           "id": 121,
-          "x": 132,
-          "y": 36
+          "x": 0,
+          "y": 72
         },
         {
           "id": 529,
@@ -48020,33 +49038,33 @@
         },
         {
           "id": 538,
-          "x": 228,
+          "x": 300,
           "y": 204
         },
         {
           "id": 539,
-          "x": 228,
-          "y": 252
+          "x": 300,
+          "y": 324
         },
         {
           "id": 540,
-          "x": 120,
-          "y": 252
+          "x": 84,
+          "y": 396
         },
         {
           "id": 541,
-          "x": 120,
+          "x": 84,
           "y": 72
         },
         {
           "id": 542,
-          "x": 264,
-          "y": 252
+          "x": 348,
+          "y": 324
         },
         {
           "id": 543,
-          "x": 228,
-          "y": 288
+          "x": 156,
+          "y": 324
         },
         {
           "id": 544,
@@ -48057,6 +49075,66 @@
           "id": 545,
           "x": 192,
           "y": 108
+        },
+        {
+          "id": 546,
+          "x": 108,
+          "y": 108
+        },
+        {
+          "id": 547,
+          "x": 108,
+          "y": 156
+        },
+        {
+          "id": 548,
+          "x": 108,
+          "y": 204
+        },
+        {
+          "id": 549,
+          "x": 108,
+          "y": 288
+        },
+        {
+          "id": 550,
+          "x": 252,
+          "y": 288
+        },
+        {
+          "id": 551,
+          "x": 204,
+          "y": 204
+        },
+        {
+          "id": 552,
+          "x": 204,
+          "y": 288
+        },
+        {
+          "id": 553,
+          "x": 156,
+          "y": 204
+        },
+        {
+          "id": 554,
+          "x": 156,
+          "y": 252
+        },
+        {
+          "id": 555,
+          "x": 252,
+          "y": 360
+        },
+        {
+          "id": 556,
+          "x": 156,
+          "y": 360
+        },
+        {
+          "id": 557,
+          "x": 108,
+          "y": 360
         }
       ]
     },
