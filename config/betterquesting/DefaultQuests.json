@@ -42531,7 +42531,7 @@
     },
     {
       "questID": 544,
-      "name": "Electric macerator",
+      "name": "Electric compressor",
       "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to compressing something is a lot better when using EU.",
       "isMain": false,
       "isSilent": false,
@@ -42596,6 +42596,76 @@
       ],
       "preRequisites": [
         95
+      ]
+    },
+    {
+      "questID": 545,
+      "name": "Electric compressor",
+      "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 271
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 271
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        95,
+        93
       ]
     },
     {
@@ -47795,7 +47865,7 @@
         },
         {
           "id": 100,
-          "x": 348,
+          "x": 396,
           "y": 156
         },
         {
@@ -47980,8 +48050,13 @@
         },
         {
           "id": 544,
-          "x": 300,
+          "x": 348,
           "y": 156
+        },
+        {
+          "id": 545,
+          "x": 192,
+          "y": 108
         }
       ]
     },
