@@ -2,6 +2,7 @@
 eclipse/
 .settings/
 .classpath
+.project
 bin/
 out/
 libs/
