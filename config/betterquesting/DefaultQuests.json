@@ -8140,7 +8140,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        98
+      ]
     },
     {
       "questID": 91,
@@ -8552,7 +8554,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        98
+      ]
     },
     {
       "questID": 97,
@@ -8688,7 +8692,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        105
+      ]
     },
     {
       "questID": 99,
@@ -8755,7 +8761,11 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        529,
+        100,
+        97
+      ]
     },
     {
       "questID": 100,
@@ -8822,7 +8832,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        544
+      ]
     },
     {
       "questID": 101,
@@ -41279,7 +41291,10 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        99,
+        530
+      ]
     },
     {
       "questID": 532,
@@ -42512,6 +42527,75 @@
       ],
       "preRequisites": [
         539
+      ]
+    },
+    {
+      "questID": 544,
+      "name": "Electric macerator",
+      "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to compressing something is a lot better when using EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 241
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 241
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        95
       ]
     },
     {
@@ -47661,7 +47745,7 @@
         },
         {
           "id": 90,
-          "x": 60,
+          "x": 300,
           "y": 204
         },
         {
@@ -47691,8 +47775,8 @@
         },
         {
           "id": 96,
-          "x": 60,
-          "y": 276
+          "x": 300,
+          "y": 252
         },
         {
           "id": 97,
@@ -47701,18 +47785,18 @@
         },
         {
           "id": 98,
-          "x": 60,
-          "y": 180
+          "x": 264,
+          "y": 204
         },
         {
           "id": 99,
-          "x": 60,
-          "y": 228
+          "x": 396,
+          "y": 108
         },
         {
           "id": 100,
-          "x": 60,
-          "y": 300
+          "x": 348,
+          "y": 156
         },
         {
           "id": 101,
@@ -47851,8 +47935,8 @@
         },
         {
           "id": 531,
-          "x": 60,
-          "y": 252
+          "x": 396,
+          "y": 72
         },
         {
           "id": 532,
@@ -47893,6 +47977,11 @@
           "id": 543,
           "x": 228,
           "y": 288
+        },
+        {
+          "id": 544,
+          "x": 300,
+          "y": 156
         }
       ]
     },
