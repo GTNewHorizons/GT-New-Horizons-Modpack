@@ -8028,7 +8028,22 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -8057,7 +8072,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -8067,16 +8082,10 @@
       ],
       "preRequisites": [
         103,
-        91,
-        93,
-        92,
-        95,
-        529,
-        530,
-        539,
+        102,
         97,
-        546,
-        90
+        90,
+        546
       ]
     },
     {
@@ -8193,6 +8202,12 @@
         {
           "rewards": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
@@ -8262,6 +8277,12 @@
         {
           "rewards": [
             {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
@@ -8330,6 +8351,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 5133
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
@@ -8468,6 +8495,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "minecraft:piston",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
@@ -10686,7 +10719,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -41321,6 +41354,12 @@
         {
           "rewards": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8516
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
@@ -41389,6 +41428,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8516
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
@@ -43182,7 +43227,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -43509,7 +43554,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 30707
+              "Damage": 30709
             },
             {
               "id": "enhancedlootbags:lootbag",
