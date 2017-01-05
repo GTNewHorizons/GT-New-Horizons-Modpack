@@ -514,13 +514,13 @@ recipes.addShaped(<EnderIO:blockWirelessCharger>, [
 // --- Fluid Tank
 recipes.addShaped(Tank, [
 [SteelCasing, SteelBars, SteelCasing],
-[SteelBars, BCTank, SteelBars],
+[SteelBars, <gregtech:gt.blockmachines:4461>, SteelBars],
 [SteelCasing, LvPump, SteelCasing]]);
 
 // --- Pressurized Fluid Tank
 recipes.addShaped(<EnderIO:blockTank:1>, [
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate],
-[DarkSteelBars, IronTank, DarkSteelBars],
+[DarkSteelBars, <gregtech:gt.blockmachines:4460>, DarkSteelBars],
 [DarkSteelPlate, MvPump, DarkSteelPlate]]);
 
 // --- Reservoir
