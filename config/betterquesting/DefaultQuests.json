@@ -9073,7 +9073,11 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         103
@@ -18096,7 +18100,22 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -36770,6 +36789,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -38582,6 +38612,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -42467,7 +42508,7 @@
     {
       "questID": 543,
       "name": "C9H8O4.....NaCl.......H2O...",
-      "description": "Want to make some Nitro-Diesel, Plastic or some Chemical Dey? Then it\u0027s time to craft a chemical reactor.",
+      "description": "Want to make some Nitro-Diesel, Plastic or some Chemical Dye? Then it\u0027s time to craft a chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42604,7 +42645,7 @@
     },
     {
       "questID": 545,
-      "name": "Electric compressor",
+      "name": "Electric extractor",
       "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
       "isMain": false,
       "isSilent": false,
@@ -42675,7 +42716,7 @@
     {
       "questID": 546,
       "name": "Black Gold",
-      "description": "When you traveled around you may seen this huge Oil Wells everywhere. Now its time to go make some pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined to Diesel or Nitro Fuel. \n\nTake some Diesel Generator with you to power the Pump.",
+      "description": "When you traveled around you may seen this huge Oil Wells everywhere. Now it\u0027s time to go make some pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined to Diesel or Nitro Fuel. \n\nTake some Diesel Generator with you to power the Pump.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -42765,7 +42806,7 @@
     {
       "questID": 547,
       "name": "Refined your Oil",
-      "description": "Burning Oil in the Diesel Generator is very uneffective way to get power. Every Bucket/cell of Oil gives you 16000 EU. Why you no try to refined your oil in some better Fuel?",
+      "description": "Burning Oil in the Diesel Generator is very ineffective way to get power. Every Bucket/cell of Oil gives you 16000 EU. Why you no try to refined your oil in some better Fuel?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42841,7 +42882,7 @@
     {
       "questID": 548,
       "name": "Sulfuric Light Fuel",
-      "description": "First step is to destillate your Oil into sulfuric light fuel with a burn value of 32000 EU.",
+      "description": "First step is to distillate your Oil into sulfuric light fuel with a burn value of 32000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43015,7 +43056,7 @@
     {
       "questID": 550,
       "name": "H like Hydrogen",
-      "description": "Try to centrifuge some brown or yellow lemonite dust to get some Hydrogen.",
+      "description": "Try to centrifuge some brown or yellow limonite dust to get some Hydrogen.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43098,7 +43139,7 @@
     {
       "questID": 551,
       "name": "Sulfuric Heavy Fuel",
-      "description": "The second step is to destillate some sulfuric heavy fuel out of the Oil with a burn value of 32000 EU.",
+      "description": "The second step is to distillate some sulfuric heavy fuel out of the Oil with a burn value of 32000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43187,7 +43228,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide Cells you can save for later crafting of Sulfuric Acid for yur TNT/iTNT production,",
+      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide Cells you can save for your later crafting of Sulfuric Acid for TNT/iTNT production,",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43355,7 +43396,7 @@
     {
       "questID": 554,
       "name": "Mix it!",
-      "description": "The mixer is a very usefull divice. You can mixing all kind of fluid and items.",
+      "description": "The mixer is a very useful device. You can mixing all kind of fluid and items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43425,7 +43466,7 @@
     {
       "questID": 555,
       "name": "N like Nitrogen",
-      "description": "You can get some Nitrogen centrifuge some Air. This process take a long time esspecialy at LV Tier.",
+      "description": "You can get some Nitrogen centrifuge some Air. This process take a long time especially at LV Tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43507,8 +43548,8 @@
     },
     {
       "questID": 556,
-      "name": "Glycery Trini...... what?",
-      "description": "Making some Glycery Trinitate with some Nitrogen, Coal Dust and Water.",
+      "name": "Glyceryl Trini...... what?",
+      "description": "Making some Glyceryl Trinitrate with some Nitrogen, Coal Dust and Water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43607,7 +43648,7 @@
     {
       "questID": 557,
       "name": "NITRO Fuel",
-      "description": "576000 EU per Cell this is very Good. Make some Nitro Diesel and power your Diesel Engin with it.",
+      "description": "576000 EU per Cell this is very Good. Make some Nitro Diesel and power your Diesel Engine with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48828,12 +48869,12 @@
       "quests": [
         {
           "id": 88,
-          "x": 228,
+          "x": 240,
           "y": 0
         },
         {
           "id": 90,
-          "x": 396,
+          "x": 384,
           "y": 204
         },
         {
@@ -48843,7 +48884,7 @@
         },
         {
           "id": 92,
-          "x": 300,
+          "x": 288,
           "y": 108
         },
         {
@@ -48853,47 +48894,47 @@
         },
         {
           "id": 94,
-          "x": 252,
+          "x": 240,
           "y": 156
         },
         {
           "id": 95,
-          "x": 252,
+          "x": 240,
           "y": 108
         },
         {
           "id": 96,
-          "x": 396,
+          "x": 384,
           "y": 240
         },
         {
           "id": 97,
-          "x": 348,
+          "x": 336,
           "y": 108
         },
         {
           "id": 98,
-          "x": 348,
+          "x": 336,
           "y": 204
         },
         {
           "id": 99,
-          "x": 396,
+          "x": 384,
           "y": 108
         },
         {
           "id": 100,
-          "x": 396,
+          "x": 384,
           "y": 156
         },
         {
           "id": 101,
-          "x": 348,
+          "x": 336,
           "y": 240
         },
         {
           "id": 102,
-          "x": 300,
+          "x": 288,
           "y": 396
         },
         {
@@ -48908,7 +48949,7 @@
         },
         {
           "id": 105,
-          "x": 300,
+          "x": 288,
           "y": 156
         },
         {
@@ -49013,17 +49054,17 @@
         },
         {
           "id": 529,
-          "x": 300,
+          "x": 288,
           "y": 72
         },
         {
           "id": 530,
-          "x": 300,
+          "x": 288,
           "y": 36
         },
         {
           "id": 531,
-          "x": 396,
+          "x": 384,
           "y": 72
         },
         {
@@ -49038,12 +49079,12 @@
         },
         {
           "id": 538,
-          "x": 300,
+          "x": 288,
           "y": 204
         },
         {
           "id": 539,
-          "x": 300,
+          "x": 288,
           "y": 324
         },
         {
@@ -49058,7 +49099,7 @@
         },
         {
           "id": 542,
-          "x": 348,
+          "x": 336,
           "y": 324
         },
         {
@@ -49068,7 +49109,7 @@
         },
         {
           "id": 544,
-          "x": 348,
+          "x": 336,
           "y": 156
         },
         {
@@ -49078,37 +49119,37 @@
         },
         {
           "id": 546,
-          "x": 108,
+          "x": 120,
           "y": 108
         },
         {
           "id": 547,
-          "x": 108,
+          "x": 120,
           "y": 156
         },
         {
           "id": 548,
-          "x": 108,
+          "x": 120,
           "y": 204
         },
         {
           "id": 549,
-          "x": 108,
+          "x": 120,
           "y": 288
         },
         {
           "id": 550,
-          "x": 252,
+          "x": 240,
           "y": 288
         },
         {
           "id": 551,
-          "x": 204,
+          "x": 192,
           "y": 204
         },
         {
           "id": 552,
-          "x": 204,
+          "x": 192,
           "y": 288
         },
         {
@@ -49123,7 +49164,7 @@
         },
         {
           "id": 555,
-          "x": 252,
+          "x": 240,
           "y": 360
         },
         {
@@ -49133,7 +49174,7 @@
         },
         {
           "id": 557,
-          "x": 108,
+          "x": 120,
           "y": 360
         }
       ]
