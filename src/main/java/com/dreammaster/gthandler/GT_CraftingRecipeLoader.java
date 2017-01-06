@@ -43,9 +43,6 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "mace.diamond", 1L, 0), true, false, true);
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "chain", 1L, 0), true, false, true);
 
-        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("StorageDrawers", "upgradeTemplate", 1L, 0), true, false, false);
-
-
 //Add recipes
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier1.get(1L, new Object[0]), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.Aluminium), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.AnnealedCopper), 'O', CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier2.get(1L, new Object[0]), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.StainlessSteel), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.RoseGold), 'O', CustomItemList.ReinforcedGlassLense.get(1L, new Object[0])});
