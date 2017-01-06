@@ -43916,6 +43916,203 @@
       ]
     },
     {
+      "questID": 558,
+      "name": "Where I can put all the Items in ?",
+      "description": "After you make you first steel you are able to craft the small Backpack. In this Bag you can put all your stuff with no limitation like the Forestry Backpacks. With 36 Slots it is a big bigger then a small chest.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Backpack:backpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28305
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Backpack:tannedLeather",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Backpack:backpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraUtilities:paintbrush",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32414
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32415
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32416
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32417
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32419
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32418
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32420
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32421
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32422
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32423
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32424
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32425
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32426
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32427
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32428
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32429
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -49048,6 +49245,11 @@
           "id": 536,
           "x": 276,
           "y": 180
+        },
+        {
+          "id": 558,
+          "x": 48,
+          "y": 144
         }
       ]
     },
