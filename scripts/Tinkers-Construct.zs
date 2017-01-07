@@ -2213,6 +2213,10 @@ recipes.addShapeless(<TConstruct:GlassPaneClearStained:15>,
 recipes.addShaped(<TConstruct:Armor.DryingRack>, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 [<ore:screwWood>, <ore:craftingToolScrewdriver>, <ore:screwWood>]]);
+// -
+recipes.addShapeless(<TConstruct:Armor.DryingRack>, [<TConstruct:Armor.DryingRack:5>]);
+// -
+recipes.addShapeless(<TConstruct:Armor.DryingRack:5>, [<TConstruct:Armor.DryingRack>]);
 
 // --- Landmine Any
 recipes.addShaped(<TConstruct:Redstone.Landmine>, [
