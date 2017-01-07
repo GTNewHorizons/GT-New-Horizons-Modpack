@@ -147,17 +147,17 @@ mods.thaumcraft.Research.addCruciblePage("TALLOW", <Thaumcraft:ItemResource:4>);
 mods.thaumcraft.Research.addArcanePage("TALLOW", <Thaumcraft:blockCandle>);
 
 // --- Nitor
-mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <ore:dustGlowstone>, "ignis 4, lux 4, potentia 4");
+mods.thaumcraft.Crucible.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, <minecraft:glowstone_dust>, "ignis 4, lux 4, potentia 4");
 
 mods.thaumcraft.Research.setAspects("NITOR", "lux 6, ignis 3, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("NITOR", 1);
 
 // --- Alumentum
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustCoal>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2535>, "ignis 6, perditio 3, potentia 6");
 // -
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustCharcoal>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2536>, "ignis 6, perditio 3, potentia 6");
 // -
-mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <ore:dustLignite>, "ignis 6, perditio 3, potentia 6");
+mods.thaumcraft.Crucible.addRecipe("ALUMENTUM", <Thaumcraft:ItemResource>, <gregtech:gt.metaitem.01:2538>, "ignis 6, perditio 3, potentia 6");
 // -
 mods.thaumcraft.Research.setAspects("ALUMENTUM", "ignis 3, praecantatio 3, perditio 6");
 mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
@@ -346,13 +346,13 @@ mods.thaumcraft.Research.setComplexity("JARVOID", 1);
 
 
 // --- Purifying Bath Salt
-mods.thaumcraft.Crucible.addRecipe("BATHSALTS", <Thaumcraft:ItemBathSalts>, <Thaumcraft:ItemResource:14>, "sano 10, cognitio 10, auram 10, ordo 10");
+mods.thaumcraft.Crucible.addRecipe("BATHSALTS", <Thaumcraft:ItemBathSalts> * 2, <Thaumcraft:ItemResource:14>, "sano 10, cognitio 10, auram 10, ordo 10");
 // -
 mods.thaumcraft.Research.setAspects("BATHSALTS", "sano 9, cognitio 6, auram 9, ordo 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("BATHSALTS", 2);
 
 // --- Sanitizing Soap
-mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:5>, "alienis 20, cognitio 20, sano 20, ordo 20");
+mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap> * 2, <Thaumcraft:blockCosmeticSolid:5>, "alienis 20, cognitio 20, sano 20, ordo 20");
 // -
 mods.thaumcraft.Research.setAspects("SANESOAP", "sano 12, alienis 12, cognitio 9, ordo 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("SANESOAP", 3);
@@ -383,7 +383,7 @@ mods.thaumcraft.Warp.addToResearch("BOTTLETAINT", 5);
 mods.thaumcraft.Warp.addToItem(<Thaumcraft:ItemBottleTaint>, 1);
 
 // --- Thaumium
-mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <ore:ingotIron>, "praecantatio 4");
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>, "praecantatio 4");
 
 
 
