@@ -43,6 +43,22 @@ recipes.remove(<StorageDrawers:upgradeRedstone:*>);
 // --- Void Upgrade
 recipes.remove(<StorageDrawers:upgradeVoid>);
 
+// --- Storage Key
+recipes.remove(<StorageDrawers:upgradeLock>);
+
+// --- Concealedment Key
+recipes.remove(<StorageDrawers:shroudKey>);
+
+// --- Storage Personal Key
+recipes.remove(<StorageDrawers:personalKey>);
+
+// --- Packing Tape
+recipes.remove(<StorageDrawers:tape>);
+
+// --- Framing Table
+recipes.remove(<StorageDrawers:framingTable>);
+
+
 
 
 
@@ -182,6 +198,20 @@ recipes.addShaped(<StorageDrawers:upgradeVoid>, [
 [<ore:plateDenseObsidian>, <StorageDrawers:upgradeTemplate>, <ore:plateDenseObsidian>], 
 [<ore:stickWood>, <ProjRed|Transmission:projectred.transmission.wire>, <ore:stickWood>]]);
 
+// --- Storage Key
+recipes.addShaped(<StorageDrawers:upgradeLock>, [
+[null, null, <ore:plateSteel>],
+[<StorageDrawers:upgradeTemplate>, <ore:plateSteel>, <ore:stickGold>],
+[<ore:plateGold>, <ore:craftingToolSaw>, null]]);
+
+// --- Framing Table
+recipes.addShaped(<StorageDrawers:framingTable>, [
+[<StorageDrawers:trim:*>, <StorageDrawers:trim:*>, <StorageDrawers:trim:*>],
+[<minecraft:fence>, <ore:screwIron>, <minecraft:fence>],
+[<minecraft:fence>, <ore:craftingToolsScrewdriver>, <minecraft:fence>]]);
+
+
+
 
 
 
@@ -194,3 +224,12 @@ recipes.addShaped(<StorageDrawers:upgradeVoid>, [
 for item in <ore:drawerBasic>.items {
 	Assembler.addRecipe(<StorageDrawers:upgradeTemplate>, item, <minecraft:piston>, 1200, 16);
 }
+
+// --- Concealedment Key
+Assembler.addRecipe(<StorageDrawers:shroudKey>, <StorageDrawers:upgradeLock>, <minecraft:ender_eye>, 100, 30);
+
+// --- Storage Personal Key
+Assembler.addRecipe(<StorageDrawers:personalKey>, <StorageDrawers:upgradeLock>, <minecraft:name_tag>, 100, 30);
+
+// --- Packing Tape
+Assembler.addRecipe(<StorageDrawers:tape>, <minecraft:paper>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:refinedglue> * 144, 200, 30);
