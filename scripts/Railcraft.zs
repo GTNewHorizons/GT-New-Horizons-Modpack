@@ -83,14 +83,14 @@ val TinLantern = <Railcraft:lantern.metal:3>;
 val LeadLantern = <Railcraft:lantern.metal:4>;
 val SteelLantern = <Railcraft:lantern.metal:5>;
 
-val AbyssalBSlab = <Railcraft:slab:27>;
-val BleachedBSlab = <Railcraft:slab:25>;
-val BloodBSlab = <Railcraft:slab:26>;
-val FrostBSlab = <Railcraft:slab:23>;
-val InfernalBSlab = <Railcraft:slab:22>;
-val NetherBSlab = <Railcraft:slab:28>;
-val QuarriedBSlab = <Railcraft:slab:24>;
-val SandyBSlab = <Railcraft:slab:21>;
+val AbyssalBSlab = <Railcraft:slab:28>;
+val BleachedBSlab = <Railcraft:slab:26>;
+val BloodBSlab = <Railcraft:slab:27>;
+val FrostBSlab = <Railcraft:slab:24>;
+val InfernalBSlab = <Railcraft:slab:23>;
+val NetherBSlab = <Railcraft:slab:29>;
+val QuarriedBSlab = <Railcraft:slab:25>;
+val SandyBSlab = <Railcraft:slab:22>;
 val SandstoneBSlab = <minecraft:stone_slab:1>;
 val StoneBSlab = <minecraft:stone_slab>;
 val PressurePlate = <minecraft:stone_pressure_plate>;
@@ -252,6 +252,12 @@ recipes.remove(QuarriedLantern);
 
 // --- Sandy Block Lantern ---
 recipes.remove(SandyLantern);
+
+// --- Sandstone Block Lantern ---
+recipes.remove(SandstoneLantern);
+
+// --- Stone Lantern ---
+recipes.remove(StoneLantern);
 
 // --- Iron Lantern ---
 recipes.remove(IronLantern);
