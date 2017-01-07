@@ -711,25 +711,25 @@ recipes.addShaped(<StorageDrawers:upgrade:2>, [
 recipes.addShaped(<StorageDrawers:upgrade:3>, [
 [<ore:plateGold>, <StorageDrawers:upgradeTemplate>, <ore:plateGold>],
 [<StorageDrawers:upgradeTemplate>, <ore:plateSteel>, <StorageDrawers:upgradeTemplate>],
-[<ore:plateGold>, <ore:stickIron>, <ore:plateGold>]]);
+[<ore:plateGold>, <ore:stickGold>, <ore:plateGold>]]);
 
 // --- Upgarde Obsidian
 recipes.addShaped(<StorageDrawers:upgrade:4>, [
 [<ore:plateObsidian>, <StorageDrawers:upgradeTemplate>, <ore:plateObsidian>],
 [<StorageDrawers:upgradeTemplate>, <ore:plateAluminium>, <StorageDrawers:upgradeTemplate>],
-[<ore:plateObsidian>, <ore:stickIron>, <ore:plateObsidian>]]);
+[<ore:plateObsidian>, <ore:stickObsidian>, <ore:plateObsidian>]]);
 
 // --- Upgarde Diamond
 recipes.addShaped(<StorageDrawers:upgrade:5>, [
 [<ore:plateDiamond>, <StorageDrawers:upgradeTemplate>, <ore:plateDiamond>],
 [<StorageDrawers:upgradeTemplate>, <ore:plateStainlessSteel>, <StorageDrawers:upgradeTemplate>],
-[<ore:plateDiamond>, <ore:stickIron>, <ore:plateDiamond>]]);
+[<ore:plateDiamond>, <ore:stickDiamond>, <ore:plateDiamond>]]);
 
 // --- Upgarde Emerald
 recipes.addShaped(<StorageDrawers:upgrade:6>, [
 [<ore:plateEmerald>, <StorageDrawers:upgradeTemplate>, <ore:plateEmerald>],
 [<StorageDrawers:upgradeTemplate>, <ore:plateTitanium>, <StorageDrawers:upgradeTemplate>],
-[<ore:plateEmerald>, <ore:stickIron>, <ore:plateEmerald>]]);
+[<ore:plateEmerald>, <ore:stickEmerald>, <ore:plateEmerald>]]);
 
 // --- Compressed Drawers
 recipes.addShaped(<StorageDrawers:compDrawers>, [
