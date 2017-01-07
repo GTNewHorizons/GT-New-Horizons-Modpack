@@ -384,6 +384,15 @@ var StorageDrawers1TW = [
 <StorageDrawersMisc:fullDrawers1_1:8>]
 as IItemStack[];
 
+var StorageDrawers1V = [
+<StorageDrawers:fullDrawers1:0>,
+<StorageDrawers:fullDrawers1:1>,
+<StorageDrawers:fullDrawers1:2>,
+<StorageDrawers:fullDrawers1:3>,
+<StorageDrawers:fullDrawers1:4>,
+<StorageDrawers:fullDrawers1:5>]
+as IItemStack[];
+
 var StorageDrawers1x2N = [
 <StorageDrawersNatura:fullDrawers2:0>,
 <StorageDrawersNatura:fullDrawers2:1>,
@@ -406,6 +415,15 @@ var StorageDrawers1x2TW = [
 <StorageDrawersMisc:fullDrawers2_1:6>,
 <StorageDrawersMisc:fullDrawers2_1:7>,
 <StorageDrawersMisc:fullDrawers2_1:8>]
+as IItemStack[];
+
+var StorageDrawers1x2V = [
+<StorageDrawers:fullDrawers2:0>,
+<StorageDrawers:fullDrawers2:1>,
+<StorageDrawers:fullDrawers2:2>,
+<StorageDrawers:fullDrawers2:3>,
+<StorageDrawers:fullDrawers2:4>,
+<StorageDrawers:fullDrawers2:5>]
 as IItemStack[];
 
 var StorageDrawers1x2CN = [
@@ -432,6 +450,15 @@ var StorageDrawers1x2CTW = [
 <StorageDrawersMisc:halfDrawers2_1:8>] 
 as IItemStack[];
 
+var StorageDrawers1x2CV = [
+<StorageDrawers:halfDrawers2:0>,
+<StorageDrawers:halfDrawers2:1>,
+<StorageDrawers:halfDrawers2:2>,
+<StorageDrawers:halfDrawers2:3>,
+<StorageDrawers:halfDrawers2:4>,
+<StorageDrawers:halfDrawers2:5>] 
+as IItemStack[];
+
 var StorageDrawers2x2N = [
 <StorageDrawersNatura:fullDrawers4:0>,
 <StorageDrawersNatura:fullDrawers4:1>,
@@ -454,6 +481,15 @@ var StorageDrawers2x2TW = [
 <StorageDrawersMisc:fullDrawers4_1:6>,
 <StorageDrawersMisc:fullDrawers4_1:7>,
 <StorageDrawersMisc:fullDrawers4_1:8>] 
+as IItemStack[];
+
+var StorageDrawers2x2V = [
+<StorageDrawers:fullDrawers4:0>,
+<StorageDrawers:fullDrawers4:1>,
+<StorageDrawers:fullDrawers4:2>,
+<StorageDrawers:fullDrawers4:3>,
+<StorageDrawers:fullDrawers4:4>,
+<StorageDrawers:fullDrawers4:5>] 
 as IItemStack[];
 
 var StorageDrawers2x2CN = [
@@ -480,6 +516,15 @@ var StorageDrawers2x2CTW = [
 <StorageDrawersMisc:halfDrawers4_1:8>] 
 as IItemStack[];
 
+var StorageDrawers2x2CV = [
+<StorageDrawers:halfDrawers4:0>,
+<StorageDrawers:halfDrawers4:1>,
+<StorageDrawers:halfDrawers4:2>,
+<StorageDrawers:halfDrawers4:3>,
+<StorageDrawers:halfDrawers4:4>,
+<StorageDrawers:halfDrawers4:5>] 
+as IItemStack[];
+
 var StorageDrawersTrimN = [
 <StorageDrawersNatura:trim:0>,
 <StorageDrawersNatura:trim:1>,
@@ -504,6 +549,15 @@ var StorageDrawersTrimTW = [
 <StorageDrawersMisc:trim_1:8>] 
 as IItemStack[];
 
+var StorageDrawersTrimV = [
+<StorageDrawers:trim:0>,
+<StorageDrawers:trim:1>,
+<StorageDrawers:trim:2>,
+<StorageDrawers:trim:3>,
+<StorageDrawers:trim:4>,
+<StorageDrawers:trim:5>] 
+as IItemStack[];
+
 var slabsN = [
 <Natura:plankSlab1:0>,
 <Natura:plankSlab1:1>,
@@ -526,6 +580,15 @@ var slabsTW = [
 <witchery:witchwoodslab:0>,
 <witchery:witchwoodslab:1>,
 <witchery:witchwoodslab:2>]
+as IItemStack[];
+
+var slabsV = [
+<minecraft:wooden_slab:0>,
+<minecraft:wooden_slab:1>,
+<minecraft:wooden_slab:2>,
+<minecraft:wooden_slab:3>,
+<minecraft:wooden_slab:4>,
+<minecraft:wooden_slab:5>]
 as IItemStack[];
 
 var Cplank = <CarpentersBlocks:blockCarpentersBlock>;
@@ -676,15 +739,15 @@ recipes.addShaped(<StorageDrawers:compDrawers>, [
 
 // --- Controler
 recipes.addShaped(<StorageDrawers:controller>, [
-[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>], 
+[<ore:plateStainlessSteel>, <ore:circuitGood>, <ore:plateStainlessSteel>], 
 [<ProjRed|Integration:projectred.integration.gate:26>, <ore:drawerBasic>, <ProjRed|Integration:projectred.integration.gate:26>], 
 [<ore:plateObsidian>, <ore:plateDiamond>, <ore:plateObsidian>]]);
 
 // --- Controler Slave
 recipes.addShaped(<StorageDrawers:controllerSlave>, [
-[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>], 
+[<ore:plateStainlessSteel>, <ore:circuitGood>, <ore:plateStainlessSteel>], 
 [<ProjRed|Integration:projectred.integration.gate:26>, <ore:drawerBasic>, <ProjRed|Integration:projectred.integration.gate:26>], 
-[<ore:plateObsidian>, <ore:plateGold>, <ore:plateObsidian>]]);
+[<ore:plateObsidian>, <ore:plateEnderEye>, <ore:plateObsidian>]]);
 
 // --- Status Upgrade 1
 recipes.addShaped(<StorageDrawers:upgradeStatus:1>, [
@@ -919,6 +982,52 @@ for i, logs in slabsTW {
 // Drawers Trim
 for i, logs in slabsTW {
     var plank = StorageDrawersTrimTW[i];
+   
+    recipes.remove(plank);
+    recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+}
+
+//  ---- Vanilla Wood Add!
+
+
+// Drawers 1 
+for i, logs in slabsV {
+    var plank = StorageDrawers1V[i];
+    
+    recipes.remove(plank);
+    recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+}
+// Drawers 1x2
+for i, logs in slabsV {
+    var plank = StorageDrawers1x2V[i];
+    
+    recipes.remove(plank);
+    recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+}
+// Drawers 2x2
+for i, logs in slabsV {
+    var plank = StorageDrawers2x2V[i];
+    
+    recipes.remove(plank);
+    recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+}
+// DrawersCompact 1x2
+for i, logs in slabsV {
+    var plank = StorageDrawers1x2CV[i];
+   
+    recipes.remove(plank);
+    recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+}
+// DrawersCompact 2x2
+for i, logs in slabsV {
+    var plank = StorageDrawers2x2CV[i];
+    
+    recipes.remove(plank);
+    recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+}
+// Drawers Trim
+for i, logs in slabsV {
+    var plank = StorageDrawersTrimV[i];
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
