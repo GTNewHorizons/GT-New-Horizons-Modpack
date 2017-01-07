@@ -1423,7 +1423,7 @@ recipes.addShaped(<IC2:blockKineticGenerator:1>, [
 // --- Kinetic Wind Generator
 recipes.addShaped(<IC2:blockKineticGenerator>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<IC2:itemRecipePart:12>, <gregtech:gt.blockcasings2:4>, <IC2:itemRecipePart:12>],
+[<IC2:itemRecipePart:12>, <gregtech:gt.blockcasings2:3>, <IC2:itemRecipePart:12>],
 [<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>]]);
 
 // --- Semi Fluid Generator
