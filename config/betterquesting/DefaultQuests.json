@@ -18628,37 +18628,37 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 543
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 542
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 545
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 541
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 544
             },
             {
               "id": "gregtech:gt.blockores",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 540
             }
@@ -19012,37 +19012,37 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 1
             },
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 2
             },
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 3
             },
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 5
             },
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 4
             }
@@ -19887,7 +19887,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 1
             }
@@ -19969,7 +19969,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemShard",
-              "Count": 1,
+              "Count": 6,
               "OreDict": "",
               "Damage": 6
             }
@@ -20028,7 +20028,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 3
             }
@@ -20121,7 +20121,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 5
             }
@@ -20214,7 +20214,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 4
             }
@@ -20307,7 +20307,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 2
             }
@@ -20400,7 +20400,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
-              "Count": 2,
+              "Count": 6,
               "OreDict": "",
               "Damage": 0
             }
@@ -20760,7 +20760,7 @@
     {
       "questID": 256,
       "name": "Not coal",
-      "description": "Way better. To be fair, it\u0027s a waste to use coal itself, but it also works with charcoal. And it speeds up the dissolving of items in an alchemical furnace.",
+      "description": "Way better. To be fair, it\u0027s a waste to use coal itself, but it also works with charcoal and lignite dust. And it speeds up the dissolving of items in an alchemical furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21029,7 +21029,23 @@
         "Damage": 1
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -37700,7 +37716,7 @@
               "id": "TConstruct:Armor.DryingRack",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -44127,7 +44143,7 @@
       "questID": 559,
       "name": "Low Pressure Boiler Tank",
       "description": "The low Pressure Boiler Tank is the easiest way to store Steam. The Firebox need this tank on top to producing steam. The bigger the Boiler the slower it heats up.",
-	  "isMain": false,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -44235,7 +44251,7 @@
       "questID": 560,
       "name": "Railcraft Steam Power",
       "description": "As an alternative way to make steam you can using the Railcraft Solid Firebox to get steam. This Firebox need one Tank on top.\nBuilding more than one is possible: 2x2 and 3x3. Each Boiler need 1/2 or 3 Tanks on top.",
-	  "isMain": false,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
