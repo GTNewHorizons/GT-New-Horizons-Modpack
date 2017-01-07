@@ -2857,6 +2857,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -8652,7 +8663,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -8721,7 +8732,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -8930,7 +8941,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -44113,6 +44124,472 @@
       ]
     },
     {
+      "questID": 559,
+      "name": "Low Pressure Boiler Tank",
+      "description": "The low Pressure Boiler Tank is the easiest way to store Steam. The Firebox need this tank on top to producing steam. The bigger the Boiler the slower it heats up.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27032
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "dreamcraft:item.SteelBars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Railcraft:fuel.coke",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        560
+      ]
+    },
+    {
+      "questID": 560,
+      "name": "Railcraft Steam Power",
+      "description": "As an alternative way to make steam you can using the Railcraft Solid Firebox to get steam. This Firebox need one Tank on top.\nBuilding more than one is possible: 2x2 and 3x3. Each Boiler need 1/2 or 3 Tanks on top.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "minecraft:brick_block",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "plateIron",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:figjellysandwichItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        59
+      ]
+    },
+    {
+      "questID": 561,
+      "name": "Liquid fueled Firebox",
+      "description": "Why not making creosote to steam. After you make your first Steel you are able to craft a Liquid fueled Firebox.\nDiesel Fuel, Ethanol, Creosote and Bio Fuel works well here.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SteelBars",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "IC2:blockMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "creosote",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 562,
+      "name": "High pressure Boiler Tank",
+      "description": "After you make Steel you are able to craft a high boiler pressure Tank. The upgraded version increasing the Temperature and produce more steam then the lower Boiler version.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:meatfeastpizzaItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32240
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 2,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        561
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -49043,213 +49520,233 @@
       "quests": [
         {
           "id": 44,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 46,
-          "x": 48,
+          "x": 96,
           "y": 0
         },
         {
           "id": 47,
-          "x": 48,
+          "x": 96,
           "y": 36
         },
         {
           "id": 48,
-          "x": 132,
+          "x": 180,
           "y": 0
         },
         {
           "id": 49,
-          "x": 276,
+          "x": 324,
           "y": 0
         },
         {
           "id": 50,
-          "x": 324,
-          "y": 0
-        },
-        {
-          "id": 51,
-          "x": 276,
-          "y": 108
-        },
-        {
-          "id": 53,
-          "x": 228,
-          "y": 72
-        },
-        {
-          "id": 54,
-          "x": 228,
-          "y": 36
-        },
-        {
-          "id": 52,
-          "x": 276,
-          "y": 36
-        },
-        {
-          "id": 55,
-          "x": 192,
-          "y": 36
-        },
-        {
-          "id": 56,
-          "x": 132,
-          "y": 72
-        },
-        {
-          "id": 57,
-          "x": 324,
-          "y": 108
-        },
-        {
-          "id": 58,
           "x": 372,
           "y": 0
         },
         {
-          "id": 59,
-          "x": 0,
-          "y": 180
+          "id": 51,
+          "x": 324,
+          "y": 108
         },
         {
-          "id": 60,
-          "x": 0,
-          "y": 252
-        },
-        {
-          "id": 61,
-          "x": 48,
-          "y": 252
-        },
-        {
-          "id": 62,
-          "x": 48,
-          "y": 180
-        },
-        {
-          "id": 63,
-          "x": 48,
+          "id": 53,
+          "x": 276,
           "y": 72
         },
         {
-          "id": 64,
-          "x": 48,
-          "y": 108
-        },
-        {
-          "id": 65,
-          "x": 96,
-          "y": 108
-        },
-        {
-          "id": 66,
-          "x": 192,
-          "y": 216
-        },
-        {
-          "id": 68,
-          "x": 228,
-          "y": 252
-        },
-        {
-          "id": 69,
-          "x": 228,
-          "y": 180
-        },
-        {
-          "id": 70,
-          "x": 228,
-          "y": 288
-        },
-        {
-          "id": 67,
-          "x": 228,
-          "y": 216
-        },
-        {
-          "id": 72,
-          "x": 96,
-          "y": 288
-        },
-        {
-          "id": 73,
-          "x": 96,
-          "y": 180
-        },
-        {
-          "id": 71,
+          "id": 54,
           "x": 276,
-          "y": 216
+          "y": 36
         },
         {
-          "id": 84,
-          "x": 132,
-          "y": 180
-        },
-        {
-          "id": 16,
-          "x": 132,
-          "y": 216
-        },
-        {
-          "id": 478,
-          "x": 156,
-          "y": 108
-        },
-        {
-          "id": 479,
-          "x": 192,
-          "y": 108
-        },
-        {
-          "id": 493,
-          "x": 228,
-          "y": 0
-        },
-        {
-          "id": 494,
-          "x": 96,
-          "y": 0
-        },
-        {
-          "id": 495,
+          "id": 52,
           "x": 324,
           "y": 36
         },
         {
-          "id": 496,
-          "x": 228,
-          "y": 108
-        },
-        {
-          "id": 497,
-          "x": 192,
-          "y": 144
-        },
-        {
-          "id": 534,
-          "x": 192,
-          "y": 180
-        },
-        {
-          "id": 535,
-          "x": 96,
+          "id": 55,
+          "x": 240,
           "y": 36
         },
         {
-          "id": 536,
+          "id": 56,
+          "x": 192,
+          "y": 36
+        },
+        {
+          "id": 57,
+          "x": 372,
+          "y": 108
+        },
+        {
+          "id": 58,
+          "x": 420,
+          "y": 0
+        },
+        {
+          "id": 59,
+          "x": 48,
+          "y": 180
+        },
+        {
+          "id": 60,
+          "x": 48,
+          "y": 252
+        },
+        {
+          "id": 61,
+          "x": 96,
+          "y": 252
+        },
+        {
+          "id": 62,
+          "x": 96,
+          "y": 180
+        },
+        {
+          "id": 63,
+          "x": 96,
+          "y": 72
+        },
+        {
+          "id": 64,
+          "x": 96,
+          "y": 108
+        },
+        {
+          "id": 65,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 66,
+          "x": 240,
+          "y": 216
+        },
+        {
+          "id": 68,
+          "x": 276,
+          "y": 252
+        },
+        {
+          "id": 69,
           "x": 276,
           "y": 180
         },
         {
-          "id": 558,
-          "x": 48,
+          "id": 70,
+          "x": 276,
+          "y": 288
+        },
+        {
+          "id": 67,
+          "x": 276,
+          "y": 216
+        },
+        {
+          "id": 72,
+          "x": 144,
+          "y": 288
+        },
+        {
+          "id": 73,
+          "x": 144,
+          "y": 180
+        },
+        {
+          "id": 71,
+          "x": 324,
+          "y": 216
+        },
+        {
+          "id": 84,
+          "x": 180,
+          "y": 180
+        },
+        {
+          "id": 16,
+          "x": 180,
+          "y": 216
+        },
+        {
+          "id": 478,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 479,
+          "x": 240,
+          "y": 108
+        },
+        {
+          "id": 493,
+          "x": 276,
+          "y": 0
+        },
+        {
+          "id": 494,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 495,
+          "x": 372,
+          "y": 36
+        },
+        {
+          "id": 496,
+          "x": 276,
+          "y": 108
+        },
+        {
+          "id": 497,
+          "x": 240,
           "y": 144
+        },
+        {
+          "id": 534,
+          "x": 240,
+          "y": 180
+        },
+        {
+          "id": 535,
+          "x": 144,
+          "y": 36
+        },
+        {
+          "id": 536,
+          "x": 324,
+          "y": 180
+        },
+        {
+          "id": 558,
+          "x": 96,
+          "y": 144
+        },
+        {
+          "id": 559,
+          "x": 0,
+          "y": 252
+        },
+        {
+          "id": 560,
+          "x": 0,
+          "y": 180
+        },
+        {
+          "id": 561,
+          "x": 144,
+          "y": 72
+        },
+        {
+          "id": 562,
+          "x": 192,
+          "y": 72
         }
       ]
     },
