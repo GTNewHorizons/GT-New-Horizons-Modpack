@@ -882,9 +882,9 @@ recipes.addShaped(<Railcraft:machine.beta:15>, [
 
 // --- Solid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:5>, [
-[SteelPlate, Cauldron, SteelPlate],
+[IronPlate, Cauldron, IronPlate],
 [BrickBlock, <gregtech:gt.blockcasings3:13>, BrickBlock],
-[SteelPlate, IronFurnace, SteelPlate]]);
+[IronPlate, IronFurnace, IronPlate]]);
 
 // --- Liquid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:6>, [
