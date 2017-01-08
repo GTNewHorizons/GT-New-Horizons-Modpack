@@ -1364,8 +1364,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 288,
 
 // --- Soldering Iron
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.01:23032>, null, null, 
-<gregtech:gt.metaitem.01:26032>, <gregtech:gt.metaitem.01:23032>, null, 
+[<gregtech:gt.metaitem.01:23305>, null, null, 
+<gregtech:gt.metaitem.01:26305>, <gregtech:gt.metaitem.01:23305>, null, 
 null, null, <IC2:itemRecipePart:3>],
 null, <Forestry:solderingIron>);
 
