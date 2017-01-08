@@ -6,8 +6,8 @@
   "questDatabase": [
     {
       "questID": 0,
-      "name": "Welcome to Forestry",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "name": "Your first night",
+      "description": "You first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has Hardcore Darkness. It probably would be a good idea to collect some food now...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -24,7 +24,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:bookshelf",
+        "id": "minecraft:wheat",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -34,27 +34,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bookshelf",
-              "Count": 1,
+              "id": "minecraft:dirt",
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             }
@@ -62,33 +47,8 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:honeyedSlice",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        563
-      ]
+      "rewards": [],
+      "preRequisites": []
     },
     {
       "questID": 1,
@@ -8586,7 +8546,7 @@
     {
       "questID": 96,
       "name": "Saving redstone",
-      "description": "Tired of using 4 redstone for one magnetic rod? Well, good news for you! The polarizer doesn\u0027t need redstone, just a little bit of power. You don\u0027t need to attach this machine to a permanent power source, it runs fine on battery power.",
+      "description": "Tired of using 4 redstone for one magnetic Iron rod? Well, good news for you! The polarizer doesn\u0027t need redstone, just a little bit of power. You don\u0027t need to attach this machine to a permanent power source, it runs fine on battery power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8649,7 +8609,8 @@
         }
       ],
       "preRequisites": [
-        98
+        98,
+        579
       ]
     },
     {
@@ -46064,7 +46025,7 @@
     {
       "questID": 580,
       "name": "Thermionic Fabricator",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "The Thermionic Fabricator is used to craft electron tubes and stained glass. It requires Redstone Flux (RF) energy to run. It is your first machine which are mde in the Carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46091,14 +46052,44 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
+              "id": "IC2:itemRecipePart",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "Forestry:sturdyMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:factory2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46110,7 +46101,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bookshelf",
+              "id": "Forestry:factory2",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -46123,10 +46114,22 @@
         {
           "rewards": [
             {
-              "id": "Forestry:honeyedSlice",
-              "Count": 2,
+              "id": "minecraft:glass",
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8530
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:item"
@@ -46144,14 +46147,14 @@
         }
       ],
       "preRequisites": [
-        579,
-        577
+        577,
+        585
       ]
     },
     {
       "questID": 581,
       "name": "Tubes",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "Before you can craft your first Farm Block you need Apatite Tubes. Make some Apatide long Rods first (Lathe and or Extruder). You need Golden Bolts and a plate of Redalloy.\nPut Glass into your Fabricator and make your first Tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46178,12 +46181,30 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22530
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 26086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17308
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -46197,10 +46218,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bookshelf",
-              "Count": 1,
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 10
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46208,15 +46229,33 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
-              "id": "Forestry:honeyedSlice",
+              "id": "Forestry:thermionicTubes",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
@@ -46231,13 +46270,14 @@
         }
       ],
       "preRequisites": [
-        580
+        580,
+        588
       ]
     },
     {
       "questID": 582,
       "name": "Your first Multiblock Farm",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46267,14 +46307,32 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
+              "id": "minecraft:stonebrick",
+              "Count": 32,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46286,10 +46344,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bookshelf",
-              "Count": 1,
+              "id": "Forestry:ffarm",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46299,10 +46360,16 @@
         {
           "rewards": [
             {
-              "id": "Forestry:honeyedSlice",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11035
             }
           ],
           "rewardID": "bq_standard:item"
@@ -46311,7 +46378,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -46327,7 +46394,7 @@
     {
       "questID": 583,
       "name": "Farm logic",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "This Chip is optional and more advanced. The farm working without a chip too. If you want to configure your Farm you need one of this chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46357,14 +46424,38 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32710
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32700
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 29032
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19032
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46376,10 +46467,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:bookshelf",
+              "id": "Forestry:chipsets",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "T:4": 0
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -46387,21 +46481,39 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
-              "id": "Forestry:honeyedSlice",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11300
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32700
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32710
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -46416,7 +46528,7 @@
     {
       "questID": 584,
       "name": "Change your farm circuit configuration",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "The Soldering Iron is a tool used for attaching Electron Tubes to Circuit Boards in order to manipulate how an Electrical Engine works or to program MultiFarms. As well as upgrading the Squeezer or Centrifuge.\nOnce Electron Tubes have been attached to Circuit Boards they cannot be removed, only replaced. The Circuit Boards are automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to place your Electron Tubes and then the Circuit Boards.\n\nThe Soldering Iron can also be used to remove Circuit Boards from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking the Soldering Iron on to the circuit board slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46434,6 +46546,233 @@
       "taskLogic": "AND",
       "icon": {
         "id": "Forestry:solderingIron",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26032
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:solderingIron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Slots:10": {
+                  "1:8": ""
+                },
+                "UID:4": 109547956
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        583
+      ]
+    },
+    {
+      "questID": 585,
+      "name": "Heating Coils",
+      "description": "Your Thermionic Fabricator need heating coils to functions. So combining some magnetized (need Polarizer for it) Steel rods with some Copper Wire and make some.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemRecipePart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23355
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1360
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5112
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        579,
+        587
+      ]
+    },
+    {
+      "questID": 586,
+      "name": "Welcome to Forestry",
+      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bookshelf",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -46496,7 +46835,185 @@
         }
       ],
       "preRequisites": [
-        583
+        563
+      ]
+    },
+    {
+      "questID": 587,
+      "name": "Magnetize your steel rods",
+      "description": "Magnetic Steel rods need a magnetizer too craft. Make a few for your coils in the next step.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 23355
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 23305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 23355
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "minecraft:lever",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        98,
+        96
+      ]
+    },
+    {
+      "questID": 588,
+      "name": "Finding Apatite",
+      "description": "If you not finding a Apatide vain allready ist now time to search fore some. Apatite ist the most basic used material in Forestry. You can make Fertilizer with it, Farmblocks and many other things. The Vein is found between  Y 40-60.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8530
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "oreApatite",
+              "Damage": 530
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "orePhosphorite",
+              "Damage": 534
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "orePhosphate",
+              "Damage": 833
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            },
+            {
+              "id": "harvestcraft:frenchtoastItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32224
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        580
       ]
     },
     {
@@ -51723,11 +52240,6 @@
           "y": 108
         },
         {
-          "id": 96,
-          "x": 384,
-          "y": 240
-        },
-        {
           "id": 97,
           "x": 336,
           "y": 108
@@ -52513,7 +53025,7 @@
       "description": "Automated Farms and more.....",
       "quests": [
         {
-          "id": 0,
+          "id": 586,
           "x": 0,
           "y": 0
         },
@@ -52554,11 +53066,31 @@
         },
         {
           "id": 583,
-          "x": 60,
-          "y": 180
+          "x": 96,
+          "y": 132
         },
         {
           "id": 584,
+          "x": 144,
+          "y": 132
+        },
+        {
+          "id": 585,
+          "x": 96,
+          "y": 216
+        },
+        {
+          "id": 96,
+          "x": 192,
+          "y": 264
+        },
+        {
+          "id": 587,
+          "x": 96,
+          "y": 264
+        },
+        {
+          "id": 588,
           "x": 96,
           "y": 180
         }
