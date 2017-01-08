@@ -858,6 +858,9 @@
         <Loot Identifier="328ad03d-b03d-47b1-9cf4-408701747d1b" ItemName="GalacticraftCore:item.steel_chestplate" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:1s},2:{lvl:5,id:3s},3:{lvl:5,id:4s}],RepairCost:2,display:{Name:&quot;Space Chestplate&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="32010581-3499-4db7-a037-27d78b3cf7c0" ItemName="GalacticraftCore:item.steel_leggings" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:1s},2:{lvl:5,id:3s},3:{lvl:5,id:4s}],RepairCost:2,display:{Name:&quot;Space Leggings&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="9acc1108-1945-46ef-83ef-9f93873746ed" ItemName="GalacticraftCore:item.steel_boots" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:3s},2:{lvl:5,id:4s},3:{lvl:5,id:2s}],RepairCost:2,display:{Name:&quot;Space Boots&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="18e1edee-a631-4a58-bdd0-1c19a4421de6" ItemName="GalaxySpace:item.ModuleSmallFuelCanister" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7dbfa05b-3334-4cf5-bd5e-83ee5890621a" ItemName="GalaxySpace:item.ModuleSmallCanister" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2d909b38-54ba-4134-8fda-7eae5396ab4e" ItemName="GalaxySpace:item.ModuleLander" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="2dd286d5-f921-439c-8dd5-90803cf086af" ItemName="GalacticraftCore:item.basicItem:14" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -873,14 +876,21 @@
         <Loot Identifier="369da1c6-a5d9-476a-b23c-66e69bfcda14" ItemName="GalacticraftMars:item.itemBasicAsteroids" Amount="2" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d0eda89a-de23-4503-a548-5f351249428b" ItemName="GalacticraftMars:item.itemBasicAsteroids:6" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7bba7253-a1de-485e-ac4d-c00f76898a78" ItemName="GalacticraftMars:item.null:5" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-                <Loot Identifier="a7646614-2dae-43cd-b4ac-d3ab64eb6bf3" ItemName="GalacticraftMars:item.deshSword" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:16s},1:{lvl:5s,id:19s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a7646614-2dae-43cd-b4ac-d3ab64eb6bf3" ItemName="GalacticraftMars:item.deshSword" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:16s},1:{lvl:5s,id:19s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cd0c06e3-97ab-4e04-bbf5-805b2ac08cfc" ItemName="GalacticraftMars:item.deshPick" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:21s},1:{lvl:5s,id:33s},2:{lvl:5s,id:32s},3:{lvl:5s,id:34s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="17bd1893-f4c4-4d44-bf2e-c916fc887d84" ItemName="GalacticraftMars:item.deshAxe" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:34s},1:{lvl:5s,id:46s},2:{lvl:5s,id:16s},3:{lvl:5s,id:32s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="267751f3-f28b-47a7-864d-fdb9c92f796a" ItemName="GalacticraftMars:item.deshSpade" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:33s},1:{lvl:5s,id:34s},2:{lvl:5s,id:153s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="818e4c20-5a53-4308-839d-a19bf28adeed" ItemName="GalacticraftMars:item.deshHoe" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:21s},1:{lvl:5s,id:32s},2:{lvl:5s,id:34s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
-        </LootGroup>
+        <Loot Identifier="34b2a842-f531-49c3-819e-8c6090792a06" ItemName="GalaxySpace:item.ModuleLander2" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c9f98913-b022-4cf3-ba7d-5cf35748735e" ItemName="dreamcraft:item.MediumFuelCanister" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
     <LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="465d0889-0ebf-463b-8277-5af639f5ab94" ItemName="GalacticraftCore:item.oxygenTankHeavyFull:2700" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8f57ac71-eed3-44bb-ae5e-574cce61b2c6" ItemName="GalaxySpace:item.ModuleLander3" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9060b9fd-a8a5-4795-8bd5-084f213e5b88" ItemName="GalaxySpace:item.CompressedSDHD120" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="825b082b-88c2-46e8-b8ae-a27a0711e7be" ItemName="dreamcraft:item.LargeFuelCanister" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="23bb372c-0116-4e36-8c44-f4ce2e53a5b2" ItemName="dreamcraft:item.ExtraLargeFuelCanister" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="33b0a189-8cca-4a90-bb80-ea4292f231fc" ItemName="dreamcraft:item.WaferTier3" Amount="2" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="25" GroupName="Bees Basic" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="1de917d3-c1d9-48d7-bfc9-e951148aa93c" ItemName="Forestry:frameUntreated" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -923,5 +933,19 @@
         <Loot Identifier="50427b90-3bf0-4a0e-9357-090795565f18" ItemName="Forestry:alveary:5" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6fb246cd-c65b-4755-b513-0c6880d514a1" ItemName="Forestry:alveary:6" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="cf3839fa-2f8b-4dd8-a827-63bf9e326ad2" ItemName="Forestry:alveary:7" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="398f28aa-b2b2-474c-8d9a-ee6dbaa1df42" ItemName="gendustry:MutagenBucket" Amount="1" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cd3018d9-4d14-4c22-8c61-8ca6b0c422d7" ItemName="gendustry:BeeReceptacle" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5569db89-0ef9-4f89-bb4b-854e8582af60" ItemName="gendustry:PowerModule" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eeff8e58-f95f-4bb9-af46-f3ac67356aee" ItemName="gendustry:GeneticsProcessor" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="26a1753e-78b6-4366-9964-ace6568008bc" ItemName="gendustry:EnvProcessor" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c22c4948-5479-4b74-b284-42a488205b96" ItemName="gendustry:UpgradeFrame" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="128f4727-f44d-46c9-b125-185aaed12ee8" ItemName="gendustry:ClimateModule" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ae2f8884-85c7-44cc-8b23-63d6c55aa976" ItemName="gendustry:MutagenTank" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f8ee1b68-b2f1-41ec-b22b-7dd642442d15" ItemName="gendustry:IndustrialGrafter:100" Amount="1" NBTTag="{charge:0}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="acf7e833-8d25-45b3-a9af-1b14f42da89c" ItemName="gendustry:IndustrialScoop:100" Amount="1" NBTTag="{charge:0}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="954c98d6-5bc3-4de9-a6a6-c7c9b0f0cae4" ItemName="gendustry:GeneTemplate" Amount="2" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a3082034-f1dd-4be0-b331-537245368eea" ItemName="gendustry:GeneSampleBlank" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c430cac3-726a-4185-bb97-b4e1106c4ce4" ItemName="gendustry:LiquidDNABucket" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c2907ee6-2d8c-4ad8-829a-49ee93b6fa45" ItemName="gendustry:ProteinBucket" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
