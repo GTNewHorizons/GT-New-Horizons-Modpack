@@ -628,31 +628,179 @@
         <Loot Identifier="e22620d5-9241-40b1-9ede-6f9c84d9f02d" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;tenebrae&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3eaae5b0-cdc4-4d3b-8d36-4e785896e232" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;sanctus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="19" GroupName="Forest Ranger Basic" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="19" GroupName="Forest Ranger Basic" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="true">
+        <Loot Identifier="d7903043-0ad9-4894-b467-66c56abd14d6" ItemName="Forestry:engine:2" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cbec608b-5435-4dfb-b2df-4d0139d3af49" ItemName="Forestry:engine:1" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c8c6a03d-4f2d-4111-8166-878021fda7ac" ItemName="Forestry:engine" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ba69450e-b89d-4fb7-9618-390f99a66b28" ItemName="Forestry:solderingIron" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7be55f68-a5df-4ae0-8b0a-08f391129cb7" ItemName="Forestry:chipsets" Amount="1" NBTTag="{T:0s}" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9800926c-9106-4dd2-8ec4-b291f2874484" ItemName="Forestry:chipsets:1" Amount="1" NBTTag="{T:1s}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="08a89620-00f1-4738-a0e9-b86016e82189" ItemName="Forestry:chipsets:2" Amount="1" NBTTag="{T:2s}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3a144d6e-b778-4a78-9f69-6e9932e68705" ItemName="Forestry:chipsets:3" Amount="1" NBTTag="{T:3s}" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="07c8f699-12e5-4ff1-8538-d0467d8305b3" ItemName="Forestry:thermionicTubes" Amount="2" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ae48e2df-be0e-49e3-ba7e-9615d1574ff2" ItemName="Forestry:thermionicTubes:1" Amount="2" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7050de78-b43e-45d9-a279-c8fae2c51f27" ItemName="Forestry:thermionicTubes:2" Amount="2" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1b92a717-bb89-47b4-b5bf-c28208e6e1b8" ItemName="Forestry:thermionicTubes:9" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="52d825b1-d0c7-4ab2-b154-75a02673582e" ItemName="Forestry:thermionicTubes:10" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="08aed54c-8c20-4f73-8553-40e124438855" ItemName="Forestry:thermionicTubes:11" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5683ec64-2246-4a83-8768-b5d0ce477c8c" ItemName="Forestry:factory2:2" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="02780298-f402-4e9a-b67f-0eeb7589b6aa" ItemName="Forestry:sturdyMachine" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eeeac83e-90b9-45d6-9ed3-630dec4487a7" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:0}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="050cdda6-a628-4d8d-8ca4-f67b57235bc3" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:1}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bddfe2a6-f0cd-4643-9ccb-44ee62763bee" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:2}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cb57a8f6-f18c-4db0-876a-6f2ce5801ee2" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:3}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="747877ec-cb90-4338-b758-97e168658611" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:4}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2bbf2978-8185-4973-b9f7-418766626fbb" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:5}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="990ea819-451f-4bc0-a64f-4d45d2cf487f" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:6}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ec7b7635-8495-4bc6-9dd8-2c24fe767235" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:7}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="405b49df-e3a4-4a88-949e-0111b779bb58" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:8}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="65cdd9d5-df4e-46a9-ad8e-f242ceab5ea9" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:9}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="314804c9-27f4-49d3-87cf-7bedc58a1ff8" ItemName="Forestry:ffarm" Amount="4" NBTTag="{FarmBlock:10}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7b029f42-60d7-480d-af05-5cd192a575aa" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:0}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c0086565-0dc7-4e29-8541-6ab15bfb8172" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:1}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ba52c277-62e1-4814-a135-8f14ecb47999" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:2}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="187d5d64-8b67-4aa5-9162-11be803dd0ad" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:3}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="847bbabe-f433-4b0e-a216-5b60d33148a2" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:4}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ed288a43-81f0-4bcb-a075-b876b2d8a9d0" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:5}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="19ff9f8c-20d0-4973-b17d-50c3d2567f80" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:6}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6c34a7e5-bcf3-4a4f-ad30-a2bf8290eed9" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:7}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f41c4856-c5a7-4750-b88d-30aaa0878981" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:8}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a3572f3f-c344-4cc8-ab8f-168593580db9" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:9}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="dee1d0a5-f999-4071-9f5b-5faba7e9d479" ItemName="Forestry:ffarm:2" Amount="1" NBTTag="{FarmBlock:10}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e49ae2e7-c140-4557-825e-5e7f1d6d86c8" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:0}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d54ee3fe-c88f-4570-808b-45a38ef76d19" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:1}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="430b68cc-22e0-449f-88d8-c1d9968ad6fd" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:2}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5d2db306-6177-4ef0-bd3e-5149eacaef03" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:3}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2be401a6-eb90-4669-9a2f-2f92651f730c" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:4}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3c0a2d26-1ae4-4d54-bc1e-3af28b022e8a" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:5}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1c0d26a0-4f01-453e-8ab5-520937625b65" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:6}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="06f26030-6859-4351-bbb3-a10bb67543f0" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:7}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f43f6f1d-68f9-4814-8d81-dca95f882957" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:8}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="271aefb1-e48b-4c26-98df-c1b5e04a4721" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:9}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="62e8a3a1-9f50-4921-ad96-9d4224e3b659" ItemName="Forestry:ffarm:3" Amount="1" NBTTag="{FarmBlock:10}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bd3eed26-dc79-4956-925f-5d5179c8e111" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:0}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8473c6a3-edc3-49b0-9f0f-3bedfc2340a1" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:1}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f0f6b316-c821-4590-a790-17cc925b3446" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:2}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="15a7438f-8807-42f7-b14c-5995712584aa" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:3}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f16e9b7f-aa8a-4fcb-b192-efa52f249503" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:4}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="df7d00ba-37b1-4179-bf4a-0346bc8801c9" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:5}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="34361912-b6f1-4591-934f-2686e90ccf90" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:6}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ff647695-6397-4c70-925a-4a14a20fadd7" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:7}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="88da3549-4a32-4d36-9124-97600d813c0c" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:8}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6d7b2144-465e-4947-af4a-31208c81f1e5" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:9}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="430cdc31-6901-47c0-94fe-88f181da0f3c" ItemName="Forestry:ffarm:4" Amount="1" NBTTag="{FarmBlock:10}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3ee44f3f-efb7-4c4d-90d1-a2e11b89eefb" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:0}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="91da5814-8f54-4749-a683-3436e7e5933e" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:1}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7c81abe7-f04b-4794-af7a-171bd87249d8" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:2}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4f3b1abc-420c-47e1-8db4-d78d386affe1" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:3}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fff762b7-a564-463a-9da6-b39f393c1ce0" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:4}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="01a72fde-d698-4a61-a1e1-2ba682a8295f" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:5}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="06fba9a7-5c14-4122-88d7-f404f0ad3b1a" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:6}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="aefc191d-0d9d-4b45-a78a-fb44a18db9b3" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:7}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="481201f2-ffc3-4952-9d69-ed4c74f0be8e" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:8}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ca6ccc08-9837-4393-ab15-1aefc4f85c6c" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:9}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c33d66e9-c107-4fb6-a005-60ccee820a96" ItemName="Forestry:ffarm:5" Amount="1" NBTTag="{FarmBlock:10}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f8757cd7-4cdd-4eec-a026-f3cc1ca1cbf9" ItemName="Forestry:minerBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="65530e33-6e9d-4f3d-a69e-60b41261200d" ItemName="Forestry:diggerBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7edc3b8e-7f3f-46b2-ab21-3e805a37ace3" ItemName="Forestry:foresterBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7b73fd50-4f6a-4fe8-b454-792213b5068a" ItemName="Forestry:hunterBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="dd153fd9-7517-49bd-9638-7f6097ddbecf" ItemName="Forestry:adventurerBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9e93ddf3-dad6-40d2-b5ee-5eb3e96d5eec" ItemName="Forestry:builderBag" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="74756440-0d74-43d3-bd98-a89cf5775679" ItemName="Forestry:grafter" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="34f600d0-290d-49e7-a975-26dfa857ef0f" ItemName="Forestry:peat" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="381ea158-e74b-4c97-bba1-ebee9e52a831" ItemName="Forestry:bituminousPeat" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1db7365d-b3b3-41c4-a654-939badc8e043" ItemName="Forestry:factory2:1" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cce95154-43c1-4340-864c-b22e63a4fa1e" ItemName="Forestry:canEmpty" Amount="32" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="86c18035-ac52-43a0-a2c7-f26bc0d34d75" ItemName="Forestry:waxCapsule" Amount="32" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6c5e06a6-0218-4813-b111-579e11da785a" ItemName="Forestry:refractoryEmpty" Amount="16" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3fe76f28-c854-49ef-9332-ed81160cf767" ItemName="Forestry:bucketEthanol" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="797eba4b-d259-4bc4-b79c-f60ef61a889b" ItemName="Forestry:bucketBiomass" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="20" GroupName="Forest Ranger Advanced" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="20" GroupName="Forest Ranger Advanced" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="89b16623-4066-4005-8a12-a9f35b828400" ItemName="Forestry:thermionicTubes" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2aeedbc-fe8f-4c8c-a2a2-bdac39004d6c" ItemName="Forestry:thermionicTubes:3" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="feb70485-6ccd-41b0-b09f-7826e49c4ba5" ItemName="Forestry:thermionicTubes:12" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e92282e0-1478-4675-b49f-3750305f39d6" ItemName="Forestry:thermionicTubes:4" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e3af3b7b-0b20-43b0-aad4-354641369c50" ItemName="Forestry:thermionicTubes:5" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b781a3ff-4d68-46eb-86b5-beaf44a9fdb2" ItemName="Forestry:thermionicTubes:6" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c910ca41-15b8-4dc0-b82f-07e5ec9fa562" ItemName="Forestry:thermionicTubes:7" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d39c18e-5299-4a85-ba65-b0157279d613" ItemName="Forestry:thermionicTubes:8" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e44f9de3-c16c-4164-81af-fab2ee53f6cd" ItemName="Forestry:factory2" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="380093fd-d1b4-4d06-8ab8-44ba983973fc" ItemName="Forestry:factory:1" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d19c9628-cab9-4a91-a17c-3aefbbf2dd79" ItemName="Forestry:sturdyMachine" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="962e68ad-e0ce-41c7-94b8-916a26616641" ItemName="Forestry:core" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ad58ab61-195f-484b-bce7-55f8c81414f0" ItemName="Forestry:core:1" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ec0952be-b31e-4861-af12-0280650a8f43" ItemName="Forestry:minerBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b239fc59-36db-4d56-844b-125dbc22e043" ItemName="Forestry:diggerBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="181f6d69-74d0-4b1b-842f-ed05fb31cf9f" ItemName="Forestry:foresterBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b0ec26be-0438-40de-8bfa-5fc7f4f7366e" ItemName="Forestry:hunterBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5207143a-c671-4387-a633-03abcdf358a0" ItemName="Forestry:adventurerBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="63bc3ba7-299a-4f5c-8557-1adaba9f4e32" ItemName="Forestry:builderBagT2" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f52017c5-997f-4f41-8928-f5a6f54cbbf5" ItemName="Forestry:lepidopteristBag" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="daf234c3-d238-4337-afe6-b42ff6818ae3" ItemName="Forestry:grafterProven" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="02f615e7-cb22-4e93-b0ee-7ba1b33ea265" ItemName="Forestry:treealyzer" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e3cb3274-a6d5-4d31-acec-526689f0492b" ItemName="Forestry:arboriculture" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="79f2ad32-035c-45f6-bdc8-ed4c834175e4" ItemName="Forestry:factory:2" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1aa5de30-76fd-4ffc-b8b7-fa9d443905af" ItemName="Forestry:engine:3" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="32bd28a1-17b7-4311-9970-9b4380812f26" ItemName="Forestry:factory" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b052e47a-25c3-40ce-aab7-572d254d4a5f" ItemName="Forestry:factory:3" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1ae44290-fbe1-4453-9f1d-5d38f1b2c45a" ItemName="Forestry:factory:4" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f292b857-c631-4895-8f26-c6fb130598af" ItemName="Forestry:factory:5" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5f1311cb-862d-4601-968d-1318a6ef2e2d" ItemName="Forestry:factory:6" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4c1d5b6d-c1a4-4e6f-b168-28144d9521fc" ItemName="Forestry:craftingMaterial:6" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="21" GroupName="Forest Ranger Expert" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="21" GroupName="Forest Ranger Expert" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="25" GroupName="Bees Basic" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="25" GroupName="Bees Basic" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="1de917d3-c1d9-48d7-bfc9-e951148aa93c" ItemName="Forestry:frameUntreated" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ca3ff781-92a5-4247-838b-0a593e755477" ItemName="Forestry:frameImpregnated" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5cd68a3a-c61d-472d-b655-596d780861e2" ItemName="Forestry:frameProven" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bf8efc09-9772-49e1-af6e-8a35b6ed27e7" ItemName="Forestry:beealyzer" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ab962cf0-9fa6-4f5f-be5f-c7e57cc0de32" ItemName="Forestry:apicultureChest" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="99db270c-6b37-479d-8f56-3ff3450fd1c1" ItemName="Forestry:apiculture:2" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fe6e0175-7ed0-40e5-8e21-a58e86b47cee" ItemName="Forestry:apiculture" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="92d999f3-b0d8-451a-ad65-440c4e4ec36e" ItemName="Forestry:apiaristChest" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a6463585-3e9a-47a1-aeec-6d7d60d790f3" ItemName="Forestry:apiaristLegs" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1516e992-9ffa-4dff-bebb-d2a7da85560b" ItemName="Forestry:apiaristHelmet" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b1d534cc-aacb-44da-b7fa-8b526c0196f3" ItemName="Forestry:apiaristBoots" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1b1a9f09-cc0e-49b1-b6ea-980921d4f9ea" ItemName="Forestry:beeCombs" Amount="8" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="25ff72f8-4666-4837-9735-147e4d4c36b3" ItemName="Forestry:beeCombs:2" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c0c2624c-c53f-4db9-8460-79b0efd70c31" ItemName="Forestry:beeCombs:3" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1b5b60fb-8888-4f1f-afaa-c43a823b9f6a" ItemName="Forestry:beeCombs:4" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e0039007-dba9-4d53-9a17-174d45367acf" ItemName="Forestry:beeCombs:5" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="56a59dda-2732-4b02-8a6c-cd3853534bd2" ItemName="Forestry:beeCombs:6" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="25fb3d4b-3be2-4dfd-8096-d1ecaa67ba6f" ItemName="Forestry:beeCombs:7" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6310952d-5d7e-412c-a103-24b8af7ac4db" ItemName="Forestry:beeCombs:15" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="461385b2-1971-4d68-82c0-1b0a1097e22b" ItemName="Forestry:beeCombs:16" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a3874db3-0af6-42dd-8c9b-6aadf5182660" ItemName="Forestry:propolis" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9febe259-3bc8-41bc-8a15-c948ee5085fc" ItemName="Forestry:propolis:1" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d9a90032-c790-43b0-9784-d4f9fc730ca0" ItemName="Forestry:propolis:3" Amount="1" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5f1281a0-a30b-46ab-acd3-a958997f6cb0" ItemName="Forestry:honeyDrop" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eeb6fdf0-650f-4556-88df-8572525fa475" ItemName="Forestry:honeydew" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="26" GroupName="Bees Advanced" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="26" GroupName="Bees Advanced" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="ddba32ca-d3c1-4a73-9e9d-0362f1fe81d2" ItemName="Forestry:apiaristBag" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b54161a2-a449-4b3c-bf08-434d5f3ad028" ItemName="Forestry:beealyzer" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5f8f014e-c321-4acd-9366-a165adc1783f" ItemName="Forestry:flutterlyzer" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6f1472a9-e5b2-49dc-a042-142520db34b7" ItemName="Forestry:royalJelly" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="27" GroupName="Bees Expert" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="27" GroupName="Bees Expert" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="beed568d-f092-4013-9e58-becd05c93272" ItemName="Forestry:alveary" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="944d2ff8-93c9-4cb7-894a-be85cff7efa1" ItemName="Forestry:alveary:2" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e34d73aa-4019-4ee7-9cb5-bdc8f2fb7fca" ItemName="Forestry:alveary:3" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0e2dff8b-087d-4ab3-a82b-81b85565d287" ItemName="Forestry:alveary:4" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="50427b90-3bf0-4a0e-9357-090795565f18" ItemName="Forestry:alveary:5" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6fb246cd-c65b-4755-b513-0c6880d514a1" ItemName="Forestry:alveary:6" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cf3839fa-2f8b-4dd8-a827-63bf9e326ad2" ItemName="Forestry:alveary:7" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
