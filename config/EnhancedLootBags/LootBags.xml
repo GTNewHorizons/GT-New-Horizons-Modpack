@@ -530,12 +530,12 @@
     </LootGroup>
     <LootGroup GroupMetaID="13" GroupName="Magic Grandmaster - Unique" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="false">
         <Loot Identifier="1faf3ade-80e7-4be2-9397-d4d4e005610b" ItemName="ThaumicTinkerer:warpGate" Amount="2" NBTTag="" Chance="100" ItemGroup="celestial_gateway" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="81bb4052-f4b7-446f-b364-9a01c7edffd7" ItemName="ThaumicTinkerer:skyPearl" Amount="2" NBTTag="" Chance="100" ItemGroup="celestial_gateway" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="e19c7089-7293-47fa-82bb-5a152fc6c598" ItemName="ThaumicTinkerer:kamiResource" Amount="8" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="5f579b95-4a65-4aec-8914-1413fa977162" ItemName="minecraft:beacon" Amount="1" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="b2f3c96e-a3a1-4aca-a5f1-51b5da8f9fa1" ItemName="WarpTheory:item.warptheory.amulet" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="e19c7089-7293-47fa-82bb-5a152fc6c598" ItemName="ThaumicTinkerer:kamiResource" Amount="8" NBTTag="" Chance="100" LimitedDropCount="1" RandomAmount="false"/>
+        <Loot Identifier="81bb4052-f4b7-446f-b364-9a01c7edffd7" ItemName="ThaumicTinkerer:skyPearl" Amount="2" NBTTag="" Chance="100" ItemGroup="celestial_gateway" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="205d54ed-5b6c-4348-9c7a-d50e0564f167" ItemName="TaintedMagic:FocusTime" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2c8f8140-cd6b-4f5f-afd7-1b3fff58124d" ItemName="TaintedMagic:PrimalBlade" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
-        <Loot Identifier="b2f3c96e-a3a1-4aca-a5f1-51b5da8f9fa1" ItemName="WarpTheory:item.warptheory.amulet" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="1" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="14" GroupName="Legendary" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="true">
         <Loot Identifier="beec1cae-823d-4967-a427-b427ae1e2f58" ItemName="DraconicEvolution:wyvernPickaxe" Amount="1" NBTTag="{Energy:1000000}" Chance="50" LimitedDropCount="2" RandomAmount="false"/>
@@ -806,13 +806,81 @@
         <Loot Identifier="50da335a-c8d8-40a6-8e0d-e6f2ffb47d91" ItemName="Forestry:iodineCapsule" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b67ea431-9998-448b-b907-72aab4767736" ItemName="GalacticraftCore:item.basicItem:13" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="25a585e4-4a11-4915-8c61-ed2b7cdb87ab" ItemName="GalacticraftCore:item.basicItem:6" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d35027b2-7cd9-4b58-b38c-e1d245197b08" ItemName="GalacticraftCore:item.basicItem:7" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="185e2e58-c2ed-47cf-8b15-7051dd3e9f36" ItemName="GalacticraftCore:item.basicItem:8" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b545fed4-a1f3-4e91-8686-42dfa0c84e25" ItemName="GalacticraftCore:item.basicItem:9" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3575e740-f60a-4ee7-9ab1-c5bd3a12a94f" ItemName="GalacticraftCore:item.basicItem:10" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="380c7b00-21a1-42ac-8579-643ae82b4601" ItemName="GalacticraftCore:item.basicItem:11" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d049451-0eba-4680-9f7b-aed30b038272" ItemName="GalacticraftCore:item.parachute" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="61c21f65-ef3c-4d3c-b2aa-ca583253147e" ItemName="GalacticraftCore:item.parachute:1" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3c5d6bed-18b8-4fac-bce4-7ec7c7c99ba6" ItemName="GalacticraftCore:item.parachute:2" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d28a4e8-4ce2-413f-8b79-8561d206ce7a" ItemName="GalacticraftCore:item.parachute:3" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a604e02c-ff70-4aab-ae05-dbf1b142d1a2" ItemName="GalacticraftCore:item.parachute:4" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2daefc63-2fa2-402e-a30d-60dbf8093ce6" ItemName="GalacticraftCore:item.parachute:5" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7f1fa22d-0717-4d2f-b73a-e15db62446c2" ItemName="GalacticraftCore:item.parachute:6" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75afc07b-14bc-41f3-9e53-a62cdc5bb3f1" ItemName="GalacticraftCore:item.parachute:7" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ec95377d-697d-44a6-a630-a30ecc99659b" ItemName="GalacticraftCore:item.parachute:8" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fe9a4069-22de-4b7a-930e-ea915a775d5b" ItemName="GalacticraftCore:item.parachute:9" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ee20e0b7-f1d6-41c7-a8fc-4f8f138f9c9f" ItemName="GalacticraftCore:item.parachute:10" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ab2ec223-e19d-4e02-9639-e9f916b87046" ItemName="GalacticraftCore:item.parachute:11" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9f0236cb-657f-4de0-801d-5ca416530bf9" ItemName="GalacticraftCore:item.parachute:12" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e9431a42-c1c6-410b-ba64-021619176860" ItemName="GalacticraftCore:item.parachute:13" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b4eee973-9386-4e0c-935d-49bef64936d5" ItemName="GalacticraftCore:item.parachute:14" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2fd8fb03-ed5c-4085-9683-717978e85950" ItemName="GalacticraftCore:item.parachute:15" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d5fe11cd-164e-4276-8d5f-ad357aeab0e7" ItemName="GalacticraftCore:item.oxygenMask" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b610529e-9911-4829-a4cc-89ba5ad25d9d" ItemName="GalacticraftCore:item.oxygenGear" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3cf48c76-f236-4682-9797-b721aafdbc1f" ItemName="GalacticraftCore:item.oxygenConcentrator" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5a5a9df5-6e89-49f1-8cfb-c5449dd4da13" ItemName="GalacticraftCore:item.airFan" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e77fd04f-6b96-4427-b124-8e7d43056c46" ItemName="GalacticraftCore:item.engine" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="20295d80-ebd9-4c13-a4ff-771bc29842f7" ItemName="GalacticraftCore:item.engine:1" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f5d9a615-afd7-4d40-9e1b-8594597b758d" ItemName="GalacticraftCore:item.heavyPlating" Amount="2" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6dff9e7b-c31e-46b0-9a4c-21cf1fea988b" ItemName="GalacticraftCore:item.rocketFins" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="508726d7-6076-410d-8579-18befb49a000" ItemName="GalacticraftCore:item.oxygenTankLightFull:900" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a80add97-8b79-4a80-905f-a3fd2a35b3e3" ItemName="GalacticraftCore:item.noseCone" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="295b3bea-cbac-4862-aafe-7c06e96811c7" ItemName="GalacticraftCore:tile.aluminumWire" Amount="16" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e39e7b93-5057-482a-91c7-5b3a155fc44f" ItemName="GalacticraftCore:tile.aluminumWire:1" Amount="8" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e2e7075f-c920-45d8-974b-890d44e1aac2" ItemName="GalacticraftCore:tile.glowstoneTorch" Amount="16" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0290b619-08e5-4871-a716-d7b82f6eaded" ItemName="GalacticraftCore:tile.landingPad" Amount="3" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="818fc54f-5508-4eba-9888-08e8f536abe0" ItemName="GalacticraftCore:tile.landingPad:1" Amount="3" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5da006cc-1858-40d0-90eb-2ed001063d0a" ItemName="GalacticraftCore:tile.oxygenPipe" Amount="8" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bd5019fa-8586-4b52-ad33-0d972301b7d9" ItemName="GalacticraftCore:item.airVent" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b3f3bb05-04bd-4e1c-8c7a-c007f309777b" ItemName="GalacticraftCore:item.canister:1" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3bbbadd6-c86b-4270-9c1a-3150e2b1a10c" ItemName="GalacticraftCore:item.canister" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b2b52deb-b439-4cfc-a243-008739437d71" ItemName="GalacticraftCore:item.oilCanisterPartial:1001" Amount="2" NBTTag="" Chance="70" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c9be6204-b4e7-47eb-8627-336ecfc46018" ItemName="GalacticraftCore:item.buggymat:2" Amount="1" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="47489ab9-a0bd-4f8c-bedb-4ce7cd13a85d" ItemName="GalacticraftCore:item.basicItem" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6181f6f8-7f68-4c9e-b0fb-63c17bb041f0" ItemName="GalacticraftCore:item.basicItem:19" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3aa2a6cf-534d-497d-94e5-25c461434fa6" ItemName="GalacticraftCore:item.basicItem:20" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d26739be-7176-41a6-939e-920b59e15d03" ItemName="GalacticraftCore:item.meteoricIronIngot:1" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c4245bee-c3c0-464b-81c5-ee388ae5f199" ItemName="GalacticraftCore:item.steel_helmet" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:6s},2:{lvl:5,id:34s},3:{lvl:5,id:78s}],RepairCost:2,display:{Name:&quot;Space Helm&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="328ad03d-b03d-47b1-9cf4-408701747d1b" ItemName="GalacticraftCore:item.steel_chestplate" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:1s},2:{lvl:5,id:3s},3:{lvl:5,id:4s}],RepairCost:2,display:{Name:&quot;Space Chestplate&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="32010581-3499-4db7-a037-27d78b3cf7c0" ItemName="GalacticraftCore:item.steel_leggings" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:1s},2:{lvl:5,id:3s},3:{lvl:5,id:4s}],RepairCost:2,display:{Name:&quot;Space Leggings&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="9acc1108-1945-46ef-83ef-9f93873746ed" ItemName="GalacticraftCore:item.steel_boots" Amount="1" NBTTag="{ench:[0:{lvl:5,id:0s},1:{lvl:5,id:3s},2:{lvl:5,id:4s},3:{lvl:5,id:2s}],RepairCost:2,display:{Name:&quot;Space Boots&quot;,Lore:[0:&quot;Oh a bit overpowered&quot;]}}" Chance="30" ItemGroup="Space_Suit" LimitedDropCount="2" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
-    </LootGroup>
+        <Loot Identifier="2dd286d5-f921-439c-8dd5-90803cf086af" ItemName="GalacticraftCore:item.basicItem:14" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="98c1e73e-0c35-4241-9bfd-794d2b359c86" ItemName="GalacticraftCore:item.oxygenTankMedFull:1800" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f5796061-a1a0-46bd-8716-1b7a5644e37a" ItemName="GalacticraftMars:item.thermalPadding" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9393d6a7-5cef-4122-9958-0a72599d2c64" ItemName="GalacticraftMars:item.thermalPadding:1" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e7b22088-c432-4afc-90ba-32d6a1175fcc" ItemName="GalacticraftMars:item.thermalPadding:2" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e1c7ad73-ddc4-4ba7-9b11-3af2bcdd6dbc" ItemName="GalacticraftMars:item.thermalPadding:3" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c9236846-5afd-4e3f-b2d5-2b0b6e0d2753" ItemName="GalacticraftMars:item.itemBasicAsteroids:8" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="516dc1be-3cb3-4e2d-a201-7f12eff1cfdf" ItemName="GalacticraftMars:item.itemBasicAsteroids:7" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2fb0e550-f0e1-41e0-914c-c7a7fdcb0640" ItemName="GalacticraftMars:tile.hydrogenPipe" Amount="4" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2b25c4b1-d400-4c82-869d-a12c8040568c" ItemName="GalacticraftMars:item.null:3" Amount="2" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="369da1c6-a5d9-476a-b23c-66e69bfcda14" ItemName="GalacticraftMars:item.itemBasicAsteroids" Amount="2" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d0eda89a-de23-4503-a548-5f351249428b" ItemName="GalacticraftMars:item.itemBasicAsteroids:6" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7bba7253-a1de-485e-ac4d-c00f76898a78" ItemName="GalacticraftMars:item.null:5" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+                <Loot Identifier="a7646614-2dae-43cd-b4ac-d3ab64eb6bf3" ItemName="GalacticraftMars:item.deshSword" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:16s},1:{lvl:5s,id:19s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cd0c06e3-97ab-4e04-bbf5-805b2ac08cfc" ItemName="GalacticraftMars:item.deshPick" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:21s},1:{lvl:5s,id:33s},2:{lvl:5s,id:32s},3:{lvl:5s,id:34s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="17bd1893-f4c4-4d44-bf2e-c916fc887d84" ItemName="GalacticraftMars:item.deshAxe" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:34s},1:{lvl:5s,id:46s},2:{lvl:5s,id:16s},3:{lvl:5s,id:32s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="267751f3-f28b-47a7-864d-fdb9c92f796a" ItemName="GalacticraftMars:item.deshSpade" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:33s},1:{lvl:5s,id:34s},2:{lvl:5s,id:153s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="818e4c20-5a53-4308-839d-a19bf28adeed" ItemName="GalacticraftMars:item.deshHoe" Amount="1" NBTTag="{ench:[0:{lvl:5s,id:21s},1:{lvl:5s,id:32s},2:{lvl:5s,id:34s}],RepairCost:2,display:{Name:&quot;Mars Attacks&quot;,Lore:[0:&quot;Greetings from Mars&quot;]}}" Chance="10" ItemGroup="Mars_Attacks" LimitedDropCount="0" RandomAmount="false"/>
+        </LootGroup>
     <LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="465d0889-0ebf-463b-8277-5af639f5ab94" ItemName="GalacticraftCore:item.oxygenTankHeavyFull:2700" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="25" GroupName="Bees Basic" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="1de917d3-c1d9-48d7-bfc9-e951148aa93c" ItemName="Forestry:frameUntreated" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
