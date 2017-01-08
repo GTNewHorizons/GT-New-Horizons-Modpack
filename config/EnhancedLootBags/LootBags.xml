@@ -497,7 +497,16 @@
         <Loot Identifier="d8a7da13-8260-4c3b-8631-08e8c2b1c7c3" ItemName="Thaumcraft:FocusShock" Amount="1" NBTTag="{upgrade:[0:{id:0s},1:{id:0s},2:{id:18s},3:{id:-1s},4:{id:-1s}]}" Chance="10" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="11" GroupName="Magic Master" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d9d409c5-eed8-44e0-84c6-2134548c12e6" ItemName="Thaumcraft:ItemGolemPlacer:2" Amount="1" NBTTag="{gadomancy:{}}" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4c29b9ec-4ec4-4bc3-99d7-f03c14b1f8c2" ItemName="Thaumcraft:ItemGolemPlacer:3" Amount="1" NBTTag="{gadomancy:{}}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="afb235fb-4d39-4dcb-98b2-9fab653baa09" ItemName="Thaumcraft:ItemGolemPlacer:4" Amount="1" NBTTag="{gadomancy:{}}" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="dbc407c2-b51f-472f-bc99-3fe3bc1c21e1" ItemName="Thaumcraft:ItemGolemPlacer:5" Amount="1" NBTTag="{gadomancy:{}}" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ecf84e98-cc63-4ace-87d8-91b3c104e54a" ItemName="Thaumcraft:ItemGolemPlacer:6" Amount="1" NBTTag="{gadomancy:{}}" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="459f314a-600c-4f1e-a1e4-8e2d0650463f" ItemName="Thaumcraft:ItemGolemPlacer:7" Amount="1" NBTTag="{gadomancy:{}}" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2ee59997-6427-4d18-aeca-6b45452a11d5" ItemName="gadomancy:itemSilverwoodGolemPlacer:8" Amount="1" NBTTag="{gadomancy:{}}" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1973ab8d-eaab-4fd1-a233-44c3178fdb0b" ItemName="Thaumcraft:ItemGolemCore" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ddd754f9-f813-4f8c-a919-a022ec89b0a6" ItemName="Thaumcraft:ItemGolemCore:1" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f603fc8b-61d0-4ca9-8d3d-995b7e9b7950" ItemName="Thaumcraft:ItemGolemCore:2" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="12" GroupName="Magic Grandmaster" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="bfa8a5f4-4139-4597-9089-3b7b39eae299" ItemName="Thaumcraft:WandCasting:84" Amount="1" NBTTag="{cap:&quot;void&quot;,rod:&quot;equivalent&quot;}" Chance="15" LimitedDropCount="1" RandomAmount="false"/>
