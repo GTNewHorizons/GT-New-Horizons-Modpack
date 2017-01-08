@@ -6,8 +6,8 @@
   "questDatabase": [
     {
       "questID": 0,
-      "name": "Your first night",
-      "description": "You first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has Hardcore Darkness. It probably would be a good idea to collect some food now...",
+      "name": "Welcome to Forestry",
+      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -24,7 +24,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:wheat",
+        "id": "minecraft:bookshelf",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -34,12 +34,27 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:dirt",
-              "Count": 16,
+              "id": "minecraft:bookshelf",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -44606,6 +44621,313 @@
       ]
     },
     {
+      "questID": 563,
+      "name": "Bookshelfs......? Ah Forestry....Multiblock Farms!",
+      "description": "The Bookshelf can be only make with an Assembler. Maybe someone think this is crazy......",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bookshelf",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bookshelf",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        97
+      ]
+    },
+    {
+      "questID": 564,
+      "name": "Forestry Basic \u003e Advanced",
+      "description": "Three Basic Foresters Lootbags give a better one \u003d Advanced Foresters Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 565,
+      "name": "Forestry Advanced \u003e Expert",
+      "description": "Three Advanced Foresters Lootbags give a better one \u003d Expert Foresters Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        564
+      ]
+    },
+    {
+      "questID": 566,
+      "name": "Bee Basic \u003e Advanced",
+      "description": "Three Basic Bee Lootbags give a better one \u003d Advanced Bee Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 567,
+      "name": "Bee Advanced \u003e Expert",
+      "description": "Three Advanced Bee Lootbags give a better one \u003d Expert Bee Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        566
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -49822,12 +50144,12 @@
         },
         {
           "id": 99,
-          "x": 384,
-          "y": 108
+          "x": 420,
+          "y": 36
         },
         {
           "id": 100,
-          "x": 384,
+          "x": 420,
           "y": 156
         },
         {
@@ -49967,8 +50289,8 @@
         },
         {
           "id": 531,
-          "x": 384,
-          "y": 72
+          "x": 336,
+          "y": 36
         },
         {
           "id": 532,
@@ -50079,6 +50401,11 @@
           "id": 557,
           "x": 120,
           "y": 360
+        },
+        {
+          "id": 563,
+          "x": 384,
+          "y": 108
         }
       ]
     },
@@ -50582,6 +50909,17 @@
         {
           "id": 223,
           "x": 192,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Forestry",
+      "description": "Automated Farms and more.....",
+      "quests": [
+        {
+          "id": 0,
+          "x": 0,
           "y": 0
         }
       ]
@@ -52336,7 +52674,7 @@
       "quests": [
         {
           "id": 439,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
@@ -52346,23 +52684,43 @@
         },
         {
           "id": 443,
-          "x": 64,
+          "x": 72,
           "y": 0
         },
         {
           "id": 445,
-          "x": 96,
+          "x": 108,
           "y": 0
         },
         {
           "id": 447,
-          "x": 128,
+          "x": 144,
           "y": 0
         },
         {
           "id": 449,
-          "x": 160,
+          "x": 180,
           "y": 0
+        },
+        {
+          "id": 564,
+          "x": 0,
+          "y": 120
+        },
+        {
+          "id": 565,
+          "x": 36,
+          "y": 120
+        },
+        {
+          "id": 566,
+          "x": 0,
+          "y": 168
+        },
+        {
+          "id": 567,
+          "x": 36,
+          "y": 168
         }
       ]
     }
