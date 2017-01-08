@@ -44811,8 +44811,8 @@
     },
     {
       "questID": 566,
-      "name": "Bee Basic \u003e Advanced",
-      "description": "Three Basic Bee Lootbags give a better one \u003d Advanced Bee Lootbag.",
+      "name": "Space Invaders Moon \u003e Space Invaders Mars",
+      "description": "Three Space Invaders Moon Lootbags give a better one \u003d Space Invaders Mars Lootbag.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44846,7 +44846,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 3,
               "OreDict": "",
-              "Damage": 19
+              "Damage": 22
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -44859,7 +44859,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 20
+              "Damage": 23
             }
           ],
           "rewardID": "bq_standard:item"
@@ -44869,8 +44869,8 @@
     },
     {
       "questID": 567,
-      "name": "Bee Advanced \u003e Expert",
-      "description": "Three Advanced Bee Lootbags give a better one \u003d Expert Bee Lootbag.",
+      "name": "Space Invaders Mars \u003e Space Invaders Asteroids",
+      "description": "Three Space Invaders Mars Lootbags give a better one \u003d Space Invaders Asteroids Lootbag.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44904,7 +44904,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 3,
               "OreDict": "",
-              "Damage": 26
+              "Damage": 23
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -44917,7 +44917,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 27
+              "Damage": 24
             }
           ],
           "rewardID": "bq_standard:item"
@@ -45281,6 +45281,124 @@
       ],
       "preRequisites": [
         572
+      ]
+    },
+    {
+      "questID": 574,
+      "name": "Bee Basic \u003e Advanced",
+      "description": "Three Basic Bee Lootbags give a better one \u003d Advanced Bee Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 575,
+      "name": "Bee Advanced \u003e Expert",
+      "description": "Three Advanced Bee Lootbags give a better one \u003d Expert Bee Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        574
       ]
     },
     {
@@ -53070,13 +53188,13 @@
         },
         {
           "id": 566,
-          "x": 0,
-          "y": 192
+          "x": 144,
+          "y": 144
         },
         {
           "id": 567,
-          "x": 36,
-          "y": 192
+          "x": 180,
+          "y": 144
         },
         {
           "id": 568,
@@ -53106,6 +53224,16 @@
         {
           "id": 573,
           "x": 36,
+          "y": 96
+        },
+        {
+          "id": 574,
+          "x": 144,
+          "y": 96
+        },
+        {
+          "id": 575,
+          "x": 180,
           "y": 96
         }
       ]
