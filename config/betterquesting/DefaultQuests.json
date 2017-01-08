@@ -44928,6 +44928,362 @@
       ]
     },
     {
+      "questID": 568,
+      "name": "Novize \u003e Adept",
+      "description": "Three Novize Lootbags give a better one \u003d Adept Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 569,
+      "name": "Adept \u003e Master",
+      "description": "Three Adept Lootbags give a better one \u003d Master Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        568
+      ]
+    },
+    {
+      "questID": 570,
+      "name": "Master \u003e Grandmaster",
+      "description": "Three Master Lootbags give a better one \u003d Grandmaster Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        569
+      ]
+    },
+    {
+      "questID": 571,
+      "name": "Grandmaster \u003e Grandmaster Unique",
+      "description": "Sixteen Grandmaster Lootbags give a better one \u003d Grandmaster Unique Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        570
+      ]
+    },
+    {
+      "questID": 572,
+      "name": "BM Novize \u003e BM Adept",
+      "description": "Three BM Novize Lootbags give a better one \u003d BM Adept Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 573,
+      "name": "BM Adept \u003e BM Master",
+      "description": "Three BM Adept Lootbags give a better one \u003d BM Master Lootbag.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 0,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enhancedlootbags:lootbag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        572
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -52705,22 +53061,52 @@
         {
           "id": 564,
           "x": 0,
-          "y": 120
+          "y": 144
         },
         {
           "id": 565,
           "x": 36,
-          "y": 120
+          "y": 144
         },
         {
           "id": 566,
           "x": 0,
-          "y": 168
+          "y": 192
         },
         {
           "id": 567,
           "x": 36,
-          "y": 168
+          "y": 192
+        },
+        {
+          "id": 568,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 569,
+          "x": 36,
+          "y": 48
+        },
+        {
+          "id": 570,
+          "x": 72,
+          "y": 48
+        },
+        {
+          "id": 571,
+          "x": 108,
+          "y": 48
+        },
+        {
+          "id": 572,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 573,
+          "x": 36,
+          "y": 96
         }
       ]
     }
