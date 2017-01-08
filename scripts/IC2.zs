@@ -1237,13 +1237,13 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
-[<ore:cableGt01AnyCopper>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01AnyCopper>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:cableGt01AnyCopper>, <dreamcraft:item.AluminiumItemCasing>, <ore:cableGt01AnyCopper>],
+[<dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Power Unit
 recipes.addShaped(<IC2:itemRecipePart:2>, [
-[<ore:cableGt01Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01Gold>],
+[<ore:cableGt02Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt02Gold>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:*>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32601>, <ore:circuitAdvanced>]]);
 

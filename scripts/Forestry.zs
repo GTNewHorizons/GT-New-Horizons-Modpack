@@ -1364,9 +1364,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 288,
 
 // --- Soldering Iron
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
-[null, null, <gregtech:gt.metaitem.01:23032>, 
-null, <gregtech:gt.metaitem.01:23032>, <gregtech:gt.metaitem.01:26032>, 
-<IC2:itemRecipePart:2>, null, null],
+[<gregtech:gt.metaitem.01:23032>, null, null, 
+<gregtech:gt.metaitem.01:26032>, <gregtech:gt.metaitem.01:23032>, null, 
+null, null, <IC2:itemRecipePart:3>],
 null, <Forestry:solderingIron>);
 
 // --- Impregnated Stick
