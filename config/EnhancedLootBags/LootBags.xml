@@ -628,4 +628,31 @@
         <Loot Identifier="e22620d5-9241-40b1-9ede-6f9c84d9f02d" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;tenebrae&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3eaae5b0-cdc4-4d3b-8d36-4e785896e232" ItemName="AWWayofTime:blockCrystalBelljar" Amount="1" NBTTag="{reagentTanks:[0:{amount:16000,Reagent:&quot;sanctus&quot;,capacity:16000}]}" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+	<LootGroup GroupMetaID="19" GroupName="Forest Ranger Basic" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="20" GroupName="Forest Ranger Advanced" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="21" GroupName="Forest Ranger Expert" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="25" GroupName="Bees Basic" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="26" GroupName="Bees Advanced" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+	<LootGroup GroupMetaID="27" GroupName="Bees Expert" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
