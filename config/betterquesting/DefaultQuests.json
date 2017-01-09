@@ -43508,7 +43508,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT.",
+      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43771,7 +43771,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT.",
+      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49443,7 +49443,8 @@
         }
       ],
       "preRequisites": [
-        598
+        598,
+        610
       ]
     },
     {
@@ -49650,6 +49651,431 @@
       ],
       "preRequisites": [
         225
+      ]
+    },
+    {
+      "questID": 611,
+      "name": "Single Use Batterie : Mercury",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32517,
+        "tag": {
+          "GT.ItemCharge:4": 75000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        616,
+        617
+      ]
+    },
+    {
+      "questID": 612,
+      "name": "Single Use Batterie : Acid",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32510,
+        "tag": {
+          "GT.ItemCharge:4": 18000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        618,
+        617
+      ]
+    },
+    {
+      "questID": 613,
+      "name": "Battery reuse able : Sodium",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32519,
+        "tag": {
+          "GT.ItemCharge:4": 50000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 614,
+      "name": "Battery reuse able : Cadmium",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32517,
+        "tag": {
+          "GT.ItemCharge:4": 75000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 615,
+      "name": "Battery reuse able : Lithium",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32518,
+        "tag": {
+          "GT.ItemCharge:4": 100000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 616,
+      "name": "Mercury",
+      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinebar Ore inthe Redstone Vein you can using this too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "mercury",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "mercury",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 826
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 617,
+      "name": "Fluid Canner",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 431
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 431
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        616,
+        618
+      ]
+    },
+    {
+      "questID": 618,
+      "name": "Sulfuric Acid",
+      "description": "Hydrogen Sulfide and Water in the Chemical recator make some Sulfuric Acid for your Single used Acid Batteries. If you made  some light and heavy fuel allready maybe you have some spare  Hydrogen Sulfide. If not you can make Sulfuric Acid with some Sulfur and Water in the Chemical rector too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30720
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "sulfuricacid",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2022
+            },
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "water",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        609
       ]
     },
     {
@@ -54431,12 +54857,52 @@
         {
           "id": 608,
           "x": 384,
-          "y": 360
+          "y": 384
         },
         {
           "id": 609,
-          "x": 384,
-          "y": 324
+          "x": 420,
+          "y": 360
+        },
+        {
+          "id": 612,
+          "x": 504,
+          "y": 240
+        },
+        {
+          "id": 613,
+          "x": 504,
+          "y": 360
+        },
+        {
+          "id": 614,
+          "x": 504,
+          "y": 396
+        },
+        {
+          "id": 615,
+          "x": 504,
+          "y": 432
+        },
+        {
+          "id": 611,
+          "x": 468,
+          "y": 204
+        },
+        {
+          "id": 616,
+          "x": 420,
+          "y": 288
+        },
+        {
+          "id": 617,
+          "x": 468,
+          "y": 240
+        },
+        {
+          "id": 618,
+          "x": 468,
+          "y": 288
         }
       ]
     },
