@@ -48090,6 +48090,237 @@
       ]
     },
     {
+      "questID": 597,
+      "name": "Tetrahedrite, Stibnite and Copper",
+      "description": "Maybe you wondering at this point why you need Tetrahedrite and Stibnite. Antimony can be centrifuged out of it which is very usefull for batteries in LV Age.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1840
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1840
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1945
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1035
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:carrotsoupItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2089
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        496
+      ]
+    },
+    {
+      "questID": 598,
+      "name": "Antimony",
+      "description": "The most efficient way to get antimony for Batteries is to centrifuge Stibnite Dust, the second efficient way is to using Tetrahedrite Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2058
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2058
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        539,
+        597
+      ]
+    },
+    {
+      "questID": 599,
+      "name": "Thermal Centrifuge",
+      "description": "A optional Machine to get different by products out of your crushed and purified ore dust. This machine becomes very usefull when you have reactors and want to recycle your depleted Fuel rods.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 381
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 381
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        94,
+        538
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -53288,6 +53519,11 @@
           "id": 596,
           "x": 96,
           "y": 108
+        },
+        {
+          "id": 597,
+          "x": 324,
+          "y": 144
         }
       ]
     },
@@ -53604,6 +53840,16 @@
           "id": 563,
           "x": 384,
           "y": 108
+        },
+        {
+          "id": 598,
+          "x": 336,
+          "y": 360
+        },
+        {
+          "id": 599,
+          "x": 240,
+          "y": 204
         }
       ]
     },
