@@ -47983,6 +47983,113 @@
       ]
     },
     {
+      "questID": 596,
+      "name": "Upgrade of the upgrade of the...",
+      "description": "It\u0027s upgrade time. Unlock Redstone and Obsidian Level for your Tools.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:pickaxeHead",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 16
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxeHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "TConstruct:shovelHead",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "TConstruct:hatchetHead",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "TConstruct:swordBlade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31
+            },
+            {
+              "id": "TConstruct:binding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "TConstruct:binding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
       "questID": 600,
       "name": "Hunger, no more",
       "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables use them to curb your insatiable hunger.",
@@ -52949,7 +53056,7 @@
       "quests": [
         {
           "id": 44,
-          "x": 48,
+          "x": 0,
           "y": 0
         },
         {
@@ -53019,8 +53126,8 @@
         },
         {
           "id": 59,
-          "x": 48,
-          "y": 180
+          "x": 0,
+          "y": 108
         },
         {
           "id": 60,
@@ -53044,8 +53151,8 @@
         },
         {
           "id": 64,
-          "x": 96,
-          "y": 108
+          "x": 48,
+          "y": 72
         },
         {
           "id": 65,
@@ -53176,6 +53283,11 @@
           "id": 562,
           "x": 192,
           "y": 72
+        },
+        {
+          "id": 596,
+          "x": 96,
+          "y": 108
         }
       ]
     },
