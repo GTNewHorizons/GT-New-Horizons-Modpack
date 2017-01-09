@@ -18531,6 +18531,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizard",
               "Count": 5,
               "OreDict": "",
@@ -18819,6 +18825,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinDarkWizard",
               "Count": 5,
@@ -49410,10 +49422,10 @@
         {
           "rewards": [
             {
-              "id": "BiomesOPlenty:food",
+              "id": "harvestcraft:mixedsaladItem",
               "Count": 1,
               "OreDict": "",
-              "Damage": 6
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -49436,8 +49448,8 @@
     },
     {
       "questID": 609,
-      "name": "Antimony",
-      "description": "The most efficient way to get antimony for Batteries is to centrifuge Stibnite Dust, the second efficient way is to using Tetrahedrite Dust.",
+      "name": "Battery Alloy",
+      "description": "Mixing Antimony and Lead in the Alloy smelter give some battery alloy.\nCombinig it with some Tin Cable and voila there is your irs Batterie Hull",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49457,7 +49469,7 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2058
+        "Damage": 32500
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -49469,9 +49481,138 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 17315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1246
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 32500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 826
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 933
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 907
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 839
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        608,
+        598
+      ]
+    },
+    {
+      "questID": 610,
+      "name": "Lead, Galena and Silver",
+      "description": "You can\u0027t find Lead, Galena and Silver in the Overworld or the Nether. So it\u0027s time to explore the twilight Forest a bit and find this veine at Y Level 5 - 40.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 830
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
               "Count": 32,
               "OreDict": "",
-              "Damage": 2058
+              "Damage": 830
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 89
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 54
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -49481,10 +49622,10 @@
         {
           "rewards": [
             {
-              "id": "BiomesOPlenty:food",
+              "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 6
+              "Damage": 1
             }
           ],
           "rewardID": "bq_standard:item"
@@ -49492,7 +49633,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -49502,7 +49649,7 @@
         }
       ],
       "preRequisites": [
-        608
+        225
       ]
     },
     {
@@ -54283,13 +54430,13 @@
         },
         {
           "id": 608,
-          "x": 372,
+          "x": 384,
           "y": 360
         },
         {
           "id": 609,
-          "x": 408,
-          "y": 360
+          "x": 384,
+          "y": 324
         }
       ]
     },
@@ -54919,18 +55066,18 @@
         },
         {
           "id": 225,
-          "x": 56,
+          "x": 48,
           "y": 0
         },
         {
           "id": 226,
-          "x": 224,
+          "x": 228,
           "y": 0
         },
         {
           "id": 229,
-          "x": 0,
-          "y": 32
+          "x": 48,
+          "y": 36
         },
         {
           "id": 231,
@@ -54939,153 +55086,158 @@
         },
         {
           "id": 232,
-          "x": 264,
+          "x": 300,
           "y": 0
         },
         {
           "id": 230,
-          "x": 104,
+          "x": 108,
           "y": 0
         },
         {
           "id": 233,
           "x": 0,
-          "y": 64
+          "y": 72
         },
         {
           "id": 227,
-          "x": 184,
+          "x": 180,
           "y": 0
         },
         {
           "id": 234,
-          "x": 304,
-          "y": 64
+          "x": 300,
+          "y": 72
         },
         {
           "id": 235,
-          "x": 224,
-          "y": 32
+          "x": 228,
+          "y": 36
         },
         {
           "id": 236,
           "x": 264,
-          "y": 32
+          "y": 36
         },
         {
           "id": 237,
-          "x": 224,
-          "y": 64
+          "x": 228,
+          "y": 72
         },
         {
           "id": 238,
-          "x": 224,
-          "y": 128
+          "x": 228,
+          "y": 144
         },
         {
           "id": 241,
-          "x": 104,
-          "y": 32
+          "x": 108,
+          "y": 72
         },
         {
           "id": 242,
           "x": 0,
-          "y": 96
+          "y": 144
         },
         {
           "id": 243,
-          "x": 0,
-          "y": 128
+          "x": 48,
+          "y": 144
         },
         {
           "id": 244,
           "x": 144,
-          "y": 160
+          "y": 180
         },
         {
           "id": 246,
-          "x": 304,
-          "y": 160
+          "x": 300,
+          "y": 180
         },
         {
           "id": 247,
           "x": 144,
-          "y": 224
+          "y": 252
         },
         {
           "id": 248,
-          "x": 304,
-          "y": 224
+          "x": 300,
+          "y": 252
         },
         {
           "id": 249,
           "x": 144,
-          "y": 192
+          "y": 216
         },
         {
           "id": 250,
-          "x": 304,
-          "y": 192
+          "x": 300,
+          "y": 216
         },
         {
           "id": 245,
-          "x": 224,
-          "y": 192
+          "x": 228,
+          "y": 216
         },
         {
           "id": 251,
           "x": 144,
-          "y": 128
+          "y": 144
         },
         {
           "id": 239,
-          "x": 184,
-          "y": 128
+          "x": 180,
+          "y": 144
         },
         {
           "id": 252,
-          "x": 256,
-          "y": 96
+          "x": 264,
+          "y": 108
         },
         {
           "id": 253,
-          "x": 184,
-          "y": 64
+          "x": 180,
+          "y": 72
         },
         {
           "id": 254,
           "x": 144,
-          "y": 64
+          "y": 72
         },
         {
           "id": 240,
-          "x": 184,
-          "y": 96
+          "x": 180,
+          "y": 108
         },
         {
           "id": 256,
-          "x": 56,
-          "y": 96
+          "x": 48,
+          "y": 72
         },
         {
           "id": 255,
-          "x": 104,
-          "y": 96
+          "x": 108,
+          "y": 108
         },
         {
           "id": 257,
-          "x": 184,
-          "y": 32
+          "x": 180,
+          "y": 36
         },
         {
           "id": 258,
-          "x": 304,
-          "y": 128
+          "x": 300,
+          "y": 144
         },
         {
           "id": 259,
-          "x": 256,
-          "y": 128
+          "x": 264,
+          "y": 144
+        },
+        {
+          "id": 610,
+          "x": 0,
+          "y": 36
         }
       ]
     },
