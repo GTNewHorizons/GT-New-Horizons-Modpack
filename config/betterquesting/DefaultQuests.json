@@ -45614,7 +45614,7 @@
     {
       "questID": 577,
       "name": "Forestry Core Block",
-      "description": "The sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of Machine Casing.",
+      "description": "This sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of Machine Casing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45739,7 +45739,7 @@
     {
       "questID": 578,
       "name": "The Carpenter",
-      "description": "The Carpenter is similar to an Automatic Crafting Table. It have a Item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the Carpenter you can make Farmblocks Woven Backpacks, Bee and Tree analyzer and many more.\n\nThe Carpenter needs Power to working. You can using  GT cable or Steam Engine/Battery Box to connect to the machine or make some Forestry, Railcraft or Buildcraft RF Engines.",
+      "description": "The Carpenter is similar to an Automatic Crafting Table. It has an Item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the Carpenter you can make Farmblocks, Woven Backpacks, Bee and Tree analysers and many more.\n\nThe Carpenter needs Power to work. You can use a GT cable or a Battery Box to connect to the machine or make some Forestry, Railcraft or Buildcraft RF Engines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45876,8 +45876,8 @@
     },
     {
       "questID": 579,
-      "name": "Molten Redstone ?",
-      "description": "You heared about that the Carpenter needs some molten redstone for a few recipes. \nConverting Redstone dust into a fluid needs some Fluid Extractor. Let\u0027s build one.",
+      "name": "Molten Redstone?",
+      "description": "You heard that the Carpenter needs some molten redstone for a few recipes. \nConverting Redstone dust into a fluid requires a Fluid Extractor. Let\u0027s build one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46027,7 +46027,7 @@
     {
       "questID": 580,
       "name": "Thermionic Fabricator",
-      "description": "The Thermionic Fabricator is used to craft electron tubes and stained glass. It requires Redstone Flux (RF) energy to run. It is your first machine which are mde in the Carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
+      "description": "The Thermionic Fabricator is used to craft electron tubes and stained glass. It requires Redstone Flux (RF) energy to run. It is your first machine which is made in the Carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46156,7 +46156,7 @@
     {
       "questID": 581,
       "name": "Tubes",
-      "description": "Before you can craft your first Farm Block you need Apatite Tubes. Make some Apatide long Rods first (Lathe and or Extruder). You need Golden Bolts and a plate of Redalloy.\nPut Glass into your Fabricator and make your first Tubes.",
+      "description": "Before you can craft your first Farm Block you need Apatite Tubes. Make some Apatite long Rods first (Lathe or Extruder). You need Golden Bolts and a plate of Redalloy.\nPut Glass into your Thermionic Fabricator and make your first Tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46279,7 +46279,7 @@
     {
       "questID": 582,
       "name": "Your first Multiblock Farm",
-      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
+      "description": "The smallest Farm you can build requires 36 Farm Blocks. For Water input you need a Valve, Items go through the Hatches and to supply the Farm with Energy you need a Gearbox. With the Farm Control Block you can control which fields of your farm works by applying redstone signal. Remember to put creosote in the Carpenter when crafting the Farm Blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46402,7 +46402,7 @@
     {
       "questID": 583,
       "name": "Farm logic",
-      "description": "This Chip is optional and more advanced. The farm working without a chip too. If you want to configure your Farm you need one of this chips.",
+      "description": "This Chip is optional and more advanced. The farms are working without them too. If you want to configure your farm you need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46536,7 +46536,7 @@
     {
       "questID": 584,
       "name": "Change your farm circuit configuration",
-      "description": "The Soldering Iron is a tool used for attaching Electron Tubes to Circuit Boards in order to manipulate how an Electrical Engine works or to program MultiFarms. As well as upgrading the Squeezer or Centrifuge.\nOnce Electron Tubes have been attached to Circuit Boards they cannot be removed, only replaced. The Circuit Boards are automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to place your Electron Tubes and then the Circuit Boards.\n\nThe Soldering Iron can also be used to remove Circuit Boards from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking the Soldering Iron on to the circuit board slot.",
+      "description": "The (forestry) Soldering Iron is a tool used for attaching Electron Tubes to Circuit Boards in order to manipulate how an Electrical Engine works or to program MultiFarms. As well as upgrading the Squeezer or Centrifuge.\nOnce Electron Tubes have been attached to Circuit Boards they cannot be removed, only replaced. The Circuit Boards are automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to place your Electron Tubes and then the Circuit Boards.\n\nThe Soldering Iron can also be used to remove Circuit Boards from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking the Soldering Iron on the circuit board slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46658,7 +46658,7 @@
     {
       "questID": 585,
       "name": "Heating Coils",
-      "description": "Your Thermionic Fabricator need heating coils to functions. So combining some magnetized (need Polarizer for it) Steel rods with some Copper Wire and make some.",
+      "description": "Your Thermionic Fabricator needs heating coils to function. So combine some magnetized (requires Polarizer) Steel rods with some Copper Wire and make some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46763,7 +46763,7 @@
     {
       "questID": 586,
       "name": "Welcome to Forestry",
-      "description": "Want to make some automated Farms or working with Bees and Trees breeding? Then this is the right chapter for you.",
+      "description": "Want to make some automated Farms or working with Bee and Tree breeding? Then this is the right chapter for you.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -46849,7 +46849,7 @@
     {
       "questID": 587,
       "name": "Magnetize your steel rods",
-      "description": "Magnetic Steel rods need a magnetizer too craft. Make a few for your coils in the next step.",
+      "description": "Magnetic Steel rods need a polariser to craft. Make a few for your coils in the next step.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46943,7 +46943,7 @@
     {
       "questID": 588,
       "name": "Finding Apatite",
-      "description": "If you not finding a Apatide vain allready ist now time to search fore some. Apatite ist the most basic used material in Forestry. You can make Fertilizer with it, Farmblocks and many other things. The Vein is found between  Y 40-60.",
+      "description": "It is now time to search for some. Apatite is the most basic material in Forestry. You can make Fertilizer, Farmblocks and many other things. The Vein is found between Y 40-60.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47038,7 +47038,7 @@
     {
       "questID": 589,
       "name": "Multiblock Farm Hatch",
-      "description": "Farm Hatch (Pipe Connectivity)\n\nYou can supply and extract items from the Farm by using Farm Hatches that are connected to Pipe systems. \n\nSupplying Items\nThe Farm Hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the Hatch will simply reject it.\n\nExtracting Items\nAny item that is harvested by the MultiFarm is automatically ejected by the Farm Hatches into inventories or Buildcraft Transport Pipes directly below them. Pipes can be used to extract from other sides.",
+      "description": "Farm Hatch (Pipe Connectivity)\n\nYou can supply and extract items from the Farm by using Farm Hatches that are connected to Pipe systems. \n\nSupplying Items\nThe Farm Hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the Hatch will simply reject it.\n\nExtracting Items\nAny item that is harvested by the MultiFarm is automatically ejected by the Farm Hatches into inventories or pipes. Pipes can be used to extract from other sides.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47312,7 +47312,7 @@
     {
       "questID": 591,
       "name": "Multiblock Farm Control Block",
-      "description": "Farm Control\n\nYou can control which fields your farm works on by applying redstone signals to control blocks. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block",
+      "description": "Farm Control\n\nYou can control which fields of your farm works by applying redstone signals to control blocks. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47449,7 +47449,7 @@
     {
       "questID": 592,
       "name": "Multiblock Farm Gearbox",
-      "description": "Farm Gearbox (Power)\nTo power your Farm and have it automatically harvest crops, you will need at least one Farm Gearbox.\n\nFarm operations can be hasted with additional Gearboxes.\n\nEach Farm Gearbox requires Power RF and Eu work too.",
+      "description": "Farm Gearbox (Power)\nTo power your Farm and have it automatically harvest crops, you will need at least one Farm Gearbox.\n\nFarm operations can be hasted with additional Gearboxes.\n\nEach Farm Gearbox requires power both RF and Eu works.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
