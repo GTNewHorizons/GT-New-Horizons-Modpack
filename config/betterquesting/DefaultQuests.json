@@ -183,6 +183,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -617,6 +628,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -672,6 +694,17 @@
             {
               "id": "minecraft:flint",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -989,7 +1022,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
+              "id": "dreamcraft:item.CoinSurvivor",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -1592,6 +1625,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -1788,6 +1832,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -1871,6 +1926,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -2422,6 +2488,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -2500,6 +2577,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -2572,6 +2660,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -2787,6 +2886,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32233
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -3108,6 +3218,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -3734,6 +3855,17 @@
               "Count": 10,
               "OreDict": "",
               "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -33761,6 +33893,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -33934,6 +34077,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -34253,8 +34407,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -34382,8 +34536,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -34538,8 +34692,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -35649,6 +35803,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -35829,6 +35994,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -35917,6 +36093,17 @@
             {
               "id": "harvestcraft:butterItem",
               "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -36386,6 +36573,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 5,
@@ -37130,6 +37323,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -37335,6 +37539,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -37490,6 +37705,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -37683,6 +37909,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -38274,8 +38517,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 8,
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -38381,6 +38624,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -38751,6 +39000,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -38856,6 +39116,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizard",
               "Count": 5,
               "OreDict": "",
@@ -38952,6 +39218,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -48172,6 +48449,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -49073,6 +49361,148 @@
       ],
       "preRequisites": [
         603
+      ]
+    },
+    {
+      "questID": 608,
+      "name": "Lead Dust",
+      "description": "Next step for making Batteries is to collect some Lead. Lead and Galena Veins can be found in the Twilight Forest.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2089
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2089
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        598
+      ]
+    },
+    {
+      "questID": 609,
+      "name": "Antimony",
+      "description": "The most efficient way to get antimony for Batteries is to centrifuge Stibnite Dust, the second efficient way is to using Tetrahedrite Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2058
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2058
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        608
       ]
     },
     {
@@ -53850,6 +54280,16 @@
           "id": 599,
           "x": 240,
           "y": 204
+        },
+        {
+          "id": 608,
+          "x": 372,
+          "y": 360
+        },
+        {
+          "id": 609,
+          "x": 408,
+          "y": 360
         }
       ]
     },
