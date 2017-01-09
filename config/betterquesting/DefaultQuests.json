@@ -46312,25 +46312,25 @@
           "requiredItems": [
             {
               "id": "minecraft:stonebrick",
-              "Count": 32,
+              "Count": 9,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "IC2:itemCasing",
-              "Count": 32,
+              "Count": 36,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 36,
               "OreDict": "",
               "Damage": 27305
             },
             {
               "id": "Forestry:thermionicTubes",
-              "Count": 8,
+              "Count": 9,
               "OreDict": "",
               "Damage": 10
             }
@@ -46361,13 +46361,13 @@
           "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 9,
               "OreDict": "",
               "Damage": 11305
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 9,
               "OreDict": "",
               "Damage": 11035
             }
@@ -46376,6 +46376,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinForestry",
               "Count": 20,
@@ -47010,10 +47016,521 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
         580
+      ]
+    },
+    {
+      "questID": 589,
+      "name": "Multiblock Farm Hatch",
+      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:ffarm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3,
+        "tag": {
+          "FarmBlock:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stonebrick",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11035
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        582
+      ]
+    },
+    {
+      "questID": 590,
+      "name": "Multiblock Farm Valve",
+      "description": "Farm Valve (Hydration)\n\nSome farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using Farm Valves.\n\nBy connecting Fluid Pipes into the Farm Valve and supplying Water, you can automatically fill the Farm\u0027s Water Tank.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:ffarm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4,
+        "tag": {
+          "FarmBlock:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32610
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28880
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        582
+      ]
+    },
+    {
+      "questID": 591,
+      "name": "Multiblock Farm Control Block",
+      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:ffarm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5,
+        "tag": {
+          "FarmBlock:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stonebrick",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11035
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        582
+      ]
+    },
+    {
+      "questID": 592,
+      "name": "Multiblock Farm Gearbox",
+      "description": "Farm Gearbox (Power)\nTo power your Farm and have it automatically harvest crops, you will need at least one Farm Gearbox.\n\nFarm operations can be hasted with additional Gearboxes.\n\nEach Farm Gearbox requires Power RF and Eu work too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:ffarm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2,
+        "tag": {
+          "FarmBlock:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 31305
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:ffarm",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        582
       ]
     },
     {
@@ -53041,58 +53558,78 @@
         },
         {
           "id": 578,
-          "x": 192,
+          "x": 300,
           "y": 96
         },
         {
           "id": 579,
-          "x": 192,
-          "y": 216
+          "x": 300,
+          "y": 336
         },
         {
           "id": 580,
           "x": 0,
-          "y": 216
+          "y": 336
         },
         {
           "id": 581,
           "x": 24,
-          "y": 180
+          "y": 300
         },
         {
           "id": 582,
-          "x": 24,
-          "y": 132
+          "x": 60,
+          "y": 168
         },
         {
           "id": 583,
-          "x": 96,
-          "y": 132
+          "x": 60,
+          "y": 264
         },
         {
           "id": 584,
-          "x": 144,
-          "y": 132
+          "x": 96,
+          "y": 264
         },
         {
           "id": 585,
           "x": 96,
-          "y": 216
+          "y": 336
         },
         {
           "id": 96,
           "x": 192,
-          "y": 264
+          "y": 336
         },
         {
           "id": 587,
           "x": 96,
-          "y": 264
+          "y": 300
         },
         {
           "id": 588,
-          "x": 96,
-          "y": 180
+          "x": 60,
+          "y": 300
+        },
+        {
+          "id": 589,
+          "x": 24,
+          "y": 120
+        },
+        {
+          "id": 590,
+          "x": 24,
+          "y": 168
+        },
+        {
+          "id": 591,
+          "x": 60,
+          "y": 120
+        },
+        {
+          "id": 592,
+          "x": 24,
+          "y": 204
         }
       ]
     },
