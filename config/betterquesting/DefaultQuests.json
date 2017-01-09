@@ -47036,7 +47036,7 @@
     {
       "questID": 589,
       "name": "Multiblock Farm Hatch",
-      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
+      "description": "Farm Hatch (Pipe Connectivity)\n\nYou can supply and extract items from the Farm by using Farm Hatches that are connected to Pipe systems. \n\nSupplying Items\nThe Farm Hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the Hatch will simply reject it.\n\nExtracting Items\nAny item that is harvested by the MultiFarm is automatically ejected by the Farm Hatches into inventories or Buildcraft Transport Pipes directly below them. Pipes can be used to extract from other sides.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47070,28 +47070,37 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stonebrick",
-              "Count": 32,
+              "id": "Forestry:ffarm",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "IC2:itemCasing",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 27305
+              "Damage": 32630
+            },
+            {
+              "id": "minecraft:hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31305
             },
             {
               "id": "Forestry:thermionicTubes",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 10
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -47104,9 +47113,9 @@
           "requiredItems": [
             {
               "id": "Forestry:ffarm",
-              "Count": 32,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 0,
+              "Damage": 3,
               "tag": {
                 "FarmBlock:4": 0
               }
@@ -47117,27 +47126,39 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 11035
+              "Damage": 10
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinForestry",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -47289,7 +47310,7 @@
     {
       "questID": 591,
       "name": "Multiblock Farm Control Block",
-      "description": "The smalles Farm you can build need 36 Farm Blocks. For Water you need a Valve, Items in and output goes through the Hatches and for supplies the Farm with Energy you need a Gearbox.  With the Farm Control Block you can control which fields your farm works on by applying redstone signal. Not forget to put creosote in the Carpenter when crafting the Farm Blocks.",
+      "description": "Farm Control\n\nYou can control which fields your farm works on by applying redstone signals to control blocks. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47323,28 +47344,37 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stonebrick",
-              "Count": 32,
+              "id": "Forestry:ffarm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FarmBlock:4": 0
+              }
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "IC2:itemCasing",
-              "Count": 32,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1246
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 27305
+              "Damage": 31305
             },
             {
               "id": "Forestry:thermionicTubes",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 10
+              "Damage": 9
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -47357,9 +47387,9 @@
           "requiredItems": [
             {
               "id": "Forestry:ffarm",
-              "Count": 32,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 0,
+              "Damage": 5,
               "tag": {
                 "FarmBlock:4": 0
               }
@@ -47370,27 +47400,39 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 10
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 11035
+              "Damage": 1
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinForestry",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
