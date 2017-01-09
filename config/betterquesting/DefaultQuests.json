@@ -6642,7 +6642,7 @@
     {
       "questID": 76,
       "name": "Time to get some steel",
-      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n\n(Hint: Bronze Blast Furnace can share Walls if you build more than one. You can save a lot of Materials building four of them. Be warnend this outputs a lot of Pollution)",
+      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n(Hint: Bronze Blast Furnace can share Walls with other ones, just like most GT multi blocks. How will this affect the air quality though...)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8893,8 +8893,8 @@
     },
     {
       "questID": 101,
-      "name": "Electric forge hammer",
-      "description": "Not really required, but it is a lot faster than the steam one and. If yand it can be automated. If you feeling Ore washing is too slow use the Hammer. There are no recipes that require more than steam level to hammer something.",
+      "name": "Mjolnir!!! (Electric forge hammer)",
+      "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -39084,8 +39084,8 @@
     },
     {
       "questID": 498,
-      "name": "XP usage",
-      "description": "Exploring some Dungeons or be outside in the night fighting some mobs give you a lot of XP. Better using it to get iron, copper, tin and other useful dusts before you died during the next fight.\nPlace your Tank on the Ground and ontop the Drain. Now you can fill it with XP. ",
+      "name": "XP usage?!",
+      "description": "Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin or other useful dusts before you die during the next fight.\nPlace your Tank on the Ground and a drain on top. Now you can fill it with XP.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -39163,8 +39163,8 @@
     },
     {
       "questID": 499,
-      "name": "Diesel-Creosote Gen",
-      "description": "You almost made it. One last crafting step is required in order to advance to Tier 2. Keep going!",
+      "name": "Diesel, Creosote: watch them BURN!",
+      "description": "You have almost made it. One last crafting step is required in order to advance to Tier 2. Keep going!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -41378,7 +41378,7 @@
     {
       "questID": 529,
       "name": "You gonna hate this #5",
-      "description": "The fifth item you\u0027ll need a lot of. For the Microwave, the Scanner, Precision Laser etc.",
+      "description": "The fifth item you\u0027ll need a lot of. For the Microwave, the Scanner, Precision Laser Engraver, etc.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -41527,8 +41527,8 @@
     },
     {
       "questID": 531,
-      "name": "Scanning Bees, Crops",
-      "description": "Automate your Bee or Crop scanning. Later one this machine gets very useful  scanning high level Machine parts for the Assembly machine or make Data orbs for the UU Matter productions.",
+      "name": "Scanning Bees, Crops and Moooooore!",
+      "description": "Automate your Bee or Crop scanning. Later on this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU Matter production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41597,8 +41597,8 @@
     },
     {
       "questID": 532,
-      "name": "Diesel, Oil or maybe Creosote fuel",
-      "description": "You probably collecting a tone of Creosote now and maybe you have build your first Eclectic Blast Furnace. Looking for some Fuel source to feed it Creosote will be a good fuel for the moment. So try to build a few of the Diesel Gens and using it beside Steam as a secondary power source.",
+      "name": "Diesel, Oil or maybe Creosote?",
+      "description": "You probably collected a ton of Creosote and maybe even have built your first \u0027Eclectic\u0027 Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the Diesel generators and use them besides Steam as a secondary power source.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41696,8 +41696,8 @@
     },
     {
       "questID": 533,
-      "name": "Hydrogen, Methane or some Natural Gas",
-      "description": "Some centrifuge processes leaving some Gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused Food in a Centrifuge to get Methane Gas.",
+      "name": "Hydrogen, Methane or some Farts... (Natural Gas) ",
+      "description": "Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused Food in a Centrifuge to get Methane Gas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41796,7 +41796,7 @@
     {
       "questID": 534,
       "name": "Pollution what....?",
-      "description": "If you running your Bronze Blast furnace for a long time you sometimes you get headaches, nausea and other wired Effects. Yes this is Pollution from making so much Steel. If you can collect some Rubber Sheets you get some Hazmat Suit for free.",
+      "description": "If you are running your bronze blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is Pollution... from making so much steel. If you can collect some Rubber Sheets, you can get a Hazmat Suit for free.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41828,7 +41828,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 26,
+              "Count": 64,
               "OreDict": "",
               "Damage": 17880
             }
@@ -41874,8 +41874,8 @@
     },
     {
       "questID": 535,
-      "name": "Redstone early Game processing",
-      "description": "You wondering how to process Redstone without any Macerator. Well you can mine it with a Gregtech Hammer and get the Crushed Ore. Then Using the Hammer in the Crafting Table to get Some Impure Redstone Dust. After this filling the Cauldron with Water and drop the whole Stack in. You get pure Redstone Dust for your Redalloy Ingots.",
+      "name": "Redstone, early Game processing",
+      "description": "Are you wondering how to process Redstone without any Macerator? Well you can mine it with a Gregtech Hammer and get the Crushed Ore. Then Use with the Hammer in the Crafting Table to get Some Impure Redstone Dust. After this fill the Cauldron with Water and drop some dust in. You will get pure Redstone Dust for your Redalloy Ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42007,7 +42007,7 @@
     {
       "questID": 536,
       "name": "Low Tier Wires",
-      "description": "Low Tier Wires like Red Alloy and Tin can be made in a crafting Table. Copper Wire needs a Alloy Smelter for it. So let\u0027s make some Mold for the Rubber Plates.",
+      "description": "Low Tier Wires like Redalloy and Tin can be made in a crafting Table. Copper Wire needs an Alloy Smelter for it. So let\u0027s make a Mold for the Rubber Plates.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42125,7 +42125,7 @@
     {
       "questID": 537,
       "name": "Time to kill (Witch)",
-      "description": "Witches are always Infernal and very dangerous. Be careful they throw always Potion at you.",
+      "description": "Witches are always Infernal and very dangerous. Be careful since they throw potions at you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42328,7 +42328,7 @@
     {
       "questID": 538,
       "name": "Basic Ore washer",
-      "description": "Macerating the Ores double the output. If you want more crafting Some Ore washer and washing out some rare materials.",
+      "description": "Macerating ores usually doubles the output. If you want MOOOOOOORE, craft an ore washer and wash out some rare materials.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -42397,7 +42397,7 @@
     {
       "questID": 539,
       "name": "Round and round and round...",
-      "description": "After purified your ore dust  you can centrifuge it to get even more byproducts out of the Dust.",
+      "description": "After purification of your ore dust, you can centrifuge it to get even more byproducts out of the Dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -42465,8 +42465,8 @@
     },
     {
       "questID": 540,
-      "name": "A very sharp Saw Blade",
-      "description": "Combining Cobalt brass with Diamond dust make a very sharp Saw Blade for your Cutting machine.",
+      "name": "A truly sharp Saw Blade",
+      "description": "Combination Cobalt brass and Diamond dust makes a really sharp Saw Blade for your Cutting machine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -42563,7 +42563,7 @@
     {
       "questID": 541,
       "name": "A new Alloy",
-      "description": "If you want to cutting Diamond Blocks into plates it\u0027s time for a new Alloy \"Cobalt Brass\".\nFirst you need to make Brass out of Zinc (only in small Ores or as Centrifuge By Product from Tin or Tetrahedrite available) and Copper, mix it with Aluminum and Cobalt Dust(can be get by centrifuge various materials)to get your new alloy.",
+      "description": "If you want to cut Diamond Blocks into plates it\u0027s time to get a new Alloy \u0027Cobalt Brass\u0027.\nFirst you need to make Brass out of Zinc (found only in small Ores or as centrifuge byproduct from Tin or Tetrahedrite) and Copper, mix it with Aluminum and Cobalt Dust (can be centrifuged from various materials) to get your new alloy.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -42692,8 +42692,8 @@
     },
     {
       "questID": 542,
-      "name": "Water and Electricity",
-      "description": "Using the power of Water and Electricity to get even more out of your Dust.",
+      "name": "Water and Electricity, sounds fun and safe right?",
+      "description": "Using the power of water and electricity you can get even more out of your Dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42761,7 +42761,7 @@
     },
     {
       "questID": 543,
-      "name": "C9H8O4.....NaCl.......H2O...",
+      "name": "C9H8O4...NaCl...H2O...",
       "description": "Want to make some Nitro-Diesel, Plastic or some Chemical Dye? Then it\u0027s time to craft a chemical reactor.",
       "isMain": false,
       "isSilent": false,
@@ -42830,8 +42830,8 @@
     },
     {
       "questID": 544,
-      "name": "Electric compressor",
-      "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to compressing something is a lot better when using EU.",
+      "name": "Compact? Or is it?",
+      "description": "It is a compressor but that doesn\u0027t mean it is compact... \nIt is highly recommended to get one of these electric compressors, as the efficiency in terms of coal/steam used to compress something is a lot better when using EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42899,8 +42899,8 @@
     },
     {
       "questID": 545,
-      "name": "Electric extractor",
-      "description": "It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
+      "name": "Suction device... nice",
+      "description": "I hope are not thinking about what I am thinking you are thinking about... \nIt is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42969,8 +42969,8 @@
     },
     {
       "questID": 546,
-      "name": "Black Gold",
-      "description": "When you traveled around you may seen this huge Oil Wells everywhere. Now it\u0027s time to go make some pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined to Diesel or Nitro Fuel. \n\nTake some Diesel Generator with you to power the Pump.",
+      "name": "Hello Baron, how is your Black Gold today?",
+      "description": "When you travelled around you may have seen this huge Oil Wells everywhere. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined. \n\nTake some Diesel Generator with you to power the Pump. (Thanks to the advancement of technology the pipe machine can auto output on top.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -43059,8 +43059,8 @@
     },
     {
       "questID": 547,
-      "name": "Refined your Oil",
-      "description": "Burning Oil in the Diesel Generator is very ineffective way to get power. Every Bucket/cell of Oil gives you 16000 EU. Why you no try to refined your oil in some better Fuel?",
+      "name": "Your oil is too Crude? Refine it!",
+      "description": "Burning Oil in the Diesel Generator is a very ineffective way of getting power. Every Bucket/cell of Oil gives you 16000 EU. Try refining it...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43135,8 +43135,8 @@
     },
     {
       "questID": 548,
-      "name": "Sulfuric Light Fuel",
-      "description": "First step is to distillate your Oil into sulfuric light fuel with a burn value of 32000 EU.",
+      "name": "Light Sulfuric Fuel",
+      "description": "First step is to distillate your Oil into light sulfuric fuel with a burn value of 32000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43219,7 +43219,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "With the chemical reactor and Hydrogen  you can produce some light Fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cell you can used later to produce some Sulfuric Acid for your TNT/iTNT production.",
+      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43309,8 +43309,8 @@
     },
     {
       "questID": 550,
-      "name": "H like Hydrogen",
-      "description": "Try to centrifuge some brown or yellow limonite dust to get some Hydrogen.",
+      "name": "H like Hydrogen... rest of the alphabet is too complicated...",
+      "description": "Centrifuge some brown or yellow limonite dust to get some Hydrogen.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43392,8 +43392,8 @@
     },
     {
       "questID": 551,
-      "name": "Sulfuric Heavy Fuel",
-      "description": "The second step is to distillate some sulfuric heavy fuel out of the Oil with a burn value of 32000 EU.",
+      "name": "Heavy Sulfuric Fuel",
+      "description": "Second step is to distillate your Oil into heavy sulfuric fuel with a burn value of 32000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43482,7 +43482,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide Cells you can save for your later crafting of Sulfuric Acid for TNT/iTNT production,",
+      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43573,7 +43573,7 @@
     {
       "questID": 553,
       "name": "Diesel Fuel",
-      "description": "Mixing your light and heavy Fuel together get you some Diesel.\nIt burns very well in Diesel Generator with an burn value of 320000 EU.",
+      "description": "Mixing your light and heavy Fuel together gives you some Diesel.\nIt burns very well in the Diesel Generator with an burn value of 320000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43649,8 +43649,8 @@
     },
     {
       "questID": 554,
-      "name": "Mix it!",
-      "description": "The mixer is a very useful device. You can mixing all kind of fluid and items.",
+      "name": "Hey DJ, Mix it!",
+      "description": "The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling on ground when crafting.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43719,8 +43719,8 @@
     },
     {
       "questID": 555,
-      "name": "N like Nitrogen",
-      "description": "You can get some Nitrogen centrifuge some Air. This process take a long time especially at LV Tier.",
+      "name": "N like Nitrogen... Hide, alphabet strikes again!",
+      "description": "You can get some Nitrogen from centrifugal of air. This process take a long time especially at LV Tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43803,7 +43803,7 @@
     {
       "questID": 556,
       "name": "Glyceryl Trini...... what?",
-      "description": "Making some Glyceryl Trinitrate with some Nitrogen, Coal Dust and Water.",
+      "description": "Kids today we will make some Glyceryl Trinitrate with some Nitrogen, Coal Dust and Water.\n    -Regular chemistry lesson.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43901,8 +43901,8 @@
     },
     {
       "questID": 557,
-      "name": "NITRO Fuel",
-      "description": "576000 EU per Cell this is very Good. Make some Nitro Diesel and power your Diesel Engine with it.",
+      "name": "NITRO!",
+      "description": "576000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your Diesel Engine with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43983,8 +43983,8 @@
     },
     {
       "questID": 558,
-      "name": "Where I can put all the Items in ?",
-      "description": "After you make you first steel you are able to craft the small Backpack. In this Bag you can put all your stuff with no limitation like the Forestry Backpacks. With 36 Slots it is a big bigger then a small chest.",
+      "name": "Where can I put all the Items in?",
+      "description": "After you make you first steel you are able to craft the small Backpack. In this Bag you can put all your stuff with no real limitation. With 36 Slots it is a big bigger then a small chest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44181,7 +44181,7 @@
     {
       "questID": 559,
       "name": "Low Pressure Boiler Tank",
-      "description": "The low Pressure Boiler Tank is the easiest way to store Steam. The Firebox need this tank on top to producing steam. The bigger the Boiler the slower it heats up.",
+      "description": "The low Pressure Boiler Tank is the easiest way to store Steam. The Firebox need this tank on top to produce steam. The bigger the Boiler the slower it heats up but will make more steam if heated up.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44289,7 +44289,7 @@
     {
       "questID": 560,
       "name": "Railcraft Steam Power",
-      "description": "As an alternative way to make steam you can using the Railcraft Solid Firebox to get steam. This Firebox need one Tank on top.\nBuilding more than one is possible: 2x2 and 3x3. Each Boiler need 1/2 or 3 Tanks on top.",
+      "description": "As an alternative way to steam you can use the Railcraft Boilers. They require at least one Firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each Boiler needs 1, 2 or 3 layers Tanks on top depending on size.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44402,8 +44402,8 @@
     },
     {
       "questID": 561,
-      "name": "Liquid fueled Firebox",
-      "description": "Why not making creosote to steam. After you make your first Steel you are able to craft a Liquid fueled Firebox.\nDiesel Fuel, Ethanol, Creosote and Bio Fuel works well here.",
+      "name": "Liquid fuelled Firebox",
+      "description": "Cresosote oil into steam! After you make your first Steel you are able to craft a Liquid fueled Firebox.\nDiesel Fuel, Ethanol, Creosote and Bio Fuel all work well here.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44534,7 +44534,7 @@
     {
       "questID": 562,
       "name": "High pressure Boiler Tank",
-      "description": "After you make Steel you are able to craft a high boiler pressure Tank. The upgraded version increasing the Temperature and produce more steam then the lower Boiler version.",
+      "description": "After you make Steel you are able to craft a high pressure Tank. The upgraded version increase the Temperature and produce more steam then the lower version.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44646,8 +44646,8 @@
     },
     {
       "questID": 563,
-      "name": "Bookshelfs......? Ah Forestry....Multiblock Farms!",
-      "description": "The Bookshelf can be only make with an Assembler. Maybe someone think this is crazy......",
+      "name": "Bookshelves...? Ah Forestry... Multiblock Farms!",
+      "description": "The Bookshelf can be only make with an Assembler. Maybe someone thinks this is crazy...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -44953,8 +44953,8 @@
     },
     {
       "questID": 568,
-      "name": "Novize \u003e Adept",
-      "description": "Three Novize Lootbags give a better one \u003d Adept Lootbag.",
+      "name": "Novice \u003e Adept",
+      "description": "Three Novice Lootbags give a better one \u003d Adept Lootbag.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45191,8 +45191,8 @@
     },
     {
       "questID": 572,
-      "name": "BM Novize \u003e BM Adept",
-      "description": "Three BM Novize Lootbags give a better one \u003d BM Adept Lootbag.",
+      "name": "BM Novice \u003e BM Adept",
+      "description": "Three BM Novice Lootbags give a better one \u003d BM Adept Lootbag.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
