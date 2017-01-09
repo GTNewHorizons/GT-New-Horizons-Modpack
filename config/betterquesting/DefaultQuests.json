@@ -39295,7 +39295,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        493
+      ]
     },
     {
       "questID": 501,
@@ -48138,6 +48140,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -49676,7 +49689,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        225
+      ]
     },
     {
       "questID": 903,
