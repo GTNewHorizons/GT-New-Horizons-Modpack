@@ -49874,7 +49874,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -49964,8 +49964,7 @@
         }
       ],
       "preRequisites": [
-        621,
-        622
+        624
       ]
     },
     {
@@ -50075,8 +50074,8 @@
         }
       ],
       "preRequisites": [
-        623,
-        597
+        597,
+        624
       ]
     },
     {
@@ -50186,7 +50185,7 @@
         }
       ],
       "preRequisites": [
-        622
+        624
       ]
     },
     {
@@ -50945,6 +50944,77 @@
       ],
       "preRequisites": [
         609
+      ]
+    },
+    {
+      "questID": 624,
+      "name": "Basic Canner",
+      "description": "The Canning Machine being mainly used to fill Tin Cans with any kind of food, but it is useful as well by filling and emptying Tin Cells with other solid items than food, in form of dusts. It can also fill Batteries with Redstone, Cadmium, Lithium and Sodium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 231
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 231
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        622,
+        621,
+        623
       ]
     },
     {
@@ -55736,7 +55806,7 @@
         {
           "id": 612,
           "x": 564,
-          "y": 360
+          "y": 396
         },
         {
           "id": 613,
@@ -55746,7 +55816,7 @@
         {
           "id": 614,
           "x": 564,
-          "y": 480
+          "y": 360
         },
         {
           "id": 615,
@@ -55756,22 +55826,22 @@
         {
           "id": 611,
           "x": 564,
-          "y": 432
+          "y": 444
         },
         {
           "id": 616,
           "x": 492,
-          "y": 432
+          "y": 444
         },
         {
           "id": 617,
           "x": 528,
-          "y": 396
+          "y": 420
         },
         {
           "id": 618,
           "x": 492,
-          "y": 360
+          "y": 396
         },
         {
           "id": 619,
@@ -55796,7 +55866,12 @@
         {
           "id": 623,
           "x": 492,
-          "y": 480
+          "y": 360
+        },
+        {
+          "id": 624,
+          "x": 528,
+          "y": 324
         }
       ]
     },
