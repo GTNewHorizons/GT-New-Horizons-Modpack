@@ -46630,7 +46630,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47356,7 +47356,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47398,7 +47398,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47493,7 +47493,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47535,7 +47535,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47630,7 +47630,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47672,7 +47672,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47767,7 +47767,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -47803,7 +47803,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -49450,7 +49450,7 @@
     {
       "questID": 609,
       "name": "Battery Alloy",
-      "description": "Mixing Antimony and Lead in the Alloy smelter give some battery alloy.\nCombinig it with some Tin Cable and voila there is your irs Batterie Hull",
+      "description": "Mixing Antimony and Lead in the Alloy smelter give some battery alloy.\nCombinig it with some Tin Cable and voila there ar your small Batterie Hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49656,7 +49656,7 @@
     {
       "questID": 611,
       "name": "Single Use Batterie : Mercury",
-      "description": "",
+      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49682,8 +49682,74 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32511,
+              "tag": {
+                "GT.ItemCharge:4": 32000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "mercury",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         616,
         617
@@ -49692,7 +49758,7 @@
     {
       "questID": 612,
       "name": "Single Use Batterie : Acid",
-      "description": "",
+      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49718,8 +49784,74 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32510,
+              "tag": {
+                "GT.ItemCharge:4": 18000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "sulfuricacid",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         618,
         617
@@ -49728,7 +49860,7 @@
     {
       "questID": 613,
       "name": "Battery reuse able : Sodium",
-      "description": "",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49754,8 +49886,83 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32519
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32519,
+              "tag": {
+                "GT.ItemCharge:4": 50000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2017
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         609
       ]
@@ -49763,7 +49970,7 @@
     {
       "questID": 614,
       "name": "Battery reuse able : Cadmium",
-      "description": "",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49789,8 +49996,83 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32517
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32517,
+              "tag": {
+                "GT.ItemCharge:4": 75000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2055
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         609
       ]
@@ -49798,7 +50080,7 @@
     {
       "questID": 615,
       "name": "Battery reuse able : Lithium",
-      "description": "",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49824,8 +50106,83 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518,
+              "tag": {
+                "GT.ItemCharge:4": 100000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2006
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2315
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         609
       ]
@@ -49922,7 +50279,7 @@
     {
       "questID": 617,
       "name": "Fluid Canner",
-      "description": "",
+      "description": "The Fluid Canner is a fundamental machine, since it is necessary to move fluids, as well as fill tin Cells, Glass Bottles, Buckets, and even Mercury and Acid Batteries.\n\nAnother interesting thing about the Fluid Canner is that it can be transformed into a raintank, by attaching a Drain cover on its top.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50076,6 +50433,79 @@
       ],
       "preRequisites": [
         609
+      ]
+    },
+    {
+      "questID": 619,
+      "name": "Battery Buffer",
+      "description": "Batterys can be placed directly in machines. To reload the Battery you need a Battery Buffer. It comes with different slots 1, 4, 9 and 16.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 161
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 161
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        611,
+        612,
+        613,
+        614,
+        615
       ]
     },
     {
@@ -54867,7 +55297,7 @@
         {
           "id": 612,
           "x": 504,
-          "y": 240
+          "y": 288
         },
         {
           "id": 613,
@@ -54886,23 +55316,28 @@
         },
         {
           "id": 611,
-          "x": 468,
-          "y": 204
+          "x": 504,
+          "y": 324
         },
         {
           "id": 616,
-          "x": 420,
-          "y": 288
+          "x": 468,
+          "y": 324
         },
         {
           "id": 617,
           "x": 468,
-          "y": 240
+          "y": 288
         },
         {
           "id": 618,
           "x": 468,
-          "y": 288
+          "y": 252
+        },
+        {
+          "id": 619,
+          "x": 552,
+          "y": 360
         }
       ]
     },
