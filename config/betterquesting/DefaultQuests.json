@@ -49964,7 +49964,8 @@
         }
       ],
       "preRequisites": [
-        621
+        621,
+        622
       ]
     },
     {
@@ -50074,8 +50075,8 @@
         }
       ],
       "preRequisites": [
-        609,
-        622
+        623,
+        597
       ]
     },
     {
@@ -50191,7 +50192,7 @@
     {
       "questID": 616,
       "name": "Mercury",
-      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinebar Ore inthe Redstone Vein you can using this too.",
+      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinebar Ore in the Redstone Vein you can using this too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50274,7 +50275,8 @@
         }
       ],
       "preRequisites": [
-        609
+        609,
+        494
       ]
     },
     {
@@ -50814,6 +50816,134 @@
       ],
       "preRequisites": [
         542,
+        609
+      ]
+    },
+    {
+      "questID": 623,
+      "name": "A big Meteorit",
+      "description": "The best way to get Rare Earth is to find a Ae2 Meteorit and macerate them down. The dust can be centrifuges in warious byproducts like cadmium, neodymium, ceasium, lanthan and many more.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyCompass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockSkyStone",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 45
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2891
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2055
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:beetburgerItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:calamaricookedItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
         609
       ]
     },
@@ -55601,67 +55731,72 @@
         {
           "id": 609,
           "x": 384,
-          "y": 384
+          "y": 360
         },
         {
           "id": 612,
-          "x": 528,
-          "y": 384
+          "x": 564,
+          "y": 360
         },
         {
           "id": 613,
-          "x": 528,
-          "y": 480
+          "x": 564,
+          "y": 324
         },
         {
           "id": 614,
-          "x": 528,
-          "y": 336
+          "x": 564,
+          "y": 480
         },
         {
           "id": 615,
-          "x": 528,
+          "x": 564,
           "y": 288
         },
         {
           "id": 611,
-          "x": 528,
+          "x": 564,
           "y": 432
         },
         {
           "id": 616,
-          "x": 456,
+          "x": 492,
           "y": 432
         },
         {
           "id": 617,
-          "x": 492,
-          "y": 408
+          "x": 528,
+          "y": 396
         },
         {
           "id": 618,
-          "x": 456,
-          "y": 384
+          "x": 492,
+          "y": 360
         },
         {
           "id": 619,
-          "x": 576,
-          "y": 384
+          "x": 636,
+          "y": 396
         },
         {
           "id": 620,
           "x": 384,
-          "y": 432
+          "y": 396
         },
         {
           "id": 621,
-          "x": 456,
-          "y": 480
+          "x": 492,
+          "y": 324
         },
         {
           "id": 622,
-          "x": 456,
+          "x": 492,
           "y": 288
+        },
+        {
+          "id": 623,
+          "x": 492,
+          "y": 480
         }
       ]
     },
