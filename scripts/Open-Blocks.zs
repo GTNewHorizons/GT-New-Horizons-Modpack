@@ -408,7 +408,7 @@ recipes.addShaped(<OpenBlocks:sonicglasses>, [
 
 
 // --- Rope Ladder
-Assembler.addRecipe(<OpenBlocks:ropeladder>, <minecraft:string> * 16, <gregtech:gt.metaitem.02:22809> * 16, 400, 8);
+Assembler.addRecipe(<OpenBlocks:ropeladder> * 64, <minecraft:string> * 64, <gregtech:gt.metaitem.02:22809> * 64, 600, 8);
 
 // --- Jaded Ladder
 Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder>, 200, 30);
