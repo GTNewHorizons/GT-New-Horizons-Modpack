@@ -14,6 +14,15 @@
 	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
 	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
 	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic"/>
+	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Not try to wear it, you can't"/>
 	
 //Buildcraft
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
