@@ -24307,7 +24307,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?",
+      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?\n\n§cFire spread is disabled via config on Servers because of massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42086,7 +42086,7 @@
       "questID": 534,
       "name": "Pollution what....?",
       "description": "If you are running your bronze blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is Pollution... from making so much steel. If you can collect some Rubber Sheets, you can get a Hazmat Suit for free.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
