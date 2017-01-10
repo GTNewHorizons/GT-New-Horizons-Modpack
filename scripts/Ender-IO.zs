@@ -425,7 +425,7 @@ recipes.addShaped(<EnderIO:blockCombustionGenerator>, [
 recipes.addShaped(<EnderIO:blockZombieGenerator>, [
 [SteelCasing, GCircuit, SteelCasing],
 [FQuartz, MCasing, FQuartz],
-[LvMotor, ZElectrode, LvMotor]]);
+[MvMotor, ZElectrode, MvMotor]]);
 
 // --- Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel>, [
@@ -503,7 +503,7 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 recipes.addShaped(<EnderIO:blockFarmStation>, [
 [PCrystal, <IC2:itemToolHoe:*>, PCrystal],
 [GCircuit, MCasing, GCircuit],
-[LvMotor, ZLogic, LvMotor]]);
+[MvMotor, ZLogic, MvMotor]]);
 
 // --- Wireless Charger
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [
