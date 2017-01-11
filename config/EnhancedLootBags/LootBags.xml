@@ -957,4 +957,7 @@
         <Loot Identifier="c430cac3-726a-4185-bb97-b4e1106c4ce4" ItemName="gendustry:LiquidDNABucket" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c2907ee6-2d8c-4ad8-829a-49ee93b6fa45" ItemName="gendustry:ProteinBucket" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+	    <LootGroup GroupMetaID="28" GroupName="Food Basic" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="true">
+        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
