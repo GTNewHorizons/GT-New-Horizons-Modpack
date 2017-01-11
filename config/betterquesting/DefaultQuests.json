@@ -51018,6 +51018,236 @@
       ]
     },
     {
+      "questID": 625,
+      "name": "Packing your Chest and Barrels",
+      "description": "Packing your chests and barrels without get all the item out first? \nNo problem make a dolly and you can carry your full chests and barrels to every place you want. Ok you get slowness 2.\n\nHint : pack your dolly chest/barrel in a Backpack.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:mover",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32100
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 23032
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 1,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:mover",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "StorageDrawersBop:fullDrawers1",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 626,
+      "name": "Portable Mob spaners..? Cool",
+      "description": "Did you want to move the Spaners around and building some cool Mob Farms. No problem with the Diamond Dolly.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:moverDiamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 23500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17506
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:moverDiamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        98,
+        916,
+        102,
+        495
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -53313,7 +53543,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -53353,7 +53583,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -53364,7 +53594,18 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -55315,7 +55556,7 @@
         {
           "id": 62,
           "x": 96,
-          "y": 180
+          "y": 216
         },
         {
           "id": 63,
@@ -55466,6 +55707,11 @@
           "id": 597,
           "x": 324,
           "y": 144
+        },
+        {
+          "id": 625,
+          "x": 96,
+          "y": 180
         }
       ]
     },
@@ -55480,7 +55726,7 @@
         },
         {
           "id": 90,
-          "x": 384,
+          "x": 420,
           "y": 204
         },
         {
@@ -55530,13 +55776,13 @@
         },
         {
           "id": 101,
-          "x": 336,
-          "y": 240
+          "x": 240,
+          "y": 252
         },
         {
           "id": 102,
           "x": 288,
-          "y": 396
+          "y": 468
         },
         {
           "id": 103,
@@ -55691,7 +55937,7 @@
         {
           "id": 540,
           "x": 84,
-          "y": 396
+          "y": 468
         },
         {
           "id": 541,
@@ -55700,7 +55946,7 @@
         },
         {
           "id": 542,
-          "x": 336,
+          "x": 420,
           "y": 288
         },
         {
@@ -55785,7 +56031,7 @@
         },
         {
           "id": 598,
-          "x": 336,
+          "x": 384,
           "y": 360
         },
         {
@@ -55795,12 +56041,12 @@
         },
         {
           "id": 608,
-          "x": 336,
+          "x": 384,
           "y": 396
         },
         {
           "id": 609,
-          "x": 384,
+          "x": 420,
           "y": 360
         },
         {
@@ -55850,7 +56096,7 @@
         },
         {
           "id": 620,
-          "x": 384,
+          "x": 420,
           "y": 396
         },
         {
@@ -55872,6 +56118,11 @@
           "id": 624,
           "x": 528,
           "y": 324
+        },
+        {
+          "id": 626,
+          "x": 336,
+          "y": 468
         }
       ]
     },
