@@ -23,6 +23,8 @@ public abstract class ModFixBase implements IModFix
 
   public ModFixBase( String pModFixName )
   {
+    _mModFixName = pModFixName;
+      
     if( needsForgeEventBus() )
       MinecraftForge.EVENT_BUS.register( this );
     if( needsFMLEventBus() )

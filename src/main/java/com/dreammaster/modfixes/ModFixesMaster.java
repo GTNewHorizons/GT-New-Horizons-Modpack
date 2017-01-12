@@ -14,7 +14,7 @@ import com.dreammaster.main.MainRegistry;
 public class ModFixesMaster
 {
   private static boolean mEnabled = false;
-  private static HashMap<String, IModFix> mModFixes;
+  private static HashMap<String, IModFix> mModFixes = new HashMap<String, IModFix>();
 
   public static void registerModFix( IModFix pConstructedModFix )
   {
