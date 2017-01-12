@@ -18,6 +18,8 @@ import com.dreammaster.modbabychest.TileEntityBabyChest;
 import com.dreammaster.modctt.CustomToolTipsHandler;
 import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
+import com.dreammaster.modfixes.ModFixesMaster;
+import com.dreammaster.modfixes.avaritia.SkullFireSwordDropFix;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.network.CoreModDispatcher;
 import com.dreammaster.railcraftStones.NH_GeodePopulator;
@@ -291,8 +293,23 @@ public class MainRegistry
         GT_Loader_ItemPipes.registerPipes();
         GTCustomLoader = new GT_CustomLoader();
         GTCustomLoader.run();
+        
+        registerModFixes();
+        
+        // Register modfixes in registerModFixes()
+        // Don't call enableModFixes() yourself
+        // Don't register fixes after enableModFixes() has been executed
+        ModFixesMaster.enableModFixes();
     }
 
+    /**
+     * Register your mod-fixes here
+     */
+    private void registerModFixes()
+    {
+      ModFixesMaster.registerModFix( new SkullFireSwordDropFix() );
+    }
+    
     /**
      * Do some stuff once the server starts
      * 
