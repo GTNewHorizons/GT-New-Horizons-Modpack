@@ -210,10 +210,10 @@ Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.01:32712>, <Geneti
 
 
 // --- DNA Dey
-Mixer.addRecipe(<Genetics:misc:1>, null, [<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:4>, <minecraft:dye:5>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:1>, null, [<minecraft:redstone>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.02:32418>, <gregtech:gt.metaitem.02:32419>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Fluorescent Dey
-Mixer.addRecipe(<Genetics:misc:2>, null, [<minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:dye:14>, <minecraft:dye:11>], <liquid:molten.blaze> * 144, 100, 30);
+Mixer.addRecipe(<Genetics:misc:2>, null, [<minecraft:glowstone_dust>, <minecraft:redstone>, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Growth Medium
 Mixer.addRecipe(<Genetics:misc:4>, null, [<gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>], <liquid:water> * 1000, 100, 16);
