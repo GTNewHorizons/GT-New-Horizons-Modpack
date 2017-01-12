@@ -6,6 +6,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
@@ -31,7 +32,7 @@ public class SkullFireSwordDropFix extends ModFixBase
   public SkullFireSwordDropFix()
   {
     super( "AvaritiaSkullFireDropFix" );
-    mSkullFireSword = ItemDescriptor.fromString( "Avaritia:skullfire_sword", true );
+    mSkullFireSword = ItemDescriptor.fromString( "Avaritia:Skull_Sword",true );
   }
 
   /** 
