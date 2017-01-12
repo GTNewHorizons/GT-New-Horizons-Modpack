@@ -19259,6 +19259,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
@@ -19267,7 +19269,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -51144,8 +51146,8 @@
     },
     {
       "questID": 626,
-      "name": "Portable Mob spaners..? Cool",
-      "description": "Did you want to move the Spaners around and building some cool Mob Farms. No problem with the Diamond Dolly.",
+      "name": "Portable Mob spawners..? Cool",
+      "description": "Did you want to move the Spawners around and building some cool Mob Farms. No problem with the Diamond Dolly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51596,7 +51598,7 @@
     {
       "questID": 631,
       "name": "Animal trapping",
-      "description": "Tiered for hunting some Cows, Zombis or Sheeps? Well you can build a trap and hope some Animal or Monster will be catch inside.",
+      "description": "Tiered for hunting some Cows, Zombies or Sheeps? Well you can build a trap and hope some Animal or Monster drops will be catch inside.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51675,7 +51677,7 @@
     {
       "questID": 632,
       "name": "Fishermans Friend",
-      "description": "Are you ever try to catch a fish?? Now its time for crafting some fishing rod and get some fish. Throwing your fishing rod in some water and wait the rope is moving. Then get it back and hopfully ctach a fish.",
+      "description": "Are you ever try to catch a fish?? Now its time for crafting some fishing rod and get some fish. Throwing your fishing rod in some water and wait the rope is moving. Then get it back and hopefully catch a fish.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51789,7 +51791,7 @@
     {
       "questID": 633,
       "name": "Fish trapping",
-      "description": "Fishing can be very boaring. Why not atomate it with some fish trap?",
+      "description": "Fishing can be very boring. Why not automate it with some fish trap?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51869,8 +51871,8 @@
     },
     {
       "questID": 634,
-      "name": "Weath time",
-      "description": "It\u0027s time to plant some weath for make some Bread or preparing a wheat Bait for your animal trap.",
+      "name": "Wheat time",
+      "description": "It\u0027s time to plant some wheat for make some Bread or preparing a wheat Bait for your animal trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51947,7 +51949,7 @@
     {
       "questID": 635,
       "name": "Floury",
-      "description": "The first step to making bread is to macerate your Wheat to Flour with a Mortar or a macerator.\n\nFlour can be used in many food recipes for Pams Harvestcraft Food.",
+      "description": "The first step to making bread is to macerate your wheat to flour with a mortar or a macerator.\n\nFlour can be used in many food recipes for Pams Harvestcraft Food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52038,7 +52040,7 @@
     {
       "questID": 636,
       "name": "First handmade Bread",
-      "description": "Backe your dough in a furnace make some tasty bread.\nYour first Bread you not found in a Chest.",
+      "description": "Backs your dough in a furnace make some tasty bread.\nYour first Bread you not found in a Chest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52245,7 +52247,7 @@
     {
       "questID": 638,
       "name": "Tasty Toast",
-      "description": "Backe your bread again and you get some Toast!? Anyways it give you more nutritions poins thats what counts here.",
+      "description": "Backs your bread again and you get some Toast!? Anyways it give\u0027s you more nutrition points.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
