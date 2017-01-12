@@ -22600,7 +22600,7 @@
       "tasks": [
         {
           "target": "Thaumcraft.CultistCleric",
-          "required": 5,
+          "required": 2,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
@@ -22608,7 +22608,7 @@
         },
         {
           "target": "Thaumcraft.CultistKnight",
-          "required": 5,
+          "required": 2,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
