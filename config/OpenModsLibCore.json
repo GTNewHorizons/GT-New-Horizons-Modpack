@@ -29,6 +29,16 @@
       "When disabled: features may not work (either silently fail or cause crash)"
     ]
   },
+  "activate_player_damage_hook": {
+    "version": 0,
+    "value": "true",
+    "comment": [
+      "Purpose: hook for capturing damage to player (after armor and potion calculations)",
+      "Modified class: net.minecraft.entity.player.EntityPlayer",
+      "Known users: Last Stand enchantment",
+      "When disabled: Last Stand enchantment will not work"
+    ]
+  },
   "activate_movement_callback": {
     "version": 0,
     "value": "true",

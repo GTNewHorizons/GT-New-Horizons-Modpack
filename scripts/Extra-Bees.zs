@@ -111,7 +111,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500,
 // --- Hatchery
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
 [<Forestry:thermionicTubes:3>, <gregtech:gt.metaitem.01:17810>, <Forestry:thermionicTubes:3>, 
-<gregtech:gt.metaitem.01:32631>, <Forestry:apiculture:1>, <gregtech:gt.metaitem.01:32631>, 
+<gregtech:gt.metaitem.01:32631>, <Forestry:apiculture>, <gregtech:gt.metaitem.01:32631>, 
 <Forestry:thermionicTubes:3>, <gregtech:gt.metaitem.01:17810>, <Forestry:thermionicTubes:3>], 
 <Forestry:alveary>, <ExtraBees:alveary:5>);
 

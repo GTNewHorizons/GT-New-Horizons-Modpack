@@ -11856,7 +11856,4031 @@
   </recipe>
 <!-- End of red-graniteOres -->
 
+<!-- Crush marbleOres -->
+  <recipe name="CrushoreRedgraniteAdamantium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAdamantium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAdamantium" number="1" />
+      <itemStack oreDictionary="crushedAdamantium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAlmandine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAlmandine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAlmandine" number="1" />
+      <itemStack oreDictionary="crushedAlmandine" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAluminium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAluminium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAluminium" number="1" />
+      <itemStack oreDictionary="crushedAluminium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAlunite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAlunite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAlunite" number="1" />
+      <itemStack oreDictionary="crushedAlunite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAmber" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAmber" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmber" number="1" />
+      <itemStack oreDictionary="crushedAmber" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAmericium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAmericium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmericium" number="1" />
+      <itemStack oreDictionary="crushedAmericium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAmethyst" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAmethyst" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmethyst" number="1" />
+      <itemStack oreDictionary="crushedAmethyst" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAndradite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAndradite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAndradite" number="1" />
+      <itemStack oreDictionary="crushedAndradite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAntimony" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAntimony" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAntimony" number="1" />
+      <itemStack oreDictionary="crushedAntimony" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleApatite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleApatite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedApatite" number="1" />
+      <itemStack oreDictionary="crushedApatite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAsbestos" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAsbestos" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAsbestos" number="1" />
+      <itemStack oreDictionary="crushedAsbestos" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleAstralSilver" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleAstralSilver" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAstralSilver" number="1" />
+      <itemStack oreDictionary="crushedAstralSilver" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBandedIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBandedIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBandedIron" number="1" />
+      <itemStack oreDictionary="crushedBandedIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBarite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBarite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBarite" number="1" />
+      <itemStack oreDictionary="crushedBarite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBarium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBarium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBarium" number="1" />
+      <itemStack oreDictionary="crushedBarium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBasalticMineralSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBasalticMineralSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBasalticMineralSand" number="1" />
+      <itemStack oreDictionary="crushedBasalticMineralSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBastnasite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBastnasite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBastnasite" number="1" />
+      <itemStack oreDictionary="crushedBastnasite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBauxite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBauxite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBauxite" number="1" />
+      <itemStack oreDictionary="crushedBauxite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBentonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBentonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBentonite" number="1" />
+      <itemStack oreDictionary="crushedBentonite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBeryllium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBeryllium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBeryllium" number="1" />
+      <itemStack oreDictionary="crushedBeryllium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBismuth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBismuth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBismuth" number="1" />
+      <itemStack oreDictionary="crushedBismuth" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBlueTopaz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBlueTopaz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBlueTopaz" number="1" />
+      <itemStack oreDictionary="crushedBlueTopaz" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBorax" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBorax" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBorax" number="1" />
+      <itemStack oreDictionary="crushedBorax" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBoron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBoron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBoron" number="1" />
+      <itemStack oreDictionary="crushedBoron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleBrownLimonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleBrownLimonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBrownLimonite" number="1" />
+      <itemStack oreDictionary="crushedBrownLimonite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCadmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCadmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCadmium" number="1" />
+      <itemStack oreDictionary="crushedCadmium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCaesium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCaesium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCaesium" number="1" />
+      <itemStack oreDictionary="crushedCaesium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCalcite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCalcite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCalcite" number="1" />
+      <itemStack oreDictionary="crushedCalcite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCassiterite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCassiterite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCassiterite" number="1" />
+      <itemStack oreDictionary="crushedCassiterite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCassiteriteSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCassiteriteSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCassiteriteSand" number="1" />
+      <itemStack oreDictionary="crushedCassiteriteSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCelestine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCelestine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCelestine" number="1" />
+      <itemStack oreDictionary="crushedCelestine" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCerium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCerium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCerium" number="1" />
+      <itemStack oreDictionary="crushedCerium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCertusQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCertusQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCertusQuartz" number="1" />
+      <itemStack oreDictionary="crushedCertusQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleChalcopyrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleChalcopyrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChalcopyrite" number="1" />
+      <itemStack oreDictionary="crushedChalcopyrite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleChargedCertusQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleChargedCertusQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChargedCertusQuartz" number="1" />
+      <itemStack oreDictionary="crushedChargedCertusQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCheese" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCheese" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCheese" number="1" />
+      <itemStack oreDictionary="crushedCheese" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleChrome" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleChrome" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChrome" number="1" />
+      <itemStack oreDictionary="crushedChrome" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleChromite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleChromite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChromite" number="1" />
+      <itemStack oreDictionary="crushedChromite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleChrysotile" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleChrysotile" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChrysotile" number="1" />
+      <itemStack oreDictionary="crushedChrysotile" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCinnabar" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCinnabar" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCinnabar" number="1" />
+      <itemStack oreDictionary="crushedCinnabar" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCoal" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCoal" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCoal" number="1" />
+      <itemStack oreDictionary="crushedCoal" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCobalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCobalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCobalt" number="1" />
+      <itemStack oreDictionary="crushedCobalt" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCobaltite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCobaltite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCobaltite" number="1" />
+      <itemStack oreDictionary="crushedCobaltite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCooperite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCooperite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCooperite" number="1" />
+      <itemStack oreDictionary="crushedCooperite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleCopper" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleCopper" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCopper" number="1" />
+      <itemStack oreDictionary="crushedCopper" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDarkIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDarkIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDarkIron" number="1" />
+      <itemStack oreDictionary="crushedDarkIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDeepIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDeepIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDeepIron" number="1" />
+      <itemStack oreDictionary="crushedDeepIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDesh" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDesh" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDesh" number="1" />
+      <itemStack oreDictionary="crushedDesh" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDiamond" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDiamond" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDiamond" number="1" />
+      <itemStack oreDictionary="crushedDiamond" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDiatomite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDiatomite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDiatomite" number="1" />
+      <itemStack oreDictionary="crushedDiatomite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDilithium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDilithium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDilithium" number="1" />
+      <itemStack oreDictionary="crushedDilithium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDolomite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDolomite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDolomite" number="1" />
+      <itemStack oreDictionary="crushedDolomite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleDysprosium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleDysprosium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDysprosium" number="1" />
+      <itemStack oreDictionary="crushedDysprosium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleElectrum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleElectrum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedElectrum" number="1" />
+      <itemStack oreDictionary="crushedElectrum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleEmerald" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleEmerald" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEmerald" number="1" />
+      <itemStack oreDictionary="crushedEmerald" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleEmery" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleEmery" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEmery" number="1" />
+      <itemStack oreDictionary="crushedEmery" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleErbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleErbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedErbium" number="1" />
+      <itemStack oreDictionary="crushedErbium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleEuropium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleEuropium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEuropium" number="1" />
+      <itemStack oreDictionary="crushedEuropium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleFirestone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleFirestone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFirestone" number="1" />
+      <itemStack oreDictionary="crushedFirestone" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleFoolsRuby" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleFoolsRuby" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFoolsRuby" number="1" />
+      <itemStack oreDictionary="crushedFoolsRuby" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleForce" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleForce" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForce" number="1" />
+      <itemStack oreDictionary="crushedForce" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleForcicium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleForcicium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForcicium" number="1" />
+      <itemStack oreDictionary="crushedForcicium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleForcillium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleForcillium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForcillium" number="1" />
+      <itemStack oreDictionary="crushedForcillium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleFullersEarth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleFullersEarth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFullersEarth" number="1" />
+      <itemStack oreDictionary="crushedFullersEarth" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGadolinium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGadolinium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGadolinium" number="1" />
+      <itemStack oreDictionary="crushedGadolinium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGalena" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGalena" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGalena" number="1" />
+      <itemStack oreDictionary="crushedGalena" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGallium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGallium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGallium" number="1" />
+      <itemStack oreDictionary="crushedGallium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGarnetRed" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGarnetRed" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetRed" number="1" />
+      <itemStack oreDictionary="crushedGarnetRed" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGarnetSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGarnetSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetSand" number="1" />
+      <itemStack oreDictionary="crushedGarnetSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGarnetYellow" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGarnetYellow" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetYellow" number="1" />
+      <itemStack oreDictionary="crushedGarnetYellow" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGarnierite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGarnierite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnierite" number="1" />
+      <itemStack oreDictionary="crushedGarnierite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGlauconite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGlauconite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGlauconite" number="1" />
+      <itemStack oreDictionary="crushedGlauconite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGlauconiteSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGlauconiteSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGlauconiteSand" number="1" />
+      <itemStack oreDictionary="crushedGlauconiteSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGold" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGold" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGold" number="1" />
+      <itemStack oreDictionary="crushedGold" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGraniticMineralSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGraniticMineralSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGraniticMineralSand" number="1" />
+      <itemStack oreDictionary="crushedGraniticMineralSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGraphite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGraphite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGraphite" number="1" />
+      <itemStack oreDictionary="crushedGraphite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGreenSapphire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGreenSapphire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGreenSapphire" number="1" />
+      <itemStack oreDictionary="crushedGreenSapphire" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGrossular" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGrossular" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGrossular" number="1" />
+      <itemStack oreDictionary="crushedGrossular" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleGypsum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleGypsum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGypsum" number="1" />
+      <itemStack oreDictionary="crushedGypsum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleHolmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleHolmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedHolmium" number="1" />
+      <itemStack oreDictionary="crushedHolmium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleIlmenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleIlmenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIlmenite" number="1" />
+      <itemStack oreDictionary="crushedIlmenite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleIndium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleIndium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIndium" number="1" />
+      <itemStack oreDictionary="crushedIndium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedAir" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedAir" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedAir" number="1" />
+      <itemStack oreDictionary="crushedInfusedAir" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedEarth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedEarth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedEarth" number="1" />
+      <itemStack oreDictionary="crushedInfusedEarth" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedEntropy" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedEntropy" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedEntropy" number="1" />
+      <itemStack oreDictionary="crushedInfusedEntropy" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedFire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedFire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedFire" number="1" />
+      <itemStack oreDictionary="crushedInfusedFire" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedGold" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedGold" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedGold" number="1" />
+      <itemStack oreDictionary="crushedInfusedGold" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedOrder" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedOrder" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedOrder" number="1" />
+      <itemStack oreDictionary="crushedInfusedOrder" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleInfusedWater" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleInfusedWater" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedWater" number="1" />
+      <itemStack oreDictionary="crushedInfusedWater" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleIridium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleIridium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIridium" number="1" />
+      <itemStack oreDictionary="crushedIridium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIron" number="1" />
+      <itemStack oreDictionary="crushedIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleJade" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleJade" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedJade" number="1" />
+      <itemStack oreDictionary="crushedJade" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleJasper" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleJasper" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedJasper" number="1" />
+      <itemStack oreDictionary="crushedJasper" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleKaolinite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleKaolinite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedKaolinite" number="1" />
+      <itemStack oreDictionary="crushedKaolinite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleKyanite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleKyanite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedKyanite" number="1" />
+      <itemStack oreDictionary="crushedKyanite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLanthanum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLanthanum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLanthanum" number="1" />
+      <itemStack oreDictionary="crushedLanthanum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLapis" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLapis" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLapis" number="1" />
+      <itemStack oreDictionary="crushedLapis" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLazurite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLazurite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLazurite" number="1" />
+      <itemStack oreDictionary="crushedLazurite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLead" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLead" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLead" number="1" />
+      <itemStack oreDictionary="crushedLead" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLepidolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLepidolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLepidolite" number="1" />
+      <itemStack oreDictionary="crushedLepidolite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLignite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLignite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLignite" number="1" />
+      <itemStack oreDictionary="crushedLignite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLithium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLithium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLithium" number="1" />
+      <itemStack oreDictionary="crushedLithium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleLutetium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleLutetium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLutetium" number="1" />
+      <itemStack oreDictionary="crushedLutetium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMagnesite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMagnesite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnesite" number="1" />
+      <itemStack oreDictionary="crushedMagnesite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMagnesium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMagnesium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnesium" number="1" />
+      <itemStack oreDictionary="crushedMagnesium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMagnetite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMagnetite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnetite" number="1" />
+      <itemStack oreDictionary="crushedMagnetite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMalachite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMalachite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMalachite" number="1" />
+      <itemStack oreDictionary="crushedMalachite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleManganese" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleManganese" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedManganese" number="1" />
+      <itemStack oreDictionary="crushedManganese" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMeteoricIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMeteoricIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMeteoricIron" number="1" />
+      <itemStack oreDictionary="crushedMeteoricIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMica" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMica" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMica" number="1" />
+      <itemStack oreDictionary="crushedMica" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMidasium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMidasium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMidasium" number="1" />
+      <itemStack oreDictionary="crushedMidasium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMirabilite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMirabilite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMirabilite" number="1" />
+      <itemStack oreDictionary="crushedMirabilite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMithril" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMithril" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMithril" number="1" />
+      <itemStack oreDictionary="crushedMithril" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMolybdenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMolybdenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMolybdenite" number="1" />
+      <itemStack oreDictionary="crushedMolybdenite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMolybdenum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMolybdenum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMolybdenum" number="1" />
+      <itemStack oreDictionary="crushedMolybdenum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleMonazite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleMonazite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMonazite" number="1" />
+      <itemStack oreDictionary="crushedMonazite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNaquadah" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNaquadah" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadah" number="1" />
+      <itemStack oreDictionary="crushedNaquadah" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNaquadahEnriched" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNaquadahEnriched" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadahEnriched" number="1" />
+      <itemStack oreDictionary="crushedNaquadahEnriched" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNaquadria" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNaquadria" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadria" number="1" />
+      <itemStack oreDictionary="crushedNaquadria" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNeodymium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNeodymium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNeodymium" number="1" />
+      <itemStack oreDictionary="crushedNeodymium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNetherQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNetherQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNetherQuartz" number="1" />
+      <itemStack oreDictionary="crushedNetherQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNeutronium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNeutronium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNeutronium" number="1" />
+      <itemStack oreDictionary="crushedNeutronium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNickel" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNickel" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNickel" number="1" />
+      <itemStack oreDictionary="crushedNickel" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNikolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNikolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNikolite" number="1" />
+      <itemStack oreDictionary="crushedNikolite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNiobium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNiobium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNiobium" number="1" />
+      <itemStack oreDictionary="crushedNiobium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleNiter" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleNiter" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNiter" number="1" />
+      <itemStack oreDictionary="crushedNiter" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleOlivine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleOlivine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOlivine" number="1" />
+      <itemStack oreDictionary="crushedOlivine" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleOpal" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleOpal" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOpal" number="1" />
+      <itemStack oreDictionary="crushedOpal" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleOsmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleOsmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOsmium" number="1" />
+      <itemStack oreDictionary="crushedOsmium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePalladium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePalladium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPalladium" number="1" />
+      <itemStack oreDictionary="crushedPalladium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePentlandite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePentlandite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPentlandite" number="1" />
+      <itemStack oreDictionary="crushedPentlandite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePerlite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePerlite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPerlite" number="1" />
+      <itemStack oreDictionary="crushedPerlite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePhosphate" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePhosphate" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphate" number="1" />
+      <itemStack oreDictionary="crushedPhosphate" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePhosphor" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePhosphor" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphor" number="1" />
+      <itemStack oreDictionary="crushedPhosphor" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePhosphorus" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePhosphorus" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphorus" number="1" />
+      <itemStack oreDictionary="crushedPhosphorus" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePigIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePigIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPigIron" number="1" />
+      <itemStack oreDictionary="crushedPigIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePitchblende" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePitchblende" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPitchblende" number="1" />
+      <itemStack oreDictionary="crushedPitchblende" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePlatinum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePlatinum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlatinum" number="1" />
+      <itemStack oreDictionary="crushedPlatinum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePlutonium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePlutonium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlutonium" number="1" />
+      <itemStack oreDictionary="crushedPlutonium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePlutonium241" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePlutonium241" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlutonium241" number="1" />
+      <itemStack oreDictionary="crushedPlutonium241" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePollucite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePollucite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPollucite" number="1" />
+      <itemStack oreDictionary="crushedPollucite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePowellite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePowellite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPowellite" number="1" />
+      <itemStack oreDictionary="crushedPowellite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePraseodymium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePraseodymium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPraseodymium" number="1" />
+      <itemStack oreDictionary="crushedPraseodymium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePromethium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePromethium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPromethium" number="1" />
+      <itemStack oreDictionary="crushedPromethium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePumice" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePumice" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPumice" number="1" />
+      <itemStack oreDictionary="crushedPumice" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePyrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePyrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrite" number="1" />
+      <itemStack oreDictionary="crushedPyrite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePyrolusite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePyrolusite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrolusite" number="1" />
+      <itemStack oreDictionary="crushedPyrolusite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarblePyrope" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarblePyrope" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrope" number="1" />
+      <itemStack oreDictionary="crushedPyrope" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleQuartzite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleQuartzite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedQuartzite" number="1" />
+      <itemStack oreDictionary="crushedQuartzite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleQuartzSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleQuartzSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedQuartzSand" number="1" />
+      <itemStack oreDictionary="crushedQuartzSand" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleRedstone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleRedstone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRedstone" number="1" />
+      <itemStack oreDictionary="crushedRedstone" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleRockSalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleRockSalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRockSalt" number="1" />
+      <itemStack oreDictionary="crushedRockSalt" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleRubidium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleRubidium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRubidium" number="1" />
+      <itemStack oreDictionary="crushedRubidium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleRuby" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleRuby" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRuby" number="1" />
+      <itemStack oreDictionary="crushedRuby" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSalt" number="1" />
+      <itemStack oreDictionary="crushedSalt" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSaltpeter" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSaltpeter" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSaltpeter" number="1" />
+      <itemStack oreDictionary="crushedSaltpeter" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSamarium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSamarium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSamarium" number="1" />
+      <itemStack oreDictionary="crushedSamarium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSapphire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSapphire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSapphire" number="1" />
+      <itemStack oreDictionary="crushedSapphire" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleScandium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleScandium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedScandium" number="1" />
+      <itemStack oreDictionary="crushedScandium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleScheelite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleScheelite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedScheelite" number="1" />
+      <itemStack oreDictionary="crushedScheelite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleShadowIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleShadowIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedShadowIron" number="1" />
+      <itemStack oreDictionary="crushedShadowIron" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSilicon" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSilicon" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSilicon" number="1" />
+      <itemStack oreDictionary="crushedSilicon" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSilver" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSilver" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSilver" number="1" />
+      <itemStack oreDictionary="crushedSilver" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSoapstone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSoapstone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSoapstone" number="1" />
+      <itemStack oreDictionary="crushedSoapstone" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSodalite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSodalite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSodalite" number="1" />
+      <itemStack oreDictionary="crushedSodalite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSpessartine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSpessartine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSpessartine" number="1" />
+      <itemStack oreDictionary="crushedSpessartine" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSphalerite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSphalerite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSphalerite" number="1" />
+      <itemStack oreDictionary="crushedSphalerite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSpodumene" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSpodumene" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSpodumene" number="1" />
+      <itemStack oreDictionary="crushedSpodumene" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleStibnite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleStibnite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedStibnite" number="1" />
+      <itemStack oreDictionary="crushedStibnite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleStrontium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleStrontium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedStrontium" number="1" />
+      <itemStack oreDictionary="crushedStrontium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleSulfur" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleSulfur" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSulfur" number="1" />
+      <itemStack oreDictionary="crushedSulfur" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTalc" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTalc" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTalc" number="1" />
+      <itemStack oreDictionary="crushedTalc" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTantalite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTantalite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTantalite" number="1" />
+      <itemStack oreDictionary="crushedTantalite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTantalum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTantalum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTantalum" number="1" />
+      <itemStack oreDictionary="crushedTantalum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTanzanite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTanzanite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTanzanite" number="1" />
+      <itemStack oreDictionary="crushedTanzanite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTellurium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTellurium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTellurium" number="1" />
+      <itemStack oreDictionary="crushedTellurium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTerbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTerbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTerbium" number="1" />
+      <itemStack oreDictionary="crushedTerbium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTetrahedrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTetrahedrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTetrahedrite" number="1" />
+      <itemStack oreDictionary="crushedTetrahedrite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleThorium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleThorium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedThorium" number="1" />
+      <itemStack oreDictionary="crushedThorium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleThulium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleThulium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedThulium" number="1" />
+      <itemStack oreDictionary="crushedThulium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTin" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTin" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTin" number="1" />
+      <itemStack oreDictionary="crushedTin" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTitanium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTitanium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTitanium" number="1" />
+      <itemStack oreDictionary="crushedTitanium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTopaz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTopaz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTopaz" number="1" />
+      <itemStack oreDictionary="crushedTopaz" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTrona" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTrona" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTrona" number="1" />
+      <itemStack oreDictionary="crushedTrona" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTungstate" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTungstate" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTungstate" number="1" />
+      <itemStack oreDictionary="crushedTungstate" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleTungsten" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleTungsten" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTungsten" number="1" />
+      <itemStack oreDictionary="crushedTungsten" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleUraninite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleUraninite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUraninite" number="1" />
+      <itemStack oreDictionary="crushedUraninite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleUranium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleUranium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUranium" number="1" />
+      <itemStack oreDictionary="crushedUranium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleUranium235" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleUranium235" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUranium235" number="1" />
+      <itemStack oreDictionary="crushedUranium235" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleUvarovite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleUvarovite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUvarovite" number="1" />
+      <itemStack oreDictionary="crushedUvarovite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleVanadium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleVanadium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVanadium" number="1" />
+      <itemStack oreDictionary="crushedVanadium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleVanadiumMagnetite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleVanadiumMagnetite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVanadiumMagnetite" number="1" />
+      <itemStack oreDictionary="crushedVanadiumMagnetite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleVermiculite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleVermiculite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVermiculite" number="1" />
+      <itemStack oreDictionary="crushedVermiculite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleVinteum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleVinteum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVinteum" number="1" />
+      <itemStack oreDictionary="crushedVinteum" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleWollastonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleWollastonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedWollastonite" number="1" />
+      <itemStack oreDictionary="crushedWollastonite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleWulfenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleWulfenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedWulfenite" number="1" />
+      <itemStack oreDictionary="crushedWulfenite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleYellowLimonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleYellowLimonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYellowLimonite" number="1" />
+      <itemStack oreDictionary="crushedYellowLimonite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleYtterbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleYtterbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYtterbium" number="1" />
+      <itemStack oreDictionary="crushedYtterbium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleYttrium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleYttrium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYttrium" number="1" />
+      <itemStack oreDictionary="crushedYttrium" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleZeolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleZeolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedZeolite" number="1" />
+      <itemStack oreDictionary="crushedZeolite" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreMarbleZinc" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreMarbleZinc" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedZinc" number="1" />
+      <itemStack oreDictionary="crushedZinc" chance="0.5" />
+      <itemStack oreDictionary="dustMarble" chance="0.5" />
+    </output>
+  </recipe>
+<!-- End of marbleOres -->
 
+<!-- Crush basaltOres -->
+  <recipe name="CrushoreRedgraniteAdamantium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAdamantium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAdamantium" number="1" />
+      <itemStack oreDictionary="crushedAdamantium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAlmandine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAlmandine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAlmandine" number="1" />
+      <itemStack oreDictionary="crushedAlmandine" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAluminium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAluminium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAluminium" number="1" />
+      <itemStack oreDictionary="crushedAluminium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAlunite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAlunite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAlunite" number="1" />
+      <itemStack oreDictionary="crushedAlunite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAmber" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAmber" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmber" number="1" />
+      <itemStack oreDictionary="crushedAmber" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAmericium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAmericium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmericium" number="1" />
+      <itemStack oreDictionary="crushedAmericium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAmethyst" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAmethyst" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAmethyst" number="1" />
+      <itemStack oreDictionary="crushedAmethyst" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAndradite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAndradite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAndradite" number="1" />
+      <itemStack oreDictionary="crushedAndradite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAntimony" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAntimony" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAntimony" number="1" />
+      <itemStack oreDictionary="crushedAntimony" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltApatite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltApatite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedApatite" number="1" />
+      <itemStack oreDictionary="crushedApatite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAsbestos" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAsbestos" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAsbestos" number="1" />
+      <itemStack oreDictionary="crushedAsbestos" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltAstralSilver" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltAstralSilver" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedAstralSilver" number="1" />
+      <itemStack oreDictionary="crushedAstralSilver" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBandedIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBandedIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBandedIron" number="1" />
+      <itemStack oreDictionary="crushedBandedIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBarite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBarite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBarite" number="1" />
+      <itemStack oreDictionary="crushedBarite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBarium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBarium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBarium" number="1" />
+      <itemStack oreDictionary="crushedBarium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBasalticMineralSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBasalticMineralSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBasalticMineralSand" number="1" />
+      <itemStack oreDictionary="crushedBasalticMineralSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBastnasite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBastnasite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBastnasite" number="1" />
+      <itemStack oreDictionary="crushedBastnasite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBauxite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBauxite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBauxite" number="1" />
+      <itemStack oreDictionary="crushedBauxite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBentonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBentonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBentonite" number="1" />
+      <itemStack oreDictionary="crushedBentonite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBeryllium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBeryllium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBeryllium" number="1" />
+      <itemStack oreDictionary="crushedBeryllium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBismuth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBismuth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBismuth" number="1" />
+      <itemStack oreDictionary="crushedBismuth" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBlueTopaz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBlueTopaz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBlueTopaz" number="1" />
+      <itemStack oreDictionary="crushedBlueTopaz" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBorax" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBorax" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBorax" number="1" />
+      <itemStack oreDictionary="crushedBorax" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBoron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBoron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBoron" number="1" />
+      <itemStack oreDictionary="crushedBoron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltBrownLimonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltBrownLimonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedBrownLimonite" number="1" />
+      <itemStack oreDictionary="crushedBrownLimonite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCadmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCadmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCadmium" number="1" />
+      <itemStack oreDictionary="crushedCadmium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCaesium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCaesium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCaesium" number="1" />
+      <itemStack oreDictionary="crushedCaesium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCalcite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCalcite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCalcite" number="1" />
+      <itemStack oreDictionary="crushedCalcite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCassiterite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCassiterite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCassiterite" number="1" />
+      <itemStack oreDictionary="crushedCassiterite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCassiteriteSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCassiteriteSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCassiteriteSand" number="1" />
+      <itemStack oreDictionary="crushedCassiteriteSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCelestine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCelestine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCelestine" number="1" />
+      <itemStack oreDictionary="crushedCelestine" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCerium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCerium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCerium" number="1" />
+      <itemStack oreDictionary="crushedCerium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCertusQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCertusQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCertusQuartz" number="1" />
+      <itemStack oreDictionary="crushedCertusQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltChalcopyrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltChalcopyrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChalcopyrite" number="1" />
+      <itemStack oreDictionary="crushedChalcopyrite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltChargedCertusQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltChargedCertusQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChargedCertusQuartz" number="1" />
+      <itemStack oreDictionary="crushedChargedCertusQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCheese" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCheese" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCheese" number="1" />
+      <itemStack oreDictionary="crushedCheese" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltChrome" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltChrome" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChrome" number="1" />
+      <itemStack oreDictionary="crushedChrome" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltChromite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltChromite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChromite" number="1" />
+      <itemStack oreDictionary="crushedChromite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltChrysotile" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltChrysotile" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedChrysotile" number="1" />
+      <itemStack oreDictionary="crushedChrysotile" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCinnabar" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCinnabar" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCinnabar" number="1" />
+      <itemStack oreDictionary="crushedCinnabar" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCoal" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCoal" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCoal" number="1" />
+      <itemStack oreDictionary="crushedCoal" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCobalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCobalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCobalt" number="1" />
+      <itemStack oreDictionary="crushedCobalt" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCobaltite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCobaltite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCobaltite" number="1" />
+      <itemStack oreDictionary="crushedCobaltite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCooperite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCooperite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCooperite" number="1" />
+      <itemStack oreDictionary="crushedCooperite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltCopper" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltCopper" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedCopper" number="1" />
+      <itemStack oreDictionary="crushedCopper" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDarkIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDarkIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDarkIron" number="1" />
+      <itemStack oreDictionary="crushedDarkIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDeepIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDeepIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDeepIron" number="1" />
+      <itemStack oreDictionary="crushedDeepIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDesh" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDesh" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDesh" number="1" />
+      <itemStack oreDictionary="crushedDesh" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDiamond" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDiamond" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDiamond" number="1" />
+      <itemStack oreDictionary="crushedDiamond" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDiatomite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDiatomite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDiatomite" number="1" />
+      <itemStack oreDictionary="crushedDiatomite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDilithium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDilithium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDilithium" number="1" />
+      <itemStack oreDictionary="crushedDilithium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDolomite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDolomite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDolomite" number="1" />
+      <itemStack oreDictionary="crushedDolomite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltDysprosium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltDysprosium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedDysprosium" number="1" />
+      <itemStack oreDictionary="crushedDysprosium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltElectrum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltElectrum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedElectrum" number="1" />
+      <itemStack oreDictionary="crushedElectrum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltEmerald" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltEmerald" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEmerald" number="1" />
+      <itemStack oreDictionary="crushedEmerald" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltEmery" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltEmery" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEmery" number="1" />
+      <itemStack oreDictionary="crushedEmery" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltErbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltErbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedErbium" number="1" />
+      <itemStack oreDictionary="crushedErbium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltEuropium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltEuropium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedEuropium" number="1" />
+      <itemStack oreDictionary="crushedEuropium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltFirestone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltFirestone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFirestone" number="1" />
+      <itemStack oreDictionary="crushedFirestone" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltFoolsRuby" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltFoolsRuby" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFoolsRuby" number="1" />
+      <itemStack oreDictionary="crushedFoolsRuby" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltForce" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltForce" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForce" number="1" />
+      <itemStack oreDictionary="crushedForce" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltForcicium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltForcicium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForcicium" number="1" />
+      <itemStack oreDictionary="crushedForcicium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltForcillium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltForcillium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedForcillium" number="1" />
+      <itemStack oreDictionary="crushedForcillium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltFullersEarth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltFullersEarth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedFullersEarth" number="1" />
+      <itemStack oreDictionary="crushedFullersEarth" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGadolinium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGadolinium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGadolinium" number="1" />
+      <itemStack oreDictionary="crushedGadolinium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGalena" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGalena" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGalena" number="1" />
+      <itemStack oreDictionary="crushedGalena" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGallium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGallium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGallium" number="1" />
+      <itemStack oreDictionary="crushedGallium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGarnetRed" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGarnetRed" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetRed" number="1" />
+      <itemStack oreDictionary="crushedGarnetRed" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGarnetSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGarnetSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetSand" number="1" />
+      <itemStack oreDictionary="crushedGarnetSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGarnetYellow" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGarnetYellow" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnetYellow" number="1" />
+      <itemStack oreDictionary="crushedGarnetYellow" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGarnierite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGarnierite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGarnierite" number="1" />
+      <itemStack oreDictionary="crushedGarnierite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGlauconite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGlauconite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGlauconite" number="1" />
+      <itemStack oreDictionary="crushedGlauconite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGlauconiteSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGlauconiteSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGlauconiteSand" number="1" />
+      <itemStack oreDictionary="crushedGlauconiteSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGold" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGold" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGold" number="1" />
+      <itemStack oreDictionary="crushedGold" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGraniticMineralSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGraniticMineralSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGraniticMineralSand" number="1" />
+      <itemStack oreDictionary="crushedGraniticMineralSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGraphite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGraphite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGraphite" number="1" />
+      <itemStack oreDictionary="crushedGraphite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGreenSapphire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGreenSapphire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGreenSapphire" number="1" />
+      <itemStack oreDictionary="crushedGreenSapphire" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGrossular" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGrossular" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGrossular" number="1" />
+      <itemStack oreDictionary="crushedGrossular" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltGypsum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltGypsum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedGypsum" number="1" />
+      <itemStack oreDictionary="crushedGypsum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltHolmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltHolmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedHolmium" number="1" />
+      <itemStack oreDictionary="crushedHolmium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltIlmenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltIlmenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIlmenite" number="1" />
+      <itemStack oreDictionary="crushedIlmenite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltIndium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltIndium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIndium" number="1" />
+      <itemStack oreDictionary="crushedIndium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedAir" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedAir" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedAir" number="1" />
+      <itemStack oreDictionary="crushedInfusedAir" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedEarth" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedEarth" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedEarth" number="1" />
+      <itemStack oreDictionary="crushedInfusedEarth" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedEntropy" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedEntropy" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedEntropy" number="1" />
+      <itemStack oreDictionary="crushedInfusedEntropy" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedFire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedFire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedFire" number="1" />
+      <itemStack oreDictionary="crushedInfusedFire" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedGold" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedGold" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedGold" number="1" />
+      <itemStack oreDictionary="crushedInfusedGold" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedOrder" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedOrder" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedOrder" number="1" />
+      <itemStack oreDictionary="crushedInfusedOrder" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltInfusedWater" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltInfusedWater" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedInfusedWater" number="1" />
+      <itemStack oreDictionary="crushedInfusedWater" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltIridium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltIridium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIridium" number="1" />
+      <itemStack oreDictionary="crushedIridium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedIron" number="1" />
+      <itemStack oreDictionary="crushedIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltJade" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltJade" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedJade" number="1" />
+      <itemStack oreDictionary="crushedJade" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltJasper" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltJasper" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedJasper" number="1" />
+      <itemStack oreDictionary="crushedJasper" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltKaolinite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltKaolinite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedKaolinite" number="1" />
+      <itemStack oreDictionary="crushedKaolinite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltKyanite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltKyanite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedKyanite" number="1" />
+      <itemStack oreDictionary="crushedKyanite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLanthanum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLanthanum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLanthanum" number="1" />
+      <itemStack oreDictionary="crushedLanthanum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLapis" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLapis" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLapis" number="1" />
+      <itemStack oreDictionary="crushedLapis" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLazurite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLazurite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLazurite" number="1" />
+      <itemStack oreDictionary="crushedLazurite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLead" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLead" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLead" number="1" />
+      <itemStack oreDictionary="crushedLead" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLepidolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLepidolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLepidolite" number="1" />
+      <itemStack oreDictionary="crushedLepidolite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLignite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLignite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLignite" number="1" />
+      <itemStack oreDictionary="crushedLignite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLithium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLithium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLithium" number="1" />
+      <itemStack oreDictionary="crushedLithium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltLutetium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltLutetium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedLutetium" number="1" />
+      <itemStack oreDictionary="crushedLutetium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMagnesite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMagnesite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnesite" number="1" />
+      <itemStack oreDictionary="crushedMagnesite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMagnesium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMagnesium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnesium" number="1" />
+      <itemStack oreDictionary="crushedMagnesium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMagnetite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMagnetite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMagnetite" number="1" />
+      <itemStack oreDictionary="crushedMagnetite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMalachite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMalachite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMalachite" number="1" />
+      <itemStack oreDictionary="crushedMalachite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltManganese" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltManganese" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedManganese" number="1" />
+      <itemStack oreDictionary="crushedManganese" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMeteoricIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMeteoricIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMeteoricIron" number="1" />
+      <itemStack oreDictionary="crushedMeteoricIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMica" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMica" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMica" number="1" />
+      <itemStack oreDictionary="crushedMica" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMidasium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMidasium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMidasium" number="1" />
+      <itemStack oreDictionary="crushedMidasium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMirabilite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMirabilite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMirabilite" number="1" />
+      <itemStack oreDictionary="crushedMirabilite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMithril" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMithril" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMithril" number="1" />
+      <itemStack oreDictionary="crushedMithril" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMolybdenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMolybdenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMolybdenite" number="1" />
+      <itemStack oreDictionary="crushedMolybdenite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMolybdenum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMolybdenum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMolybdenum" number="1" />
+      <itemStack oreDictionary="crushedMolybdenum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltMonazite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltMonazite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedMonazite" number="1" />
+      <itemStack oreDictionary="crushedMonazite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNaquadah" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNaquadah" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadah" number="1" />
+      <itemStack oreDictionary="crushedNaquadah" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNaquadahEnriched" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNaquadahEnriched" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadahEnriched" number="1" />
+      <itemStack oreDictionary="crushedNaquadahEnriched" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNaquadria" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNaquadria" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNaquadria" number="1" />
+      <itemStack oreDictionary="crushedNaquadria" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNeodymium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNeodymium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNeodymium" number="1" />
+      <itemStack oreDictionary="crushedNeodymium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNetherQuartz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNetherQuartz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNetherQuartz" number="1" />
+      <itemStack oreDictionary="crushedNetherQuartz" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNeutronium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNeutronium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNeutronium" number="1" />
+      <itemStack oreDictionary="crushedNeutronium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNickel" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNickel" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNickel" number="1" />
+      <itemStack oreDictionary="crushedNickel" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNikolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNikolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNikolite" number="1" />
+      <itemStack oreDictionary="crushedNikolite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNiobium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNiobium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNiobium" number="1" />
+      <itemStack oreDictionary="crushedNiobium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltNiter" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltNiter" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedNiter" number="1" />
+      <itemStack oreDictionary="crushedNiter" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltOlivine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltOlivine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOlivine" number="1" />
+      <itemStack oreDictionary="crushedOlivine" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltOpal" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltOpal" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOpal" number="1" />
+      <itemStack oreDictionary="crushedOpal" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltOsmium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltOsmium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedOsmium" number="1" />
+      <itemStack oreDictionary="crushedOsmium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPalladium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPalladium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPalladium" number="1" />
+      <itemStack oreDictionary="crushedPalladium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPentlandite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPentlandite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPentlandite" number="1" />
+      <itemStack oreDictionary="crushedPentlandite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPerlite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPerlite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPerlite" number="1" />
+      <itemStack oreDictionary="crushedPerlite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPhosphate" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPhosphate" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphate" number="1" />
+      <itemStack oreDictionary="crushedPhosphate" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPhosphor" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPhosphor" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphor" number="1" />
+      <itemStack oreDictionary="crushedPhosphor" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPhosphorus" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPhosphorus" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPhosphorus" number="1" />
+      <itemStack oreDictionary="crushedPhosphorus" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPigIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPigIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPigIron" number="1" />
+      <itemStack oreDictionary="crushedPigIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPitchblende" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPitchblende" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPitchblende" number="1" />
+      <itemStack oreDictionary="crushedPitchblende" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPlatinum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPlatinum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlatinum" number="1" />
+      <itemStack oreDictionary="crushedPlatinum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPlutonium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPlutonium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlutonium" number="1" />
+      <itemStack oreDictionary="crushedPlutonium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPlutonium241" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPlutonium241" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPlutonium241" number="1" />
+      <itemStack oreDictionary="crushedPlutonium241" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPollucite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPollucite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPollucite" number="1" />
+      <itemStack oreDictionary="crushedPollucite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPowellite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPowellite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPowellite" number="1" />
+      <itemStack oreDictionary="crushedPowellite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPraseodymium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPraseodymium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPraseodymium" number="1" />
+      <itemStack oreDictionary="crushedPraseodymium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPromethium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPromethium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPromethium" number="1" />
+      <itemStack oreDictionary="crushedPromethium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPumice" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPumice" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPumice" number="1" />
+      <itemStack oreDictionary="crushedPumice" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPyrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPyrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrite" number="1" />
+      <itemStack oreDictionary="crushedPyrite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPyrolusite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPyrolusite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrolusite" number="1" />
+      <itemStack oreDictionary="crushedPyrolusite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltPyrope" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltPyrope" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedPyrope" number="1" />
+      <itemStack oreDictionary="crushedPyrope" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltQuartzite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltQuartzite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedQuartzite" number="1" />
+      <itemStack oreDictionary="crushedQuartzite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltQuartzSand" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltQuartzSand" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedQuartzSand" number="1" />
+      <itemStack oreDictionary="crushedQuartzSand" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltRedstone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltRedstone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRedstone" number="1" />
+      <itemStack oreDictionary="crushedRedstone" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltRockSalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltRockSalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRockSalt" number="1" />
+      <itemStack oreDictionary="crushedRockSalt" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltRubidium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltRubidium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRubidium" number="1" />
+      <itemStack oreDictionary="crushedRubidium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltRuby" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltRuby" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedRuby" number="1" />
+      <itemStack oreDictionary="crushedRuby" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSalt" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSalt" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSalt" number="1" />
+      <itemStack oreDictionary="crushedSalt" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSaltpeter" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSaltpeter" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSaltpeter" number="1" />
+      <itemStack oreDictionary="crushedSaltpeter" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSamarium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSamarium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSamarium" number="1" />
+      <itemStack oreDictionary="crushedSamarium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSapphire" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSapphire" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSapphire" number="1" />
+      <itemStack oreDictionary="crushedSapphire" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltScandium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltScandium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedScandium" number="1" />
+      <itemStack oreDictionary="crushedScandium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltScheelite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltScheelite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedScheelite" number="1" />
+      <itemStack oreDictionary="crushedScheelite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltShadowIron" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltShadowIron" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedShadowIron" number="1" />
+      <itemStack oreDictionary="crushedShadowIron" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSilicon" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSilicon" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSilicon" number="1" />
+      <itemStack oreDictionary="crushedSilicon" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSilver" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSilver" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSilver" number="1" />
+      <itemStack oreDictionary="crushedSilver" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSoapstone" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSoapstone" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSoapstone" number="1" />
+      <itemStack oreDictionary="crushedSoapstone" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSodalite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSodalite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSodalite" number="1" />
+      <itemStack oreDictionary="crushedSodalite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSpessartine" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSpessartine" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSpessartine" number="1" />
+      <itemStack oreDictionary="crushedSpessartine" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSphalerite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSphalerite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSphalerite" number="1" />
+      <itemStack oreDictionary="crushedSphalerite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSpodumene" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSpodumene" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSpodumene" number="1" />
+      <itemStack oreDictionary="crushedSpodumene" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltStibnite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltStibnite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedStibnite" number="1" />
+      <itemStack oreDictionary="crushedStibnite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltStrontium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltStrontium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedStrontium" number="1" />
+      <itemStack oreDictionary="crushedStrontium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltSulfur" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltSulfur" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedSulfur" number="1" />
+      <itemStack oreDictionary="crushedSulfur" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTalc" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTalc" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTalc" number="1" />
+      <itemStack oreDictionary="crushedTalc" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTantalite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTantalite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTantalite" number="1" />
+      <itemStack oreDictionary="crushedTantalite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTantalum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTantalum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTantalum" number="1" />
+      <itemStack oreDictionary="crushedTantalum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTanzanite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTanzanite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTanzanite" number="1" />
+      <itemStack oreDictionary="crushedTanzanite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTellurium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTellurium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTellurium" number="1" />
+      <itemStack oreDictionary="crushedTellurium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTerbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTerbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTerbium" number="1" />
+      <itemStack oreDictionary="crushedTerbium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTetrahedrite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTetrahedrite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTetrahedrite" number="1" />
+      <itemStack oreDictionary="crushedTetrahedrite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltThorium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltThorium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedThorium" number="1" />
+      <itemStack oreDictionary="crushedThorium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltThulium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltThulium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedThulium" number="1" />
+      <itemStack oreDictionary="crushedThulium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTin" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTin" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTin" number="1" />
+      <itemStack oreDictionary="crushedTin" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTitanium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTitanium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTitanium" number="1" />
+      <itemStack oreDictionary="crushedTitanium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTopaz" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTopaz" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTopaz" number="1" />
+      <itemStack oreDictionary="crushedTopaz" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTrona" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTrona" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTrona" number="1" />
+      <itemStack oreDictionary="crushedTrona" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTungstate" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTungstate" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTungstate" number="1" />
+      <itemStack oreDictionary="crushedTungstate" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltTungsten" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltTungsten" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedTungsten" number="1" />
+      <itemStack oreDictionary="crushedTungsten" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltUraninite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltUraninite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUraninite" number="1" />
+      <itemStack oreDictionary="crushedUraninite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltUranium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltUranium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUranium" number="1" />
+      <itemStack oreDictionary="crushedUranium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltUranium235" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltUranium235" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUranium235" number="1" />
+      <itemStack oreDictionary="crushedUranium235" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltUvarovite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltUvarovite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedUvarovite" number="1" />
+      <itemStack oreDictionary="crushedUvarovite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltVanadium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltVanadium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVanadium" number="1" />
+      <itemStack oreDictionary="crushedVanadium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltVanadiumMagnetite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltVanadiumMagnetite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVanadiumMagnetite" number="1" />
+      <itemStack oreDictionary="crushedVanadiumMagnetite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltVermiculite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltVermiculite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVermiculite" number="1" />
+      <itemStack oreDictionary="crushedVermiculite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltVinteum" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltVinteum" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedVinteum" number="1" />
+      <itemStack oreDictionary="crushedVinteum" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltWollastonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltWollastonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedWollastonite" number="1" />
+      <itemStack oreDictionary="crushedWollastonite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltWulfenite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltWulfenite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedWulfenite" number="1" />
+      <itemStack oreDictionary="crushedWulfenite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltYellowLimonite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltYellowLimonite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYellowLimonite" number="1" />
+      <itemStack oreDictionary="crushedYellowLimonite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltYtterbium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltYtterbium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYtterbium" number="1" />
+      <itemStack oreDictionary="crushedYtterbium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltYttrium" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltYttrium" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedYttrium" number="1" />
+      <itemStack oreDictionary="crushedYttrium" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltZeolite" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltZeolite" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedZeolite" number="1" />
+      <itemStack oreDictionary="crushedZeolite" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+  <recipe name="CrushoreBasaltZinc" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="oreBasaltZinc" />
+    </input>
+    <output>
+      <itemStack oreDictionary="crushedZinc" number="1" />
+      <itemStack oreDictionary="crushedZinc" chance="0.5" />
+      <itemStack oreDictionary="dustBasalt" chance="0.5" />
+    </output>
+  </recipe>
+<!-- End of basaltOres -->
 
 
 </recipeGroup>

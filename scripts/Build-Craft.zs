@@ -394,6 +394,26 @@ recipes.remove(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>);
 
 
 
+// --- Assembly Table Recipes ---
+
+
+// --- Redstone Crystal
+mods.buildcraft.AssemblyTable.removeRecipe(<BuildCraft|Silicon:redstoneCrystal>);
+
+// --- Chipsets
+mods.buildcraft.AssemblyTable.removeRecipe(<BuildCraft|Silicon:redstoneChipset:*>);
+
+// --- Genetic Processor
+mods.buildcraft.AssemblyTable.removeRecipe(<gendustry:GeneticsProcessor>);
+
+// --- Inviromental Processor
+mods.buildcraft.AssemblyTable.removeRecipe(<gendustry:EnvProcessor>);
+
+
+
+
+
+
 // --- Adding Recipes ---
 
 
@@ -543,6 +563,24 @@ recipes.addShaped(FloodGate, [
 [<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32610>, <IC2:itemCasing:5>],
 [<dreamcraft:item.SteelBars>, <BuildCraft|Factory:tankBlock>, <dreamcraft:item.SteelBars>],
 [<IC2:itemCasing:5>, <dreamcraft:item.SteelBars>, <IC2:itemCasing:5>]]);
+
+// --- Laser
+recipes.addShaped(Laser, [
+[<ore:screwStainlessSteel>, <ore:blockRedstone>, <ore:screwStainlessSteel>],
+[<ore:lensDiamond>, <ore:circuitMaster>, <ore:lensDiamond>],
+[<ore:plateObsidian>, <gregtech:gt.metaitem.01:32681>, <ore:plateObsidian>]]);
+
+// --- Assembly Table
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [
+[<gregtech:gt.metaitem.01:32651>, <ore:blockRedstone>, <gregtech:gt.metaitem.01:32651>],
+[<ore:plateDiamond>, <ore:circuitMaster>, <ore:plateDiamond>],
+[<ore:plateObsidian>, <gregtech:gt.metaitem.01:32691>, <ore:plateObsidian>]]);
+
+// --- Charging Table
+recipes.addShaped(<BuildCraft|Silicon:laserTableBlock:3>, [
+[<ore:plateObsidian>, <ore:blockRedstone>, <ore:plateObsidian>],
+[<ore:chipsetRed>, <ore:crystalRedstone> ,<ore:chipsetRed>],
+[<ore:plateObsidian>, <ore:chipsetRed>, <ore:plateObsidian>]]);
 
 
 

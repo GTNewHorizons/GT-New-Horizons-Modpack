@@ -362,7 +362,7 @@ mods.thaumcraft.Warp.addToResearch("ICHOR_TOOLS", 3);
 
 // --- Awakened Ichorium Pickaxe
 mods.thaumcraft.Infusion.addRecipe("ICHOR_PICK_GEM", <ThaumicTinkerer:ichorPick>,
-[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:FocusFire>, <StevesCarts:CartModule:9>.withTag({Data: 100 as byte}), <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <StevesCarts:CartModule:9>.withTag({Data: 100 as byte}), <Thaumcraft:FocusFire>, <Thaumcraft:ItemPickaxeElemental>],
+[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:FocusFire>, <StevesCarts:CartModule:9>, <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30501>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.02:30500>, <IC2:blockITNT>, <StevesCarts:CartModule:9>, <Thaumcraft:FocusFire>, <Thaumcraft:ItemPickaxeElemental>],
 "ignis 64, lucrum 64, metallum 64, meto 64, messis 64, perfodio 64, terra 64, sensus 64", <ThaumicTinkerer:ichorPickGem>, 18);
 // -
 mods.thaumcraft.Research.setAspects("ICHOR_PICK_GEM", "ignis 24, lucrum 21, metallum 18, meto 15, messis 12, perfodio 9, terra 6, sensus 3");

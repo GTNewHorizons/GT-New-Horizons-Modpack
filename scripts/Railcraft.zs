@@ -83,14 +83,14 @@ val TinLantern = <Railcraft:lantern.metal:3>;
 val LeadLantern = <Railcraft:lantern.metal:4>;
 val SteelLantern = <Railcraft:lantern.metal:5>;
 
-val AbyssalBSlab = <Railcraft:slab:27>;
-val BleachedBSlab = <Railcraft:slab:25>;
-val BloodBSlab = <Railcraft:slab:26>;
-val FrostBSlab = <Railcraft:slab:23>;
-val InfernalBSlab = <Railcraft:slab:22>;
-val NetherBSlab = <Railcraft:slab:28>;
-val QuarriedBSlab = <Railcraft:slab:24>;
-val SandyBSlab = <Railcraft:slab:21>;
+val AbyssalBSlab = <Railcraft:slab:28>;
+val BleachedBSlab = <Railcraft:slab:26>;
+val BloodBSlab = <Railcraft:slab:27>;
+val FrostBSlab = <Railcraft:slab:24>;
+val InfernalBSlab = <Railcraft:slab:23>;
+val NetherBSlab = <Railcraft:slab:29>;
+val QuarriedBSlab = <Railcraft:slab:25>;
+val SandyBSlab = <Railcraft:slab:22>;
 val SandstoneBSlab = <minecraft:stone_slab:1>;
 val StoneBSlab = <minecraft:stone_slab>;
 val PressurePlate = <minecraft:stone_pressure_plate>;
@@ -252,6 +252,12 @@ recipes.remove(QuarriedLantern);
 
 // --- Sandy Block Lantern ---
 recipes.remove(SandyLantern);
+
+// --- Sandstone Block Lantern ---
+recipes.remove(SandstoneLantern);
+
+// --- Stone Lantern ---
+recipes.remove(StoneLantern);
 
 // --- Iron Lantern ---
 recipes.remove(IronLantern);
@@ -876,9 +882,9 @@ recipes.addShaped(<Railcraft:machine.beta:15>, [
 
 // --- Solid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:5>, [
-[SteelPlate, Cauldron, SteelPlate],
+[IronPlate, Cauldron, IronPlate],
 [BrickBlock, <gregtech:gt.blockcasings3:13>, BrickBlock],
-[SteelPlate, IronFurnace, SteelPlate]]);
+[IronPlate, IronFurnace, IronPlate]]);
 
 // --- Liquid Fueled Boiler Firebox ---
 recipes.addShaped(<Railcraft:machine.beta:6>, [
@@ -1377,7 +1383,10 @@ recipes.addShaped(<Railcraft:borehead.steel>, [
 [SteelPlate, <ore:gearSteel>, SteelPlate]]);
 
 // --- Diamond Borehead ---
-recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>]);
+recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>, <gregtech:gt.metaitem.01:32722>]);
+
+// --- Diamond Borehead ---
+recipes.addShapeless(<gregtech:gt.metaitem.01:32722> * 2, [<Railcraft:borehead.diamond>]);
 
 // --- RC Crowbar ---
 recipes.addShaped(<Railcraft:tool.crowbar>, [
@@ -1877,7 +1886,14 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <m
 
 
 
+// --- Blast Furnace recipes
 
+
+// --- Coal Coke
+mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal>, false, false, 20, <Railcraft:fuel.coke>);
+
+// --- Coal Coke Block
+mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
 
 
 // --- Centrifuge Recipes ---
@@ -1971,7 +1987,7 @@ PlateBender.addRecipe(<Railcraft:part.rail> * 10, <gregtech:gt.metaitem.01:23316
 
 
 // --- Firestone Cut
-PrecisionLaser.addRecipe(<Railcraft:firestone.cut>, <gregtech:gt.metaitem.01:24500> * 0, <Railcraft:firestone.raw> * 4, 2400, 480);
+PrecisionLaser.addRecipe(<Railcraft:firestone.cut>, <gregtech:gt.metaitem.01:24500> * 0, <Railcraft:firestone.raw>, 2400, 480);
 
 
 

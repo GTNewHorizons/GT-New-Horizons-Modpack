@@ -42,6 +42,13 @@ val Slab4 = <ExtraTrees:slab:*>;
 val Slab5 = <Forestry:slabs:*>;
 val Slab6 = <Natura:plankSlab1:*>;
 val Slab7 = <Natura:plankSlab2:*>;
+val Plank = <minecraft:planks:*>;
+val Plank1 = <BiomesOPlenty:planks:*>;
+val Plank2 = <ExtraTrees:planks:*>;
+val Plank3 = <ExtraUtilities:colorWoodPlanks:*>;
+val Plank4 = <Forestry:planks:*>;
+val Plank5 = <Forestry:planksFireproof:*>;
+val Plank6 = <Natura:planks:*>;
 
 val MKI = <JABBA:upgradeStructural>;
 val MKII = <JABBA:upgradeStructural:1>;
@@ -337,6 +344,100 @@ recipes.addShaped(VoidUp, [
 [Piston, <Railcraft:machine.beta:11>, Piston],
 [IronPlate, Piston, IronPlate]]);
 
+// --- Fixing JABBA unification exploits ---
+
+// --- Wrought Iron Ingot
+<ore:ingotAnyIron>.remove(<gregtech:gt.metaitem.01:11304>);             
+
+// --- Pig Iron Ingot
+<ore:ingotAnyIron>.remove(<gregtech:gt.metaitem.01:11307>);             
+
+// --- Wrought Iron Ingot (Double)
+<ore:ingotDoubleAnyIron>.remove(<gregtech:gt.metaitem.01:13304>);       
+
+// --- Pig Iron Ingot (Double)
+<ore:ingotDoubleAnyIron>.remove(<gregtech:gt.metaitem.01:13307>);       
+
+// --- Wrought Iron Ingot (Triple)
+<ore:ingotTripleAnyIron>.remove(<gregtech:gt.metaitem.01:14304>);       
+
+// --- Pig Iron Ingot (Triple)
+<ore:ingotTripleAnyIron>.remove(<gregtech:gt.metaitem.01:14307>);       
+
+// --- Wrought Iron Ingot (Quadruple)
+<ore:ingotQuadrupleAnyIron>.remove(<gregtech:gt.metaitem.01:15304>);    
+
+// --- Pig Iron Ingot (Quadruple)
+<ore:ingotQuadrupleAnyIron>.remove(<gregtech:gt.metaitem.01:15307>);    
+
+// --- Wrought Iron Ingot (Quintuple)
+<ore:ingotQuintupleAnyIron>.remove(<gregtech:gt.metaitem.01:16304>);    
+
+// --- Pig Iron Ingot (Quintuple)
+<ore:ingotQuintupleAnyIron>.remove(<gregtech:gt.metaitem.01:16307>);    
+
+// --- Pig Iron Ore
+<ore:oreAnyIron>.remove(<gregtech:gt.blockores:307>);                   
+
+// --- Wrought Iron Dust
+<ore:dustAnyIron>.remove(<gregtech:gt.metaitem.01:2304>);               
+
+// --- Pig Iron Dust
+<ore:dustAnyIron>.remove(<gregtech:gt.metaitem.01:2307>);               
+
+// --- Pig Iron Dust (Pure)
+<ore:dustPureAnyIron>.remove(<gregtech:gt.metaitem.01:4307>);           
+
+// --- Pig Iron Dust (Inpure)
+<ore:dustPureAnyIron>.remove(<gregtech:gt.metaitem.01:3307>);           
+
+// --- Wrought Iron Dust (Small)
+<ore:dustSmallAnyIron>.remove(<gregtech:gt.metaitem.01:1304>);          
+
+// --- Pig Iron Dust (Small)
+<ore:dustSmallAnyIron>.remove(<gregtech:gt.metaitem.01:1307>);          
+
+// --- Wrought Iron Dust (Tiny)
+<ore:dustTinyAnyIron>.remove(<gregtech:gt.metaitem.01:304>);            
+
+// --- Pig Iron Dust (Tiny)
+<ore:dustTinyAnyIron>.remove(<gregtech:gt.metaitem.01:307>);            
+
+// --- Wrought Iron Nugget
+<ore:nuggetAnyIron>.remove(<gregtech:gt.metaitem.01:9304>);             
+
+// --- Pig Iron Nugget
+<ore:nuggetAnyIron>.remove(<gregtech:gt.metaitem.01:9307>);             
+
+// --- Annealed Copper Ingot
+<ore:ingotAnyCopper>.remove(<gregtech:gt.metaitem.01:11345>);   
+
+// --- Annealed Copper Ingot (Double)
+<ore:ingotDoubleAnyCopper>.remove(<gregtech:gt.metaitem.01:13345>);
+
+// --- Annealed Copper Ingot (Triple)
+<ore:ingotTripleAnyCopper>.remove(<gregtech:gt.metaitem.01:14345>);
+
+// --- Annealed Copper Ingot (Quadruple)
+<ore:ingotQuadrupleAnyCopper>.remove(<gregtech:gt.metaitem.01:15345>);  
+
+// --- Annealed Copper Ingot (Quintuple)
+<ore:ingotQuintupleAnyCopper>.remove(<gregtech:gt.metaitem.01:16345>);  
+
+// --- Annealed Copper Dust
+<ore:dustAnyCopper>.remove(<gregtech:gt.metaitem.01:2345>); 
+
+// --- Annealed Copper Dust (Small)
+<ore:dustSmallAnyCopper>.remove(<gregtech:gt.metaitem.01:1345>);
+
+// --- Annealed Copper Dust (Tiny)
+<ore:dustTinyAnyCopper>.remove(<gregtech:gt.metaitem.01:345>);   
+
+// --- Annealed Copper Nugget
+<ore:nuggetAnyCopper>.remove(<gregtech:gt.metaitem.01:9345>);          
+
+
+
 
 
 // --- Assembler Recipes ---
@@ -344,19 +445,19 @@ recipes.addShaped(VoidUp, [
 
 
 // --- Barrel
-Assembler.addRecipe(Barrel, Slab1 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab2 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank1 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab3 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank2 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab4 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank3 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab5 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank4 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab6 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank5 * 8, Chest, 200, 16);
 // -
-Assembler.addRecipe(Barrel, Slab7 * 8, Chest, 200, 16);
+Assembler.addRecipe(Barrel, Plank6 * 8, Chest, 200, 16);
 
 
 // --- Storage Upgrade

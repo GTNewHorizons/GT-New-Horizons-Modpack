@@ -1237,13 +1237,13 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
-[<ore:cableGt01AnyCopper>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01AnyCopper>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:cableGt01AnyCopper>, <dreamcraft:item.AluminiumItemCasing>, <ore:cableGt01AnyCopper>],
+[<dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Power Unit
 recipes.addShaped(<IC2:itemRecipePart:2>, [
-[<ore:cableGt01Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt01Gold>],
+[<ore:cableGt02Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt02Gold>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:*>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32601>, <ore:circuitAdvanced>]]);
 
@@ -1423,7 +1423,7 @@ recipes.addShaped(<IC2:blockKineticGenerator:1>, [
 // --- Kinetic Wind Generator
 recipes.addShaped(<IC2:blockKineticGenerator>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<IC2:itemRecipePart:12>, <gregtech:gt.blockcasings2:4>, <IC2:itemRecipePart:12>],
+[<IC2:itemRecipePart:12>, <gregtech:gt.blockcasings2:3>, <IC2:itemRecipePart:12>],
 [<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>]]);
 
 // --- Semi Fluid Generator
@@ -1932,30 +1932,3 @@ Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 
 
 // --- Coolant
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2hotcoolant", Amount: 1000}}), 200);
-
-
-
-// --- Nei Change Names ---
-
-
- 
-// --- Refined Block
-NEI.overrideName(<IC2:blockMetal:5>, "Block of Steel");
-
-// --- Steel Shaft
-NEI.overrideName(<IC2:itemRecipePart:12>, "Shaft (Steel)");
-
-// --- Steel Item Casing
-NEI.overrideName(<IC2:itemCasing:5>, "Steel Item Casing");
-
-// --- Steel Plate
-NEI.overrideName(<IC2:itemPlates:5>, "Steel Plate");
-
-// --- Dense Steel Plate
-NEI.overrideName(<IC2:itemDensePlates:5>, "Dense Steel Plate");
-
-// --- Steel Ingot
-NEI.overrideName(<IC2:itemIngot:3>, "Steel Ingot");
-
-// --- Block Cutting Blade
-NEI.overrideName(<IC2:itemAdvIronBlockCuttingBlade>, "Block Cutting Blade (Steel)");

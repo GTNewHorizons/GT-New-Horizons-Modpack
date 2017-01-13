@@ -7,25 +7,6 @@ import mods.gregtech.Assembler;
 
 
 
-
-
-// --- Removing Recipes ---
-
-
-
-
-// --- Printed Circuit Board
-recipes.remove(<OpenComputers:item:32>);
-
-// --- Computer Case Tier 2
-recipes.remove(<OpenComputers:case2>);
-
-// --- Computer Case Tier 3
-recipes.remove(<OpenComputers:case3>);
-
-
-
-
 // --- Adding Recipes ---
 
 

@@ -445,26 +445,26 @@ recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire>, [<greg
 
 // --- Gold Saw
 recipes.addShaped(<ProjRed|Exploration:projectred.exploration.sawgold>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <gregtech:gt.metaitem.02:7086>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <gregtech:gt.metaitem.02:7086>, <ore:stickSteel>],
 [null, null, null]]);
 
 //--- Ruby Saw
 recipes.addShaped(<ProjRed|Exploration:projectred.exploration.sawruby>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladeRuby>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeRuby>, <ore:stickSteel>],
 [null, null, null]]);
 
 // --- Sapphire Saw
 recipes.addShaped(<ProjRed|Exploration:projectred.exploration.sawsapphire>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladeSapphire>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeSapphire>, <ore:stickSteel>],
 [null, null, null]]);
 
 // --- Peridot Saw
 recipes.addShaped(<ProjRed|Exploration:projectred.exploration.sawperidot>, [
-[<ore:stickWood>, <ore:rodSteel>, <ore:rodSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladePeridot>, <ore:rodSteel>],
+[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickWood>, <dreamcraft:item.SawBladePeridot>, <ore:stickSteel>],
 [null, null, null]]);
 
 // --- Ruby Boots
