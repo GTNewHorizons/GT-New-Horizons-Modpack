@@ -2297,6 +2297,42 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_leggings>, <liquid:gold
 // --- Gold Boots
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_boots>, <liquid:gold.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
 
+// --- Travellers Goggles
+recipes.addShaped(TGoggles, [
+[<harvestcraft:hardenedleatherItem>, <ore:boltElectrum>, <harvestcraft:hardenedleatherItem>],
+[<ore:ringElectrum>, <minecraft:diamond_helmet>, <ore:ringElectrum>],
+[<ore:lensDiamond>, <ore:circuitAdvanced>, <ore:lensDiamond>]]);
+
+// --- Travellers Vest
+recipes.addShaped(TVest, [
+[<harvestcraft:hardenedleatherItem>, <ore:circuitAdvanced>, <harvestcraft:hardenedleatherItem>],
+[<ore:plateObsidian>, <minecraft:diamond_chestplate>, <ore:plateObsidian>],
+[<harvestcraft:hardenedleatherItem>, <ore:plateObsidian>, <harvestcraft:hardenedleatherItem>]]);
+
+// --- Travellers Glove
+recipes.addShaped(TGlove, [
+[null, <harvestcraft:hardenedleatherItem>, <ore:plateDiamond>],
+[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+[null, <harvestcraft:hardenedleatherItem>, <ore:circuitAdvanced>]]);
+
+// --- Travellers Wings
+recipes.addShaped(TWings, [
+[<ore:plateDiamond>, <harvestcraft:hardenedleatherItem>, <ore:plateDiamond>],
+[<TConstruct:fletching>, <ore:circuitAdvanced>, <TConstruct:fletching>],
+[<TConstruct:fletching>, <minecraft:diamond_leggings>, <TConstruct:fletching>]]);
+
+// --- Travellers Belt
+recipes.addShaped(TBelt, [
+[null, <ore:circuitAdvanced>, null],
+[<harvestcraft:hardenedleatherItem>, <ore:plateDiamond>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
+
+// --- Travellers Boots
+recipes.addShaped(TBoots, [
+[null, <ore:plateDiamond>, <ore:plateDiamond>],
+[null, <minecraft:diamond_boots>, <ore:circuitAdvanced>],
+[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32642>]]);
+
 
 
 
