@@ -235,6 +235,7 @@ public enum ItemList
     ManyullynPlate(new ModSimpleBaseItem("ManyullynPlate", ModTabList.ModGenericTab)),
     MarsStoneDust(new ModSimpleBaseItem("MarsStoneDust", ModTabList.ModSpaceTab)),
     NanoCircuit(new ModSimpleBaseItem("NanoCircuit", ModTabList.ModCircuitsTab)),
+    MaceratedPlantmass(new ModSimpleBaseItem("MaceratedPlantmass", ModTabList.ModGenericTab)),
     MakeMakeStoneDust(new ModSimpleBaseItem("MakeMakeStoneDust", ModTabList.ModSpaceTab)),
     MalformedSlush(new ModSimpleBaseItem("MalformedSlush", ModTabList.ModThaumcraftTab)),
     Marshmallow(new ModSimpleBaseItem("Marshmallow", ModTabList.ModThaumcraftTab)),
