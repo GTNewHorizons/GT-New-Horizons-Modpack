@@ -49502,7 +49502,6 @@
     {
       "questID": 609,
       "name": "Battery Alloy",
-      "description": "Mixing Antimony and Lead in the Alloy smelter give some battery alloy.\nCombinig it with some Tin Cable and voila there ar your small Batterie Hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49707,7 +49706,7 @@
     },
     {
       "questID": 611,
-      "name": "Single Use Batterie : Mercury",
+      "name": "Single Use Battery : Mercury",
       "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
       "isMain": false,
       "isSilent": false,
@@ -49809,7 +49808,7 @@
     },
     {
       "questID": 612,
-      "name": "Single Use Batterie : Acid",
+      "name": "Single Use Battery : Acid",
       "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
       "isMain": false,
       "isSilent": false,
@@ -49911,7 +49910,7 @@
     },
     {
       "questID": 613,
-      "name": "Battery reuse able : Sodium",
+      "name": "Battery reusable : Sodium",
       "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
@@ -50021,7 +50020,7 @@
     },
     {
       "questID": 614,
-      "name": "Battery reuse able : Cadmium",
+      "name": "Battery reusable : Cadmium",
       "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
@@ -50132,7 +50131,7 @@
     },
     {
       "questID": 615,
-      "name": "Battery reuse able : Lithium",
+      "name": "Battery reusable : Lithium",
       "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
@@ -50243,7 +50242,7 @@
     {
       "questID": 616,
       "name": "Mercury",
-      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinebar Ore in the Redstone Vein you can using this too.",
+      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinabar Ore in the Redstone Vein you can using this too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
