@@ -12,6 +12,7 @@ import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modfixes.ModFixBase;
 
+import cpw.mods.fml.common.eventhandler.EventPriority;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 
@@ -19,9 +20,9 @@ import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 /**
  * Problem: The original Avarita-Source of this sword will only check for Minecraft.Skeleton.
  * SpecialMobs replaces all of those (For wither skeletons even EnderIO does...) with their
- * own ones. 
+ * own ones.
  * 
- * Solution: A configurable list of entity-class-names that are valid for this special behavior 
+ * Solution: A configurable list of entity-class-names that are valid for this special behavior
  * of the sword.
  */
 public class SkullFireSwordDropFix extends ModFixBase
@@ -31,10 +32,10 @@ public class SkullFireSwordDropFix extends ModFixBase
   public SkullFireSwordDropFix()
   {
     super( "AvaritiaSkullFireDropFix" );
-    mSkullFireSword = ItemDescriptor.fromString( "Avaritia:Skull_Sword",true );
+    mSkullFireSword = ItemDescriptor.fromString( "Avaritia:Skull_Sword", true );
   }
 
-  /** 
+  /**
    * We do need the MinecraftForge EVENT_BUS
    */
   @Override
@@ -63,8 +64,8 @@ public class SkullFireSwordDropFix extends ModFixBase
   }
 
   /**
-   *  Check the configured list if given Entity is valid for the special handling  
-   *  
+   * Check the configured list if given Entity is valid for the special handling
+   * 
    * @param pEntity
    * @return
    */
@@ -74,63 +75,79 @@ public class SkullFireSwordDropFix extends ModFixBase
 
     for( String tECN : MainRegistry.CoreConfig.SkullFireSwordEntityTargets )
     {
+
       if( tECN.equalsIgnoreCase( pEntity.getClass().getCanonicalName() ) )
       {
         tValue = true;
         break;
       }
     }
-
+    // MainRegistry.Logger.info( String.format( "SkullFireSwordDropFix::isValidSkeletonEntity > %b [%s]", tValue,
+    // pEntity.getClass().getCanonicalName() ) );
     return tValue;
   }
 
   // ======= Start: Avaritia Jar =======
 
-  private void addDrop( LivingDropsEvent event, ItemStack drop )
+  private void dropWitherHeadsInWorld( LivingDropsEvent event, ItemStack drop )
   {
     EntityItem entityitem = new EntityItem( event.entityLiving.worldObj, event.entityLiving.posX, event.entityLiving.posY, event.entityLiving.posZ, drop );
     entityitem.delayBeforeCanPickup = 10;
-    event.drops.add( entityitem );
+    event.entityLiving.worldObj.spawnEntityInWorld( entityitem );
   }
 
-  @SubscribeEvent
+  /*
+   * private void addDrop( LivingDropsEvent event, ItemStack drop )
+   * {
+   * EntityItem entityitem = new EntityItem( event.entityLiving.worldObj, event.entityLiving.posX,
+   * event.entityLiving.posY, event.entityLiving.posZ, drop );
+   * entityitem.delayBeforeCanPickup = 10;
+   * event.drops.add( entityitem );
+   * }
+   */
+
+  @SubscribeEvent( priority = EventPriority.LOWEST )
   public void onLivingDrops( LivingDropsEvent event )
   {
-    if( event.recentlyHit && ( isValidSkeletonEntity( event.entityLiving ) && ( event.source.getEntity() instanceof EntityPlayer ) ) )
+    try
     {
-      EntityPlayer player = (EntityPlayer) event.source.getEntity();
-      if( ( player.getHeldItem() != null ) && ( player.getHeldItem().getItem() == mSkullFireSword.getItem() ) )
+      if( mSkullFireSword == null )
+        return;
+
+      // MainRegistry.Logger.info( "SkullFireSwordDropFix::onLivingDrops" );
+      if( event.recentlyHit && ( isValidSkeletonEntity( event.entityLiving ) && ( event.source.getEntity() instanceof EntityPlayer ) ) )
       {
-        if( event.drops.isEmpty() )
+        EntityPlayer player = (EntityPlayer) event.source.getEntity();
+        if( ( player.getHeldItem() != null ) && ( player.getHeldItem().getItem() == mSkullFireSword.getItem() ) )
         {
-          addDrop( event, new ItemStack( Items.skull, 1, 1 ) );
-        }
-        else
-        {
-          int skulls = 0;
-          for( int i = 0; i < event.drops.size(); i++ )
+          // MainRegistry.Logger.info( "SkullFireSwordDropFix::Perform DropAction" );
+
+          if( event.drops.isEmpty() )
+            dropWitherHeadsInWorld( event, new ItemStack( Items.skull, 1, 1 ) );
+          else
           {
-            EntityItem drop = (EntityItem) event.drops.get( i );
-            ItemStack stack = drop.getEntityItem();
-            if( stack.getItem() == Items.skull )
+            int skulls = 0;
+            for( int i = 0; i < event.drops.size(); i++ )
             {
-              if( stack.getItemDamage() == 1 )
+              EntityItem drop = (EntityItem) event.drops.get( i );
+              ItemStack stack = drop.getEntityItem();
+              if( stack.getItem() == Items.skull )
               {
-                skulls++;
-              }
-              else if( stack.getItemDamage() == 0 )
-              {
-                skulls++;
-                stack.setItemDamage( 1 );
+                if( stack.getItemDamage() == 1 )
+                  dropWitherHeadsInWorld( event, new ItemStack( Items.skull, ( skulls + 1 ), 1 ) );
+                else if( stack.getItemDamage() == 0 )
+                  dropWitherHeadsInWorld( event, new ItemStack( Items.skull, 1, 1 ) );
               }
             }
-          }
-          if( skulls == 0 )
-          {
-            addDrop( event, new ItemStack( Items.skull, 1, 1 ) );
+            if( skulls == 0 )
+              dropWitherHeadsInWorld( event, new ItemStack( Items.skull, 1, 1 ) );
           }
         }
       }
+    }
+    catch( Exception e )
+    {
+      e.printStackTrace();
     }
   }
   // ======= End: Avaritia Jar =======
