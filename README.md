@@ -145,7 +145,7 @@ mc.stonelegion.com<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2k<BR>
 * Dummy Core 1.13<BR>
-* Electro Magic Tools	1.2.6.2<BR>
+* Electro Magic Tools	1.2.6.5<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.2.0.39<BR>
 * Ender IO	2.3.0.430<BR>
