@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.3.0.0 is out (13.01.2017)
+Version 1.3.0.0pre2 is out (15.01.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,10 +97,10 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.3.0.0pre --- 13.01.2017<BR>
+## Modlist - NewHorizons 1.3.0.0pre2 --- 15.01.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta20<BR>
+* Adventure Backpack 0.9fbeta21pre<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.3b<BR>
 * AFSU	1.2.3.a<BR>
@@ -126,7 +126,7 @@ mc.stonelegion.com<BR>
 * Binnie Mods	2.0-pre14<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
-* Blood Arsenal	1.2.6<BR>
+* Blood Arsenal	1.2.7<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
@@ -151,7 +151,7 @@ mc.stonelegion.com<BR>
 * Ender IO	2.3.0.430<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
-* Enhanced Loot Bags 1.0.1<BR>
+* Enhanced Loot Bags 1.0.2<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells	2.3.14b199<BR>
@@ -167,11 +167,11 @@ mc.stonelegion.com<BR>
 * Galacticraft-Planets	3.0.12.464<BR>
 * GalacticraftCore	3.0.12.464<BR>
 * GalactiGreg	0.9.5<BR>
-* Galaxy Space	1.1.3<BR>
+* Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u1<BR>
-* Gregtech	5.09.27.08<BR>
-* GT New Horizons Core Mod	1.3.09<BR>
+* Gregtech	5.09.27.13<BR>
+* GT New Horizons Core Mod	1.3.10<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -195,7 +195,7 @@ mc.stonelegion.com<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.460aGS2.6Custom<BR>
+* MicdoodleCore	3.0.12.464<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -210,7 +210,7 @@ mc.stonelegion.com<BR>
 * Open Blocks	1.5.1.738<BR>
 * Open Computers	1.6.1.11<BR>
 * Open Mods Lib	0.9.1.458<BR>
-* Open Modular Turrets 2.2.9.232<BR>
+* Open Modular Turrets 2.2.10.233<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-96<BR>
 * p455w0rdslib 1.0.4<BR>
@@ -235,7 +235,7 @@ mc.stonelegion.com<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.0<BR>
-* Special Mobs	3.2.2c<BR>
+* Special Mobs	3.3.0<BR>
 * Spice of Life	1.3.6<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
