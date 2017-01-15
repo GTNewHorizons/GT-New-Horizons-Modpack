@@ -43401,7 +43401,7 @@
     {
       "questID": 547,
       "name": "Your oil is too Crude? Refine it!",
-      "description": "Burning Oil in the Diesel Generator is a very ineffective way of getting power. Every Bucket/cell of Oil gives you 16000 EU. Try refining it...",
+      "description": "Burning Oil in the Diesel Generator is a very ineffective way of getting power. Every Bucket/cell of Oil gives you 20000 EU. Try refining it...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43477,7 +43477,7 @@
     {
       "questID": 548,
       "name": "Light Sulfuric Fuel",
-      "description": "First step is to distillate your Oil into light sulfuric fuel with a burn value of 32000 EU.",
+      "description": "First step is to distillate your Oil into light sulfuric fuel with a burn value of 40000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43560,7 +43560,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 256000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
+      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 320000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43734,7 +43734,7 @@
     {
       "questID": 551,
       "name": "Heavy Sulfuric Fuel",
-      "description": "Second step is to distillate your Oil into heavy sulfuric fuel with a burn value of 32000 EU.",
+      "description": "Second step is to distillate your Oil into heavy sulfuric fuel with a burn value of 40000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43823,7 +43823,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 192000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
+      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43914,7 +43914,7 @@
     {
       "questID": 553,
       "name": "Diesel Fuel",
-      "description": "Mixing your light and heavy Fuel together gives you some Diesel.\nIt burns very well in the Diesel Generator with an burn value of 320000 EU.",
+      "description": "Mixing your light and heavy Fuel together gives you some Diesel.\nIt burns very well in the Diesel Generator with an burn value of 400000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44243,7 +44243,7 @@
     {
       "questID": 557,
       "name": "NITRO!",
-      "description": "576000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your Diesel Engine with it.",
+      "description": "720000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your Diesel Engine with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49502,6 +49502,7 @@
     {
       "questID": 609,
       "name": "Battery Alloy",
+      "description": "No Description",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
