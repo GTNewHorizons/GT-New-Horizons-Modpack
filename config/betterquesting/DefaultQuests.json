@@ -52379,6 +52379,578 @@
       ]
     },
     {
+      "questID": 639,
+      "name": "Sulfuric Naphtha",
+      "description": "Another destillate you can make out of oil is sulfuric naphtha with a burn value of 40000 EU but in the Gas Turbine. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "liquid_sulfuricnaphtha",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_sulfuricnaphtha",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "hydrogen",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        547,
+        533
+      ]
+    },
+    {
+      "questID": 640,
+      "name": "LPG",
+      "description": "Centrifuge your Refined Gas gives you LPG Gas with  burn value of 320000 EU same as Naphtha. And it is a way to get Methan.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "liquid_lpg",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_lpg",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "ic2biogas",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        643
+      ]
+    },
+    {
+      "questID": 641,
+      "name": "Naphtha",
+      "description": "You can process sulfuric naphtha to fluid naphtha with have a burn value of 320000 EU but in the Gas Turbine.\nNaphtha is a Base product for polyethylene and polycaprolactam.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "liquid_naphtha",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_naphtha",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "oxygen",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        639
+      ]
+    },
+    {
+      "questID": 642,
+      "name": "Sulfuric Gas",
+      "description": "Another destillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "gas_sulfuricgas",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "gas_sulfuricgas",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "nitrogen",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        547,
+        533
+      ]
+    },
+    {
+      "questID": 643,
+      "name": "Refined Gas",
+      "description": "Refine your gas give it a better burn value of 160000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "gas_gas",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "gas_gas",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "methane",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        642
+      ]
+    },
+    {
+      "questID": 644,
+      "name": "Methane",
+      "description": "First step is to distillate your Oil into light sulfuric fuel with a burn value of 40000 EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFluidCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "methane",
+            "Amount:4": 1000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "methane",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "nitrofuel",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        640
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -56892,7 +57464,7 @@
         },
         {
           "id": 98,
-          "x": 336,
+          "x": 384,
           "y": 204
         },
         {
@@ -56907,12 +57479,12 @@
         },
         {
           "id": 101,
-          "x": 240,
-          "y": 252
+          "x": 288,
+          "y": 240
         },
         {
           "id": 102,
-          "x": 288,
+          "x": 336,
           "y": 468
         },
         {
@@ -57057,13 +57629,13 @@
         },
         {
           "id": 538,
-          "x": 288,
+          "x": 336,
           "y": 204
         },
         {
           "id": 539,
-          "x": 288,
-          "y": 324
+          "x": 336,
+          "y": 396
         },
         {
           "id": 540,
@@ -57077,13 +57649,13 @@
         },
         {
           "id": 542,
-          "x": 420,
+          "x": 444,
           "y": 288
         },
         {
           "id": 543,
-          "x": 156,
-          "y": 324
+          "x": 192,
+          "y": 396
         },
         {
           "id": 544,
@@ -57097,63 +57669,63 @@
         },
         {
           "id": 546,
-          "x": 120,
+          "x": 108,
           "y": 108
         },
         {
           "id": 547,
-          "x": 120,
+          "x": 108,
           "y": 156
         },
         {
           "id": 548,
-          "x": 120,
-          "y": 204
+          "x": 108,
+          "y": 360
         },
         {
           "id": 549,
-          "x": 120,
-          "y": 288
+          "x": 144,
+          "y": 360
         },
         {
           "id": 550,
-          "x": 240,
-          "y": 288
+          "x": 288,
+          "y": 360
         },
         {
           "id": 551,
           "x": 192,
-          "y": 204
-        },
-        {
-          "id": 552,
-          "x": 192,
           "y": 288
         },
         {
-          "id": 553,
-          "x": 156,
-          "y": 204
-        },
-        {
-          "id": 554,
-          "x": 156,
-          "y": 252
-        },
-        {
-          "id": 555,
+          "id": 552,
           "x": 240,
           "y": 360
         },
         {
-          "id": 556,
+          "id": 553,
           "x": 156,
-          "y": 360
+          "y": 324
+        },
+        {
+          "id": 554,
+          "x": 192,
+          "y": 324
+        },
+        {
+          "id": 555,
+          "x": 288,
+          "y": 432
+        },
+        {
+          "id": 556,
+          "x": 192,
+          "y": 432
         },
         {
           "id": 557,
-          "x": 120,
-          "y": 360
+          "x": 144,
+          "y": 432
         },
         {
           "id": 563,
@@ -57162,73 +57734,73 @@
         },
         {
           "id": 598,
-          "x": 384,
-          "y": 360
+          "x": 408,
+          "y": 396
         },
         {
           "id": 599,
-          "x": 240,
+          "x": 288,
           "y": 204
         },
         {
           "id": 608,
-          "x": 384,
-          "y": 396
+          "x": 408,
+          "y": 432
         },
         {
           "id": 609,
-          "x": 420,
+          "x": 444,
           "y": 360
         },
         {
           "id": 612,
-          "x": 564,
+          "x": 648,
           "y": 396
         },
         {
           "id": 613,
-          "x": 564,
+          "x": 648,
           "y": 324
         },
         {
           "id": 614,
-          "x": 564,
+          "x": 648,
           "y": 360
         },
         {
           "id": 615,
-          "x": 564,
+          "x": 648,
           "y": 288
         },
         {
           "id": 611,
-          "x": 564,
+          "x": 648,
           "y": 444
         },
         {
           "id": 616,
-          "x": 492,
+          "x": 576,
           "y": 444
         },
         {
           "id": 617,
-          "x": 528,
+          "x": 612,
           "y": 420
         },
         {
           "id": 618,
-          "x": 492,
+          "x": 576,
           "y": 396
         },
         {
           "id": 619,
-          "x": 636,
+          "x": 708,
           "y": 396
         },
         {
           "id": 620,
-          "x": 420,
-          "y": 396
+          "x": 444,
+          "y": 432
         },
         {
           "id": 621,
@@ -57247,13 +57819,43 @@
         },
         {
           "id": 624,
-          "x": 528,
+          "x": 576,
           "y": 324
         },
         {
           "id": 626,
-          "x": 336,
+          "x": 384,
           "y": 468
+        },
+        {
+          "id": 639,
+          "x": 192,
+          "y": 204
+        },
+        {
+          "id": 640,
+          "x": 240,
+          "y": 288
+        },
+        {
+          "id": 641,
+          "x": 240,
+          "y": 204
+        },
+        {
+          "id": 642,
+          "x": 192,
+          "y": 240
+        },
+        {
+          "id": 643,
+          "x": 240,
+          "y": 240
+        },
+        {
+          "id": 644,
+          "x": 240,
+          "y": 324
         }
       ]
     },
