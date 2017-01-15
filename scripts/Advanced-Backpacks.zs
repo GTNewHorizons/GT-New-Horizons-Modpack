@@ -17,6 +17,9 @@ import mods.gregtech.Brewery;
 // --- Advanced Backpack
 recipes.remove(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), true);
 
+// --- Squid Backpack
+recipes.remove(<adventurebackpack:adventureBackpack:62>.withTag({backpackData: {colorName: "Squid"}}), true);
+
 // --- Backpack Tank
 recipes.remove(<adventurebackpack:backpackComponent:2>);
 
@@ -92,6 +95,24 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {
 [<ore:materialHardenedleather>, <ore:plateAluminium>, <ore:materialHardenedleather>],
 [<BuildCraft|Factory:tankBlock>, <ore:chestIron>, <BuildCraft|Factory:tankBlock>],
 [<ore:materialHardenedleather>, <OpenBlocks:sleepingBag>, <ore:materialHardenedleather>]]);
+
+// --- Bat Backpack
+recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({backpackData: {colorName: "Bat"}}), [
+[<ore:itemLeather>, <ore:blockWoolBlack>, <ore:itemLeather>],
+[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
+[<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
+
+// --- Iron Golem Backpack
+recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({backpackData: {colorName: "IronGolem"}}), [
+[<ore:itemLeather>, <minecraft:red_flower>, <ore:itemLeather>],
+[<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+// --- Squid Backpack
+recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({backpackData: {colorName: "Squid"}}), [
+[<ore:itemLeather>, <minecraft:dye>, <ore:itemLeather>],
+[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8269>],
+[<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]]);
 
 // --- Backpack Tank
 recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<BuildCraft|Factory:tankBlock>]);
