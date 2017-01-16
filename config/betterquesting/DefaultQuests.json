@@ -38043,7 +38043,7 @@
               "id": "TConstruct:Armor.DryingRack",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
