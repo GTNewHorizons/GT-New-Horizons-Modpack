@@ -882,6 +882,66 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:ingotObsidian>, null, null],
 [<ore:ingotObsidian>, null, null]]);
 
+// --- Mossy Marbel Coblestone
+recipes.addShaped(<gregtech:gt.blockstones:2>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:1>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Marbel Bricks
+recipes.addShaped(<gregtech:gt.blockstones:5>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:3>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Light Concrete Coblestone
+recipes.addShaped(<gregtech:gt.blockconcretes:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockconcretes:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Light Concrete Bricks
+recipes.addShaped(<gregtech:gt.blockconcretes:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockconcretes:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Basalt Coblestone
+recipes.addShaped(<gregtech:gt.blockstones:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Basalt Bricks
+recipes.addShaped(<gregtech:gt.blockstones:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Black Coblestone
+recipes.addShaped(<gregtech:gt.blockgranites:2>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:1>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Black Bricks
+recipes.addShaped(<gregtech:gt.blockgranites:5>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:3>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Red Coblestone
+recipes.addShaped(<gregtech:gt.blockgranites:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Red Bricks
+recipes.addShaped(<gregtech:gt.blockgranites:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
 
 
 
