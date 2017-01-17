@@ -59,15 +59,6 @@ public class GT_Block_CasingsNH
         CustomItemList.Casing_AirFilter_Vent.set(new ItemStack(this, 1, 1));//adding
         CustomItemList.Casing_Pyrolyze.set(new ItemStack(this, 1, 2));//adding
 
-        CustomItemList.eM_Casing.set(new ItemStack(this, 1, 3));//adding
-        CustomItemList.eM_Field.set(new ItemStack(this, 1, 4));//adding
-        CustomItemList.eM_Field_Casing.set(new ItemStack(this, 1, 5));//adding
-        CustomItemList.eM_Coil.set(new ItemStack(this, 1, 6));//adding
-        CustomItemList.eM_Tele.set(new ItemStack(this, 1, 7));//adding
-        CustomItemList.eM_TimeSpaceWarp.set(new ItemStack(this,1,8));
-
-        CustomItemList.debugBlock.set(new ItemStack(this, 1, 9));
-
         CustomItemList.Casing_UEV.set(new ItemStack(this,1,10));
         CustomItemList.Casing_UIV.set(new ItemStack(this,1,11));
         CustomItemList.Casing_UMV.set(new ItemStack(this,1,12));
