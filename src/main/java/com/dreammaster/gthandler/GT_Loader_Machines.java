@@ -3117,7 +3117,7 @@ public class GT_Loader_Machines
 						'C', OreDictNames.craftingChest,
 						'X', OrePrefixes.circuit.get(Materials.Basic)});
 
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UEV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"CMV", " X ",
 						'M', CustomItemList.Hull_UIV,
@@ -3125,7 +3125,7 @@ public class GT_Loader_Machines
 						'C', OreDictNames.craftingChest,
 						'X', OrePrefixes.circuit.get(Materials.Basic)});
 
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UIV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"CMV", " X ",
 						'M', CustomItemList.Hull_UMV,
