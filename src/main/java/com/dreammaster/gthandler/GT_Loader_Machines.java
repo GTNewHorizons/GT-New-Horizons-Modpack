@@ -34,55 +34,6 @@ public class GT_Loader_Machines
 		// GT 5.08.30
 
 
-		//TODO add Conveyor Modules for more Tiers
-		// ===================================================================================================
-		// Automated Chest Buffer
-		// ===================================================================================================
-		CustomItemList.Automation_ChestBuffer_UHV.set(new GT_MetaTileEntity_Regulator(
-				9400, "automation.chestbuffer.tier.10", "Ultra Low Voltage Regulator", 10).getStackForm(1L));
-
-		CustomItemList.Automation_ChestBuffer_UEV.set(new GT_MetaTileEntity_Regulator(
-				9401, "automation.chestbuffer.tier.11", "Low Voltage Regulator", 11).getStackForm(1L));
-
-		CustomItemList.Automation_ChestBuffer_UIV.set(new GT_MetaTileEntity_Regulator(
-				9402, "automation.chestbuffer.tier.12", "Medium Voltage Regulator", 12).getStackForm(1L));
-
-		CustomItemList.Automation_ChestBuffer_UMV.set(new GT_MetaTileEntity_Regulator(
-				9403, "automation.chestbuffer.tier.13", "High Voltage Regulator", 13).getStackForm(1L));
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"CMV", " X ",
-						'M', ItemList.Hull_MAX,
-						'V', ItemList.Conveyor_Module_UV,
-						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"CMV", " X ",
-						'M', CustomItemList.Hull_UEV,
-						'V', ItemList.Conveyor_Module_UV,
-						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"CMV", " X ",
-						'M', CustomItemList.Hull_UIV,
-						'V', ItemList.Conveyor_Module_UV,
-						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"CMV", " X ",
-						'M', CustomItemList.Hull_UMV,
-						'V', ItemList.Conveyor_Module_UV,
-						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
-
-
 		// ===================================================================================================
 		// Plasma Generators
 		// ===================================================================================================
@@ -3130,6 +3081,56 @@ public class GT_Loader_Machines
 
 		//CustomItemList.Battery_TurboCharger_4by4_MAXV.set(new GT_MetaTileEntity_TurboCharger(
 		//		12055, "batteryturbocharger.16.tier.15", "Maximum Turbo Charger",15,"64A in /16A out", 4).getStackForm(1L));
+
+		
+
+		//TODO add Conveyor Modules for more Tiers
+		// ===================================================================================================
+		// Automated Chest Buffer
+		// ===================================================================================================
+		CustomItemList.Automation_ChestBuffer_UHV.set(new GT_MetaTileEntity_Regulator(
+				12060 , "automation.chestbuffer.tier.10", "Ultra Low Voltage Regulator", 10).getStackForm(1L));
+
+		CustomItemList.Automation_ChestBuffer_UEV.set(new GT_MetaTileEntity_Regulator(
+				12061, "automation.chestbuffer.tier.11", "Low Voltage Regulator", 11).getStackForm(1L));
+
+		CustomItemList.Automation_ChestBuffer_UIV.set(new GT_MetaTileEntity_Regulator(
+				12062, "automation.chestbuffer.tier.12", "Medium Voltage Regulator", 12).getStackForm(1L));
+
+		CustomItemList.Automation_ChestBuffer_UMV.set(new GT_MetaTileEntity_Regulator(
+				12063, "automation.chestbuffer.tier.13", "High Voltage Regulator", 13).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', ItemList.Hull_MAX,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Basic)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UEV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Basic)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UIV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Basic)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UMV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Basic)});
 
 
 
