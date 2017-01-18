@@ -12,6 +12,7 @@ import gregtech.api.interfaces.ITexture;
 import gregtech.api.metatileentity.implementations.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Recipe;
+import gregtech.common.tileentities.automation.GT_MetaTileEntity_ChestBuffer;
 import gregtech.common.tileentities.automation.GT_MetaTileEntity_Regulator;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
 import gregtech.common.tileentities.machines.basic.*;
@@ -3088,16 +3089,16 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// Automated Chest Buffer
 		// ===================================================================================================
-		CustomItemList.Automation_ChestBuffer_UHV.set(new GT_MetaTileEntity_Regulator(
+		CustomItemList.Automation_ChestBuffer_UHV.set(new GT_MetaTileEntity_ChestBuffer(
 				12060 , "automation.chestbuffer.tier.10", "Ultra Low Voltage Regulator", 10).getStackForm(1L));
 
-		CustomItemList.Automation_ChestBuffer_UEV.set(new GT_MetaTileEntity_Regulator(
+		CustomItemList.Automation_ChestBuffer_UEV.set(new GT_MetaTileEntity_ChestBuffer(
 				12061, "automation.chestbuffer.tier.11", "Low Voltage Regulator", 11).getStackForm(1L));
 
-		CustomItemList.Automation_ChestBuffer_UIV.set(new GT_MetaTileEntity_Regulator(
+		CustomItemList.Automation_ChestBuffer_UIV.set(new GT_MetaTileEntity_ChestBuffer(
 				12062, "automation.chestbuffer.tier.12", "Medium Voltage Regulator", 12).getStackForm(1L));
 
-		CustomItemList.Automation_ChestBuffer_UMV.set(new GT_MetaTileEntity_Regulator(
+		CustomItemList.Automation_ChestBuffer_UMV.set(new GT_MetaTileEntity_ChestBuffer(
 				12063, "automation.chestbuffer.tier.13", "High Voltage Regulator", 13).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
