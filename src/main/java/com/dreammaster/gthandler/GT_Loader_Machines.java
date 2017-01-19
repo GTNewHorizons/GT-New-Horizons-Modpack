@@ -3107,7 +3107,7 @@ public class GT_Loader_Machines
 						'M', ItemList.Hull_MAX,
 						'V', ItemList.Conveyor_Module_UV,
 						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
+						'X', OrePrefixes.circuit.get(Materials.Good)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UHV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -3115,7 +3115,7 @@ public class GT_Loader_Machines
 						'M', CustomItemList.Hull_UEV,
 						'V', ItemList.Conveyor_Module_UV,
 						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
+						'X', OrePrefixes.circuit.get(Materials.Advanced)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UEV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -3123,7 +3123,7 @@ public class GT_Loader_Machines
 						'M', CustomItemList.Hull_UIV,
 						'V', ItemList.Conveyor_Module_UV,
 						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
+						'X', OrePrefixes.circuit.get(Materials.Master)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UIV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -3131,7 +3131,7 @@ public class GT_Loader_Machines
 						'M', CustomItemList.Hull_UMV,
 						'V', ItemList.Conveyor_Module_UV,
 						'C', OreDictNames.craftingChest,
-						'X', OrePrefixes.circuit.get(Materials.Basic)});
+						'X', OrePrefixes.circuit.get(Materials.Ultimate)});
 
 
 
