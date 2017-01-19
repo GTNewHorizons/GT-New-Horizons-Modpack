@@ -11,7 +11,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
-import mods.gregtech.Extruder;quantum
+import mods.gregtech.Extruder;
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
