@@ -47,10 +47,10 @@ public class GT_Block_CasingsNH
 
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".9.name", "Debug Sides");//adding
 
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".10.name", "UHV Machine Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".11.name", "UEV Machine Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".12.name", "UIV Machine Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".13.name", "UMV Machine Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".10.name", "UEV Machine Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".11.name", "UIV Machine Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".12.name", "UMV Machine Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".13.name", "UXV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".14.name", "OPV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".15.name", "MAX Machine Casing");//adding
 

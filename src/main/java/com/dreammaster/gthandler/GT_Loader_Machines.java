@@ -12,6 +12,7 @@ import gregtech.api.interfaces.ITexture;
 import gregtech.api.metatileentity.implementations.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Recipe;
+import gregtech.common.tileentities.automation.GT_MetaTileEntity_ChestBuffer;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
 import gregtech.common.tileentities.machines.basic.*;
 import net.minecraft.item.ItemStack;
@@ -31,6 +32,11 @@ public class GT_Loader_Machines
 
 		// MetaTileEntity ID Range: look at end of file
 		// GT 5.08.30
+
+
+		// ===================================================================================================
+		// Plasma Generators
+		// ===================================================================================================
 
 		CustomItemList.Generator_Plasma_ZPMV.set(new GT_MetaTileEntity_PlasmaGenerator(
 				10752, "basicgenerator.plasmagenerator.tier.08", "Plasma Generator Mark IV",7).getStackForm(1L));
@@ -2559,8 +2565,17 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UEV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PHP", "WMW",
+						'M', CustomItemList.Casing_UEV,
+						'W', OrePrefixes.cableGt08.get(Materials.Draconium),
+						'H', OrePrefixes.plate.get(Materials.Bedrockium),
+						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
+
 		CustomItemList.Hull_UIV.set(new GT_MetaTileEntity_BasicHull(
-				11231, "hull.tier.11", "UIV Machine Hull",11,
+				11231, "hull.tier.11", "UIV Machine Hull", 11,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
 						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
 						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
@@ -2569,8 +2584,17 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UIV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PHP", "WMW",
+						'M', CustomItemList.Casing_UIV,
+						'W', OrePrefixes.cableGt08.get(Materials.NetherStar),
+						'H', OrePrefixes.plate.get(Materials.BlackPlutonium),
+						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
+
 		CustomItemList.Hull_UMV.set(new GT_MetaTileEntity_BasicHull(
-				11232, "hull.tier.12", "UMV Machine Hull",12,
+				11232, "hull.tier.12", "UMV Machine Hull", 12,
 				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
 						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
 						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
@@ -2578,6 +2602,15 @@ public class GT_Loader_Machines
 						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
 						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
 						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UMV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PHP", "WMW",
+						'M', CustomItemList.Casing_UMV,
+						'W', OrePrefixes.wireGt12.get(Materials.Quantium),
+						'H', OrePrefixes.plate.get(Materials.Draconium),
+						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
 		CustomItemList.Hull_UXV.set(new GT_MetaTileEntity_BasicHull(
 				11233, "hull.tier.13", "UXV Machine Hull",13,
@@ -3075,6 +3108,67 @@ public class GT_Loader_Machines
 
 		//CustomItemList.Battery_TurboCharger_4by4_MAXV.set(new GT_MetaTileEntity_TurboCharger(
 		//		12055, "batteryturbocharger.16.tier.15", "Maximum Turbo Charger",15,"64A in /16A out", 4).getStackForm(1L));
+
+		
+
+		//TODO add Conveyor Modules for more Tiers
+		// ===================================================================================================
+		// Automated Chest Buffer
+		// ===================================================================================================
+		CustomItemList.Automation_ChestBuffer_UEV.set(new GT_MetaTileEntity_ChestBuffer(
+				12060 , "automation.chestbuffer.tier.10", "Ultra High Voltage Chest Buffer", 10).getStackForm(1L));
+
+		CustomItemList.Automation_ChestBuffer_UIV.set(new GT_MetaTileEntity_ChestBuffer(
+				12061, "automation.chestbuffer.tier.11", "UEV Voltage Chest Buffer", 11).getStackForm(1L));
+
+		CustomItemList.Automation_ChestBuffer_UMV.set(new GT_MetaTileEntity_ChestBuffer(
+				12062, "automation.chestbuffer.tier.12", "UIV Voltage Chest Buffer", 12).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UEV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UEV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Advanced)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UIV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UIV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Master)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UMV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CMV", " X ",
+						'M', CustomItemList.Hull_UMV,
+						'V', ItemList.Conveyor_Module_UV,
+						'C', OreDictNames.craftingChest,
+						'X', OrePrefixes.circuit.get(Materials.Ultimate)});
+
+
+		//TODO new tiered maybe
+		// ===================================================================================================
+		// Casing
+		// ===================================================================================================
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UEV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PPP", "PwP", "PPP",
+						'P', OrePrefixes.plate.get(Materials.Bedrockium)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UIV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PPP", "PwP", "PPP",
+						'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UMV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"PPP", "PwP", "PPP",
+						'P', OrePrefixes.plate.get(Materials.Draconium)});
+
 
 
 
