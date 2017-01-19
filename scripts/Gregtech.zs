@@ -11,7 +11,7 @@ import mods.gregtech.Autoclave;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
-import mods.gregtech.Extruder;
+import mods.gregtech.Extruder;quantum
 import mods.gregtech.Fermenter;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
@@ -352,18 +352,6 @@ recipes.removeShaped(<ore:ingotThauminite>, [
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>]]);
-
-// --- Quantum Tank IV
-recipes.remove(<gregtech:gt.blockmachines:123>);
-
-// --- Quantum Chest V
-recipes.remove(<gregtech:gt.blockmachines:124>);
-
-// --- Quantum Chest IV
-recipes.remove(<gregtech:gt.blockmachines:128>);
-
-// --- Quantum Chest V
-recipes.remove(<gregtech:gt.blockmachines:129>);
 
 // --- Iridium IC2
 recipes.remove(<IC2:itemOreIridium>);
@@ -823,30 +811,6 @@ recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.f
 
 // --- Scaffolding
 recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<OpenBlocks:scaffolding>]);
-
-// --- Quantum Tank IV
-recipes.addShaped(<gregtech:gt.blockmachines:123>, [
-[<dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.metaitem.01:32673>, <dreamcraft:item.HighEnergyFlowCircuit>],
-[<ore:plateEuropium>, <gregtech:gt.blockmachines:14>, <ore:plateEuropium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateEuropium>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
-
-// --- Quantum Tank V
-recipes.addShaped(<gregtech:gt.blockmachines:124>, [
-[<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>],
-[<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
-[<dreamcraft:item.PikoCircuit>, <ore:plateAmericium>, <dreamcraft:item.PikoCircuit>]]);
-
-// --- Quantum Chest IV
-recipes.addShaped(<gregtech:gt.blockmachines:128>, [
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateEuropium>, <dreamcraft:item.HighEnergyFlowCircuit>],
-[<ore:plateEuropium>, <gregtech:gt.blockmachines:14>, <ore:plateEuropium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.metaitem.01:32673>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
-
-// --- Quantum Chest V
-recipes.addShaped(<gregtech:gt.blockmachines:129>, [
-[<dreamcraft:item.PikoCircuit>, <ore:plateAmericium>, <dreamcraft:item.PikoCircuit>],
-[<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
-[<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>]]);
 
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <BloodArsenal:glass_shard>]);
