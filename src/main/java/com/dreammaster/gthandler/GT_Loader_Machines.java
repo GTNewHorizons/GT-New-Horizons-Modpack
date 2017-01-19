@@ -2570,7 +2570,7 @@ public class GT_Loader_Machines
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UEV,
-						'C', OrePrefixes.cableGt08.get(Materials.NetherStar),
+						'W', OrePrefixes.cableGt08.get(Materials.Draconium),
 						'H', OrePrefixes.plate.get(Materials.Bedrockium),
 						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
@@ -2589,7 +2589,7 @@ public class GT_Loader_Machines
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UIV,
-						'C', OrePrefixes.cableGt08.get(Materials.Quantium),
+						'W', OrePrefixes.cableGt08.get(Materials.NetherStar),
 						'H', OrePrefixes.plate.get(Materials.BlackPlutonium),
 						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
@@ -2608,7 +2608,7 @@ public class GT_Loader_Machines
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UMV,
-						'C', OrePrefixes.cableGt08.get(Materials.DraconiumAwakened),
+						'W', OrePrefixes.wireGt12.get(Materials.Quantium),
 						'H', OrePrefixes.plate.get(Materials.Draconium),
 						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
@@ -3168,17 +3168,17 @@ public class GT_Loader_Machines
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UEV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
+						'P', OrePrefixes.plate.get(Materials.Bedrockium)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UIV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.Draconium)});
+						'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UMV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.DraconiumAwakened)});
+						'P', OrePrefixes.plate.get(Materials.Draconium)});
 
 
 
