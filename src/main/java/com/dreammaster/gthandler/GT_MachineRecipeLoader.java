@@ -195,7 +195,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt08, Materials.NetherStar, 2L), CustomItemList.Casing_UIV.get(1L, new Object[0]), Materials.Polytetrafluoroethylene.getMolten(288), CustomItemList.Hull_UIV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt12, Materials.Quantium, 2L), CustomItemList.Casing_UMV.get(1L, new Object[0]), Materials.Polytetrafluoroethylene.getMolten(288), CustomItemList.Hull_UMV.get(1L, new Object[0]), 50, 16);
 
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Bedrockium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UEV.get(1L, new Object[0]), 50, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 8L, 0)), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UEV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.BlackPlutonium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UIV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Draconium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]), CustomItemList.Casing_UMV.get(1L, new Object[0]), 50, 16);
 
