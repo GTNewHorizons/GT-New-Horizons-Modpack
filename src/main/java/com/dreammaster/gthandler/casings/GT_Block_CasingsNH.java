@@ -146,7 +146,7 @@ public class GT_Block_CasingsNH
 
                 for(int xi=-2;xi<=2;xi++){
                     for(int zi=-2;zi<=2;zi++){
-                        if(null != (tTileEntity = aWorld.getTileEntity(xCoord+xi,yCoord-3,zCoord+zi)) &&
+                        if(null != (tTileEntity = aWorld.getTileEntity(xCoord+xi,yCoord-3<0?0:yCoord-3,zCoord+zi)) &&
                                 tTileEntity instanceof IGregTechTileEntity &&
                                 null != (tMetaTileEntity = ((IGregTechTileEntity)tTileEntity).getMetaTileEntity()) &&
                                 tMetaTileEntity instanceof GT_MetaTileEntity_AirFilter){
