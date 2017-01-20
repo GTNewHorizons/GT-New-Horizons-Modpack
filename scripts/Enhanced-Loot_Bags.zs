@@ -53,3 +53,42 @@ recipes.addShapeless(<enhancedlootbags:lootbag:17>.withTag({ench: [{lvl: 3 as sh
 
 // --- Loot Bag (BM Master)
 recipes.addShapeless(<enhancedlootbags:lootbag:18>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:18>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <AWWayofTime:blockTeleposer>]);
+
+// --- Loot Bag (Forest Basic)
+recipes.addShapeless(<enhancedlootbags:lootbag:19>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:19>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Forestry:waxCapsule>]);
+
+// --- Loot Bag (Forest Advanced)
+recipes.addShapeless(<enhancedlootbags:lootbag:20>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:20>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Forestry:craftingMaterial:6>]);
+
+// --- Loot Bag (Forest Expert)
+recipes.addShapeless(<enhancedlootbags:lootbag:21>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:21>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Forestry:hardenedMachine>]);
+
+// --- Loot Bag (Moon)
+recipes.addShapeless(<enhancedlootbags:lootbag:22>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:22>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <GalacticraftCore:item.airFan>]);
+
+// --- Loot Bag (Mars)
+recipes.addShapeless(<enhancedlootbags:lootbag:23>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:23>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <GalacticraftMars:item.itemBasicAsteroids:7>]);
+
+// --- Loot Bag (Asteroids)
+recipes.addShapeless(<enhancedlootbags:lootbag:24>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:24>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <dreamcraft:item.WaferTier3>]);
+
+// --- Loot Bag (Bee Basic)
+recipes.addShapeless(<enhancedlootbags:lootbag:25>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:25>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Forestry:propolis:3>]);
+
+// --- Loot Bag (Bee Advanced)
+recipes.addShapeless(<enhancedlootbags:lootbag:26>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:26>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Forestry:royalJelly>]);
+
+// --- Loot Bag (Bee Expert)
+recipes.addShapeless(<enhancedlootbags:lootbag:27>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:27>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gendustry:MutagenBucket>]);
+
+// --- Loot Bag (Bee Basic)
+recipes.addShapeless(<enhancedlootbags:lootbag:28>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:28>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:cake>]);
+
+// --- Loot Bag (Bee Advanced)
+recipes.addShapeless(<enhancedlootbags:lootbag:29>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:29>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.02:32243>]);
+
+// --- Loot Bag (Bee Expert)
+recipes.addShapeless(<enhancedlootbags:lootbag:30>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:30>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <harvestcraft:delightedmealItem>]);
+
+// --- Loot Bag (Bee Expert)
+recipes.addShapeless(<enhancedlootbags:lootbag:31>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:31>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <DraconicEvolution:dezilsMarshmallow>]);

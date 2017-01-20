@@ -161,6 +161,8 @@ recipes.addShaped(<MagicBees:backpack.thaumaturgeT1>, [
 [<harvestcraft:wovencottonItem>, <ore:gemAmber>, <harvestcraft:wovencottonItem>],
 [<ore:itemLeather>, <ore:gemAmber>, <ore:itemLeather>],
 [<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
+// - 
+recipes.addShapeless(<MagicBees:backpack.thaumaturgeT1>, [<MagicBees:backpack.thaumaturgeT1>]);
 
 // --- Thaumaturges Backpach Woven
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 

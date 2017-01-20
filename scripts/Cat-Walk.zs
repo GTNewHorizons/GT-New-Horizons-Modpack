@@ -58,13 +58,13 @@ recipes.remove(<catwalks:blowtorch>);
 
 
 // --- Catwalk
-recipes.addShaped(<catwalks:catwalk_unlit> * 3, [
+recipes.addShaped(<catwalks:catwalk_unlit> * 6, [
 [<catwalks:steelgrate>, <ore:stickSteel>, <catwalks:steelgrate>],
 [<ore:screwSteel>, <catwalks:steelgrate>, <ore:screwSteel>],
 [<ore:craftingToolScrewdriver>, <ore:stickSteel>, <ore:craftingToolWrench>]]);
 
 // --- Caged Ladda
-recipes.addShaped(<catwalks:cagedLadder_north_unlit> * 3, [
+recipes.addShaped(<catwalks:cagedLadder_north_unlit> * 6, [
 [<catwalks:steelgrate>, <minecraft:ladder>, <catwalks:steelgrate>],
 [<ore:screwSteel>, <catwalks:steelgrate>, <ore:screwSteel>],
 [<ore:craftingToolScrewdriver>, <ore:stickSteel>, <ore:craftingToolWrench>]]);
@@ -83,7 +83,7 @@ recipes.addShaped(<catwalks:support_column> * 3, [
 [<ore:stickSteel>, <catwalks:steelgrate>, <ore:stickSteel>]]);
 
 // --- Steel Grate
-recipes.addShaped(<catwalks:steelgrate>, [
+recipes.addShaped(<catwalks:steelgrate> * 5, [
 [<ore:stickSteel>, <ore:screwSteel>, <ore:stickSteel>],
 [<ore:screwSteel>, <ore:stickSteel>, <ore:screwSteel>],
 [<ore:stickSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>]]);
@@ -103,10 +103,10 @@ recipes.addShaped(<catwalks:blowtorch>, [
 
 
 // --- Steel Grate
-Assembler.addRecipe(<catwalks:steelgrate>, <gregtech:gt.metaitem.01:23305> * 5, <gregtech:gt.metaitem.01:27305> * 3, 100, 30);
+Assembler.addRecipe(<catwalks:steelgrate> * 10, <gregtech:gt.metaitem.01:23305> * 5, <gregtech:gt.metaitem.01:27305> * 3, 100, 30);
 
 // --- Catwalk Column
-Assembler.addRecipe(<catwalks:support_column> * 3, <gregtech:gt.metaitem.01:23305> * 6, <catwalks:steelgrate> * 3, 300, 30);
+Assembler.addRecipe(<catwalks:support_column> * 4, <gregtech:gt.metaitem.01:23305> * 6, <catwalks:steelgrate> * 4, 300, 30);
 
 // --- Catwalk
 Assembler.addRecipe(<catwalks:catwalk_unlit> * 3, <catwalks:steelgrate> * 3, <gregtech:gt.metaitem.01:27305> * 2, <liquid:molten.steel> * 144, 300, 30);

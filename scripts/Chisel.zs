@@ -70,6 +70,11 @@ recipes.remove(<chisel:upgrade:1>);
 // --- Stack Upgrade
 recipes.remove(<chisel:upgrade:2>);
 
+// --- Mossy stone
+mods.chisel.Groups.removeGroup("cobblestone");
+
+mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
+
 
 
 // --- Adding Back Recipes ---
@@ -131,6 +136,46 @@ recipes.addShaped(<chisel:upgrade:2>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
 [<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
+
+// --- Temple Mossy Blocks
+recipes.addShaped(<chisel:mossy_templeblock>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <chisel:templeblock>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Cobblestone
+mods.chisel.Groups.addGroup("CobblestoneBricks");
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:1>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:2>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:3>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:4>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:5>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:6>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:7>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:8>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:9>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:10>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:11>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:12>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:13>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:14>);
+// -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:15>);
+
 
 
 // --- Chisel Group Glass ---

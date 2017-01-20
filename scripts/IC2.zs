@@ -14,6 +14,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
+import mods.gregtech.Fuels;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
@@ -1498,6 +1499,15 @@ recipes.addShaped(<gregtech:gt.metaitem.02:2084>, [
 // --- Iridium Ingot
 recipes.addShaped(<gregtech:gt.metaitem.01:11084> * 16, [
 [<gregtech:gt.metaitem.03:1084>, <ore:craftingToolCrowbar>,null]]);
+
+
+// --- Add Fuel ---
+
+
+
+// --- Bio Gas
+Fuels.addGasTurbineFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2biogas", Amount: 1000}}), 40);
+
 
 
 

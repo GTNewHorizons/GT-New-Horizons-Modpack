@@ -353,18 +353,6 @@ recipes.removeShaped(<ore:ingotThauminite>, [
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>]]);
 
-// --- Quantum Tank IV
-recipes.remove(<gregtech:gt.blockmachines:123>);
-
-// --- Quantum Chest V
-recipes.remove(<gregtech:gt.blockmachines:124>);
-
-// --- Quantum Chest IV
-recipes.remove(<gregtech:gt.blockmachines:128>);
-
-// --- Quantum Chest V
-recipes.remove(<gregtech:gt.blockmachines:129>);
-
 // --- Iridium IC2
 recipes.remove(<IC2:itemOreIridium>);
 
@@ -824,30 +812,6 @@ recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.f
 // --- Scaffolding
 recipes.addShapeless(<gregtech:gt.blockmachines:4905>, [<OpenBlocks:scaffolding>]);
 
-// --- Quantum Tank IV
-recipes.addShaped(<gregtech:gt.blockmachines:123>, [
-[<dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.metaitem.01:32673>, <dreamcraft:item.HighEnergyFlowCircuit>],
-[<ore:plateEuropium>, <gregtech:gt.blockmachines:14>, <ore:plateEuropium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateEuropium>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
-
-// --- Quantum Tank V
-recipes.addShaped(<gregtech:gt.blockmachines:124>, [
-[<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>],
-[<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
-[<dreamcraft:item.PikoCircuit>, <ore:plateAmericium>, <dreamcraft:item.PikoCircuit>]]);
-
-// --- Quantum Chest IV
-recipes.addShaped(<gregtech:gt.blockmachines:128>, [
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateEuropium>, <dreamcraft:item.HighEnergyFlowCircuit>],
-[<ore:plateEuropium>, <gregtech:gt.blockmachines:14>, <ore:plateEuropium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.metaitem.01:32673>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
-
-// --- Quantum Chest V
-recipes.addShaped(<gregtech:gt.blockmachines:129>, [
-[<dreamcraft:item.PikoCircuit>, <ore:plateAmericium>, <dreamcraft:item.PikoCircuit>],
-[<ore:plateAmericium>, <gregtech:gt.blockmachines:15>, <ore:plateAmericium>],
-[<dreamcraft:item.PikoCircuit>, <gregtech:gt.metaitem.01:32674>, <dreamcraft:item.PikoCircuit>]]);
-
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <BloodArsenal:glass_shard>]);
 
@@ -881,6 +845,66 @@ recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [
 [<ore:craftingToolHardHammer>, null, null],
 [<ore:ingotObsidian>, null, null],
 [<ore:ingotObsidian>, null, null]]);
+
+// --- Mossy Marbel Coblestone
+recipes.addShaped(<gregtech:gt.blockstones:2>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:1>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Marbel Bricks
+recipes.addShaped(<gregtech:gt.blockstones:5>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:3>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Light Concrete Coblestone
+recipes.addShaped(<gregtech:gt.blockconcretes:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockconcretes:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Light Concrete Bricks
+recipes.addShaped(<gregtech:gt.blockconcretes:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockconcretes:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Basalt Coblestone
+recipes.addShaped(<gregtech:gt.blockstones:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Basalt Bricks
+recipes.addShaped(<gregtech:gt.blockstones:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockstones:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Black Coblestone
+recipes.addShaped(<gregtech:gt.blockgranites:2>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:1>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Black Bricks
+recipes.addShaped(<gregtech:gt.blockgranites:5>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:3>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Red Coblestone
+recipes.addShaped(<gregtech:gt.blockgranites:10>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:9>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
+// --- Mossy Granite Red Bricks
+recipes.addShaped(<gregtech:gt.blockgranites:13>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:11>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
 
 

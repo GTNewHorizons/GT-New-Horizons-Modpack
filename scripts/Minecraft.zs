@@ -2692,6 +2692,12 @@ recipes.addShaped(<minecraft:shears>, [
 recipes.addShaped(<minecraft:nether_star> * 16, [
 [<gregtech:gt.metaitem.03:2506>, <ore:craftingToolCrowbar>]]);
 
+// --- Mossy Coblestone
+recipes.addShaped(<minecraft:mossy_cobblestone>, [
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, MossyCobble, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+
 
 // --- Charcoal
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
