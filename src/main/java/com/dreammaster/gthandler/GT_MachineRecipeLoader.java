@@ -195,10 +195,20 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt08, Materials.NetherStar, 2L), CustomItemList.Casing_UIV.get(1L, new Object[0]), Materials.Polytetrafluoroethylene.getMolten(288), CustomItemList.Hull_UIV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt12, Materials.Quantium, 2L), CustomItemList.Casing_UMV.get(1L, new Object[0]), Materials.Polytetrafluoroethylene.getMolten(288), CustomItemList.Hull_UMV.get(1L, new Object[0]), 50, 16);
 
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 8L, 0)), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UEV.get(1L, new Object[0]), 50, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(CustomItemList.BedrockiumPlate.get(8L, new Object[0])), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UEV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.BlackPlutonium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]),  CustomItemList.Casing_UIV.get(1L, new Object[0]), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Draconium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L, new Object[0]), CustomItemList.Casing_UMV.get(1L, new Object[0]), 50, 16);
 
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Bronze, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Steel, 8L), ItemList.Casing_Tank_1.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Steel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Aluminium, 8L), ItemList.Casing_Tank_2.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.StainlessSteel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.StainlessSteel, 8L), ItemList.Casing_Tank_3.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Titanium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Titanium, 8L), ItemList.Casing_Tank_4.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.TungstenSteel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.TungstenSteel, 8L), ItemList.Casing_Tank_5.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.NiobiumTitanium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Chrome, 8L), ItemList.Casing_Tank_6.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Enderium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Iridium, 8L), ItemList.Casing_Tank_7.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Naquadah, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Osmium, 8L), ItemList.Casing_Tank_8.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Neutronium, 8L), ItemList.Casing_Tank_9.get(1L, new Object[0]), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.MysteriousCrystal, 1L), CustomItemList.BedrockiumPlate.get(8L, new Object[0]), ItemList.Casing_Tank_10.get(1L, new Object[0]), 100, 16);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L, new Object[0]), 								ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), GT_Values.NI, 2400, 120, 3300);
 
