@@ -124,7 +124,7 @@ public enum CustomItemList implements IItemContainer
 	VoidSeed,MicaBasedPulp,MicaBasedSheet,MicaInsulatorSheet,MicaInsulatorFoil,AluminoSilicateWool,
 	HotNetherrackBrick, InfernalBrick, AdvancedCokeOvenBrick, CokeOvenBrick,
 	MedalDerp,MedalGTExplosion,MedalBuilder,MedalEngineer,MedalWarp,
-	MaceratedPlantmass;
+	MaceratedPlantmass, BedrockiumPlate;
 
 
 	private ItemStack mStack = null;

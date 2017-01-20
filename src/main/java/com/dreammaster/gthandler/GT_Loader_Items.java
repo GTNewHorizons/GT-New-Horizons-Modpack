@@ -495,5 +495,6 @@ public class GT_Loader_Items
 		CustomItemList.MedalWarp.getItem().setMaxStackSize(1);
 		CustomItemList.AluminoSilicateWool.set(ItemList.AluminoSilicateWool.getIS());
 		CustomItemList.MaceratedPlantmass.set(ItemList.MaceratedPlantmass.getIS());
+		CustomItemList.BedrockiumPlate.set(ItemList.BedrockiumPlate.getIS());
 	}
 }
