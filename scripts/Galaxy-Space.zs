@@ -668,6 +668,16 @@ Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.The
 // --- Future Glass
 Assembler.addRecipe(<GalaxySpace:futureglass>, <minecraft:glass>, <gregtech:gt.metaitem.01:23884> * 8, 200, 480);
 
+// --- Space Suit Jetpack
+Assembler.addRecipe(<GalaxySpace:item.spacesuit_jetplate>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.spacesuit_plate>, <IC2:itemArmorJetpackElectric:*>, <liquid:molten.duralumin> * 1440, 600, 1920);
+
+// --- Space Suit Gravity Boots
+Assembler.addRecipe(<GalaxySpace:item.spacesuit_gravityboots>, <GalaxySpace:item.spacesuit_boots>, <GalaxySpace:item.CompressedPlates:4> * 2, <liquid:molten.duralumin> * 1440, 600, 1920);
+
+// --- Space Suit Sensor Glasses
+Assembler.addRecipe(<GalaxySpace:item.spacesuit_helmetglasses>, <GalaxySpace:item.spacesuit_helmet>, <GalacticraftCore:item.sensorGlasses>, <liquid:molten.duralumin> * 1440, 600, 1920);
+
+
 
 // --- Compressor Recipes ---
 
