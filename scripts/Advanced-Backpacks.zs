@@ -182,10 +182,10 @@ recipes.addShaped(<adventurebackpack:backpackComponent:7>, [
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
 
 // --- Inflateable Boot (Motorized)
-recipes.addShaped(<adventurebackpack:backpackComponent:8>, [
-[<ore:screwSteel>, <adventurebackpack:backpackComponent:7>, <ore:screwSteel>],
-[<ore:craftingToolScrewdriver>, <adventurebackpack:backpackComponent:5>, <ore:craftingToolWrench>],
-[<ore:screwSteel>, <adventurebackpack:backpackComponent:9>, <ore:screwSteel>]]);
+//recipes.addShaped(<adventurebackpack:backpackComponent:8>, [
+//[<ore:screwSteel>, <adventurebackpack:backpackComponent:7>, <ore:screwSteel>],
+//[<ore:craftingToolScrewdriver>, <adventurebackpack:backpackComponent:5>, <ore:craftingToolWrench>],
+//[<ore:screwSteel>, <adventurebackpack:backpackComponent:9>, <ore:screwSteel>]]);
 
 // --- Hydro Blade 
 recipes.addShaped(<adventurebackpack:backpackComponent:9>, [
