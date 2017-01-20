@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.3.0.0pre2 is out (15.01.2017)
+Version 1.3.0.0 is out (20.01.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,10 +97,10 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.3.0.0pre2 --- 15.01.2017<BR>
+## Modlist - NewHorizons 1.3.0.0 --- 20.01.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta21pre<BR>
+* Adventure Backpack 0.9fbeta25a<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.3b<BR>
 * AFSU	1.2.3.a<BR>
@@ -114,11 +114,11 @@ mc.stonelegion.com<BR>
 * Automagy	0.28.2<BR>
 * Avaritia 1.11<BR>
 * Avaritiaddons 1.2d<BR>
-* BackPack	2.2.3<BR>
+* BackPack	2.2.4<BR>
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
-* Better Questing 1.0.155<BR>
+* Better Questing 1.0.178<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -145,13 +145,13 @@ mc.stonelegion.com<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2k<BR>
 * Dummy Core 1.13<BR>
-* Electro Magic Tools	1.2.6.5<BR>
+* Electro Magic Tools	1.2.6.5a<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.2.0.39<BR>
 * Ender IO	2.3.0.430<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
-* Enhanced Loot Bags 1.0.2<BR>
+* Enhanced Loot Bags 1.0.2a<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells	2.3.14b199<BR>
@@ -170,8 +170,8 @@ mc.stonelegion.com<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u1<BR>
-* Gregtech	5.09.27.13<BR>
-* GT New Horizons Core Mod	1.3.10<BR>
+* Gregtech	5.09.27.15<BR>
+* GT New Horizons Core Mod	1.3.14<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -229,7 +229,7 @@ mc.stonelegion.com<BR>
 * Railcraft	9.12.2.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
-* ReAuth 3.2<BR>
+* ReAuth 3.4.1<BR>
 * RemoteIO	2.4.0<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
