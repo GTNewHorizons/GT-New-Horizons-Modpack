@@ -15,6 +15,7 @@ import gregtech.api.util.GT_Recipe;
 import gregtech.common.tileentities.automation.GT_MetaTileEntity_ChestBuffer;
 import gregtech.common.tileentities.generators.GT_MetaTileEntity_PlasmaGenerator;
 import gregtech.common.tileentities.machines.basic.*;
+import gregtech.loaders.preload.GT_Loader_MetaTileEntities;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumChatFormatting;
 
@@ -2557,13 +2558,7 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.Hull_UEV.set(new GT_MetaTileEntity_BasicHull(
 				11230, "hull.tier.10", "UEV Machine Hull",10,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UEV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2576,13 +2571,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.Hull_UIV.set(new GT_MetaTileEntity_BasicHull(
 				11231, "hull.tier.11", "UIV Machine Hull", 11,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UIV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2595,13 +2584,7 @@ public class GT_Loader_Machines
 
 		CustomItemList.Hull_UMV.set(new GT_MetaTileEntity_BasicHull(
 				11232, "hull.tier.12", "UMV Machine Hull", 12,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UMV.get(1L, new Object[0]),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
@@ -2614,33 +2597,15 @@ public class GT_Loader_Machines
 
 		CustomItemList.Hull_UXV.set(new GT_MetaTileEntity_BasicHull(
 				11233, "hull.tier.13", "UXV Machine Hull",13,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		CustomItemList.Hull_OPV.set(new GT_MetaTileEntity_BasicHull(
 				11234, "hull.tier.14", "OPV Machine Hull",14,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		CustomItemList.Hull_MAXV.set(new GT_MetaTileEntity_BasicHull(
 				11235, "hull.tier.15", "MAX Machine Hull",15,
-				EnumChatFormatting.RESET + "You just need " + EnumChatFormatting.DARK_PURPLE + "I" +
-						EnumChatFormatting.LIGHT_PURPLE + "m" + EnumChatFormatting.DARK_RED + "a" +
-						EnumChatFormatting.RED + "g" + EnumChatFormatting.YELLOW + "i" +
-						EnumChatFormatting.GREEN + "n" + EnumChatFormatting.AQUA + "a" +
-						EnumChatFormatting.DARK_AQUA + "t" + EnumChatFormatting.BLUE + "i" +
-						EnumChatFormatting.DARK_BLUE + "o" + EnumChatFormatting.DARK_PURPLE + "n" +
-						EnumChatFormatting.RESET + " to use this.", new ITexture[0]).getStackForm(1L));
+				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		//TODO:recipes
 
