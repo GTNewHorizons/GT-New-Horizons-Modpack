@@ -2570,7 +2570,7 @@ public class GT_Loader_Machines
 						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
 		CustomItemList.Hull_UIV.set(new GT_MetaTileEntity_BasicHull(
-				11231, "hull.tier.11", "UIV Machine Hull", 11,
+				11231, "hull.tier.11", "UIV Machine Hull",11,
 				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UIV.get(1L, new Object[0]),
@@ -2583,7 +2583,7 @@ public class GT_Loader_Machines
 						'P', OrePrefixes.plate.get(Materials.Polytetrafluoroethylene)});
 
 		CustomItemList.Hull_UMV.set(new GT_MetaTileEntity_BasicHull(
-				11232, "hull.tier.12", "UMV Machine Hull", 12,
+				11232, "hull.tier.12", "UMV Machine Hull",12,
 				GT_Loader_MetaTileEntities.imagination, new ITexture[0]).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UMV.get(1L, new Object[0]),
