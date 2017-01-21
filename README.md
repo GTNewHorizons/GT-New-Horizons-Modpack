@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.3.0.0 is out (20.01.2017)
+Version 1.3.0.1 is out (21.01.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,7 +97,7 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.3.0.0 --- 20.01.2017<BR>
+## Modlist - NewHorizons 1.3.0.1 --- 21.01.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta25a<BR>
@@ -170,8 +170,8 @@ mc.stonelegion.com<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.67u1<BR>
-* Gregtech	5.09.27.15<BR>
-* GT New Horizons Core Mod	1.3.14<BR>
+* Gregtech	5.09.27.16<BR>
+* GT New Horizons Core Mod	1.3.16<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
