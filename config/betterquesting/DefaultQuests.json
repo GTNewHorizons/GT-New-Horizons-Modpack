@@ -42375,6 +42375,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "TConstruct:blankPattern",
@@ -42383,7 +42385,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -44325,7 +44327,7 @@
     {
       "questID": 558,
       "name": "Where can I put all the Items in?",
-      "description": "After you make your first steel you're able to craft the small Backpack. In this Bag you can put all your stuff with no real limitation. With 36 Slots it is a big bigger then a small chest.",
+      "description": "After you make your first steel you\u0027re able to craft the small Backpack. In this Bag you can put all your stuff with no real limitation. With 36 Slots it is a big bigger then a small chest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51726,7 +51728,7 @@
     },
     {
       "questID": 632,
-      "name": "Fisherman's Friend",
+      "name": "Fisherman\u0027s Friend",
       "description": "Have you ever tried to catch a fish?? Now its time to craft a fishing rod and get some fish. Cast your fishing rod in some water and wait until the rope starts moving. Then get it back and hopefully catch a fish.",
       "isMain": false,
       "isSilent": false,
@@ -51999,7 +52001,7 @@
     {
       "questID": 635,
       "name": "Flour",
-      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.\n\nFlour can be used in many food recipes for Pam's Harvestcraft Food.",
+      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.\n\nFlour can be used in many food recipes for Pam\u0027s Harvestcraft Food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
