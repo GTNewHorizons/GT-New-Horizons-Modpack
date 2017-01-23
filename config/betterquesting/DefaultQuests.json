@@ -7608,7 +7608,7 @@
           "requiredItems": [
             {
               "id": "minecraft:netherbrick",
-              "Count": 136,
+              "Count": 68,
               "OreDict": "",
               "Damage": 0
             }
@@ -7623,7 +7623,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.HotNetherrackBrick",
-              "Count": 136,
+              "Count": 68,
               "OreDict": "",
               "Damage": 0
             }
@@ -7638,13 +7638,13 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CokeOvenBrick",
-              "Count": 136,
+              "Count": 68,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.InfernalBrick",
-              "Count": 136,
+              "Count": 68,
               "OreDict": "",
               "Damage": 0
             }
