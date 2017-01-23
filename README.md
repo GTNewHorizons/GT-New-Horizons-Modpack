@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.3.0.1 is out (21.01.2017)
+Version 1.3.0.2 is out (22.01.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -100,7 +100,7 @@ mc.stonelegion.com<BR>
 ## Modlist - NewHorizons 1.3.0.1 --- 21.01.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta25a<BR>
+* Adventure Backpack 0.9fbeta25b<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.3b<BR>
 * AFSU	1.2.3.a<BR>
