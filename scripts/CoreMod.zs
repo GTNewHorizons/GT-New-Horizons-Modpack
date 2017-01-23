@@ -557,7 +557,7 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedChromePlate>, [
 recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, [
 [<ore:screwRedAlloy>, <dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <ore:screwRedAlloy>],
 [<ore:plateOsmiridium>, <dreamcraft:item.ReinforcedNaquadriaIronPlate>, <ore:plateOsmiridium>],
-[<ore:screwRedAlloy>, <ore:plateQuantinum>, <ore:screwRedAlloy>]]);
+[<ore:screwRedAlloy>, <ore:plateQuantium>, <ore:screwRedAlloy>]]);
 
 // --- Irradiant Reinforced Tungsten Plate
 recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [
