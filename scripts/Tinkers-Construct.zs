@@ -2298,37 +2298,37 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_leggings>, <liquid:gold
 mods.tconstruct.Casting.addTableRecipe(<minecraft:golden_boots>, <liquid:gold.molten> * 576, <dreamcraft:item.MoldBoots>, false, 400);
 
 // --- Travellers Goggles
-recipes.addShaped(TGoggles, [
+recipes.addShaped(TGoggles.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 0.0, Built: 1 as byte, MaxDefense: 4.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}}), [
 [<harvestcraft:hardenedleatherItem>, <ore:boltElectrum>, <harvestcraft:hardenedleatherItem>],
 [<ore:ringElectrum>, <minecraft:diamond_helmet>, <ore:ringElectrum>],
 [<ore:lensDiamond>, <ore:circuitAdvanced>, <ore:lensDiamond>]]);
 
 // --- Travellers Vest
-recipes.addShaped(TVest, [
+recipes.addShaped(TVest.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 4.0, Built: 1 as byte, MaxDefense: 10.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}}), [
 [<harvestcraft:hardenedleatherItem>, <ore:circuitAdvanced>, <harvestcraft:hardenedleatherItem>],
 [<ore:plateObsidian>, <minecraft:diamond_chestplate>, <ore:plateObsidian>],
 [<harvestcraft:hardenedleatherItem>, <ore:plateObsidian>, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Travellers Glove
-recipes.addShaped(TGlove, [
+recipes.addShaped(TGlove.withTag({TinkerAccessory: {BaseDurability: 500, Built: 1 as byte, Damage: 0, BonusDurability: 0, TotalDurability: 500, ModDurability: 0.0 as float, Modifiers: 5, Broken: 0 as byte}}), [
 [null, <harvestcraft:hardenedleatherItem>, <ore:plateDiamond>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
 [null, <harvestcraft:hardenedleatherItem>, <ore:circuitAdvanced>]]);
 
 // --- Travellers Wings
-recipes.addShaped(TWings, [
+recipes.addShaped(TWings.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 8.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}}), [
 [<ore:plateDiamond>, <harvestcraft:hardenedleatherItem>, <ore:plateDiamond>],
 [<TConstruct:fletching>, <ore:circuitAdvanced>, <TConstruct:fletching>],
 [<TConstruct:fletching>, <minecraft:diamond_leggings>, <TConstruct:fletching>]]);
 
 // --- Travellers Belt
-recipes.addShaped(TBelt, [
+recipes.addShaped(TBelt.withTag({TinkerAccessory: {BaseDurability: 500, Built: 1 as byte, Damage: 0, BonusDurability: 0, TotalDurability: 500, ModDurability: 0.0 as float, Modifiers: 5, Broken: 0 as byte}}), [
 [null, <ore:circuitAdvanced>, null],
 [<harvestcraft:hardenedleatherItem>, <ore:plateDiamond>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Travellers Boots
-recipes.addShaped(TBoots, [
+recipes.addShaped(TBoots.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefense: 2.0, Built: 1 as byte, MaxDefense: 6.0, Damage: 0, BonusDurability: 0, Modifiers: 3, DamageReduction: 0.0, TotalDurability: 1035, ModDurability: 0.0 as float, Broken: 0 as byte}}), [
 [null, <ore:plateDiamond>, <ore:plateDiamond>],
 [null, <minecraft:diamond_boots>, <ore:circuitAdvanced>],
 [<harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32642>]]);
