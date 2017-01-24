@@ -898,7 +898,7 @@ mods.thaumcraft.Warp.addToResearch("CaP_ShadowClothGTNH", 2);
 mods.thaumcraft.Research.orphanResearch("CAP_crimsoncloth");
 mods.thaumcraft.Research.removeResearch("CAP_crimsoncloth");
 mods.thaumcraft.Research.addResearch("CaP_CrimsonClothGTNH", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <dreamcraft:item.CrimsonStainedClothCap>);
-mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CaP_ClothGTNH", true);
+mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "Cap_ClothGTNH", true);
 mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("CaP_CrimsonClothGTNH", true);
 game.setLocalization("tc.research_name.CaP_CrimsonClothGTNH", "Crimson-Stained Cloth Caps");
