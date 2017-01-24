@@ -146,6 +146,8 @@ recipes.addShaped(<chisel:mossy_templeblock>, [
 // --- Cobblestone
 mods.chisel.Groups.addGroup("CobblestoneBricks");
 // -
+mods.chisel.Groups.addVariation("CobblestoneBricks", <minecraft:cobblestone>);
+// -
 mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:1>);
 // -
 mods.chisel.Groups.addVariation("CobblestoneBricks", <chisel:cobblestone:2>);
