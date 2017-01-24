@@ -42937,10 +42937,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemDust",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 15,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 2035
             },
             {
               "id": "gregtech:gt.metaitem.01",
