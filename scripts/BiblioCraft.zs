@@ -180,6 +180,198 @@ var FrameB = [
 <BiblioCraft:BiblioMapFrames:6>]
 as IItemStack[];
 
+var  BOBwood = [
+<BiomesOPlenty:woodenSingleSlab1>,
+<BiomesOPlenty:woodenSingleSlab1:1>,
+<BiomesOPlenty:woodenSingleSlab1:2>,
+<BiomesOPlenty:woodenSingleSlab1:3>,
+<BiomesOPlenty:woodenSingleSlab2:3>,
+<BiomesOPlenty:woodenSingleSlab1:4>,
+<BiomesOPlenty:woodenSingleSlab2:4>,
+<BiomesOPlenty:woodenSingleSlab1:5>,
+<BiomesOPlenty:woodenSingleSlab1:6>,
+<BiomesOPlenty:woodenSingleSlab1:7>,
+<BiomesOPlenty:woodenSingleSlab2:2>,
+<BiomesOPlenty:woodenSingleSlab2>,
+<BiomesOPlenty:woodenSingleSlab2:1>,
+<BiomesOPlenty:woodenSingleSlab2:5>]
+as IItemStack[];
+
+var FClockBOP = [
+<BiblioWoodsBoP:BiblioWoodClock>,
+<BiblioWoodsBoP:BiblioWoodClock:1>,
+<BiblioWoodsBoP:BiblioWoodClock:2>,
+<BiblioWoodsBoP:BiblioWoodClock:3>,
+<BiblioWoodsBoP:BiblioWoodClock:4>,
+<BiblioWoodsBoP:BiblioWoodClock:5>,
+<BiblioWoodsBoP:BiblioWoodClock:6>,
+<BiblioWoodsBoP:BiblioWoodClock:7>,
+<BiblioWoodsBoP:BiblioWoodClock:8>,
+<BiblioWoodsBoP:BiblioWoodClock:9>,
+<BiblioWoodsBoP:BiblioWoodClock:10>,
+<BiblioWoodsBoP:BiblioWoodClock:11>,
+<BiblioWoodsBoP:BiblioWoodClock:12>,
+<BiblioWoodsBoP:BiblioWoodClock:13>]
+as IItemStack[];
+
+var F1wood = [
+<Forestry:slabs:2>,
+<Forestry:slabs:11>,
+<Forestry:slabs:6>,
+<Forestry:slabs:15>,
+<Forestry:slabs:4>,
+<Forestry:slabs:23>,
+<Forestry:slabs:9>,
+<Forestry:slabs:14>,
+<Forestry:slabs:8>,
+<Forestry:slabs>,
+<Forestry:slabs:3>,
+<Forestry:slabs:16>,
+<Forestry:slabs:10>,
+<Forestry:slabs:22>,
+<Forestry:slabs:18>,
+<Forestry:slabs:19>,]
+as IItemStack[];
+
+var F2wood = [
+<Forestry:slabs:20>,
+<Forestry:slabs:21>,
+<Forestry:slabs:17>,
+<Forestry:slabs:7>,
+<Forestry:slabs:1>,
+<Forestry:slabs:13>,
+<Forestry:slabs:5>,
+<Forestry:slabs:12>]
+as IItemStack[];
+
+var FClockF1 = [
+<BiblioWoodsForestry:BiblioWoodClock>,
+<BiblioWoodsForestry:BiblioWoodClock:1>,
+<BiblioWoodsForestry:BiblioWoodClock:2>,
+<BiblioWoodsForestry:BiblioWoodClock:3>,
+<BiblioWoodsForestry:BiblioWoodClock:4>,
+<BiblioWoodsForestry:BiblioWoodClock:5>,
+<BiblioWoodsForestry:BiblioWoodClock:6>,
+<BiblioWoodsForestry:BiblioWoodClock:7>,
+<BiblioWoodsForestry:BiblioWoodClock:8>,
+<BiblioWoodsForestry:BiblioWoodClock:9>,
+<BiblioWoodsForestry:BiblioWoodClock:10>,
+<BiblioWoodsForestry:BiblioWoodClock:11>,
+<BiblioWoodsForestry:BiblioWoodClock:12>,
+<BiblioWoodsForestry:BiblioWoodClock:13>,
+<BiblioWoodsForestry:BiblioWoodClock:14>,
+<BiblioWoodsForestry:BiblioWoodClock:15>]
+as IItemStack[];
+
+var FClockF2 = [
+<BiblioWoodsForestry:BiblioWoodClock2>,
+<BiblioWoodsForestry:BiblioWoodClock2:1>,
+<BiblioWoodsForestry:BiblioWoodClock2:2>,
+<BiblioWoodsForestry:BiblioWoodClock2:3>,
+<BiblioWoodsForestry:BiblioWoodClock2:4>,
+<BiblioWoodsForestry:BiblioWoodClock2:5>,
+<BiblioWoodsForestry:BiblioWoodClock2:6>,
+<BiblioWoodsForestry:BiblioWoodClock2:7>]
+as IItemStack[];
+
+var FClockN = [
+<BiblioWoodsNatura:BiblioWoodClock>,
+<BiblioWoodsNatura:BiblioWoodClock:1>,
+<BiblioWoodsNatura:BiblioWoodClock:2>,
+<BiblioWoodsNatura:BiblioWoodClock:3>,
+<BiblioWoodsNatura:BiblioWoodClock:4>,
+<BiblioWoodsNatura:BiblioWoodClock:5>,
+<BiblioWoodsNatura:BiblioWoodClock:6>,
+<BiblioWoodsNatura:BiblioWoodClock:7>,
+<BiblioWoodsNatura:BiblioWoodClock:8>,
+<BiblioWoodsNatura:BiblioWoodClock:9>,
+<BiblioWoodsNatura:BiblioWoodClock:10>,
+<BiblioWoodsNatura:BiblioWoodClock:11>,
+<BiblioWoodsNatura:BiblioWoodClock:12>]
+as IItemStack[];
+
+var Nwood = [
+<Natura:plankSlab1:4>,
+<Natura:plankSlab2:3>,
+<Natura:plankSlab1>,
+<Natura:plankSlab2:4>,
+<Natura:plankSlab1:2>,
+<Natura:plankSlab1:5>,
+<Natura:plankSlab1:6>,
+<Natura:plankSlab2>,
+<Natura:plankSlab1:3>,
+<Natura:plankSlab1:7>,
+<Natura:plankSlab1:1>,
+<Natura:plankSlab2:1>,
+<Natura:plankSlab2:2>,]
+as IItemStack[];
+
+var PaintingN = [
+<BiblioWoodsNatura:BiblioWoodPaintingT0>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:5>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:6>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:7>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:8>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:9>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:10>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:11>,
+<BiblioWoodsNatura:BiblioWoodPaintingT0:12>]
+as IItemStack[];
+
+var PaintingBOP = [
+<BiblioWoodsBoP:BiblioWoodPaintingT0>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:5>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:6>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:7>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:8>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:9>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:10>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:11>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:12>,
+<BiblioWoodsBoP:BiblioWoodPaintingT0:13>]
+as IItemStack[];
+
+var PaintingF1 = [
+<BiblioWoodsForestry:BiblioWoodPaintingT0>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:7>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:8>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:9>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:10>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:11>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:12>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:13>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:14>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0:15>]
+as IItemStack[];
+
+var PaintingF2 = [
+<BiblioWoodsForestry:BiblioWoodPaintingT0b>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT0b:7>]
+as IItemStack[];
+
+
+
+
 
 
 
@@ -238,6 +430,36 @@ recipes.remove(<BiblioCraft:item.FramingSheet>);
 
 // --- Frame Board
 recipes.remove(<BiblioCraft:item.FramingBoard>);
+
+// --- Drafting Compas
+recipes.remove(<BiblioCraft:item.BiblioMapTool>);
+
+// --- Waypoint Compas
+recipes.remove(<BiblioCraft:item.BiblioWayPointCompass>);
+
+// --- Monocle
+recipes.remove(<BiblioCraft:item.BiblioGlasses:2>);
+
+// --- Plum Line
+recipes.remove(<BiblioCraft:item.PlumbLine>);
+
+// --- Reading Glasses
+recipes.remove(<BiblioCraft:item.BiblioGlasses>);
+
+// --- Hand Drill
+recipes.remove(<BiblioCraft:item.HandDrill>);
+
+// --- Screw Gun
+recipes.remove(<BiblioCraft:item.BiblioDrill>);
+
+// --- Tape Measure Real
+recipes.remove(<BiblioCraft:item.tape>);
+
+// --- Tape Maesure
+recipes.remove(<BiblioCraft:item.tapeMeasure>);
+
+// --- Clipboard
+recipes.remove(<BiblioCraft:item.BiblioClipboard>);
 
 
 
@@ -326,6 +548,34 @@ for i, slabs in Swood {
     recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
+// ---
+for i, slabs in BOBwood {
+    var FClock = FClockBOP[i];
+    
+    recipes.remove(FClock);
+    recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
+}
+// ---
+for i, slabs in F1wood {
+    var FClock = FClockF1[i];
+    
+    recipes.remove(FClock);
+    recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
+}
+// ---
+for i, slabs in F2wood {
+    var FClock = FClockF2[i];
+    
+    recipes.remove(FClock);
+    recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
+}
+// ---
+for i, slabs in Nwood {
+    var FClock = FClockN[i];
+    
+    recipes.remove(FClock);
+    recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
+}
 
 // Borderless Painting
 for i, slabs in Swood {
@@ -333,6 +583,34 @@ for i, slabs in Swood {
     
     recipes.remove(CPainting);
     recipes.addShaped(CPainting, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
+}
+// ---
+for i, slabs in BOBwood {
+    var CPaintingB = PaintingBOP[i];
+    
+    recipes.remove(CPaintingB);
+    recipes.addShaped(CPaintingB, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
+}
+// ---
+for i, slabs in F1wood {
+    var CPaintingF1 = PaintingF1[i];
+    
+    recipes.remove(CPaintingF1);
+    recipes.addShaped(CPaintingF1, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
+}
+// ---
+for i, slabs in F2wood {
+    var CPaintingF2 = PaintingF2[i];
+    
+    recipes.remove(CPaintingF2);
+    recipes.addShaped(CPaintingF2, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
+}
+// ---
+for i, slabs in Nwood {
+    var CPaintingN = PaintingN[i];
+    
+    recipes.remove(CPaintingN);
+    recipes.addShaped(CPaintingN, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 
 // Flat Painting
@@ -445,6 +723,60 @@ recipes.addShaped(<BiblioCraft:item.FramingSheet> * 2, [
 recipes.addShaped(<BiblioCraft:item.FramingBoard> * 2, [
 [<BiblioCraft:item.FramingSheet>, <ore:craftingToolSaw>]]);
 
+// --- Drafting Compas
+recipes.addShaped(<BiblioCraft:item.BiblioMapTool>, [
+[<ore:stickIron>, <ore:screwIron>, <ore:stickIron>],
+[<ore:stickIron>, <ore:stickIron>, <ore:craftingToolFile>],
+[<ore:stickIron>, <ore:screwIron>, <ore:craftingToolScrewdriver>]]);
+
+// --- Waypoint Compas
+recipes.addShaped(<BiblioCraft:item.BiblioWayPointCompass>, [
+[<ore:stickGold>, <ore:ringGold>, <ore:craftingToolFile>],
+[<ore:screwGold>, <minecraft:compass>, <ore:screwGold>],
+[<ore:craftingToolScrewdriver>, <ore:ringGold>, <ore:stickGold>]]);
+
+// --- Monocle
+recipes.addShaped(<BiblioCraft:item.BiblioGlasses:2>, [
+[<ore:ringGold>, <ore:wireFineGold>, <ore:wireFineGold>],
+[<ore:lensGlass>, <ore:craftingToolSoftHammer>, <ore:wireFineGold>],
+[null, <ore:wireFineGold>, null]]);
+
+// --- Plum Line
+recipes.addShaped(<BiblioCraft:item.PlumbLine>, [
+[<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>],
+[<ore:plateLead>, <ore:craftingToolSoftHammer>, <ore:wireFineSteel>],
+[<ore:roundLead>, null, <ore:wireFineSteel>]]);
+
+// --- Reading Glasses
+recipes.addShaped(<BiblioCraft:item.BiblioGlasses>, [
+[<ore:stickIron>, <ore:screwIron>, <ore:stickIron>],
+[<ore:ringIron>, <ore:boltIron>, <ore:ringIron>],
+[<ore:lensGlass>, <ore:craftingToolScrewdriver>, <ore:lensGlass>]]);
+
+// --- Screw Gun
+recipes.addShaped(<BiblioCraft:item.BiblioDrill>, [
+[<ore:screwIron>, <ore:boltIron>, <ore:craftingToolScrewdriver>],
+[<ore:gearGtSmallIron>, <IC2:itemRecipePart:3>, <ore:gearGtSmallIron>],
+[<ore:plateIron>, <IC2:itemBatREDischarged>, <ore:plateIron>]]);
+
+// --- Tape Measure Real
+recipes.addShaped(<BiblioCraft:item.tape>, [
+[<ore:wireFineIron>, <ore:wireFineIron>, <ore:wireFineIron>],
+[<ore:wireFineIron>, <ore:dyeYellow>, <ore:wireFineIron>],
+[<ore:wireFineIron>, <ore:wireFineIron>, <ore:wireFineIron>]]);
+
+// --- Tape Maesure
+recipes.addShaped(<BiblioCraft:item.tapeMeasure>, [
+[<BiblioCraft:item.tape>, <BiblioCraft:item.tape>, <BiblioCraft:item.tape>],
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
+
+// --- Clipboard
+recipes.addShaped(<BiblioCraft:item.BiblioClipboard>, [
+[<ore:screwIron>, <ore:springSmallIron>, <ore:screwIron>],
+[<ore:craftingToolScrewdriver>, <gregtech:gt.metaitem.01:17809>, <ore:craftingToolSaw>],
+[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+
+
 
 
 // --- Cutting Saw Recipes ---
@@ -550,12 +882,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:1>, [
 [PlumSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:1>, PlumSlab],
 [PlumSlab, PlumSlab, PlumSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:1>, [
-[PlumSlab, <minecraft:clock>, PlumSlab],
-[PlumSlab, <ore:stickWood>, PlumSlab],
-[PlumSlab, <ore:ingotGold>, PlumSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:17>, [
 [null, <ore:blockWool>, null],
@@ -659,12 +985,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:0>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [PineSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:0>, PineSlab],
 [PineSlab, PineSlab, PineSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:0>, [
-[PineSlab, <minecraft:clock>, PineSlab],
-[PineSlab, <ore:stickWood>, PineSlab],
-[PineSlab, <ore:ingotGold>, PineSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:16>, [
@@ -770,12 +1090,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:2>, [
 [PoplarSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:2>, PoplarSlab],
 [PoplarSlab, PoplarSlab, PoplarSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:2>, [
-[PoplarSlab, <minecraft:clock>, PoplarSlab],
-[PoplarSlab, <ore:stickWood>, PoplarSlab],
-[PoplarSlab, <ore:ingotGold>, PoplarSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:18>, [
 [null, <ore:blockWool>, null],
@@ -879,12 +1193,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:3>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [SequoiaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:3>, SequoiaSlab],
 [SequoiaSlab, SequoiaSlab, SequoiaSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:3>, [
-[SequoiaSlab, <minecraft:clock>, SequoiaSlab],
-[SequoiaSlab, <ore:stickWood>, SequoiaSlab],
-[SequoiaSlab, <ore:ingotGold>, SequoiaSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:19>, [
@@ -990,12 +1298,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:4>, [
 [TeakSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:4>, TeakSlab],
 [TeakSlab, TeakSlab, TeakSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:4>, [
-[TeakSlab, <minecraft:clock>, TeakSlab],
-[TeakSlab, <ore:stickWood>, TeakSlab],
-[TeakSlab, <ore:ingotGold>, TeakSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:20>, [
 [null, <ore:blockWool>, null],
@@ -1099,12 +1401,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:5>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [WalnutSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:5>, WalnutSlab],
 [WalnutSlab, WalnutSlab, WalnutSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:5>, [
-[WalnutSlab, <minecraft:clock>, WalnutSlab],
-[WalnutSlab, <ore:stickWood>, WalnutSlab],
-[WalnutSlab, <ore:ingotGold>, WalnutSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:21>, [
@@ -1210,12 +1506,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:6>, [
 [WengeSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:6>, WengeSlab],
 [WengeSlab, WengeSlab, WengeSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:6>, [
-[WengeSlab, <minecraft:clock>, WengeSlab],
-[WengeSlab, <ore:stickWood>, WengeSlab],
-[WengeSlab, <ore:ingotGold>, WengeSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:22>, [
 [null, <ore:blockWool>, null],
@@ -1319,12 +1609,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:7>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [WillowSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:7>, WillowSlab],
 [WillowSlab, WillowSlab, WillowSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock2:7>, [
-[WillowSlab, <minecraft:clock>, WillowSlab],
-[WillowSlab, <ore:stickWood>, WillowSlab],
-[WillowSlab, <ore:ingotGold>, WillowSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:23>, [
@@ -1430,12 +1714,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:0>, [
 [AcaciaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:0>, AcaciaSlab],
 [AcaciaSlab, AcaciaSlab, AcaciaSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:0>, [
-[AcaciaSlab, <minecraft:clock>, AcaciaSlab],
-[AcaciaSlab, <ore:stickWood>, AcaciaSlab],
-[AcaciaSlab, <ore:ingotGold>, AcaciaSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:0>, [
 [null, <ore:blockWool>, null],
@@ -1539,12 +1817,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:1>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [BalsaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:1>, BalsaSlab],
 [BalsaSlab, BalsaSlab, BalsaSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:1>, [
-[BalsaSlab, <minecraft:clock>, BalsaSlab],
-[BalsaSlab, <ore:stickWood>, BalsaSlab],
-[BalsaSlab, <ore:ingotGold>, BalsaSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:1>, [
@@ -1650,12 +1922,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:2>, [
 [BaobabSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:2>, BaobabSlab],
 [BaobabSlab, BaobabSlab, BaobabSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:2>, [
-[BaobabSlab, <minecraft:clock>, BaobabSlab],
-[BaobabSlab, <ore:stickWood>, BaobabSlab],
-[BaobabSlab, <ore:ingotGold>, BaobabSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:2>, [
 [null, <ore:blockWool>, null],
@@ -1759,12 +2025,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:3>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [CherrySlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:3>, CherrySlab],
 [CherrySlab, CherrySlab, CherrySlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:3>, [
-[CherrySlab, <minecraft:clock>, CherrySlab],
-[CherrySlab, <ore:stickWood>, CherrySlab],
-[CherrySlab, <ore:ingotGold>, CherrySlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:3>, [
@@ -1870,12 +2130,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:4>, [
 [ChestnutSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:4>, ChestnutSlab],
 [ChestnutSlab, ChestnutSlab, ChestnutSlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:4>, [
-[ChestnutSlab, <minecraft:clock>, ChestnutSlab],
-[ChestnutSlab, <ore:stickWood>, ChestnutSlab],
-[ChestnutSlab, <ore:ingotGold>, ChestnutSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:4>, [
 [null, <ore:blockWool>, null],
@@ -1979,12 +2233,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:5>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [CitrusSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:5>, CitrusSlab],
 [CitrusSlab, CitrusSlab, CitrusSlab]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:5>, [
-[CitrusSlab, <minecraft:clock>, CitrusSlab],
-[CitrusSlab, <ore:stickWood>, CitrusSlab],
-[CitrusSlab, <ore:ingotGold>, CitrusSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:5>, [
@@ -2090,12 +2338,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:6>, [
 [EbonySlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:6>, EbonySlab],
 [EbonySlab, EbonySlab, EbonySlab]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:6>, [
-[EbonySlab, <minecraft:clock>, EbonySlab],
-[EbonySlab, <ore:stickWood>, EbonySlab],
-[EbonySlab, <ore:ingotGold>, EbonySlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:6>, [
 [null, <ore:blockWool>, null],
@@ -2199,12 +2441,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:7>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [GreenheartSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:7>, GreenheartSlabs],
 [GreenheartSlabs, GreenheartSlabs, GreenheartSlabs]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:7>, [
-[GreenheartSlabs, <minecraft:clock>, GreenheartSlabs],
-[GreenheartSlabs, <ore:stickWood>, GreenheartSlabs],
-[GreenheartSlabs, <ore:ingotGold>, GreenheartSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:7>, [
@@ -2310,12 +2546,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:8>, [
 [KapokSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:8>, KapokSlabs],
 [KapokSlabs, KapokSlabs, KapokSlabs]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:8>, [
-[KapokSlabs, <minecraft:clock>, KapokSlabs],
-[KapokSlabs, <ore:stickWood>, KapokSlabs],
-[KapokSlabs, <ore:ingotGold>, KapokSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:8>, [
 [null, <ore:blockWool>, null],
@@ -2419,12 +2649,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:9>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [LarchSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:9>, LarchSlabs],
 [LarchSlabs, LarchSlabs, LarchSlabs]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:9>, [
-[LarchSlabs, <minecraft:clock>, LarchSlabs],
-[LarchSlabs, <ore:stickWood>, LarchSlabs],
-[LarchSlabs, <ore:ingotGold>, LarchSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:9>, [
@@ -2530,12 +2754,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:10>, [
 [LimeSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:10>, LimeSlabs],
 [LimeSlabs, LimeSlabs, LimeSlabs]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:10>, [
-[LimeSlabs, <minecraft:clock>, LimeSlabs],
-[LimeSlabs, <ore:stickWood>, LimeSlabs],
-[LimeSlabs, <ore:ingotGold>, LimeSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:10>, [
 [null, <ore:blockWool>, null],
@@ -2639,12 +2857,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:11>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [MahoeSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:11>, MahoeSlabs],
 [MahoeSlabs, MahoeSlabs, MahoeSlabs]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:11>, [
-[MahoeSlabs, <minecraft:clock>, MahoeSlabs],
-[MahoeSlabs, <ore:stickWood>, MahoeSlabs],
-[MahoeSlabs, <ore:ingotGold>, MahoeSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:11>, [
@@ -2750,12 +2962,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:12>, [
 [MahoganySlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:12>, MahoganySlabs],
 [MahoganySlabs, MahoganySlabs, MahoganySlabs]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:12>, [
-[MahoganySlabs, <minecraft:clock>, MahoganySlabs],
-[MahoganySlabs, <ore:stickWood>, MahoganySlabs],
-[MahoganySlabs, <ore:ingotGold>, MahoganySlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:12>, [
 [null, <ore:blockWool>, null],
@@ -2859,12 +3065,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:13>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [MappleSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:13>, MappleSlabs],
 [MappleSlabs, MappleSlabs, MappleSlabs]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:13>, [
-[MappleSlabs, <minecraft:clock>, MappleSlabs],
-[MappleSlabs, <ore:stickWood>, MappleSlabs],
-[MappleSlabs, <ore:ingotGold>, MappleSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:13>, [
@@ -2970,12 +3170,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:14>, [
 [PalmSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:14>, PalmSlabs],
 [PalmSlabs, PalmSlabs, PalmSlabs]]);
 
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:14>, [
-[PalmSlabs, <minecraft:clock>, PalmSlabs],
-[PalmSlabs, <ore:stickWood>, PalmSlabs],
-[PalmSlabs, <ore:ingotGold>, PalmSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:14>, [
 [null, <ore:blockWool>, null],
@@ -3079,12 +3273,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:15>, [
 [<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
 [PapayaSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:15>, PapayaSlabs],
 [PapayaSlabs, PapayaSlabs, PapayaSlabs]]);
-
-// - Clock
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodClock:15>, [
-[PapayaSlabs, <minecraft:clock>, PapayaSlabs],
-[PapayaSlabs, <ore:stickWood>, PapayaSlabs],
-[PapayaSlabs, <ore:ingotGold>, PapayaSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:15>, [
