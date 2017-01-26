@@ -8,6 +8,7 @@
 
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
+import mods.gregtech.CuttingSaw;
 
 
 // --- Vars ---
@@ -223,6 +224,21 @@ recipes.remove(<BiblioCraft:Armor Stand>);
 // --- Desk Bell
 recipes.remove(<BiblioCraft:BiblioBell>);
 
+// --- Cookie Jar
+recipes.remove(<BiblioCraft:BiblioStuffs>);
+
+// --- Diner Plate
+recipes.remove(<BiblioCraft:BiblioStuffs:2>);
+
+// --- Framing Saw
+recipes.remove(<BiblioCraft:item.FramingSaw>);
+
+// --- Frame Sheet
+recipes.remove(<BiblioCraft:item.FramingSheet>);
+
+// --- Frame Board
+recipes.remove(<BiblioCraft:item.FramingBoard>);
+
 
 
 
@@ -367,7 +383,6 @@ for i, Frame in FrameB {
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
-
 // --- Painting Press
 recipes.addShaped(<BiblioCraft:BiblioPaintPress>, [
 [<ore:plateIron>, <ore:plateIron>, <ore:boltIron>],
@@ -409,6 +424,49 @@ recipes.addShaped(<BiblioCraft:BiblioBell>, [
 [null, <minecraft:stone_button>, null],
 [null, <ore:plateIron>, null],
 [<ore:plateIron>, null, <ore:plateIron>]]);
+
+// --- Cookie Jar
+recipes.addShaped(<BiblioCraft:BiblioStuffs>, [
+[null, <ore:plateRubber>, null],
+[<minecraft:glass_pane>, null, <minecraft:glass_pane>],
+[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]]);
+
+// --- Diner Plate
+recipes.addShaped(<BiblioCraft:BiblioStuffs:2>, [
+[null, null, null],
+[<ore:plateNetherQuartz>, null, <ore:plateNetherQuartz>],
+[null, <ore:plateNetherQuartz>, null]]);
+
+// --- Frame Sheet
+recipes.addShaped(<BiblioCraft:item.FramingSheet> * 2, [
+[<gregtech:gt.metaitem.02:32470>, <ore:craftingToolSaw>]]);
+
+// --- Frame Board
+recipes.addShaped(<BiblioCraft:item.FramingBoard> * 2, [
+[<BiblioCraft:item.FramingSheet>, <ore:craftingToolSaw>]]);
+
+
+
+// --- Cutting Saw Recipes ---
+
+
+
+
+// --- Frame Sheet
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingSheet> * 4, null, <gregtech:gt.metaitem.02:32470>, <liquid:water> * 3, 50, 4);
+// -
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingSheet> * 4, null, <gregtech:gt.metaitem.02:32470>, <liquid:ic2distilledwater> * 2, 50, 4);
+// -
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingSheet> * 4, null, <gregtech:gt.metaitem.02:32470>, <liquid:lubricant> * 1, 25, 4);
+
+// --- Frame Board
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingBoard> * 4, null, <BiblioCraft:item.FramingSheet>, <liquid:water> * 2, 50, 4);
+// -
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingBoard> * 4, null, <BiblioCraft:item.FramingSheet>, <liquid:ic2distilledwater> * 1, 50, 4);
+// -
+CuttingSaw.addRecipe(<BiblioCraft:item.FramingBoard> * 4, null, <BiblioCraft:item.FramingSheet>, <liquid:lubricant> * 1, 25, 4);
+
+
 
 
 
