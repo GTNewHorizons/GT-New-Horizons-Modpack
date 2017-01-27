@@ -855,6 +855,11 @@ recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:10>, [<For
 // --- Auto Crafting Bench
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:11>, [<BuildCraft|Factory:autoWorkbenchBlock>]);
 
+// --- Creative IC Chip
+recipes.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
+[<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>],
+[<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>,<dreamcraft:item.QuantumCircuit>],
+[<dreamcraft:item.PikoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.PikoCircuit>]]);
 
 
 
