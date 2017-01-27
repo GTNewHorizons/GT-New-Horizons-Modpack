@@ -369,6 +369,384 @@ var PaintingF2 = [
 <BiblioWoodsForestry:BiblioWoodPaintingT0b:7>]
 as IItemStack[];
 
+var BOBPT1 = [
+<BiblioWoodsBoP:BiblioWoodPaintingT1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:5>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:6>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:7>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:8>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:9>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:10>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:11>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:12>,
+<BiblioWoodsBoP:BiblioWoodPaintingT1:13>]
+as IItemStack[];
+
+var BOBPT2 = [
+<BiblioWoodsBoP:BiblioWoodPaintingT2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:5>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:6>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:7>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:8>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:9>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:10>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:11>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:12>,
+<BiblioWoodsBoP:BiblioWoodPaintingT2:13>]
+as IItemStack[];
+
+var BOBPT3 = [
+<BiblioWoodsBoP:BiblioWoodPaintingT3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:5>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:6>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:7>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:8>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:9>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:10>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:11>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:12>,
+<BiblioWoodsBoP:BiblioWoodPaintingT3:13>]
+as IItemStack[];
+
+var BOBPT4 = [
+<BiblioWoodsBoP:BiblioWoodPaintingT4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:1>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:2>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:3>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:4>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:5>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:6>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:7>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:8>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:9>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:10>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:11>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:12>,
+<BiblioWoodsBoP:BiblioWoodPaintingT4:13>]
+as IItemStack[];
+
+var FPT1a = [
+<BiblioWoodsForestry:BiblioWoodPaintingT1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:7>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:8>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:9>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:10>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:11>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:12>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:13>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:14>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1:15>]
+as IItemStack[];
+
+var FPT1b = [
+<BiblioWoodsForestry:BiblioWoodPaintingT1b>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT1b:1>,]
+as IItemStack[];
+
+var FPT2a = [
+<BiblioWoodsForestry:BiblioWoodPaintingT2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:7>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:8>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:9>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:10>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:11>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:12>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:13>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:14>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2:15>]
+as IItemStack[];
+
+var FPT2b = [
+<BiblioWoodsForestry:BiblioWoodPaintingT2b>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT2b:1>,]
+as IItemStack[];
+
+var FPT3a = [
+<BiblioWoodsForestry:BiblioWoodPaintingT3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:7>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:8>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:9>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:10>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:11>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:12>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:13>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:14>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3:15>]
+as IItemStack[];
+
+var FPT3b = [
+<BiblioWoodsForestry:BiblioWoodPaintingT3b>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT3b:1>,]
+as IItemStack[];
+
+var FPT4a = [
+<BiblioWoodsForestry:BiblioWoodPaintingT4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:7>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:8>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:9>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:10>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:11>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:12>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:13>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:14>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4:15>]
+as IItemStack[];
+
+var FPT4b = [
+<BiblioWoodsForestry:BiblioWoodPaintingT4b>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:1>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:2>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:3>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:4>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:5>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:6>,
+<BiblioWoodsForestry:BiblioWoodPaintingT4b:1>,]
+as IItemStack[];
+
+var NPT1 = [
+<BiblioWoodsNatura:BiblioWoodPaintingT1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:5>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:6>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:7>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:8>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:9>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:10>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:11>,
+<BiblioWoodsNatura:BiblioWoodPaintingT1:12>]
+as IItemStack[];
+
+var NPT2 = [
+<BiblioWoodsNatura:BiblioWoodPaintingT2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:5>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:6>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:7>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:8>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:9>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:10>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:11>,
+<BiblioWoodsNatura:BiblioWoodPaintingT2:12>]
+as IItemStack[];
+
+var NPT3 = [
+<BiblioWoodsNatura:BiblioWoodPaintingT3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:5>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:6>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:7>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:8>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:9>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:10>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:11>,
+<BiblioWoodsNatura:BiblioWoodPaintingT3:12>]
+as IItemStack[];
+
+var NPT4 = [
+<BiblioWoodsNatura:BiblioWoodPaintingT4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:1>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:2>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:3>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:4>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:5>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:6>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:7>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:8>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:9>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:10>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:11>,
+<BiblioWoodsNatura:BiblioWoodPaintingT4:12>]
+as IItemStack[];
+
+var FrameBOP = [
+<BiblioWoodsBoP:BiblioWoodMapFrame>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:1>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:2>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:3>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:4>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:5>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:6>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:7>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:8>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:9>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:10>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:11>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:12>,
+<BiblioWoodsBoP:BiblioWoodMapFrame:13>]
+as IItemStack[];
+
+var LableBOP = [
+<BiblioWoodsBoP:BiblioWoodlabel>,
+<BiblioWoodsBoP:BiblioWoodlabel:1>,
+<BiblioWoodsBoP:BiblioWoodlabel:2>,
+<BiblioWoodsBoP:BiblioWoodlabel:3>,
+<BiblioWoodsBoP:BiblioWoodlabel:4>,
+<BiblioWoodsBoP:BiblioWoodlabel:5>,
+<BiblioWoodsBoP:BiblioWoodlabel:6>,
+<BiblioWoodsBoP:BiblioWoodlabel:7>,
+<BiblioWoodsBoP:BiblioWoodlabel:8>,
+<BiblioWoodsBoP:BiblioWoodlabel:9>,
+<BiblioWoodsBoP:BiblioWoodlabel:10>,
+<BiblioWoodsBoP:BiblioWoodlabel:11>,
+<BiblioWoodsBoP:BiblioWoodlabel:12>,
+<BiblioWoodsBoP:BiblioWoodlabel:13>]
+as IItemStack[];
+
+var FrameF1 = [
+<BiblioWoodsForestry:BiblioWoodMapFrame>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:1>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:2>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:3>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:4>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:5>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:6>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:7>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:8>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:9>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:10>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:11>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:12>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:13>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:14>,
+<BiblioWoodsForestry:BiblioWoodMapFrame:15>]
+as IItemStack[];
+
+var LableF1 = [
+<BiblioWoodsForestry:BiblioWoodFstlabel>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:1>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:2>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:3>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:4>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:5>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:6>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:7>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:8>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:9>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:10>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:11>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:12>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:13>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:14>,
+<BiblioWoodsForestry:BiblioWoodFstlabel:15>]
+as IItemStack[];
+
+var FrameF2 = [
+<BiblioWoodsForestry:BiblioWoodMapFrame2>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:1>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:2>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:3>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:4>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:5>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:6>,
+<BiblioWoodsForestry:BiblioWoodMapFrame2:7>]
+as IItemStack[];
+
+var LableF2 = [
+<BiblioWoodsForestry:BiblioWoodFstlabel2>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:1>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:2>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:3>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:4>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:5>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:6>,
+<BiblioWoodsForestry:BiblioWoodFstlabel2:7>]
+as IItemStack[];
+
+var FrameN = [
+<BiblioWoodsNatura:BiblioWoodMapFrame>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:1>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:2>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:3>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:4>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:5>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:6>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:7>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:8>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:9>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:10>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:11>,
+<BiblioWoodsNatura:BiblioWoodMapFrame:12>]
+as IItemStack[];
+
+var LableN = [
+<BiblioWoodsNatura:BiblioWoodlabel>,
+<BiblioWoodsNatura:BiblioWoodlabel:1>,
+<BiblioWoodsNatura:BiblioWoodlabel:2>,
+<BiblioWoodsNatura:BiblioWoodlabel:3>,
+<BiblioWoodsNatura:BiblioWoodlabel:4>,
+<BiblioWoodsNatura:BiblioWoodlabel:5>,
+<BiblioWoodsNatura:BiblioWoodlabel:6>,
+<BiblioWoodsNatura:BiblioWoodlabel:7>,
+<BiblioWoodsNatura:BiblioWoodlabel:8>,
+<BiblioWoodsNatura:BiblioWoodlabel:9>,
+<BiblioWoodsNatura:BiblioWoodlabel:10>,
+<BiblioWoodsNatura:BiblioWoodlabel:11>,
+<BiblioWoodsNatura:BiblioWoodlabel:12>]
+as IItemStack[];
+
 
 
 
@@ -620,6 +998,34 @@ for i, Canvas in PaintingB {
     recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
+// ---
+for i, Canvas in PaintingBOP {
+    var FPainting = BOBPT1[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas in PaintingF1 {
+    var FPainting = FPT1a[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas in PaintingF2 {
+    var FPainting = FPT1b[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas in PaintingN {
+    var FPainting = NPT1[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
 
 // Simple Painting
 for i, Canvas1 in FPT1 {
@@ -628,6 +1034,35 @@ for i, Canvas1 in FPT1 {
     recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
+// ---
+for i, Canvas1 in BOBPT1 {
+    var SPainting = BOBPT2[i];
+    
+    recipes.remove(SPainting);
+    recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas1 in FPT1a {
+    var SPainting = FPT2a[i];
+    
+    recipes.remove(SPainting);
+    recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas1 in FPT1b {
+    var SPainting = FPT2b[i];
+    
+    recipes.remove(SPainting);
+    recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas1 in NPT1 {
+    var SPainting = NPT2[i];
+    
+    recipes.remove(SPainting);
+    recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+
 
 // Middle Painting
 for i, Canvas2 in FPT2 {
@@ -636,10 +1071,66 @@ for i, Canvas2 in FPT2 {
     recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
+// ---
+for i, Canvas2 in BOBPT2 {
+    var MPainting = BOBPT3[i];
+    
+    recipes.remove(MPainting);
+    recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas2 in FPT2a {
+    var MPainting = FPT3a[i];
+    
+    recipes.remove(MPainting);
+    recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas2 in FPT2b {
+    var MPainting = FPT3b[i];
+    
+    recipes.remove(MPainting);
+    recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas2 in NPT2 {
+    var MPainting = NPT3[i];
+    
+    recipes.remove(MPainting);
+    recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
 
 // Fancy Painting
 for i, Canvas3 in FPT3 {
     var FPainting = FPT4[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas3 in BOBPT3 {
+    var FPainting = BOBPT4[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas3 in FPT3a {
+    var FPainting = FPT4a[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas3 in FPT3b {
+    var FPainting = FPT4b[i];
+    
+    recipes.remove(FPainting);
+    recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Canvas3 in NPT3 {
+    var FPainting = NPT4[i];
     
     recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
@@ -656,6 +1147,34 @@ for i, cwool in cwool16 {
 // Wood Lable
 for i, Frame in FrameB {
     var Lable = LableB[i];
+    
+    recipes.remove(Lable);
+    recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Frame in FrameBOP {
+    var Lable = LableBOP[i];
+    
+    recipes.remove(Lable);
+    recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Frame in FrameF1 {
+    var Lable = LableF1[i];
+    
+    recipes.remove(Lable);
+    recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Frame in FrameF2 {
+    var Lable = LableF2[i];
+    
+    recipes.remove(Lable);
+    recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+}
+// ---
+for i, Frame in FrameN {
+    var Lable = LableN[i];
     
     recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
@@ -846,12 +1365,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:1>, [
 [PlumSlab, <ore:blockWool>, PlumSlab],
 [PlumSlab, PlumSlab, PlumSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:1>, [
-[PlumSlab, PlumSlab, PlumSlab],
-[PlumSlab, PlumSlab, PlumSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:1>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -949,12 +1462,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:0>, [
 [PineSlab, <ore:glass>, PineSlab],
 [PineSlab, <ore:blockWool>, PineSlab],
 [PineSlab, PineSlab, PineSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:0>, [
-[PineSlab, PineSlab, PineSlab],
-[PineSlab, PineSlab, PineSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:0>, [
@@ -1054,12 +1561,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:2>, [
 [PoplarSlab, <ore:blockWool>, PoplarSlab],
 [PoplarSlab, PoplarSlab, PoplarSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:2>, [
-[PoplarSlab, PoplarSlab, PoplarSlab],
-[PoplarSlab, PoplarSlab, PoplarSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:2>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -1157,12 +1658,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:3>, [
 [SequoiaSlab, <ore:glass>, SequoiaSlab],
 [SequoiaSlab, <ore:blockWool>, SequoiaSlab],
 [SequoiaSlab, SequoiaSlab, SequoiaSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:3>, [
-[SequoiaSlab, SequoiaSlab, SequoiaSlab],
-[SequoiaSlab, SequoiaSlab, SequoiaSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:3>, [
@@ -1262,12 +1757,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:4>, [
 [TeakSlab, <ore:blockWool>, TeakSlab],
 [TeakSlab, TeakSlab, TeakSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:4>, [
-[TeakSlab, TeakSlab, TeakSlab],
-[TeakSlab, TeakSlab, TeakSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:4>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -1365,12 +1854,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:5>, [
 [WalnutSlab, <ore:glass>, WalnutSlab],
 [WalnutSlab, <ore:blockWool>, WalnutSlab],
 [WalnutSlab, WalnutSlab, WalnutSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:5>, [
-[WalnutSlab, WalnutSlab, WalnutSlab],
-[WalnutSlab, WalnutSlab, WalnutSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:5>, [
@@ -1470,12 +1953,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:6>, [
 [WengeSlab, <ore:blockWool>, WengeSlab],
 [WengeSlab, WengeSlab, WengeSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:6>, [
-[WengeSlab, WengeSlab, WengeSlab],
-[WengeSlab, WengeSlab, WengeSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:6>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -1573,12 +2050,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase1:7>, [
 [WillowSlab, <ore:glass>, WillowSlab],
 [WillowSlab, <ore:blockWool>, WillowSlab],
 [WillowSlab, WillowSlab, WillowSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel2:7>, [
-[WillowSlab, WillowSlab, WillowSlab],
-[WillowSlab, WillowSlab, WillowSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:7>, [
@@ -1678,12 +2149,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:0>, [
 [AcaciaSlab, <ore:blockWool>, AcaciaSlab],
 [AcaciaSlab, AcaciaSlab, AcaciaSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:0>, [
-[AcaciaSlab, AcaciaSlab, AcaciaSlab],
-[AcaciaSlab, AcaciaSlab, AcaciaSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:0>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -1781,12 +2246,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:1>, [
 [BalsaSlab, <ore:glass>, BalsaSlab],
 [BalsaSlab, <ore:blockWool>, BalsaSlab],
 [BalsaSlab, BalsaSlab, BalsaSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:1>, [
-[BalsaSlab, BalsaSlab, BalsaSlab],
-[BalsaSlab, BalsaSlab, BalsaSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:1>, [
@@ -1886,12 +2345,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:2>, [
 [BaobabSlab, <ore:blockWool>, BaobabSlab],
 [BaobabSlab, BaobabSlab, BaobabSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:2>, [
-[BaobabSlab, BaobabSlab, BaobabSlab],
-[BaobabSlab, BaobabSlab, BaobabSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:2>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -1989,12 +2442,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:3>, [
 [CherrySlab, <ore:glass>, CherrySlab],
 [CherrySlab, <ore:blockWool>, CherrySlab],
 [CherrySlab, CherrySlab, CherrySlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:3>, [
-[CherrySlab, CherrySlab, CherrySlab],
-[CherrySlab, CherrySlab, CherrySlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:3>, [
@@ -2094,12 +2541,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:4>, [
 [ChestnutSlab, <ore:blockWool>, ChestnutSlab],
 [ChestnutSlab, ChestnutSlab, ChestnutSlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:4>, [
-[ChestnutSlab, ChestnutSlab, ChestnutSlab],
-[ChestnutSlab, ChestnutSlab, ChestnutSlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:4>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -2197,12 +2638,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:5>, [
 [CitrusSlab, <ore:glass>, CitrusSlab],
 [CitrusSlab, <ore:blockWool>, CitrusSlab],
 [CitrusSlab, CitrusSlab, CitrusSlab]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:5>, [
-[CitrusSlab, CitrusSlab, CitrusSlab],
-[CitrusSlab, CitrusSlab, CitrusSlab],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:5>, [
@@ -2302,12 +2737,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:6>, [
 [EbonySlab, <ore:blockWool>, EbonySlab],
 [EbonySlab, EbonySlab, EbonySlab]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:6>, [
-[EbonySlab, EbonySlab, EbonySlab],
-[EbonySlab, EbonySlab, EbonySlab],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:6>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -2405,12 +2834,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:7>, [
 [GreenheartSlabs, <ore:glass>, GreenheartSlabs],
 [GreenheartSlabs, <ore:blockWool>, GreenheartSlabs],
 [GreenheartSlabs, GreenheartSlabs, GreenheartSlabs]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:7>, [
-[GreenheartSlabs, GreenheartSlabs, GreenheartSlabs],
-[GreenheartSlabs, GreenheartSlabs, GreenheartSlabs],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:7>, [
@@ -2510,12 +2933,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:8>, [
 [KapokSlabs, <ore:blockWool>, KapokSlabs],
 [KapokSlabs, KapokSlabs, KapokSlabs]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:8>, [
-[KapokSlabs, KapokSlabs, KapokSlabs],
-[KapokSlabs, KapokSlabs, KapokSlabs],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:8>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -2613,12 +3030,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:9>, [
 [LarchSlabs, <ore:glass>, LarchSlabs],
 [LarchSlabs, <ore:blockWool>, LarchSlabs],
 [LarchSlabs, LarchSlabs, LarchSlabs]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:9>, [
-[LarchSlabs, LarchSlabs, LarchSlabs],
-[LarchSlabs, LarchSlabs, LarchSlabs],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:9>, [
@@ -2718,12 +3129,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:10>, [
 [LimeSlabs, <ore:blockWool>, LimeSlabs],
 [LimeSlabs, LimeSlabs, LimeSlabs]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:10>, [
-[LimeSlabs, LimeSlabs, LimeSlabs],
-[LimeSlabs, LimeSlabs, LimeSlabs],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:10>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -2821,12 +3226,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:11>, [
 [MahoeSlabs, <ore:glass>, MahoeSlabs],
 [MahoeSlabs, <ore:blockWool>, MahoeSlabs],
 [MahoeSlabs, MahoeSlabs, MahoeSlabs]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:11>, [
-[MahoeSlabs, MahoeSlabs, MahoeSlabs],
-[MahoeSlabs, MahoeSlabs, MahoeSlabs],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:11>, [
@@ -2926,12 +3325,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:12>, [
 [MahoganySlabs, <ore:blockWool>, MahoganySlabs],
 [MahoganySlabs, MahoganySlabs, MahoganySlabs]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:12>, [
-[MahoganySlabs, MahoganySlabs, MahoganySlabs],
-[MahoganySlabs, MahoganySlabs, MahoganySlabs],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:12>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -3029,12 +3422,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:13>, [
 [MappleSlabs, <ore:glass>, MappleSlabs],
 [MappleSlabs, <ore:blockWool>, MappleSlabs],
 [MappleSlabs, MappleSlabs, MappleSlabs]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:13>, [
-[MappleSlabs, MappleSlabs, MappleSlabs],
-[MappleSlabs, MappleSlabs, MappleSlabs],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:13>, [
@@ -3134,12 +3521,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:14>, [
 [PalmSlabs, <ore:blockWool>, PalmSlabs],
 [PalmSlabs, PalmSlabs, PalmSlabs]]);
 
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:14>, [
-[PalmSlabs, PalmSlabs, PalmSlabs],
-[PalmSlabs, PalmSlabs, PalmSlabs],
-[null, null, null]]);
-
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:14>, [
 [<ore:blockTorch>, null, <ore:craftingFeather>],
@@ -3237,12 +3618,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstcase0:15>, [
 [PapayaSlabs, <ore:glass>, PapayaSlabs],
 [PapayaSlabs, <ore:blockWool>, PapayaSlabs],
 [PapayaSlabs, PapayaSlabs, PapayaSlabs]]);
-
-// - Label
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstlabel:15>, [
-[PapayaSlabs, PapayaSlabs, PapayaSlabs],
-[PapayaSlabs, PapayaSlabs, PapayaSlabs],
-[null, null, null]]);
 
 // - Desk
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:15>, [
