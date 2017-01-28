@@ -24,6 +24,10 @@
 	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Not try to wear it, you can't"/>
 	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Not try to wear it, you can't"/>
 	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Not try to wear it, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Not try to wear it, you can't"/>
 	
 //Buildcraft
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
