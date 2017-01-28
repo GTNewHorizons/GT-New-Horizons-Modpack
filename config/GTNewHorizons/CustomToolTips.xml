@@ -28,7 +28,9 @@
 	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Not try to wear it, you can't"/>
 	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Not try to wear it, you can't"/>
 	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Not try to wear it, you can't"/>
-	
+	<ToolTip ItemName="gregtech:gt.blockmachines:1110" ToolTip="§4Nitro Diesel works in MV and above"/>
+	<ToolTip ItemName="gregtech:gt.metaitem.01:30709" ToolTip="§4works in MV Diesel Generator and above"/>
+		
 //Buildcraft
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t"/>
