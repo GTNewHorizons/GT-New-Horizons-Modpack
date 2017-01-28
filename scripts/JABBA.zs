@@ -444,16 +444,16 @@ recipes.addShaped(VoidUp, [
 
 
 // --- Creative Upgrade
-mods.avaritia.ExtremeCrafting.addShaped(<JABBA:upgradeCore:10>, [
-[<JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>,  <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeCore:9>, <DraconicEvolution:chaoticCore>, <JABBA:upgradeCore:9>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>,  <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>],
-[<JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>]]);
+//mods.avaritia.ExtremeCrafting.addShaped(<JABBA:upgradeCore:10>, [
+//[<JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>,  <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeCore:9>, <DraconicEvolution:chaoticCore>, <JABBA:upgradeCore:9>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <avaritiaddons:InfinityChest>, <JABBA:upgradeStructural:12>, <ore:plateNeutronium>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <JABBA:upgradeStructural:12>,  <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <JABBA:upgradeStructural:12>, <JABBA:upgradeCore:9>],
+//[<JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>, <JABBA:upgradeCore:9>]]);
 
 
 

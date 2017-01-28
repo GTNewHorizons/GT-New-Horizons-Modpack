@@ -856,6 +856,17 @@ recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:10>, [<For
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:11>, [<BuildCraft|Factory:autoWorkbenchBlock>]);
 
 // --- Creative IC Chip
+// --- Upgrade Creative Mode
+mods.avaritia.ExtremeCrafting.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.QuantumCircuit>, <OpenComputers:item:43>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>]]);
 recipes.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
 [<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>],
 [<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>,<dreamcraft:item.QuantumCircuit>],
