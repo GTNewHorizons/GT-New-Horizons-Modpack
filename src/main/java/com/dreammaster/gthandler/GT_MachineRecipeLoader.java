@@ -14,26 +14,6 @@ import net.minecraftforge.fluids.FluidStack;
 
 public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_MachineRecipeLoader implements gregtech.api.interfaces.IOreRecipeRegistrator{
     public void run(){
-        //TODO new tiered maybe
-        // ===================================================================================================
-        // Casing
-        // ===================================================================================================
-
-        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UEV.get(1L, new Object[0]),
-                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-                new Object[]{"PPP", "PwP", "PPP",
-                        'P', OrePrefixes.plate.get(Materials.Bedrockium)});
-
-        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UIV.get(1L, new Object[0]),
-                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-                new Object[]{"PPP", "PwP", "PPP",
-                        'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
-
-        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UMV.get(1L, new Object[0]),
-                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-                new Object[]{"PPP", "PwP", "PPP",
-                        'P', OrePrefixes.plate.get(Materials.Draconium)});
-        //TODO : next tiers?
 
         GT_Values.RA.addBenderRecipe(CustomItemList.MicaInsulatorSheet.get(1L),CustomItemList.MicaInsulatorFoil.get(4L),100,30);
 
