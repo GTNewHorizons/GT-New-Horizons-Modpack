@@ -603,6 +603,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addCentrifugeRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.BlackPlutonium, 1L), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 2), GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{5000, 2000, 1000}, 1200, 1920);
 
+        GT_Values.RA.addCentrifugeRecipe(CustomItemList.MaceratedPlantmass.get(1L, new Object[0]), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("IC2", "itemBiochaff", 1L, 0), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{10000}, 300, 4);
+
         GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L, new Object[0]), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.InfernalBrick.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, null, 200, 30);
 
         GT_ModHandler.addCompressionRecipe(GT_ModHandler.getModItem("IC2", "itemWeed", 16L), ItemList.IC2_Plantball.get(1L, new Object[0]));
@@ -697,8 +699,6 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 6L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.AnyCopper, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Manganese, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Magnesium, 1L), GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.getDust(Materials.Duralumin, 9L * OrePrefixes.dust.mMaterialAmount), (int) (900L * OrePrefixes.dust.mMaterialAmount / 3628800L), 2000);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Aluminium, 6L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.AnyCopper, 1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Manganese, 1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Magnesium, 1L), GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.getDust(Materials.Duralumin, 9L * OrePrefixes.dustSmall.mMaterialAmount), (int) (900L * OrePrefixes.dustSmall.mMaterialAmount / 3628800L), 2000);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Aluminium, 6L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.AnyCopper, 1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Manganese, 1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Magnesium, 1L), GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.getDust(Materials.Duralumin, 9L * OrePrefixes.dustTiny.mMaterialAmount), (int) (900L * OrePrefixes.dustTiny.mMaterialAmount / 3628800L), 2000);
-
-        GT_Values.RA.addMixerRecipe(CustomItemList.MaceratedPlantmass.get(1L, new Object[0]), GT_Values.NI, GT_Values.NI, GT_Values.NI,  FluidRegistry.getFluidStack("water", 1000), GT_Values.NF, GT_ModHandler.getModItem("IC2", "itemBiochaff", 1L, 0), 2400, 8);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L, new Object[0]), CustomItemList.Marshmallow.get(1L, new Object[0]), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
