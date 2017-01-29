@@ -52954,7 +52954,7 @@
     {
       "questID": 645,
       "name": "Glider Wings",
-      "description": "Why not jumping from a high Building or a Mountian without the message \"Player X fell from a high place\"?\nGood Idea but make you some Gilder Wings first. The Wings are your first gear to go up in the air.",
+      "description": "Why not jumping from a high Building or a Mountain without the message \"Player X fell from a high place\"?\nGood Idea but make you some Gilder Wings first. The Wings are your first gear to go up in the air.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53111,7 +53111,7 @@
     {
       "questID": 646,
       "name": "Electrotine Battery",
-      "description": "This Battery is mostly used in Project Red Machines and the Jetpack.\nElecrotine is a new mixture out of Redstoneand Electrum Dust.",
+      "description": "This Battery is mostly used in Project Red Machines and the Jetpack.\nElecrotine is a new mixture out of Redstone and Electrum Dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53219,8 +53219,8 @@
     {
       "questID": 647,
       "name": "Electrotine Jetpack",
-      "description": "Your Glider bring you save to the ground but it isn\u0027t a real Jetpack. After you reserached Electrotine you get a powerful source for your first Jetpack.\nA Diamond Chestplate sorrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nYou don\u0027t have a hover mode so better get your Glider with you and you cant fly higher than Y 128.",
-      "isMain": false,
+      "description": Your Glider bring you save to the ground but it isn\u0027t a real Jetpack. After you researched Electrotine you get a powerful source for your first Jetpack.\nA Diamond Chest plate surrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nYou don\u0027t have a hover mode so better get your Glider with you and you can\u0027t fly higher than Y 128.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -53348,7 +53348,7 @@
     {
       "questID": 648,
       "name": "Refill your Jetpack",
-      "description": "GREAT.... you get now a complet emty jetpack.\nYou need 25 Electrotine Dust to complete fill your Pack.\nLets craft some Electrotine Generator and a Charging Bench to using the power of Electrotine.",
+      "description":"GREAT.... you get now a complete empty jetpack.\nYou need 25 Electrotine Dust to complete fill your Pack.\nLet\u0027s craft some Electrotine Generator and a Charging Bench to using the power of Electrotine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53458,9 +53458,9 @@
     {
       "questID": 649,
       "name": "Steam Jetpack",
-      "description": "Your Coal Jetpack need Coal and Water to produce Steam. After a short warming up time you can go and fly. This is the fist pacl not have a hight limit. Be carefull for a soft landing  you need here your wings too.\n\nPut your Jetpack on your Back and hit Shift and teh adventure Backpacks Action-Key to start it.",
+      "description": "Your Coal Jetpack need Coal and Water to produce Steam. After a short warming up time you can go and fly. This is the first pack not have a high limit. Be careful for a soft landing  you need here your wings too.\n\nPut your Jetpack on your Back and hit Shift and the adventure Backpacks Action-Key to start it.","isMain": false,
       "isMain": false,
-      "isSilent": false,
+	  "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -53872,6 +53872,666 @@
       ],
       "preRequisites": [
         649
+      ]
+    },
+    {
+      "questID": 651,
+      "name": "Electric Jetpack",
+      "description": "Your first electrical Jetpack. You need to hit the Ic2 Mode-Switch Key to toggle between normal and hover Mode.\n \nOnly limitation you can\u0027t flight higher than Y ~185.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorJetpackElectric",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 30000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorBatpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "dreamcraft:item.StainlessSteelItemCasing",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1382
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorJetpackElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        649,
+        160
+      ]
+    },
+    {
+      "questID": 652,
+      "name": "Biogas Jetpack",
+      "description": "This Backpack use Ic2 Biogas and can fly upt to Y Level 245.\nYou can switch between hover and normal Mode using the IC2 Mod-Switch Key.\n\nYor Jetpack can filled in the Ic2 Fluid Canner with 30 Buckets/Cells.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorJetpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "ic2biogas",
+            "Amount:4": 30000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.StainlessSteelItemCasing",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:reactorCoolantTriple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {}
+            },
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorJetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "ic2biogas",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        651
+      ]
+    },
+    {
+      "questID": 653,
+      "name": "Advanced Electric Jetpack",
+      "description": "The Advanced Electric Jetpack is an upgraded version of the Electric Jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the Advanced Lappack from its 3,000,000 EU internal storage.\n\nThe Advanced Electric Jetpack is limited to a maximum flying height of 256 meters (blocks) above the bedrock layer. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GraviSuite:advJetpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 3000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorJetpackElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "GraviSuite:advLappack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {
+                "toolXP:6": 0.0,
+                "charge:4": 0,
+                "toolMode:4": 0
+              }
+            },
+            {
+              "id": "dreamcraft:item.TitaniumItemCasing",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1563
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32706
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "GraviSuite:advJetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32706
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32603
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        651,
+        176
+      ]
+    },
+    {
+      "questID": 654,
+      "name": "Advanced Nano Chestplate",
+      "description": "Combining  advanced electric  Jetpack and Nano Armor together gives you the Advanced Nano Armor. Now you have the protection from the Chestplate and can fly around.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GraviSuite:advNanoChestPlate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 3000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GraviSuite:advJetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "IC2:itemArmorNanoChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17316
+            },
+            {
+              "id": "IC2:itemPartCarbonPlate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1644
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32706
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "GraviSuite:advNanoChestPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32706
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32603
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160,
+        653
+      ]
+    },
+    {
+      "questID": 655,
+      "name": "Gravi Suit",
+      "description": The Gravichestplate is the Ultimate Quantum Armor with Jetpack. You can enable a Electrostatic Shield surrounds you. This absorbs all damage you get from Mobs, Lava and potion Effects.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GraviSuite:graviChestPlate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 3.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "IC2:itemArmorQuantumChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "GraviSuite:ultimateLappack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {
+                "toolXP:6": 0.0,
+                "charge:4": 0,
+                "toolMode:4": 0
+              }
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "GraviSuite:graviChestPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "dreamcraft:item.HighEnergyFlowCircuit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32606
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        653,
+        213
       ]
     },
     {
@@ -60144,8 +60804,8 @@
       ]
     },
     {
-      "name": "Armors and Jetpacks",
-      "description": "Guide you trough the Tiers which Armor or Jetpacks can be made.",
+      "name": "Armor\u0027s and Jetpack\u0027s",
+      "description": "Guide you through the Tiers which Armour or Jetpack can be made.",
       "quests": [
         {
           "id": 645,
@@ -60171,6 +60831,31 @@
           "id": 650,
           "x": 48,
           "y": 96
+        },
+        {
+          "id": 651,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 652,
+          "x": 48,
+          "y": 144
+        },
+        {
+          "id": 653,
+          "x": 0,
+          "y": 192
+        },
+        {
+          "id": 654,
+          "x": 48,
+          "y": 192
+        },
+        {
+          "id": 655,
+          "x": 0,
+          "y": 240
         }
       ]
     },
