@@ -156,7 +156,7 @@ recipes.addShaped(<adventurebackpack:backpackHose>.withTag({mode: -1, amount: 0,
 recipes.addShaped(<adventurebackpack:backpackComponent:5>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [<gregtech:gt.metaitem.01:32641>, <ore:pipeLargeSteel>, <gregtech:gt.metaitem.01:32641>],
-[<ore:plateSteel>, <gregtech:gt.blockmachines:1110>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <gregtech:gt.blockmachines:1111>, <ore:plateSteel>]]);
 
 // --- Copter Blade 
 recipes.addShaped(<adventurebackpack:backpackComponent:6>, [

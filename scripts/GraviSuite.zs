@@ -131,8 +131,8 @@ recipes.addShaped(<GraviSuite:graviChestPlate:27>, [
 // --- Advanced Nano Chest
 recipes.addShaped(<GraviSuite:advNanoChestPlate:27>, [
 [<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:*>, <IC2:itemPartCarbonPlate>],
-[<ore:plateChrome>, <IC2:itemArmorNanoChestplate:*>, <ore:plateChrome>],
-[<ore:wireGt12Platinum>, <ore:circuitAdvanced>, <ore:wireGt12Platinum>]]);
+[<ore:plateTungstenSteel>, <IC2:itemArmorNanoChestplate:*>, <ore:plateTungstenSteel>],
+[<ore:wireGt12Platinum>, <gregtech:gt.metaitem.01:32706>, <ore:wireGt12Platinum>]]);
  
 // --- Advanced Jetpack
 recipes.addShaped(<GraviSuite:advJetpack:27>, [

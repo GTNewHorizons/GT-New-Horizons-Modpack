@@ -905,7 +905,7 @@ recipes.addShaped(<IC2:itemArmorJetpackElectric:26>, [
 recipes.addShaped(<IC2:itemArmorJetpack:26>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<BuildCraft|Factory:tankBlock>, <IC2:reactorCoolantSix:1>, <BuildCraft|Factory:tankBlock>],
-[<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
+[<GraviSuite:itemSimpleItem:6>, <adventurebackpack:backpackComponent:5>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Reactor Plating
 recipes.addShaped(<IC2:reactorPlating>, [
