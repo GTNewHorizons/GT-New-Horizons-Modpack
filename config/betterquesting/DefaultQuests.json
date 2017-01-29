@@ -53109,6 +53109,353 @@
       ]
     },
     {
+      "questID": 646,
+      "name": "Electrotine Battery",
+      "description": "This Battery is mostly used in Project Red Machines and the Jetpack.\nElecrotine is a new mixture out of Redstoneand Electrum Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Expansion:projectred.expansion.battery",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.emptybattery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 647,
+      "name": "Electrotine Jetpack",
+      "description": "Your Glider bring you save to the ground but it isn\u0027t a real Jetpack. After you reserached Electrotine you get a powerful source for your first Jetpack.\nA Diamond Chestplate sorrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nYou don\u0027t have a hover mode so better get your Glider with you and you cant fly higher than Y 128.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Expansion:projectred.expansion.jetpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.emptybattery",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1422
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17811
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.jetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6400
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 2,
+                    "id:4": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        645,
+        646
+      ]
+    },
+    {
+      "questID": 648,
+      "name": "Refill your Jetpack",
+      "description": "GREAT.... you get now a complet emty jetpack.\nYou need 25 Electrotine Dust to complete fill your Pack.\nLets craft some Electrotine Generator and a Charging Bench to using the power of Electrotine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Core:projectred.core.part",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 56
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.machine1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.machine2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 56
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.jetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "ProjRed|Expansion:projectred.expansion.solar_panel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        647
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -58014,6 +58361,11 @@
           "id": 644,
           "x": 240,
           "y": 324
+        },
+        {
+          "id": 646,
+          "x": 492,
+          "y": 432
         }
       ]
     },
@@ -59378,8 +59730,18 @@
       "quests": [
         {
           "id": 645,
-          "x": 12,
-          "y": 12
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 647,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 648,
+          "x": 48,
+          "y": 48
         }
       ]
     },
