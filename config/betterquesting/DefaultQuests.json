@@ -53456,6 +53456,425 @@
       ]
     },
     {
+      "questID": 649,
+      "name": "Steam Jetpack",
+      "description": "Your Coal Jetpack need Coal and Water to produce Steam. After a short warming up time you can go and fly. This is the fist pacl not have a hight limit. Be carefull for a soft landing  you need here your wings too.\n\nPut your Jetpack on your Back and hit Shift and teh adventure Backpacks Action-Key to start it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "adventurebackpack:CoalJetpack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "jetpackData:10": {
+            "CoalTank:10": {
+              "FluidName:8": "water",
+              "Amount:4": 5279
+            },
+            "coolTicks:4": 3261,
+            "currentBurn:4": 1600,
+            "inUse:4": 0,
+            "temperature:4": 200,
+            "inventory:9": [
+              {
+                "Slot:4": 2,
+                "id:4": 263,
+                "Count:4": 61,
+                "Damage:4": 0
+              }
+            ],
+            "leaking:4": 0,
+            "systemTime:4": 0,
+            "water:4": 1,
+            "burnTicks:4": 453,
+            "status:4": 1,
+            "WaterTank:10": {
+              "FluidName:8": "water",
+              "Amount:4": 1574
+            }
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5130
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32601
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:CoalJetpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "jetpackData:10": {
+                  "CoalTank:10": {
+                    "FluidName:8": "water",
+                    "Amount:4": 5279
+                  },
+                  "coolTicks:4": 3261,
+                  "currentBurn:4": 1600,
+                  "inUse:4": 0,
+                  "temperature:4": 200,
+                  "inventory:9": [
+                    {
+                      "Slot:4": 2,
+                      "id:4": 263,
+                      "Count:4": 61,
+                      "Damage:4": 0
+                    }
+                  ],
+                  "leaking:4": 0,
+                  "systemTime:4": 0,
+                  "water:4": 1,
+                  "burnTicks:4": 453,
+                  "status:4": 1,
+                  "WaterTank:10": {
+                    "FluidName:8": "water",
+                    "Amount:4": 1574
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:fuel.coke",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 5130
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        647,
+        89
+      ]
+    },
+    {
+      "questID": 650,
+      "name": "Copter Jetpack",
+      "description": "The Copter Jetpack is the first Pack with a hover mode. It using all kind of Fuels be available in a Bucket. \nCreosote, Lava, Oil and Fuel.\nEquip your Jetpack and hit Shift and the Action-Key. You can switch between hover and normal mode.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "adventurebackpack:copterPack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "fuelTank:10": {
+            "Empty:8": ""
+          },
+          "tickCounter:4": 3,
+          "status:4": 0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31305
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 27305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1110
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5133
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32641
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32601
+            },
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 5130
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:copterPack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "fuelTank:10": {
+                  "Empty:8": ""
+                },
+                "tickCounter:4": 3,
+                "status:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "BuildCraft|Energy:bucketFuel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        649
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -59742,6 +60161,16 @@
           "id": 648,
           "x": 48,
           "y": 48
+        },
+        {
+          "id": 649,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 650,
+          "x": 48,
+          "y": 96
         }
       ]
     },
