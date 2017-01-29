@@ -52954,7 +52954,7 @@
     {
       "questID": 645,
       "name": "Glider Wings",
-      "description": "Why not jumping from a high Building or a Mountain without the message \"Player X fell from a high place\"?\nGood Idea but make you some Gilder Wings first. The Wings are your first gear to go up in the air.",
+      "description": "For some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea, but you will have to find some way to soften your landing first. Glider wings should be a good solution.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53111,7 +53111,7 @@
     {
       "questID": 646,
       "name": "Electrotine Battery",
-      "description": "This Battery is mostly used in Project Red Machines and the Jetpack.\nElecrotine is a new mixture out of Redstone and Electrum Dust.",
+      "description": "The electrotine battery is exclusively used in Project Red machines and the jetpack.\nElectrotine is a mixture out of Redstone and Electrum Dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53219,8 +53219,8 @@
     {
       "questID": 647,
       "name": "Electrotine Jetpack",
-      "description": "Your Glider bring you save to the ground but it isn\u0027t a real Jetpack. After you researched Electrotine you get a powerful source for your first Jetpack.\nA Diamond Chest plate surrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nYou don\u0027t have a hover mode so better get your Glider with you and you can\u0027t fly higher than Y 128.",
-	  "isMain": false,
+      "description": "Your glider gets you to the ground safely but it isn\u0027t  does not have a way to get up. After you researched Electrotine you discovered that it is a powerful enough energy source for your first Jetpack.\nA Diamond Chestplate surrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nIt does not have a hover mode so you better take your Glider with you.  This jetpack can\u0027t fly higher than Y 128.",
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -53348,7 +53348,7 @@
     {
       "questID": 648,
       "name": "Refill your Jetpack",
-      "description":"GREAT.... you get now a complete empty jetpack.\nYou need 25 Electrotine Dust to complete fill your Pack.\nLet\u0027s craft some Electrotine Generator and a Charging Bench to using the power of Electrotine.",
+      "description": "GREAT.... you now have an empty jetpack.\nYou need 25 Electrotine Dust to completely fill it.\nLet\u0027s craft an Electrotine Generator and a Charging Bench to use the power of Electrotine. \nYou very quickly discover that, while it is fast and cheap, it\u0027s empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53458,9 +53458,9 @@
     {
       "questID": 649,
       "name": "Steam Jetpack",
-      "description": "Your Coal Jetpack need Coal and Water to produce Steam. After a short warming up time you can go and fly. This is the first pack not have a high limit. Be careful for a soft landing  you need here your wings too.\n\nPut your Jetpack on your Back and hit Shift and the adventure Backpacks Action-Key to start it.",
+      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the adventure Backpacks Action-Key to start it.",
       "isMain": false,
-	  "isSilent": false,
+      "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -53643,7 +53643,7 @@
     {
       "questID": 650,
       "name": "Copter Jetpack",
-      "description": "The Copter Jetpack is the first Pack with a hover mode. It using all kind of Fuels be available in a Bucket. \nCreosote, Lava, Oil and Fuel.\nEquip your Jetpack and hit Shift and the Action-Key. You can switch between hover and normal mode.",
+      "description": "The Copter Jetpack is the first jetpack with a hover mode. It using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can switch between hover and normal mode.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53877,7 +53877,7 @@
     {
       "questID": 651,
       "name": "Electric Jetpack",
-      "description": "Your first electrical Jetpack. You need to hit the Ic2 Mode-Switch Key to toggle between normal and hover Mode.\n \nOnly limitation you can\u0027t flight higher than Y ~185.",
+      "description": "Your first electrical Jetpack. You need to hit the IC2 Mode-Switch Key to toggle between normal mode and hover mode.\n \nThe Only limitation is that you can\u0027t fligh higher than Y ~185.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54008,7 +54008,7 @@
     {
       "questID": 652,
       "name": "Biogas Jetpack",
-      "description": "This Backpack use Ic2 Biogas and can fly upt to Y Level 245.\nYou can switch between hover and normal Mode using the IC2 Mod-Switch Key.\n\nYor Jetpack can filled in the Ic2 Fluid Canner with 30 Buckets/Cells.",
+      "description": "This jetpack uses IC2 Biogas and can fly up to Y Level 245.\nYou can switch between hover and normal Mode using the IC2 Mod-Switch Key.\n\nYour Jetpack can be (re-)filled in the IC2 Fluid Canner with 30 Buckets/Cells worth of biogas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54141,7 +54141,7 @@
     {
       "questID": 653,
       "name": "Advanced Electric Jetpack",
-      "description": "The Advanced Electric Jetpack is an upgraded version of the Electric Jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the Advanced Lappack from its 3,000,000 EU internal storage.\n\nThe Advanced Electric Jetpack is limited to a maximum flying height of 256 meters (blocks) above the bedrock layer. ",
+      "description": "The Advanced Electric Jetpack is an upgraded version of the Electric Jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the Advanced Lappack from its 3,000,000 EU internal storage.\n\nThe Advanced Electric Jetpack is limited to a maximum flying height of 256 meters (blocks) above the bedrock layer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54277,7 +54277,7 @@
     {
       "questID": 654,
       "name": "Advanced Nano Chestplate",
-      "description": "Combining  advanced electric  Jetpack and Nano Armor together gives you the Advanced Nano Armor. Now you have the protection from the Chestplate and can fly around.",
+      "description": "Combining the Advanced Electric Jetpack and Nanosuit yields you the advanced Nano Chestplate. Now you have the protection from the Chestplate combined with the freedom of movement of the jetpack.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54407,8 +54407,8 @@
     {
       "questID": 655,
       "name": "Gravi Suit",
-      "description": "The Gravichestplate is the Ultimate Quantum Armor with Jetpack. You can enable a Electrostatic Shield surrounds you. This absorbs all damage you get from Mobs, Lava and potion Effects.",
-	  "isMain": false,
+      "description": "The Gravichestplate is the Ultimate Quantum Armor combined with a high powered Jetpack. You can enable an Electrostatic Shield that will surround you. This absorbs all damage you get from Mobs, Lava and potion Effects.",
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
