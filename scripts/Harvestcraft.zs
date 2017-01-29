@@ -615,6 +615,9 @@ Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:candleberryItem> *
 // --- Salt
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
 
+// --- Corn Meal
+Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);
+
 
 
 
