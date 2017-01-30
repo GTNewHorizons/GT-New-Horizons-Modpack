@@ -13,6 +13,25 @@ import net.minecraft.item.ItemStack;
 public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_CraftingRecipeLoader
         implements Runnable {
     public void run() {
+        // ===================================================================================================
+        // Casing
+        // ===================================================================================================
+
+        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UEV.get(1L, new Object[0]),
+                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+                new Object[]{"PPP", "PwP", "PPP",
+                        'P', OrePrefixes.plate.get(Materials.Bedrockium)});
+
+        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UIV.get(1L, new Object[0]),
+                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+                new Object[]{"PPP", "PwP", "PPP",
+                        'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
+
+        GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UMV.get(1L, new Object[0]),
+                GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+                new Object[]{"PPP", "PwP", "PPP",
+                        'P', OrePrefixes.plate.get(Materials.Draconium)});
+        //TODO : next tiers?
 
         //Mine and Blade Battlegear remove recipes NBT
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "quiver", 1L, 0), true, false, true);

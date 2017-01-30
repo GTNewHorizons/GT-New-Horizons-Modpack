@@ -3116,29 +3116,7 @@ public class GT_Loader_Machines
 		//TODO : ID's occupied to 12150!! (in EM branch)
 
 		//TODO new tiered maybe
-		// ===================================================================================================
-		// Casing
-		// ===================================================================================================
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UEV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.Bedrockium)});
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UIV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.BlackPlutonium)});
-
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Casing_UMV.get(1L, new Object[0]),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"PPP", "PwP", "PPP",
-						'P', OrePrefixes.plate.get(Materials.Draconium)});
-		//TODO : next tiers?
-
-
-
-
+		
 
 
 		/**
