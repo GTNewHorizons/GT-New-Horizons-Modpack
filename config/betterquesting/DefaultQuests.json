@@ -54972,6 +54972,263 @@
       ]
     },
     {
+      "questID": 660,
+      "name": "Diamond Shield",
+      "description": "Your Iron Shield got to very old. Why to crafting some Shield out of Diamond plates?\nYou can hold a Block up to 5 seconds.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "battlegear2:shield.diamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TGregworks:tGregToolPartLargePlate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 97,
+              "tag": {
+                "material:8": "Diamond"
+              }
+            },
+            {
+              "id": "TGregworks:tGregToolPartToughBind",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 97,
+              "tag": {
+                "material:8": "Diamond"
+              }
+            },
+            {
+              "id": "TGregworks:tGregToolPartToughRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 97,
+              "tag": {
+                "material:8": "Diamond"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "battlegear2:shield.diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 57
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 62
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 661,
+      "name": "Bow, Arrows and Quiver",
+      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it\0027s time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bow",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "battlegear2:quiver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "current:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:arrow",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "battlegear2:mb.arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        97
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -59465,8 +59722,8 @@
         },
         {
           "id": 90,
-          "x": 420,
-          "y": 204
+          "x": 444,
+          "y": 240
         },
         {
           "id": 91,
@@ -59505,13 +59762,13 @@
         },
         {
           "id": 99,
-          "x": 420,
+          "x": 444,
           "y": 36
         },
         {
           "id": 100,
-          "x": 420,
-          "y": 156
+          "x": 444,
+          "y": 204
         },
         {
           "id": 101,
@@ -59765,7 +60022,7 @@
         },
         {
           "id": 563,
-          "x": 384,
+          "x": 396,
           "y": 108
         },
         {
@@ -59897,6 +60154,11 @@
           "id": 646,
           "x": 492,
           "y": 432
+        },
+        {
+          "id": 661,
+          "x": 396,
+          "y": 144
         }
       ]
     },
@@ -59906,172 +60168,172 @@
       "quests": [
         {
           "id": 89,
-          "x": 32,
+          "x": 68,
           "y": 0
         },
         {
           "id": 127,
-          "x": 0,
-          "y": 64
+          "x": 36,
+          "y": 96
         },
         {
           "id": 128,
-          "x": 128,
+          "x": 164,
           "y": 0
         },
         {
           "id": 129,
-          "x": 128,
+          "x": 164,
           "y": 136
         },
         {
           "id": 130,
-          "x": 272,
+          "x": 308,
           "y": 136
         },
         {
           "id": 131,
-          "x": 272,
+          "x": 308,
           "y": 168
         },
         {
           "id": 132,
-          "x": 312,
+          "x": 348,
           "y": 136
         },
         {
           "id": 133,
-          "x": 128,
+          "x": 164,
           "y": 168
         },
         {
           "id": 134,
-          "x": 168,
+          "x": 204,
           "y": 32
         },
         {
           "id": 135,
-          "x": 200,
+          "x": 236,
           "y": 0
         },
         {
           "id": 136,
-          "x": 200,
+          "x": 236,
           "y": 32
         },
         {
           "id": 137,
-          "x": 168,
+          "x": 204,
           "y": 0
         },
         {
           "id": 138,
-          "x": 96,
+          "x": 132,
           "y": 64
         },
         {
           "id": 139,
-          "x": 96,
+          "x": 132,
           "y": 96
         },
         {
           "id": 140,
-          "x": 64,
+          "x": 100,
           "y": 64
         },
         {
           "id": 141,
-          "x": 64,
+          "x": 100,
           "y": 96
         },
         {
           "id": 142,
-          "x": 312,
+          "x": 348,
           "y": 96
         },
         {
           "id": 143,
-          "x": 312,
+          "x": 348,
           "y": 208
         },
         {
           "id": 144,
-          "x": 272,
+          "x": 308,
           "y": 208
         },
         {
           "id": 145,
-          "x": 392,
+          "x": 428,
           "y": 208
         },
         {
           "id": 146,
-          "x": 352,
+          "x": 388,
           "y": 208
         },
         {
           "id": 147,
-          "x": 352,
+          "x": 388,
           "y": 32
         },
         {
           "id": 148,
-          "x": 272,
+          "x": 308,
           "y": 32
         },
         {
           "id": 149,
-          "x": 232,
+          "x": 268,
           "y": 32
         },
         {
           "id": 150,
-          "x": 312,
+          "x": 348,
           "y": 32
         },
         {
           "id": 151,
-          "x": 232,
+          "x": 268,
           "y": 0
         },
         {
           "id": 152,
-          "x": 272,
+          "x": 308,
           "y": 0
         },
         {
           "id": 153,
-          "x": 64,
+          "x": 100,
           "y": 32
         },
         {
           "id": 154,
-          "x": 96,
+          "x": 132,
           "y": 32
         },
         {
           "id": 155,
-          "x": 32,
+          "x": 68,
           "y": 64
         },
         {
           "id": 156,
-          "x": 32,
+          "x": 68,
           "y": 96
         },
         {
           "id": 157,
-          "x": 32,
+          "x": 68,
           "y": 136
         },
         {
           "id": 158,
-          "x": 72,
+          "x": 108,
           "y": 136
         },
         {
           "id": 159,
-          "x": 32,
+          "x": 68,
           "y": 168
         },
         {
@@ -60081,6 +60343,11 @@
         },
         {
           "id": 659,
+          "x": 36,
+          "y": 36
+        },
+        {
+          "id": 660,
           "x": 0,
           "y": 36
         }
