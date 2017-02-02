@@ -7,6 +7,7 @@
 
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
+import mods.gregtech.Centrifuge;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 import mods.gregtech.Lathe;
@@ -398,6 +399,17 @@ Assembler.addRecipe(<HardcoreEnderExpansion:transference_gem>, <HardcoreEnderExp
 // --- Schorching Pickaxe
 Assembler.addRecipe(<HardcoreEnderExpansion:schorching_pickaxe>, <minecraft:golden_pickaxe>, <HardcoreEnderExpansion:fire_shard> * 8, 300, 120);
 
+
+
+
+// --- Centrifuge Recipes ---
+
+
+// --- End Powder
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1770>, <gregtech:gt.metaitem.01:533>, <gregtech:gt.metaitem.01:1770>, <gregtech:gt.metaitem.01:533>],  null, <HardcoreEnderExpansion:end_powder> * 4, null, <liquid:ender> * 100, [9000, 8000, 7500, 5000], 200, 480);
+
+// --- Ender Goo
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2770>, <gregtech:gt.metaitem.01:2533>, <gregtech:gt.metaitem.01:1081>, <gregtech:gt.metaitem.01:1770>, <gregtech:gt.metaitem.01:1533>],  <liquid:endergoo> * 1000, null, null, <liquid:ender> * 250, [9000, 8000, 7500, 5000, 2500], 600, 480);
 
 
 
