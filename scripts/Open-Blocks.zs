@@ -244,12 +244,6 @@ recipes.addShaped(GliderWing, [
 [SteelRod, TannedLeather, Leather],
 [Leather, Leather, Leather]]);
 
-// --- Auto-Enchantment Table
-recipes.addShaped(<OpenBlocks:autoenchantmenttable>, [
-[<ore:plateAnyIron>, <ore:plateDenseLapis>, <ore:plateAnyIron>],
-[<ore:plateAnyIron>, EnchantTable, <ore:plateAnyIron>],
-[<ore:plateRedAlloy>, <ore:blockRedstone>, <ore:plateRedAlloy>]]);
-
 // --- Auto-Anvil
 recipes.addShaped(<OpenBlocks:autoanvil>, [
 [<ore:blockStainlessSteel>, <ore:blockStainlessSteel>, <ore:blockStainlessSteel>],
