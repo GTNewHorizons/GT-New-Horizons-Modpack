@@ -1942,3 +1942,26 @@ Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 
 
 // --- Coolant
 VacuumFreezer.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2hotcoolant", Amount: 1000}}), 200);
+
+
+
+
+// --- Thaumcraft Aspects Set ---
+
+
+// --- Steel Block
+mods.thaumcraft.Aspects.set(<IC2:blockMetal:5>, "metallum 18, ordo 5");
+
+// --- Advanced Circuit
+mods.thaumcraft.Aspects.set(<IC2:itemPartCircuitAdv>, "fabrico 9, ordo 7, machina 6, instrumentum 5, metallum 5, lux 4");
+
+// --- Advanced Alloy
+mods.thaumcraft.Aspects.set(<IC2:itemPartAlloy>, "metallum 4, vacuos 2");
+
+// --- Mixed Metal Ingot
+mods.thaumcraft.Aspects.set(<IC2:itemIngot:4>, "metallum 3");
+
+// --- Reinforced Glass
+mods.thaumcraft.Aspects.set(<dreamcraft:item.ReinforcedGlassPlate>, "metallum 1, gelum 1");
+// -
+mods.thaumcraft.Aspects.set(<dreamcraft:item.ReinforcedGlassPlate>, "metallum 1, gelum 1, vitreus 1");
