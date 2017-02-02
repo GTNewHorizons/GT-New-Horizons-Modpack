@@ -1895,9 +1895,6 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <m
 // --- Blast Furnace recipes
 
 
-// --- Coal Coke
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal>, false, false, 20, <Railcraft:fuel.coke>);
-
 // --- Coal Coke Block
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
 
