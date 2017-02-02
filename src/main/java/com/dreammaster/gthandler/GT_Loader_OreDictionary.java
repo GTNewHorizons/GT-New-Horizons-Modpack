@@ -100,6 +100,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("listAllporkraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("listAllchickenraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
+        GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Salt, GT_ModHandler.getModItem("harvestcraft", "saltItem", 1L, 0));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
