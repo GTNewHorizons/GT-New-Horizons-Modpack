@@ -6976,7 +6976,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...",
+      "description": "In order to get the proper alumin(i)um, you need an electrical blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...\n\n(You need minimum 2 LV Engery Hatches with 2amps)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7082,7 +7082,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 41
             }
@@ -55091,7 +55091,7 @@
     {
       "questID": 661,
       "name": "Bow, Arrows and Quiver",
-      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it\0027s time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
+      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it0027s time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
