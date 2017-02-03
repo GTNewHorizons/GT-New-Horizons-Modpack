@@ -15,35 +15,24 @@ import minetweaker.item.IItemStack;
 
 
 
-val CAP_MechanistUC = <ThaumicExploration:mechanistCapUncharged>;
-val CAP_SojUC = <ThaumicExploration:sojournerCapUncharged>;
-val CAP_Soj = <ThaumicExploration:sojournerCap>;
-val CAP_Mechanist = <ThaumicExploration:mechanistCap>;
 val CAP_Thauminite = <thaumicbases:resource:2>;
 
 // --- Functions ---
    
 function remove_TC_Infusion(pItem as IItemStack) {
 mods.thaumcraft.Infusion.removeRecipe(pItem);
-//NEI.hide(pItem);
 }
  
 function remove_TC_Arcane(pItem as IItemStack) {
 mods.thaumcraft.Arcane.removeRecipe(pItem);
-//NEI.hide(pItem);
 }
 
 
 
 // --- Removing Recipes ---
 
-// Add-on Infusion Caps
-remove_TC_Infusion(CAP_Mechanist);
-remove_TC_Infusion(CAP_Soj);
 
 // Add-on Arcane Bench Caps
-remove_TC_Arcane(CAP_MechanistUC);
-remove_TC_Arcane(CAP_SojUC);
 remove_TC_Arcane(CAP_Thauminite);
 
 // --- Iron Wand Cap
