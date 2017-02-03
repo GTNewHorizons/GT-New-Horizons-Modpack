@@ -97,7 +97,7 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.3.0.1 --- 21.01.2017<BR>
+## Modlist - NewHorizons 1.3.0.5 --- 24.01.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta25b<BR>
