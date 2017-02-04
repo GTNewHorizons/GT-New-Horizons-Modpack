@@ -51384,7 +51384,8 @@
         }
       ],
       "preRequisites": [
-        631
+        631,
+        634
       ]
     },
     {
@@ -51994,7 +51995,8 @@
         }
       ],
       "preRequisites": [
-        7
+        7,
+        665
       ]
     },
     {
@@ -55483,6 +55485,137 @@
       ],
       "preRequisites": [
         619
+      ]
+    },
+    {
+      "questID": 665,
+      "name": "Kitchenware",
+      "description": "To cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPott, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Malet, \nSkillet, \nKnife.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:potItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:saucepanItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:potItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 46
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "harvestcraft:mixingbowlItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "harvestcraft:skilletItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:butterItem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:firmtofuItem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:flourItem",
+              "Count": 16,
+              "OreDict": "foodFlour",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
       ]
     },
     {
@@ -61861,63 +61994,68 @@
       "quests": [
         {
           "id": 627,
-          "x": 96,
+          "x": 192,
           "y": 36
         },
         {
           "id": 628,
-          "x": 96,
+          "x": 192,
           "y": 0
         },
         {
           "id": 629,
-          "x": 96,
+          "x": 192,
           "y": 72
         },
         {
           "id": 630,
-          "x": 96,
+          "x": 192,
           "y": 108
         },
         {
           "id": 631,
-          "x": 144,
+          "x": 240,
           "y": 36
         },
         {
           "id": 632,
-          "x": 144,
+          "x": 240,
           "y": 180
         },
         {
           "id": 633,
-          "x": 144,
+          "x": 240,
           "y": 72
         },
         {
           "id": 634,
-          "x": 0,
+          "x": 96,
           "y": 36
         },
         {
           "id": 635,
-          "x": 0,
+          "x": 96,
           "y": 72
         },
         {
           "id": 636,
-          "x": 0,
+          "x": 96,
           "y": 144
         },
         {
           "id": 637,
-          "x": 0,
+          "x": 96,
           "y": 108
         },
         {
           "id": 638,
-          "x": 0,
+          "x": 96,
           "y": 180
+        },
+        {
+          "id": 665,
+          "x": 0,
+          "y": 36
         }
       ]
     },
