@@ -55490,7 +55490,7 @@
     {
       "questID": 665,
       "name": "Kitchenware",
-      "description": "To cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPott, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Malet, \nSkillet, \nKnife.",
+      "description": "To cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPot, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Mallet, \nSkillet, \nKnife.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55621,7 +55621,7 @@
     {
       "questID": 666,
       "name": "Row row row your Boat",
-      "description": "You live closeto the Water and don\u0027t have a Boat?\nOk lets craft some.",
+      "description": "You live close to the Water and don\u0027t have a Boat?\nYou need Wooden Planks, Slabs and a Knife to craft one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55686,6 +55686,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -55697,6 +55703,551 @@
       ],
       "preRequisites": [
         36
+      ]
+    },
+    {
+      "questID": 668,
+      "name": "Rubber Boat",
+      "description": "The Rubber Dinghy  requiring only a few Rubber Plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a Damaged Rubber Dinghy, which can be re-crafted with two  pieces of Rubber back into a useable Rubber Dinghy!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBoat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBoat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        666
+      ]
+    },
+    {
+      "questID": 669,
+      "name": "Inflatable Boat",
+      "description": "The Inflatable Boot  is the first Boot that don\u0027t break on impact. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "adventurebackpack:backpackComponent",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "adventurebackpack:backpackComponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartCarbonMesh",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 33
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        673
+      ]
+    },
+    {
+      "questID": 670,
+      "name": "Carbon Fiber Boat",
+      "description": "Unlike all other boats, the amazing Carbon Fiber Canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the Carbon Fiber Canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damaged caused by riding the Carbon Fiber Canoe into a Lava Lake or the Void.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBoat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBoat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:fishtrap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 33
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        673
+      ]
+    },
+    {
+      "questID": 671,
+      "name": "Electric Boat",
+      "description": "The Electric Boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will helpfully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we give it some powerful power? Wearing an energy storage device in your chestplate slot, like a Batpack or Energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a measly Batpack will last you 600 blocks!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBoat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.ElectricBoatHull",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBoat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "dreamcraft:item.AluminiumItemCasing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 33
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        669,
+        670
+      ]
+    },
+    {
+      "questID": 672,
+      "name": "Boat Shape ??",
+      "description": "Boat Shape?? Yes for the more advanced Boots you need a new Shape Form.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.ExtruderShapeBoat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.ShapeBoat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.ExtruderShapeBoat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11880
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        668
+      ]
+    },
+    {
+      "questID": 673,
+      "name": "LV Extruder",
+      "description": "The Extruder haven\u0027t much useful recipes in LV Age. But it extrude your next Tier of Boots.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 281
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 281
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        672
       ]
     },
     {
@@ -59696,237 +60247,232 @@
       "quests": [
         {
           "id": 15,
-          "x": 372,
+          "x": 408,
           "y": 36
         },
         {
           "id": 17,
-          "x": 444,
+          "x": 480,
           "y": 72
         },
         {
           "id": 18,
-          "x": 336,
+          "x": 372,
           "y": 36
         },
         {
           "id": 19,
-          "x": 336,
+          "x": 372,
           "y": 72
         },
         {
           "id": 20,
-          "x": 408,
+          "x": 444,
           "y": 72
         },
         {
           "id": 21,
-          "x": 372,
+          "x": 408,
           "y": 72
         },
         {
           "id": 22,
-          "x": 372,
+          "x": 408,
           "y": 108
         },
         {
           "id": 23,
-          "x": 336,
+          "x": 372,
           "y": 108
         },
         {
           "id": 24,
-          "x": 444,
+          "x": 480,
           "y": 108
         },
         {
           "id": 25,
-          "x": 408,
+          "x": 444,
           "y": 108
         },
         {
           "id": 27,
-          "x": 444,
+          "x": 480,
           "y": 252
         },
         {
           "id": 28,
-          "x": 216,
+          "x": 252,
           "y": 252
         },
         {
           "id": 29,
-          "x": 72,
+          "x": 108,
           "y": 216
         },
         {
           "id": 30,
-          "x": 144,
+          "x": 216,
           "y": 180
         },
         {
           "id": 31,
-          "x": 216,
+          "x": 252,
           "y": 180
         },
         {
           "id": 32,
-          "x": 336,
+          "x": 372,
           "y": 144
         },
         {
           "id": 33,
-          "x": 336,
+          "x": 372,
           "y": 180
         },
         {
           "id": 34,
-          "x": 108,
+          "x": 144,
           "y": 180
         },
         {
           "id": 35,
-          "x": 216,
-          "y": 144
+          "x": 252,
+          "y": 0
         },
         {
           "id": 36,
-          "x": 72,
+          "x": 108,
           "y": 36
         },
         {
           "id": 38,
-          "x": 144,
+          "x": 180,
           "y": 144
         },
         {
           "id": 37,
-          "x": 72,
+          "x": 108,
           "y": 180
         },
         {
           "id": 39,
-          "x": 108,
-          "y": 0
+          "x": 144,
+          "y": 72
         },
         {
           "id": 40,
-          "x": 216,
+          "x": 108,
           "y": 0
         },
         {
           "id": 41,
-          "x": 300,
+          "x": 336,
           "y": 108
         },
         {
           "id": 26,
-          "x": 408,
+          "x": 444,
           "y": 144
         },
         {
           "id": 42,
-          "x": 300,
+          "x": 336,
           "y": 180
         },
         {
           "id": 43,
-          "x": 300,
+          "x": 336,
           "y": 144
         },
         {
           "id": 472,
-          "x": 336,
+          "x": 372,
           "y": 216
         },
         {
           "id": 473,
-          "x": 108,
-          "y": 144
+          "x": 180,
+          "y": 108
         },
         {
           "id": 474,
-          "x": 144,
+          "x": 180,
           "y": 216
         },
         {
           "id": 480,
-          "x": 144,
+          "x": 180,
           "y": 252
         },
         {
           "id": 485,
-          "x": 492,
+          "x": 528,
           "y": 108
         },
         {
           "id": 486,
-          "x": 108,
-          "y": 72
+          "x": 144,
+          "y": 36
         },
         {
           "id": 487,
-          "x": 144,
-          "y": 108
+          "x": 180,
+          "y": 36
         },
         {
           "id": 488,
-          "x": 180,
-          "y": 108
+          "x": 216,
+          "y": 36
         },
         {
           "id": 489,
-          "x": 36,
-          "y": 72
+          "x": 0,
+          "y": 108
         },
         {
           "id": 490,
           "x": 0,
-          "y": 72
+          "y": 144
         },
         {
           "id": 491,
-          "x": 108,
-          "y": 108
+          "x": 180,
+          "y": 72
         },
         {
           "id": 481,
-          "x": 492,
+          "x": 528,
           "y": 144
         },
         {
           "id": 482,
-          "x": 36,
-          "y": 0
-        },
-        {
-          "id": 483,
-          "x": 36,
+          "x": 0,
           "y": 36
         },
         {
+          "id": 483,
+          "x": 0,
+          "y": 72
+        },
+        {
           "id": 492,
-          "x": 72,
-          "y": 0
+          "x": 36,
+          "y": 36
         },
         {
           "id": 498,
           "x": 144,
-          "y": 0
+          "y": 108
         },
         {
           "id": 656,
-          "x": 180,
-          "y": 36
+          "x": 36,
+          "y": 108
         },
         {
           "id": 657,
-          "x": 180,
-          "y": 72
-        },
-        {
-          "id": 666,
-          "x": 36,
+          "x": 72,
           "y": 108
         }
       ]
@@ -62142,6 +62688,47 @@
           "id": 665,
           "x": 0,
           "y": 36
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "description": "All kind of Transportation Boat, Rail, Space",
+      "quests": [
+        {
+          "id": 666,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 668,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 669,
+          "x": 24,
+          "y": 144
+        },
+        {
+          "id": 670,
+          "x": 72,
+          "y": 144
+        },
+        {
+          "id": 671,
+          "x": 48,
+          "y": 192
+        },
+        {
+          "id": 672,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 673,
+          "x": 48,
+          "y": 96
         }
       ]
     },
