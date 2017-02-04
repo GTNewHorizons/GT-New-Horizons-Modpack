@@ -187,7 +187,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
+              "id": "dreamcraft:item.CoinSurvivor",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -37975,7 +37975,7 @@
         }
       ],
       "preRequisites": [
-        25
+        24
       ]
     },
     {
@@ -51384,7 +51384,7 @@
         }
       ],
       "preRequisites": [
-        634
+        631
       ]
     },
     {
@@ -51471,7 +51471,8 @@
         }
       ],
       "preRequisites": [
-        440
+        440,
+        631
       ]
     },
     {
@@ -51557,7 +51558,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        631
+      ]
     },
     {
       "questID": 630,
@@ -51643,7 +51646,7 @@
         }
       ],
       "preRequisites": [
-        632
+        633
       ]
     },
     {
@@ -51718,11 +51721,7 @@
         }
       ],
       "preRequisites": [
-        628,
-        627,
-        629,
-        10,
-        12
+        36
       ]
     },
     {
@@ -51917,7 +51916,8 @@
         }
       ],
       "preRequisites": [
-        630
+        36,
+        632
       ]
     },
     {
@@ -61876,7 +61876,7 @@
         },
         {
           "id": 630,
-          "x": 144,
+          "x": 96,
           "y": 108
         },
         {
@@ -61886,8 +61886,8 @@
         },
         {
           "id": 632,
-          "x": 48,
-          "y": 108
+          "x": 144,
+          "y": 180
         },
         {
           "id": 633,
