@@ -55619,6 +55619,87 @@
       ]
     },
     {
+      "questID": 666,
+      "name": "Row row row your Boat",
+      "description": "You live closeto the Water and don\u0027t have a Boat?\nOk lets craft some.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:boat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "minecraft:boat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:fishing_rod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:watergarden",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -59615,233 +59696,238 @@
       "quests": [
         {
           "id": 15,
-          "x": 336,
+          "x": 372,
           "y": 36
         },
         {
           "id": 17,
-          "x": 408,
+          "x": 444,
           "y": 72
         },
         {
           "id": 18,
-          "x": 300,
+          "x": 336,
           "y": 36
         },
         {
           "id": 19,
-          "x": 300,
+          "x": 336,
           "y": 72
         },
         {
           "id": 20,
-          "x": 372,
+          "x": 408,
           "y": 72
         },
         {
           "id": 21,
-          "x": 336,
+          "x": 372,
           "y": 72
         },
         {
           "id": 22,
-          "x": 336,
+          "x": 372,
           "y": 108
         },
         {
           "id": 23,
-          "x": 300,
+          "x": 336,
           "y": 108
         },
         {
           "id": 24,
-          "x": 408,
+          "x": 444,
           "y": 108
         },
         {
           "id": 25,
-          "x": 372,
+          "x": 408,
           "y": 108
         },
         {
           "id": 27,
-          "x": 408,
+          "x": 444,
           "y": 252
         },
         {
           "id": 28,
-          "x": 180,
+          "x": 216,
           "y": 252
         },
         {
           "id": 29,
-          "x": 36,
+          "x": 72,
           "y": 216
         },
         {
           "id": 30,
-          "x": 108,
+          "x": 144,
           "y": 180
         },
         {
           "id": 31,
-          "x": 180,
+          "x": 216,
           "y": 180
         },
         {
           "id": 32,
-          "x": 300,
+          "x": 336,
           "y": 144
         },
         {
           "id": 33,
-          "x": 300,
+          "x": 336,
           "y": 180
         },
         {
           "id": 34,
-          "x": 72,
+          "x": 108,
           "y": 180
         },
         {
           "id": 35,
-          "x": 180,
+          "x": 216,
           "y": 144
         },
         {
           "id": 36,
-          "x": 36,
+          "x": 72,
           "y": 36
         },
         {
           "id": 38,
-          "x": 108,
+          "x": 144,
           "y": 144
         },
         {
           "id": 37,
-          "x": 36,
+          "x": 72,
           "y": 180
         },
         {
           "id": 39,
-          "x": 72,
+          "x": 108,
           "y": 0
         },
         {
           "id": 40,
-          "x": 180,
-          "y": 72
+          "x": 216,
+          "y": 0
         },
         {
           "id": 41,
-          "x": 264,
+          "x": 300,
           "y": 108
         },
         {
           "id": 26,
-          "x": 372,
+          "x": 408,
           "y": 144
         },
         {
           "id": 42,
-          "x": 264,
+          "x": 300,
           "y": 180
         },
         {
           "id": 43,
-          "x": 264,
+          "x": 300,
           "y": 144
         },
         {
           "id": 472,
-          "x": 300,
+          "x": 336,
           "y": 216
         },
         {
           "id": 473,
-          "x": 72,
+          "x": 108,
           "y": 144
         },
         {
           "id": 474,
-          "x": 108,
+          "x": 144,
           "y": 216
         },
         {
           "id": 480,
-          "x": 108,
+          "x": 144,
           "y": 252
         },
         {
           "id": 485,
-          "x": 456,
+          "x": 492,
           "y": 108
         },
         {
           "id": 486,
-          "x": 72,
-          "y": 72
-        },
-        {
-          "id": 487,
           "x": 108,
           "y": 72
         },
         {
-          "id": 488,
+          "id": 487,
           "x": 144,
           "y": 108
         },
         {
+          "id": 488,
+          "x": 180,
+          "y": 108
+        },
+        {
           "id": 489,
-          "x": 0,
+          "x": 36,
           "y": 72
         },
         {
           "id": 490,
           "x": 0,
-          "y": 108
+          "y": 72
         },
         {
           "id": 491,
-          "x": 72,
+          "x": 108,
           "y": 108
         },
         {
           "id": 481,
-          "x": 456,
+          "x": 492,
           "y": 144
         },
         {
           "id": 482,
-          "x": 0,
-          "y": 0
-        },
-        {
-          "id": 483,
-          "x": 0,
-          "y": 36
-        },
-        {
-          "id": 492,
           "x": 36,
           "y": 0
         },
         {
+          "id": 483,
+          "x": 36,
+          "y": 36
+        },
+        {
+          "id": 492,
+          "x": 72,
+          "y": 0
+        },
+        {
           "id": 498,
-          "x": 108,
+          "x": 144,
           "y": 0
         },
         {
           "id": 656,
           "x": 180,
-          "y": 0
+          "y": 36
         },
         {
           "id": 657,
           "x": 180,
-          "y": 36
+          "y": 72
+        },
+        {
+          "id": 666,
+          "x": 36,
+          "y": 108
         }
       ]
     },
