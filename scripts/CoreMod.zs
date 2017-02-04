@@ -589,25 +589,33 @@ recipes.addShaped(<dreamcraft:item.BowStringCast>, [
 
 // --- Charcoal out of XP 2,5 level
 recipes.addShaped(<minecraft:coal:1>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Redstone Dust out of XP 2,5 level
 recipes.addShaped(<minecraft:redstone>, [
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Glass Dust out of XP 2,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2890>, [
-[null, null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[null, null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[null, null, null],
+[null, null, null]]);
 
 // --- String of XP 2,5 level
 recipes.addShaped(<minecraft:string>, [
 [null, null, null],
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[null, null, null]]);
 
 // --- Clay Dust out of XP 2,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
 [null, null, null],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null],
+[null, null, null]]);
 
 // --- Copper Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
