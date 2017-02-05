@@ -124,26 +124,26 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 
 // --- Gravi Chest
 recipes.addShaped(<GraviSuite:graviChestPlate:27>, [
-[<GraviSuite:itemSimpleItem:1>, <IC2:itemArmorQuantumChestplate:*>, <GraviSuite:itemSimpleItem:1>],
+[<GraviSuite:itemSimpleItem:1>, <IC2:itemArmorQuantumChestplate:1>, <GraviSuite:itemSimpleItem:1>],
 [<GraviSuite:itemSimpleItem:3>, <gregtech:gt.blockmachines:26>, <GraviSuite:itemSimpleItem:3>],
 [<GraviSuite:itemSimpleItem:1>, <GraviSuite:ultimateLappack:*>, <GraviSuite:itemSimpleItem:1>]]);
  
 // --- Advanced Nano Chest
 recipes.addShaped(<GraviSuite:advNanoChestPlate:27>, [
 [<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:*>, <IC2:itemPartCarbonPlate>],
-[<ore:plateChrome>, <IC2:itemArmorNanoChestplate:*>, <ore:plateChrome>],
+[<ore:plateChrome>, <IC2:itemArmorNanoChestplate:1>, <ore:plateChrome>],
 [<ore:wireGt12Platinum>, <ore:circuitAdvanced>, <ore:wireGt12Platinum>]]);
  
 // --- Advanced Jetpack
 recipes.addShaped(<GraviSuite:advJetpack:27>, [
-[<dreamcraft:item.ChromeItemCasing>, <IC2:itemArmorJetpackElectric:*>, <dreamcraft:item.ChromeItemCasing>],
+[<dreamcraft:item.ChromeItemCasing>, <IC2:itemArmorJetpackElectric:1>, <dreamcraft:item.ChromeItemCasing>],
 [<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:*>, <GraviSuite:itemSimpleItem:6>],
 [<gregtech:gt.blockmachines:1643>, <dreamcraft:item.HighEnergyFlowCircuit>, <gregtech:gt.blockmachines:1643>]]);
 
 // --- Advanced Lappack
 recipes.addShaped(<GraviSuite:advLappack:27>, [
 [<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
-[<ore:batteryElite>, <IC2:itemArmorEnergypack:*>, <ore:batteryElite>],
+[<ore:batteryElite>, <IC2:itemArmorEnergypack:1>, <ore:batteryElite>],
 [<ore:circuitMaster>, <ore:wireGt12Nichrome> , <ore:circuitMaster>]]);
 
 // --- Ultimate Lappack
