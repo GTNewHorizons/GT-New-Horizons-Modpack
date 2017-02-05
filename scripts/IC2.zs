@@ -886,19 +886,19 @@ recipes.addShaped(<IC2:itemArmorBatpack:26>, [
 // --- Advanced Batpack
 recipes.addShaped(<IC2:itemArmorAdvBatpack:26>, [
 [<IC2:itemAdvBat:*>, <ore:circuitGood>, <IC2:itemAdvBat:*>],
-[<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:*>, <IC2:itemAdvBat:*>],
+[<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:1>, <IC2:itemAdvBat:*>],
 [<IC2:itemAdvBat:*>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:*>]]);
 
 // --- Energy Pack
 recipes.addShaped(<IC2:itemArmorEnergypack:26>, [
 [<ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>],
-[<ore:batteryElite>, <IC2:itemArmorAdvBatpack:*>, <ore:batteryElite>],
+[<ore:batteryElite>, <IC2:itemArmorAdvBatpack:1>, <ore:batteryElite>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Electric Jetpack
 recipes.addShaped(<IC2:itemArmorJetpackElectric:26>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:*>, <gregtech:gt.metaitem.01:32602>],
+[<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:1>, <gregtech:gt.metaitem.01:32602>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Biogas Jetpack

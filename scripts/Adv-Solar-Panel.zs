@@ -96,13 +96,13 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [
 // --- Advanced Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [
 [<ore:craftingToolWrench>, <AdvancedSolarPanel:BlockAdvSolarPanel>, <ore:craftingToolScrewdriver>],
-[<ore:circuitAdvanced>, <IC2:itemArmorNanoHelmet:*>, <ore:circuitAdvanced>],
+[<ore:circuitAdvanced>, <IC2:itemArmorNanoHelmet:1>, <ore:circuitAdvanced>],
 [<ore:cableGt04Aluminium>, <gregtech:gt.blockmachines:22>, <ore:cableGt04Aluminium>]]);
 
 // --- Hybrid Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:hybrid_solar_helmet>, [
 [<ore:craftingToolWrench>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:craftingToolScrewdriver>],
-[<ore:circuitMaster>, <IC2:itemArmorQuantumHelmet:*>, <ore:circuitMaster>],
+[<ore:circuitMaster>, <IC2:itemArmorQuantumHelmet:1>, <ore:circuitMaster>],
 [<ore:cableGt04Platinum>, <gregtech:gt.blockmachines:23>, <ore:cableGt04Platinum>]]);
 
 // --- Ultimate Solar Helm
