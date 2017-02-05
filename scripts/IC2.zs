@@ -840,8 +840,8 @@ recipes.addShaped(<IC2:blockElectric>, [
 // --- CESU
 recipes.addShaped(<IC2:blockElectric:7>, [
 [<ore:cableGt01AnyCopper>, <ore:plateBronze>, <ore:cableGt01AnyCopper>],
-[<IC2:itemAdvBat:*>, <gregtech:gt.blockmachines:12>, <IC2:itemAdvBat:*>],
-[<ore:plateBronze>, <IC2:itemAdvBat:*>, <ore:plateBronze>]]);
+[<IC2:itemAdvBat:26>, <gregtech:gt.blockmachines:12>, <IC2:itemAdvBat:26>],
+[<ore:plateBronze>, <IC2:itemAdvBat:26>, <ore:plateBronze>]]);
 
 // --- MFE
 recipes.addShaped(<IC2:blockElectric:1>, [
@@ -885,20 +885,20 @@ recipes.addShaped(<IC2:itemArmorBatpack:26>, [
 
 // --- Advanced Batpack
 recipes.addShaped(<IC2:itemArmorAdvBatpack:26>, [
-[<IC2:itemAdvBat:*>, <ore:circuitGood>, <IC2:itemAdvBat:*>],
-[<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:*>, <IC2:itemAdvBat:*>],
-[<IC2:itemAdvBat:*>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:*>]]);
+[<IC2:itemAdvBat:26>, <ore:circuitGood>, <IC2:itemAdvBat:26>],
+[<IC2:itemAdvBat:26>, <IC2:itemArmorBatpack:26>, <IC2:itemAdvBat:26>],
+[<IC2:itemAdvBat:26>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:26>]]);
 
 // --- Energy Pack
 recipes.addShaped(<IC2:itemArmorEnergypack:26>, [
 [<ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>],
-[<ore:batteryElite>, <IC2:itemArmorAdvBatpack:*>, <ore:batteryElite>],
+[<ore:batteryElite>, <IC2:itemArmorAdvBatpack:26>, <ore:batteryElite>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Electric Jetpack
 recipes.addShaped(<IC2:itemArmorJetpackElectric:26>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:*>, <gregtech:gt.metaitem.01:32602>],
+[<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:26>, <gregtech:gt.metaitem.01:32602>],
 [<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Biogas Jetpack
@@ -1116,6 +1116,12 @@ recipes.addShaped(<IC2:itemBoat:3>, [
 [<gregtech:gt.metaitem.02:21057>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.02:21057>]]);
 
 // --- Rubber Boat
+recipes.addShaped(<IC2:itemBoat:1>, [
+[<ore:plateRubber>, <ore:craftingToolSaw>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
+
+// --- Rubber Boat repair
 recipes.addShapeless(<IC2:itemBoat:1>, [<IC2:itemBoat:2>, <ore:plateRubber>, <ore:plateRubber>, <ore:craftingToolHardHammer>]);
 
 // --- Electric Treetap
@@ -1222,19 +1228,19 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 //recipes.addShaped(<IC2:itemToolDrill:26>, [
 //[<ore:screwStainlessSteel>, <ore:toolHeadDrillMeteoricSteel>, <ore:screwStainlessSteel>],
 //[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallStainlessSteel>],
-//[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:*>, <ore:plateStainlessSteel>]]);
+//[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:26>, <ore:plateStainlessSteel>]]);
 
 // --- Diamond Drill
 //recipes.addShaped(<IC2:itemToolDDrill:26>, [
 //[<ore:screwTitanium>, <dreamcraft:item.DiamondDrillTip>, <ore:screwTitanium>],
 //[<ore:gearGtSmallTitanium>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTitanium>],
-//[<ore:plateTitanium>, <IC2:itemBatChargeRE:*>, <ore:plateTitanium>]]);
+//[<ore:plateTitanium>, <IC2:itemBatChargeRE:26>, <ore:plateTitanium>]]);
 
 // --- Iridium Drill
 //recipes.addShaped(<IC2:itemToolIridiumDrill:26>, [
 //[<ore:screwTungstenSteel>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:screwTungstenSteel>],
 //[<ore:gearGtSmallTungstenSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTungstenSteel>],
-//[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:*>, <ore:plateTungstenSteel>]]);
+//[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:26>, <ore:plateTungstenSteel>]]);
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
@@ -1245,7 +1251,7 @@ recipes.addShaped(<IC2:itemRecipePart:3>, [
 // --- Power Unit
 recipes.addShaped(<IC2:itemRecipePart:2>, [
 [<ore:cableGt02Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt02Gold>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:*>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:26>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32601>, <ore:circuitAdvanced>]]);
 
 // --- Trade O Mat
@@ -1838,13 +1844,13 @@ Compressor.addRecipe(<IC2:itemFuelPlantBall>, <TwilightForest:tile.TFSapling:*> 
 
 
 // --- Carbon Boat
-Extruder.addRecipe(<IC2:itemBoat>, <IC2:itemPartCarbonMesh> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 320, 120);
+Extruder.addRecipe(<IC2:itemBoat>, <IC2:itemPartCarbonMesh> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 600, 30);
 
 // --- Rubber Boat
-Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 160, 30);
+Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 4, <dreamcraft:item.ExtruderShapeBoat> * 0, 200, 16);
 
 // --- Electric Boat Hull
-Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 640, 120);
+Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 1200, 30);
 
 
 

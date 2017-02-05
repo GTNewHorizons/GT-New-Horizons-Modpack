@@ -1172,6 +1172,16 @@ recipes.addShaped(WoodenRail * 6, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick]]);
+// -
+recipes.addShaped(WoodenRail * 4, [
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[null, null, null]]);
+// -
+recipes.addShaped(WoodenRail * 2, [
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[null, null, null],
+[null, null, null]]);
 
 // --- Item Dtector ---
 recipes.addShaped(<Railcraft:detector>, [
