@@ -41979,40 +41979,22 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "oil",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30707
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "fuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30708
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "nitrofuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30709
             }
           ],
           "rewardID": "bq_standard:item"
@@ -42078,40 +42060,22 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "hydrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30001
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "methane",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30715
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_lpg",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30742
             }
           ],
           "rewardID": "bq_standard:item"
@@ -43443,11 +43407,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 64,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {}
+              "Damage": 0
             },
             {
               "id": "gregtech:gt.integrated_circuit",
@@ -43508,16 +43471,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 50,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_sufluriclight_fuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30737
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -43591,16 +43548,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 50,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_light_fuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30740
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -43688,16 +43639,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 12,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "hydrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30001
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -43771,16 +43716,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_sulfuricheavy_fuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30738
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -43860,16 +43799,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_heavy_fuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30741
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -44175,16 +44108,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "nitrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30012
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -44290,11 +44217,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 64,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {}
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -50280,16 +50206,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "mercury",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30087
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -50434,16 +50354,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "sulfuricacid",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30720
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -50459,16 +50373,10 @@
               "Damage": 2022
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "water",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 1
             }
           ],
           "rewardID": "bq_standard:item"
@@ -52420,16 +52328,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 7,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_sulfuricnaphtha",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30736
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52439,16 +52341,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "hydrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30001
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52516,16 +52412,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_lpg",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30742
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52535,16 +52425,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "ic2biogas",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 7
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52611,16 +52495,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 7,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_naphtha",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30739
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52630,16 +52508,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "oxygen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30013
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52706,16 +52578,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "gas_sulfuricgas",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30734
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52725,16 +52591,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "nitrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30012
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52802,16 +52662,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "gas_gas",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30735
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52821,16 +52675,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "methane",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30715
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52897,16 +52745,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "methane",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30715
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -52916,16 +52758,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "nitrofuel",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30709
             },
             {
               "id": "enhancedlootbags:lootbag",
