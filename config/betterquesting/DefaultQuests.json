@@ -5676,8 +5676,7 @@
       ],
       "preRequisites": [
         63,
-        53,
-        76
+        53
       ]
     },
     {
@@ -10319,7 +10318,7 @@
     {
       "questID": 119,
       "name": "A quite different storage",
-      "description": "Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armour. By using a cabinet, you can store up to 270 items of the same type.",
+      "description": "Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12111,7 +12110,7 @@
     {
       "questID": 141,
       "name": "Basic upgrades",
-      "description": "In order to upgrade your Armor and Tools, you need 10 Levels each, but also 8 Vibrant crystals.",
+      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54539,7 +54538,7 @@
     {
       "questID": 656,
       "name": "Iron Shields",
-      "description": "You are using your Hide Shield long enough. After you make your first Tools and grab a bit of Iron Ore you can make a better shield.",
+      "description": "You are using your Hiding Shield long enought. After you making your fisrt Tools and grab a bit Iron Ore you can make a better Iron Shield.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54647,7 +54646,7 @@
     {
       "questID": 657,
       "name": "Stone Spear",
-      "description": "Upgrade your Wooden Spear with a Stone Arrowhead and Iron screws to a Stone Spear.\nThis Spear has better durability than the wooden one.",
+      "description": "Upgrade your Wooden Spear with an Stone Arrowhead and iron screws to an Stone Spear.\nThis Spear have a better durability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54756,7 +54755,7 @@
     {
       "questID": 658,
       "name": "Iron Spear",
-      "description": "Upgrade your Stone Spear with an Iron Arrowhead and two Steel screws to an Iron Spear. \nThe Iron Spear has a better durability than the Stone variant.",
+      "description": "Upgrade your Wooden Spear with an Iron Arrowhead and two Steel screws to an Iron Spear. \nThe Iron Spear have a better durability then the Stone variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54865,7 +54864,7 @@
     {
       "questID": 659,
       "name": "Diamond Spear",
-      "description": "At MV Tier you can upgrade your Iron Spear. Get a Diamond Arrowhead, two Stainless Steel screws and a wooden spear.\nThis Spear has a Tool durability of 1561.",
+      "description": "At MV Tier you can upgrade your Iron Spear. Get some Diamond Arrowhead, two Stainless Steel screws and a wooden spear.\nThis Spear have a Tool durability from 1561.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54976,7 +54975,7 @@
     {
       "questID": 660,
       "name": "Diamond Shield",
-      "description": "Your Iron Shield got very old. Why not craft a Shield out of Diamond plates instead?\nYou can hold a Block up to 5 seconds.",
+      "description": "Your Iron Shield got to very old. Why to crafting some Shield out of Diamond plates?\nYou can hold a Block up to 5 seconds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55093,7 +55092,7 @@
     {
       "questID": 661,
       "name": "Bow, Arrows and Quiver",
-      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now its time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
+      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it0027s time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55233,7 +55232,7 @@
     {
       "questID": 662,
       "name": "Basic Arc Furnace",
-      "description": "The Arc Furnace is an alternative to smelting stuff back into components or to make Wrought Iron. The recipes use Oxygen and 3 amps of power.",
+      "description": "The Arc Furnace is an alternative to smelting stuff back into components or to make Wrought Iron. The recipes using Oxygen and 3 amps of power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55302,7 +55301,7 @@
     {
       "questID": 663,
       "name": "Faster Steel Production",
-      "description": "A faster alternative to make Steel is to using the Arc Furnace and smelt iron Ingots into Wrought Iron Ingots. Then macerate them to dust and smelt them very fast in the EBF to Steel.",
+      "description": "A faster alternative to make Steel is to using the Arc Furnace and smelt iron Ingots into Wrought Iron Ingots. Then macerate them to dust and smelt them very fast in The EBF to Steel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55421,7 +55420,7 @@
     {
       "questID": 664,
       "name": "LV Battery Buffer 4 Slots",
-      "description": "Upgrade your Battery buffer to hold 4 Batteries with a max 4 amp output.\nUseful for your EBF and the Arc Furnace.",
+      "description": "Upgrade your Battery buffer to hold 4 Batteries with an max 4 amp output.\nUseful for your EBF and the Arc Furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55490,7 +55489,7 @@
     {
       "questID": 665,
       "name": "Kitchenware",
-      "description": "To start cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPot, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Mallet, \nSkillet, \nKnife.",
+      "description": "To cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPot, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Mallet, \nSkillet, \nKnife.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55708,7 +55707,7 @@
     {
       "questID": 667,
       "name": "On the Rail",
-      "description": "The Wooden Tracks are the first Tracks you can make without any machine. Functionally equivalent to normal rails, only with a lower maximum speed (for safety reasons).",
+      "description": "The Wooden Track are the first Track you can make without any machine. Functionally equivalent to normal rails, only with a lower maximum speed (for safety reasons).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55886,7 +55885,7 @@
     {
       "questID": 668,
       "name": "Rubber Boat",
-      "description": "The Rubber Dinghy  requiring only a few Rubber Plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a Damaged Rubber Dinghy, which can be re-crafted with two pieces of Rubber back into a useable Rubber Dinghy!",
+      "description": "The Rubber Dinghy  requiring only a few Rubber Plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a Damaged Rubber Dinghy, which can be re-crafted with two  pieces of Rubber back into a useable Rubber Dinghy!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55976,7 +55975,7 @@
     {
       "questID": 669,
       "name": "Inflatable Boat",
-      "description": "The Inflatable Boat is the first Boat that doesn\u0027t break on impact.",
+      "description": "The Inflatable Boot  is the first Boot that don\u0027t break on impact. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56262,7 +56261,7 @@
     {
       "questID": 672,
       "name": "Boat Shape ??",
-      "description": "Boat Shape?? Yes for the more advanced Boats you need a new Shape Form.",
+      "description": "Boat Shape?? Yes for the more advanced Boots you need a new Shape Form.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56361,7 +56360,7 @@
     {
       "questID": 673,
       "name": "LV Extruder",
-      "description": "The Extruder doesn\u0027t have many useful recipes in LV Age. But it can extrude your next Tier of Boats.",
+      "description": "The Extruder haven\u0027t much useful recipes in LV Age. But it extrude your next Tier of Boots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56431,7 +56430,7 @@
     {
       "questID": 674,
       "name": "Wooden Rail variants",
-      "description": "The Wooden Junction, Wye and Switch Track need an Assembler to craft. Using the Switch Lever you are able to gate Trains to different directions.",
+      "description": "The Wooden Junction, Wye and Switch Track need an Assembler to craft. With you switch you are able to gate Trains to different Locations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56633,7 +56632,7 @@
     {
       "questID": 676,
       "name": "Crowbar",
-      "description": "The Crowbar comes in a Railcraft and a Gregtech variant. It is used for manipulating machines from Railcraft, remove Plates, and Machine Covers (Pumps, Conveyor Belts) from Gregtech Pipes as well as breaking certain objects faster, such as Tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe Crowbar can be used as a weapon, though it will consume twice as much durability with each attack.",
+      "description": "The Crowbar comes in a Railcraft and a Gregtech variant. It is used for manipulating machines from Railcraft, remove Plates, and Machines covers (Pumps, Conveyor belts) from Gregtech Pipes as well as breaking certain objects faster, such as Tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe Crowbar can be used as a weapon, though it costs twice as much durability on attack.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56716,7 +56715,7 @@
     {
       "questID": 677,
       "name": "Minecart",
-      "description": "After you craft your first Cart the Journey can finally begin.....\nNo you need some Tracks first.",
+      "description": "After you craft your first Cart the Journey can begin.....\nNo you need some Tracks first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63455,7 +63454,7 @@
     },
     {
       "name": "Armor\u0027s and Jetpack\u0027s",
-      "description": "Guide you through the Tiers of which types of Armors and Jetpacks can be made.",
+      "description": "Guide you through the Tiers which Armour or Jetpack can be made.",
       "quests": [
         {
           "id": 645,
@@ -63582,7 +63581,7 @@
     },
     {
       "name": "Transportation",
-      "description": "All kinds of Transportation Boat, Ride, Rail and Space",
+      "description": "All kind of Transportation Boat, Ride, Rail and Space",
       "quests": [
         {
           "id": 666,
