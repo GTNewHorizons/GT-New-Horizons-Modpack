@@ -38047,6 +38047,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "Backpack:boundLeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "Backpack:tannedLeather",
               "Count": 1,
               "OreDict": "",
