@@ -10742,16 +10742,10 @@
               "Damage": 4
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "oil",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30707
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -43619,16 +43613,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:itemFluidCell",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "Fluid:10": {
-            "FluidName:8": "hydrogen",
-            "Amount:4": 1000
-          }
-        }
+        "Damage": 30001
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -44031,16 +44019,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "nitrogen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30012
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -44751,16 +44733,10 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "creosote",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30712
             }
           ],
           "rewardID": "bq_standard:item"
@@ -46105,16 +46081,10 @@
               "Damage": 0
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "creosote",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30712
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -46248,11 +46218,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {}
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -47175,11 +47144,10 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {}
+              "Damage": 0
             },
             {
               "id": "minecraft:lever",
@@ -49684,16 +49652,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "mercury",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30087
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -49786,16 +49748,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "sulfuricacid",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30720
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -53939,16 +53895,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "IC2:itemCellEmpty",
               "Count": 30,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "ic2biogas",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 7
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -55217,16 +55167,10 @@
               "Damage": 32500
             },
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "oxygen",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30013
             },
             {
               "id": "enhancedlootbags:lootbag",
