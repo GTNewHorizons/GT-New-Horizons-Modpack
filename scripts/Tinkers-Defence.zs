@@ -40,14 +40,14 @@ recipes.remove(<tinkersdefense:DogbeariumIngot>);
 // --- Dogbearium Block
 recipes.remove(<tinkersdefense:DogbeariumBlock>);
 
-
-
+// --- Aeon Steel Arrow Head 
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:201>);
 
 
 
 // --- Add Recipes ---
 
-
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:arrowhead:201>, <liquid:moltenaeonsteel> * 144, <TConstruct:metalPattern:25>, false, 100);
 
 // --- Compressor Recipes ---
 
