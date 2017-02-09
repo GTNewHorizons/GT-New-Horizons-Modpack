@@ -1736,6 +1736,12 @@ recipes.addShaped(<Railcraft:machine.gamma:11>, [
 [<ore:plateRedstoneAlloy>, <Railcraft:detector:10>, <ore:plateRedstoneAlloy>],
 [<ore:plateLead>, <EnderIO:itemBasicCapacitor>, <ore:plateLead>]]);
 
+// --- Engraver 
+recipes.addShaped(<Railcraft:machine.epsilon:5>, [
+[<ore:screwSteel>, <gregtech:gt.metaitem.01:32744>, <ore:screwSteel>],
+[<ore:plateSteel>, <gregtech:gt.metaitem.01:32600>, <ore:plateSteel>],
+[<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:craftingToolHardHammer>]]);
+
 
 
 // --- Add Fuels ---
