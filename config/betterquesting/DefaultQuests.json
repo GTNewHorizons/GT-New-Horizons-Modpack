@@ -56933,6 +56933,234 @@
       ]
     },
     {
+      "questID": 683,
+      "name": "Muddy Armor",
+      "description": "If you don\u0027t have any armor a \"Mud Armor\" is better nothing. Mud can be found in some wet Biomes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:chestplateMud",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BiomesOPlenty:mudball",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "BiomesOPlenty:helmetMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:chestplateMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:leggingsMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:bootsMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "BiomesOPlenty:mudball",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:log",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 684,
+      "name": "Wooden Armor",
+      "description": "If you can\u0027t find Mud you can make a very poor Armor out of Wood. Cutting down some Threes and Build some. You need a Soft Mallet for it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:chestplateWood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 24,
+              "OreDict": "logWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:helmetWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:chestplateWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:leggingsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:bootsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:log",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:mudball",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        444
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -63294,6 +63522,16 @@
           "id": 655,
           "x": 0,
           "y": 240
+        },
+        {
+          "id": 683,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 684,
+          "x": 204,
+          "y": 0
         }
       ]
     },
