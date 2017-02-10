@@ -1186,13 +1186,13 @@ recipes.addShaped(<IC2:itemFoamSprayer:27>, [
 // --- Composite Vest
 recipes.addShaped(<IC2:itemArmorAlloyChestplate>, [
 [<ore:plateAlloyAdvanced>, <ore:craftingToolHardHammer>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyAdvanced>, <minecraft:iron_chestplate>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyAdvanced>, <Railcraft:armor.steel.plate>, <ore:plateAlloyAdvanced>],
 [<ore:plateAlloyAdvanced>, <minecraft:leather_chestplate>, <ore:plateAlloyAdvanced>]]);
 // -
 recipes.addShaped(<IC2:itemArmorAlloyChestplate>, [
 [<ore:plateAlloyAdvanced>, <ore:craftingToolHardHammer>, <ore:plateAlloyAdvanced>],
 [<ore:plateAlloyAdvanced>, <minecraft:leather_chestplate>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyAdvanced>, <minecraft:iron_chestplate>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <Railcraft:armor.steel.plate>, <ore:plateAlloyAdvanced>]]);
 
 // --- CF Backpack
 recipes.addShaped(<IC2:itemArmorCFPack>, [
