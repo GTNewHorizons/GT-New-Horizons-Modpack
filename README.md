@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.3.0.5 is out (24.01.2017)
+Version 1.4.x.x is work in progress (xx.xx.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,7 +97,7 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.3.0.5 --- 24.01.2017<BR>
+## Modlist - NewHorizons 1.4.x.x --- xx.xx.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta25b<BR>
@@ -130,8 +130,8 @@ mc.stonelegion.com<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.17<BR>
-* Buildcraft Compat	7.1.5<BR>
+* Buildcraft	7.1.20<BR>
+* Buildcraft Compat	7.1.6<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
 * CodeChickenCore	1.07.47<BR>
@@ -164,14 +164,14 @@ mc.stonelegion.com<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.464<BR>
-* GalacticraftCore	3.0.12.464<BR>
+* Galacticraft-Planets	3.0.12.465<BR>
+* GalacticraftCore	3.0.12.465<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
-* Gravitation Suite	2.0.67u1<BR>
-* Gregtech	5.09.27.16<BR>
-* GT New Horizons Core Mod	1.3.16<BR>
+* Gravitation Suite	2.0.68u<BR>
+* Gregtech	5.09.27.21<BR>
+* GT New Horizons Core Mod	1.3.18<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -195,7 +195,7 @@ mc.stonelegion.com<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.464<BR>
+* MicdoodleCore	3.0.12.465<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -234,9 +234,9 @@ mc.stonelegion.com<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.13.0<BR>
+* SG Craft 1.13.3<BR>
 * Special Mobs	3.3.0<BR>
-* Spice of Life	1.3.6<BR>
+* Spice of Life	1.3.8<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
@@ -256,7 +256,7 @@ mc.stonelegion.com<BR>
 * Thaumic Tinkerer	2.5.539<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
-* Tinker's Gregworks	1.0.13<BR>
+* Tinker's Gregworks	1.0.15<BR>
 * Tinker's Defense 1.2.1a<BR>
 * TMechworks	02.14.106<BR>
 * Translocator	1.1.2.16<BR>
