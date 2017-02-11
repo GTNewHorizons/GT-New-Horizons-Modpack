@@ -4783,7 +4783,7 @@
         }
       ],
       "preRequisites": [
-        54
+        694
       ]
     },
     {
@@ -58321,6 +58321,108 @@
       ]
     },
     {
+      "questID": 694,
+      "name": "One Anvil ...? better Two",
+      "description": "With your brand-new Compressor you are able to make some Metal Blocks for your new Anvil. Better craft two for the Forge Hammer one more.\n \nWith the Anvil you can repair Armor and Tools or add Enchanted Books to Armor and Tools.\n",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:anvil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_block",
+              "Count": 5,
+              "OreDict": "blockIron",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 2,
+              "OreDict": "plateAnyIron",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "screwAnyIron",
+              "Damage": 27032
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:anvil",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        54
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -62588,7 +62690,7 @@
         },
         {
           "id": 53,
-          "x": 276,
+          "x": 240,
           "y": 72
         },
         {
@@ -62800,6 +62902,11 @@
           "id": 658,
           "x": 48,
           "y": 144
+        },
+        {
+          "id": 694,
+          "x": 276,
+          "y": 72
         }
       ]
     },
