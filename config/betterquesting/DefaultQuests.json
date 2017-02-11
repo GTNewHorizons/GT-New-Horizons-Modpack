@@ -4435,6 +4435,19 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "minecraft:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "minecraft:piston",
               "Count": 1,
               "OreDict": "",
@@ -21561,6 +21574,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -21569,7 +21584,7 @@
               "Damage": 27028
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -58182,7 +58197,7 @@
     {
       "questID": 693,
       "name": "Fallen from the Sky",
-      "description": "Maybe you wondering why this Big Meteors are fallen down and why you need to mine it?\nOk Skystone are a good source for rare Earth metals in the LV Age. You can find a Chest inside the Meteor which some Forms inside for Applied Energistics Chipset. Saving it later on it  becomes  more important.",
+      "description": "There are Big Meteors everywhere and you wondering why you need to mine them now?\nWell Skystone are a good source for rare Earth metals in the LV Age. Inside the Meteor you can find a Shystone Chest contains some Forms for Applied Energistics Chipsets. Saving the Forms for later they becomes more important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
