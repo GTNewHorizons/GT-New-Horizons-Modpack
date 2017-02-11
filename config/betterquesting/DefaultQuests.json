@@ -57472,7 +57472,7 @@
     {
       "questID": 687,
       "name": "Bronze Armor",
-	  "description": "Bronze Armor have the same Abilities then Iron Armor. Same durability, Same protection and enchant ability.",
+      "description": "Bronze Armor have the same Abilities then Iron Armor. Same durability, Same protection and enchant ability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58177,6 +58177,132 @@
       ],
       "preRequisites": [
         691
+      ]
+    },
+    {
+      "questID": 693,
+      "name": "Fallen from the Sky",
+      "description": "Maybe you wondering why this Big Meteors are fallen down and why you need to mine it?\nOk Skystone are a good source for rare Earth metals in the LV Age. You can find a Chest inside the Meteor which some Forms inside for Applied Energistics Chipset. Saving it later on it  becomes  more important.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyStone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockSkyStone",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockSkyChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 21
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 16
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        35,
+        38
       ]
     },
     {
@@ -62398,6 +62524,11 @@
           "id": 657,
           "x": 72,
           "y": 108
+        },
+        {
+          "id": 693,
+          "x": 216,
+          "y": 72
         }
       ]
     },
