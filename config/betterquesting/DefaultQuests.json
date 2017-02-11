@@ -58355,19 +58355,19 @@
           "requiredItems": [
             {
               "id": "minecraft:iron_block",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "blockIron",
               "Damage": 0
             },
             {
               "id": "Railcraft:part.plate",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "plateAnyIron",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "screwAnyIron",
               "Damage": 27032
             }
