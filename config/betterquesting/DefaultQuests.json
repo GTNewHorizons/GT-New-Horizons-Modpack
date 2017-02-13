@@ -58765,12 +58765,35 @@
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 3,
+              "Count": 1,
               "OreDict": "",
               "Damage": 2
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11880
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11300
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            }
+          ],
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
@@ -58782,23 +58805,6 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
@@ -58922,13 +58928,13 @@
           "rewards": [
             {
               "id": "Railcraft:fuel.coke",
-              "Count": 32,
+              "Count": 128,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 2
             }
@@ -58936,38 +58942,38 @@
           "rewardID": "bq_standard:item"
         },
         {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11300
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 9
-            },
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
