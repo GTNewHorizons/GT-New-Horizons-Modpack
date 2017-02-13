@@ -58423,6 +58423,174 @@
       ]
     },
     {
+      "questID": 695,
+      "name": "Automation Tier 1",
+      "description": "Want to automate your Smelter because you are planning to make 100 Glass Blocks? \nNo problem craft a large Bronze Pipe and placed it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basin/Table",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5123
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5123
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:GlassBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        74,
+        35
+      ]
+    },
+    {
+      "questID": 696,
+      "name": "Automation Tier 2",
+      "description": "You want a better Automation then using the Pipe? Sure craft some Comparator and link it in a square with redstone dust placing on the Ground. The Redstone needs to be close to the faucet to activate the crafting process.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:comparator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:comparator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        695,
+        479
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -64656,88 +64824,98 @@
       "quests": [
         {
           "id": 74,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 75,
-          "x": 48,
+          "x": 96,
           "y": 0
         },
         {
           "id": 76,
-          "x": 0,
+          "x": 48,
           "y": 36
         },
         {
           "id": 77,
-          "x": 0,
+          "x": 48,
           "y": 72
         },
         {
           "id": 78,
-          "x": 0,
+          "x": 48,
           "y": 108
         },
         {
           "id": 79,
-          "x": 48,
+          "x": 96,
           "y": 108
         },
         {
           "id": 80,
-          "x": 144,
+          "x": 192,
           "y": 108
         },
         {
           "id": 81,
-          "x": 144,
+          "x": 192,
           "y": 144
         },
         {
           "id": 82,
-          "x": 48,
+          "x": 96,
           "y": 36
         },
         {
           "id": 83,
-          "x": 96,
+          "x": 144,
           "y": 72
         },
         {
           "id": 85,
-          "x": 144,
+          "x": 192,
           "y": 72
         },
         {
           "id": 86,
-          "x": 96,
+          "x": 144,
           "y": 108
         },
         {
           "id": 45,
-          "x": 96,
-          "y": 0
-        },
-        {
-          "id": 87,
           "x": 144,
           "y": 0
         },
         {
+          "id": 87,
+          "x": 192,
+          "y": 0
+        },
+        {
           "id": 475,
-          "x": 96,
+          "x": 144,
           "y": 144
         },
         {
           "id": 476,
-          "x": 48,
+          "x": 96,
           "y": 144
         },
         {
           "id": 477,
-          "x": 0,
+          "x": 48,
           "y": 144
+        },
+        {
+          "id": 695,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 696,
+          "x": 0,
+          "y": 36
         }
       ]
     },
