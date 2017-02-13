@@ -4435,6 +4435,19 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "minecraft:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "minecraft:piston",
               "Count": 1,
               "OreDict": "",
@@ -4770,7 +4783,7 @@
         }
       ],
       "preRequisites": [
-        54
+        694
       ]
     },
     {
@@ -21561,6 +21574,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -21569,7 +21584,7 @@
               "Damage": 27028
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -37089,7 +37104,7 @@
           "choices": [
             {
               "id": "minecraft:obsidian",
-              "Count": 9,
+              "Count": 14,
               "OreDict": "",
               "Damage": 0
             },
@@ -56934,8 +56949,8 @@
     },
     {
       "questID": 683,
-      "name": "2x Steel",
-      "description": "Steel production is so slow. If you got enough Copper build a second BBF. You can share the Walls and need less Bronze",
+      "name": "Muddy Armor",
+      "description": "If you don\u0027t have any armor a \"Mud Armor\" is better nothing. Mud can be found in some wet Biomes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56952,10 +56967,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockmachines",
+        "id": "BiomesOPlenty:chestplateMud",
         "Count": 1,
         "OreDict": "",
-        "Damage": 108
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -56966,8 +56981,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:brick_block",
-              "Count": 20,
+              "id": "BiomesOPlenty:mudball",
+              "Count": 24,
               "OreDict": "",
               "Damage": 0
             }
@@ -56977,68 +56992,30 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 124,
-              "OreDict": "",
-              "Damage": 17300
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "Railcraft:part.plate",
-              "Count": 28,
-              "OreDict": "plateIron",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "IC2:blockMachine",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
+              "id": "BiomesOPlenty:helmetMud",
               "Count": 1,
               "OreDict": "",
-              "Damage": 108
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:chestplateMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:leggingsMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:bootsMud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -57046,18 +57023,1385 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
-              "id": "Railcraft:fuel.coke",
+              "id": "BiomesOPlenty:mudball",
               "Count": 64,
               "OreDict": "",
               "Damage": 0
             },
             {
+              "id": "minecraft:log",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "enhancedlootbags:lootbag",
-              "Count": 3,
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 684,
+      "name": "Wooden Armor",
+      "description": "If you can\u0027t find Mud you can make a very poor Armor out of Wood. Cutting down some Threes and Build some. You need a Soft Mallet for it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:chestplateWood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 24,
+              "OreDict": "logWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:helmetWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:chestplateWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:leggingsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:bootsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:log",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BiomesOPlenty:mudball",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        444
+      ]
+    },
+    {
+      "questID": 685,
+      "name": "Armor 2.0",
+      "description": "A Iron Armor is much better than the Leather Armor. Especially when you go outside at night.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:iron_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 24,
+              "OreDict": "plateIron",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17300
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
               "OreDict": "",
               "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        686,
+        36
+      ]
+    },
+    {
+      "questID": 686,
+      "name": "Leather Armor",
+      "description": "Killing some Cows give you enough Leather to craft a complete Set of Leather Armor. \nHint : You can dye your Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:leather_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeBlack",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeRed",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeGreen",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeBrown",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeBlue",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyePurple",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeCyan",
+              "Damage": 6
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeLightGray",
+              "Damage": 7
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeGray",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyePink",
+              "Damage": 9
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeLime",
+              "Damage": 10
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeYellow",
+              "Damage": 11
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeLightBlue",
+              "Damage": 12
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeMagenta",
+              "Damage": 13
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeOrange",
+              "Damage": 14
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 8,
+              "OreDict": "dyeWhite",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        684,
+        683,
+        42
+      ]
+    },
+    {
+      "questID": 687,
+      "name": "Bronze Armor",
+      "description": "Bronze Armor have the same Abilities then Iron Armor. Same durability, Same protection and enchant ability.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorBronzeChestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 17300
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorBronzeHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorBronzeChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorBronzeLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorBronzeBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17300
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        686,
+        36
+      ]
+    },
+    {
+      "questID": 688,
+      "name": "\"Nice to have\" Armor",
+      "description": "The Gold Armor is a \"nice to heave\" Armor. The durability is very low but you look very nice when you wear it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:golden_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 17086
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:golden_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:golden_apple",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_apple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36,
+        686
+      ]
+    },
+    {
+      "questID": 689,
+      "name": "\"Oh Shiny\" Armor",
+      "description": "Diamond Armor are the best Armor in Vanilla Minecraft. Not anymore there are much better Armors available soon.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:diamond_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 17500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:diamondApple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 29500
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        688,
+        102
+      ]
+    },
+    {
+      "questID": 690,
+      "name": "Fancy Armor",
+      "description": "Not really better but fancy. The Chain Mail Armor is made out of Steel rings.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:chainmail_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 28305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chainmail_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:chainmail_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:chainmail_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:chainmail_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        687,
+        685,
+        65
+      ]
+    },
+    {
+      "questID": 691,
+      "name": "Armor 2.5",
+      "description": "The Steel Armor have much more durability then the Iron/Bronze or Chainmail Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:armor.steel.plate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 24,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:armor.steel.helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:armor.steel.plate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:armor.steel.legs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:armor.steel.boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        690
+      ]
+    },
+    {
+      "questID": 692,
+      "name": "Composite Vest",
+      "description": "Combining the strength from  Advanced Alloy Plates with the Steel Chestplate make your Vest very hard. Now you have double the durability and increase the Armor Points by 1,5.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorAlloyChestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemPartAlloy",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:armor.steel.plate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorAlloyChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartAlloy",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        691
+      ]
+    },
+    {
+      "questID": 693,
+      "name": "Fallen from the Sky",
+      "description": "There are Big Meteors everywhere and you wondering why you need to mine them now?\nWell Skystone are a good source for rare Earth metals in the LV Age. Inside the Meteor you can find a Shystone Chest contains some Forms for Applied Energistics Chipsets. Saving the Forms for later they becomes more important.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyStone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockSkyStone",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockSkyChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 21
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 16
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": [
+                  {
+                    "lvl:4": 1,
+                    "id:4": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        35,
+        38
+      ]
+    },
+    {
+      "questID": 694,
+      "name": "One Anvil ...? better Two",
+      "description": "With your brand-new Compressor you are able to make some Metal Blocks for your new Anvil. Better craft two for the Forge Hammer one more.\n \nWith the Anvil you can repair Armor and Tools or add Enchanted Books to Armor and Tools.\n",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:anvil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_block",
+              "Count": 10,
+              "OreDict": "blockIron",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 4,
+              "OreDict": "plateAnyIron",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "screwAnyIron",
+              "Damage": 27032
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:anvil",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -57066,39 +58410,22 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
-        76
+        54
       ]
     },
     {
-      "questID": 684,
-      "name": "4x Steel",
-      "description": "Not even two BBFs are fast enough. Bulding two more and share the walls again for less Bronze Pletes.",
+      "questID": 695,
+      "name": "Automation Tier 1",
+      "description": "Want to automate your Smelter because you are planning to make 100 Glass Blocks? \nNo problem craft a large Bronze Pipe and placed it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basin/Table.\nA Hopper and a Chest underneath would be good to auto-output items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57118,7 +58445,7 @@
         "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 108
+        "Damage": 5123
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -57129,25 +58456,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:brick_block",
-              "Count": 32,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 200,
-              "OreDict": "",
-              "Damage": 17300
+              "Damage": 5123
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -57160,8 +58472,29 @@
           "requiredItems": [
             {
               "id": "Railcraft:part.plate",
-              "Count": 56,
+              "Count": 10,
               "OreDict": "plateIron",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "gearIron",
+              "Damage": 31032
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chest",
+              "Count": 4,
+              "OreDict": "",
               "Damage": 0
             }
           ],
@@ -57170,55 +58503,31 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:blockMachine",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
+              "id": "minecraft:hopper",
               "Count": 2,
               "OreDict": "",
-              "Damage": 108
+              "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
         {
           "rewards": [
             {
-              "id": "Railcraft:fuel.coke",
-              "Count": 128,
+              "id": "TConstruct:GlassBlock",
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 4,
+              "Count": 1,
               "OreDict": "",
               "Damage": 2
             }
@@ -57229,39 +58538,107 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
-        683
+        74,
+        35
+      ]
+    },
+    {
+      "questID": 696,
+      "name": "Automation Tier 2",
+      "description": "You want a better Automation then using the Pipe? Sure craft some Comparator and link it in a square with redstone dust placing on the Ground. The Redstone needs to be close to the faucet to activate the crafting process.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:comparator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:comparator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        695,
+        479
       ]
     },
     {
@@ -61483,6 +62860,11 @@
           "id": 657,
           "x": 72,
           "y": 108
+        },
+        {
+          "id": 693,
+          "x": 216,
+          "y": 72
         }
       ]
     },
@@ -61527,7 +62909,7 @@
         },
         {
           "id": 53,
-          "x": 276,
+          "x": 240,
           "y": 72
         },
         {
@@ -61739,6 +63121,11 @@
           "id": 658,
           "x": 48,
           "y": 144
+        },
+        {
+          "id": 694,
+          "x": 276,
+          "y": 72
         }
       ]
     },
@@ -63488,98 +64875,93 @@
       "quests": [
         {
           "id": 74,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 75,
-          "x": 48,
+          "x": 96,
           "y": 0
         },
         {
           "id": 76,
-          "x": 0,
+          "x": 48,
           "y": 36
         },
         {
           "id": 77,
-          "x": 0,
+          "x": 48,
           "y": 72
         },
         {
           "id": 78,
-          "x": 0,
+          "x": 48,
           "y": 108
         },
         {
           "id": 79,
-          "x": 48,
+          "x": 96,
           "y": 108
         },
         {
           "id": 80,
-          "x": 144,
+          "x": 192,
           "y": 108
         },
         {
           "id": 81,
-          "x": 144,
+          "x": 192,
           "y": 144
         },
         {
           "id": 82,
-          "x": 144,
+          "x": 48,
           "y": 36
         },
         {
           "id": 83,
-          "x": 96,
+          "x": 144,
           "y": 72
         },
         {
           "id": 85,
-          "x": 144,
+          "x": 192,
           "y": 72
         },
         {
           "id": 86,
-          "x": 96,
+          "x": 144,
           "y": 108
         },
         {
           "id": 45,
-          "x": 96,
-          "y": 0
-        },
-        {
-          "id": 87,
           "x": 144,
           "y": 0
         },
         {
+          "id": 87,
+          "x": 192,
+          "y": 0
+        },
+        {
           "id": 475,
-          "x": 96,
+          "x": 144,
           "y": 144
         },
         {
           "id": 476,
-          "x": 48,
+          "x": 96,
           "y": 144
         },
         {
           "id": 477,
-          "x": 0,
+          "x": 48,
           "y": 144
         },
         {
-          "id": 683,
-          "x": 48,
-          "y": 36
-        },
-        {
-          "id": 684,
-          "x": 96,
-          "y": 36
+          "id": 695,
+          "x": 0,
+          "y": 144
         }
       ]
     },
@@ -63636,6 +65018,56 @@
           "id": 655,
           "x": 0,
           "y": 240
+        },
+        {
+          "id": 683,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 684,
+          "x": 204,
+          "y": 0
+        },
+        {
+          "id": 685,
+          "x": 156,
+          "y": 96
+        },
+        {
+          "id": 686,
+          "x": 180,
+          "y": 48
+        },
+        {
+          "id": 687,
+          "x": 204,
+          "y": 96
+        },
+        {
+          "id": 688,
+          "x": 252,
+          "y": 96
+        },
+        {
+          "id": 689,
+          "x": 300,
+          "y": 96
+        },
+        {
+          "id": 690,
+          "x": 180,
+          "y": 144
+        },
+        {
+          "id": 691,
+          "x": 252,
+          "y": 144
+        },
+        {
+          "id": 692,
+          "x": 252,
+          "y": 192
         }
       ]
     },
