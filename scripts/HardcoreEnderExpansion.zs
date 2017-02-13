@@ -197,10 +197,10 @@ recipes.addShaped(<HardcoreEnderExpansion:ravaged_brick_slab>, [
 [<ore:craftingToolSaw>, <HardcoreEnderExpansion:ravaged_brick:*>, null]]);
 
 // --- Decomposition Table
-recipes.addShaped(<HardcoreEnderExpansion:decomposition_table>, [
-[<HardcoreEnderExpansion:end_powder>, <ore:lensEnderEye>, <HardcoreEnderExpansion:end_powder>],
-[<ore:plateThaumium>, <HardcoreEnderExpansion:igneous_rock>, <ore:plateThaumium>],
-[<ore:blockStainlessSteel>, <ore:blockHeeEndium>, <ore:blockStainlessSteel>]]);
+//recipes.addShaped(<HardcoreEnderExpansion:decomposition_table>, [
+//[<HardcoreEnderExpansion:end_powder>, <ore:lensEnderEye>, <HardcoreEnderExpansion:end_powder>],
+//[<ore:plateThaumium>, <HardcoreEnderExpansion:igneous_rock>, <ore:plateThaumium>],
+//[<ore:blockStainlessSteel>, <ore:blockHeeEndium>, <ore:blockStainlessSteel>]]);
 
 // --- Experience Table
 recipes.addShaped(<HardcoreEnderExpansion:experience_table>, [
