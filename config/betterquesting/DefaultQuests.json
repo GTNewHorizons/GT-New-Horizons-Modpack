@@ -58425,7 +58425,7 @@
     {
       "questID": 695,
       "name": "Automation Tier 1",
-      "description": "Want to automate your Smelter because you are planning to make 100 Glass Blocks? \nNo problem craft a large Bronze Pipe and placed it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basin/Table",
+      "description": "Want to automate your Smelter because you are planning to make 100 Glass Blocks? \nNo problem craft a large Bronze Pipe and placed it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basin/Table.\nA Hopper and a Chest underneath would be good to auto-output items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58460,6 +58460,57 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5123
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 10,
+              "OreDict": "plateIron",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "gearIron",
+              "Damage": 31032
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chest",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:hopper",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
