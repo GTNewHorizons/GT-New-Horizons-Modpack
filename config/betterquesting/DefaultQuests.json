@@ -5852,7 +5852,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 10,
+              "Count": 9,
               "OreDict": "",
               "Damage": 1240
             }
@@ -5865,7 +5865,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 12,
+              "Count": 14,
               "OreDict": "",
               "Damage": 1360
             }
@@ -5880,7 +5880,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 7,
               "OreDict": "",
               "Damage": 1246
             },
@@ -6200,6 +6200,19 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 23032
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
               "Damage": 23354
@@ -6295,6 +6308,19 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "plateTin",
+              "Damage": 17057
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.metaitem.02",
               "Count": 2,
               "OreDict": "",
@@ -6359,6 +6385,32 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:part.plate",
+              "Count": 9,
+              "OreDict": "plateSteel",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17304
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -7582,8 +7634,7 @@
         }
       ],
       "preRequisites": [
-        684,
-        698
+        76
       ]
     },
     {
@@ -58644,8 +58695,8 @@
     },
     {
       "questID": 697,
-      "name": "2x Steel",
-      "description": "Steel production is so slow. If you got enough Copper build a second BBF. You can share the Walls and need less Bronze",
+      "name": "Why one coke oven when you can have ten",
+      "description": "Your Bronze Blast Furnace using coal like hell and your Steam Boiler too? Well it\u0027s time to make more Coke Ovens and automate it a bit. Wooden Fluid Pipes and Tin Item Pipes will help you reach your Goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58662,10 +58713,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "Railcraft:machine.alpha",
         "Count": 1,
         "OreDict": "",
-        "Damage": 13305
+        "Damage": 7
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -58676,10 +58727,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:brick_block",
-              "Count": 20,
+              "id": "Railcraft:machine.alpha",
+              "Count": 260,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 7
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -58692,9 +58743,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 124,
+              "Count": 11,
               "OreDict": "",
-              "Damage": 17300
+              "Damage": 32630
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -58706,10 +58757,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
-              "Count": 28,
-              "OreDict": "plateIron",
-              "Damage": 0
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32610
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -58717,218 +58768,46 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "IC2:blockMachine",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 1,
+              "Count": 252,
               "OreDict": "",
-              "Damage": 108
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Railcraft:fuel.coke",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 5590
             },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 11880
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 11300
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 11305
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        76
-      ]
-    },
-    {
-      "questID": 698,
-      "name": "4x Steel",
-      "description": "Not even two BBFs are fast enough. Bulding two more and share the walls again for less Bronze Pletes.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 15305
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:brick_block",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 200,
-              "OreDict": "",
-              "Damage": 17300
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "Railcraft:part.plate",
-              "Count": 56,
-              "OreDict": "plateIron",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "IC2:blockMachine",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
+              "Count": 126,
+              "OreDict": "",
+              "Damage": 5101
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:barrel",
               "Count": 2,
               "OreDict": "",
-              "Damage": 108
+              "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
         {
           "rewards": [
             {
-              "id": "Railcraft:fuel.coke",
-              "Count": 128,
+              "id": "Railcraft:cube",
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
@@ -58936,7 +58815,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:item"
@@ -58944,22 +58823,22 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "JABBA:barrel",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 0
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "id": "JABBA:upgradeCore",
+              "Count": 9,
               "OreDict": "",
-              "Damage": 11300
+              "Damage": 0
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 11880
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -58968,7 +58847,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 100,
               "OreDict": "",
               "Damage": 0
             }
@@ -58977,7 +58856,8 @@
         }
       ],
       "preRequisites": [
-        697
+        91,
+        93
       ]
     },
     {
@@ -65254,7 +65134,7 @@
         },
         {
           "id": 82,
-          "x": 192,
+          "x": 96,
           "y": 36
         },
         {
@@ -65309,11 +65189,6 @@
         },
         {
           "id": 697,
-          "x": 96,
-          "y": 36
-        },
-        {
-          "id": 698,
           "x": 144,
           "y": 36
         }
