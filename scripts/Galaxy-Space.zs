@@ -175,6 +175,9 @@ recipes.remove(<GalaxySpace:storagemoduleT3>);
 // --- Advanced Oxygen Module
 recipes.remove(<GalaxySpace:oxstoragemoduleT2>);
 
+// --- Methane Gas Canister
+recipes.remove(<GalacticraftMars:item.methaneCanisterPartial:1>);
+
 
 
 
