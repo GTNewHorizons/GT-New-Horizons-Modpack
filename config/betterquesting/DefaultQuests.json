@@ -58981,6 +58981,173 @@
       ]
     },
     {
+      "questID": 699,
+      "name": "Why one coke oven when you can have ten",
+      "description": "Your Bronze Blast Furnace using coal like hell and your Steam Boiler too? Well it\u0027s time to make more Coke Ovens and automate it a bit. Wooden Fluid Pipes and Tin Item Pipes will help you reach your Goal.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 260,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 11,
+              "OreDict": "",
+              "Damage": 32630
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 32610
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 252,
+              "OreDict": "",
+              "Damage": 5590
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 126,
+              "OreDict": "",
+              "Damage": 5101
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:cube",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        91,
+        93
+      ]
+    },
+    {
       "questID": 700,
       "name": "How dark can you go?",
       "description": "Seriously, how dark can one be? You are sure the face in that crystal was nothing but imagination...",
@@ -65316,6 +65483,11 @@
           "id": 698,
           "x": 144,
           "y": 36
+        },
+        {
+          "id": 699,
+          "x": 240,
+          "y": 0
         }
       ]
     },
