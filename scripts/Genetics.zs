@@ -216,4 +216,6 @@ Mixer.addRecipe(<Genetics:misc:1>, null, [<gregtech:gt.metaitem.01:1810> * 4, <g
 Mixer.addRecipe(<Genetics:misc:2>, null, [<gregtech:gt.metaitem.01:1811> * 4, <gregtech:gt.metaitem.01:1810> * 4, <gregtech:gt.metaitem.02:32428>, <gregtech:gt.metaitem.02:32425>], <liquid:molten.blaze> * 144, 100, 30);
 
 // --- Growth Medium
-Mixer.addRecipe(<Genetics:misc:4>, null, [<gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>], <liquid:water> * 1000, 100, 16);
+Mixer.addRecipe(<Genetics:misc:4>, null, [<gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>], <liquid:water> * 1000, 400, 16);
+// -
+Mixer.addRecipe(<Genetics:misc:4>, null, [<gregtech:gt.metaitem.01:1803> * 4, <gregtech:gt.metaitem.01:1806> * 4, <Botany:misc:2> * 4, <witchery:ingredient:18>], <liquid:ic2distilledwater> * 800, 200, 16);
