@@ -412,18 +412,6 @@ Macerator.addRecipe(<Thaumcraft:ItemResource:4> * 9, <Thaumcraft:blockCosmeticSo
 
 
 
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Magic Tallow
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResource:4>, "corpus 4, praecantatio 2, mortuus 2");
-
-// --- White Tallow Candle
-mods.thaumcraft.Aspects.set(<Thaumcraft:blockCandle>, "lux 5, praecantatio 2, pannus 1");
-
-
-
-
 
 // --- Refresh Recipese --- 
 

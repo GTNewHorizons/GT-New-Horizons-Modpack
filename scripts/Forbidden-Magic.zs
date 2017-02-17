@@ -1125,17 +1125,6 @@ mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:WandCores:3>, <ForbiddenMagic:Wa
 
 
 
-
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Profane Wand
-mods.thaumcraft.Aspects.set(<ForbiddenMagic:WandCores:5>, "terra 32, praecantatio 24, vitreus 16, infernus 8, tenebrae 4,");
-
-
-
-
-
 // --- Refresh Thaumcraft Recipes ---
 
 

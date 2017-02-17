@@ -2740,20 +2740,6 @@ mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, fal
 
 
 
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Blaze
-mods.thaumcraft.Aspects.set(<minecraft:blaze_powder>, "ignis 6, praecantatio 4, instrumentum 2");
-
-// --- Blaze Rod
-mods.thaumcraft.Aspects.set(<minecraft:blaze_rod>, "ignis 10, praecantatio 4");
-
-// --- Paper
-mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 4, aqua 2, arbor 1");
-
-
-
 
 // --- Alloy Smelter Recipes ---
 
