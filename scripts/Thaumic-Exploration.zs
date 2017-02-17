@@ -651,7 +651,7 @@ mods.thaumcraft.Research.addInfusionPage("TalismanfoodtGTNH", <ThaumicExploratio
 
 // --- Think Tank
 mods.thaumcraft.Research.addPrereq("THINKTANK", "BraincureGTNH", false);
-mods.thaumcraft.Warp.addToResearch("ENCHBINDING", 2);
+mods.thaumcraft.Warp.addToResearch("THINKTANK", 2);
 
 // --- Talsiman of the Dreamcatcher
 mods.thaumcraft.Research.orphanResearch("DREAMCATCHER");

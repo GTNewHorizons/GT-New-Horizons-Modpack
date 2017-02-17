@@ -121,10 +121,10 @@ mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankMedFull>, "metallum
 mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankHeavyFull>, "metallum 9, volatus 9");
 
 // --- Tin Canister
-mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankLightFull>, "metallum 1, vitreus 1");
+mods.thaumcraft.Aspects.set(<GalacticraftCore:item.canister>, "metallum 1, vitreus 1");
 
 // --- Copper Canister
-mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankLightFull>, "metallum 1, permutatio 1, fabrico 1");
+mods.thaumcraft.Aspects.set(<GalacticraftCore:item.canister:1>, "metallum 1, permutatio 1, fabrico 1");
 
 // --- Steel Pole
 mods.thaumcraft.Aspects.set(<GalacticraftCore:item.steelPole>, "metallum 5, ordo 5");
