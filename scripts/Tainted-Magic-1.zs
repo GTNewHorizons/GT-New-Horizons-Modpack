@@ -915,7 +915,7 @@ mods.thaumcraft.Warp.addToResearch("CaP_CrimsonClothGTNH", 4);
 // --- Shadow Metal Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowmetal");
 mods.thaumcraft.Research.removeResearch("CAP_shadowmetal");
-mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -2, -2, 4, <dreamcraft:item.ShadowmetalCap>);
+mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <dreamcraft:item.ShadowmetalCap>);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CaP_ShadowClothGTNH", false);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CAP_void", false);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "PRIMPEARL", false);

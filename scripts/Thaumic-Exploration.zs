@@ -5,8 +5,6 @@
 // --- Removing Recipes ---
 
 
-// --- Oblivion Jar
-//mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:trashJar>);
 
 // --- Discount rings
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:discountRing:*>);
@@ -40,6 +38,54 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:everfullUrn>);
 
 // --- Everburn Urn
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:everburnUrn>);
+
+// --- Inner Sojourner Cap
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:sojournerCapUncharged>);
+
+// --- Charged Sojourner Cap
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:sojournerCap>);
+
+// --- Inner Mechanist Cap
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:mechanistCapUncharged>);
+
+// --- Charged Mechanist Cap
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:mechanistCap>);
+
+// --- Thaumostatic Stabilizer
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:stabilizerBelt>);
+
+// --- Leather
+mods.thaumcraft.Crucible.removeRecipe(<minecraft:leather>);
+
+// --- Cured Zombi Brain
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:pureZombieBrain>);
+
+// --- Talisman of Nourishment
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:talismanFood>);
+
+// --- Think Tank
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:thinkTankJar>);
+
+// --- Talsiman of the Dreamcatcher
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:charmNoTaint>);
+
+// --- Crucible of Souls
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:crucibleSouls>);
+
+// --- Transmutative Rod
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:transmutationCore>);
+
+// --- Transmutative Stuff Core
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:transmutationStaffCore>);
+
+// --- Amber Rod
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:amberCore>);
+
+// --- Amber Rod Staff Core
+mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:amberStaffCore>);
+
+// --- Necromancers Staff Core
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:necroStaffCore>);
 
 
 
@@ -476,3 +522,290 @@ mods.thaumcraft.Infusion.addRecipe("BurnGTNH", <minecraft:flower_pot>,
 [<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:brick>], 
 "ignis 64, praecantatio 48, vacuos 32, alienis 32, lucrum 16", <ThaumicExploration:everburnUrn>, 9);
 mods.thaumcraft.Research.addInfusionPage("BurnGTNH", <ThaumicExploration:everburnUrn>);
+
+// --- Sojourner Cap
+mods.thaumcraft.Research.orphanResearch("CAP_SOJOURNER");
+mods.thaumcraft.Research.removeResearch("CAP_SOJOURNER");
+mods.thaumcraft.Research.addResearch("CapSojournerGTNH", "TX", "auram 15, permutatio 12, potentia 9, lucrum 6, instrumentum 3", -5, -8, 3, <ThaumicExploration:sojournerCapUncharged>);
+mods.thaumcraft.Research.addPrereq("CapSojournerGTNH", "TXCAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CapSojournerGTNH", "CAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CapSojournerGTNH", "WANDPED", false);
+mods.thaumcraft.Research.setConcealed("CapSojournerGTNH", true);
+game.setLocalization("tc.research_name.CapSojournerGTNH", "Sojourner's Wand Caps");
+game.setLocalization("tc.research_text.CapSojournerGTNH", "Sentient wand caps");
+mods.thaumcraft.Research.addPage("CapSojournerGTNH", "tc.research_page.CapSojournerGTNH");
+game.setLocalization("tc.research_page.CapSojournerGTNH", "Even with the wand recharge pedestal, refilling your wand has been a chore. One must go through the work of constructing the pedestal and placing nodes in its vicinity. You have developed a special wand cap that will passively drain nearby nodes in a similar fashion to the Wand Recharge Pedestal when the wand is held in the hand.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
+mods.thaumcraft.Arcane.addShaped("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
+[<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>],
+[<ore:plateLapis>, <dreamcraft:item.ChargedThaumiumWandCap>, <ore:plateLapis>],
+[<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>]]);
+mods.thaumcraft.Research.addArcanePage("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>);
+mods.thaumcraft.Infusion.addRecipe("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>,
+[<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>], 
+"auram 48, praecantatio 32, permutatio 24, potentia 32, aer 16, ordo 16", <dreamcraft:item.ChargedSojournerWandCap>, 6);
+mods.thaumcraft.Research.addInfusionPage("CapSojournerGTNH", <dreamcraft:item.ChargedSojournerWandCap>);
+
+// --- Mechanist Cap
+mods.thaumcraft.Research.orphanResearch("CAP_MECHANIST");
+mods.thaumcraft.Research.removeResearch("CAP_MECHANIST");
+mods.thaumcraft.Research.addResearch("CapMechanistGTNH", "TX", "auram 15, machina 12, potentia 9, lucrum 6, instrumentum 3",  -9, -6, 3, <ThaumicExploration:mechanistCapUncharged>);
+mods.thaumcraft.Research.addPrereq("CapMechanistGTNH", "TXCAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CapMechanistGTNH", "CAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CapMechanistGTNH", "NODETAPPER2", false);
+mods.thaumcraft.Research.setConcealed("CapMechanistGTNH", true);
+game.setLocalization("tc.research_name.CapMechanistGTNH", "Mechanist's Wand Caps");
+game.setLocalization("tc.research_text.CapMechanistGTNH", "Mechanical wand caps");
+mods.thaumcraft.Research.addPage("CapMechanistGTNH", "tc.research_page.CapMechanistGTNH");
+game.setLocalization("tc.research_page.CapMechanistGTNH", "You have researched nodes extensively, and you feel that you have reached a point in which you can no longer improve the draining speed of nodes without improving your wands themselves. You have created a mechanical wand cap that is able to deconstruct and harvest vis from a node much more quickly than usual, using a combination of gadgetry and magic.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
+mods.thaumcraft.Arcane.addShaped("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
+[<ore:screwDiamond>, <ore:plateRedstone>, <ore:screwDiamond>],
+[<minecraft:repeater>, <dreamcraft:item.ChargedThaumiumWandCap>, <minecraft:repeater>],
+[<ore:screwDiamond>, <minecraft:piston>, <ore:screwDiamond>]]);
+mods.thaumcraft.Research.addArcanePage("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>);
+mods.thaumcraft.Infusion.addRecipe("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>,
+[<Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>], 
+"auram 48, praecantatio 32, machina 24, potentia 32, aer 16, ordo 16", <dreamcraft:item.ChargedMechanistWandCap>, 6);
+mods.thaumcraft.Research.addInfusionPage("CapMechanistGTNH", <dreamcraft:item.ChargedMechanistWandCap>);
+
+// --- Thaumostatic Stabilizer
+mods.thaumcraft.Research.orphanResearch("STABILIZERBELT");
+mods.thaumcraft.Research.removeResearch("STABILIZERBELT");
+mods.thaumcraft.Research.addResearch("StabilizerbeltGTNH", "TX", "ordo 18, terra 15, iter 12, superbia 9, tutamen 6, praecantatio 3",  1, -10, 4, <ThaumicExploration:stabilizerBelt>);
+mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "HOVERHARNESS", false);
+mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXHOVERHARNESS", false);
+mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXINFUSION", false);
+mods.thaumcraft.Research.setConcealed("StabilizerbeltGTNH", true);
+game.setLocalization("tc.research_name.StabilizerbeltGTNH", "Thaumostatic Stabilizer");
+game.setLocalization("tc.research_text.StabilizerbeltGTNH", "Knockback nullifiers");
+mods.thaumcraft.Research.addPage("StabilizerbeltGTNH", "tc.research_page.StabilizerbeltGTNH");
+game.setLocalization("tc.research_page.StabilizerbeltGTNH", "Using similar technology to that found in the thaumostatic harness, you've created a special belt that nullifies the effect of knockback.<BR><BR>Any time you take damage, instead of being knocked around, you will instead remain in place. You have found this device to be extremely useful for not only flying using the harness, but also and travel at night.");
+mods.thaumcraft.Infusion.addRecipe("StabilizerbeltGTNH", <Thaumcraft:ItemBaubleBlanks:2>,
+[<gregtech:gt.metaitem.01:32640>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:24500>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>], 
+"ordo 48, terra 32, iter 12, superbia 24, tutamen 32, praecantatio 16", <ThaumicExploration:stabilizerBelt>, 4);
+mods.thaumcraft.Research.addInfusionPage("StabilizerbeltGTNH", <ThaumicExploration:stabilizerBelt>);
+
+// --- Enchantment Binding
+mods.thaumcraft.Research.setAspects("ENCHBINDING", "vinculum 15, perditio 12, iter 9, superbia 6, cognitio 3");
+mods.thaumcraft.Research.setComplexity("ENCHBINDING", 3);
+mods.thaumcraft.Warp.addToResearch("ENCHBINDING", 1);
+
+// --- Enchantment Night Vision
+mods.thaumcraft.Research.setAspects("ENCHNIGHTVISION", "sensus 15, lux 12, tenebrae 9, ignis 6, cognitio 3");
+mods.thaumcraft.Research.setComplexity("ENCHNIGHTVISION", 3);
+mods.thaumcraft.Warp.addToResearch("ENCHNIGHTVISION", 1);
+
+// --- Enchantment Disarm
+mods.thaumcraft.Research.setAspects("ENCHDISARM", "vinculum 15, limus 12, telum 9, praecantatio 6, cognitio 3");
+mods.thaumcraft.Research.setComplexity("ENCHDISARM", 3);
+mods.thaumcraft.Warp.addToResearch("ENCHDISARM", 1);
+
+// --- Flesh Purification
+mods.thaumcraft.Research.orphanResearch("FLESHCURE");
+mods.thaumcraft.Research.removeResearch("FLESHCURE");
+mods.thaumcraft.Research.addResearch("FleshcureGTNH", "TX", "pannus 15, tutamen 12, corpus 9, permutatio 6, alienis 3", -4, -10, 2, <minecraft:rotten_flesh>);
+mods.thaumcraft.Research.addPrereq("FleshcureGTNH", "TALLOW", false);
+mods.thaumcraft.Research.addPrereq("FleshcureGTNH", "TXTALLOW", false);
+mods.thaumcraft.Research.setConcealed("FleshcureGTNH", true);
+game.setLocalization("tc.research_name.FleshcureGTNH", "Flesh Purification");
+game.setLocalization("tc.research_text.FleshcureGTNH", "Making things better");
+mods.thaumcraft.Research.addPage("FleshcureGTNH", "tc.research_page.FleshcureGTNH");
+game.setLocalization("tc.research_page.FleshcureGTNH", "By imbuing rotten flesh with certain aspects, you have found that you are able to remove nearly all traces of disease and decomposition from the flesh, rendering it much more useful.<BR><BR>Although this discovery may not be particularly useful, you are sure it will lead to exciting things.");
+mods.thaumcraft.Crucible.addRecipe("FleshcureGTNH", <minecraft:leather>, <minecraft:rotten_flesh>, "corpus 4, pannus 4, permutatio 4");
+mods.thaumcraft.Research.addCruciblePage("FleshcureGTNH", <minecraft:leather>);
+
+// --- Cured Zombi Brain
+mods.thaumcraft.Research.orphanResearch("BRAINCURE");
+mods.thaumcraft.Research.removeResearch("BRAINCURE");
+mods.thaumcraft.Research.addResearch("BraincureGTNH", "TX", "ordo 18, cognitio 15, humanus 12, exanimis 9, alienis 6, permutatio 3",  -2, -8, 4, <ThaumicExploration:pureZombieBrain>);
+mods.thaumcraft.Research.addPrereq("BraincureGTNH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("BraincureGTNH", "TXINFUSION", false);
+mods.thaumcraft.Research.addPrereq("BraincureGTNH", "JARBRAIN", false);
+mods.thaumcraft.Research.addPrereq("BraincureGTNH", "FleshcureGTNH", false);
+mods.thaumcraft.Research.setConcealed("BraincureGTNH", true);
+game.setLocalization("tc.research_name.BraincureGTNH", "Brain Sanitization");
+game.setLocalization("tc.research_text.BraincureGTNH", "Brain washing");
+mods.thaumcraft.Research.addPage("BraincureGTNH", "tc.research_page.BraincureGTNH");
+game.setLocalization("tc.research_page.BraincureGTNH", "You have discovered that by using a process similar to purifying zombie villagers, you can reverse the effects of zombification on the brain. These cured brains exhibit much more intellectual capacity than their diseased counterparts, so you hope they will prove useful in future creations.<BR><BR>Note that any type and any duration of weakening potion will work.");
+mods.thaumcraft.Infusion.addRecipe("BraincureGTNH", <Thaumcraft:ItemZombieBrain>,
+[<minecraft:water_bucket>, <Thaumcraft:ItemResource:14>, <minecraft:potion:8264>, <Thaumcraft:ItemResource:14>, <minecraft:golden_apple>, <Thaumcraft:ItemResource:14>], 
+"ordo 32, sano 12, humanus 12, alienis 24, cognitio 16, praecantatio 8", <ThaumicExploration:pureZombieBrain>, 5);
+mods.thaumcraft.Research.addInfusionPage("BraincureGTNH", <ThaumicExploration:pureZombieBrain>);
+
+// --- Talisman of Nourishment
+mods.thaumcraft.Research.orphanResearch("TALISMANFOOD");
+mods.thaumcraft.Research.removeResearch("TALISMANFOOD");
+mods.thaumcraft.Research.addResearch("TalismanfoodtGTNH", "TX", "fames 18, pannus 15, messis 12, sano 9, permutatio 6, ordo 3", -1, -11, 4, <ThaumicExploration:talismanFood>);
+mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "FleshcureGTNH", false);
+mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "TXINFUSION", false);
+mods.thaumcraft.Research.setConcealed("TalismanfoodtGTNH", true);
+game.setLocalization("tc.research_name.TalismanfoodtGTNH", "Talisman of Nourishment");
+game.setLocalization("tc.research_text.TalismanfoodtGTNH", "Everfull belly");
+mods.thaumcraft.Research.addPage("TalismanfoodtGTNH", "tc.research_page.TalismanfoodtGTNH");
+game.setLocalization("tc.research_page.TalismanfoodtGTNH", "You often find yourself needing to take breaks during marathon researching sessions to satisfy your hunger. Finally you have found a way to get past your need for food.<BR><BR>By infusing a diamond with the essence of hunger, you have created an item that is able to suck the nourishing energy from various food items in your hotbar and store this energy within. It will then automatically replenish your food meter if it is depleted.<BR><BR>This device will only work on simple food items, so foods that invoke effects such as Rotten Flesh and Golden Apples must be consumed normally.");
+mods.thaumcraft.Infusion.addRecipe("TalismanfoodtGTNH", <Thaumcraft:ItemResource:15>,
+[<gregtech:gt.metaitem.02:30512>, <harvestcraft:heartybreakfastItem>, <harvestcraft:rainbowcurryItem>, <harvestcraft:supremepizzaItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:epicbaconItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:delightedmealItem>], 
+"fames 64, pannus 48, messis 24, sano 24, permutatio 32, ordo 16", <ThaumicExploration:talismanFood>, 6);
+mods.thaumcraft.Research.addInfusionPage("TalismanfoodtGTNH", <ThaumicExploration:talismanFood>);
+
+// --- Think Tank
+mods.thaumcraft.Research.addPrereq("THINKTANK", "BraincureGTNH", false);
+mods.thaumcraft.Warp.addToResearch("ENCHBINDING", 2);
+
+// --- Talsiman of the Dreamcatcher
+mods.thaumcraft.Research.orphanResearch("DREAMCATCHER");
+mods.thaumcraft.Research.removeResearch("DREAMCATCHER");
+mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7, 2, 2, <ThaumicExploration:charmNoTaint>);
+mods.thaumcraft.Research.addPrereq("DreamcatcherGTNH", "TAINTBASICS", false);
+mods.thaumcraft.Research.setConcealed("DreamcatcherGTNH", true);
+game.setLocalization("tc.research_name.DreamcatcherGTNH", "Wispy Dreamcatcher");
+game.setLocalization("tc.research_text.DreamcatcherGTNH", "Filtered thoughts");
+mods.thaumcraft.Research.addPage("DreamcatcherGTNH", "tc.research_page.DreamcatcherGTNH");
+game.setLocalization("tc.research_page.DreamcatcherGTNH", "They say that dreamcatchers are meant to stop nightmares from reaching the mind. Though taint may not be a construct of your psyche, you think that perhaps the ill effects that taint has on the body could be combated using a modified dreamcatcher.<BR><BR>If you hold this dreamcatcher in your hotbar, it will have a high probability of nullifying damage from taint or tainted creatures. Although this dreamcatcher does not nullify all damage, it will certainly make excursions into tainted land much less dangerous.");
+mods.thaumcraft.Arcane.addShaped("DreamcatcherGTNH", <ThaumicExploration:charmNoTaint>, "ordo 25, perditio 25, terra 25", [
+[<Thaumcraft:WandRod>, <Thaumcraft:ItemResource:12>, <Thaumcraft:WandRod>],
+[<Thaumcraft:ItemResource:11>, <minecraft:leather>, <Thaumcraft:ItemResource:11>],
+[<minecraft:feather>, <Thaumcraft:ItemResource:12>, <minecraft:feather>]]);
+mods.thaumcraft.Research.addArcanePage("DreamcatcherGTNH", <ThaumicExploration:charmNoTaint>);
+
+// --- Crucible of Souls
+mods.thaumcraft.Research.orphanResearch("CRUCSOULS");
+mods.thaumcraft.Research.removeResearch("CRUCSOULS");
+mods.thaumcraft.Research.addResearch("CrucsoulGTNH", "TX", "spiritus 18, mortuus 15, fames 12, exanimis 9, telum 6, alienis 3", 5, -7, 4, <ThaumicExploration:crucibleSouls>);
+mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "DISTILESSENTIA", false);
+mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXDISTILESSENTIA", false);
+mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "BraincureGTNH", true);
+mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXINFUSION", false);
+mods.thaumcraft.Research.setConcealed("CrucsoulGTNH", true);
+game.setLocalization("tc.research_name.CrucsoulGTNH", "Crucible of Soulst");
+game.setLocalization("tc.research_text.CrucsoulGTNH", "Caution: Keep out of reach of children.");
+mods.thaumcraft.Research.addPage("CrucsoulGTNH", "tc.research_page.CrucsoulGTNH.1");
+game.setLocalization("tc.research_page.CrucsoulGTNH.1", "You have discovered a way to take advantage of a previously untapped source of essentia - that of living creatures. Infusing an alchemical furnace with various occult reagents and precise quantities of essentia, will create a crucible of souls, a device that will seek out the nearest living creature and slowly drain their life force, retrieving essentia at the final blow. This comes at the cost of the normal loot the creature would drop. This essentia can then be piped out of any face except the top via essentia tubes.");
+mods.thaumcraft.Research.addPage("CrucsoulGTNH", "tc.research_page.CrucsoulGTNH.2");
+game.setLocalization("tc.research_page.CrucsoulGTNH.2", "The Crucible of Souls is very unstable, and has a high probability of converting some of the essentia to flux or breaking it down into its component parts. You should make preparations to dispose of this flux before it causes a problem.<BR><BR>You have managed to install a basic safeguard so the device will not attack humans, but keep your pets at a safe distance. Magical golems should also be ignored by the device.");
+mods.thaumcraft.Infusion.addRecipe("CrucsoulGTNH", <Thaumcraft:blockStoneDevice>,
+[<Thaumcraft:blockMetalDevice>, <minecraft:rotten_flesh>, <minecraft:soul_sand>, <minecraft:slime_ball>, <minecraft:soul_sand>, <minecraft:ghast_tear>, <Thaumcraft:blockMetalDevice:1>, <minecraft:blaze_rod>, <minecraft:soul_sand>, <minecraft:magma_cream>, <minecraft:soul_sand>, <minecraft:bone>], 
+"exanimis 24, fames 48, spiritus 32, mortuus 64, telum 24, vinculum 16, alienis 8", <ThaumicExploration:crucibleSouls>, 8);
+mods.thaumcraft.Research.addInfusionPage("CrucsoulGTNH", <ThaumicExploration:crucibleSouls>);
+mods.thaumcraft.Warp.addToResearch("CrucsoulGTNH", 4);
+
+// --- Taintale Ring
+mods.thaumcraft.Research.addPrereq("TENTACLERING", "BraincureGTNH", true);
+mods.thaumcraft.Research.setAspects("TENTACLERING", "vitium 15, telum 12, tutamen 9, alienis 6, praecantatio 3");
+mods.thaumcraft.Research.setComplexity("TENTACLERING", 3);
+mods.thaumcraft.Warp.addToResearch("TENTACLERING", 2);
+
+// --- Transmutative Rod
+mods.thaumcraft.Research.orphanResearch("ROD_TRANSMUTATION");
+mods.thaumcraft.Research.removeResearch("ROD_TRANSMUTATION");
+mods.thaumcraft.Research.addResearch("Rod_TransmutatitionGTNH", "TX", "permutatio 15, instrumentum 12, praecantatio 9, alienis 6, terra 3", -1, -1, 4, <ThaumicExploration:transmutationCore>);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "ROD_greatwood", false);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXROD_greatwood", false);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXINFUSION", true);
+mods.thaumcraft.Research.setConcealed("Rod_TransmutatitionGTNH", true);
+game.setLocalization("tc.research_name.Rod_TransmutatitionGTNH", "Transmutative Wand Core");
+game.setLocalization("tc.research_text.Rod_TransmutatitionGTNH", "One thing into another");
+mods.thaumcraft.Research.addPage("Rod_TransmutatitionGTNH", "tc.research_page.Rod_TransmutatitionGTNH");
+game.setLocalization("tc.research_page.Rod_TransmutatitionGTNH", "While experimenting with the properties of primal charms, you have found that you can sporadically convert one form of vis into another. You have found this property to be too unreliable to use for most purposes, but if a charm is infused with certain materials, it can be used as a wand core with unique properties.<BR><BR>When the wand is filled at over 90% capacity of a certain aspect, this vis will be converted into other forms of vis, albeit at a low ratio.<BR><BR>This wand also boasts a higher vis capacity than a mundane greatwood wand, holding up to 75 vis of each type.");
+mods.thaumcraft.Infusion.addRecipe("Rod_TransmutatitionGTNH", <Thaumcraft:WandRod>,
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
+"praecantatio 32, permutatio 32, auram 24, terra 16, arbor 8, alienis 8", <ThaumicExploration:transmutationCore>, 8);
+mods.thaumcraft.Research.addInfusionPage("Rod_TransmutatitionGTNH", <ThaumicExploration:transmutationCore>);
+
+// --- Transmutative Stuff Core
+mods.thaumcraft.Research.orphanResearch("ROD_TRANSMUTATION_staff");
+mods.thaumcraft.Research.removeResearch("ROD_TRANSMUTATION_staff");
+mods.thaumcraft.Research.addResearch("Rod_Transmutaion_StaffGTNH", "TX", "permutatio 18, instrumentum 15, praecantatio 12, alienis 9, terra 6, arbor 3", 0, 0, 4, <ThaumicExploration:transmutationStaffCore>);
+mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "Rod_TransmutatitionGTNH", false);
+mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "ROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.setConcealed("Rod_Transmutaion_StaffGTNH", true);
+game.setLocalization("tc.research_name.Rod_Transmutaion_StaffGTNH", "Transmutative Staff Core");
+game.setLocalization("tc.research_text.Rod_Transmutaion_StaffGTNH", "One thing into another");
+mods.thaumcraft.Research.addPage("Rod_Transmutaion_StaffGTNH", "tc.research_page.Rod_Transmutaion_StaffGTNH");
+game.setLocalization("tc.research_page.Rod_Transmutaion_StaffGTNH", "A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmutate vis forms when over 90% capacity in a particular type.");
+mods.thaumcraft.Arcane.addShaped("Rod_Transmutaion_StaffGTNH", <ThaumicExploration:transmutationStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <ThaumicExploration:transmutationCore>, <Thaumcraft:blockCrystal:3>],
+[<ThaumicExploration:transmutationCore>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+mods.thaumcraft.Research.addArcanePage("Rod_Transmutaion_StaffGTNH", <ThaumicExploration:transmutationStaffCore>);
+
+// --- Amber Rod
+mods.thaumcraft.Research.orphanResearch("ROD_AMBER");
+mods.thaumcraft.Research.removeResearch("ROD_AMBER");
+mods.thaumcraft.Research.addResearch("Rod_AmberGTNH", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5, -1, 4, <ThaumicExploration:amberCore>);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_obsidian", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "TXROD_greatwood", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_reed", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_blaze", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_ice", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_quartz", false);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_bone", false);
+mods.thaumcraft.Research.setConcealed("Rod_AmberGTNH", true);
+game.setLocalization("tc.research_name.Rod_AmberGTNH", "Amber Wand Core");
+game.setLocalization("tc.research_text.Rod_AmberGTNH", "Regenerative vis storage");
+mods.thaumcraft.Research.addPage("Rod_AmberGTNH", "tc.research_page.Rod_AmberGTNH");
+game.setLocalization("tc.research_page.Rod_AmberGTNH", "You have finally found a practical use for amber, in the form of a wand core. Amber serves as a poor conduit for vis, and thus can only hold 10 vis of each type, but it has other benefits.<BR><BR>Amber cores seem to store a fleeting memory of vis when empty. By harnessing this memory, you have created a wand core that can replenish all forms of vis at a rather quick rate when not at full capacity. While many of the other wand cores you have created have had regenerative properties, the amber core regenerates one point of every type of vis, instead of one type in particular, at two times the rate.");
+mods.thaumcraft.Infusion.addRecipe("Rod_AmberGTNH", <gregtech:gt.metaitem.01:23514>,
+[<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>], 
+"praecantatio 32, vinculum 32, auram 24, vitreus 16, arbor 8, alienis 8", <ThaumicExploration:amberCore>, 8);
+mods.thaumcraft.Research.addInfusionPage("Rod_AmberGTNH", <ThaumicExploration:amberCore>);
+
+// --- Amber Rod Staff Core
+mods.thaumcraft.Research.orphanResearch("ROD_AMBER_staff");
+mods.thaumcraft.Research.removeResearch("ROD_AMBER_staff");
+mods.thaumcraft.Research.addResearch("Rod_Amber_StaffGTNH", "TX", "vinculum 18, instrumentum 15, praecantatio 12, alienis 9, auram 6, alienis 3", -6, 0, 4, <ThaumicExploration:amberStaffCore>);
+mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "Rod_AmberGTNH", false);
+mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "ROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.setConcealed("Rod_Amber_StaffGTNH", true);
+game.setLocalization("tc.research_name.Rod_Amber_StaffGTNH", "Amber Staff Core");
+game.setLocalization("tc.research_text.Rod_Amber_StaffGTNH", "Regenerative vis storage");
+mods.thaumcraft.Research.addPage("Rod_Amber_StaffGTNH", "tc.research_page.Rod_Amber_StaffGTNH");
+game.setLocalization("tc.research_page.Rod_Amber_StaffGTNH", "A staff core crafted from amber can store 25 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.");
+mods.thaumcraft.Arcane.addShaped("Rod_Amber_StaffGTNH", <ThaumicExploration:amberStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
+[<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
+[<Thaumcraft:blockCrystal:2>, <ThaumicExploration:amberCore>, <Thaumcraft:blockCrystal:3>],
+[<ThaumicExploration:amberCore>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
+mods.thaumcraft.Research.addArcanePage("Rod_Amber_StaffGTNH", <ThaumicExploration:amberStaffCore>);
+
+// --- Necromancers Staff Core
+mods.thaumcraft.Research.orphanResearch("ROD_NECROMANCER_staff");
+mods.thaumcraft.Research.removeResearch("ROD_NECROMANCER_staff");
+mods.thaumcraft.Research.addResearch("Rod_Necromancer_StaffGTNH", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3, 1, 4, <ThaumicExploration:necroStaffCore>);
+mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "ROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "BRAINCURE", true);
+mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "ROD_bone_staff", false);
+mods.thaumcraft.Research.setConcealed("Rod_Necromancer_StaffGTNH", true);
+game.setLocalization("tc.research_name.Rod_Necromancer_StaffGTNH", "Necromancer's Staff Core");
+game.setLocalization("tc.research_text.Rod_Necromancer_StaffGTNH", "The power of the undead");
+mods.thaumcraft.Research.addPage("Rod_Necromancer_StaffGTNH", "tc.research_page.Rod_Necromancer_StaffGTNH");
+game.setLocalization("tc.research_page.Rod_Necromancer_StaffGTNH", "You have created a horrifying tool by infusing a Bone Staff Core with remnants of the undead.<BR><BR>This staff core is the perfect tool for the bloodthirsty thaumaturge. It boasts a large capacity of 200 vis, and receives four times the normal amount of vis from killed monsters. In addition, this staff is an even more proficient at melee combat. Striking a monster begins to wither their life force away. Unfortunately, this does not come without downsides. The dark magic used to infuse the staff makes it less receptive to vis obtained from other means, only effectively receiving 75% of the vis an ordinary wand would from nodes or other sources.");
+mods.thaumcraft.Infusion.addRecipe("Rod_Necromancer_StaffGTNH", <Thaumcraft:WandRod:57>,
+[<minecraft:skull:1>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:nether_star>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>], 
+"mortuus 64, instrumentum 24, perditio 48, auram 32, spiritus 32, exanimis 16, cognitio 16", <ThaumicExploration:necroStaffCore>, 12);
+mods.thaumcraft.Research.addInfusionPage("Rod_Necromancer_StaffGTNH", <ThaumicExploration:necroStaffCore>);
+mods.thaumcraft.Warp.addToResearch("Rod_Necromancer_StaffGTNH", 3);
+
+
+
+
+// --- Recipes refresh ---
+
+
+
+// --- Enchantment Binding
+mods.thaumcraft.Research.refreshResearchRecipe("ENCHBINDING");
+
+// --- Enchantment Night Vision
+mods.thaumcraft.Research.refreshResearchRecipe("ENCHNIGHTVISION");
+
+// --- Enchantment Disarm
+mods.thaumcraft.Research.refreshResearchRecipe("ENCHDISARM");
