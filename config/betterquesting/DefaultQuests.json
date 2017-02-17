@@ -59504,6 +59504,92 @@
       ]
     },
     {
+      "questID": 705,
+      "name": "Better then Bone meal",
+      "description": "Are you running low one Bone meal because you take too much care your plants and trees. Well the a Watering Can is a cheap early game Bone meal alternative. Fill it with water and let grow your Plants and Trees.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:watering_can",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:watering_can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:supremepizzaItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
       "questID": 706,
       "name": "Ethereal chalk",
       "description": "Top Tier chalk, for fancy wall paintings?",
@@ -63380,258 +63466,263 @@
       "quests": [
         {
           "id": 44,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 46,
-          "x": 96,
+          "x": 144,
           "y": 0
         },
         {
           "id": 47,
-          "x": 96,
+          "x": 144,
           "y": 36
         },
         {
           "id": 48,
-          "x": 180,
+          "x": 228,
           "y": 0
         },
         {
           "id": 49,
-          "x": 324,
+          "x": 372,
           "y": 0
         },
         {
           "id": 50,
-          "x": 372,
-          "y": 0
-        },
-        {
-          "id": 51,
-          "x": 324,
-          "y": 108
-        },
-        {
-          "id": 53,
-          "x": 240,
-          "y": 72
-        },
-        {
-          "id": 54,
-          "x": 276,
-          "y": 36
-        },
-        {
-          "id": 52,
-          "x": 324,
-          "y": 36
-        },
-        {
-          "id": 55,
-          "x": 240,
-          "y": 36
-        },
-        {
-          "id": 56,
-          "x": 192,
-          "y": 36
-        },
-        {
-          "id": 57,
-          "x": 372,
-          "y": 108
-        },
-        {
-          "id": 58,
           "x": 420,
           "y": 0
         },
         {
-          "id": 59,
-          "x": 0,
+          "id": 51,
+          "x": 372,
           "y": 108
         },
         {
-          "id": 60,
-          "x": 48,
-          "y": 252
-        },
-        {
-          "id": 61,
-          "x": 96,
-          "y": 252
-        },
-        {
-          "id": 62,
-          "x": 96,
-          "y": 216
-        },
-        {
-          "id": 63,
-          "x": 96,
+          "id": 53,
+          "x": 288,
           "y": 72
         },
         {
-          "id": 64,
-          "x": 48,
-          "y": 72
-        },
-        {
-          "id": 65,
-          "x": 144,
-          "y": 108
-        },
-        {
-          "id": 66,
-          "x": 240,
-          "y": 216
-        },
-        {
-          "id": 68,
-          "x": 276,
-          "y": 252
-        },
-        {
-          "id": 69,
-          "x": 276,
-          "y": 180
-        },
-        {
-          "id": 70,
-          "x": 276,
-          "y": 288
-        },
-        {
-          "id": 67,
-          "x": 276,
-          "y": 216
-        },
-        {
-          "id": 72,
-          "x": 144,
-          "y": 288
-        },
-        {
-          "id": 73,
-          "x": 144,
-          "y": 180
-        },
-        {
-          "id": 71,
+          "id": 54,
           "x": 324,
-          "y": 216
+          "y": 36
         },
         {
-          "id": 84,
-          "x": 180,
-          "y": 180
-        },
-        {
-          "id": 16,
-          "x": 180,
-          "y": 216
-        },
-        {
-          "id": 478,
-          "x": 192,
-          "y": 108
-        },
-        {
-          "id": 479,
-          "x": 240,
-          "y": 108
-        },
-        {
-          "id": 493,
-          "x": 276,
-          "y": 0
-        },
-        {
-          "id": 494,
-          "x": 144,
-          "y": 0
-        },
-        {
-          "id": 495,
+          "id": 52,
           "x": 372,
           "y": 36
         },
         {
+          "id": 55,
+          "x": 288,
+          "y": 36
+        },
+        {
+          "id": 56,
+          "x": 240,
+          "y": 36
+        },
+        {
+          "id": 57,
+          "x": 420,
+          "y": 108
+        },
+        {
+          "id": 58,
+          "x": 468,
+          "y": 0
+        },
+        {
+          "id": 59,
+          "x": 48,
+          "y": 108
+        },
+        {
+          "id": 60,
+          "x": 0,
+          "y": 180
+        },
+        {
+          "id": 61,
+          "x": 96,
+          "y": 180
+        },
+        {
+          "id": 62,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 63,
+          "x": 144,
+          "y": 72
+        },
+        {
+          "id": 64,
+          "x": 96,
+          "y": 72
+        },
+        {
+          "id": 65,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 66,
+          "x": 288,
+          "y": 216
+        },
+        {
+          "id": 68,
+          "x": 324,
+          "y": 252
+        },
+        {
+          "id": 69,
+          "x": 324,
+          "y": 180
+        },
+        {
+          "id": 70,
+          "x": 324,
+          "y": 288
+        },
+        {
+          "id": 67,
+          "x": 324,
+          "y": 216
+        },
+        {
+          "id": 72,
+          "x": 192,
+          "y": 288
+        },
+        {
+          "id": 73,
+          "x": 192,
+          "y": 180
+        },
+        {
+          "id": 71,
+          "x": 372,
+          "y": 216
+        },
+        {
+          "id": 84,
+          "x": 228,
+          "y": 180
+        },
+        {
+          "id": 16,
+          "x": 228,
+          "y": 216
+        },
+        {
+          "id": 478,
+          "x": 240,
+          "y": 108
+        },
+        {
+          "id": 479,
+          "x": 288,
+          "y": 108
+        },
+        {
+          "id": 493,
+          "x": 324,
+          "y": 0
+        },
+        {
+          "id": 494,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 495,
+          "x": 420,
+          "y": 36
+        },
+        {
           "id": 496,
-          "x": 276,
+          "x": 324,
           "y": 108
         },
         {
           "id": 497,
-          "x": 240,
+          "x": 288,
           "y": 144
         },
         {
           "id": 534,
-          "x": 240,
+          "x": 288,
           "y": 180
         },
         {
           "id": 535,
-          "x": 144,
+          "x": 192,
           "y": 36
         },
         {
           "id": 536,
-          "x": 324,
+          "x": 372,
           "y": 180
         },
         {
           "id": 558,
-          "x": 96,
-          "y": 144
+          "x": 144,
+          "y": 180
         },
         {
           "id": 559,
-          "x": 0,
+          "x": 48,
           "y": 252
         },
         {
           "id": 560,
-          "x": 0,
+          "x": 48,
           "y": 180
         },
         {
           "id": 561,
-          "x": 144,
-          "y": 72
-        },
-        {
-          "id": 562,
           "x": 192,
           "y": 72
         },
         {
+          "id": 562,
+          "x": 240,
+          "y": 72
+        },
+        {
           "id": 596,
-          "x": 48,
+          "x": 96,
           "y": 108
         },
         {
           "id": 597,
-          "x": 324,
+          "x": 372,
           "y": 144
         },
         {
           "id": 625,
-          "x": 96,
-          "y": 180
+          "x": 144,
+          "y": 252
         },
         {
           "id": 658,
-          "x": 48,
+          "x": 96,
           "y": 144
         },
         {
           "id": 694,
-          "x": 276,
+          "x": 324,
           "y": 72
+        },
+        {
+          "id": 705,
+          "x": 144,
+          "y": 144
         }
       ]
     },
