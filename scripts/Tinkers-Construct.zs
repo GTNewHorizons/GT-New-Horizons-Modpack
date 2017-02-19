@@ -3817,6 +3817,9 @@ mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood:1>, <TConstruct:jerky:7
 // --- Gelatinous Slime Ball
 mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>, 6000);
 
+// --- Mutton Jerky
+mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 12000);
+
 
 
 
