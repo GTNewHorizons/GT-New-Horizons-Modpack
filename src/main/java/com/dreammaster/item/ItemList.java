@@ -95,7 +95,7 @@ public enum ItemList
     CoinChemistI(new ModSimpleBaseItem("CoinChemistI", ModTabList.ModGenericTab)),
     CoinChemistII(new ModSimpleBaseItem("CoinChemistII", ModTabList.ModGenericTab)),
     CoinChemistIII(new ModSimpleBaseItem("CoinChemistIII", ModTabList.ModGenericTab)),
-    CoinCook(new ModSimpleBaseItem("CoinCoock", ModTabList.ModGenericTab)),
+    CoinCook(new ModSimpleBaseItem("CoinCook", ModTabList.ModGenericTab)),
     CoinCookI(new ModSimpleBaseItem("CoinCookI", ModTabList.ModGenericTab)),
     CoinCookII(new ModSimpleBaseItem("CoinCookII", ModTabList.ModGenericTab)),
     CoinCookIII(new ModSimpleBaseItem("CoinCookIII", ModTabList.ModGenericTab)),
