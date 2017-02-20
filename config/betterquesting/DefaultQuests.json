@@ -8238,7 +8238,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -59507,7 +59507,7 @@
       "questID": 705,
       "name": "Better then Bone meal",
       "description": "Are you running low one Bone meal because you take too much care your plants and trees. Well the a Watering Can is a cheap early game Bone meal alternative. Fill it with water and let grow your Plants and Trees.",
-	  "isMain": false,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
