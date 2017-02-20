@@ -19987,6 +19987,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCrystal",
@@ -20025,7 +20027,7 @@
               "Damage": 5
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
