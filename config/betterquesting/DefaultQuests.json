@@ -8227,8 +8227,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 128,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             }
@@ -9671,6 +9677,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -9889,6 +9901,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -10117,77 +10135,6 @@
       ]
     },
     {
-      "questID": 116,
-      "name": "Accelerated plant growth",
-      "description": "Plants grow very slowly, you might\u0027ve discovered that by now. So why you don\u0027t counter that? A watering can will come in handy very soon.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "ExtraUtilities:watering_can",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 1
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ExtraUtilities:watering_can",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        106
-      ]
-    },
-    {
       "questID": 117,
       "name": "Gotta catch \u0027em all",
       "description": "Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for that.",
@@ -10244,6 +10191,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 5,
@@ -13319,6 +13272,33 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -15019,14 +14999,26 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 14
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15042,6 +15034,21 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -17706,10 +17713,28 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
               "OreDict": "",
-              "Damage": 15
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -17737,6 +17762,21 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -33954,6 +33994,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 1,
               "OreDict": "",
@@ -37971,6 +38017,12 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -47063,6 +47115,18 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 64,
               "OreDict": "",
@@ -50770,7 +50834,7 @@
     {
       "questID": 623,
       "name": "A big Meteorite",
-      "description": "The best way to get Rare Earth is to find a Ae2 Meteorit and macerate them down. The dust can be centrifuges in warious byproducts like cadmium, neodymium, ceasium, lanthan and many more.",
+      "description": "The best way to get Rare Earth is to find a Ae2 Meteorit and macerate them down. Maybe you complete the Quest in the Steam Age allready found and Meteorit and store the Skystone somewhere. The dust can now be centrifuges in warious byproducts like cadmium, neodymium, ceasium, lanthan and many more.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58232,7 +58296,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockSkyStone",
-              "Count": 64,
+              "Count": 128,
               "OreDict": "",
               "Damage": 0
             },
@@ -59507,8 +59571,8 @@
     },
     {
       "questID": 705,
-      "name": "Better then Bone meal",
-      "description": "Are you running low one Bone meal because you take too much care your plants and trees. Well the a Watering Can is a cheap early game Bone meal alternative. Fill it with water and let grow your Plants and Trees.",
+      "name": "Accelerated plant growth",
+      "description": "Plants grow very slowly, you might\u0027 ve discovered that by now. So why you don\u0027t counter that? A watering can will come in handy very soon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59577,6 +59641,18 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -63861,11 +63937,6 @@
           "id": 115,
           "x": 492,
           "y": 120
-        },
-        {
-          "id": 116,
-          "x": 564,
-          "y": 72
         },
         {
           "id": 117,
