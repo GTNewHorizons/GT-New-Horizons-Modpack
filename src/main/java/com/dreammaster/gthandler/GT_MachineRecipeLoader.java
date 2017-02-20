@@ -15,7 +15,7 @@ import net.minecraftforge.fluids.FluidStack;
 public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_MachineRecipeLoader implements gregtech.api.interfaces.IOreRecipeRegistrator{
     public void run(){
 
-        GT_Values.RA.addBenderRecipe(CustomItemList.MicaInsulatorSheet.get(1L),CustomItemList.MicaInsulatorFoil.get(4L),100,30);
+        GT_Values.RA.addBenderRecipe(CustomItemList.MicaInsulatorSheet.get(1L), CustomItemList.MicaInsulatorFoil.get(4L), 100, 30);
 
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Thaumium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Silver, 3L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L), 100, 1920);
@@ -24,8 +24,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addAlloySmelterRecipe(CustomItemList.MicaBasedSheet.get(4L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.MicaInsulatorSheet.get(4L),400,30);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Ruby, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
-        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sapphire, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
-        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GreenSapphire, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L),CustomItemList.AluminoSilicateWool.get(2L),1200,30);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sapphire, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L), CustomItemList.AluminoSilicateWool.get(2L), 1200, 30);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GreenSapphire, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L), CustomItemList.AluminoSilicateWool.get(2L), 1200, 30);
 
         //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PsP", 'P', OrePrefixes.wireGt02.get(Materials.Cupronickel)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), CustomItemList.AluminoSilicateWool.get(12L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L, new Object[0]), 100, 8);
@@ -102,6 +102,12 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBlood.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinBloodI.get(1L, new Object[0]), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBloodI.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinBloodII.get(1L, new Object[0]), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBloodII.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinBloodIII.get(1L, new Object[0]), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemist.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinChemistI.get(1L, new Object[0]), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemistI.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinChemistII.get(1L, new Object[0]), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemistII.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinChemistIII.get(1L, new Object[0]), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoock.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinCoockI.get(1L, new Object[0]), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoockI.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinCoockII.get(1L, new Object[0]), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoockII.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinCoockIII.get(1L, new Object[0]), 100, 480);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizard.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinDarkWizardI.get(1L, new Object[0]), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizardI.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinDarkWizardII.get(1L, new Object[0]), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizardII.get(10L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 10L, new Object[0]), CustomItemList.CoinDarkWizardIII.get(1L, new Object[0]), 100, 480);
@@ -130,6 +136,12 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBloodI.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinBlood.get(10L, new Object[0]), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBloodII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinBloodI.get(10L, new Object[0]), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinBloodIII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinBloodII.get(10L, new Object[0]), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemistI.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinChemist.get(10L, new Object[0]), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemistII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinChemistI.get(10L, new Object[0]), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinChemistIII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinChemistII.get(10L, new Object[0]), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoockI.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinCoock.get(10L, new Object[0]), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoockII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinCoockI.get(10L, new Object[0]), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinCoockIII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinCoockII.get(10L, new Object[0]), 100, 480);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizardI.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinDarkWizard.get(10L, new Object[0]), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizardII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinDarkWizardI.get(10L, new Object[0]), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinDarkWizardIII.get(1L, new Object[0]), ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), CustomItemList.CoinDarkWizardII.get(10L, new Object[0]), 100, 480);
