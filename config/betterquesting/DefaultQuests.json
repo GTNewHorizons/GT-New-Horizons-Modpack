@@ -2999,6 +2999,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -4317,6 +4323,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -43091,6 +43108,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 5,
               "OreDict": "",
@@ -49623,6 +49646,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
               "OreDict": "",
@@ -51702,6 +51731,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 10,
               "OreDict": "",
@@ -51897,6 +51932,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 10,
               "OreDict": "",
@@ -51985,8 +52026,7 @@
         }
       ],
       "preRequisites": [
-        7,
-        665
+        7
       ]
     },
     {
@@ -52183,7 +52223,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
+              "id": "dreamcraft:item.CoinCook",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -52273,7 +52313,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
+              "id": "dreamcraft:item.CoinCook",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -52357,8 +52397,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -55511,7 +55551,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
+              "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
               "OreDict": "",
               "Damage": 0
@@ -60725,6 +60765,135 @@
       "preRequisites": [
         530,
         529
+      ]
+    },
+    {
+      "questID": 718,
+      "name": "Crops Breeding",
+      "description": "If you ever want to know how crop Breeding works you are right here. Get you some Crop Sticks and some seeds you get from farming it with a Hoe or Mattock.\nMake a 3 x 3 Tilled Dirt with your Hoe and make  Water in the middle. Make sure the area is well lit and quite big. \nNow placing crop stick on each corner of the field. Then placing the Seeds on the sticks and wait a bit.\nIf they fully grown you can put 2 Crop sticks crossed in the Middle on East, South, West and North Side of the field.\nWith some luck you get a new unknown seed which can be scanned later.\nWeed needs to be removed with a Weed trowel otherwise your field will overgrown by it and the other plats get destroyed.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockCrop",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:pumpkin_seeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:melon_seeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:reeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:yellow_flower",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:red_flower",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemWeedingTrowel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        634,
+        36,
+        483
       ]
     },
     {
@@ -66024,66 +66193,71 @@
       "quests": [
         {
           "id": 627,
-          "x": 192,
+          "x": 144,
           "y": 36
         },
         {
           "id": 628,
-          "x": 192,
+          "x": 144,
           "y": 0
         },
         {
           "id": 629,
-          "x": 192,
+          "x": 144,
           "y": 72
         },
         {
           "id": 630,
-          "x": 192,
+          "x": 144,
           "y": 108
         },
         {
           "id": 631,
-          "x": 240,
+          "x": 192,
           "y": 36
         },
         {
           "id": 632,
-          "x": 240,
+          "x": 192,
           "y": 180
         },
         {
           "id": 633,
-          "x": 240,
+          "x": 192,
           "y": 72
         },
         {
           "id": 634,
-          "x": 96,
+          "x": 48,
           "y": 36
         },
         {
           "id": 635,
-          "x": 96,
+          "x": 48,
           "y": 72
         },
         {
           "id": 636,
-          "x": 96,
+          "x": 48,
           "y": 144
         },
         {
           "id": 637,
-          "x": 96,
+          "x": 48,
           "y": 108
         },
         {
           "id": 638,
-          "x": 96,
+          "x": 48,
           "y": 180
         },
         {
           "id": 665,
+          "x": 252,
+          "y": 36
+        },
+        {
+          "id": 718,
           "x": 0,
           "y": 36
         }
