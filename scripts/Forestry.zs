@@ -1608,7 +1608,7 @@ mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 <minecraft:paper>, <Forestry:stamps:6>);		
 
 // --- Letter
-ods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
+mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
 [null, <minecraft:paper>, null,
 <minecraft:paper>, <Forestry:propolis:*>, <minecraft:paper>,
 null, <minecraft:paper>, null],
