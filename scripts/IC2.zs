@@ -1175,7 +1175,7 @@ recipes.addShaped(<IC2:blockPersonal>, [
 // --- Crop Sticks
 recipes.addShaped(<IC2:blockCrop>, [
 [<ore:stickLongWood>, null, <ore:stickLongWood>],
-[<ore:stickLongWood>, <minecraft:string>, <ore:stickLongWood>]]);
+[<ore:stickLongWood>, null, <ore:stickLongWood>]]);
 
 // --- CF Sprayer
 recipes.addShaped(<IC2:itemFoamSprayer:27>, [
@@ -1506,6 +1506,12 @@ recipes.addShaped(<gregtech:gt.metaitem.02:2084>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:11084> * 16, [
 [<gregtech:gt.metaitem.03:1084>, <ore:craftingToolCrowbar>,null]]);
 
+// --- Weeding Trowel
+recipes.addShaped(<IC2:itemWeedingTrowel>, [
+[<ore:screwSteel>, <ore:stickSteel>, <ore:craftingToolScrewdriver>],
+[<ore:plateRubber>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:plateRubber>, <ore:screwSteel>]]);
+
 
 // --- Add Fuel ---
 
@@ -1595,10 +1601,10 @@ Assembler.addRecipe(<IC2:blockIronScaffold>, <gregtech:gt.blockmachines:4128>, <
 Assembler.addRecipe(<IC2:itemBoat:1>, <IC2:itemBoat:2>, <gregtech:gt.metaitem.01:17880>, 20, 30);
 
 // --- Weeding Trowel
-Assembler.addRecipe(<IC2:itemWeedingTrowel>, <gregtech:gt.metaitem.01:23305> * 5, <gregtech:gt.integrated_circuit:5> * 0, <liquid:molten.rubber> * 288, 400, 30);
+Assembler.addRecipe(<IC2:itemWeedingTrowel>, <gregtech:gt.metaitem.01:23305> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.rubber> * 144, 400, 30);
 
 // --- Cropnalyzer
-Assembler.addRecipe(<IC2:itemCropnalyzer:26>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuitAdv>, <liquid:molten.redstone> * 576, 1200, 16);
+Assembler.addRecipe(<IC2:itemCropnalyzer:26>, <gregtech:gt.metaitem.01:32740>, <gregtech:gt.metaitem.01:32702>, <liquid:molten.redstone> * 576, 1200, 16);
 
 // --- EU Reader
 Assembler.addRecipe(<IC2:itemToolMEter>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuit> * 2, <liquid:molten.glowstone> * 288, 600, 16);
@@ -1716,6 +1722,10 @@ Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:3000
 
 // --- Iron Furnace
 Assembler.addRecipe(IronFurnace, <minecraft:furnace>, <Railcraft:part.plate> * 4, 400, 16);
+
+// --- Crop Sticks
+Assembler.addRecipe(<IC2:blockCrop> * 16, <gregtech:gt.metaitem.02:22809> * 8, <gregtech:gt.integrated_circuit:2> * 0, 150, 30);
+
 
 
 
