@@ -10152,36 +10152,6 @@
       ]
     },
     {
-      "questID": 116,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
-    },
-    {
       "questID": 117,
       "name": "Gotta catch \u0027em all",
       "description": "Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for that.",
@@ -60771,7 +60741,7 @@
       "questID": 718,
       "name": "Crops Breeding",
       "description": "If you ever want to know how crop Breeding works you are right here. Get you some Crop Sticks and some seeds you get from farming it with a Hoe or Mattock.\nMake a 3 x 3 Tilled Dirt with your Hoe and make  Water in the middle. Make sure the area is well lit and quite big. \nNow placing crop stick on each corner of the field. Then placing the Seeds on the sticks and wait a bit.\nIf they fully grown you can put 2 Crop sticks crossed in the Middle on East, South, West and North Side of the field.\nWith some luck you get a new unknown seed which can be scanned later.\nWeed needs to be removed with a Weed trowel otherwise your field will overgrown by it and the other plats get destroyed.",
-	  "isMain": false,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -60812,7 +60782,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -60835,6 +60805,18 @@
             },
             {
               "id": "minecraft:reeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:carrot",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potato",
               "Count": 16,
               "OreDict": "",
               "Damage": 0
@@ -60891,7 +60873,6 @@
         }
       ],
       "preRequisites": [
-        634,
         36,
         483
       ]
@@ -66193,67 +66174,67 @@
       "quests": [
         {
           "id": 627,
-          "x": 144,
+          "x": 168,
           "y": 36
         },
         {
           "id": 628,
-          "x": 144,
+          "x": 168,
           "y": 0
         },
         {
           "id": 629,
-          "x": 144,
+          "x": 168,
           "y": 72
         },
         {
           "id": 630,
-          "x": 144,
+          "x": 168,
           "y": 108
         },
         {
           "id": 631,
-          "x": 192,
+          "x": 216,
           "y": 36
         },
         {
           "id": 632,
-          "x": 192,
+          "x": 216,
           "y": 180
         },
         {
           "id": 633,
-          "x": 192,
+          "x": 216,
           "y": 72
         },
         {
           "id": 634,
-          "x": 48,
+          "x": 72,
           "y": 36
         },
         {
           "id": 635,
-          "x": 48,
+          "x": 72,
           "y": 72
         },
         {
           "id": 636,
-          "x": 48,
+          "x": 72,
           "y": 144
         },
         {
           "id": 637,
-          "x": 48,
+          "x": 72,
           "y": 108
         },
         {
           "id": 638,
-          "x": 48,
+          "x": 72,
           "y": 180
         },
         {
           "id": 665,
-          "x": 252,
+          "x": 276,
           "y": 36
         },
         {
