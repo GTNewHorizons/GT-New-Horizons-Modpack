@@ -1647,9 +1647,9 @@ Mixer.addRecipe(null, <liquid:sodiumpotassium> * 1000, [<gregtech:gt.metaitem.01
 Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregtech:gt.metaitem.01:2802> * 2], 200, 16);
 
 // --- Wet Tofu
-Mixer.addRecipe(null, <dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
+Mixer.addRecipe(null, null, <dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
 // -
-Mixer.addRecipe(null, <dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
+Mixer.addRecipe(null, null, <dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
 
 
 
