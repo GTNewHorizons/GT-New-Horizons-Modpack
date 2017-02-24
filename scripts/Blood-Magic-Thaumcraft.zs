@@ -1563,6 +1563,54 @@ mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:24
 [<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
 
+// --- Mechanists Blood Wood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:96>.withTag({cap: "MECHANIST", rod: "blood_wood"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Mechanists Blood Wood Scepter
+mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:144>.withTag({cap: "MECHANIST", rod: "blood_wood", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 150", [
+[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Mechanists Blood Wood Staff Wand
+mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:162>.withTag({cap: "MECHANIST", rod: "blood_wood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 230", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <ore:screwChrome>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+// --- Mechanists Blood Wood Staff Scepter
+mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:243>.withTag({cap: "MECHANIST", rod: "blood_wood_staff", sceptre: 1 as byte}), "aer 280, terra 280, ignis 280, aqua 280, ordo 280, perditio 280", [
+[<TwilightForest:item.carminite>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+// --- Sorjournas Blood Wood Wand
+mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:96>.withTag({cap: "SOJOURNER", rod: "blood_wood"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Sorjournas Blood Wood Scepter
+mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:144>.withTag({cap: "SOJOURNER", rod: "blood_wood", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 150", [
+[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Sorjournas Blood Wood Staff Wand
+mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:162>.withTag({cap: "SOJOURNER", rod: "blood_wood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 230", [
+[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <ore:screwChrome>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
+// --- Sorjournas Blood Wood Staff Scepter
+mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:243>.withTag({cap: "SOJOURNER", rod: "blood_wood_staff", sceptre: 1 as byte}), "aer 280, terra 280, ignis 280, aqua 280, ordo 280, perditio 280", [
+[<TwilightForest:item.carminite>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
+
 // --- Void Aspected Blood Wood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:144>.withTag({cap: "void", rod: "blood_wood"}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
 [<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedVoidWandCap>],
