@@ -270,7 +270,7 @@ recipes.remove(<StevesCarts:BlockMetalStorage:2>);
 // --- Reinforced Metal Ingot
 recipes.remove(<StevesCarts:ModuleComponents:22>);
 // -
-furnace.remove(<StevesCarts:ModuleComponents:22>);
+//furnace.remove(<StevesCarts:ModuleComponents:22>);
 
 // --- Galgadorian Metal
 recipes.remove(<StevesCarts:ModuleComponents:47>);
