@@ -8340,6 +8340,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8348,7 +8350,7 @@
               "Damage": 351
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -8634,6 +8636,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8642,7 +8646,7 @@
               "Damage": 301
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -8848,6 +8852,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8856,7 +8862,7 @@
               "Damage": 211
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -8917,6 +8923,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8925,7 +8933,7 @@
               "Damage": 291
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -8986,6 +8994,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8994,7 +9004,7 @@
               "Damage": 591
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -9057,6 +9067,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -9065,7 +9077,7 @@
               "Damage": 601
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -9126,6 +9138,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -9134,7 +9148,7 @@
               "Damage": 611
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -9195,6 +9209,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -9203,7 +9219,7 @@
               "Damage": 251
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42066,6 +42082,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -42074,7 +42092,7 @@
               "Damage": 341
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42136,6 +42154,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -42144,7 +42164,7 @@
               "Damage": 1110
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42217,6 +42237,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -42225,7 +42247,7 @@
               "Damage": 1115
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42832,6 +42854,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -42840,7 +42864,7 @@
               "Damage": 391
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42901,6 +42925,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -42909,7 +42935,7 @@
               "Damage": 361
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -42970,6 +42996,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.02",
@@ -42978,7 +43006,7 @@
               "Damage": 31343
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -42998,6 +43026,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -43006,7 +43036,7 @@
               "Damage": 32721
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43088,6 +43118,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -43096,7 +43128,7 @@
               "Damage": 2301
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -43128,6 +43160,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -43136,7 +43170,7 @@
               "Damage": 2343
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43203,6 +43237,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43211,7 +43247,7 @@
               "Damage": 371
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43272,6 +43308,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43280,7 +43318,7 @@
               "Damage": 421
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43341,6 +43379,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43349,7 +43389,7 @@
               "Damage": 241
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43410,6 +43450,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43418,7 +43460,7 @@
               "Damage": 271
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -43480,6 +43522,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43488,7 +43532,7 @@
               "Damage": 1140
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -43570,6 +43614,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -43578,7 +43624,7 @@
               "Damage": 531
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -44123,6 +44169,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -44131,7 +44179,7 @@
               "Damage": 581
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -48722,6 +48770,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -48730,7 +48780,7 @@
               "Damage": 381
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -50438,6 +50488,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -50446,7 +50498,7 @@
               "Damage": 431
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -50585,6 +50637,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -50593,7 +50647,7 @@
               "Damage": 161
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -51094,6 +51148,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -51102,7 +51158,7 @@
               "Damage": 231
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -51317,6 +51373,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "JABBA:moverDiamond",
@@ -51325,7 +51383,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -53165,6 +53223,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Expansion:projectred.expansion.emptybattery",
@@ -53173,7 +53233,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -55258,6 +55318,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -55266,7 +55328,7 @@
               "Damage": 651
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -55440,6 +55502,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -55448,7 +55512,7 @@
               "Damage": 171
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
