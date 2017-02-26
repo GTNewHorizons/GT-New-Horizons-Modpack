@@ -1122,10 +1122,16 @@ recipes.addShaped(Trapdoor * 3, [
 [<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
 
 // --- Pressure Plate
-recipes.addShapeless(<minecraft:stone_pressure_plate> * 2, [Saw, <minecraft:stone_slab>]);
+recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
+[Saw, <minecraft:stone_slab>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Wooden Pressure Plate
-recipes.addShapeless(<minecraft:wooden_pressure_plate> * 2, [Saw, <ore:slabWood>]);
+recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
+[Saw, <ore:slabWood>, null],
+[null, null, null],
+[null, null, null]]);
 
 //Glass Pane
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
