@@ -277,70 +277,80 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
   @Override
   public void onWornTick( ItemStack arg0, EntityLivingBase pEntity )
   {
-    if( !( pEntity instanceof EntityPlayer ) )
-      return;
-
-    if( arg0.getItemDamage() == 1 ) // MetaItem 0 is running this loop only
-      return;
-
-    EntityPlayer tPlayer = (EntityPlayer) pEntity;
-    InventoryBaubles tBaubles = baubles.common.lib.PlayerHandler.getPlayerBaubles( tPlayer );
-
-    if( tPlayer.isBurning() ) // no fire/lava cheat!
+    try
     {
-      RemoveFireProtection( pEntity );
-      return;
-    }
-
-    if( _mRnd.nextInt( 20 ) == 0 )
-    {
-      // Player must wear OvenGloves in both slots
-      ItemStack tBaubleRing1 = tBaubles.stackList[1];
-      ItemStack tBaubleRing2 = tBaubles.stackList[2];
-
-      if( tBaubleRing1 == null || tBaubleRing2 == null )
+      if( !( pEntity instanceof EntityPlayer ) )
+        return;
+  
+      if( arg0.getItemDamage() == 1 ) // MetaItem 0 is running this loop only
+        return;
+  
+      EntityPlayer tPlayer = (EntityPlayer) pEntity;
+      InventoryBaubles tBaubles = baubles.common.lib.PlayerHandler.getPlayerBaubles( tPlayer );
+  
+      if( tPlayer.isBurning() ) // no fire/lava cheat!
       {
-        // Log("Bauble 1 or 2 is null");
+        RemoveFireProtection( pEntity );
         return;
       }
-
-      if( tBaubleRing1.getUnlocalizedName().contains( _mItemName ) && tBaubleRing2.getUnlocalizedName().contains( _mItemName ) )
+  
+      if( _mRnd.nextInt( 20 ) == 0 )
       {
-        if( tBaubleRing1.getItemDamage() != 0 || tBaubleRing2.getItemDamage() != 1 )
+        // Player must wear OvenGloves in both slots
+        ItemStack tBaubleRing1 = tBaubles.stackList[1];
+        ItemStack tBaubleRing2 = tBaubles.stackList[2];
+  
+        if( tBaubleRing1 == null || tBaubleRing2 == null )
         {
-          if( FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT )
-          {
-            if( !WrongSidePopupShown )
-            {
-              WrongSidePopupShown = true;
-              eu.usrv.yamcore.client.Notification noti = new eu.usrv.yamcore.client.Notification( tBaubleRing1, "Wrong place", "The gloves feel weird..." );
-              NotificationTickHandler.guiNotification.queueNotification( noti );
-            }
-          }
-          // Log("Gloves in wrong spots");
+          // Log("Bauble 1 or 2 is null");
           return;
         }
-
-        if( tBaubleRing1.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 || tBaubleRing2.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 )
-          return;
-
-        ItemStack tHeldItem = tPlayer.getCurrentEquippedItem();
-        if( tHeldItem != null )
+  
+        if( tBaubleRing1.getUnlocalizedName().contains( _mItemName ) && tBaubleRing2.getUnlocalizedName().contains( _mItemName ) )
         {
-          // Update 12.01.2017: Player must hold any item containing Lava
-          if( isValidLavaContainerItem( tHeldItem ) )
+          if( tBaubleRing1.getItemDamage() != 0 || tBaubleRing2.getItemDamage() != 1 )
           {
-            tPlayer.addPotionEffect( new PotionEffect( Potion.fireResistance.id, MainRegistry.CoreConfig.PotionTimer, 0, false ) );
-
-            int tRandomDamage = _mRnd.nextInt( 10 ); // Randomly damage gloves while giving the protection effect
-
-            if( tRandomDamage == 1 )
-              DamageItem( tBaubleRing1 );
-            else if( tRandomDamage == 2 )
-              DamageItem( tBaubleRing2 );
+            if( FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT )
+            {
+              if( !WrongSidePopupShown )
+              {
+                WrongSidePopupShown = true;
+                eu.usrv.yamcore.client.Notification noti = new eu.usrv.yamcore.client.Notification( tBaubleRing1, "Wrong place", "The gloves feel weird..." );
+                NotificationTickHandler.guiNotification.queueNotification( noti );
+              }
+            }
+            // Log("Gloves in wrong spots");
+            return;
+          }
+  
+          if ( tBaubleRing1.stackTagCompound == null || tBaubleRing2.stackTagCompound == null ) // Fail-safe for cheated items...
+            return;
+          
+          if( tBaubleRing1.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 || tBaubleRing2.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 )
+            return;
+  
+          ItemStack tHeldItem = tPlayer.getCurrentEquippedItem();
+          if( tHeldItem != null )
+          {
+            // Update 12.01.2017: Player must hold any item containing Lava
+            if( isValidLavaContainerItem( tHeldItem ) )
+            {
+              tPlayer.addPotionEffect( new PotionEffect( Potion.fireResistance.id, MainRegistry.CoreConfig.PotionTimer, 0, false ) );
+  
+              int tRandomDamage = _mRnd.nextInt( 10 ); // Randomly damage gloves while giving the protection effect
+  
+              if( tRandomDamage == 1 )
+                DamageItem( tBaubleRing1 );
+              else if( tRandomDamage == 2 )
+                DamageItem( tBaubleRing2 );
+            }
           }
         }
       }
+    }
+    catch (Exception e) // Fail-safe for all future crashes
+    {
+      e.printStackTrace();
     }
   }
 }
