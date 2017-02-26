@@ -45,6 +45,10 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
 
   private static OvenGlove _mInstance = null;
 
+  private static int potionDuration = MainRegistry.CoreConfig.PotionTimer;
+  private static int potionAmplifier = 1;
+  private static boolean potionAmbient = true;
+
   public static OvenGlove Instance( String pItemName, String pCreativeTab )
   {
     if( _mInstance == null )
@@ -274,6 +278,24 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
     return tResult;
   }
 
+  private boolean isResistActive ( EntityPlayer tPlayer )
+  {
+    if( tPlayer.isPotionActive( Potion.fireResistance.id ) )
+      return true;
+    return false;
+  }
+
+  private boolean isGlovesResistActive ( EntityPlayer tPlayer )
+  {
+    if( isResistActive( tPlayer ) )
+    {
+      PotionEffect potion = tPlayer.getActivePotionEffect( Potion.fireResistance );
+      if( potion.getDuration() <= potionDuration && potion.getAmplifier() == potionAmplifier && potion.getIsAmbient() == potionAmbient )
+        return true;
+    }
+    return false;
+  }
+
   @Override
   public void onWornTick( ItemStack arg0, EntityLivingBase pEntity )
   {
@@ -290,7 +312,8 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
   
       if( tPlayer.isBurning() ) // no fire/lava cheat!
       {
-        RemoveFireProtection( pEntity );
+        if( isGlovesResistActive( tPlayer ) )
+          RemoveFireProtection( pEntity );
         return;
       }
   
@@ -322,10 +345,10 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
             // Log("Gloves in wrong spots");
             return;
           }
-  
-          if ( tBaubleRing1.stackTagCompound == null || tBaubleRing2.stackTagCompound == null ) // Fail-safe for cheated items...
-            return;
           
+          if( tBaubleRing1.stackTagCompound == null || tBaubleRing2.stackTagCompound == null ) // Cheated gloves don't have NBT tags sometimes
+            return;
+  
           if( tBaubleRing1.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 || tBaubleRing2.stackTagCompound.getInteger( NBTTAG_DURABILITY ) <= 1 )
             return;
   
@@ -335,14 +358,17 @@ public class OvenGlove extends Item implements baubles.api.IBauble, IExtendedMod
             // Update 12.01.2017: Player must hold any item containing Lava
             if( isValidLavaContainerItem( tHeldItem ) )
             {
-              tPlayer.addPotionEffect( new PotionEffect( Potion.fireResistance.id, MainRegistry.CoreConfig.PotionTimer, 0, false ) );
+              if( !isResistActive( tPlayer ) || isGlovesResistActive( tPlayer ) )
+              {
+                tPlayer.addPotionEffect( new PotionEffect( Potion.fireResistance.id, potionDuration, potionAmplifier, potionAmbient ) );
   
-              int tRandomDamage = _mRnd.nextInt( 10 ); // Randomly damage gloves while giving the protection effect
+                int tRandomDamage = _mRnd.nextInt( 10 ); // Randomly damage gloves while giving the protection effect
   
-              if( tRandomDamage == 1 )
-                DamageItem( tBaubleRing1 );
-              else if( tRandomDamage == 2 )
-                DamageItem( tBaubleRing2 );
+                if( tRandomDamage == 1 )
+                  DamageItem( tBaubleRing1 );
+                else if( tRandomDamage == 2 )
+                  DamageItem( tBaubleRing2 );
+              }
             }
           }
         }
