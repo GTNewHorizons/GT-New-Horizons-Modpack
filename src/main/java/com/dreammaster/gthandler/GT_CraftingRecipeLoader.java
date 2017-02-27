@@ -1,17 +1,19 @@
 package com.dreammaster.gthandler;
 
 import cpw.mods.fml.common.Loader;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.ToolDictNames;
+import gregtech.api.enums.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_CraftingRecipeLoader
         implements Runnable {
+    private final static String aTextRailcraft = "Railcraft";
+    private final static String aTextMachineBeta = "machine.beta";
+    private final static String aTextMachineAlpha = "machine.alpha";
+    private final String aTextForestry = "Forestry";
     public void run() {
         // ===================================================================================================
         // Casing
@@ -157,6 +159,26 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         if (Loader.isModLoaded("HardcoreEnderExpansion")) {
             long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_RECIPES_IF_SAME_NBT | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_SHAPED_RECIPES | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_NATIVE_RECIPES | GT_ModHandler.RecipeBits.ONLY_ADD_IF_THERE_IS_ANOTHER_RECIPE_FOR_IT;
             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("HardcoreEnderExpansion", "altar_nexus", 1L, 0), tBitMask, new Object[]{"DED", "EDE", "DED", 'D', new ItemStack(Items.diamond, 1), 'E', new ItemStack(Items.ender_eye, 1),});
+        }
+        if (Loader.isModLoaded("Railcraft")){
+            long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_RECIPES_IF_SAME_NBT | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_SHAPED_RECIPES | GT_ModHandler.RecipeBits.DELETE_ALL_OTHER_NATIVE_RECIPES | GT_ModHandler.RecipeBits.ONLY_ADD_IF_THERE_IS_ANOTHER_RECIPE_FOR_IT;
+
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 2L, 0), tBitMask, new Object[]{"SPS", "PsP", "SPS", 'P', OrePrefixes.plate.get(Materials.AnyIron), 'S', OrePrefixes.screw.get(Materials.AnyIron)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 1), tBitMask, new Object[]{"SPS", "PsP", "SPS", 'P', OrePrefixes.plate.get(Materials.AnyIron),  OrePrefixes.screw.get(Materials.AnyIron), 'P', new ItemStack(Blocks.glass_pane, 1, 32767)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 2), tBitMask, new Object[]{"SPS", "BsB", "SPS", 'S', OrePrefixes.screw.get(Materials.AnyIron), 'B', new ItemStack(Blocks.iron_bars, 1, 32767), 'P', OrePrefixes.pipeLarge.get(Materials.Bronze)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 3), tBitMask, new Object[]{"PPP", "ShS", "PPP", 'P', GT_ModHandler.getIC2Item("itemCasing", 1L, 4), 'S', OrePrefixes.screw.get(Materials.AnyIron)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 4), tBitMask, new Object[]{"PPP", "ShS", "PPP", 'P', GT_ModHandler.getIC2Item("itemCasing", 1L, 5), 'S', OrePrefixes.screw.get(Materials.Steel)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 5), tBitMask, new Object[]{"PCP", "BFB", "PUP", 'B', OrePrefixes.block.get(Materials.Brick), 'P', OrePrefixes.plate.get(Materials.AnyIron), 'U', OreDictNames.craftingIronFurnace, 'C', new ItemStack(Items.cauldron, 1, 32767), 'F', ItemList.Casing_Firebox_Bronze});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 6), tBitMask, new Object[]{"PCP", "BFB", "PUP", 'B', CustomItemList.SteelBars, 'P', OrePrefixes.plate.get(Materials.Steel), 'U', OreDictNames.craftingIronFurnace, 'C', new ItemStack(Items.cauldron, 1, 32767), 'F', ItemList.Casing_Firebox_Bronze});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 7), tBitMask, new Object[]{"BLB", "SPS", "GCG", 'B', OrePrefixes.plate.get(Materials.AnyCopper), 'L', OrePrefixes.plate.get(Materials.Lapis), 'S', OrePrefixes.spring.get(Materials.AnyCopper), 'P', OreDictNames.craftingPiston, 'G', OrePrefixes.gearGt.get(Materials.AnyCopper), 'C', GT_ModHandler.getModItem(aTextForestry, "sturdyMachine", 1L, 0)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 8), tBitMask, new Object[]{"BLB", "SPS", "GCG", 'B', OrePrefixes.plate.get(Materials.Steel), 'L', OrePrefixes.plate.get(Materials.Lapis), 'S', OrePrefixes.spring.get(Materials.Steel), 'P', OreDictNames.craftingPiston, 'G', OrePrefixes.gearGt.get(Materials.Steel), 'C', GT_ModHandler.getModItem(aTextForestry, "sturdyMachine", 1L, 0)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 9), tBitMask, new Object[]{"BLB", "SPS", "GCG", 'B', OrePrefixes.plate.get(Materials.Aluminium), 'L', OrePrefixes.plate.get(Materials.Lapis), 'S', OrePrefixes.spring.get(Materials.Aluminium), 'P', OreDictNames.craftingPiston, 'G', OrePrefixes.gearGt.get(Materials.Aluminium), 'C', GT_ModHandler.getModItem(aTextForestry, "sturdyMachine", 1L, 0)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 10), tBitMask, new Object[]{"PEP", "GOG", "OOO", 'P', OrePrefixes.plate.get(Materials.Obsidian), 'E', OrePrefixes.gem.get(Materials.EnderPearl), 'O', OrePrefixes.stone.get(Materials.Obsidian), 'G', OrePrefixes.plate.get(Materials.Gold), });
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 11), tBitMask, new Object[]{"SPS", "PRP", "SPS", 'S', OrePrefixes.screw.get(Materials.Steel), 'P', OrePrefixes.plate.get(Materials.Obsidian), 'R', GT_ModHandler.getModItem("ExtraUtilities", "trashcan", 1L, 0)});
+            //GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 12), tBitMask, new Object[]{"GPG", "PAP", "GPG", 'P', OreDictNames.craftingPiston, 'A', OreDictNames.craftingAnvil, 'G', GT_ModHandler.getModItem(aTextRailcraft, "part.gear", 1L, 2)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 2L, 13), tBitMask, new Object[]{"SPS", "PsP", "SPS", 'P', 'P', OrePrefixes.plate.get(Materials.Steel), 'S', OrePrefixes.screw.get(Materials.Steel)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 14), tBitMask, new Object[]{"SPS", "PsP", "SPS", 'P', OrePrefixes.plate.get(Materials.Steel),  OrePrefixes.screw.get(Materials.Steel), 'P', GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 1)});
+            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 15), tBitMask, new Object[]{"SPS", "BsB", "SPS", 'S', OrePrefixes.screw.get(Materials.Steel), 'B', CustomItemList.SteelBars, 'P', OrePrefixes.pipeLarge.get(Materials.Steel)});
         }
     }
 }
