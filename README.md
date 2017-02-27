@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.4.x.x is work in progress (xx.xx.2017)
+Version 1.4.0.x is work in progress (xx.03.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,10 +97,10 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.4.x.x --- xx.xx.2017<BR>
+## Modlist - NewHorizons 1.4.0.x --- xx.03.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta25b<BR>
+* Adventure Backpack 0.9fbeta27<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.3b<BR>
 * AFSU	1.2.3.a<BR>
@@ -130,8 +130,8 @@ mc.stonelegion.com<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.20<BR>
-* Buildcraft Compat	7.1.6<BR>
+* Buildcraft	7.1.17<BR>
+* Buildcraft Compat	7.1.5<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
 * CodeChickenCore	1.07.47<BR>
@@ -164,14 +164,14 @@ mc.stonelegion.com<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.465<BR>
-* GalacticraftCore	3.0.12.465<BR>
+* Galacticraft-Planets	3.0.12.466<BR>
+* GalacticraftCore	3.0.12.466<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.27.21<BR>
-* GT New Horizons Core Mod	1.3.18<BR>
+* Gregtech	5.09.27.27<BR>
+* GT New Horizons Core Mod	1.3.23<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -195,7 +195,7 @@ mc.stonelegion.com<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.465<BR>
+* MicdoodleCore	3.0.12.466<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -208,11 +208,11 @@ mc.stonelegion.com<BR>
 * Nodal Mechanics	1.0-13<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.5.1.738<BR>
-* Open Computers	1.6.1.11<BR>
+* Open Computers	1.6.2.12<BR>
 * Open Mods Lib	0.9.1.458<BR>
 * Open Modular Turrets 2.2.10.233<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-96<BR>
+* Open Security	1.0-99<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10lc<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -248,12 +248,12 @@ mc.stonelegion.com<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.3.1710.4<BR>
+* Thaumic Bases	1.4.1.1710.8<BR>
 * Thaumic Energistics	1.0.0.5<BR>
 * Thaumic Exploration	1.1.57<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.539<BR>
+* Thaumic Tinkerer	2.5.540<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9custom<BR>
 * Tinker's Gregworks	1.0.15<BR>
