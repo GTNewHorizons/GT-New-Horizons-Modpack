@@ -58,11 +58,11 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalIngot.getIS());
         GT_OreDictUnificator.registerOre("ingotColdMysteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalColdIngot.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.MysteriousCrystal, GT_ModHandler.getModItem("dreamcraft", "tile.MysteriousCrystal", 1L, 0));
-        GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
+        //GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
-        GT_OreDictUnificator.registerOre(OrePrefixes.gem, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
+        //GT_OreDictUnificator.registerOre(OrePrefixes.gem, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystal.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Bedrockium, GT_ModHandler.getModItem("dreamcraft", "item.BedrockiumPlate", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.BlackPlutonium, GT_ModHandler.getModItem("dreamcraft", "item.BlackPlutoniumPlate", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.BlackPlutonium, GT_ModHandler.getModItem("dreamcraft", "item.BlackPlutoniumDensePlate", 1L, 0));
@@ -110,6 +110,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 22));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Amber, GT_ModHandler.getModItem("Thaumcraft", "item.blockCosmeticOpaque", 1L, 0));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Bedrockium, GT_ModHandler.getModItem("ExtraUtilities", "bedrockiumIngot", 1L, 0));
 
