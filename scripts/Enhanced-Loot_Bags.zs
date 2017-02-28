@@ -81,14 +81,23 @@ recipes.addShapeless(<enhancedlootbags:lootbag:26>.withTag({ench: [{lvl: 3 as sh
 // --- Loot Bag (Bee Expert)
 recipes.addShapeless(<enhancedlootbags:lootbag:27>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:27>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gendustry:MutagenBucket>]);
 
-// --- Loot Bag (Bee Basic)
+// --- Loot Bag (Fast Food)
 recipes.addShapeless(<enhancedlootbags:lootbag:28>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:28>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:cake>]);
 
-// --- Loot Bag (Bee Advanced)
+// --- Loot Bag (Slow Food)
 recipes.addShapeless(<enhancedlootbags:lootbag:29>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:29>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.02:32243>]);
 
-// --- Loot Bag (Bee Expert)
+// --- Loot Bag (Haute Cuisine)
 recipes.addShapeless(<enhancedlootbags:lootbag:30>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:30>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <harvestcraft:delightedmealItem>]);
 
-// --- Loot Bag (Bee Expert)
+// --- Loot Bag (Dessert)
 recipes.addShapeless(<enhancedlootbags:lootbag:31>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:31>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <DraconicEvolution:dezilsMarshmallow>]);
+
+// --- Loot Bag (Transportation 3 Class)
+recipes.addShapeless(<enhancedlootbags:lootbag:32>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:32>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:minecart>]);
+
+// --- Loot Bag (Transportation 2 Class)
+recipes.addShapeless(<enhancedlootbags:lootbag:33>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:33>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Railcraft:track:816>.withTag({track: "railcraft:track.speed"})]);
+
+// --- Loot Bag (Transportation 1 Class)
+recipes.addShapeless(<enhancedlootbags:lootbag:34>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:34>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"})]);
