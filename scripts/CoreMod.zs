@@ -1590,15 +1590,6 @@ Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.Quanti
 // -
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumRod> * 2);
 
-// --- Mysterious Crystal Dust
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 9, <dreamcraft:tile.MysteriousCrystal>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.MysteriousCrystalPlate>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.MysteriousCrystalIngot>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 3, <dreamcraft:item.MysteriousCrystalCompressedPlate>);
-
 // --- Dust of Black Plutonium
 Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 18, <dreamcraft:item.BlackPlutoniumDensePlate>);
 // -
