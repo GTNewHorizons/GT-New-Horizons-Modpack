@@ -58,7 +58,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalIngot.getIS());
         GT_OreDictUnificator.registerOre("ingotColdMysteriousCrystal", com.dreammaster.item.ItemList.MysteriousCrystalColdIngot.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.MysteriousCrystal, GT_ModHandler.getModItem("dreamcraft", "tile.MysteriousCrystal", 1L, 0));
-        //GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
+        GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDust.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.MysteriousCrystal, com.dreammaster.item.ItemList.MysteriousCrystalDensePlate.getIS());
