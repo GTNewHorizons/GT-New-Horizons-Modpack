@@ -10174,7 +10174,7 @@
     {
       "questID": 116,
       "name": "Alloy Smelter",
-      "description": "Upgrade your Steam Alloy Smelter to a Lv one.",
+      "description": "Upgrade your Steam Alloy Smelter to a LV one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -24503,7 +24503,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?\n\n§cFire spread is disabled via config on Servers because of massive lag and world destruction.",
+      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?\n\nï¿½cFire spread is disabled via config on Servers because of massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50995,7 +50995,7 @@
     {
       "questID": 623,
       "name": "A big Meteorite",
-      "description": "The best way to get Rare Earth is to find a Ae2 Meteorit and macerate them down. Maybe you complete the Quest in the Steam Age allready found and Meteorit and store the Skystone somewhere. The dust can now be centrifuges in warious byproducts like cadmium, neodymium, ceasium, lanthan and many more.",
+      "description": "The best way to get Rare Earth is to find an AE2 Meteorite and grind them into dust. Maybe you completed the Quest in the Steam Age and stored you crushed Skystone somewhere? That dust can now be centrifuged in various byproducts like Cadmium, Neodymium, Ceasium, Lanthan, and Yttrium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51123,7 +51123,7 @@
     {
       "questID": 624,
       "name": "Basic Canner",
-      "description": "The Canning Machine being mainly used to fill Tin Cans with any kind of food, but it is useful as well by filling and emptying Tin Cells with other solid items than food, in form of dusts. It can also fill Batteries with Redstone, Cadmium, Lithium and Sodium.",
+      "description": "The Canning Machine in mainly used to fill Tin Cans with any kind of food, but it is also useful filling and emptying Tin Cells with other solid items, in form of dusts. It can also fill Batteries with Redstone, Cadmium, Lithium and Sodium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51195,8 +51195,8 @@
     },
     {
       "questID": 625,
-      "name": "Packing your Chest and Barrels",
-      "description": "Packing your chests and barrels without get all the item out first? \nNo problem make a dolly and you can carry your full chests and barrels to every place you want. Ok you get slowness 2.\n\nHint : pack your dolly chest/barrel in a Backpack.",
+      "name": "Packing up your Chest and Barrels",
+      "description": "Packing up your chests and barrels without taking all the items out first? \nNo problem make a dolly and you can carry your full chests and barrels to anywhere you want! Be warned you will get a slowness debuff so hopefully you don't have to travel far. 2.\n\nHint : Place the dolly holding your chest/barrel in a Backpack to avoid the slowness.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51320,8 +51320,8 @@
     },
     {
       "questID": 626,
-      "name": "Portable Mob spawners..? Cool",
-      "description": "Did you want to move the Spawners around and building some cool Mob Farms. No problem with the Diamond Dolly.",
+      "name": "Portable Mob spawners..? Cool!",
+      "description": "Do you want to move the Spawners around and build some cool Mob Farms. No problem with the Diamond Dolly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51777,8 +51777,8 @@
     },
     {
       "questID": 631,
-      "name": "Animal trapping",
-      "description": "Tiered for hunting some Cows, Zombies or Sheeps? Well you can build a trap and hope some Animal or Monster drops will be catch inside.",
+      "name": "Animal Trapping",
+      "description": "Tired hunting for Cows, Zombies or Sheep? Well you can build a trap and hope some Animal or Monster drops will be caught inside.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51859,7 +51859,7 @@
     {
       "questID": 632,
       "name": "Fisherman\u0027s Friend",
-      "description": "Have you ever tried to catch a fish?? Now its time to craft a fishing rod and get some fish. Cast your fishing rod in some water and wait until the rope starts moving. Then get it back and hopefully catch a fish.",
+      "description": "Have you ever tried to catch a fish with your bare hands? Its time to craft a fishing rod and get some fish the easy way. Cast your fishing rod in some water and wait until the bobber dips into the water. Then reel back in your line and hopefully you caught a fish.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51972,8 +51972,8 @@
     },
     {
       "questID": 633,
-      "name": "Fish trapping",
-      "description": "Fishing can be very boring. Why not automate it with some fish trap?",
+      "name": "Fish Trapping",
+      "description": "Fishing can be very boring. Why not automate it with some fish traps?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52061,7 +52061,7 @@
     {
       "questID": 634,
       "name": "Wheat time",
-      "description": "It\u0027s time to plant some wheat to make some Bread or prepare a wheat bait for your animal trap.",
+      "description": "It\u0027s time to plant some wheat to make some Bread or prepare grain bait for your animal trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52436,7 +52436,7 @@
     {
       "questID": 638,
       "name": "Tasty Toast",
-      "description": "Smelt your bread again and you get some Toast!? Give\u0027s you more nutrition points.",
+      "description": "Smelt your bread again and you get some Toast!? Give\u0027s you more nutrition points, and unlocks more culinary potential",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52520,7 +52520,7 @@
     {
       "questID": 639,
       "name": "Sulfuric Naphtha",
-      "description": "Another destillate you can make out of oil is sulfuric naphtha with a burn value of 40000 EU but in the Gas Turbine. ",
+      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40000 EU in the Gas Turbine. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52604,7 +52604,7 @@
     {
       "questID": 640,
       "name": "LPG",
-      "description": "Centrifuge your Refined Gas gives you LPG Gas with  burn value of 320000 EU same as Naphtha. And it is a way to get Methan.",
+      "description": "Centrifuging your Refinery Gas gives you LPG with a burn value of 320000 EU, the same as Naphtha. Also it is a way to get Methane and eventually Epichlorohydrin.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52687,7 +52687,7 @@
     {
       "questID": 641,
       "name": "Naphtha",
-      "description": "You can process sulfuric naphtha to fluid naphtha with have a burn value of 320000 EU but in the Gas Turbine.\nNaphtha is a Base product for polyethylene and polycaprolactam.",
+      "description": "You can process sulfuric naphtha to fluid naphtha which has a burn value of 320000 EU in the Gas Turbine.\nNaphtha is also a base product for polyethylene and polycaprolactam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52770,7 +52770,7 @@
     {
       "questID": 642,
       "name": "Sulfuric Gas",
-      "description": "Another destillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25000 EU.",
+      "description": "Another distillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52854,7 +52854,7 @@
     {
       "questID": 643,
       "name": "Refined Gas",
-      "description": "Refine your gas give it a better burn value of 160000 EU.",
+      "description": "Refine your gas in a Chemical Reactor to give it a better burn value of 160000 EU, and use maybe use it to make Methane.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52937,7 +52937,7 @@
     {
       "questID": 644,
       "name": "Methane",
-      "description": "First step is to distillate your Oil into light sulfuric fuel with a burn value of 40000 EU.",
+      "description": "First step is to distill your Oil into light sulfuric fuel with a burn value of 40000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53020,7 +53020,7 @@
     {
       "questID": 645,
       "name": "Glider Wings",
-      "description": "For some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea, but you will have to find some way to soften your landing first. Glider wings should be a good solution.",
+      "description": "For some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea, but you will have to find some way to soften your landing first. The Hang Glider should offer a solution.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
