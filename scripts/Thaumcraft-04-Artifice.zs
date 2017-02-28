@@ -706,26 +706,6 @@ Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmetic
 
 
 
-// --- Compressor Recipes ---
-
-
-
-// --- Block of Amber
-Compressor.addRecipe(<Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:ItemResource:6> * 4);
-
-
-
-
-// --- Macerator Recipes --- 
-
-
-
-// --- Amber Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2514> * 4, <Thaumcraft:blockCosmeticOpaque>);
-
-
-
-
 
 
 // --- Refresh Recipese --- 
