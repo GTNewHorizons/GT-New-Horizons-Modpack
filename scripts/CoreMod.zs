@@ -1562,6 +1562,8 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.Neutron
 
 // --- Mysterious Crystal Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2398>, <GalaxySpace:item.UnknowCrystal>);
+// -
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2398> * 9, <dreamcraft:item.MysteriousCrystal>);
 
 // --- Mytryl Dust
 Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.RawMytryl>);
