@@ -1052,9 +1052,6 @@ Compressor.addRecipe(<dreamcraft:tile.CallistoColdIce>, <dreamcraft:item.Callist
 // --- Block of Quantinum
 Compressor.addRecipe(<dreamcraft:tile.Quantinum>, <gregtech:gt.metaitem.01:11391> * 9);
 
-// --- Mysterious Crystal Ingot
-Compressor.addRecipe(<dreamcraft:item.MysteriousCrystalIngot>, <gregtech:gt.metaitem.01:2398>);
-
 // --- Block of Mysterious Crystal
 Compressor.addRecipe(<dreamcraft:tile.MysteriousCrystal>, <dreamcraft:item.MysteriousCrystalColdIngot> * 9);
 
