@@ -929,7 +929,7 @@ recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost
 
 // --- H.S Transition Track ---
 recipes.addShaped(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}), [
-[TitaniumScrew, Track, TitaniumScrew],
+[TitaniumScrew, HsTrack, TitaniumScrew],
 [RedAlloyPlate, StoneRailbed, RedAlloyPlate],
 [Screwdriver, HsTrack, HHammer]]);
 
