@@ -84,7 +84,6 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("cropBarley", GT_ModHandler.getModItem("Natura", "barleyFood", 1L, 0));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("ExtraUtilities", "shears", 1L, 32767));
-        GT_OreDictUnificator.registerOre("massiveBlockBedrockium", GT_ModHandler.getModItem("ExtraUtilities", "block_bedrockium", 1L, 0));
 
         GT_OreDictUnificator.registerOre("logWood", GT_ModHandler.getModItem("ForbiddenMagic", "TaintLog", 1L, 32767));
         GT_OreDictUnificator.registerOre("plankWood", GT_ModHandler.getModItem("ForbiddenMagic", "TaintPlank", 1L, 32767));
