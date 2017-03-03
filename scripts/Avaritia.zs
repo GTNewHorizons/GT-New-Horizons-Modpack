@@ -61,7 +61,7 @@ recipes.remove(<Avaritia:Resource:6>);
 recipes.remove(<Avaritia:Resource:7>);
 
 // --- Combines Singularities
-recipes.remove(<eternalsingularity:combined_singularity>);
+recipes.remove(<eternalsingularity:combined_singularity:*>);
 
 // --- Neutronen Collector
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
