@@ -2152,6 +2152,22 @@ mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 
 mods.thaumcraft.Research.addArcanePage("LUGGAGE", <OpenBlocks:luggage>);
 mods.thaumcraft.Warp.addToResearch("LUGGAGE", 1);
 
+// --- Ghost Amulet HEE
+mods.thaumcraft.Research.addResearch("GHOSTAMULET", "NEWHORIZONS", "potentia 21, auram 18, infernus 15, lucrum 12, praecantatio 12, spiritus 9, alienis 6, corpus 3", 4, 2, 4, <HardcoreEnderExpansion:ghost_amulet:1>);
+game.setLocalization("tc.research_name.GHOSTAMULET", "Ghost Amulet");
+game.setLocalization("tc.research_text.GHOSTAMULET", "[HEE] Ghost Amulet purification.");
+mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "BREWINGSTAND", false);
+mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
+mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
+mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
+game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a Multiplayer Server. Now you found a way to purified your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium  and other End Items and Ores which let you resurrect a Dragon and get some Dragon Essence.");
+mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
+[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
+"auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
+mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
+mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
+
 
 
 // --- Hiding Stuff ----
