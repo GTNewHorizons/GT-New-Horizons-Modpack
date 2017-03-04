@@ -75,6 +75,8 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.ore, Materials.Ilmenite, GT_ModHandler.getModItem("GalacticraftMars", "tile.asteroidsBlock", 1L, 4));
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.MeteoricIron, GT_ModHandler.getModItem("GalacticraftCore", "tile.gcBlockCore", 1L, 12));
 
+        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.HeeEndium, GT_ModHandler.getModItem("HardcoreEnderExpansion", "tile.endium_ingot", 1L, 0));
+
         GT_OreDictUnificator.registerOre("oreAdamantium", GT_ModHandler.getModItem("GalaxySpace", "oberonblocks", 1L, 3));
         GT_OreDictUnificator.registerOre("ingotAdamantium", GT_ModHandler.getModItem("GalaxySpace", "item.Ingots", 1L, 0));
         GT_OreDictUnificator.registerOre("oreCobalt", GT_ModHandler.getModItem("GalaxySpace", "phobosblocks", 1L, 4));
@@ -103,6 +105,8 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Salt, GT_ModHandler.getModItem("harvestcraft", "saltItem", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Wheat, GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
+
+        GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Nikolite, GT_ModHandler.getModItem("ProjRed|Core", "projectred.core.part", 1L, 56));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
