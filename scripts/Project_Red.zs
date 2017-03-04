@@ -808,7 +808,7 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>, [
 [<ore:wireGt01RedAlloy>, <IC2:itemCasing:5>, <ore:wireGt01RedAlloy>],
 [<ore:circuitGood>, <ore:plateEmerald>, <ore:circuitGood>],
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 12000 as long}), <IC2:itemCasing:5>]]);
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 18000 as long}), <IC2:itemCasing:5>]]);
 
 // --- Jetpack
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:6400>, [
@@ -1080,7 +1080,7 @@ ChemicalBath.addRecipe([<ProjRed|Transmission:projectred.transmission.wire:18> *
 
 
 // --- Block of Electrotine
-Compressor.addRecipe(<ProjRed|Exploration:projectred.exploration.stone:11>, <ProjRed|Core:projectred.core.part:56> * 9);
+Compressor.addRecipe(<ProjRed|Exploration:projectred.exploration.stone:11>, <gregtech:gt.metaitem.01:2812> * 9);
 
 // --- Electrotine
 Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:57>);
