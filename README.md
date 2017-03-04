@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.4.0.0 is work in progress (04.03.2017)
+Version pre1.4.0.0 available (04.03.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -97,7 +97,7 @@ mc.stonelegion.com<BR>
 ---
 
 
-## Modlist - NewHorizons 1.4.0.x --- xx.03.2017<BR>
+## Modlist - NewHorizons pre1.4.0.0 --- 04.03.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta27<BR>
@@ -164,8 +164,8 @@ mc.stonelegion.com<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.471<BR>
-* GalacticraftCore	3.0.12.471<BR>
+* Galacticraft-Planets	3.0.12.472<BR>
+* GalacticraftCore	3.0.12.472<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
@@ -195,7 +195,7 @@ mc.stonelegion.com<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.471<BR>
+* MicdoodleCore	3.0.12.472<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
