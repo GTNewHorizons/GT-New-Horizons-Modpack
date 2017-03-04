@@ -43743,7 +43743,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "With Hydrogen in the chemical reacotor produces some light fuel with a very high burn value of 320000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
+      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 320000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43982,7 +43982,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
+      "description": "With the Chemical reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
