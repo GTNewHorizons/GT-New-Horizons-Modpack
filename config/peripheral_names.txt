@@ -1,0 +1,18 @@
+#OpenPeripheral user-friendly names
+#class_name	user_name
+net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
+net.minecraft.tileentity.TileEntityBeacon	beacon
+net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand
+net.minecraft.tileentity.TileEntityChest	chest
+net.minecraft.tileentity.TileEntityComparator	comparator
+net.minecraft.tileentity.TileEntityDaylightDetector	daylight_detector
+net.minecraft.tileentity.TileEntityDispenser	dispenser
+net.minecraft.tileentity.TileEntityDropper	dropper
+net.minecraft.tileentity.TileEntityEnchantmentTable	enchantment_table
+net.minecraft.tileentity.TileEntityEnderChest	ender_chest
+net.minecraft.tileentity.TileEntityFlowerPot	flowerpot
+net.minecraft.tileentity.TileEntityFurnace	furnace
+net.minecraft.tileentity.TileEntityHopper	hopper
+net.minecraft.tileentity.TileEntityNote	note_block
+net.minecraft.tileentity.TileEntitySign	sign
+net.minecraft.tileentity.TileEntitySkull	skull
