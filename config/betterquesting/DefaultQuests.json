@@ -44386,7 +44386,7 @@
     {
       "questID": 557,
       "name": "NITRO!",
-      "description": "720000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your MV Diesel Engine with it. For LV Diesel Engines this Fuel is to good!",
+      "description": "720000 EU per Cell this is yes yes very good. Make some Nitro Diesel and power your MV Diesel Engine with it. For LV Diesel Engines this Fuel is to good!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53020,7 +53020,7 @@
     {
       "questID": 645,
       "name": "Glider Wings",
-      "description": "For some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea, but you will have to find some way to soften your landing first. The Hang Glider should offer a solution.",
+      "description": "If for some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea would be to find a way to soften your landing first. The Hang Glider should do just fine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53287,7 +53287,7 @@
     {
       "questID": 647,
       "name": "Electrotine Jetpack",
-      "description": "Your glider gets you to the ground safely but it isn\u0027t  does not have a way to get up. After you researched Electrotine you discovered that it is a powerful enough energy source for your first Jetpack.\nA Diamond Chestplate surrounded with 4 Electrotine Batteries are Powerful enough for bring you up in the air.\n\nIt does not have a hover mode so you better take your Glider with you.  This jetpack can\u0027t fly higher than Y 128.",
+      "description": "Your glider gets you to the ground safely but it does not have any method to get up. After you researched Electrotine you discovered that it is powerful enough for your first Jetpack.\nA Diamond Chestplate surrounded with 4 Electrotine Batteries is Powerful enough to bring you up in the air.\n\nIt does not have a hover mode so you better take your Glider with you.  This jetpack can\u0027t fly higher than Y 128.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53416,7 +53416,7 @@
     {
       "questID": 648,
       "name": "Refill your Jetpack",
-      "description": "GREAT.... you now have an empty jetpack.\nYou need 25 Electrotine Dust to completely fill it.\nLet\u0027s craft an Electrotine Generator and a Charging Bench to use the power of Electrotine. \nYou very quickly discover that, while it is fast and cheap, it\u0027s empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.",
+      "description": "GREAT.... you now have an empty jetpack.\nYou need 25 Electrotine Dust to completely fill it.\nLet\u0027s craft an Electrotine Generator and a Charging Bench to use the power of Electrotine. \nYou will very quickly discover that, while it is fast and cheap, it\u0027s empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53526,7 +53526,7 @@
     {
       "questID": 649,
       "name": "Steam Jetpack",
-      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the adventure Backpacks Action-Key to start it.",
+      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the Adventure Backpacks Action-Key to start it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53711,7 +53711,7 @@
     {
       "questID": 650,
       "name": "Copter Jetpack",
-      "description": "The Copter Jetpack is the first jetpack with a hover mode. It using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can switch between hover and normal mode.",
+      "description": "The Copter Jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can also switch between hover and normal mode.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53945,7 +53945,7 @@
     {
       "questID": 651,
       "name": "Electric Jetpack",
-      "description": "Your first electrical Jetpack. You need to hit the IC2 Mode-Switch Key to toggle between normal mode and hover mode.\n \nThe Only limitation is that you can\u0027t fligh higher than Y ~185.",
+      "description": "Your first electrical Jetpack. You need to hit the IC2 Mode-Switch Key to toggle between normal mode and hover mode.\n\nThe Only limitation is that you can\u0027t fligh higher than Y ~185.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54075,7 +54075,7 @@
     },
     {
       "questID": 652,
-      "name": "Biogas Jetpack",
+      "name": "Fueled Jetpack",
       "description": "This jetpack uses IC2 Biogas and can fly up to Y Level 245.\nYou can switch between hover and normal Mode using the IC2 Mod-Switch Key.\n\nYour Jetpack can be (re-)filled in the IC2 Fluid Canner with 30 Buckets/Cells worth of biogas.",
       "isMain": false,
       "isSilent": false,
@@ -54203,7 +54203,7 @@
     {
       "questID": 653,
       "name": "Advanced Electric Jetpack",
-      "description": "The Advanced Electric Jetpack is an upgraded version of the Electric Jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the Advanced Lappack from its 3,000,000 EU internal storage.\n\nThe Advanced Electric Jetpack is limited to a maximum flying height of 256 meters (blocks) above the bedrock layer.",
+      "description": "The Advanced Electric Jetpack is an upgraded version of the Electric Jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the Advanced Lappack from its 3,000,000 EU internal storage.\n\nThe Advanced Electric Jetpack is limited to a maximum flying height of 256 meters above the bedrock layer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54469,7 +54469,7 @@
     {
       "questID": 655,
       "name": "Gravi Suit",
-      "description": "The Gravichestplate is the Ultimate Quantum Armor combined with a high powered Jetpack. You can enable an Electrostatic Shield that will surround you. This absorbs all damage you get from Mobs, Lava and potion Effects.",
+      "description": "The Gravi chestplate is the Ultimate Quantum Armor combined with a high powered Jetpack. It also has hidden features that you need to discover while wearing the whole Quantum armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54599,7 +54599,7 @@
     {
       "questID": 656,
       "name": "Iron Shields",
-      "description": "You are using your Hiding Shield long enought. After you making your fisrt Tools and grab a bit Iron Ore you can make a better Iron Shield.",
+      "description": "You are using your Hide Shield long enough. After you making your first Tools grab a bit of Iron Ore and make a better Iron Shield.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54707,7 +54707,7 @@
     {
       "questID": 657,
       "name": "Stone Spear",
-      "description": "Upgrade your Wooden Spear with an Stone Arrowhead and iron screws to an Stone Spear.\nThis Spear have a better durability.",
+      "description": "Upgrade your Wooden Spear with a Stone Arrowhead and iron screws to a Stone Spear.\nThis Spear has better durability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54816,7 +54816,7 @@
     {
       "questID": 658,
       "name": "Iron Spear",
-      "description": "Upgrade your Wooden Spear with an Iron Arrowhead and two Steel screws to an Iron Spear. \nThe Iron Spear have a better durability then the Stone variant.",
+      "description": "Upgrade your Wooden Spear with an Iron Arrowhead and two Steel screws to an Iron Spear. \nThe Iron Spear has better durability then the Stone variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54925,7 +54925,7 @@
     {
       "questID": 659,
       "name": "Diamond Spear",
-      "description": "At MV Tier you can upgrade your Iron Spear. Get some Diamond Arrowhead, two Stainless Steel screws and a wooden spear.\nThis Spear have a Tool durability from 1561.",
+      "description": "At MV Tier you can upgrade your Iron Spear to Diamond one. Get a Diamond Arrowhead, two Stainless Steel screws and a wooden spear.\nThis Spear has superior durability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55036,7 +55036,7 @@
     {
       "questID": 660,
       "name": "Diamond Shield",
-      "description": "Your Iron Shield got to very old. Why to crafting some Shield out of Diamond plates?\nYou can hold a Block up to 5 seconds.",
+      "description": "Your Iron Shield got very old. With a shield made from diamond plates you can maintain Block up to 5 seconds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55153,7 +55153,7 @@
     {
       "questID": 661,
       "name": "Bow, Arrows and Quiver",
-      "description": "Wow your first Handmade ehm machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it0027s time to make some Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
+      "description": "Wow your first handmade *ehm* machine made Bow. You find out that you can put the Bow in the Mine and Blade Battlegears slots. Now it0027s time to make a Quiver and Maybe some Arrows. You can put up to 4 Stacks of Arrows in your Quiver.\n\nLet\u0027s go hunt a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55293,7 +55293,7 @@
     {
       "questID": 662,
       "name": "Basic Arc Furnace",
-      "description": "The Arc Furnace is an alternative to smelting stuff back into components or to make Wrought Iron. The recipes using Oxygen and 3 amps of power.",
+      "description": "The Arc Furnace is an alternative to smelting stuff back into components and making Wrought Iron. The recipes use Oxygen and 3 Amperes of power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55364,7 +55364,7 @@
     {
       "questID": 663,
       "name": "Faster Steel Production",
-      "description": "A faster alternative to make Steel is to using the Arc Furnace and smelt iron Ingots into Wrought Iron Ingots. Then macerate them to dust and smelt them very fast in The EBF to Steel.",
+      "description": "A faster alternative to Steel production is to use the Arc Furnace and smelt the Iron Ingots into Wrought Iron Ingots. Then macerate them to dust and smelt them very fast in The EBF to Steel. (Some might even dare arc furnacing the dust itself...)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55477,7 +55477,7 @@
     {
       "questID": 664,
       "name": "LV Battery Buffer 4 Slots",
-      "description": "Upgrade your Battery buffer to hold 4 Batteries with an max 4 amp output.\nUseful for your EBF and the Arc Furnace.",
+      "description": "Upgrade your Battery buffer to hold 4 Batteries which allows max 4 Ampere output.\nUseful for your EBF and the Arc Furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55548,7 +55548,7 @@
     {
       "questID": 665,
       "name": "Kitchenware",
-      "description": "To cooking some healthy Food you need a few Tools to craft first.\nSauce Pan, \nPot, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Mallet, \nSkillet, \nKnife.",
+      "description": "To cook some healthy Food you need a few Tools crafted first.\nSaucepan, \nPot, \nRolling Pin, \nMortar, \nMixing Bowl, \nSoft Mallet, \nSkillet, \nKnife...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55678,8 +55678,8 @@
     },
     {
       "questID": 666,
-      "name": "Row row row your Boat",
-      "description": "You live close to the Water and don\u0027t have a Boat?\nYou need Wooden Planks, Slabs and a Knife to craft one.",
+      "name": "Row, row, row your Boat",
+      "description": "You live close to the Water and don\u0027t have a Boat?\nYou need Wooden Planks, Slabs and a Knife to craft one. (This is also quest id 666, be sure that something is going on)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55766,7 +55766,7 @@
     {
       "questID": 667,
       "name": "On the Rail",
-      "description": "The Wooden Track are the first Track you can make without any machine. Functionally equivalent to normal rails, only with a lower maximum speed (for safety reasons).",
+      "description": "The Wooden Tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55944,7 +55944,7 @@
     {
       "questID": 668,
       "name": "Rubber Boat",
-      "description": "The Rubber Dinghy  requiring only a few Rubber Plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a Damaged Rubber Dinghy, which can be re-crafted with two  pieces of Rubber back into a useable Rubber Dinghy!",
+      "description": "The Rubber Dinghy requires only a few Rubber Plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a Damaged Rubber Dinghy, which can be re-crafted with two pieces of Rubber back into a useable Rubber Dinghy!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56032,8 +56032,8 @@
     },
     {
       "questID": 669,
-      "name": "Inflatable Boat",
-      "description": "The Inflatable Boot  is the first Boot that don\u0027t break on impact. ",
+      "name": "Inflatable Boot",
+      "description": "I meant to say boat... The Inflatable Boat is the first Boot that don\u0027t break on impact.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56122,7 +56122,7 @@
     {
       "questID": 670,
       "name": "Carbon Fiber Boat",
-      "description": "Unlike all other boats, the amazing Carbon Fiber Canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the Carbon Fiber Canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damaged caused by riding the Carbon Fiber Canoe into a Lava Lake or the Void.",
+      "description": "Unlike all other boats, this amazing Carbon Fiber Canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the Carbon Fiber Canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damage caused by riding the Carbon Fiber Canoe into a Lava Lake or the Void.\n\n*Therefore, warrinty NOT included.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56211,7 +56211,7 @@
     {
       "questID": 671,
       "name": "Electric Boat",
-      "description": "The Electric Boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will helpfully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we give it some powerful power? Wearing an energy storage device in your chestplate slot, like a Batpack or Energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a measly Batpack will last you 600 blocks!",
+      "description": "The Electric Boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a Batpack or Energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent Batpack will not last long!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56315,8 +56315,8 @@
     },
     {
       "questID": 672,
-      "name": "Boat Shape ??",
-      "description": "Boat Shape?? Yes for the more advanced Boots you need a new Shape Form.",
+      "name": "Boat Shape?",
+      "description": "Really? Yes for the more advanced Boats you need a new Shape Form.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56414,7 +56414,7 @@
     {
       "questID": 673,
       "name": "LV Extruder",
-      "description": "The Extruder haven\u0027t much useful recipes in LV Age. But it extrude your next Tier of Boots.",
+      "description": "The Extruder not much useful in LV Age. But it extrude your next Tier of Boat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56483,7 +56483,7 @@
     {
       "questID": 674,
       "name": "Wooden Rail variants",
-      "description": "The Wooden Junction, Wye and Switch Track need an Assembler to craft. With you switch you are able to gate Trains to different Locations.",
+      "description": "The Wooden Junction, Wye and Switch Track need an Assembler to craft. Wthey allow to join and switch tracks going to different Locations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56600,7 +56600,7 @@
     {
       "questID": 675,
       "name": "Switch Lever",
-      "description": "The Switch Lever is the manual version of the Switch Motor, requiring a player to operate it instead of a redstone signal. \nThis is used in various signaling systems, mainly to change the way Switch Tracks and Wye Tracks work.",
+      "description": "The Switch Lever is the manual version of the Switch Motor, requiring a player to operate it instead of a redstone signal. \nIt is used in various signaling systems, mainly to change the way Switch Tracks and Wye Tracks work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56685,7 +56685,7 @@
     {
       "questID": 676,
       "name": "Crowbar",
-      "description": "The Crowbar comes in a Railcraft and a Gregtech variant. It is used for manipulating machines from Railcraft, remove Plates, and Machines covers (Pumps, Conveyor belts) from Gregtech Pipes as well as breaking certain objects faster, such as Tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe Crowbar can be used as a weapon, though it costs twice as much durability on attack.",
+      "description": "The Crowbar comes in a Railcraft and a Gregtech variant. It is used to manipulate machines from Railcraft, remove Plates and any other covers (Pumps, Conveyor belts, etc.) from Gregtech Pipes and Machines as well as breaking certain objects faster, such as Tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe Crowbar can be used as a weapon, though it costs twice as much durability on attack (Just like any other non weapon tool...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56768,7 +56768,7 @@
     {
       "questID": 677,
       "name": "Minecart",
-      "description": "After you craft your first Cart the Journey can begin.....\nNo you need some Tracks first.",
+      "description": "After you craft your first Cart the Journey can begin...\nWell, not really you need some Tracks first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56903,7 +56903,7 @@
     {
       "questID": 678,
       "name": "Fast Food \u003e Slow Food",
-      "description": "Three Fast Food Lootbags give a better one \u003d Slow Food Lootbag.",
+      "description": "Three Fast Food Lootbags give a better one \u003d Slow Food Lootbag. (Since when Slow Food is better?)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66211,7 +66211,7 @@
     },
     {
       "name": "Armor\u0027s and Jetpack\u0027s",
-      "description": "Guide you through the Tiers which Armour or Jetpack can be made.",
+      "description": "Guiding you through the Armous or Jetpacs.",
       "quests": [
         {
           "id": 645,
@@ -66393,7 +66393,7 @@
     },
     {
       "name": "Transportation",
-      "description": "All kind of Transportation Boat, Ride, Rail and Space",
+      "description": "All kinds of Transportation means",
       "quests": [
         {
           "id": 666,
