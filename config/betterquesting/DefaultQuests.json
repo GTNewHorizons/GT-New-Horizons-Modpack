@@ -10174,7 +10174,7 @@
     {
       "questID": 116,
       "name": "Alloy Smelter",
-      "description": "Upgrade your Steam Alloy Smelter to a LV one.",
+      "description": "Upgrade your Steam Alloy Smelter to LV one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43743,7 +43743,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "With the chemical reactor and Hydrogen you can produce some light fuel with a very high burn value of 320000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
+      "description": "With Hydrogen in Chemical reactor can produce some light fuel with a very high burn value of 320000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT or Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43982,7 +43982,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the Chemical reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
+      "description": "With Hydrogen in Chemical reactor can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57198,8 +57198,8 @@
     },
     {
       "questID": 683,
-      "name": "Muddy Armor",
-      "description": "If you don\u0027t have any armor a \"Mud Armor\" is better nothing. Mud can be found in some wet Biomes.",
+      "name": "Wet dirt armor?",
+      "description": "If you don\u0027t have any armor \"Mud Armor\" is better nothing. Mud can be found in some wet Biomes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57313,7 +57313,7 @@
     {
       "questID": 684,
       "name": "Wooden Armor",
-      "description": "If you can\u0027t find Mud you can make a very poor Armor out of Wood. Cutting down some Threes and Build some. You need a Soft Mallet for it.",
+      "description": "If you can\u0027t find Mud you can make a very poor Armor out of Wood. Cutting down like three trees to make a set should do. You will need Soft Mallet too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57427,7 +57427,7 @@
     {
       "questID": 685,
       "name": "Armor 2.0",
-      "description": "A Iron Armor is much better than the Leather Armor. Especially when you go outside at night.",
+      "description": "Iron Armor is much better than the Leather Armor. Especially when you go outside at night.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57542,7 +57542,7 @@
     {
       "questID": 686,
       "name": "Leather Armor",
-      "description": "Killing some Cows give you enough Leather to craft a complete Set of Leather Armor. \nHint : You can dye your Armor.",
+      "description": "Killing some Cows will give you enough Leather to craft a complete Set of Leather Armor. \nHint: You can dye this Armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57736,7 +57736,7 @@
     {
       "questID": 687,
       "name": "Bronze Armor",
-      "description": "Bronze Armor have the same Abilities then Iron Armor. Same durability, Same protection and enchant ability.",
+      "description": "Bronze Armor have the same Abilities as Iron Armor. Same durability, Same protection and enchantment capability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57851,7 +57851,7 @@
     {
       "questID": 688,
       "name": "\"Nice to have\" Armor",
-      "description": "The Gold Armor is a \"nice to heave\" Armor. The durability is very low but you look very nice when you wear it.",
+      "description": "The Gold Armor is a \"nice to heave\" Armor. The durability is very low but you look expensive when you wear it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57966,7 +57966,7 @@
     {
       "questID": 689,
       "name": "\"Oh Shiny\" Armor",
-      "description": "Diamond Armor are the best Armor in Vanilla Minecraft. Not anymore there are much better Armors available soon.",
+      "description": "Diamond Armor is the best Armor in Vanilla Minecraft, but not anymore there are much better Armors available.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58331,7 +58331,7 @@
     {
       "questID": 692,
       "name": "Composite Vest",
-      "description": "Combining the strength from  Advanced Alloy Plates with the Steel Chestplate make your Vest very hard. Now you have double the durability and increase the Armor Points by 1,5.",
+      "description": "Combining the strength of Advanced Alloy Plates with the Steel Chestplate make your Vest very hard. Now you have double the durability and increased Armor Points by 1,5.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58446,7 +58446,7 @@
     {
       "questID": 693,
       "name": "Fallen from the Sky",
-      "description": "There are Big Meteors everywhere and you wondering why you need to mine them now?\nWell Skystone are a good source for rare Earth metals in the LV Age. Inside the Meteor you can find a Shystone Chest contains some Forms for Applied Energistics Chipsets. Saving the Forms for later they becomes more important.",
+      "description": "There are Big Meteors everywhere and you are wondering why you need to mine them now?\nWell Skystone is a good source for rare Earth metals in the LV Age. \nInside the Meteor you can find a Skystone Chest containing some Processor Press Plates. Save them for later they will be really important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58571,8 +58571,8 @@
     },
     {
       "questID": 694,
-      "name": "One Anvil ...? better Two",
-      "description": "With your brand-new Compressor you are able to make some Metal Blocks for your new Anvil. Better craft two for the Forge Hammer one more.\n \nWith the Anvil you can repair Armor and Tools or add Enchanted Books to Armor and Tools.\n",
+      "name": "One Anvil... better Two!",
+      "description": "With your brand-new Compressor you are able to make some Metal Blocks for your new Anvil. Better craft two anvils, one will be required for the forge hammer.\n\nWith the Anvil you can repair, rename and enchant Armor and Tools.\n",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -58674,7 +58674,7 @@
     {
       "questID": 695,
       "name": "Automation Tier 1",
-      "description": "Want to automate your Smelter because you are planning to make 100 Glass Blocks? \nNo problem craft a large Bronze Pipe and placed it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basin/Table.\nA Hopper and a Chest underneath would be good to auto-output items.",
+      "description": "Do you want to automate your Smeltery because you are planning to make stacks of Glass Blocks? \nNo problem, craft a large Bronze Pipe and place it under the Faucet. Now the molten Fluid will flow inside the pipe. Under the pipe you have to place the Casting Basins or Tables.\nA Hopper and a Chest underneath would be good to auto-output products.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58803,7 +58803,7 @@
     {
       "questID": 696,
       "name": "Automation Tier 2",
-      "description": "You want a better Automation then using the Pipe? Sure craft some Comparator and link it in a square with redstone dust placing on the Ground. The Redstone needs to be close to the faucet to activate the crafting process.",
+      "description": "You want a better Automation than using Pipes? Sure, craft a Comparator and link it with redstone dust placed on the Ground. The Redstone needs to be adjent to the faucet to activate the crafting process.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58893,7 +58893,7 @@
     {
       "questID": 697,
       "name": "2x Steel",
-      "description": "Steel production is so slow. If you got enough Copper build a second BBF. You can share the Walls and need less Bronze",
+      "description": "Steel production is so slow. If you got enough Copper build a second BBF. They can share the Walls.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59062,7 +59062,7 @@
     {
       "questID": 698,
       "name": "4x Steel",
-      "description": "Not even two BBFs are fast enough. Bulding two more and share the walls again for less Bronze Pletes.",
+      "description": "Not even two BBFs are fast enough...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59231,7 +59231,7 @@
     {
       "questID": 699,
       "name": "Why one coke oven when you can have ten",
-      "description": "Your Bronze Blast Furnace using coal like hell and your Steam Boiler too? Well it\u0027s time to make more Coke Ovens and automate it a bit. Wooden Fluid Pipes and Tin Item Pipes will help you reach your Goal.",
+      "description": "Your Bronze Blast Furnace uses coal like hell and your Steam Boiler too? Well it\u0027s time to make more Coke Ovens and automate them a bit. Wooden Fluid Pipes and Tin Item Pipes will help you reach your Goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59754,7 +59754,7 @@
     {
       "questID": 705,
       "name": "Accelerated plant growth",
-      "description": "Plants grow very slowly, you might\u0027 ve discovered that by now. So why you don\u0027t counter that? A watering can will come in handy very soon.",
+      "description": "Plants grow very slowly, you might\u0027ve discovered that by now. So why you don\u0027t counter that? A watering can will come in handy very soon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60092,7 +60092,7 @@
     {
       "questID": 710,
       "name": "Tier 4 runes",
-      "description": "You will want both runes. Rune of superior capacity to increase the storage of your blood altar, and rune of the orb. Later it is required if you want to advance to higher.",
+      "description": "You will want both runes. Rune of superior capacity to increase the storage of your blood altar, and rune of the orb. Later it is required if you want to advance to higher levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60665,7 +60665,7 @@
     {
       "questID": 716,
       "name": "Find some Quartz",
-      "description": "The Nether is full of different Kind of Quartz. Go and find some Quartzite and Certus Quartz Vein. The Vein is located between Y Level 40-80.",
+      "description": "The Nether is full of different Kinds of Quartz. Go and find Quartzite and Certus Quartz Vein. It is located between Y Level 40-80.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -60783,7 +60783,7 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good Circuit are better than Basic ones. The  Circuit is a component of all Medium Voltage Greg Tech machines.",
+      "description": "Good Circuit are better than Basic ones. They are a components of all Medium Voltage Greg Tech machines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60882,7 +60882,7 @@
     {
       "questID": 718,
       "name": "Crops Breeding",
-      "description": "If you ever want to know how crop Breeding works you are right here. Get you some Crop Sticks and some seeds you get from farming it with a Hoe or Mattock.\nMake a 3 x 3 Tilled Dirt with your Hoe and make  Water in the middle. Make sure the area is well lit and quite big. \nNow placing crop stick on each corner of the field. Then placing the Seeds on the sticks and wait a bit.\nIf they fully grown you can put 2 Crop sticks crossed in the Middle on East, South, West and North Side of the field.\nWith some luck you get a new unknown seed which can be scanned later.\nWeed needs to be removed with a Weed trowel otherwise your field will overgrown by it and the other plats get destroyed.",
+      "description": "If you ever wanted to know how crop Breeding works you are in right place. Get some Crop Sticks and some seeds from farming with a Hoe or Mattock.\nMake a 3 x 3 Farmland with your tool and place Water in the middle. Make sure the area is well lit and quite big. \nNow place crop stick on each corner of the field. Then placing the Seeds on the sticks and wait a bit.\nIf they fully grown you can put double Crop sticks in the remaining spots.\nWith some luck you might get a new unknown seed which can be scanned later.\nWeed needs to be removed with a trowel otherwise your field will get overgrown by it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
