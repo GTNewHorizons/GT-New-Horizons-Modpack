@@ -214,6 +214,9 @@ recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
 // --- ME Security Terminal
 recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
 
+// --- Creative Energy Cell
+recipes.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
+
 
 
 // --- Items ---
@@ -1132,6 +1135,49 @@ recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
 [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
  
+
+// --- Avaritia Recipes ---
+
+
+
+
+// --- Creative ME Cell
+//mods.avaritia.ExtremeCrafting.addShaped(<appliedenergistics2:item.ItemCreativeStorageCell>, [
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, <ore:plateNeutronium>, null, null, null, null],
+//[null, null, null, <ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>, null, null, null],
+//[null, null, <ore:plateNeutronium>, <extracells:storage.component:3>, <ore:ingotInfinity>, <extracells:storage.component:3>, <ore:plateNeutronium>, null, null],
+//[null, <ore:plateNeutronium>, <extracells:storage.component:3>, <ore:ingotInfinity>, <extracells:storage.casing>, <ore:ingotInfinity>, <extracells:storage.component:3>, <ore:plateNeutronium>, null],
+//[null, null, <ore:plateNeutronium>, <extracells:storage.component:3>, <ore:ingotInfinity>, <extracells:storage.component:3>, <ore:plateNeutronium>, null, null],
+//[null, null, null, <ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>, null, null, null],
+//[null, null, null, null, <ore:plateNeutronium>, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
+
+// --- Creative Essentia Cell
+//mods.avaritia.ExtremeCrafting.addShaped(<thaumicenergistics:storage.essentia:4>, [
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, <ore:plateNeutronium>, null, null, null, null],
+//[null, null, null, <ore:plateNeutronium>, <thaumicenergistics:storage.component:3>, <ore:plateNeutronium>, null, null, null],
+//[null, null, <ore:plateNeutronium>, <thaumicenergistics:storage.component:3>, <ore:ingotInfinity>, <thaumicenergistics:storage.component:3>, <ore:plateNeutronium>, null, null],
+//[null, <ore:plateNeutronium>, <thaumicenergistics:storage.component:3>, <ore:ingotInfinity>, <thaumicenergistics:storage.casing>, <ore:ingotInfinity>, <thaumicenergistics:storage.component:3>, <ore:plateNeutronium>, null],
+//[null, null, <ore:plateNeutronium>, <thaumicenergistics:storage.component:3>, <ore:ingotInfinity>, <thaumicenergistics:storage.component:3>, <ore:plateNeutronium>, null, null],
+//[null, null, null, <ore:plateNeutronium>, <thaumicenergistics:storage.component:3>, <ore:plateNeutronium>, null, null, null],
+//[null, null, null, null, <ore:plateNeutronium>, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
+
+// --- Creative Energy Cell
+mods.avaritia.ExtremeCrafting.addShaped(<appliedenergistics2:tile.BlockCreativeEnergyCell>, [
+[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <ore:blockCosmicNeutronium>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <ore:ingotInfinity>],
+[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>]]);
+
+
 
 
 // --- Alloy Smelter Recipes ---

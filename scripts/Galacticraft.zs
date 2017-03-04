@@ -172,6 +172,9 @@ recipes.remove(<GalacticraftCore:tile.enclosed:1>);
 // --- Sealable Aluminium Wire
 recipes.remove(<GalacticraftCore:tile.enclosed:14>);
 
+// --- Sealable ME Wire
+recipes.remove(<GalacticraftCore:tile.enclosed:13>);
+
 // --- Sealable heavy Aluminium Wire
 recipes.remove(<GalacticraftCore:tile.enclosed:15>);
 
@@ -639,6 +642,12 @@ recipes.addShaped(<GalacticraftCore:tile.enclosed:1>, [
 [HHammer, OxygenPipe, null],
 [OxygenPipe, TinDecoBlock, OxygenPipe],
 [null, OxygenPipe, File]]);
+
+// --- Sealable ME Wire
+recipes.addShaped(<GalacticraftCore:tile.enclosed:13>, [
+[HHammer, <appliedenergistics2:item.ItemMultiPart:11>, null],
+[<appliedenergistics2:item.ItemMultiPart:11>, TinDecoBlock, <appliedenergistics2:item.ItemMultiPart:11>],
+[null, <appliedenergistics2:item.ItemMultiPart:11>, File]]);
 
 // --- Sealable Aluminium Wire
 recipes.addShaped(<GalacticraftCore:tile.enclosed:14>, [
@@ -1578,7 +1587,7 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11028>], [<GalacticraftMars:ite
 
 
 // --- Bacterial Sludge dublication
-Brewery.addRecipe(<liquid:binnie.bacteria> * 750, <dreamcraft:item.MysteriousCrystalDust>, <liquid:bacterialsludge> * 500, false);
+Brewery.addRecipe(<liquid:binnie.bacteria> * 750, <gregtech:gt.metaitem.01:2398>, <liquid:bacterialsludge> * 500, false);
 
 
 

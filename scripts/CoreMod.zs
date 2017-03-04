@@ -991,11 +991,6 @@ Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <a
 // --- Compressed Lead-Nickel Plate
 Assembler.addRecipe(<dreamcraft:item.LeadNickelPlate> * 2, <GalaxySpace:item.CompressedPlates:3>, <GalaxySpace:item.CompressedPlates:6>, <liquid:ic2coolant> * 2000, 600, 1024);
 
-// --- Wet Tofu
-Assembler.addRecipe(<dreamcraft:item.WetTofu>, <harvestcraft:soybeanItem>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 100, 600, 2);
-// -
-Assembler.addRecipe(<dreamcraft:item.WetTofu>, <harvestcraft:soybeanItem>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ic2distilledwater> * 50, 300, 4);
-
 // --- Compressed Oxygen
 Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <IC2:itemFluidCell>, <gregtech:gt.integrated_circuit:16> * 0, <liquid:oxygen> * 16000, 1200, 120);
 
@@ -1013,9 +1008,9 @@ Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedn
 
 
 // --- Mysterious Crystal Shards
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:water> * 1000, 9000, 3600, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 9000, 3600, 480);
 // -
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <dreamcraft:item.MysteriousCrystalDust>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
 
 // --- Bio Fiber
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
@@ -1056,9 +1051,6 @@ Compressor.addRecipe(<dreamcraft:tile.CallistoColdIce>, <dreamcraft:item.Callist
 
 // --- Block of Quantinum
 Compressor.addRecipe(<dreamcraft:tile.Quantinum>, <gregtech:gt.metaitem.01:11391> * 9);
-
-// --- Mysterious Crystal Ingot
-Compressor.addRecipe(<dreamcraft:item.MysteriousCrystalIngot>, <dreamcraft:item.MysteriousCrystalDust>);
 
 // --- Block of Mysterious Crystal
 Compressor.addRecipe(<dreamcraft:tile.MysteriousCrystal>, <dreamcraft:item.MysteriousCrystalColdIngot> * 9);
@@ -1569,7 +1561,9 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1083> * 2, <dreamcraft:item.OsmiumI
 Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.NeutroniumItemCasing>);
 
 // --- Mysterious Crystal Dust
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <GalaxySpace:item.UnknowCrystal>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2398>, <GalaxySpace:item.UnknowCrystal>);
+// -
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2398> * 9, <dreamcraft:item.MysteriousCrystal>);
 
 // --- Mytryl Dust
 Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.RawMytryl>);
@@ -1594,15 +1588,6 @@ Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumP
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.QuantinumCompressedPlate>);
 // -
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumRod> * 2);
-
-// --- Mysterious Crystal Dust
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 9, <dreamcraft:tile.MysteriousCrystal>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.MysteriousCrystalPlate>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust>, <dreamcraft:item.MysteriousCrystalIngot>);
-// -
-Macerator.addRecipe(<dreamcraft:item.MysteriousCrystalDust> * 3, <dreamcraft:item.MysteriousCrystalCompressedPlate>);
 
 // --- Dust of Black Plutonium
 Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 18, <dreamcraft:item.BlackPlutoniumDensePlate>);
@@ -1650,6 +1635,11 @@ Mixer.addRecipe(null, <liquid:sodiumpotassium> * 1000, [<gregtech:gt.metaitem.01
 
 // --- Bio Ball
 Mixer.addRecipe(<dreamcraft:item.BioBall>, [<IC2:itemFuelPlantBall> * 16, <gregtech:gt.metaitem.01:2802> * 2], 200, 16);
+
+// --- Wet Tofu
+Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:water> * 100, 600, 2);
+// -
+Mixer.addRecipe(<dreamcraft:item.WetTofu>, null, [<harvestcraft:soybeanItem>], <liquid:ic2distilledwater> * 50, 300, 4);
 
 
 
@@ -2080,9 +2070,9 @@ mods.thaumcraft.Research.setSpikey("WARPWARNING", true);
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.1");
 game.setLocalization("WARPTHEORY.research_page.WARPWARNING.1", "Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... As of version 4.2, that price is represented by Warp: A corruption of the characters mind and soul, inflicting progressively more dire effects upon them. While the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge, and the monsters that appear before you leave remains behind?");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.2");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.2", "Warp Theory add a bunch of new Warp Effects to the Player. Be very carful because you don't want autospawning an Wither in or bside you Base<BR>Warp Effects are Trickert by Warp Level<BR>Fake explosion warp effect can happen with 10 Warp<BR>Fake creeper warp effect can happen with 10 Warp<BR>Rain warp effect can happen with 12 Warp<BR>Spawn bats can happen with 15 Warp<BR>Poison warp effect can happen with 16 Warp");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.2", "Warp Theory add a bunch of new Warp Effects to the Player. Be very carful because you don't want autospawning an Wither in or bside you Base<BR>Warp Effects are Trickert by Warp Level<BR>Fake explosion warp effect can happen with 10 Warp<BR>Fake creeper warp effect can happen with 10 Warp<BR>Spawn bats can happen with 15 Warp<BR>Poison warp effect can happen with 16 Warp<BR>Jump boost warp effect can happen with 18 Warp");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.3");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.3", "Jump boost warp effect can happen with 18 Warp<BR>Blood warp effect can happen with 25 Warp<BR>Nausea warp effect can happen with 25 Warp<BR>Friendly creeper warp effect can happen with 26 Warp<BR>Lightning warp effect can happen with 30 Warp<BR>Livestock rain warp effect can happen with 32 Warp<BR>Wind warp effect can happen with 38 Warp<BR>Blindness warp effect can happen with 43 Warp");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.3", "Rain warp effect can happen with 25 Warp<BR>Blood warp effect can happen with 25 Warp<BR>Nausea warp effect can happen with 25 Warp<BR>Friendly creeper warp effect can happen with 26 Warp<BR>Lightning warp effect can happen with 30 Warp<BR>Livestock rain warp effect can happen with 32 Warp<BR>Wind warp effect can happen with 38 Warp<BR>Blindness warp effect can happen with 43 Warp");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.4");
 game.setLocalization("WARPTHEORY.research_page.WARPWARNING.4", "Random teleport can happen with 45 Warp<BR>Acceleration warp effect can happen with 50 Warp<BR>Decay warp effect can happen with 50 Warp<BR>Random trees effect can happen with 50 Warp<BR>Chest scramble warp effect can happen with 80 Warp<BR>Spawn wither warp effect can happen with Warp 80");
 
@@ -2161,6 +2151,22 @@ mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 
 [<gregtech:gt.metaitem.01:27019>, <Thaumcraft:blockCosmeticSolid:2>, <gregtech:gt.metaitem.01:27019>]]);
 mods.thaumcraft.Research.addArcanePage("LUGGAGE", <OpenBlocks:luggage>);
 mods.thaumcraft.Warp.addToResearch("LUGGAGE", 1);
+
+// --- Ghost Amulet HEE
+mods.thaumcraft.Research.addResearch("GHOSTAMULET", "NEWHORIZONS", "potentia 21, auram 18, infernus 15, lucrum 12, praecantatio 12, spiritus 9, alienis 6, corpus 3", 4, 2, 4, <HardcoreEnderExpansion:ghost_amulet:1>);
+game.setLocalization("tc.research_name.GHOSTAMULET", "Ghost Amulet");
+game.setLocalization("tc.research_text.GHOSTAMULET", "[HEE] Ghost Amulet purification.");
+mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "BREWINGSTAND", false);
+mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
+mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
+mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
+game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a Multiplayer Server. Now you found a way to purified your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium  and other End Items and Ores which let you resurrect a Dragon and get some Dragon Essence.");
+mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
+[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
+"auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
+mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
+mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
 
 

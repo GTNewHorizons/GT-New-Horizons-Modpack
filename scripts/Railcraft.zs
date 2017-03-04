@@ -337,72 +337,6 @@ recipes.remove(<Railcraft:machine.alpha:9>);
 // --- Automated Steam Trap ---
 recipes.remove(<Railcraft:machine.alpha:10>);
 
-// --- Iron Tank Wall ---
-recipes.removeShaped(<Railcraft:machine.beta>, [
-[IronPlate, IronPlate],
-[IronPlate, IronPlate]]);
-//-
-recipes.removeShaped(<Railcraft:machine.beta>, [
-[Wrench, IronPlate, IronPlate],
-[HHammer, IronPlate, IronPlate]]);
-
-// --- Iron Tank Gauge ---
-recipes.removeShaped(IronTankGauge, [
-[GlassPane, IronPlate, GlassPane],
-[IronPlate, GlassPane, IronPlate],
-[GlassPane, IronPlate, GlassPane]]);
-
-// --- Iron Tank Valve ---
-recipes.removeShaped(<Railcraft:machine.beta:2>, [
-[IronBars, IronPlate, IronBars],
-[IronPlate, Lever, IronPlate],
-[IronBars, IronPlate, IronBars]]);
-
-// --- Solid Fueled Boiler Firebox ---
-recipes.remove(<Railcraft:machine.beta:5>);
-
-// --- Liquid Fueled Boiler Firebox ---
-recipes.remove(<Railcraft:machine.beta:6>);
-
-// --- Hobbyists Steam Engine ---
-recipes.remove(<Railcraft:machine.beta:7>);
-
-// --- Commercial Steam Engine ---
-recipes.remove(<Railcraft:machine.beta:8>);
-
-// --- Industrial Steam Engine ---
-recipes.remove(<Railcraft:machine.beta:9>);
-
-// --- Steel Tank Wall ---
-recipes.removeShaped(<Railcraft:machine.beta:13>, [
-[SteelPlate, SteelPlate],
-[SteelPlate, SteelPlate]]);
-//-
-recipes.removeShaped(<Railcraft:machine.beta:13>, [
-[Wrench, SteelPlate, SteelPlate],
-[HHammer, SteelPlate, SteelPlate]]);
-
-// --- Steel Tank Gauge ---
-recipes.removeShaped(<Railcraft:machine.beta:14>, [
-[GlassPane, SteelPlate, GlassPane],
-[SteelPlate, GlassPane, SteelPlate],
-[GlassPane, SteelPlate, GlassPane]]);
-
-// --- Steel Tank Valve ---
-recipes.removeShaped(<Railcraft:machine.beta:15>, [
-[IronBars, SteelPlate, IronBars],
-[SteelPlate, <minecraft:lever>, SteelPlate],
-[IronBars, SteelPlate, IronBars]]);
-
-// --- Anchor Sentinel ---
-recipes.remove(<Railcraft:machine.beta:10>);
-
-// --- Void Chest ---
-recipes.remove(<Railcraft:machine.beta:11>);
-
-// --- Metals Chest ---
-recipes.remove(<Railcraft:machine.beta:12>);
-
 // --- Remove all Tracks Recipes ---
 recipes.remove(<Railcraft:track:*>);
 
@@ -844,84 +778,6 @@ recipes.addShaped(<Railcraft:machine.alpha:10>, [
 [RedAlloyRod, <Railcraft:machine.alpha:9>, RedAlloyRod],
 [SteelPlate, Detector, SteelPlate]]);
 
-// --- Iron Tank Wall ---
-recipes.addShaped(<Railcraft:machine.beta> * 2, [
-[IronScrew, IronPlate, IronScrew],
-[IronPlate, Screwdriver, IronPlate],
-[IronScrew, IronPlate, IronScrew]]);
-
-// --- Iron Tank Gauge ---
-recipes.addShaped(IronTankGauge, [
-[IronScrew, IronPlate, IronScrew],
-[ClearGlassP, Screwdriver, ClearGlassP],
-[IronScrew, IronPlate, IronScrew]]);
-
-// --- Iron Tank Valve ---
-recipes.addShaped(<Railcraft:machine.beta:2>, [
-[IronScrew, BronzePipe, IronScrew],
-[IronBars, Screwdriver, IronBars],
-[IronScrew, BronzePipe, IronScrew]]);
-
-// --- Steel Tank Wall ---
-recipes.addShaped(<Railcraft:machine.beta:13> * 2, [
-[SteelScrew, SteelPlate, SteelScrew],
-[SteelPlate, Screwdriver, SteelPlate],
-[SteelScrew, SteelPlate, SteelScrew]]);
-
-// --- Steel Tank Gauge ---
-recipes.addShaped(<Railcraft:machine.beta:14>, [
-[SteelScrew, SteelPlate, SteelScrew],
-[IronTankGauge, Screwdriver, IronTankGauge],
-[SteelScrew, SteelPlate, SteelScrew]]);
-
-// --- Steel Tank Valve ---
-recipes.addShaped(<Railcraft:machine.beta:15>, [
-[SteelScrew, SteelPipe, SteelScrew],
-[SteelBars, Screwdriver, SteelBars],
-[SteelScrew, SteelPipe, SteelScrew]]);
-
-// --- Solid Fueled Boiler Firebox ---
-recipes.addShaped(<Railcraft:machine.beta:5>, [
-[IronPlate, Cauldron, IronPlate],
-[BrickBlock, <gregtech:gt.blockcasings3:13>, BrickBlock],
-[IronPlate, IronFurnace, IronPlate]]);
-
-// --- Liquid Fueled Boiler Firebox ---
-recipes.addShaped(<Railcraft:machine.beta:6>, [
-[SteelPlate, Cauldron, SteelPlate],
-[<dreamcraft:item.SteelBars>, <gregtech:gt.blockcasings3:13>, <dreamcraft:item.SteelBars>],
-[SteelPlate, IronFurnace, SteelPlate]]);
-
-// --- Hobbyists Steam Engine ---
-recipes.addShaped(<Railcraft:machine.beta:7>, [
-[<ore:plateCopper>, LapisPlate, <ore:plateCopper>,],
-[<ore:springCopper>, Piston, <ore:springCopper>],
-[<ore:gearCopper>, <Forestry:sturdyMachine>, <ore:gearCopper>]]);
-
-// --- Commercial Steam Engine ---
-recipes.addShaped(<Railcraft:machine.beta:8>, [
-[<ore:plateSteel>, LapisPlate, <ore:plateSteel>],
-[<ore:springSteel>, Piston, <ore:springSteel>],
-[<ore:gearSteel>, <Forestry:sturdyMachine>, <ore:gearSteel>]]);
-
-// --- Industrial Steam Engine ---
-recipes.addShaped(<Railcraft:machine.beta:9>, [
-[<ore:plateAluminium>, LapisPlate, <ore:plateAluminium>],
-[<ore:springAluminium>, Piston, <ore:springAluminium>],
-[<ore:gearAluminium>, <Forestry:sturdyMachine>, <ore:gearAluminium>]]);
-
-// --- Anchor Sentinel ---
-recipes.addShaped(<Railcraft:machine.beta:10>, [
-[ObsidianPlate, <ore:gemEnderEye>, ObsidianPlate],
-[GoldPlate, ObsidianBlock, GoldPlate],
-[ObsidianBlock, ObsidianBlock, ObsidianBlock]]);
-
-// --- Void Chest ---
-recipes.addShaped(<Railcraft:machine.beta:11>, [
-[SteelScrew, ObsidianPlate, SteelScrew],
-[ObsidianPlate, <ExtraUtilities:trashcan>, ObsidianPlate],
-[SteelScrew, ObsidianPlate, SteelScrew]]);
-
 // --- Controll Track ---
 recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.control"}), [
 [SteelScrew, RedAlloyRod, SteelScrew],
@@ -1073,7 +929,7 @@ recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost
 
 // --- H.S Transition Track ---
 recipes.addShaped(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}), [
-[TitaniumScrew, Track, TitaniumScrew],
+[TitaniumScrew, HsTrack, TitaniumScrew],
 [RedAlloyPlate, StoneRailbed, RedAlloyPlate],
 [Screwdriver, HsTrack, HHammer]]);
 
@@ -1172,6 +1028,16 @@ recipes.addShaped(WoodenRail * 6, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick]]);
+// -
+recipes.addShaped(WoodenRail * 4, [
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[null, null, null]]);
+// -
+recipes.addShaped(WoodenRail * 2, [
+[IronRod, <Railcraft:part.tie>, WoodStick],
+[null, null, null],
+[null, null, null]]);
 
 // --- Item Dtector ---
 recipes.addShaped(<Railcraft:detector>, [
@@ -1726,6 +1592,12 @@ recipes.addShaped(<Railcraft:machine.gamma:11>, [
 [<ore:plateRedstoneAlloy>, <Railcraft:detector:10>, <ore:plateRedstoneAlloy>],
 [<ore:plateLead>, <EnderIO:itemBasicCapacitor>, <ore:plateLead>]]);
 
+// --- Engraver 
+recipes.addShaped(<Railcraft:machine.epsilon:5>, [
+[<ore:screwSteel>, <gregtech:gt.metaitem.01:32744>, <ore:screwSteel>],
+[<ore:plateSteel>, <gregtech:gt.metaitem.01:32600>, <ore:plateSteel>],
+[<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:craftingToolHardHammer>]]);
+
 
 
 // --- Add Fuels ---
@@ -1767,14 +1639,6 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 // --- Assembler Recipes ---
 
 
-// --- Hobbyists Steam Engine
-Assembler.addRecipe(<Railcraft:machine.beta:7>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:3> * 10, 800, 256);
-
-// --- Commercial Steam Engine
-Assembler.addRecipe(<Railcraft:machine.beta:8>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate:1> * 10, 800, 256);
-
-// --- Industrial Steam Engine
-Assembler.addRecipe(<Railcraft:machine.beta:9>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17019> * 10, 800, 256);
 
 // --- Electric Shunting Wire ---
 Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 2, <gregtech:gt.blockmachines:1220> * 2, <liquid:molten.tin>  * 16, 200, 120);
@@ -1782,9 +1646,6 @@ Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> 
 Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.lead>  * 32, 200, 120);
 //-
 Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360> * 4, <gregtech:gt.blockmachines:1220> * 4, <liquid:molten.solderingalloy>  * 8, 200, 120);
-
-// --- Void Chest ---
-Assembler.addRecipe(<Railcraft:machine.beta:11>, <ExtraUtilities:trashcan>, ObsidianPlate * 4, 300, 16);
 
 // --- Wooden Switch Track ---
 Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 800, 4);
@@ -1833,24 +1694,6 @@ Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut
 // -
 Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
 
-// --- Iron Tank Wall
-Assembler.addRecipe(<Railcraft:machine.beta>, <Railcraft:part.plate> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
-
-// --- Iron Tank Gauge
-Assembler.addRecipe(<Railcraft:machine.beta:1>, <Railcraft:part.plate> * 2, <TConstruct:GlassPane> * 2, 400, 30);
- 
-// --- Iron Tank Valve
-Assembler.addRecipe(<Railcraft:machine.beta:2>, <gregtech:gt.blockmachines:5113> * 2, <minecraft:iron_bars> * 2, 400, 30);
-
-// --- Steel Tank Wall
-Assembler.addRecipe(<Railcraft:machine.beta:13>, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 30);
-
-// --- Steel Tank Gauge
-Assembler.addRecipe(<Railcraft:machine.beta:14>, <Railcraft:part.plate:1> * 2, <Railcraft:machine.beta:1> * 2, 400, 30);
-
-// --- Steel Tank Valve
-Assembler.addRecipe(<Railcraft:machine.beta:15>, <gregtech:gt.blockmachines:5133> * 2, <dreamcraft:item.SteelBars> * 2, 400, 30);
-
 // --- Work Cart ---
 Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
 
@@ -1894,9 +1737,6 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <m
 
 // --- Blast Furnace recipes
 
-
-// --- Coal Coke
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal>, false, false, 20, <Railcraft:fuel.coke>);
 
 // --- Coal Coke Block
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
@@ -1942,30 +1782,6 @@ Compressor.addRecipe(<Railcraft:machine.alpha:7>, <dreamcraft:item.CokeOvenBrick
 // --- Steel Anvil
 FluidSolidifier.addRecipe(SteelAnvil, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.steel> * 4464, 480, 64);
 
-
-
-
-// --- Macerator Recipes ---
-
-// --- Iron Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta>);
-// -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2032> * 2, <Railcraft:machine.beta:1>);
-
-// --- Bronze Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2300> * 10, <Railcraft:machine.beta:2>);
-
-// --- Steel Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:13>);
-// -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 2, <Railcraft:machine.beta:14>);
-// -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 10, <Railcraft:machine.beta:15>);
-
-
-
-
-// --- Mixer recipes ---
 
 
 

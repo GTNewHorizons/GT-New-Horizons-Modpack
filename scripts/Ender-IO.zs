@@ -720,6 +720,24 @@ recipes.addShaped(<EnderIO:itemMagnet:16>, [
 
 
 
+// --- Avaritia Recipes ---
+
+mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}), [
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <ore:plateVibrantAlloy>, <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <ore:plateNeutronium>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <DraconicEvolution:draconiumFluxCapacitor>.withTag({Energy: 80000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <ore:plateNeutronium>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <ore:plateVibrantAlloy>, <ore:plateNeutronium>, <DraconicEvolution:draconiumFluxCapacitor>.withTag({Energy: 80000000}), <DraconicEvolution:chaoticCore>, <DraconicEvolution:draconiumFluxCapacitor>.withTag({Energy: 80000000}), <ore:plateNeutronium>, <ore:plateVibrantAlloy>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <ore:plateNeutronium>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <DraconicEvolution:draconiumFluxCapacitor>.withTag({Energy: 80000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <ore:plateNeutronium>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <ore:plateVibrantAlloy>, <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
+[<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})]]);
+
+
+
+
+
+
 
 // --- Assembelr Recipes ---
 

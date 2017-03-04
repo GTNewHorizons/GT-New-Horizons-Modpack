@@ -270,7 +270,7 @@ recipes.remove(<StevesCarts:BlockMetalStorage:2>);
 // --- Reinforced Metal Ingot
 recipes.remove(<StevesCarts:ModuleComponents:22>);
 // -
-furnace.remove(<StevesCarts:ModuleComponents:22>);
+//furnace.remove(<StevesCarts:ModuleComponents:22>);
 
 // --- Galgadorian Metal
 recipes.remove(<StevesCarts:ModuleComponents:47>);
@@ -1642,6 +1642,9 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:60> * 2, BronzePipe, IronBars,
 // --- Cage
 Assembler.addRecipe(<StevesCarts:CartModule:57>, SteelBars * 5, PCB, 600, 30);
 
+// --- Creative Hull
+Assembler.addRecipe(<StevesCarts:CartModule:76>, <StevesCarts:CartModule:81>, <gregtech:gt.blockmachines:129>, <liquid:molten.americium> * 1440, 600, 30720);
+
 
 
 
@@ -1830,3 +1833,68 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2383> * 9, <StevesCarts:BlockMetalS
 
 // --- Stabezied Metal
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2383>, <StevesCarts:ModuleComponents:22>);
+
+
+
+// --- Avaritia recipes ---
+
+
+// --- Upgrade Creative Mode
+mods.avaritia.ExtremeCrafting.addShaped(<StevesCarts:upgrade:14>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateDenseNaquadria>, <ore:ingotInfinity>, <StevesCarts:upgrade:5>, <ore:ingotInfinity>, <ore:plateDenseNaquadria>, null, null],
+[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+[null, null, <StevesCarts:upgrade:5>, <ore:plateEnhancedGalgadorian>, <gregtech:gt.blockmachines:1192>, <ore:plateEnhancedGalgadorian>, <StevesCarts:upgrade:5>, null, null],
+[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+[null, null, <ore:plateDenseNaquadria>, <ore:ingotInfinity>, <StevesCarts:upgrade:5>, <ore:ingotInfinity>, <ore:plateDenseNaquadria>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Upgrade Creative Supplies
+//mods.avaritia.ExtremeCrafting.addShaped(<StevesCarts:CartModule:97>, [
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, <ore:plateDenseEnderium>, <ore:ingotInfinity>, <StevesCarts:upgrade:8>, <ore:ingotInfinity>, <ore:plateDenseEnderium>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <StevesCarts:upgrade:8>, <ore:plateEnhancedGalgadorian>, <gregtech:gt.blockmachines:129>, <ore:plateEnhancedGalgadorian>, <StevesCarts:upgrade:8>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <ore:plateDenseEnderium>, <ore:ingotInfinity>, <StevesCarts:upgrade:8>, <ore:ingotInfinity>, <ore:plateDenseEnderium>, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
+
+// --- Upgrade Creative Inicerator
+//mods.avaritia.ExtremeCrafting.addShaped(<StevesCarts:CartModule:96>, [
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, <ore:plateDenseVoid>, <ore:ingotInfinity>, <StevesCarts:upgrade:15>, <ore:ingotInfinity>, <ore:plateDenseVoid>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <StevesCarts:upgrade:15>, <ore:plateEnhancedGalgadorian>, <Railcraft:machine.beta:11>, <ore:plateEnhancedGalgadorian>, <StevesCarts:upgrade:15>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <ore:plateDenseVoid>, <ore:ingotInfinity>, <StevesCarts:upgrade:15>, <ore:ingotInfinity>, <ore:plateDenseVoid>, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
+
+// --- Upgrade Creative Tank
+//mods.avaritia.ExtremeCrafting.addShaped(<StevesCarts:CartModule:72>, [
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, <ore:plateInfusedWater>, <ore:ingotInfinity>, <StevesCarts:upgrade:1>, <ore:ingotInfinity>, <ore:plateInfusedWater>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <StevesCarts:upgrade:1>, <ore:plateEnhancedGalgadorian>, <gregtech:gt.blockmachines:124>, <ore:plateEnhancedGalgadorian>, <StevesCarts:upgrade:1>, null, null],
+//[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+//[null, null, <ore:plateInfusedWater>, <ore:ingotInfinity>, <StevesCarts:upgrade:1>, <ore:ingotInfinity>, <ore:plateInfusedWater>, null, null],
+//[null, null, null, null, null, null, null, null, null],
+//[null, null, null, null, null, null, null, null, null]]);
+
+// --- Upgrade Creative Engine
+mods.avaritia.ExtremeCrafting.addShaped(<StevesCarts:CartModule:61>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <Railcraft:firestone.refined>, <ore:ingotInfinity>, <StevesCarts:upgrade:19>, <ore:ingotInfinity>, <Railcraft:firestone.refined>, null, null],
+[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+[null, null, <StevesCarts:upgrade:18>, <ore:plateEnhancedGalgadorian>, <IC2:blockReactorChamber>, <ore:plateEnhancedGalgadorian>, <StevesCarts:upgrade:18>, null, null],
+[null, null, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, <ore:plateEnhancedGalgadorian>, null, null],
+[null, null, <Railcraft:firestone.refined>, <ore:ingotInfinity>, <StevesCarts:upgrade:19>, <ore:ingotInfinity>, <Railcraft:firestone.refined>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);

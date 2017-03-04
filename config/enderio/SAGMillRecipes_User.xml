@@ -15883,6 +15883,16 @@
 <!-- End of basaltOres -->
 
 
+  <recipe name="CornMeal" energyCost="3600">
+    <input>
+      <itemStack oreDictionary="cropCorn" />
+    </input>
+    <output>
+      <itemStack oreDictionary="foodCornmeal" number="1" />
+      <itemStack oreDictionary="foodCornmeal" chance="0.5" />
+    </output>
+  </recipe>
+
 </recipeGroup>
 
 

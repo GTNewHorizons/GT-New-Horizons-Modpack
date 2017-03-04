@@ -224,6 +224,9 @@ mods.chisel.Groups.addVariation("glasswork", <TConstruct:GlassBlock>);
 // -
 mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
 
+// --- Cloud
+mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
+
 
 
 // --- Stained Glass (add other stained glass variations later)
@@ -243,6 +246,11 @@ mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones>);
 
 // --- Limestone
 mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
+
+// --- Amber
+mods.chisel.Groups.addVariation("amber", <gregtech:gt.blockgem1:1>);
+// -
+mods.chisel.Groups.addVariation("amber", <BiomesOPlenty:gemOre:15>);
 
 
 

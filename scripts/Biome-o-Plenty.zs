@@ -199,17 +199,3 @@ Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
 
 // --- Large Bone Segment
 Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
-
-
-
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Small Bone Segment
-mods.thaumcraft.Aspects.set(<BiomesOPlenty:bones>, "corpus 1, exanimis 3, mortuus 2");
-
-// --- Medium Bone Segment
-mods.thaumcraft.Aspects.set(<BiomesOPlenty:bones:1>, "corpus 2, exanimis 6, mortuus 4");
-
-// --- Large Bone Segment
-mods.thaumcraft.Aspects.set(<BiomesOPlenty:bones:2>, "corpus 3, exanimis 9, mortuus 6");

@@ -1122,10 +1122,16 @@ recipes.addShaped(Trapdoor * 3, [
 [<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
 
 // --- Pressure Plate
-recipes.addShapeless(<minecraft:stone_pressure_plate> * 2, [Saw, <minecraft:stone_slab>]);
+recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
+[Saw, <minecraft:stone_slab>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Wooden Pressure Plate
-recipes.addShapeless(<minecraft:wooden_pressure_plate> * 2, [Saw, <ore:slabWood>]);
+recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
+[Saw, <ore:slabWood>, null],
+[null, null, null],
+[null, null, null]]);
 
 //Glass Pane
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
@@ -2737,20 +2743,6 @@ mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFMagicLog:*>, false,
 mods.railcraft.BlastFurnace.addRecipe(<witchery:witchlog:*>, false, false, 20, <minecraft:coal:1>);
 // -
 mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, false, 20, <minecraft:coal:1>);
-
-
-
-// --- Thaumcraft Aspects Set ---
-
-
-// --- Blaze
-mods.thaumcraft.Aspects.set(<minecraft:blaze_powder>, "ignis 6, praecantatio 4, instrumentum 2");
-
-// --- Blaze Rod
-mods.thaumcraft.Aspects.set(<minecraft:blaze_rod>, "ignis 10, praecantatio 4");
-
-// --- Paper
-mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 4, aqua 2, arbor 1");
 
 
 

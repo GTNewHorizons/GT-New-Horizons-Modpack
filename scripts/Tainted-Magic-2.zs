@@ -668,6 +668,30 @@ mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:144
 [<ore:screwTungstenSteel>, <TaintedMagic:ItemWandRod>, <dreamcraft:item.ChargedThaumiumWandCap>],
 [<dreamcraft:item.ChargedThaumiumWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
+// --- Mechanist Warp Wood Wand
+mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:96>.withTag({cap: "MECHANIST", rod: "warpwood"}), "aer 230, terra 230, ignis 230, aqua 230, ordo 230, perditio 230", [
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<ore:screwTungstenSteel>, <TaintedMagic:ItemWandRod>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Mechanist Warp Wood Scepter
+mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:144>.withTag({cap: "MECHANIST", rod: "warpwood", sceptre: 1 as byte}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
+[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTungstenSteel>, <TaintedMagic:ItemWandRod>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Sorjournas Warp Wood Wand
+mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:96>.withTag({cap: "SOJOURNER", rod: "warpwood"}), "aer 230, terra 230, ignis 230, aqua 230, ordo 230, perditio 230", [
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<ore:screwTungstenSteel>, <TaintedMagic:ItemWandRod>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
+// --- Sorjournas Warp Wood Scepter
+mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:144>.withTag({cap: "SOJOURNER", rod: "warpwood", sceptre: 1 as byte}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
+[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwTungstenSteel>, <TaintedMagic:ItemWandRod>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+
 // --- Void Aspected Warp Wood Wand
 mods.thaumcraft.Arcane.addShaped("RoD_WarpwoodGTNH", <Thaumcraft:WandCasting:144>.withTag({cap: "void", rod: "warpwood"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
 [<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedVoidWandCap>],

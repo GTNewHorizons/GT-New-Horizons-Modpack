@@ -808,7 +808,7 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>, [
 [<ore:wireGt01RedAlloy>, <IC2:itemCasing:5>, <ore:wireGt01RedAlloy>],
 [<ore:circuitGood>, <ore:plateEmerald>, <ore:circuitGood>],
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 12000 as long}), <IC2:itemCasing:5>]]);
+[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 18000 as long}), <IC2:itemCasing:5>]]);
 
 // --- Jetpack
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:6400>, [
@@ -855,6 +855,22 @@ recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:10>, [<For
 // --- Auto Crafting Bench
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:11>, [<BuildCraft|Factory:autoWorkbenchBlock>]);
 
+// --- Creative IC Chip
+// --- Upgrade Creative Mode
+mods.avaritia.ExtremeCrafting.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.QuantumCircuit>, <OpenComputers:item:43>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.QuantumCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>, <ore:plateNeutronium>],
+[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>]]);
+recipes.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
+[<dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>, <dreamcraft:item.NanoCircuit>],
+[<dreamcraft:item.QuantumCircuit>, <dreamcraft:item.HighEnergyFlowCircuit>,<dreamcraft:item.QuantumCircuit>],
+[<dreamcraft:item.PikoCircuit>, <dreamcraft:item.PikoCircuit>, <dreamcraft:item.PikoCircuit>]]);
 
 
 
@@ -1064,7 +1080,7 @@ ChemicalBath.addRecipe([<ProjRed|Transmission:projectred.transmission.wire:18> *
 
 
 // --- Block of Electrotine
-Compressor.addRecipe(<ProjRed|Exploration:projectred.exploration.stone:11>, <ProjRed|Core:projectred.core.part:56> * 9);
+Compressor.addRecipe(<ProjRed|Exploration:projectred.exploration.stone:11>, <gregtech:gt.metaitem.01:2812> * 9);
 
 // --- Electrotine
 Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:projectred.core.part:57>);
@@ -1124,7 +1140,7 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:58>, [<gregtech:gt.metaitem.0
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, [<minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:56> * 8], 400, 30);
 
 // --- Electrotine Dust
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 4, [<gregtech:gt.metaitem.01:2303>, <minecraft:redstone>], 300, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 8, [<gregtech:gt.metaitem.01:2303>, <minecraft:redstone>], 200, 8);
 
 // --- White Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2], 50, 8);

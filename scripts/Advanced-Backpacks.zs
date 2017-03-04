@@ -99,19 +99,19 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {
 // --- Bat Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({backpackData: {colorName: "Bat"}}), [
 [<ore:itemLeather>, <ore:blockWoolBlack>, <ore:itemLeather>],
-[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
+[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
 [<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
 
 // --- Iron Golem Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({backpackData: {colorName: "IronGolem"}}), [
 [<ore:itemLeather>, <minecraft:red_flower>, <ore:itemLeather>],
-[<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
+[<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 // --- Squid Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({backpackData: {colorName: "Squid"}}), [
 [<ore:itemLeather>, <minecraft:dye>, <ore:itemLeather>],
-[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8269>],
+[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8269>],
 [<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]]);
 
 // --- Backpack Tank
@@ -156,7 +156,7 @@ recipes.addShaped(<adventurebackpack:backpackHose>.withTag({mode: -1, amount: 0,
 recipes.addShaped(<adventurebackpack:backpackComponent:5>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [<gregtech:gt.metaitem.01:32641>, <ore:pipeLargeSteel>, <gregtech:gt.metaitem.01:32641>],
-[<ore:plateSteel>, <gregtech:gt.blockmachines:1110>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <gregtech:gt.blockmachines:1111>, <ore:plateSteel>]]);
 
 // --- Copter Blade 
 recipes.addShaped(<adventurebackpack:backpackComponent:6>, [

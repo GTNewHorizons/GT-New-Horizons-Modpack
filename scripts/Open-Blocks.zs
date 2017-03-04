@@ -234,21 +234,15 @@ recipes.removeShaped(<OpenBlocks:goldenEye:*>);
 
 // --- Glider
 recipes.addShaped(Glider, [
-[<ore:screwAluminium>, <ore:stickAluminium>, <ore:screwAluminium>],
-[GliderWing, <ore:plateAluminium>, GliderWing],
-[<ore:craftingToolWrench>, <ore:stickAluminium>, <ore:craftingToolScrewdriver>]]);
+[<ore:screwSteel>, <ore:screwSteel>, <ore:screwSteel>],
+[GliderWing, <ore:plateSteel>, GliderWing],
+[<ore:craftingToolWrench>, <ore:screwSteel>, <ore:craftingToolScrewdriver>]]);
 
 // --- Glider Wing
 recipes.addShaped(GliderWing, [
-[<ore:craftingToolHardHammer>, AlRod, Leather],
-[AlRod, TannedLeather, Leather],
+[<ore:craftingToolHardHammer>, SteelRod, Leather],
+[SteelRod, TannedLeather, Leather],
 [Leather, Leather, Leather]]);
-
-// --- Auto-Enchantment Table
-recipes.addShaped(<OpenBlocks:autoenchantmenttable>, [
-[<ore:plateAnyIron>, <ore:plateDenseLapis>, <ore:plateAnyIron>],
-[<ore:plateAnyIron>, EnchantTable, <ore:plateAnyIron>],
-[<ore:plateRedAlloy>, <ore:blockRedstone>, <ore:plateRedAlloy>]]);
 
 // --- Auto-Anvil
 recipes.addShaped(<OpenBlocks:autoanvil>, [
