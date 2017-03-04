@@ -43982,7 +43982,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "With the chemical Reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
+      "description": "With the Chemical reactor and Hydrogen you can produce some heavy fuel with a burn value of 240000 EU.\n\nThe Hydrogen Sulfide cells can be used later to produce some Sulfuric Acid for your TNT/iTNT Acid Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44386,7 +44386,7 @@
     {
       "questID": 557,
       "name": "NITRO!",
-      "description": "720000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your MV Diesel Engine with it. For LV Diesel Engines the Fuel is to good!",
+      "description": "720000 EU per Cell this is very good, yes yes very good. Make some Nitro Diesel and power your MV Diesel Engine with it. For LV Diesel Engines this Fuel is to good!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48061,7 +48061,7 @@
     {
       "questID": 593,
       "name": "Farm logic enhanced",
-      "description": "This Chip is optional and more advanced then the Basic One. The farms are working without them too. If you want to configure your farm you need one of them.",
+      "description": "This Chip is optional and more advanced than the Basic One. The farms can work without them too. If you want to configure your farm you need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48196,7 +48196,7 @@
     {
       "questID": 594,
       "name": "Farm logic refined",
-      "description": "This Chip is optional and more advanced then the enhanced one. The farms are working without them too. If you want to configure your farm you need one of them.",
+      "description": "This Chip is optional and more advanced than the enhanced one. The farms are working without them too. If you want to configure your farm even more you need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48331,7 +48331,7 @@
     {
       "questID": 595,
       "name": "Farm logic intricate",
-      "description": "This Chip is optional and more advanced like the refined one. The farms are working without them too. If you want to configure your farm you need one of them.",
+      "description": "This Chip is optional and more advanced like the refined one. The farms are working without them too. If you want to configure your farm even more you need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48573,7 +48573,7 @@
     {
       "questID": 597,
       "name": "Tetrahedrite, Stibnite and Copper",
-      "description": "Maybe you wondering at this point why you need Tetrahedrite and Stibnite. Antimony can be centrifuged out of it which is very usefull for batteries in LV Age.\nThis vein can be found between Y Level 80-120.",
+      "description": "Maybe you are wondering why you need Tetrahedrite and Stibnite. Well, antimony can be centrifuged out of it which is very usefull for batteries in LV Age.\nThis vein can be found between Y Level 80-120.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -48673,7 +48673,7 @@
     {
       "questID": 598,
       "name": "Antimony",
-      "description": "The most efficient way to get antimony for Batteries is to centrifuge Stibnite Dust, the second efficient way is to using Tetrahedrite Dust.",
+      "description": "The most efficient way to get antimony for Batteries is to centrifuge Stibnite Dust, the second most efficient way is to use Tetrahedrite Dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48745,7 +48745,7 @@
     {
       "questID": 599,
       "name": "Thermal Centrifuge",
-      "description": "A optional Machine to get different by products out of your crushed and purified ore dust. This machine becomes very usefull when you have reactors and want to recycle your depleted Fuel rods.",
+      "description": "A optional Machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very usefull when you have reactors and want to recycle your depleted Fuel rods.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49571,8 +49571,8 @@
     },
     {
       "questID": 608,
-      "name": "Lead Dust",
-      "description": "Next step for making Batteries is to collect some Lead. Lead and Galena Veins can be found in the Twilight Forest.",
+      "name": "A lead about Lead that leads to lead Dust",
+      "description": "Next step of making Batteries is to collect some Lead. Lead and Galena Veins can be found in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49767,7 +49767,7 @@
     {
       "questID": 610,
       "name": "Lead, Galena and Silver",
-      "description": "You can\u0027t find Lead, Galena and Silver in the Overworld or the Nether. So it\u0027s time to explore the twilight Forest a bit and find this veine at Y Level 5 - 40.",
+      "description": "You can\u0027t find Lead, Galena or Silver in the Overworld or the Nether. So it\u0027s time to explore the twilight Forest a bit and find this vein at Y Level 5 - 40.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49856,7 +49856,7 @@
     {
       "questID": 611,
       "name": "Single Use Battery : Mercury",
-      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
+      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be used in Battery Buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49952,7 +49952,7 @@
     {
       "questID": 612,
       "name": "Single Use Battery : Acid",
-      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be placed in Battery Buffers as a means of large-scale energy storage.",
+      "description": "Mercury and Acid Batteries are Single-Use Batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into Small Battery Hulls.\n\nThey can be placed in the battery slot in any standard Low Voltage GregTech machine, they will be depleted before the machine\u0027s internal EU storage. They can also be used in Battery Buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50047,8 +50047,8 @@
     },
     {
       "questID": 613,
-      "name": "Battery reusable : Sodium",
-      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
+      "name": "Reusable Battery : Sodium",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50157,8 +50157,8 @@
     },
     {
       "questID": 614,
-      "name": "Battery reusable : Cadmium",
-      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
+      "name": "Reusable Battery : Cadmium",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50268,8 +50268,8 @@
     },
     {
       "questID": 615,
-      "name": "Battery reusable : Lithium",
-      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted with 0 stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
+      "name": "Reusable Battery : Lithium",
+      "description": "Sodium, Cadmium, and Lithium Batteries are Rechargeable Batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into Small Battery Hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50379,7 +50379,7 @@
     {
       "questID": 616,
       "name": "Mercury",
-      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinabar Ore in the Redstone Vein you can using this too.",
+      "description": "Mercury can be centrifuged out of Redstone. If you find some Cinabar Ore in the Redstone Vein you can use that too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50463,7 +50463,7 @@
     {
       "questID": 617,
       "name": "Fluid Canner",
-      "description": "The Fluid Canner is a fundamental machine, since it is necessary to move fluids, as well as fill tin Cells, Glass Bottles, Buckets, and even Mercury and Acid Batteries.\n\nAnother interesting thing about the Fluid Canner is that it can be transformed into a raintank, by attaching a Drain cover on its top.",
+      "description": "The Fluid Canner is a fundamental machine, since it is necessary to move fluids, as well as for filling tin Cells, Glass Bottles, Buckets, and even Batteries.\n\nAnother interesting thing about the Fluid Canner is that it can be transformed into a raintank, by attaching a Drain cover on its top (Any machine with tank actually can be...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50535,7 +50535,7 @@
     {
       "questID": 618,
       "name": "Sulfuric Acid",
-      "description": "Hydrogen Sulfide and Water in the Chemical recator make some Sulfuric Acid for your Single used Acid Batteries. If you made  some light and heavy fuel allready maybe you have some spare  Hydrogen Sulfide. If not you can make Sulfuric Acid with some Sulfur and Water in the Chemical rector too.",
+      "description": "Hydrogen Sulfide and Water in the Chemical recator makes Sulfuric Acid for your Single use Acid Batteries. If you made some light and heavy fuel already maybe you have some spare Hydrogen Sulfide. If not you can make Sulfuric Acid with some Sulfur and Water in the Chemical reactor too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50612,7 +50612,7 @@
     {
       "questID": 619,
       "name": "Battery Buffer",
-      "description": "Batterys can be placed directly in machines. To reload the Battery you need a Battery Buffer. It comes with different slots 1, 4, 9 and 16.",
+      "description": "Batteries can be placed directly in machines. To recharge a Battery you need a Battery Buffer. They come in different sizes: 1, 4, 9 and 16 slots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50686,8 +50686,8 @@
     },
     {
       "questID": 620,
-      "name": "Ic 2 Battery",
-      "description": "Some recipes need a Ic2 Battery. Fill your Battery hull with some molten Redstone and you get your small Battery.",
+      "name": "IC2 Battery",
+      "description": "Some recipes require IC2 Batteries. Fill your Battery hull with some molten Redstone and you get your small Battery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50893,7 +50893,7 @@
     {
       "questID": 622,
       "name": "How to get Sodium/Lithium",
-      "description": "Salt Ore Mixes can be found in the Overworld between Y Level 50-70. Salt isn\u0027t only to get Sodium it\u0027s a important source for many Pams Harvestcraft food recipes.\n\nLepidolite Spodumene is a good source for get Lithium for your Batteries.",
+      "description": "Salt Ore Mixes can be found in the Overworld between Y Level 50-70. Salt isn\u0027t only to get Sodium it\u0027s a important source for many Pams Harvestcraft food recipes.\n\nLepidolite or Spodumene is a good source of Lithium for your Batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50995,7 +50995,7 @@
     {
       "questID": 623,
       "name": "A big Meteorite",
-      "description": "The best way to get Rare Earth is to find an AE2 Meteorite and grind them into dust. Maybe you completed the Quest in the Steam Age and stored you crushed Skystone somewhere? That dust can now be centrifuged in various byproducts like Cadmium, Neodymium, Ceasium, Lanthan, and Yttrium.",
+      "description": "The best way to get Rare Earth is to find an AE2 Meteorite and grind them into dust. Maybe you completed the Quest in the Steam Age and stored you crushed Skystone somewhere? That dust can now be centrifuged into various byproducts like Cadmium, Neodymium, Ceasium, Lanthanum, and Yttrium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51123,7 +51123,7 @@
     {
       "questID": 624,
       "name": "Basic Canner",
-      "description": "The Canning Machine in mainly used to fill Tin Cans with any kind of food, but it is also useful filling and emptying Tin Cells with other solid items, in form of dusts. It can also fill Batteries with Redstone, Cadmium, Lithium and Sodium.",
+      "description": "The Canning Machine is mainly used to fill Tin Cans with any kind of food, but it is useful for filling and emptying Tin Cells with other solid items than food, usually in form of dust. It can also fill Batteries with Redstone, Cadmium, Lithium and Sodium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51195,8 +51195,8 @@
     },
     {
       "questID": 625,
-      "name": "Packing up your Chest and Barrels",
-      "description": "Packing up your chests and barrels without taking all the items out first? \nNo problem make a dolly and you can carry your full chests and barrels to anywhere you want! Be warned you will get a slowness debuff so hopefully you don't have to travel far. 2.\n\nHint : Place the dolly holding your chest/barrel in a Backpack to avoid the slowness.",
+      "name": "Packing your Chests and Barrels",
+      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem make a dolly and you can carry your full chests and barrels anywhere you want. Be warned you will get a slowness debuff so hopefully you don't have to travel far.\n\nHint : pacPlace the dolly holding your chest/barrel in a Bag of some sort to avoid the slowness.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51972,8 +51972,8 @@
     },
     {
       "questID": 633,
-      "name": "Fish Trapping",
-      "description": "Fishing can be very boring. Why not automate it with some fish traps?",
+      "name": "Fish trapping",
+      "description": "Fishing can be very boring. Why not to automate it with some fish trap?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52061,7 +52061,7 @@
     {
       "questID": 634,
       "name": "Wheat time",
-      "description": "It\u0027s time to plant some wheat to make some Bread or prepare grain bait for your animal trap.",
+      "description": "It\u0027s time to plant some wheat to make some Bread or to prepare grain bait for your animal traps.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52137,7 +52137,7 @@
     },
     {
       "questID": 635,
-      "name": "Flour",
+      "name": "Floury flurry",
       "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.\n\nFlour can be used in many food recipes for Pam\u0027s Harvestcraft Food.",
       "isMain": false,
       "isSilent": false,
@@ -52345,8 +52345,8 @@
     },
     {
       "questID": 637,
-      "name": "Dough",
-      "description": "Water and Flour make a Dough or two...\nDough can be used in many food recipes from Pams Harvestcraft.",
+      "name": "Do'h!",
+      "description": "Water and Flour makes a Dough or two...\nDough can be used in many food recipes from Pams Harvestcraft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52436,7 +52436,7 @@
     {
       "questID": 638,
       "name": "Tasty Toast",
-      "description": "Smelt your bread again and you get some Toast!? Give\u0027s you more nutrition points, and unlocks more culinary potential",
+      "description": "Smelt your bread again and you get some Toast!? Give\u0027s you more nutrition points, and unlocks more culinary potential!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52520,7 +52520,7 @@
     {
       "questID": 639,
       "name": "Sulfuric Naphtha",
-      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40000 EU in the Gas Turbine. ",
+      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40000 EU in the Gas Turbine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52853,7 +52853,7 @@
     },
     {
       "questID": 643,
-      "name": "Refined Gas",
+      "name": "Refinery Gas",
       "description": "Refine your gas in a Chemical Reactor to give it a better burn value of 160000 EU, and use maybe use it to make Methane.",
       "isMain": false,
       "isSilent": false,
