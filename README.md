@@ -218,9 +218,9 @@ Bacongaming.net:25577<BR>
 * Open Computers	1.6.2.12<BR>
 * Open Mods Lib	0.10.464<BR>
 * Open Modular Turrets 2.2.10.237<BR>
-* Open Peripheral Addons 0.6.249
-* Open Peripheral Core 1.4.280
-* Open Peripheral Integration 0.6.95
+* Open Peripheral Addons 0.6.249<BR>
+* Open Peripheral Core 1.4.280<BR>
+* Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-99<BR>
 * p455w0rdslib 1.0.4<BR>
