@@ -20,10 +20,12 @@ import com.dreammaster.modcustomdrops.CustomDropsHandler;
 import com.dreammaster.modcustomfuels.CustomFuelsHandler;
 import com.dreammaster.modfixes.ModFixesMaster;
 import com.dreammaster.modfixes.avaritia.SkullFireSwordDropFix;
+import com.dreammaster.modfixes.oilgen.OilGeneratorFix;
 import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.network.CoreModDispatcher;
 import com.dreammaster.railcraftStones.NH_GeodePopulator;
 import com.dreammaster.railcraftStones.NH_QuarryPopulator;
+
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
@@ -308,6 +310,7 @@ public class MainRegistry
     private void registerModFixes()
     {
       ModFixesMaster.registerModFix( new SkullFireSwordDropFix() );
+      ModFixesMaster.registerModFix( new OilGeneratorFix() );
     }
     
     /**

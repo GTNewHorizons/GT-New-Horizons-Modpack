@@ -25,6 +25,9 @@ public class CoreModConfig extends ConfigManager
   public boolean ModBabyChest_Enabled;
   public int PotionTimer;
   public String[] SkullFireSwordEntityTargets;
+  public boolean GenerateOil;
+  public double OilSphereChance;
+  public double OilSpringChance;
 
   @Override
   protected void PreInit()
@@ -37,6 +40,8 @@ public class CoreModConfig extends ConfigManager
     ModAdminErrorLogs_Enabled = true;
     ModBabyChest_Enabled = true;
     PotionTimer = 100;
+    OilSphereChance = 1.8D;
+    OilSpringChance = 1.8D;
     SkullFireSwordEntityTargets = new String[] { "net.minecraft.entity.monster.EntitySkeleton", "galaxyspace.SolarSystem.planets.venus.entities.EntityEvolvedFireSkeleton", "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton" };
   }
 
@@ -52,6 +57,9 @@ public class CoreModConfig extends ConfigManager
     ModBabyChest_Enabled = _mainConfig.getBoolean( "BabyChest", "Modules", ModBabyChest_Enabled, "A complete, full working example for a custom chest, with its own renderer for items and blocks, custom sound and a GUI" );
     PotionTimer = _mainConfig.getInt( "PotionTimer", "Limits", PotionTimer, 100, 2048, "The time (in ticks) the potion effect will remain on the player when he drops the bucket. 20 = 1 second" );
     SkullFireSwordEntityTargets = _mainConfig.getStringList( "Avaritia_SkullFireSwordEntityTargets", "ModFixes", SkullFireSwordEntityTargets, "The Canonical Class-Name of the Entity" );
+    GenerateOil = _mainConfig.getBoolean( "GenerateOil", "ModFixes", GenerateOil, "Set to true to enable OilSpawn from this Mod. Make sure to disable Oil-Spawn in BuildCraft if you do" );
+    OilSphereChance = _mainConfig.getFloat( "OilSphereChance", "ModFixes", (float)OilSphereChance, 0F, 100F, "OilGen factor of oil spheres underground" );
+    OilSpringChance = _mainConfig.getFloat( "OilSpringChance", "ModFixes", (float)OilSpringChance, 0F, 100F, "OilGen factor of oil springs" );
   }
 
   @Override
