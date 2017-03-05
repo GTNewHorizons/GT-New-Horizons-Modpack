@@ -51196,7 +51196,7 @@
     {
       "questID": 625,
       "name": "Packing your Chests and Barrels",
-      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem make a dolly and you can carry your full chests and barrels anywhere you want. Be warned you will get a slowness debuff so hopefully you don't have to travel far.\n\nHint : pacPlace the dolly holding your chest/barrel in a Bag of some sort to avoid the slowness.",
+      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem make a dolly and you can carry your full chests and barrels anywhere you want. Be warned you will get a slowness debuff so hopefully you don\u0027t have to travel far.\n\nHint : pacPlace the dolly holding your chest/barrel in a Bag of some sort to avoid the slowness.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52345,7 +52345,7 @@
     },
     {
       "questID": 637,
-      "name": "Do'h!",
+      "name": "Do\u0027h!",
       "description": "Water and Flour makes a Dough or two...\nDough can be used in many food recipes from Pams Harvestcraft.",
       "isMain": false,
       "isSilent": false,
@@ -61010,13 +61010,378 @@
           "rewardID": "bq_standard:choice"
         },
         {
-          "rewards": [],
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
         36,
         483
+      ]
+    },
+    {
+      "questID": 719,
+      "name": "First Breeding",
+      "description": "Now on your double Seed Sticks gwon now new seeds. You can harvest them with right click or get seedbags eventually with left klick. This will destroy the plant. Collecting 8 seed bag of any kind of seed.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCropSeed",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "owner:8": "IC2",
+          "name:8": "potato",
+          "scan:4": 4,
+          "growth:4": 1,
+          "resistance:4": 1,
+          "gain:4": 1
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "potato",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        718
+      ]
+    },
+    {
+      "questID": 720,
+      "name": "Weed",
+      "description": "Weed will gown up from time to time on your crop sticks. Be carefull and harvest the weed with you weetowl before the whole field are overgrown with weed and destroy all your plants. LAter you can make some Weed Ex to destroy it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemWeed",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemWeedingTrowel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemWeed",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        719
+      ]
+    },
+    {
+      "questID": 721,
+      "name": "Unknown seeds no more",
+      "description": "You get alot of unkwon Seedbags allready. Using your Scanner to scann all the seeds. Seedbags can planted again to breed better and resitenter crops.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Natura:N Crops",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:glowstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockCrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        719,
+        543
+      ]
+    },
+    {
+      "questID": 722,
+      "name": "Speed up your plat grows",
+      "description": "To speed up your grow process a bit you can using fertilizer. Bone meal not working here anymore. A bit ash, apatite or calcite mixing with some destilled water in the chemical reactor will give you the fertilizer you need.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFertilizer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFertilizer",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_hoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        719,
+        543
       ]
     },
     {
@@ -66321,73 +66686,93 @@
       "quests": [
         {
           "id": 627,
-          "x": 168,
+          "x": 216,
           "y": 36
         },
         {
           "id": 628,
-          "x": 168,
+          "x": 216,
           "y": 0
         },
         {
           "id": 629,
-          "x": 168,
+          "x": 216,
           "y": 72
         },
         {
           "id": 630,
-          "x": 168,
+          "x": 216,
           "y": 108
         },
         {
           "id": 631,
-          "x": 216,
+          "x": 264,
           "y": 36
         },
         {
           "id": 632,
-          "x": 216,
+          "x": 264,
           "y": 180
         },
         {
           "id": 633,
-          "x": 216,
+          "x": 264,
           "y": 72
         },
         {
           "id": 634,
-          "x": 72,
+          "x": 120,
           "y": 36
         },
         {
           "id": 635,
-          "x": 72,
+          "x": 120,
           "y": 72
         },
         {
           "id": 636,
-          "x": 72,
+          "x": 120,
           "y": 144
         },
         {
           "id": 637,
-          "x": 72,
+          "x": 120,
           "y": 108
         },
         {
           "id": 638,
-          "x": 72,
+          "x": 120,
           "y": 180
         },
         {
           "id": 665,
-          "x": 276,
+          "x": 324,
           "y": 36
         },
         {
           "id": 718,
-          "x": 0,
+          "x": 48,
           "y": 36
+        },
+        {
+          "id": 719,
+          "x": 48,
+          "y": 72
+        },
+        {
+          "id": 720,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 721,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 722,
+          "x": 48,
+          "y": 108
         }
       ]
     },
