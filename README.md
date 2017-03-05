@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.0.0 available (04.03.2017)
+Version pre1.4.0.1 available (05.03.2017)
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -67,25 +67,27 @@ Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<B
 FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Dicord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
-Forum Link: http://gtnewhorizons.enjin.com/<BR>
+Forum Link: http://gtnewhorizons.com/<BR>
 
 
 ## EU Server:<BR>
 
 Official EU Server Public<BR>
-http://gtnewhorizons.enjin.com/<BR>
-eu.gtnewhorizons.com<BR>
+http://gtnewhorizons.com/<BR>
+delta.gtnewhorizons.com<BR>
 
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
 138.201.196.161:25562<BR>
+138.201.134.44:25562<BR>
 
  
 ## US Server:<BR>
 
 Prospercraft Greylist<BR>
 http://www.prospercraft.com/<BR>
+newhorizonsold.prospercraft.com<BR>
 newhorizons.prospercraft.com<BR>
 
 
@@ -94,10 +96,15 @@ http://stonelegion.com<BR>
 mc.stonelegion.com<BR>
 
 
+Bacon Gaming Whitelist<BR>
+https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
+Bacongaming.net:25577<BR>
+
+
 ---
 
 
-## Modlist - NewHorizons pre1.4.0.0 --- 04.03.2017<BR>
+## Modlist - NewHorizons pre1.4.0.1 --- 05.03.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9fbeta27<BR>
@@ -136,8 +143,8 @@ mc.stonelegion.com<BR>
 * Catwalk Mod 1.1.0<BR>
 * CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
-* CofhCore	3.1.3.327<BR>
-* CofhLib	1.1.2.182<BR>
+* CofhCore	3.1.4.329<BR>
+* CofhLib	1.2.1.185<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics	1.6.2<BR>
 * Craft Tweaker 3.0.12<BR>
@@ -164,8 +171,8 @@ mc.stonelegion.com<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.472<BR>
-* GalacticraftCore	3.0.12.472<BR>
+* Galacticraft-Planets	3.0.12.474<BR>
+* GalacticraftCore	3.0.12.474<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
@@ -195,7 +202,7 @@ mc.stonelegion.com<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.472<BR>
+* MicdoodleCore	3.0.12.474<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -207,13 +214,13 @@ mc.stonelegion.com<BR>
 * Nei Integration	1.1.2<BR>
 * Nodal Mechanics	1.0-13<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
-* Open Blocks	1.5.1.747<BR>
+* Open Blocks	1.6.753<BR>
 * Open Computers	1.6.2.12<BR>
-* Open Mods Lib	0.9.1.462<BR>
-* Open Modular Turrets 2.2.10.233<BR>
-* Open Peripheral Addons 0.5.1.248
-* Open Peripheral Core 1.3.279
-* Open Peripheral Integration 0.5.93
+* Open Mods Lib	0.10.464<BR>
+* Open Modular Turrets 2.2.10.237<BR>
+* Open Peripheral Addons 0.6.249
+* Open Peripheral Core 1.4.280
+* Open Peripheral Integration 0.6.95
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-99<BR>
 * p455w0rdslib 1.0.4<BR>
