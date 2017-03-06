@@ -187,9 +187,5 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 2L, 13), tBitMask, new Object[]{"SPS", "PdP", "SPS", 'P', OrePrefixes.plate.get(Materials.Steel), 'S', OrePrefixes.screw.get(Materials.Steel)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 14), tBitMask, new Object[]{"SPS", "LdL", "SPS", 'P', OrePrefixes.plate.get(Materials.Steel), 'S', OrePrefixes.screw.get(Materials.Steel), 'L',GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 1)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 15), tBitMask, new Object[]{"SPS", "BdB", "SPS", 'S', OrePrefixes.screw.get(Materials.Steel), 'B', CustomItemList.SteelBars, 'P', OrePrefixes.pipeLarge.get(Materials.Steel)});
-
-        GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("harvestcraft", "saltItem", 1L, 0), GT_ModHandler.RecipeBits.DISMANTLEABLE| GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"SS ", "SS ", 'S', OrePrefixes.dustSmall.get(Materials.Salt)});
-        GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("harvestcraft", "saltItem", 1L, 0), GT_ModHandler.RecipeBits.DISMANTLEABLE| GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"SSS", "SSS", "SSS", 'S', OrePrefixes.dustTiny.get(Materials.Salt)});
-
-    }
+        }
     }
