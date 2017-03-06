@@ -40,8 +40,8 @@ public class CoreModConfig extends ConfigManager
     ModAdminErrorLogs_Enabled = true;
     ModBabyChest_Enabled = true;
     PotionTimer = 100;
-    OilSphereChance = 1.8D;
-    OilSpringChance = 5;
+    OilSphereChance = 1.0D;
+    OilSpringChance = 15;
     SkullFireSwordEntityTargets = new String[] { "net.minecraft.entity.monster.EntitySkeleton", "galaxyspace.SolarSystem.planets.venus.entities.EntityEvolvedFireSkeleton", "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton" };
   }
 

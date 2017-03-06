@@ -140,6 +140,7 @@ public class OilGeneratorFix extends ModFixBase
 
       if( MainRegistry.CoreConfig.OilSpringChance > rand.nextInt( 100 ) )
       {
+        MainRegistry.Logger.info( String.format( "OilSphere at %d/%d/%d is now getting a fountain!", x, cy, z ) );
         for( int y = cy + 1; y <= maxHeight; y++ )
         {
           world.setBlock( x, y, z, _mBuildCraftOilBlock, 0, 3 );
