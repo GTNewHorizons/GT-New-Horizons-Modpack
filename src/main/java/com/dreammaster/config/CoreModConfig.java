@@ -27,7 +27,7 @@ public class CoreModConfig extends ConfigManager
   public String[] SkullFireSwordEntityTargets;
   public boolean GenerateOil;
   public double OilSphereChance;
-  public double OilSpringChance;
+  public int OilSpringChance;
 
   @Override
   protected void PreInit()
@@ -41,7 +41,7 @@ public class CoreModConfig extends ConfigManager
     ModBabyChest_Enabled = true;
     PotionTimer = 100;
     OilSphereChance = 1.8D;
-    OilSpringChance = 1.8D;
+    OilSpringChance = 5;
     SkullFireSwordEntityTargets = new String[] { "net.minecraft.entity.monster.EntitySkeleton", "galaxyspace.SolarSystem.planets.venus.entities.EntityEvolvedFireSkeleton", "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton" };
   }
 
@@ -59,7 +59,7 @@ public class CoreModConfig extends ConfigManager
     SkullFireSwordEntityTargets = _mainConfig.getStringList( "Avaritia_SkullFireSwordEntityTargets", "ModFixes", SkullFireSwordEntityTargets, "The Canonical Class-Name of the Entity" );
     GenerateOil = _mainConfig.getBoolean( "GenerateOil", "ModFixes", GenerateOil, "Set to true to enable OilSpawn from this Mod. Make sure to disable Oil-Spawn in BuildCraft if you do" );
     OilSphereChance = _mainConfig.getFloat( "OilSphereChance", "ModFixes", (float)OilSphereChance, 0F, 100F, "OilGen factor of oil spheres underground" );
-    OilSpringChance = _mainConfig.getFloat( "OilSpringChance", "ModFixes", (float)OilSpringChance, 0F, 100F, "OilGen factor of oil springs" );
+    OilSpringChance = _mainConfig.getInt( "OilSpringChance", "ModFixes", OilSpringChance, 0, 100, "Chance (in percent) to spawn a spring above the oil-sphere, so it becomes visible" );
   }
 
   @Override
