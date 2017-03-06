@@ -1564,17 +1564,6 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -7874,7 +7863,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -37903,10 +37892,10 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemIngot",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 11300
             },
             {
               "id": "TConstruct:GravelOre",
@@ -61029,7 +61018,7 @@
     {
       "questID": 719,
       "name": "First Breeding",
-      "description": "Now on your double Seed Sticks gwon now new seeds. You can harvest them with right click or get seedbags eventually with left klick. This will destroy the plant. Collecting 8 seed bag of any kind of seed.",
+      "description": "Now on your double Seed Sticks grown now new seeds. You can harvest them with right click or get seed bags eventually with left click. This will destroy the plant. Collecting 8 seed bag of any kind of seed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61074,11 +61063,11 @@
               "Damage": 0,
               "tag": {
                 "owner:8": "IC2",
-                "name:8": "potato",
-                "scan:4": 4,
+                "name:8": "carrots",
+                "scan:4": 0,
                 "growth:4": 1,
-                "resistance:4": 1,
-                "gain:4": 1
+                "resistance:4": 0,
+                "gain:4": 0
               }
             }
           ],
@@ -61127,8 +61116,8 @@
     },
     {
       "questID": 720,
-      "name": "Weed",
-      "description": "Weed will gown up from time to time on your crop sticks. Be carefull and harvest the weed with you weetowl before the whole field are overgrown with weed and destroy all your plants. LAter you can make some Weed Ex to destroy it.",
+      "name": "Weed II",
+      "description": "Weed, weed and weed. You got so much of it when cros breeding. \nNeed some  Bio Gas Cells for your power production in exchange or maybe some Glowstone to light up your Fields.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61154,28 +61143,13 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemWeedingTrowel",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
               "id": "IC2:itemWeed",
-              "Count": 16,
+              "Count": 256,
               "OreDict": "",
               "Damage": 0
             }
@@ -61187,14 +61161,14 @@
         {
           "choices": [
             {
-              "id": "IC2:blockCrop",
-              "Count": 16,
+              "id": "IC2:itemCellEmpty",
+              "Count": 128,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 7
             },
             {
               "id": "minecraft:glowstone",
-              "Count": 8,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             },
@@ -61202,7 +61176,15 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 28
+              "Damage": 30,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -61220,13 +61202,14 @@
         }
       ],
       "preRequisites": [
-        719
+        724,
+        531
       ]
     },
     {
       "questID": 721,
       "name": "Unknown seeds no more",
-      "description": "You get alot of unkwon Seedbags allready. Using your Scanner to scann all the seeds. Seedbags can planted again to breed better and resitenter crops.",
+      "description": "You get allot of unknown Seed bags already. Using your Scanner to scan all the seeds.  Seed bags can planted again to breed better and resistance  crops.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61255,7 +61238,37 @@
           "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
-          "requiredItems": [],
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 341
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "carrots",
+                "scan:4": 0,
+                "growth:4": 1,
+                "resistance:4": 0,
+                "gain:4": 0
+              }
+            }
+          ],
           "taskID": "bq_standard:retrieval"
         }
       ],
@@ -61270,7 +61283,7 @@
             },
             {
               "id": "IC2:blockCrop",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
@@ -61278,7 +61291,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 28
+              "Damage": 29
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -61287,7 +61300,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 20,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -61296,14 +61309,14 @@
         }
       ],
       "preRequisites": [
-        719,
-        543
+        531,
+        719
       ]
     },
     {
       "questID": 722,
       "name": "Speed up your plat grows",
-      "description": "To speed up your grow process a bit you can using fertilizer. Bone meal not working here anymore. A bit ash, apatite or calcite mixing with some destilled water in the chemical reactor will give you the fertilizer you need.",
+      "description": "To speed up your grow process a bit you can using fertilizer. Bone meal not working here anymore. A bit ash, apatite or calcite mixing with some distilled water in the chemical reactor will give you the fertilizer you need.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61382,6 +61395,316 @@
       "preRequisites": [
         719,
         543
+      ]
+    },
+    {
+      "questID": 723,
+      "name": "Potatos, Carrots, Pumkins and Melons",
+      "description": "Your Seedbags have tree different values. Growth, gain and resitance \u003d GGR.\n\nThe only way to change a crop\u0027s GGR without 3rd party tools is through Cross Breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both \"parent\" plants\u0027 GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.\n\nThe highest score for GGR is 31.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:carrot",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:carrot",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potato",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:melon_block",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:pumpkin",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:melon",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:glowstone",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockCrop",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        721
+      ]
+    },
+    {
+      "questID": 724,
+      "name": "Weed",
+      "description": "Weed will gown up from time to time on your crop sticks. Be careful and harvest the weed with you weed towel  before the whole field are overgrown with weed and destroy all your plants. Later you can make some Weed Ex to destroy it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemWeed",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemWeedingTrowel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemWeed",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        719
+      ]
+    },
+    {
+      "questID": 725,
+      "name": "Flower Power",
+      "description": "Growing Deys on Crops Sticks? Try to plant some flowers. If you cross Breeding Rose and Dandoline Flowers you maybe get new Flowers and new dyes with different colors.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:red_flower",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dye",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "blackthorn",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "cyazint",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        721
       ]
     },
     {
@@ -62651,7 +62974,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 1,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -66686,77 +67009,77 @@
       "quests": [
         {
           "id": 627,
-          "x": 216,
+          "x": 264,
           "y": 36
         },
         {
           "id": 628,
-          "x": 216,
+          "x": 264,
           "y": 0
         },
         {
           "id": 629,
-          "x": 216,
+          "x": 264,
           "y": 72
         },
         {
           "id": 630,
-          "x": 216,
+          "x": 264,
           "y": 108
         },
         {
           "id": 631,
-          "x": 264,
+          "x": 312,
           "y": 36
         },
         {
           "id": 632,
-          "x": 264,
+          "x": 312,
           "y": 180
         },
         {
           "id": 633,
-          "x": 264,
+          "x": 312,
           "y": 72
         },
         {
           "id": 634,
-          "x": 120,
+          "x": 168,
           "y": 36
         },
         {
           "id": 635,
-          "x": 120,
+          "x": 168,
           "y": 72
         },
         {
           "id": 636,
-          "x": 120,
+          "x": 168,
           "y": 144
         },
         {
           "id": 637,
-          "x": 120,
+          "x": 168,
           "y": 108
         },
         {
           "id": 638,
-          "x": 120,
+          "x": 168,
           "y": 180
         },
         {
           "id": 665,
-          "x": 324,
+          "x": 372,
           "y": 36
         },
         {
           "id": 718,
-          "x": 48,
+          "x": 96,
           "y": 36
         },
         {
           "id": 719,
-          "x": 48,
+          "x": 96,
           "y": 72
         },
         {
@@ -66766,13 +67089,28 @@
         },
         {
           "id": 721,
-          "x": 0,
+          "x": 48,
           "y": 108
         },
         {
           "id": 722,
-          "x": 48,
+          "x": 96,
           "y": 108
+        },
+        {
+          "id": 723,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 724,
+          "x": 48,
+          "y": 72
+        },
+        {
+          "id": 725,
+          "x": 0,
+          "y": 156
         }
       ]
     },
