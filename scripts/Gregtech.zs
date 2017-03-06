@@ -630,7 +630,7 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:3817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 // -
-recipes.addShaped<gregtech:gt.metaitem.01:2817> [
+recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:4817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 
