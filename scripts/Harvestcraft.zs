@@ -373,9 +373,9 @@ recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct
 // --- Salt
 recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]); 
 // -
-recipes.addShapeless(<harvestcraft:saltItem>, [<harvestcraft:potItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
 // -
-recipes.addShapeless(<harvestcraft:saltItem>, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
 
 // --- Wet Tofu
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
@@ -439,7 +439,7 @@ Compressor.addRecipe(<harvestcraft:waxItem>, <harvestcraft:beeswaxItem> * 4);
 Compressor.addRecipe(<harvestcraft:waxItem>, <Forestry:beeswax> * 4);
 
 // --- Compressed Salt Block
-Compressor.addRecipe(<harvestcraft:spamcompressedsaltBlockalt>, <harvestcraft:saltItem> * 9);
+Compressor.addRecipe(<harvestcraft:spamcompressedsaltBlockalt>, <gregtech:gt.metaitem.01:2817> * 9);
 
 
 
@@ -613,7 +613,7 @@ Extractor.addRecipe(<harvestcraft:beeswaxItem>, <harvestcraft:candleberryItem> *
 
 
 // --- Salt
-Macerator.addRecipe(<harvestcraft:saltItem> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompressedsaltBlockalt>);
 
 // --- Corn Meal
 Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);

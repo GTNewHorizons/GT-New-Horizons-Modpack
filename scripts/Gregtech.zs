@@ -614,23 +614,23 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:craftingToolMortar>, null, null]]);
 
 // --- Salt Dust
-recipes.addShaped(<harvestcraft:saltItem>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 // -
-recipes.addShaped(<harvestcraft:saltItem>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:1817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 // -
-recipes.addShaped(<harvestcraft:saltItem>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:2817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 // -
-recipes.addShaped(<harvestcraft:saltItem>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
 [<gregtech:gt.blockores:3817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 // -
-recipes.addShaped(<harvestcraft:saltItem>, [
+recipes.addShaped<gregtech:gt.metaitem.01:2817> [
 [<gregtech:gt.blockores:4817>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
 
@@ -906,10 +906,6 @@ recipes.addShaped(<gregtech:gt.blockgranites:13>, [
 [<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:11>, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
-// --- Salt
-recipes.addShapeless(<harvestcraft:saltItem>, [<gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>, <gregtech:gt.metaitem.01:817>]);
-// -
-recipes.addShapeless(<harvestcraft:saltItem>, [<gregtech:gt.metaitem.01:1817>, <gregtech:gt.metaitem.01:1817>, <gregtech:gt.metaitem.01:1817>, <gregtech:gt.metaitem.01:1817>]);
 
 
 
