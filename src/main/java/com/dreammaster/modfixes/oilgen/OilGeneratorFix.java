@@ -2,6 +2,8 @@
 package com.dreammaster.modfixes.oilgen;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import com.dreammaster.main.MainRegistry;
@@ -9,6 +11,8 @@ import com.dreammaster.modfixes.ModFixBase;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import eu.usrv.yamcore.auxiliary.IntHelper;
+import eu.usrv.yamcore.auxiliary.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.block.BlockStaticLiquid;
@@ -18,6 +22,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.world.biome.BiomeGenDesert;
 import net.minecraft.world.chunk.Chunk;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.terraingen.PopulateChunkEvent;
 import net.minecraftforge.fluids.BlockFluidBase;
 import net.minecraftforge.fluids.IFluidBlock;
@@ -25,12 +30,68 @@ import net.minecraftforge.fluids.IFluidBlock;
 
 public class OilGeneratorFix extends ModFixBase
 {
+  public static class OilConfig
+  {
+    public boolean OilFixEnabled = false;
+    public double OilSphereChance = 1.0D;
+    public int OilSpringChance = 15;
+    public int OilSphereMinRadius = 3;
+    public int OilSphereMaxSize = 5;
+    public int OilDepositThresholdLarge = 10;
+    public int OilFountainSizeSmall = 5;
+    public int OilFountainSizeLarge = 16;
+    public double OilBiomeBoostFactor = 1.8D;
+    public List<Integer> OilDimensionWhitelist = new ArrayList<Integer>();
+    public List<Integer> OilBiomeIDBlackList = new ArrayList<Integer>();
+    public List<Integer> OilBoostBiomes = new ArrayList<Integer>();
+
+    public OilConfig( Configuration pConfigObject )
+    {
+      OilFixEnabled = pConfigObject.getBoolean( "GenerateOil", "ModFixes", OilFixEnabled, "Set to true to enable OilSpawn from this Mod. Make sure to disable Oil-Spawn in BuildCraft if you do" );
+      OilSphereChance = pConfigObject.getFloat( "OilSphereChance", "ModFixes.OilGen", (float) OilSphereChance, 0.0F, 3F, "OilGen factor of oil spheres underground. 3.0 is about 70% spawn rate per chunk, 0.05 is about 1,2%" );
+      OilSpringChance = pConfigObject.getInt( "OilSpringChance", "ModFixes.OilGen", OilSpringChance, 0, 100, "Chance (in percent) to spawn a spring above the oil-sphere, so it becomes visible" );
+      OilSphereMinRadius = pConfigObject.getInt( "OilSphereMinRadius", "ModFixes.OilGen", OilSphereMinRadius, 0, 20, "The minimum radius of an underground OilSphere" );
+      OilSphereMaxSize = pConfigObject.getInt( "OilSphereMaxSize", "ModFixes.OilGen", OilSphereMaxSize, 3, 50, "The maximum radius of an underground OilSphere. The final size is calculated by OilSphereMinRadius + Random(OilSphereMaxSize)" );
+      OilDepositThresholdLarge = pConfigObject.getInt( "OilDepositThresholdLarge", "ModFixes.OilGen", OilDepositThresholdLarge, 0, 100, "Threshold at which an oil-deposit will be considered as 'large' and the fountain will be higher and thicker." );
+      OilFountainSizeSmall = pConfigObject.getInt( "OilFountainSizeSmall", "ModFixes.OilGen", OilFountainSizeSmall, 0, 100, "Visible height of the fountain above the oil-deposit" );
+      OilFountainSizeLarge = pConfigObject.getInt( "OilFountainSizeLarge", "ModFixes.OilGen", OilFountainSizeLarge, 0, 100, "Visible height of the fountain above the oil-deposit" );
+      OilBiomeBoostFactor = pConfigObject.getFloat( "OilBiomeBoostFactor", "ModFixes.OilGen", (float) OilBiomeBoostFactor, 0.0F, 3F, "OilGen factor of oil spheres underground. 3.0 is about 70% spawn rate per chunk, 0.05 is about 1,2%" );
+
+      OilDimensionWhitelist = parseStringListToIntList( pConfigObject.getStringList( "OilDimensionWhitelist", "ModFixes.OilGen", new String[] { "0" }, "List DimensionIDs here where the OilGenerator should do its work" ) );
+      OilBiomeIDBlackList = parseStringListToIntList( pConfigObject.getStringList( "OilBiomeIDBlackList", "ModFixes.OilGen", new String[] {}, "List BiomeIDs where no oil should be generated" ) );
+      OilBoostBiomes = parseStringListToIntList( pConfigObject.getStringList( "OilBoostBiomes", "ModFixes.OilGen", new String[] {}, "List BiomeIDs where the boost multiplicator is applied. Leave empty to disable Biome-Boost" ) );
+
+    }
+
+    private List<Integer> parseStringListToIntList( String[] pSource )
+    {
+      List<Integer> tLst = new ArrayList<Integer>();
+
+      for( String tEntry : pSource )
+      {
+        if( IntHelper.tryParse( tEntry ) )
+          tLst.add( Integer.parseInt( tEntry ) );
+      }
+
+      return tLst;
+    }
+  }
+
   private Block _mBuildCraftOilBlock;
+  public static String ModFixName = "OilGeneratorFix";
+  private LogHelper _mLog;
 
   public OilGeneratorFix()
   {
-    super( "OilGeneratorFix" );
+    super( ModFixName );
     _mBuildCraftOilBlock = GameRegistry.findBlock( "BuildCraft|Energy", "blockOil" );
+    _mLog = MainRegistry.Logger;
+  }
+
+  @Override
+  public boolean getIsActive()
+  {
+    return !( _mBuildCraftOilBlock == null );
   }
 
   @Override
@@ -38,12 +99,12 @@ public class OilGeneratorFix extends ModFixBase
   {
     if( _mBuildCraftOilBlock == null )
     {
-      MainRegistry.Logger.error( "Unable to find BuildCraft Oil Block. ModFix will not spawn anything" );
+      _mLog.error( "Unable to find BuildCraft Oil Block. ModFix will not spawn anything" );
       return false;
     }
     else
     {
-      MainRegistry.Logger.info( "Found BC Oil block. Ready for worldgen!" );
+      _mLog.info( "Found BC Oil block. Ready for worldgen!" );
       return true;
     }
   }
@@ -85,49 +146,71 @@ public class OilGeneratorFix extends ModFixBase
       int x = (int) pos.xCoord;
       int cy = (int) pos.yCoord;
       int z = (int) pos.zCoord;
-      int r = 3 + rand.nextInt( 5 );
+      int r = MainRegistry.CoreConfig.OilFixConfig.OilSphereMinRadius + rand.nextInt( MainRegistry.CoreConfig.OilFixConfig.OilSphereMaxSize + 1 );
 
       if( ( testFirst ) && ( checkOilPresent( world, x, cy, z, r ) ) )
         return;
 
-      int r2 = r * r;
-      MainRegistry.Logger.info( String.format( "About to generate OilSphere, centered at %d/%d/%d, radius %d", x, cy, z, r2 ) );
+      _mLog.info( String.format( "About to generate OilSphere, centered at %d/%d/%d, radius %d", x, cy, z, r ) );
 
       // Taken from BuildCraft; Dont' generate if topblock is at y = 5
       // Should already be covered in shouldSpawnOil, but you never know..
       int groundLevel = getTopBlock( world, x, z );
       if( groundLevel < 5 )
-        return;
-
-      // Make sure to not exceed the max-build height of minecraft
-      int maxHeight = groundLevel + 16;
-      if( maxHeight >= world.getActualHeight() - 1 )
-        return;
-
-      for( int bx = -r; bx <= r; bx++ )
       {
-        for( int by = -r + 2; by <= r - 2; by++ )
-        {
-          for( int bz = -r; bz <= r; bz++ )
-          {
-            int d2 = bx * bx + by * by * 3 + bz * bz;
+        _mLog.warn( "OilGenerator stopped; World-height is below 5" );
+        return;
+      }
 
-            if( d2 <= r2 )
+      buildOilStructure( world, rand, x, cy, z, r, groundLevel, _mBuildCraftOilBlock, false, true );
+    }
+  }
+
+  public void buildOilStructure( World pWorld, Random pRand, int pSphereX, int pSphereY, int pSphereZ, int pRadius, int pGroundLevel, Block pTargetBlock, boolean pForceFountain, boolean pCheckValidLocation )
+  {
+    // Make sure to not exceed the max-build height of minecraft
+
+    int tSpringHeight = 0;
+    boolean tIsLargeFountain = false;
+    if( pRadius >= MainRegistry.CoreConfig.OilFixConfig.OilDepositThresholdLarge )
+    {
+      tSpringHeight = MainRegistry.CoreConfig.OilFixConfig.OilFountainSizeLarge;
+      tIsLargeFountain = true;
+    }
+    else
+      tSpringHeight = MainRegistry.CoreConfig.OilFixConfig.OilFountainSizeSmall;
+
+    int pMaxHeight = pGroundLevel + tSpringHeight;
+    if( pMaxHeight >= pWorld.getActualHeight() - 1 )
+    {
+      _mLog.warn( "The total height of the calculated OilDeposit would exceed the maximum world-size." );
+      return;
+    }
+
+    int r2 = pRadius * pRadius;
+    for( int bx = -pRadius; bx <= pRadius; bx++ )
+    {
+      for( int by = -pRadius + 2; by <= pRadius - 2; by++ )
+      {
+        for( int bz = -pRadius; bz <= pRadius; bz++ )
+        {
+          int d2 = bx * bx + by * by * 3 + bz * bz;
+
+          if( d2 <= r2 )
+          {
+            if( !checkBlock( pWorld, bx + pSphereX - 1, by + pSphereY, bz + pSphereZ ) || !pCheckValidLocation )
             {
-              if( !checkBlock( world, bx + x - 1, by + cy, bz + z ) )
+              if( !checkBlock( pWorld, bx + pSphereX + 1, by + pSphereY, bz + pSphereZ ) || !pCheckValidLocation )
               {
-                if( !checkBlock( world, bx + x + 1, by + cy, bz + z ) )
+                if( !checkBlock( pWorld, bx + pSphereX, by + pSphereY - 1, bz + pSphereZ ) || !pCheckValidLocation )
                 {
-                  if( !checkBlock( world, bx + x, by + cy - 1, bz + z ) )
+                  if( !checkBlock( pWorld, bx + pSphereX, by + pSphereY, bz + pSphereZ - 1 ) || !pCheckValidLocation )
                   {
-                    if( !checkBlock( world, bx + x, by + cy, bz + z - 1 ) )
+                    if( !checkBlock( pWorld, bx + pSphereX, by + pSphereY, bz + pSphereZ + 1 ) || !pCheckValidLocation )
                     {
-                      if( !checkBlock( world, bx + x, by + cy, bz + z + 1 ) )
+                      if( !checkBlockAbove( pWorld, bx + pSphereX, by + pSphereY + 1, bz + pSphereZ ) || !pCheckValidLocation )
                       {
-                        if( !checkBlockAbove( world, bx + x, by + cy + 1, bz + z ) )
-                        {
-                          world.setBlock( bx + x, by + cy, bz + z, _mBuildCraftOilBlock, 0, 2 );
-                        }
+                        pWorld.setBlock( bx + pSphereX, by + pSphereY, bz + pSphereZ, pTargetBlock, 0, 2 );
                       }
                     }
                   }
@@ -137,58 +220,63 @@ public class OilGeneratorFix extends ModFixBase
           }
         }
       }
+    }
 
-      if( MainRegistry.CoreConfig.OilSpringChance > rand.nextInt( 100 ) )
+    if( MainRegistry.CoreConfig.OilFixConfig.OilSpringChance > pRand.nextInt( 100 ) || pForceFountain )
+    {
+      _mLog.info( String.format( "OilSphere at %d/%d/%d is now getting a fountain", pSphereX, pSphereY, pSphereZ ) );
+      for( int y = pSphereY + 1; y <= pMaxHeight; y++ )
       {
-        MainRegistry.Logger.info( String.format( "OilSphere at %d/%d/%d is now getting a fountain!", x, cy, z ) );
-        for( int y = cy + 1; y <= maxHeight; y++ )
+        pWorld.setBlock( pSphereX, y, pSphereZ, pTargetBlock, 0, 3 );
+      }
+
+      if( tIsLargeFountain )
+      {
+        _mLog.info( "And it's a large one" );
+        for( int y = pSphereY; y <= pMaxHeight - tSpringHeight / 2; y++ )
         {
-          world.setBlock( x, y, z, _mBuildCraftOilBlock, 0, 3 );
-        }
-        for( int y = cy; y <= maxHeight - 16 / 2; y++ )
-        {
-          world.setBlock( x + 1, y, z, _mBuildCraftOilBlock, 0, 3 );
-          world.setBlock( x - 1, y, z, _mBuildCraftOilBlock, 0, 3 );
-          world.setBlock( x, y, z + 1, _mBuildCraftOilBlock, 0, 3 );
-          world.setBlock( x, y, z - 1, _mBuildCraftOilBlock, 0, 3 );
+          pWorld.setBlock( pSphereX + 1, y, pSphereZ, pTargetBlock, 0, 3 );
+          pWorld.setBlock( pSphereX - 1, y, pSphereZ, pTargetBlock, 0, 3 );
+          pWorld.setBlock( pSphereX, y, pSphereZ + 1, pTargetBlock, 0, 3 );
+          pWorld.setBlock( pSphereX, y, pSphereZ - 1, pTargetBlock, 0, 3 );
         }
       }
     }
   }
 
-  private int getTopBlock( World world, int x, int z )
+  private int getTopBlock( World pWorld, int pLocX, int pLocZ )
   {
-    Chunk chunk = world.getChunkFromBlockCoords( x, z );
-    int y = chunk.getTopFilledSegment() + 15;
+    Chunk tChunk = pWorld.getChunkFromBlockCoords( pLocX, pLocZ );
+    int y = tChunk.getTopFilledSegment() + 15;
 
-    int trimmedX = x & 0xF;
-    int trimmedZ = z & 0xF;
+    int trimmedX = pLocX & 0xF;
+    int trimmedZ = pLocZ & 0xF;
     for( ; y > 0; y-- )
     {
-      Block block = chunk.getBlock( trimmedX, y, trimmedZ );
+      Block tBlock = tChunk.getBlock( trimmedX, y, trimmedZ );
 
-      if( !block.isAir( world, x, y, z ) )
+      if( !tBlock.isAir( pWorld, pLocX, y, pLocZ ) )
       {
 
-        if( ( block instanceof BlockStaticLiquid ) )
+        if( ( tBlock instanceof BlockStaticLiquid ) )
         {
           return y;
         }
 
-        if( ( block instanceof BlockFluidBase ) )
+        if( ( tBlock instanceof BlockFluidBase ) )
         {
           return y;
         }
 
-        if( ( block instanceof IFluidBlock ) )
+        if( ( tBlock instanceof IFluidBlock ) )
         {
           return y;
         }
 
-        if( block.getMaterial().blocksMovement() )
+        if( tBlock.getMaterial().blocksMovement() )
         {
 
-          if( !( block instanceof BlockFlower ) )
+          if( !( tBlock instanceof BlockFlower ) )
           {
 
             return y - 1;
@@ -199,34 +287,34 @@ public class OilGeneratorFix extends ModFixBase
     return -1;
   }
 
-  private boolean checkOilPresent( World world, int x, int cy, int z, int r )
+  private boolean checkOilPresent( World pWorld, int pLocX, int pLocY, int pLocZ, int pRadius )
   {
-    int r2 = r * r;
+    int r2 = pRadius * pRadius;
 
-    for( int bx = -r; bx <= r; bx++ )
+    for( int bx = -pRadius; bx <= pRadius; bx++ )
     {
-      for( int by = -r + 2; by <= r - 2; by++ )
+      for( int by = -pRadius + 2; by <= pRadius - 2; by++ )
       {
-        for( int bz = -r; bz <= r; bz++ )
+        for( int bz = -pRadius; bz <= pRadius; bz++ )
         {
           int d2 = bx * bx + by * by * 3 + bz * bz;
 
           if( d2 <= r2 )
           {
-            if( !checkBlock( world, bx + x - 1, by + cy, bz + z ) )
+            if( !checkBlock( pWorld, bx + pLocX - 1, by + pLocY, bz + pLocZ ) )
             {
-              if( !checkBlock( world, bx + x + 1, by + cy, bz + z ) )
+              if( !checkBlock( pWorld, bx + pLocX + 1, by + pLocY, bz + pLocZ ) )
               {
-                if( !checkBlock( world, bx + x, by + cy - 1, bz + z ) )
+                if( !checkBlock( pWorld, bx + pLocX, by + pLocY - 1, bz + pLocZ ) )
                 {
-                  if( !checkBlock( world, bx + x, by + cy, bz + z - 1 ) )
+                  if( !checkBlock( pWorld, bx + pLocX, by + pLocY, bz + pLocZ - 1 ) )
                   {
-                    if( !checkBlock( world, bx + x, by + cy, bz + z + 1 ) )
+                    if( !checkBlock( pWorld, bx + pLocX, by + pLocY, bz + pLocZ + 1 ) )
                     {
-                      if( !checkBlockAbove( world, bx + x, by + cy + 1, bz + z ) )
+                      if( !checkBlockAbove( pWorld, bx + pLocX, by + pLocY + 1, bz + pLocZ ) )
                       {
 
-                        if( world.getBlock( bx + x, by + cy, bz + z ) == _mBuildCraftOilBlock )
+                        if( pWorld.getBlock( bx + pLocX, by + pLocY, bz + pLocZ ) == _mBuildCraftOilBlock )
                           return true;
                       }
                     }
@@ -243,26 +331,26 @@ public class OilGeneratorFix extends ModFixBase
 
   // This is supposed to check if the block in question to be replaced is NOT air, and if it's a liquid
   // that it is NOT our BC oil. (The logic in checkOilPresent is inverted)
-  private boolean checkBlock( World w, int x, int y, int z )
+  private boolean checkBlock( World pWorld, int pLocX, int pLocY, int pLocZ )
   {
-    Block b = w.getBlock( x, y, z );
-    if( b.getMaterial() == Material.air )
+    Block tBlock = pWorld.getBlock( pLocX, pLocY, pLocZ );
+    if( tBlock.getMaterial() == Material.air )
     {
       return true;
     }
-    return ( ( b instanceof net.minecraft.block.BlockLiquid ) ) && ( b != _mBuildCraftOilBlock );
+    return ( ( tBlock instanceof net.minecraft.block.BlockLiquid ) ) && ( tBlock != _mBuildCraftOilBlock );
   }
 
   // This is supposed to make sure no falling blocks are above the block to be placed,
   // would otherwise cause issues I assume
-  private static boolean checkBlockAbove( World w, int x, int y, int z )
+  private static boolean checkBlockAbove( World pWorld, int pLocX, int pLocY, int pLocZ )
   {
-    Block b = w.getBlock( x, y, z );
-    if( ( b instanceof net.minecraft.block.BlockSand ) )
+    Block tBlock = pWorld.getBlock( pLocX, pLocY, pLocZ );
+    if( ( tBlock instanceof net.minecraft.block.BlockSand ) )
     {
       return true;
     }
-    if( ( b instanceof net.minecraft.block.BlockGravel ) )
+    if( ( tBlock instanceof net.minecraft.block.BlockGravel ) )
     {
       return true;
     }
@@ -272,23 +360,22 @@ public class OilGeneratorFix extends ModFixBase
   // Check if given location is valid for spawning oil, and return the actual position in pPos
   private boolean shouldSpawnOil( World pWorld, Random pRand, int pX, int pZ, Vec3 pPos )
   {
-    // Limited to overworld
-    if( pWorld.provider.dimensionId != 0 )
+    // Limited to Whitelisted Dimensions
+    if( !MainRegistry.CoreConfig.OilFixConfig.OilDimensionWhitelist.contains( pWorld.provider.dimensionId ) )
       return false;
 
     BiomeGenBase biomegenbase = pWorld.getBiomeGenForCoords( pX + 8, pZ + 8 );
 
-    if( ( biomegenbase.biomeID == BiomeGenBase.sky.biomeID ) || ( biomegenbase.biomeID == BiomeGenBase.hell.biomeID ) )
-    {
+    // Skip blacklisted DimensionIDs
+    if( !MainRegistry.CoreConfig.OilFixConfig.OilBiomeIDBlackList.contains( biomegenbase.biomeID ) )
       return false;
-    }
 
     pRand.setSeed( pWorld.getSeed() );
     long i1 = pRand.nextInt() / 2L * 2L + 1L;
     long j1 = pRand.nextInt() / 2L * 2L + 1L;
     pRand.setSeed( pX * i1 + pZ * j1 ^ pWorld.getSeed() );
 
-    double randMod = Math.min( 0.2D, 0.08D * MainRegistry.CoreConfig.OilSphereChance );
+    double randMod = Math.min( 0.2D, 0.08D * MainRegistry.CoreConfig.OilFixConfig.OilSphereChance );
 
     if( biomegenbase.rootHeight >= 0.45F )
     {
@@ -298,10 +385,9 @@ public class OilGeneratorFix extends ModFixBase
     {
       randMod *= 1.8D;
     }
-    if( ( biomegenbase instanceof BiomeGenDesert ) )
-    {
-      randMod *= 1.8D;
-    }
+
+    if( MainRegistry.CoreConfig.OilFixConfig.OilBoostBiomes.contains( biomegenbase.biomeID ) )
+      randMod *= MainRegistry.CoreConfig.OilFixConfig.OilBiomeBoostFactor;
 
     boolean flag1 = pRand.nextDouble() <= randMod;
     boolean flag2 = pRand.nextDouble() <= randMod;

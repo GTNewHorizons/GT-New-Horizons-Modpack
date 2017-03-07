@@ -47,4 +47,9 @@ public class ModFixesMaster
     }
     mEnabled = true;
   }
+
+  public static IModFix getModFixInstance( String modFixName )
+  {
+    return mModFixes.get( modFixName );
+  }
 }

@@ -11,6 +11,8 @@ public interface IModFix
   boolean needsFMLEventBus();
   String getModFixName();
   
+  boolean getIsActive();
+  
   boolean init();
   
 }

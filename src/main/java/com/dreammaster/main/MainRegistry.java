@@ -39,6 +39,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
+import eu.usrv.yamcore.YAMCore;
 import eu.usrv.yamcore.auxiliary.IngameErrorLog;
 import eu.usrv.yamcore.auxiliary.LogHelper;
 import eu.usrv.yamcore.blocks.ModBlockManager;
@@ -57,7 +58,7 @@ import java.util.Random;
         modid = Refstrings.MODID,
         name = Refstrings.NAME,
         version = Refstrings.VERSION,
-        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.63,);" + "required-after:Baubles@[1.0.1.10,);")
+        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.73,);" + "required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry
 {
 
@@ -309,8 +310,8 @@ public class MainRegistry
      */
     private void registerModFixes()
     {
-      ModFixesMaster.registerModFix( new SkullFireSwordDropFix() );
-      ModFixesMaster.registerModFix( new OilGeneratorFix() );
+      if (CoreConfig.AvaritiaFixEnabled) ModFixesMaster.registerModFix( new SkullFireSwordDropFix() );
+      if (CoreConfig.OilFixConfig.OilFixEnabled) ModFixesMaster.registerModFix( new OilGeneratorFix() );
     }
     
     /**
@@ -326,6 +327,7 @@ public class MainRegistry
         if (CoreConfig.ModItemInHandInfo_Enabled) pEvent.registerServerCommand(new ItemInHandInfoCommand());
         if (CoreConfig.ModCustomFuels_Enabled) pEvent.registerServerCommand(new CustomFuelsCommand());
         if (CoreConfig.ModCustomDrops_Enabled) pEvent.registerServerCommand(new CustomDropsCommand());
+        if (YAMCore.isDebug()) pEvent.registerServerCommand( new AllPurposeDebugCommand() );
     }
 
 }
