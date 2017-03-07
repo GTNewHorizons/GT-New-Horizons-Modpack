@@ -31,16 +31,16 @@ recipes.remove(<GalaxySpace:item.lead_helmet>);
 // --- Lead Leggings
 recipes.remove(<GalaxySpace:item.lead_leg>);
 
-// --- Cobaltum Boots
+// --- Cobalt Boots
 recipes.remove(<GalaxySpace:item.cobaltum_boots>);
 
-// --- Cobaltum Chestplate
+// --- Cobalt Chestplate
 recipes.remove(<GalaxySpace:item.cobaltum_plate>);
 
-// --- Cobaltum Helmet
+// --- Cobalt Helmet
 recipes.remove(<GalaxySpace:item.cobaltum_helmet>);
 
-// --- Cobaltum Leggings
+// --- Cobalt Leggings
 recipes.remove(<GalaxySpace:item.cobaltum_leg>);
 
 // --- Lead Battery
@@ -131,34 +131,34 @@ recipes.remove(<GalaxySpace:item.RocketParts:2>);
 recipes.remove(<GalaxySpace:item.RocketParts:3>);
 
 // --- Decorate Lead
-recipes.remove(<GalaxySpace:metalsblock>);
+recipes.remove(<GalaxySpace:decometalsblock>);
 
 // --- Decorate Adamantite
-recipes.remove(<GalaxySpace:metalsblock:1>);
+recipes.remove(<GalaxySpace:decometalsblock:1>);
 
-// --- Decorate Cobaltum
-recipes.remove(<GalaxySpace:metalsblock:2>);
+// --- Decorate Cobalt
+recipes.remove(<GalaxySpace:decometalsblock:2>);
 
 // --- Decorate Magnesium
-recipes.remove(<GalaxySpace:metalsblock:3>);
+recipes.remove(<GalaxySpace:decometalsblock:3>);
 
 // --- Decorate Mithril
-recipes.remove(<GalaxySpace:metalsblock:4>);
+recipes.remove(<GalaxySpace:decometalsblock:4>);
 
 // --- Decorate Nickel
-recipes.remove(<GalaxySpace:metalsblock:5>);
+recipes.remove(<GalaxySpace:decometalsblock:5>);
 
 // --- Decorate Oriharukon
-recipes.remove(<GalaxySpace:metalsblock:6>);
+recipes.remove(<GalaxySpace:decometalsblock:6>);
 
 // --- Decorate Platinum
-recipes.remove(<GalaxySpace:metalsblock:7>);
+recipes.remove(<GalaxySpace:decometalsblock:7>);
 
 // --- Decorate Wolfranium
-recipes.remove(<GalaxySpace:metalsblock:8>);
+recipes.remove(<GalaxySpace:decometalsblock:8>);
 
 // --- Decorate Copper
-recipes.remove(<GalaxySpace:metalsblock:9>);
+recipes.remove(<GalaxySpace:decometalsblock:9>);
 
 // --- Future Glass
 recipes.remove(<GalaxySpace:futureglass>);
@@ -177,6 +177,12 @@ recipes.remove(<GalaxySpace:oxstoragemoduleT2>);
 
 // --- Methane Gas Canister
 recipes.remove(<GalacticraftMars:item.methaneCanisterPartial:1>);
+
+// --- Gravity Module
+recipes.remove(<GalaxySpace:gravitationmoduleoff>);
+
+// --- Block of Adamntium
+recipes.remove(<GalaxySpace:metalsblock:1>);
 
 
 
@@ -226,57 +232,57 @@ recipes.addShaped(<GalaxySpace:solarwindpanel>, [
 [<GalacticraftCore:tile.aluminumWire:1>, <GalacticraftCore:item.steelPole>, <GalacticraftCore:tile.aluminumWire:1>],
 [<gregtech:gt.metaitem.01:32600>, <ore:waferAdvanced>, <gregtech:gt.metaitem.01:32690>]]);
 
-// --- Cobaltum Boots
+// --- Cobalt Boots
 recipes.addShaped(<GalaxySpace:item.cobaltum_boots>, [
 [<ore:plateDesh>, null, <ore:plateDesh>],
-[<ore:CompressedCobaltum>, <ore:craftingToolHardHammer>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, null, <ore:CompressedCobaltum>]]);
+[<ore:CompressedCobalt>, <ore:craftingToolHardHammer>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, null, <ore:CompressedCobalt>]]);
 
-// --- Cobaltum Chestplate
+// --- Cobalt Chestplate
 recipes.addShaped(<GalaxySpace:item.cobaltum_plate>, [
-[<ore:CompressedCobaltum>, <ore:craftingToolHardHammer>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, <ore:plateDesh>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:CompressedCobaltum>]]);
+[<ore:CompressedCobalt>, <ore:craftingToolHardHammer>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, <ore:plateDesh>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:CompressedCobalt>]]);
 
-// --- Cobaltum Helmet
+// --- Cobalt Helmet
 recipes.addShaped(<GalaxySpace:item.cobaltum_helmet>, [
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, <ore:craftingToolHardHammer>, <ore:CompressedCobaltum>],
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, <ore:craftingToolHardHammer>, <ore:CompressedCobalt>],
 [<ore:plateDesh>, null, <ore:plateDesh>]]);
 
-// --- Cobaltum Leggings
+// --- Cobalt Leggings
 recipes.addShaped(<GalaxySpace:item.cobaltum_leg>, [
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, <ore:plateDesh>, <ore:CompressedCobaltum>],
-[<ore:CompressedCobaltum>, <ore:craftingToolHardHammer>, <ore:CompressedCobaltum>]]);
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, <ore:plateDesh>, <ore:CompressedCobalt>],
+[<ore:CompressedCobalt>, <ore:craftingToolHardHammer>, <ore:CompressedCobalt>]]);
 
 // --- Plasma Sword
 recipes.addShaped(<GalaxySpace:item.plasmasword>.withTag({electricity: 0.0 as float}), [
-[<ore:plateDesh>, <ore:CompressedCobaltum>, <ore:plateDesh>],
-[<ore:craftingToolFile>, <ore:CompressedCobaltum>, <ore:craftingToolHardHammer>],
+[<ore:plateDesh>, <ore:CompressedCobalt>, <ore:plateDesh>],
+[<ore:craftingToolFile>, <ore:CompressedCobalt>, <ore:craftingToolHardHammer>],
 [<ore:plateDesh>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:tile.aluminumWire:1>]]);
 
 // --- Plasma Pickaxe
 recipes.addShaped(<GalaxySpace:item.plasmapickaxe>.withTag({electricity: 0.0 as float}), [
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:CompressedCobaltum>],
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:CompressedCobalt>],
 [<ore:craftingToolFile>, <GalacticraftCore:item.steelPole>, <ore:craftingToolHardHammer>],
 [<ore:plateDesh>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:tile.aluminumWire:1>]]);
 
 // --- Plasma Axe
 recipes.addShaped(<GalaxySpace:item.plasmaaxe>.withTag({electricity: 0.0 as float}), [
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:craftingToolHardHammer>],
-[<ore:CompressedCobaltum>,<GalacticraftCore:item.steelPole>, <ore:plateDesh>],
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:craftingToolHardHammer>],
+[<ore:CompressedCobalt>,<GalacticraftCore:item.steelPole>, <ore:plateDesh>],
 [<ore:craftingToolFile>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:tile.aluminumWire:1>]]);
 
 // --- Plasma Hoe
 recipes.addShaped(<GalaxySpace:item.plasmahoe>.withTag({electricity: 0.0 as float}), [
-[<ore:CompressedCobaltum>, <ore:CompressedCobaltum>, <ore:craftingToolHardHammer>],
+[<ore:CompressedCobalt>, <ore:CompressedCobalt>, <ore:craftingToolHardHammer>],
 [<ore:craftingToolFile>, <GalacticraftCore:item.steelPole>, <ore:plateDesh>],
 [<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <ore:plateDesh>]]);
 
 // --- Plasma Shovel
 recipes.addShaped(<GalaxySpace:item.plasmashovel>.withTag({electricity: 0.0 as float}), [
-[<ore:craftingToolFile>, <ore:CompressedCobaltum>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <ore:CompressedCobalt>, <ore:craftingToolHardHammer>],
 [<ore:plateDesh>, <GalacticraftCore:item.steelPole>, <ore:plateDesh>],
 [<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:tile.aluminumWire:1>]]);
 
@@ -299,61 +305,61 @@ recipes.addShaped(<GalaxySpace:item.ThermalClothT2>, [
 [<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>]]);
 
 // --- Decorate Lead
-recipes.addShaped(<GalaxySpace:metalsblock>, [
+recipes.addShaped(<GalaxySpace:decometalsblock>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedLead>, null],
 [<ore:CompressedLead>, <ore:stone>, <ore:CompressedLead>],
 [null, <ore:CompressedLead>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Adamantite
-recipes.addShaped(<GalaxySpace:metalsblock:1>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:1>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedAdamantite>, null],
 [<ore:CompressedAdamantite>, <ore:stone>, <ore:CompressedAdamantite>],
 [null, <ore:CompressedAdamantite>, <ore:craftingToolWrench>]]);
 
-// --- Decorate Cobaltum
-recipes.addShaped(<GalaxySpace:metalsblock:2>, [
-[<ore:craftingToolHardHammer>, <ore:CompressedCobaltum>, null],
-[<ore:CompressedCobaltum>, <ore:stone>, <ore:CompressedCobaltum>],
-[null, <ore:CompressedCobaltum>, <ore:craftingToolWrench>]]);
+// --- Decorate Cobalt
+recipes.addShaped(<GalaxySpace:decometalsblock:2>, [
+[<ore:craftingToolHardHammer>, <ore:CompressedCobalt>, null],
+[<ore:CompressedCobalt>, <ore:stone>, <ore:CompressedCobalt>],
+[null, <ore:CompressedCobalt>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Magnesium
-recipes.addShaped(<GalaxySpace:metalsblock:3>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:3>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedMagnesium>, null],
 [<ore:CompressedMagnesium>, <ore:stone>, <ore:CompressedMagnesium>],
 [null, <ore:CompressedMagnesium>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Mithril
-recipes.addShaped(<GalaxySpace:metalsblock:4>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:4>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedMithril>, null],
 [<ore:CompressedMithril>, <ore:stone>, <ore:CompressedMithril>],
 [null, <ore:CompressedMithril>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Nickel
-recipes.addShaped(<GalaxySpace:metalsblock:5>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:5>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedNickel>, null],
 [<ore:CompressedNickel>, <ore:stone>, <ore:CompressedNickel>],
 [null, <ore:CompressedNickel>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Oriharukon
-recipes.addShaped(<GalaxySpace:metalsblock:6>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:6>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedOriharukon>, null],
 [<ore:CompressedOriharukon>, <ore:stone>, <ore:CompressedOriharukon>],
 [null, <ore:CompressedOriharukon>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Platinum
-recipes.addShaped(<GalaxySpace:metalsblock:7>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:7>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedPlatinum>, null],
 [<ore:CompressedPlatinum>, <ore:stone>, <ore:CompressedPlatinum>],
 [null, <ore:CompressedPlatinum>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Wolfranium
-recipes.addShaped(<GalaxySpace:metalsblock:8>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:8>, [
 [<ore:craftingToolHardHammer>, <GalaxySpace:item.CompressedPlates:9>, null],
 [<GalaxySpace:item.CompressedPlates:9>, <ore:stone>, <GalaxySpace:item.CompressedPlates:9>],
 [null, <GalaxySpace:item.CompressedPlates:9>, <ore:craftingToolWrench>]]);
 
 // --- Decorate Copper
-recipes.addShaped(<GalaxySpace:metalsblock:9>, [
+recipes.addShaped(<GalaxySpace:decometalsblock:9>, [
 [<ore:craftingToolHardHammer>, <ore:compressedCopper>, null],
 [<ore:compressedCopper>, <ore:stone>, <ore:compressedCopper>],
 [null, <ore:compressedCopper>, <ore:craftingToolWrench>]]);
@@ -646,6 +652,13 @@ recipes.addShaped(<GalaxySpace:item.spacesuit_boots>, [
 [<GalaxySpace:item.CompressedSDHD120>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedSDHD120>],
 [<GalaxySpace:item.CompressedPlates:2>, <GalacticraftMars:item.null:5>, <GalaxySpace:item.CompressedPlates:2>]]);
 
+// --- Gravity Module
+recipes.addShaped(<GalaxySpace:gravitationmoduleoff>, [
+[<GalaxySpace:item.CompressedSDHD120>, <dreamcraft:item.MysteriousCrystal>, <GalaxySpace:item.CompressedSDHD120>],
+[<dreamcraft:item.WaferTier3>, <GalaxySpace:machineframes>, <dreamcraft:item.WaferTier3>],
+[<GraviSuite:itemSimpleItem:6>, <gregtech:gt.metaitem.01:32672>, <GraviSuite:itemSimpleItem:6>]]);
+
+
 
 
 // --- Assembler Recipes
@@ -672,13 +685,13 @@ Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.The
 Assembler.addRecipe(<GalaxySpace:futureglass>, <minecraft:glass>, <gregtech:gt.metaitem.01:23884> * 8, 200, 480);
 
 // --- Space Suit Jetpack
-Assembler.addRecipe(<GalaxySpace:item.spacesuit_jetplate>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.spacesuit_plate>, <IC2:itemArmorJetpackElectric:26>, <liquid:molten.duralumin> * 1440, 600, 1920);
+//Assembler.addRecipe(<GalaxySpace:item.spacesuit_jetplate>.withTag({electricity: 0.0 as float}), <GalaxySpace:item.spacesuit_plate>, <IC2:itemArmorJetpackElectric:26>, <liquid:molten.duralumin> * 1440, 600, 1920);
 
 // --- Space Suit Gravity Boots
-Assembler.addRecipe(<GalaxySpace:item.spacesuit_gravityboots>, <GalaxySpace:item.spacesuit_boots>, <GalaxySpace:item.CompressedPlates:4> * 2, <liquid:molten.duralumin> * 1440, 600, 1920);
+//Assembler.addRecipe(<GalaxySpace:item.spacesuit_gravityboots>, <GalaxySpace:item.spacesuit_boots>, <GalaxySpace:item.CompressedPlates:4> * 2, <liquid:molten.duralumin> * 1440, 600, 1920);
 
 // --- Space Suit Sensor Glasses
-Assembler.addRecipe(<GalaxySpace:item.spacesuit_helmetglasses>, <GalaxySpace:item.spacesuit_helmet>, <GalacticraftCore:item.sensorGlasses>, <liquid:molten.duralumin> * 1440, 600, 1920);
+//Assembler.addRecipe(<GalaxySpace:item.spacesuit_helmetglasses>, <GalaxySpace:item.spacesuit_helmet>, <GalacticraftCore:item.sensorGlasses>, <liquid:molten.duralumin> * 1440, 600, 1920);
 
 
 
