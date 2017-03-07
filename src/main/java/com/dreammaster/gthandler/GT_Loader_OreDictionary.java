@@ -82,6 +82,17 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("oreCobalt", GT_ModHandler.getModItem("GalaxySpace", "phobosblocks", 1L, 4));
         GT_OreDictUnificator.registerOre("ingotCobalt", GT_ModHandler.getModItem("GalaxySpace", "item.Ingots", 1L, 1));
 
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Lead, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 0));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Adamantium, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 1));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Cobalt, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 2));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Magnesium, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 3));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Mithril, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 4));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Nickel, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 5));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Oriharukon, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 6));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Platinum, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 7));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Tungsten, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 8));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Duralumin, GT_ModHandler.getModItem("GalaxySpace", "metalsblock", 1L, 9));
+
         GT_OreDictUnificator.registerOre("craftingToolShears", new ItemStack(Items.shears, 1, 32767));
 
         GT_OreDictUnificator.registerOre("cropBarley", GT_ModHandler.getModItem("Natura", "barleyFood", 1L, 0));
