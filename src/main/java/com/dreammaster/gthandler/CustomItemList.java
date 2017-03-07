@@ -103,7 +103,7 @@ public enum CustomItemList implements IItemContainer
 	IchoriumCap, CoinTechnician,  CoinTechnicianI,  CoinTechnicianII,  CoinTechnicianIII, CoinDarkWizard, CoinDarkWizardI, CoinDarkWizardII, CoinDarkWizardIII, CoinAdventure, CoinAdventureI, CoinAdventureII, CoinAdventureIII,
 	CoinBees, CoinBeesI, CoinBeesII, CoinBeesIII, CoinBlood, CoinBloodI, CoinBloodII, CoinBloodIII, CoinFarmer, CoinFarmerI, CoinFarmerII, CoinFarmerIII, CoinForestry, CoinForestryI, CoinForestryII, CoinForestryIII,
 	CoinSurvivor, CoinSurvivorI, CoinSurvivorII, CoinSurvivorIII, CoinSpace, CoinSpaceI, CoinSpaceII, CoinSpaceIII, CoinChunkloaderTierI, CoinChunkloaderTierII, CoinChunkloaderTierIII, CoinChemist, CoinChemistI, CoinChemistII, CoinChemistIII,
-	CoinCook, CoinCookI, CoinCookII, CoinCookIII,
+	CoinCook, CoinCookI, CoinCookII, CoinCookIII, CoinBlank, CoinBlankI, CoinBlankII, CoinBlankIII,
 	WetTofu,
 	WeakOrb, ApprenticeOrb, MasterOrb, MagicianOrb, ArchmageOrb, TranscendentOrb, RawOrbTier1, RawOrbTier2, RawOrbTier3, RawOrbTier4, RawOrbTier5, RawOrbTier6,
 	ArcaneSlate,
