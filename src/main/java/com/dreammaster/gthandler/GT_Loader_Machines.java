@@ -2482,43 +2482,43 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// Mixer
 		// ===================================================================================================
-		CustomItemList.FluidHeaterLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11210, "basicmachine.mixer.tier.06", "Elite Mixer", 6,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11211, "basicmachine.mixer.tier.07", "Elite Mixer II", 7,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11212, "basicmachine.mixer.tier.08", "Ultimate Matter Organizer", 8,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11213, "basicmachine.mixer.tier.09", "Epic Matter Organizer", 9,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11214, "basicmachine.mixer.tier.10", "Epic Matter Organizer II",10,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11215, "basicmachine.mixer.tier.11", "Epic Matter Organizer III",11,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
-		CustomItemList.FluidHeaterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
+		CustomItemList.MixerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11216, "basicmachine.mixer.tier.12", "Epic Matter Organizer IV",12,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
 				4, 1, 8000, 0, 1, "Mixer.png", "",
@@ -2619,10 +2619,10 @@ public class GT_Loader_Machines
 				11241, "batterybuffer.16.tier.11", "Insanely Ultimate Battery Buffer",11,"", 16).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_4by4_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11242, "batterybuffer.16.tier.12", "Mega Ultimate Buffer",12,"", 16).getStackForm(1L));
+				11242, "batterybuffer.16.tier.12", "Mega Ultimate Battery Buffer",12,"", 16).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_4by4_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11243, "batterybuffer.16.tier.13", "Extended Mega Ultimate Buffer",13,"", 16).getStackForm(1L));
+				11243, "batterybuffer.16.tier.13", "Extended Mega Ultimate Battery Buffer",13,"", 16).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_4by4_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11244, "batterybuffer.16.tier.14", "Overpowered Battery Buffer",14,"", 16).getStackForm(1L));
@@ -2642,10 +2642,10 @@ public class GT_Loader_Machines
 				11251, "batterybuffer.09.tier.11", "Insanely Ultimate Battery Buffer",11,"", 9).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_3by3_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11252, "batterybuffer.09.tier.12", "Mega Ultimate Buffer",12,"", 9).getStackForm(1L));
+				11252, "batterybuffer.09.tier.12", "Mega Ultimate Battery Buffer",12,"", 9).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_3by3_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11253, "batterybuffer.09.tier.13", "Extended Mega Ultimate Buffer",13,"", 9).getStackForm(1L));
+				11253, "batterybuffer.09.tier.13", "Extended Mega Ultimate Battery Buffer",13,"", 9).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_3by3_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11254, "batterybuffer.09.tier.14", "Overpowered Battery Buffer",14,"", 9).getStackForm(1L));
@@ -2665,10 +2665,10 @@ public class GT_Loader_Machines
 				11261, "batterybuffer.04.tier.11", "Insanely Ultimate Battery Buffer",11,"", 4).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_2by2_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11262, "batterybuffer.04.tier.12", "Mega Ultimate Buffer",12,"", 4).getStackForm(1L));
+				11262, "batterybuffer.04.tier.12", "Mega Ultimate Battery Buffer",12,"", 4).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_2by2_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11263, "batterybuffer.04.tier.13", "Extended Mega Ultimate Buffer",13,"", 4).getStackForm(1L));
+				11263, "batterybuffer.04.tier.13", "Extended Mega Ultimate Battery Buffer",13,"", 4).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_2by2_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11264, "batterybuffer.04.tier.14", "Overpowered Battery Buffer",14,"", 4).getStackForm(1L));
@@ -2688,10 +2688,10 @@ public class GT_Loader_Machines
 				11271, "batterybuffer.01.tier.11", "Insanely Ultimate Battery Buffer",11,"", 1).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_1by1_UMV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11272, "batterybuffer.01.tier.12", "Mega Ultimate Buffer",12,"", 1).getStackForm(1L));
+				11272, "batterybuffer.01.tier.12", "Mega Ultimate Battery Buffer",12,"", 1).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_1by1_UXV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
-				11273, "batterybuffer.01.tier.13", "Extended Mega Ultimate Buffer",13,"", 1).getStackForm(1L));
+				11273, "batterybuffer.01.tier.13", "Extended Mega Ultimate Battery Buffer",13,"", 1).getStackForm(1L));
 
 		CustomItemList.Battery_Buffer_1by1_OPV.set(new GT_MetaTileEntity_BasicBatteryBuffer(
 				11274, "batterybuffer.01.tier.14", "Overpowered Battery Buffer",14,"", 1).getStackForm(1L));
