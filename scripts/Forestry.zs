@@ -147,28 +147,13 @@ recipes.remove(<Forestry:gearCopper>);
 // --- Tin Gear
 recipes.remove(<Forestry:gearTin>);
 
-// --- Stamp 1n
-recipes.remove(<Forestry:stamps>);
-
-// --- Stamp 2n
-recipes.remove(<Forestry:stamps:1>);
-
-// --- Stamp 5n
-recipes.remove(<Forestry:stamps:2>);
-
-// --- Stamp 10n
-recipes.remove(<Forestry:stamps:3>);
-
 // --- Stamp 20n
-recipes.remove(<Forestry:stamps:4>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
 
 // --- Stamp 50n
-recipes.remove(<Forestry:stamps:5>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:5>);
 
 // --- Stamp 100n
-recipes.remove(<Forestry:stamps:6>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:6>);
 
 // --- Wrenche
@@ -1503,109 +1488,6 @@ mods.forestry.Carpenter.addRecipe(20, null,
 null, <Forestry:honeyDrop>, null,
 <Forestry:honeyDrop>, null, <Forestry:honeyDrop>],
 <Forestry:waxCapsule>, <Forestry:honeyPot>);
-
-// --- Stamp 1n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>,		
-<gregtech:gt.metaitem.01:32000>, null, <gregtech:gt.metaitem.01:32000>,		
-<gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>, <gregtech:gt.metaitem.01:32000>],		
-<minecraft:paper>, <Forestry:stamps>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-null, <gregtech:gt.metaitem.01:32001>, null,		
-null, null, null],		
-<minecraft:paper>, <Forestry:stamps>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>,		
-<gregtech:gt.metaitem.01:32011>, null, <gregtech:gt.metaitem.01:32011>,		
-<gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>, <gregtech:gt.metaitem.01:32011>],		
-<minecraft:paper>, <Forestry:stamps>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-null, <IC2:itemCoin>, null,		
-null, null, null],		
-<minecraft:paper>, <Forestry:stamps>);		
-		
-// --- Stamp 2n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-null, <gregtech:gt.metaitem.01:32001>, null,		
-null, <gregtech:gt.metaitem.01:32001>, null],		
-<minecraft:paper>, <Forestry:stamps:1>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-null, <IC2:itemCoin>, null,		
-null, <IC2:itemCoin>, null],		
-<minecraft:paper>, <Forestry:stamps:1>);		
-		
-// --- Stamp 5n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,		
-null, <gregtech:gt.metaitem.01:32001>, null,		
-<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],		
-<minecraft:paper>, <Forestry:stamps:2>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<IC2:itemCoin>, null, <IC2:itemCoin>,		
-null, <IC2:itemCoin>, null,		
-<IC2:itemCoin>, null, <IC2:itemCoin>],		
-<minecraft:paper>, <Forestry:stamps:2>);		
-		
-// --- Stamp 10n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-<gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>,		
-null, null, null],		
-<minecraft:paper>, <Forestry:stamps:3>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[null, null, null,		
-<IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>,		
-null, null, null],		
-<minecraft:paper>, <Forestry:stamps:3>);		
-		
-// --- Stamp 20n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>,		
-<gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,		
-<gregtech:gt.metaitem.01:32001>, null, <gregtech:gt.metaitem.01:32001>],		
-<minecraft:paper>, <Forestry:stamps:4>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<IC2:itemCoin>, null, <IC2:itemCoin>,		
-<gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,		
-<IC2:itemCoin>, null, <IC2:itemCoin>],		
-<minecraft:paper>, <Forestry:stamps:4>);		
-		
-// --- Stamp 50n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,		
-<gregtech:gt.metaitem.01:32002>, null, <gregtech:gt.metaitem.01:32002>,		
-<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],		
-<minecraft:paper>, <Forestry:stamps:5>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,		
-[<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,		
-<gregtech:gt.metaitem.01:32013>, null, <gregtech:gt.metaitem.01:32013>,		
-<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],		
-<minecraft:paper>, <Forestry:stamps:5>);		
-		
-// --- Stamp 100n		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 		
-[<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>,		
-<gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32003>, <gregtech:gt.metaitem.01:32001>,		
-<gregtech:gt.metaitem.01:32002>, <gregtech:gt.metaitem.01:32001>, <gregtech:gt.metaitem.01:32002>],		
-<minecraft:paper>, <Forestry:stamps:6>);		
-// -		
-mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100, 		
-[<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,		
-<IC2:itemCoin>, <gregtech:gt.metaitem.01:32014>, <IC2:itemCoin>,		
-<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],		
-<minecraft:paper>, <Forestry:stamps:6>);		
 
 // --- Letter
 mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 200, 
