@@ -53,6 +53,12 @@ public class SkullFireSwordDropFix extends ModFixBase
     return false;
   }
 
+  @Override
+  public boolean getIsActive()
+  {
+    return !( mSkullFireSword == null );
+  }
+
   /**
    * Check if the SkullFireSword could be found in the GameRegistry
    * and return false if not to disable this modfix
