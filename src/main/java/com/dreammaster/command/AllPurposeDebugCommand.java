@@ -98,7 +98,7 @@ public class AllPurposeDebugCommand implements ICommand
 
         OilGeneratorFix tOilGenFix = (OilGeneratorFix) tModFix;
 
-        if( pArgs.length == 6 )
+        if( pArgs.length == 5 )
         {
           String[] tBlock = pArgs[1].split( ":" );
 
@@ -108,13 +108,12 @@ public class AllPurposeDebugCommand implements ICommand
 
           int tStructRadius = Integer.parseInt( pArgs[3] );
           int tStructGroundLevel = Integer.parseInt( pArgs[4] );
-          boolean tForceFountain = Boolean.parseBoolean( pArgs[5] );
 
           Block tTargetBlock = GameRegistry.findBlock( tBlock[0], tBlock[1] );
           if( tTargetBlock != null )
           {
             PlayerChatHelper.SendInfo( pCmdSender, "Creating oilStruct at location %d / %d / %d, radius [%d], virtual groundLevel [%d] with block [%s]", (int) tOilStructPos.xCoord, (int) tOilStructPos.yCoord, (int) tOilStructPos.zCoord, tStructRadius, tStructGroundLevel, pArgs[1] );
-            tOilGenFix.buildOilStructure( ( (EntityPlayer) pCmdSender ).worldObj, new Random(), (int) tOilStructPos.xCoord, (int) tOilStructPos.yCoord, (int) tOilStructPos.zCoord, tStructRadius, tStructGroundLevel, tTargetBlock, tForceFountain, false );
+            tOilGenFix.buildOilStructure( ( (EntityPlayer) pCmdSender ).worldObj, new Random(), (int) tOilStructPos.xCoord, (int) tOilStructPos.yCoord, (int) tOilStructPos.zCoord, tStructRadius, tStructGroundLevel, tTargetBlock, false );
           }
           else
             PlayerChatHelper.SendError( pCmdSender, "Unknown block [%s]", pArgs[1] );
