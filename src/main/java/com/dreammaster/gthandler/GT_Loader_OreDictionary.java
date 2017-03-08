@@ -118,7 +118,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Wheat, GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
 
         //GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Nikolite, GT_ModHandler.getModItem("ProjRed|Core", "projectred.core.part", 1L, 56));
-        GT_OreDictUnificator.registerOre("dustElectrotine", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2812));
+        //GT_OreDictUnificator.registerOre("dustElectrotine", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2812));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.plate, Materials.Lead, GT_ModHandler.getModItem("Railcraft", "part.plate", 1L, 4));
