@@ -1318,7 +1318,8 @@
       ],
       "preRequisites": [
         12,
-        7
+        7,
+        444
       ]
     },
     {
@@ -34357,6 +34358,116 @@
       ]
     },
     {
+      "questID": 444,
+      "name": "Soft Mallet Adventure",
+      "description": "You have now some melon slices or pumpkins but what you can do with it? Well just eat it or... what you need a mallet to get seeds... OK lets craft one maybe you will need this mallet for some other things too.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14,
+        "tag": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Wood",
+            "MaxDamage:4": 12800,
+            "SecondaryMaterial:8": "Wood"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "stickWood",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:planks",
+              "Count": 6,
+              "OreDict": "plankWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Wood",
+                  "MaxDamage:4": 12800,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:melon",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:pumpkin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        9
+      ]
+    },
+    {
       "questID": 445,
       "name": "Tier 3 \u003e Tier 4",
       "description": "Three Tier 3 Backpacks give a better one \u003d Tier 4",
@@ -53339,7 +53450,7 @@
             {
               "id": "ProjRed|Core:projectred.core.part",
               "Count": 25,
-              "OreDict": "dustNikolite",
+              "OreDict": "",
               "Damage": 56
             }
           ],
@@ -57298,7 +57409,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        444
+      ]
     },
     {
       "questID": 685,
@@ -64373,6 +64486,11 @@
           "id": 442,
           "x": 216,
           "y": 72
+        },
+        {
+          "id": 444,
+          "x": 216,
+          "y": 108
         },
         {
           "id": 446,
