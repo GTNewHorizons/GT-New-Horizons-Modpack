@@ -82,6 +82,14 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 14), true, false, true);
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 15), true, false, true);
 
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 0), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 1), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 2), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 3), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 4), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 5), true, false, true);
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("Forestry", "stamps", 1L, 6), true, false, true);
+
 
 //Add recipes
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier1.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.Aluminium), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.AnnealedCopper), 'O', CustomItemList.ReinforcedGlassLense.get(1L)});

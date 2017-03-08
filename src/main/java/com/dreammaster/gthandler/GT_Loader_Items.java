@@ -368,6 +368,10 @@ public class GT_Loader_Items
 		CustomItemList.CoinCookI.set(ItemList.CoinCookI.getIS());
 		CustomItemList.CoinCookII.set(ItemList.CoinCookII.getIS());
 		CustomItemList.CoinCookIII.set(ItemList.CoinCookIII.getIS());
+		CustomItemList.CoinBlank.set(ItemList.CoinBlank.getIS());
+		CustomItemList.CoinBlankI.set(ItemList.CoinBlankI.getIS());
+		CustomItemList.CoinBlankII.set(ItemList.CoinBlankII.getIS());
+		CustomItemList.CoinBlankIII.set(ItemList.CoinBlankIII.getIS());
 		CustomItemList.WetTofu.set(ItemList.WetTofu.getIS());
 		CustomItemList.NetherStarFragment.set(ItemList.NetherStarFragment.getIS());
 		CustomItemList.WeakOrb.set(ItemList.WeakOrb.getIS());
