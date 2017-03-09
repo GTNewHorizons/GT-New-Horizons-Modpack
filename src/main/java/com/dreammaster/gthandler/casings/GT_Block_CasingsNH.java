@@ -24,9 +24,6 @@ public class GT_Block_CasingsNH
         extends GT_Block_Casings_Abstract {
     public static boolean mConnectedMachineTextures = true;
 
-    private static IIcon eM3,eM4,eM5,eM6,eM7,eM8,eM9;
-    private static IIcon debug[]=new IIcon[6];
-
     public GT_Block_CasingsNH() {
 
         super(GT_Item_CasingsNH.class, "gt.blockcasingsNH", GT_Material_Casings.INSTANCE);
