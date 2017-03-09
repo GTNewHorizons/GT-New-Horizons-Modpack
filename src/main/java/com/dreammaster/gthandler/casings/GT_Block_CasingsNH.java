@@ -38,22 +38,12 @@ public class GT_Block_CasingsNH
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".1.name", "Air Filter Vent Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".2.name", "Pyrolyze Oven Casing");//adding
 
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".3.name", "Molecular Containment Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".4.name", "Containment Field Generator");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".5.name", "Containment Field Generator Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".6.name", "Molecular Containment Coil");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".7.name", "Teleportation Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".8.name", "Spacetime Altering Casing");//adding
-
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".9.name", "Debug Sides");//adding
-
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".10.name", "UEV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".11.name", "UIV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".12.name", "UMV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".13.name", "UXV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".14.name", "OPV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".15.name", "MAX Machine Casing");//adding
-
 
         CustomItemList.Casing_AirFilter_Turbine.set(new ItemStack(this, 1, 0));//adding
         CustomItemList.Casing_AirFilter_Vent.set(new ItemStack(this, 1, 1));//adding
@@ -70,21 +60,6 @@ public class GT_Block_CasingsNH
     @Override
     public void registerBlockIcons(IIconRegister aIconRegister) {
         //super.registerBlockIcons(aIconRegister);
-        eM3=aIconRegister.registerIcon("gregtech:iconsets/EM_CASING");
-        eM4=aIconRegister.registerIcon("gregtech:iconsets/EM_FIELD");
-        eM5=aIconRegister.registerIcon("gregtech:iconsets/EM_FIELD_CASING");
-        eM6=aIconRegister.registerIcon("gregtech:iconsets/EM_COIL");
-        eM7=aIconRegister.registerIcon("gregtech:iconsets/EM_COIL_NONSIDE");
-        eM8=aIconRegister.registerIcon("gregtech:iconsets/EM_TELE");
-        eM8=aIconRegister.registerIcon("gregtech:iconsets/EM_TELE");
-        eM9=aIconRegister.registerIcon("gregtech:iconsets/EM_TIMESPACE");
-
-        debug[0]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_0");
-        debug[1]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_1");
-        debug[2]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_2");
-        debug[3]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_3");
-        debug[4]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_4");
-        debug[5]=aIconRegister.registerIcon("gregtech:iconsets/DEBUG_5");
     }
 
     public IIcon getIcon(int aSide, int aMeta) {
@@ -95,21 +70,6 @@ public class GT_Block_CasingsNH
                 return Textures.BlockIcons.MACHINE_CASING_PIPE_STEEL.getIcon();
             case 2:
                 return Textures.BlockIcons.MACHINE_8V_SIDE.getIcon();
-            case 3:
-                return eM3;
-            case 4:
-                return eM4;
-            case 5:
-                return eM5;
-            case 6:
-                if(aSide<2)return eM7;
-                return eM6;
-            case 7:
-                return eM8;
-            case 8:
-                return eM9;
-            case 9:
-                return debug[aSide];
             default:
                 if (aSide == 0) {
                     return Textures.BlockIcons.MACHINECASINGS_BOTTOM[aMeta].getIcon();
@@ -139,66 +99,58 @@ public class GT_Block_CasingsNH
         if (tMeta != 0 || (!mConnectedMachineTextures)) {
             return getIcon(aSide, tMeta);
         }
-        if (tMeta == 0) {
-            if (aSide==1) {
-                TileEntity tTileEntity;
-                IMetaTileEntity tMetaTileEntity;
+        if (aSide==1) {
+            TileEntity tTileEntity;
+            IMetaTileEntity tMetaTileEntity;
 
-                for(int xi=-2;xi<=2;xi++){
-                    for(int zi=-2;zi<=2;zi++){
-                        if(null != (tTileEntity = aWorld.getTileEntity(xCoord+xi,yCoord-3<0?0:yCoord-3,zCoord+zi)) &&
-                                tTileEntity instanceof IGregTechTileEntity &&
-                                null != (tMetaTileEntity = ((IGregTechTileEntity)tTileEntity).getMetaTileEntity()) &&
-                                tMetaTileEntity instanceof GT_MetaTileEntity_AirFilter){
-                            boolean active=false;
-                            if (((IGregTechTileEntity) tTileEntity).isActive())active=true;
-                            //check for direction and placement and apply the texture
-                            switch(((IGregTechTileEntity) tTileEntity).getFrontFacing()){
-                                case 2:
-                                    if(xi<2 && xi>-2 && zi<1) {//if invalid position ignore (aka too far away)
-                                        try {
-                                            return getTurbineCasing(tMeta, -xi + 1 - zi * 3, active);
-                                        } catch (Exception e) {
-                                            return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
-                                        }
+            for(int xi=-2;xi<=2;xi++){
+                for(int zi=-2;zi<=2;zi++){
+                    if(null != (tTileEntity = aWorld.getTileEntity(xCoord+xi,yCoord-3<0?0:yCoord-3,zCoord+zi)) &&
+                            tTileEntity instanceof IGregTechTileEntity &&
+                            null != (tMetaTileEntity = ((IGregTechTileEntity)tTileEntity).getMetaTileEntity()) &&
+                            tMetaTileEntity instanceof GT_MetaTileEntity_AirFilter){
+                        boolean active=false;
+                        if (((IGregTechTileEntity) tTileEntity).isActive())active=true;
+                        //check for direction and placement and apply the texture
+                        switch(((IGregTechTileEntity) tTileEntity).getFrontFacing()){
+                            case 2:
+                                if(xi<2 && xi>-2 && zi<1) {//if invalid position ignore (aka too far away)
+                                    try {
+                                        return getTurbineCasing(tMeta, -xi + 1 - zi * 3, active);
+                                    } catch (Exception e) {
+                                        return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
                                     }
-                                    break;
-                                case 3:
-                                    if(xi<2 && xi>-2 && zi>-1) {
-                                        try {
-                                            return getTurbineCasing(tMeta, -xi+1+(2-zi)*3, active);
-                                        }catch(Exception e){
-                                            return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
-                                        }
+                                }
+                                break;
+                            case 3:
+                                if(xi<2 && xi>-2 && zi>-1) {
+                                    try {
+                                        return getTurbineCasing(tMeta, -xi+1+(2-zi)*3, active);
+                                    }catch(Exception e){
+                                        return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
                                     }
-                                    break;
-                                case 4:
-                                    if(zi<2 && zi>-2 && xi<1) {
-                                        try {
-                                            return getTurbineCasing(tMeta, -xi + (1 - zi) * 3, active);
-                                        } catch (Exception e) {
-                                            return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
-                                        }
+                                }
+                                break;
+                            case 4:
+                                if(zi<2 && zi>-2 && xi<1) {
+                                    try {
+                                        return getTurbineCasing(tMeta, -xi + (1 - zi) * 3, active);
+                                    } catch (Exception e) {
+                                        return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
                                     }
-                                    break;
-                                case 5:
-                                    if(zi<2 && zi>-2 && xi>-1) {
-                                        try {
-                                            return getTurbineCasing(tMeta, -xi + 2 + (1 - zi) * 3, active);
-                                        } catch (Exception e) {
-                                            return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
-                                        }
+                                }
+                                break;
+                            case 5:
+                                if(zi<2 && zi>-2 && xi>-1) {
+                                    try {
+                                        return getTurbineCasing(tMeta, -xi + 2 + (1 - zi) * 3, active);
+                                    } catch (Exception e) {
+                                        return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
                                     }
-                            }
+                                }
                         }
                     }
                 }
-            }
-            switch (tMeta) {
-                case 0:
-                    return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
-                default:
-                    return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
             }
         }
         return Textures.BlockIcons.MACHINE_CASING_SOLID_STEEL.getIcon();
