@@ -98,6 +98,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("cropBarley", GT_ModHandler.getModItem("Natura", "barleyFood", 1L, 0));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("ExtraUtilities", "shears", 1L, 32767));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Unstable, GT_ModHandler.getModItem("ExtraUtilities", "decorativeBlock1", 1L, 5));
 
         GT_OreDictUnificator.registerOre("logWood", GT_ModHandler.getModItem("ForbiddenMagic", "TaintLog", 1L, 32767));
         GT_OreDictUnificator.registerOre("plankWood", GT_ModHandler.getModItem("ForbiddenMagic", "TaintPlank", 1L, 32767));
@@ -115,6 +116,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("listAllchickenraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("foodSalt", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2817));
+
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Wheat, GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
 
         GT_OreDictUnificator.registerOre("craftingToolShears", GT_ModHandler.getModItem("Railcraft", "tool.steel.shears", 1L, 0));
