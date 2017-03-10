@@ -1209,7 +1209,12 @@ Assembler.addRecipe(<ExtraUtilities:cobblestone_compressed:14>, <minecraft:sand>
 
 
 
+// --- Compressor recipes ---
 
+
+
+// --- Unstable Ingot Block
+Compressor.addRecipe(<ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:unstableingot:2> * 9);
 
 
 // --- Extractor recipes ---
