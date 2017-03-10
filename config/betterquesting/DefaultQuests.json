@@ -30365,6 +30365,8 @@
       "tasks": [
         {
           "partialMatch": true,
+		  "consume": false,
+          "autoConsume": false,
           "ignoreNBT": false,
           "requiredItems": [
             {
@@ -30374,7 +30376,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
