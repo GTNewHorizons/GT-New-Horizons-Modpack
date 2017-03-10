@@ -2768,13 +2768,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Lead),
-						'C',OrePrefixes.cableGt04.get(Materials.Lead),
-						'S',OrePrefixes.spring.get(Materials.Tin),
-						'X',OrePrefixes.cableGt02.get(Materials.Tin),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_LV_ULV});
+						'A', OrePrefixes.springSmall.get(Materials.Lead),
+						'C', OrePrefixes.cableGt04.get(Materials.Lead),
+						'S', OrePrefixes.spring.get(Materials.Tin),
+						'X', OrePrefixes.cableGt02.get(Materials.Tin),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_LV_ULV});
 
 		CustomItemList.WetTransformer_MV_LV.set(new GT_MetaTileEntity_WetTransformer(
 				12001, "wetransformer.tier.01", "Low Voltage Power Transformer", 1,
@@ -2784,13 +2784,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Tin),
-						'C',OrePrefixes.cableGt04.get(Materials.Tin),
-						'S',OrePrefixes.spring.get(Materials.AnyCopper),
-						'X',OrePrefixes.cableGt02.get(Materials.AnyCopper),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_MV_LV});
+						'A', OrePrefixes.springSmall.get(Materials.Tin),
+						'C', OrePrefixes.cableGt04.get(Materials.Tin),
+						'S', OrePrefixes.spring.get(Materials.AnyCopper),
+						'X', OrePrefixes.cableGt02.get(Materials.AnyCopper),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_MV_LV});
 
 		CustomItemList.WetTransformer_HV_MV.set(new GT_MetaTileEntity_WetTransformer(
 				12002, "wettransformer.tier.02", "Medium Voltage Power Transformer", 2,
@@ -2800,13 +2800,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.AnyCopper),
-						'C',OrePrefixes.cableGt04.get(Materials.AnyCopper),
-						'S',OrePrefixes.spring.get(Materials.Gold),
-						'X',OrePrefixes.cableGt02.get(Materials.Gold),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_HV_MV});
+						'A', OrePrefixes.springSmall.get(Materials.AnyCopper),
+						'C', OrePrefixes.cableGt04.get(Materials.AnyCopper),
+						'S', OrePrefixes.spring.get(Materials.Gold),
+						'X', OrePrefixes.cableGt02.get(Materials.Gold),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_HV_MV});
 
 		CustomItemList.WetTransformer_EV_HV.set(new GT_MetaTileEntity_WetTransformer(
 				12003, "wettransformer.tier.03", "High Voltage Power Transformer", 3,
@@ -2816,13 +2816,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Gold),
-						'C',OrePrefixes.cableGt04.get(Materials.Gold),
-						'S',OrePrefixes.spring.get(Materials.Aluminium),
-						'X',OrePrefixes.cableGt02.get(Materials.Aluminium),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_EV_HV});
+						'A', OrePrefixes.springSmall.get(Materials.Gold),
+						'C', OrePrefixes.cableGt04.get(Materials.Gold),
+						'S', OrePrefixes.spring.get(Materials.Aluminium),
+						'X', OrePrefixes.cableGt02.get(Materials.Aluminium),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_EV_HV});
 
 		CustomItemList.WetTransformer_IV_EV.set(new GT_MetaTileEntity_WetTransformer(
 				12004, "wettransformer.tier.04", "Extreme Power Transformer", 4,
@@ -2832,13 +2832,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Aluminium),
-						'C',OrePrefixes.cableGt04.get(Materials.Aluminium),
-						'S',OrePrefixes.spring.get(Materials.Tungsten),
-						'X',OrePrefixes.cableGt02.get(Materials.Tungsten),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_IV_EV});
+						'A', OrePrefixes.springSmall.get(Materials.Aluminium),
+						'C', OrePrefixes.cableGt04.get(Materials.Aluminium),
+						'S', OrePrefixes.spring.get(Materials.Tungsten),
+						'X', OrePrefixes.cableGt02.get(Materials.Tungsten),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_IV_EV});
 
 		CustomItemList.WetTransformer_LuV_IV.set(new GT_MetaTileEntity_WetTransformer(
 				12005, "wettransformer.tier.05", "Insane Power Transformer", 5,
@@ -2848,13 +2848,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Tungsten),
-						'C',OrePrefixes.cableGt04.get(Materials.Tungsten),
-						'S',OrePrefixes.spring.get(Materials.VanadiumGallium),
-						'X',OrePrefixes.cableGt02.get(Materials.VanadiumGallium),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_LuV_IV});
+						'A', OrePrefixes.springSmall.get(Materials.Tungsten),
+						'C', OrePrefixes.cableGt04.get(Materials.Tungsten),
+						'S', OrePrefixes.spring.get(Materials.VanadiumGallium),
+						'X', OrePrefixes.cableGt02.get(Materials.VanadiumGallium),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_LuV_IV});
 
 		CustomItemList.WetTransformer_ZPM_LuV.set(new GT_MetaTileEntity_WetTransformer(
 				12006, "wettransformer.tier.06", "Ludicrous Power Transformer", 6,
@@ -2864,13 +2864,13 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.VanadiumGallium),
-						'C',OrePrefixes.cableGt04.get(Materials.VanadiumGallium),
-						'S',OrePrefixes.spring.get(Materials.Naquadah),
-						'X',OrePrefixes.cableGt04.get(Materials.Naquadah),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_ZPM_LuV});
+						'A', OrePrefixes.springSmall.get(Materials.VanadiumGallium),
+						'C', OrePrefixes.cableGt04.get(Materials.VanadiumGallium),
+						'S', OrePrefixes.spring.get(Materials.Naquadah),
+						'X', OrePrefixes.cableGt04.get(Materials.Naquadah),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_ZPM_LuV});
 
 		CustomItemList.WetTransformer_UV_ZPM.set(new GT_MetaTileEntity_WetTransformer(
 				12007, "wettransformer.tier.07", "ZPM Voltage Power Transformer", 7,
@@ -2880,17 +2880,29 @@ public class GT_Loader_Machines
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{"XOC", "STA", "POC",
-						'A',OrePrefixes.springSmall.get(Materials.Naquadah),
-						'C',OrePrefixes.cableGt08.get(Materials.Naquadah),
-						'S',OrePrefixes.spring.get(Materials.NaquadahAlloy),
-						'X',OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
-						'O',OrePrefixes.cell.get(Materials.Lubricant),
-						'P',ItemList.Electric_Pump_LV,
-						'T',ItemList.Transformer_UV_ZPM});
+						'A', OrePrefixes.springSmall.get(Materials.Naquadah),
+						'C', OrePrefixes.cableGt08.get(Materials.Naquadah),
+						'S', OrePrefixes.spring.get(Materials.NaquadahAlloy),
+						'X', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_UV_ZPM});
 
 		CustomItemList.WetTransformer_UHV_UV.set(new GT_MetaTileEntity_WetTransformer(
 				12008, "wettransformer.tier.08", "Ultimate Power Transformer", 8,
 				"UHV -> UV (Use Soft Mallet to invert)").getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UHV_UV.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"XOC", "STA", "POC",
+						'A', OrePrefixes.springSmall.get(Materials.NaquadahAlloy),
+						'C', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
+						'S', OrePrefixes.spring.get(Materials.Neutronium),
+						'X', OrePrefixes.wireGt08.get(Materials.Superconductor),
+						'O', OrePrefixes.cell.get(Materials.Lubricant),
+						'P', ItemList.Electric_Pump_LV,
+						'T', ItemList.Transformer_MAX_UV});
 
 		CustomItemList.WetTransformer_UEV_UHV.set(new GT_MetaTileEntity_WetTransformer(
 				12009, "wettransformer.tier.09", "Highly Ultimate Power Transformer", 9,
