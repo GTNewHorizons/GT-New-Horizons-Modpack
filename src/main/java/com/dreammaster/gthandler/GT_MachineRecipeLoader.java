@@ -223,8 +223,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.BlackPlutonium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L),  CustomItemList.Casing_UIV.get(1L), 50, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Draconium, 8L), ItemList.Circuit_Integrated.getWithDamage(0L, 8L), CustomItemList.Casing_UMV.get(1L), 50, 16);
 
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Bronze, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Steel, 8L), ItemList.Casing_Tank_1.get(1L), 100, 16);
-        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Steel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Aluminium, 8L), ItemList.Casing_Tank_2.get(1L), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Steel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Aluminium, 8L), ItemList.Casing_Tank_1.get(1L), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeHuge, Materials.Steel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Aluminium, 8L), ItemList.Casing_Tank_2.get(1L), 100, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.StainlessSteel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.StainlessSteel, 8L), ItemList.Casing_Tank_3.get(1L), 100, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Titanium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Titanium, 8L), ItemList.Casing_Tank_4.get(1L), 100, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.TungstenSteel, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.TungstenSteel, 8L), ItemList.Casing_Tank_5.get(1L), 100, 16);
