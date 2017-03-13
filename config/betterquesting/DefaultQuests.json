@@ -1318,8 +1318,7 @@
       ],
       "preRequisites": [
         12,
-        7,
-        444
+        7
       ]
     },
     {
@@ -8367,7 +8366,7 @@
         }
       ],
       "preRequisites": [
-        98
+        88
       ]
     },
     {
@@ -9165,7 +9164,7 @@
         }
       ],
       "preRequisites": [
-        538
+        88
       ]
     },
     {
@@ -30365,9 +30364,9 @@
       "tasks": [
         {
           "partialMatch": true,
-		  "consume": false,
-          "autoConsume": false,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:resource",
@@ -34357,116 +34356,6 @@
       ],
       "preRequisites": [
         439
-      ]
-    },
-    {
-      "questID": 444,
-      "name": "Soft Mallet Adventure",
-      "description": "You have now some melon slices or pumpkins but what you can do with it? Well just eat it or... what you need a mallet to get seeds... OK lets craft one maybe you will need this mallet for some other things too.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metatool.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 14,
-        "tag": {
-          "GT.ToolStats:10": {
-            "PrimaryMaterial:8": "Wood",
-            "MaxDamage:4": 12800,
-            "SecondaryMaterial:8": "Wood"
-          }
-        }
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:stick",
-              "Count": 1,
-              "OreDict": "stickWood",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:planks",
-              "Count": 6,
-              "OreDict": "plankWood",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metatool.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 14,
-              "tag": {
-                "GT.ToolStats:10": {
-                  "PrimaryMaterial:8": "Wood",
-                  "MaxDamage:4": 12800,
-                  "SecondaryMaterial:8": "Wood"
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "minecraft:melon",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:pumpkin",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        9
       ]
     },
     {
@@ -42885,7 +42774,7 @@
         }
       ],
       "preRequisites": [
-        94
+        88
       ]
     },
     {
@@ -48801,8 +48690,7 @@
         }
       ],
       "preRequisites": [
-        94,
-        538
+        88
       ]
     },
     {
@@ -51128,7 +51016,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.blockmachines",
@@ -53452,7 +53340,7 @@
             {
               "id": "ProjRed|Core:projectred.core.part",
               "Count": 25,
-              "OreDict": "",
+              "OreDict": "dustNikolite",
               "Damage": 56
             }
           ],
@@ -57411,9 +57299,7 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": [
-        444
-      ]
+      "preRequisites": []
     },
     {
       "questID": 685,
@@ -64490,11 +64376,6 @@
           "y": 72
         },
         {
-          "id": 444,
-          "x": 216,
-          "y": 108
-        },
-        {
           "id": 446,
           "x": 108,
           "y": 108
@@ -65040,472 +64921,472 @@
         {
           "id": 88,
           "x": 240,
-          "y": 0
+          "y": 48
         },
         {
           "id": 90,
-          "x": 444,
-          "y": 240
+          "x": 216,
+          "y": 120
         },
         {
           "id": 91,
           "x": 156,
-          "y": 72
+          "y": 120
         },
         {
           "id": 92,
-          "x": 288,
-          "y": 108
+          "x": 348,
+          "y": 156
         },
         {
           "id": 93,
           "x": 156,
-          "y": 108
+          "y": 156
         },
         {
           "id": 94,
           "x": 240,
-          "y": 156
+          "y": 204
         },
         {
           "id": 95,
           "x": 240,
-          "y": 108
+          "y": 156
         },
         {
           "id": 97,
           "x": 384,
-          "y": 108
+          "y": 156
         },
         {
           "id": 98,
           "x": 384,
-          "y": 204
+          "y": 252
         },
         {
           "id": 99,
           "x": 444,
-          "y": 36
+          "y": 84
         },
         {
           "id": 100,
           "x": 444,
-          "y": 204
+          "y": 252
         },
         {
           "id": 101,
-          "x": 288,
-          "y": 240
+          "x": 192,
+          "y": 0
         },
         {
           "id": 102,
           "x": 336,
-          "y": 468
+          "y": 516
         },
         {
           "id": 103,
           "x": 84,
-          "y": 0
+          "y": 48
         },
         {
           "id": 104,
           "x": 0,
-          "y": 0
+          "y": 48
         },
         {
           "id": 105,
-          "x": 288,
-          "y": 156
+          "x": 336,
+          "y": 204
         },
         {
           "id": 106,
           "x": 528,
-          "y": 0
+          "y": 48
         },
         {
           "id": 107,
           "x": 684,
-          "y": 120
+          "y": 168
         },
         {
           "id": 108,
           "x": 660,
-          "y": 0
+          "y": 48
         },
         {
           "id": 109,
           "x": 708,
-          "y": 72
+          "y": 120
         },
         {
           "id": 110,
           "x": 708,
-          "y": 36
+          "y": 84
         },
         {
           "id": 111,
           "x": 612,
-          "y": 72
+          "y": 120
         },
         {
           "id": 112,
           "x": 636,
-          "y": 120
+          "y": 168
         },
         {
           "id": 113,
           "x": 528,
-          "y": 72
+          "y": 120
         },
         {
           "id": 114,
           "x": 564,
-          "y": 120
+          "y": 168
         },
         {
           "id": 115,
           "x": 492,
-          "y": 120
+          "y": 168
         },
         {
           "id": 117,
           "x": 492,
-          "y": 72
+          "y": 120
         },
         {
           "id": 118,
           "x": 564,
-          "y": 36
+          "y": 84
         },
         {
           "id": 119,
           "x": 492,
-          "y": 36
+          "y": 84
         },
         {
           "id": 120,
           "x": 0,
-          "y": 108
+          "y": 156
         },
         {
           "id": 122,
           "x": 0,
-          "y": 156
+          "y": 204
         },
         {
           "id": 123,
           "x": 48,
-          "y": 156
+          "y": 204
         },
         {
           "id": 124,
           "x": 0,
-          "y": 204
+          "y": 252
         },
         {
           "id": 125,
           "x": 48,
-          "y": 204
+          "y": 252
         },
         {
           "id": 121,
           "x": 0,
-          "y": 72
+          "y": 120
         },
         {
           "id": 529,
           "x": 384,
-          "y": 36
+          "y": 84
         },
         {
           "id": 530,
-          "x": 288,
-          "y": 36
+          "x": 300,
+          "y": 120
         },
         {
           "id": 531,
           "x": 384,
-          "y": 72
+          "y": 120
         },
         {
           "id": 532,
           "x": 192,
-          "y": 156
+          "y": 204
         },
         {
           "id": 533,
           "x": 156,
-          "y": 156
+          "y": 204
         },
         {
           "id": 538,
           "x": 336,
-          "y": 204
+          "y": 252
         },
         {
           "id": 539,
           "x": 336,
-          "y": 396
+          "y": 444
         },
         {
           "id": 540,
           "x": 84,
-          "y": 468
+          "y": 516
         },
         {
           "id": 541,
           "x": 84,
-          "y": 72
+          "y": 120
         },
         {
           "id": 542,
           "x": 444,
-          "y": 288
+          "y": 336
         },
         {
           "id": 543,
           "x": 192,
-          "y": 396
+          "y": 444
         },
         {
           "id": 544,
           "x": 384,
-          "y": 156
+          "y": 204
         },
         {
           "id": 545,
           "x": 192,
-          "y": 108
+          "y": 156
         },
         {
           "id": 546,
           "x": 108,
-          "y": 108
+          "y": 156
         },
         {
           "id": 547,
           "x": 108,
-          "y": 156
+          "y": 204
         },
         {
           "id": 548,
           "x": 108,
-          "y": 360
+          "y": 408
         },
         {
           "id": 549,
           "x": 144,
-          "y": 360
+          "y": 408
         },
         {
           "id": 550,
           "x": 288,
-          "y": 360
+          "y": 408
         },
         {
           "id": 551,
           "x": 192,
-          "y": 288
+          "y": 336
         },
         {
           "id": 552,
           "x": 240,
-          "y": 360
+          "y": 408
         },
         {
           "id": 553,
           "x": 156,
-          "y": 324
+          "y": 372
         },
         {
           "id": 554,
           "x": 192,
-          "y": 324
+          "y": 372
         },
         {
           "id": 555,
           "x": 288,
-          "y": 432
+          "y": 480
         },
         {
           "id": 556,
           "x": 192,
-          "y": 432
+          "y": 480
         },
         {
           "id": 557,
           "x": 144,
-          "y": 432
+          "y": 480
         },
         {
           "id": 563,
           "x": 420,
-          "y": 108
+          "y": 156
         },
         {
           "id": 598,
           "x": 408,
-          "y": 396
+          "y": 444
         },
         {
           "id": 599,
-          "x": 288,
-          "y": 204
+          "x": 240,
+          "y": 0
         },
         {
           "id": 608,
           "x": 408,
-          "y": 432
+          "y": 480
         },
         {
           "id": 609,
           "x": 444,
-          "y": 360
+          "y": 408
         },
         {
           "id": 612,
           "x": 648,
-          "y": 396
+          "y": 444
         },
         {
           "id": 613,
           "x": 648,
-          "y": 324
+          "y": 372
         },
         {
           "id": 614,
           "x": 648,
-          "y": 360
+          "y": 408
         },
         {
           "id": 615,
           "x": 648,
-          "y": 288
+          "y": 336
         },
         {
           "id": 611,
           "x": 648,
-          "y": 444
+          "y": 492
         },
         {
           "id": 616,
           "x": 576,
-          "y": 444
+          "y": 492
         },
         {
           "id": 617,
           "x": 612,
-          "y": 420
+          "y": 468
         },
         {
           "id": 618,
           "x": 576,
-          "y": 396
+          "y": 444
         },
         {
           "id": 619,
           "x": 708,
-          "y": 396
+          "y": 444
         },
         {
           "id": 620,
           "x": 444,
-          "y": 432
+          "y": 480
         },
         {
           "id": 621,
           "x": 492,
-          "y": 324
+          "y": 372
         },
         {
           "id": 622,
           "x": 492,
-          "y": 288
+          "y": 336
         },
         {
           "id": 623,
           "x": 492,
-          "y": 360
+          "y": 408
         },
         {
           "id": 624,
           "x": 576,
-          "y": 324
+          "y": 372
         },
         {
           "id": 626,
           "x": 384,
-          "y": 468
+          "y": 516
         },
         {
           "id": 639,
           "x": 192,
-          "y": 204
+          "y": 252
         },
         {
           "id": 640,
           "x": 240,
-          "y": 288
+          "y": 336
         },
         {
           "id": 641,
           "x": 240,
-          "y": 204
+          "y": 252
         },
         {
           "id": 642,
           "x": 192,
-          "y": 240
+          "y": 288
         },
         {
           "id": 643,
           "x": 240,
-          "y": 240
+          "y": 288
         },
         {
           "id": 644,
           "x": 240,
-          "y": 324
+          "y": 372
         },
         {
           "id": 646,
           "x": 492,
-          "y": 432
+          "y": 480
         },
         {
           "id": 661,
           "x": 420,
-          "y": 144
+          "y": 192
         },
         {
           "id": 662,
           "x": 804,
-          "y": 396
+          "y": 444
         },
         {
           "id": 663,
           "x": 852,
-          "y": 396
+          "y": 444
         },
         {
           "id": 664,
           "x": 756,
-          "y": 396
+          "y": 444
         },
         {
           "id": 716,
           "x": 348,
-          "y": 36
+          "y": 84
         },
         {
           "id": 717,
           "x": 348,
-          "y": 72
+          "y": 120
         },
         {
           "id": 116,
           "x": 288,
-          "y": 72
+          "y": 0
         }
       ]
     },
