@@ -1456,21 +1456,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -3930,21 +3915,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -8147,21 +8117,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -8230,27 +8185,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 12,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -13372,33 +13306,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -15096,33 +15003,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -17813,39 +17693,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 9,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "GalaxySpace:deimosblocks",
               "Count": 16,
               "OreDict": "",
@@ -18603,21 +18450,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -21366,15 +21198,25 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
+          "ignoreNBT": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 128,
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 9,
+              "tag": {
+                "aqua:4": 5000,
+                "terra:4": 5000,
+                "ignis:4": 5000,
+                "cap:8": "gold",
+                "rod:8": "greatwood",
+                "ordo:4": 5000,
+                "perditio:4": 5000,
+                "aer:4": 5000
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -47248,33 +47090,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinForestry",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
