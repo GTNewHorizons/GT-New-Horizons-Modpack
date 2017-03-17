@@ -44126,7 +44126,7 @@
     {
       "questID": 556,
       "name": "Glyceryl Trini...... what?",
-      "description": "Kids today we will make some Glyceryl Trinitrate with some Nitrogen, Coal Dust and Water.\n    -Regular chemistry lesson.",
+      "description": "Kids today we will make some Glyceryl Trinitrate with some Nitrogen, Carbon Dust and Water.\n    -Regular chemistry lesson.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44166,7 +44166,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "",
-              "Damage": 2535
+              "Damage": 2010
             }
           ],
           "taskID": "bq_standard:retrieval"
