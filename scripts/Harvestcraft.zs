@@ -8,7 +8,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
-import mods.nei.NEI;
+
 
 // --- Variables ---
 
@@ -617,14 +617,3 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompre
 
 // --- Corn Meal
 Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);
-
-
-
-
-
-// --- Hiding Stuff ---//
-
-// --- Sink
-NEI.hide(<harvestcraft:sink:*>);
-// --- Market
-NEI.hide(<harvestcraft:market>);

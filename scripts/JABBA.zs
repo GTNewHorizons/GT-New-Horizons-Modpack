@@ -6,7 +6,7 @@
 
 
 import mods.gregtech.Assembler;
-import mods.nei.NEI;
+
 
 
 

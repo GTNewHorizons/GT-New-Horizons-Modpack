@@ -1,10 +1,7 @@
 // --- Created by DreamMasterXXL and Methes ---
 
 
-// --- Iports
 
-
-import mods.nei.NEI;
 
 
 // --- Variables ---
