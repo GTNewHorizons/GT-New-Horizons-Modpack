@@ -1310,6 +1310,11 @@ mods.tconstruct.Smeltery.addMelting(<EMT:EMTItems:8>, <liquid:glue> * 288, 200, 
 // --- Cobalt Ingot
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11033>, <liquid:cobalt.molten> * 144, 650, <TConstruct:GravelOre:5>);
 
+// --- Raw Aluminium
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, <TConstruct:metalPattern>, false, 200);
+// -
+mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
+
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
 
@@ -3851,6 +3856,9 @@ Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
 
 // --- Ender Pearl Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2532> * 9, <TConstruct:MetalBlock:10>);
+
+// --- Raw Aluminium
+Macerator.addRecipe(<gregtech:gt.metaitem.01:2019>, <TConstruct:materials:12>);
 
 
 
