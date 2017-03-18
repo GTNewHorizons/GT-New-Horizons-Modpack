@@ -33841,7 +33841,7 @@
         }
       ],
       "preRequisites": [
-        441
+        40
       ]
     },
     {
@@ -34014,7 +34014,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        13
+      ]
     },
     {
       "questID": 442,
@@ -34199,7 +34201,7 @@
         }
       ],
       "preRequisites": [
-        439
+        88
       ]
     },
     {
@@ -34369,7 +34371,7 @@
         }
       ],
       "preRequisites": [
-        443
+        89
       ]
     },
     {
@@ -34525,7 +34527,7 @@
         }
       ],
       "preRequisites": [
-        445
+        160
       ]
     },
     {
@@ -34654,7 +34656,7 @@
         }
       ],
       "preRequisites": [
-        447
+        176
       ]
     },
     {
@@ -45082,7 +45084,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        577
+      ]
     },
     {
       "questID": 565,
@@ -45141,7 +45145,9 @@
         }
       ],
       "preRequisites": [
-        564
+        595,
+        594,
+        593
       ]
     },
     {
@@ -45200,7 +45206,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        176
+      ]
     },
     {
       "questID": 567,
@@ -45318,7 +45326,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        225
+      ]
     },
     {
       "questID": 569,
@@ -45377,7 +45387,7 @@
         }
       ],
       "preRequisites": [
-        568
+        260
       ]
     },
     {
@@ -45437,7 +45447,7 @@
         }
       ],
       "preRequisites": [
-        569
+        285
       ]
     },
     {
@@ -45497,7 +45507,7 @@
         }
       ],
       "preRequisites": [
-        570
+        307
       ]
     },
     {
@@ -45556,7 +45566,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        161
+      ]
     },
     {
       "questID": 573,
@@ -45615,7 +45627,7 @@
         }
       ],
       "preRequisites": [
-        572
+        421
       ]
     },
     {
@@ -45674,7 +45686,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        501
+      ]
     },
     {
       "questID": 575,
@@ -45733,7 +45747,7 @@
         }
       ],
       "preRequisites": [
-        574
+        506
       ]
     },
     {
@@ -56762,7 +56776,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        634
+      ]
     },
     {
       "questID": 679,
@@ -56821,7 +56837,8 @@
         }
       ],
       "preRequisites": [
-        678
+        638,
+        665
       ]
     },
     {
@@ -56940,7 +56957,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        677
+      ]
     },
     {
       "questID": 682,
