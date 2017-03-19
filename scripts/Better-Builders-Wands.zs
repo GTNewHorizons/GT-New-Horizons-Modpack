@@ -61,16 +61,19 @@ Assembler.addRecipe(<betterbuilderswands:wandIron>, <TConstruct:toolRod:2> * 2, 
 Assembler.addRecipe(<betterbuilderswands:wandDiamond>, <TGregworks:tGregToolPartToughRod:95>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"}), 600, 64);
 
 // --- Unbreakable Wand I
-Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:5>, <TConstruct:toughRod:314>, <ExtraUtilities:builderswand>, 600, 120);
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:4>, <TConstruct:toughRod:314>, <ExtraUtilities:builderswand>, 600, 120);
 
 // --- Unbreakable Wand II
-Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:6>, <betterbuilderswands:wandUnbreakable:5>, <betterbuilderswands:wandUnbreakable:5>, 600, 256);
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:5>, <betterbuilderswands:wandUnbreakable:4>, <betterbuilderswands:wandUnbreakable:4>, 600, 256);
+
+// --- Unbreakable Wand II
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:6>, <betterbuilderswands:wandUnbreakable:5>, <betterbuilderswands:wandUnbreakable:5>, 600, 480);
 
 // --- Unbreakable Wand III
-Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:12>, <TConstruct:toughRod:314>, <ExtraUtilities:creativebuilderswand>, 600, 480);
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:12>, <betterbuilderswands:wandUnbreakable:6>, <ExtraUtilities:creativebuilderswand>, 600, 1024);
 
 // --- Unbreakable Wand IV
-Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:13>, <betterbuilderswands:wandUnbreakable:13>, <betterbuilderswands:wandUnbreakable:13>, 600, 1024);
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:13>, <betterbuilderswands:wandUnbreakable:12>, <betterbuilderswands:wandUnbreakable:12>, 600, 1920);
 
 // --- Unbreakable Wand V
-Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:14>, <betterbuilderswands:wandUnbreakable:13>, <betterbuilderswands:wandUnbreakable:13>, 600, 1920);
+Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:14>, <betterbuilderswands:wandUnbreakable:13>, <betterbuilderswands:wandUnbreakable:13>, 600, 4096);
