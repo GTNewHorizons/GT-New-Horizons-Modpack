@@ -21285,6 +21285,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -21293,7 +21295,7 @@
               "Damage": 27316
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -21349,7 +21351,11 @@
         }
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         263,
@@ -22024,6 +22030,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -22032,7 +22040,7 @@
               "Damage": 27084
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -22097,6 +22105,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
@@ -22105,7 +22115,7 @@
               "Damage": 27030
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
