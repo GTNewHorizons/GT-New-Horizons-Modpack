@@ -1077,7 +1077,7 @@ game.setLocalization("tc.research_text.HARVESTGODDESSSIGIL", "[BM] you sow what 
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
-mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
+mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "bloodmagic.research_page.HARVESTGODDESSSIGIL");
 game.setLocalization("bloodmagic.research_page.HARVESTGODDESSSIGIL", "The Harvest Goddess Sigil is an item from Blood Magic. It is used to harvest and immediately replant mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. The effect of this sigil is very similar to ritual Reap of the Harvest Moon, trading off area of effect and automation for portability. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, the Harvest Goddess Sigil Harvests and replants nearby crops.");
 mods.thaumcraft.Infusion.addRecipe("HARVESTGODDESSSIGIL", <AWWayofTime:growthSigil>, 
 [<BloodArsenal:bound_sickle>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>], 
@@ -1092,7 +1092,7 @@ game.setLocalization("tc.research_text.SIGILOFCOMPRESSION", "[BM] Are you try to
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
-mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
+mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "bloodmagic.research_page.SIGILOFCOMPRESSION");
 game.setLocalization("bloodmagic.research_page.SIGILOFCOMPRESSION", "The Sigil of Compression is an item added by the Blood Magic mod. This Sigil compresses any item picked-up into its block form if possible. Sadly it not works for Gregtech Ingots which makes the Sigil very useless. Activating this Sigil costs 250 LP every 10 seconds while active.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFCOMPRESSION", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32644>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32604>, <AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32604>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32644>], 
