@@ -16,10 +16,6 @@
     <loot item="minecraft:iron_horse_armor" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="minecraft:diamond_horse_armor" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="minecraft:enchanted_book" damage="0" weight="1" count_min="1" count_max="1"/>
-    <loot item="IC2:itemIngot" damage="0" weight="100" count_min="2" count_max="5"/>
-    <loot item="IC2:itemIngot" damage="1" weight="100" count_min="2" count_max="5"/>
-    <loot item="IC2:itemOreIridium" damage="0" weight="20" count_min="1" count_max="2"/>
-    <loot item="IC2:itemShardIridium" damage="0" weight="100" count_min="6" count_max="14"/>
     <loot item="minecraft:record_blocks" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="minecraft:record_chirp" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="minecraft:record_far" damage="0" weight="5" count_min="1" count_max="1"/>
@@ -49,7 +45,6 @@
     <loot item="OpenComputers:item" damage="4" weight="5" count_min="1" count_max="1"/>
     <loot item="EMT:TaintedMjolnir" damage="0" weight="25" count_min="0" count_max="1"/>
     <loot item="EMT:BaseBaubles" damage="0" weight="15" count_min="0" count_max="1"/>
-    <loot item="enhancedportals:portal_module" damage="4" weight="2" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:disposeItemTurret" damage="0" weight="15" count_min="1" count_max="2"/>
     <loot item="openmodularturrets:baseTierWood" damage="0" weight="15" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:leverBlock" damage="0" weight="15" count_min="1" count_max="1"/>
@@ -80,20 +75,20 @@
     <loot item="Automagy:phialExtra" damage="0" weight="3" count_min="1" count_max="3"/>
     <loot item="Forestry:beeDroneGE" damage="0" nbt="{MaxH:40,Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:&quot;forestry.speciesSteadfast&quot;,UID0:&quot;forestry.speciesSteadfast&quot;,Slot:0b},1:{UID1:&quot;forestry.speedSlower&quot;,UID0:&quot;forestry.speedSlower&quot;,Slot:1b},2:{UID1:&quot;forestry.lifespanNormal&quot;,UID0:&quot;forestry.lifespanNormal&quot;,Slot:2b},3:{UID1:&quot;forestry.fertilityNormal&quot;,UID0:&quot;forestry.fertilityNormal&quot;,Slot:3b},4:{UID1:&quot;forestry.toleranceNone&quot;,UID0:&quot;forestry.toleranceNone&quot;,Slot:4b},5:{UID1:&quot;forestry.boolTrue&quot;,UID0:&quot;forestry.boolTrue&quot;,Slot:5b},6:{UID1:&quot;forestry.toleranceNone&quot;,UID0:&quot;forestry.toleranceNone&quot;,Slot:7b},7:{UID1:&quot;forestry.boolFalse&quot;,UID0:&quot;forestry.boolFalse&quot;,Slot:8b},8:{UID1:&quot;forestry.boolTrue&quot;,UID0:&quot;forestry.boolTrue&quot;,Slot:9b},9:{UID1:&quot;forestry.flowersVanilla&quot;,UID0:&quot;forestry.flowersVanilla&quot;,Slot:10b},10:{UID1:&quot;forestry.floweringSlowest&quot;,UID0:&quot;forestry.floweringSlowest&quot;,Slot:11b},11:{UID1:&quot;forestry.territoryAverage&quot;,UID0:&quot;forestry.territoryAverage&quot;,Slot:12b},12:{UID1:&quot;forestry.effectNone&quot;,UID0:&quot;forestry.effectNone&quot;,Slot:13b}]}}" weight="10" count_min="1" count_max="1"/>
     <loot item="ExtraUtilities:divisionSigil" damage="0" weight="8" count_min="1" count_max="1"/>
-    <loot item="Avaritia:Ultimate_Stew" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:spagettiandmeatballsItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:deluxecheeseburgerItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:delightedmealItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:heartybreakfastItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:curryItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:rainbowcurryItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:supremepizzaItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:baconmushroomburgerItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:sausageinbreadItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:beefwellingtonItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:epicbaconItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="DraconicEvolution:dezilsMarshmallow" damage="0" weight="5" count_min="1" count_max="32"/>
+    <loot item="Avaritia:Ultimate_Stew" damage="0" weight="1" count_min="1" count_max="2"/>
+    <loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="1" count_min="1" count_max="2"/>
+    <loot item="harvestcraft:spagettiandmeatballsItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:deluxecheeseburgerItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:delightedmealItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:heartybreakfastItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:curryItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:rainbowcurryItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:supremepizzaItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:baconmushroomburgerItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:sausageinbreadItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:beefwellingtonItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:epicbaconItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="DraconicEvolution:dezilsMarshmallow" damage="0" weight="2" count_min="1" count_max="2"/>
     <loot item="gregtech:gt.metaitem.02" damage="32137" weight="20" count_min="4" count_max="8"/>
     <loot item="gregtech:gt.metaitem.02" damage="32100" weight="80" count_min="8" count_max="16"/>
     <loot item="gregtech:gt.metaitem.01" damage="11054" weight="120" count_min="1" count_max="6"/>

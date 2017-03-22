@@ -37,7 +37,5 @@
     <loot item="Thaumcraft:ItemAmuletVis" damage="0" nbt="{aqua:100,terra:100,ignis:300,ordo:200,perditio:200,aer:400}" weight="1" count_min="1" count_max="1"/>
     <loot item="Automagy:baubleEnderDisjunction" damage="1" weight="1" count_min="1" count_max="1"/>
     <loot item="Automagy:phialExtra" damage="0" weight="3" count_min="1" count_max="3"/>
-    <loot item="SGCraft:sgCoreCrystal" damage="0" weight="2" count_min="1" count_max="1"/>
-    <loot item="SGCraft:sgControllerCrystal" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="IguanaTweaksTConstruct:wearableBucket" damage="3" weight="1" count_min="0" count_max="1"/>
 </LootGroup>

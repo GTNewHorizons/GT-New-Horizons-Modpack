@@ -16,18 +16,13 @@
     <loot item="minecraft:enchanted_book" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="IC2:itemToolBronzePickaxe" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="IC2:itemTinCanFilled" damage="0" weight="8" count_min="4" count_max="16"/>
-    <loot item="IC2:itemShardIridium" damage="0" weight="8" count_min="2" count_max="5"/>
-    <loot item="IC2:itemIngot" damage="0" weight="9" count_min="2" count_max="6"/>
-    <loot item="IC2:itemIngot" damage="1" weight="8" count_min="1" count_max="5"/>
     <loot item="BiomesOPlenty:misc" damage="1" weight="25" count_min="2" count_max="8"/>
     <loot item="BiomesOPlenty:plants" damage="5" weight="15" count_min="4" count_max="6"/>
     <loot item="Railcraft:fluid.creosote.bottle" damage="0" weight="20" count_min="4" count_max="16"/>
     <loot item="Railcraft:tool.crowbar" damage="0" weight="10" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.shears" damage="0" weight="5" count_min="1" count_max="1"/>
-    <loot item="Railcraft:tool.steel.shovel" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.pickaxe" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.axe" damage="0" weight="5" count_min="1" count_max="1"/>
-    <loot item="Railcraft:ingot" damage="0" weight="10" count_min="5" count_max="9"/>
     <loot item="minecraft:minecart" damage="0" weight="10" count_min="1" count_max="1"/>
     <loot item="minecraft:chest_minecart" damage="0" weight="10" count_min="1" count_max="1"/>
     <loot item="minecraft:tnt_minecart" damage="0" weight="5" count_min="1" count_max="3"/>
@@ -74,22 +69,20 @@
     <loot item="Automagy:baubleEnderDisjunction" damage="1" weight="1" count_min="1" count_max="1"/>
     <loot item="Automagy:phialExtra" damage="0" weight="3" count_min="1" count_max="3"/>
     <loot item="ExtraUtilities:divisionSigil" damage="0" weight="1" count_min="1" count_max="1"/>
-    <loot item="SGCraft:sgCoreCrystal" damage="0" weight="2" count_min="1" count_max="1"/>
-    <loot item="SGCraft:sgControllerCrystal" damage="0" weight="1" count_min="1" count_max="1"/>
-    <loot item="Avaritia:Ultimate_Stew" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:spagettiandmeatballsItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:deluxecheeseburgerItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:delightedmealItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:heartybreakfastItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:curryItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:rainbowcurryItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:supremepizzaItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:baconmushroomburgerItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:sausageinbreadItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:beefwellingtonItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="harvestcraft:epicbaconItem" damage="0" weight="5" count_min="1" count_max="32"/>
-    <loot item="DraconicEvolution:dezilsMarshmallow" damage="0" weight="5" count_min="1" count_max="32"/>
+    <loot item="Avaritia:Ultimate_Stew" damage="0" weight="5" count_min="1" count_max="2"/>
+    <loot item="Avaritia:Cosmic_Meatballs" damage="0" weight="5" count_min="1" count_max="2"/>
+    <loot item="harvestcraft:spagettiandmeatballsItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:deluxecheeseburgerItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:delightedmealItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:heartybreakfastItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:curryItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:rainbowcurryItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:supremepizzaItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:baconmushroomburgerItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:sausageinbreadItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:beefwellingtonItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="harvestcraft:epicbaconItem" damage="0" weight="5" count_min="1" count_max="4"/>
+    <loot item="DraconicEvolution:dezilsMarshmallow" damage="0" weight="1" count_min="1" count_max="2"/>
     <loot item="gregtech:gt.metaitem.01" damage="11054" weight="12" count_min="1" count_max="4"/>
     <loot item="gregtech:gt.metaitem.01" damage="11089" weight="3" count_min="1" count_max="4"/>
     <loot item="gregtech:gt.metaitem.01" damage="11305" weight="6" count_min="1" count_max="4"/>
