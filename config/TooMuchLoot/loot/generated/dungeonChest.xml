@@ -26,6 +26,10 @@
     <loot item="minecraft:record_ward" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="minecraft:record_11" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="minecraft:record_wait" damage="0" weight="5" count_min="1" count_max="1"/>
+	<loot item="minecraft:chainmail_helmet" damage="0" weight="2" count_min="1" count_max="1"/>
+	<loot item="minecraft:chainmail_leggings" damage="0" weight="2" count_min="1" count_max="1"/>
+	<loot item="minecraft:chainmail_boots" damage="0" weight="2" count_min="1" count_max="1"/>
+	<loot item="minecraft:chainmail_chestplate" damage="0" weight="2" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.sword" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:armor.steel.helmet" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:armor.steel.plate" damage="0" weight="5" count_min="1" count_max="1"/>

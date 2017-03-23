@@ -75,4 +75,26 @@
     <loot item="gregtech:gt.metaitem.01" damage="8505" weight="2" count_min="2" count_max="8"/>
     <loot item="gregtech:gt.metaitem.01" damage="8527" weight="4" count_min="2" count_max="8"/>
     <loot item="gregtech:gt.metaitem.01" damage="8528" weight="4" count_min="2" count_max="8"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11035" weight="9" count_min="2" count_max="6"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11057" weight="8" count_min="4" count_max="16"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11089" weight="10" count_min="2" count_max="6"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11018" weight="10" count_min="2" count_max="8"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11019" weight="1" count_min="0" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11031" weight="3" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11034" weight="5" count_min="2" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11033" weight="1" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11036" weight="4" count_min="1" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11048" weight="3" count_min="1" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11058" weight="2" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11302" weight="3" count_min="1" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11303" weight="1" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11304" weight="7" count_min="2" count_max="6"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11306" weight="1" count_min="0" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11307" weight="2" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11308" weight="4" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11310" weight="1" count_min="1" count_max="1"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11343" weight="1" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11354" weight="4" count_min="2" count_max="3"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11365" weight="2" count_min="1" count_max="2"/>
+	<loot item="gregtech:gt.metaitem.01" damage="11382" weight="1" count_min="1" count_max="2"/>
 </LootGroup>
