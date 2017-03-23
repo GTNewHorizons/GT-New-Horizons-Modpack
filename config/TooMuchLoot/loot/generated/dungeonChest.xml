@@ -30,6 +30,10 @@
 	<loot item="minecraft:chainmail_leggings" damage="0" weight="2" count_min="1" count_max="1"/>
 	<loot item="minecraft:chainmail_boots" damage="0" weight="2" count_min="1" count_max="1"/>
 	<loot item="minecraft:chainmail_chestplate" damage="0" weight="2" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_helmet" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_chestplate" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_leggings" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_boots" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="Railcraft:tool.steel.sword" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:armor.steel.helmet" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="Railcraft:armor.steel.plate" damage="0" weight="5" count_min="1" count_max="1"/>

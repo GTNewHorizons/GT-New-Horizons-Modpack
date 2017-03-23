@@ -28,6 +28,10 @@
     <loot item="IC2:itemArmorBronzeChestplate" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeLegs" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeBoots" damage="0" weight="3" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_helmet" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_chestplate" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_leggings" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_boots" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="BiomesOPlenty:flowers" damage="3" weight="25" count_min="1" count_max="4"/>
     <loot item="BiomesOPlenty:flowers" damage="2" weight="25" count_min="1" count_max="4"/>
     <loot item="Railcraft:tool.steel.sword" damage="0" weight="5" count_min="1" count_max="1"/>

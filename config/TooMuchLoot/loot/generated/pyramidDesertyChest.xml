@@ -11,6 +11,10 @@
     <loot item="minecraft:golden_horse_armor" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="minecraft:diamond_horse_armor" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="minecraft:enchanted_book" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_helmet" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_chestplate" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_leggings" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:diamond_boots" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="IC2:itemToolBronzeSword" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeHelmet" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeChestplate" damage="0" weight="3" count_min="1" count_max="1"/>
