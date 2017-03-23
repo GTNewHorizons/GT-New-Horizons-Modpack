@@ -8,6 +8,7 @@
     <loot item="minecraft:apple" damage="0" weight="15" count_min="1" count_max="3"/>
     <loot item="minecraft:iron_pickaxe" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="minecraft:enchanted_book" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:iron_door" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemToolBronzeSword" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeHelmet" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeChestplate" damage="0" weight="3" count_min="1" count_max="1"/>

@@ -18,6 +18,7 @@
 	<loot item="minecraft:chainmail_leggings" damage="0" weight="2" count_min="1" count_max="1"/>
 	<loot item="minecraft:chainmail_boots" damage="0" weight="2" count_min="1" count_max="1"/>
 	<loot item="minecraft:chainmail_chestplate" damage="0" weight="2" count_min="1" count_max="1"/>
+	<loot item="minecraft:blaze_rod" damage="0" weight="5" count_min="1" count_max="3"/>
     <loot item="IC2:itemTinCanFilled" damage="0" weight="8" count_min="4" count_max="16"/>
     <loot item="BiomesOPlenty:misc" damage="1" weight="25" count_min="2" count_max="8"/>
     <loot item="BiomesOPlenty:plants" damage="5" weight="15" count_min="4" count_max="6"/>

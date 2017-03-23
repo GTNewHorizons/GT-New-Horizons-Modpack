@@ -15,6 +15,8 @@
 	<loot item="minecraft:diamond_chestplate" damage="0" weight="1" count_min="1" count_max="1"/>
 	<loot item="minecraft:diamond_leggings" damage="0" weight="1" count_min="1" count_max="1"/>
 	<loot item="minecraft:diamond_boots" damage="0" weight="1" count_min="1" count_max="1"/>
+	<loot item="minecraft:iron_door" damage="0" weight="3" count_min="1" count_max="1"/>
+	<loot item="minecraft:blaze_rod" damage="0" weight="5" count_min="1" count_max="3"/>
     <loot item="IC2:itemToolBronzeSword" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeHelmet" damage="0" weight="3" count_min="1" count_max="1"/>
     <loot item="IC2:itemArmorBronzeChestplate" damage="0" weight="3" count_min="1" count_max="1"/>
@@ -53,6 +55,8 @@
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="7" weight="1" count_min="1" count_max="1"/>
     <loot item="Thaumcraft:ItemBaubleBlanks" damage="8" weight="1" count_min="1" count_max="1"/>
     <loot item="Thaumcraft:ItemAmuletVis" damage="0" nbt="{aqua:100,terra:100,ignis:300,ordo:200,perditio:200,aer:400}" weight="1" count_min="1" count_max="1"/>
+	<loot item="Thaumcraft:blockCustomPlant" damage="2" weight="4" count_min="1" count_max="3"/>
+	<loot item="Thaumcraft:blockCustomPlant" damage="3" weight="4" count_min="1" count_max="3"/>
     <loot item="Automagy:baubleEnderDisjunction" damage="1" weight="1" count_min="1" count_max="1"/>
     <loot item="Automagy:phialExtra" damage="0" weight="3" count_min="1" count_max="3"/>
     <loot item="ExtraUtilities:divisionSigil" damage="0" weight="5" count_min="1" count_max="1"/>
