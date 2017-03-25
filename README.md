@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.0.1 available (05.03.2017)
+Version pre1.4.1.0pre is out 25.0.3.2014
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -79,7 +79,6 @@ delta.gtnewhorizons.com<BR>
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
-138.201.196.161:25562<BR>
 138.201.134.44:25562<BR>
 
  
@@ -104,15 +103,15 @@ Bacongaming.net:25577<BR>
 ---
 
 
-## Modlist - NewHorizons pre1.4.0.1 --- 05.03.2017<BR>
+## Modlist - NewHorizons pre1.4.1.0 --- 25.03.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9fbeta27<BR>
+* Adventure Backpack 0.9gbeta1<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
-* AppleCore	1.3.8<BR>
+* AppleCore	1.3.9<BR>
 * Applied Energistics rv3stable6<BR>
 * Aqua Creeper 1.0.1<BR>
 * Architecture Craft 1.4.2<BR>
@@ -125,6 +124,7 @@ Bacongaming.net:25577<BR>
 * Baubles	1.0.1.10<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
+* Better Builders Wands 0.8.1r92<BR>
 * Better Questing 1.0.178<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.5<BR>
@@ -137,8 +137,9 @@ Bacongaming.net:25577<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.17<BR>
-* Buildcraft Compat	7.1.5<BR>
+* Buildcraft	7.1.20<BR>
+* Buildcraft Compat	7.1.6<BR>
+* Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
 * CodeChickenCore	1.07.47<BR>
@@ -155,7 +156,7 @@ Bacongaming.net:25577<BR>
 * Electro Magic Tools	1.2.6.5a<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.2.0.39<BR>
-* Ender IO	2.3.0.431<BR>
+* Ender IO	2.3.0.432<BR>
 * Ender Storage	1.4.7.38<BR>
 * Ender Zoo	1.0.15.32<BR>
 * Enhanced Loot Bags 1.0.2a<BR>
@@ -171,14 +172,14 @@ Bacongaming.net:25577<BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.474<BR>
-* GalacticraftCore	3.0.12.474<BR>
+* Galacticraft-Planets	3.0.12.483<BR>
+* GalacticraftCore	3.0.12.483<BR>
 * GalactiGreg	0.9.5<BR>
-* Galaxy Space	1.1.3a<BR>
+* Galaxy Space	1.1.4a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.27.30<BR>
-* GT New Horizons Core Mod	1.3.25<BR>
+* Gregtech	5.09.27.36<BR>
+* GT New Horizons Core Mod	1.3.33<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -195,14 +196,14 @@ Bacongaming.net:25577<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.54<BR>
-* Jabba	1.2.2<BR>
+* Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.474<BR>
+* MicdoodleCore	3.0.12.483<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -224,7 +225,7 @@ Bacongaming.net:25577<BR>
 * Open Printers	0.1.0.132<BR>
 * Open Security	1.0-99<BR>
 * p455w0rdslib 1.0.4<BR>
-* Pam's Harvestcraft	1.7.10lc<BR>
+* Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
 * Player api	1.4<BR>
 * Project Blue	1.1.6<BR>
@@ -258,17 +259,18 @@ Bacongaming.net:25577<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.4.1.1710.8<BR>
+* Thaumic Bases	1.4.1.1710.9<BR>
 * Thaumic Energistics	1.0.0.5<BR>
 * Thaumic Exploration	1.1.60<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.540<BR>
+* Thaumic Tinkerer	2.5.541-GTNH<BR>
 * TiCTooltips	1.2.5<BR>
-* Tinker's Construct	1.8.9custom<BR>
-* Tinker's Gregworks	1.0.15<BR>
+* Tinker's Construct	1.8.9.4-GTNH<BR>
+* Tinker's Gregworks	1.0.16<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
+* Too Much Loot 4.0.2.B1<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
 * Ulity Mobs	3.1.1<BR>
@@ -282,7 +284,7 @@ Bacongaming.net:25577<BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.70<BR>
+* YamCore	0.5.73<BR>
 * Ztones	2.2.2custom<BR>
 
 
