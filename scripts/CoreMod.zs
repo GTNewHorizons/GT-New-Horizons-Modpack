@@ -24,7 +24,6 @@ import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Lathe;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
-import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Pulverizer;

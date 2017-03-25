@@ -897,31 +897,31 @@ recipes.addShaped(<GalacticraftMars:item.titanium_sword>, [
 
 // --- Desh Pickaxe
 recipes.addShaped(<GalacticraftMars:item.deshPick>, [
-[<gregtech:gt.metaitem.02:30512>, DeshPlate,DeshPlate],
+[<gregtech:gt.metaitem.02:30502>, DeshPlate,DeshPlate],
 [File, <ore:stickDesh>, DeshPlate],
 [null, <ore:stickDesh>, HHammer]]);
 
 // --- Desh Axe
 recipes.addShaped(<GalacticraftMars:item.deshAxe>, [
-[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30502>],
 [DeshPlate, <ore:stickDesh>, HHammer],
 [File, <ore:stickDesh>, null]]);
 
 // --- Desh Hoe
 recipes.addShaped(<GalacticraftMars:item.deshHoe>, [
-[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[DeshPlate, DeshPlate, <gregtech:gt.metaitem.02:30502>],
 [File, <ore:stickDesh>, HHammer],
 [null, <ore:stickDesh>, null]]);
 
 // --- Desh Shovel
 recipes.addShaped(<GalacticraftMars:item.deshSpade>, [
-[File, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[File, DeshPlate, <gregtech:gt.metaitem.02:30502>],
 [null, <ore:stickDesh>, HHammer],
 [null, <ore:stickDesh>, null]]);
 
 // --- Desh Sword
 recipes.addShaped(<GalacticraftMars:item.deshSword>, [
-[null, DeshPlate, <gregtech:gt.metaitem.02:30512>],
+[null, DeshPlate, <gregtech:gt.metaitem.02:30502>],
 [File, DeshPlate, HHammer],
 [null, <ore:stickDesh>, null]]);
 

@@ -135,7 +135,7 @@
       <output>
         <itemStack modID="minecraft" itemName="redstone" number="8" />
         <itemStack modID="minecraft" itemName="redstone" number="1" chance="0.2" />
-        <itemStack modID="minecraft" itemName="redstone" itemMeta="1" chance="0.1" />
+        <itemStack modID="minecraft" itemName="redstone" number="1" chance="0.1" />
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
       </output>
     </recipe>

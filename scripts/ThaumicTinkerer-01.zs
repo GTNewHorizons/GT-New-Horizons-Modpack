@@ -552,7 +552,7 @@ mods.thaumcraft.Warp.addToResearch("BLOOD_SWORD", 3);
 mods.thaumcraft.Research.setConcealed("SUMMON", true);
 mods.thaumcraft.Arcane.addShaped("SUMMON", <ThaumicTinkerer:spawner>, "ordo 75, perditio 75, terra 50", [
 [<ore:gemFlawlessRuby>, <Thaumcraft:blockMetalDevice:5>, <ore:gemFlawlessRuby>],
-[<Thaumcraft:blockCosmeticSolid:8>, <ore:plateDenseObsidian>, <Thaumcraft:blockCosmeticSolid:8>],
+[<Thaumcraft:blockCosmeticSolid>, <ore:plateDenseObsidian>, <Thaumcraft:blockCosmeticSolid>],
 [<ore:screwThaumium>, <ore:craftingToolScrewdriver>, <ore:screwThaumium>]]);
 // -
 mods.thaumcraft.Research.setAspects("SUMMON", "telum 15, bestia 12, praecantatio 9, spiritus 6, terra 3");

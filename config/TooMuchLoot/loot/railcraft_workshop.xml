@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="railcraft:workshop" loading_mode="OVERRIDE" count_min="10" count_max="16">
+    <loot item="Railcraft:fluid.creosote.bottle" damage="0" weight="20" count_min="4" count_max="16"/>
+    <loot item="minecraft:coal" damage="0" weight="20" count_min="8" count_max="16"/>
+    <loot item="Railcraft:tool.crowbar" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="Railcraft:tool.magnifying.glass" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="Railcraft:armor.goggles" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="Railcraft:armor.overalls" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="minecraft:minecart" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="minecraft:chest_minecart" damage="0" weight="10" count_min="1" count_max="1"/>
+    <loot item="minecraft:tnt_minecart" damage="0" weight="5" count_min="1" count_max="3"/>
+    <loot item="minecraft:rail" damage="0" weight="30" count_min="8" count_max="32"/>
+	<loot item="minecraft:hopper" damage="0" weight="20" count_min="1" count_max="4"/>
+	<loot item="minecraft:piston" damage="0" weight="10" count_min="1" count_max="2"/>	
+    <loot item="minecraft:hopper_minecart" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="Railcraft:part.tie" damage="0" weight="20" count_min="4" count_max="16"/>
+    <loot item="Railcraft:part.tie" damage="1" weight="10" count_min="4" count_max="16"/>
+    <loot item="Railcraft:part.rail" damage="0" weight="20" count_min="6" count_max="18"/>
+    <loot item="Railcraft:part.rail" damage="1" weight="20" count_min="6" count_max="18"/>
+    <loot item="Railcraft:part.rail" damage="2" weight="20" count_min="6" count_max="18"/>
+    <loot item="Railcraft:part.rail" damage="3" weight="20" count_min="6" count_max="18"/>
+    <loot item="Railcraft:part.rail" damage="4" weight="20" count_min="6" count_max="18"/>
+    <loot item="Railcraft:fuel.coke" damage="0" weight="20" count_min="4" count_max="16"/>
+    <loot item="Railcraft:part.gear" damage="3" weight="5" count_min="1" count_max="8"/>
+    <loot item="Railcraft:cart.tnt.wood" damage="0" weight="5" count_min="1" count_max="3"/>
+    <loot item="Railcraft:cart.work" damage="0" weight="8" count_min="1" count_max="1"/>
+    <loot item="Railcraft:tool.surveyor" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="Railcraft:tool.signal.tuner" damage="0" weight="5" count_min="1" count_max="1"/>
+    <loot item="Railcraft:tool.electric.meter" damage="0" weight="5" count_min="1" count_max="1"/>
+</LootGroup>

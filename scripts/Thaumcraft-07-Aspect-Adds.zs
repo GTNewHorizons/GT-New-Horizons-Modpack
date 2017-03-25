@@ -114,11 +114,11 @@ mods.thaumcraft.Aspects.set(<GalacticraftCore:tile.arclamp>, "potentia 5, machin
 mods.thaumcraft.Aspects.set(<GalacticraftCore:item.basicItem>, "potentia 2, electrum 2, tenebrae 1");
 
 // --- Oxy Tanks
-mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankLightFull>, "metallum 3, volatus 3");
+//mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankLightFull:900>, "metallum 3, volatus 3");
 // -
-mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankMedFull>, "metallum 6, volatus 6");
+//mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankMedFull:1800>, "metallum 6, volatus 6");
 // -
-mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankHeavyFull>, "metallum 9, volatus 9");
+//mods.thaumcraft.Aspects.set(<GalacticraftCore:item.oxygenTankHeavyFull:2700>, "metallum 9, volatus 9");
 
 // --- Tin Canister
 mods.thaumcraft.Aspects.set(<GalacticraftCore:item.canister>, "metallum 1, vitreus 1");

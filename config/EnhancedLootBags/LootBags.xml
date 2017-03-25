@@ -1234,4 +1234,64 @@
         <Loot Identifier="736d93c2-6cf5-4269-83ef-141bf6361f49" ItemName="Railcraft:track" Amount="64" NBTTag="{track:&quot;railcraft:track.electric&quot;}" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a7228252-8158-49f4-8d5d-7587eff9b5df" ItemName="Railcraft:track:816" Amount="64" NBTTag="{track:&quot;railcraft:track.speed&quot;}" Chance="95" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+    <LootGroup GroupMetaID="35" GroupName="Seeds Class 3" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="false">
+        <Loot Identifier="83e2efd0-d0d9-4799-b7f1-243243455fec" ItemName="harvestcraft:blackberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2936fb99-dc7b-44dd-9e98-9aaee9c4b3b6" ItemName="harvestcraft:blueberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="071e3968-caac-4284-85f4-2e665261fac5" ItemName="harvestcraft:candleberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5cc368d3-10f2-4d6d-82a6-0a055dcf4ef2" ItemName="harvestcraft:raspberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bf0a940f-8b5c-42c6-b288-144ba24a6176" ItemName="harvestcraft:strawberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1c6e5c26-bb05-4f6b-89ca-aae084bb6023" ItemName="harvestcraft:grapeseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3336107a-eb00-44a7-a76c-742bb004c6a7" ItemName="harvestcraft:cactusfruitseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="234c8827-95e3-4ca6-895c-66db07b5eccb" ItemName="harvestcraft:asparagusseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="696778c2-e923-46c8-9dd8-a029c918a3b6" ItemName="harvestcraft:barleyseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4a916b9b-93a7-49f5-b825-2c80d46ca367" ItemName="harvestcraft:oatsseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="84eadc1b-53b5-46bf-be6c-31df23d6ad48" ItemName="harvestcraft:ryeseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="320380d0-125c-4971-8962-01c23efbc758" ItemName="harvestcraft:cornseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="007c447d-8576-44b8-b47b-fb5982451302" ItemName="harvestcraft:bambooshootseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2ec04ace-fbf0-4426-9611-97079bbdad56" ItemName="harvestcraft:cantaloupeseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f9789698-f4fe-4f37-8819-ef06695b1691" ItemName="harvestcraft:cucumberseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="41fe6fe4-8aaa-4c74-86ad-a22dfc119c9f" ItemName="harvestcraft:wintersquashseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f16aa8ec-f5c9-4f56-9fb1-09ad13b231ad" ItemName="harvestcraft:zucchiniseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="852b53a8-0d28-40c0-aedd-a4d04d69f224" ItemName="harvestcraft:beetseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="37843d18-797b-49de-b265-7d3ec297a45f" ItemName="harvestcraft:onionseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ff357144-ce3d-415e-aad4-76ef42e93c26" ItemName="harvestcraft:parsnipseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="71344c50-3e9c-4327-85d7-e1be16432cb7" ItemName="harvestcraft:peanutseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2f796901-d7aa-43bb-a1e9-e1b8937b9024" ItemName="harvestcraft:radishseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="109eca58-a159-4d7b-bff0-6e938015246f" ItemName="harvestcraft:rutabagaseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bcfbcc4c-9469-4357-97ea-a55c86d9648d" ItemName="harvestcraft:sweetpotatoseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cf447961-85f7-4808-87d6-3559e7154c92" ItemName="harvestcraft:turnipseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="00892bf3-d807-4567-a0d8-9306c9a7a3e6" ItemName="harvestcraft:rhubarbseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3b824fe5-8a71-45ca-95f0-8285b02ee862" ItemName="harvestcraft:celeryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="138c6622-6a4b-4951-ba98-342dc170ffc0" ItemName="harvestcraft:garlicseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6ea12cae-044b-44a7-9248-f5e6162dc647" ItemName="harvestcraft:gingerseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="67d3d14b-74b7-41ad-99ad-37d1b04e6d24" ItemName="harvestcraft:spiceleafseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="04f84de4-8cd5-411a-81a9-55cc462159dd" ItemName="harvestcraft:teaseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="64134902-faf5-4adb-ba21-af7014189ebc" ItemName="harvestcraft:coffeeseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ae0b8b28-31fa-4417-8bad-7bd025870ce2" ItemName="harvestcraft:mustardseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="791e1c2b-1719-4a95-a078-b9a4b679cf9f" ItemName="harvestcraft:broccoliseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a6a0d1bf-f565-4e9e-87d1-902279f9f350" ItemName="harvestcraft:cauliflowerseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="28579c9b-9a75-4155-90cc-00752f701bfe" ItemName="harvestcraft:leekseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a977ff14-59b4-4c58-b752-51b5b5f4ffcb" ItemName="harvestcraft:lettuceseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3e3d5498-afa0-4bae-965f-39587dfc6209" ItemName="harvestcraft:scallionseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6c882c6c-d669-4071-944e-a5d3e5efb9c8" ItemName="harvestcraft:artichokeseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="37e627ec-c851-4d26-99e4-8f3c349b1e48" ItemName="harvestcraft:brusselsproutseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9a9719f8-bf38-49b3-b972-11b1d41480cd" ItemName="harvestcraft:cabbageseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eb00d3ea-d2aa-4b5f-a051-73819c4fcdc2" ItemName="harvestcraft:spinachseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c3c03ae2-9ef7-422e-ab71-2789d87d9c9c" ItemName="harvestcraft:beanseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bd3669ec-20fe-42f7-96eb-cda0a60cca41" ItemName="harvestcraft:soybeanseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9c17b69e-7a93-473d-a68c-1747ae6840ba" ItemName="harvestcraft:bellpepperseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bf839f51-6549-4e38-9c62-5d6c14a74d77" ItemName="harvestcraft:chilipepperseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="481abe06-0ab9-4bfd-8951-9422759e764c" ItemName="harvestcraft:eggplantseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="48185d06-2104-49db-96b4-78393567f245" ItemName="harvestcraft:okraseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e1ed7256-3794-42ed-881c-14423879842c" ItemName="harvestcraft:peasseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="18a19df8-e6c2-4d69-b1f9-70c54af0e8c6" ItemName="harvestcraft:tomatoseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f07e6e3e-3e0c-4892-bfb3-278ac9b18bd8" ItemName="harvestcraft:pineappleseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3f4560c9-3d16-41c2-88e5-d98f01f97662" ItemName="harvestcraft:curryleafseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9524010a-7993-4ddf-ab83-69d5ecd1d5fa" ItemName="harvestcraft:sesameseedsseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fad7937e-6683-4be9-904c-05ce51ba6bce" ItemName="harvestcraft:kiwiseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c4a5df79-e0a2-44a1-8cb5-c0882d9078a5" ItemName="harvestcraft:cranberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="285e6165-7966-4649-b70d-222a5467cc27" ItemName="harvestcraft:riceseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="12f43014-fda2-426e-aaed-4076df34ec70" ItemName="harvestcraft:seaweedseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c4c16c26-02c9-4c51-afd9-f2592c4509cd" ItemName="harvestcraft:waterchestnutseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>

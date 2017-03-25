@@ -17,7 +17,6 @@ import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
 import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
-import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Polarizer;
 import mods.gregtech.Wiremill;

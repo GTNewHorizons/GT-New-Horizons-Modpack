@@ -5,7 +5,6 @@
 // --- Importing Stuff ---
 
 
-import mods.nei.NEI;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 

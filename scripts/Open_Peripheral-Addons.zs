@@ -13,7 +13,7 @@ import mods.gregtech.Assembler;
 
 
 // --- Ticket Machine
-recipes.remove(<OpenPeripheral:ticketmachine>);
+//recipes.remove(<OpenPeripheral:ticketmachine>);
 
 // --- Therminal Glasses Bridge
 recipes.remove(<OpenPeripheral:glassesbridge>);
@@ -46,10 +46,10 @@ recipes.remove(<OpenPeripheral:generic>);
 
 
 // --- Ticket Machine
-recipes.addShaped(<OpenPeripheral:ticketmachine>, [
-[<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>],
-[<BuildCraft|Factory:tankBlock>, <ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>],
-[<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>]]);
+//recipes.addShaped(<OpenPeripheral:ticketmachine>, [
+//[<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>],
+//[<BuildCraft|Factory:tankBlock>, <ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>],
+//[<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>]]);
 
 // --- Therminal Glasses Bridge
 recipes.addShaped(<OpenPeripheral:glassesbridge>, [

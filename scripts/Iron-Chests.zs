@@ -189,7 +189,7 @@ recipes.addShaped(Diamond2CrystalUp, [
 // --- Obsidian Chest
 recipes.addShaped(ObsidianChest, [
 [DiamondScrew, DenseObsidianPlate, DiamondScrew],
-[DenseObsidianPlate, Chest, DenseObsidianPlate],
+[DenseObsidianPlate, DiamondChest, DenseObsidianPlate],
 [Hammer, DenseObsidianPlate, Screwdriver]]);
 
 // --- Obsidian Chest

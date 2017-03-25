@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LootGroup category="pyramidJungleDispenser" loading_mode="OVERRIDE" count_min="2" count_max="2">
+    <loot item="minecraft:arrow" damage="0" weight="30" count_min="2" count_max="7"/>
+    <loot item="minecraft:fire_charge" damage="0" weight="30" count_min="2" count_max="8"/>
+    <loot item="gregtech:gt.metaitem.02" damage="25335" weight="20" count_min="8" count_max="16"/>
+</LootGroup>
