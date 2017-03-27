@@ -948,6 +948,15 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodMagicBaseItems:32>, <EnderZoo:
 // --- Enhanced Teleportation Focus
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:enhancedTelepositionFocus>, <AWWayofTime:telepositionFocus>, 4, 20000);
 
+// --- Blood Soaked Thaumium Block
+mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyThaumium>, <Thaumcraft:blockCosmeticSolid:4>, 2, 5000);
+
+// --- Blood Soaked Thaumium Block
+mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyVoid>, <thaumicbases:voidBlock>, 3, 10000);
+
+// --- Blood Soaked Thaumium Block
+mods.bloodmagic.Altar.addRecipe(<dreamcraft:tile.BloodyIchorium>, <gregtech:gt.blockmetal8:13>, 5, 50000);
+
 
 
 
