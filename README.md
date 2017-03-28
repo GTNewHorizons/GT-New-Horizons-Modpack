@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.1.0pre is out 25.0.3.2014
+Version pre1.4.1.0pre3 is out 28.03.2014
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -103,7 +103,7 @@ Bacongaming.net:25577<BR>
 ---
 
 
-## Modlist - NewHorizons pre1.4.1.0 --- 25.03.2017<BR>
+## Modlist - NewHorizons 1.4.1.0pre3 --- 28.03.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta1<BR>
@@ -121,7 +121,7 @@ Bacongaming.net:25577<BR>
 * Avaritia 1.13<BR>
 * Avaritiaddons 1.3b<BR>
 * BackPack	2.2.4<BR>
-* Baubles	1.0.1.10<BR>
+* Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Builders Wands 0.8.1r92<BR>
@@ -175,11 +175,11 @@ Bacongaming.net:25577<BR>
 * Galacticraft-Planets	3.0.12.483<BR>
 * GalacticraftCore	3.0.12.483<BR>
 * GalactiGreg	0.9.5<BR>
-* Galaxy Space	1.1.4a<BR>
+* Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.27.36<BR>
-* GT New Horizons Core Mod	1.3.33<BR>
+* Gregtech	5.09.27.37<BR>
+* GT New Horizons Core Mod	1.3.35<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
