@@ -3133,6 +3133,14 @@ public class GT_Loader_Machines
 		CustomItemList.nameRemover.set(new NameRemover(
 				12070 , "fix.name.remover", "Name Remover", 0).getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.nameRemover.get(1L, new Object[0]),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"SsS", "VMV", "SXS",
+						'M', ItemList.Hull_ULV,
+						'V', OrePrefixes.gearGtSmall.get(Materials.AnyBronze),
+						'S', OrePrefixes.screw.get(Materials.AnyIron),
+						'X', OrePrefixes.plate.get(Materials.AnyIron)});
+
 		//ID's occupied from 15000-15500!! (in EM branch)
 
 		//TODO new tiered maybe
