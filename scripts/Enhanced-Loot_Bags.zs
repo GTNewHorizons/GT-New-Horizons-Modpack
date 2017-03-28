@@ -101,3 +101,6 @@ recipes.addShapeless(<enhancedlootbags:lootbag:33>.withTag({ench: [{lvl: 3 as sh
 
 // --- Loot Bag (Transportation 1 Class)
 recipes.addShapeless(<enhancedlootbags:lootbag:34>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:34>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"})]);
+
+// --- Loot Bag (Seeds Class 3)
+recipes.addShapeless(<enhancedlootbags:lootbag:35>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:35>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <harvestcraft:epicbaconItem>]);

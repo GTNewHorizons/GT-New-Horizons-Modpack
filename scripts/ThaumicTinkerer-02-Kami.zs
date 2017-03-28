@@ -423,6 +423,9 @@ mods.thaumcraft.Research.setAspects("PLACEMENT_MIRROR", "cognitio 15, fabrico 12
 mods.thaumcraft.Research.setComplexity("PLACEMENT_MIRROR", 4);
 mods.thaumcraft.Warp.addToResearch("PLACEMENT_MIRROR", 8);
 
+// --- Ichor Ingots
+furnace.addRecipe(<ThaumicTinkerer:kamiResource:2> * 2, <gregtech:gt.blockmetal8:13>);
+
 
 
 

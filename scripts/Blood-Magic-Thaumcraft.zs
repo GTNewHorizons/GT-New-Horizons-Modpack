@@ -915,6 +915,21 @@ mods.thaumcraft.Infusion.addRecipe("CRYSTALCLUSTER", <BloodArsenal:blood_stone:4
 mods.thaumcraft.Research.addInfusionPage("CRYSTALCLUSTER", <AWWayofTime:blockCrystal>);
 mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 5);
 
+// --- Ichorium Block
+mods.thaumcraft.Research.addResearch("ICHORIUMBLOCK", "BLOODMAGIC", "victus 21, fames 18, praecantatio 15, infernus 12, alienis 9, superbia 6, terra 3", -10, 2, 4, <gregtech:gt.blockmetal8:13>);
+game.setLocalization("tc.research_name.ICHORIUMBLOCK", "Tier 6 Pillar");
+game.setLocalization("tc.research_text.ICHORIUMBLOCK", "[BM] The final Tier");
+mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "CRYSTALCLUSTER", false);
+mods.thaumcraft.Research.setConcealed("ICHORIUMBLOCK", true);
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "bloodmagic.research_page.ICHORIUMBLOCK");
+game.setLocalization("bloodmagic.research_page.ICHORIUMBLOCK", "The sixth and final tier of your Blood Magic altar will require 76 additional Blood Runes, and 4 seven block pillars made of Blood-Soaked Ichorium Blocks capped with Crystal Clusters. The Tier 6 Altar allows you to unlock the full potential of your Blood Magic endeavors by way of unlocking even more and more powerful transfusion recipes. Like previous tier, the sixth ring of runes requires a two-block gap outward from the previous ring. The Ichorium Blocks need to be placed in a Tier 5 Altar to soak up the Blood and be Transformed in a Blood Soaked Ichorium Block");
+mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>, 
+[<ThaumicTinkerer:kamiResource:2>, <AWWayofTime:bloodMagicBaseItems:28>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:standardBindingAgent>, <ThaumicTinkerer:kamiResource:2>, <AWWayofTime:bloodMagicBaseItems:29>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>], 
+"victus 64, fames 48, praecantatio 32, infernus 24, alienis 16, superbia 16, terra 8", <gregtech:gt.blockmetal8:13>, 12);
+mods.thaumcraft.Research.addInfusionPage("ICHORIUMBLOCK", <gregtech:gt.blockmetal8:13>);
+mods.thaumcraft.Warp.addToResearch("ICHORIUMBLOCK", 3);
+
 // --- Glyph of Rigit Stability
 mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", 2, -10, 4, <AWWayofTime:blockStabilityGlyph>);
 game.setLocalization("tc.research_name.GLYPHSTONE", "Glyph Stone");
