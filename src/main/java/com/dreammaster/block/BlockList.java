@@ -40,8 +40,10 @@ public enum BlockList {
 	QuintupleCompressedCoalCoke(new ModSimpleBaseBlock(new QuintupleCompressedCoalCokeProperties(), ModTabList.ModBlocksTab)),
 	DiamondFrameBox(new ModSimpleBaseBlock(new DiamondFrameBoxProperties(), ModTabList.ModBlocksTab)),
 	CompressedGraphite(new ModSimpleBaseBlock(new CompressedGraphiteProperties(), ModTabList.ModBlocksTab)),
-
-	// A simple basic block. Not enabled, as it doesn't have a texture
+	BloodyThaumium(new ModSimpleBaseBlock(new BloodyThaumiumProperties(), ModTabList.ModBlocksTab)),
+	BloodyVoid(new ModSimpleBaseBlock(new BloodyVoidProperties(), ModTabList.ModBlocksTab)),
+	BloodyIchorium(new ModSimpleBaseBlock(new BloodyIchoriumProperties(), ModTabList.ModBlocksTab)),
+		// A simple basic block. Not enabled, as it doesn't have a texture
 	//BoringDefaultBlock(new ModSimpleBaseBlock(Material.rock, "BoringBlock", ModTabList.ModBlocksTab)), 
 	
 	// fancy admin lamp noone will take! Shows how to use other's mod's textures for blocks without stealing them

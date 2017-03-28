@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modfixes.IModFix;
 import com.dreammaster.modfixes.ModFixesMaster;
 import com.dreammaster.modfixes.oilgen.OilGeneratorFix;
@@ -19,7 +20,8 @@ import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.Vec3;
-import net.minecraftforge.common.util.FakePlayer;
+import net.minecraft.world.World;
+import net.minecraft.world.biome.BiomeGenBase;
 
 
 // Use this command for your own needs. Add stuff you want to test/debug. This
@@ -72,6 +74,23 @@ public class AllPurposeDebugCommand implements ICommand
       {
         moarArgs( pCmdSender );
         return;
+      }
+      else if( pArgs[0].equalsIgnoreCase( "ci" ) )
+      {
+        EntityPlayer tEP = ( (EntityPlayer) pCmdSender );
+        World tWorldObj = tEP.worldObj;
+        int x = (int) tEP.posX;
+        int z = (int) tEP.posZ;
+        BiomeGenBase tBiomeInfo = tWorldObj.getBiomeGenForCoords( x, z );
+
+        PlayerChatHelper.SendInfo( pCmdSender, "POS: x/z %d / %d", x, z );
+        PlayerChatHelper.SendInfo( pCmdSender, "DimID: %d", tWorldObj.provider.dimensionId );
+        PlayerChatHelper.SendInfo( pCmdSender, "BiomeID / Name: %d / %s", tBiomeInfo.biomeID, tBiomeInfo.biomeName );
+      }
+      else if( pArgs[0].equalsIgnoreCase( "reloadconfig" ) )
+      {
+        MainRegistry.CoreConfig.LoadConfig();
+        PlayerChatHelper.SendInfo( pCmdSender, "Config reloaded" );
       }
       else if( pArgs[0].equalsIgnoreCase( "test" ) )
       {
