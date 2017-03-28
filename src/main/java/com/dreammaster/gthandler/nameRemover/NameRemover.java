@@ -37,10 +37,12 @@ public class NameRemover extends GT_MetaTileEntity_BasicMachine {
     public int checkRecipe() {
         ItemStack output=getInputAt(0).copy();
         NBTTagCompound nbt=output.getTagCompound();
-        if(nbt!=null && nbt.hasKey("display")) {
-            nbt=nbt.getCompoundTag("display");
-            if(nbt.hasKey("Name"))
-                nbt.removeTag("Name");
+        if(nbt!=null) {
+            if (nbt.hasKey("display")) {
+                nbt.getCompoundTag("display").removeTag("Name");
+                if (nbt.getCompoundTag("display").hasNoTags()) nbt.removeTag("display");
+            }
+            if (nbt.hasNoTags()) output.setTagCompound(null);
         }
         if(canOutput(output)) {
             getInputAt(0).stackSize =0;
