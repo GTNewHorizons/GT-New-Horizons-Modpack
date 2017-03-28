@@ -3,6 +3,7 @@ package com.dreammaster.gthandler;
 import com.dreammaster.gthandler.GT_CustomLoader.AdvancedGTMaterials;
 import com.dreammaster.gthandler.accelerator.GT_MetaTileEntity_WorldAccelerator;
 import com.dreammaster.gthandler.multiAirFilter.GT_MetaTileEntity_AirFilter;
+import com.dreammaster.gthandler.nameRemover.NameRemover;
 import com.dreammaster.gthandler.transformers.GT_MetaTileEntity_WetTransformer;
 import com.dreammaster.gthandler.turboCharger.GT_MetaTileEntity_TurboCharger;
 import com.dreammaster.item.food.QuantumBread;
@@ -3125,7 +3126,14 @@ public class GT_Loader_Machines
 						'C', OreDictNames.craftingChest,
 						'X', OrePrefixes.circuit.get(Materials.Ultimate)});
 
-		//TODO : ID's occupied to 12150!! (in EM branch)
+		//TODO add Conveyor Modules for more Tiers
+		// ===================================================================================================
+		// Automated Chest Buffer
+		// ===================================================================================================
+		CustomItemList.nameRemover.set(new NameRemover(
+				12070 , "fix.name.remover", "Name Remover", 0).getStackForm(1L));
+
+		//ID's occupied from 15000-15500!! (in EM branch)
 
 		//TODO new tiered maybe
 		
