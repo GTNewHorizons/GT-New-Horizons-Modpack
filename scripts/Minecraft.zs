@@ -3146,18 +3146,6 @@ FluidExtractor.addRecipe(null, <minecraft:obsidian>, <liquid:obsidian.molten> * 
 
 
 
-// --- Implusion Compressor Recipes ---
-
-
-
-
-// --- Nether Star
-ImplosionCompressor.addRecipe([<minecraft:nether_star> * 3, <gregtech:gt.metaitem.01:807> * 4], <gregtech:gt.metaitem.01:2506> * 4, 48);
-
-
-
-
-
 // --- Mixer Recipes ---
 
 
