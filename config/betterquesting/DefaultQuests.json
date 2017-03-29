@@ -43194,7 +43194,7 @@
         }
       ],
       "preRequisites": [
-        539
+        88
       ]
     },
     {
@@ -61554,6 +61554,110 @@
       ]
     },
     {
+      "questID": 726,
+      "name": "Chemical rubber production",
+      "description": "A much more efficient Way to make insulated Cables is make molten Rubber in the Chemical reactor which can be applied to Cable in the Assembler. When put both Machines close together you can output the molten rubber to the Assembler.",
+	  "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 31880
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 2896
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "dustSulfur",
+              "Damage": 2022
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 1366
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        543
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyway.",
@@ -65108,7 +65212,7 @@
         },
         {
           "id": 543,
-          "x": 192,
+          "x": 240,
           "y": 444
         },
         {
@@ -65350,6 +65454,11 @@
           "id": 116,
           "x": 288,
           "y": 0
+        },
+        {
+          "id": 726,
+          "x": 288,
+          "y": 444
         }
       ]
     },
