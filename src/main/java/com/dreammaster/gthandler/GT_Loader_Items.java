@@ -509,5 +509,6 @@ public class GT_Loader_Items
 		CustomItemList.MaceratedPlantmass.set(ItemList.MaceratedPlantmass.getIS());
 		CustomItemList.BedrockiumPlate.set(ItemList.BedrockiumPlate.getIS());
 		CustomItemList.EngineCore.set(ItemList.EngineCore.getIS());
+		CustomItemList.AlumiteDust.set(ItemList.AlumiteDust.getIS());
 	}
 }

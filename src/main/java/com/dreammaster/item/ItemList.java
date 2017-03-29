@@ -22,6 +22,7 @@ public enum ItemList
     AluminiumBars(new ModSimpleBaseItem("AluminiumBars", ModTabList.ModBarsAndCasingsTab)),
     AluminiumItemCasing(new ModSimpleBaseItem("AluminiumItemCasing", ModTabList.ModBarsAndCasingsTab)),
     AluminiumIronPlate(new ModSimpleBaseItem("AluminiumIronPlate", ModTabList.ModSolarTab)),
+    AlumiteDust(new ModSimpleBaseItem("AlumiteDust", ModTabList.ModGenericTab)),
     AdvancedCokeOvenBrick(new ModSimpleBaseItem("AdvancedCokeOvenBrick", ModTabList.ModGenericTab)),
     AdvancedBoard(new ModSimpleBaseItem("AdvancedBoard", ModTabList.ModCircuitsTab)),
     AdvancedProcessorBoard(new ModSimpleBaseItem("AdvancedProcessorBoard", ModTabList.ModCircuitsTab)),
