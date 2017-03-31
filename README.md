@@ -100,6 +100,9 @@ https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR>
 
 
+## Resource Realistic Sky GT New Horizons
+created by MajaProduction needs Optifine installed
+
 ---
 
 
