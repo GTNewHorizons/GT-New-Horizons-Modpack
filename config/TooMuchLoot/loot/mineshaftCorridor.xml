@@ -48,7 +48,6 @@
     <loot item="openmodularturrets:disposeItemTurret" damage="0" weight="15" count_min="1" count_max="2"/>
     <loot item="openmodularturrets:baseTierWood" damage="0" weight="15" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:leverBlock" damage="0" weight="15" count_min="1" count_max="1"/>
-    <loot item="TConstruct:broadsword" damage="0" weight="2" count_min="0" count_max="1"/>
     <loot item="gregtech:gt.metaitem.01" damage="8516" weight="2" count_min="1" count_max="4"/>
     <loot item="gregtech:gt.metaitem.01" damage="2516" weight="2" count_min="1" count_max="4"/>
     <loot item="Thaumcraft:ItemLootBag" damage="0" weight="4" count_min="1" count_max="3"/>
