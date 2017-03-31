@@ -9,7 +9,7 @@
     <loot item="IC2:itemTreetap" damage="0" weight="2" count_min="1" count_max="1"/>
     <loot item="BiomesOPlenty:wadingBoots" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="BiomesOPlenty:flippers" damage="0" weight="5" count_min="1" count_max="1"/>
-    <loot item="TConstruct:broadsword" damage="0" weight="10" count_min="0" count_max="1"/>
+    <loot item="TConstruct:broadsword" damage="0" nbt="{InfiTool:{BaseDurability:427,Head:14,BaseAttack:7,ToolEXP:0L,Built:1b,HarvestLevel:4,Attack:7,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:650,RenderAccessory:14,ToolLevel:1,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:427,Modifiers:0},display:{Name:&quot;§fBronze Broadsword&quot;}}" weight="5" count_min="1" count_max="1"/>
     <loot item="TConstruct:pickaxe" damage="0" nbt="{InfiTool:{BaseDurability:38,Head:0,BaseAttack:2,ToolEXP:0L,HarvestLevel:0,Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:150,RenderAccessory:0,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:38,Modifiers:0},display:{Name:&quot;§fStarter Pickaxe&quot;}}" weight="5" count_min="1" count_max="1"/>
     <loot item="TConstruct:hatchet" damage="0" nbt="{InfiTool:{BaseDurability:38,Head:0,BaseAttack:4,ToolEXP:0L,HarvestLevel:0,Attack:4,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:150,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:38,Modifiers:0},display:{Name:&quot;§fStarter Hatchet&quot;}}" weight="5" count_min="1" count_max="1"/>
     <loot item="gregtech:gt.metaitem.02" damage="32100" weight="2" count_min="8" count_max="16"/>
