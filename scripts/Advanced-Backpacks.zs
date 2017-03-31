@@ -72,7 +72,7 @@ recipes.remove(<adventurebackpack:adventurePants>);
 recipes.remove(<adventurebackpack:clockworkCrossbow>);
 
 // --- Coal Jetpack
-recipes.remove(<adventurebackpack:CoalJetpack>);
+recipes.remove(<adventurebackpack:coalJetpack>);
 
 // --- Melon Juice Bottle
 recipes.remove(<adventurebackpack:melonJuiceBottle>);
@@ -218,12 +218,12 @@ recipes.addShaped(<adventurebackpack:clockworkCrossbow>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- Coal Jetpack
-recipes.addShaped(<adventurebackpack:CoalJetpack>, [
+recipes.addShaped(<adventurebackpack:coalJetpack>, [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<adventurebackpack:backpackComponent:2>, <gregtech:gt.metaitem.01:32601>, <adventurebackpack:backpackComponent:2>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
 // -
-recipes.addShaped(<adventurebackpack:CoalJetpack>, [
+recipes.addShaped(<adventurebackpack:coalJetpack>, [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32601>, <BuildCraft|Factory:tankBlock>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
