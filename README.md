@@ -72,7 +72,7 @@ Forum Link: http://gtnewhorizons.com/<BR>
 
 ## EU Server:<BR>
 
-Official EU Server Public<BR>
+Official EU Server Public Whitelisted<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 
