@@ -53297,8 +53297,8 @@
     },
     {
       "questID": 649,
-      "name": "Steam Jetpack",
-      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the Adventure Backpacks Action-Key to start it.",
+      "name": "Coal Steam Jetpack",
+      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the Adventure Backpacks Action-Key to start it.\n\nMax flying height is limited for Jetpack to y 185.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for Jetpack and 100 for Copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53431,7 +53431,7 @@
     {
       "questID": 650,
       "name": "Copter Jetpack",
-      "description": "The Copter Jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can also switch between hover and normal mode.",
+      "description": "The Copter Jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can also switch between hover and normal mode.\n\nMax flying height is limited for Copter Pack to y 200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for Jetpack and 100 for Copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
