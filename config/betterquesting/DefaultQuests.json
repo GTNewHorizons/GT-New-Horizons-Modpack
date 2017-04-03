@@ -43194,7 +43194,7 @@
         }
       ],
       "preRequisites": [
-        539
+        88
       ]
     },
     {
@@ -53373,38 +53373,12 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "adventurebackpack:CoalJetpack",
+        "id": "adventurebackpack:coalJetpack",
         "Count": 1,
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "jetpackData:10": {
-            "CoalTank:10": {
-              "FluidName:8": "water",
-              "Amount:4": 5279
-            },
-            "coolTicks:4": 3261,
-            "currentBurn:4": 1600,
-            "inUse:4": 0,
-            "temperature:4": 200,
-            "inventory:9": [
-              {
-                "Slot:4": 2,
-                "id:4": 263,
-                "Count:4": 61,
-                "Damage:4": 0
-              }
-            ],
-            "leaking:4": 0,
-            "systemTime:4": 0,
-            "water:4": 1,
-            "burnTicks:4": 453,
-            "status:4": 1,
-            "WaterTank:10": {
-              "FluidName:8": "water",
-              "Amount:4": 1574
-            }
-          }
+          "jetpackData:10": {}
         }
       },
       "visibility": "UNLOCKED",
@@ -53459,38 +53433,12 @@
           "ignoreNBT": true,
           "requiredItems": [
             {
-              "id": "adventurebackpack:CoalJetpack",
+              "id": "adventurebackpack:coalJetpack",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "jetpackData:10": {
-                  "CoalTank:10": {
-                    "FluidName:8": "water",
-                    "Amount:4": 5279
-                  },
-                  "coolTicks:4": 3261,
-                  "currentBurn:4": 1600,
-                  "inUse:4": 0,
-                  "temperature:4": 200,
-                  "inventory:9": [
-                    {
-                      "Slot:4": 2,
-                      "id:4": 263,
-                      "Count:4": 61,
-                      "Damage:4": 0
-                    }
-                  ],
-                  "leaking:4": 0,
-                  "systemTime:4": 0,
-                  "water:4": 1,
-                  "burnTicks:4": 453,
-                  "status:4": 1,
-                  "WaterTank:10": {
-                    "FluidName:8": "water",
-                    "Amount:4": 1574
-                  }
-                }
+                "jetpackData:10": {}
               }
             }
           ],
@@ -61554,6 +61502,1050 @@
       ]
     },
     {
+      "questID": 726,
+      "name": "Chemical rubber production",
+      "description": "A much more efficient Way to make insulated Cables is make molten Rubber in the Chemical reactor which can be applied to Cable in the Assembler. When put both Machines close together you can output the molten rubber to the Assembler.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 31880
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 2896
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "dustSulfur",
+              "Damage": 2022
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 1366
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        543
+      ]
+    },
+    {
+      "questID": 727,
+      "name": "Better than barrels",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each 16 stacks also they can be used for an \"ghetto ME storage system 񙧑񗝝񘄹�9񙓫񘘡(Tec2k17)\"�0 later in the HV age with some help from ProjectRed Transportation.�6",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:fullDrawers1",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:fullDrawers1",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "StorageDrawers:fullDrawers2",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "StorageDrawers:fullDrawers4",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:butteredpotatoItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 728,
+      "name": "Compact Drawers",
+      "description": "They are very compact and add some faciness to your glorious dirt base. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:halfDrawers2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:halfDrawers2",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "StorageDrawers:halfDrawers4",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:loadedbakedpotatoItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        727
+      ]
+    },
+    {
+      "questID": 729,
+      "name": "Framing Drawers",
+      "description": "Now you can really make some swaggy and even more drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take theire texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:framingTable",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:framingTable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "StorageDrawers:fullCustom1",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "StorageDrawers:fullCustom2",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "StorageDrawers:fullCustom4",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        727,
+        728
+      ]
+    },
+    {
+      "questID": 730,
+      "name": "Bio Gas",
+      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Three Saplings.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:fluidBiogas",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat",
+              "Count": 512,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:fertilizerCompound",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 731,
+      "name": "Plant balls",
+      "description": "The first step is to making plant balls. Your LV Compressor is to slow for it. I suggest to crafting 4 MV Compressors for the new Bio Gas Processing Line.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemFuelPlantBall",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 242
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFuelPlantBall",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        730
+      ]
+    },
+    {
+      "questID": 732,
+      "name": "Plant Mass",
+      "description": "Macerating the Plant Balls down to some Plant mass. In Lv and Mv  Tier you get only one item in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.MaceratedPlantmass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 302
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.MaceratedPlantmass",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "IC2:itemPartIndustrialDiamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        731
+      ]
+    },
+    {
+      "questID": 733,
+      "name": "Bio Chaff",
+      "description": "Plant Mass can be centrifuged to Bio Chaff. You need 1-2 Mv Centrifuges to run the new Production line.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBiochaff",
+        "Count": 32,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 362
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBiochaff",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 23019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        732
+      ]
+    },
+    {
+      "questID": 734,
+      "name": "Way One: IC 2 Fluid Canner",
+      "description": "The first way you get Biomass out of Bio Chaff is to using the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockMachine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1246
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 28880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 735,
+      "name": "Way Two: Brewery",
+      "description": "Using a Brewery make 750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 492
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 492
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 21300
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 736,
+      "name": "Bio Gas",
+      "description": "With the MV Distillery you can get Bio Gas out of the Bio Mass. If you reach HV there are more efficient ways to process it in the Distillation Tower.\nBio Gas have a burn value of 40000 EU per Cell in the Gas Turbine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockMachine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 532
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 512,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        734,
+        735
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyway.",
@@ -64608,6 +65600,21 @@
           "id": 693,
           "x": 216,
           "y": 72
+        },
+        {
+          "id": 727,
+          "x": 72,
+          "y": 180
+        },
+        {
+          "id": 728,
+          "x": 0,
+          "y": 180
+        },
+        {
+          "id": 729,
+          "x": 36,
+          "y": 216
         }
       ]
     },
@@ -65108,7 +66115,7 @@
         },
         {
           "id": 543,
-          "x": 192,
+          "x": 240,
           "y": 444
         },
         {
@@ -65350,6 +66357,11 @@
           "id": 116,
           "x": 288,
           "y": 0
+        },
+        {
+          "id": 726,
+          "x": 288,
+          "y": 444
         }
       ]
     },
@@ -65359,173 +66371,173 @@
       "quests": [
         {
           "id": 89,
-          "x": 68,
-          "y": 0
+          "x": 60,
+          "y": 60
         },
         {
           "id": 127,
-          "x": 36,
-          "y": 96
+          "x": 0,
+          "y": 108
         },
         {
           "id": 128,
-          "x": 164,
+          "x": 240,
           "y": 0
         },
         {
           "id": 129,
-          "x": 164,
-          "y": 136
+          "x": 240,
+          "y": 36
         },
         {
           "id": 130,
-          "x": 308,
-          "y": 136
+          "x": 240,
+          "y": 108
         },
         {
           "id": 131,
-          "x": 308,
-          "y": 168
+          "x": 240,
+          "y": 228
         },
         {
           "id": 132,
-          "x": 348,
-          "y": 136
+          "x": 288,
+          "y": 108
         },
         {
           "id": 133,
-          "x": 164,
-          "y": 168
+          "x": 168,
+          "y": 36
         },
         {
           "id": 134,
-          "x": 204,
-          "y": 32
+          "x": 336,
+          "y": 36
         },
         {
           "id": 135,
-          "x": 236,
-          "y": 0
+          "x": 288,
+          "y": 72
         },
         {
           "id": 136,
-          "x": 236,
-          "y": 32
+          "x": 336,
+          "y": 72
         },
         {
           "id": 137,
-          "x": 204,
-          "y": 0
+          "x": 372,
+          "y": 36
         },
         {
           "id": 138,
-          "x": 132,
-          "y": 64
+          "x": 432,
+          "y": 0
         },
         {
           "id": 139,
-          "x": 132,
-          "y": 96
+          "x": 432,
+          "y": 72
         },
         {
           "id": 140,
-          "x": 100,
-          "y": 64
+          "x": 480,
+          "y": 0
         },
         {
           "id": 141,
-          "x": 100,
-          "y": 96
+          "x": 480,
+          "y": 72
         },
         {
           "id": 142,
-          "x": 348,
-          "y": 96
+          "x": 336,
+          "y": 108
         },
         {
           "id": 143,
-          "x": 348,
-          "y": 208
+          "x": 324,
+          "y": 228
         },
         {
           "id": 144,
-          "x": 308,
-          "y": 208
+          "x": 276,
+          "y": 192
         },
         {
           "id": 145,
-          "x": 428,
-          "y": 208
+          "x": 420,
+          "y": 288
         },
         {
           "id": 146,
-          "x": 388,
-          "y": 208
+          "x": 372,
+          "y": 252
         },
         {
           "id": 147,
-          "x": 388,
-          "y": 32
+          "x": 432,
+          "y": 144
         },
         {
           "id": 148,
-          "x": 308,
-          "y": 32
+          "x": 384,
+          "y": 108
         },
         {
           "id": 149,
-          "x": 268,
-          "y": 32
+          "x": 336,
+          "y": 144
         },
         {
           "id": 150,
-          "x": 348,
-          "y": 32
+          "x": 384,
+          "y": 144
         },
         {
           "id": 151,
-          "x": 268,
-          "y": 0
+          "x": 432,
+          "y": 108
         },
         {
           "id": 152,
-          "x": 308,
-          "y": 0
+          "x": 480,
+          "y": 108
         },
         {
           "id": 153,
-          "x": 100,
-          "y": 32
+          "x": 120,
+          "y": 0
         },
         {
           "id": 154,
-          "x": 132,
-          "y": 32
+          "x": 168,
+          "y": 0
         },
         {
           "id": 155,
-          "x": 68,
-          "y": 64
+          "x": 0,
+          "y": 156
         },
         {
           "id": 156,
-          "x": 68,
-          "y": 96
+          "x": 0,
+          "y": 192
         },
         {
           "id": 157,
-          "x": 68,
-          "y": 136
+          "x": 0,
+          "y": 228
         },
         {
           "id": 158,
-          "x": 108,
-          "y": 136
+          "x": 36,
+          "y": 264
         },
         {
           "id": 159,
-          "x": 68,
-          "y": 168
+          "x": 0,
+          "y": 264
         },
         {
           "id": 126,
@@ -65534,13 +66546,48 @@
         },
         {
           "id": 659,
-          "x": 36,
-          "y": 36
+          "x": 60,
+          "y": 0
         },
         {
           "id": 660,
           "x": 0,
-          "y": 36
+          "y": 60
+        },
+        {
+          "id": 730,
+          "x": 60,
+          "y": 108
+        },
+        {
+          "id": 731,
+          "x": 60,
+          "y": 156
+        },
+        {
+          "id": 732,
+          "x": 60,
+          "y": 192
+        },
+        {
+          "id": 733,
+          "x": 60,
+          "y": 228
+        },
+        {
+          "id": 734,
+          "x": 120,
+          "y": 228
+        },
+        {
+          "id": 735,
+          "x": 120,
+          "y": 264
+        },
+        {
+          "id": 736,
+          "x": 180,
+          "y": 228
         }
       ]
     },

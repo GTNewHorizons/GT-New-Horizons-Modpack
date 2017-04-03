@@ -72,7 +72,7 @@ Forum Link: http://gtnewhorizons.com/<BR>
 
 ## EU Server:<BR>
 
-Official EU Server Public<BR>
+Official EU Server Public Whitelisted<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 
@@ -97,7 +97,12 @@ mc.stonelegion.com<BR>
 
 Bacon Gaming Whitelist<BR>
 https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
-Bacongaming.net:25577<BR>
+Bacongaming.net:25577<BR><BR>
+
+
+## Resource Realistic Sky GT New Horizons
+created by MajaProduction needs Optifine installed<BR><BR>
+
 
 
 ---
