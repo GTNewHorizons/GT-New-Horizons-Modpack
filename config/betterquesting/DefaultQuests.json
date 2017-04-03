@@ -53373,15 +53373,12 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "adventurebackpack:coalJetpack",
         "Count": 1,
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "orig_tag:10": {
-            "jetpackData:10": {}
-          },
-          "orig_id:8": "adventurebackpack:coalJetpack"
+          "jetpackData:10": {}
         }
       },
       "visibility": "UNLOCKED",
@@ -53436,15 +53433,12 @@
           "ignoreNBT": true,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "adventurebackpack:coalJetpack",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "orig_tag:10": {
-                  "jetpackData:10": {}
-                },
-                "orig_id:8": "adventurebackpack:coalJetpack"
+                "jetpackData:10": {}
               }
             }
           ],
