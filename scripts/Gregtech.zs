@@ -1336,6 +1336,9 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
 // --- Glass Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
 
+// --- Grounded Casseterite
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5937> * 4, <gregtech:gt.blockores:937>);
+
 
 
 

@@ -42,7 +42,10 @@
     <loot item="MagicBees:frameOblivion" damage="0" weight="18" count_min="1" count_max="1"/>
     <loot item="HardcoreEnderExpansion:adventurers_diary" damage="0" weight="5" count_min="1" count_max="1"/>
     <loot item="HardcoreEnderExpansion:temple_caller" damage="0" weight="1" count_min="0" count_max="1"/>
-    <loot item="HardcoreEnderExpansion:knowledge_note" damage="0" weight="9" count_min="1" count_max="1"/>
+    <loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:40b}" weight="5" count_min="1" count_max="1"/>
+	<loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:30b}" weight="9" count_min="1" count_max="1"/>
+	<loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:20b}" weight="14" count_min="1" count_max="1"/>
+	<loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:10b}" weight="18" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:disposeItemTurret" damage="0" weight="15" count_min="1" count_max="2"/>
     <loot item="openmodularturrets:baseTierWood" damage="0" weight="15" count_min="1" count_max="1"/>
     <loot item="openmodularturrets:leverBlock" damage="0" weight="15" count_min="1" count_max="1"/>

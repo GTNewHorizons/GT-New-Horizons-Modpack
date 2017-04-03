@@ -19,4 +19,5 @@
 	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCoalCoke" BurnTime="1889568000"/>
 	<FuelItem ItemName="universalsingularities:universal.vanilla.singularity" BurnTime="58272000"/>
 	<FuelItem ItemName="universalsingularities:universal.general.singularity:3" BurnTime="116528000"/>
+	<FuelItem ItemName="Thaumcraft:ItemResource" BurnTime="8000"/>
 </CustomFuels>
