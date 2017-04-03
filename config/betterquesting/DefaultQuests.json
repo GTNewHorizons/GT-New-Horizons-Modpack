@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -10911,8 +10911,8 @@
     },
     {
       "questID": 127,
-      "name": "Basic item storage",
-      "description": "Having tons of chests everywhere can get quite annoying after a while. Getting an AE System is not an option either, as you don\u0027t have access to the required materials yet. But there is an early solution for that problem.",
+      "name": "Project Red Begging",
+      "description": "First of all there are 3 types of pipes: Null Logic , Pressurized and Routed.\n-Null Logic are the most basic kind they can\u0027t have any logical thinking , Item transport pipes are from this category and they are used to craft and connect the Routed and Pressurized pipes it would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced they can communicate with eachother in order to create pipe networks, and can be used for very complex tasks.\n \n-Presuirezed pipes and too complicated to use and explain you won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever in order to control the logic of the routed pipes you will need chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10934,128 +10934,29 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "UNLOCKED",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
+          "ignoreNBT": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
+              "Damage": 44
             }
           ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 0,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 1,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "orient:4": -1,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 1,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 5
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        }
-      ],
+      "rewards": [],
       "preRequisites": [
         89
       ]
@@ -62546,6 +62447,114 @@
       ]
     },
     {
+      "questID": 737,
+      "name": "Can u eat those? ",
+      "description": "No you can\u0027t eat them but you can use them on your routed pipes. \n\n-WIP\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ]
+    },
+    {
+      "questID": 738,
+      "name": "Routed Pipes",
+      "description": "There are six types of routed pipes: \n\n-Junction pipe mains use is to form an intersection that will allow other routed pipes to communicate. \n\n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be use to control the logic.\n\n-Crafting pipe will allow crafting through connected machines. \n\n-Request pipe will allow requestig only specific items to be send thorugh pipes\n\n-Extension pipe can be connected to crafting pipes to enable more crafting.\n\n-Firewall pipe can control wich items can pass though them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Transportation:projectred.transportation.pipe",
+        "Count": 2,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyway.",
@@ -66375,11 +66384,6 @@
           "y": 60
         },
         {
-          "id": 127,
-          "x": 0,
-          "y": 108
-        },
-        {
           "id": 128,
           "x": 240,
           "y": 0
@@ -66588,6 +66592,21 @@
           "id": 736,
           "x": 180,
           "y": 228
+        },
+        {
+          "id": 127,
+          "x": 168,
+          "y": 72
+        },
+        {
+          "id": 738,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 737,
+          "x": 192,
+          "y": 108
         }
       ]
     },
