@@ -53373,12 +53373,15 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "adventurebackpack:coalJetpack",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "jetpackData:10": {}
+          "orig_tag:10": {
+            "jetpackData:10": {}
+          },
+          "orig_id:8": "adventurebackpack:coalJetpack"
         }
       },
       "visibility": "UNLOCKED",
@@ -53433,12 +53436,15 @@
           "ignoreNBT": true,
           "requiredItems": [
             {
-              "id": "adventurebackpack:coalJetpack",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "jetpackData:10": {}
+                "orig_tag:10": {
+                  "jetpackData:10": {}
+                },
+                "orig_id:8": "adventurebackpack:coalJetpack"
               }
             }
           ],
@@ -61764,7 +61770,7 @@
     {
       "questID": 729,
       "name": "Framing Drawers",
-      "description": "Now you can really make some swaggy and even more drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take theire texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
+      "description": "Now you can really make some swaggy and even more FANCY drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take their texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61846,7 +61852,7 @@
     {
       "questID": 730,
       "name": "Bio Gas",
-      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Three Saplings.",
+      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Tree Saplings.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61923,7 +61929,7 @@
     {
       "questID": 731,
       "name": "Plant balls",
-      "description": "The first step is to making plant balls. Your LV Compressor is to slow for it. I suggest to crafting 4 MV Compressors for the new Bio Gas Processing Line.",
+      "description": "The first step is to make plant balls. Your LV Compressor is to slow for it. I suggest to craft 4 MV Compressors for the new Bio Gas Processing Line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62027,7 +62033,7 @@
     {
       "questID": 732,
       "name": "Plant Mass",
-      "description": "Macerating the Plant Balls down to some Plant mass. In Lv and Mv  Tier you get only one item in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
+      "description": "Macerating the Plant Balls down to some Plant mass. In Lv and MvTier you get only one item in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62235,7 +62241,7 @@
     {
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
-      "description": "The first way you get Biomass out of Bio Chaff is to using the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "description": "The first way you get Biomass out of Bio Chaff is to use the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can usethe Pyrolyze Oven to do in a more efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62339,7 +62345,7 @@
     {
       "questID": 735,
       "name": "Way Two: Brewery",
-      "description": "Using a Brewery make 750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "description": "Using a Brewery is going to make you 750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can usethe Pyrolyze Oven to do it in amore efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
