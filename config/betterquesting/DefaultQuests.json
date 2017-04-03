@@ -1,5 +1,5 @@
 {
-  "editMode": true,
+  "editMode": false,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -10934,7 +10934,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -10956,7 +10956,48 @@
           "taskID": "bq_standard:crafting"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 22032
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1420
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         89
       ]
@@ -62471,7 +62512,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [],
       "rewards": [],
       "preRequisites": [
@@ -62503,7 +62544,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -62549,7 +62590,48 @@
           "taskID": "bq_standard:crafting"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         127
       ]
@@ -66410,8 +66492,8 @@
         },
         {
           "id": 133,
-          "x": 168,
-          "y": 36
+          "x": 204,
+          "y": 60
         },
         {
           "id": 134,
@@ -66596,16 +66678,16 @@
         {
           "id": 127,
           "x": 168,
-          "y": 72
+          "y": 60
         },
         {
           "id": 738,
-          "x": 144,
+          "x": 120,
           "y": 108
         },
         {
           "id": 737,
-          "x": 192,
+          "x": 168,
           "y": 108
         }
       ]
