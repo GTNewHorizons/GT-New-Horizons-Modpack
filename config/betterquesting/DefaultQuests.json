@@ -10911,8 +10911,8 @@
     },
     {
       "questID": 127,
-      "name": "Basic item storage",
-      "description": "Having tons of chests everywhere can get quite annoying after a while. Getting an AE System is not an option either, as you don\u0027t have access to the required materials yet. But there is an early solution for that problem.",
+      "name": "Project Red Begging",
+      "description": "First of all there are 3 types of pipes: Null Logic , Pressurized and Routed.\n-Null Logic are the most basic kind they can\u0027t have any logical thinking , Item transport pipes are from this category and they are used to craft and connect the Routed and Pressurized pipes it would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced they can communicate with eachother in order to create pipe networks, and can be used for very complex tasks.\n \n-Presuirezed pipes and too complicated to use and explain you won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever in order to control the logic of the routed pipes you will need chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10938,122 +10938,64 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
+          "ignoreNBT": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
+              "Damage": 44
             }
           ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 0,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 1,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "orient:4": -1,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
         {
           "choices": [
             {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 22032
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1420
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 1,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:8": "",
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
               "OreDict": "",
               "Damage": 5
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -53355,8 +53297,8 @@
     },
     {
       "questID": 649,
-      "name": "Steam Jetpack",
-      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the Adventure Backpacks Action-Key to start it.",
+      "name": "Coal Steam Jetpack",
+      "description": "Your Coal Jetpack needs Coal and Water to produce Steam. After a short warm-up period you can go and take it for a ride. This is the first jetpack to not have an altitude limit. Keep in mind you will need your glider to make a soft landing.\n\nPut your Jetpack on your Back and hit Shift and the Adventure Backpacks Action-Key to start it.\n\nMax flying height is limited for Jetpack to y 185.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for Jetpack and 100 for Copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53489,7 +53431,7 @@
     {
       "questID": 650,
       "name": "Copter Jetpack",
-      "description": "The Copter Jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can also switch between hover and normal mode.",
+      "description": "The Copter Jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of Creosote, Lava, Oil and Fuel will work.\nEquip your Jetpack and hit Shift and the Action-Key. You can also switch between hover and normal mode.\n\nMax flying height is limited for Copter Pack to y 200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for Jetpack and 100 for Copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61764,7 +61706,7 @@
     {
       "questID": 729,
       "name": "Framing Drawers",
-      "description": "Now you can really make some swaggy and even more drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take theire texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
+      "description": "Now you can really make some swaggy and even more FANCY drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take their texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61845,8 +61787,8 @@
     },
     {
       "questID": 730,
-      "name": "Bio Gas",
-      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Three Saplings.",
+      "name": "Bio Gas Source",
+      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Tree Saplings.\n\nBe sure you have a managed Forestry farm, Steve Cart\u0027s Farm or Ic2 Crop Sticks with Harvestor because you need plenty of Bio Materials for a constant Bio Gas production.\n\nHint: Hazelnut is the ultimative source for Biogas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61863,7 +61805,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:fluidBiogas",
+        "id": "minecraft:wheat",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -61923,7 +61865,7 @@
     {
       "questID": 731,
       "name": "Plant balls",
-      "description": "The first step is to making plant balls. Your LV Compressor is to slow for it. I suggest to crafting 4 MV Compressors for the new Bio Gas Processing Line.",
+      "description": "The first step is to compress plant balls out of your Wheat. Your LV Compressor is to slow for it. I suggest to craft 4 MV Compressors for the new Bio Gas Processing Line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62027,7 +61969,7 @@
     {
       "questID": 732,
       "name": "Plant Mass",
-      "description": "Macerating the Plant Balls down to some Plant mass. In Lv and Mv  Tier you get only one item in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
+      "description": "Macerating the Plant Balls down to Plant mass for a better procesing. In Lv and MvTier you get only one Platmass our in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62131,7 +62073,7 @@
     {
       "questID": 733,
       "name": "Bio Chaff",
-      "description": "Plant Mass can be centrifuged to Bio Chaff. You need 1-2 Mv Centrifuges to run the new Production line.",
+      "description": "Plant Mass needs to  centrifuged to Bio Chaff the base material to make Bio Mass. You need 1-2 Mv Centrifuges to run the new Production line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62235,7 +62177,7 @@
     {
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
-      "description": "The first way you get Biomass out of Bio Chaff is to using the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "description": "The first way you get Biomass out of Bio Chaff is to use the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can usethe Pyrolyze Oven to do it a  more efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62339,7 +62281,7 @@
     {
       "questID": 735,
       "name": "Way Two: Brewery",
-      "description": "Using a Brewery make 750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can using the Pyrolyze Oven to do it a more efficient way.",
+      "description": "If you are lucky and find some Brewing stand or be familiar with Thaumcraft to craft one you can craft a  Brewery. You get  750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can usethe Pyrolyze Oven to do it a more efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62443,7 +62385,7 @@
     {
       "questID": 736,
       "name": "Bio Gas",
-      "description": "With the MV Distillery you can get Bio Gas out of the Bio Mass. If you reach HV there are more efficient ways to process it in the Distillation Tower.\nBio Gas have a burn value of 40000 EU per Cell in the Gas Turbine.",
+      "description": "With the MV Distillery you can distilling Bio Gas out of the Bio Mass. If you reach HV Tier there are a more efficient wayto process it. The Distillation Tower Multi Block.\nBio Gas have a burn value of 40000 EU per Cell in the Gas Turbine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62460,10 +62402,10 @@
       "logic": "OR",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:blockMachine",
+        "id": "IC2:fluidBiogas",
         "Count": 1,
         "OreDict": "",
-        "Damage": 6
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -62543,6 +62485,155 @@
       "preRequisites": [
         734,
         735
+      ]
+    },
+    {
+      "questID": 737,
+      "name": "Can u eat those? ",
+      "description": "No you can\u0027t eat them but you can use them on your routed pipes. \n\n-WIP\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ]
+    },
+    {
+      "questID": 738,
+      "name": "Routed Pipes",
+      "description": "There are six types of routed pipes: \n\n-Junction pipe mains use is to form an intersection that will allow other routed pipes to communicate. \n\n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be use to control the logic.\n\n-Crafting pipe will allow crafting through connected machines. \n\n-Request pipe will allow requestig only specific items to be send thorugh pipes\n\n-Extension pipe can be connected to crafting pipes to enable more crafting.\n\n-Firewall pipe can control wich items can pass though them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ProjRed|Transportation:projectred.transportation.pipe",
+        "Count": 2,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        127
       ]
     },
     {
@@ -66375,11 +66466,6 @@
           "y": 60
         },
         {
-          "id": 127,
-          "x": 0,
-          "y": 108
-        },
-        {
           "id": 128,
           "x": 240,
           "y": 0
@@ -66406,8 +66492,8 @@
         },
         {
           "id": 133,
-          "x": 168,
-          "y": 36
+          "x": 204,
+          "y": 60
         },
         {
           "id": 134,
@@ -66588,6 +66674,21 @@
           "id": 736,
           "x": 180,
           "y": 228
+        },
+        {
+          "id": 127,
+          "x": 120,
+          "y": 60
+        },
+        {
+          "id": 738,
+          "x": 120,
+          "y": 108
+        },
+        {
+          "id": 737,
+          "x": 168,
+          "y": 108
         }
       ]
     },
