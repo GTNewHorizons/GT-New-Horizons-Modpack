@@ -8920,7 +8920,7 @@
     {
       "questID": 99,
       "name": "Bzzz... Whoom...",
-      "description": "Optional machine. Like the forming press, you don\u0027t really \"need\" it in the 32 EU age.",
+      "description": "Making Etched Wired for Good Circuits need a Precision Laser Engraver.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8985,7 +8985,6 @@
         }
       ],
       "preRequisites": [
-        100,
         97,
         529
       ]
@@ -8993,7 +8992,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "An optional machine, if you want to make circuits more efficiently. Not mandatory in 32 EU age, so if you\u0027re short on steel, you can skip this device and build in the next tiers.",
+      "description": "If you want to make Basic circuits more efficiently you can using the Forming Press. But for the Good Circuits you need  it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42431,7 +42430,9 @@
       ],
       "preRequisites": [
         717,
-        97
+        97,
+        529,
+        530
       ]
     },
     {
@@ -61246,7 +61247,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemPartCircuit",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
@@ -61306,8 +61307,7 @@
         }
       ],
       "preRequisites": [
-        530,
-        529
+        745
       ]
     },
     {
@@ -62565,6 +62565,7 @@
         }
       ],
       "preRequisites": [
+        717,
         89
       ]
     },
@@ -63171,7 +63172,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -64483,6 +64484,624 @@
       ],
       "preRequisites": [
         741
+      ]
+    },
+    {
+      "questID": 745,
+      "name": "Circuit Boards",
+      "description": "To make Circuit Boards you need Etched midium voltage Wires and a Empty Circuit Board. Put all together in the forming Press.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32710
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32719
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32716
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32710
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        748,
+        747,
+        100
+      ]
+    },
+    {
+      "questID": 746,
+      "name": "Silicon",
+      "description": "Due the Chip Production Silicon becomes a more important Material.  You can centrifuged it out of Fullers Earth, Asbestos or Redstone dust. For making Ingots theEBF is needed. One Ingot need a Temperature of 1687 K and 84 Seconds at 120 EU/t.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11020
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        77
+      ]
+    },
+    {
+      "questID": 747,
+      "name": "Etched Midium Voltage Wires",
+      "description": "Ethched Midium Voltage Wire is one item for the new Circuit Board. It\u0027s made in the Laser Ingraver.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32716
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 29035
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24502
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32716
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 29035
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24500
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        99,
+        98
+      ]
+    },
+    {
+      "questID": 748,
+      "name": "Empty Circuit Board",
+      "description": "Empty Circuit Boards need one Plate Silicon adn one Plate Plastic. Assembles it to a Empty Circuit Board.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32719
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17874
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32719
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11874
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11020
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        750,
+        752
+      ]
+    },
+    {
+      "questID": 750,
+      "name": "Molten Platic",
+      "description": "Molten Polyethylen can be made in the Chemical reactor wit Naptha and Compressed Air Cells. Bio Mass is also a source for make Polyethylen. Using a Fluid Solidifier and a Plate Form to make Plastic Sheets.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 17874
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32301
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 521
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 17874
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        543,
+        641,
+        544
+      ]
+    },
+    {
+      "questID": 752,
+      "name": "Silicon Plate",
+      "description": "Most of the Circuit and the Solar Pannels recipes using Silicon Plates.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 17020
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 17020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:hotdogItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32113
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        746
       ]
     },
     {
@@ -67845,7 +68464,7 @@
         },
         {
           "id": 92,
-          "x": 420,
+          "x": 384,
           "y": 216
         },
         {
@@ -67865,23 +68484,23 @@
         },
         {
           "id": 97,
-          "x": 468,
+          "x": 444,
           "y": 216
         },
         {
           "id": 98,
-          "x": 372,
-          "y": 324
+          "x": 312,
+          "y": 288
         },
         {
           "id": 99,
-          "x": 564,
-          "y": 216
+          "x": 444,
+          "y": 252
         },
         {
           "id": 100,
-          "x": 564,
-          "y": 300
+          "x": 384,
+          "y": 252
         },
         {
           "id": 101,
@@ -67946,31 +68565,31 @@
         {
           "id": 113,
           "x": 648,
-          "y": 180
+          "y": 216
         },
         {
           "id": 114,
-          "x": 672,
-          "y": 216
+          "x": 624,
+          "y": 252
         },
         {
           "id": 115,
-          "x": 624,
-          "y": 216
+          "x": 672,
+          "y": 252
         },
         {
           "id": 117,
-          "x": 612,
+          "x": 600,
           "y": 180
         },
         {
           "id": 118,
-          "x": 672,
+          "x": 684,
           "y": 144
         },
         {
           "id": 119,
-          "x": 612,
+          "x": 600,
           "y": 144
         },
         {
@@ -68005,18 +68624,13 @@
         },
         {
           "id": 529,
-          "x": 516,
-          "y": 144
+          "x": 492,
+          "y": 216
         },
         {
           "id": 530,
-          "x": 420,
-          "y": 180
-        },
-        {
-          "id": 531,
-          "x": 516,
-          "y": 180
+          "x": 528,
+          "y": 216
         },
         {
           "id": 532,
@@ -68060,8 +68674,8 @@
         },
         {
           "id": 544,
-          "x": 432,
-          "y": 300
+          "x": 312,
+          "y": 252
         },
         {
           "id": 545,
@@ -68115,7 +68729,7 @@
         },
         {
           "id": 555,
-          "x": 288,
+          "x": 240,
           "y": 540
         },
         {
@@ -68130,8 +68744,8 @@
         },
         {
           "id": 563,
-          "x": 516,
-          "y": 264
+          "x": 384,
+          "y": 180
         },
         {
           "id": 598,
@@ -68225,13 +68839,13 @@
         },
         {
           "id": 626,
-          "x": 372,
-          "y": 576
+          "x": 312,
+          "y": 540
         },
         {
           "id": 639,
           "x": 192,
-          "y": 312
+          "y": 324
         },
         {
           "id": 640,
@@ -68241,17 +68855,17 @@
         {
           "id": 641,
           "x": 240,
-          "y": 312
+          "y": 324
         },
         {
           "id": 642,
           "x": 192,
-          "y": 348
+          "y": 360
         },
         {
           "id": 643,
           "x": 240,
-          "y": 348
+          "y": 360
         },
         {
           "id": 644,
@@ -68265,8 +68879,8 @@
         },
         {
           "id": 661,
-          "x": 468,
-          "y": 264
+          "x": 444,
+          "y": 180
         },
         {
           "id": 662,
@@ -68285,13 +68899,8 @@
         },
         {
           "id": 716,
-          "x": 420,
+          "x": 492,
           "y": 144
-        },
-        {
-          "id": 717,
-          "x": 468,
-          "y": 180
         },
         {
           "id": 116,
@@ -68322,6 +68931,46 @@
           "id": 744,
           "x": 0,
           "y": 0
+        },
+        {
+          "id": 746,
+          "x": 444,
+          "y": 360
+        },
+        {
+          "id": 752,
+          "x": 384,
+          "y": 360
+        },
+        {
+          "id": 750,
+          "x": 312,
+          "y": 324
+        },
+        {
+          "id": 747,
+          "x": 444,
+          "y": 288
+        },
+        {
+          "id": 717,
+          "x": 492,
+          "y": 324
+        },
+        {
+          "id": 745,
+          "x": 444,
+          "y": 324
+        },
+        {
+          "id": 748,
+          "x": 384,
+          "y": 324
+        },
+        {
+          "id": 531,
+          "x": 492,
+          "y": 288
         }
       ]
     },
@@ -68331,242 +68980,242 @@
       "quests": [
         {
           "id": 89,
-          "x": 60,
+          "x": 156,
           "y": 60
         },
         {
           "id": 128,
-          "x": 240,
+          "x": 336,
           "y": 0
         },
         {
           "id": 129,
-          "x": 240,
+          "x": 336,
           "y": 36
         },
         {
           "id": 130,
-          "x": 240,
+          "x": 336,
           "y": 108
         },
         {
           "id": 131,
-          "x": 240,
+          "x": 336,
           "y": 228
         },
         {
           "id": 132,
-          "x": 288,
+          "x": 384,
           "y": 108
         },
         {
           "id": 133,
-          "x": 204,
+          "x": 300,
           "y": 60
         },
         {
           "id": 134,
-          "x": 336,
+          "x": 432,
           "y": 36
         },
         {
           "id": 135,
-          "x": 288,
+          "x": 384,
           "y": 72
         },
         {
           "id": 136,
-          "x": 336,
+          "x": 432,
           "y": 72
         },
         {
           "id": 137,
-          "x": 372,
+          "x": 468,
           "y": 36
         },
         {
           "id": 138,
-          "x": 432,
+          "x": 528,
           "y": 0
         },
         {
           "id": 139,
-          "x": 432,
+          "x": 528,
           "y": 72
         },
         {
           "id": 140,
-          "x": 480,
+          "x": 576,
           "y": 0
         },
         {
           "id": 141,
-          "x": 480,
+          "x": 576,
           "y": 72
         },
         {
           "id": 142,
-          "x": 336,
+          "x": 432,
           "y": 108
         },
         {
           "id": 143,
-          "x": 324,
+          "x": 420,
           "y": 228
         },
         {
           "id": 144,
-          "x": 276,
+          "x": 372,
           "y": 192
         },
         {
           "id": 145,
-          "x": 420,
+          "x": 516,
           "y": 288
         },
         {
           "id": 146,
-          "x": 372,
+          "x": 468,
           "y": 252
         },
         {
           "id": 147,
-          "x": 432,
+          "x": 528,
           "y": 144
         },
         {
           "id": 148,
-          "x": 384,
-          "y": 108
-        },
-        {
-          "id": 149,
-          "x": 336,
-          "y": 144
-        },
-        {
-          "id": 150,
-          "x": 384,
-          "y": 144
-        },
-        {
-          "id": 151,
-          "x": 432,
-          "y": 108
-        },
-        {
-          "id": 152,
           "x": 480,
           "y": 108
         },
         {
+          "id": 149,
+          "x": 432,
+          "y": 144
+        },
+        {
+          "id": 150,
+          "x": 480,
+          "y": 144
+        },
+        {
+          "id": 151,
+          "x": 528,
+          "y": 108
+        },
+        {
+          "id": 152,
+          "x": 576,
+          "y": 108
+        },
+        {
           "id": 153,
-          "x": 120,
+          "x": 216,
           "y": 0
         },
         {
           "id": 154,
-          "x": 168,
+          "x": 264,
           "y": 0
         },
         {
           "id": 155,
-          "x": 0,
+          "x": 96,
           "y": 156
         },
         {
           "id": 156,
-          "x": 0,
+          "x": 96,
           "y": 192
         },
         {
           "id": 157,
-          "x": 0,
-          "y": 228
+          "x": 48,
+          "y": 192
         },
         {
           "id": 158,
-          "x": 36,
-          "y": 264
+          "x": 0,
+          "y": 228
         },
         {
           "id": 159,
           "x": 0,
-          "y": 264
+          "y": 192
         },
         {
           "id": 126,
-          "x": 0,
+          "x": 96,
           "y": 0
         },
         {
           "id": 659,
-          "x": 60,
+          "x": 156,
           "y": 0
         },
         {
           "id": 660,
-          "x": 0,
+          "x": 96,
           "y": 60
         },
         {
           "id": 730,
-          "x": 60,
+          "x": 156,
           "y": 108
         },
         {
           "id": 731,
-          "x": 60,
+          "x": 156,
           "y": 156
         },
         {
           "id": 732,
-          "x": 60,
+          "x": 156,
           "y": 192
         },
         {
           "id": 733,
-          "x": 60,
+          "x": 156,
           "y": 228
         },
         {
           "id": 734,
-          "x": 120,
-          "y": 228
+          "x": 180,
+          "y": 264
         },
         {
           "id": 735,
-          "x": 120,
+          "x": 132,
           "y": 264
         },
         {
           "id": 736,
-          "x": 180,
-          "y": 228
+          "x": 156,
+          "y": 300
         },
         {
           "id": 127,
-          "x": 168,
+          "x": 264,
           "y": 60
         },
         {
           "id": 738,
-          "x": 138,
+          "x": 264,
           "y": 108
         },
         {
           "id": 737,
-          "x": 198,
+          "x": 300,
           "y": 108
         },
         {
           "id": 739,
-          "x": 168,
-          "y": 144
+          "x": 264,
+          "y": 156
         },
         {
           "id": 740,
-          "x": 0,
+          "x": 96,
           "y": 108
         }
       ]
