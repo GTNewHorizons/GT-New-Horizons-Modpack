@@ -10842,7 +10842,7 @@
       "questID": 126,
       "name": "Electrolysing all the things",
       "description": "Collected a lot of dusts since you started with macerating, washing and centrifuging ores? Until now you couldn\u0027t separate them. It\u0027s time to get all the pure and valuable materials out of them.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -12805,10 +12805,27 @@
         {
           "rewards": [
             {
+              "id": "Translocator:diamondNugget",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -12865,10 +12882,27 @@
         {
           "rewards": [
             {
+              "id": "Translocator:diamondNugget",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -13283,7 +13317,9 @@
         }
       ],
       "preRequisites": [
-        89
+        89,
+        126,
+        740
       ]
     },
     {
@@ -43515,6 +43551,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -43598,6 +43640,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -43670,6 +43718,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -43754,6 +43808,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -43837,6 +43897,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -43915,6 +43981,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -44065,6 +44137,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -44157,6 +44235,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -44237,6 +44321,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -49707,6 +49797,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
               "OreDict": "",
@@ -49802,6 +49898,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -49914,6 +50016,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 20,
               "OreDict": "",
@@ -50023,6 +50131,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 25,
@@ -50135,6 +50249,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 30,
               "OreDict": "",
@@ -50217,6 +50337,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -50367,6 +50493,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -52359,6 +52491,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -52443,6 +52581,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -52526,6 +52670,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -52608,6 +52758,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -52693,6 +52849,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -52775,6 +52937,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -53042,6 +53210,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
@@ -60540,15 +60714,15 @@
           "requiredItems": [
             {
               "id": "IC2:itemPartCircuit",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 32710
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -62473,6 +62647,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 20,
               "OreDict": "",
@@ -62953,6 +63133,155 @@
       "preRequisites": [
         738,
         737
+      ]
+    },
+    {
+      "questID": 740,
+      "name": "Extrude all the things",
+      "description": "Noe you hit Mv Tier and its time to get a better ratio making Sticks, Pipes or Plates. Most recipes using  more the 32 eu/t so better make some Mv Extruder. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 282
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32300
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32351
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32350
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32352
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32353
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32356
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32358
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32362
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32372
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32354
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 282
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
       ]
     },
     {
@@ -67013,6 +67342,11 @@
           "id": 739,
           "x": 168,
           "y": 144
+        },
+        {
+          "id": 740,
+          "x": 0,
+          "y": 108
         }
       ]
     },
