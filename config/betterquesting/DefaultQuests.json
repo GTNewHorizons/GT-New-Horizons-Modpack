@@ -495,6 +495,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 3,
               "OreDict": "",
@@ -1032,6 +1038,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 1,
@@ -3371,6 +3383,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
@@ -6061,6 +6079,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -8217,8 +8246,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -10528,6 +10557,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -10676,6 +10711,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 20,
               "OreDict": "",
@@ -10752,6 +10793,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 20,
@@ -10896,8 +10943,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -10989,8 +11036,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -11098,6 +11145,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11179,6 +11243,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11245,6 +11320,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11311,6 +11397,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11377,6 +11474,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11447,8 +11555,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -11550,6 +11664,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11607,6 +11732,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -11680,6 +11816,17 @@
             {
               "id": "EnderIO:itemItemConduit",
               "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -11802,6 +11949,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -11857,6 +12015,23 @@
             {
               "id": "minecraft:cookie",
               "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -11946,6 +12121,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12039,6 +12231,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12094,6 +12303,17 @@
             {
               "id": "HardcoreEnderExpansion:exp_bottle_consistent",
               "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -12166,6 +12386,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12232,6 +12463,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12299,6 +12541,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12366,6 +12619,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12433,6 +12697,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12483,7 +12758,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         142
       ]
@@ -12531,7 +12818,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         142
       ]
@@ -12579,7 +12878,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         142
       ]
@@ -12627,7 +12938,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         142
       ]
@@ -12692,6 +13015,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -12749,6 +13089,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -12822,8 +13179,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -12899,8 +13256,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -12969,6 +13326,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -13044,6 +13418,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -13108,8 +13493,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -13181,6 +13566,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -13247,6 +13649,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -34119,6 +34538,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 2,
               "OreDict": "",
@@ -34445,6 +34870,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 2,
               "OreDict": "",
@@ -34573,6 +35004,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 3,
@@ -34729,6 +35166,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 2,
@@ -36036,6 +36479,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 5,
               "OreDict": "",
@@ -36139,6 +36588,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 3,
@@ -36467,6 +36922,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 8,
               "OreDict": "",
@@ -36611,6 +37072,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 5,
@@ -37750,6 +38217,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 10,
               "OreDict": "",
@@ -38099,6 +38572,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -48420,6 +48904,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
               "OreDict": "",
@@ -54585,6 +55075,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 5,
               "OreDict": "",
@@ -54692,6 +55188,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 5,
@@ -54801,6 +55303,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 10,
@@ -54913,6 +55421,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
               "Count": 2,
@@ -55030,6 +55544,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
               "Count": 2,
@@ -55170,6 +55690,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinSurvivor",
               "Count": 20,
@@ -58556,6 +59082,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -62023,8 +62555,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinFarmerI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62127,8 +62659,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62231,8 +62763,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62335,8 +62867,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62439,8 +62971,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -62543,8 +63075,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62647,14 +63179,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -62905,6 +63437,12 @@
               "Damage": 0
             },
             {
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 44
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 2,
               "OreDict": "",
@@ -62912,6 +63450,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -63010,8 +63559,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 35,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -63128,6 +63683,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -63271,8 +63837,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -63374,6 +63940,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 20,
@@ -63546,6 +64118,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -63714,6 +64292,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
               "OreDict": "",
@@ -63881,6 +64465,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 10,
@@ -67325,8 +67915,8 @@
         },
         {
           "id": 107,
-          "x": 780,
-          "y": 156
+          "x": 756,
+          "y": 144
         },
         {
           "id": 108,
@@ -67335,52 +67925,52 @@
         },
         {
           "id": 109,
-          "x": 804,
-          "y": 192
+          "x": 792,
+          "y": 144
         },
         {
           "id": 110,
-          "x": 852,
+          "x": 864,
           "y": 144
         },
         {
           "id": 111,
-          "x": 744,
-          "y": 156
+          "x": 720,
+          "y": 144
         },
         {
           "id": 112,
-          "x": 852,
-          "y": 192
+          "x": 828,
+          "y": 144
         },
         {
           "id": 113,
-          "x": 660,
-          "y": 192
+          "x": 648,
+          "y": 180
         },
         {
           "id": 114,
-          "x": 696,
-          "y": 240
+          "x": 672,
+          "y": 216
         },
         {
           "id": 115,
-          "x": 636,
-          "y": 252
+          "x": 624,
+          "y": 216
         },
         {
           "id": 117,
-          "x": 600,
-          "y": 192
+          "x": 612,
+          "y": 180
         },
         {
           "id": 118,
-          "x": 660,
-          "y": 156
+          "x": 672,
+          "y": 144
         },
         {
           "id": 119,
-          "x": 588,
+          "x": 612,
           "y": 144
         },
         {
