@@ -137,6 +137,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnician.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinTechnicianI.get(1L), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnicianI.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinTechnicianII.get(1L), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnicianII.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinTechnicianIII.get(1L), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmith.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinSmithI.get(1L), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmithI.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinSmithII.get(1L), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmithII.get(10L), ItemList.Circuit_Integrated.getWithDamage(0L, 10L), CustomItemList.CoinSmithIII.get(1L), 100, 480);
 
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinAdventureI.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinAdventure.get(10L), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinAdventureII.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinAdventureI.get(10L), 100, 120);
@@ -171,6 +174,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnicianI.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinTechnician.get(10L), 100, 30);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnicianII.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinTechnicianI.get(10L), 100, 120);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinTechnicianIII.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinTechnicianII.get(10L), 100, 480);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmithI.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinSmith.get(10L), 100, 30);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmithII.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinSmithI.get(10L), 100, 120);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.CoinSmithIII.get(1L), ItemList.Circuit_Integrated.getWithDamage(0L, 1L), CustomItemList.CoinSmithII.get(10L), 100, 480);
 
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Platinum, 6L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 4L), CustomItemList.NanoBoard.get(1L), 400, 1920);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Palladium, 8L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 8L), CustomItemList.QuantumBoard.get(1L), 200, 7680);
