@@ -7,7 +7,7 @@ public class WoodenBrickFormProperties implements IExtendedItemProperties
 {
 
     @Override
-    public String getItemName() { return "";
+    public String getItemName() { return "WoodenBrickForm";
         }
 
     @Override
@@ -15,7 +15,7 @@ public class WoodenBrickFormProperties implements IExtendedItemProperties
     }
 
     @Override
-    public String getUnlocalizedName() { return "";
+    public String getUnlocalizedName() { return "WoodenBrickForm";
     }
 
     @Override
