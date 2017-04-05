@@ -1,5 +1,6 @@
 package com.dreammaster.item;
 
+import com.dreammaster.block.DoubleCompressedCoalProperties;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;
@@ -466,7 +467,7 @@ public enum ItemList
     WeakOrb(new ModSimpleBaseItem("WeakOrb", ModTabList.ModThaumcraftTab)),
     WetTofu(new ModSimpleBaseItem("WetTofu", ModTabList.ModGenericTab)),
     WirelessTransmitter(new ModSimpleBaseItem("WirelessTransmitter", ModTabList.ModGenericTab)),
-    WoodenBrickForm(new ModSimpleBaseItem("WoodenBrickForm", ModTabList.ModGenericTab)),
+    WoodenBrickForm(new ModSimpleBaseItem(new WoodenBrickFormProperties(), ModTabList.ModGenericTab)),
     WoodenCasing(new ModSimpleBaseItem("WoodenCasing", ModTabList.ModGenericTab)),
     MedalDerp(new ModSimpleBaseItem("MedalDerp", ModTabList.ModGenericTab)),
     MedalGTExplosion(new ModSimpleBaseItem("MedalGTExplosion", ModTabList.ModGenericTab)),
