@@ -13725,13 +13725,6 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "score": "Reputation (1)",
-          "type": "dummy",
-          "value": 20,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
         }
       ],
       "preRequisites": [
@@ -65723,6 +65716,363 @@
       ]
     },
     {
+      "questID": 757,
+      "name": "Ruby Electrolyzing",
+      "description": "Ruby is a good Source for electrolysing Chrome and Aluminium out.  With you ne  MV Electrolyser you able to do all these recipes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2030
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 60,
+              "OreDict": "",
+              "Damage": 2502
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2030
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 2019
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        103,
+        102,
+        97,
+        90,
+        546,
+        126
+      ]
+    },
+    {
+      "questID": 758,
+      "name": "MV Batteries",
+      "description": "Better Machines needs some better Batteries. Let\u0027s make some MV Battery Hulls for new Batteries. Now its up to you making Lithium, Cadmium, Sodium or Acid Batteries out of it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32501
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32501
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 759,
+      "name": "Plastic out of Bio Mass",
+      "description": "You found a way making plastic out of Bio mass is more easy the make it out of Naptha.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11471
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "consume": true,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "molten.plastic",
+              "Amount": 10000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemBiochaff",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        735
+      ]
+    },
+    {
+      "questID": 760,
+      "name": "Clay Electrolyzing",
+      "description": "You found out that clay is a very good source for electrolysing silicon out of it. There are Plenty of Stained Clay Blocks found in Canyon Biomes or on Maountains.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2805
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 832,
+              "OreDict": "",
+              "Damage": 2805
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 2020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyway.",
@@ -69773,7 +70123,7 @@
         },
         {
           "id": 660,
-          "x": 96,
+          "x": 48,
           "y": 60
         },
         {
@@ -69838,23 +70188,43 @@
         },
         {
           "id": 749,
-          "x": 192,
-          "y": 108
+          "x": 216,
+          "y": 156
         },
         {
           "id": 751,
-          "x": 228,
-          "y": 108
+          "x": 264,
+          "y": 156
         },
         {
           "id": 753,
-          "x": 228,
-          "y": 156
+          "x": 264,
+          "y": 192
         },
         {
           "id": 754,
-          "x": 192,
-          "y": 156
+          "x": 216,
+          "y": 192
+        },
+        {
+          "id": 757,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 758,
+          "x": 48,
+          "y": 108
+        },
+        {
+          "id": 759,
+          "x": 96,
+          "y": 264
+        },
+        {
+          "id": 760,
+          "x": 0,
+          "y": 0
         }
       ]
     },
