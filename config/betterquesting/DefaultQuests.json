@@ -495,10 +495,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -1039,10 +1042,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -3384,10 +3390,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -12110,10 +12119,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
+              "id": "betterquesting:placeholder",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmithI"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -12220,10 +12232,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
+              "id": "betterquesting:placeholder",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmithI"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -13081,10 +13096,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
+              "id": "betterquesting:placeholder",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmithI"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -34850,10 +34868,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -34985,10 +35006,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -35147,10 +35171,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -36902,10 +36929,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -37053,10 +37083,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -38197,10 +38230,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
@@ -48886,10 +48922,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -55057,10 +55096,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55171,10 +55213,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55286,10 +55331,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55404,10 +55452,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
+              "id": "betterquesting:placeholder",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmithI"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -55527,10 +55578,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
+              "id": "betterquesting:placeholder",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmithI"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -55673,10 +55727,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -59065,10 +59122,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -63923,10 +63983,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64100,10 +64163,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64274,10 +64340,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64448,10 +64517,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmith",
+              "id": "betterquesting:placeholder",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_id:8": "dreamcraft:item.CoinSmith"
+              }
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -66707,13 +66779,13 @@
         }
       ],
       "preRequisites": [
-        160
+        89
       ]
     },
     {
       "questID": 766,
       "name": "Let\u0027s get it crackin!",
-      "description": "Cracking oil will result in better byproducts in the Distillation Tower it is a smart idea to get this multiblock since you are gonna need TONS OF TNT for advanced tier rockets. ",
+      "description": "Cracking oil will result in better byproducts in the Distillation Tower it is a smart idea to get this multiblock since you are gonna need TONS OF TNT for advanced tier rockets. \n\nIf you input steam eu/t will be reduced by 50% and if you input hydrogen the output will be increased by 30%",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66832,6 +66904,210 @@
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 767,
+      "name": "Analyzing the soil",
+      "description": "To determinate which kind of oil or gas there is in the chunk you need to scan the soil by right clicking the Seismic Prosperctor with 8 Dyanmite , 4 TNT , 2 ITNT or 1 Glyceryl then a Data Stick is required to extract the data, just right click on it after the animation finished.\nProTip: you can do it more efficiently by scanning every 6 chunks. \n\nNow you need to add the analyzed Data Stick to a Scanner after this place it in the bottom right slot of the Printer and add 3 paper in the top left slot and make sure you have atleast 144 mb Squid Ink in it. (Only Gregtech machines will work)\n\nAfter the process in done take the printed page and combine it with a piece of lether in a assembler filled with atleast 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1156
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1156
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        73
+      ]
+    },
+    {
+      "questID": 768,
+      "name": "You smell like a Distillery",
+      "description": "This bad boy will boost tremendously the byproduct of your cracked fuel by multiplying it to 5 this way you can make more efficiently itnt, polythylene , polytetrafluoroethyline and other plastics. \n\nYou will need this also for your automatic setups. (pIscript won\u0027t use it he only makes ghetto automations)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1126
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1126
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 43
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 83
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 53
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 83
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30744
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30743
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -72234,6 +72510,16 @@
         {
           "id": 766,
           "x": 276,
+          "y": 108
+        },
+        {
+          "id": 767,
+          "x": 312,
+          "y": 108
+        },
+        {
+          "id": 768,
+          "x": 348,
           "y": 108
         }
       ]
