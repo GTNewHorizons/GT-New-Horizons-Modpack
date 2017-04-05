@@ -13737,7 +13737,9 @@
       "preRequisites": [
         89,
         126,
-        740
+        740,
+        753,
+        750
       ]
     },
     {
@@ -64901,6 +64903,122 @@
       ]
     },
     {
+      "questID": 749,
+      "name": "Are you Prepared for HV ?",
+      "description": "Stainless Steel will be the Material for HV Tier. There are two ways to process it. Mixing it with Hand outputs 8 Stainless Steel Dust.\n\nManganese can be found in Ore Veins together with Grossulare Ore, Spessartine Ore, Pyrolosite Ore andTantalite Ore.\n\nChrome can be centrifuged out of Maganganese Dust and Ruby Dust.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2306
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 2032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2031
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2030
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32224
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
       "questID": 750,
       "name": "Molten Platic",
       "description": "Molten Polyethylen can be made in the Chemical reactor wit Naptha and Compressed Air Cells. Bio Mass is also a source for make Polyethylen. Using a Fluid Solidifier and a Plate Form to make Plastic Sheets.",
@@ -65028,6 +65146,137 @@
       ]
     },
     {
+      "questID": 751,
+      "name": "Mixing Stainless Steel",
+      "description": "Stainless Steel will be the Material for HV Tier. There are two ways to process it. Mixing it in a Mixer outputs 9 Stainless Steel Dust each process.\n\nManganese can be found in Ore Veins together with Grossulare Ore, Spessartine Ore, Pyrolosite Ore andTantalite Ore.\n\nChrome can be centrifuged out of Maganganese Dust and Ruby Dust.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 582
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 2032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 21,
+              "OreDict": "",
+              "Damage": 2302
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 2031
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 2030
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 582
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 2306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32221
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
       "questID": 752,
       "name": "Silicon Plate",
       "description": "Most of the Circuit and the Solar Pannels recipes using Silicon Plates.",
@@ -65102,6 +65351,152 @@
       ],
       "preRequisites": [
         746
+      ]
+    },
+    {
+      "questID": 753,
+      "name": "Stainless Steel EBF processing",
+      "description": "Stainless Steel Ingots are made in the Electronic Blast Furnace at a Temperatur og 1700K  \n80 Sec at 480eu/t and with Oxygen Gas 60 Sec at 480eu/t.\n\nYou need miniumum two MV Energy Hatches to process it.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11306
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 11306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        749,
+        751,
+        77,
+        754
+      ]
+    },
+    {
+      "questID": 754,
+      "name": "MV Energy Hatch",
+      "description": "Some materials like Stainless Steel need 480 eu/t. Your lv Hatches not gone make this. Crafting a minimum of two Hatches to upgrade your EBF to HV.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 42
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 42
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        77,
+        89
       ]
     },
     {
@@ -68524,8 +68919,8 @@
         },
         {
           "id": 105,
-          "x": 240,
-          "y": 264
+          "x": 276,
+          "y": 288
         },
         {
           "id": 106,
@@ -68625,12 +69020,12 @@
         {
           "id": 529,
           "x": 492,
-          "y": 216
+          "y": 252
         },
         {
           "id": 530,
           "x": 528,
-          "y": 216
+          "y": 252
         },
         {
           "id": 532,
@@ -69210,13 +69605,33 @@
         },
         {
           "id": 739,
-          "x": 264,
+          "x": 300,
           "y": 156
         },
         {
           "id": 740,
           "x": 96,
           "y": 108
+        },
+        {
+          "id": 749,
+          "x": 192,
+          "y": 108
+        },
+        {
+          "id": 751,
+          "x": 228,
+          "y": 108
+        },
+        {
+          "id": 753,
+          "x": 228,
+          "y": 156
+        },
+        {
+          "id": 754,
+          "x": 192,
+          "y": 156
         }
       ]
     },
