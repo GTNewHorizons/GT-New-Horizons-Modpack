@@ -65500,6 +65500,229 @@
       ]
     },
     {
+      "questID": 755,
+      "name": "Better then Duct Tape",
+      "description": "Better then Duct Tape is a Soldering Iron Tool to remove the burned out Circuits message. \nThe Soldering Iron requires one soldering material item and 10,000 EU. Valid soldering materials are Fine Wires, Rods, and Ingots made from either Tin, Lead, or Soldering Alloy. The Soldering Iron will consume the first such material it finds in the player\u0027s inventory.\n\nFor the other Problems other Tools are necessary.\n\nPossible Problems                  Tool to Fix\n\"Pipe is loose.\"                        Wrench\n\"Screws are missing.\"             Screwdriver \n\"Something is stuck.\"               Soft Hammer \n\"Platings are dented.\"            Hammer \n\"Circuitry burned out.\"          Soldering Iron \n\"That doesn\u0027t belong there.\" Crowbar",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 160,
+        "tag": {
+          "GT.ToolStats:10": {
+            "SpecialData:4": -1,
+            "PrimaryMaterial:8": "Iron",
+            "Tier:4": 1,
+            "MaxDamage:4": 25600,
+            "Voltage:4": 32,
+            "MaxCharge:4": 100000,
+            "Electric:4": 1,
+            "SecondaryMaterial:8": "Rubber"
+          },
+          "GT.ItemCharge:4": 100000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "craftingToolSolderingIron",
+              "Damage": 160
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19314
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        77,
+        609
+      ]
+    },
+    {
+      "questID": 756,
+      "name": "Less Power loss",
+      "description": "When you reach Mv Tier you can make your Own Duct Tape in case you have to move your EBF around.  Duct tape will remove all errors in the EBF.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32764
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemPartCarbonMesh",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30726
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 212
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32764
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "IC2:itemPartCarbonMesh",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30726
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        77,
+        89
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the Ores in the cave are valuable anyway.",
@@ -70831,6 +71054,16 @@
           "id": 699,
           "x": 240,
           "y": 0
+        },
+        {
+          "id": 755,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 756,
+          "x": 0,
+          "y": 72
         }
       ]
     },
