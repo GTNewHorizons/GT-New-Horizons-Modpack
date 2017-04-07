@@ -55,11 +55,11 @@ public class GT_MetaTileEntity_WetTransformer extends GT_MetaTileEntity_Transfor
 
     @Override
     public long maxAmperesOut() {
-        return getBaseMetaTileEntity().isAllowedToWork() ? (V[mTier + 1] / V[mTier] < 16 ? 16 : V[mTier + 1] / V[mTier]) : 4;
+        return getBaseMetaTileEntity().isActive() ? (V[mTier + 1] / V[mTier] < 16 ? 16 : V[mTier + 1] / V[mTier]) : 4;
     }
 
     @Override
     public long maxAmperesIn() {
-        return getBaseMetaTileEntity().isAllowedToWork() ? 4 : (V[mTier + 1] / V[mTier] < 16 ? 16 : V[mTier + 1] / V[mTier]);
+        return getBaseMetaTileEntity().isActive() ? 4 : (V[mTier + 1] / V[mTier] < 16 ? 16 : V[mTier + 1] / V[mTier]);
     }
 }
