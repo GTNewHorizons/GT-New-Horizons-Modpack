@@ -13862,8 +13862,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 100,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -13973,6 +13973,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -14099,6 +14116,29 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -14156,6 +14196,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -14225,6 +14276,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -14883,6 +14951,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -14967,6 +15046,29 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -15033,6 +15135,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -15096,6 +15215,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -15171,6 +15307,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -15231,6 +15378,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -15288,6 +15446,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -15357,6 +15532,23 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -54806,7 +54998,8 @@
       ],
       "preRequisites": [
         160,
-        653
+        653,
+        779
       ]
     },
     {
@@ -67697,7 +67890,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -67705,10 +67898,7 @@
               "id": "IC2:itemNightvisionGoggles",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 200000.0
-              }
+              "Damage": 27
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67815,7 +68005,8 @@
       "preRequisites": [
         775,
         769,
-        772
+        772,
+        782
       ]
     },
     {
@@ -67939,7 +68130,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -67947,37 +68138,25 @@
               "id": "IC2:itemArmorNanoHelmet",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 1000000.0
-              }
+              "Damage": 27
             },
             {
               "id": "IC2:itemArmorNanoChestplate",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 1000000.0
-              }
+              "Damage": 27
             },
             {
               "id": "IC2:itemArmorNanoLegs",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 1000000.0
-              }
+              "Damage": 27
             },
             {
               "id": "IC2:itemArmorNanoBoots",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 1000000.0
-              }
+              "Damage": 27
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -68114,6 +68293,213 @@
       ],
       "preRequisites": [
         774
+      ]
+    },
+    {
+      "questID": 781,
+      "name": "Energy Crystals",
+      "description": "Placeholder",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBatCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemDust2",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBatCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24501
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24502
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        772
+      ]
+    },
+    {
+      "questID": 782,
+      "name": "Nano Crystal",
+      "description": "Placeholder",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.NanoCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBatCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32715
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32719
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        781
       ]
     },
     {
@@ -72318,88 +72704,98 @@
       "quests": [
         {
           "id": 160,
-          "x": 222,
+          "x": 84,
           "y": 0
         },
         {
           "id": 162,
-          "x": 222,
-          "y": 104
+          "x": 84,
+          "y": 120
         },
         {
           "id": 163,
-          "x": 422,
+          "x": 288,
           "y": 0
         },
         {
           "id": 165,
-          "x": 342,
+          "x": 192,
           "y": 0
         },
         {
           "id": 167,
-          "x": 270,
-          "y": 64
+          "x": 132,
+          "y": 72
         },
         {
           "id": 168,
-          "x": 342,
-          "y": 32
-        },
-        {
-          "id": 169,
-          "x": 382,
-          "y": 0
-        },
-        {
-          "id": 166,
-          "x": 286,
-          "y": 0
-        },
-        {
-          "id": 170,
-          "x": 270,
-          "y": 104
-        },
-        {
-          "id": 171,
-          "x": 342,
-          "y": 64
-        },
-        {
-          "id": 172,
-          "x": 342,
-          "y": 104
-        },
-        {
-          "id": 173,
-          "x": 382,
-          "y": 104
-        },
-        {
-          "id": 174,
-          "x": 382,
-          "y": 64
-        },
-        {
-          "id": 175,
-          "x": 422,
-          "y": 104
-        },
-        {
-          "id": 769,
-          "x": 144,
-          "y": 0
-        },
-        {
-          "id": 770,
           "x": 192,
           "y": 36
         },
         {
+          "id": 169,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 166,
+          "x": 142,
+          "y": 0
+        },
+        {
+          "id": 170,
+          "x": 132,
+          "y": 120
+        },
+        {
+          "id": 171,
+          "x": 192,
+          "y": 72
+        },
+        {
+          "id": 172,
+          "x": 192,
+          "y": 120
+        },
+        {
+          "id": 173,
+          "x": 240,
+          "y": 120
+        },
+        {
+          "id": 174,
+          "x": 240,
+          "y": 72
+        },
+        {
+          "id": 175,
+          "x": 288,
+          "y": 120
+        },
+        {
+          "id": 769,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 770,
+          "x": 60,
+          "y": 72
+        },
+        {
           "id": 772,
-          "x": 144,
+          "x": 0,
           "y": 36
+        },
+        {
+          "id": 781,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 782,
+          "x": 0,
+          "y": 120
         }
       ]
     },
@@ -73608,7 +74004,7 @@
         {
           "id": 654,
           "x": 48,
-          "y": 192
+          "y": 240
         },
         {
           "id": 655,
@@ -73672,17 +74068,17 @@
         },
         {
           "id": 779,
-          "x": 180,
-          "y": 288
-        },
-        {
-          "id": 776,
-          "x": 156,
+          "x": 108,
           "y": 240
         },
         {
+          "id": 776,
+          "x": 108,
+          "y": 192
+        },
+        {
           "id": 777,
-          "x": 204,
+          "x": 180,
           "y": 240
         }
       ]
