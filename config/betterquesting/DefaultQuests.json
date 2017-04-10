@@ -28524,8 +28524,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 8,
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -36172,8 +36178,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinTechnicianIII",
+              "id": "dreamcraft:item.CoinDarkWizardIII",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -68005,8 +68017,7 @@
       "preRequisites": [
         775,
         769,
-        772,
-        782
+        772
       ]
     },
     {
@@ -68297,8 +68308,754 @@
     },
     {
       "questID": 781,
+      "name": "Still not enough charcoal?",
+      "description": "Now that you have a vacuum freezer and you have the possibility of manufacturing Kanthal, it\u0027s time to build a Pyrolyse Oven. This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s Coke Oven). You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1159
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:gt.blockcasingsNH",
+              "Count": 66,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1159
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "dreamcraft:tile.TripleCompressedCharcoal",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        78
+      ]
+    },
+    {
+      "questID": 783,
+      "name": "We need big toys",
+      "description": "Your little turbines take up very much space? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. Don\u0027t forget to make a rotor for the turbine. At the initial stage is the most suitable material for the rotor is: vanadium steel (has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1131
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1131
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 33
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 172
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dreamcraft:tile.TripleCompressedCharcoal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        786
+      ]
+    },
+    {
+      "questID": 784,
+      "name": "It\u0027s time to get more steam",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. This will help you a Large Bronze Boiler. But in order to make this boiler, need a mountain of bronze. Are you not thrown out your old bronze blast furnace? Boldly casting it in an Arc Furnace and get back your bronze! You\u0027ll need five outputs hatches for convenience. You will also need ten basic steam turbines, as boiler produces 800 liters of steam per tick, and the turbine consumes 80.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1020
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 51
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 61
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 71
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 91
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1120
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:tile.DoubleCompressedCharcoal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        717,
+        662
+      ]
+    },
+    {
+      "questID": 786,
+      "name": "Steam is never enough",
+      "description": "Now, you can make advanced circuits, which means it\u0027s time to build a Large Steel Boiler. This boiler is one and a half times more efficient than a bronze one, and that means we need 5 more steam turbines. Don\u0027t forget to monitor the water level!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1021
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1021
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1120
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 5134
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89,
+        784
+      ]
+    },
+    {
+      "questID": 787,
+      "name": "Moooooore steam",
+      "description": "Stock up on titanium, it will be fun. Large Titanium Boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1022
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1022
+            },
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        786,
+        162
+      ]
+    },
+    {
+      "questID": 788,
+      "name": "Even more steam? Are you sure?",
+      "description": "This boiler is the most efficient source of steam. It allows you to produce as much as 2000 litres of steam per tick. If you need more, then build dual or even quad boiler.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1023
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1023
+            },
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:tile.QuadrupleCompressedCharcoal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        787,
+        186
+      ]
+    },
+    {
+      "questID": 789,
       "name": "Energy Crystals",
-      "description": "Placeholder",
+      "description": "Making Energy Crystals out of Ruby and Redstone Dusts. Energy Crystals can store 1 Million EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68404,9 +69161,9 @@
       ]
     },
     {
-      "questID": 782,
+      "questID": 790,
       "name": "Nano Crystal",
-      "description": "Placeholder",
+      "description": "This Nano Crystals are used for making the Nano Armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68499,7 +69256,7 @@
         }
       ],
       "preRequisites": [
-        781
+        789
       ]
     },
     {
@@ -72710,7 +73467,7 @@
         {
           "id": 162,
           "x": 84,
-          "y": 120
+          "y": 108
         },
         {
           "id": 163,
@@ -72739,13 +73496,13 @@
         },
         {
           "id": 166,
-          "x": 142,
+          "x": 144,
           "y": 0
         },
         {
           "id": 170,
           "x": 132,
-          "y": 120
+          "y": 108
         },
         {
           "id": 171,
@@ -72755,12 +73512,12 @@
         {
           "id": 172,
           "x": 192,
-          "y": 120
+          "y": 108
         },
         {
           "id": 173,
           "x": 240,
-          "y": 120
+          "y": 108
         },
         {
           "id": 174,
@@ -72769,8 +73526,8 @@
         },
         {
           "id": 175,
-          "x": 288,
-          "y": 120
+          "x": 276,
+          "y": 108
         },
         {
           "id": 769,
@@ -72780,7 +73537,7 @@
         {
           "id": 770,
           "x": 60,
-          "y": 72
+          "y": 36
         },
         {
           "id": 772,
@@ -72788,14 +73545,14 @@
           "y": 36
         },
         {
-          "id": 781,
+          "id": 789,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
-          "id": 782,
+          "id": 790,
           "x": 0,
-          "y": 120
+          "y": 156
         }
       ]
     },
@@ -73954,6 +74711,36 @@
           "id": 768,
           "x": 336,
           "y": 72
+        },
+        {
+          "id": 781,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 784,
+          "x": 384,
+          "y": 0
+        },
+        {
+          "id": 786,
+          "x": 384,
+          "y": 36
+        },
+        {
+          "id": 787,
+          "x": 384,
+          "y": 72
+        },
+        {
+          "id": 788,
+          "x": 384,
+          "y": 108
+        },
+        {
+          "id": 783,
+          "x": 432,
+          "y": 36
         }
       ]
     },
@@ -74004,7 +74791,7 @@
         {
           "id": 654,
           "x": 48,
-          "y": 240
+          "y": 192
         },
         {
           "id": 655,
@@ -74068,12 +74855,12 @@
         },
         {
           "id": 779,
-          "x": 108,
+          "x": 96,
           "y": 240
         },
         {
           "id": 776,
-          "x": 108,
+          "x": 96,
           "y": 192
         },
         {
