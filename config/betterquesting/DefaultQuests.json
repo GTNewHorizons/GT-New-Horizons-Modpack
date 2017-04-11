@@ -68540,7 +68540,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. This will help you a Large Bronze Boiler. But in order to make this boiler, need a mountain of bronze. Are you not thrown out your old bronze blast furnace? Boldly casting it in an Arc Furnace and get back your bronze! You\u0027ll need five outputs hatches for convenience. You will also need ten basic steam turbines, as boiler produces 800 liters of steam per tick, and the turbine consumes 80.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. This will help you a Large Bronze Boiler. But in order to make this boiler, need a mountain of bronze. Are you not thrown out your old bronze blast furnace? Boldly casting it in an Arc Furnace and get back your bronze! You will also need ten basic steam turbines, as boiler produces 800 liters of steam per tick, and the turbine consumes 80.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68617,7 +68617,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings",
-              "Count": 28,
+              "Count": 32,
               "OreDict": "",
               "Damage": 10
             }
@@ -68638,7 +68638,7 @@
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 5,
+              "Count": 1,
               "OreDict": "",
               "Damage": 61
             },
@@ -68794,7 +68794,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings2",
-              "Count": 28,
+              "Count": 32,
               "OreDict": "",
               "Damage": 0
             }
@@ -68905,7 +68905,7 @@
             },
             {
               "id": "gregtech:gt.blockcasings4",
-              "Count": 28,
+              "Count": 32,
               "OreDict": "",
               "Damage": 2
             }
@@ -69001,7 +69001,7 @@
             },
             {
               "id": "gregtech:gt.blockcasings4",
-              "Count": 28,
+              "Count": 32,
               "OreDict": "",
               "Damage": 0
             }
