@@ -165,12 +165,12 @@ recipes.addShaped(<adventurebackpack:backpackComponent:6>, [
 [<IC2:itemRecipePart:12>, <ore:craftingToolScrewdriver>, <IC2:itemRecipePart:12>]]);
 
 // --- Copter Pack 
-recipes.addShaped(<adventurebackpack:copterPack>, [
+recipes.addShaped(<adventurebackpack:copterPack>.withTag({fuelTank: {Empty: ""}}), [
 [<ore:screwDiamond>, <adventurebackpack:backpackComponent:6>, <ore:screwDiamond>],
 [<adventurebackpack:backpackComponent:2>, <gregtech:gt.metaitem.01:32601>, <ore:pipeTinySteel>],
 [<ore:pipeTinySteel>, <adventurebackpack:backpackComponent:5>, <ore:pipeTinySteel>]]);
 // -
-recipes.addShaped(<adventurebackpack:copterPack>, [
+recipes.addShaped(<adventurebackpack:copterPack>.withTag({fuelTank: {Empty: ""}}), [
 [<ore:screwDiamond>, <adventurebackpack:backpackComponent:6>, <ore:screwDiamond>],
 [<BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32601>, <ore:pipeTinySteel>],
 [<ore:pipeTinySteel>, <adventurebackpack:backpackComponent:5>, <ore:pipeTinySteel>]]);
@@ -218,12 +218,12 @@ recipes.addShaped(<adventurebackpack:clockworkCrossbow>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- Coal Jetpack
-recipes.addShaped(<adventurebackpack:coalJetpack>, [
+recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({jetpackData: {waterTank: {Empty: ""}}}), [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<adventurebackpack:backpackComponent:2>, <gregtech:gt.metaitem.01:32601>, <adventurebackpack:backpackComponent:2>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
 // -
-recipes.addShaped(<adventurebackpack:coalJetpack>, [
+recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({jetpackData: {waterTank: {Empty: ""}}}), [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32601>, <BuildCraft|Factory:tankBlock>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
