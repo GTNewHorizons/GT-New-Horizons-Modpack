@@ -495,13 +495,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -1042,13 +1039,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -3390,13 +3384,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -12117,13 +12108,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmithI",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmithI"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -12230,13 +12218,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmithI",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmithI"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -13094,13 +13079,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmithI",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmithI"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -35075,13 +35057,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -35213,13 +35192,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -35378,13 +35354,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -37142,13 +37115,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -37296,13 +37266,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -38443,13 +38410,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
@@ -49103,13 +49067,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -54181,15 +54142,12 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "adventurebackpack:coalJetpack",
         "Count": 1,
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "orig_tag:10": {
-            "jetpackData:10": {}
-          },
-          "orig_id:8": "adventurebackpack:coalJetpack"
+          "jetpackData:10": {}
         }
       },
       "visibility": "UNLOCKED",
@@ -54244,15 +54202,12 @@
           "ignoreNBT": true,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "adventurebackpack:coalJetpack",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "orig_tag:10": {
-                  "jetpackData:10": {}
-                },
-                "orig_id:8": "adventurebackpack:coalJetpack"
+                "jetpackData:10": {}
               }
             }
           ],
@@ -55284,13 +55239,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55401,13 +55353,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55519,13 +55468,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -55640,13 +55586,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmithI",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmithI"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -55766,13 +55709,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmithI",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmithI"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorI",
@@ -55915,13 +55855,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
@@ -59310,13 +59247,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64171,13 +64105,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64351,13 +64282,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64528,13 +64456,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -64705,13 +64630,10 @@
         {
           "rewards": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 20,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_id:8": "dreamcraft:item.CoinSmith"
-              }
+              "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
@@ -68492,36 +68414,6 @@
       ]
     },
     {
-      "questID": 782,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
-    },
-    {
       "questID": 783,
       "name": "We need big toys",
       "description": "Your little turbines take up very much space? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. Don\u0027t forget to make a rotor for the turbine. At the initial stage is the most suitable material for the rotor is: vanadium steel (has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
@@ -68821,36 +68713,6 @@
         717,
         662
       ]
-    },
-    {
-      "questID": 785,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
     },
     {
       "questID": 786,
