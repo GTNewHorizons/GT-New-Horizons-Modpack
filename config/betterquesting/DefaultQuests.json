@@ -61260,7 +61260,7 @@
     {
       "questID": 716,
       "name": "Find some Quartz",
-      "description": "The Nether is full of different Kinds of Quartz. Go and find Quartzite and Certus Quartz Vein. It is located between Y Level 40-80.",
+      "description": "The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. It is located between Y level 40-80.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -61378,7 +61378,7 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good Circuit are better than Basic ones. They are a components of all Medium Voltage Greg Tech machines.",
+      "description": "Good circuits are better than basic ones. They are a component of all medium voltage GregTech machines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61475,8 +61475,8 @@
     },
     {
       "questID": 718,
-      "name": "Crops Breeding",
-      "description": "If you ever wanted to know how crop Breeding works you are in right place. Get some Crop Sticks and some seeds from farming with a Hoe or Mattock.\nMake a 3 x 3 Farmland with your tool and place Water in the middle. Make sure the area is well lit and quite big. \nNow place crop stick on each corner of the field. Then placing the Seeds on the sticks and wait a bit.\nIf they fully grown you can put double Crop sticks in the remaining spots.\nWith some luck you might get a new unknown seed which can be scanned later.\nWeed needs to be removed with a trowel otherwise your field will get overgrown by it.",
+      "name": "Crop Breeding",
+      "description": "If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock.\nMake a plot of farmland with your tool and place water in the middle. Make sure the area is well lit and quite big. \nNow place crop sticks in each corner of the field. Then place the seeds on the sticks and wait a bit.\nWhen they are fully grown you can put double crop sticks in the remaining spots by using crop sticks on already placed crop sticks.\nWith some luck you might get a new unknown seed which can be scanned later.\nWeeds need to be removed with a trowel otherwise your field will become overgrown by them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61623,7 +61623,7 @@
     {
       "questID": 719,
       "name": "First Breeding",
-      "description": "Now on your double Seed Sticks grown now new seeds. You can harvest them with right click or get seed bags eventually with left click. This will destroy the plant. Collecting 8 seed bag of any kind of seed.",
+      "description": "New plants have grown on your crop sticks. You can harvest the crop by right clicking it or by left clicking with a seed bag eventually, This will destroy the plant though. Collect 8 seeds of any kind.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61722,7 +61722,7 @@
     {
       "questID": 720,
       "name": "Weed II",
-      "description": "Weed, weed and weed. You got so much of it when cros breeding. \nNeed some  Bio Gas Cells for your power production in exchange or maybe some Glowstone to light up your Fields.",
+      "description": "Weeds, weeds, and more weeds. You get so many of them while cross breeding. \nNeed some  biogas cells for your power production in exchange? or maybe some glowstone to light up your fields.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61814,7 +61814,7 @@
     {
       "questID": 721,
       "name": "Unknown seeds no more",
-      "description": "You get allot of unknown Seed bags already. Using your Scanner to scan all the seeds.  Seed bags can planted again to breed better and resistance  crops.",
+      "description": "You have a lot of unknown seeds already. Use your scanner to scan all the seeds. \nSeeds can be planted again to breed better and more resillient crops.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61920,8 +61920,8 @@
     },
     {
       "questID": 722,
-      "name": "Speed up your plat grows",
-      "description": "To speed up your grow process a bit you can using fertilizer. Bone meal not working here anymore. A bit ash, apatite or calcite mixing with some distilled water in the chemical reactor will give you the fertilizer you need.",
+      "name": "Speed up your plant growth",
+      "description": "To speed up the growth process a bit you can use a fertilizer. You will note, however, that bone meal no longer works. A bit of ash, apatite or calcite mixed with some distilled water in the chemical reactor will give you the fertilizer you need.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62005,7 +62005,7 @@
     {
       "questID": 723,
       "name": "Potatos, Carrots, Pumkins and Melons",
-      "description": "Your Seedbags have tree different values. Growth, gain and resitance \u003d GGR.\n\nThe only way to change a crop\u0027s GGR without 3rd party tools is through Cross Breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both \"parent\" plants\u0027 GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.\n\nThe highest score for GGR is 31.",
+      "description": "Your seeds have three different values. growth, gain, and resistance (GGR).\n\nThe only way to change a crop\u0027s GGR without 3rd party tools is through cross breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both \"parent\" plants\u0027 GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.\n\nThe highest score for GGR is 31.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62112,7 +62112,7 @@
     {
       "questID": 724,
       "name": "Weed",
-      "description": "Weed will gown up from time to time on your crop sticks. Be careful and harvest the weed with you weed towel  before the whole field are overgrown with weed and destroy all your plants. Later you can make some Weed Ex to destroy it.",
+      "description": "Weed will show up from time to time on your crop sticks. Be careful and harvest the weed with your weed trowel before the whole field becomes overgrown with them and they destroy all your plants. Later you can make some weed Ex to destroy it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62210,7 +62210,7 @@
     {
       "questID": 725,
       "name": "Flower Power",
-      "description": "Growing Deys on Crops Sticks? Try to plant some flowers. If you cross Breeding Rose and Dandoline Flowers you maybe get new Flowers and new dyes with different colors.",
+      "description": "Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62315,7 +62315,7 @@
     {
       "questID": 726,
       "name": "Chemical rubber production",
-      "description": "A much more efficient Way to make insulated Cables is make molten Rubber in the Chemical reactor which can be applied to Cable in the Assembler. When put both Machines close together you can output the molten rubber to the Assembler.",
+      "description": "A much more efficient way to make insulated cables is by making molten rubber in the chemical reactor which can be applied to a cable in the Assembler. When you put both machines next to each other you can output the molten rubber directly to the assembler.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62419,7 +62419,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each 16 stacks also they can be used for an \"ghetto ME storage system 񙧑񗝝񘄹�9񙓫񘘡(Tec2k17)\"�0 later in the HV age with some help from ProjectRed Transportation.�6",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system 񙧑񗝝񘄹�9񙓫񘘡(Tec2k17)\"�0 later in the HV age with some help from ?cProjectRed Transportation.?6",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62500,7 +62500,7 @@
     {
       "questID": 728,
       "name": "Compact Drawers",
-      "description": "They are very compact and add some faciness to your glorious dirt base. ",
+      "description": "They are very compact and add some fanciness to your glorious dirt base. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62575,7 +62575,7 @@
     {
       "questID": 729,
       "name": "Framing Drawers",
-      "description": "Now you can really make some swaggy and even more FANCY drawers useing this table all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take their texture, the TOP left is the Outer Square BOTTOM left is for the Front Face and TOP right is for the Borders.",
+      "description": "Now you can really make some swaggy and even FANCIER drawers using this table, all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take their texture, the TOP left is the outer Square bottom left is for the front face and top right is for the borders.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62656,8 +62656,8 @@
     },
     {
       "questID": 730,
-      "name": "Bio Gas Source",
-      "description": "You are using Steam, Creosote and Maybe Oil and their By-Products to generate Power. It\u0027s now time to start with Biogas. As Source you can using Wheat, Sugarcane, Apples or Tree Saplings.\n\nBe sure you have a managed Forestry farm, Steve Cart\u0027s Farm or Ic2 Crop Sticks with Harvestor because you need plenty of Bio Materials for a constant Bio Gas production.\n\nHint: Hazelnut is the ultimative source for Biogas.",
+      "name": "Biogas Source",
+      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biogas. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or Ic2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biogas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62735,7 +62735,7 @@
     {
       "questID": 731,
       "name": "Plant balls",
-      "description": "The first step is to compress plant balls out of your Wheat. Your LV Compressor is to slow for it. I suggest to craft 4 MV Compressors for the new Bio Gas Processing Line.",
+      "description": "The first step is to compress plant balls out of your wheat. Your LV Compressor is to slow for it. I suggest to craft 4 MV Compressors for the new biogas processing Line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62839,7 +62839,7 @@
     {
       "questID": 732,
       "name": "Plant Mass",
-      "description": "Macerating the Plant Balls down to Plant mass for a better procesing. In Lv and MvTier you get only one Platmass our in HV Tier two. IV Macerator gives up to four items with a chance of 50% and 25%.",
+      "description": "Macerate the plantballs down to plant mass for better processing. In the LV and MV tiers you get only one plant mass per, in HV tier you recieve two. IV Macerator gives up to four of them with a chance of 50% and 25%.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62943,7 +62943,7 @@
     {
       "questID": 733,
       "name": "Bio Chaff",
-      "description": "Plant Mass needs to  centrifuged to Bio Chaff the base material to make Bio Mass. You need 1-2 Mv Centrifuges to run the new Production line.",
+      "description": "Plant mass needs to be centrifuged into bio chaff, the base material to make biomass. You need 1-2 MV Centrifuges to run the new production line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63047,7 +63047,7 @@
     {
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
-      "description": "The first way you get Biomass out of Bio Chaff is to use the IC2 Fluid Canner. One Bucket Water and one Bio Chaff give one Bucket of Bio Mass. In HV Tier you can usethe Pyrolyze Oven to do it a  more efficient way.",
+      "description": "The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff give one bucket of biomass. In HV Tier you can use the Pyrolyze Oven to do it in a more efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63151,7 +63151,7 @@
     {
       "questID": 735,
       "name": "Way Two: Brewery",
-      "description": "If you are lucky and find some Brewing stand or be familiar with Thaumcraft to craft one you can craft a  Brewery. You get  750mb Biomass out of 750mb Water and 1 Bio Chaff. In HV Tier you can usethe Pyrolyze Oven to do it a more efficient way.",
+      "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a Brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the Pyrolyze Oven to do it in a more efficient way.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63254,8 +63254,8 @@
     },
     {
       "questID": 736,
-      "name": "Bio Gas",
-      "description": "With the MV Distillery you can distilling Bio Gas out of the Bio Mass. If you reach HV Tier there are a more efficient wayto process it. The Distillation Tower Multi Block.\nBio Gas have a burn value of 40000 EU per Cell in the Gas Turbine.",
+      "name": "Biogas",
+      "description": "With the MV Distillery you can distill biogas out of the biomass. If you reach HV Tier there\u0027s a more efficient way to process it, the Distillation Tower Multi Block.\nBiogas has a burn value of 40,000 EU per cell in the Gas Turbine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63366,7 +63366,7 @@
     {
       "questID": 737,
       "name": "Can u eat those? ",
-      "description": "No you can\u0027t eat them but you can add them to your routed pipes without chips routed pipes can\u0027t do anything on their own, chips also have a GUI to configure them wich can be opened by right clicking. \nThere are 8 types of chips:\n\n-Item Extractor Chip can be used to send items from its inventory to Responder , Dynamic Responder , Terminator and Overflow Responder chips in a pipe network. \n\n-Item Responder Chip will request items from the Extractor Chips in your network wich match the filter configured to the inventory connected to Responder Chip , chips with higher priority value will recive items first untill the inventory is full then will be sent to other inventories with valid filters and remaining space.\n\n-Dynamic Item Responder Chip will request items from the Extractor Chips in your network that match items inside the Dynmaic Item Responder connected inventory, this chip has to be in the same Interface Pipe as the Item Responder Chip in order to work. Priority rules apply here aswell. \n \n-Item Overflow Responder this works exactly the same as the Item Responder Chip but is gonna only accept only items that cannot go to an Item Responder Chip, Dynamic Item Responder Chip, or Item Terminator Chip. \n\n-Item Terminator Chip works as a backup for Responder chips.\n\n-Item Broadcaster Chip will show you the inventory connected to the Routed Request Pipe on the pipe network and can be used to retrive items from it they can also extractor for wich side you configure them. \n\n-Item Stock Keeper Chip will constantly check the network for items and pull them to its pipe. If the chip is set to pull when empty, it will only pull if the inventory next to it is empty, otherwise it will pull when there are less items in the inventory than configured in the chip.\n\n-Item Crafting Chips crafts things. \n\n-Item Crafting Extension Chips you need to place those inside the Item Crafting Chips make sure u randomize the id.",
+      "description": "No you can\u0027t eat them but you can add them to your routed pipes. Without chips routed pipes can\u0027t do anything on their own, chips also have a GUI to configure them wich can be opened by right clicking. \nThere are 8 types of chips:\n\n-Item extractor chip can be used to send items from its inventory to responder, dynamic responder, terminator and overflow responder chips in a pipe network. \n\n-Item responder chip will request items from the extractor chips in your network wich match the filter configured to the inventory connected to the responder chip. Chips with higher priority value will receive items first until the inventory is full then will be sent to other inventories with valid filters and remaining space.\n\n-Dynamic item responder chip will request items from the extractor chips in your network that match items inside the dynamic item responder connected inventory. This chip has to be in the same interface pipe as the item responder chip in order to work. Priority rules apply here as well. \n\n-Item overflow responder works exactly the same as the item responder chip, however it only accepts items that cannot go to an item responder chip, dynamic item responder chip, or item terminator chip. \n\n-Item terminator chip works as a backup for responder chips.\n\n-Item broadcaster chip will show you the inventory connected to the routed request pipe on the pipe network and can be used to retrieve items from it. They can also extract for wich side you configure them. \n\n-Item stock keeper chip will constantly check the network for items and pull them to its pipe. If the chip is set to pull when empty, it will only pull if the inventory next to it is empty, otherwise it will pull when there are less items in the inventory than configured in the chip.\n\n-Item crafting chips craft things. \n\n-Item crafting extension chips are placed inside the item crafting chips. Make sure you randomize the id.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63634,7 +63634,7 @@
     {
       "questID": 738,
       "name": "Routed Pipes",
-      "description": "There are six types of routed pipes: \n\n-Junction pipe mains use is to form an intersection that will allow other routed pipes to communicate. \n\n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be use to control the logic. \n\n-Request pipe will allow requestig only specific items to be send thorugh pipes\n\n-Firewall pipe can control wich items can pass though them.",
+      "description": "There are six types of routed pipes: \n\n-Junction pipe is used to form an intersection that will allow other routed pipes to communicate. \n\n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be used to control the logic. \n\n-Request pipe will allow requesting only specific items to be send through pipes.\n\n-Firewall pipe can control wich items can pass through them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63745,7 +63745,7 @@
     {
       "questID": 739,
       "name": "Ghetto Me System",
-      "description": "Now that you are familiar with the mod its time to organize items in your base a bit those are the things u need in order to get a basic extract/insert system.\n\nFirst of all you will need a drawer controller you can pick it from here or craft it yourself and place it down now add next to it as mucn drawers as u want, make sure they are touching the controller (lewd).\n\nThe next step is to connect a Routed Interface Pipe to your drawer controller now take the Item Responder Chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the Routed Interface Pipe by right clicking on it don\u0027t forget the Dynamic Item Responder.\n\nBut in order to allow your system to be able to see items you need to add the Item Broadcast Chip TO THE SAME ROUTED INTERFACE PIPE WICH IS CONNECTED TO THE DRAWER CONTROLLER.\n\nThe last step is to connect a Routed Request Pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to acess the GUI , you can only extract items from it in order to insert simply right click them on the Drawer Controller. \n\nYou can find more complex tutorials on youtube for autocrafting.",
+      "description": "Now that you are familiar with the mod it\u0027s time to organize items in your base a bit. These are the things you need in order to get a basic extract/insert system.\n\nFirst of all you will need a drawer controller. You can pick it from here or craft it yourself and place it down. Next to it add as much drawers as you want, and make sure they are touching each other or the controller.\n\nThe next step is to connect a routed interface pipe to your drawer controller. Take the item responder chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the routed interface pipe by right clicking on it. Don\u0027t forget the dynamic item responder.\n\nIn order to allow your system to be able to see items you need to add the item broadcast chip TO THE SAME ROUTED INTERFACE PIPE WICH IS CONNECTED TO THE DRAWER CONTROLLER.\n\nThe last step is to connect a routed request pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to acess the GUI. You can only extract items from it. In order to insert items simply right click them on the drawer controller. \n\nYou can find more complex tutorials on youtube for autocrafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63868,7 +63868,7 @@
     {
       "questID": 740,
       "name": "Extrude all the things",
-      "description": "Now you hit Mv Tier and its time to get a better ratio making Sticks, Pipes, Wires, Plates and many more Parts. Most recipes using  more the 32 eu/t so better make a Mv Extruder. After you crafting the machine you are need some Extruder Shape Forms  for the different pasrt you want to make.\n\nMost of The Tinkers Gregworks Tool Parts are made in the Extruder.",
+      "description": "Now you hit the MV Tier and it\u0027s time to get a better ratio when making sticks, pipes, wires, plates and many more parts. Most recipes use more than 32 eu/t so better make a MV extruder. After crafting the machine you need some extruder shapes for the different types of parts you want to make.\n\nMost of the Tinkers Gregworks tool parts are made in the extruder.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -64017,7 +64017,7 @@
     {
       "questID": 741,
       "name": "Tool Forge",
-      "description": "Finaly you get your first Alumium. Now it\u0027s time to craft some Tool forge for make Bigger Tinkers Tools. ",
+      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64127,7 +64127,7 @@
     {
       "questID": 742,
       "name": "One Block mining is so Old School",
-      "description": "By making a Steel Hammer you now able to mining a Shaft by 3x3. Be Carful in the Nether or you will be boiled in Lava very  quickly.",
+      "description": "By making a steel hammer you are now able to mine a shaft of 3x3 blocks. Be careful in the Nether or you could be boiled in lava very quickly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64303,8 +64303,8 @@
     },
     {
       "questID": 743,
-      "name": "Cutting a Three log by log is so old School",
-      "description": "By making a Steel Lumber Axe you now able to cunting down the entiery Three in one hit. Not forget your Backpack when you are cutting a Sacred Oak three down.",
+      "name": "Cutting a Tree log by log is so old School",
+      "description": "By making a steel lumber axe you are now able to cut down the entire tree in one hit. Don\u0027t forget your backpack when you are cutting a sacred oak three down.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64478,7 +64478,7 @@
     {
       "questID": 744,
       "name": "Mining Dirt Block by Block is so old School",
-      "description": "By making a Steel Excavator you now able to mining Dirt  by 3x3. Not destroy your whole garden.",
+      "description": "By making a steel excavator you are now able to mine dirt in a 3x3 area. Don\u0027t destroy your whole garden.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64652,7 +64652,7 @@
     {
       "questID": 745,
       "name": "Circuit Boards",
-      "description": "To make Circuit Boards you need Etched midium voltage Wires and a Empty Circuit Board. Put all together in the forming Press.",
+      "description": "To make circuit boards you need etched medium voltage wires and an empty circuit board. Press those together in the forming press.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64758,7 +64758,7 @@
     {
       "questID": 746,
       "name": "Silicon",
-      "description": "Due the Chip Production Silicon becomes a more important Material.  You can centrifuged it out of Fullers Earth, Asbestos or Redstone dust. For making Ingots theEBF is needed. One Ingot need a Temperature of 1687 K and 84 Seconds at 120 EU/t.",
+      "description": "Due to the chip production silicon becomes a more important material. You can centrifuge it out of fullers earth, asbestos or redstone dust. The EBF is needed to make ingots. One ingot requires a Temperature of 1687 K for 84 seconds at 120 EU/t.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64855,8 +64855,8 @@
     },
     {
       "questID": 747,
-      "name": "Etched Midium Voltage Wires",
-      "description": "Ethched Midium Voltage Wire is one item for the new Circuit Board. It\u0027s made in the Laser Ingraver.",
+      "name": "Etched Medium Voltage Wires",
+      "description": "Etched medium voltage wire is one item for the new circuit board. It\u0027s made in the laser engraver.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64961,7 +64961,7 @@
     {
       "questID": 748,
       "name": "Empty Circuit Board",
-      "description": "Empty Circuit Boards need one Plate Silicon adn one Plate Plastic. Assembles it to a Empty Circuit Board.",
+      "description": "Empty circuit boards require one silicon plate and one polyethylene sheet. Assemble those into an empty circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65066,7 +65066,7 @@
     {
       "questID": 749,
       "name": "Are you Prepared for HV ?",
-      "description": "Stainless Steel will be the Material for HV Tier. There are two ways to process it. Mixing it with Hand outputs 8 Stainless Steel Dust.\n\nManganese can be found in Ore Veins together with Grossulare Ore, Spessartine Ore, Pyrolosite Ore andTantalite Ore.\n\nChrome can be centrifuged out of Maganganese Dust and Ruby Dust.",
+      "description": "Stainless steel will be the material for the HV Tier. There are two ways to process it. Mixing it by hand outputs 8 stainless steel Dust.\n\nManganese can be found in ore veins together with grossular ore, spessartine ore, pyrolusite ore and tantalite ore.\n\nChrome can be centrifuged out of manganese dust and ruby dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65182,7 +65182,7 @@
     {
       "questID": 750,
       "name": "Molten Platic",
-      "description": "Molten Polyethylen can be made in the Chemical reactor wit Naptha and Compressed Air Cells. Bio Mass is also a source for make Polyethylen. Using a Fluid Solidifier and a Plate Form to make Plastic Sheets.",
+      "description": "Molten polyethylene can be made in the chemical reactor using naptha and compressed air cells. Biomass is also a source for making Polyethylen. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65309,7 +65309,7 @@
     {
       "questID": 751,
       "name": "Mixing Stainless Steel",
-      "description": "Stainless Steel will be the Material for HV Tier. There are two ways to process it. Mixing it in a Mixer outputs 9 Stainless Steel Dust each process.\n\nManganese can be found in Ore Veins together with Grossulare Ore, Spessartine Ore, Pyrolosite Ore andTantalite Ore.\n\nChrome can be centrifuged out of Maganganese Dust and Ruby Dust.",
+      "description": "Stainless steel will be the material for the HV Tier. There are two ways to process it. Mixing it in a mixer outputs 9 stainless steel dust each process.\n\nManganese can be found in ore veins together with grossular ore, spessartine ore, pyrolusite ore and tantalite ore.\n\nChrome can be centrifuged out of manganese dust and ruby dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65440,7 +65440,7 @@
     {
       "questID": 752,
       "name": "Silicon Plate",
-      "description": "Most of the Circuit and the Solar Pannels recipes using Silicon Plates.",
+      "description": "Most of the circuit and solar panels recipes are using silicon plates.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65517,7 +65517,7 @@
     {
       "questID": 753,
       "name": "Stainless Steel EBF processing",
-      "description": "Stainless Steel Ingots are made in the Electronic Blast Furnace at a Temperatur og 1700K  \n80 Sec at 480eu/t and with Oxygen Gas 60 Sec at 480eu/t.\n\nYou need miniumum two MV Energy Hatches to process it.",
+      "description": "Stainless steel ingots are made in the electric blast furnace at a temperature of 1700K  \n80 seconds at 480 eu/t or using oxygen gas 60 seconds at 480 eu/t.\n\nYou need a miniumum of two MV energy hatches to power the EBF.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65591,7 +65591,7 @@
     {
       "questID": 754,
       "name": "MV Energy Hatch",
-      "description": "Some materials like Stainless Steel need 480 eu/t. Your lv Hatches not gone make this. Crafting a minimum of two Hatches to upgrade your EBF to HV.",
+      "description": "Some materials like stainless steel require 480 eu/t. Your LV Hatches are not good enough. Craft a minimum of two  Hatches to upgrade your EBF to HV.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65662,8 +65662,8 @@
     },
     {
       "questID": 755,
-      "name": "Better then Duct Tape",
-      "description": "Better then Duct Tape is a Soldering Iron Tool to remove the burned out Circuits message. \nThe Soldering Iron requires one soldering material item and 10,000 EU. Valid soldering materials are Fine Wires, Rods, and Ingots made from either Tin, Lead, or Soldering Alloy. The Soldering Iron will consume the first such material it finds in the player\u0027s inventory.\n\nFor the other Problems other Tools are necessary.\n\nPossible Problems                  Tool to Fix\n\"Pipe is loose.\"                        Wrench\n\"Screws are missing.\"             Screwdriver \n\"Something is stuck.\"               Soft Hammer \n\"Platings are dented.\"            Hammer \n\"Circuitry burned out.\"          Soldering Iron \n\"That doesn\u0027t belong there.\" Crowbar",
+      "name": "Better than Duct Tape",
+      "description": "Better than duct tape is a soldering iron tool to remove the burned out circuits message. \nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player\u0027s inventory.\n\nFor the other problems other tools are necessary.\n\nPossible problems                  Tool to fix\n\"Pipe is loose.\"                        Wrench\n\"Screws are missing.\"             Screwdriver \n\"Something is stuck.\"               Soft mallet \n\"Platings are dented.\"            Hammer \n\"Circuitry burned out.\"          Soldering Iron \n\"That doesn\u0027t belong there.\" Crowbar",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65754,7 +65754,7 @@
     {
       "questID": 756,
       "name": "Less Power loss",
-      "description": "When you reach Mv Tier you can make your Own Duct Tape in case you have to move your EBF around.  Duct tape will remove all errors in the EBF.",
+      "description": "When you reach MV Tier you can make your own duct tape in case you have to move your EBF around. Duct tape will fix all maintenance problems in the EBF.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65886,7 +65886,7 @@
     {
       "questID": 757,
       "name": "Ruby Electrolyzing",
-      "description": "Ruby is a good Source for electrolysing Chrome and Aluminium out.  With you ne  MV Electrolyser you able to do all these recipes.",
+      "description": "Ruby is a good source for electrolysing to get chrome and aluminium.  With your new MV electrolyser you are able to do all these recipes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65989,7 +65989,7 @@
     {
       "questID": 758,
       "name": "MV Batteries",
-      "description": "Better Machines needs some better Batteries. Let\u0027s make some MV Battery Hulls for new Batteries. Now its up to you making Lithium, Cadmium, Sodium or Acid Batteries out of it.",
+      "description": "Better machines need some better batteries. Let\u0027s make some MV battery hulls for new batteries. Now it\u0027s up to you to make lithium, cadmium, sodium or acid batteries with these hulls.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66060,7 +66060,7 @@
     {
       "questID": 759,
       "name": "Plastic out of Bio Mass",
-      "description": "You found a way making plastic out of Bio mass is more easy the make it out of Naptha.",
+      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66151,7 +66151,7 @@
     {
       "questID": 760,
       "name": "Clay Electrolyzing",
-      "description": "You found out that clay is a very good source for electrolysing silicon out of it. There are Plenty of Stained Clay Blocks found in Canyon Biomes or on Maountains.",
+      "description": "You found out that clay is a very good source for electrolysing silicon out of it. There are plenty of stained clay blocks found in canyon biomes or on mountains.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66243,7 +66243,7 @@
     {
       "questID": 761,
       "name": "Powder Barrels",
-      "description": "Powder Barrels are twice better then Dynamite in the Implosion Compressor. Craft one Stack.",
+      "description": "Powderbarrels are twice better than dynamite in the implosion compressor. Craft one Stack.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66353,7 +66353,7 @@
     {
       "questID": 762,
       "name": "TNT",
-      "description": "TNT is much more powerfull the the Powder Barrel but much harder to craft. There are a LV and a HV way to craft. At LV You need Heavy or Light Fuel make some Toluene wich can be solidified to Gelled Toluene. Alternativ you can use sugar and plastic dust in the chemical reactor make Toluene more efficent.  Mixing it with Sulfuric Acid to make TNT.\n\nThe Hv Way need some Oil cracker using cracked Oil to make Toluene or distilled it in the Destillation Tower.",
+      "description": "TNT is much more powerful than the powderbarrel but much harder to craft. There are a LV and a HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in the chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.\n\nThe HV way requires an oil cracking unit to make cracked light fuel and a distillation tower to extract toluene from that.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66484,7 +66484,7 @@
     {
       "questID": 763,
       "name": "iTNT",
-      "description": "iTnt is the Hv variant of TNT. It not destroy blocks after explosion.",
+      "description": "Industrial TNT is the HV variant of TNT. It does not destroy blocks when it explodes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66621,7 +66621,7 @@
     {
       "questID": 764,
       "name": "Dynamit",
-      "description": "Dynamite is the very basic Explosive you can use in the Implosion Compressor.\nMixing some Sand, Flint Dust, Gun Powder and a Fuse in the mixer.",
+      "description": "Dynamite is the most basic explosive you can use in the implosion compressor.\nMixing some sand, flint dust, gunpowder and a fuse in the mixer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66758,7 +66758,7 @@
     {
       "questID": 765,
       "name": "Time to drill! ",
-      "description": "Pumps are nice but you\u0027re gonna reach a point where you will want MOOOOOOOOOOOOORE oil, this multiblock will help with that but you will need to search for it using a Seismic Prospector you can find Raw , Light and Heavy Oil also there is a chance to find Natural Gas.\n\nHigher tier of power will drill faster you need to upgrade the energy hatch coresponding to the power tier. ",
+      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for it using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also  a chance to find Natural Gas.\n\nHigher tiers of power will drill faster you need to upgrade the energy hatch coresponding to the power tier. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66896,7 +66896,7 @@
     {
       "questID": 766,
       "name": "Let\u0027s get it crackin!",
-      "description": "Cracking oil will result in better byproducts in the Distillation Tower it is a smart idea to get this multiblock since you are gonna need TONS OF TNT for advanced tier rockets. \n\nIf you input steam eu/t will be reduced by 50% and if you input hydrogen the output will be increased by 30%",
+      "description": "Cracking oil will result in better byproducts in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of TNT for advanced tier rockets. \n\nIf you input steam the amout of eu/t will be reduced by 50% and if you input hydrogen the output will be increased by 30%",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67030,7 +67030,7 @@
     {
       "questID": 767,
       "name": "Analyzing the soil",
-      "description": "To determinate which kind of oil or gas there is in the chunk you need to scan the soil by right clicking the Seismic Prosperctor with 8 Dyanmite , 4 TNT , 2 ITNT or 1 Glyceryl then a Data Stick is required to extract the data, just right click on it after the animation finished.\nProTip: you can do it more efficiently by scanning every 6 chunks. \n\nNow you need to add the analyzed Data Stick to a Scanner after this place it in the bottom right slot of the Printer and add 3 paper in the top left slot and make sure you have atleast 144 mb Squid Ink in it. (Only Gregtech machines will work)\n\nAfter the process in done take the printed page and combine it with a piece of lether in a assembler filled with atleast 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
+      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking the seismic prospector with 8 dynamite, 4 TNT, 2 ITNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nProTip: you can do it more efficiently by scanning every 6 chunks. \n\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only Gregtech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembler filled with at least 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67107,7 +67107,7 @@
     {
       "questID": 768,
       "name": "You smell like a Distillery",
-      "description": "This bad boy will boost tremendously the byproduct of your cracked fuel by multiplying it to 5 this way you can make more efficiently itnt, polythylene , polytetrafluoroethyline and other plastics. \n\nYou will need this also for your automatic setups. ",
+      "description": "This bad boy will tremendously boost the byproducts of your cracked fuel by multiplying them by 5. This way you can make ITNT, polyethylene, polytetrafluoroethyline and other plastics more efficiently. \n\nYou will also need this for your automated setups.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
