@@ -75,6 +75,7 @@ Forum Link: http://gtnewhorizons.com/<BR>
 Official EU Server Public Whitelisted<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
+epsilon.gtnewhorizons.com<BR>
 
  
 Dirt Huts EU Server Whitelisted<BR>
@@ -111,7 +112,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ## Modlist - NewHorizons 1.4.1.0 --- 13.04.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta8<BR>
+* Adventure Backpack 0.9gbeta9<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
@@ -204,6 +205,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
+* Lootgames 1.0.11a<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
