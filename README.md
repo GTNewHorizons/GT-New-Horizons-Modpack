@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.1.0pre3 is out 28.03.2014
+Version pre1.4.1.0 is out 13.04.2014
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -108,10 +108,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.4.1.0pre3 --- 28.03.2017<BR>
+## Modlist - NewHorizons 1.4.1.0 --- 13.04.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta1<BR>
+* Adventure Backpack 0.9gbeta8<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
@@ -177,14 +177,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.483<BR>
-* GalacticraftCore	3.0.12.483<BR>
+* Galacticraft-Planets	3.0.12.485<BR>
+* GalacticraftCore	3.0.12.485<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.27.37<BR>
-* GT New Horizons Core Mod	1.3.35<BR>
+* Gregtech	5.09.27.39<BR>
+* GT New Horizons Core Mod	1.3.39<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -208,7 +208,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.483<BR>
+* MicdoodleCore	3.0.12.485<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -269,7 +269,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumic Exploration	1.1.60<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.541-GTNH<BR>
+* Thaumic Tinkerer	2.5.542-GTNH<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.4-GTNH<BR>
 * Tinker's Gregworks	1.0.16<BR>
@@ -289,7 +289,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.73<BR>
+* YamCore	0.5.75<BR>
 * Ztones	2.2.2custom<BR>
 
 
