@@ -514,5 +514,6 @@ public class GT_Loader_Items
 		CustomItemList.BedrockiumPlate.set(ItemList.BedrockiumPlate.getIS());
 		CustomItemList.EngineCore.set(ItemList.EngineCore.getIS());
 		CustomItemList.AlumiteDust.set(ItemList.AlumiteDust.getIS());
+		CustomItemList.TwilightCrystal.set(ItemList.TwilightCrystal.getIS());
 	}
 }

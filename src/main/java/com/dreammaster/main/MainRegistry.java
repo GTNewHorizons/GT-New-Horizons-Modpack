@@ -187,6 +187,23 @@ public class MainRegistry
         }
         // ------------------------------------------------------------
 
+        // register final list with valid items to forge
+        Logger.debug("LOAD Register Items");
+        ItemManager.RegisterItems(TabManager);
+
+        Logger.debug("LOAD Register Blocks");
+        BlockManager.RegisterItems(TabManager);
+
+        Logger.debug("LOAD Register Fluids");
+        FluidManager.RegisterItems(TabManager);
+
+        // register all non-enum items
+        Logger.debug("LOAD Register non enum Items");
+        if (!RegisterNonEnumItems())
+        {
+            Logger.error("Some extended items could not be registered to the game registry");
+            AddLoginError("[CoreMod-Items] Some extended items could not be registered to the game registry");
+        }
         if (PreEvent.getSide() == Side.CLIENT)
         {
             FMLCommonHandler.instance().bus().register(new NotificationTickHandler());
@@ -205,23 +222,7 @@ public class MainRegistry
     @EventHandler
     public void load(FMLInitializationEvent event)
     {
-        // register final list with valid items to forge
-        Logger.debug("LOAD Register Items");
-        ItemManager.RegisterItems(TabManager);
 
-        Logger.debug("LOAD Register Blocks");
-        BlockManager.RegisterItems(TabManager);
-
-        Logger.debug("LOAD Register Fluids");
-        FluidManager.RegisterItems(TabManager);
-
-        // register all non-enum items
-        Logger.debug("LOAD Register non enum Items");
-        if (!RegisterNonEnumItems())
-        {
-            Logger.error("Some extended items could not be registered to the game registry");
-            AddLoginError("[CoreMod-Items] Some extended items could not be registered to the game registry");
-        }
 
         // register events in modules
         RegisterModuleEvents();

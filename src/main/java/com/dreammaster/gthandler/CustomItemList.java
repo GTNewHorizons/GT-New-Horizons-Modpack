@@ -126,7 +126,7 @@ public enum CustomItemList implements IItemContainer
 	HotNetherrackBrick, InfernalBrick, AdvancedCokeOvenBrick, CokeOvenBrick,
 	MedalDerp,MedalGTExplosion,MedalBuilder,MedalEngineer,MedalWarp,
 	MaceratedPlantmass, BedrockiumPlate, EngineCore, AlumiteDust,
-	nameRemover;
+	nameRemover, TwilightCrystal;
 
 
 	private ItemStack mStack = null;

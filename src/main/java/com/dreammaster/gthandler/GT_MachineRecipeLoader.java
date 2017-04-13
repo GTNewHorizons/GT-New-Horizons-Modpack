@@ -238,6 +238,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Enderium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Iridium, 8L), ItemList.Casing_Tank_7.get(1L), 100, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Naquadah, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Osmium, 8L), ItemList.Casing_Tank_8.get(1L), 100, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Neutronium, 8L), ItemList.Casing_Tank_9.get(1L), 100, 16);
+        GT_Values.RA.addAssemblerRecipe(new ItemStack(Items.diamond, 1, 0), ItemList.Circuit_Basic.get(4L), CustomItemList.TwilightCrystal.get(1L), 600, 16);
+
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.MysteriousCrystal, 1L), CustomItemList.BedrockiumPlate.get(8L), ItemList.Casing_Tank_10.get(1L), 100, 16);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L), 								ItemList.Circuit_Integrated.getWithDamage(0L, 1L), GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L), GT_Values.NI, 2400, 120, 3300);
