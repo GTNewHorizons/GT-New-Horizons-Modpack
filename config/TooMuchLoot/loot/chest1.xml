@@ -62,5 +62,6 @@
 	<loot item="Railcraft:machine.beta" damage="4" weight="15" count_min="4" count_max="8"/>
 	<loot item="Railcraft:machine.beta" damage="5" weight="10" count_min="1" count_max="2"/>
 	<loot item="Railcraft:machine.beta" damage="6" weight="10" count_min="1" count_max="2"/>
+	<loot item="BuildCraft|Factory:tankBlock" damage="0" weight="20" count_min="2" count_max="4"/>
 	
 </lootGroup>
