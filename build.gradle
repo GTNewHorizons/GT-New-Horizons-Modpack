@@ -179,3 +179,8 @@ processResources
         exclude 'mcmod.info'
     }
 }
+idea {
+    module {
+        inheritOutputDirs = true
+    }
+}
