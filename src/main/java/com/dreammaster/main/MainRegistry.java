@@ -58,7 +58,7 @@ import java.util.Random;
         modid = Refstrings.MODID,
         name = Refstrings.NAME,
         version = Refstrings.VERSION,
-        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.73,);" + "required-after:Baubles@[1.0.1.10,);")
+        dependencies = "required-after:Forge@[10.13.2.1291,);" + "required-after:YAMCore@[0.5.76,);" + "required-after:Baubles@[1.0.1.10,);")
 public class MainRegistry
 {
 
