@@ -44509,7 +44509,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "By adding hydrogen to sulfuric heavy fuel in a Chemical Reactor you can produce some heavt fuel with a burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "description": "By adding hydrogen to sulfuric heavy fuel in a Chemical Reactor you can produce some heavy fuel with a burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
