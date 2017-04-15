@@ -9,7 +9,7 @@
 	<loot item="gregtech:gt.blockmachines" damage="5122" weight="15" count_min="4" count_max="8"/>
 	<loot item="gregtech:gt.blockmachines" damage="2" weight="10" count_min="2" count_max="4"/>
 	<loot item="gregtech:gt.blockmachines" damage="4" weight="10" count_min="1" count_max="2"/>
-    <loot item="IC2:blockMachine" damage="1" weight="20" count_min="2" count_max="4"/>
+	<loot item="IC2:blockMachine" damage="1" weight="20" count_min="2" count_max="4"/>
 	<loot item="minecraft:piston" damage="0" weight="20" count_min="4" count_max="6"/>
 	<loot item="IC2:itemCasing" damage="0" weight="20" count_min="4" count_max="8"/>
 	<loot item="IC2:itemCasing" damage="1" weight="20" count_min="4" count_max="8"/>
@@ -63,5 +63,4 @@
 	<loot item="Railcraft:machine.beta" damage="5" weight="10" count_min="1" count_max="2"/>
 	<loot item="Railcraft:machine.beta" damage="6" weight="10" count_min="1" count_max="2"/>
 	<loot item="BuildCraft|Factory:tankBlock" damage="0" weight="20" count_min="2" count_max="4"/>
-	
-</lootGroup>
+</LootGroup>
