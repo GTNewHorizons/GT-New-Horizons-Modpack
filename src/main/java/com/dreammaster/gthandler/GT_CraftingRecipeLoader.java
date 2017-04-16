@@ -6,6 +6,7 @@ import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_CraftingRecipeLoader
@@ -199,5 +200,14 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 2L, 13), tBitMask, new Object[]{"SPS", "PdP", "SPS", 'P', OrePrefixes.plate.get(Materials.Steel), 'S', OrePrefixes.screw.get(Materials.Steel)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 14), tBitMask, new Object[]{"SPS", "LdL", "SPS", 'P', OrePrefixes.plate.get(Materials.Steel), 'S', OrePrefixes.screw.get(Materials.Steel), 'L',GT_ModHandler.getModItem("Railcraft", "machine.beta", 1L, 1)});
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem(aTextRailcraft, aTextMachineBeta, 1L, 15), tBitMask, new Object[]{"SPS", "BdB", "SPS", 'S', OrePrefixes.screw.get(Materials.Steel), 'B', CustomItemList.SteelBars, 'P', OrePrefixes.pipeLarge.get(Materials.Steel)});
-        }
+
+        GT_ModHandler.addCraftingRecipe(CustomItemList.UnfiredClayBrick.get(8L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "CFC", "CCC", 'C', new ItemStack(Items.clay_ball, 1, 32767), 'F', CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredClayBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{new ItemStack(Items.clay_ball, 1, 32767), CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.UnfiredSearedBrick.get(8L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"GGG", "GFG", "GGG", 'G', GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 1), 'F', CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredSearedBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 1), CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.UnfiredCokeOvenBrick.get(3L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"CCC", "SFS", "SSS", 'C', new ItemStack(Items.clay_ball, 1, 32767), 'S', OrePrefixes.block.get(Materials.Sand), 'F', CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredCokeOvenBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{new ItemStack(Items.clay_ball, 1, 32767), OrePrefixes.block.get(Materials.Sand), OrePrefixes.block.get(Materials.Sand), CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addCraftingRecipe(CustomItemList.UnfiredSlimeSoulBrick.get(8L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "SFS", "SSS", 'S', GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 6), 'F', CustomItemList.WoodenBrickForm});
+        GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredSlimeSoulBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 6), CustomItemList.WoodenBrickForm});
     }
+}
