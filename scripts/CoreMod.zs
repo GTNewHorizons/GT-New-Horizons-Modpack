@@ -804,38 +804,6 @@ recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
 [Knife, BlankPattern, null]]);
 
-// --- Unfired Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredClayBrick>, [<minecraft:clay_ball>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredClayBrick> * 8, [
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<minecraft:clay_ball>, WoodenBrickForm, <minecraft:clay_ball>],
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
-
-// --- Unfired Seared Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSearedBrick>, [<TConstruct:CraftedSoil:1>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredSearedBrick> * 8, [
-[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>],
-[<TConstruct:CraftedSoil:1>, WoodenBrickForm, <TConstruct:CraftedSoil:1>],
-[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
-
-// --- Unfired Coke Oven Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredCokeOvenBrick>, [<minecraft:clay_ball>, WoodenBrickForm, <ore:sand>, <ore:sand>]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick> * 3, [
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<ore:sand>, WoodenBrickForm, <ore:sand>],
-[<ore:sand>, <ore:sand>, <ore:sand>]]);
-
-// --- Unfired Slime Soil Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSlimeSoulBrick>, [<TConstruct:CraftedSoil:6>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredSlimeSoulBrick> * 8, [
-[<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>],
-[<TConstruct:CraftedSoil:6>, WoodenBrickForm, <TConstruct:CraftedSoil:6>],
-[<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>]]);
-
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
 
