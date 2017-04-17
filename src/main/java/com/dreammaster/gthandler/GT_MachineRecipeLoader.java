@@ -242,6 +242,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.MysteriousCrystal, 1L), CustomItemList.BedrockiumPlate.get(8L), ItemList.Casing_Tank_10.get(1L), 100, 16);
 
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.RawLapotronCrystal.get(1L),  GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Advanced, 2L), ItemList.IC2_LapotronCrystal.get(1L), 600, 1024);
+
+        GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.EnergeticAlloy.getMolten(576), CustomItemList.RawLapotronCrystal.get(1L), 10000, 2400, 480);
+        GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.VibrantAlloy.getMolten(288), CustomItemList.RawLapotronCrystal.get(1L), 10000, 1200, 480);
+
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L), 								ItemList.Circuit_Integrated.getWithDamage(0L, 1L), GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L), GT_Values.NI, 2400, 120, 3300);
 
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), 			ItemList.Circuit_Integrated.getWithDamage(0L,11L), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
@@ -732,6 +737,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Iron, 2L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 5L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Obsidian, 2L), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.AlumiteDust.get(9L), 200, 8);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 3L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Copper, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("TConstruct", "materials", 4L, 42), 200, 8);
+
+        GT_Values.RA.addMixerRecipe( ItemList.IC2_Energium_Dust.get(9L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Lapis, 6L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.LapotronDust.get(15L), 600, 480);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L), CustomItemList.Marshmallow.get(1L), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
