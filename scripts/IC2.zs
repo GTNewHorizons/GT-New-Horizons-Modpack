@@ -792,6 +792,8 @@ recipes.remove(<gregtech:gt.metaitem.02:7084>);
 // --- Iridium Shovel Head
 recipes.remove(<gregtech:gt.metaitem.02:2084>);
 
+// --- Lapotron Crystal
+recipes.remove(<IC2:itemBatLamaCrystal>);
 
 
 
@@ -1909,6 +1911,9 @@ PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> *
 
 // --- Basalt Dust
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2844>, <IC2:blockBasalt>);
+
+// --- Lapatron to dust
+Macerator.addRecipe(<dreamcraft:item.LapotronDust> * 30,  <IC2:itemBatLamaCrystal:26>);
 
 
 
