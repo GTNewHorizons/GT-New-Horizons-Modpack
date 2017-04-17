@@ -795,6 +795,9 @@ recipes.remove(<gregtech:gt.metaitem.02:2084>);
 // --- Lapotron Crystal
 recipes.remove(<IC2:itemBatLamaCrystal>);
 
+// --- Energium Dust
+recipes.remove(<IC2:itemDust2:2>);
+
 
 
 // --- Add Recipes ---
